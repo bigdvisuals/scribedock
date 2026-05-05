@@ -1,0 +1,216 @@
+YouTube
+https://www.youtube.com/watch?v=-VuZmoc-Sq8
+
+[00:00] This is the ultimate beginner's guide to vibe coding. It's the biggest shift in how software gets built in years, and I'm going to show you everything you need to know. We'll start with what vibe coding is and the tools that do it. Then, we'll build a real app together from scratch.
+
+[00:13] You'll learn how to plan it, prompt it, add logins and payments, publish it, and connect it to GitHub to keep building from there. No coding experience, no technical background needed. Just follow along. By the end, you'll have your own app live on the internet. Not a mock-up, not a demo, a real application anyone can use.
+
+[00:30] Now, I've built and launched a real product this way with paying customers using it right now. So, I'll also tell you where vibe coding shines and where you'll hit walls. Stick around for that part. But first, what is vibe coding and why is everyone talking about it? Vibe coding is building software by simply describing what you want in plain language and letting the AI build it for you.
+
+[00:51] The design, the database, the login system, everything. [music] The term was coined by Andrej Karpathy, one of the world's most respected AI researchers, in early 2025. He described it as just see things, say things, run things, copy-paste things until the software does what you want. You don't write code, you guide the AI.
+
+[01:08] Here's how it works. It's a loop. You describe your app, what it does, who it's for, what it needs, and the AI generates a working application. You test it and then tell the AI what to change. It changes it, and you repeat this until the app does exactly what you want. That's it.
+
+[01:26] Now, this is not the same as just using ChatGPT. Ask ChatGPT to build you an app, and it'll hand you code. Useful code, but you still need to set up a server, configure a database, handle hosting, deal with security. ChatGPT gives you the ingredients, but it doesn't cook the meal. Vibe coding platforms actually cook the meal.
+
+[01:43] You describe the app, and the platform generates it, hosts it, gives it a database and a login system, end to end. One thing to be clear about, though, one sentence doesn't give you a perfect app. The AI isn't magic, yet. You still guide it, test it, and iterate. The skill is in how you communicate, how precisely you describe what you want.
+
+[02:05] We'll spend a lot of time on that because it's what separates great results from frustration. All right, that's what vibe coding is. Now, let me show you what the tool landscape actually looks like. There are over a dozen vibe coding tools out there right now, and more launch every month. I'm going to give you a quick overview of the main categories so you know what's available, and then we'll pick one together and build something.
+
+[02:28] These tools fall in the three categories. The first category is all-in-one app builders. These are platforms like Base44, Lovable, and Bold.new. You describe your app, and they generate everything. The front end, the back end, the database, the hosting. [music] You don't touch code, you don't set up servers, you just describe what you want, and the platform handles the rest.
+
+[02:50] These are the most beginner-friendly option, and they're what most people think of when they hear the term vibe coding. The second category is AI-powered code editors. Tools like Cursor, Windswept, and GitHub Copilot. These still use a traditional code editor. You're looking at actual code files, but AI writes most of the code for you.
+
+[03:08] You can describe what you want in natural language, and the AI fills it in. These are better if you have some coding background, or if you want more control over what's being built. The third category is AI coding agents. Think Replit Agent, Claude Code, or Codex. These are AI systems that can plan, write, and deploy code more autonomously.
+
+[03:29] You give them a goal, and they figure out the steps. They're more powerful, but also more complex to work with. More of a power user tool. For this video, we're going to use Base44. It's one of the most beginner-friendly options out there, and it handles everything in one place. The design, the database, the hosting, all of it.
+
+[03:49] And if the name sounds familiar, well, that's because Wix acquired Base44. So, this isn't some small side project, it's a real platform with serious backing. That means you can follow along no matter your experience level, and by the end, you'll have something real and live on the internet. Let's get started.
+
+[04:05] I've got a link on screen and in the video description that'll take you straight to Base44, where you can start building for free. No credit card needed. Go ahead and open that up so you can follow along with me step by step. When you click on that link, you'll land on this page here or something very similar, and you'll see right away that there's a chat box asking you to describe your app.
+
+[04:23] Now, this isn't actually a real chat box. We need to register an account first. To do that, simply click the build now button. Then go through the process of setting up your Base44 account by following their instructions. I'll meet you on the dashboard. And here on the dashboard, we can see a real chat box that we'll use to build our app.
+
+[04:41] Now, before we go any further, I want to point out that this might look a little bit different by the time you're watching this video. AI moves very quickly, and software updates regularly. So, if the interface doesn't look the exact same, don't worry. Just try to understand the concepts I'm showing you today and apply what you've learned to the interface as it looks when you're following along.
+
+[05:04] Before we start building, I want to show you something that will make a big difference in how your app turns out and save you money in the process. On the upper left side, click the workspace drop-down. And here you can see Base44 uses a credit system. On the free plan, you get five message credits a day.
+
+[05:18] Now, these aren't one-to-one. A simple change might use only a fraction of a credit, but asking the AI to build a whole new feature will use more. The free plan gives you enough to generate your first app and try some changes. But here's the thing, if you jump straight into building with a vague idea, you'll burn through credits fast trying to get what you want.
+
+[05:37] So, instead, we're going to plan first. Base44 has a built-in feature for this called plan mode. When you go to create a new app, you can see this little plan toggle button. Go ahead and click that. Now, we're in plan mode. In plan mode, we can type a simple description of what we want, and Base44 will help us to refine the prompt that the AI will use to build the app.
+
+[05:58] So, I'll simply type movie recommendation app and hit send. Then the AI will ask you some guided questions to help understand what the goal is, who's the audience, what are the core features you want, design preferences, that sort of thing. Here it says, who's this app for and how will it be used? So, I'll say general public.
+
+[06:18] What's the core way recommendations are generated? We'll say based on ratings. And what's the visual vibe you're going for? Let's say dark and cinematic. Just answer the questions it asks you, and when it's done, it'll come up with a plan, and you can click read more to see all the details. You can scroll through, see everything it wrote.
+
+[06:37] And if you want to change anything, you can simply type in the chat in plain language and ask the AI to make updates. The best part is plan mode doesn't use any credits. You're just having a conversation with the AI, getting your ideas organized, and building a detailed blueprint for your app, all for free.
+
+[06:52] Credits only get spent when you click start building. Look at what we've got now. We started with a rough idea, and the AI turned it into a structured plan with clear features, user flows, and design direction. This is what Base44 is going to build from. The more detail you put in here, the better your first result will be, and the fewer credits we'll spend refining it later.
+
+[07:14] Here's a quick tip. If you're not sure what you want to build yet, you can use a tool like Claude or ChatGPT to brainstorm ideas before you even open Base44. Think of it as a conversation with a friend before you sit down to draft the blueprint. But once you know roughly what you want, plan mode is where you'll turn that into something the AI can actually build.
+
+[07:35] All right, our plan looks good. Let's click start building. And right away, Base44 gets started building your app. You can even see the files it's writing in real time in the left sidebar. This process can take a few minutes, so just be patient. And when it's done, you'll see something like this. This is Cinimatch, Base44's first draft of our app.
+
+[07:55] Right at the top, we have a search bar where we can search for specific films. We have tags where we can filter by different film type. As we hover over the different films, there's some nice interactive movement happening here. The image grows bigger, and the movie gets highlighted. At the top, we have different tabs for my ratings, where it looks like if we log in, we can track ratings.
+
+[08:15] Same thing for a watch list where we can save films, and then recommendations for the user based on their preferences. Overall, this is a pretty good start. Base44 created a full front-end application. If you were coding this from scratch, this could take days. But there still are some problems we might want to address.
+
+[08:34] For example, these aren't the actual movie posters. We'd probably want to fix that. There's an option to sign in to get your ratings, but I don't see a way to sign in yet. So, we'll want to add user authentication. And personally, as I'm seeing it, I'm not a huge fan of this serif font here for our headers.
+
+[08:50] I think it would look a lot better if we had sans-serif fonts. So, next, let me show you how to make changes to your app. The first version is never perfect. The real skill in vibe coding is knowing how to guide the AI to make it better. There are a few ways to do that. Let me show you. First, the theme panel.
+
+[09:07] Click the theme icon, that's this palette button at the top of your editor. This is where you set the colors and fonts for your entire app in one place. Pick a primary color, a background, choose your fonts, and those changes apply everywhere, instantly. This is free, and it doesn't use any credits. For example, let's maybe change this primary yellow color here to a different tone, a different hue.
+
+[09:30] We'll set it to maybe this vibrant orange color here. That's pretty nice. And if we click save and apply, we can see that the app colors have been updated everywhere that that yellow color was used previously. Next, visual edit mode. Click edit in the upper left of the toolbar. This lets you select specific elements on screen and adjust them.
+
+[09:51] You could change the color of one button, tweak the spacing on one section, delete something you don't need. It's like the theme panel, but for individual elements instead of the whole app. Also, free to use, no credits. For example, maybe we want to change what this text says. We can click on it and then click the T to change the text content.
+
+[10:10] We'll change it to say, 'Rate what you've watched to get personalized recommendations.' Then if we click X on this toolbar, after a second the app preview updates and the change has been locked in. Between the theme panel and visual edit mode, you can do a lot of design work without needing to touch the AI chat at all.
+
+[10:26] Save your credits for the stuff that actually needs AI, adding features, changing functionality, and fixing logic. One thing to keep in mind as you make changes is that Base 44 keeps a version history of your app. You can access that up here in the left side with this little clock icon. So, if you make a change and something breaks, you can always roll back to a previous version.
+
+[10:43] Like we can click on this older version here and it loads the version that had the yellow color instead. This is like an undo button for your entire app, so it's super handy. For anything that goes beyond visual tweaks like adding new features, changing how something works, fixing a bug, that's where the AI chat comes in and this is where the credits get used.
+
+[11:01] Here's my approach. I just go through the app and talk through what I'm seeing. I use the voice mode to take notes as I go. Those will all show up down here transcribed. So, when I'm done talking through and just thinking out loud, I'll turn off the voice mode and then all of those can be turned into one message with all the different changes requested that I can send all at once.
+
+[11:22] And that way I'm getting five or six changes for the cost of one message instead of burning a credit on each change individually. That's the core of Vibe Coding. You describe what you want and the AI makes it happen. Let me show you. I'll click the microphone icon. Okay, so I like how the app is looking so far, but at the top in the headers, both the CineMatch and the Discover Films, I don't like how those look as serif fonts.
+
+[11:43] I think they would look cleaner and more modern if they were sans-serif fonts. Also, in this top section of the app behind the Discover Films header, I think it would look a lot better if we had some sort of image maybe pulled in from the movies. Something kind of like how Netflix shows the movie recommendation with a nice wide banner behind this with an overlay.
+
+[12:06] Also, with the movie thumbnails below, none of the thumbnail images actually correspond to the real movie poster. I think we should pull in the real movie poster as opposed to using these stock images or maybe these are AI-generated. Either way, we should pull in real images related to the movies. When I'm done, you see I click the microphone icon and it transcribes everything I said.
+
+[12:28] Now we can simply send the prompt and Base 44 will begin making those changes. And after a few minutes, we have the updated app and you can see here at the top it pulled in the movie's backdrop for the hero section. This is great. It also looks like we have a bunch of movie posters now for our thumbnails, although it is missing the thumbnail for The Godfather.
+
+[12:48] So, that tells me a couple things. We need to figure out how to actually get it to pull in those images consistently, harden that logic, or create fallback images somehow. But generally speaking, this is how it works. So, as I'm reviewing the updates it made, I could simply turn on the microphone icon again here and talk through what I'm seeing and then submit those changes back to the AI chat.
+
+[13:10] You can do this over and over until the app is working and looking exactly like you want it to. If you'd rather not use voice mode, you can always of course just type like you normally would in a chat box. And if it's helpful, you can even take screenshots and upload files to help the AI understand what it is you're looking at and what you're thinking about.
+
+[13:26] Now before we go any further, let's check out how this app looks on a phone. In the upper right, there's this breakpoint drop-down that shows the icon of a desktop computer. You can change it to see how this app would look on a tablet or a mobile device. So, let's check that out. And this is looking pretty good.
+
+[13:46] It collapsed the items in the header to these simple icon buttons and it collapsed the multiple movie posters that you have in a row down to just two, so it's easier to view on a phone. Base 44 generates responsive apps by default, so it should adapt to whatever screen size your viewers are using, but it's always worth checking.
+
+[14:02] If something looks off on mobile, add it to your list of changes for the next AI prompt. So far, everything we've done has been on the free plan. You've built an app, customized it, checked how it looks on mobile, and you haven't paid a cent. That's the beauty of Vibe Coding. You can go from an idea to a working prototype without spending anything.
+
+[14:25] But here's the thing. Every Vibe Coding platform has a free tier that lets you try it out and a paid tier that gives you the features you need to actually turn the prototype into a real product. Things like user accounts, payment processing, custom domains, and code export. That's true whether you're using Base 44, Lovable, Bold, or really any other tool.
+
+[14:44] The free tier is where you learn and experiment, the paid tier is where you build something real. For Base 44, that's the builder plan at $40 per month. And for that, you get 250 message credits, back-end functions for things like payments and email, custom domain support, and GitHub integration. Basically, everything you need to go from what we've built so far to a real launchable product.
+
+[15:08] To put that in perspective, a few years ago, I paid a developer over $20,000 to build a simple MVP and it took months. You're doing the same thing today for the cost of a single dinner out. Once you're ready to upgrade, click the Base 44 icon in the upper left, then click upgrade your plan. On the next page, follow the prompts to upgrade to the builder plan or higher.
+
+[15:29] You'll get an option to choose between yearly and monthly payments. Personally, I recommend yearly because that'll get you a free domain for a year. You'll also save money over the long term. But if you want to start with a smaller commitment and go with the monthly plan, that's fine, too.
+
+[15:41] Choose whichever works best for you, then follow the prompts to check out. I'll meet you in the following step. Now that we're on builder, the platform really opens up. Let's start with user authentication, the feature that turns this from a demo into a real app. Right now, anyone who opens your app sees the same thing.
+
+[15:57] There's no way for someone to create an account, log in, or have their own personalized experience. Authentication is what changes that. It's the system that lets users sign up, log in, and have their own data. So, one person's information stays separate from everyone else's.
+
+[16:11] It's what makes an app feel like their app, not just a website. And one of the things that makes Vibe Coding platforms different from using something like ChatGPT is that this kind of feature is built in. You don't need to set up a separate authentication service or figure out how to store passwords securely. You just turn it on.
+
+[16:30] In the Base 44 editor, click the dashboard tab in the top toolbar. Then click settings to expand it and then click authentication. Here you can see Base 44 gives you a set of authentication methods you can toggle on. The simplest is email and password. Your users create an account, set a password, and log in.
+
+[16:48] But you can also enable social login with Google, Microsoft, Facebook, and Apple. I'm just going to keep on email and password and Google because those cover the vast majority of users. Authentication methods are available, but we still need to add the pages where users can sign up and log into our app.
+
+[17:05] Let's go back to the chat and do that. I'll click preview and then in the chat we'll say, 'Add sign up and login pages so users can create and manage their own accounts. Also, add a log out button that shows up in the upper right for anyone who is logged in and make it a sign up {slash} login button when they're logged out.
+
+[17:22] ' We'll submit the prompt. And when it's done, you can see that Base 44 just set up a full authentication system. There's a log out button in the upper right. After I click it, we get a login page. I'll go ahead and log in. Now we're logged back in. We have a full authentication system, secure password storage, session management, the login and sign up pages, all from a couple of toggles and a single prompt.
+
+[17:45] If you were doing this with traditional coding, this alone could take days. You can also set up different access levels. Under the dashboard, you can click users and you see my role right here is set to admin. Admin users can see everything and then regular users can only see their own data.
+
+[18:01] Base 44 handles this through something called row-level security. You don't need to understand the technical details right now. Just tell the AI what each type of user should see and it will set it up. I know it might seem like a lot is happening behind the scenes, but the whole point is you don't need to understand all of it right now.
+
+[18:15] The platform handles it. Now that users can log in, let's talk about the thing that turns an app into a business, getting paid. But this section is actually about something bigger than just payments. What we're really doing here is connecting your app to outside services. Payments through Stripe, emails through a service like Resend, text messages through Twilio.
+
+[18:35] These are called third-party integrations, tools that already exist that your app can talk to. You don't have to build a payment system from scratch, you just connect your app to Stripe and Stripe handles the money. That's the power of integrations. So, let's start with the one everyone wants to know about, how to get paid.
+
+[18:54] To add payments, we can just ask the AI. In the chat, I'll say, 'Connect Stripe so we can charge customers a monthly subscription for premium movie recommendations.' We'll submit. It'll come back asking us to allow it to install Stripe or reject the request. Let's click install Stripe. After a few minutes, it comes back and says everything is wired up.
+
+[19:13] It created a premium page to show off the new premium subscription plan. It created a bunch of back-end functions to manage the checkout and subscription and product and it created all the technical stuff we need to manage the product and subscription. It also provided us with instructions for how to test that.
+
+[19:28] So, it says click subscribe and use this demo card. Let's do that here. If we click subscribe now, we get this pop-up saying that we have to do this in the published app. Now we don't actually have to publish the app yet to do this. We just have to go to this URL here. So, I've copied this URL, go to a new tab and this is a preview URL.
+
+[19:45] So, here we'll go premium, subscribe now, and here we've been taken into the Stripe sandbox check out. Let's plug in that demo card and we'll click pay and subscribe. And there we go, the checkout flow is successful. That's it, one prompt to connect payments, one prompt to connect a product, we've got ourselves a working checkout.
+
+[20:05] Base44 sets up Stripe in test mode first so you can try it without moving any real money. Now, if we go back to the dashboard and go to integrations, when you're ready to go live, there's a setup guide here that walks you through connecting your real Stripe account. Now, I'm not going to walk you through every Stripe setting right now.
+
+[20:21] That's its own whole rabbit hole and Base44's docs cover it pretty well. But the point is, you've just added payment processing to your app by simply asking the AI. That's vibe coding. Now, you'd probably want to add some additional business logic here to make sure that your premium customers see something different than the free users.
+
+[20:38] Maybe you'd also want to send a thank you email when somebody signs up. Let's tell this to the Base44 AI chat. I'll use voice mode again. Please ensure that free and paid users see different content. Also, send a confirmation email to new premium subscribers when they sign up. And we'll send it. When it's done, you can see it decided to gate the AI recommendations behind the premium subscription and it also added a confirmation email in the webhook for the Stripe checkout.
+
+[21:04] So, up here now we have a for you tab and we can see that this is now locked as a premium feature. Now, this particular user that we're using in the test environment doesn't have a subscription yet. So, in the background here, I've created a test user that has a subscription. The cool thing is, you can see how different users experience the app by clicking these three dots at the top, clicking act as user, then we can say view as and change to this other test user here.
+
+[21:32] Now, if we click on the for you tab, we can see that the gate has been unlocked and now this user can get custom AI recommendations. In just minutes, we've gone from nothing to an app with user accounts, payments, and custom logic and we haven't written a single line of code. Before we publish this app, let's talk about what to do when things go wrong because things will go wrong.
+
+[21:54] That's completely normal with vibe coding, even with regular coding, actually. So, let me show you how to fix the most common issues so you don't waste time or credits. Apps and their files are super interconnected. Changing one thing can affect another, so you should test after every change, not after 10 changes.
+
+[22:13] Commonly, if something goes wrong and there's an error in your app, Base44 will identify it and you can simply click the resolve AI button. And it says here, this action won't deduct any credits from your account. So, you can simply click that button and the AI will figure it out and it won't cost you anything extra.
+
+[22:28] Just like that, it figured out there was a typo in the import path for this particular element and it fixed it. Remember the version history we talked about earlier? This is where it saves you. If a change breaks something, you can always try rolling back to a previous version. Now, another common issue is that the AI doesn't understand exactly what you want.
+
+[22:43] Here I asked for it to make the header look more cinematic because I wanted it to feel more like Netflix and here it gave the hero a cinematic upgrade. This isn't what I was looking for. Here's the framework you should use in these situations. Use the what I expected versus what happened format. So, for example, say, that doesn't look right.
+
+[23:06] What I expected was that you upgraded the header section to look more minimalist and sleek. What happened was that you updated the hero, not the header/nav. Please revert the change made to the hero and update the header based on my initial request. Let's send that. And here it fixed the issue with the hero and it gave the Cinimatch title a nice big bold look, much more Netflix-like.
+
+[23:29] Okay, now here's the part where the magician reveals his secrets. That change you just saw, that egregious-looking Netflix banner, I actually told it to do that so I could show you what it looks like to fix it. I just have to mention that because I don't want to give you guys the wrong idea thinking that the AI is going to make bad mistakes like that.
+
+[23:47] The examples that you'll encounter with your own real vibe coding will probably look less atrocious than that. They'll be much more subtle issues and that what I expected versus what happened format is super helpful for getting out of them. Base44 also has a feature called discuss mode that's really useful when something's not working and you're not sure why.
+
+[24:07] You can click discuss in the chat and now you can talk to the AI about your app without it making any changes and this only costs 0.3 message credits. You can ask it about what might be going wrong, brainstorm solutions, and think through your options. It's like having a conversation with a teammate before you actually jump in and start fixing things.
+
+[24:26] Because it only costs a fraction of a regular credit, you can go back and forth without burning through your balance. I just implemented a daily movie recommendation feature for this hero section where it rotates through multiple movies, but I'm not totally sold on how it looks. So, let me show you how the discuss mode looks in practice.
+
+[24:41] I'll use voice mode again. Our hero section here seems to be cutting off people's heads in the images. They're showing up tucked away, hidden a bit by the header. Can you figure out why that's happening and fix it? Also, the Schindler's List featured movie doesn't seem to have any images pulled in. It's just dark.
+
+[24:57] Can you look into that as well and put together a plan for fixing it? There's the prompt. Now, we'll send it. After a few minutes, discuss mode comes back with a response showing that it read and reviewed the files and identified potential causes for both issues. It proposed a plan to fix each of them and so now, to fix it, all we have to do is turn off discuss mode and say something like this.
+
+[25:19] Yes, please go ahead and implement those proposed fixes. And there we go. It updated the padding at the top so that people's heads aren't cut off from these splash images here. But it doesn't look like it actually pulled in a fallback image here like it said it was going to. So, this is when we'd want to iterate again, explain what we expected versus what actually happened and then let the AI figure out a way to resolve the issue.
+
+[25:42] The most important debugging skill in vibe coding isn't technical, it's communication. If the AI got it wrong, the fix is almost always a better prompt. Here's a problem you'll run into if you use a tool like Cursor to build an app. You finish building it, you're really excited, you want to show someone, and the app is running on localhost.
+
+[26:01] It only exists on your computer. Your friend can't open it, your investor can't see it. It's like building a house that only you could walk into. With Base44, that's not a problem. Your app can be shared live to a public domain in just four clicks. To publish your app, simply click publish in the upper right, then change app visibility to public, no login, then click publish app.
+
+[26:29] And just like that, you'll get a confirmation saying your app is published and live online. If we copy this URL, open a new tab and paste it in, we're taken right to our beautiful new app, live on the internet, and ready to share. But if you're going to share this with real users, you'll probably want your own domain.
+
+[26:44] This domain is kind of ugly, but since we're on the builder plan, we can get a custom domain really easily. Back in the Base44 editor, we're still using this temporary name, Cinimatch, for our app. So, let's see if we can find a .com for that. We'll click publish in the upper right, then click get domain. It loads the temporary domain in the search field.
+
+[27:05] We'll replace that with Cinimatch and click search. That's not available. That's okay, our app is still young, we have time to change our name if we want. Let's try something else like plotpair.com and it's available. It's $1 for the first year. Let's claim it. This will route us to Ionos where we can add it to our cart and click continue, then simply follow the checkout flow to claim the domain.
+
+[27:29] >> [music] >> After completing that, when you return to your app in Base44, if you click the publish button, you'll see that instead of your temporary domain, you've now got your custom domain loaded in and the next time you publish your app, it'll be pushed to your custom domain. However, we just changed the name of our app.
+
+[27:42] So, let's update that first. We'll simply ask the AI, please update the name Cinimatch to Plot Pair everywhere that Cinimatch appears. After a minute, the name's been changed. We can click publish, copy the custom domain, and then when we visit the new domain, we might see a DNS error.
+
+[28:01] Don't worry, you didn't do anything wrong. DNS changes can take a few minutes to propagate, sometimes up to an hour. So, don't panic if it doesn't work immediately. Eventually, it'll load and just like that, you've got a real app on a real domain. This is not a demo anymore. Now, anyone in the world can open this right now.
+
+[28:20] Base44 also lets you turn your app into a native mobile app for iOS and Android. Here's what you need to know. To publish on Apple's App Store, you'll need an Apple developer account. That costs $99 per year. For Google Play, it's a one-time fee of $25. The process works like this.
+
+[28:36] Base44 packages your web app into a format that App Stores accept. You don't need to learn a new programming language or use a separate tool. The app you've already built is the app that gets published. Now, a couple of things to be aware of. Apple's review process can take some time, sometimes a few days, and they have specific guidelines about what apps can do.
+
+[28:56] So, don't expect it to be instant. Google tends to be faster, but they have their own requirements, too. The result isn't identical to an app built natively in Swift or Kotlin, but for most use cases, especially the kinds of apps you'd build with vibe coding, it works great. I'll link Base44's mobile publishing guide in the description so you can walk through the full process step by step.
+
+[29:19] But the key takeaway is that the same app you built on your laptop is now in someone's pocket. Next, I want to be real with you about where vibe coding is right now. For validating a business idea, building an MVP, creating internal tools, there's honestly nothing faster. I've personally built a SaaS product this way, a marketing platform for audio professionals with paying customers using it right now.
+
+[29:41] These vibe coding platforms aren't just toys. But, there are real limitations. Complex apps with lots of moving parts, apps that need to handle serious traffic, deep customization, you'll hit walls. Then there's security. You'll hear people online call Vibe Coded apps AI slop. And honestly, if you're not careful, they're not wrong.
+
+[30:01] When AI generates your code, it might handle things like API keys or user data in ways that aren't secure. So, always make sure that each user can only see their own data. Never put sensitive keys directly in a prompt, and run Base 44's built-in security audit. Those basics go a long way.
+
+[30:17] None of that means you shouldn't build. It just means you should build smart. And the next thing I want to show you is actually the answer to most of these concerns. If you're not familiar with GitHub, it's where developers store and manage code. Think of it like Google Docs, but for code.
+
+[30:32] It keeps track of every change, lets multiple people collaborate, and it's the standard tool that professional developers use. Base 44 has a GitHub integration. When you turn it on, all the code behind your app, everything Base 44 generated, gets pushed to a GitHub repository, a place that you own and control.
+
+[30:52] Let me show you how to connect it. In Base 44, click the GitHub icon. That's the one next to the three-dot icon in the top toolbar. Then click connect to GitHub. In the pop-up, click connect GitHub, and then you'll get a pop-up window that appears. You can either sign in to an existing GitHub account or create a new one.
+
+[31:07] I'll continue with Google. Then simply follow the prompts to get set up. You'll be directed back to Base 44 and prompted to create a repository. Go ahead and name your repository, then click create. In the upper right, we now have a green dot on the GitHub button, and we can see that it's connected. That's it.
+
+[31:22] Your app's code now lives in GitHub, and from here, the sync works both ways. When you make changes in Base 44 and publish, they show up in GitHub automatically. And if someone pushes code changes to GitHub, Base 44 picks them up. Now, here's where this gets really interesting. Remember at the beginning of this video, I showed you three categories of Vibe Coding tools? All-in-one builders, AI code editors, and AI coding agents.
+
+[31:47] We've been using an all-in-one builder this entire time. But now that your code is in GitHub, you can use the other tools, too. For example, let's say you want to make a change to your app, but you're struggling to get Base 44's chat to do exactly what you mean. You could clone your repository to your computer, open a tool like Claude Code, which is an AI coding agent, and tell it directly something like this.
+
+[32:13] I'm having an issue where the Schindler's List movie doesn't seem to be pulling in any images for the display. Can you evaluate and fix that? It goes in and edits the actual files. You push those changes to GitHub, and Base 44 picks them up automatically. You don't need to do any of this right now. You just built your first app.
+
+[32:32] That's the win for the moment. But, I want you to know that this is here, because the real power of Vibe Coding isn't any single tool. It's that all these tools work together. You use the builder to go from zero to a working product, and when you want more control, you bring in more powerful tools or collaborators without starting over.
+
+[32:50] I'll link Base 44's GitHub setup guide in the description, so you can explore this when you're ready. Vibe Coding isn't going to replace professional software development anytime soon. But, it doesn't need to. For figuring out whether your idea actually works and getting it in front of people, there's nothing faster.
+
+[33:07] All right, you just went from zero to a working app with user accounts, payments, and a custom domain, but just describing what you wanted in normal language. The best way to get better at this is to build another one. Brainstorm a different idea, open Base 44, and see how far you can take it. Use the link on screen, or click the first link in the description below to start Vibe Coding for free.
+
+[33:29] Thanks for watching, and I'll see you in the next one.
+
+⚡ Created with ytranscript.app

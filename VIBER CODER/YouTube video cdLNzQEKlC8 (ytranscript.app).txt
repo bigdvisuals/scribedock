@@ -1,0 +1,72 @@
+YouTube video cdLNzQEKlC8
+https://www.youtube.com/watch?v=cdLNzQEKlC8
+
+[00:00] So, I decided to make and publish my own Google Chrome extension. My goal is to publish a simple extension that solves a problem that is in many people's lives. Well, the Gmail website has about 1.8 billion users and the average person sends 25 to 40 emails per day. So, my idea is to make an AI powered email writer that will be built into Gmail to help speed up this process.
+
+[00:18] I mean, how hard can it be? All right, so how do you make a Google Chrome extension? I've never really made a Chrome extension before, so I found some helpful resources. Get started. Okay, first of all, it says you need a manifest.json. It looks like this was the file that provided the structure for the pop-up.
+
+[00:38] And it also has a hello.html, which I'm also going to take from here. So, I very skillfully copied and pasted into my own code. After doing all the setup, and we can just click load unpack, I located the folder and put that into the extensions page, but I got a very understandable error. Failed to load extension.
+
+[00:53] could not load icon hello extension.png. It's fine though since I'm lucky that Google images exist. Well, that is fine because I'm just going to use this. Somehow I misread an underscore as a dash and I couldn't figure out the problem for five straight minutes. Oh, and we do have it. And why is it not in my side panel? Oh, it's right here.
+
+[01:14] Oh, and it's actually working. We got our first Chrome extension working. Now, looking back, I don't know why I was so excited because all I did was follow a two-step guide. But now, let's get to the serious part of designing our actual Chrome extension that will be eventually published onto the web store.
+
+[01:28] As I mentioned earlier, I'm going to be making AI email writer. It's quite complicated, so I don't think I can make this with raw HTML and JavaScript, but I also wasn't quite sure if I could use my favorite framework, React.js with Chrome extensions. Wait, you can use ReactJS to make your >> Well, that just made it a lot easier since I'm pretty confident with React.
+
+[01:47] So, I went ahead to make a logo first. I pulled out Adobe Illustrator and cooked up a quick prototype which was kind of inspired by the original Gmail icon. And why not call our Chrome extension mail pilot. That's a beautiful name. I imported a logo and oh, it's actually working now. Look, that's our icon.
+
+[02:01] It's pretty beautiful, isn't it? So, the goal is to inject a logo icon to be right between here. And then when that is clicked, a side panel should show up on the right side where I can rewrite my email using AI. I guess my logic is flawless, but I genuinely had no idea where to start.
+
+[02:20] So, I hit up my dearest friend, Perplexity AI. How do I First of all, we need this permission called scripting. And we also need to make this complicated function that injects the compose button. Following what Plexity said, I created some new files called content script and background both in Typescript.
+
+[02:36] I also had to make some changes in the manifest.json file, which again is a backbone of every Chrome extension. We also need content scripts and we also need this thing called host permissions. Okay, I went ahead and did some copy and pasting code, but here we have two functions. And for the moment of truth, wait, it's actually injected.
+
+[02:56] But why is it here? It's supposed to be here. Honestly, I was really happy when the email writer button was even injected at all because that makes our next step a lot easier, which is finding the right location for it to be in, which is supposed to be the Gmail toolbar. But that's a lot easier said than done. Okay.
+
+[03:11] Well, it just disappeared [music] completely. Okay, I did some more research. Apparently, we need this thing called web accessible resources. And when I reloaded the page, it was back at its original spot. Except our beautiful logo was there. So, at least that's something I've achieved in the past hour.
+
+[03:25] Oh my god, it's back here again. I made some more tweaks like correcting the HTML location of the toolbar. And oh, it's down here, but it's at the very end. Having the button there at all was a huge win for me. So, I just ignore the placement and continue by trying to make it toggle the side panel.
+
+[03:41] Okay, so it's here, but I'm trying to open the side panel, but it's not really opening it. I scan through all the code again, but couldn't find any issues. So, yep, we're back to Perplexity. Okay, so make sure all these exist. We have permissions. We have all these. Let's check if we have this. I realized that I completely forgot to add my background script in my manifest.
+
+[04:01] json file. And of course, we don't have the background, which is really stupid since I probably checked through that file 10 different times. It actually opened the side panel. That's actually so cool. You can close it. You can open it. Wait, just kidding. It works. I'm just playing. I'm just playing.
+
+[04:18] Now that the general structure of the extension is working, it's time to work on the front end, or in other words, the physical attractiveness of the side panel. It should have the tone here, the tone of the email. And on the right, there should be a box for a translation. And if that is ticked, there should be an option here to figure out what language is translating to. For example, Chinese.
+
+[04:42] And below that should be a button to rewrite the [music] email. And when that is clicked, the new email, which the subject should be here, and the body should be here, is the AI rewritten email. And on the very bottom right, there should be a button that if you click it, applies it to your email, so you don't have to copy everything over.
+
+[05:02] It looks like I thought of that design really quickly, but in reality, I've been thinking about it the entire day, so it's really not that impressive. And now I'm going to try to remake this in pure TypeScript XML. And this is where we're starting. That's a great start. I got started with the tone and translation boxes.
+
+[05:18] And that looks pretty nice. A few hours later, the UI was starting to take shape. So, I switched up the plans and went ahead to set up the AI. I want to make a Deepseek thing. For obvious reasons, I'm going to blur this part, but okay. But with this key, we should be able to access DeepSseek [music] for a very cheap price.
+
+[05:34] However, an API key is kind of useless without a server. So, I created a backend for mail pilot with ExpressJS. And do you want to see my DeepSeek key? Well, 3 2 1. Yep. Obviously, it's blurred out. What do you think? I had some fun making prompts for this AI because I'll be advertising this DeepSseek agent as a professionally trained bot emails to be clear more professional.
+
+[05:57] After setting up the backend route, I want to use curl to test out if it works, which is used in command lines or scripts to transfer data. I opened up curl and pasted a command for perplexity. Well, that did not work clearly. And that was probably the simplest fix in the history of error since basically I just misspelled this word. And there we go.
+
+[06:16] we get a successful return from DeepSseek. I topped up 10 USD to the DeepSseek API key and I figured that this may get expensive if a lot of people use my extension. So, I added an IP rate limit. So, for now, it's going to be 50 per day. But for our extension to actually be able to rewrite the email, it first needs to know what's in the email.
+
+[06:34] But first of all, how do you get the subject and body of an email? I wrote some quick code basing it off of the template that Perplexi gave me. And here we should get the email subject and body in the console and I got a few errors. Oh, I am so stupid. I'm not quite sure how I spelled HTML wrong because those are the four most distinct letters in the alphabet.
+
+[07:01] I then refresh the extension, but it seems like nothing got printed in the console. So, we have the subject, but there's nothing in the body for some reason. But how does it know the length? 66. Somehow, our email had exactly 66 characters in the Chrome extension also knew, but it wasn't printing the text properly. Oh, it's here.
+
+[07:18] It's in this terminal, not this terminal. Anyways, now we can finally incorporate AI in our extension by using the endpoint we previously made. All right. And now we're using this route in our front end. The Deepseek AI actually returned the rewritten email and logged it into the console. But there was this weird error.
+
+[07:36] I'm surprised that worked out first try, but for some reason, we're getting this error. I was thinking of ignoring it, but don't worry because what does this error mean? Perplexity gave me some reasons, but I already had those incorporated in my own code, so I wasn't quite sure what the problem was.
+
+[07:50] Well, I mean, it works, so I'm not going to question this error. I'm just going to ignore it for now. So, now let's add these parts where it actually rewrites our email. This meant that I wanted the SCI panel to display what the rewritten email was so that the user can see what they're adding to their email.
+
+[08:05] All right, I'll be honest. This like 100 lines of code is vibe coded cuz I kind of got lazy. But let's see if it works. It doesn't look bad, but it sure does look like some vibe coded slop. So, I decided to try to add a typing animation to make the page look a bit more dynamic.
+
+[08:20] But I'm going to vibe code that because I have no idea how to do that animation. But when clicking the rewrite button, it kept giving me the same error as last time. Oh, there's an error here. It says error sending rewrite request object object. I continued by completely ignoring the error once again, and I went ahead to add the animation.
+
+[08:35] Wow, that is way too slow. What is this? And now for the apply button on the bottom. It should basically move this into here automatically. Once again, the coding gods blessed me because it somehow worked on its first try. That's actually very surprising how that that worked. The next day, I came back to my desk setup and thought of a fix that might solve the previously unresolved error.
+
+[09:00] Okay, I think the error is here because apparently I can't really use asynchronous functions. So, all I did was delete this line of code and everything actually worked perfectly. Oh, it's working. Am I actually Einstein? Wait, wait. Any errors? No errors. I'm actually Einstein. At this point, the Chrome extension was pretty much done.
+
+[09:18] But don't click off the video yet because I also published this extension onto the Chrome web store for all of you to use for free. Okay, so go to the Chrome developer dashboard. I followed the instructions, but then after 2 days, I was confronted with a rejection email, which was completely expected.
+
+[09:32] And the reason is purple potassium. What is this? Despite the CIA code name, it was actually a really simple fix since I had an unused permission I forgot to delete. And 2 days later, I searched for my extension on the web store. And no way, it's actually on Google. I even made a quick website for the extension using React.
+
+[09:50] And just for reference, the website turned from this into this, which I'm actually really happy about. If you've made it this far into the video, you're probably curious to try the Chrome extension for yourself. Just check the pin comment. You'll find the link there. I'd really appreciate it if you could give Mail Pilot an honest rating and maybe share with a few friends who might find it helpful.
+
+⚡ Created with ytranscript.app

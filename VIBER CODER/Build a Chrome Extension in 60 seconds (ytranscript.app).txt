@@ -1,0 +1,10 @@
+Build a Chrome Extension in 60 seconds
+https://www.youtube.com/watch?v=Zt_6UXvoKHM
+
+[00:00] let's build a Chrome extension in 60 seconds here's a quick demo of what we're about to build it replaces all the images on the YouTube homepage with images of Bob Ross first we need a manifest.json file to give Chrome some information like the name of the extension the version telling it to match only on youtube.
+
+[00:18] com and specifying that the Javascript file we're using is called content.js we then create content.js and Define an array of six Bob Ross image links we then grab all of the image elements on the current page that we're on in the browser we iterate through them and we replace every one of them with a random image from our Bob Ross array and that's the end of our Chrome extension let's load this extension into Google Chrome to test it out navigate to Chrome colon double slash extensions select developer mode
+
+[00:51] at the top right hit load unpacked and click the folder that contains your Chrome extension when I click select and we can see it shows up here with the version number the name and it's enabled by default so now let's navigate to youtube.com and watch the magic unfold congratulations you're now a Chrome extension developer add it to your resume
+
+⚡ Created with ytranscript.app

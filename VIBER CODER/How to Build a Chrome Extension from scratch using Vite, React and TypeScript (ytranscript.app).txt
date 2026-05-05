@@ -1,0 +1,74 @@
+How to Build a Chrome Extension from scratch using Vite, React and TypeScript
+https://www.youtube.com/watch?v=iBL-vYXk9sc
+
+[00:07] Hey everyone, welcome to my first video where I'll be showing you how to create a new Chrome extension project from scratch using Vit, React, and TypeScript. This tutorial is suitable for beginners with some webdev experience, but also for more experienced developers looking to hit the ground running with an idea.
+
+[00:22] This video is based on a Medium blog article that I wrote and published. So, if you're interested in getting the code snippets quickly, then you can head over there. I also have a GitHub repo with this template project as well. You'll find the links to both of these resources in the description. We're going to build a new project using V that has React and TypeScript ready to go out of the box.
+
+[00:46] We're going to modify the project to be recognized as an extension using a manifest file. We're going to create a pop-up extension. We're going to create a side panel extension. We're going to implement hotkeys to control the opening behavior without mouse clicks. We're going to do two types of scripting.
+
+[01:04] We're going to use a background service worker for extension events and content scripts for DOM manipulation from the extension itself. We're going to create a page scoped context menu extension. We're going to create a selection scoped context menu extension. Although this guide will show you how to set up a working project complete with pop-up side panel and context menu examples, this is not intended to show you how to fully develop an idea from scratch.
+
+[01:29] That is up to you. Also, I hit a few gotchas along the way which took time for me to figure out fixes for. I've included them here so it will be a smoother experience for you. Cool. So, let's get started. With V, you build your project with a single command and sequentially select some project options similar to other tools you may have used before. Open a terminal.
+
+[01:53] Navigate to the folder that will serve as the root of your project and run mpm create v at latest. Name your project. Select react. Select typescript. So CD into Chrome extension template and then run mpm install followed by mpm rundev to run the project for the first time. This will start the process of creating your project with the options that we want and it will all just work out of the box leaving us to get on with the creative stuff.
+
+[02:34] Navigate to localhost 5173 in your browser. And there we go. As simple as that. Our project is already operational and has Typescript fully integrated. Another script that comes with V which will be fundamental to this project and what we will be using going forwards is the build script. Simply run mpm run build.
+
+[02:54] Notice that a new folder named dist has been created in the project hierarchy. This folder contains the built code that is now readable by browsers. This means that all React and TypeScript code that we write will be transpiled to HTML and JavaScript. It also means that any assets or files including styling in the public folder will additionally be sent to the disc folder.
+
+[03:16] This last part is important to us right now as the public folder is where we need our manifest JSON file to live. More on that in the next section. The manifest JSON file is critical for all browsers to recognize that a given project is compatible as an extension. It is also where the config lives and APIs required by the browser are listed to function properly.
+
+[03:38] This is the first thing we need to introduce to progress. In the project's public folder, add a new file and name it manifest.json. In this file, add the following code. The naming convention for nodes in this file is in snake case. They must be named precisely. These first three parameters are straightforward.
+
+[04:13] The version and name can be whatever you want. Your preferred version numbering convention can be used and the name of your extension will be unique to your project. The manifest version, however, needs to be three. At the time of recording, this is the most recent version of the manifest file used throughout the web, regardless of browser.
+
+[04:32] It allows Chrome to distinguish which APIs can be used. Save and build. Then in Chrome, open a tab and go to Chrome extensions. This will direct you to the Chrome extensions dashboard. If this is your first time, then you'll have to switch developer mode on. Doing so will display some options for uploading, but notably the load unpacked button.
+
+[04:54] Press this now to show a file explorer. Navigate to the disc folder and press select. You should now see a new addition to the extensions dashboard displaying the name and version number from the manifest file. From here, you can navigate to the extensions menu. The project title is within the list.
+
+[05:10] It's a good idea to pin it for easy access during development as well. Now, select it and you'll see your extension come to life. Okay, so gotcha number one. If you see a popup with errors appear at this stage instead of your extension, then go back over your previous steps and make sure that you have named things exactly as I have.
+
+[05:28] Check that the manifest JSON file is in the public folder and check that you have run mpm run build after making any changes. The side panel is a feature within Chrome that allows for a more persistent user experience. The user can interact with your extension to one side regardless of any clicks within any existing or new tabs.
+
+[05:53] First, we need to make some further amendments to the manifest file. Here we have added the side panel key which like the default pop-up previously references the index html page. We have also added permissions which are an array of string values that relate to the Chrome API. They allow us access to different functionalities based on what we want.
+
+[06:16] For the side panel, we only need the side panel permission. Finally, we have added the host permissions. This is currently set so that our extension will work on any HTTP or HTTPS web page online. You should now be able to interact with the current page and open or swap to different tabs without the side panel closing.
+
+[07:02] You can close it, however, by clicking the small close button in the top right corner of the panel. Okay, gotcha 2. If you've looked in app tsx, you may have noticed VS Code seems to be unhappy with the syntax showing some red squiggly lines. This is really annoying, but this is how you get rid of them. Open the tconfig app JSON file and replace the module resolution value of bundler on line 11 with node.
+
+[07:24] And just like that, the red lines disappear. It may take a second or so for VS Code to catch up, so be patient. Next, let's look at how we can add our own React markup to the project. Head over to app tsx within the source folder. You'll find the V landing page code here. So, let's get rid of it and replace it with something of our own.
+
+[08:12] save build and reload. In the terminal, run mpm install types chrome-d. If you look at the package json file, you will notice that this command has added an entry within the dev dependencies object. A dev dependency is just that, something that we wish to use as part of our development environment, but not as part of production code.
+
+[08:54] Next, create a new folder within source and call it background. Inside this folder, add a new file called index.ts. Add the following to this file. The background script has no idea of the DOM within the viewport. It is only aware of the extension. Then in the V config, add the following to build rollup options input.
+
+[09:59] Finally, in manifest JSON, add the following. Save, build, and reload the extension. You'll now see some more information appear in the extension tile. There's a new service worker link and if you click it, a dev tools window will appear. Navigate to console and see the output from the background script displayed.
+
+[10:57] It is worth spending some time going through the documentation for the commands API, but some quick points that took me some time to discover are to attach a hotkey command to the pop-up, you must have the execute action object in place. You do not need to deal with any listener events in the background. This is not true, however, for the side panel.
+
+[11:15] The naming convention for the key names is in Pascal case and separated with a plus. It must be written exactly as I have or within the documentation. Pay attention to rules around specific keys for Windows, Mac, and Chromebook. Commands must include control or alt, but not control and alt. If you attempt to use a combination which is already used for something else, such as controls or commands, then your combination will never work.
+
+[11:42] Common hotkey combinations will take precedence over anything that we're doing here. It'll be of little surprise at this point we have to add more to the manifest file to get started. So add the following We also need to add a listener to the
+
+[13:04] background script for the side panel to respond. So in source background index.ts add the following. We can utilize this for creating our hotkey command functionality by setting up a listener in the background. It can listen out for the commands that we
+
+[14:08] decide and upon receiving their input open the extension. Save, build, and reload. Then give commandshift O on a Mac or control shift O on Windows a try. Remember, you can open the console for the service worker log output, too. Okay, a really small one. When adding URL strings to the matches array in the manifest file, make sure that each URL is suffixed by a forward slash.
+
+[14:55] Otherwise, you will always throw an error when reloading the extension in the extensions dashboard. All the code we have created up until now has been within the scope of the extension itself. But what if we want to add the ability for our extension to interact with the given DOM within the currently opened tabs page in manifest JSON? Add the following.
+
+[15:51] Also scripting must be added to the permissions array in the V config. Within build rollup options input, add the following. Now create a new folder within source called content. Then add a new file called index.ts. This script is scoped to the DOM of the current page. Within the manifest JSON setup, I have scoped it to only work on my website, but you can have it configured to work on anything you like.
+
+[16:52] I'm creating an H1 element, turning it red. and appending it to the HTML body.
+
+[18:08] Save, build, reload. Then navigate to the configured URL. Another type of extension that you can create is triggered by the user from a right-click context menu. In the manifest file, make sure the context menus is added to the permissions array. Then, inside of your background service worker, add the following code.
+
+[20:19] within the Chrome runtime event listener. After the console log, we use the context menus API to create two new objects which themselves are used in different contexts. The first object is a menu item which will trigger when the user right clicks anywhere on the current page. The second will trigger if the user selects a word on the page and right clicks with it selected.
+
+[21:48] Save build and reload. When the page is right clicked anywhere, notice the page option is displayed. Conversely, when a single word is selected on the page, notice the selection option is displayed. And remember that you can see the output of these selections in the service worker console. And that brings us to the end of this tutorial, but the beginning of your journey.
+
+[22:26] From here, I recommend visiting the Chrome extension API docs for many more details to build out your ideas. I'll leave the link in the description. Thank you so much for watching my first video. I've added my website in the description where you'll find the links to my socials as well as my other blog articles.
+
+[22:43] I have many things coming up in the near future as well, including Chrome extensions that I'm building and releasing myself. So, please like, subscribe, and let me know in the comments if you enjoyed this first video. Have a great day wherever you are, and I'll see you again soon. Bye.
+
+⚡ Created with ytranscript.app
