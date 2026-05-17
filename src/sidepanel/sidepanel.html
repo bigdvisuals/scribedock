@@ -8,62 +8,90 @@
 </head>
 <body>
   <div class="panel-container">
-    <!-- Header: Video Info -->
-    <header class="video-header" id="video-header" hidden>
-      <div class="header-label">Currently reading:</div>
-      <h2 class="video-title" id="video-title">...</h2>
-      <div class="video-channel" id="video-channel"></div>
-      <div class="transcript-meta">
-        <span id="transcript-status">Transcript: Auto-generated English</span>
-        <select id="language-select" class="language-select" hidden></select>
-      </div>
-    </header>
+    <section class="app-shell">
+      <div class="shell-main">
+        <header class="video-header" id="video-header" hidden>
+          <div class="header-top">
+            <div class="brand-lockup">
+              <div class="header-label">Transcript</div>
+              <div class="video-channel visually-hidden" id="video-channel"></div>
+            </div>
+            <div class="status-stack">
+              <div class="status-pill" id="panel-status">Ready</div>
+              <span id="current-time-pill" class="time-pill">0:00</span>
+            </div>
+          </div>
+          <h2 class="video-title" id="video-title">...</h2>
+          <span id="transcript-status" class="visually-hidden">Transcript: Auto-generated English</span>
+          <select id="language-select" class="language-select" hidden></select>
+        </header>
 
-    <!-- Toolbar -->
-    <div class="toolbar" id="toolbar" hidden>
-      <div class="search-container">
-        <input type="search" id="search-input" placeholder="Search transcript... (Ctrl+F)">
-      </div>
-      <div class="actions-container">
-        <button id="btn-copy" class="action-btn" title="Copy transcript">Copy</button>
-        <div class="download-dropdown">
-          <button id="btn-download" class="action-btn" title="Download">Download ▾</button>
-          <div class="dropdown-menu">
-            <button class="dropdown-item" data-format="txt">TXT</button>
-            <button class="dropdown-item" data-format="md">Markdown</button>
-            <button class="dropdown-item" data-format="srt">SRT</button>
-            <button class="dropdown-item" data-format="vtt">VTT</button>
+        <div class="toolbar" id="toolbar" hidden>
+          <label class="search-container">
+            <span class="visually-hidden">Search transcript</span>
+            <input type="search" id="search-input" aria-label="Search transcript" placeholder="Search transcript">
+          </label>
+          <div class="toolbar-meta">
+            <div class="search-meta">
+              <span id="search-count">0 matches</span>
+              <span class="keyboard-hint" aria-hidden="true">Ctrl+F</span>
+            </div>
+            <div class="toolbar-actions">
+              <button id="btn-copy" class="action-btn" title="Copy transcript">Copy</button>
+              <button id="btn-download-txt" class="action-btn primary-soft" title="Download transcript as TXT">Download TXT</button>
+            </div>
           </div>
         </div>
+
+        <div class="content-region">
+          <div class="empty-state" id="state-not-youtube">
+            <div class="empty-state-icon">YT</div>
+            <div class="empty-state-title">Open a YouTube video</div>
+            <div class="empty-state-text">The transcript will appear here when a supported video is open.</div>
+          </div>
+
+          <div class="empty-state" id="state-loading" hidden>
+            <div class="spinner"></div>
+            <div class="empty-state-title">Loading transcript</div>
+            <div class="empty-state-text">Fetching the available captions for this video.</div>
+          </div>
+
+          <div class="empty-state" id="state-no-transcript" hidden>
+            <div class="empty-state-icon">--</div>
+            <div class="empty-state-title">No transcript found</div>
+            <div class="empty-state-text">This video does not expose a transcript right now.</div>
+          </div>
+
+          <div class="empty-state" id="state-error" hidden>
+            <div class="empty-state-icon">!</div>
+            <div class="empty-state-title">Could not load transcript</div>
+            <div class="empty-state-text" id="error-message">Failed to load transcript.</div>
+            <button id="btn-retry" class="action-btn primary" title="Retry loading transcript">Retry</button>
+          </div>
+
+          <div class="transcript-shell" id="transcript-shell" hidden>
+            <div class="transcript-container" id="transcript-container">
+              <!-- Rows will be injected here -->
+            </div>
+          </div>
+
+          <button id="btn-jump-current" class="jump-current-btn" title="Jump to current transcript row" hidden>
+            Jump to current
+          </button>
+        </div>
       </div>
-    </div>
 
-    <!-- Empty States -->
-    <div class="empty-state" id="state-not-youtube">
-      <div class="empty-state-icon">📺</div>
-      <div class="empty-state-text">Open a YouTube video to see its transcript here.</div>
-    </div>
-    
-    <div class="empty-state" id="state-loading" hidden>
-      <div class="spinner"></div>
-      <div class="empty-state-text">Loading transcript...</div>
-    </div>
-
-    <div class="empty-state" id="state-no-transcript" hidden>
-      <div class="empty-state-icon">📝</div>
-      <div class="empty-state-text">No transcript available for this video.</div>
-    </div>
-
-    <div class="empty-state" id="state-error" hidden>
-      <div class="empty-state-icon">⚠️</div>
-      <div class="empty-state-text" id="error-message">Failed to load transcript.</div>
-      <button id="btn-retry" class="action-btn primary">Retry</button>
-    </div>
-
-    <!-- Transcript Rows -->
-    <div class="transcript-container" id="transcript-container" hidden>
-      <!-- Rows will be injected here -->
-    </div>
+      <footer class="panel-footer" id="panel-footer" hidden>
+        <div class="footer-status">
+          <div class="footer-group">
+            <span id="line-count">0 lines</span>
+            <span class="footer-separator" aria-hidden="true"></span>
+            <span id="follow-status">Transcript ready</span>
+          </div>
+          <span id="footer-time">0:00</span>
+        </div>
+      </footer>
+    </section>
   </div>
 
   <script src="../utils/youtube.js"></script>

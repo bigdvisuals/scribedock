@@ -2,7 +2,6 @@ const assert = require("node:assert/strict");
 const test = require("node:test");
 
 const navigation = require("../src/utils/navigation.js");
-const sidebar = require("../src/utils/sidebar.js");
 const youtube = require("../src/utils/youtube.js");
 
 test("gets the video ID from a normal YouTube watch URL", () => {
@@ -333,33 +332,4 @@ test("navigation keeps the current panel when the video ID did not change", () =
   );
 
   assert.deepEqual(action, { type: "keep", videoId: "dQw4w9WgXcQ" });
-});
-
-test("sidebar shell keeps the current video ID visible for testing", () => {
-  const shell = sidebar.createSidebarShellState("dQw4w9WgXcQ", "Example Video");
-
-  assert.equal(shell.videoId, "dQw4w9WgXcQ");
-  assert.equal(shell.videoTitle, "Example Video");
-});
-
-test("sidebar shell includes disabled transcript controls for this phase", () => {
-  const shell = sidebar.createSidebarShellState("dQw4w9WgXcQ", "Example Video");
-
-  assert.equal(shell.search.disabled, true);
-  assert.deepEqual(
-    shell.actions.map((action) => ({ label: action.label, disabled: action.disabled })),
-    [
-      { label: "Copy", disabled: true },
-      { label: "TXT", disabled: true },
-      { label: "Markdown", disabled: true }
-    ]
-  );
-});
-
-test("sidebar shell explains that transcripts are not loaded yet", () => {
-  const shell = sidebar.createSidebarShellState("dQw4w9WgXcQ", "");
-
-  assert.equal(shell.statusLabel, "Status");
-  assert.equal(shell.statusMessage, "Checking transcript availability...");
-  assert.equal(shell.transcriptPlaceholder, "Transcript will appear here after the next phase.");
 });

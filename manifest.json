@@ -36,7 +36,6 @@
         "src/utils/navigation.js",
         "src/utils/transcript.js",
         "src/utils/export.js",
-        "src/utils/sidebar.js",
         "src/utils/runtime-message.js",
         "src/content/content.js"
       ],

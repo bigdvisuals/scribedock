@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
     'src/utils/navigation.js',
     'src/utils/transcript.js',
     'src/utils/export.js',
-    'src/utils/sidebar.js',
     'src/utils/runtime-message.js',
     'src/content/content.js'
   ];
@@ -16,12 +15,20 @@ document.addEventListener('DOMContentLoaded', () => {
     channel: document.getElementById('video-channel'),
     status: document.getElementById('transcript-status'),
     langSelect: document.getElementById('language-select'),
+    panelStatus: document.getElementById('panel-status'),
+    currentTimePill: document.getElementById('current-time-pill'),
     toolbar: document.getElementById('toolbar'),
     searchInput: document.getElementById('search-input'),
+    searchCount: document.getElementById('search-count'),
     btnCopy: document.getElementById('btn-copy'),
-    btnDownload: document.getElementById('btn-download'),
-    dropdownItems: document.querySelectorAll('.dropdown-item'),
+    btnDownloadTxt: document.getElementById('btn-download-txt'),
+    transcriptShell: document.getElementById('transcript-shell'),
     transcriptContainer: document.getElementById('transcript-container'),
+    btnJumpCurrent: document.getElementById('btn-jump-current'),
+    footer: document.getElementById('panel-footer'),
+    lineCount: document.getElementById('line-count'),
+    followStatus: document.getElementById('follow-status'),
+    footerTime: document.getElementById('footer-time'),
     stateNotYoutube: document.getElementById('state-not-youtube'),
     stateLoading: document.getElementById('state-loading'),
     stateNoTranscript: document.getElementById('state-no-transcript'),
@@ -37,6 +44,11 @@ document.addEventListener('DOMContentLoaded', () => {
   let loadStartedAt = 0;
   let activeLoadId = 0;
   let lastRenderedSignature = '';
+  let isAutoScrollEnabled = true;
+  let isProgrammaticScroll = false;
+  let lastActiveRowStart = null;
+  let currentActiveRow = null;
+  let programmaticScrollTimer = null;
   const sidePanelState = {
     videoId: null,
     title: '',
@@ -60,14 +72,37 @@ document.addEventListener('DOMContentLoaded', () => {
     elements.stateLoading.hidden = stateName !== 'loading';
     elements.stateNoTranscript.hidden = stateName !== 'no-transcript';
     elements.stateError.hidden = stateName !== 'error';
-    elements.transcriptContainer.hidden = stateName !== 'loaded';
+    if (elements.transcriptShell) {
+      elements.transcriptShell.hidden = stateName !== 'loaded';
+    } else {
+      elements.transcriptContainer.hidden = stateName !== 'loaded';
+    }
+
+    if (elements.footer) {
+      elements.footer.hidden = stateName !== 'loaded';
+    }
+
+    if (stateName !== 'loaded') {
+      hideJumpToCurrentButton();
+    }
     
     const showHeaderAndToolbar = stateName === 'loaded' || stateName === 'no-transcript' || stateName === 'loading';
     elements.header.hidden = !showHeaderAndToolbar;
     elements.toolbar.hidden = !showHeaderAndToolbar;
     
     elements.btnCopy.disabled = stateName !== 'loaded';
-    elements.btnDownload.disabled = stateName !== 'loaded';
+    elements.btnDownloadTxt.disabled = stateName !== 'loaded';
+
+    if (elements.panelStatus) {
+      const labelByState = {
+        loaded: 'Ready',
+        loading: 'Loading',
+        'no-transcript': 'No transcript',
+        error: 'Error',
+        'not-youtube': 'Waiting'
+      };
+      elements.panelStatus.textContent = labelByState[stateName] || 'Ready';
+    }
   }
 
   function clearStateRefreshTimer() {
@@ -86,12 +121,17 @@ document.addEventListener('DOMContentLoaded', () => {
     sidePanelState.rows = [];
     activeStartSeconds = -1;
     lastRenderedSignature = '';
+    lastActiveRowStart = null;
+    currentActiveRow = null;
+    setAutoScrollEnabled(true);
 
     elements.title.textContent = 'Loading video...';
     elements.channel.textContent = '';
     elements.status.textContent = 'Loading transcript...';
     elements.searchInput.value = '';
     elements.transcriptContainer.innerHTML = '';
+    updateVisibleRowMeta(0, 0);
+    updateCurrentTime(0);
     showState('loading');
   }
 
@@ -124,6 +164,15 @@ document.addEventListener('DOMContentLoaded', () => {
       last.startSeconds,
       last.text
     ].join('|');
+  }
+
+  function buildRenderSignature(rows, query) {
+    return [
+      sidePanelState.videoId || '',
+      sidePanelState.captionLabel || '',
+      getRowsSignature(rows),
+      query || ''
+    ].join('::');
   }
 
   async function getActiveTab() {
@@ -192,19 +241,51 @@ document.addEventListener('DOMContentLoaded', () => {
     return hours > 0 ? `${hours}:${minStr}:${secStr}` : `${minStr}:${secStr}`;
   }
 
+  function getRowEndSeconds(rows, index) {
+    const row = rows[index];
+    const nextRow = rows[index + 1];
+    const durationSeconds = Number(row && row.durationSeconds);
+
+    if (Number.isFinite(durationSeconds) && durationSeconds > 0) {
+      return row.startSeconds + durationSeconds;
+    }
+
+    if (nextRow && Number.isFinite(nextRow.startSeconds)) {
+      return nextRow.startSeconds;
+    }
+
+    return Number.POSITIVE_INFINITY;
+  }
+
+  function activateTranscriptRow(rowElement, startSeconds) {
+    sendMessageToTab({ type: 'JUMP_TO_TIME', time: startSeconds });
+    activeStartSeconds = startSeconds;
+    updateCurrentTime(activeStartSeconds);
+    updateActiveHighlight(activeStartSeconds);
+    resumeAutoScroll(rowElement);
+  }
+
   function renderRows(rows, query = '') {
     elements.transcriptContainer.innerHTML = '';
     const frag = document.createDocumentFragment();
     const lowerQuery = query.toLowerCase().trim();
 
-    rows.forEach(row => {
+    let visibleRows = 0;
+    currentActiveRow = null;
+    lastActiveRowStart = null;
+
+    rows.forEach((row, index) => {
       if (lowerQuery && !row.text.toLowerCase().includes(lowerQuery) && !formatTimestamp(row.startSeconds).includes(lowerQuery)) {
         return;
       }
       const div = document.createElement('div');
       div.className = 'transcript-row';
       div.dataset.start = row.startSeconds;
-      div.dataset.end = row.startSeconds + row.durationSeconds;
+      div.dataset.end = getRowEndSeconds(rows, index);
+      div.tabIndex = 0;
+      div.setAttribute('role', 'button');
+      div.setAttribute('aria-label', `Jump to ${formatTimestamp(row.startSeconds)}: ${row.text}`);
+      div.title = 'Jump to this point in the video';
       
       const timeSpan = document.createElement('div');
       timeSpan.className = 'row-timestamp';
@@ -218,14 +299,85 @@ document.addEventListener('DOMContentLoaded', () => {
       div.appendChild(textSpan);
       
       div.addEventListener('click', () => {
-        sendMessageToTab({ type: 'JUMP_TO_TIME', time: row.startSeconds });
+        activateTranscriptRow(div, row.startSeconds);
+      });
+      div.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          activateTranscriptRow(div, row.startSeconds);
+        }
       });
 
       frag.appendChild(div);
+      visibleRows += 1;
     });
 
     elements.transcriptContainer.appendChild(frag);
+    updateVisibleRowMeta(visibleRows, lowerQuery ? visibleRows : 0);
     updateActiveHighlight(activeStartSeconds);
+  }
+
+  function updateVisibleRowMeta(visibleRows, matchCount) {
+    if (elements.lineCount) {
+      elements.lineCount.textContent = `${visibleRows} lines`;
+    }
+
+    if (elements.searchCount) {
+      elements.searchCount.textContent = `${matchCount} ${matchCount === 1 ? 'match' : 'matches'}`;
+    }
+  }
+
+  function hideJumpToCurrentButton() {
+    if (elements.btnJumpCurrent) {
+      elements.btnJumpCurrent.hidden = true;
+    }
+  }
+
+  function showJumpToCurrentButton() {
+    if (elements.btnJumpCurrent && sidePanelState.status === 'loaded') {
+      elements.btnJumpCurrent.hidden = false;
+    }
+  }
+
+  function setAutoScrollEnabled(enabled) {
+    isAutoScrollEnabled = enabled;
+
+    if (enabled) {
+      hideJumpToCurrentButton();
+    } else {
+      showJumpToCurrentButton();
+    }
+
+    if (elements.followStatus) {
+      elements.followStatus.textContent = enabled ? 'Transcript ready' : 'Auto-scroll paused';
+    }
+  }
+
+  function markProgrammaticScroll() {
+    isProgrammaticScroll = true;
+
+    if (programmaticScrollTimer) {
+      clearTimeout(programmaticScrollTimer);
+    }
+
+    programmaticScrollTimer = setTimeout(() => {
+      isProgrammaticScroll = false;
+      programmaticScrollTimer = null;
+    }, 700);
+  }
+
+  function scrollRowIntoView(row, block = 'center') {
+    if (!row) return;
+    markProgrammaticScroll();
+    row.scrollIntoView({ behavior: 'smooth', block });
+  }
+
+  function resumeAutoScroll(row = elements.transcriptContainer.querySelector('.active-row')) {
+    setAutoScrollEnabled(true);
+
+    if (row && !isElementInViewport(row)) {
+      scrollRowIntoView(row);
+    }
   }
 
   function updateActiveHighlight(currentTimeSeconds) {
@@ -234,19 +386,33 @@ document.addEventListener('DOMContentLoaded', () => {
     const rows = elements.transcriptContainer.querySelectorAll('.transcript-row');
     let activeRow = null;
 
-    rows.forEach(row => {
+    for (const row of rows) {
       const start = parseFloat(row.dataset.start);
       const end = parseFloat(row.dataset.end);
       if (currentTimeSeconds >= start && currentTimeSeconds < end) {
-        row.classList.add('active-row');
         activeRow = row;
-      } else {
-        row.classList.remove('active-row');
+        break;
       }
-    });
+    }
 
-    if (activeRow && !isElementInViewport(activeRow)) {
-      activeRow.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    const nextActiveRowStart = activeRow ? activeRow.dataset.start : null;
+    const activeRowChanged = nextActiveRowStart !== lastActiveRowStart;
+    lastActiveRowStart = nextActiveRowStart;
+
+    if (activeRowChanged) {
+      if (currentActiveRow) {
+        currentActiveRow.classList.remove('active-row');
+      }
+
+      if (activeRow) {
+        activeRow.classList.add('active-row');
+      }
+
+      currentActiveRow = activeRow;
+    }
+
+    if (activeRow && activeRowChanged && isAutoScrollEnabled && !isElementInViewport(activeRow)) {
+      scrollRowIntoView(activeRow);
     }
   }
 
@@ -264,7 +430,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const res = await sendMessageToTab({ type: 'GET_CURRENT_TIME' });
     if (res && typeof res.currentTime === 'number') {
       activeStartSeconds = res.currentTime;
+      updateCurrentTime(activeStartSeconds);
       updateActiveHighlight(activeStartSeconds);
+    }
+  }
+
+  function updateCurrentTime(seconds) {
+    const timestamp = formatTimestamp(seconds);
+
+    if (elements.currentTimePill) {
+      elements.currentTimePill.textContent = timestamp;
+    }
+
+    if (elements.footerTime) {
+      elements.footerTime.textContent = timestamp;
     }
   }
 
@@ -357,12 +536,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const trackLabel = state.captionLabel || ((state.tracks && state.tracks[0]) ? state.tracks[0].label : 'Auto-generated English');
       sidePanelState.captionLabel = trackLabel;
       elements.status.textContent = 'Transcript: ' + trackLabel;
-      const renderSignature = [
-        state.videoId || '',
-        trackLabel,
-        getRowsSignature(sidePanelState.rows),
-        elements.searchInput.value || ''
-      ].join('::');
+      const renderSignature = buildRenderSignature(sidePanelState.rows, elements.searchInput.value);
 
       if (renderSignature !== lastRenderedSignature) {
         renderRows(sidePanelState.rows, elements.searchInput.value);
@@ -380,6 +554,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
   elements.searchInput.addEventListener('input', (e) => {
     renderRows(sidePanelState.rows, e.target.value);
+    lastRenderedSignature = buildRenderSignature(sidePanelState.rows, e.target.value);
+  });
+
+  elements.transcriptContainer.addEventListener('scroll', () => {
+    if (sidePanelState.status !== 'loaded' || isProgrammaticScroll) return;
+    setAutoScrollEnabled(false);
+  });
+
+  ['wheel', 'touchmove'].forEach(eventName => {
+    elements.transcriptContainer.addEventListener(eventName, () => {
+      isProgrammaticScroll = false;
+    }, { passive: true });
   });
 
   window.addEventListener('keydown', (e) => {
@@ -402,27 +588,23 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  elements.dropdownItems.forEach(item => {
-    item.addEventListener('click', () => {
-      if (!sidePanelState.rows.length) return;
-      const format = item.dataset.format;
-      const title = elements.title.textContent || 'transcript';
-      const exportHelpers = window.YTTranscriptExport;
-      let text = '';
-      let filename = exportHelpers.createSafeFileName(title, format);
+  function exportTxtTranscript() {
+    if (!sidePanelState.rows.length) return;
 
-      if (format === 'txt') {
-        text = exportHelpers.buildPlainTextTranscript(title, '', sidePanelState.rows);
-      } else if (format === 'md') {
-        text = exportHelpers.buildMarkdownTranscript(title, '', sidePanelState.rows);
-      } else if (format === 'srt') {
-        text = exportHelpers.buildSrtTranscript(sidePanelState.rows);
-      } else if (format === 'vtt') {
-        text = exportHelpers.buildVttTranscript(sidePanelState.rows);
-      }
+    const title = elements.title.textContent || 'transcript';
+    const exportHelpers = window.YTTranscriptExport;
+    const text = exportHelpers.buildPlainTextTranscript(title, '', sidePanelState.rows);
+    const filename = exportHelpers.createSafeFileName(title, 'txt');
 
-      exportHelpers.downloadTextFile(filename, text, document);
-    });
+    exportHelpers.downloadTextFile(filename, text, document);
+  }
+
+  elements.btnDownloadTxt.addEventListener('click', () => {
+    exportTxtTranscript();
+  });
+
+  elements.btnJumpCurrent.addEventListener('click', () => {
+    resumeAutoScroll();
   });
 
   elements.btnRetry.addEventListener('click', loadTranscriptState);
