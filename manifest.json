@@ -4,11 +4,25 @@
   "description": "A beginner-friendly Chrome extension scaffold for showing YouTube transcripts.",
   "version": "0.1.0",
   "action": {
-    "default_title": "YouTube Transcript Helper",
-    "default_popup": "src/popup/popup.html"
+    "default_title": "Open YouTube Transcript Helper"
+  },
+  "side_panel": {
+    "default_path": "src/sidepanel/sidepanel.html"
+  },
+  "background": {
+    "service_worker": "src/background/background.js"
   },
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "sidePanel",
+    "scripting",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/*",
+    "https://youtube.com/*",
+    "https://m.youtube.com/*"
   ],
   "content_scripts": [
     {
@@ -23,12 +37,10 @@
         "src/utils/transcript.js",
         "src/utils/export.js",
         "src/utils/sidebar.js",
+        "src/utils/runtime-message.js",
         "src/content/content.js"
       ],
-      "css": [
-        "src/content/content.css"
-      ],
-      "run_at": "document_idle"
+      "run_at": "document_start"
     }
   ]
 }

@@ -53,6 +53,59 @@
     return lines.join("\n");
   }
 
+  function formatSrtTime(totalSeconds) {
+    var safeSeconds = Math.max(0, Number(totalSeconds) || 0);
+    var hours = Math.floor(safeSeconds / 3600);
+    var minutes = Math.floor((safeSeconds % 3600) / 60);
+    var seconds = Math.floor(safeSeconds % 60);
+    var milliseconds = Math.floor((safeSeconds % 1) * 1000);
+    return String(hours).padStart(2, "0") + ":" +
+           String(minutes).padStart(2, "0") + ":" +
+           String(seconds).padStart(2, "0") + "," +
+           String(milliseconds).padStart(3, "0");
+  }
+
+  function formatVttTime(totalSeconds) {
+    return formatSrtTime(totalSeconds).replace(",", ".");
+  }
+
+  function buildSrtTranscript(transcriptRows) {
+    var rows = Array.isArray(transcriptRows) ? transcriptRows : [];
+    var lines = [];
+
+    rows.forEach(function addRow(row, index) {
+      if (!row || !row.text) {
+        return;
+      }
+      var start = formatSrtTime(row.startSeconds);
+      var end = formatSrtTime(row.startSeconds + row.durationSeconds);
+      lines.push(String(index + 1));
+      lines.push(start + " --> " + end);
+      lines.push(row.text);
+      lines.push("");
+    });
+
+    return lines.join("\n");
+  }
+
+  function buildVttTranscript(transcriptRows) {
+    var rows = Array.isArray(transcriptRows) ? transcriptRows : [];
+    var lines = ["WEBVTT", ""];
+
+    rows.forEach(function addRow(row) {
+      if (!row || !row.text) {
+        return;
+      }
+      var start = formatVttTime(row.startSeconds);
+      var end = formatVttTime(row.startSeconds + row.durationSeconds);
+      lines.push(start + " --> " + end);
+      lines.push(row.text);
+      lines.push("");
+    });
+
+    return lines.join("\n");
+  }
+
   function createSafeFileName(videoTitle, extension) {
     var safeTitle = String(videoTitle || "youtube-transcript")
       .toLowerCase()
@@ -93,6 +146,8 @@
   var api = {
     buildMarkdownTranscript: buildMarkdownTranscript,
     buildPlainTextTranscript: buildPlainTextTranscript,
+    buildSrtTranscript: buildSrtTranscript,
+    buildVttTranscript: buildVttTranscript,
     createSafeFileName: createSafeFileName,
     downloadTextFile: downloadTextFile
   };

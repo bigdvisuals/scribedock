@@ -95,6 +95,186 @@ test("detects whether a URL is a supported YouTube video page", () => {
   assert.equal(youtube.isYouTubeWatchPage("https://www.youtube.com/results?search_query=test"), false);
 });
 
+test("uses the visible heading instead of stale Open Graph title metadata", () => {
+  const fakeDocument = {
+    querySelector(selector) {
+      if (selector === 'meta[property="og:title"]') {
+        return { content: "Old Video Title" };
+      }
+
+      if (selector === "h1 yt-formatted-string, h1") {
+        return { textContent: "New Video Title" };
+      }
+
+      return null;
+    },
+    title: "Old Video Title - YouTube"
+  };
+
+  assert.equal(youtube.getCurrentVideoTitle(fakeDocument), "New Video Title");
+});
+
+test("uses ytd-watch-flexy video-id when the URL has not updated yet", () => {
+  const fakeDocument = {
+    querySelector(selector) {
+      if (selector === "ytd-watch-flexy[video-id]") {
+        return {
+          getAttribute(name) {
+            return name === "video-id" ? "abcdefghijk" : null;
+          }
+        };
+      }
+
+      return null;
+    }
+  };
+
+  assert.equal(
+    youtube.getCurrentVideoId(fakeDocument, "https://www.youtube.com/"),
+    "abcdefghijk"
+  );
+});
+
+test("rejects metadata candidates that still match the previous video title", () => {
+  const fakeDocument = {
+    querySelector(selector) {
+      if (selector === 'ytd-watch-flexy[video-id="abcdefghijk"]') {
+        return {};
+      }
+
+      if (selector === "h1.ytd-watch-metadata yt-formatted-string, h1 yt-formatted-string, h1") {
+        return { textContent: "Old Video Title" };
+      }
+
+      if (selector === "#owner #channel-name a, ytd-video-owner-renderer a") {
+        return { textContent: "Old Channel" };
+      }
+
+      return null;
+    },
+    title: "Old Video Title - YouTube"
+  };
+
+  assert.equal(
+    youtube.getVideoMetadataCandidate(fakeDocument, null, "abcdefghijk", "Old Video Title"),
+    null
+  );
+});
+
+test("uses matching player response metadata for the current video id", () => {
+  const fakeDocument = {
+    querySelector(selector) {
+      if (selector === 'ytd-watch-flexy[video-id="abcdefghijk"]') {
+        return {};
+      }
+
+      if (selector === "h1.ytd-watch-metadata yt-formatted-string, h1 yt-formatted-string, h1") {
+        return { textContent: "Old Video Title" };
+      }
+
+      if (selector === "#owner #channel-name a, ytd-video-owner-renderer a") {
+        return { textContent: "Old Channel" };
+      }
+
+      return null;
+    },
+    title: "Old Video Title - YouTube"
+  };
+  const playerResponse = {
+    videoDetails: {
+      videoId: "abcdefghijk",
+      title: "New Video Title",
+      author: "New Channel"
+    }
+  };
+
+  assert.deepEqual(
+    youtube.getVideoMetadataCandidate(fakeDocument, playerResponse, "abcdefghijk", "Old Video Title"),
+    {
+      title: "New Video Title",
+      channelName: "New Channel"
+    }
+  );
+});
+
+test("waits until metadata changes before returning the new video state", async () => {
+  let now = 0;
+  let attempts = 0;
+  const fakeDocument = {
+    querySelector(selector) {
+      if (selector === 'ytd-watch-flexy[video-id="abcdefghijk"]') {
+        return {};
+      }
+
+      if (selector === "h1.ytd-watch-metadata yt-formatted-string, h1 yt-formatted-string, h1") {
+        return { textContent: attempts === 0 ? "Old Video Title" : "New Video Title" };
+      }
+
+      if (selector === "#owner #channel-name a, ytd-video-owner-renderer a") {
+        return { textContent: attempts === 0 ? "Old Channel" : "New Channel" };
+      }
+
+      return null;
+    },
+    get title() {
+      return attempts === 0
+        ? "Old Video Title - YouTube"
+        : "New Video Title - YouTube";
+    }
+  };
+
+  const metadata = await youtube.waitForVideoMetadata("abcdefghijk", "Old Video Title", {
+    document: fakeDocument,
+    initialDelayMs: 0,
+    pollIntervalMs: 10,
+    timeoutMs: 100,
+    now: () => now,
+    sleep: async (ms) => {
+      now += ms;
+      attempts += 1;
+    }
+  });
+
+  assert.deepEqual(metadata, {
+    title: "New Video Title",
+    channelName: "New Channel"
+  });
+});
+
+test("does not return the previous title after metadata wait times out", async () => {
+  let now = 0;
+  const fakeDocument = {
+    querySelector(selector) {
+      if (selector === 'ytd-watch-flexy[video-id="abcdefghijk"]') {
+        return {};
+      }
+
+      if (selector === "h1.ytd-watch-metadata yt-formatted-string, h1 yt-formatted-string, h1") {
+        return { textContent: "Old Video Title" };
+      }
+
+      return null;
+    },
+    title: "Old Video Title - YouTube"
+  };
+
+  const metadata = await youtube.waitForVideoMetadata("abcdefghijk", "Old Video Title", {
+    document: fakeDocument,
+    initialDelayMs: 0,
+    pollIntervalMs: 10,
+    timeoutMs: 20,
+    now: () => now,
+    sleep: async (ms) => {
+      now += ms;
+    }
+  });
+
+  assert.deepEqual(metadata, {
+    title: "Unknown video",
+    channelName: ""
+  });
+});
+
 test("navigation asks to render when entering a normal video page", () => {
   const action = navigation.getPageAction(
     null,
