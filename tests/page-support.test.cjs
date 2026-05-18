@@ -9,8 +9,39 @@ test("recognizes supported YouTube video and Shorts pages", () => {
   assert.equal(pageSupport.isSupportedYouTubeVideoUrl("https://m.youtube.com/shorts/dQw4w9WgXcQ"), true);
 });
 
-test("rejects non-video YouTube and non-YouTube pages", () => {
-  assert.equal(pageSupport.isSupportedYouTubeVideoUrl("https://www.youtube.com/results?search_query=test"), false);
-  assert.equal(pageSupport.isSupportedYouTubeVideoUrl("https://example.com/watch?v=dQw4w9WgXcQ"), false);
-  assert.equal(pageSupport.isSupportedYouTubeVideoUrl("not a url"), false);
+test("classifies channel URL shapes as channel mode", () => {
+  assert.deepEqual(
+    pageSupport.getPageContextFromUrl("https://www.youtube.com/@clearvaluetax/videos"),
+    {
+      mode: "CHANNEL_MODE",
+      isYouTubePage: true
+    }
+  );
+  assert.deepEqual(
+    pageSupport.getPageContextFromUrl("https://www.youtube.com/@clearvaluetax"),
+    {
+      mode: "CHANNEL_MODE",
+      isYouTubePage: true
+    }
+  );
+  assert.equal(pageSupport.isSupportedYouTubeChannelUrl("https://www.youtube.com/c/ClearValueTax"), true);
+  assert.equal(pageSupport.isSupportedYouTubeChannelUrl("https://www.youtube.com/channel/UC123456"), true);
+  assert.equal(pageSupport.isSupportedYouTubeChannelUrl("https://www.youtube.com/user/clearvaluetax"), true);
+});
+
+test("classifies unsupported YouTube and non-YouTube pages neutrally", () => {
+  assert.deepEqual(
+    pageSupport.getPageContextFromUrl("https://www.youtube.com/results?search_query=test"),
+    {
+      mode: "UNSUPPORTED_MODE",
+      isYouTubePage: true
+    }
+  );
+  assert.deepEqual(
+    pageSupport.getPageContextFromUrl("https://example.com/"),
+    {
+      mode: "UNSUPPORTED_MODE",
+      isYouTubePage: false
+    }
+  );
 });

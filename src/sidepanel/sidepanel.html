@@ -23,7 +23,24 @@
           </div>
           <h2 class="video-title" id="video-title">...</h2>
           <span id="transcript-status" class="visually-hidden">Transcript: Auto-generated English</span>
-          <select id="language-select" class="language-select" hidden></select>
+          <div class="language-row">
+            <div id="language-control" class="language-control" hidden>
+              <button
+                id="language-trigger"
+                class="language-trigger"
+                type="button"
+                aria-label="Transcript language"
+                aria-haspopup="listbox"
+                aria-expanded="false"
+                aria-controls="language-menu"
+              >
+                <span id="language-trigger-label">Auto / Best match</span>
+              </button>
+              <div id="language-menu" class="language-menu" role="listbox" aria-label="Transcript language" hidden></div>
+            </div>
+            <span id="language-pill" class="language-pill" hidden></span>
+          </div>
+          <div id="language-note" class="language-note" hidden></div>
         </header>
 
         <div class="toolbar" id="toolbar" hidden>
@@ -46,8 +63,49 @@
         <div class="content-region">
           <div class="empty-state" id="state-not-youtube">
             <div class="empty-state-icon">YT</div>
-            <div class="empty-state-title">Open a YouTube video</div>
-            <div class="empty-state-text">The transcript will appear here when a supported video is open.</div>
+            <div class="empty-state-title">Open a YouTube video or channel</div>
+            <div class="empty-state-text">Transcript tools appear here when a supported YouTube page is open.</div>
+          </div>
+
+          <div class="channel-state" id="state-channel-mode" hidden>
+            <div class="channel-header">
+              <div class="channel-avatar-slot">
+                <div id="channel-avatar-fallback" class="channel-avatar-fallback" aria-hidden="true">YT</div>
+                <img id="channel-avatar" class="channel-avatar" alt="" hidden>
+              </div>
+              <div class="channel-heading">
+                <div class="channel-label">CHANNEL MODE</div>
+                <div class="channel-name" id="channel-name">Channel</div>
+              </div>
+              <div class="status-pill channel-status-pill" id="channel-status-pill">Ready</div>
+            </div>
+
+            <div class="channel-main">
+              <div class="channel-count">Visible videos found: <span id="channel-visible-count">0</span></div>
+              <div class="channel-helper" id="channel-helper-text">Transcripts will be downloaded only when available.</div>
+
+              <div class="channel-progress" id="channel-progress" hidden>
+                <div class="channel-progress-track">
+                  <span class="channel-progress-fill" id="channel-progress-fill"></span>
+                </div>
+                <div class="channel-progress-label" id="channel-progress-label">Scanning 0 of 0</div>
+                <div class="channel-current-video" id="channel-current-video"></div>
+                <div class="channel-metrics">
+                  <span id="channel-success-count">0 available</span>
+                  <span id="channel-failure-count">0 unavailable</span>
+                </div>
+              </div>
+
+              <div class="channel-summary" id="channel-summary" hidden></div>
+
+              <div class="channel-actions">
+                <button id="btn-scan-visible-videos" class="action-btn primary" title="Scan currently visible channel videos">Scan visible videos</button>
+                <button id="btn-pause-channel-scan" class="action-btn" title="Pause channel scan" hidden>Pause</button>
+                <button id="btn-resume-channel-scan" class="action-btn primary" title="Resume channel scan" hidden>Resume</button>
+                <button id="btn-cancel-channel-scan" class="action-btn" title="Cancel channel scan" hidden>Cancel</button>
+                <button id="btn-download-channel-zip" class="action-btn primary-soft" title="Download available transcripts ZIP" hidden disabled>Download transcripts ZIP</button>
+              </div>
+            </div>
           </div>
 
           <div class="empty-state" id="state-loading" hidden>
@@ -96,7 +154,9 @@
 
   <script src="../utils/youtube.js"></script>
   <script src="../utils/page-support.js"></script>
+  <script src="../utils/transcript.js"></script>
   <script src="../utils/export.js"></script>
+  <script src="../vendor/jszip.min.js"></script>
   <script src="sidepanel.js"></script>
 </body>
 </html>

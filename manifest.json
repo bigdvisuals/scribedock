@@ -33,8 +33,10 @@
       ],
       "js": [
         "src/utils/youtube.js",
+        "src/utils/page-support.js",
         "src/utils/navigation.js",
         "src/utils/transcript.js",
+        "src/utils/channel.js",
         "src/utils/export.js",
         "src/utils/runtime-message.js",
         "src/content/content.js"

@@ -117,6 +117,103 @@
     return (safeTitle || "youtube-transcript") + "." + safeExtension;
   }
 
+  function sanitizeDisplayFilePart(value, fallback) {
+    var safeValue = String(value || fallback || "youtube-video")
+      .replace(/[<>:"/\\|?*\u0000-\u001f]/g, " ")
+      .replace(/\s+/g, " ")
+      .trim()
+      .slice(0, 80);
+
+    return safeValue || fallback || "youtube-video";
+  }
+
+  function createChannelTranscriptFileName(index, videoTitle, videoId) {
+    var safeIndex = String(Math.max(1, Number(index) || 1)).padStart(3, "0");
+    var safeTitle = sanitizeDisplayFilePart(videoTitle, "Untitled video");
+    var safeVideoId = sanitizeDisplayFilePart(videoId, "unknown-video");
+
+    return safeIndex + " - " + safeTitle + " [" + safeVideoId + "].txt";
+  }
+
+  function buildChannelTranscriptFile(video, channelName, downloadedAt) {
+    var safeVideo = video || {};
+    var lines = [
+      "Title: " + (safeVideo.title || "Unknown video"),
+      "URL: " + (safeVideo.url || ""),
+      "Channel: " + (channelName || ""),
+      "Video ID: " + (safeVideo.videoId || ""),
+      "Transcript language: " + (safeVideo.transcriptLanguage || ""),
+      "Downloaded at: " + (downloadedAt || ""),
+      ""
+    ];
+
+    (Array.isArray(safeVideo.rows) ? safeVideo.rows : []).forEach(function addRow(row) {
+      if (!row || !row.text) {
+        return;
+      }
+
+      lines.push((row.timestamp || "00:00") + " " + row.text);
+    });
+
+    return lines.join("\n");
+  }
+
+  function buildChannelManifest(options) {
+    var safeOptions = options || {};
+    var successes = Array.isArray(safeOptions.successes) ? safeOptions.successes : [];
+    var failures = Array.isArray(safeOptions.failures) ? safeOptions.failures : [];
+
+    return JSON.stringify({
+      channelName: safeOptions.channelName || "",
+      channelUrl: safeOptions.channelUrl || "",
+      exportedAt: safeOptions.exportedAt || safeOptions.downloadedAt || "",
+      totalDiscoveredVideos: Number(safeOptions.totalDiscoveredVideos) || 0,
+      totalSuccessfulTranscripts: successes.length,
+      totalFailedVideos: failures.length,
+      scanStatus: safeOptions.scanStatus || "",
+      preferredTranscriptLanguage: safeOptions.preferredTranscriptLanguage || "",
+      successfulVideos: successes.map(function mapSuccess(video) {
+        return {
+          index: video.index || 0,
+          videoId: video.videoId || "",
+          title: video.title || "",
+          url: video.url || "",
+          language: video.transcriptLanguage || "",
+          filename: video.filename || ""
+        };
+      })
+    }, null, 2);
+  }
+
+  function buildFailedVideosReport(failures) {
+    var lines = ["Failed videos", ""];
+    var safeFailures = Array.isArray(failures) ? failures : [];
+
+    if (safeFailures.length === 0) {
+      lines.push("No failed videos");
+      return lines.join("\n");
+    }
+
+    safeFailures.forEach(function addFailure(video) {
+      if (!video) {
+        return;
+      }
+
+      lines.push([
+        video.videoId || "",
+        video.title || "Unknown video",
+        video.url || "",
+        video.reason || "Unknown failure"
+      ].join(" | "));
+    });
+
+    return lines.join("\n");
+  }
+
+  function createChannelZipFileName(channelName) {
+    return sanitizeDisplayFilePart(channelName, "Channel") + " - Transcripts.zip";
+  }
+
   function downloadTextFile(fileName, text, documentValue) {
     var doc = documentValue || root.document;
     var blob;
@@ -143,12 +240,40 @@
     return true;
   }
 
+  function downloadBlobFile(fileName, blob, documentValue) {
+    var doc = documentValue || root.document;
+    var url;
+    var link;
+
+    if (!doc || !blob || !root.URL || typeof root.URL.createObjectURL !== "function") {
+      return false;
+    }
+
+    url = root.URL.createObjectURL(blob);
+    link = doc.createElement("a");
+    link.href = url;
+    link.download = fileName;
+    link.style.display = "none";
+    doc.body.appendChild(link);
+    link.click();
+    link.remove();
+    root.URL.revokeObjectURL(url);
+
+    return true;
+  }
+
   var api = {
+    buildChannelManifest: buildChannelManifest,
+    buildChannelTranscriptFile: buildChannelTranscriptFile,
+    buildFailedVideosReport: buildFailedVideosReport,
     buildMarkdownTranscript: buildMarkdownTranscript,
     buildPlainTextTranscript: buildPlainTextTranscript,
     buildSrtTranscript: buildSrtTranscript,
     buildVttTranscript: buildVttTranscript,
+    createChannelTranscriptFileName: createChannelTranscriptFileName,
+    createChannelZipFileName: createChannelZipFileName,
     createSafeFileName: createSafeFileName,
+    downloadBlobFile: downloadBlobFile,
     downloadTextFile: downloadTextFile
   };
 
