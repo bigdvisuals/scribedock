@@ -1,0 +1,251 @@
+Title: DDoS Attack | What is a DDoS Attack? | DDoS Attack Explained | Edureka
+URL: https://www.youtube.com/watch?v=LJ-qntmvXsU&list=PL9ooVrP1hQOGPQVeapGsJCktzIO4DtI4_&index=82&pp=iAQB
+Channel: YouTube playlist
+Video ID: LJ-qntmvXsU
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:24:55.858Z
+
+0:07 Hello everyone and welcome to another
+0:09 exciting video on cyber security by
+0:12 Adurea. So today we are diving straight
+0:14 into one of the most talked about attack
+0:16 methods in the cyber world which is the
+0:18 DOS attack. So you will learn what a
+0:21 DDoS attack really is, how it works and
+0:23 most importantly how to simulate one in
+0:26 controlled environment. But before we
+0:28 begin, make sure to like, share, and
+0:29 subscribe to Edureka's YouTube channel
+0:31 and hit the bell icon to stay updated on
+0:33 the latest content from Edureka. Along
+0:36 with this, check out the certified
+0:37 ethical hacking course designed in
+0:39 partnership with EC Council to elevate
+0:41 your cyber security skills. And this
+0:43 course offers a globally recognized CV13
+0:46 AI certification and features 20
+0:49 comprehensive modules that cover over
+0:51 500 attack techniques enhanced by AI GPT
+0:54 tools. You will also gain hands-on
+0:56 experience through 221 practical labs
+0:59 and benefit from roundthe-clock support
+1:00 provided by certified professionals and
+1:03 with access to exclusive ecos and an
+1:06 exam vure from EC council. This course
+1:08 is your gateway to mastering ethical
+1:10 hacking and securing a rewarding career
+1:12 in cyber defense. So check out the
+1:13 course link given in the description box
+1:15 below. So now let's start with the
+1:18 basics. So let us understand what
+1:20 exactly is a DOS attack. A DOS attack or
+1:23 distributed denial of service is when
+1:26 multiple systems flood the bandwidth or
+1:28 resources of a targeted server, service
+1:30 or network causing it to crash or become
+1:33 unavailable. And there are different
+1:35 types of DOS attacks like wallmetric
+1:37 attacks that are designed to flood a
+1:40 network's bandwidth with massive amounts
+1:42 of traffic making it difficult or
+1:44 impossible for legitimate users to
+1:46 access the service. The next type is the
+1:48 protocol attacks that take advantage of
+1:50 weaknesses in the network protocol to
+1:53 consume server resources like CPU and
+1:55 memory slowing down or crashing the
+1:57 system. The next type of attack that we
+1:59 are going to talk about is application
+2:01 layer attacks. It attacks specific
+2:03 features of a website or application by
+2:06 sending a large number of seemingly
+2:07 normal requests to overwhelm the app's
+2:10 ability to respond. So the goal is to
+2:12 interrupt normal traffic and make
+2:14 services unusable. So now that we
+2:17 understand what a DOS attack is and how
+2:19 it works. So now let's take a look at
+2:21 just how much damage it can cause in
+2:23 real world. So let's take a moment to
+2:26 understand just how serious DOS attacks
+2:28 can be. Back in 2016, one of the most
+2:31 powerful DOS attack in history was
+2:33 launched using the Mai botnet. This
+2:35 attack targeted a company called Den,
+2:38 which provides DNS services that help
+2:40 route internet traffic. By flooding D
+2:43 servers with an enormous amount of
+2:45 traffic, it caused major websites like
+2:48 Twitter, Netflix, and Reddit to go
+2:50 offline for hours. The attack reached a
+2:53 peak of 1.2 terabytes per second of
+2:55 traffic, which is massive by any
+2:57 standard. So, DOS attacks like this
+3:00 don't just cause inconvenience. They can
+3:02 cost businesses millions of dollars in
+3:05 downtime, damage customer trust, and
+3:07 even open the doors to larger security
+3:09 breaches. And in some cases, millions of
+3:12 users can be affected in just minutes.
+3:14 So now that we understand the impact of
+3:16 DOS attacks. So let's take a look at
+3:18 some of the most commonly used tools
+3:20 hackers use to carry them out. So here
+3:22 we will talk about five of the most
+3:24 well-known DOS tools you should be aware
+3:26 of. So first on the list we have LOI,
+3:29 which stands for low orbit cannon. So
+3:33 LOI is one of the most basic tools used
+3:35 to launch DOS attacks. It works by
+3:38 directing a flood of traffic from one or
+3:40 more computers to a specific server or
+3:42 website in an attempt to overwhelm it.
+3:45 So it can send different types of
+3:46 packets such as TCP, UDP, HTTP get used
+3:50 in HTTP flirt attacks. So lo becomes
+3:53 popular because it's easy to use and has
+3:55 a simple interface but it's not very
+3:58 stealthy and can be detected quickly by
+4:00 modern defenses. Moving on to second
+4:02 tool which is HO which stands for high
+4:05 orbit ion cannon. So Hoy was developed
+4:08 as an upgrade of Loy. It can generate
+4:10 more traffic at a faster rate and allows
+4:12 users to create custom attack scripts
+4:14 for more advanced attacks. So unlike Lo,
+4:17 Ho focuses mainly on HTTP get and HTTP
+4:20 post. And Hoy is capable of launching
+4:23 powerful web-based DOS attacks and can
+4:26 send up to 250 requests at once, making
+4:29 it much more difficult to detect and
+4:31 block than Lo. The next tool is slow
+4:34 lores. Slow lores is a highly affected
+4:37 DOS tool that works very differently. So
+4:39 instead of flooding a server with large
+4:41 amounts of data, it sends small slow and
+4:44 incomplete HTTP request. So this causes
+4:47 the server to keep many connections open
+4:49 while waiting for the full request to
+4:51 come through. So since the server is
+4:53 waiting and using up its resources, it
+4:55 eventually becomes too overwhelmed to
+4:57 serve real users. So this tool is
+4:59 particularly dangerous because it uses
+5:01 very little bandwidth but causing a big
+5:04 impact. The next tool is are you dead
+5:06 it? So are you dead at tool is another
+5:10 clever tool that targets web servers
+5:12 with forms. It works by slowly sending
+5:14 long HTTP post requests through input
+5:16 field on web forms one character at a
+5:19 time. So this slow and steady approach
+5:21 keeps server connections tied up for a
+5:23 long period eventually exhausting the
+5:25 server's ability to handle real user
+5:27 input. The next tool on our list is HP
+5:30 ping 3 is a more advanced tool that
+5:32 allows you to craft and send custom TCP
+5:35 IP packets. It can simulate various
+5:37 types of attacks including send floods
+5:39 and ICMP floods. So what makes HP 3
+5:43 especially useful is that it also shows
+5:45 how the target response which makes it
+5:48 perfect for testing and simulating DOS
+5:50 attacks in a lab environment. So now
+5:53 that we have covered the tools used in
+5:54 DOS attacks. So let's see how a DOS
+5:57 attack is actually
+5:59 executed. So now we will be using two
+6:01 virtual machines. One as the attacker
+6:04 and another as the victim. In step one
+6:07 we are doing environment setup. So here
+6:09 the attacker machine that we are going
+6:11 to use is Kali Linux and the tool that
+6:13 we'll be using is HP 3. And for victim
+6:16 machine we will be using Ubuntu and the
+6:18 tool we are using for monitoring is if
+6:21 for network traffic. So now moving on to
+6:24 network
+6:25 setup. So both virtual machines should
+6:28 be on the same net or host only network.
+6:30 So they can communicate internally
+6:32 without touching your external and
+6:33 internal and use virtual box or VMware
+6:37 to create and configure the virtual
+6:55 machines and make sure that you have the
+6:57 victim's virtual machine's internal IP.
+7:00 And you can also check it by running
+7:02 IP8. So it looks something like this.
+7:05 And this is our victim's virtual
+7:06 machine's IP address. So before jumping
+7:09 into the demonstration, let's talk about
+7:12 what we are going to do with this setup
+7:13 that we have created. So as discussed we
+7:16 will use hping 3 from the attacker
+7:18 machines to flood the victim's machines
+7:20 port 80 with TCP syn packets and then we
+7:24 will monitor the effect using if top on
+7:26 the victim's side to visualize the spike
+7:28 in traffic. Now to install the hpang
+7:31 tool let us give a command pseudo apt
+7:34 install hping
+7:36 3. All
+7:39 right. So now let us install the tool on
+7:42 victim's virtual machine which is if
+7:44 top. So now let us give command
+7:46 pseudoapp install if toptop. So this
+7:50 command should install our iftop tool.
+7:53 Now moving on to step three launching
+7:55 the
+7:56 attack. So now let's initiate the DOS
+7:59 simulation from our Kali Linux attacker
+8:01 machine using hping 3. So let us give a
+8:05 command as sudo hping
+8:09 3 -
+8:11 s - flood h - v h - p
+8:18 80 followed by victim's IP. So in this
+8:22 following command the hyphen s sends the
+8:24 syn packets followed by we have hyphen
+8:28 flood which sends packets as fast as
+8:30 possible and then the hyphen v verbose
+8:33 output so we can see what's going on and
+8:36 then we also have hyphen p80 which is
+8:38 targeting port 80 which is a default
+8:40 HTTP port. So this command floods the
+8:43 victim's web port with connection
+8:45 request simulating a real world sin
+8:48 flood attack. Now moving on to step five
+8:50 which is monitoring traffic on the
+8:52 victim. So let's move on to the victim
+8:54 machine to see what kind of damage this
+8:56 flood is causing. So on the victim's
+8:59 machine run the following command as
+9:01 sudo if top - i it0. So if it zero
+9:07 doesn't work check your interface with
+9:09 IPA.
+9:16 So as you can see on the screen, traffic
+9:18 from the attacker machine is flooding
+9:20 in. So the network bandwidth is spiking
+9:22 and the victim system becomes slow and
+9:24 possibly in responsive. So let's open
+9:27 another terminal and try running a
+9:29 simple command like ping
+9:32 google.com. All right. So this command
+9:35 is to see how slow or blocked the
+9:37 connection becomes.
+9:41 Now this shows how even a simple attack
+9:43 can impact a server's ability to respond
+9:46 to traffic. So in real world attacks,
+9:48 hundreds or thousands of systems are
+9:50 used simultaneously to take down targets
+9:53 completely. And with this we have come
+9:55 to an end to this video on how to
+9:57 execute a DOS attack. So if you enjoyed
+9:59 listening to this video, please be kind
+10:01 enough to like it and you can comment on
+10:03 any of your doubts and queries. We will
+10:05 reply to them at the earliest. And do
+10:08 look out for more videos and playlist
+10:10 and subscribe to Edureka's YouTube
+10:12 channel to learn more. Thank you for
+10:14 watching and happy learning.

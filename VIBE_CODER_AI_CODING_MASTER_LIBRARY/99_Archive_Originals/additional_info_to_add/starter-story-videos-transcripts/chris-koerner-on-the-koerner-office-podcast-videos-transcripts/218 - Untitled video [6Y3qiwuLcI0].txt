@@ -1,0 +1,971 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=6Y3qiwuLcI0
+Channel: Chris Koerner on The Koerner Office Podcast
+Video ID: 6Y3qiwuLcI0
+Transcript language: English auto-generated
+Downloaded at: 2026-05-25T23:53:08.598Z
+
+0:00 welcome to the ker office we've got
+0:02 eight short segments for you today
+0:03 including how to scrape commercial real
+0:05 estate for a guy that needs to sell
+0:07 grants to companies how to sell custom
+0:09 spreadsheets on Etsy how to reverse
+0:11 engineer other Etsy seller selling
+0:13 spreadsheets how to be better at sales
+0:15 how to close more deals over the phone
+0:16 what side hustle should we start
+0:18 e-commerce or service business what's
+0:19 the first step of that lowcost mattress
+0:21 stores how to go all in on a business
+0:23 when you have enough money you don't
+0:24 really have to what's my framework for
+0:26 starting and/or holding Andor selling
+0:28 businesses and last but certainly not
+0:30 least how do I manage bookkeeping for
+0:31 all of my new businesses eight questions
+0:33 eight segments you're going to love
+0:35 [Music]
+0:37 it hi Chris thanks for having me on so I
+0:41 have a side gig selling grants to
+0:43 companies primarily around the north
+0:45 Texas area uh currently the only way we
+0:47 can find companies that qualifies is by
+0:49 physically driving around and looking at
+0:51 buildings because for a company to be
+0:53 worth talking to they need to be a small
+0:56 business have high utility bills own
+0:58 their own building and be low located in
+1:00 certain zip codes you seem to be a king
+1:03 of uh scraping the internet for
+1:04 companies how could I scrape for any or
+1:06 all of those parameters thanks Mike
+1:09 thanks for calling in I love your
+1:10 question and I'm excited to answer it so
+1:12 you have to find your customers by
+1:13 driving around because they need to be
+1:15 small business customers that also own
+1:17 their building that also have high
+1:18 utility bills I think there's some ways
+1:20 around having to drive around for them I
+1:23 would start with rom.com re ny.com it's
+1:27 very expensive 450 bucks but they have a
+1:30 7day free trial and you can do
+1:32 everything you need to do within those
+1:34 seven days because I don't want you to
+1:35 spend 450 bucks just like I don't want
+1:37 to spend it I have a virtual assistant
+1:39 that I use from time to time his name is
+1:41 atique attiq if you email me Chris coof
+1:44 founders.com I'll make an introduction
+1:45 he can scrape rom.com Romy is great
+1:49 because it is the best commercial real
+1:51 estate database that I have found I use
+1:53 it for finding RV and mobile home parks
+1:55 this is not sponsored they don't know
+1:56 who I am but it's a great piece of
+1:58 software so what you do is you'll go
+2:00 into Romy on your free trial you will
+2:03 set a search for whatever you're looking
+2:05 for and then you would save the search
+2:07 by the filters that you set and then you
+2:09 let atique log into your account he'll
+2:12 go to your saved search and he will
+2:14 scrape all of your results because Romy
+2:16 charges you an insane amount for
+2:19 exporting the results in addition to the
+2:21 450 bucks a month that they charge you
+2:23 it's just crazy then what I would do is
+2:25 I would start with a very small radius
+2:27 like a neighborhood and Whittle it down
+2:29 you want to find building owners that
+2:32 have a name or a business name that
+2:34 matches the name of the business in that
+2:36 building that will prevent you from
+2:38 having to drive around it's not super
+2:39 efficient but it's more efficient than
+2:41 driving around and you can find another
+2:42 virtual assistant to help you with that
+2:44 so for instance if you see a building in
+2:46 your exported spreadsheet that says
+2:48 Bob's Plumbing LLC and then you see on
+2:51 another database like outs scraper I
+2:53 guess that's the second part of the step
+2:54 is go to outs scraper run a scrape
+2:56 yourself for the same GE graphy and then
+3:01 put them side by side you can use a
+3:03 vlookup or an xlookup Ask chat GPT how
+3:05 to do that and then you can match all of
+3:08 the lines or all of the rows in the
+3:10 spreadsheets by address and then just
+3:12 try to find LLC names or business names
+3:14 or owner names that match the name of
+3:15 the owner of the business because when
+3:17 you scrape on outs scraper if you check
+3:19 the box to get owner names you'll also
+3:20 get owner names so that's it Romy scrape
+3:24 plus out scrape for scrape will tell you
+3:26 which buildings are owned by the
+3:28 business owner in that building and then
+3:29 you'll also know by default that they're
+3:31 small businesses and you'll be able to
+3:33 Market to them you'll have their name
+3:35 their phone number their email address
+3:36 their physical address and you'll be
+3:38 good to go and then you can use my
+3:40 scraping guide which is in my toolkit if
+3:42 you subscribe to my newsletter TKO
+3:43 pod.com you'll get the scraping guide in
+3:46 the welcome email after subscribing
+3:47 you'll get my copyrighting guide my cold
+3:50 emailing guide everything you'll get all
+3:51 my my growth hacks in that welcome email
+3:54 so hope that helps and also this advice
+3:57 applies to anyone trying to scrape uh
+3:59 real estate bionomy is a great solution
+4:01 for this let's go to the next question
+4:03 hey Chris I love making Google
+4:05 spreadsheets I'm kind of nerd that way
+4:07 but I would love to start selling them I
+4:08 do have an Etsy shop and I just
+4:10 partnered with somebody who will manage
+4:13 it and will do all the SEO and and drive
+4:15 more sales there but where I really want
+4:16 to see myself going is working with
+4:18 small to mediumsized businesses who
+4:20 don't have traditional crms or anything
+4:22 who maybe already have spread sheets and
+4:24 I I can jump in and enhance them or
+4:26 create different spread sheets such as
+4:28 CRM sales tracking that type of stuff so
+4:31 main question is what do you think about
+4:32 this idea do you hate it I would love to
+4:34 make about $5,000 on the side there but
+4:36 I know that I need a a couple more
+4:38 clients I need a lot of clients doing
+4:39 that once I do get a lot of clients I'm
+4:41 more than happy to to start hiring with
+4:43 Fiverr upwork and and kind of be the
+4:45 manager of those relationships but I
+4:48 also need to get more businesses so
+4:50 wondering if what your thoughts are
+4:51 about this how can I differentiate
+4:53 myself from my competitors from other
+4:55 people who are doing this how can I get
+4:56 a lot more clients my main goal of this
+4:58 as well is to do something while my kids
+5:01 are sleeping while it's a little bit
+5:02 slower at my day job yeah so just
+5:04 definitely want to make about $5,000 a
+5:06 quarter doing this and I think that
+5:07 would be a game changer for me so
+5:09 anyways let me know your thoughts thanks
+5:11 all right great question I don't know
+5:12 what your name is but your email has the
+5:14 word KIRO in it Q so I'm going to call
+5:17 you that love this idea I love the
+5:20 practice of brainstorming ways of
+5:21 selling spreadsheets because that's not
+5:23 something I've ever done and it kind of
+5:25 makes my brain tickle or hurt a little
+5:27 bit depending on how you look at it so
+5:29 as you asking me this question I went to
+5:31 Etsy and I typed in spreadsheet and
+5:33 there is a little growth act you can use
+5:35 on Etsy which I love I didn't know
+5:37 frankly that spreadsheets were sold on
+5:39 it Etsy I knew that digital products
+5:41 were sold here but not spreadsheets but
+5:42 it makes sense looks like there's a lot
+5:43 of people doing it which is good for you
+5:45 after typing in spreadsheet I just kind
+5:47 of looked around and I looked at the
+5:49 seller names because I want to find
+5:50 sellers that are primarily Andor
+5:53 exclusively selling spreadsheets and I
+5:55 found a guy called the sheet code one
+5:57 word on Etsy the sheet code and I click
+6:00 on his profile if you're watching on
+6:02 YouTube I'm going to share my screen so
+6:04 you'll be able to watch this okay so the
+6:07 sheet code is selling a family and
+6:10 coup's financial planner package for
+6:13 $8.23 and I just love this 24 people
+6:17 bought this in the last 24 hours so this
+6:19 guy's made 200 bucks today which is
+6:23 670 Grand a year from one of his
+6:27 products just crazy his entire store has
+6:30 1257 reviews this one product has 191
+6:34 almost all festar reviews but here's
+6:36 what you can do if you want to know what
+6:38 type of spreadsheets people are buying
+6:39 on Etsy if you're watching on YouTube
+6:41 look at my screen you want to find out
+6:44 how many products they're selling and
+6:45 then find out the ratio of number of
+6:48 reviews on that one product to number of
+6:50 their total reviews so this guy has 191
+6:52 reviews on this product and he has 1257
+6:55 reviews total so this about 15% call it
+6:59 15% of all of his reviews are for this
+7:02 one product 100 divided by 15 is about
+7:06 seven give or take so all else equal he
+7:08 should have about seven products if they
+7:11 all sold about the same but of course
+7:12 they won't so let's see how many
+7:13 products this guy has okay he's made
+7:16 17,000 sales 31 items okay so surely
+7:21 anyone listening to this is familiar
+7:23 with the 820 rule but I'm just going to
+7:25 repeat it in case one of you isn't I
+7:27 love the 8020 rule because it appears
+7:29 everywhere it's like a law of the
+7:31 universe it just appears everywhere 80%
+7:33 of your sales come from 20% of your
+7:35 people 80% of your headaches come from
+7:37 20% of your customers 80% of your
+7:39 productivity comes from 20% of your
+7:41 employees it's everywhere and so it
+7:43 clearly looks like this personal finance
+7:46 budgeting spreadsheet is one of this
+7:48 guy's top sellers because he has 31
+7:50 items for sale he probably only sells a
+7:53 few of these other ones every day or
+7:55 every week and he sells a ton of the
+7:57 other ones so if I sort by highest price
+8:00 they're all priced at
+8:04 8.82 to like $189 very cheap but they're
+8:08 all basically personal finance packages
+8:11 so what you could do is you could use a
+8:14 software tool to scrape these or you
+8:16 could just do it manually real quick put
+8:18 all 31 in a spreadsheet and then write
+8:21 down how many reviews he has for each of
+8:23 the 31 and then you're going to know
+8:24 what his best sellers are and then if I
+8:27 were you I would buy some of his best
+8:28 sellers and look at it and read the
+8:30 reviews and see what if there are any
+8:33 four or lower star reviews what are they
+8:35 complaining about what could be improved
+8:37 upon these and then you use the words
+8:38 and the reviews to write your copy on
+8:41 your product so if people are saying
+8:43 like this is great five stars all around
+8:45 but I really wish that I could toggle
+8:48 and adjust for inflation because of all
+8:51 the inflation we've had lately I really
+8:52 wish I could account for it in a little
+8:54 toggle cell okay so now that's just one
+8:58 data point but it could could be
+8:59 representative of others that aren't
+9:01 saying it so then you could not just put
+9:03 that in your spreadsheet but you could
+9:04 advertise that in your spreadsheets but
+9:06 from a broader perspective just read
+9:08 every single review and find
+9:10 commonalities what do they love about it
+9:12 because a lot of times this guy this
+9:15 bestseller it says family and couple
+9:18 annual budget Google Sheets Excel he's
+9:20 just keyword stuffing okay which is fine
+9:22 it clearly works he ranks highly but it
+9:24 doesn't really answer people's questions
+9:27 so if people in the reviews are
+9:29 constantly saying I love that it adjust
+9:31 for inflation I love that adjusts for
+9:33 inflation I love that it adjusts for
+9:34 inflation but he's not even selling that
+9:37 then you could just have a very similar
+9:38 spreadsheet that does the same things
+9:41 and you could just sell that more in the
+9:43 title or in the description so spend
+9:45 hours on Etsy looking at other
+9:47 spreadsheets what's selling really well
+9:48 what isn't and then break my advice my
+9:51 advice is always to fish where people
+9:52 are fishing sell this stuff where other
+9:54 people are selling it but also do the
+9:57 opposite sometimes I bet you very few
+9:59 people are selling spreadsheets on
+10:00 Facebook Marketplace because they're not
+10:02 thinking to but there's probably traffic
+10:04 for it you could do some keyword
+10:06 stuffing yourself and see how many
+10:08 search results you pop up in so Facebook
+10:11 groups local Facebook groups even if
+10:12 it's not a local city that you're in but
+10:15 if you want to sell these to small
+10:16 businesses as you say I would go to a
+10:18 local Facebook group and just ask for a
+10:21 small business owner if you could make
+10:23 some free spreadsheets for them just to
+10:25 see if you can add value and then either
+10:27 you can resell that same spreadsheet to
+10:28 other small small business owners in the
+10:30 same Niche or you can say hey in the
+10:33 process of making this sheet for
+10:35 tracking all your dental patients I
+10:37 learned that you probably need another
+10:39 sheet for tracking your receptionist
+10:41 hours would you mind if I make one of
+10:43 those for you be 30 bucks or something
+10:44 like that that will just open your eyes
+10:46 to all kinds of other needs that the
+10:48 business owner might have but you should
+10:49 start by doing it for free at least so
+10:51 you could learn some feedback on what
+10:53 they like or dislike about your
+10:54 spreadsheets also play around with Etsy
+10:56 ads some of these guys might just be
+10:58 crushed it in organic rankings but if
+11:00 you put some paid ads behind your
+11:02 spreadsheets with a $0 cost to fulfill
+11:05 it could be pretty lucrative also I
+11:07 would do the same reverse engineering on
+11:08 gumroad which as you probably know is
+11:10 like an Etsy but primarily for digital
+11:13 products only so great question all
+11:16 right Josh has a question about closing
+11:19 sales over the phone hey Chris this is
+11:21 Josh from Ohio I was just reading your
+11:23 article about your iPhone screen repair
+11:26 business and wanted to ask you about
+11:28 closing your deals you mentioned that
+11:30 you'd hop on the phone with some of your
+11:32 bigger clients to make sure to close the
+11:34 deals compared to having your vas do it
+11:36 all I have a little experience with this
+11:38 with the EMD lending business and doing
+11:40 cold and warm Outreach like Alex rosi
+11:42 always talks about but specifically when
+11:44 you get on the phone to close a deal
+11:47 what are some of the strategies some of
+11:49 the tips that have worked really well
+11:50 for you and you use as a framework going
+11:53 forward throughout other businesses I'd
+11:55 really love to hear what you think and
+11:57 what you have to say and and look
+11:59 forward to hearing your answer soon love
+12:02 your content and thanks so much for
+12:04 listening to this thanks for the
+12:05 question Josh love the question and I'm
+12:07 just going to take two of the words that
+12:09 you said and point it right back at you
+12:11 Alex horoi Alex brosi he's the sales
+12:14 King I cannot even hold a candle to his
+12:17 sales ability so I'm going to repeat a
+12:19 lot of what he repeats because I've
+12:21 taken his advice to heart and it's made
+12:22 me a better salesman the most important
+12:24 thing you can do when closing any deal
+12:26 over the phone or in person is to have a
+12:28 no brainer Grand Slam offer because
+12:31 no-brainer offer will cover a multitude
+12:34 of sins if you're not very bold you're
+12:36 not very pressuring you're not very
+12:38 extroverted you're not great with people
+12:40 all of that can be covered by a
+12:42 no-brainer Grand Slam offer and really
+12:45 anything above a no-brainer offer often
+12:48 gets a little slimy often turns into
+12:50 just kind of strong arming someone or
+12:52 kind of twisting them into buying your
+12:55 product or service and you start to
+12:57 flirt in the gray area which doesn't
+12:59 make me feel super comfortable but if
+13:01 you can have an amazing offer that
+13:03 conveys really well to them then you
+13:06 will close more deals so in the earnest
+13:08 money deposit lending industry which I
+13:11 don't know much about to be honest I
+13:13 would get on 10 sales calls with 10 of
+13:15 your competitors if you're a competitor
+13:17 and take a ton of notes on what they're
+13:19 doing well or not well on the phone and
+13:21 you are going to learn so much from them
+13:24 you really just have to be bold on
+13:26 getting to the heart of what their
+13:27 objections are because usually the
+13:30 objections that were given are not the
+13:32 true objections like H I just need to
+13:34 think about it that usually means it's
+13:36 too expensive I just think it's too
+13:38 expensive that usually means there's not
+13:40 enough value there in what you're
+13:41 offering or at least you're not
+13:42 conveying the value well enough so you
+13:44 need to put together an offer that feels
+13:46 risk-free to them it makes them feel
+13:48 stupid for saying no like literally they
+13:51 would feel dumb for saying no to your
+13:53 offer now that varies from industry to
+13:55 Industry obviously it's harder in some
+13:56 Industries to make that no-brainer offer
+13:58 than others but it's always going to be
+13:59 possible so if you haven't read $100
+14:01 million offers I would go read that if
+14:03 you have read it I would go read it
+14:05 again because there's a lot to learn in
+14:06 there all right let's hear what Doug has
+14:08 to say good morning Chris my wife and I
+14:11 are racking our brains trying to come up
+14:14 with a side hustle we are going to pull
+14:16 off and start something but we're just
+14:19 not sure what just yet we are scouring
+14:22 your ideas and also thinking about
+14:25 either a service industry or a Shopify
+14:28 store and product what is the first step
+14:31 in order to pull the trigger and get
+14:33 started form an LLC question mark Doug
+14:36 thanks for the question it's funny
+14:38 because you basically got down to two
+14:41 different industries that you're
+14:42 considering e-commerce and service and I
+14:45 have a lot more experience in e-commerce
+14:47 than I have in service businesses so
+14:49 maybe this answer is too biased because
+14:51 I'm jaded but if you're choosing between
+14:53 those two I would not choose e-commerce
+14:55 e-commerce is hard it is capital
+14:57 intensive it takes a while to hit cash
+14:59 flow positivity it's generally low
+15:01 margin It generally has to be driven by
+15:03 paid ads which generally means you have
+15:05 to be really good at paid ads or pay an
+15:07 agency way too much to do paid ads for
+15:09 you in which you'll get a mixed bag of
+15:12 results so all else equal I would
+15:14 definitely start a service business do
+15:16 not worry about getting an LLC I
+15:18 answered this on a recent episode a
+15:20 couple weeks ago about when do you get
+15:22 the LLC you get the LLC when you're
+15:25 generating revenue and you're sure that
+15:26 it's going to be a thing this is going
+15:28 to be something that you're going to
+15:29 file taxes on it's here to stay don't
+15:32 get an LLC first you need to find a
+15:34 customer first whatever your service
+15:36 business is even if it's an unpay
+15:38 customer even if the customer is your
+15:39 mom you need to get a customer start
+15:42 with a friends and family customer and
+15:43 or an unpay customer and then upgrade to
+15:46 a customer that pays you less than what
+15:48 your cost is to fulfill just so you can
+15:50 get your reps and get some testimonials
+15:52 and then just keep increasing your
+15:53 prices and go from there but you got to
+15:56 start testing things like we could
+15:59 research or learn business ideas until
+16:01 the cows come home but we're not even
+16:02 going to know if it's a good idea until
+16:04 we start to try it you just don't know
+16:07 it's all Theory all right David has a
+16:09 question about mattress stores all right
+16:12 if you are watching this clip right now
+16:13 you are watching this on YouTube and if
+16:15 you are a fan of podcast please check
+16:16 out my podcast while you're at it
+16:18 because sometimes I have podcasts that
+16:19 aren't on YouTube and sometimes I have
+16:20 YouTubes that aren't on podcast so check
+16:22 out the ker office on any podcast
+16:24 platform or you can go to TKO pod.com
+16:27 also my newsletter will throw that in
+16:28 there there are no ads It's weekly it's
+16:30 different content than my podcast and
+16:31 YouTube newsletter. chrisj cerner.com
+16:34 You'll see the link and we'll see you
+16:35 there what do you think about lowcost
+16:37 mattress stores I just love it this is
+16:39 the shortest question that's ever been
+16:41 asked me what do you think about lowcost
+16:43 mattress stores very straightforward to
+16:45 the point and honestly I probably would
+16:46 have ignored this question had I not
+16:49 been talking to a mattress guy here over
+16:51 the last week or two he is on Twitter I
+16:53 think he's known as the mattress guy or
+16:55 something like that and we've been
+16:56 emailing and I'm just curious about his
+16:58 business and what this guy does is he
+17:00 sells high-end mattresses on Twitter and
+17:03 he's making 20 to 30 grand a month
+17:04 part-time doing this and this is the
+17:07 last email that he sent me I said his
+17:10 name is Nick Hancock direct Outlet
+17:12 Charlotte is his business if you want to
+17:14 look him up I have no affiliation just a
+17:16 guy been emailing nice guy so I said
+17:18 Nick can you send me some numbers uh the
+17:20 margin you make on mattresses quantity
+17:22 you sell per month crazy stories how the
+17:23 logistics work because as part of this
+17:25 podcast I'm always doing research on
+17:26 cool business ideas that's what I do so
+17:28 this was just something that I haven't
+17:29 even posted about yet you heard it here
+17:31 first he said sure thing 50% gross
+17:34 profit minimum typically around 55 to
+17:36 60% average ticket is 1 to 3K so we'll
+17:39 stop right there let's say $2,000
+17:41 average mattress he is going to gross
+17:45 about
+17:46 $1,200 on that mattress 30% net after
+17:50 everything so $600 net on average per
+17:53 mattress saving people thousands as they
+17:55 are just getting quoted $6 to $10,000 at
+17:58 mattr mattress retailers 20 to 30 a
+18:01 month and growing with Twitter Logistics
+18:02 are simple if in Charlotte I deliver
+18:04 same day if out of state FedEx or LTL
+18:07 LTL means less than truckload AKA not a
+18:10 full truckload and typically they in 3
+18:12 to 5 days so then I asked how do you
+18:15 Source these if someone wanted to make
+18:17 money at this how much of that would you
+18:18 be willing to share it's a fine balance
+18:20 because that's what people want to read
+18:23 he said multiple manufacturers here in
+18:25 the states I won't be giving these
+18:26 contacts away my dad built these over 35
+18:29 years of doing business but those people
+18:31 are all at the furniture markets in Las
+18:33 Vegas and high point I can easily share
+18:35 how I would start from scratch today
+18:36 with my knowledge no problem so thanks
+18:38 for the question it looks like I
+18:40 searched mattress in my email looks like
+18:41 you emailed me this morning at 7:38 in
+18:44 the morning so hopefully this answer
+18:47 suffices but zooming out a little bit I
+18:50 love the concept of selling High ticket
+18:52 items just as a greasy money grubbing
+18:55 middleman there's nothing wrong with
+18:56 being a middleman especially if you
+18:57 don't have to hold inventory
+18:59 and you're really just acting as a
+19:00 broker and making 600 bucks a pop so as
+19:03 far as lowcost mattress stores I don't
+19:05 know it's it's going to be a little more
+19:07 complex you're going to have to sign a
+19:08 long-term lease you're going to have to
+19:10 hold inventory you might go a day or two
+19:12 or three without any sales because
+19:14 that's just the name of the game in the
+19:15 mattress business but I do know that
+19:17 you'll want to post up next to other
+19:19 mattress stores because that's just what
+19:21 you do you you want to go where people
+19:23 are mattress shopping and if you're
+19:24 right next to a mattress Plus or a
+19:27 mattress firm or whatever they're called
+19:29 you're probably going to do really well
+19:31 all right let's hear from Spencer Hey
+19:34 Chris first and foremost really love
+19:35 your content and just everything you're
+19:37 about all the business ideas I'm the
+19:39 exact same way I've always just looking
+19:41 and seeing every business around me how
+19:43 can I expand it how can I capitalize on
+19:45 an opportunity see all those things so
+19:47 really love it thank you quick question
+19:48 for you I exited my business which was
+19:51 an online licensing business I exited it
+19:54 in the beginning of 2023 I do have
+19:56 another business that currently runs
+19:58 that I'm not really involved in the day
+20:00 day-to-day of and so I not kind of work
+20:02 on it here and there but my big question
+20:04 has been I've really struggled over the
+20:06 last year and a half going on two years
+20:07 now since I sold my business of really
+20:10 kind of going all in and and having the
+20:12 motivation to start uh new business and
+20:15 really scale it up you know it's one of
+20:17 those things where I don't have kids
+20:19 happily married and with the exit I got
+20:21 enough money to really kind of live
+20:23 comfortably I've never really wanted for
+20:25 a lot right not big into just buying
+20:28 stuff for the sake of find stuff and so
+20:29 I guess my question for you is where do
+20:32 you get that motivation to continue
+20:34 going essentially when money no longer
+20:36 becomes the main driver of doing the
+20:38 business and kind of where do you get
+20:41 that motivation to continue with these
+20:42 business ideas once you start hitting
+20:43 those friction points where it gets hard
+20:45 where it's not as fun anymore thanks so
+20:47 much and appreciate everything you're
+20:49 doing thank you Spencer I see your
+20:50 question as being two parts first part
+20:53 is how do you find motivation to start a
+20:56 business when you're well off already
+20:57 you don't need the money second part of
+20:59 the question is if you do start a
+21:01 business how do you push through when
+21:03 things get hard if you don't need the
+21:04 money so I've been in your shoes before
+21:08 it was not a great time in my life
+21:09 honestly I wasn't super productive I
+21:11 wasn't super hungry I would start
+21:13 businesses and then just quit them as
+21:15 soon as things got hard because I didn't
+21:16 have to keep going and the best and
+21:18 biggest businesses I've ever started
+21:20 have been when I had no plan B I had no
+21:22 parachute I I had to make it work and
+21:24 that's usually the case we're forced to
+21:27 make it work but there is something you
+21:28 can do first of all you need to change
+21:30 your scenery you need to travel more you
+21:32 need to get out see what types of
+21:33 businesses are going on in other states
+21:35 or other countries also you need to join
+21:38 some communities some meetups you need
+21:39 to meet up with new people entrepreneurs
+21:41 maybe that are younger than you maybe
+21:43 that are hungrier than you or doing cool
+21:44 things that might not have your
+21:46 expertise and just get in the game more
+21:48 it just sounds like you're not in the
+21:50 game as much and when I say in the game
+21:52 I don't mean just like learning about
+21:53 business ideas like listening to my
+21:55 content but like actually out there
+21:57 exploring diing into ideas another thing
+22:00 I would suggest is to fall in love with
+22:02 a hobby and really just dive deep into a
+22:05 hobby something that you never plan to
+22:07 monetize for me that would be cooking
+22:10 authentic pizza in my outdoor pizza oven
+22:12 or turning wood bowls with my lathe and
+22:15 then as you become engrossed in that
+22:18 task you're going to start to see
+22:19 opportunities that you're really really
+22:21 passionate about that you really don't
+22:22 care if it ever makes money because if
+22:24 you love business like it sounds like
+22:26 you do then you'll love your hobby even
+22:28 even more now it is a thing when people
+22:31 try to monetize their Hobbies it doesn't
+22:32 become fun to them anymore but that
+22:34 doesn't always happen it doesn't happen
+22:36 with me now how to persist if you do
+22:38 start a business and things get hard and
+22:39 you don't really have the motivation you
+22:41 need an accountability partner you need
+22:43 to get a business partner maybe he's an
+22:45 operator maybe you're Co-operators but
+22:47 you should get a business partner or a
+22:49 friend or someone that's in your local
+22:51 area that you do business with in person
+22:55 that will help you have a lot more fun
+22:56 and stay motivated and have those late
+22:58 night whiteboard sessions where you both
+23:00 super excited that's the fun part of
+23:03 business and you will feel indebted to
+23:05 your business partner to not just give
+23:07 it up because you're partnered with
+23:08 someone and they're holding you
+23:10 accountable and also to be a little more
+23:12 meta here just don't worry about it man
+23:14 like you're going to figure it out like
+23:16 you're going to come across the thing
+23:17 that excites you and you're going to
+23:19 persist it'll come eventually it's been
+23:21 two years now which isn't that much time
+23:23 in the grand scheme of things so just
+23:24 keep staying in the game be in the game
+23:26 more like I said go meet people all
+23:29 right we got CG up next friend of the
+23:32 Pod Connor gross he's been on a bunch of
+23:34 times he's going to be on again and I
+23:36 was delighted and surprised to see that
+23:38 he left me a question so let's listen to
+23:39 what Connor has to say hey it's Connor I
+23:42 remember you and I having a conversation
+23:43 a while ago and I was trying to approach
+23:46 it from the philosophy of every business
+23:48 that I start I want to hold forever and
+23:51 that was something that I was trying to
+23:52 work on because I thought that it would
+23:54 be easier just to start and hold
+23:56 companies indefinitely and you basically
+23:58 told me your whole business philosophy
+23:59 is you don't care if you buy things sell
+24:01 things start them make a couple hundred
+24:03 thousand and then they fizzle out like
+24:04 whatever it looks like you just enjoy
+24:07 the process and I feel like that would
+24:09 be a really interesting subject to talk
+24:12 about which is your focus on how you
+24:17 start companies how you think about
+24:20 holding Brands incubating Brands when
+24:22 you want to sell if you want to have a
+24:23 liquidity event every year if you want
+24:25 to have it every 5 years if you don't
+24:26 even think about that stuff at all cuz
+24:28 you're just too focused on growing
+24:30 things like at some point I've realized
+24:32 this for myself too having six things
+24:35 all under a million dollars a year kind
+24:37 of sucks and it gets very stressful but
+24:40 you seem to enjoy the smaller things and
+24:43 either holding some and scaling them up
+24:45 or you know treating them
+24:46 opportunistically so talking about that
+24:48 I think would be a really interesting
+24:49 subject Connor great question and you're
+24:52 right having six things under a million
+24:54 dollars in Revenue sucks it can for sure
+24:57 it also depends on how much involvement
+24:58 you have in those six things I don't
+25:01 have much involvement in in most of them
+25:03 but I had this thought recently where
+25:05 it's like what what is the opposite of a
+25:08 detail oriented person or a details guy
+25:11 whatever that is it's me I don't notice
+25:13 things that other people notice I'm not
+25:15 a planner at all I'm the opposite of a
+25:17 planner I'm impulsive I'm off the cuff
+25:21 and that results in 75 businesses
+25:23 started so here's one thing I I do do no
+25:26 matter what I start I really want want
+25:28 to nail the bookkeeping on day one and
+25:31 you know what there's another question
+25:32 in here about bookkeeping so I'll get to
+25:33 that one next but I want to start
+25:35 tracking my finances in a Google sheet
+25:37 from day one because you should read the
+25:40 book built to sell anyone listening to
+25:42 this should read the book built to sell
+25:44 anything you start you should build it
+25:46 to sell from day one because it's just
+25:48 best practices whether you sell it or
+25:51 not you'll keep things cleaner this is
+25:53 going to sound a little woo woo but
+25:54 starting businesses is Art to me anyway
+25:57 it's art and I don't know what it's like
+25:59 to be an actual artist like a painter or
+26:01 something but I would imagine they just
+26:03 start painting and they just kind of see
+26:06 where it takes them and when they start
+26:07 they're not like all right this is going
+26:08 to be it's going to look like this when
+26:10 I'm done I'm going to sell it for this
+26:12 much I'm going to hang it on this wall
+26:14 this type of person's going to buy it
+26:15 it's going to be hung in this Gallery
+26:16 like they just have some sort of bug in
+26:20 their brain that's telling them to paint
+26:22 to get it out get that thing out of
+26:24 their head and so they they just start
+26:26 getting it out and they don't go buy and
+26:28 LC they don't go open a spreadsheet they
+26:30 don't start calling art galleries before
+26:32 they even start painting they're just
+26:34 making art and that's probably a good
+26:36 reason why starving artist is a phrase
+26:39 that most artists do not do well
+26:41 whatsoever because if they were more
+26:43 calculated about it then they might be
+26:45 able to employ some common business
+26:47 tactics and sell their art for more
+26:49 money but for me I look at it as art I
+26:51 get an idea and I got to get it out get
+26:53 it out of my head and most of those will
+26:56 turn into nothing some of those will
+26:57 turn into businesses some of them big
+26:59 some small some will fail spectacularly
+27:02 I just don't know and so I watch Shark
+27:05 Tank sometimes or I used to and people
+27:06 like this is my baby I can't give away
+27:08 30% of my business for a million dollars
+27:10 like what that's nothing that's my this
+27:11 is my baby I can't I've never had a
+27:14 business that's my baby because every
+27:16 business is just another business and
+27:18 they're not people they're not living
+27:20 entities it's a painting that's it and
+27:22 so with that being said I'd sell any
+27:25 business I'd keep any business I'd shut
+27:27 down any business it just depends on the
+27:30 situation and on what the opportunity
+27:32 cost is if I own a business that's
+27:34 taking almost no time and it's just kind
+27:36 of languishing I won't even spend the
+27:38 time to get rid of it or to shut it down
+27:40 or to sell it because it's just out of
+27:42 sight out of mind for better or worse if
+27:44 I own a business that's not doing well
+27:46 and I'm spending too much time on it
+27:48 then I will actively work to divest of
+27:50 it in some way or another but how it's
+27:53 worked for me in the past is the more
+27:55 businesses I take on the more ideas that
+27:57 I start the sooner I find the ones that
+27:59 have product Market fit that are keeping
+28:01 me up all night that are just crushing
+28:02 it the ones that I'm going to Home Depot
+28:04 and buying a bunch of wheelbarrows so I
+28:06 can just carry all this cash to the bank
+28:09 those are the ones that my time and
+28:10 attention and investment naturally
+28:12 gravitate towards and those ones I'm not
+28:14 passionate about so I wish I had a sexy
+28:17 framework I could put in a in a YouTube
+28:19 short 60 seconds how I look at this or
+28:22 how I think of this but it's just a way
+28:24 for me to be creative and it's a lot of
+28:26 fun all right let's do one more about
+28:30 bookkeeping Austin hey Chris this is
+28:33 Austin really love the Pod and
+28:34 everything else you guys bring to the
+28:35 table here with business ideas Etc
+28:38 actually working on something myself
+28:40 based on something I heard on your pod
+28:43 and uh I just had a quick question even
+28:46 actually as I am a CPA myself mainly
+28:49 actually see myself as more as an
+28:50 entrepreneur and operator and as I start
+28:53 my first company what's your advice on
+28:55 doing the bookkeeping and accounting and
+28:57 how you ever really get that started
+29:00 with your companies right off the back
+29:01 do you have any tools or or you know
+29:04 obviously QuickBooks and stuff is small
+29:06 but if something was going to scale
+29:08 quickly what would you really start with
+29:10 how do you get this going and I feel
+29:11 like not enough people on podcast talk
+29:13 about this because that is a crucial
+29:15 part to the business and a fundamental
+29:17 piece to every business is the
+29:19 accounting if you don't have that right
+29:21 then I don't think you can really end up
+29:23 with a really good exit or anything of
+29:25 the like so really would love for you to
+29:27 touch on this thank you great question
+29:29 Austin I don't talk about bookkeeping
+29:31 that much frankly because I'm terrible
+29:33 at it and I hate it and it's the bane of
+29:35 my existence but it's a great question
+29:38 and I'm happy to answer it I look at
+29:41 bookkeeping as having three thresholds
+29:43 number one Google Sheets number two
+29:46 QuickBooks number three bigger than
+29:48 QuickBooks and honestly I've never
+29:50 gotten to number three before because
+29:52 QuickBooks can handle businesses of over
+29:54 $100 million okay number one Google
+29:56 Sheets very simple
+29:58 revenues expenses you can export your
+30:00 bank account I suggest Mercury and or
+30:03 Bank of America preferably Mercury we
+30:05 like Bank of America because they
+30:07 integrate with zel and we need zel for
+30:09 some of our subcontractors and Mercury
+30:11 does not but this is how I look at it
+30:13 personal checking account to start to
+30:15 validate the business okay once I see
+30:17 I've got revenue this is going to be a
+30:18 thing I do two things I go file an LLC
+30:21 and get an EIN number AKA tax ID number
+30:25 and then I will use those documents to
+30:26 go get a business bank account
+30:28 preferably with Mercury and then I will
+30:31 take the ghou sheet that I use to track
+30:32 all the expenses in my personal bank
+30:34 account and I will true it all up I will
+30:36 get everything in the business bank
+30:37 account and then I will run everything
+30:39 through that business bank account from
+30:41 that point on very strict even if like I
+30:43 have a business that's putting 30 grand
+30:45 a month on Facebook ads and it's really
+30:47 tempting to get a a credit card to get
+30:48 2% cash back or AMX points or something
+30:51 I don't mess with that I used to but
+30:53 it's just like honestly if I had one
+30:55 business and I knew I was only going to
+30:56 have one I probably would do that I
+30:58 would get a Capital One or a venture
+31:00 card or something to get points but when
+31:02 I have a you know a half dozen
+31:04 businesses I don't want a half dozen
+31:05 credit cards a half dozen debit cards a
+31:07 half dozen bank accounts half dozen
+31:08 venmo accounts PayPal it is an absolute
+31:11 nightmare so I'll put everything in that
+31:13 mercury account on the debit card and
+31:15 then I will keep tracking everything in
+31:17 that same Google sheet my debits and my
+31:19 credits and then the second threshold is
+31:21 when I'll find a bookkeeper I used to
+31:23 set up QuickBooks myself manage it
+31:25 myself but it's not a good use of my or
+31:27 your your time so it's not hard to use
+31:30 anyone can use QuickBooks it's just not
+31:32 a good use of your time even if you like
+31:34 it don't do it right you're better off
+31:36 marketing or selling your product or
+31:38 service so get a bookkeeper you can find
+31:41 thousands of bookkeepers for low
+31:43 hundreds of dollars a month it's money
+31:44 well spent they'll get in QuickBooks for
+31:46 you they'll do all the hairy stuff
+31:47 they'll maintain it you just want a
+31:49 panal and a a balance sheet every month
+31:52 that's it panal and balance sheet every
+31:54 month and every year of course and maybe
+31:56 quarterly if you're into that kind of
+31:57 thing but LLC always but don't forget
+32:01 LLC is a pass through entity which means
+32:04 you are taxed on the profit of your
+32:06 business you are not taxed on what you
+32:07 pull out of your business so if you make
+32:09 a million dollars of net profit in your
+32:11 business but you're using most of that
+32:13 for growth or for ads or for inventory
+32:15 and you only take home
+32:16 $200,000 guess what your tax bill is
+32:18 going to be almost twice what you took
+32:21 out and put in your personal checking
+32:23 account so prepare for that a lot of
+32:25 people are surprised by that and you
+32:27 have to make quarterly estimated taxes
+32:29 tax payments and that's a pain and I
+32:31 hate everything about taxes and
+32:33 bookkeeping in the IRS and I have been
+32:34 audited and it was the worst period of
+32:36 my life I wouldn't wish it on my worst
+32:38 enemy but don't overthink it Google
+32:41 sheet one dedicated business bank
+32:43 account once you're sure this is going
+32:45 to be a thing and then find a bookkeeper
+32:48 don't pay him any more than a few
+32:49 hundred bucks a month maybe 500 Max
+32:51 depending on how complex it is we have a
+32:52 crypto business with all kinds of
+32:53 different accounts and crypto
+32:55 transactions that's a lot more complex
+32:57 but if everything everything's coming
+32:58 through a bank account very little cash
+33:00 you shouldn't need to pay that much you
+33:02 can find a virtual assistant that's
+33:03 really really good to do it for you as
+33:05 well get everything categorized in
+33:06 QuickBooks and then everything will
+33:08 automatically fall into their buckets
+33:10 all right that's it for today's Q&A come
+33:12 back next week for the next Q&A please
+33:14 give me a fivestar review I need some
+33:15 five star reviews share with a friend
+33:17 love you guys really appreciate you
+33:18 excited for 2025 we will see you next
+33:21 time

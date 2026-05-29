@@ -1,0 +1,583 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=L_FY6aW9cJ4&pp=0gcJCQMLAYcqIYzv
+Channel: Starter Story
+Video ID: L_FY6aW9cJ4
+Transcript language: English auto-generated
+Downloaded at: 2026-05-25T20:45:40.983Z
+
+0:00 The human brain is not wired to come up
+0:02 with a good business idea. Ego, bias,
+0:05 and overthinking, it often gets in the
+0:07 way. So, what if you could outsource the
+0:09 whole process to AI? AI.
+0:13 Well, the models just haven't really
+0:15 been powerful enough for this, but it's
+0:17 about to change. And that's exactly what
+0:19 we're going to show you today because I
+0:20 brought in one of the smartest people in
+0:22 the space, Steph France. Today, we're
+0:25 going to walk through something called
+0:26 the gold mining framework. Six tools,
+0:29 five prompts, 45 minutes. We'll go from
+0:32 nothing to a potential million-dollar
+0:34 business idea and a complete landing
+0:36 page to go with it without writing a
+0:39 single line of code or copy. What's even
+0:41 cooler is you can follow along step by
+0:44 step and at the end of this video, you
+0:46 can have one, too. Watching this video
+0:48 will potentially change the way you
+0:49 think about ideas forever. So, let's go.
+0:52 I'm Pat Walls, and this is the Starter
+0:54 Story Playbook.
+0:58 Welcome Steph, welcome to the channel.
+1:00 I'm glad to have you on. So you're going
+1:02 to show off today your new framework
+1:04 that you haven't unveiled yet which is
+1:05 the gold mining framework. Could you
+1:07 walk us through that? Hi Pat. So I'm I'm
+1:09 really glad to be here at first. I'm
+1:12 Steph France. I qualify myself as a
+1:14 curious marketer and uh I'm I love the
+1:17 game of marketing and and looking
+1:20 forward to present this framework. So
+1:21 this is a landing page for a co-arenting
+1:25 app. The landing page was created only
+1:27 with this framework A to Z. And if you
+1:30 have some knowledge in marketing, you
+1:32 can see that this is a really good
+1:35 marketing copy. And this landing page
+1:37 was created in an hour. And before
+1:40 starting the process, I had absolutely
+1:42 no idea about any problem in this niche.
+1:45 And the cool thing is that it takes all
+1:48 the pain points, all the wording from
+1:50 the people in this industry and put them
+1:54 in the landing page. So it's it's
+1:57 literally telling the customer their
+2:00 pain point in their own language and on
+2:02 boarding. Okay. All right. Let's dive
+2:05 in. Steph, can we go over what is the
+2:07 first step of the framework? So the
+2:09 first step is to find a market to
+2:12 explore. The idea is to start with what
+2:15 you have some edge or what you are
+2:18 interested in within the three core
+2:20 markets which are health, wealth and
+2:23 relationship which are markets which for
+2:26 sure people are okay to spend money. So
+2:28 you are already reducing the risk. So
+2:31 let's take an example and we would only
+2:33 open the health market. Within this
+2:35 market, we have a lot a lot of
+2:39 categories and subcategories and niches
+2:41 and subniches and sub
+2:43 subniches. We can go very very deep in
+2:47 this market. But for now, let's say for
+2:49 example, you are you are really into
+2:52 stress management, but you think like
+2:55 okay, that's not enough. I want more
+2:56 stress management. Fine. In this case,
+2:59 we are going to use a prompt. It's the
+3:02 market idea expander. And the goal is
+3:05 that if you put a subniches, any
+3:08 subniche or subcategory, it will
+3:10 continue expand in the category you want
+3:13 to dig into. And this is a little trick.
+3:17 Markdown is a language that needs to be
+3:20 used as much as possible when we talk
+3:22 with LLM. So instead of just copy and
+3:24 past, it works as well, but it's really
+3:27 better if we copy as markdown. So we
+3:29 keep the structure of the prompt. The
+3:31 LLM we work with doesn't matter. You can
+3:34 pick the one you like. I tend to prefer
+3:37 working with clo for different reasons.
+3:40 The first is that I think it's the most
+3:42 human like LLM. Yeah. So the
+3:45 copyrightiting is good and it's there is
+3:47 more emotion in the copyrightiting. I
+3:49 always tend to go with cloud whenever I
+3:51 can and when I need something specific
+3:53 for example the 1 million token uh
+3:56 context window in the same conversation
+3:58 then I would go with Germany for
+3:59 example. But for the sake of this
+4:01 example, we won't go too far into the
+4:04 the size. So we will work with cloth.
+4:06 All right. So I simply copy the code and
+4:10 I just did CtrlV and then I have the
+4:12 prompt that is copied here. And that's
+4:14 fine if it looks like that. It's just
+4:17 that clothes reads the markdown this
+4:19 row. Now it says okay I'm I'm ready to
+4:21 help you. Just tell me which market do
+4:23 you want to go into. So we said to
+4:26 stress management and now we have at at
+4:28 first we have health and this is stress
+4:30 management and then
+4:32 now below stress management we have
+4:34 physical stress relief, massage therapy,
+4:37 breathing techniques, mental stress
+4:40 management and then within those we have
+4:42 meditation, guided meditation,
+4:43 mindfulness meditation. All those
+4:46 potential markets can be the market that
+4:48 you are going to explore. And now the
+4:51 decision is for you to first it's with
+4:54 what you like then it's what you have an
+4:57 edge on which means do you have
+4:59 knowledge do you have network do you
+5:01 have anything that can be uh at your
+5:04 advantage to go in this market or if you
+5:06 don't have any then just pick one that
+5:08 sounds good. Okay, so we talked about
+5:11 how to finding a market. Now, how do we
+5:13 validate that there's demand for this
+5:15 market or what do we do next? When we
+5:18 first pick a market, we we don't know if
+5:21 it's a good market to go in. And that's
+5:23 what the step two is all about. We use
+5:26 Google as well as a Chrome extension
+5:28 which is keyword everywhere to quickly
+5:31 find the volume of search and all
+5:34 related keywords that can orientate us
+5:37 until we find something that is
+5:39 interesting to go further to to dig
+5:41 deeper and then we look at the list that
+5:44 we have. For example, let's say Swedish
+5:47 massage. It's still a big one. And then
+5:52 I could find potentially another
+5:54 subniche by looking into the different
+5:57 program. What do we have? Best massage
+5:59 technique, massage therapy description,
+6:02 Swedish massage history. Okay, if I go
+6:04 down, I have Swedish massage near me.
+6:08 Okay, 20 20,000 search. This is a very
+6:12 interesting query. And then we use
+6:14 Google Trends which is one of the best
+6:16 tools to use when it comes to market
+6:18 research to know if we have a trending
+6:21 market or at least a stable market. And
+6:24 now we have switch message and we want
+6:26 to understand the difference between
+6:27 search term and topic. Topic will
+6:30 basically take all the related search
+6:34 term on Google and also in all different
+6:36 languages. So when you have a topic it's
+6:39 already like it's a big thing. Sometimes
+6:41 you only have search term but when you
+6:42 have topic you just use the topic and
+6:44 for this sake uh we can see that is the
+6:47 trending market actually it's not too
+6:49 bad there is some kind of uh going down
+6:53 and we can see that probably here in
+6:56 COVID where it was not crazy it's a well
+6:59 trend because usually when a trend has
+7:02 so much research you won't see those
+7:04 very big pike here you have them so I
+7:07 wouldn't say it's a solid trend because
+7:09 we can see it's up and down but it's a
+7:12 good trend. So we know for Swedish
+7:14 message it's a good one but it could be
+7:17 better. Now let's look at other ones.
+7:19 For example, if I go back to my tree
+7:21 core markets and I go to relationship
+7:25 here in family relationship we have
+7:28 parenting. Within parenting we obviously
+7:31 have a lot of things way more than that.
+7:34 But one that I have explored previously
+7:36 and that I found there is a lot of
+7:38 demand is co-arenting. And if I start
+7:41 digging into co-arenting, let's see what
+7:44 we have. So here we have 40,000 search.
+7:48 And if we dig into it a little bit more,
+7:51 we can see co-arenting app. That's
+7:53 interesting. Which means people are
+7:54 already aware that there are apps out
+7:58 there maybe or they're looking for it.
+8:00 Okay. Carenting concealing. So that
+8:02 means I have a problem. I'm looking for
+8:04 a solution. Co-parenting classes. Okay,
+8:06 I I need someone to help me. Those are
+8:09 very good signs. And now if I do the
+8:13 same and I use Google trend and here I
+8:16 have a topic again which is
+8:20 cool. This is a good solid trend. So
+8:24 there there are le less fluctuation and
+8:27 it's a growing trend. So here we are not
+8:29 talking about all the AI huge trend that
+8:33 goes up and down and the tool comes up
+8:35 and it dies 3 months after. Here we are
+8:37 talking about human needs. Yeah. Society
+8:41 changes that creates needs that are
+8:43 growing and growing and growing and
+8:45 those markets are big. So creating a
+8:49 business in the co-arenting niche it's
+8:51 totally viable. Doesn't mean that as
+8:53 long as soon as you are in the
+8:54 caparinting niche, you succeed. But at
+8:56 least it's definitely possible to find a
+8:59 problem and solve it in the coparing
+9:02 niche. Okay, so we validated the demand.
+9:05 Now what do we do next? We are now at
+9:07 the third step of the framework. We want
+9:10 to gather data. Now we need to find
+9:13 where are the people talking about their
+9:17 frustrations, their pain about
+9:19 co-arenting specifically and the best
+9:22 mind we actually have is Reddit. Why?
+9:26 Because Reddit is literally the place on
+9:29 the internet where the world is talking
+9:32 and the world is sharing their program
+9:34 because there is this anonymous kind of
+9:36 mindset and long conversation on Reddit
+9:39 that makes it a real gold mine when it
+9:41 comes to find customer pain points. So
+9:44 in the step three, we go on Google to
+9:48 find Reddit threads. But we will use a
+9:51 special special query with advanced
+9:54 search on Google to surface the Reddit
+9:58 threads where people are talking about
+10:01 their problem expressing their pain. So
+10:04 we go straight to the point straight
+10:06 where the important part is for us
+10:09 together. So I think I feel I was I have
+10:13 been uh I experienced all the the the
+10:17 words that that would filter someone
+10:20 that is experiencing or explaining or
+10:23 asking about a specific problem. It's
+10:26 not 100% right but it filters a lot of
+10:30 answer compared to what we could have
+10:31 only with the Reddit search. So I simply
+10:34 copy this one which you also have here
+10:38 within the document is the Google query.
+10:40 So you have market to explore. You just
+10:42 put your market here. Copy that and go
+10:45 on
+10:46 Google. And now this is the moment where
+10:50 we need to be careful and do the thing I
+10:52 mentioned earlier which is carefully say
+10:55 read and choose the right thread. In
+10:58 this case, we're not spending going to
+11:00 spend an hour reading, but I I would
+11:02 tend to always go into it and make sure
+11:05 that all the subreddit that I chose are
+11:08 relevant. For example, this one, we have
+11:11 60 uh comments and it it was 5 months
+11:14 ago. This is co-parenting and this is
+11:18 from the subreddit co-arenting. So, we
+11:20 are right into what we are looking for
+11:23 here. How did you make your piece with
+11:26 co-arenting? Definitely about promps
+11:30 just when you think you have this whole
+11:32 co-arenting thing. Okay, 40 comments one
+11:36 months ago. I guess this one is probably
+11:38 interesting. Share the positive
+11:41 experience with co-arenting. Why not? If
+11:43 you don't have better, why not?
+11:46 Co-arenting. I was wrong. Okay. Here we
+11:49 have blended family for the subreddit
+11:51 struggling with current partners
+11:53 perspective on okay we are going to keep
+11:56 it short but you can go on and on. Now
+11:59 the next step is going to be extremely
+12:01 simple. We are going to copy and paste.
+12:03 So we simply open text block. I copy the
+12:07 the complete thread enter three dash
+12:11 just to say to the AI okay I'm having
+12:13 another
+12:14 thread putting that on side. Okay, next
+12:19 one. Let's go down right away and move
+12:26 up. Going back
+12:28 to my text
+12:33 block here. Past thread
+12:38 dash next thread. Sometimes it can be a
+12:43 lot of data. In this case, we just work
+12:47 with a few. But if you have like 20 re
+12:51 Reddit thread, good. All right. So now
+12:54 we got all of our data. We got all of
+12:55 our Reddit threads. What's next? All
+12:57 right. So the step four now we process
+13:00 the data. And for that we have three
+13:02 major prompts that we are going to use
+13:04 one after the other. The first one will
+13:06 extract all the pain points and refine
+13:08 them. So we have different categories
+13:12 and we have quotes from the people
+13:14 attached to the specific painoint. All
+13:16 right. So we just come to the Google doc
+13:19 copy as markdown and we go back to cloud
+13:23 new chat brand new chat and we simply
+13:25 copy here on cloud. You can just copy
+13:28 like that. Now I'm just grabbing my
+13:33 data and I'm passing here.
+13:41 same. So we have first the title, the
+13:45 designation of the painoint and then we
+13:46 have a small description. So parents
+13:49 feel pressure to maintain unrealistic
+13:51 friendly relationship with ex partners
+13:53 for the sh sake of their children often
+13:55 at the expense of their own boundaries
+13:57 or current relationship. And the cool
+13:59 thing is we have here quotes from the
+14:03 conversation that are related to this
+14:05 painoint here. For example, it's hard to
+14:07 cooperent with your abuser, which is a
+14:09 very good one. I find this type of post
+14:12 on death like I feel to share your
+14:14 coopering success, but don't make
+14:16 statement like try your absolute hardest
+14:18 to do this for the kids. We can see that
+14:20 those are deep conversation and they are
+14:22 all related to this specific pain point.
+14:24 And if we go down, we have navigating
+14:27 new relationship while co-arenting. So
+14:29 that's another set of problem. Then
+14:31 dealing with high conflict and
+14:33 neglectful exartners.
+14:35 probably another one emotional labor
+14:38 imbalance in blended families I don't
+14:40 know exactly okay parents feel their
+14:42 shoulder are unequal burden of emotional
+14:45 and practical labor labor in blended
+14:48 families especially when caring for
+14:50 stepchildren without reciprocal care of
+14:53 their biological children that's a more
+14:56 complic complex one but this is the kind
+14:59 of thing that you can only come up with
+15:02 when when you go deep into this kind of
+15:04 conversation
+15:05 So let's uh move on to the next one the
+15:08 market gap generator which will take all
+15:10 those pain points and a framework which
+15:13 includes new parading new technology
+15:16 differentiation basically how to find
+15:18 good business ideas in a saturated
+15:21 market which like every market is
+15:23 saturated. This is why it's trained on
+15:25 this framework. Now we copy everything.
+15:27 Ctrl+ A copy as markdown. Come back here
+15:32 and then
+15:34 paste and let it run. Now it's going to
+15:37 work from the framework before and come
+15:42 up with different business ideas. Here
+15:44 we have the different market
+15:45 segmentation framework is the the
+15:48 approach of finding business ideas and
+15:51 those three business ideas are within
+15:53 this framework. Okay. Solution one
+15:56 coarent ally conflict focus coarenting
+15:58 platform description a specialist
+16:00 platform platform designed specifically
+16:03 for high conflict coopering situation
+16:05 with built-in documentation tools
+16:08 communication filters I think this one
+16:09 is really interesting and third party
+16:12 imagation features that's a very
+16:15 interesting one now we have product
+16:17 differentiation framework so uh child-
+16:20 centered custod transition tool okay a
+16:23 specialized application focused solely
+16:25 on making children transition between
+16:28 household less traumatic with
+16:30 pre-transition preparation tool,
+16:32 emotional check-in and structural
+16:34 handoff
+16:35 protocols. Sounds pretty good. And then
+16:38 the last part is when we pick a business
+16:40 idea, which means it's just a simple
+16:42 choice. This is the one I'm interested
+16:44 in. We have the landing page prompt
+16:46 creator which will take all the
+16:49 learnings we have the business idea we
+16:50 want to create and we'll transform it in
+16:53 uh prompts that we are going in lovable
+16:57 to create our landing page. The last one
+16:59 is a little bit confusing because we
+17:01 have a prompt to create a prompt to
+17:03 finally create our landing page but it's
+17:05 only copy and past. Let's pick the one
+17:07 that uh talks to you the most and we
+17:11 simply highlight it and copy it. And now
+17:13 we are going to just tell Claude this is
+17:16 the one I want to go
+17:20 for. All
+17:21 right. And now we are going to pass the
+17:24 next prompt which is the landing page
+17:27 prompt creator. What is this prompt?
+17:29 Just before we go into it I I'm going to
+17:32 simply let it run and then I will
+17:36 explain. Now I just pass the
+17:39 prompt and run. So this prompt is
+17:42 basically as it's made from a research
+17:47 specifically on lovable the tool that
+17:50 allows to create apps very fast.
+17:54 this specific tool. The research went
+17:58 out there on the internet. Basically,
+17:59 CHPT went out there on the internet and
+18:01 looked for all the best practices to
+18:04 create tool to create prompts for loable
+18:06 as well as all the documentation about
+18:09 Loable. gathered everything and then
+18:12 from that I created a prompt that is
+18:15 made to take all the data that we have
+18:19 here in the in the context and create a
+18:23 new prompt specifically for lovable
+18:26 using all the best practices to prompt
+18:28 for loable. Okay, so we've processed all
+18:32 the data and we've come up with our
+18:34 master prompt. What's next? So now we
+18:37 have our prompt that normally if
+18:40 everything works we just put that into
+18:42 loable and we have our landing page.
+18:43 We're not going to read that one because
+18:45 it's it's made by AI for AI. So it's
+18:48 pretty boring but we are simply going to
+18:51 copy it and we go into lowable and then
+18:54 we start running.
+19:00 Whoa, look at that.
+19:03 Let's publish.
+19:06 All
+19:07 right. Transform custody transitions
+19:10 from tearful breakdowns to peaceful
+19:12 goodbyes for separated parents whose
+19:15 children struggle with household
+19:17 transition. Transition garden provides
+19:19 structured tools to reduce anxiety and
+19:21 create predictable child centered
+19:23 handhov without requiring perfect
+19:26 co-arenting relationship. Wow. Okay. We
+19:29 have the features child-friendly condom
+19:31 tool. Oh, nice. uh structure handoff
+19:34 protocol that minimize parent conflict
+19:35 during
+19:36 exchanges. Emotional check-in system
+19:39 designed by child
+19:40 psychologist. You have to execute on
+19:42 that, but it's a good feature.
+19:45 Documentation that helps identify and
+19:48 address transition patterns. Yeah. And
+19:50 we have even uh a nice FAQ. Do Bosar
+19:54 need to use transition garden for it to
+19:56 work? Uh what age?
+20:01 And we have a form. Wow. That's it. We
+20:04 have it. Yeah, we have it. That's
+20:08 amazing. I mean, there you guys have it.
+20:09 That is the gold mining framework. I
+20:12 really wanted to just get it from idea
+20:14 to landing page and see if we could do
+20:16 it. And we did. And I don't think
+20:19 there's any video or any lesson like
+20:21 this on YouTube currently. And it just
+20:23 blows my mind, you know, these AI tools
+20:25 and how this is going to change how, you
+20:28 know, how you can find ideas. But what
+20:30 would be the next steps for someone?
+20:32 Let's say they went through this whole
+20:33 process in turning this into a real
+20:37 idea. You mentioned maybe talking to
+20:39 some customers or something like that.
+20:41 So if I may push one of my YouTube
+20:43 videos, but uh I have a YouTube video
+20:45 that is actually exactly for that. What
+20:48 we just seen takes one big part of the
+20:51 whole process. But this video from 0 to
+20:54 one explains how you can think of using
+20:57 a quiz to create a waiting list asking
+20:59 the right question. Because even though
+21:02 you have the perfect landing page with
+21:03 the perfect copy for very specific
+21:05 program in a trendy market going from
+21:08 there to having the business having an
+21:10 app running is still a lot of work and
+21:12 and yeah cursor can do it fast but no
+21:15 it's still a lot of work and before you
+21:18 go into that you can if you are familiar
+21:20 with those tools then just build it and
+21:21 and try try it and and post everywhere
+21:24 and then if you have users it's fine you
+21:27 can go build first and and then see but
+21:30 if you are not Sure. And if it's a lot
+21:32 of time investment and if your time is
+21:33 reduced then I would always go by
+21:36 validating again. And for that I love to
+21:39 use quizzes. So you simply tell to
+21:41 people you show the page and then on the
+21:43 page there is a popup that says thank
+21:46 you for being for being here. The app is
+21:48 in development right now. We are a small
+21:51 team and we would love to have your take
+21:53 on uh on your current program. Would you
+21:55 mind answering a few questions?
+22:08 You ask a few questions and you say, "Do
+22:10 you want us to let you know when the app
+22:12 is out there?" And most people would say
+22:14 yes. And then you have a list. You can
+22:16 post everywhere about that and you grow
+22:18 your list. And and you you decide for
+22:20 yourself. You okay, when I have a 100
+22:23 people on my waiting list, I'm building
+22:25 the app as fast as as I can. You build
+22:28 it. You launch it to the list via email
+22:30 the the way you prefer and and it
+22:32 starts. Perfect. Okay. All right. If you
+22:35 guys want to get access to this right
+22:37 now and you want to use this yourself,
+22:39 just click the first link in the
+22:40 description. We put it all in there and
+22:42 it's totally free. And thank you guys
+22:44 for watching. I hope you enjoyed this.
+22:46 Leave a comment if you'd like to have
+22:47 Steph come back on and share more
+22:50 business idea frameworks or even
+22:51 potentially some marketing and growth
+22:53 frameworks as well. So, thanks for
+22:55 coming on, Steph. That was awesome. I
+22:57 think this is going to change the world.
+22:59 All right, I hope you guys enjoyed this
+23:01 video. I really think that this is just
+23:02 an amazing space to be right now
+23:04 building in AI and building with AI
+23:07 tools. And look, these AI coding tools
+23:09 are powerful, but they're not magic yet.
+23:12 It's still really early days. I know
+23:13 that this space can feel really
+23:15 overwhelming and it's moving really
+23:16 fast. So, it's important to have the
+23:18 right system and right framework to
+23:19 follow. So, shameless plug here, but
+23:21 we've been working on something for a
+23:22 while. If you watch this, you found an
+23:24 idea and you want to take action on that
+23:26 idea, well, I'm excited to announce
+23:28 Starter Story Build, which is our
+23:30 platform for learning AI tools and
+23:32 learning how to leverage AI tools to
+23:34 turn them into real ideas and real apps.
+23:36 Our flagship program is the AI app
+23:39 accelerator. This is way more than just
+23:41 a course or a video on how to build
+23:43 stuff. You get to walk away with a
+23:45 realworld app built completely with AI
+23:48 plus skills that might just change your
+23:50 life. Not only will you learn how to use
+23:52 these tools and build stuff you never
+23:54 thought possible, but this program will
+23:56 give you structure, accountability, and
+23:57 push you to actually take action, get it
+23:59 done, and ship. What's even cooler is we
+24:02 have office hours with AI coding experts
+24:04 to help you when you eventually get
+24:06 stuck, cuz everyone gets stuck. And
+24:08 there's a whole other cohort of people
+24:10 building alongside of you and building
+24:12 apps. So, if you're curious about
+24:14 actually building something and you want
+24:16 to surround yourself with other builders
+24:17 doing the same thing, then head to the
+24:19 first link in the description to see if
+24:21 the AI app accelerator might be worth it
+24:23 for you. All right, guys. Thanks for
+24:25 watching. I'll see you in the next one.
+24:26 Peace.

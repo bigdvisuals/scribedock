@@ -1,0 +1,1218 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=DxSDZwpgfRE
+Channel: Greg Isenberg
+Video ID: DxSDZwpgfRE
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 Anyone could become a developer with AI.
+0:04 There's a bunch of tools that you can
+0:06 cobble together with Cursor, Claude, and
+0:10 a few others. And we go through how a
+0:12 non-technical person uh in 3 weeks is
+0:16 now building apps that are getting
+0:17 thousands of visits every single month.
+0:20 I think a lot of people have avoided
+0:22 Cursor because it's pretty daunting. But
+0:25 the upside of learning a tool like
+0:27 Cursor is totally worth it. And this is
+0:29 a comprehensive tutorial meant for
+0:31 non-technical people with the apps that
+0:34 they could build to help get thousands
+0:37 of customers uh for your startup. Uh
+0:41 watch this to the end uh because the
+0:43 people that do that I think are going to
+0:45 be extremely well equipped for for the
+0:48 future ahead of us.
+0:52 [Music]
+0:58 We got the boring marketer uh on the
+1:01 pod. He is leading the charge of
+1:03 automating marketing with AI. So, James,
+1:08 what are people going to get out of this
+1:10 episode if they stay to the end? Yeah.
+1:12 So, over the last 3 weeks, I've gone
+1:14 deep into Cursor and I want to show you
+1:16 exactly how I set it up to get things
+1:18 done. and I'm going to give you a super
+1:20 actionable workflow that uses MCPs and
+1:23 Claude code so that you can get more
+1:25 traffic to your website. Cool. Let's
+1:27 let's rock. All right. So, I'm going to
+1:30 share my screen and uh we're going to
+1:33 pull up cursor actually. All right. So,
+1:36 this looks pretty scary uh to a lot of
+1:38 people when they first open it up. It
+1:40 was really scary uh for me until I just
+1:43 started getting in here and and playing
+1:45 around. So uh what we have here on the
+1:49 right this is cursor's agent. So this is
+1:52 kind of like a a way to generate code a
+1:56 way to do research a way to chat uh in
+1:59 natural language so that you can build
+2:02 things so that you can understand sort
+2:04 of like uh what is possible and the
+2:07 agent can understand your codebase in
+2:10 great detail. So the way that I started
+2:12 with cursor
+2:14 um actually I had a a chat with a friend
+2:17 of mine named Amir. He kind of showed me
+2:18 how he was using cursor and I was like
+2:20 wow this is really cool I got to dig in
+2:22 and I got to learn more. So I started
+2:24 with uh cursor's agent. Um but what I
+2:27 found was that I was running into a lot
+2:29 of the problems that I had faced using
+2:32 other like vibe coding platforms. I
+2:34 would have a lot of bugs. I would have
+2:36 to sit there and go back and forth a ton
+2:39 and uh you know I was wasting a lot of
+2:41 time and I heard a lot of people talk
+2:44 about uh Claude Code and uh I installed
+2:49 Claude Code and uh what you can see down
+2:52 here is uh is a terminal um if you can
+2:57 see that at the bottom of my my cursor
+2:59 screen and you know you have a terminal
+3:01 on your uh on your desktop uh But
+3:05 there's a terminal within cursor. And
+3:07 since I don't really know much about
+3:09 terminal, I just decided to use this
+3:11 one. And um to the right I've got my
+3:14 cursor agent. Uh and down here I've got
+3:17 my terminal. Above the terminal I've got
+3:19 a little notepad so that I can like kind
+3:21 of plan out a project, just brainstorm
+3:23 and dump some thoughts. And on the left
+3:26 uh that's where all of like the files
+3:29 that include the code uh live. I'm not
+3:31 even going to go into those because I
+3:32 don't even look at them to be honest
+3:34 with you. Um, so my goal here today is
+3:38 to show you how I use cursor agent to do
+3:41 research and then we're going to use uh
+3:44 claude code to actually execute the plan
+3:46 and we're going to deploy it and we're
+3:48 going to see how it looks. Okay, so u
+3:52 let's start up claude code and uh you
+3:54 can see down at the bottom of the
+3:55 terminal I'm just typing claude. Um, if
+3:58 you go to like anything like chat GPT or
+4:02 go to claude and and you ask, hey, how
+4:04 do I install claude code in my terminal,
+4:07 it's really easy. It'll give you like
+4:09 one line. You copy and paste that into
+4:11 your terminal. You hit enter and then
+4:14 it'll ask you for your credentials.
+4:16 It'll give you a link. You click the
+4:18 link. You go to an anthropic website.
+4:20 You enter your credentials for Claude.
+4:23 Boom. You have Claude code in your
+4:25 terminal. It's really that simple. Um,
+4:27 if you want to get some insight around
+4:29 like what you can do with cloud code,
+4:32 you can just ask it. That's like how
+4:34 I've learned how to use it. A lot of
+4:35 people are like, "Hey, give me a
+4:36 tutorial for like how to use cloud
+4:38 code." The best way to use cloud code is
+4:40 to ask how to use cloud code. So, um,
+4:43 you know, that's what I'll do. Uh, so
+4:46 we'll start up cloud code. You can see
+4:48 it says welcome to cloud code. It gives
+4:49 me a couple little instructions. Uh,
+4:52 asks, you know, do do help for help,
+4:55 status for status. So, if you just click
+4:57 this uh this slash, you can see a lot of
+5:00 different uh options here. Um I don't
+5:03 even mess with any of this to be honest
+5:05 with you. Um I actually just found out
+5:07 about this as someone was asking me
+5:09 about Claude's planning feature. Um so,
+5:12 okay, some people ask me before we get
+5:15 started like why do you use Claude code
+5:17 instead of just doing everything in
+5:19 cursor agent? I've been asked that on X
+5:21 a ton. And the simple answer is I find
+5:24 that cloud code is much more successful
+5:27 at getting me to a working completed
+5:30 project. And the reason is because a I
+5:34 believe that claude code has a lot more
+5:36 context on the files that it's building
+5:40 and my sort of complete file structure
+5:42 within cursor. And B, it does a really
+5:46 good job at planning out its tasks. It's
+5:48 very logical. It's very streamlined. and
+5:51 you can follow along and understand
+5:53 exactly what it's doing the whole way.
+5:55 Now, throughout those tasks, it's going
+5:57 to give you updates. You're going to
+5:59 have these little like check marks so
+6:01 that you can see exactly what it's
+6:02 doing. You can ask it to stop at any
+6:04 time if you want. And then it will
+6:06 confirm with you if you actually want to
+6:09 uh to push something live or to create
+6:11 something. Real quick, I need to tell
+6:14 you about something that's helping me
+6:17 sleep better at night as an
+6:19 entrepreneur. I was running multiple
+6:21 companies with money scattered
+6:23 everywhere, zero spending visibility and
+6:26 making growth decisions pretty blind. I
+6:30 knew there had to be a better way. And
+6:31 my friend told me about Bracks. So I
+6:34 switched and now I have mission control
+6:38 for every dollar. Spend management and
+6:40 visibility, virtual cards for my team,
+6:43 and earning cash from the same day
+6:46 Treasury product. I was leaving so much
+6:49 money on the table, but not anymore. I
+6:52 have a financial operating system for
+6:55 our businesses to make decisions so I
+6:58 can spend smarter and move faster and
+7:01 it's been a total gamecher.
+7:03 I'm loving Brex so much I reached out to
+7:07 them and asked them to sponsor the pod.
+7:10 Start sleeping better. Your financial OS
+7:12 is waiting. Brex is giving SIP listeners
+7:16 $7,500
+7:18 in perks at brex.com/sip.
+7:24 Now, there's two other sort of scary
+7:27 things that I have set up here that I
+7:29 just want to clarify with people as
+7:30 well. Um, after I create a project, I
+7:33 deploy it on Versell. Now, uh, Verscell
+7:37 is like a complete sort of web app and
+7:40 website deployment infrastructure. So
+7:43 it'll host, it'll make sure it's fast,
+7:45 it'll make sure it's optimized, and it
+7:47 makes it really easy to do it right from
+7:49 cloud code. So it's a similar process to
+7:53 install that in your terminal uh as
+7:56 installing cloud code. Go to an LLM,
+7:58 say, "Hey, hey, how can I deploy on
+7:59 Versell with Cloud Code from my
+8:02 terminal?" It'll give you a little code
+8:03 snippet. Boom. It'll install uh the
+8:06 package, and then you can sign up for an
+8:08 account, link up your credentials. It's
+8:10 a pretty straightforward process. So,
+8:12 that's my setup. All right. Are you
+8:14 ready to get into some fun stuff,
+8:17 dude? You got me fired up. Absolutely.
+8:20 All right. Cool. And, you know, so far,
+8:23 uh, again, I started this 3 weeks ago
+8:25 and my goal was to go as deep as
+8:28 possible as I could into all this so
+8:30 that I could essentially try to become a
+8:32 developer. And so far, like yesterday, I
+8:35 launched a uh a keyword research app. I
+8:38 uh put the public repo out on X so
+8:41 people can download the code and use it
+8:43 and create their own variations. So uh
+8:46 I'm actually like contributing which
+8:48 feels kind of cool to the development
+8:50 world uh as a totally non-technical
+8:53 boring uh marketing guy. All right, so
+8:57 uh what I want to do I want to show you
+8:58 one of my favorite Vibe marketing use
+9:00 cases for how you can like implement
+9:03 this whole stack. And I mentioned MCPs
+9:06 and I know that you've had a lot of
+9:08 guests on to talk about MCPs and the
+9:10 audience is probably a bit familiar with
+9:12 those at this point. So I'm not going to
+9:14 go into great detail with that. To set
+9:16 up an MCP, I just ask Cursor agent how
+9:19 to do it. Like it's it's literally that
+9:22 simple. There's no secrets. If you've
+9:24 never set up an MCP before, say, "Hey,
+9:26 cursor agent, I've never set up an MCP
+9:28 before. Help me get started." Okay? Then
+9:31 it'll go and look for MCPs that you can
+9:33 install. Start with a really really
+9:34 simple and basic one. Uh you can start
+9:37 with firecrawl. You can start with
+9:39 perplexity. 90% of the MCP uses that I'm
+9:43 doing are with firecrawl or perplexity.
+9:46 All right. So, uh let's go. So, um the
+9:50 goal of what we're going to build today
+9:51 is I want to build a bunch of pages on
+9:55 the vibearketer.com
+9:57 um that are going to go and rank for
+9:59 search terms. uh that this could be
+10:01 Google searches. This could be people
+10:03 searching for information in chat GPT,
+10:06 whatever. Um, so we're going to go and
+10:09 find keywords that are relevant to my
+10:11 business. We're going to have Claude
+10:12 Code build up a page and then we're
+10:15 going to look at the page. We're going
+10:16 to see how we like it. Uh, you know,
+10:19 you're a lot better at design than me. I
+10:21 suck at design, so maybe you have some
+10:23 ideas for how we can improve the page.
+10:25 We'll work with Claude Code to make some
+10:27 edits. And uh if we like it, we can spin
+10:30 up more pages or we can go deeper and
+10:32 optimize that page a little bit. So the
+10:36 first thing that uh that I would do is I
+10:39 would come here and I would just start
+10:42 vibing with cursor agent using some
+10:44 MCPS. So, uh let's let's just say um use
+10:48 the firecrawl mcp
+10:51 to uh scrape
+10:54 the vibearketer.com
+10:59 and create a MD. So, this is a markdown
+11:04 file. This is just a text file that it's
+11:06 going to create for me. Kind of like a
+11:08 Google doc with a complete summary.
+11:13 All right. So, uh, I entered that
+11:15 prompt. And what's happening is, uh, the
+11:18 cursor agent is telling me, hey, I'm
+11:20 going to go and use Firecrawl, uh, to
+11:23 scrape the website. So, it's going to go
+11:25 and it's going to look at everything on
+11:27 the site. It's going to look at the
+11:28 text. It's going to look at the images.
+11:30 It's going to look at all of that stuff.
+11:32 So, you can see that it's calling these
+11:35 tools uh, in the background. It already
+11:38 scraped the site. It's not a very big
+11:40 site. And now it's creating a
+11:42 comprehensive markdown summary file. So
+11:45 it's just consolidating all of that
+11:47 information into a document. Make sense
+11:50 so far? Yeah. And the way to think about
+11:52 Firecrawl is it is it just to think
+11:54 about it as a scraper? Yeah. It's
+11:56 basically a a really great scraper.
+11:59 That's how I use it. They've got some
+12:00 other like features and things that
+12:02 they're building and deploying, but I
+12:04 use it as just a scraper.
+12:07 So um here we go. We've got the results
+12:10 of using the firecrawl MCP. Um, and
+12:14 again, the beautiful thing about these
+12:16 MCPs within cursor is that I can execute
+12:20 a fire crawl scrape with natural
+12:22 language. I can just say, hey, go use
+12:24 this and do this with it. And then it
+12:27 gives me a document that's now within my
+12:30 development environment. Okay. Now, when
+12:32 I want to do something with this
+12:34 information, I can just reference this
+12:36 document to Claude Code or to cursor
+12:39 agent and it'll have context on
+12:42 everything that's on the Vibe Marketer
+12:44 website.
+12:46 All right. So, um, cool. It's got some
+12:48 uh key statistics. It, uh, it it got my
+12:52 core offering here, uh, main features,
+12:55 uh, etc. Okay. So, now that we have some
+12:58 information uh about the website, um
+13:02 we're going to go and uh and find some
+13:05 relevant keywords uh that I can go and
+13:09 try to create content or web pages
+13:11 around so that I can rank for those. All
+13:13 right. So, the next thing that I'm going
+13:15 to do is I'm going to use the Perplexity
+13:18 MCP. Uh Perplexity, I I know you just
+13:21 did a video on Perplexity. They're
+13:22 absolutely on fire. Uh, I love their uh
+13:25 their API and their MCP. Uh, I use it
+13:28 for all kinds of research and I'm always
+13:31 amazed at like what it can do when it
+13:33 returns me results. So, um, let's see.
+13:36 Now, use the perplexity MCP
+13:41 um to
+13:43 find relevant
+13:46 um, programmatic
+13:49 keyword ideas for my business. Okay.
+13:53 Now, before I hit enter on that, what's
+13:55 programmatic keyword ideas? So, keywords
+13:58 are just things that people search for.
+13:59 All right, programmatic keyword ideas.
+14:02 If you think about like Zapier, they're
+14:04 like a great use case for programmatic
+14:07 uh SEO or whatever. They've got like
+14:10 tons and tons of web pages for all these
+14:12 really like uh longtail or specific
+14:16 search terms like how do I connect uh
+14:20 Slack to Google Docs or something like
+14:22 that? And they've got a web page for
+14:24 each and every one of those search
+14:26 terms. All right, so maybe they've got a
+14:29 hundred,000 pages. I don't really know.
+14:31 I don't need 100,000 pages, but it'd be
+14:33 cool if I had a thousand pages. And it'd
+14:35 be cool if out of those thousand pages,
+14:37 they each got 20 visitors a month
+14:40 because they were targeted to keywords.
+14:42 And it'd be even cooler if I could
+14:45 execute that entire strategy right here
+14:48 in this development environment. And
+14:49 then within a few months, I was getting
+14:51 20,000 visitors a month organically to
+14:54 my website. That's the goal. That would
+14:57 be cool. Yes. So, let's uh let's see if
+15:00 we can make it happen. All right. So, uh
+15:02 we're going to use the Perplexity MCP to
+15:04 find relevant programmatic keyword ideas
+15:07 for my business. So, I'm finding keyword
+15:09 ideas and uh these are also known as as
+15:12 seed keywords. I haven't actually gone
+15:14 out and done the keyword research yet.
+15:17 I'm just trying to get Perplexity to
+15:19 come up with some concepts and some
+15:21 ideas for this programmatic approach.
+15:24 All right.
+15:26 And one quick thing is I noticed you're
+15:28 using claude for Opus Max in the agent.
+15:32 Is there any thinking behind that? Um I
+15:37 always like so I'm I'm always trying to
+15:40 use the best model that I can and for
+15:42 this purpose here it's probably way too
+15:45 much. It's probably overkill. Typically
+15:48 Opus Max is more expensive and uh it's
+15:51 for like really complex things. Um, but
+15:54 I just have it here to make sure that I
+15:56 can get some like good insights and good
+15:58 results for uh for the viewers and the
+16:01 listeners. That being said, if you're
+16:04 getting if this is going to help you get
+16:05 20,000 visitors a month on autopilot, is
+16:09 it not worth it? Yeah, a few extra bucks
+16:12 uh to use the best model is totally
+16:15 worth it. um especially kind of in this
+16:18 planning phase and you know a lot of
+16:21 people gloss over this part of vibe
+16:24 coding or vibe marketing uh the planning
+16:26 and the research step. Everyone wants to
+16:29 get to like the sexy workflow or the
+16:31 sexy like output but really like uh the
+16:35 magic is in knowing what you're actually
+16:38 like focusing on and putting all these
+16:40 efforts towards. So, I spend actually a
+16:42 lot of time just kind of like planning
+16:44 this stuff out, doing the research,
+16:47 calling these MCP tools, building these
+16:49 like strategy documents, which we'll get
+16:51 a little bit deeper into uh down the
+16:54 line. So, Perplexity is working right
+16:56 now. Uh let's uh let's see what's
+16:59 happening.
+17:02 All right, cool. So, it uh it called the
+17:05 tool
+17:08 and uh if you haven't worked with these
+17:09 tools, sometimes they do take a little
+17:11 bit of time. Totally natural. Sometimes
+17:13 they get stuck in like an AI loop and
+17:16 you have to just like stop stop it and
+17:18 and try again. So, uh looks like it's uh
+17:21 it's doing its job though.
+17:24 I mean, even human beings get caught in
+17:26 a loop sometimes. Oh, yeah. We get
+17:29 caught in a vibe loop.
+17:33 We're just we're just in these tools and
+17:35 using AI and not understanding what's
+17:38 going on in the real world. At least
+17:39 that's been me for like the last three
+17:41 weeks. I've been in a vibe loop. All
+17:44 right. Vibe vortex. Yep. A vibe vortex.
+17:48 It's so crazy because this is something
+17:50 that you would spend thousands of
+17:52 dollars on with an SEO agency. Exactly.
+17:55 I've I've spent thousands of dollars on
+17:57 this before in the past. Yeah. Yeah.
+18:01 It's even starting to generate code for
+18:03 how we can do this. Okay. So, uh, now we
+18:06 have some relevant programmatic keyword
+18:09 opportunities and yeah, as you said,
+18:11 Greg, like to find these, typically it
+18:13 would either take you an absolute like
+18:16 ton of time to go into, you know,
+18:19 whatever like clunky SAS tools are out
+18:22 there that you have to go through and
+18:23 dig for these types of keywords. Uh not
+18:26 only that, you have to think about the
+18:27 strategy and you know which ones are
+18:29 relevant and and stuff like that. So um
+18:32 the my favorite one that I see here is
+18:35 like AI tool comparisons. I think that
+18:37 that would be a really solid one u with
+18:40 all the tools that are coming out and
+18:42 stuff. There's a lot of search volume
+18:44 out there uh for people uh comparing and
+18:46 contrasting uh these different things.
+18:48 So, let's uh do AI tool comparisons for
+18:55 marketing. So, I'm just going to follow
+18:58 up here. See what it says. It's using
+19:02 perplexity again. Um so, you know, as as
+19:06 I've talked about and as you've also
+19:08 talked about, um you know, the best way
+19:10 to work with AI, it's not like a one
+19:12 shot like you have to go back and forth.
+19:14 You have to reprompt you know you have
+19:16 to kind of understand what's coming
+19:18 back. if that sort of fits uh what
+19:20 you're looking for. And it takes a
+19:22 little bit of back and forth and a
+19:23 little bit of work to get what you want.
+19:25 It's almost a mistake to one prompt and
+19:28 accept what the answer is. Yeah. It's
+19:31 more like a conversation. And you know,
+19:33 people that create these like super
+19:35 complex prompts that say like use this
+19:38 prompt to do this. It's like that's not
+19:41 really how most people or really anyone
+19:43 that I know of that uses AI really well
+19:45 is is doing it. Um, so we have this. Uh,
+19:49 now, um,
+19:52 I want you to use the data for SEO
+19:58 MCP to research our keywords and give me
+20:03 an idea of the potential search volume
+20:07 of our approach.
+20:11 So, it's already found a bunch of like
+20:14 relevant AI marketing tools. Um, we're
+20:18 going to go out there and uh and get
+20:20 some keyword research done. Uh, I have
+20:23 another MCP here. Um,
+20:28 let's see that I'm trying to use called
+20:30 data for SEO. And the way that I like
+20:33 validate these keywords and I get
+20:35 specific numbers and metrics from them
+20:37 is by using that MCP. So it's pretty
+20:41 cheap. I don't have to log into like
+20:43 overwhelming SAS tools. I can do keyword
+20:46 research right here with AI assistance.
+20:49 And really I don't have to be an expert
+20:52 on, you know, search and and all that
+20:54 stuff to do this.
+20:57 All right. So you can see those
+20:59 head-to-head comparisons, right?
+21:02 Yeah.
+21:04 So it went out and it found that uh you
+21:07 know if we look at like I don't know
+21:10 HubSpot versus Zapier or Synesthesia
+21:12 versus Haze Genen or Jasper versus Chat
+21:14 GBT those things are getting search
+21:16 volume. So um the head-to-head
+21:19 comparisons uh 20 tools times 20 tools
+21:24 uh with 10 different use cases that's
+21:26 4,000 combinations. Average volume per
+21:30 keyword 200 to 500 per month. Total
+21:33 potential uh search traffic 800 to two
+21:36 million searches a month. So that's a
+21:38 ton of traffic. Uh I can get super
+21:41 dialed in and and specific that's
+21:43 probably got some pretty broad and
+21:45 competitive uh stuff in there, but um
+21:48 I'm just going to like uh develop a plan
+21:50 so that we can we can actually start
+21:52 building. All right. So um cool. Uh, now
+21:59 I want you to create a PRD
+22:04 that I can use to build my first
+22:10 programmatic page template based on this
+22:13 strategy.
+22:15 Use the information that you've gathered
+22:19 to prioritize a tool comparisons,
+22:24 b relevant tools to the vibearketer.com,
+22:31 and c a high priority
+22:35 keyword that we can
+22:39 create
+22:41 solid content around.
+22:44 So PRD is short for product requirement
+22:48 document. So why you why you doing this
+22:50 at this stage? So, why I'm doing this
+22:53 here is because I just want to like get
+22:56 all the context of the research steps
+22:58 that we've done into one clear uh list
+23:02 of actions that we're going to go and
+23:04 provide cla
+23:17 right now. So, I'm taking advantage of
+23:20 that so that I can just kind of
+23:22 consolidate and arrive at like a clear
+23:25 final plan. Yeah. I think if you what
+23:29 I've noticed is if you don't create a
+23:31 PRD, the output ends up being worse,
+23:34 like very diluted. Yeah. So, what's cool
+23:37 about the PRD is you you can kind of
+23:39 like drip feed context.
+23:42 And because of that, because of how
+23:45 tight the the drip feeding is, you end
+23:48 up getting better results. Yeah,
+23:50 absolutely. Yeah. It creates a super
+23:52 structured path uh for like an agent or
+23:56 an LLM to follow and it's going to
+23:58 prevent you from having to like, you
+24:00 know, go and get artifacts and and
+24:03 different documents and other things
+24:05 and, you know, go back and reference
+24:07 those again, have a bunch of other chats
+24:09 going on. So, uh here we go. Um, we've
+24:12 got a PRD
+24:14 and, um, let's take a quick look at it.
+24:17 Um, it has provided us, uh, an overview,
+24:22 the objectives, um, success metrics. So,
+24:25 our goal here is 10,000 organic visits a
+24:28 month within 90 days. That sounds pretty
+24:30 cool. Uh, it even developed a persona.
+24:33 Um, it went into user intent analysis.
+24:36 So it actually looks at keywords and
+24:38 tries to understand uh if these keywords
+24:41 have intent behind them and people are
+24:43 actually interested in the topic and
+24:45 want to buy something. Um so
+24:48 uh for this uh use case um let's go
+24:52 ahead and do video and creative tools
+24:57 tier three. All right. So, what I'm
+24:59 going to do is I am going to fire up
+25:03 Claude Code over here. And uh what I'm
+25:06 going to do is say, "Hey, uh we have a
+25:10 new project to work on
+25:14 for the Vibe Marketer
+25:18 production website. Um, so I've got a
+25:21 folder over here under that cursor vibe
+25:24 in the upper uh lefthand corner. And I'm
+25:26 not going to open up all of my different
+25:28 project folders and stuff like that. I
+25:30 know what folder my website is in.
+25:33 There's a bunch of code in there. Again,
+25:34 I don't even know what all of it does,
+25:36 but I know that it's all contained
+25:38 there, and I want Claude to know that
+25:40 we're working on that specific project.
+25:44 So, uh, let's let it know. So, we have a
+25:47 new project to work on.
+25:50 Let's fire them up.
+25:52 So, what it's doing now is it's going
+25:54 through that folder. It's looking at all
+25:56 the files. Uh it's understanding like
+25:59 you know what it's all about, how the
+26:01 website's designed, how it looks, stuff
+26:04 like that. So, um we're sort of focused
+26:06 on the right thing together. And then it
+26:09 says here are some possibilities of what
+26:11 we can do, but I want to work on this
+26:13 strategy that uh that we created with
+26:16 cursor agent and with these MCPS. So,
+26:19 I'm going to say find the uh
+26:22 programmatic
+26:24 SEO
+26:26 comparison
+26:28 PRD
+26:30 file in our environment.
+26:33 That is our project.
+26:35 Okay. And here is that document. And uh
+26:39 Claude is going to search uh my file
+26:41 system here. And it already found the
+26:44 file. Now it's reading through all the
+26:46 information, the goals, the objectives,
+26:49 how we want to go about this, the
+26:51 example keywords, and all of that. So,
+26:54 it found the PRD. And the next thing
+26:56 that Claude Code does after it
+26:58 understands our project and what we're
+27:01 trying to work on now, it's going to map
+27:03 out a plan. So, it created a to-do list
+27:06 right here. So, it's going to set up a
+27:07 project structure. It's going to create
+27:09 the data structure for the tool
+27:11 comparisons. It's going to build uh page
+27:14 templates so that if we want to create a
+27:17 bunch of these, it can do that in a very
+27:19 consistent way. It's going to create the
+27:21 initial tool data for chat GPT versus
+27:24 claude comparison. It's going to build
+27:26 an interactive comparison table and
+27:28 pricing calculator. It's going to
+27:30 implement email capture and community
+27:32 CTA components, which are the main sort
+27:34 of calls to action that I currently have
+27:36 on the vibearketer.com. And then it's
+27:38 going to add an FAQ section with schema
+27:40 markup. All right, cool. So, um, it's
+27:44 saying, "I see your project. This is an
+27:46 excellent strategy to capture traffic
+27:49 based on the PRD. Should I start
+27:51 building this or integrate it into your
+27:54 existing uh, production site?" So, I
+27:56 want this to be within my production
+28:00 site.
+28:03 And, uh, it should start getting to work
+28:05 here relatively quickly. So, let's see
+28:08 what uh, what Cloud Code does next.
+28:11 And if we take a step back here, you're
+28:14 literally coding right now. Yes. Right.
+28:17 Yes. Yeah. Like I am just building and
+28:20 coding with prompts and I don't really
+28:24 know what's happening. Um, but I'm
+28:28 following along and like at this point
+28:31 after 3 weeks of of being in a in a vibe
+28:34 vortex. Um, I am starting to understand
+28:38 like how all this fits together and and
+28:40 how it works and and stuff like that.
+28:42 When I first logged into all this, I was
+28:44 like completely overwhelmed. I was like,
+28:45 I am never going to have figure this
+28:47 out. like but you know it's it's just
+28:49 that initial like week or so and it's
+28:53 it's getting momentum and it's going
+28:54 into this platform and taking some small
+28:57 actions like every day and uh you know I
+29:00 I said on X like hey I'm just going to
+29:02 learn this in public and I'm going to
+29:04 share like what I'm building and that
+29:06 helped me develop a little bit of like
+29:07 accountability around doing it and
+29:09 getting in there and uh that's what I
+29:12 did but yeah I'm literally coding right
+29:13 now uh or Claude Code is actually coding
+29:17 Um, but uh, yeah, that's that's how my
+29:20 process has gone so far. And what's the
+29:22 what's the upside for someone to
+29:25 actually learn this? Yeah. I mean, it's
+29:29 it's really limitless to be honest with
+29:31 you. Like what I'm seeing is that
+29:35 there's sort of this like convergence
+29:37 happening uh, between like a VI marketer
+29:40 like like me and like a developer, like
+29:43 a full-blown developer. And I think that
+29:47 like cursor and claude code and these
+29:49 tools make the uh ability of like a
+29:53 developer accessible to anyone who's
+29:56 willing to get in here and mess around
+29:58 and tinker and get over that initial
+30:01 like uncomfortable phase. And um my
+30:05 friend Amir who I chatted with about
+30:07 this and he kind of introduced me to
+30:09 cursor said that like he can see that
+30:12 cursor could be like an interface for
+30:14 everything. And I'm starting to see that
+30:17 uh here as well. I mean you can create
+30:19 content, you can create web pages, you
+30:21 can do research, you can actually
+30:23 implement all of that stuff uh yourself,
+30:27 you know. So, it's not like you're going
+30:28 into uh an inate in innate in workflow
+30:31 and you're spending like hours setting
+30:34 this thing up and it's spitting out like
+30:36 a Google sheet and then you have to
+30:38 figure out what the hell do I do with
+30:39 that? It's like everything that you're
+30:41 producing here is extremely actionable
+30:43 that cloud code can go and implement on
+30:46 your website in an app as a new project
+30:49 whatever. So it's like a very closed
+30:52 loop environment uh where you can go
+30:54 from insight uh to action extremely
+30:57 quickly. So right now I'm seeing tons of
+31:03 you know people come up coming up with
+31:05 NA to end workflows like especially on X
+31:07 and LinkedIn they're like comment NADN
+31:10 to get the N workflow. Are you saying
+31:13 that cursor in a lot of ways is just a
+31:15 more powerful version of NAN? If you
+31:18 think about inad um you know you're
+31:22 going and doing essentially a lot of
+31:25 this what you're seeing claude code do
+31:27 manually. You're you're mapping out the
+31:30 logic and then um you are figuring out
+31:34 how to set up a system that executes
+31:37 your goal. So you're selecting these
+31:38 different sort of like actions that are
+31:41 going to happen. Hey, I want to use this
+31:43 to go get this data. Then I'm gonna have
+31:45 to format that data in the right way.
+31:47 Then I'm gonna have to pass it over to
+31:49 this tool and make sure that's set up
+31:51 right. Then I'm gonna have to figure out
+31:52 where all this is going. Then I'm gonna
+31:54 have to maintain that system and
+31:56 understand like where bugs are happening
+31:58 and all that stuff. It's a very
+32:00 inefficient
+32:02 way to build a workflow in my view after
+32:05 I've really gotten into here and figured
+32:06 out the power of like cloud code and
+32:08 cursor. Any innate end workflow can
+32:11 build a can be a micro app or a micro
+32:14 tool that you can build with cloud code.
+32:17 And what are the benefits of that? Well,
+32:19 the benefits of that are that you could
+32:20 have a clean user interface that anyone
+32:22 can access the power of your tool or
+32:25 your workflow. Can't really do that
+32:26 within very easily. Um, you can make
+32:30 edits very fast uh without having to go
+32:33 into each individual node and figure out
+32:35 what the problems are and how to debug
+32:37 it. It's a lot simpler. It's a lot
+32:39 faster. It's a lot more streamlined. Um,
+32:42 I did a comparison yesterday. Uh, I
+32:45 tried to build a keyword research
+32:47 workflow in in my process was I came
+32:50 into cloud code. I said, "Hey, build me
+32:52 an inadn workflow for this keyword
+32:54 research process." It went and read the
+32:57 inaden docs, all that stuff. It gave me
+32:59 a file to upload into into naden. By the
+33:02 way, this is how most of those like
+33:04 Twitter or X giveaways happen. people
+33:07 like go into an LLM and they create a
+33:10 file, they upload it onto Naden, it
+33:11 doesn't even work and they say, "Hey,
+33:12 I'm giving this away." That's the dirty
+33:15 secret about it. Um, and then, uh, so I
+33:18 got that into N in Naden and I tried to
+33:20 run it and it didn't work. Like it was
+33:22 all over the place. Um, I had to figure
+33:24 out how to debug all these different
+33:25 steps. After about an hour, I was like,
+33:28 you know what, I'm not doing this. Then
+33:30 I I went back to Cloud Code and I said,
+33:32 hey, this process that I want to
+33:34 accomplish, build it as an app. In 30
+33:37 minutes, I had a fully functioning app.
+33:39 I published it uh to a production site.
+33:42 It's live on GitHub. People can go and
+33:44 download all the code and it works
+33:45 perfectly. So, it was way easier. And
+33:48 through the whole process, I'm just
+33:49 using natural language. I don't have to
+33:51 know how to use Naden. You know, I can
+33:53 just come in here and talk back and
+33:54 forth with with cloud code and get to
+33:57 where I want to go. with the caveat of
+34:00 you have to get over the hump of
+34:02 understand like this is pretty jarring
+34:05 for someone who doesn't understand code
+34:07 but like once you're in it like like you
+34:09 said right it took you a couple weeks of
+34:11 being like okay I understand what's
+34:13 happening here yeah yeah it takes a
+34:16 couple weeks to like get comfortable in
+34:18 here it feels very foreign um you know
+34:21 this terminal aspect is a little bit
+34:23 scary uh before I found cloud code I was
+34:26 just using cursor agent and I wasn't
+34:28 wasn't even messing with the terminal,
+34:30 but Claude Code lives in the terminal.
+34:32 Um, and uh, really claude code turns
+34:35 your terminal into sort of a chatbased
+34:38 interface. So, you don't have to know
+34:40 what it's doing. You just have to know
+34:42 like what to ask it and uh, and and
+34:45 things of that nature, you know. And as
+34:47 you do this, you'll start to understand
+34:49 sort of like, okay, this is kind of
+34:51 cool. Now I get like where these files
+34:54 are and how a project is structured and
+34:56 I'm I'm learning a little bit about code
+34:58 uh just watching Claude. Uh I think this
+35:01 is kind of like pair programming. You
+35:03 know, if you're like a beginner and
+35:04 you're paired up with like a senior
+35:05 engineer and you're working together
+35:07 back and forth like I'm learning how to
+35:09 do this with Claude code as kind of like
+35:11 my senior engineer and I'm like the
+35:14 intern just kind of like learning as we
+35:17 chat and learning as we go. You're not
+35:19 even the intern. You're like you you're
+35:22 like up you're you're going to computer
+35:25 science school next year, you know?
+35:27 Yeah. Um you're just asking the
+35:29 questions. Yep. Yep. So, um just to get
+35:32 an update on uh our to-do list here,
+35:35 it's already moved through a bunch of
+35:37 items. Uh right now it's building an
+35:39 interactive comparison table and pricing
+35:41 calculator between uh Claude and Chat
+35:44 GPT. That's kind of cool. I don't know
+35:46 what that means, but we're going to
+35:47 check it out once we uh once we push
+35:49 this live. Um,
+35:52 cool. But yeah, like uh just the
+35:55 learning process um of using this the
+35:58 development process, whatever you want
+36:00 to call it, I'm having way more fun in
+36:03 here than I ever had with any like
+36:06 nodebased kind of like workflow tool,
+36:09 you know? Totally.
+36:11 All right, we are uh we're still working
+36:14 here. The other thing that I want to
+36:16 point out, um, you know, if you've used
+36:19 like Vibe coding tools, something else
+36:21 that I find Claude Code is much better
+36:24 at, um, it just seems like way more
+36:26 detailed like uh, with the work. It's
+36:29 it's going and understanding like the
+36:32 code base on a on a deeper level in my
+36:34 opinion. Um, I could be wrong, but
+36:37 that's that's what I gather from just
+36:39 kind of watching what's happening here.
+36:41 Um, and then the other thing that's
+36:43 happened is like every time that I've
+36:45 used cloud code versus like
+36:47 off-the-shelf platforms, like you know,
+36:49 I'm spending an inordinate amount of
+36:51 time doing debugging uh when I try to
+36:53 vibe code on your typical tool. And uh,
+36:56 you know, this can essentially oneshot
+36:58 something for me uh, way way faster with
+37:01 far fewer errors, right? And like we
+37:04 talked about, it's not really a one
+37:05 shot, right? I'm still going back and
+37:08 forth. I'm I'm pulling up that page. I'm
+37:11 going to go look at it. I'm going to
+37:13 debug it. I'm going to tweak some
+37:14 things, you know, stuff like that. So,
+37:17 um, yeah. All right. Still building, but
+37:20 we're almost there. We're on the last
+37:23 task. Okay. So, uh, it's going to
+37:25 install some little like icons for us.
+37:28 Uh, while it's working, I just want to
+37:30 point out another thing that I did, uh,
+37:33 that people might find, uh, helpful. Um,
+37:36 so,
+37:38 um, our our friend Jordan built or
+37:41 designed the first, uh, the
+37:42 vibearketer.com landing page and it was
+37:45 in like a landing page builder and I
+37:47 realized, man, I can't do anything with
+37:49 it. Like, I can't even access this
+37:51 builder uh, from cursor and I was like,
+37:54 how can I get that design in cursor uh,
+37:59 so that I can work from it and I can
+38:01 move really fast and make updates to the
+38:03 site. So, I've never really used Figma
+38:06 before, but I I found the Figma file of
+38:08 the landing page. I went into dev mode,
+38:11 which I guess is how web developers are
+38:14 getting Figma files so that they can
+38:15 build websites. Um, I didn't want to do
+38:18 that. So, I installed a plugin called
+38:20 Anima. And allows me to select each
+38:24 layer of that Figma design and it
+38:27 creates code for each layer. Um, it uses
+38:30 Tailwind, which is a type of code. And,
+38:34 um, I just copy and paste the Tailwind
+38:36 code from each of those layers, um, into
+38:39 into cloud code. And, uh, it was able to
+38:42 use that information to a perfectly
+38:45 match, uh, the style and the brand. And
+38:49 I just have never been able to do that
+38:51 uh, using any other like SAS tools
+38:53 before. Yeah, I think that's cool
+38:55 because if you're building like an MVP
+38:58 for anything really, what do you need?
+38:59 You need a brand that's going to hit
+39:01 that's going to connect with people.
+39:03 Yep. And a design and you know, yes, you
+39:08 can use tools like cursor, vzero, bolt,
+39:11 lovable, but sometimes you might just
+39:12 want to hire a designer and designers do
+39:15 often work in Figma. Um, and the ability
+39:18 to just build it yourself and not have
+39:21 to rely on a developer, uh, for the
+39:23 whole solo founder who's trying to
+39:26 build, you know, the one-man business. I
+39:28 think that's really interesting. Huge
+39:30 unlock. And you remember back in the day
+39:32 how like as marketers, we'd have to go
+39:34 and bug the engineering team every time
+39:37 we wanted a landing page or an update or
+39:40 something like that, even for like the
+39:41 smallest things, and they would hate us,
+39:43 you know? Yeah. Well, now they're
+39:45 bugging us because they're like they
+39:47 need work to do. Yeah, exactly. Or
+39:49 they're like, "Hey, how can we uh how
+39:51 can we use some some VI marketing to get
+39:53 more customers or whatever." Yeah. All
+39:56 right. So, um it's doing all kinds of
+39:58 like analysis right now to see if
+40:01 there's any errors in the page and uh I
+40:04 think we're getting uh pretty close. You
+40:06 know, the other crazy thing that that I
+40:09 realized
+40:10 um within cloud code, and there's been a
+40:13 lot of like screenshots of this on X,
+40:15 there's a little cost command. So, you
+40:17 can you can type slashcost and you can
+40:19 see how much you're spending in in
+40:21 tokens on the on the platform. And uh
+40:25 someone commented the other day like on
+40:27 one of my tweets like, "Man, how much do
+40:29 you spend on all these tools and and uh
+40:32 and tokens and and stuff like that?"
+40:34 that and I was like, you know, that's
+40:35 that's a good question. I I actually
+40:37 don't know. I haven't looked. So, I I
+40:39 pulled up the cost this morning for for
+40:41 Cloud Code that that I've spent so far.
+40:44 And um to build uh like an app uh
+40:48 yesterday, it cost me like I don't know,
+40:50 20 bucks. You know, I thought it was
+40:53 going to be I thought it was going to be
+40:55 a lot more, but like it's not as bad as
+40:57 you would think. Um the cool thing about
+41:00 cloud code here also is you can switch
+41:03 the model that it's using. So you can
+41:05 pick opus or uh you can let it run
+41:08 default which is sonnet and then it even
+41:11 uses like 35 haiku and 37 for some tasks
+41:15 too. So it will help to optimize your
+41:18 token usage based on the task
+41:21 difficulty. Um whereas in cursor agent
+41:24 if I just stayed on like max or whatever
+41:26 I'd spend a lot of money or u or
+41:29 whatever. Now cursor also has like an
+41:31 auto mode that will do a similar thing
+41:33 but again I just get better results with
+41:35 with cloud code. So it's just my
+41:37 preference. I mean two ways to think
+41:40 about that because I know that people in
+41:41 the comments are going to be like $20 an
+41:43 app that's crazy. Yeah. Number one if
+41:46 you wanted to learn how to code like I
+41:48 went to a university to go learn how to
+41:50 code. A university could cost a couple
+41:53 hundred thousand dollars minimum. Yeah.
+41:56 In the US for four years. So, you know,
+42:00 at at 10 prototypes at $20, that's $200,
+42:04 right? So, that's one. Number two is if
+42:08 you're building an MVP and the ROI, like
+42:10 you think that you're going to make more
+42:12 than $20, like there's there's real ROI
+42:14 there. Yeah. Yeah. From my perspective,
+42:17 it's like, okay, if I build a micro tool
+42:20 and I put it behind an email sign up or
+42:23 something like that and I spend 20 bucks
+42:25 to create that tool and I get a hundred
+42:28 emails from people that are interested
+42:30 in that, if I get one of those to go and
+42:34 buy an annual membership to the
+42:36 vibearketer.com community, that's $200
+42:39 in revenue uh with $20 in spend. You
+42:43 know, that's a huge ROI. That's like 10
+42:45 to one.
+42:47 Like no brainer, you know. Um, okay. So,
+42:52 uh, it looks like,
+42:55 um, it's completed,
+42:57 uh, the process here. Now, I'm just
+43:01 going to do something real quick just to
+43:02 show people like a thought process. Some
+43:04 people might be like, well, how the hell
+43:05 do I access the URL? Like, where is this
+43:08 thing? Um, cool. Where can I find a URL
+43:12 to check this out? I mean, you just have
+43:16 to ask. Even if it's a dumb question,
+43:18 you're not getting judged by by Claude.
+43:21 It's it's not going to say, "Man, you're
+43:22 an idiot." Like, at least not not at
+43:24 this point.
+43:26 All right, we're going to uh we're going
+43:29 to actually deploy this page
+43:32 and the development server and all of
+43:35 that. Um, again, I used I I've seen a
+43:39 lot of people talking about Versel. A
+43:41 lot of people use Netlefi. Um, Verscell
+43:44 looked cool to me. I went to like
+43:46 chatbt03 and I was like, "Hey, tell me
+43:48 the step-by-step plan for setting up
+43:50 Versell with cloud code in cursor so
+43:54 that I can deploy my projects uh easily
+43:58 and quickly." And that's it. Gives me
+44:01 some instructions or you can even do
+44:03 that within cloud code and it'll search
+44:05 the web and use all its functions to uh
+44:07 to help you do that as well. So it gives
+44:10 me a URL. Um, you know, for more
+44:12 advanced people, uh, you can hook that
+44:14 up to GitHub and it it automatically,
+44:17 uh, you know, creates different like uh,
+44:20 uh, deployments to your your code
+44:22 repository on GitHub and it gives you
+44:24 like a URL that you can get to, uh, to
+44:26 go and visit. Let's deploy this to
+44:31 our Verscell project.
+44:34 I'm sure that uh
+44:36 there's some uh developers out there
+44:40 that uh are like, "What the hell are you
+44:42 doing? Are you just pushing this live to
+44:45 production?" Whatever. Um I'm totally
+44:48 aware that I may not be doing this in
+44:51 the best way. Uh but I'm learning as I
+44:53 go and uh you know, I'm always open to
+44:57 to learn better ways to do it. Cool. So,
+44:59 right now it is deploying my project.
+45:03 Uh, so that it can be online and we can
+45:05 go and click around. Crazy. Yep. And if
+45:10 we like it, I'm just going to go and
+45:12 deploy a thousand pages today. I'm just
+45:14 kidding. Maybe.
+45:18 I mean, you could if you wanted. You
+45:20 absolutely could. Okay. So, wait, we
+45:22 have some live URLs. We've got some
+45:24 URLs. Yeah. So, uh, we're going to we're
+45:26 going to navigate to these here. Okay.
+45:28 So, this is the production site that I
+45:31 built. uh in cursor. Um it's much more
+45:35 than like, you know, a basic landing
+45:37 page. It's got the uh an email address
+45:40 and all that hooked up. This is not the
+45:42 one that we just did. Uh but it went
+45:44 ahead and gave me that link. Um it looks
+45:47 like it created an AI toolsh page. Wow.
+45:51 Okay. So, uh can you see this, Greg? Oh,
+45:55 yeah. All right. So, we've got a tools
+45:58 hub and uh think of this as kind of the
+46:00 the front page to your directory. Um,
+46:04 compare the best AI marketing tools side
+46:06 by side. Real test, community insights,
+46:08 and actionable recommendations from
+46:10 2,000 plus marketers. Now, here are some
+46:13 amazing things. Uh, a like I didn't ask
+46:16 it to write any of that content.
+46:20 like it referenced the context in our
+46:23 landing page in our project and created
+46:26 that copy and I think that copy is
+46:28 pretty damn good uh for a first go. So
+46:32 real testing we test each tool for 30
+46:34 days in real marketing workflows,
+46:36 community insights, real feedback, vibe
+46:39 test, our unique scoring system for
+46:41 marketing specific use cases. I actually
+46:43 love this and I think we should push
+46:45 this like generally speaking all over
+46:47 the place. Yeah. Um, so let's scroll
+46:50 down. So we've got uh popular
+46:52 comparisons. And if you remember, we
+46:55 started with uh Claude V versus Chat
+46:58 GPT. That was the only one we wanted to
+47:00 do because we wanted to see uh what we
+47:03 could even come up with. So um view full
+47:07 comparison. Um so the complete 2025
+47:10 comparison for marketers. Now couple
+47:12 things I'm noticing as I look at this
+47:14 page. Um 2025 it's relevant. It's
+47:17 timely. right now. Which one should I
+47:19 use today? This is a good signal to
+47:21 search engines and LLMs that I've got
+47:23 recent and valuable information. So, we
+47:26 tested both AI tools for 30 days. Here's
+47:28 our comprehensive comparison. Here's the
+47:30 other amazing thing about this is that,
+47:33 you know, like we've talked about
+47:35 before, LLMs and search engines are
+47:37 prioritizing userenerated content and
+47:40 reviews. We're implementing that idea
+47:42 right here with this community reviews
+47:44 angle, which is going to make our page
+47:46 stand out as these crawlers are going
+47:48 out and looking for relevant
+47:49 information. So, um, we've got a
+47:52 comparison table of both of the tools,
+47:54 pricing, uh, what it's best for for
+47:57 marketing use cases, our rating. This is
+47:59 actually correct. Long form content,
+48:01 in-depth market analysis, Claude excels,
+48:04 uh, which is awesome. Key takeaways,
+48:06 TLDDR. Um, see what our community says.
+48:09 Uh we have a pricing calculator like if
+48:11 I wanted to launch these tools within my
+48:13 team uh what's that look like uh for me
+48:16 the vibe test uh it's got you know real
+48:20 examples from the tests and things like
+48:22 that community insights and poll results
+48:24 top community discussions again this is
+48:26 all like literal gold for ranking in the
+48:30 search engines um we've got calls to
+48:33 action throughout the page again I
+48:35 didn't ask claude code to do that it's
+48:37 smart enough to know that this page is a
+48:40 strategy to get more customers for us
+48:42 and then it has other recommendations.
+48:44 So, um you can do alternative
+48:47 comparisons to lead you to the next
+48:49 page. This has internal linking and
+48:51 another other a bunch of other valuable
+48:54 things for uh going and getting traffic.
+48:56 Then it's got FAQs. Uh still have a
+48:58 question. Boom. Even created a uh
+49:01 example for a free guide here that we
+49:03 could use as a lead magnet, which I
+49:05 think is incredible. And this page looks
+49:08 really good for a first go.
+49:12 100%. Also,
+49:14 some of these tools would give you an
+49:16 affiliate cut. Yep. Right. So, if you
+49:21 actually launch something like this,
+49:23 this could just be like passive income
+49:26 just all day. Absolutely. Absolutely.
+49:30 So, one last hack. I know you have to
+49:32 go. Uh, now that this is live, I would
+49:34 push this. I would I would go back to
+49:36 claw code. I would make a few edits if I
+49:38 wanted to. Like there's a few icons or
+49:41 image files for the individual tools I
+49:43 would have it uh put into the page. I
+49:45 would probably launch 10 other pages
+49:47 today. And then um after it's on
+49:50 production, I'd go back into cursor. I'd
+49:52 use the firecrawl mcp. I'd say, "Hey,
+49:55 crawl this complete website. Find me any
+49:57 technical SEO errors that you can fix."
+50:00 So you've worked with agencies. It costs
+50:02 a lot of money to do a technical SEO
+50:04 audit and then have them go in and do
+50:05 all the fixes, right? You can get the
+50:08 full technical SEO audit, pass it to
+50:10 Claude Code, it has the instructions, it
+50:12 has your project, say, "Enter, fix all
+50:15 the technical SEO issues on your site.
+50:17 You have a keyword focused strategy and
+50:19 pages that are going to go and get you
+50:21 traffic." I think this is just amazing,
+50:24 dude. This Thank you for Thank you for
+50:26 coming on. Thank you for spilling the
+50:27 sauce. I I also just love how simple you
+50:31 explain things. I want to plug your Oh,
+50:33 I guess the Vibe Marketer, right? Yeah.
+50:36 Yeah. So the vibearketer.com is our
+50:39 online community where we're doing
+50:41 workshops with leading AI companies
+50:43 getting demos. We're doing tutorials.
+50:45 We're doing lessons in our classroom.
+50:48 And most importantly, we're fostering
+50:49 like an amazing community of AI first
+50:52 marketers that are helping each other to
+50:55 uh develop great strategies,
+50:56 troubleshoot and implement this kind of
+50:58 stuff every single day. So I'll include
+51:01 the link the vibearketer.com
+51:03 in in the show notes. Um, you also have
+51:06 a YouTube channel. I'll include it. It
+51:08 It's criminal how few subscribers you
+51:11 have. Um, and if you sign up to the Vibe
+51:14 Marketer, I think you guys send out a
+51:16 free email, right? With just just proven
+51:19 AI workflows and stuff like that. So,
+51:22 yeah, even if you're not ready to join
+51:23 the community. If you go to the
+51:24 vibearketer.com, you'll see an email
+51:26 list. Sign up. We send out our top five
+51:28 workflows every week and a bunch of
+51:30 tactical advice for how you can get
+51:32 going on this kind of thing. Cool. Start
+51:34 there. Thanks, James. Uh, dude, I I I
+51:38 love having you on, so I I I I need a
+51:41 feel in the comment section that that
+51:43 people love having you on, too. Um, so
+51:46 please please let me know. Please let us
+51:48 know what you want James to cover next.
+51:50 The boring marketer. He's he's spilling
+51:52 sauce for free. He love to see it. I'll
+51:55 see you next time. Thanks, Greg.

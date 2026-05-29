@@ -1,0 +1,365 @@
+Title: Nmap Tutorial For Beginners | How to Scan Your Network Using Nmap | Ethical Hacking Tool | Edureka
+URL: https://www.youtube.com/watch?v=IoIsTrKrl-0&list=PL9ooVrP1hQOGPQVeapGsJCktzIO4DtI4_&index=31&pp=iAQB0gcJCQYLAYcqIYzv
+Channel: YouTube playlist
+Video ID: IoIsTrKrl-0
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:24:55.858Z
+
+0:00 [Music]
+0:11 hi guys my name is Arya and I welcome
+0:13 you all to this end map tutorial now you
+0:15 guys must be wondering what exactly is
+0:17 nmap and why should I learn it well nmap
+0:20 is a network scanner that is widely used
+0:22 by ethical hackers to scan networks as
+0:24 the name suggests now you might wonder
+0:26 why do I need a network scanner well
+0:29 suppose let me give you an example so
+0:31 suppose you have a Wi-Fi that has been
+0:33 set up in your new house and you realize
+0:36 that your data is being actually
+0:38 consumed at a faster rate than you are
+0:41 using it now you have suspected that
+0:44 it's your pesky neighbor who keeps on
+0:46 connecting to your Wi-Fi and eating up
+0:47 all your data so to actually confirm all
+0:50 your doubts what you want to do is a
+0:52 network scan and nmap is a pretty
+0:55 wonderful tool to do that now end map
+0:58 runs on Linux uh Mac Mac OS and windows
+1:01 and I'm mostly going to be running this
+1:03 on Linux because that's what I do most
+1:06 of my penetration testing and network
+1:08 testing on so let's go ahead and get on
+1:11 with the installation of nmap on your
+1:14 computer so what you do is go appt get
+1:17 install and map now for uh this you have
+1:20 to be logged in as root if you're not
+1:22 logged in as root just add pseudo before
+1:24 this whole command and it will install
+1:27 it now I already have n map installed so
+1:29 um not really going to install it again
+1:31 and again so let's just go ahead and
+1:34 just do a few scans on our website that
+1:38 is
+1:39 www.ed.gov and we are going to see what
+1:42 we get back as results so first of all
+1:45 let me just show you how you can scan a
+1:47 certain domain name service or C DNS so
+1:49 Ed map we are going to use a flag all
+1:52 the time now let me just tell you uh
+1:53 what our flags so if you just go into
+1:55 nmap and type-- help this will give you
+1:57 all the flags and options that are
+1:59 available to actually use on nmap so if
+2:03 you are actually stuck and you can't
+2:04 remember stuff just go in and type nmap
+2:07 d-el and it will give you all the stuff
+2:09 now Network scans generally take a long
+2:12 time so I'm going to be using the fast
+2:14 mode most of the time so for fast mode
+2:16 all you have to do is type in ed. go and
+2:19 sit and wait for this scan to get over
+2:22 now when the scan gets over you will see
+2:24 a bunch of information and let me just
+2:27 wait till that information pops up and
+2:29 then we talk about the information
+2:31 together okay so as you guys can see our
+2:33 scan has been completed it took 13.71%
+2:59 s on 443 so that is how you can use nmap
+3:03 to scan a certain website now if you see
+3:06 nmap has also given us the public IP of
+3:09 the DNS because what nmap does is it
+3:12 looks up the DNS and then translate it
+3:14 to an IP that is recognized to that DNS
+3:17 server so nmap also Returns the public
+3:20 IP so what we can do also is nmap hphf
+3:24 and
+3:26 34210 230 and do30
+3:30 5 okay so as you guys can see that our
+3:33 command also works when we put in the IP
+3:35 address and it produces the same results
+3:38 now we can also um scan for multiple
+3:42 host now suppose you are on a network
+3:46 and you want to scan for multiple hosts
+3:47 now you don't really want to run
+3:49 different commands for that now what you
+3:50 can do is just go in and type n map and
+3:53 a bunch of IP addresses like 1
+3:56 192.168.1.1 and 1 192.168
+4:00 1.2 and 1
+4:04 192.168.1.3 and what this will do is it
+4:07 will run an nend map scan on these three
+4:10 different IP addresses and you did this
+4:12 uh in just one command so that's a way
+4:16 that you can do this now you can also
+4:18 know about how much of your scan is left
+4:20 by just pressing the up button so that
+4:23 will tell you and give you a constant
+4:24 update on how your scan is going like
+4:26 mine is 32.4% done and 34 .7 now and
+4:30 also show you kind of the time remaining
+4:33 okay so till this port scan is going on
+4:36 let me just tell you about the states
+4:37 now States can be of two types open
+4:40 closed and unavailable sometimes you'll
+4:42 see that it is unavailable and that's
+4:44 because some sort of five allall or
+4:45 something is running out there states
+4:47 can also be closed in that case mostly n
+4:50 MAF will not return you any result
+4:51 unless you're explicitly finding
+4:53 something off the close state so that
+4:56 was a little trivia on States and how
+4:58 they work let's see how much our scan is
+5:01 done so our scan is done 81% and takes
+5:04 around another 20 seconds it should be
+5:06 done soon now this scan could be
+5:08 significantly made faster with just the
+5:11 F tag but I really want to give you all
+5:14 a good look into how this works 97 98
+5:19 99 okay so as you guys can see this is
+5:22 our result it gives us a bunch of ports
+5:25 and services now as I just said this
+5:27 thing can be also closed and also unable
+5:30 so open and closed we see both the
+5:32 examples okay so that was about how you
+5:35 can scan multiple ports so you can also
+5:37 scan multiple ports with this command as
+5:40 I will show you so 1
+5:45 192.168.1.1 to 30 now what this will do
+5:48 is basically scan everything from
+5:51 192.168.1.1 to
+5:54 192.168.1.2 up till 30 like that so this
+5:56 is a very useful way of actually
+5:59 scanning mult multiple IP addresses and
+6:02 let me just show you how that
+6:04 works since we have used the F flag this
+6:07 is going to work considerably faster now
+6:10 as you guys can see out here this had
+6:12 taken around 119 seconds so that's
+6:15 around 2 minutes now this will take a
+6:18 considerably lesser time so let's see
+6:20 this was done in 29.91 seconds and we
+6:23 the 30 IP addresses so we see that
+6:26 hyphen f surely speeding the whole
+6:29 scanning process now you can also give
+6:32 end map a Target list now let me make a
+6:34 Target list so targets. dxt let me just
+6:38 C it out for you so there's nothing in
+6:40 it now all I want to do is edit this
+6:42 file so let me just edit that file and
+6:45 put it 1
+6:47 192.168.1.1 1
+6:51 192.168.1.2 1
+6:55 192.168.1.3 1
+6:57 192.168.1 do4 1
+7:02 192.168.1.5 or 15 boom roasted now all
+7:05 we have to do is save it so that saves
+7:07 it and CR X to actually exit it now you
+7:10 can go ahead and view what is a target
+7:13 set txt so as you guys can see this is
+7:15 what is in targets. cxt and now you can
+7:18 just pass it to end map with the IL flag
+7:21 and you can say that end map is going to
+7:24 actually scan all the IP addresses that
+7:26 are in this file so let that just run so
+7:30 this will take a little bit of time
+7:32 because it's five IP addresses and it's
+7:34 not really running on the fast
+7:37 mode 83% of our work is done okay so as
+7:42 we see our scan has been completed now
+7:45 what you see out here is the scan
+7:47 results for whatever we had provided in
+7:51 the targets. dxt list so that's how you
+7:55 can also provide end map input file and
+7:57 it will give you the result for all the
+8:00 targets that were specified in the file
+8:02 now let's go ahead and talk about a
+8:04 little bit on Port scanning so nmap is
+8:07 also a brilliant tool for scanning ports
+8:10 and if you have a server or a website
+8:12 you know that there are around
+8:14 65,535 ports out there on every server
+8:17 and almost 99% are
+8:19 unused so sometimes scanning ports is
+8:23 really a necessity now you can scan
+8:25 ports by just using the P flag and
+8:27 specifying the port number and this is
+8:30 how you would do it and you would just
+8:32 specify the IP address after that so I'm
+8:35 going to use www.ed rear. go and what
+8:39 you can also do is this will scan only
+8:42 the port number 20 but you can also scan
+8:44 from port number 20 to 25 you can also
+8:47 put in commas and tell end map you also
+8:50 want to scan all these other Port 80 is
+8:52 HTTP and 443 is https so you can surely
+8:56 do that so let me just go ahead and run
+8:59 this
+9:00 okay so that gives us an information on
+9:02 the ports that is there now something
+9:05 about ports also you suppose you know
+9:08 you want to scan for some HTTP Port so
+9:10 you can just say n map and with the
+9:13 hyphen P you can just say that I want to
+9:15 scan the HTTP port on
+9:18 www.ed.gov so that will just go ahead
+9:21 and do that and as you guys can see that
+9:23 give us the result and you can also add
+9:26 in stuff like
+9:27 MySQL FTP and stuff like that so let me
+9:31 just see and show you how that runs okay
+9:34 HTTP is not a port
+9:36 HTT okay so as you guys can see these
+9:39 are ports that are running and it gave
+9:42 us according to the name now if you want
+9:44 to scan all the ports you can use hyphen
+9:46 P hyphen and then the IP address at
+9:50 www.ed.gov now this generary takes a lot
+9:53 of time because you're basically doing
+9:55 65,000 scans so I'm not really going to
+9:57 do that I'm going to quit this out
+9:58 another thing that I want to show you
+10:00 all that generally takes a lot of time
+10:02 to actually execute is called something
+10:05 like an aggressive scan so as you guys
+10:07 can see out here I have done an
+10:09 aggressive scan on Eda so to do that all
+10:12 you have to do is end map hyphen a and
+10:16 then you go
+10:17 ed. so let us see how much time did this
+10:20 take to actually execute this took
+10:22 459 seconds that's a long time for a
+10:25 scan but it gives us a bunch of other
+10:28 information
+10:29 for example it gives us the trace route
+10:32 so what is the trace route first of all
+10:34 so Trace rout is the route taken by a
+10:37 packet to actually reach the clients and
+10:39 the target server so as you guys can see
+10:42 our packet had 22 hops first it went to
+10:45 the first top was to the Gateway router
+10:47 that is
+10:49 192.168.1.1 then it went to the Airtel
+10:52 Le line then went to this IP address
+10:54 then it went to the psnl vsnl Donnet and
+10:58 it went to London New York then Chicago
+11:01 and it went all the way up to wherever
+11:03 this thing is hosted that was some
+11:05 information and then there is some other
+11:08 information given to us like the TCB
+11:10 open TCB R program version sport types
+11:14 sport States and all sorts of other
+11:16 information is given about in an
+11:18 aggressive scan another scan that I have
+11:21 previously also done and kept for yall
+11:24 is because it takes a lot of time and I
+11:27 have done something called the service
+11:29 ver version so n map hyphen s and V with
+11:33 v Capital will give you the service
+11:34 version so it tries to actually guess
+11:37 the version of the service that is
+11:38 running so for example on the TCP Port
+11:42 it tells us it is postfix smtpd on the
+11:45 Apache it's Apache httpd and you can see
+11:48 all sorts of versions that are here
+11:51 another thing end map is generally
+11:53 brilliant is for guessing the operating
+11:55 system that is running now I have
+11:57 already done this scan previously
+11:59 because this takes a humongous amount of
+12:01 time that I don't really have and that
+12:03 is 386.3 4 seconds and this SC together
+12:07 basically took me more than 10 minutes
+12:08 and I don't really have that kind of
+12:10 time for explaining all this stuff so as
+12:12 you guys can see out here the OS is kind
+12:15 of os details is fortnet 40 gate it kind
+12:19 of tries to guess the OS upon the time
+12:22 to live that is in the response from the
+12:24 packets that it sends so hyphen SV
+12:27 hyphen o and hyphen a are some really
+12:30 cool stuffff that you might want to know
+12:32 another thing that you can do is trace
+12:34 route as I had just told yall and yall
+12:37 can do trace route separately so you go
+12:39 hyphen hyphen trace route and then you
+12:41 say the name of any sort of website so
+12:44 suppose I want to know how I reach
+12:46 netflix.com so I go Netflix uh.com and
+12:50 this will give me a trace route that
+12:52 shows me how my packet actually reaches
+12:56 netflix.com okay so this is basically it
+12:58 with a direct one hop okay so that was
+13:02 surprising on the other hand if I were
+13:04 to do this on ed. go it would take a
+13:08 bunch of hops to actually reach that
+13:10 this might just take some time to run
+13:13 okay so it's 94% done I'm just waiting
+13:16 for it to get completed okay so this
+13:18 gave us the Hop and as you guys can see
+13:20 we took 22 hops to actually reach .g and
+13:23 it's the same process you go through a
+13:26 bunch of IP addresses and then you reach
+13:29 this thing called us West to compute.
+13:31 Amazon ews okay so that was about Trac
+13:35 rout now just to end this tutorial let
+13:38 me just tell you guys that you all can
+13:40 also save a file to end map and that is
+13:43 basically save all whatever you found
+13:45 from a search into a file and let me
+13:47 just show you how to do that now
+13:49 sometimes when you are working as a
+13:50 security analyst you will have to
+13:52 perform Network scans on a wide area
+13:55 network that is huge it's basically huge
+13:58 and these scans take a lot of time and
+14:00 you don't really have the space on your
+14:03 command line to actually store that and
+14:05 see that in a way that is feasible for
+14:08 analysis so what you want to do is
+14:10 actually save it in a file so what you
+14:12 can do is say add map o n and then you
+14:16 can say the name of the file we could
+14:18 say results.txt and we could save this
+14:23 in files so www.
+14:26 ed. goco so what ever search result is
+14:31 going to be generated is going to be
+14:33 stored in this file called results.txt
+14:35 now this file need not exist from before
+14:39 it will just be created by nmap and now
+14:41 you see if I do LS we have a targets or
+14:44 a results.txt now if I just cat out that
+14:47 file let me just less it actually
+14:49 results.txt and what you see out here is
+14:52 an nmap scan result that is stored um
+14:54 another thing that I would like to show
+14:56 you all before I end this end map
+14:58 tutorial is a verbos mode so for verbos
+15:01 mode is basically when we were pressing
+15:03 up arrows to see how much of our scan is
+15:05 done you can basically do that for
+15:07 verbos mode so you go hyphen f and
+15:09 hyphen V for verbos and you could say
+15:11 www.
+15:14 ed. and this will basically give you a
+15:17 verbos mode of what is actually going on
+15:20 it'll tell you everything and boom
+15:21 roasted there it's done and we have
+15:24 finished our end map tutorial I hope you
+15:26 guys enjoyed learning about this Nifty
+15:28 little tool called map and I hope you
+15:30 guys have fun experimenting with this
+15:32 tool of course with permission levied on
+15:34 to you and I hope you don't do something
+15:36 unethical I bid you farewell until next
+15:38 time bye-bye I hope you have enjoyed
+15:41 listening to this video please be kind
+15:43 enough to like it and you can comment
+15:45 any of your doubts and queries and we
+15:48 will reply them at the earliest do look
+15:51 out for more videos in our playlist And
+15:53 subscribe to Eddie Raa channel to learn
+15:55 more happy
+15:57 learning e

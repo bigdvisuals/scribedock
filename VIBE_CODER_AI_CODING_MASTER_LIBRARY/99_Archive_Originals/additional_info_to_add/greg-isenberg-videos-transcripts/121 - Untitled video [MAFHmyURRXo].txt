@@ -1,0 +1,559 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=MAFHmyURRXo
+Channel: Greg Isenberg
+Video ID: MAFHmyURRXo
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 I brought in my main automation man's
+0:03 Tony who works with SA Checkout. Tony,
+0:06 what are we going to learn today? Uh,
+0:08 I'm going to tell you the story of the
+0:10 time that I made a voice AI that
+0:12 lowballed every single luxury watch
+0:14 dealer in the US for a Rolex Daytona.
+0:16 That's a $35,000 watch. And uh, it
+0:19 actually kind of worked. Are you the
+0:21 seller with the Rolex Daytona? Been
+0:23 responding. Which Rolex Daytona? Which
+0:26 Rolex Daytona do you have for sale?
+0:28 Brand new box and papers. Got it. I love
+0:31 it.
+0:34 What's your asking price for the
+0:35 Daytona? 60,000.
+0:40 Boom. First actual offer.
+0:44 [Music]
+0:50 And why should people even care about
+0:52 that? Um because I think people are
+0:54 drastically underestimating what voice
+0:56 AIs are capable of. Uh basically it's my
+1:00 belief that any work that you do that's
+1:02 over the phone could and may get
+1:05 automated in the next 1 to 3 years.
+1:08 Cool. And you're going to show us all
+1:11 the tools you use, some of the
+1:12 workflows, maybe even some prompts. Um
+1:15 you're you're not going to hold back on
+1:17 sauce, are you? No, no, no. I've got
+1:20 I've got so much sauce for anybody who
+1:23 will listen. Okay, cool. All right,
+1:25 let's let's see what you got. Okay, so
+1:28 this is my voice AI, which I have dubbed
+1:31 lovingly lowballer 9000. Um, he's I His
+1:36 name is Alex. I I like to give my AI's
+1:39 names because it helps me remember like
+1:40 who they are in my head. And he his job
+1:44 is basically to do one thing. He is
+1:46 looking for a Rolex Daytona and he knows
+1:49 that he's talking to luxury watch
+1:52 dealers. He needs to do a few things. Um
+1:56 he has to gather some like critical
+1:57 details which are like hey what uh you
+2:00 know what's the condition of the watch
+2:01 in? Um do you have all of the original
+2:04 documentation and the packaging for the
+2:06 watch? These are like kind of important
+2:09 details that you need to have when
+2:10 negotiating a watch because they can
+2:12 like dramatically impact uh the quoted
+2:15 cost of the watch.
+2:17 Now, to be spec like to be precise,
+2:20 we're not really calling like Rolex the
+2:23 the like factory dealer. We're calling
+2:26 uh secondhand dealers. So, when I say
+2:28 luxury dealers, I don't mean like Rolex
+2:30 official USA in like Rodeo Drive. I mean
+2:34 like the the guy who buys the secondhand
+2:39 Rolexes in like some spot out in Miami
+2:42 or something like these are the people
+2:44 that I'm targeting and this is the the
+2:47 platform that I'm using to do all of
+2:49 this. This is Vappy u I think literally
+2:52 Vappy just amounts to voice API and it's
+2:54 basically a very flexible way to build
+2:57 voice agents. You can they don't lock
+3:00 you into anything proprietary. It's
+3:02 simply just bring your prompt, pick your
+3:06 providers for your different services,
+3:08 and then literally hit go and run it.
+3:11 And for the prompt, is this something
+3:14 that you wrote yourself or is this
+3:16 something that you prompted like a chat
+3:18 GBT to be like, hey, this is what I'm
+3:21 trying to do. Like, how do I structure
+3:22 this? Um the prompt is something that I
+3:26 wrote myself but
+3:29 also so like okay Vappy has some
+3:32 documentation which may have ch may have
+3:34 changed by now which is like here are
+3:37 some general best practices for building
+3:39 a prompt but I think like this is a
+3:42 tricky question because a lot of what my
+3:45 prompt is doing is reacting to sort of
+3:49 my tests that I conduct. So like my
+3:53 general process has been let's watch
+3:55 people lowball like watch sellers IRL.
+3:58 So there's a couple content creators who
+4:00 I like who do this and then I just try
+4:02 to like put those um simulate those
+4:05 conversations with VBY with Alex and
+4:08 then what'll happen is like Alex will
+4:10 respond in a way that I don't like. For
+4:12 example, like a lot of the times when we
+4:15 would start the call uh start the
+4:17 conversation, Alex would just ram every
+4:19 single question I had like down my
+4:21 throat within the first term. And so I
+4:24 was like, uh, this is like, you know, so
+4:26 uh not engaging. It's so obviously AI,
+4:30 like I need to make sure it doesn't do
+4:32 that. So a lot of what I would do would
+4:34 be, okay, where in my prompt can I tell
+4:36 it to just, you know, say one thing at a
+4:39 time? And I think there's probably
+4:40 something in here. Yeah. Like keep
+4:43 concise, keep responses concise. One to
+4:46 two sentences max. So it would just like
+4:49 if you think about it, it's like if
+4:50 you're on a boat and your boat has like
+4:53 a bunch of holes and you're slowly
+4:54 sinking. All I'm doing is like going in
+4:57 and patching the holes as I'm finding
+4:59 it. That was sort of my approach with
+5:01 the prompt, but it's it's a mix of both
+5:03 to answer your question. Cool. I mean,
+5:05 it also makes sense that you're keeping
+5:07 the sentences super short and clear
+5:10 because you don't want you don't want
+5:12 Vappy to mess up. Yeah. Yeah. That's
+5:16 that's a big deal. Also, also in terms
+5:18 of uh while we're talking about sauce, I
+5:22 don't know where it is in my in here,
+5:25 but just something general that I
+5:27 learned is that most conversations
+5:30 happen at like a sixth grade English
+5:33 level. Um, I think this is just true
+5:36 across I don't know every single
+5:39 interaction you can possibly or most
+5:41 human interactions over a phone. So, I
+5:44 remember when I changed the prompt to
+5:47 say like only use like sixth grade
+5:49 English, I got way longer call
+5:52 durations. I don't have like super
+5:54 precise metrics, but I remember I
+5:57 remember talking to it and being like,
+5:58 "Oh, this sounds so much more human."
+6:01 And from a model perspective, I see you
+6:04 have Gemini 20 Flash. Like how how
+6:07 should people think about which model
+6:10 they should use? Um the model is is
+6:12 really dependent. So I feel like a lot
+6:15 of what we a lot of the model game now
+6:18 is very like flavor of the month. Um in
+6:21 my video I actually ended up using
+6:23 DeepSeek before Deepseek had its whole
+6:25 big hype cycle. Um which was good and
+6:28 bad. I saved money for the calls that I
+6:31 w was able to place, but because we went
+6:33 through that whole hype cycle, my bot
+6:35 just crashed. It just wasn't making any
+6:38 calls or like people would call in and
+6:41 uh they would say things to my bot and
+6:44 then my bot would just not respond. Hey,
+6:46 I'm calling about a watch. Do you have a
+6:48 second? Yeah.
+6:51 Yes.
+6:52 Hello. Hello.
+6:54 Are you calling Roman Jewelers? How may
+6:56 I help you out?
+6:58 Jules in time. This is speaking.
+7:01 Hello, Jules and Kim.
+7:04 Hello. Yes. How can I help you?
+7:08 Prestige Times Stall speaking. Can I
+7:10 help you?
+7:12 Hello. Good afternoon, Becker time. This
+7:14 is Alex speaking. How can we help you
+7:16 today?
+7:19 Quick break in the pod to tell you a
+7:21 little bit about Startup Empire. So,
+7:23 Startup Empire is my private membership
+7:27 where it's a bunch of people like me,
+7:30 like you who want to build out their
+7:33 startup ideas. Now, they're looking for
+7:36 content to help accelerate that. They're
+7:37 looking for potential co-founders.
+7:39 They're looking for uh tutorials from
+7:43 people like me to come in and tell them,
+7:45 "How do you do email marketing? How do
+7:47 you build an audience? How do you go
+7:48 viral on Twitter?" All these different
+7:50 things. That's exactly what Startup
+7:52 Empire is. And it's for people who want
+7:55 to start a startup but are looking for
+7:57 ideas or it's for people who have a
+8:00 startup but just they're not seeing the
+8:02 traction uh that they need. So you can
+8:05 check out the link to
+8:07 startupmpire.co in the description and
+8:09 that was because uh DeepS API was just
+8:12 so slammed. It just literally did not
+8:15 respond to my request. So pick one
+8:17 that's available. And what does
+8:19 temperature mean? I see it says one,
+8:21 temperature one. Yeah. So temperature is
+8:24 like how creative do you want his
+8:26 responses to be? So like if you want a
+8:29 borderline deterministic system, like a
+8:31 system that you can sort of uh predict
+8:35 really easily, you would put the
+8:37 temperature closer to zero. Okay. Um,
+8:39 but then what ends up happening is like
+8:41 if someone asks a question that isn't
+8:43 like very common, it won't know how to
+8:46 respond and it'll just pick like a
+8:47 response that isn't appropriate at all.
+8:50 Okay. And so this is the system prompt.
+8:52 This is where you, you know, configure
+8:53 which model you use. Um, where do you
+8:57 pick which voice you use? Because I know
+9:00 you use like some
+9:01 sopranos. Soprano's voice. Mhm. Mhm. So,
+9:06 right here under voice, you have the
+9:08 voice configuration and uh I think in
+9:12 this scenario I'm using Cartisia,
+9:14 although you have, you know, all of the
+9:16 super popular ones here, but Cartisia
+9:19 and New York man is what they're calling
+9:21 him.
+9:24 Shots. Definitely. Yeah, definitely not
+9:27 a reference to any sort of fictional
+9:29 character that's very popular on a very
+9:32 specific TV show. But are you the seller
+9:35 with the Rolex Daytona? Responding.
+9:37 Which Rolex Daytona? Which Rolex Daytona
+9:40 do you have for sale? Brand new box and
+9:43 papers. Got it. I love the Italian,
+9:47 right? It should be New Jersey, man,
+9:49 because I think the Sopranos were in New
+9:50 Jersey. Perhaps. Perhaps. These are all
+9:54 alleged allegations.
+9:57 Um, so what else do people need to know
+10:00 about Vappy in terms of like setting it
+10:04 up and yeah, what else is there to know?
+10:06 Okay, I I would say probably the most
+10:09 powerful part of Vappy uh exists in the
+10:12 tool calls. So tool calling, I don't
+10:15 know if how many of your audience is
+10:16 like familiar, but basically like a
+10:18 voice AI becomes really powerful when it
+10:21 can interact with your existing tools.
+10:24 So, like for example, I need a way to
+10:27 record all of the calls. So, I'm going
+10:29 to share a different tab with you
+10:31 instead. So, this is my watch list.
+10:34 Essentially, it's a database that has
+10:37 every single call my AI has placed. Um,
+10:40 the reason for this is because I don't
+10:41 want to have to sift through over 800
+10:44 calls and figure out which calls like
+10:46 actually resulted in something
+10:48 actionable. I want my system to tell me
+10:52 like here are the calls that we actually
+10:54 like got an offer on. So I uh what I did
+10:58 was I created a tool call that basically
+11:00 says hey once a conversation is done
+11:04 take the entire transcript and tell me
+11:07 whether or not we actually got an offer
+11:11 from them. So did they even engage with
+11:13 our bot and did we lowball them? And if
+11:16 we did how much did we lowball them for?
+11:18 and did they accept our low ball? And if
+11:20 they didn't accept our low ball, did
+11:23 they at least give us another price? And
+11:25 was that price the final price? So, as
+11:28 you can see here in this spreadsheet
+11:30 that I have, these are all of the calls
+11:33 that resulted in an offer that they gave
+11:37 us uh and then whether or not they
+11:39 accepted or whether or not we got them
+11:42 down to their absolute lowest price. So,
+11:46 this made it super easy to sift through
+11:47 my 800 calls and find the calls that
+11:50 actually resulted in something that I
+11:52 could use in my content.
+11:54 Cool.
+11:56 And to tie a knot in that, the way I was
+12:00 able to do this is right here in the
+12:02 tool section, you basically create a
+12:05 tool. I think what I used was get best
+12:08 offer, which was talk to my Air Table
+12:10 spreadsheet, get the best offer we have,
+12:12 and then use it in the negotiation. Mhm.
+12:14 And I see send to Lindy over there.
+12:18 Where where do you see that? Tools under
+12:20 tools.
+12:22 Oh, yeah. Yeah. Yeah. What were you
+12:24 doing there?
+12:26 I think this is a different I think this
+12:28 is for a different automation, but I I
+12:30 definitely um Yeah, I definitely have
+12:32 this linked in with Lindy in some other
+12:35 in some other voice AI. Yeah. I'm just
+12:37 wondering, I'm trying to give people a
+12:39 sense of like, okay, how could you kind
+12:41 of marry like a a a Vappy plus a Lindy?
+12:47 H Okay. I think what Lindy is really
+12:50 good at is flexibly taking big amounts
+12:55 of text and putting it into a
+12:57 spreadsheet. I think what like Lindy
+12:59 does really well, let me just like
+13:01 navigate to Lindy and try to give as
+13:04 concise of a demonstration as I can. But
+13:07 like you know when you have like a
+13:09 spreadsheet and you have like let's say
+13:11 five columns and let's say you're just
+13:13 like trying to do your homework on like
+13:15 restaurants in a new city you're going
+13:17 to um and then like halfway through your
+13:21 research you're like oh my god I totally
+13:23 forgot my like wife is vegan so I have
+13:26 to like specify uh which of the
+13:29 restaurants are vegan friendly. So
+13:32 rather so if you have a Lindy that does
+13:34 this rather or let's say it's a make
+13:37 automation or some classical non-Lindy
+13:40 automation you got to go you got to log
+13:42 back in you got to add that column to
+13:45 your automation and then you have to
+13:47 write new rules so it's like okay if
+13:50 there's vegan options on the menu make
+13:52 sure this is checked Lindy does that for
+13:54 you automatically Lindy will read the
+13:57 name of your column like vegan friendly
+13:59 and then it'll take the contents of
+14:01 everything that you're giving it. Maybe
+14:02 it's like a website scrape or like a
+14:04 menu and then it'll be like, "Oh yeah,
+14:07 the salad, the the the non Caesar salad,
+14:10 the Mediterranean salad, sans feta,
+14:12 that's vegan friendly." And it'll
+14:14 automatically check that for you. You
+14:16 don't have to do anything. You don't
+14:17 have to log back in. You just add that
+14:18 column into your spreadsheet. You're
+14:21 done. Um, so I I think I rambled there,
+14:24 but that's that's what is possible with
+14:27 the Lindy and Vappy. Cool. situation.
+14:30 Yeah, that makes sense. That makes a lot
+14:31 of sense. What else do people need to
+14:33 know if they want to bug a bunch of
+14:37 secondhand used watch dealers? Or is
+14:39 this it? What else do they have to know?
+14:42 Oh man, these guys are not always the
+14:45 most friendly dudes. Um, no. I mean,
+14:47 from like a tool perspective. From a
+14:50 tools perspective. Oh man. Oh. Um, yes.
+14:53 Twilio. So, I think probably the biggest
+14:57 bottleneck I had, the biggest like
+14:59 hurdle that I had to clear was getting
+15:03 my calls to actually ring the phones. So
+15:07 there is something called shake and stir
+15:09 which is like um I think it's an
+15:14 FCC mechanism um enforcement a rule that
+15:18 they have that basically says hey if you
+15:20 don't register your phone in our
+15:22 database so that we can do like
+15:24 essentially KYC we're just like any
+15:27 calls you make out of this number we're
+15:28 just not going to honor they're going to
+15:30 go straight to voicemail. Um, so make
+15:32 sure that you bring your own number.
+15:34 Make sure that you've done your KYC and
+15:38 then start placing calls because I think
+15:39 I had at least 300 calls go out that
+15:42 just straight up went to voicemail. And
+15:45 could you end like this was a really
+15:48 cool like this this actually was an aha
+15:50 moment for me around like what's
+15:51 possible with voice AI like right now.
+15:54 Can you end I'd love to just end on this
+15:57 idea around like okay like cute cute
+16:00 cute demo but like what else could you
+16:04 know the average startup founder or
+16:07 person who wants to like build a
+16:08 business make money online like what's
+16:10 what are some interesting things that
+16:12 they can do besides this off the top of
+16:15 your head just use cases rattle off some
+16:16 use cases okay most obvious one sales
+16:20 let's say you work in real estate and
+16:22 you have to call people on a prospect
+16:25 list to like see uh whether or not I
+16:27 don't know like someone in their family
+16:29 has like recently passed or if their
+16:31 house is like going on the market soon.
+16:33 So easy. Just say like just make a
+16:35 prompt that's like hey ask these three
+16:37 questions that we know uh the answers
+16:39 to. I mean not for the prospect but if
+16:42 they answer this way we know that the
+16:43 house has a this percent chance more
+16:46 likely possibility to appear on the
+16:49 market in the next six months. I'm sure
+16:51 someone has that uh criteria and that
+16:54 data to make that insight. And then you
+16:56 just take that, turn it into a prompt,
+16:59 call like 30,000 numbers, and you will
+17:01 have people on that list who meet your
+17:04 criteria who you can then
+17:06 pursue. Um that okay, that's one uh
+17:12 here here's here's a framework for
+17:14 thinking about how I would I would use
+17:17 something like this.
+17:21 So I think that
+17:24 um building vapy AI voice agents is
+17:30 great to get
+17:32 uh data where it's basically just a
+17:34 great way to get data. It's a really
+17:36 great way to get data to give you an
+17:38 unfair advantage. So what you did with
+17:42 um the secondhand watches was like you
+17:45 can create an arbitrage business around
+17:47 that, right? like if you're like there's
+17:49 literally thousands of dollars of of
+17:52 of arbitrage that you can be doing. So
+17:55 the question is what are other
+17:56 businesses and this is something that
+17:58 you can literally prompt like a chat GBT
+18:00 but like what are other businesses where
+18:03 getting data allows you to do some
+18:06 arbitrage and I just think you can
+18:09 literally go one by one and if people
+18:11 are interested maybe I can do a another
+18:13 tutorial on on like what voice AI agents
+18:17 business ideas are but like ones that
+18:21 require like if data is an unfair
+18:25 advantage. If if knowledge is an unfair
+18:28 advantage and knowing something more
+18:30 than your competitor,
+18:32 then chances are that there's a voice AI
+18:35 opportunity there. Yeah, I that's a good
+18:38 way to look at No, I don't think you're
+18:39 wrong in that because I think when you
+18:40 asked me the first time like what what
+18:42 would you teach people if you had the
+18:44 opportunity? That's kind of what I was
+18:45 trying to tell you. I was like I think
+18:47 this voice AI like can create a more
+18:49 transparent second market, secondary
+18:52 market. um whether like what sort of
+18:55 businesses you can make off of that I
+18:57 think are really up to people who are
+18:59 deeply entrenched in those businesses.
+19:02 Uh it's like I'm blanking because I'm
+19:03 being put on the spot, but like you're
+19:06 right. Anything that's arbitrage I mean
+19:08 that's essentially what I'm
+19:09 demonstrating here, right? Is like go
+19:10 buy this watch for $19,000 from this one
+19:13 person that you heard me talk to and
+19:15 then go on the secondary market and sell
+19:17 it for like 22 and make like three grand
+19:19 or Yeah. Three grand and then do that at
+19:21 scale. Yeah. Yeah. And then do that at
+19:23 scale. And then like, you know, just you
+19:25 can automate this even further. Like
+19:26 every time someone gives you that offer,
+19:28 just like dispatch a team to go pick it
+19:31 up. Yeah. What are you What are you
+19:32 people doing listening to us? Just go do
+19:35 it. Just go. Um Tony, uh thank you for
+19:41 coming on. I appreciate you. Of course.
+19:44 Um for people who don't know Tony, uh
+19:48 I've included his social. his socials,
+19:52 where to find him, follow his journey,
+19:53 his YouTube is awesome. That's in the
+19:56 show notes. He also does, you know,
+19:58 thankfully he comes and he does um you
+20:02 do demos within Startup Empire, don't
+20:04 you? Yeah. Uh very active on Startup
+20:07 Empire. I am on the core team as you
+20:09 know. I was, you know, built a lot of
+20:12 the automations that make it possible.
+20:13 Uh do a lot of content in there whenever
+20:16 I can. What do you what are some things
+20:18 that you've you've taught in Startup
+20:20 Empire? Um, I did a I did a breakdown of
+20:24 how I built our feedback bot. So, we
+20:27 have another voice AI that basically
+20:29 collects feedback from people who are in
+20:32 Start of Empire. So, like my big insight
+20:34 was like I hate having to fill out a
+20:36 feedback form every time I'm like
+20:38 leaving a community. It's just like too
+20:40 much work and I have too much to say,
+20:42 but like it's fine if I want to just
+20:44 brain dump, but like no one will listen
+20:46 to me brain dump. So wait, why don't I
+20:48 just make a voice AI to like listen to
+20:50 someone brain dump or listen to people
+20:52 who are leaving Startup Empire brain
+20:54 dump or people who are happy with
+20:55 Startup Empire brain dump and then we
+20:58 can take that information and categorize
+21:00 it and classify it and use it to like
+21:02 improve the service which is crazy. So
+21:04 there's a Slack. So for people who don't
+21:05 know, Startup Empire is our private
+21:07 membership uh for people who want to
+21:08 build cash flowing internet businesses.
+21:11 There's we have a Slack
+21:13 uh channel where uh it I don't know how
+21:16 it does it. I'm curious, Tony. Actually,
+21:18 we've never spoken about this, but
+21:19 basically it posts the feedback that
+21:23 people are they're calling this like
+21:25 call it a 1-800 number. It's not a 1800
+21:27 number, but this number. They're calling
+21:28 this number and they're like, I love
+21:29 Startup Empire. I learned these two
+21:31 three two three things two or three
+21:33 things I really liked or I hate Startup
+21:35 Empire and I wish you would do this
+21:36 better. and it posts to our Slack and it
+21:39 summarizes it. It's insane. So then as
+21:41 like me, as someone who wants to make to
+21:43 add value to this product, um it's so
+21:46 amazing, right? Yeah. We get we get our
+21:49 feed we don't have to go anywhere to get
+21:51 our feedback. It comes to us. We get to
+21:53 see it. It's it's in the same channel as
+21:55 like our subscription notifications.
+21:57 It's Yeah, it's nice. I think that's
+21:59 actually a Lindy. It's Lindy, right?
+22:01 Yeah, I think that's Lindy. And by the
+22:03 way, like someone here's a free business
+22:05 idea. Go do that for other companies.
+22:08 Every company would pay for that. We
+22:11 should do that, dude. We should do that.
+22:13 Sure. Actually, you know what? Think
+22:16 about it. Like for three $300 a month,
+22:19 they'll come in. We'll come and we'll
+22:21 set up set this up for you and we'll do
+22:23 the Slack uh bot and we'll manage it for
+22:26 you and we'll send you these pretty
+22:27 reports every single week.
+22:30 Yeah. I Is that it? End of sentence. End
+22:32 of sentence. Let's go. All right. Um,
+22:36 Tony, thanks again. It's been real. And
+22:38 uh, give some love. Give some love to
+22:41 Tony. And, uh,
+22:44 yeah, give some love to Tony so that
+22:46 more people see his face. Um, go watch
+22:49 the YouTube video if you haven't
+22:51 already. Go watch YouTube videos. He has
+22:53 multiple. And, um, actually, just one
+22:55 for now, but there will soon be
+22:56 multiple. Multiple. And, uh, I'll see
+22:59 you around. All right. See you later,
+23:01 Greg.

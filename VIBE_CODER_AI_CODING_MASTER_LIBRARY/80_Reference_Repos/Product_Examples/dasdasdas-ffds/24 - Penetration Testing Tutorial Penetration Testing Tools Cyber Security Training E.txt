@@ -1,0 +1,1070 @@
+Title: Penetration Testing Tutorial | Penetration Testing Tools | Cyber Security Training | Edureka
+URL: https://www.youtube.com/watch?v=CktYFft7K8Q&list=PL9ooVrP1hQOGPQVeapGsJCktzIO4DtI4_&index=28&pp=iAQB
+Channel: YouTube playlist
+Video ID: CktYFft7K8Q
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:24:55.858Z
+
+0:00 [Music]
+0:10 hello everyone I'm archana from Ed
+0:12 Eureka Anna welcome you all to yet
+0:14 another session on cybersecurity and
+0:16 this session is all about penetration
+0:18 testing so without any delay let me walk
+0:21 you through the topics which we will be
+0:22 talking about today so we will begin by
+0:25 discussing what exactly is penetration
+0:27 testing then we will get into different
+0:29 phases of penetration testing moving on
+0:32 we'll check out different penetration
+0:34 testing types as well as tools and
+0:36 finally we'll end this session by
+0:38 exploring a popular penetration testing
+0:41 tool called Metasploit so I hope agenda
+0:43 was clear to you guys let's get started
+0:46 there so what does penetration testing
+0:48 you can find essence of technology
+0:50 everywhere today as businesses increase
+0:53 their dependency on information
+0:54 technology including cloud IOT devices
+0:57 mobile devices social media the cyber
+1:00 risk continues to rise at alarming rate
+1:03 every day you hear about cyber hackers
+1:05 attacking into computer systems servers
+1:08 stealing everything from passwords to
+1:10 financial information but how are they
+1:13 doing that the answer is simple cyber
+1:15 criminals generally make use of
+1:17 loopholes present in computer systems
+1:19 networks and applications to get what
+1:21 they want these vulnerabilities could be
+1:24 due to multiple reasons let's take a
+1:26 look at few of them flaws and the design
+1:28 of hardware and software can put
+1:30 business critical data at risk of
+1:33 exposure if the system is poorly
+1:35 configured then it can introduce loop
+1:37 holes through which attackers can enter
+1:39 into system and steal the information in
+1:41 matter of seconds or you could be using
+1:44 an unsecured network making is easy for
+1:46 the cyber criminals to attack the more
+1:49 complex the architecture of computer
+1:50 system is the more chances your system
+1:53 is being attacked often human errors
+1:55 like improperly loved sensitive
+1:57 documents coding errors insider threads
+2:00 sharing passwords etc can lead to
+2:03 security breaches as well but the good
+2:05 news is that there is a way a company
+2:07 can find out security weaknesses and
+2:09 loopholes which are present in computer
+2:11 system networks and applications before
+2:14 the cyber criminals can this can be
+2:16 accomplished through an iterative
+2:17 process known as penetration testing or
+2:19 simply known as pen test for sure so
+2:22 penetration testing in simple terms is
+2:24 art of finding vulnerabilities and
+2:26 digging deep to find out how much a
+2:28 target can be compromised in case of a
+2:30 legitimate attack well think of it this
+2:33 way it's like a bank hiding someone to
+2:35 dress as a burglar and try to break into
+2:37 the building and gain access to the
+2:39 world if the burglar succeeds and gets
+2:42 into the bank or the world the bank will
+2:45 gain valuable information on how they
+2:47 need to tighten their security measures
+2:49 similarly the primary purpose of
+2:51 penetration testing is to identify any
+2:53 weak spots or vulnera T's and systems
+2:56 defenses which attackers could take
+2:58 advantage of apart from this the other
+3:01 reasons for penetration testing include
+3:03 to measure the compliance of
+3:04 organization security policy tests the
+3:07 staffs awareness of security issues and
+3:09 determine whether and how the
+3:11 organization would response to security
+3:13 disasters so guys I hope now if you have
+3:16 a basic idea of what penetration testing
+3:19 is right let's move on then now let's
+3:21 discuss the actual process followed by
+3:23 penetration testers or agencies
+3:25 penetration testing can be actually
+3:27 broken down into multiple phases and
+3:29 these phases vary depending on
+3:31 organization and the type of test
+3:33 conducted but we'll discuss about
+3:35 different types of penetration testing
+3:37 later so like I said penetration testing
+3:39 is mainly broken down into five phases
+3:41 let me give you an overview and then
+3:43 we'll discuss each layer in detail okay
+3:45 so penetration tester usually begins by
+3:48 gathering as much information about the
+3:50 target as possible then he identifies
+3:52 the possible vulnerabilities in the
+3:54 system by scanning after which he
+3:56 launches an attack post attack he
+3:58 analyzes each vulnerabilities and the
+4:00 risk involved finally a detailed report
+4:03 is submitted to higher authorities
+4:05 summarizing the results of a pen test
+4:07 which was conducted so like I said five
+4:09 important phases
+4:10 now let's discuss each phase in detail
+4:13 so the first phase is planning in this
+4:16 phase attacker gathers as much
+4:18 information about the target as possible
+4:20 the information can be IP address domain
+4:23 details mail service network topology
+4:26 etc so basically he also decides on type
+4:29 of systems which are considered to be as
+4:31 target type of methods that you should
+4:33 use on our target to attack the system
+4:36 and all that so this is very important
+4:38 step guys the first step
+4:39 so you're the pen tester or the agency
+4:41 literally plants everything as to what
+4:43 is to be done in the pen testing now
+4:45 moving on to next step which is scanning
+4:47 in this face attacker will interact with
+4:49 the target with aim to identify the
+4:51 loopholes or the weak points which are
+4:54 present a none system or a network or an
+4:56 application so basically this face
+4:58 includes scanning the network with
+5:00 various scanning tools identification of
+5:02 open shared drives open FTP portals and
+5:05 services that are running and much more
+5:07 so in case of web application the
+5:09 scanning part can be the dynamic or it
+5:11 could be static in static scanning the
+5:14 aim is to identify the vulnerable
+5:15 functions libraries and logic which is
+5:18 implemented in case of dynamic analysis
+5:20 the tester will pass various inputs to
+5:22 application and record the responses so
+5:25 it's more practical way of scanning when
+5:27 compared to static analysis so now
+5:29 moving on the next phase which is
+5:30 execution phase this is crucial step
+5:33 that has to be performed with due care
+5:35 this is the step where actual damage is
+5:38 done
+5:39 it requires special skills and
+5:41 techniques to launch an attack on
+5:43 targeted system using these techniques
+5:45 an attacker will try to get data
+5:47 compromise the system or launch and do s
+5:50 attack etc to check to what extent the
+5:52 computer system or an application or the
+5:55 network can be compromised in an
+5:57 legitimate attack so basically this is
+5:59 the face where actual attack is being
+6:01 done now post attack we have something
+6:04 called analysis phase so once the
+6:07 penetration test is complete the final
+6:09 aim is to collect the evidence of
+6:11 exploited vulnerabilities and then
+6:13 reported to executive management for
+6:15 review and later action well sometimes
+6:17 in the step a penetration tester also
+6:19 provides some useful information or
+6:21 recommendations to implement in order to
+6:23 improve security levels apart from this
+6:26 like I said he might have discovered
+6:28 different kind of value tease and the
+6:30 risk which are involved with these
+6:31 vulnerabilities right so he basically
+6:33 categorizes the risk as and he specifies
+6:36 if the risk is critical or if it's high
+6:38 or the medium or low as in the affect of
+6:41 that one VD will be high or critical or
+6:44 medium or low on the system well don't
+6:46 worry about it well in the demo part of
+6:48 the session I'll show you
+6:49 the spot and you will understand it much
+6:51 better over there so let's move on to
+6:53 next phase which is output phase now
+6:55 this last step is very important for the
+6:57 whole process in this step the results
+6:59 of penetration tests are compiled into a
+7:01 detailed report this report usually has
+7:04 the recommendations which are identified
+7:06 in the previous phase that analysis
+7:07 phase and specific qualities that were
+7:10 discovered and the risk levels the poses
+7:12 basically it usually has the summary of
+7:15 entire pen tests conducted to be there
+7:17 in the report so there you go guys this
+7:19 is usual procedure that all kind of
+7:21 penetration testing agencies follow to
+7:23 perform penetration testing so like I
+7:25 said these phases usually vary depending
+7:27 on organization and type of penetration
+7:29 test that they're conducting so there
+7:32 are different types of penetration
+7:33 testing types and you can categorize pen
+7:35 testing based on different strategies
+7:38 let's begin by the basic ones so first
+7:41 to begin with we have network
+7:42 penetration testing it usually aims at
+7:45 discovering weaknesses and loopholes
+7:46 which are related to network
+7:48 infrastructure of an organization it
+7:50 involves firewall configuration bypass
+7:53 testing stateful analysis testing DNS
+7:56 attacks and many others and some of the
+7:58 most common software packages which I
+8:00 examine in this test include secure
+8:02 shell which is SSH then you have SQL
+8:05 Server MySQL and SMTP protocol which is
+8:09 simple mail transfer protocol then there
+8:11 is File Transfer Protocol basically all
+8:13 the software packages are checked for
+8:14 any loopholes or weak points and then
+8:17 there is web application penetration
+8:19 testing so an application penetration
+8:21 testing you check if there is any
+8:22 loopholes or vulnerabilities which are
+8:24 present in web-based application Yuli
+8:27 the core components of applications such
+8:28 as active eggs silver write Java applets
+8:31 and api's are all I examine in this face
+8:34 or in this type of penetration testing
+8:36 and then there is wireless penetration
+8:38 testing so as the name implies this test
+8:40 involves examining all the wireless
+8:42 devices which are used in in cooperation
+8:45 it could be notebooks smartphones
+8:47 laptops etc basically this test spots
+8:50 weak points in terms of wireless access
+8:52 points admin credentials and wireless
+8:55 protocols and then there is social
+8:57 engineering this type of test involves
+8:59 attempting to get confidential or
+9:01 various
+9:02 to them information by purposely
+9:04 tricking an employee of an organization
+9:06 well you have two subsets here first
+9:08 there is remote testing here you are
+9:10 checking an employee to reveal sensitive
+9:12 information via an electronic means it
+9:14 could be a email or an SMS and all that
+9:17 and then there is physical testing this
+9:19 involves a use of physical means to
+9:21 gather sensitive information like maybe
+9:23 you go ahead and thread an employee or
+9:25 blackmail him to get the information you
+9:27 want so that's why it's called physical
+9:29 testing and the last one is client-side
+9:32 penetration testing basically it aims to
+9:34 search and exploit vulnerabilities in
+9:36 client-side software program for example
+9:39 web browsers that you use such as
+9:40 Internet Explorer's Google Chrome
+9:42 Firefox and all that so guys there are
+9:44 volume DS present in those applications
+9:47 as well so basically in this client-side
+9:49 penetration testing it tries to find out
+9:51 one abilities present in those web
+9:53 browsers or software package such as a
+9:56 dog or a dog robo health media players
+9:58 etc and all that well this is one way of
+10:01 categorizing penetration tests now there
+10:04 are two more ways one is based on
+10:06 knowledge of target second one is based
+10:08 on position of penetration desktop so
+10:10 based on how much information a
+10:11 penetration tester knows we have black
+10:13 box play box and white box so let's
+10:16 begin by white box when the penetration
+10:18 tester is given complete knowledge of
+10:21 target it's called Viad box penetration
+10:23 test the attacker here usually has
+10:25 knowledge of IP address which are
+10:27 controls in place different kind of
+10:29 components of application code samples
+10:31 etc and then there is black box testing
+10:33 so when the attacker has no knowledge of
+10:36 target it's referred to as black box
+10:38 penetration test that's as simple as
+10:39 that
+10:40 finally when the tester is having
+10:42 partial information about target it's
+10:44 referred to as gray box penetration
+10:46 testing in this case the attacker is
+10:47 having some knowledge of target like
+10:50 URLs or IP address etcetera but he does
+10:53 not have complete knowledge or access so
+10:55 while this is respect type of knowledge
+10:57 that penetration tester process before
+10:59 he performs tests now based on position
+11:02 of penetration tester there are
+11:03 different types of pen tests we have
+11:05 already discussed
+11:07 network penetration testing application
+11:09 penetration testing and many others
+11:10 right apart from this there is something
+11:13 called external penetration testing so
+11:15 if the penet
+11:16 testing is conducted from outside the
+11:18 network of an organization it's referred
+11:20 to as an external penetration testing
+11:22 this test usually targets the assets of
+11:24 company that are visible on internet for
+11:26 example the web application itself or
+11:29 the company website email and domain
+11:31 name service so exactly opposite to
+11:34 external testing we have something
+11:35 called internal testing as well if the
+11:37 attacker is present inside the network
+11:39 simulation of scenario is referred to as
+11:41 an internal penetration testing a simple
+11:44 example would be an employee whose
+11:45 credentials were stolen
+11:47 due to an phishing attack he might not
+11:49 be aware of this attack but still he is
+11:52 a part of organization right so it is
+11:54 from inside organization so it's called
+11:56 internal penetration testing then there
+11:59 is something called targeted testing
+12:00 it's performed by organizations IT team
+12:03 and penetration testing team walking
+12:04 together then blind test and blind test
+12:07 the attacker is given limited
+12:09 information prior to test and finally
+12:12 double blind test
+12:13 so as the name indicates it takes the
+12:15 blind test and carries it a step further
+12:17 in this type of pen test at maximum only
+12:20 one or two people with an organization
+12:21 will have knowledge that a penetration
+12:23 test is happening so that's why it's
+12:25 called double blind pen test
+12:27 well guys these are different ways in
+12:29 which you can categorize pen test so I'm
+12:31 sure if next time if you find one you
+12:33 can easily identify which type it
+12:35 belongs to but the problem is with just
+12:38 these strategies and faces they are not
+12:40 at all enough to perform and penetration
+12:41 test in reasonable amount of time
+12:44 so this is where pen testing tools come
+12:46 into picture now let's talk about tools
+12:48 that a pen tester can use to reduce is
+12:50 burden and conduct the test
+12:52 first of all let's discus why do we
+12:54 actually need these tools well obviously
+12:57 they save lot of time and effort so
+12:59 tools will identify this loophole so
+13:01 that you can work on the next stage they
+13:03 are more accurate with their findings
+13:04 and a penetration tester cannot be an
+13:07 expert in all phases right so he can use
+13:09 different kind of tools to perform
+13:11 advanced analysis in each phase now
+13:13 these tools can gather a lot of
+13:15 information and they can report it to
+13:17 tests or very easily so this data is
+13:19 usually used by internal teams to create
+13:21 strong architecture lastly these tools
+13:24 automate the manual tasks so teams can
+13:26 focus on skilled work rather than
+13:29 if after summarize in single step this
+13:32 penetration testing tools makes
+13:34 conducting a penetration test easy for a
+13:36 penetration tester well there are a lot
+13:38 of popular penetration testing tools and
+13:40 a lot of them are free and open source
+13:42 software some of the most widely used
+13:44 free your open source pen testing tools
+13:46 include necess it's a network or web
+13:49 application scanner it can perform
+13:51 different types of scans and help a
+13:53 penetration tester identify volunteer is
+13:56 Metasploit it's an exploitation
+13:58 framework that has been packed with
+14:00 various capabilities for skilled
+14:02 attacker can generate payloads
+14:04 shellcodes gain access and perform
+14:06 privileged escalation attacks an nmap
+14:09 it's a very popular tool it's short for
+14:11 network mapper is a port scanner that
+14:14 scans systems and networks for
+14:15 vulnerabilities which are present in
+14:17 open boots and then there are vias are
+14:19 open ssl john the ripper Kaena Nabal and
+14:22 many others
+14:23 so guys at this point you must know what
+14:26 penetration testing is different phases
+14:29 involved in performing a penetration
+14:30 test different types of penetration
+14:32 testing different categories of
+14:34 penetration tests and finally different
+14:37 kind of tools which are used to perform
+14:38 this penetration test successfully so
+14:41 this is all about the theory part let's
+14:43 go ahead and explore a popular
+14:44 penetration testing - we'll call
+14:46 Metasploit so let's get started then
+14:48 it's called Metasploit framework so
+14:51 let's just search for that
+14:54 it's the first link as you can see it's
+14:56 called metasploit project it's the
+14:58 computer security project that provides
+15:00 information about security
+15:02 vulnerabilities and AIDS in penetration
+15:04 testing just click on that so basically
+15:07 it's an open source project which is
+15:09 owned by security company called rapid7
+15:11 which licenses full-featured versions of
+15:14 Metasploit software it's a great tool if
+15:17 you know how to use it a skilled
+15:18 attacker can generate payloads
+15:20 shellcodes gain access and perform
+15:23 privileged escalation attacks with this
+15:25 tool as you can see there are different
+15:27 ways you can access Metasploit there's
+15:29 something called Armitage it's a
+15:31 fantastic Java based graphical user
+15:33 interface for Metasploit framework then
+15:35 there's MSF console which we will use
+15:37 today
+15:38 it's a command-line way of accessing
+15:40 Metasploit so yeah well if you want to
+15:42 use it on windows there's a download
+15:44 option here you can click on that and
+15:45 it's open source you have download
+15:48 option as well but if you want some
+15:49 extra features then you can go for
+15:51 Metasploit pro but some extra features
+15:53 if you want to know what are the extra
+15:55 features which you can get a few
+15:57 download Metasploit pro then you can go
+16:00 for option which is compare features
+16:01 here we won't be going into that for now
+16:04 so like I said there are multiple ways
+16:06 of accessing Metasploit one is Armitage
+16:08 it's a graphical user interface fronting
+16:10 but now as for this demo part will be
+16:12 using emissive console that's a
+16:14 command-line interface of accessing
+16:16 Metasploit so before we go ahead a minor
+16:19 warning do not try performing
+16:20 penetration testing on very vulnerable
+16:22 application or networks which are
+16:24 available out there it's illegal there
+16:27 are separate software's and applications
+16:29 which are created especially to
+16:31 experiment for pen testing so to perform
+16:34 and web application penetration testing
+16:36 or a penetration testing in general we
+16:38 need to set up a penetration testing
+16:40 environment for that we'll be
+16:42 downloading a watching machine called
+16:44 Kali Linux it's a virtual operating
+16:47 system to perform penetration testing so
+16:49 just search for Kali Linux as you can
+16:52 see it's the official web site click on
+16:54 that so basically this Kali Linux is a
+16:57 virtual operating system which contains
+16:59 different actually 600-plus tools to
+17:02 perform penetration testing and 4 & 6 in
+17:05 cyber security or ethical hacking if you
+17:07 want to know more about Kali Linux or
+17:09 how to install it and how to use
+17:11 different tools in Khalil next there's a
+17:13 video by edge Erica in the cybersecurity
+17:15 playlist please do refer to that so
+17:17 under downloads here click on this
+17:19 download link and download Kali Linux if
+17:22 you click on that you will go to a page
+17:23 where you have different kind of options
+17:25 you have Kali Linux light for 64-bit and
+17:28 32-bit and then there's normal color
+17:30 Linux 64-bit and there are different
+17:33 kind of other options if you're using
+17:34 VMware or virtualization software such
+17:37 as VirtualBox then you have a separate
+17:39 image for that as well while Kali Linux
+17:41 installation process is about seven to
+17:44 eight minutes it's not a lengthy process
+17:46 but if you want to know from step one to
+17:48 last step it's better that you download
+17:50 this ISO image depending on the
+17:52 operating system you're using but if you
+17:53 just want to avoid all that and if you
+17:56 want to just use the image go ahead and
+17:57 download this image for watching box or
+17:59 VM there again depending on the
+18:00 operating system you're using
+18:02 so I've already downloaded it all you
+18:03 have to do is click on the link that's
+18:05 it and that's one thing one more thing
+18:07 but we need some sort of vulnerable
+18:09 application or server to actually
+18:11 perform penetration testing right so
+18:13 that we'll be using something called
+18:14 Metasploit there is Metasploit able to
+18:17 Emmett is protocol three but we'll be
+18:18 using Metasploit able to and for that
+18:21 matter sploit bill two
+18:23 once you click on that there's a link
+18:25 called sourceforge.net you can click on
+18:28 that and you get a download link
+18:30 downloaded it's a zip file unzip it and
+18:32 then you will find an image of
+18:34 Metasploit Abel I already have that
+18:37 let me showed you guys so that's as easy
+18:40 as it is to download the software's
+18:42 which you need here
+18:43 I've already downloaded it let me show
+18:45 it you guys it's there on my desktop as
+18:47 you can see I have a Kali Linux image
+18:48 and the Metasploit Bruhl - here ok so
+18:52 yeah that's it while I'm using VMware
+18:55 both of smack a Linux is playable to our
+18:57 virtual machine so I'm using or we Amir
+18:59 for that I'm more comfortable with that
+19:01 but if you want to use VirtualBox or any
+19:03 other way of using this you can go ahead
+19:04 and do that I have my VMware powered up
+19:07 here as you can see I have three virtual
+19:09 machines which are already there one to
+19:10 Metasploit able to and Kali Linux so let
+19:13 me just go to home page oh well you have
+19:15 a new watch the machine option here you
+19:17 can click on that so like I said if you
+19:19 want to install from first step till
+19:20 last that then you can go ahead and
+19:22 click on this either custom or typical
+19:24 click on next and add the ISO file here
+19:27 and continue with the installation
+19:29 process so like I said earlier please do
+19:31 it FA to other videos if you want to
+19:33 know more about installation process
+19:34 there you go guys now let's get started
+19:36 as you can see I already have Michael
+19:39 enix powered up before that let me show
+19:41 you some settings
+19:43 so it's totally depends on what you're
+19:46 doing using Kali Linux based on that you
+19:48 can assign no memory same goes for the
+19:50 hard disk as well and as for the rest
+19:53 display you can go forward axel ated 3d
+19:56 graphics because Kali Lynx provides you
+19:58 a nice graphical user interface to
+20:00 interact with it has a command line as
+20:02 well but anyway as you can see I can
+20:04 make settings here because my Kali Linux
+20:05 is powered up so if it's off then
+20:08 actually you can go and change the
+20:09 settings the most important thing here
+20:11 is network adapter here you have
+20:13 multiple options you have nayad you have
+20:15 host only and you have bridge connection
+20:16 here as you can see I'm using 2 virtual
+20:18 machines which is Kali Linux and
+20:20 Metasploit able to now if I want both of
+20:22 them to interact I need to set up a
+20:24 virtual network environment Europe I
+20:26 can't just use NAT because both of them
+20:27 are going to design with same IP which
+20:29 is going to be a problem so as you can
+20:31 see I'm using bridge connection here
+20:32 which is already setup and click on OK
+20:34 and let me power up Metasploit able to
+20:37 seamless for that as well settings
+20:40 so yeah so you can see the network
+20:43 connection board options are set
+20:45 abridged so I'm gonna power up this as
+20:47 well while this is powering up let me
+20:50 show you something in the Kali Linux pod
+20:52 find maximize okay so let's go to
+20:57 terminal here before that as you can see
+21:00 this is Kali Linux home page it's quite
+21:02 simple and you have lot of applications
+21:05 to perform different kind of testings
+21:06 you differ from web application analysis
+21:09 you have multiple tools
+21:10 information-gathering
+21:12 foreign six password attacks and all
+21:14 that and yes so terminal there's a
+21:17 command called F conflict to know the IP
+21:19 address of your watching machine so if
+21:21 config so as you can see the IP address
+21:23 is this that's more ninety two dot one
+21:25 sixty eight dot one dot one and it's the
+21:27 net mask address now let's go back to
+21:30 Metasploit able to it's powered up some
+21:33 ice huh so it's asking for the login as
+21:36 you can see it says login with the miss
+21:37 of admin NMS of admin for the password
+21:39 as well so a missive edmund pass
+21:43 Peralta's him so we are into - ploy
+21:46 table so er again I'm using if config
+21:49 command to know the IP address convict
+21:51 as you can see right now it's connected
+21:54 to Ethernet and it doesn't have an IP
+21:56 address design to it for that I'm gonna
+21:58 change and make sure that it falls on
+22:00 the same subnet as that of Kali Linux so
+22:03 sudo for the root access
+22:04 if config again and the IP address thurb
+22:08 NAT which you want to change here is ETA
+22:10 Cho or the network card that's e th is
+22:13 zero as you can see and 192 dot 168 1.2
+22:18 I'll make sure that the IP address falls
+22:20 in the same range as out of kali linux
+22:21 and netmask
+22:22 is 255 dot 0 dot 0 dot okay click enter
+22:28 it's asking for the password and myself
+22:30 admin now let's check again so as you
+22:34 can see right now an IP address has been
+22:36 assigned which one ninety two dot one
+22:37 sixty eight dot one dot two so basically
+22:39 if you want to do anything with the host
+22:41 which is our Metasploit able to in this
+22:43 case then we can use the IP address
+22:45 which we just design now to come out of
+22:47 the system its control all and not going
+22:49 back to Kali Linux
+22:52 a massive framework or Metasploit able
+22:54 framework is a default thing which is
+22:56 present in Kali Linux we'll have it
+22:58 somewhere here give me a minute
+23:03 so as we discussed earlier this
+23:05 Wireshark your and you'll find a massive
+23:08 payload option is there Armitage you can
+23:10 see the first option there and there's
+23:13 nmap which comes under multiple
+23:14 categories
+23:16 as you can see it comes under one
+23:18 ability analysis as well and information
+23:21 gathering as well there we go guys now
+23:23 to start up Metasploit able framework
+23:26 it's very simple all you have to do is
+23:28 type MSF console
+23:32 so it says it's starting the Metasploit
+23:34 framework console
+23:37 so yeah as you can see it's opened up
+23:39 and once it's powered up it will provide
+23:41 your different options or what usually
+23:43 called modules almost all your
+23:44 interaction with Metasploit will be
+23:46 through these modules so as you can see
+23:48 these are the modules you have NOP
+23:51 encoders payloads post auxilary and
+23:54 exploits
+23:55 so all those Metasploit modules are
+23:57 organized into separate directories
+23:59 according to their purpose well they
+24:01 directly where the stored is let me just
+24:04 open new tab it's CD under views or
+24:07 share let me just type LS here you can
+24:11 see Metasploit framework open that CD
+24:14 just copy it and paste and paste click
+24:17 enter NLS let me clear the screen
+24:20 LS so we are under Metasploit framework
+24:23 directory under that you have something
+24:25 called modules here so if we go to
+24:27 modules and LS it lists out all the six
+24:31 modules which we just saw all your lower
+24:33 box Italy encoders exploits and appears
+24:35 palos and post so it's divided into six
+24:39 categories using these modules you can
+24:42 take advantage of vulnerabilities which
+24:44 are present in system or any network or
+24:46 any application so to begin with we have
+24:49 something called exploit and the demo
+24:51 part will see how to make use of this
+24:52 exploit module and get access into our
+24:55 Metasploit able host from kali linux CD
+24:58 exploit n LS
+25:03 so this lists out different exploits in
+25:06 terms of operating system as you can see
+25:09 I have apple iOS here I have Linux
+25:11 IREX and Solaris and all that different
+25:15 kind of exploits that are available in
+25:17 all these operating system will be
+25:19 listed in this module
+25:20 as for the auxilary it includes tools
+25:22 like port scanners fuzzers and all let's
+25:25 just go for that CD
+25:31 it should walk now rain so as you can
+25:34 see it has a lot of scanners
+25:36 it has fuzzers it has sniffers and many
+25:39 other options like spoof then you have
+25:41 trying different kind of crawlers and
+25:43 all that so back then apart from
+25:46 auxilary we also have payloads exploits
+25:49 and NOP s payloads usually consist of
+25:51 code that run remotely while encoders
+25:54 ensure that the payload makes it to
+25:56 their proper destination intact with all
+25:58 the information intact and NOP s keeps
+26:00 the payload sizes consistent across
+26:02 exploited ends so there you go guys I've
+26:05 just gone through all the modules now
+26:07 let's go back to Metasploit framework
+26:08 which is here clear the screen now
+26:11 earlier i said i talked about a tool
+26:14 called in map short for network mapper
+26:16 it's a port scanner that scans systems
+26:19 and networks for vulnerabilities linked
+26:21 to open ports so basically it scans and
+26:24 lists our different kind of open boards
+26:25 closed pores and all that so the command
+26:27 that you want to use is n map and health
+26:30 so basically it lists out all the
+26:32 options which we have under n map and at
+26:34 the end it even shows the examples of
+26:37 how to use n map well if you exclude all
+26:39 the commands here the basic thing that
+26:41 you can do is n map and the IP address
+26:43 or the website whichever you want to
+26:45 scan for as for this demo we'll be using
+26:47 two options which is eyghon V command
+26:49 here York's you can see it prints the
+26:51 version number and I feel small s which
+26:53 is nothing but used for scanning which
+26:56 is here it's just type of scanning so if
+26:58 we combine them together we have
+27:00 something called eye finesse we just
+27:03 give me a minute
+27:06 your service version detection - a sweet
+27:09 probe open boots to determine service or
+27:11 version information we'll be using that
+27:13 command here so let me get back but make
+27:17 sure the screening in hand and map and
+27:19 we want to scan our host operating
+27:21 system watchers Metasploit able to in
+27:23 the IP addresses 192 dot if you remember
+27:26 it's one ninety two or one sixty eight
+27:28 dot one dot two so as you can see it
+27:31 took about 0.38 seconds to scan our host
+27:34 system it's a basic scan it doesn't list
+27:37 much information but it just lists out
+27:39 the number of clothes which are closed
+27:40 and all the posts which are open as you
+27:42 can see we have FTP at port number 21
+27:44 SSH at 22 default ports then you have
+27:48 NetBIOS or microsoft yes at 139 and 445
+27:52 put MySQL at so-and-so port number and
+27:55 PostgreSQL and all that now if you want
+27:57 to perform an aggressive scanning and
+27:59 map I finesse we like we discussed
+28:01 earlier and IP address
+28:04 it's starting but it's gonna take a
+28:06 minute I'll get back to you once it's
+28:08 done so as you can see the aggressive
+28:11 scanning is done here so basically what
+28:13 we did is we need to find out the ports
+28:15 and the services which are running on a
+28:17 target system which is Metasploit able
+28:19 to that's why we use the command called
+28:21 nmap and i finessed few options for
+28:23 detail scanning so as you can see it
+28:25 chose the version of each and every
+28:26 service for ftp this is the version and
+28:29 for a MySQL this is the version that's
+28:32 running on our target system which is
+28:33 Metasploit able to then you have some
+28:35 bar what you will be using in this demo
+28:37 the Samba it's a free software
+28:39 reimplementation of SMB networking
+28:41 protocol I'm sure you've heard of
+28:43 assemble well operating systems like
+28:45 Windows use SMB to perform client-server
+28:48 networking for file print sharing or
+28:50 other operations so basically all the
+28:52 operating systems use Samba or SMB for
+28:55 client-server networking so as you can
+28:57 see it basically runs on port 139 and
+29:00 445 in TCP so if you want to run a Samba
+29:04 server the firewall of that box would
+29:06 need to be open to allow these ports in
+29:08 in this demo I'll show you how to find
+29:10 out the version of this Samba making use
+29:13 of different modules like auxiliaries
+29:14 and exploits which we just learnt
+29:17 earlier apart from that as you can see
+29:18 it says it took about 96.1 four seconds
+29:21 to perform the entire scan and all that
+29:23 so let me clear the screen
+29:25 now I just want to see what are the
+29:27 modules which are listed under someone
+29:29 for that I'm using search si MBA and
+29:32 it's gonna take a while so as you can
+29:35 see it's search for different modules
+29:38 which are present under Samba we have
+29:40 auxilary module we have exploit as well
+29:43 and one poster and as you can see it
+29:45 also specifies the disclosure e rank as
+29:48 in how much exploit can be done using
+29:51 this different kind of modules here so
+29:53 we have normal great excellent and all
+29:56 that and the description about each
+29:58 exploit for example this one it says the
+30:00 version which we are using is to point
+30:02 to point to end this is and all that so
+30:04 since we are performing exploit anyway
+30:06 let's just select one which is an
+30:08 excellent ranking so we'll be using this
+30:10 here we'll talk about that later before
+30:12 that as I said earlier Samba is
+30:14 reimplementation of SML so I'm going to
+30:16 search for all of the modules under name
+30:18 SMB
+30:24 so the scanning is done but let me just
+30:26 minimize the view so it's less our
+30:29 different models under SMB we are
+30:32 looking for version 1 which we want to
+30:35 exploit so it's usually under auxilary
+30:37 scanner SMB and version here it is
+30:40 auxilary scanner SMB inversion as for
+30:43 the effect it has it's normal and the
+30:45 description is to find out the SMB
+30:47 version detection that's the description
+30:49 of the module so basically we are using
+30:51 this module to find out the version of
+30:53 Samba so there we go so let me copy this
+30:56 command first because I'll have to use
+30:57 it later
+30:58 and if using it for the first time it
+31:00 might be difficult to remember copy so
+31:02 basically it's on our auxiliary module
+31:03 and we using scanner for that and SMB
+31:06 and SMB washing and let me clear the
+31:08 screen we have a command call use type
+31:11 use it says use this command to interact
+31:13 with the module of a given name so let
+31:15 me specify the name we just copied it
+31:17 right let me paste it and we are in so
+31:20 you can just use command info so
+31:22 basically we use this command to set the
+31:25 scanning parameter now we are into it
+31:27 we'll use info command so yeah it lists
+31:30 out all the information regarding this
+31:31 module it's us for SMB version detection
+31:34 and this is the module name and the rank
+31:36 is normal and you have basic options if
+31:39 you want to just see the options show
+31:41 options command so as you can see we
+31:43 have remote host which is our host SMB
+31:46 domain user and threats basically
+31:48 threats are nothing but how many times
+31:50 you want to run the module by default
+31:52 it's set to 1 you can set to 2030 it
+31:54 depends on how many times you want to
+31:56 run the module now I want to find out
+31:58 the version of Metasploit able to so for
+32:01 that I need to set the remote host as my
+32:03 host system so for that I'm using set
+32:05 command it's usually is used to set a
+32:07 value for a variable so the variable
+32:10 which you're using here is our hosts
+32:11 make sure you've used the right name of
+32:13 the variable host right and the IP
+32:15 address which is one ninety two dot one
+32:18 sixty eight dot one dot two more if I
+32:21 click yes ok
+32:23 I'll just join her on you so that you
+32:25 won't lose rest of the information I'm
+32:26 using sure options again let me just
+32:29 clear the screen for you guys sorry
+32:30 about that so sure options as you can
+32:34 see in my remote host is now set to our
+32:36 host targets as temperatures Metasploit
+32:38 able to IP address now use the command
+32:41 run so as you can see this is the target
+32:44 system and wash in which we're using is
+32:47 this so now we know how to find the
+32:50 version of the host system as you can
+32:52 see if we have made use of auxiliary
+32:54 module here and found out the version so
+32:56 as this is how you can find the version
+32:58 of her remote host which is set to
+33:01 Metasploit able to hear so we have made
+33:03 use of auxiliary port here now let's see
+33:05 how to make use of exploit module and
+33:07 exploit the vulnerabilities peasant in
+33:09 our target system so if I want to exit
+33:11 its exit we are back to our root access
+33:14 but let me just go back to a miss of
+33:16 console
+33:22 so have you already gone through all the
+33:24 modules and also let me just jump to
+33:26 such samba
+33:30 as you can see it's already performed
+33:32 the scanning so yeah different models of
+33:34 delivery which we've already gone
+33:36 through to find out the version now
+33:37 let's go through our module which is
+33:39 exploit sense fear already using the
+33:42 module let's just go for one which is
+33:44 excellent ranking so here which is use a
+33:46 map script so as for the description it
+33:49 basically allows us to get access to our
+33:52 target system from the skull Linux so
+33:55 all you have to do is use if the use
+33:57 command again like I said earlier it's
+33:59 used to interact with the module of a
+34:01 given name so copy this command this is
+34:04 the one right copy it use and fix
+34:08 clear the skin so end flow so yeah once
+34:12 you do that it will give you all the
+34:13 information about the module
+34:16 so as you can see that's the name of the
+34:18 module the platform it's working on
+34:21 that's Unix and you have the rank which
+34:22 is excellent and the date on which this
+34:25 exploit or the module was disclosed and
+34:27 then you have the information regarding
+34:29 by whom it's provided then available
+34:31 target then you have certain basic
+34:33 options let's just go through a
+34:35 description to see what actually this
+34:37 module does so as you can see this
+34:39 module exploits a command execution
+34:42 volume ility in Samba version the
+34:44 configuration which uses to perform that
+34:46 is using a map script so basically but
+34:49 specifying your user name containing
+34:51 shell meta characters attackers can
+34:53 execute arbitrary commands so basically
+34:55 we don't need any authentication to get
+34:57 into our Metasploit able host or the
+34:59 target operating system so in simple
+35:01 terms we're using this module to get
+35:03 access to Metasploit will do from this
+35:05 host operating system let me clear the
+35:07 screen for you guys so as you can see I
+35:09 have the basic options here to exploit
+35:11 Metasploit able to again I'll have to
+35:13 set my remote host to its IP address so
+35:15 like with Sol you're the target port is
+35:18 already 139 the TCP port like I said
+35:20 earlier it's usually 139 or 145 for
+35:23 Samba so set command so make sure you
+35:26 don't give an extra ser unlike auxilary
+35:29 this exploit provides and default option
+35:32 of exploiting just one target machine so
+35:34 as you can see it's just our host you're
+35:36 not H OS dias one ninety two dot one
+35:39 sixty eight dot one dot two it's set so
+35:43 again you can say for show option so as
+35:46 you can see our our host of the remote
+35:48 host is set or a target operating system
+35:50 which is Marisol are able to and the
+35:51 remote port is 139 which we already saw
+35:54 earlier when I did nmap now that the
+35:57 target is set all you have to do is make
+35:58 use of this exploit module for that the
+36:01 command that you have to use is exploit
+36:03 so as you can see it started the server
+36:05 and target machine so victim can connect
+36:08 to your server if payload is successful
+36:10 and then it did all necessary steps that
+36:13 are needed to run exploit on the system
+36:15 and execute payroll light right into
+36:18 socket a reading from sockets and all
+36:20 that before that the connection request
+36:22 from host operating system and the
+36:24 connection is being accepted from the
+36:26 target operating system with our target
+36:28 knowing all about you can see right now
+36:30 you can't see anything it's not even
+36:31 asking for you to do anything but VR
+36:33 into our Metasploit able to to check
+36:35 that out you can just use command lists
+36:37 there you go guys it's just listed all
+36:39 the files which are available in
+36:41 Metasploit able to you can always go and
+36:43 recheck and Metasploit able to now let
+36:46 me try a new command let's see the
+36:48 permissions so as you can see it does
+36:50 listed out the file permissions as well
+36:52 the root access and the date on which
+36:55 the file was created and all that
+36:57 permissions here now just to make sure
+36:59 if you're running as a root or not PWD
+37:02 is a command it is all are the basic
+37:03 Linux commands I'm sure you know that as
+37:05 you can see it says running is Roo this
+37:07 option basically shows that right now we
+37:09 have root access to Metasploit able to
+37:12 from other operating system we are into
+37:14 the system now I'm a root user if I ask
+37:16 Who am I
+37:17 it says am the root user now that we
+37:20 know will do it user let's just go ahead
+37:22 an admin user add user and hacker me
+37:26 so new password anything you want let's
+37:29 say let's just give the same password
+37:34 so basically it's asking you to provide
+37:37 the awful name remember address of the
+37:39 information if you want go ahead and
+37:40 glue that and once you've provided the
+37:42 necessary information for you user which
+37:44 you just created just click wipe
+37:45 now check out if the user has been
+37:47 sexually added if you see is usually
+37:49 under P a password right so as you can
+37:53 see I've done this before so it says the
+37:55 lo cracker was the one which you used
+37:57 earlier so right now it says hacker me
+37:59 which we just created has been added to
+38:01 our target system now let me just open
+38:04 terminal and we'll be using SSH to
+38:07 connect to our host and to login as user
+38:09 username which was hacker me add IP
+38:12 address one ninety two dot one sixty
+38:14 eight dot one dot two and
+38:20 so we are in it's asking for the
+38:22 password which was hacker Ian there we
+38:25 go guys we are in the system now
+38:26 it says hack me so this is just one
+38:30 exploit that we made Yousuf as you can
+38:32 see all your when I used Ellis on
+38:35 exploit with our different operating
+38:37 systems under which you can find
+38:39 different kind of one release which you
+38:40 can exploit on so basically to summarize
+38:43 what we just did
+38:45 first we scan the entire system we
+38:48 learnt about different ports which are
+38:50 open in our target system and then we'll
+38:52 learn different version identification
+38:54 for those ports and then we search for
+38:56 different exploit on those systems and
+38:58 exploited them and gained control of the
+39:01 system which was Metasploit able in our
+39:02 case so ice try it out if you have any
+39:05 doubts pour some in the compensation
+39:07 just don't stick with this exploit make
+39:09 sure you go ahead and use of other
+39:11 exploits as well so that's it guys so as
+39:14 that is it in this session I hope the
+39:16 session was informative and demo fun
+39:18 make sure you do other things as well in
+39:20 the demo try out new things if you have
+39:23 any session while performing any
+39:24 exploits or wannabe DS or any kind of
+39:26 doubts regarding penetration testing
+39:28 please do post them in the comment
+39:29 section below and we'll get back to you
+39:31 as soon as possible thank you guys and
+39:33 meet you in the next session with
+39:35 another interesting video I hope you
+39:36 have enjoyed listening to this video
+39:38 please be kind enough to like it and you
+39:41 can comment any of your doubts and
+39:43 queries and we will reply them at the
+39:45 earliest do look out for more videos in
+39:48 our playlist and subscribe to any rekha
+39:51 channel to learn more happy learning

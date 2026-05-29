@@ -1,0 +1,208 @@
+Title: OpenAI Codex Tutorial #7 - Codex IDE Extension
+URL: https://www.youtube.com/watch?v=bZ-5CfD2LRU&list=PL4cUxeGkcC9iDBeA8IyR1IE1kl4w5IDEG&index=7&pp=iAQB
+Channel: YouTube playlist
+Video ID: bZ-5CfD2LRU
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:50:31.703Z
+
+0:00 All right then gang. So far we have
+0:02 looked at Codex cloud to run tasks
+0:04 remotely, code review to review code
+0:07 changes in poll request on GitHub and
+0:09 the Codex CLI to work locally on a
+0:11 project. Now I want to look at the
+0:13 fourth Codex tool which is the codeex
+0:15 IDE extension and that can be plugged
+0:17 into VS Code Cursor Windsurf and VS Code
+0:21 Insiders. And this extension is very
+0:23 much in the same vein as something like
+0:25 the copilot extension for VS Code where
+0:28 you have a more visual interface to chat
+0:30 with the AI and fire off code changes,
+0:33 but under the hood, it basically has the
+0:35 same functionality as the CLI tool in
+0:37 that it allows us to work locally on a
+0:40 project with codecs. And again, at the
+0:43 time of recording, it's marked as
+0:45 experimental for Windows. Now, I've used
+0:48 it on both a Mac and Windows. And aside
+0:50 from the occasional jitter and some
+0:52 problems with MCP servers, I've not had
+0:55 any other major problems using it on
+0:57 Windows. That much being said, I feel
+0:59 like the experience definitely feels
+1:01 smoother on a Mac. And for some of the
+1:03 next few videos, I'll be switching to my
+1:05 Mac for the recordings. Just be aware
+1:08 that this is still considered
+1:09 experimental on Windows. So then, let's
+1:12 go back to the code and start using the
+1:14 Codeex extension. The first thing you
+1:16 need to do is search for the extension.
+1:18 And I would search for OpenAI Codeex
+1:21 because if you just search for Codeex on
+1:22 its own, then a bunch of other
+1:24 extensions come up first. So it's this
+1:26 one right here that you want to install.
+1:29 Once you've done that, you should see
+1:30 the OpenAI logo over here, which you can
+1:33 click on to open the Codeex panel. Now,
+1:36 when you first do this, you're going to
+1:37 need to log in to your ChatgPT account,
+1:40 much like we did with the Codex CLI. And
+1:42 if you click on this button, it's going
+1:44 to take you to a signin page where you
+1:46 can do that. So, I'm just going to sign
+1:48 into my account off screen. Once I've
+1:50 done that, we should see a little
+1:52 onboarding sequence inside this panel.
+1:54 So, I'm just going to click on next for
+1:56 all of these until we finally get to the
+1:59 chat screen. And it's from here that we
+2:01 can either start chatting with Codeex or
+2:03 setting it to work on the code. So,
+2:05 we've got the chat window right here
+2:07 where we write any prompts. We've also
+2:09 got a couple of buttons down here to
+2:11 control context, which we'll see later.
+2:13 At the bottom, we can also select the
+2:15 mode and toggle between the same three
+2:17 options we saw in the CLI, which is
+2:19 agent mode for the project edits, chat
+2:21 mode just for chatting, and then agent
+2:23 with full access, including the internet
+2:25 and files outside of the project. We're
+2:28 going to select chat for now, just so we
+2:30 can ask Codeex a question in a moment.
+2:32 We've also got these other drop-own
+2:34 options, which I'm going to talk about
+2:35 over the next few lessons. Up at the
+2:38 top, we should see a list of any recent
+2:40 tasks we've run on Codex Cloud as well,
+2:43 which is a nice touch. And if you click
+2:45 on one of those, you'll see that task
+2:47 here inside the extension. Now, if I was
+2:50 to write something in this task and hit
+2:52 enter, it would actually send that reply
+2:54 up onto Codex Cloud and work remotely
+2:56 again. But we're not going to do that
+2:58 right now. Instead, I want to come back
+3:00 to the regular chat window and work
+3:01 locally. So then same as ever we're
+3:04 going to start off by asking codeex
+3:06 about the project and the prompt can be
+3:08 something like can you give me a quick
+3:11 summary of what this project is. So when
+3:15 we hit enter we should see that codeex
+3:18 starts looking through the project and
+3:19 gathering information. Now I actually
+3:22 really like the UI of this chat window
+3:24 and the way that Codex responds with
+3:26 these bullet points when you ask it to
+3:27 do something. And you can expand some of
+3:29 them as well to see what Codeex is doing
+3:32 or thinking under the hood which again
+3:34 is nice. Okay, so it looks like Codex
+3:37 has finished working now and we can see
+3:39 this summary it's provided. So it's
+3:41 looking at the home route first of all
+3:44 the hero CTA that's the call to action.
+3:47 We have a popular pairs list etc. We
+3:49 have the pair creation page this route.
+3:52 It's got some client side validation on
+3:54 the form blahy blahy blah. We have a
+3:57 shared layout and we have styling that
+4:00 leans on Tailwind v4 and also we use V
+4:03 test as well for testing. So yeah, it
+4:06 looks like it's gathered all the main
+4:08 points of the application. I'm not
+4:11 hugely keen on how it's presented it as
+4:13 a summary in terms of the language it's
+4:15 used. It's not very convers uh
+4:16 conversational or anything like that.
+4:18 However, that's just a personal
+4:19 preference, but it knows what everything
+4:21 is at least.
+4:23 Okay, so now let's try asking Codeex to
+4:25 make some changes. I want to make a
+4:27 reusable model component which I want to
+4:29 show when the user submits the form
+4:31 correctly with no errors. So the first
+4:34 thing I'll do is create a new branch and
+4:36 do all of the work on that new branch.
+4:39 And I'm going to do that by running the
+4:41 command get switch then use the C flag
+4:44 to create the branch. And I'm going to
+4:46 call it featureward slashmodal.
+4:49 Once I've done that, I'm going to go
+4:50 back to the codeex chat panel and I'm
+4:53 going to paste in a little prompt which
+4:54 says, "Can you make a reusable model
+4:57 component complete with a
+4:59 semi-transparent backdrop? The model
+5:01 should be white and allow content to be
+5:04 passed in via a slot. Clicking on a
+5:06 cross should trigger the model to close.
+5:09 Can you then show the model with a
+5:11 success message when a user submits the
+5:13 new pair form with no validation
+5:15 errors?" Now, in order for codeex to
+5:18 work on the code, we also have to change
+5:21 the mode down here from chat to agent.
+5:26 All right. So, it looks like it's worked
+5:27 now. It's created that reusable modal
+5:29 and it's wired it up to the new pair
+5:32 form. And down here, you can see in
+5:34 detail the different edits and the
+5:35 different files it's created. And then
+5:38 at the bottom, it said it's run these
+5:39 tests as well. It also created that test
+5:42 file. Now, I will say one thing. This
+5:44 was quite slow and it's been one of the
+5:47 slowest I've experienced it while I've
+5:49 been using Codeex. And I think that is
+5:50 to do with the model it's using right
+5:52 here, which is GPT5 Codeex on medium
+5:54 reasoning. Now, we're going to talk
+5:55 about reasoning a little bit later on,
+5:57 but this is a relatively new model at
+6:00 the time of recording this video. So,
+6:01 what I'm going to actually do is switch
+6:03 this to GPT5 Medium for the rest of
+6:06 these videos because I find that to be a
+6:09 lot quicker for the kind of simple tasks
+6:11 that I'm going to be giving Codeex to
+6:12 do. I do still think though that this
+6:15 Codeex 5 model right here or rather GPT5
+6:18 CEX model is really good for slightly
+6:21 more complex coding tasks. I will say
+6:23 that. But for the sake of this course,
+6:25 we're going to keep it on the GPT5
+6:28 standard medium model. All right. So
+6:31 let's have a look at the changes that
+6:33 it's made. So if we go into components,
+6:35 we can see that new modal file right
+6:36 here. And if we scroll down, we can see
+6:40 this modal. And the template is going to
+6:44 be right down here somewhere. There it
+6:46 is. Okay. So that's the modal. And then
+6:50 it created a test file as well. Right
+6:52 here. It also updated the CSS and the
+6:56 new pair form so that it's going to show
+6:58 that model when we submit it. And there
+7:01 is the model right here. So let's
+7:03 preview this now in a browser. All
+7:05 right. So I've already entered in some
+7:07 data into this form. I'm just going to
+7:08 create this and hopefully we will see a
+7:10 modal now which we do right there. So it
+7:13 looks okay. And if we click on the close
+7:16 button right here, hopefully it's going
+7:17 to close as well. Yeah, it does. Now, I
+7:20 also want to test that it doesn't show
+7:22 when we don't have the form uh filled in
+7:25 correctly. And yep, we don't have that
+7:27 model now because we've not filled in
+7:29 these details. But if we fill these in
+7:30 again, then hopefully yeah, it does
+7:33 show. Awesome.

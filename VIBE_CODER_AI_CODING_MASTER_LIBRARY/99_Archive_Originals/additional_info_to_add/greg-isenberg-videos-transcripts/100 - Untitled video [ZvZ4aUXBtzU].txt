@@ -1,0 +1,865 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=ZvZ4aUXBtzU
+Channel: Greg Isenberg
+Video ID: ZvZ4aUXBtzU
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 Okay, Amir, you're a vibe coder I look
+0:02 up to and I wanted to have you on the
+0:05 pod. And what are we going to learn
+0:07 today?
+0:08 First of all, I'm very flattered. Thanks
+0:10 a lot. Um, today I'm going to do an
+0:12 extension of the conversation you
+0:14 recently had actually with James aka the
+0:15 boring marketer. Yep.
+0:17 I think he did an excellent job showing
+0:19 how he's using cursor to do a lot of
+0:22 vibe marketing and how he's using it to
+0:24 grow his business. I want to take a step
+0:26 further and show you how you can
+0:27 essentially use cursor. Pretty much it's
+0:29 the interface for work. You can use it
+0:31 for finance, analytics, design, and
+0:34 marketing. And I'm going to show you
+0:35 some workflows and tips on how you can
+0:37 essentially have a team of agents to do
+0:41 specific things with uh for you, especi
+0:43 especially with MCPS.
+0:44 I'm intrigued. You You've intrigued me.
+0:47 You Yeah, I have your attention.
+0:48 You have my attention.
+0:50 All right. That's great.
+0:53 [Music]
+0:59 What's really interesting is I think I
+1:01 want to take a step back is with a lot
+1:04 of LMS we previously didn't have access
+1:07 to uh a lot of third party services or
+1:10 apps. You know with chat GBT we briefly
+1:12 saw connections to like Zapier and
+1:14 custom integrations. Um, but what we
+1:16 didn't see was how you can seamlessly
+1:18 just grab data and interact with that
+1:20 data. And essentially when Enthropic
+1:24 came out with MCP's model context
+1:26 protocols, it was an interface for you
+1:29 to be able to interact with those apps.
+1:30 And it's pretty much synonymous with
+1:32 APIs. And the MCPs made it easy for us
+1:35 to be able to um access this data,
+1:38 create data, change it, transform it all
+1:40 through LLM. And I currently have a
+1:43 company called Humbolytics. an analytics
+1:45 tool that lets you run split testing and
+1:47 CRO and you know I come from a
+1:49 background I previously started
+1:50 companies and group teams and scale
+1:52 teams and my co-founder and I this time
+1:54 around said what you know how far can we
+1:57 scale this company with AI and Agentic
+2:00 workflows and you know let's try to push
+2:03 to the ceiling and I think AI did a big
+2:06 part uh in like educating us but also
+2:08 enabled us to do a lot of these
+2:09 workflows um and then when MCPS came out
+2:12 complete game changer y completely game
+2:14 changer. So um you know with cursor we
+2:20 traditionally saw people just building
+2:22 apps with it in development and I was
+2:24 like okay I'm spending a lot of time b
+2:25 coding and building in cursor. What if I
+2:27 try to not leave cursor at all? What if
+2:30 I do my finance my marketing my SEO and
+2:35 my development all in one place?
+2:36 Is that possible?
+2:37 Absolutely. Absolutely. So I think what
+2:40 we can do actually is start off with
+2:43 finance. Okay. So, one of the biggest
+2:45 things for me is I would love to be able
+2:47 to just get a list of invoices and be
+2:50 able to get an update on my profit and
+2:52 loss.
+2:53 Yeah.
+2:53 Directly from my accounting um app
+2:56 called Zero.
+2:57 Yep. So what you can do is you can
+3:00 actually just connect to the zero MCP
+3:03 and say connect to zero
+3:06 MCP and list out my profit report for
+3:11 May 2025 or 2024 for example. And what
+3:14 it's going to do is actually going to
+3:16 connect to the zero MCP and directly
+3:18 pull that information for you. Now
+3:22 you can also update your accounting
+3:23 software directly through here as So
+3:25 let's say for example you want to do a
+3:26 payroll report or you want to create a
+3:27 quote or an invoice it'll do that
+3:30 automatically for you. So I can say
+3:31 create a quote for
+3:34 one of my vendors and what I did here is
+3:39 you know this is a financial report that
+3:40 I just recently created where I got a
+3:42 list of my bank accounts and my revenue
+3:44 accounts my costs. This is all sample
+3:46 data by the way. So anyone wants to you
+3:48 know hack my accounts and uh other line
+3:51 items and I can use this directly to
+3:55 actually access that information. So
+3:58 right now we have an MCP that got a list
+4:01 of my accounts and it's going to say
+4:02 okay I can create a quote for you. So I
+4:03 can say create a quote for UX services
+4:06 for ABC
+4:09 furniture.
+4:10 And it's going to go ahead and do that
+4:12 and then give me a link to actually
+4:13 access that quote.
+4:15 Someone so I know someone's is going to
+4:17 ask like well why should I even do this
+4:19 in cursor like what you know why is this
+4:22 better than you know going on to zero
+4:25 directly let's say
+4:26 I don't want to click things you know
+4:27 too many things to click and I think
+4:28 we're naturally moving towards voice and
+4:32 text to do actions
+4:34 and that's essentially where we are so
+4:38 what it comes down to is being able to
+4:39 actually do this directly in here and
+4:41 programmatically
+4:42 I can spend a lot of time repeating the
+4:44 same actions and they use a lot of no
+4:46 code tools to do it.
+4:47 That to me is the most interesting piece
+4:48 is like the programmatic piece of this.
+4:51 Exactly,
+4:51 right? Like
+4:52 how much time are you going to save by
+4:54 being able to program that stuff?
+4:57 Absolutely. I think even you know right
+4:59 now like we just created multiple a
+5:01 quote right now. Yeah.
+5:02 Within one line of sentence that could
+5:04 have taken many steps. So if I click on
+5:06 this right here,
+5:07 you can actually see the quote that is
+5:10 now live direct directly through here.
+5:12 So I'll just log in. That's crazy.
+5:15 Yeah.
+5:15 Because like this like what what you're
+5:18 talking about right now is just about
+5:20 like how do you how do you turn SAS how
+5:23 do you turn SAS into programmable?
+5:25 Right.
+5:26 Exactly.
+5:26 You know, and I think that this might
+5:28 look like oh it's cute, but it's
+5:30 actually not just cute, right? It's it's
+5:32 really about saving a lot of time, being
+5:35 more accurate, being more productive.
+5:38 Exactly. And I, you know, I I demoed
+5:40 this to like 300 accountants and they
+5:43 couldn't believe. They're like, "You
+5:44 just probably completely transformed our
+5:46 workflow when it comes tax season where
+5:48 we have to like uh do a list report of
+5:50 all the invoices and quotes that we have
+5:52 for our clients or get tax reports
+5:53 done." So, I just literally using one
+5:56 sentence created a complete quote for
+5:58 ABC Furniture on UX Design Consultation
+6:01 Services. And what's amazing that it
+6:03 automatically knew how I would approach
+6:05 the services and gave it gave it a price
+6:07 pointing for it which is pretty cool.
+6:08 What's interesting is I have right now
+6:11 uh you know a list of the dashboard of
+6:13 my business and then I what it can do is
+6:15 actually open it up and get a finance
+6:18 report that says here's all the accounts
+6:20 you have here's the latest core value.
+6:22 Here's your tax rates.
+6:24 What you spend money on and just you
+6:26 know you can just deploy this to a
+6:27 server like Nifi and just share with
+6:29 anyone within your team within seconds.
+6:31 Crazy.
+6:32 Absolutely crazy.
+6:33 Yeah.
+6:34 So, putting, you know, this is our
+6:36 accounting team. They they run our
+6:37 financials here and I really don't have
+6:39 to do much within cursor. Anytime my
+6:40 co-founder bugs me like, "Hey, what's
+6:41 this line item I'm seeing here?" I'm
+6:43 like, "Just go check the report. It's
+6:45 it's already up there all through
+6:46 cursor."
+6:46 I love it.
+6:47 So, going back, we covered our finance
+6:51 team.
+6:52 Sam Alman, the co-founder of OpenAI,
+6:54 just said that it is the era of the idea
+6:57 guy, and he is not wrong. I think that
+7:00 right now is an incredible time to be
+7:02 building a startup. And if you listen to
+7:04 this podcast, chances are you think so,
+7:06 too. Now, I think that you can look at
+7:08 trends uh to basically figure out uh
+7:12 what are the startup ideas you should be
+7:13 building. So, that's exactly why I built
+7:16 ideaser.com. Every single day, you're
+7:18 going to get a free startup idea in your
+7:21 inbox and it's all backed by high
+7:25 quality data trends. How we do it,
+7:27 people always ask. We use AI agents to
+7:30 go and search what are people looking
+7:32 for and what are they screaming for in
+7:34 terms of products that you should be
+7:36 building and then we hand it on a, you
+7:39 know, silver platter for you to go check
+7:41 out. Um, we do have a few paid plans
+7:44 that, you know, take it to the next
+7:45 level. Uh, give you more ideas, give you
+7:48 more AI agents and more almost like a
+7:50 chat GBT for ideas with it. But you can
+7:53 start for free ideabrowser.com. And if
+7:55 you're listening to this, I highly
+7:57 recommend it.
+7:58 Um, I also have a UX team that monitors
+8:01 my landing page all the time, takes
+8:04 screenshots and gives me feedback based
+8:07 on our analytics data and says, you know
+8:08 what, you need to make some changes here
+8:10 or you need to do this. And how that
+8:12 works is I use Playright. Um, so I say
+8:16 use Playright MCP. And Playright is
+8:19 really interesting because it's
+8:21 essentially an agent browser where an
+8:23 agent will open up the browser for you
+8:24 and perform specific actions. So you can
+8:27 use it to QA to take screenshots to
+8:30 navigate or give you feedback on like
+8:31 errors that you're seeing.
+8:33 And there's other competitors to play,
+8:35 right? Right.
+8:36 Yeah. There's uh fire crawl and browser
+8:38 based as well.
+8:39 Yeah.
+8:39 Yeah. So those are great tools as well.
+8:41 Pry call I I use a lot and I'll show an
+8:43 example for that as well where we use
+8:44 the scrape.
+8:45 Um but playright I like because the MCP
+8:47 is so easy to install.
+8:48 Yeah.
+8:48 And it's free which is you know
+8:50 fantastic. Yeah. So say use play mcp to
+8:53 go to homolytics.com
+8:57 and take a screenshot. So what I'll do
+9:01 is I'll just you know take this away and
+9:04 I want to take this time to actually
+9:05 talk about models as well. You know with
+9:06 cursor it really depends on like prop
+9:09 engineering. Um it plays a big part on
+9:12 um the outcome that you get and models
+9:15 play also more crucial part. You like
+9:18 two types of models. You have the
+9:20 thinking and reasoning models like 03,
+9:22 Gemini 2.5 and Cloud 4 max mode.
+9:25 Mhm.
+9:25 Um that are really good at complex
+9:27 problems. And then you have the agentic
+9:30 models like Sonnet 4 or um you know Opus
+9:34 Opus Opus 4 uh and uh and those are more
+9:39 like action based models. So I I've seen
+9:41 a tactic a lot of developers or just AI
+9:44 prompt that an engineers use is they
+9:46 have a very big task or complex problem
+9:49 and they'll get a thinking model to
+9:52 actually come up with a plan to execute.
+9:54 Mhm.
+9:54 Then switch over to a Gent model and
+9:56 then actually execute on it.
+9:58 Makes sense.
+9:58 Yeah. Yeah. And it works really really
+10:00 well. So you can kind of pass this pass
+10:02 these models through.
+10:03 So
+10:05 going back to our UX team. So, I just
+10:08 had my UX agent right now taking
+10:09 screenshot of of our browser here and um
+10:14 you know displayed a a screenshot and
+10:17 what it did in here is um it has a yeah
+10:20 a screen capture of what our landing
+10:22 page looks like
+10:23 and I actually prompted so I have a
+10:25 custom mode here that is specifically
+10:28 focused on design and growth and I'll
+10:32 say based on the screenshot provide some
+10:34 examples on how you would improve this
+10:36 or give me some you know recommendations
+10:37 on what split tests to run. So I can say
+10:40 you know uh reference the screenshot and
+10:44 provide an outline of you know UX growth
+10:48 suggestions and AB tests
+10:50 and why do you think you know doing this
+10:53 within cursor is better than let's say
+10:55 chat GPT or something like that
+10:57 it's a closable system right so put
+11:00 yourself in the shoes of a developer or
+11:02 designer that is building a landing page
+11:05 directly within cursor using custom code
+11:07 they now have access to MCPs that can
+11:10 run all these tasks in parallel for them
+11:12 without actually having to work with
+11:14 other people or having to switch tabs
+11:16 and go somewhere else. So if I'm looking
+11:18 at my landing page, I want instant
+11:20 access to my website traffic data. I
+11:23 want um access to the the screenshot of
+11:26 the web page and just get an agent to
+11:28 actually get those feedback for me and
+11:29 then use that feedback to make the
+11:31 changes to the code itself. So I can use
+11:33 this output right here to say okay based
+11:35 on this output start making changes to
+11:38 the landing page
+11:38 right you know
+11:39 that's crazy.
+11:41 Yeah. So what we have here is
+11:44 essentially a complete comprehensive
+11:47 review of like what to change in the
+11:49 hero section. You know add social proof
+11:53 video testimonial above the fold you
+11:55 know user funnel assessment and some you
+11:59 know suggestions on what to run for
+12:01 split split test. And this is like
+12:04 good. This is good advice.
+12:06 Yeah, it's it's solid advice.
+12:08 Solid advice.
+12:09 Yeah, it's solid advice. Yeah,
+12:10 like you know, our current our current
+12:12 homepage says oneclick analytics.
+12:14 Yeah.
+12:14 U and it says AAA conversions in 60
+12:17 seconds. I mean, that's pretty good.
+12:18 Like Yeah. Like I'm I'm I'm intrigued,
+12:21 you know.
+12:21 Yeah. You're like say more.
+12:22 Yeah. Yeah. I'm I'm curious. So and you
+12:25 know and um it gives you some
+12:27 implementation notes and you know I can
+12:30 for example right now reference um
+12:33 another MCP our own MCP. So we dog food
+12:36 here you know we we have a humbolytics
+12:39 MCP we say um refer to humbolytics MCP
+12:43 and get summary insights and
+12:46 it'll connect to our uh analytics MCP
+12:49 and actually call all the key metrics
+12:52 and insights that we have and I can use
+12:53 this as context
+12:56 to inform our design decisions. So I can
+12:59 say use this now you know revise this UX
+13:03 review based on the insights that you
+13:04 have right here. So like it's saying us
+13:06 user journey insights, you know, our
+13:08 traffic and engagement metrics, traffic
+13:10 sources, and what the opportunities are
+13:11 to actually grow it.
+13:12 It's interesting. I saw like Brazil is
+13:14 your number one traffic source. It's
+13:16 like,
+13:17 you know, why why, you know?
+13:18 Yeah, that is a good question. Yeah.
+13:20 Why? Why is Brazil I mean,
+13:22 surprisingly, we have a lot of Brazilian
+13:23 customers, a lot of Brazilian um
+13:25 startups, high growth startups actually
+13:26 that use use our services. And um
+13:29 yeah, like it's interesting,
+13:30 but it's interesting, right? cuz you you
+13:32 probably you might have missed that,
+13:34 right?
+13:35 And this allows you to see it and then
+13:37 you can ask further questions and kind
+13:39 of,
+13:40 you know,
+13:41 get more context.
+13:41 Get more context.
+13:42 Get more and like you know the issue is
+13:43 is like I think
+13:46 we're moving towards LLM as the
+13:49 interface for everything. Right. Instead
+13:52 of me having to go to our app,
+13:54 what's the browser? LMS are the new
+13:56 browser.
+13:56 Exactly. Exactly. Yeah. So instead of
+13:58 having to open up our app to say like,
+14:00 oh, how many page views did I get today
+14:02 or in the last seven days,
+14:04 it's I'm by speaking to it, I'm already
+14:07 seeing that. And I think over time,
+14:08 we're going to see generative UI where
+14:11 it's like, okay, cool. Now create a UI
+14:12 based on that,
+14:13 you know.
+14:14 Yeah.
+14:15 And I think we can we can get a sense of
+14:18 that as well where it's like, okay, I
+14:20 want to show this to my team members and
+14:21 say, hey, like here's all the key
+14:23 insights you need to know. So, you know,
+14:26 we have our page views here, our GE
+14:28 geographic distribution and traffic
+14:30 trends that I can just quickly share
+14:32 with our team.
+14:34 Amazing.
+14:35 Yeah. So, at this point, we've covered
+14:39 finance. We know we know how much we're
+14:41 spending and how much money we're
+14:42 making. We know our growth and we've
+14:44 also done a comprehensive UX analysis.
+14:47 Where where do you want to go next? We
+14:49 have QA and sales and marketing. I mean,
+14:51 probably sales because, you know, it's
+14:54 important.
+14:55 All right. All right. Okay. Cool. Let's
+14:57 do that. So, how do we get to creating
+15:00 email templates and actually automating
+15:03 our sales outbound process? I'm going to
+15:06 walk you through this. I use my favorite
+15:08 favorite favorite MCP, which is
+15:09 Firewall. And um for you know for the
+15:13 audience that might not know what
+15:14 Firewall is um it's a great tool that we
+15:17 use essentially to have agents run in
+15:19 the browser to scrape content. And
+15:22 what's interesting is you can actually
+15:23 create uh context files.
+15:26 And these context files are really
+15:27 relevant when it comes to actually um
+15:30 being able to inform your LLM about what
+15:34 it is you're talking about. So we have a
+15:37 Humbolty LLM.ext text file that comp
+15:40 that is very comprehensive around
+15:42 everything product is how much it costs
+15:44 what it is who our ICP is and you can
+15:47 use um firecrawl to actually generate
+15:50 that file for you uh to scrape
+15:53 humbolytics.com for example and it'll
+15:56 scrape all the content that's on that
+15:59 website to create that LM text file for
+16:01 you and you use this as context for any
+16:03 task you want to get done
+16:05 any any questions so far
+16:06 I mean Not so far.
+16:09 Not so far. Okay.
+16:10 Clear. Crystal clear so far.
+16:11 Crystal clear. Perfect. So, we use this
+16:13 context file and um we have an MCP that
+16:18 we run to actually get our um keyword
+16:22 data as well. And we use this as an
+16:25 input between what we've scraped and
+16:28 what we have in the keyword data to
+16:30 start creating both sales and marketing
+16:32 content.
+16:32 Okay. Um so what I can do for example is
+16:35 say you know based on the keyword data
+16:38 based on the LM file that you know James
+16:40 covered last time in the sess in the pod
+16:42 as well um create an article based on
+16:47 this XYZ topic. So I can essentially run
+16:49 an MCP say use perplexity
+16:52 MCP to research top you know split
+16:56 testing tools and refer to Humbolytics
+17:02 context file and the keyword data to
+17:05 generate an article.
+17:06 Mhm.
+17:08 And what this does is you have an agent
+17:09 that will go use Perplexity MCP to
+17:12 actually run a deep search on a topic
+17:15 that you want and then use the keyword
+17:18 data that you've already gathered to
+17:19 create a very comprehensive article with
+17:21 keyword um like keyword good keyword
+17:24 density and so on. So you can even use
+17:26 like content templates that I've created
+17:28 myself like best product in year, best
+17:30 competitor, how to do you know a thing
+17:32 and it'll create an article that's quite
+17:36 accurate. Mhm.
+17:38 Typically, when you ask LM to write an
+17:39 article, you'll see sometimes it
+17:41 hallucinates.
+17:41 Yeah.
+17:42 When you're using MCPs like Plexity and
+17:44 Firewall,
+17:46 you can use as a way to cross reference
+17:48 cuz it's scraping relevant information
+17:50 that's up to date.
+17:51 Mhm. I noticed both you and James used
+17:55 perplexity MCP for deep research. Is
+17:58 that like the what people should be
+18:00 using?
+18:00 I think so.
+18:01 Yeah.
+18:01 Yeah. I think you know across the board
+18:04 you have firecrawl, perplexity and exa.
+18:06 Exa
+18:07 yeah.
+18:08 Uh exa is great when it comes to
+18:09 accessing data sets.
+18:10 Yeah,
+18:11 firecrawl is great for scraping data.
+18:13 Yeah.
+18:13 But I think Perplexity their prompt and
+18:15 their approach to search is probably the
+18:17 best.
+18:18 And for Exa data sets like what would be
+18:19 an example of a data set that you might
+18:21 want?
+18:22 Um find me a list of um like five
+18:25 companies in the construction software
+18:27 space.
+18:27 Yeah. You know, it'll go by category,
+18:29 industry, the type of companies,
+18:31 revenue, number of employees,
+18:33 and from a like how much do these
+18:35 services cost? Do you know like off top
+18:37 of your head?
+18:38 I just I I just put my credit card. I'm
+18:40 like, I'll let the vibes take care of
+18:41 it. I wish I knew. I'm like the ROI.
+18:44 Like, are we talking like tens of
+18:45 dollars, hundreds, thousands?
+18:47 I mean, so Firecrawl specifically, um, I
+18:51 think I pay like $9 or $19, but Exa when
+18:54 it comes, they have a pay pay as you go
+18:55 service. And then, you know, we're
+18:57 talking like $5, $25,
+18:59 right?
+18:59 Which is
+19:00 compared to the time you put into it is
+19:03 the opportunity cost is insane. Yeah.
+19:05 Okay.
+19:05 Yeah.
+19:06 Cool.
+19:06 Yeah. I, you know, I'm I'm a vibe coder
+19:08 and I'm also a vibe spender. Like just
+19:10 just take the card. Yeah.
+19:12 Yeah. Um, so an example of this, you
+19:16 know, if we had, you know, run the
+19:17 Plexity search, um, I created an article
+19:20 on the top tools. Um, it has the right
+19:24 keyword density. So what this will look
+19:25 like is something like an article like
+19:27 this. So it has um you know it's it's
+19:32 prompted in a way to give me suggested
+19:36 alternative titles, metad descriptions,
+19:38 keywords, content statistics and article
+19:41 summaries. And how this works is by a
+19:44 very customized mode within humb uh
+19:47 within um within cursor. You can
+19:49 actually create custom modes. Have you
+19:50 have you used those before?
+19:51 No, I haven't.
+19:52 Yeah. Yeah. So, custom modes, um,
+19:54 they're essentially specialized agents.
+19:57 You can assign the model, you can assign
+20:00 a shortcut key if you wanted to, and
+20:01 then also access the tools. But what's
+20:03 really interesting is the prompt. So, I
+20:05 have this prompt right here. I'll show
+20:07 you actually um
+20:11 where it's it specializes in generating
+20:15 comprehensive product requirement
+20:16 documentation.
+20:18 So, you're an AI specializing in
+20:19 creating PRDS. Here's how you should
+20:22 approach it. Um, here's the key features
+20:24 you should keep in mind. Here's how you
+20:25 should map out the directory of
+20:27 how do I copy this?
+20:29 Um, you can
+20:30 or do I need to do it myself?
+20:32 You can do it yourself. Definitely you
+20:33 can you can use an agent to prompt it to
+20:36 create a prompt for you which is
+20:37 possible. But I also share these
+20:39 resources online and I have an access to
+20:41 this prompt as well. Okay. Thank you.
+20:42 Yeah. Yeah. Yeah. Yeah. But it's also
+20:44 good because it gives you um like
+20:45 mermaid diagrams which is key.
+20:47 Yeah.
+20:47 For a lot of agents to be able to follow
+20:49 the data flow. Um, and you know there's
+20:52 other great tools.
+20:53 Explain what that is for people.
+20:55 Yeah, for sure. Um,
+20:57 so memory diagrams are essentially
+20:59 visual diagrams or flows for like in
+21:02 most cases used to to v visualize
+21:05 architecture, right? Or data flows and I
+21:08 think it's now in my opinion a big
+21:12 factor for providing context to agents
+21:15 to actually understand the data flow. So
+21:17 I'll say like you know I can show you an
+21:18 example where create an example
+21:22 mermaid diagram for a job board
+21:26 showcasing the flow between an employer
+21:32 posting a job and admin reviewing it. So
+21:36 what this does essentially is it helps
+21:38 you map out what that flow will look
+21:40 like. And I think the key part around
+21:42 vibe coding in general is you're the
+21:44 architect. you're guiding it. Clawed
+21:47 code is great in terms of you prompting
+21:49 it and it goes and does it for you. But
+21:50 with cursor, I think the differentiation
+21:52 is you're still the driver in the seat
+21:53 and you have a co-pilot. It's going to
+21:55 do it for you.
+21:56 Yeah. Yeah.
+21:58 Or you're the co-pilot actually and the
+22:00 driver is doing it for you. So this is
+22:01 what a mermaid diagram looks like. So it
+22:03 can actually map out exactly what the
+22:06 flow will look like if you were to build
+22:07 an app. So I wanted to have a a job
+22:09 board that um where employer can go in
+22:13 access a dashboard create a job posting
+22:16 fill the information
+22:19 and then as a user or as an admin I want
+22:22 to access this. So this is quite
+22:24 complex.
+22:24 Yeah.
+22:25 Right.
+22:25 So imagine like if if I was a a product
+22:28 manager at a startup or a company I'd
+22:30 probably have to do a lot of this before
+22:32 LMS with hand.
+22:33 Yeah.
+22:34 Like manually doing this. So now you can
+22:35 just get a mermaid diagram directly in
+22:37 here and it has all all the mapped out
+22:40 for you.
+22:40 Yeah,
+22:42 I used to do those by hand. Like I was a
+22:44 product manager so
+22:46 Yeah.
+22:46 Yeah.
+22:47 Yeah. It's not fun. It
+22:48 sucked. It's like I I do not like doing
+22:51 this at all. Like it's it's not fun at
+22:52 all. Um and I think that's where where
+22:54 it gets interesting to like talk about
+22:56 cursor. Even if you're not building a
+22:58 product, but if you're if you're a PM or
+23:01 you're a researcher, cursor can be the
+23:04 interface for you to actually just do a
+23:05 lot of this work and use use as a
+23:08 process to hand over to whatever it is
+23:09 that you're doing. So, as a PM, you can
+23:11 create PRDS.
+23:13 You can do these flows and have it
+23:15 focused on your work.
+23:16 Yeah.
+23:16 You don't have to be building a business
+23:18 100%.
+23:18 But ideally, you should be obviously
+23:20 building a business. But yeah,
+23:21 that's a separate conversation.
+23:22 Yeah. Yeah. Yeah. Yeah. But um but the
+23:25 the net of it here is like you can you
+23:28 you know I created these folders to show
+23:30 that like you can essentially have all
+23:31 these different functions within both
+23:33 your business and the work that you're
+23:35 doing to to show what's possible right
+23:37 even if you're a QA agent for example
+23:40 you can create um you know
+23:42 QA's it's it's the least like
+23:46 interesting on the surface but it's so
+23:48 important right
+23:49 very important
+23:50 so so important
+23:52 and I think what's interesting is like
+23:53 if You have a test plan.
+23:54 Yeah.
+23:54 You can use something like browser base
+23:56 or playright to say look at this test
+23:59 plan.
+24:00 Yeah.
+24:01 And start acting on like start doing it.
+24:04 So I can actually get you know playright
+24:07 to follow this test plan to say go do
+24:10 this, go do that.
+24:11 Crazy.
+24:11 Yeah,
+24:12 that's crazy.
+24:14 We have you know for our app right now
+24:16 we have a lot of a QA done with aentic
+24:18 browsers
+24:19 and it works
+24:20 and it works and it completely works. So
+24:22 like I can for example go in here and
+24:25 say you know like go to humbolytics.com
+24:29 using playright
+24:32 uh MCP and click on login for example
+24:37 and
+24:39 you know hopefully it works in this de
+24:41 you know you know they say there's a
+24:42 saying do a demo lose a sale I'm not
+24:44 trying to sell you on anything but in
+24:45 most cases um we'll see cuz sometimes
+24:47 you have models that break and they
+24:48 don't use MCPS properly but um
+24:50 even if it doesn't work. I'm happy
+24:52 because it shows that things break
+24:56 sometimes. Absolutely.
+24:57 And that's totally normal.
+24:58 It's completely normal. And I think part
+25:00 of it is chances are the model is not
+25:02 the right model you're using or your
+25:04 prompt's not right or just something
+25:05 broke with the cursor and you just need
+25:06 to try it again.
+25:07 So, um, as this is loading, oh, there we
+25:11 go. So, it should open my browser right
+25:13 now and navigate to the page. Oh, there
+25:18 we go.
+25:20 Okay. Okay. So, it says, "Oh, the page
+25:21 is loaded successfully. There's a
+25:23 login."
+25:24 Crazy.
+25:25 And it should click it. There you go.
+25:27 Oh my god.
+25:28 So, I can say, you know, fill it out uh
+25:30 fill it in with
+25:33 an example email. Now, if I wanted to, I
+25:36 can refer to that QA plan that we had
+25:38 and say, "Hey, go through the step by
+25:39 step."
+25:40 Right?
+25:40 So, I just put a it just automatically
+25:42 typed in a a user example.
+25:44 This is magic, man.
+25:45 And it, you know, you know what's crazy?
+25:46 It passed the capture.
+25:49 Captions don't work anymore, right, in
+25:50 this world?
+25:51 I don't think so. I'm not too sure. I'm
+25:52 not, you know, I think we just we just
+25:54 showed that AGI is possible.
+25:57 Yeah,
+25:57 it's true.
+25:58 So, so you can actually have complete
+26:00 automated
+26:02 uh QA testing in here.
+26:04 Incredible.
+26:05 As you're building your app, have an
+26:07 agent spin up. I mean, that's why I
+26:09 wanted to have you on on the pod is just
+26:11 to show like I I had heard that
+26:16 you showed James the boring marketer how
+26:20 you use cursor.
+26:21 Yeah.
+26:22 And after
+26:24 after you did that, he has never been
+26:26 the same.
+26:27 And I'm having that same visceral
+26:29 experience right now where I'm looking
+26:30 at how you're running your business on
+26:32 top of cursor.
+26:34 And it makes me feel like like I use
+26:36 actually zero for example for for
+26:39 accounting. Our our company uses it
+26:41 and I hate logging in
+26:43 and I'm constantly asking our finance
+26:45 person XYZ.
+26:47 Um and all these little tasks that could
+26:49 be programmable. Um and I think the
+26:52 reason why I don't use cursor for a lot
+26:55 of these things is a bit as a
+26:56 non-technical person it's a bit
+26:58 overwhelming.
+26:58 Absolutely. So, like what do you say to
+27:00 to someone who looks at this IDE and is
+27:04 like a bit overwhelmed? Yeah. You know,
+27:07 cuz James was James was that person 3
+27:10 weeks ago. Yeah.
+27:11 And now he's like fluid, right?
+27:13 Yeah. N is is out the window. He's a big
+27:15 N guy. I'm like, yeah, we need to we
+27:17 need to check the market share of N cuz
+27:18 I think we had an impact here. But no,
+27:20 absolutely. I think
+27:21 it's it's totally natural to feel that
+27:22 way. Yeah.
+27:23 Um I think I would actually have a very
+27:26 contrary intake to that to say open up
+27:28 cursor and try to build your own app cuz
+27:30 once you get over that gap of knowing
+27:32 how to deal with the interface, how to
+27:34 use the terminal on those command lines,
+27:37 you can then go ahead and do all these
+27:39 other tasks in a breeze, right? So if
+27:42 you get the hard part done, you can
+27:43 actually do all this. But it's totally
+27:45 natural to feel that way. And if some
+27:46 people don't want to build their code in
+27:48 there, it's okay because the intended
+27:49 use case of cursor was is not for these
+27:53 kind of tasks,
+27:53 right?
+27:54 I think because I have more of a
+27:56 development develop per mindset first is
+28:00 like, okay, how do I just keep it all in
+28:02 here? I'm also very like OCD and like to
+28:03 have things very clean and simple. Like
+28:05 a lot of my friends make fun of me for
+28:07 how simple my sidebar is and like
+28:09 or your dock too. I notic that.
+28:11 Yeah. Yeah. I got nothing in here. Yeah.
+28:12 I'm like I just need to keep things very
+28:14 simple here. So, if I can keep things in
+28:16 one place, I'm honestly a little bit of
+28:19 that rooted. I was like, "Okay, cool. I
+28:20 just want to see how far I can take this
+28:22 in cursor."
+28:23 Yeah.
+28:24 Well, it's cool cuz I I I guess I've
+28:25 never really seen anyone use cursor like
+28:27 this. So, is there anything else you
+28:30 want to you want to show or
+28:32 um I think we've covered it, right? We
+28:33 we essentially uh covered marketing,
+28:36 finance, design, analytics. Where I
+28:38 really end this off is like for anyone
+28:39 that wants to start off is just open up
+28:41 cursor and work with just dropping a
+28:44 file in there and interacting with that
+28:46 file and then install an MCP. See how
+28:48 far you can go with MCP. Then work
+28:50 backwards to say what can I achieve?
+28:52 What is a task or outcome? I want to,
+28:53 you know, in this case just get a list
+28:55 of all the invoices that I have to open
+28:57 to pay for. I'll include where to find
+29:00 you and and get all your great content
+29:02 online in the show notes and
+29:04 description. I'll also include a link to
+29:07 Humbolytics in the in the description
+29:09 for people who want to check that out.
+29:11 Thank you for being so generous with
+29:13 your sauce. We appreciate it. This is an
+29:15 audience that appreciates Yeah.
+29:17 your like this type of sauce. So, thank
+29:19 you so much for sharing.
+29:21 Oh, I'm glad. Thanks so much. Thanks for
+29:22 having me.
+29:22 All right.

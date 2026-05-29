@@ -1,0 +1,218 @@
+Redesigning Websites with GPT-5.5 & Images 2.0
+
+0:00 Hey guys, now GPT 5.5 is finally here.
+0:03 And with this great leap forward from
+0:05 OpenAI, this insane next step towards
+0:08 the inception of AGI, I really don't
+0:10 feel limited by what this model can do.
+0:12 I actually feel limited by what I can
+0:14 imagine. And just to show you quick
+0:16 little example of what you can build
+0:18 with this. This is an example built by
+0:19 Pietro Schirano, who's the founder of
+0:20 Magic Path. He built this time machine
+0:23 where you can prompt out the moment in
+0:25 time where you want to go, and Codex
+0:27 using GPT 5.5 and the new image model
+0:31 will basically create this panoramic
+0:33 view trapped in time in the specific
+0:35 moment. Not only that, I've seen posts
+0:37 by other people like Jake Soft Servo
+0:40 creating a robot arm with GPT 5.5. So,
+0:43 as you can see, you have like these
+0:44 different configurators on the right.
+0:46 It's 100% generated in Codex. And he
+0:49 says a similar result would have taken
+0:50 me weeks stitching half a dozen tools
+0:52 together. But something that really got
+0:53 me interested and what really inspired
+0:55 me to create this video was using GPT
+0:57 5.5 to build a landing page for product
+1:00 and creating the images with ChatGPT
+1:03 images 2.0, which is their new model,
+1:05 and animating these specific images with
+1:08 C dance. And it's not just this example
+1:10 that caught my attention. I've seen a
+1:11 couple of other ones as well. I just
+1:12 want to use this time in today's video
+1:14 to explore what we can do with GPT 5.5
+1:17 and web design in general. So guys,
+1:19 without further ado, let's go ahead and
+1:21 get started. So first thing I like to do
+1:22 here is I always want to create a new
+1:24 folder, and we're going to name this
+1:26 one. We're going to call it GPT 5.5
+1:29 designer. And we're going to open up
+1:30 Codex and choose our project using
+1:33 existing folder. To get started, I'm
+1:34 going to be using this prompt that
+1:37 you know, shout outs to Anton Guilds for
+1:39 making this. Anton is a really great
+1:40 designer in my community. And if you
+1:41 guys want to join my community, my
+1:43 Discord community, feel free to join
+1:45 that link down below. We get together
+1:47 every single weekday to talk about
+1:48 different tools and topics. So, you
+1:50 know, if you guys are interested, you're
+1:51 free to join. So I'm going to get this
+1:53 prompt, copy this. So over here on the
+1:55 left we have Claude running on Opus 4.7
+1:58 with an extra high effort setting. And
+2:01 over here we have on the right side we
+2:02 have Codex using the same exact prompt,
+2:05 but running on GPT 5.5 also with an
+2:08 extra high intelligence setting. So we
+2:11 can go ahead and submit both of these.
+2:13 And so on the left we get what Claude
+2:15 gave us. And on the right is what Codex
+2:17 gave us. And you can see if I scroll
+2:19 through this really quickly,
+2:21 it gives us a nice design. I don't know
+2:22 if it's better than the one for from
+2:24 Claude code and you know, to start off
+2:26 with, but you can see that this is a
+2:28 really nice over here. Um
+2:31 everything else looks pretty solid. And
+2:33 the Claude one, let's see. Let's open it
+2:35 up. Actually, this one is a little bit
+2:37 worse than the other one, than the Codex
+2:38 one. All in all, I actually like the
+2:40 Codex design much more, but there are
+2:43 different ways to improve your design
+2:44 here. And so there's this skill
+2:47 called the taste skill. And we can go
+2:48 down here and you can copy this command
+2:51 to
+2:52 install the CLI in Codex. I can say
+2:55 install the taste skill. And so this
+2:57 skill comes with different commands. So
+2:59 the taste skill GPT taste, taste skill,
+3:02 we have redesign skill, and you can kind
+3:05 of read through the description of each
+3:07 one. I, for example, will try try this
+3:09 out with the redesign skill. All right,
+3:10 so let's install that GPT taste skill
+3:13 from GitHub. So all we have to do is
+3:14 restart Codex to pick up the new skills.
+3:16 And then I can go ahead and type taste
+3:20 and use that GPT taste skill and say
+3:23 let's redesign
+3:25 this site. And just like that we get our
+3:27 site redesigned like this. Um very very
+3:31 nice interesting background that it
+3:32 chooses an image.
+3:34 The recorded transcript and post editor
+3:36 sit in one continuous workflow. And now
+3:38 we have this kind of weird transition
+3:41 with the Bento, but it's interesting.
+3:42 I'm just going to see what else we got.
+3:44 This nice little sticky scroll over
+3:46 here.
+3:47 The text kind of fades in like so. That
+3:49 looks interesting.
+3:52 We have these like nice little hover
+3:53 interactions for this section.
+3:55 Clear cast made our customer calls
+3:57 useful twice. First for research, then
+4:00 for distribution. The post still sound
+4:02 human because the source is clean. And
+4:04 we have this section down here. Looks
+4:05 pretty cool. You have the text. We have
+4:07 this image. Kind of reminds me of like
+4:09 some type of framer template. And I
+4:10 mean, if you compare it to the old site,
+4:12 which is this one, again, I'm just going
+4:14 to show you how that looks. I really
+4:16 like the redesign that they that I did
+4:18 over here. I like the the new Bento grid
+4:21 more. It looks less AI generated, I
+4:23 would say with the skill. There are
+4:25 still a few things like I don't like
+4:26 this screw
+4:27 There are little details that that
+4:30 I don't really like. For example, this.
+4:32 And let's try to fix that now. And now
+4:33 Costel Matrescu, who is in my community,
+4:36 gave me this image. Very very nice
+4:38 section with these gradients in the
+4:39 background. And what I would try to do
+4:42 is I would use a new image two model
+4:44 from GPT to redesign this based on the
+4:47 context of my landing page and then get
+4:50 that result, feed it into Codex and try
+4:52 to see what happens. So I can say
+4:53 something like this is an image of a
+4:54 section in a website. Can you redesign
+4:56 it as an image based on the following
+4:58 prompt? And this is the prompt that I
+4:59 used in the beginning to generate this
+5:01 site. And we get this output, which
+5:02 looks pretty interesting. And then I
+5:04 would want to replace that over here.
+5:06 All right, so now this isn't even done
+5:08 yet, but it's looking much much better
+5:11 and something I really want to get rid
+5:12 of is this over here. So what I'm going
+5:14 to do is I'm just going to go over here
+5:17 and click on annotate. And then we can
+5:20 click on this and we can say delete
+5:22 this
+5:23 and just click on enter and submit. And
+5:26 after
+5:27 maybe less than a minute, it gets
+5:29 deleted. And going back into Pinderes,
+5:31 we can look at more types of image
+5:34 examples like maybe something like this.
+5:37 And then again, paste that into ChatGPT.
+5:39 Then you can say something like replace
+5:41 the background image of the truck in the
+5:43 desert with this image. You just attach
+5:46 that image that you got generated from
+5:47 ChatGPT. And we get our nice image in
+5:50 the background. I still think it's kind
+5:52 of like it's too static. So in this case
+5:54 we can use something like C dance to
+5:57 animate this image. I'll create like an
+5:59 8-second animation 16 by 9. Use model C
+6:02 dance 2.0. I can say something like
+6:04 slowly animate the sound waves. Let's
+6:05 see what we get. And while that loads,
+6:07 in the meantime I found this little
+6:09 Bento grid over here. And again, using
+6:11 ChatGPT, basically asking it to redesign
+6:14 this Bento grid with the context of my
+6:16 site. And then saying redesign this
+6:18 Bento grid based on the attached image.
+6:20 Back here we get this animated gradient.
+6:22 It has sound, so I'll probably
+6:25 ask it to take the sound away. All
+6:27 right, so here we get our nice little
+6:28 Bento grid or like new grid I would say
+6:30 that we generated from ChatGPT. And I
+6:32 can say something like replace the
+6:33 attached video with a background image
+6:35 of the hero section. All right, cool.
+6:37 Now we're getting that little video in
+6:38 the background of the hero section. And
+6:40 then finally we get a new site with a
+6:41 nice video background, clean hero
+6:43 section. We can scroll down here. We get
+6:45 this new section over here. Get this
+6:47 nice text fade in. We get this nice
+6:49 section that kind of describes what this
+6:51 app does. And then we get a very simple
+6:53 footer at the end. So that's it, guys.
+6:55 That's pretty much the whole video
+6:56 testing out GPT 5.5 with web design. Let
+7:00 me know what you guys think. If you have
+7:01 any comments or questions, also please
+7:03 let me know down in the comments below.
+7:04 And if you guys have been experimenting
+7:06 with Codex and GPT 5.5, please feel free
+7:09 to share what you're building. Again, I
+7:10 have that Discord community down below
+7:12 and you can join that and share your
+7:13 work. And like always, thanks so much
+7:15 for joining. Hope to see you next time.
+7:17 Goodbye.

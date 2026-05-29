@@ -1,0 +1,1233 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=522lUI2GVJA
+Channel: Riley Brown
+Video ID: 522lUI2GVJA
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 Can a Vibe Coder make a better app than
+0:02 a senior iOS engineer. Today we're going
+0:05 to put this to the test again. Let's see
+0:08 who can build a better app. Let's do it.
+0:10 All right. I, Riley Brown, a Vibe Coder,
+0:13 am taking on the best senior engineer
+0:16 that I know. And we're going to see who
+0:17 can make a better app in 20 minutes. No.
+0:22 What is that? So, we're creating one
+0:23 super app that uses AI to count calories
+0:26 from a single photo. It calculates the
+0:29 best possible response in dating apps
+0:31 from a single screenshot. And then the
+0:33 last one will calculate your
+0:34 attractiveness using AI. At the end,
+0:37 when you see the final results of the
+0:39 apps that we created, please vote down
+0:41 below. We're going to be selecting five
+0:43 people to give $1,000 worth of credits
+0:46 to the Vibe Code app for those who vote.
+0:49 And in the pinned comments below, you'll
+0:50 see who won the $1,000 from the previous
+0:54 video. This is going to be a really fun
+0:56 competition. Let's go ahead and dive in.
+1:00 Okay, in our last video, I a vibe coder
+1:04 went head-to-head with Vashall and we
+1:06 competed to see who could build a mobile
+1:08 app and everyone wanted us to do it
+1:11 again since everyone demanded that we
+1:13 take the handcuffs off uh the senior iOS
+1:16 engineer.
+1:17 >> No handcuffs.
+1:18 >> No handcuffs. And allow you to edit the
+1:20 code, basically do anything you want.
+1:22 We're not going to do this promptbased.
+1:24 We're going to do this in four rounds
+1:26 each. So today we're going to be
+1:28 attempting to build a super app. And so
+1:31 this is going to be three popular apps
+1:33 that do a combined 50 million in
+1:35 revenue. And we're going to combine them
+1:36 into one single app. And we're each
+1:39 going to have 20 minutes to do so. And
+1:41 so the first round will be me for 5
+1:43 minutes. Only I can work. I can use any
+1:46 tools I want. And then you're going to
+1:48 do the same thing. And I cannot work
+1:50 while you're working. You cannot work
+1:51 while I'm working. So hands
+1:53 >> I can do whatever. I can write my own
+1:55 code. I can look up documentation
+1:57 >> and I'm allowed to write my own code.
+1:59 Unfortunately, I don't know how, but
+2:02 that's okay. I'm better at using AI than
+2:04 you probably.
+2:05 >> So, um, yeah, that's the game. So, in 20
+2:08 minutes total for each of us, we're
+2:10 going to see who can get closest to
+2:12 building these three apps right here.
+2:14 So, Calai, RZ, GPT, and UMAX, which are
+2:17 basically an AI powered calorie tracker.
+2:20 an AI powered um what's risbt?
+2:23 >> Um you can upload screenshots and it'll
+2:26 tell you what to say. AI um wingman.
+2:29 >> So like you can take your screenshots of
+2:30 like Tinder or something and it'll tell
+2:32 you what to say. Um and then UMAX is you
+2:34 take a photo of yourself and it tells
+2:36 you if you're attractive or not.
+2:38 >> Yeah. How to get better.
+2:39 >> And so we're going to see who can
+2:41 combine these into one single app in 20
+2:44 minutes. Yep.
+2:44 >> I guess let's just start the timer. And
+2:47 uh yeah, so last time I let Val go
+2:49 first. Today I'm gonna go first. Okay.
+2:51 And one of the requirements is that you
+2:53 have to explain your stack as you work
+2:56 in the first five minutes. Other than
+2:57 that, let's see who can build a better
+2:59 app.
+2:59 >> Let's do it.
+3:00 >> All right.
+3:00 >> May the best man win.
+3:02 >> May the best win.
+3:05 >> All right. Three, two, one, and begin.
+3:10 Okay.
+3:11 >> So, here's my plan. I always start in
+3:14 Excaladraw. And so, we are creating,
+3:16 right? Okay, we're creating these three
+3:18 apps right here. And I'm just going to
+3:20 kind of write out my thoughts here. So,
+3:24 I want to create I want you to get out
+3:27 of here. We are going to be uh creating
+3:30 an app that combines Cal AI, RZ, GPT,
+3:35 and UMAX. I don't know how to I think
+3:39 that's how you spell 1x 1x.
+3:41 >> Okay. Are you sabotaging me? Um, the
+3:43 home screen is Cal AI, which allows me
+3:46 to take a photo of food, and it will get
+3:48 all of the calories just like Cal AI
+3:50 does, and it tells me the macros, the
+3:52 calories, etc. But there's another tab
+3:55 that allows me to do the a tab that says
+3:58 Riz, and then there's a tab that is
+4:01 called hot. Just to be clear, three
+4:03 tabs. Tab one is Cal, two is RZ, three
+4:09 is hot. All of these are AI image apps
+4:12 that the AI model GPT40 that we're going
+4:17 to be using to analyze images should
+4:20 similar to the apps Calai RZ AI and UMAX
+4:24 should calculate the the macros the what
+4:28 you should say to the girl that you're
+4:30 talking to or how attractive you are
+4:33 similar to the app. So the first thing
+4:34 that I want you to do is just do quick
+4:35 research on what these apps do and then
+4:38 I want you to build it. three screens,
+4:41 each one open through the bottom tab.
+4:45 What are what time? What's the time at?
+4:46 I have 2 minutes left. Okay. Yeah. Okay.
+4:48 That's what I'm going to do. So, I'm
+4:49 going to go ahead and open up the tool
+4:52 that I'm going to be using. And the tool
+4:54 that I'm going to be using is Vibe Code.
+4:56 And so, we're just going to use Claude 4
+4:59 Opus. And I'm going to paste this in.
+5:02 So, I'm going to paste my prompt into
+5:04 the app and I'm going to build this.
+5:06 Okay. Now, what I'm going to do is while
+5:08 this is loading, right, I have about a
+5:10 minute and a half left. And what I'm
+5:12 going to do is I'm just going to paste
+5:14 this into Claude and I'm just going to
+5:15 say I'm building this app. Please list
+5:19 out the core features in concise
+5:23 bullets, please. I just want to get an
+5:25 idea of what we're building after it's
+5:27 kind of done here. Do research.
+5:30 >> 1 minute left. Okay. I think while this
+5:32 is loading, I'm actually going to use
+5:34 chat GPT. I'm going to come up with my
+5:35 own custom logo or icon. It's working. I
+5:38 can't do it right now. So, what I'm
+5:40 going to do is I'm just going to come up
+5:41 with some I actually I'm going to use
+5:43 >> limited to one agent, huh?
+5:44 >> Yeah, limited to one agent for now.
+5:46 Create a 3D. Actually, I guess we can
+5:50 just create an icon. Um, all right. I'm
+5:52 going to
+5:52 >> go home and just create an icon.
+5:54 >> Totally. Oh, yeah. Actually, I could do
+5:55 that. So, yeah, the agent is loading.
+5:57 Damn it. All right.
+5:58 >> All right. So, it's it's my time. So,
+6:00 just quick background about me. I've
+6:02 been working with React Native for 5
+6:04 years now. Most recently, I was working
+6:06 at Blue Sky. You can see that's me right
+6:08 there. And Blue Sky is worth 700 million
+6:11 right now. When I joined, it was worth
+6:13 basically nothing. And I joined before
+6:14 there were any users and helped scale
+6:16 that. That's a pure React Native app. So
+6:18 today, we're going to start with a React
+6:19 Native app.
+6:20 >> Command plus bigger.
+6:22 >> Um here is the terminal, which is where
+6:25 every good engineer starts. And so I'm
+6:28 going to start by creating an Expo app.
+6:30 I'm going to create it with the
+6:32 navigation template and then let's call
+6:34 this AI super app and we've created
+6:36 this. We're using Expo which is the same
+6:39 technology that Riley's using uh along
+6:41 with React Native. This way we can
+6:43 create a crossplatform app that can work
+6:46 on Android, iOS, and even web. Quick
+6:48 break to tell you about the easiest way
+6:50 to use Claude Code and Codeex with GPT5
+6:52 and Gemini CLI all from the web. All you
+6:55 need to do is go to vibecodeapp.com and
+6:57 open up a brand new vibe terminal. And
+7:00 this is where you can select cloud code.
+7:02 Codeex is launching within the next few
+7:04 hours. And here we can choose any stack
+7:06 that we want. Here I'm actually going to
+7:07 go to gamedev and I'm going to choose
+7:09 3JS. And know now we are loading a
+7:11 template to create a highquality game
+7:14 just by Vibe Code. Here we're going to
+7:16 press continue. And now our Vive Code
+7:18 terminal is loading up. And so now you
+7:20 don't even need to do any setup. Claude
+7:22 Code is now ready to use. Please create
+7:25 a bowling simulator game in 3D and make
+7:30 it really fun. Think about the best way
+7:34 to do this and search GitHub if you have
+7:37 to just make this game great. It's not
+7:41 even really a good prompt. And now while
+7:43 Claude Code is working on this entire
+7:45 app, I can actually open up a new
+7:47 project. All I need to do is hit new
+7:48 terminal and we can open up another Vibe
+7:50 Code workspace where I can create an app
+7:52 in Nex.js. JS. Here I can say, please
+7:55 create a Slack clone with the core
+7:58 features and make it the same color as
+8:02 the Dallas Cowboys. Okay, this is
+8:06 starting to work. You see here it
+8:07 created Slacker Dallas Cowboys. And now
+8:09 we're building this app here. I can type
+8:11 hi. This is cool. Okay, it's done. So we
+8:15 have this bowling. I can hit reset. It
+8:17 says spacebar to throw ball. Okay, it
+8:20 looks like there's the ball. Wait. Space
+8:22 bar.
+8:23 Oh, let's go. I got three pins. Uh, how
+8:28 can I Oh, three pins down. Let's go. Now
+8:30 we're bowling. Let's go. All right.
+8:33 Looks like I got five pins. Let's go.
+8:36 And as you can see, we can create fun
+8:38 games like bowling using cloud code on
+8:40 the internet. And we can create a Slack
+8:41 clone at the same time. And you can do
+8:42 this with as many of these Vivecode
+8:45 terminals as you want. And you can find
+8:46 this at vivecodeapp.com/terminal.
+8:49 Now, let's get back to the video.
+8:50 >> So, here we're going to um open
+8:53 directory and we're gonna come here. So,
+8:57 let's let's take a look at how this app
+8:59 looks right now. We're going to run it.
+9:02 And while this is run running, let's
+9:05 open it up. Oh my god, my simulators are
+9:08 broken.
+9:09 >> That's part of it.
+9:10 >> That's part of the being a developer.
+9:12 >> What is a simulator? I don't even have
+9:13 to know what that is.
+9:14 >> So, I have to open the simulator. Okay,
+9:16 I have to wait for that. So, let's see.
+9:17 So we have tabs already. So I can just
+9:20 be like okay make the tabs um three
+9:23 different tabs called um cal
+9:27 was the last one.
+9:29 >> And then I can just send this to tabs.
+9:32 I'm going to use a fast model here. Uh
+9:35 okay cool. So this should work now. So
+9:38 you can download expo go in any
+9:40 simulator. You can also download it on
+9:41 your phone. For now I'm going to just
+9:43 download in the simulator. Okay. So it's
+9:45 opening my AI super app. Uh, this is
+9:47 right here. Okay, perfect. So, I have
+9:49 these tabs already. It's updating the
+9:51 tabs. It's kind of slow, so I might just
+9:52 do it myself. It looks like it's doing
+9:54 it. Okay, cool. It's done it. Cool. And
+9:56 now we can see they're all updated.
+9:58 >> So, you have three tabs of three tabs.
+10:00 Cal, raise, and um, that's amazing. It's
+10:04 updated all the tabs. I'm going to save
+10:06 all these changes. Great. Now, we can go
+10:09 into um, this layout right here. We can
+10:12 start building our first feature. Let's
+10:14 start with Ray. this the easiest. So,
+10:17 I'm just going to come here, take a
+10:18 screenshot of the screen, and I'm going
+10:20 to go to the RZ file. It's number two
+10:23 right here. I'm going to be like, make
+10:25 this page look like this screenshot.
+10:28 >> So, you're kind of starting off with the
+10:30 the way it looks.
+10:31 >> Yeah. And while that's going, I'm going
+10:33 to go get my open AI keys. I need some
+10:35 open AI keys.
+10:36 >> We'll blur this out, don't worry.
+10:38 >> Um, yep. Key. Uh, test delete. Okay, I
+10:42 got my open AI key. Create an
+10:44 environment varable.
+10:45 >> One minute remaining.
+10:46 >> This is This is like very hard to do all
+10:48 of this in like such limited time. I
+10:50 thought it'd be way easier. Oh my god,
+10:52 it's installing packages.
+10:54 This AI is dumb.
+10:57 >> Oh my god.
+10:58 >> Bro, that's what you get for using GPT5,
+11:00 bro. What are you doing?
+11:01 >> GT5 is great. I don't know what you're
+11:03 talking about, but yeah, it's kind of
+11:04 kind of stupid right now. Okay. Um,
+11:07 let's keep that going. Let's get our AI
+11:09 stuff to to work till then. So, we'll go
+11:13 search for React Native AI API. This is
+11:17 what we No, we don't want that. What do
+11:19 we want? Oh my god.
+11:22 What is um We can just use um time.
+11:26 Okay. Um it's my turn. And so, in the
+11:29 first 5 minutes, this is what we were
+11:31 able to do.
+11:32 >> That's a lot more than me.
+11:34 >> All right. All right.
+11:35 >> You want to see where I got stuck on?
+11:38 Switch the switch the page.
+11:41 You just failed to compile. All right.
+11:43 All right. You're distracting me, bro.
+11:45 Okay. Calai. Um, let's test this. Emily,
+11:48 throw me your water bottle.
+11:51 >> Um, okay. Let's test this. Okay. Spring
+11:54 water. Analyzing food. No way gets this
+11:57 problem.
+11:57 >> No way. All worked in one prompt. That
+11:59 would be crazy.
+12:00 >> Um, okay. Wait. Bottled spring water. It
+12:03 got it. All right. Riz. I am just going
+12:06 to mimic a conversation here. Uh Riley,
+12:09 >> you probably want to do it on your
+12:10 phone, right? Cuz you're going to upload
+12:11 it from your phone.
+12:12 >> I'm going to take a Oh, yeah. Upload
+12:14 screenshot. How do we do this? Um Okay.
+12:16 Um I'm going to just test the hot one.
+12:19 All right. Take selfie. Oh god, this is
+12:22 messed up. I'm going to get like a four.
+12:25 >> I mean, you made your face like that. I
+12:27 thought I thought
+12:28 >> I made my face like that.
+12:30 >> Jesus made this face.
+12:33 It just enjoys one.
+12:34 >> Oh, I didn't register in their um Okay,
+12:38 so the RZ one. I'm just going to upload
+12:40 a screenshot. I don't even know how to
+12:42 test it. I should have thought about
+12:43 that. Yeah, I'm just going to upload a
+12:45 tweet. Okay, that's interesting. I can't
+12:47 even submit it.
+12:48 >> Okay, so it's not working.
+12:50 >> Okay, so here we go. Let's fix it. Go to
+12:52 build. Okay, two big problems right now
+12:55 that we got on the RZ GPT. So the middle
+12:59 tab one, it's not quite working because
+13:02 it won't even allow me to upload a
+13:04 screenshot. After I upload a screenshot,
+13:06 there's no like submit button. So that's
+13:07 a problem. The Cali one works. So the
+13:10 first tab, do not change that one. The
+13:12 UMAX one, so the right tab, I uploaded a
+13:16 screenshot, pressed begin scan, and it
+13:18 just permanently loaded and it didn't
+13:19 really do anything. Like it didn't fully
+13:21 work. So very similar. These are these
+13:23 apps all work pretty similarly, and it's
+13:26 analyzing the photos that are uploaded.
+13:27 I want those all to work properly and I
+13:30 want to make sure that all of them have
+13:31 a submit button. Please create that
+13:34 feature for me. So we just that in um
+13:37 let's go ahead and let's go back to
+13:39 Claude for a little bit. Um let's see.
+13:40 Oh, it even created a little like
+13:42 interface for us to use. So Calai. Okay,
+13:45 so this is very useful. So now I like to
+13:47 just do some research here on the side
+13:48 just so I can kind of like check things
+13:50 off. In fact, that's exactly what I'm
+13:52 going to do here. I'm going to create
+13:53 Google Docs real quick just so we can
+13:55 get a nice little checklist of the
+13:57 things that I need to do. So, what 1
+14:00 minute left? Um, so the Calai one here,
+14:03 I guess we can just go like this and
+14:05 make them all check boxes. So, for Cali,
+14:08 um, we got photobased food recognition.
+14:10 We got that done. Automatic calorie
+14:12 counting. I forget if it does that.
+14:14 >> I think it did.
+14:14 >> Let's go to Cali. Okay. Yeah, it has
+14:17 calories.
+14:18 >> Calories. Macros.
+14:19 >> So, automatic calorie counting. Macro
+14:21 breakdown. And it has that nutritional
+14:23 insight. Water does not I think this is
+14:25 the the insight down here at the bottom.
+14:27 >> Oh yeah,
+14:28 >> it says water does not contain calories
+14:30 or macronutrients. Wow, that's great.
+14:32 Um, background processing. Continue
+14:35 using your phone while AI analyzes. I
+14:37 don't even think we need to have that
+14:38 for this first version. So RZ GBT time.
+14:42 All right, my turn. So I got to fix this
+14:44 error now. Let's just rerun this app.
+14:47 That should fix it. There we go. Okay,
+14:49 this looks good. That looks exactly like
+14:51 is GPT. So we can keep these changes.
+14:54 Keep. Keep. Cool. And now we need to set
+14:57 up the AI. So I'm going to go search for
+14:59 the React Native AIDK. Oh, here we have
+15:02 the docs here. I'll copy the docs. I
+15:04 already have the open AI key
+15:06 implemented. I'll paste this in here.
+15:07 Let's use claw now just because yeah,
+15:11 it's time to clip.
+15:14 So, I want you to set up the OpenAI SDK
+15:18 using the AI SDK following the docs
+15:21 above. So, create an API route for Expo
+15:24 and then hook that up and set it up with
+15:27 on the the RZ tab. It should I should be
+15:30 able to upload a screenshot of a
+15:32 conversation and then it should be
+15:34 giving me a pickup line based on that
+15:36 conversation. So, please implement that.
+15:39 So, that's that's good. And then I can
+15:41 also give it the screen number two which
+15:43 is for the raise tab. So while it's
+15:46 doing that I will find a uh Tinder
+15:49 converation example so I can get some
+15:53 ideas here. This looks good. I don't
+15:56 really know what it is. And oh my god
+15:58 it's installing all this stuff.
+16:02 Okay. So now it added like two lock
+16:04 file. That's like usually not a problem
+16:07 but it can become a problem. So, I'm
+16:09 just going to delete this one. And then
+16:10 I'm going to run buni cuz we're using
+16:12 bun as our package manager. And then I'm
+16:15 just going to run bun start again. I
+16:16 have an environment v.
+16:19 I already set up the environment
+16:20 variable. It's called open AI API key.
+16:23 Why did you create a new one?
+16:24 >> Oh, just keep going. Don't worry about
+16:27 the environment variable. I got it. My
+16:28 god, it's so stupid. Okay, it's setting
+16:31 that up. I can probably take a look on
+16:33 how to set it up. Let's see if I can do
+16:34 it faster. So, I need this chat plus
+16:37 API. I'll do like API. Oh, it created it
+16:40 before I could. Okay, great. It wrote a
+16:43 nice system prompt for me as well. It
+16:46 got some stuff wrong, but luckily we
+16:48 fixed it. Oh my god, why is it adding
+16:50 polyfills? Do we need polyfills?
+16:52 >> What is a polyfill?
+16:53 >> Polyfills is when a library is made for
+16:56 web.
+16:57 >> Um, and you want to use it in like a
+17:00 mobile like on React Native.
+17:02 >> I see. you need a polyfill because some
+17:04 of these uh functions are not available
+17:06 in React Native. Yeah, it seems like we
+17:09 need this. So, let's add that there. Um,
+17:11 convert to core messages. That API even
+17:13 used convert to core messages. I don't
+17:16 think it's used anymore. Convert to
+17:18 model messages is what is used now. I
+17:20 don't know why it's using this. Convert
+17:22 to model messages. Let's use that
+17:24 inside. Okay, that looks good. So, I'm
+17:26 just like checking the code here. So,
+17:28 I'm like making sure everything is
+17:30 correct cuz AI hallucinates a lot. We
+17:32 just saw it hallucinate a bunch of
+17:34 times.
+17:35 >> Mhm.
+17:36 >> Okay.
+17:37 >> Okay. 1 minute left. Okay. AI is still
+17:39 waking here. Um, could I do this faster?
+17:42 Probably not. So, I'm glad the AI is
+17:44 helping me out. Oh my god, this looks
+17:47 horrible. This code, there's definitely
+17:49 something wrong here. I hope the AI is
+17:51 able to fix it. Okay, that's correct. It
+17:53 should use expo fetch. So, we can't use
+17:55 normal fetch because expo fetch handles
+17:58 streaming whereas normal fetch does not
+18:00 handle streaming. Does that matter? Um,
+18:02 yes. But no one will really know about
+18:05 that unless you like get into like
+18:07 building these apps.
+18:09 >> Okay,
+18:09 >> time. Okay, so we're halfway through the
+18:12 battle. We're going to take a quick
+18:14 pause just to talk about it. How do you
+18:16 feel so far? You're we're halfway
+18:18 through. Um, you can't do anything right
+18:20 now or times time stopped. We've each
+18:22 gone for 10 minutes. How do you feel? Do
+18:24 you think you're on pace?
+18:26 >> Uh, no. I was pretty confident that I'd
+18:28 be able to do this, but like 5 minutes
+18:30 or like 20 minutes run way faster than
+18:33 you can imagine. And the AI makes a lot
+18:35 more mistakes than I thought I would and
+18:38 helping me out. And I could write all
+18:39 this code from scratch, but I would not
+18:41 be able to get nearly as far into
+18:44 building this as I wish I could
+18:45 >> in 20 minutes.
+18:46 >> In 20 minutes. Yeah. So, like it would
+18:48 take me at least like 2 hours.
+18:50 >> So, what is your what's your plan for
+18:51 the rest of this? like is there is
+18:53 what's your fallback strategy? I feel
+18:54 like you're going to need to pull out
+18:55 like some big guns or something.
+18:57 >> I mean, I'm I'm going to see, you know,
+18:58 my AI is still working. So, let's see if
+19:01 it um ends up otherwise I will start
+19:04 using multiple agents. I think that's
+19:06 the only way.
+19:07 >> I think it might be the only way cuz you
+19:09 have some catching up to do. All right.
+19:10 So far, just to keep everything as this
+19:12 nice little halftime here. So, we've
+19:14 each gone for two rounds. We each only
+19:16 have two rounds left. So, you have 10
+19:18 more minutes and seems like every minute
+19:20 is going to matter a lot for you. Um, so
+19:22 we'll see. Let's Should we just dive
+19:24 into the second half?
+19:25 >> Yeah, let's do it.
+19:26 >> All right. Mine's done loading. So, I'm
+19:28 just going to go ahead and let's start
+19:30 the clock. All right. We can see here
+19:32 that it made some changes here. The
+19:34 changes that we previously made were to
+19:36 the RZ. So, I can upload a screenshot. I
+19:39 got I grabbed this like Tinder
+19:41 screenshot. That was a good idea that
+19:43 I'm stealing from an And now we have the
+19:45 analyze chat button. As you can see
+19:46 right here, I can now analyze the chat
+19:49 and we'll see if we get a response. So
+19:51 we did situation. The conversation is
+19:54 about the weather location leading to
+19:56 casual suggestion. Uh response option
+19:58 witty. How about a virtual coffee date
+20:01 first? Okay. Okay. Smooth. Flirty. Pro
+20:03 tips. Watch out. So I think this is
+20:05 incredibly ugly, but the functionality
+20:07 works. So if we can just nail the
+20:10 functionality here. All right. So now we
+20:12 need to be able to take a selfie.
+20:13 >> No way this works.
+20:15 >> Behind scan analyzing photo.
+20:18 >> What API do?
+20:19 >> Two prompts. We're two prompts in. Can
+20:20 we clone at least get the core
+20:22 functionality of these apps?
+20:24 >> Yes.
+20:25 >> Wait, hold on. I actually I have a
+20:27 theory that it's because we did
+20:30 multiple. I just want to see
+20:32 >> if this works here. Begin scan.
+20:34 >> You're resetting the app.
+20:35 >> I'm just I just refreshed like shared or
+20:38 something.
+20:38 >> I don't know. I actually don't know. I
+20:40 just know, you know, I I vibe code a
+20:41 lot. Yeah. Okay. So, we are struggling.
+20:44 So, I'm just going to say, okay, you did
+20:46 a good job in that you fixed the um
+20:49 middle feature, right? The um the
+20:52 >> the RZ GPT version that gives me uh
+20:55 advice on my Tinder conversations. But
+20:57 for the analyze, the attractiveness,
+21:00 it's still not showing me anything,
+21:01 right? I take a photo myself, I upload
+21:03 it, and I press analyze or whatever, and
+21:05 it's not giving me anything below. Like,
+21:08 it's literally not there's nothing is
+21:10 happening. It loads for a few seconds,
+21:12 and then it stops. I want you to really
+21:13 think about this and I want you to get
+21:14 it to work. I really want you to focus
+21:16 on this right now. Get it to work. I
+21:19 could take a risk here because I want to
+21:20 start working on the um I think I can
+21:22 really pull ahead in the design of the
+21:25 app. Um and but I kind of want to play
+21:28 it safe. I'm actually going to play it
+21:30 safe and then I'm going to start working
+21:31 on my next prompt while it's working. So
+21:33 I entered that in. Um so we just entered
+21:36 in our third prompt here and while we
+21:38 work on this I'm going to start working
+21:40 on my next prompt. So my next prompt,
+21:43 >> you can just spend all your time
+21:44 prompting.
+21:45 >> Yeah. So um I want you to please make
+21:50 the Cal AI and Riz GPT screens after the
+21:57 analysis. How are we doing on time? 2
+21:58 minutes left. Okay, we got 2 minutes
+22:00 left. After the analysis for each, I
+22:03 want you to please make the Calai and
+22:04 RZGBT screens after the analysis for
+22:07 each screen. meaning I want it to look
+22:10 much better when after they they analyze
+22:14 the food or after it analyzes my um
+22:17 after it analyzes the screenshot. Right
+22:19 now it shows up in a super clunky
+22:21 format. I want you to make it look a lot
+22:24 better. I want you to change none of the
+22:26 functionality. I'm just talking about
+22:28 the formatting after it loads. You are
+22:30 not changing the functionality, just the
+22:32 formatting. And I'm going to give you
+22:33 some screenshots here and this should
+22:35 actually help you. Oh wow, it's already
+22:37 done. Um, I'm going to go ahead and
+22:39 refresh this. I'm going to test this
+22:42 after. I want to get this prompt in
+22:44 while we're loading because I think
+22:46 that's pretty important. Hold on. I'm
+22:48 going to get this prompt in. And I'm
+22:50 going to give us Yep. Give a screenshot
+22:53 here. I'm going to I have time to look
+22:55 up. We actually had these here. The
+22:57 UMAX. Okay. Oh, no. That's UMAX. What's
+23:01 the other one? RZ. Oh, yeah. Actually,
+23:02 just fix the calorie one to make it look
+23:05 like this. Then we can focus on the
+23:06 other ones. focus all of your attention
+23:07 and energy on making this look more
+23:09 beautiful um in the way that the data is
+23:12 shown after we analyze the food. Wow,
+23:14 we're making some crazy progress on this
+23:17 time 10 seconds. You know what? I'm just
+23:19 going to chill.
+23:20 >> You want to test that out if your app
+23:21 works?
+23:22 >> Oh yeah. I forgot which one.
+23:24 >> No one.
+23:28 >> Time.
+23:30 >> Wait, let's see if it works.
+23:31 >> Let's just see if it works. Then we'll
+23:33 start your round.
+23:33 >> Oh
+23:35 >> Seven. I'll take that. Yeah, let's go.
+23:38 >> No way. Okay,
+23:40 >> that's the best I've ever gotten. All
+23:41 right, let's um we're going to start
+23:44 Anja's round three. Um you ready to
+23:48 start the timer? 3 2 1 go.
+23:50 >> Okay, so we're ready here. Let's test
+23:52 out what this did. So I can upload a
+23:54 screenshot conversation. This the Tinder
+23:56 conversation that I dragged in below.
+23:58 Okay, error generating pickup line error
+24:00 failed to fetch. API error failed to
+24:03 fetch. Let me look at the errors here.
+24:05 It's not giving me much. Um, this image
+24:08 picker one is like Okay, wait. Cannot
+24:10 read properties undefined. Reading
+24:12 filter dot filter. What? What are we
+24:14 doing? Filter. Okay. Um, let's see how
+24:16 this works. So, we're picking an image.
+24:19 Then we're sending it to generate pickup
+24:21 line and then we're creating a B 64 of
+24:25 that image. Okay, that looks correct.
+24:27 And then, okay, fail to fetch. Okay,
+24:30 let's print out the response to get um
+24:33 some more idea. Response JSON. Probably
+24:36 want to await that. Um okay, let's print
+24:39 out the error here. I'm going to
+24:41 stringify it and print it out. Okay.
+24:45 Okay,
+24:47 let me just print out error. Okay,
+24:48 >> that sounds good. No idea what you're
+24:49 doing.
+24:49 >> Okay, so now I'm going to upload it
+24:51 again. Oh my god, this simulator is so
+24:53 slow.
+24:55 Let's just choose this. Okay, fetch.
+24:58 Let's see what it says here. Um, failed
+25:02 to fetch. Error failed to fetch. That's
+25:04 like not very useful. Okay, fix this.
+25:08 >> I don't know.
+25:12 >> Okay, so I think I know what the issue
+25:14 is. The issue is it can't find a reader.
+25:16 It means I'm like trying to stream my
+25:18 responses. There's no reason to like
+25:20 really stream these responses. So, I
+25:24 think because I'm running out of time, I
+25:25 got to bring out cloud code. I'm just
+25:28 going to tell it replace the AI SDK with
+25:31 the open AI SDK and just call that
+25:33 directly. Also, don't do streaming. Make
+25:35 sure to update the front end and the API
+25:38 for that. Um, and yeah, it should work
+25:41 then. And then I'm going to give it the
+25:43 the two files that I know it needs.
+25:45 Hopefully that helps. Okay, cool. So,
+25:48 that will be pretty useful. While that's
+25:50 happening, I'll add the OpenAI package
+25:53 and I'll remove the AISDK package. So
+25:57 here we can go AI SDK. So we can do bind
+26:02 remove AI
+26:05 at open AI
+26:08 at ADK react. So we can remove out of
+26:10 that. Cool. Perfect. Um yes, don't ask
+26:13 me. You can
+26:15 Oh my god, I just added I just did this.
+26:19 That doesn't need to do it. Oh my god.
+26:20 And I added like two package locks
+26:22 again, which is like always super
+26:24 annoying. I don't know why it does that.
+26:26 That's why you just got to let AI do
+26:27 stuff. So now you wait.
+26:29 >> Okay. While that's happening, I'll give
+26:30 it another prompt. So I will double
+26:32 prompt it now on the cal make it look
+26:36 like the image attached and then I will
+26:39 give it this image. It's a calorie
+26:42 tracker app where I can scan a picture
+26:44 photo and it sends it to AI and then
+26:46 tells me what calories it is. Make it
+26:48 look like the image attached and use the
+26:50 API for the AI that I've already built.
+26:53 So, I'll load up that prompt. And
+26:56 >> I don't think I pasted it.
+26:59 >> Cloud code's asking me what's going on.
+27:00 I did paste the image.
+27:02 >> Oh, you did. Okay.
+27:03 >> But okay. It's replacing the stream text
+27:05 implementation with OpenAI, but it's
+27:07 just so slow. How much time do I have
+27:09 left?
+27:10 >> 1 minute and 30 seconds left. Uh-oh.
+27:12 >> I wish I was faster than AI, but
+27:14 unfortunately, I'm not.
+27:15 >> So, you're just kind of waiting for this
+27:16 to finish. And so, you've you've Did you
+27:18 enter that one? Oh, you
+27:20 >> cuz I need to wait for it to finish the
+27:22 API stuff. And
+27:23 >> could you in theory do them both at the
+27:25 same time as long as they didn't
+27:26 interfere with each other?
+27:28 >> I could I could make it to assume that
+27:30 the API stuff works.
+27:32 Assume that chat works. Don't change it,
+27:36 but Oh, it does need to change it cuz it
+27:38 needs to pass it in new prompt. I'll
+27:40 fire off that prompt, too. Okay, so it
+27:42 says it should work now. Let's try it
+27:44 out.
+27:48 That is so slow.
+27:49 >> I don't know why it's so slow. Okay, it
+27:51 looks like it's working.
+27:52 >> Okay. Okay, you got it. You got your
+27:54 first feature
+27:54 >> based on the conversation. Okay, let's
+27:56 skip the generic and make this unique on
+27:58 a scale of 1 to 10. You're a nine and
+28:00 I'm the one you need. Okay. Well,
+28:02 terrible, terrible line, but at least
+28:05 they work.
+28:06 >> Um, okay. Why did it look at the UMAX
+28:10 tab? I never told it to. Whatever.
+28:14 >> Oh, there's the time. So, an take a look
+28:16 at the board here. We are we are three
+28:19 rounds through. We've each done three
+28:21 prompts. So, how far are you into the
+28:23 calorie tracker? So, the calorie tracker
+28:25 feature is hopefully building, right?
+28:27 >> Hopefully building. I sent a prompt in.
+28:29 >> You got the AI RZ.
+28:30 >> I got the I don't think you've touched
+28:33 the face analysis yet. No, I haven't.
+28:35 Okay.
+28:35 >> For me, I got it within the second
+28:37 round. We already we had all three of
+28:39 these features so far. So, like if you
+28:41 were to come back, how how do you think
+28:44 you could do it? Like what do you need
+28:45 to add to the app to win this? You
+28:48 think?
+28:48 >> I think I just need to use AI more
+28:50 effectively cuz there's no way that I
+28:53 could code out as much feature set and
+28:56 like design and everything that you're
+28:58 building in like the amount of time that
+29:00 we have.
+29:01 >> So my limitation is just like I just
+29:03 it's just a lot of code you have to
+29:04 write to write all these APIs for like
+29:06 different types of apps. Essentially
+29:08 we're building three apps in one. And so
+29:10 I think that's like a lot of work. Um,
+29:12 and why I'm suffering right now is
+29:14 because it's just like small time
+29:16 constraint and I don't have my
+29:19 development environment optimized for
+29:21 mobile apps and I think over a long
+29:24 period of time I would probably be able
+29:25 to win but along though
+29:29 I'm not doing too well. Yeah.
+29:30 >> Yeah. I'm not sure. I'm honestly not I
+29:32 like I'm not sure honestly. I I I don't
+29:35 know. I don't know if that's true. Um,
+29:39 >> but we do have one more round to play.
+29:41 Yeah, I think let's just ship it into
+29:43 the round and we'll see whose app comes
+29:45 out victorious. And again, for those of
+29:47 you who are watching, you guys are going
+29:48 to be voting on whose app is better at
+29:50 the end. Let's go ahead and start the
+29:52 final round. 5 minute, five more minutes
+29:53 each. Okay, I will begin. So, this is
+29:57 where we left off. So, I wanted to fix
+29:59 the Cal AI interface here. And let's go
+30:02 ahead and give this a test. Emily was
+30:04 grateful enough to toss a uh bar. So, we
+30:07 have this protein bar. We're going to go
+30:09 ahead and give this a test. it
+30:10 automatically because of the screenshot.
+30:12 It has this like blue um plus sign that
+30:15 I can press and I can take a photo. And
+30:18 then we're taking a photo of this dark
+30:20 chocolate thing. We're going to analyze
+30:22 the food. And so it should look a lot
+30:25 better. It should look a lot more like
+30:27 Cali ideally. Um does take a little bit
+30:30 here to load. Nugo dark chocolate
+30:32 pretzel. Look at that. It analyzes the
+30:34 food. Gives us protein, carbs, fat,
+30:36 fiber, sugar. And now we could very
+30:38 easily analyze another food. I do notice
+30:40 here. Okay, I really want these uh the
+30:44 the cali one. I want this to be stored
+30:47 on my phone. Like I want to see my uh
+30:50 calories for the day and I also want to
+30:52 see the previous food analyzed so that I
+30:55 know how much food I've eaten throughout
+30:56 the day. Right now it just disappears
+30:58 and goes away. I don't want that to be
+31:00 the case. So please add that. And I
+31:03 think if I get that feature in there, I
+31:05 feel like I don't have a huge risk. I
+31:07 can upload a screenshot. This works. Um,
+31:12 analyze chat. Um, I guess I can make
+31:16 this prompt a little bit better. I don't
+31:18 know if I'm going to get another chance,
+31:19 but I am going to write it in because it
+31:21 is kind of clunky here. I just situation
+31:24 actually response options. This is
+31:26 pretty good.
+31:28 Yeah, actually this is pretty solid.
+31:30 Maybe I should be able to copy them. So
+31:31 here, if I have time, please allow me to
+31:34 copy the responses that it suggests for
+31:36 me in the RZ app. The one that is the
+31:39 middle tab. I want to be able to copy
+31:41 the response I want to use.
+31:42 >> I like how you're being so specific with
+31:44 your response. Like you're like the one
+31:46 in the middle.
+31:47 >> I'm just I I don't want it to get
+31:49 confused. Okay, we just will wait. And
+31:51 then the hot one.
+31:57 Maybe we could tell it to be a little
+31:58 bit funnier. Okay, it looks like it's a
+32:00 seven out of 10 maybe every time. Or
+32:01 maybe it just knows I'm a seven. Maybe
+32:03 it doesn't want to be mean.
+32:04 >> It doesn't want to be mean.
+32:06 >> Also, please wait, what's that supposed
+32:08 to mean?
+32:11 >> Please make sure to roast the person
+32:15 when you're rating its attractiveness on
+32:16 the app. That is the right bottom tab. I
+32:19 want you to absolutely roast the person
+32:21 and have a wider range of attractiveness
+32:24 scores, please. But I want the AI
+32:26 functionality to technically work. So,
+32:28 please make sure that it does. You're
+32:30 just not having enough variation right
+32:33 now in the promptsness results. I want
+32:36 more variation. Let's see. Are we done
+32:39 here? Okay. I don't know if I'll get
+32:40 this prompt off. This one seems to be
+32:42 taking a lot of time. It is creating
+32:44 like local storage. 1 minute. Okay. I
+32:47 will not if I don't if it doesn't finish
+32:50 in the next like 48 seconds, I will not
+32:53 be able to get this final prompt off.
+32:54 But I don't actually if it if this broke
+32:56 the app. How that would suck. That's
+32:59 your only chance honestly if this breaks
+33:01 it. Um, okay.
+33:04 Almost there. Still editing files time.
+33:06 What are we at?
+33:08 35 seconds. Come on. Vibe code, please.
+33:12 Um, anything that I'm missing? Like I
+33:14 know we didn't get I know we could have
+33:16 gotten some of this stuff right here,
+33:18 which is like the days that you hit, but
+33:20 that's hard to test right now. Their app
+33:22 does look pretty good. Yeah, there's
+33:24 like a lot of features.
+33:25 >> Yeah,
+33:25 >> I mean, you got all the features. It's
+33:26 just the looks now.
+33:28 >> The looks and then there's like the
+33:29 little quality of life features, you
+33:31 know. I'm not going to get it off.
+33:33 >> Um, it looks like this is going to be my
+33:36 app. Um,
+33:38 >> well played. Well played.
+33:39 >> Well played. All right. So, it's still
+33:41 working. The AI is working. So, we'll do
+33:42 the testing after your final round. And,
+33:45 um, yeah, your final round if you want
+33:47 to do the countdown, Emily, for the
+33:50 final round. So, I'm going to go ahead
+33:51 and switch it to an Oh, what? Oh, no,
+33:55 dude. No. What is that?
+33:58 >> That's what the egg made with my last
+34:00 prompt.
+34:01 >> All right, that actually looks good, but
+34:03 we'll see. Oh, no. Okay, so let's test
+34:05 it out. Okay,
+34:06 >> wait. Wait. Okay. Okay. Is the round
+34:08 starts? Hold on. No testing yet. Wait.
+34:10 Okay, go.
+34:11 >> Food image. So, I'm just going to grab
+34:13 some food. I don't want all of this. Let
+34:15 me just search apple. Okay, that should
+34:17 work. I'm going to save this image.
+34:19 Sure. And then I'm going to drag this
+34:21 image into this. Oh no, I can't use this
+34:25 image format. Oh my god, I need like a
+34:27 PNG. Okay, JPEG. Perfect. Now, if I I
+34:31 can put this into the simulator. Then
+34:33 when I choose this, I can choose the
+34:35 Apple. Okay, now it has this loading
+34:37 spinner down here. That's pretty nice.
+34:39 Oh, Apple. Oh, it showed up. There we
+34:42 go. 95. That looks so good.
+34:45 >> So, that looks pretty good. It didn't
+34:46 get any of this correct. So, I can
+34:48 honestly just remove that. So I can
+34:50 search for steps today and then I can
+34:53 I'll keep this file and then I can go
+34:55 here. Steps today. We can remove this
+34:59 bill.
+35:01 Yes. Come on. Fail. No.
+35:03 >> No. I'm going to remove this like weekly
+35:06 calendar view cuz it just doesn't look
+35:08 that good. I'm going to remove the daily
+35:10 stats and water intake as well. Just
+35:12 keep this, you know, keep it minimal
+35:14 like whatever works. Okay. And then we
+35:16 want to
+35:17 >> we want to get a UMAX working. So over
+35:20 here I'll be like okay create another
+35:22 API route like chat or um food plus API
+35:28 but call it hot plus API. Um it should
+35:32 tell me whether I am hot or not
+35:35 >> out of like 10, right?
+35:37 >> I can upload photos or take a photo in
+35:40 the UMAX screen. So I can just tell it
+35:43 what screens to use and that kind of
+35:45 stuff which helps. And then I can also
+35:48 give it this and I can be like
+35:50 >> dude I actually hate how mirrors is
+35:52 looking right now.
+35:53 >> Initial screen look like the image I
+35:57 uploaded. And then when you give the
+35:59 results give the results in like with
+36:01 different categories. The categories
+36:02 should be overall potential masculinity,
+36:06 skin quality, jawline and cheekbones.
+36:08 >> Please don't get it.
+36:09 >> Also, it's going to have to like do some
+36:10 uh structured output.
+36:12 >> Yeah.
+36:12 >> For it. Okay.
+36:13 >> Let's see if it does that. I should
+36:14 probably put that in the prompt. But
+36:16 yeah, I could find the structured output
+36:19 docs open.
+36:20 >> Why did I say that? That was dumb.
+36:22 >> Okay, so we need format. Okay, let we
+36:26 can create a zod format while that's
+36:29 running just to validate it. So it's
+36:32 going to create the hot API first, which
+36:34 is great cuz then we can add the
+36:36 structured output formatting right after
+36:38 that. So, we can go here. We can do
+36:41 import uh Z from Zod. And then we can do
+36:44 con. Okay, perfect. Oh, amazing. It
+36:47 knows exactly what I want. Femininity.
+36:49 No, that's not what I want. I want
+36:50 femininity.
+36:52 Skin quality, jawline, cheekbones, recom
+36:55 uh sure. There we go. And then we can
+36:58 put the Oh, I guess it puts it in there.
+37:02 Um that's why it did recommendations and
+37:04 the others cuz it was grabbing it from
+37:06 like the prompt over here.
+37:08 Recommendations should be in array and
+37:10 then strength should be in array of
+37:12 strings as well. And then over here we
+37:14 can do response format, text format,
+37:18 JSON schema. But does this allow me to
+37:20 like put a schema in schema? No, it
+37:22 doesn't allow me to put a schema. Oh,
+37:25 there we go. Oh, nice. JSON schema
+37:28 strict true response shape. Okay, nice.
+37:31 Perfect. Okay, there we go.
+37:33 >> No way. Do not clutch up right now. I
+37:36 will be so pissed. Choose from library.
+37:46 We just got to use this guys.
+37:50 Oh my god, that image is like the wrong
+37:52 format.
+37:53 >> Yes,
+37:54 >> that image is also the wrong format.
+37:56 >> Screenshot it.
+37:58 >> Oh yeah, you're right.
+38:00 >> No, that looks actually fire. Oh, thank
+38:02 God.
+38:03 >> I think you have like a minute 30 left,
+38:05 right? Minute 30 roughly.
+38:07 >> I think I can fix this. Begin scan
+38:09 cannot read property score of undefined
+38:12 score. Sc score score. Maybe we just
+38:14 remove the hard JSON schema that I put
+38:18 in. Maybe the soft JSON schema is just
+38:21 better. Oh my god. Why click click
+38:23 photo? There's no like camera. So I have
+38:25 to use like canot read overall
+38:26 potential. Cannot read. Okay. So I don't
+38:30 even know what's happening right now. I
+38:32 tried to make a fix by like parsing the
+38:34 the Zod object with the hot Oh, now it's
+38:37 working.
+38:37 >> It just worked.
+38:38 >> Randomly worked.
+38:40 >> Wait,
+38:40 >> let's try Let's try again.
+38:45 >> Okay, begin scan. Can you like see?
+38:47 >> Wait, that's kind of good, dude.
+38:49 >> There we go.
+38:51 >> Okay, so it has overall potential,
+38:52 masculinity, it's like skin quality,
+38:55 jawline, cheekbones. I mean, how
+38:57 accurate is this?
+38:58 >> I mean, it seems pretty accurate. 8 out
+39:00 of 10. And yeah, we got our Kali Shakra
+39:02 working. We got the RZ R GBT working. We
+39:05 got the UMAX working. And they all look
+39:07 like they're kind of like the original
+39:08 apps.
+39:09 >> The middle one looks like a separate
+39:11 app. They all look like different apps,
+39:13 bro.
+39:13 >> Yeah, this design definitely needs some
+39:16 work. And yeah, I think the main issue
+39:18 here was like I had to just parse the
+39:20 response format.
+39:20 >> How much time does he have?
+39:22 >> I think I'm good. I don't know. I could
+39:24 probably make the design better, but
+39:25 this is
+39:26 >> You probably don't have time. Yeah. But
+39:28 yeah, I just decided to like restart
+39:29 this Expo server, which is super
+39:30 annoying.
+39:31 >> That is annoying. Okay, so that's time.
+39:33 We each created an app. As you can see
+39:35 here, if we have it open um on an
+39:38 screen, you see that this is the app
+39:39 that he created and this is the app that
+39:41 I created. And yeah, we both have three
+39:44 tabs. Um let's go through it. So I think
+39:48 you can go ahead and go first. You can
+39:50 make the case for your app and then
+39:51 we'll let everyone decide whose app is
+39:53 better.
+39:54 >> So here I can upload a screenshot. It
+39:56 gives a nice pickup line. This looks
+39:58 pretty much like um the app that we were
+40:01 trying to clone uh for for you know one
+40:04 prompting it. This is sort of uh the the
+40:07 UMAX app where you can
+40:09 >> I could actually
+40:10 >> choose a photo from the library and it's
+40:12 kind of slow but you can begin the scan
+40:15 and while that's oh that was the error I
+40:17 was getting before
+40:19 >> just sometimes work and sometimes
+40:20 doesn't work. I don't know.
+40:22 >> You don't know why. I think it's
+40:23 probably cuz the AI sometimes responds
+40:25 correctly and then other times doesn't.
+40:27 >> Okay. Okay.
+40:27 >> That's probably it. Yeah.
+40:28 >> So, all of them works most of the time.
+40:31 >> Most. And then over here, we can upload
+40:34 some food. This one actually probably
+40:36 looks the best. I like that animation.
+40:39 And then it shows up the recently logged
+40:41 as Apple. There we go. This is mine. I
+40:44 think it looks pretty similar kind of to
+40:47 the the apps that we were um taking
+40:50 inspiration from. But yeah, um I think
+40:54 um you know my advantage of being
+40:57 technical and being able to figure out
+40:59 the the bugs were definitely showcasing
+41:01 after the first few
+41:03 >> Yeah. Yeah. Yeah.
+41:03 >> uh few rounds where I was quite
+41:06 suffering in the initial rounds. Maybe
+41:07 it would have been better for me to like
+41:08 just solo let the AI figure out the the
+41:11 base.
+41:12 >> I mean, yeah. I mean, if you think about
+41:13 it, that's kind of what I do every time.
+41:15 And um going to my app a little bit, um
+41:18 I'm actually quite pleased with the way
+41:19 it looks. Um, I was lucky enough to not
+41:22 deal with really any bugs. I don't think
+41:24 I got a single bug. You know, I like
+41:27 facing adversity and I didn't feel the
+41:29 advers
+41:30 didn't work.
+41:31 >> Oh, yeah. I guess I did. The the UMAX
+41:34 didn't work the first time I
+41:35 >> Yeah, except I Yeah, I guess for me, I
+41:37 don't have to know what the bugs were
+41:38 technically. I just know that wasn't
+41:40 working. Um, so we do have these three
+41:42 tabs at the bottom here. So, if you look
+41:43 right here, we have these three tabs.
+41:45 Cal, RZ, and hot. Um, unlike yours,
+41:48 right? If we go over to yours, you can
+41:50 see that you kind of have that like
+41:52 boilerplate.
+41:53 >> Like you only have one of them has an
+41:55 icon for the bottom tab. As you see the
+41:58 cali
+41:59 >> Well, you change that. No, no, no. I'm
+42:01 not even showing your screen. Um, cal
+42:04 like you see here, we have a cali ai and
+42:07 the the hot. I can upload a uh screen a
+42:09 photo here. I do have these chips that I
+42:13 was storing underneath the table if I
+42:15 get hungry. And now, oh, one thing I
+42:17 haven't shown yet is um wait, how do I
+42:20 what the
+42:21 >> why did it say, oh no, wait, what is
+42:23 happening? Analyze another food. Okay,
+42:25 so it has a chocolate bar now. Oh, plus
+42:27 take photo. All right, well, we may have
+42:29 some weird design stuff going on like
+42:31 Oh, analyze food.
+42:32 >> I don't know what that bug was from
+42:34 before.
+42:34 >> That's weird. But so, let's see. Let's
+42:38 see if all the features work. Okay, so
+42:40 we have these calories. Um 140 calories.
+42:44 is it shows protein, carbs, and fat. We
+42:47 can hit analyze another food. And you
+42:49 can see here that we have them cleanly
+42:50 listed. Right here we have the Quest
+42:53 tortilla style protein chips and
+42:55 chocolate pretzel protein bar. It's
+42:57 basically perfect. Upload a screenshot
+42:59 of this Tinder chat here. We can analyze
+43:03 the chat. This, I believe, works. Oh, I
+43:06 wasn't able to add the copy them. That's
+43:08 the next one that I wanted to add here.
+43:10 Um, so I can't
+43:11 >> multiple responses.
+43:12 >> Copy. But if I had like another 30
+43:14 seconds, I would have been able to add
+43:15 that. Um, and then obviously I've gotten
+43:18 a seven three times in a row. Did I say
+43:20 to roast me?
+43:21 >> Yeah, you did. I think so.
+43:22 >> Oh, no. That was in the prompt I wanted
+43:24 to add. Let's see if I get a seven. I
+43:26 will be disappointed if it's I want some
+43:28 more variation. Like I want it to roast
+43:29 me, but I don't think that was part of
+43:31 the prompt. I think it's actually Oh,
+43:32 no. I think it might roast me. Nope.
+43:34 Okay. So, I'm not going to lie. This is
+43:37 not super strong on this one. This is my
+43:39 weakest link for the app, but um yeah, I
+43:41 guess we'll let kind of like consistent.
+43:44 >> Yeah. Yeah. I mean, if we go to yours,
+43:46 like go to this one. Yeah. It's a little
+43:48 whack.
+43:49 >> I mean, I just uploaded the screenshots
+43:50 and you didn't. That's
+43:51 >> I like your list view. Like, for
+43:53 whatever reason, like, wait, if we go to
+43:55 this right here, like look at how boring
+43:57 this list is. Yours has
+44:00 >> emojis.
+44:01 >> Yours has the emojis, which to be fair
+44:03 is pretty cool. Wait, go back to the
+44:04 other one. Like, you have those emojis
+44:05 there, which is kind of cool. And I
+44:07 think looks more like the original Cali.
+44:09 >> Yeah, because I uploaded the screenshot.
+44:11 So yeah. So anyway, so this is Ana's app
+44:14 and this is my app right here. For those
+44:18 of you who are watching this video, if
+44:20 you vote just by commenting whose app is
+44:22 better in the description, you can win
+44:25 $1,000 credits.
+44:27 >> We can win $1,000 of credits if you vote
+44:32 um for the Vibe Code app. This was a
+44:33 good game. We will announce the winner
+44:35 in the next video. We'll talk about who
+44:37 won this one. I'm fairly confident I
+44:39 won, but we'll see in the comments.
+44:40 Maybe. All right. Good game.

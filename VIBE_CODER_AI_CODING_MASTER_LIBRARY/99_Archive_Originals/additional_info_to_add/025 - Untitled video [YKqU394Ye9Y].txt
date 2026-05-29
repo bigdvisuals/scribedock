@@ -1,0 +1,768 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=YKqU394Ye9Y
+Channel: Riley Brown
+Video ID: YKqU394Ye9Y
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 We live in a world where someone with no
+0:02 coding experience can clone an app that
+0:05 does a hund00 million per year. And
+0:07 that's exactly what we're going to do
+0:09 today in this video. So, Crea is an AI
+0:12 image generator and editor. And in my
+0:15 opinion, it has the coolest interface
+0:17 for using Nano Banana, which is Google's
+0:19 new image model. And they're a
+0:21 billiondoll company. But the problem is
+0:24 it's so expensive. So, I'm just going to
+0:27 vibe code my own version that will be
+0:29 way cheaper to use. And then I'm going
+0:31 to make it completely free for you to
+0:33 clone and make your own version. If you
+0:35 like videos like these, make sure to hit
+0:38 that like button and subscribe. It helps
+0:40 me out a lot and you'll see my videos
+0:42 and I'll be making many of these videos
+0:45 every single week. Let's not waste any
+0:47 more time. Let's dive in.
+0:50 All right, so the plan for today is very
+0:52 simple. We're going to take a look at
+0:54 Korea. Korea has many different
+0:56 features. Most of them I'd never use.
+0:59 So, we're going to analyze which
+1:00 features that we want to clone into our
+1:03 own interface. And we're going to make
+1:04 the interface perfect for me, right? We
+1:07 don't need to live. We don't need to use
+1:08 other people's interfaces. We can just
+1:10 use our own. We can vibe code our own.
+1:13 And so, in order to do this, we need to
+1:15 select the exact features that we want.
+1:17 And then, we're going to make a plan,
+1:19 which will turn into a prompt. We'll
+1:20 give that prompt to Claude Code. We're
+1:22 going to be using Cloud Code in the
+1:24 browser today. I'll get to that in just
+1:26 a second. But we're basically going to
+1:27 go through this cycle of prompting and
+1:29 testing and prompting and testing until
+1:30 we like our app. Then we're going to
+1:32 deploy and we're going to be able to
+1:33 share it with my team. I have some
+1:35 people overseas VAS that I work with.
+1:38 They're going to be able to use this
+1:39 workflow at a much lower cost and I'll
+1:42 be able to tailor the UI to exactly what
+1:45 we need. is a personalized workflow,
+1:48 personalized interface that we're going
+1:49 to create and it will be much cheaper
+1:51 because the final step we're going to
+1:52 save a bunch of money by doing this and
+1:55 many different tools that you use right
+1:57 now. You can vibe code your own cheaper
+1:59 version guaranteed and this is going to
+2:01 be awesome. So, let's hop into Korea.
+2:03 Okay, so on the left here we have Crea
+2:06 and I really like how there is a simple
+2:11 UI where I can type my prompt. As you
+2:15 can see here, we're using NanoBanana
+2:17 Pro. We can easily select which aspect
+2:21 ratio. That's what I really like. By the
+2:24 way, on Creo, we're using their new Nano
+2:26 Banana feature. And that is what we're
+2:27 going to be cloning here in this app
+2:29 because I believe as a standalone app,
+2:31 it could honestly do it could do very,
+2:33 very well. You could get this to 100K
+2:35 per month if you wanted to turn this
+2:37 into a SAS if you were a good marketer.
+2:39 But anyway, you can add images easily.
+2:42 add images as references and most
+2:45 importantly you can add elements and so
+2:48 what these elements are you can very
+2:50 quickly add right I can add an element
+2:53 imagine this is a logo right this is a
+2:55 logo for a fictional company and let's
+2:58 just say I can change the name of this
+3:00 this is my company called pointy and we
+3:03 could literally just call this pointy
+3:04 dash or pointy logo and as you can see
+3:07 here these elements right these elements
+3:09 are basically saved as an image input
+3:13 into Nano Banana. If you guys have used
+3:15 Nanobanana or Chat GPT's image model,
+3:18 you know that you can upload an image as
+3:20 a reference and then you can prompt chat
+3:22 GPT or or Nano Banana like make this
+3:25 guy's hat red. Basically, just like
+3:28 this, right? I can add an image as an
+3:30 image prompt. This is on Korea's image
+3:33 tab, but you can just basically say,
+3:35 give this man a red hat. And this will
+3:38 just give the man a red hat. What
+3:40 elements does is it allows you to save
+3:43 these images with a specific name. So
+3:45 you don't need to go find the image
+3:47 every time that you want to do it. You
+3:49 can just have a ton of these easily
+3:51 accessible elements that you can use
+3:54 when generating a thumbnail. And I think
+3:56 this natural ability to just type the at
+3:58 sign makes it very easy to do. So I
+4:00 could just say at pointy logo, right,
+4:04 very easily. The more practical example
+4:06 is make a high quality YouTube thumbnail
+4:12 of at Riley Brown. And here we can
+4:16 select 16 by9 and we can run this. My
+4:20 main problem with this interface is that
+4:23 if you follow the total compute units,
+4:26 you'll realize, see, look at this 1
+4:29 million views fast, right? I didn't
+4:31 specify anything say with text on the
+4:35 screen that says cloned this app and
+4:40 then have a computer screen that shows
+4:45 an app that is labeled
+4:48 $1 billion
+4:52 app in green. And I want to make sure
+4:54 that we're going to put this in quotes.
+4:56 I notice that
+4:58 this does better when there's quotes.
+5:00 And then you can run this. And then you
+5:02 can run it again. And now we're creating
+5:04 two different versions. My main problem
+5:06 with this interface is if you actually
+5:08 look at the compute units, which are
+5:09 their credits, it runs out so fast. This
+5:13 is their max plan and I run out way too
+5:16 fast. If I have my whole team using it,
+5:18 we're basically spending hundreds of
+5:20 dollars per day. And as you can see
+5:22 here, this looks like me and I'm able to
+5:25 just type at Riley Brown. The problem is
+5:27 it's just way too expensive for our team
+5:29 to use. And so just like the main
+5:31 feature that I absolutely love is you
+5:33 can add elements which allow me to
+5:35 quickly add saved image reference for
+5:38 Nano Banana by typing at element
+5:42 parenthesis example at Riley. And I
+5:46 could type something like and then just
+5:49 going to get a nice example here and
+5:51 paste that in just like that. And so
+5:54 that is basically the first step. I'm
+5:56 clearly articulating to myself and to
+5:59 you guys what I want to take from this
+6:02 app to create my own interface so that I
+6:05 can save money. Okay. So I just went
+6:07 through and basically took all of those
+6:08 things that I really like about the app
+6:10 and I turned it into a prompt. And you
+6:12 can pause the video if you want to take
+6:13 a deeper look at the prompt. I will go
+6:15 over it a little bit. I didn't want to
+6:17 like go through and actually just like
+6:19 write out the prompt. I found that it
+6:20 takes a lot longer and I like to use my
+6:22 voice. I use Whisper Flow to speak out
+6:24 my prompt. But this is basically what I
+6:26 came up with after about 5 to 10 minutes
+6:28 of thinking over it pretty well. The key
+6:30 parts that I want you to look at to kind
+6:32 of hone in on are the fact that I told
+6:34 it to look up context. So I said look up
+6:36 Nanobanana Pro documentation and figure
+6:38 out how to implement this properly. When
+6:40 you open the app, you'll see a clean
+6:42 interface. Banana Banana allows you to
+6:44 reference images. The point of the app
+6:45 is to allow me to quickly be able to add
+6:48 reference images that I can commonly
+6:50 use. These are called elements triggered
+6:55 by at element. And then I just copied
+6:58 and pasted some of these images right
+7:00 here. And I showed kind of the popup and
+7:03 we're just going to include that in our
+7:05 prompt to claude code. Now we are ready
+7:08 to use cloud code. So for me as a vibe
+7:10 coder I don't like using cloud code in
+7:12 the terminal. I find it is much easier
+7:14 to just go to vibecode.dev. So if you go
+7:17 to vibecode vibecode.dev
+7:20 and then you create a web app you can
+7:23 now build web apps and this is literally
+7:26 claude code. You can literally use cloud
+7:29 code right here with Opus 4.5. And now
+7:32 that this is running I can just paste
+7:34 that full prompt right here. And then
+7:36 what I can do is I can just drag those
+7:39 image references that I want to include
+7:41 in the prompt into this image tab. So I
+7:43 can go to the image tag, drag them in.
+7:45 So I'm just going to select all of these
+7:47 images and add them to the prompt. By
+7:49 the time you see this video, Vive Code
+7:50 will have an update which allows you to
+7:52 just drag them directly into the prompt.
+7:53 But yeah, we included those three
+7:55 reference images. I do want to include
+7:57 use these image references as an
+8:01 example. Please don't include anything
+8:06 outside of the scope of the
+8:09 instructions. Please use Nano Banana
+8:14 Pro. And so what we can do is we can go
+8:16 to the APIs tab. We're going to click
+8:18 API tab. We're going to go to image and
+8:20 we're going to click Nano Banana Pro and
+8:22 we're going to add that to the prompt.
+8:24 On Vibe Code, you have built-in APIs
+8:26 that you can use and you don't even need
+8:27 to bring your own API key. This is
+8:29 basically your own easily accessible
+8:31 APIs that you can just add to your app.
+8:33 And so now I think we're ready to run
+8:35 this. So I'm just going to go ahead and
+8:36 press enter. So now we all we do is
+8:39 wait. And the app is building. Okay.
+8:43 Wait. I believe it's done. There it is.
+8:46 Okay. So here's our app. They just
+8:48 called it Thumbnail Studio. Not a huge
+8:50 fan of the logo, but let's go ahead and
+8:51 test this. Okay. So we can make it okay.
+8:54 16x9. Uh, let's just go thumbnail image
+8:57 of a man. Generate. Ooh, I like this.
+9:02 Okay, there we go. It generated this
+9:04 image and I can already download it so I
+9:07 can see it. Okay, so this is pretty
+9:08 cool. This is pretty cool. Now, what I
+9:10 want to do is I want to add an image
+9:12 reference. So, what we can do, I'm just
+9:14 going to try and add this image. So,
+9:17 this is the image that I'm going to add.
+9:19 Let's just hit open. Okay, we can see
+9:21 that the image was added. It's up here.
+9:23 Maybe we get it to show the full aspect
+9:25 ratio. That's one thing we can ask it to
+9:27 change. I'm just going to say image of
+9:29 this man. Let's go ahead and give this a
+9:32 test. Let's go ahead and press generate.
+9:34 Now we wait and let's hope that this
+9:37 image of me is passed to the model.
+9:41 Okay, there we go. That looks very much
+9:44 like the image that we uploaded. Let me
+9:46 give this a test. Okay. Yeah. So this
+9:49 was the image reference that we used and
+9:52 this is the one that was created. That
+9:55 seems like it's working. Okay. Now what
+9:57 I want to do, I want to see if elements
+10:00 work. So we can add an element. We're
+10:02 going to add our first element. Let's
+10:04 call this Riley. And so what I'm going
+10:06 to do is I'm going to click here to
+10:07 upload an image. We're going to upload
+10:09 this image of me. And we're going to hit
+10:11 add element. Okay, there we go. It was
+10:15 added at Riley. We can go back here. Or
+10:18 we can go at Riley. Look at that. The
+10:20 elements popped up right away. At Riley,
+10:23 generate an image of Riley riding a
+10:28 horse. Let's see if this works. So now
+10:31 we are going to hit generate.
+10:35 Oh wow, it did. It oneotted it. Dude,
+10:40 that's pretty insane. It actually
+10:43 oneshotted the elements feature. Let's
+10:45 try it with multiple elements. Okay. So,
+10:47 what I just did is I'm just going to get
+10:49 an Alex Hormosi thumbnail real quick.
+10:51 I'm just going to copy this image. What
+10:53 we're going to do is we're going to go
+10:55 to our elements tab here. What I'm going
+10:58 to do is I'm going to add an element.
+11:01 I'm going to call this Horoszi
+11:04 thumbnail.
+11:06 And I'm going to add this image as an
+11:10 element. And we can add this element.
+11:12 And boom. Now we have Hormosi thumbnail
+11:14 and at Riley. Okay. So now what we're
+11:17 going to do is we're going to go back
+11:18 and let's see this thumbnail image of at
+11:22 Riley in the style of poor mozzy
+11:27 thumbnail with text on screen that says
+11:32 we cloned a $1 billion
+11:37 app. Okay, 16x9. I'm going to copy this.
+11:41 Generate. Let's see if this works, baby.
+11:44 Uh oh, it's taking a lot longer than
+11:45 usual.
+11:48 Oh my god. Oh my god. It worked.
+11:53 Oh my god. Look at this. I should have
+11:57 specified that. No beard. I actually
+12:00 don't know. Like, so wait. Uh, no beard.
+12:04 Let's see if this works. I don't know if
+12:06 we're still like if we have to do it
+12:07 again. Like maybe we need to go at Riley
+12:10 again to trigger it. I I don't know if
+12:12 we can just at Mosy. Let's just try this
+12:14 again. No beard, just no beard. Man is
+12:19 wearing a suit.
+12:23 And we will generate. Okay. So, one
+12:25 thing I learned is it does take a lot
+12:27 longer when you're doing it with
+12:29 multiple input images. When you just do
+12:31 one input image, it does go faster. So,
+12:33 this does take a little bit. Okay, there
+12:35 we go. Look at this app, dude. This is
+12:40 wild. This is wild. Okay, so I have a
+12:42 lot of things that I want to do. Here's
+12:44 a list of things that I want to change
+12:45 about the app. I want you to make all of
+12:47 these changes. First thing, call this
+12:50 Riley Studio just because Riley's a
+12:53 great name. Second thing that I want, I
+12:56 want to be able to create multiple
+12:59 images at once. Currently, when I'm
+13:03 generating an image, I can't type
+13:05 anything or do anything else. I want to
+13:08 be able to generate many of them at once
+13:11 and then they will load in parallel in
+13:13 the UI. And the most recent image
+13:16 generated will be in the very top left
+13:19 in position one. And then the one right
+13:21 before that would be in position two. I
+13:23 want to be able to drag images that have
+13:27 been previously generated in the canvas
+13:30 or in the studio into the prompt to use
+13:33 as a reference image. All right, those
+13:35 are three things that I want to change.
+13:38 So this is prompt two. In prompt two,
+13:41 we're now refining it. And in prompt
+13:44 one, we created basically all of the
+13:46 main features that we wanted with Nano
+13:48 Banana. I I'm actually like blown away.
+13:50 We can see all of our elements. We can
+13:52 very easily add images. And I can
+13:54 actually create a follow-up. We can just
+13:56 go to the image tab and we can just
+13:58 generate a new logo. I'm just going to
+14:00 do 3D render of an image icon that is
+14:06 being edited, right? I don't I don't
+14:09 know. I'm just going to copy this. I'm
+14:10 just going to run this like four times
+14:12 because on Vibe Code, right, which uses
+14:15 claude code, this is literally using
+14:16 cloud code the same as if you were using
+14:18 it on your computer. We can very easily
+14:20 just add images to it. So, we can just
+14:23 select Let's take a look at this. You
+14:25 know what? I dig it for now. This will
+14:27 be a good placeholder. I just want to
+14:28 show you that we can say please use this
+14:32 as the logo and then we can press enter
+14:34 and you'll notice here that it's in the
+14:36 queue. So as soon as cloud code is done
+14:38 it will start up this prompt and now
+14:41 we'll just wait for both of those
+14:42 prompts to finish. Actually one more I
+14:44 don't like the yellow generate button.
+14:48 Make it white with a black enter icon.
+14:55 Find a cool icon for this. I don't like
+15:00 the one you have. Also, the horizontal
+15:03 line going across the bottom of the in
+15:06 text input field in the app. Please just
+15:08 get rid of that. I don't like it. Make
+15:10 sure that the aspect ratio button is
+15:12 left aligned. Right now, it's centered.
+15:14 The aspect ratio thing. Just make it
+15:16 left aligned. It'll look a lot better.
+15:18 Also, can you please make the like
+15:20 little like lines going across the page
+15:22 almost looking like graph paper? And
+15:24 instead of using like this, the
+15:26 background being like completely dark
+15:28 black, I want it to be a little bit
+15:29 lighter, but still not as light as the
+15:32 text input field. Make it like a dark
+15:34 dark charcoal gray. And just add some
+15:36 texture to the background. Don't do
+15:38 anything crazy. I just want it to like
+15:39 feel like a little bit alive almost. I
+15:42 don't even know how to describe it. Just
+15:43 it's too black and dark. Also, get rid
+15:45 of the create your first thumbnail
+15:47 thing. Instead, find something better.
+15:49 Don't include the old icon there, which
+15:51 should be the new logo. Okay. Okay,
+15:52 you'll notice that the new logo is here.
+15:54 I don't like this logo. It's not good.
+15:57 We can replace it. Okay, I'm just going
+15:58 to generate a bunch more in the image
+16:00 tab. Cartoon logo. Awesome. I don't even
+16:04 know what to say. Ooh, yeah, these are
+16:06 getting better. Like this one might be
+16:08 cooler. What can we say here? Ritter of
+16:11 a with paintbrush
+16:15 magical logo. Ooh, look at this. It
+16:19 added this nice little gradient here at
+16:21 the bottom. And now, oh wow, now this is
+16:24 starting to come together a little bit.
+16:26 Use this logo instead. Put this at top
+16:31 left and in the what do you want to
+16:36 create when no images are in the canvas.
+16:41 Okay, so we can cue that one up as well.
+16:43 Okay, we're waiting for our final
+16:44 prompt. We're just rapid firing these
+16:46 off here using quad code. Okay, it looks
+16:50 like it is done. I don't see that it
+16:52 left aligned this. That's okay. That it
+16:55 didn't do that. But it did make the app
+16:57 look much cooler. We have this cool
+16:59 paintbrush. What do you want to create?
+17:01 So now what we should be able to do is
+17:03 go at Riley riding a horse. We should be
+17:08 able to go enter. Should be able to run
+17:10 that. Riley running at Riley.
+17:15 Okay, now we can generate two at a time.
+17:18 thumbnail image in this style at hormosy
+17:23 thumbnail. We can just run these. Very
+17:26 very cool. This is working great. This
+17:29 is working really really great. This is
+17:32 I'm Dude, this is what what I cannot
+17:37 believe how well this works. I cannot
+17:39 believe it. This is crazy. It just
+17:41 works. And also one thing you'll notice
+17:43 here, if we go to the cloud tab, you can
+17:46 see all of the database tables, right?
+17:49 We can see all the database tables right
+17:51 here. So we have all of the elements. We
+17:53 can see the Hormosi thumbnail and Riley,
+17:56 right? All of these these elements are
+17:58 stored in the database. And we can see
+18:00 that all of the images that we generate
+18:02 are also being stored. And one thing we
+18:05 need to test that we haven't tested yet
+18:06 is are we able to drag this in? So let's
+18:10 see if we can drag it. Boom. Look at
+18:13 this. It is loaded as a reference.
+18:16 Please give the man a red hat. Boom. And
+18:20 there you go. Look. So, this is what it
+18:22 started with and this is what it
+18:24 finished with. Okay. So, we have some
+18:27 little stuff I want to do. Okay. So,
+18:30 when I am viewing an image full screen,
+18:34 like when I click on an image, it shows
+18:36 up in kind of this like modal peak view.
+18:39 Keep the pe uh view the same way. I want
+18:41 there to be a right and left arrow on
+18:44 each side of the image so I can go to
+18:46 the next one over. And then also if I do
+18:48 left and right on the arrow keys, I want
+18:50 that to toggle left and right to the
+18:53 next image accordingly. And then on the
+18:55 bottom right of this image, I want there
+18:58 to be an insert into prompt. If I press
+19:01 that button, it should insert it as an
+19:03 image reference as if I dragged it from
+19:06 the grid into the text input field.
+19:09 Additionally, I don't want the download
+19:11 button and that button to show up unless
+19:13 I'm hovering over the image. Actually,
+19:16 make them very faint and gray and put
+19:18 these both on the bottom right side of
+19:21 the picture. So, make them like very
+19:23 faint icons, but when I go into hover
+19:26 mode, the full button should pop up and
+19:28 it should show the words download and
+19:30 insert prompt. Those two buttons should
+19:32 show up. But while I'm not hovering over
+19:35 the image, I just want to be able to see
+19:36 the image more clearly. So, please just
+19:38 have the icons there in like a faint
+19:41 gray so it's not obstructing the viewing
+19:43 of the image. Okay, so we can run that.
+19:46 Okay, it's done. Let's go ahead and give
+19:48 this a try. So, if we click on it, you
+19:50 can see, look at that. So, we see those
+19:52 little icons right there. Watch. There
+19:54 it is. And when we zoom out now, what we
+19:57 can do is we can just click right here.
+19:59 So, we can scroll left and right. So, we
+20:01 can see the progression. We can Let's go
+20:04 ahead and insert this into the prompt.
+20:06 uh make him holding a football and turn
+20:11 it into a thumbnail in the style of at
+20:17 hormosy thumbnail now. Okay, I can't
+20:21 enter it in. I actually have to click
+20:23 the button. So, let's fix that. I don't
+20:25 want when I am creating a thumbnail, the
+20:28 enter button should enter the prompt.
+20:31 Also, when I press the enter button, I
+20:34 don't want the prompt or the image
+20:37 references to be cleared from the chat.
+20:39 Look at this. So, if I press enter, you
+20:41 see that it went away. Currently, when I
+20:44 pressed enter, the text and the image
+20:47 reference get cleared in the chat. I
+20:49 don't want that to happen. And boom.
+20:50 Look at this. Oh, man. This is crazy.
+20:54 This is so useful. It's not even funny.
+20:57 This is going to be so useful for my
+20:59 team and I. It's crazy. All right, let's
+21:01 see if this works. Make the jersey
+21:05 Seattle Mariners. Enter. Wow, I can very
+21:10 quickly edit it. Just like Korea. That's
+21:12 how Korea works. Make the jersey
+21:14 Steelers Pittburg.
+21:18 Wow. Too generating. This just looks too
+21:21 good, man. This is awesome. Okay,
+21:24 there's the Mariners jersey. It just
+21:26 nailed that Mariners jersey. That's just
+21:28 insane. There's the Pittsburgh Steelers
+21:31 one. So, we can go through them all. So,
+21:33 we start off with Toronto, change it to
+21:35 blue, got a hat, made it at Hormosi
+21:37 style, changed it to a Mariners jersey,
+21:40 boom, changed it to a Pittsburgh
+21:41 Steelers jersey. We have this clean
+21:43 grid. This is fire. What should we add
+21:46 next? Okay, I just realized what I
+21:48 wanted to do next in the elements. They
+21:52 are square by default. I want them to
+21:54 show up fully no matter what the aspect
+21:55 ratio is for the elements. Right now
+21:57 they're only showing up as squares. So
+21:59 we'll run that. Then we're going to
+22:01 clear context cuz we've been in the same
+22:03 chat for a while. But I mean this is
+22:04 crazy. We created this full app in like
+22:06 six, seven prompts. Some of them were
+22:08 very simple styling prompts. But what
+22:11 we're going to do next, I want to very
+22:13 easily be able to upload a YouTube link
+22:16 and it should automatically pull the
+22:19 YouTube transcript or the YouTube
+22:21 thumbnail from it and add it as a theme.
+22:24 I want to be able to very easily just
+22:26 use the style of anyone's YouTube
+22:28 videos. So, that's what we're going to
+22:29 do. And in order to do this, I believe
+22:32 we're going to use SER API. I believe I
+22:35 can do that here. So, I can sign in and
+22:37 I can go to the YouTube
+22:40 search API. I actually don't know what
+22:44 API
+22:45 need to use, but I think Claude Code can
+22:47 just figure it out. I'm going to copy
+22:49 this link and I'm going to go up here.
+22:52 I'm going to go to the dashboard. I'm
+22:54 going to change this key after the
+22:57 video. I'm going to copy this key. This
+22:59 is the API key that will allow me to get
+23:01 data to basically all of these. I will
+23:03 say Google is currently suing SER API
+23:06 right now. So, keep it in mind it may
+23:08 not be around forever, but we're going
+23:09 to use it while it's still around. So,
+23:11 we're going to copy this link and we are
+23:12 going to go to Vibe Code. And what I'm
+23:15 going to say is I want to be able to and
+23:20 where should we put it? Add element. add
+23:22 a link to a YouTube video and it should
+23:24 automatically pull the YouTube thumbnail
+23:29 and add it as an element as if I
+23:31 uploaded the image directly. We can use
+23:33 the SER API for this. I'm going to give
+23:35 you a link to the documentation. You may
+23:38 need to search around and find the
+23:40 correct one that you need within the SER
+23:42 API. So, really scan the documentation
+23:44 of this and figure out how when I press
+23:47 add an element. I want there to be a
+23:50 field that says use you uh insert
+23:52 YouTube thumbnail and it you just paste
+23:54 the link to the video and it will add
+23:56 that as an element. And then I should
+23:57 name it and then it should add that as
+23:59 an element automatically. Okay, so
+24:01 that's pretty good. I'm going to cue
+24:02 this prompt up and when it's done doing
+24:05 this, it will run the next prompt. Okay,
+24:09 so it is done. Now we can test this. So,
+24:12 we're going to go to YouTube and we're
+24:13 just going to find any YouTube video.
+24:16 Let's go ahead and take a look here. So,
+24:19 we can actually go to Matt Wolf's
+24:21 channel. And I actually don't mind.
+24:26 Let's go ahead and get this one. So, I'm
+24:28 going to hit these three dots. We're
+24:29 going to hit share, copy. Now, if we go
+24:32 back to our app right here, if we go to
+24:35 elements, add element. There we go. We
+24:38 have this new YouTube button. We can
+24:41 paste the link and hit fetch. See if
+24:44 this works. Boom. One thing I'll note is
+24:47 after pressing fetch, the whole
+24:51 thumbnail doesn't show. And for the
+24:55 link, if I paste a link, it should
+24:59 automatically fetch. I don't want to
+25:03 have to press fetch. It's kind of
+25:07 annoying. The whole thumbnail full
+25:10 aspect ratio should show. We're going to
+25:14 edit that. But we can name this Matt
+25:17 Wolf. Actually, let's make sure it's
+25:20 together. Add element. See if this
+25:22 works. Boom. So, it's showing up here.
+25:24 If we go to the cloud tab. Boom. We can
+25:27 see Matt Wolf is now in the database.
+25:30 Let's And I can't edit these as well.
+25:34 That's another one I want to do. Also, I
+25:36 would like to be able to edit the name
+25:37 of the elements. Please create a button
+25:40 that allows me to just like edit the
+25:42 element so I can change the name. There
+25:44 we go. So, if we go back, ideally, we
+25:47 could go um we could say thumbnail image
+25:51 of at Riley in the style of atmolf.
+25:57 Enter. Enter. Very cool. Also, I want
+26:01 the names to show up in different
+26:04 colors. When I atention them, the
+26:06 elements in the text chat, I want them
+26:09 to be in different colors. I also want
+26:11 them in the database of the elements. I
+26:15 want each one Oh, wow. It worked. I I
+26:17 want them to have their own color. Like,
+26:19 it should automatically be assigned a
+26:20 color and I should be able to edit the
+26:22 color. And these should be random. Just
+26:24 have like 10 different colors just so I
+26:27 think it would look better if they have
+26:28 different colors. So, that's what I want
+26:30 you to do. And yeah, do that. And then I
+26:32 want to be able to edit those colors in
+26:34 the edit thing that we just added as
+26:35 well. I think it'd be cool if like at
+26:37 Riley lit up in the text. That would be
+26:40 really sick. But yeah, this works really
+26:42 great. I can click on this, insert this
+26:44 into prompt. So, we have it right here.
+26:47 Please change the text to the best in
+26:52 the world.
+26:54 and please use what I'm going to do
+26:56 right now is I'm going to go to Twitter.
+26:59 I'm going to very quickly go to the Vibe
+27:01 Code Twitter account. We're going to do
+27:03 is we're going to grab the Vibe Code
+27:05 logo. We're going to go to elements and
+27:08 we're going to add an element. We're
+27:09 going to drag it in here. Nope, that
+27:11 doesn't work. We'll change that. Upload.
+27:14 We'll drag it into here. Open Vibe Code
+27:18 logo. Upload that. Now we can go back.
+27:22 Oh, yeah. It's still running. So I'll
+27:23 I'll type that in next. Okay. So it
+27:26 looks like it is done. Now if we go to
+27:29 the elements tab, there should be
+27:31 colors. Okay. So we can see these
+27:33 colors. What happens if we edit it?
+27:36 Okay. We can very easily just change the
+27:38 color. That's really cool. That works.
+27:41 So now if we go at Riley, I want the
+27:45 color of the element to show up in the
+27:48 actual text chat. like when I'm typing
+27:50 the text chat. For instance, Riley is
+27:54 green. A YouTube thumbnail of
+27:59 Riley. The at Riley should be green
+28:04 text. Now we can go like
+28:08 um a man at Riley. Oh, there it is. A
+28:12 man at Riley walking over a bridge.
+28:17 Looks like the letters are almost Oh,
+28:19 no. Walking over a bridge wearing a
+28:23 shirt that has the at@ vibe code logo on
+28:29 it. Okay, it's a little bit weird. The
+28:32 typing is a tad weird now. The letters
+28:38 are slightly off when I type longer and
+28:44 add these. And it's just a tad weird.
+28:49 Nothing crazy. Oh, there it is. Look at
+28:52 me. There it is. Me wearing a logo. Me
+28:55 wearing a logo. That's what's up, dude.
+28:58 Nothing crazy. Please, can you take a
+29:03 look? Make some slight changes if you
+29:07 have to. It doesn't need to bold. It can
+29:11 stay the same size. I just want it to
+29:16 change colors. Okay. So, it's editing it
+29:19 right now. I think the boldness actually
+29:22 fixed it. Like I can go at Oh, it just
+29:24 finished. We go at Alex. Oh, wait. No,
+29:27 it's Hormosi. New. Yeah, there we go.
+29:30 Okay. So, it was that boldness that it
+29:32 was adding, but I can just go at Riley
+29:35 in the style of at Alec or Horoszy.
+29:40 Riley in the style of Hormosi text on
+29:44 screen. Oh my god. Wow. With the Google
+29:51 logo next to a phone. Okay, this is I
+29:55 mean this one's just weird. Not sure why
+29:58 it looks like that, but okay.
+30:04 And so we can drag this in and we can
+30:07 say, "Please make Riley not have a
+30:12 beard." Oops. And we can change Riley to
+30:15 at Riley not have a beard. And please
+30:19 get rid of the text. Wow. And put the
+30:25 at@ Vive Code logo instead of the Google
+30:30 logo. and make the phone bigger.
+30:34 Wow. And so right now we are using the
+30:36 Nano Banana API at cost. I'm telling
+30:39 you, it's like four times cheaper than
+30:41 using it on these other rapper
+30:43 platforms. This is going to be so much
+30:45 easier and cheaper for my team to create
+30:47 highquality thumbnails. And look at
+30:49 that. It's done. Look at this. I can
+30:52 very quickly insert this into prompt. I
+30:54 can close this out. Please make the
+30:58 phone upright and put an a calorie
+31:03 tracker on the phone. And we can Oh my
+31:08 god, I just got a really good idea.
+31:10 Okay, look at this. This is done. Look
+31:13 at that. That's crazy, dude. We We can
+31:16 just go through these really quickly. We
+31:18 have all the thumbnails that I created
+31:20 for the day. Oh, yeah. I wanted to edit
+31:21 this. I can insert this into the prompt.
+31:24 Please get rid of both logos and use the
+31:29 at@ vive code logo instead. And please
+31:34 can you add a phone that has the app
+31:39 store logo on it? Oh my god, dude. Okay,
+31:44 let's change the text on here. So we can
+31:46 drag that in and we can say change the
+31:49 text to the full stack vibe coder. Oh
+31:55 man, there it is. Look at that. This is
+32:00 truly insane. I am blown away. We just
+32:03 created this in 20 minutes and this will
+32:06 replace an app that makes a billion
+32:08 dollars a year or I know it's a
+32:09 billion-dollar company rather and we
+32:12 just created this interface and we're
+32:14 basically getting to use this nano
+32:16 banana API at cost. It has all the
+32:18 features that I wanted and now I can
+32:21 publish it and send it to my team. And
+32:23 so what I'm going to do is I'm going to
+32:25 allow remixes. This is going on the
+32:27 internet for my team to use. We can very
+32:30 quickly create highquality thumbnails. I
+32:32 didn't create any signin, so this is an
+32:34 internal tool right now. But yeah, thank
+32:36 you guys for watching this video. I may
+32:38 make part two as I add even more
+32:40 features to this. But I'm basically
+32:43 going to be creating apps through vibe
+32:45 coding for the next 180 days straight.
+32:47 We're going to work up in difficulty.
+32:49 We're going to create AI agents. We're
+32:51 going to create creative AI workflows
+32:54 like this. We're going to create bots
+32:57 like Discord and Slack bots. We're going
+32:59 to create apps that integrate with
+33:01 notion. We're basically going to do it
+33:02 all. And we're going to build our own
+33:05 quad code agent very soon. There's a lot
+33:07 coming. So, please subscribe, like this
+33:10 video. Much love. Peace.

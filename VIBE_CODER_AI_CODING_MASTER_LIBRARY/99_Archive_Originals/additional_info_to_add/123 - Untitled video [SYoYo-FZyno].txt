@@ -1,0 +1,558 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=SYoYo-FZyno
+Channel: Riley Brown
+Video ID: SYoYo-FZyno
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 you can now take your idea for an app
+0:02 with zero coding experience using Ai and
+0:06 create a full web app these are the best
+0:09 two tools for code generation and for
+0:12 deployment to take your ideas and create
+0:16 a full web app so this app right here on
+0:18 the left is by far the best AI tool for
+0:21 code generation you just type what you
+0:23 want your website to look like feel like
+0:26 all the different features how to
+0:27 organize the data and it adds all the
+0:29 different files necessary to run the
+0:32 code so that it can run on the internet
+0:34 however it's really hard to deploy
+0:36 websites effectively however the best
+0:39 tool for deploying websites on the
+0:42 market right now and that makes it the
+0:43 easiest is repet so I use cursor to
+0:48 generate all the code and I connect it
+0:51 to repet so I can see it in real time if
+0:54 I were to ask for these changes right
+0:56 here I can press uh command shift enter
+0:59 and it will l literally begin to edit
+1:01 the code right and it says okay now it's
+1:03 going to look into script editor and
+1:05 it's looking at my instructions and now
+1:07 it's saying certainly I'll modify this
+1:09 and we can watch it I can press this
+1:11 control panel and we can see what it's
+1:14 doing so it's making all these different
+1:16 changes it just finished and here it
+1:18 says accept all notice how there's been
+1:21 no change over here now let's hit accept
+1:23 all save all look at that it completely
+1:26 changed the website right here on the
+1:29 right and it actually I think it did a
+1:34 decent job yes so obviously some of the
+1:37 formatting isn't great but I can say can
+1:40 you make the arrows right I don't want
+1:44 this like Arrow background right here
+1:46 can you make the arrows have no
+1:50 background color just put the arrows in
+1:56 white and now it's going back to town
+2:00 now we're just going to hit accept
+2:02 all and look at that right there now we
+2:05 have these change these changes right
+2:07 here and this is exactly what I was
+2:10 asking for right so I can click on this
+2:12 one right here and I can add some music
+2:16 here this is an app I'm making for my
+2:18 team can you have the buttons on the
+2:23 right
+2:25 sidebar match the color of the block
+2:30 instead of being only blue
+2:37 generating let's see if that works so in
+2:40 theory if we press this red one it
+2:41 should match yep and let's try the
+2:45 purple one
+2:46 here yep so in this video an is actually
+2:50 going to explain how to set up cursor to
+2:52 be fully synced with repet and the
+2:56 process seems a little weird at first I
+2:58 will admit but once you get it down it
+3:01 it takes like 3 or 4 minutes to just
+3:03 very quickly set up cursor to be fully
+3:05 synced with repet which allows you to
+3:08 download the template that we created
+3:10 last week for free and download it and
+3:13 so it has all the packages necessary to
+3:16 deploy on repet so that means if you use
+3:20 the template and then hook it up with
+3:21 cursor you can begin just using the
+3:25 English language to create websites and
+3:27 there's no copying and pasting involved
+3:29 just typing on the left window automatic
+3:31 syncing to edit the entire code base on
+3:35 repet and then you can deploy it
+3:36 straight to the internet and hook it up
+3:38 to whatever domain that you want in this
+3:40 video we made an AI clone of Trello and
+3:45 we added multiple AI features and we did
+3:49 it in about six or seven cursor prompts
+3:53 which uses Claude 3.5 Sonet it took 20
+3:56 minutes and I've still have never
+3:58 written a sing single line of code even
+4:01 though I've been making apps with code
+4:03 every single day for the past 48 days
+4:06 and so I'm really excited for this video
+4:08 okay so the first step is we are going
+4:10 to hit template
+4:12 one now we're going to use this template
+4:17 cursor number one and we are going to
+4:20 create a new project with our
+4:23 template now I will let you take it from
+4:25 here so we're going to open up cursor
+4:28 and now what now war in cursor click the
+4:31 terminal button at the bottom right so
+4:34 you've got this terminal opened up yep
+4:38 um and over here you're going to click
+4:39 command
+4:41 K and we are going to generate an SSH
+4:44 key which is Sally a password so what
+4:47 we're going to tell is generate SSH key
+4:50 for repet name it repet and copy the
+4:53 public key to the clipboard
+5:04 and submit yep
+5:09 submit and we can click on the
+5:12 terminals it just entered this likee
+5:15 here and we just click enter we run
+5:17 it and it's generating this public key
+5:21 we can so rally already did this so he
+5:24 can override it that's totally fine it's
+5:27 yes is fine yes is fine
+5:30 um and you can click
+5:32 enter so when when it says enter a
+5:35 passphrase I'm just going to press enter
+5:37 and then enter again right yeah you
+5:39 don't need to enter passphrase um and
+5:42 now you should have copied this SSH key
+5:44 to the clipboard now we it happens
+5:46 automat it happens
+5:48 automatically yeah it happens
+5:50 automatically now we search for ssh in
+5:53 graet we go to the Keys section in SSH
+5:57 and we can add a key
+6:00 um call it whatever you want and paste
+6:02 what what you just
+6:04 copied and we paste it in and we're just
+6:07 going to call this cursor two and now
+6:09 we're going to add SSH key MH and we're
+6:13 going to we're going to go to connect um
+6:16 ah in the SSH Tab and we're going to
+6:18 copy that shell command yep and now
+6:20 we're going to go back to
+6:22 cursor and we're going to click open
+6:24 with ssh in the middle of the screen mhm
+6:28 and we're going to paste
+6:30 the command we just
+6:31 copied and we're going to click on the
+6:34 add new SSH host right
+6:38 there and then we're going to paste the
+6:40 command
+6:41 again and click
+6:44 enter um and you can just click the
+6:47 first
+6:48 one click this
+6:52 yes and now in the bottom right click
+6:56 connect ah you want to continue
+7:00 continue
+7:03 yes nice so if you want to do this for
+7:05 another repl make sure you create a new
+7:08 host and paste your command from that
+7:11 drop l in and H add new host yeah add
+7:14 new host now we want to make sure we
+7:17 open the
+7:19 folder um okay open folder and this
+7:22 should be cursor number one yeah or the
+7:25 name of your project if you named it
+7:27 something else and we hit okay okay yeah
+7:31 all right nice nice nice let's go so in
+7:35 theory if we run this template which
+7:39 should be operational we just need to
+7:41 add our Firebase Keys which we can do
+7:43 really quickly so let's just go to
+7:47 Firebase and uh we're going to go to the
+7:51 console oh I'm so excited for this um
+7:55 I'm going to open in split view like
+7:58 this we're going to do is I'm going to
+8:01 create a project and we're going to call
+8:04 this uh cursor
+8:07 one and continue and we're going to
+8:10 enable and what we can do while this is
+8:13 loading is we can open up our secrets
+8:15 tab in repet which will so we've
+8:19 connected cursor to repet now we need to
+8:21 connect repet to the Firebase which
+8:23 stores all the data and allows people to
+8:25 sign in that cursor will uh since it can
+8:29 all the project files it'll know how to
+8:31 write code so that it stores things in
+8:33 the right place which is really cool so
+8:35 we can hit
+8:36 continue and we are going to create a
+8:39 web app like this and we are just going
+8:43 to uh type
+8:45 in um app
+8:48 44 doesn't matter what you put there um
+8:52 and then this will create an app and
+8:55 this is going to give us the tokens that
+8:56 we need to place here and so I'm going
+8:59 to quickly and you want to keep these
+9:02 secret
+9:08 and we can go like this and we can
+9:12 continue to console and we can add all
+9:17 the secrets and then what we're going to
+9:19 want to do is copy this Dev
+9:22 domain and then go through this process
+9:26 just follow along this will all make
+9:28 sense in a second so we're going to go
+9:29 to fir store database and all we need to
+9:31 do is create a database storage and
+9:34 authentication if you've been following
+9:36 along and creating apps with the
+9:38 template you've probably done this
+9:39 multiple times already we're creating a
+9:41 fir store database we need to do
+9:46 authentication get
+9:47 started first thing that I do is I'm
+9:50 just going to go to settings authorize
+9:51 domains add a domain we're adding this
+9:53 Dev URL domain so we can actually add we
+9:58 can sign in in this
+10:00 uh development environment now uh signin
+10:03 method we're going to hit Google enable
+10:05 and then just do the default email
+10:08 doesn't really
+10:11 matter then what we're going to do is
+10:14 last one build
+10:18 storage get
+10:20 started start in test mode always test
+10:22 mode so now that that's loading I'm just
+10:24 going to go ahead and refresh this go
+10:26 here okay so we can now open uh cursor
+10:31 so cursor it's FL graphlet by running on
+10:34 your own
+10:36 computer um but it has a lot more
+10:39 powerful AI features so why don't we
+10:42 just press command
+10:43 I command
+10:46 I Okay cool so this is your composer
+10:50 which is probably the most powerful
+10:52 cursor feature you need cursor Pro for
+10:54 this they can click the settings icon in
+10:57 the top right corner they can click um
+11:00 on features or sorry beta beta features
+11:04 and enable composer change the uh create
+11:09 new post page and make it look way
+11:17 cooler
+11:19 um and um
+11:23 modern we'll see what happens so and
+11:27 then you're going to do you hit command
+11:28 shift enter for this like to to run it
+11:31 with the full code base right yeah I
+11:34 think you can do that yeah I usually
+11:36 give it the exact files but like I feel
+11:39 like we can just give it the whole code
+11:41 base yeah when you get started I feel
+11:43 like it's you should do like I don't
+11:46 sometimes I don't know which files it
+11:47 needs to change exactly just give it the
+11:49 whole code base it'll figure it out it
+11:51 actually doesn't upload all the files
+11:53 it's really smart and first it checks
+11:55 which files it needs to upload from the
+11:58 codebase based on your prompt And So It
+12:01 Goes one by one in all the files sees
+12:03 which files it needs to upload and then
+12:04 only uses those and now wow we have we
+12:07 have something done um yeah and so here
+12:10 we can see that it it only changed the
+12:12 ad post right am I reading this right so
+12:14 it changed the adpost oh and I need to
+12:17 hit accept and so these are the ones
+12:18 that's going to change right here yes um
+12:21 and we can hit accept and I can hit
+12:24 accept and there you go you see it just
+12:27 changed it didn't change super
+12:28 drastically but like it's a lot cleaner
+12:30 like and we can just open this up full
+12:32 screen too I I want to I want this to be
+12:37 a
+12:38 Trello clone I want to create an app
+12:43 that is
+12:45 exactly like
+12:48 Trello that has
+12:51 boards lists and cards and
+12:56 categories which should be
+12:59 colored um
+13:02 dropdown
+13:04 and the
+13:06 default ones should be project and idea
+13:13 the
+13:14 user should be able to create
+13:19 more
+13:22 okay and then that should that be good
+13:24 you think yeah I think that should be
+13:27 good so we can actually click click on
+13:29 card and we can see what it's doing so
+13:31 it's creating a new file called card it
+13:32 already did that now it's going to
+13:34 create or a file called list it just
+13:37 created that now it's creating board.
+13:41 TSX it hasn't been saved how do you tell
+13:43 when it's done you go back to the the
+13:45 first tab in the composer where it says
+13:47 composer and it should like be done in
+13:50 terms of like you know um okay so it's
+13:53 done so we're going to accept all should
+13:54 I refresh this or should I just leave it
+13:57 yeah just accept and Save and it should
+13:59 refresh automatic
+14:01 also save all it's telling us to to do
+14:06 couple more things in the chat so let's
+14:08 follow its instructions okay yeah just
+14:11 say keep going and
+14:13 then um it'll make the changes and while
+14:16 we're making the changes anytime it says
+14:18 to install something the composer
+14:20 doesn't have access to the terminal or
+14:23 to install any packages so that's a a
+14:26 little um tricky part right so we want
+14:30 to make sure we can install things so
+14:33 whenever it says oh install this package
+14:36 um we want to go back to ret go to the
+14:40 Shell and ret so we're going to go to
+14:42 Shell and we're going to paste this in
+14:45 yeah do n um we have to do npm space i
+14:49 space this we're just trying to install
+14:52 this uh uh okay
+14:56 npm I this yeah
+15:00 okay so on normally it says to do mpm
+15:04 did it have it there or or no it didn't
+15:07 but we didn't tell the composer that we
+15:10 were working in uplet if we had probably
+15:13 tell us to do that yeah because I mean
+15:15 it is Claude and Claude always does that
+15:17 too so accept
+15:20 all oh wow create a new board so this is
+15:23 our board and so each board has a list
+15:26 let's say videos we can create Cod
+15:29 projects and then within coding projects
+15:31 we can do Trello right the app that
+15:34 we're working on right now Trello app at
+15:36 a card nice looks good um Trello app um
+15:42 maybe we want to make a notion app maybe
+15:45 want to make a real time chatbot
+15:49 app oh it's like super responsive I like
+15:53 it um so let's click on this let's see
+15:55 what happens wow we can add a
+15:57 description um
+15:59 description color we can change it to
+16:01 Blue let's see what that looks like
+16:03 category is an idea save
+16:06 changes okay so now we see that the
+16:08 Trello app is now blue and I don't see
+16:11 anything on the front so let's Okay so
+16:14 let's go ahead drag and drop too into
+16:17 videos oh no way wait uh maybe add a
+16:22 card in videos oh yeah yeah it doesn't
+16:26 stay so now let's just tell it
+16:28 everything that's that went wrong so
+16:31 board is looking
+16:33 good but can't drag the cards to a new
+16:39 location also can you add due
+16:44 dates in the card card details here it's
+16:48 done and we're going to hit accept and
+16:51 save okay so we're going to create a new
+16:54 board interesting okay did you save did
+16:57 you save
+16:59 files oh so if you click save while
+17:02 you're in a current file it only saved
+17:06 the card file so click on composer and
+17:08 click on oh I didn't hit accept all okay
+17:11 we're learning how to use it okay I need
+17:13 to press accept all and there it did it
+17:16 changed it right in front of us um and
+17:20 so now we can actually go back to our
+17:23 original board which is Riley and an
+17:26 Board of greatness there we go we see
+17:28 idea right there listed and now we can
+17:30 actually select a due date I want to add
+17:34 image uploads I want to add image
+17:36 uploads to the card display as a
+17:42 thumb nail for the
+17:46 card if you
+17:49 upload many images choose the first one
+17:57 uploaded um
+17:59 you
+18:00 should also be able to upload videos all
+18:05 right let's
+18:06 see this is insane this is going to
+18:09 change my life dude this is this is trip
+18:12 three times as fast
+18:14 probably um once I really get it once I
+18:16 get it down yeah yeah I mean it's
+18:19 changing the code directly so I ones yep
+18:23 and I think we are set now let's hit
+18:26 accept all save all okay look at this
+18:30 now in real time right here it's just
+18:33 done
+18:35 tasks cursor front
+18:39 end AI features which we should just add
+18:43 pretty soon right now actually because
+18:45 I'm feeling hyped about it design I
+18:49 don't know this is just an example so
+18:50 now in theory based on my instructions
+18:53 it should fill out this bar and so I
+18:55 should press this nice nice nice save
+18:59 changes let's go like this save changes
+19:01 and it has it right here listed on the
+19:04 front and it should also have the
+19:06 ability to add an image so we are two
+19:09 for two let's add this
+19:12 screenshot of the Tropic Avi key let's
+19:16 save the
+19:17 changes and we have it right here listed
+19:21 just like this look at that and so we
+19:24 can go realtime chatbot app and it only
+19:26 makes sense that we add the uh flux to
+19:29 this this is awesome dude um oh I'm
+19:34 fired up and so let's just let's do it
+19:37 so we're going to open up another
+19:41 repet which is this one right here and
+19:44 I'm going to Fork it this is one we've
+19:46 already set up so we're going to go to
+19:48 we're going to go to deployments we're
+19:51 going to grab this link right
+19:53 here and I'm just going to go ahead and
+19:55 paste this into cursor I think a better
+19:58 way to do this would be to make a file
+20:01 and the reason why is because the
+20:03 composer is not very good at outputting
+20:06 like text right so let's just copy all
+20:09 this code and we can put it into a file
+20:11 add file okay and then put uh backend.
+20:17 py yeah
+20:19 sure and then paste in this code right
+20:23 here yeah so we're going to paste in
+20:25 this back end right here cool and that
+20:29 file oh where how so just press command
+20:33 s to save and you can actually reference
+20:35 the file so you can click at like put
+20:38 the at sign and type the name of the
+20:42 file nice nice nice okay so this it's
+20:46 called backend py this is
+20:49 mirroring the uh backend on a repet
+20:55 project you can just say it's deployed
+20:58 on the Ur like
+21:00 URL okay it's deployed on the URL I want
+21:06 to be able to use
+21:10 flux to generate images within cards oh
+21:15 no no no no I want to use flux to
+21:19 generate an image
+21:22 automatically every time I and I change
+21:28 the card
+21:30 or name a new card oh no no no I I every
+21:32 time I create a card in the in a
+21:38 list uh called
+21:42 images nice I like it when
+21:45 ever a new uh board is created this
+21:51 should be uh a default list um that
+21:57 starts out
+21:59 on every board okay that starts out on
+22:02 every board
+22:05 um so when a card is
+22:10 created within this list use
+22:15 flux to generate an image and upload it
+22:21 uh to card
+22:24 details which will then be the
+22:29 um thumbnail so I'll just okay run it Y
+22:33 is that one deployed currently yes it is
+22:37 okay it is done already it is done and
+22:40 so then we would need to go to the
+22:42 backend py and copy this and paste it
+22:44 into the back end right well it didn't
+22:47 make any changes to the back end py
+22:48 because we can oh it didn't make any
+22:50 yeah because our backend template
+22:51 already has a flux endpoint like we set
+22:54 it up with flux endpoint an open AI
+22:56 endpoint and a few other endpoints for
+22:58 most use cases the back end actually
+23:00 won't need any changes it'll just need
+23:02 the URL and hopefully it works Let's
+23:05 test it out all right all right accept
+23:08 save oh it added the images um that's
+23:10 awesome that's awesome right so now we
+23:12 can hit add a
+23:17 card oh we need to hit to add a title
+23:20 okay that's good um we can say um work
+23:23 on art project let's see so now it
+23:26 should be something related to art
+23:28 project
+23:29 oh I don't even know if I specified
+23:30 based on the title um let's see but that
+23:34 it can be all right so work on art
+23:37 projects oh
+23:39 wow nice and it is it's based on the uh
+23:43 on the thing right like um play
+23:52 basketball throw the
+23:55 football off of a cliff
+24:06 I want you to
+24:08 completely uh
+24:10 revamp uh the look of the site to match
+24:16 the Roman
+24:18 Empire
+24:20 and oh wow it updated five six different
+24:23 pages here now it's
+24:25 done all right so now we're going to hit
+24:27 accept all
+24:30 we
+24:31 have and it just does this right here
+24:34 that's so cool
+24:37 um hello o nice font um I wonder if the
+24:41 tasks uses Roman
+24:43 numerals oh oh no but it's a check box
+24:46 never mind yeah and when I create a card
+24:50 within that list it should use AI to
+24:56 generate a description and the steps and
+25:02 use flocks to generate an image yeah
+25:09 sure oh you did chat with code base yeah
+25:12 comeand shift enter I think I did yeah
+25:15 okay okay good it's on
+25:18 each okay
+25:21 so that's fine let's test it let's test
+25:24 it it's fine let's see um add a card um
+25:28 create a Trello clone on
+25:33 uh using repet and
+25:40 Claud so we got a syntax
+25:43 error that's good yeah we should put
+25:47 this whole thing
+25:51 into we got this
+25:55 error this is so much faster faster this
+25:58 is actually crazy how much faster this
+26:01 is um I'm going to refresh this all
+26:03 right so let's paste that in add
+26:07 card oh my look it even added this
+26:10 Trello board oh it added the image it's
+26:13 not getting the maybe the anthropic will
+26:15 probably take longer
+26:17 so we'll
+26:20 see yeah I think what makes me feel like
+26:24 that's not going to work oh it did work
+26:26 oh it worked let's go
+26:29 that's crazy there is still an error um
+26:32 warning each child in I'm not I don't
+26:34 even care let's just throw it in like
+26:37 that's easy okay all all features
+26:41 worked all features worked but we just
+26:46 got this error and I'll paste that in
+26:49 add a new card here so create a uh
+26:54 iPhone app and so we're going to add
+26:57 this card and within three seconds it
+26:59 should add an iPhone there we go and
+27:01 that's freaking awesome
+27:04 um and there you go you see that how it
+27:07 switched from Blue to White that tells
+27:09 me that it's in there uncategorized and
+27:12 now let's test it see it works properly
+27:16 subscribing to this channel will be the
+27:17 best decision you've ever made do it now

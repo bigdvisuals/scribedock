@@ -1,0 +1,865 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=xDARu4U8_X0
+Channel: Riley Brown
+Video ID: xDARu4U8_X0
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 Anthropic just released a huge update to
+0:03 their desktop app, and they made a ton
+0:05 of changes specifically around Claude
+0:08 Code, and then how you navigate between
+0:10 chat, co-work, and Claude Code. So, I
+0:12 spent about 3 and 1/2 hours yesterday
+0:15 really testing Claude Code, and while I
+0:16 was using it, I realized that every
+0:19 single major AI company is just building
+0:22 the same exact product. And here's the
+0:25 Claude desktop app. If you see here,
+0:28 right? Here we have Codex, right?
+0:30 They're very similar. We have the
+0:31 projects on the left with chat threads
+0:34 beneath it. If we go back to the Claude
+0:36 desktop app, we have projects on the
+0:38 left, chats beneath it, and even the
+0:40 general agent builders like Perplexity
+0:42 Computer, Manis, and Gen Spark are all
+0:46 starting to look extremely similar. All
+0:49 of these companies are building the same
+0:51 exact thing. And so, in this video, I
+0:53 want to talk about why all of the huge
+0:56 AI companies are building what feels
+0:58 like an identical product, and then also
+1:00 how to prepare, no matter which company
+1:03 wins this race. Okay, so 2 days ago,
+1:06 this leaked on Twitter. This is OpenAI's
+1:09 new Codex app, and they're calling it
+1:12 the super app. They're basically taking
+1:14 Atlas, which is their agentic browser,
+1:17 Codex, and ChatGPT, and they're
+1:19 basically combining them all into one
+1:22 single tool. People actually don't want
+1:24 separate applications. They want one
+1:26 central hub for intelligence, or at
+1:28 least that's what OpenAI thinks. And so,
+1:30 this leaked, and as you can see here, it
+1:32 has this new browser, right? This
+1:34 portion of the app was not here before.
+1:37 Actually, Codex in its current form does
+1:40 not have this right side panel that
+1:42 shows the browser. And this is almost
+1:45 identical to the current Claude desktop
+1:47 app, right? You have your chats, like
+1:49 your different threads, your agent, and
+1:51 you have the preview. Same thing. You
+1:54 have your threads or chats, your agent,
+1:56 and the preview. And so, what I want to
+1:58 talk about here is kind of like what all
+2:01 of these companies and tools are
+2:03 building, and what they're building
+2:05 towards. And the reason why I think
+2:07 people like these left side panels is
+2:09 because it's the easiest way to switch
+2:11 between different chats, right? If the
+2:13 agents are taking longer, the question
+2:15 becomes what do you do while you wait,
+2:18 right? While your agent is working, what
+2:19 do you do? Well, the logical thing to do
+2:21 is switch chats and work on multiple
+2:24 things at once. And so, that's what
+2:27 people want, and I think that we're
+2:28 seeing all of these companies are kind
+2:30 of coming to the conclusion that this
+2:32 interface is the best for such activity.
+2:35 Being able to switch agents really
+2:36 quickly and switch what things you're
+2:39 working on. And so, in this paradigm, in
+2:41 this new world, multitasking becomes a
+2:44 lot more important. You need to be able
+2:46 to multitask, because if you're
+2:47 delegating a ton of what you're working
+2:49 on to agents, you need to find something
+2:51 to do. And the best developers I know,
+2:53 cuz I'm here in San Francisco, I've
+2:54 talked to a lot of people at a lot of
+2:55 companies, are just finding ways to work
+2:57 on many parts of the codebase at once by
+3:00 talking to agents in parallel. And
+3:02 oftentimes they'll be working on five to
+3:04 10 things at once. And if you get really
+3:07 good at agentic coding, you can just
+3:09 accomplish so much more in a shorter
+3:11 period of time. And so, I think it's
+3:12 useful to think about like what
+3:15 advantages do each of these tools have?
+3:17 I think there's two main types of
+3:18 advantages. One is models, and the next
+3:22 is like integrations. And so, I think
+3:24 it's useful to think about that Claude
+3:28 has the Claude models, right? So, if we
+3:30 think about who has a model advantage,
+3:31 Claude has a model advantage, Codex by
+3:34 OpenAI has a model advantage, Cursor
+3:37 doesn't. I would argue this is kind of,
+3:39 right? They've trained a new model
+3:41 called Composer 2. We could put this as
+3:44 like a maybe, right? It's unclear that
+3:46 Cursor is going to be able to train
+3:48 their own coding model. They're trying
+3:49 to, and they created one which was like
+3:52 a distilled Kimmy K2 or something like
+3:54 that, but it's unclear that Cursor is
+3:56 going to be able to train their own
+3:58 model that's really good at coding. And
+4:00 then I packaged Conductor, right?
+4:02 Conductor is another startup that's
+4:04 gained a lot of traction amongst the
+4:05 like coding and programming communities,
+4:07 and people actually enjoy using this
+4:09 tool to kind of switch from agent to
+4:11 agent. However, they aren't training
+4:13 their own model, and so they actually
+4:15 are a no for this. And if you look at
+4:18 Anti-Gravity, and Anti-Gravity is by
+4:20 Google, right? Yes, they are going to be
+4:23 competing for the best general agents
+4:25 and the best coding agents in the world.
+4:26 And it's important to note that for
+4:28 these three, for OpenAI, for Claude, and
+4:32 for Anti-Gravity, let's say their models
+4:34 end up being the best models in the
+4:36 world at a certain category, they can
+4:39 offer them on their platform for cheaper
+4:41 than anyone else. Right now, if you
+4:43 bought $200 worth of credits on the
+4:45 Claude desktop app, you can get up to
+4:47 like $4,000 worth of token usage, right?
+4:51 They're subsidizing your usage on the
+4:53 platform to try and get more and more
+4:55 people using the platform, because
+4:57 ultimately they want you on their
+4:59 platform. But on Cursor, you can use
+5:01 Claude Opus 4.6 on the platform.
+5:04 However, $200 goes extremely quickly on
+5:08 Cursor, which is why they're trying to
+5:09 get you to use their cheaper model. The
+5:11 problem is is that they haven't been
+5:14 able to train a model that's on par with
+5:16 OpenAI and Claude, and so that's what
+5:19 they're desperately trying to do. T3
+5:21 Code, they do not have a model
+5:23 advantage. Now, this one is also a
+5:25 maybe. So, Manis is the most popular
+5:29 general agent tool, other than maybe
+5:32 Claude Co-work now, but Manis was just
+5:35 purchased by Meta. So, Manis was
+5:37 purchased by Meta, and they might end up
+5:41 training their own model, and they could
+5:43 potentially win this battle. You know,
+5:46 Mark Zuckerberg is great at copying once
+5:49 people have done something great, so
+5:50 maybe they will copy or figure out a way
+5:53 to train a really solid AI model,
+5:55 because they did purchase a lot of
+5:56 talent. They literally were buying
+5:58 people for a hundred million dollars per
+6:00 year or something crazy like that to try
+6:02 and find the people to train a model,
+6:03 and it's unclear if they're going to be
+6:05 able to do that. Perplexity Computer
+6:06 doesn't have this advantage, and then
+6:08 Replit and Lovable also do not. And I
+6:10 will say Replit and Lovable are trying
+6:13 to pivot into more general agents. So,
+6:15 like you can think of this tool, so they
+6:16 were a vibe coding platform. Both Replit
+6:18 and Lovable are a vibe coding platform,
+6:20 but they both have been marketing
+6:22 general agent use cases. And so, they
+6:24 both have been posting about things like
+6:27 you can create like motion graphic
+6:29 videos, spreadsheets. On Replit, I think
+6:32 you can also create presentations on on
+6:35 Lovable as well. It's kind of like this
+6:37 soft pivot from being able to vibe code
+6:40 to being able to create anything that
+6:43 would be useful for business. And you
+6:45 notice their marketing for these
+6:46 platforms are kind of shifting into like
+6:48 run your business with AI instead of
+6:50 building apps, because I think what all
+6:52 these companies are realizing is that
+6:53 vibe coding is just a tool that agents
+6:56 can use, right? And basically any agent
+6:59 that you interact with can do vibe
+7:01 coding. And it's not that much easier to
+7:03 vibe code on Replit than it is on Claude
+7:05 Code, and that's why I think so many
+7:07 people are moving from tools like Replit
+7:10 to Claude Code, because it's just like
+7:12 almost as easy, and like I said earlier,
+7:15 it's like 10 times cheaper to use Claude
+7:17 Code instead of Replit. And so, that is
+7:20 kind of the model advantage and a kind
+7:22 of an overview of which tools are in the
+7:24 race. Another one that's really useful,
+7:26 and I think the biggest two winners here
+7:28 is going to be Manis, and Manis is a
+7:31 sleeper, right? I'm going to put yes for
+7:32 this, and then yes for Anti-Gravity,
+7:35 right? Google has a massive suite of
+7:38 tools that you can integrate with.
+7:39 Email, you can integrate with Google
+7:41 Docs, Google Sheets, presentations. And
+7:44 then obviously they just have just
+7:45 collected so much data on people that
+7:48 might be useful for general agent
+7:50 platforms. So, here are kind of the 12
+7:53 main things that I think create a useful
+7:56 agent, right? If you have an agent, and
+7:58 it's supposed to be really useful and do
+8:00 work for you, these are the 12 things
+8:02 that I believe are the most important.
+8:04 And the number one thing, in my opinion,
+8:06 is it's connected to the same things
+8:08 you're connected to, right? I'm Riley
+8:11 Brown. I'm a content creator, and every
+8:13 single day I use Slack, I send emails, I
+8:16 have a calendar, right? I use a phone.
+8:19 All of these things, right? There's so
+8:21 many different people are sending
+8:23 information to this, and it is important
+8:25 that I read it. It is important that I
+8:27 respond. It's important that I take
+8:29 action based on the things that happen
+8:31 to these platforms. So, if you were to
+8:33 create an agent that is reliable, right?
+8:36 It's always on and reliable, it does
+8:39 real work autonomously, if it's supposed
+8:42 to remember everything and be proactive,
+8:45 and you can think of proactive is just
+8:47 like doing useful stuff without you
+8:51 asking, right? If you If you want an
+8:54 agent to do all of these things, it is
+8:56 absolutely essential that it's connected
+8:59 to everything that you're connected to
+9:01 as a human. And so, if you're looking at
+9:03 this list right here, which of these
+9:04 companies have things that everyone's
+9:07 connected to? And the answer are these
+9:09 two right here, right? We like you use
+9:11 Gmail, so like the whole Google suite,
+9:14 right? Which is which includes Google
+9:15 Drive, which includes email, which
+9:17 includes calendar, docs, sheets, all of
+9:20 those things. And then Meta has
+9:22 Facebook, IG, it has WhatsApp, you know,
+9:26 some people use Threads, apparently.
+9:29 Also Facebook Ads Manager. All of these
+9:32 things can be leveraged by Meta. In
+9:35 fact, that's what they're doing. If you
+9:36 wanted to run ads right now through an
+9:39 AI agent, the best place to do it is
+9:41 Manis. They're actually opening up their
+9:43 ads manager to Manis, and it's way more
+9:46 open for them. So, you can fully control
+9:48 Facebook ads. You can also do automatic
+9:50 outreach to Instagram influencers
+9:53 through Manis. You actually can't do
+9:55 that on any of the other agent
+9:57 platforms. And so Meta, which is you is
+9:59 a very closed company. They don't like
+10:01 to they don't share anything about their
+10:03 algorithm like X does. They make their
+10:06 APIs very closed down. You can't just
+10:08 use it for whatever you want. They're
+10:10 allowing Manifold to do the same. And so
+10:12 I would think that Manifold is in a
+10:15 really good position to create a very
+10:17 good agent. They just need to catch up
+10:19 in the model category. Okay, so now that
+10:21 we've kind of talked about the
+10:23 landscape, I think it's important to
+10:24 realize that you cannot go wrong by
+10:26 picking one of these tools. I would say
+10:28 if you don't know which tools to focus
+10:30 on, I would just choose Codex and Claude
+10:32 desktop app because Claude Opus and
+10:35 Codex 5.4 are the best models in the
+10:37 world and I don't think it's that close.
+10:39 Gemini is pretty bad in my opinion. It
+10:42 started off and it's pretty good at like
+10:44 front-end design, but for agentic tasks,
+10:46 it's just not very good. And so what I
+10:48 would do is I would focus on which tools
+10:50 are the best models and I would learn
+10:52 Claude desktop or Codex. And whatever
+10:54 you do, I would just focus on one for a
+10:56 couple months because again, they're all
+10:58 building the same product. So what you
+11:00 need to do is just get in a habit or a
+11:01 routine of using one of these tools
+11:04 every single day. And what I want to
+11:06 talk about next is using Claude desktop
+11:09 to create a useful agent. And I want to
+11:11 stick to this framework, right? I want
+11:13 to think about, okay, how do we use
+11:15 Claude desktop, the Claude desktop app
+11:17 to create a useful agent or a system
+11:21 that's really useful for you. So we're
+11:23 going to go ahead and we're going to
+11:24 open up Claude desktop. And in this
+11:26 process, you're going to learn how to
+11:28 use Claude desktop and kind of the key
+11:29 vocabulary that's important to
+11:31 understand for Claude. Okay, so we're
+11:34 going to go through this somewhat
+11:35 quickly, but I'll try and stop when I
+11:37 need to to kind of break things down. So
+11:39 Claude desktop is divided into three
+11:40 modes: chat, co-work, and code. You can
+11:44 think of these as levels: easy, medium,
+11:46 and hard or like low risk, medium risk,
+11:50 high risk. Claude code can literally
+11:52 control your entire computer. You can
+11:53 ask it I have it automatically set up to
+11:56 have like a dangerously skip
+11:58 permissions. So if we take a look here,
+12:01 I believe oh, bypass permissions. This
+12:03 is what I like to have on by default. So
+12:06 the agent can literally go off and do
+12:08 anything anywhere on my computer. You
+12:10 can think of Claude co-work is kind of
+12:12 isolated to a specific folder on your
+12:15 computer and it's made to be a lot
+12:17 safer. I think the the future product
+12:19 that everyone will use is one that looks
+12:21 like Claude code or Codex, right? Codex
+12:24 and Claude code look very similar.
+12:26 Except if you were to ask it for a
+12:28 presentation or a spreadsheet or a some
+12:30 document, it would just do it. It would
+12:31 recognize that it's a general agent
+12:33 task, not a coding task, and it would
+12:34 just open up the correct window and do
+12:36 it. And then maybe it would label it as
+12:38 like a co-work tab instead of having
+12:41 this separate co-work thing that's like
+12:44 sandboxed. In my opinion, it's kind of
+12:46 annoying. I just use chat or I use code
+12:48 personally, but some people love
+12:51 co-work. This is like people who work in
+12:52 law or like anywhere anytime you're
+12:55 creating like documents over and over
+12:57 again, those are the people who really
+12:59 like co-work. And so if we think about
+13:00 our useful general agent, I want my
+13:03 general agent to be like unrestricted.
+13:06 And it is riskier, but it's just the way
+13:08 I want to operate. I'd rather go faster
+13:11 and I kind of want to have to accept a
+13:13 bunch of requests and like give it
+13:15 special permissions and take a bunch of
+13:17 time to set it up. I just want to let my
+13:18 agent loose. If it does something wrong,
+13:20 I'll say don't do that again. And that's
+13:21 kind of how I want it to work. And so I
+13:23 want it to be unrestricted and I want it
+13:25 to be able to have like full access to
+13:28 computer and integrations. And so that
+13:30 would help me do work autonomously,
+13:33 right? Cuz then I don't have to step in.
+13:35 Another part of autonomously is a new
+13:37 feature that they added, which is
+13:39 scheduled. And so if we go to Claude
+13:41 code, here I said create a new
+13:44 presentation and we can here in the side
+13:48 I had it create this like little
+13:49 presentation of the recent news for
+13:51 Anthropic. And you can see here it
+13:53 created this document. Let's go ahead.
+13:55 And it's kind of cool. One thing that
+13:56 you can do to make it more autonomous is
+13:58 say like I could say schedule, you can
+14:01 type {slash} schedule, please do this
+14:05 every day at noon and look for new
+14:09 companies every time. These should be AI
+14:13 agent companies. This will create a new
+14:18 scheduled task and it will do it every
+14:20 single day. And so that's one thing that
+14:22 you can do to make it more autonomous is
+14:23 you can set up scheduled tasks. The next
+14:26 thing that's really useful for general
+14:27 agents is that your agent should always
+14:29 be on and this makes it more reliable.
+14:32 And one of the ways that people have
+14:33 created agents that are always on is
+14:36 they are creating remote controls or
+14:39 channels. So if you think of Open
+14:41 Claude, what people loved about Open
+14:42 Claude is you could put an agent on a
+14:44 computer like a Mac Mini and you could
+14:47 message it through Telegram. So the
+14:48 computer stays on always and you can
+14:51 message this agent from an external
+14:53 device, right? You can do it through
+14:54 iMessage or Telegram and it was always
+14:57 on and you could message it whether you
+14:58 were at the store, you're on vacation,
+15:00 you can talk to your computer. And
+15:02 Claude, in Claude's example, right?
+15:04 They've created this feature called
+15:06 dispatch. Now, I actually haven't really
+15:09 went into dispatch. I actually use a
+15:11 different feature that they have, which
+15:13 is called remote control. What this
+15:15 should do is this will allow me to
+15:18 message this from my phone. If you open
+15:20 up the terminal and I'll zoom in here on
+15:22 the terminal and I type Claude, let's
+15:24 say I'm running a Claude session, I can
+15:26 type {slash} remote {slash} control. And
+15:29 so we can run this. Check this out.
+15:31 Remote control is active. If I were to
+15:34 refresh this, you see that this one just
+15:37 showed up. So remote control is
+15:39 connecting. And so when you turn remote
+15:40 control on, right? I can say please look
+15:44 at the PDF I saved earlier today in my
+15:49 downloads and summarize it for me. It's
+15:54 about AI agents. And so since I have
+15:58 Claude code running on my computer and I
+16:00 did {slash} remote control, I can
+16:02 message it. They are adding this to the
+16:04 desktop app. They're going to make this
+16:05 a lot easier. I just only know how to do
+16:07 it from the terminal. That's what I'm
+16:09 used to. But I'll show you this real
+16:11 quick. Here it says there's a lot of
+16:13 PDFs in your downloads. Let me search
+16:15 for the one specifically about AI
+16:17 agents. Found it. Understanding agents
+16:19 for saved today. Let me read it. This is
+16:22 a PDF that I downloaded from Canva. I
+16:25 created it for a podcast I did last week
+16:27 and I could be anywhere I want. As long
+16:30 as my computer's on, it has access to
+16:32 all of my files on my computer. And so
+16:34 that is why people are connecting to
+16:37 their phone. They like to be able to go
+16:39 anywhere they want. They like to have
+16:40 freedom in their life and they like to
+16:43 use these remote control channels. And
+16:45 so Claude has a built-in channel, Claude
+16:48 iOS app channel. That is a lot of people
+16:51 really like this and a lot of these
+16:53 companies are creating a Telegram and
+16:56 WhatsApp integration so that you can
+16:58 message your AI agents. And so another
+17:00 thing that made Open Claude specifically
+17:03 really useful is it had a feature called
+17:05 heartbeat. And heartbeat is basically
+17:06 this thing what that says like every 30
+17:08 minutes, you're going to wake up and
+17:10 you're going to check the heartbeat.md
+17:12 file and then you're going to kind of
+17:13 check in on things based on what's
+17:15 listed there. So you could say just like
+17:17 every 30 minutes, check my email. If I
+17:19 need to respond to something, please
+17:21 respond. And it will just do it. But
+17:23 what you can do to kind of mimic this is
+17:24 you could set up an integration in
+17:26 Claude, right? If you wanted to go to
+17:27 Claude and you could say something like
+17:30 every 30 minutes, check email and
+17:33 respond if something is important. And
+17:37 ideally, if you're doing this, you
+17:39 should give it a lot of context, right?
+17:40 You should talk about your goals, right?
+17:42 I was thinking about this in context of
+17:43 being a content creator because I get 50
+17:46 to 100 emails a day from people wanting
+17:48 to sponsor my content. You would
+17:50 probably want a filter. Like you only
+17:52 want to work with companies that fit
+17:54 into a certain category, that have a
+17:56 certain budget, etc., etc. And so you
+17:58 would need to like give in detail
+18:00 documentation on how the agent should
+18:03 think about it through. But I think if I
+18:04 spent two or three hours doing this, I
+18:06 could give it pretty good instructions
+18:08 so that I could create a fully
+18:09 autonomous AI agent that negotiates
+18:12 brand deals for me. And so that's
+18:13 another example of a way that you can
+18:15 make it more proactive is using the
+18:17 schedule feature. You just want to make
+18:19 them a little bit more open-ended,
+18:20 right? You could say like every 30
+18:21 minutes, check my email, do something
+18:23 useful. That is probably the most
+18:25 proactive way that you can set this up
+18:26 because Claude code doesn't have this
+18:28 heartbeat feature. And I've talked about
+18:29 this in previous videos. Okay, now I
+18:31 want to get into what I think you should
+18:33 spend most of your time on as someone
+18:36 who's trying to create the best agent
+18:38 that gets things done for you. If you
+18:40 want to use them effectively, you need
+18:42 to focus on customization. And this is
+18:45 plugins {slash} skills {slash}
+18:48 connectors. And so if you go to Claude,
+18:51 you can see that they actually changed
+18:53 the plugins tab to customize. So if you
+18:56 click customize, here you see skills and
+18:59 you see connectors. And again, these I
+19:01 feel like they're always changing
+19:03 between like skills, connectors, MCPs,
+19:06 integrations,
+19:08 plugins. Like the names always change.
+19:11 But what you need to realize is that
+19:13 skills are just a markdown file. And so
+19:16 what you need to focus on before you
+19:18 dive into using Claude co-work or Claude
+19:20 code, is you should just sit down and
+19:23 write, right? If if if I were you, I
+19:25 would just take three hours and I would
+19:27 just look at your job, right? You just
+19:29 take your job. And then, right? If I'm a
+19:31 content creator, what are the things
+19:32 that take up my time? Like I'm
+19:33 researching a certain niche, right? For
+19:36 me, it's like AI, vibe coding, and
+19:39 agents, right? That's how I spend my
+19:40 time. I also research what content is
+19:44 working for other creators. And this
+19:47 includes like topics and formats. And
+19:50 that's just from the content creation
+19:51 size. I'm also CMO and founder of a
+19:55 company and so I have a whole 'nother
+19:56 list of tasks that I do. And so each of
+19:59 these tasks comes with a standard
+20:01 operating procedure. So, you know, I
+20:03 could create I have like 50 different
+20:05 jobs that I have to do for being a
+20:07 content creator founder. For each of
+20:09 these you want to create an SOP. And
+20:11 this can be like a one pager. When
+20:13 researching what content is working for
+20:15 other creators, you want to first think
+20:17 about like what it needs access to. For
+20:19 this is YouTube/Supabase.
+20:21 So, Supabase is a connector or an API
+20:25 that you can use which makes it really
+20:26 fast to pull YouTube transcripts. And
+20:29 so, that is one thing that's really
+20:31 useful. But you also want to just list
+20:33 out the steps in researching. And so
+20:36 mine would look something like this like
+20:37 steps in researching. I would list all
+20:39 of the creators that I like which has
+20:42 certain signals to me that I want to
+20:45 make content somewhat similar to those
+20:46 creators. And I would also want to list
+20:48 out all the topics that I'm interested
+20:49 like Open Claw, Claw Code, maybe all of
+20:52 the tools that are listed here I would
+20:54 put on this list. And I would just make
+20:56 documentation. And you can do this in
+20:57 Notion. You can also use I think the
+20:59 most popular tools that people do this
+21:01 in that aren't like just files on your
+21:03 computer would be Notion and Obsidian.
+21:05 And I would just go through and take
+21:06 like 3-4 hours to like list out all the
+21:09 things that you're good at. What makes
+21:11 the tasks that you do good, right? You
+21:13 would you want to create documentation.
+21:16 And again, I think the most important
+21:17 part of creating documentation is like
+21:20 really, really good examples, right? You
+21:22 want to create examples of high-quality.
+21:25 And so I actually have on Notion, if you
+21:28 go to Notion, I have a new team space
+21:31 that I created called master database.
+21:33 So I have Riley's role as a CMO, Riley
+21:36 as a content creator. We also have other
+21:38 company contacts, we have audience and
+21:41 messaging. All of these have a lot of
+21:43 information in them. All of these are a
+21:45 document. One thing that I have is
+21:47 something called Paragon templates. And
+21:49 I use the Supabase API to pull a bunch
+21:54 of content creators that I like and just
+21:56 pull the transcripts of their videos.
+21:58 And then I created this skill on exactly
+22:00 how to create intros like Callaway.
+22:02 Callaway is one of my good friends and
+22:04 he's also a YouTuber. He has amazing
+22:06 intros. And so I I just call these
+22:08 Paragon templates which are just like
+22:10 examples of high-quality things.
+22:13 And so when my AI agent, when I say look
+22:16 at Notion or it's instructed in any way
+22:19 of looking at Notion, what it's going to
+22:20 do is it's going to go into this
+22:21 knowledge base and it's going to read
+22:24 this file or this page within Notion.
+22:27 And it describes to the agent, right?
+22:29 I'm writing this for the agent. So this
+22:31 is my knowledge base. This is where
+22:32 Riley information is regarding and who
+22:34 he is. Riley is doing different roles,
+22:36 CMO and I'm also a content creator and
+22:39 everything is listed in master database.
+22:41 And so the agent will read it. The agent
+22:42 will know how everything's organized and
+22:45 so anytime I need my agent to get
+22:47 context, I'll say check Notion and
+22:49 whenever it checks Notion, the first
+22:50 page it looks like at is this page which
+22:53 is knowledge base. And so that's kind of
+22:55 how I organize everything and that's
+22:57 kind of how I do this step of creating
+23:00 high-quality documentation for
+23:02 everything that I do. And so I think
+23:03 that is really, really important to just
+23:06 get all of that out there. And I put
+23:07 this in the customizable, right? The
+23:09 more documentation you create, the more
+23:11 your agent is going to start thinking
+23:12 like you. And then I would focus on
+23:14 plugins and skills. So now one of your
+23:17 skills might be like a script writer and
+23:20 you might create this as a skill and
+23:22 maybe you write all of your scripts in
+23:23 Google Docs so you can put that in the
+23:25 skill. Like always write it on this
+23:27 specific Google Doc or create a new
+23:28 Google Doc in this account, etc., etc.
+23:31 But as part of the script writer skill,
+23:33 it should have this documentation. So
+23:35 you should reference the documentation.
+23:36 Hey, if you need to understand Riley's
+23:38 point of view, check the documentation
+23:40 or check this page in the documentation.
+23:43 And so you have this like single source
+23:45 of truth that your agent can access when
+23:47 doing tasks. And so I think it's really
+23:49 important to create an internal
+23:51 documentation for you or for your
+23:53 company that you spend time organizing.
+23:56 And you can even create a little
+23:57 workflow that allows your AI to analyze
+23:59 and suggest things that you should
+24:01 update and maybe it'll ask you a
+24:02 question. Say like, "Hey, we should
+24:03 probably update this." And then it'll
+24:05 ask you a question, you type your answer
+24:07 and then the AI will go off and edit
+24:09 that part of the documentation. I'm
+24:10 still working on that specific workflow
+24:12 for me because I want to create a system
+24:14 that automatically has my documentation
+24:17 updated because I think it's really
+24:18 important in creating really useful
+24:20 skills. What you should do is you should
+24:22 probably just export these and keep them
+24:24 all into a folder. And when you do that,
+24:26 it's very easily movable, right? Let's
+24:28 say Claw Code is the best right now but
+24:30 Codex is clearly the best in 2 months.
+24:32 You want to be able to move those skills
+24:34 into a new platform. And so that's why I
+24:36 would just keep them in Notion or
+24:37 something like that. And so currently
+24:38 right now Claw Code and Codex are the
+24:41 best two coding models in the world in
+24:44 my opinion. I do think Codex has a
+24:46 slight edge over Claw Code. I think 5.4
+24:50 extra high. I'll show you. This is the
+24:51 model that I use. I use GPT-4 extra
+24:56 high. The effort is extra high. This
+24:58 model can code insanely well. It can
+25:01 build full like I literally built a full
+25:04 Replit clone iOS app that just worked
+25:07 after a couple prompts using Codex. It
+25:09 went off for 40 minutes. And these two
+25:12 models, when you use Codex in its
+25:14 harness, right? If you use it in this
+25:16 app, it is the cheapest, right? When you
+25:18 use Claw in either if you you have to
+25:20 use Claw in the desktop app or in the
+25:24 terminal and your you will get way more
+25:27 bang for your buck, right? If you try to
+25:29 use Claw in Cursor, it's way more
+25:31 expensive. And so if you are interested
+25:33 in coding or like maybe 50% of your work
+25:35 is coding, I recommend using Claw Code
+25:37 or Codex. And these agents are just
+25:40 really good at coding by default. So you
+25:41 don't have to do that much customization
+25:43 up front. And in terms of remembers
+25:46 everything or just memory, this is
+25:49 probably the most interesting thing
+25:51 going on in AI. I think there's a lot of
+25:53 companies right now trying to solve
+25:55 memory. How to effectively store
+25:57 information in your agent so that it
+26:00 remembers everything about you. And you
+26:03 know, these these innovations are
+26:04 happening at like the memory level and
+26:06 the file level. And so there's a lot of
+26:09 different companies creating these like
+26:10 special databases that you can put in
+26:12 your projects that allow your agent to
+26:14 have better memory. And Anthropic and
+26:16 OpenAI are working on baking memory
+26:18 directly into the model. And so I think
+26:20 over the next year or so we're going to
+26:22 see the biggest improvements in memory
+26:25 other than probably just raw ability at
+26:27 coding. I think they're going to get
+26:28 significantly better at memory. And so I
+26:30 think this is another really good reason
+26:31 to just record everything. And one thing
+26:33 that you can do for memory is you can
+26:35 set up a cron job. So we can set up an
+26:37 automation, right? Which you can create
+26:40 scheduled task. You can create a
+26:41 scheduled task for every night. So with
+26:44 my Open Claw that's running downstairs
+26:45 on a Mac mini, I have a cron job set up
+26:48 where every single night at 9:00 p.m. it
+26:51 writes in a Notion document. It just
+26:53 journals. So journals in a Notion
+26:56 document. Claw Code, it leaked recently
+26:59 and they're actually working on a
+27:00 feature called dreaming. And I believe
+27:02 this is similar to this where like every
+27:04 day at some point maybe during the night
+27:07 when you're not using your agent, your
+27:08 agent will actually go out and like
+27:09 clean up and kind of document what you
+27:12 did for the day. And it will organize
+27:14 them in these little notes so that when
+27:16 you ask your agent a question in the
+27:18 future, it can reference these notes if
+27:20 it needs to understand better what
+27:22 you're trying to do. And so this is a
+27:24 multi-billion dollar, maybe even
+27:26 trillion dollar industry alone just
+27:29 trying to figure out how to get agents
+27:31 to have better memory. The best thing
+27:32 that you can do now is just be really
+27:34 organized in all of your notes and
+27:36 documentation and that's the best thing
+27:38 that you can do for now until there's a
+27:39 massive breakthrough in memory. And so
+27:41 finally, in conclusion, I think what you
+27:43 should do to focus on becoming better
+27:46 with AI agents in a business setting or
+27:49 whatever your goals are, you should
+27:50 probably think about these six things.
+27:52 As we talked about earlier, you should
+27:53 think about your documentation, right?
+27:55 You should have really, really good
+27:56 documentation for your job, what your
+27:59 role is and anything that may be you
+28:03 know, this you can think of this is just
+28:04 like a wiki that your agent can access
+28:06 if it needs it. And then you should
+28:07 think about what tools you use, you
+28:09 know, like Gmail, maybe you use Granola
+28:11 for meeting notes and maybe you use
+28:14 Zoom, maybe you use YouTube, right? You
+28:17 can create a YouTube integration if
+28:19 you're a YouTuber like me which is
+28:20 probably the most useful integration
+28:22 that I have for content creation. And
+28:24 then you should just have a list of all
+28:25 the documents that you create, you know,
+28:27 if you work in business, you often
+28:28 create documents, just list out all of
+28:30 them. Find an example of really good
+28:32 ones and then save them to a folder. And
+28:34 you can give your agent access to those.
+28:36 Skills or you can also think of them as
+28:38 SOPs, right? For everything that you do
+28:40 you do, list out the specific steps on
+28:42 how to do them. And since AI is getting
+28:44 good at analyzing videos, right? Gemini
+28:46 can actually ingest a video. So you
+28:49 could even make a Loom video describing
+28:50 exactly how you do things. That could be
+28:53 useful context for your AI agent later.
+28:55 Where do you waste time? This is one
+28:56 that's pretty big, right? If you just
+28:58 list out all the areas where you waste
+29:00 time, you can usually turn those into
+29:03 automations, right? If you want your
+29:05 agent to be more proactive, right? If
+29:07 you want it to be more proactive or
+29:09 autonomous, you should probably list out
+29:11 the areas where you waste time, right?
+29:13 You don't want it to just be
+29:14 autonomously and proactively doing
+29:16 random things. You would rather it be
+29:18 doing things that waste your time,
+29:20 right? You want it to solve things that
+29:21 are a big pain to you. And so you want
+29:23 to list out your time wasters. And then
+29:25 finally, you want to just have a very
+29:27 clear documented goals and ideally like
+29:30 a spreadsheet where you track your
+29:31 progress so that your AI agent can know
+29:34 if you're on progress towards a specific
+29:36 goal. If it understands your goals, it
+29:38 can aim what it does autonomously at
+29:41 those goals. And so if I were you, like
+29:44 the most important thing that your agent
+29:46 understands about you is where you want
+29:47 to go and then how to verify if you're
+29:49 there or if you're on track. That is
+29:51 probably the best thing like if you were
+29:53 to hire a consultant that runs ads for
+29:56 you for example, you would want to know
+29:57 like that your consultant would want to
+29:59 know it's like what's your budget and
+30:01 what are your goals? Like what revenue
+30:03 do you want to reach or how much profit
+30:04 do you want to do in 2027, right? Then
+30:06 you can work backwards. Okay, we need to
+30:08 spend X amount of money on on ads per
+30:10 month, but if it doesn't understand your
+30:12 goals, then you're just going to
+30:13 aimlessly do things. So I think really
+30:15 clearly understanding your goals is
+30:17 really important and then storing this
+30:19 somewhere that's not you know, tied to a
+30:21 specific platform ideally locally or you
+30:24 can use notion because all of these
+30:26 agent tools that we've covered in this
+30:28 video have notion integrations. So if
+30:30 you store it on notion, you can point
+30:32 your AI agent or integrate your AI agent
+30:35 with notion and tell it exactly where to
+30:38 find all of that information in notion.
+30:40 And so that's what I would start out
+30:42 with. And remember, you can't go wrong
+30:43 if you use Manifold, you're not going to
+30:45 go wrong. They use Anthropic under the
+30:46 hood, they have skills and it's arguably
+30:49 one of the best agent tools. Just focus
+30:51 on a few of them, zoom out, look at the
+30:53 job that you're doing or that you're
+30:55 trying to do or applying to do and
+30:58 document everything and then set your
+31:00 agents to work because AI is getting
+31:01 better, AI will get better. So anyway,
+31:04 thank you guys for watching. Uh we
+31:05 covered a lot in this video and I'll
+31:07 I'll see you here for the next one.

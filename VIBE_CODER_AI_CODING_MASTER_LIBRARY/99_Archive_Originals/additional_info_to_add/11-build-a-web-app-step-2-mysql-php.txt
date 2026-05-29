@@ -1,0 +1,612 @@
+11. Build a Web App - Step 2 - MySQL/PHP
+
+0:17 all right so here is step two we have to
+0:19 worry about an email submit a city and
+0:22 the state so basically the uh email and
+0:25 City the state we don't have to worry
+0:27 about checking to see if it's ENT it or
+0:28 not because it um there's no blank field
+0:31 so at the very least they'll be from
+0:34 Alabama Alabama if they never uh
+0:36 specified anything no big deal uh so all
+0:39 right so basically let's go back here to
+0:41 our files
+0:43 and all right so this is step two uh.
+0:47 PHP so what we want to do is much like
+0:51 much in the same way as index.php is
+0:53 check this data um to see if it's been
+0:56 submitted and so what I'm going to do
+0:59 real quick is just copy this stuff from
+1:02 index.php and just paste it in just to
+1:04 save myself a little bit of time and
+1:06 then edit it here so I let's check out
+1:09 the form variable name I mean the form
+1:12 names uh for the input field so we have
+1:15 email and City okay so let's see so if
+1:20 is set
+1:22 City all right so we have that now we
+1:25 also have uh City here and email
+1:31 and this one right here the else is we
+1:34 can change this
+1:37 to yeah that's fine you left one of the
+1:39 fields blank
+1:41 okay yeah we can make it more
+1:48 specific and a
+1:51 city okay all right
+1:55 and we don't have to worry about the
+1:57 character count stuff right here here so
+2:01 let me just go ahead
+2:04 and get rid of all that all right so
+2:08 when it comes to an email submit there's
+2:11 a couple things that I you can do to
+2:15 make sure that the email is in a correct
+2:17 format because you don't want to enter
+2:19 obviously some incorrect type of emails
+2:23 that don't have like at symbols or
+2:24 whatever so I basically there's there's
+2:28 a number of functions that are written
+2:30 that will help you um but I think one
+2:32 that works that I've tried
+2:35 is right here and I've copied it off
+2:38 screen so I'm going to paste it in all
+2:40 right so let me get
+2:43 this worked structured correctly
+2:49 here all right so basically this is
+2:51 saying if filter
+2:54 VAR email post email which is our
+2:56 variable filter validate email this is a
+2:59 p PHP function then it will say uh error
+3:03 message please enter a valid email now
+3:06 the way we've been doing this is we've
+3:07 been sticking all of our error message
+3:09 at the bottom uh so what I want to do is
+3:12 just get rid of that and then just put
+3:15 in
+3:17 else remove this
+3:22 part paste that right there all right so
+3:27 now in here is basically where the next
+3:30 set of coding will go and basically I
+3:34 think that's pretty good
+3:37 I for that portion now you could
+3:40 probably get real elaborate and check to
+3:42 see if the city is an actual City uh
+3:45 valid City but uh I'm not going to go
+3:46 that crazy uh so so yeah basically this
+3:50 is the part where we're going to
+3:52 actually insert all of our data into the
+3:56 table that we created uh with exception
+3:58 to the um I and I offer those are going
+4:01 to go into a different table all right
+4:03 so the first table insert that we're
+4:06 going to do is going to be based on that
+4:07 years of data the
+4:09 email I let me see if I have it out
+4:13 here this stuff so I the the email city
+4:17 and state all right so with the help of
+4:20 that uh MySQL DB class this is where
+4:23 we're going to go ahead and put it in so
+4:26 query equals and then the the uh quotes
+4:31 and inside here is the actual MySQL
+4:33 command insert
+4:36 into and the name is
+4:39 users and then you put in parentheses
+4:43 the actual fields that you want to put
+4:47 information into basically so if I go
+4:48 over go back here we don't need to put
+4:51 we don't have to insert the ID it gets
+4:53 added automatically and it also Auto
+4:56 increments so the first basically us you
+4:59 know which that'll be me obviously when
+5:01 we test it there'll be id1 and then
+5:04 after that it'll be id2 you know so I we
+5:08 want to we don't have to put that so
+5:09 we're going we're going to specify the
+5:11 email city and state the date added we
+5:13 don't uh yeah we have to specify that as
+5:15 well um so let me show you real quick so
+5:18 this would be
+5:20 um what was the first one I have a
+5:22 terrible memory let me see over here
+5:25 email city state okay so they don't have
+5:27 to be in a specific order but I just
+5:29 kind of like to do it that way email
+5:31 city
+5:32 state values and then this is where the
+5:35 values correspond with the order in
+5:37 which you did so the email will go
+5:43 here just like
+5:45 that and then post
+5:49 City and
+5:53 then wait a second
+6:01 yeah State okay wanted to make sure I
+6:03 got confused for a second all right Post
+6:08 State and I just realized we have
+6:10 another field that we have to worry
+6:12 about here oh oh yeah the the state will
+6:14 always be specified so we have to worry
+6:16 about that okay cool all right so then
+6:18 close up the parentheses on that and put
+6:21 a semic coolant at the end along with a
+6:23 quote all right so now this is just a
+6:26 variable in and of itself it doesn't do
+6:28 anything so we have to do is actually
+6:31 make the call so DB and then a dash and
+6:36 less than sign uh
+6:39 query query and that's our query
+6:41 variable right here all right so that's
+6:45 the actual line with the help of the
+6:48 MySQL DB class that will insert the data
+6:52 into the actual
+6:54 table pretty simple and you know what I
+6:57 also kind of just forgot to
+7:01 I yeah uh we need a password field so
+7:06 usually in this case in order to cut
+7:09 back on how many fields that are
+7:11 required I will just automatically
+7:14 generate a random password for a person
+7:17 uh and then just send them that password
+7:21 uh the random password and email and
+7:22 then so when they log in again they can
+7:25 change it to whatever custom password
+7:26 they want so the benefit to this of
+7:28 course is if we go over here we don't
+7:31 have a we don't have a password field
+7:33 that's required so yeah I what we have
+7:37 to do is make an adjustment real quick
+7:39 so after email we could put a password
+7:41 field so over here put one after
+7:46 email call this
+7:48 password and I'm going to make it a
+7:51 varar and I think like H I'll put it
+7:55 like 15 characters and then save all
+7:58 right so now we have a password
+8:01 field and I have a function that will
+8:04 automatically generate a random password
+8:06 that I'm going to
+8:07 use all right and so that function it's
+8:11 kind of lengthy I I'm just going to
+8:13 stick it at the top
+8:16 here is function generate password all
+8:19 right so the way you use the function is
+8:22 uh the name and then uh
+8:25 basically anything else uh so what I
+8:28 would do is
+8:30 come over here just above that insert
+8:32 query is I put it just create a variable
+8:36 any name you want I'll just call PW gen
+8:38 equals
+8:40 generate
+8:42 password just like that all right so P
+8:46 PW gen will just generate uh an eight
+8:51 character the length here specified is
+8:53 eight password so if you uh yeah you
+8:56 want to download these project files
+8:58 they'll basically
+9:01 uh include this function here so you
+9:03 don't have to sit there typing it out
+9:05 all right so now what we want to do is
+9:07 edit this put in password right
+9:09 here and then
+9:12 put another field over here and this
+9:15 will be PW gen all
+9:18 right now also what we're going to want
+9:21 to do is you want them to be able to uh
+9:25 verify their email so that's kind of
+9:29 very important uh especially if you're
+9:30 going to do any type of mailings you
+9:32 want them to be um like actual double
+9:34 opt in so what we'll do is create
+9:38 another field man I forgot to create all
+9:40 these fields no problem though uh right
+9:44 after yeah we could do it after State
+9:46 doesn't really matter create another
+9:48 field we'll call it
+9:51 verified and what we want to do is put
+9:54 int just one so one will be yes they
+9:57 verified their email zero will be no
+9:59 didn't so we'll save by default it's
+10:02 going to be zero so uh it only becomes
+10:05 one after they verify their email which
+10:08 we'll do here soon all right so I we
+10:12 need to add that or right no we we don't
+10:14 need to add that it'll automatically be
+10:15 zero uh when each row is posted okay so
+10:19 now what we want to do is down here
+10:21 we're going to send an actual email all
+10:24 right so basically uh we can do this
+10:27 with php's mail function and so I what
+10:31 we can do is first let's specify the
+10:34 subject so the
+10:36 subject this is going to be a variable
+10:39 and equals and this is going to be
+10:42 whatever I will show up in the subject
+10:45 of the email basically that they receive
+10:47 so we'll put in
+10:52 bful please verify your email
+10:57 okay all right and then what we want to
+11:00 do is put a message so message equals
+11:05 and open that up and because we have
+11:08 uh tabs and stuff here we want this to
+11:12 come down a little bit and we want it to
+11:13 be flush up against here otherwise it'll
+11:15 screw up the formatting of the email so
+11:17 this is going to be a plain text email
+11:19 and so what we want to put
+11:21 is I something
+11:25 generic please click the following
+11:30 link to verify your email
+11:35 address okay and then we're going to
+11:38 have to put in an actual link so we'll
+11:42 go ahead and do that
+11:45 HTTP barter.com
+11:49 confirm email I guess we can call it and
+11:52 we'll mod rewrite that and that will be
+11:56 question mark e ID for e email ID
+12:00 basically
+12:02 equals
+12:04 and we basically need a unique
+12:07 identifier uh we can't we shouldn't just
+12:09 use the actual ID of their insert a row
+12:11 so we're just going to use that random
+12:14 password generated fi for that so what
+12:17 we need to do is specify that variable
+12:19 so you end the quote right there and
+12:22 then put a period PW gen put another
+12:27 period and then open it back up
+12:31 just like that and then you could put
+12:33 something generic like uh if you did not
+12:37 request this uh to be
+12:41 well if you did not sign up to
+12:46 barter.com please ignore this email
+12:49 because obviously people can enter other
+12:51 people's emails all right so uh and then
+12:54 we'll put thank
+12:55 you barter.com yeah whatever all right
+13:00 so now let's put the
+13:02 ending uh semicolon
+13:06 there now we can also put uh a headers
+13:10 variable
+13:12 from and this is where we can put in the
+13:17 actual well we put barter.com
+13:20 and then we can
+13:25 put
+13:27 the yeah actual we put contact at
+13:36 bar.com and let's see
+13:39 here also do
+13:44 slrn and then the actual line that will
+13:47 send the mail so that's mail and we want
+13:51 to send that
+13:53 to the post
+13:57 email and then comma
+14:01 subject
+14:02 message and
+14:06 headers and then we can put in right
+14:10 here a variable success equals
+14:15 1 and then we'll check for that variable
+14:18 down
+14:19 here uh and so let's go ahead and do
+14:22 that real quick so what we're going to
+14:24 do is
+14:26 basically um right after
+14:29 here we'll put
+14:32 in oops
+14:34 PHP
+14:36 if is set so not set
+14:41 success then show all this stuff down
+14:44 here basically is what that means and so
+14:48 that will come yeah right
+14:51 here so we'll put
+14:54 PHP else
+15:01 and then we'll put some HTML in
+15:03 there so this is where a person this is
+15:07 what a person will see if they
+15:08 successfully entered their email and
+15:10 that and submitted that information
+15:11 basically so what we can do is reuse
+15:16 the this stuff right
+15:18 here and then paste that
+15:26 in and we could put in I
+15:35 please check your email to
+15:38 confirm no wait please check your email
+15:41 to verify your
+15:45 account and save that all
+15:50 right so with any
+15:53 luck uh we'll see if this uh works all
+15:56 right so let's uh
+16:01 yeah that'll work about emo okay so let
+16:03 me go ahead and upload this I'm sure
+16:05 there's probably an error
+16:10 somewhere I'm not sure what files I did
+16:12 edit but we'll see all right
+16:17 so all right so it does have that those
+16:20 session variables save those session
+16:22 variables will expire after a certain
+16:25 amount of time I think you can set that
+16:26 up uh but I'm not sure what that time is
+16:29 is but anyhow um
+16:32 so you know before I test this I want to
+16:35 fix this thing right here really
+16:37 quickly um what am I
+16:40 doing the issue with that was if I go
+16:43 back into
+16:45 index need changed to that so let's go
+16:49 step
+16:53 two paste that in there we go so now
+16:56 that won't show up by default
+17:03 okay all right so what happens if I just
+17:06 hit submit sorry you need to specify an
+17:10 email and a city okay so what happens if
+17:15 I just do
+17:16 this please enter a valid email perfect
+17:19 because that wasn't a valid email so
+17:21 I'll put in I contact designc course.com
+17:26 City let's put in like Warren and then
+17:29 Ohio for that now let's see if it works
+17:33 awesome please check your email to
+17:35 verify your account wow it worked wait
+17:38 and we have to be certain sometimes
+17:40 won't if we got the query WR wrong it
+17:42 won't enter so if I just click on this
+17:45 now there we go oh wait you know what we
+17:48 need to make sure this is encrypted I
+17:50 kind of forgot about that step so what
+17:53 we can do is go ahead over to
+17:59 yeah I forgot about that so there's a
+18:02 lot of different ways to encrypt the
+18:03 password but you can just run it
+18:07 through a md5 and so function Bas which
+18:11 is a part of PHP so what you can do is
+18:13 put uh PW gen
+18:16 equals uh
+18:18 md5 PW
+18:21 gen all right so
+18:25 now oh you know also by default I think
+18:28 we need to increase the
+18:31 size of the password field so if you
+18:35 take this click on edit we can change
+18:40 the length I forget how many characters
+18:42 the md5 is I'm not sure what it is off
+18:45 hand but I increased it to 25 basically
+18:48 all right so let me go back in here I
+18:50 just clicked empty to get rid of all the
+18:52 fields we'll try that again so we'll
+18:56 upload that
+19:01 we go to final step put in
+19:07 contact uh the
+19:13 city all right so now we'll check
+19:17 this now it's an encrypted password so I
+19:20 won't be able to see anybody's passwords
+19:23 all right so I the verified of course is
+19:26 uh by default not there oh and I forgot
+19:28 about the data added damn I just keep on
+19:30 messing things up uh let's go over here
+19:33 real
+19:38 quick data
+19:43 added and then put a comma and put
+19:47 in I think it is now
+19:52 so just like that save
+19:57 that and real
+19:59 quickly come back over here
+20:03 empty do this again one more
+20:06 time and uh right
+20:12 here that's my wife's email uh right
+20:17 here all right so let's check this real
+20:22 quick yeah oops what I need to do is
+20:27 come back
+20:29 sorry about
+20:32 that get rid of those stupid
+20:38 quotes and instead of going through this
+20:41 again I'm just going to put in any type
+20:43 of
+20:46 email check
+20:48 this there we go correct all right so
+20:53 then I real quick I check my email to
+20:55 see if I actually received the email and
+20:59 here it is I paused real quick and I
+21:00 just got it up and uh now if you click
+21:03 on this link it's not going to work cuz
+21:05 we haven't created that page so what
+21:07 we'll do is create that page real quick
+21:12 so let's come back over
+21:14 here and I'm just going to go to files
+21:17 I'm going to save this file save as on
+21:19 our current page and we'll call this
+21:22 verify email.
+21:26 PHP and let's see here get rid of this
+21:30 stuff at the
+21:34 top all right and then also get rid
+21:37 of let's see here all of this stuff no
+21:41 not
+21:46 that all
+21:47 right and save that all right so
+21:51 basically at the top we have to check
+21:54 for that variable that Eid variable
+21:57 that's in the URL so basically if is
+22:02 set and this type whenever you have a a
+22:05 variable that's specified in the actual
+22:07 URL it's a get not
+22:09 post and we'll put
+22:13 Eid so that means if it's if it's there
+22:17 good and what we want to do now is a
+22:20 query query equals
+22:24 select I think I'll do for this one
+22:28 uh
+22:31 account
+22:33 from and this is going to be
+22:36 users
+22:38 where and I'll put
+22:41 in
+22:42 password equals
+22:45 get
+22:49 Eid and then we'll put we'll actually do
+22:52 the query and that's going to be um oh
+22:55 wait we're going to put um so what the
+22:59 the purpose of this is is to first of
+23:01 all check to see if that Eid actually
+23:05 exists as a password because somebody
+23:07 can alter that field in that URL and
+23:10 just try to go there in the browser so
+23:11 you want to check for that so uh what
+23:14 you would do
+23:15 is uh let's see
+23:18 here yeah is put in um I'll just name it
+23:23 exists equals DB and this will be result
+23:29 query so the result will basically give
+23:32 us a count if the count is zero then it
+23:34 doesn't so I it doesn't exist that is so
+23:38 it would be uh
+23:40 if exists doesn't
+23:43 equal uh zero I think it would be that
+23:48 and then we'll put in another
+23:52 query query equals update users
+23:56 set I think it's verified let me go back
+24:00 and remember verified
+24:03 yeah verified equals
+24:07 1 where password equals get
+24:13 Eid and then result equals DB query
+24:21 query success equals
+24:24 1 all right I
+24:29 I think what we'll do is change this to
+24:31 equals
+24:34 one and then what you could do is else
+24:37 if it
+24:39 doesn't maybe just send them back to the
+24:41 homepage so header
+24:43 location
+24:46 index.php all right so we also have to
+24:50 uh adjust the HT access for this so that
+24:54 it
+24:55 is yeah let me see where was that step
+24:58 two
+25:01 and where were we sending them confirm
+25:03 email okay
+25:07 so just copy that paste it it's going to
+25:11 be
+25:12 confirm
+25:13 email and this is going to
+25:16 be verify mail.php
+25:20 okay so let's see if this actually works
+25:26 all right so let me come down here
+25:29 here I'm just going to take those three
+25:31 I'm not sure if I edited that step two
+25:33 one or
+25:34 not all right so basically let me open
+25:38 up that
+25:40 email and see if it
+25:43 works and actually I just realized
+25:46 something it didn't work but I just
+25:47 realized it's a bad idea to use the
+25:49 password field for the verification so
+25:51 we should have a separate field as you
+25:54 can tell I didn't do this before we we
+25:56 should have a separate field specific
+25:58 spefically for the actual uh
+26:01 verification code so I'm going to make
+26:03 that adjustment really quick so at the
+26:06 end of uh State we can put uh a field
+26:10 called verify ID the uh it'll be a
+26:13 varart and we want it to be 32 and I
+26:18 just found out that you know when it
+26:19 comes to the m md5 hash it's 32
+26:21 characters long so yeah save that let's
+26:24 go back to password because I only made
+26:26 that 25 so that wouldn't even work work
+26:28 correctly I will edit that to
+26:32 32 save it all right so then all I have
+26:35 to do is make a quick adjustment to the
+26:39 index or step 2.
+26:42 PHP basically uh we want to
+26:49 take
+26:52 this and we'll call this verify code let
+26:56 generate password
+26:58 and we'll put in after yeah after State
+27:02 we'll put
+27:04 in verify code I think we called
+27:08 it and then put that right
+27:18 here yeah let me make sure it is verify
+27:20 code I can't remember anything or verify
+27:23 ID I'll edit
+27:26 that ver I coulde all right and then we
+27:32 have to make an adjustment real quick
+27:35 to this
+27:38 portion uh over here to verify email so
+27:42 select count from users where verify
+27:45 code is to get the
+27:47 Eid and then you just set verified one
+27:50 where verify
+27:53 code is
+27:55 that all right and then also come back
+27:58 to step two for the email and this is
+28:01 going to be changed from verify code
+28:04 to or from PW gen verify code okay there
+28:09 we go sorry about that uh let me go
+28:11 ahead and going to empty everything in
+28:14 here and we'll try this again real
+28:20 quickly all right so I'm not really
+28:23 concerned about this
+28:25 stuff email address contact at designc
+28:28 course.com
+28:33 warrren all right so now what I want to
+28:35 do is to make sure this stuff submitted
+28:39 correctly the verify code is not there
+28:43 what the hell one second and yeah I
+28:46 don't even think I uploaded the files
+28:48 that's okay so I just emptied that real
+28:50 quick I paused the video and I uploaded
+28:52 the files this time and so now we have
+28:54 the verify code which is right here and
+28:57 it's not uh we didn't run through an md5
+28:59 because we don't have to so now the uh
+29:02 we'll check the email real quick which
+29:05 is right here if we click on this we'll
+29:08 see nothing shows up uh correctly
+29:11 because we have to adjust real quickly
+29:15 the uh let me see verify
+29:18 email this stuff we need to add a
+29:21 forward slash right
+29:23 here I think that's the only two that we
+29:25 need to do so if I re-upload that real
+29:31 quick and we refresh that
+29:34 page oops I don't want to go to
+29:37 Google ah dang
+29:39 it one
+29:42 second there's also an image and where
+29:45 is it at I
+29:47 think nap. PHP for our
+29:51 logo forward slash
+29:55 there and upload it
+30:03 and because we don't have anything here
+30:05 it's not showing us a message it's not
+30:07 shooting us back to the homepage
+30:09 fortunately which means that it should
+30:11 have worked so if we go here hit browse
+30:13 verifi is now one so that works um so
+30:17 real quick just end as we're at 30
+30:19 minutes already um let me go back to
+30:22 verify email what we want to do is put
+30:26 here let me go back to step two grab
+30:28 some HTML real
+30:31 quick uh you know what I think what we
+30:34 would do actually is in verify email if
+30:37 it's
+30:38 verified we can do
+30:41 a a
+30:43 header
+30:45 location and this would be slash uh I
+30:48 guess we could call it Main and what
+30:50 that'll do is send them to that main
+30:53 area um the main control panel or not
+30:55 control panel but where it lists out
+30:57 there potential matches um I'm not going
+31:00 to get before we do this actually though
+31:03 we'll have to automatically just log
+31:05 them in and I yeah but I'm not going to
+31:08 mess with that now because we're already
+31:09 at 30 minutes so tomorrow we'll go ahead
+31:12 and do that all right so yeah I
+31:15 apologize for being went all around I I
+31:18 didn't do this project beforehand I was
+31:19 just kind of winging it so that's
+31:21 usually the natural process of how it
+31:23 goes so all right yeah uh I will see you
+31:25 guys tomorrow

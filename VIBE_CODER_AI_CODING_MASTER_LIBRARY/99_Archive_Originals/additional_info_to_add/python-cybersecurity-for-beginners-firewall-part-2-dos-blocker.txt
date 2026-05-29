@@ -1,0 +1,259 @@
+Python Cybersecurity for Beginners: Firewall Part 2 - DoS Blocker
+
+0:00 foreign
+0:01 [Music]
+0:04 back today with another episode in our
+0:07 ongoing series of python cyber security
+0:08 mini projects here's just a quick
+0:10 reminder in case this is your first
+0:11 video in the series these mini projects
+0:13 are made to be beginner friendly if
+0:15 right now you just have a basic grasp of
+0:17 python syntax you know what a loop a
+0:20 variable and a function is then these
+0:22 videos are the perfect way to start
+0:23 using that fundamental knowledge in a
+0:25 more applied manner so for these mini
+0:27 projects I'll be doing multiple videos
+0:28 so that we can progressively increase
+0:30 the complexity but of course not simply
+0:32 for complexities sake but rather so we
+0:34 can build more powerful programs and
+0:36 ultimately understand them better I also
+0:37 want to mention that these projects are
+0:39 not only great for beginners to actually
+0:40 learn and become better at python but
+0:42 also for anyone looking to build a
+0:44 portfolio and break into cyber security
+0:45 and once any specific mini project ends
+0:48 I'll give you a number of ideas of how
+0:50 you can continue to build on them in
+0:52 case you wanted to go off and use this
+0:53 as a starting point to do your own
+0:55 larger project which I highly encourage
+0:58 like anyone can even know that
+1:00 so in the previous lesson we built a
+1:02 firewall simulator to start thinking
+1:04 about the foundational logic
+1:05 underpinning a firewall in today's
+1:07 lesson we'll build a python script
+1:09 designed to monitor Network traffic and
+1:11 detect potential denial of service
+1:12 attacks by analyzing the rate at which
+1:14 IP packets are sent if the rate exceeds
+1:17 a predefined threshold which we can set
+1:18 then the script will block the IP
+1:20 address mitigating the impact of the
+1:22 attack so before we Forge ahead let's
+1:24 just spend a minute to quickly review
+1:25 two important theoretical components
+1:27 related to the script so Dia is the
+1:29 attack and come in many different shapes
+1:31 and forms but here specifically we will
+1:33 be focusing on a very common type in
+1:34 which an attacker aims to disrupt your
+1:36 computer or network by overwhelming it
+1:38 with excessive traffic simply put the
+1:40 malicious actor plus your system with
+1:42 data packets up until the point where
+1:44 your system can no longer handle it and
+1:45 thus goes kaput the other thing I just
+1:47 want to briefly touch on escapee
+1:49 something which if you're going to be
+1:50 using python in cyber security or just
+1:52 networking in general you will become
+1:54 very familiar with Skype is a python
+1:56 library that allows users to create
+1:58 analyze and intercept Network packets
+2:01 Skype is awesome it is at once flexible
+2:04 powerful and can be used for a diverse
+2:05 range of tasks so I highly recommend you
+2:07 to learn more about Skype following this
+2:09 video and that's it but one final thing
+2:11 before we get coding I just want to
+2:13 mention that below right at the top of
+2:14 the description you can find links to
+2:16 the actual script as well as the script
+2:17 we'll be using to test it by actually
+2:19 flooding it with packets so I do
+2:21 encourage you to download them so that
+2:22 you can really just focus on the lesson
+2:24 instead of worrying about constantly
+2:25 needing to pause in order to do Road
+2:27 copy work
+2:29 [Music]
+2:31 thank you
+2:34 so here is the entire script let's
+2:36 quickly get a layer of the land right up
+2:38 top we import all the required modules
+2:40 below this we declare a variable
+2:42 representing the threshold for a Dos
+2:44 attack we then declare a callback
+2:46 function used mainly for incrementing
+2:48 packet counts for each Source IP address
+2:50 calculating the packet rate and blocking
+2:53 the IP etherade exceeds the threshold
+2:55 finally we declare our main function
+2:57 used mainly for checking root privileges
+2:59 initializing packet count and start time
+3:01 variables as well as starting the packet
+3:04 snapping process with a specified
+3:05 callback function now that we have a
+3:07 good idea of the overall structure let's
+3:09 look at each line individually so first
+3:11 we import all our libraries the OS
+3:14 library is used to interact with the
+3:15 operating system this is Library handles
+3:18 system specific operations such as
+3:20 exiting the script the time Library will
+3:22 track time intervals thereby allowing us
+3:24 to determine a transfer rate for the
+3:26 packets default dict is used to store
+3:28 and manage packet counts for each IP
+3:31 address and finally from the scapee
+3:33 library we import sniff function and the
+3:35 IP class which allows us to analyze
+3:37 Network packets here we then set a
+3:39 global variable called threshold which
+3:41 represents the maximum Loud Pack rate
+3:43 per second for an IP address in this
+3:45 case 40 we then print the threshold
+3:47 values to screen we then Define the
+3:49 function packet callback which receives
+3:51 the argument packet inside the function
+3:54 we extract The Source IP address from
+3:55 the packet below this we increment the
+3:57 packet count for the source IP address
+3:59 we then record the current time using
+4:02 the time function from the time library
+4:03 and below this we calculate the time
+4:06 interval by subtracting the start time
+4:08 from the current time we can see here
+4:10 that the start time is a list containing
+4:11 the start time as the first element then
+4:13 check if the interval is one meaning
+4:15 here that the script will evaluate
+4:17 whether or not a Dos attack is happening
+4:19 at a frequency of once every second if
+4:21 the interval is equal to or larger than
+4:23 1 our 4 Loop will execute either rating
+4:26 through the packet counts for each IP
+4:28 address we can then simply calculate the
+4:30 packet rate by dividing the count by the
+4:32 time interval in other words if there
+4:34 were 40 packets and one second pass then
+4:36 obviously our packet weight is 40
+4:37 packets per second below this you can
+4:39 see I commented out a command that will
+4:41 show you the current IPS and rates it
+4:43 detects feel free to uncomment this out
+4:45 for yourself if you want something akin
+4:47 to a verbose mode this is also very
+4:49 useful for debugging purposes now that
+4:51 we have this we can check to see whether
+4:53 or not the packet rate exceeds the
+4:54 threshold in this case 40. additionally
+4:57 we check whether the IP has not already
+4:58 been blocked to ensure we don't create
+5:00 multiple IP tables rules if the
+5:03 threshold was reached and the IP is not
+5:05 blocked in blocked IPS we print a
+5:08 message indicating that the IP address
+5:09 is being blocked we also then of course
+5:11 actually block the IP address using the
+5:13 iptables command with the OS system
+5:15 function after blocking the IP we added
+5:18 to the blocked IPS set to keep track of
+5:20 blocked IP addresses after we've
+5:22 finished one such interval we clear the
+5:24 packet count dictionary and restart the
+5:26 time so that we can repeat the process
+5:27 for the next interval by updating the
+5:29 first element of the start time list and
+5:31 now finally we get to our main function
+5:33 we can note here that in this case the
+5:35 main guard and main function declaration
+5:37 have been combined this is simply an
+5:39 alternative way to write it first up we
+5:41 check to make sure that the script has
+5:42 been executed using root privileges in
+5:44 this script we need root privileges for
+5:46 two reasons we needed to be able to
+5:48 access raw Network traffic and in the
+5:50 case that we want to block an IP we
+5:52 needed to modify the system's firewall
+5:54 configuration in case we don't have root
+5:56 privileges we'll print a message to the
+5:58 screen and exit the script with an error
+6:00 code we then initialize the packet count
+6:02 dictionary with a default dict the
+6:04 default dict is a specialized dictionary
+6:05 data structure which is useful for us in
+6:07 this script because of its ability to
+6:09 automatically assign a default value ie0
+6:12 to a new IP address when it's first
+6:14 encountered which simplifies the packet
+6:16 counting process for us we then record
+6:18 the start time of the script in the list
+6:20 and initialize a blocked IPS set to
+6:22 store blocked IP addresses we then
+6:25 inform the user that Network traffic
+6:26 monitoring has started finally we start
+6:29 sniffing IP packets and pass them to the
+6:31 packet callback function for analysis
+6:33 and that's it so now that we have our
+6:35 script let's get to the fun bit of
+6:37 testing it
+6:41 okay guys in order to test this I'll be
+6:43 running two separate VMS on the left is
+6:45 git good which will be running the Dos
+6:48 blocker and on the right we have a lobo
+6:50 which will be running a packet flooding
+6:51 script now I'm not going to review that
+6:53 entire script now but in case you were
+6:55 interested here it is please pause and
+6:58 have a good look if you'd like oh and
+6:59 also by the way I do highly encourage
+7:01 you to test it by yourself it really
+7:03 helps solidify the knowledge when you
+7:04 start playing around with it so first
+7:06 let's run the iptables command on git to
+7:09 confirm that indeed currently there are
+7:10 no IPS being blocked
+7:12 great now let's start our dos Blocker on
+7:15 get good we can see it is running great
+7:18 and finally we'll run our packet flutter
+7:20 on Lobo
+7:21 we can see that it is running and great
+7:24 here we can see that it was indeed
+7:25 detected and blocked now we can stop
+7:27 both scripts and now just remember to
+7:29 unblock it again if you'd like to
+7:34 so I hope you enjoyed this lesson in
+7:36 which we got to interact not only
+7:37 directly with network traffic but also
+7:39 with the Linux firewall there are
+7:41 obviously still a number of limitations
+7:42 with the script most notably the way in
+7:44 which we are evaluating whether or not a
+7:46 Dos attack is actually happening I.E by
+7:48 looking at the absolute transfer rate
+7:50 which is very crude and will undoubtedly
+7:51 lead to a high degree of false positives
+7:53 and false negatives but as I said in the
+7:55 beginning we'll operate according to the
+7:57 principle of progressive complexity and
+7:59 we'll use what we did here today in
+8:00 following lessons to improve on the
+8:01 project and learn even more about all
+8:03 the logical components that make up a
+8:05 firewall so that's it for this lesson if
+8:07 you enjoyed it please consider flooding
+8:08 the like button with some packets or
+8:10 even run an iptables command to
+8:12 subscribe and if you have any
+8:14 suggestions for a python project related
+8:16 to cyber security you'd like me to do in
+8:17 the future please let me know in the
+8:19 comment section down below until then
+8:21 peace out

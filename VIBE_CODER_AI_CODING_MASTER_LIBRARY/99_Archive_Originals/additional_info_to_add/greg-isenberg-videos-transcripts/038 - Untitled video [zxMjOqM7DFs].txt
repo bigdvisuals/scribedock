@@ -1,0 +1,852 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=zxMjOqM7DFs
+Channel: Greg Isenberg
+Video ID: zxMjOqM7DFs
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 So, you want to use Claude code. You
+0:01 want to get the most of it, but you
+0:03 don't know exactly how. This is a crash
+0:06 course how to master Claude code, and we
+0:08 explain it in the most simple way. There
+0:10 are thousands, literally thousands
+0:13 [music] of other Claude code tutorials
+0:15 on the internet, but there are none as
+0:17 simple as this. I brought on Professor
+0:18 Ross Mike. He comes on, and he shares it
+0:21 in the simplest way so that anyone could
+0:23 create jaw-dropping
+0:25 startups and software using Claude code.
+0:28 We're going to give you the exact steps
+0:29 [music]
+0:30 for how you can set it up thinking about
+0:32 the beginner, how to think about [music]
+0:34 the terminal, how to think about
+0:35 prompting. But, if you stick around to
+0:37 the end of this episode, there's a tips
+0:39 and tricks section, which I think is
+0:41 super valuable, and uh I can't wait to
+0:44 see what you build.
+0:46 >> [music]
+0:51 [music]
+0:54 >> We got Ross Mike on the pod. By the end
+0:56 of this episode, what are people going
+0:58 to learn?
+0:59 Hopefully, you're going to not feel
+1:01 overwhelmed with Claude code. I know the
+1:03 terminal is scary, and it's a big
+1:04 boogeyman. But, I'm going to give you
+1:07 the blueprint how to use it. I'm also
+1:09 going to share Consider this the
+1:10 ultimate crash course on how to use
+1:12 Claude code or any agent effectively.
+1:15 Okay, let's let's get into it.
+1:17 >> So, I mean, the best way to start these
+1:19 episodes is with sharing our screen. So,
+1:24 when we think of building applications
+1:27 using AI, using some sort of agent like
+1:29 Claude code or open code or codex,
+1:31 whatever it is, there's a couple of
+1:33 things that you always have to keep in
+1:35 mind. You know, the principles never
+1:37 really change. One thing that it's
+1:39 important for us to understand is
+1:41 however good your inputs are will
+1:43 dictate how good your output is, right?
+1:46 We're getting to a point where the
+1:47 models are so freakishly good that if
+1:51 you are producing, quote-unquote, slop,
+1:54 it's because you've given it slop,
+1:56 right? Um there was a time where the
+1:58 models weren't good enough. There was a
+1:59 time where, you know, we had serious
+2:02 qualms and issues with the quality of
+2:03 code the models gave us. But, now we're
+2:05 starting to get to a point where even
+2:07 myself, like I'm reviewing a lot more
+2:11 code than I write, and I never thought
+2:12 I'd be able to say that in the early, uh
+2:15 months of 2026. So, very important for
+2:17 us to understand our inputs, how good
+2:20 they are, how precise they are, how
+2:22 articulate they are, are just as good as
+2:24 our outputs, and will dictate just how
+2:26 good our outputs will be. And the way I
+2:28 want people to think about this is,
+2:30 Greg, is like imagine you were
+2:32 communicating this to a human, to a
+2:33 human engineer, right? If you give them
+2:36 sparse instructions, and if anyone is in
+2:39 like client work, you realize that most
+2:41 clients they they they tell you one
+2:43 thing, but you have to sort of extract
+2:45 the deeper thoughts of what it is they
+2:47 want. Um it's the same way when we work
+2:50 with these agents, when we work with
+2:52 Claude code. We need to be really,
+2:54 really precise with how we build our
+2:57 inputs. Now, what do I mean by inputs?
+2:59 What I mean is our PRDs or our to-do
+3:02 list or our plans, right? Like there's,
+3:05 you know, people are giving it different
+3:06 names. Um it doesn't really matter. It's
+3:09 all the same thing, right? And when we
+3:11 think of a PRD or when we think of a
+3:13 to-do list or when we think of a plan, I
+3:15 want us to think in such a way as this.
+3:18 Let's say I'm trying to build this
+3:20 product, right? Let's say, um I don't
+3:22 know, Greg, any product ideas um that
+3:25 >> Let me have product ideas? Yeah, that's
+3:27 actually the best pest best person to
+3:29 ask, right?
+3:31 >> [laughter]
+3:32 >> Um let's say I go on idealbrowser.com,
+3:36 and
+3:36 >> just going to it. I was just going to
+3:38 it. Yeah, pick pick the idea of the day
+3:41 from Idea Browser. Says it's a
+3:43 diagnostic tool for appliance techs
+3:45 losing hundreds of repeat visits. See, I
+3:48 have no idea what that means, but let's
+3:49 say I know what that means. Essentially,
+3:51 when thinking of this idea and looking
+3:54 to build this into a full-fledged
+3:55 product, generally the way you're going
+3:58 to think is, "Okay, if if product X does
+4:02 Y, Z, A, B, and C,
+4:04 how I would reach that is I'm going to
+4:06 think of features, right? So, let's say
+4:08 there's four core features to this
+4:10 application that um Greg just mentioned.
+4:14 And if I have these four features built
+4:16 out, we can safely assume that we have
+4:18 said product, right? The way we are to
+4:22 design our PRDs, to-do list, and plans
+4:25 is such that we want the agent, the
+4:27 model, to build out all these features,
+4:30 right? Because all these features put
+4:32 together is our product. a lot of times
+4:35 people will describe a product um not
+4:38 describe features, and will be
+4:40 frustrated with AI like AI is supposed
+4:41 to magically know what you're thinking
+4:43 about. Um by the way, Greg, am I making
+4:45 sense so far or am I
+4:46 >> 100%. I'm with you. Yeah. So, we really
+4:50 need to think in features. But, here's
+4:52 the cool part. When developing features,
+4:54 oftentimes the issue with models is like
+4:57 you'll develop a feature or like let's
+4:59 say the model develops a feature, we
+5:01 don't know if it works. We don't know if
+5:02 it did it the right way. That's where
+5:04 with all the cool Ralph stuff that's
+5:06 happening, we can introduce tests,
+5:08 right? So, let's say
+5:10 the model, the agent, builds feature
+5:12 one. Before moving on moving on to
+5:14 feature two, what I'm going to do is I'm
+5:16 going to get the model to write a test.
+5:18 If that test passes, then we'll work on
+5:21 the second feature. If that test passes,
+5:23 we work on the third feature, right? So,
+5:25 we're finally entering an era where you
+5:28 can really build something serious with
+5:30 these models. So, instead of telling you
+5:33 about just uh planning, why don't we do
+5:36 actual planning together? So, I'm going
+5:38 to pop up my terminal. So, I know
+5:40 everyone's afraid of the terminal, but
+5:42 in all honesty, if you don't know how to
+5:44 use a terminal, ask AI. Like it's the
+5:46 like simplest thing. And if not, you can
+5:48 even download the Claude code app and go
+5:50 on code section, give it a specific
+5:52 folder you want to work on, and use the
+5:55 app. Like there's literally no excuse to
+5:56 not use Claude code. If you're afraid,
+5:58 boohoo, just jump in to use AI. You have
+6:00 all the tools. That being said, I'm just
+6:02 going to type in Claude, and we're going
+6:05 to have uh Claude code open. And usually
+6:07 how people plan is they'll click shift
+6:10 tab, right? And then you have plan mode
+6:12 on, and you can say, let's say, I want
+6:15 to build
+6:17 um TikTok UGC generating
+6:21 app for my marketing agency. I see like
+6:26 these UGC apps everywhere. Um
+6:29 please help me create a plan, write this
+6:36 in the
+6:38 in
+6:40 uh
+6:40 PRD.md
+6:42 file. So, this is how most people have
+6:45 planning set up, right? You'll tell
+6:47 Claude code or cursor or whatever agent
+6:50 uh to do the plan for you, and you ask
+6:52 it to be in some file, and like it says,
+6:55 it'd be happy to help you plan this out,
+6:57 and it'll ask you some questions, etc.,
+6:59 etc. But, I found that there's a better
+7:01 way to get an even more concise plan,
+7:04 and this way it actually gets you to
+7:07 think a lot more about tradeoffs,
+7:09 concerns, UI/UX decisions, because most
+7:12 of the time you're sort of allowing the
+7:14 AI to have free rein over certain
+7:16 decisions, which I think uh will leave
+7:18 you with a finished product that you're
+7:20 not excited about. And that's invoking a
+7:23 special tool. Um I was going to show you
+7:25 guys the tweet, but unfortunately,
+7:26 Twitter's down right now. But, Claude
+7:28 code has a specific tool called ask user
+7:31 question tool. And essentially, what
+7:33 this tool does, it starts to interview
+7:36 about the specifics of your plan, right?
+7:40 So, I'm going to drop this prompt where
+7:41 it says, "Read this plan file, interview
+7:43 me in detail using the ask user question
+7:45 tool about literally anything, technical
+7:47 implementation, UI/UX concerns, and
+7:50 tradeoffs." I spelt implementation
+7:52 wrong. Do not judge me.
+7:54 Um and what this is going to do is it's
+7:56 going to go past the plan that we have
+7:58 and start to ask us about my new
+8:00 details. So, let's finish off this plan
+8:02 first. I'm just going to accept um this
+8:04 is internal use.
+8:06 Uh tech stack will use React. I just
+8:09 want core features. We'll submit
+8:11 answers. And then Claude code, you'll
+8:13 see, might ask us a few more questions,
+8:15 but this will generally be the plan.
+8:19 Right. So, it's it's not just it's not
+8:21 just the plan, it's the right plan,
+8:23 right? Like to what you were saying,
+8:25 like go back scroll back up here, the
+8:27 features, and yeah. The features and
+8:30 test.
+8:31 Like the way I think about this, and I
+8:34 don't know if you agree, is like if you
+8:35 ask Claude code to build you a car, it
+8:38 doesn't really know what a car is. It
+8:39 doesn't understand like you need a
+8:40 steering wheel and a
+8:42 you know, a radio, and you need wheels.
+8:45 So, the the the hard part is trying to
+8:48 figure out is basically explaining what
+8:50 those things are in a really
+8:52 succinct and clear way, and that's what
+8:54 this interview is basically doing. It's
+8:56 It's explaining each of them, and then
+8:58 we're going to test each of those
+8:59 features. Exactly. Like think of think
+9:02 of it this way, like a simple example.
+9:03 Let's say you ask the AI agent to build
+9:06 you a specific feature, right? How is it
+9:09 going to present that specific feature?
+9:11 Did you want it in a dashboard? Did you
+9:13 want it to be a modal? Did Did it have
+9:15 to be a separate page? Like when you
+9:17 don't specify these my new details, it
+9:19 will make the assumption for you. And
+9:21 with Ralph loops and all these type of
+9:23 things, like you might have a whole
+9:25 application built out, and it's not
+9:26 exactly to the liking or the
+9:28 expectations you had, right? So, let me
+9:31 continue. I'll just make some selections
+9:33 here just so we can move on.
+9:35 Um and then hit submit. And then I'm
+9:38 going to pause this planning here, and
+9:40 then I'm going to
+9:42 paste this. I'm going to say, "Read this
+9:44 plan file," and I'm going to tag the
+9:46 plan file. It's called PRD.md.
+9:49 We have that right here. Um
+9:52 and I'm going to say, "Interview me the
+9:54 details about this question." Or I don't
+9:55 even need to tag it because it has it in
+9:57 its context. But I just want to show you
+10:00 how annoyingly uh annoying this is going
+10:03 to get. Meaning, it's going to keep
+10:04 asking me questions about said plan or
+10:08 said uh app idea. So,
+10:11 notice how it says round one core
+10:13 workflow and technical foundation,
+10:14 right? And some of the questions it
+10:16 might even ask you are things that you
+10:18 might not know about cuz you're not
+10:19 technical. So, what do I do when I don't
+10:21 know something, Greg? I'm going to copy
+10:22 this and I'm going to go to the chatbot
+10:24 of my choice, whether it's Claude,
+10:26 ChatGPT, whatever, and I'm going to ask
+10:27 it questions. So, if you remember
+10:30 earlier, it asked me generic questions
+10:32 about the app. Now, it's saying, "What's
+10:34 your ideal workflow for generating UGC
+10:36 video from start to finish?" Like,
+10:38 notice how the questions are even more
+10:40 specific now.
+10:41 So, it says linear step-by-step,
+10:43 template-based, batch processing,
+10:45 iterative, conversational. So, let's say
+10:48 I select that. And then it says, "How
+10:50 should the app handle agent API costs
+10:53 and usage?" So, now it's talking about
+10:54 costs, right? Again, most of the times
+10:56 when you just have a basic plan, this is
+10:58 not included in the plan, right? Let's
+11:00 say we want to have a hard hard budget.
+11:03 Um what database and hosting approach do
+11:05 you want to use? Most of you probably
+11:06 watching this have no idea. So, I can
+11:08 copy this over, go to ChatGPT and ask,
+11:11 "What's the best decision? This is my
+11:12 current situation." And then you keep
+11:14 going, you keep going, and you submit
+11:16 answers. So, when you use this ask user
+11:18 question tool, the questions become more
+11:21 granular. So, it asked me about core
+11:23 workflow and technical foundation. Now,
+11:25 it's going to ask me about UI UX and
+11:27 script generation. If you notice the
+11:29 first plan that it came up with, uh the
+11:32 default plan for Claude code, it was
+11:35 pretty basic. Now, it's asking me,
+11:37 "Okay, what AI do I want to use for the
+11:39 script generation?" I'll use Claude. Uh
+11:41 "What UI style aesthetic are you going
+11:43 for? Minimal clean, dashboard heavy,
+11:45 creative tool feel, chat first?" Right?
+11:48 So, hopefully, Greg, I'm making sense
+11:50 with like how much more questions I'm
+11:52 being asked when I'm invoking this ask
+11:56 user question tool.
+11:59 Yeah, makes complete sense. You're also
+12:01 you're also going to use less tokens in
+12:03 the end, right? Cuz you're going to
+12:05 >> right? Yeah, it's cuz the thing is the
+12:07 better your plan, the better your input,
+12:10 the better the initial set of documents
+12:13 that you give the model, um the
+12:16 the better the outcome. And if the
+12:17 better the outcome, there's no back and
+12:19 forth, right? Most people will have a
+12:21 Ralph loop running, it'll be a basic
+12:23 plan, and it'll do what you told it to
+12:24 do, but you weren't specific, so now
+12:26 you're going back, and then maybe you're
+12:28 running another loop, or you're going
+12:29 back and doing all these changes. But,
+12:31 if you get it done right, if you invest
+12:33 the time in the planning stage, I 100%
+12:37 believe you'll save a lot more money.
+12:39 And this will help you clear up a lot of
+12:41 ideas. So, like, for example, this idea
+12:43 that we just had, this TikTok UGC farm,
+12:46 um how do we want it set up? Do we want
+12:49 it to be flat with search? Do we want it
+12:51 to be client campaign assets? There's a
+12:53 lot of like these minute details that
+12:56 you're not thinking about, and because
+12:57 you're not thinking about it, you're
+12:59 allowing Claude code to make those
+13:01 assumptions for you, right? Which at the
+13:03 end, after it's burned through a ton of
+13:05 tokens, now you're going back to change,
+13:07 right? We can save so much headache if
+13:10 we do the proper planning from the
+13:12 beginning. And hopefully, um people see
+13:15 value in this um
+13:18 ask user question tool. Make sure you
+13:20 specify it in your prompt. And
+13:22 hopefully, Greg, that that makes sense.
+13:24 It does.
+13:25 So, I would say step number one for this
+13:28 Claude crash course is I would get good
+13:31 at planning. I would get really, really
+13:33 good at planning. I would get good at
+13:35 generating these, right? Like, look, it
+13:37 it keeps on asking me questions. If you
+13:39 notice the very first plan that we
+13:41 generated with Claude, it was two sets
+13:43 of questions, and it was ready to build.
+13:45 But with this, it's asking me, "Do I
+13:46 want basic avatars, custom avatars,
+13:48 multi-scene videos? How do I want to
+13:51 handle storage? Do I want to download
+13:53 the videos instantly, cloud storage,
+13:55 external storage?" Like, there's so much
+13:58 to software engineering. And I think in
+14:00 our last video, you um someone shared
+14:02 this on Twitter. I don't know if it was
+14:03 you or someone else. Like, software um
+14:06 building personal software is easy, but
+14:08 building software others are going to
+14:10 use is very, very difficult. And if you
+14:11 don't have the audacity or the decency
+14:14 to to set up a little time, a little
+14:16 extra time, to plan, then I guarantee
+14:19 you whatever you generate is going to be
+14:20 AI slop. And you might blame the model,
+14:22 but really, the problem is you. So,
+14:24 invest in your plans, spend time using
+14:27 planning, um don't use the generic plan
+14:30 um mode that Cursor or Claude code has.
+14:33 I would use Claude code, and then I
+14:34 would specify the ask user question
+14:37 tool. Um it's going to continue to annoy
+14:39 you with questions, like it keeps
+14:41 asking, right? Cuz until it knows
+14:43 exactly what it is you want, it won't
+14:45 start building. Um so, I would say
+14:47 that's step number one to building with
+14:51 Claude code. Step number two, and
+14:53 everyone's talking about Ralph, and it's
+14:55 exciting, um but I wouldn't use it. I
+14:58 wouldn't use Ralph.
+15:01 And the reason I wouldn't use Ralph, if
+15:02 I was just starting out, Greg, is
+15:04 because um how are you going to
+15:08 Like, imagine this. Like, imagine not
+15:11 knowing how to drive, but then buying a
+15:13 Tesla for uh like the self-driving
+15:16 stuff. Like, cool in theory, but maybe
+15:18 it's a great idea to know how to drive,
+15:20 how to steer, how to hit the corners,
+15:22 how to maybe yell at someone when they
+15:24 cut you off before you get the full
+15:27 automated version. I say this to say
+15:29 because when you get good at developing
+15:33 plans and then working with the AI to
+15:35 build each feature and testing each
+15:38 feature, you you start to develop the
+15:40 sense on product building, on on like,
+15:44 you know, even uh I heard someone call
+15:46 vibe QA testing. You get the sense by
+15:49 going one-on-one yourself. And this is
+15:51 why a lot of people who were fighting
+15:53 with Claude code all these months are
+15:55 really, really good at using it now
+15:57 because they spent the time building
+15:59 without using these crazy automation
+16:01 loops. So, if you're using Claude code
+16:03 for the first time or you're just
+16:05 getting into it, good plan, number one.
+16:07 And number two, get your reps in by not
+16:10 using Ralph. So, develop the features
+16:12 one by one. Now that you have your plan,
+16:14 you can literally tell Claude code,
+16:16 "Hey, okay, let's build the first
+16:17 feature. Um
+16:19 you know, go ahead and do it." And then
+16:20 once the feature's done, you can test it
+16:22 out. Ask it, "How can I test this? How
+16:24 can I run this app?" I wouldn't jump
+16:27 into using Ralph right away.
+16:30 Um
+16:31 build without Ralph. But let's say
+16:33 you've built these reps. Now,
+16:36 and you're you're comfortable with
+16:37 Claude code. Now, you hear about all
+16:39 these things: skills, MCP, uh prompt.md,
+16:43 agent.md.
+16:45 Um what else is there? Something.md.
+16:48 You you hear all these conventions,
+16:50 plugins, um you have Ralph. All these
+16:53 things. So, what do I need to perfectly
+16:56 uh build something um using Claude code
+16:59 or any agent? I'll be honest with you.
+17:01 Most of these things are all the same.
+17:04 Prompt.md and agent.md are just markdown
+17:06 files. Um plugins
+17:09 are skills with, you know, a little bit
+17:11 extra. What you need to build
+17:14 successfully using these agents is,
+17:17 first of all, you need a good plan,
+17:19 right? Which are documents, which is the
+17:21 prd.md we just generated. And then you
+17:25 need uh to document um the progress
+17:29 that's being made. Um
+17:30 for anyone who's familiar with for with
+17:34 Ralph, you know what I'm talking about.
+17:35 For those who aren't, what's cool about
+17:37 a Ralph loop is as follows. A Ralph loop
+17:40 is basically you have a list of things
+17:42 that need to be get that need to get
+17:44 done. Uh the uh whatchamacallit, the
+17:47 prd.md or the plan. You give it to the
+17:50 AI model. The model works on the first
+17:52 task. It finishes, and then documents it
+17:55 in another file, and then it it goes
+17:57 again. And it stops until it's completed
+18:01 the whole list. Now, this isn't anything
+18:04 special, but the reason why it's now
+18:06 super powerful is because the models are
+18:08 getting so, so good. But here is the
+18:10 issue. If you have a terrible plan, if
+18:13 you have a terrible PRD, this doesn't
+18:16 matter. You're just donating money ten
+18:17 trophic, and I wish you the best of luck
+18:20 if that's what you want to do. But if
+18:21 you want to make sure that your tokens
+18:24 are not wasted, you're going to invest
+18:26 in a good prd.md
+18:28 file or a good plan file.
+18:31 Greg, am I making sense so far? 100%.
+18:34 Okay.
+18:35 >> You're driving the point home. Yes. So,
+18:37 I'll talk a little bit about um Ralph
+18:40 uh now.
+18:41 So, with Mr. Ralph Wiggum, um how do we
+18:45 use this? Now, there's a lot of
+18:46 different um iterations, like people are
+18:48 coming with their own style. I'm going
+18:50 to share with you my Ralph setup in a
+18:52 second. Um Greg, um one thing I will say
+18:55 is Claude code has a plugin, a Ralph
+18:57 Wiggum plugin. I wouldn't use that. And
+18:59 the reason I wouldn't use that is even
+19:01 the person who invented the whole Ralph
+19:03 system um is against it. It's not the
+19:05 best use of Ralph, but I just want to
+19:08 share this concept of how Ralph works.
+19:11 It's essentially going to go through our
+19:13 plan, and it's going to build out each
+19:15 feature step by step. And it's not going
+19:18 to stop until it's done.
+19:20 This is cool when your plan rocks. If
+19:23 your plan sucks, then it's terrible. It
+19:26 doesn't matter. Now, in terms of how to
+19:30 set up um Ralph Wiggum, I have my own
+19:33 setup, and I don't want anyone to think
+19:36 I'm shilling my own setup for any
+19:37 reason. But the reason why I built my
+19:39 own setup is there's a couple of things
+19:42 my Ralph loop does. The first thing is
+19:45 it makes sure that there's a plan, a
+19:47 prd.md
+19:48 file, and there's a progress.txt file.
+19:51 But it also, every feature it builds, it
+19:54 then writes a test. And it then lints.
+19:57 And basically, what this does is it
+19:59 makes sure that every feature that's
+20:00 built actually works, right? Cuz there's
+20:03 no point on working on feature two if
+20:05 feature one doesn't work. If feature one
+20:07 doesn't work, if the test fails, guess
+20:09 what the AI model is going to do? It's
+20:11 going to go back to working on feature
+20:13 one. And once the test passes, we work
+20:16 on feature two. And then once feature
+20:18 two test passes, we work on feature
+20:20 three, right? All this is awesome, but
+20:23 I'm going to go back to the same point.
+20:25 If your plan sucks, then the Ralph loop
+20:27 won't matter.
+20:29 Now, in order to set up this loop, um
+20:31 you can find the uh get up here. How to
+20:34 set it up, you honestly, I'm not even
+20:36 going to explain it. Uh Greg, people can
+20:38 literally copy the link, pass it to
+20:40 Claude, and then be like, "I want to run
+20:42 this Ralph loop." And it will tell you
+20:44 exactly what to do. That's how good the
+20:46 models have become. But, I'll show you
+20:49 an example of this running. So, I have a
+20:52 simple PRD.md file. It's nothing crazy.
+20:55 It's just to show you the point. But,
+20:57 basically, there are a couple tasks
+20:58 here. I want to build a basic server
+21:01 that has some basic endpoints. And I
+21:03 just want to show you how my Ralph loop
+21:05 works. So, when I run this Ralph loop,
+21:08 and again, if you don't know how to run
+21:10 this, the you paste the GitHub URL in
+21:13 Claude code in your agent and ask it,
+21:15 and it will tell you how to do it. I
+21:17 have a few different configurations I
+21:19 can use. Open code if I want, I can use
+21:21 Codex if I want, but I'm just going to
+21:23 use Claude code. And I'm just going to
+21:25 run this script. And basically, what
+21:27 it's going to start doing is it's going
+21:29 to start running through each task,
+21:33 as you can see, and it's going to update
+21:35 the PRD. And it's just going to continue
+21:37 to work. Now, I can go and leave, right?
+21:40 I can go about my day, hang with
+21:43 um hang with uh Greg, and this loop will
+21:47 continue to work. And I'm going to see
+21:49 that at whether it's 5 minutes, 3
+21:51 minutes, 10 minutes, however long this
+21:53 is, this is going to finish all the
+21:55 tasks. I'm going to have a working
+21:57 product built. And all this is cool, but
+22:00 it doesn't matter if I'm going to go
+22:02 back to the original document, if the
+22:06 plan isn't good. Now, skills are great,
+22:09 MCPs are great, all these different
+22:11 markdown files are great. You would do
+22:13 yourself a serious service if your
+22:18 if your plan is good. So, the key to
+22:21 successfully building with Claude code
+22:23 is you have an absolutely great plan.
+22:26 And if you use the ask user question
+22:28 tool, you will spend so much time on the
+22:31 plan where it starts to get annoying. It
+22:33 doesn't get fun, but those of us who
+22:35 focus on this will end up having better
+22:37 outputs.
+22:39 Um let's continue. If you notice here,
+22:42 my Ralph loop is continuing to go, and
+22:44 it took care of the first task. I can
+22:46 see some files already generated. If I
+22:48 go to the progress.txt file, you can
+22:51 see, Greg, it's started to make some
+22:53 progress. It's documenting that. And
+22:55 this is just going to continue to work.
+22:57 This is just going to continue to run.
+22:59 So, people have different iterations. I
+23:00 know the Anthropic people have their own
+23:02 iteration, um and different people have
+23:04 their own iteration. It doesn't really
+23:06 matter, right? Someone's Ralph is could
+23:08 be better, someone's could be worse,
+23:09 someone's could be All of that is cool,
+23:12 but don't get stuck in the weeds. The
+23:14 main sauce is how you can articulate
+23:19 perfectly in a beautiful presentation
+23:21 create the perfect input.
+23:25 We have reached a point where the models
+23:27 will give you perfect outputs. So,
+23:29 that's my main uh tip crash course for
+23:32 people. Use the ask user question tool,
+23:36 build without using Ralph. And if you
+23:38 are going to use Ralph, understand if
+23:40 your plan sucks, you're just donating
+23:42 money to Anthropic, and I think
+23:43 Anthropic has enough money that they
+23:45 don't need your money being donated to
+23:47 them.
+23:49 Um Amen.
+23:50 Amen. Is there anything else people need
+23:52 to know, like little tips and tricks? I
+23:55 notice, you know, you're not using the
+23:57 Mac terminal, you're using Ghosty.
+24:00 >> Yes. Yes. So, honestly, it's all
+24:03 preference, right? So, like the terminal
+24:05 you use and all this stuff is all
+24:07 preference. Here's what I would say.
+24:09 Like, let's have a tips and tricks list.
+24:12 Tips and tricks. So,
+24:16 first I would say is my goodness,
+24:18 spelling today.
+24:20 First I would say is use the ask What
+24:23 was the specific tool? I just want to
+24:25 make sure I don't forget. Ask user
+24:27 questions tool. Slept on. I don't know
+24:29 why no one's not talking about it. It
+24:31 literally, I saw the tweet from the
+24:33 Anthropic team. 100% I would use that
+24:36 when planning. Uh number two, um don't
+24:39 over-obsess
+24:42 obsess on uh MCP skills, etc., etc. I'm
+24:48 not saying don't get into these. I'm not
+24:49 saying don't read about them. I'm not
+24:51 saying don't use them. But, uh I can
+24:53 almost guarantee you these things are
+24:55 not the reason why your product isn't
+24:57 working. Right? Most of the time, it's
+25:00 your plan sucks, right? That's number
+25:03 two. Um number three, I would use Ralph
+25:08 after I've built something without.
+25:11 And the reason being is again, listen,
+25:13 if you are a baller shot caller and you
+25:15 have all the money to blow and you don't
+25:16 care and you want to donate money to
+25:18 Anthropic, go ahead and use Ralph. But,
+25:21 we were to sit here eye to eye and you
+25:23 haven't built anything, deployed
+25:25 anything, there isn't a URL that I
+25:28 myself or Greg can click on that you've
+25:29 built, you have no business using Ralph.
+25:32 You literally have no business using
+25:34 Ralph. I would first get good at
+25:36 prompting and building something using a
+25:39 plan, whether it's whatever agent you
+25:40 want, Claude code, open code, whatever.
+25:43 Once you have something deployed to
+25:44 Vercel or like there's a URL and we can
+25:46 use it, then you can use Ralph.
+25:50 Number four, um this is a little in the
+25:53 weeds, but context is more important
+25:57 than ever. And a lot of times Claude
+26:00 code or even Cursor will tell you what
+26:01 percent of context has been used. Um I
+26:05 generally wouldn't go over 50%, meaning
+26:08 like the Anthropic model Opus 4.5 has a
+26:10 200,000 token context limit. The moment,
+26:14 in my opinion, you've got over 100,000
+26:16 tokens, meaning you're using the same
+26:18 session, it starts to sort of
+26:20 deteriorate. That's when you have
+26:21 people, Greg, who say, "Oh, like I
+26:23 started off good, but it started going
+26:25 bad." That's because you've filled it
+26:27 with so much context. And the best way
+26:29 to think about this is like yourself,
+26:31 right? Like, let's say we went to some
+26:33 English class and or some, you know,
+26:35 whatever class, and the professor just
+26:38 kept dumping information, information,
+26:40 information. At some point, we're going
+26:41 to feel overwhelmed, and we're going to
+26:43 actually start forgetting stuff. Um and
+26:45 I'm not saying that's how the models
+26:47 work, but that's how the models act,
+26:49 right? So, context is very much
+26:50 important. The moment you see 50% or
+26:53 even 40%, I would start a new session.
+26:56 And last but not least, um have
+26:59 audacity.
+27:00 And what I mean by that is software
+27:02 development is starting to become easy,
+27:05 but software engineering is very, very
+27:06 hard. And what do I mean by that? Um to
+27:08 architect software, to make sure things
+27:12 are usable, to create great UX/UI, to
+27:14 have great taste, to make something that
+27:16 people actually use, requires time. And
+27:19 in order to spend time, it requires
+27:20 audacity. I know the models are good,
+27:22 and you can clone a $6 billion software.
+27:25 But, if all of us can do it, now what
+27:27 makes software different? I think
+27:29 thinking about those things and thinking
+27:31 about the art of building products and
+27:33 building something that's tasteful is
+27:35 very, very important. And I think anyone
+27:37 who uses these five uh tips
+27:40 should kick cheeks in 2025. 2026, sorry.
+27:45 Um I agree on the audacity thing. I
+27:46 think like it's for me, it's like about
+27:48 creating scroll-stopping
+27:50 software. You know what I mean? Like,
+27:52 there's so many people, and there's a
+27:54 lot of tutorials about this like cloning
+27:56 billion-dollar software. You know, I
+27:58 cloned a $4 billion software, look at
+27:59 me.
+28:00 But, that's not the type of software
+28:03 that's going to work in 2026, right? Um
+28:06 I saw this uh
+28:08 let me just share it real quick.
+28:11 I saw this guy who created a running app
+28:14 based on how you're feeling. So, it's
+28:15 like, how are you feeling? Stressed,
+28:17 angry,
+28:18 um and it's an AI-assisted running app
+28:21 that interprets your current emotions to
+28:23 generate a personalized route. And I
+28:25 just thought it was interesting. You
+28:26 know what I mean? Like, I'd never seen
+28:28 an app like this. And I think that like
+28:30 as, you know, you call it audacity, I
+28:33 think this is an audacious app, right?
+28:35 It's scroll-stopping. You haven't seen
+28:38 it before. So, I think push you want to
+28:40 push Claude code to like get you to
+28:44 this, basically.
+28:46 And and and this is why I'm like so pro
+28:48 people not using Ralph if they haven't
+28:50 built anything fully, cuz like now where
+28:53 people are getting to a point where they
+28:54 they want the model to think for them,
+28:56 right? Where like if you look at the app
+28:58 you just shared, the animations and how
+29:00 things were floating and like even the
+29:02 colors used for the different emotions,
+29:03 like that required thought, right? And
+29:06 that's what stops people now. Like, if
+29:08 building the AI chat interface is easy,
+29:11 what's going to make your app different?
+29:12 I think a little bit of audacity, a
+29:14 little bit of thought and care, and a
+29:16 little bit of taste goes a long way
+29:17 nowadays. Um and more than the models
+29:20 getting better, cuz it's going to get
+29:21 easier. It's going to get better. It's
+29:23 going to get faster.
+29:24 But, unfortunately, if you don't change,
+29:27 then it doesn't all matter. Yeah, and
+29:29 don't be afraid to use pen and paper.
+29:30 Like, this this person literally just
+29:32 like started sketching out the features.
+29:35 Like, how should this thing work? Yeah.
+29:38 Right?
+29:39 >> feel? Like, and I love it. I love it,
+29:40 right? And and this is why the app, if I
+29:42 don't know the metrics, but I'm willing
+29:44 to bet it's doing really, really well,
+29:46 because all this stuff matters. Like we
+29:48 could clone something like this
+29:49 feature-wise, but I'm willing to bet
+29:51 like the feel, the animations, the
+29:53 colors, we would not be able to get it
+29:55 exactly like this.
+29:57 100%.
+29:59 All right, man. Thanks for coming on.
+30:02 You got me fired up. I actually I didn't
+30:04 know about that interview tool, so
+30:06 thanks for sharing that with me.
+30:08 Um Yeah, just a heads-up, it will ask a
+30:10 lot of questions. I shared it with a
+30:12 couple friends and a couple people got
+30:13 annoyed, but it's worth it, right?
+30:15 Especially if you wanted to build
+30:17 something end-to-end or you're building
+30:19 a very like like very minute detailed
+30:23 feature, then it's really really worth
+30:25 it. I wouldn't use a general plan
+30:27 personally. Um so just a heads-up, but
+30:29 it's really really worth it and I would
+30:31 love to hear people's feedback in the
+30:33 comments. Sounds good. We'll be in the
+30:35 comments.
+30:36 Uh you got to come back on in a few
+30:38 months or whenever people want you.
+30:40 Uh it's always an absolute privilege to
+30:42 have you here. I'll include links where
+30:44 you can follow
+30:46 uh and you should follow
+30:48 uh Monsieur Rasmike.
+30:50 Uh his YouTube channel's X. I'll include
+30:53 the link to Ralphy even though if you're
+30:56 a beginner, don't even click that link.
+30:59 I I wouldn't. Like I know there's maybe
+31:00 some degenerates who do, but I highly
+31:02 suggest you don't cuz if you haven't
+31:05 even built without it, then
+31:07 >> [clears throat]
+31:07 >> no point in it.
+31:08 >> some willpower,
+31:09 folks. Come on, you know? Don't click
+31:11 the link, but I'm putting it in there
+31:13 cuz I want to see who's tempted. And
+31:16 uh
+31:16 thanks again for coming on. I'll see you
+31:18 I'm coming to Toronto in April, so let's
+31:20 hang out.
+31:20 >> Well, we'll see we'll see each other
+31:21 then and again as always it's a
+31:22 pleasure. Thank you so much, you know,
+31:24 for bringing me on.
+31:25 Of course. Later. Have a good one.

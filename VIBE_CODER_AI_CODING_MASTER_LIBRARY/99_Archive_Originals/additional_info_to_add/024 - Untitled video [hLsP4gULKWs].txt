@@ -1,0 +1,589 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=hLsP4gULKWs
+Channel: Riley Brown
+Video ID: hLsP4gULKWs
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 Vibe coding is quickly becoming the most
+0:02 important skill to learn in 2026. What
+0:04 if I told you that there was this tool
+0:06 that sold to Adobe for over $1 billion?
+0:09 And I'm going to build that same app in
+0:11 about 30 minutes. I'm a vibe coder. I've
+0:14 never written a single line of code. But
+0:15 today, I'm going to use Claude Opus 4.5,
+0:18 the most powerful coding AI agent in the
+0:21 world, and I'm going to recreate an app
+0:23 that my team pays thousands of dollars
+0:25 for every single year. And by the end of
+0:28 this video, you're going to know exactly
+0:29 how to build any custom app for your
+0:31 company, no matter how complex. You're
+0:33 going to become one of the most
+0:34 important people on your team overnight.
+0:37 And you're actually going to get really
+0:38 good at vibe coding so you can build any
+0:41 app you want over and over and over
+0:43 again. This is the first video in my
+0:46 vibe coding for business series. [music]
+0:48 If you want to learn how to build tools
+0:49 that actually matter for your work,
+0:52 subscribe and follow along. I'm going to
+0:54 do many videos in this series. Let's not
+0:56 waste any time. Let's dive in. So, this
+0:59 right here is Frame.io. This is a web
+1:01 app that I use all the time to
+1:03 communicate to my editors. And it allows
+1:06 me to leave comments on very specific
+1:08 timestamps in a video so that my editor
+1:12 knows exactly how I want the video
+1:14 edited. And this tool was actually
+1:17 acquired by Adobe for $1.275
+1:20 billion
+1:22 in 2021. And so, Frame.io has many
+1:25 different features now and that can be
+1:26 represented by this blue bar and I only
+1:29 use this many features on frame.io and
+1:32 the total cost for the whole software
+1:35 platform is 20 bucks a month per seat.
+1:37 So all of my team members that I invite
+1:40 to the platform it ends up costing me
+1:42 more and more money and it would
+1:43 actually cost us thousands of dollars
+1:46 per year to use Frame.io. And so in this
+1:49 video, I'm going to go over the exact
+1:51 features that I like and use every
+1:53 single day on Frame.io. Then we're going
+1:55 to build an app that does all of those
+1:56 features. Then we're going to add custom
+1:58 features on top of that. And then we're
+2:00 going to deploy it to the internet so me
+2:03 and my team can use this application.
+2:05 And so here is Frame.io. And Frame.io is
+2:09 a tool that allows you to upload a
+2:11 video. So I've uploaded a video and then
+2:12 I can play the video. This is a launch
+2:14 video we've done recently,
+2:17 right? Let's say I can say, "Please use
+2:20 a different uh character. Please make it
+2:24 a woman with glasses." Right? I'm
+2:28 leaving a comment on the 18 second mark
+2:32 and I can leave this comment. Now, when
+2:35 I send this entire project to my editor,
+2:37 he can see the comment on the exact
+2:39 timestamp and he can just jump to all
+2:42 the different comments. I think you can
+2:44 jump you can jump to the different
+2:45 comments and on these comments right on
+2:48 these comments I'll show you
+2:52 right here it says deploy I don't like
+2:53 this black cursor I'm going to say
+2:56 please make the cursor white and what I
+3:00 can do is I can actually leave I can
+3:02 attach in a file here and then I want to
+3:04 be able to share this project with my
+3:06 editor and so we're going to build this
+3:08 tool right now and so to do this I
+3:10 personally I'm going to be using Vibe
+3:12 Code
+3:13 dev. Full disclosure, this is my startup
+3:15 in San Francisco. It's very similar to
+3:17 Replet and Lovable except it uses Claude
+3:19 Code as the default agent. As you can
+3:21 see here, if we click web app, it will
+3:23 open up a new project and we can talk
+3:25 directly to Claude Code. So, I want to
+3:27 quickly mention really quickly because a
+3:29 lot of people commented on my previous
+3:31 video saying that that's not cloud code.
+3:33 It's just using the cloud API or it's
+3:35 just using the cloud SDK. It's not
+3:37 actually cloud code. It's literally
+3:40 cloud code. If you go to sandbox.dev,
+3:43 this is a project that's still
+3:45 available. We released this in about a
+3:47 week a few months ago. And what it does
+3:50 is it runs claude code in a sandbox. As
+3:53 you can see here, you're going to see
+3:54 this is claude code. This is literally
+3:57 cloud code. And I can say make an app
+4:00 for Riley Brown AI. Search him up. We
+4:06 had this idea. What if we just made
+4:08 cloud code available on the web where
+4:10 you could use it in this terminalike
+4:12 experience? And this is literally cloud
+4:15 code the latest model running in a
+4:18 sandbox building an app. Then we uh
+4:20 talked to a lot of users and a lot of
+4:22 the users actually didn't care about
+4:24 this interface. In fact, it was kind of
+4:26 intimidating, right? Because we're
+4:27 trying to allow millions of people,
+4:30 non-technical people to build apps. So
+4:32 we decided to wrap this. So we wrapped
+4:35 claw code. This is identical. Exactly
+4:38 what's happening here is just wrapped in
+4:41 a sandbox and it looks much cleaner. And
+4:43 that is our new product, the Vibe Code
+4:45 web app builder. That's exactly like
+4:47 Lovable and Replet, except it uses cloud
+4:49 code. Literally uses cloud code. I won't
+4:52 go through this every video. I just
+4:53 wanted to say because I did get a lot of
+4:55 comments saying that this wasn't cloud
+4:56 code. It's literally cloud code. Okay.
+4:58 So, uh, I took a couple minutes to come
+5:01 up with a prompt, right? I want to build
+5:03 an app that is exactly like Frame.io
+5:05 except it has only these features. One
+5:07 thing I'm going to add here is search
+5:09 internet for context on frame IO. I just
+5:14 want to specify this. It would have done
+5:15 this already, but I just want to give a
+5:17 little bit of extra emphasis on
+5:19 searching the internet so it knows kind
+5:20 of how the layout works for Frame.io.
+5:23 And then I just listed all the features
+5:24 that I wanted. Upload a video, save it
+5:26 as a project. When I watch the video, I
+5:28 want to be able to add comments to the
+5:30 video at the exact timestamp of the
+5:32 video. When I pause uh while watching
+5:36 and type a comment on the right panel,
+5:39 it leaves a comment at the paused
+5:42 timestamp. Just getting a little bit
+5:44 more specific. I want to be able to to
+5:46 attach images or videos actually or any
+5:48 file to any comment that are viewable
+5:51 when I share the project with my editor.
+5:52 Make this app password protected with
+5:54 password banana. Save this on the back
+5:56 end and just have DB. And since this is
+5:58 an internal tool, we're not creating
+6:00 authentication. We're just creating this
+6:01 for my team. I'm going to change this
+6:03 password after this video and I'll talk
+6:04 about other ways to make it a secure
+6:06 internal tool later, but right now I
+6:09 just want to build the the rough
+6:10 prototype to begin. And number five is I
+6:12 want each of the projects to
+6:14 automatically come with a share link
+6:15 that are public by default with anyone.
+6:16 Anyone with the link with the link can
+6:19 view the video and comments. And so I'm
+6:22 just going to copy this prompt right
+6:24 here. And we're going to go back to
+6:26 vibecode.dev. And what we're going to do
+6:28 is we're going to paste in this prompt
+6:30 right here. And we are going to use
+6:32 claude for opus. And we are going to run
+6:35 this. And now cloud code is going to
+6:37 work. And as you can see here, cla code
+6:39 is thinking and it is showing the to-do
+6:41 list. So these are all of the tasks that
+6:43 cloud code is about to do. It's going to
+6:45 set up the database schema. Great.
+6:47 Create the backend API routes. Great.
+6:50 Update the design. Build password gate
+6:53 page. Build projects dashboard. Video
+6:55 player. Public share view. Wire up front
+6:58 end to backend. This is great. We're
+7:00 gonna wait for cloud code to finish.
+7:02 Okay, so after about eight minutes, it's
+7:04 done. As you can see here, tons of
+7:06 updates. This step alone had like 48
+7:10 different updates, which is pretty
+7:11 insane. So, let's see if this works. So,
+7:13 and I don't expect this to like
+7:15 completely oneshot it. So, if we just
+7:16 type in banana, continue. If we hit new
+7:19 project, I see here that it's asking for
+7:22 a video URL. Enter a direct link for an
+7:25 MP4, webm, or other video file. I don't
+7:27 see the ability to upload the file. So,
+7:30 that is a little bit of a
+7:31 miscommunication. I didn't want to be
+7:33 able to upload a video URL. I want the
+7:36 whole project to be saved as a URL that
+7:38 I can share, but I want to just be able
+7:40 to press upload and then upload a video
+7:42 and that gets saved to the um database
+7:45 or storage or however that works, not
+7:48 enter a video URL. Please fix. Okay. So,
+7:51 now we're going to run this prompt and
+7:53 we will wait. All right. Now, let's see.
+7:55 So, I'm going to go ahead and type in
+7:56 banana. And now we can create our first
+7:58 project. As you can see here, we can
+8:00 actually upload a video. I'm just going
+8:02 to call this launch vid. Now, I'm going
+8:04 to select my video. So, it's showing
+8:08 uploading 100% uploaded. Create project.
+8:13 Project created successfully. So, now
+8:16 I'm going to click on this. Look at
+8:17 this. Let's see.
+8:21 All right. Pause. Please make this text
+8:25 larger.
+8:27 Send. Okay.
+8:30 I don't see any timeline,
+8:34 but that's okay. It it uh let's go to
+8:37 let's go in the future here.
+8:40 Um okay. So, what if I wanted to say
+8:42 make the outline of this phone blue?
+8:48 Okay.
+8:49 You can now create web apps. make the
+8:53 toggle larger.
+8:56 And what if I wanted to um Okay, so I
+8:59 can add a URL. Okay, so paste an
+9:02 attachment URL. That's not what I want.
+9:06 Um I'm going to make that change in just
+9:08 a second. Um but let's not worry about
+9:11 that right now. I can fix that in just a
+9:13 second. I want to see if I can jump.
+9:15 Wow. Wow. Wow. This is awesome. Um, and
+9:20 so one thing that we can do here is if
+9:22 we go back and we go to the design tab.
+9:25 What we can do here is we can click
+9:27 visual editor. I can select review,
+9:31 right? I can select this right here. And
+9:33 I want to actually just change the name.
+9:35 We're going to change this to review
+9:36 vid. And I can very easily just edit it.
+9:40 And we can just click save. And there we
+9:42 go. Wait, what I want to do is I want to
+9:45 be able to I'm going to press share.
+9:47 Share link. copied to clipboard. What
+9:50 we're going to do is we're going to go
+9:51 to this link right here. Let's see if
+9:53 this works. Boom. We have this share
+9:56 link and it works great. This is insane.
+9:59 This is after two prompts.
+10:04 Unbelievable. And we can snap to the
+10:07 video. This is a shared view. Sign in to
+10:09 add comments. That's crazy, dude. I just
+10:13 don't like these colors. I hate purple
+10:15 in general. So, we can actually go to
+10:17 the design tab and then we can click on
+10:18 themes. And so, we can just kind of Ooh.
+10:22 Oh, this is nice. I'm actually going to
+10:25 use this soft pop. This is actually
+10:28 fire. Apply. Apply. Yeah, I like this
+10:32 one. Except this color is a little too
+10:34 aggressive. What if we make this one
+10:36 like a little bit more white? Like right
+10:40 here.
+10:41 This is pretty cool. Apply. Apply. Okay.
+10:45 So this is pretty cool. I like it. So
+10:47 now what we can do is I want to say
+10:50 please allow me to just upload images
+10:55 and any type of file to a comment as an
+11:01 attachment. Right now it asks for a
+11:05 link. I want to be able to upload it.
+11:10 Yeah, I want to be able to upload it.
+11:12 Okay, so let's see if this worked. So
+11:15 banana continue. Okay. Launch viday.
+11:19 Let's see if this works. So attach.
+11:22 Nice. So I want to attach a screenshot
+11:25 right here. So we can see the
+11:27 screenshot. I want to be able to like
+11:29 preview the screenshot. So um if it's a
+11:35 video or image, I want to be able to
+11:40 preview it. So the preview should be a
+11:45 small image if I click on it. Center uh
+11:50 modal um view please.
+11:55 And then I also want to be able to
+11:56 download it. And also you should be able
+12:01 to download
+12:04 um the file from the from that view. um
+12:10 the modal uh modal view and you can uh
+12:15 so now that's in the queue and we
+12:17 prompted that up and I'm already sick of
+12:19 this theme. I actually do want to change
+12:21 this once again. Um we'll do something
+12:24 simpler. We'll change this again later.
+12:27 Um let's go ahead and apply this. Um
+12:30 okay. So now let's go ahead and open
+12:32 this up. Now I can click on this comment
+12:35 or actually we can go right here.
+12:38 Um,
+12:40 please make this text a different font
+12:45 and I can attach an image. I'm just
+12:47 going to test and see if this works.
+12:50 Okay, I can send this. Okay, now we can
+12:54 click on this. Very cool. And we can
+12:57 download.
+12:58 How do we get out of this? I can't get
+13:00 out of the modal. Ah, it took me off the
+13:03 page. Okay, so that's cool. I can
+13:04 download this. I think that should have
+13:07 gone. Wait, how do I download this? If I
+13:09 click download, it takes me to this
+13:11 screen. Now, I can just kind of copy it.
+13:14 I don't want that to happen. When I
+13:16 click download,
+13:19 it it like takes me to the image URL.
+13:21 Like, it takes me to that like a new
+13:24 page in my browser. I don't want that to
+13:25 happen. If I click download, it should
+13:27 just download to my downloads. That's
+13:28 it. Simple.
+13:31 But other than that, this looks pretty
+13:33 good. Okay, so it is done. Let's go
+13:35 ahead and click on this. And now we hit
+13:37 download. Did that download? Wait, let's
+13:40 give this a try. So, here's a video. Uh,
+13:44 I'm going to try and download it. There
+13:47 we go. So, it does save to my downloads.
+13:50 Now, these are downloading, which is
+13:53 really cool. Amazing. So, we have
+13:55 [music]
+13:57 this timeline. I kind of want Please
+14:00 make the timeline beneath. Uh actually
+14:04 how is it on frame IO? So if we go to
+14:07 frame
+14:09 IO here it is kind of below the video.
+14:13 So that's what I want to do.
+14:15 timeline below the video similar to
+14:19 frame IO and make the timeline white but
+14:24 after like but the played portion
+14:29 light blue and the dots uh let's make
+14:33 them like red to match the color of the
+14:39 like of the color of the timestamp
+14:43 text. I don't know if that'll look good,
+14:44 but we'll see. So, our app is done.
+14:48 Let's go ahead. Okay, so this looks
+14:50 pretty good. We can hit play.
+14:53 Nice. So, we have these red dots. Okay,
+14:58 so I can click on these. Okay, this is
+15:00 very cool. Very cool. What does it look
+15:03 like on Frame.io here? Like if I hover
+15:06 over this, when I hover it shows the
+15:09 comment. That's what I want to do. 100%
+15:12 doing that. Uh, when I hover over one of
+15:16 the red dots, it should show the comment
+15:18 as a little popup. That should be like
+15:20 an overlay that shows the whole comment
+15:22 like it does in the side panel. And I
+15:24 also want to be able to turn like I want
+15:26 to be able to uh push the side panel off
+15:29 the page, but it should be default on.
+15:32 Like it should be default out and then I
+15:34 want to be able to collapse it and
+15:36 uncolapse it.
+15:38 But yeah, this app is looking really
+15:39 good. And now it is still working. I
+15:42 think it added the hover. Okay, so it's
+15:44 adding it. It's currently adding the
+15:47 collapsible comment. Wait, it looks like
+15:49 Yeah, this little thing, this little
+15:52 arrow thing right there is not in the
+15:56 right spot every time as you can see
+15:58 here.
+16:00 But it's pretty good. I'm just going to
+16:01 get rid of the little uh triangle. There
+16:04 is a little triangle that shows up below
+16:09 the popup. Please remove that. Okay. So,
+16:14 let's give this a little test here. I do
+16:16 not see how to collap Oh. Ooh, I don't I
+16:21 mean, I like this. Make the uh hide
+16:24 comments in just the icon, not the hide
+16:31 uh comments text. Okay, it's done. Look
+16:35 at this. This is fire. So, we have this.
+16:37 We can hover over this. Testing. Make
+16:40 toggle larger. We can click on this.
+16:44 Very, very cool. Very easy to use. I am
+16:49 really liking this. Um,
+16:53 let's go. Anyway, let's go ahead and I'm
+16:57 going to go ahead and upload a new
+16:59 project so we can test a new project. Uh
+17:01 let's click on a video first. Um let's
+17:04 go ahead and click on this. Open
+17:07 uh meditation app video.
+17:11 Upload the video. Okay, almost done.
+17:15 Great. It's done. This is hanging off
+17:17 this a little bit. We can fix this real
+17:19 quick, but I'm just going to create that
+17:21 project. We can copy this. And all we
+17:24 can do is we just paste this directly
+17:26 into the chat right here. Uh this is
+17:28 after we upload a video. See how it's
+17:33 hanging off. Please fix this. Okay. So
+17:37 we can run this. So let's check on this
+17:38 meditation app video.
+17:41 One thing I want to just add is uh
+17:43 please add music and zoom in earlier.
+17:48 There's a weird pause so we can send
+17:53 this message. Boom. This is looking
+17:56 good. Everything is looking good right
+17:57 now. Okay. So now what I want to do is I
+18:00 want to be you uh I want to use the
+18:01 Google images API on serapi.com. And
+18:05 that's exactly what I'm going to do
+18:06 here. And so what I want to do with SER
+18:10 is I already grabbed my API key. I'm
+18:13 also just going to grab this Google
+18:15 images API and I'm just going to uh
+18:18 enter this prompt directly. Okay. So,
+18:20 I'm just going to say I want to use the
+18:23 SER API to um be able to in um upload
+18:31 Google images like download the Google
+18:33 image. Like I want to be able to like
+18:35 quickly browse Google images and enter
+18:40 them into comments on the video so my
+18:42 editor can use them. And this is also as
+18:45 well as being able to upload my own
+18:47 images. So these figure out the best way
+18:49 to design this. But basically let's say
+18:51 I wanted to type a comment where I
+18:53 should say show a picture of Sam Alman
+18:55 as an overlay here. Then what I want to
+18:57 do is I want to be able to immediately
+19:00 just type in Sam Alman into this new
+19:03 feature and then browse the picture of
+19:05 him and then when I select him it should
+19:08 add it to that uh comment if that makes
+19:11 sense. And so yeah, we are entering this
+19:13 link. Here are the docs. And then what I
+19:17 want to do here is I'm going to go to
+19:19 the env tab and we're going to go to the
+19:23 back end. We're going to add a variable.
+19:25 And so here I'm going to type in SER
+19:29 API_key
+19:31 and I'm going to paste my API key here.
+19:34 So I pasted my API key here. Now we'll
+19:37 hit add. And now we have this SER API
+19:40 key in our back end. I can just select
+19:41 this and add it to the prompt. Uh, use
+19:44 this key and I want you to add this
+19:48 feature in a way that looks good. And
+19:52 these should be stored
+19:55 the same way they are stored when I
+20:00 upload one of my own. Okay, so it looks
+20:03 like it is done here. What I want to do
+20:05 is I want to create a new project to
+20:06 test this. So, I just recorded a video
+20:08 while I paused and I can hit upload
+20:11 video. Riley vid tester. Boom. Done. We
+20:15 will create this project. Now, let's
+20:18 click into this bad boy. Here we have
+20:20 vertical. Ooh, I should be able to
+20:23 change the orientation. So, when I have
+20:26 a video that is vertical, it's really
+20:30 small. I want to be able uh you to make
+20:33 it so that if the video is a vertical
+20:36 orientation,
+20:38 uh it should be taller, but I want it to
+20:40 remain unaffected. Right? I do not want
+20:42 it to change at all when the video is a
+20:45 horizontal orientation, right? I want
+20:47 that to remain the same, but if it is
+20:49 taller, it should just be a bit taller
+20:50 so it's not as scrunched. You know what
+20:53 I mean? Okay, so we're going to run that
+20:54 prompt now. Let's test the feature.
+20:56 Hello there. My name is Riley Brown. I
+20:58 am a co-founder of vibecode.dev.
+21:02 Okay, so now what I'm going to do is I
+21:04 can I now have this images tab. Vibecode
+21:07 app. Let's search this up. Boom. There
+21:10 we go. The app that builds mobile apps.
+21:13 We can add this to the comment. Put this
+21:16 logo. Send. Boom. So, look at this. Oh,
+21:20 and it has one attachment. One thing I
+21:24 want to say is when I uh hover uh hover
+21:28 over the red dot and the comment has an
+21:34 attachment
+21:36 or more than one. It should show them
+21:40 not just say one attachment.
+21:45 It should have a preview of them. Okay.
+21:50 So, we're going to run this. While
+21:52 that's running, let's go ahead and give
+21:53 this a test. Look at this. This is just
+21:56 cooking, dude.
+21:57 >> Hello there. My name is Riley Brown. I
+21:59 am a Okay, what if we want to add a
+22:01 photo of Riley Brown? We can add Riley
+22:04 uh Brown.
+22:06 Check this out. Let's use this photo
+22:09 right here. Add this photo here and make
+22:14 it big. And so we can run that. And look
+22:18 at this. And now the images show up in
+22:22 the preview. Absolutely insane. So, one
+22:25 more thing. Please make it so the first
+22:30 frame of the video is the preview of the
+22:35 videos in the projects. Also, right now,
+22:38 all of the projects on the main page
+22:41 show 0 0. Please make this be the length
+22:48 of the video. But right now, they're
+22:50 just like purple rectangles uh that say
+22:52 zero. And I want them to show more of
+22:54 the details like it would on a normal
+22:56 application, please. Okay, so now it
+22:59 works. Look, we have all of the displays
+23:02 right here, right? We have the first
+23:04 frame and you can see my head here. So
+23:07 that looks good. And then on all new
+23:09 uploads, it shows the time. So I can
+23:12 upload a new video. Um let's just select
+23:15 this video right here. Launch two. We
+23:19 can upload this video. And boom, it is
+23:21 done. We can go ahead and create the
+23:24 project here.
+23:27 And we see the time is looking pretty
+23:29 good. All right. So now that we finished
+23:31 building our app, we are done. Now we
+23:33 can simply deploy this. I'm going to
+23:34 deploy uh 22 updates here. This is going
+23:38 to be frame io.vcode.run.
+23:41 run. We're going to press next here and
+23:45 enable password protection. Oh, I can
+23:48 already create password protection. I'm
+23:51 going to actually add an official
+23:52 password and we can get rid of the the
+23:54 other password, the banana password that
+23:56 we did earlier. And okay, so it is
+23:59 deploying. I can click on this
+24:00 deployment details page. And here we
+24:03 are. We're on the deployments details
+24:05 page right here. As you can see, um,
+24:09 right now, I think it is still loading.
+24:12 So, we'll wait for it to be done. We can
+24:15 view the database here. Once it's
+24:17 deployed, we're going to be able to view
+24:18 the database. We're going to be able to
+24:20 view the logs, the environment
+24:21 variables, analytics, domain, and
+24:24 settings. So, all of this is configured.
+24:26 Once you press deploy, we just need to
+24:28 wait uh for it to be done. Okay. So, the
+24:31 username is just Vibe Code. And so, if
+24:33 we go to frame io.v vibecode.run.
+24:39 We can open our tool. We type in vibe
+24:41 code. And now I'm going to type in that
+24:43 password. And now we're going to hit
+24:45 sign in. And there we go. We have our
+24:47 app. It is actually deployed on the
+24:49 internet. I can send it to anyone on my
+24:52 team. It's password protected. I can
+24:54 take any video and we can actually share
+24:57 it by pressing this button right here.
+25:00 We can share this link. I can paste this
+25:02 in any browser. This is the share link.
+25:05 You could go to this page right now and
+25:06 you could see all of the comments. This
+25:08 one, there's only one comment as you can
+25:10 see right here. It's that easy. So, in
+25:13 this video, we created this app in
+25:16 around 30 minutes and I'm literally
+25:18 going to use this to communicate with my
+25:20 editor. I'm going to load up these
+25:22 comments. He's going to make the edits.
+25:24 He's going to send it back to me and
+25:25 he's going to upload it to the app and
+25:27 I'm going to be able to make comments on
+25:28 a new version, which is really, really
+25:30 cool. Uh, anyway, thanks for watching
+25:31 the video. I'll see you here for the
+25:33 next

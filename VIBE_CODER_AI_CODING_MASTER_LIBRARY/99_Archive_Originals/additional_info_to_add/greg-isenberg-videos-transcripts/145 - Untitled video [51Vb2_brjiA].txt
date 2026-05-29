@@ -1,0 +1,1843 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=51Vb2_brjiA
+Channel: Greg Isenberg
+Video ID: 51Vb2_brjiA
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 what if you can create video games using
+0:03 AI well now you can grock 3 just came
+0:07 out Sonic 37 just came out and today's
+0:10 episode is all about using Technologies
+0:13 like that to create high quality games
+0:17 that are going to go viral on social
+0:19 platforms so today's episode uh step by
+0:23 step how to do it how to use cursor to
+0:25 do it we integrate with superbase uh and
+0:28 I bring on this guy named Alex Finn
+0:31 who's gone viral uh millions and
+0:34 millions of Impressions about some of
+0:36 the games that he has created using Ai
+0:39 and just a few prompts so enjoy the
+0:42 [Music]
+0:50 episode this is a big day we got Alex
+0:53 Finn on the Pod if you don't know Alex
+0:56 well he's been going absolutely viral
+1:00 because he's been using platforms like
+1:02 grock couple prompts and he's just like
+1:05 building video games so Alex what are we
+1:08 going to learn today we are going to
+1:11 learn how to use AI apps as a way to
+1:14 growth hack any product you have uh I've
+1:17 been building AI games like the last
+1:19 eight months now going really viral on X
+1:22 which is amazing uh which has led to
+1:24 good growth for my newsletter which has
+1:26 led to good growth for my AI app that I
+1:28 launched um and it's through this whole
+1:30 new concept of like using AI apps and
+1:33 content to drive attention to your
+1:36 product so we're gonna we're going to
+1:37 build some cool things say on top of
+1:39 that show you how to grow your business
+1:40 with it so by the end of this pod what
+1:44 is like what are some tactical things
+1:46 that people are going to learn you are
+1:48 going to learn no matter what your
+1:50 experience level is when it comes to
+1:51 code or programming or marketing or
+1:54 anything how to build really cool micro
+1:56 apps and how to use those micro apps to
+1:59 drive newsletter signups to drive app
+2:01 purchases to drive more revenue and to
+2:03 drive more attention to your social
+2:05 media basically boost everything with
+2:07 cool new AI strategies and are we are we
+2:10 building games is that what we're
+2:12 building yeah so I found just through
+2:15 experimentation that games seem to be
+2:18 the most
+2:19 eye-catching uh hook for people and so
+2:22 I've been over the last eight or nine
+2:24 months since cursor came out building
+2:27 all kinds of different apps and creating
+2:28 content around whether it's games uh
+2:31 micro to-do list apps things like that
+2:34 but every time I put out like kind of a
+2:36 game like oh I built a Call of Duty
+2:37 clone or oh I built a grand theft autoc
+2:39 clone it seems that's what gets the
+2:41 clicks and so I figured out a way to
+2:43 kind of insert that into my marketing
+2:45 funnel for my products and newsletters
+2:48 uh and drive attention that way I mean
+2:49 I've I've gotten multiple retweets now
+2:51 from Elon which has driven tons of
+2:53 amazing traffic so these are some pretty
+2:55 cool strategies I I've been testing out
+2:57 for a while now all right let's get into
+2:59 it Alex
+3:00 let's do it so the plant let me first
+3:02 show you an example of what I've done up
+3:04 to this point I'm going to show you how
+3:05 to do so let me show my window here uh
+3:10 so the first time I tested this strategy
+3:12 is with the game you see here I call
+3:14 this a Call of Duty clone a top down 2D
+3:16 call Call of Duty clone uh where you can
+3:19 control the player in the middle you can
+3:20 shoot enemies things like that uh and
+3:23 then when you die it says game over
+3:25 you're on the leaderboard enter your
+3:27 initials and so I experimented with this
+3:30 about eight months ago where I said hey
+3:32 I built my first video game through
+3:33 cursor I have no game building
+3:35 experience uh play the game below
+3:37 Whoever has the highest score in the
+3:39 next 24 hours I'm sending you $100 right
+3:42 and so I put that on my ex I posted it
+3:44 out uh got a ton of clicks and attention
+3:47 because you know people are so into AI
+3:49 content right now and this drove about
+3:52 500 signups to my newsletter which is
+3:55 amazing right and the way people really
+3:58 have been driving clicks to newsletter
+4:00 over the last couple years is they build
+4:02 like a really good thread and then they
+4:04 have a follow post that says here's my
+4:05 newsletter sign up for it and that's
+4:07 kind of been drowned out and everyone's
+4:09 doing it and it's kind of you know
+4:11 filtered watered down right and so to
+4:14 really stand out in the marketplace you
+4:15 have to do different things you have to
+4:17 try new things and so I've tried this
+4:18 new strategy of you know using AI
+4:21 content things people are really into to
+4:23 drive signups and drive clicks it's been
+4:26 working spectacularly well so that's
+4:27 what I'm going to show you how to do
+4:28 here today cool let's do it by the way I
+4:31 do agree with you like you know when I
+4:33 when I see on X for example like tweet
+4:35 goes viral and then the second tweet is
+4:37 like for more of this go and you know
+4:39 subscribe to my newsletter like that's
+4:40 not working it's not working anymore no
+4:43 I I started my newsletter three years
+4:45 ago I'm up to 30,000 subscribers now and
+4:48 like it was growing like hot cakes three
+4:50 years ago when I was doing that strategy
+4:52 of like write like a thread and then say
+4:54 hey sign up for more everyone in their
+4:56 mothers is doing it now my grandma is
+4:58 signing like writing threads and saying
+4:59 sign up for my newsletter now like no
+5:01 one clicks that anymore so you have to
+5:03 like stay on the bleeding edge and do
+5:05 cool new things and I don't see anyone
+5:07 else doing this I'm sure in three years
+5:09 everyone's going to be doing this but
+5:11 this is like a really powerful strategy
+5:12 I think people trying to stay on the
+5:14 bleeding edge can do cool you heard it
+5:16 here first let's let's get into it so
+5:19 here's the plan I am going to use uh
+5:22 grock here so we're going to use grock
+5:24 grock is kind of the newest AI model
+5:27 everyone's using uh it's super super
+5:30 powerful it has really amazing tools
+5:32 that you can use for free right now deep
+5:34 search and think I'm going to show you
+5:36 how to use those two to build kind of
+5:37 your V1 of the game we're going to
+5:39 integrate it with superbase inside of
+5:42 cursor so that you have somewhere to
+5:44 store your emails right uh and then I'll
+5:46 show you how to launch it live on the
+5:47 internet so you can post it on your X
+5:49 and within two hours you'll have uh an
+5:51 incredibly powerful lead gen for your
+5:53 newsletter or app or whatever you're
+5:55 building cool quick break in the Pod to
+5:59 tell you a little bit about startup
+6:01 Empire so startup Empire is my private
+6:05 membership where it's a bunch of people
+6:08 like me like you who want to build out
+6:11 their startup ideas now they're looking
+6:14 for content to help accelerate that
+6:16 they're looking for potential
+6:17 co-founders they're looking for uh
+6:19 tutorials from people like me to come in
+6:23 and tell them how do you do email
+6:24 marketing how do you build an audience
+6:26 how do you go viral on Twitter all these
+6:28 different things that's exactly what
+6:30 startup Empire is and it's for people
+6:33 who want to start a startup but are
+6:35 looking for ideas or it's for people who
+6:38 have a startup but just they're not
+6:40 seeing the traction uh that they need so
+6:43 you can check out the link to Startup
+6:45 empire.co in the description so as a
+6:48 quick intro to grock you can go gro.com
+6:52 uh I believe it's these are completely
+6:54 free right now but like a limited use
+6:56 but as long as you have a blue check on
+6:58 X you get more use out of it you get
+7:01 deep search and you get think which with
+7:03 Chad GPT this cost $200 you get this
+7:06 basic I think for free with grock which
+7:08 is amazing we're going to do deep search
+7:10 to build the plan for the game so what
+7:13 deep search is really good at is kind of
+7:14 scouring the web doing research figuring
+7:16 out how things work and putting together
+7:18 a plan and then we're going to use think
+7:21 which is their reasoning model to
+7:22 actually execute on the plan and build
+7:24 the code right so deep search is really
+7:26 good at doing the research building the
+7:28 plan think is really good at executing
+7:30 on the
+7:32 plan so with that being said uh I got a
+7:36 prompt here so I don't have to sit here
+7:37 for 50 minutes and have a bunch of typos
+7:40 and bore the the audience uh I just
+7:42 copied and pasted from Apple notes
+7:44 design a p5js implementation p5js is a
+7:48 really cool uh gaming JavaScript
+7:50 framework free to use it has an
+7:53 excellent website where you can just
+7:54 test things out really quick uh
+7:56 implementation of a space shooting game
+7:58 I feel like people everyone gets space
+8:00 shooting games right everyone
+8:02 understands you don't have to have
+8:03 instructions for a space shooting game
+8:04 you control the ship and you kill things
+8:07 um it must be extremely polished and I
+8:09 want you to build all the Sprites and
+8:11 assets yourself I don't want to import
+8:13 any assets so this will make it easier
+8:15 for us so we don't have to like go on
+8:17 the web and search for open- Source
+8:18 pictures of spaceships we'll just have
+8:20 grock build everything for
+8:22 us so we'll make sure we have deep
+8:24 search selected and we'll hit enter okay
+8:26 question on the p5js implementation just
+8:29 cuz I've never built a game before um is
+8:34 that something that you figured out you
+8:37 know do you have yeah just give me
+8:40 context
+8:41 around every game am I building am I
+8:44 using that like I I I just don't I don't
+8:46 understand you really can use anything
+8:50 you want to build games like you can use
+8:52 uh Peter levels just came out with a
+8:54 great uh flying uh simulator that he
+8:57 built with pure vanilla JavaScript right
+8:59 so you really can build anything with
+9:01 any framework you want but for like
+9:03 Stone Cold beginners like me for
+9:05 instance I like to use built out
+9:08 Frameworks already and the reason why I
+9:09 like P5 JJs is you can test the game
+9:13 quicker than any other framework I've
+9:15 seen so far uh because they have this
+9:17 awesome website p5js dorg where you can
+9:20 just click Start coding you can paste in
+9:22 your code and hit play and you just
+9:25 instantly have the game going on your
+9:27 screen so this is found the best way to
+9:30 kind of prototype games and then you can
+9:33 take this and put in cursor and make it
+9:35 more advanced which we'll do in a second
+9:38 cool so what's great about grock in both
+9:42 the Deep research and the thinking uh
+9:44 grock was unable to finish replying it's
+9:47 beta it's beta what great about Gro is
+9:50 it didn't work
+9:52 here my favorite part about grock is it
+9:54 just doesn't complete the tasks at all
+9:57 uh we'll do this again it's and again
+9:59 it's cool cuz when you if you've used uh
+10:02 GPT Pro the the $200 version when you
+10:06 hit a prompt I can go and like make
+10:09 lunch and then come back and it's still
+10:10 running and it's like just painfully
+10:13 slow grock's amazing because it can do
+10:15 pretty much anything in like under a
+10:17 minute uh the speed of grock is
+10:21 unbelievable for the quality the output
+10:23 it gives you um and also the The Chain
+10:25 of Thought it shows you is way more
+10:27 detailed than GPT as well which is
+10:29 really cool to look at as it's going
+10:31 through so it's going through the game
+10:33 design it's looking at how other game
+10:35 Shooters on the internet work it's it's
+10:37 looking through different examples on
+10:39 p5js on how the code works on there uh
+10:42 it's looking at how to drawing
+10:44 techniques for Sprites on uh TS plus.com
+10:47 don't even know what that is uh just
+10:49 found interesting results on drawing
+10:51 spaceship so it's researching how to
+10:52 draw each Sprite I'm thinking about
+10:54 making a spaceship a rectangle with a
+10:56 triangle wings and thrusters in the back
+10:58 so it's it's really awesome uh to read
+11:01 through this to see how it works you can
+11:04 see browsing for other example code it
+11:06 can use and it's basically going to
+11:09 design this game for us it's designing
+11:11 like the physics and like where the ship
+11:13 moves as it's going around it's cool to
+11:15 see how this
+11:17 works and at the end of this what it's
+11:19 going to have uh very very shortly is
+11:22 the entire design for the app right so
+11:26 it's going to have how the spaceships
+11:28 move what the space ship look like with
+11:30 the enemies uh how the enemies work how
+11:32 often they shoot how they die how
+11:34 everything's determined you know
+11:35 implementing Collision detection
+11:37 defining the enemy class writing the
+11:39 pseudo code and then we're going to take
+11:41 this we're going to put it into the
+11:43 think mode and it's going to build us
+11:45 the code uh you know really nicely and
+11:47 really quickly so they they work really
+11:49 well together the two grock
+11:52 modes enhancing the visual effects here
+11:56 finalizing the it's it's really I love
+11:59 that at Deep seek if deep seek did
+12:00 anything well it kind of set the tone
+12:03 for like okay now all the other AI
+12:05 models have to put the chain of thought
+12:07 in because this is what people expect
+12:08 now I really think deep seek had like
+12:11 huge influence in how all this
+12:13 works all right so here we go it has the
+12:17 plan right game overview asset creation
+12:20 gameplay mechanics how everything works
+12:23 uh detailed implementation of how it
+12:24 works the background the bullets
+12:26 everything so what we're going to do now
+12:28 is like the colors of all the assets
+12:31 we're going to switch to think
+12:33 mode I'm going to pull in my handy uh
+12:36 prompt over
+12:39 here paste it in and we're going to say
+12:42 now create a code block with the entire
+12:44 correct code please ensure you're making
+12:46 all your own assets and Sprites and I
+12:48 don't have to import
+12:49 any hit enter on that and so now the
+12:53 think tool which is like I I I visualize
+12:56 as like the Deep search is my like
+12:57 senior researcher who's like gathering
+12:59 information and doing all the scouting
+13:02 and then the think is like the executor
+13:04 it's like the the programmer fore that's
+13:06 going taking that plan and actually
+13:08 executing for
+13:10 you and you can see here it's now going
+13:13 taking that plan and putting into the
+13:16 actual code
+13:19 itself and grock as of recording this is
+13:22 completely free is that right yes so
+13:25 there is a free version for grock 3
+13:27 right now which you do get to test test
+13:29 out deep search and think uh if you pay
+13:32 for the premium version of X where you
+13:34 get the check mark you get significantly
+13:37 higher usage uh of the app which the app
+13:40 is I think the best UI of any AI app out
+13:43 there right now incredibly easy to use I
+13:45 think it's worth it because then you can
+13:46 also make money on X and stuff like that
+13:48 but there is a free version where you
+13:50 can test this out now which I don't
+13:52 think any other app like GPT doesn't
+13:55 allow you to use the search like the
+13:57 Deep search stuff for uh for free so
+14:00 pretty
+14:01 cool so we can see here here's the
+14:04 complete code and what I'll show you
+14:06 which is why I like p5js so
+14:10 much is I can just copy paste this and
+14:13 test it in seconds I don't even need
+14:15 like an
+14:16 IDE uh to see what this plays and looks
+14:19 like and then we can move this into
+14:21 cursor and actually do uh some of the
+14:23 cool stuff like implementing the
+14:25 database implementing the leaderboard
+14:26 and all
+14:27 that so let's take
+14:30 this put in a p5js hit play Boom first
+14:36 try game over so sometimes you know it's
+14:39 not the best
+14:41 uh working wise on the first go but I
+14:44 mean for a first go we got the bones of
+14:47 a good game here it also has like the
+14:49 Hamas triangle like coming down on you
+14:52 it's like you trying to kill the Hamas
+14:55 Tri triangle that is listen if you want
+14:57 to add a little extra motiv
+14:59 to the game you can certainly imagine
+15:01 the other spaceships as terrorists
+15:03 that's totally up to you listen that
+15:06 might be a good way if you're trying to
+15:08 make a political statement on X turn
+15:10 this game into you know where you're
+15:12 hunting your enemies that might be a
+15:13 cool way to do this I mean talk about
+15:15 something that would go
+15:17 viral so I was actually planning
+15:19 surprise at the end here I'm going to do
+15:22 a spoiler on surprise now we're thinking
+15:24 you're thinking five light years ahead
+15:26 now you can use this to turn memes and
+15:29 trending jokes into experience in games
+15:32 as well I turned uh the Mitch McConnell
+15:34 meme of him freezing on stage into a
+15:37 playable game as well where you try to
+15:39 avoid staircases uh and collect money
+15:42 and so this went super viral a few days
+15:44 ago because I took a meme and a joke
+15:47 that was working really well in the
+15:49 moment and just turned it into a game
+15:50 and launched it on my a so a little
+15:52 spooler what's coming at the end anyway
+15:56 uh so we got the bones of a game here
+15:58 right so let's take
+16:00 this let's take this game we'll copy
+16:04 this I'll stop let's let's actually do
+16:07 one more thing okay I want to import
+16:11 this into cursor how do I set up the
+16:16 file system to get this to work so like
+16:20 here's something whenever I put out
+16:22 these types of tutorials on X as well or
+16:24 proud videos I immediately get okay how
+16:26 do I launch this how do I edit this how
+16:28 do I do this my response is always the
+16:30 same just ask the AI it'll tell you how
+16:33 to do it and so if you want to do
+16:35 something like take your code from grock
+16:36 put it in a cursor put in whatever code
+16:38 editor you want just ask how to do it
+16:41 it'll tell you how to do it so we're
+16:42 going to do that now I got cursor up
+16:44 we're going to use Sonet 37 which just
+16:46 launched this morning which is going to
+16:47 be sick we'll try that out and we'll
+16:49 have a cool game
+16:51 going we're using all the Cool Tools
+16:54 right now all the hot stuff we are SEO
+16:57 stuffing the hell out of this video
+16:59 YouTube's algorithm is going to just be
+17:01 putting this in front of everyone on
+17:02 planet Earth after they scan through
+17:04 what we're
+17:05 saying okay let's see okay so create a
+17:08 project directory create the HTML file
+17:11 and create the Javascript file and Run
+17:12 the game all right I'm going to switch
+17:14 over to curse now and we'll start
+17:16 building this out I'll follow these
+17:17 instructions
+17:19 so
+17:20 share and while you're doing this like
+17:22 what level of developer would you say
+17:25 you
+17:26 are uh I'm going to be honest I am a
+17:30 advanced developer I've been coding my
+17:32 whole career I have a computer science
+17:35 degree um I was a developer right out of
+17:38 school so I am really experienced in
+17:40 coding I just launched an AI app I built
+17:42 my entire self so I know coding really
+17:45 well um but I will say this I've been
+17:49 using AI non-stop for a couple years now
+17:52 you don't need any experience to do this
+17:54 what I'm showing you here like I'm
+17:56 showing you from beginning to end
+17:58 everything you need to do to launch a
+18:00 game and I would argue nothing I've done
+18:02 so far is very technically sophisticated
+18:05 or any sort of experiences required you
+18:07 know AI is that advanced now where like
+18:10 if there's any gaps in your knowledge
+18:12 you have you just say hey how do I do
+18:14 this and it'll fill that gap for you so
+18:16 I really don't think you need like
+18:17 Advanced knowledge to do
+18:19 this
+18:20 cool that's what we like to hear on this
+18:24 channel exactly exactly um I got cursor
+18:28 open so I'm going to over on the side of
+18:31 my screen I have grock still open I'm
+18:32 going to follow the instructions I'll
+18:34 walk you through it uh so first thing
+18:36 we're going to do is create a directory
+18:38 so let's create a new
+18:40 folder um we oh oh actually no we
+18:43 already got the space game folder so
+18:45 let's make the HTML file so we'll do new
+18:48 file and and again all I'm doing is just
+18:51 following step by step everything grock
+18:54 is telling me so it says make this
+18:57 file copy in this code for the
+19:00 HTML
+19:01 save uh and then create the JavaScript
+19:04 file so create a file named sketch. Js
+19:08 sketch. Js boom uh open sketch. JS and
+19:13 paste the code
+19:15 in so let's take our game
+19:19 code paste this in save
+19:23 boom and then let us run the game to run
+19:27 the game open
+19:29 index.html in a web browser so okay so
+19:33 I'm going to off my screen here double
+19:36 click on
+19:38 index.html and then I will show you my
+19:40 screen to show you to prove that grock
+19:44 knows what the hell it's talking about
+19:45 here so
+19:46 screen
+19:48 window boom so here's the game Let's
+19:51 refresh this as you can see it is
+19:54 working just as grock
+19:55 directed okay let's go back in a cursor
+19:59 not I mean you would Greg you would say
+20:01 that this is all technically pretty
+20:03 simple so far no JavaScript coding
+20:06 knowledge necessary right yes yes no
+20:09 I'll be honest with you I was sad to
+20:11 hear that you're such an advanced person
+20:15 and then you got to hit me with the end
+20:17 I have a computer science degree but you
+20:19 redeemed yourself
+20:22 when you're showing me this is this is
+20:24 anyone could do this listen it it does
+20:28 I'll say this kind of hurt the narrative
+20:30 uh that I'm trying to tell you here by
+20:32 saying oh I'm a genius but I will say
+20:35 that I listen I could Li and say I don't
+20:37 know what the hell I'm doing here but I
+20:39 will say this I'm showing you how
+20:41 there's no I'm not writing any code here
+20:43 there at no point during this while I
+20:44 write code so trust me you don't need a
+20:47 computer science degree to do this all
+20:50 right cursor we're in cursor no matter I
+20:54 I swear to God I updated cursor 13
+20:57 seconds before this podcast started it's
+20:59 already got an update anyway uh we're in
+21:03 cursor uh open up the sidebar you get
+21:05 your composer if you're watching Greg's
+21:08 Channel I'm sure you've you know what
+21:09 the hell cursor is but composer is
+21:12 basically your AI agent that allows you
+21:14 to build whatever you want I switch to
+21:16 agent mode and you love to see it Claude
+21:19 37 Sonet is in the
+21:22 dropdown never thought I'd see the day
+21:25 uh I would assume based on my
+21:27 experiences you probably don't want to
+21:29 use the thinking model to do coding uh
+21:31 you know because i' I've tried 01 and it
+21:32 was just a pain to use uh you lose a lot
+21:35 of speed so let's just go with 37 Sonet
+21:38 here all right if I recall correctly
+21:41 when I just tried this game there was no
+21:42 shooting so let's start first by making
+21:46 the game playable making it fun and then
+21:50 what we'll do is add in the superas
+21:52 integration anyone who's new super base
+21:55 in my opinion it's probably the easiest
+21:57 for beginners to use database for apps
+22:01 uh I built my app on superbase I never
+22:03 used like a database before uh super
+22:05 easy to do I'll show you how to do that
+22:08 and that's where you're going to store
+22:09 like high scores and email addresses so
+22:11 you can put them into your newsletter if
+22:13 you're building a newsletter or whatever
+22:15 you want to do add it to your marketing
+22:17 list for your app whatever you're doing
+22:19 so with that being said let's go in here
+22:22 um we are building a space shooter game
+22:28 but but it doesn't appear the shooting
+22:32 from the ship is
+22:35 working can you please check over the
+22:39 code and see why that is I just talked
+22:43 to the AI like it's a human being I
+22:45 don't use any sort of advanced prompting
+22:48 techniques I I go on X every other post
+22:50 is like here's 20 meta prompts you can
+22:52 use to write the most advanced coding I
+22:55 just talk to the AI like it's a human
+22:57 being I don't have like any advanced
+22:59 meta prompting techniques I don't have
+23:01 no I just say hey man can you fix this
+23:03 for me
+23:05 please um I'll examine the space Sho
+23:07 identify looking at your code I can see
+23:09 that the shooting mechanism is
+23:10 implemented in the draw function this
+23:12 should create a new bolt when let me
+23:13 check if there any issues with this
+23:15 implementation going to be honest I
+23:17 don't know what that prompt that uh
+23:19 command does but let's run
+23:21 it let me check the
+23:25 file after examining the code I've
+23:27 identified the problem with the shooting
+23:30 mechanism the issue is how handles
+23:32 keyboard input the keyboard down
+23:33 function and pay five okay let me fix
+23:36 this by implenting a proper keyboard
+23:39 event Claude 37's literally like 45
+23:43 minutes old so I just pray to God it
+23:45 works well uh and we're not going to get
+23:46 into like an endless Rat Hole here uh
+23:48 okay so try running the game now let's
+23:51 see what is the new key for shooting
+23:54 meu's Key down wasn't working ready for
+23:56 detecting the space bar okay so space
+23:58 bar press perfect let's accept this
+24:01 let's save
+24:02 this let me
+24:05 uh let's share the shooting
+24:09 screen again no technical experience
+24:13 right that was pretty not like saying
+24:15 hey change this line of code do this
+24:17 just figuring out on its own right I
+24:18 mean Light technical experience like you
+24:20 have to know a little bit of like what's
+24:23 happening but very light and I'll say
+24:27 this
+24:29 even if it's light if something confuses
+24:32 you when it's light you just go into
+24:34 grock and say hey what the hell is this
+24:36 guy talking about this AI what does this
+24:38 mean and it'll just explain it to you
+24:39 yeah all right let's see here oh we're
+24:42 shooting it's
+24:43 working it's working okay downside we're
+24:48 just randomly dying I don't know why we
+24:49 just died that made no sense
+24:53 um
+24:55 we okay that work I always like to tell
+24:58 the AI like okay what you did just
+25:00 worked thank you for that because then
+25:02 it kind of like trains the AI to know
+25:06 what it did was good because sometimes
+25:08 the AI does some stupid things and I'll
+25:10 say no you're an idiot so when it does
+25:12 good things make sure you also say okay
+25:14 that worked too so like train it to do
+25:16 those things again when it works um okay
+25:19 that worked one more switch back to the
+25:23 cursor screen yes apologies screen
+25:28 window it's like how do I know you're
+25:30 not coding right now you know I want to
+25:31 make sure this is non-technical I
+25:34 quickly uh rode an entire space shooting
+25:37 game during that that during that one
+25:41 pause okay that worked one more issue it
+25:45 seems we are randomly dying here's
+25:49 another thing I really like to do um I
+25:52 like to use the AI as like kind of a
+25:56 product manager as well where I'll ask
+25:58 it a lot of questions on what do you
+26:01 think the design should be here because
+26:04 you know when you're building something
+26:05 on your own you kind of lose perspective
+26:07 on your audience and what people want
+26:09 and so a lot of times when I'm making
+26:10 even small design decisions like I'm
+26:12 about to do here before I tell the AI
+26:16 what I want I'm going to ask it what it
+26:18 thinks I should do so for example right
+26:20 we're randomly dying in the game and so
+26:22 in my head I'm thinking okay should we
+26:26 die when uh the triangles get off the
+26:29 screen at the bottom or should we die
+26:31 when they run into us right what is more
+26:35 fair for the player and so what I'm
+26:36 going to do is I'm going to say okay
+26:37 that worked one more issue it seems
+26:39 we're randomly dying do you think we
+26:42 should die when the triangles we'll say
+26:47 the enemy triangles the enemy
+26:49 triangles run into
+26:52 us or when they go off the
+26:57 screen compl
+26:59 completely and so I actually before I
+27:01 make final decisions on any sort of
+27:03 design I'll Just Bounce It Off the AI
+27:05 real quick uh like for instance I'm I'm
+27:08 re-editing the tutorial in my own app uh
+27:12 and I I I've just gotten feedback from
+27:15 my audience like that's where people are
+27:16 falling off like they go in the tutorial
+27:18 they get really confused and so I've
+27:20 just been like talking to I where should
+27:21 this be where should the tutorial be and
+27:23 it's redid everything for me it's just
+27:25 way better the AI is just a way better
+27:27 designer than me so I like asking the AI
+27:30 first um let's see what it came up with
+27:33 I'm glad the shooting mechanism is
+27:34 working now let's address the issue with
+27:36 the Game ending unexpected looking your
+27:38 code I can see why you might be
+27:39 experiencing R random game overs the
+27:41 current game over condition is triggered
+27:43 when an enemy reaches the player's
+27:44 vertical position but it doesn't check
+27:46 for an actual collision with the player
+27:49 let me analyze the code listen even if
+27:52 you're not
+27:53 technical give it a shot and just like
+27:55 read the code because it can't hurt to
+27:58 understand how it works so even if it's
+28:00 super confusing and you don't know what
+28:02 it means I really think just looking it
+28:04 over and seeing trying to understand a
+28:07 little bit of how it works is beneficial
+28:09 I would never you know the the vibe
+28:11 coding uh trend is oh you just close
+28:13 your eyes and
+28:15 type I agree but let's go somewhere in
+28:18 the middle where you do look at the code
+28:19 just to see what it does um the
+28:22 condition checking if the bottom of the
+28:24 enemy is below the player's y position
+28:26 okay so it checks to see if it's below
+28:27 the Y position then just ends this
+28:29 doesn't account for horizontal position
+28:31 meaning an enemy can trigger game over
+28:33 even if it's not directly hitting the
+28:34 player let me fix this so it fixes it
+28:38 checks for player Collision kind of cool
+28:41 I fixed the issue with random game overs
+28:42 here's what I changed replace the
+28:44 vertical only check and has New
+28:46 Collision
+28:47 detection except let's test it
+28:51 out share so we're getting somewhere
+28:54 we're getting somewhere cool here let's
+28:56 try our game again
+29:01 refresh okay that worked okay here we go
+29:04 I was trying to move with the keys all
+29:06 right it's working it's
+29:09 working kind of cool right I mean super
+29:12 cool dude you buil a game in like a few
+29:16 minutes it's a few minutes uh we really
+29:20 didn't need any design skills and I'd
+29:22 say in the 3 minutes it took us to build
+29:25 this this is a lot more compelling to a
+29:29 general audience to get clicks than like
+29:33 a thread on X and then saying sign up
+29:36 for my newsletter right like it take I
+29:39 and I still do it but like that takes
+29:42 like two hours to
+29:43 do building this game took three minutes
+29:46 and I'd argue for a general audience on
+29:49 X that game we just made and we're going
+29:52 to make this even cooler is more
+29:54 compelling to like get a click get
+29:56 people interested in whatever you're
+29:57 doing doing and even if it isn't for a
+30:00 click I'd argue this is more compelling
+30:02 to get like follows and to get like or
+30:05 engagement so that next time you put out
+30:07 something that's related to your Niche
+30:09 or next time you put out something that
+30:10 like drives to your product they'll be
+30:12 more likely to see that on their home
+30:14 feed because they've already clicked on
+30:16 a couple of the things you built how do
+30:18 we change the design aesthetic of some
+30:22 of this
+30:24 stuff uh what are you thinking what what
+30:26 uh what would you like to change what's
+30:28 what's not pleasing you from a design
+30:29 perspective I mean I I think the the
+30:32 triangles need to
+30:34 go that's one triangles need to go okay
+30:37 let's do this I don't know I just don't
+30:39 think
+30:40 like to me it's you're not fighting
+30:42 against triangles you're fighting
+30:43 against like asteroids or something like
+30:47 that you you okay so let's do
+30:50 this from an artistic perspective I'm
+30:54 the wot the worst of all time so let's
+30:56 let's go back to Claude let's have claw
+30:58 do the design for that so I think the
+31:01 enemy ships are horrendously ugly they
+31:07 don't look like ships and they don't
+31:12 intimidate me whatsoever can I can I add
+31:16 one thing to this
+31:19 prompt I think that it's helpful for you
+31:22 to give it the goal and I think you
+31:25 should say
+31:26 that I want this game to go viral on X
+31:31 and my Niche
+31:33 is you know people into AI
+31:38 products and then I think you should
+31:41 say what should I change with my with my
+31:46 ships and what else should I
+31:50 change I love that I absolutely love
+31:52 that what should I change at my
+31:54 ships and what else should I change to
+31:59 make this more likely to go
+32:03 viral I love that that's great um I
+32:06 understand you want to make your game
+32:08 more visually appealing and viral worthy
+32:10 especially for an AI focused audience on
+32:11 X let's enhance the ship and add more
+32:15 viral worthy features to your game I
+32:17 love that and like one thing you can
+32:20 think about too like if if virality is
+32:23 the goal which i' argue this is the goal
+32:26 right we're not trying to build grand
+32:28 Auto 6 here we're trying to build a game
+32:30 that gets clicks and drives people to
+32:31 your products you know what are other
+32:35 viral things in the moment we can
+32:36 Implement like I showed you I made like
+32:38 a Mitch McConnell simulator a second ago
+32:40 like thinking about which memes are
+32:42 going viral what people care about in
+32:44 your audience and that implementing that
+32:46 in here is really really powerful
+32:49 especially for something like cursor
+32:50 where you can upload images like you can
+32:53 easily upload like a meme say hey this
+32:57 is a trend meme right now how do we
+32:59 implement this meme into the game that's
+33:01 something we could do so you know
+33:03 especially if you're a business owner I
+33:05 imagine most people watching this
+33:08 probably not trying to become
+33:09 professional game developers they're
+33:10 probably business owners trying to get
+33:12 more clicks so what the way you want to
+33:14 think when building this is like how can
+33:16 we get more current interesting viral
+33:18 elements into the
+33:20 game okay so let's see what we got
+33:24 here I understand you want to make your
+33:27 game more visually appealing and viral
+33:28 worthy especially for an AI focused
+33:30 audience on X let's enhance the enemy
+33:32 ships and add some viral okay so here's
+33:35 a little thing with cursor a little
+33:37 gotcha um that bothers me when I'm
+33:41 asking questions to cursor a lot of the
+33:44 times it just gets over its skis for
+33:47 instance I just asked hey what are your
+33:49 ideas for improving this game uh and it
+33:52 added 501 lines of code uh without even
+33:55 like conversating with me or like saying
+33:57 hey here's the ideas I got so I'm going
+34:00 to look what they did first and then if
+34:02 this is just completely abor which I
+34:04 would guess it is we're going to rewind
+34:06 and I'm going to show you how we can
+34:08 improve this prompt to avoid uh cursor
+34:11 from being as forward as it just was
+34:14 here let's see what it did I've
+34:16 completely transformed my space shooter
+34:17 game to make it more visually appealing
+34:19 we redesign enemy ships with AI theme
+34:22 three enemy okay so there's three enemy
+34:23 types basic listen I'll just say
+34:26 this if this works what it's telling me
+34:30 here in one shot I'm going to be the
+34:33 biggest Claud Sona 3.7 fan in the
+34:35 history of mankind if I said hey just
+34:37 make this more viral worthy and it adds
+34:38 like 20 different types of ships all in
+34:40 one shot in 500 lines of
+34:43 code this might be the AGI moment how
+34:45 about this what's your middle name Tyler
+34:48 Tyler nope not anymore because if this
+34:52 works you have to officially change your
+34:55 middle name from Alex Tyler Finn to
+34:59 watch How I
+35:00 pronounce Claude Alex Cloe
+35:06 Finn if this works and this doesn't am I
+35:10 allowed to curse in this podcast I mean
+35:12 it's a free world okay if this works and
+35:16 this doesn't look like horeshit you can
+35:17 bleep that out if that's too much um you
+35:21 can make like the title of this video
+35:23 like working with Alex clo fin on
+35:27 building game that like you can just
+35:29 totally destroy my discoverability and
+35:32 Name by putting that in the middle um we
+35:34 enhance the players ships so we we added
+35:37 three enemy ships we enhanced the
+35:40 players ship we added visual effects
+35:42 particle effects glowing effects bullet
+35:44 Trails animated Stars gradient space
+35:47 back this would be the single greatest
+35:50 output for an AI prompt I've ever had if
+35:53 this works scoring system level
+35:56 progression PowerUp system
+35:58 system AI themed elements enemy ships of
+36:01 AI brains and ai ai eyes that glow a
+36:05 game over screen that says AI Invasion
+36:07 simulation complete boss
+36:10 enemies satisfying visual feedback
+36:13 progression system powerups polished UI
+36:15 and restart
+36:16 function I've never anticipated the
+36:19 output for an AI prompt as much as I am
+36:22 right
+36:23 now to be honest they don't want this to
+36:26 work they want this to work but it's
+36:28 going to work if this works I'm
+36:31 declaring a AGI
+36:34 achieved I'm sorry but I am if this
+36:36 works I mean Elon M said today I think
+36:39 that Singularity is
+36:41 near Singularity yeah what he meant by
+36:44 that
+36:45 is when this prompt when you press
+36:50 enter Then Singularity will be
+36:55 achieved if my computer just Els I I I
+36:58 just did you press enter I didn't I'm
+37:02 building up this in Greg in Show
+37:04 Business is what we call building
+37:05 anticipation right when Michael Jackson
+37:07 comes up at the halftime show and he
+37:09 sits there and he stands there at the
+37:10 crowd for 10 minutes straight without
+37:11 saying a word this is what we're doing
+37:13 here so I'm going to hit
+37:16 refresh and we might discover AGI in one
+37:19 second all right here we
+37:22 go so what do we have here we have a
+37:25 much better looking ship we have enemy
+37:27 ships with fire Trails the stars are
+37:31 glimmering there's a score system I'm
+37:34 only seeing one type of ship though it
+37:36 said it was going to do three types of
+37:38 enemy ships maybe we got to get to level
+37:40 two the missiles do look like
+37:43 missiles I mean I have Goosebumps right
+37:46 now I'll just say this well what's that
+37:50 oh triple shot wow
+37:55 this oh my now we're going super f i
+37:58 remember playing games like this like as
+38:00 a kid in an arcades like this is
+38:04 unbelievable different type of different
+38:07 ships right there that's really
+38:10 cool I'm sorry Greg I might have to exit
+38:12 this podcast right now because uh AGI
+38:16 has been achieved and I need to go like
+38:18 build apps uh with this
+38:22 because this
+38:24 is the most mind this might be the
+38:27 number one most mind-blowing moment I've
+38:28 ever had with AI wow and you're a
+38:31 computer science
+38:34 grad yeah take it from a guy who uh
+38:37 coded with C++ in college this
+38:41 is the most
+38:43 mindblowing maybe technological
+38:46 advancement I've ever seen in my life
+38:47 right by the way you're flexing a little
+38:49 bit because you're actually really good
+38:50 at this
+38:51 game uh no big deal I played Marvel
+38:53 Rivals for like six hours last night so
+38:55 I'm kind of good at video games
+38:59 um I'm can we just spend the next three
+39:02 hours just playing all right I'm going
+39:03 to I'm going to purposely die in a
+39:04 second just to see what the screen looks
+39:06 like we got faster Ships Come Oh is
+39:09 these like the boss ships there the
+39:10 purple
+39:12 ones okay let's just die game over F AI
+39:17 Invasion simulation
+39:20 complete I feel kind of cringe right now
+39:23 because like 3 days ago grock 3 came out
+39:26 and I put out a post on X I was like
+39:28 holy crap grock 3 is the most amazing
+39:30 thing I've ever seen in my life and now
+39:32 I'm going to have to put out a post 3
+39:33 days later that's like holy crap Claude
+39:35 Sonic 3.7 is the most amazing thing I've
+39:37 seen in my life I mean you're saying the
+39:40 truth the nature of the game I guess the
+39:42 nature of the that show is
+39:46 baby uh that I mean I'm not just saying
+39:49 this to kind of hype it up on a
+39:51 podcast that was the most unbelievable I
+39:55 think achievement I've ever seen an AI
+39:56 build in one shot
+39:58 what do you think that was unbelievable
+40:00 that was unbelievable that's honestly
+40:02 unbelievable like I I I can't believe it
+40:06 I I cannot believe it it's crazy because
+40:08 like what does this unlock right think
+40:10 about what this
+40:13 unlocks I mean it here's what it unlocks
+40:17 and here's what I've never seen AI do
+40:20 before AI up until two hours
+40:24 ago was very good
+40:28 at following instructions and what I
+40:31 mean by that is like I feel like The
+40:33 Benchmark for AI was here's an
+40:35 instruction and then our measure of the
+40:37 success was how well did it follow the
+40:39 instructions right like if I say build
+40:41 this does it build that thing but what I
+40:45 think we just witnessed that I've never
+40:46 seen an AI do before was it did creative
+40:50 thinking right I said hey you know the
+40:54 game's cool but it doesn't feel like
+40:56 it's viral worthy like here's my Niche
+40:58 how do we make this viral worthy and it
+41:01 on its
+41:03 own not
+41:05 only it thought abstractly about what it
+41:09 my Niche was and what would make things
+41:11 go viral right it thought abstractly
+41:14 about it and then it implemented it
+41:16 without having to be handheld through
+41:18 every single step right before this
+41:21 everyone who was in a hey if you're
+41:22 doing something with curse you're doing
+41:23 something make sure you break it down in
+41:24 the micro steps make sure you break it
+41:26 down step by step by step to make sure
+41:28 it's accurate I don't think that's the
+41:30 case anymore I don't think you need to
+41:32 break it down into micro steps based on
+41:34 what I just saw I was 100% confident
+41:37 when I had planned that it was G to be
+41:38 hot garbage I I was like anytime I've
+41:41 ever given
+41:42 Claude the instruction or cursor the
+41:46 instruction to do something and the
+41:49 result like result was this what you see
+41:52 here Plus 501 minus 46 I instantly slam
+41:55 my desk and go godamn it every time I've
+41:57 ever used cursor and I've seen this
+41:59 result right because then I know okay
+42:00 they messed it
+42:01 up they did they just they thought
+42:04 abstractly and implemented a really
+42:06 abstract creative solution which is
+42:10 amazing I'm uh I'm blown away I don't
+42:14 know about you but that was legitimately
+42:16 and this is like an authentic reaction
+42:18 I've never tried 37 before that was
+42:19 legitimately
+42:21 incredible um so let's do this now I
+42:24 would I mean is there is there that's
+42:26 better than any game thought we were
+42:27 going to make here is there anything you
+42:28 want to add to that or should we get to
+42:29 the uh super base part let's get to the
+42:33 super base
+42:34 part okay let's do this so we have an
+42:39 amazing game um we have here's how I
+42:43 measure virality uh especially on X uh I
+42:48 I'm personally very focused on X I do
+42:50 have a YouTube channel but I'm X is my
+42:53 bread and butter uh my virality
+42:56 measurement is okay is this Elon retweet
+42:59 worthy right because that's the home run
+43:00 right that's the Home Run you get you
+43:01 get an Elon retweet that's getting 10 10
+43:03 million impressions
+43:05 right I think the game is retweet worthy
+43:08 I think when Elon sees the replay of the
+43:09 game for five seconds and he's busy
+43:11 working on 40 different companies that's
+43:14 retweet worthy so check there let's now
+43:18 Implement kind of the business portion
+43:19 of this which is high
+43:22 scores and collecting email addresses
+43:25 right A lot of people are going to see
+43:27 this they're going to go wow that's a
+43:28 really cool game uh I can't believe you
+43:30 built that all on your own let me play
+43:32 it they're going to click and now
+43:33 they're going to give you their email
+43:34 once they finish the game so all
+43:38 right that was
+43:41 incredible really good
+43:43 work now I
+43:45 want to
+43:48 implement
+43:50 a uh high score a leaderboard we'll call
+43:54 it leaderboard
+43:57 uh when users lose they should get an
+44:03 input where they put in their email and
+44:09 then their score goes on the
+44:14 leaderboard I want to use superbase for
+44:19 the back
+44:20 end first give me the plan and then I'll
+44:26 approve it
+44:27 so up to this point in time this was my
+44:30 way of getting around
+44:32 AI hallucinating right a lot of time
+44:36 when I give kind of a more complex
+44:38 instruction like let's Implement an
+44:39 entire database it'll mess up and it'll
+44:42 go on a weird path and we'll just go
+44:43 down a rabbit hole G be honest Claude 37
+44:47 I might not need to do this anymore but
+44:49 we're going to do it anyway um so I
+44:51 always go give me the plan first and
+44:52 then I'll approve
+44:57 so what 37 will do here is thank you for
+45:00 the positive feedback I like that it
+45:01 thanks me for that um added a leader
+45:04 it's a little Vibes like that the little
+45:07 touches like thanking me for saying
+45:08 those things that uh I feel like makes
+45:11 AI so much more enjoyable to use um
+45:13 adding leaderboard superbase integration
+45:14 is a great way to make your game more
+45:16 engaging and viral here's my plan for
+45:17 implementing the future set up superbase
+45:20 game UI changes uh it's going to add a
+45:22 leaderboard backend
+45:24 integration visual design and create a
+45:27 nice leaderboard design in additional
+45:29 features add a share to x button to post
+45:32 scores directly that that's cool that I
+45:35 just thought of that Implement a weekly
+45:37 alltime toggle add verification
+45:40 typically at this point when it starts
+45:42 giving me advance things like this like
+45:43 there's no way the AI is about to
+45:45 implement this but now I actually have
+45:47 faith and trust that'll do that in one
+45:49 shot um okay so here's the plan add
+45:52 superbase create the schema add the
+45:55 leaderboard implement the submission
+45:57 logic okay would you like me to
+46:01 proceed you
+46:04 beta I don't think I don't think you
+46:06 need technical knowledge to get to where
+46:08 we are right now to get this pretty
+46:09 awesome game I think maybe I'm wrong but
+46:12 yes let's
+46:15 Implement man I don't know about you
+46:17 Greg but I am pumped to play around with
+46:19 this after build cool stuff uh that was
+46:25 unbelievable let's implement the
+46:27 leaderboard with superbase I'll start by
+46:29 adding the necessary code to your game
+46:30 first we need to add superbase library
+46:32 and set up the so again for people who
+46:34 don't
+46:35 know uh I will actually show you this
+46:38 while it is
+46:40 working let me show my screen
+46:43 again
+46:46 window uh this is super base um really
+46:51 easy free like you don't need to pay for
+46:54 this really especially if you're
+46:56 starting beginning and experimenting
+46:58 with things uh like I had a free I was
+47:00 using a free version of this with like
+47:02 thousands of users on an app you you
+47:04 don't need to pay for anything so I go
+47:06 superb.com sign up super easy to use you
+47:10 know a lot of the kind of newer apps and
+47:13 micro SAS apps people are putting out
+47:14 there use superbase because it's super
+47:16 cheap and easy and fast um but as this
+47:20 is going feel free to sign up superb.com
+47:21 you can start a new project um and then
+47:26 we will call this uh space
+47:30 game and then we can just create the new
+47:33 project and it's good to go we got to do
+47:35 a password Here uh let's go with boom
+47:40 not bad but the password needs to be
+47:41 harder okay how hard you
+47:48 Jesus there we go strong enough uh let's
+47:51 just copy that because there's 0% chance
+47:53 I remember that paste that into my other
+47:55 Apple note that if anyone was ever to
+47:58 hack it'd be game over for me create new
+48:02 project um okay so let's go back as
+48:05 that's
+48:06 going I'm going to be deleting this API
+48:08 and project after so do not think about
+48:11 stealing it people watching this
+48:14 video uh screen
+48:17 window let's go back in uh cursor have
+48:21 you used super base before Greg I have
+48:24 love super base
+48:28 it's awesome it's so easy to use uh even
+48:31 if you've never like used SQL before
+48:34 super super easy uh great let's
+48:36 implement the leaderboard okay first you
+48:38 add the superbase client now let's add
+48:40 the superbase configuration file to
+48:42 store our API
+48:43 Keys okay now let's update the sketch
+48:46 file to integrate the
+48:48 leaderboard unbelievable now it's
+48:51 Creator read me with the instructions
+48:53 great I've success oh this is cool so
+48:56 I've never seen Claude do this before um
+49:00 usually in my workflow a cursor like
+49:02 every time I implement or change
+49:05 something I have to tell the agent okay
+49:07 can you update like my readme files like
+49:09 I have a readme file for like every
+49:11 feature and every component in my app
+49:13 and I'll go okay go into that component
+49:15 update the readme with everything you
+49:16 just changed the fact that I just built
+49:19 a readme put all the details of the game
+49:21 in like wow everything it has like how
+49:25 the game works how to set up in
+49:27 superbase the
+49:29 schema uh that is actually really really
+49:32 really impressive uh didn't even ask to
+49:34 do that at all it just knows like best
+49:36 practices for for
+49:38 programming great I've implemented the
+49:40 leaderboard function I with the
+49:42 superbase integr again if this is one
+49:43 shot holy hell we're AGI achieved um
+49:49 okay set up superbase integration
+49:50 enhance the game Flow privacy and
+49:53 security uh okay so next steps create a
+49:55 superbase account done
+49:57 and set up your project following the
+49:58 instructions in the readme repl replace
+50:01 the placeholder API keys in the config
+50:03 so we'll go in
+50:05 there um let's just accept all I trust
+50:08 you I trust you Claude uh replace the
+50:11 placeholder API keys there test the game
+50:13 and leaderboard functionality deploy the
+50:14 game to web server we're going to do
+50:16 GitHub pages to show how to go live here
+50:18 and share your game on X and watch it go
+50:22 viral it's cool because it's like
+50:25 remembering everything we talked about
+50:27 in the previous conversation it
+50:28 remembers the goals of the game it
+50:30 remembers what we're trying to do here
+50:32 and it's like it didn't have to say
+50:34 share your game on X and watch it go
+50:36 viral but that's such a cool like Vibe
+50:38 touch just to like make the Vibes of the
+50:40 conversation cooler I love
+50:43 that the leaderboard adds a competitive
+50:45 element to your game and should
+50:46 significantly increase its viral
+50:47 potential like that's so cool that it
+50:49 like remembered the goals we gave it
+50:51 from a few messages go ago it wasn't it
+50:53 never did that for you before right Greg
+50:55 no no not and this what's so cool about
+51:00 this
+51:02 is it does really feel like you're
+51:06 working with someone like you know what
+51:08 I mean like this i' I've I've used this
+51:11 before and I've kind of felt like okay
+51:13 I'm kind of like pushing it to get the
+51:14 result that I want but now it feels like
+51:17 it's pushing me to get the result we
+51:19 want you know what I mean it's like it's
+51:23 this is this is next level amazing
+51:26 you're right it did feel like before
+51:29 especially when the app got a little bit
+51:30 more
+51:31 advanced it did feel like at times you
+51:34 were working against the AI a little bit
+51:37 right like no we got to do this change
+51:38 this this feels like for the first time
+51:41 the AI is like as you said pushing me
+51:44 like we're working together and going
+51:45 faster with each other which is
+51:48 amazing so let's pop open the read me
+51:52 let's see okay created the account did
+51:54 that create a new project did that once
+51:55 your Project's created go to the SQL
+51:57 editor and run the following SQL to
+51:59 create the leaderboard table all right
+52:01 so I'm going to let's do this I'm just
+52:05 going to
+52:06 go actually I'll share the superbase
+52:08 screen so people at home who are newer
+52:09 to superbase can kind of see how this
+52:12 works uh so we're in superbase superbase
+52:16 is a SQL database and so uh we go in
+52:21 there's a SQL editor where we can copy
+52:24 and paste in SQL and it'll do basically
+52:27 all the setup for us so first we can put
+52:31 in this command which uh Claude gave us
+52:35 this creates the leaderboard table where
+52:36 basically the scores will be stored can
+52:39 run that boom
+52:41 success next it uh create an index for
+52:46 faster
+52:47 queries let's pop that in run boom add
+52:51 security so people can't mess with other
+52:55 people's scores boom add allow anyone to
+52:59 insert scores okay so allow people to
+53:01 insert their own scores boom and allow
+53:04 anyone to read scores so you just this
+53:07 is all in the uh read me file that
+53:09 Claude generated and I'm just following
+53:11 it step by step you don't really need to
+53:13 know how any of this works you just kind
+53:15 of follow it and you're good to
+53:17 go and go to Project settings API to get
+53:20 your API credentials so we'll go project
+53:23 settings uh and then we'll go a pi to
+53:28 get your credentials I'll be deleting
+53:30 this project after and then so get copy
+53:34 your project URL and Aon key so project
+53:38 URL I'm going to switch back over to
+53:40 cursor so you can see me put this
+53:42 in okay so copy your project your Aon
+53:46 key open the superbase config and
+53:48 replace the placeholders okay so we're
+53:51 in here superbase
+53:54 URL paste that in
+53:57 and then the Aon
+53:59 key
+54:03 copy paste that in cool
+54:07 save um let's see what we got here Run
+54:11 the game man if this works holy hell uh
+54:15 most of the game on the web server you
+54:16 can use GitHub Pages all right so let's
+54:18 just test it
+54:20 first um I did notice it doesn't have I
+54:24 don't think it had the email input
+54:26 unless
+54:27 let's just see let's check out the table
+54:29 oh it does have an email field in the
+54:31 table
+54:32 okay all right let's uh let's give this
+54:36 another shot shall we letter red I swear
+54:39 if this works
+54:40 man all right give us a refresh okay now
+54:44 it's is this full screen now or we just
+54:46 have a
+54:47 bug we might just have a bug all right
+54:50 claude's not perfect even the AI is not
+54:53 perfect that's fine I forgive Claude oh
+54:57 oh okay so the game's not working but
+54:59 the clearly we died in the background
+55:02 somewhere uh your score zero enter your
+55:05 email to save the
+55:08 score okay we have a small
+55:12 issue I can't type anything let me just
+55:15 type in maybe it's just like the inputs
+55:17 oh a
+55:20 just please okay so couple things not
+55:23 working let's debug it let's debug it
+55:26 good I'm glad this isn't perfect so I
+55:27 can show people at home how to how to
+55:29 debug
+55:31 it back in the cursor okay a couple
+55:35 issues first I'm not seeing the game
+55:41 anymore when I run it it's just a blue
+55:47 screen and nothing
+55:50 else and then eventually the end game
+55:54 shows up okay so we're going to fix it
+55:58 you just tell Claude exactly what's not
+56:01 working what you're experiencing and it
+56:03 just goes and fixes it I see the issue I
+56:06 the problem is that we've modified the
+56:07 canvas setup but there's an issue with
+56:08 how it's being attached to the Dom let's
+56:10 fix it
+56:11 anyway
+56:14 okay uh pretty simple let's see what we
+56:16 got here one line of
+56:19 code now let's fix the super based
+56:21 client initialization as there might be
+56:22 an issue with how it's being created
+56:25 [Music]
+56:31 I am even though this didn't work I
+56:35 mean with 35 we would have had 20 of
+56:38 these issues so far up to this point and
+56:40 this would have took 10 times longer so
+56:41 the fact that we've only had one issue
+56:43 up until this point I find radically
+56:45 impressive totally I mean I blocked off
+56:48 six hours for this podcast so it's great
+56:50 that we'll be able to get it done in
+56:51 just over an
+56:53 hour we just freed up time to uh play
+56:56 around Sonet 37 after this it's
+56:59 amazing let's update the HTML it's still
+57:02 got the speed of 35 which is really
+57:04 cool um you know when with 03 you know
+57:08 when they upgraded to 03 mini and all
+57:10 that the speed slowed down you know uh
+57:14 what's cool about this though is it
+57:16 seems to be just like 35 just better
+57:18 smarter
+57:20 faster let's run a quick test to see I
+57:22 wonder what it's I don't know I'm a I
+57:24 have a comsi degree I don't know what
+57:25 this can is but we'll let it do its
+57:28 thing I don't know what it's testing
+57:29 there oh you have a compi degree I had
+57:31 no idea for those kids at home uh just
+57:34 tuning in I have a computer science
+57:36 degree which is probably the most
+57:38 useless degree you can possibly get at
+57:40 this point in time uh $300,000 down the
+57:45 drain I to pay for that one but at the
+57:47 same time uh at least I'm smarter than
+57:50 everyone so that's a
+57:53 positive let's make one final fix in
+57:55 sure a you son of
+57:58 a let's see what happens when I do
+57:59 resume maybe they'll just pick up from
+58:01 where it left
+58:02 off this little came out two hours ago
+58:05 give it a break I fixed the issue all
+58:08 right what's it doing
+58:10 now AGI not achieved what's going on
+58:13 here I fixed the issues with your game
+58:15 here's what's
+58:17 wrong uh don't know what just happened
+58:19 we're going to test it out let's see
+58:21 what we get
+58:23 window AI space invasion
+58:29 okay okay all right now I'll just die
+58:32 see what happens
+58:34 boom okay enter your email can I type
+58:38 okay so this was the second problem
+58:39 right I couldn't type for some reason we
+58:42 fixed the game
+58:43 issue that's pretty good we oneshot that
+58:46 so now let's fix the entering an email
+58:49 issue right pretty simple
+58:53 share next issue
+58:56 when uh let's say okay that worked next
+59:01 issue uh when the email input screen
+59:06 pops
+59:08 up I can't type in an email address into
+59:14 the input nothing happens when I
+59:19 type
+59:21 enter uh let's fix the issue with the
+59:23 email input field not accepting text
+59:25 this is likely happen because p5js is
+59:27 capturing keyboard events and preventing
+59:29 them from reaching the input field that
+59:31 makes
+59:32 sense so the game
+59:35 code uh for those who know let me give
+59:37 you a little computer science
+59:39 explanation here for those at home uh
+59:41 the game code is intercepting the key
+59:44 strokes for the game itself so that when
+59:46 you go to leaderboard screen the game
+59:49 still like intercepting the keystrokes
+59:50 because it thinks you're trying to play
+59:51 the game that's why I can't type in my
+59:54 email uh also add a fix to ensure p5js
+59:58 doesn't capture Mouse events when
+59:59 interacting with the modals pretty smart
+1:00:02 so thought ahead and thought other like
+1:00:03 edge cases that could be happening which
+1:00:05 is cool man I can't wait to play with
+1:00:08 this um so we'll get this done we'll get
+1:00:11 this fixed then we
+1:00:14 will host this on GitHub Pages which I
+1:00:17 personally believe is the easiest way to
+1:00:18 like go from prototype to live on the
+1:00:21 internet uh as fast as other people use
+1:00:24 repet uh netify
+1:00:27 they're all good they're all great I'm
+1:00:28 just I work in GitHub a lot so I just
+1:00:30 got used to GitHub
+1:00:33 Pages let's also add okay so it's adding
+1:00:35 some let's add a fix to ensure the mouse
+1:00:38 let's make one more change to ensure the
+1:00:39 input field works properly and I've
+1:00:42 fixed the
+1:00:44 issue all right let's accept this let's
+1:00:48 give it a shot hop open the game
+1:00:53 refresh okay we're shooting
+1:00:56 man I it even put the powerups and I
+1:00:58 didn't I didn't tell it to put power ups
+1:01:00 in I was like oh you want to go viral
+1:01:01 let's do some powerups anyway here we go
+1:01:05 uh boom that's
+1:01:07 working man if this works submit score
+1:01:11 score submitted
+1:01:13 successfully oh baby wow all right here
+1:01:18 we go
+1:01:19 oh there it
+1:01:21 is wow all right folks if you're not
+1:01:25 build in
+1:01:27 something and you're not playing with
+1:01:29 these
+1:01:30 tools what are you doing what are you
+1:01:33 doing stop watching us stop listening to
+1:01:35 us like at this point just like turn
+1:01:37 this off I mean don't turn it off we
+1:01:39 love you you know um we'd love you to
+1:01:42 watch it to the end but honestly like
+1:01:44 it's a shame that this exists today and
+1:01:49 people aren't playing with it like the
+1:01:51 people who play with this put it another
+1:01:52 way the people that play with this right
+1:01:54 now there's like a moment opportunity
+1:01:56 there's a window like there's an
+1:01:58 Arbitrage here like building apps here
+1:02:01 right like um there is an Arbitrage so I
+1:02:04 I highly recommend
+1:02:05 people go and put some stuff out
+1:02:09 there yeah it's uh we're we're in this
+1:02:13 incredible moment in time where we have
+1:02:16 this brand new technology right that
+1:02:18 does these incredibly powerful things
+1:02:20 right we just witnessed it build like an
+1:02:23 actually incredible lead gen in I don't
+1:02:25 know half an hour or
+1:02:27 so but at the same
+1:02:29 time most people aren't using it to do
+1:02:32 these things right and there's going to
+1:02:34 eventually come a time in the next year
+1:02:36 the next two years where everyone is
+1:02:38 doing something like this right you saw
+1:02:40 it as we talked about earlier with like
+1:02:41 the newsletters on X right three years
+1:02:43 ago when I started my newsletter not
+1:02:45 many people were doing it so I was able
+1:02:46 to get tens of thousands of subscribers
+1:02:48 like that but now everyone's doing it so
+1:02:51 that strategy doesn't work anymore like
+1:02:53 we're in that beginning moment of this
+1:02:56 strategy where people who attack it and
+1:02:58 use it are going to see unbelievable
+1:03:01 returns uh and then in three years when
+1:03:03 everyone's doing it the returns won't be
+1:03:05 there so you need to be looking for
+1:03:06 these opportunities where they're really
+1:03:09 powerful and not many people are doing
+1:03:10 it because as you said that's the
+1:03:12 Arbitrage
+1:03:13 opportunity it's pretty mind-blowing
+1:03:15 that I'm like I'm actively getting
+1:03:17 mindblown as we do
+1:03:19 this so uh Greg should we show them how
+1:03:23 to quickly put it live uh on the
+1:03:27 Internet or uh is that the best Next
+1:03:29 Step you think here yeah I mean that's I
+1:03:31 we need to close the loop on that for
+1:03:34 sure that's the number one feedback I
+1:03:36 get when I'm putting YouTube videos out
+1:03:38 and coding stuff is like I you don't
+1:03:40 show it how to put it live fine we'll do
+1:03:42 it we'll do it we'll put it
+1:03:44 live you know it's also like if you're
+1:03:47 watching Greg's podcast like this is
+1:03:50 amazing educational content if you're
+1:03:53 just watching this and consuming
+1:03:54 educational content and then you're not
+1:03:55 doing anything with it what's what are
+1:03:57 you doing what's the point agreed you
+1:03:59 just you got to take action man uh okay
+1:04:03 this is amazing I'm seriously blown
+1:04:08 away last step
+1:04:11 here for those who don't know I'm sure
+1:04:13 you got a sophisticated audience but for
+1:04:15 those who don't know just in case
+1:04:18 GitHub basically the only code
+1:04:20 repository on the Internet it's where
+1:04:22 you store your code it's where you can
+1:04:24 run your code from uh anyone who's
+1:04:26 anyone they put their their code on
+1:04:28 GitHub so good to be familiar with it if
+1:04:30 you're starting to do something like
+1:04:31 this but last step here I want to host
+1:04:35 this on GitHub pages so other people can
+1:04:40 play the game how do we do
+1:04:44 that bada bing bada boom Claude I'm sure
+1:04:48 we'll do this incred this is probably
+1:04:51 the easiest step out of all them I'm
+1:04:53 fill your happy with the game let's set
+1:04:54 up GitHub pages to post your game so
+1:04:56 others can play it here's how to do it
+1:04:58 so we're going to set up get AIT
+1:05:03 run now let's create a g ignore to
+1:05:05 exclude unnecessary
+1:05:10 files now let's add your files to the
+1:05:12 git repository run and I'm sure in a
+1:05:16 second here it's going to have us go
+1:05:17 into GitHub and and set up a
+1:05:21 repository create a GitHub repository
+1:05:23 and push your code okay so we going to
+1:05:26 go to GitHub and I will show the folks
+1:05:28 at home how to do this if they're
+1:05:30 new uh
+1:05:32 screen
+1:05:33 window let me actually pop open GitHub
+1:05:36 first so we're there okay um here we go
+1:05:41 window GitHub all right so we'll create
+1:05:44 a new
+1:05:45 repository we can call
+1:05:48 this space
+1:05:52 shooter um space Shooters available
+1:05:55 think get public we'll create the repo
+1:05:58 something went
+1:06:00 wrong okay GitHub GitHub doesn't want
+1:06:03 to GitHub doesn't want to cooperate me
+1:06:06 here let's just try a different game
+1:06:07 email space shooter
+1:06:10 email I just wanted a different name
+1:06:13 there we go okay so we made what did we
+1:06:15 call it space shooter email all right
+1:06:16 let's
+1:06:18 go name your repository leave it as a
+1:06:20 public repository do not initialize the
+1:06:23 read me create after creating the
+1:06:25 reposit get up will show you commands to
+1:06:27 push your existing repository you'll
+1:06:29 need to run these commands
+1:06:31 Okay let's do this I'm going to switch
+1:06:34 back my screen so you can see how I do
+1:06:36 this in
+1:06:37 cursor I'm just following step by step
+1:06:39 everything it's having me to do there's
+1:06:40 nothing too complex
+1:06:43 here let's do this let's open the
+1:06:47 terminal let's move this
+1:06:52 over let's change this so let's the
+1:06:55 correct command I'm going to make it so
+1:06:58 it's my username on GitHub which is fin
+1:07:01 a if I remember
+1:07:03 correctly uh yes it is SPAC shooter
+1:07:16 mail.get thatg and then we're going to
+1:07:18 hit enter on this and pray to God that
+1:07:20 it works okay so we hit enter let's go
+1:07:24 back in
+1:07:26 into GitHub and we'll verify it added
+1:07:29 our
+1:07:33 code there it is it's in our repo all I
+1:07:37 did was I followed the instructions we
+1:07:39 got the code there and then let's see
+1:07:41 what we need to do to host this live uh
+1:07:44 enable GitHub Pages after pushing your
+1:07:45 code to GitHub go to your repository
+1:07:47 click settings on the tab at the top
+1:07:50 scroll down to GitHub pages so this is
+1:07:53 what we're doing here is we are putting
+1:07:55 the code
+1:07:57 live um so that it has a link and people
+1:08:00 can go to it and play the game and then
+1:08:02 you can then take this link and if
+1:08:03 you're on X which listen if you're an
+1:08:06 indie hacker if you're an
+1:08:08 entrepreneur I in my opinion I think X
+1:08:11 and YouTube are the only two places on
+1:08:12 planet Earth that have the best uh Indie
+1:08:15 hacking communities on the internet I
+1:08:17 think if you're an indie hacker you got
+1:08:18 to be on both you just have to be on
+1:08:20 both um so build and deploy let's see
+1:08:23 what it having me do here
+1:08:26 uh under Source select main branch so
+1:08:28 Source deploy from a branch Branch
+1:08:34 main uh under Source like main branch
+1:08:36 click
+1:08:38 save boom okay
+1:08:42 uh create an index file for get get up
+1:08:45 paid requires an index. HML file for the
+1:08:46 root of your
+1:08:47 repository which you already have so
+1:08:49 you're all set verify your deployment
+1:08:51 after a few minutes your game should be
+1:08:52 available at the URL provided by GitHub
+1:08:54 Pages you can share the this URL with
+1:08:56 others so they can play your game okay
+1:08:59 so it is deploying right
+1:09:02 now uh and in just a couple minutes this
+1:09:06 should be
+1:09:07 live um where do I find the url I think
+1:09:12 it
+1:09:13 will display it once it's deployed so
+1:09:16 what's happening now is it's basically
+1:09:17 deploying your sites live here we
+1:09:20 go and this is live on the internet
+1:09:24 anyone can go on this site right now you
+1:09:27 can see at the top there and play the
+1:09:30 game and get their uh score on the
+1:09:32 leaderboard so there we go you know what
+1:09:34 I'm gonna do Greg instead of me going
+1:09:36 back instead of me going back and
+1:09:38 deleting this super base uh project so
+1:09:43 that people don't steal the API key you
+1:09:45 just edit out the edit out the part
+1:09:46 where you put the API keys in so that we
+1:09:49 can keep this up and then the audience
+1:09:50 can go in and play this game after if
+1:09:53 they're interested in trying out let's
+1:09:55 do and then should we do this let's do
+1:09:57 this anyone who plays this game after
+1:10:01 you put this live 48 hours later Whoever
+1:10:04 has the highest score I'll just venmo
+1:10:06 you 50 bucks right so reach out on X DM
+1:10:10 whatever send the screenshot to your
+1:10:12 scores when you get it Whoever has the
+1:10:14 highest score I'll I'll V mow $50 right
+1:10:17 add a little competition to it that
+1:10:18 should be fun absolutely I like that so
+1:10:22 that's games live now you can take this
+1:10:24 right
+1:10:25 you can go on twitter.com x.com and you
+1:10:29 can go hey check out my
+1:10:33 game boom and now instead of doing kind
+1:10:36 of the standard thing that everyone else
+1:10:38 does which is here's a thread on you
+1:10:41 know bunch of stuff I copied and pasted
+1:10:43 from Wikipedia subscribed to my
+1:10:45 newsletter now you like yo I build this
+1:10:47 really cool online experience right go
+1:10:50 play it and now you get an email a lot
+1:10:52 cooler way I think than kind of a thread
+1:10:55 so I think this is The Cutting Edge of
+1:10:58 how to get emails and all that actually
+1:11:01 the way to the way to do it is you take
+1:11:04 a video of yourself playing the game and
+1:11:08 the Tweet has the video because the link
+1:11:12 is going to suppress the algo then and
+1:11:16 then after a few hours as a second tweet
+1:11:19 you can include the link so let's let's
+1:11:23 now let's get into uh the X ality game
+1:11:27 right hook wow I've been or no actually
+1:11:30 this has been my favorite hook lately
+1:11:31 this is this is wild amazing hook right
+1:11:35 keep it simple boom people like wait
+1:11:37 what's Wild what the hell is wild I
+1:11:39 gotta know what's wild right I just
+1:11:41 built a
+1:11:44 game I just
+1:11:46 built an
+1:11:51 insanely fun game
+1:11:55 in just three prompts
+1:11:58 with Claude Sonet
+1:12:04 37
+1:12:07 um here's what I'll
+1:12:13 do Whoever has the highest score in 48
+1:12:20 hours instantly gets 50 bucks
+1:12:25 are you posting this uh I'm not going to
+1:12:28 post it right now live on here because
+1:12:29 I'm gonna I want to make the teaser
+1:12:31 video of the game itself yeah um and so
+1:12:35 I can put it in that post because little
+1:12:37 spoiler for people uh on X uh putting
+1:12:41 media into the post boosts it right so
+1:12:43 you want to put videos you want to put
+1:12:44 images so I'm going to put a video of
+1:12:46 the game being played uh and then what
+1:12:48 you do is as Greg said you hit the plus
+1:12:51 button
+1:12:53 right and you just go here and go
+1:12:56 link to the game right uh link for the
+1:13:02 game
+1:13:03 below screenshot your score and put in
+1:13:09 the replies right so boom now we're
+1:13:11 getting replies right now we're getting
+1:13:13 people to reply with the screenshot of
+1:13:15 their scores which which boosts it even
+1:13:16 more so you got people boosting it by
+1:13:19 watching the video you got people
+1:13:20 boosting it by putting in the replies
+1:13:22 you got yourself a viral post and the
+1:13:24 best part is not only is it going viral
+1:13:25 and you're getting followers but you're
+1:13:27 now getting tons of emails for your
+1:13:28 newsletter as well which is pretty
+1:13:31 amazing yeah incredible incredible um
+1:13:35 Alex anything else you want to talk
+1:13:38 about before we head out couple other
+1:13:40 things I try to advance tips and tricks
+1:13:43 uh for people out there basically every
+1:13:46 AI now including cursor you can upload
+1:13:48 images so I tried this before I I did
+1:13:51 this a couple days ago um I think
+1:13:54 there's something to the strategy I took
+1:13:56 the Elon meme the the uh go freak
+1:13:59 yourself meme where he's like on the
+1:14:01 stage at the and he tells the media to
+1:14:03 go freaking themselves uh I uploaded
+1:14:05 that image to grock and I said turn this
+1:14:07 into a game and in one prompt it
+1:14:10 actually turned that Meme into a game so
+1:14:12 just a way to think about this is like
+1:14:14 look for what's trending in the moment
+1:14:16 look for what's popular look for what's
+1:14:18 getting clicks and AI is so Advanced now
+1:14:20 you can do something as simple as take
+1:14:22 the image upload it to Ai and say hey
+1:14:24 build an exp experence out of this and
+1:14:26 do really cool things so I think there
+1:14:28 truly is something to
+1:14:31 taking uh viral moments in time turning
+1:14:35 them into experiences with AI and like
+1:14:39 garnering attention that way there's
+1:14:40 something truly there and I don't think
+1:14:42 a lot of business owners and
+1:14:43 entrepreneurs and Indie hackers are
+1:14:46 taking advantage of that at the moment I
+1:14:47 think that's really the next Frontier of
+1:14:49 what you can take advantage of
+1:14:51 beautiful Alex thank you so much for
+1:14:53 your time you've been extremely generous
+1:14:56 um and uh where could people learn about
+1:14:59 you support you and and just pay pay it
+1:15:03 forward three ways uh my ex is what I
+1:15:06 focus on the most been working on my ex
+1:15:08 forever uh so alexf X to to check out my
+1:15:12 Twitter I have a YouTube um I think it's
+1:15:16 Alex fin official I'm sure the link will
+1:15:18 be down below exactly and then you can
+1:15:20 check out my AI content app I built an
+1:15:22 app called Creator buddy which launched
+1:15:24 a month ago now helps you create content
+1:15:26 on X it's super powerful only AI trained
+1:15:29 on all your posts on X so it knows all
+1:15:31 about you Creator buddy. so those are my
+1:15:34 three uh places on the internet all
+1:15:37 right well this has been legendary I
+1:15:39 appreciate it and uh I'm gonna go code
+1:15:42 some
+1:15:43 games that's what I'm about to do too by
+1:15:46 the way don't forget your middle name is
+1:15:47 Cloe by the way I am now Alex Cloe Finn
+1:15:51 I did I did like Tyler ATF tobacco
+1:15:55 Firearms I thought that was pretty
+1:15:56 baller but now I'm ACF so that's fine we
+1:16:00 got AGI so who cares middle names don't
+1:16:02 mean anything anymore exactly all right
+1:16:04 bye
+1:16:07 [Music]

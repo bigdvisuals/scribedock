@@ -1,0 +1,233 @@
+This ChatGPT + Codex Workflow Changed How I Design Websites
+
+0:00 These three websites started as simple
+0:03 references. This one is a portfolio
+0:05 site. This one is an e-commerce website,
+0:08 and this one is a product landing page.
+0:10 And I built all three in one day using
+0:14 this new workflow with chat GPT, Codex,
+0:17 and this web design skill. Now, these
+0:20 aren't just rough mock-ups that look
+0:22 decent in one screenshot. They're fully
+0:24 responsive. They work across different
+0:27 screen sizes, and I can even convert
+0:29 them into working WordPress themes. I'm
+0:32 not spending hours staring at a design,
+0:34 trying to figure out the layout from
+0:36 scratch. I use chat GPT to break the
+0:39 design down properly. Then I use Codex
+0:43 to build the first version fast, and
+0:46 then I spend my time on the part that
+0:49 actually makes a website look good. The
+0:51 layout, the spacing, the typography, the
+0:54 images, and the polish. So, in this
+0:57 video, I'm going to show you my exact
+0:59 process step-by-step. I'll show you how
+1:02 I pick a strong reference, how I use
+1:05 chat GPT to describe the design, how I
+1:08 use Codex to generate the first version,
+1:11 how I refine the visuals so the site
+1:13 feels clean and premium, how I make it
+1:15 responsive, and how I turn that same
+1:18 website into a live WordPress theme. All
+1:21 right, let's start with the setup. The
+1:24 first thing I did was install Codex on
+1:26 my computer. OpenAI gives you a few ways
+1:29 to use Codex now. You can use it in the
+1:32 app, in the CLI, inside your IDE, or on
+1:36 the web. For this workflow, I wanted it
+1:38 to run locally because I like having all
+1:40 my project files, testing things
+1:42 quickly, and making changes without
+1:44 jumping all over the place. So, I
+1:47 downloaded Codex, opened it up, and
+1:50 signed in with my chat GPT account. Once
+1:52 I was in, that's when things got really
+1:54 interesting for me. I got access to
+1:57 skills. And if you haven't used skills
+1:59 yet, I mean, what are you even doing?
+2:02 You need to try it out. And this is the
+2:04 easiest way to think about them. A skill
+2:07 is basically a reusable set of
+2:09 instructions that teaches Codex how you
+2:12 want it to work. So, instead of
+2:14 repeating the same things again and
+2:16 again, like using better spacing,
+2:18 keeping the layout clean, make the
+2:20 hierarchy stronger, make it responsive,
+2:23 don't make it look generic, keep the
+2:25 code organized,
+2:26 I can bake all of that into a skill once
+2:31 and let Codex start from a much better
+2:33 place every time. That's a huge deal
+2:36 because raw AI can generate a website,
+2:39 but a good skill changes the quality of
+2:42 the website it generates. So, I added
+2:44 web design skill first. I wanted Codex
+2:47 to think more like a front-end designer,
+2:50 not just like a code generator. So, I
+2:53 opened the skills area, added the skill,
+2:56 pasted in the instructions, saved it,
+2:59 and now Codex had that design context
+3:02 ready to use. And it didn't stop there.
+3:04 I also added a few extra design rules
+3:07 around responsiveness, a cleaner
+3:09 front-end structure, and keeping the UI
+3:11 polished instead of flat and generic.
+3:14 This part was honestly so much fun
+3:16 because the first time you see Codex
+3:19 working with a proper skill, you can
+3:21 immediately feel the difference. It felt
+3:24 less like prompting a machine and more
+3:27 like onboarding a junior design
+3:29 developer who suddenly understood my
+3:32 taste.
+3:33 All right, now that the setup is ready,
+3:35 the next step is picking a strong
+3:37 reference.
+3:38 For that, I usually go to a place like
+3:41 Dribbble and look for designs that
+3:43 already have a strong visual identity.
+3:46 I'm not just picking something flashy
+3:48 because it has gradients and nice
+3:50 images. I'm looking for structure.
+3:52 I want a strong hero section, good
+3:55 typography, clean spacing, a layout that
+3:58 flows properly, and sections that
+4:00 actually make sense when you turn them
+4:02 into a real website. Because if the
+4:05 reference is weak, the result will
+4:07 usually feel weak, too. So, once I find
+4:10 a design I like, I bring that reference
+4:12 into chat GPT, and this is the first
+4:15 half of the workflow. Then I can ask
+4:17 chat GPT to describe the design in
+4:19 detail.
+4:21 I want it to break down the layout, the
+4:23 section order, the navigation, the font
+4:25 style, the colors, the spacing, the
+4:27 image treatment, the cards, the button,
+4:30 and the overall feel of the design.
+4:33 Basically, I'm using chat GPT as a
+4:35 design analyst. Instead of me manually
+4:38 staring at the reference and trying to
+4:40 decode every little detail, chat GPT
+4:43 gives me a clear written breakdown of
+4:46 what's actually happening on the page.
+4:49 And that written breakdown becomes the
+4:51 brief I give to Codex.
+4:53 This is such a better way to work
+4:55 because if I send Codex a vague prompt,
+4:58 I get a vague result. But if I give it a
+5:01 detailed design description plus the web
+5:04 design skill, the first version comes
+5:06 out much closer to what I actually want.
+5:09 So, now I take that description, move
+5:12 into Codex, and ask it to build the
+5:14 first version of the website. Within a
+5:16 few minutes, I already have a working
+5:18 first draft. The hero is there. The
+5:21 navigation is there. The sections are in
+5:23 place. The page structure is already
+5:26 working. And this changes everything
+5:29 about how I work because I'm no longer
+5:31 spending the first few hours just
+5:34 building the skeleton of the site. That
+5:36 part gets compressed massively. I can
+5:38 get to something real very quickly,
+5:41 which means I can spend more time on the
+5:42 part that actually matters, refinement.
+5:45 Because the first version is not the
+5:47 final version. The first version is
+5:50 where the real design work begins. So,
+5:53 once Codex gives me that first draft, I
+5:56 start refining everything that affects
+5:58 how the website feels. I look at the
+6:00 layout first. Is the hero too cramped?
+6:04 Do the sections need more breathing
+6:05 room? Are the cards too close together?
+6:07 Is the content width too wide? Does the
+6:10 page actually feel balanced? Then I move
+6:14 to typography. And this part matters so
+6:16 much. A website can be technically
+6:18 correct and still feel average if the
+6:21 text hierarchy is weak. So, I can ask
+6:24 Codex to adjust the heading sizes, the
+6:27 body text, the line height, the spacing
+6:30 between text blocks, and the contrast
+6:33 between different elements until the
+6:34 page starts to feel more confident. Then
+6:38 I can get it to fix the images and do a
+6:40 final visual polish.
+6:42 I replace placeholder images with the
+6:45 right ones. I adjust shadows, borders,
+6:47 and spacing. I make sure the sections
+6:49 feel consistent. I tighten anything that
+6:53 feels loose and soften anything that
+6:55 feels too harsh. And this is exactly why
+6:59 the skill matters so much because Codex
+7:02 already starts from a better place. My
+7:05 refinement time goes into making the
+7:07 design look genuinely good instead of
+7:10 wasting time fixing basic layout
+7:12 problems. Once the desktop version looks
+7:14 good, the next step is responsiveness.
+7:17 Now I can ask Codex to make the site
+7:19 work properly across different screen
+7:21 sizes.
+7:22 Then I test it on desktop, tablet, and
+7:24 mobile, and check what still needs work.
+7:27 I look at how the layout stacks. I check
+7:30 if the text is still readable. I check
+7:32 if the spacing feels clean. I check if
+7:34 the buttons are easy to tap. And I make
+7:37 sure the images still work when the
+7:38 screen gets smaller. If something feels
+7:41 off, I keep refining it because a
+7:43 website doesn't feel premium if the
+7:46 mobile version feels broken. Once the
+7:49 front-end looks good and everything is
+7:50 working properly, I can take that same
+7:53 website and ask Codex to convert it into
+7:56 a WordPress theme in just a few minutes.
+7:59 So, I can give Codex a prompt to turn
+8:01 the HTML, CSS, and JavaScript into a
+8:03 proper WordPress theme while keeping the
+8:06 exact same UI. And I'll also leave all
+8:09 the prompts I've been using in the
+8:11 pinned comment and description down
+8:12 below.
+8:13 It restructures the files, creates the
+8:16 theme folder, organizes the assets, and
+8:18 gives me something I can actually
+8:20 install inside WordPress. Then I can go
+8:23 into WordPress, upload the theme,
+8:25 activate it, and now the same design is
+8:28 live as a real WordPress site. Now, it's
+8:32 not just a mock-up. It's a working
+8:34 theme. And once I've done that for one
+8:37 design, I can repeat the exact same
+8:38 system again for the other two. And
+8:41 that's why this workflow has changed how
+8:44 I design websites. Not because it
+8:46 removes the need for design thinking. It
+8:49 actually makes my design thinking more
+8:51 useful. I spend less time doing
+8:54 repetitive setup work. I get a stronger
+8:57 first version faster. I can test more
+9:00 ideas in less time. And I can focus more
+9:03 on taste, direction, and polish, which
+9:06 is the part I actually enjoy the most.
+9:08 So, if you build websites for clients,
+9:11 for your own business, or for WordPress
+9:13 projects, this is such a fun workflow to
+9:15 try.
+9:16 >> [snorts]
+9:16 >> Because once you get Codex set up
+9:18 properly, and once you start using
+9:20 skills the right way, the whole process
+9:23 just feels lighter, faster, and way more
+9:25 creative. And if you want to learn how
+9:28 to optimize these websites and push them
+9:30 towards a 90+ page speed score, then
+9:33 click here and watch this video next.

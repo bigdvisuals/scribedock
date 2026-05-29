@@ -1,0 +1,487 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=luMxg_Dt5Mk
+Channel: Riley Brown
+Video ID: luMxg_Dt5Mk
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 the main theme of this video is just
+0:01 like last video right here's you no
+0:04 coding experience or maybe a little
+0:06 coding experience and you want to use Ai
+0:09 and less than 15 minutes of your time to
+0:12 create a website from scratch with your
+0:15 own domain that you choose you buy you
+0:17 use that domain for your website this is
+0:20 what we're going to talk about in this
+0:21 video over the last nine days I've spent
+0:23 basically all day every day building
+0:25 websites in this format using AI just
+0:28 prompting AI to help me create different
+0:30 types of websites we're going to go over
+0:32 my five favorite sites that I've created
+0:34 and then we're going to go over the four
+0:36 step process in order to go uh from you
+0:40 right here with no coding skills to
+0:42 creating a website with your own domain
+0:43 from scratch right so we're going to
+0:44 start off with five examples then I'm
+0:47 going to go into my process and then I'm
+0:49 going to do an example I'm going to
+0:50 create a landing page right here in this
+0:52 video it's going to be sick I started
+0:54 using AI to build websites about N9 days
+0:57 ago and in those nine days I've created
+0:59 I think a 11 different websites here are
+1:01 my favorite five this is the only one
+1:03 that I've actually hooked up to my own
+1:05 domain so this is my homepage that I
+1:07 created guess what there's a little
+1:08 Easter egg on here you can double tap on
+1:10 create. in it opens up to my prototypes
+1:13 only the real ogs will know where that
+1:14 is one of those little tools on there is
+1:16 this thing called mermaid image and what
+1:19 this allows you to do is on chbt or
+1:21 Claude you can ask it to generate
+1:22 mermaid code whether that is a mind map
+1:25 whether that is a timeline so let's do a
+1:27 timeline so this is the American
+1:28 Revolutionary War and I just ask chat
+1:30 GPD to generate this code and boom look
+1:32 at that immediate creation of this image
+1:34 oh guess what how do we download it just
+1:36 click on that button right now go to
+1:38 your files go to my files oh there it is
+1:41 Boom American Revolutionary War look at
+1:43 the Quality you can also do mind maps
+1:45 you ask chat gbt or Claude to generate a
+1:48 mind map and so this is just one I have
+1:51 saved from earlier this is M map that I
+1:54 created and this is the code that chat
+1:56 gbt gave me and here is the chart and it
+2:00 renders it out right here and you can
+2:01 actually make changes we can click
+2:03 download mermaid chart as SVG and we can
+2:06 go into our files and check this out
+2:09 here it is separated by color starting a
+2:11 website for traffic conversation and
+2:14 here we go we have this clean my map any
+2:17 topic you want created that last night
+2:19 in 30 minutes wasn't difficult I created
+2:21 this app that organizes all of the
+2:23 Instagram videos by tag over the last
+2:25 few years that I've created I can click
+2:27 on videos about image generation and
+2:29 then click on this month right here
+2:30 click on the link and we get this video
+2:33 that I created on AI Photoshop this was
+2:36 the notes app that I made in the last
+2:38 video this is my code this is the most
+2:40 recent deployment right here and so I
+2:42 can add a new note and we can choose
+2:44 which category but we can also just add
+2:46 a quick date so let's say this is due on
+2:48 July 27th we hit save right here look at
+2:53 this video about creating backend
+2:55 database and so what separates that
+2:58 Notes app from all of the other sites
+3:00 that I created was a backend right
+3:03 because what Claude did incredibly well
+3:05 and what made it so much cooler than
+3:07 chat GPT in my opinion was the fact that
+3:09 they created what's called clawed
+3:11 artifact and this allowed you to
+3:12 generate code and on the side panel many
+3:15 of you have probably used it but it will
+3:17 render the front end of your code so you
+3:19 can actually interact with it you can
+3:20 type into the little boxes right you can
+3:22 do all these different things you can
+3:23 create animations and you can test it
+3:25 out right it allowed users to visualize
+3:28 the front end of a website and interact
+3:30 with it but then that immediately caused
+3:33 me to Crave even more cuz I'm like wait
+3:35 I want to hook this up to my own domain
+3:37 wait I want to be able to store
+3:39 information in there and so that drove
+3:40 me to learning how to do that and so
+3:42 that was repet which allows you deploy
+3:44 the code that you generate so not only
+3:46 does it render it it gives you code that
+3:48 you can then copy and paste into repet
+3:50 there are other tools that you can use
+3:52 for this I just chose to use repet
+3:54 because it was the first one that I saw
+3:55 that you can do that and you can share
+3:57 this domain because you can deploy it
+3:58 put it on the internet share it with
+4:00 friends you can share it with friends
+4:02 you can also download other libraries so
+4:05 there's only a certain amount of
+4:06 libraries and if I had to Define what a
+4:09 library is I wouldn't know uh at a first
+4:12 principal level like what a library is
+4:15 but what I do know is that if you ever
+4:17 want to use a static CSV file as a
+4:19 backend I need Papa parse I know that in
+4:22 order for me to use a CSV file as a
+4:25 backend where I can upd update the CSV
+4:27 file and that will automatically up
+4:29 update the data in my website I need to
+4:32 use Papa parse and that is a library
+4:35 right if I want to do mermaid diagrams I
+4:37 need to use the mermaid Library neither
+4:40 of those can be found in CLA artifact so
+4:43 if you move out of artifact you have
+4:45 access to more libraries I also know
+4:47 that I can download other people's code
+4:49 right just like GitHub you can on repet
+4:52 you can download other people's reppel
+4:53 or Fork their reppel which basically
+4:55 means duplicate and then you can create
+4:58 your own project you can edit it and
+4:59 stuff which is cool and uh something
+5:01 that I'll get to in the future and
+5:03 there's also templates so there's like a
+5:06 chat gbt template where all you need to
+5:07 do is plug in your API token and then
+5:10 you can actually use chat gbt in a web
+5:11 app and then you can actually change the
+5:13 code behind the scenes to match more of
+5:15 what you're trying to do but with all of
+5:18 this right I created a Notes app my
+5:20 first Notes app put it on Twitter people
+5:21 were talking they're like hey man
+5:23 whenever you go there and you're just
+5:24 using the front end if you hit the exit
+5:27 and then go back to the site all of that
+5:28 data is gone and I'm like you know what
+5:30 good point you're right let's figure
+5:32 that out so then my last YouTube video I
+5:34 spent 4 and a half hours trying to
+5:35 figure this out and oh man it was
+5:37 stressful but once I figured it out oh
+5:38 it's one of the best feelings I've ever
+5:39 felt in my entire life but back ends
+5:41 basically allow you to like do stuff on
+5:42 the front end right depending on what
+5:44 Fields you fill out on the front end
+5:45 it'll basically store it in a database
+5:47 you can think of it like a Google Sheets
+5:48 or like an ocean database that stores
+5:51 all of the data that you do on the front
+5:53 end one thing I don't know how to do is
+5:54 actually separate it by user right
+5:56 because the reason I can't share my
+5:58 notes app is is it's just basically one
+6:01 profile of this Notes app I don't know
+6:03 how to give a new user uh a fresh
+6:06 database and then once you deploy your
+6:09 website it gives you a repit domain so
+6:12 it's like Riley's website. rep. app and
+6:16 then you can just buy a domain and so in
+6:18 my case I went to nameche and bought
+6:19 create. in and then I set up that domain
+6:22 to basically point at your repet domain
+6:27 and this allows you to basically create
+6:29 a site with your own custom domain in
+6:31 this video we're actually going to build
+6:33 a static web page then hook it up to a
+6:35 new domain let's build one of these
+6:37 landing pages with AI from scratch so
+6:40 the first thing that we're going to do
+6:41 is we're going to buy the domain stuffed
+6:43 nan.com so stuffed nanas is ready we're
+6:47 going to quickly go to Mid journey and
+6:48 we are going to make sure that the
+6:50 aspect ratio is square here and I'm
+6:53 going to go like this go banana stuffed
+6:57 animal product photo let's go minimal
+7:02 background and you can just kit rerun
+7:05 over and over and over and over and over
+7:07 and over if you hold shift you can just
+7:09 select uh let's go 24 of these we're
+7:12 going to download those now let's go
+7:14 like
+7:15 this let's get a cover photo so we're
+7:17 going to make the aspect ratio 2 by one
+7:20 Mark Zuckerberg holding banana stuffed
+7:24 animal see now this one is just perfect
+7:27 there's Mark holding a banana and so now
+7:29 we have all the the assets that we need
+7:30 so now let's go ahead and we are going
+7:33 to create our website let's say that we
+7:36 want it to be 2x one basically go like
+7:41 this headline we're also going to add a
+7:43 little bit of text here so let's just go
+7:45 ahead and use this so we're going to use
+7:48 this so we're going to upload this image
+7:50 right here to Claude and we're going to
+7:52 say create a landing page in react and
+7:54 uh TSS which is just the one that I've
+7:56 always done and so I'm just going to
+7:58 stick with it I'm going to find one
+7:59 works and then I can move to other
+8:01 languages and so this is a landing page
+8:02 for my stuff banana company called stuff
+8:04 bananas.com I'm going to give you an
+8:05 outline which is in the image and I want
+8:07 you to put a placeholder image for each
+8:09 section and generate good copy uh the
+8:12 copy on the photo so like right here the
+8:14 text on the photo should be something
+8:16 that has to do with bananas and Mark
+8:17 Zuckerberg and be really ironic and
+8:19 funny let's go ahead and see what it
+8:24 does I literally forgot that I am out of
+8:26 messages until 5:00 p.m. on Claude we
+8:29 have a second clot account because got
+8:32 to make a video you know we are going to
+8:34 run
+8:42 this and so here we go here it is
+8:48 and here is the site that it generated
+8:50 so this is what it generated right here
+8:51 it doesn't look super good at all but
+8:53 it's okay the only data we Harvest is
+8:56 potassium mark bananis
+9:00 oh my God I'm keeping that in for sure
+9:02 remember these are going to be image
+9:04 placeholders all you have to do is ask
+9:05 it to change it just go one change the
+9:09 font to something more modern and fun
+9:14 let's see what it does with these
+9:15 changes here make the copy on the top
+9:20 image smaller text and toward the bottom
+9:26 of the image and let's just TR try
+9:34 that all right you know what I think
+9:36 this is going to look good it even added
+9:37 like this like gradient below this so I
+9:41 think if the image just kind of sits
+9:42 right in there I think it's going to
+9:43 look really good let's do this so we are
+9:46 going to use repet now and this is a
+9:49 template it's called Riley react
+9:51 template fin I'm going to click on this
+9:54 up top here I'm going to include the
+9:55 link to this this is a public link and
+9:57 I'm going to hit these three dots I'm
+9:58 going to hit four work and I'm going to
+10:00 hit uh
+10:02 stuffed
+10:04 nan.com and we are going to enter that
+10:08 in and it should Fork it and create a
+10:10 new reppel what this includes is this
+10:15 index.html and this index. TSX in theory
+10:20 if you go to your Claud in theory if you
+10:23 go to Claude and you copy that code and
+10:26 you hit copy content and then you go to
+10:28 your app app. TSX file and paste in the
+10:31 code of the artifact exactly and then
+10:34 you hit run it should in theory it'll
+10:38 open up this web View and so we can
+10:40 actually make this full screen here and
+10:43 so it has this site and look at that it
+10:45 even added this like nice format here so
+10:48 once that loads we can then focus on
+10:51 adding those images okay I just
+10:55 uploaded this to repet and
+10:59 am creating a landing page there I also
+11:04 have and I'm just going to include that
+11:05 I like to give it as much context as
+11:07 possible so this is
+11:08 index. TSX just going to put index.
+11:14 TSX and I'm going to paste the code
+11:16 right below it and then I also have
+11:21 index.html I'm going to paste all this
+11:23 in here and I'm going to paste this just
+11:24 so it has as much context as possible
+11:27 and I'm going to come to the top I have
+11:28 these two 2 plus app dot which is the
+11:33 code in previous artifact I already have
+11:38 the images to put into place in this
+11:43 site how do I get them into the right
+11:50 place so the first thing we need to do
+11:52 is we need to create an images folder in
+11:54 the source directory and I'll explain
+11:56 what that means and so it generated a
+11:58 bunch of Snippets and so if you you've
+11:59 never coded before it's annoying to do
+12:00 Snippets you can literally just say
+12:02 generate the full code for all of them
+12:06 this will make you go through your
+12:07 credits a little bit faster but now that
+12:10 I have um two clot accounts that's fine
+12:13 uh generate full code for all of
+12:16 them and tell me where I'm putting the
+12:22 code and so then while it's doing that
+12:24 we can actually begin to work on this
+12:26 part so we need to create an image
+12:28 folder in the source directory so this
+12:29 is a source directory is just a folder
+12:32 we're going to come up here we're going
+12:32 to hit these three dots so we're going
+12:34 to create an images folder okay so
+12:36 here's the full code for app. TSX and so
+12:39 we can copy this code and we're going to
+12:41 go to app. TSX we're going to paste this
+12:43 whole thing in and we're going to go
+12:45 back to this index. TSX we're oops we're
+12:48 going to copy this paste it
+12:52 in uh we're going to get this
+12:56 index.html apparently okay so we can add
+12:58 that in Source we're going to come down
+13:00 to Source are going to add a
+13:03 file by this name right
+13:06 here and then we are going to paste the
+13:09 code that it told us to paste in for
+13:11 those of you who are wondering I use uh
+13:13 raycast which is an app that basically
+13:16 stores all the things that you copy um
+13:18 and I think we've done everything that
+13:20 it told us to just do okay here it says
+13:24 make sure to place your images in this
+13:26 format right here CU these are already
+13:28 all p pngs let's just ask Claude can you
+13:33 make make it so
+13:35 these can be pngs likely it's just going
+13:39 to have to change the name of this
+13:41 certainly we can change so it's just
+13:43 going to change the app. TSX file
+13:46 basically pull from only pgs cuz they're
+13:50 already in pgs we're just going to make
+13:52 those quick adjustments real quick
+13:54 update the code with the pngs in mind
+13:57 okay so we got those up updated and the
+14:00 files should be organized like this okay
+14:01 now we can organize the file so now
+14:04 we're going to organize the files like
+14:05 this in pngs and now we can all we need
+14:08 to do is just change the names of the
+14:10 ones we want to use and then drag them
+14:11 into the images folder right and we've
+14:14 already created this image fold images
+14:17 folder banana
+14:21 2 Banana 3 I'm just going to drag all
+14:24 the ones we're not using into this
+14:27 file right gra all of these images and
+14:31 we can open
+14:32 up our repet so I got this all moved
+14:36 over properly so within our source
+14:37 folder an image folder with this exact
+14:41 layout that you can then drag into this
+14:43 image file that I accidentally had as a
+14:45 document so I just changed this to a
+14:48 folder and then drug them in here so now
+14:51 we should after we have
+14:54 this we should now be good should be
+14:57 fully set up okay so now we can do here
+15:01 is we can actually run this let's see if
+15:03 it looks
+15:04 correct there we go we can make some
+15:07 more changes later let's try and deploy
+15:09 this so we're going to deploy it as a
+15:10 static easy client side app so we're
+15:12 just going to set up deployment this
+15:14 doesn't really matter right now because
+15:15 we have our own domain I'm sure actually
+15:18 we could just take stuff nan.com and we
+15:21 can just hit
+15:24 deploy and there we go we have deployed
+15:27 this website which we're going to open
+15:29 up right now here it is Mark Zuckerberg
+15:32 is cut off so we need to make some
+15:36 changes let's go ahead I'm going to up
+15:38 upload this right here so we have this
+15:41 image oh we need to grab the dimensions
+15:45 here um size the image that it fits this
+15:49 is the size of the image okay so it said
+15:52 to do the snippet I'm feeling lazy so I
+15:54 just said give me the full code and I
+15:56 just want to be able to copy it in
+15:57 without thinking cuz we're almost almost
+15:59 done let's see if it runs in the web
+16:07 view let's try and redeploy it with the
+16:10 new
+16:13 settings so this is what it looks like
+16:15 before it's super cut off now let's see
+16:17 it okay there we go the only data we
+16:20 Harvest is potassium Mark bananas BG and
+16:23 we created this right here obviously did
+16:28 this really quickly
+16:29 just threw something together I could
+16:31 remove this gradient change some colors
+16:33 around but the point is that we created
+16:35 stuff nan.com actually we have not
+16:38 created stuff nan.com because what we
+16:40 need to do is we need to go back here
+16:42 and we need to go to deployments and we
+16:44 need to go to manage and we need to
+16:48 press link a domain and we're going to
+16:50 type in stuffed
+16:52 nan.com and we're going to go like this
+16:56 and so we need to add these in as record
+16:59 and remember you can always ask Claude
+17:01 about this so what I'm going to do is
+17:02 I'm just going to go like this I'm going
+17:04 to copy this whole section as a
+17:07 screenshot then I'm going to copy this
+17:09 whole thing from repet this is going to
+17:12 do is it'll give it the proper context
+17:14 it needs we're going to go back to
+17:16 Claude we're going to give it both of
+17:17 those images I want to set up the domain
+17:23 to my Go Daddy domain here are the
+17:28 settings
+17:29 for each give me specific
+17:34 instruction as to how to do it and we're
+17:38 going to paste this in here and so it
+17:41 says we should edit the a record so
+17:44 we're going to hit
+17:45 edit and for Value we're going to put
+17:48 this right here TTL 600 seconds or 1
+17:52 hour all right that's
+17:55 fine and we're going to hit save and
+17:58 this text text record is going to be an
+18:00 at and then we're also we need to copy
+18:03 this whole record here and so we need to
+18:06 paste this whole value in here and for
+18:09 TTL we're going to put one hour we're
+18:11 going to hit save updating DNS records
+18:15 success it takes a little bit longer
+18:17 we'll see how long it takes we go back
+18:19 here we're going to hit link domain and
+18:20 now it's going to take some time to
+18:22 verify so by the time that this verifies
+18:26 stuff nan.com will now be
+18:29 this site right here and any changes we
+18:32 make to this and then we redeploy it
+18:35 will automatically update stuff nano.com
+18:37 and now you have your own landing page
+18:40 that you just created in like seven or
+18:42 eight minutes that you can then create
+18:44 you can plug it into any domain that you
+18:46 want and I'll include that in the
+18:49 description that's the exact process
+18:51 that I used when I created create. in if
+18:54 you're just joining me now I've been so
+18:56 motivated recently about how we're in an
+18:59 age where creation is possible where the
+19:01 pace of innovation across creating web
+19:04 apps as well as generating videos images
+19:07 and songs and around the corner is a lot
+19:10 of 3D and motion tracking stuff and
+19:13 animation stuff and I think it's all
+19:14 going to come together into this
+19:17 multimedia world I think all of these
+19:19 mediums are coming together and we're
+19:20 going to be able to create cooler and
+19:22 cooler things and so I am creating
+19:26 create. in I have a general Vision but
+19:30 it's going to require a lot of help and
+19:32 we're going to create a movement I'm
+19:33 telling you I'm telling you we're going
+19:35 to create a movement and it's going to
+19:36 be a little bit different I hope you
+19:37 guys join me I'll talk to you guys later

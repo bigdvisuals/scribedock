@@ -1,0 +1,706 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=0pp4X58q_0s
+Channel: Starter Story
+Video ID: 0pp4X58q_0s
+Transcript language: English auto-generated
+Downloaded at: 2026-05-25T20:45:40.983Z
+
+0:00 But, right now, everybody and their
+0:01 grandma is vibe coding iOS apps. We even
+0:04 launched an iOS boot camp. But, what if
+0:06 I told you that iOS is not the only
+0:09 place to be making money? Something I've
+0:11 realized is that most people are
+0:13 sleeping on the potential of Android.
+0:15 Meet Steve. He's a guy who built a
+0:18 simple mobile app that makes over
+0:19 $100,000 a month, but almost all of his
+0:23 revenue comes from Android. We tested
+0:26 both platforms and Android performed
+0:28 better every single time. Most people
+0:31 think iOS is the only place where you
+0:33 can make money building apps, but Steve
+0:35 proved the exact opposite.
+0:37 >> If you're bootstrapping like we are,
+0:39 Android is actually way better. So, I
+0:41 asked Steve to come on to the channel to
+0:42 share everything, and in this video,
+0:44 we'll dive into his crazy simple app
+0:47 that makes over $100,000 a month, the
+0:49 six-step process he used to grow his app
+0:52 fast, and why Android apps are still an
+0:55 untapped opportunity in 2026. All right,
+0:58 guys, this is one you cannot miss. I'm
+1:02 Pat Walls, and this is Starter Story.
+1:04 All right, Steve, welcome to the
+1:05 channel. Tell me who you are, what you
+1:07 build, and what's your story. My name is
+1:09 Steve. I built a mobile app almost 18
+1:11 months ago, and over the past year,
+1:13 we've bootstrapped it from less than
+1:15 $1,000 in revenue up to $100,000 per
+1:18 month. Today, I'm really excited to
+1:20 share how we grew this to over $100,000
+1:23 a month primarily on Android. Before we
+1:25 dive into that, Android, I'm really
+1:27 excited to talk about it. But, before we
+1:29 do, what's the app that you built, and
+1:30 can you show me some of your revenue
+1:32 dashboards and things like that to show
+1:34 me that this is legit? Joinable is an AI
+1:36 calorie counter. It's kind of an
+1:38 all-in-one AI nutrition assistant. It
+1:41 tracks your calories, your macros, it
+1:43 tracks your weight loss over time, it
+1:44 gives you insights. So, this is our app.
+1:46 This is our Play Store listing. You can
+1:48 see the number of reviews, the
+1:50 downloads. This is almost at a million
+1:52 just on Android, which we're really
+1:54 excited about. So, this is our
+1:55 RevenueCat dashboard. In the past 28
+1:57 days, we've made $125,000
+2:00 in revenue with an MRR of around 80K,
+2:03 which brings us to just under 1 million
+2:05 ARR in annual terms, and just over
+2:08 30,000 active subscribers, and around
+2:10 40,000 total subscribers. So, our app is
+2:14 a premium subscription app. We have two
+2:18 subscription packages, a monthly
+2:19 subscription, and an annual
+2:21 subscription. And that's where all of
+2:23 our revenue comes from. Around 80% of
+2:26 our users and around 80% of our revenue
+2:29 comes from Android, and 20% of our users
+2:31 and revenue come from iOS. Okay, that's
+2:34 pretty crazy. 80% of your sales come
+2:37 from Android. We're going to talk all
+2:38 about that, cuz I think you're going to
+2:39 have some cool stuff on that. But before
+2:41 we do, let's talk about how you even get
+2:43 here. How do you get to the point where
+2:44 you have an app that's used by millions
+2:46 of people?
+2:46 >> So, the way we started working on this,
+2:48 and the way this app came to be, was
+2:50 that my co-founder and I have both been
+2:52 through our own weight loss journeys.
+2:54 Personally, I used to weigh 125 kilos,
+2:56 and I currently weigh 80 kilos. So, I
+2:58 dropped 45 kilos or 100 lb. And I did
+3:02 this by tracking my calories
+3:03 religiously. During this period, I
+3:05 tracked my calories. I used many
+3:07 different apps, many of our competitors.
+3:09 So, I had a very good idea of these
+3:12 products, of the space. And we realized
+3:14 that the current state of the space is
+3:16 very complex. There is no simple
+3:18 solution to get you where you need to
+3:20 go. So, the reason we started working on
+3:22 this app was to offer the same value to
+3:25 our user, the the best in class solution
+3:27 with way less complexity. The number one
+3:30 thing that we focus on is simplicity, is
+3:33 the quick and easy experience that we
+3:35 offer. And so, that's what we try and
+3:36 capture with our marketing content.
+3:39 >> We interviewed someone recently who
+3:40 talked about that as well, as like
+3:41 building something very simple, very
+3:43 frictionless. A lot of developers
+3:45 watching this want to add a million
+3:46 features. I like the line, which is keep
+3:48 it simple, stupid. Even as as mentioned,
+3:50 the time spent on your app was less than
+3:52 others, but actually that's what made it
+3:53 valuable. I want to dive into the next
+3:55 topic here, and you mentioned this a
+3:56 couple times, which is what this
+3:57 hopefully video is about, which is
+3:59 Android. A lot of people talk about
+4:01 building on iOS, and how those users
+4:04 have more money to spend, where Android
+4:05 is not as much the case, but you did it
+4:07 the exact opposite. So, let's talk about
+4:09 the growth of this app. How did you get
+4:11 users? How did you build it? What was
+4:12 your focus? We are bootstrapped. We have
+4:15 spent only our own money since day one.
+4:18 So, we didn't really have huge budgets
+4:20 to work with. iOS is way more expensive
+4:22 than Android, right? So, the CPMs, the
+4:24 cost per thousand views or generally the
+4:26 cost per view is almost four times as
+4:28 high on iOS than it is on Android. So,
+4:31 being bootstrapped and being capital
+4:32 constrained from day one, we knew that
+4:35 we needed a solution. So, we decided to
+4:37 focus a bit on Android initially. So, we
+4:41 started working on Android, and you
+4:43 know, obviously the conventional wisdom
+4:45 here says, "Focus on iOS. That's where
+4:47 all the money is. That's where the
+4:49 success is in in business and in
+4:51 subscription apps." But, we went against
+4:54 that for a few reasons, including
+4:56 capital constraint, but also we got
+4:58 inspired by the RevenueCat State of
+5:01 Subscription Apps Report in 2025. In
+5:04 that report, it showed that despite iOS
+5:06 users being four times as expensive to
+5:09 advertise to, they only convert at
+5:12 around 20% better than Android. So, it
+5:16 made sense for us to start working on
+5:18 Android and start getting some
+5:19 subscribers there. Okay, cool. I really
+5:21 like that. Instead of just seeing what
+5:23 everyone's doing on X and just taking
+5:25 random advice from people that talk on
+5:26 the internet, you guys looked at the
+5:28 data. That report is really telling. And
+5:30 then you looked at the data from your
+5:31 own ads. You're saying, "Okay, we can
+5:33 acquire users much cheaper, and they
+5:35 generally convert the same." That's
+5:37 super smart. For anyone watching this,
+5:39 follow the data, follow the money.
+5:40 That's great intel. What did you do next
+5:43 once you sort of realized, "Oh, here's
+5:45 this opportunity." How did you get it
+5:47 off the ground and actually start
+5:48 getting users and getting the word out?
+5:50 >> We started by launching on Product Hunt.
+5:52 That was our day zero marketing and
+5:55 distribution strategy. We got featured
+5:58 on the front page of Product Hunt. It
+6:00 got us a couple hundred installs. Two of
+6:02 those installs converted to subscribers.
+6:03 At which point we knew we had validated
+6:06 the product. We knew that we had
+6:07 something that people were willing to
+6:08 pay for. We started working on Meta ads
+6:10 and Meta ad campaigns we saw that we
+6:13 couldn't afford to run iOS campaigns
+6:15 because we're bootstrapped and because
+6:17 we're capital constrained. So, we
+6:19 naturally
+6:20 reverted to just running Android
+6:21 campaigns in the states because we
+6:23 didn't have the money. Now, when we ran
+6:25 the Android campaigns we saw that they
+6:26 had a conversion rate just as good as
+6:28 our iOS users. So, we tested both.
+6:31 Eventually, we tested iOS as well and
+6:33 found that, you know, Android was way
+6:34 more cost effective. We also realized
+6:36 that by running ads on Android we get
+6:39 some spillover into iOS. For all of
+6:41 these reasons, the fact that we got
+6:42 initial success on Android and we were
+6:45 getting a couple hits on iOS as a result
+6:47 meant that we just double down on on
+6:50 Android. We decided to ramp up our spend
+6:53 and really focus on this platform. All
+6:55 right, so ads, that's a pretty big
+6:57 strategy for you and for a lot of other
+6:59 people who have successful Android apps.
+7:01 Can you just explain what ads means for
+7:03 you? Is it SEO, Google ads, or is it
+7:06 Android ads? How does it work? This is
+7:08 effectively our all-time Google ads
+7:11 dashboard. We have spent just under
+7:13 $500,000 on ads and we have made almost
+7:17 that exact same amount in revenue that
+7:19 is attributed to Google ads. So, revenue
+7:22 directly attributed to Google ads is
+7:24 almost the same. So, we are effectively
+7:26 100% break-even on this. Ideally, we
+7:28 would have a way lower return on ad
+7:30 spend and a way higher volume. But,
+7:32 because we're bootstrapped, we're
+7:33 constrained by the performance of these
+7:35 campaigns. We need them to be
+7:37 profitable. Could you just show me an
+7:38 example of what an ad looks like? You
+7:41 can show me the campaign manager or
+7:42 potentially what it looks like if you're
+7:44 viewing an ad from the Play Store or
+7:46 something like that. I'm just curious
+7:47 what that looks like or how you set up
+7:49 the campaign and what keywords you
+7:50 target. So, you see this section here?
+7:53 This is us previewing the ads that we've
+7:55 generated. And then it shows up across,
+7:57 as we mentioned, Google's digital real
+8:00 estate. So, in the display network, for
+8:02 example, in other ads or in websites, it
+8:04 can show up like this. It can show up in
+8:06 Google search. So, if someone's on
+8:08 Google search on their mobile device, we
+8:10 also show up on YouTube. We've got a
+8:11 couple videos here which also lead
+8:14 people to the Play Store to install our
+8:16 app. On the Discover network, on the
+8:17 Discover page, and most importantly, on
+8:20 the Play Store. So, this is our highest
+8:22 performer, our Play Store ad. It
+8:24 obviously shows up in between other
+8:26 apps, especially if you search for one
+8:28 of the keywords like calorie counter or
+8:30 calorie tracker. If you have an Android
+8:31 device, Pat, and you search for a
+8:34 calorie tracker on the Play Store,
+8:36 there's a very high chance that we're
+8:37 going to be number one for this reason.
+8:39 So, this is our bread and butter, the
+8:41 Google Play ads. Steve's approach to
+8:44 growth is genius. He found just one
+8:46 channel, Google, and used it to scale
+8:48 his app to over $100,000 a month. And
+8:51 what I love about mobile apps is that
+8:53 there are dozens of ways to grow just
+8:56 like this. So, we put together a free
+8:58 guide to help you find the strategies
+9:00 real founders are using today to grow
+9:02 their apps. From influencer marketing to
+9:04 building a public, the mobile app growth
+9:06 cheat sheet will break down seven
+9:08 different tactics you can use to start
+9:10 growing your app today. Just head to the
+9:12 first link in the description to grab it
+9:14 for free. All right, let's get back to
+9:15 the episode. Okay, this is super cool.
+9:18 You know, we talked a lot of people who
+9:19 build apps and they're doing like UGC
+9:21 and all this TikTok stuff. What I like
+9:22 about yours is that you just run ads.
+9:24 There's one place where you can do it
+9:25 and then it goes to all of Google's
+9:27 digital real estate. This is one of the
+9:28 advantages of just focusing in on one
+9:30 platform like Android. You take
+9:32 advantage of Google's way bigger
+9:34 advertising network. I want you to dive
+9:36 a little deeper into that, into the
+9:38 playbook for how to win on Android, how
+9:41 to win specifically with paid ads in the
+9:43 Google network. Could you walk me
+9:45 through this step-by-step if you were to
+9:46 build another app in the consumer space?
+9:49 What would be your playbook if you were
+9:50 starting over in 2026? Yeah, absolutely.
+9:53 So, I'll tell you exactly what we did
+9:55 and the formula that anyone can follow.
+9:58 The first thing we did and the first
+9:59 thing you should always do is to set up
+10:01 attribution and measurement, right? What
+10:03 that means is being able to track the
+10:06 events that take place in your app and
+10:08 send them to Google Ads. What this does
+10:11 effectively is it lets Google Ads know
+10:13 when a user installs the app, most
+10:15 importantly, when they hit, let's say,
+10:18 your paywall and when they take any
+10:20 action, either starting a free trial or
+10:22 purchasing your app. And if they
+10:24 purchase, the value of the transaction
+10:26 as well. So, all of this data is and
+10:28 should be sent to Google Ads. The value
+10:31 of this is that Google Ads can then
+10:33 optimize the campaigns and optimize the
+10:35 delivery of the campaigns based on that
+10:37 data. Second, after attribution and
+10:40 measurement, you need to launch install
+10:43 campaigns. Google Ads needs data, right?
+10:45 It needs data in order to optimize.
+10:48 First, what we need is install
+10:50 campaigns. You need to start feeding the
+10:51 algorithm. It needs to start to have a
+10:53 heartbeat. It knows how much an install
+10:56 costs, it knows what the CPM is in the
+10:58 country, and it can grow from there.
+11:00 It's also good to get baselined and to
+11:02 have a frame of reference for all future
+11:04 campaigns you're going to run in
+11:06 whichever markets you're targeting. Now,
+11:09 Google Ads app campaigns
+11:11 require 10 pieces of copy, so five
+11:14 headlines, five descriptions, and then
+11:16 up to 20 images and 20 videos. For this
+11:18 initial install campaign, ideally you
+11:20 have all of these assets. If you don't
+11:22 have the time or if you just want to run
+11:24 it as a proof of concept, then just use
+11:27 stock images. It's fine. Use stock
+11:29 images and stock videos. Yeah, highly
+11:30 recommended. Just flood the campaign
+11:32 with assets and let Google's algorithm
+11:34 do the do do the heavy lifting. Then,
+11:36 the third one is a function of time,
+11:38 right? And it is the asset optimization
+11:41 phase. Once you have an install campaign
+11:44 running, you need to give it some time.
+11:46 You're going to be learning, the
+11:47 algorithm's going to be learning. What
+11:48 works, what messaging works, what
+11:50 doesn't. Start with some low-cost
+11:52 campaigns, maybe $10 a day, $15 a day,
+11:54 and start ramping up from there. And
+11:56 while you're doing that, you're going to
+11:58 be working on your assets. So, if you
+12:00 started with stock images, start to
+12:01 build your own custom images. Maybe uh
+12:04 try something with some large text with
+12:06 your winning copy. But, make sure to
+12:08 take big swings. Don't optimize little
+12:11 things like the color of one image or
+12:13 the font styles or the font style. Take
+12:15 big swings. Like have incredibly
+12:17 different uh media, incredibly different
+12:19 uh assets, images, videos. And then
+12:21 eventually, you're going to start to see
+12:23 patterns of what works and what doesn't
+12:24 work. And most importantly, update your
+12:27 Play Store assets, right? So, that's
+12:29 where most of the win is. Because Google
+12:31 App campaigns use your Play Store
+12:33 assets, your screenshots, your app
+12:35 title, your subtitle, your description,
+12:38 make sure they're great. Once your
+12:39 assets are in a good place, that's when
+12:41 you know it's time for a TCPA campaign
+12:45 or target CPA, cost per acquisition.
+12:48 Once you've got the confidence in your
+12:49 assets, it's time to launch this
+12:51 campaign. In terms of budget for this
+12:53 campaign or the install campaigns,
+12:55 you're always going to need 10 times
+12:56 your CPI for the budget. So, if you're
+12:59 running a CPI campaign, you need 10
+13:01 times your CPI. What does that mean? If
+13:03 a purchase in your app, or let's say if
+13:06 a free trial in your app costs you $15,
+13:09 you need $150 per day of budget in order
+13:13 to run a successful campaign. The reason
+13:15 for this is that Google's algorithm
+13:17 needs 10 of your target events per day
+13:20 in order to successfully optimize. Once
+13:23 you start getting some good data in them
+13:24 after a month or two, you start to have
+13:27 some purchases in your app. You get
+13:28 baselined, you know your CAC. That's
+13:30 when you start to scale these campaigns.
+13:32 Again, you you might need to raise money
+13:34 to do this from friends, family. Maybe
+13:36 you go the VC backed route, maybe not.
+13:39 Ideally not. Increase your budgets over
+13:42 time. You need to keep scaling your
+13:43 budgets in accordance with Google's best
+13:45 practices and very importantly, optimize
+13:48 your product. Your conversion rate needs
+13:50 to constantly be climbing. By conversion
+13:52 rate, I mean your subscription
+13:54 conversion rate. Maybe you optimize your
+13:56 paywall, maybe optimize your business
+13:58 model, your pricing, you test your
+14:00 prices, optimize every single thing. As
+14:02 your conversion rate increases, increase
+14:05 your budgets of your campaigns and the
+14:07 flywheel continues. And that's the
+14:09 playbook. Okay, cool. I mean, the thing
+14:11 that I notice about when you're talking
+14:12 about everything is it's always about
+14:13 the data, looking at the data. We're
+14:15 talking about campaigns, we're talking
+14:16 about ROAS, we're looking at data. This
+14:18 entire business was built on looking at
+14:20 the data, following the data, making
+14:22 decisions, changing things. And this is
+14:23 how you get to a place where you have an
+14:26 app that has millions of users on an
+14:29 on a platform that you didn't expect
+14:31 would be as big, Android. I think that's
+14:33 super cool. Let's talk about the
+14:34 opportunity in Android. A lot of people
+14:35 are watching this, maybe they're already
+14:36 building an app and they maybe didn't
+14:38 think Android was the way to go. What
+14:40 can you share about that from what
+14:42 you've learned through building this?
+14:43 Something that's happened over the past
+14:45 couple years is with the emergence of AI
+14:48 and the lowering of the barrier to entry
+14:51 for anyone to release apps, we've seen
+14:54 an explosion in the number of apps
+14:56 that's that have been released,
+14:57 especially on iOS. So, in the past
+15:00 couple years, five times as many iOS
+15:02 apps have been released on the App Store
+15:04 compared to only two times as many
+15:06 Android apps. So, on the one hand, the
+15:08 barrier to entry is way lower. On the
+15:10 second hand, most people who are live
+15:13 coding apps and most new apps which are
+15:15 being released are on iOS. So, if there
+15:18 is saturation in the the
+15:20 you know it's definitely on iOS. So, the
+15:23 opportunities on Android really are
+15:25 generally the apps that we know are
+15:27 successful on iOS that don't have an
+15:30 equivalent on Android. That's the
+15:32 opportunity. The second opportunity is
+15:35 the niche problems that individuals have
+15:38 that previously have not been worth
+15:41 someone building an app to solve.
+15:43 Because of the lowering of the barrier
+15:45 to entry, because of the low cost of
+15:47 software development these days, the
+15:49 real opportunities are going to be in
+15:51 the niche overlap of problems or
+15:53 features that no apps currently solve.
+15:56 So, really for anyone who's thinking
+15:58 about building an app, I would highly
+16:00 recommend seeing the problems that you
+16:02 face in your day-to-day with the current
+16:05 state of the apps that you use, with the
+16:06 incumbents, and find a niche, find a
+16:08 very, very small problems that are
+16:10 overlap of problems that no one has
+16:12 solved. Solve it, find the other users,
+16:15 and find the people who face the same
+16:17 sets of problems, and you will find some
+16:19 good revenues in doing that. Yeah, so I
+16:22 mean, I think that's super true. There's
+16:23 a lot of things I noticed about what
+16:25 you've built. It's just about growing
+16:26 markets, Android, and then also there's
+16:28 some interesting stuff you shared around
+16:30 countries. You're building this, you're
+16:31 localizing it to different countries.
+16:33 That's just the emerging massive growing
+16:35 customer base of worldwide customers. We
+16:37 talked to a lot of founders who are
+16:39 shipping apps specifically in France or
+16:41 South America. There's There's a lot of
+16:43 opportunity there, too. One thing that I
+16:45 do want to see is I want to see your
+16:46 app. Can you show me the app that has
+16:47 millions of users and is making over a
+16:49 million dollars a year? It's very
+16:51 simple. For example, you can type in
+16:53 what you ate. If I type something in
+16:55 like yogurt, granola, blueberries, and
+16:59 almonds, it'll take a second and come
+17:02 back with the calorie count, the macros
+17:05 split by ingredients, and then a total
+17:08 of this meal at the bottom. You can also
+17:09 type in your exercise. For example, I
+17:12 did 1 hour of vinyasa yoga, and it also
+17:16 tracks your
+17:17 that you've burned and keeps the totals
+17:20 in the bar at the top. Where the more
+17:21 you can try with pictures. I can select
+17:23 a picture from my gallery and what the
+17:25 app is going to do is it's going to
+17:27 transcribe first what it sees in the
+17:29 picture, identify the ingredients, the
+17:31 portion sizes, and then it's going to
+17:33 come back to us with the calories and
+17:35 macros of each ingredient and then a
+17:37 total of the entire meal. And you can
+17:40 just see at the top you've got your
+17:42 weekly view. You can see which days
+17:44 you've tracked this week. You've got
+17:45 your daily streak. You can track your
+17:47 weight over time. So, yeah, that's
+17:49 basically it. Like I said, very simple,
+17:51 very easy to use. No complexity, no
+17:54 searching in multiple databases. Just
+17:56 type in what you've eaten, take a
+17:58 picture of your plate, and the rest is
+18:00 history. Okay, cool. I mean, super cool,
+18:02 super simple app, as you said. Keep it
+18:04 simple, stupid. Let's talk about tech
+18:05 stack for a second. What's the stack
+18:07 behind this million-dollar app? We are
+18:09 very heavily in the Google ecosystem,
+18:11 right? We use Firebase and GA4 for our
+18:13 back-end. We use BigQuery, GCP, Google
+18:16 Play. Obviously, we advertise on Google
+18:18 Ads. We effectively work for Google at
+18:21 this point. Apart from Google, we use
+18:23 RevenueCat for subscription management.
+18:25 And we use AI for our back-end AI usage
+18:29 for most of it. We have quite a few
+18:31 tools we use for operations. We use
+18:32 Cloud Code and Cloud Co-Work, incredible
+18:35 tool, $100 a month. Open AI premium for
+18:38 general purpose usage, $20 per month. We
+18:41 use GitHub Copilot, $39 a month. We use
+18:44 Code Rabbit, that cost us $30 a month.
+18:46 Fixer for AI email support, incredible
+18:49 tool, $30 a month. And 8N for operations
+18:52 automation, $24 a month. AppFollow for
+18:55 ASO, app store optimization, that cost
+18:58 us $180 a month. And we use Webflow for
+19:01 our website, our landing page, which
+19:04 cost us $18 a month. Uh thanks for
+19:06 sharing all that. Last question that we
+19:08 ask everyone who comes onto the channel,
+19:09 if you could go back in time and stand
+19:11 on young Steve's shoulders and give him
+19:13 some advice or give some advice for
+19:15 anyone on here that wants to build a
+19:16 million-dollar app. What would it be?
+19:18 One thing which I would definitely do
+19:20 differently is that I would start
+19:22 creating content. I would start
+19:23 documenting my journey and get good at
+19:25 making content. After living off of
+19:28 social media for almost a decade, I'm
+19:30 I've kind of fallen behind almost
+19:32 everyone in the world when it comes to
+19:34 this and it is a skill we're missing in
+19:36 the business. So, yeah, the piece of
+19:38 advice would be start to start
+19:40 documenting your journey and get good at
+19:42 making content. Having some
+19:44 documentation of the journey and seeing
+19:46 how much I've grown over time and maybe
+19:48 even publicly sharing some of that is
+19:49 something I wish I'd done earlier and
+19:52 I'm planning on starting now. So, I miss
+19:55 a lot of the skills, I miss a a lot of
+19:57 the gauge and calibration towards social
+20:00 media and content creation which almost
+20:03 all of my peers and almost everyone else
+20:05 in the world has. So, it's a huge
+20:07 weakness of mine and
+20:08 yeah, I would change that. Well, that's
+20:10 great advice. Document the journey.
+20:12 That's what we believe here at Starter
+20:13 Story and this is maybe the beginning or
+20:15 a great milestone in that journey of you
+20:18 documenting. Thanks for coming on and
+20:20 sharing all this amazing million-dollar
+20:22 Android app. I think this video is going
+20:23 to be awesome and the channel's going to
+20:25 love it. Let us know what you think in
+20:26 the comments and thanks for coming on,
+20:27 Steve. Thanks for having me. It was a
+20:29 pleasure. Congrats to you as well. Okay,
+20:32 Gus,
+20:33 uh producer of Starter Story,
+20:35 what did you think?
+20:36 I've said this a few in a few other
+20:37 videos, but
+20:39 the best people that we talk to are the
+20:41 people that are like crushing it.
+20:43 They all have like this system,
+20:45 you know, whether it's creating content
+20:47 or, you know, whatever, the building
+20:49 process. For Steve, it was his all his
+20:51 Google Google Ads, you know, system.
+20:55 So, that's my biggest takeaway is like
+20:56 or my first takeaway, I should say. I
+20:58 was so impressed with like his system
+21:00 and just how methodical and data-driven
+21:02 I feel like you you value that quite a
+21:04 bit, at least in as I've got to know you
+21:06 and that obviously makes Start Story and
+21:08 you successful. So, I don't know, that's
+21:10 kind of standing out to me as like this
+21:11 like data-driven, he's not guessing.
+21:14 Right. Following the numbers, and that's
+21:17 like I we've seen that a few different
+21:19 times. Yeah, this is what I always see
+21:20 with founders who I know who are
+21:21 crushing it. Obviously, he's crushing
+21:23 it. He has a million-dollar app, and you
+21:25 got to get started, but then once you
+21:27 get started, you need to look at the
+21:28 data and make changes based on that
+21:30 data. I think a lot of people will want
+21:31 to watch more videos like that are on
+21:33 our channel to find other, you know,
+21:36 ideas, and that's great to find ideas
+21:38 online, and to see what others are doing
+21:40 and get inspiration, but 80% of the
+21:42 decisions that you make should be based
+21:44 on your own data. If users aren't using
+21:46 your app, that is a piece of data that
+21:48 you need to go change your app. If your
+21:50 app is not converting, you have that
+21:52 data. Look at that, analyze it, maybe
+21:54 put it into AI, get some action items
+21:57 that you can do, and make the changes,
+21:58 and then look at the data. This is
+22:00 constant, day hour over hour, day over
+22:03 day, looking at the data and making
+22:05 decisions. This is what all the very,
+22:06 very successful founders do. You have
+22:09 this data, it it is
+22:10 you have this goldmine right in front of
+22:12 you, whether it's your Google Ads or
+22:13 your TikTok performance or whatever it
+22:15 is. Use that and make changes, and
+22:18 eventually you'll be successful. Second
+22:20 thing was obviously the whole like iOS
+22:23 versus Android thing. I don't want to
+22:24 say versus, but like the difference.
+22:26 I love what he was saying about like
+22:28 what he say like iOS has like whatever
+22:30 quadrupled in the number of apps
+22:31 submitted versus Android is only like
+22:34 it's a lot slower. And if you look on X,
+22:36 which I'm on all the time, everyone's
+22:38 talking about iOS apps. And we we even
+22:39 did a boot camp, you know, iOS boot camp
+22:41 that I led, you know, shameless plug.
+22:42 But that was just like, "Wow, that's
+22:44 crazy." The numbers he rattled off about
+22:46 like how much less is going into
+22:48 Android. That's what you should do.
+22:50 That's anyone watching should go like be
+22:51 like,
+22:52 "Screw iOS, let me go build an Android
+22:54 app." And just follow the numbers.
+22:55 >> Yeah, there's a famous story about the
+22:57 founders of WhatsApp. Everyone was
+22:59 building iOS apps, and but they wanted
+23:02 to build a like a messaging app that
+23:03 everyone would use because if everyone's
+23:05 using the app then it becomes the most
+23:06 popular. So yeah, they built the iOS app
+23:08 but they also made sure this is years
+23:10 ago. It doesn't apply now but it's the
+23:11 similar principles. They decided, oh,
+23:13 we're going to make sure that it works
+23:14 on every device on like Blackberries, on
+23:17 like random like weird OS's. They made
+23:20 it work on every single one even though
+23:22 the conventional wisdom was build an
+23:24 iPhone app at the time because everyone
+23:26 has iPhones. As mentioned, there are
+23:28 billions of Android devices out there.
+23:31 That's all that you need to know about
+23:32 how there's money to be made there.
+23:34 Sure, maybe on average iOS users spend
+23:36 more but the world is so big. It's
+23:38 important to open up your mind into how
+23:40 you don't need to build the best thing
+23:43 or the most optimized thing. You just
+23:44 need to build something that captures
+23:46 value and you can have a million dollar
+23:47 app. So if you guys enjoyed this video,
+23:49 thank you for watching. Let us know what
+23:50 you thought in the comments. Would you
+23:52 like us to bring on more Android devs
+23:54 and talk about this or would you like us
+23:55 to go deeper into anything that he
+23:57 shared? I read every comment and what
+23:59 you put in there will turn into future
+24:01 videos and future playbooks. So thank
+24:02 you guys for watching this one and we'll
+24:04 see you in the next one. Peace.

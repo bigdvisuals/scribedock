@@ -1,0 +1,4430 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=2aldTxnbNt0
+Channel: Riley Brown
+Video ID: 2aldTxnbNt0
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 Welcome to the complete cursor guide
+0:02 with Kihan Zang. He is the best
+0:04 developer I've ever met and he's used
+0:06 Cursor every single day since it came
+0:08 out. In this video, he's going to give
+0:10 us the most comprehensive course on how
+0:12 to use Cursor on the entire internet.
+0:14 And by the end of this course, you'll be
+0:16 able to confidently use Cursor to vibe
+0:19 Code landing pages, desktop apps, or
+0:21 anything you can imagine. If you've been
+0:23 looking for a comprehensive, easy to
+0:25 follow, wellorganized, and practical
+0:27 course that takes you from zero to hero,
+0:30 this is the right cursor course for you.
+0:32 You don't need any prior knowledge of
+0:34 programming. All you need is a computer.
+0:37 If you already have a foundation, the
+0:38 whole video is timestamped, so you can
+0:41 switch to any chapter that you want. And
+0:43 in the second half of the video, we're
+0:44 actually going to be covering the most
+0:45 advanced features inside Cursor. We are
+0:48 truly covering everything. And so if
+0:50 you're new here, make sure to subscribe
+0:52 as I upload new videos all the time
+0:54 about vibe coding and building with AI.
+0:57 This is going to be a very long video.
+0:59 Let's dive in. Khan, welcome.
+1:02 >> Hello. What are we talking about today?
+1:04 Today we're going to be going through in
+1:07 detail what cursor is, everything it can
+1:09 do, and we're going to be building an
+1:11 MVP, upgrading it into something that's
+1:13 full stack and scalable and deployable,
+1:15 and we're going to be comparing it with
+1:16 other vibe coding tools. Amazing. So,
+1:18 we're going to talk about why it's the
+1:20 best tool out there. Um, and we're also
+1:22 going to go over like all the features,
+1:23 right? Like basically every single
+1:25 feature within Cursor.
+1:26 >> Yeah. We're going to be running through
+1:27 all their new features. They just
+1:29 dropped Cursor 2.0 with a ton of amazing
+1:32 features. We're going to be going
+1:33 through all of that. And we're also
+1:34 going to go through Cursor 1. We're
+1:35 going to use all of its features as
+1:37 well.
+1:37 >> And Composer.
+1:38 >> And Composer, their new model. Yes.
+1:40 We'll be talking about that today
+1:41 >> and then we'll see how it stacks up
+1:43 against, you know, Replet, Lovable,
+1:45 Bolt, etc.
+1:47 >> Yeah. And we're going to be starting
+1:48 from the basics. We're going to be going
+1:50 through things like, you know, what a
+1:51 file is, what a directory is, all the
+1:53 way up into building and deploying an
+1:56 app.
+1:56 >> Yeah. And we'll talk about databases.
+1:58 We're going to get to that later today.
+1:59 >> Oh, that's going to be covered once we
+2:00 start scaling up our app. Yeah.
+2:02 >> Hell yeah. Okay. Well, let's not waste
+2:04 any time. Uh for those of you who are
+2:06 watching right now, I will put the
+2:08 sections and the timestamps on the
+2:09 screen right here. You feel free to skip
+2:12 ahead. If you are a seasoned developer,
+2:14 you may want to skip to like cursor 2.0.
+2:17 0 the the third section if you want, but
+2:19 if you are brand new to coding, you do
+2:22 not even need to know what a file is or
+2:24 a variable.
+2:25 >> You just need your computer. That's it.
+2:27 >> You literally just need a computer. You
+2:29 are going to be able to build an app by
+2:31 the end of this video and not just an
+2:33 basic app like an app with a database.
+2:35 And we're going to talk about everything
+2:36 in this video. So strap in. It's going
+2:38 to be a fun one. All right. So tell me
+2:40 what is cursor?
+2:41 >> Thanks for asking. So, cursor is an IDE,
+2:44 which is basically VS Code's cousin. If
+2:47 that isn't making a lot of sense, an IDE
+2:50 is an integrated development
+2:51 environment. And Cursor is probably the
+2:54 only real true IDE out of most vibe
+2:56 coding tools. And that's kind of lays
+2:58 the groundwork for why Cursor and VS
+3:01 Code is the previous generation, the
+3:03 most popular IDE.
+3:04 >> And so, I guess shouldn't we go over the
+3:05 reasons like why we should be using
+3:07 cursor or like why use cursor over other
+3:10 tools and such?
+3:10 >> Yeah, of course. So, as I mentioned
+3:12 before, cursor being an IDE gives you a
+3:14 very solid foundation for kind of
+3:16 beginning your journey as a vibe coder.
+3:18 And this matters because you're not
+3:20 necessarily writing code, but you should
+3:22 know how all the fundamentals piece
+3:24 together and give you the product that
+3:25 you want. And having a more traditional
+3:28 IDE framework kind of around this is
+3:30 very beneficial. It's something that you
+3:32 can grow into and cursor is an amazing
+3:34 platform for you to just learn. So I
+3:37 think the first part about it is that it
+3:39 allows you to build a really solid
+3:40 foundation for vibe coding in general.
+3:42 You can grow into it and the ceiling for
+3:44 it is very high. There's a lot of
+3:45 technicalities that you can jump into
+3:47 it. Real programmers actually use it. So
+3:50 definitely one of the best tools to
+3:51 build a strong foundation when you
+3:53 begin.
+3:53 >> Amazing. And yeah, I think I think a lot
+3:55 of people sometimes start their project
+3:58 on other vibe coding tools like replet
+4:00 um v 0ero lovable and then they move to
+4:02 cursor when they want to expand it when
+4:05 in reality if you just actually take two
+4:07 to three hours to learn cursor you can
+4:09 just stay in cursor because switching
+4:11 from one platform to another it's kind
+4:13 of annoying and cursor has it legit has
+4:16 everything you need that's how I view it
+4:18 >> and you know it also works the other way
+4:19 around if you know cursor you can switch
+4:21 to you know replet lovable super easily.
+4:25 So, the skill is very transferable, but
+4:26 it isn't necessarily the other way
+4:28 around because of the IDE nature that
+4:30 cursor has.
+4:30 >> It just has all of the tools that you
+4:32 might need.
+4:33 >> Yeah. It's like, you know, if you know
+4:34 how to use Photoshop, obviously you know
+4:36 how to use Canva, right?
+4:37 >> Sure. Yeah.
+4:38 >> 100%. What's the next reason?
+4:40 >> Yeah. So, the next point is that it's
+4:42 not a website. And this kind of bleeds
+4:43 into what we were talking about. A lot
+4:45 of the other competitors in the space
+4:47 are web- based and that's actually more
+4:49 limiting than you might think as in they
+4:51 kind of only really optimize to allow
+4:53 you to build websites and that's kind of
+4:56 a very interesting caveat. Although
+4:57 websites are the most common, you know,
+4:59 form of software, Cursor actually allows
+5:01 you to build basically whatever you want
+5:04 because it's an application that lives
+5:06 on your laptop, which means you could
+5:08 use it to build mobile apps. You could
+5:10 use it to build indie games. You could
+5:11 use it to build landing pages, websites,
+5:13 anything else that everyone else lets
+5:14 you build. But it also gives you the
+5:16 control to build anything else. Like you
+5:18 could build your own embedded systems,
+5:19 which means you could program your own
+5:21 keyboard if you wanted to. Like it goes
+5:23 like all it covers the full range of
+5:25 what code can do.
+5:26 >> Yeah. And the way that I the way that I
+5:28 understand it, right, if you look at a
+5:29 popular tool like Replet, Replet is a
+5:32 website, right? As you said, it it is a
+5:34 a website that you go to and the code is
+5:37 stored on Replet's server, right? It is
+5:40 on their servers. Whereas cursor, right,
+5:42 with cursor, your code is on your
+5:45 computer. Um, you can basically create
+5:48 literally anything with cursor.
+5:50 >> Yeah. Whatever exists as code, cursor
+5:52 can help you with. That is something
+5:54 unique only to cursor actually. And
+5:56 obviously you can use VS Code and
+5:58 actually learn how to code but this is a
+5:59 V coding tutorial. Did you know that the
+6:01 next generation spends about 90% of
+6:03 their mobile internet time using mobile
+6:05 apps, not websites? That's why you
+6:07 should learn how to build mobile apps
+6:08 without writing a single line of code.
+6:10 Well, the most powerful tool in the
+6:11 world to build mobile apps is the Vibe
+6:13 Code app. And you can use it directly on
+6:15 your phone and ship it to the app store.
+6:17 No coding required. Just describe what
+6:19 you want to build in plain English and
+6:21 watch the Vibe Code app generate a fully
+6:24 functional app in minutes. Vibe Code
+6:26 even uses Claude Code as its default
+6:28 model. Whether you want to build a
+6:30 custom productivity app, a social
+6:31 platform, a habit tracker, your idea
+6:33 becomes a reality faster than you ever
+6:36 thought possible. And you don't even
+6:37 need a computer. You can test it
+6:39 instantly on your phone and refine it
+6:41 with simple prompts. And when you're
+6:43 ready, you can literally send your app
+6:45 to the App Store. Download Vibe Code
+6:47 today and turn your app idea into
+6:49 reality in minutes, not months. And
+6:52 Riley briefly touched on this, but point
+6:53 number three is that it is local. It's
+6:56 an app that exists on your computer. And
+6:58 this changes a lot of things. You know,
+7:00 you don't need to ask Repid or lovable
+7:02 for the code. It exists on your
+7:04 computer. And similarly, you can drag
+7:06 and drop files. You can interact it
+7:07 with, you know, your desktop view. It's
+7:09 definitely more in your control. and
+7:11 everything just exists locally, which
+7:13 makes developing and streamlining things
+7:16 like down the line amazing.
+7:17 >> Mhm. Yeah. They just don't baby you in
+7:20 the same way that um tools that aren't
+7:22 local do. But like again, that's why
+7:25 we're taking this course. If you just
+7:26 learn those few things, you don't need
+7:27 to be babyed. You can create a GitHub
+7:30 repo and and save your code and then you
+7:32 can easily transfer it to any other uh
+7:34 coding.
+7:34 >> Exact. That's exactly why, you know, if
+7:36 you learn cursor, you can learn anything
+7:37 else and pick it up super easily. like
+7:39 this is the Photoshop of you know code
+7:41 writing
+7:42 >> 100%.
+7:43 >> Yeah. So number four obviously is that
+7:45 cursor is the most established player in
+7:47 the Vive coding space. They've been
+7:48 around. I've been using it for like
+7:50 years now and you can't really say that
+7:51 about a lot of other Vive coding tools
+7:53 and this means they have a large
+7:55 community and I previously touched on
+7:57 this before. A lot of engineers such as
+7:58 myself actually use it to write code.
+8:00 They're fully professional and it
+8:02 exposes you to all the you know
+8:04 extensions that you can get with VS
+8:06 Code. the community that you find
+8:08 general community that you find like
+8:10 regarding any code snippets you can
+8:11 technically take and apply to using with
+8:13 cursor meanwhile you know if you're
+8:15 stuck in like replet's ecosystem for
+8:18 example you might have to ask some
+8:19 replet specific questions and go through
+8:21 their forums like I could just use
+8:22 Google and I could take what I learned
+8:23 from there and put it into like
+8:25 >> and on top of this a lot of the
+8:27 professional developers are using
+8:29 extensions for cloud code for codeex and
+8:31 Gemini CLI which are like known as being
+8:34 the best coding models in the world and
+8:35 will probably continue to be the best
+8:37 coding models in the world. You can just
+8:38 plug them into cursor.
+8:39 >> Yeah. Yeah. Of course. And definitely
+8:41 like the VS Code extensions that as I
+8:43 mentioned earlier, cursor is kind of VS
+8:45 Code's cousin. It can use all of the
+8:48 benefits that you get from VS Code which
+8:50 is absolutely huge. I don't want to
+8:51 downplay this at all.
+8:52 >> Amazing.
+8:53 >> And so number five is obviously very
+8:55 recently cursor released agent 2.0 I
+8:58 know and it is a very big game changer
+9:00 especially for vibe coders and I think
+9:03 for people getting started especially it
+9:05 takes a large chunk and kind of
+9:07 inspiration from chat GPT's chatbased
+9:10 interface and cursor has always had kind
+9:12 of like a chatbased element to it but
+9:14 this new UI kind of is built for people
+9:17 to begin with and kind of get their feet
+9:19 wet and start building immediately. So
+9:21 it's they're taking a step into the
+9:22 direction of babying you, but also still
+9:24 exposing to you all of the like powerful
+9:26 features behind it. And I think at this
+9:28 point in time, Cursor 2.0 is actually
+9:31 probably the most heavyweight like AI
+9:34 like
+9:34 >> coding agent
+9:35 >> coding platform. Like it can use agents
+9:39 multiple concurrently. That is, you
+9:41 know, just so powerful.
+9:42 >> 100%. You still have everything that we
+9:44 just talked about like all of the power
+9:46 of cursor but it has this nice little
+9:48 layer on top that makes it almost feel a
+9:50 little bit like chat GBT which is nice
+9:52 which is with the VS code uh with the
+9:54 extensions that we'll talk about later
+9:56 they're going in the same direction
+9:57 where it's clawed code but it no longer
+9:59 looks messy it's nice and easy to use.
+10:01 >> Yeah. Yeah. So it is kind of like you
+10:03 know with code you get really down to
+10:04 the low levels things get scary you're
+10:06 looking at like squiggly lines and small
+10:08 text you know VS Code does a great job
+10:10 of oh V code and cursor do a great job
+10:13 of packaging it in a friendly way and
+10:15 cursor takes it one step further adding
+10:17 a bunch of AI capabilities
+10:18 >> amazing all right well I now know what
+10:21 cursor is I know why I want to use it
+10:23 well let's let's use it
+10:25 >> yeah let's hop right in so this wouldn't
+10:27 be a full in detailed guide without me
+10:29 showing you guys the basics of how to
+10:31 download cursor. So, I think you can
+10:33 just go straight to cursor.com. And
+10:36 here, you know, it automatically tells
+10:38 me that I'm on Mac. I'll just download
+10:40 for Mac OS.
+10:41 >> You can also download it for Windows.
+10:42 >> Yep. I am installing this right now live
+10:45 for, you know, the sake of the video.
+10:47 And I will be opening the cursor
+10:49 download.
+10:50 >> It's probably been a while since you've
+10:51 downloaded Cursor.
+10:52 >> Yeah. Well, as soon as I can. There we
+10:54 go. So, now, you know, drag it into the
+10:56 applications. And we should be able to
+10:59 just open Cursor. There you go. Simple
+11:01 as that. We now have cursor. This is
+11:03 probably what your cursor will look
+11:05 like. I've used VS Code, so it probably
+11:06 pulled some things over, but this is uh
+11:10 you know, if you download it for the
+11:11 first time, you open it, this is
+11:12 probably something what you look like. I
+11:14 have some projects that I've been
+11:15 working on. You might not, but that
+11:16 should be the only difference.
+11:17 >> This right here is kind of the biggest
+11:19 difference between other vibe coding
+11:21 tools and cursor. It's like cursor
+11:23 doesn't have a text input field that
+11:25 says, "What do you want to build?"
+11:26 >> Yeah.
+11:27 >> Right. Which makes it scary.
+11:29 >> Yeah. I I think first of all they should
+11:31 probably just add that but second of all
+11:33 um yeah talk us through what these
+11:36 things mean and like what it means to
+11:38 create a project.
+11:38 >> Yeah, of course. So to kind of break it
+11:41 down a little bit further, a project is
+11:42 basically just where the code lives and
+11:45 the code lives obviously in a file and
+11:47 the files live in a folder. And so think
+11:50 about this as something very similar to
+11:51 like navigating your finders, right?
+11:53 Like you have desktops and then you can
+11:55 have folders here, right? For example, I
+11:57 can just open this folder right now in
+11:58 cursor. I could call this, you know,
+12:00 rename this as like uh let's see, cursor
+12:03 video. And I can go ahead and open this
+12:06 folder. And for this video sake, it will
+12:08 serve as a project. So I can just go
+12:10 straight into desktop, find cursor
+12:12 video, and open it. And so this brings
+12:14 you to project view. We're currently in
+12:17 editor, which I like to call cursor 1.0
+12:19 because this is cursor 2.0. But, you
+12:21 know, this is what I meant by you get to
+12:23 build the foundations really, really
+12:24 solid from the bottom up.
+12:26 >> I think I think it's important to note
+12:27 notice how he created an empty folder,
+12:30 right? He created an empty folder and
+12:32 that's basically how most cursor
+12:33 projects start if you don't if you start
+12:36 from blank is it's an empty folder. And
+12:38 you can tell because on the left side
+12:39 there there's no files, right? We're in
+12:41 a folder, which people call a directory
+12:44 in coding language, I guess.
+12:46 >> Yeah, folders and directory
+12:47 interchangeable. Often times you'll hear
+12:49 one or the other. uh they mean the same
+12:51 thing and this is what I meant by like
+12:52 this is by the books the same way as all
+12:55 code projects are created. You make a
+12:56 folder and you name it something and
+12:58 you're like all right this folder is
+12:59 going to have everything related to you
+13:01 know this project.
+13:02 >> Amazing. And so let's create a file.
+13:04 >> Yeah, of course. There are three main
+13:07 parts of cursor editor. On the left you
+13:09 have where your folder kind of is broken
+13:11 down into files if you have any files.
+13:13 This is the middle where normally it'll
+13:14 show you what's in the file. This is the
+13:16 right which is where the AI kind of gets
+13:18 to work. So, you know, there's two ways
+13:19 to make a file. I can just go ahead, you
+13:21 know, click new file. This actually will
+13:23 tell you to make a new file. And I can
+13:25 make this example. py. And so, you'll
+13:27 notice immediately that most the files
+13:30 contain a dot and then a following
+13:32 section. And that normally labels what
+13:34 type of file this is. So, py stands for
+13:36 python file. If I click enter, it's
+13:38 literally an empty file. Similarly, you
+13:41 can do things like text.txt. txt
+13:44 obviously stands for text extension. And
+13:46 to jump a little bit into the AI, I can
+13:48 tell it write me a poem and put it into
+13:52 poem.mmarkdown.
+13:53 And MD stands for markdown, which is
+13:55 just, you know, a different way to
+13:57 render text.
+13:58 >> And if he had already created an empty
+14:00 poem.md file, it would have added it to
+14:02 the existing one. But since he hadn't
+14:04 added it, it created a new file you see
+14:05 on the left called poem. MD.
+14:08 >> Yeah. And so that's one of the amazing
+14:09 parts of cursor. It can go ahead and
+14:11 create things for you and edit things.
+14:12 So if I said like write me a shorter one
+14:15 in text.txt, right? It will go ahead and
+14:18 put a shorter poem into the file that
+14:20 I've already created. So now it just
+14:22 wrote me like a fourline poem. Perfect.
+14:24 You know about coding. Makes sense. And
+14:26 so this we kind of just wanted to give
+14:28 you guys a view of what files are. Very
+14:31 basic. You can put text in files. You
+14:33 could put files in folders.
+14:34 >> Amazing. What did you use over there on
+14:36 the right actually?
+14:37 >> Yeah. So this is their AI feature. It's
+14:38 their agent. And so the agent in
+14:41 technical terms kind of just means it's
+14:43 the same thing as AI, but they built a
+14:45 few things on top of AI to make it work
+14:48 a little bit better as you would want it
+14:50 to. So, you know, if you ask chat GPT,
+14:52 make me a file, it's going to be like, I
+14:54 can't really do that. But the agent is
+14:56 given tools that allow it to create
+14:58 files, edit files, and do all the things
+14:59 that we really need it to do to write
+15:01 code. And so I just showed a few
+15:03 capabilities like creating a new file,
+15:05 editing a file, and it kind of elevates
+15:08 what AI can do. And so this elevated AI
+15:10 we call agents. I could actually demo it
+15:13 writing code right now. So we've only
+15:15 just told it to wrote a few like poems
+15:17 and some text. I could say, make me a
+15:20 simple game in example. py where I guess
+15:25 the number. And so this will probably
+15:27 take it like five seconds. It's a really
+15:29 short game where you're just, you know,
+15:31 guessing the number, but it is it I just
+15:33 want to highlight that it exists as
+15:34 code. It's really simple and we'll be
+15:36 working up from here, but now we have a
+15:39 file. You might not exactly know what to
+15:41 do with the file. So, the best part
+15:43 about cursor is if you truly have a
+15:44 growth mindset and you're trying to
+15:46 learn how this works, I can just ask it,
+15:48 how do I play the game? And it will tell
+15:50 me. And so, we've been kind of skimming
+15:52 over what is going on. Basically, you
+15:54 know, it'll also reply to you. It said
+15:56 like, I created a poem. I've been
+15:57 skipping over that because it just tells
+15:59 you what I It just kind of echoes back
+16:01 what I asked it to do. But now it'll be
+16:03 saying things like, "Okay, I'll run a
+16:05 game from your terminal." This is
+16:06 interesting. It's currently running the
+16:09 game. And so this is interesting because
+16:11 play in your terminal. It'll tell you
+16:12 play in your terminal, open a terminal,
+16:14 navigate to your project directory, and
+16:16 run the game. So now it's giving me
+16:17 instructions to use this file of code
+16:19 that it just wrote for me. And so a
+16:22 terminal is basically a way for you to
+16:23 interact with your computer. And to
+16:25 interact with a computer, it can execute
+16:27 code and there's no, you know, play
+16:29 button that allows you to just run this
+16:31 file, which is why it is a little less
+16:33 friendly than like replet or like uh
+16:36 other tools, but we can learn it with
+16:38 strong fundamentals on how to start from
+16:41 scratch. Open your terminal. If you
+16:43 don't know, there's a terminal thing up
+16:44 here. You can do a terminal. There's
+16:46 also a shortcut for it. Pretty nice. But
+16:48 it tells me to hop in here. I'm already
+16:50 in here, but we'll copy it anyways just
+16:52 to show you that this AI is not lying.
+16:54 And so I would just be running this.
+16:55 >> So and by running this you're copying
+16:57 that little string and pressing enter in
+17:00 the terminal.
+17:01 >> Yeah.
+17:01 >> Okay. And that's what it means to run.
+17:03 Yeah. That's what it means to run is you
+17:04 take the string. You can type things
+17:06 into this terminal, right? And this
+17:08 terminal here is identical to the
+17:11 terminal that you you may have seen on
+17:13 your computer if you were to just type
+17:14 in spotlight terminal. Yeah. Open up a
+17:16 terminal. For those of you who are
+17:18 completely untechical, you know, two
+17:20 years ago, the terminal was scary. If I
+17:22 was ever reading instructions for
+17:24 anything and it said to open your
+17:26 terminal, I'm like, I'm out. I I'll pay
+17:28 money to not have to do this.
+17:29 >> Yeah.
+17:30 >> But after, you know, learning how to use
+17:33 cursor. It's actually kind of fun to
+17:34 open the terminal.
+17:34 >> Yeah. You know, you feel like a hacker.
+17:36 You feel like, you know, you know what
+17:38 coding is, this is where strong
+17:39 fundamentals truly kick in.
+17:41 >> But the important thing is that is
+17:43 identical to the terminal that you
+17:45 opened up, right? Like it is. Yeah, it's
+17:47 the same exact thing.
+17:48 >> And I, you know, thanks for slowing me
+17:50 down. I was going a little fast. Uh, I
+17:51 can actually break this down a little
+17:53 more. This tells you to navigate to the
+17:55 project directory. I basically paste it
+17:57 in and I click enter. And now it'll tell
+17:59 me, you know, in the beginning it will
+18:01 show you what directory you're in. So
+18:02 this means I'm in the home. This means
+18:04 I'm in the cursor video folder which you
+18:06 saw me create actually. And this is how
+18:08 I run the game. It says run the game.
+18:10 And I'll just copy this. I'll paste it
+18:12 in. And once again, as you can see,
+18:13 these two are the exact same. And we can
+18:15 play a number game.
+18:16 >> And so now we're playing a game within
+18:18 the terminal.
+18:18 >> Yeah. all within like you know 3 minutes
+18:20 right
+18:21 >> so obviously this game only I can
+18:23 interact with text but that's why it
+18:24 took so little time to like
+18:26 >> guess guess a number
+18:28 >> yeah you know like uh 67 too low okay we
+18:32 can do some quick maths 80 too low okay
+18:35 90 95 92 93 94 okay perfect so yeah that
+18:42 was kind of like it does work it did
+18:44 like tell me that I got it right and the
+18:46 temps do increment up so you know pretty
+18:48 simple little program. This is the first
+18:50 thing that you can create. Not as useful
+18:53 as some things that we will be building
+18:54 later today, but great way to get
+18:56 started and introduced a lot of things
+18:58 like the terminal files, different types
+19:01 of files and now we know where code
+19:03 lives. So really great start to setting
+19:05 a strong foundation.
+19:06 >> 100%. That was super super interesting.
+19:09 What do we want to hop to next? So yeah,
+19:11 now that we have a very basic from the
+19:13 bottom up, I'd like to also show you
+19:15 guys a little bit more of a repo that I
+19:17 actually was working in really recently.
+19:19 And so I can go ahead and create a new
+19:21 window. I can show you that this was a
+19:23 project I was working on. And this is
+19:25 what kind of like a project would look
+19:26 like after it exists. And it looks a
+19:30 little scary, but that's why I kind of
+19:31 want to take the time to break it down
+19:33 for you guys. As you can see here, this
+19:35 is the main folder. It's glass AI chat.
+19:38 Check out the last video. me and Riley
+19:40 made. It gets pretty big. And all of
+19:43 these are folders within a folder. So
+19:45 these are folders and they have more
+19:47 files in them. And these are folders
+19:49 that can have folders inside of them.
+19:51 And so these directories, they make a
+19:53 really big nested thing. And you'll
+19:55 notice that there are a lot of different
+19:57 types of files, right? You know, we got
+19:59 the config.js, we got thets, the CSS.
+20:03 And all of these once again just mean
+20:04 that you know the different coding
+20:05 languages. So what exists in here is
+20:07 JavaScript. In the previous example, we
+20:09 were using Python. You can really
+20:11 quickly tell by the ending extension and
+20:13 also VS Code will go ahead and give you
+20:15 a little icon to make it even easier.
+20:18 And I did want to highlight a little bit
+20:19 about how like common patterns you might
+20:22 see when you explore larger repos,
+20:24 especially since we're going to be
+20:25 telling AI to write these things and
+20:27 it'll probably look something similar to
+20:29 this later in the video. And so you're
+20:31 going to see something like backend
+20:33 assets source source. I just wanted to
+20:36 briefly touch on a little bit of coding
+20:38 principles where normally there is a
+20:40 front end and front end is in this case
+20:42 source and it will contain components
+20:45 and it'll be the things that you kind of
+20:46 see. So if we look at cursor itself
+20:49 everything that you can see and click on
+20:51 it's a component. This is the front end.
+20:53 It's the thing that you view and
+20:54 interact with. And then the back end is
+20:57 basically everything that you don't
+20:59 necessarily see. So for example
+21:01 obviously cursor has a bunch of data I
+21:03 can use AI. These are all features. This
+21:05 is just what it looks like. I can say hi
+21:07 and it's saying hi back to me is using
+21:10 the back end. And all that code belongs
+21:12 in its own folder. And so that's kind of
+21:14 the breakdown of larger folders and
+21:17 directory structures. I just wanted to
+21:19 really quickly talk about that a little
+21:20 before we dive in deeper. So it's not
+21:22 too scary once we start progressing
+21:24 because we do progress really quickly
+21:25 with cursor.
+21:26 >> Yes. And we're going to build a really
+21:27 cool app in the next section. And as
+21:30 you'll see, we're going to do we're
+21:31 going to be using AI to write all the
+21:33 code. So, as you said, it moves fast,
+21:35 but um stay patient. It'll all make
+21:38 sense, especially as we get closer to
+21:40 actually building and using the app that
+21:42 we create.
+21:42 >> Yeah. Yeah. So, I guess next we'll go
+21:45 ahead and do something that a lot of
+21:46 people love to use AI for. We're going
+21:49 to go ahead and make a little quick
+21:50 landing page. And I want to resume right
+21:52 where we dropped off. I was showing you
+21:54 guys this. We're going to go to cursor
+21:56 2.0, which is agents. But currently,
+21:58 this is working on the project that I
+21:59 was just, you know, showcasing. So, I
+22:01 don't want that. if you want to open a
+22:03 new one. New window. I'm trying to find
+22:05 new window. Oh, right here. So, this
+22:06 kind of brings you back to the original
+22:08 landing page that we were on. And I can
+22:10 go ahead and Well, I'll put it in the
+22:13 cursor video. Yeah. So, in here, I'll go
+22:15 ahead and delete these files. So, so now
+22:19 I want to show you guys we're in a empty
+22:21 folder now. And up here on the top left
+22:24 is kind of how you switch between cursor
+22:25 1.0 and cursor 2 aka editor and agents.
+22:28 We're going to be using cursor 2.0. And
+22:30 you know, this is the old chat. I was
+22:32 asking it to write a poem. I'm going to
+22:33 create a new chat. And I'm going to go
+22:35 ahead and say, do some research on the
+22:39 company vibe code and create me a
+22:43 landing page. Run this landing page
+22:46 locally when you are done. So, I'm going
+22:49 to go ahead. Oh, I want to introduce
+22:50 these features. Composer 1 is a model
+22:52 that cursor themselves have released.
+22:55 And here I can pick which model I want
+22:57 to use. I will go ahead and use sonnet
+22:59 4.5. I like it the best and we'll
+23:02 explain and break down all of these
+23:04 little, you know, widgets and things in
+23:06 this chat. But actually, this is what I
+23:08 meant by like cursor is taking a step
+23:09 towards being a lot more beginner
+23:11 friendly. This is basically, you know,
+23:13 asking it to build something that you
+23:15 want. So, we're going to go ahead and
+23:17 ask it to build this. So, let's talk
+23:18 about this for a second. So, you just
+23:20 entered a prompt. You said, "Do some
+23:21 research on the company vibe code,"
+23:22 which implies that it's going to do
+23:24 research, which is pretty cool. So the
+23:27 web agent has the power to use tools.
+23:30 One of those tools is searching the the
+23:32 internet. And if you give it a hard
+23:34 question and you tell it to search the
+23:35 internet for a while, it'll search like
+23:37 10 pages sometimes or it can read an
+23:39 entire documentation page. And you can
+23:41 see here it's done research. Now it is
+23:45 generating the code.
+23:46 >> Yep.
+23:47 >> And then it's going to run it locally.
+23:49 You want to double tap on that a little
+23:51 bit. Running it locally. What does that
+23:52 fully mean?
+23:53 >> Oh yeah, running it locally. Of course.
+23:55 Thanks. Thanks for reminding me. So, as
+23:57 I mentioned before, cursor is great
+23:58 because it is local. All these files
+24:00 exist on my local computer. I can after
+24:03 this pull it up in Finder. And running
+24:05 it in local basically means that I'm
+24:07 going to execute these files on my
+24:09 computer. And what this means, if you
+24:11 guys want to get a little more technical
+24:12 is that most of the websites that you
+24:14 visit are files just like the ones being
+24:16 written right now run on a server. And
+24:19 the there's no difference between a
+24:20 server and a computer. They're the same
+24:21 thing. So somewhere out in South
+24:24 California or or North California or you
+24:26 know the East Coast, there's a bunch of
+24:28 computers running a bunch of code and I
+24:30 obviously don't like need to rent a
+24:32 computer. I'm going to just run it on
+24:33 mine. So that's what I mean by like I'm
+24:35 going to run this locally.
+24:36 >> And it speeds up development process by
+24:39 a lot
+24:39 >> and it's super easy to use because it'll
+24:41 give you a little address that you paste
+24:43 into your web browser like you know if
+24:45 you use Google Chrome it'll work and
+24:46 it'll just open it up right there.
+24:48 >> Yeah.
+24:49 >> Which is nice. So, it's writing some
+24:51 code. I've built a beautiful modern
+24:53 landing page. And so, now it's running
+24:55 the command to run it locally. Let me
+24:56 run it locally for you. Excellent. What
+24:58 I've created. So, running it locally.
+25:00 Once again, we haven't been doing a good
+25:01 job of reading it. It gives you a
+25:03 rundown on what it's created and it
+25:04 tells you that it is now running
+25:06 locally, which means my computer has it
+25:08 and I can access it here.
+25:10 >> So, you copy that address, go to your
+25:12 browser.
+25:13 >> So, let's see. I can go and paste in the
+25:15 address that cursor gave me.
+25:18 >> Sometimes that happens. You know, I have
+25:19 a good idea why, but let's let's learn
+25:22 and ask it. This doesn't show anything.
+25:26 >> This is great.
+25:27 >> Help.
+25:27 >> This is great. And this is one of the
+25:29 one of the pros to using some of those
+25:31 other tools is like it kind of just
+25:33 naturally does this. But again, this
+25:36 this is something that happens every
+25:37 once in a while and you just ask it why
+25:39 it's the case and then it will likely
+25:40 just fix it. I think the best part is
+25:43 actually to highlight that a lot of the
+25:45 other tools will naturally make it work
+25:47 for you, but when it doesn't work, you
+25:49 have no community support. Asking the
+25:52 website or the tool itself is going to
+25:54 lead to varying results because
+25:56 something broke and you don't have as
+25:58 much control of it and it also doesn't
+26:00 have as much control in the system
+26:02 because it's not your system, it's the
+26:04 company's system or whatever product
+26:05 you're using system. So now that
+26:07 everything's kind of in my hand, I can
+26:09 truly just ask it like why and it can
+26:11 tell me and I can take why and make it
+26:14 work, which isn't necessarily true for a
+26:16 lot of other tools, but it'll ask you
+26:18 permission every once in a while to run
+26:20 some things. And I see it's trying to
+26:21 run the server right now on my computer
+26:23 so that I can see it. It's just verified
+26:25 that the web page is running. And it
+26:27 once again tells me to access it at
+26:28 localhost 8000. So, oh, right here.
+26:32 Perfect.
+26:32 >> Amazing. And so, ooh, that nice little
+26:35 like fade when you scroll.
+26:36 >> Good animation. Yeah, honestly, very
+26:39 cool. We like to joke that this is AI's
+26:41 favorite colors theme. Like blue,
+26:43 purple, like Yeah, everywhere AI makes
+26:46 it. We'll actually get into this later.
+26:48 We'll make a rule that says don't use
+26:50 this color. I do want to point out that
+26:52 it did like scroll up for a sec. Like we
+26:54 just released pinch to build um which is
+26:56 the new feature of the vibe code app.
+26:58 And so, uh, it found that on the
+27:01 internet and then included it in the
+27:03 landing page. So, it makes it super easy
+27:05 to create quick landing pages. Um, which
+27:07 is really great.
+27:08 >> Yeah, you know, I'm I'm reading these
+27:09 and everything is real. So, it did pull
+27:12 a lot of useful things from the internet
+27:13 and it did write us code for a landing
+27:15 page. Obviously, we can continue
+27:17 iterating and we can deploy it later
+27:19 too, but just wanted to show that, you
+27:21 know, we've unlocked the box that we can
+27:24 t talk to and be like, ask it to build
+27:26 things. So, this was a little bit of a
+27:28 sneak peek into what cursor can do, some
+27:30 of the basics. We're going to go and
+27:32 dive in a little bit deeper, uh, and go
+27:35 and actually build an MVP of a product
+27:37 that is a little more complicated than a
+27:38 landing page, and we're going to
+27:39 continue iterating it as I show you guys
+27:41 the full feature set of Cursor 2.0. So,
+27:44 I guess to reiterate, to reiterate here,
+27:46 we we've talked about what Cursor is.
+27:48 Then, we went over all the basics,
+27:50 right? We talked about all of the things
+27:51 that you need to get started. We
+27:52 downloaded it. Now, we're going to build
+27:54 something that you can actually put on
+27:56 the internet that is an app that has
+27:59 utility that you can use either for
+28:01 entertainment or for work, etc. Is that
+28:04 right?
+28:04 >> Yeah. Yeah. Basically, the, you know,
+28:06 landing page, I feel like it's a it's
+28:08 been beaten a lot of times already. You
+28:10 know, a lot of people claim that they do
+28:11 it, you know, it's a it's kind of
+28:13 boring. Let's build something that's,
+28:14 you know, fun and useful.
+28:15 >> I like it.
+28:16 >> A little more complicated as well.
+28:17 >> I love it. And then we're going to learn
+28:19 in this process, we're going to learn
+28:20 cursor 2.0, which are their like brand
+28:22 new features. Yeah, amazing. So, back
+28:24 here, I am going to go ahead and switch
+28:27 back to the editor because I want to see
+28:29 what is in the directory. These are the
+28:30 files that it just wrote me. Once again,
+28:32 I'm going to just clean up all these
+28:33 things because I want to use this to
+28:36 create a meme generator. That's what I'm
+28:38 going to be working on. So, you know,
+28:40 these chats closed. I don't, you know,
+28:43 we're not writing poems or making a
+28:45 landing page. We're going to make a meme
+28:46 generator. So, first thing I want to
+28:48 talk about, there are three modes. You
+28:50 can actually use shift tab to switch
+28:51 through them. pretty nice. All of them
+28:53 are very useful. In the previous
+28:55 example, I was asking it questions. If I
+28:58 purely wanted it to answer and not run
+29:01 the code for me and edit files, I can
+29:03 use ask mode kind of for that's what I
+29:05 mean by like it is a great product for
+29:07 you to learn and upskill alongside of
+29:09 it. Agent obviously is what we were
+29:10 using. It has full control over all the
+29:12 tools. It can write things. It can edit
+29:14 things. It can you know run the server
+29:16 on your computer.
+29:17 >> But if you also ask it, if you say like
+29:19 don't write any code, just tell me blah
+29:21 blah blah. It'll still just answer you
+29:22 and it won't actually create any code.
+29:24 >> Yeah. And then plan mode also we we can
+29:27 use this now actually. So we'll go ahead
+29:29 and try composer 1.0 cursor's new model.
+29:32 And we're going to say I want to create
+29:36 a meme generator. Can you make me one? I
+29:41 want there to be able to select an image
+29:46 as a template and put text onto the
+29:49 image. Afterwards, I should be able to
+29:53 download the meme. Uh, allow users to
+29:57 resize the text and the text should be
+30:01 white with a black border. Pretty basic.
+30:05 Clicking enter and it's going to plan.
+30:08 This means it will not actually write
+30:09 any code or create any files for me. And
+30:12 one key thing about plan is that it will
+30:14 ask you a lot of questions. So, that's
+30:17 actually really good because I did skip
+30:18 over a lot of these things such as
+30:20 technology preference, text positioning,
+30:22 and additional features. If I had no
+30:25 idea what this meant, I could ask it.
+30:28 Please break down options for question
+30:31 one. And so, it'll go ahead and tell me.
+30:33 And I could have used ask mode as well.
+30:36 I think basically the point is you can
+30:38 ask it questions and it will answer it
+30:39 really well. So, it's recommend. It
+30:42 gives me like a little bit of details
+30:44 about React and Vite or Vite and vanilla
+30:48 and Vue and other. It's recommending
+30:50 that I use React or vanilla JavaScript.
+30:52 I'm just going to say go with vanilla.
+30:56 And I'm going to answer the additional
+30:58 questions. Unlimited text boxes. I want
+31:01 unlimited text boxes. So question two is
+31:03 B. And additional features. Question
+31:07 three is A and B. So perfect. It did
+31:12 catch a few things that I forgot to
+31:13 specify, which is really good. I
+31:15 definitely winged this prompt. You might
+31:16 want to do some prompt engineering, but
+31:18 if you're too lazy to do that, go ahead
+31:19 and try the plant mode. So perfect. Now,
+31:21 I've kind of filled in all the blanks
+31:23 for it, and it'll generate me a plan.
+31:24 And this plan exists as a markdown file,
+31:27 which we kind of briefly mentioned
+31:29 earlier. It's a better way to cleanly
+31:30 display text. And it actually exists as
+31:33 a file. So, oh, maybe not.
+31:35 >> I don't think it's added it yet. Maybe
+31:36 it just created it. Or you have to hit
+31:38 build.
+31:39 >> Yeah. Well, it has a temporary file.
+31:41 This is a file that kind of walks you
+31:44 through its plan to create a meme
+31:46 generator. And so it'll tell you things
+31:48 like single page web application. And
+31:50 this is great to kind of jam with
+31:52 cursor. So I can go to ask and continue
+31:54 asking questions about the plan being
+31:56 like, oh, like tell me about like what
+31:58 script.js is for and it'll answer my
+32:00 questions.
+32:01 >> Amazing.
+32:02 >> Yeah. And so obviously you can go as
+32:04 detailed as you want, ping pong back and
+32:05 forth. And uh basically when you're
+32:08 ready and you're happy with the plan and
+32:09 you kind of understand what's going on,
+32:11 you can go ahead and click build and it
+32:13 will go ahead and start printing code.
+32:16 And so one thing I really like about
+32:17 Composer 1 is that it is insanely fast.
+32:20 It is a lot more fast. [laughter]
+32:22 >> It is so much faster than Sonnet 4.5 and
+32:25 GPT's models. And that's one of the main
+32:28 reasons to use it. I do think, you know,
+32:30 on their internal benchmarks, it
+32:31 outperforms them. I think there's a lot
+32:33 of jokes being made about internal
+32:35 benchmarks not meaning anything. So for
+32:37 the more heavy lifting, I actually still
+32:38 prefer using Sonnet 4.5 as my go-to. But
+32:42 you know, for example like this done
+32:44 already. Amazing. So we'll go ahead. If
+32:46 you click on these three, like click on
+32:48 this thing, you can kind of see the
+32:49 files. Uh if you want to read over some
+32:51 code and like get a grip of like what is
+32:53 going on. Similarly, we can kind of see
+32:55 that these three files now do exist in
+32:57 the directory. And I'm going just go up
+32:59 to trust cursor and keep all. So, one
+33:02 thing I actually didn't realize that
+33:04 plan MD file that wasn't in the
+33:06 codebase. They created that as like a
+33:08 little temporary file that the agent has
+33:10 access to kind of.
+33:11 >> Yeah. Yeah.
+33:11 >> Oh, okay. Very interesting.
+33:13 >> Yeah,
+33:13 >> that's pretty cool.
+33:14 >> Yeah, this plan is fed into context when
+33:17 you click build and it will operate with
+33:19 this plan in mind. Also, another nice
+33:22 tip and trick, you can actually edit
+33:24 these things and it will be fed into the
+33:26 agent. So, I could say like function to
+33:28 redraw the entire canvas. Honestly, I
+33:30 should have read the plan a little bit
+33:31 more cuz I have no idea what this is.
+33:34 But I could have said like, you know, I
+33:35 want text to be I want the default I
+33:39 want default color to be blue and it
+33:41 will actually build it when I click
+33:43 build. So, I forgot to mention that and
+33:45 showcase that, but that is a really nice
+33:47 feature that allows you to kind of both
+33:49 view the text in a nicely displayed way,
+33:51 but also modify it and feed it real
+33:53 time. So, you know, while you're asking
+33:55 questions about the plan, you can, you
+33:57 know, find out that you don't like you
+33:59 want to change something about the plan.
+34:00 And it is really annoying sometimes to
+34:02 regenerate the plan over and over again
+34:04 cuz the AI has to spit the whole plan
+34:06 out again. But you can just edit it in
+34:08 line here. So, that's a really nice
+34:10 feature by cursor. Continuing on though,
+34:12 apparently we have a meme generator. I
+34:13 really want to play with it. So, I'm
+34:15 going just go and ask it, can you run
+34:17 this locally for me? Going to close the
+34:19 plan now. And these are the files. The
+34:21 same way that you ran the landing page,
+34:23 you now want this meme generator that
+34:25 you created and planned with AI. You
+34:28 want this to run on your computer.
+34:29 >> Yes, exactly. And you know, it's asking
+34:33 for permissions again. If this gets
+34:34 annoying, you can go ahead and allow.
+34:37 This way, next time it won't ask again.
+34:39 So, that'll be good for when we continue
+34:41 working and asking it to run things
+34:43 locally. But now, great. We have a meme
+34:45 generator.
+34:46 >> And look at what color it is again.
+34:48 >> Oh, it's AI's favorite color. Now, I
+34:51 actually did go ahead and uh collect
+34:54 some memes while I was running through
+34:56 this. So, meme run through. There are
+34:59 some memes and public. No, wait. What?
+35:03 Where am I? Yes, there we go. Uh, sure.
+35:06 Great. Text. Oh, what? Enter text here.
+35:10 Uh, WD. Add text. Okay. WD or arrow
+35:15 keys. Amazing. So, we have our first
+35:17 meme generator. Let's see. Oh, both the
+35:20 text I see we found an error. WD was
+35:23 rewritten. Oh, what? Hm. That was weird.
+35:26 I'm not sure if I did something wrong or
+35:27 the code is broken. Either way, let's
+35:29 see if I can download it. Oh, well,
+35:32 let's see. We do have the meme now.
+35:33 >> You can download it. Um, and and it's
+35:35 good. So, this is a fun thing. Like, he
+35:37 created a project on cursor. He ran it
+35:40 locally and now he's testing it locally.
+35:42 And like while you're using it, you
+35:44 should just keep track of the things you
+35:45 want to change about it. Right? The
+35:46 first thing that I notice is you notice
+35:48 that the contrast is not very good. Like
+35:50 it's white on that white background. We
+35:52 should definitely be able to change the
+35:53 color of the text. You know, that's one
+35:55 thing that I would like to fix.
+35:56 >> Yeah.
+35:56 >> Along with the background.
+35:58 >> For sure. For sure. The background is
+36:00 heinous. Absolutely. So sick of this
+36:02 color. As I agree with Riley, the
+36:04 bordering on the, you know, white text
+36:07 is not very well. Normally on the memes
+36:09 that you read, they got the thick black
+36:11 border. So whatever background it's on,
+36:13 you can either see the white or you can
+36:14 see the black. That will be something I
+36:16 asked cursor. And now that we're back to
+36:18 editing it, we can actually do that. But
+36:20 before that, I want to showcase a few
+36:22 things. The first being there's like if
+36:25 you click control shiftp, you can create
+36:27 a new cursor rule. For this example, I'm
+36:30 going to say styling and I'm going to
+36:32 say this is going to open it. This does
+36:34 exist as a file. I can show you guys how
+36:36 to find it. And there are multiple ways
+36:37 to make rules. This is just what I'm
+36:38 most comfortable with. I'll show you
+36:39 guys other ways right after this. But
+36:41 there's a few options. I can apply it
+36:43 intelligently, apply it to specific
+36:45 files and manually apply it. I'm going
+36:47 to keep this one as auto apply. Do not
+36:49 use purple/blue
+36:52 gradient or colors as like the primary
+36:57 color. I'm just going to keep that
+36:58 there. And next time I run a command, I
+37:01 don't need to mention it, but it should
+37:03 take this piece of feedback or this rule
+37:05 and apply it. So that's really cool to
+37:08 show you guys how I can add rules or see
+37:11 rules later. There's a section here.
+37:14 Let's just make this a little bigger.
+37:15 Rules, memories, and commands. Here you
+37:18 can see that uh oops project rules
+37:21 always applied styling.mmp. This is
+37:24 exactly what we just made. We can
+37:25 similarly make rules right here as well
+37:28 like add another rule. And there's two
+37:30 sets of rules. User rules means they
+37:33 follow you regardless of what project
+37:34 you're in. you know, all the folders,
+37:36 whatever folder you're in, that rule
+37:37 exists. Project rules means, you know,
+37:40 while I'm inside of this cursor video
+37:42 folder, these rules will be applied. So,
+37:44 I can actually create another rule.
+37:46 Let's just say something like emoji ban,
+37:49 right? Like AI also loves adding emojis
+37:51 everywhere. Never add emojis anywhere,
+37:55 including in your text response unless
+38:00 explicitly
+38:01 requested.
+38:02 >> I like it.
+38:03 >> Yeah. So great, you know, two ways to
+38:05 add rules and you can obviously always
+38:08 see them here. For those who are a
+38:09 little bit more technical and like to
+38:12 truly get a grip of like all the rules
+38:14 and stuff cuz you can actually do a lot
+38:15 with rules. You can put them within
+38:17 folders within folders. So you can put
+38:19 them in subdirectories. If you do in
+38:21 your terminal ls- a you can see that
+38:24 there is now a new folder called cursor.
+38:27 If you go and so ls.all means show me
+38:30 everything in this folder. And so this
+38:32 is the same folder as this. As you can
+38:33 see, you will be seeing the same things
+38:35 as let me do some space management here.
+38:37 You'll be seeing the same things as like
+38:39 script.js styles.css and index.html and
+38:44 also this cursor with the rules. So
+38:46 these are the rules that I just
+38:47 specified. It only applies for this
+38:49 project. What I was saying is that if I
+38:51 create a new folder, I'm just going to
+38:53 name this assets because I will be
+38:54 putting more meme templates in here. I
+38:57 can actually similarly have something
+38:58 inside of the assets folder and
+39:01 basically these rules will apply only
+39:04 within this folder. So that's a little
+39:06 cool. You can start nesting rules. This
+39:08 once again uh goes back to you know if I
+39:10 had different folders for front end and
+39:12 backend and I wanted to have different
+39:13 rules. It allows for that. So it's
+39:15 really good. Cursor rules definitely use
+39:17 them when you can. But I'm just going to
+39:18 restore them to its original rule
+39:21 settings. So, cursor rules, we have the
+39:23 emoji ban and the styling that bans the
+39:25 purple blue gradient thing. So, that was
+39:29 a little bit of a rundown on rules. Now,
+39:31 back to making it better. If I just say
+39:34 anything right now, it'll probably
+39:35 redesign it to get rid of the purple
+39:36 colors. And let's see what what what
+39:39 problems do we have? Oh, we wanted the
+39:41 border to be thicker, right?
+39:43 >> Um
+39:43 >> for the text.
+39:44 >> Border to be thicker. And then also
+39:46 change the color of the text. I think
+39:48 would be cool.
+39:49 >> Okay. Gotcha. Please allow users to
+39:52 change the color of the text.
+39:55 >> I think that would just solve the
+39:56 problem in full. Um cuz I could have
+39:59 made it black.
+40:00 >> I would like to or we can do both. Also
+40:02 make the black border thicker cuz I
+40:05 think the normal the standard meme is
+40:07 like white text with black borders. So
+40:09 I'm trying to recreate something similar
+40:11 to that. So let's see. It's uh here. And
+40:14 do I need to refresh this? Yes. As you
+40:16 can see here, now we do have text color.
+40:20 So I do think the change went through.
+40:21 It is still using that color. So let me
+40:23 see if that rule is applied properly.
+40:26 Let's see. Rules D styling. Do not use
+40:29 primary gradients or colors.
+40:31 >> I think since it's already created it,
+40:33 if this exists,
+40:34 >> this exists already.
+40:36 >> Please fix it.
+40:38 >> Fix it wherever you find it.
+40:41 >> Personally, I don't think this is how I
+40:42 would use rules. I wouldn't make rules
+40:44 on like proactively going back. I would
+40:46 just create this rule. I would just tell
+40:47 the agent right now to fix it now and
+40:49 then yeah, then in the future it won't
+40:52 happen again. You know,
+40:53 >> I think I think a good part is probably
+40:56 a better example would probably be if I
+40:58 said redesign the app. This will refer
+41:02 to the rule and never like use it.
+41:04 Similarly, you can also see down here
+41:06 active rules and the context used. And
+41:09 the context used is actually really
+41:10 important. you probably want to stay,
+41:12 you know, as low as possible, which is
+41:14 why a lot of people recommend you
+41:16 whenever you move to a different task,
+41:18 start a new chat. I'm going to go and
+41:20 create a new chat because redesigning it
+41:22 is kind of a different feature. So, if I
+41:24 tell it now to redesign the app, I'm
+41:26 pretty confident that it will not use no
+41:28 purple and no blue. So, if I just say
+41:30 redesign the app, it will go ahead and
+41:33 start spitting out new code. And we can
+41:35 see here that, yep, active rules, emoji
+41:38 ban, and styling. So, I expect to see no
+41:40 emojis and I expect to see something
+41:42 that is not blue or purple. [laughter]
+41:44 >> Hopefully, they don't choose like green
+41:45 and red or something.
+41:46 >> Oh, goodness. Yeah.
+41:48 >> What's their second favorite? I know
+41:49 their favorite color is like a purple
+41:51 blue gradient. I don't know what their
+41:53 second favorite color is.
+41:54 >> I don't know. But, you know, normally we
+41:55 just kind of give it direction for what
+41:57 we want. Cool. So, it just told me that
+41:59 it's done. I am going to accept the
+42:01 changes and let's check it out. Oh.
+42:04 >> Oh, it's nice. It's nice orange. I like
+42:06 it. This is very much um kind of almost
+42:09 like teenage engineering. If they if
+42:11 they didn't have like rounded edges, it
+42:12 would kind of look like teenage
+42:13 engineering a little bit.
+42:14 >> I see it. Yeah,
+42:15 >> it's kind of a vibe.
+42:17 >> Yeah. Yeah. And before I forget, I did
+42:20 promise to continue going through all of
+42:21 these features.
+42:22 >> Let's do it.
+42:22 >> This I wanted to showcase. The new
+42:25 cursor 2.0 allows you to open a browser
+42:28 inside of cursor itself. So if I click
+42:31 this, I just want a browser tab. Boom.
+42:34 Now I can actually just view this
+42:37 localhost meme generator directly in
+42:40 cursor.
+42:40 >> And now this is starting to look a lot
+42:42 like the other VIP coding tools where
+42:43 it's all self-contained within cursor.
+42:46 >> Yeah. And it has the same benefits as if
+42:48 I had any errors on the website. I could
+42:51 go ahead and, you know, reference to it
+42:53 here in the chat. Since we haven't had
+42:55 any errors yet, we'll just go along and
+42:57 continue. These are, you know, similar
+42:58 features that you see across the board
+43:00 of a lot of vibe coding tools. We have
+43:02 like select element kind of like
+43:03 lovable. I can say like oh like I want
+43:05 you to change this or that. And this is
+43:08 the terminal. This is a terminal for the
+43:11 website that's being run. So logs will
+43:13 come out. Pretty cool features. This
+43:15 came with cursor 2.0. I really like it.
+43:17 Um I do think it streamlines a lot of
+43:19 things. But let's see. Let's just play
+43:22 with it. So that's another thing because
+43:24 we are starting from the fundamentals.
+43:26 This is the folder structure. I've
+43:27 created this asset folder. We can
+43:29 directly just use Finder and put the
+43:32 photos that I had directly drag and drop
+43:35 into the assets folder here.
+43:36 >> Yeah, because it's not just markdown or
+43:37 text files or JavaScript. You can also
+43:39 literally put MP3s, MP4s, you can put
+43:43 any type of file in your codebase
+43:45 because remember this is just a folder
+43:47 on your computer that all of this is in.
+43:50 >> Um, and so now we're going to load it up
+43:52 with some good memes.
+43:53 >> So yeah, these are like some memes that
+43:54 I compiled before the video, you know,
+43:56 quick uh seven memes. I'm going to go
+43:58 ahead and drag and drop them straight
+43:59 into the assets folder. Now, we can
+44:02 cursor you can also open photos, uh,
+44:04 sorry, photos. So, you can see the
+44:06 collection of images that I have, but
+44:08 yeah, I'm going to add these as base
+44:10 templates for the meme generator next.
+44:12 So, you know, that's great. I'm going to
+44:14 close this chat to give myself some more
+44:17 space. So, this is the website we're
+44:18 working on. Oh, yeah. This is the
+44:20 website I'm working on. This is the
+44:21 agent that I can talk to. And we have
+44:24 our rules. Let's see. Let's actually go
+44:26 ahead and edit a rule. So, I'm going to
+44:28 go ahead just to show you guys rules in
+44:31 practice. I want I want a clean
+44:34 minimalist design. We'll see what it
+44:37 does with that because we will be adding
+44:38 more features and I don't want to spend
+44:40 too much time like
+44:41 >> messing with the design.
+44:42 >> Messing with the design. So, I'm going
+44:44 to go ahead as promised and say now that
+44:46 we can see we have an assets subfolder
+44:50 and it has a bunch of f photos that I
+44:52 want to use as templates. So, I added uh
+44:56 create a new chat for this cuz this is a
+44:58 new feature. So, oh, this is a new chat.
+45:00 Okay. I added a folder named assets and
+45:05 it has some photos that I would like to
+45:09 use as templates for memes. I would also
+45:14 like to still have the ability to upload
+45:19 my own image though. So, basically, I'm
+45:21 just asking for a feature request. gonna
+45:23 go ahead and send it and it will start
+45:27 making changes.
+45:28 >> Amazing.
+45:29 >> So yeah, let's see.
+45:32 >> Dude, it is really fast. This composer
+45:35 one
+45:35 >> composer is really fast. All right,
+45:37 cursor just added the feature. Let's
+45:40 accept these changes and then uh Oh,
+45:42 give me the browser back. Where did it
+45:44 go? Great. Now I can upload an image.
+45:47 Okay, where's my Oh, here it is. All
+45:49 right, templates. So, I just clicked the
+45:50 refresh button. When files are uploaded,
+45:53 sometimes they lag a little before being
+45:55 rendered. Clicking refresh. Now I can go
+45:57 ahead and make a meme. Add text. Let's
+46:01 see. I use cursor. Add text. I use
+46:04 cursor. Add text.
+46:05 >> I think it it when you pressed enter the
+46:07 text left.
+46:08 >> Oh, wait. What?
+46:09 >> I use cursor. I use cursor. I use
+46:13 lovable claw codeex
+46:17 and v 0ero. Okay. Well, okay. there was
+46:21 something wrong. So there there there
+46:23 are a few things broken, you know, with
+46:25 the meme that I'm trying to make. So
+46:26 obviously it replaced this text with
+46:28 something else and uh it's not like
+46:31 spacing it properly. So we can ask it to
+46:34 fix these features. Now this is good.
+46:36 This is good when you if you're if
+46:38 you're not running into any errors,
+46:39 you're not making something uh fun
+46:41 enough. And so all you need to do is
+46:43 literally express to the agent what went
+46:45 wrong and it should fix it. And I think
+46:48 actually I want to do showcase this as a
+46:51 new like one of cursor's new features.
+46:53 If I say like I use cloud code cur
+46:56 codeex uh v 0 and replet and I add this
+47:01 to canvas and it's just overflowing
+47:04 here. I'm pretty sure I can just tell
+47:06 the composer to go and look at the
+47:08 website and make spacing like adjust
+47:11 automatically. So look at the browser.
+47:15 So this is the at feature. It allows you
+47:18 to specifically point to things to look
+47:20 at. So it's basically the same thing. Oh
+47:23 man. So I just installed cursor so I
+47:26 don't even have Chrome right now. So let
+47:29 me go and use Chrome. Okay. For the
+47:31 video, we'll probably
+47:32 >> I like it. Okay. So in order to use the
+47:34 browser, right, it sounds like you
+47:35 actually have to use Google Chrome for
+47:37 the browser.
+47:38 >> Yeah.
+47:38 >> Okay. So in order to use the browser and
+47:40 cursor, you need you need to use Chrome.
+47:42 We are just now finding that out and
+47:43 that's okay.
+47:44 >> Yeah. So, what I was saying is like look
+47:46 at the browser is basically the same as
+47:49 typing app browser. So, no, I think I
+47:52 need to restart my cursor. So, just so
+47:55 we're back. I just installed Google
+47:57 Chrome, but I was going to say look at
+48:00 the browser is basically the same as
+48:01 saying at browser. Oops, not branch. At
+48:04 browser, look at the overflowing
+48:08 text example. I want to be able to split
+48:13 lines. Great.
+48:15 >> So, yep. Let's see if it will fix this.
+48:18 And so, this is it's going to go look.
+48:21 Uh oh. Check the browser and it captured
+48:22 a screenshot. Yep. Yep. So, oops. Sorry.
+48:25 Yeah, it is looking at it. The text
+48:27 rendered in a single line causing
+48:29 overflow. Yep. It found that out. Adding
+48:31 support for multi text line. Great.
+48:33 Cool. So,
+48:34 >> so you can literally tell the agent that
+48:36 builds your code to go look at the
+48:38 browser as you use it, which is
+48:39 something that like a year ago, which
+48:41 like was not possible at all or even
+48:43 like three months ago.
+48:44 >> Wow. It's done with the change already.
+48:45 I do have to say though that when you
+48:48 use this feature, it eats a lot of
+48:50 context. So, I mean, I literally asked
+48:52 it to do one thing and it's 20% 25%
+48:56 done. Just keep that in mind when you
+48:58 are using this feature. I don't actually
+49:00 prefer to use ad browser for that really
+49:03 reason, but I just wanted to showcase
+49:05 that this is something you can do. So,
+49:07 let's accept these changes or close the
+49:09 browser too. Anyways, I like this
+49:10 browser anyways. So, let's check this
+49:12 out. Trying to make my same meme again.
+49:15 Um text. Oh, so now lets me do new line.
+49:17 I use claude codeex
+49:20 new line lovable replet and bold add
+49:24 text. Oh, amazing. Now it fits.
+49:27 >> There we go. That's cool. Yeah, I can
+49:29 actually finally finish this meme. Oh,
+49:31 maybe let's see. Um, I use cursor. Nope,
+49:34 it replaced this text again. So, that's
+49:36 interesting. We're going to go and tell
+49:38 it that issue specifically. So, I feel
+49:41 like this issue is a little more
+49:42 complicated. There must be something
+49:44 wrong with the code uh on a fundamental
+49:46 level. So I think it's a great
+49:47 opportunity to showcase another feature
+49:50 that is if I go and create this agent
+49:52 and oh yeah so cursor 2 lets you run
+49:56 multiple agents concurrently but it
+49:58 requires a git repository. So a git
+50:01 repository if you don't know is
+50:02 basically how coders version control
+50:05 their code. If you don't know what it is
+50:07 it's not that complicated because you
+50:09 can ask cursor how it works. This is I
+50:11 can say like I want to set up git for
+50:15 this project. it will go ahead and do it
+50:17 for me. Um, if you don't know what it
+50:18 is, I'll probably ask it to tell me a
+50:21 little bit more about Git. You do need
+50:22 to download a few things, but I already
+50:24 have it downloaded. If you want a
+50:26 separate video on how to get started
+50:27 with Git, I'd be happy to make one with
+50:28 you, Riley.
+50:29 >> Let's do it. Um, basically, he's setting
+50:31 up a way to save your code in
+50:34 checkpoints. That's kind of how I, as a
+50:36 Vive coder, I think about it. It might
+50:38 not be technically, but like it's just
+50:39 like basically you're creating little
+50:41 saves of your project. So if you were to
+50:43 completely torch your project,
+50:45 especially as it gets more complex, you
+50:48 can always go back to a checkpoint.
+50:50 >> Yeah. No, no, you're absolutely right.
+50:51 It basically is just checkpointing and
+50:53 it's telling me that it's initialized my
+50:56 git repository for me. So now, you know,
+50:58 if I go to a new chat, I should be able
+51:02 to run multiple concurrent agents. So
+51:04 yeah, just a warning, you do need, you
+51:06 know, cursors max plan to have this
+51:08 feature available. I didn't know that so
+51:10 I had to upgrade yesterday. But I can go
+51:12 ahead and now select multiple agents. So
+51:15 I can say I want set GPT and composer to
+51:19 give this a try. Perfect. When I add the
+51:23 second text to a meme, it overwrites the
+51:28 first text. Please make sure this does
+51:32 not happen. I want to be able to have
+51:37 different text on the image. So yeah,
+51:41 now as you can see this view, there are
+51:43 three agents thinking concurrently how
+51:46 to solve this problem.
+51:48 >> That is actually insane.
+51:50 >> Yeah.
+51:50 >> And you can see that they they
+51:51 conveniently made it so composer one is
+51:54 going to get done so much faster than
+51:56 the other two.
+51:56 >> Yeah. That's probably why they were
+51:57 optimizing speed so much. Yep. Composers
+51:59 one's done already. It's telling me,
+52:01 let's see, here's what I've changed.
+52:03 After adding the text box, it's
+52:04 immediately deselected. Okay, that makes
+52:06 sense. So, it's it's telling me the
+52:08 issue is that when I was editing the
+52:09 text, it still had it selecting, you
+52:12 know, it was still selected. So, that's
+52:13 that's a you know, I could believe that.
+52:15 Let's try this solution. We're going to
+52:17 go and try to say like I like cursor at
+52:20 the canvas. I like code. Nope, it still
+52:23 replaced it. So, this solution failed.
+52:26 Good thing we have two more running.
+52:27 [laughter]
+52:28 >> Wait. So, okay. Talk to slow down there
+52:30 for a Go back to that what composer one
+52:32 no the the composer one view when you
+52:34 said okay let's try that one what you
+52:37 were you were trying the version that
+52:39 composer one tried to fix how would I
+52:42 then switch like once sonnet 4.5 is done
+52:45 which wow it's taking a lot longer than
+52:47 composer 1 how would I switch to the
+52:49 version that it does interesting they're
+52:52 not doing anything but planning um but
+52:55 yes to answer your question how to do
+52:57 switches you can undo apply but
+52:59 basically when all of them are done,
+53:00 they'll, you know, prompt your fe.
+53:02 >> Oh, you just select which ones you want
+53:03 to apply.
+53:04 >> Yeah. Okay.
+53:05 >> It'll give you a warning like, oh,
+53:06 you're going to overwrite the other
+53:07 agents work. No, you know, normally
+53:09 that's fine cuz I'm doing one feature at
+53:11 a time. That's another benefit of having
+53:13 new chats often. If I was like
+53:16 continually prompting with multiple
+53:17 agents, that would get really messy. But
+53:19 that's why every time you can start a
+53:21 new chat.
+53:22 >> Okay. So, this one's still thinking. All
+53:23 right. Or exploring. Oh,
+53:25 >> okay.
+53:26 >> Okay. So, now it's writing code.
+53:27 >> It's found the issue. It's writing code.
+53:28 Let's see. What are you doing? Get to
+53:31 work.
+53:33 All right. Let's see. Codeex. So, I
+53:35 don't know. This might be an issue on
+53:37 cursors. And this feature did just come
+53:39 out like I don't know this week. It does
+53:41 seem like Codeex is kind of stalling.
+53:43 Uh, this one it looks like it is the
+53:45 same update on deselecting after adding
+53:47 a new text field. This is what Riley was
+53:49 saying, but like how do you switch from
+53:51 each agents? I just apply all here. It's
+53:54 going to ask me, oh, local, do you want
+53:56 to overwrite it?
+53:56 >> Wait, wait, slow down here. I I want to
+53:58 I want to understand this. I want to
+53:59 make sure I understand this. Let's say
+54:01 you were just using one agent, right? If
+54:02 you were just using one agent, you hit
+54:04 apply to apply the code changes because
+54:06 not only can it generate code, it can
+54:08 also change the code, right? And you
+54:10 when you apply, you're basically
+54:11 applying all of those changes.
+54:13 >> When you use three at a time, you can
+54:15 apply just one of the agents changes or
+54:18 you can unapply them. So you could apply
+54:22 test if it doesn't work unapply them go
+54:24 to sonnet 4.5 apply their changes and
+54:27 and kind of sequentially test.
+54:29 >> Yeah. Okay. Absolutely correct. So you
+54:31 know I can undo apply here. I think the
+54:34 reason I didn't undo apply was so now it
+54:37 won't complain because what you just saw
+54:39 was I did not un apply. So now if I try
+54:43 to apply this it'll give me this warning
+54:44 again. Basically it's the same thing as
+54:46 what I just did. So I currently have
+54:48 sonnet force changes applied. If I undo
+54:50 the apply and then apply composer won't
+54:52 it won't complain to me. It's kind of
+54:54 just a friendly way to tell you that
+54:55 like hey you're going to overwrite
+54:57 everything that the other agent wrote.
+54:59 And you know I don't really care. Um
+55:02 stash changes and overwrite.
+55:03 >> So if you press overwrite it's
+55:05 equivalent to undoing the other one and
+55:08 reapplying this one.
+55:09 >> Yep.
+55:09 >> Okay.
+55:10 >> Yep. So that's a really good call. Um so
+55:13 overwrite basically just does the exact
+55:15 same thing. So now I have sonnets 4's
+55:17 changes I believe right four overwrite
+55:20 yes well I should have set four changed
+55:22 currently and let's see if sonnet was
+55:25 able to fix the problem so first text is
+55:28 hi I like no cursor
+55:31 >> still wrong
+55:32 >> n still wrong yeah
+55:33 >> yeah and I think the more descriptive
+55:35 you are the better to do this and I
+55:36 think yeah I think I know what the
+55:38 problem is sort of not in code but I
+55:39 think I know how I would fix it
+55:41 >> oh yeah you want to give me a prompt
+55:43 >> all right well just hold the whisper
+55:44 flow button which is I think is
+55:46 something we should talk about.
+55:47 >> I don't have that.
+55:48 >> Oh, but you can press the voice button.
+55:49 I'm pretty sure it's down there. I think
+55:51 they have it built in now.
+55:52 >> Oh, you're right. They have the voice
+55:54 feature. So, I'm going to start a new
+55:56 agent and I'm going to let Riley go and
+55:58 Oh, so currently right now when I select
+56:01 a meme and add it to the canvas or
+56:04 whatever you want to call it. And then I
+56:06 add the first text onto the screen. And
+56:09 then I move it around. And then I go to
+56:12 create another text to add to it. Once I
+56:17 start typing the second one, it
+56:19 automatically starts typing into the
+56:21 first one. What I want to have happen
+56:23 instead is new text be added to the
+56:26 screen as soon as I start te typing the
+56:29 next one. And I want to be able to do
+56:30 this for an unlimited amount of text
+56:34 boxes or fields uh so that they do not
+56:38 get overwritten and replace the writing
+56:40 I've already done on previous text
+56:43 fields.
+56:43 >> I think that was really descriptive.
+56:46 Once again, we're going to try running
+56:47 this. You can run composer multiple
+56:49 times. I could run it three times with
+56:51 just composer, honestly. Let's give it a
+56:52 try. Four times composer. Maybe one of
+56:54 them will get it right. So, since it's
+56:56 so fast, we'll we'll see if it's smarter
+56:59 than itself.
+57:00 >> Yeah. And then this is one thing that
+57:02 makes cursor so fun and vibe coding so
+57:04 fun is just using voice, you know, like
+57:07 being able to just like speak out your
+57:09 thoughts as they're happening. And um I
+57:11 just think it's super useful. I
+57:13 basically just over I kind of
+57:14 overexplained a little bit. You can see
+57:16 here the different versions of Composer
+57:17 are doing different amounts of work.
+57:19 >> Yeah. Um, which is a good thing I I
+57:22 think because you get a varying degree
+57:23 of
+57:25 >> results. You get different results. So
+57:27 you can truly test four different, you
+57:28 know, approaches to solving the problem.
+57:30 Yeah. So they're working. Oh, I think
+57:32 composer one is done. Uh, so composer
+57:35 one is done both on the fourth run and
+57:38 the first run. I'll go ahead and apply
+57:40 this one to test this one for now.
+57:41 There's a let's see got to manually test
+57:44 this. Hi. And let's try it again. Bye.
+57:48 Ooh, this is promising. This one works.
+57:51 Good job, number four. So, now that we
+57:53 number four has immediately fixed it,
+57:55 you know, just for the kicks, we can see
+57:56 if this one fixed it. This one obviously
+57:59 gave me 100 lines of code and deleted
+58:01 three lines of code. This is what these
+58:03 like colored numbers mean. So, this one
+58:05 only gave me 24 extra lines of code.
+58:06 This one gave me 100 lines of extra
+58:08 code. So,
+58:09 >> which is probably better. You probably
+58:10 want to choose the one that has the
+58:11 least amount of like the one that's the
+58:13 most successful with the least amount of
+58:14 code change. Yes, that is genuinely
+58:16 probably generally probably like a good
+58:18 rule of thumb. Uh because you don't want
+58:21 ex that's actually a really good tip
+58:22 because you don't want code bloat. Like
+58:25 more code doesn't necessarily mean
+58:27 better. In fact, it means worse AI
+58:29 context. So that's actually a great tip.
+58:31 But
+58:32 >> it's the same with like writing an
+58:33 essay. Like if you can make a point in
+58:35 one sentence, you should do it in one
+58:37 sentence, not three paragraphs.
+58:39 >> Exactly. Exactly. But just for the
+58:41 kicks, we'll be applying this one. And
+58:43 I'll just fully overwrite it. I still
+58:45 remember that number four is the one
+58:46 that's working as intended. So if I try
+58:48 this now, add text. Hi. Okay. Move this
+58:51 around. And then buy. Oh, okay. Well,
+58:55 >> see, I actually like this one better
+58:57 >> because the difference is the other one
+59:00 waited until you pressed enter to add it
+59:03 to the canvas. Click. Click uh text
+59:05 content. Type something.
+59:07 >> It adds it in real time, which is what I
+59:09 asked for. So the reason there was more
+59:11 code is it's actually doing something
+59:12 more. If you go test the other one,
+59:14 you'll realize it doesn't do that. I I
+59:15 >> That's a great catch. Let's try this
+59:17 now. Reapply full override.
+59:19 >> Full override. This is cool.
+59:21 >> Yeah. No, that's a huge catch. So now I
+59:23 can say like, you know, look full
+59:26 overwrite.
+59:27 >> So if you Yeah. If you put that there,
+59:28 notice nothing's going to happen.
+59:31 >> See?
+59:31 >> Add to canvas.
+59:32 >> Don't you think it's a way better
+59:33 experience to have it on the screen like
+59:36 it show up on the actual meme?
+59:38 >> Yeah.
+59:38 >> Yeah. Let me finish my meme. Revert plus
+59:41 apply again. All right. Yeah, full
+59:44 overwrite. Basically,
+59:46 applicable meme. Um, yeah, I think this
+59:50 is really good. So, we're in favor of
+59:52 keeping this one.
+59:52 >> Yep.
+59:53 >> Sure. Let's do
+59:54 >> I mean that's what I asked for. I did
+59:55 ask for I said when you start typing it
+59:58 should be created on the thing.
+59:59 >> Yeah. Yeah. No, that is great. So, real
+1:00:01 attention to detail and these things
+1:00:03 matter. That is great. Um, I do think
+1:00:06 there's one I do think that, you know,
+1:00:09 there are quite a few things wrong with
+1:00:10 this. Obviously, I don't want this. I
+1:00:13 want more of an interactive. I can tap
+1:00:15 and then text is created there. Yeah.
+1:00:17 >> And then I can click like an X or
+1:00:19 something up here. So, I'm going to just
+1:00:21 give it another prompt to try and get
+1:00:22 that state. So, or do you want to try?
+1:00:25 >> Yeah, sure. I I actually know how I
+1:00:27 would want to set up this.
+1:00:29 >> Oh, yeah, sure.
+1:00:30 >> But I I don't want to interfere with
+1:00:32 your vision. No, dude. Videos are ours.
+1:00:35 Let's do it.
+1:00:35 >> Okay. Okay. Um, I want you to condense
+1:00:38 the meme selection thing [snorts] that
+1:00:42 is at the very top. I want you to put
+1:00:44 that instead in a left sidebar that goes
+1:00:48 vertical. If you're familiar with how
+1:00:50 Canva works, they have this kind of
+1:00:52 utility bar on the left. I kind of want
+1:00:54 that to be the case. And then
+1:00:56 immediately to the right of that, I want
+1:00:59 this to be the canvas, which is where
+1:01:01 the meme goes. And so here, once I
+1:01:05 select a meme in the left panel, it'll
+1:01:06 populate there. And most of the screen
+1:01:09 should be this canvas that shows the
+1:01:12 meme. And then I want you to put
+1:01:13 everything else in this little rounded
+1:01:17 rectangle bar at the bottom of the
+1:01:20 screen centered so that I can add things
+1:01:24 in like a little utility so it's not so
+1:01:27 jarring to have all these things on the
+1:01:29 screen. And I think something like TL
+1:01:33 Draw has Yeah. or Excaladraw has these
+1:01:37 little bars that you can select to do
+1:01:39 different things. I want you to take
+1:01:40 that philosophy in kind of redesigning
+1:01:43 the user experience.
+1:01:44 >> Yeah.
+1:01:45 >> What do you think of that? Yeah.
+1:01:46 >> I think you you are amazing at providing
+1:01:48 detail. I think it's great. I think you
+1:01:51 know Yeah. The little like floating
+1:01:52 menu.
+1:01:53 >> A little floating menu like like uh it's
+1:01:54 almost like fig jam if you've ever used
+1:01:56 it.
+1:01:57 >> Yeah.
+1:01:57 >> Um yeah, I think I think just keeping it
+1:01:59 minimalistic because the focus should be
+1:02:01 on the meme. Like after you add the
+1:02:02 meme, it should just be the meme. If and
+1:02:04 then you look at the meme and then you
+1:02:05 want to add something, you go to the
+1:02:06 little utility and you add it. I do
+1:02:08 think this one will take longer. Khan,
+1:02:10 it looks like it's done.
+1:02:11 >> Oh, yeah. No, for real. Okay, four runs
+1:02:15 of it. Let's see. Um, I do want to say
+1:02:18 definitely read through the responses.
+1:02:20 You can skim through the code if it
+1:02:21 doesn't really make sense, but the core
+1:02:23 value of learning and why I'm such a big
+1:02:25 fan of composer is that, oh, sorry, of
+1:02:28 cursor is that it allows you to learn
+1:02:30 with it. And when you get more and more
+1:02:32 in the hang of things technically, you
+1:02:34 can kind of see if it went down the
+1:02:36 wrong path or not. And for example, if I
+1:02:38 were to spot something that I didn't
+1:02:39 like, I could just immediately abandon
+1:02:41 it and not try this. But, you know, it
+1:02:44 look I was reading through this, it
+1:02:45 looked like it was like pretty good. It
+1:02:47 promises me that it's done it. It always
+1:02:48 does. So, take the last part with a
+1:02:50 grain of salt. But, normally during the
+1:02:52 trajectory, you'll be able to see if
+1:02:53 they were like doing the right things or
+1:02:55 not. So, let's just apply this and see.
+1:02:58 Full overwrite. And
+1:03:02 it now it looks even more like teenage
+1:03:04 engineering in my opinion. Yeah, I think
+1:03:07 it did give you everything you asked
+1:03:08 for.
+1:03:09 >> Yeah.
+1:03:10 >> Oh, okay. Okay. Very neat. Now I can
+1:03:12 make the meme that I've been trying to
+1:03:14 make this whole video. I like cursor.
+1:03:17 Okay.
+1:03:17 >> Okay. I already know what I want to
+1:03:18 change.
+1:03:19 >> What? This this part of like
+1:03:21 >> No, the text boxes little component
+1:03:23 there is heinous.
+1:03:25 >> Oh yeah.
+1:03:25 >> Yeah.
+1:03:26 >> Yeah.
+1:03:26 >> You can do a new line. Remember?
+1:03:28 >> Yeah. Oh my god.
+1:03:30 >> There it is. Download. Hit download.
+1:03:31 >> We finally made the meme that I've
+1:03:33 >> Well, we don't know. Have we even tested
+1:03:34 the download feature yet?
+1:03:36 >> I mean, let's see. Nah, it's here.
+1:03:39 >> Okay. Okay. [laughter]
+1:03:40 >> Yeah. No, I think this is a pretty real
+1:03:43 graph. Yeah, but I like that the
+1:03:45 functionality and the UIUX is coming
+1:03:48 along. I think it did technically
+1:03:51 implement everything you wanted it to.
+1:03:52 We could definitely spend another prompt
+1:03:54 on fixing the text boxes. Would you like
+1:03:56 to do that?
+1:03:57 >> Um, yeah. Why don't we like move it in
+1:03:59 like it make it expandable, you know,
+1:04:02 like um or how would you what do you
+1:04:04 think the best UI is here? Like
+1:04:06 definitely not text boxes written in a a
+1:04:09 list that goes vertical. Let's go back
+1:04:11 to Excal. What happens when I open a
+1:04:13 text? Ah, we get another like text
+1:04:15 panel. Okay, but I think Excal is
+1:04:17 actually really nice because I like the
+1:04:19 I think all we need is the resizable
+1:04:21 text box and maybe like an X here. So,
+1:04:25 we can spend a prompt on that. I'll I'll
+1:04:27 do this prompt this time. So, let's see.
+1:04:30 I want to run this three times. So,
+1:04:33 currently the way we add text is when
+1:04:35 you enter it into the text input field,
+1:04:38 it'll add it to the right near the
+1:04:40 bottom in the like menu bar. Instead, I
+1:04:43 would like you to make it such that when
+1:04:45 I click on the canvas, it will create a
+1:04:49 text box where I click. And this text
+1:04:52 box is resizable. like it should have
+1:04:55 like the four dots on the corner of it
+1:04:57 and I should be able to adjust how big
+1:04:58 the text is that way. And you know when
+1:05:01 I click on it, I should be able to
+1:05:03 delete it. Maybe give it an X on the top
+1:05:05 right or something. But make sure I'm
+1:05:07 allowed to click off of it and you know
+1:05:09 the like selected text no longer is
+1:05:12 selected. Cool. Let's run this for three
+1:05:14 times and we'll be back with the
+1:05:16 results. All right, we are back. All
+1:05:18 three runs have finished and let's just
+1:05:21 start testing them. So obviously
+1:05:23 reminder to read I won't but let's apply
+1:05:25 this and let's go back to localhost. Oh
+1:05:30 that is not localhost. What is
+1:05:32 localhost? There we go. Refresh this.
+1:05:35 That's weird. I still see this text
+1:05:38 here. Oh well I can add text with the
+1:05:41 click of my mouse and I can delete it
+1:05:43 but I cannot edit the text. That is not
+1:05:46 good. Can I resize it? Yeah, I see some
+1:05:49 duplicated text and I am not able to
+1:05:52 edit text on this version. Bummer. Let's
+1:05:54 try the next one. [laughter] Overwrite.
+1:05:56 And let's see. Oh, what is going on
+1:05:59 here? Okay, some Okay, this is this is
+1:06:03 this is a hot mess. All right. No, we're
+1:06:05 going to this one. Apply all full
+1:06:08 overwrite. All right, let's try again.
+1:06:10 This just doesn't do anything. Okay.
+1:06:12 Okay, this is working, but not like to
+1:06:16 create. I see. So, all three kind of
+1:06:19 failed.
+1:06:21 Uh, when this happens, I like to bust
+1:06:23 out the multiple
+1:06:27 and give it a try again. So, I can go
+1:06:29 ahead and grab this prompt. Go here. Oh,
+1:06:31 obviously make sure to undo apply.
+1:06:34 >> Yeah, that was going to say you want to
+1:06:35 make sure if you're going to do this
+1:06:37 strategy to go to a new agent to make
+1:06:38 sure you unapply all of the the previous
+1:06:40 ones.
+1:06:41 >> Yep. And so, that kind of does show you
+1:06:43 that it failed. Let's do a little bit of
+1:06:45 iterating on why it failed. Uh I think
+1:06:48 when you are moving the text, that's
+1:06:50 when the is that's when the agent had
+1:06:52 the most problems. So I'll probably just
+1:06:54 stick in something like uh four dots in
+1:06:56 the corner should be able to adjust.
+1:06:58 When I click on it, I should be able to
+1:06:59 delete it, move it. Okay, cool. Um
+1:07:03 create a text box where I click and the
+1:07:05 text box is resizable and movable.
+1:07:10 You know, honestly, I just think if I
+1:07:12 run it again, it'll probably work. So,
+1:07:15 let's run run it with the big boys.
+1:07:18 >> Yep.
+1:07:18 >> Yep.
+1:07:19 >> That's what I would do.
+1:07:21 >> Rip it.
+1:07:22 >> We'll be back.
+1:07:22 >> This one will take a little bit longer
+1:07:24 because again, we're using two of the
+1:07:26 slower models. GPT5 Codeex is the
+1:07:28 slowest model right now, but it is the
+1:07:30 smartest. So, I I I actually I would put
+1:07:32 my money on GPT5 codecs here. But this
+1:07:34 is a lot more fun way. You can like
+1:07:36 directly test them all together here,
+1:07:37 which is pretty cool.
+1:07:38 >> Yeah. All right, so all of the models
+1:07:41 have completed. So let's see which model
+1:07:44 made this work because this is a pretty
+1:07:46 complicated feature request. So let's
+1:07:48 try composers.
+1:07:51 All right. And refresh this. Okay. Some
+1:07:56 some Okay. I mean Oh,
+1:07:58 >> are you typing right now? Okay.
+1:08:00 >> Yeah. Um
+1:08:02 >> uh
+1:08:02 >> Oh. Uh let's not work with this one.
+1:08:06 >> Okay. Let's try Sonnet. So, let's see.
+1:08:10 Sonnet.
+1:08:11 >> I'm telling you, I told you my money's
+1:08:12 on Sonnet. I mean, my money's on uh GPT5
+1:08:16 codecs.
+1:08:17 >> Okay. Sonnet does not allow me to click
+1:08:19 to make text. Let's see. Do you work?
+1:08:23 Okay.
+1:08:25 >> Can you resize?
+1:08:27 >> Oh, okay.
+1:08:28 >> This is actually pretty pretty good. Or
+1:08:31 >> you just can't do it directly on there.
+1:08:32 >> I just can't tap to create. Yeah.
+1:08:34 >> Which is probably the ideal experience,
+1:08:35 right? Oh, is it
+1:08:38 >> to type? Yeah. I
+1:08:40 >> enter text. Yeah. Yeah. Yeah. Maybe.
+1:08:41 Yeah. Edit text here.
+1:08:42 >> No. No. I think the ideal experience is
+1:08:44 doing it directly on the canvas for
+1:08:45 sure.
+1:08:45 >> Oh, yeah.
+1:08:46 >> Yeah.
+1:08:47 >> Howdy.
+1:08:49 How?
+1:08:50 Yeah. Okay. Okay. We're getting there.
+1:08:53 GPT5
+1:08:56 full overwrite.
+1:08:59 Okay. Okay. Not type the text though.
+1:09:03 >> Okay. You can add it there.
+1:09:07 >> Okay, this
+1:09:08 >> can you resize?
+1:09:09 >> Wow. So, all sorts of combinations of
+1:09:12 half working. But, you know, that is
+1:09:14 just the state of uh AI currently. You
+1:09:17 got to kind of fiddle with it and play
+1:09:19 with it. Take the best of your ability.
+1:09:21 I think there's another skill gap to
+1:09:23 kind of distinguish which features like
+1:09:26 you should pick to build from,
+1:09:27 especially because Sonnet and GPT ended
+1:09:29 up in both halfworking states. Um, I
+1:09:33 think that that's actually really hard.
+1:09:35 Uh,
+1:09:37 I think I'll probably stick with GPT5.
+1:09:40 >> I think so, too. I think you can add it.
+1:09:42 Then you have to like edit down there. I
+1:09:44 think it's one away from being fixed
+1:09:46 because basically all you need to do is
+1:09:47 change.
+1:09:48 >> Um,
+1:09:50 all you need to do is just be able to
+1:09:51 type into it after you add.
+1:09:53 >> Yeah.
+1:09:53 >> Yeah.
+1:09:53 >> But this is all in all pretty good. Um,
+1:09:56 actually sets might be easier to do a
+1:10:00 one shot. Let's see where sonnet was
+1:10:02 again.
+1:10:04 Oh, okay. It just cannot create. H
+1:10:06 They're both kind of difficult problems.
+1:10:08 >> Well, yeah. I mean, but here you can
+1:10:09 press like you could press add new text
+1:10:11 box. Then you can move it and scale it.
+1:10:13 Maybe this one is better.
+1:10:16 >> Yeah, they they they both [snorts] have
+1:10:18 their their issues, but yeah.
+1:10:20 >> Cool.
+1:10:20 >> Um we'll stick with GPT5. Feels a little
+1:10:23 clean, but
+1:10:26 great. And so now that we're here, um, I
+1:10:30 do want to transition onto the next
+1:10:32 step, which is we're going to go ahead
+1:10:34 and actually turn this into a website
+1:10:36 with backend and O and databases. And to
+1:10:40 do that, we're going to need to
+1:10:44 get a little bit more into the
+1:10:45 technicalities and we don't need to
+1:10:47 strictly use the editor, but I think
+1:10:49 this is a great opportunity to kind of
+1:10:51 showcase the editor along with a few
+1:10:53 other features that cursor really has.
+1:10:55 So going forward I'll be sticking with
+1:10:57 this and uh we'll be exploring this view
+1:11:00 and this framework as well. So the first
+1:11:02 thing I want to do is I want to show you
+1:11:05 guys that um there is a thing called
+1:11:09 commands that you can do with cursor.
+1:11:12 And oh by the way these shortcuts that
+1:11:14 I'm using are like control uh L brings
+1:11:18 up this side on the right. You can also
+1:11:20 obviously like um bring it up from like
+1:11:24 Oops.
+1:11:25 >> You can search it. Just search cursor
+1:11:27 shortcuts as you learn more and more.
+1:11:29 >> You'll get used to them. I recommend
+1:11:31 just don't focus on them too early. You
+1:11:33 can find them in the interface.
+1:11:35 >> Yes, I think that uh the shortcuts
+1:11:36 really come in handy definitely in the
+1:11:38 editor or maybe I'm just more used to
+1:11:39 it. But what I was going to say is that
+1:11:42 you can actually create commands for
+1:11:45 basically shortcuts and you know Riley
+1:11:48 mentioned that git was kind of how you
+1:11:50 like set checkpoints. I'm going to go
+1:11:52 ahead and set a checkpoint here and I
+1:11:54 could tell it to I could do it the
+1:11:56 traditional coding way where I would
+1:11:58 come in here and I you'd get add and
+1:12:00 then get commit and then get push or I
+1:12:02 could you know be lazy and tell AI to do
+1:12:04 it. Uh and I could say like hey commit
+1:12:06 my changes but I'm going to go ahead and
+1:12:08 create that as a command. So every time
+1:12:10 I can just do slash commit and it'll
+1:12:13 commit. So I'm going to create a commit
+1:12:15 command and and commit just means
+1:12:18 pushing the changes that you've made to
+1:12:19 your code, right? We've made changes to
+1:12:21 this meme app because remember we
+1:12:23 created a GitHub repository earlier,
+1:12:26 right?
+1:12:27 >> Yeah.
+1:12:27 >> And we created a version. Now you want
+1:12:30 to basically make a version two where
+1:12:32 you're committing your changes to make
+1:12:33 version two.
+1:12:34 >> Yeah. Okay.
+1:12:34 >> Thanks for slowing me down. So a little
+1:12:36 bit more about git is that it is used
+1:12:38 for versioning controlling. In the
+1:12:40 beginning we set up git so that we could
+1:12:42 run multiple agents at once. I'm going
+1:12:44 to actually use it for its intended use
+1:12:46 case which is you know to put a
+1:12:47 checkpoint where I am right now. And
+1:12:49 normally it takes a few commands in the
+1:12:51 terminal or obviously the agent can do
+1:12:54 it for you as well. And I'm going to
+1:12:55 take a shortcut and making the agent do
+1:12:57 it for me. So, I'm just going to say
+1:12:59 commit my changes to get uh reference
+1:13:06 uh code changes to write a short but
+1:13:10 meaningful
+1:13:12 commit message. So, yeah, that's about
+1:13:14 it. I'm going to save that. And now I
+1:13:16 can do /commit and boom. So, it's going
+1:13:19 to go ahead and make me a commit for me.
+1:13:22 >> Yeah,
+1:13:23 >> that's really cool. And this would
+1:13:24 actually be come in handy for deploying
+1:13:27 your web website or web app to um to the
+1:13:30 internet when you if you want to use
+1:13:32 like the Verscell CLI, you could have
+1:13:33 your uh one that you always use to
+1:13:36 commit. So, it's cool. I'm trying to
+1:13:38 think of all the useful uh commands that
+1:13:40 I might want to do.
+1:13:41 >> Yeah, I mean I think there's a lot of
+1:13:42 different use cases for this. uh it's
+1:13:44 really flexible and it kind of allows
+1:13:46 you to customize your interactions with
+1:13:48 the agent which is obviously case
+1:13:50 dependent as you become more and more uh
+1:13:52 in the flow of using cursor. You can add
+1:13:54 your own customizations. I'm starting
+1:13:56 from an empty slate because I just
+1:13:57 downloaded cursor today but yeah there's
+1:13:59 a lot you can do with this as well. It's
+1:14:00 telling me that it committed my changes.
+1:14:02 I'm just going to go ahead and verify
+1:14:03 that right now. And I do see that this
+1:14:06 giant text that it you know created.
+1:14:08 Yep. Yep. Okay. The commit did go
+1:14:10 through. So this slashcommit message
+1:14:12 does work. So that was a example of
+1:14:14 using a command. Once again, there's
+1:14:16 another way to create commands obviously
+1:14:17 which is going to be through the
+1:14:19 settings tab. Uh you can create commands
+1:14:21 down here. Project commands add command
+1:14:24 and user commands. They're same same
+1:14:26 difference uh as in like one follows you
+1:14:29 across all of the folders and one is
+1:14:31 only for this folder.
+1:14:32 >> Amazing.
+1:14:33 >> All right. So before we leave the
+1:14:34 settings screen, I want to show you guys
+1:14:36 one more feature that is probably one of
+1:14:38 my favorite features of cursor and that
+1:14:40 is indexing and docs. As I mentioned
+1:14:43 before, cursor has this powerful agent
+1:14:45 that uses all sorts of tools and it uses
+1:14:48 the context that it's given to kind of
+1:14:50 code for you and build out what you
+1:14:52 want. Going forward, we're going to be
+1:14:54 adding database O and a backend. And all
+1:14:57 these kind of really hinge on having a
+1:15:00 database provider. But that what a
+1:15:02 database is is basically just you know
+1:15:03 tables and you can read from it, you can
+1:15:06 write from it and it helps orchestrate
+1:15:08 what happens and store data when certain
+1:15:10 events happen. So why am I talking about
+1:15:13 this? Well, we're going to be using a
+1:15:16 product called Instant DB and the docs
+1:15:19 for it, you know, it's very new. I've
+1:15:21 been using it since the beta. It's
+1:15:23 evolving constantly and sometimes AI
+1:15:25 will make mistakes. I will add the docs.
+1:15:28 When he says docs, it's just think
+1:15:30 instruction manual, right? He's using
+1:15:32 instant DB as a database. If you've been
+1:15:35 vibe coding a little bit, maybe you've
+1:15:37 heard of Firebase, maybe you've heard of
+1:15:39 Superbase. It's the same thing.
+1:15:41 Personally, as someone who just vibe
+1:15:43 codes, I'm not technical. I find Instant
+1:15:45 DB the easiest because you need one
+1:15:47 single key to make it work and it's very
+1:15:49 easy. The only thing is it needs cursor
+1:15:53 needs the instruction manual on how to
+1:15:55 use instant DB because there's specific
+1:15:57 language and specific types of code it
+1:16:00 has to write in order for it to work.
+1:16:02 >> Yeah. Yeah. Riley does a great job
+1:16:04 explaining it and I'll go ahead and show
+1:16:06 you how to make all this work. So, you
+1:16:08 know, I'm in my uh arc over here. I'm
+1:16:10 going to search up instant DB docs. I'm
+1:16:14 gonna go ahead and find Yep. the modern
+1:16:16 Firebase documentation. Perfect. I'm
+1:16:18 just going to grab this link right here
+1:16:20 and I'm going to go ahead and
+1:16:24 add doc. And so it's going to ask for a
+1:16:26 link. I'm going to give it the link and
+1:16:28 it'll start
+1:16:30 reading and combing and indexing which
+1:16:33 means you know it's just teaching its AI
+1:16:35 what instant DB is. So perfect. It's
+1:16:37 done already. Now we're going to go to
+1:16:40 instant DB and grab that key that Riley
+1:16:42 was talking about that one secret that
+1:16:44 we really need so that we can start
+1:16:45 using a database in our app. So yeah,
+1:16:47 when you go into Instant DB's dashboard,
+1:16:49 you'll be able to create a new app on
+1:16:51 the right. It'll look something just
+1:16:52 like this. And I'm gonna go ahead and
+1:16:54 create a new app called Meme Generator.
+1:16:57 By the way, this is free. Um they give
+1:17:00 they have a really generous like free
+1:17:01 plan. Like you can just create a
+1:17:02 database right when you come in. You
+1:17:04 don't need to pay anything um until you
+1:17:06 have like a certain amount of entries or
+1:17:08 something like that.
+1:17:09 >> Yeah, I think they're really friendly. I
+1:17:11 I know the founders. They've been
+1:17:12 working really hard on this product.
+1:17:13 Highly recommend you try it out.
+1:17:14 Although this is not sponsored, but this
+1:17:16 is why it's really useful. It's so easy.
+1:17:19 I just create a new app and it gives me
+1:17:21 my public app ID. Go ahead and copy
+1:17:24 this. I will go ahead and feed it to my
+1:17:28 AI and I'll tell it to add me a DB. And
+1:17:33 yes, and before just to make sure you
+1:17:36 guys understand, authentication means
+1:17:38 sign in.
+1:17:40 >> DB means database. And so we're creating
+1:17:42 an app, right? If you go to the meme
+1:17:44 generator real quick, like the the
+1:17:46 actual application, right? If you click
+1:17:48 on meme generator, right? This obviously
+1:17:52 you can download it, which is great, but
+1:17:53 what if you actually wanted to save your
+1:17:55 memes somewhere or uh what if you wanted
+1:17:58 to create an account and eventually
+1:18:00 maybe you want to char like if I use
+1:18:02 your meme generator, you might want to
+1:18:03 charge me $5 per month. You can't really
+1:18:05 do that unless you have users, right?
+1:18:08 Right? And when a user signs in, there's
+1:18:09 authentication. And then you maybe you
+1:18:11 want to limit them to only 10
+1:18:13 generations per month. You need a
+1:18:15 database that keeps track of basically
+1:18:17 all of the data that's happening within
+1:18:19 your app. That's what Khan's adding
+1:18:21 right now is a DB.
+1:18:23 >> Yes. Yes. Thank you for breaking it
+1:18:24 down. I'm sorry I'm I'm like rushing a
+1:18:26 little, but yeah, I think my goal for
+1:18:28 the next part is to probably turn this
+1:18:30 into a little bit of a social app where
+1:18:33 you can post the memes you generate and
+1:18:35 people can upvote them. And obviously
+1:18:37 you're going to need people to be signed
+1:18:39 in to upvote and things like that. So I
+1:18:41 think that'll be a really good
+1:18:42 demonstration of building a full stack
+1:18:45 application. And full stack just means
+1:18:47 it has both what you see and all the
+1:18:50 functionality behind it like signing in
+1:18:52 and upvoting and posting. So we're going
+1:18:54 to be adding features like posting and
+1:18:57 upvoting and signing in. And that's kind
+1:18:59 of you know this next section on what
+1:19:01 using the editor is going to be about.
+1:19:03 >> Amazing.
+1:19:04 >> All right. So, the first thing I'm going
+1:19:05 to do is I'm going to go ahead and put
+1:19:08 the agent into plan mode. And this way,
+1:19:11 oh actually, sorry, I'm going to create
+1:19:13 a new agent because we want the full
+1:19:14 context of it. And then I'm going to put
+1:19:16 this agent using shift tab into plan
+1:19:18 mode. I'm going to go ahead and ask it,
+1:19:20 I want to make this into a full stack
+1:19:24 app. I want instant DB to be my
+1:19:29 database.
+1:19:30 And here is my public app ID.
+1:19:36 And
+1:19:38 uh walk me through a plan. I want the
+1:19:43 end result to allow users to post their
+1:19:48 oops post their memes and for people to
+1:19:52 be able to upvote them. Cool. Go ahead
+1:19:56 and tell the agent to start planning.
+1:19:58 And because we've given it the docs,
+1:20:00 right, it's going to basically read how
+1:20:02 to do this, right? Without that, if it
+1:20:05 couldn't search the internet and if it
+1:20:06 couldn't see the docs, it would almost
+1:20:08 certainly fail. But now it's going to
+1:20:10 take a lot of time searching the web,
+1:20:12 instant DV JavaScript setup. Um, and the
+1:20:15 way that documentation set up nowadays,
+1:20:18 there's almost like a um, a standardized
+1:20:20 format which makes them easy to index,
+1:20:22 which is part of the index feature,
+1:20:24 which is basically like it knows how to
+1:20:26 go through the full thing and find the
+1:20:28 relevant parts. And so it can basically
+1:20:30 like find the relevant instruction, go
+1:20:32 build some code, run into [snorts] a
+1:20:34 roadblock, and then it can be like,
+1:20:36 wait, I need to go back and search it
+1:20:37 again. And then it will come back and
+1:20:38 finish writing the code. And so AI
+1:20:40 agents are getting smarter and smarter
+1:20:42 that like you just need to feed it a
+1:20:45 bunch of instructions and it's usually
+1:20:46 we'll figure it out.
+1:20:48 >> For sure. Yeah. Um so it's asking me a
+1:20:50 few questions about authentication.
+1:20:53 Should users be required to sign in?
+1:20:55 One.
+1:20:56 >> Yes.
+1:20:56 >> Yes. Two. Uh should the meme remain as a
+1:21:00 creation tool with a separate gallery
+1:21:02 feed view or integrate into the posting?
+1:21:05 >> I think it should happen in the Well,
+1:21:08 no. Oh, let's make it a separate for the
+1:21:09 sake of this
+1:21:10 >> separate. Uh,
+1:21:12 >> but I think while you're on the feed.
+1:21:13 Ah, no. That would be really hard for
+1:21:15 like remixing almost like I think let's
+1:21:17 keep it as a separate tool.
+1:21:19 >> Yeah, I want a creation flow and a
+1:21:21 browse
+1:21:23 slashupvote
+1:21:25 flow like screen.
+1:21:27 >> There we go. And then three, use instant
+1:21:31 DB. Um, and then this is good. I think
+1:21:36 I'm going to also we're going to publish
+1:21:37 this at the end. So I'm going to go
+1:21:39 ahead and tell it to use Nex.js which is
+1:21:41 a framework of JavaScript. Currently
+1:21:43 we've been using vanilla. You know as uh
+1:21:46 when we began the video it asked us what
+1:21:48 did you want to do? It gave us a few
+1:21:49 options. I'm going to tell it to
+1:21:51 refactor it to be next.js so that we can
+1:21:53 easily publish it. I think Nex.js allows
+1:21:56 us to publish websites the easiest.
+1:21:58 There are a few other options. We could
+1:21:59 use GitHub to have a GitHub page. To
+1:22:02 keep it simple, we're going to be also
+1:22:04 asking it to refactor into Next.js,
+1:22:08 the code base to be NextJS.
+1:22:12 >> And so Next.js was created by Versell.
+1:22:14 And we're going to be using Versel uh to
+1:22:17 actually um deploy or get our app on the
+1:22:19 internet. And um Nex.js to my
+1:22:23 understanding is probably the best for
+1:22:24 styling like creating websites that are
+1:22:27 that look the best. I would say most
+1:22:29 people use Nex.js. Uh maybe
+1:22:32 >> I think that's a common
+1:22:33 misunderstanding. I think Nex.js is just
+1:22:35 a framework that combines like the
+1:22:37 client side and back end uh on like the
+1:22:40 way they structure their folders in
+1:22:42 their directories. There's a lot of
+1:22:43 different patterns. And when I say
+1:22:44 frameworks, it's kind of like how you
+1:22:46 group these files. Although Nex.js is
+1:22:49 the same company as Vzero, which was
+1:22:51 very famous for being able to design
+1:22:54 good websites with AI.
+1:22:56 >> But yeah, so I think I think you're kind
+1:22:57 of like you got you're on the right
+1:22:58 track. Yeah.
+1:22:59 >> Nice.
+1:23:00 Um, so it's given me a plan. I do want
+1:23:03 to read it. And so I can full screen it
+1:23:06 here. So now I can read it. Overview.
+1:23:09 I'm going to skim this real fast.
+1:23:12 And this is one of the ones that you can
+1:23:13 edit, right? Because it's yellow.
+1:23:14 >> Yep. So if I see anything wrong, I'll go
+1:23:16 ahead and tell it to like do something
+1:23:19 else. Uh, yep. Yep. Yep. React. Yep.
+1:23:24 Find the schema.
+1:23:27 Image URL text box. create it at
+1:23:31 great.
+1:23:33 I'm going to go ahead and add here that
+1:23:35 I want you to use the magic link feature
+1:23:40 uh that requires a sixdigit verification
+1:23:45 code for the O. So, this is going to sub
+1:23:48 point just kind of point it to the
+1:23:50 correct direction again. And so, this is
+1:23:52 kind of giving me its plan. Um, I like
+1:23:55 it. It's a it's pretty neat.
+1:23:58 um app create browse API components.
+1:24:01 Okay. Yeah. Um
+1:24:04 skim skim and
+1:24:07 I think it looks good. So I'm going to
+1:24:09 go ahead and let it build now. So you
+1:24:13 know looking at it, it's actually very
+1:24:16 similar to uh you know the agents view.
+1:24:18 Oh, it's asking me for permission. As in
+1:24:22 like the layouts are
+1:24:25 the agents view is definitely more
+1:24:26 spacious, but you know, I think we're
+1:24:28 going to be seeing a lot of changes.
+1:24:30 Yep. Come over on the left and I kind of
+1:24:32 want to keep track of what's going on
+1:24:34 because it's a pretty big change. So,
+1:24:37 this is why I'm sticking over here.
+1:24:38 Later you'll also be able to see that if
+1:24:40 we are debugging any issues I can
+1:24:43 directly reference the files and I can
+1:24:45 use like the at this command and you can
+1:24:48 point to files here which is really
+1:24:50 important and when you're pointing to
+1:24:52 files to add the context to your agent
+1:24:54 you're kind of telling the agent hey
+1:24:56 look specifically at this file there's
+1:24:58 something wrong or I think this is the
+1:25:00 problem obviously this is a little more
+1:25:02 technical leaning um and I did want to
+1:25:04 dive into a little bit about how like
+1:25:06 you know as you upskill you can use
+1:25:08 cursor and all of its features a bit
+1:25:10 more. So when you're attaching files,
+1:25:13 it's obviously very important to be able
+1:25:15 to see kind of what the file is, the
+1:25:17 directory, and all its relations.
+1:25:20 >> Makes sense.
+1:25:23 >> And it is still checking.
+1:25:26 Cool. Yeah. Oh, I probably should not
+1:25:28 have used composer.
+1:25:31 That's probably
+1:25:33 maybe I should have ran this on agents
+1:25:35 for three.
+1:25:37 Maybe you should have.
+1:25:38 >> Yeah. Well, we'll see if this fails. Um,
+1:25:42 >> so this is a really good test. So, um,
+1:25:44 yeah. And I think one thing you could do
+1:25:45 is you could just stop it and then re
+1:25:47 not saying you should do this right now.
+1:25:49 Um, and then just use the agents and you
+1:25:51 could have used, you know, what you did
+1:25:53 earlier, GBT5, um, Claude and Composer
+1:25:56 at the same time.
+1:25:58 >> Um,
+1:25:58 >> but I think that's a good backup option
+1:26:00 if this fails. But this is a really good
+1:26:02 test to see how composer is.
+1:26:04 >> Yeah, you know, we'll see. All right,
+1:26:06 we're back and wow, we've got, you know,
+1:26:09 a lot of things going on. 18 files
+1:26:12 edited. As you can see, there are a lot
+1:26:15 more files in my folder directory now.
+1:26:17 And the app is ready to use. Test the
+1:26:20 flow. Oh, next steps. Okay, so it's
+1:26:22 telling me to do a few things. Once
+1:26:24 again, these are implied that I need to
+1:26:26 open the terminal. So, I'm going to go
+1:26:28 ahead and clear the terminal. Oops.
+1:26:32 clear and push the schema. I'm going to
+1:26:36 go ahead and do that. Oh, install. Yep.
+1:26:39 Go ahead
+1:26:41 and
+1:26:44 cool. Oh, I have to log in. Okay.
+1:26:47 Instant CLI login. So, and by the way,
+1:26:52 you could literally ask cursor to do
+1:26:55 this stuff for you, right? Like,
+1:26:56 >> yeah, you could.
+1:26:58 You want to talk about command K in the
+1:27:00 terminal? I don't know if you've ever
+1:27:02 used that.
+1:27:03 >> Oh.
+1:27:05 Um, it is taking a second to come up.
+1:27:09 >> Oh, weird.
+1:27:10 >> Command K was pressed waiting for second
+1:27:12 key of chord.
+1:27:13 >> Ah.
+1:27:14 >> Huh. What is that?
+1:27:14 >> It's waiting for something from you.
+1:27:17 >> I don't know. I don't know if command K
+1:27:19 exists anymore. I haven't used it in so
+1:27:21 long.
+1:27:22 >> It literally says command K to generate
+1:27:23 command.
+1:27:24 >> Oh, yeah.
+1:27:25 >> Anyway,
+1:27:26 >> command K. Well,
+1:27:28 >> ignore.
+1:27:29 >> Yeah. Um, honestly, we'll be back after
+1:27:32 I figure out. All right, so we're back.
+1:27:34 It did give us a lot of file changes. As
+1:27:37 you can see, there are a lot of files
+1:27:38 and the project directory got a lot more
+1:27:40 complicated. And uh let's just see if it
+1:27:44 works. It's telling me to
+1:27:46 um do this. But let me just try out the
+1:27:51 Okay, let me just try out Let me just
+1:27:53 run the dev server locally and check out
+1:27:55 the website first to kind of see if it's
+1:27:58 able to load. And okay, I see a lot of
+1:28:02 issues already with the website. First
+1:28:05 of all, Nex.js is out of date. Uh I
+1:28:08 should have caught that from the plan.
+1:28:09 So this goes back to reference, you
+1:28:10 know, if you read the plan, um it
+1:28:13 actually said it was going to use Next
+1:28:15 14. We're actually on next 16 right now.
+1:28:17 So that is just wrong in general. And
+1:28:20 obviously there was um an error that we
+1:28:22 saw with uh what is this? Instant DV and
+1:28:26 Webpack module. So I think you know
+1:28:29 composer uh it's a fast model but just
+1:28:33 wasn't really like you know aware of
+1:28:35 what was going on this time. So I'm
+1:28:36 going to actually run this prompt with
+1:28:38 sonnet 4. And to do that uh sonnet 4.5
+1:28:41 I'm going to go head over to agents. The
+1:28:43 good thing is I can take this whole plan
+1:28:46 basically and feed it to Sonnet 4. Oh,
+1:28:49 and this is their to-dos. So, I'm not
+1:28:51 going to grab the to-dos. I'm going to
+1:28:52 just grab the plan. I'm going to go to
+1:28:54 agents, create a new agent. This time
+1:28:57 I'm going to be using set 4.5 and I will
+1:29:01 be telling it this is the plan and I'm
+1:29:04 going to go and change next to be next
+1:29:07 16, which is the current next. So, we're
+1:29:10 still passing in this key and we're
+1:29:12 telling it that we want it to uh new
+1:29:15 files or honestly this is maybe a little
+1:29:17 more too detailed. I'm just going to
+1:29:18 give it a plan mode again. Let it plan
+1:29:21 on the plan and uh let's see. Yeah, this
+1:29:25 stuff looks good. I'm going to delete
+1:29:27 this new files because I don't want it
+1:29:29 to be too specific since the old plan
+1:29:31 definitely had some problems. This way
+1:29:33 it'll kind of generate a new plan. And
+1:29:35 so, uh, I see here
+1:29:38 I want to use Tailwind.
+1:29:41 Uh, so I am just editing the plan before
+1:29:43 I send it off. And, uh, let's see. Yeah,
+1:29:47 I think everything else here looks
+1:29:49 pretty decent or I'm just skimming
+1:29:50 through it as well. Um, I don't think we
+1:29:53 need to give it a specific file
+1:29:54 structure. So, I'm going to delete this
+1:29:56 as well. And the file structure is what
+1:29:58 we were looking at over here. It was
+1:30:00 kind of like planning what files to
+1:30:01 make. Uh, just delete that. And let's
+1:30:04 see, uh, these are kind of some key
+1:30:07 features. Yep, I like that. Uh, creation
+1:30:09 flow, post meme, converts canvas to
+1:30:12 blob, uploads to instant DB storage.
+1:30:14 Yep. Yep. This all looks pretty good.
+1:30:17 Um, technical implementations.
+1:30:20 It's talking about some React stuff and
+1:30:22 the migration strategy. Okay, cool. Um,
+1:30:28 this looks good. I'm going to tell it to
+1:30:30 think about this plan. I might actually
+1:30:32 run it two times and we'll see what
+1:30:35 Sonnet 4 cooks up and we'll probably
+1:30:37 build with Sonnet 4.5.
+1:30:38 >> Wait, so is it it's going to plan?
+1:30:41 >> We're getting a plan right now or are we
+1:30:43 get it's going to generate code?
+1:30:45 >> No, it's planning. So, we're on plan
+1:30:46 mode. I just fed it the plan of composer
+1:30:48 one. I think composer one was a little
+1:30:50 out of date and it tried to use next 14
+1:30:53 which is going to cause a lot of
+1:30:55 problems. So
+1:30:56 >> I just told it no like
+1:30:58 >> let's just use sonnet and if this gives
+1:31:00 me another plan I don't like I will
+1:31:03 >> uh I don't know tell it like to directly
+1:31:07 use next 14.
+1:31:09 >> Gotcha.
+1:31:09 >> All right. So it's asking me some
+1:31:11 questions. Uh okay. So oh yeah there's a
+1:31:15 current this is a great point. I didn't
+1:31:17 undo the other plan. So um so it
+1:31:22 actually was asking me like oh and I
+1:31:24 caught this because it was saying your
+1:31:26 package already is using next 14. So
+1:31:29 obviously we still have all of this code
+1:31:32 that composer wrote for us that doesn't
+1:31:34 work. We want to get rid of it and
+1:31:35 that's why we use git to make a commit.
+1:31:38 So we dropped the checkpoint last time
+1:31:40 we did the slash commit command. Right?
+1:31:42 So remember this. We can just go right
+1:31:44 back to it and it'll discard all of this
+1:31:46 stuff. So, I'm going to go ahead and do
+1:31:48 that. Uh,
+1:31:49 >> do you want to just use the git tree? I
+1:31:51 think it's cleaner if you wanted to show
+1:31:53 them up there. Like, you could probably
+1:31:55 just remove the changes.
+1:31:57 >> Uh, yeah, the changes. 27 changes. Um, I
+1:32:02 don't know.
+1:32:03 >> Okay, that's just how I understand it
+1:32:05 versus going in the terminal.
+1:32:06 >> No, no, no. You're right. Here are all
+1:32:08 the 27 changes. Um, these are all the
+1:32:11 files that composer wrote and you know
+1:32:14 they are not working obviously. So if we
+1:32:17 want to get rid of all this code and let
+1:32:19 sonnet 4.5 start on kind of like a fresh
+1:32:22 point of the last checkpoint that we
+1:32:24 left. So you can go ahead and you know
+1:32:27 like delete these if it makes it more
+1:32:30 intuitive. Um but the same thing is just
+1:32:33 heading over here and get stash. And so
+1:32:36 now that'll also Oh, actually deleting
+1:32:39 might actually be faster. Um cuz new
+1:32:45 >> Don't you just go to the top and go to
+1:32:46 changes and there's like a little button
+1:32:47 there that like lets you delete. Oh,
+1:32:49 discard.
+1:32:49 >> Discard all. Yeah. Okay. No, that's
+1:32:51 great. Um
+1:32:54 what is going on here?
+1:32:57 Okay. So now if we look into our
+1:33:01 folders, ah there's just a lot of
+1:33:03 folders. Okay, that's the problem.
+1:33:04 There's a lot of empty folders now.
+1:33:07 [snorts] Um, we're back with our
+1:33:08 original three files from before any of
+1:33:10 this mess happened. Um, but the next
+1:33:15 JS left us with a lot of folders that
+1:33:17 we're just going to go ahead and delete
+1:33:18 as well. And this is why being able to
+1:33:20 see the folder view is pretty nice. So,
+1:33:22 I can just, you know, delete all of
+1:33:24 these and clean up my working directory,
+1:33:28 which is the repo that we had. Do not
+1:33:32 delete the dot cursor one. This is where
+1:33:33 your commands and rules live. And
+1:33:36 obviously, I'm trying to reestablish my
+1:33:38 next app. So, I'm going to delete these
+1:33:40 as well. And boom. We're kind of back to
+1:33:43 where we were before this whole mess.
+1:33:46 So, this is the prompt that we want to
+1:33:47 do. And I realized that this is actually
+1:33:49 a very complicated prompt because we're
+1:33:51 asking it to refactor into the whole
+1:33:53 codebase. And generally, that means
+1:33:56 like, you know, it gets pretty messy.
+1:33:58 And so, actually, I'm going to bring
+1:33:59 this back to agent, but we will be
+1:34:01 exploring editor. uh after we run this
+1:34:04 kind of big prompt. So
+1:34:05 >> amazing.
+1:34:06 >> I want to go into editor. Uh oh, okay.
+1:34:08 Well, it's here. And I don't want
+1:34:11 composer for this because um I do want
+1:34:13 to trust the frontier models on this or
+1:34:15 I guess yeah, we'll run sonnet and gpd5.
+1:34:20 Uh
+1:34:21 you know what? Sure. Like twice. Um
+1:34:23 >> just go two and two. I like it.
+1:34:25 >> Yeah, I like it. And so great. uh you
+1:34:29 know let's do a plan mode and let's kind
+1:34:33 of see or I guess okay
+1:34:35 >> I think we just rip it yeah I think we
+1:34:37 can just rip it since we have so many
+1:34:39 agents running and we'll just take the
+1:34:40 best one so that's another way to use
+1:34:42 this new this is what I mean by like I
+1:34:44 feel like the cursor 2.0 is like one of
+1:34:46 the most
+1:34:47 >> powerful like ways to use AI like I
+1:34:50 don't even
+1:34:51 >> I could do a plan is probably the best
+1:34:53 practice but I I have I have faith so
+1:34:55 >> I have faith as well
+1:34:56 >> yeah let's just run this
+1:34:58 So, now we have four agents going, and
+1:35:01 this will take a bit of time. This might
+1:35:02 take five minutes. Uh, Sonnet 4.5,
+1:35:04 Sonnet 4.5, GBT5, and GPT5. We'll see
+1:35:07 how it does. Boom. We're back. And
+1:35:09 interestingly enough, I mean, this
+1:35:11 Sonnet one just kind of died, but we
+1:35:14 have three that completed and all of
+1:35:17 them gave us plans. And so, this is kind
+1:35:20 of the agent saying, "Hold on, hold on.
+1:35:22 This is a really big change. I need to
+1:35:23 take some time and propose a plan
+1:35:26 anyways." is even though we weren't on
+1:35:27 plan mode, all of them gave me a plan
+1:35:29 and it's asking me for permission. So,
+1:35:32 off camera, I went off and I read a few
+1:35:34 plans. Um, I think the Sonnet 4
+1:35:37 definitely is the most detailed plan,
+1:35:38 but it also has way too many features
+1:35:40 that I didn't ask for, so it's too
+1:35:42 complicated. I'm going to discard the
+1:35:44 Sonnet 4.5 plan. So, I'm really focusing
+1:35:46 on these two plans. And I kind of like
+1:35:48 the first plan more, although it had a
+1:35:50 few things or like questions that it was
+1:35:52 kind of asking. So it was saying like oh
+1:35:56 you know go and explore o providers or
+1:35:58 like a storage system. I'm just going to
+1:35:59 go ahead and say this plan
+1:36:03 looks good
+1:36:05 but I want you to use instant DB storage
+1:36:09 and instant DB off with magic link. Uh
+1:36:14 it will send me a sixdigit
+1:36:20 signin code. So, I think with this it'll
+1:36:24 go ahead and use this plan and what I
+1:36:26 told it to make the transition. And uh
+1:36:29 let's see. I'm going to go ahead and use
+1:36:34 4.5.
+1:36:36 Yeah, let's give it a try.
+1:36:38 >> Let's do it.
+1:36:39 >> No, it's just updating the plan now.
+1:36:41 Build it.
+1:36:43 Is this because I switched to 4.5? So,
+1:36:47 this is probably like something that I
+1:36:49 didn't know until now, but I have a
+1:36:50 feeling that it gave me this plan
+1:36:52 because I switched to 4.5 from chat GBT
+1:36:57 and so it's kind of like updating the
+1:36:59 plan. I have the feeling that if I just
+1:37:00 ran it on um codeex, it would have just
+1:37:04 started coding, but I think it's just,
+1:37:06 you know, asking for permission. I'm
+1:37:08 going to give it a little skim through
+1:37:09 again to make sure everything's right
+1:37:10 because this is a pretty big refactor.
+1:37:13 Um, all these things look pretty good.
+1:37:15 Yep. minimal. Yep. I like it because the
+1:37:18 real difference is that once again, this
+1:37:19 is a lot more minimal. Um, and this this
+1:37:22 is just like too much. I think I think
+1:37:25 we don't want it to, you know, it's
+1:37:27 already a big task. We don't want it to
+1:37:28 over complicate things, which is why I
+1:37:30 chose to stick with this plan. It's just
+1:37:31 echoing me the plan back. I'm just going
+1:37:33 to go ahead and say go ahead. And now
+1:37:36 it'll start writing me some code. All
+1:37:38 right, we are back. And wow, was that a
+1:37:42 big change. It took a while. We took a
+1:37:44 break. We're back though. 2400 lines of
+1:37:46 code written. So, um I want to hop right
+1:37:50 into it and test it, but I do want to
+1:37:52 skim this a little bit. And it probably
+1:37:54 has a few things that we need to do. So,
+1:37:58 let's see.
+1:38:00 Okay, it's telling me about what it did.
+1:38:02 Okay, how to use. Okay, so
+1:38:03 >> what file is this? Is this some
+1:38:05 >> It's a file that it wrote. It's a
+1:38:06 markdown. A lot of times when you ask
+1:38:08 for a big change, it'll often update the
+1:38:11 readme and write you a little markdown
+1:38:13 document. implementation summary.mmd.
+1:38:16 >> Yeah. So basically, yeah, and it has a
+1:38:18 lot of helpful tips at the end. So I
+1:38:20 highly recommend reading it or at least
+1:38:22 definitely skim through it. Um, it looks
+1:38:25 mostly like correct in terms of uh what
+1:38:28 like I'm looking for. So it's mentioning
+1:38:30 everything that I kind of asked it for.
+1:38:32 Um, and so what I'm really looking for
+1:38:35 is kind of like how to get started and
+1:38:37 Yeah. Okay. Yeah. Here how to use. So it
+1:38:39 says that we need to do the database and
+1:38:42 I think our server is already running.
+1:38:43 So, um, all we really needed, oh, it has
+1:38:45 instructions to publishing as well. But,
+1:38:48 uh, before we hop right into it, let me
+1:38:49 just make sure we are going to have to
+1:38:53 push some things for Instant DB because
+1:38:56 in order for a database to work, you
+1:38:57 kind of have to define the tables and
+1:38:59 it's asking us to do that. So, I'm going
+1:39:01 to go ahead and do that. Um, it's gave
+1:39:04 us the permissions. Once again, I'm just
+1:39:05 going to be copying it. Bash genuinely
+1:39:07 means put this into a terminal. So, I
+1:39:11 will do just that. Uh, I have this
+1:39:13 terminal here. Let's clean this up. And
+1:39:16 I'm going to just paste the first
+1:39:17 command in.
+1:39:20 And so it's it's instant DB asking to
+1:39:24 log me into the terminal, which makes
+1:39:27 sense because we're using instant DB and
+1:39:30 uh we kind of need the terminal to make
+1:39:32 sure the whole setup is logged in for
+1:39:34 the app that we have hosted. So, um just
+1:39:37 going to proceed and okay, so I'm
+1:39:40 already logged in on the website. Um and
+1:39:43 it's just asking if I can log in. So, I
+1:39:45 will go ahead and log in. Um close.
+1:39:49 Cool. And then we needed to run the
+1:39:52 push.
+1:39:55 So, let's just follow some instructions.
+1:39:58 Uh it's asking if it can push these
+1:40:00 table changes. This is exactly what I
+1:40:02 wanted. And some permissions. So, it's
+1:40:04 actually really good that it wrote
+1:40:05 permissions because this way, you know,
+1:40:07 our app is more secure. Um, going to
+1:40:09 just say yes to everything. Everything
+1:40:11 worked. Okay, that's good. Uh, probably
+1:40:14 because it had some documentation. This
+1:40:16 part sometimes get tricky. If you do get
+1:40:18 caught up in it, I would just, you know,
+1:40:21 ask the AI like what's going on. And if
+1:40:25 it's like continuously making errors, I
+1:40:27 would try different models like GPD5
+1:40:31 cursor uh uh not composer and uh sonnet
+1:40:34 4.5 as well as always telling it to do
+1:40:37 research online because these things do
+1:40:38 change a lot. Whatever they're trained
+1:40:40 on might be wrong and they might default
+1:40:41 to something incorrect.
+1:40:42 >> Yeah. Can I add something? Can you pull
+1:40:44 up the terminal just a little bit so we
+1:40:46 can see it?
+1:40:46 >> Oh yeah.
+1:40:47 >> I want to talk about one thing real
+1:40:48 quick. Uh because I've been, you know, I
+1:40:50 vibe code a lot. I use I've used like
+1:40:52 four or five of the different like uh
+1:40:54 database softwares. Superbase, Firebase,
+1:40:57 um and now I use Instant DB. Um I just
+1:41:00 want to go over this rules or
+1:41:03 permissions
+1:41:04 >> folder. And so what this is um basically
+1:41:07 and you can if even if you don't code,
+1:41:09 you can kind of like reason your way
+1:41:10 through it. What all this does is if you
+1:41:12 think about like Twitter and when you
+1:41:14 sign into Twitter, you have certain
+1:41:16 rules and permissions on like what
+1:41:17 you're allowed to view as a user, right?
+1:41:19 And so that's all this is is basically
+1:41:22 saying like what user can see what is
+1:41:25 that effectively what the rules and
+1:41:26 permissions are.
+1:41:27 >> Yeah, exactly. So as you can see here
+1:41:29 just through skimming we can kind of see
+1:41:30 that is defining for the memes anyone
+1:41:32 can view it but only the owner can uh
+1:41:37 update or delete it and you can only
+1:41:38 create it if you're authenticated.
+1:41:40 >> Right. So
+1:41:41 >> so like in the feed of memes everyone
+1:41:43 can see them, right? But only the person
+1:41:45 who posted the meme can edit it or make
+1:41:48 changes or delete it. Yeah, exactly. And
+1:41:50 you can reason through a lot of things.
+1:41:52 Um, I like Instant DB because it
+1:41:54 automatically has something called
+1:41:56 files, which if you're more technical,
+1:41:58 this means you can use it as file
+1:42:00 storage. So for memes, they're images
+1:42:03 and databases don't actually store
+1:42:05 images in the table. Um, but that's why
+1:42:08 I like instant DB. That was basically
+1:42:10 automatic. And you can see something
+1:42:12 similar like, you know, you're only
+1:42:13 allowed to vote uh you can see all the
+1:42:15 votes u but you're only allowed to
+1:42:17 create votes if you're authenticated.
+1:42:18 So, that makes sense. And you're only
+1:42:20 allowed to like delete your vote if
+1:42:21 you're the one who voted. So, all of
+1:42:23 this stuff looks really good. Um, I'm
+1:42:25 excited to test it out. Uh, let's just
+1:42:28 hop over to Okay. Yeah, I think this is
+1:42:30 this is it. And, uh, I do see a sign-in
+1:42:34 page. Let's see if the permissions are
+1:42:36 working. Um, so if I just try to post
+1:42:38 this, I see that I see like we have some
+1:42:41 good stuff. We have um
+1:42:44 the two. Okay. Nothing.
+1:42:46 >> Okay. So, created there's a create page
+1:42:48 and then a feed page.
+1:42:50 >> Yeah.
+1:42:50 >> Cool.
+1:42:51 >> Yeah. And uh I see the signin button,
+1:42:54 but I do want to test if the permissions
+1:42:55 are working. So, let's just try to post
+1:42:57 this photo. And yeah, it says please
+1:43:00 sign in to post memes. So,
+1:43:02 >> okay.
+1:43:03 >> Oh, wow. It it automatically links me to
+1:43:05 the sign-in page. Uh I'm going to go
+1:43:07 ahead and sign in. So, this is my email.
+1:43:09 Um
+1:43:11 maybe blur this. I don't know.
+1:43:14 >> Uh okay, cool. We are shown enter
+1:43:17 six-digit code sent to your email. I
+1:43:18 will check my phone right now.
+1:43:20 >> So, when you use Instant DB, it's by
+1:43:22 default uses this like six-digit
+1:43:23 verification code. So, you get an email
+1:43:26 from Instant DB, right? Is that what it
+1:43:28 is?
+1:43:28 >> Yeah. Um, I can actually show the email
+1:43:31 on uh I guess here. So, I did just get
+1:43:35 an email. Um, so you know,
+1:43:40 this is the code I got. It does come
+1:43:42 from something called, you know, meme
+1:43:44 generator, which is the project name.
+1:43:47 So, that's kind of nice. I do think
+1:43:49 there's a way to customize this, but
+1:43:50 Instant DB kind of does this out of the
+1:43:52 box. You can also do sign in with
+1:43:54 Google, sign in with Apple, all the
+1:43:56 fancy stuff. Uh, that's a little more
+1:43:58 complicated. You have to give it some
+1:43:59 more API keys, but it is possible with
+1:44:01 Instant DB and you could probably do it
+1:44:02 vi coding as well. Yeah. So, it's it's a
+1:44:05 lot easier to get started not using
+1:44:07 signin with Google. um like you should
+1:44:09 just test it and this is the simplest
+1:44:11 way to test and then once you have
+1:44:13 everything like created and it looks
+1:44:14 good then you I then you add that after
+1:44:17 that's how I usually do it.
+1:44:18 >> Yeah. Yeah. I think that's a great
+1:44:19 suggestion. Um to not to get too into
+1:44:22 the details, but when you do start, you
+1:44:24 know, signing in with Google, you need
+1:44:26 their like OOTH and their they have
+1:44:28 tokens that you have to feed the AI and
+1:44:30 then finding that token is really like
+1:44:32 difficult because you have to go through
+1:44:33 like Google, you know, like technical
+1:44:36 like dashboard and all that stuff. Um
+1:44:39 and AI can't really do that for you. So
+1:44:41 that is a current limitation of Vive
+1:44:42 coding. that stuff. You will have to go
+1:44:44 dig through Google's OOTH documentation
+1:44:47 and figure out how to create one. Um,
+1:44:50 but okay. Yeah, this is the Yeah, cool.
+1:44:54 This is the project. Um, I'm going to go
+1:44:56 and enter this code in and we are in.
+1:45:00 And
+1:45:00 >> And notice how his emails up at the top
+1:45:02 right.
+1:45:02 >> Yeah.
+1:45:03 >> Um, and so you're signed in, it looks
+1:45:05 like.
+1:45:06 >> Cool. Um, I do think I will be able to
+1:45:09 post something now. So, let's actually
+1:45:10 make a meme. Uh, the little girl or
+1:45:13 whatever and just say like you like
+1:45:16 coding question mark or something.
+1:45:17 >> I don't even know what is this meme
+1:45:19 template usually.
+1:45:21 >> You don't vive code with cursor.
+1:45:26 >> I like it. Emily, what do you think of
+1:45:28 this meme?
+1:45:29 >> Okay, it's funny.
+1:45:31 >> Okay. Um,
+1:45:33 post the feed
+1:45:36 meme posted posted successfully. Okay.
+1:45:40 Oh,
+1:45:41 >> and yeah,
+1:45:42 >> didn't nail the aspect ratio, but that's
+1:45:44 okay.
+1:45:45 >> The aspect ratio is a little weird. It
+1:45:47 has the only text in it as the title.
+1:45:50 Um, I can't click on it to full screen
+1:45:53 it. So, these are all features that we
+1:45:54 can add. But
+1:45:56 >> question, do you want to show what it
+1:45:58 looks like in the actual database?
+1:45:59 >> Oh, yeah, that's a great suggestion. Um,
+1:46:02 so in the database, I'm expecting So,
+1:46:05 these are the tables.
+1:46:06 >> Wait, let's let's hop back. Let's go to
+1:46:08 explorer. So, so yeah, I think so.
+1:46:11 There's the public app ID, which Kihan
+1:46:13 will probably either rotate or delete
+1:46:15 after this video because you definitely
+1:46:17 want to keep that safe. As you see, we
+1:46:19 could set up this database with that
+1:46:21 public app ID. So, if you give someone
+1:46:23 your public app ID, they literally can
+1:46:26 uh just edit your database, uh, which is
+1:46:28 not good.
+1:46:29 >> Um, the explorer, what the explorer
+1:46:31 does,
+1:46:32 >> the explorer kind of lets you oh, flip
+1:46:34 through like the data that you have. So,
+1:46:37 you know, over here we have the one meme
+1:46:39 that I just made. Uh, and then it has
+1:46:43 the link to the image. Uh, this is the
+1:46:45 one user, which is me, Riley. You can
+1:46:47 actually Oh, I guess you can't really
+1:46:50 check this out until I publish it. But
+1:46:51 >> that's true. We can do that in a sec.
+1:46:53 >> Um, so yeah, we have one user, which is
+1:46:56 myself, and we have one meme, which is
+1:46:57 the meme that I just posted. Pretty
+1:46:59 cool. Uh, and so I guess like I want to
+1:47:04 test the upvoting feature. And I can
+1:47:06 upvote it. Let's see if we see a vote
+1:47:09 come through. Yeah, we do. And the good
+1:47:13 part is you can you can link it to the
+1:47:14 meme. That's the same meme that I
+1:47:16 posted. And you could link it probably
+1:47:18 to me. Yeah. So that is me. So that's a
+1:47:20 little bit about
+1:47:21 >> a little brief intro to databases. Uh,
+1:47:24 it really is just a collection of tables
+1:47:26 that your app uses. So it's good. Uh,
+1:47:29 pretty impressed that everything works.
+1:47:31 Um, you can create more memes. This is
+1:47:34 all really fine and dandy. Yeah. So, I
+1:47:36 did say we were going to go talk about
+1:47:38 the editor view. This is the editor
+1:47:40 view. Um, you know, terminals live down
+1:47:42 here. You can also collapse them. Uh,
+1:47:46 but the key point is um the agent does
+1:47:49 exist here. This is the same chat. I'm
+1:47:52 going to make a new one. And we can
+1:47:54 actually ask it to um Oh, nice. It only
+1:47:58 lets me upload it once to like open the
+1:48:00 meme. Since this aspect ratio is cutting
+1:48:02 off some of the meme, I would like to
+1:48:04 ideally like tap and see the full meme.
+1:48:06 And so I guess we can kind of just add
+1:48:09 ask that as a feature. Um, and you know,
+1:48:12 if you're technical, you can kind of
+1:48:14 like look through and see how all of
+1:48:17 this like looks. Um, and
+1:48:21 let's see. I think like app feed page.
+1:48:25 This is probably where we're rendering.
+1:48:28 Yeah, this is where we're rendering
+1:48:29 this. So, I can actually do this. So, it
+1:48:32 actually says plan at for context or
+1:48:34 slash for commands. I'm just going to go
+1:48:35 ahead and add page. Oh, uh,
+1:48:38 slashfeed/page.
+1:48:40 Yep. Next.js is interesting. It likes to
+1:48:42 name everything page. But we can go
+1:48:44 ahead and attach this specific file. And
+1:48:46 if you are a little confused here, this
+1:48:48 is all called page.tsx. This is telling
+1:48:51 me that inside of the app folder itself,
+1:48:54 there's a page.tsx tsx specifically.
+1:48:56 It's looking at this one right here. Um,
+1:48:58 you can tell because it kind of points
+1:48:59 you down this way and uh there's there's
+1:49:03 quite a few. There's one inside of app
+1:49:05 feed. So, this is a subfolder. Uh,
+1:49:07 inside of here, there's a page. Inside
+1:49:09 of login, there's a page. So, I want to
+1:49:10 point it to the code file that I know
+1:49:13 that I want it to kind of work on. So,
+1:49:16 page inside of feed, I'm going to say
+1:49:18 when I tap on a meme, I want it to full
+1:49:24 screen. Um, yeah, that's kind of like
+1:49:28 the only feature. I think it'll work
+1:49:30 just fine. Uh, I think we can go back to
+1:49:32 composer. This should be a pretty quick
+1:49:34 fix. Um, and so yeah, I guess the first
+1:49:37 feature we wanted to highlight was the
+1:49:38 add context. There's actually quite a
+1:49:40 few things you can add. You could add
+1:49:42 like uh specific docs, you know, you
+1:49:44 could add whole files and folders. Like
+1:49:47 I just showed you adding one file, but
+1:49:50 you can actually append like the whole
+1:49:51 folder. So I could literally do like
+1:49:53 slash app. Um there's a caveat here
+1:49:55 though when you do append slash app and
+1:49:57 I guess it makes sense to kind of do it
+1:49:59 for this. Um so when just a little bit
+1:50:02 of how cursor works technically when you
+1:50:04 do add a file it'll append the whole
+1:50:06 file. So all of this stuff I'm basically
+1:50:09 just you know crl +ving this whole file
+1:50:11 in here right. Um when you do at app
+1:50:15 like a folder it will actually give you
+1:50:18 like it'll condense that into like a
+1:50:21 summary of all of the subfolders and the
+1:50:24 files inside of it and a little bit of a
+1:50:27 highlevel like abstraction of what
+1:50:30 exists in the file. So it won't append
+1:50:32 like every single line while if you do
+1:50:34 append a page it will basically append
+1:50:36 every line or try to. So just wanted to
+1:50:38 point that out. Um if you are asking for
+1:50:41 big requests and you just add the folder
+1:50:43 the result won't be as good if you
+1:50:45 pinpoint like specific pages that you
+1:50:46 want to be updating which is what I'm
+1:50:48 doing here. I kind of gave it app to
+1:50:50 kind of you know tell it since this is a
+1:50:52 new conversation give it a little more
+1:50:53 of an idea of what's going on. And uh
+1:50:56 let's just run it.
+1:50:58 Okay. Wow. It is. It does work fast.
+1:51:02 >> Imagine if it got as good as like Sonnet
+1:51:04 4.5 and it was this speed.
+1:51:06 >> That would be insane.
+1:51:08 >> Probably will happen
+1:51:09 >> sometime. Yeah. Um, so it's telling me
+1:51:12 it added a full screen meme. Uh, and
+1:51:15 then you know, let's just accept these
+1:51:17 or I'm pretty sure without accepting you
+1:51:19 can test if it works. So, okay. Yeah,
+1:51:22 >> I love it.
+1:51:23 >> Yeah, pretty pretty pretty quick. Yeah,
+1:51:25 it works.
+1:51:26 >> Wait, can you do one thing for me? Can
+1:51:28 you post another meme? And you don't
+1:51:29 even need to add text to it. I just want
+1:51:30 to see what it looks like with multiple
+1:51:32 fe memes in the feed.
+1:51:33 >> Yeah, sure. Uh, post this.
+1:51:36 >> Maybe you have to. Oh, no.
+1:51:38 >> Okay.
+1:51:39 >> Okay. So, it shows up in like a grid
+1:51:40 type deal. Okay.
+1:51:41 >> Okay. Yeah. Yeah. Yeah. I can I can keep
+1:51:43 posting memes, you know, like easy.
+1:51:46 >> Yeah. [snorts]
+1:51:47 Okay. Okay. Yeah. Okay. So, it is a
+1:51:50 little scuffed. We can play with the
+1:51:51 aspect ratio. Um, I do think that that
+1:51:53 will actually be a little bit
+1:51:54 challenging. uh just from my experience.
+1:51:57 But
+1:51:57 >> well, yeah, I mean like how would it do
+1:51:59 it in a grid unless you literally just
+1:52:00 did it in a vertical grid like Twitter,
+1:52:02 you know?
+1:52:03 >> Yeah. But like honestly, I think this is
+1:52:05 fine.
+1:52:05 >> Yeah, I think this is good. I think I
+1:52:07 think tapping to like see the full meme
+1:52:08 is like a good middle fix. Um
+1:52:11 >> and as you begin like playing with code
+1:52:13 and vibe coding, you'll be able to tell
+1:52:15 like, oh, AI really messes up at this
+1:52:18 one thing or like so it kind of takes a
+1:52:21 little bit of experience to know like
+1:52:22 what is hard, what is not hard. And we
+1:52:23 kind of mentioned this earlier when we
+1:52:25 were like, "Oh yeah, this like change to
+1:52:26 Nex.js is going to be a pretty big
+1:52:28 change." Um, a change like this is, you
+1:52:30 know, as you can see, super small, but
+1:52:32 pretty impressed. I'm going to go ahead
+1:52:34 and accept. You can also, you know, keep
+1:52:37 it shows you line by line where certain
+1:52:39 things are inserted or deleted or
+1:52:41 changed. And so these are pretty useful.
+1:52:43 Let's say like if this one was like
+1:52:45 terrible and wrong, I could actually
+1:52:48 reject it um and then only accept like
+1:52:50 the ones that I like. But for this, I'm
+1:52:52 just going to keep everything. Um, and
+1:52:54 uh, there's a few more files. Yep.
+1:52:57 Styling. Okay, great. And so now we have
+1:53:00 full screen mode. Cool. Yeah. So, just
+1:53:03 to make like this lesson go on, why
+1:53:05 don't I try and deploy this? So, Riley,
+1:53:08 you can come on and start upvoting my
+1:53:09 memes cuz, you know, I spend a lot of
+1:53:11 time on the memes. They're really good.
+1:53:13 I think this one truly speaks to me. Uh,
+1:53:16 so, you know, I don't know how to deploy
+1:53:18 things, but it's good that you can grow
+1:53:20 with cursor. So I can create a new chat
+1:53:22 and I can say I'm going to put this on
+1:53:24 ask mode. I'm going to learn with it.
+1:53:26 How can I deploy this? Let's do it.
+1:53:29 Yeah,
+1:53:30 >> this is literally how I first deployed
+1:53:32 on cursor. I asked it and it said to use
+1:53:35 Verscell CLI.
+1:53:37 >> Um it it suggested railway but I think
+1:53:39 on Oh yeah, Versell
+1:53:41 >> it has yeah it gives you a few options.
+1:53:43 Versel is easiest for Nex.js which is
+1:53:45 why I asked it to refactor to Nex.js. I
+1:53:48 personally think it's the easiest. I
+1:53:49 like it a lot. Um, and you know, there's
+1:53:52 a lot of alternatives, but it'll kind of
+1:53:54 like tell you a little bit about each
+1:53:56 what you need to do. Uh, and so, you
+1:54:01 know, it has some important notes and,
+1:54:04 uh, it'll give you a suggestion, right?
+1:54:06 Yeah, it says recommended for cell.
+1:54:08 Okay. So, tells you to sign in. I mean,
+1:54:11 honestly, we can just follow this step
+1:54:12 by step. Push your code to GitHub. So,
+1:54:15 uh, we have been using Git, but GitHub
+1:54:18 is like the cloud version of Git. So,
+1:54:21 you can actually have Git locally, which
+1:54:22 is what we've been doing so far, and you
+1:54:24 can actually have it associated and
+1:54:26 pushed onto GitHub. So, I'm going to go
+1:54:28 ahead and do that. I will be showing
+1:54:30 every step along the way. So, I'm just
+1:54:32 going to go to my GitHub account. This
+1:54:35 is my GitHub account. Uh, and you know,
+1:54:40 let's see. I'm going to have to create a
+1:54:42 new repository. And this repository is
+1:54:44 going to just be called meme generator.
+1:54:47 And if you don't know how to like walk
+1:54:49 through these steps of using GitHub, you
+1:54:51 can also ask cursor. Um, but if you're a
+1:54:54 developer, I'm sure you know how to use
+1:54:56 GitHub. It's
+1:54:57 >> have to choose an owner, my guy.
+1:54:59 >> Oh, you're right. I'm part of not just
+1:55:01 myself anymore. [laughter]
+1:55:03 Um, so yeah. Uh, I mean this actually
+1:55:05 tells you what to do. So push an
+1:55:06 existing repo. We have a repo. I'm just
+1:55:08 going to do this and, uh, stick this
+1:55:11 into here. Cool.
+1:55:14 >> One, two, three.
+1:55:16 >> Wait, also literally,
+1:55:19 >> can I Wait, have you entered that in
+1:55:21 yet?
+1:55:21 >> Uh, not the last part. Yes. What's up?
+1:55:23 >> Can I show you how I do it? Cuz you can
+1:55:25 oneshot this to Verscell.
+1:55:26 >> Oh, yeah.
+1:55:27 >> I'm not even kidding. If you go to
+1:55:29 GitHub,
+1:55:30 >> go to GitHub,
+1:55:31 >> copy the Git repository link. Just the
+1:55:33 repository link at the Yeah, that one.
+1:55:35 >> Ah, yeah.
+1:55:36 >> Copy it.
+1:55:37 >> Paste it in a cursor.
+1:55:38 >> Okay.
+1:55:39 >> Um, I would change it to Sonnet. I know
+1:55:41 Sonic can do But I don't know about
+1:55:42 composer.
+1:55:43 >> Okay.
+1:55:43 >> I would say um have you you've already
+1:55:47 signed into the CLI on Verscell. Have
+1:55:48 you done that before?
+1:55:49 >> This is a new computer so I don't think
+1:55:51 so. But maybe that's good. Maybe that's
+1:55:52 >> okay. I think it'll actually take you
+1:55:54 through that. So can you whisper flow or
+1:55:56 uh do the voice thing isn't available.
+1:55:59 Okay. It's not long. Just say I just
+1:56:01 created this GitHub repo. I want you to
+1:56:04 commit my code here and then I want you
+1:56:06 to to deploy to the to Verscell and use
+1:56:11 the Verscell CLI to do so. That's it.
+1:56:15 >> Cool. Do you want to talk about what a
+1:56:18 CLI is and what Versell CLI is?
+1:56:19 >> Yeah. So, honestly, I could not give you
+1:56:22 I've used a lot of CLIs in the last year
+1:56:23 as I've learned how to use AI coding. I
+1:56:26 command line interface, I believe, is
+1:56:28 what it it stands for. Um, and it is um
+1:56:32 I don't know. Anything else? I just know
+1:56:33 that it has to do something with the
+1:56:35 terminal. Is Claude code a CLI
+1:56:38 >> or is it a
+1:56:39 >> kind kind of kind of
+1:56:40 >> it's a TUI? Yeah.
+1:56:41 >> Or which I don't know the difference. I
+1:56:43 just hear everyone talking about it, but
+1:56:44 I use them all the time. So I just know
+1:56:46 it is an interface you can use in the
+1:56:48 terminal.
+1:56:49 >> Yeah. It's basically like um you know
+1:56:51 like this is like git is a CLI
+1:56:55 technically because you know any
+1:56:57 commands that you can run inside of a
+1:57:00 terminal that aren't like pre-built to
+1:57:02 your Mac is a CLI. So it's basically
+1:57:05 saying can I use Verscell which is you
+1:57:08 know the owner of next to deploy this uh
+1:57:11 project using like commands using like
+1:57:14 terminal commands.
+1:57:15 >> But you were on ask mode. Yeah, I was.
+1:57:17 But I kind of wanted to read a little
+1:57:18 bit, but I just forgot I was on ad mode.
+1:57:20 Okay. So, it tells me how to commit. It
+1:57:22 tells me to log in. Okay. And then it
+1:57:24 tells me to run d-prod. Okay. Um or if I
+1:57:27 I don't want to do it manually, so I'm
+1:57:29 going to just tell it to go go. Yep. So,
+1:57:33 yeah, you have to make sure it's on
+1:57:34 agent mode and it should just do it. At
+1:57:36 least cursor six months ago can do this.
+1:57:38 I haven't pushed to Verscell in a long
+1:57:41 time. I used to make web apps a lot
+1:57:43 more. Um,
+1:57:45 >> cool. So it is running. Okay. Yeah.
+1:57:47 Perfect.
+1:57:47 >> And the CLI is the same as what you were
+1:57:49 using to set up uh Instant DB.
+1:57:51 >> Yes. Yes. That's a great example. I was
+1:57:53 using Instant DB CLI to log in. You
+1:57:56 know, you saw them ask me to log in. I
+1:57:58 think for sale will do something similar
+1:58:00 >> and update the permissions too.
+1:58:01 >> Yep. Yep. And to update the permissions
+1:58:03 and schemas. So yeah, I think uh
+1:58:07 >> and yeah, and then the one thing you do
+1:58:08 have to do manually, if you add any APIs
+1:58:11 um to your app, uh you have to place
+1:58:13 those manually in Verscell, I believe. I
+1:58:16 don't think it can add environment
+1:58:17 variables um through this.
+1:58:19 >> So yeah, here I see this is probably the
+1:58:22 line that is going to ask me to sign in
+1:58:24 or something.
+1:58:25 >> Um let's see.
+1:58:26 >> But I believe it's already pushed your
+1:58:28 code to uh GitHub, right? So, if you go
+1:58:30 to the arc and refresh.
+1:58:33 >> Yeah, here's your code there. Perfect.
+1:58:35 >> Yeah. And uh here's the read me that AI
+1:58:39 wrote. Pretty neat, honestly. Okay, it's
+1:58:41 telling me to log in. Okay, I expected
+1:58:43 that. Um, let's see. Okay, so this is
+1:58:47 actually a very good thing to point out
+1:58:49 because the cursor's agent can use the
+1:58:52 terminal. Uh, it can run commands for
+1:58:54 you, but you know, these commands expect
+1:58:56 humans to kind of follow up. So, for
+1:58:59 example, it's telling me to press enter
+1:59:00 to open the browser. If I press enter,
+1:59:02 nothing really happens here. So, I can
+1:59:03 actually pop this out into an external
+1:59:05 one. And uh this basically just gives me
+1:59:09 some more space to hopefully interact
+1:59:11 with the command. And uh okay, so that
+1:59:14 one actually failed. Um I'm going to
+1:59:17 have to copy this line or I can I can
+1:59:19 just tell it like not working. give me
+1:59:23 the command to run because obviously
+1:59:26 this command is kind of waiting for me
+1:59:28 to do something and
+1:59:29 >> so it wants you to press enter so that
+1:59:31 you can sign into versel on the web
+1:59:33 right is that kind of what's
+1:59:35 >> exactly and you know the AI isn't able
+1:59:36 to like press enter for me or sign in
+1:59:38 for me which makes sense so uh it's
+1:59:40 telling me to just go and run the login
+1:59:43 command myself fair enough oh paste this
+1:59:46 in oh okay so this is another thing
+1:59:49 cursor has their own like weird terminal
+1:59:52 Gen, you probably don't want to be in
+1:59:53 this most of the time. Uh, it's more so
+1:59:55 for the agent to use. So, I'm actually
+1:59:57 going to kill this and create a new one.
+2:00:00 So, I'm going to go run the login
+2:00:02 command. And it's telling me to visit a
+2:00:04 website or press enter. Okay. I can
+2:00:06 actually press enter. So, enter the code
+2:00:09 from your device. Okay. Okay.
+2:00:12 >> Authorization successful. I think
+2:00:14 >> you can close this tab. Okay. Congrats.
+2:00:16 I'm signed in. Great. Um, and now it's
+2:00:18 telling me to deploy to Versell. Uh
+2:00:22 >> oh. I would just say I've signed in.
+2:00:24 Continue.
+2:00:25 >> That's what I would do. [laughter]
+2:00:27 It might be it's a shortcut to you, but
+2:00:29 to me it's the only way because I I I
+2:00:32 don't know how to do it otherwise.
+2:00:33 >> No, I mean this is great. You're
+2:00:35 teaching me about Vive coding. So, um
+2:00:39 it's running something. Let's see.
+2:00:42 Searching for existing project. It looks
+2:00:43 like it's doing something.
+2:00:46 >> And then it it can fail. But the thing
+2:00:48 is is when it fails, it'll give you a
+2:00:51 project link that you can click on and
+2:00:54 then the errors will pop up in Verscell
+2:00:56 that you can copy and give it back to
+2:00:58 cursor quad.
+2:01:00 >> Yeah.
+2:01:00 >> You know, with the new browser, you
+2:01:02 could probably even just open [laughter]
+2:01:03 it in cursor. Yeah.
+2:01:06 >> Oh wow. Definitely this screen does get
+2:01:07 a little crowded though.
+2:01:08 >> I don't like the browser. I'd much
+2:01:10 rather use the the swipe back and forth.
+2:01:12 >> Oh yeah, like the full screen.
+2:01:14 >> Yeah.
+2:01:14 >> Yeah. Yeah. Yeah. Uh, I think there's a
+2:01:16 lot of potential. You know, if you got a
+2:01:18 big monitor, I'm out here with my
+2:01:19 laptop. I would personally use the
+2:01:20 browser inside of the app if I was ever
+2:01:22 doing anything. Um, but let's see. The
+2:01:25 development is trying to build but needs
+2:01:26 an environmental variable, which is that
+2:01:28 secret key that we were talking about.
+2:01:30 >> Like I said, you need the
+2:01:30 >> I need your in what is your instant?
+2:01:32 Okay, so it's just asking me for it. Um,
+2:01:34 I would just give it. So,
+2:01:36 >> can you just give it to the
+2:01:38 >> I mean, it's asking me for it. So a lot
+2:01:40 of the times um these keys will be
+2:01:43 placed in kind of a important and secret
+2:01:45 file called env.local or env sometimes
+2:01:50 the local isn't there. Um here's my key
+2:01:55 uh just to kind of like connect some
+2:01:58 dots. Eenv literally means environment.
+2:02:01 So it says is asking for my environment
+2:02:03 variable. So that's kind of it checks
+2:02:05 out. Um these are meant to be secret. Do
+2:02:08 not share these anywhere. Do not push
+2:02:10 them to GitHub because people can find
+2:02:11 them on GitHub. This is very important,
+2:02:13 but I'll go ahead and pass it to the AI
+2:02:16 and see if it can actually finish
+2:02:17 deploying.
+2:02:18 >> I don't
+2:02:20 Let me add that environment variable.
+2:02:21 Okay. I was wrong. I didn't know that it
+2:02:23 could add them through the CLI.
+2:02:24 >> Yeah, that's really neat.
+2:02:27 >> Excellent. Okay. Redeploy. Yeah, deploy
+2:02:30 it for me.
+2:02:32 >> Let's go. And see, you have a
+2:02:35 >> a link
+2:02:36 >> project link.
+2:02:37 Yeah. Is this link going to be active?
+2:02:42 >> It does take some time to build.
+2:02:44 >> Yeah. Okay. No, that's really cool. I've
+2:02:46 never actually just told, you know, the
+2:02:47 cursor agent to deploy it for me, so I'm
+2:02:50 looking forward to it. I'm looking
+2:02:51 forward to you liking my memes. It's
+2:02:53 giving me a few follow-up commands. I'm
+2:02:54 just going to go ahead and allow
+2:02:55 everything. Uh, okay. I do see one
+2:02:58 deployment was ready and one failed. I
+2:03:00 think the first one that failed was
+2:03:01 probably the one without the environment
+2:03:03 variables.
+2:03:04 And okay, great. It's done. While I'm
+2:03:06 here, I just remembered another secret
+2:03:08 little tip for you guys. If you guys
+2:03:10 don't like clicking all the like allows
+2:03:11 and stuff, you guys can configure in the
+2:03:13 settings. I'm pretty sure it's Let's
+2:03:15 see.
+2:03:18 Where was it? Probably in general. Um
+2:03:21 Oh, yeah. You guys can have a completion
+2:03:23 sound. Uh system notifications. H
+2:03:28 editor settings. Keyboard shortcuts.
+2:03:31 Don't ask again. Wow.
+2:03:35 agent. Okay. Autocle clear chat. Here it
+2:03:38 is. Um
+2:03:42 Oh, you can actually turn off the web
+2:03:43 search tool. Auto accept on commit. Jump
+2:03:48 to next diff. Allow get to rewrite. So,
+2:03:51 there's a lot of ways you can kind of
+2:03:52 customize how autonomous your agent is.
+2:03:54 A lot of it will be in the settings. I
+2:03:56 highly recommend checking it out. Um I
+2:03:58 think I remembered I turned off like it
+2:04:00 would ask me every time if it Oh, yeah.
+2:04:02 This one auto accept web search. I turn
+2:04:05 this on because every single time it
+2:04:07 tries to read a website, it asks you and
+2:04:09 this is one of the settings that I
+2:04:10 instantly turn on because that was
+2:04:12 really annoying. But let's hop back into
+2:04:14 this. Um,
+2:04:16 it's live. I don't know. What's the
+2:04:19 link?
+2:04:21 >> Was there nothing? It didn't give you a
+2:04:22 link if you scroll up.
+2:04:24 >> Oh, no. It gave me the link. I was just
+2:04:25 too lazy to read.
+2:04:26 >> Ah,
+2:04:28 >> cool. Um,
+2:04:30 you want me to text this to Just just go
+2:04:33 to it first. Let's see if it's live. I
+2:04:35 just want to see what what it looks like
+2:04:37 if you go to that link. So this link
+2:04:39 >> Oh,
+2:04:41 >> so there's two links it gives you. One
+2:04:42 is like the project link and then the
+2:04:44 other one because it looks like you
+2:04:45 signed in in Safari, but go to the other
+2:04:48 link. There's two. There should be two
+2:04:49 links
+2:04:50 >> in cursor.
+2:04:53 Scroll up.
+2:04:55 >> Is there two links? Yeah. Yeah. Uh maybe
+2:04:58 not.
+2:05:00 Go to versel. Oh,
+2:05:04 >> huh. I know what you're talking about,
+2:05:05 though. I think the I was on different
+2:05:07 Versel accounts in Safari and Arc. So,
+2:05:09 if I just put it in here, it should just
+2:05:11 let me in. Yeah. Okay.
+2:05:12 >> Yeah. But I won't be allowed in if you
+2:05:14 send it to me. So, you're go to
+2:05:15 Verscell. I think it's really useful to
+2:05:17 go to Verscell, actually.
+2:05:18 >> Okay. Yeah. Why why not? Let's do a
+2:05:19 little section on Verscell. So, here I
+2:05:21 see my meme generator project.
+2:05:23 >> Can we talk about what it is? So, okay.
+2:05:24 So, what we just did is we deployed to
+2:05:26 Versaille. And if you're brand new,
+2:05:27 right, if you're if you're technical,
+2:05:28 you know exactly what we mean by
+2:05:30 deployed. um in which case this may be a
+2:05:33 little below you but that's okay for if
+2:05:35 those of you who are brand new to coding
+2:05:37 what we just did is we created all the
+2:05:39 files on cursor right uh we used AI to
+2:05:42 create the app and then we tested it
+2:05:43 locally then we deployed it to Verscell
+2:05:46 which means put it on the internet um
+2:05:48 it's not free to have something on the
+2:05:51 internet right you need to host it
+2:05:52 somewhere right is that what's happening
+2:05:55 here correct me if I'm using the wrong
+2:05:56 language but we're using Verscell to
+2:05:58 host it and now it's public on the
+2:06:00 internet and it doesn't just give you a
+2:06:02 fun cool domain. It would be nice if it
+2:06:04 did. It gives you this random long
+2:06:06 domain like meme
+2:06:07 generator-1/psl.verell.app
+2:06:11 and that is the domain that you can
+2:06:13 access to use the app. If you were to go
+2:06:15 to that domain actually we need to find
+2:06:18 the domain that's public.
+2:06:19 >> That is the public one.
+2:06:20 >> Okay,
+2:06:20 >> perfect.
+2:06:22 >> So that domain is literally on the
+2:06:24 internet. We'll put it in the
+2:06:25 description below. You'll be able to go
+2:06:27 and generate a meme, right? It is on the
+2:06:29 internet and I can use it. So Khan can
+2:06:31 actually send it to me.
+2:06:32 >> I can um we are not responsible for
+2:06:35 anything crazy that gets posted on that
+2:06:37 website.
+2:06:37 >> Yes.
+2:06:39 >> But this website is live. You guys can
+2:06:41 post things on it and make memes.
+2:06:44 >> And so if you go to the feed real quick,
+2:06:47 I'm signing in.
+2:06:48 >> Oh yeah, you can.
+2:06:49 >> And I'm going to go ahead and say um
+2:06:55 >> yeah. So Riley was saying hosting and
+2:06:57 deploying basically remember that we
+2:06:59 were running this project locally on our
+2:07:01 computer and I mentioned before that all
+2:07:03 the websites all run on a server. It's
+2:07:05 just somewhere in the middle of nowhere.
+2:07:07 This is basically renting one of those
+2:07:09 servers in the middle of nowhere to run
+2:07:11 our website but forever and to put it on
+2:07:16 the internet. So really neat stuff.
+2:07:18 >> Oh, I didn't sign in. I have to sign in.
+2:07:21 Um
+2:07:21 >> you got authenticated.
+2:07:23 your authentication blocked.
+2:07:26 >> It's all good. I can sign in here. This
+2:07:30 is fun.
+2:07:32 Um,
+2:07:35 entering the code.
+2:07:37 >> I'm gonna make a meme, too.
+2:07:39 >> Verify code.
+2:07:42 All right. You should see mine on the
+2:07:44 feed, actually. Yeah, I see all of them.
+2:07:48 Oh god, I got signed in, too. Oh my god.
+2:07:51 Okay. Well, I'll just check out your
+2:07:53 meme. Um,
+2:07:54 >> I don't even I think you're going to
+2:07:55 have to sign in, bucko.
+2:07:57 >> Nope, I'm not signing in.
+2:07:58 >> Ah, I just posted the you deploy to
+2:08:01 Versel meme.
+2:08:02 >> Why? Why is she confused? Why is the
+2:08:04 side eye you deploy?
+2:08:07 >> Oh, okay. Well, I'm glad it works. Riley
+2:08:10 has came on and
+2:08:11 >> and look, I can like stuff. And what I
+2:08:13 love about Instant DB is it's real time.
+2:08:15 Everything in in Instant DB, at least to
+2:08:17 my knowledge when I use it, is very real
+2:08:19 time. So things happen. In fact, Vashall
+2:08:22 and I made a video where I used Instant
+2:08:24 DB to make a video game and the position
+2:08:26 of all the characters in the game were
+2:08:28 updated real time, which was a lot of
+2:08:29 fun. Yeah.
+2:08:30 >> Um, so yeah, I like Instant DB. It's
+2:08:32 great.
+2:08:33 >> No, me too. I'm a big fan. I like how it
+2:08:35 bundles storage as well. It's pretty
+2:08:37 good.
+2:08:38 >> Definitely try them out.
+2:08:39 >> Yeah. Okay. So, so far we've talked
+2:08:42 about what cursor was. We talked about
+2:08:44 the basics. Uh, then we dove into cursor
+2:08:47 2.0, know, which was super fun for me
+2:08:49 because I learned about how you can run
+2:08:51 multiple agents at once. You could and
+2:08:52 it just completely new interface. It
+2:08:54 looks more like chat GPT. Um, and then
+2:08:56 we had a lot of fun in these two
+2:08:58 sections, three and four, where we built
+2:09:00 an app, right? We built the the the
+2:09:02 front end of the app. And then in
+2:09:04 section four, we built the database,
+2:09:06 which stores the data and how you showed
+2:09:08 us how you used the instant DB CLI to uh
+2:09:11 make permissions so that I can post to
+2:09:13 the feed. I can view the feed, but I
+2:09:15 can't edit your post in the feed. and
+2:09:17 we're kind of seeing how the data works
+2:09:19 in the background and then also we put
+2:09:22 it on the internet and then I signed
+2:09:24 into it and I posted to it and you could
+2:09:26 see it and we're creating an application
+2:09:28 and we could send it to everyone on our
+2:09:29 team and we could uh if you're viewing
+2:09:31 this video right now you can log in and
+2:09:33 make a meme and so yeah, we've covered a
+2:09:36 lot so far and um yeah, that's kind of
+2:09:38 what we've covered so far. I thought I
+2:09:41 thought it was a really good idea you
+2:09:42 mentioned we could compare these tools.
+2:09:46 Why don't we do that now?
+2:09:47 >> Perfect. Yeah, let's hop in. So, these
+2:09:49 are the competitors we're comparing in
+2:09:50 the vibe coding space. We got Replet,
+2:09:52 Vzero, Lovable, and Cursor. And so, we
+2:09:56 have a few things on the left such as
+2:09:57 backend support, speed, model, effort to
+2:10:00 share, experience building with it,
+2:10:02 personal anecdotes, and the price. So,
+2:10:05 um, honestly, I think we can start with
+2:10:08 cursor since we just did a very in
+2:10:11 detailed rundown. Obviously backend
+2:10:13 support it's possible but you do have to
+2:10:16 kind of tinker explore you have the
+2:10:18 freedom to pick your own stack. You can
+2:10:20 kind of choose to do you know instant DB
+2:10:22 or superbase or firebase or you know
+2:10:25 like MongoDB. You can kind of pick
+2:10:27 whatever you want and you can learn your
+2:10:29 way across you know basically whatever
+2:10:31 you chose and figure it out and have the
+2:10:34 AI help you along the way. So, I think
+2:10:36 there is moderate support. Probably
+2:10:38 you'll see that the competitors actually
+2:10:40 have a lot better support and they hold
+2:10:42 your hand throughout the way a lot more,
+2:10:43 but I would say that this is like pretty
+2:10:45 moderate and uh pick your own adventure
+2:10:48 style like pick your own adventure. You
+2:10:53 can definitely get stuck and caught in
+2:10:55 some pretty uncomfortable places when
+2:10:56 like you just don't know what you're go
+2:10:58 doing with. And I think it's good to
+2:11:00 take a step back and do a little bit
+2:11:01 more learning before you hop back into
+2:11:03 the code. But I do think it has the
+2:11:05 highest skill cap, too. So, I think I'd
+2:11:08 say a solid moderate for, you know,
+2:11:10 backend support. I think for speed. Oh,
+2:11:13 thank you, Riley. I think for speed, you
+2:11:15 know, as you saw, Composer was super
+2:11:17 fast, you know, and then like, you know,
+2:11:21 all the other models are pretty much the
+2:11:23 similar speeds. So, like similar. It's
+2:11:26 comparable or better than anything else.
+2:11:29 >> I definitely think Cursor is the fastest
+2:11:32 from my knowledge. I would argue lovable
+2:11:34 might be um the second fastest or even
+2:11:38 as fast, but I think there's a huge uh
+2:11:40 drop off in um
+2:11:43 >> quality of apps that you can create. Um
+2:11:45 Lovable's made for more uh simpler apps,
+2:11:49 I would say.
+2:11:49 >> Yeah, I agree. We can move on to
+2:11:51 Lovable, too. We'll be covering
+2:11:52 everything. Um but just wanted to run
+2:11:54 through cursor since we just spent so
+2:11:56 long on it. models as you saw. You can
+2:11:58 pick basically any Frontier model, their
+2:12:00 own model, and you can actually add
+2:12:02 models to the cursor, I believe.
+2:12:03 >> Yep.
+2:12:04 >> Um, so yeah.
+2:12:05 >> Yeah. Like you could you could literally
+2:12:07 run like llama locally. Um, like if you
+2:12:10 have the GPU.
+2:12:12 >> Wow.
+2:12:12 >> Like you can use local models on cursor.
+2:12:14 I'm pretty sure
+2:12:15 >> that's crazy. Yeah. U effort to share.
+2:12:18 You did see that we had to go ahead and
+2:12:20 deploy it on Versell and then only after
+2:12:22 that could I share the link. I had to
+2:12:24 set up GitHub. I had to set up Versell.
+2:12:25 I have to log in to the CLI tools. I'm
+2:12:27 going set this as like pretty high
+2:12:29 actually, like higher than most. Um, but
+2:12:33 obviously that's the price you pay for
+2:12:35 the flexibility you get. Experience
+2:12:37 building with it. I would definitely say
+2:12:39 um this is for people who have technical
+2:12:41 background or want to become more
+2:12:44 familiar with the vibe coding space in
+2:12:46 general. If you want to be one and done,
+2:12:48 you know, probably look into something
+2:12:49 else. If you're here to stay and you
+2:12:50 really want to upskill and truly find
+2:12:52 exactly like the peak of your creativity
+2:12:54 and where that can bring you, I would
+2:12:56 definitely go with
+2:12:57 >> proumer plus for this. That's what I
+2:13:00 would say.
+2:13:01 >> This is like you're you're not just
+2:13:03 trying to play with a toy, not a toy.
+2:13:05 Yeah.
+2:13:06 >> Yeah. And the fun part about cursor and
+2:13:07 we've talked about this um when making
+2:13:09 product decisions for our company is
+2:13:11 like you want it to feel like a skill.
+2:13:13 And cursor makes it feel like it is a
+2:13:15 skill that you can learn and you're
+2:13:16 always learning new things when you use
+2:13:18 cursor which is very fun.
+2:13:19 >> It's a skill diff if you don't know how
+2:13:21 to use cursor. And we're here to help.
+2:13:23 We can probably do a little bit more you
+2:13:24 know in detailed maybe basics of
+2:13:27 fundamentals or like technical vibe
+2:13:29 coding intro. I don't know. But uh price
+2:13:32 I'm going to have to I think this one's
+2:13:34 you know a topic of discussion. I think
+2:13:36 it can get pretty pricey, especially as
+2:13:38 I mentioned, in order for you to use
+2:13:40 multiple s models concurrently, you do
+2:13:42 need the highest plan, which starts at
+2:13:44 $200 a month. And I think that covers a
+2:13:46 lot of your token costs, honestly. But
+2:13:48 they can add up. You do they do have a
+2:13:50 pay as you go feature. And there have
+2:13:52 been months, you know, before when I've
+2:13:53 spent $100 on it, just pay as you go uh
+2:13:56 on top of like the the price that you
+2:13:58 pay just to use their service. So yeah,
+2:14:00 you know, it can get up there, but once
+2:14:02 again, it's kind of like
+2:14:03 >> how much you're playing with it. So, I
+2:14:05 genuinely think their price is, you
+2:14:07 know, they've had an influx throughout
+2:14:08 their history of being super cheap and
+2:14:10 then being super expensive. I think
+2:14:11 they're at a pretty fair point right
+2:14:13 now. I do think the value that I get for
+2:14:15 the money I spend on Cursor is not
+2:14:16 outrageous. And I think it's actually
+2:14:18 like, you know, now that like Composer
+2:14:20 is out and it's a very valid way to save
+2:14:23 money and it's so fast, I think it's
+2:14:25 honestly a pretty good time to hop in
+2:14:27 and start subscribing for the price.
+2:14:28 It's not outrageous. It's pretty good.
+2:14:30 It's the tool that gives you the like
+2:14:32 the the most um toggles to lower your
+2:14:35 cost. In my opinion, I would say it's
+2:14:37 probably the best.
+2:14:38 >> Yeah, it's very like price price
+2:14:40 flexible. Uh flexible good time to
+2:14:43 invest now.
+2:14:46 So yeah, that's currently kind of like
+2:14:47 our thoughts on cursor. Um we have
+2:14:51 definitely spent a lot of time with all
+2:14:52 these competitors as well.
+2:14:53 >> I would go horizontally for the rest of
+2:14:56 them and just kind of compare them to
+2:14:57 cursor.
+2:14:58 >> Yeah, sure. I think that's a great idea.
+2:15:00 Yeah. And so like um for backend support
+2:15:02 um for Lovable, let's put Lovable Cloud.
+2:15:06 >> So like Lovable added Lovable Cloud
+2:15:09 >> um which I've heard mixed reviews. It's
+2:15:10 basically a Superbase wrapper. Um
+2:15:15 >> and it allows you it creates a kind of
+2:15:18 backend for you and it also gives you
+2:15:20 like AI features kind of. So yeah, I do
+2:15:23 want to highlight the fact that you do
+2:15:24 not have the optionality to pick where
+2:15:26 your cloud is. And you know, that's pros
+2:15:29 and cons is it's a lot easier. So like
+2:15:32 easier, but you know, if you run into
+2:15:34 issues, you can't really use Google to
+2:15:37 like fix it. You have to like, you know,
+2:15:38 go search on lovable forums or join
+2:15:40 their discord or something. And also, if
+2:15:42 you're building something on Lovable and
+2:15:44 you want to like upgrade or like leave,
+2:15:46 like it'll get kind of tricky because,
+2:15:48 you know, your code really only works on
+2:15:51 Lovable's platform. So, as soon as you
+2:15:53 want to leave, you're kind of stuck. Um,
+2:15:55 leaving is not very easy. So, you know,
+2:15:57 there are some pros, there's some cons.
+2:15:59 You know, these are some cons and some
+2:16:01 pros. Like, this is pretty middle. Like,
+2:16:03 the pros are up top and the cons are
+2:16:05 down below.
+2:16:06 Um it's kind of like pretty good if
+2:16:08 definitely like if you want some more
+2:16:10 support and uh you want to just build
+2:16:12 one thing and be done and you probably
+2:16:13 won't reach mass mass scale like this is
+2:16:16 a good option
+2:16:16 >> for V v0ero I don't think has a backend
+2:16:19 feature.
+2:16:20 >> Um I think they do have a partnership
+2:16:23 with Superbase though.
+2:16:24 >> Okay. So you do a partnership with
+2:16:26 Superbase. So it's just not branded.
+2:16:29 >> Yeah they they just admit straight out
+2:16:31 it's Superbase and I'm pretty sure you
+2:16:32 have to sign in link your account. Uh so
+2:16:34 that does get a little bit like you know
+2:16:35 annoying because the good thing about
+2:16:37 lovable cloud being a superbased wrapper
+2:16:39 is it automatically links your account
+2:16:41 for you none of that stuff. So you have
+2:16:43 to do the linking yourself manually with
+2:16:44 Vzero which isn't hard you know not hard
+2:16:47 at all it's just like you know in the
+2:16:49 case something happens you have to deal
+2:16:50 with it yourself and the good part is
+2:16:53 you do you're not as stuck because like
+2:16:57 you know the whole database is exposed
+2:16:59 to you. You can kind of comb through the
+2:17:00 data whenever you want. You can export
+2:17:02 it. You can play with it. So it's not as
+2:17:04 bad as
+2:17:05 >> you could export your code and then uh
+2:17:07 like use Superbase with another um
+2:17:10 coding tool basically.
+2:17:11 >> Yeah.
+2:17:12 >> Yeah. Yeah. And you know there's
+2:17:13 database migrations happens lots of
+2:17:15 times sometimes people directly move off
+2:17:17 of superbase to another database and
+2:17:19 that's pretty po that's like super
+2:17:21 possible with vzero not very possible
+2:17:23 with lovable. So that's another thing by
+2:17:25 being stuck. Um so yeah I think
+2:17:29 >> and then replet has one that's inhouse
+2:17:31 right? Yeah, they also have like an
+2:17:33 in-house uh like I don't know if it's
+2:17:34 called like replet cloud or something,
+2:17:36 but they they they offer in-house
+2:17:38 solutions and you can it's kind of
+2:17:39 basically the same as
+2:17:40 >> but I will say you it's a lot replet's
+2:17:42 the easiest one to also do external. So
+2:17:44 like replet you can pretty easily do
+2:17:46 external um d backend database and use
+2:17:50 their in-house one.
+2:17:51 >> Yeah. So they also do give Yeah, that's
+2:17:54 a great point. They give you the
+2:17:55 optionality but they have the in-house
+2:17:56 solution. So honestly, you're not very
+2:17:58 stuck, but uh at the same time, if you
+2:18:01 want something that's like very easy and
+2:18:03 holds your hand as you like kind of get
+2:18:05 it set up, that is a thing. Honestly, I
+2:18:07 think Replet is a there's a great
+2:18:09 solution in this uh in this category of
+2:18:11 backend support.
+2:18:12 >> Yeah,
+2:18:13 >> obviously it does fall behind. All three
+2:18:16 of these fall behind in terms of cursor
+2:18:18 as in the like online presence.
+2:18:23 How do I start presence?
+2:18:25 >> There you go.
+2:18:26 >> Yeah. So like you know for and I'm
+2:18:28 talking like okay I have an air and I'm
+2:18:30 trying to build a database with MongoDB
+2:18:33 what do I do right like cursor you just
+2:18:36 you know ask the AI go on Google you
+2:18:38 know you can kind of do something
+2:18:40 similar with replet but with vzero and
+2:18:42 lovable you're kind of constrained to
+2:18:44 digging through super basis docs digging
+2:18:46 through lovable's docs in that case
+2:18:47 lovable is you know the worst in that
+2:18:49 regard and replet's the best outside of
+2:18:51 cursor so yeah um speed.
+2:18:56 >> Oh god.
+2:18:56 >> I would say
+2:18:58 >> what does it say? I would say V0ero and
+2:19:00 Lovable are are very similar.
+2:19:02 >> Yeah.
+2:19:03 >> Um and say like fast. I think Replet
+2:19:08 uh Replet kind of is trying to move away
+2:19:10 from vibe coding. Uh Omjad doesn't
+2:19:12 really like vi the idea of vibe coding
+2:19:14 and they famously recently came out with
+2:19:16 that new thing which was like um
+2:19:19 >> you know it thought for two hours. I
+2:19:20 don't know if you saw that. It thought
+2:19:22 for two hours. It was a super agent 2.0
+2:19:24 0 and it was still worse than cloud
+2:19:26 code. But like that's neither here nor
+2:19:28 there. Um but like I would just put
+2:19:30 slower and more powerful in quotes I
+2:19:33 would say.
+2:19:34 >> Yeah. Slower um but definitely like it
+2:19:38 pays off, right? Slower but worth.
+2:19:41 >> Um
+2:19:42 >> slower but worth. And it gives you like
+2:19:44 questions too. Like it'll it definitely
+2:19:47 asks like clarifying questions more than
+2:19:49 v 0ero and lovable.
+2:19:50 >> Yeah. you know, replet is kind of like
+2:19:51 cursor plan mode plus like agent mode.
+2:19:56 Uh, so if you notice in plan mode, you
+2:19:58 know, cursor will ask you some
+2:19:59 questions. And also in agent mode, we
+2:20:01 saw that while we were asking it to like
+2:20:03 do the huge refactor, it asks us some
+2:20:05 questions. So it almost replic kind of
+2:20:07 defaults to that type of experience
+2:20:09 where it'll ask you clarifying
+2:20:10 questions, take a long time, but when
+2:20:12 you come back, it'll probably work. And
+2:20:14 I can't really say that about Vzero and
+2:20:15 Lovable. Um, these people, they like to
+2:20:18 kind of give you like little steps, you
+2:20:20 know, along the way and and a lot of the
+2:20:22 times like one of the middle steps will
+2:20:23 not work. Honestly, I find that really
+2:20:25 uncomfortable because it's like, wow, I
+2:20:28 don't know. I'm in like a bad spot. I
+2:20:29 don't know if I should go back or if I
+2:20:30 should continue like pushing through it,
+2:20:32 you know? So, these are kind of like
+2:20:33 step functions.
+2:20:35 >> What's the the next the next thing? Oh,
+2:20:39 model
+2:20:39 >> model. Yeah, model selections. So, yeah,
+2:20:41 I think Vzero and Lovable are very
+2:20:42 similar here.
+2:20:44 Um I think uh like yeah like they turn
+2:20:51 on something really quickly and
+2:20:54 you know it may or may not work while
+2:20:56 replet turns out something a little
+2:20:57 slower but it probably works and cursor
+2:21:00 if it works it's on you. If it doesn't
+2:21:01 work it's on you.
+2:21:02 >> That's a really Yeah, that's a good way
+2:21:03 to put it.
+2:21:04 >> Yeah. Um so honestly that bleeds a
+2:21:07 little with experience building it but I
+2:21:08 did want to touch on models. So I do
+2:21:11 know that
+2:21:13 uh Replet and lovable use
+2:21:17 anthropic under the hood. So you know
+2:21:20 you're you're basically committing to
+2:21:21 anthropic. Um and that you know you
+2:21:24 don't really like get to pick. Uh I
+2:21:27 think like
+2:21:28 >> Vzero has their own model that it uses
+2:21:31 by default. It's they've trained their
+2:21:32 own model. It's like v 0ero
+2:21:35 >> model. It's called v 0.
+2:21:37 >> Yeah. Oh,
+2:21:38 >> you can actually use V 0ero in cursor.
+2:21:40 Fun fact.
+2:21:41 >> Oh, I did not know that.
+2:21:42 >> Like the they have a model that's made
+2:21:43 specifically for Nex.js.
+2:21:45 >> Wow. [snorts]
+2:21:46 >> Yeah. And it's fast.
+2:21:47 >> So I think obviously their model is
+2:21:50 really good at writing Nex.js better
+2:21:52 than most other better than all other
+2:21:54 models. Um I think lovable you can
+2:21:57 actually switch to like GPT5 if you ask
+2:22:00 it like oh use GPT which is you know
+2:22:03 they don't have like that model.
+2:22:04 >> You can select you can select GPT5 now.
+2:22:07 Yeah, you can in in anthropic and I
+2:22:09 think Yeah, I think you do in Replet
+2:22:11 too.
+2:22:11 >> Oh, really?
+2:22:12 >> Yeah.
+2:22:12 >> Okay. Um, yeah,
+2:22:14 >> but yeah, you don't get like extra
+2:22:15 customizability. Uh, I don't think you
+2:22:17 can use anything beyond those.
+2:22:18 >> Not the full freedom of cursor and
+2:22:21 Versel is the most locked in as in
+2:22:23 they're kind of like stick with us.
+2:22:24 We're using Vzero. I mean, we're using
+2:22:26 our own model. Yeah. So, um, that that
+2:22:29 kind of matters because most of the
+2:22:30 times these players will be passing off
+2:22:32 the costs of these models down to the
+2:22:35 end user. And that's why we kind of said
+2:22:37 that you know with the pricing um price
+2:22:40 flexible is this directly correlated
+2:22:42 with how the models are like free freely
+2:22:45 selectable in cursor um effort to share
+2:22:50 uh let's see versell I think is vzero is
+2:22:54 the easiest to share
+2:22:56 they have like a one-click deploy so
+2:22:58 does replet's pretty easy too I would
+2:23:00 just rank these I would literally just
+2:23:02 go one versel
+2:23:04 two uh replet, three lovable, and then
+2:23:09 four cursor. Cursor is very much harder.
+2:23:12 And like you should, to be realistic, I
+2:23:15 would put like a seven for cursor just
+2:23:17 because it's significantly harder to
+2:23:19 share. And that's my that's the
+2:23:21 annoyance is if you're,
+2:23:23 >> you know, learning to code or you just
+2:23:24 want to vibe code, cursor is very hard
+2:23:26 to share. Like you have to literally
+2:23:28 deploy it to Verscell to share it with
+2:23:30 someone. Whereas I mean you have to
+2:23:33 deploy it to Vzero but Vzero is made by
+2:23:35 Versel and it automatically deploys it
+2:23:37 to Verscell and now they have a custom
+2:23:39 domain thing so you can select a domain
+2:23:41 and change the domain like you can
+2:23:42 literally buy it on Vzero. So, like I
+2:23:45 would just include that like Vzero is
+2:23:48 the best for like landing pages slash if
+2:23:51 you got to create like a a landing page
+2:23:53 where you want to gather info and you
+2:23:55 got to do it in 30 minutes, use Versell
+2:23:57 because it's quick, easy to distribute.
+2:23:59 Um, and you can add your own custom
+2:24:01 domain.
+2:24:02 >> Yeah, I think this is great. Custom
+2:24:05 domain. I'm sure like the other
+2:24:07 competitors have similar things, but
+2:24:09 none of it
+2:24:09 >> I actually think they're the only one
+2:24:10 who has custom domain. Oh, really? Um
+2:24:12 but you can deploy straight to replet.
+2:24:14 Um but I personally like verscel more
+2:24:18 than the replet uh deployments.
+2:24:20 >> Yeah. Yeah. I do know that um oftent
+2:24:23 times they will host you at a random
+2:24:24 link. I do believe lovable and replet
+2:24:27 automatically host you a public link
+2:24:30 which is you know why
+2:24:32 >> there's probably an argument to say that
+2:24:33 these three are very similar. Um, if you
+2:24:36 want to go it all the way to production
+2:24:37 level, I do think Vzero is faster. But
+2:24:40 if you want to get a link, you don't
+2:24:41 really care what the link like looks
+2:24:42 like. It's kind of like a bunch of fuzzy
+2:24:44 characters. You know, Lovable and Replet
+2:24:46 also can get the foot out the door
+2:24:47 really quickly. Um, I do think that, you
+2:24:50 know, all of them are going to require
+2:24:51 you to sign in. They're going to require
+2:24:53 your friend to sign in. And on that
+2:24:55 front, actually, V0ero will require if
+2:24:57 you have a backend, uh, you to fully
+2:24:59 integrate that with Superbase. And if
+2:25:02 you don't like signin will not work for
+2:25:04 the other person cuz I was playing with
+2:25:05 that recently and it was like oh wow
+2:25:07 this kind of feels like the worst of
+2:25:08 both worlds where you know I got to
+2:25:11 spend the time to get it configured and
+2:25:12 it's not as fast as the other two which
+2:25:14 is like level one replet just directly
+2:25:16 have a link. So that's something
+2:25:18 sometimes you know there there's a lot
+2:25:19 of caveats throughout here but um
+2:25:22 basically uh fast like random link and
+2:25:26 uh the same can be said here
+2:25:29 >> for replet. Yep.
+2:25:31 >> Yeah. So,
+2:25:33 >> what's what's the next one? Oh,
+2:25:35 experience.
+2:25:36 >> Yeah.
+2:25:37 >> Yeah. Ranking. So, just go cursor four.
+2:25:41 >> Just put a four there.
+2:25:43 >> What do you mean?
+2:25:44 >> Like rank like you need the most
+2:25:46 experience.
+2:25:47 >> Oh,
+2:25:48 >> yeah. Yeah. Yeah. And then uh I would go
+2:25:51 replet three.
+2:25:54 >> I don't know. Actually, I might I might
+2:25:56 challenge you on that.
+2:25:59 Who would be three?
+2:26:01 Uh, nah, you're right. It's probably
+2:26:03 Replet.
+2:26:04 >> Replet 3 and then V 02 Lovable One. I
+2:26:07 would I would say just and and maybe
+2:26:09 partially this is branding. Lovable is
+2:26:11 like kind of cute for kids. They're
+2:26:13 literally targeting kids.
+2:26:14 >> You can tell a lot about what Lovable's
+2:26:16 doing because they are literally like
+2:26:17 they just announced a partnership today
+2:26:19 with like some program that's like going
+2:26:20 to get Lovable into schools, which I
+2:26:22 think is incredibly smart on their part
+2:26:24 like to just get people used to using
+2:26:26 Lovable. It has a brand that's super
+2:26:28 approachable. like they in their last
+2:26:30 announcement video, they're like, "This
+2:26:31 12-year-old just made a SAS and made
+2:26:33 money." Like they're they're really
+2:26:35 targeting young people. And so I think
+2:26:37 it's safe to assume it's just going to
+2:26:39 get easier and easier to use Lovable.
+2:26:41 >> Yeah. Yeah. And I do have to continue to
+2:26:43 emphasize that easier and easier is
+2:26:45 great, but it always comes at a cost
+2:26:47 for, you know, freedom, flexibility, and
+2:26:50 normally skill ceiling. So
+2:26:52 >> usually it's like graduation. Like with
+2:26:55 cursor, if you start on cursor, you'll
+2:26:57 never you're never going to graduate
+2:26:58 because like, you know, like you're
+2:27:00 never going to hit the ceiling where
+2:27:01 you're like, I need a more powerful
+2:27:02 tool. You'll just never hit that with
+2:27:04 cursor because like you can always make
+2:27:05 it more powerful. Um whereas, you know,
+2:27:09 if you choose any of these other three,
+2:27:11 uh especially VZ and lovable, like you
+2:27:13 might just hit that ceiling and you're
+2:27:14 like all it takes is you to like get
+2:27:17 angry about one project and switch to
+2:27:19 cursor, you might never go back.
+2:27:20 >> Yeah.
+2:27:21 >> Is kind of how I say it. Like once again
+2:27:23 you know most the lovable and vzero can
+2:27:26 only make websites replet you know it
+2:27:28 can make some like mobile configurations
+2:27:31 I don't know mainly a website developer
+2:27:33 as well cursor I can make a keyboard on
+2:27:35 this thing I could program a car on this
+2:27:37 thing I could program a drone I could
+2:27:39 program a mobile app you know I could do
+2:27:41 anything that code powers on cursor so
+2:27:44 that's really amazing um it's definitely
+2:27:46 like as I mentioned before you're using
+2:27:48 the Photoshop and these people are like
+2:27:49 canvas lovable is definitely going down
+2:27:51 the super canvas a route. Um but yeah,
+2:27:54 and I kind of like just ranking these
+2:27:57 >> [laughter]
+2:27:57 >> um like uh even for like I'm already
+2:28:00 thinking about pricing, but I guess I'll
+2:28:01 let you finish.
+2:28:02 >> Yeah. So, just to kind of highlight some
+2:28:04 key points that we made here, Vzero and
+2:28:06 Replet, they're honestly very similar. I
+2:28:07 guess this is more like step like you
+2:28:10 get more like a you know, more
+2:28:13 interactability
+2:28:14 like more. This is definitely more
+2:28:17 interactive than the replet. Replate is
+2:28:19 kind of like you give it a command, you
+2:28:20 like iron out what the command is and
+2:28:22 you come back in like five 10 minutes to
+2:28:24 like see if it worked. So this is
+2:28:25 definitely like a send prompt and check
+2:28:27 back type of type of software.
+2:28:32 But yeah, you know, honestly, pick
+2:28:34 whichever one you like if you want some
+2:28:36 something more handholdy. Um obviously
+2:28:38 we're here to convince you that cursor
+2:28:39 is where you probably want to start.
+2:28:41 Yeah. And then for price, um I would put
+2:28:44 four for well cursor is flexible
+2:28:47 actually. I I don't think we need to
+2:28:49 rank F. It belongs in its own category.
+2:28:51 >> That's true. And then I think the most
+2:28:53 expensive out of these three is the
+2:28:54 Replet. Um um someone posted a bill. So
+2:28:58 their new agent mode that runs forever,
+2:29:00 someone said it's costed $70 and it ran
+2:29:03 for six hours when building a product.
+2:29:06 >> Um which like in in uh in defense of
+2:29:10 Replet, you could compare that to hiring
+2:29:13 a developer for six hours. Um,
+2:29:16 >> it would cost you more than $70.
+2:29:18 >> It would cost you a lot more than $70,
+2:29:20 but like is it really as productive? Did
+2:29:22 it just get stuck in a loop? Like, who
+2:29:24 knows? Yeah. Um, you the risk of running
+2:29:26 a higher bill on replets probably the
+2:29:28 highest out of these.
+2:29:29 >> Um, and then I think [clears throat]
+2:29:31 Vzero and Lovable are probably
+2:29:32 comparable.
+2:29:34 >> Yeah, I think they're very comparable. I
+2:29:36 do think that um they both take a
+2:29:39 premium on top of hosting. Yes. Which is
+2:29:41 another thing. If you're sticking with
+2:29:42 cursor obviously you have price
+2:29:44 flexibility in using the model and when
+2:29:47 you go and you know you have to pay for
+2:29:49 a database you have to pay for like a
+2:29:52 server you do these things out of your
+2:29:54 own pocket so you can actually pick like
+2:29:56 the cheapest one. These people you kind
+2:29:58 of have to play with whatever they give
+2:29:59 you. So just you should count on it
+2:30:02 getting more expensive over time because
+2:30:04 these companies are operating at a loss
+2:30:06 and um
+2:30:08 >> they're going to be looking for ways to
+2:30:09 make profits later and so having all of
+2:30:12 your apps on their cloud there are there
+2:30:14 are some risks for that.
+2:30:16 >> Yeah. And so they being stuck on them
+2:30:19 you know it might come back to bite you
+2:30:21 later but these are pretty pretty much
+2:30:22 tied for number two. Um and they're not
+2:30:26 outrageous. I actually think Lovable's
+2:30:29 uh I think Lovable's price might be the
+2:30:31 one that I'm like I think I think
+2:30:32 Lovable is like slightly more expensive
+2:30:34 than VZO when iterating on. Um all in
+2:30:37 all though, I don't think like you know
+2:30:39 oftent times I'll send a prompt and I'm
+2:30:40 just not impressed with the output,
+2:30:42 especially with Vzero and Lovable and
+2:30:44 I'll have to spend more prompts on
+2:30:45 getting something to work and they have
+2:30:47 like the most complicated credit system,
+2:30:49 but then they also charge you for things
+2:30:51 like lovable cloud like hosting on
+2:30:53 Versell and all that stuff. So it does
+2:30:54 get a little convoluted. Um but yeah, I
+2:30:58 think this is pretty much a little chart
+2:31:01 about the players in the space.
+2:31:04 >> Yeah. And um yeah, so if you feel like
+2:31:07 you're a proumer, if you feel highly
+2:31:09 motivated right now after watching this
+2:31:10 video, um I would recommend going with
+2:31:13 cursor just because I I mean I I I have
+2:31:16 been vibe coding for the last year and a
+2:31:18 half. I still don't know how to write a
+2:31:19 line of code. I've never done it, but I
+2:31:21 use cursor all the time. You've seen me
+2:31:23 use cursor all the time. It's just fun.
+2:31:25 And then when new updates come out to
+2:31:27 like uh Claude Code or Codeex, I know
+2:31:29 that I can just use it within Cursor.
+2:31:31 It's like my safe little place. And we
+2:31:32 didn't really talk about using
+2:31:34 extensions. I've made videos in the past
+2:31:36 uh with Muhammad on using the cloud code
+2:31:38 extension, which is a whole video of its
+2:31:40 own. Um and fits more in the cloud code
+2:31:42 category, but I just love the
+2:31:44 flexibility of cursor for sure. Yeah, I
+2:31:46 remember when Riley and I began working
+2:31:48 on Vive Code, he actually made the
+2:31:50 weight listing website for Vive uh for
+2:31:53 Vive Code's first app launch. And that
+2:31:55 was actually really amazing because we
+2:31:56 already had a database and we were like,
+2:31:58 "Hey, if you're going to make the
+2:31:59 landing page, we need you to add a
+2:32:00 weight list and we need you to connect
+2:32:02 it to our existing database." We totally
+2:32:04 did not expect him to do all of that,
+2:32:05 but he did because he used cursor. That
+2:32:07 would have been impossible on any other
+2:32:08 platform because of the limitations of
+2:32:11 like, oh, we need to use to our database
+2:32:13 clerk, I think, is what I had. We
+2:32:15 already had a user, you know, we had to
+2:32:17 like merge our users, we had to merge
+2:32:19 our data and that would have been very
+2:32:20 difficult if you were using any other
+2:32:22 provider.
+2:32:22 >> Yeah, but then just to say they did look
+2:32:23 over the code and they did make sure
+2:32:25 that it was good. I don't know. I hope
+2:32:28 so. [laughter] I hope so at least.
+2:32:29 >> No, no, no, we did.
+2:32:30 >> And so, yeah, we've covered a lot today.
+2:32:32 Why don't you scroll like zoom out for a
+2:32:34 sec? Oh, yeah.
+2:32:35 >> Let's take a look here. Yeah. And let's
+2:32:37 >> Why just in in a final review if you go
+2:32:40 up to the top for a cursor review. Yeah,
+2:32:42 we covered a lot today. We covered
+2:32:45 literally everything and we then
+2:32:47 compared all of the tools, right? You
+2:32:48 now know how to use cursor. And so my
+2:32:50 final challenge to you is this. Uh make
+2:32:54 an app and if you can deploy it to
+2:32:57 Verscell, share the link in the comments
+2:32:59 below. Um and just start with a project,
+2:33:03 right? The best way to learn how to vibe
+2:33:07 code in my opinion is just to pick a
+2:33:09 project and do it rather than learning
+2:33:12 like this as if it was like a textbook.
+2:33:14 Just pick a project and do it and then
+2:33:16 after you're done look at it and be
+2:33:18 like, "Okay, what topics did I learn in
+2:33:21 the process of doing a project?"
+2:33:22 >> Everyone who I've talked to who's like
+2:33:24 learned to code by themselves, even like
+2:33:26 manually coding, they learned through
+2:33:28 doing a project. Whether it was to make
+2:33:30 money or it was out of their own
+2:33:31 intellectual curiosity. do a project,
+2:33:34 look back at it, be like, "Okay, what
+2:33:36 did I learn?"
+2:33:36 >> Yes.
+2:33:37 >> And now you're equipped to do that.
+2:33:39 There's no more excuses. He just taught
+2:33:40 you basically everything about cursor.
+2:33:42 >> Yeah. I think definitely cannot echo
+2:33:44 enough that doing, doing, doing is way
+2:33:47 more productive than spending your time
+2:33:48 watching videos like these. I think if
+2:33:50 you reach the end of this video from
+2:33:51 start to finish, you're done. You're
+2:33:53 ready. Go hop out there and start using
+2:33:55 ask mode on cursor to learn about
+2:33:56 everything you don't know because
+2:33:58 >> and with that said with that said like
+2:34:00 and subscribe and watch every single one
+2:34:02 of my videos in the future but like any
+2:34:04 other videos no need to watch it. Um
+2:34:07 just go do stuff because we talk about
+2:34:09 doing.
+2:34:10 >> Yep.
+2:34:10 >> Anyway, um
+2:34:11 >> good luck out there. Good luck out
+2:34:13 there, everybody.

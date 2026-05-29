@@ -1,0 +1,706 @@
+How to Make a Website | Step by Step [2026]
+
+0:00 so you want to make your own website
+0:01 well you might open your laptop head to
+0:03 Google and search how to make your own
+0:06 website and you might regret that you're
+0:08 read about HTML CSS domain names SSL
+0:11 JavaScript Frameworks WordPress Wix it's
+0:13 all a lot to wrap your head around so
+0:15 let's cut through the noise because
+0:17 guess what anyone can make their own
+0:19 website even total beginners and that's
+0:21 what we're going to do in this video
+0:22 we're going to take this sketch I made
+0:23 right here and we're going to turn it
+0:25 into a real live website on a real life
+0:28 domain name we're not going to skip
+0:30 anything SEO design domains we're going
+0:33 to do it all and it's not going to be
+0:34 painful it's going to be straightforward
+0:36 and clear let's do this so I want to
+0:39 build a website for my YouTube channel
+0:40 like the channel you're watching me on
+0:42 right now it's called Steve builds
+0:44 websites and if you look at my sketch
+0:46 you can see it's a pretty
+0:47 straightforward website a logo a
+0:49 navigation and just a nice homepage
+0:52 pretty typical for any Small Business
+0:53 website or personal website our first
+0:56 task is to choose a tool to build our
+0:58 website with because almost every
+1:01 website on the Internet is built using a
+1:03 tool now there are literally hundreds of
+1:06 tools for building
+1:08 websites but for the sake of Simplicity
+1:11 I'm going to generalize a little bit and
+1:12 lump all these tools into four
+1:14 categories Frameworks static site
+1:17 generators CMS and website Builders and
+1:20 here are examples of each almost all
+1:22 websites on the internet use a tool in
+1:24 one of these four categories now right
+1:26 off the bat don't even worry about
+1:28 Frameworks and static site generators if
+1:30 you don't know how to code because they
+1:32 require
+1:33 coding a CMS like WordPress might
+1:36 require some coding but not as much and
+1:39 a website builder has no coding so of
+1:42 course if we place this on a Continuum
+1:45 Frameworks and static site generators
+1:46 are the most challenging to use while
+1:48 website Builders are the easiest I've
+1:51 built websites using Tools in all of
+1:53 these categories and here's what I've
+1:54 learned match your website project to
+1:57 the tool for example if you were to
+1:59 build something like Facebook you'd want
+2:00 to use a
+2:03 framework but if you're building a
+2:05 simple Small Business website like we're
+2:07 going to build today you'd want to use a
+2:09 website
+2:10 builder you could also use a CMS like
+2:12 WordPress especially if you use a plugin
+2:14 like Elementor but in my experience it
+2:17 probably won't be as easy website
+2:20 Builders are just simple and easy to
+2:21 manage and that's what I'm looking for
+2:24 so let's zoom in on website Builders
+2:27 there are a lot of different website
+2:29 Builders but in my experience there are
+2:31 a few that are definitely better than
+2:33 the others Squarespace Wix Shopify card
+2:38 web flow and framer let's call these the
+2:41 elite
+2:43 6 now remember when I said match the
+2:46 website project to the tool well that's
+2:48 true for website Builders too because
+2:50 each of these tools have their own
+2:52 strengths Squarespace and Wix they're
+2:54 the best allaround website Builders they
+2:57 have drag and drop editors so you can
+2:59 just grab out elements and move them
+3:00 around your website you can also resize
+3:03 and reposition things how you want all
+3:05 kinds of sites are built with
+3:07 Squarespace and Wix small business sites
+3:10 portfolios
+3:12 blogs restaurant sites and more I
+3:15 personally like Squarespace better than
+3:16 Wix but Wix definitely deserves to be
+3:20 mentioned Shopify is the best for
+3:23 e-commerce like if you're building a
+3:25 proper online store with multiple
+3:28 products with variations and check out
+3:31 you'll probably want to use Shopify it's
+3:33 not super easy to use like it's not a
+3:36 drag and drop editor like Squarespace
+3:37 and Wix but it does have outstanding
+3:40 features for
+3:42 e-commerce card is a fun one because
+3:44 it's definitely the cheapest option but
+3:47 there's an important asterisk Card is
+3:49 only for onepage websites so like these
+3:52 are all example sites and you see a lot
+3:54 of personal websites and landing pages
+3:56 built with card I think it's worth
+3:58 considering if your website can be
+4:00 condensed down into one
+4:03 page web flow and framer are the best
+4:05 for totally Custom Designs like you can
+4:08 build just about any kind of design
+4:10 using web flow in framer for example
+4:12 I've seen people recreate Apple's
+4:13 website in webflow like including the
+4:15 animations that's pretty incredible the
+4:17 only thing is both webflow and framer
+4:19 have a pretty serious learning curve
+4:21 like even if you have a web design
+4:23 background they will still take you a
+4:24 few days maybe weeks to learn but in
+4:27 return they'll give you total design
+4:29 freedom you can design however you'd
+4:31 like now what's the difference between
+4:33 the two well framer is probably a bit
+4:35 easier to use and web flow is probably a
+4:37 bit more powerful so we want to match my
+4:40 website project Steve builds websites to
+4:42 the right tool probably not Shopify
+4:44 because I don't need e-commerce probably
+4:47 not card because kind of want multiple
+4:49 Pages probably not web flow or framer
+4:52 because I don't want to spend too much
+4:53 time on this project which leaves
+4:55 Squarespace and Wix I'm going to choose
+4:57 Squarespace because as I've said I I
+5:00 like it better than
+5:01 Wix but that doesn't mean you need to
+5:04 use Squarespace remember match the
+5:06 website project to the tool you can find
+5:08 links to each of these tools in the
+5:10 video description and I should say
+5:12 almost all of these links are affiliate
+5:14 links so if you click those links you'll
+5:16 be supporting my work I hope it's clear
+5:18 though this is not a sponsored video
+5:20 like I currently have websites on
+5:22 Squarespace Shopify webflow and card I
+5:26 trust these tools with my own businesses
+5:28 but our first goal is done we've chosen
+5:31 Squarespace as our tool now let's get to
+5:33 work let's start by building the pages
+5:36 and header of our website here we are in
+5:39 Squarespace we can create our website
+5:41 from templates or from scratch with a
+5:44 blank template the Squarespace has a ton
+5:46 of templates you can choose from if we
+5:48 click through them we can see a lot are
+5:50 really good but I'm not going to use
+5:54 them we're going to build this site from
+5:56 scratch with a blank template but don't
+5:59 be intimidated it's actually really
+6:01 straightforward so here's our
+6:04 website and remember here is my little
+6:06 sketch as you can see I've got a list of
+6:08 pages I want to add so let's start by
+6:11 adding those pages we'll go to
+6:14 pages and we'll add a blank
+6:16 page and I'll do this
+6:21 quickly now we have five pages and we
+6:24 can see them listed in the navigation
+6:26 here now if we refer back to my sketch
+6:29 you can see I have a bit of a different
+6:31 header layout the logo is here the
+6:34 navigation is in the middle and the
+6:36 button is on the right so let's make
+6:38 that change we'll hit edit then click
+6:41 edit site header let's first add an
+6:44 element and there's a couple different
+6:46 elements squar space lets us add but I
+6:49 really want a button
+6:51 nice then let's edit the
+6:54 design and I like this layout best and
+6:58 there you have it
+7:00 we've designed a very basic but
+7:01 effective
+7:03 header now you've probably noticed
+7:05 before that headers have a pretty
+7:06 consistent layout across the internet
+7:09 this consistency across the entire
+7:10 internet is a very good thing doesn't
+7:13 matter if you're Apple charity water or
+7:15 the cafe down the street your header is
+7:18 going to be pretty consistent logos on
+7:21 the left buttons on the right and
+7:24 navigation is somewhere in the middle
+7:26 your website header should feel familiar
+7:28 even if a visitor has never been to your
+7:30 site before they should intuitively know
+7:32 how to use it think of it like elevator
+7:35 buttons every elevator has buttons in
+7:37 the same place when you enter an
+7:38 elevator you know where the buttons are
+7:40 going to
+7:41 be in the same way don't make people
+7:44 think or have to search in order to
+7:45 navigate your website and I want to talk
+7:47 about this button it's often referred to
+7:50 as a call to action or CTA and you want
+7:53 to reserve this button for your
+7:54 website's most important business goal
+7:56 if you're a barber this is book an
+7:58 appointment
+8:00 if you're a landscaper this is get a
+8:02 quote if you're a restaurant this is
+8:05 reservations and if you're a nonprofit
+8:07 this is
+8:08 donate Squarespace has some cool
+8:10 features that I could use for my CTA
+8:12 I've seen other websites using
+8:14 squarespace's appointment scheduling
+8:15 feature and I thought I could use that
+8:18 to let people schedule a call with me if
+8:20 they wanted some personalized help or
+8:22 see lots of other creators selling
+8:23 courses and it seems pretty lucrative so
+8:26 maybe I could make the button buy my
+8:28 course
+8:30 but to be honest scheduling calls sounds
+8:32 like a lot of work and I think we have
+8:34 enough creators selling courses in the
+8:36 world we don't need more so I'll keep it
+8:38 simple for now there's really only one
+8:39 goal I have for Steve builds websites
+8:41 and that's watch my videos on YouTube
+8:44 that's the main goal nice okay let's
+8:47 leave this editor and preview our
+8:50 website so far we have our Pages added
+8:53 and our header is
+8:55 designed things do look pretty basic
+8:57 right now and we will style this more
+9:00 but first let's create our homepage
+9:02 homepage that's a big page I feel like I
+9:05 could use some inspiration before we get
+9:07 started let's look at some great
+9:09 homepages ah this is great this is what
+9:11 you want a big friendly photo and I kind
+9:14 of dig these ferns they remind me of
+9:16 like the awards you see on film posters
+9:18 kind of a fun
+9:20 touch I love this you want to be concise
+9:22 on your homepage and Lizzie has
+9:25 beautifully summarized what she does in
+9:26 just five words find the joy and magnify
+9:29 it and she's backed it up with some fun
+9:33 colors another great one I like that
+9:35 she's putting herself front and center
+9:38 uh and this is a great slogan let's turn
+9:40 your website visitors into dream clients
+9:42 notice how she's talking about you and
+9:44 not
+9:45 herself there are definitely some themes
+9:47 coming through here be human don't hide
+9:50 behind stale corporate imagery put
+9:52 yourself out there people trust humans
+9:54 not faceless corporations be concise no
+9:58 walls of text people don't read the
+9:59 internet they browse the internet right
+10:01 so give them something scannable be
+10:04 about the audience put yourself in their
+10:06 shoes what can you do for them now
+10:09 theories are easy it's much harder to
+10:11 put theories into practice but that's
+10:13 what we're going to do now let's make
+10:15 the homepage so let's
+10:18 edit we'll start by giving this section
+10:20 a background image and I want to be
+10:23 human just like the websites we just
+10:25 looked at so I'm going to put a photo of
+10:27 myself front and center
+10:30 next let's add a headline so add a
+10:34 block drag it out and here's my slogan I
+10:39 try every website builder so you don't
+10:41 have to let's make it a heading and
+10:44 Squarespace has this cool scale text
+10:46 option which makes the text the same
+10:48 size as the box I don't know I think it
+10:50 looks sharp nice and I think the page
+10:54 could use another element so we're going
+10:56 to try to add some testimonials
+10:58 testimonials are just just a good way to
+10:59 build trust and I have tons of YouTube
+11:02 comments which are essentially
+11:03 testimonials so let's use some of those
+11:06 and I kind of want to use this Fern idea
+11:08 from the carpet cleaners so let's start
+11:11 by adding an image of the fern let's
+11:15 drag it
+11:17 down We'll add another one I've actually
+11:20 placed both of these font images in the
+11:22 video description so if you want to use
+11:24 them yourself uh go for it now let's add
+11:27 the testimonial
+11:30 Let's Line everything up sweet now I'm
+11:34 going to duplicate it and
+11:37 again just line this all
+11:41 up and I'll paste in the
+11:45 comments and let's nudge this down
+11:49 actually and there we go we have a
+11:52 homepage that was so
+11:55 easy or was it cuz think about it I just
+11:58 happened to have a a perfectly formatted
+12:00 image of myself sitting around on my
+12:02 hard drive and I seem to come up with
+12:04 that slogan pretty quick suspicious
+12:06 isn't it okay confession time I haven't
+12:09 been totally upfront because I made 10
+12:12 other homepages before I settled on this
+12:17 one and this is how web design really
+12:20 works iteration no one gets a perfect on
+12:23 their first attempt you have to try out
+12:25 a bunch of different things to see what
+12:26 feels right and one thing I figured out
+12:29 late in the process my photos just
+12:31 weren't working I was just using photos
+12:33 that I had used previously for
+12:35 thumbnails and videos but eventually I
+12:37 realized I need to just take a fresh new
+12:39 photo that would specifically work for
+12:41 the website okay so I need some kind of
+12:43 like photo for the homepage right so I'm
+12:45 in my super messy basement and I'm just
+12:48 set up over here to shoot some stuff so
+12:50 I got my
+12:52 camera and then I have a light right
+12:55 there uh and then that's just uh a
+12:57 countertop on a keyboard
+12:59 stand and I'm just shooting something
+13:01 super basic so yeah I did a little photo
+13:04 shoot in the basement and that helped a
+13:06 lot once I had the photo everything else
+13:08 kind of fell in place now I know not
+13:12 everyone has cameras and lights in their
+13:13 basement but you can always just hire a
+13:15 photographer or honestly just watch a
+13:18 few YouTube tutorials on how to shoot a
+13:20 self-portrait with your phone cuz phones
+13:23 have incredible cameras today but I feel
+13:25 better I've made my confession and now I
+13:27 can declare in good cont ience that our
+13:30 homepage is done now let's style our
+13:33 website we're going to give it some
+13:34 fresh colors and fonts but before we do
+13:38 that let's take a trip to the mall
+13:40 according to the stock photos I found
+13:42 malls are where teens hang out unusually
+13:44 cool old people go shopping and couples
+13:47 pose awkwardly in elevators what's
+13:50 interesting about malls is all the
+13:51 stores are the same shape long
+13:54 rectangles and so it's up to the store's
+13:56 entrance to grab the attention of people
+13:58 walking by look at how different each
+14:01 storefront looks there's a reason apple
+14:03 is tidy and minimalist well Toys R Us is
+14:07 loud and colorful and it's the same with
+14:09 websites websites can communicate A vibe
+14:12 and tone with colors fonts and
+14:14 photography building an art portfolio
+14:16 you might go for a minimalist Vibe lots
+14:19 of white space and room for big photos
+14:21 building a food website you might go for
+14:24 something colorful and bright and you
+14:26 might even use some louder fonts so what
+14:29 do I want from my website well I think
+14:31 the vibe I want is something sort of
+14:33 playful unfortunately if we open site
+14:36 Styles in Squarespace there are
+14:38 different themes we can choose
+14:45 from I think I kind of like this one but
+14:48 let's modify it a bit let's change the
+14:50 color
+14:52 palette all palettes have two light
+14:54 colors one accent color and two dark
+14:56 colors for the lightest I chose a a soft
+15:01 green and this is actually a little
+15:03 design trick sometimes a pure white is a
+15:06 little harsh soften it up a little bit
+15:08 with some color then we'll add a mint
+15:11 green and for the accent I want
+15:13 something playful I like this green then
+15:16 I'll leave the blue and for my darkest
+15:18 I'm going to use black perfect next
+15:22 let's add some splashes of color to this
+15:24 page let's give this button our accent
+15:27 color
+15:29 sweet and we'll make the text
+15:32 black and then let's go back to our
+15:34 heading and Squarespace has the option
+15:37 to underline text it's kind of cool so
+15:40 let's do that let's use our green accent
+15:43 color and let's choose a fun
+15:46 underline nice things are starting to
+15:49 feel more playful now I'm not totally
+15:52 sure about the shape of this button and
+15:54 we can change it by choosing a different
+15:56 button pack there's a couple we can
+15:58 choose from
+16:04 I think I kind of like this one just a
+16:06 classic round
+16:08 button and just like that I think we've
+16:11 got our style done now let's build our
+16:13 next page it's called my
+16:16 promise sometimes it's hard to know what
+16:18 other Pages you need on your website so
+16:20 you want to be thoughtful about it only
+16:22 create Pages because they're going to be
+16:24 genuinely helpful to your audience for
+16:26 example my mom is a therapist and on her
+16:28 website she has a page called what you
+16:30 can expect where she explains what a
+16:32 typical therapy session is like I love
+16:34 this if you've never been to therapy
+16:36 before can be a bit intimidating this
+16:38 hopefully helps people prepare
+16:40 themselves a bit my mom is so smart or
+16:42 consider this cleaning company they have
+16:44 an FAQ page where they answer basic
+16:46 questions like how long does it take my
+16:48 carpet to dry when can I walk on my
+16:50 carpet both my mom and the carpet
+16:53 cleaning company are doing something
+16:54 important they're putting themselves in
+16:56 the shoes of their customers they're
+16:58 creating pages that answer the questions
+17:00 and concerns their customers might have
+17:03 so back to my website why do I have a
+17:05 page called my promise well I'm a
+17:08 YouTuber who reviews tools for building
+17:10 websites one thing I'd imagine my
+17:12 audience is wondering is this guy
+17:14 trustworthy so on this page I'm going to
+17:16 make some promises that explain what you
+17:17 can expect from my videos first let's
+17:20 make a
+17:22 heading let's Center
+17:25 it then let's start adding promises
+17:29 I actually use the tools I
+17:32 recommend there isn't a best
+17:35 [Music]
+17:37 tool my videos shouldn't be boring and
+17:40 let's get these all lined
+17:44 up no sponsored
+17:47 videos but I do have some affiliate
+17:49 links after all my videos do take time
+17:51 to make so I have to make some
+17:56 money and let's just move the page up a
+17:59 bit and let's give that heading the same
+18:04 underline then let's add some lines just
+18:06 to give this a bit more
+18:10 [Music]
+18:13 order and let's move it all
+18:16 down and yeah that looks
+18:19 okay now I think the key here is to be
+18:22 specific notice I'm not saying you can
+18:25 trust me instead I'm making specific
+18:27 commitments and people can make up their
+18:29 own minds about me to illustrate this
+18:32 let's look at another example a bad
+18:34 example my bank TD Canada Trust plasters
+18:37 Canada with the slogan banking can be
+18:39 this comfortable and they include a
+18:42 chair that frankly doesn't even look
+18:43 that comfortable but that's not the
+18:45 point because in Canada at least banks
+18:48 are the worst to deal with they're not
+18:50 comfortable at all TD Canada Trust is
+18:53 telling us it'll be comfortable but
+18:54 they're making no concrete commitments
+18:56 so I have no reason to believe them I
+18:59 think a more effective ad would include
+19:01 a specific commitment for example no
+19:04 hold times longer than 10 minutes boom
+19:07 that's a specific commitment that would
+19:09 catch my eye so when you make your own
+19:11 Pages try to avoid making vague
+19:13 statements like we pride ourselves on
+19:15 customer service or we're committed to
+19:17 Quality or customers are core to our
+19:20 mission it's too vague and
+19:22 meaningless get more specific if you can
+19:25 okay let's keep going below this I'm
+19:28 going to add some biographical info just
+19:31 feels like I need that somewhere on my
+19:32 website so let's drag it out and then
+19:37 I'll add a
+19:38 photo move it over
+19:41 here and then let's use squares spaces
+19:44 shape tool to make it a bit more
+19:47 interesting kind of like this
+19:49 shape and there we
+19:53 go ah one more
+19:55 tweak now I'll be honest I find
+19:58 copyrighting really difficult I think I
+20:00 did a decent job here but my best advice
+20:02 is to write like you're chatting with a
+20:03 friend over coffee don't be overly
+20:05 formal good writing is conversational of
+20:08 course these days chat GPT can be really
+20:10 helpful for brainstorming ideas or just
+20:13 as a way to get started though be
+20:15 careful the stuff it generates is pretty
+20:17 vague you can also use squares spaces
+20:19 built in AI tool too though it's also
+20:22 pretty vague and to be honest we want to
+20:24 avoid large walls of text like this okay
+20:27 now this page still feels just a bit
+20:29 Bland to me so I have this idea
+20:32 Squarespace lets you add animated art to
+20:34 the background of your
+20:39 pages
+20:42 interesting kind of like this one now
+20:45 it's way too distracting right now so
+20:47 let's make it a little more subtle and
+20:50 change the
+20:51 shape maybe make them
+20:55 bigger and I think that's kind of
+20:57 interesting I am kind kind of
+20:58 sacrificing a bit of readability here
+21:01 because I think it does make the text
+21:02 more difficult to read but it's a bit of
+21:04 a trade-off and you can make your own
+21:06 decision for your own website okay my
+21:08 promise done next up the rest of the
+21:12 pages but let's just jump to the
+21:14 completed versions of these Pages let's
+21:17 take a look at them popular videos this
+21:19 is just a gallery of my popular videos
+21:21 pretty
+21:22 straightforward FAQ here I try to answer
+21:25 the most common questions my audience
+21:27 asks things like can companies pay you
+21:29 for more higher ratings what gear do you
+21:32 use can you make a personalized
+21:34 recommendation that kind of thing lastly
+21:37 I created a basic contact page with a
+21:39 form and those are the other
+21:42 Pages now we haven't yet looked at
+21:44 something that's super important mobile
+21:48 sure our website looks good on desktop
+21:50 but how's it going to look on phones so
+21:52 let's take a
+21:54 peek nice let's look at the FAQ page
+22:00 and it could use some adjustments
+22:02 Squarespace lets you edit the website on
+22:03 mobile to get things lined up how you
+22:07 want yeah that looks just a bit better
+22:09 and I'll have to edit the mobile version
+22:11 of the other Pages too but I'm going to
+22:14 skip that I think you get the point okay
+22:17 so mobile done at this point we've built
+22:20 our website all we have to do is publish
+22:21 it on a domain name after that we can
+22:24 talk about SEO and marketing cuz our
+22:26 website is useless if no one visits it
+22:28 but back to domains domain names can
+22:30 sound intimidating but it's pretty easy
+22:31 to set them up with Squarespace and it's
+22:33 really important to know if you register
+22:35 your domain name with Squarespace you
+22:37 can always transfer your domain name to
+22:39 a different provider no website builder
+22:41 can hold your domain name hostage that's
+22:43 illegal so we'll just go to our site
+22:47 settings domains and
+22:49 email and let's get a domain
+22:52 name fortunately Steve builds
+22:55 websites.com is available for me so
+22:57 that's easy and I'll check out domain
+23:00 names do cost money after
+23:02 all and we got it we do need to upgrade
+23:06 to a paid plan yet so just going to
+23:08 select the cheapest plan and I should
+23:10 mention all these prices are Canadian
+23:13 dollars and we're
+23:15 done our website is live on a domain
+23:18 name seriously it's up there like you
+23:20 can go look at it right
+23:22 now finally we can talk about the fun
+23:25 stuff SEO and marketing because our
+23:28 website is useless if no one visits it
+23:31 SEO or search engine optimization is a
+23:33 term that gets thrown around a lot but
+23:37 basically it means how do you get your
+23:39 website to show up in search engines so
+23:41 let's walk through an SEO example let's
+23:44 say you're Common Goods Pottery this is
+23:46 actually a real business in Toronto they
+23:48 sell Ceramics and they also offer
+23:50 pottery classes let's think of some SEO
+23:52 keywords they might want to focus on a
+23:54 keyword is just any word or phrase that
+23:57 people search for in a search engine for
+23:59 example people might search pottery
+24:01 classes in Toronto but what would be
+24:03 really useful is if we could know how
+24:05 often people are searching that keyword
+24:08 while we can get this information there
+24:09 are tools that can give a pretty
+24:11 accurate estimate of this it's called
+24:13 keyword volume and I use a tool called
+24:16 sem rush for this or sem rush I have no
+24:18 idea how it's pronounced so let's check
+24:21 pottery classes in
+24:25 Toronto wow 3600 people search that each
+24:28 month that's actually awesome let's keep
+24:31 thinking what else can we try they sell
+24:34 Ceramics so what if we try ceramic
+24:37 mug yeah people are definitely searching
+24:40 that but here's the thing if we flip
+24:42 over to Google we can see a lot of
+24:44 websites are competing for the keyword
+24:45 ceramic mug including Amazon and CB2 so
+24:48 it's pretty competitive so let's get a
+24:50 bit more specific let's try handmade
+24:53 ceramic mug Amazon and CB2 are less
+24:56 likely to compete on that and yeah that
+24:58 gets plenty of traffic too that's a good
+25:00 one or we could come at this completely
+25:03 differently let's try housewarming gifts
+25:06 and we can see that gets a ton of
+25:08 searches over 40,000 we could easily
+25:10 write a blog post with a bunch of
+25:12 housewarming gift ideas and include our
+25:14 own ceramic
+25:15 mugs this is the core of SEO find
+25:18 keywords with some volume that aren't
+25:20 too competitive I've included a link to
+25:21 sem rush in the video description though
+25:24 it's pretty expensive it starts at like
+25:25 $140 per month I bet if you looked
+25:27 around you could probably find a cheaper
+25:29 option so we have our keywords but how
+25:32 do we actually rank in Google for these
+25:33 keywords and that's where things get
+25:35 complicated there are many factors that
+25:37 contribute to where you rank in Google
+25:39 more then can be covered in this video
+25:42 and there are actually some great SEO
+25:43 YouTubers that I'll link to in the video
+25:45 description but let me give you a broad
+25:48 overview for starters you want a good
+25:50 title for your page in this particular
+25:53 case I'm not talking about the headline
+25:55 though I mean Pages have a title like
+25:57 you can see it in your browser window
+26:00 this title is also what shows up in
+26:02 Google search and this title should
+26:03 probably mention your keyword and be
+26:05 sort of enticing then a much bigger
+26:07 question is how does the content on your
+26:10 page support your SEO and I often use a
+26:12 tool called clear scope to help me with
+26:14 that basically you give it a keyword and
+26:17 it will give you a list of terms to
+26:19 mention on your page then as you write
+26:21 the content for the page it'll highlight
+26:23 the
+26:24 terms it'll also give you a Content
+26:27 grade to tell you how you're doing
+26:29 none of this guarantees you'll have any
+26:30 SEO success SEO is very competitive
+26:34 which is why you might want to consider
+26:35 Google ads this is basically paying
+26:37 Google to show up when our keywords are
+26:39 searched notice the sponsored tag you
+26:42 don't have to worry about ranking
+26:44 organically but it does cost money I've
+26:46 used Google ads for a couple family
+26:48 members businesses my brother's concrete
+26:50 company and my mom's therapy business
+26:52 and it's a super effective way to get
+26:54 new leads for small businesses okay I
+26:56 want to end with some advice a great
+26:58 website is not about technology it's not
+27:01 about HTML it's not about CSS and it's
+27:03 not about whether you choose the perfect
+27:05 tool if you want a great website be
+27:08 human put yourself out there be like the
+27:11 stores and malls and use colors and
+27:13 fonts to create a Vibe and
+27:16 tone no walls of text be concise you
+27:20 don't have to be a perfectionist but
+27:22 keep iterating until it feels right to
+27:24 you and above all don't make your
+27:27 website about you
+27:28 put yourself in the shoes of your
+27:30 visitors understand what they need and
+27:32 try to provide it so even if you don't
+27:34 feel like a technical person don't
+27:36 stress that's not as important as you
+27:38 think stick to these principles and you
+27:40 can make a great website thanks for
+27:42 watching

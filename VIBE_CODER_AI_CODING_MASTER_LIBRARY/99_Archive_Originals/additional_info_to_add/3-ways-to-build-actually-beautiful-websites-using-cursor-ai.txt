@@ -1,0 +1,290 @@
+3 Ways to Build ACTUALLY Beautiful Websites Using Cursor AI
+
+0:00 Let's be honest, your AI generated
+0:02 websites look terrible. And I know
+0:03 exactly why. You're going into cursor or
+0:06 claude and just typing make it beautiful
+0:08 or make it look professional, then
+0:10 wondering why you end up with the same
+0:12 boring generic designs that look like
+0:14 every other AI built site out there. The
+0:16 problem isn't the AI, it's how you're
+0:18 using it. Today, I'm going to show you
+0:20 three proven methods and some
+0:22 game-changing tricks that will
+0:23 completely elevate your websites and
+0:25 make them look absolutely stunning. So,
+0:28 jumping right into it, the first method
+0:30 is to take a design that's already been
+0:32 made and clone it perfectly. Here's how
+0:34 it works. You need to extract a proper
+0:36 design profile from whatever you want to
+0:38 replicate. For example, I grabbed this
+0:40 random design. If I want to make a
+0:42 website, web app, or mobile app that
+0:44 looks exactly like this, I can ask any
+0:47 AI, claude, chat, GPT, whatever to
+0:50 create a JSON design system that
+0:52 extracts all the visual data from what
+0:54 I've provided. Then I give this JSON
+0:56 output to cursor and boom, consistent
+0:58 styling. The output should include the
+1:00 style structure and I'll give the AI
+1:03 some autonomy to decide anything else
+1:05 that helps replicate this design
+1:07 perfectly. And here we have it. Our
+1:09 design system JSON file with all the
+1:11 data we need to replicate this design.
+1:13 Now let's actually test it out and see
+1:15 if it works. So here's what we did. We
+1:17 gave it a prompt to build a
+1:18 comprehensive educational dashboard with
+1:20 all the features we needed. Notice we
+1:22 didn't mention anything about design in
+1:24 the prompt itself. We just told it we
+1:26 needed the app in HTML, CSS, and
+1:28 JavaScript and to follow the design.json
+1:31 file. This is that file. I pasted the
+1:34 JSON that Claude generated and told
+1:36 cursor to follow it. And look at what it
+1:38 created. This beautiful looking app that
+1:40 clearly matches our target design. We've
+1:42 got these clean notifications, an
+1:44 attractive layout that matches exactly
+1:46 what we were going for, and even this
+1:48 sleek navigation bar. The result, it
+1:50 cloned the design almost perfectly. This
+1:53 is the power of giving AI a proper
+1:55 design system instead of just saying
+1:57 make it pretty. So, method one was
+1:59 perfect when you had a design to copy.
+2:01 But what if you want to create something
+2:03 completely original? Well, for that, I
+2:05 have this amazing website called Tweak
+2:07 CN. Basically, it lets you create your
+2:09 own perfect Shad CN UI setup from
+2:12 scratch. If you don't know what Shad CN
+2:14 UI is or you're not familiar with
+2:16 components, don't worry. I'll show
+2:18 examples that'll make the concept clear.
+2:20 When you visit this website and start
+2:22 customizing, you'll see this preview
+2:24 interface they've given us. On the left,
+2:26 you have options for customizing it
+2:28 however you want. For example, I'm in
+2:30 the colors tab right now, and we can
+2:32 change the color to anything we want.
+2:34 You can see the color changing as I drag
+2:36 the slider. And that's just the primary
+2:38 color. We can also change the accent
+2:39 colors, base colors, and even the card
+2:41 colors. So, everything is completely
+2:43 customizable. And not only colors, but
+2:46 typography as well. We can change the
+2:48 fonts too. If we go into others, there
+2:50 are more options. One of them is shadow,
+2:52 which adjusts the shadow of the
+2:53 components. It completely gives you the
+2:55 ability to customize however you want.
+2:57 Let me show you. If you just shuffle
+2:59 these, you'll see the different types of
+3:01 customizations and themes you can
+3:03 create. And if these are just the
+3:04 default options, imagine what you could
+3:06 design yourself. And this is just the
+3:08 cards tab. If we go to dashboard or mail
+3:11 tabs, there are more previews as well.
+3:12 It gives you everything including dark
+3:14 mode and light mode so you know how your
+3:17 app looks in both themes. If you like
+3:18 what you've created, go to the code tab,
+3:21 copy the code, paste it into an
+3:22 index.css file in your directory, just
+3:25 like method one. Then ask cursor to
+3:27 build your project from this file. Now,
+3:29 methods one and two were great for
+3:32 getting the overall design and styling
+3:34 right. But here's method three, and this
+3:36 one's all about taking your apps to the
+3:38 next level with premium components. So,
+3:41 another way to make your websites or
+3:42 apps look really, really good,
+3:44 especially if you're making web apps
+3:46 with React, is by using React
+3:48 components, which honestly look amazing.
+3:50 For example, we have this library right
+3:52 here called React Bits, which gives you
+3:54 animated React components. I'm going to
+3:56 show you these components in a bit, and
+3:58 they look pretty awesome. But this isn't
+4:00 the only library. There are actually a
+4:02 lot of other component libraries out
+4:04 there, and many people find Aceternity
+4:06 UI pretty good as well. Some of these
+4:08 libraries are paid, but even in those,
+4:10 you'll find free components that are
+4:12 really worth using as opposed to just
+4:14 going ahead and telling AI to generate
+4:16 everything by itself. So, let's go ahead
+4:18 and actually use some components from
+4:20 this React Bits library in our app. And
+4:23 let me show you how the process works as
+4:25 well. Let's take this landing page as
+4:27 our example. It's just a standard
+4:29 landing page. Nothing impressive about
+4:31 it. I came into cursor, told it to
+4:33 install a Next.js app, and create a
+4:35 landing page with six sections. I could
+4:37 customize later. Cursor set everything
+4:39 up and created the whole thing. Now I
+4:42 want to upgrade this with custom
+4:43 components. You can see in our powerful
+4:45 features section, we have these basic
+4:47 cards. What if I want to make these
+4:49 cards look absolutely amazing here in
+4:51 React Bits, there's this component
+4:53 called tinted card. Look at this effect.
+4:55 It makes the card 3D and as you move
+4:57 around it, it tilts. This is exactly
+5:00 what I want to add. Another amazing
+5:01 thing is you can customize the component
+5:04 before copying it into your app. You can
+5:05 install it directly or just get the code
+5:08 which is what I'm going to do first. I'm
+5:10 copying the entire component code.
+5:12 Notice it has a prerequisite framer
+5:14 motion which needs to be installed for
+5:16 the component to work correctly. Now
+5:18 heading back into cursor, I'm going to
+5:20 tell it exactly what I want. Name the
+5:22 section where this should be
+5:24 implemented. Tell it to use the
+5:25 component I'm providing as the card for
+5:27 that specific section. And make sure it
+5:29 installs the framer motion dependency.
+5:32 Here's the component code I copied. And
+5:34 I'm giving this whole thing as a prompt
+5:35 to cursor. Right now cursor is done
+5:38 generating the code. It took its time.
+5:40 But now let me show you how these
+5:42 component cards turned out. This is the
+5:44 features section we had before. And now
+5:46 watch this. If I hover over the cards
+5:48 and move the cursor around, it has that
+5:50 exact same rotation effect we saw in the
+5:53 component library. And it works
+5:54 perfectly on all the cards. Now I'll be
+5:56 honest, I did run into some errors
+5:58 during integration. Sometimes when
+6:00 components are more complex, you might
+6:02 hit a few bumps. For example, the tinted
+6:04 card component I used had a background
+6:06 image in the original code. Cursor
+6:08 automatically added a stock placeholder
+6:10 image when it saw that I had to ask it
+6:13 to remove the background image, which it
+6:14 did without any issues. And here's our
+6:16 final result. Smooth 3D tilting cards
+6:19 that look absolutely professional
+6:21 compared to the basic ones we started
+6:23 with. Oh, and if you're enjoying the
+6:25 content we're making, I'd really
+6:27 appreciate it if you hit that subscribe
+6:29 button. We're also testing out channel
+6:30 memberships. launched the first tier as
+6:32 a test and 50 people jumped in
+6:34 immediately. The support's been
+6:36 incredible, so we're thinking about
+6:37 launching additional tiers. Right now,
+6:39 members get priority replies to your
+6:41 comments. Perfect if you need feedback
+6:43 or have questions. Now, those three
+6:46 methods will give you the foundation for
+6:48 amazing looking apps, but there are some
+6:50 essential techniques beyond that.
+6:52 Crucial details that separate amateur
+6:54 projects from professional ones. Let's
+6:56 talk about animations. If you want to
+6:58 add animations to your websites or apps,
+7:00 here's the golden rule. Don't overdo it.
+7:02 Ask it to animate everything and your
+7:04 site will look unprofessional and
+7:06 distracting. So, how do you do this
+7:08 right? For any 3D effect you want, just
+7:10 ask chat GPT or Claude to tell you
+7:13 exactly how to prompt cursor to add that
+7:15 specific effect to whatever section you
+7:17 want. But if you want smooth animations
+7:19 and micro interactions that actually
+7:21 elevate your website, focus on these
+7:24 types of effects, subtle movements that
+7:26 every professional site needs. Just
+7:28 mention the exact effect you want and AI
+7:31 will implement it perfectly. The key is
+7:33 being specific about the animation you
+7:35 want, not just saying make it animated.
+7:37 Another crucial element that instantly
+7:39 elevates your design is the fonts you
+7:42 choose. Using fonts that actually match
+7:44 your project's vibe can take it from
+7:46 amateur to professional in seconds. Take
+7:48 our landing page here. If I want to
+7:50 change the main text in the hero
+7:51 section, where do I find the right
+7:53 fonts? How do I explore options that
+7:55 actually work? Google Fonts is your best
+7:58 resource. They have an extensive library
+8:00 with different artistic styles and
+8:02 amazing filters to help you find exactly
+8:04 what you're looking for. For example, I
+8:06 found this font that's perfect for my
+8:08 hero section. I'll open it up and hit
+8:10 the get font button. Here's the get
+8:11 embedded code option. This gives you the
+8:13 code to embed in your project, making
+8:15 the font instantly available. Now I'm
+8:17 heading back into cursor. I'll give it
+8:19 the embedded code so it can import the
+8:21 font and tell it to apply this to the
+8:23 main heading in the hero section. Back
+8:25 to the website and look at that. The
+8:27 font is applied and it honestly makes
+8:29 the website look dramatically better.
+8:31 It's amazing how much difference the
+8:33 right typography makes. Now, I know
+8:35 you've heard that you need to be
+8:37 specific with AI, but many people miss
+8:39 this point every single day. A perfect
+8:42 example is designing layouts. You can't
+8:44 just say make an app or make a site
+8:46 responsive. It'll get the job done, but
+8:48 it won't be perfect and there will still
+8:50 be bugs. Instead, specify the exact
+8:53 layout you want. Like here, I told it to
+8:55 create a bento layout that becomes a
+8:57 single column on mobile. I purposely
+8:59 specified how the layout should function
+9:01 and I put this into a file so I could
+9:03 show you the results. Look at this bento
+9:06 layout. We have these cards arranged
+9:08 perfectly. Now if I switch this to
+9:10 mobile view, you can see the cards
+9:12 seamlessly transition into a single
+9:14 column, creating a much better user
+9:16 experience. And here are some examples
+9:17 of other layouts you can specify and
+9:20 implement in your own applications. I'll
+9:22 also leave some links to other resources
+9:24 you can use to make your websites and
+9:26 apps even more beautiful. definitely go
+9:28 ahead and check them out. Most
+9:30 importantly, try at least one of these
+9:32 methods and implement it in your own
+9:34 app. You'll be amazed at the difference
+9:35 it makes. That brings us to the end of
+9:37 this video. If you found these methods
+9:39 helpful and want to support the channel,
+9:41 you can use the super thanks button
+9:43 below. It really helps us keep making
+9:45 tutorials like this. Thanks for watching
+9:47 and I'll see you in the next one.

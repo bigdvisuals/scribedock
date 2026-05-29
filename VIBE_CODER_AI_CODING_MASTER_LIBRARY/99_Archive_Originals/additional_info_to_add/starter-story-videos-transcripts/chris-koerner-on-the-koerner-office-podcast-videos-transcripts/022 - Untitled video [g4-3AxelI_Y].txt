@@ -1,0 +1,191 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=g4-3AxelI_Y
+Channel: Chris Koerner on The Koerner Office Podcast
+Video ID: g4-3AxelI_Y
+Transcript language: English
+Downloaded at: 2026-05-25T23:53:08.598Z
+
+0:00 57% of sales goes to whoever responds first. And that's not my opinion. That's data. As of right
+0:06 now, most small businesses are letting calls go to voicemail and hoping people call back. Side note,
+0:12 they don't. So, today, I'm going to build an AI agent that texts back missed calls automatically.
+0:18 It has a full conversation, answers questions, and books the appointment without your involvement.
+0:23 And I'm going to show you how to sell this to small business owners because statistically
+0:27 speaking, you're probably not a business owner yourself. So, we're going to figure out how to
+0:30 make money from business owners so we can be a business owner ourselves. And literally just
+0:33 yesterday, this 16-year-old girl that's in a high school for entrepreneurs emailed me this and said,
+0:38 "Hey, it works. I use ringless voicemail drops to find a plumber that wants AI integrated into his
+0:43 business." And I got it on my 16th birthday. You can do it all inside of GoHigh Level. And then I'm
+0:48 going to show you something even more interesting. You ever heard the phrase dog fooding? aka eating
+0:53 your own dog food, aka using the marketing technique that you're selling to small business
+0:57 owners to find those exact same small business owners. We're going to be dog fooding today.
+1:01 I'm going to show you how to use this exact same setup in reverse to find and close small business
+1:06 customers who will pay you to run this for them. We're going to cover the full build step by step
+1:11 inside GHL, the exact prompt that makes the AI sound human over text, and how to land clients
+1:17 using ringless voicemail in the same agent. And most importantly, I'm going to share my screen,
+1:22 my phone. I'm going to get a live fish on the line. I'm going to find a customer by the end
+1:26 of this video, guys. This is a $500 to $2,000 a month per client service. So, let's build it.
+1:36 So, missed call text is not anything new. We're not inventing it today, but if business owners
+1:41 are using it, and most aren't, it's just a static one single text. Let's say you're a plumber. you
+1:47 miss a call and an automated text goes out to the person that called you that says, "Hey, sorry I
+1:51 missed your call. Anything I can help you with or our operating hours are between 9:00 and 5,
+1:54 yada," and then there's no interaction, there's no engagement. That doesn't really do a lot at
+1:58 all. But we're going to add AI to it. We're going to make it seem very real so that one
+2:03 static text can be converted into a two-way conversation that books appointments and gets
+2:08 you or business owners more sales. So, we're going to logo high level right here and we're going to
+2:12 click on automation on the sidebar. We're going to click this big blue button, create workflow,
+2:18 select from template, and we're going to search missed call text right there. Okay, let me explain
+2:25 to you what you're looking at right here. This first step is called the trigger. That's what
+2:28 starts this workflow/automation. And in this case, the trigger is an incoming call. And right here,
+2:34 it shows if the call is busy, has a voicemail, or no one answers it, then the trigger will be
+2:40 activated. And then the next step right here down the line down the workflow is slight delay so SMS
+2:46 doesn't feel like a bot. We want to give it 1 to 3 minutes before that text goes out so it doesn't
+2:51 feel automated. And then on this third step right here, we're going to assign it to a user. So if
+2:55 you or the business owner you're working with has a team, they don't want to be the one that manages
+2:59 this. We can assign it to a user. But I think in most cases, this won't even be necessary cuz most
+3:04 business owners don't even have employees, believe it or not. This next step adds a contact tag. So,
+3:09 Gohigh Level also functions as a CRM customer relationship management platform where you
+3:14 basically store all your leads or your contacts, customers, data, phone numbers, addresses, etc.
+3:19 So, we want to know which of those contacts in our CRM used this workflow. It's good to know. That
+3:26 way, you can sort by them, you can filter by them, etc. So, we're going to use that to add a contact
+3:31 tag. You can name this whatever you want. I named it mist- call. And then this step right here turns
+3:37 a text into a lead. Now this is how GoH High Level categorizes the contact as a lead. And in this
+3:43 same step is also where this text will finally be sent. So it took about five steps to actually get
+3:49 to the point to where we're sending the first text to the customer that called. And then right here,
+3:53 let's say that the business owner or the employee wants to take over for the AI at any given point.
+3:59 We set up a push notification to the assigned user which was assigned right here in step three. So if
+4:06 they want they can take over and start texting as themsself. And then this last step right here
+4:11 basically does the same thing except through an SMS and not through a push notification. So this
+4:17 has a time delay of 0.2 minutes. That's not long enough in my opinion. I like to do 1 to 2 minutes.
+4:23 So we'll save that. Okay. Now very important. This is the most important part. Remember this
+4:28 step right here where you first send the text to the customer? We're going to delete that. Okay,
+4:34 we're going to replace it with AI. So, we're going to click the plus. We're going to click
+4:39 conversation AI. We want to hit this toggle button right here, advanced bot configurations. Let's say
+4:45 hypothetically we are doing this as a service. We're getting paid to do this for a tree trimming
+4:50 business owner. So, this was the generic template that GoHigh Level gave me. But let's just say I'm
+4:56 going to market this to tree trimming business owners cuz I own a tree trimming business. So I
+4:59 know that industry better than most. So I'm going to copy this prompt, take it over to
+5:03 Claude or Chat GBT Grock, whatever you use. And I'm going to say, replace this personality in
+5:08 the conversation AI on go high level with an AI agent representing Fast Tree Care,
+5:13 a tree trimming company in DFW that is engineered to book appointments for quotes. Okay. About you.
+5:18 You're a friendly assistant for Fast Tree Care. Objectives: Find out what tree service they need.
+5:23 rules, be warm and casual, talk like a real person, not a robot, questions to ask, what's
+5:27 going on with your tree, yada yada yada. So, you don't have to like upload this huge repository of
+5:32 FAQs, just have AI create that knowledge base for you. Now, I'm going to go to Claude. I'm going to
+5:38 take all of this, these additional instructions, and say, "What you gave me was great. Go ahead
+5:43 and swap out this with something that matches Fast Tree Cure." This basically just says how to handle
+5:48 the questions and the objectives, how to go in order, some examples of things that you can say,
+5:54 what types of phrasing to use, etc. And then we're going to leave this last section blank right here.
+5:59 So, we want the bot to wait for a reply for like 24 hours. Okay? And channel is going to be SMS.
+6:06 We'll skip the question if already answered. Now, what's the max number of responses that we want
+6:11 the bot to give? This is like an insurance policy, a safeguard against the bot just going crazy and
+6:16 not leaving the person alone. I think five is a good safe number for this. This is the amount of
+6:20 seconds that you want to wait in between each response. I think 10 is not enough. I'm going
+6:25 to say 35. So question. This is the simplest one there is. I'm just going to say, "Hey, sorry we
+6:31 missed your call. What's going on with this tree?" And I'm just now seeing these top two need to be
+6:35 300 words or less. So I'm asking Claude just to trim it down for me. And same here with this one.
+6:41 trim that down to 213 words with just one prompt. Okay, so after the conversation AI starts,
+6:48 it's going to send the same push notification to the same user or business owner in the same
+6:52 SMS so they can take over should they want at any point. Also, very important, remove your
+6:58 quote marks from this question. Trust me, it's embarrassing. Hey, if you find yourself driving
+7:02 much or working in the yard or doing the dishes, check out my audio podcast, The Ker Office,
+7:06 cuz you'll see episodes there that don't make it to YouTube on all podcast platforms. Okay, now we
+7:10 need to add some branches. This is basically an if this then that scenario. And really what we
+7:15 want to do is log the customer's info once we get it from them. So we're going to click add
+7:20 condition. We're going to call this booked. And the condition is customer provided their tree
+7:25 service need address and preferred day for the estimate. Now we're going to do another one called
+7:30 emergency because sometimes here in Texas there are like ice storms and someone might literally
+7:35 have a huge branch on their roof. So we're going to call this one emergency and the condition will
+7:39 be customer mentioned a tree fill on their house yada yada and needs immediate help. And then
+7:44 the third and final branch we're going to add is called unqualified for the times when a customer
+7:51 is asking about something other than tree services or is outside of our service area. Okay, let's go
+7:57 ahead and submit. Okay, so now you will see all of these different branches. If they time out,
+8:02 aka they never respond, the automation will end. If they book a time for us to come provide a quote
+8:06 or for the business owner to come do that, we want it to notify us. So, I'm just going to take this
+8:11 one right here. I'm going to copy it. I'm going to click controlV. I'm going to paste it and then I'm
+8:17 going to drag it over here. I don't need a push notification and an SMS. An SMS will do it. Same
+8:22 thing over here. If there's an emergency, like a tree on their house, we're going to copy it. We're
+8:26 going to paste it right there. The text is just going to say emergency. And then I don't want to
+8:31 be notified. The business owner probably doesn't. if someone's unqualified. So, we're just going to
+8:35 tag them. We're going to copy this tag and we're going to paste it right here. And the tag that we
+8:40 attach to this user is just going to be cancelled. If I wanted to waste an extra minute, I would just
+8:46 create a new tag called unqualified, but I'm too lazy. So, cancel does it. This is it. This is how
+8:51 it works. This is the whole thing. Okay? And this step right here, this is the meat of it.
+8:55 This is where people are going to have full-blown conversations with our AI agent. And here's the
+8:59 secret beautiful thing of all this. Now that you have this one workflow, you can copy and paste it
+9:05 over and over and over for multiple customers. They're not all tree trimmers. Fine. You just
+9:09 swap out the tree trimming info with the plumber info, the HVAC info, or whatever type of business
+9:13 it is that they own. Now, of course, we got to hit publish and then save. Now, we're going to go back
+9:20 here to the list of workflows, click the three dots, and click duplicate workflow. And then we're
+9:26 going to call this dog fooding. Okay, so same trigger. we get an incoming call and I'm going to
+9:32 show you how to generate those incoming calls. We still want the same delay. We still want to assign
+9:37 it to a user. Now, keep in mind this would be me or my employee, my user, because this is me trying
+9:42 to sell this service to other business owners. And everything I just showed you, that is something
+9:46 we're building for the business owners that we're trying to sell this to. We still want to add a
+9:50 tag just to stay organized. And we don't need the emergency branch anymore because there will be no
+9:56 emergencies. So, we're going to delete that. and we still want to book appointments with them. So,
+10:02 we could talk to them as humans and try to close them either in person or over the phone. And
+10:06 there's still going to be a lot of people that are unqualified. They're unwilling to pay or whatever.
+10:10 So, we're going to leave that. But the magic needs to happen right here. So, what I'm doing is I took
+10:16 a screenshot of all this, drug it over to Claude, and said, "All right, I'm going to use the same
+10:21 workflow to dog food it to try to find business owners that want this missed call text back
+10:26 feature. So, give me new instructions for this and just know that the agent is going to act as me
+10:31 as like a sales agent to answer questions for the business owner and tell them how it will make them
+10:36 more money that it'll cost 500 bucks a month and if it doesn't pay for itself in the first 90 days,
+10:42 then it's free. Okay, you're a friendly assistant to Chris Kerner. You're texting a business owner
+10:45 who just heard a voicemail from Chris about an AI powered miscalled textbox
+10:48 system. yada yada yada. And remember, we want to remove the quotations from these questions.
+10:55 We're going to add one more condition here that says hot lead. Customer is very interested asking
+11:01 detailed questions or wants to start immediately without a demo. And then again, we're going to
+11:06 send an SMS for that. Now, if you go in here, these are called conditional tags. This will
+11:12 put in the customer's first name so I know how to address them if I were to actually call them. So,
+11:17 I'm just saying user first name is a very hot lead. Contact them here with phone and
+11:21 name. Save. Then we're going to click publish. So every business has two functions. Find customers,
+11:28 fulfill those customers, aka do the service or the product that you're promising them. We just did
+11:33 both of them with the same workflow. Or at least we just set up the ability to find the customers.
+11:38 So let's go ahead and do that real quick. Okay. So who do I text? Well, I went to outscraper.com.
+11:43 I typed in treeming businesses in Dallas, Texas. It gave me this info. And all I care about is the
+11:51 phone number. That's it. But I need to standardize them. So I'm going to do Crl+ FRL find. I'm going
+11:56 to do plus one space. I'm going to get rid of all those. Replace it with nothing. And then I'm just
+12:01 going to do a dash. Replace all that with nothing. So now I have 181 phone numbers for tree trimming
+12:08 businesses in Dallas, Texas. Okay. Now I'm going to go file, download, CSV. Okay. Then you can
+12:15 use any number of services for ringless voicemail drops. I use Slack Broadcast, not an ad. I'm going
+12:20 to go create a new campaign. I'm going to put in the caller ID. This needs to match what's in goh
+12:24 high level. This is the number that the voicemail is coming from. Also, I haven't even described
+12:29 this yet. A ringless voicemail drop is when you upload a voicemail to a piece of software like
+12:33 this and you upload a list of phone numbers and it will send that voicemail to those phone numbers,
+12:37 either cell or landline without their phone ringing its magic. Sometimes people will see
+12:42 a missed call, sometimes they don't. It's kind of random, but what it is going to do is generate a
+12:46 bunch of calls back to you. Okay, now I'm going to record a voicemail. So, I'm going to open my
+12:52 voice memos app. You've probably seen it before. And I'm just going to hit the big red button. Hey,
+12:56 this is Chris Kerner. I'm here in Dallas, Texas, and I'm looking for a tree trimming business. So,
+13:01 please give me a call back. Thanks. Kept it broad. Kept it vague. We're going to incentivize for a
+13:06 call back here. I'm going to airdrop this to the MacBook that I'm recording on right now. Upload
+13:10 recording. Boom. It's uploaded. I'm going to upload my list. Doesn't matter what I name it. 173
+13:19 numbers. It obviously scrubbed out eight because they were probably invalid phone numbers. We want
+13:23 to send it immediately. And that's it. We're going to start getting call backs. And then once GoH
+13:29 High Level recognizes that call back, it's going to text them back and then it's going to start a
+13:33 conversation as long as they text back to my text back. Also, to sync up your phone number with
+13:38 GoHigh Level, you just do it in the settings. It's pretty self-explanatory. Now, all there is left to
+13:43 do is click submit. All right. And look at this. You can see they've all gone out. A lot of them
+13:47 failed. Most were successful. And you can see the carrier that they're on and the phone numbers over
+13:52 here. Now, let's see if we get any uh call backs. Okay, got one. This is wild. I'm like I'm watching
+13:57 my AI interact with this business owner. Says, "Hey, I know this is random, but I'm using a mis
+14:02 call text back on you right now that will have a full conversation with you with AI. It feels real,
+14:07 doesn't it? I want to install it for you on your tree trimming business so you can close more jobs.
+14:11 What questions do you have?" Oh, and it just says cost. Great question. It is $500 a month,
+14:16 but if it doesn't pay for itself in the first 90 days, then I'll give you all your money back. Can
+14:19 we hop on a call so I can explain? It'll only take a minute. There it is for proof. So, I haven't
+14:24 closed them yet. I don't have money in my pocket yet from this, but you can see that this works.
+14:28 And literally just yesterday, this 16-year-old girl that's in a high school for entrepreneurs
+14:32 emailed me this and said, "Hey, it works. I use ringless voicemail drops to find a plumber that
+14:37 wants AI integrated into his business." And I got it on my 16th birthday. So, that wasn't like the
+14:42 same thing. She wasn't using GoHigh Level at all, but these principles work. And if you can't tell
+14:46 by now, yes, GoHigh Level is an amazing supporter of this channel. They usually give 14 days free
+14:51 to use it, but with my link only, you can get 30 days free. And if you end up paying for it, it
+14:56 will support me and my channel. So, I'd appreciate that at the top link in the description below. Go
+15:01 do this. There are 33 million small business owners in the United States, and basically all
+15:05 of them could use Miss Call Text Back. Now, you know how to install it, and now you know how to
+15:09 find them with the same thing, miss callback. Also, I have a community of people building AI
+15:14 businesses that sell into small businesses just like these. It's called Playmakers. You can find
+15:19 us at playmakersai.com. We'd love to have you. If you like this content, please share with a friend,
+15:24 hit a like or a comment below, and we'll see you next time on the Kerner

@@ -1,0 +1,1257 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=gWkhUd-LWTs
+Channel: Greg Isenberg
+Video ID: gWkhUd-LWTs
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 Everyone's talking about Google V3, but
+0:03 I don't think enough people are showing
+0:05 you how to make money with V3. So, I
+0:09 brought on PJ, who's going viral every
+0:12 every few weeks, some of his AI films
+0:15 that he's posting on X. Some of them
+0:17 have like a 100,000 likes. It's
+0:19 absolutely crazy. He's figured out
+0:21 exactly how to do it. and he reveals his
+0:24 prompts, his process, how he uses Chat
+0:27 GBT, Final Cut Pro, should you use Cap
+0:30 Cut, how to think about V3. This is the
+0:33 A Toz tutorial on how to make money with
+0:36 V3. Enjoy the episode and like and
+0:39 comment for more of this stuff.
+0:44 [Music]
+0:50 I saw an ad that PJ used 100% AI, Google
+0:54 VO to create V3. And after that, I went
+0:59 down a rabbit hole of all these people
+1:01 using AI and V3 for creating ads. And I
+1:04 realized that a lot of the tutorials
+1:06 were to pie in the sky. Hey, this is a
+1:09 really cool ad. and they didn't really
+1:10 tell you how to how to get there and how
+1:12 to actually make money from this whole
+1:15 AI and V3 craze around making ads. So, I
+1:21 reached out to PJ. He obliged to come
+1:23 and spill some sauce. PJ, by the end of
+1:26 this episode, what are people going to
+1:28 learn? I'm going to show people how I
+1:30 consistently go viral on a weekly basis.
+1:33 How to make a commercial. We're actually
+1:35 going to take take apart my entire
+1:36 pharmaceutical commercial. uh why it
+1:38 went viral, how did I how did I make it
+1:40 from a practical step-by-step
+1:42 perspective? And then of course, how do
+1:43 you monetize content like this so that
+1:45 you can build a business around
+1:46 generative AI? And can anyone do this?
+1:50 Like I know cuz you're super talented.
+1:52 You've gotten like hundreds of millions
+1:53 of views in your career. Um what about,
+1:56 you know, the average person willing to
+1:58 put in the work? Yes, I would say. So
+2:00 it's it's definitely I think what really
+2:02 helps is to have structures and
+2:04 frameworks around what you're already
+2:06 uniquely interested in but I there's so
+2:08 many niches so many like weird you know
+2:11 things that you like that a big small
+2:14 communities like they also like as well
+2:16 and as you know riches are in the niches
+2:18 so then it's about okay how do I take
+2:20 these kind of processes that PJ's
+2:21 teaching and then apply it to my weird
+2:23 niche that other people want to consume
+2:25 content like this with V3 and generative
+2:28 AI and do you have to be highly
+2:30 technical to get those outcomes. Not not
+2:33 with LLMs anymore. I think they're
+2:35 really making all of this easy to get
+2:37 cinematic. I I would say at the end of
+2:38 the day, it's just like, can you create
+2:40 content that's entertaining? And I've
+2:43 got a lot of tips on on how you can do
+2:44 that. Okay, let's let's see some
+2:47 sauce. Okay. I tried everything for my
+2:50 depression. Nothing worked. Every day
+2:53 felt heavy. I felt trapped. Then I tried
+2:56 peppermint. Our prescription helps your
+2:59 body secrete a special pheromone that
+3:02 attracts puppies. I took the pill before
+3:05 bed and when I woke up, there he was,
+3:08 the love of my life. The pill does not
+3:11 target depression directly, but we've
+3:14 found that it's really difficult to be
+3:15 depressed when cute dogs show up at your
+3:17 doorstep. I used to feel so empty, but
+3:20 now I feel joy and mild concern how a
+3:23 pea stain got on the ceiling.
+3:26 My puppy listens twice as good as my
+3:28 ex-husband and only climbs into the lap
+3:31 of half as many of my friends. He chewed
+3:33 up my Bible and pooped in my good chair.
+3:36 But I'm happy for the first time in
+3:39 years. Looks like a rat, barks like a
+3:44 demon, but he saved my life. I named him
+3:47 Earl. He follows me everywhere and farts
+3:50 in his sleep. Just like my first
+3:53 husband. Puppine for when your therapist
+3:57 says maybe you should get a dog.
+4:01 So good. So fun. Yeah, it did. By the
+4:04 end of it definitely felt like an SNL
+4:06 sketch obviously. Well, I think what was
+4:08 so brilliant about it also is in the be
+4:10 in the beginning you're watching it and
+4:12 you're like I've seen this commercial
+4:14 beforeh and then there was like an
+4:17 emotional roller coaster of like, wait,
+4:18 is this a joke? Is this AI? What's
+4:20 happening here? Yeah. Yeah. And that's
+4:23 and that's obviously like why part of
+4:24 why it went viral is because you know
+4:27 and this is what we'll talk about today.
+4:28 It's not just like how to make things
+4:29 like go viral from a technical like how
+4:31 to build videos, but it's actually like
+4:33 why do people engage with content? And
+4:37 that's why I wanted to have you on the
+4:39 pod because I don't care that there's
+4:42 all this great technology to make really
+4:45 cool videos because if no one's seeing
+4:47 the videos, why does it matter? Yeah.
+4:49 Yeah. Yeah. Ex. Exactly. I mean, we're
+4:51 about to like content already is, you
+4:53 know, abundant. We're in a deluge of
+4:56 just an insane amount of content on a
+4:58 daily basis. But now with generative AI,
+5:00 it's it's honestly just going to get 10x
+5:02 100x more. And so I think like it's not
+5:06 just about your ability to technically
+5:07 make something. It's about your ability
+5:09 to understand why people would want to
+5:11 watch the whole thing, share it with
+5:13 their friends, and that's that that
+5:15 skill in some way is more important to
+5:16 talk about today. And then obviously
+5:18 like the business monetizing because if
+5:20 you're not doing this for money like
+5:22 sure it's a fun hobby but I actually
+5:23 think there's a lot of great businesses
+5:24 to build. So excited to dig into that
+5:26 with you more today. So what is step
+5:29 one? Do you start with the script? I
+5:32 mean is that where you start? Yeah I
+5:35 think I think at the end of the day like
+5:38 there's there's got to be some idea that
+5:40 hooks you on like why you think this is
+5:42 you know unique. Like I just saw this
+5:44 really funny viral video yesterday by a
+5:47 guy named MetaPuppet and it was like
+5:49 studies show that you know microplastics
+5:51 can be like you know kind of affect even
+5:53 your sperm like it affects your baby and
+5:55 it's this guy drinking a water bottle
+5:57 and then like 9 months later he births
+6:00 this like plastic humanoid baby and then
+6:03 it goes throughout and it's like this
+6:04 crazy life cycle of this like half human
+6:07 half plastic bottle and there's all
+6:09 these like funny little things that are
+6:11 popping off right now. So I think you
+6:12 need to have some sort of kernel of an
+6:15 idea hook that's like oh this is
+6:16 unexpected. So how this was for the
+6:18 pharmaceutical ad was I had a friend
+6:20 reach out and say hey you know like I
+6:23 want to make a pharmaceutical commercial
+6:25 like how much would it you know cost you
+6:27 like what can So I was like okay I'll do
+6:28 an experiment with it and see what V3
+6:30 can do it and then I was like bored
+6:32 halfway through making it. Um and I was
+6:34 like this is just okay I'll do this but
+6:36 then like it's a race to the bottom.
+6:38 There's nothing unique about this. Like
+6:40 I think all production companies are
+6:42 going to be commoditized at some level
+6:43 if they're just making like what I would
+6:45 call cinematic blasé garbage, you know,
+6:48 just like it looks good, but there's no
+6:50 there's no real like soul to it. And so
+6:52 I was like, you know, what if I just
+6:54 like left went left field halfway
+6:57 through? And so the the first kind of
+6:59 departure was uh I thought, what if it's
+7:02 like a placebo pill that they sent you
+7:04 and then they just actually ship you
+7:06 like a dog 3 days later? And then I was
+7:09 like, okay, okay. So I start running in
+7:10 that direction and then I sent it to
+7:12 another friend and he was like, "No, no,
+7:13 it should they should this should be
+7:14 like a it secretes pherommones. Like
+7:16 this is like real scientific
+7:18 breakthrough that like it attracts
+7:19 puppies. Where did the puppies come
+7:20 from? We have no idea." So then I was
+7:22 like, "Okay." So it started to roll and
+7:24 and so maybe we can share a little bit
+7:26 of like the ideation process through
+7:28 this. Um, might as well just roll into
+7:31 like how we made it. So I'm going to
+7:32 screen share. All right. So when I when
+7:36 I ideulate with
+7:37 ChachiBT, I you know I like to just give
+7:39 it like very generalized instructions to
+7:42 begin with and then um you know just
+7:45 like let it give me something super
+7:46 cliche and then I'm going to tear it
+7:47 apart. So like the prop starts with like
+7:49 give me four scripts for a standard
+7:52 pharmaceutical commercial for the
+7:53 presentation for a fake medication that
+7:55 solves depression by taking a pill
+7:57 that's a play on words that includes pup
+7:59 in the name and it sounds like a real
+8:00 medication. So the commercial follows
+8:02 the same format or structure of a 20 or
+8:04 so second prescription commercial.
+8:06 Starts off like it's people battling
+8:07 depression for the first 10 seconds. Few
+8:09 different speakers. Nothing worked. And
+8:10 then they tried the pup name. It's a
+8:12 pill you take in three to five business
+8:13 days. A puppy gets delivered to your
+8:15 house. It's a it completely solved their
+8:17 depression. Maybe the ending bit is try
+8:19 like a jet ski thing. I actually didn't
+8:21 end up using this. Um commercial is kind
+8:23 of an SNL style satirical take on the
+8:27 standard drug commercial and I like it.
+8:29 give me four uh prompt versions and then
+8:31 I kind of take the best lines and use
+8:32 that as like a a start a starting point.
+8:35 Um so of course it like you know starts
+8:37 with like question on so just question
+8:40 go up. So here you have a pretty good
+8:43 idea of what you want because you're I
+8:47 mean you you've been around this for a
+8:49 long period of time. If you've
+8:52 if you don't have
+8:54 the the kernel which you know you have
+8:58 here is it reasonable to ask chat GBT
+9:02 for hey I'm trying to create a
+9:03 pharmaceutical ad. I don't know you know
+9:07 how to create something that's viral.
+9:09 I'm inspired by SNL. Give me some ideas.
+9:13 Like how would you recommend people do
+9:15 it? Yeah, that's a great idea. Okay, so
+9:17 like I came up with the viral twist, but
+9:19 you're you're totally right. You could
+9:21 probably have Chad Gybt come up with a
+9:23 In fact, I would say it would pitch you
+9:25 some crazy ideas. So like maybe that's
+9:27 kind of the the viral formula for for
+9:29 for beginners, if you will, is basically
+9:32 like, okay, I know I can explore this
+9:34 type of commercial, but I want to have
+9:37 some sort of twist. can you give me five
+9:39 different twists on a pharmaceutical
+9:42 commercial that could be really funny if
+9:44 it's you know like let's just say it's
+9:45 SNL style. So then it would give you
+9:47 like five twists and then if it that's
+9:48 not doesn't work I'd be like okay I mean
+9:50 heck we can do it now. Um, give I want
+9:55 to do a pharma commercial, but have some
+9:59 sort of satirical SNL style twist on it
+10:05 that makes it funny and
+10:07 could be viral. Give me 10 ideas. Yeah,
+10:13 cuz I'm curious how your brain is going
+10:15 to edit
+10:16 these. Hey, are you kidding? it like
+10:20 it's got to be from our conversation
+10:21 history. That's actually
+10:24 hilarious or it's now it's just in such
+10:26 an embedded in the cultural ethos. Um,
+10:30 okay. For the audio listeners, it said
+10:32 peppermint. Yeah. Yeah. Like instantly
+10:35 says peppermint. So then it's got uh
+10:37 Okay. No more calls for people whose
+10:39 parents call them too much. Um, the drug
+10:43 numbs the emotional guilt response.
+10:46 That's pretty cool. That's actually
+10:47 pretty insane. Invisa RX for people who
+10:50 want to ghost without the guilt. Uh
+10:52 tired of making plans and rejected them.
+10:54 Okay.
+10:55 Interesting. Uh for when you can't made
+10:58 in Ire. That should be made in Ireland.
+11:01 You know, like Irish goodbye.
+11:04 Yeah, that' be really funny. Uh easy
+11:07 text. Uh help you stop texting your ex
+11:09 for dad's yelling at sports. I'll tell
+11:11 you what was a similar pharmaceutical uh
+11:14 take I saw. It was by uh the Tim and
+11:16 Eric show and Jeff Goldblum was the host
+11:18 of it and he was it was basically like
+11:21 uh it was like you want to fast forward
+11:24 time. This pill will knock you out until
+11:27 like so open your calendar app and then
+11:29 select what day you want to fast forward
+11:31 to. And it's like great just take the
+11:33 pill and then it will fast forward to
+11:35 that and then he like wakes up in a
+11:36 catatonic state like four weeks later
+11:38 and he's like done it's presto and it
+11:40 has all these terrible side effects of
+11:42 like you know cardiac arrest like not
+11:44 waking up all this fun but it's it's
+11:46 kind of then in the execution to make it
+11:48 really good but anyway I I think there's
+11:50 a lot of like great material here and
+11:52 then I would just kind of prompt and go
+11:54 until you find like the kernel of the
+11:56 idea that you really like. Cool. Yeah.
+11:58 So, I think for one takeaway for people
+12:01 is
+12:03 uh just like people like SNL and Tim and
+12:06 Eric like they've perfected the art of
+12:09 satire in a lot of ways. So, if you let
+12:12 ChatGBT know, they're going to use that
+12:14 as the model and that's going to be
+12:15 helpful. Yeah. And I would I would one
+12:18 hack I've been uh experimenting with is
+12:21 don't just use Chat GBT. Also try Claude
+12:24 and try Grock. uh Brock's like unhinged
+12:27 mode and fun mode and like I usually try
+12:30 two to three different models of like my
+12:32 initial idea and then depending on the
+12:34 which one I'll just use that. I would
+12:35 say overall humor-wise Chetchy PT is
+12:38 pretty good but um Grock sometimes gives
+12:41 me like insane stuff that Chetch would
+12:44 so
+12:45 censor. Cool. All right, let's continue.
+12:48 All right. Um,
+12:50 so, so basically it starts to give me
+12:53 like boring scripts. Uh, you know,
+12:55 basically like, okay, when I first tried
+12:57 pup res a once a daily pill that
+12:59 triggers ah, I hated it. This one, what
+13:01 was the next one? I thought it gave me
+13:03 pupin. Um, anyway, it basically is like
+13:07 uh, you know, I found it treats all one
+13:10 pill and wait, I think I'm in love
+13:12 again. Blah blah blah. I didn't like a
+13:15 lot of these, but some of these were Oh,
+13:16 no. Here it is. Sorry. I tried
+13:19 everything for my depression.
+13:20 Medication, journaling, meds, nothing
+13:21 stuck. I just felt numb. But then I
+13:23 tried papressa. You know, once a day
+13:25 delivers a puppy within 3 to 5 days,
+13:27 instant serotonin. Um, it's like not
+13:30 that funny. So then I think I think I
+13:32 start saying like, okay, give me like
+13:35 comedic examples.
+13:37 Um, let's see where this
+13:40 is. Okay, so then it started to give me
+13:43 like funny one-off ones. And these are
+13:44 like the lines that actually became the
+13:46 the body of the commercial where it was
+13:48 like peppermint transformed me and my
+13:51 Babe Ruth card collection. You know, the
+13:53 irony is like it like tore up all his
+13:55 cards. He licks my toes almost as much
+13:58 as my late husband used to. I found a
+14:00 beagle and lost custody of my recliner.
+14:03 He only pees on the things he loves. And
+14:05 so these are all like a from here.
+14:09 um you know and then I and then it just
+14:11 I was like all right give me I said give
+14:14 me more you know give me more in that
+14:15 line and so then I was like these are
+14:18 amazing keep going so I just basically
+14:20 have it just give me a bunch of like
+14:22 zingers oneliners um you know and and
+14:24 some of these were really funny like
+14:26 this one was he listens twice as good as
+14:28 my ex-husband and only humps half as
+14:30 many of my friends so that's actually I
+14:34 used that line in there but I couldn't
+14:36 get V3 to say humps humps my friends.
+14:39 So, I had to say he climbs into the lap
+14:41 of half as many of my friends and uh you
+14:44 know, and then I just I keep it going
+14:46 and basically I'm constantly refeeding
+14:48 my favorite lines in it so that it kind
+14:50 of like it learns and it updates. So,
+14:52 like you know, I named him Earl. He
+14:54 farts in his sleep and follows me around
+14:56 everywhere just like my first husband
+14:58 Earl. I got hair loss, high cholesterol,
+15:00 but it's the first time I've been happy
+15:02 many years. So anyway, like this this is
+15:04 honestly like the perfect Chachi BT
+15:06 thing because it's it's it's good. Like
+15:08 95% of the jokes aren't that funny, but
+15:11 5% actually are. And if you just prompt
+15:13 it enough to say like, "Okay, give me 10
+15:14 more. Okay, give me 10 more. Here's what
+15:16 I'm liking. Go in this direction. Make
+15:18 it unhinged. Make it like non
+15:19 sequators." It's just going to keep like
+15:21 I would say like probably 70% of the
+15:23 lines in this are chat GBT, but it's not
+15:27 like a oneshot prompt, you know, of
+15:30 like, "Okay, give me this." And it gives
+15:31 it out. You got to kind of work with it
+15:33 back and forth, right? I think one thing
+15:36 you can do if you don't have the taste,
+15:39 you can kind of outsource taste and you
+15:41 could say, you know, let's say you like
+15:44 Seth Rogan, you'd say like, create jokes
+15:46 that I think Seth Rogan would like.
+15:49 That's it. Exactly. Yep. Yep. Create
+15:51 jokes in the style of Seth Rogan or like
+15:54 imagine your Bill Burr doing a standup
+15:57 comedy routine or, you know, like Bill
+15:59 Harris or That's right.
+16:02 Ex. Exactly. So yeah, I mean definitely
+16:04 all of those will be really help um full
+16:06 in creating that. I had I actually tried
+16:09 another one this last week that or
+16:11 yesterday that went viral where I
+16:13 basically just took jokes from uh the
+16:16 deep thoughts with Jack Handy from SNL
+16:18 and then I just reconstituted those
+16:20 jokes into like you know VO3 settings.
+16:23 So that's that that also works but you'd
+16:26 have to credit you know this isn't my
+16:27 original jokes anyway. Um, so once we've
+16:30 got our script kind of locked in of like
+16:32 all our core lines, what we then want to
+16:34 do is create prompts out of each
+16:37 dialogue line on that. So we're then
+16:39 going to, you know, in this case, like
+16:41 the first one is, you know, we know it's
+16:43 um, I tried everything for my
+16:44 depression. Nothing worked, right?
+16:46 That's the first shot on here. So I'm
+16:48 going to take this into chatbt and I'm
+16:51 going to say basically like you know hey
+16:54 um give me using this prompt structure
+17:00 can you extrapolate you know a prompt
+17:04 you know using this prompt structure um
+17:06 and it it it kind of knows the the
+17:08 essence of because you've been talking
+17:10 with it this whole time. So then you
+17:12 paste like Sarah says blank and it's
+17:14 like make Sarah, you know, a middle-aged
+17:17 woman in her 50s. And once you do this
+17:19 once, you can just feed it like Sarah
+17:21 says this, Dave says this, and it'll
+17:23 just kind of like create people for you.
+17:25 It's it's it's super easy. Um and and
+17:28 all you need is like the the prompt
+17:29 structure for this. Um I you can
+17:32 probably screenshot it right now on on
+17:34 my screen. Um but uh I I am teaching a a
+17:38 full course on this. It's it's going to
+17:39 be like, you know, I don't know, 100 200
+17:41 bucks. It's going to be super cheap. And
+17:42 where I I go through this like whole
+17:44 process. It releases in a few weeks. But
+17:46 basically, it's like a prompt structure
+17:47 like this. It's very simple though. You
+17:49 just basically, you know, like V3, you
+17:51 don't need this level of prompt
+17:53 structure. You basically just need to
+17:54 describe what's happening. And it's, you
+17:56 know, you can do like the pose, the shot
+17:58 type, the camera type, like what's
+18:00 happening in the background. But at the
+18:01 end of the day, like it actually does
+18:02 not need complicated prompts. It's very
+18:04 simple. Basically, you just need an
+18:06 overview of what's happening and then
+18:07 the dialogue that that guy says. Um, so
+18:10 then we it gives us, you know, kind of
+18:13 shot by shot, prompt by prompt, each one
+18:16 in the prompt list. So that's this. We
+18:18 take it from chat GBT and then we kind
+18:20 of paste it and we just make sure that
+18:22 we're in um VO3, which is like the, you
+18:25 know, highest quality model. We only do
+18:27 one output per prompt and then, you
+18:29 know, we hit enter. I'm not going to hit
+18:31 enter because you it's about $2 to $3
+18:33 per shot. And what's the deal with VO3
+18:36 and audio? Sometimes like it it puts out
+18:38 audio and sometimes it doesn't.
+18:40 Sometimes the audio is whack. Like
+18:41 what's your whole Yeah.
+18:44 Unfortunately, uh it is a it is a slot
+18:48 machine. No matter how great you prompt
+18:50 and I you know like the pro tips, it's
+18:53 still sometimes randomly like they won't
+18:54 talk at all. I'm sure they're fixing it.
+18:56 I've been talking with the Google team.
+18:58 They're like obviously actively aware of
+19:00 of that problem where there's no audio
+19:02 and then they're also aware of the
+19:03 subtitle issue. I have found that if you
+19:06 um don't include uh quotes, so actually
+19:09 I should I'd learn this later, but don't
+19:11 include quotes and then it will be less
+19:13 likely to generate like weird gibberish
+19:16 subtitles um underneath. Um so that's
+19:19 that's pretty much it. And then
+19:20 basically I will go back uh between
+19:22 chatbt my original script and then I
+19:25 will just go shot forshot like with each
+19:27 one on here and then just run it one at
+19:30 a time. The reason I like to run it one
+19:31 at a time is because it's so expensive.
+19:33 So I'll kind of get feedback like you
+19:36 know is this working? I don't think you
+19:39 can hear the audio but in this case like
+19:41 she's actually not talking. So I just
+19:42 had to run that again. And this one,
+19:44 this was a little weird because he like
+19:47 the UPS guy is delivering a puppy
+19:50 through a house into, you know, so it's
+19:52 like it's, you know, then I have to like
+19:54 take this prompt and like copy and paste
+19:55 it into a Chad GBT and say like, "Okay,
+19:58 he's actually entering through the door.
+19:59 Can you redo this prompt so that he's
+20:02 entering in a house?" And then, you
+20:03 know, you just kind of go back and
+20:05 forth. So use chat GBT always or your
+20:08 favorite LLM of choice to do the heavy
+20:10 lifting and then and then you you copy
+20:12 and paste the prompts into here. This is
+20:14 this is what I found. Also, it's worth
+20:16 noting that like this is all uh text to
+20:19 video. There is technically um like
+20:22 images to video that they have or
+20:23 ingredients, but these do not work that
+20:25 well yet. Um they're just not they're
+20:27 just not that good. So So what that also
+20:30 means though is that there's no
+20:31 character consistency. So, that's
+20:32 something that will be solved like
+20:34 eventually. You know, they're going to
+20:35 have like um uh you can just upload a
+20:38 bunch of photos and then you can make
+20:40 them talk and you can make them walk,
+20:41 but that is not unfortunately where it's
+20:43 at now. Um so, just kind of optimize for
+20:46 like you're never going to see the same
+20:47 character twice on the screen. If you
+20:49 want to have a similar looking
+20:50 character, you can do that. You
+20:52 basically just have to describe them in
+20:54 detail the same way every time and just
+20:57 try and, you know, hope they look
+20:59 similar, which it mostly does. like, you
+21:01 know, an old guy with short gray hair,
+21:04 you know, like a UPS guy, you know, a
+21:06 white guy in his 30s with a mustache and
+21:08 a beard and like strong chin with
+21:10 muscular arms. Like get super detailed
+21:12 and of course, as always, like have Chat
+21:13 GBT like do those details for you. Okay,
+21:16 so you pump this all out. First of all,
+21:20 how much how much do you think this cost
+21:22 you? Uh, it was about 500 bucks. And
+21:24 that that I knew was like the viral kind
+21:27 of formula at the same time. was
+21:28 basically like so like I did used to
+21:31 work uh on pharmaceutical commercials as
+21:34 a commercial director. The shoots would
+21:36 range anywhere from like 100k to a
+21:37 million. Um so I just split the
+21:39 difference and I was like okay I used to
+21:41 make you know $500,000 pharmaceutical
+21:43 commercials. I now make you know this
+21:46 took me like $500 worth of credits. So
+21:48 that's kind of you know I what I knew
+21:50 would be the viral hook and then you
+21:52 know just went through iterative with
+21:54 shot after shot. I'm going to I'm going
+21:55 to show you the uh the timeline here
+21:57 now. So, this ended up being
+22:00 uh I want to say like one this was like
+22:03 10 or 12 shots. Um let me turn this down
+22:06 a bit. You you won't be able to hear
+22:08 this, but basically, you know, it just
+22:10 kind of goes shot by shot. And I and I
+22:12 really wanted to make sure it kind of
+22:13 felt normal. So, another thing you can
+22:15 do is like prompt camera movements in
+22:17 here. I think that's like the shots that
+22:19 like feel the most like non AI are
+22:22 probably the ones with like the coolest
+22:23 camera movement. So, for instance, like
+22:26 this one was like amazing and I prompted
+22:30 this like camera push in or dolly in and
+22:33 then it's like zooming in, but I'm also
+22:34 prompting or chat BT is prompting her
+22:36 emotion. So, in this it's like
+22:38 describing it as like she coily like
+22:41 quips her response aware that she's
+22:43 making a joke about her husband's
+22:45 infidelity and like it comes through
+22:47 with that. It's pretty crazy. Um, you
+22:50 know, this one's more of a static shot
+22:51 of like old man and chair. Um, you know,
+22:54 in this one I prompted it to like at the
+22:56 end of the clip she glances up and
+22:58 there's a pea stain on her kitchen
+23:00 ceiling. So, you really can get really
+23:02 granular like with the details on this.
+23:04 Not all of them are that complicated.
+23:06 And so, you're in Final Cut Pro now.
+23:09 Like, why did you decide to put this in
+23:11 Final Cut Pro? And, you know, is this
+23:14 the only option? Are there other
+23:16 products that people should use? No, no,
+23:19 no. Honestly, Cap Cut is probably just
+23:22 as good um for this kind of thing. I'm
+23:25 just kind of used to Final Cut Pro and
+23:27 you know, like people use uh Da Vinci is
+23:30 another one that's like if you want to
+23:31 go beyond Cap Cut, but you still don't
+23:32 want to pay anything, there's something
+23:33 called Da Vinci Resolve. And that's also
+23:35 a free like very very uh top tier one.
+23:38 And as you can see here, I generated I
+23:41 don't know maybe like 30 clips or so to
+23:44 get like 10 good ones. So, it's like a
+23:46 3:1 ratio maybe of like best
+23:49 generations. Actually, I didn't download
+23:51 all the ones that were bad. It was like
+23:52 a 5:1 ratio. And you can see like, you
+23:55 know, this is another version here of
+23:56 like the Miami housewife and this is
+24:00 like multiple variations of the guy in a
+24:02 chair,
+24:03 right? Totally. Okay. So, you stitch it
+24:06 together. Mhm.
+24:09 And you know, where are you getting the
+24:12 audio from? Are we using like 11 Labs or
+24:15 how did the audio end? Well, no, that's
+24:17 that's what's pretty incredible about V3
+24:19 is that it it it generates the audio for
+24:22 you.
+24:24 Okay, great. So, you
+24:26 just it ended up generating the video
+24:29 and audio. That's right. That's right.
+24:31 You know, and so you basically just say
+24:33 your cinematic shot and then you say
+24:35 grandma Nora says I named Merl follows
+24:37 me everywhere blah blah blah. And then
+24:38 it just it spits out. Now, of course,
+24:40 the problem is like one, it sounds
+24:42 really thin. Like they don't have like a
+24:44 deep EQ spectrum on the voices, that's
+24:47 okay. There's also obviously no voice
+24:49 consistency. Um, you know, so like like
+24:51 like I was saying before, like if you
+24:53 don't quite like grandma's performance,
+24:55 like you just have to hit enter again,
+24:57 maybe make some tweaks, and she's going
+24:59 to show up in a different thing. But
+25:00 obviously, like this grandma, she looks
+25:03 uh pretty similar to this grandma. And
+25:06 so you can get, you know, clearly you
+25:09 can get some some pretty good
+25:10 consistency like, you know, her like
+25:13 brooch or whatever this is is a little
+25:15 different and like the puppy's a little
+25:17 different. But anyway, you kind of get
+25:18 the gist, right? Yeah, totally. And so
+25:21 then you finished it up and you posted
+25:24 it on X. Like that was it. Yeah. I for
+25:28 me it's it's like it this took me
+25:31 probably like half like half a day
+25:32 today. probably like 6 to 12 hours or so
+25:35 to do all this. I but I'm not thinking
+25:38 like when I'm getting coffee and like
+25:40 going for a walk with my dog and stuff
+25:41 to kind of like break up the monotony.
+25:43 I'm always thinking of like h what's my
+25:46 how do like so at least on
+25:50 X you don't have to hook them to watch a
+25:52 video like it's very difficult. You
+25:53 actually have to hook them with just a
+25:55 headline. like your headline has like 0
+25:58 2 seconds to get them to watch what your
+26:01 content is and then your content has
+26:03 like point or that has like two to three
+26:05 seconds to get them to stay for the
+26:06 whole video. So like the first part of
+26:08 the funnel is like what's something
+26:10 that's provocative with this headline
+26:12 that gets them to like engage with a few
+26:14 seconds of my content. So for me it's
+26:17 always like in some like so Mr. beast,
+26:20 you know, like he always talks about
+26:22 like the the title of the video is more
+26:24 important than the thumbnail. And the
+26:26 thumbnail is more important than the
+26:27 actual content of the video because if
+26:29 he can't get you to like hook you on the
+26:31 title, he's not going to get you to
+26:32 really engage with the thumbnail. And if
+26:33 he doesn't hook you on the thumbnail,
+26:34 he's not going to get you to watch the
+26:35 full video. So, I would I would almost
+26:38 say it's kind of just as important as
+26:39 the video you're creating is um is is
+26:43 this do you have a hook for this? Um, so
+26:45 for instance, like for this, you know,
+26:47 it was uh I used to shoot 500k
+26:50 pharmaceutical commercials. I made this
+26:52 for $500 in V3 credits in less than a
+26:55 day. What's the argument for spending
+26:57 500K now? Steal my prompt below. That's
+27:00 right. Can I break down why that's so
+27:01 good? Yeah, please do. I'd like to hear
+27:04 your perspective because obviously
+27:05 you're the you're the clickbait master
+27:06 as well on X.
+27:10 So, the hook is I used to I used to
+27:13 shoot 500k pharmaceutical commercials.
+27:15 That's kind of like a low-key flex
+27:18 because it's like, all right, this guy's
+27:19 like legit. And then it's like, whoa, I
+27:22 I was able to do this for $500 with V3,
+27:25 which is like a bit of trending jacking,
+27:28 trendjacking, like their, you know, V3
+27:30 trend. Plus, like it only cost $500.
+27:33 Also, the 500k to $500, like that
+27:36 symmetry.
+27:38 um looks really good. Questions work
+27:40 really well on X because it generates
+27:43 replies and then that just feeds the
+27:46 algo and then steal my prompt is just
+27:49 like here's you know check out this
+27:50 value and it makes people want to click
+27:52 in and when people click in that also
+27:54 tells the algorithm that this is good
+27:56 content and then you have like the
+27:58 visual of you know and then you crushed
+28:00 it on the video. So obviously like you
+28:03 know Yeah. Yeah. Let's let's actually
+28:05 look real quick on some of my other
+28:08 viral posts. Um because I feel like it
+28:10 it'll show a trend of like how I'm kind
+28:14 of getting things to go viral on X. It's
+28:16 a little different on other platforms,
+28:17 but you know, AI video quality just
+28:19 10xed overnight. I'm speechless. Cling
+28:22 2.0 just dropped and I've already burned
+28:23 through $1,200 in credits testing its
+28:25 limits. I've never seen motion this
+28:27 fluid or this accurate. Here's how I
+28:29 made this video step by step. And of
+28:32 course, I have like the prompt thread
+28:33 after there. Um, this one was crazy.
+28:36 This was the Lord of the Rings, Studio
+28:38 Gibli thing. What if Studio Gibli
+28:40 directed Lord of the Rings? I spent 250
+28:43 in cling credits and 9 hours editing the
+28:45 Fellowship trailer. And I'll show you
+28:47 exactly how I did it. And then this one,
+28:50 I took this one down. This one got 22
+28:53 million views, but it was a similar
+28:54 like, you know, basically like every,
+28:57 you know, cinema just changed today.
+28:58 Cling 2.0 O allows us to like this.
+29:00 Here's my step-by-step process. So, like
+29:03 I think that's kind of the at least what
+29:05 I found is like you need some sort of
+29:07 provocative statement. Here's what I
+29:08 hate. I don't think anyone should use
+29:10 like this is crazy. Hollywood is cooked.
+29:13 Oh my god, what the [ __ ] You know, like
+29:16 I Yes, it works. That's the problem of
+29:18 why everyone does it. And and and I
+29:21 would say you actually should do that,
+29:22 but not with those specific words. You
+29:24 need to find like your own kind of
+29:26 words. So, for instance, I just made
+29:29 another one and it was like, what the
+29:31 [ __ ] did I just make like this? Or this
+29:33 is my most unhinged video I've made, you
+29:36 know, and then it's like I gave it one
+29:38 of the dialogues. AI comedies are about
+29:40 to 10x the views of network TV. Anyway,
+29:43 if you if people just scroll kind of on
+29:45 my different posts, I I kind of have a
+29:47 good uh Oh, this was actually another
+29:49 one. This wasn't my video, but I said,
+29:51 "I've been a professional filmmaker for
+29:52 15 years, and it's getting very
+29:54 difficult to tell if this is fake. In
+29:55 what world is not all AI generated media
+29:57 in two years? Similar. I mean you have a
+30:00 similar kind of format and I think it's
+30:02 look at how other people like you are
+30:05 doing the format and then just apply the
+30:07 video thing. I mean it's insane. Like
+30:09 you're literally generating millions and
+30:11 millions and millions of views on
+30:12 content that you're creating. Like how
+30:14 powerful is that? PJ I want to end with
+30:16 um okay so you've outlined this you know
+30:20 format which is basically start with
+30:22 chat GPT to create your script throw
+30:25 that into Google Docs from Google Docs
+30:29 um go back to chat uh GBT to get the
+30:33 prompts for V3 and then put you know
+30:37 take the V3 put it into you know Final
+30:39 Cut Pro or Cap Cut and then do this you
+30:43 know sort of clickbay slashhook. We'll
+30:47 call it a hook. Create a hook and post
+30:49 it on X and then you can bring it to
+30:50 other platforms like YouTube and stuff.
+30:52 But um you you've you've revealed all
+30:55 that.
+30:56 Um what does this mean for someone
+30:59 listening to this? Meaning, okay, I want
+31:02 to create a business around this. I see
+31:04 the opportunity. Like where do people go
+31:06 from here?
+31:08 Yeah, that that's a great question and
+31:10 something I think a lot about. One is
+31:12 because I'm I'm still figuring this out,
+31:14 too. So, I'm, you know, I'm going to
+31:15 give you like 10 confident answers of
+31:18 the easiest ways, 10, you know, 10 ways
+31:20 you can start making money tomorrow
+31:22 using V3. Like, I I'm probably going to
+31:24 make that listical or whatever. So,
+31:26 like, yeah, I mean, here's my list of
+31:28 like 10 ways you can monetize V3 and
+31:31 content. Um, so for number one is
+31:36 obviously just use V3 to build a brand
+31:39 for yourself. This this first one is
+31:41 more of like just use this to get into
+31:43 the ecosystem of creating content that
+31:46 that in a general sense like is content
+31:48 you're proud of and can lead to
+31:51 downstream work. So then let's talk
+31:52 about subniches under that. So you can
+31:55 attract uh direct you know kind of
+31:57 clients that want similar commercials.
+32:00 So, for instance, like I probably could
+32:02 make a less viral version of this video
+32:04 and it's just an actual like boring
+32:06 client pharmaceutical commercial and
+32:08 then I could just like direct to
+32:10 consumer like hit up all the different
+32:12 uh whether it's agencies or media buyers
+32:14 or like pharmaceutical companies
+32:16 directly. This is a bad example cuz I I
+32:18 don't think people should be making per
+32:20 se AI pharmaceutical commercials.
+32:22 Although, I'll tell you this, like
+32:24 they're all scripted [ __ ]
+32:25 regardless. Like the people who are
+32:27 like, "Well, it's not authentic
+32:28 testimonials." It never was authentic
+32:30 testimonials. Like those people are
+32:31 making like 2500 bucks per day to just
+32:34 say whatever the producers tell them. So
+32:37 I do not have any moral qualms about
+32:39 this. Um I So anyway, you could do that.
+32:43 You basically could just create a brand
+32:45 whether it's pharmaceutical commercials
+32:47 or whether it's like uh I think food
+32:49 products are really smart. You could
+32:51 just go to different like beer companies
+32:53 and create like crazy cinematics for
+32:55 that. Like there's so many people on X
+32:57 that are like posting their exact
+32:58 prompts for like crazy food orbit shots.
+33:01 You could you can make that and then you
+33:02 could just pitch it to like different
+33:04 restaurants, different kind of like uh
+33:06 you know feastables like CPG brands like
+33:09 they all want crazy content involving
+33:11 kind of their product. You could do it
+33:13 with underwear brands. And so I I would
+33:15 say like, you know, there's there's a
+33:17 lot of ways a lot of brands that would
+33:19 love unhinged special effects kind of uh
+33:23 shots that you can do with AI that all
+33:25 these agencies are like they they could
+33:27 never do for those budgets. And then you
+33:28 can charge probably anywhere from like
+33:30 five grand on the low end. I don't
+33:32 recommend people do content for less
+33:33 than five grand because even though this
+33:35 is stuff is easy, it's still your skill
+33:37 as a filmmaker is worth the time. So,
+33:41 like even I can make a bombastic
+33:42 statement like this cost me $500 in
+33:45 credits, but like it's the whole Picasso
+33:47 metaphor of like, you know, he like
+33:48 draws on a napkin in 30 seconds. They
+33:50 were like, why why are you going to
+33:51 charge me like 40 grand for it? It took
+33:53 you 30 seconds. He's like, no, it took
+33:55 me like 30 years to understand how to do
+33:57 this. And, you know, take it or leave
+33:59 it. And I I kind of do think you have to
+34:01 have a little bit of that arrogance in
+34:03 in an age of like compression going to
+34:06 near zero with like uh you know the
+34:08 commodification of like filmmakers and
+34:11 production companies. So that's why I I
+34:12 do harp overall and like you've got some
+34:15 weirdness about you. lean into your own
+34:18 interests and weirdness and niche and
+34:20 then figure out how to like work with
+34:22 brands who are the at the end of the day
+34:24 the ones who have money to spend um to
+34:27 kind of productize your unique point of
+34:30 view into commercials that you find
+34:33 entertaining, you know, brand work that
+34:34 you find entertaining because if you do,
+34:36 I think other people will as well. It's
+34:38 just and then it's like all about
+34:39 finding those niches. Um so point number
+34:41 three, build a portfolio um and let
+34:44 agencies work with you. So, this can
+34:46 either be super general where it's like
+34:48 mine where it's like a bunch of
+34:49 different types of, you know, um,
+34:51 commercials, but I'd say if you're
+34:53 you're more starting out as a filmmaker,
+34:55 like I said, it's like really keep it
+34:57 niche to what interests you. Like say
+34:59 you really like knife commercials, it's
+35:01 like great, go target, you know, like
+35:03 knife companies and do the like try and
+35:05 I I I'd also say this, like if people
+35:07 are like not sure of how to tell great
+35:08 commercials, you know, Steve Jobs said
+35:10 it best, great artist copy or good
+35:12 artist copy, great artist steal. like
+35:15 shot for shot at least in your own
+35:17 internal like when you're making a first
+35:19 couple commercials to like build out
+35:20 your portfolio. I don't care. This is
+35:22 very controversial, but I would say like
+35:24 just rip these shots shot for shot. Like
+35:26 upload a screenshot to Chappie GPT of
+35:28 like the first frame of the commercial
+35:30 and say break this down into a prompt
+35:32 and then type that prompt in a VO3 and
+35:34 then like boom, you get your first shot.
+35:36 But don't do it for another knife
+35:37 commercial. Then do it for like a boot
+35:40 commercial or something like that.
+35:41 Something adjacent to where it's not
+35:43 like a direct ripoff. It's just kind of
+35:44 like the spirit of this. So, it gets you
+35:46 the pacing and the flow. And then, you
+35:48 know, like I really think when you work
+35:50 with templates of award-winning
+35:52 commercials and you tweak them and you
+35:54 adjust them and you make them unique on
+35:55 your own, that's how you can like
+35:57 instantly level up your skills as like a
+35:59 filmmaker editor is when you're kind of
+36:02 copying the greats and then and then
+36:04 over time you find your voice. like like
+36:05 I don't anymore have to direct do
+36:08 copies. But I totally when I started my
+36:10 career like I was like, "Okay, I'm going
+36:11 to take this award-winning commercial
+36:12 and I'm just going to reapply it to this
+36:14 new product. I'm not reinventing the
+36:16 wheel. I'm just taking, you know, I'm
+36:18 using the the coloring in the lines kind
+36:20 of thing." Um, point number four, uh,
+36:23 create a narrative series and do brand
+36:25 integrations in universe. Okay, so this
+36:27 is one of my favorite creators. I'm
+36:29 going to I'm going to pull him up on
+36:32 screen real quick. His name is Neural
+36:36 Viz. One second. Thought you were gonna
+36:38 say his name is PJ. His one of my
+36:42 favorite creators. His name is PJ. Uh
+36:45 can you can you see this? Yeah. Okay.
+36:48 So, Neural Viz is a friend of mine. He
+36:50 uh I mean 6 months ago he had like no no
+36:53 views on his content like and and with
+36:55 him then he's grown in just a few months
+36:57 to like 800k subscribers. Some of his
+37:00 videos have like, you know, 18 million
+37:02 views and he's got the craziest stuff.
+37:04 So, it's like a weird alien which and
+37:07 he'll do like parodies on our show. So,
+37:09 for instance, this is like House Hunters
+37:10 but in this weird alien universe.
+37:14 Pretty. It's one bedroom, nine
+37:15 bathrooms, 20,000 square feet. It's
+37:17 walkable and runnable to Beetle. It's
+37:20 got two infection rooms and a heated
+37:23 freezer on site. They don't list the
+37:25 price because none of us can afford it.
+37:27 Let's check it out. So immediately when
+37:28 you walk in, they'd gone with Fancy Tire
+37:31 Store. This is incredibly It's just like
+37:33 the weirdest show ever. I absolutely
+37:35 love it. Then they do like street
+37:37 interviews as well. What's your go-to
+37:39 move in the bedroom? Sneezing.
+37:42 Okay, that's a first. I get on my knees
+37:45 to sneeze, if you know what I mean.
+37:47 Very, very, very, very weird. And so
+37:50 he's built out this entire he's called
+37:51 it the moniverse because it's like this
+37:53 whole like a thousand years from now
+37:55 everyone's wondering like were humans
+37:56 real and it's kind of this whole like
+37:59 you know they're doing investigations in
+38:01 it like if you just go through the
+38:02 channel it's it's it's fascinating but I
+38:04 I I think like what how he's going to be
+38:07 able to make money. So he makes money
+38:08 right now in merch sales. He's got a
+38:10 Patreon, but actually like if he really
+38:12 wanted to monetize the crap out of this,
+38:13 he could just do product integrations
+38:15 where these aliens find uh you know
+38:17 artifacts from our time. And it's like
+38:19 just you know like Tabasco sauce like
+38:21 work with Tabasco say look hey I get you
+38:23 know whatever like 18 million views on
+38:25 my video. Um what's it worth to you to
+38:28 have the aliens like you know find a
+38:30 Tabasco sauce and worship this or some
+38:32 sort of like brand integration around
+38:34 that. Obviously, I c I wouldn't tell
+38:36 audience members like it's easy or quick
+38:38 to kind of build an entire universe like
+38:40 this, but it absolutely like if you
+38:42 really don't want to do commercials
+38:43 directly, you want to tell narrative
+38:45 stories, you can absolutely integrate
+38:47 those uh product placements into your
+38:50 stories and then you know just do it on
+38:52 your terms, make it still funny, make it
+38:53 still brand friendly and then you can
+38:55 monetize that. Another reason why this
+38:57 works is he's taking a popular social
+39:01 format, i.e. Man on the street videos or
+39:06 the Zillow videos or he kind of has like
+39:10 a mock Joe Rogan set and then he's doing
+39:13 it with a twist i.e. Alien. So that's
+39:17 another way to do it is like find one
+39:19 when you know always be on the lookout
+39:21 for a social format that's really
+39:23 starting to take off and then think how
+39:25 can I do a twist to this and then yeah I
+39:27 agree like the alien's wearing a Rolex
+39:29 sell it to Rolex or whoever. Exactly.
+39:33 Exactly. Exactly. Um, okay. So, fifth
+39:35 way to monetize, obviously, sell
+39:37 courses. I don't like recommending this
+39:39 because it's like, how do you monetize
+39:40 being a marketer? Well, you sell courses
+39:43 as a marketer to other marketers. Like,
+39:45 okay. So, like it's it's just an MLM.
+39:48 Like, what what are we doing here? So,
+39:50 anyway, yes, obviously you can you can
+39:52 sell products is really what it is. So,
+39:55 that's what it is. You know, it could be
+39:57 a course or it could be like a PDF or a
+40:00 digital product that you're bundling up
+40:03 and then you're selling. That's right.
+40:05 That's right. And number six, uh do
+40:08 consulting with larger companies. So
+40:09 there is a few friends that I have in
+40:11 the space that these guys make like six
+40:13 figures uh meeting with Fortune 500
+40:16 companies and other companies just
+40:17 saying like okay we figured out how to
+40:20 not just be like uh create great content
+40:23 with generative AI but we've also
+40:24 figured out how do we keep it within
+40:26 your legal compliance constraints. So
+40:28 like they know exactly the models that
+40:30 are kind of give you indemnification for
+40:33 you know like your you know company uh
+40:35 security procedures also you know just
+40:38 in general like how do we work with your
+40:41 company to integrate generative AI lots
+40:43 of lucrative things you I think you know
+40:45 it's it's it's a whole skill separate
+40:47 skill set to be like a successful
+40:49 consultant but it's definitely a way
+40:51 that you can learn the skills and then
+40:52 just start hitting up these companies to
+40:54 say hey let me do a $1,500 training and
+40:57 etc etc And if you're interested on like
+40:58 pricing on that, um, it's pricing. The
+41:01 pricing tip is like the scale of the
+41:03 company. You charge more. That's it.
+41:05 It's the same content. If you're doing
+41:07 it for a small company, you charge a
+41:08 little bit. If you're doing it for a big
+41:09 company, you charge more. Um, okay.
+41:12 Number seven, build a sketch comedy
+41:14 channel. So, this is not something
+41:16 that's easy to monetize, but I do think
+41:18 that that's the opportunity that, you
+41:20 know, you have right now is like doing a
+41:22 key and peel style uh sketch comedy
+41:25 show. Um, the only problem is like it's
+41:27 a bit harder to do brand integrations,
+41:29 but Tik Tok actually shows that this is
+41:31 possible if you can get a big enough uh
+41:33 audience. So, I don't know if you've
+41:35 seen like Bang energy drinks. I see
+41:37 these all the time and it's annoying as
+41:39 heck, but like basically at all points
+41:41 in the uh comedy bits, they have like a
+41:44 product integration and you know it
+41:46 works. Uh, eight, do narrative films.
+41:49 So, obviously like I have a 25minute uh
+41:51 TV show uh that's coming out on the
+41:53 story of Jonah. Um, you know, you can do
+41:56 a narrative film for like long form
+41:58 content. I'm actually not that bullish
+42:00 on long form content with generative AI
+42:02 because I think the space iterates too
+42:04 fast and like the first bit of your film
+42:06 can look good and then the last bit of
+42:08 your film can look bad. So, I typically
+42:10 don't recommend trying to do the old
+42:12 Hollywood model with generative AI,
+42:14 especially if it's like 90 minutes of
+42:15 content, like don't chase that. I think
+42:17 creating like episodic weekly content is
+42:20 by far what's like the new economy, the
+42:22 new creator economy, like people's
+42:24 consumption habits these days is like 80
+42:26 to 90% like just social episodic UGC
+42:29 content. It's not you know sure we still
+42:32 watch shows but like there's only I
+42:34 don't know it's just like you can
+42:35 compete in a huge market which is like
+42:38 really easy to make weekly content. you
+42:40 don't need big budgets or you can like
+42:42 try and you know do the old Hollywood
+42:43 route of raising even with generative AI
+42:46 it's still like hundreds of thousands of
+42:47 dollars to create like a feature film or
+42:49 something like that like it's not easy
+42:51 trust me we've explored it a lot I'm not
+42:53 convinced that like long form narrative
+42:54 content is the best way to apply uh
+42:56 generative AI but um weekly weekly
+43:00 content is far better also pitching uh
+43:02 brands on narrative content would be
+43:05 number nine which is basically you could
+43:06 just say you know like we'll do this,
+43:09 you know, kind of alien style universe
+43:11 like but with your brand. We'll make
+43:13 funny content but like all like like
+43:16 before all the relics and artifacts are
+43:17 just in your brand. We'll do a whole,
+43:19 you know, 10 episode narrative series.
+43:20 It's like 2 minutes a pop and you know
+43:23 charge you 10 20 grand on this. Um and
+43:26 then lastly, like it's it's more niche,
+43:28 but like picking a small subniche. Like
+43:30 for instance, like we're doing the story
+43:31 of Jonah, which is like a Bible content.
+43:34 Um, look, it's like open- sourced uh IP,
+43:38 if you will, like the Bible. It's got
+43:40 like two billion daily active users, you
+43:42 know, like engaging in the content and
+43:45 uh you can make any story you want in
+43:47 there. So, I actually think it's a
+43:48 really, really great because the supply
+43:50 is low of content that's like Bible
+43:52 films and the demand is super huge. Um,
+43:54 obviously you can find other niches like
+43:56 this, but this is a really great
+43:57 example. Like I've seen so much like
+44:00 millions of views for uh just like
+44:02 faith-based content and the and and
+44:04 everyone like eats it up. Even 6 months
+44:05 ago when the quality was bad, they're
+44:07 still like, "Oh, this is amazing." So
+44:08 there's also a lot of monetization
+44:10 there. Working with uh studios to make
+44:12 like faith films and stuff like that.
+44:14 The sky's is the limit. These are just
+44:15 10 that came off the top of my head. At
+44:18 the end of the day, I think the biggest
+44:19 advice is basically just like do what
+44:21 fascinates you. create uh copy the
+44:24 frameworks of what's really successful
+44:26 and apply them in a unique new niche
+44:28 that's similar to you. Follow the
+44:30 instructions that we kind of outlined
+44:31 here on a technical basis and then of
+44:33 course you know follow my uh X and
+44:35 subscribe to my newsletter. I do
+44:37 constant updates, tutorials. I've got a
+44:39 course coming out in a few weeks and you
+44:41 know just here to help. So always open
+44:43 to people reaching out to me and asking
+44:44 questions and such. Yeah, I would say my
+44:46 two favorite uh my two favorite ones are
+44:51 using V3 for your personal brand. So
+44:55 like an audience is worth a lot of
+44:57 money. And if you have a niche and you
+44:59 have an idea of where you want to take
+45:00 your personal brand, like what sort of
+45:02 short stories could you tell using these
+45:04 tools to get a lot of followers in a
+45:06 short amount of time that trust you? So
+45:10 that's one. And then two,
+45:12 like this opens the door to a huge
+45:15 number two, uh, basically creating
+45:18 commercials for different niches. Um,
+45:20 this opens the door to,
+45:23 um, so many different like vertical
+45:26 niches that wouldn't have this level of
+45:29 cinematography and couldn't afford a
+45:32 $500,000 agency for a commercial. So
+45:34 like finding a underserved niche, I
+45:37 don't know if it's like nursing I've got
+45:40 one for you. It's uh it's book talk.
+45:42 Romanticy talk slash, you know, kind of
+45:44 uh fan. Yeah. Romanticy basically like
+45:47 reaching out to authors and doing book
+45:49 promos for them doing scenes from their
+45:51 book. Huge. Huge. Just because of how
+45:53 like viral some of these uh romantic
+45:56 series are. Um they they'd pay serious
+45:59 money for you to create, you know, more
+46:00 marketing materials for their books.
+46:02 There you go. So, I mean PJ, we'll
+46:05 include your social link where people
+46:06 can follow you in the show notes. Um,
+46:08 this definitely got my creative juices
+46:10 flowing. Um, and appreciate you coming
+46:13 on and sharing some sauce. Yeah, no
+46:15 worries. Hope to be be back in the
+46:17 future with more amazing tips. Uh, just
+46:19 great great listening to you for the
+46:21 last couple years and honored that you
+46:22 finally had me on the show. Thanks,
+46:23 Greg. Of course. Thanks BJ.

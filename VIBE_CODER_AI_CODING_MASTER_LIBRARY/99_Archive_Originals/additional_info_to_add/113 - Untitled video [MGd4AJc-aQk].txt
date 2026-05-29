@@ -1,0 +1,409 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=MGd4AJc-aQk&pp=0gcJCQMLAYcqIYzv
+Channel: Riley Brown
+Video ID: MGd4AJc-aQk
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 thanks to AI anybody can create a
+0:03 landing page now just say some words and
+0:05 you'll get out a highly converting
+0:07 landing page whether you want to do it
+0:09 for your personal site like a Linkin bio
+0:11 or you have a product or an app that
+0:13 you're trying to sell these will convert
+0:16 very well you can do it now with AI you
+0:18 don't need to hire someone super
+0:20 expensive landing page expert and you
+0:23 don't need to pay a bunch of money for a
+0:24 template and so in this video I'm going
+0:26 to be building a landing page for the
+0:28 app that we're releasing in within the
+0:30 next 4 to 5 days and so we're going to
+0:33 go through this whole process right now
+0:34 and in this process you're going to
+0:36 learn these four things how to make a
+0:39 landing page that is simple and converts
+0:41 into Dollars why you should make a
+0:43 landing page for your company or
+0:45 personal site how to use mid journey to
+0:47 make the assets and the logo to make it
+0:49 look super clean and number four you
+0:51 will learn how to use the best tools for
+0:53 easily deploying web apps so you can
+0:54 start building other more complex apps
+0:56 that involve chat gbt or CLA let's just
+0:59 dive straight into it we're going to go
+1:01 to v0 dodev now I want a landing page
+1:07 for my app that I'm building same style
+1:13 as the images I will attach make it look
+1:18 the same but with info about my app and
+1:23 I'm just going to paste right here info
+1:25 about the app that I'm creating which is
+1:29 called Yap through red right here okay
+1:31 so this is a pretty good uh landing page
+1:34 right here we're just going to
+1:37 screenshot this right
+1:40 here and we are going
+1:43 to go like
+1:46 this let's go like all right so we just
+1:51 downloaded four Images right there we
+1:54 are going to run this and so v0 is
+1:57 thinking and now it says here is a react
+1:59 component now it's starting to generate
+2:01 the
+2:02 code and here it goes and so here it is
+2:06 so here is the landing page right here
+2:11 Yap thread transforming ideas into
+2:13 content effortlessly your AI powered
+2:15 creative companion let's see how this
+2:19 compares to this so we obviously don't
+2:22 have an image right here it has this
+2:25 before image after image and so I'm just
+2:29 going to say please match the colors and
+2:33 Vibe with this site and I'm just going
+2:36 to attach that image again right we're
+2:39 going to iterate a little bit I don't
+2:40 think it did an amazing job with the
+2:43 style but that's a good start and it has
+2:45 the right language from my from the apps
+2:47 documents so I'm just going to include
+2:51 this right here and let's see how it
+2:54 edits it oh no way it's
+2:57 generating uh this image right here
+3:00 almost um and it's kind of just making
+3:02 its own version of it right here I have
+3:06 so many ideas for Content but I don't
+3:07 know where to start no worries let's
+3:09 capture our thoughts and organize the no
+3:12 way so like I want this thing right here
+3:16 put that next
+3:19 to the main
+3:22 hero text to the right of it and wow
+3:27 this is actually looking pretty good can
+3:29 you
+3:30 make the buttons have thicker borders
+3:35 and make the borders dark gray and be
+3:39 creative with the styling between each
+3:46 section of this site keep all else same
+3:51 and yeah so that should be good let's
+3:57 run that so this tool is called v0 and
+4:00 basically it allows you to use
+4:03 nextjs and you can actually immediately
+4:06 share these with a V v.d domain o this
+4:10 is looking good so far the hard part
+4:12 about using this is like you can't
+4:14 really set it up to your own domain
+4:15 directly on this site but I have created
+4:18 this free template and basically hooked
+4:20 this up to your own domain let's see if
+4:23 let's see how this works here and look
+4:25 at that so we have this right here I
+4:27 think these buttons look a lot better
+4:29 now so this is starting to look really
+4:31 good but there is just one thing that I
+4:33 want to make sure we fix so notice how
+4:35 if we were looking at like an iPad view
+4:37 right here or even skinnier this is not
+4:41 basically changing so we want to add um
+4:44 a break point I believe that's what it's
+4:46 called when the phone goes to iPad view
+4:53 or phone view can you please move the
+4:58 image of the text example down so it's
+5:03 not
+5:04 crammed you can literally just say that
+5:07 and that will literally be enough okay
+5:09 it is done let's go ahead and test
+5:12 this all right there we go so now when
+5:15 it goes to this phone view like this is
+5:17 kind of what the user will see on their
+5:20 phone and that looks pretty good and
+5:22 obviously we don't have those images in
+5:23 there yet but we will and so what I want
+5:27 to do right now is before we put this
+5:30 into the next tool for deployment let's
+5:34 go ahead and create the image assets
+5:36 here and so what I'm going to do here is
+5:38 can you take that green color and and
+5:46 the red color and all the other colors
+5:51 on this page and make a simple image
+5:56 showing the color palette
+5:59 of this page simple image showing the
+6:02 color palette of Yap thread and here it
+6:06 is and so here is the color palette I've
+6:10 actually never done that before that is
+6:12 actually really cool what I want to do
+6:14 is I'm going to grab this right here I'm
+6:16 just going to grab this long image right
+6:19 here and now we're going to open up uh
+6:22 mid
+6:24 journey and I'm going to bring in that
+6:28 image right here so we're going to bring
+6:30 in that
+6:31 image and drag it in right there and
+6:35 here we are going to say uh Simple app
+6:39 icon
+6:41 cute character cute
+6:45 speaking character thick gray border and
+6:50 let's just generate a ton of these right
+6:53 here on Mid
+6:54 journey I forgot to generate these in
+6:57 square we're looking for an icon here
+7:00 run a few more of these you know what I
+7:03 really like this one so I'm going to
+7:04 make sure that we heart this I feel like
+7:07 this might actually be good we can just
+7:09 call this Yap thread and so now we're
+7:11 going to take this into canva and we're
+7:13 going to hit this background remover
+7:15 perfect it did it perfectly we can make
+7:18 this 540x 540 and let's go ahead and
+7:20 make it a PNG with a transparent
+7:23 background and we can download this and
+7:25 so now that image is downloaded so once
+7:27 you have your generation on v0 and and
+7:29 your things are looking good and you
+7:31 have your logo you can now come to this
+7:34 link right here which will be below the
+7:35 video which should take you directly to
+7:38 this template link and this is a very
+7:41 simple replate link that I believe you
+7:43 should be able to use for free so we're
+7:45 going to use this template link and
+7:47 we're just going to call this Yap
+7:49 thread um landing and we're going to
+7:54 Fork this now what we're going to do is
+7:57 we're going to come back to V 0 and what
+8:01 we're going to do is we're going to copy
+8:02 this add to code base so there's these
+8:04 this little add to code base button
+8:06 we're just going to hit copy this and
+8:08 now what we're going to do is we are
+8:12 going to go to this landing page and
+8:15 then we're also going to open up the
+8:17 shell and the first thing that we're
+8:19 going to do is go to Shell so we're
+8:20 going to go to Shell and we're actually
+8:22 just going to paste in that thing we
+8:23 copied from v0 so we're going to paste
+8:25 this in and we're just going to press y
+8:28 here we're just basically it says okay
+8:30 to proceed we're going to press Y and
+8:32 then what we're going to do here it's
+8:35 going to load a little
+8:41 bit and it's basically just installing
+8:44 everything everything that we need here
+8:46 and we're just going to press
+8:48 y uh
+8:50 Y and here we go new patch version
+8:54 available updated to files workspace and
+8:57 what we should see here is we should
+8:58 actually see see this new landing page
+9:01 so it automatically added this new
+9:03 landing page and so what you're going to
+9:05 do is you're just going to take this
+9:06 little landing page right here you're
+9:08 going to drag this up into the app
+9:12 folder and you're just going to delete
+9:16 the page. TSX that exists already so
+9:20 we're going to delete this delete this
+9:23 file and we're going to rename this to
+9:26 page. TSX
+9:29 now what we're going to do is I just
+9:32 added a
+9:34 new uh page. TSX please make sure it
+9:40 works properly as a landing page uh
+9:46 generate the full code for any changes
+9:51 that are needed and we're just going to
+9:53 run this directly in repits this is the
+9:56 first AI chat that we are running and so
+9:58 it is taking a look here here's the
+10:01 updated app page. TSX with um the files
+10:05 let me make sure that this is what we
+10:07 want Yap threads so it should look
+10:09 exactly like this when we are done and
+10:12 so we are in coming back over here so
+10:16 what we're going to do is we're going to
+10:17 copy this and we're going to go page.
+10:19 TSX we're just going to paste that in
+10:21 just like that and let's go ahead and
+10:23 run this and let's see if this works and
+10:26 there we go now we have that same same
+10:30 web app right there but remember that
+10:32 logo we just created watch this we're
+10:34 going to go up to this public folder and
+10:36 then we're going to open up this image
+10:38 folder so here is that image PNG file
+10:42 and so I'm just going to drag it into
+10:44 that image folder and I'm going to
+10:46 rename this right here here it is I'm
+10:49 going to rename this to
+10:53 logo.png this
+10:54 logo.png file can easily be changed so
+10:58 this logo. PNG file now needs to be
+11:01 referenced so I want it to show up in
+11:03 this header bar right to the left of Yap
+11:06 thread so I just need to tell AI that so
+11:09 at the bottom of this thread we can
+11:10 actually create a new AI thread and say
+11:13 right neck
+11:16 thread in the top bar I want the logo to
+11:23 be there and I'm going to say the public
+11:27 slash images
+11:30 folder called
+11:34 logo.png uh generate the full code for
+11:39 page TSX which is the this landing page
+11:42 component right here uh generate full
+11:46 entire code okay that's done generating
+11:49 so once again let's just copy this and
+11:52 we're going to go to page. TSX and we'll
+11:55 paste that in like that
+11:57 and boom boom there it is the logo is
+12:01 super clean right there at the top and
+12:06 here we have this landing page and we
+12:09 can add in other images as well and so I
+12:12 actually grabbed Microsoft Apple Nvidia
+12:15 and uh
+12:17 Marboro and so in the images folder I'm
+12:20 going to add a new
+12:22 folder and I'm going to call this
+12:26 companies and we are going to drag in
+12:29 these four Images here into this
+12:32 company's folder and I'm going to go
+12:34 back to the AI for the uh trusted by
+12:40 section please use the we can paste in
+12:45 the names for them so here we are
+12:48 pasting in these images right here maror
+12:51 Apple Nvidia and Microsoft uh please use
+12:55 these for images generate the full code
+13:00 generate full entire code for uh page.
+13:07 TSX boom okay now that that's done we're
+13:10 just going to copy it and let's go ahead
+13:12 and paste this in and let's see if this
+13:15 looks
+13:17 different okay these didn't make it
+13:21 in and we can actually see here it's
+13:24 referencing it through the images folder
+13:25 but it needs to be images SL comp folder
+13:28 so watch watch this if we type in
+13:31 companies here SL Marboro this marbor
+13:34 one should show up and it does so then
+13:37 we're just going to copy this and we'll
+13:39 do the same thing for all of them and it
+13:44 should all show up so here is the site
+13:48 that we're going to try to deploy so
+13:50 here we have Yap thread we created this
+13:52 so quickly in like 10 minutes and
+13:55 trusted by Innovative content creators
+13:58 how Yap thread Works pricing and we have
+14:01 this Yap thread down at the bottom and
+14:05 look at that so here we are able to come
+14:10 up to the top and we can just click
+14:12 deployments and let's go ahead and hit
+14:16 this right here approve and deploy and
+14:20 then we'll go over how you set it up to
+14:22 your own domain and there we go it's
+14:24 successfully deployed and now we can
+14:26 we're going to go to settings on
+14:27 deployment down here and we're going to
+14:29 hit link a domain and I'm going to
+14:31 change this to Yap buddy I'm already
+14:33 have a uh landing page for Yap thread
+14:36 but I also bought Yap buddy.com which is
+14:39 actually in contention I don't know if
+14:41 we're going to name it Yap thread or Yap
+14:42 buddy one of the two and um we can hit
+14:47 next and what we need to do is we need
+14:49 to go to wherever you bought the domain
+14:51 so I bought it from name cheep and we
+14:54 can click on Yap buddy and so we're just
+14:55 going to hit manage and we're also going
+14:57 to hit Advan DNS
+15:00 and we are going to
+15:03 delete
+15:05 these records host records so we're
+15:09 going to delete this and we're going to
+15:12 delete this and we're going to hit add
+15:15 new record and we're going to do an a
+15:17 record and we're going to make the host
+15:19 at and the value is going to be this
+15:22 value from repet so we're going to paste
+15:24 that in right there and we're going to
+15:26 hit the check mark now we're going to
+15:28 hit add new record um we're going to go
+15:30 down to text record at and then we're
+15:33 going to copy this right here and we're
+15:36 going to paste this in and now we have
+15:39 officially connected our site now we're
+15:41 going to hit link domain and this is
+15:43 going to take a little bit we changed it
+15:44 to Yap buddy and there you go we have
+15:47 created this clean website added our own
+15:51 custom logo we could have easily and as
+15:54 soon as this done so this takes a little
+15:55 bit of time to verify because right now
+15:57 if we clicked y buddy it's going to say
+15:59 your connection is not private and here
+16:00 it is right now it still says Yap thread
+16:03 because that's what I deployed it on
+16:04 then I made the changes so in order for
+16:06 that to be update I would actually need
+16:09 to if you want to update it again you
+16:11 just need to go to deployments and what
+16:13 you need to do is you actually need to
+16:16 um and you need to press this right here
+16:17 it says redeploy and once it
+16:21 redeploys then it should be updated with
+16:23 your latest landing page um code okay so
+16:27 one thing I really really want want to
+16:29 include in this actually is the ability
+16:31 to add in um information submission so
+16:34 if someone comes to your app you want
+16:36 them to be able to put in their name
+16:37 maybe you want them to join your wait
+16:38 list maybe you just want their email to
+16:40 sign them up for uh some sort of email
+16:42 list that type of thing gathering
+16:44 information is one of the smartest
+16:45 things you can do as a business owner
+16:48 and that's one of the primary objectives
+16:50 of a landing page is you want to capture
+16:51 information the easiest and cheapest
+16:54 it's free uh way to get that information
+16:57 is to go to tally .o and once you go to
+17:00 T.O you can basically just create this
+17:03 with a template very quickly and once
+17:05 you've created your um
+17:08 form you're going to go to the share Tab
+17:11 and within this share tab um I like to
+17:15 turn off this align content to the left
+17:17 it brings it in just a little bit like
+17:19 this you can do full
+17:22 page um popup which is on the bottom
+17:25 right let's hit get the code and so
+17:27 we're just going to copy
+17:29 this code right here and what we're
+17:31 going to do is we're going to go back to
+17:34 our web app right here we're going to go
+17:37 to Ai and we're going to open up a new
+17:39 chat and say generate full code for
+17:45 page. TSX include this
+17:50 um embed
+17:53 of the of a
+17:56 tally form to
+18:00 sign up for the weit list and we're
+18:05 going to go ahead and just paste this in
+18:07 full code and so we're going to generate
+18:10 that and here is our final site if we
+18:12 click join the wait list we get this pop
+18:14 up down here at the bottom and sign up
+18:17 for Early Access I can type in
+18:20 Riley um job title a wizard and we can
+18:25 submit it and let us know what you're
+18:27 excited to use this hi submit and there
+18:31 you go we generated this very quickly on
+18:34 vzer I'm pretty sure you get like 10
+18:36 Generations on v0 per day for free
+18:39 anyway thanks for watching subscribe I
+18:41 love you I'll see you here in the next
+18:43 video

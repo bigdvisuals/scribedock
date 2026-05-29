@@ -1,0 +1,590 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=Sx6k6uctfXE
+Channel: Greg Isenberg
+Video ID: Sx6k6uctfXE
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 Today we're going to talk about how to
+0:02 use AI to build a SAS in a weekend. I
+0:06 came across this Reddit post by this guy
+0:09 or girl, Lord 007 TN. It had 27 upvotes
+0:15 and I was reading it and I was like,
+0:16 "This is absolutely gold." He outlines
+0:18 exactly how to build SAS in a weekend.
+0:21 Now, there's some things I would do
+0:22 differently, some things um that I
+0:25 really like about this. Um, and if you
+0:27 stick around to the whole episode,
+0:29 you're going to learn a playbook for how
+0:31 to build a SAS in a weekend using AI.
+0:34 We're going to go through a bunch of the
+0:36 steps. I'm going to show you how to do
+0:37 this. Now, I don't know if that SAS does
+0:39 a million a month, $100,000 a month,
+0:41 $1,000 a month. I don't know. But I do
+0:44 know that uh there's a huge opportunity
+0:46 right now to be building software um SAS
+0:49 businesses. Uh AI makes it a lot easier.
+0:52 And um what we want to do is basically
+0:55 have the highest probability of success
+0:58 when we launch a product. So let's talk
+1:00 about that.
+1:03 [Music]
+1:09 So uh he says the first you got to come
+1:12 up with something to build. Now I kind
+1:15 of disagree with him on on step one. I
+1:17 feel like there's step zero which is you
+1:20 got to figure out an audience. You got
+1:22 to figure out which community you're
+1:23 going after. You got to figure out a
+1:25 niche. So, I actually think there's a
+1:27 step zero around thinking about what
+1:30 niche makes most sense. Now, how do you
+1:32 do that? One is you can say, well, what
+1:35 is an unfair advantage that I have? You
+1:37 know, maybe I was in nursing for 20
+1:39 years and understand nurses better than
+1:41 anyone. Um, maybe I'm a developer and
+1:44 understand, you know, a specific
+1:45 programming language better than uh
+1:47 someone else. Or maybe there's just a
+1:50 trend that I'm seeing. Um, and I see
+1:54 this trend. I I I you know, I I I know
+1:56 where it's going to go from here. I have
+1:57 a good and I think that there's a
+1:59 business idea here. So, you go and start
+2:02 a social account. X, LinkedIn,
+2:04 Instagram, Tik Tok. Um, you go and you
+2:07 go do that. That's step zero. You start
+2:09 actually figuring out two things
+2:10 actually. You got to figure out what is
+2:12 the format of the type of content I want
+2:14 to create. Meaning, am I telling
+2:16 stories? Am I showing images? Is it
+2:18 videos? What is the format? And what is
+2:20 the system so that I'm consistently
+2:22 putting out content every day? Step step
+2:25 zero, build an audience. Then figure out
+2:28 what something to build is. And
+2:30 actually, how you figure out uh how you
+2:32 how you build something is you start
+2:35 teasing things with your audience and
+2:36 they're going to tell you what to build.
+2:38 Step two is I get to Gemini. I get
+2:40 Gemini to do some deep dives on who else
+2:42 is doing similar stuff. I got to know
+2:44 the competition, right? So, let's go and
+2:47 do this live. And I'll be honest with
+2:49 you, I don't use Gemini a lot. Actually,
+2:52 you can see I literally have never used
+2:55 it on this account. Um, so I've used it
+3:00 on my personal Gmail, but I haven't used
+3:02 it on my on my business. But I I I don't
+3:04 know about you, but I'm more of a chat
+3:06 chat GBT code um Grock type of guy. So
+3:11 let's go come up with an
+3:14 idea and uh see what Gemini says. So say
+3:18 I have an audience that maybe is people
+3:21 who like books and through that I
+3:24 realize that
+3:26 goodreads.com which is now owned by
+3:29 Amazon is you know this community of
+3:32 people you know who are reviewing books
+3:35 and you know when you look at this
+3:36 website it just feels old school. So
+3:41 maybe I'm like maybe there's an
+3:42 opportunity to reinvent Goodreads. And
+3:45 I'm pretty sure Goodreads got acquired
+3:48 back in the day for a bunch of money.
+3:52 Um yeah, Amazon acquired them, I think.
+3:54 Yeah, for $150 million. So I'm like,
+3:57 okay, I want to make $150 million. And
+4:00 that was a long time ago. Let's go and
+4:02 rebuild it. So let's go and ask
+4:05 Gemini who else is competing with
+4:09 Goodreads.
+4:10 So, we're going to say, I want to build
+4:13 a startup that competes with
+4:18 Goodreads. What is the
+4:21 competitive landscape look
+4:25 like? And aka who
+4:29 else beyond
+4:32 Goodreads am I going to be competing
+4:37 with? and let's go see. So, now I'm
+4:41 learning about a bunch of I don't know
+4:44 about you, but I've never heard of any
+4:45 of these uh a bunch of
+4:47 competitors that I can go look into. So,
+4:49 I see the story graph. Um this platform
+4:52 has gained significant traction as a
+4:54 popular alternative to Goodreads. It's
+4:55 datadriven personalized recommendations
+4:57 based on your mood, themes you enjoy,
+5:00 library thing, bookworm. It doesn't make
+5:02 a difference what these things are. The
+5:04 the bottom line is if you're building a
+5:06 SAS in a weekend, um you basically go
+5:09 and
+5:10 check and write notes as to who these
+5:14 people are and what is interesting about
+5:16 them and what what maybe isn't
+5:18 interesting about them. Um and then it
+5:20 says other platforms with overlapping
+5:22 features. Uh they're not direct
+5:24 Goodreads competitors, but they offer
+5:26 features your startup might consider. So
+5:28 like a book discovery platform like
+5:30 BookBub, social reading apps like Book
+5:32 Ship. Again, I've never heard of any of
+5:34 these things. Or Bookstagram, IG book
+5:36 community. That makes
+5:37 sense. So, I'm getting a lot of this is
+5:40 like competitive analysis, Mackenzie
+5:42 analyst in, you know, in your pocket
+5:45 type thing. So, this is really
+5:47 cool. Then it says key considerations
+5:50 for your startup. Um, given the existing
+5:52 players, what unique value proposition
+5:54 will your startup offer? will be
+5:56 specific niche genre focused academic
+5:59 reading a unique feature AI powered
+6:01 recommendations or more
+6:03 nuanced asking the right questions right
+6:05 like I feel like this is probably the
+6:07 most important question and then you
+6:09 know user experience look many goodreads
+6:11 users express frustration with this
+6:13 dated interface I'm not alone uh
+6:16 community building how will you foster
+6:18 uh an engaged community you get the
+6:20 point okay so that's step quick break in
+6:24 the pod to tell you a little bit about
+6:26 Startup Empire. So, Startup Empire is my
+6:29 private membership where it's a bunch of
+6:33 people like me, like you who want to
+6:36 build out their startup ideas. Now,
+6:39 they're looking for content to help
+6:41 accelerate that. They're looking for
+6:42 potential co-founders. They're looking
+6:44 for uh tutorials from people like me to
+6:48 come in and tell them, "How do you do
+6:50 email marketing? How do you build an
+6:51 audience? How do you go viral on
+6:53 Twitter?" all these different things.
+6:55 That's exactly what Startup Empire is.
+6:57 And it's for people who want to start a
+7:00 startup but are looking for ideas or
+7:02 it's for people who have a startup but
+7:04 just they're not seeing the traction uh
+7:07 that they need. So you can check out the
+7:09 link to
+7:11 startupmpire.co in the
+7:13 description. That's uh step two and I
+7:15 think that makes a lot of sense. Step
+7:17 three, I check out what those
+7:18 competitors are offering and what makes
+7:21 them tick. helps figure out my angle.
+7:23 Yeah. So, that
+7:24 makes that makes a lot of sense. You
+7:26 basically go through each and every one
+7:30 of these uh competitors. So, let's just
+7:34 say let's just go to the story graph for
+7:36 fun. I even saw that in like the preview
+7:40 text on Google that um they do
+7:44 challenges which is really cool.
+7:46 Challenge directory. Um that's really
+7:49 cool. So, story graph because life's too
+7:52 short for a book you're not in the mood
+7:53 for. Simple tracking and insightful
+7:56 stats. This feels extremely
+7:59 nerdy. Discover books by mood. I think
+8:01 that's really interesting, but like I
+8:04 don't know. Are people looking for like
+8:07 a checkbox? Like I feel like there's so
+8:09 many more beautiful ways to show
+8:11 showcase that. Um I saw this uh really
+8:17 beautiful
+8:19 um product design for this app called Q
+8:22 which is a way for people to um discover
+8:27 videos like you know movies and TV shows
+8:30 to watch. Um and you know the co-founder
+8:33 says I'm proud of our visuals and
+8:35 designs in Q. It's contributed to why
+8:36 millions of folks have downloaded and
+8:38 used our apps. Here's what three of my
+8:40 favorites. So look at this just feels so
+8:42 much nicer than what I just saw. um
+8:46 swiping with a partner to pick a movie
+8:48 and getting alerted with when you watch
+8:51 um our 3D trailer feed and the poster
+8:54 flying down to the bottom right when you
+8:56 add it to Q. That's really cool. But I
+8:57 think the coolest part is the spinner.
+8:59 Like having a spinner like this for
+9:02 books, I think would be way cooler than
+9:04 what the story graph is doing doing.
+9:07 So, um, yeah, I guess I guess like you
+9:12 just go through all the competitors, you
+9:14 write notes about what you like, you
+9:15 don't like, you do some research, and
+9:18 then then I hit up uh code with my idea
+9:21 and the basics. I make it grill me with
+9:23 like 20 questions to see if the idea
+9:26 even holds water. So, let's go to code
+9:30 now and ask it like 20 questions as it
+9:33 says here. uh with my idea uh with
+9:38 my with with our idea here and see what
+9:41 they say, which is basically like a Q,
+9:44 you know, Q the Q app but focused on
+9:50 like young people, Gen
+9:52 Z and something super beautiful. So I
+9:55 open up Clo here. I use the um Mac app.
+10:00 So I say
+10:02 uh I guess the prompt would be something
+10:05 like I want to build Q but for
+10:10 Goodreads.
+10:13 basically a more
+10:15 beautifully designed
+10:18 version of
+10:20 Goodreads with cool
+10:23 features like this
+10:27 spinner from
+10:30 Q. I know that I
+10:34 probably need a niche to focus on. So
+10:37 that's what Gemini said before, like you
+10:39 need a niche. But I'm thinking Gen Z. Is
+10:45 that too
+10:47 broad? I want you to grill me with 20
+10:52 questions. Let's see how they worded it
+10:55 originally in that Reddit
+10:57 post. Grill me with 20 questions to see
+10:59 if the idea holds
+11:01 water. To see if this idea even holds
+11:07 water. This is crazy.
+11:11 I've actually never used AI like this.
+11:14 It feels so dumb, but it actually makes
+11:16 so much sense. So now what's happening
+11:19 is it's coming up with a bunch of key
+11:21 questions to evaluate if the idea is any
+11:23 good or not. What specific pain points
+11:26 with good reads are you solving beyond
+11:27 aesthetics? Have you researched how Gen
+11:29 Z specifically engages with reading and
+11:32 book discovery compared to other
+11:33 demographics? What unique features
+11:35 beyond the spinner would differentiate?
+11:37 It's literally asking all the tough
+11:39 questions that actually make sense. Wow,
+11:41 that's really really good. Let's see.
+11:43 Let's see what else uh Lord 007 says. Um
+11:48 it if it survives the interrogation, I
+11:50 tell Clo to write up a super basic
+11:52 onepage plan. So, you know, if I was
+11:56 actually doing this idea, I I would have
+11:58 to literally research all these things.
+12:01 So, this is the hard work about building
+12:03 a startup, building a SAS that does take
+12:05 time. Um, and this might take me a full
+12:08 day just to actually go and figure out
+12:10 all this stuff
+12:11 out, but let's just pretend like this is
+12:15 a good idea and pretend like I've gone
+12:17 and researched this. Um, and move on to
+12:21 the next step. I'll say uh I'll ask it
+12:24 to to write up a super basic one-page
+12:26 plan. It's called a PRD. Just get an
+12:28 outline, an outline. and they'll say,
+12:31 "Can you write a super basic PRD based
+12:34 on what you
+12:37 think is the best answers to these
+12:43 questions and will result in a $150
+12:47 million exit like Goodreads did to
+12:52 Amazon." And let's see, novel spin.
+12:56 Okay, so it's really leaning into this
+12:58 spinning idea.
+13:00 And it's just writing out the executive
+13:02 summary, the market opportunity, the
+13:04 target audience. It went with Gen Z with
+13:06 a secondary focus on millennial key
+13:09 points. Okay. Discovery, the core
+13:12 features are the novel spin wheel,
+13:15 moodbased recommendations, and micro
+13:17 genre exploration. I actually think
+13:19 that's pretty good. Beyond basic genres
+13:21 to ultra specific niches that Gen Z
+13:23 identifies with with social features
+13:26 like reading challenges, book clubs, and
+13:28 social sharing. It gives you an uh some
+13:31 idea around what should the user
+13:33 experience look like? Should it be
+13:34 minimalist? Customizable shells. I
+13:36 actually think that's really cool and
+13:38 also that's really screenshot worthy,
+13:40 right? Like I want to share that on
+13:42 other platforms. Um I think that's
+13:44 brilliant. Um because that's going to
+13:46 generate that's going to basically get
+13:48 uh my K factor aka uh you know my
+13:52 virality up. People are going to be
+13:54 sharing these like crazy. Think of like
+13:56 Strava the you know the running
+13:59 app. People love sharing that stuff.
+14:02 Wow. Okay. So, it gives you launch
+14:05 strategy, the success metrics,
+14:07 competitive advantage, and the path to
+14:10 $150 million exit. Okay. I feel really
+14:12 good about that. I don't know if you do,
+14:14 but I do. So, boom. Step six. Now, I've
+14:17 got a simple outline. Back to code, but
+14:20 this time we're talking looks. I get to
+14:22 break the whole thing into small
+14:24 shippable chunks focusing only on the UI
+14:27 for each CL chunk. It tells me what each
+14:30 page will show, what you can do it, and
+14:32 even draws little user flow diagrams.
+14:35 It's surprisingly fast. Now, I didn't
+14:37 even know that you can use code for
+14:39 this. So, um let's just see. Okay,
+14:43 focusing only on the UI. So,
+14:45 let's let's go and do this and see what
+14:49 happens. So, we'll
+14:51 say, "Okay,
+14:54 great. I want you to break the whole
+14:58 thing into
+15:00 shippable chunks, focusing only on the
+15:04 UI. For each chunk, tell me what each
+15:10 page will
+15:11 show,
+15:13 what you can do on it, and even draw
+15:18 little user flow diagrams. It's
+15:21 surprisingly fast.
+15:24 Um, all right. I'm I'm I I'm not sure
+15:28 this is going to work, but if it does,
+15:31 okay, shippable UI chunks. It's doing
+15:34 it. It is doing
+15:37 it. So, what it's doing is making these
+15:39 shippable chunks. And then we're going
+15:42 to take this. Wow. The user flow doc. I
+15:45 mean, user flow diagram like pretty
+15:47 basic, honestly. But like maybe this
+15:49 works. Maybe this will be good enough
+15:51 for Vzero. Like it's super basic. This
+15:54 is basically like a uh you know I you
+15:58 know a pen on a napkin, right? An idea
+16:00 on a napkin. Okay. Wow. Okay. So then
+16:04 let's go back here. I check clothes
+16:07 work. I almost said cloud there. Made
+16:09 make any tweaks and get then get it to
+16:11 turn each UI chunk into a prompt for v
+16:13 0ero dev. Okay. So make each UI chunk
+16:19 into a prompt for v 0ero dev because and
+16:22 this is this is a little thing I like to
+16:24 explain to the LLM why I'm doing stuff
+16:27 sometimes cuz or else it gets lost
+16:30 because I am going to get Vzero to make
+16:35 this a beautiful and living thing. Let's
+16:39 see if this actually works. Oh man,
+16:45 crazy. See, you don't even need to know
+16:48 how to prompt really well here, right?
+16:50 Like there's so many guides around how
+16:52 do you how do you get the most out of
+16:54 VZ, for example, but it's like just ask
+16:58 code or ask chat GBT how to do the best
+17:03 prompting. Like it will tell you how to
+17:06 do the best prompting. It's incredible.
+17:07 Okay, so now we have all these
+17:08 incredible prompts and I'm just going
+17:10 I'm I'm reading through it. I'll read
+17:12 through one. The novel spin wheel design
+17:15 an interactive spinning wheel feature
+17:17 showcasing book covers around a circular
+17:20 interface. When spun, the wheel should
+17:22 animate smoothly and highlight a
+17:24 selected book with subtle hapt haptic
+17:27 feedback and visual emphasis. Include
+17:29 filter controls to customize wheel
+17:32 contents by genre or mood. When book is
+17:34 selected, it should expand to show basic
+17:38 details with option to view full details
+17:40 or add directed to library. I couldn't
+17:41 have said it better myself. That's
+17:43 pretty awesome. So now let's go over to
+17:46 vzero.dev and start generating the
+17:49 UI and we could tweak the prompts uh as
+17:52 we go until it looks right. So then
+17:55 let's pull let's just do the no you know
+17:58 the novel
+17:59 spin actually core reading
+18:03 experience. Let's start with this chunk
+18:05 one the core re reading experience and
+18:08 see what happens. Just going to
+18:10 literally just paste it yolo press
+18:15 uh press go and then see what
+18:18 happens. So it's making a next uh js app
+18:22 here. uh code is
+18:25 coming. The reason I started with uh the
+18:29 first chunk, by the way, was
+18:31 because I felt that if I went with chunk
+18:35 two, it
+18:37 wouldn't I felt like it needed some of
+18:40 like the overall aesthetic
+18:42 uh prompting in order to get that right.
+18:45 So, I feel like you do need to start
+18:47 with your first chunk. Um, as a as a
+18:50 little tip there,
+18:52 um, I gotta say, just like going through
+18:53 this, I I knew that that Reddit post,
+18:56 like I knew that it would be
+18:57 directionally right. Um, it just felt
+18:59 directionally right because I'm I'm
+19:00 constantly building my own ideas, but
+19:03 I'm I'm pretty shocked with how well
+19:05 everything is going so far. like as
+19:07 someone who's built um has advised
+19:10 multi-billion dollar companies, you
+19:12 know, as an adviser to Reddit, adviser
+19:14 to Tik Tok, I've I've built ventureback
+19:16 companies, consumer back companies uh
+19:19 before, and I'm just impressed with how
+19:23 quickly that, you know, it gets to the
+19:25 to the to the substance, right? We're
+19:28 we're right to the substance. I was I
+19:30 was really impressed with uh just like
+19:33 the questions actually like here's the
+19:35 20 questions that you should ask
+19:36 yourselves. So many times we have ideas
+19:38 for stuff but we shouldn't even we
+19:40 shouldn't build them. Um and we should
+19:43 just like kind of hash it out. And the
+19:46 way to hash it out, you know, it doesn't
+19:47 it doesn't necessarily need to take
+19:48 time. Like we're talking a few hours to
+19:51 like figure out if this is a good idea
+19:52 or not. But
+19:55 um yeah, cuz I could have gone through
+19:57 that process answering those 20
+19:59 questions and be like, you know what,
+20:01 there's just actually just too much
+20:02 competition. I'm not sure that focusing
+20:04 on Gen Z is the right approach. So happy
+20:07 I went through that. Okay, novel spin.
+20:10 Uh here we go. It's It seems like it's a
+20:13 mobile. It looks like a mobile web app.
+20:17 So, wow. It's gone and created a home,
+20:19 the library, the search.
+20:22 Um, and
+20:24 it's, you know, it looks fine. I would
+20:27 say it doesn't nothing to write home
+20:30 about. I don't know what you think, but
+20:32 I don't think there's anything to write
+20:33 home about.
+20:35 Um, I assume, you know, it's still
+20:37 loading the the the photos, so maybe
+20:39 it'll look nicer with photos. But I'm
+20:42 just going to ask it like, is this a
+20:44 mobile
+20:45 app or is this
+20:48 a mobile web
+20:51 app? Could
+20:53 you design a native mobile
+20:58 app? I'm not sure it
+21:00 could. I mean, maybe it could. Let's
+21:02 see. I've never tried it. Right. So,
+21:04 it's it's gone and it's told me that
+21:06 it's design a mobile optimized web app
+21:10 built on X.js, not a native mobile app,
+21:13 but it could create a mobile app design
+21:15 using React Native. That would work.
+21:17 Now, that's not a React Native isn't,
+21:20 you know, Swift, right? So it's it's not
+21:24 uh it might might not be as nice as for
+21:28 example the Q app that I showed which is
+21:30 probably
+21:32 uh developed using Swift
+21:35 uh which is you know known as that's
+21:39 actually a native mobile app but uh let
+21:42 you know React Native would be a great
+21:44 place to start if we're just if we're
+21:47 just testing to see and see if we can
+21:49 get product market fit with this idea.
+21:52 So, while that's going, let's go back to
+21:55 the Reddit post and see what we have to
+21:58 do next. So, he says, uh, he generates
+22:01 UI piece by piece, uh, tweaking the
+22:04 prompts as he goes until it looks right.
+22:06 And then once the whole UI is done in
+22:08 vzero.dev, he literally just downloads
+22:10 the co code. He gets code to write in a
+22:14 simple readme file that explains what
+22:17 we're building. Then he uses cursor or
+22:19 VS or code pil code code pilot you know
+22:22 pick a tool of your choice to start
+22:24 adding the database um backend logic and
+22:28 all the stuff that makes it actually
+22:30 work and that's pretty much how he goes
+22:32 from a random idea to hopefully a
+22:35 working SAS product. It's kind of crazy
+22:37 how much AI speeds things up these days.
+22:40 Yes sir. So, let's go and just see what
+22:45 Vzero ends up
+22:48 uh po, you know,
+22:49 creating. And and by the way, like this
+22:52 is why I wanted to do this. I you know,
+22:54 the the reality is we know that Vzero is
+22:57 going to create something that's like
+22:58 probably pretty nice. And you know, the
+23:02 point of this episode is not to show you
+23:04 how to take it from, you know,
+23:07 80% beautiful to 90% beautiful.
+23:11 um because I don't actually I actually
+23:13 don't think that matters um you know
+23:17 realistically. I think what's going to
+23:18 make this product stand out with good
+23:21 readads is it just needs to be clean. It
+23:23 needs to be aesthetic. The copy needs to
+23:25 be high quality. Um and it needs to be
+23:27 actually serving a real painoint. And
+23:29 this process of actually how to build a
+23:31 SAS app uh within in a weekend using AI.
+23:36 This is this is the process that I would
+23:39 take. It makes a lot of sense. So let's
+23:41 go and just see what it looks like. Um
+23:45 see it's already written 240 lines of
+23:48 code just on the profile screen alone.
+23:51 So this is it's kind of crazy. So and
+23:54 you can't preview it yet. It's just
+23:56 loading.
+23:57 So you can see on the left hand side
+24:01 um look at all the different pages that
+24:04 it's it's creating all the how much
+24:07 lines of codes here um okay
+24:11 so it's it seems like it's it's
+24:14 completed I've created a native mobile
+24:15 app using React Native okay but I can't
+24:18 preview it. So basically, wow, I can't
+24:23 preview this, which is kind of
+24:26 lame. And then let me just ask this. Why
+24:29 can't I preview
+24:34 this? Right. So if you wanted to preview
+24:37 this, you'd have to download it.
+24:39 Download the code and and just throw it
+24:42 into Xcode, which is, you know, you
+24:44 should watch. We we actually did a you
+24:46 know a video an episode recently about
+24:48 how we actually do that and and what are
+24:50 the best practices. I'll link it in the
+24:52 show notes. Um but friends, we did it,
+24:58 you know, we didn't we we did it. We
+25:02 figured out how to actually build a SAS
+25:05 app in a weekend. This is the process I
+25:08 would use.
+25:10 Uh and uh hope you enjoyed hope you
+25:13 learned something and uh you know stay
+25:17 sipping enjoy happy building. Don't just
+25:21 share this uh video or episode with a
+25:23 friend. Don't just like and comment.
+25:25 Although like and comment and subscribe
+25:27 but most importantly go and ship your
+25:30 ideas. Go build something. And I can't
+25:33 wait to see what it is you built.

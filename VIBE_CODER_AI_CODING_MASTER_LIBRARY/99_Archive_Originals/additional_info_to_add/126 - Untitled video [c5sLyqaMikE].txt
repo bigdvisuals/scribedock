@@ -1,0 +1,569 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=c5sLyqaMikE
+Channel: Riley Brown
+Video ID: c5sLyqaMikE
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 if you take a look at this we can easily
+0:02 uh add change the background here and we
+0:05 can create these clean little layouts I
+0:08 added these little dots if we were to
+0:10 you know go to YouTube or something
+0:12 let's grab a YouTube link we can hit
+0:16 embed and we can copy this whole thing
+0:18 we can take it back here can hit add
+0:21 video and we can paste in this embed
+0:23 code and it will actually load up like
+0:25 this and obviously we can uh sign out we
+0:29 can sign in with Google I can sign in
+0:32 with that same account that I was just
+0:33 using it should show all of my boards on
+0:35 the homepage that's what I made in One
+0:37 Singular CLA chat with the new templat I
+0:39 want to create an app that allows me to
+0:40 upload images text quotes in different
+0:42 fonts colors and move them around in
+0:44 Grid format and basically create a bunch
+0:45 of different boards and check this out
+0:47 so we're going to paste this in and what
+0:49 it should do is it should give us some
+0:51 links right here so it gives us a link
+0:53 to a template that we're going to click
+0:54 on and we're just going to open this up
+0:56 and we are going to use this and I'm
+0:58 going to put big mood that's going to be
+1:00 the name of the app and we are going to
+1:02 use this
+1:04 template now what we're going to do is
+1:06 we're going to go
+1:08 back the next step is we're going to
+1:10 click on this Firebase link and hit
+1:12 continue and we're going to create a new
+1:14 project and we're going to call this big
+1:15 mood once again and we're going to turn
+1:18 off Google analytics and then we're
+1:19 going to create the
+1:20 project while that's loading we're going
+1:23 to go to this repet and we're going to
+1:26 open up the secrets Tab and we are going
+1:28 to full screen this now what we're going
+1:30 to do is we're going to go back to this
+1:32 uh Firebase Tab and we're going to open
+1:34 it in a split view and now we have this
+1:37 open in this nice clean split view here
+1:40 and we are going to press this web
+1:41 button and we're going to put in big
+1:43 mood for the name of the new app that
+1:45 we're creating we're going to Press
+1:46 Register App then it's going to give us
+1:49 these tokens in which we are going to
+1:51 paste over so let's go ahead and copy
+1:54 this
+2:01 show you the whole thing add secret add
+2:03 secret add secret add secret add secret
+2:04 add secret boom we are done we no longer
+2:06 need to be in this split view now what
+2:09 we're going to do is we're going to go
+2:10 back to uh Firebase and we're going to
+2:13 hit continue to
+2:15 console first thing that we're going to
+2:16 do is we're going to go to build
+2:18 firestore database and we're going to
+2:20 press create database you don't need to
+2:22 put anything on this page and we're
+2:23 going to start in test mode and we're
+2:24 going to hit create once this database
+2:26 is created we're done with the database
+2:29 now what we're going to do is we're
+2:30 going to hit build authentication and
+2:33 we're going to hit get started and we're
+2:35 going to hit Google and we're going to
+2:36 hit enable and we're going to hit this
+2:38 email or put whatever email you want in
+2:39 for the support email for
+2:41 project one more simple step we now need
+2:45 to go to build and we're going to hit
+2:46 storage and we are going to get started
+2:49 and we're going to start in test mode
+2:50 we're going to hit next and done and now
+2:53 we are done for a bit on this right here
+2:56 so we now set this up and we put our
+2:58 secret Keys into replate so we can un
+3:00 full screen replate this app should run
+3:04 our template is set
+3:05 up look at this we have a full app and
+3:08 we should be able to sign in we're going
+3:09 to get one little error but it actually
+3:10 doesn't matter so we can sign in with
+3:12 Google
+3:13 oh well it's an unauthorized domain so
+3:16 what we need to do is we need to copy
+3:18 this Dev domain right here basically
+3:21 granting access for Firebase uh to for
+3:24 that domain we need to go to
+3:26 authentication settings authorize
+3:28 domains add domain past it in add now
+3:32 when we go back to Big mood and we
+3:34 refresh the web app and this is
+3:36 basically a little environment for you
+3:38 to test your application we can hit sign
+3:40 in with Google and look at this we are
+3:43 already signed into to our app look at
+3:45 this we can this is the base template
+3:48 that we start out with and we can create
+3:50 a post hello my name is Riley and I can
+3:53 post what we're building is this app
+3:56 right here so we need to make changes to
+3:58 this homepage so I'm clicking on home
+3:59 home and right now we are going to begin
+4:02 our copy and paste method right here so
+4:04 we're going to go to um we're going to
+4:05 go to big mode and there is a homepage
+4:09 right here so we're going to copy and
+4:10 paste and now we're in copy and paste
+4:13 mode create edit board so we need to
+4:14 create a new component for editing board
+4:16 so this is going to be create edit board
+4:19 um and it's going to be create edit
+4:20 board uh. TSX so we're going to come
+4:23 over here we're going to go into
+4:24 components and we're going to press add
+4:27 file and we're going to paste this in
+4:29 Dot TSX and we're going to come back and
+4:31 actually grab the content and we're
+4:33 going to paste it in now we're going to
+4:35 come back grab the app. TSX make sure
+4:37 it's full code we're going to copy this
+4:39 and we're going to hit at. TSX paste
+4:43 this in now what we need to do is this
+4:44 board component got cut off here Cloud's
+4:46 response was limited so here's the board
+4:48 component and now we need to create a
+4:50 board component so we're going to copy
+4:51 this and we are going to go back to the
+4:55 app and we are going to go into
+4:57 component add file board
+5:00 word. TSX and we're going to paste this
+5:04 in here draggable box component so let's
+5:07 create a draggable box component we're
+5:10 going to come back here add a file and
+5:13 I'm just going to call this d. TSX
+5:15 because I just copied this and then I
+5:16 can come back for the
+5:17 name
+5:19 um okay so Clause response was also cut
+5:22 off here so finish what you were
+5:28 doing and so now that it's created okay
+5:30 so now we need this new app.
+5:35 TSX navbar now we're creating a Navar
+5:37 component so this is navb bar. TSX so
+5:41 let's add a
+5:43 file
+5:45 nav bar. TSX and one thing you should
+5:48 always make sure that in this export
+5:50 default Navar it should match the name
+5:53 of this with and pay attention to
+5:54 capitals and then here I'm going to say
+5:56 one give me the full file structure
+6:00 uh in text of the files that we need
+6:05 okay so it's going to be called dra uh
+6:07 dragable box. TSX so we can go back here
+6:10 draggable box.
+6:15 TSX boom so we're going to copy this
+6:17 right here install dependencies anytime
+6:19 you're installing anything or you see
+6:20 npm or if you see pip but that's uh
+6:23 that'll be with python I believe just
+6:25 immediately think I need to go to Shell
+6:27 so I need to type in Shell I know it's
+6:29 right here I just want to show you how
+6:30 if you ever lose it you can find it but
+6:31 for me it's right here and you're going
+6:32 to click on this black rectangle and
+6:33 you're going to paste this in and press
+6:35 enter and here it gave us this Tailwind
+6:38 Doc config.js and we're going to go V.C
+6:42 config.js and we're going to paste this
+6:44 one in right here now what we're going
+6:46 to do is and we got this error that's
+6:49 okay copy we'll paste this error in here
+6:53 and anytime you get an error just paste
+6:54 it back
+6:56 in and it's just a minor uh syntax ER it
+6:59 looks like and we are going to press
+7:02 we're going to go to V.C config.js
+7:06 V.C config.js and we're going to paste
+7:10 this
+7:11 in and we're going to go to TSC
+7:13 config.js
+7:15 and we're going to paste this in TS
+7:18 config so it says we're getting an error
+7:20 here again when we try and run it but um
+7:24 I don't understand this one another
+7:26 error
+7:31 to just replace this board
+7:33 file and we will go like this we will go
+7:36 Source board paste this in now we're
+7:40 going to hit
+7:42 run all right so let's see what this is
+7:44 so this is your boards we I don't see
+7:46 anything here I don't see anything to
+7:47 sign in
+7:51 um Let's do an
+7:55 inspect and so if you open up your web
+7:57 view in a new tab and then you go to
+7:58 console
+8:01 uh we will be able to see the errors in
+8:02 real time so this is the homepage
+8:04 doesn't look great so far but there is
+8:05 this little button with no text so we're
+8:06 going to press that
+8:08 oh
+8:11 Riley Riley's Vibes a place where Riley
+8:17 can Vibe out and make Vibes and we will
+8:21 make this public oh there was no button
+8:24 there but I assumed it should have been
+8:26 there um and we can create this board
+8:28 all right so nothing is showing up for
+8:30 whatever reason for whatever reason
+8:32 nothing is showing up but like I can
+8:35 press buttons here look at this so like
+8:37 there's like invisible buttons up here I
+8:39 can hit back right you see it just
+8:40 lights up right there so something's
+8:42 going on in The Styling okay the site is
+8:45 working but everything is white and the
+8:47 buttons have no text or they are white
+8:50 and invisible there there is no
+8:54 styling and let's go ahead and see what
+8:56 cloud says here all right we're going to
+8:58 check our Tailwind .c config.js
+9:07 oh wow okay there it is there it is I
+9:10 think that might be all we
+9:12 need so here we go we might not like
+9:14 these colors okay there we go this is
+9:17 what our site looks like right here we
+9:18 have a home we have a create board page
+9:21 which can also be accessed via this
+9:23 right here uh we have a sign out button
+9:26 right and this is the same template
+9:27 signin page you can change all these but
+9:29 we sign in with Google and I can sign in
+9:31 with a different account than I signed
+9:32 in before and this should in theory take
+9:34 us to the homepage and I should see
+9:35 nothing right and I should be able to go
+9:37 home and hit create board um and we'll
+9:40 make this account is John so John's
+9:43 board this is where I keep stuff and
+9:48 yeah so we're going to make this public
+9:50 create board now if we click on create
+9:52 board we have this little board here
+9:55 upload image let's upload a
+9:57 screenshot okay and we can drag it
+10:01 around no way wait okay you can't you
+10:05 don't drag it you click
+10:07 wait okay it's not super great can we
+10:13 resize yes okay no
+10:17 uh come on hold hold
+10:21 it darn it okay that's okay you can't
+10:25 quite resize and this animation doesn't
+10:28 look great but you can upload images we
+10:30 can upload another image I'm
+10:32 sure okay this is my thumbnail for my
+10:34 last video they they seem to be all
+10:35 square so this is act oh oh oh no come
+10:38 on please let me do that that looks
+10:40 clean okay that's one thing we'll tell
+10:42 Claude here so now we can add text uh
+10:45 and it gives us Times New Roman H
+10:49 uh where do you do it where do you
+10:52 type oh it's okay so we can't quite
+10:56 resize the images but that's okay so we
+10:58 can't type yet and we can hit save
+11:01 board uh let me let me see here um let
+11:05 me see this real quick so upload
+11:07 image um we can upload this color palet
+11:10 image that we had right here we can move
+11:12 it kind of and we're going to inspect
+11:14 this uh we're going to go to console I'm
+11:17 going to see if there's any issues with
+11:19 saving the board save board okay that
+11:22 looks good so if we leave the page right
+11:23 and we um let's
+11:25 completely um like let's refresh this
+11:28 page
+11:30 so we completely refresh the page and we
+11:32 can hit Riley's VI and look it's in the
+11:33 same location so we're struggling with
+11:35 this format like it doesn't have like
+11:37 clean movement but and we can add
+11:41 text it's you can't really see it like
+11:45 Times New
+11:49 Roman okay so basically we need to go to
+11:51 Claud and we need to say I
+11:54 cannot resize the uh
+11:58 images or or the text on the board but I
+12:02 can move them and they can be saved so
+12:07 nice
+12:08 job okay so we need to change dragable
+12:11 box so we're going to copy this over
+12:14 we're going to go to dragable box we're
+12:15 going to paste this in and now we're
+12:17 going to go to index.css and we're going
+12:19 to paste this in oh was that supposed to
+12:22 be like that hold
+12:24 on
+12:27 um I will now uh run this let's see if
+12:30 this
+12:31 works looks all good we are now uh AO we
+12:34 are automatically signed in we obviously
+12:35 need to change these colors but let's go
+12:37 ahead and check this out okay very weird
+12:40 looking why is it like
+12:47 that interesting
+12:55 okay um okay so now they look kind of
+12:58 weird
+12:59 the
+13:00 edges I will give you screenshot GFC
+13:03 make CH I need to
+13:05 implement full code only for the ones I
+13:07 need to fix okay now we need screenshot
+13:09 so we're here we're just going to
+13:09 screenshot this right here because they
+13:11 do they look super weird also when I try
+13:13 to resize it snaps back to original and
+13:17 doesn't work and doesn't
+13:25 stay okay so just change dragable box
+13:28 now let's go back let's go to dragable
+13:30 box and we're going to paste this in
+13:33 just like that this looks a little bit
+13:35 better okay so the formatting seems to
+13:37 be fixed I'm going to refresh this real
+13:39 quick we go to the boards they did just
+13:41 move a little bit so can we still move
+13:43 them yes can we
+13:46 resize yes so now we have clean
+13:49 resizing okay so we can resize move
+13:52 right here now we can uh create Times
+13:56 New Roman new text and now we can re all
+13:58 right look at this comeing together
+14:02 um okay okay well we uh this is the
+14:07 thumbnail that I am using
+14:12 today I am going to use this to make
+14:14 something awesome I have the best plan
+14:17 to make this
+14:19 amazing okay so we can obviously change
+14:21 the colors right cool oh and we can do a
+14:24 little match like that change it to
+14:27 Courier um and I gu guess we should just
+14:30 we'll fix that later what the can we
+14:33 make the font selection and the F
+14:35 section and color selection be above the
+14:38 typing window or by default have the
+14:40 text um window or a little popup setting
+14:43 so it's not in the way and also also can
+14:45 you add other creative fonts um GFC for
+14:49 all the code you for all the files that
+14:51 need
+14:55 changing okay board. TSX need some
+14:58 changing
+15:04 um okay now it doesn't even let
+15:08 us I click on the typing on the font
+15:11 area the settings disappear can we fixed
+15:15 this um
+15:18 please um let's run this up like this so
+15:22 let's see let's just refresh it here go
+15:26 in okay so we can click on this doink
+15:28 wow now we can use
+15:31 garamound and we can we can now
+15:35 type we can type here and we can change
+15:37 the font wait these different fonts
+15:39 comic Sands nice okay now we can go like
+15:43 this and
+15:45 um yeah we can add this right here can
+15:49 we make this larger so we can make it
+15:51 larger like this and we be able to
+15:53 change the color of the text of the
+15:54 background of the text um I guess
+15:57 modules or text squares and then three
+16:00 when I press save they uh nothing really
+16:02 happens can you please uh fix um I say
+16:05 generate full code for all files we need
+16:06 to fix and we
+16:09 enter this is the full board now we're
+16:11 going to go to
+16:12 board and paste this
+16:16 in and we're going to restart this we're
+16:19 going to go like this click on this
+16:21 right here now in theory we should be
+16:23 able to slide this over and up now the
+16:27 text by default is down a few lines
+16:29 which is good so the text is lower let
+16:32 me see on a new one right uh add text
+16:34 right it starts out two lines down so we
+16:36 got that so now we can add text we can
+16:37 very quickly change it to um
+16:41 corer hello there my name is blah and uh
+16:47 can we change the background or
+16:49 no oh we can let's go look at this so I
+16:53 could match this like super light purple
+16:57 right here and then we're going to want
+16:57 to change the text
+16:59 to White and so now let's change this I
+17:02 don't like this font
+17:04 impact okay we do have an X nice we can
+17:07 delete things so now we have this clean
+17:09 little module this seems pretty cool
+17:14 man nice so we can create this now can
+17:16 we save it saved successfully let's go
+17:20 look at this we've created this in this
+17:21 is one CLA chat we haven't even reached
+17:23 the 10 you have 10 CLA chats left right
+17:25 this is just a single CLA chat we
+17:27 started with the template with this
+17:28 simple idea and the app that we have
+17:30 right now go home we can create boards
+17:32 right we can create a board hello this
+17:34 is my second board and we can add a
+17:37 description we can make it public go to
+17:39 the home feed we can create the board
+17:40 hello this is my second board we can
+17:41 upload an image right we can upload an
+17:43 image of this color palette we can uh we
+17:45 can move it this animation is not great
+17:47 I will give you I will say that but we
+17:49 can resize the image like this and we
+17:52 can move this here we can add text and
+17:55 what we can do with the text is we can
+17:56 make it larger and we can change the
+17:58 font of this this we can go palentino
+18:00 and we can change the size of it let's
+18:02 go uh let's go like
+18:05 35 let's change the color of the
+18:07 background and we'll match this color
+18:08 right here we can change the font to
+18:10 maybe this color right here hello there
+18:14 this is sick Bro and then we can move
+18:19 this right
+18:21 here and we can hit save board saved
+18:24 successfully we can go home we can
+18:26 create a board we can sign out I can
+18:28 sign with my other account and this is
+18:30 all before reaching a the limits right
+18:34 this is all before reaching the limits
+18:36 on CLA that is amazing let's keep going
+18:40 11 prompts later we are at the end of my
+18:43 CLA chat we basically we got cut off
+18:46 here we got cut off here and this is
+18:49 where we left off right here look at
+18:52 this and so I've basically only made uh
+18:54 adjustments to The Styling so it's
+18:56 basically the same app except we fixed a
+18:59 few bugs and if you take a look at this
+19:01 we can easily uh add change the
+19:04 background here and we can create these
+19:07 clean little layouts I added these
+19:10 little dots I can't there we go like
+19:12 they we've added these little dots here
+19:14 we've made the whole everything uh kind
+19:17 of black around the edges we have the
+19:19 it's like gray uh gradient up to the top
+19:23 and we have uh we can save the board and
+19:27 we can also add video embeds however it
+19:31 doesn't work because I don't I think
+19:33 YouTube doesn't like the dev domain and
+19:35 so it just gives me an error but if we
+19:37 were to you know go to YouTube or
+19:39 something and we were to grab a all
+19:42 right guys glasses M let's grab a
+19:45 YouTube link we can hit embed and we can
+19:49 copy this whole thing we can take it
+19:51 back here and uh we can hit add video
+19:55 and we can paste in this embed code and
+19:58 it will actually load up like this
+19:59 except if I try and play it it'll give
+20:01 me an error and I believe that's YouTube
+20:03 not liking I think I this is an easy fix
+20:06 but imagine if we can embed videos here
+20:08 I think this would be kind of a Vibe and
+20:10 we can obviously change the sizing and
+20:12 make it you know maybe it's up here in
+20:14 the top corner and then we can add some
+20:16 notes here like we could just take notes
+20:18 on this
+20:19 video and uh yeah okay well actually I
+20:22 want these notes to match uh this one
+20:26 right here and let's go like this now
+20:29 let's let's take some notes oh wait no
+20:33 we want this to match this right here
+20:37 nice can we make this bold I actually
+20:39 don't know actually we can't even
+20:41 highlight on this yet we got to add that
+20:42 ability uh later uh but yeah this is
+20:49 neat um yeah and obviously we can uh
+20:52 sign out we can sign in with Google I
+20:56 can sign in with that same account that
+20:58 I was just using it should show all of
+21:00 my boards on the homepage this is all of
+21:02 the boards right here we can create a
+21:04 board test
+21:07 board good uh we will keep this one
+21:10 private and so we should right here we
+21:13 should see this this one that's private
+21:17 here it is and we can add
+21:22 text and yeah that is the
+21:27 app anyway
+21:29 um yeah that's what I made in One
+21:31 Singular CLA chat with the new template
+21:33 that I will be releasing later this week
+21:35 once we perfect it and make it perfect
+21:37 and uh yeah we're going to make it a fun
+21:38 experience and make a fun landing page
+21:40 for the template and we're going to
+21:42 teach you exactly how to set up your
+21:44 Claud project to get it to give you the
+21:46 perfect links and to dive straight into
+21:49 that template so you can create at
+21:50 whatever app that you want uh my name is
+21:52 Riley Brown and I'm going to become a
+21:55 senior developer without writing a
+21:56 single line of code and uh luckily I'm
+21:59 I'm just going to prove it to you I'm
+22:00 not going to I don't have to say
+22:02 narratives I have to be like oh look at
+22:03 the progress of AI I'm just going to do
+22:05 it I'm just going to do it right like I
+22:07 will do it uh right here on this channel
+22:09 so if you want to follow along with that
+22:10 I'm going to post all of the things that
+22:12 I build on my central website so I'm
+22:14 building out all of the websites of
+22:16 everything that I build and I'm just
+22:17 going to build stuff for the next year
+22:19 and a half and by the end of 2025 I will
+22:21 be a senior developer or code at a
+22:23 senior developer level except I will
+22:25 have never written a line of code I will
+22:27 only have used AI to write code
+22:29 and I've talked to some devs who
+22:31 actually think it's possible think it's
+22:32 going to be really hard work but I'm
+22:33 actually going to do it I'm going to do
+22:35 it I'm letting you know that and you can
+22:37 follow along with this journey uh and
+22:39 I'm not even saying I'm smart for doing
+22:40 it I think AI is about to just keep
+22:43 progressing and I love learning new
+22:46 stuff and so I'm just going to keep
+22:47 learning this skill and I'm going to
+22:49 document the whole process so thank you
+22:50 so much for watching I'll be making
+22:52 videos hopefully every day uh very soon
+22:55 I'm loving this series of just
+22:57 constantly building and learning it's so
+22:59 much fun for me I can't think of a
+23:00 better way to spend my time and so I
+23:02 will see you here in the next video much
+23:04 love peace

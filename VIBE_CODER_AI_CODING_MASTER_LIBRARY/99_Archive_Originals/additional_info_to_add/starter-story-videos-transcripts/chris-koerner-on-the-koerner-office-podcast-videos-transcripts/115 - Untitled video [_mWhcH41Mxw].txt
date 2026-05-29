@@ -1,0 +1,529 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=_mWhcH41Mxw
+Channel: Chris Koerner on The Koerner Office Podcast
+Video ID: _mWhcH41Mxw
+Transcript language: English auto-generated
+Downloaded at: 2026-05-25T23:53:08.598Z
+
+0:00 The craziest AI image editing tool that
+0:02 the world has ever seen has just dropped
+0:04 thanks to Google/Gemini. It's called
+0:06 Nano Banana. And yeah, editing pictures
+0:08 is cool, but starting businesses based
+0:10 on editing pictures is even cooler. So
+0:12 throughout the course of this video, I'm
+0:14 going to walk you through soup to nuts a
+0:15 toz exactly how to use Nano Banana, how
+0:18 to vibe code an app that can edit
+0:20 pictures with Nano Banana without any
+0:22 coding experience cuz I don't have any.
+0:23 And then how to scrape leads of
+0:25 potential customers and text them
+0:26 pictures that you edited for them on
+0:28 their behalf without their permission to
+0:30 get your foot in the door so they can
+0:31 become a customer of yours and pay you a
+0:33 lot of money every month to add value to
+0:35 their life. So let's get going.
+0:39 There are 2 million real estate agents
+0:41 in America and about 70% of them list
+0:44 homes for sale that either have bad
+0:45 pictures or pictures of homes that
+0:47 aren't staged. And that's a major
+0:49 problem because homes that are staged,
+0:51 as in homes that have furniture and
+0:54 decorations and everything in it when
+0:55 the pictures are taken sell
+0:58 faster than homes that are not staged.
+1:00 Furthermore, homes that are staged when
+1:02 they're listed for sale sell for 6 to
+1:04 10% more. We're talking about tens and
+1:06 hundreds of thousands of dollars of
+1:08 additional value for staging a home.
+1:10 Okay, so that's the problem. That's the
+1:12 pain point that we're seeking to solve
+1:14 today. And now with Nano Banana, we have
+1:16 a solution. Here's what the idea is. I'm
+1:18 going to use a vibe coding tool that
+1:20 uses Nano Banana on the back end to
+1:23 attach a prompt to a picture that is
+1:25 pulled from a home that is listed for
+1:27 sale on Redfin or Realtor.com. It's
+1:29 going to edit that picture according to
+1:31 my prompt. And then I'm going to
+1:32 proactively send that edited picture to
+1:35 the realtor that has that listing. How's
+1:37 the picture going to be different? Well,
+1:39 if they're not professional pictures,
+1:41 I'm going to use Nano Banana to make
+1:42 them look like they were taken with a
+1:44 DSLR expensive camera. Or if they are
+1:47 professional, but it's not a staged
+1:49 home, as in the interior photos have no
+1:52 furniture, no decorations, no artwork.
+1:54 I'm going to have Nano Banana add all
+1:55 that. And then I'm going to proactively
+1:58 give these pictures for free to the
+2:00 listing agent. That's my foot in the
+2:02 door to get his or her business for all
+2:05 of their listings, both present and
+2:07 future. Now, as long as your prompt is
+2:09 not too complex, which mine will not be,
+2:11 it costs about 3.9
+2:13 to edit one picture. If a listing has 30
+2:16 pictures, 10 of them are interior
+2:18 photos, it's going to cost me 39 to edit
+2:22 all of those pictures for the real
+2:23 estate agent. Now, if I educate that
+2:25 real estate agent and say, "Hey, what if
+2:27 I could charge you a buck per photo to
+2:29 make your home look staged or to make
+2:31 the photos look like they were taken
+2:33 with a DSLR camera?" That is the
+2:35 asymmetric bet of the century. You've
+2:38 got a 96% profit margin cuz you're
+2:40 charging a dollar and you're paying 4.
+2:43 They're only paying you $20 to increase
+2:45 the likelihood of their home selling
+2:47 faster and or for more money. What do
+2:50 they have to lose other than $20? And
+2:53 yes, I know what you're thinking. That's
+2:54 not enough money. We need to charge
+2:56 more. And don't worry, we will. I'm a
+2:58 capitalist. You're a capitalist. We're
+2:59 all on the same page. But I just want to
+3:01 prove that realtors are willing to pay
+3:03 for this service. All right, so without
+3:04 further ado, let's go ahead and build
+3:06 this app. It's going to be a web app
+3:08 only used by us for now. And I'm going
+3:09 to use Lindy to build it. I use Lindy
+3:11 for my AI automations, but they just
+3:13 added a vibe coding feature that I'm
+3:15 really loving. So, let's do it. Here's
+3:17 my prompt. use Gemini's Nano Banana API
+3:20 to build a very simple web app where I
+3:22 can upload up to 30 photos plus a prompt
+3:26 to have the pictures edited and then I
+3:27 can download the photos to my computer.
+3:30 I'm going to click the build apps button
+3:32 and we're off to the races. And while
+3:33 that builds, I want to show you two very
+3:35 cool things. First of all, here's what
+3:37 Nano Banana is capable of. I took a
+3:39 random picture off Zillow. I said, "Make
+3:41 this picture look more professional."
+3:42 Boom. Suddenly, this house has beautiful
+3:45 green grass. Okay, not bad. Not bad.
+3:48 Then I found another home that has a
+3:50 picture of this ugly living room with no
+3:52 furniture, no artwork. It needs to be
+3:54 staged. This is how simple my prompt
+3:55 was. Stage this room to look fully
+3:57 furnished and decorated. I know you
+3:59 didn't see it happen. You're going to
+4:00 have to trust me. It took 4 seconds to
+4:03 spit out this picture. Boom. Look at
+4:06 that. And it's the same room. It didn't
+4:08 hallucinate. It's got the weird tile on
+4:10 the floor right there. It has the
+4:12 opening on the right. It has the window
+4:13 in the middle. How much better does that
+4:15 look? And yes, potential buyers of these
+4:18 homes are going to be looking at
+4:19 pictures that make the home appear
+4:21 staged with furniture and artwork and it
+4:23 is not actually staged in real life. And
+4:25 yes, that's a bait and switch. But you
+4:27 know what? It doesn't matter. If I'm a
+4:29 potential home buyer and I see a
+4:31 beautiful home that looks staged and
+4:32 then I go see it and it's not staged,
+4:34 who cares? Am I going to get mad at
+4:35 someone? No. But I'm going to be more
+4:37 likely to go tour that home because it
+4:39 looked more beautiful because of the
+4:40 furniture in the picture. So don't
+4:42 overthink it. Overthinking is the enemy
+4:44 to just launching. Lindy asked, "What
+4:46 specific types of photo edits do you
+4:48 want the prompt to support? What file
+4:50 format should be supported? And do you
+4:52 need any specific styling preferences on
+4:54 this app?" And I said, "I'm going to be
+4:56 adding furniture to photos of empty
+4:58 rooms, all the common file types, clean,
+5:00 modern design." All right, we're going
+5:02 to time Lindy to see how long this
+5:03 takes. It's 438 right now. Okay, so I
+5:05 hopped over to chat GPT5 real quick and
+5:07 I said, "Which real estate website has
+5:09 the easiest API to work with if I'm vibe
+5:11 coding a web app that will pull pictures
+5:13 from listings?" If you're over here
+5:15 wondering like what is an API? What is
+5:17 your Don't worry. An API is just a
+5:19 language that software uses to talk to
+5:21 each other. If you get a notification on
+5:23 your phone, that was probably powered by
+5:25 an API. And you don't need to know what
+5:27 it means. You just need to know how to
+5:28 type it into your vibe coding app. Okay,
+5:30 while Lindy builds this app, I'm going
+5:32 to scrape some real estate agents phone
+5:34 numbers. Okay, I'm here in Scraper. I'm
+5:36 going to go to Google Google Maps data
+5:39 scraper.
+5:41 real estate agent.
+5:45 I'm going to go Oklahoma. Let's go
+5:48 Oklahoma City. Th000 max results. All I
+5:52 care about is the phone number here.
+5:54 Okay. Says it should take 7 to 25
+5:58 minutes. Okay. Lindy has a rough draft
+6:02 of what we're building here. Furniture
+6:04 room editor.indy.site.
+6:07 It's asking me to do something weird my
+6:08 with my API key. So, I'm going to have
+6:11 it just integrate that feature into the
+6:12 app. All right, here's how we get the
+6:15 API key. We are at a
+6:17 studio.google.com/appi
+6:19 key. We're going to click create API
+6:21 key. And my editor is going to blur this
+6:24 out so you don't make my life difficult.
+6:26 I'm going to create one in a new
+6:28 project. Okay, there it is. That's it.
+6:30 That's how you create an API key. You
+6:32 click create API key, then you click
+6:34 copy. That's it. It's as technical as
+6:36 this gets. Okay, Lindy said that it
+6:38 added a field for my API key. Obviously,
+6:41 this is not long-term scalable. I don't
+6:42 want it out there in the public. This is
+6:44 literally a private password that should
+6:46 never be shared. But honestly, I'm just
+6:48 trying to make a quick video right now
+6:49 and build a quick business right now
+6:51 before I go to a yummy Thai restaurant
+6:53 with my wife for our standing Saturday
+6:55 night. So, we're going to make this
+6:57 quick. Okay, here's what Lindy gave me.
+6:59 There's my API key. Cool, cool, cool.
+7:02 Let's add some room photos. I'm going to
+7:04 go to Oklahoma City on Zillow. Okay. And
+7:07 I'm going to try to just randomly find a
+7:09 home that doesn't look like it has
+7:11 professional pictures.
+7:13 Got them. That home needs some work. Oh,
+7:16 you know what? Let's throw a curveball
+7:18 real quick. Instead of taking an empty
+7:20 room and staging it, we're going to take
+7:22 an messy, ugly room. Well, we want to
+7:24 keep it ugly cuz that's going a little
+7:26 too far if we make a ugly room beautiful
+7:28 because that is a definite bait and
+7:30 switch and people will go tour the house
+7:31 and not be happy. But we're going to
+7:33 take a messy room. I've never tried
+7:35 this. It's the first time. We're going
+7:36 to take a messy room and make it clean.
+7:38 How about that? Okay. Save image. You
+7:41 know what? Let's do it with two photos
+7:42 because our app is supposed to do it
+7:43 with up to 30. So, there's a lot to work
+7:46 with here. These are messy rooms. It's
+7:48 terrible photos, bad lighting, etc.
+7:51 Okay, so we'll try it with two pictures.
+7:53 Go back to Lindy. Here's my prompt. Make
+7:56 these bedrooms appear more organized and
+7:58 less messy. But don't change the color
+8:00 of the floor or walls. It still needs to
+8:02 be the same room. make the pictures
+8:04 appear like they were taken with a DSLR
+8:06 with great lighting. How cool is this?
+8:08 So, I upload the photos and then there's
+8:10 a preview right here. I've got my
+8:11 prompt. I'm going to copy that just in
+8:13 case it glitches on me. And the submit
+8:16 button says add furniture to rooms. Now,
+8:19 I'm throwing it for a loop because
+8:20 that's not what I'm asking it to do.
+8:22 But, let's see. Okay, it went really
+8:24 fast. It took about a second per photo.
+8:27 2 seconds total. Either it glitched out
+8:29 or it's just really fast. Downloaded a
+8:31 zip file. All right, here's what it did.
+8:34 Drum roll, please. Oh, didn't change
+8:37 anything. The pictures are the exact
+8:39 same, but at least the the core
+8:41 functionality works. It just appears
+8:43 that it's not actually using the API cuz
+8:46 nothing changed. Let's go ahead and do
+8:47 the same prompt within Nano Banana.
+8:50 Upload the same two pictures and see
+8:52 what it spits out. There's a good lesson
+8:54 in this. You're building a business and
+8:56 you hit some friction. You will always
+8:58 hit friction. There will always be
+8:59 problems to overcome. You can go one of
+9:01 two ways with it. You can find a plan B,
+9:03 a workaround, something not as good, not
+9:05 as scalable, but it keeps the momentum
+9:07 going, keeps the progress. Or you can
+9:09 just say, "Me, I'm going to go look at
+9:11 Instagram." Or, "Next, onto the next."
+9:13 No, stop. Keep it going. Do things that
+9:17 don't scale. Believe it or not, 67% of
+9:19 the people that watch my YouTube videos
+9:21 don't subscribe to me. And over 90%
+9:24 think that they're subscribed to me. So,
+9:25 do me a quick favor and check that
+9:27 you're subscribed to me. If you're not,
+9:28 please do. It would mean a lot. All
+9:30 right. This is a little embarrassing.
+9:31 thing. I'm not going to lie. But I
+9:32 figured out what was happening with all
+9:33 these bugs. It wasn't using my API
+9:35 because my API wasn't ready to use yet.
+9:38 I had to connect billing. Took three
+9:39 clicks. Now everything's working. I
+9:41 redesigned the app a little bit. I made
+9:43 it more simple. Okay, here's what we're
+9:45 working with. Let's try this. I'm going
+9:47 to upload a picture and I'm simply going
+9:48 to say add add furniture. Now, this is
+9:52 my app. I just built this process. Okay,
+9:54 took about 12 seconds. And look what it
+9:56 spit out. Click to view isn't working,
+9:58 but whatever. Download it. All right,
+10:00 there we have it. It's gorgeous. It
+10:02 furnished the room. Okay, so my app is
+10:05 working. Now, we're going to go back to
+10:06 Outscraper and we're going to look and
+10:08 see if it's done. Done. Awesome. Okay,
+10:10 cool. Now, we're going to download it.
+10:14 Okay, let's go ahead and open up this
+10:15 data in Google Sheets. All right, here
+10:18 we are. I'm going to delete all of the
+10:20 columns that I don't want or need. I
+10:23 don't need any of this stuff. I want the
+10:25 name, the address, the phone number, the
+10:27 type of phone number, and good to go.
+10:29 All right, we only want cell phone
+10:31 numbers. We're going to highlight all
+10:32 these. Going to delete everything except
+10:35 mobile. And we're going to delete
+10:37 everything
+10:39 that is unclassified.
+10:41 Okay, we are left with 562
+10:45 real estate agents in Oklahoma City that
+10:47 have cell phone numbers. I no longer
+10:49 need this column because I know they're
+10:51 all mobile. I want to remove the
+10:53 duplicates. Data cleanup. Remove
+10:55 duplicates. Data as header row. Boom.
+10:59 Cool. 542 left. Awesome. Let's go ahead
+11:03 and remove the plus one and space from
+11:06 these so they can all be standardized.
+11:10 Awesome. Cool. Okay. Now, what we need
+11:13 to do is get all of these leads out of
+11:16 Google Sheets and into a CRM like
+11:18 Highle. I've used High Level for years.
+11:19 I love it. It's way cheaper than
+11:21 HubSpot, and it can do a bunch of other
+11:23 things as well. Okay, here's the leads.
+11:25 Remember, we've already scrubbed them.
+11:26 And we've deleted most of the columns.
+11:27 We're just going to hit file, download
+11:30 CSV. Then we're going to go into my
+11:32 highle account. We're going to click
+11:34 contacts, import contacts.
+11:37 Next, click to upload. Boom. We got to
+11:41 map them all out. Name, phone, street
+11:45 address, city, postal code, state. Cool.
+11:49 Easy enough. Next. Now, very, very
+11:51 important part of this process. I need
+11:53 to check this box. add imported contacts
+11:56 to a workflow. I'm going to show you
+11:57 that workflow in a minute. It's not hard
+11:59 to set up. Check the box and then I'm
+12:01 going to go to the workflow that I
+12:03 already set up for the purposes of this
+12:05 business of this video. Real estate
+12:07 staging new lead. And I'll show you how
+12:08 that works in a minute. Okay, very
+12:10 important that I do this correctly. I
+12:12 need to add tags to these imported
+12:14 contacts. I created a tag called real
+12:17 estate staging that will help me
+12:19 separate these contacts from other
+12:20 contacts I have in high level that I'm
+12:22 using for other initiatives. And now
+12:24 this specific tag is tied to a specific
+12:26 pipeline/workflow
+12:28 which I'm about to show you. So this tag
+12:30 is not just to keep me organized but
+12:32 it's to trigger an automation which I'll
+12:34 show you here in just a sec. Start bulk
+12:37 import. All right. Now I'm going to
+12:39 click on opportunities and then I'm
+12:41 going to hit this drop down here and go
+12:42 to real estate staging pipeline. Boom.
+12:45 Now you can see them coming in. Remember
+12:47 I uploaded about 450 something. Here
+12:50 they are. Okay. Now, I'm going to go
+12:52 find a home for sale in Oklahoma City
+12:54 that one of these realtors has listed.
+12:56 And I'm going to find one that has
+12:58 pictures that are not staged. Boom. Here
+13:01 we are. There was a $60,000 price cut,
+13:03 which means this probably isn't selling.
+13:05 And maybe it's not selling because the
+13:07 home is not staged correctly. I'm going
+13:09 to click on all the photos. Boom. Boom.
+13:11 Boom. I'm going to pick one. Cool. Let's
+13:14 pick this uh dining room right here.
+13:16 Save image as. Okay. Now, this is a
+13:19 little manual, but we can automate this
+13:20 later. As much as I love showing videos
+13:22 how to automate everything, it's really
+13:25 not important in the early stages
+13:26 because oftentimes we get so caught up
+13:28 in automating and perfecting and
+13:31 overoptimizing everything that we never
+13:33 actually get to launch the thing. So,
+13:35 automations and time-saving tactics can
+13:37 come later. So, part of this is going to
+13:39 be done in a non-scalable way just so we
+13:42 can get moving, so we can have some
+13:43 momentum under our feet. Okay, let's go
+13:45 into this app that I vibe coded. We're
+13:47 going to upload the picture and I'm
+13:48 simply going to say add furniture. The
+13:52 most simple prompt ever. While this is
+13:54 processing, let's go back to the listing
+13:55 and see who the listing agent is. Brenda
+13:58 Hawk. Okay, awesome. She should be in
+14:01 our scrape list, but there's a chance
+14:03 she isn't. Let's check. Okay. Boom.
+14:05 Picture's done. We're going to look at
+14:07 her right there. Looks a lot better.
+14:09 We're going to download it. Awesome.
+14:11 Now, let's go back into our contacts.
+14:14 There's Brenda right there. Perfect.
+14:16 Click on her name. We're going to scroll
+14:18 down here. Click on additional info. You
+14:20 can see a ton of custom fields in here.
+14:22 File upload. There it is. Real estate
+14:25 staging. That is the custom field that I
+14:28 added to all of these contacts. That is
+14:30 also a trigger. When I upload a photo to
+14:33 this real estate save staging section,
+14:37 it will trigger an automation to text
+14:39 that person. I'm going to show you how
+14:41 it works in real time. Upload a file.
+14:44 There it is. Click save. Okay,
+14:48 look at that. Okay, that's a text. Me
+14:52 uploading that file triggered a text.
+14:54 Let me show you how and where and why
+14:57 that text message happens. We're going
+14:59 to click on automation. These are some
+15:01 of my workflows. Real estate texting
+15:04 setup. And look, total enrolled one,
+15:06 active enrolled one. That's Brenda. I
+15:07 just texted her. Click on that. Here's
+15:10 how it works. Contact changed. Real
+15:13 estate staging has changed. Okay, that's
+15:16 the trigger. That was me uploading the
+15:18 photo that triggered this SMS. Hey,
+15:20 first name. I saw your listing here on
+15:22 Zillow and notice you didn't have a
+15:23 staging setup yet. I went ahead and
+15:25 mocked up a demo. Interested in more?
+15:26 Let's chat. And then it puts in a link
+15:29 to the picture. And then it will connect
+15:31 it to an opportunity, which basically
+15:34 turns it from a contact to a warm lead.
+15:37 And here's how I have the settings if
+15:38 you want to pause it and copy those.
+15:40 Now, when this happens, it will also
+15:42 update the pipeline, which I'll show you
+15:44 right here. You go back here,
+15:46 opportunities, real estate staging
+15:48 pipeline. Look at this. This is called a
+15:51 canban board. Companies like Trello and
+15:53 Pipe Drive do this really well. And so,
+15:55 as part of that workflow, it
+15:57 automatically moved her from just a new
+15:59 lead to a text sent. And then it'll go a
+16:02 step further. If over a certain time
+16:03 period she doesn't respond, it'll go
+16:05 into no response. And then I will
+16:06 automatically follow up. If she does
+16:08 respond, then it will go into response.
+16:11 If she calls me or I call her, it will
+16:13 automatically go to called. And then as
+16:15 she proceeds down the pipeline, maybe I
+16:17 give her some free samples. Maybe I sell
+16:19 her a few pictures. Maybe she joins a
+16:22 monthly recurring plan for 500 bucks a
+16:23 month for unlimited revisions to
+16:26 unstaged photos. I can continue moving
+16:28 her down the pipeline. And then I can
+16:30 assign a value to her as a lead or as a
+16:33 customer. So you can see the value of
+16:35 the total leads or total customers at
+16:37 any stage in the pipeline. Super cool
+16:39 stuff. If you click into the
+16:41 opportunity, you can create a task with
+16:43 automatic reminders. You can book an
+16:45 appointment through here. You can add
+16:46 notes. It's a CRM, right? But on
+16:49 steroids. And then if I want to navigate
+16:51 back to our conversation, our text
+16:53 conversation, I can just click that
+16:55 bubble right there and we're good to go.
+16:57 So that's a wrap. Nano Banana is pretty
+17:00 incredible. It's kind of fun to say
+17:01 that. and it unlocks a whole world of
+17:03 new business opportunities. This is just
+17:05 one of thousands. But just like in your
+17:07 hometown, there's a dozen auto repair
+17:09 shops. There could, should, and will be
+17:12 hundreds, if not thousands of agencies
+17:14 out there one day doing little tasks
+17:16 like these. Nothing is too niche.
+17:18 Nothing is too small anymore. We're on a
+17:19 planet with 8 billion people, and we're
+17:21 all connected by the internet. There
+17:22 could be a thousand of these agencies
+17:24 that just edits photos for real estate
+17:26 agents, and there'd still be room for
+17:28 everyone. If you want to take this a
+17:29 step further and you want us to do all
+17:31 the highle automations and pipelines and
+17:33 workflows for you or even build a highle
+17:36 website for you, we can help you with
+17:37 all that. I have a private community for
+17:39 people that are serious about building
+17:40 or starting a business. It's called TK
+17:42 Owners. You can find us at tkowners.com.
+17:44 And it includes a $97 a month highle
+17:48 account. We have a master account and so
+17:50 we can have unlimited sub accounts under
+17:52 us. So for $99 a month to be in TK
+17:54 owners, 97 of that is paid for if you
+17:57 use any of these highle features. In
+17:58 addition, you get weekly AMAs with me,
+18:00 weekly AMAs with podcast guests that
+18:02 have had a Slack group with over 400
+18:05 founders and founders to be in it, and
+18:07 all of these other features that you're
+18:08 going to enjoy the heck out of. So
+18:10 whether you join us at TK Owners or not,
+18:12 no worries. Just go do something. Just
+18:14 go launch something. You can just do
+18:16 things. So do them. Thanks for joining
+18:17 on the Kerner office. Would love your
+18:19 subscribe and a share. We'll see you
+18:20 next time.

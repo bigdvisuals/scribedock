@@ -1,0 +1,799 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=1SbngfzEhbA
+Channel: Greg Isenberg
+Video ID: 1SbngfzEhbA
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 What if there existed a free AI coding
+0:04 tool fully free? Well, it exists now.
+0:08 Google just launched Firebase Studio and
+0:12 it's completely free. It's tied in with
+0:14 Google Firebase and it allows you to
+0:17 take an idea, prototype it, and put it
+0:20 in the world. But there's a catch. It's
+0:22 not perfect. And in this episode, we do
+0:25 a sidebyside comparison of Google,
+0:28 Firebase Studio, and Lovable, and we see
+0:31 is it worth your time. So, enjoy the
+0:34 episode.
+0:36 [Music]
+0:45 We got Yonyi on the pod. He is a
+0:48 software engineer with like a 100,000
+0:50 followers because he shares a lot of
+0:53 sauce with how to vibe code. And today
+0:55 we are going to go through Firebase
+0:58 Studio, the new product by Google and
+1:00 we're going to see how good it is. So
+1:03 Yonyi, by the end of this episode of the
+1:06 Startup Ideas podcast, what are people
+1:08 going to learn? So, by the end of this
+1:10 episode, everyone should have a good
+1:12 idea of what this new Firebase Studio
+1:14 thing is, uh, what it's capable of, what
+1:17 it isn't capable of, and we'll even do a
+1:20 side-by-side comparison of um, putting
+1:23 in one prompt to both Firebase Studio
+1:26 and Lovable, and we'll kind of see the
+1:28 differences in what they are capable of.
+1:31 Cool. All right, let's let's, uh, let's
+1:34 give it a rip. I I will say I think
+1:36 Firebase Studio is free, right? Yeah. So
+1:39 Firebase Studio is completely free. Um
+1:42 this is a new offering. It came out like
+1:44 less than two weeks ago as of the time
+1:46 of this recording. So super new,
+1:49 completely free and this is uh Google's
+1:52 take on a app creating prototyping
+1:56 product. So pretty cool. All right,
+1:59 let's get into it. Um this is what
+2:01 Firebase Studio looks like when you show
+2:03 up. This is what you see here. Your
+2:05 workspaces like any previous projects
+2:07 that you may have uh created. Something
+2:10 that's really good that Firebase Studio
+2:12 did is they have a bunch of templates
+2:14 for projects. So you click here into new
+2:17 workspace and you see like all of these
+2:19 different templates. It's like
+2:21 boilerplate with best practices built
+2:23 in. So say you want to create a React
+2:26 app or a Nex.js JS app or some kind of
+2:30 mobile app, React Native, Flutter,
+2:33 whatever it might be that you're trying
+2:34 to create. Uh rather than having to do
+2:37 it completely from scratch, maybe you
+2:38 don't know the right way to set up that
+2:40 project. Maybe you don't know what the
+2:41 best practices are. Here you get a repo
+2:44 that's already set up with all that
+2:45 built in. So that's pretty good. Um
+2:48 something worth mentioning is like maybe
+2:50 not all the viewers know the difference
+2:52 between React and Nex.js and Vue.js.
+2:57 like maybe you just want a web app that
+2:59 does something. Uh Firebase Studio kind
+3:02 of assumes that you're a little bit more
+3:04 of a technical user. So if you show up
+3:06 to maybe Lovable or Bolt, you don't
+3:10 really need to know anything about
+3:12 different JavaScript frameworks, uh the
+3:14 differences, which one you may or may
+3:16 not. You just say give me an app that
+3:18 does XYZ. Um so here in Firebase
+3:21 immediately you can kind of tell this is
+3:23 a little bit for the more advanced user.
+3:26 Say that we want a React app. We just
+3:29 click React app. We'd give it some name.
+3:31 We'll call
+3:32 it demo
+3:34 project. Again, you choose if it you
+3:37 want JavaScript or TypeScript. A lot of
+3:39 vibe coders aren't going to know what
+3:40 that is. Maybe you don't care. Maybe you
+3:42 care. So, uh, worth calling that out. I
+3:47 mean, what is the difference between
+3:48 JavaScript and Typescript?
+3:51 Typescript is uh enforces types data
+3:55 types into your variables. So it's like
+3:57 uh it's another layer of safety built on
+4:01 top of JavaScript
+4:04 basically. So here you get a project.
+4:06 This is like your IDE. This is where you
+4:09 interact with your code. Um you see a
+4:12 lot of files. Again, you it probably
+4:16 helps to have some idea of of uh how
+4:19 code works or some familiarity with
+4:21 code. Otherwise, you're going to show up
+4:23 here, everything's red, underlined. You
+4:24 kind of freak out. There's a lot of
+4:26 things going on. So,
+4:29 uh that's kind of uh the vibe with
+4:31 Firebase Studio. There's some
+4:32 expectation that you know what you're
+4:34 looking at. And here immediately you can
+4:37 see a little web preview of this React
+4:40 app that it spit out. count is zero.
+4:44 Okay, so we have a little
+4:46 button. Um, Gemini is the model that
+4:51 uh Google created. This is all under
+4:54 Google obviously Firebase Studio. So if
+4:57 you want to do a Gentic code generation,
+5:00 it's with Gemini. So you have this
+5:02 little Gemini tab
+5:04 here. Um, you can select some models.
+5:08 Gemini Pro 2.5 is the more recent model,
+5:12 but it's fairly expensive or at least
+5:15 they're not going to give you access for
+5:16 free. So, you need to paste in a Gemini
+5:19 API key. Let me do that really quick.
+5:21 You can even click get a Gemini API key.
+5:24 Say you don't have one. This is all
+5:26 under Google. So, they have nice tight
+5:30 integrations like that. Quick break in
+5:33 the pod to tell you a little bit about
+5:35 Startup Empire. So, Startup Empire is my
+5:38 private membership where it's a bunch of
+5:42 people like me, like you who want to
+5:45 build out their startup ideas. Uh, now
+5:48 they're looking for content to help
+5:49 accelerate that. They're looking for
+5:51 potential co-founders. They're looking
+5:53 for uh tutorials from people like me to
+5:57 come in and tell them, "How do you do
+5:58 email marketing? How do you build an
+6:00 audience? How do you go viral on
+6:02 Twitter?" All these different things.
+6:04 That's exactly what Startup Empire is.
+6:06 And it's for people who want to start a
+6:09 startup but are looking for ideas or
+6:11 it's for people who have a startup but
+6:13 just they're not seeing the traction uh
+6:16 that they need. So you can check out the
+6:18 link to
+6:20 startupmpire.co in the description.
+6:22 Let's say we okay we have a super basic
+6:24 React app and let's say we want to turn
+6:26 it into a different app. Let's say we
+6:28 want an app
+6:31 where you
+6:34 can create me and modify this app into
+6:41 one that allows me to swipe on images of
+6:47 dogs and tells me what my preferences of
+6:52 dog breeds are.
+6:56 So, we're going to make a little Tinder
+6:57 for dogs, hopefully.
+6:59 Classic. Classic. A very classic starter
+7:02 app. Exactly.
+7:05 And to be clear, when you say Tinder for
+7:07 dogs, you're not talking about
+7:08 relationships with humans with dogs. No,
+7:11 we're just going to have like a hope I
+7:12 mean, we'll see. We're at uh Gemini's
+7:15 behest here, but we'll hopefully have
+7:17 little images of dogs and you can select
+7:19 what dogs you you want to own and which
+7:22 ones you don't want to own and it'll
+7:24 tell you something about your
+7:26 preferences. Maybe best case scenario.
+7:30 I will say this is my first time seeing
+7:33 this. Um it's a bit overwhelming just
+7:36 from a UI perspective. Definitely. Um,
+7:39 what I love about Bolt or Lovable or
+7:41 some of these others is that it's it
+7:44 just feels a lot more calm and like my
+7:47 heart rate is in is a bit higher right
+7:50 now. Like I feel like I'm going to do
+7:51 something wrong. Yeah. No, that's
+7:54 totally fair. And you have all these
+7:55 buttons and files and like there's
+7:57 totally a lot going on here. Maybe for a
+8:00 developer it's like more familiar, but
+8:03 you know, for the average person, this
+8:05 is like super overwhelming.
+8:07 Um, yeah. So, anyway, all right. Created
+8:10 some files or uh modified some files.
+8:13 Let's see what we got. Okay. All right.
+8:16 So, we got a dog. We
+8:18 can like or dislike it.
+8:22 And where are these images coming from?
+8:25 Yeah, that's a good idea. That's a good
+8:26 question. Let's
+8:29 see. These images are coming from dog.
+8:32 So, I guess Gemini just found some uh
+8:36 open API, public API of images of
+8:40 dogs. So, that's the vibe. Dog Tinder.
+8:43 It came up with that on its own. Okay.
+8:45 So, some like super simple app uh
+8:47 wireframes from a super simple prompt,
+8:49 but again, you're like in this view,
+8:51 there's a lot going on. It may be a bit
+8:53 overwhelming.
+8:55 Um, worthwhile disclaimer is that
+8:58 Firebase is Google's like backend as a
+9:01 service kind of platform. And so because
+9:04 now we're in Firebase Studio, we have
+9:06 all of these like one-touch fairly easy
+9:08 integrations into that Firebase
+9:11 ecosystem. So if you're familiar with
+9:12 Firebase or you're building with
+9:14 Firebase, this may be really nice. Uh
+9:17 for example, if you want to host the web
+9:19 app, you can one click more or less
+9:23 deploy this into
+9:25 um uh Firebase web hosting. Uh if you
+9:30 want to deploy to the cloud, you can do
+9:31 that as well. Google has GCP, Google
+9:34 Cloud, so you can quickly deploy into
+9:36 Google
+9:37 Cloud, Google Maps, Secret Manager. So
+9:40 again, it has these integrations within
+9:42 the Google ecosystem. So if you're a
+9:44 developer and you build with Google and
+9:46 you build onto Google Cloud, this could
+9:48 be really nice.
+9:51 Could you not do that on the Bolts and
+9:53 Lovables of the world? It's probably not
+9:55 as tightly connected into Google's
+9:57 ecosystem. Like lovable I think can has
+9:59 a Superbase integration. So lovable you
+10:03 can oneclick deploy or you know connect
+10:05 to databases in superbase but here
+10:09 um it's all
+10:12 Google products Google integrations and
+10:15 can you make the quick case on as to why
+10:18 firebase
+10:19 is you know maybe better in some ways
+10:22 than superbase.
+10:24 Yeah. So, Firebase probably gives you
+10:27 more control um into like the underlying
+10:30 Postgress SQL instance, I would imagine.
+10:33 Um again, it's for the more technical
+10:36 folks. So if you want just like a
+10:39 database, you don't know what database
+10:41 is under the hood, you don't care, you
+10:42 just need like a user table or something
+10:44 like that, you're building a consumer
+10:45 mobile app, you need some kind of
+10:47 backend something. Uh you probably don't
+10:50 need all of the complexities and
+10:52 functionalities inside of Google. Um but
+10:56 if you're, you know, a more experienced
+10:58 developer, you're familiar with the
+10:59 Google ecosystem, then this is uh
+11:01 probably a great product for you.
+11:04 Okay, so that's super brief. Firebase
+11:07 studio. So this is one way that you can
+11:09 prototype apps in Firebase Studio uh is
+11:12 with this sort of Gemini tab inside of
+11:15 this code editor view. You also they
+11:19 have something called an app prototyping
+11:21 agent and that's right here. So on the
+11:24 homepage it's kind of asking you to
+11:26 input a prompt here. We went through the
+11:28 new workspaces. We opened up a template
+11:30 and we kind of went the other way. This
+11:32 is there's they're sort of hinting that
+11:34 they prefer that you uh that you start
+11:38 here. And they have some sample prompts.
+11:41 So like a tipping calculator. What is
+11:43 that prompt? A tipping calculator app to
+11:45 help calculate a tip on a bill amongst
+11:47 friends
+11:49 or an expense tracker or a recipe
+11:53 generator. So this initiates a little
+11:56 bit of a different flow than what we
+11:58 saw. And this one will be a little less
+12:00 overwhelming. This one will be for maybe
+12:03 the less technical folks. Sort of more
+12:05 similar to what you would expect with
+12:07 Bolt or Lovable. And it's just a
+12:09 textbased
+12:11 interaction. So, what we're actually
+12:12 going to do here is we're going to use
+12:14 this prototyping
+12:15 flow. And in parallel, we're going to
+12:18 use lovable. And we're just going to
+12:20 take a prompt and we're going to throw
+12:21 it into both a super simple prompt like
+12:23 the way that you would talk to a human,
+12:25 not some kind of crazy uh meta prompt
+12:28 engineered thing. Just like build me an
+12:30 app that does something. So
+12:32 specifically, we're going to build an
+12:33 app
+12:35 uh like a budgeting app or an expense
+12:38 tracker app. So, so I have this
+12:44 prompt, a budgeting app that aggregates
+12:47 all transactions across financial
+12:48 institutions and displays daily, weekly,
+12:50 monthly spending as well as net worth.
+12:54 So, sort of like a personal finance
+12:57 tracker app. And we'll just throw this
+12:59 into Firebase Studio and we'll throw
+13:02 this into
+13:05 Lovable. All right. So, lovable usually
+13:08 takes a bit longer. So, we'll do that
+13:11 first and Firebase Studio usually a bit
+13:14 quicker to return
+13:19 something. All right. So, this again is
+13:22 that like app prototyping view. So, most
+13:24 people when they come into Firebase
+13:26 Studio, this is what they're going to
+13:27 experience um right off the rip. So, you
+13:30 see, okay, here's a plan for how we'll
+13:32 prototype this app. They're going to
+13:33 call it FINRA. You can edit this as you
+13:36 choose.
+13:38 I will say that's really this is really
+13:40 sick. Yeah, this is really Yeah.
+13:44 Uh daily spending view, display daily
+13:47 spending with clear categorization,
+13:49 weekly spending report, display weekly
+13:51 spending trends with comparison, monthly
+13:54 budget overview, net worth calculation.
+13:56 Okay, a bunch of
+13:58 things. And then you just click
+14:00 prototype this
+14:02 app. Interesting that they use the word
+14:04 prototype, not build.
+14:07 Yeah, they even call it the app
+14:08 prototyping agent. So, I think they're
+14:10 very they're very explicit that this is
+14:12 a prototype and then all further
+14:16 developments you do in that kind of more
+14:19 overwhelming, you know, code editor
+14:21 view. So, this is the only time you're
+14:23 going to really have this nice uh kind
+14:27 of simple view where you just speak to
+14:28 it like a human and it goes to write
+14:30 text. After this, once it takes you into
+14:32 the
+14:33 codebase, that's when you have the whole
+14:36 uh editor right
+14:40 there. Another thing worth noting is
+14:43 that in Firebase Studio, oh, okay, there
+14:47 you go. I was going to say that you see
+14:48 all the code as it's generated. So, like
+14:51 it shows you those files and and uh
+14:53 you're kind of more directly interacting
+14:55 with the code in Lovable, which has been
+14:57 over here cooking quietly. uh it doesn't
+15:01 show you any code. This is your
+15:02 experience. It kind of doesn't want you
+15:04 to deal with the code. It kind of just
+15:05 wants you to deal with the interface.
+15:07 You can see the code if you click here.
+15:10 It will show you the files that it's
+15:11 creating, but it hides that by
+15:14 default. So again, I think it's
+15:16 something to say about the uh different
+15:19 intended users perhaps of the two
+15:21 products. Well, I also think that that's
+15:24 everything I've seen so far from
+15:26 Firebase Studio has been very googly.
+15:29 meaning it's like very technical. Yeah.
+15:32 Um it it's like Android, right? You can
+15:35 customize it. Um it's not like Apple
+15:37 where it's like this easy, you know,
+15:40 abstract. Everything's abstracted away.
+15:42 For sure. So, some people will like it,
+15:45 some people some people will prefer it
+15:47 for sure. Um some people won't. Yeah,
+15:51 totally agree. So, um, Firebase Studio
+15:55 has a feedback ticketing system that
+15:57 like if you want to request a feature or
+15:59 you have feedback on some on some
+16:01 features, they have a whole board for
+16:03 that. And um, the number one feedback
+16:07 request, at least at the time that I
+16:09 looked, was please use Gemini 2.5 Pro
+16:13 for the app prototyping. It may not be
+16:16 using that by default.
+16:18 Uh Gemini 2.5 Pro is Google's latest
+16:21 hottest best model for code generation
+16:25 and it's actually quite good at
+16:27 generating UI whereas whatever it's
+16:30 using maybe Gemini 2.0 know, maybe some
+16:32 flash model. Uh, you'll see this like
+16:35 this is the UI that it just spit out.
+16:38 It's like plain
+16:39 HTML. Let's see. Lovable still
+16:42 cooking. And then you see in the corner
+16:44 we have an issue. So, at least it's nice
+16:47 that they surface issues in a way that
+16:49 you can see them without having to go
+16:50 into the code here. But like, what is
+16:52 this issue? React does not recognize the
+16:54 default active prop on a DOM element.
+16:57 like
+16:58 okay the probably the average person
+17:02 isn't going to know what to do with this
+17:03 right so they say I've detected an error
+17:06 want me to fix it and you can say fix
+17:08 error and hopefully it'll fix the error
+17:11 so so with uh with Firebase Studio
+17:15 there's some amount of that back and
+17:18 forth like if you get an error then it
+17:20 prompts you to fix it I think the same
+17:22 is is true for lovable but that's what
+17:25 we got okay so super simple
+17:27 UI, right? Not a ton of styling
+17:31 here, but approximately functioning,
+17:34 right? We have some numbers, net
+17:37 worth, daily, weekly, monthly
+17:40 spending. If we want to keep
+17:42 prototyping, we can keep prompting here.
+17:44 Let's say,
+17:45 uh, please make more dummy
+17:49 data. Please make more dummy data.
+17:52 Monthly budget. We're not really seeing
+17:54 a lot. No, no data to display.
+17:57 Please make more dummy data. A little
+17:58 bit of a stupid prompt. Didn't give it a
+18:01 lot to go off of. And we can kind of
+18:03 just see what it does with
+18:10 that.
+18:12 Weekly spending is
+18:15 empty. Monthly spending is
+18:21 empty. So, we can do like small tweaks.
+18:23 I don't think it's going to do dramatic
+18:26 um dramatic improvements to the UI, but
+18:31 we can try to do that as well. Let's
+18:32 check in on
+18:36 lovable. Oh boy. Oh, it's still okay.
+18:40 It's still
+18:43 going. Improve the UI to make it look
+18:47 more modern.
+18:50 Do you have the ability to give it a
+18:52 screenshot
+18:54 and make it, you know, for example,
+18:57 screenshotting the stripe.com
+18:59 website and then putting it Yeah, it
+19:02 looks like we can. Let's try that.
+19:04 Always a good idea to do that, I feel
+19:07 like. What do you think, Yony?
+19:09 Definitely. Yeah, definitely. A good
+19:12 website is mobin.com. If if viewers are
+19:15 unfamiliar, Mobin has like tons of UIs
+19:19 and screen interactions from all of your
+19:22 all of your popular websites. So, if you
+19:25 go to Mobin, you can get a ton of uh
+19:27 prototypes that you can screenshot and
+19:29 feed into your LLM. So, that's something
+19:31 I do all the
+19:33 time. See, can we drag? This is a Stripe
+19:37 landing page screenshot.
+19:40 Make it in the style
+19:44 of this
+19:48 screenshot. Cool. Let's check in on on
+19:51 Lovable. Okay. So, we have something
+19:54 over here. We have some animations out
+19:57 of the box. When the pages render in
+20:01 Lovable, they animate. Okay. So, it it
+20:04 looks a bit cleaner. There's some user
+20:07 interaction here.
+20:10 Yeah. I mean, it's
+20:11 objectively way cleaner. Yeah. There's
+20:16 like red and green
+20:20 transactions. Cool.
+20:24 Oh boy.
+20:26 You hate to see this. You hate to see
+20:29 this. So, we definitely confused the
+20:31 model that we're talking to here. We
+20:33 have like some combination of the Stripe
+20:36 landing page. They took verbatim a lot
+20:39 of the text from
+20:40 here. Um, and then our product down
+20:47 below. All
+20:50 right, cool. What if we want to make
+20:53 some kind of uh like user signin flow?
+20:56 We want some authentication. What if we
+20:58 want uh we don't want everyone to be
+21:00 able to see our transactions, right? So,
+21:02 we want some user signin flow. Make
+21:07 a
+21:08 user sign in
+21:12 [Applause]
+21:14 flow with register and
+21:18 login. Greg, what do you think here?
+21:20 What are we missing? What what how can
+21:22 we improve this lovable
+21:25 design? U just from a visual perspective
+21:28 or from a feature? Yeah. Yeah.
+21:31 Visual.
+21:35 Um, I think that from like a user
+21:38 psychology perspective, someone's net
+21:41 worth on a chart is an extremely
+21:44 addictive
+21:46 uh thing to look at. And I think that's
+21:49 going to drive daily loginins. And I
+21:52 also think that I mean this is a
+21:54 feature, but I also think that um how do
+21:58 how do you get people to share that net
+22:00 worth? Um, well actually I take it back.
+22:03 Bad idea. I was I was going to say
+22:05 sometimes, okay, this is, you know,
+22:07 enter Greg's mind here. Sometime I
+22:09 always think about dashboards of like
+22:11 how do you create something that people
+22:13 are going to share on social so that you
+22:15 get virality net worth not something
+22:19 that people are going to share. Although
+22:20 people share Stripe MR screenshots, so
+22:22 who knows? True. It's not it's not
+22:25 impossible. But we're not going to put a
+22:27 share button because that's maybe a bit
+22:28 too much. But if we can make this
+22:31 screenshot worthy with a net worth on a
+22:34 graph, I think that could be really
+22:35 cool.
+22:38 Let's just ask it to make it more
+22:39 screenshot worthy. I don't know what
+22:42 models lovable are using behind the
+22:43 hood, but they're really quite good. Uh
+22:46 to your point, like it's much more
+22:48 visually appe appealing than what we're
+22:50 getting right now out of Firebase
+22:53 Studio. Then Firebase
+22:55 Studio parsing ECMAS script source code
+22:59 failed. Can click fix error and hope it
+23:02 fix error. I've gotten into these sort
+23:04 of death loops with Firebase Studio
+23:06 where it's like error after error after
+23:08 error and it just surfaces the same
+23:10 error over and over
+23:11 again. So it's definitely capable of
+23:14 that. But honestly, like to their
+23:16 credit, once you have this platform
+23:19 built, you like the models, they improve
+23:21 over time. If they're not using their
+23:23 best models, they can plug those in with
+23:25 time. So, I'm bullish on on the future
+23:29 of this product. We're just so early.
+23:31 Like, we're 10 days in post launch. So,
+23:34 we're going to have a lot of this stuff.
+23:35 They're very explicit that this is
+23:37 alpha. There may be breaking changes or
+23:40 preview they call it. So I think that's
+23:42 just what you get from a free product 10
+23:45 days after
+23:46 launch. Use O. Okay. All right. So
+23:50 Firebase Studio I think we broke our app
+23:51 by asking it for user signin. Lovable I
+23:54 think is pretty good at implementing.
+23:56 Okay. So that looks a lot
+24:00 better. Some formatting issues here but
+24:03 net worth over time. Greg, we got you
+24:05 there. We have a sidebar. Thank you. My
+24:08 pleasure.
+24:10 Okay,
+24:11 cool. Now, let's see. User signin with
+24:14 lovable. I think it just prompt. Yeah,
+24:15 you have a little Superbase logo in the
+24:17 corner. It's pretty good at doing this.
+24:20 Setup user off with register and sign in
+24:26 flows. In my experience with Lovable, it
+24:29 does it it can oneshot this. It sets up
+24:31 the Superbase integration. you'll get
+24:34 like a a confirmation email to your
+24:37 email when you actually sign up for this
+24:39 little prototype app. So there you go.
+24:42 To get started, click on the Superbase
+24:44 button. Connect lovable project to
+24:46 Superbase. Let's just do that. We can uh
+24:49 create a new
+24:51 project. Okay, let's use an existing
+24:53 project project. Your app is now
+24:56 connected to Superbase. So that's what
+24:58 it feels like in lovable to connect to a
+25:00 real database is it just like takes you
+25:02 out into Superbase. You click a couple
+25:04 buttons and and now you're fully
+25:06 connected. Now we can ask it again to
+25:09 set up the
+25:10 O should be able to do it now.
+25:13 Meanwhile,
+25:15 Firebase, poor guy, I think he's cooked.
+25:17 So in the corner, you can switch to code
+25:20 from this app prototyping view. Let's
+25:22 say you get to a working prototype or
+25:24 something you're happy with or something
+25:25 that's fully broken and you're an
+25:27 engineer. So now you need to intervene
+25:28 and fix things. You go up here to switch
+25:30 to code and it'll take you back to that
+25:34 code editor view that we saw from the
+25:37 beginning. And uh presumably you're a
+25:39 developer otherwise you would have
+25:42 probably already freaked out and
+25:44 switched to lovable a long time ago. But
+25:46 say you're a developer and now you're
+25:47 here in the code view. you can go and
+25:50 fix those bugs that the prototyping
+25:51 agent was not able to
+25:56 fix. Setup o will follow both practices.
+25:59 Do you okay it asks some questions?
+26:04 Yes. So something I was thinking about
+26:07 is given that Firebase Studio is clearly
+26:10 tailored to the experienced developer
+26:13 like if you're not an experienced
+26:14 developer you're you have no business
+26:16 here. So if you are an experienced
+26:18 developer, why would you choose Firebase
+26:20 Studio over some other tools that are
+26:23 already out there floating around for
+26:25 experienced developers like Windsurf,
+26:27 like
+26:29 Cursor? And the best answer I could come
+26:31 up with is that if you love Google
+26:35 products and you love Google Cloud and
+26:38 you already build heavily into it and
+26:40 you're really into Firebase and you
+26:42 prefer it over like handrolling your own
+26:44 backends, then maybe you like this
+26:48 because it does have one-click
+26:50 integrations with those other Firebase
+26:52 products. So if you want to host it, you
+26:54 can just click a button, initialize
+26:56 Firebase hosting.
+26:58 But if you're an experienced developer,
+27:01 you're
+27:02 probably already reasonably good at
+27:05 deploying hosting to things on your own.
+27:08 So, it's sort of this middle ground that
+27:11 like if you want one-click deployments
+27:13 into Google
+27:15 Cloud,
+27:17 then maybe you're less experienced or
+27:20 maybe you just like the time savings.
+27:22 So, it's it's sort of for that like
+27:23 middle to experienced uh developer who's
+27:26 already familiar with the with the
+27:28 Google ecosystem. It's it's almost
+27:30 surprising that they launched this
+27:32 product to the public. Yeah, I think it
+27:35 was rushed to be honest. There were
+27:38 probably some internal and external
+27:39 pressures to get something out because
+27:42 like lovable technically launched over a
+27:45 year ago, but they had a they were
+27:47 called something else at first. I think
+27:48 it was like GPT Engineer. They had a
+27:51 couple of failed launches and then they
+27:53 had their real successful lovable.dev
+27:56 launch like four months ago and so
+27:59 lovable in 4 months this team small team
+28:03 of European developers. They went from
+28:06 like 0 to 20 million ARR or something.
+28:08 Recently I saw 17 million but that was
+28:10 already a month ago. So I mean these
+28:13 products are taking off. Cursor
+28:14 obviously fastest company to hit 100
+28:17 million ARR. So, I think there's just
+28:19 pressure for them to get involved. Uh,
+28:21 to their credit, Gemini 2.5 Pro is
+28:24 actually an extremely good model. Yeah,
+28:26 it's really good. I could see I say that
+28:30 not by saying I don't see like don't use
+28:33 Firebase Studio. I say it by I see where
+28:37 Firebase Studio is going to go. It's
+28:39 going to be a mega competitor to Cursor
+28:41 Windsurf 100%. They're probably going to
+28:44 have they're actually probably going to
+28:46 use models that are not even out to the
+28:49 public
+28:50 um realistically for for the future of
+28:54 Firebase Studio. That's what I think.
+28:57 And I bet they're you know I mean
+28:59 obviously they see what everyone's
+29:00 prompting, right? So the models are
+29:02 going to get smarter and smarter and
+29:03 smarter. So, I think it's, you know,
+29:06 just going through this for the first
+29:07 time, it might be fun to play with
+29:09 Firebase Studio, realize that it's
+29:11 probably not perfect today. Far from
+29:14 perfect, actually, and probably not
+29:16 worth really like developing on, but
+29:19 knowing that in like 6 months it might
+29:21 be fire.
+29:24 Yeah. And that's kind of been Google's
+29:27 story in this AI race of the last couple
+29:31 years. They've been an underdog. They
+29:33 like had a really rough launch to Gemini
+29:36 initially a year or two ago and uh you
+29:40 know Gemini 2.5 Pro is a banger of a
+29:42 model. So I think they're on the up and
+29:45 up. Um I'm bullish on where this product
+29:50 will go but yeah we're just so
+29:52 early. We're super early and it's going
+29:55 to be like a very high lever valuable
+29:57 product for them. It's going to bring a
+29:59 ton of users into the Firebase
+30:01 ecosystem. There's already an increasing
+30:04 amount of Firebase users in this like
+30:07 new consumer mobile app wave where you
+30:10 you want some simple mobile app and you
+30:12 need a backend to like track analytics
+30:14 or track some simple user data. Firebase
+30:16 is the thing that people are using now.
+30:19 So, you know, Google has a place in all
+30:21 of this. Um, I think that we're just
+30:24 super super early on Firebase Studio.
+30:28 It'll be interesting to do another video
+30:30 coming back to this in like a few months
+30:31 or six months and see how far things
+30:34 have
+30:35 come. Okay, so uh Lovable gave us some
+30:38 user O. We have a sign in and register
+30:42 flow. Let's register here. Registration
+30:45 complete. Please check your email to
+30:47 confirm your account. That's like a
+30:48 superbase feature uh that by default
+30:51 they do user authentication. I just got
+30:54 I'm not showing you my email now, but I
+30:57 just got on a different window. Um a
+31:00 confirmation from this app. Let's see if
+31:02 we can use that to sign in. Oh, maybe
+31:06 not because local host. Okay, so by
+31:09 default, I think that you actually
+31:10 probably want to turn that feature
+31:12 off the email authentication. But in any
+31:15 case, this is the
+31:17 product. So that's it. A little
+31:19 sidebyside, Firebase Studio and Lovable.
+31:21 uh what it can do, what it can't do,
+31:24 what users might expect if they uh
+31:26 stumble upon
+31:27 this out in the wild.
+31:30 I appreciate it, my man. I appreciate
+31:32 it. Thanks for taking us through sharing
+31:34 your you know, I love hearing how you
+31:37 think about it and how you and how you
+31:38 think about prompting. Um I'm going to
+31:41 include where to find you on social in
+31:44 the show notes so that people can follow
+31:46 you. I think you're trying to break a
+31:49 million dollars in revenue from all
+31:50 streams. You're building a software app.
+31:53 You're vibe coding. You're sharing the
+31:55 story. So, I'll include that. Anything
+31:57 else you want to leave people with? Good
+31:59 luck. Have fun. Um, I think that it's
+32:02 still so early uh in AI land. I think
+32:06 that there are still so many high lever
+32:09 opportunities that you can build apps if
+32:11 not with Firebase Studio today with
+32:13 Replet with Lovable uh to make real
+32:16 revenue and um yeah just play around
+32:19 with these tools and uh have fun. Yeah,
+32:22 I think that's a good point. I think um
+32:25 you know you have lovable, you have
+32:26 bold, you have replet those are sort of
+32:29 the more
+32:31 um friendly let's say friendly uh
+32:34 platforms for people who have ideas and
+32:37 want to see their ideas out in the world
+32:40 but who aren't technical um or not super
+32:43 technical at least. So,
+32:45 um I guess what's really cool is on the
+32:49 more advanced side, you have the wind
+32:51 surfs, you have cursor, now you have
+32:53 Firebase Studio, you have Tempo uh Tempo
+32:56 Labs. Um and uh there's just there's
+33:01 becoming this uh it's almost like
+33:05 choose, you know, choose what feels
+33:07 right to you. Um, so encourage everyone
+33:10 to go and play with all these tools and
+33:12 see what feels right for you. Yeah. And
+33:14 you can build real businesses off of
+33:17 this. You know, I mean, you've seen
+33:19 plenty of your guests have done
+33:21 this. They might feel like toys and you
+33:23 can definitely play around with them,
+33:24 but you can add a Stripe pay button and
+33:27 you can uh turn it into a real business.
+33:29 So, totally. Happy building everyone.
+33:31 Later, Y. Happy building.
+33:34 This.

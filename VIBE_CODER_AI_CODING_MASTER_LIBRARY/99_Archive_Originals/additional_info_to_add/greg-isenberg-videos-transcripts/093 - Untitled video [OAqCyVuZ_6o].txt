@@ -1,0 +1,938 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=OAqCyVuZ_6o
+Channel: Greg Isenberg
+Video ID: OAqCyVuZ_6o
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 Today we've got Josh on the podcast.
+0:02 He's going to tell the story of how he
+0:04 vibecoded an idea he got from
+0:06 ideabser.com and then sold it in 8 days
+0:10 for $15,000. It was a roller coaster
+0:12 journey. And the reason I wanted to have
+0:14 him on the pod is I want him to to teach
+0:18 you how you could do the same. And I
+0:22 just thought it was a really interesting
+0:23 story of how someone could take
+0:26 something from 0 to one and this whole
+0:28 age of ideas with AI. Enjoy the episode.
+0:34 [Music]
+0:40 >> Josh, welcome to the pod and uh I can't
+0:43 wait to hear what you have to say.
+0:45 >> Yeah, thanks for uh having me on, Greg.
+0:47 I'm pumped to talk shop.
+0:50 All right. So, maybe walk us through how
+0:53 this whole thing happened because it's a
+0:56 crazy story.
+0:58 >> It's absurd is what it is. Craig,
+1:02 >> like I don't know if you're numb to it,
+1:04 but like as an I was telling this to uh
+1:06 I went for coffee this morning. I was
+1:08 telling this to like a barista and he
+1:09 was like that's insane. Like guy guy guy
+1:11 guy guy guy guy guy guy guy guy guy guy
+1:11 guy guy guy guy guy guy guy guy guy
+1:11 steals an idea from the internet and
+1:13 then like ends up like flipping it for
+1:15 $15,000. Like what kind of world do you
+1:17 people live in?
+1:18 >> That's right. Yeah. I mean, yes. What
+1:20 world do we live in? Like there's Yes,
+1:23 we're in some sort of weird unicorn
+1:25 bubble. I feel like this entire story
+1:27 can be told in tweets. Um, and so that's
+1:31 sort of what we're going I'm going to
+1:32 attempt to do here. You posted on um
+1:37 what day was this? July 14th. So, this
+1:39 is 10 days ago. You tweet the about an
+1:42 AI agent that finds expired.com domains.
+1:46 So, I um I did not see this tweet
+1:49 initially. However,
+1:51 someone who follows me did. They they
+1:54 just tagged me with some, you know, with
+1:56 an emoji and uh and then I replied that
+1:59 I had plans this week cuz I I saw that
+2:01 tweet and I knew that I like it was
+2:03 going to eat at me. And then I tweet,
+2:06 let's see, where is it? Oh, that I'm
+2:08 building this. Yeah. So this is what the
+2:12 next day
+2:13 >> which by the way you know you know what
+2:15 you did here that I don't think a lot of
+2:17 people realize is you committed you you
+2:21 made yourself on the hook for doing it
+2:23 >> right. You publicly said I'm doing this
+2:25 thing.
+2:26 >> Yeah. I that's um that's my addiction to
+2:30 Twitter. So um I I just have to like
+2:33 it's a that's great content, right? Like
+2:35 if I if I say I'm posting about it. So
+2:38 like um my previous startup it's called
+2:42 bare metrics. It's like a business
+2:43 analytics platform. I sold it back in
+2:45 2020. Uh but like in 2013 2013 I think I
+2:50 had a very similar tweet where uh Stripe
+2:54 had just started like they were still
+2:56 really early days. Nobody had really
+2:58 built anything on their API other than
+3:00 just like integrating it for payments.
+3:01 But as far as like apps built on top of
+3:03 Stripe, nobody else had really done
+3:05 anything.
+3:06 So, like I made a tweet that said
+3:07 something like SAS or like Stripe
+3:10 Analytics
+3:11 uh company um I'm building it tonight
+3:16 like coffee brewed. This was like at
+3:17 like 700 p.m. or something. And um
+3:22 and that was the kind of thing that like
+3:23 I you know over the course of about two
+3:25 weeks or something I built this tool
+3:29 that ended up like I sold for like
+3:32 millions of dollars back in 2020. Like
+3:35 but that that resulted in this or it
+3:38 started the impetus for it was this
+3:40 tweet that I made and so like I find
+3:42 myself doing that a lot habitually where
+3:44 like if I think of something I'll tweet
+3:46 about it and then like that just brings
+3:49 up you know first customers a lot of
+3:51 times come from these kind of tweets
+3:53 like it's self- serving um to some
+3:56 extent and it does it does provide a
+3:57 little bit of accountability
+3:59 um
+4:01 but yeah so like the next morning at
+4:04 8:50. I tweeted about it. However, I had
+4:06 been up since I typically get up around
+4:07 like 4:30 or 5 in the morning and I had
+4:10 been working on it already at that
+4:12 point, like a few hours. Um, and so that
+4:17 was but that was 24 hours later I
+4:19 tweeted from your tweet. I I I committed
+4:22 to it basically and then I just kept
+4:26 tweeting about it in a thread and um and
+4:30 then by let's see what time was this 700
+4:34 p.m. that same day it was live. So um
+4:41 that was that was sort of like the
+4:44 from from your idea to the time that
+4:46 like I actually launched it was like
+4:48 less than 36 hours. I think
+4:50 >> people are going to want to know how you
+4:52 actually did that.
+4:54 >> Yeah. So, um the the nitty-gritty of
+4:58 like pulling that off. There's so many
+5:00 things here, right? Like you see in the
+5:02 in the thread here, I'm talking about
+5:03 buying domains like I first got theai
+5:06 that was available for name snag now. Um
+5:10 actually, let's this will be great. So
+5:11 let let's see if I can. Okay, so in
+5:14 Claude
+5:16 um finding names for stuff is just
+5:18 maddening um specifically when it comes
+5:21 to finding domains that are available.
+5:24 So what I've been doing is I have um a
+5:28 who is
+5:30 MCP
+5:32 um which we can talk about that if you
+5:34 want to that that's really getting into
+5:36 the weeds that will check the
+5:37 availability of domains right here in
+5:39 cloud chat but like let me let me give
+5:41 you an example. So, um, what I did
+5:44 before I even figured out name snag was
+5:46 like I have to figure out the name of
+5:48 something because if I can't if I can't
+5:50 like name the folder I'm going to put
+5:51 this stuff in or like when I'm
+5:53 generating code, I don't I can't
+5:55 reference the product like if I don't
+5:57 have a name for it, it will drive me
+5:58 crazy. So, like the very first thing I
+6:00 do is name the thing. Now, started doing
+6:03 this thing a couple weeks ago where I'll
+6:05 be like, um, I need
+6:10 to name
+6:12 an app that helps people find expired
+6:17 domain
+6:18 names.
+6:20 Come up with words related to
+6:24 find or
+6:27 uh snipe was I think one word
+6:30 um or acquire related to domains. So it
+6:36 comes up with 20 ideas here just right
+6:39 out of the gate. Fine. And then it
+6:42 should hit that who is. Yeah. So now it
+6:44 starts going through using that MCP to
+6:47 see what's available. So I just did this
+6:51 for I don't know 30 minutes or an hour
+6:54 or something where it does all this.
+6:57 It'll go through all 20 of them and then
+6:59 at the end it might be like I couldn't
+7:01 find anything or there's here are the
+7:03 three AIS. There were no dotcoms.
+7:06 And I'll just say 20 more, 50 more,
+7:09 whatever. And I'll do this until I've
+7:11 got 200 random things. And because it's
+7:15 all within the conversation of Claude,
+7:17 it every time it will basically
+7:19 summarize like, okay, after all this,
+7:22 here are all the dotcoms that are
+7:23 available. Here are here's the dotcoms
+7:26 and theis that are available. Like it'll
+7:28 just summarize it. It keeps summarizing
+7:30 it for me. and and it'll even give its
+7:32 opinion, you know, on like what's uh
+7:35 what's available, what's probably, you
+7:38 know, what's your best bet, like what's
+7:40 the best pick out of all these from a a
+7:43 naming perspective. Um, which pe people
+7:46 often tell me like
+7:48 their big, you know, they're always like
+7:50 the com's not available, the is not
+7:52 available, like all the good domains are
+7:54 thousands of dollars. And it's just not
+7:56 it's it's not true. like there is
+8:00 >> there are available domains that are uh
+8:04 snappy and catchy that you could get for
+8:07 ten tens of dollars,
+8:09 >> right?
+8:10 >> And
+8:11 my first reaction to when I saw your
+8:14 tweet, your quote tweet around I'm
+8:15 building this, it's called name snag, I
+8:18 was like this is going to crush um just
+8:22 because of the name. like the name is so
+8:25 good
+8:25 >> that sometimes like when you have a good
+8:29 name to something
+8:31 um it kind of sets a floor for how much
+8:34 it's worth just because of the name and
+8:36 the concept.
+8:38 >> Sure. I and and a lot of this stuff I I
+8:40 also have a background. I went to school
+8:42 for design. So like I have this
+8:45 um I look at everything through this
+8:47 lens of like oh will this work from like
+8:49 a branding perspective or some sort of
+8:52 design perspective like oh I hate like
+8:54 if something looks weird
+8:57 from a like the way that the word looks
+8:59 or something like there's this like
+9:00 mental block for me where if like man I
+9:02 just hate how that will probably look if
+9:04 I try to you know do a logo for that or
+9:07 something like um you know if if if one
+9:11 word ends in the letter P and the next
+9:12 word starts in a letter P. I know that's
+9:14 like that'll be just impossible from a
+9:17 branding perspective or something like
+9:18 that. So like a lot of times I'm I'm
+9:20 rapidly also thinking through branding
+9:22 stuff as well um as these things are
+9:24 coming up you know um but I mean like
+9:27 here yeah we found we found and that are
+9:32 available. So that was what I did with
+9:35 name snag, you know, I mean, and then
+9:36 but that's the thing with the clawed
+9:38 stuff is like because it's got this all
+9:40 this context, I could literally just be
+9:42 like three more and it'll repeat the
+9:45 whole thing and it's so easy. It's just
+9:49 ridiculous how easy it is to try this
+9:50 stuff out and to brainstorm this stuff
+9:53 um and get ideas. So like this is my
+9:56 favorite thing as of late for ideas uh
+10:00 because like I want the the some tldd to
+10:05 be available whether that's com.ai.app
+10:09 co I don't know whatever it doesn't
+10:10 matter you can try any of that stuff. Um
+10:13 so that was what um was the initial um
+10:20 let's see if any of those were
+10:20 available.
+10:23 Yeah. So,
+10:24 >> so I don't think people are using I call
+10:27 it clude. I don't think people are using
+10:28 code like this by the way.
+10:31 >> Um I haven't seen
+10:34 >> I never I really never used it until the
+10:38 MCP stuff.
+10:39 >> Yeah.
+10:39 >> Like that's that's really kind of what
+10:41 I'm sort of nerd out over chat GPT and
+10:45 specifically like 03 that model and like
+10:48 the deep research stuff.
+10:50 >> Yeah. So, but when I could start
+10:52 connecting this to other stuff,
+10:54 it that's sort of like made it click for
+10:56 me. And obviously I use the their their
+10:58 code stuff is what I is my weapon of
+11:02 choice for like actually building stuff.
+11:03 But yeah, the domain name the naming
+11:06 stuff.
+11:07 >> Incredible.
+11:08 >> Kills it for me.
+11:08 >> Kills it. Okay. So, you named it.
+11:10 >> So, I named it. Um, so let me switch
+11:12 back to
+11:14 >> You got a really good name. Step
+11:16 >> name. So,
+11:19 yeah. So, I got the.com and theai
+11:23 AI was available. I did the.com was like
+11:27 5,000
+11:28 I think and I did uh but they had a
+11:31 payment plan. So, I was like, "Okay,
+11:33 whatever. I have nothing to lose here on
+11:35 just paying a few hundred bucks a month
+11:37 on this thing and we'll see." Which, by
+11:39 the way, a lot of people don't realize
+11:41 that if you find a domain that is really
+11:43 incredible and is $5,000, $10,000,
+11:46 15,000, a lot of people will rent the
+11:49 domain to you.
+11:51 >> Yeah. Right.
+11:52 >> And a lot of the there it's in this
+11:54 particular case, it was uh it was listed
+11:56 on um it's adom.com atom.com.
+12:00 [Music]
+12:01 And like they it's already built in like
+12:03 I didn't have to go and like contact the
+12:06 seller or anything like that. out of it.
+12:08 It was essentially all automated.
+12:11 >> Um,
+12:12 >> which was why I was able to buy it that
+12:14 morning
+12:14 >> and then like buy I could use it that
+12:16 evening, you know, I was not having to
+12:18 negotiate a bunch of stuff or whatever.
+12:20 >> Um,
+12:21 >> but if you're vibe coding something and
+12:23 you're trying to do something similar to
+12:24 this,
+12:25 >> doing something like finding a great
+12:27 domain, maybe leasing it and then maybe
+12:30 flipping it is a really interesting way
+12:33 to think about it.
+12:34 >> Yeah. So, it it lowers sort of your your
+12:36 risk, right? Especially if you can lease
+12:38 it and not even make payments towards
+12:40 owning it. Like I mean there there are
+12:42 cases where you can the person who owns
+12:43 it was just like I'll just lease it to
+12:45 you whatever and then whenever you're
+12:47 done with it that's the end. That was
+12:49 still as 9:00 that morning. I got both
+12:52 domains that I wanted. Um
+12:55 so then I I just started building. Um
+12:59 and we can talk about that in a second
+13:02 here, but like you'll see. So what time
+13:03 was this at? That was at that was at
+13:05 11:30 a.m. I was talking about how I had
+13:08 already built the back end for it and
+13:10 then like a minute later I posted this
+13:11 first pass at a logo. So like what I'm
+13:15 doing is while I'm sort of vibe coding
+13:17 this thing and the the AI is running in
+13:21 the background building this stuff. I'm
+13:24 illustrator which you know you could be
+13:25 in Illustrator, Figma, Canva, whatever
+13:28 designing this thing. So the first thing
+13:30 I did and I don't let's see I had this
+13:33 idea of like the dot what was sticking
+13:35 in my head was the idea of like these
+13:37 are all you care about the the TLD that
+13:41 you're getting the com the AI whatever
+13:44 so let's focus on like a dot. So that
+13:47 was the the initial impetus for um
+13:52 this sort of like dot name snag thing.
+13:56 Um, I'm a sucker for like slightly
+13:58 rounded type faces. So, that was that
+14:00 initial idea. I was kind of going with
+14:03 this green. Um,
+14:06 then I started thinking, well, how does
+14:08 this look inside an avatar? Like, you
+14:10 know, a little square or a circle. So,
+14:11 we need something smaller. And then that
+14:14 led to like, well, what if we do
+14:15 something like, you know, this where or
+14:20 just a slightly more interesting dot.
+14:22 Um, then I cleaned that up a little bit
+14:25 and ended up on that. Um,
+14:27 >> which obviously slaps. Just obviously.
+14:30 >> Well, it just felt felt good. And I'm,
+14:33 you know, and I could blue is super
+14:35 cliche in the tech world, but like
+14:37 whatever. I I like the blue now that
+14:42 um I posted
+14:44 that on Twitter like here's my first
+14:46 pass and there's a guy named Derek who
+14:50 um has sort of like whenever I post
+14:53 these side projects
+14:55 um he's like hey man I made a logo for
+14:59 you. So and then I'll be like oh man
+15:01 that's legit. Send me a Stripe invoice
+15:03 link and I'll send you some money. So
+15:05 this has happened maybe like five times
+15:08 now where he does this and then I just
+15:10 give him money uh unprompted. Um so you
+15:13 know you can just do things and so so
+15:15 then he basically sends me this
+15:20 um you know which a little bit cleaner
+15:23 uh gets rid of the rounded stuff which
+15:25 is fine. I think it feels slightly more
+15:28 professional to me. And so uh so I bring
+15:32 the the logo mark into Illustrator this
+15:34 like in thing and then that sort of
+15:38 where we landed was like this this
+15:40 iteration is what made the site.
+15:42 >> So you have you have really good
+15:44 branding you you took a first stab at it
+15:47 and then someone you know did the last
+15:50 mile. So, I think the the lesson there
+15:52 is, you know, these people are out there
+15:55 and, you know, even if you're not a
+15:57 trained illustrator, like you can use
+16:00 tools to to to take a first stab and,
+16:04 you know, and then and then get get
+16:06 someone for not an exorbitant amount of
+16:09 money to take to to to to take something
+16:11 to the
+16:12 >> I I think people tend to overthink this
+16:14 and there were lots of people who were
+16:15 like, well, what what tool are you using
+16:17 to design the logo? Assuming that it was
+16:19 AI generated. Yeah.
+16:20 >> Um, which is fair and also completely
+16:23 valid to do. So there's no reason you
+16:26 can't just like ask Chat GPT to make you
+16:29 some logo, especially in the early
+16:32 stages.
+16:33 >> Yeah. But you need to have an idea. You
+16:34 need to have some
+16:36 >> conception, right? Yeah.
+16:38 >> Yes. You should you if you think put
+16:40 yourself in the shoes of like an art
+16:41 director or something, right? Or like a
+16:43 creative director who's like trying to
+16:46 uh give some directions. It was the same
+16:48 way with like, you know, in the chat
+16:49 there about coming up with domain ideas,
+16:51 like I gave a few words that I wanted to
+16:54 kind of like focus in on, right? So then
+16:56 it can just act like a thesaurus based
+16:58 on the wording or the tone and go from
+17:02 there. So like as with all things AI,
+17:04 the more context that you can provide
+17:06 it, the better it'll
+17:09 >> Yeah. And you might you might want to
+17:11 say like,
+17:13 >> you know, I you know, pretend, you know,
+17:15 this could be the prompt, like pretend
+17:16 you're a creative director. I look up to
+17:18 people like Josh Pigford from name
+17:20 snagging. Maybe I look up to, you know,
+17:23 Greg Eisenberg, late checkout idea.com.
+17:26 You use those,
+17:28 >> you screenshot those logos, you give it
+17:31 the context, and then see what it pumps
+17:33 out. Then you have to actually I saw
+17:36 this really good tweet today from
+17:39 Jordan Singer. Um, and he said,
+17:43 "Here it is." The new bottleneck is no
+17:46 longer doing the work. It's reviewing
+17:48 the work. I think that's very true.
+17:50 >> Yes.
+17:50 >> Um, so you'll review the work and then
+17:54 probably pass that off to someone who
+17:56 takes it to the to the last mile.
+17:58 >> Yeah. I there's um so you you briefly
+18:02 mentioned maybe there. So like on May at
+18:04 maybe uh there's four of us working on
+18:06 that product and
+18:09 um one of them is is I I'll say another
+18:14 engineer because I'm doing a ton of
+18:16 coding but he's the actual engineer like
+18:18 he's the the one who's actually really
+18:20 knows what he's doing on the engineering
+18:21 side. And so much of um our process
+18:25 between he and I is like I'll vibe code
+18:29 something super fast just to test out
+18:31 the idea or the UX behind it or whatever
+18:34 and
+18:35 then I'll code I'll code it then I'll
+18:39 push it to get and then he'll go in and
+18:42 like essentially clean up my my mess.
+18:45 So, like I'm passing off a lot of this
+18:48 to someone who's uh
+18:52 has a better idea of sort of like how
+18:54 this affects all the other parts of the
+18:55 code or whatever, you know. So, there's
+18:57 a lot of this handing off that happens
+19:00 >> um throughout the whole process, right?
+19:02 Even the logo here for name snag was
+19:04 handed off to someone who's
+19:08 can can probably do a better job.
+19:09 >> Yeah, that's right.
+19:11 >> Yeah, exactly.
+19:11 >> Okay, cool. So, we got that and then
+19:14 what happened?
+19:14 >> So, logo um
+19:18 so the and I'll walk I'm not going to
+19:20 just like cover all the tweets here, but
+19:21 I do think this plays a part in sort of
+19:24 the story here. So, um what you see me
+19:28 doing here is like I I post a poll about
+19:30 like how do we style the domain the
+19:32 domain? Do we do this, you know,
+19:34 capitalize the s lowercase whatever? uh
+19:38 post a screenshot of like proof that
+19:40 I've actually got something working. And
+19:43 this entire time is me making this
+19:46 almost this community effort on some
+19:49 level. Um
+19:52 to me what's super interesting about
+19:54 social is not just constantly
+19:56 broadcasting, right? Like it's a it's a
+19:59 the interactivity part. It's me posting
+20:01 something and someone has an idea. me
+20:03 posting something a logo and someone
+20:05 responds with a different logo. Uh, you
+20:07 know, it's uh someone saying like, "I
+20:10 like that feature. What if you did
+20:11 this?" And that's incredibly beneficial
+20:16 um both to me as I'm sort of doing this
+20:19 sitting here in a box by myself. Uh but
+20:22 it's also
+20:24 building up a bit of hype on the product
+20:26 itself. Um
+20:29 so I keep yapping about it. um
+20:34 and then get to the point where it's
+20:35 like, "Hey, we've launched." Yeah.
+20:37 Again, that was like 7:00 that night. Um
+20:39 basically, I worked on it for the better
+20:41 part of
+20:43 12 hours or so that day. And um but I
+20:47 think later that evening, like I stayed
+20:48 up another couple hours and was at I
+20:52 mean, we did $1,000 or something in
+20:55 revenue within a couple hours of of
+20:58 launching this thing.
+21:00 um and subscription stuff because I had
+21:04 just been talking about it all day,
+21:05 right? Like because I was posting polls
+21:08 and screenshots and uh asking for
+21:11 feedback on things. Um
+21:13 >> I think it's more than that in my
+21:14 opinion. I think it's when I zoom out
+21:18 you cuz I know a lot of people are going
+21:20 to be like, "Well, Josh has 50,000
+21:21 followers. Of course, he got $1,000 MR
+21:24 in like a in a few hours." But what if
+21:28 you look at I'm building Yeah, this I'm
+21:30 building this. Uh, click on that. Click
+21:33 on that. I just want to see how many
+21:34 impressions you got from that. 145,000.
+21:38 Like if you go to, you know, go to your
+21:41 Twitter your Twitter account. Like you
+21:43 don't normally get 145,000.
+21:45 >> Oh, right.
+21:46 >> You know what I mean?
+21:48 >> Yeah. Like
+21:50 >> like
+21:51 >> this is a this is like a big one and
+21:54 you're getting 11,000. go like to
+21:56 >> let's see buy cookies for breakfast.
+21:58 >> You know, you're getting you're getting
+22:00 in the single digit thousands of views
+22:02 >> and you got 145 times more impressions.
+22:06 Now, let's break that down. Why did you
+22:08 do that? What what happened? You jumped
+22:10 off a trend. Basically, you found a
+22:13 tweet that was going viral,
+22:15 >> right?
+22:15 >> In this case, it was about a startup
+22:16 idea.
+22:17 >> Yeah. and you quote retweeted it and
+22:21 >> which I did not realize this like mine
+22:24 my quote retweet
+22:27 uh got
+22:28 you know not as much as your as your
+22:31 original tweet but
+22:31 >> almost right
+22:34 >> um
+22:35 >> almost
+22:36 >> so it's like yes it very much though was
+22:38 like jumping on to
+22:41 uh that your your your tweet that
+22:44 started going quasi viral
+22:46 >> yeah So
+22:49 that's what people don't understand
+22:50 about these social platforms,
+22:52 specifically X too, is like find
+22:54 something you can there's tweets going
+22:56 viral every day and there's a startup
+22:58 idea related to
+23:01 um
+23:03 to that like I saw go to Brett from
+23:05 DesignJoys Twitter. So I I've had this
+23:09 guy on the pod once and here he said uh
+23:13 click the latest his latest tweet.
+23:16 So, there's this app that's going viral
+23:18 right now. I think it's making like two
+23:19 $300,000 a day of revenue, which is
+23:22 crazy, you know. Um, and he designed it.
+23:27 It's called Tea Dating Advice, and it's
+23:29 like an anonymous app to like basically
+23:32 score men that they go on dates with.
+23:34 And so, it's an obviously viral idea.
+23:36 And he says, "I'm the designer behind
+23:38 the mega viral tea dating app. If anyone
+23:40 wants to build the equivalent for men,
+23:42 my DMs are open. I have plenty of
+23:43 ideas." So there's yes, this guy Brett
+23:46 from DJ can go build this, but you can
+23:48 also quote retweet this and be like, I'm
+23:50 building this
+23:52 >> and then all of a sudden, how many views
+23:55 this guy, he just tweet, you know, it's
+23:56 gotten
+23:57 >> 55,000.
+23:57 >> Like all of a sudden, you're like
+23:59 siphoning views and then people are
+24:01 following along your story and then they
+24:03 become your first customers. As I was
+24:05 posting this stuff, there were, you
+24:07 know, I think there were a number of
+24:08 comments that talked about how like, you
+24:11 know, if anybody else is building this,
+24:12 like it's game over. Josh will like beat
+24:14 you to it. Um, knowing that I how fast
+24:17 I'll build stuff. And I think
+24:20 that the problem is most people
+24:23 overthink this stuff, right? Like I
+24:25 don't have some I have a skill set to
+24:29 building fast only if only because I've
+24:31 put in the reps to know how to build
+24:32 stuff really fast. So, here's a list of
+24:34 what is it? 78 projects over the past
+24:37 like 20 years of things that I've built.
+24:41 And and this doesn't even this doesn't
+24:44 include everything that like I built and
+24:46 then just shut down because I like or I
+24:48 didn't completely finish it because I
+24:50 realized, oh, this isn't going to work.
+24:51 Um like there was a Twitter bookmark AI
+24:56 processing thing that like I was
+24:58 building. got real close to finishing
+24:59 it, but then I realized, oh, I'm gonna
+25:00 have to spend $50,000 a month for
+25:02 Twitter's API to like actually make this
+25:04 work. So, that those things don't show
+25:07 up on this list here. So, like there's
+25:09 there's 78 things here on the list, but
+25:11 it's pro it's it's hundreds
+25:14 uh of of things where I've started
+25:16 something, right? So, I'm very good at
+25:17 like the zero to one for most things,
+25:20 like just starting something and seeing
+25:21 what happens. And so I've put in the
+25:24 reps and there's no reason someone can't
+25:27 take like go to like idea browser
+25:30 every day and just freaking build the
+25:32 thing. Even if you uh I told this to
+25:35 people who like new new um say freelance
+25:38 designers who are like well how do I how
+25:41 do I get clients? I don't have a
+25:42 portfolio. Well, just like make up
+25:44 stuff, man. See an idea for a company
+25:47 and just make a logo for it or design a
+25:49 website or design the app or, you know,
+25:51 do like Brett's doing where you have
+25:54 some idea and he so he's designed it. He
+25:56 didn't like build the app, but he
+25:57 designed it. Like you can do that. You
+25:59 can just do that, right? And there's no
+26:02 reason you can't take something the an
+26:05 idea of every day on idea browser and
+26:07 say okay here today this week I'm going
+26:10 to time box myself for the week to build
+26:13 this thing out and I'm going to tweet
+26:15 about it constantly annoyingly even and
+26:18 eventually you'll build up a following
+26:20 just around that even
+26:22 >> I was talking to someone who he's you
+26:25 know 16 17 years old and he wants to go
+26:27 to business school and I was like, "What
+26:32 does that even mean in 2025 to go to
+26:35 business school?" Like, what does that
+26:36 even mean? Like,
+26:37 >> you should go to shipping school,
+26:39 >> you know what I mean?
+26:41 >> And you should, you know, use idea
+26:44 browser, use or or just come up with
+26:45 ideas on your own. Like, use chat GBT.
+26:47 Like, whatever it is, just
+26:49 >> get the reps in to know how to,
+26:53 you know, take an idea from 0 to one.
+26:56 all the stuff that we're talking about,
+26:57 you know, the the like to us and to you
+27:00 Josh, like it's it's it's intuition, but
+27:03 you've built it over time, right? So,
+27:05 people need to build that intuition.
+27:08 >> Yeah. I think that there's everybody
+27:10 wants and it feels AI has made it feel
+27:14 like there's a shortcut and to some
+27:16 extent on some parts of it there are
+27:19 >> but the reason you know some of the
+27:21 questions people were asking or wanted
+27:22 to know from this podcast were like
+27:24 >> what you know do you are you using some
+27:26 sort of like boilerplate template for
+27:29 code or whatever which I'm not and like
+27:32 a lot of that stuff is just I just know
+27:35 how these things are going to work
+27:38 because I've done it so many times. And
+27:40 I haven't done it because I got paid to
+27:42 do it, right? Like, I'm not doing this
+27:44 working at some company or whatever. I'm
+27:46 doing it because I enjoy building stuff.
+27:48 And so I end up getting the reps in
+27:50 because I I'm obsessive about it. Um,
+27:54 and you you just do that and you talk
+27:57 about it and then, you know, yes, uh, my
+28:01 50,000 followers or whatever is helpful.
+28:04 That's that's a level of distribution.
+28:06 But like that came from me being on
+28:07 Twitter for
+28:09 since 2007,
+28:11 >> right? Like almost 20 years and just
+28:15 tweeting constantly uh about stuff. Um
+28:19 not saying that you need to like 20
+28:20 years to build up a following, but like
+28:24 you build up a community around the
+28:25 stuff that you're doing by just putting
+28:27 in the work. And yes, you can't really
+28:29 >> but I will say it was harder for us back
+28:32 in the day because
+28:34 >> we had to build followers and then then
+28:37 we had followers to distribute and that
+28:38 took a lot of hard work. Today
+28:40 >> with the for you
+28:42 >> sure for you didn't didn't exist.
+28:45 >> Didn't exist. Right. So there's people
+28:47 who have like
+28:49 >> the uh the tweet that went you know I
+28:50 think it was like one of the most viral
+28:52 tweets of all time. It's like share
+28:53 share a piece of lore. Did you see that
+28:55 tweet got
+28:56 >> Oh yeah. Yeah. Yes.
+28:58 Like go to that tweet.
+28:59 >> Absurd.
+29:00 >> Absurd. I think it got like 1.3 billion
+29:02 views. Um there it is. So
+29:06 >> 1.2 billion.
+29:07 >> Yeah. Give me a break. Like first of
+29:09 all, that person is getting
+29:11 what? Like like a check for half a
+29:14 million dollars. When I saw this
+29:16 account, I think it had 2,000 followers.
+29:18 >> Followers. Is it almost 30,000 now?
+29:22 >> Yeah. That was that was not possible,
+29:25 >> you know, even 10 years ago. Yeah. So,
+29:28 if I could summarize
+29:31 like my takeaway from your story is
+29:35 find good ideas or come up with good
+29:37 ideas. Um, figure, you know, pos
+29:42 have a positioning and brand in the
+29:44 market that's that sticks out. Bring
+29:46 people along for the journey. Um,
+29:50 and
+29:52 just keep trying to make it better.
+29:55 I I think there's people are so afraid
+29:58 of of putting out stuff that
+30:02 um you know there's that like that Reed
+30:04 Hoffman quote about like if you've
+30:07 launch something that's like perfect or
+30:08 whatever you've waited too late or
+30:10 something like that like like waiting to
+30:11 ship perfect software like you've
+30:14 already waited too long. You like you
+30:16 just have to ship stuff and
+30:19 uh a lot of it's going to look bad. It
+30:23 should it should almost by by definition
+30:25 should like be kind of gnarly. Um
+30:28 because otherwise you're starting to
+30:29 make assumptions about what people will
+30:31 use um what features they want when it's
+30:34 when we're talking about software. Like
+30:36 you just have to kind of do things and
+30:37 then see get feedback on it. Um and and
+30:41 like with namestack there was all sorts
+30:42 of feedback around people saying like
+30:44 well this doesn't work or like this is a
+30:46 bad idea which is fine like people are
+30:48 allowed to critique stuff. Um, but if
+30:52 anything that means like that's a good
+30:54 thing that you're getting that kind of
+30:55 feedback because it means people are
+30:56 paying attention. Um,
+30:59 >> before we head out,
+31:02 what what would you have done
+31:03 differently in this project?
+31:07 Um, I I don't know that I would have
+31:10 done anything different because I I
+31:11 really there's another tweet in here
+31:13 which it would take me 10 minutes to
+31:14 find, but like um so I posted this what
+31:18 what day of the week was this on? Um
+31:21 Whoops.
+31:24 July 15th was what was that like a
+31:27 Wednesday or something? Um
+31:32 that was a Tuesday. So that was on a
+31:35 Tuesday. That Thursday I uh I
+31:40 occasionally will like go up take the
+31:41 dog and go up to the mountain cabin in
+31:43 the mountains and just spend a few days
+31:46 kind of doing whatever. Um,
+31:49 so like that, uh, Thursday,
+31:53 uh, I went and I like spent the first
+31:56 couple of days just building out I I
+31:58 scrapped the entire first thing that I
+32:00 built, all of the code, and literally
+32:02 built it from scratch again on like that
+32:04 Thursday. So like two days later, I
+32:06 built version two of this thing. Um, and
+32:11 I think
+32:13 the
+32:15 keeping up like if I had not sold it, I
+32:17 probably would have kept that same
+32:20 mentality of like let's scrap it and
+32:22 like let's build the next iteration of
+32:23 this. And that to me that's what AI
+32:25 enables is this this sort of rapid
+32:28 iteration on things where you have an
+32:30 idea and then you realize,
+32:33 oh, here's some things that didn't work.
+32:34 Okay, well, you can just build it again.
+32:36 like it's not we didn't spend six months
+32:39 building some complex piece of software.
+32:42 Spent a few hours and not and I'm not
+32:45 tied to it. I now have learned I've got
+32:47 new information so let me just build it
+32:48 again. Um and to me like that's one of
+32:52 the big takeaways is is just
+32:55 you know I I I shipped two versions of
+32:57 this thing in like a 48 hour period. And
+33:00 um you can apply that to almost any side
+33:04 of business including marketing, you
+33:06 know, growth stuff, code, whatever. You
+33:10 just you just keep building stuff really
+33:12 fast and and don't get like tied to it,
+33:14 right? It's everything's not your baby.
+33:16 >> Amen, brother. So, people have asked you
+33:19 questions. We're going to go through
+33:21 three or four of those questions and and
+33:22 answer them.
+33:24 >> Cool. Let's see. So, somebody asked here
+33:26 about selling. So, this is actually a
+33:28 decent topic for us to talk about here.
+33:30 So,
+33:31 um they asked when I knew I should sell
+33:33 it or do I build to sell things. So, um
+33:38 first off, I don't I don't typically
+33:40 build anything to sell it. I build it
+33:42 because I'm trying to learn something.
+33:43 Like that's my motivation is I want I'm
+33:46 I'm teaching myself
+33:48 some piece of code um or some some
+33:52 concept, I guess. So, I don't build
+33:55 stuff to sell, but I do tend to assume I
+33:59 will not hold on to things for a long
+34:00 time. So, this is the same reason that I
+34:02 can build V2 48 hours later because I
+34:05 I'm not uh I'm not so married to V1 that
+34:10 I built and think that I've done
+34:11 something amazing. Like,
+34:13 if I've learned what I needed to learn
+34:15 from it, then like let's move on. Um,
+34:17 and that was the case for this. You
+34:18 know, your idea was like you could build
+34:20 a 1.2 2 million ARR business, which is
+34:24 entirely possible. I wasn't necessarily
+34:26 I didn't build it because I thought that
+34:28 I could make $1.2 million, right? So, I
+34:31 sold it for like $15,000
+34:34 uh eight days later. And it's 100% could
+34:37 have sold it for more, but like I'm not
+34:39 I wasn't building it to sell it. I
+34:41 wasn't building it to make $1.2 million.
+34:43 like I was building it because I wanted
+34:46 to learn um stuff about like who is
+34:49 records and then the ability for AI to
+34:52 like process um all this data and um you
+34:57 know semantic search stuff like super
+34:59 nerdy things that just happened to fit
+35:01 this project and that struck a chord for
+35:04 me so I decided to build it. Um, but
+35:07 that's sort of my motivation is almost
+35:08 exclusively for learning things. Um,
+35:12 more than anything. There's a couple
+35:14 questions about like selling it or like
+35:16 this person here's like leave money on
+35:17 the table and not list it on like
+35:19 acquired.com. Um
+35:23 I think there there one idea that I have
+35:27 had here is like it would be kind of
+35:28 interesting if I wasn't actually
+35:30 building a full scale sort of VC back
+35:32 startup also um along with all these
+35:35 side projects is uh it would be kind of
+35:38 fun to every week pick some idea build
+35:42 it out and then you just sort of sell a
+35:43 startup in a box. Um, I think there's
+35:48 this thing. So, in the past since 2023,
+35:52 in the past like 2 years,
+35:55 um,
+35:56 I've built all these different apps like
+35:59 sold for 8,000, sold for 25,000, sold
+36:01 for 5,000, sold for 12, sold for 24,000.
+36:04 Like, I think I've probably done I don't
+36:06 know close to $100,000 over the past
+36:09 couple of years just selling off random
+36:11 side projects that I built over the
+36:12 course of like a week. So, I think that
+36:14 there's
+36:16 if if your obsession is just building
+36:18 stuff, um you could almost make that
+36:22 your job, you know, like there's income
+36:25 to be had of just like taking an idea,
+36:29 building it, and then selling it. Um I
+36:32 think AI allows for a lot of that stuff.
+36:34 And there's people who don't want to get
+36:35 in the weeds on the AI, but do want a
+36:37 functioning tool, and you could sell it.
+36:41 Um to me, that would actually be kind of
+36:42 fun. Cool.
+36:45 That's the podcast, bro. We did it. I
+36:48 appreciate it. Josh, um, how many ideas
+36:51 did you say you've done? 70
+36:53 >> There's 78 on this list here on on my
+36:56 website.
+36:57 >> So, this is the Startup Ideas podcast.
+36:59 You're obviously the you're an idea
+37:02 person. You're one of us. I appreciate
+37:03 you coming on. If people want to follow
+37:06 Josh's journey, I will include links to
+37:09 all the places you can get to know him
+37:11 better in the show notes, uh, check him
+37:14 out. I told him before we hit record, I
+37:16 told Josh that he's my my ex crush of
+37:19 the week. Um, because I I recently found
+37:21 him and I've been I've been I've been
+37:24 consuming his tweets, loving it. So, um,
+37:27 you know, keep it up.
+37:29 >> Well, thanks for having me, Greg. This
+37:30 was a ton of fun. Later.

@@ -1,0 +1,1811 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=nyO60uzTnP4&pp=0gcJCQMLAYcqIYzv
+Channel: Greg Isenberg
+Video ID: nyO60uzTnP4
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 Howy Lou is an absolute legend. I mean,
+0:02 this guy started Air Table, half a
+0:04 billion in revenue, a billion dollars in
+0:06 the bank, growing quarter after quarter.
+0:09 So, he's one of those people that when I
+0:11 want to know where is the world going, I
+0:13 call Howie. This episode is structured
+0:16 into two parts. First, where is the
+0:19 opportunity when it comes to AI agents?
+0:22 I think that there's a trillion dollars
+0:23 up for grabs in AI agents. Does he think
+0:26 there's more? Does he think there's
+0:27 less? Spoiler alert, he thinks there's
+0:30 way more and we get into it. The second
+0:32 part of the episode is where he reveals
+0:34 hyperagent.com. Now, Hyperagent is an AI
+0:38 agent builder that allows you to build
+0:40 digital employees, allows you to build
+0:42 apps on different ideas, and I don't
+0:45 know why more people aren't talking
+0:46 about it. So, I had him just give us the
+0:49 tips and tricks for how to use Hyper
+0:52 Agent so that you can outperform 99.9%
+0:55 of people. I got good news. How is going
+0:58 to give you $1,000 of Hyper Agent
+1:00 credits, no strings attached. You just
+1:02 log into the account, there's going to
+1:03 be a,000 bucks right there to go and
+1:06 build the business of your dreams. The
+1:08 catch is first a,000 people do it, get
+1:11 the $1,000. He's committing a million.
+1:14 How crazy is that? Just writing a
+1:16 million-doll check of tokens to you, to
+1:18 the Startup Ideas podcast community to
+1:20 play with Hyper Agent, to automate some
+1:22 stuff, to do some research, to build
+1:24 their business. So, thanks Howie. You
+1:26 know, all I ask is you like and comment
+1:27 on this video. Show some love for Howie
+1:29 for doing such a cool thing. We need
+1:31 more entrepreneurs, more builders, and
+1:34 it's I'm stoked to see him support you
+1:36 all. Thank you to Air Table for
+1:38 sponsoring this episode. You guys are
+1:40 legends. Enjoy the episode and have a
+1:43 creative day.
+1:52 >> Feeling really lucky right now because
+1:53 we've got Howie. He's the co-founder and
+1:55 CEO of Air Table. And today we're going
+1:58 to talk about agents. He's going to do a
+2:00 little showand tell of his new product
+2:03 that I've been using for the last few
+2:04 weeks. Um, but first, Howie, I have been
+2:09 I haven't been sleeping very much to be
+2:11 honest.
+2:12 >> Agent psychosis.
+2:14 >> Yeah, exactly. And I've I I just need
+2:17 your reaction to some to just some
+2:19 things I've been thinking about.
+2:20 >> Yeah.
+2:22 So this chart over here it's by Sequoia.
+2:24 In what domains are AI AI agents
+2:27 deployed? You can see software
+2:28 engineering is at almost 50%, back
+2:30 office at 9%, marketing and
+2:32 copyrightiting 4%, sales and CRM 4.3%
+2:35 and down.
+2:36 >> When you see this like what's your
+2:38 reaction?
+2:39 >> I mean I think
+2:42 two things. One is I think it absolutely
+2:45 reflects the underpenetration of AI in
+2:49 industries that clearly could already be
+2:52 disrupted or benefit with even today's
+2:55 AI capabilities. Right? If you took like
+2:57 frontier agents today and deployed them
+2:58 into every one of these categories, you
+3:00 should get to 100%. And then two I think
+3:03 even the higher numbers like software
+3:05 engineering is actually kind of an
+3:07 overestimate meaning you know like as I
+3:10 think frontier developers and companies
+3:12 applying frontier agentic development
+3:13 practices are finding like you know the
+3:15 new model of software development is not
+3:17 even just like every engineer using AI
+3:20 autocomplete like tab autocomplete which
+3:21 like we all figured out like 3 years ago
+3:23 right u with even github copilot but
+3:26 it's now like you don't even need the
+3:27 IDE right like the way I develop on
+3:29 hyper agent is I have like 30 different
+3:31 cloud code instances running in parallel
+3:34 and each one is coupled up to like a
+3:36 browser fully autonomous. It can go and
+3:38 like get other agents to comment on any
+3:40 uh PRs it creates. And so like this
+3:42 modality shift of like you know no AI to
+3:46 like kind of what I would call gen one
+3:49 AI which is like basically like AI
+3:51 augmentation for still like very
+3:53 human-driven development workflows.
+3:55 Andre Karpathy talked about like you
+3:57 know in October November is when he
+3:59 completely inverted from like mostly
+4:01 still human written code with AI
+4:03 augmentation to completely the opposite
+4:06 right and that's what we've seen like
+4:07 the frontier companies leap into like I
+4:09 think even the 50% is an underestimate
+4:11 because the number of companies and even
+4:13 people who have switched into that new
+4:15 frontier mode is actually like you know
+4:18 definitely less than 50% of software
+4:20 engineering today right so I think what
+4:22 we're actually seeing is like the
+4:24 frontier is advancing so quickly and
+4:27 many companies and many industries and
+4:29 many functions are barely catching up to
+4:31 like the threeear ago state-of-the-art
+4:34 let alone like you know disrupting
+4:37 themselves and their you know and their
+4:39 industry with the new state-of-the-art
+4:42 >> right well I mean another way to think
+4:43 about it is like there's co-pilot
+4:46 territory these these charts are from
+4:47 Sequoia right there's co-pilot territory
+4:50 there's autopilot territory like
+4:52 >> how do you see you know you look at this
+4:54 right uh this, you know, this is what
+4:56 Sequoia says. There's a there's a
+4:58 trillion dollars up for grabs within
+4:59 agents. Yeah.
+5:00 >> Um but they're very different. What's
+5:02 your reaction to this?
+5:04 >> I mean, look, I I think um
+5:06 to me it's like these agents really
+5:08 reached a breakthrough
+5:10 >> really, you know, call it like four or
+5:12 five months ago, right? And
+5:14 >> um I think developers felt this with
+5:16 Opus. uh you know, Opus 4.5 just kind of
+5:19 set a new high water mark of like, wo,
+5:21 this thing for the first time like
+5:23 really feels like a true software
+5:26 engineer that's able to work like on a
+5:28 task that would have taken a real human
+5:30 engineer like maybe many hours if not
+5:33 days. It can go do it completely
+5:34 autonomously and it ships me a perfect
+5:36 clean PR that I can just review like a
+5:39 you know like a reviewer would, right?
+5:41 And I think that that experience is
+5:43 going to be unlocked and already is
+5:46 unlockable across every single other
+5:48 domain, right? Because we kind of just
+5:50 reached this point where like the models
+5:52 are more than smart enough, right? Like
+5:53 you talk to these models even in like a
+5:56 more synchronous like chat interaction,
+5:58 not like an autonomous agent interaction
+6:00 and you like you can ask it the most
+6:02 advanced things, give it like really
+6:03 complicated subject matter content,
+6:06 right? like management consulting, you
+6:07 give it like, you know, kind of some
+6:08 some really hard meaty problems in the
+6:10 context thereof and it gives you really
+6:12 smart answers that truly are like expert
+6:15 level. And so it's clear that the model
+6:17 intelligence is there. The models are
+6:19 smart enough also to kind of coherently
+6:21 execute across multiple terms with lots
+6:23 of tools and and context. And so I think
+6:26 it's more of just a matter of how and
+6:29 how quickly we can deploy agents into
+6:32 every role in industry before we can
+6:35 like truly just almost do anything that
+6:37 humans could do in each of these
+6:39 functions with agents. And I mean the
+6:41 TAM for that is like not even a
+6:42 trillion. It's like probably like the
+6:43 whole GDP of like all white collar labor
+6:46 which is like obviously many tens of
+6:47 trillions, right? Like in in even like
+6:49 the western hemisphere alone,
+6:51 >> right? which is sort of like I don't
+6:54 understand how you're not how people
+6:55 aren't motivated to create startups
+6:58 right now in that sense like the person
+7:00 listening to this is like
+7:01 >> yes yes yes Howie you know um but it
+7:04 just feels like you know I can't think
+7:06 of a better time to be creating a
+7:08 startup than now
+7:09 >> totally when this right
+7:10 >> I think like I mean yeah I think the
+7:12 weird thing is like it's almost like
+7:14 using is believing right like it's
+7:16 really hard to fully gro the power here
+7:19 if you haven't actually gone and
+7:21 hands-on, spent like at least a full
+7:23 weekend playing with agents, right?
+7:25 Like, and that means more than just a
+7:26 superficial like you did like some naive
+7:28 like oneshot thing like, "Hey, like you
+7:30 know, who's going to win the next
+7:31 presidential election?" Like kind of
+7:33 question that you could have asked a
+7:34 chatbot. Like, I think people are not
+7:36 actually coming in and they're doing
+7:38 light experimentation. They're not
+7:39 actually putting an an am am am am am am
+7:41 am am am am am am am am am am am am am
+7:41 am ambitious enough prompt or task in
+7:44 front of the frontier agents and they're
+7:46 still kind of using it like they use gen
+7:48 one chat bots and like until you
+7:52 actually experience the full power and
+7:54 autonomy of these frontier agents um you
+7:57 know I think it's hard to fully
+7:59 extrapolate like what types of companies
+8:02 can be built now that weren't possible
+8:03 before structurally how could you build
+8:05 like a multi-billion revenue business
+8:07 with one human and like hundreds of
+8:10 agents, right? Like you have to use it
+8:12 to to get it.
+8:13 >> Also, you know, this is another chart I
+8:15 can't stop thinking about, which is the
+8:17 uni unic economics just absolutely
+8:19 crushed when you look at a human a human
+8:21 human person versus an AI agent and what
+8:24 a cost like you can create some serious
+8:27 gross margin businesses on top of this.
+8:29 >> 100%. And this is the funny one because
+8:33 you know I've seen kind of you know a
+8:35 lot of people like complain about the
+8:37 the cost per token of the frontier
+8:39 models right so like opus 4.6 now 7
+8:42 clearly the most expensive model right
+8:44 um you know and then like GB 5.4 are
+8:46 very good still kind of expensive even
+8:49 open source like you know like it's
+8:50 cheaper but like it's not free right and
+8:53 I think like people you know are some
+8:55 people are struggling I've seen to like
+8:57 you know adapt to this mental model of
+8:58 like you know in the old days of
+9:00 software like a lot of stuff was free
+9:02 like you could get like I mean even
+9:04 chatbt has a free version right that you
+9:07 just use however much you want you get a
+9:08 cheap dumb model but like you're not
+9:10 expending that many tokens cuz it's not
+9:12 actually doing like autonomous
+9:14 multi-turn work and expending like a
+9:16 billion tokens like every few days,
+9:18 right? Like it's much more token cheap
+9:20 or token token lean. And I think that
+9:23 like we have to get over this hump of
+9:25 like, you know, anchoring our price
+9:27 expectations for AI on like traditional
+9:30 subscription software where it's like,
+9:32 oh my god, I have to pay like 20 bucks
+9:34 for like Netflix per month now instead
+9:36 of like whatever it was $12.99 before.
+9:39 And instead, think of this as like,
+9:40 yeah, like to your point, like how much
+9:42 would it have cost a human to do the
+9:44 thing, right? like you know if I wanted
+9:46 to go and like create an entire
+9:48 marketing campaign um or actually in my
+9:51 you know CEO CEO role like it's funny
+9:53 like one of our recent uh board memos
+9:55 that I wrote uh and sent out to our
+9:57 entire board and and kind of major
+9:59 investor list like you know a lot of it
+10:01 was researched and crafted by hyper
+10:03 agent right obviously with like my you
+10:06 know kind of instincts and context and
+10:08 whatever imbued into the agent um and of
+10:10 course I I oversee it at the end but
+10:12 like I got feedback that that was the
+10:15 best memo from some of our best
+10:16 investors that I had ever written. And
+10:18 I'm like, "Yeah, like you know, because
+10:19 an agent did it. And by the way, I got
+10:21 to do it in like 10 times less time."
+10:23 And so, like, even if it cost me, let's
+10:26 call it like $150 of tokens to generate
+10:28 that output, like think about the
+10:30 opportunity it cost my time. And so, I
+10:32 think that is a real reframe moment
+10:34 that's needed. um is let's think of this
+10:36 as like what is the human equivalent
+10:38 time cost versus wow $150 that sounds
+10:42 really expensive versus like a $10 per
+10:44 month sub
+10:46 100%. Yeah. I think uh the way I always
+10:49 think about it is like I anchor it
+10:50 around value, right? What's the value
+10:52 I'm getting out of that? I mean the
+10:54 truth is with your you know your board
+10:56 deck or whatever like
+10:57 >> it probably was the best out you know it
+11:00 probably was the best because you had
+11:01 you had so much research support. Yeah,
+11:04 totally.
+11:05 >> Um, two more quick graphs and then I
+11:08 want to get into uh hyper agent.
+11:11 >> Um,
+11:12 percent of enterprise apps with embedded
+11:14 AI agents.
+11:16 >> Um, you know, this is the fastest
+11:19 adoption curve in enterprise history,
+11:21 right? So like when you see this,
+11:23 >> you know, how do you react?
+11:26 I am not surprised and I think even this
+11:30 reflects the pace at which like
+11:32 incumbents can even like integrate AI
+11:36 into their products, right? And I think
+11:37 even that is like stmmied by like just
+11:40 incumbency and like you know kind of how
+11:42 how seriously did enterprises um you
+11:45 know uh enterprise apps or enterprise
+11:46 app makers or internal app teams like
+11:49 take this. I think the real show of how
+11:53 profound this growth curve is is like if
+11:55 you take the aggregate revenue created
+11:57 from from zero of all the leading AI
+12:00 companies right or companies like doing
+12:02 AI things like take open eye and
+12:03 entropic alone right let's just say they
+12:05 have a combined revenue probably of like
+12:07 80 million uh plus right or 80 billion
+12:10 sorry plus right now up from like
+12:12 basically zero a few years ago like what
+12:16 in in the history of software like has
+12:19 there ever been an industry where like
+12:22 any company let alone like or even in
+12:25 aggregate like you know across all the
+12:27 companies you got a category that went
+12:29 from zero to like you know 80 billion
+12:31 plus right and that's not even including
+12:33 like all of the other AI providers
+12:36 inference uh inference providers and
+12:37 like you know tooling etc like out there
+12:40 like the the revenue of like I think the
+12:43 AI category is an even sharper curve and
+12:46 I think that really reflects like just
+12:48 how profound this lightning in a bottle
+12:50 is
+12:51 >> totally and just from an opportunity
+12:52 perspective it's like you know selling
+12:54 to these enterprises and helping them
+12:56 figure it out and and and just you know
+12:59 helping them transform is just you know
+13:01 a huge a huge uh opportunity
+13:04 >> totally I think it's like probably the
+13:05 one like one of the bigger cash grabs in
+13:09 like business history is you know there
+13:12 there's kind of two angles I think that
+13:14 you know to create uh a very valuable
+13:16 business right now with with AI as a
+13:18 wedge right one is PLG And obviously we
+13:20 see a lot of these like PLG products. I
+13:21 kind of put OpenClaw itself in this
+13:23 category because even though it's like
+13:24 not actually like a monetized business
+13:27 like it is getting this massive amount
+13:28 of adoption, right? And and uh you know
+13:31 just the raw token consumption through
+13:32 OpenClaw is I'm sure in the many
+13:35 hundreds of millions if not billions
+13:36 already, right? Um and and likewise
+13:39 other other products in the PLG genre.
+13:41 So that's one way just like let people
+13:43 use the AI thing that actually works and
+13:45 you're going to get profound growth. But
+13:46 the other is like to come in top down
+13:48 Palunteer style. This is why opening eye
+13:50 and anthropic and like you know the the
+13:52 big guys are also doing it. There's new
+13:54 companies as well going after this
+13:55 opportunity which is go pitch to every
+13:58 enterprise board and CEO like we will
+14:01 fix your AI problem. Pay us a massive
+14:04 check like give us a $100 million plus
+14:05 check and we will purportedly solve your
+14:08 problems for you. Like that is a
+14:10 existential
+14:12 like risk mitigation that like every
+14:15 large company incumbent should be
+14:17 willing to pay because frankly like the
+14:18 CEO's choice is like either I pay it and
+14:20 I risk wasting $100 million and maybe
+14:23 getting fired over it or like I don't do
+14:25 anything with AI and I'm definitely
+14:27 getting fired over it. So on a game
+14:29 theory level, it's like everybody's
+14:31 going to pay it right now. whether that
+14:33 actually results in like long-term
+14:34 substantial structural like you know
+14:37 kind of transformation to the business
+14:39 that probably could be run now with like
+14:41 five people maybe instead of like 50,000
+14:44 right in some cases. Uh that's a bigger
+14:47 question.
+14:48 >> Yeah. And and this this is uh you know
+14:51 it sort of speaks to my my last point
+14:53 too which is like if you can help a
+14:55 company uh you know run a fleet of 20
+14:58 agents doing customer intel content
+15:00 production competitive research lead
+15:02 enrichment like all these different
+15:03 things like this is the future of work
+15:04 like in one image right an agent command
+15:07 center right yeah
+15:08 >> so when you see this your reaction
+15:11 >> I mean look that literally is a view in
+15:15 hyper agent uh I look I feel like I'm
+15:17 looking at a hyper agent And I think
+15:18 this is the future right like we are
+15:20 building towards a world where you know
+15:24 it may not be that every company is like
+15:26 literally one person right and we have a
+15:28 lot of like one person companies you
+15:30 know but I do think like every company
+15:32 will have a fleet of agents and you know
+15:35 what's interesting to me is actually
+15:37 that like you know agents are converging
+15:40 on like these purposeful like they
+15:42 almost map to job roles that humans were
+15:45 playing right and you know maybe It's a
+15:48 little bit like why are why are robots
+15:50 like hardware robots converging on a
+15:52 humanoid for form factor? And part of it
+15:55 is like well like a lot of the
+15:56 infrastructure of everything we have in
+15:59 our homes in construction sites in in
+16:02 factories are built for human
+16:04 ergonomics. So for the robot to
+16:06 effectively you know kind of um just
+16:09 kind of insert themselves seamlessly
+16:11 with the current infrastructure they
+16:13 have to kind of have human scale you
+16:15 know kind of capabilities right and so I
+16:17 think there's a kind of very similar
+16:18 phenomenon happening with agents which
+16:20 is it's not like I guess like 5 years
+16:23 ago when people talked about super
+16:24 intelligence I always imagined like
+16:26 there's going to be just like like this
+16:29 single omnipotent like AI that just like
+16:32 figures everything out and looks
+16:34 everything all at once like everything
+16:35 everything everywhere all at once right
+16:37 and I think now like I'm more and more
+16:39 of the belief that like there are going
+16:42 to be fundamental
+16:44 and and always you know kind of present
+16:46 limitations on like context windows for
+16:48 instance right I I just don't think
+16:50 we're we're ever going to get to a point
+16:51 to where like a an AI model can like
+16:54 have infinite context window right and I
+16:56 think there's like a physics to that
+16:58 right like you can just literally only
+16:59 have so much attention and like so much
+17:03 you know context at once. And you know,
+17:05 I think what that means is that like for
+17:07 the same reason why we partition humans
+17:09 into different roles and or structures
+17:12 so that not everyone in a company has to
+17:14 know everything and work on everything
+17:16 all at once. Like I think the same is
+17:18 true for agents and so hence like you
+17:20 get this like overview of agents that
+17:23 actually maps like to kind of intuitive
+17:26 human played roles really well and
+17:29 that's the really kind of interesting
+17:30 emerging phenomen phenomenon for me. You
+17:32 know, I just uh recently like spent um
+17:34 some time playing around with
+17:35 paperclipip, which was kind of fun uh
+17:37 because it literally creates the org
+17:38 chart metaphor. Um but I think this is
+17:41 really exciting, right? Where
+17:44 >> it's in a way it's it's both familiar
+17:46 because we're not like just completely
+17:49 upending like everything we knew about
+17:50 like job functions and like roles in the
+17:53 old world to the AI world. And yet like
+17:56 there is a rethink and relication of
+17:58 like okay how do I play that content
+18:00 production role with an agent
+18:02 >> right well I think we should get into
+18:04 hyper agent I think now is the time
+18:06 right so
+18:08 >> you know for the listener like what is
+18:10 hyper agent why are you building it and
+18:12 this is a showand tell podcast so
+18:15 >> you know by the end of this part of you
+18:17 know by the end of this episode like you
+18:19 know can you commit to you know giving
+18:22 all the sauce around how to use hyper
+18:24 agent to to sort of build a business.
+18:26 >> Sure. Yeah, let's let's go for it. So,
+18:28 this is Hyper Agent. I'm currently in a
+18:30 thread. I'll zoom out in a second and
+18:32 kind of um show you what like the uh
+18:34 entry point looks like. But, you know,
+18:37 think of Hyper Agent as like if all of
+18:39 these other agent products out there
+18:41 like Open Cloud, etc. are kind of more
+18:42 like Linux. Like Hyper Agent is our take
+18:45 on like the Mac version of it. Like we
+18:47 want it to just work to be secure. It's
+18:49 cloudnative. Like, you know, you don't
+18:51 have to run a Mac Mini. And and perhaps
+18:54 most importantly, like you know, Hyper
+18:56 Agent is like applying a lot of the same
+18:58 design philosophy and like obsession
+19:01 with great UX that we applied to the
+19:04 noode app category 10 years ago, but now
+19:08 to agents, right? Meaning like apps are
+19:10 kind of complicated, right? Like you
+19:12 know, if you're a developer, even at
+19:13 that time, you could build a Rails app,
+19:14 you had like a data layer, a logic
+19:16 layer, a view layer, but like it was
+19:18 kind of technical, right? And we're very
+19:20 technical. And the whole idea of air
+19:22 tableable was to distill that into a
+19:24 really intuitive experience. In fact, we
+19:26 were very inspired by like the
+19:27 Macintosh, the guey, like taking
+19:29 terminalbased command line computing and
+19:32 making it into something that like
+19:33 people could just gro immediately. And
+19:35 so, you know, Hyper Agent is really
+19:37 intended to be like a very intuitive and
+19:40 like visual uh way of using agent. So,
+19:43 this is actually a um a task thread that
+19:45 I I ran a little bit earlier. And uh
+19:48 this is actually one of your startup
+19:49 ideas, Greg, uh that we had a hyper
+19:51 agent work on. Um and basically the
+19:55 pitch was hyper local uh market reports
+19:58 for real estate agents generated from
+19:59 public data, right? And um and so
+20:02 basically this agent went around and did
+20:06 research on the landscape of the market.
+20:08 Um it ran a bunch of like analysis. It's
+20:11 got full coding capability. It's got a
+20:13 full sandbox environment. So, it is
+20:15 running a full computer. It's just one
+20:17 in the cloud, not like, you know, kind
+20:18 of your your own computer. And you can
+20:20 connect it to all your accounts if you
+20:22 want. Like, it can access your Slack and
+20:23 Granola and email. It can send stuff if
+20:26 you want it to on your behalf or just
+20:27 pre-draft emails. Um, you know, it's got
+20:30 uh already preconfigured ability to do
+20:32 things like pull from Twitter, um, use
+20:35 uh advanced tools like generate imagery
+20:37 or use Google Maps, etc. But basically
+20:40 what happened was it went around it and
+20:42 did all of this. It researched the
+20:45 opportunity, right? And then created
+20:46 this research brief. Um, and let me just
+20:49 uh show you what this one looks like.
+20:51 Um, this is kind of the business case
+20:54 for uh for the idea you pitched, right?
+20:57 I kind of love it because like I
+20:58 actually think um you know these what I
+21:02 would call like medium-sized markets
+21:04 like it's not like a hundred billion
+21:05 dollar market which is going to be super
+21:07 competitive and there's going to be
+21:08 massive incumbents going after it but I
+21:10 really love this idea of like the kind
+21:12 of like maybe it's not micro it's more
+21:14 like mini or medium market like couple
+21:16 billion tam large which is to say you
+21:18 can build a very lucrative business even
+21:20 capturing like a double digit percent
+21:22 chunk of this like you can make a few
+21:24 hundred million per year and yet like
+21:26 It's small enough to where really big
+21:28 guys are not coming after it, right? So,
+21:31 um you know, this this uh this agent
+21:32 created kind of a business case for it.
+21:34 It found some really cool um like user
+21:36 validation of the problem. So, it s like
+21:39 you know looked up Reddit like you know
+21:41 and found like some real real estate
+21:43 people who are actually saying like I
+21:45 need this product, right? So, it's kind
+21:47 of validating the market need. Here's
+21:49 actually the current problem. Uh I
+21:52 didn't even know about this but like
+21:53 apparently I guess there was some like
+21:54 legal thing that um you know kind of
+21:57 changed uh you know kind of the dynamic
+21:59 of the market. Um people don't want more
+22:02 software like you know another tool with
+22:04 an interface and did like some
+22:07 competitive analysis. Here's who who who
+22:09 else is out there. Um and then kind of
+22:11 just put together the case for this
+22:12 right but then you know better yet like
+22:14 you don't just have to stop there right
+22:16 you can go and like actually tell it to
+22:18 go and just build a v1 of the product.
+22:20 So in this case because hyperagent has
+22:22 full coding capability it just went
+22:24 ahead and like created a v1 of this
+22:26 product right which uh I think this will
+22:28 actually work like where do you farm
+22:30 like um here's uh my report style
+22:35 >> it also looks really clean
+22:37 >> what's that yeah I mean and honestly a
+22:39 lot of this is just like if you have a
+22:42 good Frontier agent running a Frontier
+22:44 model i.e. like Opus you know 4.7 or GD
+22:48 5.4 before like it just does a lot of
+22:50 this really well out of the box. So any
+22:52 Frontier agent powered by Frontier model
+22:53 should be able to create an app of this
+22:55 quality. What's unique about Hyper agent
+22:57 is that it can do that perfectly well
+23:00 but then kind of do that in the in the
+23:02 workflow of like it's not just an app
+23:04 builder. App building is just a feature
+23:06 now. It's a commoditized feature and
+23:08 what it can actually do is like go and
+23:10 research the end to end of like here's
+23:11 actually the business context of what
+23:14 I'm trying to do and then build the app
+23:16 informed by it. Right? So, it's more
+23:17 like Hyper Agent is the founder in this
+23:19 case. It's not just the developer, it's
+23:21 the founder. Um, one other cool thing I
+23:23 like about Hyper Agent is like it just
+23:25 comes out of the box with like really
+23:27 powerful tools. So, it has like, you
+23:29 know, Google Maps as a tool and it can
+23:32 actually go and like let's say I think I
+23:34 already did this, but um like I wanted
+23:36 it to go and actually find like real
+23:39 street view imagery of billboard
+23:41 locations. So it knows how to use street
+23:43 view to like find actual points of
+23:46 interest and then to take that image and
+23:49 use that as a reference seed image uh
+23:51 for like a uh AI image generation or
+23:55 video generation, right? So like I mean
+23:57 another cool thing you can do with hyper
+23:58 agent uh is you could tell it like take
+24:00 this house and like I want you to
+24:02 redesign the house using interior photos
+24:04 from Zillow or like the exterior shots
+24:07 and it will do that like really really
+24:08 well. Right? So, um, that's hyper agent
+24:11 in a in a nutshell. Uh, can walk through
+24:13 some of the other stuff here. Um, you
+24:15 know, once you actually build like a lot
+24:17 of agents, then you get like this this
+24:19 ability to start looking at like, well,
+24:21 what if I wanted to see, you know, um,
+24:24 not just my one agent, sorry, but um,
+24:27 but an overview of all of my agents,
+24:29 right? So, this is not like a very built
+24:31 out account. This would be like your
+24:33 first week of hyper agent use. But like
+24:35 literally that command center view that
+24:37 we talked about like you know we want
+24:38 you to be able to create many different
+24:40 agents that each play a role. Here's the
+24:42 content marketer. Here's here's the
+24:43 market researcher. Here's like the like
+24:46 customer email responder and like just
+24:48 manage and oversee an entire fleet of
+24:51 agents. Um constantly improve them
+24:54 because we actually have this ability to
+24:55 go and like you know curate memory and
+24:58 skill improvements from every run that
+25:00 you do. And then finally to be able to
+25:02 deploy them into a team setting as well.
+25:04 So if you wanted to take any of these
+25:06 agents and actually give it the ability
+25:08 to talk in Slack, right? So I can
+25:10 actually say like let me put this into
+25:12 Slack. Let me have it always on, always
+25:15 listening in fact, and you know just sit
+25:18 there in my channels listening to
+25:20 everything I'm talking about, my team's
+25:21 talking about, and when I have something
+25:23 relevant to add to automatically chime
+25:25 in and then people can interact with me
+25:27 truly like I'm an, you know, I'm a
+25:29 virtual co-orker, right? And I think
+25:30 that's kind of part of the open claw
+25:32 experience I've seen some of the power
+25:33 users achieve that's really quite
+25:36 magical. Like your Slack co-workers are
+25:38 now agents in addition to humans and
+25:40 they're really smart and they have their
+25:41 own like expertise and context. Like you
+25:43 get that with a single click out of any
+25:46 agent that you build in hyper agent.
+25:48 >> So you mentioned skills, you know, how
+25:51 does skills work on hyper agent and h
+25:53 how should people think about it? Yeah.
+25:55 So skills um are I think like the most
+25:59 important concept or primitive in the
+26:02 frontier agents world. Meaning the
+26:04 models are generally intelligent enough.
+26:06 It's like find like Albert Einstein
+26:08 who's like obviously super smart in a
+26:10 general sense and he may not know like
+26:12 how to solve problems in real estate,
+26:14 but if you gave him like just the right
+26:17 like kind of briefing on like here's a
+26:18 playbook, here's a manual to learn
+26:20 everything you need to do to know to do
+26:21 this job in real estate, like he's going
+26:23 to go and like figure it out pretty
+26:25 well, right? And so what's really
+26:27 powerful about skills is like they're a
+26:29 really really composable concept. Like
+26:30 you can interactively create skills. So,
+26:33 let's say I'm actually going to create
+26:34 like a new thread here. Just keep this
+26:36 super clean, but like help me create
+26:40 a skill that um posts Greg Eisenberg
+26:46 like AI content.
+26:49 Okay. And so, what's really powerful
+26:51 about this is like,
+26:51 >> no, don't create this. Don't create
+26:53 >> no. Okay. But, but worse enough that you
+26:56 know we don't take Greg's uh business.
+26:59 Um, but what's really cool about this is
+27:00 like it's not going to just like go and
+27:02 like like say, okay, like you know, I'm
+27:05 just going to have a prompt that, you
+27:07 know, pretends to be Greg Eisenberg. It
+27:09 can actually go and like, you know,
+27:11 research um how you actually do content.
+27:14 So, it's coming up with a plan. The plan
+27:16 is like I'm going to first go and like
+27:18 research your style, figure out like
+27:20 what platform I care about, like look at
+27:22 some of your actual posts and then
+27:24 distill all that into a skill that I can
+27:26 then pin to an agent or like just use on
+27:29 demand at any point, right? So, let's
+27:31 say um just for fun uh like what um what
+27:35 platforms uh do you want to post to?
+27:37 Let's just say X for now. Uh we're going
+27:40 to have the skill only generate drafts.
+27:42 So, it's not going to auto post for you.
+27:43 Is there any kind of uh content you want
+27:45 your uh agent Eisenberg to uh to be
+27:48 focused on?
+27:49 >> Um yeah, let's do contrarian AI takes.
+27:51 >> Okay, cool. Um and then any topics
+27:55 beyond that like
+27:56 >> solopreneur, bootstrap, life
+27:59 >> and then how do you want to use this
+28:02 agent? Um if uh if you end up using this
+28:05 agent like you know do you want to like
+28:07 start with an idea? Do you want it to
+28:09 just like come up with ideas for you?
+28:12 Yeah, I don't want to do I don't want to
+28:13 do anywhere. Like we'll go full
+28:14 autonomous, right? Like someday we're
+28:16 gonna have to see if like real Greg is
+28:18 actually just sitting at the pool all
+28:20 day and
+28:21 >> it's just created the the uh Greg Avatar
+28:24 version of you uh and is doing
+28:25 everything on its own. But okay, so now
+28:27 it's like going to go and like do some
+28:29 research about you and figure out like
+28:32 how to skill distill the perfect skill
+28:34 for for Greg like into this skill. How
+28:38 should people think about you know hyper
+28:41 agent versus perplexity computer versus
+28:44 manis versus openclaw itself?
+28:48 >> Yeah. So
+28:49 >> codeex like how do you how do you see
+28:51 it? So I think um against codeex you
+28:55 know it's quite simple like hyper agent
+28:57 is a more general purpose agent platform
+28:59 right I think against open openclaw like
+29:01 this is much more turnkey ready to go
+29:04 safe and secure by default cloud native
+29:06 like you know and and I think just much
+29:08 more focus on like great UX right open
+29:11 claw like when you actually have to go
+29:13 into configuration or like you're trying
+29:15 to edit memories or do any kind of
+29:16 curation or like kind of configuration
+29:19 it's you know it's it's quite raw right
+29:21 it's like a very, you know, kind of raw
+29:23 product kind of feels like it's more for
+29:25 like very technical people who've become
+29:27 like expert at it. Um, I think Perplexi
+29:30 and Manis or Perplexi Computer and Manis
+29:32 are like the closest comps for Hyper
+29:34 Agent. Um, the key difference is like
+29:36 one, you know, Hyper Agent has more
+29:38 powerful tools out of the box and uh and
+29:42 also is it has more focus on UX out of
+29:45 the box, right? Like, you know, I've
+29:47 spent some time playing with both of
+29:48 those products. I think they're great
+29:49 products and like you know at their time
+29:51 and you know or at least when manis
+29:53 first came out it's truly groundbreaking
+29:55 right like it was the first kind of real
+29:57 like holy crap like yolo agent like look
+30:01 at everything it did um kind of like
+30:03 before even openclaw right long before
+30:04 openclaw um and so I think they were
+30:06 really kind of pioneers in this space um
+30:08 with hyper agent like we've just taken a
+30:11 very UX focused approach so for people
+30:13 who like you know seeing visually and be
+30:16 able to like interact with the outputs
+30:18 and see more visually like what the
+30:20 agent is doing and have a more visual
+30:22 way of you know uh defining skills
+30:25 deploying skills creating agents etc.
+30:28 Hyper agent is just much more of like
+30:30 the Macintosh experience right versus
+30:31 the Linux. Um I think secondarily we've
+30:34 also kind of done a lot more to make
+30:36 hyper agent immediately ready to run not
+30:39 just like one like agent like I think
+30:41 the nominal experience for manis and
+30:43 perplexic computer is still like you use
+30:45 those products and you kind of have this
+30:47 like agent that's pretty awesome and you
+30:50 know you use it directly right um you
+30:52 can do that with hyper agent that's
+30:53 exactly what we're doing here but it's
+30:55 also designed from day one with much
+30:57 more of like the scalability and
+30:59 deployability story in mind so meaning
+31:01 like once I have an agent that kind of
+31:02 works for me. I can now deploy it one
+31:04 click into my Slack channel and now
+31:06 everyone in my company can benefit from
+31:08 this agent just always on like kind of
+31:10 chiming into conversations. You know,
+31:12 they can ask it questions, it will
+31:13 respond. You have the command center,
+31:15 that fleet view where it's not just one
+31:17 agent, you can oversee your entire fleet
+31:19 of multiple agents. And we even have
+31:21 things like, you know, the ability to
+31:23 oversee and curate like the learnings
+31:25 that that keep making each agent better.
+31:27 So like they kind of have this automatic
+31:29 self-improvement loop where over time
+31:31 they're accumulating not just new
+31:33 memories but also like suggesting to
+31:35 you, hey maybe you should add this
+31:37 additional skill or update or tweak the
+31:39 skill or even like maybe you should go
+31:41 and actually try changing my agent
+31:44 system prompt or give me access to
+31:46 different tools so I can do this type of
+31:48 job better. And best yet like we
+31:50 actually have this concept of what we
+31:51 call rubrics um which is exactly what it
+31:53 sounds like. It's like a eval rubric.
+31:55 And what you can do with rubrics that's
+31:57 really powerful is actually like define
+31:59 what does good look like for a certain
+32:01 type of task, right? So I could create
+32:03 one here that's like what is a rubric
+32:05 for great Greg Eisenberg content. And
+32:07 what it basically does is I can then
+32:09 have a full eval loop where every time
+32:12 my agent runs, like once the Greg
+32:13 Eisenberg uh uh skill is ready, I could
+32:16 say like I'm creating the virtual Greg
+32:18 agent and I'm going to pin a rubric to
+32:20 that agent that then says every time
+32:23 Greg creates a piece of content, I want
+32:25 to score that content along the
+32:26 dimensions that you care about using a
+32:28 separate LLM as judge U that fires off
+32:31 and then I can literally oversee like
+32:33 how well is my agent doing over time,
+32:36 right? Right? And if I want to double
+32:37 click in and inspect any one task run to
+32:40 see like how did it get scored, I can do
+32:42 so. So we basically, you know, have this
+32:44 complete full loop of it's not just like
+32:47 you get a day one agent or thread
+32:49 experience that works really well out of
+32:51 the box. And it's not just like you can
+32:53 curate agents and deploy them and like
+32:56 improve them over time, but it's that
+32:57 you have this complete um observability
+33:00 layer and kind of this this
+33:01 orchestration story where you can
+33:03 actually just like look at all of your
+33:05 agents running all the time and see how
+33:07 they're doing. Um and so if I pinned the
+33:10 um the the eval rubric to any one of
+33:13 these agents, I would see like the trend
+33:14 line of how it's scoring. I could then
+33:16 automatically like suggest um hey maybe
+33:19 I can reduce the model uh quality so I
+33:22 drop from opus to sonnet get a five
+33:24 times reduction in cost and the you know
+33:26 the score didn't go much down right so
+33:28 just once people actually start running
+33:30 agents at scale these kind of secondary
+33:33 capabilities become really critical
+33:35 because it's not just about can I get
+33:36 one agent to do one thing but how do I
+33:39 like oversee and run an entire business
+33:42 with many different agents and ensure
+33:44 consistent quality
+33:46 which is a big deal because you know for
+33:47 example if you're using Manis who is the
+33:50 judge around the output the judge is you
+33:53 the human being right it's not opus 4.6
+33:55 six, it's a huge.
+33:57 >> So, if you're trying to actually create
+33:59 what we were talking about before, which
+34:00 is like an agent first business,
+34:03 >> you know, managing a ton of agents,
+34:04 you're realistically you're not going to
+34:07 have the bandwidth to be looking at
+34:09 every single output totally at all
+34:11 stages, right?
+34:12 >> Yeah. It's kind of like management 101,
+34:14 right? but like applied to agents now
+34:16 where it's like as you scale up if
+34:18 you're the CEO of a business like you
+34:20 just literally don't have time to go and
+34:22 like look at every single thing that
+34:25 every single person in the company has
+34:26 done and so you need to create like
+34:28 better automated checks and balances to
+34:31 oversee what the agents are doing right
+34:33 and like inspect quality of work right
+34:35 like this would be like if you actually
+34:36 had like a giant army of human content
+34:39 creators like you would want some way of
+34:42 like you know um in a scalable way like
+34:45 to detect like if they're posting good
+34:46 or bad content or not, right? And then
+34:48 know like, okay, we got to tweak like
+34:49 the guidelines for each of these people.
+34:52 Okay, so now we have the Greg Eisenberg
+34:54 contrarian draft skill. Um, and I'm
+34:57 going to go ahead and save this skill
+34:59 and I'm going to try seeing like, okay,
+35:02 let's do a dry run. It's going to scan
+35:03 today's AI and uh news and trends and
+35:07 then create some contrarian drafts,
+35:08 right? And the whole idea here is like
+35:10 look like it's probably going to do an
+35:11 okay job on like the the first effort
+35:14 here. Like it did some research about
+35:16 you. It kind of like you know it has a
+35:17 lot of like um context about how you
+35:19 work, right? And if I wanted to see more
+35:21 about this uh skill, I could actually
+35:23 open it up. Here's uh when it should be
+35:25 used for here's the actual kind of skill
+35:28 contents. Um Greg's voice is a smart
+35:31 friend at dinner saying the quiet part
+35:32 out loud. Uh not a corporate
+35:34 communicator. I would agree with that.
+35:35 Um you know, you've been inside all
+35:37 these companies. uh blah blah blah like
+35:40 doesn't mean be a jerk. I I I I think
+35:42 that's very um uh astute. Like you're
+35:44 loud but like not annoying or like you
+35:47 know kind of uh rude. Um and then
+35:50 actually I'm curious if you agree with
+35:52 some of these um uh stylistic things,
+35:55 right? Like you got to hook in the first
+35:56 seven words. Um
+35:58 >> you know, you don't want like long
+36:00 blocks of text, which I'm guilty of. So
+36:02 I I I should take some of this uh Greg
+36:04 Greg Skillet and apply it to myself. Um,
+36:06 you love ordered lists. Uh, never end
+36:09 with what do you think, which is super
+36:10 generic. Um, so let's just say like this
+36:14 is a pretty good V1. Like maybe it's
+36:16 like 50% of the way there. Um, but the
+36:19 idea is that like these skills should be
+36:21 evergreen, right? Like it's not like you
+36:23 do one and done. The whole point is like
+36:25 every time I use a skill like either
+36:27 automatically using u you know kind of
+36:30 the LLM generating learnings and like
+36:33 suggestions to improve itself or because
+36:36 I am looking at the content and saying h
+36:37 that's not quite right like here's why
+36:39 you got that wrong like you can
+36:41 interactively tweak and improve the
+36:43 skills and performance of the agent over
+36:45 time. So like I think this is the the
+36:47 the like challenge that a lot of people
+36:48 face is like they oneshot something it's
+36:50 not quite like as profound as what they
+36:53 hoped for and they kind of give up right
+36:54 and I think like my you know kind of um
+36:58 strong guiding and urgence to folks and
+37:00 I think this is very aligned to to how
+37:01 you've thought about it like is don't
+37:03 give up after the first shot right like
+37:06 because it's very very clear that the
+37:08 agents are powerful enough to do almost
+37:11 anything you want it to do and the issue
+37:13 is not whether it's capable of and
+37:14 whether whether you should like give up
+37:15 on it. It's whether you are able to
+37:18 invest the kind of time and coaching and
+37:20 like curation to get it there. And I
+37:23 think that like it is well worth it,
+37:24 right? like um if you get it there, it's
+37:28 obviously going to be so much leverage
+37:30 for you that like what's the value of
+37:32 like having an always on now employee
+37:35 that just like does the things that you
+37:37 care about like behind the scenes at all
+37:39 times and like you know runs for trivial
+37:43 costs relative to like the the cost of
+37:45 hiring a new employee. Well, it's like
+37:47 real life, too, which is like, you know,
+37:49 when I first started playing tennis, I
+37:51 was bad at playing tennis. And when I,
+37:53 you know, would go to play tennis, I I
+37:56 almost didn't want to go because I was
+37:58 like, I'm bad at this.
+38:00 >> Um, but you sort of you you go through
+38:02 the messy middle and you get better and
+38:04 better and over time then you end up,
+38:06 wow, this is a lot of fun. So I think
+38:08 that once you get to the point where
+38:09 it's a lot of fun and and it does feel
+38:11 like the outputs are really good, the
+38:13 truth is 99% of people don't are not
+38:17 putting in the work to get to get the
+38:19 great outputs, right? So you know the
+38:22 this is the arbitrage. It's for people
+38:23 to actually, you know, actually invest
+38:27 in spending time to optimize and get it
+38:29 to a place where it's high quality.
+38:32 >> Absolutely. Yeah. It's funny. Um, uh,
+38:34 one of the benchmark partners sent out
+38:36 this this memo about like, you know, it
+38:39 was basically a wakeup call to all of
+38:40 the the portfolio companies to like, you
+38:42 know, get with the program and like
+38:43 really radically rethink how you operate
+38:46 your business like immediately with AI.
+38:48 And like the assumption is like you're
+38:50 probably you think you're doing some or
+38:52 or some things for AI. You have an AI
+38:54 like, you know, kind of um uh like, you
+38:57 know, center of excellence. You have
+38:58 like this AI feature, but it's not
+39:00 enough, right? And the the the kind of
+39:03 parable that they ended with was like
+39:05 imagine like there's two friends um back
+39:09 in like call it you know like 200 uh you
+39:13 know three and they're both going door
+39:15 too selling like you know kind of knives
+39:18 right like or some other like you know
+39:20 kind of inerson uh you know kind of
+39:21 offline product and one of them decides
+39:25 you know like every night and weekend
+39:27 I'm going to spend like 30 minutes like
+39:29 trying this new Google like Adwords
+39:30 thing and trying to like get some extra
+39:32 leads for my business as supplementary
+39:35 and you know like one month like they
+39:37 grow a little bit of revenue like from
+39:38 from the SEO or the SEM thing next month
+39:41 they get a little bit more and the other
+39:43 person is like this thing is awesome
+39:46 like SEM is awesome and it's early but I
+39:48 need to figure it out and so they stop
+39:50 going door to door and selling knives at
+39:52 all and they just spend like the next
+39:54 few months like just focused on like how
+39:56 do I get this entirely internet business
+39:58 to work right in the early days of of it
+40:01 and like you know two months like they
+40:04 have zero revenue. They're like living
+40:05 off like their savings. Um, but they
+40:07 slowly start to get this thing to start
+40:09 get get humming, right? to get like
+40:11 really versed in the best of SEO and SEM
+40:14 techniques and how do I create an
+40:15 e-commerce you know kind of um you know
+40:18 website that like allows people to
+40:20 transact directly there versus like just
+40:22 giving them a number to call me and you
+40:24 know the par the end of the story is
+40:26 like okay like project forward like 5
+40:28 years where do you think each of those
+40:30 people is right and like the obvious
+40:32 answer is the second person has probably
+40:34 built like one of the early
+40:35 multi-billion dollar e-commerce
+40:37 businesses and just like carved off like
+40:39 the next Amazon, right? And the other
+40:41 person's like probably still selling
+40:42 door to door, which is getting harder
+40:44 and harder and like, you know, kind of
+40:46 that that market's shrinking. And so, I
+40:48 think it is one of those things where
+40:49 it's like you kind of have to like hit a
+40:51 reset moment and what feels like, you
+40:54 know, maybe experimentation and not
+40:56 actually bringing home the bacon
+40:57 actually is the most profound thing you
+40:59 can do to create like real business
+41:02 leverage in the like not even like
+41:05 two-year time frame, but like maybe even
+41:06 like the six month time frame. And I'm
+41:08 I'm curious like in your experience or
+41:09 when you see like uh solarreneurs doing
+41:11 this like where do you see or like how
+41:13 often like what is the the average like
+41:15 break even point um literally either in
+41:18 terms of like you get to the point where
+41:19 you can like self- sustain a full-time
+41:22 you know kind of like um uh business
+41:24 right uh like and that becomes your
+41:26 paycheck or just even where it like even
+41:28 feels like it's starting to to pan out.
+41:31 I think that there's like multiple
+41:33 milestones that people hit where they,
+41:35 you know, it's a game of confidence, you
+41:37 know.
+41:38 >> Um, when you make your first internet
+41:40 dollar, no matter what it is, it rewires
+41:43 your brain.
+41:44 >> Yeah.
+41:44 >> Um, so if you can take an idea and make
+41:47 $1 a stranger, just $1,
+41:49 >> it's going to rewire your brain. Then I
+41:51 think once you get to like 10k a month,
+41:54 >> um, just something about that number,
+41:57 >> you know, for the most part, once you
+41:58 hit that, you're probably quitting your
+42:00 job. you're probably going all in.
+42:02 You're probably like, "Okay, there's
+42:03 something here and there's a path to
+42:06 something bigger."
+42:07 >> I think that with respect to like
+42:09 >> agent products and products like this,
+42:12 you know, the mistake I think a lot of
+42:14 people make is
+42:16 they try it too sporadically. So, what I
+42:20 encourage people to do is to actually
+42:22 try the product, you know, every single
+42:26 day for a certain amount of time. So
+42:27 commit to 30 days, 60 days, 90 days,
+42:31 some amount of time.
+42:32 >> So that every single day, it's like in
+42:36 your calendar, like literally I have in
+42:37 my calendar like 30 minutes here, 30
+42:40 minutes there, right?
+42:41 >> And that's what gets you to be a top 1%
+42:44 agent builder, right? Because you make
+42:47 it a part of your workflow
+42:48 >> and then you end up seeing like, you
+42:51 know, outsized returns because it
+42:53 compounds.
+42:54 >> That makes sense. I mean, it's kind of
+42:55 like um you know, I'm not a writer, but
+42:57 like I've heard uh from writer friends
+42:59 like the most important thing is not to
+43:01 like wait for like the one weekend where
+43:03 you're going to have like the spurt of
+43:04 brilliance and write the whole
+43:05 screenplay or the whole book all in one
+43:07 get-go, but it's like you have to force
+43:08 yourself to write like some pages every
+43:11 single day, like no stop. Like some of
+43:13 them are going to be crappy pages, but
+43:14 like the forced habit like just gets you
+43:16 better and better and better and then it
+43:18 becomes like natural. And so I could see
+43:21 that being very um applicable and and
+43:23 kind of like analogous here for the
+43:25 world of like getting agent savvy.
+43:27 >> So do we have some tweets?
+43:29 >> Uh so okay, let's look at this. Um
+43:33 let's see. The consensus narratives are
+43:36 Oh, this is not loading for some reason.
+43:37 Um the consensus narratives are getting
+43:39 louder. Every medium post reads like the
+43:41 last one. Okay, so here's uh here's one.
+43:45 The 10K month uh AI solarreneur boom is
+43:47 mostly content farm fiction. Uh they say
+43:49 82% of US businesses have zero
+43:51 employees. Um what do you think about
+43:54 this one?
+43:55 >> I mean what I like about it is you know
+43:57 when I do tweets because I'm a human
+43:59 being largely there's no data.
+44:02 >> It's just like I have a hot take.
+44:04 >> Yeah.
+44:04 >> So what's cool about this is there's
+44:06 research and the truth is
+44:08 >> um
+44:09 >> the you know people people obviously
+44:11 want data associated with their tweets.
+44:13 So
+44:13 >> yeah, maybe with with a team of hyper
+44:15 agents uh doing all the research for you
+44:17 and like coming up with content ideas
+44:18 now uh now you have time. Um
+44:21 >> Oh, this is kind of cool. Uh is this
+44:24 true? Um that Medv is actually not a
+44:29 legitimate business. I actually I hadn't
+44:31 um I'd followed like the first arc of of
+44:33 that story, which is oh my god, this
+44:34 thing is like so massive. Um, but uh I
+44:38 mean it's a it's a little letown for
+44:40 like the the billion-dollar uh startup
+44:42 story, but like you know maybe there's a
+44:44 take on it that says like no but like
+44:45 it's still possible for real this guy
+44:47 just kind of like gave us all a bad
+44:49 reputation. Um your AI agents didn't
+44:52 replace your VA blah blah blah.
+44:56 It's kind of interesting.
+44:56 >> Yeah. I mean these are all what I would
+44:59 call like kernels
+45:01 >> uh for really good grade tweets.
+45:04 >> Yeah. like key and and the cool thing is
+45:06 like I could give it feedback. So like
+45:08 you know as an example like let's let's
+45:10 say like uh I want to give you feedback
+45:13 on your skill. Uh what's like one thing
+45:16 that you want to like give it some
+45:18 feedback on?
+45:19 >> Um I would say
+45:22 you know the the tweets that tend to do
+45:24 well are
+45:27 sound sound very friendto friend. And is
+45:30 there like do these all just feel like a
+45:32 little too like like they're not like
+45:34 colloquial? They feel like Yeah, these
+45:38 feel a little too
+45:41 formal or like stiff or something. I
+45:44 don't know.
+45:44 >> Exactly.
+45:46 >> Yeah. And that's something like I would
+45:47 notice that,
+45:49 >> right?
+45:50 >> Um and so what we can do
+45:53 like we would put this in the eval,
+45:55 right?
+45:56 >> Yeah, you could do both. So, one is like
+45:58 you could immediately go and turn this
+46:01 like or update the skill based on this
+46:03 feedback. You could also have it
+46:05 immediately just like turn around like a
+46:06 new draft of these tweets, right, to
+46:08 sound more colloquial. And then finally,
+46:10 to your point, I could go and create a
+46:12 rubric that actually says like, okay,
+46:13 like here's the five dimensions I care
+46:15 about and then auto evaluate every
+46:18 future output, right? Um, so you kind of
+46:21 have a number of different options like
+46:23 depending on how far you want to go
+46:24 right now. Like if you just want to get
+46:26 your job done right now, you don't want
+46:27 to bother with Rubric, you don't have
+46:28 to, right? But eventually like you get
+46:30 to the point where you want to set up a
+46:32 scalable system for this to just
+46:34 constantly work and get better and
+46:35 better. And that's the point at which
+46:36 you would do a rubric, which is not that
+46:38 hard actually. Like it, you know, you
+46:39 can either go in through the UI and
+46:41 build one or you can actually in this
+46:43 chat like say, "Help me build a rubric
+46:46 to score great Greg style content, which
+46:49 I'll queue up for after it updates the
+46:51 skill." um and and then it will go and
+46:55 help me create that rubric, save it, pin
+46:57 it to this agent or to this skill and
+47:00 then automatically run every future um
+47:03 uh time I create content.
+47:05 >> And is it possible to for example get an
+47:09 email every single day at 8 a.m. with
+47:13 you know some ideas like
+47:15 >> yeah you absolutely can. So the way to
+47:18 do that would be in fact you could just
+47:19 tell it in the thread like can you turn
+47:22 this into a recurring daily email at 8
+47:25 a.m. And so then what it's going to do
+47:27 is like say like I want to now save this
+47:29 thread into an agent and the agent is
+47:32 going to be given a run schedule of like
+47:34 every day 8 a.m. go and do this thing.
+47:36 Um, we're actually about to ship
+47:38 something that we're calling a live
+47:39 mode, which is kind of inspired by like
+47:41 the open claw like kind of heartbeat
+47:43 behavior where you could already have
+47:44 configured an agent to do this just by
+47:46 saying like I wanted to pull every 30
+47:48 minutes, but we're making it much more
+47:50 of a first class thing within hyper
+47:51 agent where you can literally just click
+47:52 a button, turn any agent or any thread
+47:55 alive. And then the feeling is going to
+47:57 be that like, wow, this thing is just
+47:58 like constantly on and looking at all of
+48:02 the like new tweets out there, coming up
+48:03 with new ideas, and then pushing them to
+48:06 me either via Telegram or over email or
+48:08 in Slack whenever it comes up with new
+48:10 stuff. So like the the um the UX or the
+48:13 mental model is meant to be like wow
+48:16 this just becomes like a always on like
+48:19 24/7 uh agent that uh that pushes ideas
+48:24 to me or even like can go and like
+48:25 preemptively draft and post content.
+48:27 Like if you wanted it to go full yolo,
+48:29 you could actually have it just go and
+48:30 like tweet the content itself, right?
+48:33 >> Good old full yolo mode.
+48:36 >> Yeah. Yeah. I don't recommend full yolo
+48:39 mode. just because
+48:43 I mean
+48:45 there's no need for for for something
+48:47 like this, right? Like in order for X
+48:50 specifically, in order to win, if you
+48:51 can get one good tweet out every single
+48:54 day, that's all it is. No one,
+48:56 >> you know, and
+48:59 that just means that you could and you
+49:01 can batch these. You can schedule it
+49:03 out, but just look at it. Make sure that
+49:05 that it's it's high quality, it meets
+49:07 your bar. Yeah. Um, I think I think uh
+49:11 it's it's definitely worth it for for
+49:13 this specifically.
+49:14 >> Yeah, that's fair. I mean, I think that
+49:15 it, you know, content is a very hits
+49:17 driven business and so like fewer high
+49:21 quality hits
+49:22 >> is what matters. But, you know, there
+49:24 are there are tons of use cases where
+49:26 like maybe for my own emails, right?
+49:28 like there are a subset of emails that
+49:30 like are low stakes that I just you know
+49:33 want hyper agent to just automatically
+49:35 not only draft a reply but like if it
+49:37 feels confident it's like not a
+49:39 sensitive you know kind of situation
+49:42 like you know then just go ahead and
+49:43 like respond to to it right like you
+49:46 know it could be simple like inbound
+49:48 inquiries from like internal folks
+49:50 saying like hey when you have time to
+49:52 meet you could just preemptively go
+49:53 ahead and like suggest a time right or
+49:55 even like pre-book it on my calendar um
+49:58 or customer emails that are like
+50:00 innocuous or like asking for like or
+50:03 trying to give input on a feature. It
+50:05 could just compile all that feed
+50:06 feedback for me as a report but then
+50:09 respond like with a smart personalized
+50:11 acknowledgement to the user or even ask
+50:13 for like clarification.
+50:15 >> And I think uh you you all have like a
+50:18 ton of connectors built into Hyper
+50:20 Agent, right?
+50:21 >> Yeah. So what's really cool actually is
+50:23 that um not only do we have a ton of
+50:25 connectors that just work out of the
+50:26 box, you click a button ooth in in the
+50:28 thread, right? So maybe starting a new
+50:30 one, I could say like what's a tool that
+50:32 you want to use um with with hyper
+50:35 agent? It could be like granola
+50:37 >> notion maybe.
+50:38 >> Okay. Yeah. Connect. Can I connect to
+50:41 notion and pull in all my notes? Um, and
+50:46 so it will just in the thread like say,
+50:49 "Hey, here here's an ooth link like
+50:51 connect to your notion." But arguably
+50:53 one of the most powerful parts is like
+50:55 even for things that we don't have a
+50:57 connector to, like let's say there's
+50:59 some like very obscure API that you're
+51:01 trying to work with, right? Um, you
+51:04 could basically have hyper agent go and
+51:06 learn that API. So actually I'll say
+51:09 like actually never mind on this. Um,
+51:13 can you instead help me build an API
+51:16 integration to what's some like fairly
+51:18 new tool that you know of that has an
+51:21 API?
+51:22 >> I'm assuming Well, do you have Linear
+51:24 built in here?
+51:25 >> Uh, we do have a connection to Linear,
+51:27 but actually maybe maybe Twilio could be
+51:29 a good example, right? Like where I
+51:30 don't think you can ooth into Twilio, so
+51:32 it has to be an API skill. And we may
+51:34 have a pre-built connector, but I'm
+51:35 going to have it like build a custom
+51:37 skill uh regardless. So consult helped
+51:40 me build a custom skill to integrate
+51:43 with Twilio via API, right? And um so
+51:48 now what it's going to hap what what's
+51:49 going to happen is like it can go and
+51:51 like research the Twilio API docs,
+51:54 create a skill for itself to use the API
+51:57 and then actually ask me to enter my
+51:59 credentials in a safe way uh and then be
+52:01 able to like use the Twilio API fully,
+52:04 right? Um,
+52:06 so I think like the powerful thing now
+52:09 is a frontier agent should be able to
+52:12 like literally do anything right like
+52:14 but it's just a matter of like you have
+52:16 to give it access to the right context
+52:18 and you have to like you know tell it
+52:21 like hey like yeah you should build a
+52:22 skill for this so then it can do it
+52:24 every single future time effortlessly.
+52:27 Um okay let's say what we want to do SMS
+52:30 voice for now maybe phone numbers we'll
+52:33 do an API key off and um any specific
+52:37 workflows think like maybe actually I
+52:41 want to build a voice and SMS service
+52:47 that can call restaurants
+52:51 for reservations or something right if
+52:54 you're listening to this and you're not
+52:55 fired up about building a business right
+52:58 now. Like the fact that you can do this
+53:01 >> is crazy.
+53:02 >> Yeah.
+53:04 >> If someone has heard about, you know,
+53:06 this is the first time they're hearing
+53:07 about Hyper Agent, they want to they
+53:09 want to get started and they,
+53:11 >> you know, what's a plan for them to like
+53:14 what should they do? How do they get
+53:15 started? How do they get the most out of
+53:16 Hyper Agent?
+53:18 I I think like the most often like the
+53:21 hardest thing to get over is not like
+53:24 how to use the product like I think you
+53:26 know our users have said like wow this
+53:28 product is like super intuitive like I
+53:30 can usually just like ask the agent to
+53:31 figure something out and it do goes and
+53:33 does it so it's not like I have to learn
+53:35 like a ton of new like configuration or
+53:37 UI or anything. Um, I think the hardest
+53:39 part is actually like picking like the
+53:42 right problem or like the right business
+53:44 opportunity you want to try to attack
+53:46 with Hyper Agent, which like Hyper Agent
+53:48 actually can help you brainstorm that.
+53:50 In fact, we just shipped a new better
+53:52 onboarding flow where instead of just
+53:54 like landing you into a generic, you
+53:57 know, kind of like empty canvas where
+53:59 you have to like just pick like a new
+54:00 thread and, you know, we have some like
+54:02 templates and so on. Like now when you
+54:04 first land in, it's going to suggest
+54:06 like, hey, do you want to like connect
+54:07 me to all of your contacts? So like
+54:09 connect me to your uh Gmail and to your
+54:11 Slack and to like your notion and
+54:13 granola. And what I'll offer to do is
+54:16 actually go and like research you like
+54:19 in your context. So I want to read
+54:20 through a bunch of your like past weeks
+54:22 emails and Slacks and like look at your
+54:24 past granola meetings. And you know, of
+54:27 course, all that context is private to
+54:29 you, but like now Hyper Agent is going
+54:31 to be able to like suggest to you like,
+54:33 hey, based on everything I've learned
+54:34 about you, like here's some use cases
+54:36 that might be relevant to you. So it
+54:37 seems like you're a VC, maybe you're
+54:39 like doing a lot of deal flow. I could
+54:41 create an agent to just go and
+54:43 automatically like, you know, kind of
+54:45 summarize and do research on every
+54:47 investment pitch that you get, right?
+54:49 So, um, like you can turn me on all the
+54:51 time. Like I'll just run in the
+54:53 background and then like ping you uh
+54:55 every single time you get a inbound
+54:57 pitch or you can even have it learn the
+54:59 behavior to thread a private reply to
+55:02 any uh email that you get inbound from a
+55:05 founder. Right? So you get an inbound
+55:07 pitch, Hyper Agent on behalf of you
+55:09 sends you and only you a just threaded
+55:12 reply within that email chain saying,
+55:14 "Hey, I researched this company. I also
+55:15 summarized all their materials. here's
+55:17 what you you should know about them,
+55:18 right? But the whole idea is that like
+55:20 hyper agent itself can help you identify
+55:23 use cases or you could come in just with
+55:25 a really broad prompt like kind of
+55:27 interested in building building a
+55:28 solarreneur business. I don't know. I'm
+55:30 kind of interested in like real estate.
+55:31 I want to pick one of Greg's uh you know
+55:34 kind of ideas that are open sourced like
+55:36 help me plan this out, right? And it
+55:38 will do a very good job of like going
+55:39 and running with you on that. So I think
+55:41 the main thing is like don't get stuck
+55:43 in the blank slate starting point
+55:45 problem. like just come in and like, you
+55:46 know, figure out some place to start.
+55:48 Maybe it's your personal like, you know,
+55:50 contacts, maybe it's like you come in
+55:51 with an idea, but like once you start
+55:54 get getting into it, like it's it just
+55:57 sucks you in even more because like you
+55:59 realize all of what you can do and it's
+56:01 just so powerful. Like you won't help
+56:03 but to get better and better at it.
+56:07 >> Last question before before we head out.
+56:10 You know, I was just talking to someone
+56:12 uh on the on another p on actually this
+56:14 podcast talking about um Hermes a a
+56:17 agent and one of the things we're
+56:19 talking about is when you're picking one
+56:21 of these um platforms be it openclaw,
+56:24 hyper agent, codeex, whatever you're
+56:27 sort of like investing in an ecosystem.
+56:30 My question for you Howe is why should
+56:33 someone you know invest in the hyper
+56:37 agent ecosystem? like where do you see
+56:39 hyper agent going over the next few
+56:41 years?
+56:42 >> Yeah, so
+56:44 we have a lot of experience building
+56:46 great PLG products. I mean obviously Air
+56:50 Table itself is a PLG product that also
+56:53 scaled up into real serious kind of like
+56:55 businesses right like there are
+56:57 companies that still run their major
+56:59 operations whether it's like really
+57:01 really large like you know kind of
+57:03 Walmart scale companies like you know
+57:05 the open eyes of the world but also like
+57:08 you know we have like like really
+57:10 innovative fastmoving SMBs some of the
+57:12 like fastest growing companies like Raor
+57:14 run a lot of like uh stuff on air table
+57:16 and you know I think like the the um the
+57:19 experience that we have of building a
+57:22 product that's both extremely low floor
+57:24 and intuitive but then also has a very
+57:26 high ceiling and scales up even as you
+57:28 need to scale up the number of agents
+57:30 you have, how you deploy them, um how
+57:32 you oversee them. Like that's our
+57:34 commitment is that we are going to be
+57:36 the best at giving you both a low floor
+57:38 and a high ceiling especially as you
+57:40 want to actually run a serious business
+57:43 or operations with hyper agent, right?
+57:45 So I think that's that's going to be
+57:47 kind of unique where I see the landscape
+57:49 fragmenting into like there's going to
+57:51 be really easy fun kind of prototyping
+57:54 tools and products that are kind of like
+57:56 easy to get started with but then
+57:58 ultimately don't scale with you as you
+58:00 want to become like a real serious
+58:02 enterprise built around these agents and
+58:05 then conversely there's going to be more
+58:06 like heavy kind of agent builder
+58:09 products right with like configuration
+58:11 and like controls and all that stuff
+58:14 that are going to be better from like a
+58:16 control plane standpoint from be able to
+58:18 like oversee a fleet of agent
+58:19 standpoint, but make the initial
+58:21 experience and the graduation path like
+58:24 a lot more clunky, right? Or just like a
+58:26 really sharp uh wall to overcome. So, I
+58:29 think our commitment is this product is
+58:31 going to be the best combination of low
+58:34 floor and high ceiling. And we're always
+58:36 going to have this obsession with great
+58:38 UX. Like, that's our DNA. That's like
+58:40 what I obsess over. And the only kind of
+58:42 company that I want I want to build is
+58:44 one that wins in a product category
+58:47 where the value of the software or the
+58:49 technology is very very high, but the
+58:52 accessibility is really kind of the key
+58:54 differentiator that we win on, right? So
+58:57 agents are going to be powerful. We're
+58:59 not going to be the only powerful agent
+59:00 product out there. Like I think Frontier
+59:03 agents are all going to get better and
+59:04 smarter and faster and and so on. But
+59:07 what we can do is use really great
+59:09 product design just like Apple did with
+59:12 computing to make the powerful
+59:14 experience also really accessible.
+59:16 >> Yeah, it really is the most Hyper Agent
+59:19 is the most visual agent builder I've
+59:21 ever seen. It reminds me of a a desk.
+59:25 >> Like when you know I'm looking at my
+59:26 desk, it's a wood desk right now. And
+59:28 I've got I'm like I have a paper over
+59:30 here and some scribbles over here and my
+59:32 iPad over there. To me, that's what uh
+59:35 Hyper Agent kind of feels and looks
+59:37 like. It feels like a desk that I'm like
+59:39 visualizing it.
+59:40 >> Um so, I think for people who like,
+59:45 you know, connect like that, and I'm I'm
+59:47 certainly one of those people. I think a
+59:48 lot of people are just going to be like,
+59:50 "Sign me up."
+59:51 >> Totally. Yeah. Yeah, I mean look like
+59:53 you know for people who don't like UI
+59:54 and want to just like use their computer
+59:57 through the terminal like all day every
+59:59 day like
+1:00:01 >> howie some people are like they're
+1:00:03 they're you know um they're obs what
+1:00:07 they love doing is like
+1:00:08 >> obsessing over tuning every single
+1:00:10 detail and stuff like that. And those
+1:00:13 people th you know
+1:00:15 >> that an open claw might be for them,
+1:00:18 right? But if you're more
+1:00:20 >> like yeah that but I believe that like
+1:00:22 you don't have to sacrifice the
+1:00:24 tunability right or the like the power
+1:00:26 and so you know one of our strong design
+1:00:30 philosophies here is that like hyper
+1:00:31 agent still does give you a lot of
+1:00:33 control like you can go and tweak you
+1:00:34 know kind of like agent configuration if
+1:00:36 you want to if you want to like choose
+1:00:37 the exact model and system prompt and
+1:00:40 tools and like give it a lot of
+1:00:41 refinement you can and like you can go
+1:00:44 quite far in terms of curating memories.
+1:00:46 Uh we actually just shipped yesterday a
+1:00:48 kind of like a defrag tool for your
+1:00:50 memory so that as you accumulate more
+1:00:52 and more memories across all these
+1:00:53 different agents you have this like
+1:00:55 really elegant way of like defragging
+1:00:58 them right where like we can autosuggest
+1:01:00 here are related memories clustered by
+1:01:02 both like you know keyword as well as
+1:01:04 like embeddings similarity so that we're
+1:01:07 actually understanding the content of
+1:01:08 the memories and you can consolidate
+1:01:09 them but they're like you know we want
+1:01:11 to really serve both people who are like
+1:01:14 power users who want control over how
+1:01:17 the agent is set up so they can get
+1:01:19 maximum bleeding edge performance. But
+1:01:21 then also, you know, like you shouldn't
+1:01:22 have to do all that to get value out of
+1:01:24 the product. So, it really is about the
+1:01:26 range. I think it's more just that like
+1:01:28 if you are truly, you know, happy just
+1:01:31 like doing it all yourself through like
+1:01:33 a very, you know, kind of like um uh
+1:01:36 low-level command line interface kind of
+1:01:38 kind of experience. and like you're okay
+1:01:41 not having the control plane like the
+1:01:43 deployability the ability to oversee
+1:01:45 many agents and deploy them at scale and
+1:01:47 manage across a team then you know may
+1:01:50 maybe those people like aren't going to
+1:01:51 appreciate hyper agent as much
+1:01:54 >> totally well I'm stoked to see how it
+1:01:56 evolves thanks for doing a little
+1:01:57 showand tell you got me fired up
+1:02:00 >> how we
+1:02:01 >> I'll include links uh where to follow
+1:02:04 you but also where to sign up to Hyper
+1:02:07 agent in the description in the show
+1:02:09 notes
+1:02:10 Um,
+1:02:11 >> and we're going to do a really generous
+1:02:13 um, credits giveaway for your listeners.
+1:02:16 Um, I mean, one of the benefits of
+1:02:18 launching Hyper Agent within Air Table,
+1:02:21 which is a half billion revenue
+1:02:23 business. We're going to generate
+1:02:24 hundred million of free cash flow, uh,
+1:02:26 you know, this year. Like we have over a
+1:02:28 billion dollars on our balance sheet.
+1:02:30 That's not to like, you know, ju just be
+1:02:32 pretentious about it, but is that like,
+1:02:33 you know, we've built a good and and
+1:02:36 growing and like, you know, kind of
+1:02:38 profitable business with Air Table that
+1:02:41 allows us to be even more generous and
+1:02:43 liberal with like we just want to get
+1:02:45 people to really adopt Hyper Agent, get
+1:02:48 value out of it, and we want it to
+1:02:50 become the standard, right? Like we want
+1:02:51 it to become like the iPhone. And so,
+1:02:54 you know, we're willing to be very, very
+1:02:56 generous. like we're not trying to make
+1:02:57 money and nickel and dime people on uh
+1:02:59 you know on pricing. In fact, like we're
+1:03:01 giving away multipliers to uh you know
+1:03:04 your your uh audience and and early
+1:03:06 adopters um for both like just straight
+1:03:09 up cash that gets applied towards real
+1:03:12 model costs including like opus which
+1:03:14 now uh you know as a lot of the openclaw
+1:03:16 community has uh gotten uh kind of sad
+1:03:18 about like you can't get subsidized
+1:03:20 credit for uh for use in openclaw. Um,
+1:03:24 but like you can use Opus, you can get
+1:03:26 the Frontier models and you can get it
+1:03:27 much more cheaply because we're willing
+1:03:29 to subsidize it through Hyper Agent.
+1:03:32 >> Well, we this is a group of people who
+1:03:34 listening to this who appreciate that
+1:03:36 because this is a group of people who
+1:03:37 actually,
+1:03:38 >> you know, they listen and they actually
+1:03:41 go and build stuff. So,
+1:03:43 >> uh, thanks for the love, Howie. And um
+1:03:47 >> I love I love this um the the
+1:03:49 solopreneur and like you know small uh
+1:03:52 early stage like startup and small
+1:03:54 business owner you know audience. I
+1:03:56 think um you know it it is where more AI
+1:03:59 innovation is going to happen far faster
+1:04:01 than frankly within many large kind of
+1:04:04 incumbent companies right you just have
+1:04:06 the the agility and like the only thing
+1:04:09 keeping you from going and deploying
+1:04:10 agents everywhere is like just your
+1:04:12 willingness and like putting in a little
+1:04:13 bit of time right uh but you know we're
+1:04:16 already seeing in our early adoption
+1:04:17 base with hyper agent like you know some
+1:04:18 of these like um small shops have become
+1:04:22 super soph sophisticated really really
+1:04:24 fast and are running their operations in
+1:04:26 kind of gamechanging way that frankly
+1:04:28 like a 50,000 person company would not
+1:04:31 be able to do for a much much much
+1:04:34 longer time, right? And just has all
+1:04:35 kinds of like you know kind of reasons
+1:04:37 why they wouldn't be able to go and
+1:04:39 pivot on a dime. I think this is a
+1:04:41 really really awesome uh audience and
+1:04:43 you know I kind of live to see you know
+1:04:46 uh entrepreneurs like do awesome stuff
+1:04:48 right like uh so super exciting to to be
+1:04:50 plugged into community to the community
+1:04:52 and like I want to see uh you know your
+1:04:55 listener base generate like you know a
+1:04:58 hundred billion dollar uh you know kind
+1:05:00 of legit companies with like less than
+1:05:03 five employees
+1:05:04 >> from your lips to God's ears baby.
+1:05:06 Thanks a lot Howie. Um I'll see you next
+1:05:09 time. Awesome. See you.

@@ -1,0 +1,842 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=s50dOsodoVQ
+Channel: Riley Brown
+Video ID: s50dOsodoVQ
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 Today we're going to build a mobile app
+0:01 100% with AI and we're going to do this
+0:04 without writing a single line of code.
+0:06 Should we run it?
+0:07 >> Yeah, let's run it.
+0:08 >> We're going to be creating a YouTube
+0:11 thumbnail generator that can generate
+0:13 thumbnails of anyone all with a single
+0:16 image as an input. Today we're talking
+0:18 about the easiest way to get an app from
+0:22 your head, an idea, all the way to the
+0:25 app store in less than 45 minutes. In
+0:28 this video, we're going to be talking
+0:30 about prompting the AI to get a high
+0:32 quality output. We're also going to talk
+0:34 about the brand new Ideog API and we're
+0:37 going to talk about debugging our app
+0:39 when we run into some issues and we're
+0:41 also going to talk about sending the app
+0:42 to the app store with the fastest
+0:45 possible method. Let's not waste any
+0:47 more time. Let's build the app and send
+0:49 it to the app store. All right,
+0:52 Muhammad, let's talk about the prompt
+0:53 we're using today.
+0:54 >> Yeah. So, we're going to start the
+0:56 prompt off with the app functionality.
+0:58 And so, here we just describe that we
+1:00 want an app to generate thumbnails of
+1:02 specific characters. And these
+1:04 characters are basically just an image.
+1:06 You want to start off with the the core
+1:07 feature. This is all we're starting off
+1:09 with. It's just like a very simple one
+1:11 feature app. And before we go into this
+1:14 part of the prompt, maybe you're brand
+1:16 new to this, but examples of other APIs
+1:18 are like the OpenAI API, which allows
+1:20 you to chat with a bunch of different
+1:22 chat models. Enthropic is the same thing
+1:24 with a different set of chat models.
+1:26 Yeah. Um, one that I forgot to mention
+1:28 is Open Router, which would allow you to
+1:30 talk to all of the chat models. The same
+1:34 way Open Router kind of
+1:36 >> organizes APIs for all of the chat
+1:38 models. FAL and Replicate do the same
+1:41 thing for all of the image and video
+1:42 models. So, they have all the creative
+1:44 models. And so, they have Google VO.
+1:46 You've likely seen people talking about
+1:48 Google VO, OpenAI's, Sora along with all
+1:52 of the other really high quality like
+1:54 image and video models. And so these are
+1:57 examples of different APIs which I you
+1:59 what you can think of is just like cool
+2:00 tech that you can use.
+2:02 >> And in order to use this cool tech,
+2:04 >> you need to pay for it. And so that's
+2:06 why you need your API key. Yeah. And so
+2:09 we're going to be using FAL today. And
+2:12 in order to use FAL, we need to use an
+2:14 we need an API key. And so we're going
+2:17 to need an FAL API key. And then we also
+2:20 need the instructions manual on how to
+2:23 use the cool tech. It's always useful to
+2:25 give that to your AI agent. Most AI
+2:28 agents now that code can actually search
+2:30 the web and find these documentations,
+2:32 but it's not always successful. So it's
+2:34 useful to just give it the
+2:35 documentation. And so do you just want
+2:36 to quickly show like what that looks
+2:38 like?
+2:38 >> Yeah.
+2:39 >> Um,
+2:40 >> yeah. So, this is the docs that we're
+2:41 going to send over to the agent. And
+2:44 then it basically just describes, you
+2:45 know, how to send the um request to FAL
+2:49 and then how to get it back.
+2:50 >> And if you've never written code, it's
+2:52 just something you need to copy. If you
+2:53 want to show,
+2:54 >> go over to FAL and then go over to
+2:57 audiogram
+2:58 um and then change edit to base because
+3:01 that's the one we're going to use. Yeah.
+3:02 And then over to API. We're going to use
+3:05 HTTP. And then this is the same docs
+3:07 that I just copied. Amazing. And so
+3:09 basically it just describes how to use
+3:10 it. Um so yeah, it's just like the
+3:12 manual. Uh and then we're just going to
+3:14 paste that into the agent
+3:16 >> and that'll just be pasted along with
+3:18 the font
+3:19 >> with the prompt and the key that you
+3:22 described.
+3:22 >> Yep.
+3:23 >> And then Yeah.
+3:24 >> And then we basically just gave it a few
+3:26 specifications. I just said format it
+3:28 like the image. If you go over to the to
+3:31 the left here, this is how we want it to
+3:32 look. So, we're actually going to
+3:33 screenshot this and we're going to be
+3:36 giving this to the AI along with all of
+3:39 the text prompts. Yeah.
+3:40 >> And so, that is basically that is the
+3:43 prompt that we're going to use. Let's
+3:44 see if what we can create after one
+3:46 prompt here.
+3:47 >> Yeah. So, let's go over to the Vive Code
+3:49 website first. Let me take a screenshot
+3:50 of the app because that's what we're
+3:52 going to want to use to basically start
+3:54 our app with.
+3:55 >> Yeah. And then so the the the agent
+3:57 within the Vive Code app that we're
+3:59 using here
+4:00 >> um is going to use that image as a
+4:01 reference to create the app. And so you
+4:04 paste it in the image. And now
+4:05 >> I'm going to take uh the prompt that we
+4:07 made.
+4:08 >> Just going to copy all of that.
+4:10 >> Uh paste it in. And then I'm going to go
+4:12 back and just get the docs as well and
+4:14 then put that in there as well. Um
+4:16 >> amazing.
+4:18 >> Yeah, you don't have to read these docs
+4:19 at all if you don't care. It doesn't
+4:21 matter at all.
+4:21 >> I don't personally I don't care. Hi.
+4:23 >> No one's reading who?
+4:24 >> It says http. What is it? What even is
+4:26 that?
+4:26 >> Uh, it's like a TV channel. All right.
+4:29 Um,
+4:30 >> all right. So, this is our first prompt
+4:32 and let's go ahead and uh Should we run
+4:35 it?
+4:35 >> Yeah, let's run it.
+4:37 >> Ship it.
+4:38 >> Okay.
+4:39 >> The app is now loading. We're going to
+4:41 wait for this to finish.
+4:43 >> Yeah. All right. The app is done. Um, I
+4:45 can go ahead and scan this QR code with
+4:48 my phone.
+4:48 >> Do you want to pull up the view of your
+4:49 phone? Yeah. See it? Amazing.
+4:52 And so I can just scan the QR code right
+4:55 here and then it'll open the app it just
+4:58 made for me. It's loaded. And that looks
+5:01 pretty similar to what we had on
+5:04 audiogram.
+5:06 >> Oh, damn. Okay.
+5:07 >> So, we have the prompt up there and then
+5:08 the two buttons.
+5:09 >> Where's the text input? I can't even see
+5:11 it.
+5:12 >> Uh, it's just like this little gray box
+5:14 right here. I can tap on it.
+5:15 >> Okay. So, from my view, I can't even see
+5:17 that gray box. Um, can we make a little
+5:20 edit? Actually, let's test the
+5:21 functionality. Let's text a function
+5:22 first.
+5:23 >> Okay. First, I'm going to take a picture
+5:25 of you.
+5:27 >> Nice.
+5:30 >> Oh, yeah. Yeah, you look good there.
+5:32 >> Amazing.
+5:33 >> You look
+5:36 okay.
+5:37 >> So, we can upload this character. So,
+5:39 ideally, this character Oh, it's up at
+5:42 the bottom. I I actually don't mind
+5:43 that.
+5:44 >> Yeah, that's good use of space. And
+5:46 then, uh,
+5:49 what do you want your YouTube thumbnail?
+5:50 Say YouTube thumbnail of a man riding a
+5:53 horse.
+5:54 >> Man riding a horse. Okay, we can hit
+5:58 generate.
+6:01 >> Wait, does what does that say? Request
+6:02 submitted.
+6:03 >> Generating image.
+6:04 >> Generating images.
+6:05 >> One of 60. Is that what that says?
+6:07 >> Yeah.
+6:08 >> What is it?
+6:09 >> I don't think it's generating one. Two.
+6:12 I don't think it's generating.
+6:13 >> By default, normally it generates four.
+6:15 >> Yeah.
+6:15 >> Okay.
+6:16 >> Okay. It generated one.
+6:20 Um, what is that? Okay, so we got a
+6:22 generated images image. Something is
+6:26 going wrong. Um, but like I actually
+6:28 like that X button and the delete
+6:30 button. We just want to make sure the
+6:31 API is using the correct one. Um, let's
+6:34 try and figure that out.
+6:35 >> Yeah. So, we can go to FAO and see the
+6:38 exact request it made.
+6:40 >> Um, and it looks like it's this one. And
+6:42 I'm going to move the phone out the way.
+6:43 And we can see what the input was from
+6:45 the app. And the app was the prompt was
+6:48 YouTube thumbnail of a man riding a
+6:50 horse.
+6:50 >> Was it you? What model was it using?
+6:53 >> H is using audiogram character.
+6:57 >> Did it pass the image in?
+6:58 >> It seems like it did in the base 64 URI
+7:01 that we wanted.
+7:03 >> Um, so maybe this could be just
+7:05 audiogram. So maybe let's try it again.
+7:08 Uh, YouTube thumbnail of this man riding
+7:13 a horse because we just said man riding
+7:15 a horse. Yeah, but that the I think this
+7:17 API is designed for it to automatically
+7:20 use the character in it.
+7:22 >> Yeah,
+7:22 >> I don't think it's like flux context,
+7:25 which is another uh API model.
+7:28 >> No, that's not me.
+7:29 >> Yeah, this is not me at all.
+7:31 >> I'm going to refresh it and test it
+7:32 again. Um, it could just be something
+7:35 like that.
+7:36 >> Your character is still there and there.
+7:38 >> Okay, so selecting the character. So,
+7:40 last time we took a photo.
+7:41 >> Yeah.
+7:41 >> And entered it in. Now you refresh the
+7:43 app
+7:44 >> and the
+7:44 >> and you're selecting the character.
+7:46 Yeah.
+7:46 >> Was it selected last time?
+7:48 >> I don't think so. I don't know.
+7:50 >> Okay.
+7:50 >> Well, we can see if that works now. So,
+7:52 we can hit generate.
+7:53 >> Okay. YouTube thumbnail of a man riding
+7:55 a horse.
+7:56 >> Same prompt. Last time it was giving
+7:57 some random dude that wasn't you. So, we
+8:00 do want is a picture of you riding a
+8:02 horse.
+8:03 >> Yes, we do want that. Uh, and we want it
+8:06 to be a YouTube thumbnail. We want it to
+8:07 be good. Um, okay.
+8:09 >> Oh, that looks more like me. That looks
+8:11 more like me. Wait, your
+8:13 >> Does it give me a man bun?
+8:15 >> Did they give you a man bun?
+8:16 >> That's crazy.
+8:17 >> Hold on. This gave you a tattoo.
+8:20 >> Can you send me this?
+8:22 >> We got to add a send feature. Okay,
+8:23 >> that one's pretty good.
+8:24 >> Um, all right. So, let's go to
+8:25 Excaladraw real quick. So, in Excal
+8:28 here, this is how I organize my app. So,
+8:31 go ahead and drag that down onto that
+8:33 blue square down there at the bottom.
+8:34 You see it?
+8:35 >> Yeah. Just drag it on top of that. So
+8:39 once I create my app, I love to just put
+8:42 my phone off to the side and I love to
+8:43 list out everything that I want to
+8:44 change. Um, so I'm going to say make the
+8:48 text a little bit larger and um and move
+8:52 it down
+8:54 slightly.
+8:56 Also can um let's go like this also. And
+9:01 so where Oh yeah, I guess I can't see it
+9:02 on mine. Um also, um please
+9:07 have the text input area not a um not is
+9:14 there is there an component around does
+9:16 it have super close? We can like make it
+9:18 darker or something.
+9:19 >> No, I'm going to say make the text input
+9:21 area the same background as
+9:26 the rest of the app, but underline it.
+9:31 Don't enclose it in showing a border
+9:35 >> a Yeah, don't enclose it in a border. Um
+9:38 I think this looks cool. It's a style
+9:40 that I kind of like. Also,
+9:43 um
+9:45 also please
+9:48 move the selected character to the
+9:53 right, actually to the left of the plus
+9:57 button. Once once it's um selected and I
+10:02 I realize um we can actually separate
+10:05 these. Uh once it's selected, this will
+10:08 change the size of the plus button. Um
+10:13 and so that's kind of a thought that I
+10:15 had here. Um I don't think it looks good
+10:17 because the keyboard covers up the
+10:20 character.
+10:20 >> Yeah.
+10:21 >> Um you see that it covers up the
+10:23 character.
+10:23 >> I'm actually going to say increase make
+10:25 the text. I think it would look super
+10:27 cool if it was just large text. Um,
+10:30 >> maybe we want like a save button here as
+10:32 well.
+10:33 >> Yeah, let's add save button on the image
+10:37 details. And please make the images cuz
+10:42 does it show us all images? Actually,
+10:44 let's worry about that later. Actually,
+10:45 this is enough here. Save image on
+10:47 details. I think that's good. Um,
+10:51 >> I'm going to also add those are good
+10:53 like low priority changes and prompts
+10:55 that you could add. I'm going to add a
+10:56 high priority one. Um, and if you notice
+11:00 like these images are just a square
+11:02 >> and YouTube thumbnails aren't squares.
+11:04 They're like landscape.
+11:05 >> And so I'm going to add the prompt.
+11:08 Please fix the image
+11:11 >> um dimension aspect ratio to be 16 by 9.
+11:16 And we know we can do this because if
+11:18 you go back to the the FAL docs, it does
+11:21 have something where you can change the
+11:23 aspect ratio. You can change the image
+11:25 size. So, I'm just going to copy that.
+11:27 >> Amazing.
+11:27 >> And then
+11:28 >> that's what we want. 120 by 720.
+11:31 >> Yeah. Yeah. Okay. Cool. And then then we
+11:34 could say here is more information on
+11:38 how to add this to the request. You
+11:42 don't even have to say that, but you
+11:43 >> you could probably just say here's
+11:45 useful info.
+11:46 >> Yeah. Yeah. Yeah.
+11:46 >> Yeah. And let's just start with that.
+11:48 Let's rip that one. I marked this one as
+11:49 green because I thought this was a
+11:51 problem, but seems like refreshing the
+11:53 app literally fix it. So, that one's
+11:55 done.
+11:56 >> Cool.
+11:56 >> I think Yeah, just this one. All right.
+11:59 Copy that.
+12:02 >> Um, yeah. And then I'm just going to
+12:03 ship it.
+12:04 >> Let's do it
+12:04 >> to prod. All right. Looks like it's
+12:07 done. I'm going to refresh
+12:09 and so we can see if the images are now
+12:11 the correct size. Oh,
+12:13 >> okay. So, that's good. So, those images
+12:14 are actually square the previous took,
+12:16 but they're rendering
+12:18 >> the whole thing. But now it should
+12:20 generate
+12:22 >> um Ryan Manning and handwriting an
+12:24 elephant.
+12:24 >> Yeah.
+12:25 >> So, these ones should be 16 by9.
+12:28 >> Amazing.
+12:31 >> Okay.
+12:31 >> Yep. That looks good.
+12:33 >> Yeah. I see like these ones are the
+12:35 wrong aspect ratio.
+12:37 Okay, that's solid.
+12:38 >> That's cool.
+12:40 Okay, so we can check that one off on
+12:42 the prompts. Um
+12:43 >> I got it. I'll mark that off as done.
+12:47 And then
+12:47 >> then we can move on to these lower
+12:49 priority um prompts here.
+12:54 Cool. So, make the text larger and move
+12:57 it down slightly.
+13:00 >> Yeah. I just think that that's just like
+13:02 my I had a vision for
+13:03 >> Yeah, we should do that.
+13:04 >> Let's just start off with that one.
+13:05 Maybe we could do two of them at a time,
+13:06 but we could also just do one. But
+13:08 >> no, let's do that. And then let's What
+13:10 other one?
+13:10 >> That one has the text.
+13:12 >> I usually prefer to do ones that are
+13:14 like related to each other.
+13:15 >> Yeah. Yeah. Yeah. So,
+13:17 >> actually the sele move the selected
+13:18 character. I mean, that's all in UI or
+13:20 design. Save button on the
+13:23 >> I feel like this is the
+13:24 >> Actually, let's just rip all of them.
+13:25 >> All four of them,
+13:27 >> actually. Yeah, let's rip all.
+13:29 >> Let's do it.
+13:30 >> Let's rip all of them. Yeah. So, in
+13:31 summary, what we're trying to do is
+13:33 we're trying to make the text a little
+13:34 bit larger on the top. Obviously, you
+13:36 can't see it. Instead of having like I'm
+13:38 getting sick of like those like rounded
+13:40 rectangles. Maybe it's cuz I make so
+13:42 many apps while vibe coding. I like just
+13:43 like minimal like underline it. Have big
+13:46 text at the top. No title of the app
+13:48 either. Just like have it just have it
+13:50 be self-explanatory. And then you um
+13:52 we're going to do that. So, make the
+13:54 text larger. We're also going to yeah
+13:56 move the selected text so it's not
+13:58 behind the keyboard. uh the save button
+14:00 on the image details. So, if you want to
+14:02 click on one of the images real quick um
+14:04 in your app.
+14:05 >> Yeah,
+14:05 >> right here. I want a save button to pop
+14:07 up up there as well along with the X and
+14:10 the delete. Um and then the boring
+14:12 loading screen, right? It doesn't really
+14:14 have a loading screen. So,
+14:15 >> yeah.
+14:16 >> Um if you go back to Vibe Code on your
+14:19 on the
+14:21 >> on the website. Yeah.
+14:22 >> Yeah. And then I guess Yeah, let's just
+14:23 wait for it to be done.
+14:25 >> All right, that update's done. So, I'm
+14:27 going to refresh again.
+14:30 And okay, I think we put all of the
+14:33 prompts in. So I know the first one.
+14:34 Yeah,
+14:34 >> I like that. This app is starting to
+14:36 look good.
+14:36 >> That one's good. Um, and then the
+14:39 character select
+14:42 sort of does both.
+14:43 >> Okay, so we just going to get it to
+14:45 >> not come up at the bottom. But then how
+14:47 would you
+14:49 >> No. H. No, but when you hit plus, right,
+14:52 >> maybe we have a bottom sheet
+14:55 >> pop up that allows us to select a
+14:57 previous character that you've used.
+14:59 >> Yeah. Yeah.
+14:59 >> Or if you hit plus or there's a take
+15:02 image. Actually, I think that is the
+15:04 design. And then you get rid of that
+15:06 like bottom thing. The bottom thing can
+15:08 be converted into a bottom sheet that
+15:09 pops up only when you hit plus.
+15:11 >> Yeah. And then since it's only one
+15:12 character reference, when you hit plus
+15:15 when a character is selected, it should
+15:18 just open up the bottom sheet and you
+15:19 can replace it with a different one or
+15:21 take a photo to replace it.
+15:22 >> Yeah.
+15:22 >> What else did we ask for? Oh, generate a
+15:24 new thumbnail because there's a loading
+15:26 animation.
+15:27 >> True. Yes.
+15:28 >> So, we can just do the same one.
+15:30 >> Um,
+15:32 >> actually do man uh man in a field
+15:35 >> in a cornfield. in a corn field holding
+15:38 a mystical
+15:40 ball.
+15:41 >> Mystical ball.
+15:42 >> Yes.
+15:44 >> I love that. I actually love being able
+15:45 to see the image there. I just wish it
+15:47 didn't say the character name.
+15:48 >> Penguin Sidekick.
+15:49 >> Paid room sidekick. I love it.
+15:51 >> Cool. Let's generate.
+15:54 >> All right. Not a fan. Okay.
+15:56 >> Wait. Are you a fan?
+15:57 >> I mean, it's a little too much going on.
+16:00 >> Maybe if we got rid of the emojis.
+16:01 >> I know what I want.
+16:04 >> Setting up the creative circus.
+16:06 I guess it's not even better than it
+16:08 was.
+16:09 >> You don't think so?
+16:10 >> Yeah.
+16:11 >> Yeah. It did a little too much. And
+16:14 that's where something like chat GBT5
+16:16 would I think do better in
+16:18 >> We could ask GBT5 to do it.
+16:20 >> Yeah, we could.
+16:21 >> Wait. Okay.
+16:21 >> Oh my god, dude. Look at this,
+16:24 >> bro. That's fire. That's actually crazy.
+16:26 >> The best image ever. Yeah. Looks like a
+16:29 movie set. Look at this one.
+16:31 >> Oh my god. Let's go. This is actually
+16:34 awesome. Cool. Okay. What What do you
+16:37 want changed next?
+16:38 >> Okay. What I want changed next? I want
+16:41 Yeah, let's go to Let's go to the board
+16:43 here. Let's just knock out all of them.
+16:46 So, first things first, um when I select
+16:51 a character, please do not put any text
+16:55 in the area where you're showing the
+16:58 image below the text input field. And
+17:00 yeah, these are basically done as well.
+17:03 Um, what else do we want to add here?
+17:05 Um,
+17:06 >> oh,
+17:06 >> we want that sheet to pop up when
+17:08 selecting a character.
+17:09 >> I'm just going to say, uh, currently it
+17:12 shows the selected character at the
+17:13 bottom. And this is not how I want this
+17:15 to work. So, in terms of functionality,
+17:17 I want nothing to change. I just kind of
+17:19 want a rearrangement of how this works.
+17:21 So, when I press the plus sign, I want a
+17:25 bottom sheet to pop up. And that allows
+17:27 me to select any of the characters that
+17:29 I've added previously or take a photo to
+17:32 use as the character. If there is a
+17:34 character already selected, it should
+17:36 only show up in the area that's right
+17:39 below the text input area. If I press
+17:42 the plus sign while there's an image
+17:46 already selected there, it should just
+17:48 open up the bottom sheet and then I
+17:49 should just be able to select a new
+17:51 character that would replace that uh
+17:53 character because only one character can
+17:55 be selected at once. Um and so the plus
+17:58 sign would just basically change the um
+18:02 character reference. So make that
+18:03 change.
+18:04 >> All right, that's a pretty big change.
+18:05 We could do both of them. Let's do it.
+18:07 It could do it. I mean it did the first
+18:08 one.
+18:08 >> It's a clot. Okay. So, now it's
+18:10 acquiring sandbox and it's generating.
+18:12 We'll see how it does.
+18:14 >> Cool. So, I'm going to refresh.
+18:18 >> Um,
+18:19 >> did we lose?
+18:20 >> No, no, no. The character select at the
+18:22 bottom is gone because now it's should
+18:24 be here.
+18:25 >> Okay, great. But it doesn't have the
+18:27 placeholder text anymore, you know, at
+18:29 the top.
+18:29 >> Oh, right. Oh, yeah. It reverted back to
+18:32 the old
+18:33 >> Okay, that's weird.
+18:34 >> That's Yeah.
+18:35 >> All right.
+18:35 >> But it did fix the character reference
+18:37 thing.
+18:38 >> It did. Okay. All right. That's fine.
+18:39 That's not a big deal. We can easily fix
+18:41 that.
+18:41 >> Yeah.
+18:42 >> Can you type up top?
+18:43 >> Yeah.
+18:43 >> Okay. Okay.
+18:44 >> Um, so now hit Okay. So, it put the
+18:47 character beneath it. I actually don't
+18:49 mind that.
+18:49 >> That's a little bit. Yeah. Then we can
+18:51 like rename it.
+18:52 >> I actually don't mind it. Um, yeah. Add
+18:54 the rename feature.
+18:55 >> Let me add a new character. Oh, okay. We
+18:58 can also add something where I can um
+19:02 take pictures on the app because right
+19:04 now it just opens my camera roll.
+19:06 >> Okay. Okay. But we should also make it
+19:07 so I can take pictures as well.
+19:09 >> I like it.
+19:09 >> So I can add this guy.
+19:11 >> I know that guy.
+19:12 >> Uh
+19:14 >> um
+19:14 >> and then um yeah. Okay. And another cool
+19:16 thing is the thumbnails are separated
+19:20 >> um between like which character. So if I
+19:23 did like character Connor
+19:26 >> thumbnails. Wow. Amazing. That's
+19:29 actually super cool. It added that by
+19:30 itself.
+19:31 >> Yeah. So that's
+19:32 >> So let's generate one of Connor.
+19:34 >> Cool. Um,
+19:37 >> okay.
+19:37 >> And so say man on the moon eating
+19:40 cheese.
+19:42 >> Eating cheese.
+19:43 >> Cinematic.
+19:45 >> Thank god for autocomplete.
+19:46 >> Cinematic shot.
+19:50 >> Great. Ship it. I think this app would
+19:53 look way better in dark mode.
+19:55 >> Like if it was a black background with
+19:57 white text.
+19:58 >> Yeah, we should totally add that.
+20:00 >> That's
+20:00 >> Oh, that looks exactly like him. That's
+20:03 actually insane. That is so funny. A
+20:06 real This is a really good image model.
+20:08 I am I love it. Yeah, you can't save it
+20:10 anymore.
+20:11 >> Oh, we lost that as well.
+20:13 >> Okay, that's very interesting. Let's
+20:15 make some few more changes here. Let's
+20:16 make a few more changes. Okay, so for
+20:18 whatever reason, it like reverted here.
+20:20 So, I just quickly wrote down some
+20:22 changes. Uh make the input text larger,
+20:24 which is what we've already tried to do
+20:26 and
+20:26 >> did successfully. Um, like I'm also
+20:29 going to say add uh placeholder
+20:32 text before I type. Um, and then please
+20:36 add save to device button on the image
+20:39 details which we had earlier. Allow me
+20:41 to rename characters which is a new
+20:42 addition. And then make the app dark
+20:44 background. I realized the yellow
+20:45 buttons on a dark background look super
+20:48 good.
+20:48 >> Yeah.
+20:49 >> Um, so let's rip this. And
+20:50 >> so this should be pretty simple.
+20:53 uh these features
+20:55 may be in the in the code. Please look
+21:00 for them if they exist.
+21:03 Okay. And then after that, like I think
+21:06 this app looks pretty good. Like what?
+21:08 >> Yeah, I think once we get these features
+21:09 down,
+21:10 >> I think let's just ship it to the app
+21:12 store.
+21:12 >> Yeah, let's do it.
+21:13 >> Looks good. We can refresh now
+21:16 and see the changes.
+21:18 >> Bro, that's that looks so good. That is
+21:21 exactly how I envisioned it. I wanted
+21:23 the dark background. I was picturing
+21:25 like a little bit dark torer, but like
+21:26 honestly those colors are fire. Okay,
+21:29 let's let's try it again.
+21:31 >> Okay, so we can add a character.
+21:32 >> Okay, so we still have the characters.
+21:33 Okay. Oh my, that's so good.
+21:36 >> Let's see if that save feature. It's
+21:38 back.
+21:38 >> Save feature is back. We got it. Okay.
+21:40 >> And then I can also edit the character
+21:42 name as well.
+21:42 >> Amazing. So we can change that to Riley.
+21:44 Oh, wait. You only character Riley.
+21:47 >> Yeah,
+21:47 >> I like it. I like it. Um,
+21:50 >> that looks pretty good.
+21:51 >> Yeah. Yeah. Let's generate another one.
+21:52 Let's see how it looks. Um, man holding
+21:55 a giant pencil.
+21:58 >> Have a man.
+22:00 >> Oh,
+22:01 >> a giant pencil. That was on me. I should
+22:04 have caught that. Good throw, Emily. So,
+22:07 this is what we want. We want a man
+22:08 holding a giant pencil
+22:11 to show up on our app. That looks really
+22:14 good. That looks insane, actually. Oh,
+22:17 it's on. Oh, I like how it shows how
+22:18 many it's generated.
+22:20 Okay. Yes, dude.
+22:24 >> Yes, dude.
+22:26 >> I need to start wearing suits.
+22:28 >> Yeah. What about this one?
+22:29 >> That's insane.
+22:30 >> You need a bigger Yeah, you need that.
+22:31 >> I need a bigger pencil. Emily, search
+22:33 for a bigger pencil, please.
+22:35 >> Or a gold. Oh, this one looks
+22:37 >> I like it. Yeah, let's ship this to the
+22:39 app store. Let's not waste any time.
+22:41 >> Yeah,
+22:41 >> it's perfect.
+22:43 >> So, this is super simple. Uh before we'd
+22:45 probably have to like download the code
+22:47 or like SSH into it, but now there's a
+22:49 button up here. Um
+22:50 >> Wait. Yo yo yo. Hit X. Hit X though. We
+22:52 got to go to the side menu. Open up the
+22:54 side panel.
+22:55 >> Right.
+22:55 >> Let's create a
+22:58 um thumbnail.
+23:00 So you double click on that. U what
+23:03 should the icon look like? The icon
+23:04 should be a giant picture with a giant
+23:10 pencil on it.
+23:12 >> Cool.
+23:14 And so we'll generate our app icon.
+23:20 >> Amazing.
+23:20 >> Looks pretty good. Yeah. Uh then we can
+23:23 save that. And then now we can go to the
+23:26 app store. Um and if you didn't make the
+23:28 icon, you can also make it here. Um and
+23:31 then this bundle identifier, you don't
+23:33 have to worry about that. That's just
+23:34 like an ID that like Apple keeps track
+23:36 of so you know they know which app is
+23:38 which. And then the app name is
+23:40 character thumpy. Character thumb. Let's
+23:44 call this um
+23:49 character. Character thumbnail.
+23:52 >> I like it.
+23:53 >> Let's call it character thumbnail. Uh
+23:55 yeah.
+23:56 >> All right.
+23:56 >> Yeah,
+23:57 >> we can always change that later.
+23:58 >> We could always change it later. And
+23:59 then we can hit continue to build. So
+24:00 our goal right now is we want to get
+24:01 this on the Apple App Store. And
+24:04 earlier, yeah, we in the previous videos
+24:06 we did SSH, but it has been added to the
+24:09 Vive Code app. Yeah. And so we can now
+24:12 just go to Apple ID. So this is where
+24:14 you need to actually sign into your
+24:15 stuff. You have an Apple developer
+24:18 account, which does cost $100 a year,
+24:21 but once you have that,
+24:22 >> it's really easy to do this. I'll let
+24:24 you talk about this.
+24:25 >> Yeah, you can put your email and
+24:26 password in for that.
+24:27 >> Um my password is just kidding.
+24:32 What is it, too? Um
+24:35 >> go ahead. And then and then um you're
+24:37 going to also need your expo access
+24:38 token. And so you're gonna need an expo
+24:40 account.
+24:41 >> And that's free.
+24:41 >> That's free. It's easy.
+24:42 >> And then you can also hit get token
+24:44 right there. It takes you to a new tab.
+24:46 >> Yeah.
+24:46 >> And you could go through this process.
+24:48 You get a token
+24:49 >> and you can create a new token. And then
+24:51 you pasted it.
+24:52 >> Cool. That's all you need. TM ID is
+24:54 optional. It'll ask you anyways. And
+24:56 then you can start the build.
+24:57 >> Amazing.
+24:59 >> Um, and then there's going to be two
+25:00 questions. It'll ask two-actor
+25:02 authentication. That'll come up on your
+25:04 phone. It's just a code.
+25:05 >> Cool. And then um if you have you'll
+25:07 probably have one. They'll probably have
+25:09 one team.
+25:10 >> Oh
+25:10 >> yeah. And so if you've never done it
+25:12 before, yeah, you want to have one team,
+25:13 but you might have to specify what team.
+25:15 >> Yeah.
+25:15 >> And that'll pop up here.
+25:17 >> Yeah.
+25:17 >> Okay. And so now we basically just wait
+25:20 for this build to finish.
+25:22 >> Yeah. It'll take like five minutes.
+25:23 >> Cool.
+25:24 >> It to the app store. Um
+25:26 >> and so this is what it looks like after
+25:28 it's like succeeded.
+25:29 >> Yeah. Yeah. And so
+25:30 >> and here's basically where like all we
+25:32 have to do is just like update. What do
+25:34 you have to update?
+25:35 >> The screenshot description um and then
+25:37 you got to add like security um like
+25:40 privacy policy and stuff like that.
+25:42 >> Yeah. And so basically all you have to
+25:43 do at this point is create like a
+25:44 landing page which you can just have
+25:47 create a landing page which has privacy
+25:48 policy and terms of service. Yeah.
+25:50 >> And you can get it's your first app
+25:52 especially if it's free. I just
+25:54 recommend getting something on the app
+25:55 store just so you can say that you did.
+25:57 It's fun. So like start with a free app
+25:59 that you can send to your friends. Um,
+26:01 and just create like a mini landing page
+26:03 and ask chat GPT to generate a terms of
+26:06 service and landing page for an app that
+26:08 does X, Y, or Z. And then just throw
+26:10 those up there. And then you basically
+26:12 just put the links to those in the
+26:13 description.
+26:14 >> Yeah. Yeah.
+26:15 >> Pretty much.
+26:16 >> And then that's it. And yeah, we're
+26:18 going to be doing a lot. I think we're
+26:20 going to do like a two or three hour
+26:21 video like diving into all of this stuff
+26:24 and like going through all of the steps
+26:26 of the process. Um, and so that'll be a
+26:28 future video. So definitely subscribe if
+26:30 that interests you and um let us know
+26:32 what we should build in the next video
+26:34 because Muhammad and I are going to do a
+26:35 lot of videos soon. We have a lot of app
+26:37 ideas. Um yeah, so
+26:40 >> if you guys have any app ideas, I'd love
+26:42 to hear them so we can make them.
+26:43 >> All right, see you guys.

@@ -1,0 +1,562 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=NrKABtmG4zs&pp=0gcJCQMLAYcqIYzv
+Channel: Riley Brown
+Video ID: NrKABtmG4zs
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 Earlier today, OpenAI released a brand
+0:02 new image model called GPT image 2. And
+0:06 this new image model is the best in the
+0:08 world by far, and it's not even close.
+0:12 Here is a simple prompt and in-game
+0:15 screenshot of Rust. So, we can generate
+0:18 perfect images of video game. This image
+0:21 model is almost perfect at generating
+0:22 user interfaces. So, here is an image
+0:25 that was generated of YouTube. Here is
+0:28 an image that was generated of Chat GPT.
+0:31 Here we can see GPT image 2 with the
+0:34 prompt what if a hot sauce came out of a
+0:36 toothpaste tube. It turned this image
+0:38 into this image. This image model is
+0:40 going to change business and content
+0:43 creation forever. It's literally the
+0:46 best in every single category. Not only
+0:49 is it the best overall by far, it is the
+0:51 best at single image edits, multi-image
+0:53 edits, text rendering, product branding
+0:56 and commercial design, portraits,
+0:58 photorealistic and cinematic imagery,
+1:00 cartoon and fantasy, art and 3D
+1:04 modeling. Today, we're going to dive
+1:06 into this brand new OpenAI image model.
+1:08 And in this video, I'm going to talk
+1:10 about my initial tests and one absurd
+1:13 use case that I was just so blown away
+1:15 by. We're going to talk about how to get
+1:17 started, and we're going to do some live
+1:18 testing, and then we're going to use it
+1:20 with AI agents in the Codex application.
+1:24 Let's not waste any more time. Let's
+1:25 dive into the video.
+1:27 Okay. So, today is April 21st, 2026.
+1:32 And OpenAI introduced images 2.0. The
+1:35 last version was 1.5. What was really
+1:38 cool about the last one is you can
+1:39 actually generate images with no
+1:41 background. It had like a transparent
+1:42 background. You actually can't do that
+1:45 yet with the new model.
+1:48 So, before we dive into actually how to
+1:50 get started using this image model, I
+1:52 want to talk about my experiments this
+1:54 morning when I first tested this new GPT
+1:57 image 2 model. So, the first thing that
+1:59 I did was I uploaded four images of me
+2:01 that are kind of in different angles,
+2:04 and I just said, "These are four photos
+2:05 of me. Can you please create an image of
+2:07 me on the cover of a magazine?" And then
+2:09 this was the results. We have a pretty
+2:12 realistic image of me wearing the same
+2:15 shirt that I'm wearing in this one with
+2:17 basically perfect text on the image
+2:20 here. This is pretty cool, but it's not
+2:23 that crazy. So, this isn't the most
+2:25 useful application of this technology,
+2:28 but this actually blew my mind. Check
+2:30 this out.
+2:32 I said, "Generate an image of the book
+2:34 Good to Great. The barcode on the book
+2:36 should scan to the actual book." So,
+2:38 what we're going to do is we're going to
+2:40 full screen this, and we're going to
+2:42 zoom in on this barcode. I have a
+2:43 barcode scanner right here, and let's go
+2:46 ahead and go like this.
+2:48 Bang.
+2:49 Good to Great.
+2:52 The barcode scanner fully works.
+2:56 Like, what?
+2:57 Do the same
+2:59 with the book The Intelligent
+3:02 Investor.
+3:05 Okay, it's done. Now, what I'm going to
+3:07 do is I'm going to open this up full
+3:09 screen. We'll give this a scan. Boom.
+3:12 Look at that. The Intelligent Investor.
+3:14 Here are the videos. One thing I want to
+3:16 test here. I want to make sure that it's
+3:18 not picking up and just reading the ISBN
+3:19 number. So, I'm actually going to open
+3:21 up Canva. I'm going to paste it in here.
+3:23 Now, what I'm going to do is I'm going
+3:24 to I'm going to black out
+3:28 this
+3:30 part of this. I want to see if it's
+3:32 actually scanning the barcode. So, let's
+3:33 see.
+3:35 Bro, that's crazy. That is actually
+3:37 wild.
+3:39 What the hell? In the next experiment, I
+3:41 uploaded four images of me, and I said,
+3:43 "These are four photos of me. Can you
+3:45 please create an image of me as a
+3:46 cartoon with exaggerated physical
+3:48 traits. Almost make fun of me, but it
+3:50 should look like me. And this right here
+3:55 was the result.
+3:57 And obviously, as many of you have
+3:59 mentioned in the comments, I have big
+4:00 ears, so it decided to exaggerate my
+4:03 ears. And it also analyzed the images
+4:07 very closely, right? I had an AI-powered
+4:09 journal in the background of this image,
+4:11 and it put it here. It also
+4:14 put not a morning person, and it put a
+4:17 cup of coffee. And in the background of
+4:19 this image, there's a coffee menu.
+4:22 And overall, I think this is pretty good
+4:23 and pretty funny. But this is where the
+4:26 first real experiment happened. So let
+4:29 me show you what happens next. So then I
+4:32 asked for 11 different edits in one
+4:35 prompt. So in this one single prompt, I
+4:38 edited this image, and I wanted it to
+4:41 make 11 different edits, and I'm going
+4:45 to show you exactly how many of those
+4:46 edits were made perfectly. So after the
+4:50 image edit was made, this was the
+4:52 result. I want to go through all 11
+4:55 edits that I asked for, and let's see
+4:57 how it did. So let's go through one by
+4:59 one. So the first one is make his coffee
+5:01 say Riley Brown. Boom, done. Then it
+5:04 said get rid of the Red Bulls. As you
+5:05 can see here in the first one, there's
+5:06 Red Bulls,
+5:08 and it got rid of the Red Bulls. Third
+5:10 one. Now this one is a trick that I
+5:13 tried to do. I said change his shirt to
+5:15 orange, and then later in the prompt,
+5:17 his shirt should become a brown
+5:19 turtleneck. And it it ended up being a
+5:22 brown turtleneck. So three for three.
+5:25 Then it said change the background
+5:26 screen to say vibe.code.dev. You can see
+5:28 here it has some AI-powered journal.
+5:30 Here it says vibe.code.dev.
+5:32 Here I asked it to say today's plan
+5:35 should be for a content creator, and it
+5:37 changed this. Here it says overthink,
+5:41 overexplain, overcaffeinate, maybe work.
+5:43 And it changed this to be for a content
+5:46 creator. I said change the sign at the
+5:49 top to GPT image 2. It did that. Uh make
+5:52 the bobblehead in the background a
+5:54 monkey. It did that perfectly in one
+5:56 shot. I said make the microphone brand
+5:58 Palantir. And then for the next one I
+6:01 said add an earring on his left ear. You
+6:04 see that this is the ear on the right,
+6:06 but it is his left ear. It did that
+6:08 correctly and it should be a pink
+6:09 diamond. Boom. I said make his hair a
+6:12 skin fade. You can see here it's not
+6:14 really a skin fade in this one it is a
+6:16 skin fade.
+6:17 Um and then of course it got the brown
+6:19 turtleneck correct. I said the sticky
+6:21 note should be orange and say keep
+6:22 winning. You can see here it says not a
+6:24 morning person down here at the bottom.
+6:26 And then it switched it to keep winning.
+6:28 And and then I I added at the very end I
+6:30 said make these changes and change
+6:32 nothing else. Keep all in the same
+6:34 position. So it executed this edit
+6:38 perfectly down to the pixel. And then of
+6:40 course I had to test it on creating
+6:43 cartoons. So I said these are for photos
+6:44 of me just like the previous prompts.
+6:46 Can you please create a 2D comic of me
+6:49 in the 80s? Should capture the politics
+6:52 of the time. Eight photos in one. So
+6:55 here's the prompt and here's the result.
+6:58 You know I don't really remember the 80s
+7:00 or even the 90s for that matter, but
+7:02 this does seem relatively accurate. You
+7:04 can pause the video to take a look.
+7:06 Because the real experiment of this one
+7:09 are in the next two prompts. So the next
+7:11 prompt that I did was an image edit. So
+7:13 I used this image in the background here
+7:15 as a reference image and I said do the
+7:18 same but for Europe. Make me look
+7:20 European by changing my hair and
+7:23 clothing and surroundings, but I should
+7:25 be the same. And so here is the result.
+7:29 So here it made me more European. I'm
+7:31 wearing European European clothes. But
+7:35 you know I am an oblivious American and
+7:38 I don't really understand the culture of
+7:39 Europe. So then I decided to try this
+7:42 prompt. This is a category of image
+7:44 generation that I call overlay
+7:46 explanation. So, I used this image as a
+7:49 reference or I added this to the prompt
+7:51 and I said, "I don't understand these
+7:53 references. Can you make an overlay in
+7:56 red which explains the references in
+7:58 simple text, please? Change nothing
+8:00 about the image except add an overlay
+8:03 which explains all of the references.
+8:05 Use a legible font that looks
+8:07 handwritten and arrows that look pen
+8:09 drawn." And then here's the result. It
+8:12 created this image and added these
+8:14 little
+8:16 red annotations over the top of every
+8:19 single image. And since this is a
+8:22 thinking image model, it's able to
+8:24 actually think about all of the
+8:25 different parts of the image and then
+8:27 add this annotation, which is really
+8:30 cool.
+8:31 We can see that this is a peace sign,
+8:32 which is the anti-nuclear movement. We
+8:35 have the labeling of the Berlin Wall
+8:37 falling, the end of division in Europe.
+8:40 Here we can see that this is Chernobyl
+8:42 disaster, nuclear accident in the Soviet
+8:45 Union. And anyway, this is a pretty fun
+8:48 thing to do on top of images.
+8:50 Okay, so how do you get started?
+8:53 Well, it's pretty easy, actually. All
+8:54 you have to do is type in ChatGPT into
+8:57 Google, then go to ChatGPT.
+9:01 And then you can click create an image.
+9:03 And this will add this little image tag
+9:05 in here indicating to ChatGPT that you
+9:07 are indeed generating an image. One of
+9:10 the coolest that I saw was creating
+9:12 blueprint posters. And so, I saw this
+9:15 prompt as a template and I can very
+9:17 easily upload an image of myself to
+9:19 this. And we can run this prompt. And
+9:22 when you enter your prompt, you will see
+9:25 the reference image up here. You'll see
+9:27 the prompt that you entered to create
+9:29 that image right here. And you will see
+9:31 your image being created. And I really
+9:34 like the UI. They made it a lot simpler.
+9:37 And then it takes around like 20 to 30
+9:40 seconds to generate each image, but as
+9:42 I'll show you later, you can actually
+9:44 use agents to generate the images so
+9:46 that you can do them in parallel. We'll
+9:48 get to that in a little bit. All right,
+9:49 so our image is done, and I'm just
+9:50 realizing now that this is meant for
+9:52 like interior design, but it created
+9:55 this pretty funny image of me,
+9:58 uh and it's measuring all of my
+10:00 measurements, which is actually kind of
+10:02 funny.
+10:03 One cool thing that you can do is you
+10:04 can use the select tool, and this allows
+10:06 you to select a certain part of the
+10:08 image, and remember, you don't need to
+10:10 be exact by any means. You're basically
+10:12 just giving the AI a general idea of
+10:16 what you want. And so, I'm just going to
+10:18 highlight the the hair here, and all I
+10:21 need to say, right? The AI is going to
+10:23 have context of this. I say, "Make this
+10:25 solid uh white color it in." So, I'm now
+10:29 giving context to the agent. And you can
+10:32 see here that instead of showing an
+10:34 image as the input reference, there's
+10:36 now a selection in the input reference,
+10:38 and I can't open the selection, but I
+10:40 can see that there is a selection that
+10:43 was made, and it is now working. And
+10:46 then as you can see here, it was
+10:48 perfectly colored in.
+10:51 And now we're actually going to test
+10:53 iPhone mockups for mobile apps. So, this
+10:56 is my app, Vibe Code app. As you can see
+10:59 here, we're going to upload 1 2 3 4 5
+11:03 app screenshots into the prompt as well
+11:06 as the logo. So, I'm just going to drag
+11:09 these six images in, and we're going to
+11:11 drag these in right here. Now I'm going
+11:14 to say, "Here are
+11:17 uh five app screenshots of my iOS app
+11:21 and the logo, the orange logo.
+11:25 Can you please make a really cool
+11:29 horizontal image that shows five
+11:32 high-quality iPhones with these exact
+11:35 screens on the iPhones hovering over a
+11:38 beautiful background with the logo
+11:42 on this and it should say welcome to the
+11:46 vibe code generation and the background
+11:48 should be insanely beautiful nature
+11:51 green and yeah very green
+11:55 background that kind of matches some of
+11:57 the green tones in the screenshots but
+12:00 the mock-ups of these phones that are
+12:02 floating should look very
+12:03 three-dimensional and beautiful. This
+12:05 should be the most beautiful image ever.
+12:10 So as you can see here all six images
+12:12 are entered as a reference. We will see
+12:14 how it does here. Okay, so it is done.
+12:16 Let's go ahead and open this up. I don't
+12:20 absolutely love the image overall but I
+12:22 want to bring up the fact that if we go
+12:24 to finder and we actually were to open
+12:27 this image right here
+12:29 we can see that this phone screen is
+12:32 right here. This is very very similar.
+12:35 It did put the vibe code up here and
+12:37 there is five different images here.
+12:41 Let's go ahead and open up this one. As
+12:43 you can see here this is this one. Look
+12:45 at this. This is very similar. So it
+12:49 nano banana which was the best image
+12:51 model previously was not this good at
+12:54 getting them like pixel perfect on pixel
+12:57 perfect on these UI designs. This is
+12:59 basically exactly perfect with all of
+13:03 the icons all of the text the entire
+13:06 keyboard. This is actually mind-blowing.
+13:10 Okay, so I actually got this idea from
+13:12 this guy's post. This one looks way
+13:14 better. So I'm going to copy this and
+13:16 I'm going to go back to chat GPT here.
+13:19 I'm going to say the phone screens look
+13:20 really great. So keep those exactly the
+13:23 same. I just want it to look a little
+13:24 bit more like this and actually don't
+13:27 have the text or logo.
+13:31 And I'm going to paste that new image
+13:33 and now let's try it. So we're going to
+13:34 give one image, basically a reference
+13:37 image. Okay, it's done. Let's go ahead
+13:39 and check this out. Wow. This is pretty
+13:42 damn good, right? This is looking good.
+13:46 So it looks a lot better than this
+13:48 background. Something about the
+13:49 background is a little bit off. But here
+13:51 after we gave one solid reference image,
+13:53 we have this like light coming down.
+13:56 Maybe what I can do Look at this. Now
+13:59 I'm going to take a screenshot. Now
+14:01 whenever you want to give visual context
+14:03 to an AI, I recommend using this tool
+14:05 called CleanShot Pro. I believe they
+14:07 have a free version. I don't know if
+14:09 this is paid, I forget. But we can
+14:12 actually
+14:13 really quickly take a screenshot. Now I
+14:15 can just immediately draw on the image.
+14:17 And what I'm going to do is I'm going to
+14:19 go like this.
+14:21 And so I can very I can just easily copy
+14:24 this and be like, "Okay, this is
+14:26 fantastic. Please make them in the shape
+14:30 shown uh in this image here."
+14:37 Now we're going to wait for the image to
+14:39 be done. Okay, and it's done. Check this
+14:42 out. Very similar as you can see here.
+14:45 We have this original shape straight
+14:47 across and now we have them in this nice
+14:49 arch. This is a pretty cool use case.
+14:53 So I have a theory that because I
+14:55 uploaded five screens, it didn't look
+14:57 quite as good as this. So I'm going to
+15:01 Please complete emulate the first image
+15:04 that has two mockups except with the
+15:06 other two screens.
+15:08 Uh please do that and slightly change
+15:11 the background. Don't make it like the
+15:13 exact same thing, but the point is I
+15:15 want a really high-quality 3D renders of
+15:17 phones showing off the screens and it
+15:20 should look absolutely beautiful.
+15:25 All right, so it's done and I think my
+15:28 suspicion was correct. These are much
+15:31 higher quality screenshots. You know,
+15:33 five screenshots there's a lot of detail
+15:36 to pack into a single image. This is a
+15:37 much closer up image. I think this looks
+15:40 so much better. This is a very high
+15:42 quality image. This is really cool.
+15:44 Okay, so before we get to using this in
+15:46 Codec, their new AI agent super app, I
+15:49 want to talk about where else you can
+15:51 use this image model. And if you go to
+15:54 Open AI Playground and you open up their
+15:58 platform. Here on the left side here
+16:00 you'll see an image tab and in this
+16:02 image tab you can select GPT image two
+16:06 and you can change the settings. And you
+16:08 can see here one of the coolest things
+16:10 about this new image model is you can
+16:11 generate images in 4K. You can generate
+16:14 images in 2K. Um let's try the 4K one. I
+16:19 want you to generate an image of 175
+16:24 people in the crowd and there is one
+16:28 purple dinosaur in the crowd. And so
+16:32 this is a place where you can kind of
+16:33 generate uh images. It's a lot easier to
+16:37 rapid fire send images. Here you'll
+16:39 actually need to sign up for the Open AI
+16:42 API and you'll actually have to go into
+16:44 billing and add some credit. It is a
+16:46 separate billing process, but this is a
+16:48 way where you can like rapid fire. Like
+16:50 I can type bunny and I can rapid fire
+16:53 generate images and I kind of have more
+16:56 granular control over the image model
+17:00 and all of the different settings.
+17:02 Okay, so I have no idea how many people
+17:05 are in this. Let's go ahead and open
+17:07 this up real quick. I do not want to
+17:10 have to count this manually. Please
+17:13 add
+17:14 a overlay of counting how many people
+17:18 are in this photo. The photo should stay
+17:20 exactly the same except from the top
+17:23 left down to the bottom right, you
+17:25 should number each person and the bottom
+17:28 right person should be the last number,
+17:30 which should tell us exactly how many
+17:31 people are in this image.
+17:34 So, we're going to use AI image to count
+17:35 how many people are in this image. Let's
+17:37 see how it does.
+17:40 All right, we hit our first limitation.
+17:44 This is the first limitation that I've
+17:45 seen with this image model.
+17:47 It cannot count properly. It's like
+17:50 double labeling people. Um and there
+17:53 isn't even one, right? We don't even see
+17:55 one. We see 1 2 3 4 5 6 6 9.
+17:59 Um it is not able to separate the
+18:03 different people and number them
+18:04 correctly. Here we have like all of
+18:07 these people have like half of their
+18:08 body showing and the people who have
+18:10 their full body showing, this woman is
+18:12 226 227 225 and 241. And you can see
+18:17 that pattern and here we have a total of
+18:19 263, which is more than 175. So, that's
+18:24 just one limitation of this image model.
+18:26 Okay, my favorite part about this new
+18:29 announcement is that it is baked in to
+18:31 Codex. And you know, 2 days ago I
+18:34 released a video on Codex. It's an hour
+18:36 and 40 minutes explaining why this is
+18:38 the number one tool to learn and
+18:40 everyone just automatically has access
+18:42 if you have a chat GPT account. Even if
+18:45 you have the free account, you do get
+18:47 access to Codex. And
+18:49 and so very simply, you could say that
+18:51 this uh agent platform Codex is a lot
+18:54 like Cursor mixed with Claude Code mixed
+18:56 with lovable. It is a general agent tool
+18:59 kind of similar to Claude Code or even
+19:01 Open Claw
+19:02 and mixed with Cursor because now it is
+19:05 basically a full vibe coding platform.
+19:06 They have a browser that opens up here
+19:08 on the right side of the the app, but
+19:11 you can also create documents. But, it's
+19:13 also like Cohere, because you can create
+19:16 PowerPoints. And so, that's the use case
+19:18 that I'm going to show you right now.
+19:20 So, you know how on Chat GPT this whole
+19:22 time basically we've had to prompt the
+19:25 AI to create this. Like, we actually had
+19:27 to type in our image prompt right here
+19:29 and say, "Create this thing that does
+19:33 blah." Right? We type in our prompt here
+19:35 and we have to do it every time we want
+19:36 an image. Well, now image generation is
+19:39 just a tool for Codex. Codex is the best
+19:42 coding model in the world. It's one of
+19:44 the smartest general agents in the
+19:46 world. And one of the tools it has
+19:47 access to now is image generation. And
+19:50 so, a simple version of the prompt I
+19:52 entered was, "Check Readwise." Which is
+19:54 my second brain tool where it's
+19:56 automatically hooked up to my Twitter
+19:58 bookmarks. So, all of the tweets that I
+20:00 bookmark get saved to Readwise. And so,
+20:02 I just told Codex. I said I said, "Check
+20:05 Readwise. Create a PowerPoint." Which is
+20:08 a skill, right? The same way you can
+20:10 create a Claude skill, you can also
+20:11 create a skill up here if you click on
+20:13 plugins. Um create a PowerPoint
+20:15 presentation of my recent saves with
+20:18 annotations. And I basically said each
+20:20 slide is a GPT-image-to-image
+20:24 that
+20:26 image
+20:28 that has the OG tweet
+20:32 and annotations over the top. And so,
+20:35 then it did take like 10 minutes,
+20:37 because it actually had to go out and
+20:39 research these annotations, right? It
+20:41 actually went out and learned about the
+20:44 new image model and then it realized it
+20:46 was a state-of-the-art image model and
+20:48 it add context-aware
+20:50 annotations over the slideshow. And you
+20:53 can go through here and we can see that
+20:55 there are 10 different slides. And these
+20:58 are all images that I've saved. It even
+21:00 added the profile picture to this single
+21:02 image on each slide. And so, we have
+21:05 context over all of the tweets that I
+21:07 save. Traditional SaaS will become
+21:10 headless. UI becomes optional, right?
+21:13 You'll die unless you build for agents.
+21:15 Agent native product design. So, this is
+21:17 just a fun use case of a single prompt
+21:19 that generates a presentation of many
+21:21 images. And what's really cool about
+21:25 Codex is you can just very easily export
+21:28 this to Canva, which I was already using
+21:30 at the beginning of this for my slides.
+21:33 And you can see here it's loading. And
+21:35 you can see here each slide has one GPT
+21:38 image. I did not prompt this specific
+21:40 image. The AI agent Codex used the GPT
+21:45 image to tool to generate these images
+21:48 on my behalf. And so, if you give it
+21:50 enough good instructions, it could
+21:52 generate thousands of images for you
+21:55 based on your own liking. And so, I
+21:57 believe that way more agents will be
+21:59 prompting GPT image two than humans
+22:02 because agents are getting so good at
+22:04 following patterns.
+22:06 Anyway, so this model came out only a
+22:08 few hours ago. I'll be covering it in
+22:09 great detail. I'll be covering image
+22:11 generation a lot going forward, but
+22:13 it'll probably be in the lens of AI
+22:15 agents. That's just my biggest passion
+22:17 right now. I think that's the highest
+22:18 leverage thing to learn in AI. And so,
+22:21 I'll be covering that a lot. But thank
+22:22 you guys for watching. This was a fun
+22:24 video. I'll see you here for the next
+22:25 one.

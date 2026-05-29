@@ -1,0 +1,1155 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=mJwPvyc4-rk
+Channel: Greg Isenberg
+Video ID: mJwPvyc4-rk
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:01 this was a really special episode I had
+0:03 Ras Mike on and we teach you he teaches
+0:08 you how to get the most out of AI to
+0:12 build your SAS startup and we actually
+0:16 go through a new tool called lovable uh
+0:19 which not many people have talked about
+0:21 but we teach you how to use lovable to
+0:23 go and create a SAS startup in minutes
+0:28 but also one that people will love
+0:31 you're going to enjoy this episode it's
+0:33 an absolute
+0:34 [Music]
+0:42 treat all right special episode Ras Mike
+0:45 is back you asked he's back and what are
+0:49 we talking about today man you know I
+0:51 feel like family at this point so thank
+0:53 you for having me Greg but today I think
+0:55 we want to get a little bit in the weeds
+0:58 and talk about how to get the best out
+1:00 of these AI tools and models because
+1:02 every single day they're getting better
+1:03 but are you getting better on how to use
+1:05 them and that's what we're going to be
+1:06 talking about yeah and I think I think
+1:09 people should stick to the end for this
+1:10 one just because this is this is what
+1:13 people need in order to get the most out
+1:14 of these tools so I'm sure a lot of
+1:16 people have watched some of our episodes
+1:18 even and have been struggling with some
+1:20 of these AI tools but I think what
+1:23 you're going to teach them today is
+1:25 going to just sober them up a little bit
+1:29 and give them what they need to actually
+1:32 get the most out of it so without
+1:33 further Ado Mr Ros
+1:36 Mike thank you Mr Greg I appreciate that
+1:39 so one of the things that um if you've
+1:42 never worked like a big corporate job on
+1:45 the tech side um one of the things
+1:47 you'll realize is how a lot of these
+1:49 companies work and maybe I'll draw I'll
+1:51 scribble my thoughts um often time like
+1:54 let's say there's this big product that
+1:56 the team or the company wants to build
+1:59 and usually the relationship looks like
+2:02 this on one side you have uh product de
+2:05 uh product managers right the people
+2:08 that everyone wants to make fun of on
+2:10 Twitter and then you have the developers
+2:12 right and believe it or not product
+2:14 managers don't just you know film Tik
+2:17 Tok videos doing day in the Liv they
+2:18 they actually are an important part of
+2:20 the organization where they Define
+2:23 certain things right so let's say a
+2:25 feature is going to be built if a
+2:27 feature is going to be built believe it
+2:29 or not in most organizations the
+2:31 developers are not the creatives right
+2:34 we sort of get told what to build now
+2:36 we'll give input uh we give you know
+2:39 like feedback but most of the time it's
+2:41 the product manager that's going to give
+2:43 us the product spec what it needs to
+2:45 look like right the product person will
+2:47 either work with like maybe a ux person
+2:50 so there'll be like a ux team here right
+2:54 there'll be a ux team here and then
+2:56 maybe there's like some business people
+2:58 in suits who are over paid here that are
+3:00 going to tell us what to do right we'll
+3:02 just do business here so but the product
+3:06 person takes information from all these
+3:08 people all the needed assets all the
+3:10 needed information combines it together
+3:14 and distills that information to the
+3:16 developer right so what does you know
+3:18 what what's needed in the feature right
+3:20 um if some of you are product people
+3:22 watching you're familiar with a PRD
+3:24 which is a product uh road map or
+3:26 development road map or PDR whatever the
+3:28 term is called and basically this
+3:31 information is then handed over to the
+3:33 developer the developer will have
+3:35 questions but at the end of the day if
+3:38 the information is good enough the
+3:39 developer can successfully build this
+3:42 and I experienced this on a day-to-day I
+3:45 work with great product people and I
+3:47 realize Greg that a lot of people are um
+3:51 are LED down by the AI tools
+3:53 hallucinating or giving them the wrong
+3:55 thing and that's because most people are
+3:57 terrible product managers if you frame
+3:59 your yourself as you know when you're
+4:01 typing in the AI model that you are a
+4:03 product manager you're you're I hope
+4:05 your mind shifts because giving it one
+4:08 prompt saying oh build this for me and
+4:11 then expecting it to build exactly
+4:13 what's in your mind is what we call
+4:14 daydreaming right so one of the things
+4:17 that I really want to communicate and
+4:18 Greg I would love your feedback is
+4:20 collecting all the information that you
+4:22 need what kind of flows do you need what
+4:25 what uh features are you trying to build
+4:27 what even is the core product you're
+4:28 trying to build right right if you don't
+4:30 have these things figured out and you're
+4:33 just going to prompt your way to success
+4:35 unless you have um the highest
+4:38 subscription for any AI tool you're just
+4:39 going to burn credits right so I really
+4:42 encourage people going back to this part
+4:46 is knowing how to write knowing how to
+4:48 define uh features with extreme
+4:50 precision and studying product and I I
+4:53 say this because I've worked with I work
+4:54 with great product managers now but I've
+4:56 worked with terrible ones and there have
+4:58 been times where requirements have been
+5:00 given to us developers and we've
+5:02 literally built the exact opposite of
+5:04 what they were thinking because they
+5:05 didn't communicate what they were
+5:06 thinking properly so don't assume the
+5:09 model knows the models are dumb they're
+5:11 trained on thousands of lines millions
+5:13 of lines of code so they can sort of
+5:15 predict what you're exactly asking them
+5:17 but they don't know you are the one to
+5:19 know and that's one of the I think best
+5:23 ways to get the best out of your AI uh
+5:25 tools you need to be a product person
+5:28 now and Greg I don't know if I just
+5:30 rambled for a few minutes but hopefully
+5:32 that sort of made
+5:34 sense dude can I just share my screen I
+5:37 know this is Off Script
+5:40 please at my last company I I raised
+5:42 money by this guy named Josh Elman and
+5:44 people who in Silicon Valley know Josh
+5:47 Elman he was like one of the first
+5:49 product managers of LinkedIn Twitter
+5:52 Facebook like you you know
+5:55 he's he's kind of
+5:58 like ask ke beer who's the best product
+6:00 manager he'll be like Josh Elman and he
+6:03 has this really good presentation around
+6:05 what is a product manager do and I'm
+6:07 going to I'm going to fly through this
+6:08 within 90 seconds just so people get a
+6:11 sense of like what a product manager
+6:13 does um well what does a so this is old
+6:16 right what doesn't a product manager do
+6:18 write code right um so that's going to
+6:23 change um but a lot of the a lot of the
+6:26 Frameworks here still make sense so what
+6:28 does a product manager do Define define
+6:30 the market and customer launch timing
+6:33 sales and marketing uh collateral Define
+6:35 the problem and value proposition
+6:37 competitors products and capabilities
+6:39 Define the requirements and road maps
+6:41 that's what you were talking about the
+6:42 PRD product requirement document
+6:45 internal external stakeholder
+6:46 communication this is more important for
+6:48 bigger companies but still matters
+6:51 product evangelist and Champion so and
+6:53 then more simply it's kind of the
+6:55 intersection of where ux Tech and
+6:57 businesses
+6:59 that's what that's what a product
+7:01 manager
+7:02 is um I'm going to keep going through
+7:07 this
+7:08 so uh one of my favorite Parts
+7:14 here where is
+7:17 it in real okay you know
+7:20 basically it's you're the life of a
+7:22 glorified notaker some people think the
+7:24 job of a product manager is glorious in
+7:26 reality the most important thing you do
+7:28 is document decisions follow-up notes
+7:30 usually take longer than actual
+7:32 meetings um so I think that you know I'm
+7:36 just scrolling through this you need to
+7:38 learn people need to learn how to become
+7:40 a great product manager and it's a lot
+7:43 of these Frameworks around like
+7:44 advocating for the user how to
+7:46 communicate how to how to take notes um
+7:50 you're not don't think of yourself I I
+7:52 don't think of yourself as an engineer
+7:54 as a builder I think of yourself as a
+7:56 product manager first and then a builder
+7:58 second quick ad break let me tell you
+8:01 about a business I invested in it's
+8:03 called boring marketing.com so a few
+8:06 years ago I met this group of people
+8:08 that were some of the best SEO experts
+8:11 in the world they were behind getting
+8:14 some of the biggest companies found on
+8:16 Google and the secret sauce is they've
+8:18 got a set of technology and AI that
+8:21 could help you out rank your competition
+8:24 so for my own businesses I wanted that I
+8:27 didn't want to have to rely on Mark
+8:28 Zuckerberg I didn't want to depend on
+8:30 ads to drive customers to my businesses
+8:33 I wanted to rank high in Google that's
+8:36 why I like SEO and that's why I use
+8:38 boring marketing.com and that's why I
+8:40 invested in it they're so confident in
+8:42 their approach that they offer a 30-day
+8:44 Sprint with a 100% money back guarantee
+8:47 who does that nowadays so check it out
+8:50 highly recommend boring marketing.com so
+8:53 yeah I mean that that's perfect right um
+8:55 I definitely do think great product
+8:57 people will be great users of the models
+9:00 uh just because again i' I've seen a lot
+9:03 of people like write oh create a to-do
+9:06 list a SAS business for me like what
+9:08 does that mean right like how many pages
+9:11 do you need is there an accounts page is
+9:13 there going to be authentication so all
+9:15 these things are very very much
+9:16 necessary and thank you for you know
+9:18 confirming my my thesis on this uh with
+9:21 that slideshow now the second thing I
+9:23 think that's going to help people with
+9:25 getting the best out of AI is just
+9:27 understanding the basics of the web and
+9:29 I I I I don't mean learning how to code
+9:31 and all that stuff although you know I'm
+9:33 a big fan of coding I love writing codes
+9:35 and I think if people gave it a shot
+9:37 they would actually enjoy it but that's
+9:39 not what I'm trying to share essentially
+9:42 what I think is it's very important to
+9:44 understand like what technologies these
+9:46 tools use um right off the bat like I
+9:49 can already tell you um bolt for example
+9:51 bolt. I know there's a lot of people's
+9:53 favorite uses react plus v off the bat
+9:57 right so whenever you start off a new
+9:58 bolt app it uses react for the front end
+10:01 and V is like the compiler the one that
+10:03 builds the app if you use uh v0 which uh
+10:06 recently launch deployments which is
+10:08 pretty awesome uh VZ uses nextjs under
+10:11 the hood right so like what are what's
+10:15 nextjs what's react what are these tools
+10:17 and a lot of people you might hear a lot
+10:19 of people talk about superbase as a
+10:22 database provider right what does super
+10:24 base even mean and I think having a
+10:26 basic understanding of these things can
+10:28 help and that's I'm here to break down
+10:31 so in the web there are three big like
+10:36 sections of the web right like of a
+10:38 proper website SAS whatever you want to
+10:40 call it there's a client side a server
+10:42 side and a data storage side pretty
+10:45 simple stuff the client side is what you
+10:47 see so when I go on uh my portfolio C
+10:51 rosic doxyz what I see this is the
+10:54 client this is the front end right so
+10:57 this is where the user interacts this is
+10:59 your website and then the server is
+11:01 where all the fancy math apis business
+11:04 logic and all that stuff happens and
+11:07 then your database is where all the data
+11:09 stored right so if a user signs up if
+11:11 let's say I have a can band board and I
+11:14 create my to-do list that information
+11:16 needs to be stored and has to be
+11:18 associated with my username so when I
+11:20 log out and then I log back in that same
+11:23 data is there persist persists that's
+11:25 what a database is for so this three
+11:28 block system is what creates a
+11:30 functional SAS I bring that up because
+11:33 having this understanding will help you
+11:36 identify where things are going wrong
+11:38 when you're prompting your models and
+11:40 here's why a lot of people are good at
+11:44 going to a model like for example I can
+11:46 go to vzer and say uh create um landing
+11:51 page for a lawn moing business if I
+11:55 spelled mowing wrong I apologize to my
+11:57 English teacher but so while VZ is
+12:00 prompting what I wanted to show you is
+12:02 right now what I prompted essentially
+12:04 what VZ is going to do is going to work
+12:06 on the front end because I gave it no
+12:08 instructions on what to do on the back I
+12:11 did not tell it we need authentication I
+12:13 did not tell it we need payments I did
+12:14 not tell that we need a database so most
+12:17 people start off with a prompt like this
+12:20 and yes it's writing some fancy looking
+12:22 code but all I'm going to get is an AI
+12:26 generated landing page and that's
+12:28 because I just worked on the front end
+12:30 so it's very important that I understand
+12:32 the difference between what a front end
+12:34 is a backend is and a database is but
+12:37 here's a perfect Here's the the the the
+12:40 crazy part of where we where we are in a
+12:42 society as a tech ecosystem you have
+12:46 companies that are called and Greg I'm
+12:48 sure you're familiar with this companies
+12:50 that are called backend as a service
+12:53 meaning front end is generally
+12:55 considered to be easy though it's not
+12:57 but backend is the is the difficult part
+12:59 you need to worry about security you
+13:01 need to worry about scale I had a
+13:03 startup one time during 2023 a web3
+13:06 startup um it grew so much that the
+13:09 backend uh the the application we built
+13:12 was not built for scale so it literally
+13:14 broke like it it PE people cannot access
+13:17 it right but we moved over to a backend
+13:20 as a service and guess what they started
+13:24 they handled scale they handled all the
+13:26 users they handled all the fluctuation
+13:28 and a lot of people know these back in
+13:30 as a Services you have a super base you
+13:34 have a slepton one and and Greg maybe
+13:37 bring them on the Pod because they're a
+13:38 great team and their tools amazing a
+13:41 convex these tools basically what they
+13:43 allow you to do is they build out your
+13:46 database so if we go back to my drawing
+13:49 they build out your server and they
+13:51 build out your database and all you kind
+13:54 of have to do is worry about your client
+13:57 and what your client calls um on the
+13:59 server and the database and I know it
+14:01 sounds like I'm saying a bunch of mumbo
+14:03 jumbo but really what a successful AI
+14:07 tool Builder is going to do is they're
+14:09 going to
+14:10 identify okay what am I going to do for
+14:12 my front end so this landing page that I
+14:14 just built on v0 that unfortunately
+14:18 broke let's click fix there uh
+14:21 oh um so people are going to need to
+14:25 identify okay what does my front end
+14:27 look like being a product uh manager but
+14:30 then what backend as a service do I use
+14:33 do I use superbase do I use convex or do
+14:36 I use whatever is out in the market
+14:38 right I think these two are the best
+14:39 ones and I enjoy both and basically what
+14:43 this allows you to do is you now have
+14:46 the ability through these tools to build
+14:49 a full stack application because an
+14:52 application is not just a landing page
+14:53 you need authentication user needs to be
+14:55 able to sign up you need a database data
+14:57 needs to be stored you need payments
+15:00 people need to pay you I hope you want
+15:01 to get paid and having this Frame of
+15:04 Mind understanding that there's a front
+15:06 end that you have to worry about there's
+15:07 a backend in a database you have to
+15:09 worry about there's authentication that
+15:11 you have to worry about is important to
+15:13 know but more than that it's important
+15:16 to pick which tool you want to use for
+15:17 the job and this is why I wanted to talk
+15:20 about uh Greg before I get into it
+15:22 lovable which is a new tool you know a
+15:26 new AI developer tool uh development
+15:29 tool but what's cool about lovable is
+15:32 they have super base integrated so it
+15:35 takes one prompt to get your backend set
+15:39 up it takes one prompt to get your
+15:41 database set up it takes one prompt to
+15:43 take your off set up but I guess before
+15:45 we get into the building stuff did that
+15:47 kind of make sense or did I just Yap
+15:49 technical tget no that it makes complete
+15:51 sense I you know maybe this is two in
+15:54 the weeds but when you're building
+15:56 something how do you think about using
+15:59 super base versus convex like they're
+16:01 both such great plat you know platforms
+16:04 so how do you how do you know what to
+16:06 pick yeah so it it definitely is going
+16:09 to get in the weeds because generally
+16:11 they're both great at what they do now
+16:16 convex wins when it comes to real time
+16:19 stuff right so if you wanted to build a
+16:21 chat application or something where real
+16:24 time like you need some sort of real
+16:25 time notification or you're building
+16:27 some sort of like collaborative tool and
+16:30 you need people to see what other people
+16:32 are doing I think convex wins not that
+16:34 superbase can't do it but convex by
+16:37 default is uh real time so anything you
+16:41 do with convex you get the data real
+16:42 time which is great but there are people
+16:45 and this might be too technical who
+16:47 might need a postgress database right
+16:49 that that's the main database that
+16:51 superbase offers and they're the best at
+16:54 that no one does postgress the way
+16:56 superbase does in terms of DX developer
+16:58 experience especially right so it really
+17:01 depends on the application the user
+17:04 building the best way I would I would
+17:07 say for someone who might not be as
+17:08 technical as your average developer is I
+17:11 would ask an AI model I'd go on chat jpt
+17:14 Claud and be like this is what I'm
+17:15 trying to build and I I know there are
+17:17 these two backend as a Services which
+17:18 one is better for my specific use case
+17:21 there might be one where convex is
+17:22 better and there might be one where
+17:23 super base is better but generally
+17:25 speaking both are great Solutions
+17:29 beautiful all right let's uh let's go
+17:32 into dare I say the
+17:36 uh the the vzero killer the bolt killer
+17:40 the uh the brand new what everyone's
+17:43 talking about lovable yeah and I think
+17:46 we're going to get more of these because
+17:49 YC just keeps funding a lot of these uh
+17:53 tools so that really means one of these
+17:55 is going to explode and I think if
+17:57 someone spends time on the core
+18:00 fundamentals whatever AI tool ends up
+18:02 winning you you'll be a great Builder
+18:05 with it right so let's you know let's
+18:07 start let's build I don't know um I
+18:11 don't want to get too crazy but let's
+18:13 build maybe um any ideas Greg something
+18:16 simple that's not
+18:19 too monstrous
+18:24 um could I mean I don't know how
+18:26 monstrous this is but what about like a
+18:28 not taking tool okay um I want a not
+18:33 taking tool for
+18:34 Founders I want to build a not taking
+18:39 SAS for Founders okay now
+18:44 there should be a user
+18:50 authentication there should be a nice
+18:53 clean landing page explaining why
+18:58 founder
+19:01 need my
+19:04 SAS and will and I'll just end it here
+19:08 and we'll continue from here main thing
+19:10 that I wanted to show is this super base
+19:13 button right here and this is what makes
+19:15 it powerful they have a direct
+19:18 integration with superbase meaning the
+19:20 AI models are well trained on setting up
+19:23 authentication with superbase uh setting
+19:26 up your database tables with superbase
+19:27 which is pretty difficult
+19:29 if the AI models are not very um
+19:32 knowledgeable inset tool but the the way
+19:36 the future is going it seems to me that
+19:39 a lot of these tools are going to be
+19:41 integrating directly with a lot of these
+19:43 backend as a Services right so a lot of
+19:46 the stuff that people are trying to
+19:48 learn right now in my opinion ends up
+19:51 being redundant in the next couple
+19:53 months which is why everybody's asking
+19:56 for a course but I'm not doing it
+19:57 because the tools are just going to get
+19:58 better but one thing that you can teach
+20:00 yourself now that will matter in 6
+20:04 months a year two years 3 years 5 years
+20:06 whatever is being a great product person
+20:09 being someone who sees a great product
+20:13 and identifies why this is great why the
+20:15 user experience is fantastic being able
+20:17 to write that down and communicate that
+20:19 to a model is where I think the real
+20:22 winners will be not trying to figure out
+20:24 how to integrate superbase with said
+20:26 tool because the tools are going to do
+20:27 it anyway yeah and as an example just I
+20:31 could have said let's build a not taking
+20:34 app that's really cool and the ux is
+20:36 really cool but I specifically said for
+20:38 Founders because like picking the niche
+20:41 being an advocate for the the user is
+20:45 such an important part about of being a
+20:47 great product manager yep yep and I
+20:49 agree 100% And so we have our your
+20:53 founder Journey documented okay I like
+20:55 that so let's click on get started
+20:59 okay it says let's okay I'll just create
+21:01 a random account registration not
+21:04 implemented please connect superbase to
+21:06 enable authentication so I'm going to
+21:07 click here and I've already logged in my
+21:10 superbase account and what I'm going to
+21:12 do is I'm just going to quickly create a
+21:13 new project uh we'll call this
+21:17 YouTube and YouTube Greg and I'm going
+21:21 to create a new project so this is me
+21:25 using superbase and this is how I know
+21:26 they have a direct integration that
+21:28 click took me directly to my
+21:30 account and once I go back if I click
+21:34 here I notice that it says inactive
+21:37 project I have to wait I believe a
+21:40 couple
+21:41 seconds so we'll just let that set
+21:45 up shh don't tell anyone but I've got 30
+21:49 plus startup ideas that could make you
+21:52 millions and I'm giving them away for
+21:55 free these aren't just random guesses is
+21:59 they're validated Concepts from
+22:01 entrepreneurs who built hundred million
+22:04 plus businesses I've compiled them into
+22:08 one simple
+22:09 database compiled from hundreds of
+22:12 conversations I've had on my podcast but
+22:16 the main thing is most of these ideas
+22:19 don't need a single investor some cost
+22:22 nothing to start I'm pretty much handing
+22:25 you a cheat sheet the idea bank is your
+22:28 start startup
+22:29 shortcut just click below to get
+22:32 access your next cash flowing business
+22:35 is waiting for
+22:36 you by the way I was I was kind of like
+22:39 laughing to myself when I saw it it's
+22:41 just like a button to integrate super
+22:43 base cuz like I had flashbacks to being
+22:46 in CS school and in 200
+22:50 uh like8 and this stuff was like we had
+22:55 to do the hard work back then yeah yeah
+22:58 no it's it's
+22:59 it's definitely like it's it's it's easy
+23:01 mode like honestly like even as a
+23:03 developer like a lot of developers are
+23:05 like like panicking that oh AI is going
+23:07 to take my job but like even myself like
+23:10 honestly Greg like with these like with
+23:11 the super based or Comics I can
+23:13 literally build anything in warp speed
+23:15 um because like a lot of the hard stuff
+23:17 they take care of right and you know
+23:19 sure they charge like 20 bucks a month
+23:21 but like if you know how to arbit charge
+23:22 that and make more who cares if you pay
+23:24 20 bucks a month
+23:26 right um that's a that's cocktail in
+23:29 Toronto Lally literally literally it's
+23:33 it's it's a McDonald's meal nowadays
+23:38 unfortunately
+23:39 um but yeah I think there's a lot of
+23:42 like I know I saw a lot of dudes like
+23:45 like doing like full-blown tutorials
+23:48 like how to integrate super base and
+23:50 stuff like manually and it's and it's
+23:51 difficult if you're not a developer
+23:52 right and I knew I was just like
+23:54 somebody's going to figure out an
+23:55 integration and when I saw these guys
+23:57 that's why I was like okay we have to
+23:59 talk about these
+24:01 guys and so your prediction is
+24:04 basically you know Bol or whoever is
+24:07 going to have these Integrations in the
+24:10 next few months yeah so they're going to
+24:12 have templates and Integrations so
+24:14 Integrations with like these backend as
+24:16 a services and then an integration
+24:18 directly with stripe so setting up
+24:21 payments few prompts setting up
+24:22 authentication whatever few prompts I
+24:24 think the mo for the next couple years
+24:27 cuz and I'm willing to argue this is
+24:29 design design and user experience
+24:32 becomes the Moe um because at the end of
+24:34 the day like if you can make the
+24:37 experience much richer much better and
+24:39 you can actually solve the problem um
+24:42 you know that's that's where you win
+24:43 because it's going to be super easy to
+24:45 build if I were like an advisor to
+24:48 convict or superbase that's the top one
+24:50 thing I would work on and if I was an
+24:51 adviser to these AI tools that's the top
+24:53 one thing I'd work on because that's
+24:54 where people are struggling the most and
+24:56 then if you have like a template Market
+24:58 place like like framer and web flow have
+25:01 where like maybe devs put up some
+25:02 templates on like how to use the
+25:04 different tools
+25:05 together it just it we truly enter like
+25:11 the the the birth of like non-technical
+25:15 multi-million dollar founders with no
+25:17 Tech found with no CTO or anything like
+25:20 that yeah I think the way I see it is I
+25:23 think design is is a huge mode
+25:26 distribution also huge mod so the way I
+25:30 think about it is if you think about
+25:32 like the physical world real estate you
+25:34 know the saying location location
+25:36 location like you know if you're opening
+25:38 a store selling you know coffee mugs uh
+25:43 you wanna you want a place where there's
+25:45 a lot of traffic so have traffic go into
+25:48 your store but then you're so that's
+25:51 distribution then when you're in the
+25:52 store the coffee mugs need to wow you
+25:54 off your feet right they need to get you
+25:56 to take out your credit card that's
+25:57 designed that's user experience and then
+26:00 the actual like building of the store
+26:02 well that's essentially getting
+26:04 commoditized right now a lot of these
+26:06 tools yeah and and so I I I agree with
+26:09 you and and that's one of the reasons
+26:10 why like I actually got a pretty like
+26:12 sick uh job offer um as like a lead
+26:15 front end lead um I didn't take it
+26:19 though and I I felt crazy not taking it
+26:22 at first but then I was thinking about
+26:23 like the YouTube channel and like just
+26:25 like the brand I'm building I like if I
+26:28 were to make a a year and a half bet I'm
+26:31 willing to bet that this would be the
+26:33 bigger like play versus that CU we're
+26:37 entering an area where like you said
+26:39 like a time where like distribution
+26:40 matters like the amount of like subpar
+26:44 companies versus like and good companies
+26:46 that hit me up just for ad it blows me
+26:48 away like um and I even told a friend I
+26:52 was like oh yeah I'm I'm charging this
+26:53 for sponsor and apparently I'm
+26:55 completely being undercharge I'm
+26:56 completely undercharged because I I just
+26:57 don't know the game like that right but
+26:59 I've come to realize think you said
+27:01 design and distribution becomes the
+27:04 biggest mod and I think that's where I'm
+27:07 I'm I'm trying to invest my time in
+27:09 because I kind of have the building part
+27:13 down and let's see if this is done okay
+27:17 I think we should be
+27:23 good all right so now if I go over to
+27:26 demos I see YT Greg is green so that
+27:30 means it's good I'm going to click on it
+27:32 and I'm going to click connect so it
+27:34 says I'm not connected to superbase
+27:36 project to GA gather your database
+27:38 structure tables security settings this
+27:40 may take a moment and again this one
+27:43 action is hundreds of prompts uh that
+27:47 people are using on all these different
+27:49 tools that haven't integrated with
+27:50 superbase which is why I think you know
+27:54 all the other tools have seen this
+27:56 they're probably working on this right
+27:57 now I wouldn't be surprised if next week
+28:00 all of them shipped this and this is why
+28:02 again going back to my main point I know
+28:04 I keep repeating it if you focus on the
+28:06 fundamentals you'll end up being a
+28:08 better
+28:10 Builder so it says okay and I can click
+28:13 on my project dashboard my project is
+28:16 set up um it I can read the docs if I
+28:19 want to it's still working so look what
+28:22 it's saying here it says superbase
+28:23 connected follow the instructions in the
+28:25 chat to complete integration so what are
+28:27 the instructions
+28:28 enable sign up login with options like
+28:31 email password or social login so I have
+28:33 to click here I
+28:37 believe oh no that's the uh URL let me
+28:40 go back is it here no that's not
+28:47 it
+28:49 okay what do I have to
+28:53 do let's see Let me refresh this you can
+28:57 now work fully featur here okay I'm
+28:59 going to
+29:00 ask how do I
+29:03 enable this stuff right here sign up
+29:05 login with options because it's asking I
+29:07 have to enable this how do I
+29:09 enable sign up login with options like
+29:12 email password and social
+29:19 login okay so it's creating my database
+29:22 tables it's writing some role level
+29:25 security it's writing policies so like
+29:28 no one can just tamper with my
+29:31 tables again all of this stuff is is not
+29:34 easy to do not trival especially uh and
+29:37 security like that always keeps me up at
+29:39 night like making sure that you're
+29:41 launching something and you you know you
+29:44 don't have
+29:46 to you really don't have to worry that
+29:48 much about security is a in a huge a
+29:51 huge deal and I I definitely do think as
+29:54 like um like these tools start to get
+29:57 popular that like um there's going to
+30:00 definitely be some sort of like
+30:01 intervention government intervention
+30:03 like they kind of have in Europe where
+30:05 you're going to have to adhere to some
+30:06 sort of like security policy and stuff
+30:08 like that so please do take security
+30:10 seriously especially if you're handling
+30:12 user data like you know I know you
+30:15 Founders are about hustle and speed but
+30:17 definitely take a little bit review
+30:19 security maybe hire someone couple bucks
+30:22 to review the security of your
+30:23 application it definitely goes a long
+30:25 way that being said let's try if this
+30:28 set up please connect okay I've already
+30:30 connected
+30:32 you and let me see what's going
+30:37 on it's still working actually uh yeah
+30:40 it's still working so I guess we got to
+30:42 give it a second sorry for all the dead
+30:45 time oh it's okay this is is a live
+30:47 cooking session you know we show we show
+30:50 it all yeah we show it all in these
+30:52 sessions and I think also one thing that
+30:55 people should should know is like this
+30:57 stuff is like without even without like
+30:59 tools aside this stuff is hard like you
+31:02 know as a developer you'll be stuck on
+31:04 like one bug one feature for so long
+31:07 right so you know there's definitely a
+31:09 part of me that says you know you got to
+31:10 have some grit you you know you have to
+31:13 like you're not going to one prompt get
+31:15 anything to work uh the way it should at
+31:19 least so you know definitely it's one of
+31:22 those things where you just got to push
+31:24 through and persevere
+31:30 okay I don't let me I'm going to
+31:31 interfere
+31:35 um let me just check
+31:39 this okay it won't let me write I'm
+31:41 going to just refresh this let it break
+31:45 okay um I believe what I have to
+31:51 do is I have to go to Project dashboard
+31:54 last time I played with this there was a
+31:55 URL so I think I have to go to
+31:57 Authentication
+31:59 let me see
+32:00 providers and then okay email is enabled
+32:03 so that's all I need I'm going to go
+32:06 back to
+32:08 here and say build out sign up and log
+32:14 in with super base and make it work on
+32:19 my
+32:24 SAS why is
+32:26 it
+32:29 interesting
+32:31 uh is there any way I can kill what it's
+32:33 doing right now cuz I think it's
+32:42 stuck all right so you know what we're
+32:44 going to do Greg I'm going to start a
+32:46 new
+32:47 one cuz this one is just stuck part of
+32:50 the game I'm going to start a new tab it
+32:53 happens it happens folks yep it happens
+32:56 we're going to start with and I I
+32:58 actually did this recently I was
+33:00 building uh what was I building yeah I
+33:03 was building uh like my own little meta
+33:06 react framework um and I broke it the
+33:09 first time and I tried to fix it
+33:11 wouldn't work so I was like I just need
+33:12 a clear M I started fresh so let's just
+33:15 same prompt let's start
+33:22 again by the way the landing page goes
+33:25 insanely hard yeah no they uh you know
+33:28 who I can tell you firsthand they uh
+33:32 they trained off uh the Tailwind site uh
+33:36 if I go to
+33:37 opponents and like whereas like because
+33:40 I remember like I know you know what I
+33:43 mean like like if I go here you see that
+33:47 totally you see that this so yeah I saw
+33:52 that I was like I know that design right
+33:56 um
+33:58 I know that design yeah so okay so it's
+34:00 building out these uh seems to be
+34:02 building on my signup page building on
+34:05 my login page and this is our landing
+34:09 page okay spinning up
+34:16 preview okay not as cool as the first
+34:18 one but we'll take it if I click on
+34:21 start on free trial okay I'll just enter
+34:25 my name my email and then the password
+34:28 if I create
+34:29 create it didn't work that's because we
+34:32 did not integrate with super base so I'm
+34:35 going to click connect
+34:37 here so it says I'm now connected to
+34:39 your superbase project gather your
+34:41 database structure table security
+34:43 settings this may take a moment so we'll
+34:45 give that its
+34:49 moment do you think uh you'll be using
+34:52 lovable in 12 months from
+34:54 now you know I like these tools to quick
+34:57 MVP
+34:59 myself um so like let's say like a
+35:02 client hits me up and I have they want
+35:04 me to build something I will kind of
+35:07 instead of me sitting down and thinking
+35:08 about it I'll kind of just try to build
+35:11 it like a smaller version with like a
+35:13 bolt or whatever and then it kind of
+35:15 gives me an idea of like what I have to
+35:17 do and I kind of take that and then
+35:20 start to refine what I have to do so I
+35:22 don't until these Integrations get
+35:25 solidified I I haven't gone like end to
+35:28 end but it's definitely my tester and
+35:31 something that I Ed to build um nvps
+35:35 with so it says you can now work with
+35:37 fully featured backend and add powerful
+35:39 features to make your app functional
+35:41 user accounts login all the good stuff
+35:43 so now I'm going to say now make the
+35:47 sign up and sign in work using super
+35:52 base I'm going to hit enter and now we
+35:55 should see it create my tables and do
+35:59 what it needs to do to make this
+36:07 work it says please review and approve
+36:09 SQL commands now the reason why it's
+36:11 asking me to review this because SQL is
+36:12 no joke um you can really destroy
+36:16 business writing the wrong commands
+36:18 which is why like you know you can copy
+36:19 this maybe take this over to another
+36:21 model and ask you like what are these
+36:23 commands going to do can you review them
+36:25 um but they look good to me so I'm going
+36:27 to click
+36:40 apply okay so now it says the migration
+36:43 is being applied meaning the tables are
+36:45 created now it's going to implement the
+36:47 authentication UI and functionality in
+36:49 the front end I'll update login and sign
+36:51 up components to use super baseed
+36:53 authentication so it's working on that I
+36:56 think we can even click on this look at
+36:57 the code it
+36:59 wres and yeah it looks pretty good to
+37:03 me so we'll let that do it
+37:10 thing clean code
+37:13 commented yeah that's that's honestly if
+37:16 you ask me what's my biggest usage of
+37:18 heyi is comments yeah because comments
+37:21 really help so it says I've implemented
+37:24 the authentication functionality for
+37:25 both login and sign up Pages for for
+37:27 development purposes you should disable
+37:29 email verification in the super based
+37:31 console to speed up the testing process
+37:33 so if I click here I can disable this if
+37:37 I want to but I won't we're actually
+37:39 going to leave that there and we're
+37:41 going to go back here and I'm going to
+37:42 try to sign up and honestly if sign up
+37:45 works then you can pretty much do
+37:47 anything because that's the hardest part
+37:49 let's create an
+37:52 account success please check your email
+37:54 to verify and I'm going to check my
+37:56 email
+37:58 if I got this let me check while you're
+38:03 checking that did I see like you can
+38:05 sign up with Discord and figma like some
+38:09 pretty obscure ones yeah so there's
+38:11 Apple there's Discord there's Facebook
+38:13 well Facebook figma yeah I don't even
+38:16 know what some of these apps are notion
+38:19 twitch
+38:21 slack Spotify but like that's really
+38:24 cool right like how many people are
+38:25 doing login with figma for found or not
+38:29 taking apps like probably not that many
+38:32 yeah yeah and and and and the thing is
+38:34 it's very like they're not easy
+38:37 like like github's integration is pretty
+38:39 simple but the others are not easy right
+38:42 so the fact that they've abstracted that
+38:43 and just made it an enable disable
+38:45 situation is fantastic that being said
+38:49 ladies and gents I just want to show my
+38:52 email look what I got follow this link
+38:55 to confirm your user so like the the
+38:58 email check even worked which is great
+39:01 so what I'm going to do is I'm going to
+39:02 confirm my account and now what I'm
+39:05 going to do is I'm in the signin page
+39:07 I'm going to click sign in and I'm
+39:10 signed in so the authentication actually
+39:12 worked so what I'm going to do now is
+39:13 I'm going to say create the uh not
+39:19 taking
+39:21 page and make it so that only
+39:26 authenticated
+39:28 users can access
+39:31 it so my authentication Works which is
+39:35 fantastic and again you have all these
+39:38 providers like you know phone there's
+39:42 there's a lot that you can do here and
+39:44 if I click on my users here look at what
+39:47 user signed up that's my email right
+39:50 there that's my name right there I sign
+39:52 up through email what time will last
+39:53 sign it so this tool allows you to build
+39:56 a full
+39:58 um a full signin sign up database
+40:02 integration with superbase few prompts
+40:05 now I told it to make the note taking
+40:07 page and it's creating the tables for
+40:10 the notes because I'm signed in but I'm
+40:13 going to write notes and if I'm going to
+40:14 write notes those notes need to be
+40:17 attached to my username and need to be
+40:18 persistent imagine you write your notes
+40:21 and then the second you log out all the
+40:22 notes disappear that's a terrible
+40:24 application right so it's writing it's
+40:27 building out all the tables I'm going to
+40:29 accept um the SQL queries that it
+40:33 wrote and we're going to wait for it to
+40:41 apply as as terrible as the first like
+40:44 go was this honestly would have been I
+40:47 don't know like 60 PRS with any of the
+40:49 other
+40:54 tools yeah it's funny cuz like after
+40:56 using so many now I'm like starting to
+40:58 get numb with how amazing these things
+41:00 this
+41:00 is yeah no it's honestly like it's it's
+41:03 insane like you know there are boot
+41:06 camps that charge like upwards of
+41:07 $20,000 to teach people this um and you
+41:11 and I are doing it through a few prompts
+41:13 and
+41:14 clicks all right so it says the
+41:17 migrations applied um it's created a new
+41:20 route so let's try this I'm going to
+41:21 click Start free trial okay it takes you
+41:24 nowhere so I'm going to say add a nav
+41:27 navigation
+41:29 bar and when I click I'm going to say
+41:32 add a navigation bar and then I'm going
+41:34 to make this like a list and when I
+41:37 click on start free trial nothing
+41:43 happens if I am signed in it should take
+41:48 me to the note taking page if not it
+41:53 should take me to sign in
+41:57 again this is all just being about a
+41:59 great product person so I noticed that I
+42:01 don't have a navigation bar I should
+42:03 probably have a navigation bar and I
+42:05 notice that when I click on start trial
+42:07 nothing really happens and I want it so
+42:09 that when I click this it takes me to
+42:12 the not taking page if I'm signed in but
+42:15 if I'm not signed in I need the user's
+42:16 information so I I need them to sign me
+42:25 in do you even consider yourself an
+42:28 engineer anymore or are you a product
+42:30 manager you know
+42:33 um there so there's a part of me that
+42:38 although these tools are
+42:40 good if we went if someone who's great
+42:44 at using these tools went against myself
+42:46 or even like there's thousands of
+42:47 Engineers better than me I definitely do
+42:50 think the engineer still has the edge in
+42:53 terms of making the more performant and
+42:56 faster application
+42:57 right because like just looking at how
+42:59 it's written the code I'm not saying
+43:00 it's wrong but I can definitely make it
+43:02 much faster already so I still think in
+43:08 cases like that where speed and
+43:10 optimization is important um I will
+43:13 still I still consider myself an
+43:14 engineer but five years from now I I
+43:17 can't even tell you where this thing is
+43:18 going to go because it it honestly is
+43:20 scary uh but so yeah I have my Navar if
+43:23 I click on profile profile page is empty
+43:26 because we haven't done it anything if I
+43:28 click on notes it takes me to notes tab
+43:30 but then if I click on start trial
+43:32 remember what I told it to take me to
+43:34 the notes tab that's what it does and
+43:36 then it says log out here so I just
+43:38 logged out perfect let's say I want to
+43:42 actually open this on the full screen so
+43:47 I can see the URL paths so let me why is
+43:51 the I don't see the let's go back here
+43:55 what I'm going to do is
+43:57 add the navigation bar in the sign in
+44:02 and sign in and sign up page as
+44:07 well um let's do that so I can navigate
+44:10 back home from the sign in page cuz
+44:12 currently there's there's nothing I can
+44:13 click on I mean I can do that but that's
+44:17 kind of a cheat let's go back to log in
+44:29 have you thought of like investing in
+44:31 any of
+44:32 these yeah yeah yeah I
+44:37 uh yeah
+44:40 TBD you should yeah uh so yeah look at
+44:44 that I can go home I click log in if I
+44:48 click Start free trial it's going to
+44:49 tell me create an account I already have
+44:50 an account so I'm going to log in Click
+44:53 sign in and then that nav part pops up
+44:55 so what I'm going to do is when I sign
+44:58 in take route me to the notes note
+45:04 taking
+45:11 page again this is a big deal because
+45:13 not only do we have like our landing
+45:15 page our Navar and all that stuff but we
+45:16 actually have authentication and it's
+45:19 it's done like we don't have to work on
+45:21 authentication anymore right right now
+45:23 I'm working on the flows right someone
+45:25 signs in it should direct take him to
+45:27 the not taking page so it says it's done
+45:29 that I'm going to click Start free trial
+45:32 look at that and then if I log out and I
+45:35 sign back in takes me to my note page
+45:37 now let's say I write
+45:40 Michael and
+45:42 Greg and I'm going say they are best
+45:45 friends which we are which 100% And I
+45:49 click on create note so it says Michael
+45:52 and Greg they are friends so that note
+45:54 is created now here is what's cool about
+45:57 this if I go back to my super base and I
+45:59 click on table editor I'm going to see
+46:02 notes and profiles if I click on
+46:04 profiles this is my profile I have a
+46:07 user ID here um my my name and then what
+46:11 time I created my account if I click on
+46:14 notes I'm going to see my notes stored
+46:16 in the database but here's the thing
+46:19 it's connected to my user ID right so
+46:22 you see user ID here 7bb if I go here
+46:26 the ID is 7bb so this note is attached
+46:30 to my user id meaning if I log out and I
+46:34 sign back in my note is there ladies and
+46:38 gentlemen you have assass now payments
+46:41 are difficult and I hope they have a
+46:42 strip payment integration but you
+46:44 finally have the ability to create this
+46:47 full remember this full flow I showed
+46:49 you your client your server and your
+46:52 database the hardest part was this right
+46:56 here right especially with
+46:57 authentication and database they've made
+46:59 it super easy the final Beast to conquer
+47:03 is payments and what's cool is they also
+47:05 have deployments so I can deploy this
+47:09 publicly right I'm going to click on
+47:12 deploy and we're going to give that a
+47:14 few
+47:16 seconds while that's deploying one of
+47:18 the things you said was authentication
+47:21 is now done what people miss about
+47:23 authentication is let's say you
+47:25 authenticate with uh figma and figma
+47:28 changes their API for whatever reason
+47:31 you have to like maintain it now you
+47:33 don't have to do the maintenance which
+47:34 is a really big deal that's all on super
+47:36 base right and that's kind of what you
+47:38 use them for so it says my site is
+47:40 published if I click on this I have my
+47:43 not taking app if I click on start free
+47:46 trial it's going to tell me to create an
+47:47 account I already have an account so I'm
+47:49 going to sign
+47:50 in we click on sign in my note is there
+47:54 this is cool and
+47:57 why and this is why you should subscribe
+48:02 and like Greg's
+48:05 Channel and I'm going to say hi this is
+48:08 Mike and if I click on create note the
+48:11 note is created we have our SAS I hope
+48:15 you are
+48:16 entertained hell yeah dude that was
+48:18 great I uh I appreciate that that was
+48:21 that was super
+48:22 helpful um couple couple
+48:27 action item so one
+48:29 is if you enjoy this and you want to
+48:31 learn something else another type of
+48:33 tutorial just comment on YouTube what we
+48:37 should talk about so uh we're always
+48:40 looking for ideas and then Michael often
+48:44 is in the comment section too so he can
+48:46 respond to you as well and number
+48:49 two Ross Mike has a great YouTube
+48:51 channel it's Ras Mike I'll include it in
+48:55 the description highly recommend you
+48:57 guys go and subscribe where he does more
+49:00 more videos like this yep and if you ask
+49:02 for it you shall receive so definitely
+49:05 uh you know and especially in the
+49:06 comments if you have any questions I I
+49:09 said I would respond to every comment
+49:11 last time I couldn't because it was just
+49:13 too many but I will try my best
+49:14 especially if you comment early
+49:16 beautiful all right my man I appreciate
+49:19 you and uh all right let's let's go
+49:22 become product managers yep that's the
+49:25 game thank you so much Greg as always
+49:26 always I appreciate you and thank you
+49:28 everybody for showing love all right
+49:30 later
+49:32 [Music]

@@ -1,0 +1,479 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=9r0qPeSJGog
+Channel: Starter Story
+Video ID: 9r0qPeSJGog
+Transcript language: English auto-generated
+Downloaded at: 2026-05-25T20:45:40.983Z
+
+0:00 I built my first SAS around six, seven
+0:02 months ago. And last month, I did over
+0:04 $40,000 in revenue.
+0:06 >> This is Sam, a university student who
+0:08 built a SAS with zero coding [music]
+0:11 background. But here's the even crazier
+0:13 part. He validated this idea in a way
+0:15 I've never seen before. Discord. [music]
+0:18 >> I would mute my mic and literally just
+0:20 share my screen. He found a tiny
+0:22 community, started showing off his
+0:24 product, and [music] just 6 months
+0:26 later, he's at $14,000 a month with over
+0:29 10,000 users. I got my first 400 users
+0:32 all on Discord.
+0:33 >> This is such a crazy simple strategy
+0:36 that I had to get Sam to come on the
+0:38 channel and break it all down. And
+0:39 that's exactly what he did. And in this
+0:42 video, we'll dive into how he shipped a
+0:44 broken MVP that didn't even work and why
+0:46 that didn't matter. how [music] he went
+0:48 from zero to 10,000 users in just 6
+0:50 months and how Discord might be the
+0:53 untapped channel to find your first 100
+0:56 customers. All right, this one you
+0:58 cannot miss. I'm Pat Walls and this is
+1:01 Starter Story.
+1:04 All right, Sam, welcome to the channel.
+1:06 Tell me about who you are, what you
+1:07 built, and what's your story.
+1:09 >> My name is Sam. I v coded my first SAS
+1:11 six months ago called Algrow and I've
+1:13 gained over 10,000 users and made over
+1:16 $14,000 in revenue in the last 30 days.
+1:19 And the way that I did this is something
+1:20 that I don't see many founders doing and
+1:23 it's tapping into Discord communities
+1:25 and growing your SAS through there and
+1:27 I'm excited to share that playbook with
+1:29 you today.
+1:30 >> Awesome. Sam, before we get all into
+1:32 Discord, which I think is amazing. I
+1:33 don't even know a whole lot about
+1:34 Discord, which I'm really excited to
+1:36 learn from you. But first, what is the
+1:38 app that you built? You built a SAS. Can
+1:40 you explain what it does?
+1:41 >> So, there are two core features of our
+1:43 product. We help creators research and
+1:46 also replicate viral formats. We have
+1:48 three different pricing plans at the
+1:50 moment. There is a 25 a month plan, a 45
+1:53 a month plan, and an $80 a month plan.
+1:56 So, as you can see here, we analyze the
+1:58 subscriber counts, the average views per
+2:00 video, and you are given a list of
+2:02 trending formats that are working in
+2:03 real time. And when you find a channel
+2:05 you like, you can have a save and algor
+2:07 if you want to take it a step forward.
+2:09 you can go and create the videos
+2:11 themselves. So if you find a channel for
+2:12 example that was trending with soru, you
+2:15 can plug it into the AI video generator
+2:17 and then generate it inside of algorith
+2:19 download it and then optimize it for
+2:21 whatever platform you post on and then
+2:22 you can post it.
+2:23 >> Okay. Super cool business that you
+2:24 launched. Before we get into the whole
+2:26 Discord strategy and all that, I'd love
+2:28 if you just showed me a little bit more
+2:30 of the metrics behind the business and
+2:32 pulled up some of your Stripe dashboard
+2:33 and just showed us a little bit more
+2:35 about how the business is doing
+2:36 financially.
+2:37 >> All right, no worries. Here is the last
+2:38 four weeks on Algrow and as you can see
+2:40 it's made over £10,000 in revenue and
+2:43 when you convert that into dollars it's
+2:44 around 13 to 14,000. In terms of
+2:47 customers we have exactly 480 new
+2:50 customers this month. So initially when
+2:53 I launched Algrow I launched it as a
+2:54 tool for faceless YouTubers. However in
+2:57 the recent months Algro has grown to
+3:00 influencers using it. I see drop
+3:02 shippers using it. So it has many
+3:04 different use cases now.
+3:05 >> Okay cool. Thank you for sharing your
+3:07 metrics, pulling up your Stripe
+3:08 dashboards and being transparent with
+3:10 all that. I want to understand a little
+3:11 bit more about your background. How do
+3:12 you even get into the idea of building a
+3:15 SAS?
+3:15 >> All right, so I've been around the
+3:17 internet for the past like 3 years
+3:19 looking for different ways to make
+3:20 money. The first way I started was
+3:22 affiliate marketing. Me and my two best
+3:24 friends from home, we worked with a
+3:26 company called Resap and we posted
+3:29 faceless texting stories about different
+3:31 like fake scenarios to help promote
+3:33 their app. and we did over $10,000 in
+3:36 revenue with that company. However, it
+3:38 wasn't sustainable. But I took that
+3:40 money from RZAB and I thought, okay, let
+3:42 me try a different business model. So, I
+3:44 went to something called YouTube
+3:45 automation where you post videos online
+3:48 and make money from ad revenue. And I
+3:50 had a close friend called Mason who
+3:52 first introduced me into the idea of
+3:54 [music] why doesn't someone build a way
+3:56 for us to find more shorts channels to
+3:58 run cuz the more channels you have to
+3:59 run, the more opportunities to make
+4:01 money. And I was like, you know what?
+4:03 I'll try the idea. So, I opened up a
+4:05 notepad and I blurted out on the chat
+4:08 [music] voice mode my whole idea. So, I
+4:11 was given a bunch of code and I was just
+4:12 copying it back and forth into notepad.
+4:15 And then I Googled and I saw something
+4:17 called Visual Studio [music] Code and I
+4:20 still didn't know what to do. So, all I
+4:21 would do is just still copy back and
+4:23 forth, but instead of notepad, I did it
+4:25 on VS Code. And that's how I coded my
+4:27 first ever MVP. However, I showed that
+4:29 to my friend Mason and he was like, "So,
+4:31 raw dogging it in VS Code is dumb when
+4:33 cursor exist and I didn't know what
+4:35 cursor I thought he was talking about a
+4:36 mouse cursor at the time." So, I
+4:38 downloaded it and ever since then I've
+4:41 just been with cursor.
+4:42 >> You basically have no technical
+4:44 experience. How did you teach yourself
+4:46 this? Did you build the whole MVP? How
+4:48 long did it take you to do this with AI
+4:50 coding tools with zero technical
+4:51 experience?
+4:52 >> All right. So the initial MVP that you
+4:55 see it was coded in about a week and
+4:57 that is the version I did on notepad.
+5:00 When I first shipped my product I hosted
+5:02 it on a site called Heroku and the first
+5:04 person I gave it to they got an
+5:06 application error but they still managed
+5:08 to use some of the core features and
+5:10 were able to still use the app. Yes,
+5:12 there were bugs. Yes, there were issues
+5:14 but the main idea of the app was
+5:15 working. So as long as what you're
+5:17 trying to solve works I think you can
+5:20 ship anything.
+5:21 >> Okay, cool. You can build anything
+5:22 nowadays. This isn't news. I want to
+5:25 understand about the marketing. How did
+5:26 you get your first customers? And then
+5:28 how did you build this to something that
+5:29 makes over $10,000 a month?
+5:31 >> So, the way I did it is I hopped on a
+5:33 site called discboard.org.
+5:36 Type in any keyword or any niche and it
+5:38 will find you Discord communities with
+5:41 people in that niche. And what I did is
+5:42 at the time there was a server called
+5:44 moneymind. I went to search bar and I
+5:46 typed in the word niches. But the major
+5:48 result that I found was people were
+5:50 searching how do I find a niche or how
+5:52 can I replicate this niche. When I saw
+5:54 that people were repeating how do I find
+5:56 a niche I was like okay that is the
+5:58 demand I see the demand. So I thought
+6:00 let me get a bit more validation. So
+6:02 what I used to do is I would go in that
+6:04 server and I would join a discord voice
+6:06 chat and I would share my screen not
+6:08 talking nothing just me using my tool
+6:10 and I was seeing Sam what are you using
+6:12 at Sam what is this? And I would respond
+6:14 to him being, "Oh, it's a tool I built."
+6:16 And I did this for about like a week
+6:18 straight. It even attracted the eyes of
+6:20 the Discord server owner to the point
+6:22 that he created a YouTube long form
+6:24 promotional video on the tool. I didn't
+6:26 ask him. I didn't pay for it. I didn't
+6:28 do anything. And then after weeks of
+6:30 just sitting in the Discord server and
+6:32 screen sharing, I thought, how can I get
+6:34 these people to convert to my product?
+6:36 And I saw the typical thing was for a
+6:38 SAS to release a weight list. And I was
+6:40 able to send that weight list to those
+6:41 Discord servers. So I would put in the
+6:43 Discord server in the chat just the wait
+6:45 list and be like if you want to try the
+6:47 tool just sign up here and once it's
+6:49 released we'll get an email something
+6:51 like that and that's how Algro started.
+6:53 >> Man I just love hearing how Sam went out
+6:56 and found his customers through this
+6:57 platform called Discord. It's really
+6:59 something that I haven't seen or heard
+7:01 of that much. I mean I hear a lot about
+7:02 Reddit and Facebook groups but not
+7:04 Discord. And if you stick around to the
+7:05 end you're going to hear him break down
+7:06 his entire process. But it got me
+7:09 thinking about all the niche communities
+7:11 that are out there where you can go find
+7:13 customers. I get a lot of DMs from you
+7:15 guys about where is the best place to
+7:16 post my product and get my first
+7:18 customer. But the truth is there are a
+7:21 million places to do it and it's
+7:23 different for every type of business and
+7:25 customer that you're trying to reach.
+7:27 Honestly, it's easy to get lost or
+7:28 confused and potentially even pick the
+7:30 wrong distribution channel. And I know a
+7:32 lot of you guys watching might not know
+7:33 exactly where to start. So, I decided to
+7:35 put something together for you for free
+7:37 where you can find your perfect
+7:39 distribution channel. Again, this is all
+7:40 free. I put together the ultimate
+7:42 playbook of how to find customers
+7:44 through niche communities, not only
+7:46 Discord, but Reddit, Facebook groups,
+7:48 and all sorts of places where you can
+7:49 find customers for free. And this is all
+7:51 based on real data and real examples
+7:53 from successful founders that I talked
+7:55 to through this YouTube channel and also
+7:57 through Starter Story. This is important
+7:59 because it's what is actually working
+8:01 and you can download the whole thing for
+8:03 free right now. Just click the link in
+8:05 the description to get it, but it won't
+8:06 be free forever. All right, let's get
+8:08 back to the interview. Discord is this
+8:10 untapped market almost, but I assume
+8:12 that Discord has a huge spam problem.
+8:15 Why didn't you get banned? Why did
+8:16 people love your stuff so much they were
+8:18 willing to self-promote it? What did you
+8:20 do, right? What would be your advice for
+8:21 other people who want to nail Discord
+8:23 distribution?
+8:24 >> Most Discord communities that you join
+8:27 have server rules, and in the rules, it
+8:29 always says no self-promo or else you'll
+8:31 be banned. And most people see that and
+8:34 what they'll do still is go in the
+8:35 server and be like, "Hi, I've got this
+8:37 tool. Please use it." But you just look
+8:39 like spam. You look like an annoying
+8:42 person. And I think the main thing you
+8:44 have to do first is build maybe a bit of
+8:46 rapport in the community. A person would
+8:48 give me like a type of channel they were
+8:50 looking for and I would use my tool to
+8:52 help them find that channel. So I wasn't
+8:54 directly selling it to them cuz at the
+8:56 end of the day, those people would tell
+8:57 their friends. Word of mouth was so big
+8:59 for me at the beginning. just because it
+9:01 solves a painoint that is so big, people
+9:04 will end up telling other people. I
+9:05 asked them, "Where did you come from?"
+9:07 They'd be like, "Oh, my friend told me."
+9:08 >> Okay, cool. This is amazing. Could you
+9:10 give me the playbook on how you would
+9:11 get customers from niche communities or
+9:14 specifically Discord if you had to start
+9:15 over today?
+9:16 >> So, [music] the first step that I would
+9:18 have for you is to find where your ICP
+9:20 lives. Attempt to find [music] if there
+9:22 is a Discord community for your niche.
+9:24 Let's say we're going to build a SAS
+9:27 that creates 3D assets or something. So,
+9:29 what I would do is I would go on Discord
+9:31 and have a look at the Blender servers,
+9:33 their outputs, and I would join every
+9:35 single one of them and do the same thing
+9:37 for Cinema 4D. And then for step two, I
+9:40 would say you need to listen before
+9:42 [music] you build anything. One cool
+9:44 thing about Discord is you can scroll
+9:46 through and copy and paste days and days
+9:49 worth of chat history. Copy and paste it
+9:51 into Chatbutt and give it a prompt
+9:53 saying, "List me all of the pain points
+9:56 [music] that these people have talked
+9:57 about over the last couple days." You
+9:58 want to be looking for recurring pain
+10:00 points because those are the ones that
+10:01 would have more demand. So the more
+10:03 struggle there is, the more likely the
+10:04 product is [music] going to do to do
+10:05 better in my opinion. Step three, now
+10:08 you want to validate your ideas by
+10:09 having real conversations with people.
+10:12 So once you DM these people, you need to
+10:14 have a goal in mind. Drop them a screen
+10:17 recording of or whatever, like a quick
+10:18 loom that's sped up of your tool.
+10:20 [music] And if you see them like give
+10:22 great feedback like on my days, this is
+10:24 something I've been looking for.
+10:25 something like that. That is a strong
+10:26 indicator that you're building the
+10:28 correct thing. However, I say at least
+10:30 try and find five, six different people
+10:32 [music] in different servers as well.
+10:34 Step four, I would say you should build
+10:36 in public with the community. I don't
+10:39 mean the whole Twitter build in public
+10:41 where you document the process of you
+10:43 building your SAS. I genuinely think
+10:44 that's a whole bunch of rubbish, but
+10:47 that's my personal opinion on it. I
+10:49 think that you should build your product
+10:51 with your users. So, if you think you
+10:54 can collect enough users, then just
+10:56 build a weight list and get the emails
+10:59 ready. But another really cool thing you
+11:01 can do beyond a wait list is make your
+11:03 own Discord server for your future
+11:05 [music] product. So, instead of being
+11:07 scared of getting banned for self-promo
+11:09 in the big communities, you can start
+11:12 growing your own private Discord
+11:13 community and then you're funneling in
+11:16 your ideal customers. And I'm all for
+11:19 emails. I think emails are great, but
+11:21 Discord is 10 times better in terms of
+11:23 building a relationship with your users.
+11:25 I think young people will go on Discord
+11:27 more than they check their emails. So,
+11:29 for step five, another thing you want to
+11:31 do is turn all of your early users into
+11:34 potential advocates for your product.
+11:36 So, one thing I did is I gave all of my
+11:38 early users to help me validate my idea.
+11:40 I gave them all free access. So, the
+11:42 early access user would have free
+11:44 access, then his friend would have to
+11:46 pay, but his friend might be a bit
+11:47 skeptical on how the tool works. But the
+11:49 really cool thing is the early access
+11:51 user can just show him because he has
+11:53 free access and that is how our group
+11:54 grew as quick as it did cuz I post it in
+11:57 these communities and these people would
+11:58 tell their friends and that is how it
+12:00 initially blew up.
+12:01 >> Okay, cool. Want to change topics on a
+12:03 second. I know that you vibe coded this
+12:04 without technical background. What's
+12:05 your tech stack? How did you build this
+12:07 and what tools do you use?
+12:08 >> So I've upgraded from the $20 a month
+12:10 cursor plan to the $200 a month cursor
+12:13 plan and then I have an AI image
+12:15 generation feature inside of our growth.
+12:17 of that is based off Nano Banana where
+12:20 I'm paying around I'd say $100 a month.
+12:22 There's also AI video generation which
+12:25 uses models like Sora 2 and I'll say I'm
+12:28 paying around $200 a month. Hosting now
+12:31 cost me about $100 a month. I'm still on
+12:33 Heroku. And then in terms of email
+12:36 marketing, I use a site called Mailorite
+12:39 and it costs around $80 a month. And in
+12:41 terms of like different AI compute now
+12:43 other cost of Gemini, I say it goes to
+12:44 around $300 to $500 per month. Cool.
+12:47 Last question that we ask every founder
+12:48 who comes onto the channel. If you could
+12:50 go back in time, what would be your
+12:52 advice to young Sam or for anyone
+12:54 watching this who wants to build a 10K
+12:57 plus per month business?
+12:58 >> My main advice for people would be build
+13:01 your tool to accommodate for scale. You
+13:04 need to initially bet on yourself. Think
+13:06 that, okay, cool. I'm going to have
+13:08 100,000 users building my tool. And you
+13:10 want to have the frameworks behind that.
+13:12 and you might not know them, but when
+13:13 you tell cursor to think that way, it
+13:16 will change its mindset in the way it
+13:17 prompts you to do things, it will prompt
+13:19 you in a way that will accommodate for
+13:21 those 100,000 users instead of [music]
+13:23 just that one user being you, cuz then
+13:25 it saves you so much time and money down
+13:26 the line.
+13:27 >> Well, that's great advice for anyone
+13:28 watching this. Vibe coding, building
+13:31 stuff, believe in yourself. Thanks, Sam,
+13:33 for coming on to the channel. Amazing
+13:35 strategy Discord. I love it. So, thanks
+13:36 for coming on and sharing everything so
+13:38 transparently.
+13:39 >> Thanks for having me on.
+13:40 >> All right. Thank you to Sam for coming
+13:41 on to the channel and sharing all that.
+13:43 I'll bring Gus, our producer, on. What
+13:45 do you think of this one, Gus?
+13:46 >> Yeah, that was pretty awesome. My big
+13:48 takeaway is like there's a million
+13:50 places to find customers, but Discord is
+13:52 just not something I've ever thought
+13:53 about. Maybe maybe I'm just old. Like I
+13:55 don't use Discord, so that's probably
+13:57 part of the problem.
+13:58 >> Yeah, he did sort of mention this a
+14:00 couple times is like he said, "My users
+14:01 are younger and they're on Discord. They
+14:03 don't check their email." I think that's
+14:05 really important. And if you're going to
+14:06 build this business and then you're
+14:07 going to go promote it on LinkedIn, that
+14:09 that's not going to work,
+14:11 >> right? Yeah. Just crazy to think like
+14:13 there's these tiny places or pockets on
+14:15 the internet. It's pretty cool. A
+14:16 million different places to go find
+14:18 people. You just got to like understand
+14:19 a certain niche really well [music] to
+14:21 know where to go look.
+14:23 >> And what I thought was cool in the early
+14:25 days, he didn't even have the ability to
+14:27 build any software, but he just built
+14:29 something super niche. I think that's
+14:31 super cool and it's what I would
+14:32 recommend for anyone to do who wants to
+14:34 get started today, who wants to build
+14:36 stuff, go to small community, solve a
+14:38 really, really niche problem for a
+14:39 really, really niche customer. Uh, you
+14:41 could probably vibe code something
+14:42 really quickly and just start getting
+14:44 interest and validation. So, if you're
+14:45 looking to do that and you want to build
+14:47 something quickly, I definitely check
+14:49 out Starter Story Build. It is our
+14:50 platform. We will teach you how to build
+14:52 and vibe code products to production in
+14:55 just a couple weeks. You'll come up with
+14:57 your idea, you'll build it, and you'll
+14:58 launch it to real users who might be on
+15:01 Discord just like Sam did. I'll put a
+15:03 link in the description for that. Our
+15:04 next cohorts are starting this week. If
+15:06 you're looking to start and build and
+15:08 get off the sidelines and build
+15:09 something, definitely check it out.
+15:10 Thanks for watching. I'll see you in the
+15:11 next one. Peace.

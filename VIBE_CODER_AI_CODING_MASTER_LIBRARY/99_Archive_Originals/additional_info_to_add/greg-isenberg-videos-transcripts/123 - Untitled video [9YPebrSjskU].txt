@@ -1,0 +1,1638 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=9YPebrSjskU
+Channel: Greg Isenberg
+Video ID: 9YPebrSjskU
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 I heard it was possible to use cursor to
+0:03 create mobile apps that are native and
+0:06 put them in the app store, but I didn't
+0:08 know how. So, I brought on this guy,
+0:10 Chris, who's building a huge portfolio
+0:14 of mobile apps where he's using AI and
+0:17 cursor to actually create them. and he
+0:20 reveals his exact process, all the
+0:23 techniques, how he's putting agents into
+0:25 the apps, how he's using open router,
+0:27 how he's using chat GPT 40 image
+0:30 generation, and all these uh techniques
+0:33 with cursor that I thought were super
+0:36 super interesting to actually go and
+0:39 create a native mobile app. iOS is a
+0:43 huge opportunity. There are people who
+0:45 are going to print millions of dollars
+0:46 doing it. and he shows an example of how
+0:50 to create some features in a matter of a
+0:52 few prompts. So, enjoy the episode. I
+0:55 hope you learned something.
+0:58 [Music]
+1:04 I've been meaning to make this podcast
+1:06 for a while. I got my friend Chris
+1:08 Baroque on the pod. I've been watching
+1:11 this guy. To be honest, Chris, I thought
+1:14 it was like a big company behind you.
+1:16 you you built like a portfolio of these
+1:18 mobile apps that are really clean,
+1:20 really interesting. Um, some that I
+1:23 think can get some serious MR and then I
+1:26 find out that it's just this dude who,
+1:28 you know, didn't go to Stanford, doesn't
+1:30 work at Google, um kind of, you know, a
+1:34 regular guy who's um using AI to
+1:38 actually go and build um build uh these
+1:42 apps. So Chris, welcome to the show. And
+1:45 I want to know if people stick around to
+1:48 the end of this episode, what are they
+1:50 going to tangibly get that they aren't
+1:52 going to get in a million other cursor
+1:55 tutorials and vibe coding tutorials.
+1:57 Yeah, first thanks for having me on,
+1:58 Greg. Really awesome to be here. Um I
+2:01 think I'm hoping that they get um a
+2:03 little bit more of uh behind the scenes
+2:05 of an advanced cursor workflow. And I
+2:07 use advanced in quotation marks because
+2:09 I'm not the best developer, but I have
+2:11 picked up a lot of things. I'm doing
+2:13 some interesting things with cursor,
+2:14 like doing native iOS development, which
+2:16 not a lot of people do. So, I'm hoping
+2:19 they pick up maybe some golden nuggets
+2:21 in there. Um, and then even if you're a
+2:24 developer, maybe this hopefully
+2:25 demystifies, you know, if you've never
+2:27 used AI, maybe you start using it and
+2:29 just kind of see if this guy can do it,
+2:31 I can do it, too. Cool. All right, let's
+2:34 let's get our hands dirty. Let's give
+2:35 out that sauce.
+2:37 you have my eyes lit up because I've
+2:39 been meaning to use cursor to create,
+2:42 you know, native iOS apps, but I've just
+2:44 seen sort of your React Native apps. Um,
+2:48 and there's just a level of polish that
+2:50 you get with native apps. So, if you can
+2:54 teach us how to do that. Yeah. Yeah. Um,
+2:56 I think that would that would be huge.
+2:58 Yeah, absolutely. Okay, cool. Well,
+3:00 there's a couple ways we could do this.
+3:02 Um I think what I want to start first um
+3:05 by the way how does sharing like if I
+3:06 should share my screen like you guys can
+3:08 you'll just be able to see it. Okay
+3:10 cool. Okay so the the first thing um I
+3:12 wanted to share was just really quickly
+3:14 just a little bit of context on me. So I
+3:17 built these four apps. Um I'm not trying
+3:19 to plug the apps or anything. I'll just
+3:21 show one of them. This is the bigger
+3:22 one. So they're they're all productivity
+3:24 apps but this one's called Ellie. It's a
+3:25 daily planning app. It's got a couple
+3:27 thousand monthly active users. like I
+3:29 think probably like around like 2,000
+3:32 paid users. Um, a lot of people a lot of
+3:34 students use this app. The reason I
+3:36 mention it is it's a pretty robust app
+3:39 and people are pretty surprised when
+3:41 they're like, "Okay, who's the team
+3:42 behind this?" They figure out it's me.
+3:43 They're like, "How is this possible?"
+3:45 And to be honest, I I've done this four
+3:47 times. I have another app, this
+3:48 budgeting app that I have. It's a pretty
+3:50 robust app, a personal CRM app, a very
+3:53 robust app. Um, the only reason I'm able
+3:55 to do this stuff is because I have AI to
+3:59 supercharge my workflow. Um, so I just
+4:01 want to share that context. Like there's
+4:03 a lot of tutorials on how to build, you
+4:05 know, a weekend project, how to build a
+4:07 weekend game, and there's absolutely
+4:08 nothing wrong with that. Like those are
+4:10 awesome. Um, but people are always
+4:12 curious, can you build something like
+4:14 way more advanced? Um, what happens if
+4:17 you do this over a long period of time
+4:19 and you have AI? And I think this is
+4:21 exactly what happens. is like you can
+4:22 build some pretty serious complex
+4:24 things. So that's some context. Um some
+4:26 rapidfire context on like just the tools
+4:28 I use, everything. So I'm primarily
+4:30 using cursor. I've tried literally
+4:32 everything. Um I think I've been using
+4:34 AI for coding for about 2 years now. I
+4:36 somehow got my hands on the first
+4:38 version of GitHub Copilot when it first
+4:39 came out. Like it didn't have chat. It
+4:41 didn't have anything. It just you just
+4:42 comment and I was basically using the
+4:44 comments as a chat. Fast forward, I've
+4:46 used a bunch of tools like Windsurf. Um
+4:49 I've used Claude Code like everything.
+4:51 But right now at this time, cursor is
+4:53 the tool that I use and people are
+4:55 pretty surprised that I actually use
+4:57 this for native iOS development which uh
+5:00 not many people do. Like I've seen
+5:02 people use it for react and expo
+5:03 development but um people are always
+5:05 curious how how do I do that? So I'll
+5:07 share how I do it. Um and then the other
+5:08 tool I wanted to highlight was I
+5:10 actually use um chat GPT for asset
+5:13 generation. And um one of the things
+5:16 that I've started getting into was
+5:18 putting really good assets. now that the
+5:20 chat I think as of a few weeks ago has
+5:22 gotten so much better. Um, and that I
+5:25 think is going to bring a level of
+5:27 polish to all my apps that I've never
+5:28 seen. So, I really wanted to share that.
+5:30 And I had like a semi viral tweet going
+5:32 about how like people were always asking
+5:34 how are you making these assets? This is
+5:36 crazy. How are you doing it
+5:37 consistently? I think is the big thing.
+5:39 So, I'm going to reveal that on this
+5:40 podcast, which uh a lot of people have
+5:42 been asking me to make a video about,
+5:43 but I haven't yet. So, you get the first
+5:44 one. You get the first look at that,
+5:46 Greg. Um, and then in terms of the
+5:47 models that I use, um, I'm using Claude
+5:50 3.7, which also surprises people. Um,
+5:53 3.5 is pretty good. 3.7 usually goes off
+5:56 the rails, but to be honest, um, I feel
+5:59 like I'm a a little bit a good enough
+6:01 developer to kind of control it and
+6:02 figure out when is it going in the wrong
+6:04 wrong direction and stopping it. So 3.7
+6:06 is what I use. I've tried Gemini. I've
+6:08 tried like the new 03 that costs 30
+6:10 cents every call. I've tried all of
+6:12 these different things, but right now
+6:14 Cloud 3.7 is the best thing, especially
+6:16 for native iOS development. For iOS
+6:18 development, it's not even a question.
+6:19 3.7 is probably the best one right now.
+6:22 Um, so that's the model. And then now,
+6:24 how do I do the iOS coding? To be
+6:26 honest, what I do is it is like the
+6:29 jankst setup, but I basically open the
+6:32 Xcode project in cursor. Quick break in
+6:35 the pod to tell you a little bit about
+6:37 Startup Empire. So, Startup Empire is my
+6:41 private membership where it's a bunch of
+6:44 people like me, like you who want to
+6:47 build out their startup ideas. Now,
+6:50 they're looking for content to help
+6:52 accelerate that. They're looking for
+6:53 potential co-founders. They're looking
+6:55 for uh tutorials from people like me to
+6:59 come in and tell them, "How do you do
+7:01 email marketing? How do you build an
+7:02 audience? How do you go viral on
+7:04 Twitter?" All these different things.
+7:06 That's exactly what Startup Empire is.
+7:09 And it's for people who want to start a
+7:11 startup but are looking for ideas or
+7:14 it's for people who have a startup but
+7:16 just they're not seeing the traction uh
+7:18 that they need. So you can check out the
+7:20 link to
+7:22 startupmpire.co in the description. Um I
+7:25 have my Xcode project running
+7:28 and like what I'm doing is I'm literally
+7:31 just opening the file in cursor. So this
+7:34 is the Xcode project for my budgeting
+7:36 app Luna. And then I literally just open
+7:39 the file in cursor to be able to make
+7:41 edits. And then I use the chat feature,
+7:44 make file edits, and then I have to
+7:47 switch back to Xcode to build. And I do
+7:49 this over and over again. And that's
+7:51 actually the way that I've been coding
+7:53 with iOS development. And I honestly
+7:55 just figured this out like I think a
+7:57 month and a half ago. But the old way
+7:59 that I was doing it was literally
+8:01 pasting code into Claude, chatting with
+8:04 Claude, and repacing it back. So even
+8:06 though I'm switching between cursor and
+8:07 Xcode, this is substantially faster
+8:09 still. So this is the current way that
+8:10 I'm doing it. And people are pretty
+8:11 surprised cuz they're they they're also
+8:13 like, I had no idea you can just do
+8:15 that. They thought you had to do
+8:16 something special to to be able to open
+8:18 this kind of file, but no, you can just
+8:19 open the project. So that's the first um
+8:21 that that's that's literally how I'm
+8:23 doing this workflow right now is just uh
+8:25 opening it. Um, so I don't know if you
+8:26 have any questions, Greg, but that's uh
+8:28 my just reaction to that is I'm
+8:30 surprised. Oh, okay. Okay. Yes. Okay.
+8:32 Yeah. Um, so that's cool. I'm going to
+8:34 try that out. Yeah. Yeah. It's pretty
+8:36 good. The only caveats I'd say is that
+8:38 and and here's where people kind of mess
+8:39 up and this is like what I've had to
+8:41 learn is do not try to use cursor to set
+8:44 up the project for Xcode. It's that is
+8:46 not going to work. So that's I think why
+8:48 people and that's actually how I tried
+8:50 to do it originally and that's why I was
+8:51 like, okay, cursor doesn't work for
+8:52 this. you got to set up. There's a lot
+8:54 of things you got to do manually in
+8:56 Xcode. Like when you're um like for
+8:58 example, there's a lot of settings in
+8:59 here, I think. God, I hope I don't
+9:01 reveal anything. Um there's just a lot
+9:03 of settings in here that you need to
+9:05 actually do yourself and it's something
+9:08 that cursor just does not have a really
+9:11 good capability of doing my experience.
+9:14 Like like being able to select some of
+9:15 these frameworks and embedding them in
+9:17 here. Cursor just can't do that. I've
+9:19 noticed that for um for other projects
+9:22 like for uh React Native and all that
+9:24 stuff it's it is able to do that like it
+9:26 can do all of that in the terminal.
+9:28 Xcode is not that way. You got to do it
+9:29 manually. So I think that's where people
+9:31 get tripped up and stop doing it. So set
+9:33 up the project manually then just open
+9:35 it in cur in cursor. And then also when
+9:37 you need to make certain changes like
+9:39 for example to make outgoing network
+9:41 requests like literally hitting up a
+9:43 server you need to enable that in Xcode
+9:45 like manually like Apple forces you
+9:48 cursor is not going to be able to do
+9:49 that for you. So those are some of the
+9:51 nuances but yeah it's um still worth it
+9:53 though in my opinion. Cool. What's next?
+9:56 So okay um what I wanted to do actually
+9:59 was go through a project. Um so I
+10:03 originally was like maybe I'll go on
+10:04 this podcast. I'll just go spin up a
+10:06 project live and kind of do it. I did it
+10:08 last night. It does not work that way.
+10:10 Like there were so many errors that I
+10:11 ran into that I was like this is going
+10:12 to take five hours. So what I did was
+10:14 last night I spun up a quick feature to
+10:16 kind of demo for you guys. But I
+10:19 recorded all of my steps. Like so I
+10:21 committed all the code and thankfully
+10:23 cursor saves all the chat history. So
+10:25 we're going to go through all the
+10:26 prompts that I use to get to this point.
+10:28 So we're not going to really I don't
+10:30 think we're going to skip anything here.
+10:31 I want to show you guys exactly the
+10:33 prompts I use from get to point A to
+10:34 point B. And for fun, um I know you
+10:37 mentioned, Greg, you were kind of
+10:38 interested how do I build AI apps? So,
+10:40 I've seen a couple videos online about
+10:42 how to build AI apps, especially stuff
+10:43 with image generation, but I wanted to
+10:46 take a little bit of a different
+10:47 approach and show you guys how are we
+10:50 going to build a little bit more of an
+10:53 advanced chat app. So, there's also 100
+10:55 chat app um tutorials, but I decided to
+10:58 do a couple of unique things that I
+11:00 think would be interesting for your
+11:01 listeners to see. Um, so the first thing
+11:04 is I want to show you guys what the like
+11:06 quickly what the app state is. And um
+11:08 we're not building the app from scratch.
+11:10 I also tried that too as a demo and that
+11:12 one took even longer. So, I was like,
+11:14 we're not doing that. But I'm going to
+11:15 show you guys how to put an AI feature
+11:18 into an app that doesn't have AI. So,
+11:20 we're going to build an AI feature into
+11:21 my budgeting app. So, this is this is
+11:23 the budgeting app. So, this is my
+11:24 budgeting app, Luna. There's two
+11:26 sections here. There's a weekly and
+11:28 monthly spend. I think that's honestly
+11:29 the cool feature. I've never seen a
+11:30 budgeting app that shows both at the
+11:32 same time in this format, but it's just
+11:34 like a traditional budgeting app. You
+11:36 can set your budgets. You can add
+11:37 transactions. It's um yeah, it's it's
+11:40 very basic. So, what I want to do is see
+11:43 can we add some AI into this app? And
+11:46 what I was trying I was trying to come
+11:47 up with some features. So, I was
+11:48 brainstorming with my friend and we were
+11:50 like, okay, what would be interesting?
+11:51 and he said it would actually be cool if
+11:52 I can just chat with it and just ask it
+11:55 questions about my spending. And
+11:58 apparently what he does is he literally
+11:59 just exports uh his current budgeting
+12:02 app as a CSV and throws it into chat
+12:04 GPT. And I think a lot of people do that
+12:05 with their finances. They just take it
+12:07 and do it. So I was like, "Okay, that's
+12:08 actually a maybe this is actually a
+12:09 pretty useful feature. Maybe people will
+12:11 actually try this." So that's the that's
+12:13 the feature that we're going to try to
+12:14 build right now. And it's using AI. Um,
+12:17 and so I want to just walk through um,
+12:20 we're gonna I'm not going to do it live,
+12:21 but I'm going to walk through all the
+12:23 prompts that I used and I we'll walk
+12:25 through like what the app looked like at
+12:27 that stage so you guys can see and I
+12:29 think there's going to be a couple of
+12:30 interesting techniques and things that
+12:32 um, you guys can kind of pick up from
+12:33 watching me do this. So yeah, let's just
+12:36 uh, jump into it. Unless Do you have
+12:37 anything you want to add? Great. Okay,
+12:39 cool. Okay, so this is where the app's
+12:41 starting point is. There is no AI, but
+12:43 what I want to do is hopefully put
+12:44 another icon at the bottom right for a
+12:46 chat. So, that's what we're going to
+12:48 that's what we're going to try to do
+12:49 right now. This is where the app is uh
+12:52 this is where the app's starting. So,
+12:53 let me show you guys the first prompt
+12:55 that I ended up using. Okay, so the
+12:57 basically the first prompt that I did
+12:59 again the app it there's no chat,
+13:02 there's no AI or anything. The first
+13:04 thing that I did was I told it um I want
+13:07 you to create a new tab for an AI chat.
+13:11 Can you make the UI for this? Try to
+13:13 follow the similar UI as other parts of
+13:15 the app. You can just hardcode the chat.
+13:16 Just use dummy data. Basically, the what
+13:19 I wanted it to do was just create the
+13:21 UI. And that's actually one of the big
+13:24 uh techniques that I use is I try to
+13:27 only do the UI first and then I start
+13:30 hooking up the back end or hooking up
+13:32 data afterwards. But the reason I do
+13:34 that is I found that the AI has a way
+13:36 harder time or sorry, it has a way
+13:39 easier time um following the
+13:40 instructions if it can just focus on one
+13:42 thing. And it honestly probably could
+13:45 get this in one shot. There's a chance.
+13:46 But I didn't want to take that risk. So
+13:47 I decided let's just do the UI first and
+13:49 let's do dummy data and then we'll hook
+13:51 it up later just cuz I really wanted to
+13:53 see or I just wanted to increase the
+13:54 chances of success of this working. And
+13:56 then I also tagged the entire codebase
+13:58 here which when I'm doing anything major
+14:01 just to make sure that it has the right
+14:03 context. Um I like to tag the entire
+14:05 codebase. Um and this is I think I just
+14:08 tagged the entire Luna folder basically
+14:10 which is uh which is the the iOS
+14:12 codebase just to make sure that it has
+14:14 it. So once this is uh so once I got
+14:17 this oh and sorry another another tip
+14:19 here was um I told it try to follow the
+14:20 UI as similarly as the other parts of
+14:24 the app. This was very important because
+14:26 I've noticed that if you just tell
+14:27 cursor, hey, can you go build this like
+14:29 feature or whatever, sometimes you get
+14:30 lucky, it does kind of look like it's a
+14:32 part of the app, but then sometimes it
+14:33 just makes up a bunch of components and
+14:35 tries its luck. And I wanted to see,
+14:38 okay, what happens if I tell it to just,
+14:40 you know, follow the rest of the UI. So,
+14:42 we ran this. Um, I did get a bunch of
+14:45 error. Well, this is the output. Um, I
+14:47 did get a bunch of errors and and I did
+14:50 notice that there was a little cut off
+14:51 here, but the only thing that I had to
+14:54 um the only thing that I manually added
+14:56 here was I added this chat icon just to
+14:58 match the other icons. So, I created
+15:00 that. But in literally one shot with the
+15:03 UI, this is what it came up with. All of
+15:05 this is hardcoded. So, it hardcoded this
+15:07 this data. As you can see, it actually
+15:10 did pretty well trying to follow the uh
+15:14 the rest of what the app looked like.
+15:15 like it got this purple color scheme, it
+15:17 really matched it with the rest of it.
+15:19 Um, and the other surprising thing was
+15:21 um, if I just type whatever I want in
+15:23 here, it actually also hardcoded the
+15:25 responses. So, it actually got this
+15:26 animation where it kind of goes down.
+15:29 Um, that was actually kind of
+15:30 surprising. I thought I would have to go
+15:32 do that myself, but I guess it was it
+15:34 was good enough for that. So, um, this
+15:35 was the literally from the first prompt.
+15:37 It added this again. I added the manual
+15:39 icon, but now we have the chat UI
+15:42 functioning. So, I was really happy at
+15:43 this point. I was like, "Okay, maybe I
+15:44 could just, you know, hook this up at
+15:46 this point." Um, the only issues I did
+15:48 run into, um, just to share, were, for
+15:50 example, when I first ran it, this
+15:51 little message area was hidden behind
+15:53 the tab bar. So, I had to do a couple
+15:55 prompts to fix that. Um, I also noticed
+15:57 that, um, you know, I I didn't fix it
+16:00 here yet, but I I hate how it kind of
+16:01 scrolls at the top here. Like, I'd love
+16:03 for it to scroll at the bottom. So, I
+16:04 think I use like one or two prompts to
+16:06 go ahead and do that, but here, let's
+16:07 just walk through some of the other
+16:09 stuff. What's cool about that? So, I've
+16:11 built a lot of mobile chat apps is um
+16:14 there's actually like a set of UX like
+16:17 standards that you know you need to
+16:20 build when building a messaging app. So,
+16:22 for example, like have I mean it's it's
+16:25 it's so obvious you know because we're
+16:28 in chat all the time but like um like
+16:31 the way it comes down when you like send
+16:33 a message and like where the sender is,
+16:36 where the receiver is. Cursor knew
+16:38 exactly what to do. Yeah. Yeah, you
+16:39 didn't you didn't have to, you know,
+16:40 it's that was insane. Yeah. Yeah. It it
+16:43 I think uh there's a couple of UX uh
+16:46 just or just like UX patterns that I
+16:48 think it's really well trained on and
+16:50 thankfully chat I think is one of those
+16:51 things. Yeah. Yeah. Okay. So then the
+16:54 next thing um so I had a bunch of
+16:57 prompts here. This was like because the
+16:58 the chat area was cut offs and and
+17:00 another thing I do is I always feed it
+17:02 in screenshots of things. So, um I guess
+17:04 it's broken here, but I I did take a
+17:06 screenshot of the app so it could see
+17:08 what I was seeing and I feed it in.
+17:10 That's another thing that I'm surprised
+17:11 people um they they or when I tell them
+17:14 like, "Hey, by the way, you know, you
+17:15 can feed in images into cursor." They're
+17:17 kind of surprised by that. Honestly, I
+17:18 was surprised the first time I saw that,
+17:19 too. But I do that for UI sometimes if
+17:21 it's not getting the UI, I go to like
+17:23 Mobin or I go somewhere else and I just
+17:25 feed in screenshots of things and say,
+17:26 "Hey, can you try to get close to this
+17:28 UI as a starting point?" So that's
+17:30 another technique is just I'm constantly
+17:32 feeding in images into this thing. Um so
+17:34 then um yeah it did it got it wrong a
+17:36 couple times. Um still not fully
+17:38 visible. So so yeah I had to I had to
+17:40 kind of correct it here. But once I got
+17:42 this done and and it's at this this
+17:44 place I was like okay you know what
+17:46 let's go ahead and let's actually just
+17:47 try to hook up the let's try to hook up
+17:49 the the data here. So, the next thing
+17:50 was I was like, "Okay, let's try to
+17:54 let's actually try to get this hooked up
+17:57 to an actual LLM, to an actual AI." So,
+18:00 one of the things um I don't know if
+18:02 you're familiar with Open Router, Greg,
+18:04 or if anyone's ever talked about that in
+18:05 the Okay, nice. Okay. But I I Can you
+18:08 tell people Yeah. why it's so dope?
+18:11 Yeah. Yeah. Okay. So, Open Router is
+18:13 basically it's basically a service where
+18:16 um if people are familiar with how they
+18:18 hook into LLMs, you usually go call
+18:21 OpenAI directly or you call Claude
+18:23 directly and you know you feed it in
+18:25 messages and then it kind of spits it
+18:26 out but you have to integrate directly
+18:28 with them. Open router has a service
+18:30 where they've integrated with I think
+18:32 over 300 models and basically you can
+18:36 just switch out the models with one line
+18:38 of code honestly just like a string just
+18:40 a piece of text. So if I wanted to call
+18:42 the Gemini API and just test it out, I
+18:44 can go do that. Then it with one line I
+18:46 can switch it to cla or I can switch it
+18:47 to open AI. So open router has all of
+18:50 these different models. It shows all the
+18:51 price points. And I love using it for
+18:53 development because now I can test the
+18:56 different LLMs and see what kind of
+18:58 responses am I getting or how expensive
+18:59 is this with just one line. So that was
+19:02 another thing I wanted to share here
+19:03 which um I honestly I think I learned
+19:05 like 2 or 3 months ago but it's been so
+19:07 gamechanging. I think there is a bit of
+19:09 a fee on it, but in my experience, it's
+19:12 like totally worth it just because of
+19:13 the speed of having to switch these
+19:15 things out. And then once I think I
+19:17 confirm like, okay, I'm good. I know
+19:18 exactly the models I want to use, then
+19:20 maybe I'll just go ahead and and skip
+19:22 that and just go direct. But during
+19:23 development, it's incredible. So, um, I
+19:25 know I wanted to integrate Open Router
+19:27 into this for the chat. And so, that was
+19:30 actually the first prompt that I did was
+19:31 I said, let's can you make this
+19:33 functional and not hardcoded? And again,
+19:35 it was just the hard-coded chat um the
+19:37 chat UI. And I said, can you use open
+19:39 router so I can swap out the chat model
+19:41 quickly? And can you put a setting at
+19:44 the top right so we can toggle between
+19:45 the models? So I wanted some sort of
+19:47 drop down where I can switch between GPT
+19:48 or G between claude. Um and then I said,
+19:51 uh when you ask questions, can you use
+19:53 the last 3 months of transactions as
+19:55 context? So, I think honestly it
+19:57 probably would have done something to
+19:59 feed it in context cuz when you when I
+20:01 ask a question, it's not going to know
+20:03 how to answer it if it doesn't have the
+20:05 transaction history. So, I just
+20:06 explicitly decided to put this here just
+20:08 to try to save on prompts. Like I just I
+20:10 was like, I'm not going to take a risk
+20:12 on that. Um, something cool that I also
+20:14 wanted to mention which uh some people
+20:16 don't know about is that you can
+20:17 actually feed in documentation into
+20:19 cursor. And so that's what I did here. I
+20:21 basically took the open router docs. You
+20:25 just literally copy and paste the URL.
+20:28 You can go to cursor and you can type at
+20:30 docs and then when you add a new doc,
+20:33 paste it in here, it's literally going
+20:35 to index the entire documentation of
+20:38 that service and then now it has context
+20:40 of what are the API calls that are
+20:42 needed to use open router. Um it's it's
+20:44 just amazing. So then I don't have to
+20:46 copy and paste documentation in here and
+20:47 tell it hey this is how you use open
+20:48 router. So that's been really
+20:50 gamechanging. And I will also say for
+20:53 Apple specific development when you're
+20:54 developing on iOS and Mac, a huge issue
+20:57 right now that I found with cursor is
+20:59 that it is constantly hallucinating what
+21:02 you can do in an iOS app. And then it's
+21:04 even worse for a Mac app. So I started
+21:05 building my first Mac app recently and
+21:07 it was just hallucinating left and right
+21:09 like things that just didn't exist. So
+21:11 once I started feeding in the Apple
+21:12 documentation and I'm constantly doing
+21:14 that, it really brought those
+21:16 hallucinations down. So that's another
+21:18 tip is uh constantly feed in
+21:19 documentation especially when you're
+21:20 working with AI products like and all
+21:22 these APIs are changing constantly like
+21:24 the GPT API, the open router API, all
+21:27 the uh like 11 Labs like all the docs
+21:29 are al always changing. So this is a
+21:31 huge tip that I have. So once I had once
+21:34 I and again this we're just kind of
+21:35 oneshotting this like can you make this
+21:38 functional? Um it did a pretty good job.
+21:40 Let me just make sure let me just see.
+21:43 Okay, so it did a really good job of uh
+21:46 of of oneshotting this. And here here
+21:49 was the result of that oneshot. So
+21:50 again, now we don't have the hard-coded
+21:52 data anymore. It's it's like gone. Um
+21:54 and we have the toggle at the right to
+21:57 be able to uh to be able to uh switch
+21:59 between the different models. Um and
+22:02 then if I chat with it, where did I eat
+22:06 last week?
+22:09 Um, it
+22:11 is great. Okay. Well, it doesn't work.
+22:14 But, um, it at least we know that it is
+22:16 calling the LLM because it's not a
+22:17 hard-coded response. So, that means that
+22:19 it is calling like it is calling
+22:21 something. Maybe it doesn't have the
+22:22 right Oh, I know what's going on, but
+22:23 maybe it doesn't have the right context
+22:25 here. Um, actually, I think I Yeah, I
+22:27 think I do know what's going on. Um, I
+22:29 forgot. This is just a demo account, so
+22:30 like it doesn't have any data, but I did
+22:32 uh add this like demo mode, so it'll
+22:34 just like populate data. Um, and then
+22:36 now I think it should be able to like
+22:38 answer it. But yeah, ba basically though
+22:40 it's uh this is now working. It's
+22:42 connected to the LLM. So let me also
+22:43 show you guys kind of what the code
+22:44 looks like a little bit so you guys can
+22:46 see um the the iOS code that it
+22:49 generated. So I can trust you, right?
+22:51 That it worked. It worked. It worked.
+22:53 Yeah, it worked. Uh it worked. Um, it I
+22:56 just I just realized I I forgot to um
+22:58 there was like one little nuance with it
+23:00 where I'll show you in the prompt here,
+23:01 but um it it generated two two files
+23:05 here. And the way that I structure my
+23:07 iOS apps, if you're interested, is um I
+23:10 have the a UI folder. So that's where
+23:12 all the UI components are. I have models
+23:14 which just shows all the different data
+23:16 models, the data types, and then
+23:17 services. And this is how the app talks
+23:19 to the front end and the back end. So
+23:21 those are the folders. But it created
+23:22 two files for me. It created a new AI
+23:25 chat view. So that's where we can see
+23:27 this is where we can see that actual the
+23:30 UI of the actual chat and then it create
+23:32 it just created this open router
+23:34 services. So this is really cool because
+23:36 it that means that it had context of the
+23:38 other services and it knows because I
+23:40 fed in the codebase how I structure the
+23:43 services and it actually copied and and
+23:46 made a service very similar to the other
+23:48 ones. Um, I will say though that like
+23:52 you should not put all of this stuff in
+23:54 the front end of the app. So, I'm just
+23:56 doing this for demo purposes and for
+23:57 speed purposes. Like the API keys here.
+23:59 I'm going to don't try to use this. I'm
+24:01 going to kill it after this demo. But,
+24:03 um, in theory, this stuff should be
+24:04 living in the back end. It shouldn't be
+24:06 in the front end, which is something we
+24:07 could talk about is the security of this
+24:09 stuff because that is a problem that it
+24:10 is putting this stuff in here. Um, so as
+24:13 a developer that's been doing this, I
+24:15 know that that's an issue. So, I'm going
+24:17 to go correct that later. But for demo
+24:19 purposes, we're going to keep everything
+24:20 in the front end just to keep it simple.
+24:22 Um, so it did create this service. Um, I
+24:24 did have to put in the API key here for
+24:25 open router, but everything else was it
+24:28 was all it was all this uh it was all
+24:30 cursor. Um, so it got it got the it
+24:33 literally got all the data models that
+24:36 um you're going to get from open router
+24:38 because of the documentation. It got a
+24:40 bunch of the models. Um, and yeah, it it
+24:43 uh it all works. It all functions. um
+24:45 it's able to call it correctly and we're
+24:48 literally basically two major prompts in
+24:51 like at this point to be able to get
+24:53 here. Um so yeah, that's that's uh
+24:56 that's uh so that was the basically the
+24:58 second major prompt was now that we have
+25:00 the UI, can you hook it up? Can you uh
+25:02 can you hook it up to open router and
+25:03 make this thing functional? Um I did
+25:05 have to do another prompt because of the
+25:07 issue we saw here. I noticed that it was
+25:09 actually fetching uh transactions from
+25:11 the database directly in the open router
+25:14 service and I was like actually let's
+25:16 just save on some costs. Um you have all
+25:18 of the data locally. Can you instead
+25:20 just pull it locally? So that'll just uh
+25:22 save some latency. That'll just save
+25:24 some cost for me. So I made that change
+25:25 here. Um then also like the bug we just
+25:29 saw where it says there's no
+25:30 transactions. It's because demo demo
+25:33 mode was not persisting. So I also
+25:35 corrected that. Um, but yeah, once we
+25:37 got to this step, like you got to trust
+25:39 me on this. It does actually, you know,
+25:40 I'll just like restart it. But no, we we
+25:43 we are uh what's the expression? TR uh
+25:46 ver trust and verified. Trust. Yeah.
+25:48 Yeah. Yeah. Okay. That's the type of
+25:50 audience we are, you know. Okay, cool.
+25:51 All right. Well, it works. It works. Um
+25:54 well, well, let's see. Um Okay, let's
+25:56 see what the next step was. I think the
+25:58 next thing I did once once I knew that
+26:00 it was hooked up to open router. Um the
+26:04 next thing I did
+26:06 was Yeah. So the next thing I did was
+26:11 um I wanted to modify the the prompt the
+26:15 base prompt because the prompt right now
+26:18 was
+26:20 um like uh right now the prompt the
+26:22 prompt that it gave me it's it's not
+26:24 this prompt but the prompt that it gave
+26:25 me was literally just like a oneliner
+26:28 and it all it did was say here's the
+26:30 user message here's some transactions
+26:32 can you answer the user's question and
+26:33 to be honest the answers were really not
+26:35 good the answers were pretty bad Um, you
+26:38 know what? I think it's actually Yeah.
+26:40 Yeah. Um, it really it really wasn't
+26:41 good. So, I decided, okay, I I want to
+26:44 make a better prompt. And if you've
+26:46 coded any AI apps, you know that the
+26:47 prompt is everything. Like, that's kind
+26:49 of how you control everything. Um, yeah,
+26:52 actually. So, here here's the here's the
+26:54 original prompt that it that um uh from
+26:56 that from that initial uh you know,
+26:59 twoot that we got. It it it this is what
+27:02 the LLM this is what cursor came up with
+27:03 as a prompt. Here's the user question.
+27:06 here's some additional context on on the
+27:09 question that's relevant and it's
+27:10 literally just the three months of
+27:11 transactions and then it just fed it
+27:14 into cursor and said or sorry it just
+27:15 fed it into open router and said okay
+27:17 can you go answer this question not a
+27:18 good prompt at all so one of the things
+27:20 I wanted to do is make the prompt better
+27:22 and so a technique that I've been using
+27:24 which you guys can take is um I actually
+27:26 use claude to generate the uh to
+27:30 generate really good prompts and I for
+27:32 some reason I've noticed claude is
+27:33 actually pretty good at this I probably
+27:34 could do this directly in cursor But I'm
+27:36 just I don't know why I just uh out of
+27:38 habit like I I like to do it directly in
+27:40 cloud. I feel like I have more control.
+27:41 So um can you see the cloud screen here?
+27:44 Great. Yeah. Okay, cool. So I I just
+27:46 asked it, hey, I have a budgeting app. I
+27:47 want to add an AI chat to you. Can you
+27:49 give me a very good prompt in XML format
+27:52 so it can follow the instructions. And
+27:53 this is another technique that I've
+27:55 learned is that um if you format the
+27:57 prompt in what's called XML, and this is
+27:59 what XML looks like. It just has kind of
+28:01 a title and then a description. Um, you
+28:03 can kind of understand just by looking
+28:05 at this how this works. There's nothing
+28:06 special here. Um, formatting an in XML,
+28:10 formatting in XML actually has a higher
+28:12 chance I've seen of producing really
+28:14 good results for the from the LLM. So,
+28:16 that's just a cool technique that I
+28:18 learned um, after making a bunch of
+28:19 these AI like AI features and AI apps.
+28:22 So, I told it, give me a good prompt in
+28:24 XML um, and make it so the answers are
+28:26 very concise like a friend answering it
+28:28 for you. Don't show your work unless
+28:30 asked and just answer the question. So,
+28:32 I just wanted this to be I was trying to
+28:33 think like how would I want this thing
+28:34 to respond and that's exactly how I want
+28:36 it to respond. And this is the prompt
+28:37 that it it gave me. So, it it you know,
+28:40 it put the the first XML tag here as
+28:42 budgeting assist instructions and it's
+28:44 like here's your persona, here's the
+28:45 response style, here's your knowledge
+28:47 areas, and then here's the instruction
+28:49 guidelines. Um, so this is a way better
+28:53 prompt than this one here that it gave.
+28:55 And so I just told it, hey, um, you
+28:58 know, I want you to like I want you to,
+29:02 uh, actually, yeah, I I decided to
+29:04 actually see what cursor would do, but I
+29:05 did give this as, as context. So I said,
+29:08 hey, can you, um, can you add something
+29:11 like this into like as the prompt, and I
+29:15 gave it the example that Claude that
+29:17 Claude gave us. Um, so that's uh, that's
+29:20 how I do the prompt generation. And with
+29:22 this prompt, let's see.
+29:26 Yeah, with this prompt, um, it actually
+29:29 was able to be it was actually a lot
+29:31 better. Um, let me see. By the way,
+29:34 that's such a lowkey, such a important
+29:38 takeaway. I just want to highlight that.
+29:40 You know, so many, as you said, so many
+29:42 of these products are about the prompt,
+29:44 right? If you can create a great prompt,
+29:46 the UX ultimately becomes way better.
+29:49 And if the UX comes better, you know,
+29:51 all your metrics are going to go up.
+29:53 going into you call it claude, I call it
+29:56 clude. People on the channel know I call
+29:57 it clude. Um, tomato tomato. Going into
+30:02 going into clude and and and asking it
+30:06 and optimizing it and thinking
+30:08 empathetically about the user, right?
+30:10 You you said uh pretend it's like you're
+30:14 talking to a friend and that's such a
+30:16 small little detail, but you do people
+30:18 forget that we're building product for
+30:21 people, right? Um, so I think that's a
+30:24 huge tip around how to how to figure out
+30:27 prompting. Nice. Okay, cool. Yeah, I
+30:29 think I think I think that's great. Um,
+30:31 so let's build this and see. Um, so
+30:33 again, the what I did here was I told it
+30:36 um, can you improve the prompt? Here's
+30:38 uh, you know, here's the example I got
+30:40 from Claude. Can you improve the new
+30:42 prompt? Um, and so it was able to
+30:44 actually just, you know, inject this
+30:46 right here. So this is a way better
+30:48 prompt. So, we're going to see um we're
+30:50 going to see how this we're going to see
+30:52 what this thing does. So, another tip
+30:54 while we wait for this to build was um I
+30:56 noticed that when I was testing um I
+30:58 added this demo mode. So, it'll again
+31:01 it'll just Oops. It it'll just basically
+31:03 populate um it's just going to populate
+31:06 with um with a bunch of dummy data. But
+31:10 I was kind of like, okay, this doesn't
+31:11 really feel that natural because this
+31:12 isn't my data and it just has like
+31:14 generic I went to a shopping store. I
+31:17 went to a restaurant, but I wanted to
+31:19 actually test this thing out. So, a cool
+31:21 tip is um I actually have um I have a
+31:25 mock data file. This is where I put all
+31:27 of the mock data for the app whenever
+31:29 I'm doing testing or whenever I want to
+31:33 Yeah, just whenever I want to see what
+31:34 the app actually looks like with real
+31:35 data. Um something cool that I did here
+31:37 though with AI is that you can actually
+31:39 tell it, hey, can you make the mock data
+31:41 less generic? And I said, "I want you to
+31:43 add restaurants and places that look way
+31:45 more realistic for a 28-year-old male in
+31:48 Dallas." And it did a very good job.
+31:51 These are like actually restaurants in
+31:53 Dallas. And this actually made the demo
+31:56 so much better for me to test the AI
+31:58 feature because this is realistic data
+32:00 now. So when I ask it, okay, am I
+32:02 overspending? And to be honest, like I
+32:04 guess a 28-year-old men male always
+32:06 overspends or something. So, I did go
+32:08 over budget for like almost everything
+32:10 here just in the in the uh dummy data.
+32:12 But this is a cool tip I have. Uh if
+32:14 you're, you know, if you're too lazy to
+32:16 generate the data, just use AI to do it.
+32:18 This alone honestly like saves me so
+32:19 much time so I don't have to like
+32:21 manually mock all this stuff out. Also,
+32:24 it's not even just for you. So what you
+32:26 can do is you can come up with an idea
+32:29 for a startup, use cursor to build it,
+32:31 use some of this mock data, rec, you
+32:34 know, compile, build, record a video now
+32:38 with that data that's way more
+32:40 interesting, post it on X, see if people
+32:44 actually want the app. Yeah. Yeah.
+32:46 Right. Make it go viral. Because if you
+32:48 have bad dummy, you know, people I see
+32:50 this all the time. People post uh videos
+32:52 or or content and it's it's bad. It's
+32:55 bad dummy data and I I'm like, "Yeah,
+32:57 I'm not gonna use this app." Yeah. Yeah.
+33:00 Yeah. That makes so much sense. Like
+33:01 they can't like visualize themselves
+33:02 seeing it. Exactly. So, just the higher
+33:04 shot you have of doing that. Which I
+33:06 will say when I I demoed this little
+33:08 this little AI demo for some people and
+33:10 I think it hit really hard when they saw
+33:12 this type of data and they saw
+33:13 restaurants in the Dallas area. They
+33:15 were like, "Oh, this is actually Oh, I
+33:16 would actually you can envision
+33:18 themselves using it basically." Totally.
+33:19 Which is pretty cool. Um, okay. So, I
+33:21 think this is built. Um, okay. So, let's
+33:23 test it now with this new prompt. Let's
+33:26 see how good it is. And let me just make
+33:28 sure. Yeah, the demo mode's on. Okay, so
+33:30 it loaded all the demo data this time.
+33:32 Um, so now if I say where did I eat in
+33:35 the LA or where did I recently eat?
+33:39 Cool. Okay. Wow. So, it actually loaded
+33:41 it and now it said, you know, hey, you
+33:43 recently ate at the Ascension Coffee
+33:46 Design District here. And and again, the
+33:48 prompt is concise. like I I couldn't
+33:50 show it in the um cuz we the demo the
+33:52 earlier demo wasn't running. But I will
+33:54 say that when I asked that same question
+33:55 with the dummy data, it was like like a
+33:57 chat GPT response like it was like
+33:59 formatted and marked down. It was like
+34:00 very verbose. So that was a huge reason
+34:02 why I told it, hey, can you make it
+34:04 concise? Don't show your work. Just do
+34:06 it. Um and this is actually a really
+34:08 good response, I think. Like this is a
+34:10 pretty pretty cool one. And obviously
+34:11 you can tweak the prompt. Um but yeah,
+34:13 that's uh so that's uh that's this. Let
+34:17 me see the next thing. Um, so then,
+34:20 okay, in theory I was like, okay, we
+34:22 could just end it here. Technically,
+34:24 like we we have, you know, it's working,
+34:26 the chat's functioning, we have AI
+34:28 integrated, we can switch between
+34:29 models. It's like really good. But I was
+34:31 like, okay, that's kind of everyone can
+34:34 do this. Let's like try to do something
+34:35 a little bit more interesting here. Um,
+34:37 so I don't know if anyone has ever done
+34:39 um like uh shown like tool calling or
+34:42 anything, Greg, on the on this podcast.
+34:45 I mean, not in depth, that's for sure.
+34:48 Okay. So the next thing that I wanted to
+34:51 try was So the next thing that the next
+34:54 thing that I wanted to try which um
+34:56 which was a problem was again if you
+34:59 remember the first prompt I said just
+35:00 feed in or sorry the second prompt I
+35:02 said feed in 3 months worth of
+35:04 transaction history. Um I hardcoded
+35:07 that. So now every time you ask a
+35:08 question it's going to feed three months
+35:09 of transaction history. That could be a
+35:11 lot of transactions and that could be
+35:13 very costly. So I was trying to think of
+35:15 a good solution to this. Should I maybe,
+35:18 you know, maybe I can just feed in a
+35:19 year's worth of transactions because
+35:20 what if someone says summarize the last
+35:22 year, then the three months isn't going
+35:24 to cut it. We're going to need the last
+35:25 year. But then if I summarize the last
+35:27 year, or if I or if I, you know, what if
+35:29 I just gave it all the transactions
+35:30 every time cuz I mean the LLM context
+35:33 windows are pretty big. Gemini can
+35:34 support 1 million. Let me just feed in
+35:36 all the transactions. The only issue
+35:38 with that is it gets incredibly
+35:39 expensive to do that every single time.
+35:41 And then the second thing is what if
+35:42 they just asked about the last week?
+35:44 They're like, "Hey, where did I what
+35:45 restaurant did I go to last week um that
+35:48 you know it was around $30. It would be
+35:50 so wasteful to feed in a like, you know,
+35:52 two years worth of transactions into
+35:54 this." So, I was trying to think through
+35:56 what's a good solution to this. And the
+35:58 first thing that came to mind, which I
+35:59 think a lot of people try to do, is
+36:01 they're like, "Oh, I'll just use another
+36:03 LLM at the beginning to take in the
+36:06 message." So, if the user asks, you
+36:08 know, um what what did I eat last week
+36:11 versus what did I eat last year? that
+36:12 first LLM will parse the message and
+36:15 then come up with a date range uh for
+36:17 the transactions. So that was the first
+36:20 thing I thought about. Maybe then it'll
+36:21 take the dates, feed it into some sort
+36:23 of function to then go get all the
+36:26 transactions for whatever the date range
+36:28 is and then feed it into the second LLM
+36:30 which will actually answer the question.
+36:32 So then in this case now we'll have two
+36:33 LLMs. The first one just to parse and
+36:35 figure out what's the date range. Let me
+36:37 let me get the transactions basically.
+36:39 Then a second one to answer the
+36:40 question. But in reality, this is um
+36:43 there's actually something that exists
+36:44 in open router and GPT and it's called
+36:46 tool or function calling. So you can
+36:48 actually get the LLMs and give it tools
+36:51 to use. And this is we're kind of
+36:53 getting into the the territory of agents
+36:55 which I think has been covered a lot on
+36:57 the channel like how do you use agents?
+36:59 But I want to show at a low level how
+37:01 you can actually build an agent that has
+37:04 access to tools in your own AI app. I
+37:07 like and we're not talking about like
+37:08 let's use existing APIs or anything.
+37:10 It's like let's actually build the tools
+37:12 here locally, which a lot of people
+37:14 don't realize you can do and give it to
+37:16 the LLM. And I'll show you guys how this
+37:17 works. So, since we have time, I was
+37:19 like, let's just go ahead and try this
+37:20 and see how far we get here. Um, and so
+37:23 the way it's going to work is um so open
+37:26 router actually has um something called
+37:28 tool and function calling. And so this
+37:30 is where you can actually tell give the
+37:34 LLM um a bunch of tools that it has
+37:37 access to. So you can say, let me see.
+37:40 Yeah, you can basically uh you can
+37:42 basically say like, hey, you have access
+37:44 to like here's the messages I want to
+37:46 send into the LLM and here are the tools
+37:48 you have. And then you can you can go
+37:50 ahead and define the tools here. So I
+37:51 think in this case in their example,
+37:53 they specifically have a tool that they
+37:56 defined called search Gutenberg books.
+37:59 And then here's what the function looks
+38:01 like. And it calls the I guess it calls
+38:03 this API and goes gets books. So now
+38:05 when you ask their LLM, hey, do you have
+38:07 any book recommendations? It could just
+38:09 answer it based on what it knows and
+38:11 what it's been trained on. But I think
+38:13 when you ask it, hey, what books do you
+38:15 recommend? Or like, do you recommend any
+38:17 good horror books? It's actually going
+38:19 to like when you feed it in the tools,
+38:21 it's going to first think and do an
+38:23 initial step of, okay, do I have enough
+38:25 context to answer this user's question?
+38:27 If yes, go answer it. If no, do I have
+38:30 the tools to answer it? if there are
+38:32 tools, let's let's go use the tool and
+38:34 try again. And it kind of just loops
+38:36 through over and over again until it has
+38:39 the relevant context to answer the
+38:40 question. So that's the stop point when
+38:42 it says, do I have the relevant
+38:44 information to answer this? Let's kill
+38:46 the loop. Um so that's at a high level
+38:48 how the tool calling works and it's
+38:50 actually very easy to implement. And so
+38:52 this is how I did it. Um I basically
+38:55 told it um let me
+38:57 see. Yeah, I basically told it um can
+39:01 you actually create a new tool function
+39:03 that the LLM is able to call? I want to
+39:06 use function calling from open router.
+39:08 And again, I did the thing where I fed
+39:10 it in the docs just to make sure that it
+39:11 has it. I think it already probably had
+39:13 it when I fed in the initial doc, but I
+39:15 was like, let me just not take a chance
+39:16 here. I'll just feed it in to be safe.
+39:18 Um and then I told it, can you create a
+39:20 few tools? So maybe a tool to get the
+39:22 transactions for a specific date range.
+39:24 And then just for fun, I said, "Okay,
+39:26 let's just also feed in a tool to maybe
+39:27 get the current budget." Then I
+39:29 explicitly told it, I want all the tools
+39:32 to be local. We're not calling any
+39:34 external APIs. And the reason I did that
+39:36 was I was a little worried because
+39:38 looking at the docs, um, and looking at
+39:40 most docs, a lot of the function
+39:42 calling, they they usually call external
+39:44 API. So I was scared it was going to
+39:45 hallucinate that. So that was just
+39:47 something I did just to like really make
+39:49 sure that it didn't do that. And let's
+39:52 see. I was actually surprised that Oh,
+39:55 no. I actually did get a ton of errors
+39:56 with this. And the way I deal with
+39:58 errors, by the way, um is I literally
+40:00 just screenshot the error and then kind
+40:02 of feed it in and say, "Can you fix it?
+40:03 Can you fix it? Can you fix it?" And I
+40:05 do this like 100 times until it doesn't
+40:07 fix it. This one it looks like, yeah,
+40:10 this one it looks like it happened like
+40:11 three times where it worked. So the way
+40:14 and then the way that this works. So
+40:16 after like basically in a couple of
+40:19 different prompts like one one prompt to
+40:21 tell it to generate you know like use
+40:24 open AI tool calling and then just
+40:26 fixing a bunch of the errors I got. This
+40:28 is what it generated. Um it was actually
+40:30 able to um it was able to change the
+40:34 prompt. it was able to like modify this
+40:37 so it uses those tool calling and it and
+40:40 this these were the available tools that
+40:42 it it came up with. Um I don't know why
+40:44 it came up with two of these to be
+40:45 honest. These two are kind of redundant
+40:47 when I look at it like they're both like
+40:48 get transaction for date range but so
+40:50 we'll just look at these two but it did
+40:52 create this tool to get transactions for
+40:55 a specific date range and then it did
+40:57 also create a tool to go get the user's
+41:00 current budget. Um and then you can see
+41:02 here it takes in the date range. Um, and
+41:05 then these, you know, these parameters
+41:06 are required. And so this is what it
+41:08 looks like when you define the tools and
+41:10 you're going to feed this into open
+41:12 router. And then this is where the
+41:14 actual tool definition is. So this is
+41:17 the actual function that it's going to
+41:19 call in your app like when the LLM
+41:21 decides I I we need we need to call this
+41:23 thing. Um, so it generated this and this
+41:26 code does work. It basically goes
+41:28 through and it searches my local
+41:30 database in the app and it just kind of
+41:32 filters and gets transactions for a
+41:34 specific date range. And then uh yeah,
+41:36 and it basically is just going to um and
+41:39 it's just going to loop. It's literally
+41:41 just going to loop until it checks, you
+41:44 know, do I have the available context?
+41:46 Yes. Okay, go answer it. And I do um you
+41:48 can actually specify what are the max
+41:50 number of loops. That way if you have a
+41:52 situation where it's like looping too
+41:54 much or if it's an infinite loop and
+41:55 it's not getting it, you can have a hard
+41:56 cut off when you want it to stop. So in
+41:58 this case, I think I have it set to
+42:00 three as a default. So it's not going to
+42:02 or sorry four. It's not going to loop uh
+42:04 more than four times in this case. And
+42:06 again, this was like we're talking like
+42:08 three or four prompts to get the
+42:09 function calling working here. So now
+42:12 that I have the function calling
+42:13 working, um in theory, if I ask it, hey,
+42:17 can you, you know, can you tell me what
+42:18 I ate last week? It's not going to feed
+42:20 in 3 months of data anymore. It's going
+42:22 to check, do I have like, do I have the
+42:26 transaction I needed to answer this
+42:28 question. It's going to say no cuz we
+42:29 haven't called any tools. It's going to
+42:31 say, okay, I don't have it. What tools
+42:33 do I have at my disposal? Oh, cool. I
+42:35 have a a function to get the
+42:37 transactions for a date range. Let me go
+42:39 put in the dates and go call it. So
+42:42 now, yeah. So now if I just say like
+42:44 like where did I eat last week? But to
+42:46 be honest, it could in theory just
+42:48 answer this with 3 months worth of data.
+42:50 So then if I ask it something like a
+42:52 little larger like Yeah, that's what I
+42:53 was going to ask the last year.
+42:58 It's the moment of truth. So now if I
+42:59 ask it a little bit of a broader
+43:00 question, hopefully it's it's going to
+43:02 be able to and it's taking a little bit
+43:04 longer, which signals to me like, okay,
+43:06 it's like, you know, it's uh it's it's
+43:08 thinking a little more. It has more
+43:09 data. And here it does say here's a
+43:11 summary of spending from April 22, 2024
+43:13 to 2025. So it is now pulling the right
+43:16 year range. But again, we also gave it
+43:18 the budget tool as well, which we've
+43:20 never tried. So I said, you know,
+43:23 um how uh am I overbudget
+43:28 anywhere? So in theory, this is
+43:30 something we haven't been able to ask
+43:31 it, but let's see if it's able to
+43:33 actually use that tool. And it does. So
+43:35 it does have access to the user's
+43:37 budget. It did call that tool. So now it
+43:39 says, you know, you allocated $75 for
+43:41 dining out, but you spent $112. like
+43:44 what's going on here? Um, and so you can
+43:46 kind of see how we just gave it two
+43:48 tools, but this is already powerful.
+43:50 Imagine you gave it a tool to generate
+43:52 reports or you gave it a tool to modify
+43:55 budgets and like make changes on the
+43:57 user's behalf cuz now I can sell it,
+43:59 okay, is my budget like can you can you
+44:00 rebalance my budget for me? And that's
+44:02 something users hate doing in budgeting
+44:04 apps. If you gave it that tool, now this
+44:06 thing can then just do it itself and and
+44:08 kind of, you know, it's able to do all
+44:10 this stuff for you like an actual agent.
+44:12 Um then obviously if you give it access
+44:13 to the internet, you give it access to
+44:15 other things like if I give it access to
+44:16 the Robin Hood API or something probably
+44:19 won't do it. But in theory it can
+44:20 actually probably re like you know
+44:22 deposit money and make investments for
+44:24 me. Basically you can do anything like
+44:27 once you have access to this low-level
+44:29 um this low-level code to give agents
+44:32 tools. But it's super simple. And again,
+44:34 literally we got here I think total to
+44:37 get to this point in the app minus all
+44:39 the errors that we got and all the
+44:41 prompts I use for errors. This was like
+44:43 four prompts probably like four prompts
+44:45 like to actually get to this point minus
+44:47 the error calling. And we were able to
+44:49 hook up open router so we can switch
+44:51 between the different models. We also
+44:53 were able to integrate function calling.
+44:56 So now that it's it's not even a chat
+44:58 anymore. It's really there's an agent in
+45:00 here that has access to tools. And this
+45:02 all happened in like basically four
+45:04 prompts with all the errors probably
+45:05 like 20 prompts. But yeah, this is um
+45:07 this is kind of like it's very powerful
+45:10 stuff to be able to like to kind of do
+45:11 this in iOS. And there's one other the
+45:14 last thing that I did here just cuz I
+45:15 was like all right got a little little
+45:16 bit more time. I think this was like 2
+45:18 hours in to doing this. I was like you
+45:20 know what I want to do? I want to um I
+45:22 want to do two things. I want to
+45:25 um I want to see can I you know like
+45:31 this stuff costs money when you're
+45:33 making these calls and I was like I'm
+45:35 using open router they probably have an
+45:37 API to go get the costs can I just can I
+45:40 actually modify this to see what are the
+45:42 actual costs like using this stuff so
+45:44 then the next thing I did
+45:46 was yeah so then the next thing I did
+45:49 was I told it um I basically told it hey
+45:52 can you alter
+45:53 the chat. So, right below the messages,
+45:56 I want to see the total tokens that were
+45:58 used and the cost. And then I also told
+46:00 it um it's like really simple with open
+46:02 router. So, I didn't even bother feeding
+46:04 the documentation. It was I was like,
+46:06 you just got to make a call to this
+46:07 endpoint like they have a generation
+46:09 endpoint. So, you can pull any of the
+46:11 runs and then go get the cost and the
+46:14 tokens used. So, I told it can you just
+46:16 go do this for me? And it actually got
+46:18 it like instantly. it was like perfect
+46:20 or no sorry there was one error but then
+46:22 it was perfect. Then I also decided to
+46:25 say hey I actually want to try some
+46:26 other different models. Can you like
+46:28 swap these out? Um and then um something
+46:30 else I was kind of curious was wait can
+46:32 I just like pull all the open router
+46:34 models and just like kind of display
+46:35 this here instead of hard coding that.
+46:37 Um and so just for fun I
+46:40 also said where is that? Yeah, I also
+46:44 said here I I gave it a prompt saying
+46:46 like um oh my god okay I gave it a
+46:50 prompt saying hey can you actually alter
+46:51 it so let's just pull the open router
+46:52 models directly so I can see and have
+46:55 access to it um here's the response
+46:57 you're going to get from just calling
+46:58 this endpoint which I got from their
+47:00 documentation as well um so once we did
+47:02 that so now if I say where did I eat
+47:06 last week so now at the bottom it
+47:09 actually shows this is how many tokens
+47:11 this consumed here's the prompt and the
+47:13 completion tokens And here was the cost.
+47:14 Okay, that is definitely not right, but
+47:16 I hope that's not right. That says $7.
+47:18 I'm pretty sure. Okay, I think I just
+47:20 did the math there wrong, but there's no
+47:21 way. Okay, but basically like it should
+47:23 show the cost here. And then um now it
+47:26 also followed the second instruction,
+47:27 which was let's pull all the models from
+47:29 open router. Okay, it didn't even do
+47:31 that one. Okay. Oh, okay. I know what
+47:34 happened. Um I realized that some of the
+47:36 models don't support function calling.
+47:38 So I actually went back on that and
+47:39 instead I I hardcoded and said hey still
+47:41 pull it from open router to get the data
+47:43 but let's just use these ones for now
+47:45 because not all of them support tool and
+47:47 function calling. So these are the
+47:48 models that do support tool and function
+47:50 calling like consistently with open
+47:51 router. But it is cool cuz now like in
+47:54 theory we can get the current cost of
+47:56 all the models what the like on the
+47:58 right this is the context window. So you
+48:00 can see like cloud 3.5 like this is
+48:02 200,000 tokens. Gemini is 1 million
+48:04 context window. you can see the cost and
+48:07 you can kind of see that well during
+48:08 development especially if you're trying
+48:09 to test like how much is this stuff
+48:11 going to cost me like what is this you
+48:13 know what does this look like um this is
+48:15 so helpful to be able to you like to be
+48:16 able to see this data right there and
+48:18 then obviously you can build a dashboard
+48:19 and do whatever you need to to like you
+48:21 know see all your costs if you do put
+48:22 this in production but that was a fun uh
+48:24 that was like the fun thing that we did
+48:26 since we had a little bit more time and
+48:28 then absolutely last thing uh that we
+48:30 did here cuz I was like okay that's it's
+48:32 like 2 hours and 20 minutes um The last
+48:35 thing I I I wanted to showcase was um I
+48:40 really wanted to showcase uh how I do
+48:42 the asset generation. Um, so something
+48:46 that something that people have been
+48:47 asking me all the time is like, you
+48:49 know, you have you have these really
+48:50 good um you have like the assets in the
+48:54 in the apps that I have are very high
+48:55 quality like how did I do this and um to
+48:58 be honest I'm using
+49:00 um I'm using GPT40 or yeah GPT40 for the
+49:04 asset generation which kind of surprises
+49:05 people. So let me show you guys what
+49:07 this looks like. So, for example, for my
+49:09 new app, Lily, which is a meeting
+49:12 transcription tool, um this was the
+49:14 character asset that I generated. Um I I
+49:17 think I deleted the chat, so I don't
+49:18 really have it here like like the full
+49:20 one, but um you can basically throw in
+49:22 any asset here. But what I wanted to
+49:23 show you is how if you take an asset
+49:26 like this mascot, you can basically
+49:28 generate an infinite number of secondary
+49:30 assets which you can use in loading
+49:32 screens, in empty states. So, for
+49:35 example, we took the mascot here for
+49:37 this ghost icon and I said, can you give
+49:39 it wired glasses and put it in front of
+49:41 a laptop? And now, you know, we have
+49:44 this and this could be this could be a
+49:46 really cool like, you know, empty state.
+49:48 Um, here's another one. Here's another
+49:49 one where I said, "Oh, I I want you to
+49:51 make the background purple and I want a
+49:52 little um, you know, I want it to be
+49:54 floating. I want there to be this little
+49:55 thing underneath it so it looks like
+49:57 it's floating. Can you do the same style
+49:58 but with a coffee cup? can use the same
+50:00 style, but you know, I don't want the
+50:02 little three lines there. Um, this stuff
+50:04 is really powerful to to almost make
+50:06 like any asset you can think of. Another
+50:08 one with books under a tree in a hammock
+50:12 walking a dog. I didn't like the legs.
+50:14 That was kind of weird. So, I told it to
+50:15 remove the legs. Then I fed an image of
+50:17 my dog and I was like, can you make the
+50:19 dog look more like my dog? And then it
+50:21 got that. So, yeah, you can kind of see
+50:24 that you can like how powerful this
+50:26 stuff is. So, I wanted to do something
+50:28 here. let's try to do it for this app.
+50:31 And so I was trying to think um okay the
+50:34 current app is this mascot Luna. So my
+50:36 girlfriend actually is the one who drew
+50:38 this image. So this one was not AI
+50:40 generated but you can feed in like again
+50:42 you just feed in existing assets. So I
+50:44 said hey can you take this image and
+50:46 modify it so the dog is sitting at a
+50:48 computer. it didn't get it fully
+50:50 perfectly and and I was trying to tweak
+50:52 it and so and it didn't really work
+50:54 because when I said hey can you remove
+50:56 the mouth because in this image there's
+50:58 no mouth here in this image there is and
+51:00 I was like okay can you remove it
+51:02 literally removed the mouth and the nose
+51:03 so um and then it just it just kept like
+51:05 it actually didn't even look good when I
+51:07 removed the mouth but you do have to
+51:08 kind of prompt it and be very specific
+51:10 and it is like I think you it I think it
+51:12 gets it right 60 to 70% of the time
+51:14 which is still worth it in my opinion to
+51:16 use but now with just this image age, we
+51:19 have this really nice uh we have this
+51:22 really nice uh uh asset that we can use
+51:24 and potentially use in the app. So then
+51:26 I was like, okay, let's just like let's
+51:28 stick it in here and let's see how this
+51:30 looks. Um so now if we go to the chat
+51:34 now we have this asset at the top left
+51:36 corner. So we see this illustration that
+51:38 was AI generated, but it just adds
+51:40 another dimension to your apps when
+51:41 you're able to generate these cool empty
+51:44 states and these illustrations. And now
+51:46 with these AI tools, I feel like
+51:48 everyone should have access to this
+51:50 stuff. And I think we're going to see a
+51:51 lot more beautiful apps now that we're
+51:53 doing this. Um, and then I actually my
+51:55 take on that is I think most people are
+51:58 going to create the the Shad CN apps,
+52:00 the apps that are sort of bare bones.
+52:03 I hope that people listening to this
+52:05 actually take your advice and do a
+52:08 onceover of the app and be like, "Okay,
+52:10 if I
+52:12 can, you know, I' I've I've done a
+52:14 barebone version of this. Now, how do I
+52:16 humanize it?" Yeah. With the loading
+52:20 screen, the Yeah. the welcome email,
+52:23 like just all that sorts of things and
+52:24 give it just a little delight. Yeah. Um,
+52:28 and you can ask you can ask code for
+52:31 example and be like, "Hey, this is my
+52:33 app. These are the amount of screens I
+52:35 have. This is even what it looks like.
+52:38 Tell me what I should do to make to add
+52:41 the light for use and I'll I'll be using
+52:43 chat GBT40
+52:46 um image generation. Do you have any
+52:47 ideas for for me?" And and it might give
+52:49 you some ideas. Yeah. Yeah. Yeah. Yeah.
+52:52 Honestly, I was like when I was uh
+52:54 trying to brains that's how I come up
+52:55 with the initial logo for the ghost um
+52:58 for the for the other app Lily. I was
+53:00 using code to literally generate this
+53:03 and I I think like it I was like hey
+53:06 what's a good mascot for a meeting you
+53:07 know a meeting assistant app that lives
+53:09 in the background and it was like oh a
+53:11 fly cuz flyies on the wall the fly
+53:13 looked horrible like I'll send you an
+53:14 image of it. It was like terrifying but
+53:16 so it was like a fly or maybe like you
+53:18 know oh it's called lily maybe a frog
+53:20 cuz of a lily pad. So it was actually
+53:22 cool to brainstorm and eventually it
+53:24 actually came up with the ghost. It was
+53:25 like maybe a ghost cuz they kind of live
+53:27 in the background. So yeah, using using
+53:29 the stuff to to even just brainstorm the
+53:31 assets is is really cool. Chris, we are
+53:34 out of time. Is there anything you want
+53:36 to leave people with? Um yeah, honestly
+53:39 I think um I think we covered
+53:41 everything, but uh I just wanted to say
+53:43 too that um a lot of developers are
+53:46 pretty averse to using this stuff, but I
+53:49 seriously think that like a lot of
+53:51 developers um the the the things or the
+53:54 the the people that are going to benefit
+53:56 the most from this AI tooling, it is
+53:59 probably going to be like really good
+54:01 developers. I think everyone's going to
+54:02 benefit. Um, especially nontechnical
+54:04 people, but at this stage where the
+54:07 tools are at, the people I've seen go
+54:09 really far and really accelerate. It's
+54:11 people that have like the people that do
+54:13 know how to program. So, if you're a
+54:14 developer and you're on the fence of
+54:16 using this stuff, I think you should
+54:17 just do it. I know it is kind of like
+54:19 there's it's kind of taboo like some
+54:20 people are like it's it's kind of
+54:21 killing the art, but um this stuff is
+54:23 inevitable. I think it's better to
+54:24 really learn and those are the
+54:26 developers that are going to thrive for
+54:27 the next decade. The ones that don't, I
+54:29 think it's not going to go really well.
+54:31 So if you're a developer that definitely
+54:32 try it out. That's that's uh that's
+54:34 probably the last thing I want to leave
+54:35 people with. And if and if you're not a
+54:37 developer, should you give it a shot? If
+54:39 you're not a developer, you I definitely
+54:40 think you should give it a shot. But
+54:42 what I would do though is really use it
+54:45 as a learning tool. So I I honestly I
+54:48 I'm kind of hesitant to get like I think
+54:50 use a tool honestly more like replet or
+54:53 use a tool more like lovable because
+54:55 those tools they have a lot more guard
+54:57 rails so it's a lot harder to break
+54:59 things. cursor is a little more
+55:00 dangerous because that thing can really
+55:02 destroy things and it's it's very hard.
+55:04 Like for example, what we saw here was
+55:06 it decided to code all of this stuff in
+55:08 the front end. That is very dangerous
+55:10 because like for example um this is like
+55:13 a last example. This is like so
+55:14 interesting. it. We decided to make a
+55:18 tiny tool internally for my other
+55:20 company and it was just like a a small
+55:22 Verscell app, like a tiny Versel app to
+55:24 automate something for the marketing
+55:25 department, but we use cursor and it
+55:28 hardcoded the open router key into the
+55:31 front end. And and we did not share this
+55:34 link with anyone, but clearly someone
+55:36 has a bot running around looking at open
+55:39 versell things looking for these keys
+55:41 that are embedded in the front end. And
+55:43 they racked up like $300 worth of
+55:45 credits in like a day. This was like
+55:46 last week that this happened and I was
+55:49 like, "Okay, this is really dangerous."
+55:51 Like if you're if you don't know what
+55:52 you're doing like and you accidentally
+55:54 commit some of this stuff, it can get
+55:55 bad. So use tools like lovable, use
+55:57 stuff like replet because I think they
+55:58 do have a little bit more guardrails and
+56:00 a little bit more checks in their prompt
+56:02 to prevent that. But I but really I
+56:05 think everyone should honestly learn
+56:06 some of the basics of programming. They
+56:08 should probably, you know, take a couple
+56:09 courses even though this AI stuff's here
+56:11 and use AI to learn and use AI as a
+56:14 teacher to get better at those
+56:15 fundamentals and then go use stuff like
+56:17 this. Um, but yeah, that's uh I I I
+56:20 definitely think people um I'm honestly
+56:22 very excited to see how stuff like
+56:24 replet and lovable and cursor how they
+56:25 get better for nontechnical people too.
+56:27 Or you can by the way on the courses
+56:29 side of things or you can just keep
+56:30 listening to this podcast, keep
+56:32 commenting, let let me know what you
+56:35 want to learn and I won't even charge
+56:38 you for it. So you just get to learn for
+56:40 free. Um, Chris, we'll include your
+56:44 social handles in the show notes for
+56:46 people who want to follow your journey.
+56:48 I think it's really interesting
+56:50 following your journey to, you know,
+56:52 building a multi-million dollar
+56:54 portfolio of mobile apps. So, um, thank
+56:58 you for being so generous with your time
+57:01 and your techniques. Yeah, absolutely.
+57:03 Yeah. Thanks so much for having me,
+57:04 Greg. It was awesome. Later. All right.
+57:06 See you guys.

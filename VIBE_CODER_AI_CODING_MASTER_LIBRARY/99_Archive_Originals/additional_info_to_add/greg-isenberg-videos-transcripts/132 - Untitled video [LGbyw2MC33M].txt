@@ -1,0 +1,967 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=LGbyw2MC33M
+Channel: Greg Isenberg
+Video ID: LGbyw2MC33M
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 what if you can create ads with AI that
+0:04 we winning what would that mean for your
+0:06 business well I'll tell you what it
+0:08 would mean it would mean that your row
+0:10 ads would go up your return on ad spend
+0:12 it would mean that you might have a
+0:14 really profitable business so it's
+0:17 incredibly important to know the skills
+0:20 how to prompt chat GPT 40 which is this
+0:24 new image model that everyone is talking
+0:26 about uh to get the most out of it but
+0:29 the problem is how do we know how to
+0:32 prompt these things well I brought on a
+0:35 guy who's world class at creating
+0:37 winning ads winning memes winning visual
+0:41 content from chat gp40 so that I can
+0:45 learn how to do it and you can learn too
+0:48 enjoy this episode this is really fun
+0:50 and creative and I think you'll enjoy
+0:54 it
+0:58 start time
+1:00 [Music]
+1:03 we got Jacob posel on the Pod this guy
+1:05 is going completely viral with all these
+1:09 ads that he's creating using chat
+1:13 gbt uh foro uh image search had to bring
+1:17 him on the Pod Jacob by the end of this
+1:20 episode what are we going to learn thank
+1:22 you I'm happy to be here um we're going
+1:24 to learn uh we're going to teach people
+1:27 how to create ads um ready for the ad
+1:29 account using chat GPT it's in about 2
+1:32 minutes it's that simple and not just
+1:35 any ads banging ads right yeah yeah I
+1:38 mean these ads are sick these ads like
+1:40 blow me away every single time I see
+1:42 them come
+1:43 through cool so we're going to show four
+1:46 ad examples and give away the prompts
+1:50 and then at the end we're going to do
+1:51 two live cooking examples to show you
+1:54 how to do it and yeah let's just get
+1:57 screen sharing and and get people give
+1:59 people give people the sauce yeah let's
+2:02 do it let's do it um so I guess
+2:07 something to be aware of where when it
+2:11 comes to these um to CH using chat GPT
+2:15 compared to image examples people might
+2:17 be familiar with like mid Journey flux
+2:20 um ideogram stuff like that is because
+2:22 it's it's a it's a multimodal language
+2:24 model it's not just a chat it's not just
+2:27 an a pure um image model the prompting
+2:31 is way less important um and the
+2:33 prompting you can actually be pretty
+2:35 straightforward and it has a much better
+2:37 understanding um of intent and
+2:39 creativity so the important thing I
+2:42 found in creating good ads are actually
+2:44 the inspiration images and the product
+2:46 images that you provide so my general
+2:50 advice when creating ads and we can see
+2:53 this first one which is um a really cool
+2:56 one that I created for Jones R Beauty um
+3:00 is um providing an inspiration ad that
+3:04 you wanted to adjust or you wanted to
+3:06 use and then um providing a your own
+3:08 custom image so we can read through the
+3:11 prompt and you can see it's actually
+3:13 fairly basic it's just add this image to
+3:15 the top of the ad with the product image
+3:17 overlapping the bottom of the image and
+3:19 the heading and subheading below um
+3:21 right so we can see the original ad
+3:23 which is um the Jones Road Beauty ad
+3:26 that I pulled from just an inspiration
+3:28 source and then the image that I'm
+3:31 referencing just an image from their
+3:32 website of a woman kind of displaying
+3:34 that product and if we take a look at
+3:38 the actual ad itself it followed those
+3:41 instructions really nicely because GPT 4
+3:44 is like a really really intelligent
+3:46 model and so it understands my
+3:47 intentions really well so you can see we
+3:50 have that woman at the top we can have
+3:52 we have the overl overlapping products
+3:54 overlapping the bottom of the image and
+3:56 then we have the text below um so you
+4:00 can see like taking an inspiration ad or
+4:02 taking kind of a reference ad and then
+4:05 providing your own imagery is a really
+4:06 nice way that you can um create super
+4:09 consistent reliable ads by just uh
+4:12 making edits or adjustments to them and
+4:15 if you really wanted to play with
+4:16 conversion you would just take you know
+4:18 a hundred characters you know men female
+4:23 old young all different colors and see
+4:26 what converts for different audiences
+4:28 right exactly yeah so I mean um you may
+4:32 have certain um key audiences or
+4:34 personas that you're trying to Target
+4:36 with your ads um and you can just you
+4:40 can generate your own images because
+4:42 chat GPT is amazing at creating
+4:44 photorealistic images of different
+4:45 audiences or you can pull in your own
+4:47 from your own photo shoot and just um
+4:50 throw them in here and when the API
+4:52 becomes generally available this is
+4:54 going to be trivial it's literally going
+4:55 to be like this is your inspiration or
+4:58 like reference ad these are all the
+5:00 different audiences just like boom boom
+5:01 boom smash them out and you'll have 100
+5:04 ads waiting for you in like five
+5:07 minutes yeah and why that matters for
+5:09 people is
+5:11 because ultimately you know the game is
+5:14 how do you create ad ads at convert and
+5:17 it's really a game of experimentation so
+5:20 what this does is allows us to
+5:21 experiment at
+5:22 scale and you don't know if it's like
+5:25 this woman looking to the left or
+5:27 looking to the right or with blonde hair
+5:29 or red hair that's going to be the
+5:31 difference between you know a two you
+5:34 know 1.6 row as and a 2.8 row as yeah
+5:39 yeah marketers have these saying
+5:41 nowadays that this the ad is the
+5:43 targeting and this is just a way that
+5:44 you can actually do it at scale cool I
+5:47 love that can we um I mean this is a
+5:50 simple example like I get it um let's
+5:53 see something else yeah let's do it
+5:55 let's go to this one which is a little
+5:58 bit different with no reference images
+6:01 so um this ad is an absolute killer can
+6:05 I ask can I ask you something before you
+6:07 get into it when do you know to do a
+6:10 reference image versus not a reference
+6:13 image so okay a super important thing to
+6:17 understand about these models is that
+6:18 they have a really good understanding of
+6:22 um welln Concepts ideas Brands so it
+6:27 knows Nike really well it knows Adidas
+6:29 really well um even like the classic
+6:32 online Ecom Brands like it knows Ridge
+6:34 wallets really well and so in that sense
+6:36 you can prompt it and you can just say
+6:38 like a ridge wallet you know um and it
+6:41 will understand what you're talking
+6:43 about but if it's your own product that
+6:45 is relatively new relatively small um
+6:48 and you don't have a lot of online
+6:49 presence and I'm talking like a lot of
+6:51 online presence like millions of dollars
+6:53 on ad spend a month kind of um presence
+6:55 then you should always provide a
+6:57 reference image um but for like Adidas
+7:00 everyone knows Adidas and so it's going
+7:02 to do this it knows it really well cool
+7:05 I didn't know that actually so that's
+7:07 helpful yeah yeah it it has a really
+7:09 good understanding of certain things and
+7:11 others it just doesn't know all right
+7:13 let's let's rip through the
+7:15 prompt so this prompt um is one from um
+7:21 Sora uh Sora is has like their own
+7:24 explore page and I found this one and I
+7:26 thought it's really really incredible um
+7:28 but it and it has a lot of really good
+7:30 lessons in here um so you can see using
+7:34 the ultra realistic or photo realistic
+7:37 keyword is really important for creating
+7:39 photo realism images otherwise it can
+7:41 sometimes default to something that
+7:43 looks a little bit cartoonish um or
+7:46 weird colors but photo realism it is
+7:49 strong but using that keyword is
+7:50 important um and then you can just see
+7:52 it's a really strong Pros description of
+7:55 the image a female Runner is captured in
+7:57 mid stride running laterally in the for
+7:59 ground wearing her performance gear um
+8:03 behind stands the um the Egyptian desert
+8:06 with the
+8:07 pyramids um so this one is fairly long
+8:12 but it's a really detailed Pros
+8:14 description of your desired image um but
+8:17 you can see it has some really nice
+8:20 other elements like um font type exo2
+8:23 bold italic um stuff like that for it's
+8:27 a similar concept for well-known fonts
+8:29 it is going to have a decent
+8:32 understanding and representation of what
+8:33 those fonts mean because it's seen
+8:35 enough of that content on the internet
+8:37 so people can mess around and play
+8:39 around with that similar concepts are
+8:41 like in order to making adjustments is
+8:43 like Styles um like um color styles and
+8:47 also um aspect ratios you can make
+8:49 adjustments in the prom to aspect ratio
+8:51 similarly so um here's the ad you can
+8:54 see it's very creative you can see the
+8:56 woman running um with the pyramids in
+8:59 the background in the Addidas shape um
+9:01 something just really creative and
+9:03 really nice um and that was like
+9:05 literally impossible to do before so
+9:08 sorry did you say that use Sora for the
+9:10 prompt is that what you
+9:12 said um so I highly recommend people
+9:15 check out Sora um Sora it uses the same
+9:17 underlying model but they have an
+9:19 explore page where you can see people
+9:23 it's a really good way to understand how
+9:24 people are prompting and how the best
+9:26 prompts work and to get um and for
+9:28 ideation um if you click on any image in
+9:30 their explore page it shows you the
+9:32 prompt so can we just we we check that
+9:35 out real quick and do a little detour
+9:38 yeah of
+9:39 course this is a piece of alpha that
+9:42 people do not know about right now I
+9:45 don't see anyone talking about it
+9:47 another really cool thing is I think
+9:49 Sora is better um at it's it has less
+9:54 strict policy guidelines and um it's
+9:57 better at photo photo realism I don't
+9:59 actually understand why that's the case
+10:01 considering they probably use the same
+10:02 underlying models but um I think that
+10:06 it's less strict and um yeah so but if
+10:10 you can see so an image came through for
+10:13 example um
+10:16 of of this guy uh kind of post Malone
+10:22 energy yeah yeah like but hyperphoto
+10:25 realistic like that is that could be a
+10:27 photograph you know um and we can click
+10:30 on it and you can see the
+10:32 prompt if Weird Al and post Malone had a
+10:35 baby
+10:38 yeah um but you can click on it you can
+10:40 see it and you can also adjust it or
+10:42 edit it um so I could come in and I
+10:44 could remix it from here I could adjust
+10:46 the prompt myself you know so I could
+10:48 like literally just start rewriting
+10:50 things um or I can change the aspect
+10:53 ratio um or I could upload my own
+10:55 reference images um so yeah very um very
+11:01 very cool you can see here I could like
+11:03 upload a reference image to make
+11:04 adjustments but it's just a really
+11:06 really great place for people to go
+11:08 through and just scroll through and
+11:10 understand look for prompts that may
+11:12 work for them some of them are ads that
+11:14 um you'll be able to see and you can
+11:16 make your own clever adjustments that
+11:17 way yeah I think what's really cool
+11:20 about this is this gets your creative
+11:22 faucet going
+11:24 so
+11:26 um I think the game right now is
+11:29 is is looking for an aesthetic that
+11:32 isn't being used in your
+11:34 space um so if you can figure out how to
+11:37 do that and just sort of explore this
+11:38 and be like oh wow this would actually
+11:40 really this like picture of
+11:43 um you know the Grand Theft Auto thing
+11:46 would be really cool as a meme in
+11:48 whatever space that I'm in boom all of a
+11:52 sudden like that's gonna get you a bunch
+11:54 of likes going to get you a bunch of
+11:55 followers going to give you Affinity so
+11:57 that's what the game is about and and I
+11:59 love this because I'm always struggling
+12:02 I'm actually struggling with the prompts
+12:03 to be honest like I don't know I know
+12:05 that you know sometimes I'll throw in a
+12:07 word like hyper
+12:09 realistic like it takes me a while
+12:11 basically to get to that word hyper
+12:12 realistic um and I'm just like wasting
+12:15 time so I think what's cool about this
+12:17 is it shortens the time to value and
+12:19 also gives you ideas that you wouldn't
+12:21 otherwise have have had yeah yeah yeah
+12:24 absolutely I think that like the the
+12:27 reference images is a really good way to
+12:29 short shortcut like the prompting um
+12:31 issues but if you need help with
+12:33 prompting I mean um it's it's really
+12:36 important to be very clear very direct
+12:39 in what you want um and another piece of
+12:42 um another piece of information is if
+12:44 you struggle with the initial prompt
+12:46 it's important not um to carry on in the
+12:50 same
+12:51 conversation and try and adjust your
+12:53 image in the same conversation because
+12:56 you generally get the recycle of worse
+12:59 and worse um rather than it actually
+13:01 improving because it's using the
+13:03 generated image as its reference for the
+13:05 next one um which can have its own
+13:07 inherent flaws so I always tell people
+13:10 if you want to adjust a prompt start a
+13:12 new chat um and make the adjustments to
+13:15 your prompt in that new chat and the
+13:18 images are going to be consistent enough
+13:19 that it's going to be similar to the one
+13:21 that you first got with the improvements
+13:22 in your new prompt so that's something
+13:24 else that um is is important when trying
+13:27 to prompt and create these things
+13:30 should we move on to the next example
+13:32 yeah let's do it this is another example
+13:35 of product image um plus reference image
+13:42 um so you can see I found this original
+13:44 reference image for Rise um I then took
+13:48 the athletic greens product imagery and
+13:51 I just gave it some really clear prompts
+13:53 so I said recreate this ad for ag1
+13:56 adjust the background to better fit
+13:58 athletic green Style
+13:59 change the price you can see over here
+14:02 to $110 SL out to $85 now and then I
+14:06 said generate the image the reason why I
+14:07 said that is sometimes it will try and
+14:09 generate text which represents the ad if
+14:11 you just say generate the image you're
+14:13 going to consistently get um image
+14:15 results and I mean if we look at this ad
+14:17 it's sick it like it really got it well
+14:20 um it looks amazing it got the these
+14:23 like icons over here it even got this
+14:25 like cool gradient color in the
+14:26 background which is really incredible
+14:29 the background as you can see placed the
+14:31 images which the products which look
+14:34 incredible um it got the pricing right
+14:36 and the copy is pretty nice and like it
+14:38 fits really well it's scented and
+14:40 everything um so I mean this is probably
+14:43 a runnable ad and it it it was very very
+14:46 easy to
+14:48 make yeah and it's you know the a couple
+14:51 things going through my mind one is like
+14:53 it somehow feels dirty though you know
+14:55 it's
+14:56 like in the sense that and and I'm
+14:59 curious your perspective on this like
+15:03 that other company rise spent all this
+15:04 time and money maybe even tens of
+15:06 thousands of dollars figuring out this
+15:09 ad an ad copy and then in like a few
+15:12 seconds we're I mean we're kind of we're
+15:15 remixing it into you know for ag1 so I'm
+15:19 curious like H how do you is it dirty or
+15:21 am I just too clean here I mean to be
+15:26 honest with you the way that most of
+15:28 these
+15:29 um companies work is they are finding
+15:33 inspiration ads there's like 50
+15:35 companies that do this they provide you
+15:36 inspiration ads or they're getting
+15:38 templates which are recreated ads in
+15:40 figma files or canva files there's
+15:42 companies that basically just do this um
+15:45 at scale and this is how people are
+15:48 making ads right now so I don't I don't
+15:50 think this is dirty because I think this
+15:52 is was already happening um it was just
+15:54 happening physically people were looking
+15:56 for inspiration they were um they were
+15:59 using templates now um chat GPT just
+16:03 lets just does it for you so I mean from
+16:05 what I've seen this was already
+16:06 happening this is already happening yeah
+16:09 this just makes it a bit more accessible
+16:12 to anyone but it was already happening
+16:15 all right let's let's move to uh the
+16:18 fourth example yeah let's do it last one
+16:22 um is I wanted to show was changing the
+16:27 concept of an existing ad
+16:29 so um I found this Ridge ad which was um
+16:36 which is kind of a Black Friday ad with
+16:38 their gunmetal
+16:39 wallet um and I swapped it out for this
+16:43 green um Ridge wallet and I said swap it
+16:46 out and change it to a Christmas style
+16:48 ad and I mean there we go it's
+16:51 definitely a Christmas style ad for this
+16:54 wallet um and yeah you can see again The
+16:58 Prompt is because the reference images
+17:00 really really do a great job of um of
+17:03 replacing the need for super strict
+17:04 prompting um it's like a pictures worth
+17:07 a thousand words that's literally the
+17:08 case here um so very simple prompt and
+17:13 we can take a look at the ad it's pretty
+17:15 it's pretty great what do you think I
+17:17 think it yeah I like it it just gets me
+17:19 thinking that there's like there's the
+17:22 Big T
+17:23 Poole you know major holidays the easers
+17:27 the Christmas the New Year's Valentine's
+17:29 days and there's probably a bunch of
+17:30 like little funny ones you know like
+17:32 national hot dog day
+17:36 and stuff like that which you're there's
+17:39 probably Alpha in and focusing on that
+17:41 there's probably also Alpha and
+17:42 targeting people on their birthday it's
+17:44 like happy birthday 30% off by Ridge
+17:47 wallet oh my God that is that's that's a
+17:50 great idea so I
+17:53 think I think this is this is what
+17:56 excites me about all this right is is I
+17:59 mean is the fact that the targeting is
+18:01 going to get a lot more personal the
+18:02 it's going to be a lot more funny it's
+18:04 going to be ads are going to be a lot
+18:05 more
+18:06 entertaining and it's it's really up to
+18:10 you know the idea people to come up come
+18:13 up with these ideas I'd love to show you
+18:15 this one that I put together um which
+18:18 which relates to that which is um I I
+18:22 took an ad um I wanted to do one for
+18:24 Rippling did you see the the Rippling
+18:26 deal controversy with the Spy
+18:29 um so we'll wait for this one to load
+18:32 but you companies now have the ability
+18:34 to take advantage of um short like new
+18:36 cycle moments like they never could have
+18:38 before because it was expensive
+18:40 prohibitively expensive and slow so um I
+18:43 wanted to make an old Wall Street
+18:45 Journal Star Hill newspaper ad um and
+18:48 it's Rippling so good our competitors
+18:50 can't even resist sneaking a peak which
+18:52 I thought was pretty funny um but yeah
+18:55 it's like it's a different style to what
+18:56 they'd be able to do before it's got
+18:58 really clever funny copy and it takes
+19:01 advantage of a moment you know and this
+19:03 could you could have ai just like ready
+19:05 to do this like watching Twitter
+19:07 watching um some other news feed that
+19:09 you want and just like it's just on it
+19:11 and these could be produced on mass and
+19:13 where you know you mentioned I think it
+19:15 was with
+19:16 the um well actually with a lot of these
+19:20 you're getting these ads so where are
+19:22 you getting these ads you going on meta
+19:25 meta's ad library to get these ads like
+19:27 where could people basically get ad
+19:30 inspiration yeah the one that I use um
+19:33 is creative OS they have their own
+19:35 inspiration and templating Tool um some
+19:37 other good examples are for playay um I
+19:40 think the recent um icon. me is one that
+19:44 recently launched that has all of these
+19:46 um it's basically becoming a staple of
+19:48 any AD building tool um so they they
+19:52 basically read in the meta ad Library
+19:54 they tag them and they make it easy to
+19:55 search over them so creative OS forplay
+19:58 those are some good ones to check out
+20:00 cool
+20:03 um those are our four
+20:06 examples um do we want to do just live
+20:10 cooking one or two just to just so
+20:13 people can get in in your head as you
+20:15 know you're coming up with ideas and
+20:17 what you're thinking about as you're
+20:18 doing
+20:20 it yeah absolutely let's do it do you
+20:22 have any um any companies you want to
+20:25 you want to use or Target I mean we can
+20:29 use my you know my own company I guess
+20:31 or
+20:33 so um like I'd love to create an ad for
+20:36 one of my own companies okay which
+20:40 one um how about LCA which is our design
+20:46 Agency for the AI
+20:49 age um so we work with like Dropbox and
+20:54 Salesforce and figuring out what did
+20:55 their AI interfaces look like and help
+20:57 them figure that out
+20:59 um we've never done ads before so it
+21:03 would be cool to try it let's do it
+21:06 what's the domain late checkout. agency
+21:09 it's like literally a landing page I'll
+21:12 I'll talk people through exactly how I'm
+21:14 thinking about this um and like the
+21:16 important elements of an ad so um the
+21:20 important elements are this logo up here
+21:24 and specifically kind of your typography
+21:28 and this use of Bolding and italics you
+21:30 know like that's really important to
+21:32 capture um as well as the coloring and
+21:34 then also some of these
+21:37 um these these like maybe these brands
+21:40 that you work with like I really like
+21:41 this aesthetic so I probably Begin by if
+21:45 this is an image I'll copy it okay it's
+21:47 not so I'll just I'll just take a
+21:49 screenshot of it it's fine um like that
+21:54 I just took a screenshot and then I'm
+21:56 taking a screenshot of this too
+21:59 um and
+22:00 then maybe kind
+22:04 of
+22:06 this down here as well um and C can you
+22:12 see that I'm taking screenshots by the
+22:13 way no okay I'm taking
+22:17 um I've taken screenshots of of this
+22:22 content over here the stuffed over here
+22:26 I've taken a screenshot of this cont
+22:28 content and of the logo
+22:30 too um so next thing I might look at um
+22:36 I would think like okay do you have any
+22:37 inspiration sources that you would want
+22:39 to use um
+22:41 for for the ad um or do we want to kind
+22:46 of just like um do we want to kind of
+22:48 just like YOLO it I think like the
+22:50 newspaper style theme that I put
+22:52 together could work really well for this
+22:54 because you've got that like paper theme
+22:56 um but you tell me what you think I mean
+22:59 I'm down to try that um okay from a
+23:03 brand perspective like LCA works with
+23:06 only a dozen companies per year and it's
+23:08 if you look like the whole vibe is like
+23:10 it's almost like we're a SWAT team like
+23:13 and for your executive team right so
+23:15 it's like pretty working with svps of
+23:17 Salesforce CMO of slack so it's very
+23:20 it's almost like we're selling a luxury
+23:22 product so when I think of like brand
+23:25 inspo I'm like this is more like a PCH
+23:28 Philip you know what I mean
+23:32 um and what I don't like about the
+23:34 newspaper is like the newspaper
+23:38 is like you know when you're thinking of
+23:40 design from for AI you're not thinking
+23:42 about a newspaper right this is like
+23:44 futuristic yeah yeah no absolutely okay
+23:49 let's do you want that like like that
+23:52 vintage style or do you want like a
+23:54 futuristic style cuz I'm thinking like
+23:56 one of those old vintage Rolex
+23:59 um yeah ads could look really great here
+24:02 yeah that would be really cool okay
+24:05 let's
+24:09 um if I if I go to another tab I'm so
+24:12 typing vintage Rolex ad okay we can see
+24:17 if there any here that we like
+24:21 otherwise
+24:23 um tell me if there's any that are like
+24:25 kind of
+24:27 um that that you particularly like or we
+24:30 could ask or we could just try prompted
+24:31 to do one oh go down scroll
+24:34 down the guy
+24:36 pointing this one
+24:39 yeah okay let's try I mean why like I
+24:42 just like the I don't know the color
+24:44 stand out and it's kind of
+24:46 like it's like hey do you need AI you
+24:49 know you need AI interfaces he's a bit
+24:52 sad and and from a conversion standpoint
+24:55 like you you often don't want like sad
+24:57 angry people you want like happy people
+25:01 mhm okay sick Let's Do It
+25:07 um so we're going to go to chat
+25:10 GPT it's just loading there we
+25:13 go and we're going to make sure that we
+25:16 have GPT 40 and now I'm just going to
+25:19 like bring in those images so I've got
+25:24 this one I've got this one and I'll show
+25:27 them again um and then this one so we've
+25:31 got um kind of the who you work with um
+25:35 we've got the some other kind of copy
+25:39 and the
+25:40 logo um and then we've got the
+25:43 inspiration ad so couple things to be
+25:46 aware of that may cause this to not work
+25:49 well we do have to specifically prompt
+25:51 it to write English otherwise it might
+25:53 get confused there um and the text is a
+25:57 little bit kind of like low res over
+25:59 here so let's let's see if we can if we
+26:03 can try and make sure that um that comes
+26:05 out well so do we need to say like this
+26:09 is a print ad and we're you know we
+26:12 don't want a print ad it's just inspo
+26:14 you want to create something digitally
+26:17 yeah yeah um let's begin prompting so
+26:21 I'll tell you how I'm thinking about it
+26:22 of it so we're going to start with the
+26:23 initial instruction instructions
+26:26 generate a digital ad for LCA um L
+26:33 checkout agency um it it probably
+26:36 doesn't know who you are um I'm just I'm
+26:39 just going to assume it doesn't so LCA
+26:42 is a SWAT team
+26:47 slash
+26:48 um how else would you would you describe
+26:52 team CL design Agency
+26:55 for you know the most interesting brands
+26:58 on the
+27:00 planet helping them with AI
+27:08 interfaces or helping them with AI
+27:11 building AI first
+27:16 products um it
+27:20 okay it only works with the best
+27:25 companies so because I'm telling at this
+27:28 it may cop it may kind of focus on this
+27:30 in the copy we'll see but that's kind of
+27:33 what my intuition is telling me um I
+27:36 have provided some
+27:39 screenshots from their website for you
+27:43 to use as um inspiration in the ad as
+27:49 well as a reference vintage Rolex ad
+27:56 um as in
+27:58 inspiration you can use
+28:02 this um use this to capture the
+28:08 luxury um
+28:12 field of the
+28:15 company
+28:17 so um generate generate a digital ad for
+28:20 LCA lay checkout agency LCA is a SWAT
+28:23 teamdesign agency only for the most
+28:25 interesting brands on the planet helping
+28:27 them with building AI first tools it
+28:29 only works with the best companies I
+28:31 have provided some screenshots from
+28:33 their website for you to use as
+28:35 inspiration the ad as well as a
+28:36 reference vintage Rolex ad as
+28:38 inspiration use this to capture the
+28:40 luxury Vibe of the company um so we've
+28:45 got kind of main instructions and
+28:47 context and some more specific
+28:50 instructions we are a little bit uh
+28:53 vague here because we haven't given it
+28:54 strict instructions but that's also
+28:55 because I don't actually know exactly
+28:57 when I want to get out of this and so
+28:59 I'm hoping for it to leverage some of
+29:00 its own inbuilt
+29:02 creativity um
+29:06 so
+29:08 let's um just say generate the image and
+29:14 and by the way before you hit go could
+29:16 you say generate three different
+29:18 versions of this is that
+29:22 crazy um right now um I think chat GPT
+29:27 just does wanted to time and I think
+29:28 that's on purpose because their gpus are
+29:31 kind of going crazy um Sora you can
+29:34 control the number that you generate I
+29:36 think you can generate up to four so
+29:38 Sora is like basically the exact same
+29:40 thing and maybe we could show people
+29:41 afterwards but I'm just curious just
+29:44 curious yeah yeah um that's 100%
+29:48 coming cool okay um any last adjustments
+29:52 you want me to make before we go for it
+29:54 no I trust you and Jacob I trust
+29:59 okay let's see um so this is what I
+30:02 would generally say is like a higher
+30:04 risk ad you know um when I prepared some
+30:06 of the other ones like I knew it knew
+30:08 what Ridge was I knew it knew what ag1
+30:09 was um and I gave it really strict
+30:12 instructions um but I'm really curious
+30:15 and really interested to see how this
+30:16 does um it's kind of like relatively
+30:19 vague and we're kind of relying on its
+30:20 creativity um in a relatively less
+30:24 well-known kind of company or product so
+30:27 um I'm actually really excited and
+30:29 curious to see how this does and I think
+30:31 it will be really relevant to people if
+30:32 it can do
+30:34 well um so it starts off fully blurred
+30:39 and it's going to slowly generate from
+30:41 top to
+30:42 bottom that's a good sign and we can
+30:45 just kind of wait and see how it goes
+30:48 and how often are you oneshotting these
+30:50 ads you know or is it more of it takes
+30:54 three four five seven back and forth to
+30:57 get to something that really works
+30:59 depends Depends for something like this
+31:01 it's usually like two or three times and
+31:03 I think that's fair to to kind of assume
+31:05 it's not going to oneshot my intention
+31:07 or my taste every single time um but for
+31:10 some of the ones that I demoed that was
+31:11 first try because again it's it's low
+31:13 risk because I gave it strict
+31:15 inspiration um I gave it um I gave it a
+31:19 well-known product that I know that it
+31:21 understands and it's an ad that fits
+31:22 really well um for the kind of product
+31:25 that I gave it but this we kind of
+31:27 mashing up together a lot of different
+31:29 themes and a lot of different
+31:31 styles dude I'm loving this already
+31:34 generate yeah it looks sick it kind of
+31:37 reminds me of uh some of the perplexity
+31:39 AI ads I don't know if you've seen those
+31:42 yes
+31:44 yes oh that's that's good copy or at
+31:47 least I like it leaders at billion dooll
+31:50 Brands choose LCA to Define their
+31:53 future I like that yeah so we got the
+31:58 man pointing with the fire in the
+31:59 background he looks like he's at a golf
+32:02 course or something
+32:05 yeah this is the craziest game of golf
+32:08 of his life um I hope the logo looks
+32:11 pretty good and it got that typography
+32:15 nice oh it's generating the watch the
+32:20 watch okay so that's something now we
+32:23 know um that we don't want the watch
+32:25 there that we want to replace it with
+32:26 some other
+32:28 product um it it it adjusted the copy
+32:32 for us but it changed the brand of the
+32:34 watch which is funny I might have
+32:37 thought that this is a this is a watch
+32:38 brand but okay this is like important
+32:40 this is something to understand this is
+32:42 what we know um
+32:44 and um okay sometimes it gets sometimes
+32:47 it gets caught like this so but it tells
+32:50 us that the image was created so I'll
+32:52 just refresh the page and it should
+32:53 generate the whole thing
+33:01 the LCA Rolex
+33:04 hilarious that is
+33:06 hilarious
+33:08 um okay this is either a combination of
+33:11 my internet being weird or um open AI is
+33:15 struggling but this will come through I
+33:17 saw Sam was like our our gpus are
+33:19 melting quote unquote yeah yeah
+33:22 literally I think like this this moment
+33:25 okay there we go um this moment for them
+33:28 was probably as big as chat GPT
+33:31 itself yeah but I think that looks that
+33:35 looks really good to me um it it like
+33:39 kind of got the right vibe that we
+33:40 wanted it got the copyright it turned it
+33:42 into a more digital style ad with like
+33:44 the CTA over there um what I would do
+33:48 now um and this is a really important
+33:50 principle to understand is I would take
+33:54 this um and I would tell it I would do
+33:57 this in brand new chat and do you want
+33:59 do you want me to go through the next
+34:01 stage here um let's do it um so I would
+34:06 literally this is going to be a little
+34:08 bit of me stumbling around let me just
+34:10 make sure all of these images are
+34:14 saved
+34:15 um so instead of you just replying in
+34:20 the same thread we're going to open up a
+34:22 new thread yeah and yeah it's not like
+34:28 entirely
+34:30 entirely the most important thing in the
+34:32 world um because we haven't provided it
+34:35 a strict reference product to go off of
+34:39 but I personally have found that it
+34:42 produces um Superior results because
+34:44 it's going to be using that previous
+34:46 image as its reference and that image is
+34:49 still AI generated so the text is still
+34:52 a little bit worse than P than your um
+34:54 text here the logo is still a little bit
+34:57 worse because it can never be more
+34:59 perfect than the reference like that's
+35:01 kind of inherently impossible and so
+35:03 it's always going to get a little bit
+35:04 worse over
+35:06 time um
+35:10 so um what do we want to replace the
+35:13 Rolex with do you have any
+35:17 ideas I mean we can a couple things come
+35:20 to mind like one is we can show some of
+35:24 the some of the design work that we've
+35:27 done but I feel like that might be a
+35:28 little
+35:29 too like I don't know what do you think
+35:32 is that a little too obvious should it
+35:35 be a bit more
+35:36 abstract
+35:38 um I don't I think it would be cool to
+35:41 maybe show
+35:43 the companies who you've worked with
+35:45 that's like maybe let's do that addition
+35:49 um rather than generating a
+35:53 watch um show some of the companies
+36:00 LCA has worked with provided in
+36:05 the reference images okay so I've
+36:10 created a new
+36:11 thread and I'm giving further
+36:13 instruction so um you can see we got the
+36:16 original stuff um rather than generating
+36:20 a watch show some of the companies LC
+36:22 has work with provided in the reference
+36:24 images I'm just like making sure that it
+36:26 knows um
+36:28 making sure that it knows where it's
+36:29 coming from so it doesn't think to
+36:31 hallucinate or make that up um and I
+36:34 think that's it so any lost additions
+36:35 you would want to make before we go for
+36:37 this let's let it red all right let's do
+36:43 it so how different do you think this is
+36:46 going to be like do you are we going to
+36:49 still get the same dude up top basically
+36:52 or like what are you thinking I would
+36:54 assume so so there's like this concept
+36:56 of temperature when it comes to
+36:58 um llms where temperature is the amount
+36:59 of Randomness that comes out of each
+37:01 input given the same each output given
+37:04 the same input um and I think the
+37:06 temperature on these is quite low so um
+37:09 generally if you give the same prompt
+37:11 you can expect a similar response um so
+37:15 for example if you generate people um
+37:18 and you use kind of a similar a similar
+37:20 prompt the people will come out looking
+37:22 quite similar so I I I anticipate that
+37:25 it will be quite that it won't be very
+37:28 different but the image will be
+37:31 um the the like Rolex should not be
+37:34 there anymore the was should not be
+37:35 there cool and then from like
+37:41 a dimension standpoint right like I want
+37:44 to be able to take this and actually
+37:47 like run it on meta run it on different
+37:50 platforms do you have to specify
+37:54 Dimensions um it usually defaults to 9
+37:57 by6 but you can specify like one by one
+38:00 9 by 16 um different aspect
+38:04 ratios cool and while this is loading
+38:07 I'm pepper you with questions yeah the
+38:11 um like have you played around with
+38:14 taking some of these images and turning
+38:17 them into video content because a lot of
+38:19 these ad platforms are running video
+38:23 right I I've seen people take my ads and
+38:26 turn them into um
+38:28 into video like animate them at least um
+38:31 a lot of people will do that for kind of
+38:33 like um for um like DPA ads like the
+38:38 display um ads but um I haven't turned
+38:41 them into Super strict um into like pure
+38:44 pure video but I've seen animation of
+38:46 them but um I would recommend testing
+38:49 out like Runway and Sora and stuff like
+38:51 that and being creative though um okay
+38:54 we can see it is a little bit different
+38:55 we now have LCA there
+39:00 is he wearing a Rolex it looks like it
+39:03 yeah his
+39:04 um his he's no longer pointing he's now
+39:07 showing the
+39:11 watch which I don't know if I'm fully
+39:15 against at all mhm you know what I mean
+39:18 like it's a bit it's less it's less
+39:20 jarring it's more of
+39:22 like you know fist
+39:25 bump yeah yeah
+39:31 okay same thing I got
+39:34 caught um so we'll just refresh and it
+39:37 will come
+39:44 but
+39:46 boom yeah it's pretty it's pretty dope
+39:51 it's pretty cool it's got the it's got
+39:53 the logo right design f for the AI age
+39:55 with the um subheading and all the
+39:58 different companies you work with um
+40:01 fortunately you guys work with
+40:02 well-known companies so we got their
+40:04 logos right which is um a little hack
+40:07 for you guys actually there's one
+40:09 company on this list we don't work with
+40:11 that they included which is Disney
+40:14 really oh interesting not that I know of
+40:16 I don't think we work with Disney um
+40:19 okay not that I know of but uh overall
+40:23 this ad looks it looks really really
+40:25 dope yeah it's a cool add and like it's
+40:28 not it's probably not something that you
+40:29 would have put together and it's only
+40:31 been like 10 minutes of us testing it
+40:32 out and we put it together um if we
+40:34 wanted to get more um if we wanted to
+40:37 get it more guided towards something
+40:39 that you
+40:40 like um I can talk through how we might
+40:42 prompt that so like we may if we do want
+40:45 him pointing we can specify the man is
+40:47 pointing um if we do did want to be
+40:49 stricter with the logos we would say
+40:51 include all of these logos and we would
+40:53 specify them by name um if we wanted
+40:56 like the previous one if we wanted it on
+40:58 the side the text on the side with the
+41:00 image on the right then we could have
+41:01 specified that so now we have kind of
+41:04 the idea of what's coming out what might
+41:06 come out and now we can specifically
+41:08 prompt and specify what all of the
+41:10 different um the different ways that we
+41:13 want to adjust this because our
+41:15 prompting was kind of like relying on
+41:16 its creativity and it did a really good
+41:18 job there but now we have the kind of
+41:21 the creative juices flowing to be able
+41:23 to guide this towards exactly what we
+41:25 want I love it man this is has been fun
+41:28 I appreciate you uh dropping the sauce
+41:30 giving the Frameworks giving the
+41:32 principles giving us uh an inside look
+41:34 into your head I appreciate the free ad
+41:36 that you generated for us share this
+41:38 with my team um Jacob posel appreciate
+41:42 you we include links to follow Jacob in
+41:46 the show notes um appreciate you and uh
+41:49 if people want more of the live cooking
+41:54 around ads how to create them um please
+41:57 let me know in the comment section and
+41:59 we can do more episodes on that I
+42:01 personally believe that this is an
+42:03 incredible time to create memes uh ads
+42:08 uh creative like this and stand out so
+42:11 um Now's the Time appreciate you thank
+42:14 you thank you it was a lot of fun all
+42:17 right my man see you

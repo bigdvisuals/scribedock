@@ -1,0 +1,427 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=PIXXEAfo6MY
+Channel: Starter Story
+Video ID: PIXXEAfo6MY
+Transcript language: English auto-generated
+Downloaded at: 2026-05-25T20:45:40.983Z
+
+0:00 I built a mobile app that makes me
+0:02 $20,000 per month.
+0:04 >> This is Ethan. He's 19 years old and a
+0:06 year ago he dropped out of college. It
+0:08 started building apps
+0:09 >> because my product solved a very
+0:11 specific pain point that no other app
+0:14 solved. It converted very well.
+0:16 >> But here's what's awesome. The app he
+0:19 built is not designed for everyone. In
+0:21 fact, it solves a very tiny problem for
+0:24 a very niche community. And that might
+0:27 be the secret hiding in plain sight.
+0:30 >> In the middle of wrestling season, there
+0:32 was a big demand for our app.
+0:34 >> And now, less than a year later, this
+0:36 niche app has been downloaded thousands
+0:39 of times and made over $20,000 in a
+0:41 single month. So, I asked Ethan to come
+0:43 on to the channel to break down exactly
+0:45 how he did it. And in this episode,
+0:47 we'll dive into the crazy simple niche
+0:50 app that he built, why he didn't go
+0:52 viral and still got thousands of users,
+0:55 and why everyone should be building apps
+0:57 that solve niche tiny problems. This one
+1:00 you cannot miss. Let's dive in. I'm Pat
+1:04 Walls. This is Starter Story.
+1:07 >> All right, Ethan, welcome to the
+1:08 channel. Tell me about who you are, what
+1:10 you built, and what's your story. Yeah,
+1:11 my name is Ethan and I built a mobile
+1:13 app that makes me $20,000 per month. I
+1:17 launched it in September and over the
+1:18 last 6 months, we've gone from $0 to
+1:21 over $60,000 in total revenue and around
+1:24 $38,000 downloads. Today, I'm excited to
+1:27 share more about the story of how I
+1:28 dropped out of college, discovered
+1:30 Cursor, and scaled my mobile app to over
+1:33 5 figures. Okay, amazing. Dropped out of
+1:35 college to build an app. This is the
+1:37 future. Before we jump all into it, can
+1:39 you show me what you built? Let's pull
+1:40 up some of your revenue dashboards.
+1:41 >> This is my app, Cut Coach. It helps
+1:44 combat sport athletes cut weight for
+1:46 their competition or fight coming up.
+1:49 And the way it does it is by creating a
+1:51 sciencebased protocol. Here's our
+1:53 revenue for when we launched the app
+1:56 until the end of January. Right when we
+1:57 launched the app, wrestling season just
+2:00 started. Our revenue, you know, was
+2:01 climbing up as we started to figure out
+2:03 marketing. By that time, we were in the
+2:05 middle of wrestling season. There was a
+2:07 big demand for our app since a lot of
+2:09 the combat sport athletes needed to cut
+2:12 weights in our app's lifetime. We have
+2:14 actually around 39,000 downloads now.
+2:17 It's just crazy how you can build like a
+2:19 pretty amazing business off such a niche
+2:21 idea. Like I think about these bigger
+2:22 apps like Cal AI. This is like a very
+2:25 very tiny version of this for this
+2:26 specific combat sport wrestling. Super
+2:29 cool. We're going to talk all about
+2:30 niche app. But before we do, let's go
+2:32 into your background. How do you even
+2:33 get into building apps? Yeah. So, I
+2:35 started building my first app in the
+2:37 summer of 2024, right before going to
+2:40 university to study computer
+2:42 engineering. My first app took about 6
+2:44 months to build and was designed to
+2:46 automate parts of my mom's workflow at
+2:49 her job. While I was there, I built
+2:50 another app using only AI tools. That
+2:53 experience made me realize how quickly
+2:55 AI was changing software development.
+2:57 So, I decided to leave university and
+2:59 learn development my own. first few
+3:01 months of 2025, I built several apps but
+3:04 didn't market any of them and realized
+3:06 that this was a mistake. Around that
+3:08 time, I discovered cursor which made it
+3:10 much easier and faster to build apps and
+3:12 this allowed me to shift my focus toward
+3:14 learning sales and marketing instead of
+3:16 only development. Okay, cool. So, this
+3:18 is pretty crazy. I mean, even at 19
+3:20 years old, you've already covered a lot
+3:22 of the board of what it takes to build
+3:23 successful apps, which is super cool.
+3:25 Obviously, you had some previous apps
+3:26 that you built before. Those didn't work
+3:28 out. How did you find the idea for this
+3:29 app that eventually made $20,000 a
+3:31 month?
+3:31 >> Ever since I was growing up, I've always
+3:33 competed at a high level in combat
+3:35 sports. I was a provincial judo champion
+3:37 and also a national wrestling champion.
+3:39 And whenever I had to compete in combat
+3:42 sports, I would always have to cut a
+3:44 significant amount of weight in a short
+3:46 period of time. I never knew how to do
+3:48 this properly until one of my coaches
+3:50 gave me a proper combat sport weight
+3:52 cutting plan. Fast forward two years
+3:54 after my short time at college, I was
+3:55 sitting in my room thinking of an app
+3:57 idea that I could relate my passion of
+3:59 wrestling with my hobby of creating
+4:01 apps. And eventually I came up with the
+4:04 idea for Cut Coach. So the reason my
+4:06 other apps didn't make any money was
+4:09 just because I didn't market them. For
+4:10 this app, I just decided to learn
+4:12 marketing right after I finished it and
+4:14 ship this one out as fast as possible so
+4:17 that I can iterate on what users
+4:19 actually wanted. Okay, so you dropped
+4:20 out of school and you kind of had your
+4:22 back against the wall a little bit
+4:24 saying like, okay, everyone can build
+4:25 apps. I can build this stuff with cursor
+4:26 in like 10 minutes. So that's the thing
+4:28 I got to learn is marketing. We're going
+4:29 to talk all about marketing. But before
+4:31 we do, let's talk about the build. You
+4:32 were working on a computer science
+4:34 degree that doesn't teach you how to
+4:35 build good apps that you've built. So
+4:36 how'd you learn? How'd you build it?
+4:37 Yeah, I started building the Cut Coach
+4:40 app in June of last year using Cursor
+4:42 and Chad GBT. It took me around a month
+4:45 to build the MVP and I gave it to my
+4:47 wrestling club to beta test after I
+4:49 finished building it. The first version
+4:51 of the app was basically an app where
+4:52 the coach was supposed to give the wake
+4:54 up plans to the athletes. However, I
+4:57 realized that there was a lot of
+4:58 friction using this concept and my
+5:00 wrestling club didn't use the app. So
+5:01 during July and August, I changed the
+5:03 whole concept of the app to make it so
+5:05 that the app would give the weight cut
+5:06 plans to the athletes instead of the
+5:09 coach. I tested the app's weight cuts on
+5:11 myself and did a whole redesign, which I
+5:13 eventually released in September. Here's
+5:15 what's awesome about Ethan's story. He
+5:17 did not spend years learning how to
+5:19 code. He picked up Cursor, found a very
+5:22 niche problem, and then built an app
+5:24 that made $20,000 in a single month.
+5:26 Ethan is proof that anyone can learn how
+5:28 to do this, and I want to help you do
+5:30 the same. To do this, we just launched
+5:32 the iOS boot camp for free. Inside, we
+5:35 will walk you step by step through how
+5:37 to come up with an idea and turn it into
+5:39 a real app ready to ship to the world.
+5:42 The best part is you don't need any
+5:44 experience to get started because
+5:45 Ethan's journey all started with one
+5:48 decision. Stop thinking and just start
+5:51 building. This iOS boot camp will help
+5:53 you get started right now. And if you're
+5:55 interested, just head to the link in the
+5:57 description to start building your first
+5:59 app for free. All right, let's get back
+6:01 to the episode. Okay, I think this is
+6:02 super cool. A lot of people watching
+6:03 this are probably wondering, I have a
+6:05 niche problem in my life. How do I
+6:06 actually go about building an app and
+6:08 actually getting paid users? So, what
+6:10 would be like your step-by-step process
+6:11 if you had to start over today? Yeah.
+6:13 Step one would be to solve a problem
+6:15 within your hobby. So, solving a problem
+6:17 within your hobby is a very effective
+6:20 strategy because you already understand
+6:22 and enjoy the activity. And this makes
+6:24 it much easier to solve problems other
+6:26 people will most likely experience too.
+6:29 And I basically just asked Chat GPT, you
+6:31 know, what are some good app ideas that
+6:33 I can build within, you know, a specific
+6:35 niche that I choose. This is a very
+6:37 straightforward method. And this AI
+6:39 brainstorm can help you come up with
+6:41 ideas you never even thought. And once
+6:42 you have the app idea, I usually just
+6:45 open Figma and start designing the app
+6:47 right away. And once I figure out the
+6:49 wireframes for the app, I usually go to
+6:52 a popular app and a similar app within
+6:55 the same niche and I look at the layout
+6:58 of their app and I take the elements
+7:00 from it and adapt it to my app. So I
+7:03 don't copy it the exact same because,
+7:05 you know, I'd like to be creative. Try
+7:07 not to reinvent the wheel. Just take
+7:09 what's working from their app, adapt it
+7:11 a little, and change it up.
+7:12 >> I think that's a great strategy,
+7:13 especially if it's a bigger app. Let's
+7:15 say you are building a language app and
+7:17 you're copying something that Dolingo
+7:18 did. You know that they've run tons and
+7:20 tons of tests. They have a huge team and
+7:23 the reason that they have the onboarding
+7:24 this way or the logo this way is
+7:27 probably something that they've tested
+7:28 over many years. You get to stand on the
+7:30 shoulders of giants and just essentially
+7:32 copy that and then put your later twist
+7:34 on it. So that's great advice. What's
+7:36 the next step?
+7:37 >> After I create the design in Figma, I
+7:40 code the app straight away. So since
+7:42 cursor can code your app very fast, I
+7:45 usually just tell cursor to create the
+7:47 front end first and make sure the code
+7:50 that I created matches the front end
+7:53 design that I created in Figma and then
+7:55 I start creating the back end. So I use
+7:57 cursor and chat GBT for the development
+8:01 and then I integrate superbase for the
+8:03 database to store all the data and I use
+8:06 Verscell to host the landing page and
+8:08 JavaScript files. I use open AI API for
+8:11 the AI functionality within my app. I
+8:14 integrate revenue cap mix panel
+8:16 superwall for payw walls and analytics.
+8:18 And then if I need to, I'll use cron job
+8:21 for scheduled automations.
+8:23 >> So you built the app. What about the
+8:24 marketing? What's the next step to
+8:26 building a niche app in 2026?
+8:28 >> Yeah. So for marketing, I would say to
+8:30 start off with organic posts. I got the
+8:32 ideas from social media pages that were
+8:35 in the same niche as mine, which I then
+8:37 adapted to my app. An example of the
+8:39 first video that I posted organically
+8:42 was a video where I showed what a UFC
+8:44 fighter looked like on a weight cut and
+8:46 what they look like after their wake up.
+8:48 I also added a call to action at the end
+8:50 of the video to give users an incentive
+8:52 to download my app. I noticed that the
+8:55 videos didn't get that many views, but I
+8:57 also noticed that the people that were
+8:59 viewing my posts were very high intent
+9:01 viewers as I noticed around 10 to 15
+9:03 downloads per day from posts that got
+9:06 anywhere from 200 to 500 views. And I
+9:09 think the reason was because my product
+9:11 was so unique and it solved a very
+9:14 specific pain point that no other app
+9:17 solved. It converted very well on my
+9:19 organic post even though they didn't get
+9:22 that many views. And I think there's a
+9:23 huge opportunity in niche apps like
+9:26 this. You don't need to get millions of
+9:28 views like you think you might need to
+9:30 do if you can get 5 to 10% conversion
+9:33 ratio on views, which is really, really
+9:35 high. Let's dive a little bit more into
+9:36 that because yeah, you can get 10 to 15
+9:38 installs, but that's not thousands of
+9:40 paying customers. Once you sort of
+9:41 figured out what videos were, what was
+9:43 like the more scalable growth strategy.
+9:45 Yeah, after posting organically, I
+9:47 switched over to influencer marketing.
+9:49 Since my app was in a very niche
+9:51 category, there were not a lot of big
+9:53 influencers to partner with. So, I
+9:55 decided that I would ask small creators
+9:57 to partner with me instead to start off.
+10:00 So, to find influencers, I would
+10:01 basically just scroll on my for you page
+10:04 on Tik Tok or reals on Instagram and I
+10:06 would DM creators asking them to
+10:08 partner. I found that most of the
+10:10 creators that I DM'd said yes to the
+10:12 partnerships. You know, I started off
+10:14 with influencers that got around a,000
+10:17 to 10,000 views per video. then switched
+10:19 later to influencers that got 20,000
+10:22 plus views per video. I saw that the
+10:24 influencer marketing strategy was
+10:25 working not only because I had a very
+10:28 high intent audience but also because I
+10:30 had a very unique product. Later I
+10:32 decided to put those influencer videos
+10:34 into paid ads just to see what would
+10:37 happen. And to my surprise, it added a
+10:39 lot of extra revenue and helped us scale
+10:41 much faster and much more efficiently.
+10:43 >> Okay. Well, thanks for sharing that.
+10:45 want to change the topic a little bit
+10:46 and I want to actually see this app that
+10:48 you built. Could you actually give me a
+10:50 quick demo of what is the niche app that
+10:52 you built that made over $20,000 in a
+10:54 single month?
+10:54 >> Yeah. So, here's the app and when you
+10:56 open it, it just has the nutrition
+10:59 values that you have to stay within. And
+11:03 each day you can just log your meals
+11:05 here. So, here I'm going to put that I
+11:08 ate some chicken. And as you can see,
+11:10 the app is extracting nutritional values
+11:13 from the chicken and putting it in your
+11:15 daily nutrition goal. And all you have
+11:17 to do to cut the weights for your
+11:19 competition is to simply stay within the
+11:21 limits in the app and make sure you
+11:23 don't go over. And each day, you can
+11:25 also put in your weight so you can
+11:28 track, you know, your progress of your
+11:30 weight going down. And in this screen,
+11:32 you can see the recommended meals for
+11:35 each day. These meals help you stay
+11:38 within your limits. So, you know, you
+11:40 don't go over and miss weights on
+11:42 competition day.
+11:43 >> Okay. Last question that we ask all
+11:44 founders who come on Starter Story is if
+11:46 you could go back in time to young Ethan
+11:48 before you were building apps as hobbies
+11:50 or you're in college, what would be that
+11:52 one piece of advice that you give
+11:53 yourself or anyone watching this who
+11:55 wants to build a niche mobile app like
+11:57 you?
+11:57 >> Yeah. One piece of advice I'd give
+11:59 myself would be to follow my own advice.
+12:02 You know, when I was still in high
+12:03 school, I noticed how I would make
+12:04 decisions based on other people's
+12:06 opinions or advice. even though I
+12:08 already knew deep down what the right
+12:10 decision was to make. Because of this, I
+12:12 found myself living the lives that other
+12:14 people wanted rather than living my own
+12:16 life. Now, while I still seek advice
+12:18 from others, I make sure to adapt it to
+12:20 my life rather than letting it control
+12:22 my life. And doing this has helped me
+12:24 feel much more fulfilled and also given
+12:26 me a much stronger sense of purpose in
+12:28 my life.
+12:28 >> That's awesome, man. Thank you, Ethan,
+12:30 for coming on, dude. Super cool app,
+12:32 over $20,000 a month with a niche
+12:34 wrestling app. I'm excited to see what
+12:36 you build in the future, too. Thanks for
+12:37 coming on and sharing all this so
+12:39 openly.
+12:40 >> Yeah, thanks for having me.
+12:41 >> I wonder how many apps there are. Like
+12:42 the fact that there's two in wrestling.
+12:44 >> Everyone I know who are wrestlers like
+12:46 are super passionate about wrestling,
+12:48 >> right?
+12:49 >> And so I wonder if that mean maybe
+12:50 there's something there, you know?
+12:51 >> 100%. That's why it wouldn't make money
+12:54 if it was pickle ball.
+12:55 >> For example, pickle ball. It could be
+12:56 old, it could be young. I feel like
+12:58 wrestlers is like really just like high
+13:00 school college. I would say there's
+13:01 definitely an opportunity in high school
+13:04 and college sports where it's like a
+13:06 small community, but everyone's sort of
+13:09 like competing. You know, your parents
+13:10 are probably going to pay for that app
+13:12 or you going to pay for that app so you
+13:13 can make weight for your wrestling
+13:15 competition. You're willing to pay $30
+13:17 to make weight because if you don't make
+13:18 weight, the cost is way higher. People
+13:21 would be very disappointed in you or
+13:22 whatever it is. So, it's actually a
+13:23 really painful problem for a really
+13:25 niche community and I think that's one
+13:26 of the reasons why it's successful.
+13:28 >> Yeah, that was cool. But I just think he
+13:29 said this like if you're just kind of
+13:31 excited about this hobby or something,
+13:34 there's probably a lot of people also
+13:35 excited about that and you can go kind
+13:36 of build this niche up. And I don't know
+13:38 if this is right, but like no niche is
+13:39 like too small, you know, like weight
+13:42 cutting for wrestlers. Like that feels
+13:44 like so narrow, but yeah, that's kind of
+13:46 my last takeaway, I think.
+13:48 >> Yeah. So, if you're watching this and
+13:49 you thought this was cool, check the
+13:51 link in the description. We have a link
+13:53 for our iOS playbook where you'll come
+13:55 up with an idea, build it, and ship it
+13:57 within a couple days. We'll walk you
+13:58 through how to do that with AI tools. I
+14:00 put that link down there. You can click
+14:01 it and get started today. All right.
+14:03 Thanks for watching. We'll see you in
+14:04 the next one. Peace.

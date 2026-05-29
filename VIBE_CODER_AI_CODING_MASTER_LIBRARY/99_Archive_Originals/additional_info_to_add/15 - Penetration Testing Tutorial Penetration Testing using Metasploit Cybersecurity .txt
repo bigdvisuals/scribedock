@@ -1,0 +1,638 @@
+Title: Penetration Testing Tutorial | Penetration Testing using Metasploit | Cybersecurity Course | Edureka
+URL: https://www.youtube.com/watch?v=LUGkIvcQmGE&list=PL9ooVrP1hQOGPQVeapGsJCktzIO4DtI4_&index=17&pp=iAQB
+Channel: YouTube playlist
+Video ID: LUGkIvcQmGE
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:24:55.858Z
+
+0:00 [Music]
+0:06 hi guys my name is Aria and welcome to
+0:09 this session about penetration testing
+0:11 so before we jump into the session we're
+0:13 gonna see what is exactly penetration
+0:15 testing then we are going to check out
+0:17 one of the most widely used frameworks
+0:19 in the penetration testing industry that
+0:21 is Metasploit and then we are going to
+0:23 go through a wide range of demonstration
+0:25 regarding installation configuration of
+0:27 the network and how you can use
+0:29 Metasploit to actually learn about
+0:31 penetration testing okay so let's get
+0:33 started so when you get hired as a
+0:36 penetration tester or a security analyst
+0:38 one of your main roles is vulnerable B
+0:40 assessment so what exactly is
+0:43 vulnerability assessment well a volume B
+0:47 deep assessment is the process of
+0:48 defining identifying classifying and
+0:50 prioritizing vulnerabilities in a
+0:52 computer system application and network
+0:54 infrastructures and providing
+0:56 organization doing the assessment with
+0:58 the necessary knowledge awareness and
+1:00 risk background to understand the
+1:01 threats to its environment and react
+1:03 appropriately to them so vulnerability
+1:06 is a situation that can be taken
+1:07 advantage of by a hacker or a
+1:09 penetration tester for their own misuse
+1:11 or actually for fixing the issue so
+1:14 volume D assessment has three steps so
+1:16 the first step is actually identifying
+1:18 the assets and the vulnerabilities of
+1:21 the system the second step is actually
+1:23 quantifying the assessment and the third
+1:25 is reporting the results now
+1:27 vulnerability assessment is only a small
+1:29 part and pen testing is an extended
+1:31 process of vulnerability assessment when
+1:34 testing or penetration testing includes
+1:36 processes like scanning vulnerability
+1:39 assessment in itself exploitation
+1:41 research and reporting whatever the
+1:43 results are so in the industry while the
+1:46 most widely used frameworks when
+1:48 penetration testing is Metasploit so
+1:51 Metasploit is widely used in penetration
+1:53 testing as I just said and also used for
+1:55 exploitation research so some of you
+1:58 might ask what exactly is an exploit
+2:00 research well in this world there are
+2:02 tons of exploits and the way to approach
+2:04 each one of them is ever so different so
+2:07 what we have to do is exploit all the
+2:09 research that is available to us and we
+2:11 have to find the best way to approach
+2:13 them
+2:13 so suppose for example you have a secure
+2:15 shell login so the best way to actually
+2:18 approach secure shell login until my
+2:20 knowledge is that you have to get a
+2:22 backdoor access to this form the port
+2:24 numbers that you can scan by an nmap or
+2:26 Xen ma okay so without wasting much time
+2:28 at looking at proper and presentations
+2:30 let's actually get started as to how we
+2:32 can use Metasploit so Metasploit is a
+2:35 freely available open source framework
+2:37 that is widely used by pen testers as we
+2:39 just discussed so to actually install
+2:42 Metasploit which is easily available on
+2:44 Linux and Windows I guess let me just
+2:47 check it out so you go on your browser
+2:50 anytime Metasploit downloads now you
+2:53 just visit the first link and as you
+2:55 guys can see it says it's the world's
+2:56 most used penetration testing tool and
+2:58 then you just download the Metasploit
+3:00 framework by clicking the download
+3:02 button here so your might also find a
+3:04 pro version which is a paid thing and
+3:06 this has a little bit of extra features
+3:08 like group support and actually helping
+3:11 a company work as an organization but we
+3:13 don't actually need that when practicing
+3:15 our pen testing abilities so for that
+3:17 you just go ahead and download
+3:18 Metasploit framework and install it on
+3:20 your system above that there's another
+3:22 thing I want to get make you guys aware
+3:23 of and that is Metasploit
+3:25 so when actually pen testing we need a
+3:28 server or a website to actually Penta
+3:30 see things on so normally this is a very
+3:33 illegal thing to do with our permission
+3:34 so Metasploit able has actually created
+3:37 a server with a lot of vulnerabilities
+3:39 on it and it's called Metasploit able to
+3:41 so Metasploit able to is easily
+3:43 downloadable from this link and it's a
+3:46 VirtualBox file so you guys must have a
+3:48 virtual machine software on your system
+3:50 to actually set this thing up I'll also
+3:53 go through how to actually setup
+3:54 Metasploit able because it has a lot of
+3:56 configuration and network management to
+3:58 go with it so we'll get to that later
+4:00 but for now let's get started which
+4:03 Metasploit open so before that
+4:05 Metasploit able is written in ruby and
+4:07 if you all know ruby coding and you all
+4:10 know how to make exploits y'all can also
+4:12 always contribute to the Metasploit
+4:14 community so Metasploit is one of the
+4:17 most widely used pen testing tools in
+4:19 the industry so what exactly is
+4:22 Metasploit well it's a framework and
+4:24 what a framework is is it's actually a
+4:27 collection
+4:27 of tools so these tools are mainly used
+4:30 for penetration testing and exploitation
+4:32 research now one might ask what exactly
+4:35 is exploit research well there are tons
+4:37 of exploits out there and there are tons
+4:39 of ways to actually approach them and
+4:41 this only comes to us from thorough
+4:43 research as to how we can approach each
+4:45 and every exploit in the best way so
+4:47 talking about Metasploit well it's open
+4:49 source and it's free and it's also
+4:51 written in Ruby so if you guys know Ruby
+4:53 coding and know how to make exploits
+4:55 y'all can always contribute to the
+4:57 Metasploit framework now talking about
+4:59 the download part well y'all can easily
+5:01 download Metasploit from its download
+5:03 page which is www.hs flight comm slash
+5:06 download i'll be leaving the download
+5:08 link in the description and once you're
+5:11 on the download page you'll see two
+5:13 versions one is the free version which
+5:15 is the original Metasploit framework and
+5:17 it's the core framework that everybody
+5:19 works on and then there's Metasploit Pro
+5:21 which comes with a 14-day free trial so
+5:23 Metasploit Pro actually has a few extra
+5:25 features which is great for an
+5:27 organization like it helps you work as a
+5:29 team but if you're a guy who's just
+5:31 practicing pen testing like meme
+5:33 Metasploit framework the free version is
+5:35 the absolute way to go now also when pen
+5:38 testing y'all will also need Metasploit
+5:41 able now Metasploit able is an
+5:43 intentionally vulnerable target machine
+5:45 for actually practicing your Metasploit
+5:47 skills on so we'll go over the
+5:50 installation of Metasploit able later
+5:51 but for now let's go over Metasploit
+5:53 able so once you guys have actually
+5:55 downloaded the link y'all can actually
+5:57 install it on your systems and
+5:59 Metasploit actually has three interfaces
+6:02 so we are going to be using the
+6:03 command-line interface or the MSF
+6:05 console in other words but you all can
+6:08 also use the GUI interface which is
+6:10 called Armitage if I'm not wrong so
+6:14 let's get started so first of all I've
+6:16 already actually downloaded Metasploit
+6:18 and install it on my computer and y'all
+6:21 can just do the same by pressing the
+6:23 download button as you guys can see so
+6:25 the startup Metasploit all you have to
+6:27 do is go on your terminal and
+6:31 so to start a Metasploit all you have to
+6:34 do is go on your terminal on linux well
+6:38 we're starting a poster SQL server
+6:39 because first of all the post free SQL
+6:43 server is the basis of all the
+6:44 Metasploit exploits that are stored and
+6:47 starting it will just make it run faster
+6:49 so we go service post gray SQL and
+6:55 starch so that should start up a service
+6:58 and indeed it has so next thing you want
+7:02 to do is go in and type MSF console and
+7:06 that's going to take a little bit of
+7:08 time because I was very slow computer
+7:10 and it's going to start up our
+7:12 Metasploit free
+7:14 so as you guys can see we got a big
+7:17 banner out here which says Metasploit
+7:19 cyber missile and it's the banner
+7:22 changes every time don't get farted if
+7:24 you have a different banner and the main
+7:26 thing is that you should see this MSF
+7:28 thing out here so this means we are in
+7:30 the MSF shell right now which is the
+7:32 Metasploit framework shell so let's get
+7:34 started by actually clearing our screen
+7:36 so first things first the first command
+7:39 that you might want to run on my
+7:41 supplied is the health come on so help
+7:44 will tell us everything that we can do
+7:46 with this framework so as you guys can
+7:48 see there are a bunch of commands and
+7:49 the descriptions to go along with it
+7:51 y'all can give it a quick read and find
+7:54 the things that are interesting to you
+7:55 so as you guys can see banner is
+7:57 displaying austin Metasploit banner
+7:59 y'all can change the banner as you guys
+8:01 can see there are a lot of juicy
+8:02 commands like there's a banner command
+8:04 which I just had used so if you go and
+8:06 die panel will give you a nice cool
+8:08 banner about my display and there are
+8:10 other commands which work very similar
+8:12 to Linux like CD which changes the
+8:14 current directory you can change the
+8:16 color by toggling colors and then you
+8:18 can connect with a host and all sorts of
+8:20 stuff so Metasploit has a bunch of
+8:23 exploits so before we go further I want
+8:26 to make you guys aware of three
+8:27 important terms regarding Metasploit the
+8:30 first is a vulnerability and we had
+8:32 already discussed this that a
+8:33 vulnerability is a situation which can
+8:35 be taken advantage of by a system or a
+8:38 person who access so the second part is
+8:41 an exploit so what exactly is an exploit
+8:43 well an exploit is a module which is a
+8:46 bunch of code written in Ruby on
+8:47 Metasploit that is used to target
+8:49 different vulnerabilities and the third
+8:52 thing is a payload so a payload is the
+8:55 action that you do once you actually
+8:57 have access to somebody system so
+9:00 basically suppose you have hacked
+9:01 somebody and you've gained access to
+9:03 their system now the activities you do
+9:06 after gaining access is defined as
+9:08 payload so we just spoke about exploits
+9:10 and I told you guys then Metasploit has
+9:13 a bunch of exploits so how do we see all
+9:15 the exploits that are there so you go
+9:17 show exploits
+9:24 well as you guys can see we've loaded up
+9:27 a bunch of exploits which is basically
+9:29 all the exploits that Metasploit has to
+9:32 offer at this moment so let me just
+9:33 increase the screen a bit and let scroll
+9:37 completely to the top yep so as you guys
+9:45 can see show exploits gave us a bunch of
+9:48 exploits and shows their name a
+9:50 description a disclosure date and the
+9:53 rank so the name and description is as
+9:56 it says it's the name of the exploit and
+9:58 it's a short description about it the
+10:00 disclosure date is when the exploit was
+10:03 actually released by Metasploit and the
+10:05 rank is how it has fared against the
+10:07 vulnerability it was released for since
+10:09 it was actually released so as you guys
+10:11 can see ranks range from excellent great
+10:13 good and stuff and we have a bunch of
+10:17 exploits so as you guys can see there's
+10:19 an Android exploit there's a Samsung
+10:21 Galaxy Knox Android exploit there are a
+10:24 bunch of Windows exploit Adobe Flash
+10:26 exploits FTP exploits MySQL exploits
+10:30 asp.net exploits and a bunch of other
+10:32 stuff so as you guys can see there are a
+10:34 bunch of exploits to use and it can get
+10:37 confusing and rather troublesome
+10:40 research for the exploit you actually
+10:41 want to use so as a pen tester you can
+10:45 always go for the search keyboard which
+10:48 is basically suppose you know that you
+10:50 have a MySQL server which has a bunch of
+10:52 vulnerabilities anyone test those out so
+10:54 you simply go search my SQL now I'll
+10:58 search the database for all the exploits
+11:00 that are related to my SQL and present
+11:02 them to you
+11:09 okay so we have a results so as you guys
+11:12 can see we have a bunch of MySQL related
+11:15 modules now now if this makes it very
+11:18 easier if you are a pen tester and
+11:20 you're looking for MySQL exploits now
+11:23 suppose you choose your exploit and
+11:25 let's see let's choose which one we want
+11:29 to use today we're gonna just use this
+11:32 MySQL hash down so to actually use this
+11:35 we have to copy the knee so double-click
+11:37 on it and it'll just select it and the
+11:39 new go control shift see in your
+11:41 terminal so that copies it and so if you
+11:45 want some more information about it you
+11:47 can always go info and Jen just paste in
+11:51 the name of the exploit so this gives us
+11:55 a bunch of information actually gives us
+11:57 all the information you need about the
+11:59 exploit so it gives you the name that
+12:01 it's a mysql password hash dump its
+12:04 module name is auxiliary Scannell and
+12:06 all this stuff it's licensed by
+12:08 Metasploit framework in itself and it
+12:10 has a normal rank and these are all the
+12:13 options that you might need to set when
+12:15 actually using the exploit and this also
+12:18 gives you a small description so it says
+12:20 this module extracts the user names and
+12:22 encrypted password hashes from a my
+12:24 skill server and stores them for later
+12:26 cracking so seems like pretty cool stuff
+12:29 you can do with my SQL Server and its
+12:32 password database so if you actually
+12:34 want to use this so you have to use the
+12:37 use keyword so you go use and ctrl shift
+12:41 V
+12:43 so as you guys can see it's denoted in
+12:45 red out here that we are indeed and the
+12:49 exploit that we want to use now the
+12:52 first thing you want to do when you're
+12:54 using an exploit is you want to go and
+12:57 say show options now as you guys can see
+13:01 these are the options that we actually
+13:04 need to set before using the exploit now
+13:06 the options can be necessary or they can
+13:10 be optional like so there's a password
+13:12 field out here which is not really
+13:14 necessary but will help your exploit if
+13:16 you actually provide it but you need to
+13:18 provide the our hosts which is the
+13:20 targeting host machine and the port and
+13:23 the threads is already set now suppose
+13:25 you want to set the our hosts so you can
+13:29 just go set our hosts and you can set it
+13:32 to whatever IP address you want like
+13:34 suppose you want address 192.168.1.1
+13:41 will that will set the our hosts you can
+13:44 also set the number of threads now
+13:47 threads are actually what the threads
+13:49 mean and parallel processing I mean how
+13:51 many parallel threads are going to run
+13:53 so that you have faster computation so
+13:56 this means you need GPU power if you
+13:58 have multiple threads running so let's
+14:00 set threads to 34 now so we've set the
+14:04 threads to 30 and then you can go show
+14:07 options again and see that you have
+14:09 indeed actually set your options so
+14:12 we've set the threads to 3 and our host
+14:15 has also been set so that was all about
+14:18 how you can get into a module know get
+14:21 some information about a module and how
+14:23 can also use the module so once you're
+14:26 done using the module or once you are
+14:28 done setting up the options rather you
+14:30 can go ahead and run the command run or
+14:33 even exploit and this will start
+14:36 actually running exploit on the system
+14:39 that you want to now I've put in a very
+14:42 arbitrary IP address and that not have
+14:44 MySQL code running so our exploit field
+14:47 now once you have tested out your
+14:49 exploit and you want to go back to the
+14:52 main MSF UNIX shell just go ahead and
+14:55 type back
+14:56 are simple as a so that brings us back
+14:58 to the MSF command line so let's go
+15:01 ahead and clear a screen now okay so
+15:05 it's time to do something interesting so
+15:07 to do that first of all we need to go
+15:10 ahead and actually download Metasploit
+15:13 able to so the download Metasploit will
+15:15 do you have to go on this link I'll
+15:17 leave the link in the description so or
+15:21 rather you can just go on your browser
+15:22 and type in Metasploit able to download
+15:25 so Metasploit able as we had earlier
+15:28 discussed is a linux based distribution
+15:31 and it's mostly meant for actually
+15:34 practicing your pen testing skills so
+15:36 basically it has a bunch of ports open
+15:38 on it so it's basically just for your
+15:40 ease so then you don't go ahead and test
+15:42 it out on some valid website and then
+15:45 get thrown into jail because that's a
+15:46 very illegal thing to do so go ahead and
+15:49 download Metis collidable
+15:50 - and then also download Oracle
+15:53 VirtualBox machine or Oracle VirtualBox
+15:57 so you all can also easily download that
+16:00 from www.virtualbox.org and this is
+16:04 because you should never run Metasploit
+16:05 it will - on a system that is connected
+16:07 to a network you should always use it on
+16:09 a virtual machine because it's protected
+16:11 that way so that nobody else can access
+16:13 it so to actually setup Metasploit able
+16:16 once you've downloaded it you go ahead
+16:18 and open up your VirtualBox so out here
+16:22 you have to go into global tools and you
+16:26 create a host only network manager now
+16:28 already created a host only network
+16:30 manager and then you go ahead and enable
+16:32 the DHCP server by pressing this out
+16:35 here like enable then you go back and
+16:38 you just go new you give it a name like
+16:41 whatever you want to name it I have
+16:42 already named mine Metasploit with - as
+16:45 you guys can see so we're gonna call
+16:46 this demo for just demonstration
+16:49 purposes choose a type to be Linux and
+16:51 it's a one to 64-bit click Next give it
+16:54 a gig of ram and you are gonna use an
+16:58 existing virtual hard disk so out here
+17:00 you just click on this button out here
+17:02 and you browse to the place where you
+17:04 actually downloaded and unzipped your -
+17:06 palatable download file then you get
+17:07 this virtual machine disk file this is
+17:10 with VMDK file and you just go ahead and
+17:13 load it up so I'm not going to do that
+17:15 again because that's just going to eat
+17:16 up my
+17:16 and I've already installed it out here
+17:18 so that was all about the installation
+17:20 and the configuration so now let's get
+17:23 started and let's start playing around
+17:25 with Metasploit so once you're done
+17:26 downloading and installing Metasploit a
+17:30 table on your computer all you have to
+17:32 do is go ahead and start it up in your
+17:34 VirtualBox machine and the login ID and
+17:37 the password both are MSF admin so first
+17:40 of all we need the IP address of our
+17:43 metal I double silver so we go ifconfig
+17:46 and this gives us the address so as you
+17:49 can see out here our address is
+17:52 192.168.0.1 o1 so once you go ahead and
+17:56 started on Metasploit abel it's time
+17:58 that we go ahead and exploit all the
+18:00 vulnerabilities that is presented to us
+18:02 by Metasploit able to so do that let's
+18:04 head back to our Linux terminal again so
+18:08 once we have the IP address that was
+18:12 192.168.1 1:1 if I am correct so let's
+18:16 go and quickly get a little bit of
+18:19 information about that so who is
+18:24 192.168.1 no one so this will give us a
+18:28 who is on Metasploit able to and will
+18:30 give us a bunch of information as to how
+18:32 the server is set up where it is set up
+18:34 the ports that are open and various
+18:37 other things so as you guys can see this
+18:39 gave us a complete who is so to get some
+18:42 more information about our Metasploit
+18:45 abel server we are going to be using
+18:46 nmap now if you guys don't know about
+18:48 how to use nmap you can go out and check
+18:51 my other video on the playlist up made a
+18:53 pretty good and map tutorial so we go
+18:56 and map - f - s and V which is a steel
+19:00 version and we give it the name or the
+19:03 domain name server into door 1 6 8 or 56
+19:07 or 101
+19:09 so we've got a juicy result out here and
+19:12 we can see that there's a bunch of stuff
+19:14 open so as you guys can see there's the
+19:18 FTP port open which has a version of vs
+19:20 FTP D 2.3.4 there's also open SSH which
+19:24 is 4.7 p1d pian
+19:27 there's also telnet which is almost
+19:29 miserable to have talent running on your
+19:31 computer
+19:32 then there's SMTP e there's HTTP and
+19:35 there's a bunch of ports open as you
+19:37 guys can just see on your screen so it's
+19:39 time we actually use Metasploit like a
+19:41 pen tester to go ahead and test out
+19:43 these vulnerabilities so let's choose
+19:46 these FTP things so we have this FTP out
+19:50 here
+19:50 so from the version number which is
+19:53 given to us by the steel version flag on
+19:56 a map we know that it's using vs FTP D
+19:59 2.3.4 so we can easily search for an
+20:03 exploit of the same version so as a pen
+20:05 tester you would go search vs FTP D
+20:10 2.3.4 so this should give us all the
+20:14 exploits that are available for this
+20:16 particular vulnerability
+20:18 so as you guys can see after a long
+20:21 search from the search vsf TPD we found
+20:24 a vulnerability or an exploit that can
+20:26 take advantage of the binary so it's
+20:28 time we actually use this so first of
+20:31 all let's get some info about this so
+20:33 info let's copy down this thing and then
+20:36 let's get some info about this
+20:38 so as this module description says this
+20:41 module exploits a malicious back toward
+20:42 that was added to be SFTP D download
+20:45 archive this backer was introduced in
+20:47 the V SFTP D 2.3.4 tar.gz archive
+20:51 between June 30th and voila voila so we
+20:54 have the options of setting in our hosts
+20:57 it has an available target it's provided
+21:00 by these guys and it's a pretty good
+21:03 exploit in my opinion so let's go ahead
+21:06 and use it so we go use and remove the
+21:09 exploit so it's visible to us that if
+21:13 again entered the exploit module which
+21:15 is eunuch /f TP v SFTP D 234 backdoor so
+21:20 what we are going to do is we are going
+21:22 to actually gain a backdoor access to
+21:24 our Metasploit able system so to
+21:26 actually make this more believable so if
+21:29 you guys go into your Metasploit able
+21:32 system so you guys can see that you are
+21:34 in the root directory so you can gain
+21:37 some root access by going sudo su
+21:41 ongoing MSF admin so we are now a root
+21:45 user and the MSF admin or rather the
+21:47 Metasploit will console so if we go LS
+21:50 we can see the various files and if you
+21:53 go sweetie slash home we in the home
+21:56 directory now and if you do LS out here
+21:58 we can see that there are a bunch of
+22:01 stuff so there's an FTP folder there's a
+22:04 hacked folder there's an MSF admin
+22:06 folder and there's service and there's
+22:07 user so that's five folders if you guys
+22:10 remember so now what we going to do is
+22:12 we're gonna gain some backdoor access
+22:14 into the system and we are going to
+22:16 create a bunch of folders in the home
+22:17 directory so let's get on doing that so
+22:20 to do that we head back to our merge to
+22:23 our terminal
+22:24 and we go show options as we had already
+22:27 entered our extract so those show
+22:30 options so as we see the options that we
+22:33 have to provide is see our host and port
+22:35 number now the port number has already
+22:37 been set because it's 21 and that's
+22:39 where our FTP runs or other TCB runs and
+22:41 we now just have to set the host so to
+22:44 set the host we have to just put in the
+22:46 IP address of our Metasploit booth so so
+22:49 if I remember correctly it said our
+22:51 hosts to 192.168 not fifty six on 101 so
+22:57 that has said our our hosts so we can
+22:59 again check that if you've done it
+23:00 correctly by going show options and we
+23:04 indeed have set our hosts now all we
+23:07 have to do is run the exploit so we go
+23:09 and hit run
+23:12 so as you guys can see we have actually
+23:14 gained a back door service has spawned
+23:16 and handling and the command shell
+23:18 session has started now you might be
+23:21 confused as to why do I have this
+23:22 blinking line well this blinking line
+23:25 actually means that you are inside the
+23:28 Metasploit tubule server that means we
+23:30 have already gained the backdoor access
+23:32 and this blinking line denotes that we
+23:34 are on the terminal of Metasploit able
+23:36 to now if you don't believe me let's do
+23:39 some experimenting so as a headset I'll
+23:41 create a bunch of folders in the home
+23:44 directory so let's change to the home
+23:46 directory first or rather first you can
+23:49 also do a Who am I
+23:50 and instead you that you're the root
+23:51 user next you go and do CD slash home
+23:55 and I'll change to the home directory
+23:57 now let's make a bunch of folders like
+24:00 me directory this is a test
+24:06 so that should have made a directory so
+24:09 let's go to that directory CD this is
+24:13 test so we're already into the directory
+24:18 this is a test now let's make a file
+24:20 called targets not XD so that creates
+24:26 trial so just to see if you have
+24:30 actually done it properly let's go back
+24:32 to our Metasploit a bullet server now in
+24:36 the home directory you go and type in LS
+24:38 again okay so let's type in LS and see
+24:42 so as you guys can see we have created
+24:44 that this is a test folder and it's
+24:46 already available there so let's go and
+24:48 move into that folder so this is a test
+24:50 and we are already in that folder so and
+24:54 we are also created a text file which
+24:56 was called targets so that was LS and it
+24:59 should give us a target start txt so as
+25:01 you guys just saw we gained a backdoor
+25:04 access into a remote system through a
+25:06 vulnerability that was available to us
+25:08 on the FTP port so we first did that by
+25:11 scanning the entire domain name server
+25:14 of Metasploit able by nmap and gaining
+25:16 some intelligence as to what ports are
+25:18 running and what ports are actually open
+25:20 then we found out that the ftp port was
+25:22 open then we went on to Metasploit and
+25:25 found out exploit that vulnerability
+25:27 very successfully we found out how to
+25:29 use they exploit some information about
+25:31 that exploit and in the end we actually
+25:34 executed at months so that was it from
+25:38 me for about fantastic tutorial I hope
+25:40 you guys had fun and learned something
+25:42 valuable today about Metasploit that's
+25:44 it from me guys goodbye I hope you have
+25:47 enjoyed listening to this video please
+25:49 be kind enough to like it and you can
+25:51 comment any of your doubts and queries
+25:53 and we will reply them at the earliest
+25:56 do look out for more videos in our
+25:58 playlist and subscribe to any Rekha
+26:01 channel to learn more happy learning

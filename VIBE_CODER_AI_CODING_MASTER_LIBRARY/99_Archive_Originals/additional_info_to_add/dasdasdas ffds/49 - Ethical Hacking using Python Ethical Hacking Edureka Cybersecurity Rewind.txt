@@ -1,0 +1,979 @@
+Title: Ethical Hacking using Python | Ethical Hacking | Edureka | Cybersecurity Rewind
+URL: https://www.youtube.com/watch?v=pgI83C4GmTo&list=PL9ooVrP1hQOGPQVeapGsJCktzIO4DtI4_&index=59&pp=iAQB
+Channel: YouTube playlist
+Video ID: pgI83C4GmTo
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:24:55.858Z
+
+0:10 welcome to the internet session today's
+0:12 topic is basically ethical hacking using
+0:14 python why do we use Python the world's
+0:17 fastest growing language it's a language
+0:19 used by the masses and the classes both
+0:21 and of course it's very simple but
+0:24 today's topic will basically touch on a
+0:25 very complex topic called as ethical
+0:27 hacking and what is hacking and python
+0:29 is only a tool you could also do hacking
+0:31 using any other language which you're
+0:32 comfortable if you could do with C hash
+0:34 so yeah C sharp you could do with Java
+0:36 you could with SQL injection a lot of
+0:38 methods basically the methodology of
+0:40 hacking is what we look at and we'll
+0:42 also try to look at how python helps a
+0:44 little bit the OD features of python
+0:47 so what is hacking hacking is a word
+0:49 which is well known to all of you and
+0:51 the word hacking has got both positive
+0:54 and negative connotations
+0:56 but obviously the reason of hacking
+0:59 originally was not negative but over the
+1:02 years you know it has taken both the
+1:03 terms now three things have to be very
+1:05 uh clearly explained one is what is
+1:08 called as black hat hacking one is what
+1:10 is called as Whitehead hacking and this
+1:13 is a gray hat so these three things has
+1:15 to be very clear the wide haggers or the
+1:17 pen testers are the people who get into
+1:20 systems with permissions and approvals
+1:22 do checks and balances test the systems
+1:25 find vulnerabilities sets Etc and report
+1:27 it to the authorities under a very
+1:29 controlled environment
+1:31 the black hat guys are obviously the
+1:33 guys you see in movies and you know all
+1:35 those stories about hackers Kevin Mythic
+1:37 and all that they're the guys who try to
+1:40 harm the system or get out information
+1:42 and data and you know take organizations
+1:44 into a very difficult level
+1:47 the gray head guys kind of stay between
+1:49 both that's very difficult to say where
+1:51 the black ends and where the white
+1:53 begins but gray hat typically are people
+1:55 who would be looking at systems because
+1:57 of their expertise who would understand
+1:59 systems and then probably who would also
+2:01 try to find out vulnerabilities and
+2:04 instead of exploiting them they try to
+2:06 alert the authorities the software
+2:08 vendors and then some cases there are
+2:11 rewards for alerting and they get paid
+2:13 some cases the vendors uh accept it and
+2:16 they release patches and updates
+2:19 generally the white hat guys on the
+2:21 blackhead guys stay away from this kind
+2:23 of activity the gray-haired guys are
+2:24 bang in middle of the road and that's
+2:26 what they try to do and many vendors do
+2:28 respond and you hear patches and updates
+2:30 some windows don't and then there are
+2:32 other consequences
+2:33 we will come to hacking a little bit
+2:35 more in detail once we proceed
+2:37 basically Ood stands for object oriented
+2:39 design so when we say object-oriented
+2:41 design what are we trying to do here
+2:43 we're trying to understand it's a it's a
+2:44 software programming paradigm as the
+2:47 blackhead guy is depicted here then of
+2:49 course the gray hat and the white hat
+2:50 guys you see in between
+2:53 interpreted object oriented high level
+2:55 programming language with the Dominic's
+2:57 mathematics the basically python is
+2:59 third generation and it is interpreted
+3:01 as it is run there is no compilation as
+3:03 such in Python of course being 3gl has
+3:07 its own advantages but it is primarily a
+3:09 high level programming language this
+3:11 created by Guru Russian you know 89 and
+3:14 it has been in use for about 30 years
+3:15 but for the last five odd years it has
+3:18 come up like anything especially because
+3:20 of AI and all these things it is object
+3:22 oriented it is procedure oriented is
+3:24 high level language it's easy to learn
+3:25 as a matter of fact uh learning python
+3:27 is one of the easiest thing you can do I
+3:28 mean you can write hello world in just
+3:30 one single line compared to Java or you
+3:32 know C plus plus which takes three to
+3:33 five lines and uh a lot of good books on
+3:36 the internet
+3:37 features of python is Simplicity it is
+3:41 designed so that you think more of the
+3:42 code and less of the syntax
+3:44 obviously open source
+3:46 open source meaning that you do get data
+3:49 which is free for downloading to
+3:50 python.org then you can download your
+3:52 own version for your system
+3:53 portability yes can be written in one
+3:56 and shared across others next code
+3:57 sharing is
+3:59 embedded and extensible I mean see this
+4:01 is a beautiful part of python you can
+4:03 add codes from other languages CC plus
+4:05 plus as a matter of fact SQL 2 for
+4:07 databases so you can name it right into
+4:09 it and it will run it
+4:11 again interpreted I already mentioned
+4:13 this Tasker CPU and memory are handled
+4:15 by python itself it's a pretty strong
+4:16 language as a matter of fact if you look
+4:17 at it from that point of view huge
+4:20 libraries numpy MacBook it keeps on
+4:23 adding as a matter of fact these
+4:24 libraries keep on adding and you can
+4:26 choose some huge set of libraries or
+4:28 add-ons you can do that
+4:35 obtain better Solutions
+4:37 now because of its overp we will just
+4:39 touch up what our classes and objects
+4:41 what's a class and version a class is
+4:43 basically collection of organisms class
+4:45 basically is a superset the object is a
+4:48 subset when you say for instance a phone
+4:49 it could be a rotary phone it could be a
+4:51 touch phone it could be a cellular phone
+4:53 it could be just about everything you
+4:54 know and typically an object is an
+4:57 example of the class such as a in this
+4:59 case handset a mobile phone which has a
+5:02 state and some behavior when we say
+5:04 State and a behavior see it has its own
+5:08 uniqueness and it behaves in a
+5:10 particular way so that is the state end
+5:12 behavior methods again methods of
+5:15 functions that describe the activity
+5:17 routes and behaviors of an object for
+5:19 instance if I say a parrot typically
+5:21 when you say a parrot it's an object the
+5:24 class is a bird and a higher class could
+5:26 be you know a vertebrates whatever
+5:28 the parrot when you first think about a
+5:29 parrot it flies that's an attribute it
+5:32 may be sinks or it talks that's another
+5:34 attribute and it is green in color it
+5:36 has got a long elongated body two legs
+5:39 two wings and a head so there are the
+5:41 attributes and the behaviors similarly
+5:43 for a cellular phone
+5:45 there is a body there's a housing
+5:47 there's a wiring or a circuitry inside
+5:48 there's a casing there are buttons
+5:50 there's a screen so those are the
+5:51 behaviors and the phone is used
+5:53 typically for talking but of course
+5:55 nowadays cellular phones are used for
+5:56 much more than talking for browsing Etc
+5:59 so this is a object the class and a
+6:01 method I hope this is pretty clear
+6:03 the next part is inheritance now
+6:05 inheritance we all study inheritance in
+6:07 one way in our schools in biology
+6:08 basically the child class the object
+6:12 inherits the habits or the behaviors of
+6:14 the parents so when we say a bird when
+6:17 you say bird birds are classified in
+6:18 many different ways a parrot is an
+6:20 instantiation
+6:21 so the parent class has features with
+6:23 the child class of objects do take it
+6:25 off polymorphism now again polymorphism
+6:28 it is the ability to exist in multiple
+6:30 forms a single function can have
+6:32 multiple functions for instance when we
+6:34 say okay in this example we are showing
+6:35 animal and deer and tiger
+6:38 so they are both animals but they have
+6:41 different features in case of the parrot
+6:43 for instance all birds can most at least
+6:45 90 percent of birds can fly
+6:48 but all birds may not talk maybe most
+6:51 birds can sing or make some kind of a
+6:52 noise yes but parrots have a peculiar
+6:55 ability they learn to talk so that is
+6:57 something which a parrot has which may
+6:59 be a vulture or maybe an eagle may not
+7:01 so polymorphism means that it's a
+7:03 special feature the parrot belongs to
+7:04 the category Birds but it also has its
+7:06 own feature as a talking bird that is
+7:08 one example of polymorphism
+7:10 encapsulation again a class it has got
+7:13 certain features which enables it to
+7:16 bind with the data for instance when we
+7:18 log into a office computer you're an
+7:21 user and typically when you log in
+7:22 there's a username and there's a
+7:23 password so the username and password is
+7:25 encapsulated together not everyone has
+7:27 the same no one has the same username
+7:29 and no one has the same password
+7:30 hopefully so when we get inside when you
+7:32 log in in a user system you log in with
+7:34 your ID and you log in with your
+7:36 password so encapsulation is tied
+7:38 together this is a very rough definition
+7:39 of encapsulation abstraction now
+7:42 abstraction is basically simplified when
+7:44 we look at you know our washing machine
+7:45 for instance a lot of components there's
+7:47 a housing there's a motor there's a drum
+7:48 there's a circuitry there's a water
+7:50 inlet and Outlet Etc filter Etc
+7:53 but when we look at a very simple thing
+7:55 we do understand in a very simple way
+7:57 there's a power button there's a water
+7:58 level indicator there's a timer three
+8:00 things basically you switch it on water
+8:02 fills in you use to wash clothes and you
+8:04 waste on a time and then they are dry
+8:06 glass water level definition see water
+8:08 level is high and medium now when we say
+8:10 high that is one state medium is another
+8:12 state and low could be one more State
+8:14 there is a time and a spinning
+8:16 associated with it typical there's a
+8:18 Time function there's a spinning
+8:20 function and this is the insertion
+8:21 function where you insert that load Etc
+8:23 this is a very broad definition of
+8:25 abstraction
+8:26 what can be a good carrier option
+8:28 hacking or ml using python see python is
+8:30 a very powerful language but I have used
+8:32 python for some time I've used Java also
+8:35 I'm learning C sharp I've I don't like
+8:38 CC Plus nowadays
+8:40 and of course SQL is one of my favorites
+8:42 I've been using it for 10 years
+8:44 and R as well it doesn't really matter
+8:46 which language you use but yes python
+8:49 being a third generation or a simple
+8:51 language it has a lot of advantages as
+8:53 we already saw
+8:54 and python libraries Etc are powerful
+8:57 enough
+8:58 so we do get into a lot of advantages on
+9:00 Python and python being simpler is used
+9:02 both for AI ml data sciences and hacking
+9:04 so it can be interested but it is always
+9:07 preferable to learn at least two to
+9:08 three languages don't stick only to
+9:10 python learn up Java C sharp learn of uh
+9:13 SQL let's always go because you can
+9:15 embed and you can use tables for
+9:17 instance databases rdbms relational
+9:19 databases they're extremely powerful in
+9:21 SQL family MySQL db2 SQL python may have
+9:25 those features but then if you can embed
+9:27 an SQL based code into python it's even
+9:28 easier for you
+9:32 it doesn't matter it doesn't matter what
+9:36 tool you use and what methodology you
+9:38 use and what language you use basically
+9:41 what is important is the goal why are
+9:44 you into ethical hacking thing very
+9:45 deeply the first thing is protect the
+9:48 privacy of the organization that has
+9:50 been hacked
+9:51 transparently report all the weaknesses
+9:54 in firm hardware and software vendors of
+9:57 the businesses see this has a lot to do
+10:00 with something called as Integrity
+10:02 compliance and ethics
+10:04 but these are very huge huge huge
+10:06 subjects and we cannot take them very
+10:09 lightly when you are getting into it's
+10:12 as simple as you are going to somebody's
+10:14 house and trying to get inside the house
+10:16 and understanding the house and saying
+10:18 these are the vulnerabilities it is
+10:21 something which is a lot of
+10:22 responsibility it is something which
+10:23 triggers a lot of trust a lot of high
+10:26 integrity a lot of honesty
+10:29 so be very sure that you want to get
+10:31 into if you have those behaviors and
+10:33 traits and hacking is a very very
+10:36 difficult carrier it requires hours and
+10:38 hours of hard work and learning if you
+10:41 are able to invest your time and your
+10:42 judgment and your capacity it's a great
+10:44 simple
+10:46 if you feel no this is not my kind of
+10:48 stuff and I'm better happy as a
+10:49 programmer as a developer or the coder
+10:51 that's a different story that is also
+10:53 good
+10:54 but once you get into the hacking
+10:55 remember that it is a lot about the
+10:57 trust between two human beings or two
+10:59 individuals one is you as a expert and
+11:02 one is the organization or entity for
+11:04 whom you are going to get inside and do
+11:06 this activity
+11:07 it is basically between two human Minds
+11:09 so that is something you have to be you
+11:11 know be very sure it's not about
+11:13 machines it's about people end of the
+11:16 day everything is about people
+11:18 there's a person at one end and there's
+11:20 a person on the other end okay trans
+11:22 penalty report when you do a activity
+11:25 and you study all this you have to be
+11:27 very sure that you understand the
+11:29 systems you take helps of experts
+11:31 sometimes you may not have all the skill
+11:33 sets you may have to call some experts
+11:35 who know or who some vendors who might
+11:37 you know do some extra activities for
+11:39 you Outsource it but the reports will be
+11:42 signed off by you and owned by you if
+11:44 you are given the responsibility and it
+11:45 is your duty your duty bound to
+11:48 transparently report all the
+11:50 vulnerabilities or the risks to the
+11:53 organization many times hardware and
+11:55 software Windows also will be involved
+11:57 they may be in loop with the
+11:59 organization or they may be with you you
+12:02 should also inform them that they are
+12:04 the weaknesses so these are the primary
+12:07 three goals protect be transparent and
+12:09 in form of ethical hacking
+12:11 why ethical hacking see information is
+12:14 valuable please remember that people get
+12:16 paid for information you may be
+12:19 wondering that sometimes you know you
+12:20 get this credit card people to call you
+12:21 or real estate agents to call you how
+12:23 come they get your number the fact is
+12:25 that somebody has given your number to
+12:26 them okay if you are leading a large
+12:29 company if you're a manager or a CEO or
+12:31 even a small business owner creating
+12:33 hacked I did not tell you this this is
+12:35 something which is all over the place
+12:36 just a week ago Twitter accounts got
+12:38 hacked of a lot of famous people and all
+12:40 that so this is serious business and
+12:43 many times it is not possible for the
+12:46 organization to figure out what the
+12:48 vulnerabilities or shortcomings are and
+12:50 this is exactly where your expertise
+12:53 comes in as ethical
+12:55 now the word ethical and hacking should
+12:58 always go together while riding a
+13:00 two-wheeler always wear a helmet while
+13:02 crossing a road look on both the sides
+13:04 follow traffic signs while driving or
+13:06 riding on a road follow traffic rules
+13:08 they have to go together
+13:11 now what is a security threat what's the
+13:14 risk see this cyber security field is
+13:17 linked with two very uh strongly related
+13:20 fields which are risk management and
+13:22 security engineering security
+13:24 engineering is a science of securing
+13:26 systems processes people Beyond cyber
+13:29 security
+13:30 risk management is the science which has
+13:33 direct application on humans on business
+13:35 cyber security is a subclass
+13:37 so cyber security is directly borrowing
+13:39 both from security engineering and risk
+13:41 management and these terms of threats
+13:44 originate from risk and pharmaceutical
+13:46 what is the risk typically when is a
+13:48 goal you have an objective or a goal for
+13:50 instance if I say that my goal is to go
+13:52 from my home to my office in one hour
+13:55 what are the risks risks is that I may
+13:58 not have my conveyance there could be a
+14:01 if traffic problem nowadays of course in
+14:04 India you don't have traffic problems
+14:05 all cities are working from home so
+14:07 traffic is kind of reduced and
+14:08 automatically
+14:09 or for instance you say I may not get a
+14:11 cab or my two wheeler or four wheeler
+14:13 won't start so these are the risks so
+14:15 anything which adversely impacts
+14:17 directly or indirectly the goal is a
+14:18 risk
+14:19 and any risk that can harm is a threat
+14:22 for instance I say my goal is to study
+14:24 properly and score good marks when I
+14:26 don't study properly I play games I
+14:28 watch too much of movies I hang around
+14:29 with my friends of course nowadays I
+14:31 don't hang around physically but I may
+14:33 be playing online games and all that so
+14:35 those are risks which will affect my
+14:36 performational exam so anything which
+14:38 advert effect is a risk
+14:41 the security threats typically are
+14:43 physical and non-physical thing is a
+14:44 cyber security do not think that
+14:46 everything is only digital a lot of
+14:48 risks for instance server systems also
+14:50 have a physical risk somebody may come
+14:52 and you know do some harm plug out a few
+14:53 cables or you know insert some kind of
+14:55 malicious Hardware which will harm it
+14:57 physically
+15:00 foreign
+15:04 just to let anybody inside your home you
+15:06 don't do that that is not what is
+15:08 intended so you don't do that and you
+15:10 should not do that the door the door is
+15:12 for instance an internal uh physical
+15:14 risk there are external risks human
+15:17 risks of course people you may sometimes
+15:19 in a you'll find people who are you know
+15:21 hacking into systems who are employees
+15:22 or current employees so it's not that
+15:24 everything physically has to be with the
+15:26 hardware system or a physical asset
+15:28 based proximity kind of a thing it can
+15:30 be humans as well okay non-physical
+15:32 threats yes worms why this is Trojans
+15:35 spyware these these things are very much
+15:37 common nowadays and these terms have
+15:39 been around for at least 25 30 years a
+15:42 worm is something which comes inside a
+15:43 system and it does damage a virus also
+15:46 does the same thing but like a physical
+15:47 virus or a biological virus it
+15:49 replicates very quickly and brings
+15:50 entire systems down Trojans this
+15:53 typically Trojans borrow from the you
+15:55 know Ulysses and the Trojan War
+15:57 uh almost Iliad and the Odyssey where
+16:00 the Trojan is a software or a system
+16:02 which masquerades or acts as if it is
+16:05 harmless and it slowly activates that
+16:06 harms of inside spyware is basically
+16:08 thinks it's Pi upon you and figures out
+16:09 what you're doing now types of threats
+16:11 we have kind of tried to show a very
+16:13 simple definition here viruses lockups
+16:16 identity theft slow response crashes
+16:18 root kids worms pop-ups etc etc there
+16:21 are many many more
+16:23 but yes these are just you know a
+16:25 simplification of what can happen
+16:27 there could be threats like ransomware
+16:29 and many other things which we are not
+16:30 aware of there are even threats which
+16:32 happen over Wi-Fi's and wireless
+16:33 networks and all that so it's not always
+16:35 something which is wired on to it which
+16:37 you are dealing here but it is possible
+16:40 yeah and this portion preventive measure
+16:42 so once this risks and threats are there
+16:44 how do you basically try to address them
+16:47 and how do you try to stop them and the
+16:50 whole business of hacking the whole
+16:51 business of security is basically trying
+16:53 to protect somebody and helping them
+16:55 now an organization must have logical
+16:58 security measures it's a very broad
+17:00 definition
+17:01 you know even the Pentagon the FBI gets
+17:04 had a few thousand times every day
+17:07 the FBI website the Pentagon the U.S
+17:10 Department of Defense website gets
+17:12 hacked a few thousand times every day so
+17:14 it is not that it is very simple and you
+17:16 cannot tell that they are not serious
+17:18 about the cyber security business they
+17:19 are the United States government is but
+17:22 that doesn't say that you can always be
+17:24 safe there is something that is
+17:25 reasonable Assurance an organization
+17:28 must have some kind of cognitive service
+17:29 agreements a cognitive see cognitive
+17:31 disability the word cognitive means you
+17:32 are able to think on your own you should
+17:34 not believe and depend purely on
+17:37 somebody else to come and help you with
+17:38 Services you should have cognizance your
+17:40 own sentience intelligence to figure out
+17:42 how do I handle cyber security
+17:44 authentication methods there are a lot
+17:47 of methods typically the simplest method
+17:49 what we look at is a user ID and a
+17:51 password a Biometrics smart cards Etc
+17:53 but believe me everything which has been
+17:56 discovered can be broken and many of
+17:58 this black hat Hackers from from China
+18:01 or maybe from India or probably Middle
+18:03 East countries in Israel are very
+18:04 qualified people most of them have
+18:06 advanced degrees and many of them have a
+18:07 military background
+18:08 so
+18:10 whatever you build there always people
+18:11 thinking you and many gray hat and white
+18:13 hat hackers also are highly qualified
+18:16 people with the adequate experience and
+18:19 qualification who figure out and help
+18:20 your job is to be the latter to be a
+18:23 white hat hacker or a gray hat your job
+18:25 is not to become a black attacker
+18:27 efficient systems PDS yes it is possible
+18:30 typically some measures we have shown
+18:32 here human aspects antivirus spyware
+18:34 firewalls cryptography data where
+18:36 encryption there are a lot of other
+18:37 things this is what we're trying to look
+18:39 at which OS is better for hacking cnos
+18:43 doesn't hack an operating system is
+18:45 something which runs a computer you hack
+18:49 into an OS you don't use a ox for
+18:51 hacking so this is nothing particular as
+18:54 a OS for hacking there are tools for
+18:55 hacking for systems hacking and for
+18:58 wireless hacking but hacking is
+19:01 basically a set of activities to protect
+19:03 see it in battery so I will not
+19:04 recommend any tool but there are
+19:07 multiple tools freeways and paid tools
+19:09 how to know someone adapting you should
+19:11 be careful you should run your security
+19:13 patches regularly and you should hire a
+19:15 good security patch installed Ai and
+19:19 ethical hacking see AI a machine
+19:20 learning security AI is a huge science
+19:22 and it can be used together
+19:24 but it has got its own challenges you
+19:25 have to be very good in machine learning
+19:27 and AI there are clustering and methods
+19:29 and statistical tools and techniques and
+19:31 add-ons in Python but it is like telling
+19:34 uh can I use Ai and ml for cyber
+19:36 security definitely yes but it is a bit
+19:38 tricky you have to be good in both the
+19:40 fields it is like you are a good
+19:41 football player and you're a good
+19:43 basketball player can I combine both yes
+19:45 but the question is you should know
+19:46 football and basketball that will
+19:49 what is a logical security measure you
+19:51 have a how logically when you sleep at
+19:54 night do you close your door do you
+19:55 close your windows you lost everything
+19:56 you simply sleep you will tell me that I
+19:58 lock it and I'm sure that nobody's
+20:00 entered my house when I'm sleeping
+20:01 that's a logical they could imagine
+20:02 these are some of the methods we
+20:04 recommend end of the day it's a lot of
+20:05 things on your safety and the persons in
+20:08 the system they should be prepared these
+20:10 are some methods but remember if people
+20:12 are not properly trained and uh a short
+20:15 example I'll share I used to audit
+20:16 across different places in the globe and
+20:19 Asia Pacific and U.S Germany and
+20:21 Australia and all that uh many times we
+20:24 have seen when we go as Auditors and we
+20:25 go to an employee and we have a good an
+20:27 organization and then we sometimes ask
+20:29 the employees can you show me can you
+20:31 log into the system and they do login
+20:32 and sometimes you say can you share your
+20:34 password
+20:34 you'll be very surprised many times
+20:36 people you know Advantage they tell us
+20:38 our password they tell us the password
+20:39 and says this is my password and for us
+20:41 that's a very very uh you know a funny
+20:43 situation but then we have to tell the
+20:45 local management that this is something
+20:46 which is not acceptable when somebody
+20:47 asks their passcode would you give your
+20:49 bank password would you give your
+20:50 personal Gmail password or Yahoo mail
+20:52 password or control password no so you
+20:54 should have this end of the day people
+20:56 can be defeated these are all methods
+20:58 and checks and balances at the end of
+21:00 the day the humans involved should be
+21:01 very you know
+21:03 thinking
+21:08 in-depth knowledge see the whole game is
+21:10 not the language it is not the system it
+21:12 is the knowledge networking knowledge
+21:14 system knowledge computer knowledge
+21:16 knowledge is
+21:17 something which you have to develop you
+21:19 have to spend hours hours and months
+21:22 sometimes years
+21:24 it took me a lot of time to understand
+21:25 I'm telling my example I have a lot of
+21:27 friends from my community who spent
+21:29 literally years and after 12 years I
+21:31 just think I know five percent or even
+21:32 less than five percent it's a huge world
+21:34 I have a computer science background I
+21:37 have a information security background
+21:38 for 10 12 years but still I'm figuring
+21:40 out after 10 12 years I've learned
+21:42 hardly five percent Rd two to three
+21:43 percent maybe so this is something which
+21:45 is a long term thing today you can
+21:46 download you can learn this is a
+21:48 continuous learning process okay
+21:50 why to learn programming see programming
+21:52 helps many people don't know programming
+21:55 and they are pretty good Auditors as
+21:56 well so it's not that D4 always no
+21:57 programming but programming helps no
+21:59 knowledge of computer science or your
+22:00 operating systems networks Wireless
+22:02 Systems elements typically and you can
+22:04 write good codes I mean I I love writing
+22:06 codes in SQL one of my favorite
+22:08 languages in SQL and skill creates
+22:10 fantastic quality it's by the way a
+22:11 fourth generation language for those of
+22:13 you already familiar with SQL or MySQL
+22:15 or dd2 you can write near English
+22:17 Command Center and you can do fantastic
+22:19 things but there's something called SQL
+22:20 injection for instance
+22:22 it is a way where people write malicious
+22:24 SQL code to damage or destroy you know
+22:27 this drop command and delete command are
+22:29 very strong commands in SQL and many
+22:31 people do write a Time timer based code
+22:34 which gets into your system and doesn't
+22:36 it activated on one founding a fine
+22:38 morning it says a drop or delete an
+22:40 entire databases will erased that is
+22:42 what we call as sqli it's SQL injection
+22:44 and that SEO code can be embedded in
+22:46 Python so there's a very tricky thing
+22:49 you should be careful you should know
+22:50 writing programs as a hacker see if
+22:52 you're a white hacker and you know
+22:53 programs you also know how to appreciate
+22:55 when somebody written malicious code
+22:56 helps you identify and exploit errors
+22:58 definitely yes you can customize you can
+23:00 always string them many times people
+23:02 will say okay this code is not working
+23:03 can you help us you can guide them you
+23:05 you may not code for but you can guide
+23:07 their development emails
+23:09 so we do recommend that learning uh
+23:11 programming is definitely good for
+23:13 what are the ethical hacking tools and
+23:15 again a lot of tools we are not
+23:17 recommending that you use these two
+23:18 these are popular tools we have just put
+23:20 for representation we are not endorsing
+23:22 that we use these tools only some of
+23:24 them text bar hash CAD Etc they could be
+23:27 many more some of them are free and some
+23:29 of them are paid generally be careful
+23:31 with something which is free because
+23:32 sometimes you know you may download it
+23:34 for free and start using it tomorrow you
+23:35 find out that somebody will use that
+23:37 tool to hack into your system you'll be
+23:39 happy practicing and somebody is getting
+23:40 your data so be very careful about using
+23:42 these things and do this under control
+23:43 environment under authorized
+23:45 environments okay generally don't put a
+23:47 hacking tool in your home system be
+23:49 prepared to write off and dump the
+23:51 system if something goes wrong and if
+23:52 you're using that system for financial
+23:54 transactions and all God help you so be
+23:56 very careful about all these tricks and
+23:58 balances hacking is literally playing
+24:00 with high voltage current or like fire
+24:02 be very careful be very careful even
+24:04 though you will be certified and
+24:05 authorized be very careful there's no
+24:07 replacement for safety and prevention
+24:09 okay
+24:10 social engineering see social
+24:12 engineering many times this is a term
+24:14 you can always figure out social
+24:15 engineering is basically exploiting CV
+24:17 Indians for instance many of us in India
+24:19 we give us some schools are Indians we
+24:21 love to talk we love to chat we love to
+24:22 hang around with people and Friends many
+24:24 people actually use the information to
+24:26 figure out a lot of things about you you
+24:28 may not tell anything for instance
+24:29 somebody will join you and say he's a
+24:31 new employer which is an employer and
+24:33 you know try to just figure out hang
+24:34 around with you go for a drink
+24:37 party and something and gradually they
+24:38 will befriend you and then they'll try
+24:40 to get information from you tomorrow you
+24:41 will find that that is being used
+24:42 against you sometimes over presentations
+24:45 we discuss things loudly when we travel
+24:48 when you're in a bus or you know we are
+24:50 traveling on a train and a flight we
+24:52 discuss we open up the moment a plane
+24:53 lands we start calling people and say we
+24:55 have each problem sometimes we openly
+24:57 say I'll transfer this much amount to
+24:58 your account be careful of these things
+25:00 this is the art of social engineering be
+25:02 extremely careful hackers are not people
+25:04 always hacking to systems hardware and
+25:05 Software System there are people who are
+25:06 very smart who are sitting right next to
+25:08 you looking innocent and they will try
+25:10 to figure out okay so be careful it
+25:13 doesn't require Python and Java skills
+25:14 to know that you have to be very careful
+25:15 what you talk and you talk regarding
+25:17 your punch be extremely careful
+25:19 we gather the information they plan it
+25:22 they use the knowledge which they get
+25:23 from you and then they attack you so
+25:25 typically they don't know anything about
+25:27 you and your system they befriend you
+25:28 they socialize with you they kind of
+25:30 mingle with you and get the information
+25:31 from you all that is something you
+25:33 should be careful about
+25:34 techniques familiarity intermitting
+25:37 social analysis human emotions
+25:38 tailgating fishing tailgating you know
+25:40 or you know this when you punch in and
+25:41 then somebody doesn't punch you or she
+25:42 follows you or not correct that's for
+25:44 tailgating
+25:44 some techniques again spear fishing
+25:47 wishings gather information over the
+25:49 phone secure fishing field these are all
+25:51 different English terms the method is to
+25:53 get information stay at where your CPC
+25:56 has been infected please click this
+25:57 otherwise you lose all data these are
+25:59 basically scared sometimes you get these
+26:00 Nigerian calls I want to transfer a
+26:02 million dollars to account with Nigerian
+26:04 guys you know the Nigerian scam as we
+26:06 say and then please give it a possible
+26:07 give an initial upfront money don't fall
+26:09 into all that crap be really careful
+26:11 sometimes people say I'm stuck in a
+26:12 particular place any impersonate your
+26:14 friend or a colleague you may hack into
+26:16 his phone and impersonate and send
+26:17 message from his phone so be careful
+26:19 these are very uh you know very very
+26:21 fine techniques the people who are doing
+26:22 every intelligent people do be careful
+26:24 on this cryptography a very simple way
+26:27 you try to put it here it's a huge
+26:28 science cryptography has been around in
+26:30 humanity for uh thousands of years it is
+26:32 used in Europe Julius Caesar's time and
+26:34 even before the Babylonians it is used
+26:37 in cotillas
+26:39 and a lot of friends in India the
+26:41 mauryan Empire spies Networks
+26:43 counterintelligence cryptography these
+26:46 are all related this is one example
+26:47 where we replace there are a lot of
+26:48 codes and ciphers we're just showing one
+26:51 example plain text you take a text and
+26:53 we can use we put a we put an algorithm
+26:55 or we put a substitute each key and then
+26:57 we get into a plaintiff so uh we have
+27:00 something called as two key and two
+27:01 factors and three Factor authentication
+27:02 one way and two okay information to you
+27:05 and then uh you receive it you can only
+27:07 decode it if you know the course
+27:09 otherwise it is useless to you that is
+27:11 the art of cryptography style spending
+27:13 information between point A to point B
+27:15 so that if Point C or anybody else
+27:17 cannot break into it if they break into
+27:19 it they cannot basically it is used in
+27:21 military it is there are other signs
+27:23 from World War II just coming in lot of
+27:25 other ways these are some of the famous
+27:27 cryptography methods RSA they are the
+27:30 words top guys
+27:36 was used some years ago sh is also one
+27:39 rc4 is also one model typically des and
+27:42 RC for the advanced ones this H also is
+27:44 and there are more uh there's a signs
+27:46 called Quantum cryptography also which
+27:47 is coming in Quantum Computing Target
+27:49 that's a very Advanced science then
+27:50 there's something called as elliptical
+27:52 curve cryptography values elliptical
+27:54 curves to use capabilities are stronger
+27:56 methods cryptanalysis again how to
+27:58 decrypt the data how to decrypt the data
+28:00 if you get over here techniques we
+28:03 sometimes you know the dictionary method
+28:04 we substitute the words and then we try
+28:06 to say it here
+28:07 see python is available on the web
+28:09 circle is python.org FireEye dark Trace
+28:12 silence Cloud strike these are the
+28:14 world's top recent startups leading in
+28:17 cyber security doctors for instance uses
+28:19 Ai and cyber security firea uses crowd
+28:23 and crowd to crowdstrike is for import
+28:25 production visit these websites you can
+28:27 note these names down by dark Trace
+28:30 Sidelines and Cloud strike these are
+28:32 existing companies I am not endorsing
+28:33 these companies but these companies are
+28:34 doing a lot of cutting edge Ai and cyber
+28:37 activities
+28:51 see this is a non-profit organization so
+28:54 what happens in attack that Mitra is an
+28:56 organization where they do a lot of
+28:58 great work try to identify threats and
+29:00 lot of things inside work including
+29:02 hacking and Dimitri has a material
+29:04 Matrix and Enterprise Metrics this is a
+29:07 military home page attack that literary
+29:09 attack is a framework is reused you can
+29:11 see it here
+29:12 and uh for instance for Enterprise these
+29:16 are these are very detailed areas
+29:19 for Access for execution proposition so
+29:21 these are privileges collection discount
+29:23 these are collective based on best
+29:25 practices globally and they have put it
+29:28 here saying these are the good things
+29:29 you should be doing or these are the
+29:31 good things you should be careful you
+29:33 should be watching out so somebody's
+29:35 trying to hack challenges are he or she
+29:36 is trying to exploit one of these
+29:38 techniques they are tied with a lot of
+29:40 organizations and groups a lot of good
+29:42 resources here and we have a mobile and
+29:44 Enterprise we have this customized
+29:46 techniques they have tactics and these
+29:49 mattresses are published they've written
+29:51 it fantastic but please remember it may
+29:53 require some background and of course
+29:55 I'd still recommend user extra signs you
+29:58 know and uh I'll show one more site here
+30:01 and this is the nest the nist is a U.S
+30:04 uh National Standard Institute and Mist
+30:06 also has fantastic framework from cloud
+30:08 and mobile and security we publish
+30:10 Frameworks and documents they are a U.S
+30:12 government sent
+30:14 and there are the world's best standard
+30:16 sites this is cyber security page you
+30:18 can go to list and just hit topics
+30:20 biggest sub-city framework privacy
+30:22 framework is
+30:25 go here you will click here they have
+30:29 this uh four five point method which
+30:30 they call as identify protected
+30:32 respondent returns so you can and this
+30:34 this is downloadable it's like it's a 50
+30:36 100 page you can actually literally go
+30:39 ahead and start creating nothing nothing
+30:41 is going to stop you you can start
+30:42 reading but this takes time I've been
+30:45 reading lists since last profile maybe
+30:47 seven years
+30:49 takes them and these get constantly
+30:50 upgraded so you have to keep upgrading
+30:52 yourself when you said where to start
+30:53 start with it just start with
+30:56 um as I said you know
+30:57 immediately start with here and start
+30:59 reading and understanding this may look
+31:01 initially intimidating but it is
+31:02 definitely possible
+31:04 and there's something called as
+31:05 compliance risk management and
+31:07 governance so what is the OC energy this
+31:09 is the FBI speech cybercrime for the FBI
+31:11 it has an online yeah in India we have
+31:13 these courses we have dsci nascom's a
+31:15 dsci here data security Council of India
+31:18 we have searched India also we have this
+31:20 also here
+31:22 when you do a statistical hacking or a
+31:24 little python or whatever you have to
+31:26 have a plan you have to have an
+31:28 observation like a project plan saying
+31:29 what you will do what are the checks and
+31:31 balances where you will draw the
+31:33 boundaries what you will check what are
+31:36 the risks what the clients want you to
+31:39 check what is in scope what is router
+31:42 scope then perform the activity what you
+31:44 will be checking to what level of detail
+31:46 within what time frames conduct the
+31:49 activity then conduct that you then
+31:51 document it then you present the report
+31:53 to them discuss with them any file
+31:55 another report so this is something
+31:57 called the nist forensic framework what
+31:59 we say is c e a r collect the evidences
+32:02 examine evidences analyze them and then
+32:06 report them but this has to be within a
+32:08 framework of a plan like a project plan
+32:09 those of you who may have a PMP diagram
+32:11 so do you know what a project plan is so
+32:14 what is in scope and what is out of
+32:16 scope what is a methodologies and then
+32:18 that report has to be done and that has
+32:20 to be documented and signed off from the
+32:22 client and you typically if you're going
+32:24 to do it at home obviously you don't
+32:26 have that expertise yet but if you
+32:28 browse through the ACI cert which
+32:30 organization and uh missed homepage many
+32:34 of you may be wondering that is it okay
+32:35 if you browse once please don't if you
+32:37 have to browse through literary or with
+32:39 the list or with the ACI you have to
+32:41 browse for hours so only when you spend
+32:44 at least two to four months
+32:46 understanding and reading these
+32:47 Frameworks you will be ready be
+32:49 dedicated and always I will also in
+32:51 saying that go for a white hat or for
+32:53 honest method have your integrate a
+32:55 model site don't do activities user
+32:57 religion because if you are getting into
+32:58 two funny things the government is able
+33:00 to smoke you out so tomorrow morning if
+33:01 you have a bunch of law enforcement
+33:03 people that you've gone on the police it
+33:04 is not a very nice situation which we
+33:06 recommend that is one reason we are not
+33:07 showing actual code here
+33:09 uh we could have we don't want to do
+33:11 that that it's a legal risk on us as an
+33:12 obligation
+33:14 so that's about it uh stay safe stay
+33:16 strong have a nice day

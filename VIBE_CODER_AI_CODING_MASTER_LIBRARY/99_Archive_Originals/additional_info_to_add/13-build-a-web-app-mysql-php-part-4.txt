@@ -1,0 +1,594 @@
+13. Build a Web App - MySQL/PHP Part 4
+
+0:11 hello gary simon of designcourse.com
+0:14 today we're going to work with the main
+0:16 logged in
+0:16 area where it shows people's matches at
+0:18 bartiful.com
+0:20 so if you need access to the project
+0:21 files they're available at
+0:22 designcourse.com and as always subscribe
+0:24 here
+0:25 on youtube if you haven't yet alright
+0:26 let's get started alright so where we
+0:29 basically left
+0:30 off uh yesterday was
+0:33 the portion where we directed the user
+0:36 to the main.php
+0:38 page uh after verifying their email
+0:41 uh so basically now uh i've went ahead
+0:44 and i emptied the offers and the once
+0:47 table
+0:48 and i i did that because i'm going to
+0:49 add two more rows to this just to make
+0:52 things a little bit easier
+0:54 uh so those two rows or this two fields
+0:56 basically are going to be the
+0:58 state and the city and the reason i'm
+1:01 doing that is just to make it a little
+1:02 bit easier on us when it comes to the
+1:04 queries
+1:05 and finding the uh the potential matches
+1:08 now you can do
+1:09 more advanced mysql queries where you
+1:11 can look up information from the users
+1:13 table like where they're from but just
+1:15 to keep things
+1:15 easy for this tutorial we're going to
+1:18 include
+1:19 with each offer and want the location
+1:22 information so basically to add those
+1:25 two rows i'm going to
+1:26 add them right after the offer field
+1:29 and the first field name will be
+1:33 state actually i'll make it city
+1:38 i have no clue how whatever the longest
+1:41 city name is
+1:42 and then oh i didn't add two of those
+1:47 uh yeah add another one after city and
+1:50 that will be state
+1:52 and that is just two letters i believe
+1:57 and save all right so what we need to do
+2:00 now
+2:01 is go back and edit uh
+2:04 the i believe it's step two dot php
+2:08 um right here where it enters that
+2:10 information in
+2:12 uh so we have insert new users we have
+2:14 the city in the state
+2:16 also i added this right here this kind
+2:18 of cleans the data so
+2:19 you know it prevents you from being
+2:21 hacked basically the these uh
+2:22 mysql escape string fields so let me
+2:26 find
+2:27 the uh city right here
+2:31 and then right after uh
+2:34 the want we'll go ahead and put in
+2:39 let's see here's the city state i forgot
+2:42 that i didn't add it to the
+2:43 to both tables which i'll have to do
+2:50 and just come over here and put
+2:54 post city
+3:01 post state
+3:06 and i'll just copy this stuff
+3:15 go back to the phpmyadmin
+3:18 and we were on the offers table so we
+3:21 have to do
+3:22 the same thing for the once table
+3:26 so add two fields this time after want
+3:31 city state
+3:36 100 and
+3:41 to save all right
+3:45 okay so now we know that when the new
+3:48 offers and wants are added it's going to
+3:49 include the city and state along with
+3:51 each one of those
+3:52 all right so now we'll progress to the
+3:54 next step
+3:56 and that's going to be over at maine.php
+4:00 so the way i'm going to go back this is
+4:04 oh we have to get rid of this echo we
+4:05 don't need that anymore
+4:08 is i'm going to do two queries where we
+4:10 get
+4:11 the once and the offers from the person
+4:14 who's currently logged into the session
+4:16 user user id so what we'll do is query
+4:19 equals
+4:20 select want from
+4:23 once table where user id
+4:27 equals i'll just
+4:30 copy this and paste it in real quick
+4:35 and do the
+4:39 once ar for array equals
+4:42 db fetch query
+4:46 and then we'll take this and just
+4:50 paste that in there change these names
+4:53 around a little bit
+4:56 offer from offers and then this is going
+4:58 to be changed to offers
+5:00 arr all right so once ar
+5:04 and offers arr basically will hold
+5:07 all of the person's wants and offers
+5:09 that they entered from that step one
+5:11 all right so now this is where we're
+5:13 gonna come down
+5:15 and we are going to get rid of
+5:18 some of these right here so column four
+5:20 when we want to keep
+5:22 everything inside of column four so
+5:25 right there so we're going to delete the
+5:28 other two beneath it
+5:29 basically right to about there so we're
+5:32 keeping row
+5:35 and so we're gonna give ourselves some
+5:36 space here this is what's going to be
+5:38 basically replicated based on if there's
+5:42 matches
+5:42 so what we'll do here is open up php
+5:46 and i'm going to put in i'm going to
+5:49 close it down here real quick
+5:52 we're going to put in five four each
+5:55 we're going to take our once arr
+5:59 as once
+6:02 all right so that takes that array and
+6:04 it's going to open up and basically loop
+6:06 through them
+6:08 and let me come down here
+6:13 all right so i am making a slight change
+6:16 to the idea
+6:18 just to make things more simple on us uh
+6:22 it still makes the app useful though so
+6:24 it doesn't really detract from
+6:25 you know the the original idea that we
+6:27 had so the original idea of course was
+6:29 that we were going to show 100
+6:31 matches where a person's once equal your
+6:34 offers and their offers equal your wants
+6:36 uh and then beneath that we would show
+6:38 just the 50 what i'm gonna do
+6:40 is just make it only fifty percent
+6:43 and so the top portion of
+6:46 the view let me uh well i'm not going to
+6:48 mess around with that
+6:49 yet the the top portion where it was 100
+6:52 is just going to show
+6:53 the 50 that matched there once and then
+6:57 beneath that it will show offers in that
+7:00 same way
+7:00 so you'll see what i mean once we get
+7:02 going here so
+7:04 basically we have to do a another query
+7:06 inside of here because remember what
+7:08 we're doing is we're getting
+7:10 all of the person who's currently using
+7:12 the site logged in
+7:13 their session user we're getting their
+7:15 their wants and their offers here
+7:17 and what we're doing down here is we're
+7:19 going to go through
+7:20 each of those once uh at the top
+7:24 and then what we're doing we're going to
+7:25 do is just basically copy this and paste
+7:26 it for the offers beneath here so
+7:28 once we have this done that's what we'll
+7:30 do so what we're doing is going through
+7:32 each of these once and now what we're
+7:34 going to do is do another query
+7:37 from the opposite table so we're
+7:39 focusing
+7:40 on the things a person wants so we're
+7:42 going to look if anybody is offering
+7:44 that want
+7:44 basically so query equals select
+7:48 all from offers where
+7:51 and i'm going to make sure that i the
+7:53 user id doesn't equal that person's
+7:55 current currently logged in user id
+7:58 because you don't want to
+7:59 be potentially matched up with yourself
+8:01 obviously so we're going to put
+8:02 doesn't equal and we're going to put in
+8:06 session user
+8:09 id and
+8:12 offer equals once
+8:16 want
+8:20 and then we're going to do once match
+8:22 arr for array
+8:23 equals db fetch query
+8:28 all right so basically this is looking
+8:30 for
+8:31 any type of offers that match
+8:35 the wants of the person so it's looking
+8:38 through the offers table to see
+8:40 if someone's offering what you want
+8:41 basically and
+8:43 it also doesn't equal your user id
+8:46 and the reason is like if i say for
+8:48 example you're looking
+8:49 you're you're you're looking for a
+8:51 fender guitar
+8:53 and somebody's offering uh
+8:57 oh but you're also wanting a you're
+9:00 looking for a fender guitar but you're
+9:01 offering a gibson guitar so we have that
+9:04 guitar keyword in there twice so that's
+9:05 why you don't want to use your
+9:07 you don't want matched up with yourself
+9:09 so basically i
+9:11 now what we want to do after this is if
+9:14 it finds a match here
+9:17 and we'll specify that by if count
+9:20 and you can count basically how many
+9:22 matches are by doing by using the count
+9:24 function
+9:25 want match dot arr
+9:29 doesn't equal zero
+9:33 all right so basically if i found a
+9:34 match it's going to do everything inside
+9:37 this portion and then we're going to do
+9:41 a couple of other queries so that's
+9:44 going to be
+9:47 one second here yeah we're going to do
+9:50 first a for each
+9:52 of the once
+9:56 let me make sure i'm going to adjust
+9:58 this real quick yeah
+9:59 want match okay so it's going to be i
+10:03 want match arr
+10:09 as want match
+10:14 all right
+10:19 so basically it's saying if i the count
+10:22 you know if basically if i found a match
+10:24 here and then it says for each
+10:26 what we're going to do is we're going to
+10:27 loop through however many whether it be
+10:30 one
+10:30 or two or however many matches there
+10:32 were that it found
+10:34 so this is going to loop through those
+10:35 and what it needs to do is find
+10:38 the user information uh of the person
+10:42 that matched who's basically offering
+10:45 what you want
+10:46 so the way we'll do that is
+10:49 query equals select all from user oops
+10:55 from users where id
+10:58 equals want match
+11:02 user id
+11:07 and limit one
+11:11 we just limit limits it to one row user
+11:14 info equals
+11:15 db fetch row
+11:19 since you use fetch row just uh if it's
+11:21 one row
+11:23 and it is because we're limiting it to
+11:24 one and then i what we also need is to
+11:27 get
+11:28 that users whoever it found a match for
+11:31 their wants and their offers because
+11:33 we're also listening
+11:35 listening listing what they want and
+11:37 offer and what they're offering
+11:39 so what we'll do is i do a query equals
+11:43 select want from once where
+11:46 user id equals user info
+11:50 id
+11:53 and that's going to be there once arr
+11:56 equals
+11:56 db fetch query
+12:02 and then what we need to do in order for
+12:03 this to work correctly
+12:05 is remember each person's one is on its
+12:07 own row
+12:08 basically in the table so we need to add
+12:11 those
+12:12 to a single line where they're or a
+12:15 single string rather where they're
+12:17 separated by a comma because that's how
+12:19 we designed the
+12:20 the the interface so basically what we
+12:23 have to do
+12:24 is do four each there wants arr as
+12:28 their once
+12:31 and then want ar this is the new
+12:34 variable and we're making
+12:35 an array so we add those brackets right
+12:37 there equals
+12:39 there once once
+12:43 which their wants is right here this is
+12:45 from that array from this query right
+12:47 here
+12:47 so then what we can do is another new
+12:52 field there once equals implode
+12:56 now implode remember we used explode
+12:58 which separated
+13:00 imploding does the opposite thing it'll
+13:01 take everything
+13:03 and basically we specify inside here
+13:07 what it's going to add or separate
+13:08 between the individual
+13:10 parts of that array and then we'll
+13:12 actually put put the actual array right
+13:14 here which is want.arr
+13:17 all right i know it's a little bit more
+13:21 complex and i
+13:22 didn't really think about uh this is a
+13:24 little bit more complex than uh
+13:26 i probably should have chose for a
+13:27 project but anyhow no problem uh
+13:29 so now what we want to do is duplicate
+13:33 basically everything from here
+13:37 down because we have to do it to find
+13:39 their offers as well so
+13:40 query equals offer from offers
+13:45 their offers arr
+13:50 and then change that right here
+14:13 and finally right here
+14:18 okay so basically now what we need to do
+14:22 i'm going to get rid of
+14:28 one of these brackets right here
+14:31 and let me come down here
+14:36 i'm going to add another one
+14:40 right here it doesn't really matter the
+14:42 location specifically
+14:45 and what we want to do also is
+14:48 when it comes to these two variables
+14:50 that we created since it's going to be
+14:52 potentially
+14:52 looping through these it will add to
+14:55 that
+14:56 variable every time and it will
+14:58 duplicate or replicate rather the uh
+15:00 the information so what we want to do is
+15:03 just before that first bracket closes
+15:06 is put unset offer arr
+15:11 and then onset want
+15:14 arr and that basically just kind of
+15:16 wipes the variable out
+15:18 or clean so it starts over each time all
+15:20 right so then down here
+15:22 what we'll do is for there once this is
+15:24 where we're going to actually
+15:26 echo the information so i
+15:29 php echo now we want to make sure that
+15:33 the
+15:33 um the actual string is
+15:36 uppercase so you can do that with sdr2
+15:39 upper
+15:41 there once
+15:49 and then same thing for their offers
+15:56 save that all right and i also have a
+16:00 function i found
+16:01 that allows you to take a date time
+16:03 column and i
+16:04 or a time stamp rather and it'll
+16:07 basically
+16:08 echo how however many long like whether
+16:10 it's seconds or minutes
+16:12 you know uh hours days months years etc
+16:16 so what i'm going to do is include that
+16:19 at the top here
+16:20 just as a function
+16:27 the function is a go and the time is a
+16:29 time stamp
+16:36 save that oh and real quickly i made an
+16:39 error here
+16:39 on line 39 with the two queries that we
+16:42 added
+16:43 get rid of those right there
+16:47 and then also real quickly i added i
+16:50 screwed up one of the
+16:52 what do you call uh right there it's
+16:55 want not once
+16:57 all right so basically now we want to do
+17:00 is
+17:00 upload the uh
+17:05 these files so far
+17:09 and let's go ahead and run through
+17:11 everything real quickly just to uh
+17:14 see what works so far hopefully
+17:16 something
+17:17 all right so refreshingness i i need
+17:21 uh how about i'll just put children
+17:24 games
+17:25 and then i can offer
+17:28 um
+17:31 i'll put newborn clothes something like
+17:34 that
+17:35 all right and i'll put in my email here
+17:38 real quick
+17:39 or in ohio all right so i'm going to
+17:42 check my email
+17:44 and i'm just going to click the verify
+17:46 link off screen
+17:48 all right so basically there are no
+17:50 matches
+17:51 down here because remember i basically
+17:54 got rid of everything so
+17:55 if i click on once we have the
+17:59 city state and i basically all separated
+18:02 out as it should be
+18:03 and then the offers as well all right so
+18:07 basically what i need to do to to kind
+18:09 of simulate this is create
+18:11 another user and go through this where
+18:13 we can kind of match one of these fields
+18:15 up uh so basically let me come down
+18:19 here all right so
+18:22 i need okay so let's offer something
+18:25 that that fictional person wanted so
+18:27 they their wants are children
+18:30 i want a children that's almost though
+18:32 uh and then game so i'll just put games
+18:34 over here
+18:36 and then i can offer um
+18:41 i don't know i'll just put nintendo or
+18:43 something
+18:45 all right find that i've
+18:48 put another email here warren
+18:52 ohio all right so now if we come over
+18:56 here
+18:57 since we're still logged into this
+18:59 account the first one if we refresh this
+19:02 wow it doesn't work all right oh because
+19:05 i just realized i
+19:07 should have put games over here so you
+19:09 know what that's what i'll do
+19:14 find matches and do this again real
+19:17 quick
+19:22 there we go now it works okay so
+19:24 basically i found a person who's
+19:26 offering
+19:27 games and this is based on what a person
+19:31 you know what this person is currently
+19:33 logged in specified they want
+19:35 games okay so uh now what we can do is
+19:38 put in
+19:39 get this information working down here
+19:41 because that's still just
+19:42 static html so let me come over here
+19:46 focus on the state portion first
+19:50 so we have just the state and a com our
+19:53 city and a common than the state
+19:55 so what we can do is
+19:58 php echo
+20:02 and that will be where we get that
+20:05 information from
+20:06 is select all from offers
+20:11 want match arr
+20:15 as one match okay so
+20:23 and put the comma right here and then
+20:26 put another period
+20:27 to specify the want match
+20:32 state also
+20:35 we want these to be uppercase so what we
+20:38 can do is the str
+20:39 to upper
+20:43 and i think by default it already is
+20:46 the state uh capitals are already
+20:48 capitalized so that's not
+20:50 anything to worry about all right and
+20:54 it looks good i'm going to upload this
+20:57 and i refreshed and that works correctly
+21:00 uh
+21:01 so now we need to get the actual this
+21:04 part down here
+21:05 and we have to make an adjustment to a
+21:06 query real quickly because
+21:08 right now we saved the
+21:11 dates as a date time field
+21:15 right here um but we need to convert
+21:18 that into
+21:19 a unix time stamp in order for it to
+21:21 work for that ago function that we added
+21:23 to the top so
+21:24 what we'll do is i guess we can just
+21:28 come right here
+21:30 actually no we can do it directly from
+21:32 the query in mysql so
+21:34 let's see where we can do that real
+21:37 quickly
+21:40 yeah select all right there
+21:44 and we'll put in unix
+21:48 timestamp date
+21:51 added as date
+21:54 added and then come down here
+22:02 and we'll get rid of this portion and
+22:04 just put php
+22:06 echo ago which is the function name
+22:10 one match date
+22:13 added
+22:16 and close it up like that
+22:22 all right so now we'll go ahead and
+22:24 upload this
+22:26 let me find that
+22:30 and then come over here we're looking at
+22:33 this portion
+22:35 refresh it posted eight minutes ago
+22:39 all right so fairly simple i
+22:43 now what we want to do basically is take
+22:46 all this stuff
+22:48 yeah we should also reword this and
+22:50 probably be worth you know
+22:52 changing the icon based on how we're
+22:53 changing this because what we're doing
+22:55 like i mentioned before
+22:57 we're showing what people are offering
+22:59 what this person
+23:01 wants this person up here so um
+23:04 let me go ahead and go back here
+23:10 oh also i kind of forgot about something
+23:12 we're not
+23:13 uh we didn't do this query but
+23:16 um we didn't specify in it the city and
+23:19 the state
+23:20 uh so right now it's just kind of
+23:22 searching everywhere regardless of the
+23:24 location
+23:25 so what we can do is add um a couple
+23:28 more ands
+23:30 i which we're also going to have to
+23:31 change to based on the search criteria
+23:34 so basically we're going to want to look
+23:36 for you know if a person
+23:38 specified you know a new city and state
+23:42 or a new city or whatever uh or if they
+23:44 clicked on ignore location because right
+23:46 now
+23:46 it's treating it as as if a person
+23:49 ignored the location
+23:51 so but just for now just for this
+23:52 because we're already at 23 minutes
+23:54 just for now i'm going to put in
+23:58 and state
+24:02 equals
+24:06 and we have to get the variable name i
+24:08 think i will just do
+24:09 yeah once
+24:17 once and this is going to be state
+24:22 oops i forgot that a
+24:25 single quote there state
+24:30 and
+24:33 i'll just copy that real quick
+24:39 city equals city
+24:43 all right so now it's only going to
+24:45 search or show a result based on
+24:49 people who match the city in the state
+24:55 and it's not because i forgot we're only
+24:58 selecting over here
+25:00 the want so we just need to come over
+25:04 here and put city
+25:12 state
+25:14 and let me upload that and hope the
+25:17 stupid thing works this time
+25:19 there we go all right so uh yeah uh what
+25:23 we'll do now
+25:24 uh yeah instead of just replicating this
+25:27 and making it work for
+25:28 you know showing what people are wanting
+25:31 what
+25:31 this person's offering you know the flip
+25:33 side of this i
+25:34 i think we're just going to end it here
+25:36 right now because we're still going to
+25:38 want to work with the coding that we're
+25:41 going to be that
+25:42 eventually what we're that we're going
+25:43 to be replicating down here
+25:45 we still need to work with this over
+25:47 here so that it works
+25:48 for uh them ignoring the location or
+25:52 specifying an
+25:52 enter an entirely different city or
+25:55 state
+25:56 all right so all right we'll focus on
+25:58 that
+25:59 tomorrow all right so check out gary's
+26:01 uh it's not gary simon
+26:03 i'm thinking about my own personal
+26:04 domain uh check out designcourse.com if
+26:06 you haven't and subscribe here on
+26:08 youtube alright see you tomorrow
+26:26 you

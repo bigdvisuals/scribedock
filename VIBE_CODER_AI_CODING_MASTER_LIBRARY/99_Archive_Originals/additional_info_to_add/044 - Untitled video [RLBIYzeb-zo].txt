@@ -1,0 +1,1768 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=RLBIYzeb-zo
+Channel: Riley Brown
+Video ID: RLBIYzeb-zo
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 I'm a vibe coder
+0:01 >> and I'm a senior iOS engineer
+0:03 >> and today we're going headto head to see
+0:05 who can build a better iOS app directly
+0:08 from our phone. We are both going to try
+0:11 to build an app like Headspace which
+0:13 does over $300 million per year in
+0:16 revenue. And we're both going to be
+0:18 using an app that lets us use cloud code
+0:20 directly from our phone to build a
+0:22 mobile app. You see, Vashall has 10
+0:24 years of experience coding mobile apps.
+0:26 and I'm just a vibe coder who's never
+0:28 actually written a line of code. But
+0:30 here's the thing, the fastest way for
+0:32 both of us to build a mobile app and get
+0:34 it on the Apple App Store is to use AI
+0:37 to generate everything. The code, the
+0:40 assets like the images, sound effects,
+0:42 voices, music, haptics, and more. With
+0:45 AI, the playing field is leveled. I can
+0:48 generate what took Vashall years to
+0:50 master. And in the comments, you get to
+0:52 decide whose app is better. and we're
+0:54 going to give $50 of credits to the Vibe
+0:57 Code app to 25 different people who vote
+1:00 in the comments below. We're here. We're
+1:02 in the Vibe Studio. Let's dive into the
+1:04 competition.
+1:05 >> Here we go.
+1:06 >> All right, Vishall. First of all, happy
+1:09 Halloween. Happy Halloween.
+1:11 >> We were going to wear costumes. We
+1:13 literally tried to Door Dash Halloween
+1:15 costumes here to wear them in this
+1:17 video, but unfortunately they were out
+1:19 of costumes at the store. You tried,
+1:20 right?
+1:21 >> Yeah, they were uh the order got
+1:22 cancelled actually. the the costumes
+1:25 weren't there and the substitutions
+1:26 weren't there.
+1:27 >> Yeah. So, I was going to be a banana and
+1:29 you were going to be like Scooby-Doo or
+1:31 something.
+1:31 >> Yeah. I mean, you were going to be a
+1:33 nano banana.
+1:34 >> I was going to be nano banana. I was
+1:35 going to put the Google logo on a banana
+1:37 costume and be nano banana. So, in
+1:40 celebration of that,
+1:42 >> that
+1:46 Okay, so the rules today, we both get
+1:48 nothing but our phones. We have our
+1:49 phones here and we are going to both
+1:52 have 1 hour to build an app after the
+1:55 first prompt. So, we get to hang out. We
+1:56 get to relax. As soon as we enter our
+1:59 first prompt, I'm going to start this
+2:00 timer right here. And once this hits one
+2:04 hour, all hands off your phone. And so,
+2:08 obviously, this is we're going to be
+2:09 using the Vibe Code app. And obviously,
+2:10 the Vibe Code app allows us to use Cloud
+2:12 Code on our phone and you can ceue up
+2:14 prompts. So, this is fun. In the Vashall
+2:17 Vashall and I's last video, he had three
+2:20 prompts queued up at the buzzer. So,
+2:22 you're allowed to do that, but whatever
+2:24 app you end up with, that's your final
+2:26 app.
+2:26 >> That's all you get.
+2:27 >> Yeah. So, it's like you get the shot up
+2:28 right before the buzzer. You can get as
+2:30 many shots as you want, but that's it.
+2:33 And so, we're going to be vibe coding
+2:34 from our phone with the brand new and
+2:36 improved Vibe Code app. Let's go ahead
+2:39 and we're both going to hit new project
+2:41 here. I'm curious what direction you're
+2:43 going to go. Um, but maybe you don't
+2:45 want me to know the direction you're
+2:46 going.
+2:46 >> H, you'll you'll find out anyways, but I
+2:49 got some, you know, tricks up my sleeve
+2:51 here.
+2:51 >> Please make a one-page app. We're just
+2:54 going to start off with a very bare
+2:56 bones. This app is going to be just like
+2:58 Headspace. And I just want you to make
+3:00 the very first the page you enter at the
+3:03 beginning of the app. And also, I want
+3:05 you to make a very blank onboarding
+3:08 experience that has like three pages in
+3:11 the onboarding. So, I want to be taken
+3:13 to the onboarding immediately, but I
+3:15 want there to be a skip onboarding
+3:17 option. And then I want to be entered
+3:18 into a blank page that is called
+3:20 Vibespace. So, it's going to be
+3:22 Headspace, but the app is going to be
+3:23 called Vibespace. Search the internet to
+3:26 learn a little bit about Headspace's
+3:27 homepage. All right. So, I have my first
+3:30 prompt and obviously I'm using my voice
+3:32 and Vishall's typing it out. Talk us
+3:35 through yours a little bit.
+3:36 >> Yeah. So, I'm just trying to hear to set
+3:39 up like a nice skeleton. So, I'm giving
+3:41 it the vibe that I want. Mental health,
+3:43 meditation, calmness, tracking. I also
+3:45 named mine already.
+3:47 >> What is it?
+3:47 >> It's going to be called void.
+3:49 >> M
+3:50 >> because
+3:51 >> so good.
+3:51 >> You want your, you know, head to be
+3:53 clear of any thoughts. Your head should
+3:55 be void.
+3:56 >> I like it.
+3:57 >> Yeah. So, I'm telling it to
+3:59 >> present. You want to be in the moment.
+4:00 Clear all the clutter.
+4:02 >> Moment is a great name. I'm sticking
+4:04 right now to having it first just create
+4:07 a onepage onboarding that just asks you
+4:09 for your name. Then a comm welcome page.
+4:12 I'm going to actually tell it with a
+4:14 nice animation. And then you're in the
+4:17 dashboard where there are two tabs. One
+4:19 with moods, the other with vibes. Moods
+4:22 are going to be, you know, depending on
+4:24 how you're feeling, there will be a
+4:25 different mood that will give you like a
+4:28 soundtrack or something to help calm you
+4:29 down or maybe like ask you some
+4:31 questions. And then vibes being like,
+4:34 you know, kind of just play it, close
+4:36 your eyes, and that's the meditation
+4:38 aspect of it.
+4:39 >> I like it.
+4:39 >> Yeah.
+4:40 >> Very solid skeleton, I would say.
+4:42 >> Yeah. Going to start there.
+4:43 >> Obviously, this uses Cloud Code out of
+4:44 the box.
+4:45 >> Yeah.
+4:46 >> And uh I'm just going to choose Cloud
+4:48 Code. Uh Cloud Sonnet 4.5.
+4:50 >> Sonnet 4.5.
+4:51 >> I mean, you got to start with Sonnet
+4:52 4.5. I mean, come on. You ready?
+4:55 >> Yes.
+4:55 >> All right, ladies and gentlemen, the
+4:57 rules are we get one hour after we enter
+4:59 our first prompt. So, three, two, one,
+5:03 ship it. Start the timer.
+5:07 One really cool thing about Vibe Code is
+5:10 the new pinch to build. And so, here we
+5:13 can see our apps are being created on
+5:16 the right. You can see um Claude Code
+5:18 going to work. But if you press that
+5:20 little uh down arrow, you can get rid of
+5:21 it. You can enter this view. I guess you
+5:24 could call this like pinch view. What do
+5:25 you What view do you call this?
+5:27 >> I call this edit mode.
+5:28 >> Mhm. I call this chat view over here and
+5:31 then
+5:31 >> play mode.
+5:32 >> Play mode.
+5:32 >> Yeah. And so to go from testing your app
+5:34 and obviously right now it's building.
+5:36 You clearly have the new version. What
+5:39 the heck? Um
+5:42 >> unfair cheating.
+5:45 I like it. You know what? I don't need
+5:46 any advantages. So uh anyway, yeah, we
+5:48 have all of this to work with. And while
+5:50 it's loading, I'm going to actually
+5:51 begin designing my app here because we
+5:53 can generate assets.
+5:55 >> Exactly. So that that's one of the
+5:56 special things with this new experience
+5:58 is that while your app is being built,
+6:00 you can actually generate images,
+6:02 audios, you can queue up different
+6:05 prompts with different API integrations.
+6:07 There's a lot of things that you can do
+6:08 in this kind of idle time while cloud
+6:11 code is building.
+6:12 >> Yeah. And while you're explaining that,
+6:14 I'm just cooking. 3D render icon cute.
+6:16 >> Do you usually do icon or character?
+6:18 >> I usually do icon.
+6:20 >> Icon.
+6:20 >> Everything without a background in my
+6:22 opinion is fire. 3D. And so as you can
+6:24 see here, we're just generating assets.
+6:26 I think for a meditation app, I think
+6:27 the design of the meditation app is
+6:29 critical. Yes, in my opinion, just
+6:31 because, you know, that's what's going
+6:32 to attract people. It's like, how does
+6:34 it feel to use? Are they relaxed when
+6:36 they use it? You can't just have
+6:38 features, you know, you need it. It
+6:39 needs to feel good. And that's the
+6:40 essence of vibe coding. Honestly,
+6:42 >> I'm I'm actually going to hold off on
+6:43 creating more than just my base kind of
+6:46 mascot because I'm going to approach
+6:48 this with a different kind of approach
+6:51 of vibe coding. I like it. So, I'll wait
+6:53 for this to finish. You can see the
+6:55 tasks are almost done. Um, it created
+6:58 some state management for onboarding,
+7:00 some codebase structure, onboarding
+7:02 screen, welcome screen, mood screen,
+7:04 placeholder, vibe screen, bottom tab,
+7:06 and navigation. Now, it's updated all
+7:10 the relevant kind of files and we can
+7:12 see exactly, you know, mood screen, vibe
+7:14 screen. Pretty cool. Okay, nice. We
+7:17 should be able to check it out as it's
+7:19 done. It looks like mine is building. I
+7:22 don't know what.
+7:22 >> So, mine is downloading and I think
+7:24 we're ready. It's called void. Journey
+7:26 to inner peace begins here. Just enter
+7:28 visual. Click continue. Oh, wow.
+7:32 And we're in.
+7:33 >> Ooh. Moods and vibes.
+7:36 >> Okay. So, um I am actually So, this is
+7:39 my onboarding it created by default.
+7:42 When I double tap vibes, like the title
+7:45 of the app, I want it to take me back to
+7:47 the onboarding. Also, I'm about to give
+7:49 you assets that I want you to use in the
+7:51 onboarding flow. And I want you to make
+7:53 them like hover in a way that would look
+7:55 pleasing in a meditation app. And make
+7:57 these assets big, only one asset per
+7:59 page. And then I want you to change the
+8:01 copy to be very friendly and uh center
+8:05 it around meditation. Okay. Since you're
+8:08 done with that, I'm going to use this
+8:12 kind of trick that a lot of people who
+8:15 work on AI agents kind of know, which is
+8:18 a lot of times it is better to have the
+8:21 agent come up with a a plan or a spec
+8:24 before you just go in. So, what I'm
+8:26 going to do is I'm going to talk in this
+8:29 prompt and I'm going to have the agent
+8:32 come up with all the different moods I
+8:34 want to support and the different
+8:36 characters and the vibes that I want.
+8:38 >> That's a really good idea. Wow.
+8:39 >> And the the ace up my sleeve here is I'm
+8:42 going to tell it to store this in a file
+8:45 in the app so that it can reference
+8:48 this.
+8:49 >> No, it can reference this later.
+8:51 >> Wow, that's a really good idea.
+8:52 >> Yeah. So
+8:53 >> it's like kind of like the cursor plan
+8:55 or cursor rules file.
+8:57 >> Exactly. Sometimes it's helpful to have
+8:59 like a kind of lightweight plan and just
+9:00 have it there so I can tell it in the
+9:02 future, hey remember the plan, dummy.
+9:04 The first thing that I want to start
+9:06 with is the moods. I want to have around
+9:09 four to six different moods which
+9:11 represent different kind of states that
+9:13 you are not at mental peace. I want each
+9:16 mood to then link to a different page.
+9:19 On that page, there should be a series
+9:22 of questions asking and prompting the
+9:24 user about their mood. The user should
+9:26 not be responding with free form text
+9:29 input as a default. They should pick
+9:31 from different options that relevant
+9:33 that uh represent different reactions to
+9:36 said question. And each mood should have
+9:39 around three to seven questions. And
+9:44 then at the end of it, there should be a
+9:46 long text explaining some advice or what
+9:49 the user could do to feel better for
+9:51 their different mood based on the
+9:53 answers. For this, obviously, we're
+9:55 going to be using one of the AI APIs to
+9:59 analyze the answers that the user gives.
+10:01 So, for now, focus on the questions and
+10:03 the different select options and what
+10:05 the different moods are. Also note that
+10:08 each of the moods will have a different
+10:11 character associated with it. Kind of
+10:13 like the popular Disney movie Inside
+10:15 Out. Please help come up with a plan for
+10:18 this and I want you to store this in a
+10:20 file in the codebase so just that we can
+10:23 reference it later. Also let me know
+10:24 what the character themes are so I can
+10:26 generate the icons and give them to you
+10:28 to use in the app. Go. Okay. So while he
+10:31 was working on that, which sounds like a
+10:33 great prompt, that was very detailed.
+10:35 What I'm doing is I'm generating. So by
+10:37 the way, in the Vibe Code app, you can
+10:38 generate sound effects, music, and
+10:40 voice. So I just generated this song.
+10:43 Fish, what do you think about this song?
+10:48 Wow.
+10:50 So that's going to play during
+10:51 onboarding.
+10:52 >> Three out of 10. Oh, I hate that. I'm
+10:55 sorry.
+10:57 That just isn't good.
+11:01 No, all of these sound like error Mac OS
+11:05 sounds.
+11:06 >> They sound like an error.
+11:08 >> Even that little bit.
+11:10 >> All right, we're going to test it. I can
+11:12 always change this later. I just like to
+11:13 like get it set up. Um, this is the
+11:17 sound effect to play when I press the
+11:20 button in the onboarding to advance to
+11:24 the next page. mental healthation
+11:30 app that is called Void. I love it. So,
+11:33 he's generating a song right now and in
+11:35 the prompt he said a song for an app
+11:37 called Void. I'm very curious to see.
+11:39 I've never tried that. I always try to
+11:40 describe it literally, but like Yeah, we
+11:43 almost need an agent to to kind of
+11:44 handle that.
+11:45 >> Yeah,
+11:47 >> like smart sounds. Whether it's images
+11:49 or audio, you can add them to your
+11:51 prompt and then you tell Cloud Code what
+11:52 you want to do with them.
+11:56 Drift into the void.
+12:02 >> I like it.
+12:11 >> What? It can do this.
+12:14 >> Oh man.
+12:17 >> Oh man.
+12:19 Ready? Ready to concede?
+12:26 Embrace the gentle void.
+12:31 >> This is the best song I've ever heard in
+12:32 my life.
+12:36 >> Oh my god.
+12:39 >> Okay, so he just generated this
+12:42 Beethoven [ __ ] that that's insane. So
+12:45 show So like all you have to do with all
+12:47 of your assets, whether they're images,
+12:49 right, you can select them and then add
+12:51 them to the prompt. And notice here that
+12:53 you can actually click on them directly
+12:55 and it will show you those assets and I
+12:58 believe if it's a song what dude stop
+13:01 cooking.
+13:01 >> So you can see this and you can also
+13:03 rename them. So if you click details
+13:05 here you can actually rename this. So I
+13:07 can like call this guy like I don't know
+13:10 voidy.
+13:11 >> Voidy is crazy.
+13:13 >> And then I can select it and look voidy.
+13:15 >> That is awesome. Very cool. And um yeah,
+13:20 and then you can basic cloud code can
+13:22 just place these assets in your app and
+13:24 tell cloud code exactly where to put
+13:26 them. And when you name it, it actually
+13:27 helps if you have a logo, right, and you
+13:29 name it logo. Just be like use like
+13:32 it'll know where to put it. If you if
+13:33 you give it 10 assets that are named
+13:35 properly, it'll just know what to do
+13:37 with them.
+13:37 >> Yeah. And that helps a lot. Like
+13:39 renaming and all these things really do
+13:41 go a long way.
+13:42 >> Totally. Let me
+13:43 >> Mine has created six mood characters.
+13:46 Anxious Alex, purple swirling tornado.
+13:50 Sorry,
+13:52 just the the dichotomy of those sounds
+13:56 is is throwing me right now. Gloomy
+13:59 Gray, Ember, the Angry, Scattered Sam,
+14:02 Hollow Haze, and Tension Test. Wow, that
+14:06 is amazing. So, what I'm going to do
+14:08 here is I'm going to generate icons for
+14:12 all of these. So there's six characters
+14:15 >> have characters for all of the moods.
+14:16 >> For all the moods. Yeah. And and if you
+14:19 notice here, the agent has actually
+14:21 given me think a, you know, a prompt to
+14:24 make this. Each character needs a
+14:26 friendly companion-like design. Think
+14:27 inside out style representing feelings,
+14:29 not villains,
+14:31 >> which is great. So I'm just literally
+14:33 writing that and then I'm putting the
+14:34 description it gave me. So an anxious
+14:36 Alex, purple swirling tornado, anxiety,
+14:38 worry, overthinking. Sounds like someone
+14:41 I know.
+14:43 me.
+14:44 >> No,
+14:47 I'm just going to do copy send
+14:50 and then gloomy gray.
+14:54 >> I cannot get the right sound effect for
+14:55 this
+14:56 >> gray blue cloud with rain parenthesis
+15:00 sadness melancholy loneliness and
+15:02 parenthesis.
+15:03 Okay. So, what I want to do
+15:05 >> generate another
+15:07 >> is I oops back into vibe space.
+15:11 >> Ember the angry fire emoji dash orange-
+15:14 red flame parenthesis anger frustration
+15:17 nitration parenthesis.
+15:20 I was generating on chat GPT some ideas
+15:24 uh for a button tap for my sound
+15:28 effects. I'm not great at prompting
+15:30 sound effects yet, but
+15:32 >> yeah, we know,
+15:33 >> dude. Calm down.
+15:37 >> I mean, look at this icon.
+15:41 >> I like it actually. These icon, dude,
+15:44 this model. So, this is GPT image one,
+15:46 which is just their main model, which
+15:48 can generate images without backgrounds.
+15:50 One of the only models that can actually
+15:51 do it well. And they're so good
+15:53 sometimes. I literally cannot generate a
+15:56 good sound effect for this.
+15:58 >> Scattered Sam, teal, fragmented orbs,
+16:00 parenthesis, overwhelm, confusion,
+16:02 mental fog.
+16:04 >> Um, use this cut. Put this in here.
+16:07 Paste. Okay, so now I actually need to
+16:09 focus on the actual core functionality
+16:12 of the app. and hm hollow haze dark
+16:16 indigo void parenthesis emptiness
+16:18 numbness disconnection tension tests
+16:21 yellow coiled spring parenthesis stress
+16:23 pressure burnout
+16:26 which is very common at early stage
+16:28 startups
+16:30 gloomy looking good too
+16:32 so I'm going to go to chat GPT real
+16:34 quick scattered Sam
+16:36 >> I'm going to upload this image here of
+16:39 the four types of meditations and so I'm
+16:41 going to say generate a transcript of an
+16:44 eightline meditation for each of these
+16:48 that relaxes
+16:50 the user or actually helps them with the
+16:53 thing that shows up right here for these
+16:55 four things breathe sleep and the other
+16:57 two. I want you to make this very much
+17:02 fitting for headspace the app. So right
+17:05 now we're just idiating with AI. I want
+17:07 you to respond with no header. Actually
+17:09 please don't make this numbered. just
+17:11 list the lines in a simple transcript.
+17:14 I'm going to see if we can generate
+17:15 these as music. Wow, this is a rear
+17:18 paradigm here is fire. Okay, so we're
+17:21 about 20 minutes in. I have my
+17:23 characters for the moods. I have it's
+17:27 already created this file for the
+17:30 different mood system and the questions
+17:33 answers. Now I'm going to tell it, okay,
+17:35 here are the characters. I'm going to
+17:38 give it the characters and then I'm
+17:40 going to tell it to actually create this
+17:42 mood flow. So, gonna start with anxious
+17:45 Alex. Anxious Alex is a crazy name. So,
+17:49 I've been locked in. I might I'm not
+17:51 going to do the moods. I'm going to have
+17:53 different teachers. That's how I'm going
+17:55 to switch it up. And so, I'm going to
+17:57 have 3D render of an icon. 3D render
+18:01 cartoon icon of a teacher of a fox. a
+18:07 fox. So, I'm just gonna call this one
+18:11 tension
+18:11 >> smooth character wearing.
+18:14 >> I'm gonna call this one
+18:16 >> shirt that says
+18:20 vibe
+18:21 >> hollow.
+18:23 Okay. So,
+18:25 >> now I'm going to add all of them to my
+18:28 prompt. So, you can see it add added all
+18:30 of them. I'm going say uh going to go
+18:34 one by one. I'm going to say Alex colon
+18:37 and then I'm going to say uh Ember
+18:41 colon kind of give it all the names
+18:43 here.
+18:44 >> So he generated all of his icons and he
+18:46 inserted them in the prompt and now he's
+18:48 basically going through the prompt and
+18:51 saying where each of the images will go.
+18:53 Basically that's what you're doing.
+18:55 Okay.
+18:57 Okay. So now I just need to insert
+18:59 hollow back hollow haze. Then I need to
+19:02 insert
+19:04 scattered Sam at the end here.
+19:07 >> So
+19:08 I didn't steal your moods idea, but I am
+19:11 going to have four different teachers
+19:12 and they are going to have different um
+19:15 functions. Now please insert the mood
+19:18 characters in the appropriate place and
+19:20 please build the entire questionnaire
+19:22 experience.
+19:24 Reference the plan as needed and focus
+19:27 on great clean design. Remember that the
+19:30 theme of this app is void. As you do
+19:32 this, I'm going to also in another
+19:35 prompt after this give you a background
+19:37 that you can use.
+19:39 But for now, you can put a different
+19:41 colored themed background for each one.
+19:44 The background I will give you later
+19:45 will be for the moods page as a whole.
+19:47 Each individual flow within it should
+19:50 have a nice space themed color themed
+19:53 background that represents the different
+19:55 flow that you're in. Okay, let's go to
+19:57 my audio. I do want to see how these
+19:58 songs turned out.
+19:59 >> After you finish this, then I will give
+20:02 you
+20:04 >> like give you I'm blanking right now.
+20:09 >> Happens with vibe coders.
+20:10 >> Yeah. Yeah, that's we're both like
+20:12 locked into our own little world right
+20:14 now.
+20:14 >> I know. I'm like after you finish, I'll
+20:16 give you and then just complete blank.
+20:19 What am I going to give you? Oh, the API
+20:23 access that you're going to use to
+20:25 generate the text that is going to help
+20:29 the user after they answer the question
+20:31 and you're going to use this to analyze
+20:33 it as well. All right. So, what I'm
+20:35 going to do is I'm basically giving this
+20:37 icon and this will show up as the
+20:39 breathe character. This will show up on
+20:41 the home list. Um please remember that
+20:45 the
+20:47 uh each of the four functions like
+20:49 breathe, love, focus etc has different
+20:51 characters and when I click on it like
+20:54 in the list it should have that image
+20:55 that I gave you earlier and then that
+20:57 image should show up big. If each of
+21:00 those are like little guided meditations
+21:02 and I want it to be taken to a new page
+21:04 that's white, but purple background
+21:06 should go from the top down to the
+21:08 bottom and like progress. Oh, and it
+21:11 should be a 10-minute timer, right? A
+21:13 10-minute timer. And as you progress
+21:17 down uh through this meditation, the
+21:20 color should go down through the page. A
+21:22 questionnaire flow. don't have voice in
+21:25 this but have it be soothing and calming
+21:28 what the user is doing while listening
+21:30 to this is they are actually answering
+21:32 questions about a particular negative
+21:34 emotion or mood that they're having and
+21:36 after this we'll be giving the user some
+21:39 guidance. So this should be calming and
+21:42 soothing and at the end of it it should
+21:44 like get louder and louder while
+21:47 maintaining that soothing tone. Make it
+21:49 long. All right. So I just generated
+21:50 this love character. So this is my love
+21:53 character. I need to go 3D icon uh
+21:58 render cute character.
+22:02 So meditating. While you create those
+22:05 characters, I'm going to open the API
+22:08 tab here. And here you can see the
+22:11 different APIs that we have access to.
+22:13 So there's, you know, text gen, image
+22:15 gen, data, audio, and video. So, for
+22:19 this one, I'm going to want probably
+22:22 audio. Uh, probably some I mean, I can
+22:26 see what these do. So, audio
+22:28 transcription, high accurate speechtoext
+22:30 model. Oh, interesting. Um, that could
+22:34 be useful for this
+22:36 >> speech to text or text to speech.
+22:38 >> Well, text to speech is good, but speech
+22:40 to text could also be cool for a
+22:42 journaling feature.
+22:44 >> Ooh. Oh, journaling. Oh, I know what I'm
+22:46 doing next.
+22:47 >> Oh, man.
+22:48 uh 3D cute icon meditating wearing a
+22:51 shirt that says vibe space.
+22:53 >> So now I'm going to I'm going to add
+22:55 some APIs here and what I'm essentially
+22:57 going to do so APIs are different kind
+22:59 of external tools that companies have
+23:02 made. These are highly specialized tools
+23:04 for very specific use cases and it
+23:07 allows you know vibe coders or you know
+23:10 general enthusiasts to get access to
+23:12 really highly capable functionalities to
+23:15 use within their ideas. So here, you
+23:18 know, I don't know how to make a
+23:19 texttospech model, but someone else
+23:23 does. In this case, 11 Labs does. So I'm
+23:26 just going to select it here. Oh, cool.
+23:29 Text to speech. Great. When you want to
+23:30 make speech in your apps, chat bots
+23:32 respond with voice. So I'm going to add
+23:34 that to prompt. And then I'm going to
+23:36 tell it. Use this texttospech model to
+23:42 recite back to users the personalized
+23:44 advice that they get at the end of the
+23:47 mood questionnaire.
+23:48 >> I'm generating a nerd character. But but
+23:51 yes, I think of APIs like little Legos,
+23:54 like little Legos pieces that you can
+23:56 use for your app, you know, like you
+23:57 need I used to go to this the Lego store
+24:01 and see like Lego sets that has like a
+24:02 certain piece and I would buy it just
+24:04 for that Lego piece. You know, and 11
+24:05 Labs has a ton of different APIs, but
+24:07 often you only need like one.
+24:08 >> And so we're basically putting all of
+24:10 those in this little API tab that you
+24:12 can just select and add it to your app.
+24:14 Little superpowers.
+24:15 >> They can also be like the glue, you
+24:16 know? They're like the glue for the
+24:17 Legos, too.
+24:18 >> Yes. And if you're But what's cool is
+24:20 like you don't have to wait for us to
+24:22 stock up the Lego store because we added
+24:25 also this EMV for this is a more
+24:27 advanced feature, but you can also add
+24:28 your own API keys here, which is
+24:30 basically the same as integrations or it
+24:32 can serve the same purpose. Um, and you
+24:35 can use any API. So, if you look up what
+24:37 APIs could I add to my app that would
+24:39 make it more futuristic or fun or cool,
+24:42 anything that you find, you can just add
+24:44 the variable in this tab. But that'll
+24:46 probably be a future video. We'll dive
+24:48 into that more.
+24:48 >> Yeah, that that's a little bit more of
+24:51 an advanced feature. And
+24:52 >> but I believe in you. You're advanced
+24:54 enough.
+24:54 >> Yeah, got you got to practice. It
+24:56 doesn't
+24:56 >> It's not hard. We we've done it in other
+24:57 videos like go to the OpenAI website,
+25:00 grab the key, and then all you got to do
+25:02 is add it to this tab and then tell it
+25:04 in the prompt, hey, I want you to use
+25:06 this, look up whatever relevant links
+25:08 you need to look up and integrate. Yes,
+25:11 exactly. Here, I'm going to add for
+25:13 creating the text that you're going to
+25:17 use 11 Labs to speak out to the user. I
+25:20 want you to use this API to analyze the
+25:24 user's responses from the mood
+25:26 questionnaire and then generate the
+25:28 personalized advice. Make sure to
+25:30 specify what the kind of inputs should
+25:35 be from in terms of what the structure
+25:37 of the data from the mood questionnaire
+25:39 should be into this API so that we can
+25:42 get a consistent response and render it
+25:44 correctly. Remember, we don't want to
+25:46 make mistakes here. It is important that
+25:49 this flow works.
+25:51 >> Look at this. So, I got breathe and it
+25:53 turns purple and so at the end it'll go
+25:56 all the way through the app. So, it's
+25:58 it's it's 10 minutes and just for
+26:00 testing purposes because I want to see
+26:01 what it looks like.
+26:02 >> You're going to tell it to speed up.
+26:03 >> I want you to please add a plus one
+26:08 minute button. It should be tiny at the
+26:10 bottom of all of these little pages just
+26:11 so I can simulate the passage of time.
+26:14 And look at this. So, what I just did is
+26:16 I just queued up a prompt. I just added
+26:18 a bunch of new characters. And now
+26:19 Claude Code is going to work. It's
+26:21 basically working its way through all of
+26:22 these tasks. It's adding the love
+26:24 meditation screen, the sleep meditation
+26:27 screen, and the focus meditation screen
+26:29 with those different characters. And
+26:30 it's going to create something that
+26:32 looks a lot like this. Right here, we
+26:34 have this page in our app right here.
+26:37 Right. I created this breathe option
+26:40 >> and it it basically goes through here.
+26:43 But I basically added one prompt and
+26:45 then I added this prompt here, Q1 of
+26:48 one. So I can add in follow-up prompts.
+26:50 So as soon as Cloud Code's done, it'll
+26:52 add it again.
+26:53 >> Dude, look at mine.
+26:54 >> Ooh, you know, the purple's overdone.
+26:57 That's pretty purple, my dude.
+26:58 >> It is pretty purple.
+27:00 >> But like I I think you're on the right
+27:02 track. Um Oh, look at this red. No, I
+27:05 don't want to look at your app. I want
+27:06 to focus on
+27:07 >> this red.
+27:08 >> That's pretty nice, but it's also like
+27:10 scary a little bit.
+27:12 >> All right. All right. I mean, I I I see
+27:14 what you're doing. I see what you're
+27:15 doing. Um,
+27:16 >> yeah, there is something that needs to
+27:18 be done. This design isn't great.
+27:19 >> We do have 27 minutes left. So, this is
+27:22 the time to start moving towards like
+27:24 refining. You at least want to get your
+27:26 Halo feature. Like that one screen on
+27:29 your app that looks good, that's like
+27:30 sharable for social media, you know,
+27:32 that like people are like, "Oh, that app
+27:33 is sick."
+27:34 >> I don't know what it is yet, though.
+27:36 Okay, we're going to pause it here. And
+27:38 I like to do this. I'm going to call
+27:39 this like a halftime. and I would like
+27:42 to kind of center ourselves and get an
+27:44 idea of what we're both doing um so that
+27:46 people can follow along with like how
+27:47 we're creating our app and what our
+27:49 plans are for the rest of this
+27:50 competition. So, I'll let you go first.
+27:52 >> Yeah. So, I can kind of summarize what
+27:55 I've gone through. Uh I did just fix a
+27:58 couple of bugs. Um we have this really
+28:00 cool feature now where you can if
+28:02 there's an error, you can actually fix
+28:04 it for free. So, we don't charge you
+28:05 when the agent makes a mistake. You just
+28:08 press fix and it'll do it. And the the
+28:10 tokens that are used to fix the error
+28:12 aren't
+28:13 >> completely free and all you need to do
+28:15 is literally just click fix with AI.
+28:17 It's great. So, I'm going to refresh the
+28:19 app and I can kind of go through what
+28:20 I've done so far. Before I do that, what
+28:23 I've focused on implementing here is the
+28:25 moods. So, there's six different moods.
+28:27 Each mood represents a different
+28:29 negative emotion. You click on each one
+28:31 and there's a questionnaire about the
+28:33 mood to gauge how you're feeling. Then
+28:35 from there, we use Open AI's GPT5 mini
+28:39 in order to analyze your responses and
+28:41 generate personalized advice. Then we
+28:44 use 11 Labs text to speech to then read
+28:47 that advice back to you in a calming
+28:50 tone. Gotcha. So onboarding takes what
+28:54 you say during onboarding which is just
+28:56 a list of questions just to reiterate
+28:57 here and then it'll a custom meditation
+29:00 for you or speech and then 11 labs reads
+29:02 it back in a fun ideally a fun way
+29:05 >> kind of I don't have an onboarding it's
+29:07 dependent on the mood you pick
+29:09 questions.
+29:09 >> Gotcha. Gotcha.
+29:10 >> Yeah. So I' I've taken a slightly
+29:12 different approach where I'm focused
+29:14 more so on maximum value to the user and
+29:17 kind of just drop them in and let them
+29:19 do. So my onboarding is literally just
+29:21 what's your name?
+29:22 >> The voice working yet or is that not
+29:24 working? Oh, go ahead and test it during
+29:25 this.
+29:26 >> Let's find out.
+29:26 >> No generating code during halftime, but
+29:28 let's let's check this out.
+29:29 >> So I'm going to click refresh app and
+29:31 immediately hop in here. So welcome
+29:32 Vashall. Take a deep breath and enter
+29:34 the void.
+29:35 >> Take a deep breath.
+29:38 How are you feeling? So, I'm going to
+29:39 pick a mood to explore. I'm not super
+29:42 happy with the design, but we can just
+29:44 kind of go in here. I'm going to do
+29:45 anxious Alex. What triggered this
+29:47 anxious feeling? Deadline or
+29:48 responsibility? You know, getting this
+29:50 new version out. How do I feel this?
+29:52 Kind of just like probably tension.
+29:54 Honestly, I need to do probably sit with
+29:56 better posture. How fast are your
+29:58 thoughts moving? Right now, I'm stuck
+30:00 about one particular worry of losing to
+30:03 Riley. Um,
+30:05 what if I tried to calm down? I don't
+30:08 even know what to do and how much
+30:10 control do I feel mostly in control so I
+30:12 can get some guidance. It's not a good
+30:15 animation at all but can revisit that. I
+30:17 think what I'm going to do is make it do
+30:19 like a breathing exercise while it's
+30:21 doing this.
+30:22 >> Gotcha. So what's your feedback? My
+30:24 feedback on your app is that I think the
+30:26 it might sound worse than you think.
+30:29 Like I think the generated speech might
+30:31 I think 30 minutes might be tough for
+30:34 you to get that right. You know what I
+30:36 mean? Like I think you might run into
+30:37 problems there.
+30:38 >> And then I think you have like polishing
+30:40 up to do with the animations, but I
+30:41 think you can get there. Um, are you
+30:44 going to play music at the same time as
+30:46 the voice is playing?
+30:47 >> Yes.
+30:48 >> Okay, that'll be nice.
+30:49 >> I'm going to do that. I have the audio
+30:51 for that actually already ready and I
+30:54 have an onboarding audio that is ready
+30:57 as well. So my really only two goals is
+31:00 I'm going to remove the vibes tab
+31:02 because I think it was a little too
+31:04 ambitious at the beginning. only going
+31:05 to focus on the moods here. The goal is
+31:08 to be void without mood to be
+31:10 levelheaded.
+31:10 >> I see.
+31:11 >> Exactly.
+31:11 >> That makes sense.
+31:12 >> Yeah. So, I'm just going to focus on
+31:13 audio cleaning up and making sure it
+31:16 works.
+31:16 >> Great. That sounds good. I think you're
+31:19 you're in a good spot.
+31:20 >> Yeah.
+31:20 >> Should I go?
+31:21 >> Yeah.
+31:21 >> Okay. So, my app so far, Vibes, let's
+31:24 take a look at this. This is the
+31:25 onboarding, right? So, you enter the
+31:27 app. It's like find your piece.
+31:30 >> See that new noise I have? If you listen
+31:32 carefully.
+31:35 Are the Are those birds?
+31:37 >> What?
+31:38 >> In the background of it.
+31:40 It is actually. Yeah. I didn't add them
+31:42 separately. It was just 11 laps, but
+31:48 it's a nice noise. Huh. Yeah. Um and
+31:51 then I'm going to get rid of these quick
+31:53 start options. And it's just like
+31:54 recommended for you. So you can breathe,
+31:56 you can love, you can sleep, and you can
+31:58 focus. Um, and um, so I can press sleep
+32:03 and then I can start the timer. As soon
+32:05 as I start the timer, the music plays.
+32:07 >> Is this the same music?
+32:09 >> I'll rotate the music. I just I just
+32:11 This is how I think about it. Like I
+32:13 just put things in kind of placeholders.
+32:15 So the music and then I can change
+32:16 >> swap them out.
+32:17 >> I can swap them out later. That's really
+32:18 easy. As long as it gets the logic
+32:20 right. Like if I try and do that,
+32:22 >> if you do it, if you kind of create this
+32:23 blank canvas and then you rotate the
+32:25 assets later, except with the the icons
+32:27 I like to do up front because it's fun
+32:28 to see, get the mood. But um yeah, this
+32:31 this works really well. Um this like
+32:33 progress bar,
+32:35 >> come on, that looks pretty nice. Like
+32:36 this screen looks fantastic in my
+32:38 opinion. Uh I basically have no notes
+32:41 other than like make the music a little
+32:42 bit better. I think the app is a little
+32:45 too simple. Like I feel like it might
+32:46 need a little zest and I don't know
+32:49 which direction to go to add zest but
+32:51 that's kind of what I'm thinking. I
+32:52 don't know even know what this morning
+32:54 meditation thing could do but I don't
+32:58 know maybe a little journal entry and
+33:01 then some guided like meditation advice
+33:03 or something for it like a quick a quick
+33:06 meditation but I'm not sure which
+33:08 direction I'll go. I'll probably decide
+33:09 that once we're once we're live again
+33:12 because I think better when I'm under
+33:13 pressure.
+33:14 >> Yeah. No, that makes sense. Um, I'd say
+33:16 my feedback is I think it looks great. I
+33:19 think you've nailed the kind of
+33:20 aesthetics here. I think the main things
+33:23 that I think you should focus on is what
+33:27 is the I really like the morning
+33:29 meditation at the top. I think you can
+33:30 do some kind of like daily exercise,
+33:33 whether it's daily journal, daily like
+33:35 whether it asks you questions. I think
+33:37 it's missing that like one of the best
+33:39 things about AI is that it's
+33:40 personalized and can be personalized to
+33:42 you. So, I think there's something that
+33:44 you can do there. Like, we have a lot of
+33:45 capabilities. You can have it do
+33:47 something specific to the user, maybe in
+33:49 like a daily sense or journaling sense
+33:51 or something.
+33:51 >> I think I think this is useful. I'm I'm
+33:53 getting some ideas there.
+33:54 >> Yeah.
+33:55 >> Okay. I like it.
+33:56 >> Have you picked a name?
+33:57 >> Vibes.
+33:58 >> Vibes.
+33:58 >> Yeah. I mean, look at look at my all my
+34:00 characters are wearing a Vibespace
+34:02 shirt.
+34:02 >> I don't know if you saw that.
+34:04 >> Very nice. Very nice.
+34:06 >> Yeah. I love how we've settled into our
+34:08 like patterns here where like I'm always
+34:11 going for like the overly ambitious like
+34:14 Hail Marys.
+34:15 >> Yeah. Yeah. Yeah.
+34:16 >> And you're always
+34:17 >> I'm trying to get those get the get
+34:18 everything right and maybe I should I
+34:21 I'll get over ambitious maybe in in in a
+34:23 future one. But you know like I want to
+34:25 nail the experience, you know, like I
+34:26 feel like so much of it is on
+34:28 aesthetics, but I think I think I'm
+34:30 ready to hop back in. I I I have I think
+34:33 everyone has clarity of our apps and I
+34:35 have
+34:36 >> I have some direction. So I think
+34:38 >> let's hop back in.
+34:39 >> Let's hop back in. All right. So that
+34:41 was halftime.
+34:42 >> Let the games begin.
+34:46 Okay. So the first thing I want you to
+34:48 do is I want you to improve the overall
+34:52 design and aesthetic of the app. It
+34:55 looks like the buttons are a little
+34:58 chunky and the design feels a little
+35:01 dated. I want something that's a clean,
+35:04 modern aesthetic in terms of the styling
+35:06 of it. Second of all, the I want to
+35:10 remove the vibes tab and solely focus on
+35:13 the mood for now.
+35:16 Can you make those changes for me? So,
+35:18 I'm going to fire that off first. Now,
+35:21 I'm going to check if the text to speech
+35:23 error has been resolved.
+35:26 All right, I just said remove these um
+35:29 quick start options here and so I just
+35:32 want this recommended for you. Now I
+35:33 need a morning meditation.
+35:35 >> So we got 25 minutes for the morning
+35:37 meditation. When I click on it, I want
+35:40 it to be a
+35:42 >> Ember. It makes total sense that you're
+35:43 feeling angry, feeling disrespected.
+35:47 >> I knew it would sound like that.
+35:50 Um what you can do and I will allow you
+35:52 to go on your computer to do this is you
+35:54 can go to 11 Labs and all you need to do
+35:55 is look for the voice ID and you can
+35:57 give it to um
+35:58 >> give it to the agent.
+35:59 >> Yeah. And also like if that was
+36:01 something that we wanted to add to the
+36:02 vibe code app is like further
+36:04 customizability on certain APIs like
+36:06 that would be one thing.
+36:07 >> No, that would be good.
+36:08 >> Yeah. Okay. So for the morning
+36:09 meditation, when I click on it, I want
+36:11 to be a quick little journal and change
+36:16 it to morning meditation journal and add
+36:22 a little book icon. And I want this page
+36:27 to be blank for me to write my moods.
+36:33 And I want after I press enter to make
+36:37 it feel like the page is turning. And
+36:40 then I want AI to generate a three
+36:43 sentence response that helps people get
+36:46 over whatever it is that they're
+36:48 struggling with or their feelings or
+36:51 thoughts act as like a therapist. And
+36:54 these should be like logged both the
+36:57 quest the journal entry and the AI
+36:59 response.
+37:01 So, I'm going to go to APIs. I'm going
+37:03 to use this OpenAI. Let's actually use
+37:06 Gemini 2.5. We'll see if that works. Use
+37:09 this. Okay. I just fired that one off.
+37:12 >> So, right now I'm just using chat GPT to
+37:15 quickly get these voice IDs.
+37:18 >> Oh, nice. Nice.
+37:19 >> Yeah. Asking who the most calming team
+37:21 voice is.
+37:24 >> So, Adam is the most common one. I hear
+37:27 it on social media. You've heard the
+37:29 voice. Really? Sure.
+37:31 >> Yes. Then then we're going Adam for
+37:33 sure.
+37:33 >> All right. Good luck. Here is the voice
+37:37 ID for Why is my Siri on? Adam for the
+37:41 11 Labs text to speech. Please update to
+37:46 use this voice ID. So just fire that off
+37:50 real quick. Download. Enter in. Okay. So
+37:53 cool. We're just one page now.
+37:56 So I'm generating an image for a book.
+37:58 And I always copy it before and I just
+38:00 paste it in. I just do like six of the
+38:02 same ones on icon. I'm still not a huge
+38:06 fan of this design.
+38:10 >> Please,
+38:10 >> it makes complete
+38:15 >> ground of the app. a more of a gradient
+38:19 instead of plain white,
+38:23 but it should be partly
+38:27 white, like an off white or something,
+38:30 and make the list.
+38:31 >> So, while it does
+38:32 >> of things on the homepage, the sleep
+38:36 love.
+38:36 >> I'm really sorry you're feeling this
+38:37 empty and hollow right now.
+38:40 >> You've heard that voice on short form
+38:41 content before.
+38:42 >> I've definitely heard it before.
+38:45 Um, that's hilarious. Um, what else was
+38:48 going to do? Homepage and sleep love.
+38:50 Um,
+38:50 >> why isn't the voice working? Can you
+38:52 slow down the voice too? Want it?
+38:57 Use Antony instead.
+39:00 >> All right. So now
+39:02 book settings like this one.
+39:04 >> Give it the settings from chat GPT. Also
+39:10 when the mood
+39:14 is generating I don't want the icon to
+39:18 spin. Instead, show
+39:23 Voidy,
+39:26 the mascot for the app, and have him
+39:30 slowly pulsate while
+39:33 waiting for the user to do deep breaths
+39:37 with a calming in and out animation.
+39:43 Send that. And then I'm also going to
+39:45 send another
+39:48 Open it up again.
+39:51 All right. So, I'm firing off. Okay. So,
+39:53 I just added this icon for the morning
+39:55 journal here. And I've added this AI
+39:57 feature. So, it asks you, "How am I
+39:59 feeling today? I'm feeling tired." And
+40:02 then I can hit submit. I kind of like
+40:04 this, but like not fully. The animation
+40:07 is weird when it tries to flip the page.
+40:09 I'm going to make sure I tell the agent
+40:11 that. By the way,
+40:19 So, I'm going to add this audio. So,
+40:21 what I'm doing right now is modifying
+40:23 the onboarding to play this noise and
+40:25 wait until it's done to bring the user
+40:27 into the app. So, while the user is in
+40:30 the app, play this sound the entire
+40:35 time. Even keep it going.
+40:41 Oh, it's pretty bad.
+40:50 Got to retype it. Oh man.
+40:59 Onboarding. To play this audio the
+41:01 entire time in onboarding. Please do not
+41:04 go into the app until the audio is done
+41:07 playing. In the onboarding, add two more
+41:10 screens. We have the one for their name.
+41:13 I want the background of these screens
+41:15 to be spacethemed. And I want there to
+41:19 be two more screens. The second screen
+41:22 should ask the user
+41:26 the the second screen should just be an
+41:28 animated text where a couple points
+41:30 about the app come up and how we're
+41:32 going to help. And then the third one is
+41:34 the deep breathing one where the user
+41:35 stays there. And they must stay there
+41:38 until they've done at least 30 seconds
+41:40 of deep breathing. And we should play
+41:42 this audio the entire time during
+41:44 onboarding. You cannot go into the app
+41:46 until you're done.
+41:49 Just waiting for it to do that.
+41:53 I'm going to say
+41:54 >> for the calendar, can you please make it
+41:56 so that it's on a separate page? Like if
+41:58 I click on it, it should take me to the
+41:59 calendar. Don't just put it at the top
+42:00 right.
+42:03 >> So, edit that.
+42:04 >> Redo that.
+42:06 >> Let's see what it's done with the voice
+42:07 here. I'm really hoping for something
+42:09 good.
+42:11 I like that character, by the way. Your
+42:13 character there, Voidy. It's fire. Um,
+42:16 all right. So, I breathe in,
+42:21 breathe out.
+42:25 >> It makes a lot of sense that thinking
+42:27 about the future would set off this ner.
+42:30 >> I'm telling you, bro, this 11 Labs,
+42:32 dude, we need like a more
+42:34 >> a more calming voice model in here or
+42:37 something.
+42:38 >> We do. We do. I'm just going to keep
+42:40 rolling with it.
+42:43 So, please play
+42:48 this audio in the background the entire
+42:53 time the user is in the app. Even when
+42:58 are
+43:02 >> even when the questionnaire
+43:06 and the text to speech is going on. This
+43:13 is the background noise for the entire
+43:17 app. So I've queued up a prompt just
+43:20 there. Um and I'm going to let it use
+43:23 that as well. So my agent is still
+43:25 going. I cued a prompt. Uh the seems
+43:28 like the first one finished. The next
+43:30 prompt I cued is to play this audio in
+43:33 the background.
+43:35 >> That is a good good meditation sound
+43:37 right there.
+43:38 >> And and this should play the entire time
+43:40 you're in the app. It's 5 minutes long.
+43:43 >> Oh wow. When you can get it to loop as
+43:45 well.
+43:45 >> Yeah, exactly.
+43:47 >> Um
+43:48 and have that other calming one. So
+43:51 hopefully we should have both of those.
+43:54 Um, I actually switched the model to
+43:56 Opus, uh, because I feel like it wasn't
+43:59 getting the design right. Um, so I don't
+44:03 know if Opus will help at all, but I
+44:06 don't know. Let's find out. We will see.
+44:11 Mine's just updating forever. I don't
+44:13 know what's going on here. So, I'm just
+44:15 going to wait for mine to finish and
+44:16 then we'll give it a try.
+44:19 I will say I really need to figure out
+44:21 the design. I think my app is way better
+44:22 than yours if the design was right.
+44:25 >> Yeah. Yeah. Yeah. I think your mind I
+44:28 think
+44:29 >> I think I know what I'm gonna do.
+44:31 >> Oh no. Don't do it.
+44:32 >> You know what I'm going to tell it.
+44:34 Think like Steve Jobs.
+44:36 >> Oh god. No.
+44:39 I'm
+44:41 >> Dude, you got to turn that. Is that
+44:43 yours still? What? Dude, mine's
+44:45 something's wrong. Maybe I'll just leave
+44:47 and come back. All right. So this is now
+44:50 what mine looks like. I have this little
+44:52 calendar thing. It's like a GitHub
+44:53 calendar.
+44:54 >> So, I have this little calendar. Oh, I
+44:56 kind of like this like yellow
+44:58 background. Kind of looks good.
+45:00 >> I don't really like the yellow.
+45:03 >> Yeah, I definitely don't like the yellow
+45:04 submit button.
+45:07 Oh my god,
+45:10 >> look at my new onboarding.
+45:13 >> Dude, you got to I got to figure out how
+45:14 to do that. Just like get that. All
+45:17 right, I got to lock in. Can you please
+45:19 get rid of the GitHub style little map
+45:21 thing there, but keep everything else
+45:22 the same? Like, I love the list of
+45:23 journal entries. I like that a lot.
+45:25 Also, please make the buttons in the
+45:29 morning journal not that yellow color.
+45:31 Make them black with white text on them.
+45:35 Um, so that'll just make that design a
+45:37 lot better. And then for the morning
+45:38 journal, please make that text a much
+45:40 larger. And if you can change the font
+45:42 of the uh journal section because I
+45:46 don't like how I want it to be
+45:47 different. print meant to be like a
+45:48 handwriting written.
+45:51 >> I need to have a skip button for this.
+45:56 >> Just do
+45:57 >> I also want you in the list of journals,
+45:59 I want you to please make the input text
+46:02 bigger than the AI response and don't
+46:04 label it AI response. Instead, use one
+46:06 of the icons that we used earlier on the
+46:08 main page as like the the response to
+46:10 it. Um, and it's like a character. Don't
+46:13 say AI response, but like have it look
+46:15 like like a message bubble from the
+46:16 character that they're responding to it.
+46:19 Actually, you know what? In fact,
+46:20 scratch all of that. I want you to use
+46:22 AI based on the person's response,
+46:25 select which one should respond, the
+46:27 breathe, love, sleep, or focus. And um
+46:31 that should be the one that responds.
+46:32 So, if someone needs to breathe and and
+46:34 relax, then the breathe guy should
+46:36 respond. But if someone is talking about
+46:38 love, the love guy should respond.
+46:40 That's what you should do. and then have
+46:42 those characters have little uh one per
+46:46 morning journal. So it's and it'll tell
+46:48 you which one you should do and then at
+46:50 Yeah, do that. Can you turn your a
+46:54 computer audio down?
+46:57 >> It's just going to keep playing it
+46:59 drifting into the void.
+47:02 [Laughter]
+47:03 >> Oh, you're just waiting in a timer right
+47:05 now. That's crazy.
+47:08 >> I screwed myself. Oh
+47:13 no.
+47:14 Okay, we're entering the void now.
+47:18 Oh, nice.
+47:20 We're in. Okay.
+47:23 Oh, nice.
+47:27 Can't tell if mine or yours. Oh, they
+47:30 were both going at the same time. Yeah.
+47:35 Okay.
+47:37 on the main page. Please add little
+47:40 outlines around the items in the list.
+47:43 Right now, it's a little bit hard to see
+47:46 them.
+47:48 >> Sorry.
+47:48 >> You're good.
+47:50 >> That thinking about the future would
+47:51 bring up anxious feelings. Uncertainty
+47:54 about what's ahead can tighten your
+47:56 chest and make your mind race. Your
+47:58 body's reaction, the stomach discomfort
+48:01 and nausea, is a common part of the mind
+48:03 body connection.
+48:04 >> It's not bad. When thoughts speed up and
+48:06 your brain interprets threat, your
+48:08 nervous system can send signals to your
+48:10 gut. Noticing that your thoughts are
+48:12 faster than usual and that distraction
+48:14 has been your go-to tells me you're
+48:16 actively trying to cope, even if it
+48:19 hasn't felt like real relief.
+48:24 >> Bro,
+48:25 meditation app for robots, too.
+48:28 >> Robots.
+48:30 >> That's wild, dude.
+48:33 It sounds like
+48:34 >> Oh, let's go. I got that cursive [ __ ]
+48:36 going on.
+48:37 >> Oh my god.
+48:38 >> Let's go. I'm Oh, I love it. I'm
+48:43 >> Okay, I need to log into design. Okay, I
+48:46 think my app is working. Other Okay,
+48:49 I need you to focus heavily on design
+48:52 right now. You need to personify and
+48:55 completely embody Steve Jobs.
+48:59 Every single person who comes in here,
+49:02 you're making me laugh.
+49:05 I need to focus on my prompt. I have
+49:07 seven minutes.
+49:09 I need you to redesign
+49:12 the entire dashboard,
+49:14 questionnaire,
+49:16 and final screen where it shows the
+49:18 advice for the dashboard and
+49:21 questionnaire. Please stop using this
+49:24 small font and border button style.
+49:28 Please rethink from ground up a nice
+49:31 minimal
+49:33 style that fits the design and feel of a
+49:36 mental health and wellness app called
+49:39 Void. And then I I know I know a mental
+49:42 thing I'm going to add right now. Focus
+49:45 on the best human
+49:48 human interface design patterns from
+49:51 Apple. As you're thinking about the
+49:53 design of this app, it should look and
+49:56 feel native while maintaining that space
+49:58 themed deep purple gradient vibe that we
+50:02 have going on.
+50:06 Also,
+50:08 I want the loading screen for both when
+50:12 you're entering into the app during
+50:13 onboarding and also when the speech is
+50:15 generating to have the icon in the
+50:18 center. And I want to have like a
+50:19 pulsing halo gradient beneath the icon
+50:23 that grows and shrinks as you breathe in
+50:26 and out. There's too much text on these
+50:28 pages. Just focus on the icon, the
+50:31 pulse/halo,
+50:33 and a couple calming words of breathing
+50:36 in and out. That's it.
+50:40 Okay. So, by the way, if you press this
+50:42 little camera icon right here, um it
+50:44 automatically inserts this screenshot
+50:46 into the app. So that's what I'm doing
+50:47 right now. Um, it didn't add that last
+50:50 feature that I want. So it looks like it
+50:52 shows the AI guidance. Instead, it
+50:54 should show one of the characters.
+50:57 >> Also, show the user's name in the app
+51:00 title. So, how are you feeling, name?
+51:04 And I want you to see if you can slow
+51:09 down the voice a little bit more or have
+51:12 it be a slightly deeper tone, like a
+51:14 more tenor tone.
+51:19 Let's see if this works. What else would
+51:21 be good?
+51:22 >> You better get your la final prompts in.
+51:24 We're We're approaching the end.
+51:26 >> Dashboard with the mood options is good,
+51:28 but I want a little bit less text and
+51:32 actually show the characters there. I
+51:34 see you've put like kind of placeholders
+51:36 or they're not rendering correctly. Make
+51:38 sure the characters can be shown there.
+51:39 I don't want the characters during the
+51:41 questionnaire as much. I want the
+51:43 questionnaire to feel simple, minimal,
+51:45 and clean with the icons shown on the
+51:48 homepage. You can also use the icons on
+51:51 the respective loading screens before
+51:53 the speech to text is generated. So, I'm
+51:56 going to cue that up as well.
+52:01 So, I realized that my onboarding is no
+52:03 longer about like what my app does. So,
+52:04 that's what I'm changing. Change the
+52:06 onboarding copy. Choose from the four
+52:08 options. basically summarize what the
+52:10 app does in the onboarding and educate
+52:12 the user properly on the specific
+52:13 features of the app. Nothing else. Keep
+52:15 it only three. The icon should stay the
+52:17 same.
+52:18 >> Themed mental health and meditation app
+52:22 background for dashboard and
+52:27 copy this. Send it. And then I'm also
+52:29 going to make one for breathe in and out
+52:33 page.
+52:35 So I'm going to rip some backgrounds
+52:36 right now. see if I can add them in in
+52:40 >> in the time up to the bell.
+52:42 >> I already got another prompt queued up.
+52:44 >> That's fire.
+52:44 >> So, I'm gonna have two prompts queued up
+52:47 along with a current one that's going.
+52:51 Oh, wow.
+52:53 Let's go.
+52:56 Riley
+52:57 [Music]
+52:59 >> look at my app now.
+53:01 >> Oh, God. Don't show me that. Please look
+53:04 at the journal history and show how the
+53:09 Oh,
+53:10 >> the responses backgrounds are like a
+53:12 slightly different color. I want them to
+53:14 be the same as the card. So, like that
+53:16 white color. Please make it the cards
+53:18 look the same.
+53:20 Okay, so I'm just launching in my final
+53:23 fixes here. Yeah, my app has way less
+53:25 features than yours, I will definitely
+53:27 say.
+53:29 Um,
+53:31 >> here are two
+53:34 backgrounds.
+53:35 >> We have this for the views. It's very
+53:38 calming actually.
+53:41 This is what vibe coding should feel
+53:42 like.
+53:43 >> Yes.
+53:46 >> Use for the views for dashboard and
+53:50 questionnaire.
+53:53 use appropriately
+53:55 while maintaining the great look and
+54:00 feel of the app. Also
+54:05 show the user's name on dashboard.
+54:11 Also
+54:13 going to fire that up. Okay, last 30
+54:16 seconds.
+54:18 Oh man, I think I'm good. I've I've
+54:20 fired up another I've queued up another.
+54:23 This prompt is almost done. Uh
+54:27 yeah, I am in
+54:30 Hail Mary mode now.
+54:34 So
+54:38 >> better lock in 10
+54:40 >> etc.
+54:42 >> Okay, I just fired off my final.
+54:44 >> Three,
+54:46 two, one, done.
+54:51 That's it.
+54:52 >> That's it.
+54:52 >> That's it. I'm going to just pause the
+54:53 meditation music for now. I honestly
+54:56 froze up. I I feel like I froze up. I
+54:58 didn't know what to add. I feel like I
+55:00 didn't have a specific idea in mind. I
+55:03 wish I came into this video with a
+55:05 little bit more of a specific idea in my
+55:06 mind.
+55:07 >> Um, and I ended up with an app that was
+55:11 fine. I thought I was exe like I still
+55:13 think my app is going to be better
+55:14 designed than yours. I think yours is
+55:16 going to be flashier. You think it's
+55:17 going to be yours is going to be better
+55:18 after?
+55:19 >> I think I just I think I was, you know,
+55:23 game seven
+55:26 LeBron. I think I was Tom Brady versus
+55:30 the Hawks. I think I just threw a crazy
+55:34 >> I just lo
+55:38 >> What happened?
+55:40 >> Oh no. I think I just literally messed
+55:44 up the design of my app on this last
+55:45 prompt. Um, wait. It added a border in
+55:48 the wrong place. It added a border
+55:51 around these little characters,
+55:54 but like I don't think it's that bad.
+55:56 >> It's not that bad.
+55:58 >> Um,
+55:59 I I do think I clutched up on the design
+56:01 at the very end.
+56:02 >> We'll see. We'll see. How do you have
+56:04 any queued up or your yours is
+56:05 >> my my final queue was sent already?
+56:07 >> Okay. Okay. Your final queue is sent
+56:09 already. So, we're just waiting for
+56:11 another like minute or so.
+56:12 >> Yeah. So, right now it's just updating
+56:14 the read me to doc.
+56:15 >> Okay. I think why don't I go first while
+56:17 my yours is loading? Mine's like
+56:18 completely done, I believe.
+56:20 >> So So you want to maybe um click refresh
+56:24 app?
+56:24 >> I'll click refresh app
+56:25 >> and hop in.
+56:26 >> This is my final app. So this is the
+56:29 full experience. I'm going to turn up
+56:30 the volume. Can you potentially just
+56:33 unplug yours for a second? Your phone
+56:35 >> or at the homepage?
+56:37 >> Yeah, there you go. So this is my final
+56:40 app here. This is Vibespace.
+56:42 This is the final app that I created.
+56:45 We'll see. I I I I I need to get a good
+56:47 idea of the app here.
+56:51 So, it has this nice song. You can hear
+56:52 it.
+56:54 Nice. Ooh, I like that transition.
+57:00 And then you enter the app and you have
+57:02 basically four options or you have two
+57:04 options, right? You can journal your
+57:06 ideas, like your thoughts. So, that's
+57:08 the first thing you can do is you can
+57:09 journal. How are you feeling today? I'm
+57:12 feeling a little anxious.
+57:17 And you can submit this and it'll give
+57:20 you a little like response. I didn't get
+57:23 a chance to add the little character
+57:25 here, but here it added I do not like
+57:28 the little border it added. I literally
+57:30 added the border. It was supposed to add
+57:32 it around the whole card, not around the
+57:34 little character.
+57:36 >> But
+57:37 >> that's what we got. And so one of these
+57:39 little characters responds to me, which
+57:42 is kind of nice.
+57:43 >> Nice.
+57:43 >> Um, and that's the journal history. It
+57:45 keeps everything stored locally on our
+57:47 phone. And then, um, we can do guided
+57:51 meditations, which I've gone through
+57:52 already. Here's sleep.
+57:56 >> And I didn't add individual songs for
+57:59 each one. I couldn't figure out how to
+58:00 prompt it to get like good sleep
+58:02 meditation.
+58:03 >> Yeah.
+58:03 >> Um, this generating the assets. I mean,
+58:05 I I would take a lot of time on this.
+58:07 Like if I was actually if it wasn't
+58:09 timed, maybe we should do one where we
+58:10 have four hours next time. Yeah.
+58:12 >> And we could really drill in and I I
+58:14 >> I I truly think we could get something
+58:16 very close to like Headspace.
+58:18 >> I really think if we just sat down for 4
+58:21 hours, I would record my own audio first
+58:23 of all. That's what I would do. Like I
+58:24 would I would write it. I would get Chat
+58:26 GBT out and help me like outline it.
+58:28 Then I would actually read it. Like I
+58:29 would take 40 minutes. I would read the
+58:31 audio in a quiet room with a nice
+58:33 microphone and I would try and make the
+58:34 experience better because I think that
+58:37 those types of things now that it's
+58:38 possible to just open up your phone and
+58:40 add audio. You can add your own audio.
+58:41 >> They go a long way especially like with
+58:43 in the mental health space like it's
+58:45 it's really
+58:46 >> it almost does a disservice for us to
+58:47 make it timed. Like maybe we should do a
+58:48 full weekend or to see who can make a
+58:50 better app. I I really think we could
+58:52 get pretty close. Like your if we
+58:55 combine your app with mine with maybe
+58:59 some like spoken or like guided
+59:01 meditation.
+59:02 >> Yeah. Be fire. Be amazing. It'd be just
+59:04 as good. I I wouldn't have the the
+59:06 British accent that the the headsp space
+59:08 guy has, which is huge plus. Huge plus.
+59:11 >> I did tell it to make the voice deeper
+59:13 in tone
+59:14 >> on my second last prompt.
+59:16 >> So I don't know.
+59:17 >> You tried to change its tone.
+59:20 That's going to be hard, dude. How do
+59:23 you think it go?
+59:24 >> I haven't I really haven't used 11 Labs.
+59:26 >> Okay, so so but yeah, this is my app and
+59:29 obviously it has this
+59:30 >> I really like that like going all the
+59:32 way through.
+59:33 >> It's that I think is like the best
+59:35 design feature. This is the best screen
+59:37 of the app right here is you choose your
+59:39 mood, you meditate through it, and
+59:42 you're done once it loads fully through.
+59:44 I love this actually. Like
+59:45 >> I think yours has great design. And I
+59:47 really like whatever like kind of
+59:48 rounded font that it fixed. Yeah, I like
+59:52 it.
+59:52 >> Anyway, let's see. What's your name?
+59:55 Void.
+59:55 >> Void. Let's see it.
+59:57 >> So, going to open up Void. If you all
+1:00:00 remember, I fired off two prompts
+1:00:03 telling you to become and embody Steve
+1:00:05 Jobs. So, let's see if it did that or
+1:00:06 not. So,
+1:00:11 so breathe in and out.
+1:00:13 Oh, no.
+1:00:15 No. Oh. Oh, thank god it's loading. I
+1:00:19 was
+1:00:19 >> Did you just add that?
+1:00:20 >> I was so worried it wasn't going to load
+1:00:22 in. Yeah.
+1:00:23 >> Okay. So, you have this background.
+1:00:25 >> How are you feeling today? Anxious,
+1:00:27 gloomy, angry, scattered, hollow, or
+1:00:31 tense? I'm going to go.
+1:00:32 >> This is so good.
+1:00:33 >> Anxious.
+1:00:35 What triggered this anxious feeling? So,
+1:00:37 have like a custom background. A
+1:00:39 specific event or conversation. Where do
+1:00:42 you feel it?
+1:00:44 some energy stuck on a worry
+1:00:47 um say distraction scrolling and I have
+1:00:51 some control
+1:00:53 now you can breathe in breathe out
+1:00:57 and it's very calming you see Voidy our
+1:01:00 mascot of Void the mental health and
+1:01:03 wellness app yeah your app is so good
+1:01:06 dude
+1:01:07 >> it makes complete sense that you're
+1:01:09 feeling shaken after a specific
+1:01:11 conversation or event that kind trigger
+1:01:14 can leave your body buzzing and your
+1:01:15 mind glued to a single worry. What
+1:01:18 you're describing, restless energy in
+1:01:20 your limbs and a thought that won't let
+1:01:22 go is a very common way anxiety shows
+1:01:25 up.
+1:01:27 >> Brain,
+1:01:28 >> so it'll go all the way through.
+1:01:30 >> Val, well done, man. You cooked for 1
+1:01:33 hour, bro. You cooked.
+1:01:35 >> Yeah, it's a bit slow to load. See,
+1:01:37 that's one thing we need to figure out
+1:01:39 is like the PGs like lo it takes
+1:01:42 >> loading this takes a while.
+1:01:43 >> Yeah. I don't know why. I think
+1:01:46 >> I don't know how to solve that problem.
+1:01:48 >> We'll figure it out.
+1:01:48 >> We'll figure it out. I know.
+1:01:50 >> We'll get it done. Guaranteed.
+1:01:51 >> Think about what you did though in this
+1:01:52 episode. It's very impressive that you
+1:01:54 implemented an AI feature and then you
+1:01:56 got
+1:01:57 >> I got it to read it out. It asks you
+1:02:00 questions based on your mood. There's
+1:02:01 custom icons, a questionnaire, and then
+1:02:04 based on what you say, it gives you
+1:02:05 advice and says it back to you.
+1:02:07 >> Mhm. Yeah, I think that's really really
+1:02:10 good. You could even add like a little
+1:02:11 like text input field on the last one to
+1:02:14 like make it even more cuz it is
+1:02:15 multiple choice. That's one thing
+1:02:17 >> that would be a good idea
+1:02:18 >> because it is just responding to your
+1:02:19 multiple choice like
+1:02:20 >> but
+1:02:22 >> I like it. I I think you did a great
+1:02:24 job. And just to like show go show the
+1:02:26 users, go back into pinch and go through
+1:02:29 go into the API tab.
+1:02:31 And so which APIs did you use again?
+1:02:34 >> So I used OpenAI GPT5 mini. This was
+1:02:37 used to analyze the user's responses and
+1:02:40 I used 11 Labs flash 2.5 text to speech.
+1:02:44 So I use this to actually take that text
+1:02:46 that OpenAI GBT5 generated and speak it
+1:02:49 back to you.
+1:02:51 >> That is really powerful. You did that
+1:02:53 all in an hour. Generated every asset
+1:02:56 >> in the app. But tell me this image
+1:02:58 generation like this is ch game
+1:03:00 gamechanging.
+1:03:01 >> It's great. Like we literally used four
+1:03:04 different um or I guess I used four
+1:03:06 different AI models to literally build
+1:03:08 this app and I didn't write a single
+1:03:09 line of code.
+1:03:10 >> Yeah.
+1:03:11 >> Yeah.
+1:03:11 >> And I mean I mean the the the 11 Labs
+1:03:14 music is a different model, you know,
+1:03:15 like that is a music model. It's
+1:03:17 different than the speech model. It's
+1:03:18 different than the sound effects model.
+1:03:20 Yeah. You know, it's it's insane. And so
+1:03:22 I think next episode we should
+1:03:23 collaborate and we should actually sit
+1:03:25 down maybe three hours and build like an
+1:03:28 app that's like amazing. Yeah. And I
+1:03:30 think we can I think we could do some
+1:03:32 insane things. For those of you who are
+1:03:34 watching, those are the two apps we
+1:03:36 have. Vibes and Void. This was a very
+1:03:38 fun match. And yeah, let us know in the
+1:03:41 comments who do you think won. We're
+1:03:42 going to be giving away Vibe Code
+1:03:44 credits. And you know, we may increase
+1:03:46 it from what I said earlier, which was
+1:03:47 $50 to 25 people. we may just feel nice
+1:03:51 and increase it because this launch we
+1:03:53 just put two straight months into
+1:03:56 building this app and Michelle went to
+1:03:58 town basically working for two months
+1:04:00 straight like you probably didn't miss a
+1:04:01 day coding like you were probably coding
+1:04:03 every day
+1:04:03 >> not at all it's it's been a grind and
+1:04:05 I'm very excited for you all to try it
+1:04:07 >> yeah and then also one thing I really
+1:04:09 want people's feedback
+1:04:11 >> how can we change these tabs right let
+1:04:13 us know in the comments what API should
+1:04:15 we add we certainly didn't add all of
+1:04:16 the useful APIs right we are going to
+1:04:20 make this so powerful. Like any API that
+1:04:23 you might want to use that would make
+1:04:24 your app more immersive, more fun, and
+1:04:26 just better. We want to add to the app.
+1:04:28 So, let us know in the comments. We'll
+1:04:29 give out free credits if we end up using
+1:04:31 your advice. Um,
+1:04:32 >> we'll give you free credits and we'll
+1:04:34 add your API. Uh, one of the ones I
+1:04:37 wanted, the movie database. You can
+1:04:38 literally like fetch top movie posters
+1:04:40 as they come out and use that in your
+1:04:42 app.
+1:04:42 >> Yeah. I mean, yeah, you can create a
+1:04:44 basically an IMDb wrapper except it's
+1:04:46 called TMDB because IMDb doesn't have a
+1:04:49 API but like
+1:04:50 >> you can use nano banana.
+1:04:52 >> Yes,
+1:04:52 >> the most popular image generation model
+1:04:54 in the world.
+1:04:55 >> Yes, we can do that.
+1:04:56 >> There's a lot of fun things and coming
+1:04:58 very soon is cloud which is going to be
+1:05:00 a gamecher if you want to make your apps
+1:05:03 go from just yourself to multiplayer in
+1:05:06 reality. in reality. And then that is a
+1:05:08 precursor for payments which we're also
+1:05:10 adding soon which you'll be able to
+1:05:12 charge people but you can't charge
+1:05:13 people in the app based on their usage
+1:05:15 unless you have authentication and
+1:05:17 database which is part of the cloud.
+1:05:19 >> Exactly. So there's a lot of fun stuff
+1:05:21 cooking. Uh we're very excited for you
+1:05:23 all to check it out.
+1:05:24 >> Yeah. And if you uh want a complete
+1:05:26 guide to using this app, I just recorded
+1:05:29 an hourong video of me going through
+1:05:31 every single feature in depth and in
+1:05:33 detail. So you can find that in the
+1:05:34 description below. Shaw, good match,
+1:05:36 >> good game.
+1:05:37 >> Next time we'll collaborate. Let us know
+1:05:39 what we should build next time.

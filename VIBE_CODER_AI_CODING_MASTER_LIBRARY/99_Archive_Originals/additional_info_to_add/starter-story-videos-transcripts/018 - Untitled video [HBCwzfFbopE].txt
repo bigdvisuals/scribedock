@@ -1,0 +1,420 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=HBCwzfFbopE&pp=0gcJCQMLAYcqIYzv
+Channel: Starter Story
+Video ID: HBCwzfFbopE
+Transcript language: English auto-generated
+Downloaded at: 2026-05-25T20:45:40.983Z
+
+0:00 I built a simple countdown timer into a
+0:02 25K per month app. Meet Lucas, a
+0:05 solopreneur from Germany who built
+0:07 arguably the world's simplest app. In
+0:10 this episode, we dive into how Lucas
+0:12 turned a stupidly simple idea into a
+0:14 business that allowed him to quit his
+0:16 job and ultimately changed his life.
+0:18 This single Reddit post with 58 ups
+0:22 changed everything. Plus, we'll get into
+0:24 the exact Reddit post he used to get his
+0:27 first paying customers, why he hired his
+0:29 wife to help him run the business, and
+0:32 his framework for finding more simple
+0:34 ideas that can make thousands. All
+0:36 right, let's dive in. I'm Pat Walls and
+0:39 this is Starter Story.
+0:42 [Music]
+0:44 Welcome, Lucas, to the channel. Tell me
+0:46 about who you are and what's your story.
+0:49 I'm uh Lucas Herman. I'm a software
+0:50 developer from Germany. I turned a
+0:52 simple idea into a SAS business and
+0:55 eventually was able to quit my job and
+0:58 work full-time. I'm a soloreneur and I
+1:00 built this business with my wife and a
+1:02 child. So, we have reached uh 25,000
+1:05 revenue per month and we have a total of
+1:08 20,000 users that are using our app.
+1:10 4,400 of those are paying or have paid
+1:13 at any point in time. And we're getting
+1:15 86,000 unique visitors per month. Cool.
+1:19 Before we get into what your app
+1:20 actually does, let's talk about how you
+1:22 validated this idea and got your first
+1:24 customers for your SAS. How did you do
+1:26 that? So, I did it on Reddit. And the
+1:29 reason is I'm building something for
+1:31 people that I don't know. I'm building
+1:33 it for people that are in a video
+1:35 production industry. Where are they?
+1:37 Where do they hang out? I'm looking for
+1:39 a subreddit. It took me quite a while to
+1:41 actually find one. These are quite
+1:42 hidden. These are very small niche
+1:44 stuff. And I think, you know what? Let
+1:46 me post it here. So, I put a link in
+1:48 here and I say, "Hey, try it out. Give
+1:50 me some feedback. What do you think? Is
+1:51 this useful to you?" And you can see
+1:53 like people make literally lists that
+1:55 they tell me, "No, do this. Do this.
+1:57 I've been waiting for such an app." And
+1:59 because there's no price attached to it
+2:00 on the website, it's also not he just
+2:02 wants to have our money. It works really
+2:04 well. And then the other thing is I
+2:06 don't spam it. So, one post per
+2:08 subreddit. That's great. All right. So,
+2:11 you got this Reddit post. You validated
+2:13 it. Let's talk about the MVP and how you
+2:15 built that original free tool. What
+2:17 tools did you use and what features did
+2:19 you include? So my first MVP, it had
+2:22 like basically just one feature which
+2:24 was click on a button here and a timer
+2:26 starts counting over there. I'm use all
+2:28 the technologies I already know. I use
+2:30 JavaScript, I use Vue.js, I use NodeJS.
+2:33 There's no Versell was new at the time
+2:35 and I just didn't know it and I didn't
+2:36 use it. If I would have used new unknown
+2:39 technologies, I would have had to learn
+2:40 them, understand them, find out they
+2:42 have limitations I didn't know before.
+2:44 And it was good because I could I could
+2:45 ship my MVP in 3 days and then build
+2:48 upon it slowly and and comfortably in
+2:50 the 1 hour that I had in the evening
+2:52 instead of building on it for 3 months
+2:55 just to have something that is usable.
+2:56 And then because it was a side business,
+2:58 a side project, it took me 224 days to
+3:02 actually get my first dollar. And that's
+3:04 totally okay. It grew from there. Nice.
+3:06 What I love about your business is that
+3:09 it's a family business. Tell me a little
+3:10 bit more about that. Yeah. So, after I
+3:12 earned the first dollar and we had our
+3:14 first customers, I thought, well,
+3:15 there's also a marketing we need to do
+3:17 and we need to now answer these customer
+3:19 service emails. And my wife was at a
+3:21 point that she didn't want to do her old
+3:23 job anymore teaching. And I said, why
+3:25 don't you join me? You know, why don't
+3:27 you learn marketing and take over these
+3:29 parts of the business? And she was
+3:31 really excited about it. And she really
+3:33 learned quickly. And now she she does uh
+3:35 Google ads, she does all the sales
+3:37 emails, she does all the customer
+3:39 support emails and we have an amazing
+3:41 support. People are really happy with
+3:42 it. And I do the the product, the the
+3:46 finances, the development and kind of
+3:48 the overall direction, right? Like CEO
+3:49 work. And sometimes we walk over the
+3:51 street and talk about how we grow stage
+3:53 time or sometimes we just look at any
+3:55 business like how would you, you know,
+3:56 grow this shoe business over there. We
+3:58 think about these business terms
+4:00 together which is really fun and it it
+4:01 makes for a lot of great conversations.
+4:03 That's awesome. I think that's super
+4:05 cool how you have that set up. Let's
+4:06 take a step back. I want to learn a
+4:07 little bit more about your background,
+4:09 how you got started and how you got to
+4:11 this point where you have this amazing
+4:13 SAS business. Yeah. So, my first
+4:15 development job was in 2007. That was I
+4:18 was younger. I was in high school. I
+4:20 literally rode my bicycle to work back
+4:22 then and built HTML pages. 2017, I start
+4:26 studying. My father really wanted me to
+4:28 have a paper. So, I I did. At the same
+4:30 time, I start freelancing. I wanted to
+4:32 know how it is to have your own business
+4:34 as a developer. I get into a startup
+4:36 once I'm done 2020 I have my degree but
+4:38 already my mind is like how can I build
+4:40 my own product right so soon later I
+4:42 just start tinkering on this thing so
+4:44 shortly after November 2020 right as
+4:47 corona was hitting first commit for
+4:48 stage timer that was when I built the
+4:50 MVP and then a few days later I post
+4:52 this post on Reddit and by 2022 my wife
+4:55 encouraged me hey why don't you to quit
+4:57 because stage time was already making
+4:59 enough money to just get by uh 3,000 a
+5:02 month so I did quit thanks to her I
+5:04 probably would have been much longer in
+5:06 the job if it wouldn't have been for my
+5:07 wife. And then by September 2023, we
+5:09 reached a 10K monthly revenue mark that
+5:12 every soloreneur is aiming for. All
+5:15 right, before we dive deeper into how
+5:17 Lucas built this into a $25,000 per
+5:19 month business, let's talk about
+5:20 something a lot of earlystage founders
+5:22 overlook. Distribution. Distribution is
+5:26 everything. You can build the best tool
+5:27 in the world, but if nobody sees it, it
+5:29 doesn't matter. That's why we're excited
+5:31 to partner with the monday.com app
+5:33 marketplace. Monday monday.com has over
+5:36 245,000 customers using the platform
+5:39 across 200 plus industries from HR and
+5:43 IT to operations and event planning. And
+5:45 here's the kicker. 90% of enterprise
+5:48 accounts use monday.com apps. In other
+5:51 words, there's massive built-in demand.
+5:54 And unlike other platforms, it's not
+5:56 overcrowded yet. It's a great time to
+5:59 get in. This is the perfect moment for
+6:01 solarpreneurs to get in early, build
+6:03 niche tools, and solve real user pain
+6:06 points. Even better, monday.com gives
+6:08 you everything you need to succeed.
+6:10 Robust APIs, flexible SDKs, detailed
+6:13 docs, and a dev team that actually
+6:15 supports your growth. You build the app,
+6:18 set up your pricing, and monetization is
+6:20 all built in. Billing, subscriptions,
+6:22 payment processing, it's all taken care
+6:24 of. We teamed up with monday.com to
+6:26 create a free resource that breaks down
+6:28 exactly who their users are and where
+6:30 you might find your next winning idea.
+6:32 Click the first link in the description
+6:34 to grab it and take advantage of this
+6:36 opportunity. Thank you to monday.com for
+6:38 sponsoring. Now, let's get back into the
+6:40 video. Let's talk about how have you
+6:41 driven customers to your app to sign up
+6:44 and grown this thing to over 25,000 MR.
+6:47 We have about 50% of our traffic comes
+6:49 from Google and then a third of our
+6:52 traffic really comes from people
+6:53 recommending our tool to others. And we
+6:56 have done a lot of work that this is the
+6:57 case, right? That people want to talk
+6:58 about us or or do inadvertently share
+7:01 our tool with others. So we have a niche
+7:03 tool, right? Very niche, a niche small
+7:05 enough that most big companies wouldn't
+7:08 really bother with it. But for us as
+7:10 solarpreneurs, perfect. and I decided we
+7:12 will see if we can grab stuff that
+7:14 people are already doing in our niche
+7:16 and then combine our tool with it. So if
+7:19 you uh look for countdown timer stream
+7:22 deck companions, we uh created a
+7:24 documentation page that shows very
+7:27 precisely how you use our tool together
+7:30 with this integration for this physical
+7:32 device. We also created a video and put
+7:35 it on YouTube or when you look in
+7:36 YouTube and you search for this video,
+7:37 it's not doesn't have many views. But
+7:39 the trick is the people that do search
+7:41 for this and the people that do look for
+7:42 this on YouTube, they want to have their
+7:44 question answered, right? They have a
+7:46 concrete problem and they want to have a
+7:48 solution for it. So they find you and
+7:50 they're so much more likely to purchase.
+7:52 So this is a a super niche keyword. The
+7:54 way we find these keywords is we put up
+7:56 documentation, put up articles, and then
+7:58 we look with a sense for what do people
+8:01 actually click on and then double down.
+8:04 About a third of your customers come
+8:05 from word of mouth. Talk to me about
+8:07 that.
+8:08 Yeah. So from the beginning I wanted to
+8:10 be like Dropbox. You know Dropbox you
+8:12 create it and then it says oh you want
+8:14 to have 5 GB more space you know share
+8:17 share the link with a friend have them
+8:18 sign up. And I thought how can I
+8:20 integrate this into my own app? It's
+8:22 called product le growth. And I just
+8:24 made sure every single link that people
+8:26 share my logo is on it. And not only is
+8:28 my logo just like a picture it's it has
+8:30 the name stage timer.io in the logo.
+8:32 It's like literally written there. And
+8:34 it's a name easy enough to remember that
+8:36 people often just see it even tell us oh
+8:38 I saw it on an event and I used it
+8:40 myself. That's the one way and the other
+8:42 way is we make it a premium model. By
+8:44 doing this we capture a lot of
+8:46 freelancers that work in this space and
+8:47 they bring it along to the events that
+8:49 they invited and somebody says ah we
+8:51 need a timer. So they say ah let me just
+8:54 pull up stage timer. They pull it up. It
+8:55 works so well people are really excited
+8:57 eventually they want to use it for the
+8:59 next event hit some kind of limit and
+9:01 say ah it's it's worth it. let's let's
+9:03 purchase it happens very often. So
+9:05 having a free tier works really well for
+9:07 us. That's great. What kind of tools and
+9:09 languages did you use to build the app
+9:11 and then also to run the business? So as
+9:14 a developer right I use supply text and
+9:16 supply merge. These are old tools. The
+9:19 fact is for me like copy pasting into
+9:21 cloud and generating code there and
+9:23 coasting is literally faster than
+9:25 integrated IDEs like cursor or copilot.
+9:28 One tool I love is air table. We use it
+9:30 as CRM. It works incredibly well. It's
+9:32 like a big Excel sheet with all our
+9:34 customers in it. But what you can do is
+9:35 you can do automations on top of that.
+9:37 And then on top of this, we use a
+9:38 Postmark to actually send out emails.
+9:40 I'm a big fan of Postmark. It's like an
+9:42 email sending platform but really made
+9:45 for solarreneurs. So these are really
+9:47 that breadandbut tools that I'm using
+9:48 for stage timer. That's amazing. Your
+9:51 business makes $25,000 MR. Uh what does
+9:54 it cost to actually run this business?
+9:56 The SAS business are very very cheap to
+9:58 run. We have a server and infrastructure
+10:00 cost of 280 a month. Then we spend 250
+10:03 on tools and services. That is
+10:05 everything from what I mentioned, Air
+10:07 Table, Postmark, all of this together.
+10:09 And then we spend $1,400 on paid ads. So
+10:11 the profit margin is 80% or or higher,
+10:14 like between 80 and 90%. Nice. That's a
+10:17 good business. Now, let's finally talk
+10:19 about what you built. Can you show me
+10:22 what app you built and how it works and
+10:24 what it does? Yeah. So So this is the
+10:26 app. That's it. Imagine you are on a TED
+10:30 talk and you have the speaker on stage
+10:32 and they want to know how much time do I
+10:33 have left in my presentation. So you put
+10:36 this in front of him and on my computer
+10:37 I have the control interface for this
+10:39 very timer and I can just click start
+10:41 and you can see how it starts counting
+10:43 or you you know holding your microphone
+10:46 too far away. It's not you're not loud
+10:47 enough. So I show you this message like
+10:50 hey hold your microphone closer. Nice.
+10:52 And it's much easier like this to
+10:53 communicate with your person on stage
+10:55 than holding up a paper sign. You can
+10:57 imagine the first question that anybody
+10:58 watching this is having is like, "Okay,
+11:00 why would I pay for this? I can just use
+11:02 a timer on my iPhone. How does this make
+11:04 $25,000 a month?" So, when I built it, I
+11:07 thought, "No way this is going to make a
+11:09 lot of money." And then people started
+11:11 paying and we started understanding that
+11:12 in real life events, real life video
+11:15 productions, people need this all the
+11:17 time. We had TV broadcasts that do
+11:20 broadcast for elections and they need to
+11:22 time every speaker. We had horse races
+11:24 by it. So, turns out almost everybody
+11:26 needs a timer and the iPhone timer won't
+11:28 cut it because it's just on your little
+11:29 iPhone screen and you need something
+11:31 that one person clicks start and and
+11:33 five other people can see it. Awesome.
+11:35 We haven't even talked about this yet,
+11:36 but like how did you actually even find
+11:38 the idea to create a timer app? So, it
+11:42 was a bit of an accident. And I was in
+11:44 my friend's studio and he used this very
+11:48 old flash app on a on an old laptop and
+11:50 he remote controls everything from his
+11:52 nice table. And then to start a timer,
+11:54 he has to get up, walk into the other
+11:56 room and hit a button and walk back and
+11:59 my web developer mind immediately says
+12:03 surely there's a better way. So if you
+12:05 go to any other business and you just
+12:07 observe people doing their job and you
+12:09 find that they waste hours and they do
+12:11 things in the most awkward ways that you
+12:13 would have automated long ago. These are
+12:15 the really the simple ideas that you can
+12:17 turn into a lot of money. Okay. So you
+12:19 built this business it makes $25,000 a
+12:22 month. What's a key lesson that you
+12:23 learned in the journey building this?
+12:26 One lesson I learned conversely is that
+12:28 there's more opportunities out there
+12:30 than we think. There's so many solutions
+12:33 that still have interfaces from 1999.
+12:36 Ugly as heck to use. People complain
+12:38 about it all the time, especially if you
+12:40 go outside the developer bubble. I
+12:42 believe there's so many like $1 million
+12:45 niches with little apps that you can
+12:47 build. The only hard thing is to find
+12:49 them. Once you found them, it's just
+12:50 this great opportunity that that's open
+12:52 before you to build a simple app. Cool.
+12:54 Last question that we ask anyone who
+12:56 comes on the channel. If you could go
+12:58 back in time, stand on Lucas's shoulder
+13:00 when you shipped that MVP or even
+13:02 before, what advice would you give him?
+13:04 So, I would go back and tell myself,
+13:07 Lucas, you're a German. You're scared of
+13:10 regulation. You're scared of like the
+13:12 the finansome, the tax man coming to you
+13:15 and saying you've done everything wrong
+13:17 and you have to go to prison now. But I
+13:19 would tell him this is not the case.
+13:21 Just get started. There's a way even in
+13:24 this country to build a simple business
+13:26 to scale it up and to understand how it
+13:29 works. Everybody is just like getting by
+13:32 somewhere and you can do it too. Any
+13:34 Germans or Europeans watching this?
+13:36 Hopefully that inspired you. Thank you,
+13:38 Lucas, for coming on to start our story
+13:40 and uh keep going. I I will. Thanks,
+13:42 Pet. Lucas is a great example of someone
+13:45 who turned a really simple idea into a
+13:47 really great business. I really like how
+13:50 he used Reddit to validate his idea cuz
+13:53 you don't need an audience and
+13:54 potentially all your customers are
+13:56 hanging out in one little subreddit just
+13:58 like the one that Lucas had posted. I
+14:00 think that anybody can take lessons from
+14:02 his story and build a SAS, build a cool
+14:05 app, get users, and potentially start
+14:07 even getting paying customers. So, if
+14:09 you're interested in building something
+14:11 similar apps and simple projects, then
+14:13 you should definitely check out Starter
+14:15 Story Build. In Starter Story Build, we
+14:17 show you how to find an idea, how to
+14:19 build it with AI tools, and how to
+14:22 actually ship it into the real world and
+14:24 get users and potentially build
+14:26 something that changes your life. What's
+14:27 even cooler is that you'll do it all in
+14:29 just 12 days. So, if you got that simple
+14:32 idea or you want to find it, maybe turn
+14:34 it into a great business, head to the
+14:36 link in the description to check out
+14:37 Starter Story Build. All right, guys.
+14:38 Hope you enjoyed this video. I'll see
+14:40 you in the next one. Peace.

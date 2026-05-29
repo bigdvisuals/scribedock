@@ -1,0 +1,1113 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=DjR61qqdkuU
+Channel: Greg Isenberg
+Video ID: DjR61qqdkuU
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 Honestly, Google AI has been absolutely
+0:03 crushing it. Josh Woodward, who's
+0:05 leading up a lot of Google AI's efforts,
+0:08 came on the pod and showed some
+0:09 unreleased features, some experimental
+0:11 features, and some products that are
+0:14 going to make you a more productive
+0:16 person. I brought him on, I'm not
+0:18 sponsored by Google at all, just so I
+0:20 can learn how to use these products. I
+0:22 feel like I haven't spent enough time
+0:24 with Google AI products. So, I had one
+0:27 of the top guys, one of the top dogs
+0:30 come in and explain it to us. This is a
+0:32 primer on how to use uh Google AI
+0:36 product suite and what you need to know.
+0:38 So, I'm glad Josh came on and showed me
+0:41 what I need to pay attention to.
+0:45 [Music]
+0:51 >> All right. Uh Josh, um we're going to
+0:54 cover some of the most interesting uh of
+0:58 of Google's AI products today. What are
+1:00 you going to take us through and by the
+1:02 end of the episode, what are people
+1:04 going to learn?
+1:05 >> Well, we're going to try to show a lot
+1:07 of stuff today. So, we'll try to do
+1:08 these five demos in about the next 20 or
+1:11 30 minutes. Um and I'm really hoping
+1:13 you're going to learn kind of where a
+1:15 lot of Google's AI is at the frontier.
+1:18 So, we're going to talk about the Gemini
+1:19 app. We're going to create some videos.
+1:21 will be able to go dive into research,
+1:23 create UI and screens for code and then
+1:25 do some automation computer use stuff.
+1:28 >> And while while you're taking us through
+1:30 that, could you give your sort of inside
+1:32 tips and tricks on how to use these
+1:35 apps? Because I know that some people,
+1:37 you know, people have played with
+1:38 Gemini, people have played with Flow,
+1:39 people have played with Notepic LM, but
+1:41 they're looking for, you know, how do I
+1:43 get the most out of these products?
+1:44 Could you
+1:45 >> Yeah, definitely. Yeah, we'll do that.
+1:47 >> Okay, cool. All right, let's uh I mean
+1:49 let's start with from the top. Gemini.
+1:51 >> All right, sounds good. So, we're just
+1:52 gonna we've opened a bunch of bunch of
+1:54 tabs here, so you'll get to see how how
+1:56 we go. Um so, I think a lot of your
+1:58 viewers have used Gemini. Hopefully,
+2:00 they use it every day. Um what you've
+2:02 got here is basically the home screen
+2:04 right where you land. And I'm going to
+2:06 show you some stuff that's available in
+2:08 our kind of pro version of Gemini.
+2:10 That's the one that's $20 a month. And
+2:13 one of the things we've been putting a
+2:15 lot of emphasis into is how do we start
+2:17 to create more interesting replies. So
+2:20 I'm just going to paste in a prompt I
+2:22 had written earlier. This is teach me
+2:24 about photosynthesis. Make a quiz to go
+2:26 with it. Um and so you can see here in
+2:28 the upper left we're using the 2.5 pro
+2:31 model. This is the great model uh that's
+2:33 great not only at kind of thinking which
+2:35 is what it's doing now. You can expand
+2:37 that and kind of see how it's starting
+2:39 to put all this together. We've also got
+2:41 the 2.5 flash model, really fast
+2:43 replies. Um, and so as this is coming
+2:46 together, what you're going to start to
+2:47 see is like not only a traditional reply
+2:51 as it breaks down and teaches you the
+2:53 concept, but also this quiz that is
+2:56 going to go along with it. So, here
+2:57 comes the reply back. I'm just going to
+2:59 close the thinking. Um, and you can see
+3:02 here it's given a nice little succinct
+3:04 answer. And then you see it's linked to
+3:07 YouTube video, which is great. That's a
+3:09 new feature we've been adding in as well
+3:10 as this quiz. And so what are the main
+3:12 ingredients for plants? What does it
+3:14 need? And you've even built in a hint
+3:16 here it looks like. So you can think
+3:17 about this. So let's see. They probably
+3:20 need something like this. Do you want to
+3:21 take a guess here, Greg?
+3:23 >> You know, this is bringing me back,
+3:24 Josh, to be honest. You know, like my
+3:26 elementary school ideas. Yeah. Water and
+3:29 carbon dioxide seems about right.
+3:30 >> There you go. There you go. So that's um
+3:32 one of the things we're seeing with
+3:33 Gemini. Tons of students are using it,
+3:35 right?
+3:36 >> This pro plan. We've just done a big
+3:37 student offer. We'll start some more of
+3:39 that for back to school. So anyway,
+3:41 that's coming uh for a lot of new
+3:43 student teachers. This is kind of fun.
+3:45 Um I'm going to create a new chat here.
+3:47 And um one of the other things we're
+3:48 seeing people do a lot with Gemini, you
+3:50 asked about tips and tricks and what
+3:52 what the power users are doing is
+3:54 they're actually creating scheduled
+3:55 actions. So again, I'll just type in a
+3:57 prompt or paste in here. Um send me a
+4:00 digest of the OKC Thunder info every
+4:03 morning at 7 a.m. If you're an NBA fan,
+4:05 I love the Thunder. Uh, so, um, this is
+4:08 going to go out and it's going to do a
+4:10 couple of things. It's actually going to
+4:11 construct kind of the first info digest.
+4:14 Think if you're the president, for
+4:16 example, you'll get like a daily
+4:17 briefing. And so, this you can think of
+4:18 as almost a daily briefing. And here it
+4:20 is. Um, it's gone ahead and created this
+4:23 digest. And what's cool is every morning
+4:25 I'll just get an update about here's
+4:27 what the players are doing. Here's any
+4:29 kind of offseason trades. And you can go
+4:31 in and edit this. you know, in the past,
+4:34 people would have created maybe Google
+4:36 News alerts or had to go through and dig
+4:38 and assemble all this info. So, this
+4:40 makes it really easy to do. Um, so
+4:43 that's that's uh that one
+4:46 >> that on that piece, if you're say you're
+4:48 like an entrepreneur or solopreneur type
+4:50 person, like
+4:51 >> Yeah.
+4:52 >> What are what are similar digests that
+4:56 you think would be helpful for someone
+4:58 who's, you know, a business owner?
+5:00 >> Yeah. Yeah. Yeah. So, we see a lot of
+5:01 business owners starting to use Gemini,
+5:03 too. They do a couple of things. One,
+5:05 they track how their own brand or their
+5:07 own store is doing. And so, it's good to
+5:10 kind of keep an eye on what people are
+5:12 saying about you, how you might be out
+5:14 out there. The other thing they do is
+5:15 they do that for competitors. So, they
+5:18 may get their own digest, but they also
+5:19 study that. The other thing we've seen
+5:21 with some of these actions, Greg, as
+5:23 well as deep research. One of the the
+5:25 main features in Gemini, too, is they
+5:27 really will send certain products
+5:29 they're tracking and they may do
+5:32 research on those products. I know
+5:33 someone who kicks off a new product
+5:35 every morning for a deep research report
+5:38 u and you know, maybe they're thinking
+5:39 about a product they might want to build
+5:40 or put something in their inventory. So,
+5:42 those are those are ways people are
+5:43 using it.
+5:44 >> Cool.
+5:45 >> Yeah. Yeah. Um
+5:47 >> Sam Alman, the co-founder of OpenAI,
+5:50 just said that it is the era of the idea
+5:52 guy and he is not wrong. I think that
+5:56 right now is an incredible time to be
+5:58 building a startup. And if you listen to
+5:59 this podcast, chances are you think so,
+6:01 too. Now, I think that you can look at
+6:03 trends uh to basically figure out uh
+6:07 what are the startup ideas you should be
+6:08 building. So, that's exactly why I built
+6:11 ideaser.com. Every single day you're
+6:13 going to get a free startup idea in your
+6:16 inbox and it's all backed by high
+6:20 quality data trends. How we do it?
+6:23 People always ask. We use AI agents to
+6:25 go and search what are people looking
+6:27 for and what are they screaming for in
+6:30 terms of products that you should be
+6:31 building and then we hand it on a you
+6:34 know silver platter for you to go check
+6:36 out. Um we do have a few paid plans that
+6:39 you know take it to the next level. uh
+6:42 give you more ideas, give you more AI
+6:44 agents and more almost like a chat GBT
+6:46 for ideas with it, but you can start for
+6:49 free ideabrows.com. And if you're
+6:51 listening to this, I highly recommend
+6:52 it. Okay, the next one is um actually
+6:56 one that's been a little bit in the in
+6:57 the news the this morning, just about an
+6:59 hour ago. So, um, we've been adding a
+7:02 lot of video into, uh, Gemini and, um,
+7:07 today's announcement is actually the
+7:09 ability to take this V3 model, which is
+7:12 unbelievable because it has incredible
+7:15 realism and physics and everything on
+7:17 the visual side, but it also adds sound.
+7:20 Um, and so you can create these videos.
+7:22 They're 8-second clips, 720p. Um, in
+7:26 this version it's now two times faster
+7:28 than we first announced it at Google IO.
+7:30 Uh, and I'm curious, Greg, we can just
+7:32 take a take a request here. Is there a
+7:35 certain video or anything you're you're
+7:37 interested in or we can we can try one?
+7:40 >> Yeah, I mean I I recently launched a new
+7:42 startup called ideabrowser.com which
+7:44 basically brings you new startup ideas
+7:47 every single day.
+7:48 >> And I've been playing with ads uh
+7:51 >> AI sort of ads. So, I wonder like could
+7:54 you do something like um
+7:58 like I don't know if this is possible
+8:01 but
+8:03 >> you know you ever see those Tik Tok or
+8:05 Instagram ads where it's like a podcast
+8:07 studio but it's like a fake podcast
+8:09 studio.
+8:10 >> So it's like
+8:11 >> you know it's like it almost looks like
+8:14 a Joe Rogan studio.
+8:16 >> Yeah.
+8:16 >> Um
+8:17 >> so it's almost like a fake podcast
+8:19 studio with two two people maybe.
+8:21 >> Yeah. Exactly.
+8:22 >> A host and a guest. And what do you want
+8:24 them to be talking about or the sound
+8:27 effects or something maybe?
+8:28 >> Well, so so can I have them like say
+8:31 something like a script almost?
+8:33 >> Yeah, in the new version you will be
+8:35 able to. Yeah.
+8:36 >> Yeah. So I mean like Yeah, I just found
+8:38 out about ideaber.com.
+8:40 You know, I'm finding the most
+8:42 interesting startup ideas and trends
+8:44 there. Can't believe I didn't know it
+8:46 existed.
+8:48 >> Okay, let's try it. Uh, I'm going to
+8:51 make it a little shorter just because
+8:52 it's 8 second clip.
+8:54 >> Oh, true.
+8:54 >> We can we can send this one off and then
+8:56 we can come back and look at it. You can
+8:58 see it's going to take about a minute or
+8:59 two to generate.
+9:01 >> Okay, cool. So, let's keep that going in
+9:03 the background. That'll be interesting
+9:04 to see. Um, the big new feature today is
+9:08 um rolling out. It's at about 1% right
+9:10 now because we just started it is uh the
+9:13 ability to also bring an image as a
+9:15 reference in or a photo. So you'd be
+9:17 able to maybe have a photo of that
+9:19 podcast studio you want and then or
+9:21 maybe have the certain people or whatnot
+9:23 and kind of have that sort of animate
+9:25 and come to life. So that's pretty cool.
+9:27 >> Which is so important, right? Like you
+9:29 need, you know, having that context
+9:31 ultimately is going to get better
+9:32 results.
+9:33 >> Exactly. Yeah, you got it. You got it.
+9:35 Um the last thing I want to show is um
+9:38 is actually while this is generating
+9:40 I'll just create a new chat. Um there's
+9:42 some stuff we've been talking about and
+9:43 started rolling out around how we're
+9:46 going to make Gemini the most personal,
+9:48 proactive, and powerful assistant for
+9:50 you. And that first P, the personal is
+9:53 something that um I just want to show
+9:55 maybe teaser for, but uh keep it kind of
+9:58 short here. But if I go in, there's an
+10:01 area called personal context. And you
+10:04 can see here, we've been talking about
+10:05 this. or testing it internally where
+10:07 with your permission you'll be able to
+10:09 link in things like your Google photos
+10:11 data or your search data or your YouTube
+10:14 data and you can start to get some
+10:16 pretty interesting replies again with
+10:18 your permission your ability to kind of
+10:20 turn these on and off but I've been
+10:22 using it um when you're asking about
+10:24 tips and tricks it's really amazing if
+10:27 you're planning like an upcoming trip um
+10:30 it knows that I have uh my wife and I
+10:32 have four kids it can suggest things
+10:35 based on places I've been in the past
+10:37 that I might like. So like, oh, you're
+10:40 going to go to Italy, you have four
+10:42 kids, here's family friendly,
+10:44 familyfriendly restaurants near the
+10:45 coliseum. Um, or it might be like, hey,
+10:49 I checked your past trip photos and it
+10:51 looks like you have this interest in
+10:53 this hobby, like I don't know, pottery
+10:54 or sketching, and it will kind of
+10:56 suggest things that way. So, I just
+10:58 wanted to show this to you and and your
+11:00 viewers is like a little bit of a kind
+11:01 of a view of what's coming and so we can
+11:04 can share more of that when it's ready.
+11:06 >> Cool. I appreciate that. Yeah. I think
+11:07 um I actually tweeted this morning that,
+11:11 you know, I think it was I said Chrome's
+11:13 3 billion users suddenly look like the
+11:15 most valuable data set on Earth. And I
+11:18 think it's really, you know, Google is
+11:20 such an interesting at such an
+11:22 interesting place because it it knows so
+11:25 much about you because we, you know, use
+11:26 the products every day. We live in those
+11:28 products. So my hope is like that's why
+11:31 I think a lot of people are getting a
+11:33 lot of good, you know, are starting to
+11:34 get really good outputs out of these
+11:36 products is because of that context. So
+11:38 just something I mean obviously I'm not
+11:40 like sponsored by Google or anything
+11:42 like that. we have no relationship, but
+11:43 I'm just something that I've noticed and
+11:45 I'm hopeful that the more context that
+11:48 Google starts, you know, feeding drip
+11:50 feeding into me because it, you know,
+11:51 because I use Chrome, um, because I use
+11:54 Gmail, because I use these other
+11:55 products, I'm hopeful that the outputs
+11:57 are going to continue to get better.
+11:59 >> Yeah. Well, that's actually how we're
+12:00 thinking about it is, you know, for
+12:02 someone like you who's excited to link
+12:03 this context together, we want to make
+12:06 that possible. And then you could see
+12:07 from that kind of look ahead, there'll
+12:09 be other Google products that you know,
+12:10 again, if you want to, you'll be able to
+12:12 to link in u and then use it as context.
+12:15 So, uh, okay, cool. Well, let's see.
+12:17 Let's check back in real quick and see
+12:18 if our our video Oh, here it is. All
+12:20 right, here we go. Uh, okay. So, here's
+12:23 our pro fake podcast studio. Let sure
+12:26 got my audio on. Let's see what how come
+12:28 how it came out.
+12:29 >> Just found out about ideabrowser.com.
+12:31 I'm finding the most interesting startup
+12:33 ideas there.
+12:34 >> Yeah,
+12:34 >> cool. I mean, visually, by the way, this
+12:36 looks stunning. Like, this is exactly
+12:38 what I had in mind. And I think like
+12:40 from my perspective, I'm looking at this
+12:42 is
+12:44 um
+12:45 people don't want to read anymore. So,
+12:48 if you're designing a website, if you're
+12:50 building apps and stuff like that, you
+12:51 know, they're used to Instagram stories,
+12:53 they're used to just consuming YouTube.
+12:55 They're used to consuming video.
+12:57 >> Yeah. So, I'm looking at like, you know,
+12:59 my portfolio of businesses and I'm
+13:00 thinking like, okay, where can I create
+13:02 video to to make it more engaging to to
+13:05 tell my story better? And to me, this is
+13:07 like an unfair advantage.
+13:09 >> Well, I think one of the things we're
+13:10 seeing both with the VO video generation
+13:12 and imagine the image generation is
+13:15 Gemini makes it so easy to just quickly
+13:17 explore lots of ideas and then yeah, you
+13:20 can download it, share it, drop it in
+13:22 wherever you want. So, yeah, I totally
+13:24 agree with you. I guess the hard part
+13:26 becomes how do you come up with good
+13:27 ideas to to generate you know
+13:31 interesting content right people people
+13:34 >> you know on on on X that you know they
+13:36 call that taste you know that's like the
+13:38 word of the month
+13:40 >> um do you have any insight as to like if
+13:44 you're trying to get the most out of
+13:46 some of these video models and you want
+13:48 to come up with good ideas what do you
+13:51 recommend to people? Yeah. Well, I think
+13:53 one thing is actually an interesting
+13:55 segue because we can start talking about
+13:56 flow, one of our other products, but is
+13:58 like I try to just look at lots of
+14:00 content for inspiration. Um, and so like
+14:04 if I if I cut over here just to show you
+14:06 like we this was a product we announced
+14:08 at Google IO about 50 days ago when
+14:10 we're recording this now. And you know
+14:12 this is really an idea of like how do
+14:13 you make an AI film making tool where
+14:17 lots of people can create with it. Um,
+14:19 and so we worked with some incredible
+14:21 creators. There's all kinds of features,
+14:23 but I think one of the things just to
+14:24 jump to it, Greg, is like one of the
+14:26 parts of this product, which is fun, is
+14:28 called Flow TV. Um, and it's just a huge
+14:31 gallery of lots of different things
+14:34 people have created. So, here's like
+14:36 always a fun one. This is like offseason
+14:39 s.
+14:40 And what's fun is just like with your
+14:42 keyboard, you can navigate through these
+14:44 different channels and kind of see stuff
+14:46 people are creating. And we've actually
+14:48 made it where you can show the prompts
+14:50 too uh for each of these. And so one of
+14:52 the big themes we're seeing around all
+14:55 of this generative media creation is
+14:57 around remixing and being able to kind
+14:59 of take inspiration and kind of put your
+15:01 own sort of touch on it. Um so this is
+15:04 this is kind of the gallery view. You
+15:06 see people skydiving with glaciers and
+15:08 all kinds of crazy stuff. Um but how
+15:11 this tool works is actually kind of fun.
+15:13 You you know you go out to
+15:15 labs.google/flow Google/flow and you
+15:17 have a landing page here where it's like
+15:19 different projects I've been working on.
+15:21 Giant penguin walking around or like
+15:23 mountain biking through like a lava
+15:25 field here. But you can kind of go into
+15:28 these things and create different shots,
+15:31 different scenes. And all of this, of
+15:34 course, is backed by both V2 and V3. Um,
+15:37 and so you can go in and
+15:40 some of these
+15:44 that goes with you actually hear the
+15:47 like lava magma crackling in the
+15:49 background as the bike is going through.
+15:51 Um, and what's interesting with this is
+15:53 we've tried to make it where say you
+15:55 generate something with a prompt and you
+15:58 just say add the scene and now you're
+16:00 suddenly in a really easy to use
+16:03 lightweight kind of editor and you can
+16:05 do all the normal things like make clips
+16:07 shorter but you can also do things like
+16:10 extend them and this is really the power
+16:12 of AI starts to come through because you
+16:14 can say things like I don't know make a
+16:16 huge vulture come in from the sky right
+16:20 and this is something where we can
+16:21 stitch this together. And when you send
+16:23 this off, it'll take a minute or so here
+16:26 and it'll generate. And what's amazing
+16:29 about Flow and VO as a model is that
+16:32 we're starting to get to this point
+16:34 where you have consistent characters and
+16:36 scenes. And that's been one of the
+16:38 biggest requests from creatives all
+16:40 around the world. Um, and so there's a
+16:42 few other things that are cool about
+16:44 Flow. Maybe I can show you while this is
+16:45 generating. So one is um we make it
+16:48 really easy for you as a creative to
+16:51 generate lots of options so you can get
+16:54 two videos at a time or four at a time
+16:57 and this is really ex like propelling
+16:59 how fast people can explore a creative
+17:01 space. We also give you in this tool
+17:04 again because it's kind of for
+17:05 filmmakers creative types lots of choice
+17:07 on the model. Do you want audio? Do you
+17:09 not want audio? Do you want the fast
+17:11 version? Do you want the high quality
+17:12 version? So a lot of control here. Um,
+17:15 the other thing that's cool is we allow
+17:17 you to go text to video if you want to
+17:20 write, you know, big prompt or frame to
+17:22 video. And this is actually where you
+17:24 can give it a reference image and then
+17:26 be able to kind of create things based
+17:28 on that. And so it's very similar to
+17:30 what I was showing you with Gemini. Uh,
+17:32 oh, look, it just came back. So, I'm
+17:34 just going to play it from the top. You
+17:35 can see we've now stitched together two
+17:37 shots. So, we're at 14 seconds total.
+17:39 So, I'll just play it here.
+17:45 It's It's honestly like mind-numbingly
+17:48 good. Like, you know, that's it's so
+17:50 good that it's just like I can't believe
+17:52 I just It's hard to believe how good it
+17:54 is.
+17:55 >> It's crazy. And when you think about it,
+17:57 it's all generated here in seconds. You
+17:59 saw that big vulture.
+18:01 So, I think what we're starting to see
+18:04 is and what's been really interesting as
+18:06 we've been building Flow, it's a Google
+18:08 Labs product. We one of our big values
+18:10 is we like to co-create with people. So,
+18:12 we've been working with filmmakers
+18:15 around the world to develop this tool.
+18:17 And that's really how we see it as a
+18:19 tool. And what's interesting, Greg, is
+18:21 folks that are, you know, top tier
+18:24 Hollywood types, they see this thing and
+18:27 they're like, "Oh my goodness, I can do
+18:28 so much with this." And it kind of
+18:30 raises the ceiling of what's possible.
+18:32 Then you've got people like me. I'm not
+18:34 a filmmaker, but I might have an idea or
+18:36 I might have a project I want to work
+18:37 on. And now I've suddenly got this
+18:39 incredible tool that's so easy to use.
+18:41 that makes it happen. Um, yeah,
+18:43 >> there's a huge road map here of where
+18:45 we're going. Like if I switch over here
+18:46 to like the frames to video, um, I'm
+18:50 able to kind of bring in different
+18:52 frames here and sort of compare them.
+18:54 This is super cool. We've got tons of
+18:57 camera shots like dolly in, dolly out.
+19:00 You can jib, you know, all the things
+19:01 you might expect to kind of pan, tilt,
+19:04 zoom around this. And I think this is
+19:06 really where it's going is like making
+19:09 these things super easy and intuitive to
+19:11 use for people.
+19:12 >> Yeah. And my guess is, you know, if
+19:15 you're not a creative director and you
+19:17 don't know what dolly in means or dolly
+19:18 out, whatever, like I'm sure you could
+19:22 go to Gemini, say, I'm creating a script
+19:25 and right like, and I need help kind of
+19:28 thinking about how I can get the most
+19:30 out of this product.
+19:31 >> Yep. And that's actually what a lot of
+19:34 people do. They'll start in Gemini,
+19:36 they'll craft the prompts, they'll get
+19:37 help, they'll iterate really quickly and
+19:39 then you can bring that right into Flow
+19:41 or you can create it from Gemini itself
+19:43 now. And so we're seeing a lot of that
+19:45 kind of back and forth. I think Flow,
+19:48 you can think of it, is really for folks
+19:50 who might have a longer duration
+19:52 project. They may want to do something
+19:53 over several minutes or maybe we've seen
+19:55 people do up close to an hour of
+19:57 stitching things together. U whereas
+19:59 Gemini is really quick, those little
+20:01 eight-second hits and that you can kind
+20:02 of put together really fast.
+20:04 Very cool.
+20:05 >> Yeah.
+20:05 >> And then by the way, real quick on like
+20:07 the Hollywood versus individuals piece.
+20:10 Like for me, I'll only speak for myself
+20:12 like I'm I'm most interested
+20:15 like of course I think this is going to
+20:17 change Hollywood, but um and make you
+20:21 their lives more productive. But I'm
+20:22 more interested in like for me I'm
+20:24 looking at this and I'm like okay as a
+20:26 person who's building startups
+20:28 >> and who needs to tell stories. Yeah.
+20:30 This this is going to help me compete at
+20:34 at a way higher level than I've ever
+20:37 been able to before. I mean, of course,
+20:39 I could have done this, but it would
+20:40 have cost me hundreds of thousands of
+20:41 dollars to pay an agency to build it.
+20:43 >> Yeah. What's interesting, what we're
+20:44 seeing is kind of this barbell effect
+20:46 where folks that maybe have the
+20:49 knowledge, have the expertise, they're
+20:52 taking tools like this and running with
+20:53 it. And then we're seeing folks maybe
+20:55 solopreneurs or others who may have
+20:57 never had the skills or the access or
+20:59 the money or any number of things and
+21:02 now they suddenly have a tool that they
+21:03 can kind of use to customize for what
+21:05 they want. Um it kind of it's
+21:07 interesting both of those effects are
+21:08 true um in this case. So
+21:11 >> yeah.
+21:11 >> Yeah. So that that's flow. Um and it's
+21:14 uh it's a lot of fun to to play with. So
+21:16 you check it out. Um oh yeah I want to
+21:18 shift gears a little bit. This is one
+21:19 I'm sure uh your audience has heard a
+21:21 bit more about Notebook LM and you've
+21:22 talked about it too. So thank you. I
+21:25 think uh I want to show a couple of ways
+21:26 again more just like power user things.
+21:28 So notebook you obviously a lot of
+21:30 people know if you don't you can bring
+21:32 in your sources you can get insights you
+21:34 can create podcast and sort of see kind
+21:36 of where the answers are coming from. So
+21:38 that's kind of the highlevel idea behind
+21:41 notebook. It's been so fun to watch it
+21:44 grow and it just keeps growing. So this
+21:47 is the home screen of notebook. Uh just
+21:49 as a quick walkthrough if no one's ever
+21:51 seen it. You've got three panels here.
+21:52 Here you've got your sources. You can
+21:54 bring in any kind of file that you want,
+21:56 docs, websites, YouTube videos, PDFs,
+21:59 etc. You can chat with those sources and
+22:02 then you can also just start creating
+22:04 stuff in the studio panel. And so kind
+22:07 of the most common use case a lot of
+22:08 people do is they'll load up some
+22:10 sources. And this is a notebook about
+22:12 the California gold rush. I've been we
+22:14 were studying this, my son and I, right
+22:16 before the end of the year. And um you
+22:18 can type in a question like what were
+22:20 the economic implications of the gold
+22:22 rush? And the real thing that sets
+22:24 notebook LM apart from other tools out
+22:27 there is its incredible ability to sort
+22:30 of show its work and cite things. And so
+22:32 you're seeing it come back right now as
+22:33 it streams in. And of course it'll give
+22:35 you these nice replies like here are the
+22:37 implications of it. But as you scroll
+22:39 through this you might be like oh I
+22:40 really want to learn more about that.
+22:42 And when you click on it, you can see it
+22:44 just takes you right to the document and
+22:46 kind of where you found the information.
+22:48 So that's that's kind of one of the core
+22:50 things. I think people have heard about
+22:51 the podcast, so I don't have to play the
+22:53 podcast here today, but I wanted to show
+22:55 you some of the new stuff coming um and
+22:58 some of the newer features. So what a
+22:59 lot of people have started doing is
+23:01 actually you can manually add sources,
+23:03 but you can also discover sources now.
+23:05 And you can just describe things like,
+23:07 "Give me more economic info about the
+23:11 gold rush." And what's going to happen
+23:14 there is when you send this out, we're
+23:16 going to take kind of a a shot at trying
+23:19 to find other sources that are relevant
+23:21 to what you're looking for. And so here
+23:23 it's come back. These are a set of
+23:24 websites. You can see some PDFs on the
+23:26 web. What's really cool about this,
+23:28 Greg, one of my favorite features is it
+23:30 gives you the name of the source and
+23:32 then this little by line, it tells you
+23:34 why we think this source is relevant to
+23:37 your notebook and what you might learn
+23:39 from it. So, it's super cool to be able
+23:42 to kind of see like, oh, this is talking
+23:43 more about banking or this is talking
+23:45 more about wages and labor market. So,
+23:48 um with one click, you just tap it, they
+23:50 all get added to your notebook. um it's
+23:53 made it really easy for people to kind
+23:54 of spider out and find other
+23:56 information. And then once you've got
+23:58 the information in there, you can start
+24:00 to transform it. And one of the kind of
+24:03 sleeper hits uh that's gone really great
+24:05 is this mindm feature. So this gives you
+24:09 the ability to take all that knowledge
+24:11 and you can just expand these and find
+24:14 kind of like all kinds of little trails
+24:16 down here like hard rock mining and what
+24:18 goes into it. And as you click through
+24:20 these, it'll bring you back to your
+24:22 sources. It'll help you understand it.
+24:24 And so we think the big idea with
+24:26 notebook LM is it's a whole new way to
+24:28 understand knowledge. And what's been
+24:30 really cool is we've enabled a lot of
+24:32 sharing recently in the last couple of
+24:34 weeks. So people are creating notebooks
+24:36 and sharing them either with their
+24:37 friends or their colleagues at work or
+24:39 even in a class. And you're starting to
+24:41 get almost like this collaborative
+24:43 knowledge exploration which is a whole
+24:45 new level of Notebook LM and what's
+24:47 driving a lot of growth too right now.
+24:49 Yeah, this is really cool. My quick use
+24:51 case uh for for this sort of stuff is um
+24:55 I'm constantly looking at building or
+24:57 buying businesses and if I'm if I am
+25:01 going to do that, I need to get smart
+25:02 about a particular topic. So, for
+25:06 whatever reason right now, I'm like
+25:07 exploring like the book publishing
+25:10 industry
+25:11 um and the music management space and
+25:14 the music publishing industry. So, kind
+25:16 of like media rights and stuff like
+25:17 that. Of course, I can go and read posts
+25:22 and books about it. But, you know, when
+25:26 I'm in the car or I'm going for walks, I
+25:28 just like to just listen.
+25:30 >> Yeah. Just drop it.
+25:31 >> Just drop it in.
+25:32 >> Y. So,
+25:34 you know, if you're like me, I think
+25:37 that using something like this to get
+25:39 like a very personalized
+25:42 uh level up
+25:45 um is good. Of course, I still use
+25:47 listen to podcasts. Of course, I still
+25:49 watch YouTube videos, but this is kind
+25:51 of like for me has been like a
+25:52 completely different experience.
+25:54 >> Yeah. Well, and one of the other really
+25:56 interesting things we're seeing people
+25:58 do is notebook and um there's a ton of
+26:01 students that use notebook and I think
+26:03 that's been another area it's great for
+26:05 kind of being able to go deep in the
+26:07 areas you want to and I don't know if
+26:09 you do this with the podcast feature.
+26:11 I'll get it going and then there's you
+26:12 know an ability where you can like have
+26:14 this interactive mode right where you
+26:16 can call in and they'll be like oh hey
+26:19 Greg what's your question and you could
+26:20 ask your question and it's all grounded
+26:22 again in those sources. So it kind of
+26:24 makes this really personalized learning
+26:26 and knowledge exploration possible.
+26:29 >> Totally.
+26:30 >> Yeah.
+26:30 >> And yeah, that's really cool. I think
+26:32 like a lot of people listening here like
+26:34 the these are the people that like to
+26:35 level up. Um
+26:37 >> and so
+26:40 yeah, I'm excited for people to try this
+26:42 out.
+26:42 >> Yeah. Yeah. Um All right, cool. We can
+26:45 switch. We can keep going. Are you good?
+26:46 We can go for another one. Okay, so the
+26:47 next one I want to show you um this is a
+26:50 super new one. It's called Stitch. Uh,
+26:52 so it's a Google Labs experiment. You
+26:54 can see it's in beta. And what we're
+26:55 really interested in is how can you can
+26:57 see here design at the speed of AI. But
+26:59 how can you go from an idea to like a
+27:02 mobile or a web interface and we've got
+27:05 a bunch of examples and we're kind of
+27:07 playing around with this where we make
+27:09 it really easy for you to kind of
+27:10 describe what you want and Stitch kind
+27:13 of builds it with Gemini. Um, so why
+27:16 don't I uh I'll jump into this one. I'll
+27:18 just jump over tabs. This was one I was
+27:19 working on this morning just before just
+27:21 to show you kind of how it works. But
+27:23 you basically describe something like
+27:25 make me an app for discovering
+27:27 California activities, show some
+27:30 destination, musical events, and trip
+27:32 planning. And Stitch just like gets to
+27:34 work like it will start creating all of
+27:37 these different screens for you. And
+27:40 what we're finding, what's super
+27:41 interesting, Greg, like if I click on
+27:42 one, I'll just go into the first one. is
+27:44 California is like with one description
+27:46 and a tap, you can copy this code and
+27:49 you've got like the front-end code ready
+27:51 to go. Um, or this is super cool. You
+27:54 just tap Figma and it'll copy it. You
+27:56 can see in the bottom right and you've
+27:59 got a Figma a Figma file or like ready
+28:01 to paste in. Um, and these are not
+28:04 screenshots. These are actual designs
+28:06 which is what's really amazing. You can
+28:08 go in then in Figma if you want and move
+28:10 stuff around, change it, etc. Um, and so
+28:13 this one is a I mean maybe a good
+28:15 example of a Google Labs experiment
+28:17 where it's hyperfocused
+28:19 on in this case, Greg, since you're
+28:21 talking a lot about how do you kind of
+28:23 level up or get started. We originally
+28:25 thought like, okay, who might like this?
+28:27 Maybe it's designers, maybe it's PMs.
+28:29 Turns out engineers really like this
+28:31 tool because they can describe maybe a
+28:33 screen if it's like someone trying to
+28:35 start a company and they get like good
+28:37 base level of designs and then they can
+28:40 edit it from there. Um, and so front-end
+28:43 code always maybe a little bit harder
+28:44 for some people. Maybe you don't want to
+28:46 do all the details or whatever. This
+28:48 kind of helps accelerate that and get
+28:50 you to kind of a baseline that you can
+28:52 you can edit that draft. Basically,
+28:54 >> if you had to, you know, if you had to
+28:57 say, what is the one killer feature of
+29:00 Stitch? Like what is, you know, what is
+29:02 the one thing that Stitch does better
+29:04 than any other vibe coding tool? What do
+29:08 you think that is? Yeah, I mean I think
+29:10 right now we're really trying to make it
+29:12 where a lot of v coding today you might
+29:14 write a long prompt and then there's a
+29:17 lot of back and forth. And so what we've
+29:19 tried to do with Stitch is minimize that
+29:21 back and forth and then give you the
+29:24 assets and the controls to kind of do
+29:26 common things. So, like one of the
+29:28 things I love about Stitch is you can
+29:29 also just go up here and say edit theme,
+29:31 make it all dark mode, change all the
+29:33 corner radius, change all the font, like
+29:36 common things that people get stuck on.
+29:38 We're really trying to focus on like the
+29:40 design quality here, but also making it
+29:44 really portable so you can move it to a
+29:45 tool like Figma if you want to go
+29:47 deeper. And I think that's starting with
+29:49 the design process is kind of how we're
+29:51 really thinking about Stitch.
+29:53 >> That's interesting. Um because I think
+29:56 uh in general with AI like the chat has
+29:58 become the interface um understandably
+30:01 but I think that some things are just
+30:04 not meant for chat. Um and sometimes
+30:07 chat is overwhelming. So I think having
+30:09 sort of a hybrid of chat with some you
+30:12 know productized buttons and stuff like
+30:14 that I think is interesting. Well, it's
+30:16 one of the things it's interesting
+30:18 you're hitting on an interesting pattern
+30:19 we're seeing is how do you get beyond
+30:21 the chat box because you know and it
+30:23 doesn't mean we're going to get rid of
+30:24 it. You can see Stitch obviously you can
+30:26 chat with it over here on the left and
+30:28 kind of edit if you want or bring in
+30:29 images as references but I think across
+30:33 Stitch across Flow definitely across the
+30:36 Gemini app you're going to see a lot
+30:38 more features like that photosynthesis
+30:39 example where we're we're trying to get
+30:42 people into a more natural state. um
+30:44 chat is not always the most natural
+30:46 state for interacting with these models.
+30:48 So yeah,
+30:48 >> totally. And yeah, it it's not and and I
+30:51 don't know for someone like me like I
+30:53 just find that sometimes chat is for me
+30:57 and then sometimes I just I need a click
+30:59 around and that that it works better for
+31:01 me. So this is interesting.
+31:02 >> Yeah.
+31:03 >> Do we have time do we have time for one
+31:05 more? Is that
+31:06 >> Do you want to do one more? Can we do
+31:07 it? Okay, let's do uh Oh, yeah. The last
+31:09 one I want to show you is um is project
+31:11 mariner. So project mariner. This is our
+31:13 project. It's really experimental again,
+31:16 prototype, fresh out of the lab. We're
+31:18 really trying to understand how can
+31:21 these models navigate things like the
+31:24 web where you can give it tasks and it
+31:26 can go off and either do research or
+31:28 data entry or other things and kind of
+31:30 put this together. So, what's really
+31:32 amazing about our Gemini models right
+31:34 now is they've gotten very good with the
+31:36 2.5 series at planning multi-step
+31:40 actions and being able to also kind of
+31:43 raise their hand and be like, "Hey, uh,
+31:45 I need help. I'm stuck here." U, and so
+31:48 that's one of the things we're exploring
+31:49 with this Mariner project. Okay, Greg.
+31:51 So, here's the home screen of Project
+31:53 Mariner. And you can see the giant
+31:55 experimental label at the top.
+31:57 And what we've been exploring this idea
+32:00 of computer use and agents actually back
+32:02 since December. Um our first version of
+32:05 Mariner was a Chrome extension. Uh it
+32:07 didn't always work all the time, but it
+32:09 was like eager and it tried hard. So
+32:12 what we've tried to do with this, this
+32:13 is kind of you can think of almost as
+32:14 like Mariner 2.0 know is pull it out of
+32:17 the Chrome extension, put it in a
+32:19 website and in the background instead of
+32:22 operating on your local browser, we've
+32:25 created an entire infrastructure with
+32:27 virtual machines. And so what that means
+32:30 is you can spin off lots of tasks at the
+32:32 same time. Uh and so what's really cool
+32:35 here is with Mariner, you've got, you
+32:37 know, these tabs at the top, your active
+32:38 tasks, things maybe you've saved, tasks
+32:41 that have ended. And I'm just going to
+32:43 show you this is a test account I have
+32:44 here. But we'll just pick one. I don't
+32:46 know, find me three drops. Uh this is
+32:48 one of the sample ones to kick off. And
+32:51 what's interesting is you can see here
+32:53 it's kind of preparing your session.
+32:54 This is actually firing up that virtual
+32:56 machine that I was talking about. And
+32:59 it's going to go off and start creating
+33:01 kind of a plan for this action. And you
+33:04 can see there's the browser. It's up. Uh
+33:06 and you can actually see how the model
+33:09 thinks here on the right panel. And this
+33:11 has been fun actually as we've been
+33:13 testing this. This is available for some
+33:15 of our Google AI subscribers right now.
+33:17 It's kind of in a limited test uh use
+33:20 case. Um people sometimes will just
+33:22 watch this thing uh because it's
+33:25 actually kind of interesting. It will
+33:26 navigate through pages. It'll scroll.
+33:28 You can see its thought process. And I
+33:31 mean I remember the first time Greg I
+33:32 saw this. It was like I was just
+33:35 shocked. Like I was I was just kind of
+33:37 watching something that was like, "Oh, I
+33:39 I know how to do that." And it know now
+33:41 knows how to start to do that. And so
+33:43 you can see we gave it a thing here like
+33:45 find three job possibilities for, you
+33:48 know, engineers in New York on this
+33:50 thing climat. And it's going through
+33:53 it's now navigated to the site. It's
+33:54 finding a job posting for a senior data
+33:57 engineer. Now it's searching through
+33:58 kind of a broader set of listings. It's
+34:01 just going to keep going. Uh, and so
+34:03 what's kind of interesting is you go
+34:04 back to the home screen and you're now
+34:06 going to imagine like a whole dashboard
+34:08 of these tasks you can fire up. So I'll
+34:10 throw another one in the mix. We were
+34:12 talking before we jumped on about I'm in
+34:14 Oklahoma City right now as we're
+34:16 recording this. And this one is like
+34:18 kind of a fun one. It's like go find
+34:19 five restaurants u in Oklahoma City, add
+34:22 them to my Google maps, places to visit.
+34:25 Um, and so it's going to again fire up
+34:27 the browser. There's the browser goes to
+34:29 Google. does some searches. And what's
+34:31 interesting about this is it'll start to
+34:34 do kind of the searches. As it goes
+34:37 through, and we haven't sped this up.
+34:39 This is happening in real time right
+34:40 here. It's going to start trying to
+34:42 navigate through and do the research.
+34:44 And you'll eventually get to a point
+34:46 here in the video where it's going to
+34:47 pause and be like, "Okay, wait. Uh, I'm
+34:50 not signed in." You can see this is a
+34:52 signed out browser here, right? Um, and
+34:54 it'll intervene and it'll say, "Can you
+34:56 help me?" And so these are some of the
+34:59 rails that we've built into the product
+35:01 also to kind of let you know about
+35:03 what's going on. And what's amazing now
+35:05 is as people are using these, you can
+35:07 see that they're just running. And so a
+35:10 lot of the early users may fire up like
+35:12 five or 10 of these. Uh and you know if
+35:16 something gets in in one of these stuck
+35:17 states or it needs a human in the loop,
+35:19 it'll kind of change status and it'll be
+35:21 a little flag and be like, "Hey Greg, I
+35:23 need your attention here." Um, and this
+35:25 is a pattern we're seeing across a lot
+35:28 of our Google Labs projects right now.
+35:30 This one is for agents and kind of task
+35:32 based stuff. Uh, we have another product
+35:35 for coding agents called jewels where
+35:37 you can deploy lots of coding agents to
+35:39 go fix bugs or build features. And
+35:42 there's a really interesting you were
+35:43 talking about how do you get beyond the
+35:44 chat interface. These kind of dashboard
+35:47 interfaces or these bird's eye views of
+35:49 what's happening. To me, this feels like
+35:52 a glimpse of what's coming in the future
+35:54 where you're able to kind of manage and
+35:56 oversee and give different assignments
+35:58 um in this case to kind of an AI agent
+36:00 that we call project mariner.
+36:02 >> Yeah. I mean, you're essentially
+36:03 spinning up interns to do tasks for you.
+36:07 >> It's interesting in a lot of these
+36:08 cases, it's sometimes they're tasks that
+36:11 no human could ever do. And I think to
+36:13 me those are the really interesting
+36:15 ones. Uh
+36:16 >> what's an example of something like
+36:18 that? Well, one of the things we do um
+36:21 with our project Jules, the coding
+36:22 agent, is um you know, we'll do a bug
+36:25 bash. We'll file a bunch of bugs or now
+36:27 we're kind of dictating bugs and we let
+36:29 AI transform them into bugs. But it's
+36:31 like you can just put jewels on a GitHub
+36:33 backlog and it'll fix like 30 bugs in a
+36:36 minute like uh do you know what I mean?
+36:38 So, it's like you can you can kind of
+36:40 imagine these leaps that are coming. Uh
+36:43 they're kind of superhuman in that way.
+36:45 >> Yeah. It's one of those things where
+36:48 I think that
+36:51 we don't even know how people are going
+36:52 to be using this because it's so early,
+36:55 you know, like there's going to be so
+36:56 many different tasks that like I'm
+36:58 trying to think in my mind, I'm like,
+36:59 okay, like how would I use this in my
+37:01 day-to-day, right? Like what are tasks
+37:02 that I have?
+37:03 >> Yeah. Yeah. Well, and I think the key to
+37:06 all this is how do you design these AI
+37:08 systems in a way that are both
+37:10 transparent and you can trust them and
+37:11 intervene and like this is a good
+37:13 example. It just came back. Look here.
+37:14 is like needs your attention. Right.
+37:16 Right.
+37:16 >> So it's like I tried to click this you
+37:18 can review it and if you read through
+37:20 the log here it's like we've paused
+37:22 because I'm trying to click the save
+37:23 button but since I can't log into your
+37:26 account would you like me to do
+37:27 something else and kind of help here?
+37:29 And so this is actually a good example
+37:31 of how we're exploring and this is why
+37:33 it's all experimental right now but like
+37:36 when is the right time to come back to
+37:38 you and when is the time where over time
+37:40 maybe you build up trust with this and
+37:41 you kind of let it go. Um, but all of
+37:44 these are new kind of human computer
+37:46 interaction design problems as well as
+37:48 technical challenges.
+37:49 >> That's awesome.
+37:51 >> Yeah.
+37:51 >> All right, Josh, you you you got me
+37:53 fired up. Like I I first of all, I
+37:55 didn't even know that this existed. Um,
+37:58 you know, I've played with, you know,
+38:00 chat GBT operator. I've done a tutorial
+38:02 on it. Um, I want to do I want to play
+38:06 with this. I want to try it out. I want
+38:08 to um I want to play with all this. So,
+38:10 I you know, thank you for for getting my
+38:13 creative juices flowing on this.
+38:14 >> Yeah, definitely. Well, and if if you or
+38:16 others like we put all this stuff on the
+38:18 Google Labs site, it's just labs.google.
+38:21 As far as I know, it's the only site
+38:22 that has like a hot pink navigation
+38:24 banner. Um, but you can see as you
+38:26 scroll through there's Mariner, Stitch,
+38:28 Jewels. We talked about all these, but
+38:30 um yeah, this can be a place you can go
+38:32 get some of the cutting edge latest
+38:34 experiments from Google and AI.
+38:36 >> Cool. Well, I'll include that in the
+38:37 show notes for people to go and check
+38:39 out Take a First Spin. And and that's
+38:42 all I ask people do is like, you know,
+38:44 yes, it's great to Josh, I appreciate
+38:46 you coming on sharing all this sauce,
+38:48 but it's, you know, stop listening to us
+38:51 and just start playing with the tools,
+38:52 right? Like the best way to learn is to
+38:54 is to play.
+38:55 >> Definitely. Thanks for having me.
+38:57 >> Thanks, Josh. See you.
+38:58 >> See you.

@@ -1,0 +1,415 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=vw2Yc4Y1PsU
+Channel: Starter Story
+Video ID: vw2Yc4Y1PsU
+Transcript language: English auto-generated
+Downloaded at: 2026-05-25T20:45:40.983Z
+
+0:00 In eight months, I build and ship over
+0:02 28 apps.
+0:03 >> This is Max, a full-time developer who
+0:06 spent years building apps with no
+0:08 success.
+0:09 >> I had my like mobile pet project. I
+0:12 really wanted to grow and I like spent
+0:14 so much time on it, like try different
+0:16 techniques. Nothing worked out
+0:17 >> until one day he decided to try
+0:20 something different. [music] Instead of
+0:22 trying to build the perfect app, he'd
+0:24 ship dozens of apps really fast. I have
+0:27 a record. One app I've built in 2 hours.
+0:30 >> In just 8 months, he shipped 28 apps and
+0:33 went from $200 a month to $10,000 a
+0:36 month, all while working his full-time
+0:38 job.
+0:38 >> Once the app is live, just let it go and
+0:41 move on to the next project.
+0:42 >> Most people think you need one big app
+0:45 to win, but Max proves that you can be
+0:47 successful with a portfolio of tiny
+0:50 bets. I asked Max to come on to the
+0:52 channel to break down his entire system.
+0:55 And in this video, we'll dive into his
+0:57 step-by-step process for finding ideas
+0:59 that actually can make money, exactly
+1:02 how he ships apps in just a few hours,
+1:05 and his step-by-step playbook you can
+1:07 use to ideulate, build, and launch your
+1:10 next app in 48 hours. This one right
+1:12 here is for the builders. You cannot
+1:15 miss it. I'm Pat Walls, and this is
+1:17 Starter Story.
+1:19 All right, Max, welcome to the channel.
+1:21 Tell me about who you are, what you
+1:23 built, and what's your story.
+1:24 >> My name is Max. I'm father of two, a
+1:26 loving husband, and an iOS engineer in
+1:28 my daily job. During my off work hours
+1:30 in 8 month time, I've built a portfolio
+1:33 of 28 simple mobile apps that are now
+1:35 bringing me $10,000 monthly revenue. And
+1:38 the total subscribers across all apps is
+1:41 over 1,000 subscribers. And the daily
+1:43 users like four or 5K across all my
+1:46 apps. And the biggest chunk of revenue
+1:47 comes from the four apps and each one
+1:49 brings around $1 and a half thousand
+1:52 dollars and the rest they generate very
+1:53 small numbers. So basically there's a
+1:55 clear example of the famous 8020 rule.
+1:58 >> We're going to get into that and how you
+1:59 ship these so fast. But first I got to
+2:01 understand how do you even get to this
+2:02 point? What's your background? Are you a
+2:04 developer? How do you get to this point
+2:05 where you're shipping a new app
+2:06 basically every week?
+2:07 >> I started my career in software
+2:09 engineering as an iOS developer. That
+2:11 was around 8 years ago. And like many of
+2:13 us did, I had my like mobile pet
+2:16 project. I really wanted to grow and I
+2:18 like spent so much time on it like try
+2:20 different techniques. Nothing worked
+2:22 out. And then February this year, I came
+2:24 across Adam's light video on the YouTube
+2:26 and that literally changed my entire
+2:29 understanding of how to build apps. The
+2:31 old understanding was you have your one
+2:33 project, you have to grow it and just
+2:35 focus all your effort, all your time
+2:36 into it. And then Adam Slles, he showed
+2:39 that you could keep building simple
+2:40 apps. You create one app, one feature,
+2:43 ship it, forget about it, and jump onto
+2:45 another app. So that was something that
+2:46 I've never thought about and I was so
+2:48 surprised this approach exists and I'm
+2:51 happy that I went that way.
+2:53 >> Okay. So you find this new kind of way
+2:55 of thinking about how to approach
+2:56 building apps. Don't have any ego around
+2:59 your idea. Ship lots of different
+3:00 things. We're going to get all into
+3:02 that. Before we do, I want to understand
+3:04 how do you actually find good ideas for
+3:06 apps.
+3:07 >> Very first step just to find the right
+3:08 keyword. Basically how I look at it. If
+3:10 user has a problem, they open the app
+3:12 store and start searching by entering
+3:14 search term or a keyword into the search
+3:16 bar. And here's my process. First of
+3:18 all, my main source of ideas is a
+3:20 well-known ASO tool Astro. And then I
+3:23 pick a random category or something that
+3:25 I really want to build myself and search
+3:27 for various relevant keywords. I'll also
+3:29 try looking at areas that might have be
+3:31 closely related keywords that target the
+3:33 same group users but solving slightly
+3:36 different problems. For example, if you
+3:37 take study apps, you can target physics
+3:40 AI, chemistry AI, math AI. So these are
+3:42 different keywords, but they are related
+3:44 to students. That gives me an
+3:46 opportunity after creating one app to
+3:48 quickly jump into the closely related
+3:50 keywords in just no time. When I do my
+3:52 research, I make sure the keyboard has
+3:54 at least 20% of popularity and 60 or 70%
+3:57 difficulty. When I find interesting
+3:59 keywords, I usually check top
+4:01 competitors and look at their monthly
+4:02 revenue, which you could do with a
+4:04 sensor tower or a similar tools. My
+4:06 benchmark is at least 100 or €200 per
+4:09 month. If the competitor does less,
+4:11 meaning there's not that much money in
+4:13 that market, so it's not worth uh going
+4:15 there. What Max is doing here is genius.
+4:19 He has this very fine-tuned system for
+4:21 finding ideas, shipping fast, and then
+4:23 moving on to the next one. If you stick
+4:25 around to the end of this video, he's
+4:26 going to talk about exactly how he does
+4:28 this, which I think you will enjoy. But
+4:30 this whole thing got me thinking.
+4:31 [music] If you love watching people
+4:33 build fast and think big like Max, then
+4:35 I definitely think you should check out
+4:37 The Hustle, who is the sponsor of
+4:39 today's video. The Hustle is a free
+4:41 daily email that makes business news
+4:44 actually fun to read. They cover offbeat
+4:46 stories like Max's [music]
+4:47 every single day. And it's the kind of
+4:49 stuff that will actually inspire you to
+4:51 build and launch that business idea, no
+4:52 matter how crazy it sounds. I've been
+4:55 reading The Hustle for years, and it's
+4:56 one of the few emails I actually look
+4:58 forward to opening. It's fast, it's
+5:00 punchy, and it always gives me at least
+5:02 one story to talk [music] about with my
+5:03 friends. Plus, it makes me sound way
+5:06 smarter than I actually am. So, if
+5:08 you're building apps, looking for your
+5:09 next side hustle, or just love
+5:11 discovering business ideas before
+5:13 everyone else, The Hustle is for you.
+5:15 Hit the link in the description,
+5:17 subscribe to The Hustle, and you'll get
+5:19 daily stories to keep innovators like
+5:21 you in the loop [music] with stories on
+5:23 business, tech, and the internet. Thank
+5:25 you to The Hustle for sponsoring this
+5:27 video. Let's get back to the story. Max,
+5:29 that Astro tool seems really cool. Could
+5:32 you just show me like an example of how
+5:33 you'd find an idea? Let's say it's the
+5:35 tree identifier idea.
+5:37 >> Basically, what I do, I create a
+5:38 temporary app and then you can add
+5:40 keyword and then you go with the tree
+5:43 identifier
+5:45 and then you bring up the apps and then
+5:47 you just pick some closely related. This
+5:50 is obviously is not the one that we
+5:51 want. This is probably nice one. And
+5:53 then you look through the keywords and
+5:54 then you just go popularity that just I
+5:56 mentioned. uh say starting from 20 and
+5:59 difficulty uh 70. So you see the like
+6:03 wood identification kind of popular and
+6:06 the difficulty is very low. I would
+6:07 build that because I probably might
+6:09 target for this keyword and get some
+6:11 good results and then like I select my
+6:13 keywords that I'll be targeting add them
+6:15 to selection and then what I do I open
+6:17 the app store to see the revenue of this
+6:19 app and if it's nice enough like if it's
+6:21 big then I just go for that.
+6:23 >> Okay cool. So let's talk about that.
+6:25 What is your build process like? How do
+6:27 you build all these apps and how do you
+6:28 build them so quickly?
+6:29 >> First, I pick two three competitors and
+6:31 just study the app and pay close
+6:33 attention to the main feature that
+6:34 closely related to the keyword. So, I
+6:37 don't bother with anything else. Then, I
+6:38 tell Chad GPT or Gemini that I want to
+6:40 build an app for a given keyboard. I
+6:42 provide some specific UIUIUX constraints
+6:45 and I ask for a detailed implementation
+6:47 plan. Next, I create a project. I drag
+6:49 and drop some UI elements uh custom
+6:51 buttons, views like screens. So instead
+6:53 of building a new setting screen over
+6:56 and over again, I just drag and drop.
+6:58 And uh same with onboarding and pay
+7:00 wall. And for some apps uh I basically
+7:02 copy like 90% of the code which gives me
+7:05 like the instant time for the building
+7:07 and the app is shipped like in a couple
+7:09 of hours. Then once the app is ready, I
+7:11 open Figma, create a new project there
+7:14 and the copy screenshots and app icon
+7:16 templates from all projects. And then
+7:18 once uh I have everything ready, so the
+7:20 app is built. Then I finally ask RGBD to
+7:22 generate the app description. I fill in
+7:24 all the metadata, make sure they are
+7:25 relevant to the keyword that I've
+7:27 selected originally. Then the app is
+7:29 ready for distribution. And my process
+7:31 usually takes, it depends on the app.
+7:33 Some apps might take a week because like
+7:35 I need to do one thing, the other thing,
+7:37 but I have a record one app I've built
+7:39 like in two hours from the idea just
+7:41 came into my head till I submit it to
+7:44 review to the app store. Okay, before we
+7:46 finish the video, I wanted to pop in
+7:48 real quick and share how cool I think
+7:50 this whole thing is that Max is doing.
+7:52 Find the idea, build it, ship it, next
+7:55 project. This strategy is genius because
+7:57 building software is changing. [music]
+7:59 When anyone, including your grandma, can
+8:01 build an app, how fast you can ship apps
+8:04 really matters. And this is exactly the
+8:07 kind of stuff that we teach inside
+8:09 Starter Story Build. In starter story
+8:11 build, we will not only show you how to
+8:13 build an app with AI, but more
+8:14 importantly, we will teach you a
+8:16 framework that you can use to ship apps
+8:18 over and over again. If you join Starter
+8:21 Story Build, in just a few weeks, you
+8:23 will have a real working app. And in
+8:25 just a few months, you might be quitting
+8:27 your job and going allin on building
+8:29 apps. If you've gotten to this point in
+8:30 the video right here, I have a deal for
+8:32 you. Just put code 28 apps at checkout
+8:36 for 20% off your next Starter Story
+8:38 Build Boot Camp. Our next boot camp
+8:40 starts this week and this offer won't
+8:42 last forever. So if you're ready to
+8:44 build, head to the link in the
+8:46 description to check out Starter Story
+8:47 Build. And remember to use the code 28
+8:50 apps. [music] That's 28APS
+8:52 for 20% off. All right, let's get back
+8:55 to the video. Okay, that's crazy how
+8:57 fast you can ship these apps. I really
+8:59 think there's something there. Building
+9:00 and shipping new apps every single week.
+9:02 So for anybody who's watching this right
+9:04 now, I'd love if you just broke down the
+9:06 steps from actually taking an app from
+9:08 idea to shipping it to the app store.
+9:09 Break down the exact steps on how to do
+9:11 this if you were starting over today.
+9:13 >> Always begin with finding strong
+9:15 keywords. Make sure the popularity
+9:17 difficulties great ratio and make sure
+9:18 the top apps are making real revenue. So
+9:20 you want to build apps in the market
+9:22 that pay cuz I don't want to waste my
+9:23 time on building apps that don't bring
+9:25 any revenue. Step two, study competitors
+9:27 and define the core feature. Review the
+9:29 top apps in the category, analyze them
+9:32 and choose the single core feature that
+9:33 will solve the main user problem better
+9:35 and more efficiently. Step three, plan
+9:37 fast with AI. Use AI tool to generate a
+9:40 clear development road map, feature
+9:41 breakdown and UX structure that removes
+9:44 the guesswork and lets you start
+9:45 building with clarity and speed. I use
+9:47 Corser or Cloud and I just ask them to
+9:50 write down all the screens and all the
+9:53 features and the flows so I can see the
+9:55 clear picture and I can understand which
+9:57 screens I need to build, which screens I
+9:59 need to copy over from the previous
+10:01 projects. Step four, build lean and ship
+10:03 quickly. Focus on shipping a clean MVP
+10:06 with the only features necessary to
+10:08 deliver value. Step five, release and
+10:10 move to the next build. Once the app is
+10:11 functional, polished enough, and life,
+10:14 just let it go. Move on to the next
+10:16 project. let data decide which app sync
+10:18 on which float when you just ship the
+10:20 app you get this famous app store boost
+10:22 but then over time it fades away and
+10:24 then I see if it keeps going down or
+10:27 it's kind of stabilized or even growing
+10:29 and if the app is not sinking it means
+10:31 it has potential and the last step six
+10:34 return to winners and scale with ads so
+10:36 after some time I do revisit apps that
+10:38 show organic traction or retention and
+10:40 for once the ones that float I start
+10:42 improving them do some polishing do some
+10:45 bug fixes and add ads just to double
+10:47 down on the results and to make sure
+10:50 that they grow. And that's pretty much
+10:52 my playbook for the all the apps that I
+10:53 launch.
+10:54 >> I want to switch topics slightly and
+10:56 talk about tech stack. How do you build
+10:57 your apps? What tools do you use and
+10:59 what languages are they built on?
+11:00 >> I don't have a lot of tools, but here
+11:02 they are. Flatter, this is the framework
+11:03 that I use for the app development. Fast
+11:06 Lane, this is the thing that I use for
+11:08 shipping everything fast. Then I use
+11:10 Corsur for AI coding. Firebase, this is
+11:13 everything. This is my app's back end.
+11:15 This is the authentication database and
+11:17 even website hosting. I also use open
+11:19 air and gemini for image recognition and
+11:22 the AI work mix panel used for analytics
+11:24 and I use Astro for iOS and Fox data for
+11:28 iOS and Android.
+11:29 >> Okay. And on a similar note, I'm curious
+11:31 about costs and margin. You're making
+11:34 over $10,000 a month from over 28 apps.
+11:36 What are the costs to run this whole app
+11:38 empire?
+11:39 >> Corser goes for like $20 a month. A fast
+11:43 lane, this is free tool. So, $0 a month.
+11:46 Open AAI is a bit costly. It's like $200
+11:49 a month. Gemini goes for $50 a month.
+11:52 Firebase, even though there's so much
+11:54 going on, uh it doesn't cost much cuz I
+11:56 don't really go over the free tier, so
+11:59 it's around $5 to $10 a month. Mix
+12:01 panel, I'm using a free plan, so I don't
+12:03 pay anything. Astro goes for like $10 a
+12:06 month. And Fox Data, I'm also on the
+12:08 free plan, so it's $0 a month.
+12:11 >> Okay. Okay. Well, thanks for sharing
+12:12 that, being super transparent about the
+12:13 numbers. Cool to see how lean you
+12:16 actually run this operation. Last
+12:18 question that I have for everyone who
+12:19 comes on to Starter Story. If you could
+12:21 give one piece of advice to Max just a
+12:24 year ago on what to do, what to work on
+12:27 or for anyone watching right now who
+12:29 wants to do the same as what you're
+12:30 doing, what would be your advice?
+12:32 >> The most important advice would be not
+12:34 to be afraid of shipping. Don't waste
+12:36 your time on polishing it up, thinking
+12:38 about adding one more killer feature
+12:39 that would definitely get you a ton of
+12:41 users. No, don't do it. Get it ready
+12:44 bugs free, just one single feature, ship
+12:46 it, and let users tell you what they
+12:48 think about it while you're building
+12:50 another app.
+12:51 >> That's amazing. Best advice I heard all
+12:53 month, Max, thank you for coming on,
+12:55 sharing all this. It's amazing what
+12:57 you're doing. I think it might be the
+12:59 future of building apps and software.
+13:01 So, super cool to see and I'm sure it's
+13:02 going to keep growing. Thanks for coming
+13:04 on.
+13:04 >> Thank you. Thank you to Max for coming
+13:06 on to the channel. I think that his
+13:08 approach is really cool. The fact that
+13:09 he did it all while he had a full-time
+13:11 job, he's making $10,000 a month with 28
+13:13 apps. That just shows you what is
+13:16 happening in the software and app
+13:18 landscape right now. Need to be able to
+13:20 build stuff fast, reuse different
+13:22 components, and just try a lot of
+13:24 different things. Building that shipping
+13:26 muscle is super, super important. And I
+13:29 imagine that one day he's going to
+13:30 stumble onto a very, very big idea and
+13:32 be able to execute on it flawlessly. And
+13:34 again, this is exactly what we teach
+13:36 inside Starter Story Build. We help you
+13:38 build that shipping muscle. We help you
+13:39 come up with an idea, build it, launch
+13:41 it, and get it into the hands of real
+13:43 users. And it takes a lot of courage to
+13:45 build something and put it out into the
+13:47 world shamelessly. All right, guys. I
+13:49 hope you enjoyed this episode. Thank you
+13:50 for watching. We'll see you in the next
+13:52 one. Peace.

@@ -1,0 +1,987 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=li788UL1qyI
+Channel: Greg Isenberg
+Video ID: li788UL1qyI
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 I brought on one of the best vibe coders
+0:03 on the planet to teach you how to
+0:05 squeeze the most out of Claude Cursor
+0:08 and all these vibe coding tools. We're
+0:11 talking about which models to pick, how
+0:13 to use MCPs properly, the exact servers
+0:16 to run them on, and a hack that gets you
+0:18 20% more output from cursor. There's
+0:22 even a single keyword that you can type
+0:24 that literally makes Claude code work
+0:27 harder. I I'd never heard of it. If you
+0:31 want to get the most out of vibe coding
+0:33 platforms, this is the closest thing to
+0:35 multiplying yourself. The full breakdown
+0:38 is inside this video. And there's just
+0:40 it's it's a lot of tangible tips and
+0:43 tricks how to get the most out of vibe
+0:47 coding.
+0:48 >> [music]
+0:56 >> Chris, welcome back to the pod. By the
+0:58 end of this episode, what are people
+1:00 going to learn?
+1:01 >> Yeah, so I'm Well, first, thanks so much
+1:03 for having me, Greg. What I hope people
+1:05 learn is just what my AI coding workflow
+1:08 is because I know a lot of people are
+1:10 getting into AI and there's a thousand
+1:11 tools out there. There's a thousand
+1:13 different ways to do this and I want to
+1:14 show them what I'm using to build my
+1:16 apps. And then I want to also show some
+1:19 tips and tricks that I have that will
+1:20 probably help level up anyone who is
+1:22 doing AI coding.
+1:24 >> Correct me if I'm wrong, but you're
+1:25 doing thousands of dollars at MRR with
+1:28 your apps. You've you've got a portfolio
+1:30 of successful apps, some beautiful
+1:32 looking things. So, you're going to
+1:33 basically show us tips and tricks and
+1:37 your workflow so that people can copy it
+1:39 and and do a similar thing.
+1:41 >> Yeah. Yeah. Exactly. Yeah, that's what
+1:42 we're going to do.
+1:44 >> All right, let's get into it.
+1:45 >> Okay, cool. So, um, I'll just give a
+1:47 little bit of context, uh, for anyone
+1:49 who who doesn't know me. My name is
+1:51 Chris. I build productivity apps and
+1:53 then I document everything on YouTube.
+1:54 So, I teach people how to build apps and
+1:57 just show what it actually looks like
+1:58 behind the scenes of doing it myself. I
+2:00 have a bunch of different apps that I've
+2:02 built. And the reason I'm showing them,
+2:04 it's not to plug them. It's really to
+2:06 show that these are very substantial
+2:08 apps. Some of them, or most of them,
+2:11 people are always surprised when they
+2:12 hear that it's just me building them.
+2:14 And to be honest, this would not be
+2:16 physical poss physically possible for a
+2:18 single person to do if it wasn't for AI.
+2:21 So that is my secret to being able to
+2:24 build all of these things and just
+2:25 sustain all this stuff myself and is to
+2:28 leverage AI coding tools like cloud code
+2:29 and cursor like we're going to talk
+2:31 about to be able to do this. So this is
+2:34 a little bit of context here. Um I'll
+2:37 let's just jump into it. So,
+2:41 there are two tools that I'm currently
+2:43 using. And again, I don't want this to
+2:46 be an episode to just kind of show how
+2:48 to use cursor, how to use cloud code or
+2:50 anything because there are so many
+2:52 better videos out there. And there's a
+2:53 bunch on my YouTube channel as well if
+2:54 you want to check them out. But I did
+2:56 just want to show what I'm doing and
+2:58 then some rapid fire quick tips so that
+3:00 you guys can maybe apply this stuff to
+3:02 your own coding workflow. But there are
+3:04 two tools that I'm currently using and
+3:07 it's claude code and cursor. And what's
+3:10 surprising to most people is I am
+3:11 actually using both at the same time.
+3:14 And so usually people are like I just
+3:16 have to choose one and then I got to
+3:18 stick with it. But what I found is they
+3:20 have different strengths and weaknesses
+3:23 and that's that's why I choose to use
+3:25 both. And I'll actually show you this is
+3:26 kind of the setup. So this is what it
+3:28 looks like for me. So I'm I have cursor
+3:30 open. So this is cursor and typically
+3:32 what I do is I have a terminal on the
+3:34 right. So typically the terminal I think
+3:36 is on the bottom and you can just drag
+3:37 it to the right and then I just run
+3:39 claude inside on the right here. So now
+3:42 claude is running and then if I want to
+3:44 use cursor and their AI agents I just
+3:47 have to change tabs and then now here
+3:48 I'm using cursor. So I am frequently
+3:51 switching between both cloud code and
+3:53 cursor all the time uh for different
+3:55 purposes and we'll get into why that is.
+3:57 This is how I'm setting it up. And this
+3:59 is actually also how I do the iOS
+4:02 projects as well because a lot of people
+4:04 are always asking how are you doing this
+4:06 with Xcode because I am using Xcode to
+4:08 do the iOS projects. What I'm doing is
+4:10 I'm just opening the folder and the
+4:12 files in cursor. And now when I make
+4:15 changes here, it'll automatically
+4:16 reflect in Xcode and then I can run the
+4:18 app and everything. So this is the
+4:20 current these are the current two tools
+4:22 that I'm using. It's cloud code and
+4:23 cursor. Um, in terms of the actual
+4:26 strengths and weaknesses of these, this
+4:28 is this is why I'm using it. So, Claude
+4:31 Code is extremely good. Um, I'm actually
+4:34 using this model called Opus 4.1. This
+4:36 is my favorite model. It's probably the
+4:38 most powerful model, the best model
+4:39 there is for coding, but it is super
+4:42 limited. Um, they changed their pricing
+4:44 since Cloud Code came out. It used to be
+4:46 unlimited usage. Now it's very limited
+4:49 to the point where I probably can
+4:51 exhaust the opus limit for the week in
+4:53 maybe three or four hours maybe less
+4:55 actually. So I try to use it very
+4:57 sparingly only for very very complex
+4:59 problems. So for very complex problems
+5:01 I'm using clawed code with opus and then
+5:05 but if I'm not allowed to use it because
+5:06 I've exhausted the limit what I'm doing
+5:08 for very complex problems is I'm using
+5:11 cursor specifically with plan mode. Sam
+5:15 Alman, the co-founder of OpenAI, just
+5:17 said that it is the era of the idea guy,
+5:20 and he is not wrong. I think that right
+5:23 now is an incredible time to be building
+5:25 a startup. And if you listen to this
+5:27 podcast, chances are you think so, too.
+5:29 Now, I think that you can look at trends
+5:32 uh to basically figure out uh what are
+5:35 the startup ideas you should be
+5:36 building. So, that's exactly why I built
+5:38 ideaser.com. Every single day you're
+5:41 going to get a free startup idea in your
+5:44 inbox and it's all backed by high
+5:47 quality data trends. How we do it?
+5:50 People always ask. We use AI agents to
+5:53 go and search what are people looking
+5:54 for and what are they screaming for in
+5:57 terms of products that you should be
+5:58 building and then we hand it on a, you
+6:02 know, silver platter for you to go check
+6:04 out. Um, we do have a few paid plans
+6:07 that, you know, take it to the next
+6:08 level. uh give you more ideas, give you
+6:11 more AI agents and more almost like a
+6:13 chat GBT for ideas with it, but you can
+6:16 start for free ideabrows.com. And if
+6:18 you're listening to this, I highly
+6:20 recommend it. And I'm using and this is
+6:23 what plan mode looks like. You can
+6:25 choose between agent mode and plan mode
+6:26 and cursor. Plan mode just means that
+6:27 it's going to actually plan out its
+6:29 steps and thinking and you'll approve
+6:30 it. And here's the hot take I'm going to
+6:33 have here. I am using GPT 5.1 high for
+6:37 plan mode and typically I'm seeing
+6:40 people using sonnet or they're using
+6:43 even GPT5 codecs but for some weird
+6:46 reason and this is a tip I got from a
+6:48 developer friend of mine he was like you
+6:49 need to try GPT5 uh.1 high with planning
+6:54 it's just for some reason so good my
+6:56 hypothesis is that it was not
+6:58 technically built for coding but it's
+6:59 really good for writing and when you're
+7:01 doing planning and doing a lot of
+7:03 critical thinking and you're trying to
+7:04 plan out steps, maybe a writing model is
+7:06 actually better than a coding model at
+7:08 doing that. And then for the execution,
+7:10 when I'm done planning, I do use sonnet
+7:12 4.7, I think. So I use a sonnet model to
+7:15 actually execute. So that's the
+7:16 configuration that I have running right
+7:18 now. It's I use cursor plan mode. That's
+7:21 the important mod. It has to be plan
+7:23 mode with GBT 5.1 high for the
+7:26 execution. And then if I if it can't get
+7:29 it, I use claude 4.1 opus, which again I
+7:31 don't have much of that, so I try not to
+7:32 do it. And then I just switch between
+7:35 claude code sonnet 4.7, so not opus
+7:39 model, and then cursor plant mode. I
+7:41 just switch between them depending on
+7:43 which depending on the task. And then
+7:45 the reason here here's when I would use
+7:47 which one as well. So if you're using if
+7:49 you're doing something very very complex
+7:52 like really complex like it's a bug I
+7:54 actually think claude for uh claw I
+7:57 actually think cursor with plan mode is
+7:59 better. If you're doing something
+8:00 massive like you're trying to architect
+8:02 a whole app in like three or four
+8:04 prompts claude is actually really good
+8:06 at doing that. And then if it's just
+8:07 really small details you can get away
+8:09 with with either if it's not like
+8:10 something complex. And then I just
+8:12 switch depending on what it is. And then
+8:14 for some reason Claude is just better at
+8:16 UI stuff. Um, so this is the
+8:18 configuration that I have going and I
+8:20 have tried Codeex. I've tried I I've
+8:22 tried almost all the coding tools right
+8:24 now at this moment of recording, these
+8:26 are currently the best ones. Um, the
+8:28 other thing that I'll throw in here is
+8:30 um, if you don't have any coding
+8:32 experience, people are always asking me
+8:33 what should I use? Should I use cloud
+8:34 code? Should I use cursor? To be honest,
+8:36 my recommendation is to use a not don't
+8:39 use these platforms. It's actually to
+8:41 really start with something like create
+8:43 anything.com for example. You can also
+8:45 get away using vzero or bolt or
+8:47 something else. But what I found if you
+8:49 want to do mobile apps specifically,
+8:51 I've tested all of them. Create anything
+8:53 is probably the best one at mobile
+8:55 specific. It's just really good at
+8:57 design. It's really good at following
+8:58 instructions. So my recommendation is to
+9:00 use a platform like that first and then
+9:02 if you hit the limits, go graduate to
+9:04 something like cloud code and cursor.
+9:05 And by that point, you should have a
+9:07 better understanding of how to work with
+9:09 AI and how to prompt it to actually use
+9:11 these tools. But the this is the tool
+9:13 set. This is what I recommend. This is
+9:15 what I'm actually using.
+9:16 >> I I gotta ask because you know the vibe
+9:18 coding mobile app space is like the you
+9:21 know
+9:23 next big thing maybe. You know there's
+9:25 definitely a lot of opportunity there. A
+9:26 lot of people want to be able to do it.
+9:29 You know ROR and there's the Vibe Code
+9:31 app are are two of you know popular
+9:34 ones. Um in addition to anything um like
+9:38 have you have you seen them? Have you
+9:39 played with them? Any thoughts? Yeah, I
+9:42 honestly I played with them. I still
+9:45 think at least at the time of recording
+9:47 um anything is a bit better and the
+9:49 reason is for some reason the design
+9:51 sense is a little bit better and its
+9:53 ability to follow instructions is it's
+9:56 just it's so good. It's so good um
+9:58 compared to the other platforms. But
+10:00 again, you can get away with using any
+10:01 of them. They're all using the same
+10:03 models under the hood. I believe they're
+10:04 all probably using the cloud models
+10:06 under the hood. Um it just it's really
+10:08 just also down to preference, I think.
+10:10 So if you prefer the style choice that
+10:14 Vibe Code or ROR has, for sure you can
+10:17 totally do it. But then if you at least
+10:19 for me subjectively, I did kind of like
+10:21 the designs that I was getting with
+10:22 anything.
+10:24 >> Fair. Fair enough.
+10:25 >> And I can actually show you too. Um this
+10:26 is an example of here was something that
+10:29 I actually did create in anything to
+10:31 show kind of what you can do. Um so like
+10:33 like this was something I fully designed
+10:35 in anything with the custom
+10:37 illustrations and interactions. This
+10:39 does surprise people when I tell them
+10:40 that something like this and again these
+10:43 are like custom interactions that are
+10:45 that are happening here like these
+10:47 aren't components or anything. All of
+10:48 this stuff was built in anything in I
+10:51 think less than 24 hours. And
+10:52 >> so wait that was built this was design
+10:54 and built in 24 hours.
+10:56 >> Yeah, this one. Yeah, this one fully
+10:59 fully working. The AI actually works.
+11:00 This one's like an AI calorie tracking
+11:03 app that I wanted to prototype. You take
+11:04 photos of your food and it'll just
+11:06 immediately scan and figure out the
+11:08 calories and everything. Fully built.
+11:10 Um, this one was using anything 24
+11:12 hours.
+11:13 >> Cool.
+11:14 >> Yeah. So, that that's my recommendation
+11:16 on the tooling. And then in terms of
+11:18 models, we kind of went over this. Um,
+11:20 we could go into a quick example of uh
+11:23 just kind of what what it looks like
+11:25 what it actually looks like to vibe code
+11:27 something. So, I know in another episode
+11:29 that we talked about, we were looking at
+11:31 interactions in animations. So,
+11:34 something that I kind of went semiviral
+11:37 in my opinion for was the interaction or
+11:40 the animation for my daily or my my
+11:42 calorie tracking app, Amy. When you
+11:45 search in Amy, it's kind of like typing
+11:47 in Apple Notes. And then on the right,
+11:49 the AI is going to calculate all the
+11:51 calories for you and it'll just appear
+11:53 there. But there's this really nice
+11:54 animation that I have here where you can
+11:57 see that it kind of drops down. there's
+12:00 going to be this little shiny effect
+12:02 that's going on and it shows the
+12:03 sources. So, what I wanted to do is kind
+12:06 of show you guys what it looks like,
+12:08 like how I actually code this stuff
+12:10 really quickly. So, we can kind of go
+12:11 into that and then after that we'll just
+12:13 do some rapid fire tips on on how I do
+12:15 this. So, I have a blank Xcode project.
+12:18 This is just the starting Xcode project.
+12:21 When you run the app, it's just a simple
+12:23 hello world app that should build. Yeah.
+12:26 So, we see it's a hello world app. And
+12:28 again, I have this open in cursor and
+12:31 cloud code. So, what I'm going to do is
+12:32 I'm actually going to let's see if how
+12:34 far or let's just for a little bit. We
+12:36 don't have to do the full thing here,
+12:37 but let's try to replicate what I have
+12:41 here. Um where let's just replicate the
+12:44 animation part
+12:45 >> where it does the searching, the
+12:47 calculating, all that stuff. Let's try
+12:49 to do that so you guys can see what this
+12:50 looks like. So, the way that I would
+12:52 start is I actually let's just use
+12:54 claude. You can again you can either use
+12:56 cursor plan mode or cloud. Let's just
+12:57 use cloud for this case. Um, and one of
+12:59 the tips that I have is I dictate
+13:01 everything. Just I get way more detailed
+13:02 prompts this way. And I'm using a tool
+13:04 called Whisper Flow as well to do this.
+13:05 So, what I'm going to do is I'm going to
+13:07 say, can you modify this so that
+13:11 there's a button and when I click it, I
+13:14 want a an animation to run. It's to
+13:17 simulate an AI searching for nutrition
+13:21 info and calories. So, first I want when
+13:23 you click it, I want it to say searching
+13:26 and I want it to have this shimmering
+13:27 text animation. Then after 1 second, I
+13:31 want that to drop down. And then I want
+13:34 the text to say analyzing and I want
+13:37 that to drop from the top and replace
+13:39 it. And it's going to take its place.
+13:42 And then still with the shimmering
+13:43 effect. Then after that, I want it to
+13:46 say found 10 sources. And then just put
+13:49 three circles to the left of it. and
+13:51 maybe just find some random websites or
+13:53 just put I don't know YouTube, New York
+13:56 Times, Google just so we can get the
+13:58 favicons for those. Make those the
+14:01 sources on the left and then after show
+14:04 calculating then after that show some
+14:06 sort of hard-coded calories all just to
+14:09 show the animation. We just need to
+14:10 hardcode everything and then make sure
+14:12 that when the replacement happens during
+14:15 the animation, maybe we can make it so
+14:18 that it is cut off. So it's all
+14:21 contained on one line.
+14:25 This is the level of detail that I go
+14:26 with my prompts. And then I just ask
+14:29 Cloud Code to do this. So again, that's
+14:30 why I dictate because it would have
+14:31 taken me like 5 minutes to type this all
+14:34 by hand. Um, and this is this is kind of
+14:37 how I this is how I scaffold apps. This
+14:39 is how I'm making my my edits. It's just
+14:40 dictating everything. And I do the same
+14:42 thing in cursor plan mode. Um, I'll just
+14:44 show you too. If we do the same thing in
+14:46 cursor plan mode, um we won't run it
+14:49 there, but I can copy and paste what I
+14:50 just uh what I just dictated here. Um
+14:54 I'll run it in plan mode in parallel so
+14:57 we can see what this looks like. Okay,
+14:58 so now cloud code, we're back in cloud
+15:00 code and it's saying I'll help you make
+15:01 the sequence. Um this will include this.
+15:04 Do you want to do it? So it's asking
+15:05 permission if it can change the files.
+15:07 I'm just going to say yes, go ahead and
+15:09 do it. So now it's running. It's editing
+15:11 files. Um, and then we have CL uh cursor
+15:14 with plan mode. It's it's starting to
+15:16 plan out its steps. Um, again, we're not
+15:18 going to use this one. I just want to
+15:19 show you what plan mode looks like
+15:20 because it's pretty interesting. Okay.
+15:22 And then cloud code is done. So, it says
+15:23 that it did it. So, let's just run it
+15:25 and let's just see what happens.
+15:28 Hopefully, this is okay. Okay. Nice. So,
+15:31 okay. So, it it did actually make this
+15:33 animation, which is interesting.
+15:35 Obviously, not to the level of polish
+15:37 that we need here. So, I might make some
+15:38 quick modifications. So, I'm looking
+15:40 really closely. And here's a pro tip.
+15:42 When you're doing animations and
+15:43 interaction stuff, if you're running the
+15:45 simulator, you can actually click at the
+15:47 top. It says slow animations. It will
+15:49 run it at, I think, half speed or
+15:51 slower. So, you can actually see what's
+15:52 going on here. So, I can see here.
+15:56 Okay. Now, there's even something going
+15:58 on when I do that. Um,
+16:02 like I don't like how it's dropping down
+16:04 and then going back up, it looks like.
+16:06 So, what I'll tell it is something
+16:08 that's wrong with the animation is when
+16:10 something is leaving focus, it's
+16:11 shooting back up. Can you make sure that
+16:13 it drops down? Also, increase the time
+16:15 to 2 seconds for each of the animations
+16:17 so they can show. Let's also make the
+16:19 shimmering effect a little more extreme.
+16:22 So, we'll let this run. Um, and then
+16:25 here's here's cursor with plan mode
+16:26 doing the same thing. What I love about
+16:28 cursor with plan mode and why I think
+16:29 it's better at very complex problems is
+16:32 it's really good at following up. It's
+16:34 really good at asking questions. So here
+16:35 it's asking should the button be usable
+16:37 multiple times? So we'll just say no. We
+16:39 just want to re uh actually yeah replay
+16:41 on every tap for the three sources. Are
+16:43 you okay with stabilized placeholders?
+16:45 Yeah, sure. Let's do that. So it's
+16:47 asking permissions on like what it
+16:49 should do. And then we have cloud code
+16:52 still running here.
+16:54 Okay. So now this is done. So let's see
+16:58 how much closer it got. And again, I
+17:00 don't think we're going to get as close
+17:00 as we want because I think it took me
+17:02 like 20 prompts to get to the level I
+17:04 needed to go, but
+17:07 >> okay, you can see it's a little bit
+17:09 better.
+17:10 >> It's already looking better
+17:11 >> already.
+17:12 >> And then again, if you just do this a
+17:14 few more times, it's inevitable you can
+17:17 get to the level that I have here.
+17:18 That's exactly what I did here. I think
+17:20 it did take again 10 to 20 prompts to be
+17:22 able to get it here. But that's like an
+17:25 hour or two of time to to get it to this
+17:27 level. And it's such a big difference
+17:29 compared to if we don't have it. Here's
+17:30 what it looked like before I added it.
+17:32 Again, there's no like it just kind of
+17:34 just says calculating. There's still
+17:36 kind of a shimmer effect and then and
+17:37 then it shows the calories, but it makes
+17:39 such a big difference. So yeah, that's
+17:41 um that's that's currently how I'm doing
+17:44 it. Uh let's just go back to plan mode.
+17:46 So I'll just show you what this looks
+17:47 like. So when you're using cursor with
+17:49 plan mode, it will actually build out
+17:50 this plan for you. And so it's actually
+17:52 saying what it's going to do. It says
+17:54 step one, it's going to do this. Step
+17:55 two, it's going to wait two seconds, say
+17:57 analyzing, and then you can review this
+17:59 plan. And then when you're ready, you
+18:01 can build it. And then here, I chose 4.5
+18:03 sonnet as the model to build it. And
+18:05 then when you click build, it's actually
+18:06 going to go ahead and do it. Um, so
+18:08 that's that's actually I'm kind of
+18:10 curious what we can do is I'm going to
+18:12 completely restore this. So I'm
+18:15 basically just undoing everything Claude
+18:17 did. Let's just let cursor go ahead and
+18:19 build it. and let's just see what it
+18:21 comes up with so we can compare to see
+18:24 kind of what the differences between the
+18:26 two are. And then maybe you'll you'll
+18:27 kind of see why I switch between them so
+18:30 frequently and why I'm not just sticking
+18:31 with one. I love having them sometimes
+18:33 do the exact same task and then just
+18:35 comparing and seeing which one is
+18:37 better. But that's
+18:38 >> Who do you think Who do you think's
+18:39 going to win?
+18:40 I
+18:42 I actually think Claude Code will win
+18:45 because I found that when it comes to
+18:48 design and interactions and animations,
+18:50 it does have a little bit of an edge.
+18:51 Even if you're using the sonnet model
+18:53 and cursor, for some weird reason, I
+18:55 think it is.
+18:56 >> Let's see if I'm wrong, though. Let's
+18:57 see. I'm actually curious. Um, while we
+18:59 wait for this to go, though, um, what
+19:02 I'll do is let me let me give you a few
+19:05 more. We can just kind of hop into some
+19:07 tips. I know this one takes a little bit
+19:08 of time. Um, so again, these are the
+19:12 tools I'm swapping between the two.
+19:14 These are the models I'm using. Opus
+19:16 4.1, GPT5 high, and then uh, Sonnet for
+19:20 the actual execution. Um, here are the
+19:22 tips that I have that really I think
+19:26 like when I've shared these tips, people
+19:27 are like they they usually pick
+19:28 something up from here where they they
+19:30 add it to their workflow and they're
+19:30 like, "This actually made a difference."
+19:32 Um, so the first one, oh actually, you
+19:34 know, this is done. Let's just see
+19:34 what's going on here. Okay, so cursor is
+19:37 done. Let's see what it was able to do.
+19:43 That's actually not bad first try.
+19:46 >> Actually, you know what? If we're
+19:48 comparing just the first shot, cuz
+19:50 again, that original first shot for
+19:51 Claude was a little bit more choppy.
+19:54 >> This one was actually really good. You
+19:56 can tell though, it's so fascinating
+19:58 that it kind of came to the same
+19:59 conclusion. I think it's because again,
+20:01 we're using the same model here. When
+20:03 I'm using Cloud Code, it's using Sonnet
+20:04 4.5. when I'm using the model here, I'm
+20:08 I'm using sonnet 4.5 for the execution.
+20:10 So that's why they look so so so
+20:12 similar. But it is actually interesting
+20:15 that we got a slightly better result
+20:16 when we did the plan mode first with
+20:19 cursor. So that's actually I I think I
+20:20 do I would choose this one um over the
+20:22 other one.
+20:24 >> Yeah, I think
+20:25 >> it's not bad.
+20:26 >> Objectively, this one was better than
+20:29 >> Yeah,
+20:29 >> the other one. First prompt. First
+20:30 prompt. So
+20:31 >> I think so too. I think so too. Okay, so
+20:33 this is a prime example of like even if
+20:35 you're using the exact same model, if
+20:37 you just use plan mode for example
+20:39 versus no plan mode on curs on cloud
+20:41 code, you can get pretty different
+20:43 results. And that's a big reason why I
+20:46 think you should try to actually, you
+20:48 know, test it with a bunch of different
+20:49 tools. Maybe have two AI tools that
+20:51 you're using for different scenarios.
+20:52 But yeah, this was a very fascinating
+20:54 one. Um, okay. So we'll go into like to
+20:57 be honest, the rest of my workflow that
+20:58 this is kind of what I do. I just
+20:59 dictate everything. I'm constantly
+21:01 trying things. Let me go into some
+21:04 rapidfire tips on how to get the most
+21:06 out of the AI coding tools. This is
+21:08 exactly what I'm doing in my workflow.
+21:10 And then if you need a basic to tutorial
+21:11 on cursor and cloud code, there's so
+21:14 many great ones out there. So the first
+21:15 one is, as we saw, there is a difference
+21:18 when you use plan mode, 100% every
+21:21 action that you take, use plan mode. You
+21:23 get it almost like you give the AI time
+21:26 to think and you will get better
+21:28 results. So, I already showed you what
+21:30 it looks like in cursor when you do plan
+21:31 mode. All you have to do is toggle plan
+21:33 mode here and it's going to give this
+21:35 beautiful plan on the left and when and
+21:37 you can review it, ask for changes and
+21:39 then when you're ready, you click build.
+21:41 Unfortunately, it's not as beautiful in
+21:43 cloud code. So, let's let me show you
+21:45 what this looks like. You can actually
+21:46 hit shift tab and it'll change it to
+21:49 plan mode here. And now when you ask
+21:51 Claude code to do something in plan
+21:53 mode, it's going to kind of do the same
+21:55 thing that cursor does where it's going
+21:57 to think through come up with a plan and
+21:59 ask you to review it. But what I have
+22:01 found at least at the time of recording,
+22:03 cursor's plan mode is stronger than
+22:06 claude codes, which is why I use cursor
+22:08 plan mode for insanely complex problems.
+22:11 It just somehow thinks about it a little
+22:12 bit better. It asks better follow-up
+22:14 questions. But that is tip number one.
+22:16 Um, and then here's here's claude code
+22:18 asking for things. It's like, "Yeah,
+22:19 here's my plan." You can already just
+22:21 tell like, "Oh, actually, this is not
+22:23 fair cuz it's it's it's looking at the
+22:24 current code right now." But typically,
+22:27 this is what happens. It tells you its
+22:28 plan, and then it's up to you to just
+22:29 review and approve it. It will not be as
+22:31 detailed as cursors plan. Like, cursor's
+22:33 plans are just so detailed. They're
+22:35 very, very good. So, that's tip number
+22:36 one. It's use plan mode. I'm pretty sure
+22:39 if you do this, the output will probably
+22:41 at least increase by 20% at minimum if
+22:44 you just do this. So, 100% do this. It's
+22:46 also good to just review what it's about
+22:47 to do as well. like it's better than
+22:49 just letting it run, you know, run
+22:51 through your codebase and then you have
+22:52 to retroactively go uh or yeah, you have
+22:54 to go back and try to fix it. This is
+22:56 just a way better way to do it. Um,
+22:58 second tip, this is specifically with
+23:00 Claude Code. It's to use the keyword
+23:03 ultraink. So, this one is actually a
+23:06 special keyword that Claude Code has.
+23:09 And I'll show you. If you type in can
+23:12 you fix this issue and you type in
+23:15 ultrathink it actually changes colors
+23:18 because it is doing something when you
+23:20 type this in claude code is actually
+23:22 going to think a little bit harder about
+23:24 the problem. I'm assuming that it uses
+23:27 up more tokens and more usage when you
+23:29 do this, but to be honest, I think I use
+23:30 Ultraink in 90% of my messages. And I
+23:34 have not really found that it's impacted
+23:36 my my token usage versus if I don't do
+23:39 it, it seems like it's about the same.
+23:40 So, there's no reason not to do it. So,
+23:42 when you're stuck on a complex problem,
+23:43 just type ultrathink and Claude will
+23:45 think maybe I'm assuming it seems like
+23:48 it takes twice as long, so maybe it
+23:50 thinks twice as hard or something, but
+23:52 this is a keyword I'm very surprised
+23:54 people don't know about. So you will get
+23:55 a lot better results when you do this. I
+23:57 don't think there is one in cursor. It
+23:59 doesn't highlight, but I think you can
+24:00 still say like ultra think and cursor.
+24:02 If you're using sonnet as the model, I
+24:04 think it will work too, but there's no
+24:06 nice color animation or color thing here
+24:08 to show that it is actually doing
+24:10 something. So that's the that's my
+24:12 second tip. The next tip is in cloud
+24:16 code, you can actually run background
+24:19 tasks. So this is where you can tell
+24:22 cloud code, can you run the server in
+24:23 the background for me? This is something
+24:25 I think they only added in the last
+24:26 month. So, this is a relatively new
+24:28 thing, but what this does is Cloud Code
+24:30 will literally run your server in the
+24:32 background. So, it's running just like
+24:33 you would in the terminal. But the
+24:35 important part is it now has access to
+24:37 your server logs. So, when you're
+24:39 running and when you're coding with
+24:40 cloud code, it can now access this
+24:43 during debugging. So, if you're like,
+24:44 hey, why is this not working? It will
+24:46 then you don't have to copy and paste
+24:48 things and say, hey, the server's
+24:49 crashing, take a look at this. It just
+24:51 has access to it. And this is a massive
+24:53 one which I just don't see people doing
+24:55 either. Um I think it's probably because
+24:56 it's a recent thing, but I'm constantly
+24:58 telling it, hey run, all you have to do
+24:59 is say run the server in the background
+25:01 for me and you'll see this thing that
+25:03 says one background task and it's
+25:05 basically running it. So I'm I'm
+25:06 constantly using this. This is another
+25:07 big one. Uh the next one is MCP servers.
+25:11 So last time I came on the podcast, I
+25:13 was not using MCP servers. Um and to be
+25:16 honest, I didn't understand like what
+25:18 all the hype was about with MCP servers.
+25:20 I now understand like where they're
+25:22 useful especially for coding. So there's
+25:24 two MCP servers that I'm currently
+25:26 using. The first one is called Contact
+25:27 7. It's a free MCP server. Basically it
+25:30 just lets you access the latest version
+25:33 of a lot of different documentation and
+25:35 it's very compressed and very well
+25:37 formatted for an LLM. So instead of what
+25:40 I typically would do is I would just get
+25:41 the documentation for something like
+25:43 let's say I wanted to integrate Posthog
+25:45 Analytics into my app. I would typically
+25:47 say, "By the way, here's the link to
+25:49 Post Hog. Go implement it for me." But
+25:51 the problem with that is now it has to
+25:53 go scrape it. Maybe it doesn't do it
+25:54 correctly. Or you can use context 7,
+25:57 hook up the MCP server, and you're
+25:59 basically giving Claude code and cursor
+26:01 tools. And now it has access to context
+26:04 7, which now I can just say, "Oh, make
+26:07 sure to use the latest documentation for
+26:09 Post Hog. Please use the context 7 MCP."
+26:11 And when you do this, it's going to use
+26:14 like context 7, pull the latest
+26:15 documentation, really compressed, really
+26:18 really more digestible for cloud coder
+26:20 cursor and it it will just it will just
+26:23 use it way better than you trying to
+26:24 feed it in through a URL or something.
+26:26 So that's the first one. Second one I'm
+26:28 using now is superbase. Um, so this one
+26:32 is I'm probably going to get some heat
+26:34 for this, but because a lot of
+26:36 developers are probably going to say,
+26:37 "Oh, this is not secure. Why are you
+26:39 doing this?" But in my experience, this
+26:42 MCP, and you can use this for Firebase,
+26:43 you can use this for whatever database
+26:45 you're using, is so powerful to
+26:48 correctly set up a project for you. So,
+26:50 I'm constantly using this to set up
+26:51 projects from scratch. Because before I
+26:54 would have claude code do all the coding
+26:55 and everything, but then I would have to
+26:57 manually go set up my database, make
+26:59 sure I'm configuring rules correctly. I
+27:01 would argue that if you are using a tool
+27:04 like Superbase MCP where cloud code has
+27:07 full access to superbase, it can spin up
+27:09 everything for you. It actually might be
+27:11 more secure because it has caught things
+27:13 that I have manually configured wrong.
+27:15 Like it has set up the security rules
+27:17 better than I would have done to be
+27:18 honest. And so this is something where I
+27:21 actually do recommend if you're a
+27:22 beginner or if you're a seasoned
+27:24 developer, it's really helpful to use
+27:26 this. And if you're a developer and you
+27:27 don't trust it, at least use the
+27:29 Superbase MCP to read your configuration
+27:32 and just double check your work. So you
+27:33 can just say, "Hey, I set up the
+27:35 Superbase uh server. I set it all up.
+27:37 I've hooked it up. Can you just double
+27:38 check that I set it up correctly? Check
+27:39 all the security rules. Check all this
+27:41 stuff. Check the indexes so the
+27:43 performance is good." This is a really
+27:45 powerful MCP. And again, you can do this
+27:47 for Firebase. You can do this for AWS.
+27:49 They have an MCP, I believe, as well.
+27:51 And it's just such a such a powerful
+27:53 way. just give give Claude code cod or
+27:56 cursor access to these tools and
+27:58 anything you can do in the UI they
+27:59 they'll be able to do. Um when I'm in
+28:01 production though I will say I am way
+28:03 more cautious about using it because you
+28:05 it could just delete your entire server
+28:07 if it wanted to and just delete the
+28:08 database. So I am a little bit more
+28:10 cautious but I still do run this in
+28:12 production though because it is it just
+28:14 so much faster for my workflow to to use
+28:16 this. So those are the only two that I'm
+28:18 seriously using right now. I'm sure
+28:20 that's going to change in a few months
+28:21 though. Um, like I'm going to probably
+28:23 play with the Figma MCP now and and test
+28:25 this out more. But yeah, these two are
+28:27 very good. Um, the next one is this is a
+28:31 very this is a very big one for solo
+28:33 developers or anyone that has no coding
+28:36 experience right now. There are a couple
+28:39 of AI coding tools that can review your
+28:43 code for you. And specifically if you
+28:45 open a pull request in GitHub. So let's
+28:47 say you make a bunch of changes and you
+28:49 open up like like if if you have any
+28:52 coding experience, you know that the
+28:53 proper way to do something is you add
+28:55 your code to GitHub and then another
+28:57 developer reviews it before it gets
+28:58 merged into production. If you're a solo
+29:00 developer, you have you don't have that
+29:02 luxury. There's really no one who can
+29:04 review your code. So, I'm using tools
+29:06 like Bugbot and Cloud Code has one as
+29:09 well where it can actually live inside
+29:12 of your codebase and anytime you open up
+29:14 a pull request or you want someone to
+29:16 review your code, it will do it for you.
+29:19 And I will say these tools when you hook
+29:22 them up, it is so much better than
+29:24 trying to do this inside of Cursor or
+29:26 Cloud Code itself because I think these
+29:28 are maybe custom models or something,
+29:30 but they're specifically trained to
+29:32 identify security issues and bugs. And
+29:34 so what I'm doing is I have them hooked
+29:36 up to all my repos and it has caught so
+29:38 many things for me. And again, it's
+29:40 stuff that I am a pretty experienced
+29:41 developer I believe, but I mean I'm
+29:44 working so fast. I'm moving so quickly.
+29:45 It's just inevitable that bugs will be
+29:47 introduced, security vulnerabilities
+29:48 will be introduced. It gives me so much
+29:50 peace of mind. And I think the cursor
+29:52 one is just $40 extra per month. Totally
+29:55 worth it. Totally worth it for peace of
+29:56 mind, especially from the security
+29:58 security perspective. So I recommend
+30:00 hooking this up. It's a hack for solo
+30:02 developers and for vibe coders who are
+30:04 really worried about the security. Best
+30:06 $40 you'll probably ever spend for to be
+30:08 able to sleep at night knowing it's
+30:10 everything is secure. Um the next thing
+30:13 which is uh then the next thing is
+30:14 dictation. Um this is as you saw when I
+30:18 was dictating when I was trying to use
+30:20 cloud code I was dictating my prompt.
+30:22 It's because you can just get way more
+30:24 detailed prompts and then that will help
+30:26 steer the AI in a way better direction.
+30:29 I actually didn't think this was a big
+30:30 deal, but then when people started
+30:32 seeing me do this in my videos, I I
+30:34 didn't know people weren't doing this.
+30:35 Like, and that was something where
+30:36 people were like, "Wow, I just
+30:38 downloaded this. Yeah, my AI coding has
+30:40 dramatically improved because I'm
+30:42 dictating everything now." So, that's
+30:44 another hack. 100% recommend dictating.
+30:46 You can use Whisper Flow like I'm using.
+30:48 There's also some other tools, but
+30:49 Whisper Flow is really great because it
+30:50 has built-in developer terminology, so
+30:52 you can say developer terms and it kind
+30:54 of understands it already, too. Um the
+30:56 last tip that I have is to use claude
+31:01 for deep research on technical issues.
+31:04 So something a lot of people don't know
+31:05 is that if you are paying for claude
+31:07 code, you also have increased usage
+31:10 inside of claude desktop like the chat
+31:12 app and you can actually use it to do
+31:15 deep research for you. And so what I'm
+31:17 doing frequently is I'm actually asking
+31:19 it, hey this is what I'm about to do in
+31:22 my app. So I'm again I'm a pretty
+31:23 experienced developer I think. So, I ask
+31:25 it, "What's the best way to store data?
+31:27 I'm looking for something similar to
+31:28 this in React. What do you think?" And
+31:31 it will go and it will look for 12
+31:33 minutes straight and look through all of
+31:35 the documentation and try to find the
+31:37 best way to do this. And then it'll just
+31:39 summarize everything for me. And then I
+31:41 can just take that and then review it
+31:43 obviously and then I'll send it over to
+31:44 Claude Code and say, "Hey, can we
+31:46 actually do it this way cuz I think this
+31:47 is a better way." So, this is a great
+31:49 way if you're a developer to double
+31:52 check, are you implementing them
+31:53 correctly? learn some new concepts and
+31:54 then if you're just getting started out
+31:56 this is also a great way if you can just
+31:58 ask it hey I've never done this before
+32:00 what is the best way for me to store
+32:02 data so this is something that I am very
+32:04 surprised I don't see a lot of people
+32:06 taking advantage of especially
+32:07 non-technical people especially people
+32:09 who are just starting to vibe code you
+32:11 like you don't have to call your
+32:12 developer friends anymore and say hey
+32:14 how do I set up this like how should I
+32:15 structure my app just use cloud
+32:17 especially if you're paying for cloud
+32:18 code already and then obviously double
+32:20 check it and if you don't know what
+32:21 you're doing you can ask a follow-up
+32:23 question. So you can say, why did you
+32:24 choose this pattern? Okay, what other
+32:25 patterns exist? There's also a great way
+32:27 to learn as well. So this is probably
+32:29 it's a win-win if you use something like
+32:31 this and then you can just feed it into
+32:33 cursor and cloud code and then it has
+32:35 access to this. It's able to implement
+32:37 it for you. And yeah, I I've just I
+32:39 found so many things that I've done not
+32:41 wrong, but I could have done better
+32:43 because I use Claude's deep research.
+32:46 So, I I know this wasn't a full-on
+32:48 coding tutorial, but these were just a
+32:51 couple of things that I've been telling
+32:54 people in my YouTube videos, and I've
+32:56 gotten a lot of comments saying, "Yeah,
+32:58 the these are very helpful tips." Like,
+32:59 people did not know Bugbot existed.
+33:01 People did not know deep research
+33:02 existed. So, hopefully there's some cool
+33:04 stuff that you can take and apply to
+33:05 your own AI coding workflow.
+33:07 >> I appreciate you. I think we're all
+33:09 trying to get the most out of these vibe
+33:11 coding platforms and little tips and
+33:14 tricks help like this especially a lot
+33:16 of us are you know solo devel solo
+33:20 builder solo developers right so
+33:23 it's not like we have people in in real
+33:26 life to talk to so this is helpful and I
+33:29 just want to thank you for coming on and
+33:30 and and spreading that spreading the
+33:32 sauce with us and
+33:34 >> um I'll include where you can go find
+33:37 Chris and get more of him in the show
+33:39 notes, so you can check check that out
+33:41 there. And uh Chris, don't forget about
+33:43 us. Come back on again.
+33:44 >> Yeah, for sure. For sure. Yeah. Thanks
+33:46 so much for having me, Greg. Really
+33:47 appreciate it.
+33:48 All right.

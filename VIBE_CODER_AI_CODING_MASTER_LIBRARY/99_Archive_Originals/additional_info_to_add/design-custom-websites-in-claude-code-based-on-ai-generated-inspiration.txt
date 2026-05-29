@@ -1,0 +1,258 @@
+Design Custom Websites in Claude Code Based on AI-Generated Inspiration
+
+0:00 So, I have an event coming up on the
+0:01 26th of May. I use Claude to kind of
+0:04 help me generate a text. I obviously
+0:06 didn't like the design that Claude gave
+0:08 me for a poster, and Canva is still a
+0:10 very template-first tool. You browse and
+0:13 you look for something that looks close
+0:14 enough, and then you're back to that
+0:16 manual design process. But, what if you
+0:18 can just grab this text, find a
+0:20 reference like something like this, and
+0:22 then eventually come up with your own
+0:23 custom design based on that inspiration,
+0:25 but with that original text that I
+0:27 needed for my own design? And that's
+0:29 what Vizual AI does. It doesn't just
+0:32 give you the nice output, but it also
+0:34 gives you the ability to edit the text
+0:36 over here, continue chatting with an AI
+0:38 to further improve your design, and
+0:40 eventually grab this frame and export it
+0:42 as an HTML file, which you can then
+0:45 eventually bring into Claude code and
+0:47 build out your own custom website based
+0:50 on that initial design that Vizual gave
+0:52 you. And guys, by the way, my name is
+0:53 Lucas, and if you're into these types of
+0:54 topics, please feel free to join my
+0:56 Discord community. Link is down below
+0:58 where the Creator Network we get
+0:59 together every single weekday to talk
+1:00 about different tools and topics. So,
+1:02 yeah guys, if you want to join, link is
+1:04 down below. All right guys, so what
+1:05 actually is Vizual AI? Vizual is a
+1:08 content-first design tool, and I
+1:09 actually want to break down what that
+1:10 means. Like I said in the beginning, if
+1:12 you were to go to canva.com, you have a
+1:15 bunch of templates that you can explore.
+1:17 Let's say for example, we we like this
+1:18 one.
+1:19 We can click on customize a template.
+1:21 And once we're in, we can, you know,
+1:22 change the text, we can change the
+1:24 images, we can even ask Canva to do
+1:26 certain changes for this template, but
+1:28 we can't really like reference this
+1:30 template and start from something
+1:32 scratch. With Vizual, it's actually a
+1:33 little bit different. We start with the
+1:35 content rather than choose a template
+1:37 first, and then change the content at
+1:39 the end. You can paste in your words,
+1:41 you can paste in docs, reference
+1:43 designs. You just describe what you
+1:45 need, and this tool builds it. And as
+1:47 you can see down here, it supports
+1:48 different formats for social media, for
+1:51 marketing, for print. You can create
+1:53 LinkedIn carousels, Instagram carousel,
+1:55 basically every single marketing asset
+1:57 that you would need. All right, so I'm
+1:59 going to walk you through a few examples
+2:01 and just pay attention to two things.
+2:02 How fast the output gets there and how
+2:04 much control you have once the design is
+2:07 generated. So, for example, when we're
+2:08 going to go up here to the top left and
+2:10 click on magic templates. And under
+2:12 magic templates, you have a bunch of
+2:15 different categories from social media
+2:17 to album covers to health care uh
+2:20 themes. Under social media, you have a
+2:22 bunch of different examples of social
+2:25 media posts that you can kind of copy
+2:27 and remix. And this is like the cleanest
+2:29 way to kind of understanding what Viso
+2:31 does, so I'm starting here. And let's
+2:32 say for example, we really like this
+2:34 one. We can copy this style and then we
+2:36 can paste that style in the prompt in
+2:38 the original prompt box and also add in
+2:41 extra text just to give it some more
+2:43 context as to, you know, who the main
+2:45 subject is, what the title should be,
+2:47 what the main headline should be. And
+2:49 then we want to paste that in the in the
+2:50 original prompt box here in the main
+2:52 site and also add an extra text to kind
+2:55 of give Viso additional context as to
+2:58 who the main subject should be, the
+2:59 titles, the headlines, the dates, the
+3:01 background details. And then again, you
+3:03 can go down here and you can adjust the
+3:04 size. I'm just going to keep this to
+3:06 auto and then we can go ahead and click
+3:07 on generate design. And once we hit
+3:09 generate design, this is the first
+3:12 result that we get. So, as you can see,
+3:14 we have our date, we have our
+3:15 sub-headline, we have our main headline,
+3:17 we have the secondary headline, we have
+3:19 the paragraph text over here. I can go
+3:21 ahead and select certain things. I can
+3:23 put my name over here if I wanted to. I
+3:25 can delete certain things like this, for
+3:26 example, move things around. I can
+3:29 change the fonts of certain text over
+3:31 here. And then again, if you want to,
+3:33 you know, make certain changes, you can
+3:35 do so over here in the chat. And if
+3:36 you're done with your design, you can go
+3:38 ahead and share this. I'm going to be
+3:39 doing this in a couple of minutes. But
+3:41 for example number two, I'm going to
+3:42 start working with a
+3:44 much more complicated piece of text. It
+3:46 has two pages, it has multiple
+3:48 paragraphs, it has a lot of context. And
+3:50 then what I'm going to do is I'm going
+3:51 to go back to the prompt and import this
+3:54 document. Just going to write something
+3:55 simple, create a multi-page deck for
+3:57 this PDF document. We're going to make
+3:59 sure that we have multi-page brochure
+4:00 selected over here. And for the aspect
+4:02 ratio, I'm going to choose landscape.
+4:04 And what we get is the following. We get
+4:06 four different pages, the genetic shift.
+4:08 We have page number one, page number
+4:09 two, and then we have the back cover.
+4:11 But what if we wanted to make the style
+4:14 of this this multi-page brief that we
+4:16 just created and match it to this
+4:18 poster, right? Because it's all going to
+4:19 be in the same brand. Well, what we can
+4:21 do is we can reference that design. So
+4:22 you can go over here and again click on
+4:24 share and export this as a PNG. Then you
+4:27 can just simply add that to the chat
+4:29 over here and say, "Please adjust the
+4:30 design to match this style." And lo and
+4:33 behold, we have our new design with our
+4:34 new pages. So actually, they're the same
+4:36 pages, but just the design the new
+4:38 design has been applied. So as you can
+4:40 see, um basically new font, new colors,
+4:43 same layout, just this new adjustment
+4:46 that was brought in from that poster
+4:48 that we created earlier. And again, just
+4:50 like with the poster, everything is, you
+4:52 know, you can edit anything. So you we
+4:54 can click on this. We can change the
+4:56 font, we can change the size, we can
+4:58 make it bold, italic, change the color,
+5:01 you know, pure control for, you know,
+5:03 for customizing everything. Now for the
+5:04 final example, what I want to do is I
+5:06 have this text that I want to convert
+5:08 into a LinkedIn carousel to share with
+5:11 my LinkedIn network that are local and,
+5:14 you know, want to be motivated to to
+5:16 join this event that I'm hosting. And
+5:17 this text was generated by AI, so I want
+5:19 to simple way to kind of convert that AI
+5:23 text into an actual LinkedIn carousel.
+5:27 And what I can do here is again, I can I
+5:29 can, you know, download this into a PDF
+5:32 file. And then we can go back into
+5:35 Vizard and select the carousel and then
+5:37 we can obviously import the content from
+5:40 our docs. And once we have that, we can
+5:42 select social media and then scroll down
+5:44 to where we see LinkedIn. So we have
+5:46 LinkedIn post. and you can also select
+5:49 this option over here, which basically
+5:51 gives you like a
+5:53 a template of how you can structure each
+5:55 slide, but I'm just going to start this
+5:57 from scratch. I'm going to go ahead and
+5:58 click on generate design. And for the
+6:00 first look, it looks really good. I
+6:01 mean, obviously it doesn't have our
+6:03 design
+6:05 you know, our original design style with
+6:07 the colors and all that applied to this,
+6:10 but it looks good. It gives me a good
+6:11 direction, gives me some good ideas as
+6:14 to, you know, what design we can we can
+6:16 eventually do.
+6:18 We have like little posted notes that I
+6:19 like over here. But then again, just
+6:21 like with the other one, make the design
+6:23 fit the style, add that reference that
+6:25 we saved that we exported from that
+6:27 original poster. And then as you can
+6:29 see, we have our new design applied to
+6:30 it. Beautiful stuff, new font, we have
+6:33 our image from before. You can scroll
+6:35 down. Matches the same style that we
+6:37 want. We have these like new gray
+6:39 sections that I really like. Lean in or
+6:41 get left behind. Rewire your workflow,
+6:43 which is basically like the call to
+6:45 action. And perfect. So, we have some
+6:47 cool designs that I like. Now, what I'm
+6:49 going to do is I'm going to actually
+6:50 select certain frames like this one and
+6:53 like this one. And then we're going to
+6:55 go ahead and click on share and click on
+6:57 export. And we can manually export the
+6:59 ones that we want to, you know, export.
+7:01 So, I'm going to choose these. Let's say
+7:03 these three over here and select the
+7:06 format to be HTML. And let's go ahead
+7:09 and export this. And then inside of
+7:11 CloudCode, you can start up a new
+7:12 session. Again, you just want to go over
+7:14 here and you want to select the folder
+7:15 where you want to work in. And then as
+7:17 you can see over here, the first thing
+7:18 that I did was I just referenced that
+7:21 file. I literally just attached it over
+7:23 here to the to the prompt.
+7:25 And I said, "Can you create a landing
+7:27 page based on the contents and design
+7:29 from this?" And literally, I'm not
+7:30 joking, the first try we get this, which
+7:33 looks amazing, really. Maybe some of the
+7:36 fonts are wrong, but all in all the
+7:37 design looks really, really fantastic.
+7:40 And again, over here if you want to
+7:41 change certain things, we can go back to
+7:43 Vizzle and select this font that I
+7:45 really like, the VT323. And we can say
+7:47 change the header font to be VT323. And
+7:50 then we start getting this new custom
+7:52 font throughout our site. So yeah, guys,
+7:54 that's pretty much the entire workflow
+7:56 using Vizzle to look for inspiration and
+7:58 to actually create designs based on your
+8:01 content, going ahead and creating these
+8:03 designs as you can see over here, and
+8:04 then simply just exporting the designs
+8:06 that you want and importing them into
+8:09 CloudCode where you can then eventually
+8:11 build up your own landing page or your
+8:12 own web app based on that original
+8:14 design. So it's a cool little like
+8:15 CloudCode design hack that you can try
+8:18 out today. So yeah, guys, if you have
+8:19 any comments or questions, please let me
+8:21 know down below. And like always, thank
+8:22 you all so much for watching. Hope to
+8:24 see you next time. Goodbye.

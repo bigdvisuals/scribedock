@@ -1,0 +1,1260 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=SBbAcXlmfe0
+Channel: Riley Brown
+Video ID: SBbAcXlmfe0
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 This is the fastest way to build a
+0:02 mobile app with Cursor. You can start by
+0:04 building the app from your phone and
+0:06 then share it with Cursor. And then in
+0:08 less than an hour, you can have the app
+0:10 sent to the app store. In this video, we
+0:12 created an app that lets me and my
+0:14 friends swipe on movies like Tinder in a
+0:16 room. And when we both liked one, we
+0:19 matched. We can immediately share the
+0:20 app with friends and then we sent the
+0:22 app to the App Store for review in under
+0:26 an hour. We're going to show you every
+0:27 step of the process. Let's dive in. So
+0:30 whenever I want to start building a
+0:32 mobile app, I always start in Vibe Code.
+0:34 So I usually just start by describing my
+0:36 idea in simple language. I want a movie
+0:41 matcher app that allows me and my
+0:44 friends to swipe on the same set of
+0:47 movies and then when we both find a
+0:51 match, it will show us which movies we
+0:53 match for. I can click start game. Then
+0:55 I can enter a room. So like a room is
+0:58 generated with a random fourdigit pin. I
+1:01 can put in that pin and my friends would
+1:03 put that in as well. And then we both
+1:05 enter the same room and we swipe on the
+1:07 same movies. Start by just building out
+1:09 the front end for this. Don't worry
+1:11 about the backend features. We can just
+1:13 use some mock data for right now. And
+1:16 yeah, and I'll click generate and wait
+1:19 till Vibe Code generates me a great
+1:21 first draft of this product. Your
+1:23 problem statement is that like when you
+1:25 and friends sit down to try and watch a
+1:27 movie, you spend like way too much time
+1:30 trying to pick a movie. Yeah, I think
+1:32 everyone's faced this problem. So, we
+1:34 can see what the agent is doing right
+1:36 now. It says, "I'll build a movie
+1:37 matcher app with a game-like interface
+1:40 where you and friends can swipe in
+1:41 movies and find matches." So, it's
+1:43 exploring the existing template and
+1:45 building the movie matcher app with
+1:46 state management, navigation, and the
+1:48 screens that we need. All right. So, the
+1:50 app's done now and let's see how it
+1:52 looks.
+1:54 Cool. So, we have Movie Matcher the
+1:56 game.
+1:58 Um,
+2:00 start new game.
+2:02 Ooh.
+2:04 Okay. So, it has the little It has
+2:05 swipes, but it's kind of stuck at the
+2:08 bottom. Just take a screenshot. Yeah,
+2:10 that's a good idea. It looks pretty
+2:12 good, though. Look at that. No, it does.
+2:14 I I think it looks good. It just needs
+2:16 to be centered and Yeah. So, I'll take a
+2:18 screenshot and I'll add that screenshot
+2:20 here. I'll be like when I start a room
+2:24 and begin playing the game and the cards
+2:26 load up with the movies for the various
+2:30 movies that I have to swipe on. The
+2:31 swipe animation's great, but the cards
+2:34 show up in like the bottom right corner.
+2:36 I think there's some issue with the
+2:38 spacing, the sizing, or the padding. It
+2:40 should be in the center and it should be
+2:43 large and take up like a large chunk of
+2:45 the screen. So I I think you know think
+2:47 logically around how you set up that
+2:50 screen and make sure that you logically
+2:52 construct it such that this issue
+2:54 doesn't happen. I've also attached an
+2:56 image for your reference.
+2:59 Very well put together prompt there. I
+3:02 love it. You've done this a time or two.
+3:04 I like I think it's really good to
+3:05 include images when especially with like
+3:08 design changes. Yeah. Yeah. Because it
+3:10 can usually figure out what the problem
+3:12 is pretty quickly. Okay. So what was the
+3:15 other feature? So you could hit new
+3:16 game. What was the other button? Join
+3:18 game. Join. Oh, nice. Nice. So, so
+3:20 essentially when we get this app to
+3:22 cursor, we'll set up the back end such
+3:24 that each time you can create these
+3:26 rooms and then rather than like having a
+3:29 whole system where you add friends and
+3:30 like complicating it. Let's just keep
+3:32 rooms and so you join a room. Could you
+3:35 potentially add a feature that you go
+3:38 share and like you can send it to me on
+3:40 text, click on it, immediately join the
+3:42 room. Yeah. Okay. Sick. We can
+3:44 definitely add that. It's a good idea.
+3:47 And then yeah, I'll download the app.
+3:48 Like you'll be able to send it to me.
+3:50 So, it looks like it figured out the
+3:51 issue and it's trying to fix it right
+3:53 now. Okay, we can see if this made the
+3:56 edit. We can start a new game. And cool.
+3:59 The cards are centered now. And we can
+4:01 swipe on them. Wow, that animation. Oo,
+4:04 that looks pretty good, actually. This
+4:05 would have taken me like two hours to to
+4:07 code out back in the old days.
+4:11 Wow. Um, kind of a smooth animation the
+4:13 way it flies off and it turns red or
+4:15 green. Yeah. Can I try it? Yeah, go for
+4:17 it. Oh, that's kind of nice, actually.
+4:22 Okay. All right. Cool. Um, so maybe we
+4:25 want these like buttons to to appear
+4:28 below the card. And then maybe we want
+4:32 there to be some haptics. That could be
+4:34 fun. So we can say
+4:37 make sure the red cross dislike button
+4:42 and the green heart like button appear
+4:45 below the cards which have the movie
+4:50 details and add some haptics when I
+4:56 swipe left and right on the carts and
+5:00 cook. So you want to explain haptics for
+5:03 those who are brand new to vibe coding?
+5:06 Yeah. So when you make native mobile
+5:08 apps and you know if I made this on
+5:11 lovable or bolt or any of those other
+5:14 tools, you couldn't add things like
+5:16 haptics or you couldn't do things easily
+5:19 like camera access, contact access,
+5:22 calendar access. The good part with
+5:24 building native mobile apps with cursor
+5:26 and web code is that you can
+5:30 use these native libraries like haptic.
+5:32 So you can make your phone go likez, you
+5:34 know, satisfying feeling like on the cat
+5:36 GPT app um when like it's loading a
+5:39 response, you get that nice little like
+5:42 vibration thing and it makes it feel
+5:45 like almost alive in a way. Yeah,
+5:47 exactly. Okay, cool. It made the update.
+5:49 Let's check this out. Start new game.
+5:52 Okay, amazing. That looks so good. Then
+5:54 it looks really good. Yeah, we can just
+5:56 we can just ship this to cursor now.
+5:58 Okay, so we're moving to cursor. Why are
+6:00 we doing that? We want to do a few
+6:01 things in cursor. One, we want to add
+6:03 some assets that is required by Apple to
+6:06 submit our app to the app store, which
+6:07 is the icon, the splash screen, and
+6:11 things like our website, privacy policy,
+6:13 that kind of stuff. And then two, we
+6:15 want to add backend functionality. So we
+6:17 want to actually, you know, have rooms
+6:20 that are on Firebase and currently we
+6:24 need to install packages and do things
+6:25 that are currently not supported with
+6:28 the vibe code app. Amazing. So to do
+6:30 that on cursor, we can just open the
+6:34 menu here, click connect to S, connect
+6:36 via SSH, copy this command, open a
+6:40 cursor window, click connect via SSH.
+6:43 It's the same thing. Okay. So, so, okay,
+6:45 let's go slow here just because I'm
+6:46 trying to figure out how we're doing
+6:47 this. So,
+6:49 um, on the Vive Code app, when you press
+6:51 share, you press you press menu, you can
+6:54 click connect via SSH. Amazing. It opens
+6:57 up this and then you just open up any
+6:59 new cursor window. Yeah. Or Windsurf or
+7:02 anything, you know, it's the same for
+7:04 Windurf. So, I copy it from the Vive
+7:07 Code app. Then I click connect via SSH
+7:09 and cursor right here. And then I click
+7:12 add new SSH. Don't you paste it and then
+7:14 you hit add new SSH? It doesn't matter.
+7:17 Okay. Yeah. I I click add new SSH host
+7:20 cuz we're connecting to a new project.
+7:22 We're going to add a new host. And then
+7:25 it says enter this command. That's
+7:26 example SSH hello at Microsoft. We can
+7:30 see that our SSH command on VI code
+7:32 looks very similar. Mhm. Um it starts
+7:35 with SSH. So we can just paste that in
+7:37 and press enter. And then we can just
+7:40 press enter for the first one. Okay. And
+7:43 then it says host added. We can click
+7:46 connect. So this will open a new cursor
+7:48 window. And it says, do you want to
+7:51 continue? The first time you connect to
+7:53 a new project, it'll say this. Um but it
+7:56 shouldn't after that. Just click
+7:58 continue. And then it says enter a
+8:00 password. Again, we can copy that. Okay.
+8:03 So the vibe code app gives you the SSH
+8:05 command which we've already copi copied.
+8:07 And it also gives you a password which
+8:09 we use here. Yeah. And then we'll paste
+8:11 the password and click enter. Amazing.
+8:15 And then it'll take a few seconds. I'll
+8:18 just position my window here. There we
+8:22 go. Um, so at the bottom it'll say
+8:24 downloading VS Code server. Wait until
+8:26 this is done and the loading here stops.
+8:30 So now it's done um setting it up. And
+8:33 there there we go. You'll also know when
+8:35 this clone repository button um pops up.
+8:39 But let's start by opening the folder
+8:42 that we want. So this when you click
+8:44 open folder, click on workspace. That's
+8:47 going to be the workspace that you're
+8:48 working in.
+8:50 And then click okay. Okay. So it should
+8:53 be the the one on the far right should
+8:55 be workspace. Yeah. Okay. Um now we've
+8:58 opened the workspace and this is your
+9:00 project uh project's code. Um, don't
+9:03 worry about these environment variables.
+9:05 They are our personal secret environment
+9:08 variables in the Vibe Code app that it
+9:12 doesn't matter if anyone has access to
+9:13 because they're they're fake. Um, one of
+9:15 the cool things about the Vibe Code app
+9:17 is you don't need to put in any of your
+9:18 environment variables. It will just
+9:20 replace them. Once you export it to
+9:22 Cursor, then you do have to use your own
+9:24 API keys. Yeah. But we're not exporting
+9:26 to Cursor right now. We're just creating
+9:28 a two-way connection via SSH. So you
+9:32 don't need to worry about that. So those
+9:34 aren't the real keys. Those are But the
+9:36 real keys are in the Vive Code app. The
+9:38 real keys the how that works is a
+9:41 secret. Okay. Okay. Fair enough. Fair
+9:43 enough. Now when you make a change on
+9:45 cursor, right? Like on if you guys have
+9:46 watched my videos before when we use
+9:48 cursor normally we do local host like
+9:51 you run this locally and it's usually a
+9:53 web browser. In this case replace the
+9:55 local host web browser with the mobile
+9:57 app except it's realtime sync. You can
+10:00 make a change on the Vibe Code app and
+10:01 it will update on cursor. Make a change
+10:03 on cursor and it will update. It'll
+10:05 always stay updated on your on your
+10:07 phone. And you don't have to use the
+10:09 Vive Code app. You can, you know, make a
+10:11 build yourself. Um there are a few
+10:13 advantages though. One is like you don't
+10:15 have to worry about API keys until
+10:17 you're ready to publish to the app
+10:19 store. And then two, um you don't have
+10:22 to keep rebuilding the app that we
+10:24 handle all of that. So your changes are
+10:26 instant. So for example, if I ask this
+10:28 to let me make this cloud for sonnet.
+10:32 Let's say I want to change the name of
+10:35 the app in the home screen from movie
+10:39 matcher to movie movie buddy. Movie
+10:42 buddy. Perfect. And so now it's just
+10:45 we're using cursor and it's making
+10:47 changes. It's thinking about it. It's
+10:50 going to generate some code and then
+10:52 when you hit apply it'll be updated.
+10:55 Yeah. So, it depends on your cursor
+10:57 settings. I think the best settings to
+11:00 get set up is make sure you click the
+11:02 settings button. You go to indexing in
+11:04 docs and you make sure this codebase has
+11:06 been 100% indexed. That's usually really
+11:10 good and looks like mine has. I also
+11:13 have a feature where it like auto saves
+11:15 the apply, but by default, you will have
+11:17 to accept all before before the changes
+11:20 are saved. Okay, so this is done. Once
+11:23 the changes are done, you can click the
+11:25 menu button and you can click reload.
+11:30 And now it's buddy. Amazing. That's
+11:33 super cool. So you didn't have to
+11:35 rebuild your app. You didn't have to run
+11:37 any local host server. And if we were
+11:40 using AI features, we didn't have to put
+11:43 in any API keys either. But now, um, so
+11:46 this is a great start. Let's accept all
+11:49 of these changes. Um, now we want to
+11:51 make sure that we actually fetch movies
+11:55 from an API. We act like right now the
+11:58 Shaw Shank redemption is just
+12:00 placeholder data that the app put there.
+12:03 Yeah. What we want to do is we actually
+12:04 want to have access to a database that
+12:06 is up to date that is shows us real
+12:09 movies that are and then obviously like
+12:11 you could make it better through sorting
+12:13 them through some mechanism or
+12:14 separating them by genre etc etc but we
+12:17 want these to be real movies ideally
+12:18 with real placeholder images for them
+12:21 right yeah exactly so we can go look up
+12:25 free movie database API
+12:29 um and there are a few options I think
+12:31 the top two are OMD DB and TMDB.
+12:35 Um, based on my research,
+12:38 uh, TMDB gives you the images for the
+12:41 movies and OMDB does not. So, we're
+12:44 going to use TMDB. So, we can go here,
+12:47 click get an API key. I have already
+12:50 made an account and so I have an API key
+12:54 which I'm going to get from here. Okay.
+12:58 So, I copied this.
+13:01 Now let's let me test it out here. So
+13:03 let's try this out. All right. So that
+13:06 did not work. Want to just toss this
+13:08 whole thing to cursor and be like make
+13:10 it better. Yeah. I mean I think that's
+13:12 honestly the best move right now. We can
+13:14 just toss this whole thing to cursor and
+13:17 we can tell it I am using the TMDB
+13:23 API.
+13:25 Here are my credentials.
+13:29 Here is my authorization
+13:32 header. And I'll paste the long one
+13:35 here. There we go.
+13:38 And here is my API key.
+13:42 There we go. And then let me give it
+13:46 some more guides. Um that discover. We
+13:50 probably want to use discover.
+13:52 So I'll give it
+13:55 some more links
+13:57 cuz cursor cursor can actually browse
+13:59 the internet and if you give it the
+14:00 specific links that are necessary,
+14:02 you're just basically like increasing
+14:04 the probability that it'll get it
+14:06 correct because you could just say I'm
+14:08 using TMDB. Yeah, I did say that and it
+14:10 can browse it. But I know that we want
+14:14 to use the the discover option. And so I
+14:19 can just um you know put that in um
+14:24 and so here is how to use the discover
+14:29 option. So all I did here was I copied
+14:31 the curl request. You can use it for any
+14:34 language programming language you're
+14:35 using. Curl is like very common. And
+14:38 then at the end I'll say I want to
+14:41 replace all the fake data by fetching
+14:45 real movies that are fetched at the
+14:49 start when creating a new room. Nice.
+14:55 We still have yet to write any code.
+14:58 We've only copied code and cop I mean
+15:00 we're only like five prompts deep into
+15:02 this. Yeah. I mean on the vibe code.
+15:04 This is second one on cursor. Yeah. I
+15:06 mean, the first one wrong cursor is just
+15:08 changing the name. You think this is
+15:10 going to work out of the box, or do you
+15:11 think we're going to have to I think we
+15:13 gave it a lot of context, so it should
+15:15 work. Okay, it's trying to run this
+15:17 command. I'm going to skip it cuz we
+15:19 don't need to run anything since we're
+15:21 testing it out on the Vive Code app.
+15:24 So, it's done. Now, it can reload the
+15:26 app on Vive Code by clicking menu and
+15:29 then the reload button on the top right.
+15:31 Amazing.
+15:34 And nothing could be different on this
+15:36 page. Um, and then we start new game.
+15:38 It's loading the movies. There we go. No
+15:40 way. Ballerina. Wait, wait, wait. So, go
+15:43 to um is 7.1 maybe like the IMDZ score.
+15:47 Can you look that movie up?
+15:51 There. It's the exact poster John from
+15:53 the creators of John Wick. We can see
+15:55 that. Scroll over. Go back. 7.21.
+15:59 Okay. But maybe some doesn't matter.
+16:00 That's basically right. Let's check
+16:03 another one. Straw. Okay. Straw 6.5.
+16:07 This says 8.0. So the data, it seems
+16:11 like the rating is wrong. Okay. It's the
+16:14 average rating given by users on the
+16:16 TMDB platform,
+16:19 not on IMDb. Got it. So it is very
+16:24 different and that's okay. I think we
+16:26 should show more stuff on this card
+16:28 ideally like show the release date, show
+16:31 the title in full. So maybe we can try
+16:34 we can get rid of this the stuff at the
+16:36 top. Swipe movies. So it'll just like
+16:40 give us more space. Oh, okay. I like
+16:41 that. I like that. So
+16:44 um yeah, I mean we could make this
+16:45 change on Vive Code or we could make it
+16:47 on cursor. Um
+16:50 my instinct was to go with Vive Code,
+16:52 but let's just do it with cursor. Yeah,
+16:54 let's do cursor. Do you have whisper
+16:55 flow? Uh, yes I do. On the screen where
+16:58 I'm swiping movies, can you remove the
+17:00 header that says swipe movies just have
+17:03 the part that says room uh with like the
+17:06 number of the room as sort of the the
+17:09 top header part? And then also, can you
+17:12 make the card the movie card like
+17:14 bigger? Just make it
+17:17 like taller and make the width also
+17:20 bigger cuz right now I can't see the
+17:22 full movie name. I also can't see the
+17:25 image of the movie fully. So I just want
+17:29 want it to be bigger. And then also when
+17:31 I click on the card, not swipe on it,
+17:33 just open like a full details page so I
+17:36 can see the whole movie card um in its
+17:40 totality and make it look really nice.
+17:42 Shouldn't we show more of the data like
+17:44 the year? And I mean we're showing the
+17:45 year 2024. Oh, I didn't even see that.
+17:48 This is actually a really cool app. One
+17:49 thing if you want to check do is there
+17:51 was there anything about like where you
+17:53 could watch the movie like the streaming
+17:54 platform. Oh yeah, that that'd be cool.
+17:57 So I'm just going to search this up.
+17:59 Watch providers. Watch providers. That's
+18:03 that that is the the most useful feature
+18:05 actually. Yeah. So you can hit that this
+18:07 API. So we can copy this link. We can
+18:10 copy the curl request.
+18:13 Um, and then we can,
+18:16 um, let's try it for for this random
+18:19 movie, Sonic the Hedgehog. Copy the ID,
+18:25 paste it in here, and let's try it. This
+18:27 is what the data looks like. It gives
+18:29 you results.
+18:32 Um, oh, wow. Sorted by country. So,
+18:36 that's a lot of data. So, let's find the
+18:39 US. Guess I'll just have to scroll.
+18:44 I forget they're all different depending
+18:46 on what country. That's insane.
+18:50 That looks like the US the longest one.
+18:52 So you can watch it on Amazon video,
+18:55 Apple TV, Google Play Movies, YouTube,
+18:57 Fendango, Microsoft, Flick Thing, and
+19:01 Plex and
+19:03 So that's where you can rent it and then
+19:06 flat rate or buy
+19:09 um
+19:13 Okay. Yeah, I think flat rate is the
+19:14 streaming services. Okay. Okay. So,
+19:17 let's check it. that Sonic the Hedgehog
+19:22 3 or oops there's a fourth one
+19:24 apparently too. Yeah, watch now Prime
+19:27 Video. Amazing. Um and that's the first
+19:30 one in the flat rate which is the
+19:32 streaming services. So I'll copy this
+19:34 response as well and we'll add that
+19:36 feature next. Cool. This is coming
+19:39 together. This is like a legit app.
+19:42 Yeah, it's
+19:44 Oh, it added the haptics too. Can I feel
+19:46 it?
+19:51 Nice.
+19:53 I dig it. So, we can set up the rooms
+19:56 and then we can publish the this app on
+19:58 the app store. Let's go. We might not
+20:00 even need authentication cuz if you just
+20:03 authenticate with rooms, what's the
+20:05 point, right? Yeah, just create room and
+20:07 then text have the text feature. I think
+20:09 that's key. Yeah. Send it to your
+20:11 friend. Okay, looks like it's done. So,
+20:14 we can reload the app and check it out.
+20:18 Start new game. Wow.
+20:21 That looks so good. Let's go. That's
+20:25 insane.
+20:26 That's awesome.
+20:28 Look, that added all these animations as
+20:31 well. And we still have pass like
+20:36 KO the whole poster 2024 6.6. This looks
+20:41 weird. I think this app is is ready to
+20:45 ship. I think the one thing you may want
+20:47 authentication for would be like um
+20:50 would be like if you could like save
+20:52 movies like people might want to save
+20:54 like their favorite movies or something.
+20:55 Yeah, but like I don't think that's
+20:58 needed for MVP. Okay, this is kind of
+21:00 annoying. When I swipe it opens it,
+21:03 regardless annoying. So, okay, let me
+21:06 accept these changes and I'll be like
+21:08 this looks great. But now, regardless of
+21:11 if I swipe left or right, it opens the
+21:14 movie details right after I swipe. The
+21:16 movie details should only open when I
+21:19 tap on it, like not when I swipe on it.
+21:23 So, make sure that you think hard about
+21:26 how to differentiate between those two.
+21:29 So funny that we've moved to the era
+21:31 where you have to like
+21:33 where you basically tell AI how to
+21:36 allocate its thinking resources. You're
+21:38 like think hard about this specific
+21:40 thing and it actually works. Think
+21:42 harder actually works. I have read a lot
+21:45 of code from anthropic where they where
+21:49 they say if prompt includes think harder
+21:52 give more tokens. Think harder is a
+21:54 great prompt hack. You know I think I
+21:57 don't know if it came I think it was
+21:59 like users doing it that made anthropic
+22:01 put it in. But you you were paying for
+22:03 the thinking tokens so it's not like
+22:06 it's a hack. I mean, we're still paying
+22:07 for it, but it does work. This app looks
+22:10 amazing. Like, it just looks perfect. I
+22:12 don't No, it does look really good. The
+22:15 swipe gesture is so good. Like, I feel
+22:17 like this one usually cursor messes up
+22:20 at So, what what else do we have left?
+22:22 So, let's say it fixes this thing. And
+22:24 then we're uh the next thing you were
+22:26 going to do is the streaming platform.
+22:27 Yeah. So, platform and then uh and then
+22:30 the rooms. Yeah. The database. And so
+22:33 for the rooms, just to be clear, so for
+22:35 the rooms, we want to be able to do
+22:39 this, right? It's ju just like Tinder,
+22:41 right? When we both swipe right on a
+22:43 movie, we want it to match. So we want
+22:45 to be able to create a room. And so an
+22:47 wants to create a feature that allows us
+22:50 to with one click, basically create a
+22:52 room, and then he can send it to me. I
+22:54 can open the app, we can both swipe, and
+22:56 then we're if we're both in a room, we
+22:58 can match. Yeah, exactly. Okay. So, let
+23:00 me reload
+23:02 this app now. All right. So,
+23:06 instead of tapping to show the details,
+23:09 we we just added a new button. Um, it's
+23:13 the info button. That's how you can see
+23:15 the details. And then, yeah, the cards
+23:16 look great. Um, now we want to know
+23:19 which streaming platforms to actually
+23:21 watch these movies in. So, I'm going to
+23:23 paste um
+23:26 this API that from TMDB I can copy this
+23:30 link right here. Do we need to which
+23:34 location we want? Maybe we did US or
+23:36 whatever cuz there Yeah, that's true.
+23:38 So, if we look at this data, it gives
+23:40 like the locations,
+23:42 the UG, US, like these are all
+23:44 countries. Um, so I'm going to paste
+23:47 first of all I'm just going to copy
+23:49 everything
+23:54 and then even the response I'll copy
+23:56 that
+23:58 and I then come the very bottom and I
+24:01 can be like
+24:04 hey above I've given you a API that
+24:08 gives me the providers of the movie like
+24:12 where can I watch it like on which
+24:13 streaming services. So, for each movie
+24:16 that you show me in the movie card, I
+24:19 want you to show me which providers I
+24:22 can watch them on. So, is it Netflix? Is
+24:25 it Amazon Prime? Or there are a bunch of
+24:27 options, but I only want you to show me
+24:31 US streaming services. I don't care
+24:34 about renting or buying. You can maybe
+24:36 show the rent and buy data in the the
+24:39 details the details card, but in the
+24:43 main view, just show me the streaming
+24:45 services. Yeah, I feel like that's kind
+24:47 of everything I would want to know. The
+24:49 streaming service, is it like a good
+24:50 movie? Right. We have some rating. Um,
+24:53 it shows the
+24:55 So, I can see like if it's an actor that
+24:57 I like. Um, obviously there's if we kept
+25:00 iterating there's a lot of other things
+25:02 you could add, but I think this is a
+25:03 good first experience. Where would you
+25:07 want it to display the streaming
+25:09 services? Probably like right here next
+25:12 to the the rating maybe cuz there's some
+25:14 space there. So, it just finished. Let's
+25:17 see if we got the streaming services.
+25:21 So, now it's loading movies. So, now
+25:23 it's loading movies. It might take a
+25:25 little bit of time to load the streaming
+25:26 services. Oh, so this one Oh, doesn't
+25:29 have any like streaming. So, it didn't
+25:32 show it like I told it to. I see. But it
+25:34 has a rent and buy option and so it
+25:37 shows me those. And it shows the logos
+25:39 for them, too, which is awesome. And
+25:40 then this one has streaming. So, let's
+25:44 go. It shows it to me. I didn't know it
+25:46 would show the images for each one.
+25:48 Yeah, that's pretty cool. So, this one
+25:50 doesn't have streaming or but that's
+25:52 that's the API because we know it's
+25:54 working for the other ones, right?
+25:56 Right. All right. And also Mission Imp.
+25:58 Didn't this just come out? Like this is
+26:00 2025. I think it's out. This is coming
+26:02 out in the future.
+26:05 Um, Valerina, I think it's probably
+26:08 coming out. It says 2025. Oh, Amazon
+26:10 video. Okay, cool.
+26:13 Um, Thunderbolt. These are all super new
+26:16 movies. Okay. Okay. So, um, but this
+26:18 one, Straw, this is out Netflix. Okay.
+26:21 Amazing. I mean, we need to specify like
+26:23 only movies that are like came out
+26:26 before the current date. I think this
+26:28 app is good as is. I think we should
+26:29 just add the rooms and we should swipe
+26:31 and see if we can map on a movie. Yeah,
+26:33 let's do it. So, now we need to set up
+26:36 Firebase. Now, I'm going to build a
+26:39 Firebase project. So, to do that, I can
+26:41 just open up Firebase. Um, so I'll just
+26:45 search for Firebase.
+26:47 And if you've watched our old videos, we
+26:50 used to do this a lot. Go to console and
+26:54 I can click create new Firebase project.
+26:56 Let's call this movie buddy matter.
+27:01 You can add this if you want, but it
+27:04 just makes the weight a little bit
+27:06 longer. So I I don't like adding it
+27:08 usually.
+27:10 That's provisioning these resources.
+27:12 This should be done. And then on
+27:15 cursor we can say
+27:18 now can you add Firebase to this
+27:20 project? Make sure to add FirebaseJS
+27:24 version 10 and make sure to connect
+27:30 the Firebase Fire Store database.
+27:33 I also want it such that when I start a
+27:36 new game, that game or the room or
+27:39 whatever is stored in Firebase with all
+27:42 the same movies and then I can share the
+27:45 pin for that room with a friend of mine
+27:48 and the friend can enter that same pin
+27:50 and join that room and swipe on the same
+27:52 movies. before starting the game um and
+27:57 playing the the game in the room, there
+27:59 should be like a waiting screen where
+28:01 I'm waiting for like my friends to join
+28:04 the room and they can enter the pin to
+28:07 join the room and that should all live
+28:09 update. And then yeah, once I'm done, I
+28:11 should be able to look at um you know
+28:14 the matches that me and my friends had.
+28:16 So what movies did I swipe on positively
+28:18 that my friends also swiped on
+28:20 positively? So these are a lot of
+28:22 changes but make sure that you think it
+28:25 through and build them throughout the
+28:27 codebase. This is a massive task.
+28:29 Honestly, this is a very very big task.
+28:32 And I we're not done yet. So in Firebase
+28:35 when you come here, make sure you click
+28:37 on web. Why did you click web instead of
+28:39 mobile? So with mobile you have to make
+28:45 new builds and go through Xcode and all
+28:47 that process. But because um React
+28:50 Native, we're using React Native. We can
+28:52 use either the mobile version or the web
+28:54 version. It doesn't really matter. It's
+28:55 both both the same thing. So I can also
+28:58 copy this Firebase config or you can
+29:01 just copy the whole thing. Doesn't
+29:02 really matter. Keep those secret. By the
+29:04 way, here is my Firebase config. After
+29:06 the Firebase config, you don't really
+29:08 need to keep it secret. Um
+29:13 yeah, it it should be fine. like anyone
+29:16 who uses Firebase has their Firebase
+29:18 config like public. You just need to
+29:20 make sure that when you give this app to
+29:23 other people, you
+29:26 add rules to your database so people
+29:28 can't access it. But for now, we're just
+29:31 going to set it up um in test mode. So,
+29:34 we're going to create a database um just
+29:37 go with the defaults. So, these are the
+29:39 secure rules, right? So, make sure if
+29:41 you're launching this to real people,
+29:43 you ask chat GPT or Claude or Cursor or
+29:47 Vibe Code, whatever your favorite AI
+29:49 agent is, like what these rules should
+29:51 be. Um, but for now, we're just going to
+29:54 start in test mode. That means your data
+29:56 is open by default and enable to enable
+29:59 quick setup. So, I'm just going to start
+30:00 in test mode for now.
+30:04 So, I've created this database. So, we
+30:06 did two things. We created a web
+30:08 firebased project and we created a fire
+30:11 store database. Um, and this these are
+30:13 your rules by the way, the ones that
+30:15 you'd want to change if you ever launch
+30:17 this to to production and gave it to
+30:20 real people. But yeah, this is this is
+30:22 where we are. This is all we need. Uh,
+30:24 this is all we need to give and let's
+30:27 just let cursor cook. Okay, so all we
+30:29 need is no authentication needed. That
+30:32 makes sense. We're just creating
+30:33 database. Cool. All right, it's loading.
+30:38 Okay, maybe it wasn't done. Let's try
+30:40 again. We got an error. I am just going
+30:43 to copy this error. Paste it back into
+30:46 cursor. I'm getting this error when I
+30:50 click
+30:52 start new game. Please fix.
+30:59 So, yeah. I'm not sure why this error is
+31:01 happening, but we can figure it out.
+31:03 Cool. This is the hardest part, though.
+31:05 It just added like a thousand lines of
+31:08 code. That's actually And that was the
+31:10 That was one prompt, right? That was one
+31:11 prompt. It took like 20 minutes. Like it
+31:14 actually took 10 minutes. Like it
+31:16 actually
+31:17 took 10 plus minutes to integrate
+31:21 Firebase so that we can create rooms so
+31:24 that we could swipe. So I just made this
+31:26 change and there's this warning here. Um
+31:29 we'll dismiss it. Um so I can show you
+31:32 my prompts. There were a few errors that
+31:34 happened, but I just copy pasted them
+31:36 back in. Nothing crazy. Um, I just copy
+31:41 pasted it back. And but there was one
+31:44 change I had to make in the code that's
+31:46 pretty important that the AI couldn't
+31:48 figure out. And this is the same error
+31:49 that like Kevin and Muhammad ran into
+31:51 yesterday. This is the error with
+31:53 Firebase. If you use like Superbase or
+31:55 you use instant DB or Convex, you
+31:57 probably won't need to do this. But
+31:59 basically there's these two lines of
+32:01 code that it's given in the
+32:03 documentation by expo. When you're
+32:04 setting up Firebase, you need to copy
+32:06 these two lines of code and you paste in
+32:09 your metro.config.js
+32:10 file. Okay. So if you're using Firebase,
+32:12 just make sure if you're using Firebase,
+32:13 we'll paste these like docs from Expo.
+32:16 Just give this context to your cursor or
+32:18 vibe code agent when it's setting up
+32:20 Firebase. So like cursor just doesn't
+32:21 normally do it. Cursor. Yeah, it just
+32:23 didn't know to search this up. There are
+32:25 a few things to be aware with Firebase.
+32:26 Use version 9 or 10. uh use the JS
+32:29 version and then make sure you paste in
+32:31 these docs from Expo. So that's pretty
+32:34 much it. And then you should shouldn't
+32:36 face any issues. Um you might face some
+32:38 but you can just paste them back in like
+32:40 I did. Um I just said I think you broke
+32:42 something and pasted an error back in.
+32:44 So now click start game. It's loading
+32:46 movie so it takes a little bit of time.
+32:48 No way. Room it has 034. Now I have the
+32:51 share button and I can send this to you
+32:53 Riley. But you need to share the app
+32:55 with me first, right? Oh yeah. So I'll
+32:57 send you the room and then I'll also
+33:00 click this click publish click share and
+33:04 share the app with you as well. So an
+33:07 just texted it to me and so what I need
+33:10 to do is with the vibe code app I can
+33:13 very easily u like you can share apps
+33:15 with me and I can open them. So I'm
+33:17 going to open up this app right here and
+33:20 it immediately downloads. I have now a
+33:22 movie. Uh so let me create the game.
+33:25 Okay, you create the game. Um, I guess I
+33:27 have to create a new room. So, the PIN
+33:30 is 9826. Do you want to join my game?
+33:32 Join game. 9826.
+33:36 Oh, and actually this is going to be
+33:38 sick. So, maybe let me share this new
+33:42 one with you. Okay. Okay. So, I share
+33:45 this with you. Now, click join game.
+33:48 Now, click join game. And look, look at
+33:52 the form. Hey, let's go from messages.
+33:54 That's crazy.
+33:57 Except I can't do anything. I can't
+34:00 press enter. The keyboard is blocking
+34:03 it. Oh, okay. I guess we have to make a
+34:06 change. We got to make a change. So, um,
+34:11 let me accept these
+34:13 in
+34:15 in the join game
+34:18 screen. Um, you both you show fake
+34:21 keyboard and you show real keyboard.
+34:24 Just don't show the real keyboard. Um,
+34:26 we'll just have input from the fake
+34:28 keyboard in that in that screen. Oh,
+34:30 actually, no. I want to show the real
+34:33 keyboard cuz then you get the auto
+34:35 complete. Yeah. Yeah. Yeah. Yeah. So, in
+34:37 the join game screen, I want to be able
+34:40 to click a done button on my keyboard or
+34:43 like click outside the keyboard to like
+34:45 dismiss the keyboard. Right now, there's
+34:47 no way to dismiss the keyboard. Yeah.
+34:51 Also, don't show a fake keyboard there.
+34:52 Uh, the real one is good enough.
+34:57 We can use Apple's best feature. Yeah.
+34:59 Yeah. Yeah. Yeah. Yeah. That is actually
+35:01 so sick. And so it shared it and it
+35:04 looks at the most recent message and it
+35:06 just grabs a code from it or something.
+35:07 Yeah. Okay. So if you format a message
+35:09 with like a code and it since we're
+35:11 doing fourdigit codes, six digit codes,
+35:13 those usually auto complete. So, as you
+35:15 can see here, he's making changes to the
+35:16 Vibe Code app. And since I'm synced with
+35:19 Ana's project
+35:21 after Cursor is done loading, we're both
+35:23 going to hit refresh and we're both
+35:25 going to have a new app. Yeah. So,
+35:28 cursor is almost done. Um, we'll wait.
+35:31 We'll wait until it stops going and then
+35:34 we both need to hit reload in just a
+35:37 second. So, yeah, let's both hit reload.
+35:40 I don't know how yours loaded faster
+35:42 than mine, but Okay. So, you want to
+35:44 start a new game? Yeah, let me start a
+35:45 new game. I mean, you could start one,
+35:48 too. So, now we have a new pin. Let me
+35:50 share that with you. Yeah, but that
+35:52 should autocomplete. When you click join
+35:54 game, I'm going to hit join game.
+35:58 Tap to enter pin from messages. Now, we
+36:01 can dismiss it. Join room.
+36:07 Cool. So, we're in the room and I can
+36:11 see I'm smart wolf and you're cool
+36:13 tiger. Oh, and you only you have control
+36:16 over the game. Yeah, I have control over
+36:18 start the game. So, why don't you ready
+36:19 up? So, Oh, I can ready up. Oh, so now
+36:23 instantly it updated on my screen that
+36:25 you're ready. Wait, whoa, whoa, whoa.
+36:26 Can I try? Can I do a reverse it?
+36:30 That is so sick. Ready up. And now the
+36:33 Oh my god, that's crazy. So, we're
+36:36 ready. And now let's start the game. Oh,
+36:40 what? So, wait, what will happen if you
+36:42 swipe left? Okay, so I can just go
+36:45 speed. You can go at your own speed.
+36:47 Okay, I don't want to watch that. Nah, I
+36:50 don't really want to watch that.
+36:52 So, that's Let's go at our own speeds
+36:55 and see what we want to watch. Um,
+37:02 do I want to watch this movie?
+37:04 No.
+37:08 Maybe we'll have No. Oh, yes.
+37:13 Wait, I swiped
+37:16 right on that one.
+37:19 Wait. So, final destination. Let's swipe
+37:21 right on it. Okay.
+37:25 So, I think after you swipe, it takes a
+37:27 couple of seconds
+37:29 uh for Or maybe it's going to wait until
+37:31 the game's over, the next one to to
+37:33 load. What if it waits until the game's
+37:36 over to like give us a list of the ones
+37:38 we swiped on? Well, I can already see
+37:41 that it does. I can already see the
+37:42 matches. Yeah. Oh, we can see all of our
+37:44 matches. That's So, those are Yeah, I
+37:46 know we swiped. Let's just go through
+37:48 the list. I'll just We'll just go
+37:49 through swipe through the 30 because
+37:50 there gives us 30. Um Oh, see, cuz I'm
+37:56 on the previous one. You have to wait
+37:58 until I get on the same one to start
+38:00 swiping on it. Oh, see it's like kind of
+38:04 like smaller on your screen. But now if
+38:07 we are on the same one now you're ready
+38:10 to swipe. Oh, it's like made to be
+38:12 played at the same time to be played at
+38:14 the same time. Now you'll be able to
+38:15 swipe cuz you weren't able to swipe just
+38:17 now. Right. Right. Right. And we can
+38:18 see. So let's swipe right. So I'll swipe
+38:20 right. Now you see three max on the top
+38:23 right. Yeah. Wait. So now like wait, let
+38:25 me see. So if I try to swipe here, if
+38:28 I'm here, I can't. You can't swipe this
+38:30 one. Oh, so now now you can swipe.
+38:32 Amazing. There you go. This is cool. So,
+38:35 we're we're both swiping. Um,
+38:39 this is insane. Actually, this is so
+38:42 cool. Like, what is this? 10 prompts
+38:43 vibe coding, you know? Yeah. Or 11. 10
+38:46 to 20 prompts. It looks like we're done
+38:48 with the room. So, now you can press the
+38:50 matches. Now, we can see our matches.
+38:51 They automatically open. So, we have we
+38:54 have final destinations, which we kind
+38:56 of uh did ourselves. And then, oh, and
+39:00 also ranks it. So, if we multiple
+39:02 people, we could see like everyone's
+39:04 matches. Oh, we could create a room for
+39:07 like 10 people. Yeah, that's sick. Okay,
+39:12 so back to home. Now we're now we're
+39:14 reset. All right, let's put it on the
+39:15 app store. Let's get it. Okay, so this
+39:17 is perfect. I love the changes so far.
+39:20 So, I've saved them in cursor. I'll
+39:22 click on this git tab and then I'll
+39:24 click this plus button to save
+39:26 everything. Then I'll click this
+39:28 generate commit message button which
+39:30 will just generate a commit message for
+39:32 me. Um, sure that looks good. And I'll
+39:36 click commit and then push these
+39:38 changes. And now all these changes are
+39:39 synced to Vive Code to your app. I mean
+39:42 they're always synced with Vive Code
+39:44 without going through Git, but now with
+39:46 Git, you can make sure that they're
+39:48 saved forever. Um, so yeah, now it's
+39:52 time to get our app on the App Store.
+39:54 So, I'm going to close all of these
+39:56 screens and I'm going to open the
+39:57 terminal. The way I can do that is click
+39:59 the terminal button at the top here and
+40:01 click new terminal or I can click
+40:03 control and tilda together, which is
+40:06 this like shortcut, but I have the
+40:08 terminal open. And then I think the
+40:12 easiest way to get on the app store is
+40:14 to run this command called npx test
+40:16 flight or in our case bunx test flight.
+40:20 They both do the same thing. Um, you
+40:23 might have npx installed, you might have
+40:26 bunx installed. The way to figure that
+40:27 out is just to to run both of them. I
+40:30 have both installed. So, I'm just going
+40:32 to use bunx test flight and then press
+40:34 enter. But we probably want to get a
+40:38 home screen or sorry, an app icon for
+40:41 our home screen, a splash screen icon,
+40:44 right? Um, for our app, and then we also
+40:46 probably want to change the name of the
+40:48 app. So, right now the app is called
+40:51 Vibe Code. So all that data is inside
+40:54 this app.json file. So right now the app
+40:57 is called vibe code. The slug is vibe
+41:00 code. The scheme is vibe code. Um so
+41:03 what we can do here is we can come here
+41:04 and change this to whatever we want. So
+41:06 we can make this movie buddy. Make all
+41:09 of these movie buddies. Um and yeah that
+41:12 should be pretty pretty much it. Then we
+41:15 can generate an icon. So we can go to
+41:17 chatgpt. Can you generate me an iOS app
+41:21 icon? Uh, make it a square with no
+41:23 background and no rounded corners. Uh,
+41:28 make it for an app called Movie Buddy.
+41:30 And make it a penguin who uh has 3D
+41:34 glasses on. Yeah. And so, okay, so we
+41:38 have the name icon uh which is just like
+41:42 a square image with no background. Yeah.
+41:44 Um, and then splash screen. Yeah. So you
+41:48 can just you can just make your splash
+41:51 screen be configured through the icon
+41:54 using expo. So let me just read through
+41:56 the documentation here. Ideally we don't
+41:59 need to even worry about a splash
+42:01 screen. You can just sort of use a the
+42:04 icon okay to do it. So yeah we can see
+42:07 over here that you know this is the code
+42:10 again. We'll put this in the in the um
+42:12 description below. But I'm just going to
+42:14 copy this open cursor. So the icons are
+42:18 almost done. Oh, they made four. Is that
+42:21 a new feature? Yeah, it is a new
+42:23 feature. It didn't remove the
+42:24 background, though. It did not. I think
+42:27 it did. What's the red? Does the red
+42:31 mean no background? I like I think this
+42:33 is perfect. Okay, let's use Yeah. Which
+42:35 one do you like? Um, they all look kind
+42:37 of the same. They do look the same. This
+42:39 one looks good. Just use the one on the
+42:40 bottom right. I think we ship it. Yeah.
+42:42 Cool. Cool.
+42:44 Cool. So, I will just drag that. And so,
+42:49 um
+42:51 I all I got to do is create a new folder
+42:53 here. So, click this button, new folder,
+42:56 call it assets.
+42:58 And then I will just drag this into the
+43:01 assets or I guess I have to drag it to
+43:04 my downloads first and then I can drag
+43:06 it into assets.
+43:09 And then I will rename it to icon.png.
+43:12 PNG and then I'll create a new
+43:16 tab on cursor and I will um
+43:22 say
+43:25 look at the documentation above and add
+43:28 the icon that I put into assets/icon.png
+43:32 as my icon for this app. um also make it
+43:37 my splash screen for this app and just
+43:39 make my splash screen like whatever
+43:41 background color you want and then
+43:45 I will do at slash or at icon.png
+43:51 and it shows up there. So I already said
+43:53 it's in assets icon.png. That's all I
+43:56 really need to say and then it should be
+43:58 done. Wow, it's crazy that this app like
+44:01 No, this is insane. This is in mobile
+44:03 app. um that has social features, right?
+44:08 Like you can use it with friends. Yeah.
+44:10 That has external datab like external
+44:13 API usage that is genuinely useful and
+44:16 fun. And we created it in less than an
+44:18 hour. Yeah. And there's so many more
+44:21 features you could add. You could add,
+44:22 you know, your ability to select the
+44:25 movies that you like swipe in and but
+44:28 like depending on how the review goes,
+44:30 like this could literally be on the app
+44:31 store. Yeah. In 24 hours. Yeah. That's
+44:33 insane. This is so cool. Like way more
+44:36 people should be creating apps on the
+44:37 app store. It's done.
+44:40 Now we can accept these changes. We can
+44:42 close the cursor chat and we can make
+44:44 the terminal bigger. So this is the
+44:47 hardest part
+44:49 but also the easiest part depending on
+44:53 um what you think. So I'll open a new
+44:55 terminal and type bx test flight. Okay.
+44:57 So you've added the icon and the splash
+45:00 screen. It's just using the icon as a
+45:01 splash screen. Now we're opening the
+45:03 terminal and typing in some things.
+45:05 Yeah. So it's asking you need to install
+45:06 the following packages. Just click Y and
+45:09 it'll install the packages that it
+45:11 needs. Okay. So now you're just kind of
+45:13 going through whatever test flight needs
+45:15 you to do and you're just doing through
+45:17 the terminal. And by the way, the in the
+45:19 description, we're going to put like a
+45:20 little PDF or uh written instructions on
+45:23 everything that uh we talked about
+45:24 today. Um, so that's super easy to
+45:27 follow um, in case you miss anything
+45:31 because there are a lot of steps to So
+45:33 now it's asking me to log in to EAS with
+45:37 my email or username. So to make an
+45:39 account on EAS, you just go to expo.dev
+45:43 and then you make an account here. So
+45:45 you just sort of make that account. Um,
+45:50 and I already have an account and so I'm
+45:52 just going to enter my username and
+45:54 password. Okay. So, it's asking me would
+45:56 I like to automatically create a EAS
+45:59 project for Expo for um onandha/movbody.
+46:04 I'll type y. It's creating it and then
+46:07 it's linking the local project to the ES
+46:10 project. And then it's asking me what
+46:13 would you like your iOS identifier to
+46:15 be? ananda/mov
+46:18 movie ready sounds good. You do need a
+46:21 website. This is like in the reverse
+46:23 domain thing. You can also just make up
+46:26 any anything here. But um idly it's like
+46:30 a website that you own in like the
+46:31 reverse domain. So I own anandanda.com.
+46:35 So over here it's com.nandanda.
+46:37 Movie buddy. But you can also use
+46:39 something if no one owns it. You don't
+46:40 need to buy a domain necessarily. But if
+46:43 someone owns it, they might have um
+46:48 a app registered to that identifier.
+46:51 Yeah. You know, so just Yeah, make sure
+46:54 you put that. And then iOS app only uses
+46:57 standard exempt encryption. Click yes
+46:59 for that. If you don't know what this
+47:01 is, you likely should just click yes.
+47:05 And then it says created the project. Do
+47:07 you want to log into your Apple account?
+47:09 I'll click yes. Enter your Apple
+47:12 developer account to continue. I'll type
+47:13 in my username and password. Okay, cool.
+47:17 So, it's asking me to sign in. I'll
+47:20 click device and then I'll put 543729.
+47:25 There we go. It's validating my code.
+47:28 I'll choose not number labs
+47:30 incorporated.
+47:32 Um, not number labs incorporated.
+47:34 A bunch of
+47:37 generate new Apple distribution
+47:39 certificate. Yes to both.
+47:42 And then would you like to set push
+47:44 notifications? I don't need push
+47:45 notifications for this project. So I'll
+47:48 click no. You can also click yes. But
+47:51 then Apple review will ask you why did
+47:53 you ask it if you don't need it. But
+47:56 yeah, that's it. It's done. Wait, it's
+47:58 sent to Apple. It's sent to Apple. Okay.
+48:00 So it's sent to Apple and someone a
+48:02 human at Apple's going to review it. And
+48:04 depending on how that review goes, it
+48:06 could be on the app store. Yeah. Right
+48:07 now it's being built. So versions being
+48:09 built on an EAS which is like expose
+48:12 platform which takes some time. Uh which
+48:13 takes like anywhere from like 5 to 20
+48:16 minutes. Um and then it's and then so
+48:19 it's asking for some more generate a new
+48:21 app store connect key. I'll say yes.
+48:23 It's like my submission progress. I can
+48:25 like open this and see what the progress
+48:28 is. I know it's cued. I can see the
+48:31 build. It started less than a minute
+48:33 ago. The first version and yeah it's
+48:36 just building. This will take a little
+48:37 bit of time, but it should be done. And
+48:39 this super easy. In theory, could if
+48:40 you, let's say, get rejected by the app
+48:42 store, could you just take what they
+48:43 said and paste it in cursor and be like,
+48:46 "Hey, this is the problem. Can you fix
+48:48 that?" Yeah, you can. You can also paste
+48:50 into Vive Code. But yeah, you paste in
+48:52 Vive Code and it'll and then you just do
+48:54 that until it gets accepted. Yeah, for
+48:56 this app, I honestly probably don't even
+48:58 need to submit it to Apple. I feel like
+49:01 there are a lot of apps that you can use
+49:03 that you can just share with your
+49:04 friends or your family. shared it with
+49:06 me and like there's no need for me to go
+49:09 through that review process. Now I can
+49:11 like make updates and like instantly
+49:12 share them. Yeah. And then maybe the
+49:14 move if you're trying to test it is to
+49:15 like literally use it with your friends
+49:16 and if everyone's like, "Oh my god, this
+49:18 is a sick app now. You have a validated
+49:21 app idea." You could then go and get it
+49:23 in the app store. The the only real
+49:24 reason to get on the app store is if you
+49:26 want to make money, right? Right.
+49:27 Otherwise, no need. There's no need.
+49:30 Yeah. Um but yeah, if you want to make
+49:32 money with this app, you want to sell
+49:33 it, um then definitely get on the app
+49:35 store. And so in review today, we built
+49:38 an app using Vibe Code on our phone,
+49:40 then uh once we felt like it was most of
+49:43 the way done, we got it most of the way
+49:45 done on Vibe Code, we used the new SSH
+49:48 feature, which allows you to sync the
+49:50 Vibe code with the cursor code. And so
+49:54 when you make a change on cursor, it'll
+49:56 also update on Vibe code. And then we
+49:58 added the the what did we do on cursor?
+50:01 We so we added Firebase and Cursor and
+50:03 we added the TMDB API. We added the TMDB
+50:06 API and then we put it on the app store.
+50:09 Yeah. All of those things you could also
+50:11 do on V code or you could do all of this
+50:13 in cursor. Like there's
+50:16 no real difference. I think each have
+50:20 their strengths. Like for example, in my
+50:22 opinion, it's way easier to get started
+50:24 on a project in Vive Code cuz you don't
+50:26 have to set up the whole repository and
+50:28 all that stuff. You don't have to deal
+50:29 with a terminal. And then it's way
+50:31 easier to add like backend features and
+50:33 cursor cuz Firebase cursor you have you
+50:36 need cursor to get it on the actual app
+50:37 store. Yeah. To run this lost command,
+50:39 you do need cursor. So yeah, that's
+50:41 that's basically and you're probably
+50:43 somewhat technical if you're if you're
+50:45 using cursor a lot. And so it's good to
+50:47 get the option to just like okay you
+50:48 have one while you're like at a coffee
+50:50 shop you can build an app with your
+50:52 voice and then as soon as you get back
+50:54 plug it into cursor realtime sync gives
+50:56 you full optionality on what you want to
+50:58 use. Yeah. So I can go in my builds and
+51:01 9 minutes later or 7 minutes and 36
+51:03 seconds later this build is done. Um, I
+51:06 can also go to the submissions tab and I
+51:08 can see that this is now being submitted
+51:11 to App Store for review. Um, and so this
+51:13 should be done in a few seconds as well.
+51:16 Then I can go to App Store Connect
+51:19 um,
+51:21 and I'll be able to find
+51:24 this app. Amazing. Okay. So, in the
+51:26 actual Apple interface, which is App
+51:29 Store Connect, you'll be able to see the
+51:31 app that you created on cursor and not
+51:33 in. Yeah.
+51:35 So, I create click apps and then it
+51:38 should pop up here. There we go. Movie
+51:41 buddy, we're ready. Let's go. The build
+51:44 is still um submitting, so it'll be done
+51:46 soon. But yeah, it should automatically
+51:49 submit to Testlite. So, you should find
+51:51 it on your phone if you download the
+51:52 Testite app. If you don't, you can you
+51:55 can come here, you can click team and
+51:57 you can see your team um and then add
+52:00 add um people to your team to make sure
+52:03 that they get the app. But yeah, that's
+52:05 pretty much it. It's on the app store.
+52:07 It less than an hour and um we started
+52:10 on Vive Code and went through cursor and
+52:13 this is Movie Buddy. Now we have Movie
+52:15 Buddy and an app that we can both use at
+52:17 the same time and we can swipe. I left
+52:20 the the room. You left the room? Yeah,
+52:23 you left me alone. I can't do anything
+52:24 now. All right, well that was the
+52:27 episode. Uh, subscribe if you like
+52:29 videos like these and uh we'll see you
+52:31 here for the next one.

@@ -1,0 +1,262 @@
+Title: OpenAI Codex Tutorial #1 - Introduction & Setup
+URL: https://www.youtube.com/watch?v=tIb_TzVNbDM&list=PL4cUxeGkcC9iDBeA8IyR1IE1kl4w5IDEG&index=1&pp=iAQB
+Channel: YouTube playlist
+Video ID: tIb_TzVNbDM
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:50:31.703Z
+
+0:00 All right then, gang. In this series,
+0:02 we're going to be talking about Codeex
+0:03 by OpenAI and all the different ways we
+0:06 can use it within a development
+0:07 workflow. But first of all, what exactly
+0:09 is Codeex? And that's a question I've
+0:11 asked myself a bunch of times over the
+0:13 last few months because it's actually a
+0:15 few different tools rolled up into a
+0:17 single product. But right now, I feel
+0:18 like there's a concerted effort by
+0:20 OpenAI to smooth out any confusion and
+0:22 unify all these tools under that single
+0:24 Codeex name. So at its core, Codeex is
+0:27 an AI powered coding assistant created
+0:29 by OpenAI which can work autonomously on
+0:32 coding tasks that we assign to it. It
+0:34 uses the GPT5 codeex model which is
+0:37 their model tailored specifically
+0:38 towards aentic coding with codeex and
+0:41 it's available to anyone who's got a
+0:43 chat GPT plus or pro account with no
+0:45 extra charge. And where it differs from
+0:47 other AI coding assistants like claude
+0:49 code and copilot is that it offers
+0:52 multiple ways we can work with it.
+0:54 There's a codeex IDE extension which can
+0:56 be added to VS code or cursor or wind
+0:58 surf and that's very much in the same
+1:00 vein as something like copilot for VS
+1:02 code where we have a chat panel for
+1:04 interacting with AI models and we can
+1:07 also let it take on coding tasks more
+1:09 autonomously when we need it to. There's
+1:11 also the codeex CLI which is much more
+1:13 in the mold of clawed code where we
+1:15 interact with the models and delegate
+1:17 tasks directly from the terminal. Then
+1:20 there's the Codex cloud service which is
+1:22 a browserbased tool that we can connect
+1:23 to a GitHub repository and then use to
+1:25 assign tasks for Codex to work on. When
+1:28 we do that, Codex spins up a remote
+1:30 container to run the code remotely and
+1:32 make changes. Then it opens a pull
+1:34 request on your GitHub repo. And the
+1:36 idea behind this is that you can spin up
+1:37 Codex tasks from anywhere, your laptop,
+1:40 your mobile, or even some random
+1:41 computer without access to your code
+1:43 because you don't need your project
+1:44 cloned locally. Codex Cloud connects to
+1:46 your repo remotely and handles things on
+1:49 its own servers. And finally, there's
+1:51 also the Codex review tool, which we can
+1:53 install on GitHub to automatically
+1:55 review pull requests when they're made.
+1:57 So, that's four distinct ways we can
+1:59 work with Codex. And what's impressive
+2:01 is the way they can interlink and
+2:03 provide context to each other. For
+2:04 example, I can use the Codex IDE
+2:07 extension to delegate a new task on the
+2:09 Codex cloud service. When it finishes
+2:11 that task, I can either bring those
+2:13 changes back down locally or tell Codex
+2:15 Cloud to open a PR directly on GitHub.
+2:18 And then if Codex Cloud opens that PR,
+2:20 the Codex review bot can immediately
+2:22 kick in and double check its own work
+2:23 before we merge it. So instead of them
+2:26 feeling like separate products, they
+2:28 feel more like different windows into
+2:30 the same product. And that means you can
+2:31 switch between them depending on the
+2:33 situation without feeling too much like
+2:35 you're juggling completely different
+2:36 tools.
+2:38 So in this course then we're going to
+2:40 explore each of those different
+2:41 interfaces separately and look at how
+2:43 they can work together a little bit as
+2:44 well. We'll start off with Codex cloud
+2:46 which will connect to a GitHub repo and
+2:48 then use to spin up cloud tasks. We can
+2:51 then open PR from those tasks and ask
+2:53 Codex to review them directly on GitHub.
+2:56 Then we're going to jump into the Codex
+2:57 CLI and work on a project locally before
+2:59 pushing those changes manually up to the
+3:01 repo. And after that we'll install the
+3:03 Codex IDE extension in VS Code. talk
+3:06 about context, reasoning, and how to add
+3:08 an MCP server. And finally, we'll see
+3:10 how the extension and codeex cloud can
+3:12 work together by delegating multiple
+3:14 tasks from our local setup to the cloud
+3:17 where they can work in parallel with
+3:18 each other. But before we go any
+3:21 further, I want to mention two things.
+3:22 First, this is not a Vibe coding course
+3:25 for non-coders. It's a course aimed at
+3:27 coders, either new or experienced, who
+3:29 want to implement codecs into their
+3:31 current workflow. And so second, with
+3:33 that in mind, I would expect you to have
+3:35 a basic knowledge of web development and
+3:37 ideally GitHub. And I think Git and
+3:39 GitHub especially are really important
+3:41 to understand when you're letting AI
+3:42 code on your project because without it,
+3:45 AI powered coding agents can wreck your
+3:47 codebase in a matter of minutes. So for
+3:49 those interested, I've recently released
+3:50 a whole Git and GitHub masterclass
+3:52 course on my website, which also
+3:54 contains a chapter about AIdriven
+3:56 workflows. So I'll leave the link to
+3:58 that course down below this video. It's
+4:00 only $10 and it's going to make you
+4:02 really comfortable using Git and GitHub.
+4:05 Anyway, with that little disclaimer out
+4:06 of the way, let's crack on and set up
+4:08 our Codeex account. So, like I said
+4:11 before, Codeex is available to anyone
+4:13 with a ChatgPT Pro or Plus account. So,
+4:16 you'll need to sign up for one of those
+4:17 plans first, which you can do at
+4:19 chatgpt.com/pricing.
+4:22 Once you have a plan, you can use the
+4:24 Codex cloud service in the browser by
+4:26 coming to chatgpt/codex.
+4:29 If you normally use regular chat GPT in
+4:32 the browser, you should also see a link
+4:33 to Codex cloud in a sidebar. And if you
+4:36 click on that, it's just going to bring
+4:37 you to the same page. So then this is
+4:40 Codex Cloud, the web-based service we
+4:42 can use to run tasks on our projects
+4:44 remotely. Now, in order to do this, we
+4:47 first of all need to give Codex access
+4:49 to a GitHub repo by connecting our
+4:51 GitHub account. So we can do that by
+4:54 clicking on this connect to GitHub
+4:56 button right here. Or if you don't see
+4:58 that button, you can also go to the
+5:00 settings up here and then to the data
+5:02 controls option. And from this page, you
+5:05 can connect your GitHub account as well.
+5:07 So if we click on that button, we're
+5:09 going to see a popup with some more
+5:11 information about this connection. And
+5:13 we can just then click on this button
+5:15 down here and authenticate with our
+5:17 GitHub credentials.
+5:19 Okay. So once that's done, we can head
+5:21 back to the Codex dashboard and we
+5:23 should see a new option to select an
+5:25 environment to work in. In other words,
+5:27 we need to select a GitHub repo we want
+5:29 Codeex to work on and configure how it
+5:32 works on that project remotely. So,
+5:34 we've not created an environment yet,
+5:36 but we can do that by clicking this
+5:38 button and then choosing to create one.
+5:40 When we do that, we're going to see a
+5:41 popup where we can make a new
+5:43 environment. And the first thing we need
+5:45 to do is choose a GitHub repo to work
+5:48 on. So, you can scroll through all of
+5:50 your repos here to select one. And you
+5:52 can also search for one at the top as
+5:54 well. Now I'm going to search for a
+5:56 dummy project that I'm making called
+5:58 Yumpair, which is just a little food
+6:00 pairing application that I'm working on
+6:01 just for a little bit of fun. So I'm
+6:03 going to select that repo for this
+6:05 environment. Next up, we can choose to
+6:07 keep the automatic codeex code reviews
+6:10 on for any new pull requests on the repo
+6:12 or we can toggle it off. Now I'm going
+6:14 to keep it off for now because I want to
+6:16 focus on other things to begin with, but
+6:19 later we're going to come back and turn
+6:20 it on again. And then finally down here
+6:23 we can give the agent internet access if
+6:25 we want so that when it's working on the
+6:27 project remotely it can also use the
+6:29 internet. Now you might want to select
+6:30 this option if the agent needs to
+6:32 interact with remote APIs and services
+6:34 or access documentation or other remote
+6:37 references. We're going to keep it off
+6:38 for this project though. Anyway, now if
+6:41 we hit create, it's going to make that
+6:42 new environment and it's going to put us
+6:44 in it automatically on the dashboard.
+6:47 You can see that right here where we
+6:49 have this environment selected.
+6:51 Now, you can also manage your
+6:52 environments by coming to the settings
+6:54 and then selecting the environments
+6:56 option. And on this page, we should see
+6:58 the one we just created. But if you want
+7:00 to create another one for a different
+7:02 project, you can just hit the create
+7:03 button up here to do that. Also, we can
+7:06 edit or delete environments by clicking
+7:08 on them. So, let me click on this one we
+7:09 just created. And when we do that, I can
+7:12 see a delete button up here and also the
+7:14 edit button. So, let me just click on
+7:15 that edit button to see what options we
+7:17 have. And when we do that, we should see
+7:19 a screen that looks something like this
+7:21 with some basic options at the top and
+7:23 some code execution options down here.
+7:26 So like I said before, when we use
+7:27 codeex cloud to run tasks, it does that
+7:30 remotely on codec servers, right? By
+7:32 spinning up an isolated container to run
+7:34 that code in. Now that default container
+7:37 comes with a bunch of pre-installed
+7:38 packages like Node, Python, Ruby, etc.
+7:41 And we can click on this button to
+7:42 change the versions of those packages.
+7:45 We can also add custom environment
+7:47 variables to the environment which you
+7:49 might need to add if you want the coding
+7:51 agent to access any external APIs or
+7:53 services. And you can also define your
+7:55 own setup scripts for the container when
+7:57 it runs by toggling this option right
+7:59 here. The default one automatically runs
+8:02 the install commands like npm install.
+8:04 But if you need to run any specific
+8:06 setup scripts for the environment, you
+8:08 can do that right here. Again, we can
+8:10 toggle the internet access option on and
+8:12 off here as well. Okay then. So now we
+8:15 have a new environment set up on Codex
+8:18 Cloud. Let's start giving it some tasks
+8:19 in the next lesson. By the way, if you
+8:21 want early access to the entire course
+8:23 now, you can grab it on the net.dev
+8:25 website. It's just $3 to buy, or you can
+8:28 sign up for a Net Ninja Pro
+8:29 subscription, which is $9 a month, and
+8:31 the first month is half price with this
+8:33 promo code right here. So, I will leave
+8:35 this link down below in case you want to
+8:37 go ahead and buy it. Either way, I'll
+8:38 see you in the very next lesson.
+8:58 Heat. Heat.

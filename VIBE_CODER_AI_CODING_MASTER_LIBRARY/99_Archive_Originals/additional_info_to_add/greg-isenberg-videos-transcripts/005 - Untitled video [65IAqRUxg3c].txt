@@ -1,0 +1,1260 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=65IAqRUxg3c
+Channel: Greg Isenberg
+Video ID: 65IAqRUxg3c
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 Today's episode is an inside look to how
+0:02 Andrew Wilkinson is using AI agents to
+0:05 run his personal and business life. This
+0:08 is a guy who has a great setup. He shows
+0:10 us exactly how he's using things like
+0:13 Open Claw and AI agents to be more
+0:15 productive and to make more money. How
+0:18 he uses it with his family office. How
+0:20 he's using it to start a startup. How
+0:23 he's using it to think about where the
+0:25 next generation business is and where he
+0:28 should be putting his money. This is an
+0:30 inside look and I don't think he's
+0:31 shared this anywhere with [music] how
+0:33 he's using AI agents to run his life and
+0:36 his businesses. By the end of this
+0:38 episode, you're going to have your
+0:40 creative juices flowing. I certainly did
+0:42 and I can't wait to see you in there.
+0:47 >> [music]
+0:52 >> Andrew Wilkinson, I think third time on
+0:54 the pod. Welcome back. Good to have you.
+0:57 Andrew, by the end of this episode, what
+0:59 are people going to learn? Oh man, um
+1:02 they're going to learn that Open Claw is
+1:05 uh hard um but amazing when it works. Um
+1:08 they're going to learn
+1:10 uh whether they have ADHD or OCD.
+1:13 Uh they're going to learn how to build a
+1:15 crazy vector database about their
+1:17 complex company.
+1:19 Um
+1:19 and
+1:21 they're going to learn a few prompt
+1:22 tricks uh and whatever random other
+1:24 stuff we end up stumbling into. Okay, so
+1:28 for those of you who don't know, Andrew
+1:30 is a very curious guy and he gets deep
+1:33 into rabbit holes. So, it sounds like
+1:35 what we're going to learn is a lot about
+1:38 how you're using AI in your day-to-day.
+1:42 The the good, the bad, the ugly,
+1:45 uh and everything in between.
+1:47 Yeah, let's do it.
+1:49 All right, let's get into it. I would
+1:51 say I had this crazy moment like so many
+1:54 other people in December of last year
+1:56 where I played with Claude Code and all
+1:59 the AI tools like Replit and stuff, and
+2:02 they could kind of do stuff. It was
+2:04 interesting, but it wasn't uh it wasn't
+2:06 there yet. And in December of 2025, I
+2:10 just literally like I I feel like I
+2:13 started shooting heroin. Um I
+2:17 started waking up at 3:00 or 4:00 in the
+2:19 morning, rolling out of bed with a big
+2:21 smile on my face, and literally just
+2:24 sitting in terminal and Claude Code with
+2:26 10 tabs open. Uh and I've been doing
+2:28 that ever since. And my goal, um you
+2:31 know, I've had a bunch of different
+2:32 things I've been trying to do uh on the
+2:34 productivity side. Like I was basically
+2:36 trying to build an open claw agent uh
+2:39 before open claw came out and doing a
+2:41 very poor job of it. So, I was excited
+2:44 um when I was able to do that. But, I've
+2:45 mostly have been excited as a business
+2:47 person um for those of you uh the
+2:51 listeners that don't know, I basically
+2:53 buy and start businesses. I mostly start
+2:56 businesses as a hobby for for fun. Um
+2:59 but, I buy a lot of businesses and I'm
+3:02 always astounded by the amount of
+3:05 administrative burden in uh you know, a
+3:08 SaaS company. If you think about how it
+3:10 scales, um you know, support,
+3:13 accounting, there's all these like very
+3:15 boring wrote um types of tasks that are
+3:18 now able to be automated. And so, as a
+3:21 test before I started doing this in our
+3:23 operating businesses, I basically built
+3:26 a business um a SaaS business, and then
+3:29 I've been running it entirely
+3:31 autonomously using open claw. Um so,
+3:34 that's probably a cool place to start.
+3:36 And I I just want to say like
+3:38 with open claw, um I basically have been
+3:42 we we referenced heroin a moment ago.
+3:46 Um you know, I have never done heroin
+3:47 just in case anyone's concerned about
+3:49 me. But, um apparently when you do
+3:52 heroin, the first time is the best time.
+3:54 And they call it chasing the dragon.
+3:56 You're trying to get back to that
+3:58 special moment. And I had this special
+4:01 moment. I was traveling. I went to
+4:03 Arizona on a trip, and I forgot to bring
+4:05 my laptop. Um, but I'd set up an
+4:07 OpenClaw agent on my computer, and I
+4:11 basically was able to run my entire
+4:13 business using OpenClaw in the back of
+4:16 Ubers. Like, I was going to this
+4:17 conference. It was super, super busy.
+4:19 And I was astounded by how competent it
+4:23 was able to be, um, and that nobody
+4:25 picked up on the fact that, you know,
+4:26 every single email that I wrote was
+4:28 being written by OpenClaw. And so,
+4:31 I've been chasing that moment ever
+4:33 since.
+4:34 Uh, and the problem is that I feel like
+4:36 I'm spending 50% of my time debugging
+4:39 it, and 50% of my time, maybe 30% of my
+4:43 time making it better, and then 20% of
+4:45 my time being productive. So, it's like
+4:47 the classic productivity treadmill.
+4:49 Um, but we have been able to build some
+4:51 pretty interesting stuff. Um, so, let me
+4:54 let me screen share with you, and I will
+4:57 show you this app that I built. Um, so,
+5:02 this all started because I
+5:04 uh I wanted to build a custom GPT uh or
+5:08 ChatGPT project for me and my
+5:10 girlfriend's relationship. The idea
+5:12 would be that we would be able to query
+5:14 it, "Hey, we're having a fight about
+5:15 XYZ. Uh, what should we do?" And I asked
+5:19 it, I said, um, "Hey, if I was to do a
+5:21 bunch of psychological tests, which ones
+5:24 would you want to see?" And it gave me
+5:25 this list of like 15 different screens
+5:28 that it wanted me to do. And so, I went
+5:30 to Claude Code, and I said, "Hey, can
+5:31 you just put all these into a
+5:32 multiple-choice test, set up scoring,
+5:35 and then put them in a JSON file?" And
+5:37 so, both of us did that. It took about
+5:39 40 minutes, and we put the JSON files
+5:42 into ChatGPT, and we said, "Without
+5:44 knowing anything about this this couple,
+5:47 um, tell us about their relationship.
+5:49 And we read it line by line and like our
+5:52 jaws just like dropped. Like it nailed
+5:55 every single fight that we have, every
+5:57 single issue at home.
+5:59 And so I saw the power of these multiple
+6:02 choice personality tests. And so I you
+6:05 know saw the product opportunity and I
+6:07 was like I'm going to build a business
+6:08 out of this. And so I started this thing
+6:10 called Deep Personality. Let me just
+6:13 share my screen here. Quick break in the
+6:16 pod to let you know about a free
+6:17 workshop I'm doing that answers some of
+6:20 your biggest questions. The first is in
+6:23 the AI age, what are some categories
+6:25 that are ripe for startup ideas? I'm
+6:28 going to outline a bunch of those
+6:30 different categories, the ones that I
+6:31 think the most opportunity is. Second is
+6:34 there's a million AI tools out there,
+6:36 which are the ones that matter when I'm
+6:38 trying to build a business? I'll walk
+6:40 you through that. And lastly, how do you
+6:43 actually build a business with some of
+6:45 these AI tools? So I'm actually going to
+6:47 show you live how I do this with my
+6:49 ideabrowser.com team, and I can't wait
+6:52 to see you there. It's this Thursday at
+6:54 12:00 p.m. Eastern. And if you go to the
+6:56 show notes, if you go to the
+6:57 description, you can click a link, RSVP,
+7:01 and learn a few things. I hope it'll get
+7:03 your creative juices flowing and I'll
+7:04 see you back at the pod. And you know
+7:07 you could have you know you you own an
+7:10 agency called MetaLab. You could have
+7:11 called out MetaLab to go and build this
+7:13 for you. But you decided I'm going to do
+7:16 this all myself. I'm going to actually
+7:18 productize this myself. I'm going to
+7:19 design it myself. I'm going to build it
+7:20 myself. Why did you make that decision?
+7:23 Well, I think um
+7:26 I love people. Like I'm very
+7:27 extroverted, but the worst part about
+7:30 business is people.
+7:32 Um you know, if you think about using a
+7:34 let's use a screenwriting analogy. So in
+7:36 Hollywood there's all these brilliant
+7:38 screenwriters and they write these
+7:39 incredible scripts. And so they have
+7:42 this idea and they know where they want
+7:44 it to go, right? So let's say they start
+7:46 here and they want it to go here. They
+7:47 want to make an incredible feature film.
+7:49 In between
+7:51 all in between the script and the
+7:54 feature film are 100 people that they
+7:56 have to convince, $50 they have to
+7:59 raise,
+8:00 a million middle men and all that. And I
+8:02 think that creativity is just
+8:05 compromised based on how the number of
+8:08 people between your vision and
+8:10 execution. And so
+8:13 I think like writing for me has been a
+8:14 very like pure pursuit where I can think
+8:18 about it and I can write it and I can
+8:19 work with AI to make it better if I need
+8:21 to.
+8:22 But it feels it feels like so
+8:25 such a clear execution of your vision.
+8:28 And I feel like
+8:30 Vibe coding is
+8:32 that. Like finally I can do absolutely
+8:37 every part of it and I can do it at my
+8:39 own pace. You know, if I was using
+8:41 employees,
+8:42 they're unreliable, they don't see my
+8:44 vision, they don't understand every
+8:46 aspect of design. So you can have a
+8:49 great designer who sucks at front end or
+8:52 you can have or it doesn't know how to
+8:53 design something that will work in a
+8:54 front end. You can have a great designer
+8:57 who doesn't know how to write copy. So
+8:58 there's just all these pieces that come
+9:00 together with Vibe coding and basically
+9:02 like in a few manic days, I was able to
+9:05 build this pretty crazy app. So let me
+9:08 let me show you um how it works. So
+9:10 basically
+9:11 you do a personality test and it takes
+9:14 about 40 minutes. You're just clicking
+9:15 multiple choice answers and stuff and
+9:17 then you get this report. And so here's
+9:20 my archetypes. It'll be like you're the
+9:22 blazing architect. Here's your
+9:24 superpowers. Here's your kryptonite.
+9:27 This is just like the basic. And then
+9:30 as you scroll, you can see the AI has
+9:33 taken all of your answers and it's
+9:35 written like a 100-page report. So, this
+9:39 report literally goes on and on and on
+9:41 and on and it's written like Robert
+9:43 Greene. So, it's like super impactful
+9:45 and deep and hits you
+9:48 um and it basically walks you through
+9:50 what you're great at and what you're
+9:52 terrible at, what job you should have,
+9:55 um is your relationship working for you?
+9:57 Do you have ADHD, OCD, are you on the
+10:00 spectrum? Like all these different
+10:02 things and so you can see
+10:04 Let me get all my god, it's so big. All
+10:06 the way to the bottom. Um
+10:08 so, you can see like these are my kind
+10:09 of personality traits, my attachment
+10:12 style, um my internal family systems,
+10:17 like how much I people please, all this
+10:19 stuff.
+10:20 So, I built this thing and usually what
+10:23 happens for me is I start something and
+10:26 then I don't want to finish it because I
+10:28 don't want to hire the people and deal
+10:29 with it. And so, what I ended up doing
+10:32 is in this case, um just building agents
+10:36 to do everything. And so, I can show you
+10:39 where we were using open cloud. We're
+10:40 currently using this thing called Harbor
+10:43 that a friend of mine built um and it's
+10:45 basically a harness for agents. So, you
+10:49 can see all the different agents that
+10:51 are running here. So, we have a dev, we
+10:54 have a marketing agents and then we have
+10:56 a support agent. And basically the way
+10:58 it works is um somebody emails support
+11:02 and uh either support just tackles the
+11:05 ticket uh or it will actually fix the
+11:08 ticket. So, it'll sell send it to the
+11:09 dev agent. If it's a P0, so like a super
+11:12 scary security breach, it'll just
+11:14 immediately fix it and merge the PR.
+11:17 Otherwise, it'll uh we just wake up and
+11:19 have a bunch PRs.
+11:21 Um and then it'll email the person back
+11:23 and be like, "Hey, I fixed your issue."
+11:24 or whatever it is. That works basically
+11:27 perfectly. Like it's shocking. Like
+11:29 support to me is not a job very, very
+11:31 soon.
+11:32 Um the one that's really exciting is the
+11:34 marketing agent. So, we basically have
+11:38 it uh it's hooked into PostHog, so it
+11:41 has all the data for the app, and it
+11:43 actually manages a meta and Reddit ads
+11:47 account, and so it'll
+11:49 um do multivariate testing, it'll create
+11:51 ad creative, it will set budgets, and we
+11:54 basically just message it and we'll say
+11:56 um you know, "Hey, can you increase the
+11:58 budget by $1,000?" Or we approve like a
+12:01 big SEO project or something like that.
+12:04 So, where we're at with it is like we've
+12:07 done
+12:08 maybe like $20,000
+12:10 of revenue, like it's still small, and
+12:13 where I'm really excited um to go next
+12:16 is like what happens when we give it
+12:18 like a $100,000 a month ad budget and we
+12:21 find ads and creative that actually
+12:23 work.
+12:24 Um so, that's been that's been insane.
+12:27 Um and I think that we're probably
+12:30 3 to 6 months out from being able to
+12:32 just
+12:33 hand businesses off to AI to run at
+12:36 least basic businesses like this.
+12:39 Harbor, I've never heard of.
+12:42 And I see I see a lot of stuff.
+12:44 Let me um let me just ask. So, it's my
+12:47 friend Gavin made it. Yeah. Yeah, link
+12:50 me to the Harbor website. Um yeah, it's
+12:54 Harbor. It reminds me a little bit of
+12:57 Paperclip. Have you seen Paperclip?
+13:00 Yeah, I have.
+13:02 So, this is at its
+13:03 github.com/geekforbrains/harbor.
+13:06 Yeah.
+13:07 And uh he's he's a friend of mine that
+13:10 I've been working on this with, and uh
+13:12 it's it's working really well. We just
+13:14 found that Open Claw wasn't quite
+13:16 deterministic enough, and the other
+13:18 issue with Open Claw is because it's a
+13:19 text-based interface, it was a little
+13:22 bit hard to keep track of all the agents
+13:24 and what's actually happening.
+13:26 Um so, it's worked really well for us.
+13:28 Yeah, I mean, I think what's cool about
+13:30 it is like if you're starting a company
+13:33 and you're thinking about org charts,
+13:35 roles, responsibilities,
+13:38 you know, you don't think about it
+13:40 within within text, you know, back and
+13:42 forth, right? You think about it as
+13:44 like, "Okay, I'm going to spin up this
+13:45 agent or employee to do XYZ, and then
+13:49 how can I monitor what that XYZ employee
+13:52 is doing?" Yeah, like so basically like
+13:55 it's just a it's just a GUI basically
+13:57 for something like Open Claw, and it's
+13:58 still running on Claude.
+14:00 Um, but you know, you have all these
+14:01 documents with uh kind of like a
+14:03 knowledge base, you've got databases,
+14:06 you have all your environmental
+14:07 variables, etc. It's like it's very
+14:09 similar to Paperclip. Um, I think the
+14:12 problem it reminds me a little bit of
+14:14 crypto where
+14:16 crypto is not crypto is built by nerds,
+14:18 so they make it nerdy. And when I saw
+14:20 Paperclip, I got so excited because I
+14:22 was like, "Oh my god, I can this makes
+14:24 sense to me visually." You like have
+14:26 this org chart, but it's clearly built
+14:28 by nerds because it's very confusing.
+14:30 And so
+14:32 my I mean, my kind of belief is like
+14:34 pretty soon Anthropic and uh OpenAI are
+14:37 going to launch like basically like
+14:40 CEOs. So, you just be like, "I'm just
+14:42 going to hire a CEO for my company, give
+14:45 me your data, I'll figure it out, I'll
+14:47 run it, I'll run the whole business."
+14:48 And it right now, the problem I feel I
+14:50 feel like um you know, 2 years ago it
+14:53 was like uh
+14:55 we're you get you get 5 minutes with a
+14:58 super genius who has Alzheimer's. Like
+15:00 the context window is so small that you
+15:02 just have these brief moments.
+15:05 Now I feel like with the the 1 million
+15:07 context window, um they can like maybe
+15:10 remember a day, but it's like Memento,
+15:12 right? Um, and I feel like once the
+15:14 context window is like 5 million, 10
+15:17 million, then they'll be able to run
+15:18 entire companies with this. Yeah.
+15:20 There's some people now selling
+15:22 autonomous companies. I don't know if
+15:24 you've seen this. Pulsia is one of those
+15:26 companies.
+15:27 I think Pulsia, p o l
+15:29 >> work? Like I I saw that New York Times
+15:32 story about that guy who like started
+15:34 the autonomous
+15:35 uh you know, what is it? Like
+15:36 billion-dollar business or whatever. But
+15:39 and obviously that's real and New York
+15:40 Times is writing about it. But I I can't
+15:43 parse what's real versus
+15:47 I think
+15:49 and uh you know, we're recording this
+15:52 April 29th, 2026.
+15:54 You cannot run a an fully autonomous
+15:57 company
+15:58 in right now
+16:00 that it yeah, that is going to get
+16:03 better that you can just like
+16:06 you know, go hang out on the beach 24/7.
+16:09 That being said, I think there's parts
+16:11 of the business that can be autonomous
+16:12 like support is like a good part you
+16:16 know, area. But like you're not going to
+16:18 outsource like product at this point in
+16:22 my opinion autonomously to to something
+16:25 like Pulsia today. You know, maybe that
+16:27 changes in 6 months, 12 months,
+16:29 whatever. But like my take is the people
+16:32 that are selling autonomous companies
+16:34 today are just selling a dream. Yeah, I
+16:36 kind of agree. Like I think um
+16:39 open claw agents are still like Zap.
+16:42 They're basically like Zapier zaps but
+16:45 that can make basic decisions and have
+16:47 intelligence. But you still have to tell
+16:49 them step by step, this is how I want
+16:52 you to think. This is how I want you to
+16:54 operate. Like let's say you hired an
+16:55 intern and you gave them an email
+16:57 address. You would never have to say,
+16:59 you should check your email every 15
+17:01 minutes and you should reply. And when
+17:03 you do reply, you should you know, think
+17:05 about the following things. Like it
+17:07 feels very It's like you're dealing with
+17:10 a baby. A a genius baby but you have to
+17:12 teach them how to do every single thing.
+17:15 Where I'm excited is when I can just
+17:18 have a model that's just like a CEO
+17:20 model or or and just like delegate to
+17:23 them and they'll just figure it out,
+17:25 which I think is kind of what everyone
+17:27 acted like Open Claw was, but it's
+17:29 totally not. Yeah.
+17:31 I want to go back to go to the deep
+17:32 personality test. Can I give you
+17:34 unprompted feedback? For sure.
+17:37 So, when you were going through this, I
+17:38 was like like the content looked
+17:41 exceptional.
+17:43 My my you know, my issue in general with
+17:47 like vibe-coded projects is that
+17:50 because anyone could, you know, create
+17:53 apps and products like this,
+17:55 it's almost like you need to have some
+17:58 credibility layer in order to listen to
+18:01 the content, you know what I mean? So,
+18:03 like
+18:04 um
+18:06 my you know, if I was like the you know,
+18:09 PM or CEO on this, I would be like, how
+18:11 could I partner with
+18:13 you know, someone who's credible in the
+18:15 space
+18:16 such that when I get this you know,
+18:18 output, this report, I'm going to take
+18:20 this seriously.
+18:23 I think part of the problem is it's
+18:25 anyone who is
+18:27 a psychologist or um someone who would
+18:30 be like legit on this would never do it
+18:34 because it's a bit cheeky. Like I'm
+18:36 using um psychological screens that are
+18:39 supposed to be interpreted by a
+18:40 psychologist,
+18:42 but I'm not a psychologist. I'm using AI
+18:43 to do it. And I think it's incredibly
+18:46 accurate. Like I've I've hammered it on
+18:48 a million different models and I've
+18:49 looked at um example tests and stuff,
+18:52 but that is definitely an issue. If
+18:54 there's someone listening who's
+18:55 connected to like a Jay Shetty type
+18:58 person, definitely let me know because I
+19:00 think it's perfect for that. Um it
+19:02 really is one of those like 1 + 1 = 5
+19:05 kind of things. But yeah, right now it's
+19:08 what I realized is like I can when I
+19:10 post this in my newsletter, it goes
+19:12 crazy viral
+19:14 um for a bit.
+19:15 But I don't have enough pull in that
+19:17 space where my audience is a bunch of
+19:19 like tech bros. They're not going to,
+19:21 you know, they're not going to share
+19:22 this with all their friends and stuff.
+19:24 It does definitely need something like
+19:25 that. Yeah, and I I I also wonder like
+19:29 you know, I think about like who
+19:31 like what are influencers, celebrities,
+19:33 micro-celebrities that people look up
+19:35 to, like a couple, like even just a
+19:37 couple that like has gone through this
+19:40 publicly maybe and have come out of the
+19:42 other side and they're just happier and
+19:44 when people think of like
+19:46 you know, a couple that's, you know, a
+19:48 dream couple, like this is their, you
+19:50 know, they're involved in this in some
+19:52 capacity. That's smart. So, you and your
+19:54 wife, you want to do Should we do it?
+19:56 >> Yeah, yeah. I mean, my my wife is like
+19:58 very like
+19:59 uh
+20:02 private, you know? So, I'm more of the
+20:05 public one. Um but I'll see what I can
+20:07 do. The same as my girlfriend, she
+20:09 hates publicity and stuff.
+20:11 >> Yeah. Um let's see what else can I show
+20:13 you. Um I mean, another big piece is
+20:17 just data. So, I, you know, I feel
+20:21 really frustrated because at different
+20:24 times I've kind of standardized on
+20:26 different LLMs, like I'll get into the
+20:27 Claude ecosystem and I'll use the
+20:29 desktop app, I'll use ChatGPT and I'll
+20:32 build out a bunch of projects. I've
+20:34 basically just accepted that I'm going
+20:36 to live in Claude code until somebody
+20:38 builds her um which I'm sure is coming
+20:41 in the next couple of years. Um and so,
+20:44 my strategy is basically been
+20:46 um to take all the different data
+20:48 pipelines that I have and put them into
+20:51 a centralized place. And so, I have um
+20:54 Fireflies record all my meetings. Um
+20:57 every night a cron goes in to the API,
+21:00 builds an
+21:01 a markdown file, puts it into G brain.
+21:04 Um I've built out vector databases um
+21:07 for my businesses. This is a really
+21:10 cool,
+21:11 um, thing. So, you know, a vector
+21:13 database can store, um, you know,
+21:15 millions and millions and millions of
+21:17 tokens, and you can basically, um,
+21:20 you can basically have like a service
+21:22 like Pinecone go and crunch through a
+21:25 large amount of data, and it basically
+21:27 makes it highly searchable for an LLM.
+21:29 And so, I can show you an example of
+21:32 that. Let me just switch the screen
+21:34 sharing. So, okay, so here's an example.
+21:37 So, like, I did, um, I trained a vector
+21:40 database on my family office, Foley
+21:43 Partners, which is basically just my
+21:45 like personal holding company. And here
+21:48 I just asked it, uh, what did I say?
+21:51 Um,
+21:52 break down how many minority venture
+21:54 investments I've made and how many are
+21:56 in the money, bankrupt, or declined. And
+21:59 basically it went off and did this
+22:00 query, and then boom, I can see that
+22:03 I've made 132
+22:05 direct investments. I invested 16
+22:07 million, it's now worth 36 million, and
+22:10 then I can break down all the different
+22:11 write-offs, everything. And so, this has
+22:14 been, um,
+22:15 really, really powerful. So, like, if
+22:18 you think about, I did it for Tiny as
+22:20 well, and in Tiny I have, uh, man, 24
+22:26 businesses or something like that, tons
+22:28 of historical data. And the challenge
+22:31 when you run a conglomerate is like, I
+22:33 don't know it, like, are any of the
+22:35 companies spending too much money? Are
+22:37 any of the CEOs full of Um,
+22:40 are any of the businesses trending up,
+22:42 down, expenses are going up? It's just
+22:44 too much data for one person to
+22:46 understand. And so, I can't show it cuz
+22:49 it's all public company data, but
+22:50 basically what I can do in Tiny now is I
+22:52 can say, "Hey, review the last quarter,
+22:54 and I want you to give me any icebergs
+22:56 or issues." Or I can ask a simple
+22:58 question like, "How how accounting staff
+23:01 do we have in head office?
+23:03 Um or whatever. And I've found this so
+23:06 useful. It's not perfect. Like it'll
+23:08 it'll often like say the wrong person is
+23:10 CEO of a business or the numbers are a
+23:12 bit off. But in terms of being able to
+23:15 like be the eye of Sauron inside your
+23:17 company, I think it's like incredibly
+23:20 powerful. Mhm.
+23:22 And and curious like within Tiny, like I
+23:26 see how you're using it to interface
+23:27 with Tiny and and to you know, be a
+23:29 better chairperson and give advice. But
+23:34 within Tiny, I imagine that there's like
+23:36 some efforts to make the company's AI
+23:38 first and stuff like that, right? Yeah,
+23:41 and that's one of those challenges that
+23:42 I think everyone can relate to where
+23:45 what is the saying? It's um never expa-
+23:48 expect someone to understand something
+23:50 that their paycheck depends on them not
+23:51 understanding. So, you've a lot of
+23:54 people that are living in the old world
+23:57 and need to be upgraded um in their
+24:00 understanding. And often they're very
+24:03 attached to the old way of doing things.
+24:05 And so, to be honest, like the challenge
+24:07 in Tiny is that we are generally pretty
+24:10 hands-off. And where we're really
+24:12 leaning in is in a lot of the software
+24:15 businesses because those are the ones
+24:17 that are at the most risk. I think we've
+24:20 talked about this before, but
+24:22 it's not like software is dead. If
+24:23 anything, software is going to thrive
+24:25 way more. But it used to be like the
+24:27 newspaper industry where it's like in
+24:30 order to compete, you have to assemble
+24:33 this incredibly expensive group of
+24:35 people that's very rare to find, right?
+24:38 You need like great programmers, great
+24:41 designers, etc. And that that was like a
+24:43 very finite resource. So, it's kind of
+24:44 like the newspaper industry where you
+24:46 had to be rich, you had to buy like $2
+24:48 million printing press. And then once
+24:50 you have it, you actually have a
+24:51 competitive advantage. Now, I just think
+24:54 software is free. Anyone can make it.
+24:56 Anyone can rip it off. Like my
+24:58 personality app, it's cool.
+25:00 Does it have a moat? Absolutely not.
+25:03 Like maybe if to your point I had John
+25:05 Legend and Chrissy Teigen backing it or
+25:08 something, maybe there'd be something
+25:10 there. But I think pricing pressure is
+25:13 just going to go crazy because it's like
+25:16 the restaurant industry. Like, you know,
+25:18 restaurants are not a bad business,
+25:20 they're bad because there's too much
+25:21 competition.
+25:22 So, if you're listening to this and and
+25:25 you know, someone's listening to this,
+25:26 they're watching this actually and
+25:27 they're saying like, "Okay, I like what
+25:29 Andrew's doing here with like
+25:31 you know, this Foley advisory thing. I
+25:34 like what he's doing with personality
+25:35 test. He I feel like he has a good sense
+25:38 of where the world's going.
+25:40 You know, where where what you know,
+25:42 what would you be building now if you're
+25:44 you know, if you're
+25:45 you want to be building something?
+25:47 It right?
+25:49 >> [sighs]
+25:49 >> Where's your opportunities?
+25:50 >> I think we talked about this a year ago
+25:53 and if anything, I've become more
+25:55 concerned.
+25:57 Um
+25:58 when I look around, I'm
+26:00 don't get me wrong, I'm not not
+26:01 concerned. I'd just say it's getting
+26:03 harder and harder and harder. Like
+26:07 I think we've all been astounded seeing
+26:10 um how good Claude has gotten and how
+26:12 much it can do
+26:13 um and how quickly it can do it. And
+26:16 from my perspective, I think that if I
+26:19 was somebody who's obsessed with vibe
+26:21 coding and is 20 and let
+26:24 I would say the goal should be like make
+26:26 one to two million dollars by building a
+26:28 product like deep personality or
+26:29 something like that, which is pretty
+26:31 straightforward. Try and make a million
+26:33 or two million bucks and this is such a
+26:35 sad answer, but I'd be like invest in
+26:37 data center stocks or invest in TSMC
+26:40 because to be honest, that's what I'm
+26:42 doing. Like I am I'm either buying like
+26:46 something with a moat, which is very
+26:47 very hard to find certainly in
+26:49 technology right now.
+26:51 Uh home services businesses like very
+26:53 very brick and mortar kind of stuff.
+26:56 But even that I think is at risk with
+26:57 robotics over the next 10 20 years.
+27:01 But I honestly I all I can really
+27:03 recommend someone does is like buy Iron
+27:06 and TSMC. Mhm.
+27:08 Yeah, I think uh
+27:10 with you know, with respect to like the
+27:12 GUI, the graphical user interface, like
+27:16 it just feels like where the you know, I
+27:19 always I think about it as like the
+27:21 hour of progress, like the hour of
+27:23 progress or deep you know, deep progress
+27:25 is that
+27:26 the UI is going away. And
+27:30 like I don't know about you, but I'm
+27:32 spending more and more of my time in
+27:33 Codex. I'm spending more and more of my
+27:34 time in Cloud Code. Like those have
+27:36 become my operating systems. So I'm
+27:38 spending less and less time in apps.
+27:40 And it's easier than ever to create
+27:42 apps. Therefore, like yeah, it's pricing
+27:44 pressure, competition, harder to get
+27:47 mind share.
+27:48 Well, here I mean it's an interesting
+27:49 like someone asked me like is Adobe
+27:52 Yeah.
+27:53 >> And that's an interesting one because
+27:54 like I'm a pretty avid user of
+27:56 Lightroom. And I love I've got a Leica.
+27:59 I love editing photos and stuff. And
+28:02 while I do put my photos into Gemini
+28:05 sometimes for like recoloring or
+28:07 retouching or something, I still really
+28:10 enjoy the process of like moving the
+28:12 sliders and making it exactly the way I
+28:14 want it. And so I think you know, it's a
+28:17 question of like does this being the
+28:19 standard matter or will someone just
+28:22 vibe code an even better Lightroom and
+28:23 everyone will switch to that because
+28:25 they're you know, a big slow incumbent
+28:27 and someone else will do it faster. I
+28:29 can't answer that question very well.
+28:32 All I can say is software is a worse
+28:34 business now than it was 5 years ago. I
+28:36 mean, look at Constellation Software.
+28:39 Their stock has been cut in half. Like
+28:40 that that's crazy. Like I and I don't
+28:43 know if that's correct because they own
+28:44 like the most boring software businesses
+28:46 ever. But um yeah, dude, it's like a
+28:48 brave new world. And it's so depress I I
+28:50 hate to give such a depressing answer
+28:51 cuz your show's all about
+28:53 entrepreneurship. And like I just want
+28:54 to say like I'm more excited than ever.
+28:56 There's never been a better time to be
+28:58 an entrepreneur and build stuff. It's
+29:00 just you are picking up pennies in front
+29:02 of the steamroller in most industries.
+29:06 It's also hard to predict what's going
+29:08 to happen in 12 months from now cuz
+29:10 you know, uh or 18 months from now or 24
+29:14 24 months from now. So like
+29:16 my advice to people is just build now
+29:19 knowing that um you know, you're a big
+29:22 Buffett guy, right? So like, you know,
+29:24 what does he say? Uh
+29:26 you know, there's only so many puffs you
+29:27 get on the cigarette or whatever. What
+29:29 is it? Yeah, you can um get Well, he's
+29:32 he's more talking about cigar butts,
+29:33 right? So you find a cigar butt on the
+29:35 street and you can get one puff out of
+29:37 it for free. And I think a lot of
+29:40 previously high-quality businesses that
+29:41 would be like a gourmet cigar from a
+29:43 cigar shop are now cigar butts. Right.
+29:46 Yeah.
+29:46 >> So my take my my you know,
+29:48 glass-half-full take is you
+29:51 you can get some puffs out of it and and
+29:55 it might turn in like your personality
+29:56 test might be like, oh, a $1 to $2
+29:59 million a year business for 3 years or
+30:01 it might turn into like a media
+30:03 conglomerate.
+30:05 So how
+30:05 >> built it. I built it for, you know, I
+30:08 was pretty irresponsible cuz I'm like
+30:09 using fast mode and going all out with
+30:11 all the cost, but I could probably build
+30:14 it for 10 grand, 20 grand of tokens or
+30:17 whatever to get to where we got to. I
+30:19 probably spent like 80 or 100 honestly
+30:21 cuz I've been so Dude, I'm I'm spending
+30:23 like our family office um
+30:26 So basically like I have Tiny and then I
+30:29 have my personal holding company um
+30:31 and you know, family office the just the
+30:33 rich person word for uh personal holding
+30:36 company. So I I'm sorry for being a
+30:38 douche. But um but basically like we
+30:41 have been instead of scaling employees,
+30:44 um, um we've literally just been scaling
+30:46 Claude. And so, I'm so lucky. Like, my
+30:49 CFO and president have both become
+30:51 obsessed with Claude code, but they're
+30:53 actually just, um, scaling the API cost.
+30:56 So, instead of a payroll, we just have a
+30:57 $40,000 a month Claude bill. And it's
+31:00 doing it's doing everything. Like, I
+31:01 love to show you some of the stuff that
+31:03 they've built. It's just crazy.
+31:06 Yeah, I would love to see it.
+31:08 Here's here's an example of like
+31:10 software being completely So,
+31:13 there's this product called Addepar.
+31:15 Have you ever heard of it? No. So,
+31:17 Addepar is like, um,
+31:19 basically like software for rich people
+31:22 to track their portfolios, and they
+31:24 charge 50 to $100,000 a year.
+31:27 Um, and basically what it is is like, it
+31:29 pipes into your bank, it pipes into your
+31:31 accounting, it pipes into the public
+31:32 market data, and it just tells you like,
+31:35 here's how much, um, here's how much
+31:37 money you have. Here's your personal net
+31:39 worth. Here's all your assets. Here's
+31:41 your balance sheet, etc.
+31:43 And so, what we did is my CFO just said,
+31:46 "Fuck that. I don't want to pay, um,
+31:48 those guys all that money, and we can
+31:49 actually build something that is way
+31:51 more customized to us, and, um,
+31:53 integrated into all of our data." And
+31:55 so, he said that, and like the, you
+31:57 know, the
+32:00 You remember like 5 years ago when one
+32:01 of your engineers would be like, "Why
+32:02 are we paying Slack all this money?
+32:04 Let's just build it ourselves." We all
+32:06 know that's like a fool's errand, right?
+32:08 Like, that's insane. And so, when he
+32:09 told me he was just going to build it, I
+32:11 was like, "First of all, you're a CFO.
+32:13 Like, I'm a little skeptical. Um, but
+32:15 two, I was like, "Look, do we really,
+32:17 you know, is that actually going to
+32:18 work?" In like, 2 weeks, he built this.
+32:21 Has this AI assistant. So, this I can
+32:24 query,
+32:25 um, let's see like what's, um, stress
+32:28 test. What is this?
+32:30 So, basically it's like the basically
+32:32 like a, um,
+32:33 Anthropic API, but it has access to all
+32:36 of our data.
+32:38 So like okay, here's one.
+32:41 I screwed it up. Bad demo. Steve Jobs
+32:43 would be yelling at me right now. Yeah.
+32:45 So this is going to go off and query
+32:47 this. Let's see what it does.
+32:49 But anyway, this was built by my CFO.
+32:52 He's never coded in his life. Like when
+32:54 I told him about Cloud Code and that he
+32:56 should check it out, he's like, "I don't
+32:57 know how to code. Like I'm not
+32:59 technical." And literally within like a
+33:01 week, I'm so lucky that he's the kind of
+33:03 person that would do this. But he built
+33:05 this and it's just it's insane.
+33:08 Going back to the glass of half full of
+33:10 entrepreneurship, you know, I've been
+33:12 seeing a lot on Twitter lately of like
+33:14 services is the new software. So I could
+33:16 imagine, I know this is you built this
+33:18 for yourself, but I can imagine a
+33:20 product like this
+33:23 and then that you sell services on top
+33:25 of this, right? Like if you if you
+33:27 actually wanted to sell this to other
+33:28 family offices and stuff like that.
+33:30 Whereas like, right? Like a weekly call
+33:32 or maybe it's like all, you know,
+33:35 add skills every single week or help you
+33:37 do XYZ. Yeah, I mean I think it would
+33:40 the way I look at it is
+33:42 I always give the example of funeral
+33:44 homes. So funeral homes are very unsexy
+33:47 industry that nobody wants to work in.
+33:49 And so you don't have that much
+33:51 competition. And so if you build
+33:52 software for let's say like some guy who
+33:55 owns a funeral home has like a web wiz
+33:57 nephew like you or me in like 2010
+34:01 and he's like, "Hey, can you build
+34:02 software that's custom for funeral homes
+34:04 for me to manage mine?" And then you
+34:06 start the software business and you're
+34:08 the only game in town. Like no other no
+34:11 other person owns this funeral home and
+34:14 has a web wiz nephew who's going to do
+34:15 that. And so you have a monopoly and you
+34:18 become the default. And I think the new
+34:20 world is, you know, if 400 people in the
+34:24 United States own funeral homes, let's
+34:26 say like 20 of them are smart and know
+34:29 AI. They're all going to build their own
+34:31 software. And so what does that do? That
+34:33 means it's great for the consumer.
+34:35 There's now 20 different software
+34:37 choices that they can use. Someone can
+34:39 build their own custom thing if they
+34:40 want to, but pricing comes down big
+34:44 time. So like, you know, Addepar, the
+34:46 company I mentioned before, they're
+34:48 charging 50 to 100,000 dollars a month.
+34:50 I don't think that they're going to be
+34:51 able to do that for too much longer
+34:53 because there's going to be a lot of
+34:54 competition that comes out. Hopefully,
+34:56 somebody watches my video and says, "I'm
+34:58 going to build this, too." and then go
+34:59 crush Addepar cuz like it's not
+35:02 particularly good software in my
+35:04 opinion.
+35:05 Mhm.
+35:06 So you can see, okay, so for some reason
+35:07 I can't scroll still Vibe Coded, but you
+35:10 can see it's like giving me an analysis
+35:12 of like how I could rebalance my
+35:13 portfolio. Um it can do all sorts of
+35:16 stuff like it can track risks and be
+35:18 like, "Oh hey, you have XYZ risk in your
+35:21 portfolio." Um it's very cool. Awesome.
+35:25 Um we only have a few minutes left. What
+35:27 uh anything Well, I actually have a
+35:29 question. You mentioned uh
+35:31 G Brain before, and I haven't gotten
+35:34 around to using it.
+35:36 Um
+35:38 how have you found it? And and for, you
+35:39 know, can you explain what G Brain is
+35:41 for for people who don't know? Yeah, I
+35:43 will. So Gary Tan is a friend of mine,
+35:45 and he basically built this um Vibe
+35:48 Coded project where he wanted a vector
+35:50 database um
+35:52 for personal kind of knowledge base. So
+35:55 really quick um ability to draw from a
+35:58 large base of markdown files on your
+36:01 computer. So basically trying to solve
+36:02 the problem of memory. And because he's
+36:04 a friend, I was like, "Oh, I'll install
+36:05 this and try it out." And actually, it's
+36:07 really, really awesome. Um there's a few
+36:10 different people kind of competing
+36:12 in [clears throat] the open-source world
+36:13 for this.
+36:14 Um but I've been really impressed with
+36:15 it.
+36:17 I don't I don't want to do a demo cuz
+36:19 it's like actually a really boring demo.
+36:21 But basically, what I did is I ingested
+36:23 all of my email, and I said, "Hey, I
+36:25 want you to um go through it my email
+36:28 thousand at a time and I want you to
+36:29 draw connections and I want you to build
+36:31 pages for everybody that I know." So,
+36:33 basically I have a page on every person
+36:36 that I know and then I can say something
+36:38 like um
+36:39 "Hey, I'm raising money for our yerba
+36:41 mate business. Who do I know that would
+36:43 be good for that round?" And then I can
+36:45 say, "Okay, now go and draft a powerful
+36:48 email to them and make a deck and send
+36:50 it to them."
+36:51 Um and so I just find that
+36:54 Oh, what what is what this has enabled
+36:56 me to do is like
+36:57 have a task that would otherwise take
+36:59 like eight hours. Like I I do these like
+37:02 men's groups and we rent board rooms and
+37:05 I need to charge everyone because I pay
+37:07 I end up paying for dinner in the board
+37:08 room. And so I was like, "Okay, I got to
+37:10 I got to send everyone Stripe links. I
+37:12 have to get everyone on a subscription.
+37:14 I have to send all the emails. I have to
+37:15 hector them." And I just had that as a
+37:17 single task to my open claw agent and it
+37:20 went out went in the Stripe API, sent
+37:22 the emails, did everything. So, like
+37:24 there are these magic moments using
+37:26 stuff like G brain and and open claw.
+37:30 I want to I want to show you two really
+37:32 cool actually three really cool things
+37:33 before I go. So, one So, I mentioned
+37:35 this guy Gavin Vickery who built Harbor.
+37:38 So, we were doing a vibe coding retreat
+37:40 at my my cabin and I was talking about
+37:43 how sad I was that
+37:46 the Limitless pendant sold to Meta. So,
+37:48 it's like this little pendant. I think I
+37:50 showed it last time I was on. You just
+37:51 wear it and it would record your entire
+37:53 day and build transcripts of it.
+37:56 And I was saying,
+37:58 "I'm so annoyed because the iPhone has a
+38:00 microphone on it. Like why can't the
+38:02 iPhone just record all the time?" And he
+38:04 just went, "Well, I can build that." And
+38:07 24 hours later he had this app called
+38:10 Hearsay and basically
+38:13 can't really see it, but what you do is
+38:15 you say what times of day you want to
+38:17 trigger it. And so you can be like, "Oh,
+38:18 I'm I'm in meetings in the afternoon or
+38:21 or you know, I want it to record all
+38:23 day. And then it literally just records
+38:25 your entire day and builds transcripts
+38:28 and then sends them to your iCloud. And
+38:30 so you just have context on your life.
+38:32 And so I record my entire day and then G
+38:35 brain ingest it and it just knows
+38:37 context and then my open claw agents
+38:39 have full context. Um, let me show you
+38:43 also a couple cool things I've been
+38:46 doing with
+38:48 open claw.
+38:50 You've been busy, Andrew. I have been
+38:53 very busy. I mean, this is all I do.
+38:55 Like this is just like a complete
+38:57 obsession
+38:58 and it is um, kind of sad because I'm
+39:03 like
+39:03 let's see, cuz I'm always spending my
+39:06 time um,
+39:08 I'm always spending my time
+39:10 uh, tweaking my stuff versus doing
+39:12 actual work. So, um,
+39:14 basically like it does it reads all my
+39:17 email, triages all my email and then it
+39:20 figures out automatically what projects
+39:22 I have going on. We might have to blur
+39:25 some of this. Um, but here's so it's,
+39:27 you know, I'm on your podcast and it's
+39:30 telling me, oh, you need to um, prepare
+39:32 for it.
+39:33 Uh, you know, it randomly was like, oh,
+39:35 your airtable account's going to go out.
+39:37 It's my brother's birthday. I'm bidding
+39:39 on a building. Like it just figures out
+39:41 all those things. And so every day I get
+39:44 this report and then you can see that it
+39:46 um, gives me next steps. So, I can say
+39:49 like, don't worry about it or I can say,
+39:52 hey, send an email to my um, my admin
+39:55 asking her to um, remind this person
+39:58 that. So, that's pretty cool. I also get
+40:01 um, emails. So, this is like it's
+40:03 identified a high priority email. Again,
+40:05 we're going to have to blur this because
+40:07 this is someone's comp, but this is
+40:08 somebody saying, oh, hey, I'm owed a
+40:10 bonus, right? So, and then it drafts in
+40:13 my voice different response options. So,
+40:15 I can just respond inline in Telegram
+40:18 and say 1B. Uh, Um and so, it turns your
+40:20 entire business into a multiple choice
+40:24 um quiz, basically. So, every day I just
+40:26 get like 20 different messages. They're
+40:29 emails or it goes in my iMessage and
+40:31 identifies things I need to respond to
+40:33 and I can just say like 1A, 2B, 3C.
+40:38 And um and that's saved me a shitload of
+40:40 time. Another cool thing I've doing I
+40:43 built a brief. So, basically this goes
+40:45 into my Readwise reader and my email and
+40:48 it looks at which newsletters came in
+40:51 and then it based on what it knows about
+40:53 me. So, I prompted it. I kind of said
+40:55 like I'm interested in AI and health and
+40:58 certain things. Um and then it chooses a
+41:00 few stories and then check this out. Did
+41:03 you ever listen to The Daily on New York
+41:05 Times?
+41:05 >> Yeah. So, listen to this.
+41:07 Here's what landed in the inbox and
+41:09 reader today, Tuesday, April 28th. We
+41:12 have a special forces soldier who bet on
+41:14 an operation. So, basically makes a
+41:16 custom podcast using Gemini voice and I
+41:20 just listen to that every day in the
+41:21 shower and it's so cool because one of
+41:23 the reasons I stopped listening to
+41:25 podcast like that was because they would
+41:27 be depressing or I you know, just stuff
+41:30 I don't care about. Um so, I have it
+41:32 prompted to like only tell me things
+41:35 that are going to make my day better or
+41:37 are relevant to to my own life or my
+41:39 city or my businesses. And then I also
+41:42 have it do a countdown. So, it says you
+41:45 have um
+41:46 this many more summers with your kids.
+41:48 You have this many more days to live.
+41:50 Here's a quote from Seneca, you know, to
+41:53 give you like a sense of purpose today.
+41:55 So, it's just incredibly cool how you
+41:58 can basically make your media diet
+42:00 whatever you want in a custom way with
+42:02 this. I mean, that's a product in
+42:04 itself, right? Like honestly. For a bit
+42:07 until Open AI does it.
+42:09 You think Well, you think they would do
+42:11 it? like the 7-minute podcast? Like I
+42:14 would subscribe. Like if you if it was
+42:16 $10 a month
+42:18 to
+42:20 the 7-minute podcast that's going to
+42:23 make you more productive, happier, and
+42:24 healthier.
+42:26 Uh and that is personalized to me. Like
+42:30 I would pay for that.
+42:32 Yeah. I think I think it's kind of like
+42:35 um
+42:36 you the other day I taught my open claw
+42:39 agent. I said, "Whenever I tweet, I want
+42:41 you to create an Instagram story." So it
+42:44 creates an image that's perfectly scaled
+42:46 for Instagram, and I want you to um put
+42:48 it into the um Instagram uh creator
+42:51 thing, right? So basically schedule it.
+42:53 And that was a product before. So
+42:55 there's this company called Tweet Shot,
+42:57 and they basically automate that. It's
+42:59 just dead, you know? It's like anything
+43:01 that could be an API call is just
+43:03 cooked. So to me, that's like an API
+43:06 call business. That's like the first
+43:07 thing to get run over. But for like
+43:09 normies, I agree. Like if I told my dad
+43:12 about it, and I could be like, "Hey,
+43:13 what topics are you interested in?
+43:15 Create me a daily podcast and text it to
+43:17 me." Like I I do agree that is a cool
+43:19 idea.
+43:20 Someone should build that, by the way.
+43:22 And me and Greg will back you.
+43:24 Um so here's another one. So so I have
+43:27 two open claw agents running on a VPS,
+43:30 and
+43:31 um Ava is kind of my personal assistant
+43:33 that I just showed you. This is Mara.
+43:35 This is my um my doctor um doctor agent.
+43:39 It also helps I've made them very
+43:40 attractive women, so I always want to
+43:42 talk to them. Um and I'm always
+43:44 flattered when they message me. Um but
+43:46 this this is really cool. So I have it
+43:48 um I have all my Apple Health data from
+43:51 my Apple Watch, my eight sleep, etc. And
+43:54 it uploads into a Google Drive. So I
+43:56 have a JSON file of all my um health
+44:00 metrics. And then every morning, it
+44:02 sends me a health summary. So it looks
+44:04 at my HRV, resting heart rate,
+44:07 respiratory rate, tells me about my
+44:09 sleep, and then I have this weird
+44:12 viral nerve pain that I get, and it
+44:16 looked through my data over the last 5
+44:18 years and said, "Oh, I've correlated it,
+44:21 and I see that every time you get that
+44:22 flare, your wrist temperature changes
+44:25 for 3 days before." And so, it tells me
+44:28 in advance that
+44:31 and then it also tracks like my
+44:32 medication adherence and all that kind
+44:34 of stuff. So, it's just stuff like
+44:37 I And then the other thing is like if I
+44:38 ask it a question, it's prompted to use
+44:41 Max Intelligence. So, let's say I said
+44:43 um
+44:44 "Hey, should I take this medication?" It
+44:46 will spin up a uh rheumatologist, a um
+44:51 you know,
+44:53 uh internist, like every type of doctor
+44:56 as a Claude expert with extra high
+44:57 thinking, and it will do a team of
+44:59 experts for like 10 minutes across my G
+45:02 brain and all my medical data, and it'll
+45:04 give me a really informed answer. So,
+45:06 I'm like just blown away by some of this
+45:09 stuff. Andrew, we covered a lot of
+45:11 territory, like way more territory than
+45:14 I even thought was remotely possible,
+45:16 but
+45:17 uh that's why I love having you on. I
+45:19 appreciate it. We did We did pretty much
+45:21 everything. We did agents, we did
+45:23 running your business, we did family
+45:25 office, we did health, we did
+45:27 personalized health, we did living
+45:29 happier and healthier.
+45:31 So, I want to thank you for coming on.
+45:32 I'll include links on where to find and
+45:34 follow Andrew on the internet, where to
+45:37 take uh the deep personality test, where
+45:40 to find Tiny if you're ever interested
+45:41 in
+45:42 selling a company.
+45:44 And uh Andrew, is there anything you
+45:46 want to leave people with? Yeah, I have
+45:48 one prompting tip I want to give people
+45:51 um that's changed my use of Claude a
+45:53 lot. So, I will say um
+45:56 "This is my goal." So, let's say uh real
+45:58 estate example, "I'm thinking about
+46:00 buying this building.
+46:02 I want to interview me. Ask me I'll
+46:04 literally write ask me a shitload of
+46:06 questions to determine your prompt and
+46:09 use question tool. So, it'll pull up
+46:11 multiple choice questions. It'll
+46:12 interview me for sometimes five or 10
+46:15 minutes and what I found that it does is
+46:17 just give me like an incredible breadth
+46:21 of basically building perfect prompts
+46:23 and I think this is like the thing that
+46:25 everyone misses cuz people are always
+46:26 like, "Oh, like you know, there's always
+46:29 going to be jobs because someone needs
+46:30 to build the prompts." And it's like,
+46:32 "No, nobody needs to build the prompts.
+46:34 The AI should just interview you." It
+46:36 OpenAI just doesn't want to spend all
+46:38 the computer at this point. So, it is
+46:40 fully capable of just interviewing you
+46:41 to figure out what you need.
+46:43 So, I love that and I also highly
+46:45 recommend using agent teams. So, I'll
+46:48 say always use a team of agents of eight
+46:51 sub agents and I find the answers are
+46:53 just incredible.
+46:54 I like that. Good tips.
+46:56 Andrew Wilkinson, thanks for coming back
+46:58 on the pod. Thanks, dude. Always fun.

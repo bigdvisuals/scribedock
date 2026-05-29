@@ -1,0 +1,251 @@
+{
+  "playlistTitle": "YouTube playlist",
+  "playlistUrl": "https://www.youtube.com/watch?v=X-_eMAaPv5I&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG",
+  "exportedAt": "2026-05-25T21:41:00.259Z",
+  "totalVideosFound": 30,
+  "downloadedCount": 30,
+  "skippedCount": 0,
+  "successfulVideos": [
+    {
+      "index": 1,
+      "videoId": "X-_eMAaPv5I",
+      "title": "Learn UI/UX for Free - 30 Videos in 30 Days",
+      "url": "https://www.youtube.com/watch?v=X-_eMAaPv5I&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=1&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "01 - Learn UI UX for Free - 30 Videos in 30 Days.txt"
+    },
+    {
+      "index": 2,
+      "videoId": "SbVZCiYBVoU",
+      "title": "WHAT IS UI/UX? And which to focus on",
+      "url": "https://www.youtube.com/watch?v=SbVZCiYBVoU&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=2&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "02 - WHAT IS UI UX And which to focus on.txt"
+    },
+    {
+      "index": 3,
+      "videoId": "Gz7IhYEYGEA",
+      "title": "The Sweet Tools of UI/UX Design",
+      "url": "https://www.youtube.com/watch?v=Gz7IhYEYGEA&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=3&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "03 - The Sweet Tools of UI UX Design.txt"
+    },
+    {
+      "index": 4,
+      "videoId": "EZBwM1aOwLc",
+      "title": "UI/UX Desktop Navigations in Figma (Challenge)",
+      "url": "https://www.youtube.com/watch?v=EZBwM1aOwLc&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=4&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "04 - UI UX Desktop Navigations in Figma (Challenge).txt"
+    },
+    {
+      "index": 5,
+      "videoId": "XdtwJdFjoVs",
+      "title": "Who made the Best UI/UX Navigation? (Review)",
+      "url": "https://www.youtube.com/watch?v=XdtwJdFjoVs&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=5&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "05 - Who made the Best UI UX Navigation (Review).txt"
+    },
+    {
+      "index": 6,
+      "videoId": "YNxCjIccPO8",
+      "title": "The UI/UX of Hero Sections (Challenge)",
+      "url": "https://www.youtube.com/watch?v=YNxCjIccPO8&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=6&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "06 - The UI UX of Hero Sections (Challenge).txt"
+    },
+    {
+      "index": 7,
+      "videoId": "cYnJLT36Oxo",
+      "title": "UI/UX Refactoring of your Hero Sections (Review)",
+      "url": "https://www.youtube.com/watch?v=cYnJLT36Oxo&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=7&pp=iAQB0gcJCQYLAYcqIYzv",
+      "language": "English auto-generated",
+      "filename": "07 - UI UX Refactoring of your Hero Sections (Review).txt"
+    },
+    {
+      "index": 8,
+      "videoId": "jXEn5IFxmAc",
+      "title": "The UI/UX of Card Design (Challenge)",
+      "url": "https://www.youtube.com/watch?v=jXEn5IFxmAc&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=8&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "08 - The UI UX of Card Design (Challenge).txt"
+    },
+    {
+      "index": 9,
+      "videoId": "D1TFx9iZB08",
+      "title": "Who Designed the BEST UI/UX Cards?",
+      "url": "https://www.youtube.com/watch?v=D1TFx9iZB08&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=9&pp=iAQB0gcJCQYLAYcqIYzv",
+      "language": "English auto-generated",
+      "filename": "09 - Who Designed the BEST UI UX Cards.txt"
+    },
+    {
+      "index": 10,
+      "videoId": "TPNheq7g1P8",
+      "title": "Learn Responsive Web Design (Challenge)",
+      "url": "https://www.youtube.com/watch?v=TPNheq7g1P8&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=10&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "10 - Learn Responsive Web Design (Challenge).txt"
+    },
+    {
+      "index": 11,
+      "videoId": "exQKEte8cmQ",
+      "title": "Who made the BEST Responsive Design?",
+      "url": "https://www.youtube.com/watch?v=exQKEte8cmQ&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=11&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "11 - Who made the BEST Responsive Design.txt"
+    },
+    {
+      "index": 12,
+      "videoId": "-QGdFPLaW_k",
+      "title": "Can you make THIS Design Responsive? (Challenge)",
+      "url": "https://www.youtube.com/watch?v=-QGdFPLaW_k&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=12&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "12 - Can you make THIS Design Responsive (Challenge).txt"
+    },
+    {
+      "index": 13,
+      "videoId": "rGheGnrcdgc",
+      "title": "Who Designed the BEST Responsive Card?",
+      "url": "https://www.youtube.com/watch?v=rGheGnrcdgc&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=13&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "13 - Who Designed the BEST Responsive Card.txt"
+    },
+    {
+      "index": 14,
+      "videoId": "EKjCC4PwjFo",
+      "title": "Designing Forms in Figma - UI/UX Challenge",
+      "url": "https://www.youtube.com/watch?v=EKjCC4PwjFo&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=14&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "14 - Designing Forms in Figma - UI UX Challenge.txt"
+    },
+    {
+      "index": 15,
+      "videoId": "I5Vz2pl8pPI",
+      "title": "UI/UX Form Design DO's and DON'Ts! Review",
+      "url": "https://www.youtube.com/watch?v=I5Vz2pl8pPI&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=15&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "15 - UI UX Form Design DO's and DON'Ts! Review.txt"
+    },
+    {
+      "index": 16,
+      "videoId": "Xc8zxE9pB4w",
+      "title": "UI/UX Prototyping and Animation in Figma (Challenge)",
+      "url": "https://www.youtube.com/watch?v=Xc8zxE9pB4w&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=16&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "16 - UI UX Prototyping and Animation in Figma (Challenge).txt"
+    },
+    {
+      "index": 17,
+      "videoId": "YfsR96CgzkE",
+      "title": "Who made the BEST UI Prototyping Animation?",
+      "url": "https://www.youtube.com/watch?v=YfsR96CgzkE&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=17&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "17 - Who made the BEST UI Prototyping Animation.txt"
+    },
+    {
+      "index": 18,
+      "videoId": "opMic9UdFo8",
+      "title": "Using Generative AI in UI/UX Design",
+      "url": "https://www.youtube.com/watch?v=opMic9UdFo8&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=18&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "18 - Using Generative AI in UI UX Design.txt"
+    },
+    {
+      "index": 19,
+      "videoId": "P96IGCr93IA",
+      "title": "The World of Embellishments in UI/UX Design (Challenge)",
+      "url": "https://www.youtube.com/watch?v=P96IGCr93IA&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=19&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "19 - The World of Embellishments in UI UX Design (Challenge).txt"
+    },
+    {
+      "index": 20,
+      "videoId": "OiQ54LUy29E",
+      "title": "Who made the BEST UI/UX Layout from THIS Challenge?",
+      "url": "https://www.youtube.com/watch?v=OiQ54LUy29E&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=20&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "20 - Who made the BEST UI UX Layout from THIS Challenge.txt"
+    },
+    {
+      "index": 21,
+      "videoId": "wqTZuEQ2P-s",
+      "title": "The UI/UX of Light / Dark Mode Design (Challenge)",
+      "url": "https://www.youtube.com/watch?v=wqTZuEQ2P-s&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=21&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "21 - The UI UX of Light Dark Mode Design (Challenge).txt"
+    },
+    {
+      "index": 22,
+      "videoId": "FsYi-O9-ZVw",
+      "title": "It's time to design your portfolio - CHALLENGE!",
+      "url": "https://www.youtube.com/watch?v=FsYi-O9-ZVw&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=22&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "22 - It's time to design your portfolio - CHALLENGE!.txt"
+    },
+    {
+      "index": 23,
+      "videoId": "4C43hMGm-6U",
+      "title": "6 UI/UX Design Refactors of Design Portfolios",
+      "url": "https://www.youtube.com/watch?v=4C43hMGm-6U&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=23&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "23 - 6 UI UX Design Refactors of Design Portfolios.txt"
+    },
+    {
+      "index": 24,
+      "videoId": "YVdm3e1NBf4",
+      "title": "Designing CONSISTENT Sub Pages | UI/UX Challenge",
+      "url": "https://www.youtube.com/watch?v=YVdm3e1NBf4&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=24&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "24 - Designing CONSISTENT Sub Pages UI UX Challenge.txt"
+    },
+    {
+      "index": 25,
+      "videoId": "QKrglAsEgY8",
+      "title": "Who Designed the BEST Sub Page for this Layout?",
+      "url": "https://www.youtube.com/watch?v=QKrglAsEgY8&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=25&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "25 - Who Designed the BEST Sub Page for this Layout.txt"
+    },
+    {
+      "index": 26,
+      "videoId": "C95S7gW2-_U",
+      "title": "Designing Dashboards in Figma | UI/UX Challenge",
+      "url": "https://www.youtube.com/watch?v=C95S7gW2-_U&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=26&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "26 - Designing Dashboards in Figma UI UX Challenge.txt"
+    },
+    {
+      "index": 27,
+      "videoId": "uMQnKUIXUSI",
+      "title": "Dashboard UI/UX Design Reviews | Who did it best?",
+      "url": "https://www.youtube.com/watch?v=uMQnKUIXUSI&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=27&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "27 - Dashboard UI UX Design Reviews Who did it best.txt"
+    },
+    {
+      "index": 28,
+      "videoId": "d2ECtM9Ahq4",
+      "title": "Most UI/UX Designers will Fail this Challenge",
+      "url": "https://www.youtube.com/watch?v=d2ECtM9Ahq4&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=28&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "28 - Most UI UX Designers will Fail this Challenge.txt"
+    },
+    {
+      "index": 29,
+      "videoId": "IUTmJ_ZYDRg",
+      "title": "FINAL UI/UX Review for the 30 Day Challenge",
+      "url": "https://www.youtube.com/watch?v=IUTmJ_ZYDRg&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=29&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "29 - FINAL UI UX Review for the 30 Day Challenge.txt"
+    },
+    {
+      "index": 30,
+      "videoId": "cTUD_vCrY7M",
+      "title": "Interactive UI/UX Crash Course",
+      "url": "https://www.youtube.com/watch?v=cTUD_vCrY7M&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=30&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "30 - Interactive UI UX Crash Course.txt"
+    }
+  ],
+  "skippedVideos": []
+}

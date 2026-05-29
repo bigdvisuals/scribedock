@@ -1,0 +1,376 @@
+Title: What is SSRF? | Server-Side Request Forgery Explained | Impact of SSRF Attacks | Edureka
+URL: https://www.youtube.com/watch?v=4qZv_LACsAk&list=PL9ooVrP1hQOGPQVeapGsJCktzIO4DtI4_&index=83&pp=iAQB
+Channel: YouTube playlist
+Video ID: 4qZv_LACsAk
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:24:55.858Z
+
+0:08 Hello everyone and welcome to another
+0:10 exciting video on cyber security by
+0:12 Idureka. In today's video, we will
+0:15 explore SSRF attacks, also known as
+0:18 server side request forgery, a critical
+0:21 vulnerability that can exploit the trust
+0:23 web servers place in internal resources.
+0:26 We will break down how SSRF attacks
+0:28 work, the dangers they bring to your web
+0:30 applications, and most importantly, the
+0:32 steps you can take to secure your system
+0:35 from these threats. So whether you're a
+0:37 developer, a cyber security
+0:39 professional, or someone eager to
+0:41 understand how attackers manipulate web
+0:43 servers to do their bidding, this video
+0:46 is packed with insights you won't want
+0:48 to miss. So first, let's take a look at
+0:51 our today's agenda. So first we will
+0:54 understand what SSRF is. Next we will
+0:58 see how SSRF works. Then we will explore
+1:02 the impact of SSRF attacks. And these
+1:04 attacks can cause serious problems like
+1:07 data leaks, internal network access or
+1:09 further system compromise. After that we
+1:12 will look at the types of SSRF attacks.
+1:15 So there are different forms including
+1:17 blind SSRF where attackers get no direct
+1:20 response but still cause damage. Next we
+1:23 will dive deeper into blind SSRF.
+1:26 Finally we will learn how to prevent
+1:29 SSRF using input validation. Blocking
+1:32 internal IPs and limiting server access
+1:35 can help keep systems safe. And by the
+1:37 end of this video you will have a
+1:39 thorough understanding of SSRF
+1:40 vulnerabilities and how to defend
+1:42 against them. But before we begin,
+1:45 please like, share, and subscribe to
+1:46 Edureka's YouTube channel and hit the
+1:48 bell icon to stay updated on the latest
+1:50 content from Edureka. Also check out the
+1:53 certified ethical hacking course
+1:55 designed in partnership with AC Council
+1:57 to elevate your cyber security skills.
+2:00 This course offers a globally recognized
+2:03 CE13 AI certification and features 20
+2:07 comprehensive modules that cover over
+2:09 500 attack techniques enhanced by AI GPT
+2:12 tools. You will gain hands-on experience
+2:15 through 221 practical labs and benefit
+2:18 from round clock support provided by
+2:20 certified professionals with access to
+2:22 exclusive ECOSE and an exam vure from
+2:25 the EC council. This course is your
+2:27 gateway to mastering ethical hacking and
+2:29 securing a rewarding career in cyber
+2:32 defense. So check out the course link
+2:34 given in the description box below. So
+2:36 let's start by understanding SSRF or
+2:40 server side request forgery. SSRF is a
+2:43 security flaw that occurs when an
+2:45 attacker manipulates a web application
+2:47 or API to request internal resources.
+2:51 These internal resources could include
+2:52 sensitive data, private systems, or even
+2:55 services that are not meant to be
+2:57 accessible externally. And by exploiting
+3:00 these vulnerabilities, attackers can
+3:02 potentially gain unauthorized access,
+3:05 expose sensitive data, compromise
+3:07 systems, and even execute malicious code
+3:10 remotely. Now that we know what SSRF is,
+3:13 let's dive into how this vulnerability
+3:15 works. Imagine a web application that
+3:18 allows users to import data from a URL,
+3:21 publish data to a URL or fetch data from
+3:24 a remote resource. But what if the
+3:26 application doesn't validate or sanitize
+3:28 the user provided URLs? So the
+3:31 application becomes vulnerable to an
+3:33 SSRF attack. So here's how it works. The
+3:37 attacker finds an input field, form or
+3:40 parameter in the application where they
+3:42 can specify a URL and instead of
+3:44 providing a legitimate URL, the attacker
+3:47 craft a malicious one. So this URL could
+3:50 point to internal systems, private APIs
+3:53 or even metadata services in cloud
+3:55 environments. For example, a common
+3:58 target is the metadata service in cloud
+4:00 servers which can be accessed via this.
+4:04 Then these services often store
+4:06 sensitive information such as
+4:08 configuration details or authentication
+4:10 keys. The server trusting the user's
+4:12 input process this malicious URL and it
+4:15 makes a serverside request to a
+4:17 specified resource unknowingly carrying
+4:19 out the attacker's commands. So through
+4:22 this manipulation an attacker can access
+4:24 sensitive internal resources such as
+4:26 private database or rest APIs. Next,
+4:30 exploit resources that assume all
+4:32 requests from the server are
+4:33 trustworthy. Then, scan internal systems
+4:36 to identify weaknesses or open ports.
+4:39 Then, extract sensitive data and
+4:41 excfiltrate it to an external location
+4:43 they control. SSRF has become so
+4:46 prominent that it is listed among the
+4:48 OAP's top 10 vulnerabilities. A widely
+4:52 recognized list of the most critical web
+4:54 application security risk. This
+4:56 highlights just how severe and common
+4:58 SSRF attacks are. Now that we understand
+5:01 how SSRF works, let's explore the real
+5:04 world impacts these attacks can have on
+5:06 organizations and their systems. A
+5:09 successful SSRF attack can have
+5:11 farreaching consequences. First, here we
+5:14 have unauthorized access. Attackers can
+5:17 gain access to sensitive configuration
+5:20 such as server files, cloud meta data,
+5:22 or even open ports. For example, they
+5:26 might extract credentials or manipulate
+5:28 configurations to further exploit the
+5:30 system. Next, internal port scanning.
+5:34 With SSRF, attackers can perform
+5:36 internal network scans, identifying weak
+5:40 or unprotected services. This
+5:42 reconnaissance helps them plan more
+5:44 advanced attacks. Next, exploit
+5:47 chaining. SSRF vulnerabilities are often
+5:50 a stepping stone to most severe exploits
+5:52 like remote code execution or reflected
+5:55 XSS attacks. This means a simple SSRF
+5:59 vulnerability can lead to a complete
+6:01 system compromise. And then we have
+6:03 malicious onword attacks. Attackers can
+6:06 exploit SSRF to launch malicious
+6:08 requests to external systems. These
+6:11 requests appear to originate from the
+6:13 victim organization leading to
+6:15 reputational damage. Now let's talk
+6:18 about a real world examples of the
+6:20 devastating impact SSRF can have. In
+6:23 early 2024, a critical SSRF
+6:26 vulnerability CVE 2024
+6:29 21893 in Ivante connect secure and
+6:32 policy secure products was massively
+6:35 exploited. This flaw allowed attackers
+6:38 to bypass authentication and access
+6:40 restricted resources. And if we talk
+6:42 about its impact, over 170 unique IPs
+6:46 were used for attacks aiming to
+6:47 establish reverse shells and extract
+6:50 sensitive data. Thread actors chain this
+6:53 vulnerability with others achieving
+6:55 unauthenticated remote code execution
+6:57 and over 28,000 Ivante devices were
+7:01 identified as exploited across 145
+7:04 countries with hundreds confirmed
+7:06 compromised. organizations including the
+7:09 European Union issued urgent advisers to
+7:12 mitigate the risk. So this incident
+7:14 highlights the massive risk SSRF poses
+7:17 especially in today's interconnected
+7:19 systems and cloud environments. So now
+7:21 that we have explored the impact of SSRF
+7:24 attacks let's see their different types.
+7:27 Understanding these categories will help
+7:28 you grab the various ways attackers
+7:30 exploit this vulnerability. So here are
+7:33 the types of SSRF attacks. SSRF can
+7:37 manifest in different ways depending on
+7:39 what the attackers is targeting. So we
+7:42 will explore three primary types. First
+7:45 attacks targeting the server itself.
+7:48 Next cross-sight port attacks. And
+7:50 finally metadata exploitation in AWS,
+7:54 Azure and Oracle cloud environments.
+7:57 First we will talk about SSRF attacks
+8:00 where the server itself becomes the
+8:02 target. So accessing restricted URLs. So
+8:06 imagine a web application that lets user
+8:08 load content from a URL. Now if there is
+8:12 no proper validation, an attacker could
+8:14 change the URL to something internal
+8:16 like this. Okay. So this could expose
+8:19 sensitive data or admin panels. Next,
+8:22 reading files on the server. So
+8:25 sometimes attackers use SSRF to access
+8:28 local files on the server. For example,
+8:31 they could craft a request to something
+8:32 like this. This might give them a list
+8:35 of system users, which is a valuable
+8:38 first step in hacking. Then using
+8:40 uncommon protocols, SSRF can also abuse
+8:44 less common protocols like FTP or
+8:47 Gopher. For example, an attacker could
+8:50 send emails or interact with internal
+8:52 APIs using payloads like this.
+8:56 Next, let's examine cross-sight port
+8:58 attacks or XSPA. So, in this type of
+9:02 attack, SSRF scans open ports or
+9:05 services inside a network. So, first we
+9:08 have scanning ports. An attacker could
+9:11 make the server check if the ports are
+9:13 open on the network such as this. Next,
+9:16 we have probing private IPs. They might
+9:19 even scan private IP range like this
+9:22 here as you can see on the screen. So
+9:25 this helps them map out the network and
+9:27 find services to target. Finally, we
+9:30 have exploitations of cloud metadata
+9:33 endpoints. This endpoint stores
+9:35 sensitive information like access keys,
+9:37 configurations, and instance details.
+9:40 Now let's see how this works for AWS
+9:43 cloud. In AWS, there's a special
+9:46 endpoint that stores metadata. It's
+9:48 always available at this. So if
+9:51 attackers exploit SSRF to hit this
+9:53 endpoint, they can extract instance
+9:55 details like the server's host name or
+9:57 IP address. Also, AM role credentials
+10:01 which can look like this. So with this
+10:03 credentials, attackers might access AWS
+10:06 services or steal data. Now that we have
+10:09 exploit different types of SSRF attacks,
+10:11 let's take it a step further and examine
+10:14 blind SSRF vulnerability, which is a bit
+10:17 more challenging but equally
+10:18 fascinating. So now we will explore
+10:21 blind SSRF and its potential impact and
+10:24 how attackers find and exploit this
+10:27 vulnerabilities. Plus we will talk about
+10:29 some advanced techniques used to elevate
+10:31 blind SSRF attacks. So let's get into
+10:35 it. So first what is blind SSRF? Blind
+10:39 SSRF occurs when a server processes a
+10:42 backend HTTP request based on an
+10:44 attacker's URL, but the response isn't
+10:47 visible to the attackers in the front
+10:49 end. So, you can make the server send
+10:52 requests to other systems, but can't
+10:54 directly see the result. Now, let's talk
+10:57 about the impact. At the first glance,
+10:59 the impact of blind SSRF might seem
+11:01 lower compared to regular SSRF because
+11:04 you can't directly retrieve sensitive
+11:06 data. However, it's still dangerous
+11:08 because attackers can probe internal
+11:10 systems or hidden applications and they
+11:13 might uncover vulnerabilities like shell
+11:15 shock or exploit servers that haven't
+11:18 been patched. And in external cases,
+11:21 they could even achieve remote code
+11:22 execution, gaining complete control over
+11:25 the server. While it's not always as
+11:28 direct, blind SSRF still poses a serious
+11:31 risk. So, now comes the interesting
+11:33 part. How to find and exploit blind SSRF
+11:37 vulnerabilities. So first is using out
+11:39 of brand techniques. The most effective
+11:42 way to detect blind SSRF is by using out
+11:45 of brand techniques also known as OAD.
+11:48 And here's how it works. You can create
+11:51 unique domain name that point to a
+11:53 system you control. Next send these
+11:56 domain names in your payloads to the
+11:58 vulnerable application. And if the
+12:00 application is vulnerable, it will make
+12:02 an HTTP request to your domain and you
+12:05 will detect that interaction. So this
+12:07 way, even though the server's response
+12:09 isn't visible to you, you can confirm
+12:11 its behavior indirectly. Next is using
+12:14 Burp Collaborator. The easiest tool for
+12:17 performing OAD testing is Burp
+12:20 Collaborator. And here's how you can use
+12:22 it. First, generate a unique domain name
+12:25 in Burp Collaborator. Then inject this
+12:28 domain name into your payload and send
+12:30 it to the application. Next, monitor for
+12:33 interactions like DNS, lookups or HTTP
+12:37 request from the application to your
+12:38 domain. So if you detect any
+12:41 interaction, then congratulations, you
+12:43 have found a blind SSRF vulnerability.
+12:46 Now that we have explored blind SSRF
+12:48 vulnerabilities and their potential
+12:50 impact, let's talk about the techniques
+12:52 to prevent SSRF attacks effectively.
+12:55 Preventing SSRF attacks require a
+12:58 multi-layered approach since attackers
+13:00 can use creative ways to bypass simple
+13:02 defenses. And here are some of the best
+13:05 practices to mitigate SSRF risk. First,
+13:08 we have avoid blacklist and use white
+13:10 list instead. So, blacklist rely on
+13:13 blocking specific inputs, but attackers
+13:16 can easily bypass them using wildcard
+13:18 DNS services, HTTP redirects or
+13:21 alternate IP encodings. While whitelist
+13:24 only allows access to trusted IP
+13:27 addresses or DNS names that the
+13:29 application needs. So this limits the
+13:31 scope of potentially malicious request.
+13:34 Next preventing attack is validate and
+13:36 sanitize user input. So ensure that the
+13:39 user provided URLs are thoroughly
+13:42 validated. Also reject requests to
+13:44 private IP addresses or disallowed
+13:47 domains. The next way to prevent attack
+13:50 is by handling server responses
+13:51 carefully. Never forward raw response
+13:54 bodies received from server initiated
+13:56 requests directly to the client.
+13:59 Instead, filter the responses and only
+14:01 rely expected data to prevent leaking
+14:03 sensitive server information to
+14:05 attackers. Next, restrict URL schemas.
+14:09 Allow only the necessary URL scheas such
+14:12 as HTTP and HTTPS.
+14:15 Then unused schemas like file, gopher or
+14:19 dictionary to block attackers from
+14:21 exploiting these
+14:23 protocols. Next, secure internal
+14:26 services. Many internal services for
+14:28 example radius, MongoDB or elastic
+14:31 research don't require authentication by
+14:34 default. Enforce authentication for all
+14:36 services even those operating within
+14:38 local networks. Next, monitor and log
+14:41 request. Implement logging for outgoing
+14:44 requests initiated by the server.
+14:46 Analyze logs regularly to identify
+14:48 abnormal patterns that might indicate
+14:51 SSRF attempts. Next, leverage security
+14:55 tools and frameworks. Use web
+14:57 application firewalls or SSRF detection
+14:59 plugins to detect and block potential
+15:02 attacks in real time. And by combining
+15:04 these measures, you can significantly
+15:06 reduces the chances of SSRF
+15:08 vulnerabilities being exploited, making
+15:11 your applications more resilient against
+15:13 potential threats. And that's a wrap. So
+15:16 in this video, we explored the
+15:18 fascinating yet dangerous world of SSRF
+15:21 attacks. We started by understanding
+15:23 what SSRF is, how it works, and its
+15:26 potential impacts. We then moved into
+15:28 different types of SSRF attacks, real
+15:31 world examples and even techniques like
+15:33 blind SSRF. And most importantly, we
+15:36 learned how to safeguard against these
+15:38 vulnerabilities to keep your system
+15:40 secure. So if you enjoyed listening to
+15:42 this video, please be kind enough to
+15:44 like it and you can comment on any of
+15:46 your doubts and queries. We will reply
+15:48 to them at the earliest. And do look out
+15:51 for more videos and playlist and
+15:53 subscribe to Edureka's YouTube channel
+15:55 to learn more. Thank you for watching
+15:57 and happy learning.

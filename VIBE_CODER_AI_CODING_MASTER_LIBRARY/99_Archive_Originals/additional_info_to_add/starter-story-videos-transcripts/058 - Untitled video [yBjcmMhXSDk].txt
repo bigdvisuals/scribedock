@@ -1,0 +1,526 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=yBjcmMhXSDk
+Channel: Starter Story
+Video ID: yBjcmMhXSDk
+Transcript language: English auto-generated
+Downloaded at: 2026-05-25T20:45:40.983Z
+
+0:00 I launched my app 6 months ago and now
+0:02 it makes over 20K a month. This is Matt,
+0:05 a regular guy who changed his life by
+0:07 building an app with AI. It took me 3
+0:10 days to code the app with AI. But this
+0:12 is not a story about [music] how to
+0:15 build. It's a story about how fast apps
+0:18 can grow if you focus on the right
+0:20 things. I asked Ma to come on to the
+0:22 channel to break down exactly how he did
+0:25 all of this in just 6 months. And in
+0:27 this video, he breaks down exactly how
+0:30 he built a mobile app in 3 days with AI,
+0:33 the specific [music]
+0:34 marketing strategy that got him his
+0:36 first few hundred paying users, and the
+0:39 playbook that ultimately scaled him to
+0:41 over $20,000 a month. Guys, this is an
+0:44 episode that [music] you cannot skip.
+0:46 I'm Pat Walls, and this is Starter
+0:48 Story. Real quick before we get into the
+0:50 interview, guys, now is about to break
+0:52 down what's actually working right now
+0:54 when it comes to building and growing an
+0:55 app in 2026. [music]
+0:57 and beyond. And if you're ready to build
+0:58 your app, I put a link in the
+1:00 description right there where you can
+1:01 get started [music] right now building
+1:03 your thing. I'll talk about that a
+1:04 little bit more later, but let's get
+1:06 into the interview. All right, Mal,
+1:07 welcome to the channel. Tell me about
+1:09 who you are, what you built, and what's
+1:10 your story.
+1:11 >> My name is Mal Baron, and I built a
+1:13 Christian app that makes over 20K a
+1:15 month. In only 6 months, I've
+1:17 accumulated over 58K downloads, 6.7K
+1:20 reviews, and a 4.9 star rating on the
+1:22 App Store. All right, Mal, before we get
+1:24 it all into that, what you built and
+1:25 everything, first I'd love if you could
+1:27 share a little bit about your business
+1:28 model. Pull up some of your revenue and
+1:30 analytics so we can really see this
+1:31 thing.
+1:32 >> My app is called Prayer Lock. It
+1:33 basically just blocks your phone until
+1:35 you pray. When you try to open one of
+1:36 them, we ask you through questions and
+1:38 based on that, you get a dedicated AI
+1:40 generated prayer. You recite it and
+1:41 you're good to go. You can scroll away.
+1:43 It's a subscription based app. I charge
+1:45 $49.99 a year or $9.99 a week. And in
+1:48 terms of monthly revenue, we closed
+1:50 December at $21,000
+1:53 in sales. A previous month was at $15K
+1:56 and October was at 10K. We've been
+1:58 growing at over 50% a [music] month. In
+2:01 total downloads, we have right now close
+2:04 to 58,000 downloads. We have a
+2:07 conversion rate of 43%. Our proceeds for
+2:10 paying user is $23.6.
+2:13 Our total proceeds have been 41,000. So,
+2:16 my app right now probably has one of the
+2:18 best onboarding rates in the world. Our
+2:20 review rate is over 12%. We have 6.7K
+2:23 ratings with less than 60K downloads. In
+2:26 November, Prayer Lock reached number 22
+2:29 in the reference category. Okay, cool.
+2:31 Well, thanks for showing your dashboards
+2:33 so transparently, showing you all the
+2:34 numbers. That's amazing. We're going to
+2:35 get into all how you built this, grew
+2:37 this, and even a little bit of paid ads,
+2:39 which I'm excited about. But before, I
+2:41 know you started it this year, which is
+2:42 insane that it's grown this much. I'd
+2:44 love if you could give me a little bit
+2:45 of background on how you get here, how
+2:48 you decide to start building apps. How
+2:49 do you get to this point?
+2:50 >> I actually don't come from a tech
+2:52 background. I actually majored in
+2:53 finance, but I discovered the original
+2:55 Codex model back in 2022 when I saw that
+2:58 I just completely fell in love with AI
+2:59 and technology and I decided that's what
+3:01 I wanted to do for the rest of my life.
+3:03 So, I taught myself about AI, about how
+3:05 to code. I have been building tech and
+3:07 AI businesses ever since. Back in
+3:09 January of 2025, I was actually building
+3:11 an adult content AI app, but when I
+3:14 finished it, I just felt completely like
+3:16 disgusted and disappointed with myself.
+3:18 So, I decided to make the weirdest pivot
+3:20 in history and turn into the Christian
+3:22 space to try to reconnect with my faith.
+3:24 And after about 3 months of building
+3:26 apps nobody wanted, I came across this
+3:28 app called Praycreen that blocked your
+3:30 phone until you prayed. And with the new
+3:32 insights I had, I looked at the design,
+3:34 I looked at the features, the way they
+3:35 were executing their distribution, and I
+3:37 said, you know what, I can do a better
+3:39 job than them. And so that's how Prayer
+3:41 Law came to life. Well,
+3:42 >> that's awesome. I think what the most
+3:43 interesting thing there that I heard is
+3:46 that by doing this, you were able to get
+3:47 closer to your customers and truly
+3:49 understand them, which led to this
+3:51 massive success that you're now seeing.
+3:53 Now, I think there's a little secret
+3:54 there. I want to switch to topics a
+3:56 little bit and get into the building of
+3:57 this app. You did this yourself, right?
+3:59 So, how did you do that? I built Prayer
+4:01 Lock back in June. I literally just use
+4:03 cursor and chat GPT. Like that's it.
+4:05 With cursor, I mainly use Sonnet as my
+4:07 daily driver and then I use chat to ask
+4:10 questions and apply simple code changes
+4:12 with the Mac desktop app. And so yeah,
+4:14 it took me 3 days to code the app and
+4:16 over a week to actually get it approved
+4:18 on the app store. But honestly, it's
+4:19 never been easier to build an app than
+4:21 now. That's insane that you built it in
+4:23 basically 3 days. Obviously, there were
+4:25 previous apps before and you probably
+4:27 had tried and had starts and stops
+4:28 before, but once you found your idea
+4:30 that you really felt confident on,
+4:32 you're able to build it in basically 3
+4:33 days. Do you have any tips for anyone
+4:35 watching here on how other people maybe
+4:38 they have a little bit experience, maybe
+4:39 no experience at all, how to build apps
+4:41 with AI in 2026? First of all, what I
+4:43 always say is do not design any
+4:45 mock-ups. Instead, study the best apps
+4:48 in your niche and study the best apps in
+4:50 other niches with tools like screens
+4:52 design and just go straight into coding.
+4:54 In my case, I actually created a Canva
+4:57 file where I laid out all of the best
+4:59 onboarding screens of the apps I liked
+5:01 and of my competitors and I literally
+5:02 just chose the best onboarding screens
+5:04 and apply that to my own app. Also, try
+5:06 to use different tools for different
+5:08 purposes. for example, like cursor as
+5:10 your daily driver, Codex CLI, which I
+5:12 love for more complex tasks, chat GBT
+5:15 for questions and easier problems. And
+5:17 the reason you want to do this, at least
+5:18 if you're in my position, I was broke.
+5:20 So, you don't want to be wasting
+5:21 hundreds or thousands of dollars on
+5:22 tokens. In doing this, you will
+5:24 diversify your token expenditure, right?
+5:26 Another thing is do not try to oneshot
+5:28 your apps. AI isn't there yet where you
+5:30 can just say like, "Hey, make me a
+5:32 mobile app. Make no mistakes. Don't
+5:33 hallucinate like that. That won't work
+5:35 at all." What AI is really good at doing
+5:37 is if you break down your app into
+5:38 blocks and then of course you can
+5:40 oneshot a feature here, you can oneshot
+5:42 a design or a screen here. Next thing is
+5:45 authentication honestly isn't even
+5:46 needed for modern apps. Like mine
+5:49 doesn't have authentication or a
+5:51 database and I'm printing money. The
+5:52 reason I made it this way is for two
+5:54 reasons. I wanted to reduce friction as
+5:56 much as possible. I don't want my users
+5:58 wasting time on signing up. And the
+5:59 other reason was to save costs. There's
+6:01 no reason to pay for a database when you
+6:02 can just save it all on device. And
+6:04 people might say, "Hey, like when I
+6:06 switch my phone, I'm going to lose my
+6:07 information." Nobody thinks about that.
+6:08 Like literally, that's that's a very
+6:09 like niche case. So Ma's story is
+6:13 incredible. He built and grew his app to
+6:15 $20,000 a month in just a few months. If
+6:18 you stick around to the end, you're
+6:19 going to get the full story on exactly
+6:21 how he did it. But before we get there,
+6:23 I do want you to think about the app
+6:25 that you've been meaning to build. You
+6:27 probably already know how to use these
+6:29 AI tools or tried them out. You followed
+6:31 tutorials and probably even built pieces
+6:34 of different things. But what usually
+6:35 stops people from actually launching
+6:37 isn't the building part. It's picking
+6:39 something that's actually worth
+6:41 finishing and then taking it all the way
+6:43 to real users that can give you real
+6:45 market feedback. Well, that's exactly
+6:47 what Starter Story Build is designed
+6:49 for. In just a few days, you will choose
+6:51 an idea that makes sense, build it end
+6:53 to end, and actually launch with
+6:56 structure, momentum, and other builders
+6:58 doing it alongside you. If you're tired
+7:00 of halffinish projects, well, the link
+7:02 is in the description if you want to get
+7:04 started right now. All right, let's get
+7:05 back to the interview. I'm going to
+7:06 switch topics now to the growth because
+7:08 everyone knows who's watching this.
+7:10 You'll read all the comments. They'll
+7:11 say, "Okay, you don't talk about the
+7:12 marketing enough. Building stuff is easy
+7:14 now, but as I understand, you were the
+7:17 builder and the marketer and the growth
+7:19 person. You did all this by yourself.
+7:21 What I want to understand is how did you
+7:23 actually grow this thing and get users?"
+7:25 In the beginning, I didn't know what
+7:26 worked. So, I literally just tried a
+7:28 bunch of different formats and I started
+7:30 posting around 40 times a day on 12
+7:33 different accounts. Volume really
+7:35 matters here. What ended up working for
+7:37 me [music] was the classic, you know, GC
+7:39 girl reaction video with a demo on it.
+7:41 That's what one of my biggest
+7:42 competitors doing and they were just
+7:44 killing it with it. I was broke so I
+7:46 couldn't pay for clips. I couldn't pay
+7:48 for another creator. So, I just told my
+7:50 girlfriend at the time, now wife, to
+7:51 help me record some reactions herself
+7:53 and she honestly killed it. We started
+7:54 posting twice a day. It wasn't until
+7:57 after 40 posts that I finally found a
+8:00 hook that worked and I knew I just
+8:02 needed to spam that in both Tik Tok and
+8:04 Instagram. When you start seeing that a
+8:06 format starts to work, put all your
+8:08 energies into that. That alone with only
+8:11 that account, I was getting around 10k
+8:13 views a day, which was all I needed to
+8:15 get to my first 1K a month. With that, I
+8:17 immediately reached out to my friends
+8:19 and I wanted to scale this and I hired
+8:21 another UGC creators. It was honestly
+8:23 very hard to get her account. this other
+8:26 creator's account going on both Tik Tok
+8:28 and Insta. But after 14 days, we finally
+8:31 cracked one video which organically got
+8:33 around 20K views. Knowing how views
+8:36 convert to downloads is very tricky. In
+8:38 my case, 10K views a day was getting me
+8:42 around 2 to 300 downloads a day. But
+8:44 this is because this specific format is
+8:47 very optimized for downloads. With those
+8:50 two accounts, with my wife's account and
+8:52 this other girl creator, I was now doing
+8:54 1.5K in July and 2.4K in August. What's
+8:58 cool about that, as you said, is that I
+9:01 think a lot of people think, okay, I got
+9:02 to be posting on Tik Tok and YouTube and
+9:04 X and personal brand, but no, you only
+9:06 need to really be on one platform. For
+9:08 you, it was Tik Tok or reals. And then
+9:10 you really only need one format that you
+9:13 just do lots and lots of videos over and
+9:14 over again. So, I think that's a great
+9:16 lesson there. Once you started getting
+9:17 organic to work, what was next? Cuz
+9:20 obviously you were doing like 1 2 3k a
+9:22 month, but now you're doing 20k. So, how
+9:24 do you get there? I hired an influencer.
+9:26 That flop didn't go well. But after that
+9:28 experience, I said, I want to try
+9:30 something else. The only other route was
+9:32 paid ads. When I tried them, I
+9:33 completely failed. I optimized for
+9:35 downloads instead of trials. I had a
+9:38 just a very bad onboarding. It was
+9:39 trash. I upgraded my onboarding from 5
+9:42 minutes to 15 minutes. And generally the
+9:46 longer you're onboarding, as long as
+9:48 it's adding value and telling a story,
+9:50 the better. I immediately saw my organic
+9:53 conversion rate more than 3x organically
+9:55 without paid ads. With my new knowledge,
+9:57 I said, you know, let's try this again.
+9:59 I now have a better conversion rate. I
+10:01 started with Meta and I started spending
+10:03 $20 a day. This was giving me, you know,
+10:05 respectable decent results. $10 per
+10:08 trial started. Then I decided to try Tik
+10:10 Tok ads and honestly this changed
+10:12 everything. I created a super broad
+10:14 campaign without any audience controls,
+10:17 nothing. I only specified the location
+10:19 to US and inserted a bunch of my top UGC
+10:23 girl reaction videos from before.
+10:24 Started doing $20 a day only. And the
+10:27 results were way better. They were
+10:28 insane. I was getting $4 per trial
+10:31 started when my yearly subscription cost
+10:34 50. And I said, you know what? Let's go
+10:36 all in. I'm going to throw all my
+10:38 savings into this around $4,000 into the
+10:41 ads. And that's [music] when I closed
+10:42 October at 10K only with these UGC
+10:45 reaction videos. Now with a little more
+10:47 budget scrolling on Tik Tok, I came
+10:49 across Matthew, this cracked 15-year-old
+10:51 UGC creator. And the minute I saw like
+10:54 the first 3 seconds of his video, I was
+10:55 like, I need to work with him. So I
+10:57 reached out and we started working
+10:59 together and he very quickly organically
+11:01 got us to consistent 10K views per
+11:04 video. I was thinking of him as only a
+11:05 JVC creator. But you know, one day I
+11:07 decided, you know what, maybe I should
+11:08 try Spark Ads on his videos as well. see
+11:11 how this does. The results were
+11:12 absolutely insane. With his videos, I
+11:14 started getting $3 per trial started and
+11:18 I realized, hey, I can get into debt and
+11:20 pay all the debt completely with my next
+11:23 Apple Payoff. So, I threw another 6K
+11:25 into ads into his videos, which got us
+11:28 to 15K for the month of November.
+11:30 Following the same strategy, increasing
+11:32 the ad spend regularly each week, we
+11:35 close December at 20K, and we're
+11:37 probably going to close January at 40K a
+11:40 month. Well, on that note, for anyone
+11:41 watching this, if they were starting
+11:43 over with an app or they had an app,
+11:45 they're ready to start growing the app.
+11:46 What would be your playbook if you had
+11:47 to start over in 2026? If I was starting
+11:50 over in 2026, this is exactly what I
+11:52 would do. Step one, look for niches with
+11:54 apps doing over 50K a month, use Sensor
+11:57 Tower to get a revenue estimate for the
+11:59 apps. And then step two, find an app you
+12:01 like and improve it substantially. Step
+12:04 three, code it out in less than 2 weeks.
+12:06 This is very important. Set that as your
+12:08 limit cuz otherwise you'd want to
+12:10 improve the product. I've been there,
+12:11 trust me. Step four, do not touch your
+12:13 app. Obsess over distribution. I haven't
+12:15 touched my app in over 3 months now.
+12:18 Just copy the working formats in your
+12:20 niche and start posting at least 20
+12:22 times a day. Like that's what you should
+12:24 be aiming at at least. And step five,
+12:26 iterate on your onboarding like crazy.
+12:28 Be a maniac. Improve the onboarding
+12:30 until you've at least have a 10%
+12:33 download to trial conversion rate. Later
+12:35 on, you want to do paid ads and you need
+12:36 at least a 10% download to conversion
+12:38 rate. Step six, place ad spend on your
+12:40 organic videos doing more than 10k
+12:43 views. And for this, I'd recommend Tik
+12:45 Tok spark ads more than meta or any
+12:47 other platform. I love that playbook.
+12:49 Hopefully, a lot of people watching this
+12:51 will go and do the same. We didn't
+12:52 really talk too much about what your app
+12:54 does. I really wanted to make this about
+12:55 the build, the growth, and the paid ads,
+12:57 but I would love if you could give me a
+12:59 little demo of what your app does, how
+13:01 simple it is, and how it actually works.
+13:03 >> Super simple. You just go into the app,
+13:05 you choose the apps to block, just block
+13:07 everything, and then you go into the
+13:09 home screen, and when you try to open
+13:10 one of your apps, you'll realize that
+13:12 they're blocked. So, you open it and it
+13:14 prompts you to pray. That will open up
+13:16 the prayer lock app and ask you two
+13:18 questions. How's your relationship with
+13:20 God today? You indicate it. And then,
+13:21 how are you feeling today? Based on
+13:23 that, you're going to get an AI
+13:25 generated prayer that you have to recite
+13:28 in order to unblock your apps. And once
+13:31 you're done reciting your prayer, you
+13:32 press I've prayed today. You choose your
+13:34 next block schedule, which can be the
+13:36 automatic next block schedule, or you
+13:38 can like customize it for 50 minutes or
+13:40 an hour. Once you're done, you get your
+13:42 streak. And finally, a very beautiful
+13:44 Bible verse of the day, and you can doom
+13:46 scroll away or use your phone as you
+13:48 will. It's insane that the super simple
+13:50 app can make so much money, but that's
+13:52 something I've learned. Like the key is
+13:53 in simplicity and actually adding value
+13:55 to your users. Now, I'm curious, how did
+13:57 you actually build this app? Could you
+14:00 walk me through your stack and then also
+14:02 some of the tools you use to grow and do
+14:04 paid ads as well? Cursor for coding and
+14:06 development and that's $20 a month. And
+14:08 Cad GPT for questions and coding and
+14:11 then also of course codec cli which is
+14:13 included in the subscription. So that's
+14:15 $20 a month right now I'm using a lot
+14:17 for quick design iteration $25 a month.
+14:20 Then post hawk for analytics that's
+14:22 around $10 a month. Super wall
+14:24 definitely for pay walls and revenue
+14:25 analytics which is 20 cents per
+14:27 conversion. Then Singular as your MMP,
+14:31 which is basically the software that you
+14:32 use to make paid ads. That's 5 cents per
+14:35 conversion after 15K free conversions.
+14:37 And then for all my backend services and
+14:40 hosting my web pages and everything, I
+14:41 use AWS. That's around $2 a month. Then
+14:45 for the AI inapp services, I use Google
+14:48 Gemini Flash 2.5. It's around $9 a
+14:51 month. Yep, that's pretty much it. That
+14:53 kind of brings the next question of
+14:54 profits and how much are you actually
+14:56 spending on ads to grow this thing?
+14:57 Could you walk me through some of that?
+14:59 >> Yeah, of course. So, uh, paid ads are
+15:00 definitely a little pricey, but they are
+15:03 profitable, so it's worth it. So, right
+15:05 now, I'm spending $360
+15:08 a day. If we go to the last 30 days, for
+15:11 example, for the month of December,
+15:13 which I closed at pretty much 20K, I
+15:15 spent around 9K. Basically, my my cost
+15:19 per trial right now is at [music] $1.88.
+15:24 Thanks for sharing that and being super
+15:26 transparent, showing me all those paid
+15:27 ads numbers. Last question that we ask
+15:29 all founders who come on to starter
+15:30 story, if you could go back in time to 6
+15:32 months ago before you started your app
+15:34 or even before that when you were trying
+15:36 to figure out what idea could actually
+15:38 work, what advice would you have to
+15:39 young Mao or to anyone watching this
+15:41 that wants to build apps in 2026 and
+15:43 really crush it like you? I wasted years
+15:46 building stuff nobody wanted. And the
+15:48 reason is because I mean you [music]
+15:49 have so much to learn. So literally do
+15:52 not waste time trying to build the app
+15:54 of your dreams at first. Instead,
+15:56 [music] improve an already successful
+15:58 app. Add your personality. Copy others
+16:01 distribution strategies. And only once
+16:04 you've acquired some experience with
+16:06 apps and distribution, then jump onto
+16:08 even more ambitious things. Thanks, Ma,
+16:11 for coming on. This is amazing. It's
+16:13 super cool to see without a crazy
+16:14 developer background, be [music] able to
+16:16 build something, figure out content even
+16:18 if you didn't have a content background,
+16:20 and then do paid ads, which you didn't
+16:21 even have background [music] there.
+16:23 That's the reality in 2026 is that this
+16:25 is possible. Your story is amazing and
+16:26 it was so awesome to have you on and
+16:28 share all of this. I think people are
+16:29 going to love it.
+16:30 >> Thank you. It was my pleasure. Thanks to
+16:31 Mao for coming on. This is an amazing
+16:33 story. Really hope you are still here
+16:35 watching this right now. If you are,
+16:36 you're one of the OGs. This is one of
+16:38 those stories that it happened just a
+16:40 few months ago, so you know what he's
+16:41 saying is working right now. It's not
+16:42 outdated information. This is super
+16:44 helpful. It shows the power of apps and
+16:46 [music] how fast apps can truly grow. He
+16:49 built it without developer experience.
+16:50 He created content without content
+16:52 experience. And then he started crushing
+16:54 paid ads without [music] experience. He
+16:56 learned all these things on the fly.
+16:57 This is the power of AI tools, not just
+16:59 for building, but for learning and for
+17:01 executing. If you're ready to build your
+17:03 app, again, shameless plug, definitely
+17:05 check out Starter Story Build. If you're
+17:07 serious about actually building
+17:08 something, want to come up with a good
+17:10 idea, execute it on it, and ship it to
+17:12 real users to get real feedback, that is
+17:14 the only thing that matters. If you're
+17:16 serious about it, check it out. I put it
+17:17 in the link in the description. You can
+17:19 get started on your app right [music]
+17:20 now. Okay, that's it for this episode.
+17:22 Thank you guys for watching. We'll see
+17:23 you in the next one. Peace.

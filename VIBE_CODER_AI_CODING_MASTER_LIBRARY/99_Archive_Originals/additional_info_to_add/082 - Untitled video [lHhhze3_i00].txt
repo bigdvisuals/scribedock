@@ -1,0 +1,188 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=lHhhze3_i00
+Channel: Riley Brown
+Video ID: lHhhze3_i00
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 without any coding experience. You can
+0:02 now build a mobile app directly from
+0:04 your phone and AI will even design the
+0:07 logos, the icons, and all of the images
+0:09 within your app using this new AI tool.
+0:12 Let's imagine for a second that I just
+0:14 opened a pizza place called Riley's
+0:17 Pies, and I wanted an app that allowed
+0:19 users to select ingredients from a menu,
+0:22 and that would add to the cost. And then
+0:24 when an ingredient was selected, it
+0:26 showed an image of the pizza with those
+0:29 ingredients on the pizza. All we need to
+0:31 do is open the Vibe Code app and then
+0:33 press this plus sign at the top right
+0:35 corner and then explain everything that
+0:37 we just outlined. We can use the new
+0:39 voice input model. I want to create an
+0:41 app that allows users to buy pizzas.
+0:44 Please have pepperoni, red pepper
+0:47 flakes, and mushrooms as the three
+0:50 options in the menu. Please use the new
+0:52 GPT40 image model to generate these
+0:56 assets so that when the user taps on
+0:58 these, they get placed on the pizza. And
+1:01 then we press this orange button and we
+1:03 are now creating this app. Okay, it's
+1:06 done. Let's see. Let's see our app.
+1:09 Okay, look. It generated this image of a
+1:12 pizza. And now if we click on pepperoni,
+1:14 let's see what happens. Oh, what? Those
+1:17 are massive pepperoni pieces. Okay,
+1:20 that's pretty solid. Let's check out the
+1:22 red pepper flakes. Ah, okay. So, it
+1:24 didn't actually remove the background of
+1:26 the red pepper flakes. Let's check out
+1:27 the mushroom. So, okay, that's not bad.
+1:29 So, let's go ahead and make an edit to
+1:31 our app. Please change the red pepper
+1:33 flakes to olives. And then add two other
+1:37 ingredients and also create more images
+1:40 for those ingredients as well. Exactly
+1:43 as you did with the other ingredients.
+1:45 Change the name of the app, Riley's
+1:47 Pies. All right. Now we are making a
+1:51 change to the app. Okay, this is
+1:54 downloading. Let's take a look. Riley's
+1:56 pies. And look, we have more
+1:59 ingredients. So, not only can we add
+2:01 pepperoni and the other ingredients that
+2:04 we have, we now have bell peppers.
+2:06 Looking good. Uh, Italian sausage. I I
+2:10 wish they put this much sausage on our
+2:12 pizzas. Pineapple. Oh, those are big.
+2:15 And look at that. That is a huge pizza.
+2:17 And notice how when we add olives, it's
+2:20 going to go up from 1655
+2:22 uh to 1754. And there you go. And we can
+2:26 hit checkout. And boom. You know what?
+2:29 Let's make this checkout screen a little
+2:32 bit better. Thank you from Riley's Pies.
+2:33 So, we can just go to this menu button
+2:35 where it says thank you from Riley's
+2:38 Pies. After you hit check out, please
+2:40 make that bigger, more fun, and make it
+2:42 look more like a receipt. So, now we're
+2:44 making the final change. Okay. Okay, now
+2:47 it's downloading. Okay, it's done. Oh,
+2:50 update successful. Let's see. So, we're
+2:52 going to hit okay. Where's our
+2:54 pepperoni? There it is. Now, let's see
+2:55 what happens when we press check out.
+2:57 Check out. Boom. Look at that. It looks
+3:00 like a receipt. It added this big red
+3:02 background on the top and bottom of this
+3:05 component. So, we created Pizza Builder
+3:08 Pro. If you go to the homepage and you
+3:11 hold down Pizza Builder Pro, you're
+3:13 going to see this option to download the
+3:15 project. So let's go ahead and download
+3:17 this project. And it is preparing for
+3:19 download. So what we're going to do is
+3:20 we're going to put this in cursor. Okay.
+3:23 So when it says download project, we're
+3:24 just going to copy the URL. We copied
+3:27 the URL on our phone. And that means we
+3:29 can paste it on our computer if you have
+3:31 a Mac. And so we're going to paste this
+3:34 right here. And as soon as you paste it
+3:36 into a browser, it automatically
+3:38 downloads a zip file. What we're going
+3:40 to do is we're actually going to open up
+3:42 cursor. We just opened up a new cursor
+3:44 window and when we go to Finder in
+3:47 downloads, we see our zip file. So,
+3:49 let's just go ahead and double click on
+3:51 this. Now, it creates this project 2
+3:54 folder and we can just drag this in
+3:57 right here. So, now we have this new
+3:59 project 2 file on cursor. We now have
+4:02 cursor open. And so now what we want to
+4:05 do is we want to be able to use cursor
+4:07 to edit the app and be able to test it
+4:10 immediately on the Vibe Code app. That's
+4:12 exactly what we're going to do. So, the
+4:14 first thing that you're going to do is
+4:15 you're going to open up this integrated
+4:17 terminal and we're going to type in bun
+4:21 I. After we do bun I, we're going to
+4:23 type in bun start space- dash tunnel.
+4:28 And this is going to now give us a QR
+4:31 code that we're going to open in camera.
+4:33 So, this gave us a QR code. And so now
+4:36 what we're going to do with our camera,
+4:38 we're just going to open up camera and
+4:40 we're just going to scan this QR code.
+4:42 And now it's going to say open in Vibe
+4:44 Code. And now it is actually going to
+4:47 run this app directly in the Vibe Code
+4:50 app. So now we have Riley's Pies open on
+4:54 our phone right here. And this is very
+4:57 interesting. I can screenshot this. And
+4:59 for those of you who've used cursor, you
+5:01 have this agent here on the side. The
+5:03 toppings are pretty weird formatting.
+5:07 Please fix these and make them
+5:11 horizontal menu side to side. Make sure
+5:15 I can see the image. Actually, let's see
+5:18 what happens. The pepperoni still shows
+5:20 up on the pizza. Don't change how they
+5:23 show up on the pizza. And you can
+5:25 actually see this updating live on the
+5:28 phone. So, all of these changes are
+5:29 updating live. Okay, this is starting to
+5:32 look good. Cursor is coming in clutch.
+5:34 Okay, so we have this horizontal slider
+5:37 view right here. So now what I want to
+5:38 do is on this page right here when I hit
+5:41 check out, you can see that this Riley's
+5:44 pies pops up. I want to have a logo
+5:46 right here. And so let's go ahead and
+5:49 take a screenshot of myself. We're going
+5:50 to toss this into chat GPT. We're going
+5:51 to make sure that we're on GPT40. Please
+5:55 make this guy a cartoon logo holding a
+6:00 pizza box. Make him wearing a red shirt
+6:06 and white hat. Should say Riley's pies.
+6:12 All right, the image is loading. Hey,
+6:15 why is it making my ears so big? Wow,
+6:18 that's amazing. I'm going to quickly
+6:19 open up Canva. I want to make sure that
+6:21 it takes up this whole square right
+6:23 here. Remove the background. Okay. So
+6:26 now what we're going to do is we are
+6:27 going to download this as a PNG file
+6:31 with a transparent background. Now we
+6:34 have this logo
+6:36 Riley. And so now we can actually just
+6:38 drag this logo Riley into the assets
+6:43 folder. And I'm going to say, please put
+6:47 logo Riley as the logo on the top of the
+6:54 receipt after checking out. Make it kind
+7:00 of big. So now we're going to make that
+7:02 image uh render up here. So we'll see if
+7:05 that works. And we are using this on our
+7:07 phone. Remember that. Like we are
+7:09 testing this right now on our phone and
+7:10 it's going to update live. Okay. So,
+7:12 we're going to refresh this before we
+7:14 test it. And now, let's check
+7:16 out. And boom. There is our logo right
+7:21 there. We created it on chat GPT. We now
+7:24 have Riley's Pies. And this is the app
+7:26 that we created. We started in Vibe Code
+7:29 and we finished in Cursor. And in the
+7:31 next video, I'm going to go over in
+7:33 depth on how to go from this point onto
+7:36 the actual app store. And that is a
+7:38 little bit longer of a process. You can
+7:40 vibe deploy it to the app store. It's
+7:42 going to be great.

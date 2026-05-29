@@ -1,0 +1,197 @@
+Title: Phishing Attacks Explained | How to Avoid Getting Phished (Scammed Online) | Edureka
+URL: https://www.youtube.com/watch?v=OYahUjYrNlY&list=PL9ooVrP1hQOGPQVeapGsJCktzIO4DtI4_&index=80&pp=iAQB
+Channel: YouTube playlist
+Video ID: OYahUjYrNlY
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:24:55.858Z
+
+0:07 Hello everyone and welcome to another
+0:09 exciting video on cyber security by
+0:12 Idora. So today we are diving into one
+0:14 of the most deceptive and widespread
+0:16 cyber threats which is fishing attacks.
+0:19 These attacks have been responsible for
+0:21 millions in financial losses, data
+0:24 breaches and identity thefts worldwide.
+0:26 But what exactly is fishing and how do
+0:28 attackers use it to manipulate people
+0:30 into giving up sensitive information? So
+0:33 let's find it out. But before we begin,
+0:35 make sure to like, share, and subscribe
+0:37 to our YouTube channel and hit the bell
+0:39 icon to stay updated on the latest tech
+0:41 content from Idureka. Along with this,
+0:44 check out the certified ethical hacking
+0:46 course designed in partnership with AC
+0:48 Council to elevate your cyber security
+0:50 skills. This course offers a globally
+0:52 recognized CV13 AI certification and
+0:56 features 20 comprehensive modules that
+0:58 cover over 500 attack techniques
+1:01 enhanced by AI GPD tools where you will
+1:04 gain hands-on experience through 221
+1:06 practical labs and benefit from the
+1:08 roundthe-clock support provided by the
+1:10 certified professionals with access to
+1:13 exclusive ECOS and an exam vure from
+1:16 easy council. This course is your
+1:18 gateway to mastering ethical hacking and
+1:20 securing a rewarding career in cyber
+1:22 defense. So go check out the course link
+1:24 in the description box below. Moving on,
+1:27 let us understand what is fishing. Well,
+1:31 fishing is a social engineering attack
+1:33 where cyber criminals pretend themsel as
+1:35 a trustworthy entity to deceive people
+1:38 into revealing confidential information
+1:41 such as passwords, credit card numbers
+1:43 or financial details. Unlike traditional
+1:46 cyber attacks that exploit software
+1:48 vulnerabilities, fishing relies on human
+1:51 error, which makes it one of the most
+1:53 dangerous and effective cyber crime
+1:55 tactics. A hacker could pretend to be
+1:57 your bank, a well-known company, or even
+2:00 your boss sending a convincing email,
+2:02 text, or call urging you to take
+2:04 immediate action. So, clicking a
+2:06 malicious link, downloading an
+2:08 attachment, or simply entering your
+2:10 login credentials could put you at risk.
+2:13 So now let's break down some common
+2:15 fishing techniques you need to watch out
+2:17 for. So first on the list we have bulk
+2:20 email fishing. So imagine getting an
+2:23 email from your favorite online store
+2:25 saying your account has been
+2:27 compromised. Click here to secure it
+2:29 now. Sounds urgent, right? So this is
+2:32 bulk email fishing where hackers send
+2:34 out thousands of email hoping someone
+2:36 takes the bait. They often spoof emails
+2:39 to look like they are from legitimate
+2:41 companies complete with logos and
+2:44 realistic
+2:45 messages. So if you click on the link,
+2:47 you are taken to a fake website designed
+2:49 to steal your credentials. So always
+2:51 check the sender's email and hover over
+2:54 the link before clicking. The next type
+2:56 of fishing attack is spear fishing. So
+2:59 unlike bulk fishing, spear fishing is
+3:02 highly targeted. Hackers study their
+3:04 victims and craft personalized messages.
+3:07 So, let's say you're a financial manager
+3:09 and you receive an urgent email from CEO
+3:12 saying that transfer $10,000 to your new
+3:15 vendor immediately. Would you complain?
+3:18 If yes, you have just fallen for spear
+3:21 fishing. Hackers gather personal details
+3:23 from social media, LinkedIn and company
+3:26 website to make their attack more
+3:28 believable. And when they go after
+3:30 high-profile individuals like CEOs, CFOs
+3:33 or government officials, it's called
+3:36 whale fishing. Next on the list, we have
+3:39 business email compromise, which is BEC.
+3:43 So, this is one of the costliest fishing
+3:45 attacks. Hackers take over a legitimate
+3:47 business email account and use it to
+3:49 send fake invoices or request
+3:51 confidential data. So Facebook and
+3:53 Google once lost over $100 million to a
+3:56 single BEC scam. So if you ever receive
+3:59 a suspicious email requesting funds,
+4:02 always verify the source through a
+4:03 different communication channel. Next on
+4:06 our list, we have smishing and wishing.
+4:09 Fishing isn't just limited to emails.
+4:12 Smishing, which is SMS fishing, and
+4:15 wishing, which is voice fishing, are on
+4:17 the rise. So if you ever receive a text
+4:20 from your bank saying your account will
+4:22 be suspended, click here to verify your
+4:24 details, that's missing. Similarly,
+4:27 wishing attacks involve scammers called
+4:29 victims. Often smoothing caller IDs to
+4:32 make it seem like they are from official
+4:33 sources such as the IRS or your bank or
+4:37 tech support. All right, next moving on
+4:40 to the next type which is social media
+4:43 fishing. Here the hackers now exploit
+4:45 social media platforms to gain access to
+4:47 personal and business accounts. So they
+4:50 send messages like hey I lost access to
+4:52 my account. Can you help? So tricking
+4:55 users into revealing login credentials
+4:57 and if you use the same password across
+4:59 multiple accounts one successful fishing
+5:02 attempts can lead to a chain reaction of
+5:04 breaches. So I hope types of fishing
+5:07 attacks is clear now. Now now let us
+5:10 move on to how to identify a fishing
+5:12 attack. So, how can you spot a fishing
+5:15 attempt before it's too late? So, here
+5:17 are some red flags. So, first we have
+5:21 urgency and pressure tactics where
+5:23 messages that demand immediate actions
+5:25 like pay now or lose access. The next is
+5:29 the request for sensitive information.
+5:32 No legitimate organization will ask for
+5:34 your password via email or text. So,
+5:37 remember this. Next is the poor grammar
+5:40 and spelling mistakes. So many fishing
+5:42 emails come from international
+5:44 fraudsters leading to awkward phrasing
+5:46 or typos. Next is the generic greetings.
+5:51 They might greet you like dear customer
+5:53 instead of your actual name. So this can
+5:55 be a major red flag. Next is the fake
+5:58 URLs and email addresses. So when you
+6:01 look closely here, this is not exactly
+6:05 this, right? So this is not a
+6:08 microsoft.com.
+6:09 So always hover over the links before
+6:12 clicking. All right, now that you know
+6:15 how fishing works, right? So let's talk
+6:17 about how you can protect yourself and
+6:19 your
+6:20 organizations. So always remember to
+6:22 enable multiffactor authentication. So
+6:25 even if hackers steal your password,
+6:27 they can't access your account without
+6:29 the second authentication step. Next,
+6:32 verify before clicking. So if you ever
+6:35 receive an email about a bank issue or
+6:38 overdue invoices, don't click on the
+6:40 link. Go directly to the website
+6:42 yourself. Next, educate yourself and
+6:45 others. Well, organizations should
+6:47 conduct security awareness training to
+6:49 help employees recognize fishing
+6:51 attempts. Next, always make sure to use
+6:54 the security tools. You need to install
+6:57 anti-ishing filters, spam blockers, and
+6:59 endpoint security solutions to detect
+7:01 and block malicious emails. And finally,
+7:04 report suspicious messages. So if you
+7:07 receive a fishing email, report it to
+7:08 your IT department or you can even use
+7:11 your email provider's report fishing
+7:13 option. So that's it. So fishing attacks
+7:16 are evolving every day, but awareness is
+7:19 your best defense. So now that you know
+7:21 how to identify and prevent fishing
+7:23 scams, and you're one step closer to
+7:25 keeping your data secure. And with this,
+7:28 we come to an end to this video on
+7:30 fishing attacks.
+7:32 So if you enjoyed listening to this
+7:34 video, please be kind enough to like it
+7:35 and you can comment on any of your
+7:37 doubts and queries. We will reply to
+7:39 them at the earliest. And do look out
+7:41 for more videos and playlist and
+7:43 subscribe to the Edioras YouTube channel
+7:45 to learn more. Thank you for watching
+7:47 and happy learning.

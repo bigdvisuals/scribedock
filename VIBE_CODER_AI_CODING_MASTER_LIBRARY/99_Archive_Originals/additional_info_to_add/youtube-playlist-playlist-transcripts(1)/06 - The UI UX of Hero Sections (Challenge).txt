@@ -1,0 +1,599 @@
+Title: The UI/UX of Hero Sections (Challenge)
+URL: https://www.youtube.com/watch?v=YNxCjIccPO8&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=6&pp=iAQB
+Channel: YouTube playlist
+Video ID: YNxCjIccPO8
+Transcript language: English auto-generated
+Downloaded at: 2026-05-25T21:41:00.259Z
+
+0:00 hero sections every landing page needs
+0:05 one it's extremely important to get your
+0:08 hero section correct because the hero
+0:10 section answers a couple things first
+0:13 what is this page about and it also
+0:16 gives them a clear Direction a call to
+0:18 action of some sort so a typical hero
+0:21 section is consisting of just three
+0:22 different elements or four if you think
+0:24 about it first the headline the headline
+0:27 has to be a sentence or just a few words
+0:30 that really speaks to the audience and
+0:33 typically it's the largest element on
+0:35 the page because it's the first thing
+0:36 you want people to read then you have a
+0:38 sub headline which will go into more
+0:40 details about the page and then finally
+0:42 you have a call to action a button of
+0:45 some sort or a form field to fill out or
+0:47 a scroll indicator icon these are all
+0:49 calls to action actions we want the user
+0:52 to take and then we also typically have
+0:54 an illustration or a photograph of some
+0:57 sort that will accompany the hero
+0:59 section so
+1:00 I'm going to be showing you how to
+1:02 create a hero section with this design
+1:04 right here and then I'm also going to
+1:06 put you to the task by creating your own
+1:09 hero section based on this existing
+1:11 design right here remember we're early
+1:13 on this series so there's a bunch of
+1:14 training wheels that I have on so we
+1:16 already have the design the colors the
+1:18 Topography is already set the question
+1:20 is is can you create a cohesive hero
+1:23 section that fits within the context of
+1:26 this layout of course as always make
+1:28 sure to subscribe and you also be able
+1:30 to share it the instructions for sharing
+1:32 your work that I'll be able to review
+1:34 like with the other project are in the
+1:36 description all right let's get started
+1:38 all righty let's get started here
+1:40 working on the hero section make sure
+1:42 that you clone the figma community file
+1:45 and then you'll have access to what you
+1:46 see right here so we're going to lesson
+1:48 two hero sections right here all right
+1:52 and then we have a challenge where
+1:54 you're going to take this information
+1:57 and create your own hero section
+1:58 afterwards and I want you to submit it
+2:00 to me instructions are below but before
+2:02 we get to that let's go ahead and let me
+2:04 just outline I how I would for this
+2:09 particular example right here create a
+2:12 hero section and this is the information
+2:16 there's not much here so again a hero
+2:18 section consists of a headline a
+2:20 subheadline typically and a call to
+2:23 action sometimes you have multiple like
+2:25 a primary and a secondary call to action
+2:27 right now we only have one primary call
+2:29 to action
+2:30 which is called roof get it now okay A
+2:33 lot of times you'll see like buy now or
+2:35 check out or something like that and
+2:37 then we have this asset here an
+2:39 illustration um something that can grab
+2:41 people's attention some type of visual
+2:44 asset of some sort and this is what um
+2:46 was created with actually Adobe
+2:49 Illustrator Vector AI generative service
+2:52 which we'll later on the course we'll
+2:54 talk about AI for sure we're definitely
+2:56 going to have a lesson video on that so
+2:59 um that's our assets and this is the
+3:01 existing design that I created it's kind
+3:03 of like a fun design it's called frisker
+3:05 we already have a nav and then we have
+3:08 kind of like a testimonial section right
+3:10 here of you know potential users and so
+3:14 using this information you know the
+3:16 colors the contrast the topography how
+3:19 can we create an effective hero section
+3:23 for this product so this product
+3:25 actually is a kind of like a hair a pet
+3:28 hairbrush remover or something um and
+3:32 and that's basically what we're trying
+3:33 to sell so it's always very important
+3:35 what are we trying to sell um so our
+3:38 headline is no more pet hair all right
+3:40 it's very simple four words we can make
+3:43 this thing big that's what we want
+3:45 visual hierarchy the headline is the
+3:47 first thing that a person needs to read
+3:49 and the way we ensure that it's the
+3:51 first thing is typically through scale
+3:54 the font size okay so let's go ahead and
+3:57 take a look at that now the we're using
+3:59 two font here one is called concert one
+4:02 this one right here it's kind of like a
+4:04 rounded font and then we're using a real
+4:07 typical uh font called Poppins which is
+4:09 a Sanda font and it's kind of like an
+4:12 inter font like that um just real super
+4:14 simple clean font that works well paired
+4:17 with you know other fonts as well so
+4:20 let's just take our frisker logo right
+4:23 here we're going to replicate it by Alt
+4:25 and left clicking and drag down and
+4:27 we're going to put in no more pet hair
+4:31 exclamation point okay so this right
+4:35 here is really small for a headline
+4:37 right like that is way too small this
+4:39 lacks visual hierarchy so the first
+4:41 thing I'm going to do is I'm going to
+4:43 boost up the scale the size of this
+4:45 thing we do that over here right where
+4:48 it says 43 so I'm just going to go ahead
+4:50 and I'm going to put in 100 all right
+4:53 now let's expand this out and by the way
+4:55 you see how we can collapse this if you
+4:57 don't want that if you only want it to
+4:59 be one line you click on this button
+5:01 this icon right here so notice how now
+5:04 it's all the way extended out but then
+5:06 again if we wanted to we can drag this
+5:08 right back in so I'm going to show you a
+5:11 two different approaches for setting up
+5:13 a hero section or creating a layout um
+5:16 there's more than two but I don't want
+5:18 this to be an extra long video um you
+5:21 can you can lay anything out as you wish
+5:24 as long as you adhere to those few key
+5:26 principles meaning a the headline is
+5:28 very obvious it's the first thing
+5:30 they're going to read and it clearly
+5:31 communicates the idea um and as long as
+5:34 those elements those four or five
+5:35 elements the call to action the
+5:37 subheadline the headline or three or
+5:40 whatever as long as those are easy to
+5:42 read and it makes logical sense in terms
+5:46 of how you're positioning and then you
+5:47 can just position this stuff however you
+5:48 wish so here's a real common two column
+5:50 approach for a hero section on the left
+5:53 I'm going to have the hero or the
+5:54 headline the sub headline underneath and
+5:56 then a call to action and on the right
+5:58 we'll have the actual dog graphic so I'm
+6:01 going to increase this just a little bit
+6:02 more no more pet hair let's expand this
+6:06 out notice this is big this is large
+6:09 another thing that we can also adjust
+6:11 and you may or may not want to adjust
+6:13 this based on the font that you're using
+6:15 in the future and that would be uh this
+6:18 right here so it is going to be the line
+6:20 height so if I sorry this right this
+6:24 value right here that one so if you take
+6:27 your keyboard up Arrow key you can just
+6:29 and selecting it you can just modify
+6:31 this as you wish I'd say right around
+6:33 here looks pretty good you don't want it
+6:34 to be too far away the lines of text and
+6:37 you want you don't want it to be too
+6:38 close Okay so no more pet hair that's
+6:40 looking pretty good right there and
+6:43 again alignment where are we aligning
+6:45 this well there is a invisible if you
+6:48 will um guide that's shown up so here's
+6:51 the guide right here um or our grid so
+6:55 we have that right there and these right
+6:58 here are actually kind of offset and not
+7:00 right so I didn't utilize that so we
+7:04 would want to take these cards right
+7:05 here and push them over here to the left
+7:09 I'm going to take these elements as well
+7:11 this is just a quick design I did and
+7:13 then we want to get this one over here
+7:15 as well pushed over here to the right of
+7:19 course we'll get that centered up as
+7:20 well and then fix this as well okay so
+7:24 now that everything
+7:25 adheres to these guides I'll go ahead
+7:29 and hide
+7:30 that now let's go ahead and put in a sub
+7:33 headline which is the world's best pet
+7:36 hairbrush okay so what do we want to do
+7:38 this time do we want to use the same
+7:40 font I mean we could try we could also
+7:44 try using Poppins as well but let's just
+7:46 put use the same font for now and so I'm
+7:49 going to specify the worlds oopsie the
+7:53 world's best pet oopsie pet hair
+7:58 brush okay
+8:00 okay now clearly we cannot leave it like
+8:03 this and we can't leave it like this
+8:05 either this is lacking typographic
+8:07 visual hierarchy we have a headline and
+8:09 a sub headline 99 times out of 100 you
+8:12 want these things to be I situated so
+8:15 that the headline is bigger and the sub
+8:17 headline is smaller so I'm going to do
+8:19 um let's just do something like uh
+8:22 30
+8:23 oopsy it didn't work
+8:26 30 why are you not allowing me to modify
+8:30 the font size oh well I'll just use my
+8:33 keyboard down arrow key sometimes things
+8:35 just get a little bit
+8:37 strange the world's best pet hairbrush
+8:39 let's make this white as
+8:41 well okay that's
+8:44 cool and again we're making sure we're
+8:46 aligning it on the same
+8:48 column this right here Works let's try
+8:51 changing it to this type up here this
+8:53 font called
+8:55 Poppins here oops I think I just spit on
+8:58 my
+9:00 oh boy oh I think there's an issue with
+9:02 my keyboard right now I I dropped it and
+9:06 it's now it's just like randomly hitting
+9:07 letters and stuff that's awesome anyhow
+9:10 I'm going to change this to Poppins
+9:11 please let it work
+9:15 pop there we go the world's best pet
+9:20 hairbrush this works as well it's
+9:22 completely fine notice how much smaller
+9:24 this is 144 versus 37 I mean this is a
+9:28 significant difference that's what we
+9:30 want we want a big difference between
+9:33 our headline and our subhe headline and
+9:35 you can tell a different color they
+9:37 don't always have to be a different
+9:38 color but I'm choosing to do that and
+9:40 these are things that will really affect
+9:42 the visual hierarchy so that works well
+9:45 right there finally we have a call to
+9:46 action roof get it
+9:49 now
+9:51 and for now I think I'll just H we'll
+9:53 use this font
+9:55 again see how it's like always hitting
+9:58 the W here let me just just hit it a few
+10:00 times and maybe it'll
+10:02 stop that's not cool well I guess what
+10:04 I'll do is this we're just going to grab
+10:06 that copy that come over here paste it
+10:10 there we go kind of solve that issue um
+10:13 let see if I can specify that font which
+10:16 was called concert one all right so
+10:21 concert oh my God I can't believe this
+10:24 has happened oh
+10:26 well now for our button again our call
+10:29 to action button really needs to stand
+10:31 out on its own all right so I'm going to
+10:33 make it a little bit larger roof get it
+10:36 now and you know what I might do is make
+10:40 this all title case so the way you can
+10:42 do that I cannot believe this is
+10:44 happening the way you can do that is to
+10:45 select it you come over here with these
+10:47 little three dots it gives you extra um
+10:50 options right here and we'll choose this
+10:52 one right here uppercase that will
+10:54 automatically just make it uppercase
+10:57 then we're going to take a frame hit the
+10:59 F key and then just wrap it around this
+11:02 cuz this is going to be an actual button
+11:04 in this case and we're going to give it
+11:06 a fill and typically your primary color
+11:11 will be the background color of your
+11:14 button for your primary call to action
+11:16 now I say typically I because there's no
+11:19 rule saying that you have to do that
+11:21 sometimes you may not want this but more
+11:22 often than not this is the typical
+11:24 pattern and I'm showing you a pretty
+11:26 typical way to set up a hero section so
+11:29 I'm just going to grab this with the ey
+11:31 drop tool and
+11:35 then we're going to give this some
+11:37 rounded Corners so this is completely
+11:40 straight edge Corners um the feel of
+11:44 this particular uh layout with the
+11:46 rounded font right here would really
+11:48 make sense to also make this rounded so
+11:50 we can round the corners coming up here
+11:51 left clicking dragging and pulling it
+11:53 right and you see how it adds rounded
+11:56 Corners to our button right there all
+12:00 right so now with both of those selected
+12:03 uh we can choose Auto layout and that
+12:04 will almost get it centered up and if it
+12:07 doesn't it's simply because of this
+12:10 issue right here now if I select this
+12:12 middle option right here now what this
+12:14 does is it aligns things to the middle
+12:18 and then if I adjust
+12:22 this it's still not working correctly so
+12:25 now what we can do is we can get access
+12:28 access rather to all the padding sides
+12:30 by clicking this button so we have top
+12:33 and then bottom right here so zooming
+12:37 out it looks like we can add more to the
+12:39 bottom so if I just use my keyboard up
+12:42 Arrow key and add eight to it now it
+12:45 things look much more centered up now
+12:47 additionally do we want to use white
+12:49 text maybe we'll use this dark text that
+12:53 is way more obvious in this
+12:57 context so right there that's pretty
+12:59 good and notice I didn't just randomly
+13:02 place these on here notice how there's
+13:05 not an equal amount of white space
+13:07 between these elements and the way we
+13:08 can visualize this is to get out the
+13:10 rectangle tool
+13:14 R and you can see that's pretty much the
+13:17 distance between these two elements and
+13:19 then if we replicate that shift alt and
+13:22 down and drag this down you can see
+13:24 there's much more white space underneath
+13:26 it and that's grouping it makes sense in
+13:29 this context to take the headline and
+13:32 the subheadline and make them positioned
+13:35 vertically speaking in terms of white
+13:36 space closer together then we push this
+13:40 down further this is a very common
+13:42 pattern and it makes sense to keep the
+13:45 stuff that you're reading a little bit
+13:47 closer together and then the thing that
+13:49 is an actionable you know the call to
+13:51 action let it sit by itself give it room
+13:55 to breathe on its own because it is the
+13:57 most important element it's the one
+13:58 thing that we want them to click the
+14:00 most all right so now that we have our
+14:03 left column done then we can just take
+14:05 this guy alt left click and drag over
+14:08 just to replicate it and we can just put
+14:11 this this character right here right
+14:13 there and I would probably put it under
+14:14 here because it looks kind of strange
+14:16 being cut off on top of this element but
+14:19 if we just take our left bracket key
+14:22 it'll put that to the very bottom and
+14:24 now it's underneath this and this
+14:26 actually looks pretty solid now you
+14:28 might be wondering
+14:29 what about the edge over here doesn't
+14:31 this have to stay within that you know
+14:34 the the the actual confines of the
+14:36 layout so if I bring this back you'll
+14:38 see it extends out when it comes to
+14:40 illustrations and and like watermarks or
+14:43 background patterns or just unimportant
+14:45 elements it's okay to extend outside of
+14:48 that container all right it's not a big
+14:50 deal in fact you know we could even if I
+14:52 hide this if we wanted to make this
+14:55 larger we could we could have it cut off
+14:57 you can do that it's f fine uh I'm going
+15:00 to leave this right here and I think
+15:01 that's a good potential that's a very
+15:04 standard hero section all right very
+15:07 typical now what if we wanted to do
+15:09 something more unique which I'm a fan of
+15:11 uh all right so let's say for instance
+15:13 we want to have this character in the
+15:16 middle all right so I'm going to scale
+15:18 them down a little bit and then we'll
+15:19 take no
+15:21 more and maybe we'll put these on two
+15:23 lines and right align
+15:26 it let's get rid of that space so we
+15:29 have no more and then we're going to
+15:32 replicate that shift
+15:34 alt and then pet
+15:39 hair and then we're going to left align
+15:41 this one and we're going to make sure
+15:43 that these
+15:44 are lined perfectly
+15:49 together now it looks kind of like
+15:51 there's
+15:53 um different line height between some
+15:55 these I'm not sure how that happened so
+15:57 let's just look in these
+15:59 hu yeah that's very strange so it looks
+16:02 like there's more um line height between
+16:05 no more has like more line height
+16:07 compared to this one but they're the
+16:08 same values I don't know what's
+16:09 happening there sometimes things like
+16:11 that can happen not a big deal I'm not
+16:13 too concerned about it no more pet hair
+16:17 I think we can make it a little bit
+16:19 smaller move it
+16:22 up okay now we have some work to do
+16:25 though we're making something kind of
+16:27 interesting we'll see how pans out here
+16:30 in a second I'm going to take all this
+16:32 stuff and we're going to move it
+16:35 down all right so the world's best pet
+16:40 hairbrush let's take this and make that
+16:42 capital and I think we're also going to
+16:45 use well no let's make this uh bold
+16:48 instead and then I'm going to take the
+16:50 frame and we're going to wrap kind of
+16:53 make it look like it's in a button
+16:54 container but it's not a
+16:56 button and I will add
+16:59 a background to it so we're going to add
+17:01 a fill and it's going we're going to
+17:04 grab the background color it's currently
+17:05 sitting on just make it slightly lighter
+17:08 that's it slightly lighter give it
+17:09 rounded
+17:12 corners and to make this a little bit
+17:14 more interesting we can we can even do
+17:16 this we could rotate it
+17:18 slightly put it on top and that way it
+17:21 kind of hides the fact that it's cut off
+17:24 so it's coming out from this little
+17:26 rotated area and you can rotate text
+17:29 that's achievable within you know
+17:30 frontend development so now we could
+17:32 take roof get it now we could just put
+17:35 it right here make sure it's on the top
+17:38 like that then we'll bring this back
+17:42 up and we can push this here
+17:46 possibly and I think our roof get it now
+17:49 button should be a lot
+17:51 larger so let's increase that now if I
+17:55 set this button up right that wouldn't
+17:56 have been an issue with auto layout but
+17:58 we're going to get to that stuff stuff
+17:59 later in this course in this series if
+18:01 you
+18:06 will
+18:08 okay so we going to make sure this is
+18:10 centered this should be centered as well
+18:13 this character should be
+18:17 centered okay rof get it now I think
+18:20 what we can do is probably move things
+18:22 up there's a lot of white space right
+18:24 here so I'm going to move this up just a
+18:27 bit move this up perhaps we could put
+18:29 this right
+18:32 there
+18:35 okay and no more pet hair one of the
+18:38 things that you need to be aware of is
+18:41 color affecting your visual hierarchy so
+18:43 that means our um our call to action
+18:49 it's the one thing that we really wanted
+18:50 to stand out the most um and when
+18:53 they're both the same color that can
+18:54 kind of take away when your headline is
+18:56 the same color as the button background
+18:58 from your call to ction that can kind of
+18:59 take a little bit of emphasis away from
+19:02 it because it's the same color and
+19:03 they're both very large so we could take
+19:05 this and make this
+19:08 white and I could put maybe add an ex
+19:11 exclamation point right there my my w
+19:16 key I think I'm GNA have to get a new
+19:17 keyboard because I literally just
+19:19 dropped the hell out of it before
+19:20 recording all right so now if I take
+19:23 this up and and move it we have two
+19:27 different layouts U utilizing the same
+19:29 dog asset um and this one obviously is
+19:33 more unique we could really do some cool
+19:35 stuff with this we can make the dog kind
+19:37 of come up here and animate with CSS or
+19:40 prototyping um and we're all we're going
+19:42 to do definitely get into that stuff
+19:43 later on in this series um but there's a
+19:45 lot of cool stuff that we can do but
+19:47 here's the bottom line we have a strong
+19:50 call to action or headline it is the
+19:52 biggest element um and we've established
+19:55 that through Visual hierarchy we also
+19:57 have our sub headline which is clear to
+19:59 read and our call to action and a and a
+20:02 relatable um asset if you will that
+20:05 works well for our hero section now so
+20:08 now that we have that and by the way
+20:10 like I want to reiterate there's going
+20:11 to there would be more other ways to to
+20:14 situate this I only showed you two so
+20:17 there's a lot more um I'm not going to
+20:19 do another one but another one that
+20:21 comes up like off the top of my head is
+20:23 if we just extend this up down a little
+20:25 bit further and move this stuff down
+20:29 we take this guy right there and then we
+20:31 take no more uh pet hair less
+20:39 here H unfortunately because of my
+20:42 keyboard issue this may not
+20:46 work I can't believe no more pet air
+20:49 there we go it worked okay so you know
+20:52 we could do this as well we could center
+20:54 this this is a real common pattern um we
+20:58 could make it one line like
+21:01 this so we Center this up all this stuff
+21:05 is centered as
+21:08 well you know this is another possible
+21:12 iteration that could work all right so
+21:16 going back let's now focus on it's your
+21:18 turn basically to utilize everything I
+21:21 just talked about to integrate the
+21:24 headline the next generation's drums so
+21:27 this is a fictional
+21:29 service for like um fake drums that you
+21:31 know musicians can use in their music or
+21:33 something like that um they're called
+21:35 virtual instruments vsts um and so this
+21:39 is a sub headline that I want you to use
+21:41 the call to action is get drum synth
+21:43 which is the fictional name and then we
+21:45 have this fake AI generated little um
+21:48 screen of the of just some fictional
+21:50 like audio software it looks crazy and
+21:53 all you have to do is alt left click and
+21:54 drag this up in here in the hero section
+21:56 and it's up to you in terms of how you
+21:58 want to situate this you know if you
+22:00 want to put it down here that's fine if
+22:01 you want to put it in the center and
+22:02 then you know work your uh your headline
+22:05 and sub headline stuff around it if you
+22:07 want to push it off over here in the
+22:09 side this is fine as well even if it's
+22:11 cut off it's not a big deal just
+22:13 understand that's an asset I want you to
+22:15 be able to work with it and integrate it
+22:17 somehow um so it's up to you if you want
+22:20 to be real creative in here I would
+22:21 really suggest just try to make things
+22:23 as simple as possible make a strong
+22:26 large headline make sure things are
+22:28 aligned properly good white space good
+22:31 contrast good color and you can't go
+22:33 wrong all right so then what I want you
+22:35 to do just like with the last video is
+22:38 once you're done with this make sure by
+22:40 the way I will take all these and add
+22:44 this right here make sure that you run
+22:47 through all these all right your visual
+22:50 hierarchy your contrast color alignment
+22:52 Whit space grouping um oh yeah I forgot
+22:55 to add topography you want to make sure
+22:58 am I even going to be able to type
+23:01 it come on there we go you want to make
+23:04 sure you're asking yourself and you're
+23:06 compare like every single element is the
+23:08 visual hierarchy well is the contrast
+23:10 well color alignment Whit space grouping
+23:13 topography and then just take this and
+23:16 replicate that each time that you are
+23:18 confident that those are all working
+23:20 well all right so once you're done Click
+23:22 Share click copy link then go to x.com
+23:27 or you can join the Discord server in
+23:28 the 30-day uiux Channel and when you go
+23:32 to x.com if I bring this back up all you
+23:36 have to do is paste that
+23:40 in all right and then mention me you
+23:44 could follow me first I or rather than
+23:46 mentioning me the most important part is
+23:48 to put in 30 days uiux this tag right
+23:53 here and then you can also mention me at
+23:56 designour comom and follow me and all
+23:57 that good stuff
+23:59 now people already have done this for
+24:00 the very first challenge which is
+24:02 yesterday's challenge or the day before
+24:05 um depending on when I upload this and
+24:07 people have already been adding this to
+24:09 me so this is cool all right so I look
+24:13 really forward to to seeing everything
+24:15 that you all come up with and yeah I'll
+24:18 see you tomorrow with another new video
+24:20 Let's Do It
+24:27 [Music]

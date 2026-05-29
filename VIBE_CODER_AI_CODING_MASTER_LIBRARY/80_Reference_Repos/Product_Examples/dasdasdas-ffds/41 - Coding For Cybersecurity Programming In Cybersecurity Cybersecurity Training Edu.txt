@@ -1,0 +1,1127 @@
+Title: Coding For Cybersecurity | Programming In Cybersecurity | Cybersecurity Training | Edureka
+URL: https://www.youtube.com/watch?v=TS4Mym3x5sI&list=PL9ooVrP1hQOGPQVeapGsJCktzIO4DtI4_&index=50&pp=iAQB
+Channel: YouTube playlist
+Video ID: TS4Mym3x5sI
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:24:55.858Z
+
+0:00 [Music]
+0:06 hello everyone this is junit here from
+0:08 edureka and i welcome you all to this
+0:10 session in which i'm gonna talk about
+0:12 coding for cyber security so without any
+0:15 further delay let's take a look at
+0:16 today's agenda
+0:17 we'll start this session by
+0:18 understanding why we need cyber security
+0:20 and what exactly it is
+0:22 then we shall discuss different types of
+0:24 programming languages to consider
+0:26 when we deal with cyber security moving
+0:28 ahead i'll be speaking about various
+0:29 projects to work on
+0:31 finally i'll end this session by
+0:32 implementing a cryptographic system
+0:35 before we begin do consider subscribing
+0:37 to our channel and hit the bell icon to
+0:39 stay updated on training technologies
+0:41 and also if you're looking for online
+0:42 training certification in cyber security
+0:45 check out the link given in the
+0:46 description box below so let's now start
+0:48 off by understanding why and what is
+0:50 cyber security
+0:52 you see we live in a digital era that
+0:54 understands that our private information
+0:56 is more vulnerable than ever what i'm
+0:58 trying to say here is we all live in a
+0:59 world that is networked together from
+1:01 internet banking to government
+1:03 infrastructure
+1:04 where data is stored on computer and
+1:05 other devices a portion of the data can
+1:08 be sensitive information
+1:09 which when authorized access could have
+1:11 a negative consequences
+1:13 so why do we need cyber security i am
+1:15 sure you guys by now have a wild guess
+1:17 why we need cyber security with lots of
+1:20 online activities cyber attacks are on
+1:22 the rise
+1:22 the cyber attack is now an international
+1:24 concern organizations transmit sensitive
+1:27 data across the networks
+1:29 and other device while doing their
+1:30 business activities and cyber security
+1:32 ensures protecting that information and
+1:34 systems
+1:35 so finally coming down to what is cyber
+1:37 security well cyber security is a set of
+1:40 principles and practices
+1:42 designed to protect our computing
+1:43 resources and online information against
+1:45 threats
+1:46 what i'm trying to say here is due to
+1:48 heavy dependency on computer in modern
+1:50 industry that stores and transmits an
+1:52 abundant amount of confidential and
+1:54 essential information
+1:56 cyber security has become a critical
+1:58 part of our digital function
+1:59 now that we know why and what is cyber
+2:02 security
+2:02 let's say few of the top programming
+2:04 languages to consider while learning
+2:06 cyber security
+2:07 starting off with c and c plus we all
+2:10 know c is one of the oldest programming
+2:12 language
+2:12 out there and was developed in early 90s
+2:15 it was mainly used to develop software
+2:18 like operating systems
+2:19 database compilers and many more it is
+2:22 an excellent language to learn for
+2:23 programming for beginners
+2:25 moreover after learning c it must be
+2:27 very easy to learn programming language
+2:29 like java and python
+2:31 speaking about c plus plus it is a
+2:33 general purpose programming language
+2:35 which is
+2:35 actually an extension of c programming
+2:38 and the main use of c plus plus is to
+2:39 develop operating systems
+2:41 browsers games and many more so why
+2:43 should i use c
+2:44 and c plus plus for cyber security well
+2:47 you see
+2:47 both are low level programming language
+2:49 that you need to know as a cyber
+2:51 security professional
+2:52 this is because these languages have low
+2:54 level access to hardware such as
+2:56 ram and system processing which are
+2:58 easily exploited by hackers if not
+3:00 protected
+3:01 so why are c and c plus plus useful in
+3:04 cyber security
+3:05 c and c plus are useful for reverse
+3:07 engineering and finding the
+3:08 vulnerabilities
+3:10 and on top of that a lot of malware is
+3:12 written in c plus
+3:13 this learning c is more important for
+3:15 reading and understanding open source
+3:17 code many cyber security programs such
+3:19 as nmap the network mapper tool
+3:21 are created using c plus next we have
+3:24 python
+3:25 we all know python is a general purpose
+3:27 object oriented high level programming
+3:29 language
+3:30 and is one of the most popular and
+3:32 widely used coding language
+3:33 due to its versatility it includes
+3:35 high-level data structures
+3:37 dynamic binding dynamic typing and other
+3:40 features making it ideal programming
+3:41 language for complex application
+3:43 development
+3:44 python is suitable for general purpose
+3:46 tasks like data managing
+3:48 and big data facilities it is a high
+3:50 level scripting language that is easier
+3:52 to learn than other low level languages
+3:54 python is a useful programming language
+3:56 for cyber security professionals
+3:58 because we can perform variety of cyber
+4:00 security functions like marvel analysis
+4:02 penetration testing and scanning apart
+4:05 from that python enables cyber security
+4:07 managers who lead the team to implement
+4:09 projects quickly
+4:10 as python has extensive set of libraries
+4:13 which means that cyber security tools
+4:14 are already available
+4:16 and finally we all know python can be
+4:18 used for accomplishing multiple tasks
+4:20 such as
+4:20 host discovery accessing servers port
+4:23 scanning and network scanning
+4:25 this helps cyber security professionals
+4:26 to keep up with the task
+4:28 moving ahead we have javascript
+4:30 javascript is one of the most popular
+4:32 and widespread programming language it
+4:35 is one of the top rated programming
+4:36 language for web development
+4:38 moreover the growth of frameworks such
+4:40 as jquery angular and react.js
+4:43 has made javascript even more powerful
+4:46 it helps programmers to build front-end
+4:48 as well as back-in software
+4:49 using different javascript based
+4:51 framework like jquery and node.js
+4:54 however javascript comes with variety of
+4:56 frameworks and libraries
+4:57 and its usage has now extended to mobile
+4:59 application development
+5:01 desktop app development and game
+5:02 development it is one of the best cyber
+5:05 security programming language you can
+5:06 learn
+5:07 if you are proficient in javascript you
+5:09 can make sure that website is secure
+5:11 enough
+5:11 to reduce or even eliminate web-based
+5:13 attack what i'm trying to say here is
+5:15 that
+5:16 javascript enables you to design secure
+5:18 websites and user interface
+5:20 this is achieved by mitigating possible
+5:22 cross-site scripting attempts
+5:24 in web forms and minimizing other
+5:25 technical risks
+5:27 javascript also allows you to work with
+5:29 cookies manipulating event handlers and
+5:31 even perform cross-site scripting
+5:33 next in our plate we have php php is a
+5:36 server-side programming language that is
+5:38 used to develop websites
+5:40 php powers 80 of the top 10 million
+5:43 websites
+5:44 thus making it most dominant server side
+5:46 language on web
+5:48 thus knowledge of php will enable you to
+5:50 know how to defend against intruders
+5:53 one of the most common hacking
+5:54 techniques using php is
+5:56 dos which stands for denial of service
+5:58 attack such attack usually attempt to
+6:00 make web applications
+6:02 unavailable to user by shutting down the
+6:03 websites how can make use of php to
+6:06 delete
+6:07 all the data on your website if you are
+6:09 not careful about how you built it
+6:11 this learning php programming language
+6:13 can help you identify
+6:14 and solve one abilities in the php code
+6:17 moving ahead we have sql
+6:19 sql is a domain specific language used
+6:22 in programming
+6:23 it manages the data stored in database
+6:25 with organizations getting more data
+6:27 driven
+6:28 sql is most sought out programming
+6:29 language for managing databases
+6:32 you see sql enables you to access
+6:34 records or data with just one single
+6:36 command
+6:37 thus by using sql queries the user will
+6:39 not have to specify the data that should
+6:41 be retrieved
+6:42 nowadays most hacker tries to exploit
+6:44 database with the intention of stealing
+6:46 or modifying it
+6:47 whenever you attempt to log into a
+6:49 website a password
+6:50 stored in the database is bought up and
+6:52 compared with what you have typed
+6:54 while you cannot see it hackers take
+6:56 advantage of this by using sql injection
+6:58 to extract sensitive data from
+7:00 organization and individuals
+7:02 it can result in loss of critical
+7:03 information such as password
+7:05 bank account information social security
+7:07 numbers and many more
+7:09 therefore learning sql can help you make
+7:11 database more secure
+7:13 i am sure you might be wondering how
+7:14 right well an understanding of sql its
+7:17 uses and how sql injection attacks
+7:19 enables you to manipulate website can be
+7:22 beneficial to security professionals
+7:24 since sql injection is one of the top
+7:26 threads to web application security
+7:28 security defenders will generally be
+7:30 helpful by mastery of sql
+7:33 to wrap things up some researchers claim
+7:35 that there is one language that is more
+7:37 or less secure than other
+7:38 the truth is that there is no one best
+7:40 programming language
+7:42 it all depends upon what you're trying
+7:44 to achieve with it any programming
+7:45 language can be ideal
+7:47 as long as you create a perfect cyber
+7:49 security strategy
+7:50 now let's move ahead and see some of the
+7:52 projects to work with
+7:53 for getting hands-on experience on cyber
+7:55 security concepts and principles
+7:58 start by working on key logger you see
+8:00 keylogger which is a shorthand term
+8:02 version of keystroke logger
+8:04 so what this software does is it has the
+8:06 ability to record
+8:07 every keystroke made by anyone on that
+8:10 system this would be useful by hackers
+8:12 to get private information like net
+8:14 banking credentials
+8:15 account user id and password and many
+8:17 more this concept of cyber security
+8:19 could be a great topic to do a project
+8:22 on
+8:22 you see if you are a programmer or
+8:24 someone who is good at coding you can
+8:26 develop your own key logger and capture
+8:28 keystroke on your system
+8:30 another project could be developing a
+8:31 keylogger or find a way for a keylogger
+8:34 to capture stroke on a virtual keyboard
+8:36 as well
+8:37 keyloggers over the years have become
+8:38 more sophisticated thus making it hard
+8:40 for avs to detect them
+8:42 so as a project you can do a research on
+8:44 different ways to spot and detect key
+8:46 logger from a system
+8:47 by reverse engineering it next on our
+8:50 list we have break a caesar cipher
+8:52 if you don't know what caesar cipher is
+8:54 it is a type of encryption method that
+8:56 was first used by julius caesar
+8:58 to communicate with his officials this
+9:00 encryption technique is also considered
+9:02 to be one of the first method which is
+9:04 still ineffective
+9:06 the concept of caesar cipher is pretty
+9:08 simple a letter of a given text
+9:10 is replaced by another letter that comes
+9:12 after a number of other alphabets
+9:14 as a project using a logic behind caesar
+9:16 cipher you can build a small web app
+9:18 that can break seizure ciphers this
+9:20 would be a great project as a beginner
+9:22 as someone who is just getting started
+9:24 with cyber security
+9:25 this kind of project would give you
+9:27 confidence to make up to a bigger
+9:28 and more advanced project moving ahead
+9:31 to our next project that is packet
+9:33 sniffing
+9:33 packet sniffing is one of the most
+9:35 important concepts of cyber security
+9:38 when you are in a get to go of your
+9:39 cyber security journey and want to do a
+9:41 project around the concept you learn
+9:43 packet sniffing can be a great choice
+9:46 you see if you're learning cyber
+9:47 security in a training center
+9:49 they would definitely allow you to
+9:50 perform this task as your project
+9:52 but if you are using network of an
+9:54 organization and institute
+9:56 then it is advised to take a prior
+9:57 permission of the administrator
+10:00 packet sniffing which is also known as
+10:02 network traffic analysis is all
+10:04 about taking look at data packet that
+10:06 are sent across the internet
+10:07 and moves on your network there are
+10:09 several tools available that captures
+10:11 packets such as tcp dump
+10:13 wind dump and many more finally on our
+10:15 next project we have
+10:16 sql vulnerability assessment sql
+10:19 injection is one of the most initial
+10:21 and important topics in cyber security
+10:23 over the years many websites have been
+10:25 hacked using sql injection
+10:27 as mentioned earlier it is a type of
+10:29 injection attacks that is possible for
+10:31 hackers to execute malaysia's sql
+10:33 statement
+10:34 therefore project on this concept would
+10:36 add significant value to your portfolio
+10:38 now moving ahead in our session let's
+10:40 see how we can encrypt and decrypt our
+10:42 message using cryptography
+10:44 before we do that let's see what is
+10:45 cryptography well cryptography is
+10:48 associated with the process of
+10:49 converting ordinary plain text into
+10:51 encoded text it is a method of storing
+10:54 and transmitting data in a particular
+10:56 form so that only those who are
+10:58 authorized to see it can proceed with it
+11:00 cryptography not only protects data from
+11:02 thefts and alteration
+11:03 but also can be used as an
+11:05 authentication before we move on and
+11:07 build our cryptography system let me
+11:09 give you a brief overlook
+11:11 so to give you a better understanding of
+11:13 what is cryptography right
+11:14 so let's go something like we have two
+11:17 people over here
+11:18 let's say a and b
+11:21 now a and b are trying to have a
+11:23 conversation
+11:24 sometimes what happens is when we are on
+11:27 a web
+11:28 there will be a third party as an
+11:29 intruder over here when
+11:31 a and b are trying to connect we
+11:34 obviously have an intruder
+11:35 we have this kind of intruders only when
+11:37 we are trying to have a conversation
+11:39 over unsecured network
+11:40 okay so now what happens is these people
+11:43 have access to public wi-fi and there is
+11:45 an intruder over here
+11:46 so whatever conversation that these
+11:48 people are having right it's going
+11:49 through them
+11:50 okay it's going through this intruder
+11:51 over here so now what these guys do is
+11:53 they know that they are in a public
+11:55 network
+11:56 so they come up with a solution okay so
+11:58 if
+11:59 a is trying to send a message something
+12:01 like hello
+12:03 he will try to encrypt this okay he'll
+12:05 try to encrypt this
+12:06 say something like hello will be
+12:08 converted into o l
+12:10 e h and he'll send this as a package
+12:13 to b and now as a knows b right
+12:17 so he will inform to b as he receives
+12:19 this package which would be
+12:21 o l l e h he will tell whatever message
+12:24 you're receiving from my end try to just
+12:26 reverse it
+12:28 so now b gets the actual message right
+12:31 but now what happens with i who's our
+12:34 intruder over here
+12:35 intruder will get the message o l e
+12:38 h but now intruder is done he doesn't
+12:41 know what this information mean
+12:42 and as i'm not providing any kind of
+12:44 clue or key so
+12:46 intruder will not have any access or any
+12:48 information to get out of this
+12:50 so now what we're going to do is we're
+12:52 trying to create a system where there
+12:54 would be two servers
+12:55 so we'll be using python network
+12:57 programming although it's not necessary
+12:58 for you to know python network
+13:00 programming to generate a cipher text
+13:02 okay so this just to give you the feel
+13:04 of sending a message from one server to
+13:06 the other
+13:06 and what we'll do is we'll also have
+13:08 another includer over here
+13:10 okay this person over here the server a
+13:12 over here
+13:13 it'll encode the message and send the
+13:15 encoded message to both
+13:16 intruder as well as our server b okay
+13:19 now at server b what will happen is he
+13:21 will get the message
+13:22 okay which is encoded message and he
+13:25 won't have any access to this
+13:26 information whereas for b will be
+13:28 providing a key over here
+13:30 and using the key he will try to
+13:32 decipher the text all right
+13:34 so let us now quickly move to my code
+13:35 editor and see how we can
+13:37 implement this so as you can see i have
+13:40 come here to my
+13:41 id that's i'm using pycharm here and
+13:43 i've already created three files
+13:45 so server one hacker one and client one
+13:48 so server one here refers to
+13:50 the a part a hacker is nothing but the
+13:52 intruder and client one is gonna be
+13:54 our receiver end right so what we're
+13:56 gonna do initially is we're gonna have
+13:58 the server one
+14:00 okay before we move ahead right i'll
+14:02 just give you an example of what we're
+14:04 gonna do so we'll have like message here
+14:06 so you're supposed to pass in your
+14:07 message so we'll give you input
+14:10 okay and we'll give small message
+14:12 something like please
+14:13 enter your message okay so
+14:17 now what we're gonna do is whatever
+14:19 message we get it will be stored here in
+14:21 msg right
+14:22 so now we are supposed to design our own
+14:25 encryption algorithm
+14:26 so what we're gonna do for that we'll
+14:28 give something like e and c
+14:30 but before that what we'll do is let me
+14:32 just give an example what we're gonna do
+14:34 so let's take like four alphabets okay
+14:35 so we have a b
+14:37 c and d right so now our encryption
+14:40 algorithm would be something like
+14:42 wherever we have a right it would become
+14:44 d if you have b
+14:45 it would be c if you have c it's going
+14:47 to be b and if you have
+14:49 b it's going to be a so basically what
+14:51 i'm trying to say here is if this is a
+14:52 string
+14:53 okay our encryption algorithm would be
+14:55 the reverse of that
+14:56 okay so our encrypted message would have
+14:58 the reverse of that equivalent values
+15:00 so we'll define our key here so key is
+15:03 going to be
+15:04 is going to be a b c d e f g h
+15:07 i j k l m n o p q
+15:11 r s t u v w x y
+15:14 z and we'll also have to mention some
+15:16 numbers right
+15:17 so it would be from zero to nine so zero
+15:20 one two three four
+15:21 five six seven eight nine and then we'll
+15:24 give a space
+15:24 with an exclamatory mark okay this is
+15:26 just to increase the complexity of our
+15:28 code
+15:29 okay so now what we're going to do is
+15:31 we'll create a dictionary
+15:32 okay okay so now we're going to create a
+15:34 dictionary right so
+15:36 we'll have something like encrypted
+15:37 message so e
+15:39 underscore m as g right so let this be
+15:42 an encrypted message
+15:43 this should be equal to dictionary okay
+15:46 so here what we're gonna pass is this
+15:48 thing right so like in place if it's a
+15:50 it's gonna be replaced by exclamatory
+15:52 mark so what we're going to do is we'll
+15:53 obviously
+15:54 have to reverse it so we'll have val
+15:56 which would be nothing but
+15:57 reverse of this so how do i put a
+15:59 reverse of that
+16:00 it's going to buy string slicing so key
+16:03 and -1
+16:04 so this would give us the reverse value
+16:06 of this key now
+16:08 what i'm trying to achieve here is
+16:10 whenever i have alphabet a it has to be
+16:12 replaced by exclamatory mark
+16:13 whenever it is b it will be a space so
+16:16 now what we'll do is we'll have a
+16:18 dictionary then we'll have a zip
+16:19 but we are creating a dictionary right
+16:21 key value pair and then we'll give
+16:23 key and then value
+16:26 sounds good right okay so what we have
+16:28 done over here is we have created our
+16:30 dictionary
+16:31 so let me quickly print this dictionary
+16:33 and show you how it would look like so
+16:35 print okay so let me quickly run this
+16:39 here
+16:46 so we'll enter our message
+16:50 okay but we are not getting the
+16:52 encrypted message but we have something
+16:54 printed here right
+16:55 so what this is telling is this is
+16:56 nothing but the dictionary so here a
+16:58 will be replaced by exclamatory mark
+17:00 b over here would be replaced by space
+17:01 and c by nine so now let's encrypt our
+17:03 message
+17:05 i'm pretty sure this sounds pretty
+17:06 interesting so to encrypt our message
+17:08 we'll have
+17:08 encrypted message enc message this would
+17:11 be nothing but
+17:13 thought join okay so this is because
+17:15 we'll be just doing
+17:16 the list comprehension right so it will
+17:18 be join and now what we'll do is
+17:20 we'll take this dictionary here e
+17:23 underscore message
+17:25 and then we're gonna pass letters or
+17:27 words you can say
+17:29 now where am i gonna get these words
+17:30 from so it's going to be a form of for
+17:32 loops for
+17:33 words in our message right so it's going
+17:36 to be this
+17:38 okay so after performing this right
+17:41 we'll have our encrypted message
+17:42 so if you don't believe me let me
+17:44 quickly walk you through this so let me
+17:45 print
+17:46 this print encrypted message enc
+17:49 underscore message and let me comment
+17:51 this out we don't want to print our
+17:53 encryption key over here so let me
+17:55 quickly run this
+17:57 let's give a message something like hi
+18:00 it's a beautiful day
+18:03 so anyone can read this out right now
+18:06 let's see what happens if i encrypt this
+18:08 okay so as you can see here we are
+18:09 getting an error right so the reason why
+18:11 we are getting an error is because
+18:13 we have an upper case and we haven't
+18:16 defined any uppercase values here so in
+18:17 order to fix this all we need to do is
+18:19 use dot lower
+18:20 okay so over here we have message dot
+18:23 lower
+18:24 okay so let me quickly run this again
+18:28 so let me give the same message it's
+18:32 a beautiful day just to prove you that
+18:35 you know this thing works
+18:36 i have the combination of uppercase and
+18:38 lowercases here and let me so as you can
+18:40 see we are getting this
+18:41 message in an encrypted form right so
+18:43 wherever we have space it's gonna be
+18:45 replaced by exclamatory mark and this is
+18:47 something which is not readable by
+18:48 anyone
+18:49 okay so similarly in order to keep this
+18:51 it's similar process so let me quickly
+18:53 show you that as well
+18:54 so for decrypting obviously we need the
+18:56 key part so this is the important thing
+18:58 so how decryption works is something
+19:01 like
+19:01 we have decrypter okay so let's give it
+19:04 as decrypter we are going to create
+19:05 something similar to this okay a
+19:06 dictionary
+19:08 okay so this is our decrypter and this
+19:10 is going to be dictionary
+19:13 and then we are going to have zip over
+19:16 here
+19:17 instead of passing key and value here
+19:19 we're going to just reverse it so it's
+19:20 going to be a value over here
+19:22 and key over here okay so this is done
+19:25 so similar to encryption decryption
+19:27 perform the same way so i'll just copy
+19:29 this here
+19:30 and paste it over here so instead of
+19:33 encrypt message we'll give you a dec
+19:35 decrypt message so same thing over here
+19:39 decrypt message and it's going to be
+19:41 same way here
+19:42 instead of message.lower what's going to
+19:44 happen is we'll have to pass this value
+19:47 so let me quickly run this and show you
+19:49 what it would look like
+19:52 so let's say something like we are
+19:54 passing our card details okay
+19:56 so usually card details it would be like
+19:59 you know nine letters or so
+20:00 so we'll be like one two three and then
+20:03 we have space four five six
+20:05 and then some number and then we'll also
+20:08 usually pass our name and all right so
+20:09 it's going to be like
+20:10 let it be like edureka okay so
+20:14 answer cvv cbv is usually three digits
+20:16 right so it's three eight seven
+20:18 so now this number is very crucial
+20:21 as well as the first name as well as the
+20:22 cbv because anyone can hack it and try
+20:24 to misuse their account
+20:26 so now let's see how our encryption and
+20:28 decryption work at the same time
+20:30 so as you can see here when i try to
+20:31 encrypt it so it's in a form of you know
+20:34 some numbers which we cannot even
+20:35 comprehend to
+20:37 know to get an output off so this is how
+20:39 this thing works
+20:40 and but finally when i try to decrypt it
+20:42 off when a person has a right key he can
+20:44 get the same and correct information so
+20:46 you can check here so it's one two three
+20:48 four three four five five
+20:51 six seven eight eight and so on and so
+20:52 forth in order to make this
+20:54 caesar cipher or encryption algorithm
+20:56 more powerful
+20:57 what i would do is i would give one more
+21:00 encryption key or encryption
+21:01 algorithm just making it more secure now
+21:04 what we'll do is we'll try to create a
+21:06 server
+21:07 okay so now what we're gonna do is i'll
+21:09 create three parties here one would be
+21:10 the authentic sender and receiver
+21:13 and third party would be an intruder
+21:14 who's trying to spy on these people's
+21:16 network
+21:16 okay so let's see how we can implement
+21:18 that so first off let me
+21:19 create our sender here for in order to
+21:22 send this over the server we'll have to
+21:24 import socket okay
+21:25 so import socket okay
+21:28 and then we have something like we need
+21:31 to get the message right so we'll give
+21:32 you a message
+21:33 msg or let's give the full form me
+21:36 ss age and we have to ask the end user
+21:40 to give the input so input
+21:42 please enter your
+21:45 message okay so now once this is done
+21:48 we want this thing this message to be
+21:50 passed through a server right
+21:52 so we'll have to create an instance of a
+21:55 socket so
+21:56 s is equal to socket dot socket
+21:59 and then within this we have some
+22:01 variables like socket
+22:03 dot af underscore in it
+22:06 and then we also have socket dot
+22:10 socket stream so it's going to be soc
+22:13 stream
+22:13 perfect fine so now we have to bind it
+22:16 so
+22:17 you'll take the instance of this so it's
+22:19 going to be s dot bind
+22:21 within this we're going to pass a tuple
+22:24 so this will have
+22:25 socket dot get host name
+22:28 okay and then we have to provide a port
+22:31 number so it's gonna be
+22:32 three any number it's up to you
+22:35 okay so this is done so we'll have
+22:39 another method over here
+22:40 called as listen and we'll give instance
+22:42 over here as five
+22:43 now we'll have a while loop while true
+22:46 so this is the infinite while loop
+22:48 so we have something called as s dot
+22:50 accept right so
+22:51 this would return us two things address
+22:53 of our port and as well as the
+22:55 object that we need to send right so
+22:57 it's gonna be like
+22:58 s dot accept okay
+23:01 and now this would return us two things
+23:04 that's nothing but
+23:06 an object using which we can send a
+23:07 message and the address
+23:11 fine this is perfectly done and now what
+23:14 we're going to do is
+23:15 we have to send a message isn't it so in
+23:18 order to send a message we'll have
+23:19 something like clt dot send
+23:23 okay and here is gonna be our message so
+23:25 message this should remain the same so
+23:27 will not change but before this what
+23:30 we'll do is we'll try to encrypt our
+23:31 message
+23:32 okay so in order to encrypt our message
+23:34 as i mentioned we have
+23:36 to define our key here so key is going
+23:38 to be
+23:46 and then we are going to have numbers
+23:50 space with exclamatory mark so in order
+23:53 to make it more complicated we can also
+23:54 add
+23:55 some special characters like hash
+23:57 whatever it is it's totally up to you
+23:59 and now we also have to have a value
+24:01 right so this would be like
+24:03 val and this would be just the reverse
+24:06 of our key
+24:06 so key we'll use slicing operation here
+24:11 and this should be done now in order to
+24:12 encrypt our message all we need to do is
+24:15 we need to just exchange these values
+24:16 right so we'll have message
+24:19 okay and so for this i'm going to just
+24:21 use this dot join
+24:23 and then we'll use list comprehension so
+24:26 this is going to be like dictionary name
+24:28 right so what's our dictionary name
+24:30 so we obviously have to give a
+24:31 dictionary name so let's give the
+24:33 dictionary name as encrypter
+24:36 so encrypt over here would be equal to
+24:38 the dictionary right so dictionary and
+24:40 we're supposed to have a zip
+24:42 this zip will have arguments like key
+24:44 which would be the keys
+24:45 and values over here perfect and now
+24:49 we have to pass an encrypter here
+24:52 and we need to pass the key values which
+24:54 should nothing be letters or we can give
+24:56 it as words
+24:58 so how do i get this words as i
+24:59 mentioned it's from for loop for
+25:02 words in message so this is the message
+25:05 right so this is the input message
+25:08 okay dot lower perfect
+25:12 so this is done so now what we're going
+25:14 to do is we'll save this
+25:16 before we run what we'll do is we'll
+25:18 create our receiver
+25:20 and also an hacker so the code for the
+25:22 receiver and a hacker would almost be
+25:24 same
+25:24 just few differences so let me quickly
+25:27 go back to my
+25:28 page
+25:35 okay we need something for the receiver
+25:37 end right so we'll have
+25:39 import socket something similar to what
+25:41 we did before
+25:43 and then we have something like
+25:50 okay give the encryption key
+25:53 okay so we'll try to perform two layers
+25:56 of
+25:57 security here what we'll do is if the
+25:59 person gives the correct encryption key
+26:01 size
+26:01 only then he will be prompted for next
+26:03 step to give the encryption key right
+26:05 so we'll have two layers of security so
+26:07 first off we'll have
+26:09 encryption key right enc or we can give
+26:12 it as decryption right
+26:13 dc key okay so
+26:16 first layer what we're going to do is if
+26:19 decryption key
+26:21 dot length or it's going to be here
+26:26 if it is equal to number of alphabets
+26:28 okay that's going to be 26
+26:30 right so we have 26 alphabets
+26:33 so apart from 26 we also have numbers
+26:35 right so we have
+26:37 how many numbers did we have let me
+26:38 quickly show you that
+26:42 so here we have 26 alphabets then we
+26:45 have numbers that is 10 that is
+26:47 from one to zero and then we have three
+26:49 special characters with a space so it's
+26:51 going to be 26
+26:53 plus 10 that is going to be 36 37 38 39
+26:56 and 40.
+26:57 so it's going to be 40 right so
+27:00 so this is going to be 40 i hope you
+27:02 understand why we got 40 right
+27:04 so if the length is same only then you
+27:06 go on okay so
+27:07 now we i need a decryption key
+27:10 fine okay so now if the length is same
+27:12 that says receive a message okay so it's
+27:14 going to be
+27:15 like socket we need to create an object
+27:17 of a socket so before that we need to
+27:19 import it
+27:19 so yeah we have imported our socket over
+27:21 here so let's create an instance of a
+27:23 socket
+27:23 s is equal to socket dot socket
+27:29 and then we'll pass some arguments so
+27:30 it's going to be socket
+27:32 dot af then we have socket dot socket
+27:37 stream
+27:42 okay and similar to earlier we have
+27:45 connect
+27:45 method here as well as dot connect
+27:48 wherein you're gonna pass the tuple
+27:50 so it's gonna be socket dot get host
+27:53 name
+27:55 and mind it we're gonna fill this port
+27:56 number later the port number should be
+27:58 same as what we had before okay
+28:00 so we'll just give a random something
+28:02 like this here as of now and we'll
+28:04 change it later
+28:05 so whatever message you have received
+28:07 it's going to be like message
+28:09 whatever message you receive is s dot
+28:12 receive
+28:13 and then we are going to pass number of
+28:15 bytes so you can just give any random
+28:17 value so
+28:18 i'll give you here as 1000 it's totally
+28:20 up to you
+28:22 and then as the message is decrypted you
+28:24 have to obviously decode our message
+28:25 right so it's going to be message
+28:30 this will be message dot decode
+28:35 and obviously it's going to be utf-8
+28:39 okay so now we have the message let's
+28:41 try to put our decryption algorithm here
+28:43 so which is pretty simple
+28:44 it's something similar to what we did we
+28:46 need the value right so val
+28:49 is gonna be key we need all the values
+28:52 of our decryption key
+28:53 minus one okay so it's gonna be
+28:56 decryption here
+28:57 dec underscore key so now we have the
+29:00 dictionary right so now we have to
+29:02 convert our message back to whatever it
+29:04 was so we'll we'll just give it as
+29:06 message
+29:07 or before that we have to create our
+29:08 dictionary right so we'll give it as
+29:11 d c r i p t e r so d crypto is nothing
+29:15 but
+29:15 dictionary which is nothing but
+29:18 obviously the values will be here first
+29:20 because we are receiving the values
+29:22 and then the keys so it's going to be
+29:24 decrypt key
+29:26 fine i hope you all understand till here
+29:28 and now finally what we are going to do
+29:30 is
+29:31 convert our message back to what it was
+29:33 so message
+29:35 then then i have join then we are going
+29:38 to
+29:38 just use list comprehension so whatever
+29:41 is the name of our
+29:43 dictionary here decrypter
+29:46 and then we obviously have to pass
+29:48 letters or words
+29:50 and the way we get these words from for
+29:51 loop for words
+29:54 in whatever the message we have received
+29:57 right so it's going to be here
+30:00 hope you understand this and now once we
+30:02 have our decrypted message
+30:04 what we'll do is we'll just print our
+30:06 message
+30:08 fine and now before that
+30:14 so if this fellow doesn't give the
+30:15 correct key input
+30:17 so we'll just say here else
+30:20 print you're not authorized for this
+30:23 information
+30:30 so now we have our algorithm ready here
+30:33 before that let's quickly fix this
+30:35 so let me go back to our server one
+30:39 okay so here as you can see we have two
+30:42 changes we have to copy this part
+30:44 and we obviously have to encrypt our
+30:46 message before sending okay so
+30:48 before this we have to encrypt this into
+30:50 form of bytes
+30:51 which will be encrypted in the form of
+30:53 bytes right and then we have to message
+30:55 which
+30:56 algorithm i'm using here so it's going
+30:58 to be ut
+31:00 f hyphen 8 perfect so
+31:03 let me quickly jump here okay and let me
+31:06 pass this value here as well
+31:09 because this host name should be same
+31:11 right okay
+31:13 so let me now quickly run this and show
+31:15 you how it would look like
+31:16 but before that let's copy our
+31:18 encryption key
+31:22 okay and then another small change i
+31:24 would do is just give some space you
+31:26 know
+31:27 fine so now let me run this and show you
+31:29 first let me run our server one
+31:32 okay yeah so
+31:34 [Music]
+31:35 here let's give something like hi i am
+31:39 sending you my
+31:42 id number
+31:45 and we'll give some random number let it
+31:47 be like 67
+31:48 69 21 and something like that okay and
+31:53 just give some characters as well
+31:56 okay so let's hit enter so now it is
+31:58 expecting that you know we
+32:00 run our client code so let me quickly
+32:02 fetch that one now
+32:06 and yeah here we have our client and
+32:09 we'll
+32:09 enter our presentation mode here
+32:14 okay and let me run our client right so
+32:17 here i'll click for run and then we'll
+32:18 have client over here
+32:21 this is asking me to give an encryption
+32:22 key first let's do one thing let's give
+32:25 some random encryption key
+32:26 so let's give something like this some
+32:28 random number that i'm
+32:29 generating over here and let's have some
+32:31 special characters
+32:33 so here it says you're not authorized
+32:35 for that information so let's now run
+32:37 this again and give the correct
+32:38 encryption key right
+32:40 so let's run this here and as i've
+32:43 copied this earlier
+32:44 so let me just give this bar and we
+32:47 should get our message
+32:48 hi i'm sending you my id and this is so
+32:50 and so forth is my id
+32:52 okay so now what we'll do is we'll
+32:53 create our hacker over here
+32:55 so everything remains the same all the
+32:57 mechanism that we have used for our
+32:58 client receiver
+32:59 everything remains the same only part we
+33:01 won't be having is this option for
+33:03 encryption key
+33:04 it would just be like receiving a
+33:06 message right because hacker will have
+33:07 access to this port number
+33:10 so let me now quickly move to page empty
+33:12 sheet
+33:13 and let me copy all of this and now i'm
+33:16 gonna go here i'm gonna go for hacker
+33:18 here
+33:19 and let me enter our presentation mode
+33:23 okay
+33:24 so let me paste our code over here fine
+33:27 and let me quickly erase couple of
+33:29 things
+33:32 fine and then none of these would exist
+33:35 right so we won't have any of this but
+33:38 the message exists because we are
+33:39 receiving the message
+33:41 and even the if statement won't be there
+33:44 fine
+33:44 so let me kind of remove this as well
+33:48 okay let's fix our indentation issue
+33:51 over here
+33:55 fine this is perfect so now let's run
+33:57 our code
+33:58 like if you're wondering why we don't
+34:00 asking the input key and all c
+34:02 only if a person is authorized to a
+34:03 system he'll be having all the features
+34:05 of a security system
+34:06 but if i'm a third party or a hacker i
+34:08 would have bypassed all of those
+34:09 security systems right
+34:10 so only thing that is standing in my way
+34:12 is this port number which is easily
+34:13 accessible
+34:14 most of the time it is accessible most
+34:16 of the time when you use this public
+34:18 wi-fi right
+34:19 so let's now see how this guy would
+34:21 receive a code
+34:22 okay so let's run our code here
+34:25 and let's go for our hacker okay
+34:28 so let me rerun this let's see where we
+34:30 are going wrong
+34:36 okay let's see if our encrypted message
+34:38 is working fine over here
+34:40 so let me just print my encrypted
+34:42 message
+34:44 fine and let me rerun our server
+34:49 okay so i'll have something like hello
+34:53 my bank details are
+34:58 let me give something that resembles a
+35:00 bank account number
+35:03 okay and let's see if this works
+35:07 okay okay the issue that we are having
+35:11 over here is because we are supposed to
+35:13 encrypt our message before this while
+35:15 true right okay so let me quickly get
+35:17 that fixed so
+35:18 all we're supposed to do is just have
+35:20 this over here
+35:21 cut this part and paste it over here
+35:25 fine i hope this looks fine so let me
+35:27 fix this indentation part
+35:32 okay so let me rerun our server again
+35:36 so let me give some basic simple words
+35:38 here hi
+35:40 i am your friend
+35:43 okay so let's see yeah so you can see
+35:46 here it's working now right
+35:47 so let me quickly rerun this and put
+35:49 some value that would resemble real life
+35:51 scenario
+35:52 so let's have something like i am
+35:54 sending
+35:56 you my account details
+35:59 okay fine so now this looks cool
+36:04 so now what we'll do is we'll try to run
+36:07 our code here again once again
+36:08 so we have run server
+36:12 let's see if our message is getting
+36:14 encrypted so
+36:16 my account details
+36:20 some random number that i'm giving here
+36:23 fine
+36:24 okay so it's getting encrypted okay so
+36:26 now let's run this once on
+36:28 our application that is once on our
+36:31 receiver and other ones on our the
+36:32 hacker okay right
+36:34 so okay so we have our client here
+36:38 so let's see what happens
+36:43 client one and we'll run our client one
+36:46 so it's asking me to give an encryption
+36:48 key
+36:49 let's copy our encryption key here
+36:53 close this and rerun our client fine
+36:56 it's asking me to give an encryption key
+36:59 should be something like this and i
+37:00 would hit enter
+37:01 so i'm getting a correct value so let me
+37:03 rerun this once again giving a wrong
+37:05 encryption key
+37:10 okay so let me re-run this here and let
+37:12 me give
+37:13 hello i need info
+37:16 so it would say you're not authorized
+37:18 for this pretty much simple right
+37:19 so now we'll do the same for how our
+37:21 hacker would have our message right
+37:23 so let's see how this would look like
+37:28 okay so i would run this now i would run
+37:30 our hacker
+37:31 so hacker is over here so hacker would
+37:35 get an encrypted message
+37:36 i hope you got a brief idea about how to
+37:38 design a cyber security system right
+37:40 specifically cryptography alright guys
+37:43 with this we have come to the end of our
+37:44 session i hope you enjoyed and learned
+37:46 something new
+37:47 if you have any further queries please
+37:48 do mention them in the comment box below
+37:50 until next time good bye and take care i
+37:53 hope you have enjoyed listening to this
+37:55 video
+37:56 please be kind enough to like it and you
+37:58 can comment
+37:59 any of your doubts and queries and we
+38:01 will reply them at the earliest
+38:04 do look out for more videos in our
+38:05 playlist and subscribe to edureka
+38:08 channel to learn more
+38:10 happy learning
+38:22 you

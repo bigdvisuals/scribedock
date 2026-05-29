@@ -1,0 +1,2067 @@
+Title: Learn Ethical Hacking With Kali Linux | Ethical Hacking Tutorial | Kali Linux Tutorial | Edureka
+URL: https://www.youtube.com/watch?v=0uvWRwLs5Zo&list=PL9ooVrP1hQOGPQVeapGsJCktzIO4DtI4_&index=37&pp=iAQB
+Channel: YouTube playlist
+Video ID: 0uvWRwLs5Zo
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:24:55.858Z
+
+0:00 [Music]
+0:10 hi folks my name is Aria and today we
+0:13 are gonna discuss about ethical hacking
+0:15 using this operating system that has
+0:17 been well known amongst ethical hackers
+0:19 and I think you've guessed it it's
+0:21 called Kali Linux ok now before we dive
+0:23 right into Kali Linux let me give you a
+0:25 brief introduction to ethical hacking
+0:27 for those of you who are here on this
+0:30 channel for the first time following the
+0:32 ethical hacking series so the term
+0:34 hacking has been around for a long time
+0:36 now
+0:36 the first recorded instance of hacking
+0:38 dates back to the early 1960s in
+0:41 Massachusetts Institute of Technology to
+0:44 the Model Railroad Club where both the
+0:46 terms hacking in hacker Waquoit since
+0:48 then
+0:49 hacking has evolved into a broadly
+0:50 followed discipline for the computing
+0:52 community now hacking is the process of
+0:54 finding vulnerabilities in the system
+0:56 and using these found vulnerabilities to
+0:58 gain unauthorized access into the system
+1:01 to perform malicious activities ranging
+1:03 from deleting files to stealing
+1:05 sensitive information
+1:06 now hacking is illegal and can lead to
+1:09 extreme consequences if you are caught
+1:11 in the act
+1:11 people have been sentenced to years of
+1:13 imprisonment because of hacking
+1:15 nonetheless
+1:16 hacking can be legal if done with
+1:18 permission now computer experts are
+1:20 often hired by companies to hack into
+1:22 their systems to find vulnerabilities
+1:24 and weak endpoints so that they can be
+1:26 fixed in the end now this is done as a
+1:29 precautionary measure against legitimate
+1:31 hackers who have malicious intent such
+1:34 people who hack into a system with
+1:36 permission without malicious intent are
+1:38 known as ethical hackers and the process
+1:40 is known as ethical hacking so now that
+1:42 we know what exactly ethical hacking is
+1:44 and who ethical hackers are let's move
+1:46 over to the hero of our video today and
+1:49 that is Kali Linux now Kali Linux is a
+1:52 debian-based Linux distribution aimed at
+1:55 advanced penetration testing and
+1:56 security auditing Kali contains several
+1:59 hundred tools which are geared towards
+2:00 various information security tasks such
+2:03 as penetration testing security research
+2:05 computer forensics and reverse
+2:07 engineering Kali Linux is developed
+2:10 funded and maintained by offensive
+2:12 security early
+2:13 getting information security training
+2:14 company the Kali Linux was released on
+2:17 the 13th of March 2013 has a complete
+2:20 top-to-bottom rebuild of backtrack Linux
+2:22 adhering completely to DPN development
+2:25 standards Kali Linux is specifically
+2:27 tailored to the needs of penetration
+2:28 testing professionals and therefore all
+2:30 documentation are actually addressed to
+2:33 them in knowledge of and familiarity
+2:35 with the Linux operating systems in
+2:36 general now as you guys might also know
+2:39 that Kali Linux is basically any Linux
+2:41 distribution that comes preloaded with a
+2:44 bunch of penetration testing software
+2:45 now some might argue that Kali Linux is
+2:49 not really necessary but well it does
+2:52 save you a lot of time if you are a
+2:54 penetration tester aside from saving a
+2:56 lot of time there are a number of
+2:57 reasons that you should be using Kali
+2:59 Linux for now let's go over the reasons
+3:01 one by one first of all Kali Linux has
+3:03 more than 600 penetration testing tools
+3:05 included now every tool that was
+3:08 included in backtrack did not actually
+3:09 make it to Kali Linux a great number of
+3:12 tools are simply not added because they
+3:13 do not work or because they duplicated
+3:16 what other tools did so now you have a
+3:18 bunch of tools that serve a specific
+3:20 purpose and they are basically not
+3:23 cluttering up your computer with
+3:25 duplicates and useless tools the second
+3:29 reason that you should be using Kali
+3:30 Linux is because it's free and it always
+3:33 will be
+3:34 now Kali Linux like backtrack is
+3:36 completely free of charge and always
+3:38 will be and you will never have to pay
+3:40 for using Kali Linux the third reason is
+3:43 an open source kit tree now Kali Linux
+3:46 is committed to the open source
+3:47 development model and the development
+3:49 tree is available for all to see all the
+3:52 source code which goes into Kali Linux
+3:54 is available for anyone who wants to
+3:56 tweak or rebuild packages to suit their
+3:58 specific needs then another reason for
+4:01 using Kali Linux is a wide-ranging
+4:03 wireless device support a regular
+4:05 sticking point that Linux distributions
+4:07 has been supported for wireless
+4:08 interfaces Kali Linux has been built to
+4:11 support as many wireless devices as you
+4:14 can possibly think of allowing it to run
+4:16 properly on a wide variety of hardware
+4:18 and making it compatible with numerous
+4:20 USB and other wireless devices more
+4:23 adventurous users to customize Kali
+4:25 Linux to their
+4:26 taking all the way down to the corner
+4:27 which brings us to the kernel now and
+4:30 the last reason according to me that you
+4:33 should be using Kali Linux is because
+4:35 custom kernels and past four injections
+4:37 so as penetration testers the
+4:39 development team often needs to do
+4:41 wireless assessment so our kernel has
+4:43 the latest injection package that allows
+4:45 you to do so with much ease so this was
+4:48 six reasons as to why you should use
+4:50 Kali Linux and you can find a lot more
+4:52 reasons on the Kali documentation so you
+4:55 can go to them if you want now this
+4:57 brings us to the main agenda of our
+4:59 video today so with that out of the way
+5:02 now that we know what kali linux is and
+5:04 how it works and why you should be using
+5:07 kali linux let's go over the topics that
+5:09 we are actually going to go through the
+5:11 course of this video today so through
+5:13 the course of this video you could
+5:14 expect to learn a bunch of stuff so
+5:17 firstly we will go through some command
+5:19 line essentials because kali linux tools
+5:21 are mostly in CLI format so we have to
+5:25 be well-versed with the command line
+5:27 essentials so that's the first thing
+5:29 that we are going to tackle then we are
+5:30 also going to tackle how we can stay
+5:32 anonymous using proxy chains in Kali
+5:34 Linux we'll be talking about match
+5:36 changers and we'll be also going into
+5:39 the whole realm of wireless penetration
+5:41 testing will be checking our tools like
+5:43 aircrack-ng and we'll be also testing on
+5:45 how we can brute force some WPS pins
+5:48 will be going to router vulnerabilities
+5:50 and some other miscellaneous topics that
+5:52 I couldn't really group into one so
+5:54 without wasting much time let's dive
+5:56 into the first topic for today and that
+5:58 is command line essentials now the way
+6:01 that this video is going to follow is
+6:03 that most of the times we are going to
+6:05 take a hands-on approach to learning how
+6:07 to use things in Kali Linux because I'm
+6:09 a firm believer of actually practical
+6:12 work therefore learning any sort of
+6:14 thing so we will be using a lot of
+6:16 practical work and I completely
+6:18 encourage you that you go ahead and
+6:21 download and install Kali Linux you can
+6:23 do it on a virtual machine or you could
+6:26 try and do boot that thing I'm not meant
+6:28 to teach you how to do that in that
+6:29 video because there are tons of videos
+6:31 out there that teach you how to install
+6:32 Kali Linux
+6:33 what we are going to do first in this
+6:35 video is that we are going to take a
+6:38 hands-on approach to first
+6:39 learn what the command line essentials
+6:41 are now as you might have already
+6:43 realized there are some theoretical
+6:44 aspects that we might need to tackle
+6:46 from time to time for example what is
+6:48 the MAC address what our proxy chains
+6:50 will mean to learning some theory so for
+6:52 the theory
+6:53 we'll have to go to the obvious evil and
+6:55 that is PowerPoint presentation slides
+6:57 so apologize with that from before but I
+7:00 assure you that most of the time we are
+7:01 going to be looking at a computer screen
+7:02 and I assure you that you will have tons
+7:05 of fun if you just follow along with me
+7:07 okay another disclaimer that I would
+7:09 like to add before we actually continue
+7:11 with our Kali Linux course and that is
+7:14 this is not the entirety of Kali Linux
+7:16 Kali Linux is a huge thing and this is
+7:19 just not it so these are basically what
+7:22 I find interesting and what you may also
+7:25 find interesting and these can cause a
+7:27 bunch of damage if you're doing it
+7:29 without permission and damage comes with
+7:31 rubber cushions which could include you
+7:34 being arrested and that is not my fault
+7:37 again I'm saying disclaimer if you do
+7:41 this without permission you will get
+7:42 arrested and that is no way my
+7:44 responsibility because this video is
+7:46 just for educational purposes okay now
+7:48 with all that aside let's move ahead and
+7:51 learn about command-line essentials ok
+7:54 so now it's time that we go through the
+7:56 command-line basics of any Linux
+7:58 terminal now the Linux terminal is a
+8:00 very powerful tool it allows you to move
+8:03 around the whole operating system
+8:04 through the files and folders it allows
+8:07 you to create files she's the
+8:08 permissions change how they behave and a
+8:11 bunch of other things you can do
+8:13 filtering you can grab stuff the
+8:16 specific stuff from a specific file and
+8:18 there's a bunch of interesting things
+8:19 that you can do and as an ethical hacker
+8:21 you will be working with a Linux
+8:24 distribution most of the time whether it
+8:26 may be Kali Linux or some other thing
+8:28 like parrot OS but you will be working
+8:30 on the not most of the time because it's
+8:32 a powerful tool for networking analysis
+8:34 and scanning and all sorts of stuff that
+8:36 you want to do as an ethical hacker so
+8:38 the first essential step is to actually
+8:41 know how to use the tool that is
+8:43 available to you and that is out here
+8:45 which is the terminal now as I'm running
+8:47 this on a virtual machine you might find
+8:49 that my execution times are much lower
+8:52 and that
+8:53 because I have a very very slow laptop
+8:55 because my virtual machine is actually
+8:57 eating up a lot of my RAM and I have a
+8:59 bunch of other processes that are also
+9:01 rendering I do this on my free time so
+9:04 let's go ahead and go through the
+9:06 commands that we are going to actually
+9:08 go through now let me actually make a
+9:12 list of commands that I want to teach
+9:14 you guys so let me see if leafpad is
+9:17 available firstly leafpad is basically a
+9:19 text editor
+9:20 so the first Caban that we are going to
+9:22 start off with is CD now CD stands for
+9:25 change directory now at this moment we
+9:27 are in the root directory as you guys
+9:29 can see we can print the current working
+9:31 directory with a single PWD and that is
+9:34 a current working directory as you see
+9:36 it's called route and suppose we want to
+9:38 change our directory to the home
+9:40 directory so all you have to do is CD
+9:42 which stands for change directory as I
+9:44 just said and specify the path now CD
+9:47 slash home okay so once we're in home I
+9:49 want to make a list of commands that are
+9:52 used on the CLI that I want to teach to
+9:53 you guys
+9:54 so what would I do I would firstly see
+9:57 if any files are available that I can
+9:59 edit ok so these files are available but
+10:01 let's create a new file for ourselves so
+10:04 firstly let's do nano list dot txt now
+10:08 what Nano does is Nano will open up a
+10:12 small command line text editor now come
+10:14 online text editors are very much used
+10:16 by ethical hackers because they save a
+10:17 bunch of time if you're always switching
+10:20 between GUI and command-line because
+10:21 you'll be doing a bunch of stuff on the
+10:22 command line and suppose you want to
+10:24 write something you're always switching
+10:26 to GUI it's a wastage of time and you
+10:29 want to save time as an ethical hacker
+10:30 so you can use this thing called a
+10:32 command line editor and it's it can
+10:34 basically do most of the stuff of GUI
+10:35 editor with you now you say Nano and the
+10:38 name of this file so Nano basically has
+10:40 created this file now and it has opened
+10:43 up this new fresh window which overrides
+10:45 the command line that we were in the
+10:47 bash and this is a place where you can
+10:50 actually edit what goes into the file
+10:52 now let's see the list of commands that
+10:55 I'm going to teach you I'm going to
+10:56 teach other LS LS will be the list of
+10:58 files we did CD we saw a PWD so that was
+11:03 the print working directory we'll be
+11:04 looking at how you can copy stuff
+11:06 at the CP come on then we'll be looking
+11:09 at MV which is basically move then we'll
+11:12 be looking at gap and that's an
+11:14 interesting one and also less which is
+11:16 another interesting thing and we'll be
+11:18 looking at grep which is actually used
+11:20 for crapping or grabbing things from
+11:23 files that you might want to see you'll
+11:25 see what I mean in a short file we will
+11:27 see echo which probably does what you
+11:30 think if you have any experience with
+11:32 Linux then we'll be doing touch and
+11:34 we'll be doing make there which is make
+11:37 directory and then we do in CH own chmod
+11:41 then all the most dangerous commands
+11:44 have RM and then you can do man plus
+11:48 help okay
+11:49 so these are the list of commands that
+11:51 we are gonna go through in this part of
+11:54 the video so suppose I was making this
+11:56 video and I wanted to save this
+11:58 somewhere so if you see down here there
+12:00 are a bunch of options that I showed to
+12:02 you now this caret sign might be not
+12:05 really thinking that the shift six one
+12:07 it's not shift six it's actually a
+12:10 control so caret is control and then G
+12:12 of course means G so if you go control G
+12:15 it will actually get help now what we
+12:17 want to do is save the file and that is
+12:20 control o and that is right out so what
+12:23 we want to do is say control oh and now
+12:27 I'm just going to say if we want to name
+12:29 the file list at the X T and we want to
+12:31 name the file and it says that we have
+12:33 written down 15 lines so that's how you
+12:36 save a file now all we want to do is
+12:38 exit out of you
+12:39 okay so first let's go LS and let's go
+12:43 through whatever there is so LS shows us
+12:46 the list of files that are there in that
+12:48 directory now Alice can also show you
+12:51 the list of files in a directory with
+12:54 the paths that you specify like I say LS
+12:56 bar it will show me everything that is
+12:59 in VAR
+13:00 ok there are a lot of interesting things
+13:01 in bar so let's head over to our CD
+13:04 slash bar and you hit enter and now we
+13:07 are in the folder bar so now to actually
+13:10 demonstrate how powerful lettuce is we
+13:13 have a few flags now to see the flags if
+13:15 any come on you can just do - - help
+13:17 universally throughout the UNIX one
+13:20 so out here you see some information
+13:23 that is kind of tough to read but if you
+13:25 go on top and scroll out here you'll see
+13:27 all the flags that you can use with the
+13:30 command that is LS and how you can use
+13:33 them so you can see what you use and you
+13:35 can read a little bit about it
+13:36 so if we use all it ignores entries
+13:40 starting with dot
+13:41 so suppose we will do LS in bar let's
+13:45 see so it shows us like this now if we
+13:48 do LS L it'll show a long list with more
+13:52 information so these are the permissions
+13:54 that you see out here we will be seeing
+13:56 how we can choose permissions of files
+13:58 soon enough and this is who owns the
+14:01 file the user and the user group this is
+14:03 the file number I guess I'm not sure
+14:05 this is when they were created this name
+14:08 of the file this is the time when the
+14:09 file was created I guess ok so that's
+14:12 how you get very detailed information
+14:14 about all the files now that's another
+14:17 thing you might want to use with LS and
+14:18 that is the a tag so you can go LS a and
+14:21 it will show you all the hidden files
+14:24 also so now you see some two files that
+14:27 were not shown out here our file this
+14:29 begins from backup but when we do LS / I
+14:33 mean - L a we see two more files at this
+14:35 dot and r dot so let's see if we can
+14:38 move into that CDE chart so we can't
+14:41 even move into that so that's
+14:43 interesting so these are hidden files so
+14:46 these are not seen to random users and
+14:49 we can actually do stuff with them we
+14:52 will see how we can use hidden files
+14:53 later on so if you want show hidden
+14:55 files to LSU all you have to do is LS
+14:58 and - L a so that was all about LS so
+15:01 let's move back to slash home where our
+15:03 list of commands that I want to show you
+15:05 always so see any home let's LS and see
+15:08 what was it called its call list and
+15:10 suppose I want to see the contents of
+15:13 list dot exe all I have to do is say
+15:16 lists dot txt now it shows us whatever
+15:20 this file is containing it will read it
+15:22 out for you so we've done CD we've done
+15:25 LS and its various forms we've done PWD
+15:28 now it's time to do CP so CP is
+15:30 basically used for copying files from
+15:32 one place to another so suppose
+15:34 I want to copy this address file that is
+15:36 there into some other directory let's
+15:38 say bar so all I would have to do is CP
+15:41 name dot txt and then you specify which
+15:44 location you want to actually copy it to
+15:46 so CD / bar so this is where I want to
+15:50 copy my file to and you hit enter and
+15:53 it's copied but that was a very small
+15:56 file now we can actually check if it was
+15:58 copied before I blew on and pour some
+16:00 more knowledge into you so let's go into
+16:03 var so CD / VAR hit enter and your invar
+16:07 again and you see LS and now you see a
+16:10 name dot exe so let's remove name dot
+16:13 exe from here because I want to copy it
+16:15 again and show you all a difference
+16:17 between a flag that I'm gonna use right
+16:20 now so the - and letters that you use
+16:22 are called Flags technically in the
+16:25 Linux terminology so let's go back to
+16:27 home now instead of the name of the file
+16:29 and moving back at home just like I did
+16:31 you can type out the complete name of
+16:34 the file out here so you could have gone
+16:35 CD slash home slash name dot txt and
+16:38 copy to slash bar but this time what
+16:40 we're gonna do is we're gonna use a
+16:42 hyphen fee which is basically used for a
+16:45 verbose output of whatever you are doing
+16:47 so most of the commands that we are
+16:50 going to using will have a hyphen V with
+16:53 them so let's see how this actually
+16:56 affects the output so what we gonna do
+16:57 is we want to copy so sleepy and verbose
+17:01 and we want to copy the file name dot
+17:04 txt and we want to copy it to the folder
+17:07 called var right so now you'll see that
+17:10 it will give us what is being moved
+17:13 rather that is name dot txt and where
+17:15 it's being moved to so this is a very
+17:18 good way of knowing what is actually
+17:20 happening because if you do it without
+17:22 the verbose part and suppose name dot
+17:25 txt was just one egv file and you just
+17:27 don't know if it has finished or not so
+17:29 if it's a 20 GB file it can't you just
+17:31 you update you on where what is being
+17:33 copied so basically all you have to do
+17:35 is type - B if you want to know where
+17:39 your files being copied in the exact
+17:41 path okay so that was about how you can
+17:43 copy files from here and there now what
+17:46 was the next command that we want to see
+17:47 so cat
+17:48 so let me just go and see the next
+17:50 command that is there so list.txt so
+17:53 after God I want to show less okay so
+17:56 we've done CP we also have to do MV now
+17:59 as you guys can see that CP is basically
+18:00 a copy copy is as you would expect it
+18:03 leaves a copy of the file that in the
+18:05 original directory while also
+18:07 maintaining a copy in the directory that
+18:09 you specified but if you want to move
+18:10 the file completely all you would have
+18:12 to do is use the command MV so MV is for
+18:15 moving the file now let's see what all
+18:17 goes with mV
+18:18 so you can type help and as I said you
+18:21 get the verbose option and you get
+18:24 suffixes you can force things to happen
+18:27 so suppose you don't have the permission
+18:29 do not prom before overwriting so it'll
+18:32 give you a prompt and you can completely
+18:34 overlook the prompt with the F thing let
+18:36 me just show you how that looks like
+18:38 we'll be doing a verbose and we will be
+18:40 coughing the address
+18:42 no txt file and okay so every time I've
+18:45 been actually typing so you can do
+18:47 address or txt by just pressing tab and
+18:50 autocomplete so address or txt to slash
+18:53 bar now it will show you that it is
+18:57 actually renamed address dot txt to VAR
+19:00 dressed or txt now if you go and do LS
+19:04 out here you will see that address dot
+19:06 txt is not actually here but if we were
+19:10 to move to bar so CD slash bar ok I've
+19:13 also been typing out commands that have
+19:15 been previously using and you can simply
+19:17 toggle through all the commands that
+19:18 you've used by the up and down keys so
+19:21 LS mV and maybe help catalyst I did CD
+19:25 home and have to go through all this
+19:27 just to prove a point
+19:28 so CD bar we want to change there now
+19:31 we're in a variable folder and we also
+19:33 want to see what we have out here so
+19:36 address should be out here and LS and as
+19:38 you guys can see addressed a txt is the
+19:40 first file that's passed them up and it
+19:42 is basically the same file and it can
+19:44 prove that to you by just catting the
+19:45 file and address txt and you see that is
+19:50 some random address for some random
+19:52 person ok now let's quickly clear out a
+19:55 file or window you can do that with the
+19:57 ctrl L or you can just type out clear
+20:00 now
+20:01 what we want to do is move back to home
+20:02 so yeah city home okay so now that we're
+20:06 back in home again let's cat out our
+20:08 next file so list dot txt and after move
+20:13 i've already go through caps now cat as
+20:15 you guys can see is printing out the
+20:17 contents of a file and there's also less
+20:19 which does something very similar to cat
+20:22 so let's see what it does so if you'd go
+20:24 less and do list dot txt you actually
+20:28 see the contents of the file in a
+20:31 completely new window which overlays on
+20:33 the previous window and this is a very
+20:36 neat way to actually see the contents of
+20:38 file which is true less if you want to
+20:40 keep your main command-line interface
+20:42 not so cluttered which cat clutters it
+20:45 completely so if you want to get out of
+20:48 this place this less place and all you
+20:51 have to do is press Q and Q gets you
+20:53 back and as you see nothing was printed
+20:55 out on our main interface so this is a
+20:57 very cool way to actually keep your
+20:59 command line interface neat and tidy
+21:01 when you're doing work okay so crap
+21:04 so grep is used for actually filtering
+21:07 out stuff from file so suppose we want
+21:10 to see whether a command has verbose
+21:13 option to it or not so now I know that
+21:16 MV has a purpose command but suppose I
+21:19 didn't know that
+21:19 so MV - - help then you use the pipe
+21:22 sign so what the pipe sign means is you
+21:25 have to take this come on the first
+21:27 command and then you pipeline it through
+21:28 the second command and you are see
+21:30 graphed - V if that exists okay so let's
+21:34 see crab for bows yep so a verbose
+21:38 exists and that is - B and that's - -
+21:40 verbose so explaining what is being done
+21:42 so what happened out here is basically
+21:45 we took this first term on and then we
+21:48 filter it and filtering is done through
+21:50 the piping so basically think about
+21:52 taking some information and pipelining
+21:54 it through something else which funnels
+21:56 it out of this command which is grip so
+21:59 you can use MV / help in conjunction
+22:02 with a bunch of other commands just on
+22:05 crap and I'll leave the creativity up to
+22:06 you so grep is basically used for
+22:08 getting what you want from a file and
+22:11 graft is used very very much throughout
+22:14 source of this video through this Kali
+22:16 Linux tutorial that you're gonna be
+22:17 watching so that is a very easy way to
+22:20 see if you have a particular option or
+22:22 let me do something else also
+22:24 so CD /var now we're in the bar folder
+22:27 and let's LS we actually have named a
+22:30 txt now let's also go into backup so CD
+22:33 b and tap and that brings us back up
+22:37 folder and we're now in the back of
+22:39 folder let's do an LS out here okay so
+22:41 we have a bunch of files okay we have
+22:43 some password dot back no see if you
+22:46 have cat and you go password got back
+22:50 you can see the entire thing now what if
+22:54 you didn't want this entirety of it or
+22:56 if you want something in particular you
+22:58 want to be very neat so you can do that
+23:01 same come on you can pipeline it and you
+23:03 can see grep and you want everything
+23:05 with no login so we can see there are a
+23:08 bunch of things that say no login and
+23:10 the only one those and these are all the
+23:12 things that say no login and it's a much
+23:16 lesser list and it gives us a very
+23:19 particular list that you are looking for
+23:21 so that is how you use grep
+23:22 so now let's head back to home ok type
+23:25 that wrong and again let's see what the
+23:29 next man is so now let's start the XD so
+23:32 we've done crap we now have to do echo
+23:35 echo and then touch ok let's go back Q
+23:38 we press Q and we get out of there so
+23:41 what did I have to teach again I'm sorry
+23:43 Tommy
+23:43 we have do echo okay so what does echo
+23:45 useful so suppose you will say echo and
+23:48 open code hello world it would basically
+23:50 do what man says and that is echo
+23:54 whatever you say now it'll say echo
+23:56 hello world and that will basically echo
+23:58 whatever you typed out in the cretaceous
+24:00 that is hello world spelled very wrong
+24:03 okay now suppose you want to actually
+24:05 put this into a file so you could do
+24:07 echo hello world let's spell it properly
+24:10 this time and you want to insert into
+24:12 file we had a phone number I guess for
+24:15 number dot txt yep and we can echo it it
+24:18 at that thing now that was done now
+24:20 let's see what is it phone number dot
+24:22 txt for number dot txt and it says hello
+24:26 world so
+24:27 you can basically input text into a
+24:30 certain file where the echo command and
+24:32 that's how you do it okay
+24:34 now let's also see how you can make
+24:36 directories and that is what the make
+24:38 directory come on
+24:40 so okay we also have to do touch before
+24:42 that I forgot
+24:43 now touch is you so quickly creating
+24:45 files so - you could say touch and then
+24:48 the file name so we can create a name
+24:51 file again name dot exe or that will
+24:54 create a name dot txt let me just show
+24:56 it to you and a cell and we have a name
+24:59 dot exe we can also create multiple
+25:01 files with touch and you could say file1
+25:04 file2 and file 3 so like this you can
+25:09 create multiple files and let me just LS
+25:11 that out and show it to you LS l and we
+25:14 have five on file 2 and file 3 now we
+25:17 can also create a directory so make dir
+25:20 and the name of the directory so suppose
+25:22 you wanted save all your movies in one
+25:24 directory
+25:25 it makes rectory movie and now you have
+25:28 a directory called movies and you can
+25:30 also move into movies so CD movie ok so
+25:33 that's how you create directories and
+25:35 you can move into them with the change
+25:37 directory folder now let's see what the
+25:39 next command was so CD and dot dot so if
+25:43 it's CD dot you can move back to the
+25:44 previous folder if I'm already not told
+25:46 you that and since we're in movies we
+25:48 can just go back to home with CD after
+25:50 now let's see what else is there so cat
+25:53 list dot txt and ok now CH o and chmod
+25:59 now CH own will be a little tough to
+26:01 show because we don't have any sort of
+26:04 other user out here the root user is the
+26:07 only user that we have on this
+26:09 VirtualBox and set up but if you want to
+26:12 change the ownership of a file let's say
+26:14 so you can see the ownership of a file
+26:16 through the LS l c'mon and you see that
+26:20 root Andrew so this is owner name and
+26:23 this is the owner true and they're
+26:25 mostly the same thing so our next come
+26:28 on that we are going to actually see is
+26:29 called CH own so let's see how CH own is
+26:32 actually used CH own is used for
+26:34 changing the ownership of a file so I
+26:36 actually don't remember how to use CH
+26:38 own so if you actually don't remember
+26:40 you're getting stuck somewhere I just
+26:42 use the help function so if I come on an
+26:44 argument symbolic so let me just go
+26:46 through this one so just I'll use it
+26:48 owner and then : group okay and then the
+26:51 file name so you go CH own and then you
+26:53 want to say the name of the owner and
+26:55 the group you want it to belong to that
+26:57 is rude and rude and then you specify
+27:00 the name of the files as suppose I won't
+27:01 change file one that already belongs to
+27:03 root and root so it doesn't really
+27:04 matter because I don't have any other
+27:06 user name to actually change the
+27:09 ownership too so this is how you would
+27:12 normally change ownership so let me just
+27:14 show you where you can see the ownership
+27:16 and that is LS - L and out here the root
+27:20 and root you see on file 1 is basically
+27:22 this is the owner and this is the owner
+27:24 crew they're normally the same thing and
+27:26 the same name but if you had some
+27:28 different owner like guest you could
+27:30 change it by actually using the CH own
+27:34 method oh come on methods are different
+27:37 things I always get confused because of
+27:38 the programming okay now the next come
+27:41 on that is left is called chmod to
+27:44 actually show you how chmod works let me
+27:46 show you an interesting file so suppose
+27:49 let me just do this once okay now echo
+27:52 what we want to echo is let's echo hello
+27:55 world and let's put that in quotation
+28:00 and we want to put this and test now
+28:02 once we've done that let's LS and we see
+28:05 that we have a test file out here and we
+28:07 want to move test to test out SH so test
+28:11 out SH is the executable file that is
+28:14 used in bash scripting so we move test
+28:17 test out a search the way you actually
+28:20 execute bash files on your command line
+28:22 is with dot and slash so you say dot
+28:25 slash and if I press T and I press tab
+28:28 you see that there is no options that's
+28:31 coming up that's because test out SH is
+28:33 not an executable file
+28:35 so test out SH is down how the
+28:37 executable permission so let me just
+28:39 show that to you LS you see test or SH
+28:42 it doesn't have the executable now you
+28:44 see movie it is executable I don't know
+28:47 why it is a directory so it isn't
+28:49 executable you can move into it so it's
+28:51 blue and color so the way you actually
+28:53 can make this an X
+28:54 cutable is by changing its permission so
+28:57 we do that is chmod and basically you
+29:00 change it to an executable so plus X
+29:03 that is making an executable if you do
+29:06 plus R I'll make it readable and if you
+29:08 do plus W we'll make it writable also so
+29:10 if you do plus X and do test or SH and
+29:13 now you go and do LS l you'll see that s
+29:16 odd SH has become green because it is an
+29:18 executable file now and now if you do
+29:20 dot slash and you press T you get test
+29:23 out SH if I press tab so now it is an
+29:26 executable file and if I execute it it
+29:28 presses out how the world under the my
+29:30 screen so that's how you can use the
+29:33 chmod or which is basically the change
+29:35 of permissions of files and we will be
+29:38 changing permissions of files throughout
+29:40 the course of this video it'll be very
+29:41 useful for us and you'll see as we go
+29:43 along with this video okay so the next
+29:46 thing that I want to show you only to
+29:47 our left and I remember those now and it
+29:50 is RM and RM is used for actually
+29:53 removing files so you should be very
+29:55 careful very using RM or any sort of
+29:58 removing command on a Linux system
+30:00 because once you remove something it is
+30:02 very difficult to get it back in almost
+30:04 near impossible it's not like Windows
+30:06 where it's basically just disappeared in
+30:07 front of your eyes but it's still there
+30:09 in the memory cluttering it all up
+30:10 that's why Linux always Trump's Windows
+30:12 that's one of the reasons and make a
+30:14 video on that later on but for now let's
+30:16 focus on RM now we can remove file 1 so
+30:20 let's see so file 1 is going to be
+30:23 removed so if we LS now you see file 1
+30:27 doesn't exist but let me show you
+30:29 RM and if I do movie you'll say cannot
+30:32 remove movie is a directory but if you
+30:36 go into the health menu I bet there will
+30:38 be a option that you can just forcefully
+30:41 should move it
+30:42 so RM force will just remove so RM / R
+30:47 and you can be moving and it will
+30:50 recursively remove everything and if you
+30:52 go here and do LS L you'll see that
+30:55 there is no movie he directory anymore
+30:57 and that is how you can remove movies
+30:59 now that problem that you see out there
+31:00 is actually a safety measure because
+31:02 once you remove a directory and it's not
+31:04 retrievable that's a very sad scenario
+31:06 and you don't want to get yourself in
+31:08 such as
+31:08 are you in whatsoever possibility okay
+31:10 moving on so on and so forth that was
+31:13 all about the RM folder now you can do
+31:15 RM and address of anything so RM I know
+31:20 we moved an address txt so into the VAR
+31:24 folder we can go RM var and address dot
+31:27 txt and that will remove address or txt
+31:31 from the folder of our let me just show
+31:34 you that word so CD bar and LS and you
+31:38 see that there is no address or txt out
+31:41 here okay
+31:42 another way to get help for any command
+31:44 that you want is man and suppose you
+31:47 want to see about RM he'll show
+31:49 everything about RM that is they show to
+31:51 you show you how to use it it will give
+31:54 you a description schnapps is the name
+31:56 remove files or directories it's a very
+31:58 useful way so out here you see is the
+32:01 manual page so that is where means man
+32:03 and you can press line 1 or H or you can
+32:06 press Q to quit so that's very much
+32:08 helpful ok guys so that was all about
+32:10 the command line interface and how we
+32:12 can use it to go about the operating
+32:14 system and change file permissions copy
+32:17 files move files and a bunch of other
+32:19 stuff now it's time to get on with the
+32:22 interesting stuff and that is firstly
+32:24 we're going to be learning how you can
+32:26 actually stay anonymous with proxy teams
+32:28 ok guys so now that we are done with the
+32:31 command-line basics it's time that we
+32:33 move forward with proxy genes so before
+32:35 we move forward with proxy chains let us
+32:37 head back to our PowerPoint presentation
+32:39 and see what exactly proxy chains are ok
+32:42 so proxy chains now as the name suggests
+32:46 proxy chains are basically a chain of
+32:48 proxies now where is a proxy used a
+32:51 proxy is used whenever you want to
+32:53 anonymize yourself on the wire or the
+32:55 network you do not want to know or you
+32:57 do not want your others know what the
+32:59 source IP address was for your client
+33:03 system and to do this all you have to do
+33:05 is send your package through a bunch of
+33:08 intermediary systems and these
+33:10 intermediate systems carry the packet
+33:11 out and they transmit it to the target
+33:13 system and this is much slower and let's
+33:16 see how we can use this in kali linux
+33:19 now in communication with tor
+33:22 - in order to anonymize traffic not only
+33:24 on web browsing traffic but rather
+33:26 instead on all networks related traffic
+33:28 generated by pretty much all your
+33:30 applications but you can also change
+33:33 this in the settings now what we're
+33:35 gonna do is we're gonna open up the
+33:37 proxy chain configuration file and we're
+33:39 gonna understand all its options that
+33:41 are available so to do that all you have
+33:43 to do is say nano you go into the
+33:45 etcetera folder and then you go for the
+33:49 proxy chain dot conf and what you see
+33:52 out here is the Nano editor and we had
+33:55 spoken about Nano editor when we were
+33:58 discussing the CLI part I hope you
+34:00 haven't skipped that now what you see
+34:01 out here is about your instructions and
+34:04 options so let me just zoom in into this
+34:07 command line interface and now you can
+34:09 read everything much well so what proxy
+34:12 genes is well it gives you the ability
+34:14 rather to draw out your traffic to a
+34:15 series of proxy servers and stay
+34:18 anonymous in such a fashion by hiding
+34:20 behind them or by having them forward
+34:22 your request so it looks that on the
+34:24 other side that your requests are coming
+34:25 from them as opposed to you now
+34:27 surprisingly enough there are a large
+34:29 amount of these proxy servers out there
+34:31 that you can use but they're not very
+34:32 stable you know they go up and down and
+34:35 they're not very fast so for specific
+34:37 targets they can be useful but not for
+34:39 brute forcing and not for any sort of
+34:42 computing attack so suppose you're doing
+34:44 something to a certain target if you're
+34:46 trying to login or you're already locked
+34:48 and you can definitely do it through
+34:49 proxy genes and it will be reasonably
+34:51 fast and reasonably stable and as well
+34:53 but if you're doing some sort of mass
+34:55 scanning or your brute forcing a
+34:57 password or something of a kind of a
+34:59 proxy chain with the list of proxies
+35:00 selected from the internet especially
+35:02 the free proxies it's not gonna work I
+35:05 mean it's going to work out eventually
+35:06 in the technical sense but it will
+35:08 consume more time than you can spare and
+35:10 by that I mean it can be very very long
+35:13 time it can take about months or two to
+35:15 do a simple scan so that's not an option
+35:17 and there are other ways of doing that
+35:19 but for the time being I just want you
+35:21 to know how you can use proxy genes and
+35:23 how you can configure it and actually
+35:25 because it's really useful and I use it
+35:27 fairly often a lot of people do and it's
+35:29 a fantastic piece of software so first
+35:31 off we have the types of proxies so you
+35:34 see a CDP socks4 and
+35:36 socks5 now there are fundamental
+35:38 differences between these protocols and
+35:40 you always want to find yourself a
+35:42 socks5 proxy as that's the best possible
+35:44 one and that has the ability to
+35:46 anonymize all sorts of traffic HTTP well
+35:49 as the name it says it's for HTTP
+35:52 traffic and socks4 is very similar to
+35:54 socks5 but it does not support ipv6
+35:56 protocol and it does not support UDP
+35:59 protocol so this can be sucks for and
+36:01 can be rather problematic and you always
+36:03 want to make sure that you're using sock
+36:05 v wherever and however anyway down below
+36:08 you have these other options which we
+36:11 will go over so basically how you enable
+36:13 these options is that you don't need to
+36:15 type some complex lines of code or
+36:16 anything if any kind basically all you
+36:18 have to do is just leave the hash out
+36:20 here let me show you
+36:22 so suppose we wanted to actually
+36:24 activate dynamic chains options so all
+36:26 we have to do is leave the harsh but
+36:28 let's put in the hash right now so after
+36:31 you delete the hash all you have to do
+36:32 is see if the file and the option is
+36:34 enabled this harsh presents a commented
+36:37 out line meaning that the system reading
+36:39 this will ignore if there is harsh and
+36:42 if there isn't the hash it will take it
+36:43 into consideration and interpret it
+36:45 accordingly
+36:46 anyway what we have here are statements
+36:48 which allow us to specify how we want
+36:51 our traffic to be routed so first off we
+36:53 have dynamic chain now dynamic chain is
+36:56 a sum and is an option which you will
+36:58 find people using the most it is most
+37:01 commonly used option and a preferable
+37:03 one to other and honestly I think it's
+37:05 the best one out there primarily because
+37:06 it's the most stable one and here's why
+37:09 now suppose you have ABCD proxies so
+37:12 those are some servers with IP addresses
+37:14 with open ports and if you have a strict
+37:16 chain policy which is enabled on this
+37:18 computer right now as you see if you
+37:20 have a strict chain policy we can only
+37:21 be able to access any site on the
+37:23 Internet in general by going through
+37:25 ABCD so you have to go through all of
+37:27 them and you have to go through them in
+37:29 that specific audio that is ABCD and
+37:31 that's not always a good thing I mean if
+37:33 you are paying for five proxies that's
+37:36 not a problem because they will always
+37:37 be operational and they will always be
+37:39 up and why not that's not a bad idea or
+37:42 an option but there are however people
+37:45 who use proxies for free and they don't
+37:47 tend to pay for them why would you pay
+37:49 for like five
+37:50 for a simple scan or something of that
+37:51 kind they're not free and they cost
+37:53 money and they're rather expensive also
+37:56 but still I mean the act of paying
+37:58 itself identifies you and kind of
+38:00 diminishes the amount of anonymity you
+38:02 have on the internet so some complex
+38:04 payment methods can still be used to
+38:06 actually anonymize yourself but it's
+38:08 fairly simpler to just use a dynamic
+38:09 chain so firstly we're gonna go ahead
+38:11 and uncomment the dynamic chain option
+38:15 and we're gonna comment out this trick
+38:16 chain option so a strict chain will no
+38:18 longer be used and I will be using
+38:20 dynamic chains and one more thing to
+38:22 note here is that if you want to use
+38:23 proxy chains in combination with tor if
+38:25 you want to route all your traffic
+38:27 through the Tor network not just web
+38:28 traffic you must be enabling dynamic
+38:31 chains I mean there's a chance that it
+38:33 will work with strict chains but give
+38:35 the instant instability of tor nodes it
+38:37 was highly unlikely you will need
+38:38 dynamic chains and that's why I'm using
+38:40 them anyway if you're using dynamic
+38:42 chains just give you the ability to go
+38:45 from ABCD to your desired destination by
+38:47 not having to adhere to any order so
+38:49 let's say C is down and you would go a B
+38:52 D and it would working with no problems
+38:55 even if P was down you would go to a D
+38:57 and you would go and still reach the
+38:59 destination so as long as one single
+39:01 proxy is functional it's going to work
+39:03 and you don't require any specific order
+39:05 to do it down below now down below you
+39:07 have some other options too so first is
+39:10 random chains now random chains in
+39:11 effect are basically the same thing as
+39:13 resetting your service I mean if you are
+39:15 resetting your door you will be now
+39:17 assigned new IP address in Tower assigns
+39:20 your new IP address every 10 minutes or
+39:21 so
+39:21 anyway with the random chain you can
+39:23 specify a list of IPs and then you can
+39:26 tell your computer ok I want you to try
+39:27 and I want you to connect to this point
+39:29 and every time you connect every time
+39:31 you transmit a packet I want you to use
+39:33 a different proxy and we can do that as
+39:35 well
+39:35 and that's what the options definitely
+39:37 and you can say ok use this is phone 5
+39:40 times and then change to another one or
+39:42 something like that there are a lot of
+39:44 options to specify there primarily the
+39:46 chain length anyway down below there's
+39:47 quiet mode you don't really need that
+39:49 then that proxy DNS requests nolleke
+39:52 from DNS data this is very important you
+39:55 cannot have any de honestly and let me
+39:56 explain to you what DNS leaks are and
+39:59 even though somebody cannot get your
+40:00 particular IP address they can get the
+40:03 IP address of the
+40:04 in a server that you are using and that
+40:05 DNS servers do is resolved main domain
+40:08 to the IP address and vice versa so for
+40:11 example if you typed in youtube.com the
+40:13 DNS server of your local ice tree
+40:14 provider will resolve that into some
+40:16 sort of IP address that YouTube has and
+40:19 it will make a request no problem and
+40:21 you do not want that happening because
+40:23 your local DNS server will be discovered
+40:26 and that is information that can be used
+40:28 in order to figure out your personal IP
+40:30 address and when that is done your
+40:33 physical location is pretty much
+40:35 compromised and that's a no-go and you
+40:37 definitely need proxy DNS here it might
+40:40 slow you down a bit but without that you
+40:41 are practically not anonymous and it's
+40:43 just a matter of time before somebody
+40:45 finds you now if you go down below we
+40:48 have some other options here but we're
+40:50 not really interested in them at the
+40:51 moment what we here are for the format's
+40:53 for entering proxies and I'm gonna leave
+40:56 it at that
+40:56 so what do you see out here is first the
+40:59 type of the proxy that is socks5 then
+41:01 the IP address then the port number and
+41:03 then two words that is llamas secret and
+41:06 then just you hidden okay so now what
+41:09 you see out here as I just said is how
+41:11 you would actually write down your proxy
+41:13 change and now as I had already also
+41:15 said you always want to be using Sox
+41:17 five and you don't want to be using HTTP
+41:19 because they're naturally that safe and
+41:21 Sox five doesn't support a lot of
+41:23 options anyway and this is the IP
+41:25 address of the proxy server that we will
+41:27 enter a few of them manually later on
+41:29 and this here is the port number that
+41:32 you see on which the proxy server is
+41:34 listening and that port is open over
+41:36 here these two words now what some proxy
+41:39 server especially paid ones will always
+41:41 have a username and password so you can
+41:43 just type them here in plain text
+41:45 unfortunately it is assumed that only
+41:47 you and you alone have access to this
+41:49 computer besides this file and besides
+41:51 this file is you not not everybody can
+41:53 read this file anyway so if you can just
+41:55 type in the username here and password
+41:57 here you will gain access to a certain
+41:59 proxy that you have chosen or that you
+42:01 have paid for anyway these are just some
+42:03 examples and we won't actually be using
+42:05 these proxies or anything of a kind we
+42:08 need to go down below here out here you
+42:10 see and at the end of the file so if I
+42:12 just press ENTER a couple of times here
+42:14 we go
+42:14 so here is only one proxy
+42:17 at the moment in socks4 and all traffic
+42:20 means routed here through tor by default
+42:22 so let's set to tour now and tour
+42:25 default listens on this port so this
+42:28 9:05 report is where tour listens on now
+42:31 what we want to do is we want to add
+42:34 socks5 proxy address so what you want to
+42:37 do is just type in Sox 5 and the same IP
+42:40 address Sox 5 and you want to be keeping
+42:43 the spacing correct just use tab so 127
+42:47 dot 0 dot 0 dot 1 and then you want to
+42:50 specify the port number also so 9 0 5 0
+42:53 so what you see out here the 127 dot 0
+42:57 dot 0 1 this is the loopback address of
+42:59 your computer so this is for any device
+43:01 communication and if you ping this
+43:03 address and if you're bringing yourself
+43:04 basically and usually people bring this
+43:07 address in order to make sure that the
+43:08 IP put protocol is set up correctly even
+43:11 though they don't have internet
+43:12 connectivity so let's just type in 1.27
+43:15 dot 0 dot 0 dot one and the same port
+43:18 number and 9 supervisor so now we have
+43:21 to press ctrl o to save our file you can
+43:24 save on the same name and we're o 65
+43:26 lines of course down and that's written
+43:28 and now you have to press control X and
+43:30 you exit out so let's press ctrl L and
+43:33 clear our screen now we just edited our
+43:37 proxy chains configuration in a very
+43:39 neat environment so to go ahead and type
+43:42 in our service your status so we want to
+43:45 check status off our tour service or
+43:47 service tour stairs so tour service
+43:52 could not be found so do we have the
+43:55 tour service install ok so tower service
+43:58 is now installed just give me a little
+43:59 moment quickly install it ok so now that
+44:03 we have set up our proxy chains
+44:05 configuration file and we have put in a
+44:08 sock v proxy chain giving it the torch
+44:10 service now what we need to do first is
+44:13 start up at our service now to actually
+44:16 check if tor is running or not or if the
+44:18 tower service is running or not let me
+44:19 just clear that out we need to go
+44:21 service
+44:22 to your status and you see it says it's
+44:25 inactive so what do you have to do is
+44:27 say service or star
+44:30 that will start the tour service it
+44:33 might take some time depending on the
+44:34 system that you're using and without
+44:36 that it has started it for me now what
+44:39 do you have to do to actually use proxy
+44:41 chains before you go to any website so
+44:44 all you have to do is say proxy chains
+44:46 then you specify the browser that you
+44:49 using so we're gonna be using Firefox
+44:50 and you could say something like double
+44:52 wwe.com
+44:55 so now here you will see how your thing
+44:59 is being transmitted to doctor cocom
+45:02 when I say thing I mean your package
+45:04 send your requests I'm sorry from over
+45:06 capillary so now your packets are gonna
+45:09 be directed through a bunch of IP
+45:11 addresses but we haven't actually put a
+45:13 bunch we just have put the loop back for
+45:15 the Tor network so we will left or do
+45:18 the rest of the things for us okay so
+45:20 depending on your system this might take
+45:23 a little bit of time to actually open up
+45:25 okay so let's go ahead and see what's
+45:27 actually happening on the terminal while
+45:30 this thing is loading up okay as you can
+45:33 see it's going through a bunch of
+45:34 proxies out here and some are denying it
+45:37 and some are saying it's okay so as you
+45:39 guys can see most of time you might get
+45:40 denied and it'll be a lesser number of
+45:42 okay and that is exactly what we were
+45:45 looking for because primarily we have
+45:47 gone a great extent for the anonymity
+45:49 and what you want to do is stay like
+45:51 that so this is basically how you use
+45:54 proxy chains now if this computer just
+45:56 decides to open up Takako comm on
+45:59 mozilla i could actually show you some
+46:01 interesting stuff but it seems my
+46:04 computer has kind of given up on
+46:06 actually opening dr. ko it's still
+46:08 waiting for that that goes actually
+46:09 confirmation but that's about it so this
+46:13 is how you can actually configure proxy
+46:15 chains I'm really sorry that my computer
+46:17 isn't working right now so well and
+46:20 nothing is actually opening on Mozilla
+46:22 it's mostly because my ram is overloaded
+46:24 I think I should go ahead and get myself
+46:26 a new Ram but for now let me just also
+46:28 say that we can put some custom proxy
+46:30 lists and instead of just saying let me
+46:33 just go ahead and open up that file
+46:34 again yes you guys sincere here I'm
+46:36 gonna end this right now because my
+46:39 computer can't really take all this
+46:40 pressure see it's lagging so hard
+46:44 let me just quit out of that and let me
+46:46 just open up a new one now as I had said
+46:48 that you can put up some custom proxy
+46:51 lists not really gonna do that but let
+46:53 me just show you how you can do that you
+46:54 go nan-oh and you go cetera and proxy so
+46:59 you basically have to go into the proxy
+47:01 chain okay so I think yes but this can
+47:05 yeah now if you just go in and edit out
+47:08 here all you have to do is set up
+47:10 dynamic chains and you can go online and
+47:13 search for our free proxy lists and
+47:15 that'll give you everything that the
+47:16 port number two the IP address let me
+47:19 just show it to you free proxy server
+47:23 list so all you have to do is search for
+47:26 free proxy server list and you can see
+47:29 out here the proxy type is HTTPS and you
+47:32 basically want to find a soft fire proxy
+47:34 to find sapphire proxy just add that
+47:36 into your keyboard and once you find
+47:38 those proxy addresses all you have to do
+47:40 is take down this IP address and
+47:42 followed by the port number and you go
+47:45 ahead and just put it down in this
+47:48 configuration file and then you hit ctrl
+47:50 o and you just save it and then you just
+47:54 go back so that was all about proxy
+47:56 chains and how you can set a proxy
+47:58 chains to said make yourself very
+48:00 anonymous I'm sorry hold Mozilla pardon
+48:02 work that's your sad state of my
+48:04 computer but moving on let's go ahead
+48:06 and study about max changes ok guys so
+48:09 that was all about proxy chains let's
+48:11 move ahead to max changer ok now before
+48:13 we go into the tool called max changer
+48:15 let's just see what a mac address is now
+48:17 a mac address actually stands for media
+48:19 access control address of a device and
+48:21 is a unique identifier assigned to a
+48:23 network interface controller for
+48:24 communication purposes now MAC addresses
+48:26 are used as a network address or most I
+48:28 Triple E a 0 to network technologies
+48:30 including internet Wi-Fi and Bluetooth
+48:31 now in this context MAC addresses are
+48:33 used in the medium access control
+48:35 protocol sub layer and as typically
+48:37 represented as MAC addresses are not
+48:39 recognizable as six groups of two
+48:41 hexadecimal digits each now these are
+48:43 separated by colon and the first three
+48:45 hexadecimals are actually the
+48:48 organizationally unique identifiers so
+48:50 they actually represent your vendor and
+48:52 the next three hexadecimals actually
+48:54 represent your network card uniquely
+48:57 okay so when you are actually on a
+48:59 network you are recognized on something
+49:01 called an art table let me just show you
+49:03 the art table how you can see it let's
+49:05 go in so the password is route still an
+49:08 art table is basically an address
+49:10 resolution protocol table and well this
+49:12 is a virtual machine and it doesn't
+49:14 really know many machines on the local
+49:16 network but if I would go on my Windows
+49:19 system and show you my ARP table let's
+49:21 see okay so if I show you the ARP table
+49:24 of my Windows machine and on any machine
+49:26 that has a tcp/ip protocol suit
+49:28 installed you will have this command
+49:29 that was working called HAARP and you
+49:31 give the - a and now you see that your
+49:33 IP address or somebody else's IP address
+49:36 is actually mapped to a physical address
+49:38 now the MAC address is very commonly
+49:40 used in the art protocol and this is how
+49:42 you are actually identified on a network
+49:44 now sometimes what you want to do is be
+49:46 unknown on this network there are
+49:48 various reasons why you want to do that
+49:50 let me just give you an example of a
+49:51 very malicious reason that was done in
+49:53 my college so we as students would
+49:55 actually change the MAC address of our
+49:58 own computer to the professor's computer
+50:00 so we would somehow look up the
+50:01 professor's IP address and then come to
+50:03 know about his MAC address and then we
+50:05 would spoof our math to be his MAC
+50:07 address and then we would do some type
+50:09 sort of malicious activity on the
+50:11 college internet and then Internet
+50:13 administrators of our college would come
+50:15 to know that that MAC address is doing
+50:16 some sort of malicious activity and that
+50:18 MAC address would get permanently banned
+50:20 for that session on the college netbook
+50:22 so basically our professor would not be
+50:24 able to use the wireless projectors that
+50:26 he would use to actually show us his
+50:28 presentations and we end up getting a
+50:30 free class now I am NOT actually
+50:32 promoting any sort of bad activity like
+50:34 this I have just experienced this in my
+50:37 own college life so that was something
+50:39 but there are many other reasons that
+50:40 you might want to spoof your Mac now Mac
+50:43 changer is an amazing tool for actually
+50:45 spoofing your Mac so first of all how do
+50:48 you come to know your MAC address so
+50:49 let's see you go ifconfig and this will
+50:53 give us our market dress now
+50:55 this address that you see over here is
+50:57 the MAC address of this machine so you
+51:00 can also check out the MAC address by
+51:02 going mark ginger then let's type in the
+51:05 help options and this would show us how
+51:08 to get the mac address so if you see
+51:09 there's a
+51:10 show flag so we can go a Mac changer and
+51:14 you can put the s and then you put the
+51:17 interface now the interface is where
+51:19 it's working so at 0 is where we are
+51:22 actually getting we don't want the
+51:23 loopback one so at 0 and this will give
+51:27 us the MAC address so our current MAC
+51:29 address is 0 8 0 0 2 7
+51:31 let's see if that was the same one shown
+51:33 where is that master yes ok so ether 0 a
+51:36 0 0 to 7 so I'm sorry this was the MAC
+51:38 address I selected the wrong thing
+51:40 what I was showing you is the ipv6
+51:42 address and you can see that it's very
+51:44 very long so this is our MAC address now
+51:47 what you might want to do to change your
+51:49 MAC address well let's see with V we can
+51:52 get the version with s you can show we
+51:55 can do the e and as I said if you
+51:57 remember that the first three bits is
+51:59 about the vendors so you can also get
+52:02 the vendor list by going - l so you go -
+52:06 L and this will give you a list of MAC
+52:09 addresses and which rendered the belong
+52:11 to so sometimes if you do the vendors
+52:14 that are actually being used on the
+52:16 network of your college for example and
+52:19 you want to just stay anonymous and not
+52:21 raise any flags or suspicion so you
+52:23 could hide yourself as a Cisco router so
+52:26 suppose your college was using all sorts
+52:28 of Cisco routers and you decided that
+52:31 today I'm going to spoof myself a Cisco
+52:33 router and I'm going to screw around
+52:34 with the network so it would not raise
+52:36 any flags before you actually decided to
+52:39 do some malicious activity in some
+52:40 deeper inspection of your MAC address
+52:43 people would actually realize that you
+52:44 are actually spoofing the dress and
+52:46 after some investigation they put indeed
+52:48 take some time to actually reach to you
+52:50 and how you spoofed it but the point of
+52:52 changing your Mac is not raising any
+52:54 flags and that is exactly what you
+52:57 should try to do so Mac changer is also
+53:00 very useful for getting the list of all
+53:03 the MAC addresses and their vendor IDs
+53:06 now let me just clear the screen out
+53:07 quickly so we go here and let's bring
+53:11 back the help
+53:13 so we go math changer and - ash hell now
+53:16 what one do is give our self around the
+53:19 MAC address now Mack changer so that is
+53:22 done with the our flag and we want to do
+53:24 it on each 0 so once you run that you
+53:26 will be given a new marker so our new
+53:29 MAC address is f6c 649 now you can
+53:32 verify that by running ifconfig no we
+53:35 could just do I have config and you see
+53:37 our new MAC address is on either so we
+53:41 could also do something like this
+53:43 ifconfig and you could grab eater so
+53:47 that is telling you the MAC address and
+53:49 this is completely new also you could
+53:52 show it through the math changer tool
+53:55 itself okay so we need to give it the e
+53:58 0 I've got that now you see that this is
+54:01 a current MAC address and this is a
+54:03 permanent MAC address and they qu are
+54:05 completely different sometimes you also
+54:07 might want to actually change your Mac
+54:09 when your laptop is or your system is
+54:12 booting up because you might wanna stay
+54:14 anonymous all the time who knows and
+54:16 sometimes you might think I'll actually
+54:18 change it when I want to change it but
+54:20 let's face it we are forgetful as human
+54:24 beings and we tend to forget things that
+54:25 we are supposed to do so what else is
+54:28 better than to actually automate the
+54:30 whole process yourself and forget about
+54:31 remembering all these stupid
+54:33 nitty-gritty stuff so you can tell Linux
+54:36 or Kali Linux to actually change your
+54:38 MAC address on boot-up is use this tool
+54:40 called crontab now crontab is actually
+54:42 used for scheduling tasks on linux so
+54:46 let me show you how to do that
+54:47 firstly let's clear our screen and go
+54:49 crontab and go help now you see it's a
+54:53 pretty small menu so first we start with
+54:55 the u flag which user this file is going
+54:57 to work for then we got the a flag which
+54:59 is for editing crontab
+55:00 users the users chrome tab list and you
+55:03 can see the list of users crontab and
+55:05 let's see so do we have any crunch out
+55:06 of this so there is no crontab at this
+55:09 moment so we can set up one for
+55:10 ourselves by going to the e then there's
+55:13 the R which is delete users crontab and
+55:15 i want to tell you all be very careful
+55:17 when eating anything of that sort
+55:19 because once you delete something from
+55:20 the nuts that have already said that it
+55:22 is very very difficult to actually
+55:24 retrieve it back you might get
+55:25 fragmented pieces
+55:26 of what you have actually bleated and
+55:28 that will only leave you with sadness
+55:30 and devastation now what you want to do
+55:32 is go through crontab and press e and
+55:35 this will bring us to select an editor
+55:37 to change later run select editor so we
+55:40 do with Nano so what do you have out
+55:42 here is the readme file of crontab and
+55:44 if you read this entire thing you will
+55:46 get how to use contact completely but if
+55:48 you have any sort of doubts even after
+55:50 reading it you can leave them down in
+55:52 the comment section below now what do
+55:54 you want to do is actually set up a cron
+55:56 tab so that you can change your MAC
+55:58 address whenever you reboot your
+56:00 computer so all you have to do is say at
+56:02 reboot what you want to run is Mac
+56:04 changer and if you remember we want to
+56:07 run the MAC address and we want it on
+56:09 each 0 so that's done now all you have
+56:12 to do is save this thing so you go ctrl
+56:14 o and that will write it out who cron
+56:16 tap and you press ENTER and you have
+56:18 average down one line now you go control
+56:20 X you have access it out so now let's
+56:23 just clear the screen by pressing ctrl L
+56:25 and enter and let's go ahead and get our
+56:29 MAC address so if we go ahead and run
+56:32 that our MAC address is set to f6 C 649
+56:35 so just remember the first few letters F
+56:38 66 and 49 now let me just reboot my
+56:41 computer and you will see after I reboot
+56:43 and run ifconfig again with crap eat
+56:46 hope we will see a different MAC address
+56:48 now rebooting might take some time
+56:50 because I'm actually using a virtual
+56:52 machine but till now it's giving
+56:54 problems with the Firefox but let's hope
+56:56 this won't take much time ok so now that
+56:58 our computer has booted up and we have
+57:01 actually opened up our terminal
+57:02 let's go in and type ifconfig and let's
+57:05 get in our eater that is the MAC address
+57:08 so if you remember the MAC address now
+57:10 you see that it has completely changed
+57:11 and that's how you can spoof your MAC
+57:13 address on our local network and this
+57:16 will basically help you in staying
+57:18 anonymous on our protocols and anything
+57:21 that actually maps your IP address to
+57:23 the MAC address ok so that was all about
+57:25 math changers meet you in the next
+57:27 section now so in this section we will
+57:29 be talking about a wireless encryption
+57:31 protocol cracking so that is basically
+57:33 Wi-Fi cracking now Wi-Fi in today's day
+57:37 and age uses
+57:38 pins or passwords to normally encrypt
+57:41 the data usage basically if you want to
+57:44 access the wireless access point you
+57:47 need a password or a pin to actually
+57:49 gain authorization now this
+57:51 authorization is done using a four-way
+57:54 handshake which we will try to capture
+57:56 using a tool called aircrack-ng and then
+58:00 we will try to crack into the password
+58:02 using a word list generator called
+58:03 crunch now you can use aircrack-ng to
+58:06 crack WPA and wpa2
+58:09 there's also another protocol called WEP
+58:11 or WEP and that is not normally used
+58:14 these days if you find anybody using
+58:16 that you should always advise them to
+58:18 actually upgrade to WPA or wpa2 because
+58:21 WEP is actually very easily cracked in
+58:24 these days and people are generally
+58:26 punished for using WEP by hackers all
+58:29 around the world
+58:30 ok so now you can actually go ahead and
+58:34 go into a terminal and type ifconfig to
+58:36 actually look at your network card name
+58:38 as you guys can see out here it's called
+58:40 WL o1 so the first step that we need to
+58:44 do to actually go into the process of
+58:46 Wi-Fi cracking is set up our network
+58:49 access card or our access point into
+58:52 monitor mode so as you guys can see out
+58:54 here after typing ifconfig it shows me
+58:56 that my Wi-Fi access card is wlo one
+59:00 interface now our process of cracking
+59:03 passwords is pretty simple
+59:04 what we want to do is actually monitor
+59:06 for all sorts of access points that are
+59:09 nearby to us once we have chosen the
+59:11 access point in that we want to actually
+59:13 penetrate into and find the password
+59:15 what you want to do is run a narrow dump
+59:18 scan on it and then we will try and do
+59:21 10 ticket any device that is connected
+59:22 to that access point now one assumption
+59:25 out here is that the password is saved
+59:28 in that device and it will automatically
+59:30 try to read authenticate itself with the
+59:32 access point and we want to catch and
+59:34 log this via sent occation process which
+59:37 will actually have a four-way handshake
+59:39 between your device and the access point
+59:42 so this is basically the procedure we
+59:44 are gonna follow now another thing that
+59:47 you need to know before actually using
+59:49 this process to gain any access to any
+59:51 Wi-Fi is
+59:52 you need to know a little bit about what
+59:55 the password is maybe it could be Lent
+59:57 or it could be something like a specific
+1:00:01 character at a specific place maybe you
+1:00:03 know a series of characters so you just
+1:00:06 can't really guess the password out of
+1:00:08 thin air
+1:00:09 that is not how cracking works unless
+1:00:11 you have some unlimited potential of
+1:00:13 processing power in that case you can
+1:00:16 very well brute-force it and just find
+1:00:19 the password but if you are not somebody
+1:00:21 who has unlimited processing power and
+1:00:23 you're trying to use aircrack-ng you
+1:00:26 need to know a little bit about the
+1:00:27 password also before we proceed with
+1:00:29 this wireless encryption protocol
+1:00:31 cracking what I want to say is if you
+1:00:34 want to get into somebody's Wi-Fi
+1:00:37 network or you want to actually test for
+1:00:40 vulnerabilities it's better that you
+1:00:42 test for router vulnerabilities then
+1:00:44 actually cracking your Wi-Fi password
+1:00:45 because you're more likely than not to
+1:00:48 find more router vulnerabilities then
+1:00:50 actually successfully crack a Wi-Fi
+1:00:52 password if you don't know anything
+1:00:54 about it if you don't know anything
+1:00:56 about the password just go ahead and run
+1:00:58 some vulnerability tests on the router
+1:01:00 itself and more often than not you will
+1:01:02 just find something you can abuse okay
+1:01:04 now let's talk about the two tools that
+1:01:07 I'm gonna be using now these two tools
+1:01:09 one of them is already installed on Kali
+1:01:12 Linux but if you are not using this on
+1:01:15 Kali you can also use this on any Linux
+1:01:18 based system so what do you have to do
+1:01:20 is download and install aircrack-ng
+1:01:22 which is easily installed with the
+1:01:24 command apt-get install aircrack-ng and
+1:01:27 you also have to install this word list
+1:01:29 generator called crunch now crunch is
+1:01:32 easily downloadable by just googling the
+1:01:35 name and the first link will be a
+1:01:37 SourceForge link and all you have to do
+1:01:39 is go inside that and install it and
+1:01:42 once you figure out how to install
+1:01:43 crunch you can make sure that it's
+1:01:45 installed
+1:01:56 now once you have installed both the
+1:01:59 software's you can check out if the
+1:02:02 manual pages are opening up let me just
+1:02:04 open the manual page of aircrack-ng and
+1:02:06 show you that it has been properly
+1:02:08 installed
+1:02:13 you guys can see the manual page of
+1:02:14 aircrack-ng opened up and the main page
+1:02:17 of crunch is also opening up so that
+1:02:20 means both of our software's have been
+1:02:22 successfully installed on our system now
+1:02:25 before we go ahead let me just show you
+1:02:27 how crunch actually works so crunch is
+1:02:29 basically a wordless generator what you
+1:02:32 would do is you try and generate a word
+1:02:35 list with given characters so what you
+1:02:37 can see out here is I've typed in crunch
+1:02:39 3 5 so that means the minimum length is
+1:02:42 3 and the maximum length is 5 and I've
+1:02:45 given it a series of numbers so it will
+1:02:47 use these numbers and generate all the
+1:02:50 words that are possible from length 3 to
+1:02:52 length 5 so the way we are gonna use
+1:02:55 scrunch in conjunction with aircrack is
+1:02:57 that we are going to use crunch to
+1:02:59 generate the word list and then we are
+1:03:01 gonna pipe the word list through
+1:03:03 aircrack-ng when we are actually trying
+1:03:05 to capture and crack what we will
+1:03:08 capture in a certain log file now what
+1:03:11 you want to do first is actually put
+1:03:13 your network interface card on a monitor
+1:03:15 mode now you can do that by typing in
+1:03:19 ifconfig and then the interface name
+1:03:22 which happens to be WL 1 and first you
+1:03:24 have to put it down so i've config WL 1
+1:03:27 down now to put your interface card into
+1:03:30 monitor mode you have to type in IW
+1:03:33 config and you go the name of the
+1:03:36 interface and then you go mode monitor
+1:03:38 ok it seems I've spelled it wrong so let
+1:03:40 me just do it once again
+1:03:41 so that has put our network interface
+1:03:44 card into monitor mode and what we need
+1:03:46 to do after that is we need to start up
+1:03:49 our network interface so all we have to
+1:03:51 do is type in I have config WL 1 up now
+1:03:55 once it is up and running you can check
+1:03:58 by typing in ifconfig that indeed your
+1:04:01 network interface card is up and running
+1:04:03 don't worry is running in monitor mode
+1:04:05 if it's up and running what we want to
+1:04:07 do next is pretty important to the whole
+1:04:09 process so what we want to do now is
+1:04:11 check for some services that might still
+1:04:13 be running in the background that might
+1:04:15 hamper with our whole scanning process
+1:04:17 so we do this by actually typing in the
+1:04:20 command area and G check and then the
+1:04:23 name of the interface so as you guys can
+1:04:25 see nothing is
+1:04:27 exactly running right now but if there
+1:04:29 were any process running you would only
+1:04:31 add the command m1 ng check and instead
+1:04:34 of writing the interface name all you
+1:04:36 have to do is say kill and it will kill
+1:04:38 any processes know if you see any
+1:04:41 process name the network administrator
+1:04:43 you want to kill that process first
+1:04:45 separately and then kill any other child
+1:04:47 processes you may need to actually run
+1:04:50 this command a few times before all
+1:04:52 processes are killed and then you're
+1:04:54 good to go okay so now that we have
+1:04:57 finished killing all the sub processes
+1:04:58 what we want to do is run an error dump
+1:05:01 scan on the network card so that is wlo
+1:05:05 one so for this we go arrow dump - ng
+1:05:08 and then we put in the name of the
+1:05:10 interface and this will start up a scan
+1:05:12 that will look something like this
+1:05:16 after you run the aerodrome scan on your
+1:05:19 interface what you see out here is a
+1:05:21 result of all the access point that is
+1:05:24 found out to the monitoring mode now if
+1:05:26 you see we have a bunch of columns out
+1:05:28 here first of all we have the BSS ID
+1:05:30 column now the bssid column is basically
+1:05:33 the MAC address of all the routers that
+1:05:35 are found now every router obviously has
+1:05:38 a MAC address so those are the MAC
+1:05:40 address that is tied to the router names
+1:05:42 which is shown by the ESS ID then we
+1:05:44 have the PWR column we have the beacons
+1:05:46 column we have the data packets column
+1:05:49 another important column is the channel
+1:05:50 column it's important to know which
+1:05:52 channel your router is working on then
+1:05:55 we can see the cypher column the
+1:05:56 authentications out here we can see the
+1:05:59 encryption that is used so most of it is
+1:06:01 using wpa2 so what we will be cracking
+1:06:04 is basically wpa2 so from this is what
+1:06:07 you need to recognize is basically the
+1:06:09 Wi-Fi router that you want to crack into
+1:06:11 now I'm performing this particular test
+1:06:14 in my office and I don't really have the
+1:06:16 permission to actually go in and test
+1:06:19 them for these vulnerabilities I'm not
+1:06:20 the security analyst off here so you
+1:06:23 really have the permissions to penetrate
+1:06:25 into them so what I have done is I have
+1:06:27 run a similar test at home using my own
+1:06:30 Wi-Fi and I will show you the results
+1:06:32 for that but for this working example
+1:06:34 you will see the scans and I'm running
+1:06:36 in this office so as we intend to stay
+1:06:39 ethical what we are going to do out here
+1:06:40 is we are going to capture whatever we
+1:06:43 find in our office for only educational
+1:06:45 purposes but when we are doing the
+1:06:47 actual cracking step that is the last
+1:06:50 step of this whole procedure I'll be
+1:06:51 running it on a file that I generated at
+1:06:53 home as I just said because I have
+1:06:56 permissions to do whatever I want with
+1:06:58 my own Wi-Fi and passwords okay so for
+1:07:00 this example I'm gonna pick this Wi-Fi
+1:07:03 that is called at Utica Wi-Fi and it's
+1:07:05 running on channel number 6 so what do
+1:07:07 you want to pick from here is the bssid
+1:07:09 and the channel number we need to
+1:07:11 remember these two things first the
+1:07:13 bssid
+1:07:14 and second the channel number now what
+1:07:16 do you want to do after that is open up
+1:07:17 a new window on your terminal and log in
+1:07:20 as root
+1:07:22 now what we want to do here is run a
+1:07:24 separate aero dump scan on this specific
+1:07:27 bssid
+1:07:28 and check for all the devices that are
+1:07:31 actually connected to this access point
+1:07:32 now we do this by running the command
+1:07:36 airodump-ng and while we are doing this
+1:07:38 we also want to capture all the scan
+1:07:40 outputs that we actually get into a
+1:07:42 certain file so we'll be actually
+1:07:44 storing it in a file called capture and
+1:07:47 then we just have to pass in the bssid
+1:07:50 and the interface
+1:07:56 we also have to specify the channel so
+1:07:58 let's see what the channel is 1 so the
+1:08:00 channel is channel 6 so that's what we
+1:08:02 want to do and we specify the channel
+1:08:04 with the - C flags
+1:08:12 so after you have identified the MAC
+1:08:14 address all you need to do is copy it
+1:08:16 down and place it with after the BSS ID
+1:08:19 flag okay so we're gonna run our command
+1:08:23 out here and we just want to say our
+1:08:25 files can be evil test our capture now
+1:08:27 that our scan is up and running all you
+1:08:29 want to do is wait till someone is
+1:08:31 actually connected to this access point
+1:08:33 so I forgot to mention this for this
+1:08:35 process to actually work properly
+1:08:37 somebody needs to be connected to the
+1:08:39 access point because what we're gonna
+1:08:40 try and do is disconnect that certain
+1:08:43 device and let them reconnect and
+1:08:45 capture that log file okay so it seems
+1:08:48 like nobody is actually connecting to it
+1:08:50 so at this time all I'm gonna do is go
+1:08:52 back to our arrow dump scan that we had
+1:08:55 run order network interface and look for
+1:08:57 some other MAC address or other access
+1:08:59 point to actually penetrate into and
+1:09:01 let's see if something has actually
+1:09:03 connected to that
+1:09:05 okay so Oh voila now what do you see out
+1:09:08 here is that somebody has actually
+1:09:10 connected to this access point and his
+1:09:12 MAC address can be seen under the
+1:09:13 station step now what we want to do is
+1:09:16 run a do that ocation
+1:09:19 on that station and D authenticate that
+1:09:21 guy now to actually run the D
+1:09:24 authentication process all you have to
+1:09:26 do is go ahead and open up a new
+1:09:28 terminal window again and let the scan
+1:09:30 be running in the background don't use
+1:09:31 any scan at this moment okay so the
+1:09:34 information that we need to remember is
+1:09:36 VSS ID or rather the Mac ID of the
+1:09:39 station now you also want your
+1:09:40 monitoring to be running on the same
+1:09:42 channel so that you're the
+1:09:44 authentication message is being already
+1:09:46 broadcast on the same Channel so we can
+1:09:48 do that easily by going airmon-ng and
+1:09:51 saying WOL one and you can say start on
+1:09:54 the specified channel so what we want to
+1:09:57 be doing is running this on channel 6
+1:10:01 then we want to go and use the third
+1:10:04 suit of tools that is a replay now a
+1:10:06 replay is used for broadcasting the
+1:10:09 authentication messages and all sorts of
+1:10:11 stuff now you can see all this in the
+1:10:13 help menu also and you can do that by
+1:10:16 typing in - - help if you go down you
+1:10:19 see that you can set the authentication
+1:10:20 message using the - zero flag and that's
+1:10:23 exactly what you're going to do
+1:10:25 then we say zero again because we want
+1:10:27 to constantly send a broadcast of the
+1:10:30 authentication so it's looping basically
+1:10:32 and until and unless we stop the scan
+1:10:35 nobody will actually be able to access
+1:10:36 the Wi-Fi so it's basically like a small
+1:10:39 toss attack and then we want to specify
+1:10:42 the bssid
+1:10:44 okay so it seems like I forgot the whole
+1:10:46 a tag before the bssid and I should get
+1:10:49 working
+1:10:52 seems like I have copied some wrong
+1:10:54 bssid I guess so let me just go ahead
+1:10:57 and copy that once properly
+1:11:02 okay so now that we have the proper
+1:11:05 bssid as you guys can see we are running
+1:11:07 the authentication broadcast message on
+1:11:10 that particular network access card and
+1:11:12 now you want to run this for around a
+1:11:16 couple of minutes so that you become
+1:11:18 sure that all the devices have
+1:11:20 disconnected now while this is happening
+1:11:22 what are you doing is basically sending
+1:11:23 a daus attack to that small little Wi-Fi
+1:11:25 and you want to catch the handshake that
+1:11:28 occurs between devices and the router
+1:11:30 that it is connected to while
+1:11:32 reconnecting themselves
+1:11:36 okay so now that we've led scan run for
+1:11:39 a couple of minutes let us to stop it
+1:11:43 let's stop this other scan - now if I go
+1:11:46 and list out the files on my desktop you
+1:11:49 should see that there is something
+1:11:51 called the test CAPTCHA now the test
+1:11:53 capture is given to us in various
+1:11:56 formats we have the CAPTCHA format which
+1:11:58 is test capture - zero one cap and then
+1:12:01 we have test capture or CSV we have a
+1:12:03 kismat CSV so it gives you a bunch of
+1:12:06 hormuz to actually nan you're cracking
+1:12:08 on now if you remember I had told you
+1:12:10 all that I have already generated a
+1:12:12 similar file at home basically
+1:12:15 when I was trying to crack into my own
+1:12:17 home password so I will be running the
+1:12:19 test on that file or the cracking
+1:12:21 procedure on that file and that is the
+1:12:23 last step of this whole procedure so let
+1:12:26 me just go ahead and move into that
+1:12:27 folder so I go CD scan now as you guys
+1:12:31 can see out her if I list down the files
+1:12:32 you can see a CAPTCHA one dot cop
+1:12:34 capture one or CSV there's a guesstimate
+1:12:36 CSV n there's a net XML so I was not
+1:12:39 lying when I said that I have already
+1:12:41 done this at home so we're gonna run our
+1:12:43 cracking process on capture with zero
+1:12:44 one cap now let me just tell you guys
+1:12:47 the password for my home Wi-Fi is sweet
+1:12:49 chip 346 so you can say that I know the
+1:12:52 entire password but I'm gonna act like
+1:12:54 somebody who only has a general idea of
+1:12:57 what my password looked like so let's
+1:12:59 say I know that my password contains
+1:13:01 tweet sure but I don't really know the
+1:13:03 last three numbers or letters or
+1:13:05 whatever they may be okay so we are
+1:13:07 gonna use crunch once again to generate
+1:13:09 a list of words that might include sweet
+1:13:13 chip 346 and let me just open the crunch
+1:13:16 manual for once now if you go down in
+1:13:18 the crunch manual what you see is a
+1:13:20 hyphen T so as you guys can see there is
+1:13:24 a pattern that is specified like add the
+1:13:26 rated-r a god and then followed by four
+1:13:29 other add rates and all the athletes
+1:13:31 will be replaced by a lowercase
+1:13:33 character now you can remove add rate
+1:13:35 and use a comma and it be replaced with
+1:13:38 an uppercase character or you can use
+1:13:40 percentages which in case it'll be
+1:13:42 numbers or you could use the caret side
+1:13:44 in which case it'll insert symbol so
+1:13:46 when you know the length of the password
+1:13:48 and also a certain degree a few letters
+1:13:51 you can use the hyphen T flag so that is
+1:13:53 exactly what you're gonna use with
+1:13:54 crunch out here for this example
+1:13:56 so let me just remind you guys that the
+1:13:58 password for my home Wi-Fi is we chipped
+1:14:01 346 now what we can do is we can ask
+1:14:05 crunch to actually generate something
+1:14:07 that looks like sweet chip 346 so what I
+1:14:10 could do is see crunch so the minimum
+1:14:14 length is 12 I already know that and the
+1:14:16 maximum length is also 12 now let me
+1:14:19 just input in the pattern so we put in
+1:14:22 the pattern after - T so now I'm gonna
+1:14:26 just show you how long it can take so we
+1:14:28 are just gonna say sweet and then put in
+1:14:30 some other dates and then also get a try
+1:14:33 and guess in the numbers so after you
+1:14:36 for in the pattern you want to also
+1:14:37 input which letters and numbers it could
+1:14:40 be and I'm just going to input my entire
+1:14:43 keyboard out here now what you want to
+1:14:45 do is pipe this command through
+1:14:47 aircrack-ng is cracking procedure
+1:14:51 okay so now what we want to do is pipe
+1:14:54 this command to aircrack-ng and we want
+1:14:58 to write from or rather read from the
+1:15:01 capture file so what we go is - W and
+1:15:04 then - and then the capture or file name
+1:15:07 so capture zero one dot cap and then we
+1:15:10 also have to specify the ESS ID which is
+1:15:13 given to the e flag and the ESS ID for
+1:15:16 my home Wi-Fi is nest away underscore
+1:15:19 c10 five so that's exactly what I'm
+1:15:22 going to type in and this will start the
+1:15:24 tracking process on my Wi-Fi from the
+1:15:29 captured file so as you guys can see
+1:15:31 this is gonna take a long long long long
+1:15:33 long time and I'm not really actually
+1:15:35 going to complete it so in this time I'm
+1:15:37 actually just gonna try and explain why
+1:15:40 this is not very feasible on a virtual
+1:15:43 network so basically this is not
+1:15:45 feasible because at this moment my
+1:15:47 computer is using all four of its course
+1:15:49 and all the memory that is possible so
+1:15:52 what this means is on a VirtualBox this
+1:15:55 is not really possible your VirtualBox
+1:15:56 don't really have that much power if you
+1:15:59 are using a four core processor computer
+1:16:02 only two of its maximum cores can be
+1:16:04 actually allotted to your VirtualBox
+1:16:06 machine above that you can't really give
+1:16:08 it the entire memory because that will
+1:16:10 make your computer crash so if you want
+1:16:13 to do something like this it's better
+1:16:15 that you install Kali Linux as a dual
+1:16:17 boot or as your own daily driver and
+1:16:21 then you can do this so this is why I
+1:16:23 have not done this on a virtual machine
+1:16:25 and instead the honest on deep in Linux
+1:16:28 which is my daily driver operating
+1:16:30 system now as you guys can see it is
+1:16:32 constantly trying to actually guess the
+1:16:34 password by actually going through all
+1:16:36 the permutations and combinations that
+1:16:38 is basically it's taking in all the
+1:16:41 words generated from crunch typing it
+1:16:43 into the current command that is the
+1:16:45 aircrack-ng command and it's comparing
+1:16:47 everything
+1:16:48 so what I'm gonna do is I'm actually
+1:16:50 gonna end this because this will take a
+1:16:52 very very very long time and what we're
+1:16:54 gonna do is we're gonna actually try and
+1:16:56 shorten the command of the odd amount of
+1:16:59 guessing that if you're trying to do so
+1:17:00 let me just try and do that so as you
+1:17:02 guys can see out here I have reduced the
+1:17:05 number of alphabets that might be
+1:17:07 actually tested but even in this case
+1:17:09 this will take a humongous amount of
+1:17:11 time and let me just show that to you so
+1:17:13 as you guys can see the test is running
+1:17:16 running running and running and there's
+1:17:18 not really much you can do you can just
+1:17:20 let this run and go out for a cup of
+1:17:22 coffee and then come back and you might
+1:17:24 still see that drawing it really depends
+1:17:26 on what the password is and how much
+1:17:27 time it takes to crack it and how much
+1:17:30 processing power you have directly
+1:17:32 affects how much time this will take so
+1:17:35 let me just show you guys that this is
+1:17:37 taking a bunch of time
+1:17:44 okay so now that I have fast forwarded a
+1:17:47 lot into the scan you can see that I
+1:17:50 have tried almost to one two seven six
+1:17:52 zero eight keys so that's more than a
+1:17:55 million keys that's 2 million keys that
+1:17:56 I've tried so and it still hasn't
+1:17:59 reached reached at 3:46 so what we're
+1:18:01 gonna do is just to show you for
+1:18:03 demonstration purposes that this
+1:18:05 procedure actually works
+1:18:06 let me just shorten our guessing even
+1:18:08 more so what we want to do is this time
+1:18:11 we want to just guess the numbers so we
+1:18:14 will modify our command accordingly so
+1:18:17 we just put in sweet chip and let the
+1:18:21 algorithm just guess the 346 part so
+1:18:23 we're gonna remove the alphabets from
+1:18:25 the guessing scope also and as you guys
+1:18:28 can see the password is almost
+1:18:30 immediately guessed because only 456
+1:18:33 keys were tested and as you guys can see
+1:18:35 it shows that the key was found in a
+1:18:37 switch of 346 now let me also show you
+1:18:40 that it works with the guessing of
+1:18:41 letters just because I don't think I've
+1:18:43 justified that letters are also guessed
+1:18:45 and not just numbers so let me make it
+1:18:47 just guess the P part that is sweet XI
+1:18:50 and then it should guess P and then 346
+1:18:53 so let me just show you that and X you
+1:18:55 guys can see it guesses it almost
+1:18:57 immediately after just going through
+1:18:59 15,000 keys ok so that brings us to the
+1:19:02 end of this Wi-Fi cracking tutorial and
+1:19:05 also to the end of this video which was
+1:19:08 regarding ethical hacking using Kali
+1:19:09 Linux I hope you guys had a bunch of fun
+1:19:11 learning about Mac changes proxy chains
+1:19:14 and a bunch of stuff that we did like
+1:19:16 Wi-Fi password cracking I hope you
+1:19:18 practice these procedures and
+1:19:20 methodologies and I have taught you only
+1:19:21 for your own educational purposes and
+1:19:24 not use it to harm anybody or do
+1:19:27 anything harmful with it because let me
+1:19:28 just tell you very seriously that you
+1:19:30 can be prosecuted by the law so let's
+1:19:33 end this video on a good note by saying
+1:19:35 please practice this for only
+1:19:37 educational purposes I'll meet you guys
+1:19:39 in the next video about ethical hacking
+1:19:41 until then goodbye I hope you have
+1:19:43 enjoyed listening to this video please
+1:19:46 be kind enough to like it and you can
+1:19:48 comment any of your doubts and queries
+1:19:50 and we will reply them at the earliest
+1:19:53 do look out for more videos in our
+1:19:55 playlist
+1:19:56 and subscribe to any Rekha channel to
+1:19:58 learn more happy learning

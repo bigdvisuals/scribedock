@@ -1,0 +1,604 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=vbEKEWtnndU
+Channel: Starter Story
+Video ID: vbEKEWtnndU
+Transcript language: English auto-generated
+Downloaded at: 2026-05-25T20:45:40.983Z
+
+0:00 Most people spend years searching for a
+0:02 business idea. This college student
+0:04 found his in an afternoon and then made
+0:07 $50,000 in 7 weeks. I'm a college
+0:09 student who built an app called Pepai.
+0:12 We launched just 7 weeks ago and we've
+0:14 already hit $50,000 in total revenue.
+0:17 The difference isn't luck, it's knowing
+0:19 where to look. And that's exactly what
+0:22 this episode today is about. This is
+0:23 like one of those things that it just
+0:25 blew up overnight. But that's kind of
+0:26 what I would do again is I would I asked
+0:29 Cedric, the founder, to come on to the
+0:31 channel to break down exactly how he did
+0:33 it. And in this episode, we'll cover the
+0:35 simple app he built in a couple weeks,
+0:37 the trending idea that helped him make
+0:39 over $50,000 in 7 weeks, and how anyone
+0:42 can spot ideas like this that are
+0:44 blowing up right now and build fast.
+0:47 This is one that you cannot miss. I'm
+0:49 Pat Walls, and this is Starter Story.
+0:52 All right, Cedric, welcome to the
+0:54 channel. want to tell me about who you
+0:55 are, what app you built, and what's your
+0:57 story?
+0:58 >> Yeah, my name is Cedric. I'm a college
+1:00 student who built an app called Pepai.
+1:02 We launched just 7 weeks ago, and we've
+1:04 already hit $50,000 in total revenue.
+1:07 Today, I'll break down exactly how I
+1:09 found this growing niche and turned it
+1:10 into an app that's helping thousands of
+1:12 people. Okay, so this app is super cool.
+1:14 It's super trending. We're going to get
+1:16 all into that and why this app popped
+1:17 off and made over $50,000 in basically
+1:20 about 7 weeks. But before we do, explain
+1:22 the app. Show me some of your revenue.
+1:24 show me that this thing is real.
+1:25 >> This is the app. Um, the main point of
+1:27 the app is tracking peptides for safety.
+1:30 A lot of people take peptides and don't
+1:33 really know what they're doing. So,
+1:34 there's weight loss ones. There's some
+1:35 for tanning, skin care, and some of them
+1:38 also are for like uh recovery. If you
+1:40 got injured, you can inject it in those
+1:42 spots and it's supposed to help your
+1:43 recovery process. So, the whole point of
+1:45 the app is to help people track their
+1:47 peptides safely. So, this is our revenue
+1:50 cat dashboard. This is in the last 28
+1:52 days. We have 33 uh,000 revenue, almost
+1:55 2,000 active subscriptions. Our MR is
+1:58 11K, total revenue 51K. We have a yearly
+2:03 subscription that's $45 and a monthly
+2:05 subscription for $10, um, with a 3-day
+2:08 free trial. All right, cool. Well,
+2:09 thanks for sharing your revenue
+2:10 dashboard, being open and transparent
+2:12 about that, especially cuz your app is
+2:13 trending and taking off right now, which
+2:15 we're going to talk all about that and
+2:16 maybe some of the reasons why this app
+2:18 grew so quickly. But before we do, I'm
+2:20 curious. Is this the first app that you
+2:22 built? What's your background? How do
+2:24 you get to this point where you've made
+2:25 over $50,000 with an app in about seven
+2:27 weeks?
+2:28 >> Yeah. So, um it's not the first app I've
+2:30 built. I built my first one in October
+2:33 was a student marketplace app for the
+2:35 University of Oregon and we just went
+2:37 around campus and kind of told people
+2:38 people about it and got like 800 users.
+2:40 But I always wanted to take it like to
+2:42 another level where I could actually
+2:43 make revenue cuz we didn't make any
+2:44 money with that app. The whole
+2:46 experience from the first app taught me
+2:47 that I needed to find a niche that was
+2:49 really specific to like a group of
+2:51 people that would be interested in it.
+2:53 So once I realized that, you know, I
+2:55 decided to find something that was
+2:57 really popular. And how I went about
+2:58 that was just scrolling social media
+3:00 until I found something that everyone
+3:02 was talking about and realized that
+3:03 there was no successful app for this.
+3:05 All right. Yeah. I mean, I think one of
+3:07 the most common first business ideas
+3:08 when I talk to a lot of founders is
+3:10 building a marketplace. Obviously,
+3:11 that's really hard to do. It's hard to
+3:13 monetize. It's hard to get it to work.
+3:14 But an app like this, obviously, it
+3:16 worked out pretty quickly. So, let's
+3:17 talk about that. We're gonna talk about
+3:18 how you grew it. But first, I want to
+3:20 know how did you build it and how long
+3:22 did it take to go from idea to working
+3:24 app?
+3:25 >> Yeah, it didn't really take that long,
+3:26 honestly, because vibe coding makes it
+3:28 so easy. I uh started on Replet, which
+3:30 was really easy because I would just
+3:33 explain what I wanted and it would build
+3:34 it for me. I also had Claude as like my
+3:37 guide. So, when it came to setting up
+3:39 revenue cat for inapp subscriptions, um,
+3:42 resend for sending out emails, anything
+3:44 that I have no idea how to set up, I
+3:46 could just ask Claude and it was like my
+3:48 senior developer. So, using Claude and
+3:50 Replet, it took about 2 weeks to build
+3:52 out. Um, and then I used Firebase for
+3:54 the back end, which we just store all of
+3:56 our user data. The hard part though was
+3:58 just Apple rejected it like a million
+3:59 times because they don't really want you
+4:02 to give it medical advice, and a lot of
+4:04 the features came off as that. So once
+4:05 we worked around it and found out how
+4:07 other kind of similar apps were doing
+4:09 it, we found, you know, the good spot
+4:11 where Apple was happy and they approved
+4:13 it and now it's hasn't been an issue.
+4:15 >> So it's funny, it doesn't really take
+4:16 that long, even if you're not technical,
+4:18 to build an app these days. The longest
+4:19 process, at least for iOS, I talked to a
+4:21 lot of founders, is just getting it
+4:23 approved. How long did that process take
+4:24 >> to get it approved? Probably like a
+4:26 week, just back and forth. To make it
+4:28 faster, I found out that you can
+4:30 expedite Apple reviews if there's
+4:32 something major. So, we actually got one
+4:34 approved kind of quickly and then there
+4:36 was a bunch of issues. So, then I found
+4:38 out about this expedite review which
+4:39 then they would review it in like two
+4:41 hours instead of two days which kind of
+4:43 sped up our process. I love what Cedric
+4:45 is breaking down right now. But the real
+4:47 secret behind his success I think is the
+4:50 power of AI. See, when you have an idea
+4:52 or you spot a trending topic like this,
+4:55 the most important thing is your ability
+4:57 to build and launch fast. And with
+4:59 today's AI tools, this is more possible
+5:02 than ever before. So, if you're
+5:04 wondering how you can get started, find
+5:06 an idea, and build it quickly. Well, I
+5:08 have something for you. Inside Starter
+5:09 Story Build, we have our free iOS boot
+5:12 camp. In just a few days, we will guide
+5:14 you on how to spot a good idea, how to
+5:16 build it, and how to get it ready for
+5:17 the app store. You will build it 100%
+5:19 with AI. You don't need to be technical,
+5:21 and you don't need to write a single
+5:23 line of code yourself. If you're ready
+5:24 to build, just head to the first link in
+5:26 the description, and you can get started
+5:28 for free. All right, let's get back to
+5:29 the episode. Okay, cool. So, as everyone
+5:31 knows who watches this channel, the easy
+5:33 part is building it. You built it few
+5:35 days. It took a week to get it approved.
+5:37 That's not that hard. Didn't take that
+5:38 long. I think one of the most important
+5:40 things for a lot of people watching this
+5:42 channel is how to find the right idea.
+5:43 And I think that your app is the perfect
+5:44 example of finding a great niche, a
+5:47 great idea, a growing trend. So, let's
+5:49 talk about that. How did you actually
+5:50 find this idea? How did you validate and
+5:52 how did you know and have confidence
+5:54 that this is something that can make
+5:55 $50,000 in 7 weeks? How it started is
+5:57 one of my roommates um came up to me and
+6:00 was like, "We should take peptides." And
+6:01 I had no idea what he was talking about.
+6:03 Like a week later, I get a Tik Tok on my
+6:05 for you page about peptides. And so, you
+6:07 know, started looking them up and found
+6:08 that they're huge on social media. There
+6:10 wasn't an actual peptide app out there
+6:11 to like really explain what all these
+6:13 peptides do and how to use them safely.
+6:15 And there there were a couple that had
+6:17 been out for a couple years, but none of
+6:18 them were successful yet. That's when I
+6:20 realized that there was like an opening
+6:21 there. So then I went through every
+6:23 single existing app, looked through all
+6:25 the reviews of the things like what do
+6:26 people like, what do they not like, what
+6:28 do they wish they had, and then from
+6:30 there I just built the best version and
+6:31 had Claude do a bunch of searches so
+6:33 that we could build something that would
+6:34 be actually useful for people when they
+6:36 want to take peptides or just learn
+6:38 about them. I think there's a couple
+6:39 interesting points you have there, which
+6:41 is like there was like a couple of
+6:42 signals, which is your friend told you
+6:44 about it, then you saw it in Tik Tok,
+6:45 and then you had genuine interest in it
+6:48 as well. Those are like three things
+6:49 that I think are really important. If
+6:50 anyone's watching this, what would be
+6:52 your advice to them on like how to
+6:54 identify like an idea like this? Tell me
+6:57 a little bit more about that.
+6:58 >> Yeah, it's hard to say because, you
+6:59 know, this is like one of those things
+7:00 that it just blew up overnight kind of
+7:02 and then I just moved quick. But that's
+7:04 kind of what I would do again is I would
+7:06 scroll social media, find all these big
+7:07 content creators online and what are
+7:09 they all talking about? Is there
+7:10 something you've never heard of that
+7:11 they're all talking about? Cuz if there
+7:13 is, there's a chance that it's something
+7:14 new and no one has done anything with
+7:16 it. Um, an example I have is like people
+7:18 were really into looks maxing for a
+7:20 while and like just be trying to look as
+7:22 best as they can. And so this guy made
+7:23 an app where you like take a picture of
+7:25 yourself and it tells you what you need
+7:26 to do to make yourself look better. And
+7:28 that was just a trend on TikTok. So I
+7:30 think that if you can find any trend
+7:31 online, you can turn it into an app.
+7:33 What's super cool about your app,
+7:34 Peptides, is that you probably don't
+7:36 have to work that hard to market it
+7:37 right now relatively because PE it's
+7:40 just so popular right now that people
+7:42 are actually just searching it in the
+7:43 app store and finding your app. 100%
+7:45 organic and uh you know that's one of
+7:48 the huge benefits of finding a trend
+7:50 before it takes off.
+7:51 >> Um there's actually there's been a
+7:52 couple competitor apps that have come
+7:53 out since we started like everyone's
+7:55 copying ours kind of and like creating
+7:57 apps called like peptide AI now. One of
+7:59 them like there was a post on X that
+8:01 blew up about that. People started
+8:02 looking up Peptide AI but ours was the
+8:04 top search and we got like a bunch of
+8:06 like just traction from that. So it puts
+8:08 us in a good spot. Building on a growing
+8:10 trend. Let's dive a little bit deeper
+8:11 into that. If you were to start over
+8:13 right now, peptides are already reached
+8:16 the top of their trend curve and you
+8:18 have to find a new idea. What would be
+8:19 your step by step? If you're starting
+8:20 over in middle of 2026, finding a new
+8:24 trend in building an app, what would be
+8:25 your process? I would probably just live
+8:27 on social media. Every second I have, I
+8:29 would just go on there, scroll Tik Tok,
+8:31 scroll Instagram, and just find what
+8:33 everyone's talking about. This is what a
+8:34 lot of successful people have done is
+8:36 finding things that are just blowing up.
+8:38 But I would literally just step one is
+8:40 watch Tik Tok every single day and find
+8:42 out what people are just genuinely
+8:43 obsessed over. If multiple people are
+8:45 posting about it, it's probably going to
+8:46 be something that you can turn into a
+8:48 tool that people would use. Um, step two
+8:50 is to investigate whether these apps
+8:52 already exist in the space. And if they
+8:54 do, I think it's actually a good thing
+8:56 because it kind of validates that this
+8:58 is something that people want. If
+8:59 there's zero apps, it still 100% can be
+9:02 popular and done well. But I think if
+9:04 there are a couple apps, that's a good
+9:05 sign because they people have built it,
+9:07 people want it, just no one's really
+9:09 marketed it like successfully yet. Uh,
+9:11 next step is what I would do is look for
+9:13 these other apps and come up with ideas
+9:15 off of it. I would literally go through
+9:16 every single review on all these apps.
+9:19 Um, like I said before, find what people
+9:20 like, what they don't like, what they
+9:22 wish the app had, and then take all that
+9:25 and give it to Claude or Chat GBT and
+9:27 have them come up with your app idea so
+9:30 that you have at least a foundation of
+9:31 what you want to build. This is genius.
+9:33 I actually just talked to a founder who
+9:35 completely rebranded their entire app
+9:37 based on past uh they took all their
+9:39 reviews, they took all their
+9:41 cancellation reasons in Stripe, they
+9:43 took all their support requests, they
+9:44 pumped it into Claude and they
+9:46 completely rebranded their app and then
+9:48 after the rebrand they grew like 350% or
+9:50 something like that. So go on and look
+9:52 at the existing even if you have
+9:54 competitors go take their reviews, put
+9:56 it into Claude, build your own thing.
+9:58 You might be able to do it better. I
+9:59 like that. What's the next step? Step
+10:01 four, I would say is to find influencers
+10:03 in that niche and get them posting about
+10:05 it before you even launch. We reached
+10:07 out to a couple people, had them made a
+10:09 couple posts just to see like, are
+10:11 people interested in this? And all of
+10:12 them said yes. We made some Reddit posts
+10:14 and we had a wait list with like 300
+10:17 people on it before we launched. So, we
+10:18 knew that this was something people were
+10:20 really going to be interested in. And
+10:21 and one thing I also did was when I
+10:23 first got interested in peptides, I was
+10:25 watching a lot of people on social media
+10:27 and everything that these guys would
+10:29 say, I believed and trusted, which is
+10:30 kind of what gave me the idea that if I
+10:32 trusted them and if they were promoting
+10:34 an app, I would totally download it. So
+10:36 if I just got to them before anyone else
+10:37 and got them to post about my app and be
+10:39 like, "This is the tool I use."
+10:41 Everyone's going to listen to that. So
+10:42 the results were what really blew me
+10:44 away. We had one guy that had made one
+10:46 story post and from that we did $1,000
+10:49 in revenue, which is insane for one
+10:51 story post on Instagram. And then when
+10:53 he made his actual first post, it got
+10:55 50,000 views and we did like $4,000 in
+10:58 revenue just from that day. We think
+11:00 that we did in total over 10,000 revenue
+11:02 from that post. So that's really what re
+11:06 made me realize how important the
+11:07 influencer marketing is. I mean, I feel
+11:09 like that's one of the little secrets
+11:11 also of finding something trending is
+11:13 there's also like influencers that are
+11:15 maybe don't realize how powerful or
+11:17 realize how big their following is
+11:19 because the trend is still so early. And
+11:21 that's a great example of that. I'm
+11:22 guessing you couldn't attribute all the
+11:23 revenue, but $10,000 from a single post
+11:26 is insane. What's the final step? Step
+11:28 five, though, and I think the most
+11:30 important part about building an app is
+11:31 marketing. I I think marketing and
+11:33 distribution matters way more than your
+11:35 idea, than your app, how great it is. If
+11:37 you don't have a vision for how you will
+11:39 market it and distribute it, then I just
+11:42 don't even think it's worth building. I
+11:43 got this advice from some other podcasts
+11:45 that I watched of other successful app
+11:47 founders and that's their biggest piece
+11:49 of advice is just if you don't know how
+11:51 you're going to market it and you don't
+11:52 have a plan for influencer marketing,
+11:54 ads, whatever it is, that's the biggest
+11:56 thing. So unless you feel very confident
+11:58 in how you'll market it, I wouldn't even
+12:00 build it.
+12:00 >> There's a famous quote which is first
+12:02 time founders think about product,
+12:04 second time founders think about
+12:05 distribution. Let's switch topics a
+12:07 little bit and actually take a look at
+12:09 your app. I'd love if you could show me
+12:11 the app that you built, the app that
+12:12 made $50,000 in seven weeks. Could you
+12:14 just like walk me through a demo of the
+12:16 app? Yeah. So, the core features of
+12:19 Pepai is the main feature is peptide
+12:22 tracking. You know, people want to be
+12:23 safe about what they're tracking and
+12:25 know how much to take. The first feature
+12:26 I would use on the app is go to the
+12:28 calculator where there you can put in
+12:30 your vial amount. Then you can add your
+12:32 backwater and how much you're wanting to
+12:35 take. And then from there, it tells you
+12:37 how many units to pull to. After that,
+12:39 you could go to adding your peptide.
+12:43 Then you put in how much is in that one,
+12:45 how much water, but then once you get to
+12:47 there and you have everything inserted,
+12:49 then you can actually log a dose. And
+12:51 from the calculator, you know how much
+12:52 you would be taking. Um, and then choose
+12:54 your injection site, which is a really
+12:55 important part because you want to
+12:57 remember where you did last time. You
+12:58 don't want to do the same spot over and
+13:00 over. And then after that, the other
+13:01 really important feature is just our
+13:03 research. You know, we have a kind of
+13:05 like a Duolingo type feature where you
+13:07 can take quizzes and teach yourself
+13:09 everything about peptides. And then we
+13:11 also have a research library where you
+13:12 can look at different type of peptides,
+13:14 you know, the overview, the research
+13:16 focus, how it works. Um, and then we
+13:19 have sources in there from PubMed, which
+13:22 is a a source everyone likes for reading
+13:23 about peptides where you can see the
+13:25 real information about it. And then uh
+13:27 yeah, then we have a lifestyle feature
+13:28 where you can like do meal scanning,
+13:30 tracking nutrition, weight tracking,
+13:32 Apple health integration, progress
+13:34 photos, and yeah, that kind of sums up
+13:36 what the app does. So, it's pretty
+13:37 simple. Cool. I was uh just searching
+13:40 peptide tracker on the app store right
+13:42 here on my phone. And looks like there's
+13:43 a couple ads, but you come up number
+13:46 three, which is awesome. Congrats. Last
+13:49 question that we ask all founders who
+13:50 come on here. What would be your advice
+13:52 if you could go back in time before you
+13:53 had this successful app that was making
+13:55 money, maybe after you had that first
+13:56 app that didn't really work out. What
+13:58 advice would you have for your younger
+14:00 self or for anyone watching this that
+14:02 wants to build a profitable app like
+14:03 you? Yeah, my biggest piece of advice
+14:05 and the advice I've given myself this
+14:07 entire time is just literally never
+14:08 giving up on myself. I've always been
+14:11 very like an entrepreneurship type of
+14:13 person and I've always wanted to have my
+14:14 own company building apps or video games
+14:16 and so it's always been my dream and so
+14:18 once vibe coding became a thing I knew I
+14:20 could actually do it and so I've just
+14:22 never given up and I was literally never
+14:24 going to stop until something became
+14:25 successful it just happened a lot faster
+14:27 than I thought it would but I still want
+14:29 to scale even farther. I want to make
+14:31 this a $1 million a month app and so I
+14:33 got to keep telling myself the same
+14:34 advice. Just never give up. Fully
+14:36 believe in yourself. I've had literally
+14:38 a lot of my friends that I'm really
+14:40 close to that have just make fun of my
+14:42 app ideas. Even what it is now, they
+14:44 still think it's funny and not a serious
+14:46 thing, but I have a vision and I know
+14:47 where I want to be. So, it's just never
+14:49 giving up on what you really believe in.
+14:51 Well, that's awesome advice. Thanks for
+14:53 coming on the show. Congrats on your
+14:55 success. I think it's going to grow and
+14:56 become a lot bigger and you'll hit that
+14:57 1 million a month. Maybe we'll have you
+14:59 back on the channel. Put a comment there
+15:00 below if you'd like to see Cedric come
+15:02 back on when he's hit 100K per month or
+15:05 maybe a million per month. Otherwise,
+15:06 thanks for coming on and sharing this.
+15:08 It's amazing what you can build in seven
+15:09 weeks with the right idea. Thanks for
+15:11 coming on.
+15:11 >> Yeah, thank you for having me, guys.
+15:13 >> All right, Gus, producer of Starter
+15:15 Story. What' you think of this one?
+15:17 >> That was cool. I mean, I don't know
+15:18 anything about peptides. So, first of
+15:20 all, I feel like I learned a lot. And
+15:22 then second, I just love seeing a young
+15:24 kid who just kind of like saw an idea,
+15:26 built it fast. He talked at the end
+15:28 about like how his friends are like,
+15:29 "That's kind of stupid." Or maybe aren't
+15:30 like fully bought in, and he's just
+15:32 like, "I'm going to do it anyway." So
+15:33 that's kind of like not a big lesson
+15:35 about everything he shared, but that's
+15:36 something that's sticking out to me
+15:37 right now.
+15:38 >> He sort of mentioned this right at the
+15:39 end. I'm not sure if it'll get into the
+15:41 final edit, but he said like, "I don't
+15:43 know if I would have been able to do
+15:45 this without AI coding tools." This is a
+15:47 kind of classic example of someone who
+15:49 like has a cool idea, but maybe wouldn't
+15:51 have been able to build it or, you know,
+15:54 would have gotten lost with crappy
+15:55 developer or something like that even
+15:57 two years ago. But he was able to build
+15:59 this with AI tools and you know is kind
+16:01 of marketing focused and ideas focused,
+16:04 execution focused. He mentioned that he
+16:06 just had an idea and built it as quickly
+16:08 as possible. That's usually a sign of a
+16:10 great builder or founder entrepreneur is
+16:12 someone who just built it.
+16:13 >> I mean we've said this over and over
+16:15 again on this channel or whatever, but
+16:16 like really these AI coding tools are
+16:18 really just game changers for regular
+16:21 old people. I'm not saying he's a
+16:22 regular old guy, but like me or or like
+16:25 him or people who have ideas, they can
+16:26 just like go build it really fast. And
+16:29 but yeah, that that was that's that that
+16:31 was like a it's a good lesson. Like you
+16:33 can have any idea and just like
+16:34 everything's there for you to go build.
+16:36 Just go build it.
+16:37 >> The other underrated theme of this, and
+16:38 hopefully it really comes out in the
+16:40 video because I think it's probably one
+16:41 of the most important things you can do,
+16:42 especially if you're building your first
+16:44 app, is build on a growing trend. You
+16:46 get so much free juice when you do
+16:50 something like that, right? Peptides is
+16:52 one of those trending things that
+16:54 everyone is talking about. If you're in
+16:57 the, you know, the pop culture or
+16:59 whatever, everyone's talking about it
+17:00 and you're just getting so much free
+17:02 users revenue just by building on that
+17:05 space. Let's say he had a really crappy
+17:07 app. It still would make money. It still
+17:09 would be successful if you just build it
+17:11 on something exciting rather than
+17:12 something that's dying like, I don't
+17:13 know, newspapers or something like that.
+17:15 So, I think that is like hopefully the
+17:16 biggest lesson you can walk away from
+17:18 this video. I don't know your thoughts
+17:19 on that.
+17:19 >> Yeah, I mean he said like I just scroll
+17:21 and it's like kind of boring, but I
+17:23 think he had sort of this sort of like
+17:24 magnifying glass. I think that most
+17:26 people don't. So, yeah. I think if
+17:28 you're like really wanting to build
+17:29 something or wanting to like create
+17:31 something like he did, you just really
+17:32 have to have this like magnifying glass
+17:34 on social media instead of just like I
+17:36 don't know brain rotting. People online
+17:38 are always talking about something new
+17:40 or something interesting or something
+17:41 trending. And if you're paying close
+17:42 enough attention, you can, like you
+17:44 said, get that that juice.
+17:46 >> Yeah. Well, if you're looking to build
+17:47 something as well, I think a great idea
+17:49 is, as you mentioned, go on social
+17:51 media, browse it for an hour. You might
+17:53 just find something. And when you do,
+17:54 you got to build it. You got to build
+17:55 that iOS app. I think building iOS apps
+17:57 is a great platform to be building a
+17:59 business right now. And if you're
+18:00 looking to do that, check out the link
+18:02 in the description for our iOS boot
+18:04 camp. We'll teach you how to come up
+18:05 with an idea, build it, and get it live
+18:07 and approved on the app store in just a
+18:09 matter of weeks. Click that link there
+18:11 down in the description if you want to
+18:12 check it out. Otherwise, we'll see you
+18:13 in the next one. Peace.

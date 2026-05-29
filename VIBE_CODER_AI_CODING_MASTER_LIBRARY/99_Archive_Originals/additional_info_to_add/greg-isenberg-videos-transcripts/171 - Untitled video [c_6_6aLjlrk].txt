@@ -1,0 +1,1052 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=c_6_6aLjlrk
+Channel: Greg Isenberg
+Video ID: c_6_6aLjlrk
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 what haven't we covered that we
+0:02 should pricing monetization how you make
+0:05 money yeah it's important oh yeah um the
+0:10 first thing I'll say is that one of my
+0:12 favorite lines about this is um I think
+0:15 it's originally Walt Disney quote which
+0:17 is um we don't make movies to make money
+0:19 we make money to make more movies and
+0:22 Facebook co-opted this and it's in the
+0:24 Little Red Book you know which is um we
+0:27 don't make services to make money we
+0:29 make money to make better services and I
+0:32 really believe that the the most
+0:34 successful companies in the world have
+0:35 that view I think that you can build an
+0:37 incredibly successful company that makes
+0:39 you millions of dollars that does not
+0:40 have that view you know that's kind of
+0:42 like the more mercenary approach but you
+0:44 kind of need to decide who you
+0:47 are before you start with your pricing
+0:50 strategy um
+0:54 [Music]
+1:00 so today we have a very special guest uh
+1:03 I would say on my Mount Rushmore of
+1:06 product people I only I think I only
+1:08 have two people that come to mind one is
+1:11 Scott belly who I've had on the Pod
+1:13 before Chief product officer of adobe uh
+1:16 he advised my last company um super
+1:19 super smart guy and the other way less
+1:22 known in in the internet world but
+1:25 people who know no Mike udak so I
+1:29 appreciate you coming on here and and
+1:31 lending your brain to get people to
+1:34 think bigger about startup ideas and
+1:36 spaces that you're interested in thanks
+1:38 dude that's um really kind of you to say
+1:42 it's true D it's true and and and it's I
+1:45 you know one part of the show I'm trying
+1:46 to do is like people who who might not
+1:50 have as much internet Fame like bring
+1:52 them and give them the platform um
+1:54 because dude you're a smart guy so so
+1:57 you yeah well you what uh what's on your
+2:02 mind today oh my God so many things
+2:05 you're okay so you asked me to come with
+2:07 startup ideas so what are the most
+2:09 annoying things that you've had to do in
+2:12 the last like week that have taken you a
+2:16 bunch of time that you feel like an AI
+2:17 could do you know with by just throwing
+2:19 some compute at it yeah do you have a
+2:22 list do you know what they
+2:24 are um I can
+2:26 probably I can probably figure that
+2:30 like can you find like cuz I I mean I
+2:33 can tell you off the top of my head
+2:34 right like I would pay an AI agent to
+2:38 book me a flight right I'd pay an AI
+2:41 agent to book me a
+2:43 hotel I'd pay an AI agent to book me a
+2:46 restaurant or find me a restaurant and
+2:49 I'd probably spend a lot of money on all
+2:51 three of those things
+2:53 yeah um and I think that those are all
+2:56 things that they could be really like
+2:57 tremendously good at so so it's funny
+3:00 you bring this up so I was writing this
+3:02 down for myself maybe I'll post this on
+3:04 my newsletter but I was thinking about
+3:08 okay what like what's a framework for
+3:11 thinking about creating AI Agents from a
+3:13 product perspective so here here's what
+3:16 I wrote down a single clear
+3:18 action instant
+3:21 feedback bounded decisions and zero
+3:25 friction so I wrote down smart agents
+3:28 that can actually think that can
+3:30 understand what you mean learn from
+3:31 mistakes explain decisions handle new
+3:34 new situations so then I wrote down by
+3:36 the way I I wasn't planning on sharing
+3:38 this so these are just some rough notes
+3:40 um so I was like okay how do you build a
+3:43 a smart agent that is going to be
+3:46 valuable start with one action that
+3:47 matters add llm understanding build
+3:51 tight feedback loops learn from every
+3:53 interaction and expand slowly what do
+3:55 you think about that I think that's
+3:57 exactly right and I like I think about
+3:58 okay so these are all things that I've
+4:00 had to do in the last week right I've
+4:01 also had to deal with scheduling which
+4:02 is really annoying and I was really
+4:04 struck I had a really amazing like
+4:06 personalized AI like llm experience
+4:09 recently where I used I was trying to
+4:11 find this investor I was talking to
+4:13 who's Japanese I remember that when I
+4:16 spoke with him he was in
+4:18 California and he's on the board
+4:21 of some Japanese Financial conglomerate
+4:24 but I couldn't think of the name um and
+4:27 so it's going to be a nightmare to find
+4:28 in in super human but I realized that
+4:31 there was ask Ai and I just said all of
+4:33 that and it came up with the wrong
+4:35 answer the first
+4:36 time and uh I said no no no the guy I'm
+4:40 talking about has a Japanese name and it
+4:42 came up with the right answer the second
+4:44 time and it was the first time that I've
+4:47 had like
+4:48 a really personalized like I'm just
+4:52 talking out loud trying to like find
+4:56 recall moment where like an AI actually
+4:59 really solved that problem for
+5:02 me and we use AI I'm building this thing
+5:05 called sling money right now and we use
+5:06 AI for a bunch of stuff for customer
+5:08 service for for financial crime um
+5:11 compliance reasons you know all sorts of
+5:13 things it automates repetitive tasks
+5:15 which are a real pain like going in we
+5:17 use this thing called um green light to
+5:20 do Ed like enhance due diligence on
+5:23 people so it goes and searches the web
+5:25 and then comes back with all the
+5:26 information you can just click one
+5:28 button you know it's great
+5:30 um and I I think that if you were to
+5:32 catalog all the things in your life
+5:34 which are like a real pain in the ass
+5:36 that fit your criteria it's a good list
+5:40 um you you could very quickly like train
+5:43 an llm on your past restaurant visits or
+5:46 your Google Maps history or your email
+5:50 to like learn about what kind of stuff
+5:52 you like and then it can just have you
+5:54 seen the new arc uh the new browser
+5:56 company browser
+5:58 Dia yeah yeah I think that's what it's
+6:00 called yeah know they've been kind of
+6:02 teasing it a little bit and it goes and
+6:03 it browses and it explains what it's
+6:05 doing you know you just type you're like
+6:07 hey you know do this for me and it's
+6:08 like oh okay I'm going to go do this I'm
+6:10 now going to click on this thing like
+6:12 why can't you just have that for like
+6:13 all the things that I have to do every
+6:14 day that's like a pain in the
+6:16 ass and I'd pay five bucks for each one
+6:20 of them yeah I mean I shouldn't be
+6:22 sharing this because like my team told
+6:24 me not to share this but I can't help
+6:27 myself is
+6:29 agencies are a really good business
+6:33 right now because it's super manual like
+6:36 it's humans doing things it's in a
+6:38 particular Niche like a good agency is
+6:40 focused on SAS fintech they're the best
+6:43 at you know just this one Niche and if
+6:46 you think about agencies like you know I
+6:48 wrote down in the same document I was
+6:51 like uh agencies like agent are the new
+6:55 agencies yeah for sure for sure if if I
+7:00 was trying to build an AI agent that I
+7:03 can sell to someone um of course we can
+7:07 you know come up with consumer ideas but
+7:09 like I'd probably start by just becoming
+7:11 of I'd either build or buy an agency
+7:15 quick break in the Pod to tell you a
+7:16 little bit about startup Empire so
+7:19 startup Empire is my private membership
+7:23 where it's a bunch of people like me
+7:26 like you who want to build out their
+7:29 startup ideas uh now they're looking for
+7:31 content to help accelerate that they're
+7:33 looking for potential co-founders
+7:35 they're looking for uh tutorials from
+7:38 people like me to come in and tell them
+7:41 how do you do email marketing how do you
+7:42 build an audience how do you go viral on
+7:44 Twitter all these different things
+7:46 that's exactly what startup Empire is
+7:49 and it's for people who want to start a
+7:52 startup but are looking for ideas or
+7:54 it's for people who have a startup but
+7:56 just they're not seeing the traction uh
+7:59 that they need so you can check out the
+8:01 link to Startup empire.co in the
+8:04 description that's so interesting so
+8:07 some of the best AI stuff I'm seeing
+8:09 right now um there are three that I
+8:12 think are really amazing so Greenlight
+8:13 is one which we use for fin crime
+8:15 another one is granola which is like a
+8:17 personal like note taking app um wait
+8:21 hold on Greenlight I haven't heard of
+8:22 this let me let me pull this out g r n l
+8:25 i t it's like a fin crime it's like a
+8:28 compliance
+8:30 let me share my screen real quick and we
+8:32 can we can learn together this fits into
+8:35 the same category of task where when
+8:38 you're running like a bank or a
+8:41 financial product you often have to do
+8:44 research on people to clear an alert or
+8:47 you have to like figure out what
+8:49 somebody's trying to do with a
+8:50 transaction or something like that and
+8:53 that's like a lot of really manual
+8:56 work and most of it now can just be
+8:59 completely
+9:01 automated dude this is crazy
+9:05 yeah this is crazy so I was their first
+9:08 customer Zing was their first customer
+9:11 um and we were like their design partner
+9:13 and they're they're crushing it now I
+9:15 mean just
+9:18 unbelievable yeah this is this this is
+9:20 going to be a huge business massive
+9:23 yeah okay what was this the other one so
+9:27 granola which is a note-taking app right
+9:30 I should say I'm invested in all three
+9:32 of these so
+9:34 okay um so this is an AI like notepad so
+9:39 it can listen to your meeting and then
+9:41 write notes for you but you can it's
+9:43 very cool because it um takes notes
+9:47 collaboratively with you so you can
+9:49 write notes and then it fills them in
+9:50 and if you want to restructure its notes
+9:52 as you go you can do that um it's super
+9:56 cool it's like an amazing like human
+10:00 machine
+10:01 hybrid how do you use it very well
+10:04 crafted um I use it for a subset of my
+10:08 meetings I don't like to have most of my
+10:09 meetings recorded but I I use it for
+10:11 like a subset of meetings and I take
+10:13 notes usually stuff which is like
+10:16 somebody's pitching a product or service
+10:18 or like a new partnership or something
+10:21 like that and I'll take a bunch of notes
+10:22 and then share it with the team you know
+10:24 like as part of followup that's like my
+10:26 main use case it looks beautiful just
+10:30 like yeah I've played with a a bunch of
+10:34 these apps and I don't know they haven't
+10:35 really stuck with me just because you
+10:39 know like you I'm like a the product
+10:42 needs to be tight um so but this this
+10:45 looks worth trying it's great and then
+10:47 the third one is called gradient
+10:50 AI there you go again naming is hard all
+10:53 these
+10:54 collisions and so these guys are
+10:57 building amazing customer service agents
+11:01 that um I don't know how much I can say
+11:04 but they dramatically outperform like
+11:07 you know intercom has AI built in these
+11:10 guys are dramatically outperforming
+11:12 intercom in all of the with all the
+11:15 customers that they have um the early
+11:18 stage I I used to work with well most of
+11:20 the team at at monzo which is like a Neo
+11:22 Bank in the UK the the CEO um the three
+11:26 founders were on the data science team
+11:27 there um
+11:30 and they're brilliant and they're
+11:32 building like again it's like a discreet
+11:36 very focused very tight thing that
+11:40 solves a very specific very manual
+11:43 problem have you seen
+11:45 Bland
+11:49 no
+11:51 so this is great yeah like right you
+11:55 look at it and it's like so basically
+11:57 for people listening uh not on YouTube
+12:01 um it's it's for it's AI phone calls
+12:05 basically um and you yeah tell Bland
+12:08 your use case sales customer support
+12:10 operations it's in any language which is
+12:13 crazy um and you can pick your voice uh
+12:16 teach it like an employee so there's
+12:18 intelligence there and it inte it
+12:20 integrates with your tools so you can
+12:21 like integrate it with Salesforce or
+12:23 whatever um I have a
+12:27 friend who
+12:30 contacted a company like BR Bland and
+12:33 was like I want to build the Bland for
+12:36 Germany for example and making that
+12:38 country up yeah and I think that there's
+12:40 a huge opportunity in taking some of
+12:43 these businesses partnering with them
+12:44 and being like I'll just do your you
+12:47 know Canadian arm and you know people
+12:51 think oh that's so small it's such a
+12:53 small way of thinking but
+12:55 like uh you know well simple which is
+12:58 the Robin Hood of Canada still like a
+12:59 three and a half billion dollar company
+13:01 you know for sure there there's
+13:03 opportunity in
+13:04 geographies yeah for sure for sure for
+13:08 sure this is super cool this is super
+13:10 cool there's another one uh I invested
+13:14 in recently it's a YC company that is
+13:15 doing um debt AI debt collection which I
+13:19 would have thought was like a terrible
+13:20 idea I can't think of the name off the
+13:22 top of my head but the way the guy
+13:25 explained it which I thought was really
+13:26 amazing was that um they like the best
+13:30 debt collectors on the phone are
+13:32 actually like
+13:33 deeply uh that's it do Mo um yeah the
+13:37 fourth one domu uh or the second one
+13:40 yeah um they do sales and stuff too but
+13:44 he's like they're just like deeply
+13:46 empathetic and thoughtful and they say
+13:49 things like oh well you have a th you
+13:50 owe $1,000 do you think you could afford
+13:52 to do $100 right now or $150 right now
+13:55 and they're like actually very kind and
+13:57 it's hard to it's hard to get that kind
+14:01 of kindness maybe consistently out of
+14:04 people and but there's like an
+14:05 automatable script there and you can
+14:08 learn a
+14:09 lot um I think they're doing incredibly
+14:11 well like incredibly well
+14:15 um and I just think again there's just
+14:18 like a million of these kind of tasks
+14:22 out there that either you experience as
+14:24 a consumer or or a company goes through
+14:27 that you can just like
+14:30 build a very highly
+14:32 customized AI engine around with a
+14:34 really tight feedback loop and just
+14:36 crush
+14:37 it yeah and you could I mean you could
+14:40 just open up for example
+14:43 Claude and
+14:45 say uh you know list me all the pain
+14:48 points in social media
+14:52 management
+14:57 yeah right and it'll give you some ideas
+15:04 yeah so I'm just you know I'll just read
+15:07 a few content creation and scheduling
+15:09 consistently producing engaging high
+15:11 quality content across multiple
+15:12 platforms managing content Cal and
+15:15 approval workflows Community Management
+15:18 so managing crisis communication
+15:19 negative feedback like each of these
+15:21 could be multiple agents for
+15:25 sure creating platform specific formats
+15:28 I mean
+15:29 you know brilliant like give it the
+15:32 assets and tell it to like pump out all
+15:34 the jams across all the platforms right
+15:38 and how how do you think about because
+15:40 you know I know you've built consumer
+15:43 like earlier in your career you a really
+15:45 consumer like you were Blip TV back in
+15:48 the day which I think is now owned by
+15:51 Disney Facebook like can't get more
+15:54 consumer than that you were at Facebook
+15:56 I think running their ads
+15:59 I did ads there and I did um sharing so
+16:02 like photos video and everything yeah
+16:04 right so how do you think you know that
+16:08 yeah how how should people think about
+16:09 should I build a b Toc thing or a B2B
+16:12 thing um I'll tell you the way that I
+16:15 think about it um is
+16:18 um I think B Toc is often like a bigger
+16:23 opportunity can scale to be really
+16:25 massive but go to market and finding
+16:28 product Market fit and then growing the
+16:29 thing is really really hard and you have
+16:31 to catch lightning in a bottle and your
+16:33 odds of failure are much higher the size
+16:37 of success could be larger I mean
+16:40 depending on what you choose to do you
+16:42 know um so there you're optimizing for
+16:45 like high dynamic range and there are a
+16:48 lot of things that are like super
+16:50 Difficult about it I think
+16:52 B2B you know the dynamic range is not as
+16:55 large like you can go to a person and
+16:59 say hey tell me about your problems okay
+17:02 cool I'm going to build this thing that
+17:04 looks like this if I do and and like
+17:07 does this thing for you and can you just
+17:09 tell me if if I do that like will you
+17:11 pay me for it how much and then you can
+17:14 like go and talk to a 100 other people
+17:16 and get their views then you can like
+17:17 build the thing that they tell you to
+17:18 build as long as you're good at
+17:19 interviewing people and sell it and make
+17:22 money and it's great it it's amazing um
+17:26 and so I think that you can build like a
+17:28 it's like a tighter range if that makes
+17:30 sense like a tighter range of outcomes
+17:32 you're less likely to fall you know face
+17:35 first and just like face plant into the
+17:38 dirt um but you're also probably not
+17:41 going to create like a hundred billion
+17:43 dollar company in doing that you know
+17:45 totally if if you want to do that you
+17:47 got to go consumer I think totally
+17:50 consumer is more glor in consumer yeah
+17:53 like there's also something interesting
+17:56 about like hitting your face against the
+17:59 dirt kind of like it hurts but it also
+18:02 feels nice in a
+18:05 way like people who do consumer are sick
+18:08 like that yeah you know I mean really I
+18:11 do you got to iterate and iterate and
+18:12 iterate I mean I I've been building this
+18:14 thing we're trying to build like
+18:15 what'sapp for money or a global venmo
+18:17 you know we've been building for two and
+18:18 a half years is super difficult you know
+18:20 you iterate you keep building and then
+18:23 you know maybe you have a moment we had
+18:24 a moment last week we like suddenly just
+18:26 went viral uh in Kenya and our graph
+18:29 just went right angle straight up but
+18:32 you know who knows whether or not that
+18:34 would have happened or not happened and
+18:36 you know um you just spend a lot of time
+18:39 kind of like trying to find that thing
+18:43 and you may never find it 100% okay and
+18:47 and going back to our AI agent world so
+18:52 I think a lot of people listening to
+18:53 this like they want to get their hands
+18:55 dirty um they see the opportunity
+18:57 they're like you we're sharing all these
+18:59 products they're like yes yes this is
+19:01 cool this is cool but they
+19:03 don't they don't
+19:06 know like should I should I build a
+19:09 granola competitor should I build on top
+19:13 of you know one of these platforms like
+19:16 how how should people think about what
+19:18 startup idea to pick like do you have a
+19:21 framework for that like why did you pick
+19:22 sling versus the hundred other you know
+19:26 so I have a framework it might be
+19:27 different than other people's framework
+19:29 so my the way that I ended up deciding
+19:32 to do this thing was I I did this kind
+19:34 of like regret minimization exercise so
+19:37 I imagined myself I kind of like
+19:39 discovered this thing right which is I
+19:41 sent usdc on salana from the UK to
+19:47 California and the transfer was instant
+19:49 and free and everything else about it
+19:51 sucked but I was like oh okay like I
+19:53 know how to fix all those other things
+19:54 and then like you suddenly realize oh
+19:58 wow you can build like a global venmo on
+19:59 top of this you can build WhatsApp for
+20:00 money on top of this this could be huge
+20:02 this could be a multi-billion user
+20:04 product it's going to be really hard to
+20:06 build you might fall flat on your face
+20:08 you know and so like I've got three kids
+20:11 you know how is this gonna go um and so
+20:15 I imagined myself five or 10 years in
+20:16 the future and I imagined every possible
+20:19 like logic Branch so like I don't do
+20:22 this somebody else does it and they
+20:24 succeed how am I going to feel I'm going
+20:26 to feel kind of shitty because that
+20:27 should you know I I would have felt like
+20:29 oh that should have been me I I don't do
+20:32 it and somebody else does it and they
+20:33 fail how am I going to feel oh well I'm
+20:36 still going to feel bad because I would
+20:39 always wonder whether or not I could
+20:40 have made it work okay what if I do it
+20:44 and I fall flat on my face and I fail
+20:46 how am I going to feel well you know
+20:48 what the default in this thing is
+20:51 failure like if you if you try to build
+20:53 a really big consumer thing and you take
+20:54 a really big swing you're going to fail
+20:55 nine times out of 10 you know so like
+20:58 there there's no shame in that it'll be
+21:00 painful it'll sting but like you say you
+21:02 know there's also like a certain joy in
+21:04 it um and if I do it and it works it's
+21:07 going to be great and so like I you know
+21:10 and it's an idea that I deeply care
+21:11 about it's a thing that I think is like
+21:13 really important for the world I think
+21:15 if everyone in the world can like send
+21:17 money to everyone else in the world
+21:18 instantly and like for free or almost
+21:21 for free like that's a transformative
+21:22 thing that will literally change the
+21:24 world and so it also feels like a
+21:26 worthwhile Endeavor like it feels like a
+21:29 nice thing to spend you know 3 to 10
+21:32 years of your life on right um which I
+21:35 think is really important because like
+21:37 if it were just like you know selling
+21:41 like candy or like food coloring that
+21:44 like causes cancer or whatever or or
+21:47 like you know plastic clothing I think
+21:50 that even if it worked I would feel
+21:51 really shitty about
+21:53 myself and so that I think really truly
+21:56 matters a lot at least to me
+21:59 um I like to find meaning in my work you
+22:01 know positive meaning in my work um and
+22:04 I so I I I that's how I ended up doing
+22:08 this and I've worked on food delivery
+22:11 I've worked on banking I've worked on
+22:14 you know social media sharing I worked
+22:15 on Advertising I think you can kind of
+22:18 like you know when we worked on ads like
+22:21 you know a lot of people were like
+22:23 advertising is bad and we were like no
+22:24 no no no no advertising is good because
+22:26 it helps connect people who are building
+22:27 a valuable thing with people who need
+22:30 that thing as efficiently as possible
+22:32 and that's actually like a service which
+22:34 makes the world a better place you know
+22:36 and I think you can think about a lot of
+22:38 things in a way that you know creates
+22:40 value and doesn't destroy
+22:42 value um the question is whether or not
+22:44 you're going to enjoy it whether or not
+22:47 you're going to love it whether or not
+22:48 you're going to get up every morning and
+22:49 and want to work on it
+22:52 for maybe a long time yeah and I think I
+22:56 think that that last part is probably
+22:58 the most important part when I look back
+22:59 at all the products I worked on the best
+23:03 the most successful products were the
+23:05 products that
+23:07 I I cared about the most even though I
+23:11 didn't have high expectations that it
+23:12 was actually going to work out the ones
+23:14 that I actually was like oh my God
+23:16 there's a huge Market opportunity here
+23:18 and like I'm gonna sell it to you know
+23:21 Adobe uh and you know I'm like trying to
+23:25 time something that that hasn't worked
+23:27 out for me person L quick ad break let
+23:30 me tell you about a business I invested
+23:32 in it's called boring marketing.com so a
+23:36 few years ago I met this group of people
+23:38 that were some of the best SEO experts
+23:41 in the world they were behind getting
+23:44 some of the biggest companies found on
+23:46 Google and the secret sauce is they've
+23:48 got a set of technology and AI that
+23:51 could help you outrank your competition
+23:55 so for my own businesses I wanted that I
+23:57 didn't want to have to r on Mark
+23:58 Zuckerberg I didn't want to depend on
+24:01 ads to drive customers to my businesses
+24:03 I wanted to rank high in Google that's
+24:06 why I like SEO and that's why I use
+24:08 boring marketing.com and that's why I
+24:10 invested in it they're so confident in
+24:13 their approach that they offer a 30-day
+24:14 Sprint with 100% money back guarantee
+24:17 who does that nowadays so check it out
+24:20 highly recommend boring marketing.com
+24:22 yeah I feel you man I think that like
+24:26 I'm not the sort of person other people
+24:28 may be like this maybe you know like I'm
+24:30 just not the sort of person who is like
+24:32 good at that kind of like
+24:34 um I I don't know like mercenary
+24:38 business thing where it's like oh I see
+24:40 a lot of people with dirty cars around I
+24:41 want to build a car wash it's just like
+24:43 not the way that I think about things
+24:46 like I think about like wanting to
+24:47 create new things or like interesting
+24:49 puzzles or gifts that you can give
+24:52 people or whatever and joy you can get
+24:54 from the work um I get bored
+24:59 otherwise you know it's like not
+25:00 interesting like oh you know sure maybe
+25:04 it's a nice way of making some money but
+25:05 like ultimately who cares uh in AI
+25:08 startup land and also in financial
+25:10 services it's a extremely competitive
+25:13 space right you're yeah the smartest
+25:15 people in the world are going after this
+25:17 space how much do you as a product
+25:19 person think about
+25:21 competition and and like when you're
+25:24 when you're building out your product
+25:25 road map are you like mapping it to how
+25:28 the the competitors work how should
+25:29 people think about
+25:30 it uh not directly but I do think that
+25:33 like there was a point in my career when
+25:35 I felt really bad about copying anything
+25:37 I was like oh no you have to come up
+25:38 with everything yourself and like I no
+25:41 longer believe that at all like I think
+25:43 there are just certain Primitives or
+25:45 certain ideas that become commonplace
+25:47 and like should be replicated by
+25:49 everyone and you have to be like you
+25:53 know it's like impossible that you're
+25:55 going to come up with all of those
+25:56 yourself and so
+25:59 it's like a big world you know um and so
+26:02 I think you have to watch what all your
+26:03 competitors are doing and other people
+26:06 in adjacent spaces and when they do
+26:09 something really great or something
+26:11 really
+26:12 brilliant be like oh okay like we missed
+26:14 that or we should have prioritized that
+26:16 earlier all right well let's do that and
+26:19 I and the way that I think about that
+26:20 now is like these are just Primitives
+26:22 like if somebody had said well I'm not
+26:23 willing to copy the wheel you like that
+26:26 would be really stupid like if the only
+26:28 person who could ever produce a wheel is
+26:30 like the person who originally conceived
+26:31 of it we we would all just be in the
+26:34 Dark Ages you know um so I think that it
+26:38 you have to kind of like look around and
+26:41 see what all the smart people are doing
+26:42 and have a deep respect for competition
+26:45 and the noise around you um
+26:48 while and this is so important and I'm
+26:51 curious your view on this right is like
+26:54 while not um getting pulled in a million
+26:57 Direction you still have to be true to
+27:00 your vision and the thing that you want
+27:01 to see created in the world and you you
+27:04 know you can't just be like oh oh that's
+27:06 a shiny thing over there it seems to be
+27:09 doing well let's change what we're doing
+27:11 and change the thing that we want to
+27:12 exist in the world because of that and
+27:14 it's a balance and I you know I I
+27:16 struggle with that balance all the time
+27:18 of like oh well there are a million
+27:19 things I want to build how do I pick the
+27:21 two that are like the most important and
+27:23 true to what we're trying to accomplish
+27:25 you know yeah I mean I agree I think
+27:28 it's it's like like everything in life
+27:30 balance is really important and the way
+27:33 I think about it is I do keep tabs on
+27:36 competition and yeah I I don't have a
+27:40 running list of what the competitors are
+27:43 doing but I have a mental running list
+27:45 like I literally do in my head I'm like
+27:47 competitor X is doing why um I look at
+27:51 their their Twitter accounts I follow
+27:53 them on Twitter um and but I I I try not
+27:57 to get sucked in with um oh my God they
+28:01 just launched this thing it's really
+28:03 smart and then cuz you don't want to be
+28:04 a me
+28:06 too uh product builder for sure for sure
+28:12 yeah yeah and I think that you have to
+28:14 have a consistent narrative and a
+28:16 consist like a consistent narrative
+28:17 internally and externally and and yes in
+28:20 yourself as a human about what you're
+28:22 building and what you're trying to
+28:23 accomplish too 100% okay and you know
+28:28 you said you went you're going viral in
+28:31 in Kenya like you know how how do you
+28:34 think about you know once you've built
+28:36 the product getting people to the actual
+28:39 product you know is and know and I know
+28:42 you you've you know with with Facebook I
+28:45 mean you attracted millions or hundreds
+28:47 of millions of people to the to the
+28:50 platform directly or indirectly is this
+28:53 you know if you're trying to build an AI
+28:54 startup let's say you know do you go and
+28:56 like we've done you know
+28:58 you you you you map out the the problem
+29:02 you build a landing page you know like
+29:06 what how do you think about you know you
+29:07 build a product how do you think about
+29:09 getting people to the actual product
+29:11 yeah yeah well I I think like I mean I
+29:15 used to work on ads and I I um think
+29:18 that there was probably a golden age in
+29:19 which the answer would have been like
+29:22 you know Target exactly the right
+29:23 message at exactly the right people on
+29:25 Facebook find the like 3,400 people who
+29:27 are early adopters and just like get it
+29:29 in front of them 15 times I'm not sure
+29:32 that's the thing anymore um I think that
+29:35 the auction has gotten saturated and
+29:37 tracking has become worse and like all
+29:39 that kind of stuff I think that like you
+29:42 know Twitter and Linkedin and podcasts
+29:47 and everything are probably the way to
+29:48 do it and I think you know the way that
+29:50 we've done it so far is just to kind of
+29:52 like build build in public sort of I
+29:55 think that probably means like a
+29:56 specific thing where like the letters
+29:58 are capitalized or whatever but we've
+30:00 just been like from the very earliest
+30:04 time we could we introduced the product
+30:06 we we kind of like shipped it with a
+30:08 wait list and then people would come to
+30:10 us and be like oh can I try it or our
+30:11 friends would ask to try it and we'd let
+30:13 them in and then we'd get their feedback
+30:14 and sometimes it was really broken and
+30:17 like even now people ask me like when
+30:20 did you launch and I'm like I don't know
+30:22 like what do you even mean by launch I
+30:24 don't know what that means you know do
+30:26 you mean like the first time we were it
+30:28 App Store do you mean when we started to
+30:29 remove Weight lists do you mean when
+30:31 like you know something happened and we
+30:34 were in a bunch of WhatsApp groups and
+30:35 went viral because we've been in some
+30:38 stage of that thing in a bunch of places
+30:40 around the world for like a year and a
+30:43 half two years now and the company's
+30:44 only two and a half years old we've been
+30:46 talking about it we've been
+30:48 posting screenshots and animations and
+30:50 finding our people around the world who
+30:52 are like interested in it and like
+30:55 helping them find us so that
+30:58 like before we went viral in Kenya we
+31:01 had like a few hundred people there who
+31:04 loved the product already and like my
+31:06 co-founder went down to Nairobi and gave
+31:08 a talk at a conference and and it all
+31:11 happened kind of like when he was down
+31:13 there and a couple other people from the
+31:14 team and there were people at the
+31:15 conference coming up to him and being
+31:17 like I'm so proud of you like I feel
+31:20 like I built this thing with you you
+31:21 know like I'm like couldn't happen to a
+31:23 better product or whatever you know and
+31:25 they they
+31:26 like I think you know felt like they
+31:30 helped us build it and hopefully they
+31:32 continue to feel that way because we
+31:34 kind of found each other as we were
+31:36 creating this thing and I I now think
+31:39 that that's like the way and I I I think
+31:41 even like the presidential election like
+31:43 the US presidential election kind of
+31:44 shows that too like you know the
+31:46 difference between running a bunch of
+31:48 ads the old-fashioned way versus like
+31:52 being out there and mixing it up in you
+31:56 know online n forums in in an
+31:59 interactive way just like a huge
+32:02 difference 100% 100% yeah I started
+32:06 thinking about short form video and how
+32:11 do you like reverse engineer the viral
+32:13 Tik
+32:14 Tok yeah so building for mobile
+32:17 specifically or or AI an AI startup like
+32:20 thinking about okay I need to give
+32:23 something to this group of micro
+32:26 influencers that is going to get them to
+32:29 create a 30 second or 15 second clip
+32:33 that is you know going to go viral so
+32:35 what is that product and then reverse
+32:38 engineering that that's been really
+32:40 helpful in terms of like creating an AI
+32:43 startup that gets like millions of views
+32:45 and downloads yeah I I think that
+32:48 totally works and you know it it all
+32:50 depends on who your audien is like who
+32:52 you're trying to reach and what you're
+32:53 trying to do a bunch of them are going
+32:55 to be on Tik Tok and like you know
+32:58 that's a great way to get them into the
+32:59 funnel and you can just like watch the
+33:02 top 10 Clips at any given time and be
+33:04 like okay I'm going to like emulate this
+33:05 format I know that the algorithm likes
+33:07 this right now and I know a lot of
+33:08 people who are really successful in
+33:10 doing that right now if you want to
+33:12 Target like techie people you probably
+33:14 want to do it on Twitter X if you want
+33:17 to Target salesp people you probably
+33:19 want to do it on LinkedIn you know like
+33:22 it it just you know and there's a format
+33:24 and there's a way of thinking and a way
+33:26 of talking and a way of interacting
+33:28 which is like native to those platforms
+33:30 and you have to behave that way to be
+33:32 successful in them okay I want to end on
+33:36 I think I'm going to name this episode
+33:38 something around like the framework for
+33:39 starting an AI startup so we've covered
+33:43 we've covered kind of ideas and coming
+33:45 up with ideas we covered some really
+33:47 cool
+33:48 startups uh like granola and how they're
+33:50 doing it um we covered user acquisition
+33:54 we've covered competition what haven't
+33:56 we covered that we
+33:58 should pricing monetization how you make
+34:01 money yeah it's important oh yeah um the
+34:06 first thing I'll say is that one of my
+34:07 favorite lines about this is um I think
+34:11 it's originally Walt Disney quote which
+34:13 is um we don't make movies to make money
+34:15 we make money to make more movies and
+34:18 Facebook co-opted this and it's in the
+34:20 Little Red Book you know which is um we
+34:23 don't make services to make money we
+34:25 make money to make better services and I
+34:27 really believe that the the most
+34:30 successful companies in the world have
+34:31 that view I think that you can build an
+34:33 incredibly successful company that makes
+34:34 you millions of dollars that does not
+34:36 have that view you know that's kind of
+34:38 like the more mercenary approach but you
+34:40 kind of need to decide who you
+34:42 are but before you start with your
+34:44 pricing
+34:46 strategy um but putting that aside for a
+34:48 moment I think you just with an AI
+34:51 company it feels really clear to me that
+34:52 you look at the number the amount of
+34:54 human input that you're saving and the
+34:57 cost of that human input and I mean
+34:59 total cost I mean
+35:01 salary emotional damage that you have to
+35:05 sustain and doing the work you know all
+35:07 of that stuff and and and by the way
+35:09 those two things are very important
+35:10 because like you know some things in the
+35:13 world are really really annoying but
+35:14 only take like five or 10 minutes but if
+35:16 you automate them away I'll pay more
+35:19 than the time saved because of the
+35:20 emotional damage you're saving me or the
+35:22 frustration that you're saving me right
+35:23 so you have to kind of like apply that
+35:25 lens or that adjustment Factor
+35:28 and then um and then I think you just
+35:30 apply a discount like okay like I just
+35:33 saved you
+35:35 $100,000 worth of Labor $50,000 worth of
+35:40 emotional damage 150 Grand okay it's a
+35:44 machine doing it so I'm going to price
+35:45 that at a 75% discount or a 50% discount
+35:49 or an 80%
+35:52 discount yeah and and that makes it like
+35:54 a no-brainer offer which is kind of the
+35:56 goal right I think so yeah and maybe you
+35:59 could do maybe you get away with an 80%
+36:01 discount I don't know sorry a 20%
+36:03 discount charge 80% I don't know but I I
+36:06 assume it isn't that bad to do 50 are
+36:09 you of the belief to start you know you
+36:12 can you know people say you can always
+36:14 go down on price you can never go up
+36:16 what's your thought on on on that I
+36:19 believe you can go up but I think you
+36:21 need to be thoughtful about it so when I
+36:23 was working at monzo which is like a big
+36:26 Neo Bank in the UK
+36:28 uh we had a we had a bunch of problems I
+36:30 mean one was that we were a regulated
+36:31 bank and people didn't think of us as a
+36:33 bank so you're you have the you have all
+36:36 the downside of being a bank with n of
+36:38 The Upside um and another problem was
+36:41 that we just didn't charge quite enough
+36:43 money like we didn't have enough things
+36:45 that made money and that was kind of
+36:46 okay before covid but then our number
+36:49 one Revenue stream was actually people
+36:51 using their debit cards overseas and The
+36:53 Interchange you get from that and that
+36:54 went away overnight and we were totally
+36:56 screwed uh um and I remember spending
+37:00 weeks on a spreadsheet um with the
+37:03 finance team going through every line
+37:04 item and we knew that we had a gap that
+37:06 we had to fill trying to figure out how
+37:09 to fill the Gap and um we were terrified
+37:13 of uh what was going to happen when we
+37:15 started charging for like you know your
+37:16 fourth ATM withdrawal and what was going
+37:19 to happen when we started charging for
+37:20 replacement cards and you know we had a
+37:22 list of
+37:23 things um it was totally
+37:26 fine it was completely fine nobody cared
+37:30 people loved the product like maybe a
+37:32 few people complained or whatever but
+37:34 like honestly like everybody just
+37:36 thought it was really fair and they were
+37:37 like oh we've been getting this thing
+37:38 basically for free this whole time and
+37:41 we really appreciate it and um yeah okay
+37:44 that seems cool like if I use the ATM
+37:46 for a third time I'll I'll pay a little
+37:48 fee you know and that has really stuck
+37:51 with me like that lesson like if you
+37:53 build a thing which is like beautiful
+37:55 and people love and has a place in their
+37:57 life
+37:58 you can charge more for it later and um
+38:03 you know that goes against conventional
+38:05 wisdom and I think if you have that
+38:07 knowledge uh it's a secret weapon
+38:10 because it's easier to get distribution
+38:12 for something that costs less yeah and
+38:15 there's I mean I remember Uber for
+38:17 example like when we first started using
+38:19 Uber in Uber and Lyft and SF when it
+38:21 first came out it was like well not the
+38:24 black cars but it was it was cheap like
+38:26 I remember
+38:28 you know they basically got us hooked on
+38:30 the product and we once we were hooked
+38:33 and we were in the network then we're
+38:35 like okay you know they were like okay
+38:36 let's see if we can charge 10% more 20%
+38:38 more 30% more I think customers
+38:42 customers don't remember your your
+38:44 pricing they remember the value right I
+38:47 agree yeah I agree that's exactly right
+38:50 and if you create Great Value you can
+38:52 then find the efficient Frontier of your
+38:54 pricing over time that's it and probably
+38:57 use AI to help figure that out too for
+38:59 sure for
+39:01 sure absolutely okay okay one I just
+39:04 have to ask I know I know you know
+39:07 before we leave I know you spent some
+39:09 time with Mark Zuckerberg what do you
+39:11 what do you think Mark Zuckerberg is
+39:13 thinking about with AI and this whole AI
+39:16 world does he you
+39:18 know yeah what's going through his mind
+39:22 I don't know I mean I think that he's
+39:23 one of the smartest most determined most
+39:26 principled people people I know you know
+39:29 um and and deeply thoughtful and um he
+39:33 has a quality very few people have which
+39:35 is you know he's also kind of fearless
+39:36 you know he like once he makes a
+39:39 decision about a thing you know he he
+39:40 kind of goes all in while still being
+39:43 open to input on the other side you know
+39:45 he's he's I guess I'm saying he's very
+39:47 good at what he does um I think that the
+39:51 strategy that they have right now of
+39:53 like open sourcing a bunch of models you
+39:55 know makes a ton of sense it's like the
+39:57 right strategic move if you're in their
+39:59 position um you're kind of like salting
+40:03 the Earth in a in a pretty meaningful
+40:04 way you know giving everybody access to
+40:06 this thing um instead of so that there's
+40:09 no longer a war between like two or
+40:11 three or four Titans it's just like
+40:13 okay we're all in this together you know
+40:17 um this is very smart
+40:20 um and we'll see I think it's going to
+40:22 become I think that one of the you know
+40:24 really significant advantages that
+40:26 Facebook has and again this is one of
+40:27 the reasons why um Distributing the
+40:30 models in this way makes so much sense
+40:32 is um you know Facebook has one of the
+40:35 largest permissioned training sets in
+40:39 the world um it's not clear whether or
+40:42 not open AI really can train on all of
+40:45 the things that they train on um there's
+40:47 a really great clip I think of their
+40:49 their former um CTO you know being asked
+40:53 about whether or not they trained on
+40:54 YouTube and you know she just goes like
+40:56 Oh
+40:58 you know like tot face that she makes
+41:01 and like you know Facebook actually has
+41:03 a right to like you know has just like a
+41:04 giant Content Library um so I think that
+41:09 there's a lot of stuff that they're
+41:11 doing which you
+41:13 know takes real account of like what are
+41:16 our strengths and what are our
+41:18 weaknesses as an organization here all
+41:21 right let's change the landscape around
+41:23 us to favor us with our set of
+41:26 advantages and um you know I I think it
+41:30 you know they're doing a very good job
+41:32 at it um very good friend of mine is
+41:34 actually running um generative AI
+41:37 generative AI there now um who I think
+41:39 is totally brilliant cool yeah um Mike
+41:43 thanks for coming on people if you
+41:46 enjoyed this episode please like comment
+41:50 subscribe so uh so we know that you
+41:53 enjoy this type of stuff you know so um
+41:56 I'll see you in the coms comment section
+41:57 Mike where could people get to know you
+42:00 better uh my website is
+42:04 h.com ud.com uh and I'm mudac on Twitter
+42:08 and uh sling domoney sling money we'll
+42:11 include both those in the
+42:13 description and uh yeah go check it out
+42:17 hope you learned something valuable I
+42:19 know you did and Mike I'll see you uh
+42:22 I'll see you soon sounds good thanks
+42:23 Craig thank you cheers
+42:28 B
+42:30 [Music]

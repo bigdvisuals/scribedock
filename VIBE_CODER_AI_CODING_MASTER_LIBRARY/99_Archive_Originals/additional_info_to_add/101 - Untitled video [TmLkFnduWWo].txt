@@ -1,0 +1,585 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=TmLkFnduWWo
+Channel: Riley Brown
+Video ID: TmLkFnduWWo
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 you can now build apps without knowing
+0:03 how to code and this is because of the
+0:06 progress in AI coding models and the
+0:09 progress of AI coding platforms that use
+0:12 these models and the best platform by
+0:14 far is cursor so whether you want to
+0:17 build tools for your own personal use or
+0:20 build internal tools for your company or
+0:23 job or if you want to build an app to
+0:25 make money this video is for you this is
+0:27 a stepbystep cursor guide and today
+0:31 we're going to be building an app with
+0:33 cursor and in this process we are going
+0:35 to talk about what cursor is we're also
+0:37 going to discuss the key features of
+0:39 cursor that I use we're also going to
+0:41 discuss apis and how you can use other
+0:44 tools out there and add powerups and
+0:47 abilities to your app we're also going
+0:50 to discuss adding different types of
+0:52 features with AI and then we're going to
+0:54 discuss deploying so that you can put
+0:56 this on the internet and send a link to
+0:58 your friend so that they can try it the
+1:00 best way to understand and learn cursor
+1:03 is to just see it in action so we're
+1:05 just going to start off by downloading
+1:08 cursor and you can do that on cursor.
+1:10 comom you can see the URL right here and
+1:13 whatever machine you're on you're going
+1:14 to download this and it will then show
+1:17 up on your computer somewhere I have it
+1:19 pinned down here at the bottom bar
+1:20 because I use it every day I'm going to
+1:22 rightclick on this and open up a new
+1:24 window and we see two options we can
+1:27 start with a folder or we can open with
+1:29 SSH we are now going to start with a
+1:31 folder and if you want to start
+1:33 completely from scratch you can just
+1:36 create a new folder on your computer and
+1:38 name it anything and start from a empty
+1:41 project we are not going to do that for
+1:43 me I like to use a template which does
+1:46 all of the boring work of getting the
+1:49 project set up we're going to go to
+1:51 software composer. comom and once you
+1:55 join this community it's free you just
+1:57 come into this site within software
+1:59 composer on the left panel here you're
+2:00 going to see templates you're going to
+2:02 click on this templates folder and
+2:04 you're going to hit link to template and
+2:07 we're going to hit use template it
+2:08 doesn't really matter what you name it
+2:10 I'm just going to call this hello man
+2:13 and we're going to hit use template and
+2:16 we are now going to download this
+2:18 template and this is going to be our
+2:20 starting point for cursor so we're going
+2:22 to press this little folder icon here at
+2:25 the top left once that's open there's
+2:27 going to be these three dots right here
+2:30 by file and we are going to press
+2:33 download as a zip and that will take a
+2:36 few seconds and as you can see here the
+2:38 zip is downloaded and so we need to
+2:41 unzip it so just double click on it that
+2:44 should unzip the file we're going to
+2:46 take this and we're going to drag this
+2:49 into desktop for now and what we're
+2:53 going to do is we're going to find where
+2:54 that project exists here it is it's in
+2:57 hello man and so what we can do is we
+3:00 can open up cursor and we're going to
+3:02 hit open a folder we're going to go to
+3:06 hello man click on this open and now we
+3:10 have our template and so this is our
+3:12 code project we have our code files on
+3:15 the left and if we press command I we
+3:19 can now open up composer cursor allows
+3:22 you to ask for features or ask for
+3:25 changes in your app and it will go out
+3:27 in composer and it will edit these Cod
+3:29 files it will create these code files
+3:32 and now with their new agent feature
+3:35 within composer it can now delete files
+3:38 and it will ask your permission it says
+3:39 do I have permission to delete this file
+3:41 so it can add edit and delete code files
+3:45 and it can fully create coding projects
+3:48 that you can deploy to the internet and
+3:51 so we have all of our files set up and
+3:53 so the first thing that we need to do
+3:55 just copy me exactly for this step
+3:57 because the template that we downloaded
+3:59 was made for repet and I'm just going to
+4:01 say that so you should say that for your
+4:03 first prompt we're going to type this
+4:04 out together we're going to say the
+4:06 following I started this project as a
+4:09 template in repet so it was supposed to
+4:12 be a repet project and now I want you to
+4:16 make sure that it is compatible with
+4:18 Local Host and running it locally please
+4:20 do that and then run it on Local Host
+4:23 we're going to run our first agent
+4:24 prompt here and this is basically going
+4:27 to set it up it's going to convert the
+4:29 project to the right format it should
+4:31 take only a minute or two and then what
+4:33 it's going to do is it's going to run
+4:37 the project on Local Host so we're
+4:40 hitting accept and now it's going to ask
+4:42 us to run commands and so we're just
+4:44 going to run these commands here and now
+4:46 we're going to hit run command run all
+4:49 of them that they said so perfect your
+4:50 development server is now running and so
+4:53 in order to open this up you can press
+4:56 command click and this will open up your
+5:01 server and here it is this is the
+5:03 starting point of the template and so
+5:06 now what we can do is we can open up a
+5:08 new composer here and we can type
+5:10 whatever app we want let's ask for it to
+5:13 create a basic chat app I want you to
+5:17 create a chat app and we can also use
+5:22 and I use whisper flow to speak into my
+5:24 computer and if you see me speaking into
+5:27 my computer and it transcribing it
+5:29 that's what using so I want to create a
+5:31 chat app I want this to look exactly
+5:35 like chat GPT and I want to use the open
+5:38 AI API and I want to chat with chat gp4
+5:43 and I want to have a loading indicator
+5:46 for the chat Bots response and I want
+5:49 you to make this like a simple clean
+5:52 chat app and what we can do here is we
+5:56 can actually go to chat GPT
+6:00 and we can copy this so let's just
+6:03 screenshot this right here and what
+6:06 we're going to do is we're going to drag
+6:08 this screenshot directly in here and
+6:10 we're going to say I uploaded a
+6:12 screenshot and have just the little
+6:16 buttons below the chat input field put
+6:20 little sample questions there and they
+6:22 should be really short questions and
+6:24 just have those simple questions there
+6:26 recreate this interface don't worry
+6:28 about the top bar for now but you're
+6:32 making the homepage of this app this
+6:35 page right here that I can immediately
+6:36 chat with ignore the Firebase
+6:41 configurations for now one more thing
+6:43 that I'm going to do is I'm going to
+6:44 turn on the web for chat GPT and I'm
+6:47 going to say give me code examples for
+6:51 GPT for o uh to create a basic next JS
+7:00 nextjs is the framework that we're using
+7:04 and so you just need to put that in to
+7:05 make sure that you get the proper
+7:08 formatting that you get the proper code
+7:10 examples for chat GPT and so give me
+7:13 code examples nextjs app this is for a
+7:17 basic chat app using the open AI API so
+7:23 here we go we actually got a response
+7:27 that we can copy we can copy the entire
+7:30 response and what we're going to do is
+7:31 we're going to come back to cursor and
+7:34 say here are the code
+7:38 examples for GPT and I'm just going to
+7:41 paste them all right here in the chat
+7:45 and now what we're going to do is I'm
+7:48 going to also say set up the proper EnV
+7:53 file for me to put my API key in we'll
+7:58 get to that in a second just include
+8:00 that because we basically need to create
+8:01 an account on open AI that says the
+8:05 credits that are used with this
+8:07 technology I'm going to pay for it
+8:09 basically and that's an API key and so
+8:12 we're just going to run this and let's
+8:15 see what it creates so it is now looking
+8:19 through the codebase looked through the
+8:21 directory decided what it needs to do it
+8:23 decides what model to use it's using GPT
+8:26 40 that's correct now it's creating the
+8:28 main chat interface so it's still
+8:31 creating the main chat interface and
+8:33 here it's asking us to run this command
+8:35 and so this is now it wants to use some
+8:37 icons and it also wants to use the open
+8:39 AI uh API so we're just going to hit uh
+8:43 run command and we're just going to
+8:45 click pop out terminal here and so here
+8:47 we go it is done it's still not going to
+8:50 work cuz we haven't given it our API
+8:52 token yet and so as you can see here
+8:56 this is now what the app looks like we
+8:58 have this message Chat GPT input field
+9:02 hello chat GPT hi and if we were to
+9:06 press send I think nothing's going to
+9:09 happen we're going to get an error
+9:10 because we haven't put in our API key
+9:12 yet and so we need to go get our API key
+9:15 and what I can do on chat GPT I can just
+9:18 go to chat GPT and turn on Search and
+9:20 say take me to the uh exact page and I
+9:25 just say give me link to get my API
+9:29 token and here we go so we can click on
+9:32 this link that it gave us let's open
+9:34 this up new tab created and here are the
+9:38 API keys so here's the link platform.
+9:43 open.com API keys and if you come here
+9:46 and you haven't create an account with
+9:48 open AI yet you're going to need to go
+9:49 through those steps once you've gone
+9:51 through those steps you're going to hit
+9:52 create new key you should keep these
+9:54 secret which is why I'm going to pause
+9:56 the video and get my API key off camera
+9:59 because I don't want anyone using my API
+10:01 tokens so once you have your API token
+10:04 since I asked it to create the EnV file
+10:07 remember that EnV file is where your API
+10:11 key needs to go and what we're going to
+10:15 do here is we're just going to click on
+10:17 where it says env. loc and look at this
+10:20 it opened it up here so now I'm just
+10:22 going to put my API key right here in
+10:26 the env. loal and that that will allow
+10:30 this to work okay so I pasted my API key
+10:33 there and now what we can do is we're
+10:36 going to go back to our little app here
+10:39 and we're going to open up Local Host
+10:41 because that's where it's running and
+10:42 I'm just going to refresh it real quick
+10:46 and now let's type in a question hello
+10:50 chat
+10:54 GPT boom it works what are you up to man
+11:01 tell me how to use cursor and it thinks
+11:04 I'm talking about Mouse control but
+11:06 that's the point and look at this you
+11:08 notice that this is in this really weird
+11:10 format so we can just ask the composer
+11:15 to change that and you can just all you
+11:17 can do screenshots look at this you can
+11:19 just screenshot this and uh let's ask
+11:22 for a bunch of changes here I want you
+11:24 to please make the output have markdown
+11:28 format
+11:29 right now it looks like a jumbled mess
+11:32 and also I really hate the icons that
+11:34 you have please make the icon for me
+11:37 like a basic person icon and have text
+11:42 for the uh ai's response and make the
+11:46 ai's name Jimmy and actually have a
+11:50 little tiny icon for Jimmy and also just
+11:52 like make the whole chat interface
+11:55 cleaner and better right now it looks
+11:57 choppy and ugly so look at the image and
+11:59 Anze it and then I want you to like just
+12:01 make it clean simple and adhere to
+12:04 everything that I said here and so we
+12:05 can now run this and I asked for like
+12:08 four or five different changes there we
+12:10 go here all right so now it is asking us
+12:12 to install react mark down so we're just
+12:16 going to run this command and that will
+12:17 allow this formatting to be a lot better
+12:21 oh wow it's already made some changes
+12:23 here uh updated the icons okay it's
+12:25 already done let's accept and so now
+12:28 here's Jimmy hello I'm Jimmy you're AI
+12:30 assistant how can I help you today tell
+12:32 me the steps for using chat GPT and so
+12:38 we can run this and so it has better
+12:42 spacing but I can't tell if it has
+12:46 bullets or headings okay so that's not
+12:48 doing bullets or headings it's not doing
+12:51 bullets or headings please make that
+12:56 happen and format it correctly and so
+13:00 we're going to run this command whatever
+13:02 it wants here and so now we're just
+13:04 going to press accept and here there we
+13:08 go it
+13:09 automatically switched over we didn't
+13:11 even have to create a new chat let's go
+13:13 ahead and refresh this real quick oh
+13:15 what the heck explain the process of
+13:20 cooking with olive oil and let's see um
+13:25 I'm going to say expand on this and
+13:28 let's see if it it remembers if it has
+13:30 context to the full chat okay so it does
+13:33 have full context and we can fully we
+13:35 basically fully created an AI chat app
+13:38 in just a few minutes all right so now
+13:41 let's go over the features of cursor
+13:42 that I use most frequently and so this
+13:46 search bar allows me to search for
+13:48 anything in the codebase so I could
+13:50 search for Jimmy and here it will show
+13:53 me all the pages with Jimmy and so I can
+13:55 click on hello I'm Jimmy so I can very
+13:57 quickly um Ed edit this codebase and so
+14:01 I'm your AI assistant help you with
+14:03 various tasks here are some things that
+14:05 I can do and this is basically what it
+14:07 lists out right here and these are the
+14:09 things that are shown here we have this
+14:12 bottom part that says message Jimmy
+14:14 let's say we wanted to change this part
+14:17 that says message Jimmy to something
+14:19 else we can go to that search bar and we
+14:21 can type in message
+14:25 Jimmy and we can click on this right
+14:27 here we see placeholder equals message
+14:30 Jimmy so we can just change that send a
+14:34 message to Jen Z Jimmy and that'll make
+14:40 sense in just a second and once you're
+14:42 done with that you press command s and
+14:44 that saves it which Now updates it right
+14:47 here now it says send a message to jenz
+14:50 Jimmy so since you've never written a
+14:52 line of code you may not even know where
+14:54 to go to edit the prompt that runs jenz
+14:58 Jimmy and so so I want to go there real
+15:00 quick and let's say I don't know where
+15:01 it is and we just want to find it so we
+15:03 can edit the prompt in the code we can
+15:04 actually go to the chat and we can just
+15:06 say at codebase make sure that you just
+15:12 go ahead and type in here show me the
+15:15 prompt that is used for Jimmy I want to
+15:22 change it chat will not immediately
+15:26 change files in your project so composer
+15:31 will it'll actually edit them and all
+15:33 you have to do is press accept and you
+15:35 can accept all the changes that it does
+15:37 and that's how I normally code here I'm
+15:40 just looking for this current prompt
+15:42 here and so we can actually see that the
+15:45 Jimmy's initial welcome prompt is
+15:47 defined and use chat here's the relevant
+15:50 section this is the prompt for the whole
+15:54 chat experience and I wanted to ask this
+15:57 question here because we're not looking
+15:59 for this initial message thing right
+16:01 here what we're doing is we're looking
+16:03 for this right here it's like you are a
+16:06 helpful assistant and so we if you want
+16:08 to go to that page just click on this
+16:10 route. TS and here we go now we're here
+16:14 system you are a helpful AI assistant
+16:18 who speaks we can change this like a
+16:21 jenzy teenager so this is the tab
+16:24 feature since I changed it to jenzy
+16:28 Jimmy it now knows what we want so
+16:31 whenever you see this little uh auto
+16:33 correct thing here that pops up or auto
+16:35 complete you can just press Tab and
+16:38 automatically finishes what you're
+16:40 saying who speaks like a gen your
+16:42 teacher let's actually say you are 20y
+16:44 in all lower case and you
+16:49 speak in slang and I'll zoom out here a
+16:53 little bit so you can see it in slang of
+16:57 a gen Z teenager and we can hit command
+17:02 s and let's actually make sure you
+17:06 always speak like this command s so now
+17:11 let's go ahead and test it and we can
+17:15 now say hello Jimmy tell me tell me
+17:20 about open Ai and we can run this yo
+17:25 open AI is like this intense Cool Tech
+17:29 it's all about artificial intelligence
+17:30 you know they're about making sure AI
+17:33 comes good for everyone yeah and so this
+17:35 you can kind of change the personality
+17:38 and that is just another feature of this
+17:40 app and so now let's go ahead and add a
+17:43 voice so we're going to be using another
+17:45 API so I actually use perplexity for a
+17:50 lot of the API stuff that I do so what
+17:52 I'm going to do here is I'm going to go
+17:54 to perplexity and so this is where we
+17:56 can find a bunch of the tools that we
+17:58 can use so I want to add speech to my
+18:04 app it's a basic chat gbt app except I
+18:07 want to give the option to play it out
+18:10 loud the the ai's response out loud and
+18:13 so I want to use the 11 Labs API for
+18:16 this can you please find the relevant
+18:18 code to do this in a nextjs project and
+18:22 remember to always use
+18:24 nextjs and I'm just going to run this
+18:27 and so you can do it like this or you
+18:29 can do it with the chat GPT web feature
+18:31 or you could just go directly to 11 Labs
+18:34 sometimes you won't even know that you
+18:35 want to use 11 labs and you'll need to
+18:37 ask for an API that's perfectly okay too
+18:40 so we can easily do text to speech so
+18:43 this is what we want to use what we need
+18:45 to first get is we need to get our API
+18:47 keys and so our API keys are right here
+18:50 I'm actually going to create a new API
+18:52 key new API key and so I'm going to
+18:55 pause the video for a second because I
+18:57 don't want this to be given away so I
+19:00 got the API key copied and here we have
+19:03 some example code for how to use the 11
+19:06 Labs API so I'm going to copy this and
+19:09 I'm going to say in cursor I'm going to
+19:11 give you the
+19:12 documentation for the 11 laabs API to
+19:16 give me the option to play the chatbots
+19:20 responses out loud and what we're going
+19:22 to do is we're just going to paste in
+19:24 the documentation on where the AI
+19:27 response is is I want you to have a play
+19:30 button that allows me to just play it
+19:32 out with a voice and then we're giving
+19:36 this and now what we're going to do I
+19:39 remove the citations on here so now it
+19:41 is done and it immediately told me to
+19:44 add your 11 laabs API key to my EnV
+19:48 local file so I clicked on that it took
+19:50 me directly to this page and I'm about
+19:52 to paste my API key right here okay so I
+19:55 just did that and I am done so I'm just
+20:00 going to make sure we accept all now
+20:02 let's go over to our app here on Local
+20:05 Host 3000 as you can see we have this
+20:07 play icon let's see if this works we may
+20:09 need to refresh so let's go ahead and
+20:11 refresh this here we can say hi Jimmy
+20:14 and now what we're going to do is I'm
+20:15 going to make sure that I'm going to hit
+20:18 inspect here we're going to open this up
+20:21 so in order to debug properly while in
+20:24 Local Host you want to hit ex inspect
+20:27 and you want to keep the console open
+20:29 right here now what I'm going to do is
+20:31 I'm going to press this play sign and so
+20:34 we got this error and so what we're
+20:36 going to do here is I'm just going to
+20:38 copy this and say I got an error when
+20:44 trying to play I'm going to paste this
+20:47 in and we're going to run it and let's
+20:50 give this a try let's see if this works
+20:53 Jim what's up hey not much chilling what
+20:55 about you cool hey not much just
+20:57 chilling why you we I'm building an app
+21:03 man and this is our final feature before
+21:06 we deploy it all right so this is cool
+21:07 so that's lit bro what's the app about
+21:11 must be a Vibe NGL and there we go we
+21:14 have a simple jenzy Jimmy app that we
+21:16 created with a few prompts we added uh
+21:19 the open AI API we added the we added
+21:23 the 11 Labs API and it's pretty fun all
+21:27 right so now now let's deploy this to
+21:30 the Internet so we have a link that we
+21:32 can share with other people so what
+21:33 we're going to do here we're going to
+21:35 say I want to deploy this on verell
+21:40 please help me do all of this and I want
+21:46 to deploy it and we're going to run this
+21:49 with the agent so I will help you and so
+21:52 it is now configuring out this it's
+21:55 reading our en local so here it's saying
+21:57 uh install vers cell we're going to go
+21:59 ahead and do that and we're just going
+22:00 to pop out this terminal here now let's
+22:03 create a versell project and deploy it
+22:05 first log in to versel run command and
+22:09 here and so this is actually the first
+22:11 time that I'm deploying on versel but
+22:13 we're actually just going to figure this
+22:14 out together um so we're going to go to
+22:17 versel and you sign into versel and
+22:19 you're going to actually use what you're
+22:21 going to do is you actually sign in with
+22:23 GitHub you need to create a GitHub
+22:26 account so let's just do this right now
+22:28 so we're going to go to GitHub and what
+22:30 we're going to do here is once you
+22:32 create an account on git we're going to
+22:34 go to versel and once we create an
+22:38 account on versel you then set up and
+22:41 you're going to connect your GitHub and
+22:44 once you have your GitHub set up on here
+22:47 so now here it's asking you to continue
+22:50 with GitHub so we're just going to run
+22:52 this just like this and it automatically
+22:54 took us here straight from the terminal
+22:57 so when I asked it to deploy it it said
+23:00 now let's create a verell project and it
+23:02 asks us to log in and it immediately
+23:06 took us there if you've never signed in
+23:08 before the instructions might be a
+23:10 little different and you may need to go
+23:12 through the process and I think it's
+23:14 really short honestly if I remember
+23:16 correctly here after it says after
+23:19 logging in and it said the login was a
+23:22 success we can run the command and we
+23:25 are going to hit pop out terminal uh yes
+23:28 Yes or No
+23:31 Yes um which scope should contain your
+23:34 project um let's just go ahead and use
+23:37 this right here link to existing project
+23:40 no what's the name of your project genen
+23:44 Z Jimmy enter in which directory is your
+23:49 code located all right let's say you
+23:52 don't know what this means right cuz I'm
+23:55 not going to lie I don't fully know what
+23:56 that means we're just going to say say
+23:58 I'm trying to deploy on versell and they
+24:00 ask me this question what is the answer
+24:02 and how do I figure it out if you don't
+24:04 know the answer and so we're just going
+24:05 to run it like this so what do I do in
+24:09 the terminal okay so we're going to put
+24:12 nothing so it says type dot slash and
+24:16 we're just going to put nothing because
+24:18 it's in the root folder we're going to
+24:19 press enter want to modify these
+24:22 settings no so it says linked to the
+24:25 account and it is now building
+24:28 okay let's see here let's go to versel
+24:32 here we can see it jenz Jimmy versel app
+24:36 just now and so you can click on this
+24:39 and it says no production deployment and
+24:41 we can actually press build logs and we
+24:43 can see the status it is currently
+24:46 building and it's been building for 50
+24:48 seconds and so let's see if this
+24:50 succeeds or failed and it'll tell us
+24:53 right here whether it succeeded or
+24:54 failed okay cool we got an error this
+24:57 happens a lot when you're trying to
+24:59 deploy it's not easy to deploy what we
+25:01 need to do is we're just going to copy
+25:03 the whole thing here and I'm going to
+25:05 copy all of the text from this for the
+25:08 error warning and I'm going to go back
+25:10 to cursor and I'm going to say error on
+25:15 deployment and we're going to run this
+25:19 and so here it's actually saying that we
+25:20 need to put our environment variables
+25:22 which are open AI API key and these four
+25:25 things to versel so what I can do is I
+25:27 can copy Cy all of my API keys that are
+25:32 listed below I don't want to show you
+25:33 because I don't want my API Keys exposed
+25:36 but you can literally copy all of them
+25:38 so I'm going to copy them and then
+25:40 within settings on versel we're going to
+25:43 look for environment variables and we're
+25:45 just going to paste these in right here
+25:46 so we're going to press command V and
+25:48 that pastes them in there automatically
+25:51 it says add and they will be added all
+25:53 at once after adding the environment
+25:55 variables let's redeploy so let's run
+25:57 this command and look at that it says
+26:00 now status ready now that we added the
+26:02 environment variables it shows us this
+26:04 link right here so then we can press
+26:06 this visit button and as you can see
+26:10 here we have our app and so either of
+26:13 these links will take you to the page
+26:14 you can copy this link right here and
+26:16 send it to anyone right and we can enter
+26:18 this in and boom it takes us to the app

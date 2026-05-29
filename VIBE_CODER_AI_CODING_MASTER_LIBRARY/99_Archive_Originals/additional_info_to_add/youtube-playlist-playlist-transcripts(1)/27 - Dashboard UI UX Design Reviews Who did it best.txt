@@ -1,0 +1,212 @@
+Title: Dashboard UI/UX Design Reviews | Who did it best?
+URL: https://www.youtube.com/watch?v=uMQnKUIXUSI&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=27&pp=iAQB
+Channel: YouTube playlist
+Video ID: uMQnKUIXUSI
+Transcript language: English auto-generated
+Downloaded at: 2026-05-25T21:41:00.259Z
+
+0:00 all right we are moving along quick
+0:01 we're almost at the end of the 30-day
+0:03 uiu series and today we are reviewing
+0:06 the dashboard designs from yesterday's
+0:08 challenges so I think we have like five
+0:10 or six to review and you all design them
+0:12 pretty differently from each other so
+0:14 there's a lot to learn from this one so
+0:16 we're going to do one more challenge I
+0:17 think that's a part of this 30-day uuux
+0:19 series and I think I will we introduce
+0:22 that tomorrow and I think it'll give you
+0:23 two days to complete this final
+0:25 challenge coming up so hopefully you've
+0:26 enjoyed it so far check out designc
+0:28 course.com if you haven't yet and and
+0:30 let's get
+0:33 started okay so the first one is
+0:36 from
+0:37 yiki okay um all right so this is
+0:41 actually a pretty interesting design
+0:43 there are some interesting parts that I
+0:44 decided to change um you can see like
+0:46 there's like this very light container
+0:48 around here um also the water marks are
+0:51 a little bit they're they're too obvious
+0:53 I would reduce the opacity on those as
+0:55 well um a little bit too much white
+0:57 space between these menu items they're
+1:00 really spread out quite far and also I
+1:02 wouldn't make I wouldn't use this
+1:04 primary green color like you found up
+1:07 here it's good that you used it but we
+1:08 really need to make that darker so here
+1:10 is my revision of that same UI again
+1:14 hardly anything's Chang except for what
+1:16 I had mentioned um this is all solid um
+1:19 just with these changes though going
+1:21 from before here to the after State here
+1:25 very nice so again not many changes
+1:28 here's one this one is good I I really
+1:30 like it kind of completely changed up
+1:32 the UI which is sometimes typical for a
+1:34 dashboard UI um in order to maximize
+1:37 space perhaps you wouldn't have it
+1:39 confined in a container kind of like how
+1:41 we've been doing um this will this is
+1:44 really essentially a fluid layout that
+1:46 would really just expand 100% width of
+1:48 of the browser um so outside of that
+1:52 looking at this I did make some
+1:54 adjustments but not many the only
+1:56 adjustment I made notice how these are
+1:58 these panels are real close together I
+2:01 spread them out just a bit um just so
+2:03 that they have room to breathe but this
+2:06 is one of the best entries that we've
+2:07 had um so there was not um too many
+2:09 adjustments I needed to make and by the
+2:11 way that was from sojoy a somebody's I
+2:15 think submitted almost every single one
+2:17 um here's another one awaii if that's
+2:19 how you pronounce it so this one um
+2:22 there there's a lot happening here um
+2:25 with color I would I would definitely
+2:28 probably reduce the amount of colors
+2:31 although I didn't do that in the
+2:33 revision but I did make some adjustments
+2:35 here overall just to kind of help out um
+2:39 the color so the background color being
+2:42 gray like this that's okay but I decided
+2:44 to to make it just the same color white
+2:47 and instead of it being you know real
+2:49 high contrast Strokes um on every
+2:51 element inside I reduce the contrast on
+2:54 the ones on the inside um so that's
+2:57 definitely something you would want to
+2:58 adjust um this area I'm not I'm not too
+3:01 much of a fan of I think these are
+3:03 spread out too far like I would take
+3:05 these and move them up all right that's
+3:08 better and then as such you know I might
+3:11 also probably remove view completion
+3:14 rate or view all this stuff and maybe
+3:16 just have an icon um and then also I
+3:19 would probably sorry I'm I'm I'm live
+3:22 designing and live refactoring while I
+3:24 uh do this I was trying to knock these
+3:26 out quick but as I'm here I'm just
+3:28 trying to make some slight adjustments
+3:29 to this to kind of reduce um the amount
+3:32 of complexity that we had here so very
+3:35 good job though let's continue on all
+3:38 right so this one is from nahil another
+3:41 person who's been submitting every
+3:42 challenge thank you very much um but
+3:45 this one is is It's Tricky um there's
+3:48 simply just too much Happening Here I
+3:51 think there's way too I think some of
+3:52 the type is too small I so like for
+3:55 instance right here your courses see
+3:57 where that says size 10 wait too small
+4:00 you never want to go anything that's
+4:02 supposed to be legible should be no no
+4:06 less than 12 13 pixels you're at 10 so
+4:09 it's way too small especially when we we
+4:11 zoom out here um another issue and this
+4:14 is a big issue that's really kind of
+4:17 killing the overall quality of this is
+4:19 the panel colors your card colors being
+4:22 gray and on top of that mixing a shadow
+4:27 a drop shadow against the gray um and
+4:30 what this does is it kind of washes out
+4:31 the design and you want to avoid this so
+4:34 that's the main thing I focused on to
+4:36 try to really clean this design up as
+4:38 much as possible for my revision even
+4:40 though there probably are some other
+4:41 revisions they would make as well you
+4:43 know there's really small things too for
+4:45 instance like this this area look how
+4:47 wide this is you know I would just bring
+4:49 this in maybe right here and then get
+4:51 this tidied up over here or something
+4:54 like that um but just to show you going
+4:57 back um here's the before and I only
+5:00 played around with the
+5:02 colors notice how much easier that is on
+5:04 the eyes so the big thing that I changed
+5:07 here is the background color um it just
+5:09 feels out of place like this would make
+5:11 sense if we're on you know like a uh a
+5:14 dark UI um but I feel like that wasn't
+5:18 the right choice so I used this gray
+5:21 very light gray which will give us the
+5:24 ability to make everything white on the
+5:25 inside so it stands out and then I took
+5:28 all the cards on the the inside and
+5:30 instead of just making them gray I gave
+5:32 them a very light one pixel stroke a
+5:35 gray stroke and really it just kind of
+5:37 cleans up the design as much as possible
+5:40 when you compare these two the only
+5:41 thing I changed like I said is the
+5:43 colors of this and the panel backgrounds
+5:46 and it feels like and looks like a
+5:48 completely different better UI in my
+5:50 opinion all right let's try another one
+5:53 this is from Donnie okay so here's
+5:56 another one I don't know what happened
+5:57 this person did not Design This for some
+6:00 reason when I imported it it got screwed
+6:02 up so let me let me move this back over
+6:04 here there we go so there are some
+6:07 issues with this um there's
+6:08 inconsistency in the application of your
+6:11 stroke color so we have black Strokes
+6:14 all over the place we have black Strokes
+6:16 around these two panels but not these
+6:18 panels they're green and so in my
+6:20 opinion that doesn't quite make sense so
+6:23 another thing that we have up here is
+6:25 this gray text I would probably modify
+6:27 and make this bigger more white space
+6:30 around it and on the
+6:32 insides so let's check a take a look at
+6:35 what I did to modify this um and I I I
+6:38 gave a couple different options so
+6:40 really what I did is just I kind of I
+6:42 tidied things up a little bit and then
+6:45 here's another option where you know the
+6:48 only elements that have big thick stroke
+6:50 borders is just the main container right
+6:52 here in the menu and then we used
+6:54 borders uh very light low contrast
+6:57 borders for this element right here so
+7:00 this is kind of show you um you know
+7:02 here's the oh another big thing is this
+7:05 these um especially these labels that
+7:08 would 100% would fail the wcag uh color
+7:11 contrast ratio so use a plug-in like
+7:13 Stark St RK contrast um to ensure that
+7:17 your type is um you know contrasting
+7:20 enough it's dark enough it's not in this
+7:22 case so if you take a mental snapshot of
+7:25 this and then compare it to this this is
+7:28 way more readable
+7:30 um so yeah so that was it here for the
+7:34 this round of reviews tomorrow we're
+7:36 going to introduce um I think the final
+7:38 challenge that's a part of this 30-day
+7:40 uiux series and I might give people two
+7:43 days for this one um I know it said 30
+7:45 videos in 30 days um I I might actually
+7:48 just draw that back to 29 instead and
+7:50 give people an extra day uh to to do a
+7:54 final Challenge and don't worry it's not
+7:55 going to be something that takes forever
+7:57 CU I I want people to to want to do this
+8:00 but not spend like 2 days having to do
+8:02 it so um this will be a fun one in the
+8:04 next one hopefully you've all been
+8:06 enjoying this and I will see you very
+8:08 soon tomorrow at 10: a.m.
+8:16 [Music]

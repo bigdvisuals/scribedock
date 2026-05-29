@@ -1,0 +1,1939 @@
+# Transcript Inventory
+
+This lists every source text file embedded into a topic file.
+
+## AI Agents
+
+Count: 7
+
+- addintional info to add\06 - OpenAI Codex Tutorial #6 - Using the AGENTS.md file.txt -> 01_Full_Topic_Library\01_AI_Agents/FULL_TRANSCRIPTS.md
+- addintional info to add\agent-skills-main\packages\vercel-optimize-tests\test\fixtures\real-cli-output\contract-commitments-empty-200.txt -> 01_Full_Topic_Library\01_AI_Agents/FULL_TRANSCRIPTS.md
+- addintional info to add\agent-skills-main\packages\vercel-optimize-tests\test\fixtures\real-cli-output\usage-404-stderr.txt -> 01_Full_Topic_Library\01_AI_Agents/FULL_TRANSCRIPTS.md
+- addintional info to add\build-a-full-stack-ai-therapist-agent-app-using-nextjs-nodejs-mongodb-expressjs-.txt -> 01_Full_Topic_Library\01_AI_Agents/FULL_TRANSCRIPTS.md
+- addintional info to add\how-to-sell-ai-agents-to-local-businesses-with-claude-code-poppy.txt -> 01_Full_Topic_Library\01_AI_Agents/FULL_TRANSCRIPTS.md
+- addintional info to add\my-simple-claude-code-workflow-to-build-apps-fast-no-skills-agents-or-computer-u.txt -> 01_Full_Topic_Library\01_AI_Agents/FULL_TRANSCRIPTS.md
+- VideoTranscriber_This AI Agent creates 1000+ SEO Pages in 52 min (Claude + MCP + Cursor).txt -> 01_Full_Topic_Library\01_AI_Agents/FULL_TRANSCRIPTS.md
+
+## BMad Method
+
+Count: 2
+
+- BMAD-METHOD-main\BMAD-METHOD-main\removals.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\BMad_Method/FULL_TRANSCRIPTS.md
+- VideoTranscriber_The Official BMad-Method Masterclass (The Complete IDE Workflow).txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\BMad_Method/FULL_TRANSCRIPTS.md
+
+## Codex
+
+Count: 21
+
+- addintional info to add\01 - OpenAI Codex Tutorial #1 - Introduction & Setup.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\Codex/FULL_TRANSCRIPTS.md
+- addintional info to add\02 - OpenAI Codex Tutorial #2 - Running Cloud Tasks.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\Codex/FULL_TRANSCRIPTS.md
+- addintional info to add\03 - OpenAI Codex Tutorial #3 - Code Code Review.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\Codex/FULL_TRANSCRIPTS.md
+- addintional info to add\04 - OpenAI Codex Tutorial #4 - Using the Codex CLI.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\Codex/FULL_TRANSCRIPTS.md
+- addintional info to add\05 - OpenAI Codex Tutorial #5 - CLI Commands & Resuming Sessions.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\Codex/FULL_TRANSCRIPTS.md
+- addintional info to add\07 - OpenAI Codex Tutorial #7 - Codex IDE Extension.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\Codex/FULL_TRANSCRIPTS.md
+- addintional info to add\08 - OpenAI Codex Tutorial #8 - Context, Reasoning & TODO's.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\Codex/FULL_TRANSCRIPTS.md
+- addintional info to add\09 - OpenAI Codex Tutorial #9 - MCP Servers.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\Codex/FULL_TRANSCRIPTS.md
+- addintional info to add\10 - OpenAI Codex Tutorial #10 - Delegating Tasks to the Cloud.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\Codex/FULL_TRANSCRIPTS.md
+- addintional info to add\11 - OpenAI Codex Tutorial #11 - Running Tasks in Parallel.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\Codex/FULL_TRANSCRIPTS.md
+- addintional info to add\chatgpt-5-5-codex-is-the-greatest-ai-coding-tool-ever-here-s-how-to-use-it.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\Codex/FULL_TRANSCRIPTS.md
+- addintional info to add\codex-just-replaced-1-000-hours-of-video-editing-tutorials.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\Codex/FULL_TRANSCRIPTS.md
+- addintional info to add\codex-skills-every-design-engineer-needs.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\Codex/FULL_TRANSCRIPTS.md
+- addintional info to add\how-i-build-apps-with-codex-and-gpt-5-5.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\Codex/FULL_TRANSCRIPTS.md
+- addintional info to add\how-i-use-openai-codex-real-workflow.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\Codex/FULL_TRANSCRIPTS.md
+- addintional info to add\improve-your-codex-ui-desgin-with-this-simple-method.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\Codex/FULL_TRANSCRIPTS.md
+- addintional info to add\master-97-of-codex-in-1-hour-full-course.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\Codex/FULL_TRANSCRIPTS.md
+- addintional info to add\new-codex-design-workflow-makes-codex-better-than-most-designers.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\Codex/FULL_TRANSCRIPTS.md
+- addintional info to add\openai-codex-full-course-4-hours-build-ship.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\Codex/FULL_TRANSCRIPTS.md
+- addintional info to add\the-codex-starter-pack-5-skills-every-design-engineer-needs.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\Codex/FULL_TRANSCRIPTS.md
+- addintional info to add\this-chatgpt-codex-workflow-changed-how-i-design-websites.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\Codex/FULL_TRANSCRIPTS.md
+
+## Claude Code
+
+Count: 3
+
+- VideoTranscriber_100 Hours Testing Claude Code vs Antigravity (honest results).txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\Claude_Code/FULL_TRANSCRIPTS.md
+- VideoTranscriber_AI-Assisted Coding Tutorial – OpenClaw, GitHub Copilot, Claude Code, CodeRabbit, Gemini CLI.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\Claude_Code/FULL_TRANSCRIPTS.md
+- VideoTranscriber_My Claude Code workflow no one knows about.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\Claude_Code/FULL_TRANSCRIPTS.md
+
+## AntiGravity
+
+Count: 2
+
+- addintional info to add\how-to-build-full-stack-apps-for-free-antigravity-no-code.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\AntiGravity/FULL_TRANSCRIPTS.md
+- VideoTranscriber_The Ultimate AntiGravity Masterclass (3+ HOUR FREE COURSE).txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\AntiGravity/FULL_TRANSCRIPTS.md
+
+## MCP
+
+Count: 3
+
+- addintional info to add\skills-main\skills\mcp-builder\LICENSE.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\MCP/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\mcp-builder\scripts\requirements.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\MCP/FULL_TRANSCRIPTS.md
+- VideoTranscriber_Model Context Protocol (MCP), clearly explained (why it matters).txt -> 01_Full_Topic_Library\02_AI_Coding_Tools\MCP/FULL_TRANSCRIPTS.md
+
+## Chrome Extensions
+
+Count: 10
+
+- addintional info to add\3-chrome-extensions-making-100k-you-can-build-these-too.txt -> 01_Full_Topic_Library\06_Chrome_Extensions/FULL_TRANSCRIPTS.md
+- addintional info to add\how-i-built-it-20k-month-chrome-extension.txt -> 01_Full_Topic_Library\06_Chrome_Extensions/FULL_TRANSCRIPTS.md
+- addintional info to add\how-much-i-make-from-a-100-000-user-chrome-extension.txt -> 01_Full_Topic_Library\06_Chrome_Extensions/FULL_TRANSCRIPTS.md
+- addintional info to add\million-dollar-chrome-extensions-and-how-they-did-it.txt -> 01_Full_Topic_Library\06_Chrome_Extensions/FULL_TRANSCRIPTS.md
+- Build a Chrome Extension in 60 seconds (ytranscript.app).txt -> 01_Full_Topic_Library\06_Chrome_Extensions/FULL_TRANSCRIPTS.md
+- Create Your First Chrome Extension (That Adds This Button to LinkedIn) (ytranscript.app).txt -> 01_Full_Topic_Library\06_Chrome_Extensions/FULL_TRANSCRIPTS.md
+- How I Built It - $20K - Month Chrome Extension (ytranscript.app).txt -> 01_Full_Topic_Library\06_Chrome_Extensions/FULL_TRANSCRIPTS.md
+- How to Build a Chrome Extension from scratch using Vite, React and TypeScript (ytranscript.app).txt -> 01_Full_Topic_Library\06_Chrome_Extensions/FULL_TRANSCRIPTS.md
+- How to Create Your Chrome Extension Using AI (ytranscript.app).txt -> 01_Full_Topic_Library\06_Chrome_Extensions/FULL_TRANSCRIPTS.md
+- ORGANIZED_KNOWLEDGE_BASE\07_Chrome_Extensions.md -> 01_Full_Topic_Library\06_Chrome_Extensions/FULL_TRANSCRIPTS.md
+
+## Cybersecurity
+
+Count: 132
+
+- addintional info to add\02 - What is Cyber Security Introduction to Cyber Security Cyber Security Training Ed.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\03 - CyberSecurity Certifications CyberSecurity Career CyberSecurity Certification Tr.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\04 - Cybersecurity Frameworks NIST Cybersecurity Framework Cybersecurity Certificatio.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\06 - Cybersecurity Tools Popular Tools for Cybersecurity Threats Cybersecurity Traini.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\07 - Top 10 Reasons to Learn Cybersecurity in 2024 Why Cybersecurity is Important Edu.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\08 - 8 Most Common Cybersecurity Threats Types of Cyber Attacks Cybersecurity for Beg.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\09 - What is Cryptography Introduction to Cryptography Cryptography for Beginners Edu.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\11 - Computer Security Types of Computer Security Cybersecurity Course Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\12 - Cross Site Scripting Tutorial Penetration Testing Tutorial Web Application Secur.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\13 - Diffie Hellman Key Exchange Algorithm Secret Key Exchange Network Security Tutor.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\15 - Penetration Testing Tutorial Penetration Testing using Metasploit Cybersecurity .txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\16 - Netcat Tutorial Introduction to Netcat Cybersecurity Certification Training Edur.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\17 - Application Security Application Security Tutorial Cyber Security Certification .txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\18 - What is Ethical Hacking Ethical Hacking for Beginners Ethical Hacking Course Edu.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\19 - Cybersecurity Fundamentals Understanding Cybersecurity Basics Cybersecurity Cour.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\20 - How to become a Cybersecurity Engineer Cybersecurity Salary Cybersecurity Traini.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\22 - Ethical Hacking Career Ethical Hacking Career, Jobs & Salary Ethical Hacking Roa.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\23 - How to Become an Ethical Hacker Ethical Hacking Career Ethical Hacker Salary Edu.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\27 - Nmap Tutorial For Beginners How to Scan Your Network Using Nmap Ethical Hacking .txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\28 - Ethical Hacking using Python Password Cracker Using Python Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\29 - Kali Linux vs ParrotOS Which One You Should Learn Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\33 - Phases of Ethical Hacking Ethical Hacking Steps Ethical Hacking Course Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\34 - What is Phishing Learn Phishing Using Kali Linux Phishing Attack Explained Edure.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\35 - What is Brute Force Attack Password Cracking Using Brute Force Attacks Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\36 - What is Cybersecurity Cybersecurity in 2 Minutes Cybersecurity Online Training E.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\37 - CompTIA Security+ What is CompTIA Security+ CompTIA Security+ Training Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\38 - How AI ML Is Transforming Cybersecurity Introduction To Cybersecurity Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\39 - Cybersecurity Career Cybersecurity For Beginners Cybersecurity Training Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\40 - CompTIA Security+ Certification CompTIA Security+ SY0-601 Cybersecurity Training.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\42 - Top Cyber Attacks In History Biggest Cyber Attacks Of All Time Cyber Security Ca.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\43 - Future of Cybersecurity Cyber Security Career Cybersecurity Training Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\46 - What is Kali Linux Kali Linux Hacking Tutorials Ethical Hacking Training Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\47 - How to Become an Ethical Hacker Ethical hacking certification Ethical hacking tr.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\48 - Deep Dive into Data Security and Protection Cybersecurity Training Edureka Rewin.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\50 - CEH vs CISSP vs CompTIA Security+ Which is right for you Best IT Security Certif.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\52 - CompTIA Security+ (SY0-701) Certification CompTIA Security+ Exam Cyber Security .txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\53 - Top 3 Cyber Security Certifications for 2025 Cyber Security Certifications for B.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\54 - Cybersecurity Roadmap Cybersecurity Career Roadmap For Beginners Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\55 - Cybersecurity Career Paths Career in Cyber Security - Salary, Jobs and Skills Ed.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\57 - Social Engineering in Cyber Security Explained What is Social Engineering CEH Tr.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\59 - Top 5 Cybersecurity Certifications to Advance your Career Cybersecurity Certific.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\60 - 🔥 Cybersecurity Certification Top 5 Cybersecurity Certifications To Get In 2025.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\61 - CEH v13 Certification What’s New in CEH v13 AI CEH v13 Exam Details Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\63 - Cybersecurity Interview Questions Top 30 Cybersecurity Interview Questions & Ans.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\64 - Cybersecurity in the Age of AI AI in Cybersecurity Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\65 - Cybersecurity Projects for Beginners Top 10 Cybersecurity Project Ideas Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\69 - Phishing Attacks Explained How to Avoid Getting Phished (Scammed Online) Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\70 - Cybersecurity Skills You NEED To Learn (2026) The Most In-Demand Cybersecurity S.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\71 - DDoS Attack What is a DDoS Attack DDoS Attack Explained Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\72 - What is SSRF Server-Side Request Forgery Explained Impact of SSRF Attacks Edurek.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\73 - Best Antiviruses for Cybersecurity in 2026 Top 10 Antivirus Software Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\application-security-101-what-you-need-to-know-in-8-minutes.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\01 - Cyber Security Full course - 11 Hours Cyber Security Training For Beginners Edur.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\02 - What is Cyber Security Introduction to Cyber Security Cyber Security Training Ed.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\03 - CyberSecurity Certifications CyberSecurity Career CyberSecurity Certification Tr.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\04 - Cybersecurity Frameworks NIST Cybersecurity Framework Cybersecurity Certificatio.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\05 - Cybersecurity Tutorial Demo On Man In The Middle Attack Cybersecurity Training E.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\06 - Cybersecurity Tools Popular Tools for Cybersecurity Threats Cybersecurity Traini.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\07 - Top 10 Reasons to Learn Cybersecurity in 2024 Why Cybersecurity is Important Edu.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\08 - 8 Most Common Cybersecurity Threats Types of Cyber Attacks Cybersecurity for Beg.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\09 - What is Cryptography Introduction to Cryptography Cryptography for Beginners Edu.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\10 - Cybersecurity Interview Questions and Answers CyberSecurity Interview Tips Edure.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\11 - Computer Security Types of Computer Security Cybersecurity Course Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\12 - Cross Site Scripting Tutorial Penetration Testing Tutorial Web Application Secur.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\13 - Diffie Hellman Key Exchange Algorithm Secret Key Exchange Network Security Tutor.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\14 - Network Security Tutorial Introduction to Network Security Network Security Tool.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\15 - Penetration Testing Tutorial Penetration Testing using Metasploit Cybersecurity .txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\16 - Netcat Tutorial Introduction to Netcat Cybersecurity Certification Training Edur.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\17 - Application Security Application Security Tutorial Cyber Security Certification .txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\18 - What is Ethical Hacking Ethical Hacking for Beginners Ethical Hacking Course Edu.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\19 - Cybersecurity Fundamentals Understanding Cybersecurity Basics Cybersecurity Cour.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\20 - How to become a Cybersecurity Engineer Cybersecurity Salary Cybersecurity Traini.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\21 - Ethical Hacking Tutorial For Beginners Ethical Hacking Course Ethical Hacking Tr.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\22 - Ethical Hacking Career Ethical Hacking Career, Jobs & Salary Ethical Hacking Roa.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\23 - How to Become an Ethical Hacker Ethical Hacking Career Ethical Hacker Salary Edu.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\24 - Penetration Testing Tutorial Penetration Testing Tools Cyber Security Training E.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\25 - Steganography Tutorial How To Hide Text Inside The Image Cybersecurity Training .txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\26 - Complete Ethical Hacking Course Ethical Hacking Training for Beginners Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\27 - Nmap Tutorial For Beginners How to Scan Your Network Using Nmap Ethical Hacking .txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\28 - Ethical Hacking using Python Password Cracker Using Python Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\29 - Kali Linux vs ParrotOS Which One You Should Learn Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\30 - Learn Ethical Hacking With Kali Linux Ethical Hacking Tutorial Kali Linux Tutori.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\31 - Parrot Security OS Introduction to Parrot Security OS Cybersecurity Training Edu.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\32 - Ethical Hacking Full Course - Learn Ethical Hacking in 10 Hours Ethical Hacking .txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\33 - Phases of Ethical Hacking Ethical Hacking Steps Ethical Hacking Course Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\34 - What is Phishing Learn Phishing Using Kali Linux Phishing Attack Explained Edure.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\35 - What is Brute Force Attack Password Cracking Using Brute Force Attacks Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\36 - What is Cybersecurity Cybersecurity in 2 Minutes Cybersecurity Online Training E.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\37 - CompTIA Security+ What is CompTIA Security+ CompTIA Security+ Training Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\38 - How AI ML Is Transforming Cybersecurity Introduction To Cybersecurity Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\39 - Cybersecurity Career Cybersecurity For Beginners Cybersecurity Training Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\40 - CompTIA Security+ Certification CompTIA Security+ SY0-601 Cybersecurity Training.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\41 - Coding For Cybersecurity Programming In Cybersecurity Cybersecurity Training Edu.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\42 - Top Cyber Attacks In History Biggest Cyber Attacks Of All Time Cyber Security Ca.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\43 - Future of Cybersecurity Cyber Security Career Cybersecurity Training Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\45 - Cybersecurity for Beginners Certified Ethical Hacker CEH v11 Certification Train.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\46 - What is Kali Linux Kali Linux Hacking Tutorials Ethical Hacking Training Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\47 - How to Become an Ethical Hacker Ethical hacking certification Ethical hacking tr.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\48 - Deep Dive into Data Security and Protection Cybersecurity Training Edureka Rewin.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\49 - Ethical Hacking using Python Ethical Hacking Edureka Cybersecurity Rewind.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\50 - CEH vs CISSP vs CompTIA Security+ Which is right for you Best IT Security Certif.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\51 - Cybersecurity Full Course - 10 Hours Cyber Security Training for Beginners Edure.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\52 - CompTIA Security+ (SY0-701) Certification CompTIA Security+ Exam Cyber Security .txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\53 - Top 3 Cyber Security Certifications for 2025 Cyber Security Certifications for B.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\54 - Cybersecurity Roadmap Cybersecurity Career Roadmap For Beginners Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\55 - Cybersecurity Career Paths Career in Cyber Security - Salary, Jobs and Skills Ed.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\57 - Social Engineering in Cyber Security Explained What is Social Engineering CEH Tr.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\58 - Cyber Security Full Course Cyber Security Training For Beginners Cyber Security .txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\59 - Top 5 Cybersecurity Certifications to Advance your Career Cybersecurity Certific.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\60 - 🔥 Cybersecurity Certification Top 5 Cybersecurity Certifications To Get In 2025.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\61 - CEH v13 Certification What’s New in CEH v13 AI CEH v13 Exam Details Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\62 - Cybersecurity Roadmap 2025 How To Become A Cybersecurity Expert Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\63 - Cybersecurity Interview Questions Top 30 Cybersecurity Interview Questions & Ans.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\64 - Cybersecurity in the Age of AI AI in Cybersecurity Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\65 - Cybersecurity Projects for Beginners Top 10 Cybersecurity Project Ideas Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\67 - John the Ripper Tutorial Password Cracking with John the Ripper Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\69 - Phishing Attacks Explained How to Avoid Getting Phished (Scammed Online) Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\70 - Cybersecurity Skills You NEED To Learn (2026) The Most In-Demand Cybersecurity S.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\71 - DDoS Attack What is a DDoS Attack DDoS Attack Explained Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\72 - What is SSRF Server-Side Request Forgery Explained Impact of SSRF Attacks Edurek.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\73 - Best Antiviruses for Cybersecurity in 2026 Top 10 Antivirus Software Edureka.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\python-cybersecurity-for-beginners-firewall-part-1-simulation.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\python-cybersecurity-for-beginners-firewall-part-2-dos-blocker.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\python-cybersecurity-for-beginners-firewall-part-3-mini-firewall.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\python-cybersecurity-for-beginners-scanners-part-1-ping-sweeper.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\python-cybersecurity-for-beginners-scanners-part-2-port-scanner.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\python-cybersecurity-for-beginners-scanners-part-3-service-fingerprinting.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\python-cybersecurity-for-beginners-scanners-part-4-os-fingerprinting.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- addintional info to add\python-cybersecurity-for-beginners-scanners-part-5-wrapper.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- ORGANIZED_KNOWLEDGE_BASE\10_Cybersecurity.md -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- VideoTranscriber_Cybersecurity Mastery_ Complete Course in a Single Video _ Cybersecurity For Beginners.txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+- VideoTranscriber_Vibe Coding Has A Security Problem (And How To Fix It).txt -> 01_Full_Topic_Library\10_Cybersecurity/FULL_TRANSCRIPTS.md
+
+## Prompting and Workflows
+
+Count: 90
+
+- addintional info to add\a-3-step-ai-coding-workflow-for-solo-founders-ryan-carson-5x-founder.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\full-walkthrough-workflow-for-ai-coding-matt-pocock.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\how-i-build-apps-so-fast-updated-ai-coding-workflow.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-gpt-image-2-the-claude-code-workflow-that-designs-builds-your-site.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\algorithmic-art\LICENSE.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\brand-guidelines\LICENSE.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\ArsenalSC-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\BigShoulders-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\Boldonse-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\BricolageGrotesque-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\CrimsonPro-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\DMMono-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\EricaOne-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\GeistMono-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\Gloock-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\IBMPlexMono-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\InstrumentSans-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\Italiana-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\JetBrainsMono-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\Jura-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\LibreBaskerville-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\Lora-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\NationalPark-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\NothingYouCouldDo-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\Outfit-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\PixelifySans-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\PoiretOne-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\RedHatMono-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\Silkscreen-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\SmoochSans-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\Tektur-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\WorkSans-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\canvas-fonts\YoungSerif-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\canvas-design\LICENSE.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\claude-api\LICENSE.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\docx\LICENSE.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\frontend-design\LICENSE.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\internal-comms\LICENSE.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\pdf\LICENSE.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\pptx\LICENSE.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\skill-creator\LICENSE.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\slack-gif-creator\LICENSE.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\slack-gif-creator\requirements.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\theme-factory\LICENSE.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\webapp-testing\LICENSE.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\web-artifacts-builder\LICENSE.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\skills-main\skills\xlsx\LICENSE.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\taste-skill-main\skills\llms.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\the-best-local-agentic-coding-workflow-complete-guide.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\the-full-ai-development-workflow-not-just-code.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\the-true-power-of-ai-coding-build-your-own-workflows-full-guide.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\ArsenalSC-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\BigShoulders-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\Boldonse-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\BricolageGrotesque-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\CrimsonPro-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\DMMono-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\EricaOne-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\GeistMono-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\Gloock-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\IBMPlexMono-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\InstrumentSans-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\Italiana-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\JetBrainsMono-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\Jura-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\LibreBaskerville-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\Lora-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\NationalPark-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\NothingYouCouldDo-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\Outfit-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\PixelifySans-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\PoiretOne-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\RedHatMono-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\Silkscreen-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\SmoochSans-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\Tektur-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\WorkSans-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\canvas-fonts\YoungSerif-OFL.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\LICENSE.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\scripts\requirements.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-pro-max-skill-main\ui-ux-pro-max-skill-main\.claude\skills\ui-styling\scripts\tests\requirements.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\updated-essential-ai-skills-for-2026.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\20 - Practical skills to be a Graphic designer Ep19 45 [Beginners Guide to Graphic De.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\21 - Psychological skills to be a Graphic designer Ep20 45 [Beginners Guide to Graphi.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\38 - ‘Apply your skills’ How do I begin as a Graphic Designer Ep37 45.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- ORGANIZED_KNOWLEDGE_BASE\03_AI_Prompting_and_Workflows.md -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- VideoTranscriber_AI Coding 101_ Ultimate Prompt Guide (37 tips).txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- VideoTranscriber_BEST WAY to read and understand code.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- VideoTranscriber_Essential AI prompts for developers.txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+- VideoTranscriber_The True Power of AI Coding - Build Your OWN Workflows (Full Guide).txt -> 01_Full_Topic_Library\03_Prompting_Workflows/FULL_TRANSCRIPTS.md
+
+## App Design and UX
+
+Count: 106
+
+- addintional info to add\13-ai-tools-every-ux-designer-needs-in-2025.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\13-tips-to-stop-being-an-amateur-graphic-designer-forever.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\2-build-a-web-app-choosing-a-domain-name-logo-design.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\3-build-a-web-app-designing-the-landing-page-in-photoshop.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\4-build-a-web-app-2nd-signup-step-login-page-mockup-in-photoshop.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\5-build-a-web-app-main-gui-photoshop-mockup-design.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\claude-design-2-hour-course-beginner-to-pro.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\design-custom-websites-in-claude-code-based-on-ai-generated-inspiration.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\everything-you-need-to-know-about-mobile-app-ui-s-in-8-minutes-beginner-friendly.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\graphic-design-basics-free-course.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\how-i-built-an-ai-powered-event-booking-platform-in-one-go-from-idea-to-ux-to-de.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\how-to-actually-learn-ui-ux-design-on-your-own-day-in-the-life.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\how-to-actually-think-like-a-graphic-designer.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\how-to-edit-any-framer-template-build-your-dream-portfolio.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\interactive-ui-ux-crash-course.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\redesigning-websites-with-gpt-5-5-images-2-0.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\steal-any-website-s-design-system-using-ai-and-use-it-in-your-projects.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\the-secret-to-great-design-is-simpler-than-you-think.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-main\apps\v4\public\llms.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-main\templates\start-app\public\robots.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-main\templates\start-monorepo\apps\web\public\robots.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\ui-ux-design-course-for-beginners-ui-ux-design-tutorial-for-beginners.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\world-s-shortest-ui-ux-design-course.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\01 - Learn UI UX for Free - 30 Videos in 30 Days.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\02 - WHAT IS UI UX And which to focus on.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\03 - The Sweet Tools of UI UX Design.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\04 - UI UX Desktop Navigations in Figma (Challenge).txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\05 - Who made the Best UI UX Navigation (Review).txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\06 - The UI UX of Hero Sections (Challenge).txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\07 - UI UX Refactoring of your Hero Sections (Review).txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\08 - The UI UX of Card Design (Challenge).txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\09 - Who Designed the BEST UI UX Cards.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\10 - Learn Responsive Web Design (Challenge).txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\11 - Who made the BEST Responsive Design.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\12 - Can you make THIS Design Responsive (Challenge).txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\13 - Who Designed the BEST Responsive Card.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\14 - Designing Forms in Figma - UI UX Challenge.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\15 - UI UX Form Design DO's and DON'Ts! Review.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\16 - UI UX Prototyping and Animation in Figma (Challenge).txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\17 - Who made the BEST UI Prototyping Animation.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\18 - Using Generative AI in UI UX Design.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\19 - The World of Embellishments in UI UX Design (Challenge).txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\20 - Who made the BEST UI UX Layout from THIS Challenge.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\21 - The UI UX of Light Dark Mode Design (Challenge).txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\22 - It's time to design your portfolio - CHALLENGE!.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\23 - 6 UI UX Design Refactors of Design Portfolios.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\24 - Designing CONSISTENT Sub Pages UI UX Challenge.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\25 - Who Designed the BEST Sub Page for this Layout.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\26 - Designing Dashboards in Figma UI UX Challenge.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\27 - Dashboard UI UX Design Reviews Who did it best.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\28 - Most UI UX Designers will Fail this Challenge.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\29 - FINAL UI UX Review for the 30 Day Challenge.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\30 - Interactive UI UX Crash Course.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\01 - Beginners Guide to Graphic Design 45 Episode FREE Series.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\02 - What is Graphic Design Ep1 45 [Beginners Guide to Graphic Design].txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\03 - ‘Line’ Visual element of Graphic Design Design theory Ep2 45 [Beginners guide to.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\04 - ‘Colour’ Visual element of Graphic Design Design theory Ep3 45 [Beginners guide .txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\05 - ‘Shape’ Visual element of Graphic Design Design theory Ep4 45 [Beginners guide t.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\06 - ‘Texture’ Visual element of Graphic Design Ep5 45 [Beginners guide to Graphic De.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\07 - ‘Space’ Visual element of Graphic Design Design theory Ep6 45 [Beginners guide t.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\08 - ‘Form’ Visual element of Graphic Design Design theory Ep7 45 [Beginners guide to.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\09 - ‘Typography’ Visual element of Graphic Design Ep8 45 [Beginners guide to Graphic.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\10 - ‘Contrast’ Design principle of Graphic Design Ep9 45 [Beginners guide to Graphic.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\11 - ‘Hierarchy’ Design principle of Graphic Design Ep10 45 [Beginners guide to Graph.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\12 - ‘Alignment’ Design principle of Graphic Design Ep11 45 [Beginners guide to Graph.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\13 - ‘Balance’ Design principle of Graphic Design Ep12 45 [Beginners guide to Graphic.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\14 - ‘Proximity’ Design principle of Graphic Design Ep13 45 [Beginners guide to Graph.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\15 - ‘Repetition’ Design principle of Graphic Design Ep14 45 [Beginners guide to Grap.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\16 - ‘Simplicity’ Design principle of Graphic Design Ep15 45 [Beginners guide to Grap.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\17 - ‘Function’ Design principle of Graphic Design Ep16 45 [Beginners guide to Graphi.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\18 - Why do Graphic Design Ep17 45 [Beginners Guide to Graphic Design].txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\19 - Should I do Graphic Design Ep18 45 [Beginners Guide to Graphic Design].txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\22 - Talent to be a Graphic Designer Ep21 45 [Beginners Guide to Graphic Design].txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\23 - ‘Learn & Research’ How do I begin as a Graphic Designer Ep22 45 [Beginners Guide.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\24 - ‘Collect’ How do I begin as a Graphic Designer Ep23 45 [Beginners Guide to Graph.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\25 - ‘Be inspired’ How do I begin as a Graphic Designer Ep24 45 [Beginners Guide to G.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\26 - ‘Practice’ How do I begin as a Graphic Designer Ep25 45 [Beginners Guide to Grap.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\27 - ‘Seek Education’ How do I begin as a Graphic Designer Ep26 45 [Beginners Guide t.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\28 - Books to read as a Graphic designer Ep27 45 [Beginners Guide to Graphic Design].txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\29 - Education to be a Graphic designer Ep28 45 [Beginners Guide to Graphic Design].txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\30 - Do I need to go to University to be a Graphic Designer Ep29 45 [Beginners Guide .txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\31 - Qualifications to be a Graphic designer Ep30 45 [Beginners Guide to Graphic Desi.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\32 - Equipment to be a Graphic designer Ep31 45 [Beginners guide to Graphic Design].txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\33 - What programs do I need as a Graphic designer Ep32 45 [Beginners guide to Graphi.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\34 - The Graphic Design portfolio Ep33 45 [Beginners guide to Graphic Design].txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\35 - Print or digital graphic design portfolio Ep34 45 [Beginners guide to Graphic De.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\36 - The Graphic Design CV Ep35 45 [Beginners guide to Graphic Design].txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\37 - Career change to be a Graphic Designer Ep36 45 [Beginners Guide to Graphic Desig.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\39 - How do I find a Graphic Design job Ep38 45 [Beginners guide to Graphic Design].txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\40 - Interview preparation to be a Graphic Designer Ep39 45 [Beginners guide to Graph.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\41 - Questions you’re asked at a Graphic Design interview Ep40 45 [Beginners guide to.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\42 - Questions to ask at a graphic design interview Ep41 45 [Beginners guide to Graph.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\43 - Interview tips to be a Graphic Designer Ep42 45 [Beginners guide to Graphic Desi.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\44 - What’s the Industry like for a Graphic Designer Ep43 45 [Beginners Guide to Grap.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\45 - Further your Graphic Design career Ep44 45 [Beginners Guide to Graphic Design].txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\46 - Education to further your Graphic Design career Ep45 45 [Beginners Guide to Grap.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- how-to-actually-think-like-a-graphic-designer.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- ORGANIZED_KNOWLEDGE_BASE\04_App_Design_and_UX.md -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- VideoTranscriber_4 levels of UI_UX design (and BIG mistakes to avoid).txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- VideoTranscriber_Designing Addiction_ The Twisted Psychology Of Game Design.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- VideoTranscriber_How Addictive Apps Are Made.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- VideoTranscriber_How Apps Are Designed to Keep YOU ADDICTED.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- VideoTranscriber_How I Design Apps 10x Better (Free Course).txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- VideoTranscriber_How to Make Learning as Addictive as Social Media _ Duolingo's Luis Von Ahn _ TED.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- VideoTranscriber_System Design Course – APIs, Databases, Caching, CDNs, Load Balancing & Production Infra.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+- VideoTranscriber_The Secret Behind Weirdly Addictive Apps.txt -> 01_Full_Topic_Library\04_App_Design_UX/FULL_TRANSCRIPTS.md
+
+## SEO and Growth Marketing
+
+Count: 24
+
+- addintional info to add\10-steps-that-ll-turn-you-into-a-sales-machine.txt -> 01_Full_Topic_Library\08_SEO_Growth_Marketing/FULL_TRANSCRIPTS.md
+- addintional info to add\13-years-of-marketing-advice-in-85-mins (1).txt -> 01_Full_Topic_Library\08_SEO_Growth_Marketing/FULL_TRANSCRIPTS.md
+- addintional info to add\13-years-of-marketing-advice-in-85-mins.txt -> 01_Full_Topic_Library\08_SEO_Growth_Marketing/FULL_TRANSCRIPTS.md
+- addintional info to add\17-years-of-marketing-advice-in-46-mins.txt -> 01_Full_Topic_Library\08_SEO_Growth_Marketing/FULL_TRANSCRIPTS.md
+- addintional info to add\30-years-of-marketing-knowledge-in-53-minutes.txt -> 01_Full_Topic_Library\08_SEO_Growth_Marketing/FULL_TRANSCRIPTS.md
+- addintional info to add\build-and-deploy-a-real-time-stock-market-app-with-alerts-charts-ai-insights-nex.txt -> 01_Full_Topic_Library\08_SEO_Growth_Marketing/FULL_TRANSCRIPTS.md
+- addintional info to add\digital-marketing-101-a-beginner-s-guide-to-marketing-in-2026.txt -> 01_Full_Topic_Library\08_SEO_Growth_Marketing/FULL_TRANSCRIPTS.md
+- addintional info to add\digital-marketing-course-2025-everything-you-need-to-know.txt -> 01_Full_Topic_Library\08_SEO_Growth_Marketing/FULL_TRANSCRIPTS.md
+- addintional info to add\how-i-d-start-a-1-person-business-personal-brand-with-claude-ai-in-21-days.txt -> 01_Full_Topic_Library\08_SEO_Growth_Marketing/FULL_TRANSCRIPTS.md
+- addintional info to add\how-i-would-learn-digital-marketing-if-i-could-start-over.txt -> 01_Full_Topic_Library\08_SEO_Growth_Marketing/FULL_TRANSCRIPTS.md
+- addintional info to add\how-to-market-your-business-on-social-media.txt -> 01_Full_Topic_Library\08_SEO_Growth_Marketing/FULL_TRANSCRIPTS.md
+- addintional info to add\introduction-to-marketing-marketing-101.txt -> 01_Full_Topic_Library\08_SEO_Growth_Marketing/FULL_TRANSCRIPTS.md
+- addintional info to add\popular-videos-playlist-transcripts\03 - 10 Steps That’ll Turn You Into A Sales Machine.txt -> 01_Full_Topic_Library\08_SEO_Growth_Marketing/FULL_TRANSCRIPTS.md
+- addintional info to add\the-marketing-secrets-apple-tesla-always-use-rory-sutherland-e165.txt -> 01_Full_Topic_Library\08_SEO_Growth_Marketing/FULL_TRANSCRIPTS.md
+- addintional info to add\why-all-brands-should-study-stanley-cup-ceo-terence-reilly-s-marketing-mastercla.txt -> 01_Full_Topic_Library\08_SEO_Growth_Marketing/FULL_TRANSCRIPTS.md
+- Harvard i-lab - Startup Secrets - Go to Market Strategies (ytranscript.app).txt -> 01_Full_Topic_Library\08_SEO_Growth_Marketing/FULL_TRANSCRIPTS.md
+- ORGANIZED_KNOWLEDGE_BASE\08_SEO_and_Growth_Marketing.md -> 01_Full_Topic_Library\08_SEO_Growth_Marketing/FULL_TRANSCRIPTS.md
+- Value Props - Create a Product People Will Actually Buy (ytranscript.app).txt -> 01_Full_Topic_Library\08_SEO_Growth_Marketing/FULL_TRANSCRIPTS.md
+- VideoTranscriber_Firecrawl AI clearly explained (and how to make $$).txt -> 01_Full_Topic_Library\08_SEO_Growth_Marketing/FULL_TRANSCRIPTS.md
+- VideoTranscriber_How I Made $10 Million Using Programmatic SEO (Step-by-Step Guide).txt -> 01_Full_Topic_Library\08_SEO_Growth_Marketing/FULL_TRANSCRIPTS.md
+- VideoTranscriber_Pieter Levels’ Genius Programmatic SEO Strategy Explained.txt -> 01_Full_Topic_Library\08_SEO_Growth_Marketing/FULL_TRANSCRIPTS.md
+- VideoTranscriber_Programmatic SEO Course with AI (templates included).txt -> 01_Full_Topic_Library\08_SEO_Growth_Marketing/FULL_TRANSCRIPTS.md
+- VideoTranscriber_This App Makes $35K_Month With One Influencer.txt -> 01_Full_Topic_Library\08_SEO_Growth_Marketing/FULL_TRANSCRIPTS.md
+- VideoTranscriber_Using AI Tools (Manus, FreePik etc) to Create Viral IG Reels.txt -> 01_Full_Topic_Library\08_SEO_Growth_Marketing/FULL_TRANSCRIPTS.md
+
+## Entrepreneurship and Startups
+
+Count: 1194
+
+- addintional info to add\019 - Untitled video [dxlyCPGCvy8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\109 - Untitled video [ue3DYCOe-xw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\125 - Untitled video [tED-TlB76lY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\6-tips-on-being-a-successful-entrepreneur-john-mullins-ted.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-s-blueprint-to-making-money-blew-my-mind.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\001 - Untitled video [RdAKXJlMIZM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\002 - Untitled video [VBoRLJimVzc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\003 - Untitled video [KhFlD54nQrY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\004 - Untitled video [KYqEK_T_5M4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\005 - Untitled video [YFA8AS5Cu2w].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\006 - Untitled video [oRMG_HpOAN4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\007 - Untitled video [aFoMYz_jWcs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\008 - Untitled video [qxQIcDrre1E].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\009 - Untitled video [MNll1BaskLA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\010 - Untitled video [dZ7xeVCYC5M].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\011 - Untitled video [7ITff1fIbSc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\012 - Untitled video [ymFWgFiKUvM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\013 - Untitled video [cq8GyLrEuAk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\014 - Untitled video [6KqndZuN_Yk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\015 - Untitled video [9ySuYdJ0H4s].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\016 - Untitled video [Nh8Oc7ERdIU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\017 - Untitled video [nIk3DedjxJM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\018 - Untitled video [jvXOOddDg_s].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\019 - Untitled video [k-3PoOT4vOM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\020 - Untitled video [jiCGLDhUCHY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\021 - Untitled video [GIRkQQHzsxI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\022 - Untitled video [uWdIgftpvBI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\023 - Untitled video [MzAIP_WJ-jE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\024 - Untitled video [VQM3DrnVTcs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\025 - Untitled video [ln24y0FPJHo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\026 - Untitled video [oys_fv25SYM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\027 - Untitled video [HxEQCHpZzHk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\028 - Untitled video [NcD2t9qt-fM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\029 - Untitled video [w7g08dVTwaE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\030 - Untitled video [AN2KpRBsmRY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\031 - Untitled video [UDBkiBnMrHs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\032 - Untitled video [hGX_z5rXRlU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\033 - Untitled video [ub1D6RQocRU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\034 - Untitled video [reisEL_D7xc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\035 - Untitled video [jfW6gL6hKhk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\036 - Untitled video [lRyGIzW9d9k].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\037 - Untitled video [nxL4ZfVqKLI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\038 - Untitled video [RVbvhPGFi6E].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\039 - Untitled video [JE2_7elAcxM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\040 - Untitled video [JfbtySq6_B4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\041 - Untitled video [xZ8d9g6BcKM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\042 - Untitled video [0mqqbuM9sAk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\043 - Untitled video [KNl83INePXI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\044 - Untitled video [CGSd00h-6zI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\045 - Untitled video [q6SdmgIji30].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\046 - Untitled video [7sLXhCDRaV8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\047 - Untitled video [oDK4g5na4Jw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\048 - Untitled video [StVqS0jD7Ls].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\049 - Untitled video [TFxT3G5jwtU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\050 - Untitled video [IFElGv5ZmRM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\051 - Untitled video [oi7bnS8uyJM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\052 - Untitled video [oZ-H_TjSzok].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\053 - Untitled video [lJF__n_34ew].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\054 - Untitled video [gD0X-PLax5I].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\055 - Untitled video [DiQ3N8F1Hl8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\056 - Untitled video [0lMn_-EXyhQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\057 - Untitled video [ErWpi_91b70].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\058 - Untitled video [hCgr7jT7JLA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\059 - Untitled video [pt50QF6al8g].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\060 - Untitled video [i7bLRKwKSms].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\061 - Untitled video [Uki3IUkUu7Q].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\062 - Untitled video [vhOV_Od0A3M].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\063 - Untitled video [ueJg14gQLuc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\064 - Untitled video [Day0yToqeco].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\065 - Untitled video [3Ju1I37jWUM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\066 - Untitled video [bx48qPlaGvE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\067 - Untitled video [6DCDGSnRDtM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\068 - Untitled video [4GjwtnA76ig].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\069 - Untitled video [yEKu6q0W3gs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\070 - Untitled video [-UzJOk85OZI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\071 - Untitled video [U_s0ekwPK5g].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\072 - Untitled video [prj1bnTAM8A].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\073 - Untitled video [nrounb8NlFQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\074 - Untitled video [dMZ-n2KSlxE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\075 - Untitled video [oTQPxPFROck].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\076 - Untitled video [ABOd589OyTM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\077 - Untitled video [-wnnwCqGeNc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\078 - Untitled video [M4evdxF5G0s].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\079 - Untitled video [XwzU4RikbGs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\080 - Untitled video [-TydwZMX8wM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\081 - Untitled video [YZdE8U5eD_s].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\082 - Untitled video [9q5ojtkqsBs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\083 - Untitled video [CaiLcj6tzBQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\084 - Untitled video [YaNX49ygr0I].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\085 - Untitled video [HVOubeXUcx0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\086 - Untitled video [fxyhIXZ6Yog].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\087 - Untitled video [RpqSy5V1fFQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\088 - Untitled video [_PCCqqv2pig].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\089 - Untitled video [I64gYLBrics].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\090 - Untitled video [m-7VjocC76M].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\091 - Untitled video [FMzKk73iUhw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\092 - Untitled video [pLhQOYMGa88].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\093 - Untitled video [XGm2ERU9qtA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\094 - Untitled video [SE9_1PYsaP0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\095 - Untitled video [WOZGZK7K-Jo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\096 - Untitled video [HsQeQM1jUeg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\097 - Untitled video [LVM89ik-7Kw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\098 - Untitled video [PTgGfV8Tf00].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\099 - Untitled video [DpbXWP8fLbc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\100 - Untitled video [F84olnKkseM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\101 - Untitled video [fD-sxKiB30M].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\102 - Untitled video [3SVksBB3_YY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\103 - Untitled video [TooAB8Ow6cQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\104 - Untitled video [O1As2zxy0es].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\105 - Untitled video [yflKMUffctE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\106 - Untitled video [s9fSDCRPQNA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\107 - Untitled video [ULGT0Qpglek].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\108 - Untitled video [w5g0JiO7OdE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\109 - Untitled video [GkL2KDOf2NM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\110 - Untitled video [fSbqaTlWaYI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\111 - Untitled video [vVssypj7nYw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\112 - Untitled video [H_ZLs1-jOKQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\113 - Untitled video [MZPVPCIeUpg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\114 - Untitled video [_x6n-CmZqjo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\115 - Untitled video [9xAMe0QBFhU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\116 - Untitled video [MD5-HByRxoA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\117 - Untitled video [Wr6n_zNKvMk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\118 - Untitled video [Mst4hreQYl0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\119 - Untitled video [HKbFUWJwEG0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\120 - Untitled video [unshZobTt6Q].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\121 - Untitled video [aiS5qH7UMX4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\122 - Untitled video [wR8KoE8u1p0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\123 - Untitled video [cy2k1GdA-9o].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\124 - Untitled video [bkPwFqa89gE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\125 - Untitled video [q32-l3Yoqg4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\126 - Untitled video [OvEfWrDOfNk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\127 - Untitled video [oW6JkqL6sdM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\128 - Untitled video [qqjGxVW-Ae0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\129 - Untitled video [YONIUpk-kAs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\130 - Untitled video [c_6BrF7jOGk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\131 - Untitled video [m5ordaa7NN4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\132 - Untitled video [m-k0_pQJ1fY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\133 - Untitled video [q9qBqnhdWKw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\134 - Untitled video [1taVrxMFjaY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\135 - Untitled video [y7O-iTWwTW8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\136 - Untitled video [5JLqmQlGG0U].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\137 - Untitled video [6BQ3whjWG3M].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\138 - Untitled video [IFpHasZ7jN4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\139 - Untitled video [-NLqtk4F4oY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\140 - Untitled video [yb2cLMMuMdQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\141 - Untitled video [55H71isO_Bo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\142 - Untitled video [cnbHgYYHzyE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\143 - Untitled video [s6tkRztZwYc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\144 - Untitled video [JDR-R--4HhM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\145 - Untitled video [3P1XjUvo1b4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\146 - Untitled video [CojS0DwflXc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\147 - Untitled video [QGcjweehrvU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\148 - Untitled video [6ySRKgXBcO0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\149 - Untitled video [sBJppqCeFGI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\150 - Untitled video [tdLLGKoBojo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\151 - Untitled video [A248pGXTSoY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\152 - Untitled video [sGakuNs9mT4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\153 - Untitled video [6ZEZWuVC8-8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\154 - Untitled video [IYuiV4YuGB4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\155 - Untitled video [yPDQCfrwh8E].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\156 - Untitled video [vKnAWYqMJ10].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\157 - Untitled video [qsXxckCbci0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\158 - Untitled video [5MHQr-Z17Hc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\159 - Untitled video [Jc2UW3nlNBA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\160 - Untitled video [VPre_XMgKjs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\161 - Untitled video [-JLN1d1ZKUU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\162 - Untitled video [07jC6ooRIHw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\163 - Untitled video [Tw6kJkVcTL0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\164 - Untitled video [spXH1kJ6q-Q].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\165 - Untitled video [BMF2fWHyDrg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\166 - Untitled video [mHrAjWni65E].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\167 - Untitled video [ovL6Z5z0jxQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\168 - Untitled video [Z2tgZC_XkT4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\169 - Untitled video [NDDFezF7OTA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\170 - Untitled video [RBR4BwOVNvs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\171 - Untitled video [PFKGHL1MqkU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\172 - Untitled video [4vLgOX1Ykjg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\173 - Untitled video [Rm4zRdLAyjw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\174 - Untitled video [5cOwh-8scu8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\175 - Untitled video [OpeN4O5myIg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\176 - Untitled video [Cr0KdqZ954c].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\177 - Untitled video [BHMeYaHEMpc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\178 - Untitled video [5RiR6cBLkFg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\179 - Untitled video [hnmBXTyMFKI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\180 - Untitled video [s7QA1TJKlbQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\181 - Untitled video [_qspvJAq34M].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\182 - Untitled video [vZfatNSouDQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\183 - Untitled video [5MjjpB8SPMo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\184 - Untitled video [rp1PzCxj3eU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\185 - Untitled video [Ds_Qp2U5I8U].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\186 - Untitled video [oLsWhSRypzM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\187 - Untitled video [Jmkq5RLjm0U].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\188 - Untitled video [ZuJryiwxjDw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\189 - Untitled video [EonibwnAEME].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\190 - Untitled video [kULFeI3LRYk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\191 - Untitled video [LvHDT0ZxSmw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\192 - Untitled video [3aAbKVSFP6k].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\193 - Untitled video [7NMH1oAkgLY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\194 - Untitled video [K8MFC9t7snY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\195 - Untitled video [4twK8Yl4iUI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\196 - Untitled video [Xb9ZOA6zypU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\197 - Untitled video [0S5xsICW8qg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\198 - Untitled video [-HJg4TYBgtI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\199 - Untitled video [z7X95bn2T6A].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\200 - Untitled video [OyGKFhTf0go].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\201 - Untitled video [DaRXece2ItE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\202 - Untitled video [QTZsh3BgOwY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\203 - Untitled video [pxVeOkOVr2w].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\204 - Untitled video [h6y0nYVZgwE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\205 - Untitled video [aUnorufFIq8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\206 - Untitled video [LMlbWtUFa4E].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\207 - Untitled video [N5MExtki_VI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\208 - Untitled video [zBZHWrvjD8Y].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\failed-videos.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\alex-hormozi-videos-transcripts\README.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\001 - Untitled video [IFLY6L3YPGo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\002 - Untitled video [BI-MNjm1tTQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\003 - Untitled video [Ix43w_IssR8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\004 - Untitled video [oLu32YpiIJw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\005 - Untitled video [65IAqRUxg3c].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\006 - Untitled video [nyO60uzTnP4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\007 - Untitled video [LWx4FGam2aQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\008 - Untitled video [Qn2c_U-cWQs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\009 - Untitled video [vyLaimDeK_g].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\010 - Untitled video [YiitvyQGbkc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\011 - Untitled video [S_oN3vlzpMw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\012 - Untitled video [dNASCxGFoHg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\013 - Untitled video [lyqk7zxbCKs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\014 - Untitled video [YeoGehNsrLc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\015 - Untitled video [C3-4llQYT8o].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\016 - Untitled video [eH8JdttKIdA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\017 - Untitled video [fd4k16REDOU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\018 - Untitled video [eA9Zf2-qYYM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\019 - Untitled video [qb90PPbAWz4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\020 - Untitled video [OV5eK91YY68].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\021 - Untitled video [0b8qQx3FaLE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\022 - Untitled video [9T1yWEq5kP0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\023 - Untitled video [RB_M2mKiOcY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\024 - Untitled video [l-J8RodcM_A].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\025 - Untitled video [6MBq1paspVU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\026 - Untitled video [i13XK-uUOLQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\027 - Untitled video [I_wbc5ND79o].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\028 - Untitled video [9OnN4O4uapI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\029 - Untitled video [b1mjQIiH7r4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\030 - Untitled video [fVUlrpaWNxg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\031 - Untitled video [gmSnQPzoYHA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\032 - Untitled video [71ES9jzqa0Q].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\033 - Untitled video [QPAy9R9V1rA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\034 - Untitled video [YRhGtHfs1Lw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\035 - Untitled video [U8kXfk8enrY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\036 - Untitled video [oDl-A2Uez58].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\037 - Untitled video [DW4a1Cm8nG4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\038 - Untitled video [zxMjOqM7DFs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\039 - Untitled video [5uCDHmr0xdE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\040 - Untitled video [loNrCpi5dkw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\041 - Untitled video [RpvQH0r0ecM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\042 - Untitled video [PrP_aGVLBMI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\043 - Untitled video [2Vcn2bAu2FA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\044 - Untitled video [iHyK-CW3ciI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\045 - Untitled video [WNJmTvqraW8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\046 - Untitled video [jFJAIOAzFqQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\047 - Untitled video [Pl_nmulyjqI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\048 - Untitled video [Xob-2a1OnvA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\049 - Untitled video [rO3dIBMXD2g].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\050 - Untitled video [LuOZ2PKvd4s].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\051 - Untitled video [li788UL1qyI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\052 - Untitled video [vyZX0oQozzc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\053 - Untitled video [jSWuepkuFrU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\054 - Untitled video [QNh4SUQuts4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\055 - Untitled video [og7R9C_N3Zg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\056 - Untitled video [DvKZlIiiQGM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\057 - Untitled video [P2hjcIE9SQI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\058 - Untitled video [w1OU6IdxF0Y].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\059 - Untitled video [ud0bv2J3xWY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\060 - Untitled video [i43kYARbSGM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\061 - Untitled video [G-5bInklwRQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\062 - Untitled video [U5HyW5tDXYM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\063 - Untitled video [Vt0ZV9JTXRo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\064 - Untitled video [Bs7sBbcwn60].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\065 - Untitled video [Ias7J4TjyYw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\066 - Untitled video [rQgaQ1p4tKU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\067 - Untitled video [dYb6DGBhBBk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\068 - Untitled video [HhspudqFSvU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\069 - Untitled video [nt8gUax1Aj0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\070 - Untitled video [IjYKIqvTyXg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\071 - Untitled video [oVjNM18jtgQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\072 - Untitled video [Dll36oKiovU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\073 - Untitled video [1DXhi40aNfs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\074 - Untitled video [BRUELrChH7k].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\075 - Untitled video [A8uAl1wiJBA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\076 - Untitled video [Px_X-qBQ18M].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\077 - Untitled video [Vpjej6aXXIU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\078 - Untitled video [0CigvEOPQWQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\079 - Untitled video [4aOeju76me4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\080 - Untitled video [a2JBWwASzUU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\081 - Untitled video [8QN23ZThdRY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\082 - Untitled video [4v7tJ55rzs4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\083 - Untitled video [3Zvk4AMCrG8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\084 - Untitled video [uS5IeKbVJAE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\085 - Untitled video [pYsK9dfUnYA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\086 - Untitled video [jEUHvkhUD_w].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\087 - Untitled video [oulVKbk0umo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\088 - Untitled video [c1NYw35eIjk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\089 - Untitled video [gWNFna6fgS8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\090 - Untitled video [fDwG02tbaHE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\091 - Untitled video [_2zP6NNHXp0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\092 - Untitled video [ndqX4vbR7Rc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\093 - Untitled video [OAqCyVuZ_6o].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\094 - Untitled video [6FSih5a5aIA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\095 - Untitled video [DjR61qqdkuU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\096 - Untitled video [cG8r7OT75lA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\097 - Untitled video [tk2HbliM5u4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\098 - Untitled video [Xq0xJl-2D_s].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\099 - Untitled video [S8a7gkFhoBA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\100 - Untitled video [ZvZ4aUXBtzU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\101 - Untitled video [t3q5hCv_Kyo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\102 - Untitled video [DxSDZwpgfRE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\103 - Untitled video [VfwIpD5D-JM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\104 - Untitled video [GOHdTwKdT14].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\105 - Untitled video [-y5XDqMFT00].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\106 - Untitled video [g8JM3prvEf4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\107 - Untitled video [F7MxPxNbFUw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\108 - Untitled video [9tOmppsiO2w].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\109 - Untitled video [xcIziZ3-tr4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\110 - Untitled video [j2w4y7pDi8w].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\111 - Untitled video [VZZpjxMA6Ow].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\112 - Untitled video [gWkhUd-LWTs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\113 - Untitled video [Ysq7-eZuyUk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\114 - Untitled video [m9iaJNJE2-M].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\115 - Untitled video [B0IvHPnwPx0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\116 - Untitled video [onCWUrw1R9g].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\117 - Untitled video [f9Uk56LvBB0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\118 - Untitled video [HTjvpTR3VgQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\119 - Untitled video [3sbZOMR03uw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\120 - Untitled video [Sx6k6uctfXE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\121 - Untitled video [MAFHmyURRXo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\122 - Untitled video [PduJ0P6r_8o].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\123 - Untitled video [9YPebrSjskU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\124 - Untitled video [1SbngfzEhbA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\125 - Untitled video [hyosynoNbSU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\126 - Untitled video [AxQ7dMbEgmw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\127 - Untitled video [vGSYuwNcdcc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\128 - Untitled video [LWuCIxfWKK8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\129 - Untitled video [_qr7ogLpTJs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\130 - Untitled video [OV_mDp1s9mY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\131 - Untitled video [-nvJIfQnidw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\132 - Untitled video [LGbyw2MC33M].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\133 - Untitled video [BSrOFsOMUdg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\134 - Untitled video [vBgU5iWt-kQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\135 - Untitled video [2g7Ii7s3REM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\136 - Untitled video [opi1s_5Dm-c].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\137 - Untitled video [ocd5InqGP7U].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\138 - Untitled video [tNY2UVpHHEY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\139 - Untitled video [7j_NE6Pjv-E].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\140 - Untitled video [HVhXwBYenC8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\141 - Untitled video [dkFFMifcthI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\142 - Untitled video [150EzogAp_c].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\143 - Untitled video [ibzSgp8B2Hw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\144 - Untitled video [SJFs-fZ3HjI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\145 - Untitled video [51Vb2_brjiA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\146 - Untitled video [5YTzBbfipD0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\147 - Untitled video [QVNjP6siwEU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\148 - Untitled video [XXIC5f_W1Es].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\149 - Untitled video [6h9y1rLem4c].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\150 - Untitled video [6rAHkSyzfNA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\151 - Untitled video [okEHpwG-vmU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\152 - Untitled video [Uc3xMimbhkw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\153 - Untitled video [94lvilsigiE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\154 - Untitled video [QFc7jXZ2pdE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\155 - Untitled video [A3AsVAZ7wIs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\156 - Untitled video [i9kTrcf-gDQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\157 - Untitled video [qN1OU2kmMPs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\158 - Untitled video [Ojk51mNOUow].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\159 - Untitled video [yy3k68xUGXE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\160 - Untitled video [om-etwwp3Wg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\161 - Untitled video [sV3pI_xH_Q0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\162 - Untitled video [SYbQqMeq48o].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\163 - Untitled video [7z-TD1KY08U].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\164 - Untitled video [0F6gxtU7fHY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\165 - Untitled video [gVGqg_kTsxo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\166 - Untitled video [iSqGvjBoPh4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\167 - Untitled video [PM9zr7wgJX4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\168 - Untitled video [URMwfIGA7ws].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\169 - Untitled video [EN9c2XariVM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\170 - Untitled video [yatoLm3J8Hk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\171 - Untitled video [c_6_6aLjlrk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\172 - Untitled video [HzUMAl9PgBk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\173 - Untitled video [ZNIoIX0O-20].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\174 - Untitled video [7gUG10e_rPw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\175 - Untitled video [mJwPvyc4-rk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\failed-videos.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\greg-isenberg-videos-transcripts\README.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\how-to-get-the-most-out-of-vibe-coding-startup-school.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\i-asked-a-billionaire-how-to-make-money-in-10-steps.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\i-dared-a-shy-guy-to-start-his-business-in-public.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\if-i-wanted-to-make-my-first-100k-in-12-months-i-d-do-this.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\i-invested-50-000-into-a-stranger-s-business-and-it-worked.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\vite8-react-tsx-repeated-aside\gitignore.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\i-turned-her-weird-idea-into-a-business-in-72-hours.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\luke-belmar-s-guide-to-making-money-blew-my-mind.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\popular-videos-playlist-transcripts\01 - 30 Years of Business Knowledge in 2hrs 26mins.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\popular-videos-playlist-transcripts\05 - Alex Hormozi’s Blueprint To Making Money Blew My Mind.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\popular-videos-playlist-transcripts\06 - How To Set Up A Business In 47 Minutes.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\001 - Untitled video [ALvduf2Rz_c].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\002 - Untitled video [KxoKCNCLOss].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\003 - Untitled video [QZhB_KADwoA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\004 - Untitled video [OrD2oYTHLuM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\005 - Untitled video [4iq1CqihWgI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\006 - Untitled video [cxYLRCwX_aM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\007 - Untitled video [4uFVDpGTHPQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\008 - Untitled video [mRJN1l_w-Co].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\009 - Untitled video [npnyOvchXZs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\010 - Untitled video [dK5bG5ZE3yI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\011 - Untitled video [rrDdi0vZn00].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\012 - Untitled video [lU-bh2xPl4Y].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\013 - Untitled video [uwh4gWNgb1w].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\014 - Untitled video [E_9nX5ReMcY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\015 - Untitled video [DmDeNuTUetE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\016 - Untitled video [njD4aqTp0i4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\017 - Untitled video [AUaEd3_JbP8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\018 - Untitled video [ITU1TpTwe8w].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\019 - Untitled video [yUCRSAWh_ls].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\020 - Untitled video [Fe7v_SWuhY4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\021 - Untitled video [z810EM7Q5Mg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\022 - Untitled video [wOsnxJCy2p8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\023 - Untitled video [hJYkUMV8I_s].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\024 - Untitled video [ZdUmqGB-XpA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\025 - Untitled video [AATw4YRFSw8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\026 - Untitled video [aGrMOowjMag].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\027 - Untitled video [t8FXPpfkxQY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\028 - Untitled video [2Q2JgVDvHV0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\029 - Untitled video [nOL-StM6QnU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\030 - Untitled video [zN087p7dHN0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\031 - Untitled video [7i0D5OMZzw0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\032 - Untitled video [vMcZyzTNoIc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\033 - Untitled video [lXitjVjEhEs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\034 - Untitled video [cTs9SgRk4SI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\035 - Untitled video [n5EmUiLNVjg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\036 - Untitled video [iRgdOE8Fags].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\037 - Untitled video [gBBlX7v0910].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\038 - Untitled video [TllMBc9YvKk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\039 - Untitled video [9QTBl0R_cs8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\040 - Untitled video [EF6-Ed2H2cE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\041 - Untitled video [7Yx6-8nMbkc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\042 - Untitled video [9iWLPlPFdBY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\043 - Untitled video [eEg5ZjFxMmU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\044 - Untitled video [uUwf3HM_bBg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\045 - Untitled video [4fOaAGCuuJU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\046 - Untitled video [q8u9vs2xjg4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\047 - Untitled video [gotxAQD0YkE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\048 - Untitled video [9YldQVM4u-I].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\049 - Untitled video [uMXIsDecZ3s].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\050 - Untitled video [DwrRvp_qsRk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\051 - Untitled video [8wU_31Wamcw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\052 - Untitled video [GCXhTFKVHkg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\053 - Untitled video [bfIJxp9ckKU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\054 - Untitled video [nswPe9PAgjo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\055 - Untitled video [_sAyC_CLqzg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\056 - Untitled video [gZ0RTpQZf8A].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\057 - Untitled video [5E-lydM23gU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\058 - Untitled video [vUumRjZX0n8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\059 - Untitled video [QJP9OXmI5_4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\060 - Untitled video [Latp0XujNXk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\061 - Untitled video [bPPc2coTClU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\062 - Untitled video [22CjsRG0sTc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\063 - Untitled video [0I0EPRu3DJ0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\064 - Untitled video [qQIKf7YQBbA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\065 - Untitled video [ZX_BJKKyDXo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\066 - Untitled video [JKkwS6FT7wY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\067 - Untitled video [JMIE80d0Aoo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\068 - Untitled video [G_GZbtj0uP8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\069 - Untitled video [HEgFl6N2u4M].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\070 - Untitled video [oDJEZ-n9TCM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\071 - Untitled video [D0utmFm1l0o].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\072 - Untitled video [PWVoNu4ytEA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\073 - Untitled video [IUIG4YG0T-Q].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\074 - Untitled video [d4Yuq3iP5eI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\075 - Untitled video [O5R1z_gPCSo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\076 - Untitled video [OtWKuR2hU68].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\077 - Untitled video [JsEUa3mMGe0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\078 - Untitled video [9aBfrKtWJc8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\079 - Untitled video [PN9Z4QH8X2w].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\080 - Untitled video [6lmwLam3f4k].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\081 - Untitled video [90A-xjDipk4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\082 - Untitled video [sExOe8q1QBc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\083 - Untitled video [n7FLA5IZkWA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\084 - Untitled video [9FZ7chhIfUM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\085 - Untitled video [2tRPK9s4p5k].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\086 - Untitled video [PFvRtVvP-Bo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\087 - Untitled video [n3_QuKa208w].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\088 - Untitled video [6WweLDK6oiY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\089 - Untitled video [ZFkKWGnm1PA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\090 - Untitled video [ts5-LCzCUuE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\091 - Untitled video [hRFCQAIa0gA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\092 - Untitled video [eSkosEaDnDw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\093 - Untitled video [exeXKslPiDI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\094 - Untitled video [BaxpJArMn9Y].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\095 - Untitled video [prPvzJwgHqg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\096 - Untitled video [nReWQdfRSC8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\097 - Untitled video [kJ7HiO27n1g].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\098 - Untitled video [_5yi6XW4Av8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\099 - Untitled video [YU_58awAISY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\100 - Untitled video [xe3GmH-mBQI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\101 - Untitled video [V6I3R5Z-YZI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\102 - Untitled video [G2kqG3kDdGo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\103 - Untitled video [pBjoezYFA0Y].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\104 - Untitled video [3K43YBxUp0I].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\105 - Untitled video [ZHFNlM0xG4U].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\106 - Untitled video [BP548td2dds].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\107 - Untitled video [yOSsd1Tpno4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\108 - Untitled video [jJxwJhdKb1s].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\109 - Untitled video [7Cxfg0N_MUw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\110 - Untitled video [H1Dt1Pz-B4g].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\111 - Untitled video [FLgy1LvYTDI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\112 - Untitled video [bmQRL82f-5I].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\113 - Untitled video [oRqUthcMi6I].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\114 - Untitled video [efJj9j2NRJg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\115 - Untitled video [lAOliWexJgo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\116 - Untitled video [O_FWBldliEo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\117 - Untitled video [C2lgZOIPp8c].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\118 - Untitled video [1m7ERHu13sc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\119 - Untitled video [3G79t-mcgJ8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\120 - Untitled video [w1bpdHouHpI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\121 - Untitled video [Kq4nx8DLrpY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\122 - Untitled video [MtvcqGNGev8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\123 - Untitled video [3aG9DVb6vBs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\124 - Untitled video [Iw7huxwfHRM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\125 - Untitled video [RGt99we0cGA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\126 - Untitled video [_wo0ox2mSjc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\127 - Untitled video [e38FC689mXA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\128 - Untitled video [ml6tMccO2xE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\129 - Untitled video [__CY9eanfV4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\130 - Untitled video [uf0Or7n8_bU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\131 - Untitled video [O_pe_5L769E].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\132 - Untitled video [8GgL-uvICKY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\133 - Untitled video [MQv7Te8VmYI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\134 - Untitled video [BT6YGOROV6c].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\135 - Untitled video [TpVlJpiV6U8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\136 - Untitled video [8M5QEOicQKQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\137 - Untitled video [1NvSd_heJxE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\138 - Untitled video [JiF92PVjOZc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\139 - Untitled video [pTifbfUnsH8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\140 - Untitled video [Q0cgOMI5gn0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\141 - Untitled video [N_KjHR6cKC8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\142 - Untitled video [cttsP_8MjEo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\143 - Untitled video [6zKF1LZFn8Q].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\144 - Untitled video [AvKXrCCUEMI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\145 - Untitled video [VNtZfU84euk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\146 - Untitled video [67T9EMIvOlA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\147 - Untitled video [vzDYSrzISzo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\148 - Untitled video [jR6g__ogNkc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\149 - Untitled video [37qvYddjCBc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\150 - Untitled video [nsxlR1fi_tk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\151 - Untitled video [0ccWUHrUREo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\152 - Untitled video [Y3brjwOs3gA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\153 - Untitled video [mQenPbfmECk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\154 - Untitled video [lvAYo3DBBxU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\155 - Untitled video [MRIJjEbJS7s].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\156 - Untitled video [81dWG1gor4I].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\157 - Untitled video [Ize5BerUM74].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\158 - Untitled video [M_x3Sl-Hlw4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\159 - Untitled video [ypEYnZ8bTec].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\160 - Untitled video [h85y36g5vP8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\161 - Untitled video [Kx_pzUJ4OxA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\162 - Untitled video [1SzDCdlUPCc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\163 - Untitled video [yQfItKAlNIM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\164 - Untitled video [lAnIOo7qPAQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\165 - Untitled video [pBzmIEVpSiI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\166 - Untitled video [InwiIbuE3WQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\167 - Untitled video [REfO4L4mxO0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\168 - Untitled video [ky5Y75IqQE0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\169 - Untitled video [EiI3ja6BCYs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\170 - Untitled video [o7Fk4D0ZnN8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\171 - Untitled video [VcQ1ZTc0aIo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\172 - Untitled video [HI-v-rWH7X4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\173 - Untitled video [jG_Y8OOOXDY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\174 - Untitled video [1qEw8vKwyO0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\failed-videos.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\school-of-hard-knocks-videos-transcripts\README.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\001 - Untitled video [8xgnm6SynH4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\002 - Untitled video [Gv2fzC96Z40].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\003 - Untitled video [IuoscQiQQLg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\004 - Untitled video [G5cbMnFXcj0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\005 - Untitled video [loXc0Tyi4R4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\006 - Untitled video [irEi7DVBHdA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\007 - Untitled video [dXKzST0FE-A].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\008 - Untitled video [EF3uyvHHBfM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\009 - Untitled video [8BtHk-oNlN0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\010 - Untitled video [u8sW-NhGfXw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\011 - Untitled video [T_wEmB5MapE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\012 - Untitled video [67zh8_yiPh4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\013 - Untitled video [CnE_fLDqa7M].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\014 - Untitled video [IZsQqarWXtY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\015 - Untitled video [jpSY4MlWX50].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\016 - Untitled video [v6IF-lVuvbs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\017 - Untitled video [WGVxAmmJUmY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\018 - Untitled video [HBCwzfFbopE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\019 - Untitled video [GGxUH6EXF9I].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\020 - Untitled video [CwHD6Fg-Mjs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\021 - Untitled video [VfNRd5Rk0cM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\022 - Untitled video [L_FY6aW9cJ4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\023 - Untitled video [vedkm3ZmHIE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\024 - Untitled video [7LZ0MTkNr34].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\025 - Untitled video [5C3YCTL-36c].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\026 - Untitled video [9WWvLj-NqEE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\027 - Untitled video [TCGXT7ySco8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\028 - Untitled video [trNGj1BN1GU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\029 - Untitled video [nzVcbrLl9VU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\030 - Untitled video [G4nsGvL4Fo0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\031 - Untitled video [ZEIPj7QbZeI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\032 - Untitled video [vLLBzUZr6-s].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\033 - Untitled video [zTKYJWAEl78].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\034 - Untitled video [ty9ZcimL6VE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\035 - Untitled video [WctFUP4w0sc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\036 - Untitled video [NvtsM8Nk72c].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\037 - Untitled video [xZDofUHbZHA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\038 - Untitled video [zPijWd9uk-I].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\039 - Untitled video [gpn1jEoWT4A].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\040 - Untitled video [5u9u8yzPEpA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\041 - Untitled video [BaWUPamqWlA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\042 - Untitled video [Km0FNcBI9CM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\043 - Untitled video [akM6P97_0B8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\044 - Untitled video [_KaFS4Dxs5k].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\045 - Untitled video [vw2Yc4Y1PsU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\046 - Untitled video [xeUhKuJbeWQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\047 - Untitled video [Adl5_lJfkEE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\048 - Untitled video [qeY283nBhIA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\049 - Untitled video [8yCXyCN_NR0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\050 - Untitled video [2dfMUtHlQik].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\051 - Untitled video [4hMg_CZauJs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\052 - Untitled video [D4fkiQfzw_I].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\053 - Untitled video [tMkpiFIW8Xg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\054 - Untitled video [w3zxMrwWrt0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\055 - Untitled video [BskeAo66er0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\056 - Untitled video [F8i0kkrQ8_o].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\057 - Untitled video [DkmStHS8NP0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\058 - Untitled video [yBjcmMhXSDk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\059 - Untitled video [0T55DRYqeeA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\060 - Untitled video [npcL7oRZQlI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\061 - Untitled video [ptT0tfzeu8I].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\062 - Untitled video [wqN-gjnpns8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\063 - Untitled video [CoqAxV6b6j4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\064 - Untitled video [WuzxmeUP6ro].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\065 - Untitled video [LRX8TWC2hTM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\066 - Untitled video [3X4VneEHvig].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\067 - Untitled video [r4R_Hlw7sbo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\068 - Untitled video [1nfPvJKrYYQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\069 - Untitled video [6iqo7lNR_m0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\070 - Untitled video [dWeoSKLt_fc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\071 - Untitled video [dphK9rh2F5U].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\072 - Untitled video [5MaPEK-yVVY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\073 - Untitled video [KcCnqLBhvXY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\074 - Untitled video [a1EXyJlSx9g].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\075 - Untitled video [9sJ2R0rM3CA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\076 - Untitled video [b5JhfGHafZA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\077 - Untitled video [mjCa8IFjM2E].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\078 - Untitled video [7pCgbhUWW54].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\079 - Untitled video [E_sPvPHwpuk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\080 - Untitled video [OKl0C3zg0LU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\081 - Untitled video [x9TUDb4sLE0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\082 - Untitled video [BeRKQkU5Ceo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\083 - Untitled video [w8oUlfgvcTI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\084 - Untitled video [BNr1JOQdSN0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\085 - Untitled video [k2jecxFu2as].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\086 - Untitled video [rGLXc1GmsaI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\087 - Untitled video [i6kCkGmJc9M].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\088 - Untitled video [hKqLceTPLWM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\089 - Untitled video [KpVPST_P4W8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\090 - Untitled video [qIlX7cQ2UdU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\091 - Untitled video [DV7bBCAABg4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\092 - Untitled video [9pP4qSrt5GU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\093 - Untitled video [XifgHi9R5Rc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\094 - Untitled video [8kM-JcKpcDs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\095 - Untitled video [ZGwQoRw7mh8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\096 - Untitled video [PmyXmpkTIdc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\097 - Untitled video [iVy5J7iE-3Q].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\098 - Untitled video [v-uhjlMg9L0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\099 - Untitled video [En34iY-rQc0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\100 - Untitled video [p3xa6mpxvOY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\101 - Untitled video [hYF4fQYlrso].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\102 - Untitled video [88BbTpbWVpY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\103 - Untitled video [TNZmNIYv050].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\104 - Untitled video [LWPN-PAhtLA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\105 - Untitled video [OoFqTMPW_3E].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\106 - Untitled video [wvYej-2KWDg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\107 - Untitled video [yue9in5oh64].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\108 - Untitled video [7KqlwjBM_tM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\109 - Untitled video [32vqaJa90kw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\110 - Untitled video [0pp4X58q_0s].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\111 - Untitled video [gU9FtZIfb_M].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\112 - Untitled video [T5zMsTw8GWQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\113 - Untitled video [h9R6ZeNruuI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\114 - Untitled video [bq3-qH-CpYQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\115 - Untitled video [miEUhwSR2-0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\116 - Untitled video [4BsxnGRbF4k].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\117 - Untitled video [l4WEqPX52Cg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\118 - Untitled video [MLAH5OZ5FO8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\119 - Untitled video [FCGpgPZqmkY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\120 - Untitled video [7vz6b_Ohdl0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\121 - Untitled video [VZ1XspToV1E].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\122 - Untitled video [pvjalHFNM9Q].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\123 - Untitled video [PSx0vcUY-sk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\124 - Untitled video [-OPKa8DIzKU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\125 - Untitled video [rPguT9z6kRQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\126 - Untitled video [e6COsh5wfNA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\127 - Untitled video [LYdJ3dfNCVs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\128 - Untitled video [3eY71OS4MFw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\129 - Untitled video [W48emwbUlUE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\130 - Untitled video [plrni3IBEyI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\131 - Untitled video [laRliIVNZgU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\132 - Untitled video [hYW9YDwHE20].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\133 - Untitled video [YtyJ4reSQY0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\134 - Untitled video [uBGbvKScavk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\135 - Untitled video [4KfFB-dh71Y].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\136 - Untitled video [E_rX4JJrYkY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\137 - Untitled video [ST2ROUFbdvU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\138 - Untitled video [orYTlk_BhW8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\139 - Untitled video [PIXXEAfo6MY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\140 - Untitled video [9r0qPeSJGog].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\141 - Untitled video [GFnBp8lMIf4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\142 - Untitled video [VYT-ip21P08].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\143 - Untitled video [spiC5m6AJNs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\144 - Untitled video [LKARRA0MvY4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\145 - Untitled video [R4BS_UiTBPw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\146 - Untitled video [rCV-TVCnF6Q].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\147 - Untitled video [DZTApvWzMuY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\148 - Untitled video [SJOFUBNHYqU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\149 - Untitled video [47QXbPGyzBI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\150 - Untitled video [BHhg-l9AZpM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\151 - Untitled video [nsn94Ad47GY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\152 - Untitled video [RPM4ImzcIFc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\153 - Untitled video [Fk2J2U7669o].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\154 - Untitled video [vbEKEWtnndU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\155 - Untitled video [lWwZ-fsD8gM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\001 - Untitled video [KjTHJ740fCY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\002 - Untitled video [utOHNPN0IlQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\003 - Untitled video [50iWtrj9Mkw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\004 - Untitled video [rvOnhGzx__Q].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\005 - Untitled video [xrU6tVo-qME].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\006 - Untitled video [quYKZushRPo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\007 - Untitled video [tVbN7XSPnM0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\008 - Untitled video [FE7PZG_V7qE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\009 - Untitled video [xUZYy3hCRUM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\010 - Untitled video [cFr-bNBsPb8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\011 - Untitled video [QgkkVpA3rR8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\012 - Untitled video [2iqowbg2CT8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\013 - Untitled video [bAzg8BugEVY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\014 - Untitled video [GHU8YdA4kxo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\015 - Untitled video [03DjE7j0Suw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\016 - Untitled video [Y4pvrjtb1cI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\017 - Untitled video [aT2XgPDU6yY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\018 - Untitled video [Wl0NMNbYRDk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\019 - Untitled video [JHz6mikOPWw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\020 - Untitled video [HIYiSVvN3RA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\021 - Untitled video [eD2AMYAR8tA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\022 - Untitled video [g4-3AxelI_Y].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\023 - Untitled video [b4_DbNaCeGc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\024 - Untitled video [YqCfQ0APU2U].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\025 - Untitled video [y_ON1Qbb274].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\026 - Untitled video [CVlZdvDthOM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\027 - Untitled video [Qv-dw57pFNA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\028 - Untitled video [l0Vqm0ZIySc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\029 - Untitled video [L15oL4b3LT4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\030 - Untitled video [t_y8SelBm_s].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\031 - Untitled video [lfvyfRGIVHE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\032 - Untitled video [mAyZZc_DjSE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\033 - Untitled video [CKRglRCeVDM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\034 - Untitled video [N0NceZbY2_4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\035 - Untitled video [iuQ_Y-qSz78].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\036 - Untitled video [t2m_Dqk4_Dc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\037 - Untitled video [vQ3SxSy8J0g].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\038 - Untitled video [F034Pz-DjGQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\039 - Untitled video [4AWlBGVQ8nA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\040 - Untitled video [uWjU8ctaHIc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\041 - Untitled video [RaFPcXDFObM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\042 - Untitled video [KtAGjnWViMQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\043 - Untitled video [tKTlzugGgYw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\044 - Untitled video [KuQtxDCmyO4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\045 - Untitled video [TmbO1tGlz5s].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\046 - Untitled video [UeeaWuSOnkI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\047 - Untitled video [LPgWaH3YY6U].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\048 - Untitled video [-kwF1zol2gQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\049 - Untitled video [oSI5FE1NeTQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\050 - Untitled video [haUsXY0RQFE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\051 - Untitled video [YoD0hFqX9W8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\052 - Untitled video [QIX0lnr3qfo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\053 - Untitled video [IPnafDDgj6o].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\054 - Untitled video [BAnpwRCDPjQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\055 - Untitled video [Cvs_HhGD18o].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\056 - Untitled video [pwybTbHZU-w].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\057 - Untitled video [AWesz6TJRcA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\058 - Untitled video [PX8Jn9vFJ38].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\059 - Untitled video [r2-1c_T6F34].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\060 - Untitled video [FFYu4JQ7dqw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\061 - Untitled video [J_zOrHovF9Y].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\062 - Untitled video [SQ-OSmDMsFI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\063 - Untitled video [M6woiZk-KeE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\064 - Untitled video [kHRKeDqsoG8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\065 - Untitled video [IHy07Ny72kA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\066 - Untitled video [bH_coG-2ASo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\067 - Untitled video [ZBVYDM8K8tA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\068 - Untitled video [w0756mtps1Y].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\069 - Untitled video [QTWNnonldjw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\070 - Untitled video [D9Q2rpO0ko8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\071 - Untitled video [UgFzXqa7zNM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\072 - Untitled video [vF7IT30L4jY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\073 - Untitled video [Y0MRAjVp_Uo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\074 - Untitled video [Zpu-eL-PToU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\075 - Untitled video [bsiAuk8t810].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\076 - Untitled video [AA-EL571oG4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\077 - Untitled video [OwK2x62VwoQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\078 - Untitled video [4NJHK5KdASc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\079 - Untitled video [1VjBLSQLAuo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\080 - Untitled video [q-vcwPanb_Y].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\081 - Untitled video [XctiWvrRqkI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\082 - Untitled video [1hlWvRo3tnM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\083 - Untitled video [OomOCuptgr4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\084 - Untitled video [r5yL8PW8Kyc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\085 - Untitled video [8B6HfmMP-zM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\086 - Untitled video [VmhEvIB_XNA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\087 - Untitled video [sDtJaQynQkA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\088 - Untitled video [0pJEW-sFDXk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\089 - Untitled video [aXVM-HI388g].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\090 - Untitled video [wD-PkHYxsgY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\091 - Untitled video [awzWbwtmOd4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\092 - Untitled video [9uBW16KlwB4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\093 - Untitled video [WydE1wzv2_Y].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\094 - Untitled video [GER_aZkQQ_0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\095 - Untitled video [zdqqBELJQ1Q].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\096 - Untitled video [mIxocaCBgwY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\097 - Untitled video [KYtg48UoEQ8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\098 - Untitled video [FNMNQrCbHnk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\099 - Untitled video [fwSkDwv2qlU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\100 - Untitled video [_b5kM2zDQTk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\101 - Untitled video [SiRlIMtZygI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\102 - Untitled video [xGf27oVmgYE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\103 - Untitled video [I0rAGz60fAQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\104 - Untitled video [OWhPtx1SAWg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\105 - Untitled video [LZ_bjRV6xx0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\106 - Untitled video [JGqS-qzMo4I].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\107 - Untitled video [abeY8nBzqzo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\108 - Untitled video [rJ1ZpfuajkA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\109 - Untitled video [uGzNhjFJYFI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\110 - Untitled video [4IETgMZy1o0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\111 - Untitled video [uQKVxCQJPoA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\112 - Untitled video [W5oUjuoHWhA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\113 - Untitled video [D5iCSoOL-4E].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\114 - Untitled video [xc2IjVqVdQY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\115 - Untitled video [_mWhcH41Mxw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\116 - Untitled video [VGAOCH2vYwM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\117 - Untitled video [QghV97IsDpI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\118 - Untitled video [3ywztCB-hAk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\119 - Untitled video [E1mdDql_2yI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\120 - Untitled video [HIF3Y6ABYcA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\121 - Untitled video [6QThtf2K1r4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\122 - Untitled video [2Qh3EaMegnY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\123 - Untitled video [scZxo7_zLdI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\124 - Untitled video [WpZE-vfLHuA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\125 - Untitled video [E8ARq-4ous8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\126 - Untitled video [2B5dCquvK4c].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\127 - Untitled video [UCdWRg1KQLY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\128 - Untitled video [5mClVr2cd5U].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\129 - Untitled video [M3mUNpWD4ow].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\130 - Untitled video [fogwK_iU7Zc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\131 - Untitled video [OZ0fdAYPyqE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\132 - Untitled video [I24XPX0HS5c].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\133 - Untitled video [6Q6jS1-5pkw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\134 - Untitled video [ZamYEo_mvxk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\135 - Untitled video [3cKupknhU1w].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\136 - Untitled video [bZrIfC-vob8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\137 - Untitled video [By9zAwSl3qg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\138 - Untitled video [VmROvPvi_iM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\139 - Untitled video [g5Vd0-y3rG8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\140 - Untitled video [6XhabeLLuEw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\141 - Untitled video [HWPQPTOG6Ew].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\142 - Untitled video [RWmEE6ra--g].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\143 - Untitled video [R6-Es5rLfuA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\144 - Untitled video [6aUtwj27IpE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\145 - Untitled video [zPL6HfcOLqw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\146 - Untitled video [CNzMpxkwaPo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\147 - Untitled video [uUlU5G1Nda0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\148 - Untitled video [_uHy0zY9hgk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\149 - Untitled video [xA1crdAIneU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\150 - Untitled video [FH2mB0iy9mw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\151 - Untitled video [yTc3M4oMdnQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\152 - Untitled video [UcFBcfrmC2k].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\153 - Untitled video [4JgLTWSzGgc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\154 - Untitled video [Jzcuxz7IeR0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\155 - Untitled video [sYF9lrIGDn4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\156 - Untitled video [8XEXkWAxPAQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\157 - Untitled video [47UgXbHp6nM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\158 - Untitled video [mLZw_J1QOUo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\159 - Untitled video [bSahqscHOsk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\160 - Untitled video [AVtC8DvANxg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\161 - Untitled video [Kg66hxP9tzc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\162 - Untitled video [tGzvXjtVqEU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\163 - Untitled video [eCz3OtZBic0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\164 - Untitled video [1-7Nkz6bTgU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\165 - Untitled video [sNmKTbi6zhI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\166 - Untitled video [7rhoNM9IGE0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\167 - Untitled video [1fTGX4sLVqA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\168 - Untitled video [KSQF7cYG8gU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\169 - Untitled video [cBdJajFcSzg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\170 - Untitled video [IYotH4hI4KA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\171 - Untitled video [-Whqjr6ZnmY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\172 - Untitled video [VZid9SCFoz0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\173 - Untitled video [H34wM31A6_4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\174 - Untitled video [tFP7wnWkX4w].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\175 - Untitled video [W6Q0W2R7Tqk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\176 - Untitled video [QYRz3WgE7eY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\177 - Untitled video [pMtOUpkRC8w].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\178 - Untitled video [pIiqnuQLBPw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\179 - Untitled video [LXB5G1zqnGg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\180 - Untitled video [WwR35MbyOMY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\181 - Untitled video [ykw6ArIAMOg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\182 - Untitled video [u7dJlv9bouA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\183 - Untitled video [7kV9iwXIM7Q].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\184 - Untitled video [sczftAQoDp0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\185 - Untitled video [UPWH-nbGztU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\186 - Untitled video [Fqc7dEETGio].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\187 - Untitled video [7opaNBRPBYw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\188 - Untitled video [Fa6F5Aa4UIM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\189 - Untitled video [r-3cFm0VezA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\190 - Untitled video [IhX-qhFcvlw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\191 - Untitled video [vs0xoHcluQ0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\192 - Untitled video [l4i20N1B7ek].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\193 - Untitled video [RVKCJivLvaE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\194 - Untitled video [_yMXoZVAVKs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\195 - Untitled video [pgn3fRvWp6I].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\196 - Untitled video [BLW342yJSxI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\197 - Untitled video [UXVs-C5SZTs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\198 - Untitled video [XwtqohRsYVQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\199 - Untitled video [Qx1X8tPrq7s].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\200 - Untitled video [fixcW7IHC2U].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\201 - Untitled video [C1C9QK9ak18].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\202 - Untitled video [IVn8JJcfCRM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\203 - Untitled video [75d4yWBisD0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\204 - Untitled video [sp2hJ1d-Zb8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\205 - Untitled video [2WUqdw5xtlg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\206 - Untitled video [rQt4rSwYBOg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\207 - Untitled video [uH8i8EbFUeQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\208 - Untitled video [Ikr3f-mX2FM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\209 - Untitled video [dPLAvI6wGkY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\210 - Untitled video [H29qDuCdtsM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\211 - Untitled video [IMq85OF3GsY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\212 - Untitled video [oAQhg3K8xJI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\213 - Untitled video [hZg4TgwX_64].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\214 - Untitled video [QOOxSYk0HWM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\215 - Untitled video [QfWVeXHM7YI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\216 - Untitled video [fu0ws8VUDHs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\217 - Untitled video [1XUmzANLCf0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\218 - Untitled video [6Y3qiwuLcI0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\219 - Untitled video [A0RZE39wQRc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\220 - Untitled video [aUacHsbJzXQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\221 - Untitled video [U9-cVF9QHwo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\222 - Untitled video [RD7Oe9JgBuE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\223 - Untitled video [JmgPyuEf51A].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\224 - Untitled video [cChCg_cPDYE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\225 - Untitled video [kd3wxK_FAO8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\226 - Untitled video [3PqSi22RbBg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\227 - Untitled video [sQOtTCNj0OY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\228 - Untitled video [pWtoX0HWXAE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\229 - Untitled video [fF_xXvBdicY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\230 - Untitled video [zs7owt5-iTo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\231 - Untitled video [Wngvuq10vY4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\232 - Untitled video [GL3MQMC0Rs4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\233 - Untitled video [OwfkLLox9rw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\234 - Untitled video [UXgGQT-IJEY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\235 - Untitled video [1DF3AU7aWMg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\236 - Untitled video [hu8m5FUz3g0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\237 - Untitled video [0ZKgF6M0jW4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\238 - Untitled video [aba_NmtzK1I].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\239 - Untitled video [0-xBklMNhGM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\240 - Untitled video [VDxvm4PpIwE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\241 - Untitled video [mYdUk5tM1PM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\242 - Untitled video [qwSArijfxnI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\243 - Untitled video [StS_XKyXaH0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\244 - Untitled video [lO40VRMgNJ8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\245 - Untitled video [Dc_tVmO4SSs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\246 - Untitled video [Mb1DTzNZUHs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\247 - Untitled video [ssUPJ0KGEwk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\248 - Untitled video [vUGbZMP9Gk0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\249 - Untitled video [xQQJOQjZSNs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\250 - Untitled video [BgyFqxaQqlA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\251 - Untitled video [zmHapb6pK1c].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\252 - Untitled video [MFIzgoI5WLE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\253 - Untitled video [Gy3ygDzsXYE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\254 - Untitled video [2qnfnqXv0Fk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\255 - Untitled video [7Ow9qRVCWM8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\256 - Untitled video [h0ocdaRmB4Q].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\257 - Untitled video [Rd2STdr_Wp8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\258 - Untitled video [o_Xs6bcP1JY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\259 - Untitled video [pXiFFRRItHk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\260 - Untitled video [KRRs_lfiDvA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\261 - Untitled video [AZmdT_OK9p8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\262 - Untitled video [e_eTLl3SbWY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\263 - Untitled video [U--WJujA2hY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\264 - Untitled video [-gyZzw4jcfY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\265 - Untitled video [7k2QkmRYK3s].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\266 - Untitled video [Bx1k8G5qfjg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\267 - Untitled video [OLcRyASQv9U].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\268 - Untitled video [PPzJLlX1h0E].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\269 - Untitled video [KotfUWuCbAg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\270 - Untitled video [W-Q6o-a-ayo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\271 - Untitled video [fNd791QzEUs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\272 - Untitled video [7d6tzZ_h8dI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\273 - Untitled video [ZhVb1q4X64g].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\274 - Untitled video [QOISCnOQo8A].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\275 - Untitled video [iNo0vVwTgvU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\276 - Untitled video [eWjM7_TQsCc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\277 - Untitled video [BhGpFrfznZw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\278 - Untitled video [14sqrADUseg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\279 - Untitled video [L51w5qLGFUg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\280 - Untitled video [HCBnz_1GsA8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\281 - Untitled video [2HRqKInXtBY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\282 - Untitled video [ekWRhMEjgx8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\283 - Untitled video [XvMRKM0RY84].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\284 - Untitled video [77odkf5-E1A].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\285 - Untitled video [ixJ89BIJ_Lo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\286 - Untitled video [hXpn-3UczWQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\287 - Untitled video [jNRxKKmh3Q0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\288 - Untitled video [byepC8hFUbQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\289 - Untitled video [aqWcUHm9o5I].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\290 - Untitled video [Rxjh4k_HG9k].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\291 - Untitled video [l1RVNhFu058].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\292 - Untitled video [Ey2wSsDx77Q].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\293 - Untitled video [gw0xjs1v_w0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\294 - Untitled video [qaxENPVJUww].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\295 - Untitled video [A4Gv_mmr5tM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\296 - Untitled video [5NmPDoNoS8A].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\297 - Untitled video [5wuzKesBuz8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\298 - Untitled video [9LaHuYqEy0A].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\299 - Untitled video [S4JeVMhaXME].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\300 - Untitled video [1btUyJh02hA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\301 - Untitled video [j9ovHBUEC_I].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\302 - Untitled video [swRtJFMebJI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\303 - Untitled video [Uc6PSL9498M].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\304 - Untitled video [VkZF5Z5723k].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\305 - Untitled video [rOVseOGF7ow].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\306 - Untitled video [cy2mtLOLbcs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\failed-videos.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\chris-koerner-on-the-koerner-office-podcast-videos-transcripts\README.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\001 - Untitled video [FhAmousW1Uw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\002 - Untitled video [E5U_8g59DdY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\003 - Untitled video [5qLOq2jEHrA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\004 - Untitled video [2pLJE6Zy33s].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\005 - Untitled video [eAvabI9k9Rk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\006 - Untitled video [smT1wY4O4PE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\007 - Untitled video [Af3Bnu0_yM4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\008 - Untitled video [6WgD2Drr1Pc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\009 - Untitled video [l1fz-C1HJiI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\010 - Untitled video [wOmim5Gcg7A].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\011 - Untitled video [nI5Ls1-bnkY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\012 - Untitled video [mCNMfxGnyac].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\013 - Untitled video [Rymx77PkvjM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\014 - Untitled video [mQObeWig3-w].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\015 - Untitled video [EBbPTqLgajw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\016 - Untitled video [S3dzikWuI5c].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\017 - Untitled video [IRYfA1WjY0k].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\018 - Untitled video [vo6aDcnPzCU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\019 - Untitled video [z2duNKR4XHM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\020 - Untitled video [I5knKyLDki4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\021 - Untitled video [J0V6UD5kVYU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\022 - Untitled video [NuoxZfsI7hU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\023 - Untitled video [83BpzPYX-vM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\024 - Untitled video [FtjpLKsEQxU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\025 - Untitled video [ZuBtX0GvLxs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\026 - Untitled video [txiTwRY-8Vw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\027 - Untitled video [PbNjIkuonmU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\028 - Untitled video [b82ibVe1rDA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\029 - Untitled video [GlxMoZMyhrs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\030 - Untitled video [9RRkOshkeXY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\031 - Untitled video [GklbNzNqZkE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\032 - Untitled video [Jnx0tKE2_QE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\033 - Untitled video [RvJIFnyWVZ0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\034 - Untitled video [Tft587jhybg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\035 - Untitled video [Edr2LTIaNFQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\036 - Untitled video [1yI8iNa0gh0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\037 - Untitled video [7l37j-nBChw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\038 - Untitled video [FFgPr6gD4RE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\039 - Untitled video [NIa0GLlLLME].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\040 - Untitled video [qC8EFt-1fQ4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\041 - Untitled video [2X_N6-WguPw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\042 - Untitled video [313GvO3pScc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\043 - Untitled video [oDQGbUI6YYE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\044 - Untitled video [x0d80UqlGOY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\045 - Untitled video [BJIM-zHIj_8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\046 - Untitled video [HgkdZcahUdM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\047 - Untitled video [JF8-Zv7IoL4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\048 - Untitled video [ob11VgNoqWA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\049 - Untitled video [ttXjGQZfcYI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\050 - Untitled video [cso6o76SFuQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\051 - Untitled video [rWhmrxOFtaA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\052 - Untitled video [CzyjM7iU7jE].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\053 - Untitled video [Qp8f8alWsak].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\054 - Untitled video [ZTBUixlQN04].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\055 - Untitled video [bsIbYExAh9I].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\056 - Untitled video [z7sGDcflJcQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\057 - Untitled video [lxmV5dqZiJ0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\058 - Untitled video [BfeI6_7AN9s].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\059 - Untitled video [01M8umoGG2Q].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\060 - Untitled video [nesOBj1py_o].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\061 - Untitled video [vVHdglDTKw4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\062 - Untitled video [YLfzeOY9aIk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\063 - Untitled video [GpplUUxe2YM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\064 - Untitled video [sgSjvdkH5GY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\065 - Untitled video [n3ohx1SPTT4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\066 - Untitled video [hhdE-fICrkI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\067 - Untitled video [rWNftXrtCVU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\068 - Untitled video [Bwr6WtcpKBg].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\069 - Untitled video [ZqZL8WEgQDc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\070 - Untitled video [fLUb9u2Zuok].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\071 - Untitled video [XqONirFrMy4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\072 - Untitled video [AgmQqkuCIZY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\073 - Untitled video [zONb44xwWK8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\074 - Untitled video [HtKeShIKons].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\075 - Untitled video [gfNPY244_cY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\076 - Untitled video [7U8vYps8fMk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\077 - Untitled video [AvH3VgOIg9U].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\078 - Untitled video [2p59Lbk7_yw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\079 - Untitled video [kd08_JNSK_4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\080 - Untitled video [hAq-Ia8R4DI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\081 - Untitled video [qssV1ZPOq00].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\082 - Untitled video [PrHENvUHdP4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\083 - Untitled video [lWMDjSiaQ8w].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\084 - Untitled video [T2tagxLhlv4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\085 - Untitled video [Mt1P7p9HmkU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\086 - Untitled video [yfZGZAyOfk8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\087 - Untitled video [gF3z6n6IfLU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\088 - Untitled video [Ses_5JoSlgo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\089 - Untitled video [dPVBtMnee30].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\090 - Untitled video [q9FLfCbWadY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\091 - Untitled video [EBpBSiQTM8U].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\092 - Untitled video [ab7fN2QNIZo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\093 - Untitled video [zbWTbunM1Nk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\094 - Untitled video [cfv8EXhDuJc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\095 - Untitled video [Jm4uarya86o].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\096 - Untitled video [8FmC1nEZOeo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\097 - Untitled video [bY6xhE0GYTw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\098 - Untitled video [b5p9FH-eRK4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\099 - Untitled video [cBNGdz0COxo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\100 - Untitled video [4AQ-eFWMHw0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\101 - Untitled video [yGDX8UXmsWc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\102 - Untitled video [BjsTbaZlnVo].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\103 - Untitled video [5zOIeBYhOyM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\104 - Untitled video [oqlxeWwyNV0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\105 - Untitled video [qClPynP5prY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\106 - Untitled video [x5H58apIw20].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\107 - Untitled video [nzoD0mQAnls].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\108 - Untitled video [5gcSZVNmPWM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\109 - Untitled video [_SV-lllg7J0].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\110 - Untitled video [qgsV9dTTdiA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\111 - Untitled video [DTDIhdptOuw].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\112 - Untitled video [hBUWHa9lHEI].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\113 - Untitled video [7PHp3AGLTFA].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\114 - Untitled video [567hU5QS_Wc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\115 - Untitled video [B13gAAcqrAc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\116 - Untitled video [SH10bBh09RU].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\117 - Untitled video [w8aRSLYbu0A].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\118 - Untitled video [26OU0W3eODs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\119 - Untitled video [zZ98iHy4amM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\120 - Untitled video [S2ufdGHvxdM].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\121 - Untitled video [009f3zXg6O4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\122 - Untitled video [RK2jIESDCxk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\123 - Untitled video [g0EkTJnrMto].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\124 - Untitled video [q-6tedZdAYs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\125 - Untitled video [p7T85ltBuIY].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\126 - Untitled video [lYzD0XXd0Fs].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\127 - Untitled video [oOELIBGCGRc].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\128 - Untitled video [AgNZaOczhs8].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\129 - Untitled video [iYJDR3qU9rk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\130 - Untitled video [hcNvl7JXTIk].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\131 - Untitled video [jXCchw-c4GQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\132 - Untitled video [MWW5hsZ6W8s].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\133 - Untitled video [xUCMTXnBzKQ].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\134 - Untitled video [QPwQSqwjGX4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\135 - Untitled video [pb7o1gY7Zg4].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\136 - Untitled video [3rBnccUX-ic].txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\failed-videos.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\davie-fogarty-videos-transcripts\README.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\failed-videos.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- addintional info to add\starter-story-videos-transcripts\README.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- ORGANIZED_KNOWLEDGE_BASE\06_Entrepreneurship_and_Startups.md -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- VideoTranscriber_30 Years of Business Knowledge in 2hrs 26mins.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- VideoTranscriber_6 Tips on Being a Successful Entrepreneur _ John Mullins _ TED.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- VideoTranscriber_Codex Essentials – AI Assisted Agentic Development Course.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- VideoTranscriber_How I Built ANOTHER Profitable App From Scratch SOLO (full journey).txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- VideoTranscriber_How to Build a Product that Scales into a Company.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- VideoTranscriber_How to Get and Evaluate Startup Ideas _ Startup School.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- VideoTranscriber_How to Get and Test Startup Ideas - Michael Seibel.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- VideoTranscriber_Making $$$ with MicroSaaS (I might delete this).txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- VideoTranscriber_Startup Secrets_ Seize Your Story.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- VideoTranscriber_Stop Vibe Coding. Start Getting Customers..txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+- VideoTranscriber_The single biggest reason why start-ups succeed _ Bill Gross _ TED.txt -> 01_Full_Topic_Library\07_Entrepreneurship_Startups/FULL_TRANSCRIPTS.md
+
+## Developer Tools and Infrastructure
+
+Count: 9
+
+- addintional info to add\10-build-a-web-app-step-1-mysql-php.txt -> 01_Full_Topic_Library\09_Developer_Tools_Infrastructure/FULL_TRANSCRIPTS.md
+- addintional info to add\11-build-a-web-app-step-2-mysql-php.txt -> 01_Full_Topic_Library\09_Developer_Tools_Infrastructure/FULL_TRANSCRIPTS.md
+- addintional info to add\12-build-a-web-app-mysql-php-part-3.txt -> 01_Full_Topic_Library\09_Developer_Tools_Infrastructure/FULL_TRANSCRIPTS.md
+- addintional info to add\13-build-a-web-app-mysql-php-part-4.txt -> 01_Full_Topic_Library\09_Developer_Tools_Infrastructure/FULL_TRANSCRIPTS.md
+- addintional info to add\14-build-a-web-app-mysql-php-part-5-final.txt -> 01_Full_Topic_Library\09_Developer_Tools_Infrastructure/FULL_TRANSCRIPTS.md
+- addintional info to add\everything-you-need-to-know-about-web-app-architecture.txt -> 01_Full_Topic_Library\09_Developer_Tools_Infrastructure/FULL_TRANSCRIPTS.md
+- ORGANIZED_KNOWLEDGE_BASE\09_Developer_Tools_and_Infrastructure.md -> 01_Full_Topic_Library\09_Developer_Tools_Infrastructure/FULL_TRANSCRIPTS.md
+- VideoTranscriber_Git & GitHub Crash Course for Beginners [2026].txt -> 01_Full_Topic_Library\09_Developer_Tools_Infrastructure/FULL_TRANSCRIPTS.md
+- VideoTranscriber_Git & GitHub Tutorial _ Visualized Git Course for Beginner & Professional Developers in 2024.txt -> 01_Full_Topic_Library\09_Developer_Tools_Infrastructure/FULL_TRANSCRIPTS.md
+
+## App Building and Distribution
+
+Count: 40
+
+- addintional info to add\3-ways-to-build-actually-beautiful-websites-using-cursor-ai.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- addintional info to add\6-build-a-web-app-landing-page-html.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- addintional info to add\7-build-a-web-app-home-2nd-step-html-css-responsive.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- addintional info to add\8-build-a-web-app-main-gui-html-responsive.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- addintional info to add\9-build-a-web-app-main-gui-css-responsive.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- addintional info to add\become-a-fullstack-developer-from-scratch-full-beginner-s-tutorial.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- addintional info to add\build-3-complete-full-stack-web-apps-and-launch-your-developer-career.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- addintional info to add\build-and-deploy-3-full-stack-react-native-apps-that-ll-get-you-hired-full-10-ho.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- addintional info to add\build-and-deploy-full-stack-project-management-app-using-react-js-pern-stack-pro.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- addintional info to add\building-a-web-app-vs-building-a-mobile-app-which-one-is-better.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- addintional info to add\free-coding-bootcamp-build-4-full-stack-projects-in-23-hours.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- addintional info to add\full-app-building-course-with-cursor-3-hours.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- addintional info to add\fullstack-development-full-course-2026-full-stack-development-tutorial-for-begin.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- addintional info to add\full-stack-web-development-full-course-2025-web-development-full-course-free-int.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- addintional info to add\how-to-build-deploy-full-stack-ai-fitness-app-using-react-js-strapi-step-by-step.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- addintional info to add\how-to-build-sell-web-apps-with-ai-without-coding-full-course.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- addintional info to add\how-to-create-full-stack-food-delivery-website-in-react-js-mongodb-express-node-.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- addintional info to add\how-to-make-a-website-step-by-step-2026.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- addintional info to add\i-built-a-client-website-custom-cms-dashboard-in-claude-code.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- addintional info to add\i-built-a-fullstack-ai-app-in-10-minutes-with-rocket-new.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\nextjs-app\gitignore.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\nextjs-app-router\gitignore.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\nextjs-inline-csp\gitignore.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\nextjs-turborepo\gitignore.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\vite8-react-mapped-list\gitignore.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- CLONE ANY WEBSITE IN MINUTES (FRONT & BACKEND)—NO CODING, NO BS, 3 TOOLS, 3 STEPS - TRAE - NETLI (ytranscript.app).txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- ORGANIZED_KNOWLEDGE_BASE\05_App_Building_and_Distribution.md -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- VideoTranscriber_Full App Building Course with Cursor (3+ Hours).txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- VideoTranscriber_Senior Developer Reviews My AI Built App (Brutally Honest) (1).txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- VideoTranscriber_The Weird Science of Apps You Can't Stop Using.txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- YouTube (ytranscript.app).txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- YouTube video 0n809nd4Zu4 (ytranscript.app).txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- YouTube video 8q1_NkDbfzE (ytranscript.app).txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- YouTube video B8Ihv3xsWYs (ytranscript.app).txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- YouTube video cdLNzQEKlC8 (ytranscript.app).txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- YouTube video f2mGqlLLqok (ytranscript.app).txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- YouTube video fK_bm84N7bs (ytranscript.app).txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- YouTube video GGi7Brsf7js (ytranscript.app).txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- YouTube video qvlYdw2Gj14 (ytranscript.app).txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+- YouTube video wpGhIoGiDok (ytranscript.app).txt -> 01_Full_Topic_Library\05_App_Building_Distribution/FULL_TRANSCRIPTS.md
+
+## AI Coding Tools and Platforms
+
+Count: 2
+
+- addintional info to add\vibe-coding-tutorial-and-best-practices-cursor-windsurf.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools/FULL_TRANSCRIPTS.md
+- VideoTranscriber_Codex Full Course 2026_ The NEW Best AI Coding Tool.txt -> 01_Full_Topic_Library\02_AI_Coding_Tools/FULL_TRANSCRIPTS.md
+
+## Inspiration and Vision
+
+Count: 2
+
+- addintional info to add\i-dared-a-shy-dj-to-perform-for-15-000-people.txt -> 01_Full_Topic_Library\11_Inspiration_Vision/FULL_TRANSCRIPTS.md
+- ORGANIZED_KNOWLEDGE_BASE\11_Inspiration_and_Vision.md -> 01_Full_Topic_Library\11_Inspiration_Vision/FULL_TRANSCRIPTS.md
+
+## Additional Resources
+
+Count: 203
+
+- addintional info to add\001 - Untitled video [52ltebR4Jnw].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\002 - Untitled video [sL_KBnYB17I].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\003 - Untitled video [4OiLljSo-hw].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\004 - Untitled video [BpOsHF5Oj_I].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\005 - Untitled video [FU2iB-UfPPA].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\006 - Untitled video [SNAlFLV9MBE].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\007 - Untitled video [474wZZHoWN4].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\008 - Untitled video [Xdy1vkhSz-M].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\009 - Untitled video [5XZxmkjsNos].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\010 - Untitled video [NrKABtmG4zs].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\011 - Untitled video [KXIdYEdOPys].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\012 - Untitled video [xDARu4U8_X0].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\013 - Untitled video [67Cbb3DyIxA].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\014 - Untitled video [_5xDx_lL9fQ].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\015 - Untitled video [eoEsVQJruow].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\016 - Untitled video [KAX0cWk1fJE].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\017 - Untitled video [ISb0nrlNoKQ].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\018 - Untitled video [Yt6imPC1FhA].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\020 - Untitled video [ryhzpLe9O_U].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\021 - Untitled video [Ke4iqmdD5iI].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\022 - Untitled video [Px_yUq5Nos0].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\023 - Untitled video [vfc0UfOnBWY].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\024 - Untitled video [hLsP4gULKWs].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\025 - Untitled video [YKqU394Ye9Y].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\026 - Untitled video [E3IL7N0E5-k].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\027 - Untitled video [D5nTL66HVUU].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\028 - Untitled video [OdtGN27LchE].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\029 - Untitled video [RHeFGH6K4mc].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\030 - Untitled video [MnCwXJnMgdk].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\031 - Untitled video [J4yASL-0erU].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\032 - Untitled video [KBEpfigHyds].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\033 - Untitled video [hl9oRrKhvzs].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\034 - Untitled video [dzFUOQUSiEI].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\035 - Untitled video [KOLcaJ0Hpmw].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\036 - Untitled video [D77Vmfcq08k].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\037 - Untitled video [Pq_gP9GEDeo].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\038 - Untitled video [mCTMP1XgE5c].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\039 - Untitled video [2aldTxnbNt0].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\040 - Untitled video [SD5E3xdEXuQ].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\041 - Untitled video [0iWAugxM2ok].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\042 - Untitled video [JaUv32REOr8].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\043 - Untitled video [P5hJnYfA_EE].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\044 - Untitled video [RLBIYzeb-zo].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\045 - Untitled video [g328fQNFQYA].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\046 - Untitled video [cLhjaHR2YRc].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\047 - Untitled video [6VDpkO9RWqs].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\048 - Untitled video [Ccf5yhlT2UU].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\049 - Untitled video [SK2AcXTyEMs].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\050 - Untitled video [LFVIcpck8KI].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\051 - Untitled video [Vy4pVvgJxIE].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\052 - Untitled video [aEdRB2yVK-I].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\053 - Untitled video [Mkkq9Ays4lo].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\054 - Untitled video [2FJlhoDYNPE].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\055 - Untitled video [SjDvHYZGFaQ].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\056 - Untitled video [3V6fppDLVXs].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\057 - Untitled video [522lUI2GVJA].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\058 - Untitled video [NnYLzGMk8Tg].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\059 - Untitled video [s50dOsodoVQ].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\060 - Untitled video [SKBDC3QugZw].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\061 - Untitled video [9i3ic1sVhlI].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\062 - Untitled video [enKJWk3MTnM].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\063 - Untitled video [dk97zcYaq_o].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\064 - Untitled video [DBchIUAAcNM].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\065 - Untitled video [0k4Eq2VMNFM].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\066 - Untitled video [p-KM4P-6Hmg].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\067 - Untitled video [Mpe-uZxPuu8].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\068 - Untitled video [_GMtx9EsIKU].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\069 - Untitled video [NAhKdzo99NI].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\070 - Untitled video [iLtU0wQvCBU].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\071 - Untitled video [SBbAcXlmfe0].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\072 - Untitled video [NMSo2fkjauw].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\073 - Untitled video [0iGEpx8IeM0].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\074 - Untitled video [uAI5NLoojso].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\075 - Untitled video [LikLn_1Ekc4].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\076 - Untitled video [7l6XfYtX2Vs].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\077 - Untitled video [-Cx66fGexN0].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\078 - Untitled video [ql7stLKXzds].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\079 - Untitled video [Da4LsWrrKD0].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\080 - Untitled video [e_M_Wavx-EQ].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\081 - Untitled video [TPBd8If-ryQ].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\082 - Untitled video [lHhhze3_i00].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\083 - Untitled video [2itM7IdThvA].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\084 - Untitled video [XDYrf2bbMxg].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\085 - Untitled video [wV51WWaQQYo].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\086 - Untitled video [kN08-CXWOJs].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\087 - Untitled video [EHfDs6cmpkc].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\088 - Untitled video [qHncKi2BEFI].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\089 - Untitled video [HSnJrXWETfM].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\090 - Untitled video [V0TGQRAt4wg].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\091 - Untitled video [-FRBotBLc1o].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\092 - Untitled video [xSbb3LZ9D_c].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\093 - Untitled video [faezjTHA5SU].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\094 - Untitled video [dan3QfN3CDU].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\095 - Untitled video [BuZjz69pBd8].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\096 - Untitled video [nxqA3VHKE-s].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\097 - Untitled video [WsQ_W0VHW2I].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\098 - Untitled video [tR2azlV7RlQ].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\099 - Untitled video [TxD7wLq12Eg].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\100 - Untitled video [jQm42x6VpN4].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\101 - Untitled video [TmLkFnduWWo].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\102 - Untitled video [YPXPuK58o38].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\103 - Untitled video [i-5bFCDvk-Q].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\104 - Untitled video [_JNCqY8ltSg].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\105 - Untitled video [CPXWBnjLKJE].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\106 - Untitled video [CtjuzlIuoO0].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\107 - Untitled video [VLtQqvrOtCo].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\108 - Untitled video [ltdl4yqwBUI].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\110 - Untitled video [QWOqtxBrSUY].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\111 - Untitled video [vQDAxWS9OXc].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\112 - Untitled video [jVJrAIpZB6g].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\113 - Untitled video [MGd4AJc-aQk].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\114 - Untitled video [yuRIKKh3bE4].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\115 - Untitled video [QCv8iBEBEIw].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\116 - Untitled video [jGq2aNQwokY].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\117 - Untitled video [FFBq40r7poU].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\118 - Untitled video [-yfBjB1uzns].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\119 - Untitled video [UaQXi8WpFhQ].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\120 - Untitled video [Jy1eEMm0rjA].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\121 - Untitled video [tmWdk_5JMSg].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\122 - Untitled video [08TcHAeTJeU].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\123 - Untitled video [SYoYo-FZyno].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\124 - Untitled video [z-zOs02NH44].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\126 - Untitled video [c5sLyqaMikE].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\127 - Untitled video [wGxD2taQr5g].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\128 - Untitled video [MvvrxdePk5Y].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\129 - Untitled video [luMxg_Dt5Mk].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\130 - Untitled video [kXnW4Hy4Z7o].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\131 - Untitled video [gil8d0CzKWs].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\132 - Untitled video [EZ-Q30WL5L4].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\133 - Untitled video [yNYVDWoTIkw].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\134 - Untitled video [LlUQkVZdHnM].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\135 - Untitled video [1CwzAKjo3RM].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\136 - Untitled video [vTOEsBgS8vc].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\137 - Untitled video [whxbRkeJQKA].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\138 - Untitled video [Eh-vKLtYZHA].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\139 - Untitled video [xPQhZWE20vI].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\140 - Untitled video [pp_qaR6pcRY].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\141 - Untitled video [LeU_h8iUqkw].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\142 - Untitled video [9H1nGZph5PA].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\143 - Untitled video [Hxv3MmXLaW0].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\144 - Untitled video [CANYXHtCWKI].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\145 - Untitled video [F2CGHQYp0Lg].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\146 - Untitled video [xrmNhW5ABg4].txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\44 - Pegasus Spyware What is Pegasus Spyware Pegasus Explained Edureka.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\66 - What is a Virus Hoax Identifying Virus Hoaxes Online Scams Awareness Edureka.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\68 - Cyber Kill Chain What is Cyber Kill Chain The Seven Stages of a Cyberattack Edur.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\build-sell-claude-code-operating-systems-2-hour-course.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\coding-is-hard-until-you-learn-this.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\44 - Pegasus Spyware What is Pegasus Spyware Pegasus Explained Edureka.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\56 - Navigating the Cyber Battlefield Leveraging MITRE ATT&CK Tactics & Techniques Ed.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\66 - What is a Virus Hoax Identifying Virus Hoaxes Online Scams Awareness Edureka.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\68 - Cyber Kill Chain What is Cyber Kill Chain The Seven Stages of a Cyberattack Edur.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\dasdasdas ffds\failed-videos.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\failed-videos.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\give-me-39-minutes-and-i-ll-make-you-dangerously-confident.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\how-to-analyze-code-for-vulnerabilities.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\how-to-use-ai-coding-tools-better-than-99-of-developers.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\site\public\robots.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\astro\gitignore.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\astro-vite7\gitignore.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\multipage-with-generator\gitignore.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\nuxt-csp\gitignore.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\nuxt-vite7\gitignore.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\sveltekit\gitignore.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\sveltekit-csp\gitignore.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\vite8-https\gitignore.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\vite8-react-base-path\gitignore.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\vite8-react-csp-meta\gitignore.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\vite8-react-css-modules\gitignore.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\vite8-react-emotion\gitignore.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\vite8-react-modal\gitignore.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\vite8-react-plain\gitignore.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\vite8-react-radix-dialog\gitignore.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\vite8-react-router-spa\gitignore.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\vite8-react-styled-components\gitignore.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\vite8-react-tabs\gitignore.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\vite8-react-tailwindv3\gitignore.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\vite8-react-tailwindv4\gitignore.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\vite8-react-ts\gitignore.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\vite8-react-unocss\gitignore.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\vite8-react-vanilla-extract\gitignore.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\vite8-sveltekit\gitignore.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\impeccable-main\tests\framework-fixtures\vite-react\gitignore.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\i-stopped-using-grill-me-for-coding-here-s-what-i-use-instead.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\i-tried-500-ai-tools-these-9-will-make-you-rich.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\popular-videos-playlist-transcripts\02 - The Blueprint To $5,000 Month As A Beginner (2024).txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\popular-videos-playlist-transcripts\04 - I Asked Richard Branson How To Make $1,000,000.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\popular-videos-playlist-transcripts\failed-videos.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\python-full-course-for-free.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\react-native-for-dummies-2026-full-beginner-crash-course.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\README.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\software-fundamentals-matter-more-than-ever-matt-pocock.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts(1)\failed-videos.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- addintional info to add\youtube-playlist-playlist-transcripts\failed-videos.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- Chomedevpage.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- New Text Document (2).txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- New Text Document.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- ORGANIZED_KNOWLEDGE_BASE\00_MASTER_INDEX.md -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- ORGANIZED_KNOWLEDGE_BASE\01_AI_Agents_Masterclass.md -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- ORGANIZED_KNOWLEDGE_BASE\02_AI_Coding_Tools_and_Platforms.md -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- ORGANIZED_KNOWLEDGE_BASE\12_Additional_Resources.md -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- VideoTranscriber_Every UI_UX Concept Explained in Under 10 Minutes.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+- ytwoowo.txt -> 01_Full_Topic_Library\12_Additional_Resources/FULL_TRANSCRIPTS.md
+

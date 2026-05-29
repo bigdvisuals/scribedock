@@ -1,0 +1,1957 @@
+How to Analyze Code for Vulnerabilities
+
+0:02 [music]
+0:07 [music]
+0:19 Hello, I'm Nancy and I produce the OWASP
+0:21 Dev Slop Show.
+0:23 Uh, welcome everyone. We've been hoping
+0:25 to have Vicky on the show for a long
+0:27 time and she's finally here.
+0:30 Uh, welcome Vicky.
+0:32 Hi, thank you so much for having me on
+0:34 the show. My pleasure. Thank you for
+0:36 joining us. So,
+0:38 uh, if I got this right, we're talking
+0:39 about code analysis today? Mhm. So,
+0:42 today's topic is all about how a
+0:45 beginner can start analyzing source code
+0:47 for vulnerabilities.
+0:49 Okay, awesome. And uh, our sponsor for
+0:52 today is bugbountyhunter.com
+0:54 and they've been generous enough to give
+0:56 us uh, five uh, five memberships to
+0:59 their platform, which is a hacking
+1:00 platform that mimics a bug bounty
+1:02 program. And we also have some copies of
+1:05 your books to give away and I've asked
+1:07 you for help to select the winners. How
+1:08 are we going to do that today? Right.
+1:11 So, at the end of the presentation,
+1:13 we're going to have a quiz that tests
+1:15 your skills about doing a security
+1:17 manual code review. And we're going to
+1:19 basically give you um, a piece of source
+1:22 code and ask you what kind of
+1:24 vulnerabilities are present in that
+1:26 source code. And if you get all of them
+1:28 right, then you get entered into um,
+1:31 a lottery for a copy of my book.
+1:34 Excellent. That sounds great. So, ready
+1:36 to go?
+1:37 Yeah, for sure. Okay, so first a message
+1:40 from our sponsor bugbountyhunter.com.
+1:43 Today's show sponsor is
+1:45 bugbountyhunter.com.
+1:47 [music]
+1:47 This hacking platform aims to become
+1:50 your go-to place for everything bug
+1:52 bounties. Practice hacking on Barker,
+1:55 Creative, and First Blood, fully
+1:58 functioning websites containing
+2:00 realistic bugs. [music]
+2:02 Once you discover a bug, you can submit
+2:04 it for review exactly like you would
+2:07 [music] on a bug bounty platform. Your
+2:09 report will be triaged and [music]
+2:11 feedback will be provided to help you
+2:14 become a better hunter. Learn how to
+2:17 test for security vulnerabilities and
+2:19 gain the confidence you need to
+2:21 participate to real bug bounty programs.
+2:24 Visit bugbountyhunter.com/membership
+2:25 today
+2:27 [music]
+2:29 and let them help you on your journey.
+2:39 [music]
+2:48 [music]
+2:50 Hey everyone, I'm Stephanie Chaplin, aka
+2:53 DevSecOps. I'm a solutions architect
+2:55 specializing in DevSecOps, app, and
+2:57 cloud security. We have a lot of content
+2:59 to cover today and we may go a little
+3:01 bit past the 1-hour mark. The session is
+3:03 recorded and will be available on our
+3:05 YouTube channel for replay. Really
+3:07 excited to be on today's show and I'd
+3:09 like to introduce my co-host Christina.
+3:12 Hey there. I'm Christina. I'm a software
+3:14 developer here in Miami working on Apple
+3:17 device fleet management.
+3:19 I'm the app sec champion at my company
+3:21 and a lot of what I've learned is from
+3:23 Vicky. I even subscribed to Medium just
+3:26 for her articles. So, I'm super excited
+3:28 to be here and uh,
+3:30 uh,
+3:30 [clears throat]
+3:30 some new stuff that I can implement.
+3:32 Nikki.
+3:33 Thanks Christina. Hi everyone. Good
+3:35 morning, good afternoon. I'm Nikki. I am
+3:37 a consistent host here on the OWASP Dev
+3:39 Slop Show and a cybersecurity leader.
+3:41 And our guest today is Vicky Lee. Vicky
+3:44 Lee is a professional investigator of
+3:45 nerdy stuff with a primary focus on web
+3:48 security. She began her career as a web
+3:50 developer and fell in love with security
+3:52 in the process. Now, Vicky is a resident
+3:55 developer evangelist at ShiftLeft. We
+3:57 don't know how she does it, but she also
+3:59 hunts for vulnerabilities, writes and
+4:01 blogs about her adventures hacking the
+4:02 web. She also hosts Security Simplified,
+4:05 a developer education series on YouTube
+4:06 focusing on web security, and a podcast
+4:09 called Sources and Sinks. So, welcome
+4:12 Vicky.
+4:13 The floor is yours. Hi, hello everyone
+4:17 and welcome to the session. Thank you so
+4:19 much for taking the time to join me
+4:21 today.
+4:22 Um, can I start sharing my screen right
+4:25 now?
+4:28 Yep.
+4:41 And welcome to the session. So, today
+4:43 the topic that we're going to talk about
+4:45 is security code analysis or the process
+4:49 of conducting a manual code review to
+4:51 find vulnerabilities in source code in
+4:53 order to secure applications.
+4:56 And this is actually a topic that I'm
+4:58 really, really excited to talk to you
+4:59 about because in my opinion, this is one
+5:02 of the fastest and funnest ways to find
+5:04 vulnerabilities in the application.
+5:06 And both in my day-to-day work as a
+5:09 developer and as a hacker, I found this
+5:11 skill to be extremely useful because as
+5:14 a developer, if you can learn to
+5:16 identify vulnerabilities and security
+5:18 issues in your own applications, you can
+5:21 secure your own applications before you
+5:22 deploy and therefore build much safer
+5:25 applications.
+5:26 And if you're a penetration tester, bug
+5:28 bounty hunter, or hacker, if you can
+5:31 uncover the source code of the
+5:33 application that you're attacking, you
+5:35 can potentially use this as an alternate
+5:37 way of discovering vulnerabilities in
+5:39 that application.
+5:44 So, before we start, hi, my name is
+5:47 Vicky and I'm a developer and a hacker.
+5:50 And I'm currently working at a company
+5:52 called ShiftLeft as their developer
+5:54 evangelist. I'm also currently authoring
+5:57 a book named Bug Bounty Bootcamp that's
+6:00 aimed at helping beginners getting into
+6:02 bug bounty hunting and web penetration
+6:04 testing.
+6:06 And you can find me on Twitter at Vicky
+6:08 Lee 7.
+6:12 So, let's talk a little bit about
+6:14 today's agenda. I'm going to first start
+6:16 with what manual code reviews are and
+6:19 why it's important for any developer or
+6:22 any penetration tester to learn how to
+6:25 review code.
+6:26 And then I'm going to teach you how to
+6:28 prepare for a proper security code
+6:30 review.
+6:31 I'm going to first go through what the
+6:33 tools are that you need to conduct an
+6:35 efficient review.
+6:37 I'm also going to go over um, some of
+6:40 the concepts and knowledge that you need
+6:43 to know before you dive into the code in
+6:45 order to be um, in order to conduct an
+6:47 effective manual code review.
+6:51 And then finally, I'm going to if you're
+6:54 a penetration tester or bug bounty
+6:55 hunter or hacker and you don't already
+6:58 have access to the application's source
+7:00 code, I'm going to show you how to
+7:03 actually find um, the source code of the
+7:05 application that you're attacking.
+7:08 And then the bulk of this app the bulk
+7:10 of the session will be devoted to
+7:12 actually doing code reviews and how to
+7:14 actually um, dive into source code and
+7:17 start identifying vulnerabilities there.
+7:19 I'm also going to show you some examples
+7:22 and then we're going to end the session
+7:23 with a quiz um, so that you can practice
+7:26 manually reviewing code as well.
+7:31 And let's get started. So, before we
+7:34 start analyzing any code, it's important
+7:36 to know why it's actually um, why you're
+7:39 actually doing it
+7:40 and why it's important to do it.
+7:44 So, most application security issues are
+7:46 actually derived from insecure coding
+7:48 practices. Take SQL injections for
+7:51 example. SQL injections are caused by a
+7:54 lack of input validation. And issues
+7:56 like cross-site scripting are caused by
+7:59 both a lack of input validation and a
+8:01 lack of output encoding.
+8:03 And issues like IDORs and missing access
+8:06 controls are caused by missing access
+8:08 control or faulty access controls.
+8:12 Whereas issues like server-side request
+8:14 forgeries or open redirects are often
+8:17 caused by missing or weak record checks
+8:20 on redirect IP addresses or um, domain
+8:24 names.
+8:27 So, a lot of these issues are actually
+8:30 really, really apparent when you dive
+8:32 into the source code of that
+8:33 functionality.
+8:35 And so, source code review is one of the
+8:36 best ways to find security issues in
+8:39 applications because a lot of these
+8:41 issues
+8:42 um, are difficult to discover in a
+8:44 dynamic or in a dynamic scanning
+8:47 perspective or penetration test. But
+8:50 their patterns are very apparent and
+8:52 often very easy to find in the source
+8:53 code.
+8:56 And lastly, I'm also a huge proponent
+8:59 for learning to learning to write better
+9:02 code through learning how to conduct
+9:04 security code reviews.
+9:06 When you dive into source code to review
+9:09 a piece of code for vulnerabilities, you
+9:11 actually learn about the a lot about the
+9:14 fundamentals of a security issue. So,
+9:17 this will help you become a better
+9:18 developer and also a better penetration
+9:21 tester in the end because you'll have a
+9:24 much deeper understanding of the
+9:25 vulnerability at hand.
+9:32 So, at this point you might ask me, um,
+9:34 what about automated code reviews,
+9:36 Vicky? Um, can't we just use tools to
+9:39 automate this entire process?
+9:42 And automated code reviews are also
+9:44 called static analysis security testing
+9:47 or SAST tools.
+9:49 And they these tools have this these
+9:52 tools do have a place in the security
+9:55 process.
+9:57 And they tend to make the process much
+9:59 more efficient.
+10:01 But the issue with these tools is that
+10:03 they'll always have false positives and
+10:06 they're never 100% accurate. So manual
+10:08 code review is always needed after you
+10:11 get back the SAS results in order
+10:13 confirm the results to see which of the
+10:15 vulnerabilities that are found are
+10:17 actually exploitable.
+10:19 So I would argue that it's still really
+10:21 valuable to learn manual code reviews
+10:23 even if you have these tools available
+10:26 to you. And by combining SAS tools and
+10:29 manual code reviews, you can make the
+10:32 code review process very very efficient
+10:34 and build much safer applications.
+10:40 So let's start preparing for
+10:44 conducting a manual code review. Before
+10:46 we start that preparation section, does
+10:49 anyone have any questions about the
+10:51 material that I just covered this far?
+10:55 I'm not a question but
+10:57 No, no, go ahead.
+10:58 just going to say it's not a question as
+11:00 such but I think you raised some really
+11:01 valid points around SAS and false
+11:04 positives because for those that
+11:06 for those that don't know a false
+11:08 positive means that if you say it's
+11:10 negative if you say it's vulnerable but
+11:12 then it's not and it's like oh why do I
+11:13 have to fix this it's not wrong. And
+11:15 then you have on the flip side then
+11:16 sometimes you have false negatives when
+11:18 it's like oh it's safe but it's but it's
+11:20 not and I think you really touched on it
+11:21 well that you need to have yes it's
+11:23 great to have the automated ways but you
+11:25 need to have the manual you know code
+11:26 reviews just to like double check and
+11:28 then they might catch things that the
+11:30 SAS tool didn't. Mhm. Right. So before
+11:33 we actually dive into before we actually
+11:37 dive into how to conduct a manual code
+11:39 review, I think it's a very very
+11:40 important that um
+11:43 to say that I'm not actually advocating
+11:45 that you dive into
+11:48 a piece of application source code and
+11:50 review the tens of thousands of lines of
+11:52 code yourself. But we should still learn
+11:56 about manual code review because first
+11:58 it's
+11:59 SAS tools will always have false
+12:01 positives and you will need to manually
+12:03 verify the results. And second, learning
+12:06 about manual code reviews will really
+12:08 help you understand how to use SAS
+12:10 tools, right? Because they help you
+12:12 understand how a manual code review is
+12:15 actually done and they help you
+12:17 understand
+12:18 what is actually happening
+12:20 when a SAS tool is running and when the
+12:22 SAS tool actually finds a vulnerability.
+12:25 Yeah, I think that's a great point.
+12:26 You're you're just educating yourself in
+12:28 in a deeper way around
+12:30 you know finding bugs and then when you
+12:32 rely just on a tool, you know, you sort
+12:34 of like you don't you could get a little
+12:36 lazy, right? You could just see what the
+12:38 tool says and then kind of just listen
+12:40 to it or not and I feel like code
+12:42 reviews definitely give you a deeper way
+12:44 of kind of understanding what's going
+12:46 on. So I like that cuz otherwise you get
+12:47 stuck in this is the tool better or is
+12:49 the human better kind of discussion and
+12:51 I feel like it's not that's not like a
+12:53 weird question to ask, right? Neither
+12:55 one is better or worse. Yeah. So Right.
+12:58 SAS tools are here to help you with the
+13:00 process.
+13:02 And also I'd like to add that for you
+13:05 know people that are on the more
+13:06 offensive side like if you're a
+13:08 penetration tester if you're a bug
+13:09 bounty hunter, it's still really
+13:11 valuable to find to to learn how to
+13:13 review code manually because
+13:16 once I started to learn how to read code
+13:19 and identify vulnerabilities that way, I
+13:22 learned that I find myself learning
+13:25 about vulnerabilities in a much deeper
+13:27 way. I started understanding the
+13:29 mechanisms behind each vulnerability
+13:32 and I started to find all these
+13:34 different ways to bypass security
+13:35 controls just because I understand more
+13:38 how to think like a developer and how to
+13:42 really think about why a particular
+13:44 vulnerability or security issue is
+13:46 happening.
+13:47 And I think on a on the developer side
+13:50 it's exactly the same. When you do
+13:52 manual code reviews, you actually start
+13:54 to realize like oh I've made this
+13:55 mistake before. I've done this a bunch
+13:57 of times and then you
+13:59 are more cognizant when you're writing
+14:00 your own code to try to avoid some of
+14:03 those issues.
+14:05 Right. For sure. For sure. I do feel
+14:07 like after I started reviewing code for
+14:10 security reasons, I became a much better
+14:12 developer because I understand how to
+14:14 secure my application right now.
+14:20 Okay, let's continue on our presentation
+14:23 to the preparation of code reviews.
+14:26 So
+14:27 first things first.
+14:30 Before you start reviewing code, you
+14:31 want to make sure that you have the
+14:33 appropriate tools to do it, right? And
+14:36 the tools are needed for a security code
+14:38 review is actually really simple. I
+14:40 would just recommend that you have a
+14:42 good code editor or an IDE on hand. I
+14:45 personally like to use Sublime Text but
+14:47 you're welcome to use any code editor or
+14:50 IDE that you like.
+14:52 But there's several points that you need
+14:54 to keep in mind when selecting a code
+14:56 editor for code review is that um first
+15:00 you want to find a code editor or an IDE
+15:02 that allows for global um global
+15:05 searches across the entire code base.
+15:07 Um because a lot of what we're doing
+15:09 during a manual code review is that
+15:12 we're searching for vulnerable patterns
+15:14 um in an application and we're often
+15:17 searching for these patterns across the
+15:19 entire code base with hundreds of
+15:22 thousands of files. So it's really
+15:24 helpful if your IDE has that
+15:26 functionality that allows you to search
+15:28 the entire application with one single
+15:30 search instead of going through all the
+15:32 files and all the different components
+15:34 of the application just to search for
+15:36 that one thing.
+15:38 And a second thing that you want to look
+15:40 for is regex searches.
+15:42 So um a lot of what we're doing we're
+15:45 going to do later is not searching for
+15:48 particular strings per se but string
+15:51 patterns that would indicate a
+15:52 vulnerability. So it's really helpful if
+15:55 your IDE supports regex searches to
+15:57 support more flexible searches as well.
+16:00 And finally, it's good to find a code
+16:02 editor that allows you to cross
+16:04 reference multiple files at the same
+16:06 time.
+16:07 Because when we're actually diving into
+16:10 searching for a particular
+16:11 vulnerability, a lot of what you'll be
+16:14 doing is that you'll be cross
+16:17 referencing different functions and
+16:18 finding all the all the instances of the
+16:22 same function of the same variable
+16:24 across the entire application. So it
+16:26 would be really helpful if your code
+16:27 editor or an IDE has like a very
+16:30 convenient way of allowing you to cross
+16:32 reference those.
+16:34 And then also I'd also recommend that
+16:37 you have the scripting tool or the
+16:39 terminal on hand just to create test and
+16:42 run experiments on the code base so that
+16:44 you can verify your hypotheses about it.
+16:51 And so next let's talk about the
+16:53 prerequisites concepts that you probably
+16:56 want to know before you dive into the
+16:58 actual source code.
+17:00 So the first thing is that it's good to
+17:03 understand on a high level of how the
+17:06 application actually works. Where the
+17:08 critical functionalities are like where
+17:10 the authentication functionality, where
+17:12 the authorization functionality and what
+17:15 are the functionalities that deals with
+17:18 personal users personal info and as well
+17:21 as sensitive info on the server.
+17:23 And understanding these will really help
+17:26 you focus your analysis on the
+17:28 components of the application that
+17:29 actually matters, right? You don't want
+17:32 to focus all your energy on a
+17:34 functionality that doesn't really matter
+17:36 that much for the business
+17:38 [snorts]
+17:38 and you want to focus your energy
+17:41 on the components where if a
+17:43 vulnerability is found then the business
+17:45 impact will be very big instead.
+17:47 It's also
+17:49 important to understand on a high level
+17:52 who the users of the application are. Um
+17:55 who what are the permission levels of
+17:57 the different users and who should be
+17:59 able to do what? These will come this
+18:01 information will come very useful when
+18:04 you're testing for vulnerabilities like
+18:06 IDOR and privilege escalation for
+18:09 example.
+18:11 And then finally um you want to have a
+18:15 high level overview of um what the major
+18:18 frameworks and libraries and add-ons
+18:20 that are in use because these will help
+18:23 you identify third-party um
+18:26 vulnerabilities that are introduced by
+18:27 third-party components. So a lot of
+18:30 application vulnerabilities are actually
+18:32 introduced by third-party code not the
+18:35 code that you write yourself.
+18:37 And understanding what your application
+18:40 what kind of third-party code that your
+18:42 application is using will come extremely
+18:44 useful when finding these sort of
+18:46 vulnerabilities.
+18:48 And all of this information will add up
+18:51 to one general picture of understanding
+18:54 what could potentially go wrong with
+18:55 your application and that's really
+18:57 important to know before you actually
+18:59 dive into the source code because you'll
+19:01 have more direction as to what you
+19:03 should actually be looking for.
+19:09 And so what if you're not the developer
+19:12 of an application and you're a bug
+19:14 bounty hunter or penetration tester
+19:17 trying to
+19:19 trying to identify vulnerabilities in
+19:21 target application instead? How do you
+19:23 actually find the source code of the
+19:25 application?
+19:27 So the first thing that I like to do is
+19:29 to actually look at the client side code
+19:31 of the application instead of trying to
+19:34 leaks leak source code from the server
+19:37 side.
+19:38 Client side code refers to the code that
+19:41 is sent to your browser to your client
+19:43 like things like JavaScript code and
+19:46 HTML code. And a lot of the times this
+19:49 code in itself that is exposed to the
+19:52 client will leak a lot of private
+19:55 information and a lot of the
+19:58 application's logic. So, this would be
+20:01 the first place I look at and the first
+20:03 place I analyze.
+20:05 And the next thing that you could try is
+20:08 that you could try to um reverse
+20:11 engineer the source code from the
+20:13 desktop or mobile versions of the
+20:15 application. So, by definition, these
+20:18 applications need to be installed in
+20:21 your device, right? So, their source
+20:23 code is by default exposed to the user.
+20:27 And if you can decompile the application
+20:30 and reverse engineer the source code
+20:32 from there, you can potentially unlock a
+20:34 lot of the application's logic and
+20:37 analyze that for vulnerabilities.
+20:41 And if those two methods don't work, you
+20:44 can always try to leak code through
+20:45 another vulnerabilities.
+20:48 Like um vulnerabilities like path
+20:50 traversal, um XSS, or SSRFs, or any
+20:54 vulnerability that allows for arbitrary
+20:57 file reads on the server could leak to
+21:00 could lead to a leak of source code to
+21:03 the attacker.
+21:05 And then if all else fails, you can
+21:07 always utilize open source intelligence
+21:10 techniques like scouring an
+21:12 organization's GitHub repositories or um
+21:16 going on Pastebin or Wayback Machine to
+21:20 look if any developers or system admins
+21:23 have leaked source code on these
+21:25 third-party sites.
+21:28 Vicky, we have a question from the
+21:30 audience, which I think relates a bit to
+21:32 some of the slides. Um do you need to
+21:34 already have extensive coding experience
+21:37 to perform code reviews?
+21:40 Um I think um
+21:43 extensive programming experience is not
+21:46 necessary,
+21:48 but it is necessary that you kind of
+21:50 know how programming works.
+21:53 You probably need to know um concepts
+21:56 like, you know, variables, functions,
+21:58 etc. so that you can build a mental
+22:00 image of what the code is actually doing
+22:03 in your mind, right? You don't have to
+22:05 know every single detail of what the
+22:07 code is doing, but you need to be able
+22:09 to understand the logic.
+22:12 So, that's why I recommend that um
+22:15 before you jump into a source code
+22:16 review that you actually understand at
+22:18 least one programming language. Like it
+22:21 could be any programming language,
+22:22 JavaScript, Python, Java.
+22:25 Um but after you understand one
+22:27 programming language, you you probably
+22:30 find that a lot of the different
+22:32 programming languages you can you can
+22:35 analyze for for vulnerabilities because
+22:37 a lot of the concepts are transferable
+22:40 in um within different programming
+22:42 languages.
+22:45 Awesome, thanks.
+22:48 Yeah, any other questions so far?
+22:56 Okay, Nikki, I think you're muted.
+22:59 Oh, really?
+23:00 Um Nikki and Vicky, you're again Nikki
+23:03 Oh, okay. Yeah, [laughter] sorry.
+23:06 But there's a lot of questions around
+23:07 human versus machine scanning. So, maybe
+23:10 as we kind of go through, you know, this
+23:12 session, if we can kind of just continue
+23:14 to highlight the limitations of a SAS
+23:17 scanner and how a human is able, you
+23:19 know, like the the the differences there
+23:21 because, you know, it's probably a topic
+23:22 that we can kind of go into for a while.
+23:25 So, I think if we could just continue to
+23:26 touch upon it during the session, I
+23:28 think it'd be good. But other than that
+23:29 though, I think we're let's let's keep
+23:31 going. And just a reminder, if you have
+23:33 specific questions, drop them in Slido.
+23:36 The the YouTube chat is sort of,
+23:38 you know, off to a good start here. So,
+23:40 I don't want things to get buried. So,
+23:41 if you have other questions, drop them
+23:42 in Slido.
+23:44 Okay, cool. Yeah, so just um as a heads
+23:48 up, I will touch on um this issue later
+23:51 in the presentation because I will be
+23:53 showing specific techniques that both
+23:55 human and machine use to identify
+23:57 vulnerabilities, right? And a lot of
+23:59 those techniques are actually the same.
+24:01 Um but there are slight differences um
+24:04 because there's always there's always
+24:05 going to be things that um a SAS tool
+24:07 cannot do that a human can.
+24:10 Cool.
+24:12 Okay, let's continue then. Um this slide
+24:16 is probably one of the most important
+24:19 concepts and um that you will take away
+24:22 from this presentation is the concepts
+24:24 of sources and sinks.
+24:26 So, in code analysis, a source is the
+24:30 code that allows a vulnerability to
+24:32 happen. Whereas a sink is where the
+24:35 vulnerability actually happens.
+24:37 Take command injection vulnerabilities
+24:39 for example. A source in this case could
+24:42 be the function that takes in user
+24:44 input. Whereas a sink would be functions
+24:47 that execute arbitrary system commands.
+24:52 If untrusted user input can flow from
+24:55 the source to the sink without proper
+24:57 sanitization or validation, then there
+25:00 is a command injection vulnerability
+25:02 there.
+25:03 And many common vulnerabilities can
+25:05 actually be identified by tracking this
+25:07 data flow from appropriate sources to
+25:10 corresponding sinks.
+25:12 And um a lot of SAS tools actually work
+25:15 this way as well.
+25:20 And so, let's start actually hunting for
+25:23 vulnerabilities.
+25:24 And I first like to introduce a top a
+25:28 couple of tips and tricks on how to find
+25:31 the most critical vulnerabilities fast.
+25:35 Because when you're sitting down to
+25:36 review your application, you don't
+25:38 always have the time to extensively
+25:41 review every single functionality and
+25:43 every single um line of code that you've
+25:46 written. So, it's a very helpful to know
+25:49 what
+25:50 um
+25:51 how to actually find the most critical
+25:53 issues right away, right? So, we're
+25:55 going to start with some tips tips and
+25:57 tricks on how to do that.
+26:03 So, the first thing I like to do when I
+26:05 jump into a piece of source code is that
+26:07 I like to search for dangerous uh known
+26:10 dangerous functions used on
+26:12 user-supplied input.
+26:14 So, a lot of common vulnerabilities
+26:16 actually have really predictable
+26:19 patterns in source code. Like command
+26:21 injections for example, um are caused
+26:23 by, you know, user input being injected
+26:26 into functions that execute system
+26:28 commands.
+26:30 And SQL injections are caused by user
+26:32 input um injecting into um SQL queries,
+26:36 right? So, these vulnerabilities can all
+26:39 be discovered by looking for these
+26:41 dangerous functions and see if they can
+26:43 be reached by the user input.
+26:48 So, what we're going to do now is that
+26:50 we're going to go into
+26:53 an actual code base and start looking
+26:54 for some vulnerabilities.
+27:04 Just going to share my screen right
+27:05 here.
+27:19 Cool.
+27:20 Can you see my Sublime uh window?
+27:23 Yeah. Could you zoom in a little bit if
+27:25 that's okay? I'm on a I think I'm on a
+27:27 13-in laptop. I wish I had a huge
+27:29 monitor. Maybe next time.
+27:32 Should I make the code bigger?
+27:34 Yeah, if that's okay. Okay, cool.
+27:38 Let's see.
+27:41 I'm going to try to make the font bigger
+27:43 anyway.
+27:45 So, that we can see everything.
+27:47 Does everything look all right?
+27:50 Yeah, I think so.
+27:52 Okay, cool.
+27:54 Yeah?
+27:56 Yeah. Yep. Cool. Sounds good.
+27:58 Okay, so let's
+28:00 start by Oh, wait. Okay.
+28:03 Actually,
+28:05 let me jump back to
+28:08 my slides here.
+28:12 Let me jump back to my slides here. I do
+28:14 have an important link to show you guys.
+28:27 Cool. Yeah, so we're back. Um so, what
+28:31 I'm going to show you is how to identify
+28:33 a command injection vulnerability in
+28:35 source code. And the vulnerable
+28:37 application that we're using is called
+28:39 TarPit Java, and you can see the link of
+28:42 TarPit Java right here. And if you can,
+28:46 um feel free to download and follow
+28:48 along the exercises before I dive into
+28:50 actually hunting for uh vulnerabilities
+28:52 in source code.
+28:54 And TarPit Java is a Java application
+28:56 that's seeded with vulner with many
+28:58 vulnerabilities like the OWASP Top 10,
+29:01 um various business logic flaws, and
+29:03 various data leaks. So, we're just going
+29:05 to be looking at um some sensitive info
+29:08 leaks and some command injection
+29:10 vulnerabilities and SQL injection
+29:11 vulnerabilities today in this um in this
+29:13 code repository.
+29:27 Um
+29:28 Actually, can we post the link to the
+29:31 repository
+29:32 somewhere?
+29:34 Yeah, I'll put it in the YouTube. Um
+29:36 thank you so much.
+29:58 Cool. So, let's start hunting for a
+30:01 command injection vulnerability. So, a
+30:03 command injection vulnerability, as I
+30:05 said, um they often have the signature
+30:08 of user input being passed to um
+30:13 being passed to a function that executes
+30:15 system commands without any sanitization
+30:18 or input validation, right? And so,
+30:21 we're going to look for one of these
+30:23 dangerous functions that could signify a
+30:25 command injection vulnerability. And one
+30:27 of these functions is the function eval.
+30:31 So, eval in a lot of programming
+30:34 languages would signify a command
+30:36 injection vulnerability because these
+30:38 are functions that um takes in a string
+30:42 as the input and then executes
+30:45 whatever's in that string as a system
+30:47 command. So, if you can if you search
+30:50 for the function eval in the code base
+30:53 and you see that user input is being
+30:56 passed into it without any um without
+30:58 any security measures, then you might
+31:01 have found um a command injection
+31:03 vulnerability.
+31:04 So, we're just going to do a global
+31:07 search on this code base for the
+31:09 function eval.
+31:10 And in Sublime Text, you can do a global
+31:13 search on the entire um application
+31:17 by
+31:18 pressing command, shift, and F.
+31:21 And then, oh, a window like this will
+31:24 open up.
+31:27 And you can simply plug in eval.
+31:30 So, we're searching for the string eval
+31:32 and then an open parenthesis because
+31:35 we're searching for calls to the
+31:37 function or method eval, right?
+31:40 And we're going to press enter here.
+31:42 So, we can see that we only found one
+31:45 result that matches. And the result uh
+31:49 the call to the function eval is located
+31:52 at servlet target.java,
+31:54 line 63 here.
+31:58 So, let's go to servlet target.java
+32:01 here.
+32:02 And in line 63, we can see this line of
+32:06 code.
+32:07 What this line of code is doing is that
+32:09 it's getting
+32:11 um
+32:12 the request URI parameter named module
+32:15 from the user and then plugging it into
+32:18 an eval function directly without any
+32:20 sanitization or validation. So, this is
+32:24 a very blatant command injection right
+32:27 here.
+32:28 And you can actually discover
+32:32 Sorry.
+32:33 And you can actually discover a lot of
+32:36 the most critical vulnerabilities this
+32:38 way. A lot of vulnerabilities
+32:40 um like cross-site scripting, SQL
+32:42 injection, and uh XXE can all be found
+32:46 by um doing this kind of operation, like
+32:49 looking for the dangerous function and
+32:50 see if um unsafe user input can reach
+32:53 it.
+32:55 You'd just be looking for different
+32:57 dangerous functions for each kind of
+32:59 vulnerability.
+33:04 And yeah, let's go back to our slides
+33:07 here.
+33:08 So, just a question on that. Um if you
+33:10 were in Java, like it makes sense,
+33:13 right? You're it looks so it looks
+33:15 dangerous, you know, because there's no
+33:17 framework at play to try to help prevent
+33:19 some of that. But how would you approach
+33:21 this if there were frameworks in in
+33:23 place here and you'd have to like
+33:24 understand specifically what security
+33:26 controls a framework might offer? Mhm.
+33:29 Right, that's when understanding the
+33:30 frameworks that uh a particular
+33:32 application uses really helps, right?
+33:34 Because for instance, a lot of um a lot
+33:38 of frameworks automatically protects
+33:40 against issues like CSRF, XSS, and uh
+33:44 XXE, for example. And it's important to
+33:47 rule those out before you actually dive
+33:49 into source code.
+33:51 Yeah. So, you should know that before.
+33:53 So, then you look at the source code
+33:54 Right. Right.
+33:56 Makes
+33:57 Right. That's that's like the ideal
+33:59 situation, I would guess. It's not
+34:01 always possible to understand every
+34:02 single single detail about the security
+34:04 measures of a framework, right? But that
+34:06 would be really really helpful helpful
+34:08 and save you a lot of time.
+34:11 Makes sense.
+34:12 Right. And that's when um dynamic
+34:15 testing actually comes into play, right?
+34:17 After you identify some issues during
+34:20 manual code analysis, it's always
+34:22 recommended that you conduct some actual
+34:25 attacks against the code base to verify
+34:27 that the vulnerability actually exists
+34:29 and is actually exploitable.
+34:34 I have a question as well from our
+34:36 audience and I also want to know as
+34:38 well. Um are there any really cool bugs
+34:41 that you have found while doing source
+34:42 code reviews? Can you talk about such
+34:44 bugs and how you figured them out?
+34:47 Oh, yeah, for sure. So, um
+34:51 as I said like in the previous slide, I
+34:54 really really like to dive into the
+34:56 client-side code of an application
+34:58 before ever touching even before even
+35:01 trying to leak the server-side code,
+35:02 right? So, I often look at the the
+35:05 JavaScript code of um
+35:09 of an application first. And I almost
+35:12 always find some sensitive info leak,
+35:15 some um credentials, or some private
+35:18 URLs in those JavaScript source code.
+35:21 So, I would say like that's the number
+35:24 one thing I look for is sensitive info
+35:26 leaks in client-side code. And that's
+35:29 really really easy to find with just
+35:31 some singles um some simple string
+35:33 search or regex searches.
+35:36 Awesome. Thank you so much. Yeah, sure.
+35:39 That's amazing all the top tips. I don't
+35:41 do JavaScript, but that'll be that'll be
+35:42 tomorrow's job. Learn that, check out
+35:44 the client side, make lots of money in
+35:46 bug bounties. Yeah. [laughter]
+35:48 I I think I think you'd be very
+35:49 surprised at how much developers
+35:52 actually reveal in their client-side
+35:54 code because maybe they think, oh, the
+35:56 user won't be able to read this or the
+35:58 user won't even think of reading this.
+36:00 But a lot of I've also seen a lot of
+36:03 security controls being done on the
+36:05 client side instead of the server side,
+36:07 like the uh the CSRF token being checked
+36:11 in client-side JavaScript code that can
+36:13 just be circumvented um by just changing
+36:16 the client-side logic, right? Or just by
+36:19 disabling that functionality.
+36:21 Mhm.
+36:23 Cool. Awesome. Thank you.
+36:26 Sure. Uh any other questions from the
+36:28 audience or from you guys?
+36:34 There's a lot of questions in here. Just
+36:36 trying to I guess a question um
+36:39 client-side code versus maybe
+36:41 server-side server-side code. Is there a
+36:44 different approach on sort of
+36:46 client-side JavaScript versus
+36:48 server-side code that you would take in
+36:50 in terms of looking for bugs?
+36:53 Right. So, my favorite thing to look for
+36:56 in client-side code, as I said, is
+36:58 sensitive info leaks because um if the
+37:03 application is doing um security right,
+37:05 then they won't actually reveal a lot of
+37:08 the security controls on the client
+37:09 side, right? Um but on the server side,
+37:12 it's another issue. You can look for
+37:13 things like um security controls being
+37:16 done incorrectly or um security security
+37:21 checks being um security checks being
+37:24 done incompletely, stuff like that um
+37:26 that won't don't doesn't always happen
+37:29 in client-side code.
+37:30 Right. You could also it depends but how
+37:33 it's written, but you could also kind of
+37:35 understand a lot more about how the
+37:36 underlying API works by going through
+37:38 the client-side code. So, there are
+37:41 things to find in there, but it is a
+37:42 little bit different.
+37:44 Right. So, it really depends. I think
+37:47 I've seen a lot of the instances where
+37:50 um what should be done on the server
+37:52 side is done on the client side and that
+37:54 allows you a lot more leeway to look for
+37:57 vulnerabilities on the client-side code.
+37:59 Um but for client side, mostly I'll just
+38:01 be looking for um faulty uh security
+38:04 controls and as well as hardcoded
+38:07 credentials and information leaks.
+38:11 Vicky, um what kind of tools would you
+38:13 use for uh
+38:15 like uh
+38:17 uh scanning like uh server client-side
+38:19 code uh specifically if it's like
+38:21 obfuscated or minify?
+38:25 Uh so, I will actually just simply use a
+38:29 deobfuscator first, right? How do you
+38:31 pronounce that? Deobfuscator
+38:32 [clears throat]
+38:33 first. And then, um I I think the way I
+38:37 do client-side audits is actually pretty
+38:39 unconventional. I really don't like
+38:41 using any scanner tools for that. I like
+38:43 to dive in manually using the patterns
+38:46 that I've learned during my experience.
+38:48 Like what kind of regex pattern, what
+38:50 kind of string patterns would indicate a
+38:52 vulnerability, and I just do a grep
+38:54 search through the client-side code.
+38:58 But I do know like a lot of the tools A
+39:00 lot of tools actually does that for you.
+39:02 Like for scanning for hardcoded
+39:04 credentials, for example, truffle hog is
+39:07 a really good tool. And there's also um
+39:09 tools like git leaks that will do the
+39:11 same thing for you.
+39:22 Cool. Anything else?
+39:24 No, I think we can keep going. Okay.
+39:27 Let's let's keep going then.
+39:38 Let's go back to our slides here.
+39:49 Okay, so I think we already covered this
+39:51 a lot um in our conversation. The next
+39:53 thing I'll look for in source code is
+39:55 that I'll search for hard-coded
+39:57 credentials like API keys, encryption
+39:59 keys, access tokens, and database
+40:02 passwords. So, these are considered
+40:04 vulnerabilities even if the source code
+40:06 is on the server side because if the
+40:08 source code is leaked via some other
+40:10 vulnerability, then these keys, these
+40:12 credentials could be stolen by
+40:14 attackers, and that's really really bad.
+40:18 And so, you can search for these um
+40:21 issues by doing the same thing that we
+40:23 just did. You can search for strings
+40:25 like password, key, access token, or or
+40:29 and so on in the source code.
+40:32 [snorts]
+40:32 Um but a lot of the times, these
+40:35 sensitive sensitive pieces of data won't
+40:38 be won't be placed in variables that are
+40:41 named these specific names.
+40:43 So, there's also another way of
+40:46 searching for these um sensitive info
+40:48 leaks and credentials.
+40:50 Is that many API keys also adhere to a
+40:54 very specific format. So, you can detect
+40:57 these sensitive strings by looking for
+40:59 patterns in source code using regex
+41:01 searches instead.
+41:04 And so, for instance, AWS access key IDs
+41:08 uh commonly start with the string AKIA
+41:13 and then followed by 16 alphanumeric
+41:15 characters. So, if you can do a regex
+41:18 search of that string, then you can very
+41:20 reliably identify strings of that format
+41:23 and find um secrets of that specific
+41:26 format. And a lot of API keys, API
+41:29 tokens, passwords, sensitive URLs, they
+41:33 all work this way.
+41:35 Let's look at an example of um a regex
+41:38 search on the code base.
+41:54 Okay, so we're back at our code base
+41:56 here. Let's search for the string format
+41:59 that I just talked about, the AWS AWS
+42:02 access key IDs that start with AKIA.
+42:09 So, we're going to do command-shift-F
+42:11 again.
+42:13 And then do AKIA.
+42:18 0 to 9
+42:19 A to Z
+42:21 and then 16.
+42:23 And what this regex search string is
+42:25 doing is that it's identifying strings
+42:27 that start with AKIA and then followed
+42:31 by 16 characters of any character
+42:35 um
+42:36 within this character um
+42:39 set, 0 to 9 A to Z.
+42:42 And then we're going to turn on regex
+42:43 search here
+42:46 on the bottom left of the screen and
+42:48 then press enter.
+42:51 And you can see that we found a AWS
+42:54 access key ID and um associated access
+42:58 key just by doing a regex search.
+43:08 Cool. That was a question. Can you show
+43:10 an example of how you would find
+43:11 sensitive information? Right. So, a lot
+43:14 of
+43:14 a lot of um sensitive info leaks can be
+43:17 discovered this way. Like, for instance,
+43:19 if you're looking for leaked um customer
+43:22 email addresses, phone numbers, you can
+43:25 also do a similar thing. Like, you can
+43:26 do a regex search of a string and then
+43:29 an at um character in the middle and
+43:32 then another string um as a regex
+43:34 search, and you can identify all the
+43:36 email addresses in the code base.
+43:40 So, here's a question that I think might
+43:41 be a good topic for you your from from
+43:45 your perspective. Do you actually read
+43:47 every single line of code, or do you
+43:49 grep?
+43:51 Uh it depends. So, I'm actually going to
+43:54 talk about this a little bit later as
+43:56 well. I usually So, this section of the
+43:59 talk is all about how to find how to
+44:01 find vulnerabilities quickly.
+44:03 So, we're we're not diving into um the
+44:07 detail functionalities of the
+44:08 application yet, but there is a way of
+44:12 making the actual reading of the source
+44:14 code more effective as well, and I will
+44:17 dive into that later. I'll show you how
+44:19 I actually audit an an entire
+44:21 functionality if I choose to dive into
+44:24 that functionality. Cool. All right,
+44:26 let's go.
+44:27 And usually Hmm? Oh, sorry. Uh do you
+44:31 have like a repository of like regex uh
+44:33 that you use on
+44:35 different types of projects? Like, if
+44:36 it's like a JavaScript project, do you
+44:38 have like regexes that you use for that
+44:40 project? And like, if it's a Java, you
+44:41 use like regexes for that one or Right.
+44:44 Right, for sure. For different
+44:45 languages, there's definitely different
+44:47 patterns to look for. Um but for things
+44:49 like AWS access key IDs, like this sort
+44:52 of stuff, for example, the format is the
+44:54 same, right, across all different types
+44:56 of applications.
+44:58 All right, cool.
+45:03 And so, yeah, let's continue. So, I like
+45:06 to just add as well that um responding
+45:10 to Nikki's question, so when I'm
+45:14 auditing a piece of source code, if the
+45:16 application is very gigantic, I probably
+45:19 just read the important functionalities
+45:21 line by line, like the functionalities
+45:23 that deal with sensitive user data, for
+45:25 instance, or the functionality that
+45:27 deals with authorization or important
+45:30 authentication functions like logging in
+45:32 and accessing um the database, for
+45:34 instance,
+45:36 instead of reading every single line of
+45:38 code and every single file line by line.
+45:44 Yeah, that makes sense. You got to sort
+45:46 of divide and conquer.
+45:47 Mhm. Yeah, for sure. And that's where
+45:49 like tools like SAS scanning tools and
+45:51 SCA tools come in as well. Mhm.
+45:57 All right, I think we're good for now.
+45:58 We can keep going.
+46:00 Oh, someone commented the OWASP code
+46:03 review guide contains a lot of regex
+46:05 patterns.
+46:07 Oh, cool.
+46:08 Yeah, I'd like to like um
+46:12 I I think I'm actually going to
+46:13 reference that um material later on in
+46:16 the talk, that the OWASP code review
+46:18 guide is a great
+46:20 is like a great resource for beginners
+46:23 who want to continue learning how to
+46:25 review code for vulnerabilities.
+46:27 I'll drop it in the chat, too, the link.
+46:29 Awesome. Awesome.
+46:32 [clears throat]
+46:35 Okay, let's go back to the slides here.
+46:51 Okay, so besides the two examples that I
+46:53 just showed, another thing that you
+46:55 should look for during a manual code
+46:58 analysis is
+47:00 uh the use of weak cryptography or
+47:02 hashing algorithms. So, the use of
+47:05 algorithms like MD5 and SHA1 and DES on
+47:09 sensitive user information is a critical
+47:12 vulnerability that can impact the the
+47:14 security of the entire application if
+47:17 not found by the developer. And these
+47:19 vulnerabilities are also they're just
+47:21 kind of hard to find during a dynamic
+47:23 test or during a penetration test. So, I
+47:25 definitely recommend you um looking for
+47:28 those vulnerabilities in this stage. And
+47:30 you can look for these vulnerabilities
+47:32 in the very similar way that we just
+47:34 talked about, right? You can grep the
+47:37 code base for
+47:38 um terms like MD5 or SHA1 or DES and see
+47:42 if any variable names or function names
+47:45 are named after um that algorithm, and
+47:48 that could be a really good indicator
+47:49 that that algorithm is in use at that
+47:52 point.
+47:58 And another thing to look for is to go
+48:01 through the dependency list of your
+48:04 application and search if any of the
+48:06 dependencies are outdated or if they're
+48:09 associated with any CVE.
+48:12 So, uh
+48:14 a lot of a lot of application
+48:16 vulnerabilities are actually introduced
+48:18 by third-party code instead of the
+48:20 custom code that you write yourself. So,
+48:23 it's crucial that you also search these
+48:26 dependencies and see if there any um
+48:29 disclosed CVEs that are associated with
+48:31 it because if an attacker find out that
+48:33 you're using the vulnerable version in
+48:36 your application, then all they have to
+48:37 do is to look up the CVE, and then they
+48:40 can find the vulnerability associated
+48:42 with your application and just attack
+48:44 your application with it. So, this is
+48:46 extremely important to look for as well.
+48:48 And I would argue that, you know, SCA is
+48:52 just as important if not um if not even
+48:55 more important than scanning your custom
+48:56 source code for vulnerabilities because
+48:58 so many vulnerabilities in modern
+49:01 applications are are introduced through
+49:03 third-party code.
+49:06 Yeah, totally. Mhm. So, the package.json
+49:09 file or whatever package management tool
+49:11 you're using in your source code, you
+49:12 should probably look at continuously.
+49:15 Right. Right. So, there are tools that
+49:17 help you do that as well, right? There
+49:18 are tools that um
+49:20 Dependabot. an inventory of your
+49:23 application's third-party components and
+49:25 then regularly scan them.
+49:28 Yeah.
+49:31 And then the next thing, and probably
+49:33 the final thing I look for and I'm doing
+49:35 like a just a quick audit, is that I
+49:37 would take a look at the developer
+49:39 comments in the application.
+49:42 And so as a developer, I think I can
+49:45 admit that I use developer comments for
+49:47 everything, absolutely everything,
+49:49 right? I use it to communicate with my
+49:51 colleagues, I use it to remember the
+49:53 things I still need to do, and I use it
+49:56 to remember the details that I cannot
+49:59 remember, like private IP addresses or
+50:01 credentials and so on. And a lot of the
+50:04 times the developers are just using it
+50:07 as
+50:08 um in like when they're developing the
+50:10 application, right? They're not
+50:11 necessarily um publishing that to the
+50:14 public, but once these once this the
+50:17 source code is leaked through the
+50:18 public, then these developer comments
+50:21 become very, very notorious for
+50:24 sensitive information leaks. Like you'll
+50:27 you'll find anything there. Like even in
+50:30 um
+50:31 even in the client-side code, like
+50:33 JavaScript code that I've audited, I
+50:35 found a lot of developer comments that
+50:37 are there that's leaking sensitive info,
+50:39 even though the developer um probably
+50:42 wanted to delete it before sending it to
+50:44 the client but forgot.
+50:47 [snorts]
+50:49 I think that's worth mentioning as well,
+50:51 because we always talk about security
+50:53 and you know, applications and
+50:54 developers, but we are people. We're not
+50:57 automated machines. So like you said,
+50:59 you can have comments where you're just
+51:00 helping yourself out, trying to be more
+51:02 efficient, but if you forget and it
+51:03 makes it to production, you know, as you
+51:05 said, some some
+51:07 someone could search for revealing
+51:08 comments um and then before you know it,
+51:10 um you know, bad things could happen. So
+51:12 I always find that I find it interesting
+51:14 with security because we talk about all
+51:15 these types of bugs, but fundamentally
+51:17 it's humans behind all of this, and so
+51:19 it's worth touching on.
+51:20 Right. Actually, um I've I've like a
+51:23 funny story about that. I've actually
+51:25 seen JavaScript source code with
+51:26 sensitive information leak that has a
+51:29 line on top, another developer comment
+51:31 that says, "Oh, remember delete before
+51:34 production."
+51:36 [laughter]
+51:38 Well that's good. At least the colleague
+51:40 was slightly on it and then that's
+51:42 that's that's reality.
+51:43 And then and then it just sort of fell
+51:45 through the cracks, I guess. And I I
+51:47 think this is also why this
+51:49 like looking at developer comments,
+51:51 looking at the comments that you wrote
+51:53 yourself is so powerful for the
+51:54 developer because you actually
+51:57 understand what's going on the
+51:58 application and what needs to be there,
+52:00 what doesn't need to be there.
+52:02 Especially like things that you log to
+52:04 the JavaScript console. Sometimes people
+52:06 leave a lot of extra comments in there.
+52:08 So if you fire up the console, you could
+52:10 start to see
+52:11 like Right. "Why is this doing this?
+52:15 Somebody look at that." Or Jira tickets.
+52:17 I've seen Jira ticket references in
+52:18 there, too. Yeah, yeah. Which
+52:21 for the application is just horrible,
+52:23 but for the bug bounty hunter,
+52:25 penetration tester, it's like a goldmine
+52:27 of information. Totally.
+52:32 And so okay, let's move on to the next
+52:36 phase of our review. Let's say that you
+52:38 have more time and you decided to dive
+52:41 deeper into the application's different
+52:44 functionalities and decide to conduct a
+52:47 more um comprehensive manual code review
+52:50 instead of just, you know, grepping
+52:52 through the code base that we just did.
+52:56 And so the first thing that I like to
+52:58 say is that even if you decide to do a
+53:01 more comprehensive audit on the code
+53:03 base, there's no reason to um just go
+53:06 through the every file and every line
+53:08 one by one. That just that would just
+53:11 take too much time and that's often not
+53:13 feasible for a larger application. So I
+53:15 would recommend in this case that you
+53:17 prioritize the functionalities that you
+53:20 look at and you focus on the critical
+53:22 functions first.
+53:24 So [snorts] these could be functions
+53:25 like
+53:27 um authentication functions,
+53:28 authorization functions, any functions
+53:31 that deals with users' private
+53:33 information, and any functions that are
+53:36 critical to um the functioning of the
+53:38 business of that application. For
+53:40 instance, any
+53:42 um functionality that deals with
+53:44 payments, shipping, and
+53:47 um
+53:48 and
+53:49 paywalls potentially if the application
+53:52 has one.
+53:55 And another thing that you should pay
+53:57 attention to when conducting a deeper um
+54:00 source code analysis is that you should
+54:02 follow any code that deals with user
+54:05 input.
+54:07 So first, look at critical functions and
+54:09 then um look at all the locations that
+54:13 take in user input and see if
+54:16 [snorts]
+54:16 see if they can reach dangerous
+54:18 functionality.
+54:20 Um
+54:21 we're looking at all the locations that
+54:23 take in user input because user input
+54:25 locations, like HTTP request parameters,
+54:28 HTTP headers, and file uploads, they
+54:31 often provide the initial entry point
+54:33 for the attacker to exploit the
+54:35 application vulnerabilities. So tracing
+54:37 the data flows from these input
+54:39 locations to um wherever they're going
+54:43 is also a good way to identify common
+54:45 vulnerabilities like stored XSS or SQL
+54:48 injections, shell uploads, or XXEs, for
+54:51 instance.
+54:53 Um so let's go ahead and take a look at
+54:56 a sensitive functionality here.
+54:59 [snorts]
+55:11 So we're back in this window and we'll
+55:13 take a look at the order status.java
+55:17 file. So this functionality deals with a
+55:19 situation when a user asks a server for
+55:22 their order status.
+55:24 The application will take in um a user
+55:28 input parameter called order ID and then
+55:31 the application will query the database
+55:34 for information associated with that
+55:36 order ID and then return that
+55:37 information
+55:39 back to the user.
+55:41 And before we start analyzing this
+55:43 functionality, I'd like to take a quick
+55:45 poll here about what kind of
+55:47 vulnerabilities do you think will be
+55:48 present in this kind of functionality?
+56:02 I've got some words I can say.
+56:04 like passwords? Yeah.
+56:07 [laughter]
+56:07 Yeah. We can start with the usual
+56:09 suspects like, you know, not sanitizing
+56:11 inputs. So maybe
+56:13 we're just taking them straight off
+56:16 the get or however this is happening via
+56:19 a post.
+56:20 Okay.
+56:21 Uh maybe there's encryption issues.
+56:24 Right.
+56:24 Maybe there are
+56:31 So I think it's very important to like
+56:32 consider the context of what you're um
+56:35 what kind of functionality you're
+56:36 auditing in this case, right? Because
+56:38 this is a functionality that deals with
+56:41 that deals with order order information,
+56:44 like the user's order, like credit card
+56:46 numbers and um email addresses and
+56:49 street addresses. So the first thing
+56:51 that you probably want to look for here
+56:53 is sensitive info leaks, right? And you
+56:56 can see here that this is exactly what's
+56:58 happening in this piece of code is that
+57:00 in line 83 here,
+57:02 the application is creating um an order
+57:07 object that contains all the information
+57:09 about the order, including the
+57:10 customer's email address, um credit card
+57:13 number, and um zip code, street address,
+57:16 and so on. And then it's actually
+57:17 writing it into log files. And this is
+57:20 really bad because then anyone who has
+57:23 access to the log files would get access
+57:26 to the user's private information,
+57:27 right? So this is just one example of um
+57:30 how to prioritize your audit um based on
+57:33 the functionality that you're dealing
+57:34 with.
+57:36 And so let's also talk about how you can
+57:39 trace user input to find
+57:41 vulnerabilities.
+57:43 And so we'll start from this line here.
+57:47 This line is um
+57:50 this line is
+57:51 uh a line of code that basically takes
+57:53 in the user input parameter called order
+57:57 ID.
+57:58 And then you can see here that down the
+58:00 line, this order ID parameter is is
+58:03 inserted into um a SQL query.
+58:08 And this is actually an instance of SQL
+58:10 injection because the order ID
+58:12 parameter, which is um coming from the
+58:14 user, is being concatenated into the SQL
+58:18 query without any sanitization or um
+58:21 without any validation or of any sort.
+58:24 So you can also So a lot of
+58:26 vulnerabilities can be found this way
+58:28 by, you know, looking at a piece of user
+58:30 inputted um data and then see if down
+58:34 flow it flows to any um dangerous
+58:36 functionality of any sort.
+58:51 Totally. I'm just
+58:52 [clears throat]
+58:52 scrolling through the chat here to
+58:55 look for some questions.
+59:03 Yeah, for sure. Um we can always go back
+59:05 to answering um questions about the code
+59:07 or about any of the vulnerabilities I
+59:09 talked about, too. I'm trying to find
+59:10 ones that match up to where you are, so
+59:12 that it's a little bit more streamlined.
+59:15 So um
+59:16 Yeah.
+59:17 There's a lot of them. So there's, you
+59:19 know, it's a lot of scrolling.
+59:22 Um
+59:24 Have you had Have [clears throat] any uh
+59:26 I guess looking for things that are
+59:28 obvious vulnerabilities like eval
+59:30 functions and things like that? Um how
+59:32 do you approach that? I guess it doesn't
+59:35 necessarily Well, I guess it does apply
+59:36 to Java, but how how do you approach
+59:38 that? Like do you do you like sort of
+59:40 look for like obvious bad
+59:42 functions like string copy or things
+59:44 like that that everyone sort of knows
+59:46 are problematic?
+59:48 Right, yeah.
+59:52 I think I think in this case it very
+59:54 much depends on the text stack as well,
+59:55 right? For different kinds of technology
+59:58 you want to look for different things.
+1:00:00 Right, PHP has several of like the
+1:00:02 unique PHP vulnerabilities that you
+1:00:04 should look for and except and Java is
+1:00:08 more prone to certain vulnerabilities.
+1:00:09 So I'd say like a lot of the search
+1:00:12 strings and a lot of the stuff that you
+1:00:14 look for are transferable, but you also
+1:00:17 have to tailor your searches and your
+1:00:19 audit to the actual application and the
+1:00:21 technology that it's using.
+1:00:25 Yeah, totally makes sense.
+1:00:30 Okay, so
+1:00:30 Yeah, let's keep going. Yeah?
+1:00:33 Yeah, yeah. Okay, so you might say like
+1:00:36 oh this is super inefficient. I don't
+1:00:38 want to look through every single
+1:00:41 sensitive functionality that I have in
+1:00:43 my application and and you're right
+1:00:46 actually and doing this is very very
+1:00:48 time consuming and could easily take up
+1:00:51 weeks or months of your time just to
+1:00:53 audit a single application. And this is
+1:00:56 where automation comes in, right?
+1:00:59 You can use SAS tools for instance to
+1:01:01 automate the finding of vulnerabilities
+1:01:04 in your custom code and you can use SCA
+1:01:07 tools or software composition analysis
+1:01:09 tools to automate the finding of
+1:01:12 vulnerabilities associated with your
+1:01:14 third party components.
+1:01:16 And then finally you can use also use a
+1:01:18 secret scanner like truffle hog, get
+1:01:21 leaks and so on to automate the finding
+1:01:23 of secrets like the AWS access key ID
+1:01:28 that I talked about previously. And then
+1:01:30 after you get the reports back from
+1:01:33 from these tools, you can always man-
+1:01:36 manually verify the results to weed out
+1:01:38 any false positives that you might have.
+1:01:43 And so yeah, congrats. You made it. So
+1:01:46 that's the my presentation and I think
+1:01:50 you now have a really good foundation to
+1:01:52 work on to learn more about code
+1:01:54 reviews.
+1:01:56 And
+1:01:58 There's a lot [clears throat] of
+1:01:58 questions around cheat sheets. Like I
+1:02:01 know we we brought up the OWASP um
+1:02:03 cheat sheet that they have for regex.
+1:02:05 Are there any other cheat sheets out
+1:02:06 there that you find to be very useful at
+1:02:09 least in just whether it's code
+1:02:11 specific, language specific, framework
+1:02:12 specific?
+1:02:14 Right, I do have a lot of cheat sheets
+1:02:17 that I've used in the past.
+1:02:19 Unfortunately, I just I cannot think of
+1:02:21 any just on the top of my head, but I do
+1:02:24 have a few that I can share if like
+1:02:28 maybe after the talk I can like quickly
+1:02:30 Google, look them up on my notebook or
+1:02:32 something and share with you guys.
+1:02:35 Yeah, and I guess it's one of those
+1:02:36 things you just sort of accumulate over
+1:02:37 time. The more you do this, the more
+1:02:39 you're going to accumulate your own
+1:02:40 version of a cheat sheet.
+1:02:42 So I I mean is that how you see it? Like
+1:02:45 if you're a beginner, there's a bunch of
+1:02:46 questions. I'm a beginner, I've never
+1:02:48 done code reviews before, how do I
+1:02:49 start?
+1:02:51 What would you say to them?
+1:02:53 Right, so I would say probably begin
+1:02:55 with a cheat sheet is a good start, but
+1:02:57 over time as you review more and more
+1:02:59 code, you'll understand more about the
+1:03:01 vulnerable patterns and what are the
+1:03:03 patterns that actually cause a
+1:03:04 particular kind of vulnerability, then
+1:03:06 you can start actually building your own
+1:03:08 cheat sheets. Like you can actually
+1:03:10 start weeding out the things that you
+1:03:11 know don't work anymore in the current
+1:03:14 application space and you can start
+1:03:16 building in new queries that you found
+1:03:18 you've have found success before.
+1:03:23 Vicky, are there any tools like any SAS
+1:03:25 or
+1:03:27 SCA or secret manager scanners uh
+1:03:31 uh that you recommend?
+1:03:33 Mhm. Right, so I think there are a lot
+1:03:36 of in terms of open source options,
+1:03:38 OWASP have a lot of
+1:03:40 scanner tools, SCA tools and DAST tools
+1:03:43 that you know can help you automate this
+1:03:45 entire process. I also don't have the
+1:03:49 links to that, but feel free to just
+1:03:52 Google SAS tool or SCA tool.
+1:03:55 I just wanted to jump in Vicky just to
+1:03:57 say that we've opened up the quiz that
+1:03:59 you've prepared. Do you want to say a
+1:04:01 few words about that so people know what
+1:04:03 to do? I I guess it's pretty it's
+1:04:05 self-explanatory, but
+1:04:07 I shared the link in the chat and it's
+1:04:09 also on the screen. Do you want to say a
+1:04:11 few words about the quiz?
+1:04:13 Yeah, for sure. So the quiz is basically
+1:04:17 testing you about the material this of
+1:04:20 this presentation, right? And the quiz
+1:04:22 is a simple Java file that contains
+1:04:25 multiple um
+1:04:27 multiple really severe vulnerabilities
+1:04:29 and it's just to test you to see whether
+1:04:31 you can find those vulnerabilities based
+1:04:34 on what we talked about so far.
+1:04:36 Okay, so we'll go continue take a few
+1:04:39 minutes to go over Q&A. We have a lot of
+1:04:41 questions and I'll take that time to go
+1:04:43 over the perfect scores and put that
+1:04:46 into a raffle and announce the winners.
+1:04:49 So I'll leave for for a minute and come
+1:04:50 back while you continue the Q&A.
+1:04:53 Sure.
+1:04:54 [clears throat]
+1:04:57 Awesome, I've got a question from the
+1:04:59 audience
+1:05:00 um that I'm also interested in. Um
+1:05:02 and you touched on it a bit about you
+1:05:03 know being efficiency, but um what
+1:05:05 mindset should should I have to stop
+1:05:08 falling in rabbit holes while doing code
+1:05:10 reviews?
+1:05:12 What do you mean by rabbit holes in that
+1:05:14 case?
+1:05:14 So I'm going to say my vibe that's why I
+1:05:16 actually like this question cuz I know a
+1:05:17 rabbit hole really well. Um it's kind of
+1:05:20 like when you just like there's a
+1:05:21 problem or something that you're trying
+1:05:23 to do and then you just fall into the
+1:05:25 rabbit hole and then all of a sudden
+1:05:27 it's 6 hours later and you're like wait,
+1:05:28 what?
+1:05:30 Um so I think it's the question or my
+1:05:32 interpretation of the question is
+1:05:35 how how can you you know
+1:05:37 you know really well prioritize almost
+1:05:39 be a bit strict or like pull yourself
+1:05:41 out of a rabbit hole? Like do you ever
+1:05:43 fall into rabbit holes
+1:05:44 and find it's been 3 days?
+1:05:47 Mhm, definitely. I mean there's like
+1:05:51 isn't there like this joke where there's
+1:05:54 you find 100 bugs in your application
+1:05:56 and then the next day you find 101 bugs
+1:05:59 in your application, right? There's
+1:06:00 sometimes there's there's just no end to
+1:06:03 you know finding vulnerabilities in
+1:06:05 applications because
+1:06:06 there will always be vulnerabilities in
+1:06:08 the application, right? So I think the
+1:06:10 key is really to prioritize. For
+1:06:12 instance, you might at the start of your
+1:06:14 code review
+1:06:15 um start by listing out the list of
+1:06:17 issues that you're going to look for and
+1:06:19 the critical functionalities that you're
+1:06:21 going to look for them in and just focus
+1:06:24 on doing that really well first because
+1:06:26 those are the ones that you know will
+1:06:28 cause major business impact, right?
+1:06:31 Those are the functionalities that are
+1:06:32 particularly vulnerable or those are the
+1:06:34 vulnerabilities that will be really
+1:06:36 really severe if they are found by an
+1:06:39 attacker. So you really need to
+1:06:42 prioritize
+1:06:43 um on those first instead of diving into
+1:06:46 a single functionality and just
+1:06:49 trying to find everything and everything
+1:06:50 there.
+1:06:51 Okay, so it sounds like go in with a
+1:06:53 plan like the cliche.
+1:06:55 Fail to plan, plan to fail.
+1:06:57 [laughter]
+1:07:00 Here's another good question or topic.
+1:07:02 If you were reviewing code in a language
+1:07:04 that you are not immediately comfortable
+1:07:06 in, what would you do or how would you
+1:07:07 sort of get yourself more familiar?
+1:07:09 Somebody throws I don't know like what
+1:07:11 if they gave you a Pearl web app or
+1:07:13 something and you're like whoa, I've
+1:07:15 never seen this. What would you do?
+1:07:17 Maybe you have seen Pearl, I don't know,
+1:07:19 but what would you do to kind of get
+1:07:21 acclimated here?
+1:07:23 Right, I actually run into that
+1:07:25 situation a lot, right? Because I'm not
+1:07:28 familiar with every single programming
+1:07:30 language out there and I frequently need
+1:07:32 to look at applications that are written
+1:07:33 different languages. And so in that
+1:07:36 case, I think the most most important
+1:07:39 and
+1:07:40 the the thing that will pay the most
+1:07:42 dividends in in case of your in terms of
+1:07:44 your time down the line is that you
+1:07:47 should first learn the basics of the
+1:07:50 programming languages. Like you just go
+1:07:52 to the documentation page of that
+1:07:54 programming languages and just learn how
+1:07:56 their variables work, right?
+1:07:57 [clears throat] How their objects work,
+1:07:59 what the syntaxes are. And a lot of the
+1:08:01 times that's all you need to transfer
+1:08:03 your knowledge from another programming
+1:08:05 language to the current one.
+1:08:08 Yeah, and what about mobile apps?
+1:08:10 There's a few questions around mobile
+1:08:12 app code reviews versus web app code
+1:08:14 reviews. Do you have any thoughts around
+1:08:15 the differences or how you perceive
+1:08:17 those?
+1:08:18 Right, so actually mobile apps are
+1:08:21 really interesting in the sense that
+1:08:23 they contain a lot of the same
+1:08:24 vulnerabilities that web apps contain,
+1:08:27 but at the same time mobile apps have
+1:08:31 um
+1:08:32 vulnerabilities that are specific to
+1:08:33 mobile apps, right? So I would say when
+1:08:35 you're auditing a mobile app, you should
+1:08:37 look for web vulnerabilities on top of
+1:08:41 the the vulnerabilities that mobile apps
+1:08:43 are typically prone to. These are things
+1:08:44 like um
+1:08:47 insecure session management for
+1:08:48 instance, hardcoded credentials are are
+1:08:51 huge issue in mobile apps and so on,
+1:08:54 right? So I would say
+1:08:56 um when auditing mobile apps, you should
+1:08:59 prioritize
+1:09:01 the easy wins quote unquote in the
+1:09:03 mobile apps as well like session
+1:09:05 management and
+1:09:07 um hardcoded tokens and so on.
+1:09:10 Yeah.
+1:09:14 What about how do you feel about newer
+1:09:16 SAS tools like CodeQL and Semgrep? Have
+1:09:19 you used those?
+1:09:21 Um I haven't used Semgrep
+1:09:25 in particular, but I
+1:09:29 but I do think that a lot of SAST tool
+1:09:31 they suffer from
+1:09:34 like they suffer from only using grep,
+1:09:36 right? I think it's very important to
+1:09:37 find a SAST tool that
+1:09:41 that incorporates um the idea of sources
+1:09:44 and sinks and data flow and can do that
+1:09:46 efficiently. So, um like the company I
+1:09:50 work for, ShiftLeft for instance, does
+1:09:53 this very well, right? The SAST tool
+1:09:55 doesn't simply go through the code base
+1:09:57 and grep for all the vulnerable strings.
+1:09:59 They instead identify the sources in an
+1:10:02 application and the sensitive sinks um
+1:10:04 in an application that correspond to
+1:10:06 vulnerabilities and then they track the
+1:10:08 data flow between that. And that's very,
+1:10:11 very important when you're looking for a
+1:10:12 SAST tool you don't want something that
+1:10:14 is just a glorified grep machine.
+1:10:18 Right.
+1:10:21 Um all right, here's a
+1:10:23 Sorry, Christina, go ahead. Oh, sorry. I
+1:10:25 was just going to say, do you have any
+1:10:26 like particular resources for developers
+1:10:29 to use so that they could get started on
+1:10:31 uh practicing um
+1:10:33 secure code reviews?
+1:10:36 Yeah, for sure. So,
+1:10:38 um the stuff that I talked about in this
+1:10:40 talk is really just an intro, right?
+1:10:42 Meant to get you started in the field
+1:10:44 and you definitely need to check out
+1:10:46 more resources if you really do want to
+1:10:48 get into um becoming proficient at
+1:10:51 source code review. And one of the best
+1:10:53 resources out there, I would say, is the
+1:10:55 OWASP manual code review guide and um if
+1:10:59 you can just uh see my last slide here,
+1:11:02 the link is actually here. It's a really
+1:11:04 good resource. It's a 200-page document
+1:11:06 about how how to actually find specific
+1:11:09 vulnerabilities in source code and that
+1:11:11 is an excellent resource to get started
+1:11:14 with. And another thing I would say is
+1:11:17 after you read um some tips and some
+1:11:19 tricks on how to get started with code
+1:11:21 review you should start reviewing some
+1:11:24 code yourself. You should find some
+1:11:26 intentionally vulnerable applications on
+1:11:28 the webs on on the internet and actually
+1:11:32 try identifying vulnerabilities in that
+1:11:35 code. And a lot of these applications
+1:11:37 will have answer keys as well, right?
+1:11:39 They'll show you they'll tell you where
+1:11:41 the vulnerabilities actually are. So,
+1:11:43 you can verify your knowledge as well by
+1:11:45 seeing, oh, I identified this
+1:11:47 vulnerability successfully and I
+1:11:49 identified this one.
+1:11:50 [snorts]
+1:11:55 Yeah, we'll drop that into um the
+1:11:57 YouTube chat, so
+1:11:59 Mhm. That'll be perfect. Yeah. Yeah. And
+1:12:02 another question, I mean, it's a little
+1:12:03 bit of a softer question, but someone's
+1:12:05 asking if you ever get frustrated
+1:12:08 um doing code reviews, which I think is
+1:12:10 actually really important question. Mhm.
+1:12:13 Right.
+1:12:13 Cybersecurity is frustrating.
+1:12:15 [laughter]
+1:12:15 Yeah. It can be very It can be very
+1:12:17 frustrating, so
+1:12:20 Right. I I think that's when a lot of
+1:12:21 the automation comes in, right? It's way
+1:12:24 more fun to, you know, try to verify a
+1:12:28 sus like a suspicious spot in code
+1:12:31 instead of just like doing a blanket
+1:12:33 sweep on the entire code base. So, I
+1:12:35 think you should really see these
+1:12:37 automated tools like SAST tools, SCA
+1:12:39 tools as like a metal detector, right?
+1:12:42 That points you to potentially valuable
+1:12:44 things that you can then um that you can
+1:12:47 then examine more closely to see if
+1:12:50 they're actually vulnerable. Yeah, I I
+1:12:52 would not recommend anyone actually
+1:12:55 going through a giant application's code
+1:12:57 base and just read the code line by
+1:12:59 line. Definitely, definitely use SAST
+1:13:01 tools if if you you have one available
+1:13:04 to you.
+1:13:12 You guys see any other Someone's asking
+1:13:14 a question about deep learning models.
+1:13:16 Have you ever used any like machine
+1:13:18 learning models or any sort of data
+1:13:20 science or
+1:13:22 you know
+1:13:23 machine-driven
+1:13:24 vulnerability kind of analysis? Mhm.
+1:13:27 Yeah, so I haven't personally worked on
+1:13:30 that, but I remember having this
+1:13:32 conversation with a colleague about what
+1:13:34 he's he was working on and I think it
+1:13:36 could be like a really exciting new
+1:13:38 field for um code analysis is that um
+1:13:42 you allow um machine learning to
+1:13:45 identify new vulnerable patterns and to
+1:13:48 identify new classes of vulnerability,
+1:13:50 right? But I don't really personally
+1:13:52 have extensive experience with that.
+1:13:56 But you do have extensive experience
+1:13:58 writing a book and that's another
+1:13:59 question we have, which is Let me read
+1:14:01 it directly.
+1:14:03 What tips would you give to somebody who
+1:14:05 wants to start writing a book? Any tips
+1:14:06 or best practices that you used to write
+1:14:08 yours?
+1:14:10 Um so
+1:14:12 writing my book was a very, very
+1:14:14 extensive process and
+1:14:17 I think the best way to go, I would say,
+1:14:21 is to not rush it.
+1:14:23 Right? To slow down and really build out
+1:14:27 um the structure of what you want to
+1:14:29 talk about in the book. Right? For
+1:14:31 instance, for my book, I thought about,
+1:14:33 oh, what are the vulnerabilities that I
+1:14:35 want to include and what are the
+1:14:37 different details that I want to
+1:14:38 that I want to include in every single
+1:14:41 vulnerability. And to really map that
+1:14:44 out in the first place to have a
+1:14:45 structure for your writing. And then
+1:14:47 after having that structure, just slowly
+1:14:50 um write out all your thoughts about
+1:14:53 that topic. And that's um so, I think
+1:14:57 not rushing it is really, really
+1:14:58 important because you can get really
+1:15:00 frustrated when you're trying to um
+1:15:03 take on such a massive undertaking like
+1:15:05 writing a book, right? So,
+1:15:09 it's really important to have a
+1:15:10 structure, pace yourself and do it
+1:15:12 slowly by slowly, I would say.
+1:15:15 Yeah. I think you wrote a blog post
+1:15:16 about that. I think I've seen
+1:15:19 uh you wrote a blog post about your
+1:15:20 approach to writing your book.
+1:15:22 I did write a blog post about um my
+1:15:25 writing process and you're welcome to
+1:15:27 check it out. It's on my Medium blog.
+1:15:29 And yeah, it sort of documents
+1:15:32 what I uh the technique I used to really
+1:15:36 map out what I want to do with the book.
+1:15:42 Excellent. So, I just wanted to jump in
+1:15:44 again because we have our winners, the
+1:15:47 five winners of the book and the
+1:15:48 membership to uh bugcrowd hunter.com.
+1:15:52 I'll put them back on the screen.
+1:15:53 They're Veda, the Juan, Eli, Mac and
+1:15:56 Alan.
+1:15:57 Uh I have your emails cuz you had to
+1:15:59 enter that uh in in the quiz and if it's
+1:16:02 valid, you should get an email from me
+1:16:04 uh soon um to know we give you access to
+1:16:07 the subscription
+1:16:09 uh for bugcrowd
+1:16:11 hunter.com and also a copy of uh Vicky's
+1:16:14 book that is not out yet, right? It's
+1:16:16 coming out in August. So, we'll order it
+1:16:19 for you. Uh I may need to get in contact
+1:16:21 with you to get some some more
+1:16:23 information about that
+1:16:24 with the winners. We also had um
+1:16:27 a raffle going on the
+1:16:30 on our YouTube channel and Calvin is
+1:16:33 Calvin is the winner of that, so
+1:16:36 uh congrats everyone.
+1:16:37 Congrats to the winners. Yeah. Good job.
+1:16:40 Good job. Thank you, Vicky, for the
+1:16:42 quiz. That was fun. Um yeah, I'll let
+1:16:45 you wrap up.
+1:16:46 Awesome. Awesome.
+1:16:49 Yeah, yeah. No, I just wanted to say
+1:16:51 there's some new questions which are
+1:16:53 Vicky rocks, great session, love Vicky.
+1:16:56 So, I just wanted to share those.
+1:16:57 Thank you so much, everyone.
+1:17:00 [laughter]
+1:17:01 I I was about to say the same thing from
+1:17:02 a personal level. Um thank you so much,
+1:17:05 Vicky. It's been awesome. I I what you
+1:17:07 what the way you answered about your
+1:17:09 book totally makes sense because in
+1:17:10 terms of this presentation, amazing
+1:17:12 structure. Like you told us, look at,
+1:17:14 you know, you need certain tools, what
+1:17:16 are the prerequisites, looking at code,
+1:17:18 sim you know, looking at front and back
+1:17:19 end. I didn't know you could regex in
+1:17:21 Sublime, so I'm going to start doing
+1:17:22 that now. So, it's been really, really,
+1:17:24 really helpful. I've I've learned a lot.
+1:17:26 Um and yeah, any other any other words
+1:17:28 from anyone else in the team before we
+1:17:30 wrap up?
+1:17:32 No, this is great. Thank you so much for
+1:17:34 being here, for walking us through this.
+1:17:36 I think everyone learned something
+1:17:38 today, so thank you.
+1:17:40 Yeah, thank you so much for having me
+1:17:42 today and taking the time to sit with me
+1:17:44 to talk about code analysis.
+1:17:49 Vicky, will your slides be available
+1:17:51 anywhere?
+1:17:52 Uh sure. How about I send it over and we
+1:17:56 can publish it in the YouTube?
+1:17:59 Sounds good. Thank you.
+1:18:00 Sounds good. Thank you so much.
+1:18:06 All right.
+1:18:07 Okay, so
+1:18:09 uh
+1:18:09 Vicky, did you want to talk about in 2
+1:18:12 weeks?
+1:18:13 Yeah, in 2 weeks we have Occupied Babel,
+1:18:16 our next show. Um LangSec explained in a
+1:18:19 few slogans, so it's going to be a good
+1:18:21 one um for those who are interested in
+1:18:23 LangSec, so you can sign up on our
+1:18:25 Meetup page, the usual stuff and we'll
+1:18:27 hope to see you there.
+1:18:31 And Christina, do you want to talk about
+1:18:33 this?
+1:18:36 Yes. Uh yeah, so I will be uh doing a
+1:18:39 workshop in July
+1:18:41 um
+1:18:42 uh walking people through getting
+1:18:43 started with uh Hack The Box, uh
+1:18:45 learning about uh the hacking
+1:18:46 methodology methodology,
+1:18:49 um everything from um
+1:18:52 pre-exploitation to post-exploitation
+1:18:54 um
+1:18:55 and yeah, just come on by.
+1:19:00 Perfect. So, uh last note is that there
+1:19:04 will be right here uh developer security
+1:19:06 summit the summit uh on July 24th and uh
+1:19:10 OWASP just opened the call for paper.
+1:19:13 Uh so, it'll be open till July 12th, I
+1:19:15 believe. So, it's um it's the first time
+1:19:17 they had that kind of event. Uh so, if
+1:19:19 you didn't know, OWASP DevSlop DevSlop
+1:19:22 is an OWASP project, so uh please go
+1:19:24 check out owasp.org and the CFP if you
+1:19:28 want to talk security at our next event.
+1:19:31 So,
+1:19:33 I think that's all.
+1:19:34 Thank you everyone and see you in 2
+1:19:36 weeks. Bye. Thank you. Thanks.
+1:19:39 Bye. Bye.
+1:19:48 [music]

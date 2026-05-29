@@ -1,0 +1,255 @@
+Steal Any Website’s Design System Using AI (And Use It in Your Projects)
+
+0:00 Hey everyone. So nowadays, you know,
+0:02 it's so easy to build something with AI,
+0:04 whether it be via Lovable, Vzero, you
+0:07 can there's a bunch of different AI
+0:08 tools coming out and a lot of these
+0:11 generations that people are creating
+0:13 look very AI generated, right? So that
+0:17 you know they they they have like a very
+0:20 standard design system whether it be
+0:22 with the buttons kind of having the same
+0:24 type of border radius or using the same
+0:27 types of colors or or fonts or or
+0:30 spacing between um you know the
+0:32 different sections. But what if what if
+0:35 you could find any type of website out
+0:37 there, whether it be like Airbnb or or
+0:40 Framer or Web Flow, whatever, any
+0:42 website that you like, and kind of
+0:45 capture their design style or their
+0:50 design system, so to say, and then
+0:52 implement that into your own design, all
+0:56 using AI. So, in today's video, we're
+0:58 just we're going to be doing just that,
+0:59 right? We're going to look for a cool
+1:01 website that we like. we like their
+1:03 certain design system whether it be
+1:04 their colors, typography, their effects
+1:06 that they have and kind of convert that
+1:08 into a you know piece of code that we
+1:11 can use in magic path which is my
+1:14 favorite AI designing tool and once we
+1:17 can basically design something with this
+1:19 design system we can bring it into
+1:21 cursor and actually build out our
+1:22 product there and by the way guys I have
+1:24 a discord community it's you know
+1:26 completely free to join we're about like
+1:28 500 people and we're people from all
+1:30 over the world basically builders
+1:32 designers, um, startup founders, side
+1:34 hustlers, and we basically get together
+1:37 every single weekday um, to basically
+1:40 talk about different topics, talk about
+1:42 how we're feeling, talk about our
+1:43 struggles, our successes. So, if you
+1:46 guys are interested in joining that, in
+1:48 joining one of those calls, or just
+1:49 chatting with us, feel free to join that
+1:52 Discord invites down in the description
+1:54 below. Now, we can use something like
+1:56 Door Dash, right? Door Dash has this
+1:58 very, you know, playful little font
+2:00 here. nice colors like this red color
+2:03 for the buttons. You know, it looks
+2:05 pretty specific. It has this nice little
+2:07 reddish shade color, red buttons, um
+2:11 nice images. We also have these
+2:15 different um basic selectors. The footer
+2:17 is also black. So, all in all, it's a
+2:19 you know, pretty nice design. You know,
+2:21 everyone is subjective as to what design
+2:23 is good or bad, but let's just choose
+2:25 this one for an example. And you can
+2:27 basically inspect this, right? and then
+2:29 go to styles and you can what what you
+2:31 can basically do is just copy all of
+2:33 this stuff over here
+2:37 and show all the properties, right? And
+2:40 just copy all of the properties and
+2:43 bring them into something like Claude.
+2:45 And once you're in Claude, you can just
+2:46 paste this in there. And we can go into
+2:49 we can go into tweak CNN and we can ask
+2:52 Claude to basically provide us with the
+2:56 code from Door Dash to be in this
+2:59 format. Right? So let's just copy this
+3:04 and let's paste that. Then we can say
+3:06 provide me with the code from the text
+3:07 that starts with element to be in the
+3:09 format of the text that starts with
+3:11 root. So element and root. Click on
+3:14 submit. And actually we can click on
+3:16 claude opus 4. Just try that out. Then
+3:18 it says, "Looking at the two files we
+3:20 provided, I can see that the first file
+3:21 contain contains CSS custom properties
+3:24 from what happens to be Tor Dash's Prism
+3:26 design system, while the second file
+3:29 shows a more modern CSS custom property
+3:31 setup. So to convert the CSS from the
+3:34 first format to match the sec the
+3:36 structure of the second format, I'll
+3:38 create a comprehensive CSS file that
+3:39 organize all the properties from paste
+3:41 into root and dark structure using paste
+3:44 to text. All right, so you get it. Let's
+3:46 just wait for this to be basically
+3:48 created. And then inside of Magic Path,
+3:50 what what we have here which is very new
+3:52 is this design system. And basically you
+3:55 can create the design systems. You can
+3:57 use existing design systems from other
+3:59 companies like OpenAI, Claude, Airbnb,
+4:01 Twitter ramp. And you can also duplicate
+4:03 these and you know adjust them in your
+4:05 own style or create some from scratch or
+4:07 import them. That's exactly what we're
+4:09 going to do. So, we're just going to
+4:11 paste in the code that Cloud provided us
+4:13 with and we're going to hit on apply.
+4:16 And then you can see automatically we
+4:18 get the same type of color color scheme
+4:22 that that basically Door Dash provided
+4:24 us with. So, we even have like this
+4:26 foreground color as well. As you can
+4:28 see, I can I can for example um hover
+4:30 over different sections like this and we
+4:32 get this nice red like that. You can
+4:35 also see in the date range it looks very
+4:36 nice with this nice hover. And we have
+4:39 different um components that show you
+4:42 know different types of graphs. So once
+4:44 we're happy with this we can click on
+4:46 save and call this one door dash. Click
+4:48 on save design system. And now we can
+4:51 just double click anywhere and we can
+4:54 create something. We can create some
+4:55 type of design like a modern SAS landing
+4:57 page and choose this door dash design
+5:01 system. Click on submit and we basically
+5:03 get a landing page with the same exact
+5:07 design system that Door Dash has.
+5:10 Completely responsive, right? So can
+5:12 look like this. It's all responsive all
+5:13 the way to the mobile view. Looking
+5:15 fantastic. Again, it does need that
+5:17 human touch of yours to kind of go in to
+5:20 details and say, "Hey, I want the footer
+5:21 to be to be black. I want the the hero
+5:24 section to have a red background." But
+5:26 the AI has the Door Dash design system
+5:28 in in the back of its head. So it
+5:31 basically it's going to create all of
+5:32 these different pages with that design
+5:34 system into account. Now we can choose
+5:36 something like webflow.com which has
+5:38 this blue which has a specific type of
+5:40 button with this border radius you know
+5:42 has this color for this text has a bunch
+5:45 of different things that look nice has
+5:47 these dark backgrounds over here. What
+5:49 we can do is we can again click on
+5:51 inspect and go into the styles and
+5:54 basically do the same process right you
+5:55 want to basically copy the entire styles
+5:58 over here and bring them into claude and
+6:00 we can do it in the same chat we can
+6:02 just paste in this this uh you know CSS
+6:05 code and basically say now let's do it
+6:09 with this one right click on enter and
+6:13 now since this is generated we can just
+6:15 copy this go back into magic path and
+6:18 click on design system. Now what we want
+6:20 to do is we want to again import this.
+6:23 Press paste. Click on apply. And we can
+6:25 see already that our design system has
+6:28 been applied. And again you just want to
+6:30 kind of review everything to see if
+6:32 everything looks good. Things might not
+6:34 be perfect. So you want to kind of
+6:35 adjust. For example, I can see that the
+6:38 button radius is kind of round compared
+6:40 to what Web Flow has, which is a little
+6:43 bit more sharp, I think, on the edges.
+6:45 So you can go ahead into effects and you
+6:49 know decrease the border radius to
+6:52 something like this. And then once
+6:54 you're happy you just can click on save.
+6:56 Let's say web flow right click on save
+6:59 design system. And then we can double
+7:00 click here and choose the web flow
+7:04 design system. And what we can do here
+7:06 is just create one of these examples.
+7:08 Right? We can create like a music player
+7:09 or like an expense tracker. Let's just
+7:10 do an expense tracker in the style of
+7:13 web flow. Click on submit. But yeah, we
+7:16 get an expense tracker looking like web
+7:18 flow, right? We see the different
+7:19 buttons with the sharp edges. We can
+7:21 highlight over certain sections like
+7:23 this. And you can see looking like this.
+7:25 And we can even make it mobile. You can
+7:28 all see it's all responsive, right? So
+7:30 this is a great way of kind of taking a
+7:32 style from some type of website and then
+7:35 basically bringing that into into AI and
+7:38 creating different designs based on that
+7:40 main style or system. Right. Design
+7:43 system. Yeah, like I showed you before,
+7:45 a great way to I mean you could
+7:47 eventually keep on doing that and just
+7:49 taking these design systems from
+7:51 existing websites, but Tweak CNN also
+7:54 has a great way of creating this these
+7:56 different design systems. So, um what I
+7:59 can do is I can click on something like
+8:00 Tangerine for example. Uh, and what we
+8:03 can do is we can switch this to light
+8:05 mode and we can get the code. Copy the
+8:09 code. Go back into magic path. Click on
+8:11 design system and let's just import
+8:14 this. Paste it like that. Click on
+8:16 apply. And we get our tangerine system
+8:18 looking exactly like it is inside of
+8:21 Twix CN. Right. So, right over here,
+8:24 looking the the exact same way, right?
+8:25 We have this gray color, white cards,
+8:28 and we can click on save. And then
+8:30 again, you know, go down here, double
+8:32 click, and we can click on the tangerine
+8:35 one that we just added. And we can
+8:38 create create like a I don't know, like
+8:40 a file upload component. That's that's
+8:41 pretty interesting. Click on submit.
+8:43 Right? So, we can upload a file like
+8:45 this. And we basically get these um
+8:48 uploaded files over here. Right? We can
+8:50 clear this. This is not a great example.
+8:51 We can also try for example to create a
+8:54 landing page. So, let's just double
+8:55 click. And this is a much better
+8:57 example. Right? We have our website
+8:59 flows sync transform your workflow with
+9:01 intelligent automation. And we have that
+9:03 background color with this white, you
+9:06 know, card or white foreground type of
+9:08 color and with these orange highlights
+9:11 in the buttons and so on and so forth.
+9:13 So yeah, definitely recommend looking at
+9:16 Tweaken to look at all of these
+9:18 different um you know styles over here.
+9:20 And you can basically edit this to your
+9:22 liking. You can make something like this
+9:24 or you know change the primary color,
+9:26 change the typography and kind of
+9:29 integrate that into magic path. So yeah
+9:31 guys, thank you so much for watching.
+9:32 Hope you all enjoyed the video. If you
+9:34 have any questions, please feel free to
+9:36 feel free to let me know in the comments
+9:38 below. Hope you all have a wonderful
+9:39 day. Thanks so much. Bye-bye.

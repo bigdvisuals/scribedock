@@ -1,0 +1,980 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=_5xDx_lL9fQ
+Channel: Riley Brown
+Video ID: _5xDx_lL9fQ
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 For the past 3 years, OpenAI has
+0:01 dominated, and it's felt like ChatGPT
+0:04 was just going to take over the world.
+0:05 But now it feels like everyone's moving
+0:07 to Claude. Since the beginning of this
+0:09 year, Anthropic has been on a
+0:10 generational run, and over the past 2
+0:12 months, Anthropic has shipped more
+0:14 useful features to Claude than most
+0:17 companies ship in 2 full years. And
+0:19 these aren't just small updates. We're
+0:20 talking about AI agents that can use
+0:22 your computer just like OpenClaude, full
+0:24 voice mode in the terminal, background
+0:27 agents that run while you sleep, a brand
+0:29 new Claude Co-work platform, and two
+0:32 brand new models. And the craziest part
+0:34 is most people have no idea that half of
+0:37 these features exist. So, in this video,
+0:39 I'm going to break down every single new
+0:41 Claude feature, from Claude Code to
+0:43 Claude Desktop, so that you can
+0:44 understand exactly what's available to
+0:46 you right now and how to effectively use
+0:49 it for your work. We're going to cover
+0:50 computer use, co-work, agent teams,
+0:53 remote control, schedule tasks, and a
+0:55 lot more. And we're going to cover all
+0:57 of the features that they've released
+0:58 since the beginning of this year. And if
+1:00 you're a developer or entrepreneur or
+1:02 just someone trying to keep up with AI,
+1:03 this is the one video that you need to
+1:05 watch to understand why Claude might be
+1:07 the most important tool in the world to
+1:10 learn. And if you like videos like
+1:11 these, please subscribe and hit that
+1:13 like button. It helps me out a ton.
+1:15 Let's not waste any more time. Let's
+1:16 dive in. So, before we dive into all of
+1:19 the brand new updates to Claude and
+1:22 Claude Co-work, I want to talk about
+1:24 kind of the the three phases of AI I
+1:27 think we've gone through since ChatGPT
+1:29 came out in late 2022. And I promise,
+1:32 majority of this video we're going to be
+1:33 talking about all the new Claude
+1:34 updates. I'm going to discuss all of it.
+1:36 But I think it's important for people to
+1:38 realize kind of the different phases of
+1:40 LLMs that we've gone through, all the
+1:42 way starting back at the beginning. So,
+1:44 the first era of LLMs started in late
+1:47 2022 when ChatGPT ChatGPT was released.
+1:50 ChatGPT was magic, right? It was this
+1:53 text generator that seemed to know all
+1:55 the answers. Yes, it sometimes
+1:57 hallucinated. Yes, it wasn't always
+2:00 perfect, but it was a magic technology
+2:03 that could give you essays. It could
+2:06 write your emails. It could do all these
+2:07 different things, and it took over the
+2:09 world. And so, this was largely
+2:11 text-to-text, right? You could ask
+2:14 ChatGPT a question, and it could respond
+2:16 with text. It could also uh you could
+2:18 also put images into ChatGPT, and then
+2:20 eventually, you know, late 2023, you
+2:23 could upload files into ChatGPT, and it
+2:25 could not only respond in text, but it
+2:27 could also respond in code. Like, you
+2:28 could ask questions about a specific
+2:30 line of code, or you could say like,
+2:32 "How would I create a
+2:33 you know, function or a code page that
+2:36 does X, Y, or Z?" And it could actually
+2:38 spit out code in raw text. But, what
+2:42 separated 2023 and most of 2024 from the
+2:45 next era, with the Vibe Coding era, is
+2:48 companies started realizing that you can
+2:50 actually render code directly. Like, you
+2:52 could render it in the app that
+2:55 generated it. And the first company that
+2:56 did this was actually Claude. And what
+2:59 they created was something called Claude
+3:01 Artifacts. And so, Claude Artifacts,
+3:03 this is a good This is a good segue. All
+3:06 Claude Artifacts are I'm just going to
+3:07 say, "Please create a React component
+3:11 that explains what Claude Artifacts
+3:16 are." Claude Artifacts, simply, are
+3:19 where an AI model is going to generate
+3:21 code, right? In this early ChatGPT era,
+3:23 it could only just generate a code file.
+3:25 It couldn't actually render the code
+3:27 file. But Claude Artifacts in May of
+3:29 2024, if my memory serves me correctly,
+3:31 so almost 2 years ago, it could generate
+3:34 code, and then it would render the code
+3:37 right here. So, look at this. This is
+3:39 front-end code, and it generated this,
+3:42 and boom, it immediately opened it up.
+3:44 You can interact with it. And this was
+3:45 Claude Artifacts. And when this came
+3:48 out, this is when I dove in right away.
+3:50 I dove in headfirst, and I wanted to
+3:52 learn all about this and how I could
+3:55 create apps with AI in the very early
+3:57 stages. And I very quickly went from
+3:59 Claude Artifacts to a tool like Cursor.
+4:02 So, Cursor had Cursor Composer. Now they
+4:05 just call it Agent, but you could
+4:07 literally go to Cursor, create a new
+4:09 project, and say, "Create a new app,
+4:12 front-end and back-end, use Firebase."
+4:16 If you don't know what that is, don't
+4:17 worry, this will all make sense. And
+4:19 make a full production app that I can
+4:23 use to make money. Right? You could type
+4:26 something in like that, and Cursor would
+4:27 go off, and it would actually attempt to
+4:30 write all of the code, and then you
+4:31 would see all of your code files. Not
+4:33 only was it just a front-end, right?
+4:35 Like it is here with Claude Artifacts,
+4:38 it was a full production app. And so,
+4:40 that's kind of the unlock that Cursor
+4:42 created. But at the end of the day,
+4:44 Cursor was a tool for developers. Cursor
+4:47 was mainly for devs. And from this
+4:50 spawned many companies. Lovable, Replit,
+4:53 Bolt, Vibe Code, Emergent, all of these
+4:56 different companies emerged, and these
+4:59 are companies that tried to make Vibe
+5:01 Coding easier for people who had no
+5:03 coding experience or little coding
+5:05 experience, for marketers who just
+5:07 wanted to create a quick landing page.
+5:09 And up until recently, now on a lot of
+5:11 these platforms, you can create like
+5:13 full production application. And then, I
+5:16 think in the second half of the year, I
+5:18 forget when it came out, a tool called
+5:21 Claude Code was released, and this took
+5:24 over the world by storm. Claude Code was
+5:26 a tool that you can use directly in your
+5:28 terminal. I realized that I could use
+5:30 Claude Code to create any app that I
+5:32 wanted to, and I was making internal
+5:34 tools for our company. I was creating
+5:36 landing pages, marketing material, and
+5:38 even slide decks just of in a few
+5:41 prompts using Claude Code, and it would
+5:43 just store them directly on my computer.
+5:45 And that's why so many people fell in
+5:47 love with Claude Code. And so, towards
+5:49 the end of 2025, people started to
+5:52 realize that you could just use Claude
+5:54 Code to do a ton of other tasks
+5:57 autonomously and semi-autonomously. It
+5:59 could do marketing tasks. It could
+6:01 respond to emails. It could connect to
+6:03 like most of your other tools and just
+6:05 do tasks on your behalf. And then, very
+6:08 early on in 2026, we saw the birth of
+6:12 OpenClaude. And so, OpenClaude was the
+6:15 first AI agent, and the the AI agent
+6:19 harness that powers OpenClaude is called
+6:21 Pi. And it's somewhat similar to Claude
+6:24 Code, except OpenClaude was kind of
+6:26 finagled in such a way that it was meant
+6:30 for general-purpose agents, right? And
+6:33 so, the This is the third era, right? We
+6:36 we had this chat era from 2023 to
+6:39 mid-2024, and then we entered the era of
+6:41 Vibe Coding, and now we're in the era of
+6:43 general agents. We're trying to take all
+6:45 of this technology, which allows you to
+6:47 create any type of app, and we're trying
+6:49 to apply that to general agents. That's
+6:51 what all these companies are doing. Like
+6:53 OpenClaude, Manis, Perplexity Computer.
+6:55 We have Co-work and Claude, and
+6:57 obviously OpenClaude. And this is
+7:00 becoming such an important race that
+7:03 OpenAI has decided to cut all of their
+7:05 side projects today. Like, an hour
+7:07 before I'm making this video, OpenAI has
+7:10 fully scrapped the OpenAI Sora
+7:13 application, and they are focusing on
+7:15 creating one unified OpenAI super app,
+7:19 right? That will combine ChatGPT. So,
+7:22 it's going to be ChatGPT plus CodeX plus
+7:25 Atlas, which is their browser. And
+7:27 they're going to combine all these
+7:29 products in one super app because they
+7:31 need to compete with the Anthropic super
+7:34 app, which is just Claude Desktop.
+7:36 Because Claude Desktop, as we'll talk
+7:38 about in this video, has become a
+7:41 behemoth of an application. It is
+7:44 actually insane how good this tool is
+7:47 becoming. And so, the beginning of the
+7:50 takeoff of Claude, their desktop app,
+7:54 was when they introduced Claude Co-work,
+7:56 which is Claude Code for the rest of
+7:59 your work. They
+8:01 created a platform that was not like
+8:03 chat, right? You can kind of see it,
+8:04 right? They'd created chat. They'd also
+8:07 created Claude Code, and they're kind of
+8:09 going to apply it to Claude Co-work. And
+8:12 so, Claude Co-work is kind of the midway
+8:14 point between Claude Code and chat. And
+8:18 let's dig into this a little bit. So,
+8:20 right? We have chat, right? Where you
+8:22 could chat with Claude, and then you had
+8:25 code where you can basically have this
+8:27 AI agent that could do anything it wants
+8:29 on your computer. And if you run Claude
+8:32 Code, right? When I run Claude Code, I
+8:34 run it like this. I run Claude {dash}
+8:38 And don't worry if you don't understand
+8:40 this. This is not super important. This
+8:41 is just illustrating my point here.
+8:43 Dangerously {dash} skip {dash}
+8:46 permissions. And so, when you run Claude
+8:48 like this, it bypasses all permissions.
+8:51 So, it'll just do things, right? I can
+8:52 say like, "Completely reorganize my
+8:54 desktop folder. I want you to literally
+8:57 reorganize everything, upload it to the
+8:59 cloud, I want you to try and create a
+9:02 video using the VO API." Like, my point
+9:04 is is you can get it to do anything that
+9:06 your like imagination wants you to do.
+9:08 You can just get Claude Code to do
+9:10 things. And this is good for developers,
+9:13 but it's also quite dangerous for normal
+9:15 users, right? Giving an AI model full
+9:18 access to your computer, especially when
+9:20 it can put your data out on the internet
+9:22 and uh send your data to the wrong
+9:24 person, it's quite dangerous. So, they
+9:26 created Co-work. And so, Claude Code
+9:29 controls your computer, right? It works
+9:31 in directories, which are just files on
+9:34 your computer. And the chat just kind of
+9:37 works on the app, right? Chat doesn't
+9:39 really touch your computer. It just
+9:41 works in the app itself. Claude Co-work
+9:44 creates its own little environment,
+9:46 right? It creates a little sandbox on
+9:50 your computer. You can think of it just
+9:51 like an isolated uh little folder on
+9:54 your computer, and it only touches that
+9:56 folder. So, if we were to go to Claude
+9:58 and we go to co-work and we wanted to
+10:00 create a new project, so we could create
+10:03 a new project, we can choose an existing
+10:05 folder and we could say we're going to
+10:07 put this in the Riley Brown folder.
+10:09 We're going to call this marketing.
+10:12 We're going to create a marketing
+10:13 folder. So, we're going to open this up
+10:14 and we're going to create this. And so,
+10:16 this lives within this folder on my
+10:19 computer. It's not actually going to do
+10:22 anything outside of that folder. It's
+10:24 only going to operate within that
+10:26 folder. You can give context to other
+10:29 folders on your computer by like adding
+10:32 a certain file. Like you can add files,
+10:34 but at the end of the day it'll stay
+10:35 isolated, so it's much safer. But Claude
+10:38 co-work makes it really easy to like
+10:41 connect new things. So, I can hit this
+10:42 plus sign, go to connectors and I could
+10:45 hit manage connectors. I could go to
+10:46 Figma for example and we could connect
+10:49 Figma. And now I could say agree and
+10:52 allow access and I could very easily
+10:55 connect Figma to my co-work. And so now
+10:58 it has all of these different tools.
+11:00 Like it can read, it can generate a
+11:02 diagram on Figma, it can read my files
+11:05 on Figma and we have always allow for
+11:08 all of them, right? And you can allow
+11:09 certain tools needs approval. Let's just
+11:12 say always allow and you can literally
+11:15 give it full access to Figma. And so,
+11:18 more of these tools, right? Like Figma,
+11:21 like Gmail, I can connect my Gmail. All
+11:23 right, I just gave it access to my
+11:25 email. If we go to Gmail, you can see
+11:27 that it can get Gmail profile, it can
+11:29 list my drafts, it can basically do
+11:32 anything, right? We can just approve all
+11:35 of it and you can give it full access to
+11:37 your email. You can do this for Canva,
+11:39 you can do this for Excalidraw. Ooh, I
+11:42 didn't even actually know you could do
+11:43 this. And so, there you go. In about 2
+11:45 minutes I connected basically everything
+11:48 that I've can connect to that is useful
+11:51 for my business. I can go back to
+11:53 co-work and I can say, "Please look at
+11:56 my Riley content database, see the
+12:00 videos I'm working on and my voice and I
+12:05 want you to write a and are we working
+12:09 on a Yeah, I can work in the marketing
+12:11 folder and I say, "I want you to write
+12:12 an intro for a video that explains
+12:17 Claude co-work and how it's different
+12:21 than Claude code and we're going to do a
+12:27 demo of each." And so, Claude co-work
+12:29 has a little bit more than chat, right?
+12:31 The chat interface is just the chat.
+12:33 Here it shows the different progress.
+12:35 Here it shows what folder we're working
+12:37 in. It shows what context, right? It's
+12:39 going to track the tools and references
+12:41 and files used in this specific task and
+12:44 then it's going to put the task here on
+12:46 the left side. And so, this was Claude
+12:48 co-work and you can see here it really
+12:49 quickly went through, found the folder
+12:52 where I make all of my video scripts and
+12:54 now it's trying to understand my voice.
+12:57 Now it's going to grab a couple more
+12:58 scripts to nail my voice and also see
+13:01 what's currently in progress and then it
+13:03 will do the task. And then here we can
+13:06 see that Claude co-work responded and we
+13:10 have an intro that sounds exactly like
+13:12 me. Claude just dropped something that
+13:13 changes everything. Most people know
+13:15 about Claude code. It's the most
+13:17 powerful coding agent in the world. I've
+13:18 made dozens of videos about it and I use
+13:21 it every single day. But now there's
+13:23 Claude co-work and most people have no
+13:25 idea what it is, how it's different from
+13:27 Claude code or why it even exists. This
+13:29 is exactly how I would do my intros. I
+13:31 could say, "Create a PDF of this,
+13:34 please." And here, look, it's using a
+13:37 skill. And so, we're going to get into
+13:39 skills in just a second. I'll explain
+13:41 what skills are. Skills are basically a
+13:44 markdown file that explains how to do a
+13:47 certain task. And so now a lot of people
+13:50 are saying that most software is going
+13:51 to be replaced by skills because
+13:53 anything that you might want to do on
+13:55 some external software can actually just
+13:57 be done by an agent with a special set
+14:00 of instructions, which are called
+14:02 skills, directly in a tool like co-work.
+14:04 And so, instead of going to a PDF
+14:06 creator, we're just telling an AI model
+14:09 to create a PDF. And here we can
+14:11 actually see that it's like, "Here's
+14:13 your PDF." We can hit preview and here
+14:16 we can open this up. And if we go to
+14:17 finder and we go to that marketing
+14:20 folder that we created, let's go inside
+14:21 the marketing folder, we have the PDF
+14:24 inside of it. So, we have this folder
+14:27 that we're working out of, which is this
+14:28 marketing folder and it created this
+14:31 PDF. All right, so that is Claude
+14:33 co-work. And so, what I want to show you
+14:35 real quick is I want to just show you
+14:37 all of the announcements by Claude and
+14:40 all of the new features that they've
+14:42 released in the past few months. So,
+14:44 I've divided them into these two
+14:45 folders. So, we're going to kind of go
+14:46 through these rapid fire. So, obviously
+14:48 they announced co-work. I showed that to
+14:50 you earlier and so then they released
+14:53 that the Slack MCP is available on all
+14:55 plans. Here they show the example of
+14:58 someone who said, "I was at a conference
+15:00 for 3 days." Or they were out out of
+15:02 office. "Please summarize everything
+15:03 that happened in Slack while I was gone
+15:05 and draft a message to send to the
+15:07 general chat." And so, here it's
+15:09 drafting up a message and you can see
+15:11 here in co-work it drafts up a message
+15:14 and then it gives them this like UI
+15:16 right here. It's and it allows them to
+15:19 view that message and you can say
+15:21 everything looks good and you can hit
+15:23 send. They also made it much easier to
+15:25 connect Gmail to Claude co-work. They
+15:28 also upgraded the Claude Opus 4.6 model
+15:32 and they made it much better and it can
+15:35 sustain agentic tasks for much longer.
+15:38 So, these models are thinking for longer
+15:40 and longer whether you're using it for
+15:42 co-work or you're using it for Claude
+15:44 code. And then Claude released a new
+15:46 version of Opus and this version is 2.5
+15:50 times faster, but it's four times more
+15:53 expensive. And so, usually these are
+15:55 really well-funded teams and now they're
+15:57 using a model or a version of Claude
+16:00 Opus 4.6 that's 2.5 times faster, but
+16:04 it's four times as much. And I can't
+16:06 begin to describe to you how expensive
+16:08 this is. I've talked to developers at
+16:10 companies who spend they spend over a
+16:13 thousand dollars a day on tokens and
+16:15 that's them coding by themselves and
+16:18 their employers think it's more than
+16:20 worth it because they're getting so much
+16:21 more done. Later they announced that
+16:23 Claude is on PowerPoint. So, it you can
+16:26 actually directly integrate Claude into
+16:29 PowerPoint and it can generate full-on
+16:31 PowerPoint slides, which is a really
+16:34 cool use case for enterprises mostly.
+16:37 They also released Claude co-work on
+16:39 Windows. This was on February 10th. And
+16:41 then they announced that the Claude code
+16:44 feature on the desktop app got
+16:46 dangerously skip permission. So,
+16:48 remember when I ran it in the terminal
+16:49 with dangerously skip permissions, you
+16:52 can enable it by clicking on ask and
+16:54 then you turn it on this like act mode
+16:56 and you can go enable for this session
+16:58 and you will see this like yellow bar at
+17:01 the top. It's kind of ugly and it says
+17:03 high risk Claude code can take actions
+17:05 without asking. And remember, it goes in
+17:07 order, right? Safest to middle safe,
+17:10 Claude code is the least safe because
+17:12 Claude code has the most freedom
+17:14 especially when you use it with this
+17:15 dangerously skip permission. It can just
+17:17 go off and edit any file on your
+17:20 computer and oftentimes I'll have it
+17:21 just fully install programs and I'll
+17:24 say, "Search find an app that we can use
+17:26 for this and just install it to my
+17:28 computer." And it will happily do it.
+17:30 And so, that's what's fun about Claude
+17:31 code is it has full control and they're
+17:34 making it a lot easier to enable this
+17:36 mode on the desktop app. Then Claude
+17:39 went through a series of announcements
+17:41 saying that they're going to basically
+17:43 allow for free plan users to get access
+17:46 to more of their fun features. So, I
+17:48 believe that their free plan is pretty
+17:50 decent. I'm pretty sure you get more on
+17:52 ChatGPT especially because they're
+17:54 running ads now and Anthropic is just
+17:56 blitzing the the like the productivity
+17:59 use cases and it's working and they're
+18:02 making a really generous free plan. Then
+18:04 they announced a little feature in
+18:07 Claude code or this is Claude co-work,
+18:09 you could create instructions. So,
+18:11 folder instructions. So, remember when
+18:13 we created that folder in co-work, you
+18:15 can actually create a file within that
+18:17 which gives specific instructions for
+18:20 that specific folder and Claude will
+18:23 make sure to follow it like a little
+18:24 instructions manual. Then they announced
+18:26 that Claude code on the desktop app has
+18:29 access to plugins. But there's a ton of
+18:31 plugins that people have created that
+18:34 Anthropic has created and plugins you
+18:36 can think of as a set of instructions
+18:38 files that gives Claude access to
+18:41 certain things. So, if I use Claude
+18:43 code, I can give it access to our
+18:45 internal database for our company as
+18:47 well as our maybe another internal app
+18:50 or Slack and those set of files or
+18:53 instructions can be a plugin that allow
+18:56 my team members to use as well. So, if I
+18:58 have an agent setup that's really good,
+19:01 I can immediately share that setup with
+19:03 my team so that their agent can do
+19:05 something similar. And then on February
+19:07 17th Claude Sonnet 4.6, our most capable
+19:10 Sonnet model yet, was released and this
+19:13 is just a faster and cheaper AI model.
+19:15 It's different than Opus 4.6. Opus 4.6
+19:18 is still more expensive and it I think
+19:20 it is better at most tasks, but Sonnet
+19:22 4.6 is a lot more affordable and it's
+19:25 very good. And it also has a 1 million
+19:28 token context window. That's in beta and
+19:31 I think we're going to talk about that
+19:32 more in just a second. And then yeah,
+19:34 Figma released their MCP and you can
+19:36 actually connect Claude much easier to
+19:40 Figma. And so, a lot of designers use
+19:42 Figma, right? They create these design
+19:44 boards and then they need to convert
+19:45 them into code. The Figma MCP server and
+19:48 you could literally just go to Claude
+19:50 code and just be like set up uh the
+19:51 Figma MCP or like we did earlier, you
+19:54 could go to co-work. I like to use it
+19:56 with Claude Code because again, it has
+19:58 access to all your files and if you're
+20:00 coding, you're usually going to be using
+20:02 a directory on your computer and that's
+20:04 where like your code files are located.
+20:06 So, you could just say, "Please update
+20:07 this app to look like this Figma board."
+20:10 So, a month ago today exactly, Claude
+20:13 co-work released some more updates
+20:15 specifically regarding co-work plugins.
+20:18 The main one being the ability to of of
+20:22 admins. So, if you're an admin at a
+20:24 company or a manager, you can create
+20:26 plugins, which are basically sets of
+20:28 skills, right? Agents, connectors,
+20:30 skills, and commands. You can actually
+20:32 create these plugins and then share them
+20:35 with other members of your team. So, if
+20:37 you come up with a really good workflow
+20:38 or a really good agent, you can
+20:40 basically duplicate that agent pretty
+20:41 easily and give access to someone else
+20:44 on your team. And then they've also
+20:46 added a ton of other companies and
+20:48 plugins from other companies. every
+20:50 single company on Earth is slowly going
+20:53 to throw plugins on Claude because this
+20:55 is just how people are going to find
+20:57 software soon. Like, people are just
+20:59 going to want to use software through
+21:01 Claude or other agent platforms. Next
+21:04 up, Claude co-work released scheduled
+21:06 tasks. So, on co-work, you can schedule
+21:08 tasks. I can kind of show you this. I
+21:10 believe that if you're in co-work, I
+21:13 think you can go {slash} schedule. Yes.
+21:16 Create a task every morning to summarize
+21:22 my email for important tasks and draft
+21:27 the important ones to sponsorship
+21:31 opportunity.
+21:32 Yep, and here it goes. I'll set up daily
+21:34 morning email summary for you. First,
+21:36 let me check what tools and contexts are
+21:38 available to make this work well. So,
+21:41 you can schedule things really easily in
+21:42 Claude co-work, which is pretty cool.
+21:44 And then Claude announced Claude for
+21:46 Excel and Claude for PowerPoint and they
+21:48 sync together seamlessly, so you can
+21:50 edit sheets, you can edit PowerPoints,
+21:53 and can you update the model and build
+21:56 my deck for tomorrow's meeting with my
+21:57 PM? So, it's a lot easier to use
+21:59 multiple extensions at the same time,
+22:02 which is very cool. This one is actually
+22:05 one of my favorites and one that's
+22:07 really easy to just implement in your
+22:09 daily workflow and it just kind of
+22:10 happens for you if you ever ask for a
+22:22 So, here you can just ask for [music] a
+22:23 diagram.
+22:27 So, not only are is it generating
+22:29 charts, but these charts are actually
+22:31 clickable. And it's really fast. I
+22:34 actually don't really know the
+22:35 technology behind it.
+22:52 But look, it has just like really good
+22:54 visual reasoning and it's starting to
+22:57 remind me a little bit of Excalidraw and
+22:59 it's just able to like really diagram
+23:02 really interesting things.
+23:08 Here, um before I design anything, I
+23:10 want to understand the light. Can you
+23:11 build a tool that shows the shadows move
+23:13 across the lot throughout the day?
+23:16 This one's cool if I remember correctly.
+23:17 [music] Yeah.
+23:20 I mean, that's just really cool. It's
+23:21 like a little mini app that you can like
+23:23 create diagrams and stuff with.
+23:26 And then on top of that, after they
+23:28 released the visual elements in Claude
+23:31 desktop app and their web app, they
+23:34 released that all the models are by
+23:35 default 1 million context window. So,
+23:38 this means that you can pack way more
+23:41 into Claude Code. You can give it access
+23:43 to just massive repos. Like, you can
+23:46 give full coding projects to Claude
+23:48 Code. You can give it access to like
+23:50 years of your notes and these models
+23:53 context windows are just getting bigger
+23:54 and bigger. And the accuracy with more
+23:57 and more context is just getting
+23:59 significantly better across many
+24:01 domains, which I think is really
+24:02 important for a lot of things like law
+24:04 because law you have to analyze so many
+24:06 different documents and it's it's really
+24:09 intense. And then this is the one that
+24:11 where it starts to get really fun. So,
+24:13 Claude, they are shipping a new feature
+24:15 in Claude co-work as a research preview
+24:17 and it's called dispatch. It's one
+24:19 persistent conversation with Claude that
+24:21 runs on your computer and you can
+24:23 message it from your phone and come back
+24:25 to finish work. This is a huge trend in
+24:29 AI right now. It turns out that this
+24:31 whole general agent movement that has
+24:33 been started with open claw and many
+24:35 people are running open claw on a Mac
+24:37 mini and they're messaging it from
+24:39 Telegram. There seems to be a deep
+24:41 desire for being able to just use your
+24:44 phone to message your computer to get it
+24:46 to do interesting things and this is
+24:49 just basically their version of it. So,
+24:51 OpenAI decided to basically acquire the
+24:55 guy who created open claw and then
+24:57 Claude Code just said, "Hold my beer.
+24:59 We're going to replicate all of its
+25:00 features." So, now there's this there's
+25:02 this battle between open claw and Claude
+25:04 Code or Anthropic on who can create this
+25:07 like better general agent and it seems
+25:10 like being able to message a computer
+25:13 that does things is like a really
+25:15 important feature to people and so
+25:16 that's their version is is dispatch. You
+25:19 can message it. But that wasn't enough.
+25:22 Being able to message it from your
+25:23 Claude app wasn't enough and then they
+25:25 released channels. So, we just released
+25:28 Claude Code channels, which allows you
+25:30 to control your Claude Code session
+25:32 through select MCPs starting with
+25:34 Telegram and Discord. This means you can
+25:36 message your Claude Code session with
+25:39 Telegram. And so, again, this is the
+25:41 theme of people wanting to have the
+25:43 power of a computer while being on their
+25:46 phone and messaging that computer. I'm
+25:48 not quite sure why this is so important
+25:51 to people, but it is. And so, this is a
+25:53 trend that I expect to continue to go
+25:55 on. And then on March 20th, they created
+25:57 the ability to work in a project. We did
+25:59 that earlier with the Claude co-work
+26:01 demo. It's where you basically start
+26:03 from a specific folder and all of your
+26:06 files get created within that project.
+26:08 So, you can create many different Claude
+26:10 co-work sessions that all work out of
+26:12 the same project and they'll kind of
+26:14 share context over time. The the context
+26:17 will build up. You'll create a bunch of
+26:19 files and and artifacts that live within
+26:22 that project. And then yesterday, today
+26:24 we're releasing a feature that allows
+26:26 Claude to control your computer mouse
+26:28 and keyboard and screen, giving it the
+26:30 ability to use any app. Now, this is
+26:34 insane. This is end game for AI agents.
+26:37 Claude Code allows you to like control
+26:40 commands on your computer. It can edit
+26:42 files directly. It's kind of working in
+26:44 the background. The next iteration of
+26:46 this or like the next level of
+26:48 automation for these computer use agents
+26:51 is the ability to just directly use your
+26:53 computer, move your mouse around, type,
+26:56 and you're seeing this a lot like with
+26:57 Comet from Perplexity. ChatGPT has an
+27:00 agent mode where it can spin up these
+27:02 little browsers and control these little
+27:04 browsers. And now Claude, who's been
+27:06 working on kind of the computer use
+27:09 models for a while since like Claude
+27:11 3.5, you could use these computer use
+27:14 agents. It turns out they're getting
+27:15 better. They're still not perfect, but I
+27:18 think by the end of the year, AI might
+27:20 be better and faster at using the
+27:23 computer than the average human, which
+27:24 is scary. And if an agent can use a
+27:27 computer, that means it can basically do
+27:29 anything and it will literally be a
+27:30 co-worker. And this is why a lot of
+27:33 companies who are like going through
+27:35 layoffs are having the people record
+27:38 their workflows on their screen. Like,
+27:41 they're saying like, "Hey, can you show
+27:42 me this workflow process and do a screen
+27:44 recording?" because they're going to use
+27:45 that information to kind of train these
+27:48 computer use agents in doing their job
+27:51 and then they're going to let them go.
+27:52 And it's becoming a lot It's becoming
+27:54 quite controversial, but it's happening.
+27:57 Okay, so we talked about all of the
+27:59 latest announcements on Claude co-work,
+28:01 right? We have just kind of the if we
+28:03 think about it for a second, the overall
+28:04 trend is like more connections, more
+28:07 ways to talk with the Claude desktop
+28:09 app, more channels that you could talk
+28:12 to it. Like, you can use different apps,
+28:13 much easier to connect with all of your
+28:15 existing tools. The existing tools that
+28:17 you use can kind of work in parallel,
+28:20 right? You can create a PowerPoint and a
+28:23 spreadsheet. And like as you update the
+28:25 spreadsheet, you can have it update the
+28:27 PowerPoint and everything is just
+28:29 becoming more interconnected, right? It
+28:32 is becoming a little bit more like a
+28:33 co-worker every single day. So, that's
+28:36 kind of the overall trend for like the
+28:38 desktop app. Here, we we still need to
+28:40 go through the announcements for Claude
+28:42 Code. Some of these might be a little
+28:43 bit more technical than the desktop app
+28:46 ones, but I I think there's something
+28:48 here that you could learn. So, let's go
+28:49 through these really quick. So, here we
+28:52 see Claude Code now supports session
+28:54 sharing. This is really interesting
+28:56 because one thing that we actually do
+28:58 when we're hiring people, so for hiring
+29:00 a developer, we will give them a task or
+29:04 like we'll do a work trial. And if at
+29:06 the end of the work trial, we'll see
+29:08 like what they ended up with, but we'll
+29:10 also see their session history or the
+29:13 conversation history with Claude Code as
+29:15 they build whatever it is that they're
+29:17 building. And you can actually learn a
+29:18 lot about someone by seeing the way that
+29:20 they interact with like a super smart AI
+29:23 that can build stuff. You really learn a
+29:25 lot about their problem-solving. I think
+29:27 this is going to be a very big thing
+29:29 with Claude co-work, right? As we're
+29:32 starting to use these really powerful
+29:34 general agents,
+29:36 I think employers are going to start
+29:37 asking for your history to see how you
+29:40 talk to the agents and I think it says a
+29:42 lot about your problem-solving. And so,
+29:45 yeah, you can very easily just share You
+29:48 can actually just make them public. You
+29:50 can make your conversation history with
+29:52 Claude Code public, and then you can
+29:53 share them with people. You can share
+29:55 the link, and this is really, really
+29:57 cool. A similar feature that they
+29:59 released is {slash} insights. And so, if
+30:02 you type in {slash} insights, it will
+30:04 actually generate kind of like this
+30:06 really long summary of all the projects
+30:08 you've worked on. It'll show you exactly
+30:09 how many lines that you've submitted.
+30:12 It'll show you your habits and what
+30:15 tools that you commonly use. And so,
+30:17 this is Claude Insights. So, I think
+30:18 this one's pretty cool. This one was
+30:20 actually insane. So, Claude Code now
+30:22 supports agent teams, and so it's in
+30:24 reach research preview. So, instead of a
+30:27 single agent working through a task
+30:29 sequentially, basically a lead agent
+30:31 will delegate to multiple teammates that
+30:34 will work in parallel to research,
+30:35 debug, and build while coordinating with
+30:38 each other. Again, this is another trend
+30:40 is like multi-agents. Right now, Claude
+30:43 Co-work is very like singular threaded,
+30:46 and I think the next iteration of these
+30:48 general agents, after the the kind of
+30:50 the single tasks get better, will be a
+30:52 team of agents for general tasks. We're
+30:55 already seeing many really good
+30:57 developers are creating these like
+30:59 multi-agent frameworks, and they're
+31:00 operating five to 10 AI agents at the
+31:03 same time to build their applications.
+31:07 And so, I think this is going to become
+31:09 a massive trend. The smartest people at
+31:11 companies who are really good at AI are
+31:12 just going to be using many agents at
+31:14 once. Claude Code also released rewind.
+31:16 So, you can actually just type {slash}
+31:18 rewind, and you can rewind a
+31:19 conversation by hitting {slash} rewind
+31:22 or hitting escape twice. Claude can
+31:23 summarize the part of the conversation
+31:25 that was rewound. So, you can use this
+31:27 to explore different paths and take the
+31:29 learnings back in time, which is very,
+31:32 very interesting. Okay, this one went
+31:35 insanely viral. So, there are many
+31:37 startups here in San Francisco that do
+31:39 security. So, like as you commit your
+31:42 code to GitHub, there's like an
+31:43 automatic security review, and like Code
+31:46 Rabbit, and there's a bunch of other
+31:48 ones as well. Well, Claude Code built it
+31:50 directly into their app, and so now it
+31:52 has security built in. So, when you're
+31:54 using Claude Code, you can go up there
+31:56 and press security scan, start a scan,
+31:59 and it will actually scan your code base
+32:03 for vulnerabilities. And this is
+32:05 actually good for vibe coding. If you
+32:07 create an app and you want to make sure
+32:08 that like there's no security issues,
+32:10 you can just run one of these security
+32:12 scans. This might not be perfect now. I
+32:14 think a year from now this will just be
+32:16 perfect. Like this will be more
+32:17 effective than having like a team of
+32:19 humans analyze for vulnerabilities. Like
+32:22 I just If you just look at the general
+32:24 trend, there's no way that this won't
+32:26 just be perfect, especially for like not
+32:29 super complex code bases, but for
+32:31 medium-size code base or any app that I
+32:33 might want to create, you know, for my
+32:35 followers. Like I genuinely believe
+32:37 you're just be able to press one button.
+32:39 It'll scan it for security, and that'll
+32:41 be that. And then uh this was in late
+32:44 February, but they announced that Claude
+32:47 Code in the terminal, you could connect
+32:49 it via a remote control. So, here's
+32:51 Claude Code If you type in {slash}
+32:53 remote control, it gives you this link,
+32:56 and now you can actually control this
+32:59 session of Claude Code in your terminal
+33:01 with your phone, which is pretty cool.
+33:03 Okay, so this was a really important
+33:05 one. So, they rolled out auto memory.
+33:07 And so, Claude now remembers what it
+33:09 learns across sessions, so your project
+33:11 context, debugging platform patterns,
+33:13 preferred approaches, etc. So, one of
+33:15 the big reasons that Open Claude became
+33:17 so popular is it has like good memory
+33:20 built into it. So, like you can message
+33:21 it, you can start new sessions, and and
+33:24 it'll actually remember something from 7
+33:26 days ago, and as you use it, it gets
+33:28 better. Or at least in theory, as you
+33:31 use it, it gets better. Well, Claude's
+33:33 kind of rolling out some similar
+33:34 features with an auto memory feature, so
+33:36 that as you use Claude Code, so Claude
+33:38 Code now remembers what it learns across
+33:41 many sessions. And so, now these coding
+33:44 agents that are becoming general agents
+33:46 are getting better memory, which is
+33:48 something that I think many people want,
+33:51 especially for general tasks. This one's
+33:53 pretty fun. You can actually use voice
+33:55 mode directly in the terminal version of
+33:57 Claude Code. So, if you see here, you
+33:59 can go {slash} voice, and now you can
+34:01 hold space to speak, and then you can
+34:03 speak and say refactor the
+34:04 authentication middleware, and it will
+34:06 send that in. So, you can use your voice
+34:09 here directly from the terminal. You can
+34:11 create scheduled tasks. And so, you can
+34:14 schedule a daily code review. So, every
+34:17 day on a schedule, you can get it to
+34:20 review your code. And this is a fun
+34:22 final one. This is the last feature
+34:24 announcement that we'll talk about. You
+34:25 can in Claude Code, you can type {slash}
+34:28 btw. And what this will allow you to do
+34:30 is let's say your agent is working for a
+34:32 really long time. Often times, tasks can
+34:34 take up to 20 minutes if it's doing
+34:36 something really long. Well, now if you
+34:38 want to chat with the agent while it's
+34:40 working, you can just type in {slash}
+34:41 btw, and you can just ask it a little
+34:43 question. Like what does this retry
+34:45 logic do? And then it'll just respond to
+34:47 you kind of on the side. Like it's like,
+34:49 "By the way." And then you can ask it
+34:51 another question, and it's kind of off
+34:52 to the side. The fun way to interact
+34:54 with Claude while it's working for a
+34:56 really long time, and it doesn't affect
+34:58 the main conversation. And so, that's
+35:01 it. In summary, this is what we talked
+35:03 about. By the way, I took the the
+35:05 subtitles or the SRT file from the video
+35:08 that I'm recording now, which is like
+35:09 the subtitle file. I didn't even know
+35:11 Claude Code or Claude desktop app could
+35:13 take it, and I said, "Please create a
+35:15 diagram based on what we've talked about
+35:16 so far." Like this is just the straight
+35:18 subtitles file. It tried to use Figma,
+35:21 and I was like, "No, no, no, no. Use the
+35:22 built-in one." Right? Because of these
+35:24 visual diagram updates, I wanted to test
+35:27 this one. Said, "Use your built-in
+35:29 diagram view." And it created this.
+35:31 Right? You can Oh, you can click on it.
+35:33 Wow, that's pretty crazy. You can click
+35:35 on it, and it will immediately do a
+35:37 follow-up question. That's pretty cool.
+35:39 I didn't know that. But yeah, this is
+35:41 kind of an overview of what we've talked
+35:43 about. A lot of Co-work updates, a lot
+35:45 of Claude Code updates, some integration
+35:47 updates. All of it is kind of becoming
+35:50 one general agent tool, and Claude
+35:53 didn't do what OpenAI did, right? OpenAI
+35:55 has CodeX, right? This is their coding
+35:58 tool that they've created. They also
+36:00 created ChatGPT. They also created Sora.
+36:04 They also created Atlas, which is their
+36:06 browser. Claude or Anthropic decided not
+36:09 to do that. They created one super tool,
+36:11 and many people are switching to Claude.
+36:14 It is the most popular piece of software
+36:16 in the world right now. We thought Open
+36:19 Claude took over the world, fastest
+36:21 growing open-source project ever
+36:23 created, but Claude decided not to
+36:25 acquire them. They decided to stay
+36:27 focused, and it's working right now. I
+36:29 hope this video was useful. We talked
+36:32 about a lot. Claude is very important
+36:35 tool to learn, but there's going to be
+36:37 many more tools in the future. I'm going
+36:39 to be making a lot more videos on
+36:40 Claude. I still like to use Open Claude
+36:43 because it's more autonomous. One thing
+36:46 that I didn't really talk about is the
+36:47 fact that Open Claude runs on one
+36:49 specific computer, and you generally
+36:51 don't turn it off. You can also run it
+36:53 in a virtual computer all the time, and
+36:55 that's where I create my agent team. I
+36:57 want my AI agents to be more proactive
+37:00 and feel like a person and have a
+37:02 different personality. So, I'm going to
+37:04 continue to talk about Open Claude in
+37:05 the future, and I'm going to talk about
+37:07 my Open Claude team a lot coming up. So,
+37:09 I'm really excited for that. So, make
+37:11 sure to follow along if that interests
+37:12 you, and I'll see you here for the next
+37:13 video. Peace.

@@ -1,0 +1,1504 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=i43kYARbSGM
+Channel: Greg Isenberg
+Video ID: i43kYARbSGM
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 I sat down with Guillermo, the founder
+0:02 of Vercel, which is a $9 billion
+0:04 company. In this conversation, he
+0:07 dropped three powerful startup ideas
+0:09 that really got me to stop and think. We
+0:12 also went through V0, his vibe coding
+0:14 product, to tell us how to make money
+0:16 from it, how to build software from it,
+0:18 and how to use it to the best of its
+0:21 capabilities. I always find when you sit
+0:23 down with the founder of these vibe
+0:25 coding tools, they really really give
+0:27 you the sauce around how to fine-tune it
+0:30 so you get the most out of it. I'm not
+0:32 sponsored by Vercel. I have no
+0:33 relationship with them. Just thought it
+0:35 would be cool to give you some ideas,
+0:37 see how their platform works. I hope you
+0:39 find it interesting.
+0:41 At the end of the episode, I bought a
+0:43 domain that I'm giving away to one of
+0:45 you. I think it's an incredible domain
+0:48 that all you got to do, if you want it,
+0:50 like and comment, and I'm going to pick
+0:53 one person one person randomly to give
+0:56 it away.
+0:57 Um I can't wait to see what you build.
+0:59 Enjoy the episode.
+1:03 >> [music]
+1:08 >> We got Guillermo on the pod from Vercel.
+1:11 Guillermo, by the end of this episode,
+1:13 what are people going to learn? Well,
+1:16 hopefully they're going to learn a
+1:17 little bit about my system, how I think,
+1:20 how I use our own tools, how I
+1:22 prototype, how I come up with ideas.
+1:25 I have some ideas that I think are good.
+1:27 Maybe most are bad, but some might be
+1:29 gems for some of the listeners. Yeah, I
+1:32 like to work in public a lot. At Vercel,
+1:34 we do a ton with open source.
+1:37 Maybe I'll share some of the things that
+1:38 we've been open sourcing that can be
+1:39 great starting points for people that
+1:40 are entrepreneurial. And yeah. Cool. And
+1:44 I just ask for one little commitment
+1:45 from you. You know, on this on this
+1:47 podcast, we talk about sauce, you know,
+1:49 giving the sauce to the people so that
+1:51 they can
+1:52 you know, can you commit to giving the
+1:54 sauce?
+1:55 >> All sauce?
+1:56 >> [laughter]
+1:56 >> I'm all sauce. All sauce, no brakes?
+2:00 Yeah.
+2:01 Okay.
+2:02 >> Let's go. Let's let's let's rip.
+2:04 All right. So, Greg, how familiar are
+2:07 you with V0?
+2:09 I'm pretty familiar. Okay, awesome.
+2:11 >> Yeah.
+2:12 Yeah, I think I think I've seen some of
+2:13 your tweets. So, what you're looking at
+2:16 here, in case you're not familiar, is
+2:18 the Vercel workspace for V0. So, I'm
+2:21 literally showing you like all this
+2:22 sauce, right? Like our our own
+2:24 workspace,
+2:26 how we use V0. But you're looking at the
+2:28 favorites, which are mine. Obviously, I
+2:30 created a couple things that I wanted to
+2:31 show you all. So,
+2:33 and by the way, funny little
+2:35 behind-the-scenes thing,
+2:37 this is how I pitch product. You we have
+2:39 a lot of huge enterprises using V0.
+2:42 Yesterday, I met with one of the world's
+2:44 largest companies.
+2:45 They came to the office, and I basically
+2:47 did a version of this. So, it's also a
+2:50 little bit of advice for for people
+2:52 watching, like how do you sell? Like do
+2:54 you do decks? Like I try to show product
+2:57 as much as I can.
+2:58 So, I'll walk you through a few things
+3:00 that I've created. So, one that's one
+3:03 use case of V0 that's really interesting
+3:05 is free-form
+3:07 data visualization.
+3:09 So, it's really hard sometimes to
+3:12 explain
+3:14 complex technical concepts that have to
+3:18 do with different things with the Vercel
+3:19 infrastructure, etc., to customers.
+3:22 So, I use V0 a lot to
+3:25 basically give some prompt ideas and
+3:28 then come up with like unique
+3:29 visualizations. So, like what you're
+3:30 looking at here is that something that I
+3:32 think could have taken me quite quite a
+3:34 long time to create with like slides or
+3:36 whatever. And and the AI walks me
+3:38 through how to represent this, you know,
+3:40 how our fluid compute system works and
+3:43 create something that I can hand off to
+3:46 other teams, I can hand off to
+3:47 customers, I can hand off, you know, I
+3:49 can further solidify my understanding of
+3:51 technical concepts. I actually use V0
+3:53 for learning a lot. So, that's a fun
+3:56 one. I'm actually really proud of this
+3:57 one that you're going to look at now.
+3:59 So, if you're super familiar with
+4:03 Vercel, this might look like our blog.
+4:05 And so, what I did is I started from the
+4:07 point of view of the Vercel blog and
+4:09 what it looks like. And by the way, if
+4:10 you're if you're curious about
+4:12 how V0 works, it's like it's all
+4:14 prompting.
+4:15 And so, really what you're looking at
+4:16 here is that when I engage with my
+4:19 Vercel team, I could take two routes.
+4:21 It's like one, I can make a suggestion
+4:22 based on like 10 Slack messages,
+4:25 or I can just talk to V0, create
+4:28 something that I kind of like, and then
+4:30 share it with the team. So, what you're
+4:31 looking at here specifically is
+4:33 is a pretty novel component. I think
+4:35 I've seen it this only a handful of
+4:36 times on the internet. So, when we
+4:38 launched the Vercel MCP,
+4:40 pay attention to this little component
+4:42 here in the evolution of the video.
+4:44 I suggested to the team that in order to
+4:46 highlight our partners of this launch,
+4:48 which were Anthropic, Cursor,
+4:52 I believe VS Code as well. I wanted to
+4:54 highlight them front and center. MCPs
+4:57 are highly highly highly technical
+4:58 concept. So, I wanted to show you, okay,
+5:03 how does Vercel MCP work?
+5:05 And so, I actually cooked on the entire
+5:06 component. Like you can
+5:09 kind of like jump to the different
+5:10 markers.
+5:11 And so, the then the team can take it,
+5:13 implement it. They can actually share
+5:16 and sort of copy-paste a lot of the
+5:17 code.
+5:18 And now this became kind of a foundation
+5:20 of of our blog system. Whenever we have
+5:23 a change log or you have a new blog
+5:25 post, now we have this really cool
+5:27 resource.
+5:28 A little bit of a spoiler alert. We have
+5:30 the ambition that whatever you vibe code
+5:32 in V0
+5:34 can actually become what we call remote
+5:36 components.
+5:37 Imagine prompting on a slice of a
+5:39 website and enabling anyone in your team
+5:42 or or organization to do this. So, this
+5:44 is kind of like a little example of like
+5:46 what that would look like. Like I'm
+5:47 basically like prompting the blog.
+5:50 I'm also pretty proud of this one. I
+5:51 collaborated with our head of design on
+5:53 this. He sent me kind of like a raw
+5:56 rough sketch of and I'll explain why I
+5:59 got so involved with this.
+6:00 We're launching a new product or we
+6:02 launched, which is already kind of
+6:04 growing sort of exponentially. It's
+6:06 called the AI Gateway. Greg, I don't
+6:08 know if you're familiar with things like
+6:09 Open Router or AI Gateways.
+6:12 Yeah, Open Router we've covered, but
+6:14 yeah, you know, explain it a little bit.
+6:16 Yeah, so the main idea is that when you
+6:19 access models,
+6:22 you one might not have made up your mind
+6:25 about which one you need.
+6:27 Two, because of the insane demand for AI
+6:30 tokens, a lot of model providers are
+6:32 unreliable or out of capacity.
+6:35 And three, you always want the best
+6:36 price and performance. And I will
+6:38 actually add a fourth one. You don't
+6:40 want to lock yourself into a model. Even
+6:42 if everything that I just mentioned is
+6:43 perfect. You have the right model, you
+6:46 have the right provider, whatever. Like
+6:47 it's not might not be the the smartest
+6:49 thing to lock yourself in. So,
+6:51 we created the AI SDK,
+6:53 which is the universal developer
+6:55 experience for AI.
+6:57 I'm very proud of it,
+6:59 particularly because I didn't invent it.
+7:01 My team did.
+7:02 I invented Next.js, I have that going
+7:04 for me, but this is something that
+7:06 emerged organically at Vercel when we
+7:07 were building V0.
+7:09 Maybe a metaphor for people listening is
+7:11 it's almost like the React of AI.
+7:13 It's a very very very cool developer
+7:15 experience.
+7:16 So, AI Gateway is very exciting to
+7:18 Vercel as a company because it's a new
+7:19 entry point into the Vercel cinematic
+7:21 universe. Meaning you can adopt this AI
+7:23 Gateway regardless of your whether
+7:25 you're using any other
+7:27 Vercel product. And so, what I wanted to
+7:30 basically communicate with the team is a
+7:31 couple things. Like one, and and
+7:33 frankly, this is inspired by Apple. I
+7:35 have to come come out and say it. I
+7:37 wanted to create this sub-product
+7:39 navigation
+7:40 so that I can go to vercel.com/aigateway
+7:43 and you believe that that's an entire
+7:44 company.
+7:46 And second, I wanted to show this really
+7:48 cool This is This actually was my idea.
+7:50 This really cool animation that
+7:52 represents how easy it is
+7:54 to switch between models. It's like that
+7:57 easy.
+7:58 Also, like we wanted to represent that
+8:00 you know, we support not just our own AI
+8:02 SDK, like I said that that React of AI,
+8:05 but there's other options, etc.
+8:07 If you go to the page today, does it
+8:08 look exactly like this? No, but that's
+8:10 the point. I was able to have this super
+8:12 high-fidelity conversation with the
+8:13 team, and I did this on on a way more
+8:15 ride back home. It was actually pretty
+8:17 fast for me to do.
+8:19 Let me jump to something that I think um
+8:22 is interesting for also for people to
+8:24 understand how we build V0. Like imagine
+8:26 that you have the ambition of building
+8:27 something like V0. So, I have a surprise
+8:30 for you. We use V0 to build V0.
+8:32 And so, um
+8:34 and I kind of nerded out hardcore on
+8:36 this, by the way, because of many many
+8:38 moons ago, when I was 16 years old, I
+8:40 created a component like what I'm about
+8:42 to show.
+8:43 So, I'll explain the growth mindset
+8:46 here, like from a growth hacking
+8:47 perspective. Whenever you share a Vercel
+8:50 deployment, you're going to see them
+8:52 throughout the web as dot vercel.app.
+8:55 The way to think about this is like this
+8:57 is like the Vercel
+8:59 marketing machine. And what I mean by
+9:00 that is that we're actually spending any
+9:02 marketing budget. You asked me for the
+9:04 sauce, this is the sauce, right? Like we
+9:06 created such a great product, hopefully,
+9:08 that people build, ship, and then say
+9:11 it's almost like saying it was built
+9:13 with Vercel, right? And it can be toys,
+9:15 it can be big ideas, it can be your next
+9:17 startup, etc. And and obviously, we
+9:18 support custom domains, but
+9:20 with V0, I also wanted to preserve that
+9:23 identity. It's almost like a
+9:24 communication is I guess a significant
+9:26 bit. You want to communicate that the
+9:28 thing was built with V0.
+9:31 And so, by default today, you might have
+9:33 already noticed this, we default to like
+9:34 V0 as a prefix
+9:36 of the things that you ship when you
+9:38 when you hit that button publish. But I
+9:40 was noticing that when people were
+9:41 customizing, they were nuking the V0
+9:43 prefix. And so, I wanted to both give
+9:45 them the freedom to nuke it,
+9:48 but also, if they don't mind it, keep
+9:49 it. Just like they're keeping that
+9:51 vercel.app. So,
+9:52 notice that if I select text and I say
+9:54 Guillermo
+9:56 talks to Greg, I'm not nuking it. But if
+10:00 I go to the beginning of the input and I
+10:01 press delete, I'm deleting that entire
+10:04 token. Mhm. And if I press command Z, it
+10:07 comes back.
+10:08 So,
+10:09 I couldn't have imagined describing this
+10:12 with any other tool.
+10:13 I could I would have spent more time
+10:16 putting words down and you know that
+10:18 batch little token thing that you've
+10:20 seen on Facebook when you do an at
+10:22 mention? Well, imagine it says I
+10:24 actually had tried do that to be
+10:25 completely honest. And no one understood
+10:27 what I was talking about. Mhm. So, I
+10:29 just went ahead and built it. And
+10:30 because Vizzero is so smart,
+10:32 like things like the the uh you can tell
+10:35 it, well, when you hover, do this,
+10:38 select the text by default. Um all those
+10:41 kinds of things uh are just prompts. So,
+10:44 and for team prompts, probably took me
+10:46 like, I don't know, 15 minutes.
+10:48 Um so, really cool.
+10:50 Um you know, I could keep going at some
+10:52 of this. Um we we do all kinds of like
+10:55 product specs, but I also wanted to show
+10:57 you something that
+10:59 kind of became what I would almost say
+11:01 like the foundation for like a real
+11:02 product almost.
+11:04 Uh do you see this on X, by the way?
+11:07 >> Okay, so,
+11:08 and and this is connected to something I
+11:10 think really relates to your audience,
+11:12 which is that I've posted all of this
+11:14 free ideas threads.
+11:17 And no one picked up on this one. So,
+11:18 I'm actually going to like uh you know,
+11:20 uh point this out to the people. I think
+11:23 one person paid attention to this one.
+11:25 So, I had this concept of an AI camera.
+11:29 Um the idea of an AI camera came from a
+11:31 frustration that um my my relative takes
+11:36 loves to take photos of the moon.
+11:38 >> [laughter]
+11:38 >> And like no no this, but like Mhm. it
+11:42 they're so bad. She loves the moon. Mhm.
+11:44 Heart goes out of her. She she's
+11:45 obsessed with this thing.
+11:47 But they're just so bad. And I was
+11:49 thinking uh also the the um
+11:52 I just upgraded or downgraded, you could
+11:54 say, to an iPhone Air.
+11:56 The camera got worse.
+11:58 And so, I was telling my team the other
+11:59 day, I don't mind because I love this
+12:01 slick form factor. And also because I
+12:04 believe that in the future cameras will
+12:08 be inputs.
+12:09 Or or what do you take with a camera
+12:11 will be an input, not an output.
+12:14 And why is it going to be an input?
+12:15 Because every photo will go through an
+12:17 LLM or an AI model. And so, that was
+12:19 kind of like the idea. And so, I
+12:21 actually because I got this uh iPhone
+12:24 Air I was telling
+12:26 the Vizzero team about it. We I I at
+12:28 Vizzero, we don't have devrels. We have
+12:30 viberels.
+12:32 It's someone that vibe codes to show the
+12:34 potential of the tool.
+12:35 And so, he built this I took a selfie of
+12:37 myself um uh when I was in London, I
+12:42 believe. And then I took another one.
+12:44 And so, uh let's see it here. So, I
+12:47 opened it.
+12:48 So, you get the idea is that you can
+12:50 choose uh between different filters. Um
+12:53 actually because
+12:54 uh let's see.
+12:56 Kill Bill. Because I'm from Argentina,
+12:58 I'm going to go with Argentino. Uh so,
+13:01 um
+13:03 photo goes in.
+13:05 >> [laughter]
+13:05 >> So, it was actually quite easy to
+13:07 prompt. The success of this, and by the
+13:09 way, like what I mean by success is like
+13:11 it went quite viral.
+13:13 The success of this it speaks to Okay.
+13:16 That actually looks like me a lot. The
+13:19 success of this it speaks to just how
+13:21 simple we made the interface, which I'm
+13:22 really proud of. Um you know, we
+13:25 obviously it's inspired by the the
+13:27 iPhone camera. Um we we used really cool
+13:31 prompts for the different styles. So,
+13:33 I'm going to go Let's see. Let's do
+13:35 another one. I'm going to go with uh
+13:37 maybe more focused.
+13:39 I'm going to go with disco now. Okay.
+13:41 Um so, uh when Nano Banana came out, I
+13:44 told my team, and by the way, for people
+13:46 listening, I still believe this. Nano
+13:48 Banana is a GPT-4 moment uh [laughter]
+13:51 image models.
+13:53 And uh and you can create amazing
+13:56 things. I think there's going to be a
+13:56 lot of great consumer products that come
+13:58 out of this.
+14:00 Little great uh utilities. Um I was
+14:03 showing this off. By the way, going the
+14:06 meta work here. When I was in London, I
+14:08 was obviously pitching to companies,
+14:10 startups, etc. like what Vizzero can do
+14:12 for you.
+14:14 And I was in a lot of meetings where
+14:15 like this was kind of like the you know,
+14:17 the memorable bit of the pitch. Uh
+14:20 taking a selfie with uh uh with someone
+14:23 and like showing them what what um can
+14:25 do.
+14:26 So, uh I actually ended up executing on
+14:29 that idea. So, uh from the from the free
+14:31 ideas thread.
+14:33 So, that that whole product that you
+14:35 showed me, you made with Vizzero?
+14:37 >> Yeah, 100%.
+14:39 And how long did that take you?
+14:41 So, say it again? How long did that take
+14:43 you from start to finish?
+14:44 >> So, uh it was lunch time here in SF.
+14:49 By the way, you know what's funny about
+14:50 the importance of And by the way, this
+14:52 is not just me patting myself on the
+14:53 back cuz like
+14:54 I have a lot of bad ideas. Like you
+14:56 should you should see my team with my
+14:58 chats with my devrel uh team.
+15:00 But I do think it in the age of AI, and
+15:03 I think obviously this is going to
+15:04 resonate with you, preaching to the
+15:05 choir, the value of ideas is pretty
+15:07 freaking significant. Why? Because
+15:10 I pitched this idea to a lot of people
+15:11 and like they were like, yeah, I don't
+15:12 know what you're talking about. Like,
+15:13 yeah, that's cool. You're the CEO. I'm
+15:15 not going to be I know you, but like I'm
+15:17 not going to be mean, but like a lot of
+15:18 people kind of ignored it. But the day
+15:20 that uh we're at that launch and the and
+15:22 and I saw that the the lens of the
+15:25 iPhone had just gotten worse and
+15:26 whatever, I pitched it hard. I was like,
+15:28 guys, we have to actually do this.
+15:31 And so, you know, most of the process
+15:33 was actually downloading it into the
+15:34 prompts.
+15:36 And so, there's a lot of debate about
+15:38 like is prompt engineering a thing and
+15:40 whatever. I'll say it again. If you have
+15:43 a vision in your head,
+15:45 and if you're able to explain it in
+15:46 English,
+15:48 amazing things can happen. Mhm. So, I
+15:50 think it was mostly So, I explained it
+15:52 to my colleague and I told him and in
+15:54 the beginning he the first didn't get
+15:55 me.
+15:57 So, it goes back again to like sometimes
+15:58 you might get frustrated with AI.
+16:00 And but [laughter]
+16:02 remember like us humans are also not
+16:04 flawless in that department. Like
+16:06 explaining yourself really, really well,
+16:08 using the right metaphors, etc. is
+16:10 really important. One thing, by the way,
+16:12 that if anyone wants to continue to riff
+16:14 on that idea, which I encourage, is and
+16:16 by the way, you can actually open it in
+16:18 Vizzero. So, like when you click this,
+16:20 you're going to go to the Vizzero when
+16:21 you click build with Vizzero here,
+16:22 you're going to go to the template.
+16:24 Um
+16:25 so,
+16:27 I I had originally pitched it as
+16:28 Instagram in the sense that like I
+16:30 wanted this
+16:32 to be a preview
+16:34 of what the different filters are going
+16:35 to look like. Mhm. We implemented it as
+16:39 like the different types of like photo,
+16:40 portrait, whatever, which makes it super
+16:43 um relatable. I think that has a
+16:44 strength, for sure.
+16:46 But there's another version. Uh and this
+16:49 is what's exciting about AI cuz like the
+16:50 models are going to keep getting better.
+16:52 So, the the first pushback that I got
+16:54 was, Oh, that's going to cost us a lot
+16:55 of money because you're going to have to
+16:56 do 20 Nano Banana runs and whatever.
+16:59 And so, we started litigating like,
+17:01 well, but you could do you maybe you
+17:03 could prompt Nano Banana to give you a
+17:05 grid of all the permutations. And then
+17:08 you tell Vizzero to slice it. And cuz
+17:10 like the vision was just like Instagram
+17:13 invented filters,
+17:15 we can invent AI filters. So, you could
+17:18 have you could have seen Guillermo's
+17:20 solar punk. Almost like a little
+17:22 preview. And then you click it. And then
+17:24 we do a higher fidelity AI pass. So, I
+17:28 think there's a lot more to do with with
+17:30 uh this particular idea. But yeah, 100%
+17:32 Vizzero. There's a Nano Banana template.
+17:35 So, if you go to the Vizzero community,
+17:38 um there are a lot of really amazing
+17:40 starting points. Right? So, we have all
+17:43 kinds of templates that you can use to
+17:46 uh to use as your starting points. Uh
+17:49 there's if you want to create games,
+17:51 landing pages.
+17:53 Uh I mentioned data viz. It's really big
+17:55 for us. Um especially for teams that
+17:58 throw unstructured data, CSVs, whatever.
+18:01 Um
+18:02 there's really cool components that can
+18:04 uh when um when liquid liquid glass came
+18:07 out, uh like every everyone lost their
+18:10 minds and like started trying to create
+18:12 like different versions uh of liquid
+18:14 glass. So, uh this is a great place to
+18:17 get inspired, frankly. Like um I I have
+18:21 my own contribution here. Uh I guess I
+18:23 cooked, huh? So, uh I love particle
+18:26 effects and Mhm.
+18:28 So, speak of the of the value of vibe
+18:30 coding. We're hosting a happy hour
+18:33 uh with AWS at re:Invent about Vizzero.
+18:37 And we didn't have a promotional
+18:39 artifact that I felt truly proud of.
+18:42 A lot of people, I think, that listen to
+18:43 us are always curious about like how do
+18:46 you get big on X? How do you get a lot
+18:47 of impressions? And
+18:50 I'll tell you, you know, the uh like
+18:52 just because you have a lot of
+18:53 followers, it doesn't mean that you
+18:55 you're putting things out into the world
+18:56 that people are interested in. So, like
+18:57 I actually use Vizzero a lot to cook on
+19:01 visualizations of data and things like
+19:03 that
+19:04 that um
+19:06 Yeah, that So, for example, when when
+19:07 Next.js came out and we wanted to
+19:09 communicate that it that in the past 12
+19:12 months, it had five over 500 million
+19:14 downloads.
+19:15 Mhm. then over previous 12 months, it
+19:17 had a ton of downloads.
+19:19 Uh basically 500 million in in 9 years
+19:22 and then 500 million in 12 years. I used
+19:24 Vizzero
+19:25 to create my banger tweet. Uh so, uh
+19:28 there's a lot a lot of cool stuff here
+19:31 to to learn from. And yeah. One thing
+19:34 I'm learning about you is
+19:36 I know you say you don't have
+19:39 you know, you have bad ideas and good
+19:40 ideas, but you do have a lot of good
+19:42 ideas. And you have a lot of good taste.
+19:44 Like you're able to
+19:47 you know, think of, okay, Instagram
+19:49 works like this. Therefore, I'm going to
+19:51 use that as a reference to put it into
+19:53 V0.
+19:54 So, you know,
+19:57 what advice do you have for people who
+19:59 are trying to like build their inner
+20:02 Guillermo, basically? Yeah, so you you
+20:05 mentioned something really cool, which
+20:06 is that you what comes out of me is good
+20:10 ideas.
+20:11 What started out was probably a ton of
+20:14 ideas, bad, good, medium, whatever. And
+20:17 then there's a filter that happens for
+20:19 sure. Yeah.
+20:21 I I'm I I try to be a less is more guy.
+20:24 So, like what I put out, I have some
+20:26 degree of conviction that it might hit.
+20:28 You also talked about the the
+20:31 the idea of well, Instagram exists,
+20:34 therefore you can bring this over to
+20:36 this other product and whatever. I do
+20:38 think that that's extremely extremely
+20:39 extremely important to basically like
+20:42 accumulate a bunch of exposure hours to
+20:45 products in general.
+20:46 So, even just from what I've been doing
+20:48 here, you might have gotten ideas about
+20:50 how V0 how I think about V0, right? Like
+20:53 you see the the way that we have the
+20:55 community with templates, you projects,
+20:58 search,
+21:00 like little nuggets of like how products
+21:03 work. Uh that I think are are are
+21:06 are really interesting. I'll show you
+21:07 actually something also super cool.
+21:09 Notice that when I've been opening these
+21:11 V0s,
+21:13 they're in full screen, so like they're
+21:15 ready to be
+21:17 shared.
+21:18 So, I care a lot about the first
+21:21 impression that a product has on people.
+21:24 And so,
+21:26 I can reveal the chat, but the chat is
+21:28 not interesting to the presentation that
+21:29 I've been doing. So, I wanted to also
+21:31 communicate that to the team. And I
+21:34 basically created this like mini V0
+21:35 inside of V0 to like basically show like
+21:38 imagine a world, and by the way, the
+21:39 designing that I've been quite similar
+21:41 to what ended up landing at the end.
+21:43 Imagine a world where it's all content.
+21:47 Everything is computer.
+21:48 And we hide the chat.
+21:50 So, V0 there's one version of V0 that
+21:52 was like so much chat in your face.
+21:55 And the and the nugget of this idea or
+21:57 like the origination of this idea came
+21:59 from watching people use the product.
+22:03 A colleague of mine that works on XHS
+22:05 sent me a
+22:06 a photo
+22:08 of his girlfriend working on VZ a VZ for
+22:12 her education class.
+22:14 And she had a big desktop monitor and I
+22:17 saw that half the screen was chat.
+22:20 And the other half was the content that
+22:22 she was working on. And and and
+22:24 immediately had the idea of like, well,
+22:26 that doesn't seem right.
+22:28 And so, the
+22:30 the TLDR there is that you have to
+22:33 always be rethinking your assumptions,
+22:36 trying to observe how people use your
+22:38 products in the real world.
+22:41 And you know, I I I whenever something
+22:43 doesn't work, when it I I never think,
+22:46 well,
+22:47 um it's the fault of the user, it's the
+22:49 fault of the people, I don't have
+22:51 followers, whatever. It's it's the
+22:53 product. It's the design. It's the idea.
+22:57 When you when you were creating, let's
+22:58 say, the nano banana photo selfie thing,
+23:03 did you prompt V0 with the reference
+23:06 image of Instagram, or were you plainly
+23:08 using English and just explaining what
+23:11 you wanted? I think it was all English
+23:14 in this case.
+23:15 Um which kind of it speaks to like
+23:18 there's one defining characteristic that
+23:20 I do want to point out that you have to
+23:22 be able to visualize things in your
+23:23 head.
+23:25 And if not in your head, like you have
+23:26 to have some close reference so that you
+23:29 can guide this system, right? And so,
+23:32 all of this that you're looking at is
+23:34 just maybe paying more attention to the
+23:36 details, right? Like if you open the if
+23:38 you open the camera app,
+23:40 um there is subtleties to the border,
+23:43 there's subtleties to the background,
+23:44 there's subtleties to the gradient.
+23:46 I another big thing that it might might
+23:48 seem small, but it's actually freaking
+23:51 huge, is that a few of the initial
+23:54 passes were overly complicated. So,
+23:57 there was a process of trimming stuff
+23:59 down and deleting.
+24:01 If I could actually give one lasting
+24:02 piece of advice to everybody, including
+24:04 my own team, is myself, is always
+24:07 delete, delete, delete, delete.
+24:10 There should be as few buttons, links,
+24:13 etc. as possible on on any given
+24:16 product. And I think we kind of nailed
+24:17 that here because like
+24:20 how much how much attention can people
+24:21 give you, right? Like 5 seconds, 10
+24:25 seconds. Another not minor thing is this
+24:28 is actually a very good
+24:30 um mobile product.
+24:32 So, by having less UI,
+24:35 you are almost forcing yourself to have
+24:37 a good mobile product. What's very
+24:39 interesting about this little app, if
+24:41 you go to it, v0bananacam.vercel.app,
+24:44 is that
+24:46 it's
+24:47 it's almost impossible to believe that
+24:51 this is a web app.
+24:53 It feels like you just downloaded a
+24:54 native app.
+24:56 Which also speaks to the insane
+24:57 potential I think of these web coding
+24:59 platforms because
+25:01 we're soon going to launch the V0 mobile
+25:03 app. You're going to be able to create
+25:04 apps like this on the go.
+25:07 And we're actually putting a lot of work
+25:10 into the model, the context, etc. to
+25:12 make them really good on mobile devices
+25:14 out of the box. So, TLDR,
+25:18 fewer pixels always better, and remember
+25:21 that most people don't have time and are
+25:24 on their mobile phones.
+25:25 So, your little you have such a little
+25:28 window to get to get this stuff right.
+25:31 By the way, this
+25:32 just for people listening,
+25:34 like
+25:35 uh
+25:36 this idea that you had, like the V0
+25:38 banana cam,
+25:39 the 20 different filters that you had,
+25:43 if you wanted to, you know, create an
+25:45 app that, you know, just did a little
+25:47 bit of cash flow and and was a fun
+25:49 project to do, you could unbundle this
+25:52 and just do like Wes Anderson cam as an
+25:54 app, right? I mean, there's just so much
+25:57 to do with this. And you can by the way,
+25:58 again, you can click open a V0 and you
+26:01 can start prompting. There's so much to
+26:03 do with this. Yeah. Uh because I
+26:04 mentioned also that the original idea By
+26:06 the way, I also
+26:08 will give credit to my colleague who
+26:10 suggested to focus it more on selfies
+26:13 because let's analyze the ideas thread
+26:15 for a second, right? AI camera was the
+26:17 first idea.
+26:18 Um and I was thinking a lot about
+26:20 another inspiration for this, by the
+26:22 way, was like we took a business photo
+26:25 with a group at a at a large bank.
+26:28 And it was so awkward that we had to
+26:30 take like five or six.
+26:32 And I joked because obviously the
+26:34 conversation that we had had was about
+26:35 AI. I joked to them saying like, "Oh,
+26:38 don't worry, AI will fix this." But in
+26:40 reality, it didn't. Like we took a lot
+26:42 of bad photos.
+26:44 And uh we took six of them. It was
+26:46 awkward, the lighting was bad. I was
+26:48 like, "Guys, like
+26:50 I So, to give you context, this was in a
+26:52 high-rise, New York City.
+26:54 The background was all sun and the
+26:57 skyline of New York.
+26:59 And I remember thinking to myself,
+27:03 AI has seen that freaking uh I mean,
+27:05 it's beautiful, but it's seen this
+27:07 skyline a gazillion times. Yeah.
+27:10 Uh we are very clear on the photo. The
+27:13 lighting is not good, but our bodies are
+27:15 very clear.
+27:16 All it should take is
+27:18 By the way, it shouldn't even take a
+27:19 prompt. And And this we didn't explore
+27:21 with this idea, but you could ask AI
+27:24 first to critique the photo.
+27:27 So,
+27:28 Mhm. um that process that I did of
+27:30 saying, "Oh, the photo's garbage."
+27:32 I'm sure GPT-5 would do as well.
+27:35 Uh and so, once you get that critique
+27:37 from GPT-5, you give it to nano banana.
+27:40 And so, this is why I also believe that
+27:42 people sometimes fear that like the one
+27:45 model is going to take all the jobs. In
+27:46 reality, most cool things happen when
+27:48 you combine models, combine ideas,
+27:51 market it well, focus it well, create
+27:53 easy interfaces, etc. So, I think since
+27:56 you're since we're riffing on other
+27:57 things that people could do,
+27:59 the automatic perfect photo app where or
+28:03 the lighting fixer photo app and
+28:06 whatever.
+28:07 Uh especially if people can build the
+28:10 muscle memory to always go to you when
+28:14 they're taking that kind of photo. Um
+28:17 So,
+28:18 by the way, it's fun to compare it now
+28:20 cuz like
+28:21 I believe that AI camera was probably
+28:23 the best of the bunch, but it wasn't
+28:25 necessarily the one that people got the
+28:26 most excited about. So, what other ideas
+28:28 are in this list?
+28:31 This created a lot of excitement that
+28:32 I'm still bullish.
+28:34 Uh so, it might I might cook on it at
+28:37 some point, but I would say encourage
+28:38 people to try it, too.
+28:40 Um
+28:41 So,
+28:43 I believe that forms need to be
+28:45 disrupted with AI.
+28:47 Period. All forms.
+28:49 Contact sales forms.
+28:51 Uh we're going to be doing an experiment
+28:52 on vercel.com for this.
+28:54 I think other I heard rumors that
+28:56 another like big tech company is going
+28:58 to try to do like a conversational sales
+29:01 form. I think it's going to be really
+29:03 interesting.
+29:04 Cuz like the the classic thing is So, if
+29:06 you if we go to vercel.com/contact,
+29:10 and then go to contact sales, we do have
+29:12 personalization here, like we're trying
+29:14 to like eat our own dog food, right? So,
+29:15 like it knows that I'm from the US. It
+29:18 actually knows that I'm coming from an
+29:20 enterprise, so it's asking me a few more
+29:21 questions, etc. So, we're constantly
+29:24 doing experiments on this, but like what
+29:26 if you didn't have to fill out a form?
+29:29 And And some people, by the way, might
+29:30 think like, "Why don't you just ask
+29:32 nothing but like the email?" Well,
+29:35 interestingly, we've done the experiment
+29:37 and like we get such an insane amount of
+29:40 input that to triage and get more signal
+29:45 out of it, we actually do need more
+29:46 information sometimes. Uh to actually be
+29:49 able to prioritize who we talk to.
+29:51 And so we do need more information but a
+29:53 chatbot could ask you that for the
+29:54 follow-up.
+29:55 And so that's an experiment worth doing.
+29:57 The other one is
+29:59 And and by the way, Typeform, I think
+30:02 cooked. Like I I wasn't trying to like
+30:04 tell Typeform like sorry guys, like it's
+30:06 over. Quite the opposite. I think
+30:08 Typeform is really inspiring here
+30:09 because they created a
+30:12 I'll say this in in in in in earnest, a
+30:16 revolutionary UI
+30:18 for forms. Because they broke it they I
+30:21 think they empathized with like the
+30:22 problem of like I don't want to see
+30:24 the daunting list of a hundred
+30:26 questions. I want to see only one
+30:28 question at a time.
+30:30 And going back to like fewer pixels are
+30:32 always better. I think a Typeform
+30:34 maximizes the chance of success and
+30:37 minimizes the chance of error error
+30:40 by just having the user do one thing at
+30:41 a time.
+30:43 But a conversational AI is also asked
+30:44 for one thing at a time.
+30:46 And so imagine if you had
+30:49 basically an interface where you define
+30:53 the data that you want
+30:55 and then you let the AI create
+30:58 the intake interface.
+31:01 It might have elements of a form, by the
+31:03 way. But it might just be purely
+31:04 conversational.
+31:06 So, I mean two questions. One is how big
+31:10 of an opportunity do you think this is
+31:12 and two is if you were going to prompt
+31:14 V0
+31:16 to to do an MVP of this, how would you
+31:19 do it?
+31:21 Yeah, so how big can it be? Well,
+31:24 forms, I think, are the most underrated
+31:28 like fundamental particle of the
+31:30 internet, right? Like nothing happens
+31:32 unless like the the most interesting of
+31:34 the internet is capturing input from
+31:36 somebody. It's a primitive. Forms is a
+31:38 primitive of the internet.
+31:39 >> Yeah.
+31:40 So the TAM and when I sound like wannabe
+31:42 entrepreneur here, like the TAM is the
+31:44 entire internet. The TAM is the entire
+31:45 world. Uh but I do think that like I
+31:49 think for this idea to succeed though,
+31:51 maybe it needs to be narrowed down to
+31:52 like it's not just forms with AI but
+31:54 like a specific use case.
+31:56 One company that I think has done
+31:58 phenomenally in this idea of like we're
+32:00 making forms more whimsical, more domain
+32:03 specific, etc. is Partyfill.
+32:06 I see Partyfill as like a really cool
+32:08 specialized form of sorts.
+32:10 And so the idea is big. Uh like the
+32:12 problem is that I cannot yet tell you
+32:14 like the exact conditions going to get
+32:16 big. So
+32:17 that's your job, but um
+32:20 I I'll tell you, people have the need to
+32:22 create Google Forms or Typeforms all of
+32:24 the time. And they're willing to pay for
+32:26 those products.
+32:27 And so what I would focus on here is
+32:29 like can you demonstrate that by
+32:31 creating a more AI native interface and
+32:34 by the way, when I mean AI native
+32:36 interface, I want to be really clear,
+32:37 it's for the for the submission side as
+32:39 well as the creation side.
+32:41 Because what if there's like the fastest
+32:43 way to create a form on the internet
+32:44 because
+32:45 you just paste what you want to know.
+32:48 Like build me a form and you're you're
+32:50 not even going to say this because this
+32:52 is going to be like coolformbuilder.com
+32:53 and whatever. You're going to say
+32:56 need data on
+32:59 what this user thinks about my product.
+33:01 And because I want to qualify them for
+33:05 early access VIP application. Like
+33:08 something like that.
+33:09 And so AI is amazing because AI is so
+33:12 good at knowing what more most what what
+33:15 the information that you're after is.
+33:18 And so it's going to save you a lot of
+33:20 time.
+33:21 Most form builders have all this like
+33:22 drag and drop and click and select the
+33:25 type of the question and whatever. No,
+33:26 no, it should all be AI.
+33:29 The other thing that you can set out to
+33:31 prove is that
+33:33 you can have a more dynamic
+33:35 conversational UI to submit.
+33:37 Um maybe even there is a way where you
+33:41 reach out to people through voice or
+33:44 text message. And like the form
+33:46 submission actually happens in a pure
+33:48 conversation way but in an ad hoc
+33:50 conversation.
+33:52 So how would I start prompting about
+33:54 this? Um
+33:55 like I said, I always work backwards
+33:56 from the interface. So I would probably
+33:58 start describing to V0, well, I want a
+34:02 conversational chat app
+34:04 but it's for designing forms.
+34:07 The goal is that the user can talk in
+34:09 natural language and then after typing
+34:12 and submitting, they're seeing on the
+34:13 right-hand side what their form is going
+34:14 to look like.
+34:16 Uh it should use LLMs to parse the
+34:19 input.
+34:20 Uh and I'll get something out, right? Uh
+34:23 it may take me maybe like one or two
+34:25 more prompts to get it to look what I
+34:28 like I want and to make it work well.
+34:30 And then when I have something, I start
+34:32 playing with it and I can start seeing
+34:33 if it feels right.
+34:35 The other entry point of this can be
+34:37 imagine the ideal imagine if you have a
+34:39 vision for like the ideal submission UI.
+34:41 So one thing that I'm a really big fan
+34:43 of
+34:44 and you're seeing that in action with V0
+34:46 is hyperlinks.
+34:48 So imagine put yourself in the shoes of
+34:51 somebody that receives your really cool
+34:54 hyperlink
+34:55 of your form.
+34:57 So it's like supercoolform.com
+34:59 {slash} and the and the and the title of
+35:01 the form.
+35:02 And then imagine what interface do you
+35:04 want them to see?
+35:06 And so it could be actually something
+35:07 like very interactive. It could be
+35:09 something where it's like
+35:10 I I just have a few questions and maybe
+35:12 it has a little character. Or maybe it's
+35:15 like very sober and it says like um you
+35:18 know, complete this questionnaire to get
+35:20 X. And it maybe it looks like ChatGPT or
+35:23 like you're just going to
+35:25 maybe it looks like a chat interface.
+35:27 And so maybe I'll start prompting V0
+35:28 with like build me a chat interface
+35:31 for a product that is like Google Forms
+35:33 but way more simple.
+35:36 Uh probably AI already knows about
+35:37 Typeform so like it you can tell it it's
+35:39 somewhat inspired by Typeform.
+35:42 Um and the goal is that the AI will ask
+35:45 me a bunch of questions in order to meet
+35:48 this data structure
+35:50 that the creator is after. Because I
+35:53 think what's really cool about dynamic
+35:54 conversational interfaces that you you
+35:57 don't want to
+35:58 um let the user complete the chat until
+36:01 you got what you wanted. You got the
+36:04 first name, the last name, um
+36:07 the
+36:08 uh street, whatever. Like all of those
+36:10 things would happen conversationally.
+36:12 I also would explore
+36:14 you know, if I'm asking for an address,
+36:16 like what is the right input for uh
+36:19 asking for an address? So it's like more
+36:20 of a Google Maps thing.
+36:22 At some point, I will say maybe the the
+36:25 um
+36:26 the
+36:28 the screen is splits into two.
+36:30 So imagine if like when you're asking
+36:32 for a location, because now we have all
+36:35 the all of the space in the world, we'll
+36:37 split the screen into two.
+36:39 And on the right-hand side, we show the
+36:41 map. And the left-hand side, we show the
+36:43 input. So yeah, I mean this is kind of
+36:45 an encouragement for people to think
+36:47 about, okay, forms are a big deal
+36:50 and there's going to be something new
+36:52 that uses AI and turns it upside down.
+36:57 By the way, what what
+36:59 what you just said at the end
+37:01 is potentially a good prompt for, you
+37:04 know, ChatGPT.
+37:06 Yes.
+37:06 >> Which is like, hey, I'm trying to create
+37:09 the, you know, a conversational AI
+37:11 Google Forms killer.
+37:13 I
+37:14 >> Yeah. need help imagining what an
+37:16 interface which might, you know,
+37:20 be super clean, super fast, super
+37:23 beautiful to use that's different than
+37:24 anything that's out there.
+37:26 Give me three or four ideas and
+37:28 sometimes that could become the Yep. the
+37:31 fodder for what you end up putting in
+37:33 V0. Yep. I was going to also say if
+37:35 you're more comfortable with um
+37:37 engineering, what what V0 is going to
+37:40 use under the hood is this AI SDK that
+37:43 we created. I mentioned that it's like
+37:44 the React for AI.
+37:47 And we have a lot of really cool
+37:49 templates for it so that you can get
+37:51 started with something that's already
+37:53 been built.
+37:55 Um so I'm going to show you I think it's
+37:57 uh chat SDK.dev.
+38:00 So this interface right here
+38:03 if you go to try it out you're going to
+38:05 see this is basically an open-source
+38:07 ChatGPT.
+38:08 I call this open-source ChatGPT for
+38:11 enterprise.
+38:13 And the the main idea behind this
+38:17 is
+38:18 it can basically you can mold it into
+38:20 whatever you want it to be. So I'm going
+38:22 to ask it a question first. I'm going to
+38:23 say, hi there.
+38:26 So it's using Grok vision models. It's
+38:29 using the AI SDK obviously so you can
+38:30 bring whatever model.
+38:32 Something really cool about this is we
+38:36 are big fans of this concept what we
+38:37 call generative UI.
+38:40 I'm going to ask, what is the weather in
+38:41 San Francisco?
+38:45 Notice that it's responding with a UI
+38:47 component.
+38:49 I believe the future of this AI
+38:51 conversational interface is going to be
+38:53 this
+38:54 intertwining of chat and rich UI
+38:57 components.
+38:58 But perhaps my favorite thing about this
+39:00 demo that is pretty wild is let's ask it
+39:03 to write an essay about Silicon Valley.
+39:05 Look at what's going to happen. When it
+39:07 calls it detects and calls a tool for
+39:09 writing, it splits
+39:11 the UI into two. We also use this
+39:14 pattern in V0 itself and this is all
+39:16 open source.
+39:18 So imagine this concept that I just
+39:21 showed you
+39:22 but for that conversational interface
+39:25 that we're just talking about where when
+39:28 I get the next question
+39:30 I may actually get a much richer
+39:32 interface for answering that question.
+39:34 Maybe this is a really cool interviewing
+39:36 UI. Maybe this is a really cool aptitude
+39:40 test UI. Maybe this is the future of how
+39:42 you give students a really cool
+39:44 interface for a test.
+39:46 It's like, "Hey, I'm I'm your digital
+39:47 teacher. Like, let's let's evaluate your
+39:50 skill in math."
+39:51 But, you know, when you're teaching kids
+39:55 in education and AI, especially for
+39:57 children, is something that I'm I'm
+39:58 really passionate about and I've been
+39:59 thinking a lot about recently. Imagine
+40:01 if like one of the
+40:03 steps in the test needs a like little
+40:06 virtual game for to for testing math and
+40:08 addition.
+40:09 And so, this is the beautiful thing
+40:10 about Vercel. It's like all of those
+40:12 things that I just talked about, we have
+40:13 examples of games. We have examples of
+40:15 like all kinds of of
+40:18 of UIs like this one. So, I I do think
+40:20 the possibilities are kind of endless
+40:22 here. I want I want you to do one more
+40:24 idea, and I just want to talk about the
+40:25 template stuff. So, what I think one
+40:28 good idea for people is to go through
+40:31 the templates
+40:33 and be like, "Okay,
+40:35 this is you know, this is a really cool
+40:37 idea, but if I focused it on this
+40:39 niche." Yes. Yes. Then, I think like if
+40:43 this for education, or this for K
+40:45 through 12, or this for fintech, or this
+40:48 for whatever.
+40:50 And, you know, I think that a lot of
+40:52 people are just
+40:55 creating their own stuff when they could
+40:57 just be seeing what other people have
+40:59 done and just kind of duplicating it and
+41:01 focusing on a niche.
+41:03 Yeah, there's also OSS vibe coding
+41:06 platform. I'm extremely proud of this
+41:08 one. The team really cooked.
+41:10 Um again, this is a little bit more
+41:11 advanced. Yeah.
+41:13 >> But, we basically open-sourced Vercel,
+41:16 if you think about it. So,
+41:18 um we have a bunch of models here.
+41:21 Uh and you can say, "Build me a little
+41:24 to-do list app."
+41:26 Okay, I have to sign in with Vercel. You
+41:27 can you can do it in uh
+41:30 at your home. But, what you're going to
+41:31 see is that when you start creating
+41:33 this, we're going to write an
+41:35 application here on the right-hand side
+41:36 of the screen.
+41:38 We're going to create a sandbox for
+41:39 every creation. This is basically like
+41:41 open-source Replit, if you will.
+41:43 Uh another really cool starting point
+41:45 from from the Vercel template
+41:47 marketplace. And again, these two are a
+41:49 little bit more advanced. If you are not
+41:51 that comfortable with coding yet, I
+41:53 would start with the Vercel community
+41:54 templates. But, you mentioned going back
+41:56 to some ideas. So, maybe I'll show you
+41:57 some of the ones from the most recent
+42:00 idea thread. Yep.
+42:02 Okay, so,
+42:04 oh wow, speaking of vibe coding, um
+42:07 this one, the inspiration for this So,
+42:09 it's a Notion-style document tool where
+42:11 every block can be vibe coded. For
+42:13 instance, if you need a chart, it's just
+42:14 a matter of adding a block backed by a
+42:15 prompt. These blocks could could be
+42:17 live, reactive, and re-evaluated No, no.
+42:20 So, this one came
+42:21 This one is like taking this uh element
+42:24 further
+42:25 and realizing that you probably, instead
+42:28 of wanting to like write everything,
+42:31 you want this to be like promptable
+42:33 blocks. Yeah.
+42:35 Could be interesting for like data viz
+42:37 tools. Uh you mentioned like in terms of
+42:39 like niches, it could be
+42:41 a really cool way of
+42:43 creating like very interactive essays.
+42:46 Um the idea there was, why are we
+42:49 writing everything from scratch?
+42:51 You know, and why are we limited to the
+42:54 five or six types of blocks that they
+42:56 that the document tools have invented
+42:57 and designed for us, if we now have AI?
+43:00 Uh I might decide to like, here I want
+43:02 um you know,
+43:04 uh a really like right here, I want like
+43:06 a mini game, or I want a
+43:09 um
+43:10 uh very very cool chart, or you know,
+43:14 you know, another inspiration for for
+43:15 data viz that I think is going to be big
+43:17 is
+43:18 Have you ever seen those videos that
+43:20 show the growth growth of a thing when
+43:22 another thing was was big? It's like the
+43:24 top one is like it's like a wide
+43:26 rectangle.
+43:28 And then it walks you through the years.
+43:30 2020, 2021, and then you see all of the
+43:32 players reshuffle and advance and
+43:34 whatever. The best data visualizations
+43:36 on the planet are not rigid. They're not
+43:39 part of like the line chart, the the pie
+43:41 chart, et cetera. They they might have
+43:43 elements of navigation, et cetera. So,
+43:46 this is a big idea. Like, I was trying
+43:47 to think like, what is the future of
+43:49 documents with with AI? Um
+43:54 This one, again, like I feel like it's
+43:56 underrated. Like, this is like AI camera
+43:58 vibes.
+43:59 Because um
+44:02 the I think I mentioned the
+44:04 Sorry. Can Can you read Can you read the
+44:06 idea? Yeah, the LLM vibes radar.
+44:08 Periodically ask AI for opinions and
+44:10 rankings. What's the best burger in SF?
+44:12 Who's the best candidate? Data
+44:14 visualization could look Google
+44:15 Trends-y.
+44:17 Uh you see ISR, I mentioned like a nerd
+44:19 thing of like you don't want to like
+44:21 query the AI on demand. You want like a
+44:23 really good caching system. And so,
+44:25 there's a technology that Vercel has
+44:27 called ISR that's really good for this,
+44:29 especially for high-traffic websites.
+44:31 This tool can help the world become more
+44:33 aware of biases in AIs,
+44:36 be the Wirecutter for everything,
+44:37 entertain, inform businesses on how
+44:40 they're falling in or out of favor.
+44:44 The idea is that
+44:46 this is kind of like a content virality
+44:49 idea.
+44:51 And it's a good way to like zing the AI
+44:54 model vendors. Like, everyone loves to
+44:58 expose biases in AI. And like, this
+45:01 there's a thing that had gone really
+45:03 viral during the last US election.
+45:06 Uh when you would ask it about Trump,
+45:07 and different models would create
+45:09 different things, and So, there is
+45:10 almost like a polymarket,
+45:12 but of AI responses
+45:15 thing.
+45:16 Uh it's almost like a free content
+45:18 generation engine that I think is going
+45:20 to interest people.
+45:22 What does ChatGPT think is the best
+45:24 burger in SF?
+45:25 A lot of this, I think, in order to nail
+45:27 this idea, you have to find
+45:30 um how do you like how do you visualize
+45:33 those questions and the question
+45:34 selection,
+45:35 so that it is it sparks people's
+45:37 interest, and then ride news cycles.
+45:41 So, that when something interesting
+45:42 happens in the world, you're able to
+45:44 like go to this site and find out like
+45:46 what the AIs think, or whatever. I also
+45:48 think that the timeline is also super
+45:50 cool.
+45:51 You can almost be like an archive.org,
+45:54 but for what LLMs have been steered to
+45:57 thinking.
+45:59 Hmm. If you can discover interesting
+46:00 patterns over time, that could be huge.
+46:03 Like, you ask, you know, Claude or Grok
+46:06 or whatever, like,
+46:08 "Who is the smartest person in the
+46:10 world?" And like, you see it change like
+46:12 in 2020 was this, in 2021 was this, in
+46:15 2022 was this, or I I think I don't know
+46:17 exactly what again, like
+46:20 there's a lot here, but I think there is
+46:22 there is there's something that could
+46:24 have the potential for virality.
+46:26 Give Give me one more idea.
+46:28 All right. This one I actually think I
+46:31 might build at some point, because I I
+46:33 need it. Like,
+46:34 there's there's
+46:36 uh asking an LLM So, okay, so the the
+46:38 the the prompt or or idea is deepest
+46:41 research. Emphasis on est.
+46:43 I notice that when I really need to
+46:45 study a topic in depth, I don't want to
+46:47 bank on the viewpoint of a single LLM.
+46:49 Many times I fire up ChatGPT, Grok, and
+46:51 Perplexity,
+46:52 >> [snorts]
+46:52 >> and Claude in a bunch of tabs. I would
+46:55 love a tool that uses all the available
+46:57 intelligence on the internet to produce
+46:58 the best possible report. Key,
+47:02 tell me how the experts, aka AIs,
+47:05 differed.
+47:06 Especially if they have contradicting
+47:07 facts,
+47:09 figures,
+47:10 or conclusions.
+47:12 So,
+47:13 have you heard of this being done
+47:14 before? No, but I'm obsessed with the
+47:17 name deepest.research, by the way. Yeah,
+47:19 take it. Yeah.
+47:21 Um also, the idea So, I'm going to
+47:24 I was just seeing if deepest.research.ai
+47:27 is available.
+47:28 >> [laughter]
+47:28 >> It's $30,000, which honestly isn't
+47:30 crazy, but It could also be deepest.ai.
+47:33 I'm
+47:35 Would you say it's deepest.ai?
+47:38 I was thinking that, yeah. Cuz I also
+47:39 think people underestimate how important
+47:41 it is that
+47:43 you build something that is so simple
+47:45 and effective that you return to it by
+47:48 typing the URL.
+47:50 Cuz like, maybe you had a have an
+47:52 instance where you got exposure through
+47:53 internet.
+47:55 You went you clicked the link.
+47:57 Maybe you didn't have quite the use case
+47:59 for it at that time.
+48:01 But then, you're going to be in a
+48:02 conversation or something, and you're
+48:04 going to say like, "Oh [ __ ] I need a I
+48:06 need to do the deepest
+48:08 research here."
+48:09 And you need to be able to recall that
+48:11 URL, and then type it into your mobile
+48:13 device. And this is why I was insisting
+48:15 on like the AI camera being successful,
+48:18 because
+48:20 it was mobile-friendly.
+48:21 And
+48:22 um and so, you need to be able to like
+48:23 get back to the URL quickly. So, I think
+48:25 short here might pay dividends.
+48:28 I'm going to buy the domain
+48:31 deepest.research.net.
+48:34 And which is kind of like old-school
+48:36 '90s vibe, cuz that'll be the
+48:38 >> like a .net. The .net is under I
+48:40 actually think is criminally underrated.
+48:42 And I'm going to give it a You know, if
+48:44 you want to compete with Guillermo, cuz
+48:47 he he's going to do this in the future.
+48:48 He's he's
+48:49 >> in mind that my the way that I execute
+48:51 on this is like I open-source things.
+48:52 So, like you might actually take benefit
+48:55 from it. But, you you should race me to
+48:57 it, for sure. Race Race Guillermo. I'm
+48:59 going to uh for people, I'll I'll just
+49:01 pick a random comment, and and I'll give
+49:04 it to I'll gift it to someone.
+49:06 Um and let's see who builds it.
+49:08 Okay.
+49:09 Yeah, and
+49:10 um to give you some more context on this
+49:12 one, I think
+49:14 the people that select into this kind of
+49:17 thing are going to be highly highly
+49:19 highly qualified buyers, I think. Yeah.
+49:22 You don't do deepest research of like,
+49:24 you know, what kind of banana like grows
+49:27 in the Mediterranean, whatever. Like,
+49:30 none. But,
+49:32 it's going to be for people that are
+49:33 doing financial stuff, that are doing
+49:35 competitive research, that are like
+49:37 maybe they're like really stuck on a bug
+49:40 and like they need like every angle
+49:42 explored and whatever.
+49:44 Um, you might want to have some prompt
+49:46 presets like uh select the level of the
+49:50 kind of analysis that you want to do and
+49:51 and the prompts are would be like kind
+49:53 of like your secret sauce.
+49:55 Like maybe do like um
+49:57 uh analyze critically.
+50:00 Um find edge cases. Um
+50:04 uh tell me about public opinion. So
+50:08 there might be by by putting this tool
+50:11 in front of users you might get into
+50:12 like some really cool like what kind of
+50:14 research do you want to do?
+50:16 Uh and and again like
+50:18 you know you know what's really
+50:19 interesting about the world?
+50:22 You can argue that ChatGPT will continue
+50:24 to get super sophisticated and will eat
+50:26 every startup and whatever.
+50:29 But what I find is that
+50:31 some products are so important or some
+50:33 capabilities are so important
+50:35 that they always deserve their unique
+50:37 entry point.
+50:39 Their unique URL. Their unique interface
+50:42 dedicated to that problem. And you might
+50:44 actually outcompete the giants in things
+50:47 like this. Much like what I think
+50:50 ChatGPT is doing to Google.
+50:52 Because what ChatGPT is doing to Google
+50:53 is that I don't think to go to Google to
+50:55 ask this long
+50:58 like long-form questions with prompts
+51:00 and I want to engage in a chat. So it's
+51:03 so hard for Google to compete with
+51:05 ChatGPT because the best they can do
+51:08 is do that AI overview thing, right?
+51:11 But
+51:12 pay attention to what they called their
+51:14 ChatGPT AI mode.
+51:18 You have to go into a mode. You have to
+51:20 go to a quote unquote a different
+51:21 product in order to compete with
+51:23 ChatGPT.
+51:24 And so my argument is you can do that to
+51:27 ChatGPT itself.
+51:29 Because when I go to ChatGPT
+51:31 in order to do deep research I have to
+51:33 get into a mode.
+51:35 And they're trying their best to route
+51:36 and whatever but when I get into that
+51:38 mode and I want all of these new
+51:39 capabilities I I maybe there's buttons
+51:42 maybe there's levels of depth depth of
+51:44 research. It's like a pro tool for deep
+51:47 research. Mhm. Damn, I want to do this
+51:49 idea. I'm like I don't want to give away
+51:51 this domain to someone but
+51:53 well we'll give it away. We'll give it
+51:54 away. All right, I
+51:55 I I think we're out of time. I I I
+51:57 unfortunately
+51:58 >> Sadly we're I wanted to keep going but
+52:00 uh uh
+52:01 uh yeah. Yeah.
+52:02 It's uh there's a lot to do with this.
+52:05 Sa- sadly we're out of time.
+52:07 One thing I I my biggest takeaway from
+52:11 from just talking to you is
+52:13 it really is
+52:15 like the limit is your ideas, you know,
+52:18 coming up with good ideas. The tools are
+52:20 out there.
+52:21 Uh this fires me up. G, thanks for
+52:24 coming on. I'll include
+52:26 uh some some of the links um in you know
+52:30 like the templates and and all that
+52:32 stuff in the show notes. I'll include
+52:34 where to find G on X.
+52:37 Anything else you want to leave people
+52:38 with? No. If you do build any of this
+52:41 just ping me on X. I'd love to take a
+52:42 look and maybe give you feedback.
+52:46 I appreciate you, man.
+52:47 I'll see you next time.

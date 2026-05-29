@@ -1,0 +1,506 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=JaUv32REOr8
+Channel: Riley Brown
+Video ID: JaUv32REOr8
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 Do you ever wonder why apps made by
+0:02 Apple look so good? Well, I'm here with
+0:04 an who, who has 10 years of experience
+0:06 as a senior iOS engineer, and he's going
+0:08 to show us the seven tips and tricks on
+0:11 how we can vibe code mobile apps that
+0:14 look like they were designed by Apple.
+0:15 And by the end of this video, you will
+0:17 know exactly how to build a beautiful
+0:19 app directly from your phone and get it
+0:21 on the app store. Let's not waste any
+0:23 time. Let's dive in.
+0:24 >> Yeah. So, one of the biggest things that
+0:27 is an advantage for people who are using
+0:28 the Vibe Code app is that you can use
+0:30 Apple's native features like their new
+0:34 glass UI, their liquid glass UI, or a
+0:36 bunch of other things as well like their
+0:38 segmented controls, their modals, their
+0:40 bottom sheets, their large headers,
+0:42 their animations that come baked in. If
+0:45 you've used an iPhone or if you have an
+0:47 iPhone, you definitely know what I'm
+0:48 talking about. You can go to like any of
+0:50 the popular iOS apps like you know let's
+0:53 say the appso you can see like the
+0:56 header at the top where it says today
+0:57 just like kind of scrolls away or these
+1:01 like liquid glass bottom sheets that
+1:03 look super nice or this like search tab
+1:06 that looks super nice with the animation
+1:10 when like expands. These kinds of things
+1:13 come baked in by default in iOS apps and
+1:17 you can't get this on web apps. You
+1:19 can't get this at all if you're using
+1:21 lovable, bold, vzero, replet. You can
+1:23 only get this if you're using a native
+1:26 iOS builder like vibe code,
+1:27 >> right?
+1:28 >> So vibe is the best place to do this
+1:30 because we have all these features baked
+1:32 in. No one else has any of these
+1:34 features baked in.
+1:35 >> So you can just go to the app and build
+1:37 an app, whatever you want, and add those
+1:39 little element. You don't have to add
+1:40 all of them. You can just add a few of
+1:42 these elements in your app.
+1:43 >> And we're going to provide you with the
+1:45 exact prompts to get any of these
+1:47 features into your app. So, we're going
+1:49 to base off our to-do app reminders iOS
+1:52 app. It's a super simple, clean iOS app.
+1:56 And now, the first thing we're going to
+1:57 build is the large header transition.
+2:00 So, the header on this screen, you can
+2:02 see it says reminders, right? And when I
+2:04 scroll down, you see the reminders text
+2:08 changes from this large header to small
+2:10 header and adds this like fade in
+2:12 animation. Now, if you were doing that
+2:14 manually, that would be a lot of work.
+2:16 But because you can use the Vibe Code
+2:18 app and you can just prompt it in one
+2:20 sentence, it's super super easy. So,
+2:22 here is a demo of me implementing the
+2:24 exact same transition.
+2:27 You see that? So it's like this large
+2:29 header transition that goes into this
+2:32 like blurred header. So this is what
+2:34 we're going to be implementing in a
+2:36 to-do app. So let me start by generating
+2:38 a to-do app.
+2:41 Create me an app that looks like the
+2:44 Apple reminders app. It should be a very
+2:46 simple and minimalistic to-do app that
+2:49 looks like Apple reminders. It should
+2:51 look exactly like the reminders app you
+2:53 find on the iPhone. Oh yeah. search the
+2:54 internet and, you know, figure out how
+2:56 the Apple reminders app looks like, find
+2:58 some images if you can, and then make it
+3:01 look exactly like that.
+3:02 >> It usually does a good job when you tell
+3:05 it to search the internet. Like it'll
+3:06 probably just like find someone who's
+3:08 rebuilt it before.
+3:09 >> Yeah.
+3:10 >> And it'll make it just like that.
+3:12 >> Cool. Let's hope that works.
+3:13 >> Okay, cool. So, our app is done. You can
+3:16 see this the first prompt I wrote. It
+3:18 created a bunch of tasks and it just
+3:21 finished. The app is now running on your
+3:23 device. So, let's go into the app. Wow,
+3:26 that looks pretty good. Looks pretty
+3:29 close to the reminders app.
+3:31 >> Looks kind of like the old one before.
+3:32 >> It looks like the old one. Yeah, it
+3:34 probably has old training data, but I
+3:36 can add a list. Okay, nice. New list.
+3:40 Choose an icon. These icons look great.
+3:42 And then I can add a new reminder. Okay,
+3:45 that's a little bit janky, but I can add
+3:48 it. And that looks pretty good. Okay.
+3:53 So, I think the first thing we want to
+3:55 do, obviously, [snorts] we want to fix
+3:57 the the little reminder thing at the
+3:59 bottom, but I think the first thing we
+4:00 want to do is implement this sort of
+4:02 large header transition. So, I'm going
+4:04 to put in my prompt here. So, I have the
+4:07 prompt copied, but first I'm going to
+4:09 select which header I want to animate.
+4:11 So, I'm going to use our select feature.
+4:13 Then, I'm going to click select, and I'm
+4:15 going to click on the header. And I can
+4:16 see when the borders pop up on which
+4:19 element I'm selecting. I can select an
+4:21 element and then click done. And then
+4:23 the app will know which element I
+4:24 selected. So I will say make this
+4:26 element a large header uh title with the
+4:31 iOS animation. Here's how. And I'm going
+4:35 to paste the prompt which gives it the
+4:37 technical instructions and what to do.
+4:39 And I'll just fire it. And this is the
+4:42 exact prompt I used to make this happen.
+4:44 So, large header titles and we'll
+4:46 include this document at the end of the
+4:48 video with all of the prompts that we
+4:49 use in this video.
+4:50 >> Yeah, don't don't worry. I know this
+4:52 prompt like looks scary, but it's like
+4:54 you don't need to understand it. It's
+4:55 just the most efficient way to convey to
+4:57 the AI what to do. Tip number one is use
+5:00 large header. So, this is the app that I
+5:03 made and you can see the large header.
+5:06 >> It looks exactly like the reminders app.
+5:08 If you want to make do this right now,
+5:10 this is like the cutting edge of like
+5:12 making your apps look awesome. So this
+5:15 is the first thing we implemented. The
+5:16 next thing we're going to implement is
+5:18 context menus. So when I can long press
+5:21 an item in the reminders app, for
+5:24 example, you get this like nice context
+5:26 menu
+5:27 >> which you you can do a bunch of things
+5:29 like delete details of your reminder
+5:32 etc. And so we're going to implement
+5:33 this. So I wrote out a prompt for it.
+5:36 It's right here. This one's way simpler.
+5:38 It's just use ZGO context menu open and
+5:41 long press map item sub menus with
+5:43 native look no custom styling here the
+5:45 docsing you just drop the docs.
+5:47 >> So if you just copy that uh the context
+5:50 menu one right there and paste it in and
+5:52 say please implement this in whatever
+5:54 app as long as there's something that it
+5:57 can long press it'll add it.
+5:58 >> And yeah you can add more context to the
+6:01 prompt about the context menu. You know,
+6:04 you can say put it on this element or
+6:06 like, you know, you can use the select
+6:08 tool and be like, oh, put it on this
+6:10 other element. You can do whatever you
+6:11 want, but this is like the base prompt
+6:13 which you can use. So, it just
+6:15 implemented the ZGO context menu and
+6:20 this is basically how it works. So, I
+6:22 can long press a reminder and we have
+6:24 this exact context menu. I can even like
+6:26 move lists. I didn't tell it to
+6:28 implement any of this, but I just made
+6:29 it up. I can mark it as complete
+6:32 complete. list.
+6:33 >> Yeah, sure.
+6:34 >> No, I meant like uh through Vibe Code
+6:36 like add a different option like a share
+6:38 option.
+6:38 >> Yeah, of course. You can just tell it
+6:40 you can tell it add something new to the
+6:42 context menu. So, this is called a
+6:43 context menu and then obviously you can
+6:45 delete stuff. But yeah, it works pretty
+6:47 well and this allows us to like make our
+6:50 app just feel a lot more native. Next,
+6:53 we are going to implement the bottom tab
+6:57 bar. So, this feature is there on the
+7:00 app store app for example. So, we're
+7:02 going to implement this, which is pretty
+7:04 nice. So, we're going to see how that
+7:06 can work. And I don't think any vibe
+7:07 coding tool out there can do this right
+7:09 now. So, this is all like brand new
+7:11 stuff. So, let's make another tab in our
+7:14 app. What should we call the other tab?
+7:16 Maybe we should call it notes. Yeah,
+7:18 perfect. Let's do reminders and notes
+7:20 together.
+7:20 >> Cool.
+7:21 >> All right. So, this is the prompt I used
+7:23 here. Use React Native bottom tabs in
+7:26 bottom tabs React navigation package to
+7:28 implement native bottom tabs. Here are
+7:30 the docs. So you can see a pattern with
+7:33 these prompts where it's just like use
+7:34 this package and use these docs. The
+7:36 reason why we have to do this is because
+7:38 any of these like new fancy features
+7:41 usually aren't in the training data for
+7:42 the AI which makes it so that you have
+7:45 to be very very explicit in what you
+7:48 want.
+7:48 >> And by the way, if you're new to um vibe
+7:51 coding, you might not even know what
+7:53 docs means. And all of that is just a
+7:55 link to the instructions manual where
+7:58 this can be found. So the AI agents are
+8:01 smart enough to go read the instructions
+8:03 to implement it properly.
+8:04 >> Yeah, exactly. I copied this prompt and
+8:06 I pasted into the app as you can see
+8:08 right over here. I pasted it in. Cool.
+8:10 >> And then I wanted another tab called
+8:12 notes. And there we go. Boom. Look at
+8:14 that. Another tab called notes.
+8:17 >> Yeah, that's pretty cool. Can I feel it?
+8:19 >> Yeah, go ahead.
+8:20 >> That's pretty cool. So that looks good.
+8:24 It looks the same. Yeah,
+8:25 >> it's the same. It's basically the same.
+8:27 You can add more tabs if you want. You
+8:29 can do whatever you want. And if you
+8:31 already have an app with tabs in it, you
+8:33 can just tell it to replace it and it'll
+8:34 work. Now you can see we're coming
+8:36 together. We have the the header there.
+8:38 We have um our context menu. The header
+8:41 is kind of cooked on that one. That was
+8:43 tip number three.
+8:44 >> That was tip number three. Now we're
+8:46 going to tip number four. All right. So
+8:48 we're going to implement this bottom
+8:50 sheet or model. It's called both things,
+8:52 but essentially it's this like sheet
+8:54 that pops up from the bottom and it's
+8:57 implemented in a lot of different apps.
+8:58 The most common one is like the maps app
+9:00 right here. I'm not going to go down
+9:02 from here cuz I mean we'll dox our
+9:05 location. Everyone knows we're in San
+9:07 Francisco, but we're implement a bottom
+9:10 sheet here. I'm thinking we're going to
+9:12 implement it while we're adding a note.
+9:14 So instead of adding a note in this like
+9:17 little thing right here, which looks
+9:18 kind of honestly kind of bad,
+9:21 >> pretty bad.
+9:21 >> Um we're just going to implement it in a
+9:24 bottom sheet.
+9:25 >> I like it.
+9:26 >> So let's start with that prompt. Cool.
+9:28 So this is the next prompt where we've
+9:30 implemented a bottom sheet or modal. You
+9:33 can implement this for a lot of
+9:34 different things. It depends on like the
+9:36 kind of UI you want to build. In my case
+9:38 I implemented it to add notes. So
+9:41 essentially over here I implemented it
+9:44 wherein you can oh look we have our
+9:47 header. It's always nice to to look at
+9:49 it but you can like have this.
+9:51 >> So you can like resize this in like
+9:53 various sizes. You can also adjust these
+9:55 like snap points. So if you look at the
+9:57 prompt, it says make multiple snap
+10:00 points including a full screen.
+10:01 >> Can you describe what a snap point is
+10:03 really quick?
+10:03 >> So it's like where where this sheet will
+10:06 snap. So this is like a 50% snap point
+10:08 cuz it snaps at 50% of the screen. This
+10:11 is like a 100% snap point and then this
+10:14 is like a 10% snap point. So you can
+10:16 have multiple snap points for your
+10:18 sheets and you can like adjust them.
+10:20 This sheet has like a lot of different
+10:22 snap points. I think we have a 10, a 20,
+10:25 a 50, uh, 75, and 100% snap point. So,
+10:30 yeah, I can just edit um, my note, and
+10:34 then I can also add content to existing
+10:36 notes. Um, and yeah, it kind of kind of
+10:40 works pretty well. So, yeah, this like
+10:41 notes app now looks and feels like super
+10:44 super native. Obviously, I would want to
+10:46 adjust the colors and things like that
+10:48 as well. Um, the next thing we're going
+10:49 to do is allow us to adjust the dates.
+10:52 So date pickers in iOS are pretty cool
+10:56 because they basically allow you to
+10:59 select dates and times and they look
+11:01 very native. So for example, in the
+11:03 reminders app, we can select custom date
+11:06 and time. It has this picker with this
+11:08 like rollerblade thing. Fun fact, the
+11:11 last year on this is like Yeah, there we
+11:13 go.
+11:13 >> There you go.
+11:14 >> You can't go more than year 10,000.
+11:16 >> Which is which is funny cuz they said
+11:18 it's a list instead of like a spinny
+11:20 circle. That's what people were talking
+11:21 about. Yeah.
+11:23 >> So, I mean I can set this to like
+11:25 December 30 40 34 94 but yeah
+11:30 essentially we can create um any of
+11:33 these like date time pickers. You know
+11:35 time works in a similar way. And so that
+11:38 looks pretty nice. And then we can also
+11:39 create these like switches. So these
+11:41 switches are like nice liquid glass
+11:44 switches. So we're going to do both of
+11:46 these in one go. We'll have two separate
+11:48 prompts, but we'll implement them both
+11:50 together. Cool. So, these are the
+11:52 prompts for the switch and the date and
+11:54 time pickers. The switch one is super
+11:56 easy. This one's just built in. The date
+11:59 time picker um is a little bit more
+12:01 complicated, but it's mostly about the
+12:03 styling. For some reason, the styling on
+12:05 the datetime picker is always wrong
+12:07 unless you tell it the correct styling.
+12:10 So, if you're using a white background
+12:11 app like I am, you want to make it use
+12:15 black text. And so I just told it that.
+12:18 So over here if we are like editing a
+12:20 note, we can set a due date. So we can
+12:22 see that we have this like nice
+12:24 >> nice switch that uses liquid glass. And
+12:27 then we have this nice um native date
+12:31 picker. So you can do this for reminders
+12:33 as well. And then you can like select
+12:35 your due date and you can like click
+12:37 save. That's pretty much it. So yeah,
+12:39 that's kind of another native component
+12:42 that you can use to make your apps feel
+12:43 more native. like this app now feels a
+12:45 lot more native. We have these headers,
+12:47 we have the tab bars, we have date
+12:49 pickers, all that good stuff. Now, we're
+12:52 going to do our final one. And our final
+12:54 one actually does not require a prompt
+12:56 because it's built into the app.
+12:59 >> Amazing.
+12:59 >> So, our final one's haptics. So, haptics
+13:02 make your app feel a lot more native.
+13:04 >> They're like little mini vibrations that
+13:07 have like different patterns of
+13:08 vibration depending on what action you
+13:11 do. If you use a chat GBT app,
+13:13 especially in the beginning, the chat
+13:14 GBT app had a lot more haptics, but it I
+13:17 really enjoy apps that feel more alive
+13:19 like when you press certain buttons, it
+13:21 can, you know, like you can reward the
+13:23 user for pressing certain buttons
+13:25 almost.
+13:25 >> Yeah. Like the medium impact and the
+13:28 light impact feel really good. Like the
+13:29 success notification, like it feels
+13:31 good, whereas like if you select the
+13:34 error one, it feels wrong. It's like
+13:36 something wrong happened. like the only
+13:38 way to know it is to download the Vive
+13:40 Code app and try it because you will
+13:42 know when you try it
+13:43 >> 100%.
+13:44 >> Um, and so I want to add haptics. And so
+13:48 Vive Code makes it really, really easy
+13:50 because all I need to do is select the
+13:52 haptic I want. So I can be like, okay,
+13:55 um, when I switch tabs, I want to add
+13:57 this haptic. I also want to add this
+13:59 haptic when I create a new note
+14:02 successfully. Actually, just add this
+14:04 haptic in a bunch of places. [laughter]
+14:07 So, I can add haptics like this um
+14:10 pretty easily. And this is the
+14:12 experience we want people to have with
+14:13 every single type of component we
+14:15 described today. All these prompts are
+14:17 just going to eventually be baked into
+14:20 the VIP code app.
+14:21 >> And so, we have this new tab coming very
+14:24 soon, UI components, that's going to
+14:26 allow you to do any of this very
+14:28 >> So, we're basically going to take all
+14:29 these prompts and possibilities of
+14:31 things you can create and put it into
+14:32 the UI tab to allow you to just select
+14:35 it. We've already done that for like a
+14:36 bunch of APIs. So like if you want to
+14:38 add GP5, Gemini,
+14:41 GPT image, nano banana, stock data,
+14:44 crypto data, um 11 labs or even Sora
+14:48 too. We've like put that all into the
+14:51 API tab and we're going to do that all
+14:53 for UI components. We've already done
+14:54 for haptics. We've done it for like
+14:56 image generation where you can like
+14:58 generate images. So we've done a lot of
+15:00 this stuff already. The last two are
+15:02 coming very soon.
+15:03 >> Amazing. And so is the app done? Yeah,
+15:05 it's just adding haptics. I told it to
+15:06 add a lot of haptics. So, it's edited
+15:08 the note screen six times already.
+15:11 >> Okay. [laughter] So, it's adding it to
+15:12 everything.
+15:12 >> Yeah, it's just adding everything. Okay.
+15:14 Haptic. Add it. Opening bottom sheet.
+15:16 Opening edit sheet. Creating a note.
+15:17 Updating a note. Toggling due date
+15:20 switch. Selecting a date everywhere. It
+15:22 just added it everywhere.
+15:23 >> And it looks like it's done.
+15:25 >> Now it's done.
+15:25 >> Let's Let's feel it.
+15:26 >> Yep. Okay. Cool. So, try clicking add a
+15:29 new note and editing a note and all that
+15:32 stuff.
+15:33 Oh. Oh, yep. There's a lot of haptics
+15:36 going on. [laughter]
+15:37 >> There's haptics and everything.
+15:38 >> I like it. At least it's not a super
+15:39 intense haptic. It's more of like
+15:41 >> light haptics. That's my favorite haptic
+15:43 is the light haptic.
+15:44 >> Yeah. I add a lot of heavy haptics for
+15:46 fun.
+15:47 >> I just like it just intense.
+15:48 >> We're going to add more haptics that
+15:50 have like different patterns like
+15:53 >> Yeah. Yeah. Yeah. There's not enough
+15:54 like uh ascending things like you can
+15:57 add like really fun longer haptics that
+15:59 I think are good in certain situations.
+16:02 >> Yeah. We we're going to add those
+16:03 haptics. If you want like a particular
+16:05 pattern of haptics like the chat GPT
+16:07 haptic, we're going to add that. If you
+16:09 want anything else, we can add that too.
+16:10 >> Yep.
+16:11 >> Eventually, one day we'll make our own
+16:13 haptic generator in the app. But that's
+16:15 >> Anyway, go back to the doc real quick.
+16:17 Yeah. So, in summary, uh we covered
+16:20 seven different tips to create apps that
+16:23 look more like Apple's beautifully
+16:25 designed apps. And the final one is
+16:26 haptics. So, we talked about large
+16:28 header tiles, context menu, liquid glass
+16:31 bottom tab, which I think might be my
+16:33 favorite, or the context menu. I
+16:34 actually really like context menus.
+16:36 >> I just feel like people don't know to
+16:37 long press things, which is hard.
+16:39 >> Well, bonus one. This same thing, we're
+16:41 going to add a drop-own menu, which can
+16:43 be used as a context menu, but you just
+16:46 click on a button and it drops down a
+16:48 menu. So, like this menu, for example,
+16:51 that shows up right now when you long
+16:53 press, we can also make the same menu
+16:56 showdown. show when you like click on a
+16:58 button like these three dots in the
+17:00 right like top right that could show a
+17:02 drop-own menu. So that prompt will be
+17:05 very similar to this one and we're going
+17:07 to add that in the final doc. So you can
+17:09 head over to the vibecodeapp.com/doccks
+17:13 site that we're going to link and you
+17:15 can you can find all these prompts
+17:16 there. Amazing. Thank you guys for
+17:19 watching this video. Uh let us know in
+17:21 the comments uh what videos you want to
+17:23 make next. We just did a multimonth
+17:26 sprint on the new app. Everything is
+17:28 out. So, what app should we build?
+17:29 Should we get people who are building
+17:31 apps on the YouTube channel? Let us know
+17:33 what types of videos you want to see.
+17:34 And uh yeah, we'll we'll see you here
+17:36 for the next

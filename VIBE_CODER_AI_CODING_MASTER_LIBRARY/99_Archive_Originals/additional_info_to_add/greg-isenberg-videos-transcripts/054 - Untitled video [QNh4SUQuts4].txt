@@ -1,0 +1,631 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=QNh4SUQuts4
+Channel: Greg Isenberg
+Video ID: QNh4SUQuts4
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 Today we're going to test how good of a
+0:02 designer is Gemini 3.0 within Google AI
+0:05 Studio. So we're going to actually
+0:07 design a personal website. We're going
+0:09 to design a SAS app. We're going to
+0:11 design a mobile app. And we're going to
+0:12 find out by the end of this episode how
+0:15 awesome is it. Is it a 6 on 10? Is it an
+0:18 8 on 10? Is it a 10 on 10? And to be
+0:21 honest, the only exposure I had to using
+0:24 Gemini 3.0 O and Google AI Studio was in
+0:27 the episode I did the other day with
+0:28 Logan Kilpatrick from the DeepMind team.
+0:31 It did a pretty good job at it.
+0:33 Actually, a very good job at it. And I
+0:35 wanted to go deeper and do an episode
+0:37 where we just kind of see, okay, you
+0:39 know, can can this thing go the extra
+0:41 mile. So, we're going to do it together
+0:43 and we're going to find out how good it
+0:46 is.
+0:49 [music]
+0:54 So, let's start off by designing a
+0:56 personal website. So, I actually have a
+0:58 personal website.
+1:01 Um, but I think it could be a lot more,
+1:05 let's put it, you know, nicer. I think
+1:06 it could be a bit a bit nicer. It's just
+1:09 quite basic. So, I'm going to go ahead
+1:11 and copy
+1:13 uh copy uh the screenshot. Um, I go to
+1:18 build over here. And this is where
+1:20 you're going to go and design or build
+1:22 your ideas. So you can use this to vibe
+1:23 code or you can use this to be a vibe
+1:26 designing. So you you can see here that
+1:28 I've selected the Gemini 3 uh pro um
+1:34 model and I'm going to say I have a
+1:38 personal web page,
+1:40 but I think it's not that well designed
+1:46 or could be better.
+1:50 I've attached a screenshot of what it
+1:54 looks like,
+1:57 but I want you to design this with more
+2:02 color, more freshness,
+2:08 and more and just all around more
+2:13 interesting.
+2:15 Maybe you can make it a full experience
+2:21 somehow. Not giving it a lot of uh I'm
+2:25 not giving it a lot of instructions.
+2:27 [snorts]
+2:28 I kind of want to see like what it does.
+2:30 I could be could maybe say like, hey, I
+2:32 want it to be like Microsoft XP designed
+2:34 or something like that. Actually, it's
+2:35 probably a good idea.
+2:38 Let's make it look like a 3D experience.
+2:43 Microsoft
+2:45 XP. Actually, not 3D experience. Let's
+2:48 make it look like an experience in
+2:50 Microsoft XP except it's a personal
+2:54 website.
+2:55 Um, the website domain is
+2:58 gregisenberg.com if you want to grab
+3:01 content from there. Okay. So I've gone
+3:05 ahead and given it a prompt and now you
+3:10 can see Gemini 3 Pro Pro preview is
+3:13 running. This is cool that you'll see
+3:16 that it it does you know on on AI Studio
+3:18 and Gemini 3 you kind of see it shows
+3:21 its work. Um so it'll say like you know
+3:26 what it's doing. Um so you can see here
+3:28 it's actually creating the metadata.json
+3:31 the index.html.
+3:33 Um and you can I think yeah hover over
+3:36 it and you can see what what is
+3:38 happening. So it's using Tailwind CSS
+3:41 uh React application entry point.
+3:45 Um and by the way I have no affiliation
+3:47 with Google. I do think that they are
+3:49 absolutely crushing it lately. Um and I
+3:53 think in 2026 um they will continue to
+3:56 crush it. So, I am bullish on them and
+3:59 that's why I really want to get to use
+4:00 their products more and more because uh
+4:02 I'm just seeing that, you know, them
+4:05 just do a great job at uh you know,
+4:07 think about where they were 12, 18
+4:10 months ago. They were literally building
+4:11 Google Bard. You know, they went from
+4:13 Google Bard, lamest name, to you know,
+4:16 their cursor competitor is called
+4:18 Ultragravity. Way cooler, right? So, you
+4:21 could just see that they're they're
+4:22 taking a lot more seriously. And I think
+4:24 that it's really going to be, you know,
+4:26 it's it's it's Google AI versus code
+4:29 versus uh chat GBT. And I wouldn't be
+4:33 surprised if Google AI wins.
+4:36 So, it's uh still creating um it's still
+4:41 creating the uh the app. Uh we can go
+4:45 ahead on just a look at like what I
+4:47 currently have. It's uh it's just pretty
+4:50 simple website. It it it does the job.
+4:52 It it shares, you know, a link to
+4:54 subscribe to my newsletter. It gives
+4:56 different guides that people can
+4:58 download. Uh it links to this uh startup
+5:01 ideas podcast on Spotify and YouTube. It
+5:04 shows here's all my portfolio companies
+5:07 and all the companies I'm working on and
+5:09 that's basically it. Um there's a about
+5:12 me and there is an a blog there is a
+5:14 blog. So it's a very simple website and
+5:15 I'm curious um you know can can Google
+5:20 AI Gemini 3.0 Oh, actually build
+5:22 something that doesn't feel like a
+5:24 purple vibeccoated app that feels just a
+5:28 lot better. Something that I would like,
+5:30 you know, update update this too. Sam
+5:33 Alman, the co-founder of OpenAI just
+5:36 said that it is the era of the idea guy
+5:39 and he is not wrong. I think that right
+5:42 now is an incredible time to be building
+5:44 a startup and if you listen to this
+5:46 podcast, chances are you think so, too.
+5:48 Now, I think that you can look at trends
+5:51 uh to basically figure out uh what are
+5:53 the startup ideas you should be
+5:55 building. So, that's exactly why I built
+5:57 ideabrowser.com. Every single day,
+5:59 you're going to get a free startup idea
+6:02 in your inbox and it's all backed by
+6:06 highquality data trends. How we do it,
+6:09 people always ask. We use AI agents to
+6:11 go and search what are people looking
+6:13 for and what are they screaming for in
+6:16 terms of products that you should be
+6:17 building and then we hand it on a, you
+6:20 know, silver platter for you to go check
+6:22 out. Um, we do have a few paid plans
+6:25 that, you know, take it to the next
+6:27 level, uh, give you more ideas, give you
+6:29 more AI agents and more almost like a
+6:32 chatgbt for ideas with it. But you can
+6:34 start for free ideabrows.com. And if
+6:37 you're listening to this, I highly
+6:38 recommend it.
+6:40 Okay, so stuff is happening. So,
+6:44 uh Oh my god. Okay, so here we are.
+6:48 [sighs]
+6:48 This [laughter] is This is This is
+6:51 crazy.
+6:53 So, we're looking here. It doesn't put
+6:57 uh Windows, right? Cuz it's probably a
+6:59 copyright thing, but it looks like
+7:02 Windows. It looks like Windows XP. Um
+7:04 it's the notepad is over here. uh where
+7:08 it says like Greg Eisberg, the internet
+7:10 is my playground. I kind of love that
+7:12 tagline. Um it's taken the um it's taken
+7:17 the copy from from my website already.
+7:20 Uh you can see it has the links over
+7:22 here and then it's gone and created some
+7:24 like different you know applications. So
+7:26 there's the about uh Greg application,
+7:28 Greg's letter which is my newsletter
+7:30 where I guess people can subscribe to.
+7:33 Um and then they have the different
+7:34 guides. So, I just go went in ahead and
+7:36 clicked on guides. You can see like look
+7:38 at this. This is this is a website. This
+7:41 is crazy. How does this even there's no
+7:43 way this works on mobile, right?
+7:45 Yeah. Well, actually works on mobile,
+7:49 surprisingly. Uh
+7:52 so, you know, f it has all my guides. It
+7:56 shows PDF and blueprint. The icons look
+7:59 really, really good. These guide, it
+8:02 says details. These guides are created
+8:04 based on real world real world
+8:06 experience building link checkout size
+8:08 very high value date modified today.
+8:10 This is like I don't know about you but
+8:12 to me this is like really really
+8:16 awesome.
+8:18 Um I'm just going to say let's just try
+8:21 to edit it a little bit. I noticed there
+8:25 are no icons for the applications like
+8:30 idea generator or internet.
+8:35 Actually, it's not it's not that there's
+8:37 no icons.
+8:40 It's just that the icons
+8:42 aren't hitting right. the icons that you
+8:46 chose for the applications like about
+8:50 Greg and Greg's letter, etc., they don't
+8:54 feel like real Windows or Mac app icons.
+9:00 Please make them more real. And let's
+9:04 see what happens. And the reason I'm I I
+9:06 I want to see like can this thing design
+9:09 well, right? like um
+9:12 you know, can it take feedback? Well, uh
+9:14 that was what one of the things that I
+9:16 was really impressed with in my chat
+9:18 with Logan Kilpatrick. Um
+9:21 and if you haven't seen that episode,
+9:23 we'll include it in the show notes in
+9:25 the description is how well it was able
+9:27 to take feedback. So, let's just see uh
+9:29 if a non- Googleler like myself actually
+9:32 can get, you know, similar similar and
+9:34 good results.
+9:36 The other thing that I want to I want to
+9:38 ask to change is I do find like the
+9:40 white background to be
+9:43 uh I don't know boring. So I'm going to
+9:46 say
+9:48 I find the white background.
+9:51 Oh actually what's this? What happens if
+9:53 I click this? Right. So you can So
+9:56 there's a button here that's annotation.
+9:57 So add annotations
+10:00 to visually iterate on your app. So, it
+10:02 says, "Draw and write on your app
+10:04 preview to instantly communicate your
+10:06 vision to Gemini." Yes. So, Logan was
+10:07 showing me this. You can highlight
+10:09 components, sketch new ideas, or add
+10:11 precise feedback right where it matters.
+10:14 Simply pass your visual prompts to
+10:15 Gemini and watch your app update live.
+10:18 So, let's actually try to we'll let this
+10:21 think um and and update this. And then
+10:25 after that, let's go and annotate the
+10:27 background. Try to get it to a place
+10:30 where it looks a little bit better. And
+10:32 then once we're done that we will move
+10:33 on to can we design a SAS app. I know a
+10:37 lot of people listening you know want
+10:40 want to build a SAS app want to build a
+10:41 micro SAS love the idea of doing that.
+10:44 Um but you know when they use platforms
+10:49 like lovable or or other ones they or
+10:52 you know Replet or any any vibe coding
+10:54 platform they're just getting designs
+10:56 that uh are not are not uh not what they
+11:01 want uh not what they're not what's in
+11:04 their head really that's what it comes
+11:05 down to. I will say that uh Replet uh
+11:08 now has goo uh Google Gemini 3.0 Oh uh
+11:12 available um on
+11:15 uh I think it's available as of today.
+11:19 Let's check Gemini 3.0.
+11:24 Yeah, design mode. So they do have a new
+11:26 design mode to go from idea to a live
+11:28 website. Um and that's also powered by
+11:32 Gemini 3.0. So they've gone ahead and
+11:36 updated the icons. This is what I'm
+11:39 talking about. I don't know about you.
+11:41 Uh it did bug out here uh with popular
+11:44 guides, but every other icon was done to
+11:47 perfection in my opinion. This looks
+11:50 really really good. We're going to do
+11:52 the annotation quickly
+11:54 and I'm going to say, oh wow, it's like
+11:57 actually here add to you can see at the
+12:00 bottom once you click you can add a
+12:01 comment, you can add an arrow,
+12:02 rectangle. So, I'm going to go ahead and
+12:04 say
+12:06 um
+12:11 I'm going to say
+12:16 uh this white background is boring and
+12:21 doesn't give off Microsoft XP, the
+12:25 classic
+12:27 blue skies and and
+12:31 green mountain, please adjust.
+12:39 So,
+12:41 I just said, um, add this to chat. I'm
+12:45 going to send that to Gemini. And now it
+12:49 has that context. It's such a simple
+12:51 idea, right? They basically just made
+12:53 like a image editor within it. But it it
+12:57 makes it so much more um it's just you
+13:00 know this works best all all these
+13:03 platforms work best when you give it
+13:06 good references uh images. So um the
+13:10 more the better reference images you get
+13:13 you you generally get more out of it. So
+13:16 uh just FYI. So let's see um what what
+13:20 this does.
+13:22 And uh it's just crazy like it's really
+13:26 what's blowing my mind, what's going
+13:27 through my mind right now is it really
+13:29 is like if you have good ideas, if you
+13:31 have ideas that are scroll stopping, are
+13:33 interesting, um
+13:36 you can stand out, right? Like a
+13:38 personal website, everyone has a, you
+13:40 know, a lot of people have personal
+13:41 websites like mine, like just very
+13:43 simple about us, right? But they don't
+13:46 have a lot of people don't have
+13:48 something like this. And if you can
+13:50 stand out, maybe that gets you the, you
+13:52 know, the job you wanted. Maybe that
+13:53 gets you a client that you wouldn't have
+13:55 otherwise gotten. Um, you know, you
+13:58 never know, you know, what it's going to
+14:00 do. And, you know, we're all in this
+14:01 game of how do we increase our
+14:03 probability of success, right? How do we
+14:06 stack uh the chips in our favor? And
+14:10 good design really does that. You know,
+14:12 good design uh is viral. Good design is
+14:17 something that people talk about. Good
+14:18 design adds trust. So,
+14:22 um
+14:24 that's uh that's why you know you want
+14:28 you should want good design.
+14:31 So, it's it's uh it's been thinking for
+14:33 about one, you know, 110 seconds. Um
+14:38 let's uh let's give it a few more
+14:40 seconds and then move on to the SAS app.
+14:44 Taking like a little longer than I'd
+14:46 like you. It's kind of like surprising
+14:48 that
+14:50 uh you know the whole website was
+14:52 created in 111 seconds but the
+14:56 background is taken so far 136 seconds.
+14:59 [sighs]
+15:00 All right. So it broke the icons but you
+15:06 know I do think the having the
+15:11 background looks nicer. It didn't take
+15:12 my feedback around
+15:15 um
+15:17 it didn't take my feedback around
+15:18 creating the mountain. I think what I
+15:20 should have done is I should have just
+15:21 Googled like Microsoft XP background
+15:25 posted it into as a reference image and
+15:28 it probably would have worked. Um
+15:31 so I don't have time for it right now,
+15:33 but overall I don't know about you, but
+15:35 I'm pretty damn impressed. This exceeded
+15:37 my expectations on this uh personal
+15:40 website. nine on ten for me. Um I don't
+15:43 know about you, but I I'm probably going
+15:46 to be redoing my personal website soon.
+15:48 Next, let's go see how it does uh
+15:52 on designing a SAS app. So, right before
+15:56 this, I went on Dribble and I searched
+15:58 SAS app and uh dashboard, SAS dashboard,
+16:04 and this came up and I thought it looked
+16:05 like very clean. So, what I want to do
+16:08 is I want to
+16:12 go to I'm going to go back to the build
+16:14 section.
+16:16 Describe your idea. So, I'm going to add
+16:18 the reference image.
+16:21 Let's go ahead and do that.
+16:26 Copy.
+16:28 Going to add it right here.
+16:31 Uh, and I'm going to say this is a
+16:33 dashboard I really like. I'm building a
+16:38 software that
+16:42 is a analytics meets AI app for
+16:48 restaurants.
+16:50 I want it to be designed in a similar
+16:54 vibe.
+16:57 It's clean. It's modern.
+17:01 And I want the buttons to feel almost
+17:05 like real buttons
+17:09 in the real world. So just like simple
+17:11 language. There's like design
+17:12 terminology for this, but I'm just
+17:14 keeping it simple for everyone. Um
+17:17 knobs, etc. Can you make this happen?
+17:26 You know what?
+17:28 I'm going to actually pull up a
+17:34 I really like this company, Teenage.
+17:37 The designs are really nice. I just like
+17:39 their products. They do like audio and
+17:42 and microphones and stuff like that. I'm
+17:46 going to take a screenshot of this even
+17:47 though it's I mean this might just
+17:50 complicate things.
+17:52 Um, I also included
+17:55 a photo of a teenage engineering product
+18:01 that's physical
+18:03 that I imagine the
+18:08 buttons could be, you know, used on the
+18:12 SAS app. So, that doesn't even make
+18:14 that's not even good English, but let's
+18:16 just see what happens and see what it
+18:18 comes up with.
+18:21 In the past, you know what what the vibe
+18:24 coded SAS app would look like? It would
+18:26 look like the Tailwind CSS, like
+18:30 organized exactly how you think. Um,
+18:33 some purple, you know, and
+18:37 uh, you know, I I I'm hoping that this
+18:41 is a little more elevated. I'm hoping
+18:44 that this is a little more interesting.
+18:47 Um, I really didn't give it much data
+18:50 around like what are the product
+18:51 features and and stuff like that. Um,
+18:55 like you might have seen on the Logan
+18:57 Kilpatrick episode, um, you know, you
+19:01 could use something like ideabrowser.com
+19:03 if you're looking for a startup idea and
+19:05 you can just kind of take the startup
+19:07 idea and post it here and post it in uh,
+19:12 into the prompt. So you can go ahead and
+19:14 do that or if you have Idea Browser Pro,
+19:16 you can just, you know, grab the P, you
+19:20 know, product requirements doc, uh,
+19:22 which is also known as a PRD, and it
+19:24 gives you exactly what you would
+19:25 actually give a product manager, um, the
+19:28 whole prompt, and you can just copy this
+19:30 prompt,
+19:31 which is basically a product
+19:33 requirements doc, and just throw it into
+19:36 uh, Google AI Studio,
+19:39 or you can just build a uh, product
+19:42 requirements doc on whatever whatever it
+19:43 is you're working on. I think Lenny
+19:45 Richitzky
+19:48 has a PRD doc. Let's just see if he
+19:50 does. Yeah, my favorite product
+19:53 management templates.
+19:56 Um, so he linked it here. I can include
+20:00 it in the show notes, but basically a
+20:03 PRD means like what is the problem? What
+20:05 is the highle approach? What is the
+20:06 narrative? What are the goals? Ideally,
+20:09 you're giving this data to Google AI
+20:11 Studio so that you get the most the best
+20:14 design product that you know and and
+20:18 here we have here we have it. So, um
+20:22 that looks really nice. That looks
+20:24 really nice. Uh the buttons look really
+20:27 nice. They've got that Teenage
+20:29 Engineering vibe.
+20:31 Oh, come on. That is That is cool. That
+20:34 is That is Teenage Engineering. I'm not
+20:37 not really able to move it. Um, but it's
+20:40 created this AI analyst chef OS.
+20:46 Does this thing work? So, it basically
+20:49 created a AI helper. A OP restaurant is
+20:54 a fully operational and analyzing your
+20:56 data. Currently, we observe healthy, 14
+20:58 active tables, average ticket. Like this
+21:00 is something that you might be able to
+21:01 like sell to a restaurant.
+21:06 Um, I think this looks super super super
+21:09 good. Um, it nice little animations
+21:13 here. Um,
+21:16 I like it. I like it a lot. Um, my only
+21:19 notes on here is this should be able to
+21:21 I should be able to move it. Oh, I can.
+21:24 You just have to click on it, but I
+21:26 should be able to drag and drop drag it
+21:29 just to make it easier. But like look at
+21:31 that. That looks sweet.
+21:33 So, um, overall, I would say I'm going
+21:36 to give this an 85. I don't know what
+21:38 you would give it. Um, you know, but,
+21:42 uh, I'm going to give it a quick 85. I
+21:43 mean, this is one prompt, one prompt.
+21:47 Let's go ahead and write that down. 8.5
+21:51 on 10. The last thing uh, we're going to
+21:54 design is a mobile app. You know, a lot
+21:56 of you are interested in mobile apps and
+21:58 building mobile apps. Uh there's
+22:01 definitely a huge opportunity right now
+22:02 to build a mobile app with AI right now.
+22:05 I'm going to be doing a bunch of
+22:06 episodes on that, so stay tuned. Um I I
+22:10 want to get that out next week uh and
+22:12 the week after. But um you know, there's
+22:15 this app uh that my friend Yoni created.
+22:18 It's called Brain Rot and it's a
+22:20 basically an app that uh helps you get
+22:24 off Tik Tok and Instagram and and and
+22:27 basically anything that uh gets you to
+22:31 get your brain rot. So, it's created
+22:33 this little mascot and and it shows you
+22:35 your brain rotting in real time.
+22:36 Anyways, the point is let's just say we
+22:38 wanted to copy brain rot. So, let's go
+22:42 back to the build section and we're
+22:46 going to go and we're going to say
+22:49 we're going to copy here. Let's just
+22:52 copy this. So, I've gone and just copied
+22:55 the
+22:57 uh app store previews. And I don't know
+23:00 if Gemini 3.0 is good at designing
+23:04 mobile apps. So, that's what we're going
+23:05 to find out today. I want to design a
+23:09 mobile app.
+23:11 I really like everything about this app
+23:15 called Brain Rod.
+23:19 I'm even going to say by my friend
+23:20 Yonyi.
+23:23 The mascot, the gamification,
+23:28 everything about it feels to me like a
+23:31 blueprint for getting someone to do
+23:35 something. What
+23:39 if you designed
+23:41 the brain rot for getting people to
+23:45 [music] work out?
+23:47 Can you do it in the style of brain rot?
+23:51 Mascot
+23:53 warm colors. Um, beautifully
+23:59 designed.
+24:02 And I'm going to say make sure you
+24:06 design this as an iOS app.
+24:11 I don't know. I don't even know if it
+24:12 can do this. Like I don't know if this
+24:15 just does web apps.
+24:17 Um so we might be looking at a zero on
+24:20 10 here, but uh
+24:24 but you know, we like to try it. We like
+24:27 to push the limits here on the Startup
+24:28 Ideas podcast. Uh there are other as I
+24:32 mentioned on the show before there are
+24:34 other apps that specifically focus on
+24:38 mobile.
+24:40 So there's an app called RO ROR build
+24:43 native mobile apps fast. There's an app
+24:46 called the Vibe Code app
+24:49 um which is uh by my friend Riley. And
+24:54 then there's another one. Well, yeah, I
+24:58 think it's called create anything. Yeah,
+25:00 create anything.com.
+25:02 create anything.com.
+25:04 Um, which has uh a lot of people
+25:08 recently are are are saying a lot of
+25:11 good things about it. Um, I need to
+25:14 spend more time playing with it and I'll
+25:16 be doing more episodes on mobile uh
+25:18 soon.
+25:21 So, it's still uh cooking. It says,
+25:26 "This response generates a complete
+25:28 React application called Gains, a
+25:30 fitness gains is actually a killer
+25:33 name." Killer name. It features a mascot
+25:36 that reacts to your workout habits. Oh,
+25:40 let's get these gains. Are you kidding
+25:41 me?
+25:44 This is It got the streak. It's got the
+25:46 goal maintenance mode. See if I click
+25:51 around here. Your activity, your gains
+25:53 calendar, your top contributors. That's
+25:55 really cool. Imagine like it integrates
+25:57 with Apple Health.
+26:00 You can log it. It won't let me. It
+26:04 does. It won't let me log it here. I
+26:05 clicked nothing happened,
+26:08 but you know, I can imagine giving it
+26:11 more data around what how it should log
+26:14 things.
+26:15 And there's no settings. But overall
+26:17 from a design perspect perspective like
+26:20 the mascot
+26:22 kind of kind of is tough, right? It
+26:24 looks really good. Um, it looks really
+26:27 really good. And I would say this is an
+26:30 from a from a one prompt. I'm going to
+26:32 give this an 8.3 on 10. I want to also
+26:36 mention that Google has released
+26:38 something called anti-gravity.
+26:40 Anti-gravity is basically their cursor
+26:43 competitor. you can design using Gemini
+26:47 3.0
+26:48 um
+26:50 in in anti-gravity, but the designs that
+26:54 you are going to get, at least that I've
+26:56 tried, I haven't been able to get as
+26:59 nice of designs out of it. So, uh you
+27:03 know, maybe it's just me, probably not.
+27:05 I don't think so. But if you want to get
+27:07 the most out of uh Gemini 3.0
+27:10 Pro, uh, you're going to want to go to,
+27:13 um, direct to, uh, Google AI Studio.
+27:18 There you have it, folks. Overall, like
+27:20 I'm impressed, you know, like we're
+27:22 we're getting scary. It's getting scary
+27:24 good. And if you just keep prompting it,
+27:27 I think you can get to places where you
+27:29 have an extremely welldesigned app
+27:32 without any designers. You are the
+27:34 designer, right? You have to have the
+27:35 taste. You have to have the reference
+27:37 images. Um,
+27:39 and but I think I think you can go and
+27:42 and design something beautiful. And
+27:44 we've exited this era where vibe coding
+27:47 produced not the most beautiful
+27:49 websites, not the most beautiful apps,
+27:51 and we're getting to a point that with
+27:53 the right reference images, the right
+27:54 prompts, you can get to a place where
+27:56 you design something beautiful. So, um,
+28:00 hope this got your creative juices
+28:01 flowing. Stop listening to me and just
+28:03 get your hands dirty. Go play with one
+28:05 of these tools. Go play with Gemini 3.0.
+28:08 and uh build something and come back to
+28:11 the comment section. I read every single
+28:13 comment on YouTube. Share this podcast,
+28:16 like it so I know to keep doing these
+28:18 episodes. Um otherwise, um I don't know.
+28:21 I don't know what you like or what you
+28:23 don't like or if I should just not post
+28:25 at all. So, uh thanks so much for
+28:28 spending your time with me. We learned
+28:30 about how to become uh pretty
+28:33 proficient, I would say, uh at Google AI
+28:37 Studio Gemini 3.0 AI designer stuff. And
+28:42 uh until next time, have a creative day,
+28:45 my friends.

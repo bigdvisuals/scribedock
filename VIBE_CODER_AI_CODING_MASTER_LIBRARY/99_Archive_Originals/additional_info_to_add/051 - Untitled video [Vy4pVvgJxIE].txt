@@ -1,0 +1,351 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=Vy4pVvgJxIE
+Channel: Riley Brown
+Video ID: Vy4pVvgJxIE
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 Today we're going to be using Claude 4.1
+0:02 Opus. We're going to be using Xcode and
+0:05 we are also going to be using simulator
+0:07 right here to build an app that allows
+0:10 us to collect our favorite RSS feeds.
+0:13 RSS feeds are these feeds that podcasts,
+0:17 articles, and some YouTube channels use.
+0:20 And you can actually just gather all the
+0:21 information. And in this video, we're
+0:23 going to create an app that allows us
+0:25 get all of these notes. And we're also
+0:27 going to be able to generate summaries,
+0:29 bookmark, and we're going to do this all
+0:31 without writing a single line of code.
+0:33 Everything is going to be created with
+0:35 Claude Opus 4.1 in Warp. This is going
+0:38 to be a really fun episode creating an
+0:40 iOS app in Swift. Let's dive straight
+0:42 into the video. Okay, so today we're
+0:45 going to be building a mobile app and
+0:46 we're going to be using Swift, which
+0:49 means we're going to use Xcode. And to
+0:51 write all the code, I'm going to be
+0:52 using Warp. Whenever I build apps
+0:54 locally on my machine, I use warp. It's
+0:57 the easiest way to use the best AI
+0:59 agents in the world for coding. And you
+1:01 can also use claude code within it. Like
+1:03 you can change it to terminal mode. For
+1:05 now, I'm just going to use agent mode
+1:06 with claude for opus. And I may switch
+1:09 to GPT5 high. But the first thing that
+1:12 I'm going to do is I'm going to hit new
+1:14 project. And we want to create an iOS
+1:17 app. So we're going to make sure that
+1:19 we're using iOS and we're going to use
+1:21 app. and we are going to press next.
+1:23 Here I'm going to call this RSS feed app
+1:26 and we're going to hit next and we're
+1:28 going to add this into our downloads
+1:30 folder and we're going to hit create.
+1:31 What I'm going to do is I'm actually
+1:32 going to run this on my own iPhone. So
+1:34 I'm going to run this on Riley's iPhone
+1:36 and we can hit play and it appears we're
+1:39 getting an issue. I need to select my
+1:41 team. There we go. Now it should work.
+1:43 We're going to hit play. And now we are
+1:45 going to open this up on my iPhone. In
+1:47 order to create an app, we're going to
+1:49 be using three different tools. We're
+1:51 going to be using Warp to generate the
+1:52 code. We're going to be using Xcode to
+1:54 kind of run the code and we're going to
+1:56 use Simulator to test. The way that
+1:58 we're going to get started is we are
+2:00 actually just going to open up Xcode. If
+2:02 you haven't downloaded Xcode, I will put
+2:05 a link in the description on how to do
+2:06 that. We're just going to hit create a
+2:08 new project and we're going to create an
+2:09 iOS app. We're going to hit next. We're
+2:12 going to call this RSS master and we're
+2:14 going to create this in our downloads
+2:16 folder and we're going to hit create. As
+2:17 you can see here, it's kind of creating
+2:19 this base app that says hello world.
+2:22 We're actually not going to use this
+2:24 little simulator here on the side. We
+2:26 don't need this. So, we're just going to
+2:28 press this button. We're just going to
+2:30 drag this off. Just like that. Instead,
+2:32 what we're going to do is we are going
+2:34 to change this. Just let's just use
+2:36 iPhone 17. We're going to use a
+2:38 simulator, right? This is going to build
+2:40 this in a simulator. As you can see
+2:42 here, we have this loading up. This is a
+2:45 simulation of an iPhone 17. that's
+2:47 running on our computer and that is
+2:49 what's running the code. So the Xcode is
+2:52 where we would write the code except for
+2:54 the fact that we're going to be using AI
+2:56 to generate all the code and then when
+2:58 it runs we can see this app right here.
+3:00 This is like our starting template app
+3:02 in the language Swift. And so the
+3:05 simulator is where we're testing and
+3:07 warp is where we're going to be
+3:08 generating all the code. If we go to
+3:11 actually what I want to do now is we're
+3:13 going to go to finder. We are going to
+3:14 go to downloads. We're going to see RSS
+3:16 master. I'm going to right click on this
+3:18 and hit service and hit new warp window
+3:22 here. I'm using warp and warp is going
+3:26 to allow me to generate all the code. I
+3:27 can use all the top AI coding models in
+3:29 the world right here. And if you want
+3:31 to, you can even switch to cloud code,
+3:32 right? This would allow you to type in
+3:34 claude and press enter. And if you've
+3:35 watched my previous videos, you know how
+3:37 to use cla code. I am going to use the
+3:39 agent because I want to switch between
+3:41 opus and gpt 5 high. And so we're going
+3:44 to be using this model and this model.
+3:46 For now, I'm going to stick with Opus.
+3:48 And what I want to do is I Let me show
+3:50 you that whatever I type here, we can
+3:53 actually build an iOS app, right? So we
+3:55 can say, "Please make the globe icon on
+3:59 the main page larger, right? And this is
+4:02 loading." And by the way, there's a link
+4:04 below to download Warp. And it really is
+4:06 that easy. Once you create a folder
+4:08 within Xcode, you just right click on
+4:09 the folder and hit open Warp at that
+4:11 location. Now, whatever you type should
+4:13 edit the app. And here we go. Okay. So,
+4:16 it's loading here. All right. So, now
+4:18 it's done. And so, when you're working
+4:20 in Swift, what you need to do is you
+4:22 actually just need to run it again. So,
+4:23 we're going to hit replace. So, we're
+4:25 just going to rerun it. So, it's going
+4:26 to open up this app again. And as you
+4:28 can see here, this icon is larger,
+4:31 right? The icon for Hello World is
+4:33 larger. So, now whatever we type into
+4:34 Warp does get updated. We just need to
+4:37 hit this play button to rerun it every
+4:39 time. Okay. Now, I want you to create a
+4:44 simple app for me right now. I want to
+4:48 create an app that allows me to see all
+4:53 of the recent RSS feeds for podcasts and
+4:59 articles that I follow and have them be
+5:03 listed on the phone. Please, can you
+5:06 select a podcast feed and put all of
+5:12 their recent podcasts in a feed and then
+5:16 when I press it shows the details of
+5:21 that podcast like on an app like
+5:24 feedley, right? This is another RSS feed
+5:27 app. We will add the ability to follow
+5:32 other feeds later. Just start with one.
+5:36 And the home screen is a list of their
+5:40 recent RSS feed posts. All right, we're
+5:44 using Cloud 4 Opus. Now we're going to
+5:46 run this. Let's see how it does. Okay,
+5:48 perfect. Now I have a good understanding
+5:49 of the project structure. Now we can hit
+5:51 execute. So now it is going to go off
+5:53 and kind of do exactly what it was just
+5:55 suggesting that it would do. Now it has
+5:57 all these list of tasks here. This is
+5:59 very cool. Okay, so it says that it's
+6:01 done here. So if we hit play, the app
+6:03 should come up. Am I seeing an issue,
+6:06 but it is still opening. So here it is.
+6:08 We have the Vergecast. Who is the iPhone
+6:11 air really for? Right. This is all real.
+6:14 I wonder who this is. So if we click on
+6:16 this, it even takes us to some
+6:20 >> flagship podcast of phones that look
+6:22 like phones. That's great. It took us to
+6:26 something. It took us to the audio
+6:28 somehow. I'm not even sure how it did
+6:29 that. But here we have an app that
+6:32 allows us to see all of the different
+6:35 RSS feeds, which is really cool. It
+6:37 named it the Vergecast. Please change
+6:40 the name to Vibcast. And please make the
+6:46 font something modern and cool, not too
+6:51 overthe-top.
+6:52 Something like Japanese inspired, but
+6:57 still English font. I don't even know
+7:00 what that means, but I just wanted to
+7:02 change a little bit. Okay, so it's done.
+7:04 Let me go ahead and check this out. So,
+7:05 we can hit this play button right here.
+7:07 Build succeeded. Let's see. So, it's
+7:10 called Vibcast. Now, who is the iPhone
+7:13 Air really for? And it changed the font
+7:15 subtly. And I kind of like this. I don't
+7:17 like the purple. Please get rid of the
+7:21 purple and overall the round edges and
+7:25 components. I want it to be black to
+7:29 gray dark gradients.
+7:32 For the buttons, I want it to be more
+7:36 like that style. No cute like I
+7:40 hate the purple. And for the notes for
+7:44 each episode, please make it so that it
+7:49 looks more like a notepad. Not too much,
+7:54 but keep the Japanese theme and choose
+7:59 right angles instead of bubbly vibe.
+8:03 Above the notes, please put a generate
+8:08 summary button. We will add
+8:11 functionality
+8:13 for this in just a second. Okay, we'll
+8:18 see how it does with that one. It is
+8:19 done. If we hit play, it should open up.
+8:23 Let's see. Ooh,
+8:25 that is clean. I like this. So, we have
+8:28 play episode, generate summary. Ooh. Oh
+8:31 my god, this is beautiful. That's
+8:34 actually really insane. This is actually
+8:36 really sick. Now what? Oh yeah, now we
+8:38 want to create the generate summary. Now
+8:41 I want you to use the open AI API to
+8:47 make the summary work. Here is my API
+8:51 key. What we can do here, we could open
+8:53 up Comet and we can actually go to let's
+8:57 go to playground open AI. I think that's
+9:00 what it's called. And then on the
+9:02 playground API, we can find API keys. So
+9:06 if we click API keys, then create new
+9:08 secret key. Then we're going to name the
+9:10 key. So this is going to be key for RSS
+9:14 app. And we're going to hit create
+9:16 secret key. So I just copied this key.
+9:19 Now what I'm going to do is I'm actually
+9:20 just going to paste it in to warp. And
+9:23 I'm going to say the API key is here.
+9:27 Please put it where it needs to go so
+9:31 that it can summarize when I press the
+9:36 button. Make the animation something
+9:40 cool that fits the vibe of the app
+9:44 already. And make the summary six
+9:47 sentences max. and make the tone and
+9:52 style appealing and explain it very
+9:57 simply. Please go. Now, what I'm going
+9:59 to do is I'm going to paste in my key.
+10:02 As you can see here, I have my prompt. I
+10:04 just pasted my key after that. You're
+10:05 going to want to keep your key separate
+10:07 or private. So, that's why I'm covering
+10:09 it up right here. So, keep this secret.
+10:12 But, yeah, I'm just pasting my key right
+10:13 here. And great, now it's running. Okay,
+10:15 it's done. Let me go ahead and make sure
+10:17 that it is running properly. Build
+10:20 succeeded. Let's take a look. Let's see
+10:22 what it did. The orange iPhone stole the
+10:24 show. Generate summary. Okay, looking
+10:26 good so far. Oh, no way. It streams.
+10:30 Let's go. I love it. Hey, so the Verge
+10:33 team just got back from checking out the
+10:35 new the Verge team.
+10:38 Okay, so this is the Verge. Just got
+10:40 back from checking out all the new Apple
+10:41 goodies, and they've got the scoop for
+10:42 us. Okay. Please change the prompt such
+10:47 that it's bullets like a TLDDR. Make
+10:53 sure this is more concise and make sure
+10:58 the summary only shares core ideas and
+11:03 about the news, not sharing the like
+11:07 share your thoughts at vergecast.com.
+11:10 Like basically right now it's putting in
+11:12 the summary like call to actions that
+11:14 were included in the podcast. Don't do
+11:15 that. It should just be the core points.
+11:17 Okay. Okay. So now let's give this
+11:20 another test. Let's see if this is a
+11:22 better summary that gets generated. Wow.
+11:25 There we go. Now we have very clean
+11:27 bullets. Simon Anthony and Mark Griffle
+11:29 are worldclass puzzle solvers on
+11:31 YouTube. Craing cryptic. They solve.
+11:33 Okay. Discussion on the addiction games.
+11:37 All right. Known for his work on Google
+11:39 Pixel camera, launched the new camera
+11:40 app. All right. Very, very cool. And
+11:44 here shows the episode notes. I want to
+11:46 be able Okay, there we go. We can scroll
+11:48 on the notes here. Very cool. Now, can
+11:51 you please make a an icon on top left?
+11:57 Wait, is there anything on the top left?
+11:58 No. that allows me to select from
+12:02 popular feeds, search the internet and
+12:06 find the right find popular feeds like
+12:11 Tim Ferris, Chris, Williams,
+12:16 Lex Freriedman and some more. And please
+12:20 allow me to add them so they show up on
+12:26 the feed as well. Okay, so it's done.
+12:29 Let's go ahead and run it. Let's see how
+12:31 this looks. Let's see. Ooh, the
+12:33 Vergecast. Okay, so we have Joe Rogan,
+12:37 Tim Ferris, we can do Modern Wisdom. We
+12:40 have philosophy. Let's hit done. It's
+12:43 now loading. Oh, wow. This looks really
+12:45 good. Matthew McConna on September 15th.
+12:47 We can click on this. We can generate
+12:49 the summary of the Matthew McConnA green
+12:52 lights. Joe Rogan book. Joe Rogan
+12:55 episodes. Matthew McConna. Hey, did he
+13:00 just have him on
+13:05 two days ago?
+13:08 Oh, wow. Okay, so this did happen a few
+13:11 days ago. If we look up green lights.
+13:14 Okay. Talks about his experiences in
+13:16 philosophy. The actor highlights the
+13:18 importance of authenticity and re
+13:19 relevance. Okay, very cool. And we have
+13:22 the notes here. So, we've created this
+13:24 app called Vibe. It's pretty cool.
+13:28 Pretty simple to use. And yeah, I mean
+13:30 that is basically all the features that
+13:32 I wanted to add. Ooh, wait. We should
+13:34 actually be able to bookmark. Let's do
+13:36 that. So, I also want to be able to
+13:41 bookmark episodes and save them to
+13:45 device or save them. Please let me do
+13:49 that by pressing a bookmark icon. It
+13:54 should turn gold. Okay. And it's done.
+13:57 Oh, and look at that. Ooh, that's kind
+14:00 of nice, actually. Look at that. Ooh,
+14:04 let's go. That's actually insane. All
+14:08 right, look at this app. I think we are
+14:11 at a really good place to be done here.
+14:14 This app is great for an MVP and this is
+14:17 called Vibcast. And there you have it.
+14:20 So, we just used warp to generate all
+14:22 the code. We use Xcode to store and run
+14:24 the code, right? We created the project
+14:26 on Xcode and then we ran warp from the
+14:29 folder location if you remember from the
+14:31 beginning of the video and then we use
+14:32 simulator right here to basically test
+14:35 the app.
+14:35 >> Flagship podcast of phones that look
+14:38 like phones. I'm your friend David
+14:39 Pierce
+14:39 >> and this is the app that we created and
+14:42 we can even bookmark them right here
+14:45 which is quite fun. Please let me know
+14:48 what app you want me to make next. I'm
+14:50 in a really creative mood recently and
+14:52 over the next few weeks I'm going to
+14:53 really try and push the boundaries of
+14:55 what types of apps you can create using
+14:57 AI. And I really want to get your
+14:59 thoughts and opinions. So please let me
+15:01 know in the comments and I'll see you
+15:02 here for the next video.

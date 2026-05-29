@@ -1,0 +1,844 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=SjDvHYZGFaQ
+Channel: Riley Brown
+Video ID: SjDvHYZGFaQ
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 I'm a vibe coder and I'm going to build
+0:02 five types of apps today with quad code.
+0:05 This is meant to be an exploration of
+0:07 quad opus 4.1 and quad code because I
+0:10 believe that all coding will be vibe
+0:12 coding by the end of this decade. It is
+0:14 important to know what the limitations
+0:16 are in order to express your true
+0:18 creativity and build apps that you want
+0:20 or other people want or more importantly
+0:23 what other people will pay you money
+0:24 for. I'm really excited for this video.
+0:27 Let's just dive in.
+0:29 This video is designed to be an
+0:32 exploration of Claude 4.1 Opus, the best
+0:35 AI coding model in the world. And I'm a
+0:39 vibe coder. I've never written a line of
+0:41 code. But today, we're going to create a
+0:43 Mac app. We're going to create a mobile
+0:46 app. We're going to create a website.
+0:48 We're going to create a CLI tool or a
+0:52 tool that lives in your terminal that
+0:54 you can chat with. We're going to be
+0:56 starting with Claude Code and we're
+0:58 going to be using Cloud 4.1 Opus within
+1:00 Claude Code. And after you've installed
+1:02 Claude Code, which I'll talk about in a
+1:04 second. All you need to do to open it is
+1:06 just type in uh terminal. And then once
+1:09 you open up your terminal, just type
+1:12 claud. And here we uh see do you trust
+1:18 uh this? And I just hit yes. And so now
+1:20 we have claude code open. Welcome to
+1:21 Claude Code. Let's go ahead and talk
+1:24 about what Claude Code can do. So, like
+1:26 I said, Claude Code controls files on
+1:29 your computer. It controls your computer
+1:33 basically through the terminal. And so,
+1:34 I just have my downloads open right
+1:37 here. And so, we can actually see this
+1:40 happen. We can just type into cloud code
+1:43 create a folder in the downloads called
+1:48 AG9
+1:50 video
+1:54 and this will basically it says I will
+1:57 create a directory and so directory is
+2:00 another word for file as you can see
+2:02 here cloud code created this folder
+2:04 right here so we can click into it now
+2:07 within that within that folder Create a
+2:12 text file called we'll call this read me
+2:18 and outline the five best practices
+2:23 for high converting
+2:26 uh landing pages to a course
+2:30 in a in markdown format. So that's like
+2:34 similar to Obsidian for those of you who
+2:36 have used it. And so I entered that in
+2:39 and it can now move into this folder. So
+2:42 it knows that we just created this
+2:44 folder and it's just going to create a
+2:45 file within this folder. You can see
+2:47 here it created this readme. If I open
+2:50 this up, we can click on this directly.
+2:54 We can see here the five best practices
+2:56 for high converting
+2:58 uh landing pages to a course. And so we
+3:01 can write these out right here. By the
+3:03 way, if the terminal is intimidating to
+3:05 you, I want to show you about a new tool
+3:08 called Warp. And so, Warp is an
+3:11 alternative to Claude Code and has the
+3:13 same capabilities plus much more. And
+3:16 so, their new Warp 2.0 is the world's
+3:18 first agentic development environment.
+3:21 So, it is designed for building real
+3:23 software with agents, not just
+3:25 autocomplete. And so, let me show you a
+3:27 little bit about how it works. So, it
+3:29 works just like cloud code except I can
+3:32 just turn it on either agent mode or
+3:34 auto detection. I'm actually going to
+3:36 use I could use GPT5 if I want to. I can
+3:39 use cloud 4.1 Opus. I could say build an
+3:43 app in my downloads folder, a new folder
+3:49 called to-do list. Make the app. And so
+3:54 we can actually just build the app and
+3:57 it is a lot more friendly of an
+3:59 interface
+4:01 uh than the terminal and it's a lot
+4:03 easier to use and it's very easily like
+4:05 you can very easily just create new tabs
+4:08 and you can say create a new folder in
+4:12 downloads call it iOS app and outline in
+4:18 a text file how to make a todo list app
+4:24 and you can just run these in parallel.
+4:26 And now it's asking which one do I want.
+4:29 And here it's generating a plan.
+4:32 I'm just going to hit execute. Now it
+4:34 has all these different tasks lined up.
+4:36 It's a lot easier to see which task it's
+4:38 currently working on and it will just
+4:40 generate these things and you can go
+4:42 back and forth and we can see what the
+4:45 status is. We saw that like if you're
+4:46 over here and you see this stop icon
+4:49 right here, we can see that it's we need
+4:51 to come over here and we actually need
+4:52 to check on uh whatever it's working on.
+4:54 And here we can see the different tasks
+4:56 that it's working on. And take a look at
+4:58 that. We are done. So cloud 4.1 opus is
+5:00 done. And we can actually see the app
+5:03 that it just created. And it just
+5:05 created this to-do list app. I uh home
+5:09 work.
+5:11 And it is insanely easy to use. And so
+5:15 on top of all of this, Warp can handle
+5:18 full screen and longunning processes
+5:20 like debugging, monitoring, or running
+5:23 Emacs, things that Claude Code can't do
+5:25 on its own. So Warp is already used by
+5:28 600,000 developers, including teams at
+5:30 Netflix, Slack, and Amazon. And the
+5:32 future of development is shipping from
+5:34 coding by hand to coding by prompt. And
+5:37 Warp is leading that transition uh with
+5:40 the most flexible coding agent available
+5:43 today. So I can actually just talk
+5:45 directly to claude code say hey claude
+5:48 code these aren't well researched enough
+5:53 please can you do more research
+5:58 and update these based on what people
+6:04 are saying in 2025 now please list the
+6:09 sources you find down below
+6:14 and do a ones sentence summary on those
+6:19 sources. So I just left a little comment
+6:22 and so we can just go into cloud code
+6:23 and say hey I left you oh we have to
+6:27 make sure we save. So command s. So now
+6:29 this should be updated. So if we were to
+6:30 click on this we should be able to um
+6:33 see it down here as well. We can see the
+6:35 comment right here. So we know it's
+6:36 saved. Hey, I left you a little message
+6:40 saying how to update the document. Can
+6:46 um can you please take care of that? And
+6:50 so um that's basically what I'm doing
+6:53 here. I am telling it to just take care
+6:55 of that little comment. And so you see
+6:58 here it is now knowing like I'll
+7:00 research the current best practices. So,
+7:02 it immediately just read what was in the
+7:05 document and now it's doing research
+7:07 because cloud code comes pre-equipped
+7:10 with tools. And some of these tools are
+7:13 web search, some of them are being able
+7:15 to gp a codebase. And you can see here
+7:18 it's making changes, right? All of
+7:20 these, this is an update. And so, it's
+7:23 removing these lines and it's adding
+7:25 these lines. It's removing these lines
+7:27 right here. And it's adding mobile first
+7:30 value proposition with AI. Like it's
+7:32 adding all of these different lines
+7:33 here. And it looks like it's done
+7:35 because every single time it starts
+7:37 doing a task that requires multiple
+7:39 steps, it gives itself a to-do list and
+7:41 it does those to-dos. And now it's done.
+7:44 And so if we were to go back to the
+7:46 readme and we can open this up, we can
+7:49 now see that it has sources, right? I
+7:53 left it a little note in the document
+7:54 and then I told the agent to go look at
+7:56 the little comment and it updated it and
+7:58 then it got rid of the the little
+7:59 comment that we had and now we have
+8:01 sources listed in right here. And so we
+8:04 have this little agent that can do
+8:06 things and edit files. Well, it turns
+8:08 out that code, right, all code is,
+8:11 right, all all software is software that
+8:13 you use like notion is just a bunch of
+8:15 files in a folder that nerds call
+8:18 directories. And there's like commands
+8:21 that execute the code and it makes an
+8:24 experience happen in real life. And you
+8:26 can just do that with cloud code. And
+8:29 you can say okay with this in mind
+8:33 please create a high converting
+8:37 uh landing page for a course that I am
+8:42 doing called get your app on the app
+8:47 store uh the vibe coding course of the
+8:52 century and then one thing that I love
+8:55 to do with cloud code is just use
+8:57 whisper flow and whisp Whisper flow is
+9:00 spelled whisper flow and that allows me
+9:03 to speak. I want this course to take
+9:06 people through the process of building a
+9:09 mobile app without writing a single line
+9:11 of code. They're going to use AI to
+9:13 generate the entire app. There's going
+9:15 to be a beginner section and an advanced
+9:17 section. The advanced section is going
+9:18 to be for claude code and it's going to
+9:20 be a very high quality course and there
+9:23 will be a money back guarantee that you
+9:26 get your app on the app store and we are
+9:29 going to help make sure that every
+9:30 person who signs up gets their app on
+9:32 the app store and they're going we're
+9:35 going to talk about coming up with an
+9:36 app idea. We're going to talk about how
+9:38 to write your first prompt to how to
+9:41 edit your app, how to check for
+9:42 security, add database, add
+9:44 authentication, and add payments and get
+9:46 your app fully on the app store. So, we
+9:48 can just enter in this long prompt. I
+9:50 want this to be a landing
+9:54 page that is nicely styled. I want it to
+10:01 be sleek with a gray
+10:06 textured
+10:07 background with white space but high
+10:13 converting
+10:14 copy with input
+10:18 field that people can
+10:22 um write in their info to get on weight
+10:26 list. Please run this locally when done.
+10:31 What does this mean? This means I want
+10:33 to be able to test it in my browser when
+10:35 it's done. I don't want it to only just
+10:37 create these files. I want it to run
+10:39 this. And so we can just do that. So I'm
+10:42 just going to go ahead and close this.
+10:44 And so the first thing that it'll do is
+10:45 it'll actually just like um it'll create
+10:48 the structure. Okay. So I believe it's
+10:50 done. You can see here it created this
+10:52 index.html file. And it looks styled.
+10:55 So, it looks like this might be pretty
+10:56 good. Um, I'm not sure why it didn't
+10:59 run. Let me see something here. If we
+11:01 just copy this link and we go here.
+11:07 Okay, so here is our website. And
+11:12 here it is. And so, it's not amazing,
+11:15 right? But we can create things with it,
+11:18 right? We can actually add stuff. We can
+11:20 say, watch this. So, what I can do is I
+11:22 could actually go into my downloads. I
+11:24 have a screenshot that I took earlier of
+11:26 an idea to App Store. And we could go
+11:28 back in here. We can actually just drag
+11:30 this into the folder, right? And so I
+11:32 just drag this screenshot. I'm going to
+11:34 name this banner image. And what I can
+11:38 do now is I can say I added an image
+11:42 called banner image in that folder.
+11:47 Please put that in the landing page and
+11:51 rerun it. And so what this should do is
+11:55 it should take this and it should add
+11:56 that image somewhere in here. And it's
+11:59 done. I believe the index.html is
+12:02 changed. There we go. Look at this. Get
+12:05 your app on the app store in 30 days.
+12:08 This is somewhat ugly, right? Um but the
+12:12 point is is you can create a landing
+12:14 page. Okay. So what did we do first?
+12:18 Right. The first thing that we did with
+12:19 cloud code is I showed you that we could
+12:21 just create a folder. All right. You can
+12:23 create a folder and then you can create
+12:26 files within that folder which was just
+12:27 a text file and like you can have it do
+12:30 like research which is pretty cool and
+12:33 then you can create a website.
+12:36 One of the things that all of them uh
+12:39 for all of these what you want to do
+12:42 when you're coding is you want to save
+12:45 right for all of these you want to make
+12:46 sure that you save your work or your
+12:50 code. And the way that developers do
+12:55 this is they use Git or GitHub. And
+12:59 that's exactly what we're going to do.
+13:01 And this is where developers put their
+13:05 work. It's like their uh portfolio of
+13:07 all of the stuff that they create. And
+13:09 now that you are a vibe coder, you
+13:11 should start using GitHub as well. If
+13:13 you go to GitHub right now, you can
+13:16 create a new repo. And we can call this
+13:21 uh course landing page for video. And
+13:26 all you have to do is create an account.
+13:28 I'm pretty sure this would be free. Um
+13:31 we can uh choose an owner. And I'm just
+13:35 going to hit create repository.
+13:38 And then all you need is this link.
+13:41 And within the terminal you can say I
+13:46 want you to please upload this code to
+13:51 GitHub.
+13:53 I already created a repo. And by the
+13:57 way, upload this code to GitHub is not
+13:59 how developers speak. They will use
+14:01 things like commit or initiate a
+14:04 repository. And I've learned to just
+14:06 kind of ignore the vernacular. I don't
+14:09 think it matters too much, especially if
+14:11 you're solo. Um, so I'm going to paste
+14:13 in that GitHub link right here. This is
+14:16 where I want the code to be. And we can
+14:20 just press enter and it will just do
+14:23 this, right? And one thing we need to
+14:25 realize is this is a lot like Google
+14:27 Drive. You know, GitHub is a lot like
+14:30 just it's just a Google Drive, right?
+14:32 And a repo is just like a folder
+14:35 uh a folder or a what developers call a
+14:39 directory or repo. I I I don't
+14:43 understand like they also use the word
+14:44 repo. This is just a Google drive. And
+14:47 so we can actually go check if we see
+14:50 that this is okay. So it's asking us if
+14:52 we want to do this. Proceed. Yes. We're
+14:54 going to say yes. Um and now it's
+14:57 running this command. And if you've
+14:59 never used GitHub before, it will
+15:01 actually say something like um you're
+15:04 not connected. Do you want to get
+15:05 connected? And it will actually allow
+15:07 you to sign up directly in here. It
+15:08 might give you a link to go sign in on
+15:10 GitHub and then it will bring you back
+15:12 and it'll be like congrats, you've did
+15:13 it. Um and you can sign up directly
+15:16 through this CLI. And but here uh it
+15:19 said um all files have been committed
+15:22 and pushed to the main branch. And we
+15:23 can see here if we refresh this page, if
+15:26 we refresh this page, we see that um the
+15:30 files are uploaded. And since we called
+15:32 that one file readme, it's actually just
+15:35 going to display the readme here. And so
+15:37 you can see here, this is basically what
+15:41 we created. We created this Google Drive
+15:44 link with all those um files in it. Just
+15:47 because it's on GitHub, however, doesn't
+15:49 mean it does not mean that it's on the
+15:51 internet. And so in order to get it on
+15:54 the internet, we are going to be using
+15:55 Verscell. There are other things that
+15:57 you can use like Netlefi
+15:59 um and other ones like if we actually
+16:01 want to deploy this to the internet so
+16:03 people can go visit this site. We're
+16:05 going to be using Verscell. And again,
+16:08 I'm going to say please put this on
+16:11 Versel. Actually, I'm going to hit
+16:13 escape. This is another good example of
+16:15 a time where like I I actually want to
+16:18 add some more information. I want this
+16:21 to be deployed on the internet so my
+16:25 friends and followers can visit. And
+16:29 again, same thing. I've already signed
+16:31 into Verscell through this. So, you will
+16:34 need to sign up for Versel. They have a
+16:35 free plan. I'm on a team paid plan, so
+16:38 this kind of just works. It says we get
+16:39 an error, but it always says that. And
+16:41 now it's done. Perfect. Your landing
+16:43 page is now live on the internet. Wow.
+16:46 Would you look at that? So all we need
+16:48 to do is just copy this right here. We
+16:51 can go to comment, open up a new tab,
+16:54 and we can see that we are indeed live
+16:57 on the internet. So this is deployed on
+17:00 the internet. This won't work. This
+17:02 won't actually send the data anywhere,
+17:04 but we could actually do that really
+17:05 easily. And I think this is actually
+17:07 something that we could actually talk
+17:08 about right now. So with a tool like
+17:11 tally, you can create these little
+17:13 forms, right? And we can say um info um
+17:18 give me your info dude. And we can say
+17:23 uh we can go slash email and we can say
+17:26 email dude.
+17:28 And we can say um slash uh short answer
+17:33 name dude. And now we're going to hit
+17:37 publish. And then it's going to be it's
+17:39 going to give us a share link. And we
+17:41 can go to um I believe yeah we could go
+17:44 to share. We can go to embed form and we
+17:47 can go standard. And what I'm gonna do
+17:50 here um yeah that's good. Um get the
+17:55 code. There we go. I'm just going to
+17:57 copy all of this. Now I'm going to go
+18:00 back to cloud code. Okay. Wait. I want
+18:03 this tally form to be embedded so I can
+18:10 collect info
+18:12 of people who are interested
+18:17 in this course. Please add that and just
+18:22 paste that in. And we're going to press
+18:25 enter. And now it's saying right it's so
+18:27 it's made the changes. So tally should
+18:29 be embedded now. But it's asking me if I
+18:31 want to commit and deploy which means
+18:34 update the GitHub and then also if I
+18:37 want to deploy it and so we are uh we
+18:39 are going to push it to GitHub. So it's
+18:41 going to update my saved Google drive of
+18:44 coding in GitHub and then it's going to
+18:46 redeploy it with the change.
+18:50 Okay. So, it's done and we can go to our
+18:55 link right here.
+18:59 And there it is. So, we have this tally.
+19:03 It says made with tally. We can remove
+19:04 that. But now you can actually collect
+19:07 your email. Say Jim Bobdude.com.
+19:10 [Music]
+19:12 Jim Bob. And we can submit this. And
+19:17 thanks for completing this form. And now
+19:18 you actually get um someone who's
+19:21 completed the form. Right? If we go back
+19:22 up to the top and we go to summary,
+19:26 we see that we have one email response.
+19:28 And so you can actually collect people's
+19:30 information. Okay. So this is a pretty
+19:32 good snapshot of what we've done so far.
+19:34 Folders, files, did some stuff in those
+19:37 files, created a website, put the
+19:39 website on the internet, um while also
+19:41 saving it on GitHub. Right? We have um
+19:44 saved our work on GitHub and deployed
+19:46 it. Okay. So now what I want to do is
+19:49 I'm actually just going to exit out of
+19:51 this terminal and we're going to go back
+19:54 to our downloads. And what I'm going to
+19:56 do is I'm just going to in my downloads
+19:58 I'm just going to hit new folder. And
+20:00 now I'm going to call this Mac app.
+20:04 Oh, it already exists. I'm going to call
+20:05 this Mac app9.
+20:10 And we created this new folder.
+20:13 And
+20:15 this is what we're going to do here is
+20:17 so we created this new folder. And now
+20:19 what I'm going to do is I'm going to
+20:20 open up Xcode. So we're going to start
+20:22 building a Mac app. And for this I'm
+20:24 going to use Xcode. Xcode is free I
+20:28 believe. I think it's free. And you have
+20:32 to have a Mac to use it. But once you um
+20:35 have Xcode open, what we can do is we
+20:37 can just say um actually what I'm going
+20:40 to do is I'm going to create a new
+20:41 project directly on here. And we're
+20:43 going to make sure that this is on Mac.
+20:45 And what we're going to do is we're
+20:46 going to create a MacOSS app. And we're
+20:50 going to hit next. And I'm going to call
+20:52 this Mac app. Yes, sir.
+20:57 And we're going to put this in the
+20:58 downloads and hit create. And now you
+21:01 see that it shows up here in the
+21:03 downloads. What I'm going to do here is
+21:04 I'm going to hit I'm going to
+21:05 commandclick right here. And I am going
+21:08 to hit new terminal at folder. So now it
+21:13 opens a terminal at this specific
+21:17 folder. So then when we press claude
+21:19 when we open claude code it is opening
+21:22 it at this folder. So it already knows
+21:25 what directory you're going to be
+21:28 referring to. And so we can just throw
+21:29 this on the on the left side and we can
+21:32 throw this
+21:35 app on the right side. And so now we
+21:39 have this Mac app that we have open. If
+21:42 we hit this play button right here, we
+21:45 can see that it creates this Mac app
+21:49 that is just hello world. So by default,
+21:51 it creates an app that is basically just
+21:54 hello world. That is the Mac app that
+21:56 we've created by doing nothing. We made
+21:58 no changes to the folder. But remember,
+22:02 if we go to the folder right here and we
+22:04 click on Mac app. Yes, sir. It by
+22:06 default created all of these different
+22:08 folders which have, you know, this is a
+22:11 pretty good amount of folders. And so
+22:13 this is what's required to create a Mac
+22:15 app. Mac apps are not as simple as basic
+22:17 landing pages which can just be one
+22:19 singular um HTML file. Here we have more
+22:23 files than this. Um, and so this all of
+22:26 these files is this app right here,
+22:29 which is just this blank hello world.
+22:32 And now we can make changes to it
+22:34 because we opened up cloud code and we
+22:36 can make changes to this. So we can just
+22:37 literally put this on the right side.
+22:39 And so what I like to do is I'm just
+22:40 going to put my terminal right here on
+22:42 the right. I'm going to make this a
+22:44 little bit bigger and I'm going to put
+22:46 my Mac app slightly down so that we can
+22:49 see hit this play button. We don't need
+22:51 to look into Xcode. We don't care about
+22:53 the code. We just want to be able to hit
+22:54 play. And so now we have the Mac app
+22:57 right here. So what I'm going to do is
+22:58 I'm going to say, please make this app
+23:03 say
+23:04 Riley's world instead of Hello World.
+23:11 And what it's going to do is it's going
+23:12 to edit the code just like it did before
+23:14 when we were creating this. Um, and I'm
+23:16 going to actually just go into this
+23:18 folder and it's just going to make some
+23:19 changes real quick. Uh, do you want me
+23:21 to make this edit? Yes.
+23:25 So now it says done. I've updated the
+23:27 app to display Riley's world instead of
+23:29 hello world. You see it still says hello
+23:31 world. What's up with that? Well, we
+23:32 have to rerun it. So I'm just going to
+23:33 hit this play button and hit replace.
+23:37 And now it's going to open it back up.
+23:39 And now it says Riley's World. Okay,
+23:42 cool. Now, I want you to please make
+23:47 this app
+23:50 have a right sidebar.
+23:54 I want to uh that
+23:58 sidebar to have five icons on it. And
+24:03 when I click on one of those icons, it
+24:09 opens up a little document on the
+24:15 screen.
+24:18 And each of these are going to have
+24:22 different features. Just
+24:27 make the first one. The first icon, the
+24:32 top one should be
+24:35 video scripts. And this is where I want
+24:40 to be able to write my video ideas and
+24:45 should be text
+24:48 format with a script writing style font.
+24:55 please.
+24:57 Okay, this is a longer prompt. We're
+24:59 going to run this. So, now we're going
+25:00 to create Riley's World. Okay, so it is
+25:04 working through these. I believe it's
+25:06 done. Perfect. I've created your sidebar
+25:08 app. Okay, so now what I'm going to do
+25:09 is I'm going to hit play once again and
+25:11 we're going to hit replace. And this
+25:13 should open up the Mac app. Build
+25:16 succeeded. So, we take a look here. We
+25:18 can hit option two feature coming soon.
+25:21 And we can hit video scripts. So, now we
+25:23 can write a video script. Hello there.
+25:26 This is pretty
+25:29 cool. I'm writing a video script. That
+25:34 is awesome.
+25:37 I think this is wonderful. Okay, so
+25:42 option two should be for images. These
+25:48 are little image ideas. I want to be
+25:52 able to save and should be a gallery.
+25:57 Option three should be research. This
+26:01 should be a search bar. Then you decide
+26:06 what option four should be. Then make
+26:11 option five
+26:14 um an AI chat. But we'll build that
+26:19 later.
+26:21 So you can just come up with random
+26:22 ideas and you can build your own little
+26:24 operating system. You can just build
+26:25 little mini apps within your app. And
+26:27 since this is a Mac app, it'll actually
+26:29 sync with your files directory directly.
+26:31 And so you can get these to just save to
+26:33 files directly on your computer similar
+26:35 to like Obsidian for example. And these
+26:39 will save directly to your computer and
+26:40 you can create your own custom little
+26:42 Mac apps. Okay, so obviously this one
+26:44 took a little while uh because there was
+26:46 a lot that it had to do. And so we can
+26:48 just hit replace again. And I hope this
+26:50 fails actually because I want to show
+26:52 you what Oh, it didn't. Um
+26:55 so what we can do here is we can we can
+26:58 do video scripts like earlier, right? We
+27:01 have this images. Uh we can add an
+27:03 image. See if this works natively. The
+27:06 add image feature doesn't appear to be
+27:09 working. Let's see what would happen if
+27:11 we were to
+27:13 um try and add an image here. Here's a
+27:17 JPEG.
+27:19 Okay, it doesn't look like the image I
+27:22 want to be able to add images. It's not
+27:27 working. Uh research wasn't designed to
+27:30 work, but it added this research tab.
+27:32 Here's notes. Um was this what I wanted
+27:35 for the fourth one? Uh notes. Here is a
+27:40 mini note. I forget what I asked for for
+27:42 this one. Here's a mini note. That's
+27:45 interesting.
+27:47 Um, but yeah, I don't know. This is an
+27:50 AI chat. I told it not to build this,
+27:53 but we can uh chat here. And it just
+27:56 kind of created this shell outline. And
+27:59 yes, this is just like a random example.
+28:01 Uh, screw all this app. Um, please,
+28:06 um, remove all of them except for video
+28:12 scripts. Um, but change video scripts to
+28:16 chess. I want you to make chess. Uh,
+28:19 this will be one of the mini games that
+28:20 you can play in Riley's World. So,
+28:21 you're basically taking out everything
+28:23 that you've done except for the side
+28:25 panel, and I want to be able to play
+28:26 chess.
+28:29 Um, I wish I came with a more specific
+28:32 idea for an app. Um, I don't want to
+28:34 spend too much time on the Mac app, but
+28:36 my point is is you can just like
+28:37 explore, you can try things, you can
+28:39 test things, you can ask Claude, "How do
+28:41 I get this on the Mac store? How do I
+28:43 allow people to download this directly
+28:46 um from a website?" Right? You can
+28:48 download Mac apps directly from a
+28:50 website. What are the limitations to
+28:51 that? What uh accounts do I need? How do
+28:53 I set up payments? You can do all these
+28:55 different things. Okay, so it is done. I
+28:59 will hit refresh, replace,
+29:02 and we'll see if build succeeded. There
+29:06 we go. We're going to press chess. Now
+29:08 we're playing chess.
+29:11 Let's see if we can Nope. It seems
+29:14 correct.
+29:16 See? See what happens when you take a
+29:19 piece. Nice.
+29:21 Let's just get a checkmate going here.
+29:24 We'll go here. And then we'll go here.
+29:28 So, it didn't fully work. The checkmate
+29:31 didn't fully work. Oh, it's still
+29:33 letting me play beyond the game ending.
+29:36 But the point is is you can just kind of
+29:37 create chess. And so, that's how easy it
+29:39 is to create a Mac app, right? That is a
+29:42 Mac app that you can create for Mac. And
+29:45 what Mac apps are really cool because
+29:46 you can like integrate them deeply with
+29:48 your like folders, right? The same way
+29:50 Obsidian automatically saves everything
+29:52 locally. That's what you can do. You
+29:54 don't actually need to build in a
+29:55 database if you want to store things in
+29:57 your app or make it for a personal app.
+29:59 You can actually just make Mac apps that
+30:01 store things directly to your local
+30:04 files, which is really useful because
+30:06 then you can actually use cloud code to
+30:08 reference those files, which is really
+30:09 fun to do. The next thing that I want to
+30:11 do is I want to create a mobile app. And
+30:14 what we're going to do is we're going to
+30:15 create a mobile app. We're also going to
+30:17 create a CLI tool. And we're going to do
+30:21 this uh we're going to do both of these
+30:23 at the same time. And so what we're
+30:25 going to do again is we're going to hit
+30:26 create new project. And now we're going
+30:28 to do a we can do a CLI Mac tool. We can
+30:33 make this a command line tool. And we
+30:36 can call this CLI tool. Yes. And so now
+30:40 we can hit create. So we have this iOS
+30:43 app and this CLI tool. Now, what we can
+30:46 do is we can actually go into Finder, go
+30:48 into downloads, and I'm just going to
+30:49 open this up, the CLI tool, and I'm just
+30:52 going to hit services, add new terminal
+30:55 at folder. Now, for the iOS app, yes.
+30:58 So, this is CLI tool. So, we'll move the
+31:00 CLI tool over here. And for the iOS app,
+31:04 we are going to press, we're going to go
+31:06 like this. We're going to hit services.
+31:08 We're going to hit add. Um, we're going
+31:10 to do new terminal at folder. Okay. So
+31:15 here we're going to put this on the left
+31:18 side. We're going to put this on the
+31:20 right side. Here we're going to type
+31:21 Claude and we're going to type Claude.
+31:25 Now, what I'm going to do is I'm going
+31:26 to say, "Please create a mobile app that
+31:31 allows me to chat
+31:34 uh with Open AI's
+31:37 API
+31:40 and
+31:42 Open AAI's API and I am going to
+31:48 um put the key in a text file in this
+31:53 directory.
+31:55 and it will be called
+31:59 OpenAI
+32:01 API. Okay, so we're going to copy this.
+32:04 Okay, so in both of these folders, I
+32:06 added the OpenAI.txt
+32:09 file. There it has my API key. I don't
+32:12 want to expose it. This will allow me to
+32:14 use the OpenAI API key in both of these
+32:17 tools. And so, uh, please, uh, run this.
+32:22 Um, yeah, I'm just going to ship this.
+32:25 So, this is the iOS app, and this is the
+32:28 CLI tool. We're going to have Cloud Code
+32:30 working in tandem. And it's going to
+32:33 create both of us. Both of these apps
+32:35 are going to be created. And you see
+32:37 they're both chugging along. They're
+32:39 both working. Let's go ahead and approve
+32:42 changes here. Approve changes here.
+32:46 Looks like the CLI tools almost done.
+32:51 Proceed.
+32:54 Proceed. Okay. Amazing. So, here they're
+32:57 both done. And so, now let's go ahead
+33:00 and test. Let's go ahead and test the
+33:02 iOS app first. We can hit play. The
+33:05 build failed. That's okay. We expect
+33:08 some errors from time to time.
+33:11 Um, we need to select a developer team.
+33:15 Oh, we didn't have a developer team
+33:17 selected. Team, I'm going to select
+33:19 Riley Brown. Now, I'm going to hit play
+33:24 and
+33:26 build succeeded. Oh, it's trying to run
+33:29 it on my phone. What we need to do here
+33:31 is we need to run it on simulator. So,
+33:33 I'm just going to run it on iPhone 16
+33:35 Pro and then we're going to hit play
+33:36 again. This should open up the
+33:38 simulator. There it is. So, there's the
+33:40 iOS app that we're building.
+33:42 And this should open up this iOS app.
+33:44 Yes. Let's see if this pops up.
+33:49 Right now, all I'm seeing is a white
+33:50 screen. I'm not sure why. Um, I'm going
+33:54 to copy this and I'm just going to say
+33:57 all I see is a white screen
+34:02 uh when I run it in simulator. What is
+34:06 going on? So, let's go ahead and run
+34:09 that. Now, we can go ahead and check on
+34:11 this. So, I don't even know how to run
+34:13 this.
+34:15 Um, I'm assuming we're just I've never
+34:18 made a CLI tool, by the way. I'm just
+34:19 assuming this is going to work. So, this
+34:21 is the CLI tool. I think if I hit play,
+34:25 build succeeded.
+34:28 Where is it running?
+34:31 Okay.
+34:33 Okay. This is the first time I'm testing
+34:38 a CLI tool. How do I test this?
+34:44 Okay. Um, OpenAI chat is ready.
+34:49 Oh, just run OpenAI chat in my terminal.
+34:51 So, all I need to do is open up a new
+34:53 terminal. So, I could actually just
+34:55 click here and hit
+34:57 um new tab.
+35:01 I'm just going to go to my terminal
+35:04 here, new window, and I am going to type
+35:09 in
+35:10 dot
+35:12 slash
+35:14 openai-
+35:16 chat.
+35:19 Okay,
+35:21 where do I run this?
+35:25 Okay, uh it says it fixed the white
+35:27 screen issue. So, if we come back here
+35:28 and hit play, replace.
+35:31 Let's go ahead and see what happens now.
+35:39 Oh, here it is.
+35:42 Hello.
+35:47 What model are you? And by the way, when
+35:50 you have your uh terminal open, you hit
+35:51 command K. It'll open up this keyboard.
+35:54 So, what model are you? Send
+35:58 I'm a language model. Okay, so this is
+36:00 like GPT 3.5.
+36:03 So our iOS app is done. This is a very
+36:05 simple iOS chat and we can chat with an
+36:08 AI. Yay.
+36:12 Pretty cool, huh? Well, what we can also
+36:15 do is we can also It says to CD Oh, I
+36:20 see. So, we need to go into the
+36:23 terminal, hit new window,
+36:25 and we need to uh cd into the right
+36:29 folder. I don't know what cd stands for,
+36:32 but I kind of know what it means. It
+36:34 means to like move into that folder. And
+36:36 now we can hit dot slash openai
+36:43 uh dash chat.
+36:47 Okay. Open AAI chat tool. So now we've
+36:50 created a CLI tool and an iOS app in the
+36:54 same next to each other. Pretty sick. So
+36:57 hello. I don't know if this works
+36:58 though. We don't know if this works.
+37:00 Hello. How can I assist you? Who are
+37:03 you? Act as a penguin and answer the
+37:12 question.
+37:14 Sure thing. I'm a friendly penguin here
+37:16 to help. So now we created this AI
+37:18 chatbot that just like lives in our
+37:21 terminal. And so that's pretty fun,
+37:24 pretty interesting. And yeah, that's
+37:26 what we did today. And by the way, I
+37:28 wasn't kidding about this. Uh in about a
+37:30 month, we're going to be launching a
+37:32 kind of a guided course where you're
+37:35 going to get your idea and you will
+37:36 guaranteed by taking the course, part of
+37:39 the course is getting an app on the app
+37:41 store and we'll guide you through it.
+37:43 And we're going to be uh doing this
+37:44 course for a very limited amount of
+37:46 people. So, if you're interested in this
+37:48 uh please put your email. Um I'm going
+37:51 to put this link in the description. If
+37:53 you want to get access to this course,
+37:55 it's going to be a really fun one. And
+37:57 we're actually going to take an idea.
+37:59 We're not going to write any code and
+38:00 we're going to get it on the app store.
+38:02 Thank you guys so much for watching the
+38:03 video and I'll see you here in the next
+38:05 one.

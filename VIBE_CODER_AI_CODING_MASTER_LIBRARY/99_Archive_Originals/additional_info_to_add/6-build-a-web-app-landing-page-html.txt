@@ -1,0 +1,297 @@
+6. Build a Web App - Landing Page HTML
+
+0:10 hello Gary Simon here of design course
+0:13 comm today we're going to step out of
+0:15 Adobe Photoshop and into HTML in CSS so
+0:19 we're going to focus today specifically
+0:20 on doing the HTML and CSS for the
+0:23 landing page alright so if you haven't
+0:24 yet check out design course comm
+0:26 subscribe here on YouTube and if you
+0:29 need access to any project files they're
+0:30 available for free alright let's get
+0:32 started okay so make sure you open up
+0:36 the very first mock-up we did mines
+0:38 named home step one dot PSD and I
+0:41 basically we're going to be referring
+0:42 back to this I when we set up our HTML
+0:46 structure ok so specifically speaking
+0:49 the grid and the elements on here
+0:51 alright so in order to proceed download
+0:55 the project file that is available I in
+0:58 the link if you're on design course comm
+1:00 watching this then it's already right
+1:02 there you just click on download project
+1:04 files there's a quick registration
+1:05 requires free no big deal I and if
+1:09 you're watching this on YouTube the link
+1:10 to the page on design course we can
+1:12 download this in the description alright
+1:14 so once you have the zip file downloaded
+1:17 go ahead and extract it so I use an HTML
+1:20 editor in that is right here and this is
+1:24 called sublime text - it does cost money
+1:27 I think like 60 bucks or something but I
+1:29 you could use notepad you don't
+1:30 necessarily have to use it as you can
+1:32 see it's all just text-based so don't
+1:34 freak out if you don't have it's not
+1:35 that big of a deal but over here it just
+1:37 I has the folder structure and you know
+1:40 what you download pretty much look like
+1:42 this for this index.htm file we want to
+1:47 change the title here real quick to
+1:49 whatever your site name is if you did
+1:51 register one i've butterfl i save your
+1:56 money and barter whatever and i just
+2:01 real quickly I didn't bother showing you
+2:03 guys me typing all this stuff this is
+2:05 all very basic you know it starts out
+2:07 with an HTML tag everything goes inside
+2:09 those two tags
+2:10 and in the next element always is the
+2:12 head tag and it just has different mated
+2:15 tags in here has the title which shows
+2:16 up on the browser one eye
+2:18 title or bar or whatever of the window
+2:20 and then we have right here linked is a
+2:22 CSS and I screwed up it's not 11:40 px
+2:26 CSS just 11:40 as you can see right here
+2:30 so make sure you make that change
+2:31 otherwise it won't work and then for our
+2:33 font our web fonts or sans approach just
+2:36 linked right here as well alright so
+2:38 basically the way we want to get started
+2:40 in but by the way if we check out 11:40
+2:43 CSS you know this is from the website
+2:46 11:40 px calm and you can download
+2:48 everything here as well I so basically
+2:52 it shows you this is a very simple
+2:54 minimalistic responsive framework so
+2:56 when we're talking about responsive web
+2:58 design basically it means that we can
+3:00 use a single CSS file an HTML file that
+3:04 will work on multiple viewport with sort
+3:07 device viewport widths so it'll work on
+3:09 it'll automatically adapt to like if
+3:12 you're viewing on a phone the layout
+3:13 will adapt if it's on a like a lap or a
+3:16 what you call like an iPad or something
+3:18 a tablet so over here it just gives you
+3:22 some just very basic classes right here
+3:26 and I will describe described and you
+3:28 know explain these as we go along
+3:30 alright so basically the first thing we
+3:33 want to do is just type in div class
+3:35 equals container 12 so just like that
+3:39 and then we'll end it just like that
+3:41 alright so basically this container 12
+3:45 this is just like a div that's our class
+3:47 container 12 that's specified 1140 CSFs
+3:50 you just don't have to really worry
+3:51 about it but basically what that is is
+3:52 we turn on these grids
+3:54 this means this div this container is
+3:56 going to be the width of 12 of these
+3:59 columns so that's all we have to worry
+4:01 about for that and let's go back here
+4:03 and inside of it we want to put header
+4:06 which is an html5 tag header and because
+4:13 we're going to be writing the HR the
+4:14 HTML specifically for this top portion
+4:17 okay so let's go back over here now what
+4:21 we want to do is put in div class
+4:24 equals Rho this is also something that's
+4:26 predefined in that 1140 CSS file
+4:29 basically use div class row whenever you
+4:31 have two or more floating elements so I
+4:36 the way I was thinking of doing this and
+4:39 I hope I didn't do the CSS I've done
+4:41 this project beforehand so I'm just
+4:43 gonna hope you know there may be an
+4:45 issue where I have to readjust the HTML
+4:47 once we get to the CSS part but I if we
+4:50 go over here we can see that this is
+4:55 basically 1 2 3 4 5 6 mm I'm not sure 7
+5:03 you might what I might do is just make
+5:05 this i7 columns and then this one will
+5:09 be 5 and I'll just write align both
+5:11 these and we'll hope it works
+5:13 once we scale the browser and for the
+5:15 responsive portion so I'm just going to
+5:17 do that real quick I mean if this wasn't
+5:20 here I would just Center this image but
+5:22 I'm not going to this is over here as
+5:24 well so what I'll do is I come back over
+5:27 here div class equals column 7 that's
+5:34 also predefined 1 through 12 in that
+5:37 1140 uh CSS alright and inside of that
+5:44 we'll go ahead and put a href equals my
+5:49 website address which is barter fold com
+5:52 put yours if you registered 1 and then
+5:55 image source equals images forward space
+5:58 we'll just call this a little bit of PNG
+6:00 usually I say the image is out first but
+6:03 I kind of forgot it's no big deal you
+6:05 don't have to do things in a certain way
+6:06 but yeah we will be saving that logo as
+6:09 a logo dot PNG and let's continue on
+6:12 after this we have div class equals
+6:14 column 5 so when it comes to these
+6:17 column containers you want to make sure
+6:18 they always add up to 512 so we got 7 in
+6:22 5 so that's 12 and now in here we want
+6:27 to have an unordered list for the
+6:29 navigation a ul and we'll put in our one
+6:34 link
+6:35 a to F equals actually able put forward
+6:39 slash login and login here a close the
+6:44 Li as well the list item alright very
+6:47 simple okay so now we have that portion
+6:50 done that is all the HTML is required
+6:52 for this up here basically alright so
+6:59 now we have to worry about the next
+7:00 element which is right here a very
+7:02 simple piece of text so let's go ahead
+7:05 and come over here I'm going to put h1
+7:08 we're going to give it an ID that way we
+7:11 can reference it in the CSS and control
+7:14 the margin because there's quite a bit
+7:15 of margin from above it and the header
+7:18 above it all right so we'll put in id
+7:21 equals home and I'll put need something
+7:26 someone might want to barter close the
+7:30 tag alright and then the very next thing
+7:34 we have is this form right here so we
+7:37 have to add some form HTML form tags so
+7:41 let's go back here alright so form
+7:45 action equals we're not going to send it
+7:48 to a specific script so we're just going
+7:50 to leave that blank because it's going
+7:51 to submit to itself and then at the top
+7:54 here once we get to the PHP I will put
+7:56 the PHP code up there alright so action
+7:58 equals I blank and then method equals
+8:01 post and that will just post the data
+8:05 from the form and let's close that and
+8:11 then inside I'm going to put an empty
+8:14 div and that's going to be used to put
+8:20 any type of error signs I like if the
+8:23 person didn't fill out all the three
+8:25 forms or fields then we'll put in a some
+8:28 PHP right in here that will basically
+8:30 echo that alright so let's go down here
+8:37 so now because these all float to the
+8:41 right of each other wait where'd that go
+8:43 I'll have to worry about that too much
+8:45 I'll find it I because all these three
+8:47 these three elements float we're going
+8:49 to
+8:49 div class equals row close it and then
+8:56 come inside and this is going to be div
+9:01 class equals now here's where we have to
+9:03 refer back get the grid out this first
+9:06 text box is for width so it's column
+9:09 equals four
+9:14 the next one I believe is five yep and
+9:19 then this last one is three so there's
+9:22 all add up to 12
+9:24 let me just take this real quick
+9:27 paste it two times
+9:29 this is five and this is three very
+9:32 simple alright so inside is where we
+9:34 actually put the HTML code for our two
+9:41 text box and button so let me see here
+9:45 it's going to do the input type equals
+9:48 text that means it's going to be a text
+9:51 field as opposed to like a drop-down or
+9:53 something class we're going to give the
+9:55 class of large - FLD and that just means
+9:58 large field and name equals we're going
+10:03 to put I I need because that's the one
+10:06 where they specify what they need or
+10:07 want value equals nothing and then
+10:11 placeholder equals I need this so
+10:14 placeholders a tag that allows you to
+10:17 put in that initial grayed out text
+10:20 right here alright so let me can come
+10:24 back over here I'm going to copy this
+10:29 real quick we'll put will keep
+10:33 everything the same except I offer I'll
+10:36 change that name and what was that text
+10:43 I can offer this okay
+10:48 all right and then over here we're going
+10:51 to have our button so that's input type
+10:54 equals submit class equals large FLD
+11:01 name equals I I'm just going to make
+11:05 that step one and then class okay one
+11:11 second of screwed up we're going to give
+11:13 it to classes large - magnify so that
+11:17 will give us the little magnifying glass
+11:20 image as well and then we'll put in
+11:23 value equals find matches oops there we
+11:33 go all right so just about done and
+11:39 let's see here now we just have this
+11:42 little portion right here and it's just
+11:44 some text so I'm going to come back here
+11:48 and put that in and so this will be
+11:51 outside of the form but it's inside of
+11:54 this div closing what do you call
+11:56 container twelve and so we'll just put P
+12:00 for paragraph tag and we'll give it I
+12:03 can give it an ID or a class I'm just
+12:06 going to give an ID of I what was this
+12:11 text for anyhow okay so I'm just going
+12:14 to put it on home - info and then I'll
+12:18 copy that text let me hide this real
+12:21 quick all right and come back and go
+12:31 ahead go ahead and close this and
+12:36 because we had those three being green
+12:38 these examples basically we'll put a
+12:42 span tag and we'll be able to reference
+12:45 that in CSS oops
+12:50 all right so
+12:54 all right so far so good so I let me
+13:00 save this now if we were to go ahead and
+13:04 view what this looks like in the browser
+13:06 it looked terrible but I'll just do it
+13:08 anyways then I go to open containing
+13:11 folder double click on that and this is
+13:15 what it looks like without any images
+13:17 although there's only one anyway and CSS
+13:21 applied so you know but basically have
+13:23 the idea and so as you can see as we
+13:26 pull this browser in things kind of
+13:29 naturally line up and that's based on
+13:33 that 1140 dot CSS okay so and of course
+13:38 we will have to make adjustments to that
+13:40 specifically once we have the CSS done
+13:43 for just a large view right here so yeah
+13:46 everything this is how it's supposed to
+13:48 look like it's supposed to look like
+13:49 crap without CSS but the CSS once we do
+13:52 that that's where the magic will come in
+13:54 now unfortunately it's late it's like
+13:56 8:45 p.m. I have to toddler daughters
+13:59 and my wife just yelled at me and said I
+14:01 have to get done because the ones
+14:02 getting tired and I always have to watch
+14:03 the younger one to why the other one
+14:06 goes to sleep so I'm going to have to
+14:08 end it here I would have liked to get a
+14:10 little bit longer today I know this is
+14:11 probably a little bit annoying if you're
+14:12 one of the individuals who have been
+14:14 following a long day by day because it
+14:16 seems like we don't get too much done
+14:17 but yeah
+14:19 it is what it is anyhow so tomorrow what
+14:23 we'll do - just so that we can have a
+14:25 little bit of a payoff we'll focus on
+14:27 the CSS and really make this end up
+14:29 looking like this and then maybe we'll
+14:32 also get the second step done as well
+14:34 all right so I'm Gary Siamese on course
+14:38 comm if you haven't yet and subscribe
+14:40 here on YouTube alright goodbye
+14:53 you

@@ -1,0 +1,1483 @@
+Skip to main content
+
+Chrome for Developers
+
+
+
+English
+Sign in
+Docs
+Chrome Extensions
+Develop
+
+Chrome for Developers
+Home
+Docs
+Chrome Extensions
+Develop
+Was this helpful?
+
+Improve extension security
+
+
+
+
+
+Improving security in Manifest V3
+
+Note: Manifest V3 is supported generally in Chrome 88 or later. For extension features added in later Chrome versions, see the API reference documentation for support information. If your extension requires a specific API, you can specify a minimum chrome version in the manifest file.
+This is the last of three sections describing changes needed for code that is not part of the extension service worker. It describes changes required to improve the security of extensions. The other two sections cover updating your code needed for upgrading to Manifest V3 and replacing blocking web requests.
+
+Remove execution of arbitrary strings
+You can no longer execute external logic using executeScript(), eval(), and new Function().
+
+Move all external code (JS, Wasm, CSS) into your extension bundle.
+Update script and style references to load resources from the extension bundle.
+Use chrome.runtime.getURL() to build resource URLs at runtime.
+Use a sandboxed iframe: eval and new Function(...) are still supported in sandboxed iframes. For more details read the guide on sandboxed iframes.
+The executeScript() method is now in the scripting namespace rather than the tabs namespace. For information on updating calls, see Move executeScript().
+
+There are a few special cases in which executing arbitrary strings is still possible:
+
+Inject remote hosted stylesheets into a web page using insertCSS
+For extensions using chrome.devtools: inspectWindow.eval allows executing JavaScript in the context of the inspected page.
+Debugger extensions can use chrome.debugger.sendCommand to execute JavaScript in a debug target.
+Remove remotely hosted code
+In Manifest V3, all of your extension's logic must be part of the extension package. You can no longer load and execute remotely hosted files according to Chrome Web Store policy. Examples include:
+
+JavaScript files pulled from the developer's server.
+Any library hosted on a CDN.
+Bundled third-party libraries that dynamically fetch remote hosted code.
+Alternative approaches are available, depending on your use case and the reason for remote hosting. This section describes approaches to consider. If you are having issues with dealing with remote hosted code, we have guidance available.
+
+Configuration-driven features and logic
+Your extension loads and caches a remote configuration (for example a JSON file) at runtime. The cached configuration determines which features are enabled.
+
+Externalized logic with a remote service
+Your extension calls a remote web service. This lets you keep code private and change it as needed while avoiding the extra overhead of resubmitting to the Chrome Web Store.
+
+Embed remotely hosted code in a sandboxed iframe
+Remotely hosted code is supported in sandboxed iframes. Please note that this approach does not work if the code requires access to the embedding page's DOM.
+
+Bundle third-party libraries
+If you are using a popular framework such as React or Bootstrap that you were previously loading from an external server, you can download the minified files, add them to your project and import them locally. For example:
+
+
+<script src="./react-dom.production.min.js"></script>
+<link href="./bootstrap.min.css" rel="stylesheet">
+To include a library in a service worker set the "background.type" key to "module" in the manifest and use an import statement.
+
+Caution: Some libraries (Firebase, for example) fetch additional code as needed at runtime. You have two options for avoiding this. You can chose a library that does not use remotely-hosted code. You can also download all possible dynamic imports at build time. Here is an example script that bundles Firebase using Rollup.js.
+Use external libraries in tab-injected scripts
+You can also load external libraries at runtime by adding them to the files array when calling scripting.executeScript(). You can still load data remotely at runtime.
+
+
+chrome.scripting.executeScript({
+  target: {tabId: tab.id},
+  files: ['jquery-min.js', 'content-script.js']
+});
+Inject a function
+If you need more dynamism, the new func property in scripting.executeScript() allows you to inject a function as a content script and pass variables using the args property.
+
+Manifest V2
+
+let name = 'World!';
+chrome.tabs.executeScript({
+  code: `alert('Hello, ${name}!')`
+});
+In a background script file.
+
+Manifest V3
+
+async function getCurrentTab() {/* ... */}
+let tab = await getCurrentTab();
+
+function showAlert(givenName) {
+  alert(`Hello, ${givenName}`);
+}
+
+let name = 'World';
+chrome.scripting.executeScript({
+  target: {tabId: tab.id},
+  func: showAlert,
+  args: [name],
+});
+In the background service worker.
+
+The Chrome Extension Samples repo contains a function injection example you can step through. An example of getCurrentTab() is in the reference for that function.
+
+Look for other workarounds
+If the previous approaches don’t help with your use case you might have to either find an alternative solution (i.e. migrate to a different library) or find other ways to use the library's functionality. For example, in the case of Google Analytics, you can switch to the Google measurement protocol instead of using the official remotely-hosted JavaScript version as described in our Google Analytics 4 guide.
+
+Update the content security policy
+The "content_security_policy" has not been removed from the manifest.json file, but it is now a dictionary that supports two properties: "extension_pages" and "sandbox".
+
+Manifest V2
+
+{
+  ...
+  "content_security_policy": "default-src 'self'"
+  ...
+}
+Manifest V3
+
+{
+  ...
+  "content_security_policy": {
+    "extension_pages": "default-src 'self'",
+    "sandbox": "..."
+  }
+  ...
+}
+extension_pages: Refers to contexts in your extension, including html files and service workers.
+
+Note: These page types are served from the chrome-extension:// protocol. For instance, a page in your extension is chrome-extension://EXTENSION_ID/foo.html.
+sandbox: Refers to any sandboxed extension pages that your extension uses.
+
+Remove unsupported content security policies
+Manifest V3 disallows certain content security policy values in the "extension_pages" field that were allowed in Manifest V2. Specifically Manifest V3 disallows those that allow remote code execution. The script-src, object-src, and worker-src directives may only have the following values:
+
+self
+none
+wasm-unsafe-eval
+Unpacked extensions only: any localhost source, (http://localhost, http://127.0.0.1, or any port on those domains)
+Content security policy values for sandbox have no such new restrictions.
+
+Was this helpful?
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2023-03-08 UTC.
+
+Contribute
+File a bug
+See open issues
+Related content
+Chromium updates
+Case studies
+Archive
+Podcasts & shows
+Follow
+@ChromiumDev on X
+YouTube
+Chrome for Developers on LinkedIn
+RSS
+Terms
+Privacy
+
+English
+Skip to main content
+
+Chrome for Developers
+
+
+Sign in
+Docs
+Chrome Extensions
+Chrome Web Store - Program Policies
+
+Chrome for Developers
+Home
+Docs
+Chrome Extensions
+Chrome Web Store - Program Policies
+Was this helpful?
+
+Program Policies
+
+
+
+
+
+The Chrome Web Store is committed to providing a safe and secure environment for users, built on trust and transparency. For these reasons, the Chrome Web Store requires all developers to comply with both the Developer Program Policies listed below, and the Developer Agreement. When your extension is reviewed by Google, these policies act as a guiding principle for those reviews. These policies apply to the entire user experience of your application/extension/theme – including any marketing materials, user generated content, ads, landing pages, etc – unless otherwise noted.
+
+Best Practices and Guidelines
+Research and understand the Chrome Web Store policies. Before developing a Chrome extension, it is important to review the Chrome Web Store Developer Program Policies and ensure your extension complies with all guidelines and requirements.
+Extensions should add value to the Chrome Web Store. If your extension is not particularly useful or unique, it doesn't belong on the Chrome Web Store.
+No cheating. If you attempt to scam the system (for example, by misleading users, circumventing enforcement, copying the work of other developers, or manipulating your extension’s reviews or ratings) you will be banned from the Chrome Web Store.
+Developers must carefully adhere to strict guidelines regarding the collection, use, and disclosure of user data, and must obtain user consent for any data collection or usage. Apps that access sensitive user data such as financial information, health information, or personal information must comply with additional policies and guidelines.
+Ensure that all of your extension’s information and metadata are up to date and accurate. This also includes information provided in the developer dashboard at the time of publishing, such as data collection certifications, item category, etc.
+Test your extensions for crashes, broken features, and bugs prior to submission.
+Verify that your contact information is correct to ensure you receive important communications for the Chrome Web Store. Some of these emails will require action on your part. Failing to respond could result in the removal of your item from the Store.
+Include detailed information in the single purpose field regarding your extension’s primary functionality.
+Provide meaningful customer support for your extension.
+Chrome Web Store policies are subject to change. Google may update the policies at any time, and developers are responsible for keeping up-to-date with any changes and complying with the updated policies. Updates to our policies will be announced via email to the address listed in your developer account.
+Fostering a Safe Ecosystem
+Mature & Sexually Explicit Material
+We don't allow content that contains nudity, graphic sex acts, sexually explicit material, or content that drives traffic to commercial pornography sites.
+
+We also don't allow content that promotes incest, bestiality, necrophilia, or non-consensual sexual acts.
+
+Google has a zero-tolerance policy against child pornography. If we become aware of content with child pornography, we will report it to the appropriate authorities and delete the Google accounts of those involved with the distribution.
+
+Content which contains non-sexual nudity—such as artistic, educational, scientific, or cultural nudity—is generally allowed, but may impact the visibility of your Product.
+
+Products that include content that may not be suitable for all ages should be marked "Mature" on the Developer Dashboard. Items marked as mature will only be available to logged in, adult aged Google Accounts.
+
+Malicious and Prohibited Products
+Don't transmit viruses, worms, defects, Trojan horses, malware, or any other products of a destructive nature.
+
+We don't allow content that harms or interferes with the operation of the networks, servers, or other infrastructure of Google or any third-parties.
+
+Spyware, malicious scripts, and phishing scams are also prohibited in the Chrome Web Store.
+
+Do not facilitate unauthorized access to content on websites, such as circumventing paywalls or login restrictions.
+
+Do not encourage, facilitate, or enable the unauthorized access, download, or streaming of copyrighted content or media.
+
+We do not allow the mining of cryptocurrency.
+
+Hate Speech and Violent Behavior
+Depictions of gratuitous violence are not allowed. Products should not contain materials that threaten, harass, or bully other users.
+
+We don't allow content or products that advocating against or inciting hatred towards groups of people based on their race or ethnic origin, religion, disability, gender, age, veteran status, nationality, sexual orientation, gender, gender identity, or any other characteristic that is associated with systematic discrimination or marginalization.
+
+We remove products that recruit, fundraise, or promote violence on behalf of extremist groups defined by the US State Department and other international organizations. Violent extremism is defined as the use of violence and intimidation in the pursuit of political aims or goals outside of societal norms.
+
+The visibility of your Product may be impacted if it contains generally hateful content not covered by the above definition.
+
+Regulated Goods and Services
+Don't engage in or promote unlawful activities in your product, such as rape, illegal sex work, or the sale of prescription drugs without a prescription. We will remove content which promotes, glorifies, or encourages dangerous or illegal activity that may result in physical harm to those involved.
+
+We don't allow content or services that facilitate or promote real money gambling, including but not limited to online casinos, sports betting, lotteries, or games of skill that offer prizes of cash or other value. Products that simulate gambling but don't offer any opportunity for real money winnings, payouts, or prizes of value may be allowed. However, such products must clearly indicate that no real money is involved and comply with all other applicable policies of the Chrome Web Store.
+
+We don't allow the facilitation of the sale of regulated products or services. Regulated goods include pharmaceuticals, alcohol, tobacco, fireworks, weapons, gambling, or health/medical devices.
+
+Protecting User Privacy
+Privacy Policy
+If your Product handles any user data, then you must post an accurate and up to date privacy policy.
+
+The privacy policy must, together with any in-Product disclosures, comprehensively disclose:
+
+How your Product collects, uses and shares user data
+
+All parties the user data will be shared with.
+
+You must make the policy accessible by providing a link in the designated Chrome Web Store Developer Dashboard field.
+
+For more information on this policy, see the Developer FAQ.
+
+Limited Use
+This policy establishes the Chrome Web Store's minimum user data privacy requirements; you or your Product must comply with applicable laws.
+
+You must limit your use of the data to the practices you disclosed.
+
+Collection and use of web browsing activity is prohibited, except to the extent required for a user-facing feature described prominently in the Product's Chrome Web Store page and in the Product's user interface.
+
+Upon accessing user data for a single purpose, your use of the user data obtained must comply with the below requirements. The requirements apply to both the raw data obtained and the data aggregated, anonymized, de-identified, or derived from the raw data. They also apply to scraped content or otherwise automatically gathered user data.
+
+Limit your use of user data to providing or improving your single purpose
+
+Only transfer user data to third parties
+
+If necessary to providing or improving your single purpose;
+
+to comply with applicable laws;
+
+to protect against malware, spam, phishing, or other fraud or abuse; or,
+
+as part of a merger, acquisition or sale of assets of the developer after obtaining explicit prior consent from the user.
+
+Do not allow humans to read user data, unless:
+
+the user's explicit consent to read specific data (for example, helping a user re-access the product or a service after having lost their password) is obtained;
+
+The data is aggregated and anonymized and used for internal operations in accordance with applicable privacy and other jurisdictional legal requirements;
+
+It's necessary for security purposes (e.g., investigating abuse); or,
+
+To comply with applicable laws.
+
+All other transfers, uses, or sale of user data is completely prohibited, including:
+
+Transferring, using, or selling data for personalized advertisements.
+
+Transferring or selling user data to third parties like advertising platforms, data brokers, or other information resellers.
+
+Transferring, using, or selling user data to determine credit-worthiness or for lending purposes.
+
+An affirmative statement that your use of the data complies with the Limited Use restrictions must be disclosed on a website belonging to your extension; e.g., a link on a homepage to a dedicated page or privacy policy noting: "The use of information received from Google APIs will adhere to the Chrome Web Store User Data Policy, including the Limited Use requirements."
+
+Use of Permissions
+Request access to the narrowest permissions necessary to implement your Product's features or services. If more than one permission could be used to implement a feature, you must request those with the least access to data or functionality. Don't attempt to "future proof" your Product by requesting a permission that might benefit services or features that have not yet been implemented.
+Disclosure Requirements
+You must be transparent in how you handle user data (e.g., information provided by a user or collected about a user or a user's use of the Product or Chrome Browser), including by disclosing the collection, use, and sharing of the data.
+
+If your Product handles any user data that is not closely related to the functionality described prominently in the Product's Chrome Web Store page and user interface, then prior to installation, it must:
+
+Prominently disclose what user data will be collected and how it will be used
+
+Obtain the user's affirmative and informed consent for such use
+
+Handling Requirements
+If your product is associated with a security vulnerability that could be exploited to compromise another application, service, browser, or system, we may remove your product from the Chrome Web Store and take other measures to protect users. In such an event, you may be contacted about remediation steps required to restore the product. Chrome extension security vulnerabilities can be reported here.
+
+If your product collects any user data, it must handle the user data securely, including transmitting it via modern cryptography.
+
+Don't publicly disclose financial or payment information.
+
+Keep authentication information secure. Don't publicly disclose authentication information.
+
+Ensuring Responsible Marketing and Monetization
+Impersonation & Intellectual Property
+Don't pretend to be someone else, and don't represent that your product is authorized by, endorsed by, or produced by another company or organization, if that is not the case.
+
+Your Product and its user experience also must not mimic functionality or warnings from a user's operating system or browser.
+
+Developers should not divert users or provide links to any other site that mimics the Chrome Web Store or passes itself off as the Chrome Web Store.
+
+Any metadata that misrepresents the extension's or developer's current status or performance on the Chrome Web Store (e.g. "Editor's Choice" or "Number One") is not allowed.
+
+Don't infringe on the intellectual property rights of others, including patent, trademark, trade secret, copyright, and other proprietary rights. We will respond to clear notices of alleged copyright infringement. For more information or to file a DMCA request, use this tool.
+
+The visibility of your Product may be impacted if we believe it potentially infringes on intellectual property rights.
+
+Deceptive Installation Tactics
+Extensions must be marketed responsibly. The set of functionalities promised by the extension must be stated clearly and in a transparent manner. The outcome of any user interaction should match the reasonable expectations that were set with the user. Extensions that use or benefit from deceptive installation tactics will be removed from the Chrome Web Store. Deceptive installation tactics include:
+
+Confusing or deceptive advertisements or marketing materials preceding the installation of your extension. The features of your extension should be clear when marketing your product.
+
+Misleading interactive elements as part of your distribution flow. This includes misleading call-to-action buttons or forms that imply an outcome other than the installation of an extension. Any call-to-action buttons preceding the installation of your extension must state that an extension will be installed.
+
+Adjusting the Chrome Web Store product listing window with the effect of withholding or hiding extension metadata from the user.
+
+Bundling other extensions or offers within the same installation flow.
+
+Requiring unrelated user action to access advertised functionality.
+
+For more information about this policy, see the Developer FAQ.
+
+Accepting Payment From Users
+If you collect sensitive personal information through your Product for sales, you must follow these requirements:
+
+You must securely collect, store, and transmit all credit card and other sensitive personal information in accordance with privacy and data security laws and payment card industry rules.
+
+You must avoid misleading users. For example, clearly and honestly describe the products or services that you are selling and conspicuously post your terms of sale (including any refund and return policies).
+
+If your Product requires the user to pay to obtain basic functionality, you must make that clear in the description that the user sees when choosing whether to install it.
+
+You must clearly identify that you, not Google, are the seller of the products or services.
+
+Regardless of the method of payment, you may not process payment transactions that are prohibited for Google Checkout under the Google Checkout Seller Terms of Service. This includes any illegal transaction or the sale or exchange of any illegal or prohibited goods or services, including the prohibited products set forth in the Content Policies for Google Checkout.
+
+Misleading or Unexpected Behavior
+We do not allow products that deceive or mislead users, including in the content, title, description, or screenshots. If any of your product's content, title, icon, description, or screenshots contains false or misleading information, we may remove it.
+
+Any changes to device settings must be made with the user's knowledge and consent and be easily reversible by the user.
+
+Don't misrepresent the functionality of your product or include non-obvious functionality that doesn't serve the primary purpose of the product. Descriptions of your product must directly state the functionality so that users have a clear understanding of the product they are adding. For example, products should not contain:
+
+Claimed functionalities that are not possible to implement (e.g. "Who has viewed your social media account").
+
+Anti-virus, privacy, or security extensions that do not provide any discernible monitoring or protection.
+
+Ads
+Ads are considered part of your Product for purposes of content review and compliance with developer terms, and therefore must comply with the above content policies.
+
+Ads which are inconsistent with the content rating of your products or extension are also in violation of our developer terms.
+
+Currently, AdSense may not be used to serve ads in Products, per AdSense policies.
+
+Ads must be presented in context or clearly state which product they are bundled with.
+
+Ads must also be easily removable by either adjusting the settings or uninstalling the product altogether.
+
+Ads may not simulate or impersonate system notifications or warnings.
+
+Forcing the user to click on ads or submit personal information for advertising purposes in order to fully use an app or extension provides a poor user experience and is prohibited.
+
+Ads associated with your product may not interfere with any ads on a third-party website or application. You may show ads alongside a third-party website only if all of the following criteria are met:
+
+This behavior is clearly disclosed to the user.
+
+There is clear attribution of the ads' source wherever those ads appear.
+
+The ads do not interfere with any native ads or functionality of the website.
+
+The ads do not mimic or impersonate the native ads or content on the third-party website, and the ads adhere to the content policy on impersonation and misleading behavior.
+
+Affiliate Ads
+Any affiliate program must be described prominently in the product's Chrome Web Store page, user interface, and before installation.
+
+Affiliate links, codes, or cookies must only be included when the extension provides a direct and transparent user benefit related to the extension's core functionality. It is not permitted to inject affiliate links without related user action and without providing a tangible benefit to users. Some common violations include:
+
+Inserting affiliate links when no discount, cashback, or donation is provided.
+
+An extension that continuously injects affiliate links in the background without related user action.
+
+Related user action is required before the inclusion of each affiliate code, link, or cookie. Some example violations include:
+
+An extension that updates a shopping-related cookie without the user's knowledge while the user is browsing shopping sites.
+
+An extension that appends an affiliate code to the URL or replaces an existing affiliate code in the URL without the user's explicit knowledge or related user action.
+
+An extension that applies or replaces affiliate promo codes without the user's explicit knowledge or related user action.
+
+Building Quality Products
+Feature Products
+The Chrome Web Store features products that align with our standards, values, and that we believe will produce valuable user experiences. Certain products that don't meet these standards, but which do not explicitly violate Chrome Web Store policies—such as VPN extensions and video downloaders—may be restricted from feature in the store, but will still be available to users. For example, the following products are currently not featured in the Chrome Web Store:
+
+Religious or political content
+
+VPNs
+
+Video downloaders
+
+Anti-virus tools
+
+Content deemed not family friendly
+
+Bots
+
+Cryptocurrency
+
+Non-production builds
+
+Prohibited products
+
+Gambling content
+
+Extensions whose developers have questionable reputations, such as historically misleading or malicious extensions.
+
+For information about Product ranking, see these FAQs.
+
+Spam and Abuse
+We don't allow any developer, related developer accounts, or their affiliates to submit multiple extensions that provide duplicate experiences or functionality on the Chrome Web Store. Extensions should provide value to users through the creation of unique content or services.
+
+Developers must not attempt to manipulate the placement of any extensions in the Chrome Web Store. This includes, but is not limited to, inflating product ratings, reviews, or install counts by illegitimate means, such as fraudulent or incentivized downloads, reviews and ratings.
+
+We do not allow extensions that abuse, or are associated with abuse, of notifications by sending spam, ads, promotions, phishing attempts, or unwanted messages that harm the user's browsing experience.
+
+We don't allow extensions that send messages on behalf of the user without giving the user the ability to confirm the content and intended recipients.
+
+In addition to these requirements, all extensions must comply with Google's Webmaster Quality Guidelines.
+
+For additional information about the spam policy, see the Spam FAQ.
+
+Quality Guidelines
+An extension must have a single purpose that is narrow and easy to understand. Don't create an extension that requires users to accept bundles of unrelated functionality. If two pieces of functionality are clearly separate, they should be put into two different extensions, and users should have the ability to install and uninstall them separately. Common violations include:
+
+Functionality that displays product ratings and reviews, but also injects ads into web pages.
+
+Toolbars that provide a broad array of functionality or entry points into services are better delivered as separate extensions, so that users can select the services they want.
+
+Email notifiers combined with a news aggregator.
+
+New Tab Page extensions that alter the user's web search experience and don't respect the user's existing search settings.
+
+When designing an extension, it's important to ensure it functions as a helpful companion to users' browsing experiences by providing complementary functionality. If utilizing a persistent user interface, extensions should actively enhance the user's current task while causing minimal distractions. Some common violations include:
+
+Side panel extensions which hijack a user's browsing or search experience.
+
+Extensions with the primary purpose of serving ads.
+
+See this FAQ for more information.
+
+Listing Requirements
+If your product has a blank description field or is missing an icon or screenshots, it will be rejected.
+
+Ensure your product's listing information is up to date, accurate, and comprehensive. We don't allow extensions with misleading, inaccurate, incomplete, improperly formatted, non-descriptive, out of date, or inappropriate metadata, including but not limited to the extension's description, category, developer name, title, icon, screenshots, and promotional images.
+
+All information provided in the privacy fields of your extension must be up to date and accurate. If the information listed in your privacy fields contradicts the information provided in your privacy policy, or the behavior of your extension, your extensions may be removed from the Store.
+
+Keyword Spam is the practice of including irrelevant or excessive keywords in an extensions description in an attempt to manipulate its ranking, resulting in a spammy, negative user experience. We don't allow extensions with irrelevant or excessive metadata. Developers should focus on providing a clear and well-written description that uses keywords appropriately and in context. Some examples of Keyword Spam include:
+
+Lists of sites/brands/keywords without substantial added value
+
+Lists of regional locations
+
+Unnatural repetition of the same keyword more than 5 times
+
+We don’t allow unattributed or anonymous user testimonials in the product's description.
+
+Minimum Functionality
+Do not post an extension with a single purpose of installing or launching another app, theme, webpage, or extension.
+
+Extensions with broken functionality—such as dead sites or non-functioning features—are not allowed.
+
+Extensions must provide a basic degree of functionality and utility that provide value to the catalog of the Chrome Web Store. Some examples of common violations include:
+
+Extensions with no functionality or utility.
+
+Extensions with functionality that is not directly provided by the extension (e.g. file converters which only link to other file conversion services).
+
+Click-baity template extensions that only vary slightly in functionality with negligible utility (e.g. a “Word of the Day” extension and a “Daily Inspirational Quotes” extension, which use the same general extension template).
+
+Chrome Apps
+To ensure a great user experience, Chrome Apps distributed through the Chrome Web Store must follow the additional quality guidelines listed below. The guidelines in this section apply only to Chrome Apps.
+
+Packaged apps should:
+
+Take advantage of the capabilities of the platform and not wrap around existing websites or simply launch a webpage without providing additional functionality.
+
+Detect an offline state and clearly message that state to the user.
+
+Recover automatically from loss of internet connectivity, and should resume normal functioning when connectivity is restored without the user having to restart the app.
+
+Packaged and hosted apps should not:
+
+Require a local executable, other than the Chrome runtime, to run.
+
+Provide a WebView of a website that is not owned or administered by you.
+
+Download or execute scripts dynamically outside a sandboxed environment such as a WebView or a sandboxed iframe.
+
+Misuse notifications by sending spam, ads, promotions of any kind, phishing attempts, or unwanted messages in general.
+
+Technical Requirements
+Code Readability Requirements
+Developers must not obfuscate code or conceal functionality of their extension. This also applies to any external code or resource fetched by the extension package. Minification is allowed, including the following forms:
+
+Removal of whitespace, newlines, code comments, and block delimiters
+
+Shortening of variable and function names
+
+Collapsing files together
+
+API Use
+Extensions must use existing Chrome APIs for their designated use case. Use of any other method, for which an API exists, would be considered a violation. For example, overriding the Chrome New Tab Page through any means other than the URL Overrides API is not permitted.
+Additional Requirements for Manifest V3
+Extensions using Manifest V3 must meet additional requirements related to the extension's code. Specifically, the full functionality of an extension must be easily discernible from its submitted code, unless otherwise exempt as noted in Section 2. This means that the logic of how each extension operates should be self contained. The extension may reference and load data and other information sources that are external to the extension, but these external resources must not contain any logic. Some common violations include:
+
+Including a <script> tag that points to a resource that is not within the extension's package
+
+Using JavaScript's eval() method or other mechanisms to execute a string fetched from a remote source
+
+Building an interpreter to run complex commands fetched from a remote source, even if those commands are fetched as data
+
+Execution of logic from a remote source is permissible only when accomplished through a documented API that explicitly allows this practice and the use is inline with the documented purpose of the API, as detailed in the API Use policy. The permitted APIs for such remote execution are:
+
+Debugger API
+
+User Scripts API
+
+Note that exemptions apply solely to the specific section of code covered by these APIs. Extensions may still be in violation of this policy if they employ alternative methods to execute logic from remote sources elsewhere in their code.
+
+Additionally, code run in contexts that are isolated from extension APIs (such as iframes and sandboxed pages) are exempt from the restriction on loading code from remote sources; however, these are treated similarly to our policy on communication with external servers. That is, it must still be possible to determine the full functionality of your extension and the interaction must still comply with our user data policies, including Limited Use and the extension's Privacy Policy.
+
+Communicating with remote servers for certain purposes is still allowed. For instance:
+
+Syncing user account data with a remote server
+
+Fetching a remote configuration file for A/B testing or determining enabled features, where all logic for the functionality is contained within the extension package
+
+Fetching remote resources that are not used to evaluate logic, such as images
+
+Performing server-side operations with data (such as for the purposes of encryption with a private key)
+
+If we are unable to determine the full functionality of your extension during the review process, we may reject your submission or remove it from the store.
+
+ 2-Step Verification
+To ensure the security of Chrome Web Store accounts, 2-Step Verification is required for all developer accounts prior to publishing an extension or updating an existing extension. Developers can activate 2-Step Verification for their Google accounts here. More information on Google's 2-Step Verification features can be found here.
+Enforcement
+Enforcement Circumvention
+Any attempt to circumvent intended limitations or enforcement actions will result in the immediate termination of your developer account, and possibly related developer accounts.
+Notification and Appeals
+In the event that your Product is removed from the Chrome Web Store, you will receive an email notification to that effect, with further instructions if applicable.
+
+Verify that the associated publisher account with your Product can receive emails from external parties and not get flagged as Spam to ensure that you receive all communications in a timely manner.
+
+Removals are permanent unless you submit a revision to fix the issue. Enforcement actions are applied globally by default. If your enforcement action is subject to a territorial restriction, you will be notified of that fact.
+
+Developers are permitted to appeal a violation decision once. After the appeal has been reviewed and a decision rendered, no further appeals will be accepted for the same violation.
+
+Developers are encouraged to submit good faith appeals. Any attempts to submit frivolous appeals or misuse the appeal process may result in further action, including the forfeiture of future appeal rights.
+
+Repeat Abuse
+Serious or repeated violations of the Chrome Web Store Distribution Agreement or these Program Policies will result in the suspension of your developer account, and possibly related developer accounts. Additionally, you may be banned from using the Chrome Web Store. In extreme cases, this may also result in the suspension of related Google services associated with your Google account.
+
+Repeated infringement of intellectual property rights, including copyright, will also result in account termination. For more information on Google's copyright policies, please use this tool.
+
+Was this helpful?
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-05-22 UTC.
+
+Contribute
+File a bug
+See open issues
+Related content
+Chromium updates
+Case studies
+Archive
+Podcasts & shows
+Follow
+@ChromiumDev on X
+YouTube
+Chrome for Developers on LinkedIn
+RSS
+Terms
+Privacy
+The new page has loaded.Skip to main content
+
+Chrome for Developers
+
+
+
+English
+Sign in
+Docs
+Chrome Extensions
+
+Chrome for Developers
+Home
+Docs
+Chrome Extensions
+Chrome Web Store
+Was this helpful?
+
+Best Practices
+
+
+
+
+
+Overview
+This page provides guidelines for designing a high-quality extension and Chrome Web Store listing. These recommendations may be updated as the store continues to grow and we learn from developers' experiences. We strongly encourage you to create extensions that meet standards for compliance, performance, security, and user experience, as described in the following sections.
+
+Compliance
+Extensions that are available in the Chrome Web Store are required to adhere to the developer program policies. If you've received a policy violation warning or want to learn about common violations pitfalls, see Troubleshooting Chrome Web Store violations.
+
+Manifest Version 3
+Manifest V3 is the most recent version of the Chrome extension platform and is the required version for submitting new items to the Chrome Web Store. See the Manifest V3 overview to learn about the platform changes. Existing extensions should consider migrating to Manifest V3, see Migrate to Manifest V3 for instructions on how to migrate.
+
+Security
+Your extension should be safe for your users. For example, send user data securely via HTTPS or web services security. Check that your extension does not pose security threats and does not use deceptive installation tactics. See Stay secure for a more information.
+
+Privacy
+An extension is required to disclose in the Privacy tab what user data it will collect and how it will handle user data. This information must be accurate, up-to-date, and match the extension's privacy policy. For more guidance on privacy, see Protecting User Privacy policies and the User Data FAQs.
+
+Performance and functionality
+Performance Tooling
+Add end-to-end tests using testing libraries like Puppeteer to make sure your extension is performing as intended from start to finish. In addition, consider conducting thorough manual testing across different browser versions, OSs, and network conditions to ensure smooth functionality.
+
+Avoiding performance pitfalls
+When you are releasing your extension, there are a number of common performance issues you should make sure to avoid.
+
+Back/Forward cache invalidation
+The back/forward cache is an optimization built into Chrome that allows for instant loading of a page when a user returns to it. Given extensions can run on every page, its essential you make sure avoid code that prevents that caching, or else you risk substantially slowing down your users. Make sure you test if your extension invalidates the cache. Common causes of cache invalidation include
+
+Unload Handler The unload handler has been deprecated for a long time and should generally never be used. If you are using it, pagehide event is the most popular alternative. If you need to run code after the page closes, there is chrome.tabs.onRemoved.
+
+WebSockets in content scripts If you have a content script with a WebSocket or WebRTC connection, then the page cannot be cached. You can instead move these connections to your background service worker script. We have a guide on how to keep your connection in a background script, and then proxy the results to your content script with runtime.connect.
+
+User experience
+Design your extension with the user in mind by providing a simple, intuitive, and seamless user interface while also respecting user privacy.
+
+Onboarding experience
+Start onboarding your users as soon as they reach your store listing by providing screenshots and a video of how the extension works. We recommend following the permission warning guidelines to increase the chances of users installing your extension.
+
+Designing a persistent UI
+Avoid distracting users when implementing a persistent UI. For example, when designing a side panel for your extension, make sure it enhances the user's browsing experience by providing relevant information and useful functionality. A side panel should help users accomplish tasks with as little distraction as possible.
+
+Sign in with Google
+If your extension requires user login, we recommend that you support Sign in with Google, which provides a good user experience for Chrome Web Store users as they are likely to be logged in already. If you already have a login system, consider correlating the Google Account ID to the user account in your system. You can use the Chrome Identity API to support Google accounts in the following ways:
+
+OAuth2: See Authenticate users with Google.
+Store listing
+The purpose of an extension's Chrome Web Store store listing is to set the user's expectations. It should explicitly communicate what the extension does. See Listing requirements for a complete list of requirements.
+
+Create a compelling store listing
+The better your extension's store listing, the more users will discover and try your extension. Creating a great listing page provides guidelines for designing the best store listing experience. When choosing your extension's name, writing its description, and designing its logo, keep in mind Google's Branding guidelines.
+
+Provide great images
+Include all the required images (icon, tile, marquee, and screenshots). Images should not be blurry or too busy, as described in Images of a high-quality listing.
+
+Choose your extension's category well
+The developer dashboard requires you to specify a category for your extension. Choose the most appropriate category:
+
+Accessibility
+Extensions designed to enhance the browsing experience for individuals with visual impairments, hearing loss, limited dexterity, and other disabilities. This may include tools like screen readers, dark mode extensions, or utilities that help with navigation, using keyboard shortcuts, voice commands, among others.
+Art & Design
+These extensions provide tools for viewing, editing, organizing, and sharing images and photos. They may also offer features for capturing screenshots, image searching, and integrating with popular image hosting or editing services.
+Communication
+Extensions that enable communications. This category covers a wide variety of things: composing and templating emails, email management, screen sharing, video conferencing apps and enhancements, and much more.
+Developer Tools
+Extensions that help web developers perform tasks like debugging, performance analysis, code linting, and tools that enhance the browser's Dev Tools. For example, real-time HTML/CSS/JavaScript editing, API testing, and CSS inspection.
+Education
+Extensions that teach or aid in teaching, including language learning, note-taking, teaching aids, and sign-language instruction, among others.
+Entertainment
+These extensions are designed for fans of sports, music, television, and cinema.
+Functionality & UI
+Extensions that enhance the Chrome user interface, such as tab managers, shortcut managers, and app launchers.
+Games
+Extensions providing a wide array of desktop and arcade-style games.
+Household
+Extensions for helping you around the house. This category includes recipe savers and managers, budgeting, product research, and more.
+Just for Fun
+These extensions are designed for entertainment. They can include games, interesting new tab backgrounds, quirky widgets, jokes, trivia, and more.
+News & Weather
+These extensions keep users informed about current events and weather conditions. They can collect news from multiple sources, present real-time weather updates, notify breaking news, and more.
+Privacy & Security
+Extensions such as VPNs, password safes, and phishing deterrence.
+Shopping
+These extensions aim to enhance the online shopping experience. They might offer features like price comparison, coupon finders, reviews and ratings, wish list management, and more.
+Social Media & Networking
+These extensions are designed to enhance social media platforms. They can integrate with services and offer features like easy sharing, notifications, status updates, and more.
+Tools
+Tools that don't fit into other categories
+Travel
+Extensions for planning trips.
+Well-being
+Extensions for self-help, mindfulness, and personal development.
+Workflow & Planning
+Extensions to help users perform their tasks more efficiently. They could range from time trackers, tools to stay focused, to-do list managers, email organizers, document editors, and calendar utilities, among others.
+Category revisions
+In mid 2023 the categories changed. Most of the new categories match previous ones. Several were replaced by multiple categories. If you previously used one of the replaced categories, use the table below to decide which new category best suits your extension.
+
+Fun
+* Entertainment
+Games
+Just for Fun
+Photos
+* Art & Design
+Productivity
+* Education
+Functionality & UI
+Household
+Privacy & Security
+Tools
+Workflow & Planning
+Social & Communications
+* Communication
+Social Media & Networking
+Travel
+Well-being
+Choose your theme's category well
+The developer dashboard also asks you specify a category for your theme. Choose the most appropriate category:
+
+Animals
+Themes inspired by animals.
+Art & Design
+Themes built merely to make your browser look pretty.
+Cars
+Themes relating to cars, such as current and classic cars.
+Colors
+Themes that skin your browser in custom colors.
+Dark & Black
+Themes that feature dark colors and imagery.
+Entertainment
+Themes inspired by popular entertainment, such as television and film franchises.
+Games & Anime
+Themes inspired by video games and anime.
+Minimalist
+Themes that simplify the look of your browser.
+Nature & Landscapes
+Themes inspired by the great outdoors.
+Space
+Themes inspired by space.
+Other
+A category for themes that don't have a home anywhere else.
+Was this helpful?
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2017-08-30 UTC.
+
+Contribute
+File a bug
+See open issues
+Related content
+Chromium updates
+Case studies
+Archive
+Podcasts & shows
+Follow
+@ChromiumDev on X
+YouTube
+Chrome for Developers on LinkedIn
+RSS
+Terms
+Privacy
+
+English
+Copied to clipboard
+Skip to main content
+
+Chrome for Developers
+
+
+
+English
+Sign in
+Docs
+Chrome Extensions
+Get started
+
+Chrome for Developers
+Home
+Docs
+Chrome Extensions
+Get started
+Was this helpful?
+
+Inject scripts into the active tab
+
+
+
+
+
+This tutorial builds an extension that simplifies the styling of the Chrome extension and Chrome Web Store documentation pages, so that they're easier to read.
+
+In this guide, we explain how to do the following:
+
+Use the extension service worker as the event coordinator.
+Preserve user privacy through the "activeTab" permission.
+Run code when the user clicks the extension toolbar icon.
+Insert and remove a stylesheet using the Scripting API.
+Use a keyboard shortcut to execute code.
+Before you start
+This guide assumes that you have basic web development experience. Check out Hello World for an introduction to the extension development workflow.
+
+Build the extension
+To start, create a new directory called focus-mode to hold the extension files. You can download the complete source code on GitHub.
+
+Step 1: Add the extension data and icons
+Create a manifest.json file. Copy and paste the following code:
+
+
+{
+  "manifest_version": 3,
+  "name": "Focus Mode",
+  "description": "Enable focus mode on Chrome's official Extensions and Chrome Web Store documentation.",
+  "version": "1.0",
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  }
+}
+Create an images folder, then download the icons into it.
+
+Tip: Learn more about the manifest keys and icons in our tutorial: Run scripts on every page.
+Step 2: Initialize the extension
+Extensions can monitor browser events in the background using the extension's service worker. Service workers are special JavaScript environments that handle events and terminate when they're not needed.
+
+Start by registering the service worker in the manifest.json file:
+
+
+{
+  ...
+  "background": {
+    "service_worker": "background.js"
+  },
+  ...
+}
+Create a file called background.js and add the following code:
+
+
+chrome.runtime.onInstalled.addListener(() => {
+  chrome.action.setBadgeText({
+    text: "OFF",
+  });
+});
+The first event our service worker will listen for is runtime.onInstalled(). This method allows the extension to set an initial state or complete some tasks on installation. Extensions can use the Storage API and IndexedDB to store the application state. In this case, since we're only handling two states, we use the action's badge text to track whether the extension is 'ON' or 'OFF'.
+
+Key Term: action's badge is a banner, on top of the extension action (toolbar icon).
+Step 3: Enable the extension action
+The extension action controls the extension's toolbar icon. When the user selects the extension icon, it either runs code (like in this example) or displays a popup.
+
+Add the following code to declare the extension action in the manifest.json file:
+
+
+{
+  ...
+  "action": {
+    "default_icon": {
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png",
+      "48": "images/icon-48.png",
+      "128": "images/icon-128.png"
+    }
+  },
+  ...
+}
+Use the activeTab permission to protect user privacy
+The activeTab permission grants the extension temporary ability to execute code on the active tab. It also allows access to sensitive properties of the current tab.
+
+This permission is enabled when the user invokes the extension. In this case, the user invokes the extension by clicking on the extension action.
+
+💡 What other user interactions enable the activeTab permission in my own extension?
+
+Pressing a keyboard shortcut combination.
+Selecting a context menu item.
+Accepting a suggestion from the omnibox.
+Opening an extension popup.
+The "activeTab" permission allows users to purposefully choose to run the extension on the focused tab; this way, it protects the user's privacy. Another benefit is that it does not trigger a permission warning.
+
+To use the "activeTab" permission, add it to the manifest's permission array:
+
+
+{
+  ...
+  "permissions": ["activeTab"],
+  ...
+}
+Step 4: Track the state of the current tab
+After the user clicks the extension action, the extension will check if the URL matches a documentation page. Next, it will check the state of the current tab and set the next state. Add the following code to background.js:
+
+const extensions = 'https://developer.chrome.com/docs/extensions';
+const webstore = 'https://developer.chrome.com/docs/webstore';
+
+chrome.action.onClicked.addListener(async (tab) => {
+  if (tab.url.startsWith(extensions) || tab.url.startsWith(webstore)) {
+    // Retrieve the action badge to check if the extension is 'ON' or 'OFF'
+    const prevState = await chrome.action.getBadgeText({ tabId: tab.id });
+    // Next state will always be the opposite
+    const nextState = prevState === 'ON' ? 'OFF' : 'ON';
+
+    // Set the action badge to the next state
+    await chrome.action.setBadgeText({
+      tabId: tab.id,
+      text: nextState,
+    });
+  }
+});
+Step 5: Add or remove the stylesheet
+Now it's time to change the layout of the page. Create a file named focus-mode.css and include the following code:
+
+* {
+  display: none !important;
+}
+
+html,
+body,
+*:has(article),
+article,
+article * {
+  display: revert !important;
+}
+
+[role='navigation'] {
+  display: none !important;
+}
+
+article {
+  margin: auto;
+  max-width: 700px;
+}
+Insert or remove the stylesheet using the Scripting API. Start by declaring the "scripting" permission in the manifest:
+
+{
+  ...
+  "permissions": ["activeTab", "scripting"],
+  ...
+}
+Success: The Scripting API does not trigger a permission warning.
+Finally, in background.js add the following code to change the page layout:
+
+  ...
+    if (nextState === "ON") {
+      // Insert the CSS file when the user turns the extension on
+      await chrome.scripting.insertCSS({
+        files: ["focus-mode.css"],
+        target: { tabId: tab.id },
+      });
+    } else if (nextState === "OFF") {
+      // Remove the CSS file when the user turns the extension off
+      await chrome.scripting.removeCSS({
+        files: ["focus-mode.css"],
+        target: { tabId: tab.id },
+      });
+    }
+  }
+});
+Tip: You can use scripting.executeScript() to inject JavaScript, instead of adding a stylesheet.
+(Optional) Assign a keyboard shortcut
+Just for fun, add a shortcut to make it easier to enable or disable focus mode. Add the "commands" key to the manifest.
+
+{
+  ...
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+B",
+        "mac": "Command+B"
+      }
+    }
+  }
+}
+The "_execute_action" key runs the same code as the action.onClicked() event, so no additional code is needed.
+
+Test that it works
+Verify that the file structure of your project looks like the following:
+
+The contents of the focus mode folder: manifest.json, background.js, focus-mode.css, and images folder.
+
+Load your extension locally
+To load an unpacked extension in developer mode, follow the steps in Hello World.
+
+Test the extension
+Open any of the following pages:
+
+Welcome to the Chrome Extension documentation
+Publish in the Chrome Web Store
+Scripting API
+Then, click the extension action. If you set up a keyboard shortcut, you can test it by pressing Ctrl+B or Cmd+B.
+
+It should go from this:
+
+Focus Mode extension OFF
+Focus Mode extension off
+To this:
+
+Focus Mode extension ON
+Focus Mode extension on
+Potential enhancements
+Based on what you've learned today, try to accomplish any of the following:
+
+Improve the CSS stylesheet.
+Assign a different keyboard shortcut.
+Change the layout of your favorite blog or documentation site.
+Keep building
+Congratulations on finishing this tutorial 🎉. Continue leveling up your skills by completing other tutorials on this series:
+
+Extension	What you'll learn
+Reading time	Insert an element on a specific set of pages automatically.
+Tabs Manager	Create a popup that manages browser tabs.
+Continue exploring
+We hope you enjoyed building this Chrome extension and are excited to continue your extension development learning journey. We recommend the following learning paths:
+
+The developer's guide has dozens of additional links to pieces of documentation relevant to advanced extension creation.
+Extensions have access to powerful APIs beyond what's available on the open web. The Chrome APIs documentation walks through each API.
+Was this helpful?
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2022-10-04 UTC.
+
+Contribute
+File a bug
+See open issues
+Related content
+Chromium updates
+Case studies
+Archive
+Podcasts & shows
+Follow
+@ChromiumDev on X
+YouTube
+Chrome for Developers on LinkedIn
+RSS
+Terms
+Privacy
+
+English
+The new page has loaded.
+Skip to main content
+
+Chrome for Developers
+
+
+
+English
+Sign in
+Docs
+Chrome Extensions
+Get started
+
+Chrome for Developers
+Home
+Docs
+Chrome Extensions
+Get started
+Was this helpful?
+
+Run scripts on every page
+
+
+
+
+
+Create your first extension that inserts a new element on the page.
+
+Overview
+This tutorial builds an extension that adds the expected reading time to any Chrome extension and Chrome Web Store documentation page.
+
+Reading time extension in the extension's Welcome page
+Reading time extension on the extension's Welcome page.
+In this guide, we're going to explain the following concepts:
+
+The extension manifest.
+What icon sizes an extension uses.
+How to inject code into pages using content scripts.
+How to use match patterns.
+Extension permissions.
+Before you start
+This guide assumes that you have basic web development experience. We recommend checking out the Hello world tutorial for an introduction to the extension development workflow.
+
+Build the extension
+To start, create a new directory called reading-time to hold the extension's files. If you prefer, you can download the complete source code from GitHub.
+
+Step 1: Add information about the extension
+The manifest JSON file is the only required file. It holds important information about the extension. Create a manifest.json file in the root of the project and add the following code:
+
+{
+  "manifest_version": 3,
+  "name": "Reading time",
+  "version": "1.0",
+  "description": "Add the reading time to Chrome Extension documentation articles"
+}
+These keys contain basic metadata for the extension. They control how the extension appears on the extensions page and, when published, on the Chrome Web Store. To dive deeper, check out the "name", "version" and "description" keys on the Manifest overview page.
+
+💡 Other facts about the extension manifest
+
+It must be located at the root of the project.
+The only required keys are "manifest_version", "name", and "version".
+It supports comments (//) during development, but these must be removed before uploading your code to the Chrome Web Store.
+Step 2: Provide the icons
+So, why do you need icons? Although icons are optional during development, they are required if you plan to distribute your extension on the Chrome Web Store. They also appear in other places like the Extensions Management page.
+
+Create an images folder and place the icons inside. You can download the icons on GitHub. Next, add the highlighted code to your manifest to declare icons:
+
+{
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  }
+}
+We recommend using PNG files, but other file formats are allowed, except for SVG files.
+
+💡 Where are these differently-sized icons displayed?
+
+Icon size	Icon use
+16x16	Favicon on the extension's pages and context menu.
+32x32	Windows computers often require this size.
+48x48	Displays on the Extensions page.
+128x128	Displays on installation and in the Chrome Web Store.
+Step 3: Declare the content script
+Extensions can run scripts that read and modify the content of a page. These are called content scripts. They live in an isolated world, meaning they can make changes to their JavaScript environment without conflicting with their host page or other extensions' content scripts.
+
+Add the following code to the manifest.json to register a content script called content.js.
+
+{
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://developer.chrome.com/docs/extensions/*",
+        "https://developer.chrome.com/docs/webstore/*"
+      ]
+    }
+  ]
+}
+The "matches" field can have one or more match patterns. These allow the browser to identify which sites to inject the content scripts into. Match patterns consist of three parts: <scheme>://<host><path>. They can contain '*' characters.
+
+💡 Does this extension display a permission warning?
+
+When a user installs an extension, the browser informs them what the extension can do. Content scripts request permission to run on sites that meet the match pattern criteria.
+
+In this example, the user would see the following permission warning:
+
+Permission warning the user will see when installing the Reading time extension
+Reading time permission warning.
+To dive deeper on extension permissions, see Declaring permissions and warn users.
+
+Step 4: Calculate and insert the reading time
+Content scripts can use the standard Document Object Model (DOM) to read and change the content of a page. The extension will first check if the page contains the <article> element. Then, it will count all the words within this element and create a paragraph that displays the total reading time.
+
+Create a file called content.js inside a folder called scripts and add the following code:
+
+function renderReadingTime(article) {
+  // If we weren't provided an article, we don't need to render anything.
+  if (!article) {
+    return;
+  }
+
+  const text = article.textContent;
+  const wordMatchRegExp = /[^\s]+/g; // Regular expression
+  const words = text.matchAll(wordMatchRegExp);
+  // matchAll returns an iterator, convert to array to get word count
+  const wordCount = [...words].length;
+  const readingTime = Math.round(wordCount / 200);
+  const badge = document.createElement("p");
+  // Use the same styling as the publish information in an article's header
+  badge.classList.add("color-secondary-text", "type--caption");
+  badge.textContent = `⏱️ ${readingTime} min read`;
+
+  // Support for API reference docs
+  const heading = article.querySelector("h1");
+  // Support for article docs with date
+  const date = article.querySelector("time")?.parentNode;
+
+  (date ?? heading).insertAdjacentElement("afterend", badge);
+}
+
+renderReadingTime(document.querySelector("article"));
+💡 Interesting JavaScript used in this code
+
+Regular expressions used to count only the words inside the <article> element.
+insertAdjacentElement() used to insert the reading time node after the element.
+The classList property used to add CSS class names to the element class attribute.
+Optional chaining used to access an object property that may be undefined or null.
+Nullish coalescing returns the <heading> if the <date> is null or undefined.
+Step 5: Listen for changes
+With the current code, if you switch articles using the left navigation, the reading time is not added to the new article. This is because our site is implemented as a Single Page Application (SPA) that performs soft navigations using the History API.
+
+To fix that, we can use a MutationObserver to listen for changes and add the reading time to new articles.
+
+To do this, add the following to the bottom of content.js:
+
+Warning: Using MutationObserver can have a performance cost, so use them sparingly and only observe the most relevant changes.
+const observer = new MutationObserver((mutations) => {
+  for (const mutation of mutations) {
+    // If a new article was added.
+    for (const node of mutation.addedNodes) {
+      if (node instanceof Element && node.tagName === 'ARTICLE') {
+        // Render the reading time for this particular article.
+        renderReadingTime(node);
+      }
+    }
+  }
+});
+
+// https://developer.chrome.com/ is a SPA (Single Page Application) so can
+// update the address bar and render new content without reloading. Our content
+// script won't be reinjected when this happens, so we need to watch for
+// changes to the content.
+observer.observe(document.querySelector('devsite-content'), {
+  childList: true
+});
+Test that it works
+Verify that the file structure of your project looks like the following:
+
+The contents of the reading time folder: manifest.json, content.js in scripts folder, and images folder.
+
+Load your extension locally
+To load an unpacked extension in developer mode, follow the steps in Development Basics.
+
+Open an extension or Chrome Web Store documentation
+Here are a few pages you can open to see how long each article will take to read.
+
+Publish in the Chrome Web Store
+Understanding Content Scripts
+It should look like this:
+
+Reading time running on the Welcome page
+Extension Welcome page with the Reading time extension
+🎯 Potential enhancements
+Based on what you've learned today, try to implement any of the following:
+
+Add another match pattern in the manifest.json to support other chrome developer pages, like for example, the Chrome DevTools or Workbox.
+Add a new content script that calculates the reading time to any of your favorite blogs or documentation sites.
+Hint: You can use DevTools to inspect DOM elements.
+Keep building
+Congratulations on finishing this tutorial 🎉. Continue building your skills by completing other tutorials on this series:
+
+Extension	What you will learn
+Focus Mode	To run code on the current page after clicking the extension action.
+Tabs Manager	To create a popup that manages browser tabs.
+Continue exploring
+We hope you enjoyed building this Chrome extension and are excited to continue your Chrome development learning journey. We recommend the following learning path:
+
+The developer's guide has dozens of additional links to pieces of documentation relevant to advanced extension creation.
+Extensions have access to powerful APIs beyond what's available on the open web. The Chrome APIs documentation walks through each API.
+Was this helpful?
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2022-10-04 UTC.
+
+Contribute
+File a bug
+See open issues
+Related content
+Chromium updates
+Case studies
+Archive
+Podcasts & shows
+Follow
+@ChromiumDev on X
+YouTube
+Chrome for Developers on LinkedIn
+RSS
+Terms
+Privacy
+
+English
+The new page has loaded.
+Skip to main content
+
+Chrome for Developers
+
+
+
+English
+Sign in
+Docs
+Chrome Extensions
+Get started
+
+Chrome for Developers
+Home
+Docs
+Chrome Extensions
+Get started
+Was this helpful?
+
+Hello World extension
+
+
+
+
+
+Learn the basics of Chrome extension development by building your first Hello World extension.
+
+Overview
+You will create a "Hello World" example, load the extension locally, locate logs, and explore other recommendations.
+
+Hello World
+This extension will display “Hello Extensions” when the user clicks the extension toolbar icon.
+
+Hello extension
+Hello Extension popup
+Start by creating a new directory to store your extension files. If you prefer, you can download the full source code from GitHub.
+
+Next, create a new file in this directory called manifest.json. This JSON file describes the extension's capabilities and configuration. For example, most manifest files contain an "action" key which declares the image Chrome should use as the extension's action icon and the HTML page to show in a popup when the extension's action icon is clicked.
+
+{
+  "name": "Hello Extensions",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "hello_extensions.png"
+  }
+}
+Download the icon to your directory, and be sure to change its name to match what's in the "default_icon" key.
+
+For the popup, create a file named hello.html, and add the following code:
+
+<html>
+  <body>
+    <h1>Hello Extensions</h1>
+  </body>
+</html>
+The extension now displays a popup when the extension's action icon (toolbar icon) is clicked. You can test it in Chrome by loading it locally. Ensure all files are saved.
+
+Load an unpacked extension
+To load an unpacked extension in developer mode:
+
+Go to the Extensions page by entering chrome://extensions in a new tab. (By design chrome:// URLs are not linkable.)
+Alternatively, click the Extensions menu puzzle button and select Manage Extensions at the bottom of the menu.
+Or, click the Chrome menu, hover over More Tools, then select Extensions.
+Enable Developer Mode by clicking the toggle switch next to Developer mode.
+Click the Load unpacked button and select the extension directory.
+Extensions page
+Extensions page (chrome://extensions)
+Ta-da! The extension has been successfully installed. If no extension icons were included in the manifest, a generic icon will be created for the extension.
+
+Pin the extension
+By default, when you load your extension locally, it will appear in the extensions menu (Puzzle). Pin your extension to the toolbar to quickly access your extension during development.
+
+Pinning the extension
+Pinning the extension
+Click the extension's action icon (toolbar icon); you should see a popup.
+
+hello world extension
+Hello World extension
+Reload the extension
+Go back to the code and change the name of the extension to "Hello Extensions of the world!" in the manifest.
+
+{
+  "manifest_version": 3,
+  "name": "Hello Extensions of the world!",
+  ...
+}
+After saving the file, to see this change in the browser you also have to refresh the extension. Go to the Extensions page and click the refresh icon next to the on/off toggle:
+
+Reload an extension
+
+When to reload the extension
+The following table shows which components need to be reloaded to see changes:
+
+Extension component	Requires extension reload
+The manifest	Yes
+Service worker	Yes
+Content scripts	Yes (plus the host page)
+The popup	No
+Options page	No
+Other extension HTML pages	No
+Find console logs and errors
+Console logs
+During development, you can debug your code by accessing the browser console logs. In this case, we will locate the logs for the popup. Start by adding a script tag to hello.html.
+
+<html>
+  <body>
+    <h1>Hello Extensions</h1>
+    <script src="popup.js"></script>
+  </body>
+</html>
+Create a popup.js file and add the following code:
+
+console.log("This is a popup!")
+To see this message logged in the Console:
+
+Open the popup.
+Right-click the popup.
+Select Inspect.
+Inspecting the popup.
+Inspecting a popup.
+In the DevTools, navigate to the Console panel.
+DevTools Code Panel
+Inspecting a popup
+Error logs
+Now let's break the extension. We can do so by removing the closing quote in popup.js:
+
+console.log("This is a popup!) // ❌ broken code
+Go to the Extensions page and open the popup. An Errors button will appear.
+
+Extensions page with error button
+
+Click the Errors button to learn more about the error:
+
+Extension error details
+
+To learn more about debugging the service worker, options page, and content scripts, see Debugging extensions.
+
+Structure an extension project
+There are many ways to structure an extension project; however, the only prerequisite is to place the manifest.json file in the extension's root directory as in following example:
+
+The contents of an extension folder: manifest.json, background.js, scripts folder, popup folder, and images folder.
+
+Use TypeScript
+If you are developing using a code editor, you can use the npm package chrome-types to take advantage of auto-completion for the Chrome API. This npm package is updated automatically when the Chromium source code changes.
+
+Key point: Update this npm package frequently to work with the latest Chromium version.
+🚀 Ready to start building?
+Choose any of the following tutorials to begin your extension learning journey.
+
+Extension	What you will learn
+Run scripts on every page	To insert an element on every page automatically.
+Inject scripts into the active tab	To run code on the current page after clicking on the extension action.
+Manage tabs	To create a popup that manages browser tabs.
+Handle events with service workers	How an extension service worker handles events.
+Was this helpful?
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2022-10-04 UTC.
+
+Contribute
+File a bug
+See open issues
+Related content
+Chromium updates
+Case studies
+Archive
+Podcasts & shows
+Follow
+@ChromiumDev on X
+YouTube
+Chrome for Developers on LinkedIn
+RSS
+Terms
+Privacy
+
+English
+The new page has loaded.

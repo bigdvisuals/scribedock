@@ -1,0 +1,489 @@
+12. Build a Web App - MySQL/PHP Part 3
+
+0:11 hello gary simon here of
+0:12 designcourse.com today we're going to
+0:14 continue on by doing a little bit more
+0:16 work in mysql and php
+0:18 we're going to insert and separate the
+0:20 data of for the i wants and the i offers
+0:23 session variables we're also going to
+0:25 create a function
+0:27 for logging in alright so basically if
+0:29 you need uh
+0:30 access to the project files they're
+0:32 available uh
+0:33 in the description here in youtube and
+0:35 at designcourse.com
+0:37 and if you haven't yet subscribe here on
+0:38 youtube all right let's get started
+0:41 all right so basically where we left off
+0:45 is right over here i yep so basically we
+0:49 have all this information the user data
+0:52 the email
+0:52 password city state and the data added
+0:55 is all saved in
+0:56 the mysql table but the one thing that
+0:59 we didn't save yet
+1:00 is the two session variables um
+1:03 from the home page that i need and that
+1:06 i can offer this so that's what we're
+1:09 going to focus on now
+1:10 so basically you know i really tried to
+1:13 think about
+1:13 what's the best way to kind of save this
+1:16 data so
+1:16 you know down here we suggest that
+1:18 people basically split
+1:21 um their needs or wants with a comma
+1:24 and then initially i thought okay what
+1:26 we would do is just take that comma
+1:29 and we would run the variable through
+1:32 something called php explode and that's
+1:35 a function
+1:36 that will take a string and basically
+1:39 create an array
+1:40 and separate each one of these uh
+1:43 so that we could place it into the
+1:45 database
+1:46 so the problem with that is is uh
+1:49 let's say for example someone needs um
+1:54 lawn mowing so they need their lawn
+1:56 mowed okay whatever
+1:57 whatever so let's say for example
+1:58 someone's gonna offer that
+2:00 um except they put mowing lawn
+2:03 well then we kind of have an issue if
+2:05 you're trying to match those two up so
+2:07 what i decided to do instead of
+2:08 separating by comma i'm just going to
+2:10 separate them by a space
+2:12 so each word will get entered into its
+2:14 own row
+2:15 in the mysql table so i'm going to
+2:18 create that table
+2:19 real quickly and that's over here
+2:22 so i'm just going to create two
+2:24 different tables the first one is going
+2:25 to be once the number of fields will be
+2:27 four
+2:29 and the first one is going to be id it's
+2:31 going to be an integer
+2:33 i 11 characters long and then
+2:38 just change this stuff real quick auto
+2:40 increment
+2:42 and then we're going to have the user id
+2:44 that as well will be the integer
+2:46 an integer uh this is going to be the
+2:49 actual
+2:50 i'll put let's make it want the actual
+2:52 want will go here
+2:53 i'll make that varchar and really this
+2:55 is just going to be single word i'm just
+2:57 going to put 50 just to be i don't know
+2:58 if any 50
+3:00 long character words but whatever and
+3:02 then date added
+3:04 and that will be
+3:07 uh date time all right
+3:11 save and then to save ourselves some
+3:13 times we could take this
+3:14 up here just copy that go to sql
+3:18 tab paste that in we're going to change
+3:20 the name of the tables to offers
+3:23 and this to offer
+3:27 and i think that is all we have to
+3:28 change
+3:30 and hit go all right so we now have two
+3:33 new tables offers and
+3:35 once all right so now what we want to do
+3:37 is come back to our
+3:40 code and
+3:44 there it is and basically i i think
+3:47 you could do it anywhere inside this
+3:48 section i'm just going to put it right
+3:50 after
+3:51 this insert and i'm going to make a
+3:54 comment
+3:57 insert wants and offers
+4:01 and that will go there so basically
+4:04 what we want to do is put in once
+4:08 arr as in array equals explode
+4:12 and then this is where basically we
+4:14 specify whatever it is that we want to
+4:17 separate
+4:18 the actual string so uh that's just
+4:21 gonna be a simple space
+4:23 and then i'm going to put in
+4:26 session i
+4:30 want i think that was the name of it
+4:33 i'll make sure here in a second
+4:36 and then copy this the same thing for
+4:38 the offers
+4:40 as well
+4:43 i offer and then what we'll do
+4:47 is run through those so the way you do
+4:49 that is do a four each
+4:50 once a r as once
+4:56 and that means this will basically loop
+4:59 the uh however many you know if they
+5:01 entered three different words it'll go
+5:03 through this
+5:03 three different times and put in the
+5:06 actual insert query
+5:10 insert into once and that will be
+5:14 the user id
+5:18 want and date added
+5:24 values and then
+5:27 we also need to get their user id and
+5:30 the user id is generated from the id
+5:33 field
+5:33 which we didn't put in here it's
+5:35 automatically generated i
+5:37 so i have to make a couple changes to
+5:39 this real quick just to get that
+5:40 whatever that insert id up here was so
+5:43 basically that would be i don't know why
+5:47 i didn't do this i forgot
+5:48 to add this uh the last time so all i
+5:50 have to do is put result equals
+5:53 there and then put ins id
+5:57 for insert id equals db insert
+6:02 id and then result
+6:05 so it's getting the insert id from this
+6:08 result right here
+6:09 and this again comes from that class
+6:12 that i use
+6:13 all right so now we have that and so
+6:16 right here for the user id is where we
+6:18 put that
+6:20 variable right here all right so that
+6:22 tells us which users are associated with
+6:25 whatever wants and offers all right and
+6:27 then we can put
+6:28 the actual once variable right here and
+6:31 that comes from
+6:32 this and that will just basically be a
+6:36 single word
+6:37 and then the actual date added which is
+6:42 just now
+6:43 like that
+6:47 and then result equals db
+6:50 query and the query variable
+6:54 all right so we'll take that and then
+6:57 just
+6:58 paste that in
+7:03 all right and changes to offers
+7:08 change this to
+7:11 offers and
+7:14 this to offer
+7:18 and this two offers there we go so it's
+7:21 basically just
+7:21 a duplicate thing all right so
+7:25 i basically let me come down here get
+7:28 rid of some of the space
+7:29 that should be all it takes right here
+7:31 to insert the individual
+7:34 once and offers basically so i'm going
+7:35 to save that
+7:37 and i'm going to go ahead and upload
+7:40 this
+7:41 and so i'm going to add this here and
+7:44 i'm also
+7:44 going to change one thing real quick in
+7:48 the verify emails i saw an error last
+7:50 time
+7:51 i where is that at
+7:55 yeah there needs to be a semicolon at
+7:57 the end
+7:58 and also this main i don't think that's
+8:01 working right now so
+8:02 i don't think we added that as a rewrite
+8:06 so we'll do that real quick change this
+8:08 to
+8:10 main and then this to main
+8:13 dot php
+8:16 all right so let's uh save those two
+8:18 files
+8:20 upload those all right so
+8:24 let's go back here i need
+8:29 and i'm also going to illustrate one
+8:31 issue as well
+8:32 while i'll do this i'll just put sex and
+8:34 candy
+8:36 i think i heard that from a song or
+8:37 something and then i can offer
+8:40 uh i don't know exercise equipment
+8:43 whatever i'm just using as an example
+8:46 find matches let's put in an email
+8:48 address i
+8:50 uh let me think of one that i'm using
+8:53 i'll just put
+8:54 g simon
+8:58 warren alabama whatever all right
+9:01 so let's see if this worked
+9:05 so let's click on browse oh no that
+9:08 didn't work what about the offers i bet
+9:09 that didn't work either oh that worked
+9:11 i think i may have just screwed up a
+9:12 variable name so as you can see for the
+9:14 offers at least
+9:15 i offered exercise equipment okay so
+9:19 each one of these now has this user id
+9:21 here
+9:22 has the date added has its own unique id
+9:24 uh
+9:25 let me go see why once didn't work
+9:29 so let me go back
+9:32 here real quick and that's because it
+9:35 the
+9:36 the variable wasn't i want it's i need
+9:39 there we go so i need we can leave this
+9:42 the same
+9:43 just as long as that was changed up it
+9:46 should work correctly now
+9:48 and so let me just go back here
+9:52 let me see if i can just refresh this
+9:55 and see if
+9:56 anything else gets changed here all
+9:59 right there we go
+10:00 all right so the issue being obviously
+10:03 is it's
+10:03 saving it doesn't matter what type of
+10:05 word it is uh
+10:07 so generic words like and and even
+10:10 generic words like
+10:11 equipment that should not happen
+10:15 i we we shouldn't really save those
+10:17 generic words because otherwise
+10:20 two people might put and in their their
+10:22 need and then another person might put
+10:24 and in their want and then it's going to
+10:25 give them a match but it's not going to
+10:27 be relevant so you would definitely want
+10:28 to run these through
+10:29 something like an str replace which is a
+10:31 function with php which will replace
+10:33 words so you can basically sanitize that
+10:37 string before you go ahead and split it
+10:39 up using
+10:39 explode and inserting into the database
+10:41 i'm not going to mess around with that
+10:42 just because it's
+10:44 the tutorial and it's on it you know
+10:45 there's probably a thousand things i
+10:47 could do differently
+10:48 but anyhow uh yeah it works just for our
+10:50 immediate purposes
+10:51 um so now what basically happens is
+10:56 let me load up my email and here's the
+10:58 email from that second time i refreshed
+11:00 it and by the way
+11:01 when a person refreshes the browser you
+11:03 obviously you should check to see if
+11:05 that email exists already so it doesn't
+11:06 add two rows
+11:07 but i yeah this is basically where it
+11:10 takes us when
+11:11 after a person's confirmed their email i
+11:14 and that comes from again where's that
+11:16 redirect just to show you real quick
+11:18 just
+11:18 everybody understands that comes from
+11:20 this line right here so
+11:22 header location is just going to
+11:24 redirect the browser from the verify
+11:25 email.php
+11:26 over to maine all right but
+11:30 before it really i
+11:33 should direct a person over to maine uh
+11:36 to this main area where
+11:37 it will eventually show the real matches
+11:39 uh they need it needs to basically log
+11:42 them in so it's not doing that yet and i
+11:46 so i have a uh a function basically a
+11:50 login function that we're going to add
+11:52 to our session.inc.php file that will
+11:56 make
+11:56 logging people in pretty easy so
+12:00 let me get that out real quick
+12:03 let's go to include session.inc all we
+12:06 have is just a session
+12:08 start here and so real quickly before i
+12:12 paste that in
+12:12 and kind of describe it real quickly i'm
+12:14 going to make a
+12:16 slight change to this over here instead
+12:18 of just counting the row and then
+12:19 checking to see
+12:20 uh if that actually equals one or not
+12:23 we're going to
+12:24 select all from users
+12:27 where verify code gets that and also
+12:29 change the result to fetch
+12:31 row so that basically means it's going
+12:32 to take every single row that's
+12:34 associated with the verify code that
+12:36 equals that
+12:36 if it does find one and then put them
+12:38 into basically
+12:40 a variable that we can access and you'll
+12:42 see why that's important here so
+12:44 what we need to do is change exists from
+12:47 exists here and we can put in i think
+12:51 just email
+12:52 doesn't equal blank so if it
+12:56 if if the uh email isn't blank
+12:59 then it means it found an actual match
+13:02 for the
+13:02 verify code and then we can keep this
+13:06 the same right here uh this right here
+13:09 and then
+13:09 what we'll do is just uh underneath this
+13:12 we're going to put in
+13:14 user login and
+13:17 this is where we're going to put the
+13:19 exists
+13:22 username
+13:26 sorry not username we're not using
+13:28 usernames here just the email
+13:30 and then also
+13:33 exists password
+13:38 all right and that's all we have to do
+13:40 for there we'll save this real quick
+13:43 and then come back to session inc and we
+13:46 need to
+13:46 include our files here real quick let me
+13:51 go to
+13:51 index and
+13:57 copy those two lines
+14:02 right and so basically inside of here
+14:05 is where we're going to put the add the
+14:08 actual function
+14:10 and this is going to be user login which
+14:12 is what we referenced in the
+14:14 verify email file and then we're going
+14:16 to put in the
+14:17 variables here i can just make this
+14:20 email
+14:21 and then the second one will be password
+14:24 and then inside of here is where we're
+14:25 going to
+14:27 add a couple things global db
+14:31 and then put in our
+14:34 variables here for the email so i'm just
+14:36 going to put in new email
+14:38 equals add slashes
+14:41 i email right here and then new
+14:45 pw equals i'm just gonna put password
+14:48 here for now
+14:50 and then a query select
+14:53 all from users where
+14:57 email equals new email
+15:01 and password equals
+15:05 new pw
+15:08 oops and then i
+15:12 limit one just to limit the the results
+15:15 to one and then
+15:17 uh if i'm just make the
+15:20 variable arn min equals db
+15:24 fetch row query
+15:28 equals false then we want to
+15:33 return false that basically says if this
+15:38 is not found if the user is not found
+15:40 basically then
+15:41 it's not going to work it's going to
+15:42 return false and then
+15:44 um otherwise down here is where we can
+15:46 actually set up our session variables
+15:48 um where we'll check to see if the user
+15:50 is actually logged in through the
+15:52 various pages
+15:53 that require a login and i
+15:56 i don't want to use client id i'll use
+15:57 user id
+15:59 equals or equals i arr
+16:03 admin id which is the id
+16:06 field associated with the person's um
+16:09 row in the users table
+16:12 actually i don't feel like typing this
+16:14 all out again just gonna
+16:16 do this over here and i'll just put you
+16:19 know sometimes it's worth saving some
+16:21 session variables to quickly access
+16:23 like uh basic user data like email and
+16:26 their id
+16:26 so i'm just going to limit to those two
+16:28 session variables
+16:30 and down here at the end just put return
+16:33 true
+16:35 and that is it go ahead and save this
+16:38 and then let's see over here
+16:44 all right so basically let me get out
+16:47 main.php
+16:49 so on main.php we want to add our
+16:51 includes as well so
+16:52 let me go over here just take these
+16:54 three at the top
+16:56 come over here at main and
+17:02 we'll go ahead and also check for
+17:05 the client session variable so
+17:08 basically i if
+17:11 is set session
+17:15 user id
+17:18 and then we just redirect them basically
+17:21 back to the home page
+17:27 all right and so
+17:31 if the session's not there redirect them
+17:33 back otherwise
+17:34 it'll load up this page which obviously
+17:37 the information down here isn't yet
+17:39 dynamic
+17:40 all right so i'm going to save this
+17:41 stuff
+17:43 and hope it works but you probably won't
+17:47 no okay let me go ahead and go to
+17:49 include
+17:51 and upload that as well and we'll see if
+17:54 this works
+17:55 and fortunately it does i didn't want to
+17:57 embarrass myself again so i paused and
+17:59 ran through
+18:00 it so um you know
+18:03 just to show you real quick that it does
+18:05 work
+18:07 um let's do that
+18:10 check the email
+18:14 click on it and it automatically directs
+18:17 us back here to main.php
+18:20 and just to make sure that this is all
+18:22 working correctly
+18:23 um uh what we can do
+18:27 i mean it definitely is but one thing
+18:29 you can do just to check
+18:31 real quickly is to on main type php
+18:37 temporarily put echo session user id
+18:42 just at the top let me re-upload that
+18:45 real quick
+18:47 and that's in main and then we can
+18:50 refresh this page
+18:52 and it shows that client user id so we
+18:55 are logged in
+18:56 all right so i'm going to end it there
+18:57 for today and when we create the actual
+19:00 login page we know which is over
+19:02 uh oh as you can see it's not showing it
+19:04 because we're logged in i don't have a
+19:06 logout so
+19:07 and yeah there's usually just in button
+19:09 here we'll make a quick login page and
+19:11 that will use that function
+19:14 from the the session.inc.php that we
+19:18 made
+19:19 and then all the obviously as well we
+19:21 have
+19:22 this stuff to worry about as well all
+19:24 right so
+19:25 uh yeah check out designcourse.com and
+19:28 subscribe here on youtube if you haven't
+19:30 yet alright goodbye
+19:47 you

@@ -1,0 +1,435 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=Xob-2a1OnvA
+Channel: Greg Isenberg
+Video ID: Xob-2a1OnvA
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 How can you get more out of Claude Code
+0:03 and Claude Opus 4.5? Well, I've got good
+0:07 news from you. Anthropic has actually
+0:09 over the last 12 months have been
+0:11 posting in their in their docs, blog
+0:14 posts, kind of teasing on X about how
+0:17 you can prompt these products to really
+0:20 get the most out of it. But the thing
+0:22 is, people haven't put it in a full
+0:24 guide. So, I did the hard work to make
+0:28 it easy on everyone. By the end of this
+0:30 episode, you will learn 10 techniques
+0:32 for how to prompt Claude to get the most
+0:35 out of it. Super simple techniques
+0:37 anyone can learn. I'm going to show you
+0:38 real examples, easy to understand, and
+0:41 [music] frameworks to help you crush it
+0:44 with Claude code and Opus 4.5. Let's get
+0:47 right into it.
+0:51 >> [music]
+0:56 >> So, the first tip is I know this is
+0:58 going to this is going to upset a few
+0:59 people, but the tone of collaboration is
+1:02 really important. You're going to want a
+1:04 friendly and clear and firm tone because
+1:06 that yields better results and more
+1:08 direct results. So, what's an example? A
+1:11 vague request might be something like
+1:13 fix this grammar in this now. You know,
+1:16 but the problem with that is, you know,
+1:19 o it leads to overly cautious pre-anned
+1:22 or basically just less helpful responses
+1:24 as the model tries to deescalate.
+1:27 Politeness can sometimes result in
+1:29 chatty, less direct answers. Now, if you
+1:32 do, you know, an architected brief, and
+1:34 this is what the folks at Anthropic
+1:36 suggest you do, do something like,
+1:39 "Please review the following text for
+1:41 grammatical errors and suggest
+1:43 corrections. My goal is to make it sound
+1:46 more professional and confident. This is
+1:48 direct, this is respectful, and it
+1:51 provides context, which is what
+1:53 anthropic needs in order to get you the
+1:55 result, you know, that you want. So,
+1:59 really important. I know some of us are
+2:01 just kind of mean to our LLMs. I've been
+2:03 there, you know, but treat it like a
+2:05 teammate, right? You would never want to
+2:06 be mean to a teammate, uh, especially if
+2:09 you want to get them to produce. So uh
+2:12 rule rule one of 10 uh is the tone of
+2:15 collaboration. Rule two of 10 is the
+2:18 principle of explicit explicit
+2:22 explicitness.
+2:24 So state your request as a clear
+2:26 actionoriented command with all the
+2:28 necessary details. So and I used to do
+2:31 this actually. I would I would do like a
+2:33 vague request like I need a bunch of
+2:35 blog post ideas. But the problem is it's
+2:37 passive. It's not specific. And then you
+2:40 just get this generic AI slop.
+2:43 Architected brief. What's the
+2:45 difference? Okay. Generate 10 blog post
+2:47 titles about the impact of remote work
+2:50 on urban planning. The title should be
+2:53 engaging for an audience of city
+2:55 officials and real estate developers.
+2:57 This prompt uses an action verb.
+2:59 Generate. You're going to you're going
+3:01 to want to, you know, use action verbs a
+3:03 lot. It specifies the quantity 10 and
+3:06 target audience. Those are the three
+3:08 things that you're going to need. gener
+3:10 action verb uh the quantity and a target
+3:13 audience. Every highlighted phrase adds
+3:16 a layer of useful constraint. This works
+3:19 extremely well. Three on 10. A well the
+3:24 rule here is a well-defined box produces
+3:27 a more creative result than an empty
+3:29 field. So a vague request would be
+3:31 something like write a short story about
+3:33 a detective in in the future. Problem is
+3:36 the possibilities are infinite and that
+3:38 leads to cliche AI slop unfocused
+3:41 output. Architected brief. What's the
+3:43 difference? Write a short story no more
+3:45 than 500 words in the style of Raymond
+3:48 Chandler. You can even do like in the
+3:51 style of Ernest Hemingway meets Raymond
+3:54 Chandler. Or you can even put three or
+3:56 four or five different people. The story
+3:58 must feature a robot detective
+4:00 investigating a data theft on Mars. Do
+4:02 not use the word cyber. So, you've added
+4:05 constraints on length, constraints on
+4:07 style, constraints on character,
+4:09 constraints on settings, and even
+4:12 specific words to force the AI AI into
+4:15 more creative and specific solution. I
+4:18 know this takes more time. I know that
+4:20 you know it's kind of measure twice and
+4:22 cut once, but you will get more if you
+4:24 define the B boundaries.
+4:27 Number four, the rule is draft, plan,
+4:30 then act. Use the AI to generate an
+4:33 outline or roughed version first. So,
+4:36 don't try to get a perfect fi final
+4:38 product in one go. I know we all want to
+4:40 one prompt it and just it feels so good
+4:42 to one prompt it. I've been there. But,
+4:45 uh, you know, the reality is working
+4:47 with the AI to create and then refine a
+4:50 plan or outline is a way more reliable
+4:54 path to a high quality result, and
+4:56 that's what we're out for. This lets you
+4:58 course correct early. So, think of it
+5:00 like this. The initial prompt might be,
+5:02 I need to write a report on the benefits
+5:04 of a 4day work week. Ask for a plan.
+5:08 Step one, first propose an outline for
+5:10 this report. Then refine the plan. Step
+5:13 two, that's a good start. In section
+5:15 two, please add a subpoint about
+5:18 employee retention. Step three, uh you
+5:21 can do you step three is the execution
+5:23 layer. Excellent. Now, write the full
+5:25 report based on this revised outline. So
+5:28 you you know it takes longer, but the
+5:30 the al it takes longer. It feels like it
+5:33 takes longer, but it's actually going to
+5:34 save you time because you're going to
+5:36 get a better outcome and you're not
+5:37 going to have to reprompt and reprompt
+5:39 and reprompt. If you have a business
+5:41 that's doing at least $50,000 a month in
+5:44 revenue, I've got something interesting
+5:46 for you. It's called offline mode. It's
+5:48 a 2-day event that me and my team are
+5:50 putting on at a 20,000 plus foot square
+5:53 foot mansion. Yes, this is what it looks
+5:55 like on January 23rd and January 24th in
+5:58 Fort Lauderdale, Florida. I'll include a
+6:00 link in the description if you're
+6:02 interested in coming. But it's basically
+6:04 for people who have a business that's
+6:06 kind of cranking, but they really want
+6:08 to put it in rocket ship mode. They want
+6:11 to create a set of businesses that
+6:13 generate tons of money, tons of cash
+6:16 flow, tons of product market fit, tons
+6:18 of impact. Um, but they're not just
+6:20 quite there yet. It's also about, you
+6:22 know, making your business AI first. How
+6:25 you can actually, you know, build not
+6:27 just one product, but multiple products.
+6:29 And you're going to leave with, you
+6:30 know, tactical, uh, answers to your
+6:33 questions. So, um, if that's you and
+6:36 this sounds interesting, uh, I'll see
+6:38 you there. Rule rule number five, uh, is
+6:42 demand structured output. The AI is
+6:45 fluent in many formats beyond pros. So,
+6:48 you know, a vague request might be
+6:49 something like, "List Apollo missions
+6:52 and some facts about them." So, you're
+6:54 going to it's it's it's it's basically
+6:56 going to give you a simple unstructured
+6:58 paragraph. And that's going to be hard
+7:00 to parse. Now, an architected brief
+7:02 might be something like, "Provide the
+7:04 list of the last three Apollo missions,
+7:07 15, 16, and 17. For each mission,
+7:09 include the launch date, the crew
+7:11 members, and a key specific achievement.
+7:14 Present this information in a markdown
+7:15 formatted table." So what you might have
+7:17 to do is go to something like perplexity
+7:19 and do uh you know a prompt there to
+7:23 understand a little more about what you
+7:25 want an architected brief to look like.
+7:27 Um but you're going to end up getting
+7:29 you know a way better output here. Like
+7:32 you can just see this markdown file if
+7:34 you're on YouTube. Um also like and
+7:38 comment if you're liking this sort of
+7:39 stuff. I'll do more of it. um requesting
+7:42 a you know so look at this markdown you
+7:44 know it's just way way better than what
+7:47 you'd get if you if you did uh did did
+7:50 something else and just went like a
+7:52 simple vague sort of thing. So might
+7:55 take you more time a little bit
+7:56 initially but again you're going to get
+7:58 better output six explaining the why. So
+8:02 the golden rule here is the explaining
+8:05 the why behind an instruction helps the
+8:08 AI understand your true intent. So
+8:11 instead of saying give me five marketing
+8:13 slogans for a brand new coffee where the
+8:16 AI basically has no context. It doesn't
+8:18 know the brand values. It doesn't know
+8:19 your audience, your community who you're
+8:21 going after, it doesn't know your unique
+8:23 selling proposition, do something like
+8:24 this. Give me five marketing slogans for
+8:27 a new brand of coffee. The key is that
+8:30 our beans are ethically sourced from
+8:31 small independent farms and our target
+8:33 audience really important you put this
+8:35 in here is environmentally conscious
+8:38 millennials. By the way,
+8:41 it's not just that you put our target
+8:42 audience is millennials. You have to you
+8:44 have to define it even even more. Go
+8:47 niche and then go more even nicher.
+8:50 You'll get better results. The slogan
+8:52 should reflect quality and
+8:54 sustainability. So by providing the why
+8:56 basically ethically sourced for
+8:58 conscious millennials the AI can
+9:00 generate far more relevant and targeted
+9:01 slogans then you get a better getting
+9:04 better results. Seven on 10
+9:08 the art of brevity and verbosity.
+9:11 So the rule here is explicitly command
+9:14 the AI to be more or less verbose to
+9:17 match your needs. So you're in control
+9:20 of the output length. Use simple direct
+9:23 phrases to guide the AI. So let's just
+9:26 show some some different examples. So
+9:29 maybe you want the expert here. Explain
+9:31 photosynthesis in detail for a college
+9:33 biology student. Think step by step to
+9:36 ensure accuracy. Boom. Look at look at
+9:39 how uh how expert this looks like. I
+9:43 mean it's throw it's throwing me back to
+9:45 you know my chemist my biology and
+9:47 chemistry days just seeing stuff like
+9:49 this when I was in school.
+9:52 Um, maybe you want something that's
+9:53 brief. Explain photosynthesis. Be
+9:55 concise and use bullet points. Sometimes
+9:57 here I'll say like explain like I'm
+9:59 five. Explain like I'm 13. Explain like
+10:02 I'm 17. Um, and then you can see the
+10:04 bullet points. And then here, oh here
+10:06 the simplifier. Explain photosense like
+10:09 like I'm 5 years old. So these are three
+10:12 options. The expert, the brief, the
+10:14 simplifier. The point here is that you
+10:16 are in control of your output length and
+10:18 it is important that you include that in
+10:20 the prompt. Eight on 10 providing a
+10:24 scaffold. The rule here is you want to
+10:26 give the AI you want to give Claude a
+10:28 template or example to guide its
+10:31 structure and style. So
+10:34 let's the vague request would be
+10:36 something like summarize this article.
+10:39 But you know this is way better. Look at
+10:41 this in the architected brief section.
+10:43 Summarize the following article using
+10:45 this format. Main thesis, one sentence.
+10:48 AI fills this in. Key supporting points,
+10:50 three bullet points. The AI fills this
+10:52 in. And concluding insight, AI fills
+10:55 this in. And then paste the text here.
+10:58 So now you have this rigid structure
+11:00 ensuring the summary is not only
+11:01 accurate but is also formatted exactly
+11:04 as needed. Um, so you know, really
+11:09 really
+11:10 we want the best results. We want the
+11:12 best final results and just by by saying
+11:15 this the structure and style it helps.
+11:18 It's a little bit of scaffolding goes a
+11:20 long way.
+11:22 Nine on 10 uh speaking the language. So
+11:26 using advanced prompting terms can
+11:28 trigger more sophisticated modes of
+11:30 operation. So models
+11:33 um are trained on a vast amount of text
+11:36 about AI itself. So using terms from the
+11:38 field activate specific powerful
+11:40 behaviors. This is like cheat codes. So,
+11:42 let's talk about a few power phrases
+11:44 that Anthropic uh has literally told us
+11:48 to use that most of us are not even
+11:50 using. Think step by step. So, what's
+11:53 the use case? Force the model to lay out
+11:55 the reasoning process often leading to
+11:58 more accurate results on complex
+12:00 problem. So, you're going to want to
+12:01 remember that one. Critique your own
+12:04 response use case. Ask the model to
+12:06 perform self-correction. Find flaws.
+12:09 it's in in its initial draft and improve
+12:11 it. Uh adopt the persona of an expert in
+12:15 field use case primes the model to
+12:17 response with a deeper more
+12:19 domainspecific vocabulary and framework.
+12:22 These are magic words. You might want to
+12:24 screenshot this. Um this will help you
+12:27 get the most out of it. And finally we
+12:29 have uh the divide number 10. The divide
+12:33 and conquer strategy. So the rule here
+12:35 is for a complex task act as the con
+12:38 conductor. Prompt for each part
+12:40 separately then prompt for the
+12:43 synthesis. So don't ask for a 10-page
+12:45 report in a single prompt. Break it down
+12:47 into logical subtasks that you manage
+12:50 step by step. So if you listen to this
+12:54 startup Ideas podcast, you know I love
+12:56 ideas. You know I have a business
+12:57 ideabous.com that gives away ideas. Um
+13:01 and uh you know so you know I like
+13:04 building businesses and you can see that
+13:06 it it's easy to you know throw in hey
+13:10 build a business plan as the one prompt
+13:12 but this is a way better to do it. Step
+13:13 one the blueprint create a detailed t
+13:16 table of contents for a business plan
+13:18 for a new specialty coffee shop. Step
+13:21 two section by section write the
+13:24 executive summary based on our plan. Now
+13:27 write the market analysis section and
+13:29 then the A dotted line indicates more
+13:31 steps. And step three, the synthesis.
+13:33 Review the complete business plan.
+13:34 Ensure consistent tone and check for any
+13:36 contradictions. So this is the project
+13:39 workflow. You know, doing it section by
+13:41 section, synthesizing, having the
+13:43 blueprint, you know, you're dividing and
+13:45 conquering. You're you're breaking out
+13:47 to logical subtask. What might even be
+13:49 helpful here is like literally taking
+13:51 out a pen of paper and and being like,
+13:53 "Okay, if I want a business plan, what
+13:55 are the 10 things I need?" If I want to
+13:56 create a deck, a fundraising deck, what
+13:58 are the 10 things I need? If I want to
+14:00 create a product that's, you know,
+14:02 software product, what are the 10
+14:04 different, you know, features I need?
+14:06 This is going to be helpful for you to
+14:07 get the most out of it. So, there you
+14:10 have it. Uh, I've given you the 10 rules
+14:13 of how you can get how you can prompt
+14:15 the prompt claude to get literally 10x
+14:18 more of it. This is the simple tools and
+14:21 techniques that you can use that have
+14:23 literally been shared by the people from
+14:25 Anthropic themselves. We talked about
+14:27 the tone of collaboration. We talked
+14:29 about uh which is using friendly, clear
+14:31 and firm tone. We talked about the
+14:33 principle of explicitness. We talked
+14:34 about the defining the boundaries. We
+14:36 talked about the exploratory draft. We
+14:37 talked about specifying the details. We
+14:39 talked about explaining the why. We
+14:41 talked about how important brevity is,
+14:43 why you can put a should put a little
+14:45 scrap scaffolding, how how important it
+14:47 is to speak the language. And we talked
+14:50 about the divide and conquer strategy.
+14:51 So what does that look like when you put
+14:53 it all together? This is, you know, when
+14:56 you came into this episode, you might
+14:59 have prompted or maybe not, but you
+15:01 might have prompted Claude saying
+15:04 something like, "Tell me about
+15:05 stoicism." By the way, I call it Clode,
+15:07 but for you, I'll I'll call Claude cuz
+15:09 people get mangry and mad at the an uh
+15:12 in the comment section about that.
+15:15 Let's talk about now now that you know
+15:16 the tools of how to prompt Claude
+15:19 better, let's let's let's see it at
+15:21 work. Instead of saying, "Tell me about
+15:23 stoicism," you're going to say, "Act as
+15:25 a university professor of philosophy."
+15:27 Why? Because you've included the persona
+15:29 in there. You're going to say, "I'm
+15:30 preparing a 1-hour intro lecture for
+15:32 students with no prior knowledge."
+15:34 That's going to explain the why. You're
+15:36 going to say, first create a lecture
+15:38 outline with three main sections, the
+15:40 divide and conquer. The outline should
+15:42 have a clear introduction and body.
+15:44 You've now constrained the scope and
+15:47 conclusion. Please format this as a
+15:49 nested bulleted list rich output. For
+15:54 each major point, include a key stoic
+15:56 figure,
+15:58 example, senica,
+16:00 uh, explicitness,
+16:02 um, and one of their core ideas. Your
+16:05 tone should be accessible and engaging
+16:08 tone. So, you've included that all in
+16:10 there. And then the output is just way
+16:13 better. So, these are little things to
+16:16 help you get the most out of uh, these
+16:19 LLMs. And like why it matters is because
+16:21 we're all trying to get the most out of
+16:23 it. Uh we're all trying to create
+16:25 products that people love. We're all
+16:28 trying to create content that people
+16:29 love. We're all trying to do things that
+16:31 people love. And a lot of the times we
+16:34 get AI slop. And this is going to help
+16:36 you not get AI slop. And it's and that's
+16:39 why I put the time to scour the internet
+16:42 for you so you can get the most out of
+16:45 this pro uh product. So so powerful. I
+16:48 have no affiliation with Anthropic. Um,
+16:51 but I want I want to see you not just
+16:54 like, comment, and subscribe on this,
+16:56 but actually go and build something
+16:59 great with this stuff. So, um, I'm
+17:02 rooting for you. Have a creative day and
+17:04 I'll see you next

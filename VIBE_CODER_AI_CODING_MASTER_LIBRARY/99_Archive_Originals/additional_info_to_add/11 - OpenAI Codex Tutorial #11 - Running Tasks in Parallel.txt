@@ -1,0 +1,203 @@
+Title: OpenAI Codex Tutorial #11 - Running Tasks in Parallel
+URL: https://www.youtube.com/watch?v=Xt7BZYhJXkg&list=PL4cUxeGkcC9iDBeA8IyR1IE1kl4w5IDEG&index=11&pp=iAQB0gcJCQYLAYcqIYzv
+Channel: YouTube playlist
+Video ID: Xt7BZYhJXkg
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:50:31.703Z
+
+0:00 Okay then my friends, we have covered
+0:02 quite a lot when it comes to Codex. Now
+0:04 we've seen how Codex cloud runs remote
+0:06 tasks in isolated containers. We've used
+0:08 the Codex CLI to work locally on a
+0:10 project and we've also used the Codex
+0:12 extension to work both locally and to
+0:14 trigger remote tasks as well. On top of
+0:17 that, we've seen how Codex can review
+0:18 pull requests directly on GitHub. Before
+0:21 we finish the series, I want to quickly
+0:22 show you one of the big benefits of
+0:24 using the Codex Cloud, and that is that
+0:25 we can fire off multiple tasks at once
+0:28 to all run in parallel with each other.
+0:30 We don't have to just run one task at a
+0:32 time and wait for each one to finish. We
+0:34 can run four, five, or more tasks at one
+0:36 time if we want to. And each of these
+0:38 tasks will have their own isolated
+0:40 container that they run within. So,
+0:42 they're not going to be stepping on each
+0:44 other's toes. Now, the only thing to
+0:47 think about when it comes to running
+0:48 multiple tasks at once is the
+0:50 possibility of conflict when it comes to
+0:52 merging a few of those features one
+0:54 after the other because each task could
+0:57 edit the same lines of code
+0:58 theoretically. But if your tasks are
+1:00 working on entirely different features,
+1:02 that possibility will be much lower. So
+1:04 then to demo this, I'm actually going to
+1:06 start by asking codeex a question which
+1:08 I'm going to paste in. And it says, can
+1:11 you look at the codebase and suggest
+1:12 three different reusable UI components
+1:15 we can make for the project as three
+1:17 different tasks on codeex. Then I'm
+1:20 going to hit the ask button. Now when I
+1:22 do this, Codeex will look at the project
+1:24 code and it's going to come up with
+1:25 three ideas. So again, I'm going to
+1:27 pause the recording right here while it
+1:28 does its work and then I'll start up
+1:30 again when it sends an answer. All
+1:33 right. All right, so this is finished
+1:34 and it's come up with three different
+1:35 ideas for me. And look at this. Each
+1:37 idea has its own little button right
+1:39 here to start that task, which is really
+1:41 nice. Codeex basically generates a
+1:44 prompt for us to have it make this
+1:47 particular component in each case. So
+1:49 the first one is to create a hero
+1:51 section component. The second one is to
+1:55 create a pair card component for lists.
+1:57 And the third one is something to do
+1:59 with the tag inputs on the form. Okay.
+2:02 Okay. So, yeah, we have a tag input with
+2:04 a really unique behavior where we had
+2:06 those pills, right? So, it's basically
+2:07 saying we could extract that into a tag
+2:10 input component. So, let's fire off all
+2:12 of these tasks concurrently by clicking
+2:14 on each one like that. And when we do
+2:18 that, if we go back to the dashboard,
+2:21 then we should see all three of those
+2:23 tasks now right here. So, it's working
+2:24 on each one independently in its own
+2:28 container, but they're all going on at
+2:30 once. So, it would be hard for me to do
+2:32 this locally, even with AI. I'm sure
+2:34 there would be ways to do it. However,
+2:36 right here, it's really easy for me to
+2:39 just fire off three tasks all at once.
+2:42 All right, so it looks like two of them
+2:44 have finished. So, we could click on one
+2:45 of these and we could take a look at the
+2:47 code. Sometimes it seems to leave a
+2:50 little snapshot of what it's done. I
+2:52 guess in this case, we didn't really
+2:53 need to because we're just refactoring
+2:55 and putting things in the wrong
+2:56 components. Uh, but yeah, I mean, we
+2:58 could go through the code and we could
+2:59 create a PR for this. And then we could
+3:02 go back over here. We could look at this
+3:04 one. Was it this one or was it this one?
+3:06 Not quite sure. Okay, this one as well.
+3:08 Yeah. So, we could create a PR for this
+3:11 one as well. And then we could go back
+3:13 over here. It's still working on this
+3:14 task. But you get the point. You could
+3:16 go in there, create a PR for that. You
+3:17 could preview everything locally if you
+3:19 wanted to again in your local workspace.
+3:22 And then you could go ahead and review
+3:24 the code on GitHub, merge it and all
+3:26 that kind of jazz. So this is one of the
+3:27 really good things about Codeex. I can
+3:30 just spin up tasks from anywhere on my
+3:32 phone, on my laptop when the thought
+3:33 comes. I don't have to be even in my
+3:35 code and I can have these different
+3:37 tasks running in parallel. Then I can
+3:39 just come back at a later point in time,
+3:41 review the code, test it out, and then
+3:43 merge it into the repo if I want to.
+3:47 All right, then. So I just want to
+3:48 finish this series with a few words
+3:50 about Codex and Agentic coding in
+3:52 general really. So first of all when it
+3:55 comes to using Codex locally with the
+3:57 CLI tool and the extension I would say
+3:59 that it is still very much a work in
+4:00 progress and I would expect plenty of
+4:02 changes over the next months because I
+4:04 definitely think the experience could be
+4:06 smoothed out a little bit especially
+4:07 when it comes to the connection with
+4:09 cloud service. Secondly, when it comes
+4:11 to Codex Cloud, I would say the main
+4:13 selling point for me is that I can spin
+4:15 up remote tasks from anywhere and I can
+4:18 spin up multiple tasks as well. I don't
+4:20 have to be working on my project locally
+4:22 to fire those tasks off. I could just do
+4:23 it from my laptop on my phone when the
+4:26 ideas hit me. I can run multiple tasks
+4:28 and multiple variations of those tasks
+4:30 which get to work while I'm not working
+4:32 and then I could just review them and
+4:34 bring them down to my local workspace
+4:35 when I'm back at my desk. So, that's
+4:37 nice. Thirdly, I would say that no
+4:39 matter what AI tool or coding agent that
+4:42 you use, always check the work that it
+4:44 produces and stay in the loop. AI can
+4:46 get things wrong and it sometimes takes
+4:49 me three or four iterations of different
+4:51 prompts to get the results that I want.
+4:53 Much like I might nudge a junior
+4:55 developer in the right direction a few
+4:56 times if they're going off track. And
+4:58 finally, I would say this. Do not over
+5:00 rely on AI to code everything for you. I
+5:03 personally think it's really important
+5:04 to keep your manual coding skills and
+5:06 your knowledge of the field fresh and
+5:08 over reliance on AI to write all of your
+5:11 code will definitely hamper that. I
+5:13 think at the start of 2025 a lot of AI
+5:16 experts predicted that by the end of the
+5:18 year AI would be writing virtually all
+5:20 the code that we produce. Well, that
+5:22 certainly doesn't feel true right now to
+5:24 me and I don't think it's going to be
+5:26 true over the next several months
+5:27 either. Besides, even if AI does start
+5:30 writing all the code, you should still
+5:32 understand the code it generates in
+5:34 order to review it, debug it, and adapt
+5:36 the code. And essentially, you need to
+5:38 know how your application works. So, for
+5:40 that reason, I think continuing to code
+5:42 manually and learning new skills
+5:44 yourself is especially important these
+5:46 days.
+5:47 So, then my friends, I really, really
+5:49 hope you enjoyed this series and you
+5:51 learned something along the way. If you
+5:52 did, please, please, please don't forget
+5:54 to share, subscribe, and like. That
+5:56 really means a lot. And if you want to
+5:58 access all of my YouTube courses without
+6:00 adverts, also get access to premium
+6:03 courses and early access courses as
+6:05 well, you can do at netinja.dev.
+6:08 You can sign up for Net Ninja Pro, which
+6:10 is just $9 a month and also half price
+6:13 for the first month with this promo code
+6:16 right here. And for that, like I said,
+6:18 you get access to every course without
+6:20 adverts, without YouTube adverts. You
+6:22 also get access to exclusive courses not
+6:25 found anywhere else. you get access to
+6:27 my premium courses on Udemy and also
+6:30 early access to all of my YouTube
+6:32 courses as well. So, the link to this
+6:34 page to sign up is going to be down
+6:36 below. Again, I really hope you enjoyed
+6:38 this series and I'm going to see you in
+6:40 the very next one.
+7:05 3.
+7:15 Hey

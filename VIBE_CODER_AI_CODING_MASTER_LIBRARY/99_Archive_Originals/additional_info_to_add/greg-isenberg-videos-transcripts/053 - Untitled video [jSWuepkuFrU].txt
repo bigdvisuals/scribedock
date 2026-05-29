@@ -1,0 +1,1350 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=jSWuepkuFrU
+Channel: Greg Isenberg
+Video ID: jSWuepkuFrU
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 [Music]
+0:00 There are a bunch of mobile apps making
+0:02 10K a month, 50K a month, 100K a month.
+0:05 And I've noticed that there's something
+0:07 in common with all of them. They stand
+0:10 out. So today's episode is a free
+0:14 course. Yes, it's free. And today we're
+0:17 going to teach you about animation,
+0:19 interactions, illustrations,
+0:21 iconography, widgets, and how you can
+0:24 come up with ideas to make a mobile app
+0:28 that is welld designigned, that is going
+0:30 to stand out, that is scroll stopping so
+0:32 that your mobile app has the highest
+0:36 probability of success. Today's episode
+0:39 is with Chris. He's a single developer
+0:42 and he runs a portfolio of cash flowing
+0:44 mobile apps. 2026 is going to be a
+0:47 massive year for coming up with
+0:49 vibecoded mobile apps. I want to see you
+0:52 build one that works.
+0:56 [Music]
+1:02 >> Chris Ro, he's back on the pod. It's
+1:04 been too long. Chris, by the end of the
+1:06 episode, what are people going to get
+1:09 out of it?
+1:09 >> Yeah, well, first, thanks for having me,
+1:10 Greg. I think the main thing I want them
+1:12 to get out is how to make apps that
+1:15 stand out because right now it's never
+1:17 been easier to make an app. There's
+1:19 hundreds of apps coming out every single
+1:21 day and I want to teach people how to
+1:23 make something that stands out from the
+1:25 competition. And we're not promising
+1:27 you're going to make 10K a month, 50K a
+1:29 month, 100K a month apps, but we are
+1:32 seeing an increase in the amount of
+1:34 people solo builders building these apps
+1:36 that are generating life-changing
+1:38 incomes. Um, and I think one thing that
+1:41 they have in common is they do stand out
+1:43 in some way. So, Chris, can you commit
+1:46 to me that by the end of the episode,
+1:49 you'll give us a few tips and that
+1:52 people can take away so that then when
+1:54 they build their own apps, they have a
+1:56 higher chance of success.
+1:57 >> Yeah, 100%. I can do that.
+1:59 >> All right, let's get into it. So, I'll
+2:01 give a re really quick intro just so
+2:03 people have context. So, my name is
+2:04 Chris. I build productivity apps. I
+2:06 document everything on YouTube. So, I've
+2:08 taught people how to build apps. Um,
+2:11 I've also built a bunch of different
+2:12 apps myself. The reason I'm sharing them
+2:14 is it's not to plug them on the channel
+2:16 or anything. I just want to show that
+2:18 these are pretty robust apps. And one of
+2:21 the common reactions I get from people
+2:23 when they see the apps is they're like,
+2:25 there's no way a solo developer built
+2:27 these things. Like, they are it has to
+2:29 be a team behind them. And I wanted to
+2:31 show you guys that it is definitely
+2:34 possible, but it is really only possible
+2:36 because of all the AI stuff that's
+2:37 happened. There is no physical way that
+2:39 a single person can develop and launch
+2:42 these and maintain them and keep growing
+2:43 them without the help of AI. So, um I
+2:46 just wanted to share this so you guys
+2:48 know that I do have experience. Um
+2:50 there's uh I think the biggest one right
+2:52 now is Ellie, which is a daily planning
+2:53 app. There's a couple thousand paid
+2:56 users that are using this. I think
+2:57 around somewhere between like 7 to
+3:00 10,000 daily active that are using this.
+3:02 So, it's a pretty substantial app. And
+3:04 then right now, my newest app is called
+3:06 Amy, which is a calorie tracking app.
+3:08 And the reason I want to bring this up
+3:09 is there are thousands of calorie
+3:12 tracking apps that are probably coming
+3:14 out every single month. And what's
+3:17 fascinating about this calorie tracking
+3:18 app is it has actually gotten a lot of
+3:20 attention recently. And that's why I've
+3:22 decided to build it. And the reason it's
+3:24 gotten attention is because I have
+3:26 crafted it in a way that it has really
+3:29 stood out among the calorie tracking
+3:30 apps. And we're going to go into some of
+3:32 the details of why I believe it stood
+3:34 out and how you can apply it to your own
+3:36 apps. And everything I'm about to share,
+3:38 even if you don't have a technical
+3:40 background, you can 100% apply every
+3:43 single one of these things with AI with
+3:45 no coding experience. I'm very confident
+3:46 about that. might just take you a little
+3:48 bit extra time to learn and grasp some
+3:50 of the concepts, but if you take the
+3:52 time, you'll be able to do this stuff,
+3:53 too. Let's go into how I make these apps
+3:57 that stand out.
+4:00 So, the first the first thing um there's
+4:03 a couple things I'm going to share, but
+4:05 the very first one, which I think is
+4:06 probably one of the most important ones,
+4:08 is animations and interactions. And this
+4:11 is stuff to make the app feel more
+4:12 dynamic because again, coding has never
+4:16 been easier. Anyone can spin up an app
+4:17 in 24 hours and people are doing that.
+4:19 So that's why there's a flood of these
+4:21 apps, but a lot of them are very static.
+4:24 Like you can kind of tell that they're
+4:25 AI generated. They're they're they're
+4:27 vibecoded just like you can tell when an
+4:30 image is, you know, an AI image or a
+4:32 video. Consumers and users are also
+4:35 starting to spot when something was just
+4:37 a 24-hour vibe coded app. And so to
+4:40 stand out and one of the tells of that
+4:41 is or one of the tells that you can one
+4:44 of the things that you can see that an
+4:45 app is probably viodated is it's very
+4:47 static. It doesn't usually have a lot of
+4:49 life to it. And so a way to combat that
+4:51 is by having more animations and
+4:54 interactions. So I'll show you an
+4:55 example of what I mean by that. Sam
+4:57 Alman the co-founder of OpenAI just said
+5:00 that it is the era of the idea guy and
+5:03 he is not wrong. I think that right now
+5:06 is an incredible time to be building a
+5:08 startup. And if you listen to this
+5:10 podcast, chances are you think so, too.
+5:12 Now, I think that you can look at trends
+5:14 uh to basically figure out uh what are
+5:17 the startup ideas you should be
+5:18 building. So, that's exactly why I built
+5:21 ideaser.com. Every single day, you're
+5:23 going to get a free startup idea in your
+5:26 inbox and it's all backed by high
+5:30 quality data trends. How we do it?
+5:33 People always ask. We use AI agents to
+5:35 go and search what are people looking
+5:37 for and what are they screaming for in
+5:40 terms of products that you should be
+5:41 building and then we hand it on a you
+5:44 know silver platter for you to go check
+5:46 out. Um we do have a few paid plans that
+5:50 you know take it to the next level uh
+5:52 give you more ideas give you more AI
+5:54 agents and more almost like a chat GBT
+5:56 for ideas with it but you can start for
+5:59 free ideabrowser.com and if you're
+6:01 listening to this I highly recommend it.
+6:04 Um, so this is my calorie tracking app,
+6:07 Amy. And the way it works is it's kind
+6:09 of like Apple Notes where you just type
+6:11 what you ate just like you would in
+6:13 Apple Notes. And then on the right, the
+6:15 an AI is actually going to search and
+6:18 try to calculate the calories for you.
+6:20 And so again, this is a very interesting
+6:22 take on calorie tracking, but when I
+6:25 tweeted out this concept video, it
+6:28 absolutely blew up. There were so many
+6:30 incredible designers who were praising
+6:32 it. Um there I think about 800 people
+6:35 joined a wait list that I put up just
+6:37 from a single tweet and that was after
+6:39 like 20 hours. Like I just forgot to put
+6:41 the weight list up like put the link for
+6:42 the weight list. So even just on the
+6:44 tail end of that tweet 800 people joined
+6:46 the weight list which again is kind of
+6:48 crazy for a calorie tracking app because
+6:50 there are so many calorie tracking apps.
+6:52 It's like the stereotypical AI app to
+6:54 build right now. But this one did stand
+6:56 out and I think it was again because it
+6:59 was a bit of a novel concept. this
+7:00 pattern of Apple Notes meets calorie
+7:02 tracking, but also it's the animations
+7:04 and just the feel. When people saw this,
+7:07 it really did stand out to them. Now, I
+7:09 want to show you the a concept that I
+7:12 tweeted the day before of the exact same
+7:14 app. This one had like a,000 plus likes
+7:18 on it, like almost I think 3 400,000
+7:21 views. This one had like seven likes on
+7:24 it. It's the same exact thing that I
+7:25 tweeted the day before. same concept
+7:28 like you know you just type in like
+7:29 Apple notes you see the calories on the
+7:31 right but there just wasn't as much
+7:34 attention to detail and the animations
+7:36 and interactions compared to the first
+7:38 one so you can kind of spot the
+7:40 difference here like if we go back to
+7:41 the first one you can see on the right
+7:43 it was a very conscious decision to have
+7:47 it say searching there's that little
+7:49 animation with the gradient the sources
+7:51 come down all of that stuff is available
+7:53 on the right I just didn't take the
+7:55 extra time to do it. But here it just
+7:57 says calculating and it kind of shows.
+7:58 There is a little bit of an animation
+7:59 where it kind of subtly there's like a
+8:01 little tint as well on the calculating,
+8:03 but it's just not as subtle or it's just
+8:05 not as good. Um, but that is the
+8:08 difference between, you know, a tweet
+8:10 that went pretty viral from my
+8:12 perspective versus one that didn't even
+8:14 though it's the same concept. And the
+8:16 difference between these two screens was
+8:18 about like it was literally 24 like less
+8:20 than 24 hours actually. I think I made
+8:22 the changes in like probably 6 hours.
+8:25 And again, just all vibe coded. Not a
+8:27 single line of code was written for
+8:28 this, but I think this is a prime
+8:30 example to show what happens when you go
+8:33 an extra mile with the animations and
+8:34 interactions. Um, here's another one for
+8:36 my budgeting app, Luna. This is Oh,
+8:39 sorry.
+8:40 >> Real quick on the calorie tracking one.
+8:41 I got to be honest, Chris, when I saw
+8:44 you tweeted this and I saw that you were
+8:46 going to the calorie tracking space, I
+8:48 was like, don't do it, Chris. No. you
+8:52 know, having seen, you know, so much
+8:54 competition. You have the Cali guys
+8:55 doing like $3 million a month
+8:58 >> and so many people copying it. But then
+9:00 I watched the video and
+9:04 it was just a like it was a it was a
+9:06 breath of fresh air. That's what it was.
+9:08 And I think that that's sort of the
+9:10 lesson I I took from this, which was uh
+9:13 even if you have a highly competitive
+9:15 space, like hyper competitive, you
+9:17 picked literally the most competitive
+9:19 space, if you can figure out a new way
+9:22 from a UI and interaction perspective to
+9:25 showcase that information and allow
+9:27 users to interact with it. Sometimes
+9:30 it's, you know, it can go viral Tik Tok
+9:33 X
+9:34 >> and that essentially becomes your MVP.
+9:38 Like you don't even need to like here
+9:41 you were actually building this app but
+9:43 like you could have theoretically just
+9:45 you know created the video posted on X
+9:48 see if people liked it and then went
+9:50 build it built it.
+9:51 >> Yeah. Yeah. 100%. I think you said it
+9:54 correctly like there's so much
+9:55 competition here and this is a really
+9:57 good way to validate it. The funny story
+9:58 is this was actually me validating it.
+10:00 So I I didn't even plan on building the
+10:02 app completely. I just kind of posted
+10:04 the concept. Uh this was just me for
+10:06 actually a a throwaway project in 24
+10:08 hours for me to play with Apple's liquid
+10:09 glass. So I was kind of testing some
+10:11 things and it just so happened that
+10:13 people really resonated with it where I
+10:15 was like, "Okay, I guess I actually have
+10:17 to go build it." Um but yeah, that's
+10:18 exactly what I would do too is just if
+10:20 you have concepts, just throw them out.
+10:21 You'll be so surprised. Um, but the
+10:23 thing that does make things these type
+10:25 of things stick out, it is the
+10:26 interactions, the animation, those
+10:28 details. That's what's sticking out
+10:29 because anyone can code now. Like anyone
+10:31 can do it. So these details do matter.
+10:34 Um, do you want to move on to the next
+10:35 one, Greg, or is this even? Okay. So the
+10:37 next thing is um my budgeting app, Luna.
+10:39 Again, an insanely competitive space.
+10:41 The budget tracking space is so
+10:44 competitive, but people really like the
+10:47 app that I built because I spent a lot
+10:49 of time on the interactions, the feel,
+10:51 just everything. I'll play a short clip
+10:53 of just some of the interactions
+10:55 throughout the app, but if you kind of
+10:58 get a sense that there is some motion
+11:00 here, it does feel a little bit
+11:02 different. I wish I could also convey
+11:04 there's a lot of haptics going on. So,
+11:05 that's when the phone kind of subtly
+11:07 vibrates when you're clicking things.
+11:08 There's some page swipes there. Um, all
+11:10 of this stuff is really minor and and
+11:12 even when you're watching this video, it
+11:14 probably just doesn't look like a lot.
+11:16 You're just probably thinking, "Oh, this
+11:17 just looks like an app." But I'll I'll
+11:19 show some specific examples of the
+11:21 little details that went into this that
+11:23 I think really did add up and make for a
+11:25 better experience because people could
+11:27 have chosen another budgeting app.
+11:28 There's so many out there. But the
+11:31 reason people stick with this one and
+11:33 the things that I'm hearing over and
+11:34 again over and over again from users is
+11:36 this just feels different. This doesn't
+11:38 feel like a normal budgeting app. So
+11:40 here's an example of the level of detail
+11:42 I'm talking about. And it's something
+11:43 that again you could totally just vibe
+11:45 code and do yourself. It'll just take a
+11:47 few minutes. Um, so one thing I did was
+11:50 when you look at a lot of normal Apple
+11:53 apps and just default apps, when you
+11:55 transition between pages, usually it's
+11:57 just kind of an instant transition. Like
+11:58 if you're on your contacts app and you
+12:00 click between the pages, it's just going
+12:01 to instantly appear. Something that I
+12:03 wanted to do was add a little bit of
+12:05 motion when you're changing between the
+12:06 pages. So if you look closely here, you
+12:09 can see that the pages are actually
+12:10 swiping left and right. And it's really
+12:13 subtle, so a lot of users probably won't
+12:15 even notice that this is happening. I'll
+12:17 slow it down here so you can see exactly
+12:19 what I mean. But when you transition
+12:21 between the pages, there's this little
+12:22 bounce and the pages are kind of
+12:23 shifting over. That minor detail was
+12:26 something I saw in another app. I don't
+12:29 even remember what the app was, but I
+12:31 remember seeing that and I I thought to
+12:33 myself, what why does this just feel
+12:35 different? Like this doesn't something
+12:36 about this is just so nice. And I I
+12:39 spent a lot of time trying to figure it
+12:40 out. And then when I I literally had to
+12:41 record my screen and slow it down and I
+12:43 was like, oh my god, the pages are
+12:44 transitioning. like that is amazing. So
+12:47 this this is just one example of
+12:49 something in this budgeting app that I
+12:51 did. Um there's so many other things
+12:53 that I did here that kind of add to
+12:56 create this experience. This is the
+12:57 level of detail I'm talking about that I
+12:59 I think anyone can do. And again, the
+13:01 way that I did this was I literally just
+13:03 was dictating into cloud code and I I
+13:05 just told it, hey, can you make it so
+13:06 when we transition between pages, have
+13:08 it slide over. And then I just had to do
+13:09 a few more prompts to tweak it to tweak
+13:11 the speed, the bounciness. but all in
+13:13 plain English. This is something you can
+13:15 totally do as long as you know how to
+13:17 describe it. Um, another example is uh
+13:20 dictation. So, this is my daily planning
+13:21 app Ellie. We actually have this AI
+13:24 assistant and you can actually dictate
+13:26 commands to it. And something that I did
+13:29 was I added the ability I added a little
+13:32 bit more animation to the dictation. So
+13:35 now when you click this icon, you'll see
+13:37 that the the background turns black and
+13:39 kind of expands from the microphone. The
+13:42 icon here actually rotates from the send
+13:45 button to the check mark button. It's so
+13:49 small and subtle and like it needs to be
+13:50 slowed down to see it. But again, it's
+13:53 one of those things that when a user
+13:55 sees it and feels it and then compares
+13:57 it against another app, they will they
+14:00 might not know exactly what's happening,
+14:01 but they'll be like, why does this just
+14:02 feel better? And again, you do this
+14:04 across a hundred different things in
+14:06 your app, it will add up. People will
+14:09 remember these things. So they'll
+14:10 remember the feeling of using your app.
+14:13 And I think uh that this is just another
+14:14 example of a small detail. And same
+14:16 thing here. All I did to do this was I
+14:18 just told Claude Code, can you make a
+14:21 black background come from the
+14:22 microphone icon and can you rotate the
+14:26 send button into the check mark? I think
+14:28 this one was actually done completely in
+14:30 in one shot in one prompt. Like this one
+14:32 I was actually very surprised that it
+14:33 got it but it's because cloud code for
+14:36 example is very well trained at
+14:39 interactions and animations which might
+14:41 surprise a lot of people like it is very
+14:42 very good at this stuff. Apple has a
+14:44 great animation library that's very well
+14:46 documented and so it can actually do
+14:48 these custom animations if you know how
+14:50 to describe it. I think going back to
+14:53 that one. I think uh I think you're
+14:56 totally right on in the animation like
+14:58 it's smooth and it's fresh. But I also
+15:00 think there's a few other reasons why
+15:01 this resonate this whole concept
+15:04 resonated with people. One is you
+15:07 created a mascot which we're seeing that
+15:10 as a huge trend right now which is like
+15:13 especially with AI first apps like
+15:15 people see see it as like an animal a
+15:18 person you know someone they're talking
+15:20 to. So having that, you know, I think
+15:23 helped one, two, it's voice first. It's
+15:28 a voice first app. And I think that's
+15:30 there's a huge opportunity to look at,
+15:33 you know, I'm sure I'm sure there's a
+15:35 ton of planning my day apps, but you
+15:37 know, how many of them are legitimately
+15:39 voice first? I don't know. So I think
+15:41 you did that well. Third is you did you
+15:44 didn't just have a text box that said
+15:46 ask anything. You had contextual
+15:49 buttons. you know, to get people to
+15:52 actually engage, what's next, plan my
+15:55 day, etc., etc. And I think that's
+15:57 important because when users are looking
+16:00 at a blank screen, they don't know what
+16:02 to do. They There's a reason why Google
+16:04 has the I'm feeling lucky button on
+16:06 Google search, right? It's because they
+16:08 know that sometimes people show up to
+16:10 Google or whatever and they're and they
+16:13 just don't know what to type in.
+16:15 >> Yeah. Yeah. 100%. I I think that's
+16:18 something that if you're especially
+16:20 someone who's kind of just vibe coding
+16:21 for the first time or making an app,
+16:22 it's one of those things that's really
+16:24 probably overlooked. Like they probably
+16:25 would not put the chips here or or or
+16:28 understand the significance of this. But
+16:30 yes, that this is like a lot of thought
+16:32 went into putting these chips here when
+16:34 I coded this. A lot of thought even went
+16:36 into what specifically should I put in
+16:39 here. So I did study a ton of like Chat
+16:42 GPT, Claude. I I studied all of these
+16:44 apps to figure out what are they doing,
+16:45 why are they doing it. Um but yes, these
+16:47 details like it does actually not even
+16:50 for the feeling. It has a direct impact
+16:52 on the usage like people will probably
+16:54 click these things and um there's just a
+16:56 higher chance that they'll they'll use
+16:57 it more properly if you have this. Yeah.
+17:00 Yeah. Anything else on this one, Greg?
+17:03 >> Uh we're good. Cool. Okay. Sweet. Um one
+17:06 more. Cool. The next thing, um, I'm glad
+17:08 you actually brought up the the mascots
+17:10 and the illustration because that is
+17:12 going to be the next thing we're going
+17:13 to talk about to make it really feel
+17:15 like a more premium and just a different
+17:16 app. Um, but one two more examples on
+17:19 the animations interactions. Um, in the
+17:22 in the calorie tracking app that I'm
+17:23 building, another thing that I added was
+17:26 this streaks feature. So, this is where
+17:27 you can build a habit. Gamification
+17:29 exists in Dualingo, even in Snapchat, in
+17:32 a lot of different apps. Gamification is
+17:33 a very powerful way to build habits and
+17:36 increase retention. Um, I decided to
+17:38 actually add a streaks feature here and
+17:40 then for fun, a little badge that you
+17:43 can actually unlock as you start
+17:45 increasing your streak. And these were
+17:47 handdrawn by my fiance. So, very
+17:49 fortunate. But I'll also show you how to
+17:51 make mascots like this using AI because
+17:53 that that's what I was doing originally.
+17:55 But something that I coded which a lot
+17:58 of people were surprised that I I didn't
+17:59 write a single line of code for this was
+18:01 when you unlock the badge, you can
+18:03 actually click it and it's they're based
+18:05 off of cat memes, but you can actually
+18:07 drag along kind of like it's like a
+18:09 holographic sticker type thing. It's
+18:12 kind of based off of like Pokemon or
+18:14 just these holographic stickers that you
+18:16 can unlock there. This was completely
+18:18 done by Claude Code as well. And all I
+18:21 did was tell it, can you recreate a kind
+18:24 of holographic sticker where I can move
+18:26 my finger around and I can drag along
+18:28 the sticker? And I was so surprised that
+18:30 it was able to get this in, I think, two
+18:32 prompts. Again, because Claude is very
+18:35 well trained on Apple's technology, like
+18:38 this was using something called Swift
+18:39 Metal, but it is very well trained on
+18:42 this. So, it can make these really cool
+18:44 interactions, but I just don't see a lot
+18:46 of people doing it, which surprises me
+18:48 because I think I think people assume
+18:50 that it can't get it cuz this stuff does
+18:51 look very complex. But if you know how
+18:54 to say it, if you know how to break it
+18:55 down in plain English, it is able to get
+18:57 these things. So, this was another
+18:58 really cool example that I think stood
+19:00 out to a lot of people. Last one I'll
+19:02 show on the animations interactions is
+19:05 actually one that was created. I was not
+19:07 using cloud code or cursor for this. Um,
+19:09 there's another platform called
+19:11 anything. So it's I think create
+19:12 anything.com. I wanted to show that even
+19:15 if you're not using a tool like claude
+19:17 code, you can do this in stuff like
+19:20 anything and lovable and vzero if you
+19:22 know how to prompt it correctly. So this
+19:24 was just a fun 24-hour concept that I
+19:27 made. It was another food tracking app
+19:28 purely built with create anything.com.
+19:31 And I added a bunch of custom
+19:34 interactions and animations here. So
+19:35 here's here's one that appears. This
+19:38 date picker that appears that bounce
+19:41 that modal completely custom. This
+19:43 little sheet that says take photo
+19:45 gallery enter text. This is these are
+19:46 not components that create anything has.
+19:48 These are fully made by the AI and the
+19:53 animation of it popping up and kind of
+19:55 having a little bounce and a shadow
+19:58 full. That was fully custom. That was
+20:00 something I completely told it to do. Um
+20:02 and this was me trying to push it and
+20:03 see what it's capable of. Another thing
+20:05 very subtle is I have this mascot of my
+20:07 dog Luna looking at these foods. It's
+20:10 very subtle, but you can actually see
+20:11 that it's bouncing up and down a little
+20:13 bit. So that's another very subtle
+20:15 animation I was testing. But doesn't
+20:18 matter what platform you're using, you
+20:20 can do this in all the other platforms.
+20:23 But the important part is just
+20:24 understanding how to break this down in
+20:26 plain English. That's that's the
+20:27 important part. But I'm I'm pretty sure
+20:28 all of the platforms are capable of
+20:30 doing stuff like this. Um, so that's the
+20:32 animations and interactions that this is
+20:34 the probably the number one thing that
+20:36 makes app stands out. And again, if
+20:37 you're going to record demos or
+20:39 concepts, that is what shines in these
+20:41 demos and concepts. Like again, it's the
+20:42 difference between this tweet blowing up
+20:44 and then this one not is just it you do
+20:46 you add a little bit more polish? Is it
+20:48 a little bit more dynam dynamic? Um, to
+20:51 go on to the next thing that really
+20:52 makes apps stand out, it is as you
+20:55 mentioned Greg, illustrations, mascots.
+20:57 This is something I started doing in my
+20:59 apps because of AI, because I'm able to
+21:01 generate these things. And we actually
+21:03 talked about it in the other episode
+21:04 that we recorded before, and I have a
+21:06 whole video on my channel documenting
+21:08 how I build these things. But right now,
+21:11 what I'm using primarily is Chat GPT.
+21:13 I've noticed for some reason it's very
+21:15 good at making these kind of
+21:17 illustrations. And I think with the
+21:19 newest models with I think ChatgPT5,
+21:21 once it started with that, it got really
+21:23 good at following instructions for
+21:25 mascots. But my pro tip if you want to
+21:28 make mascots and and here for example is
+21:30 this uh AI meeting assistant app that I
+21:33 was working on and it had this mascot
+21:34 that people just absolutely love named
+21:36 Lily the ghost. Um and what's cool about
+21:39 having mascots and using AI you can make
+21:40 almost infinite generations and
+21:42 iterations on the same mascot. So here I
+21:44 took Lily the ghost and I made a
+21:47 variation where she has a magnifying
+21:49 glass and she's searching. So you can
+21:51 kind of see how in your app even an
+21:54 empty state. So this is like a state
+21:55 where typically there's nothing going
+21:56 on. It just it probably for most user or
+21:59 for most developers, they would probably
+22:00 just put a a a looking glass icon or
+22:03 something and it would just say type
+22:05 something to search or no results found.
+22:07 This is a great place to put custom
+22:10 illustrations to really give your app a
+22:12 lot more personality. So that's what I
+22:14 did here and I I just generated this in
+22:16 GPT5. But my pro tip for anyone who's
+22:20 doing this is actually to bring on or
+22:24 hire an actual artist to generate the
+22:28 first version or some sort of concept
+22:30 and then use that and feed it into
+22:33 ChachiPT or whatever you're using to
+22:34 generate as a reference and say, "Hey,
+22:36 can you kind of riff off of this style?"
+22:39 And that's actually what I did to
+22:40 generate Lily the Ghost. I didn't just
+22:41 directly say, "Can you make a ghost
+22:43 mascot with a flower on her head?" Not,
+22:45 I didn't do that. Instead, what I did
+22:47 was I fed in this, this was a handdrawn
+22:49 illustration that my fiance did of our
+22:51 dog Luna, and I told it, "Okay, can you
+22:54 use this as a reference and now make me
+22:55 a ghost based off of this?" It didn't
+22:57 actually follow the illustration style
+22:59 that closely, but I did notice that
+23:01 there were some elements that kind of
+23:04 was retained, like some of the shadow is
+23:06 kind of very similar. Um, but that is
+23:08 something that that's a little trick
+23:10 that I've learned is just if you pay
+23:12 someone for some original art, there's a
+23:14 high chance that the iterations that you
+23:16 get will just be a lot more unique
+23:17 because everyone is doing this right
+23:19 now. Like I'm I'm now seeing a lot of
+23:21 people using AI for illustrations. Like
+23:24 this is now becoming a more common
+23:25 theme. So to stand out, you will have to
+23:28 either be really creative with how
+23:30 you're generating these or again I would
+23:33 recommend commissioning an artist,
+23:34 getting some sort of first version done
+23:36 because then at least you know it is
+23:37 unique and it's actually cheaper than a
+23:39 lot of people would think. I think you
+23:41 can probably get an artist to do a very
+23:42 first version for you for like $2 $300
+23:45 or something. Um but then and then
+23:47 obviously once you have the actual
+23:48 mascot you can make infinite iterations
+23:50 just like I did.
+23:52 >> Um oh yeah, sorry. Go ahead.
+23:53 >> Can we try something? I know this is
+23:55 sort of off script but
+23:56 >> yeah yeah yeah
+23:58 >> can we go to chat GPT and if we give it
+24:02 if we gave it a reference image of say
+24:04 the you know Snapchat ghost
+24:09 um you know the logo the Snapchat ghost
+24:11 logo
+24:13 >> I wonder if
+24:15 you know let's just say you know we want
+24:17 to create a um
+24:21 actually with maybe with the the tongue
+24:23 the tongue sticking out cuz has a little
+24:25 more personality. I always I always
+24:26 found this was pretty decent um in terms
+24:29 of like the brand and so let's just say
+24:32 we're we're developing an app
+24:35 um and
+24:37 you know we want to we're inspired by
+24:40 this. We want this sort of vibe but we
+24:42 want more of like a 3D
+24:45 you know kind of like how you had it
+24:47 like yours it feels well is yours 3D?
+24:48 Would you say it's 3D? Uh, it does have
+24:51 some shadow. So, it does it's definitely
+24:52 not like fully 2D. I think it is a
+24:55 little closer. Like has some depth.
+24:57 >> Okay. So, maybe we say like we like the
+25:00 Snap logo in terms of like its youthful,
+25:02 fun, fresh energy.
+25:05 Um,
+25:07 but I want to do like maybe a banana as
+25:10 a mascot.
+25:12 Let's say, you know, I'm creating a a a
+25:15 mobile app and I think a banana for
+25:16 whatever reason is interesting.
+25:19 And
+25:21 I wonder Yeah. I wonder just how you
+25:23 would prompt it to to get the most out
+25:25 of it.
+25:26 >> I think what I would do is I would say,
+25:28 can you create
+25:29 >> just follow the same vibe as the
+25:30 original image?
+25:32 >> Yeah. And let's just see what it does
+25:33 here. Um, typically I do have to do this
+25:35 a few times. So, I think to get the
+25:38 ghost mascot, I think it took maybe like
+25:42 10 to 15 different prompts, and I think
+25:45 I had to tell it things like, can you
+25:47 make it less cartoonish? Can you make it
+25:49 more cartoonish? Can you remove these
+25:51 elements? So, we'll see what this comes
+25:52 up with. I have no I've never actually
+25:54 tried 5.1. This is, I think, new as of
+25:56 this week. So,
+25:57 >> yeah,
+25:57 >> I'm kind of curious how good it is. Um,
+26:00 it might surprise people, but I've found
+26:02 also that for coming up with novel
+26:04 mascots, ChachiPT is actually better
+26:07 than Gemini, better than Nano Banana
+26:09 from Google. Um, I think Nano Banana is
+26:11 very good if you want to make
+26:12 iterations. So, when you have the base
+26:14 mascot, but I am still finding myself
+26:16 making actual mascots like the first
+26:20 version in chatbt. Okay, let's see what
+26:23 it does here. And then let's see what it
+26:25 copies. Also, another pro tip when
+26:27 you're using chatbt for image
+26:29 generation, the more you ask of it, the
+26:32 harder or the worse it usually gets. So,
+26:34 it starts deviating and then you start
+26:36 getting that kind of chat gpt style that
+26:38 you see in a lot of chatgpt images. If
+26:41 you ask it to just do one thing really
+26:44 well, it's way better at following
+26:45 instructions. So, okay, let's see. It
+26:47 did come up with a banana. Um, I think
+26:50 it did kind of it did keep some of the
+26:52 shadowing that's here for sure. It kept
+26:54 the tongue. It actually kept also really
+26:57 the same style as the eyes. Even the
+26:59 lines.
+27:00 >> Yeah.
+27:00 >> Um are pretty similar. So I think it did
+27:02 a good job of keeping the style because
+27:05 that this is what we gave it. So it's
+27:06 like it does seem like it's kind of
+27:08 similar. Um but yeah, I mean we could
+27:11 keep riffing off of there's like a
+27:12 there's so many things you can keep
+27:13 riffing off of it. Like if I say
+27:15 >> let's let's do one more.
+27:16 >> Yeah. What do you want?
+27:17 >> Let's do one more prompt and see what
+27:18 happens. I I also like I kind of feel
+27:20 weird that we gave it like the Snapchat
+27:22 image brand and likeness but it was a
+27:25 place to start. So what would you do to
+27:27 make it like different but also you know
+27:31 unique and better and
+27:32 >> I think what I would do again my my
+27:35 advice is to if you can use original art
+27:39 somehow or a combination if you use like
+27:41 like actually let's just see what
+27:42 happens here. If I just feed in I have
+27:44 no idea what it's going to do if I do
+27:46 this. Like if I feed in both this
+27:48 handdrawn illustration of my dog and the
+27:51 Snapchat mascot
+27:53 of both the ghost and dog mascots.
+28:02 Um I've noticed also when you do
+28:04 combinations, you get very interesting
+28:06 results. So I I literally have no idea
+28:08 what it's going to do here, but it'll be
+28:10 cool to see because we at least know
+28:11 what's going to happen if we just did
+28:12 the ghost. Let's see what happens if we
+28:14 do both. Um, but this is actually a way
+28:16 too because I I think something that I'm
+28:18 really worried about when I I made a
+28:20 video explaining how I do this stuff, I
+28:21 explicitly was like, do not try to copy
+28:24 someone's style one for one. Like you
+28:26 need to be original here. So definitely
+28:28 if you're going to do it, make sure you
+28:29 just iterate a ton so it looks very
+28:32 different or again use original art or
+28:35 mash like three or four things and get
+28:37 the elements that you like from it to
+28:39 get something unique. That that's
+28:41 probably what I would do because I know
+28:42 that if someone's going to do this, the
+28:44 first thing they're going to do is just
+28:45 probably throw in the Dualingo owl or
+28:47 some logo that they really like. Um Oh
+28:49 my god, what is this?
+28:53 >> It's very different.
+28:56 Okay, I see that it's it's it Okay, it's
+28:58 more 3D already.
+28:59 >> Yeah,
+29:00 >> it looks like a lot more like you can
+29:01 tell it has a lot more depth. It's
+29:03 probably because it now has two
+29:06 references of something with a little
+29:07 bit more depth. Like this has a like
+29:08 some more shadows.
+29:10 here. Wow, that is insane. And it kept
+29:14 the bow. So now it has the tongue and it
+29:16 has the bow from my dog. Um,
+29:20 that looks insane.
+29:23 >> Greg, if you use this, I think I think
+29:25 you might get sued or something. This
+29:26 looks like
+29:28 >> Yeah, but it that's interesting. Oh,
+29:30 this is not No, this is not it. Um Oh,
+29:32 no. Here we go. Here was
+29:34 >> comment banana, you know, on YouTube if
+29:36 you like this logo.
+29:38 >> Yeah. Yeah. If anyone wants to use this
+29:39 as their logo, please feel free. You
+29:42 have my blessing to do this. But it is
+29:44 interesting to see the difference here
+29:46 when you feed in one versus two.
+29:48 >> Um it's it is already
+29:50 >> Yeah.
+29:52 >> I don't know if it's better, but it is
+29:53 it is not different. It's noticeably
+29:55 different. Like you do we got something
+29:57 way more unique when we mash these two
+29:58 together. So that's my recommendation is
+30:00 just use GPT5. Um just throw it in. Get
+30:03 really creative with it. Try to find
+30:05 something that feels like you. But
+30:06 again, don't don't copy. Just don't
+30:08 directly copy anything like try try to
+30:10 come up with a unique style that fits
+30:11 the app.
+30:12 >> Okay, we can move on to the next thing
+30:13 but I will say you were speechless when
+30:15 when when that banana came out.
+30:17 >> Yeah, that Yeah, that was that was
+30:19 something that was something. Yeah, feel
+30:21 free to anyone who wants to use it, feel
+30:22 free to use it. Um, okay. On a note for
+30:24 a a good mascot or a mascot that that
+30:27 there was a lot of thought into it. So,
+30:29 this one was not generated by AI, but I
+30:31 did also want to show the power of when
+30:34 you get a good mascot, what it can do to
+30:37 the end experience. So, this was
+30:39 something where um we actually applied
+30:42 the mascot uh myself and then again my
+30:44 fiance is the one who hand drew these
+30:46 illustrations and she animated them in
+30:48 Procreate. Um we threw them into the
+30:50 onboarding for my new calorie tracking
+30:52 app. And you can just tell that this
+30:55 onboarding has so much more character
+30:58 and life to it. And I have never gotten
+31:02 so much praise about an app onboarding.
+31:04 Like that's not a normal thing. People
+31:06 hate onboarding. But people after I I I
+31:09 think I've onboarded about 500 testers
+31:12 at this point. I've been working on the
+31:13 app for a month. This is the most
+31:16 praised part of the app. Every time I
+31:17 invite someone, they're like, "That was
+31:18 such a good onboarding experience." And
+31:20 there was actually one person who signed
+31:21 up twice. They told me, "Hey, I signed
+31:23 up twice because I I wanted to see it
+31:25 again. I hope you don't mind." And I was
+31:26 like, "Okay, that's insane." Like, I've
+31:28 never heard of anyone signing up twice.
+31:29 But again, imagine this onboarding if it
+31:33 was just static images or if there was
+31:35 no images cuz that that's what a lot of
+31:36 people do. Sometimes they just don't
+31:38 have anything cuz they're they just
+31:40 don't want to put in the time to to make
+31:42 custom illustrations for each of the
+31:43 steps. But it does really add a
+31:45 dimension where when you see these,
+31:46 you're kind of like, man, what is the
+31:48 next one going to be? Like, I'm so
+31:49 curious. Like, these are so cool. Um,
+31:52 here's another tip that I'll give if
+31:55 because I think the thing that made this
+31:56 stand out was really the the animation
+32:00 or just like how it wasn't just a static
+32:02 image. This is actually something you
+32:04 can achieve through AI. Uh, and
+32:08 specifically something that I've seen
+32:09 people do is they use midjourney for
+32:10 animations. So, that's something a lot
+32:12 of people don't know. A lot of people
+32:13 just think of midjourney as just pure
+32:14 image generation. Um, this is the logo
+32:17 for Amy the cat. And I wanted to show
+32:21 what this could look like if you
+32:23 animated it. So I just fed this into
+32:25 Midjourney. And I'll show you what what
+32:27 that looked like. But here's an animated
+32:29 version that it just did in one go.
+32:31 >> Wow.
+32:32 >> Like completely. And just imagine you're
+32:35 on the login screen or the splash screen
+32:37 and instead of just seeing a static Amy
+32:39 the cat, imagine if this is just looping
+32:41 and this is just moving already. That
+32:43 just feels like a whole that just does
+32:45 not feel like a vibe coded app. This
+32:46 feels like something way more premium.
+32:48 Um, and so let me show you actually kind
+32:50 of what this looks like and how you do
+32:52 it. So people don't know this, but when
+32:54 you're in midjourney, and this is what
+32:55 the midjourney UI looks like, you can
+32:57 actually feed in images as a starting
+33:01 frame or an ending frame. And so what I
+33:03 did was I just fed in this image of Amy
+33:07 the cat. And then I think I just said
+33:10 actually I don't even think I typed
+33:11 anything. I think I just I think I just
+33:13 like just clicked go. And then I was
+33:17 curious what it would come up with. And
+33:19 and this it did kind of get some there
+33:21 was some weird stuff that came out of it
+33:22 the first time I did it. But then this
+33:24 fourth one was actually really good.
+33:26 Like I I think I would actually use this
+33:28 now in the login screen. So when you
+33:29 sign up for my calorie tracking app, you
+33:31 might see this in there. Um but this is
+33:33 a pro tip that I've not seen anyone talk
+33:35 about. It's using MidJourney to animate
+33:37 very static characters or mascots. It's
+33:40 actually pretty simple. I don't know how
+33:42 new this feature is, but when I
+33:43 discovered this, I was like, "Okay, more
+33:46 people are going to take advantage of
+33:47 this for sure." This is a really cool
+33:48 one. Um, but yeah, that's it on the
+33:50 illustrations. I don't know if you have
+33:51 any thoughts, Greg, or any questions or
+33:53 anything, but it
+33:54 >> No, let's let's go to iconography.
+33:56 >> Nice. Okay, so another thing the next
+33:58 thing is iconography. This is something
+34:00 that I see a is just a that this is a
+34:02 huge tell for vibecoded apps because
+34:06 usually when you vibe code an app, you
+34:07 don't really think too much about the
+34:09 icon style, but it has a huge impact on
+34:12 the app's feel. So, I'll give you an
+34:14 example. This is my budgeting app, Luna.
+34:16 This is the best way to illustrate this.
+34:18 Um, look at the tabs on the bottom. I
+34:21 chose specifically lined icons, which
+34:25 means that they're not filled. These are
+34:26 filled icons on the right here. Um,
+34:30 there is a difference between these two
+34:31 and it's very subjective. Some people
+34:32 would prefer the left, some people would
+34:34 prefer the right, but the key rule
+34:37 though that I see a lot of apps making
+34:39 is they love to mix and match these
+34:41 things unnecessarily. So, here's on the
+34:43 right where we mix lined and filled
+34:46 icons. So, this is a lined icon and then
+34:48 the others are filled icons. Um, it's
+34:51 really small and subtle, but it is one
+34:53 of those things where if you look at all
+34:55 three of these, again, it's subjective.
+34:56 Some people actually might prefer this
+34:58 one on the very right, but personally I
+35:00 really prefer the one on the left and
+35:02 then the the the tab that's actually
+35:05 selected can have a filled icon instead.
+35:07 So these transition to the filled icons
+35:08 when they're clicked. Very very subtle
+35:10 thing, but iconography is one of those
+35:13 things where when you choose really good
+35:16 icons, it really does elevate an app.
+35:19 But more importantly, if you choose bad
+35:21 icons or you're incorrectly matching
+35:22 them or using different ones that don't
+35:24 match, they're from different sets, it
+35:26 really does decrease the quality of the
+35:28 app. So, this is another one that I
+35:30 wanted to point out that is such a quick
+35:32 fix for people and for people who are
+35:34 like, "Okay, well, where do I get these
+35:35 icons?" These are three really good
+35:36 resources to check out. Personally, I'm
+35:38 using Hero icons for this set. So, I'm
+35:40 pretty sure these are all from the Hero
+35:41 icon set. Completely free to use, I
+35:43 believe. Um, Font Awesome is another one
+35:45 that has really high quality icons. And
+35:47 then there's another one named uh called
+35:49 Nucleio that someone put me on to and it
+35:51 has a really good quality icons too. So
+35:53 if you're vibe coding and you're just
+35:54 getting started and you're like I don't
+35:56 know what to do like I'm just using the
+35:57 default ones that Claude is telling me
+35:59 to use. Seriously, just try these. You
+36:01 you will notice a tangible difference if
+36:03 you just swap out all the icons, make
+36:05 them consistent. It'll feel very
+36:06 different. So that's another that's
+36:08 another uh another small one that that
+36:11 actually has a big impact.
+36:12 >> And also
+36:14 typography very important. Yeah,
+36:17 >> similar thing. Small but big impact. The
+36:20 sizing of um titles and headers and
+36:24 subheaders, obviously the font you
+36:26 choose or fonts, right?
+36:28 >> Exactly. Exactly. Yeah. The the
+36:30 readability, legibility 100%. If you're
+36:33 just starting out and you've never done
+36:34 any of this stuff, just just read just
+36:36 watch a 5minute video on typography and
+36:39 when to use certain weights, when to use
+36:41 certain colors, how they mix and match,
+36:43 how to make something more legible. It
+36:45 goes a long way because people are going
+36:46 to be looking at your app thousands of
+36:48 times a month hopefully and so this
+36:50 stuff will it will actually impact their
+36:52 experience. They'll feel the difference.
+36:53 >> I mean there's the famous example I
+36:55 think of Steve Jobs going to calligraphy
+36:59 class right at at Reed College and
+37:02 that's what influenced
+37:06 um the Macintosh
+37:09 >> Mhm.
+37:09 >> whole font choices. Um, so
+37:13 >> I think um to me I put iconography and
+37:16 and typography in sort of the same boat,
+37:19 which is like it's an afterthought, but
+37:23 like it's such people notice it. Um, so
+37:27 thanks for bringing it up. Let's let's
+37:29 see what widgets.
+37:30 >> Yeah, for sure. Okay. And the other
+37:31 thing is widgets. Um, the reason I bring
+37:34 this up is because with AI, it has never
+37:38 been easier to create widgets or even an
+37:41 Apple Watch integration. It's It's never
+37:43 been easier to do this. And I'm actually
+37:46 doing this for all of my apps. And this
+37:49 is the widget for the calorie tracking
+37:50 app, Amy, that I have. So, we have a
+37:52 home screen widget. And again, this
+37:54 illustration was handdrawn by my fiance,
+37:56 but you can totally go generate this
+37:58 with AI. But again, it does really draw
+38:00 your attention to the widget. It's a
+38:02 It's a really nice illustration to have
+38:03 here and it makes it stand out. Same
+38:05 thing too with if you notice there's
+38:06 some background sketches there. Also
+38:08 just handdrawn on an iPad, but you can
+38:10 just generate these things. But in
+38:12 general, something that I'm surprised I
+38:14 don't see a lot of developers taking
+38:15 advantage of is making widgets because
+38:18 when you have them, number one, users
+38:21 are always very delighted when they see
+38:23 that. They're like, "Oh, amazing. They
+38:24 have a lock screen widget, home screen
+38:26 widget, or an Apple Watch app." I mean,
+38:27 think about the apps you use every day.
+38:29 You were probably so excited when you
+38:30 were like, "Oh, thank god they have an
+38:31 Apple Watch app." Like, "Oh, thank god
+38:33 they have this." It's one of those
+38:34 things that it's a it's a signal that
+38:36 this is a high quality app when the in
+38:38 the developers invested in a lock screen
+38:41 home screen or an Apple Watch widget.
+38:43 Um, same the other thing though that's a
+38:45 bonus if you are a developer for your
+38:48 widget is people don't understand what a
+38:51 retention boost having a widget is.
+38:54 Because when a user is using your app
+38:57 and they open their phone, there are a
+38:59 thousand other apps that are trying to
+39:00 get their attention, especially through
+39:01 notifications, through other widgets.
+39:03 Having a widget and taking up this much
+39:06 real estate on a user's device is
+39:08 literally a cheat code because now
+39:10 anytime someone opens their app, I mean
+39:13 just I I it's overpowering the other
+39:15 apps. Like I don't even look at the
+39:16 watch app or the fitness app. Like I'm
+39:17 very drawn to this. So if you are able
+39:19 to pull it off and get a widget on
+39:21 someone's home screen, the chances of
+39:23 them opening your app increase
+39:24 substantially, which increases your
+39:26 retention, which increases the chance of
+39:27 them building a habit. And then even
+39:29 further, if you can do a lock screen
+39:31 widget, this is the ultimate cheat code
+39:33 because only four apps max are allowed
+39:38 to be on a user's lock screen. And if
+39:40 you can get one of those positions,
+39:43 you're basically going to they're going
+39:44 to see your widget like at least 150
+39:46 times a day. every time they look and
+39:48 they look at their lock screen, they're
+39:50 probably going to see your widget and
+39:53 then when they tap it, it'll do a deep
+39:54 link and open. It's just such a
+39:56 retention cheat code. So, it's a it's a
+39:57 win-win. Basically, it makes your app
+39:59 feel more premium when you have it, but
+40:01 also it just increases retention
+40:04 dramatically. I I've applied it to all
+40:06 my other apps. So, my daily planning
+40:07 app, we have this widget that shows how
+40:09 many tasks you have left. Again, custom
+40:11 illustrations done for all the widgets.
+40:13 And then same thing for my budgeting
+40:14 app, Luna, to see how much you're
+40:16 spending. There's a lock screen widget.
+40:18 When I implemented these things,
+40:20 retention, I think it more than doubled,
+40:22 I'm pretty sure, because of this, which
+40:24 which makes sense in hindsight. It makes
+40:26 total sense. Like people are just
+40:27 reminded of your of your app's
+40:29 existence. But huge huge one that I
+40:32 would do. And then the reason you can do
+40:33 it now is it took me probably four to
+40:36 five hours to make this these two
+40:39 widgets for this app because of cloud
+40:41 code. Um, it used to take me, I think
+40:44 this one is the only one I did without
+40:46 any AI assistance because I did it so
+40:48 long ago. I think it took me like maybe
+40:51 a whole week, maybe two weeks to do the
+40:54 widget. It was kind of painful to be
+40:55 honest. With AI, it just the AI is so
+40:58 well trained on Apple's documentation.
+41:00 Like people have been doing widgets
+41:01 forever. So, it can actually do these in
+41:03 less than a day. So, there is no reason
+41:05 not to do it. Take the extra time to do
+41:07 it. It's just a win-win all around.
+41:08 Yeah. I don't know if you have any
+41:09 questions on on this one or any
+41:10 thoughts. I mean, I'm a huge fan of
+41:12 this. I think a lot of people
+41:15 build apps, mobile apps, and they're
+41:18 like, "Yeah, I got to 50K M uh MR, 70K
+41:22 MR, but like the retention is so bad."
+41:26 And so, you know, you said it best,
+41:28 like, you know, these are this is a
+41:31 retention hack in so many ways. It puts
+41:34 it puts your app as a part of someone's
+41:37 daily workflow, daily use case.
+41:40 >> And I just think that for me, the first
+41:42 widget that really got my attention was
+41:44 the Locket app.
+41:46 >> Yeah. Yeah.
+41:48 >> I don't know. It's just super
+41:49 welldesigned.
+41:51 Um, producer Raph, I can put it up on
+41:54 screen so people can see it. Um, and
+41:57 then also like Jack Frics's new app.
+42:01 >> Yeah.
+42:01 >> What's it called? Love V.
+42:02 >> Lovely. Yeah, lovely. Yeah, that's a
+42:04 really good one.
+42:05 >> That's a really good one. Um, and so
+42:08 you're starting to see this resurgence
+42:10 of of the widget
+42:12 ecosystem and and I think people are are
+42:15 more and more open to downloading
+42:17 widgets now, which I think is also a big
+42:19 a big deal.
+42:20 >> Um, I actually while you were talking, I
+42:23 took a note of a startup idea that I
+42:25 want to create for that that one of
+42:28 those force slots. Yeah,
+42:32 >> like there's
+42:34 there's like there there's probably so
+42:36 few widgets that are that are accessible
+42:39 to that, you know, I just think there's
+42:41 a lot of opportunity in a lot of
+42:42 different verticals there.
+42:43 >> Yeah, 100%. Yeah. And again, it's so
+42:46 much easier to build a widget. Like it
+42:49 sucked building a widget before. It
+42:51 actually sucked. So this was such a if
+42:54 any reason to use AI, it's just to speed
+42:57 stuff up like this. like this is the
+42:58 difference between shipping something
+42:59 like this and not. So if you're on the
+43:01 fence about using AI to do this stuff,
+43:02 please do it just so you can ship stuff
+43:04 like this.
+43:04 >> Sounds good. Did you have one more
+43:06 category?
+43:06 >> I did. So the last thing is just um the
+43:08 most important thing I think if you want
+43:10 to level up your design and level up
+43:12 just the your ability to polish your
+43:14 apps is to be constantly exposed to good
+43:16 apps. So I just wanted to share some of
+43:18 the resources that I'm using when I'm
+43:20 just to get more design inspiration,
+43:22 understand it. Um so Mobin is a big one
+43:24 that I use. So basically it's this
+43:27 massive design library where oh here um
+43:30 they just have so many screenshots of
+43:33 different apps and I'm constantly just
+43:37 looking at this and I'm just trying to
+43:39 get inspiration because there's just
+43:40 such so many cool interactions and
+43:42 animations and little things. You can
+43:44 also get a good sense of like if you're
+43:45 on the fence of what icon should I use?
+43:47 Should I use thick or should I use the
+43:49 filled or should I use the lined or the
+43:51 filled icons? You can just go here and
+43:53 just see what are other apps doing. Does
+43:55 it look good? Does it resonate? Does it
+43:56 have the vibe you want? So, this is
+43:58 probably my number one design resource.
+44:00 Um, it is paid. Uh, I have a code. I
+44:03 don't know if I'm allowed to share it,
+44:04 but I have a code if you want to use it
+44:06 um for like I think 20% off the free
+44:07 plan of the year plan. But, um, 100%
+44:10 just browsing this you it's inevitable
+44:12 that you'll level up your design sense
+44:14 because these are just such good apps.
+44:16 Another one is called 60 fps. This has
+44:18 really good interactions. So, if you're
+44:20 trying to figure out interactions,
+44:22 animations, different things, like I
+44:23 mean, I just like love how just looking
+44:26 at this, like you can tell that when you
+44:28 tap things, the gradient changes. I've
+44:29 never seen an app do that. So, now I'm
+44:31 like, okay, maybe I'll go experiment
+44:33 with that in my app. And then the last
+44:34 one is called Spotted and Prod. It's the
+44:36 same kind of concept as 60 FTS. It just
+44:38 has a lot of really good animations from
+44:40 the top apps. And this is where I'm
+44:43 looking to get inspiration. And that's
+44:45 probably the number one question I'm
+44:46 getting is just what am I consuming? How
+44:48 am I leveling up my design? it's just
+44:50 the these three websites. Like that's
+44:51 the only thing you need. And then the
+44:53 last thing um the last resource that I
+44:55 have which um it's actually for
+44:56 screenshots. Um and that's kind of my
+44:58 last uh piece of advice. So there's a
+45:01 there's a Twitter account called
+45:02 Screenshot First Company. They basically
+45:04 just curate and show really good app
+45:05 store screenshots and they kind of show
+45:07 like like here's a nice before and
+45:09 after. Like this is what most app store
+45:11 screenshots look like for actually this
+45:13 is actually not that bad but this is how
+45:15 most app store screenshots look like for
+45:17 vibe coded apps typically for vibecoded
+45:20 apps the app store screenshot is it's
+45:23 like the last thing anyone wants to do
+45:25 um you're like I just spent you know a
+45:27 month or two months coding this app I
+45:28 don't want to do these screenshots but
+45:31 people don't understand how big of a
+45:34 deal the app store screenshot is because
+45:36 it is the first impression that a user
+45:37 has with your app when they go to the
+45:39 app store. And if you don't have a good
+45:41 first impression, that's the difference.
+45:43 Like there's no point in increasing
+45:44 retention if they're not going to
+45:45 download it. Um, for anyone who's doing
+45:47 YouTube, um, I equate this to the title
+45:49 thumbnail. It's literally the equivalent
+45:52 of if you have a bad title thumbnail, no
+45:54 one is going to watch your video. So any
+45:56 YouTubers or anyone doing content will
+45:57 understand this analogy, but um, level
+46:00 up your app store screenshots. So this
+46:02 is a great Twitter account. I don't know
+46:03 of any websites that showcase app store
+46:04 screenshots like this, but this is a
+46:06 really good one to follow. So th those
+46:08 are the four resources. Like this is the
+46:09 main stuff that I'm looking at.
+46:11 >> Also, startup idea, someone go build
+46:12 that
+46:13 >> honestly. Yeah. Yeah, that would be that
+46:15 would be I would I would pay for that. I
+46:17 I like genuinely I think I pay for all
+46:19 of these services. Like even Mobin like
+46:22 I have a discount with them, but I I
+46:24 literally still pay for them out of
+46:25 pocket because it's such a good such a
+46:27 good resource.
+46:29 >> I love it.
+46:30 >> Cool. Um so that concludes this
+46:32 concludes the you know how I make apps
+46:33 that stand out. It's really just a
+46:35 culmination of all these things. Chris,
+46:37 thanks so much for coming on. I need a I
+46:40 feel like I need a I need more of you.
+46:42 So, maybe we'll record another episode.
+46:44 Um I want to know about your AI
+46:46 workflow. I want to know more about it.
+46:48 >> I'll include links to where you can
+46:50 follow Chris uh on social um in the show
+46:55 notes. And uh Chris, thanks again for
+46:58 spilling the sauce on on the show.
+47:00 >> Yeah, absolutely. Thanks so much for
+47:01 having me, Greg. Appreciate it.

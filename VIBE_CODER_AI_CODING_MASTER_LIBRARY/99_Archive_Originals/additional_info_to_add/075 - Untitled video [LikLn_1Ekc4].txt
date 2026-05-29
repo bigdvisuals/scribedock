@@ -1,0 +1,1257 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=LikLn_1Ekc4
+Channel: Riley Brown
+Video ID: LikLn_1Ekc4
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 As we all know about a month ago, Google
+0:02 VO mic drop. It generates videos not
+0:05 only with sound effects but with perfect
+0:08 audio. It's insane. In this episode, I
+0:10 sat down with two of the biggest experts
+0:12 in AI video, Belvel Sadu and Matt Wolf.
+0:15 I got an early preview of VO before I
+0:17 was even allowed to talk about it and it
+0:20 absolutely blew my mind. I think we're
+0:21 going to get cinematic movies by the end
+0:23 of maybe like next year. We talked about
+0:26 Google's new VO model that is taking the
+0:28 world by storm. how creators are using
+0:30 flow and luma to generate cinematic
+0:32 scenes and why editing with AI might be
+0:35 the most underrated superpower right
+0:37 now. A lot of people think that this is
+0:39 a huge threat to video producers. I
+0:42 think it is going to be a golden era.
+0:43 You go back to being the creative
+0:45 director, the conductor of the
+0:46 orchestra. That's what I think is going
+0:47 to blow our minds. We also dug into vibe
+0:49 coding and 3D video and what it means to
+0:52 create in a world where real and
+0:54 synthetic are starting to blur. I still
+0:57 think that people are really, really
+0:58 going to value when humans do cool [ __ ]
+1:01 in a world where increasingly we can't
+1:03 tell the difference between real and
+1:04 fake anymore. I think there's going to
+1:06 be two things that are going to be very
+1:07 interesting.
+1:09 We're going to talk about the latest and
+1:11 greatest in the world of AI video
+1:13 because I'm not going to lie, 6 months
+1:15 ago I was a little bit bearish on AI
+1:18 generated video. I'm like, I don't know
+1:19 about the whole diffusion models thing.
+1:21 I was kind of bearish on the fact that
+1:23 you had to generate the videos and get
+1:25 the audio tracks separately and then
+1:27 stitch them together through some cheesy
+1:29 lip-s sync model. And then as we all
+1:32 know about a month ago, Google VO drops
+1:35 the most insane. It's it's insane. It's
+1:39 like it's a mic drop. It generates
+1:42 videos with not only with sound effects,
+1:45 but with perfect audio, not not maybe
+1:48 not perfect audio, but high quality
+1:50 audio. And it perfectly matches with the
+1:54 uh movement of the mouth, which is what
+1:56 I thought was the biggest barrier. I was
+1:58 like, you know what, I think we got a
+1:59 year and a half. I no longer think that
+2:01 I think we're going to get cinematic
+2:02 movies by the end of maybe like next
+2:05 year. People are going to be using 99%
+2:08 uh AI generated video. So, I guess I'll
+2:10 go to you first, Matt. What has
+2:13 surprised you the most about the new VO
+2:17 model? Yeah, it's it's interesting
+2:19 because I did the same thing where like
+2:21 I don't know maybe 18 months ago I put
+2:23 like a tweet up on well an exp post up
+2:26 where I said like I don't really think
+2:28 that AI video is going to get to the
+2:30 point where people are generating you
+2:32 know 30 minute videos that you can't
+2:34 even tell are AI and then like I don't
+2:37 know how much longer after that but call
+2:39 like 3 months later I got an early
+2:41 preview of like VO before I was even
+2:44 allowed to talk about it and I had to go
+2:45 to to X and went Yeah, I was wrong. Like
+2:48 we're we're gonna get there. It's going
+2:50 to happen. I just saw something that
+2:52 blew my mind and I wasn't allowed to
+2:53 talk about it yet. So, it was like a
+2:55 total tease to everybody, but like I saw
+2:57 behind the scenes. It was like holy. And
+2:59 this was V2 at the time. It wasn't even
+3:01 VO3. And yeah, it just it absolutely
+3:04 blew my mind. Especially, you know, I
+3:06 was making videos 2 and 1/2 years ago
+3:08 about things like model scope and zero
+3:11 scope. But I don't know if you remember
+3:12 those AI video models, but like you
+3:16 could barely even tell what was going on
+3:17 in the video, right? Like I would
+3:19 generate a monkey on roller skates and
+3:21 you'd get like a sort of blurry mess of
+3:24 pixels where if you like squinted real
+3:26 hard, you're like, man, maybe I could
+3:27 see a monkey in that video. Now it's
+3:30 like they're actually generating like
+3:32 anatomically correct monkeys that I had
+3:34 to like censor in my videos. Monkeys are
+3:37 going Monkeys are going viral on
+3:39 Instagram as we speak. I'm going to show
+3:41 a video on the Oh, the Yeti stuff is
+3:44 awesome, too. Yeah, there's literally
+3:46 apes like in the middle of the jungle
+3:49 like cooking stuff, doing uh cooking
+3:52 influencer content, speaking to the
+3:54 camera. So, as we speak, you know, a
+3:56 year ago, you couldn't really make a
+3:58 coherent monkey. Definitely no sound
+4:00 effects. Now, you can do create a monkey
+4:03 influencer in front of a fire. you can
+4:05 get it to say whatever you want it to
+4:06 say and do whatever you want it to do.
+4:09 Just reacting to the video stuff. I
+4:10 think similarly, man, it's like this
+4:12 collapsing of complexity that's
+4:13 happening. That's super nuts. Just like,
+4:15 you know, with like GPT even 40, right?
+4:18 You had to like prompt this thing
+4:19 several times to get to a result and
+4:21 then models like 01 Pro and 03 drop that
+4:23 sort of like, oh, we're just going to
+4:25 have that internal conversation amongst
+4:26 ourselves and give you the answer that
+4:28 you wanted. Like an expert prompter. I
+4:30 kind of think of reasoning models as
+4:32 like an expert back back and forth forth
+4:34 prompter kind of collapsing all that
+4:36 complexity down. Same thing happening
+4:38 with video. Kind of what you said
+4:39 earlier, Riley. Like you had to duct
+4:41 tape a bunch of these tools together in
+4:43 this cluji way. And so this is the
+4:45 perfect example to make something like
+4:46 this that's funny. It was next to
+4:49 impossible. Like yeah, you could use
+4:51 like whatever video model of choice.
+4:53 Then you'd maybe toss it into something
+4:55 like runway to kind of retarget and
+4:57 reanimate the lips. Maybe the voice is
+4:59 coming from 11 Labs and sort of kind of
+5:01 monotone and you can't really like you
+5:04 know make it sound genuine or like
+5:06 authentic. Now I just give a highle
+5:09 prompt to something like V3 especially
+5:11 inside of a tool like Flow and it does
+5:13 everything else for you and like you
+5:15 said gives you audio and video out. My
+5:17 takeaway is that like this stuff feels
+5:19 like a generative camera and you're like
+5:21 prompting people on a sound stage to do
+5:23 stuff versus, oh, I'm going to make my
+5:26 video, then I'm going to make my audio,
+5:28 then I'm going to combine those things
+5:29 together, then I'm going to do that any
+5:31 number of times. So, it's like just a
+5:33 drastic like speeding up of like making
+5:36 generative creation capabilities
+5:38 accessible to people without needing to
+5:41 know how to duct tape a bunch of crap
+5:42 together. 100%. And so, first of all,
+5:46 this first frame here, this part is AI
+5:48 generated. Like, this is V3 right here.
+5:51 All of it's V3. All of this is V3. Like,
+5:54 it's actually crazy. Like, look at the
+5:57 dirt. Like, the dirt is flying up. Like,
+5:59 the physics are solid. And then I love
+6:01 the cutaway. Just the cutaway to the sky
+6:04 talking about it. It's It's amazing.
+6:07 Okay, so this is on a new platform. It's
+6:09 called Flow by Google. And so this is a
+6:12 platform you go to and it just looks
+6:13 like any other um kind of video or image
+6:17 generation tool and you can just
+6:18 generate videos. My question for you
+6:21 guys like what do you think is next in
+6:23 this platform? Like in my opinion, it
+6:26 has high quality video generation
+6:28 already and you can what I think it
+6:32 needs is character consistency and then
+6:35 like being able to like add in the next
+6:37 scene. Like what do you think? What do
+6:40 you because it feels like Google's
+6:41 trying to make a play at create at
+6:44 making this tool that kind of has
+6:46 everything you need built into it. I'm
+6:48 wondering, Matt, I I'll ask you like
+6:51 what do you think this will look like 6
+6:53 months from now? Like what features do
+6:55 you think Google wants to add to this
+6:56 platform? Yeah, it's almost like they
+6:58 want this like cap cut kind of thing,
+7:00 but also with like generative AI built
+7:03 right into it so you can generate all
+7:04 the scenes instead of having to pull
+7:05 them all in. Now, with with Flow, I
+7:08 really like where they're going with
+7:09 Flow, but if I'm being totally honest
+7:11 about it, it still needs a lot of work.
+7:13 So, if we're looking at like where I see
+7:15 it in the future, I mean, I I don't know
+7:17 if you guys run into these issues with
+7:18 playing with flow, but like I can get it
+7:21 to generate audio on like the first 8
+7:23 seconds, but then when I go to extend
+7:24 the video, it like kills the audio on
+7:27 the second generation. Um, you know, it
+7:29 it's still really really funky when you
+7:31 try to add like an image as like your
+7:34 starting frame. A lot of times it it
+7:36 won't even generate audio most of the
+7:37 time if you use an image as a starting
+7:39 frame. Like the the user interface is
+7:42 still kind of weird. you can hit the
+7:43 plus button on the very right and it'll
+7:44 like generate a frame in between two
+7:47 other frames instead of generating a
+7:48 frame all the way on the right or a new
+7:50 scene all the way on the right. Um, so I
+7:52 I still think Flow has like a lot to be
+7:54 desired. I think it's still kind of
+7:56 buggy, which is the reason why, you
+7:59 know, all of their plans are still
+8:00 discounted right now. I think they sort
+8:02 of know this is like very very beta
+8:05 still. Um, but yeah, I mean I I I think
+8:08 where they want to go with it is that
+8:10 sort of like cap cut style thing, except
+8:14 instead of having to go and record a
+8:15 bunch of videos with your iPhone, go and
+8:16 record a bunch of videos with your
+8:18 camera, import them in, chop them all
+8:19 up. Every single scene that you're
+8:21 making, you just generate with AI, you
+8:23 rearrange it. Maybe you have a scene
+8:25 where somebody's talking, you'll be able
+8:26 to go in and prompt it and say, you
+8:28 know, give them a more Texas accent or
+8:31 whatever, right? And it'll actually
+8:32 change the way they speak a little bit.
+8:34 Um, you know, I I think that's what they
+8:37 want to go for, but you know, I still
+8:40 struggle to get exactly what I'm looking
+8:42 for out of it. The one thing that I have
+8:43 actually been impressed with is that the
+8:46 character consistency is actually pretty
+8:48 good in my opinion where if you generate
+8:51 like one frame and it's got like two
+8:52 characters in it and then you have it
+8:53 generate another frame or another scene
+8:56 that second scene a lot of times the
+8:58 audio is no longer there for whatever
+9:00 reason it just stops creating the audio
+9:01 but the characters still look like the
+9:03 same people. So I feel like the
+9:05 character consistency is probably the
+9:07 best I've seen out of video generation.
+9:09 It's just there's you know still some
+9:11 issues. I don't know. Balabble, have you
+9:13 seen like a different experience or what
+9:15 what has your experience with flow been?
+9:17 No, I mean I would plus one what you
+9:19 said. The audio thing is like you can
+9:20 kind of fix it with prompting a little
+9:22 bit. Like you have to explicitly in your
+9:24 prompt say that you want this kind of
+9:26 audio cuz otherwise I agree even for the
+9:28 first generation. Sometimes I get it,
+9:30 sometimes I don't. I know there are like
+9:32 pesky things they're trying to fix. Like
+9:34 I'm sure you got the weird subtitles
+9:35 that keep freaking popping up. The
+9:37 letter boxing keeps popping up. So
+9:39 clearly they know these things. I mean,
+9:41 like my take on it is like the one place
+9:43 where I'd like slightly refine what you
+9:44 said is like the Cap Cut reference,
+9:46 right? Where it's like it feels to me
+9:48 more like they want you to go edit this
+9:50 in whatever nonlinear editor you use,
+9:52 but they want this to sort of be the
+9:54 conductor of the orchestra to get
+9:55 everything else. So, I almost think of
+9:57 it more like a camera replacement and a
+9:59 sound stage replacement. Like I'm
+10:01 thinking this is like the equivalent of
+10:03 somebody like I don't know going into
+10:05 like like you're James Cameron and
+10:06 Avatar instead of shooting on a super
+10:08 expensive capture volume you're pulling
+10:10 the [ __ ] out of latent space on your
+10:12 laptop right I think the next step from
+10:15 here is like hey if I'm doing multi-shot
+10:17 generation I just want to be able to say
+10:19 here these are the three characters I
+10:21 have this is what they look like this is
+10:23 what they sound like this is like the
+10:26 sets that I'm shooting in this is the
+10:27 time of day and whether that's it's like
+10:30 appending stuff to the prompt behind the
+10:32 background or doing some sort of
+10:34 multimodal prompting where it's the text
+10:36 and the images too. I think like that's
+10:38 the next step and the extend scene is I
+10:40 think going in this direction. But maybe
+10:43 the second and last thing I'll say is
+10:44 that I'm really excited about is man I
+10:46 want this to like I want them to do
+10:49 something like the videotovideo stuff
+10:51 that Luma just came out with and
+10:52 everyone's going wild over like flux
+10:55 concept as well. And same thing with
+10:57 four row image generation where it's
+10:58 like I have a shot. Here's a prompt or
+11:00 an image reference to change it. But
+11:02 don't take what I said literally. It's
+11:04 more like you're telling a creative
+11:05 director to make a change or make a
+11:07 shot. Yeah. Stuff like this I think
+11:10 would be the perfect addition to it
+11:12 because again I love text prompting when
+11:14 you're fleshing something out but it's
+11:16 so much easier. Maybe pull up some of
+11:18 John Finger stuff if you go to his
+11:20 profile. Can you quickly break down this
+11:22 for all the viewers right now? Like what
+11:24 is what is happening here? What is So,
+11:26 this is Luma. So, Lumalab's made an
+11:28 announcement. Um, and there's all these
+11:31 different examples here. And so,
+11:33 introducing modify video. I I'll let you
+11:35 explain it because you're the you're the
+11:37 VF uh VFX king. Sure. I mean, so think
+11:40 of it like what 40 image generation and
+11:44 flux concept lets you do where you have
+11:46 an image and then you use text or image
+11:48 references to define how you want to
+11:50 change it. Think of this exactly like
+11:52 that for video where we've had video to
+11:54 video in the past, right? Like those
+11:56 like anime reskinned videos were so
+11:58 popular, but it was kind of cluji. It
+12:00 like adhered to the structure of the
+12:02 scene too literally. Now it's kind of
+12:05 doing this like semantic interpretation.
+12:07 And what I mean by that is that you got
+12:09 control over the style, character, and
+12:10 setting separately. And you can define
+12:12 all these things. And that what lets you
+12:15 do is almost view it like wireframing
+12:18 with video. You're providing the
+12:19 coarsest grain reference of what you
+12:22 want like the final result to be like
+12:24 you in your backyard swinging stuff
+12:26 around or holy [ __ ] Go to John Finger's
+12:28 profile. I think you'll get a bunch of
+12:30 really funny uh examples there cuz I
+12:33 would say like he's kind of like a J
+12:35 just without the H. So John worked on a
+12:38 bunch of this promo video stuff and he's
+12:40 been doing these kind of workflows
+12:41 forever. But like the idea again being
+12:43 rather than you using text and image
+12:46 references to describe all you want,
+12:48 just use your iPhone and capture roughly
+12:51 like a breakdown of what you're looking
+12:52 for. This example is really crazy. It's
+12:56 actually the bottom that's the input
+12:58 into the model here. So he's
+12:59 puppeteering this thing and then he's
+13:01 provided an image reference of himself
+13:03 so that he's basically using the puppet
+13:05 to puppeteer himself. So that just gives
+13:08 you an idea of like video in, video out.
+13:10 Well, but this like smart model in the
+13:12 middle is gonna unlock so much. Oh,
+13:15 wait. The the puppeteer is the real
+13:17 video and then the top video is the
+13:20 interpretation of him. Oh, that's so
+13:24 weird that I thought the top video was
+13:26 the input.
+13:27 Exactly. You could see him puppeteering
+13:29 in the back on the bottom left if you
+13:30 see. It's kind of funny. And uh yeah,
+13:34 look at the one the one below that is a
+13:36 really cool example too just to to
+13:38 crystallize this point is like you could
+13:40 have something as simple as a video that
+13:42 you've recorded on the top and you go
+13:43 into Premiere or After Effects or Cap
+13:46 Cut and you're like I want like a little
+13:48 freaking like you know uh gnome walking
+13:50 around the street like this. That's like
+13:53 the coarsest grain wireframe or like
+13:55 gray boxed or whatever your term of
+13:57 choice is representation. Toss that into
+13:59 a model and boom, you've got your gnome
+14:01 walking around. Super photorealistic.
+14:03 The shadows are freaking perfect.
+14:05 Imagine like this is where I get blown
+14:07 away, dudes. Like doing this in 3D was
+14:10 like a [ __ ] like days job and now
+14:12 it's like, oh my god, this is what I
+14:15 want. I tell the model what I want and
+14:16 boom, there you go. It's kind of crazy.
+14:19 Okay, so going back to what you were
+14:21 just saying about um so Google VO or
+14:24 Yeah. Yeah.
+14:25 the Google Flow platform. You were you
+14:27 were suggesting that this would be a
+14:29 good addition to the platform because
+14:31 you can generate with Google VO and all
+14:34 of these videos or all what Luma Labs is
+14:37 Luma Labs has an input video and then
+14:40 like an input prompt or maybe an image
+14:42 prompt. Can you add an image prompt with
+14:44 it? Yeah, you can. Yeah. And so you
+14:46 basically have this base layer of
+14:49 whatever video you create and then you
+14:51 can just turn it into any style that you
+14:53 want. And or another way is you can
+14:56 actually just go out with any camera out
+14:58 into the real world, take footage of
+15:01 doing things and all you have to do is
+15:03 get the rough sketch. Um, and so yeah,
+15:06 this is starting to make sense to me
+15:07 because I haven't really wrapped my head
+15:09 around this. But now anyone can go
+15:12 create some cinematic film and all they
+15:15 don't even need a nice iPhone. They just
+15:16 need any iPhone and they just upload it
+15:18 and they can change it to anything. This
+15:19 is I have not Have you tried Luma yet? I
+15:23 have yet to try Luma. I've used it. U
+15:26 Yeah, it's cool. I I for whatever reason
+15:28 when when I use it I've struggled to get
+15:31 some of like the similar results.
+15:32 Obviously, when like companies like Luma
+15:34 post their stuff on social media, it's
+15:36 going to be a little cherry picked,
+15:37 right? Um, definitely cherrypicked. But,
+15:40 so when I've tried to use it, I've
+15:42 really really struggled to get like the
+15:44 character consistency. Like I would
+15:45 record videos of myself and then say
+15:48 like, you know, put me in a different
+15:49 shirt. Like they had examples where
+15:51 somebody would like jump and then every
+15:52 time they jump their outfit would
+15:53 change, but it still looked like the
+15:55 same person. I was doing tests like that
+15:57 and I could not get it to make it
+15:59 consistently look like me. every time I
+16:01 would like change the video or tell it
+16:03 to change the shirt, it would like look
+16:05 like somebody else. I'd be wearing a
+16:06 hat. It would make the hat be gone. It
+16:08 would get rid of the beard. It would
+16:09 just be a completely different person in
+16:11 the video whenever I tried to do that.
+16:13 To be fair, there's probably some like
+16:15 prompting best practices that I'm not
+16:16 aware of to get that kind of result. Um,
+16:19 but in my testing, I really really
+16:21 struggled to get that kind of thing.
+16:23 where I found it um useful and helpful
+16:26 was almost kind of doing the same thing
+16:27 that runway Gen One used to do where you
+16:30 make a video and then you'd say like
+16:32 turn me into a robot or something,
+16:33 right? And it was all the exact same
+16:35 motions, but now it was like a robot
+16:36 doing those motions. That kind of stuff
+16:38 was pretty easy to get those kinds of
+16:40 results out of, but to get the character
+16:42 to stay consistent, I really really
+16:44 struggled to make that work in my tests.
+16:47 I think this is also where V3 is better.
+16:49 Like Matt, like would you agree that
+16:50 like V3 has the best sort of hit rate of
+16:53 like you give a prompt, image, text,
+16:55 hybrid, and like the results you you
+16:58 require fewer rerolls to get to
+17:00 something that's usable. 100% 100%.
+17:03 Which is great because it is the most
+17:05 expensive AI model I've ever seen, I
+17:08 think. Yeah, it's you get 20,000 credits
+17:11 and each one is a hundred like each one
+17:13 is a 100 credits. So if you're
+17:15 generating four at a time, I mean, they
+17:17 go quick. It'll go in 10 minutes if
+17:19 you're not careful. And on their lower
+17:20 plan, their $20 a month plan, you get 10
+17:23 generations total. Like once you've used
+17:25 10, they're they're done. You're gone.
+17:26 Like they don't reup every month. You
+17:29 get 10 generations for joining that
+17:30 plan. That's funny. That's like so if if
+17:34 they do the stuff that Luma is doing, I
+17:35 think it's going to be so much like it's
+17:37 just like I don't know if it's the data
+17:40 mode or some algorithmic stuff, but
+17:42 yeah, even having myself seen the
+17:43 evolution from like they did a V1
+17:46 preview last IO and then they didn't
+17:48 really kind of roll or they kind of
+17:49 rolled it out for a little bit and then
+17:50 it was straight to V2. That was a holy
+17:53 [ __ ] leap and then V3 with the audio is
+17:56 like another like holy [ __ ] leap. And oh
+17:59 my god, man. like Flo is then again like
+18:01 trying to make it easier to prompt these
+18:03 things and make it more accessible. So
+18:05 like it's it's the the deacto. I think
+18:08 that that's the current king and like
+18:10 what's funny is like Sora kind of
+18:12 started all of this and what the hell
+18:14 happened to Sora? Like does anyone even
+18:16 go to sora.com? I'm not going to lie, I
+18:19 still think they're sitting on
+18:21 something. I feel like they they they
+18:23 feel like they've fallen behind. And so
+18:25 like they it doesn't strike me like Sam
+18:29 understands that if he releases a model
+18:31 that's like not as good as Google, it
+18:33 there's really no point. Like they have
+18:35 such a deep they they've just captured
+18:37 so much of the market on the tech side.
+18:39 I feel like the next time they release
+18:40 it, it's going to be 10 times as good.
+18:42 Um, just based on just how much talent
+18:45 they have at OpenAI, I I'm gonna make
+18:48 the prediction within three to six
+18:50 months they're going to announce
+18:51 something insane. Yeah, I I agree with
+18:54 that. I think I think they have been
+18:55 sitting on a much better version of
+18:57 Sora. I mean, I think the version that
+18:59 anybody has access to now is still not
+19:02 as good as the demos they showed when
+19:04 they sort of sneak peaked Sora like a
+19:06 year ago, right? Like that stuff was
+19:08 really really good. The the version we
+19:10 got access to was like what was it? Sora
+19:12 Turbo or something like that, which was
+19:14 like a faster sort of um I don't know
+19:17 quantitized model or something. I still
+19:20 don't think we've even seen the model
+19:21 that they were demoing early on cuz that
+19:23 early model was able to generate they
+19:25 said like up to one two-minute
+19:27 generations like we haven't gotten that
+19:28 out of any of the AI video models yet.
+19:31 Yeah, I think I think that might just be
+19:33 $200 uh for one generation. That's
+19:36 probably why they haven't got the cost
+19:38 down. So, okay. So, one thing I wanted
+19:41 to talk about, I tweeted about this
+19:42 today. I think the same thing that
+19:45 happened to developers, and it's it's
+19:48 blown my mind working with actual
+19:50 cracked developers who are really
+19:52 talented, use AI for nearly everything.
+19:54 The speed at which they move is insane
+19:56 to watch them navigate their computer
+19:59 and like there they have multiple AI
+20:00 chat windows. They're asking multiple
+20:02 models about how to solve a problem and
+20:04 then when they and it's it's kind of
+20:06 really fun to watch. I personally
+20:08 believe the same thing is about to
+20:10 happen with like very high quality video
+20:12 editors. You know a lot of people think
+20:14 that you know like this is a huge threat
+20:17 to you know video producers, video
+20:19 editors. I think it is going to be a
+20:21 golden era if you know how to storytell
+20:25 and use Premiere Pro or use any of the
+20:27 video editing tools. It doesn't matter.
+20:29 I think it is a golden era and I think
+20:33 it's something that I'm actively hiring
+20:35 at my company because it is so high
+20:38 leverage to just give a video editor
+20:40 access to the tools. They can go out.
+20:41 They don't need to rely on anyone to get
+20:44 the B-roll footage if they're good
+20:46 enough. Um, they can stitch things
+20:48 together in a way that's coherent. And I
+20:50 think all of the really viral videos
+20:52 we've seen across social media, there's
+20:53 a lot of manual work. maybe all of the
+20:56 frame like everything was generated by
+20:58 AI but the stitching them together
+21:00 requires so much more skill and so I
+21:02 think I think for the next 5 years even
+21:05 like the or I I don't want to make
+21:07 predictions that deep but for the next
+21:09 year the the the return on being able to
+21:12 elevate these outputs stitch them
+21:14 together and make them like into very
+21:16 high quality stories is going to be
+21:18 astronomical. I'm wondering what you
+21:19 guys think about this perspective. Yeah,
+21:22 I mean I totally agree. I that's sort of
+21:24 always been when it comes to AI, that's
+21:26 sort of been the headsp space I've been
+21:27 in for forever is like if you're good at
+21:29 something, AI turns you into like a
+21:32 superhuman at that thing. And that goes
+21:33 for coding, that goes for video
+21:35 generation, that goes for art. I just
+21:37 think uh you know, a lot of creators
+21:39 need to sort of get out of their own
+21:41 way. I think there's a lot of creators
+21:42 that are very, very, very resistant to
+21:44 using it, but usually once they start
+21:47 using it and realize like, oh, this
+21:48 isn't replacing me yet. It actually just
+21:51 makes what I do a lot easier. A lot of
+21:53 them start to adopt it. I think, you
+21:56 know, long term, the companies that are
+21:57 really in trouble with it aren't
+21:58 actually the people that are making the
+22:00 creations. You know, the editors and the
+22:02 video producers and stuff like that.
+22:03 It's the, you know, stock footage sites.
+22:05 I think, you know, the story blocks of
+22:07 the worlds, the motion arrays of the
+22:09 world's uh companies like that are going
+22:11 to be the real ones that are the ones
+22:13 that are like really hit by this in my
+22:15 opinion. My first question, I guess
+22:17 maybe more geared toward uh Bolavvel
+22:19 here. Um I'm curious what's going to
+22:22 surprise us because I've always had the
+22:25 suspicion that like tools like Unreal
+22:27 Engine are going to come into play and
+22:29 be a a real or um because what's the one
+22:32 tool that you sent me? It was like light
+22:35 glass or sky glass where you could like
+22:38 turn yourself in real time into these
+22:40 like 3D avatars. I'm I'm still really
+22:44 curious about that like in the more like
+22:46 almost like game engine space. What do
+22:48 you see coming like in that area or like
+22:52 in general like with the 3D space like
+22:54 what could surprise us over the next for
+22:56 the rest of the year I guess? Yeah. I
+22:58 think like the video to 3D leap and this
+23:00 is where I go back and forth where a
+23:02 part of me like I would say last year if
+23:03 we had talked I was like really bullish
+23:05 on 3D as like the intermediate state
+23:08 where you need like a 3D representation
+23:10 of everything so I can move the camera
+23:12 around, move entities around and you've
+23:14 got this scene graph you maybe toss into
+23:16 a model like the new runway model and
+23:18 have it kind of take it all the way
+23:20 handle different entities differently.
+23:22 Oh, the character is supposed to be
+23:23 this, the background's supposed to be
+23:24 this. I think there's going to be two
+23:26 things that are going to be very
+23:27 interesting and you know like one is
+23:29 like the stuff World Labs is doing. So
+23:32 this is like Fale Lee's company that's
+23:34 trying to do to start out like text and
+23:36 image to 3D worlds. I think that's going
+23:39 to reach a quality where we were with
+23:40 like midourney v4 like 2 years ago or
+23:43 something like that and we're all going
+23:44 to be like holy [ __ ] we can actually do
+23:46 this with large scale 3D scenes. I think
+23:48 that's going to be very exciting just
+23:49 for like I made my environment once and
+23:52 this is the environment I want to shoot
+23:54 everything in consistently. The other is
+23:57 there's this company there's this
+23:58 startup that's a like some exity and uh
+24:01 uh electronic arts folks called
+24:03 intangible AI
+24:05 they're going to be coming out and like
+24:07 decloaking in the next month or so. You
+24:09 can still look them up and stuff, but
+24:10 they're trying to solve this problem of
+24:12 like, how do I just say stuff to create
+24:14 a 3D scene that you can then have
+24:16 control over, but then you plug in all
+24:19 the video models and image models to
+24:21 kind of take it all the way. I used to
+24:23 play with this workflow a lot, but
+24:24 again, you have to open up like Blender,
+24:26 then you need to know how to use Blender
+24:27 or Maya or like do some other [ __ ] like
+24:30 this is going to just make it so so much
+24:33 faster. Yeah, exactly. This Yeah. So
+24:35 what you literally say stuff and you can
+24:37 create like 3D environments and
+24:40 everything just works. So like if you've
+24:42 got like a road that's going through a
+24:43 forest and I want to move the road over,
+24:45 you move the just drag the road over and
+24:48 the forest will kind of get out of the
+24:49 way. It's almost making like these
+24:52 really high-end tools like Houdini, etc.
+24:54 accessible. But then the really crazy
+24:56 part is since Flux and Luma and all
+24:59 these image and video models have gotten
+25:01 so good, like if you let's say you have
+25:03 a shot like of a freaking Jeep that's
+25:06 like going through a forest and you're
+25:08 like I want the exact reverse shot of
+25:10 that like this. You're like I want the
+25:12 exact reverse shot of that Jeep right
+25:14 now. It's like a lot of crazy prompting.
+25:16 Maybe your background will still kind of
+25:18 change even with things like flow. I
+25:21 think that hybrid approach is going to
+25:22 make us very very excited. Maybe the
+25:24 last prediction is I've got a feeling
+25:27 going back to our homie James Cameron,
+25:29 you know those moments of delight we had
+25:31 with like voice models where you're like
+25:34 getting a voice model to almost act out
+25:36 and play a role. Imagine a couple of
+25:38 those in a shot where like you're
+25:40 literally the director and you're sort
+25:42 of like conducting this performance
+25:44 between different entities in a scene.
+25:47 You're already kind of seeing that in a
+25:49 more asynchronous like offline process
+25:51 fashion with things like flow and v3
+25:54 where you're kind of giving it a highle
+25:55 prompt of like street interviews and
+25:58 it's coming up with the jokes. You're
+25:59 not necessarily prompting the jokes. I
+26:01 think the same thing's going to happen
+26:03 and to just go back to what Matt said. I
+26:05 think that's where the creatives are
+26:06 going to get empowered, man. Like rather
+26:08 than you worrying about this is exactly
+26:10 the dialogue you have to see, you go
+26:12 back to being the creative director, the
+26:14 conductor of the orchestra. And I think
+26:15 like that's what I think is going to
+26:17 blow our minds is like 3D is going to
+26:18 finally reach where images were a couple
+26:20 years ago and maybe this hybrid approach
+26:23 of like you know kind of real time and
+26:25 offline is going to kind of come
+26:26 together in a very interesting way. We I
+26:29 also want to just like add too I don't
+26:30 really think it you know there's the
+26:33 whole narrative too that it's like going
+26:35 to kill human creativity and you know so
+26:40 I still think that people are really
+26:41 really going to value when humans do
+26:43 cool [ __ ] right like like I don't know
+26:46 if you guys have seen the studio with
+26:47 Seth Rogan so it's this Apple TV show
+26:49 with Seth Rogan he's like he just
+26:51 becomes like the studio head of this
+26:52 like you know um fictional like
+26:54 Hollywood studio but the way it's shot I
+26:57 am watching that thing in awe of like
+27:00 how the cinematographers and the
+27:01 director of photography are like setting
+27:03 up these shots and they have an like
+27:05 episodes two called episode two is
+27:07 called the wer where the whole episode
+27:09 was done in a single take. It's like a
+27:11 30-minute episode where it was all just
+27:13 one take and you watch this thing and it
+27:15 still blows your mind that like humans
+27:18 built this and so like the whole
+27:20 narrative of like you know AI is going
+27:23 to kill that human creativity. I still
+27:25 think humans are going to like love the
+27:27 fact that other humans created this. I
+27:29 just think it's creating like a new
+27:31 genre, right? I think there's going to
+27:32 be the the the stuff that humans create
+27:34 that we're all super super impressed
+27:36 with that humans created. And then
+27:37 there's also going to be the stuff that,
+27:39 you know, we were able to, you know, get
+27:41 way more creative and use our
+27:43 imagination and do the stuff we never
+27:44 thought possible because AI now helps us
+27:47 do that thing. And they're just going to
+27:48 be two separate genres. They're not
+27:50 mutually exclusive. that we're still all
+27:52 going to appreciate both of them
+27:54 ideally. You know, that may almost makes
+27:55 me want to flip a question back to you,
+27:57 Riley. Like when you hear this
+27:58 conversation, especially like to Matt's
+28:00 point of like there's this like either
+28:02 creators super leaning into this stuff
+28:04 or people are like literally putting
+28:06 their heads in the sand saying this is
+28:07 like the like de devil incarnates. It's
+28:10 killing the craft. What do you see on
+28:12 the vibe coding side? Like is there like
+28:14 cuz I see occasionally some posts people
+28:16 are like super negative about like kind
+28:18 of the vibe coding approach to building
+28:20 stuff out. Obviously, it's a spectrum,
+28:22 right? Like the way like you and your
+28:24 co-founders are using stuff. Like
+28:25 obviously y'all are like cracked folks.
+28:27 So you're doing like maybe more advanced
+28:29 workflows, consensus polling, different
+28:31 models, and then there's like the newbie
+28:33 that comes around and tries to vibe code
+28:35 stuff. But in general, are you seeing
+28:37 like a positive or negative response to
+28:39 sort of the explosion of software that
+28:41 we're going to see too, right? Yeah.
+28:43 Yeah. Yeah. I I think are you are you
+28:45 saying the the reaction from pe people
+28:48 about other vibe coders or reaction from
+28:50 the Yeah. Like how how are like the
+28:52 programmers reacting to a lot more
+28:54 people becoming programmers now I guess
+28:56 like or vibe coders or whatever. I
+28:58 honestly think it's it's uh it's the
+29:01 midwit meme you know. I think the people
+29:03 in the middle are the most upset about
+29:05 it and I think genuinely believe that
+29:08 the most crapped pe I've never met like
+29:10 a really good developer who's like
+29:12 really good who doesn't just love it and
+29:14 they're just they're chilling you know
+29:15 and they and and the and they're loving
+29:19 using the tools and they're like
+29:20 admittedly lazy about certain things. I
+29:22 mean, Andre Carpathy, who's like a god
+29:24 at this, like he's the one who's just
+29:25 like just throw it together and and just
+29:27 just vibe code it. And I mean, he's not
+29:29 saying to do it for everything, but I
+29:31 think I think what vibe coding is doing
+29:34 for people is it's getting people to the
+29:36 aha moment. And if you want to go
+29:37 further and learn more, you can, but you
+29:39 can select which part you learn. I think
+29:43 because I do think there's a large crowd
+29:44 of saying everything is slop and the
+29:47 same way that uh people are saying about
+29:50 AI generated video right now and um I
+29:54 think as the tech gets better I
+29:56 personally am taking a big bet
+29:59 personally like that AI coding models
+30:02 are going to get so good that it's just
+30:03 going to do everything end to end. Um
+30:05 it'll debug your code after you it'll
+30:07 check for security issues. We're already
+30:09 working on that. It's so true. It
+30:11 applies exactly the same thing is
+30:12 playing out in media generation, right?
+30:14 Yeah. Yeah. And I mean I' I've seen the
+30:16 same thing, right? Like I I'll talk
+30:17 about, you know, Cursor and Windurf and
+30:19 Factory AI and all of these various like
+30:21 coding platforms on my YouTube channel
+30:24 and you know I I see kind of the same
+30:26 sentiment around it. Um I think more and
+30:29 more developers and coders are coming
+30:31 around to the fact that oh yeah, AI is
+30:33 getting better really really fast and
+30:36 yeah it is going to be able to do my
+30:37 coding for me in the future. That
+30:39 doesn't necessarily mean they're happy
+30:41 or excited about it. I think that sort
+30:43 of stresses a lot of developers out. It
+30:46 makes developers worried about what
+30:47 their future career path looks like. But
+30:49 I think most of them are coming around
+30:51 the idea that yeah, this is going to be
+30:53 able to do my job pretty soon. 100%. And
+30:56 I guess I guess a fun thing to do before
+30:58 we before we end here, a lot of people
+31:00 who watch this are going to be working
+31:03 in a business or business owners um or
+31:06 aspiring small business owners. And I'm
+31:08 curious with this new technology, VO
+31:11 with Luma, obviously we have Runway, CL,
+31:14 I'm sure Clling, I I know that these
+31:16 other models are going to be releasing
+31:17 soon. They're all going to compete with
+31:18 VO. Audio is going to be embedded in all
+31:20 of them. How what would your guys
+31:23 strategy be? I guess if you were me
+31:25 right now and you wanted to grow grow a
+31:26 product like like mine, like that is my
+31:29 job now, like we have to do that. like
+31:31 how would you guys use AI to um increase
+31:36 revenue?
+31:38 GPT 03
+31:43 asking what do you do with your life?
+31:48 No, no, I'm joking. I mean, honestly,
+31:51 it's just like you It depends. It's so
+31:53 contextual, right? Like I mean even
+31:55 simple things like oh gosh you're like a
+31:56 small restaurant and you want to update
+31:58 your photos on freaking like uh you know
+32:00 Uber Eats or whatever take camera photos
+32:03 and then use the new full row to swap
+32:05 out the background or use concept to
+32:07 swap out the background cockroaches from
+32:09 the restaurant. Yeah, exactly. I mean
+32:12 like there's so many like you know for
+32:14 product photography if you're selling
+32:15 stuff online. Oh in your bedroom you're
+32:17 like taking photos of sneakers now you
+32:19 can make it look like a professional
+32:21 like you know shoot. Same thing for like
+32:23 video stuff. It's funny. I think there's
+32:25 already so much like kind of faux UGC
+32:28 content that's flowing around. I don't
+32:29 know how I feel about like the ethics of
+32:31 faux UGC like masquerading as real UGC,
+32:35 but clearly people are doing it. And
+32:37 gosh, I mean, I don't know. It's like
+32:39 everything from like the descript style
+32:41 editing tools and then like all the
+32:43 video tools that are almost like a
+32:44 replacement for a camera that you might
+32:46 have to go and shoot in person. Like if
+32:48 you're making memes, you want to make
+32:49 memes around like the founders of your
+32:51 company, use that as like character
+32:52 references and make a bunch of funny
+32:54 videos with like VO3 and flow. I mean,
+32:56 this the world is your oyster truly
+32:59 packaging all of that content. I don't
+33:01 know, man. Like there's just so many
+33:03 things that you can do. It's like the
+33:05 main thing you can't do is like not try
+33:07 these things and then pick the ones that
+33:10 work and integrate them into your
+33:11 workflow. That's that's like the general
+33:13 piece of advice I've been giving to
+33:14 everyone like it's just like the one
+33:17 thing you can't do is ignore these
+33:19 tools. Yeah. Yeah. No, and I totally
+33:22 agree with that. you know, the the I I
+33:24 posted um something on on X a couple
+33:27 weeks ago and at first it it went well
+33:30 and then, you know, after it it started
+33:32 to go viral, it got all the hate, but it
+33:33 was like I posted a headline of
+33:35 something that was like the people who
+33:37 refuse to use AI and I posted like this
+33:39 is in a couple years this is going to
+33:41 look like the people who refuse to use
+33:42 the internet, right? Like why are you
+33:44 trying to avoid this stuff? like you're
+33:46 just going to close your eyes and
+33:47 pretend this doesn't exist and it's not
+33:49 going to just like disappear because you
+33:51 decide you don't like it and you're not
+33:52 going to use it. The companies aren't
+33:53 going to be like, "Oh, you know, Karen
+33:55 over there said she's not using this.
+33:56 Let's stop, right? It's it's not going
+33:59 to happen. It's going to only get
+34:00 better. It's only going to get more
+34:01 prolific. You like you got to go use
+34:03 it." So, definitely echoing Bill of all
+34:05 there. But I also think we are entering
+34:08 a world where when it comes to
+34:10 marketing, the marketers who lean into
+34:12 the human element the most are probably
+34:14 going to be the ones that win, right?
+34:16 The ones that actually put their real
+34:18 face on video, the ones that go on
+34:20 podcasts, the ones that are, you know,
+34:22 actually at events that you could go and
+34:24 like walk up to the booth and talk to
+34:26 the companies. I think the human element
+34:28 becomes more and more important, right?
+34:30 Like how often are we hearing about like
+34:32 the dead internet theory now, right?
+34:34 I never even
+34:38 like at least once a week because of all
+34:40 the AI and all the on reply to my
+34:44 comments. Like at this point I'm just
+34:46 assuming like 50% of them aren't even
+34:48 real people or same with the comments on
+34:50 YouTube, right? And so I think we're
+34:52 kind of coming into this world now where
+34:54 like if you sort of lean into the human
+34:56 element with your marketing and you
+34:57 become like the figure head for your
+34:59 product and you put out videos into the
+35:01 world and you're on social media showing
+35:03 that you're a real person, not being an
+35:04 anonymous, you know, avatar. Um, I think
+35:08 that's only going to help with your
+35:09 marketing in a world where like
+35:11 increasingly we can't tell the
+35:13 difference between real and fake
+35:14 anymore. Yeah, I think I think you just
+35:17 don't want to be in between because
+35:18 while I do I'm I am fully investing like
+35:21 for the rest of my life I'm fully
+35:23 investing in in um I think um I I
+35:26 tweeted about it the other day. The idea
+35:27 of elite media or media where like you
+35:30 want to be out there, you want it to be
+35:31 highly opinionated. Uh you want it to be
+35:34 natural, free flowing human content. I
+35:36 think that's really important. I do
+35:37 think on the other side though, I think
+35:39 we are going to see some Vibe marketers,
+35:43 maybe that's not the right term, win
+35:45 where they're sitting in front of a
+35:46 computer, you know, maybe they have a
+35:48 $100,000 per month budget and they are
+35:51 just cranking away at VO and they're
+35:53 basically testing every hook and this is
+35:56 what will create the the dead internet
+35:59 theory where they're just throwing
+36:00 things up, seeing what's working. It's
+36:02 purely metric driven. It's just like the
+36:05 the algorithms on social media. You're
+36:07 just feeding what the algorithm wants. I
+36:09 think we're going to see a shortterm
+36:11 period where that strategy will win. I
+36:13 just don't think it's a good long-term
+36:15 strategy. Yeah. Well, and just to just
+36:17 to sort of, you know, lean into that a
+36:19 little bit, I think that will be a
+36:20 strategy that will work for getting you
+36:22 views on content. Right. If your if your
+36:25 business, if your model is to get
+36:27 viewers to watch your content, I
+36:29 definitely think that you can fully use
+36:31 AI, not be on camera, not be a, you
+36:34 know, a real human behind it and deliver
+36:36 that dopamine drip that people want,
+36:38 right? Create that content that has the,
+36:41 you know, appealing visuals and it, you
+36:43 know, delivers the information or um,
+36:45 you know, delivers that sort of brain
+36:47 rot content, whatever you want to call
+36:49 it, that delivers the dopamine hit that
+36:50 people enjoy that content. If your goal
+36:53 is to get more views, I definitely think
+36:55 you can lean into AI to do that. I think
+36:58 if your goal is to sell more product um
+37:01 of something else, like use like like if
+37:04 you're trying to like market a business,
+37:07 I feel like that's going to be less
+37:09 effective in a world where people are,
+37:12 you know, increasingly wondering what's
+37:14 real or not. I think if you're trying to
+37:16 sell products, at least in the the
+37:17 current phase we're at now, this could
+37:19 be a different different thing a year
+37:21 from now where we can't even tell if the
+37:23 like spokesperson of a product is
+37:25 actually real or not, which we probably
+37:26 will get there, but right now where you
+37:28 can still kind of tell, I just think
+37:30 like being that real human is going to
+37:32 help you sell more products if we're
+37:34 talking about marketing from that
+37:35 perspective.
+37:37 I mean, the way the way I'd split the
+37:38 difference on what you guys are saying
+37:39 is like I I think it's going to be both,
+37:41 right? It always is. I mean, we have
+37:43 mascots of companies that are
+37:45 essentially like, you know, animated
+37:46 characters that are sort of the brand.
+37:48 We've had the VTuber thing. Japan still
+37:50 loves Vtubing. I think there's going to
+37:52 be certain people that are just going to
+37:55 be like, I don't know, we're going to
+37:56 basically have characters that stick
+37:57 around, you know, till kingdom come and
+38:00 we'll take advantage of these new
+38:01 technologies. And maybe as a company you
+38:03 kind of want that like sort of somebody
+38:05 who can always evolve with the times,
+38:07 isn't subject to aging and kind of like
+38:09 you know we're going to we're going to
+38:10 have what 20 30 40 more years of doing
+38:12 this type of stuff and like some of this
+38:14 stuff's going to stick around forever.
+38:15 And kind of one of a cringe example to
+38:17 look back at here is like did you all
+38:20 ever catch when KFC did a rebrand to
+38:22 make like a Gen Z friendly kernel? I
+38:25 don't know if you also they made this
+38:27 like salt and pepper like you know like
+38:29 uh like a kind of really slick back hair
+38:32 kind of kernel and I think you're going
+38:34 to see so much more of that where like
+38:37 brands are going to have their own like
+38:39 digital characters that are essentially
+38:41 like for theirs to puppeteer and
+38:43 control. I think that's going to be amaz
+38:45 and same thing with like longtail
+38:46 content. Like a lot of the stuff that is
+38:49 can and maybe should be automated is
+38:51 going to turn into being consumed maybe
+38:54 by these type of avatars. But on the
+38:55 other hand, man, you're right. Like
+38:57 Matt, you're dead on like there's so
+38:59 much push for like real world in-person
+39:02 authentic connection. There's so much of
+39:04 a push back against a retention editing
+39:07 on on YouTube as well. But it's just
+39:10 going to be both simultaneously. And I
+39:11 think I'd be remiss if we don't talk
+39:13 about this is like when a lot of people
+39:15 talk about both vibe coding and sort of
+39:17 the video stuff. I think the people who
+39:18 get [ __ ] the most like I think it's
+39:20 not cool to say that oh like everything
+39:23 is going to be like totally fine. I
+39:25 think entrylevel folks are going to kind
+39:27 of get screwed. Like whether it's entry-
+39:29 level creators, whether it's entry-
+39:31 level developers, like that's the stuff
+39:33 that's going to get automated first. And
+39:35 I don't know, maybe there's a massive
+39:36 value expansion in the demand for media
+39:39 and software, but I don't know, we still
+39:41 have 24 hours in a day. So with that in
+39:44 mind, I hope the algorithms for these
+39:45 platforms also think about if you're
+39:47 looking for more like authentic content,
+39:50 how do you get more of that and less of
+39:52 the sort of retention edited slop that's
+39:54 also going to indendate these platforms,
+39:56 right? Yeah. Yeah. I mean, you do have,
+39:58 you know, Tony the Tiger and Geico the
+40:00 Gecko Geico Gecko, you know, stuff like
+40:02 that. Yeah. All the serial serial
+40:04 mascots, if you will, too, right? Yeah.
+40:06 Yeah. Exactly. Where, you know, they've
+40:08 used those as the mascots. So, I do
+40:09 think there'll be an element of that. I
+40:11 think I don't know. I just have this
+40:12 theory that in an AI world where that
+40:14 becomes easier and easier to do, it also
+40:16 becomes harder and harder to use that as
+40:18 like your sort of marketing gimmick, but
+40:20 I don't know. I could be totally wrong
+40:21 there. No, no, I that is another thing
+40:23 is is like as as it becomes easier,
+40:28 if anyone can do it, then yeah, it loses
+40:30 its novelty. Um, yeah, it's going to be
+40:33 an very very interesting time. And so,
+40:36 yeah, I'm really excited. Um, I guess I
+40:38 guess we'll do a final final words. What
+40:40 is your I'll go each of you. What is
+40:43 your prediction by the end of the year?
+40:46 The biggest thing that you think will
+40:47 happen in the AI video space? I actually
+40:50 hate making predictions because I'm
+40:52 usually like way off on my timelines.
+40:56 Okay, fine. What do you hope happens?
+40:58 What What would you love to see in the
+40:59 AI video space? I would love to be able
+41:02 to make a 10-minute video with
+41:05 consistent characters and audio that's
+41:07 perfectly lip-s synced. And I think by
+41:09 the end of the year, I think maybe
+41:12 bleeding into next year, early next
+41:14 year, but I think by the end of the
+41:16 year, we should be able to be there.
+41:18 Yeah, I would totally plus one that. And
+41:20 I was going to say three to five minutes
+41:21 instead of 10. And but we're all just
+41:23 like, you know, kind of grasping at
+41:25 straws here anyway. I think maybe the
+41:27 other piece is I hope we see a little
+41:28 more progress on 3D. I think it's the
+41:31 multimodal stuff is really exciting. The
+41:33 fact that these models have such good
+41:35 multiv- view consistency that you can
+41:37 run it through like a Nerf or Gaussian
+41:39 splatting app to like turn it into a 3D
+41:41 model is super exciting. I'm hoping we
+41:44 start seeing really good quality like
+41:47 text and image to 3D environments and
+41:49 characters, not just objects and things
+41:50 like that. And hopefully we start seeing
+41:53 the earliest signs of sort of like 4D 3D
+41:56 as well where like animated you know
+41:58 spatial uh you know media starting to
+42:01 pop on the scene. I I hope we get like
+42:03 the earliest signs of that. Maybe that's
+42:04 more in a research capacity but already
+42:07 some of the results there. Taking
+42:09 advantage of the world knowledge of
+42:10 these diffusion models and being able to
+42:12 do some stuff is like kind of crazy. And
+42:15 so, um, yeah, short form videos with
+42:17 like consistent entities, and then maybe
+42:19 the earliest signs of 3D environments,
+42:22 characters, and maybe even some 4D.
+42:25 Yeah, I guess I guess I'll go. Um, my my
+42:28 prediction, my hope is I want this in
+42:31 real time. Like, um, what's the Unreal
+42:33 Engine extension? Or is it like called
+42:35 Cam Link or Oh, yeah, totally. Yeah,
+42:37 VLink [ __ ]
+42:40 really high quality 3D models. I want to
+42:42 make a high quality 3D model of my face
+42:44 and I want to be able to use it in real
+42:46 time. I don't know what computer I need
+42:48 to do that, but I just want that tech to
+42:50 be more accessible. I used that a few uh
+42:53 a few weeks ago. Someone who that's what
+42:56 they did for a living showed me it and I
+42:58 was like, why? What is the barrier
+43:00 that's causing people not to like have
+43:02 this? And it feels like it's just like
+43:03 compute at this point. And like I think
+43:06 that's going to be really fun. Um and so
+43:08 that's kind of my hope by the end of the
+43:09 day. Dude, if you haven't checked out
+43:10 the new Unreal 5 announcements, you have
+43:12 to cuz like the advancements they've
+43:14 made there to like puppeteer those
+43:16 characters is really cool. And there's a
+43:18 few apps out there that'll make that
+43:20 meta human character for you. You have
+43:22 to like move your head to the left and
+43:23 right up and down and kind of do the
+43:25 scan. But it'll do the manual like the
+43:27 [ __ ] that you had to do with a photo
+43:29 scan bringing it into like Unreal was
+43:32 like multiple steps. That's already
+43:33 collapsed to an app already, which is
+43:35 cool. And uh and yeah, some of the epic
+43:38 announcements are just, for the lack of
+43:40 better word, epic.
+43:44 Amazing. Well, thank you guys for uh
+43:46 coming on the pod. Uh this was a lot of
+43:48 fun. We covered a lot of stuff. Um and
+43:50 yeah, appreciate it. Keep vibing, Riley.
+43:55 Good to see you guys.

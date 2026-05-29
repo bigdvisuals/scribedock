@@ -1,0 +1,485 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=xPQhZWE20vI
+Channel: Riley Brown
+Video ID: xPQhZWE20vI
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 so I finally got access to Google Gemini
+0:03 1.5 Pro which has a context window of 1
+0:07 million tokens this model allows you to
+0:10 put in 1 hour of video 11 hours of audio
+0:14 30,000 lines of code and up to
+0:17 700,000 words this is a
+0:21 147 page PDF and so we just upload it to
+0:24 the new Google Gemini and this is
+0:28 basically 22,000 tokens which is like
+0:32 somewhere around 100,000 words thing is
+0:35 is I can upload almost 10 times more
+0:38 than this tell me about these papers
+0:43 list them all and tell me the main
+0:48 purpose and
+0:50 findings of each one in very simple
+0:57 language and look at that it gave us us
+1:00 a concise list of all of the papers and
+1:04 the purpose and the findings from each
+1:06 one and so what that research paper was
+1:09 was just context 16 months ago the
+1:13 context window for chat gbt originally
+1:16 started at around 4,000 tokens if you
+1:20 multiply that by 10 times you get 40,000
+1:24 tokens you would need to multiply this
+1:27 by like 25 to get to this 1 million
+1:31 context window and that's how much you
+1:33 can enter into the new Google Gemini 1.5
+1:38 so after testing Google Gemini I came up
+1:40 with this question that I think a lot of
+1:42 people are asking right now what if the
+1:44 context was just my life what if I could
+1:47 put my life in there it knew it would
+1:50 know everything that I've seen and
+1:52 anything that I've thought this is where
+1:55 the AI wearable space is going if you
+1:58 look at something like the Humane AI pin
+2:00 or the rewind pendant these things are
+2:03 basically going to gather information
+2:06 that you can use as context for AI
+2:09 models and I realize that I can actually
+2:11 kind of already create this for myself
+2:13 so I'm using this tool it's called
+2:15 readwise and what readwise allows you to
+2:17 do is when you're on any web page you
+2:19 can save the web page to readwise and
+2:24 you can highlight things and add
+2:26 comments including videos so while
+2:28 you're watching YouTube videos
+2:30 as it goes through the video it's
+2:31 actually going to be following along
+2:34 right here and when you find something
+2:36 that is interesting you can select that
+2:39 part I can select this part and then
+2:41 just hit add note now I can add my own
+2:44 thoughts to this and so what I'm going
+2:47 to do is say um this is interesting and
+2:51 I agree and what this automatically does
+2:55 is through readwise you can set up
+2:58 automations so that it automatically get
+3:00 saved to Google Docs and so every single
+3:03 thing that I save gets automatically
+3:06 uploaded as a Google Document and so
+3:09 this is what immediately just got
+3:11 uploaded right this is basically my two
+3:15 highlights and then my note on this one
+3:18 right here so this is interesting and I
+3:20 agree and right here we can see the
+3:22 quote that he put in well I actually
+3:25 wanted to store this in a central
+3:28 database using a tool called zapier I'm
+3:32 sending these to a central database that
+3:34 I'm calling my AI powered second brain
+3:38 and here we can see 100 of the things
+3:41 that I've last saved because I just
+3:43 started doing this in the in the past
+3:46 few days and now I'm going to be able to
+3:48 use Google Gemini to ask questions about
+3:51 all the things that I've saved this is
+3:53 something that I saved uh earlier today
+3:57 I believe because each one has a link
+3:59 and a date and it automatic I don't have
+4:02 to add anything to this this all happens
+4:04 in the background theoretically I don't
+4:06 ever even have to come to this site
+4:08 because I'm only going to use Google
+4:10 Gemini to access information and so this
+4:12 is something that Patrick Butler posted
+4:14 recently said if you can write at the
+4:16 11th grade level use zapier keep an
+4:18 organized calendar and learn a few
+4:20 keyboard shortcuts you'll be more
+4:22 valuable than 95% of the people and so I
+4:24 commented on it and it automatically
+4:26 saves what he wrote and what I wrote
+4:28 immediately all I have to do is annotate
+4:30 it on readwise Boom it gets sent here
+4:33 and I'll show you exactly how I did that
+4:35 in one second but the important part
+4:37 that I want you to understand is once we
+4:39 save that information which happens
+4:41 automatically to this AI powered second
+4:43 brain I can upload it to something that
+4:46 has a super large context window in this
+4:49 case we're talking about Google Gemini
+4:52 and I can begin to ask it questions and
+4:55 so if we so we are going to create a new
+4:57 prompt here and I'm going to go up to
+4:59 file drive and I'm going to hit recent
+5:03 AI powered second brain and we're going
+5:06 to upload this and we're going to make
+5:08 sure that we're on Google Gemini 1.5 Pro
+5:11 now we're talking to them to my AI
+5:13 powered second brain what have I saved
+5:16 about AI video show me all the
+5:21 interesting things I've saved separate
+5:26 them into categories tell me the pattern
+5:29 PS that you see and so it's going to go
+5:33 through that entire document and tell me
+5:35 basically the patterns of different
+5:37 things that I've seen my own thoughts on
+5:40 those things whether I'm positive or
+5:42 negative about those things and it's
+5:44 going to actually just give me kind of a
+5:45 sentiment analysis and a summary of the
+5:48 things that I've uh saved and so it is
+5:51 done let's take a look at this
+5:53 information here so interesting things
+5:56 that I've saved about AI video it's
+5:58 separated into four categories
+6:00 advancements in AI video technology
+6:03 applications of AI video impact of AI
+6:07 video on Hollywood and general
+6:10 observations and predictions and I
+6:13 forgot to ask for links so we can see
+6:16 that the recent advancements are open AI
+6:18 Sora uh Luma AI generative AI research
+6:22 11 Labs AI sound effects we see
+6:24 applications revolutionizing gaming
+6:27 interaction transforming video videos
+6:29 into various Styles generating real
+6:32 realistic F1 racing videos this was one
+6:35 of them by Sora which was one of the
+6:38 Rowan Chung tweets that I saved and so
+6:40 here is the impact of AI on Hollywood
+6:43 I've saved multiple things about that
+6:45 this is where it gets really interesting
+6:47 watch this I want you to find an
+6:52 interesting Trend in my AI powered
+6:57 second brain create a narrative video
+6:59 video script outline where you're coming
+7:01 up with a global narrative for a video
+7:03 and using quotes from each source to
+7:06 back it up so it's going to look through
+7:07 my second brain which is there
+7:09 automatically right it's from things me
+7:11 just consuming and writing my thoughts
+7:13 and it is going to pull information from
+7:17 my second brain look for patterns and
+7:19 it's going to write a video script I can
+7:21 tell it what overall topic I want it to
+7:23 be I want this to be about and I'm going
+7:27 to add one more thing for all sources
+7:31 you bring up provide a link to the
+7:38 source as found in the sheet let's see
+7:42 how it does and so after about 55
+7:44 seconds it is done check this out AI
+7:48 video a new era of Storytelling AI video
+7:51 technology is poised to transform the
+7:54 way stories are told and experienced
+7:56 recent advancement of AI video
+7:58 technology have been nothing short sort
+7:59 of breathtaking open AI Sora for example
+8:01 can create stunningly realistic videos
+8:03 from simple text ponts and images as
+8:06 Rowan Chong notes open AI just took a
+8:09 massive video leap out of nowhere
+8:11 bringing us closer to outputs nearly
+8:13 indistinguishable from reality I can
+8:16 open this in a new tab and be taken
+8:19 directly to Rowan Chong's original tweet
+8:24 right here this is the original thread
+8:25 that it came from if you've used chat
+8:27 GPT before and just kind of asked it to
+8:30 write an essay on a given topic it
+8:33 doesn't really do that well because
+8:35 again it
+8:37 lacks context however if you have a
+8:41 system where all of the things that you
+8:42 think and all the things that you
+8:43 consume are uploaded to one central
+8:46 location in this case which is the AI
+8:48 second brain which is done automatically
+8:50 without any extra work for me it does
+8:52 cost a little money to set up the
+8:53 automations for this automation it is
+8:57 very very simple I'm using zapier so
+9:00 zapier is one of the workflow automation
+9:04 tools when something happens in one
+9:07 application it can create actions to
+9:11 communicate with other applications and
+9:13 so in this case the trigger is the first
+9:17 thing that happens in the chain when a
+9:20 new Google doc is created in a specific
+9:22 folder the readwise folder it then takes
+9:27 that raw information and it's going to
+9:29 extract their words I'm having it
+9:33 separate that into two different
+9:34 sections it's basically saying that each
+9:37 one of these documents is divided into
+9:39 annotations and Riley's notes I'm
+9:41 basically telling it to write a a bunch
+9:45 of statements of beliefs so it's saying
+9:48 Riley agrees with blank that X Y or Z
+9:52 Riley believes blank and it's based on
+9:54 what I put in the notes creating context
+9:57 on my beliefs over time then it's coming
+9:59 up with an AI title and then for this
+10:02 last one and only responding with One
+10:04 Singular link is this the most efficient
+10:06 way to do this probably not for now I
+10:09 don't care I just wanted to get the Reps
+10:11 in and I can worry about efficiency
+10:13 later I'm sure I don't need to use chat
+10:15 gbt for this and I'm probably wasting a
+10:17 couple cents you know every 10 times
+10:19 that I use it I don't give a what I
+10:21 care about is that it automatically gets
+10:23 added into this this AI powered second
+10:25 brain has the title The annotation which
+10:28 is what they said right grock Inc said
+10:30 the following and then it said this part
+10:32 right here and then it says Riley
+10:34 believes grock is scaling up if I wanted
+10:37 to see where I got this original
+10:39 information for this one I can click on
+10:41 it right here and be taken directly to
+10:44 the original source and so this was just
+10:46 one little thing that I agreed with when
+10:48 you're using readwise you don't even
+10:50 have to go to the readwise app you can
+10:52 click this readwise button and then you
+10:54 can just select it and then you can add
+10:56 a note directly on the website which is
+10:59 insane this is a test ignore I'll
+11:03 probably check this once every few days
+11:05 to make sure that everything's working
+11:07 correctly but I don't have to do
+11:08 anything on this this is just a place
+11:10 for me to search on Gemini I want you to
+11:15 come up with the
+11:17 25 laws of the AI era similar to Robert
+11:27 Green 48 Laws of Power but now I want
+11:33 you to write it from the
+11:37 perspective of Riley and create
+11:41 definitive laws for surviving the AI era
+11:48 provide
+11:49 links for each of the laws that you
+11:55 create let's try this okay here we go
+11:58 Riley's 25 laws for surviving the AI
+12:02 era the law of openness Embrace a
+12:06 beginner's mind and continuously update
+12:08 your knowledge the half-life of
+12:10 information is shrinking and clinging to
+12:12 outdated knowledge will leave you behind
+12:15 the law of agency recognize your power
+12:17 to shape the future of AI don't succumb
+12:20 to fear or apathy actively participate
+12:22 in shaping its development the law of
+12:24 synergy combine a diverse AI tools to
+12:26 unlock their full potential these are
+12:28 all themes and things that I've been
+12:30 talking about the law of clarity ask
+12:32 powerful questions to direct your focus
+12:34 and awareness Clarity is power these are
+12:37 all things that I've talked about now
+12:39 from the
+12:41 perspective of
+12:43 Riley I want you to site sources from
+12:49 the AI powered second brain with links
+12:54 write a chapter of the book 25 laws of
+13:00 the AI era you are
+13:03 writing chapter one hook comma thesis
+13:08 comma 1 through 3 comma conclusion so
+13:13 we're giving it a specific structure for
+13:15 this little book that it's writing and
+13:17 we're going to do it on chapter one The
+13:19 Law of openness and so we're want it to
+13:21 site sources from my brain let's see and
+13:25 so there we go we have chapter one The
+13:28 Law of openness embracing The Beginner's
+13:30 mind so it gave us an
+13:32 intro and here we go this severely
+13:35 hampered the ability of AI models to
+13:37 hand uh handle complex tasks that
+13:39 required large amounts of information
+13:41 but now with models like Gemini 1.5 Pro
+13:44 boasting a context window of only one of
+13:47 over 1 million tokens the game has
+13:49 changed completely as Ethan mollik
+13:52 experienced I fed it all of my published
+13:55 academic work prior to 2022 over 1,000 p
+13:58 pages of PDFs spread across 20 papers
+14:01 and books and Gemini was able to
+14:03 summarize the themes in my work and
+14:06 quote accurately among the papers this
+14:09 is a staggering Leap Forward and just
+14:12 the beginning Google has already
+14:13 announced plans to increase the context
+14:15 window to 10 million so it gave us an
+14:18 example and then gave us something about
+14:19 the future here so if we open this in a
+14:21 new tab this came from me reading Ethan
+14:25 mik's newsletter and if you just press
+14:28 the read one button and select the parts
+14:30 that you find interesting and add your
+14:31 own thoughts it automatically gets saved
+14:33 to your second brain I keep saying that
+14:35 over and over again but it's so sick and
+14:38 now it can create an essay based on my
+14:40 thoughts based on the things that it
+14:41 found interesting and then it goes right
+14:43 on to the next paragraph This rapid
+14:45 evolution is not limited to context
+14:48 Windows just look at the emergence of AI
+14:50 video generation models like open AI
+14:52 Sora as Matt wolf explains Sora is the
+14:56 most insane AI text to video model any
+14:58 anyone has ever seen it can generate up
+15:00 to 60 Minutes of videos blah blah and uh
+15:04 it's just insanely realistic and this
+15:07 technology has the potential to
+15:08 revolutionize film making countless
+15:10 Industries I don't know why it's putting
+15:12 the run down here okay so I just found
+15:15 the Matt wolf quote I hadn't set up the
+15:19 automation that's actually why it got
+15:20 wrong so I need to make sure that it
+15:22 adds the link in the right place so that
+15:24 it can find it and provide to me the
+15:26 correct link but Matt wolf did indeed
+15:29 say this and this is something that I
+15:30 actually saved in one of his videos
+15:32 because again anything you save to
+15:33 readwise you can watch the video and as
+15:36 you're watching the video you can see
+15:37 the text and you can highlight text that
+15:39 you want it to save and then that can be
+15:41 referenced later when you're making
+15:43 videos like this now write chapter 2 we
+15:47 could write a whole book like this and
+15:49 obviously this is me just randomly
+15:51 coming up with it on the Fly I'm sure
+15:53 there's a way that you could do this
+15:55 here's chapter 2 the law of agency
+15:57 taking control of your destiny in the
+15:59 age of AI and the quote that it grabbed
+16:02 was as Iman moo said at the cogx
+16:04 festival in 2023 the technology is
+16:07 available for you all today to download
+16:09 on your laptop you don't need permission
+16:11 you can build and immediately have
+16:12 agency this is a powerful message we
+16:14 don't need to wait for the government or
+16:16 corporations to tell us how to use AI we
+16:19 can start experimenting and building
+16:20 with it today we can take control of our
+16:22 own Destinies and use AI to create a
+16:24 better future for ourselves here's the
+16:25 source we click on it right here it
+16:27 takes us to directly to the Iman mostak
+16:30 video that I watched and I added a
+16:33 highlight to it and it knew exactly what
+16:35 part of the video that I wanted to get
+16:38 which is Awesome chapter 3 and here is
+16:41 chapter 3 and finally it got something
+16:44 that I created and so Chapter 3 The Law
+16:47 of synergy combining AI tools for
+16:49 exponential results the power of AI lies
+16:51 not in its individual capabilities but
+16:55 also in its ability to synergize with
+16:58 other Technologies and tools by
+17:00 combining different AI tools and
+17:02 applications we can unlock their full
+17:03 potential blah blah blah blah blah an
+17:05 example of this uh Synergy is the use of
+17:07 AI for Content creation as I mentioned
+17:09 in a previous tweet and it even knew
+17:11 that I was am Riley as I mentioned in a
+17:14 previous tweet any character any song AI
+17:17 tools sunno AI for music face Fusion
+17:21 allows me to put any characters face on
+17:23 any face um and by combining these tools
+17:26 we can create engaging content so I
+17:28 basically useo AI to create you know a
+17:30 creative little video using music and
+17:34 that's what it was referencing and then
+17:35 here it's said another example of AI
+17:37 workflow automation by integrating AI
+17:39 models like Chad gbt with automation
+17:41 platforms like zapier we can create
+17:43 powerful agents that can automate
+17:45 complex tasks and we can see here that
+17:47 the rundown was the one that discussed
+17:50 this and so it's highlighted right here
+17:53 for me to see how to use chat gbt and
+17:56 zapier to prepare for meetings so I save
+17:58 saved this and it referenced it later
+18:01 this is wild I'm so excited to just keep
+18:04 building this AI powered second brain
+18:06 and maybe like once this becomes public
+18:09 if you can create custom Geminis or
+18:10 whatever I'll make it public for people
+18:13 to use but I think this could be
+18:15 valuable to some other people okay so
+18:16 let's quickly review everything that
+18:18 we've learned in this video every single
+18:21 day there's so much information coming
+18:23 into you whether it's through your
+18:25 computer or your phone I wanted to
+18:28 figure out a way that with as little
+18:31 friction as possible and with as much
+18:33 accuracy as possible captures the
+18:35 information and then the thoughts about
+18:38 that information which is why I'm
+18:40 choosing to use readwise all I need to
+18:43 do is save the things I find interesting
+18:46 add notes or comments to those things
+18:49 that shows my thoughts and it will
+18:51 automatically add to my database and
+18:55 using AI it'll give it an AI title or
+18:58 topic it will save the annotations and
+19:01 summarize their annotations it'll
+19:03 actually create a list of Riley's
+19:06 thoughts for each thing that gets
+19:09 entered in the database this all happens
+19:11 automatically for readwise it is a
+19:13 Chrome extension that you can save any
+19:16 article any video anything to
+19:18 immediately with just one click and so I
+19:21 just saved this video here and if we go
+19:24 to readwise we can see all the things
+19:27 that we've saved you can a short list
+19:29 and an archive I like to keep my main
+19:31 list as short as possible when I'm done
+19:33 using it I just press the S key to send
+19:35 it to my short list or the E key to send
+19:38 it to the archive so I just saved this
+19:40 one and what I do is I save the articles
+19:43 that I think I might find interesting
+19:45 and then every day I'll I'll basically
+19:47 prioritize them be like okay I'm going
+19:48 to watch videos or read articles for an
+19:50 hour today we had it create video
+19:53 outlines with sources book chapter
+19:57 outlines they weren't full but they were
+19:59 like little mini essays or blog posts
+20:01 you can create lists like I did with the
+20:03 laws of the AI powered era basically we
+20:07 just made the process of having a
+20:10 searchable and creative AI powered
+20:13 second brain immediately accessible and
+20:16 super easy to add information to it
+20:17 because all we do is highlight
+20:19 information you think is interesting and
+20:21 comment and in future videos we're
+20:23 actually going to talk about the intake
+20:26 right where do you find the information
+20:28 you're highlighting because that is
+20:30 almost as important right you need to
+20:32 have a good filter in the air AI era
+20:34 because there's so much information you
+20:36 want to only find the best information
+20:38 and the information that resonates with
+20:40 you the most and so we can actually use
+20:42 AI to do that but I'll talk about that
+20:43 in a future video and so if you like
+20:45 this type of stuff I'm going to be doing
+20:47 this a lot more so subscribe

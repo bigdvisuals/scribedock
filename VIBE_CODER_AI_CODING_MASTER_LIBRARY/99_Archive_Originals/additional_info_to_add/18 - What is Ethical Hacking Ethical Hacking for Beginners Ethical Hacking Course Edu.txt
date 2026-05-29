@@ -1,0 +1,454 @@
+Title: What is Ethical Hacking? | Ethical Hacking for Beginners | Ethical Hacking Course | Edureka
+URL: https://www.youtube.com/watch?v=2VSNn7UIXn8&list=PL9ooVrP1hQOGPQVeapGsJCktzIO4DtI4_&index=20&pp=iAQB
+Channel: YouTube playlist
+Video ID: 2VSNn7UIXn8
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:24:55.858Z
+
+0:00 [Music]
+0:10 the term hacking has been around for
+0:13 quite a long time now the first recorded
+0:15 instance of hacking dates back to the
+0:17 early 1960s in MIT where both the terms
+0:20 hacking and hackers coined since then
+0:23 hacking has evolved into a broadly
+0:24 followed discipline for the computing
+0:26 community hi guys my name is Aria and
+0:29 today we are going to go through the
+0:30 fundamentals of hacking and particularly
+0:32 ethical hacking this is the first video
+0:34 in a long list of videos and they're
+0:37 going to be the part of the ethical
+0:38 hacking playlist so hold on tight
+0:39 because this is going to be interesting
+0:41 right save least okay so let's begin
+0:44 with what exactly is hacking so hacking
+0:46 is the process of finding
+0:48 vulnerabilities in a system and using
+0:50 these found vulnerabilities to gain
+0:52 unauthorized access into the system to
+0:54 perform malicious activities ranging
+0:56 from deleting system files or stealing
+0:58 sensitive information hacking is illegal
+1:01 and can lead to extreme consequences if
+1:03 you're caught in the act
+1:04 people have been sentenced to years and
+1:07 years of imprisonment because of hacking
+1:09 nonetheless hacking can be legal if done
+1:11 with permission computer experts are
+1:13 often hired by companies to hack into
+1:15 their systems to find out
+1:16 vulnerabilities and weak endpoints so
+1:18 that they can be fixed this is done as a
+1:21 precautionary measure against legitimate
+1:23 hackers who have malicious intents such
+1:26 people who hack into a system with
+1:27 permission without any malicious intent
+1:29 are known as ethical hackers and the
+1:31 process is known as ethical hacking so
+1:34 now that we know exactly what ethical
+1:36 hacking is and who ethical hackers are
+1:38 let's go over the different types of
+1:40 hackers so firstly we have white hat
+1:43 hackers now white hat hackers is another
+1:46 name for an ethical hacker they hack
+1:48 into a system with prior permission to
+1:50 find out vulnerabilities so that they
+1:51 can be fixed before a person which
+1:53 malicious intents finds them and does
+1:56 his job with it after that we have black
+1:58 hat hackers now black hat hackers also
+2:00 known as crackers are those who hack in
+2:03 order to gain unauthorized access to a
+2:05 system and harm its operations or steal
+2:08 sensitive information
+2:09 black hat hacking is illegal and has
+2:11 always been illegal we
+2:13 it's malicious intent which includes
+2:15 stealing corporate data violating
+2:17 privacy damaging the system blocking
+2:20 metric communications and much more
+2:21 following which we have grey hat hackers
+2:23 now grey hat hackers are a blend of both
+2:26 black hat and white hat hackers they act
+2:28 without malicious intent but for their
+2:30 own fun they exploit security weakness
+2:32 in a computer system or network without
+2:34 the owner's permission or knowledge
+2:36 their intent is to bring the weakness
+2:38 the attention of the owners and getting
+2:40 appreciation in form of a little
+2:42 boundary from the owners last but not
+2:44 least there are suicide hackers last but
+2:46 not least we have suicide hackers now a
+2:49 suicide hacker is a person who works
+2:51 with the intent to bring down major
+2:52 corporations and infrastructure these
+2:54 kinds of hackers are not scared of the
+2:56 consequences of their actions as they
+2:58 mostly work with vengeance in their mind
+3:00 these people are also called hacktivists
+3:02 because they mostly utilize the
+3:04 technology to announce a social
+3:06 ideological reform awesome religious
+3:08 reform or a political message and
+3:10 general most hacktivism involves website
+3:13 deaf games or denial of service attacks
+3:15 ok so now that we've discussed the
+3:17 different kinds of hackers that are
+3:19 there let's go through the different
+3:21 guides of hacks that exists in the world
+3:23 now that we have discussed the various
+3:25 types of hackers let's go the different
+3:27 types of hacking now we can segregate
+3:28 hacking into different types depending
+3:30 on what the hacker is trying to achieve
+3:32 firstly we have computer hacking so this
+3:35 is the process of stealing the computer
+3:37 ID and password by applying hacking
+3:39 methods and getting unauthorized access
+3:41 to a computer system secondly we have
+3:44 password hacking now this is the process
+3:46 of recovering secret passwords from data
+3:48 that has been stored in or transmitted
+3:50 by a computer system thirdly we have
+3:52 email hacking now this includes gaining
+3:55 unauthorized access to an email account
+3:57 and using it without taking the concent
+3:59 of it´s owner for sending out spam links
+4:01 third-party threats and other such
+4:03 harmful activities fourthly we have
+4:05 Network hacking now hacking a network
+4:08 means gathering information about a
+4:09 network using a tool like telnet
+4:11 nslookup ping tracer or net start now
+4:14 these are done with the intent to harm
+4:16 the network system and/or hamper its
+4:19 operations last but not the least is the
+4:21 most common type of hacking which is
+4:23 website hacking now hacking a website
+4:25 means taking unauthorized control over
+4:27 servo and its associated software such
+4:29 as a database and other interfaces now
+4:31 hacking can also be segregated into many
+4:34 more classifications but these are the
+4:36 five major types of hacking that exist
+4:38 today okay now like every discipline out
+4:41 there in the world
+4:42 ethical hacking too is divided into
+4:44 distinct phases ethical hacking has six
+4:46 distinct phases now these phases are not
+4:48 strict rules but more like a guideline
+4:50 to be followed now the first step or
+4:52 phase of ethical hacking is called
+4:54 recognitions recognitions is the process
+4:56 of information gathering in this phase
+4:58 the hacker gathers relevant information
+5:00 regarding the target system
+5:02 these include detecting services
+5:04 operating system packet hops to reach
+5:06 the system IP configurations etc and for
+5:10 this purpose vary stools like nmap HP
+5:13 and Google Docs are used for recognition
+5:15 purposes secondly is scanning now in the
+5:18 scanning phase the hacker begins to
+5:20 actively probe the target machine or
+5:22 network for vulnerabilities that can be
+5:24 exploited tools like necess next pose
+5:27 and end map are widely used by hackers
+5:29 and ethical hackers alike in this
+5:31 process third part is one of the most
+5:33 important parts this is called gaining
+5:35 access now in this phase the
+5:37 vulnerability located during scanning is
+5:39 exploited using various methods and
+5:41 hackers try to enter the target system
+5:43 without raising any alarm the primary
+5:46 tool that is used in this process is
+5:48 called Metasploit now if you guys want
+5:50 to know more about Metasploit you can
+5:51 definitely check out my penetration
+5:53 testing tutorial that i have up on the
+5:56 cyber security playlist it's a pretty
+5:58 good Metasploit tutorial I'll be making
+6:00 more in the future so hold on to that
+6:02 now the fourth part is maintaining
+6:04 access now this is one of the most
+6:05 integral phases in this phase the hacker
+6:08 installed as various backdoors and
+6:09 payloads onto the target system just in
+6:12 case you don't know payload is a term
+6:14 used for activities performed on system
+6:16 after gaining unauthorized access to it
+6:18 secondly backdoors help the hackers gain
+6:21 quicker access onto the target system in
+6:23 the future whenever they want to do so
+6:25 now the first part is clearing tracks
+6:27 now this part is an unethical activity
+6:30 it has to do with the deletion of logs
+6:33 of all the activities that take place
+6:35 during the hacking session nonetheless
+6:36 ethical hackers still have to perform
+6:38 this fails to demonstrate how a black
+6:41 hacker would go about his activities on
+6:43 the system that is being taggers now
+6:45 last but not the least is reporting
+6:47 reporting is the last step of finishing
+6:50 the ethical hacking process here the
+6:51 ethical hacker compiles a report with
+6:54 his findings and the job that was done
+6:56 such as tools used the success rate
+6:58 vulnerabilities found and exploit
+7:01 processes okay so now let's discuss
+7:03 recognitions a bit more I've already
+7:06 mentioned that it is the process of
+7:08 gathering information about the target
+7:09 system where what kind of information
+7:11 are we trying to gather well the list
+7:13 amount would be a task but they can be
+7:15 boiled down to the following firstly we
+7:17 are trying to gather some initial
+7:18 information about network like the DNS
+7:21 as such then we try to determine the
+7:23 network range thirdly we try to identify
+7:25 active machines that are on the network
+7:28 fourth we try to discover open ports and
+7:30 more access points into the system fifth
+7:33 is fingerprinting that is trying to
+7:35 figure out what operating system is
+7:37 actually running on the network then we
+7:40 try to uncover the service ports that
+7:42 are that we are trying to target through
+7:44 ethical hacking and we also try to map
+7:47 the network and how it's actually
+7:48 working
+7:49 now these topics will be discussed in
+7:51 details in the upcoming videos but for
+7:53 now let's focus on active and passive
+7:55 recognitions now recognitions is of two
+7:58 types active and passive so active
+8:01 recognitions refers to the process when
+8:02 you the hacker directly interact with
+8:04 the computer system to gain information
+8:06 this information can be relevant and
+8:08 accurate but there is a risk of getting
+8:10 detected if you're planning active
+8:12 recognitions without permission if you
+8:14 are detected then system admins can take
+8:16 severe actions against you and trail
+8:18 your subsequent activities then we have
+8:20 passive recognitions passive
+8:22 recognitions is exactly the opposite of
+8:24 active recognitions that means you the
+8:26 hacker don't have any direct
+8:27 interactions with the computer this
+8:29 process is used to gather essential
+8:31 information without ever interacting
+8:33 with the target system okay
+8:35 now getting deeper into recognitions we
+8:37 can talk about two more thing that is
+8:39 foot printing now foot printing is
+8:41 basically the first step where a hacker
+8:44 gathers as much information as possible
+8:45 to find the ways to intrude it to a
+8:48 target system or at least decide what
+8:50 types of attacks will be more suitable
+8:51 for the target now foot printing is a
+8:53 part of recognizance
+8:54 which is used for gathering possible
+8:57 information about targets computer
+8:59 system or network footprinting could be
+9:01 both passive and active for example
+9:03 reviewing a company's website is a very
+9:05 good example of passive foot printing
+9:07 whereas attempting to gain access to
+9:09 sensitive information through social
+9:10 engineering is an example of active
+9:13 information gathering or after foot
+9:15 printing now during this phase an
+9:17 ethical hacker can collect some
+9:18 information like the domain name the IP
+9:21 address namespaces employee information
+9:23 phone numbers emails and job
+9:25 informations now let me just show you
+9:28 guys how easily foot printing can be
+9:30 done from your own computer now you as a
+9:33 user can extract the basic and easily
+9:36 accessible information about any
+9:37 computer system or network that is
+9:39 linked to the Internet
+9:40 general foot printing can be done by
+9:42 anybody in all honesty now let me show
+9:44 you how so firstly suppose you want to
+9:47 know the domain name information you can
+9:50 just do this by going online
+9:51 let's just open the new window so who is
+9:54 is method of actually knowing the domain
+9:57 name specification so suppose I want to
+9:59 know the domain name of something like
+10:02 Eddie Ricardo
+10:03 so I just search and it'll give me all
+10:05 the information about so like you can
+10:08 see it's the domain name is Eddie record
+10:10 Co it's registered under the network
+10:12 solutions you can go and find the
+10:15 registered date when it'll expire when
+10:18 it was last updated the status that it
+10:20 has some client transfer prohibited then
+10:23 we can see the person it's registered
+10:26 under like it's registered under this
+10:28 person called couple and it's in
+10:30 Karnataka India the be fine Lord of
+10:33 information regarding the domain server
+10:37 that we are running on now this was very
+10:39 easily done by just going onto site
+10:41 called who is and just typing in our
+10:43 domain name we can also find the IP
+10:46 address of Eddie record or Co for
+10:49 example if you were to go on your
+10:51 command from suppose you want to know
+10:53 the public IP address of any web server
+10:56 for example I'll be using Eddie record
+10:58 Co all you have to do is try and ping
+11:00 that episode and you record or go and
+11:03 you just ping it now you see that we are
+11:05 pinging now this is the public IP
+11:08 address of a
+11:08 Rico and it was very easily found out
+11:11 with a very simple command so this is
+11:13 how a hacker generally goes through his
+11:15 day he if he's trying to gather some
+11:17 information about some target system
+11:18 he will just ping that address you can
+11:21 also find the hosting company so let me
+11:24 show you how to do that
+11:25 so for that you just go on Google and on
+11:28 the site called IP to location click on
+11:31 the first link
+11:34 so it shows me information about my IP
+11:38 at this moment so you can go on the
+11:41 cybela cater demo out here and enter an
+11:43 IP address
+11:43 so suppose we entered this IP address
+11:45 have we just found out so Jaco is trying
+11:48 to target at Utica Co so now he's found
+11:51 out the IP address he could just simply
+11:53 go on IP locator and find out some more
+11:56 information about this web server so as
+11:58 you guys can see it's in the United
+12:00 States
+12:01 it's the ISPs Amazon technology so it's
+12:04 basically in the Amazon web server
+12:06 it's where the station is in Portland
+12:07 and there's a lot of other information
+12:09 out there now you can also find out the
+12:12 history of a website like Eddy record Co
+12:15 by just going to archives or Co so you
+12:18 go to archive.org so if you want to know
+12:22 the history of a website or a target
+12:24 system that you are going to target as
+12:26 an ethical hacker people normally use
+12:28 this place called archive.org now
+12:30 suppose I want to know the history of
+12:33 Eddy records website so I go in and type
+12:36 that and firstly it'll show me when
+12:39 archived co has crawled through Eddy
+12:41 records website so these are the dates
+12:43 it has scroll through now you can ask
+12:45 for summary of this website it will give
+12:47 you some important information like how
+12:49 much text has been captured how many
+12:51 images were captured in PNG format how
+12:54 many images were caught in the chip bag
+12:56 format how many JavaScript applications
+12:58 or JavaScript scripts are there the
+13:01 amount of CSS it gives a lot of
+13:03 information to an ethical hacker to work
+13:06 on that is information to make him
+13:08 decide what kind of attack he's actually
+13:10 going to perform so here you can see a
+13:12 summary of the host domain and TLD and
+13:15 you can also see the mime type summary
+13:17 out here so these are a few easy ways
+13:20 anybody at home can gather some
+13:22 information about any system now you can
+13:25 also refer to my nmap tutorial let me
+13:27 just show you
+13:31 out here you can also refer to my nmap
+13:33 tutorial which I have I've done a pretty
+13:35 good job at explaining nmap and how you
+13:38 can use nmap as a tool to get a lot of
+13:41 information regarding any system okay so
+13:44 that's more for an nmap tutorial now
+13:47 let's move ahead with our phases of
+13:50 ethical hacking now next phase is
+13:52 actually fingerprinting and this is the
+13:53 last phase that we're going to discuss
+13:55 for this video today so fingerprinting
+13:57 in ethical hacking refers to any method
+13:59 that is used to determine the operating
+14:01 system that is being run on a target
+14:03 computer fingerprinting much like
+14:05 footprinting is both active and passive
+14:06 active fingerprinting is accomplished by
+14:09 sending specifically crafted packets to
+14:11 a target machine and then noting down
+14:12 its response and analyzing the guarded
+14:14 information to determine the target
+14:16 operating system now as I just drew your
+14:19 attention to my hand map tutorial I have
+14:21 also shown in that same tutorial how you
+14:23 can do some after fingerprinting using
+14:25 nmap now there we have also some passive
+14:28 fingerprinting now passive
+14:29 fingerprinting is based on sniffer
+14:31 traces from the remote system and based
+14:34 on different races such as Wireshark of
+14:36 the packets you can determine the
+14:37 operating system of the remote host
+14:39 now before attacking a system it is
+14:41 required that you know what operating
+14:43 system is hosting a website and once a
+14:45 target OS is known then it becomes easy
+14:47 to determine which vulnerabilities might
+14:49 be present to exploit the target system
+14:51 the fingerprinting is done through the
+14:53 analysis of the packet that is sent to
+14:56 the target system so four things are
+14:58 actually analyzed first is the TTL which
+15:00 is the time to live now what operating
+15:02 system sets the time to live is define
+15:04 the outbound packet we also analyze the
+15:06 window size as that helps us determine
+15:09 which kind of OS is running on the
+15:11 server like a linux window size is much
+15:13 smaller than a windows window size then
+15:15 we also have the DF flag which is the
+15:18 don't fragment bit now if packet comes
+15:21 back fragmented then it's probably
+15:22 running Windows and else is probably
+15:25 running clinic then we also analyze the
+15:27 type of service that is at EOS so
+15:30 analyzing the TOS also gives us much
+15:33 more information about what operating
+15:35 system is being run on the target
+15:37 machine now by analysing these factors
+15:39 of a packet you may be able to determine
+15:41 the remote operating system but this
+15:43 method is not 100% accurate and mostly
+15:46 works better for some operating systems
+15:47 than the other okay guys so that was all
+15:50 about an introduction to ethical hacking
+15:52 and basics processes we'll be delving
+15:54 down into the tools that they use in
+15:56 ethical hacking like Metasploit and map
+15:58 in the future of videos please hang on
+16:01 for them as our for today we're done
+16:02 goodbye I hope you have enjoyed
+16:05 listening to this video please be kind
+16:07 enough to like it and you can comment
+16:10 any of your doubts and queries and we
+16:12 will reply them at the earliest do look
+16:15 out for more videos in our playlist and
+16:17 subscribe to any rekha channel to learn
+16:20 more happy learning

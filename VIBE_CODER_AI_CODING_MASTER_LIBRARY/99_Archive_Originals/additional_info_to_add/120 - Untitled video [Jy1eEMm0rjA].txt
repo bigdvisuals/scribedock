@@ -1,0 +1,521 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=Jy1eEMm0rjA
+Channel: Riley Brown
+Video ID: Jy1eEMm0rjA
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 literally just recorded myself for 30
+0:01 minutes like actually 30 minutes and
+0:03 this was the app that I got from using
+0:05 my template my name is Riley I can
+0:06 record a note just by pressing the start
+0:08 button on this homepage and I can press
+0:10 stop recording what makes this template
+0:12 unique is we have built-in paths these
+0:15 are just markdown files we've done the
+0:17 plumbing and provided you with the
+0:19 foundation and an did most of the work
+0:22 on this and he's the one who's actually
+0:23 taught me a lot about all the things you
+0:25 have to do the annoying things you have
+0:26 to do to set up a project like hey why
+0:28 don't we just do that for people so that
+0:29 they can take their ideas and turn them
+0:30 into something cool and we've given you
+0:32 paths to go from that foundation so at
+0:36 this point in the video I have already
+0:38 downloaded the template I have set up
+0:41 Firebase and I've connected cursor to
+0:44 repet I'm just going to hop straight
+0:45 into the video if you want to see this
+0:47 process it's at around 20 minutes in the
+0:50 video you can see it in the description
+0:52 and so now what we can do is we can hit
+0:54 command uh K and so this opens up
+0:56 composer now what we're going to do is
+0:58 we're just going to paste in this from
+1:00 we're going to paste this in and that's
+1:02 literally what we're going to do uh
+1:04 we're going to make sure that we do at
+1:05 code
+1:07 base and we are just going to run this
+1:09 with Claude 3.5 Sonet and so when we hit
+1:15 uh the at voice notes MD we're pointing
+1:18 at this right here and we are creating
+1:22 all of this now we actually need to go
+1:24 to
+1:26 deep.com right these are this is the
+1:29 real time Voice Notes app that we're
+1:31 using so we're going to log in real
+1:32 quick I'll log in with Google I believe
+1:34 I did it with this email and we're going
+1:36 to grab our uh our API token so here's
+1:39 the API key create new API key we'll
+1:41 just call this that same thing and we're
+1:44 going to hit uh create key and we're
+1:46 going to copy this I'll delete it later
+1:48 don't worry now we have to go back into
+1:50 repet we're going to open up our secrets
+1:52 and we're going to paste that in for
+1:54 deep gram and we're going to hit add
+1:56 secret so now we have access to the deep
+2:00 gram uh API let's go ahead and just save
+2:03 these changes real quick it will not
+2:05 work without that API token and so
+2:08 anyway think we have a lot of this set
+2:09 up let's go ahead and click web view
+2:11 let's go ahead and hit this refresh
+2:13 button I don't see it on the home page
+2:16 let's go ahead and say command K can you
+2:20 please make the changes you just made
+2:24 and let's go ahead and submit
+2:27 this all right now that that's done
+2:29 let's hit save save
+2:31 all and here we go let's go ahead and
+2:34 refresh this we are seeing some errors
+2:36 what is this about unshot listener
+2:40 insufficient uh permissions in the
+2:42 Firebase let's go ahead and copy this
+2:45 and let me just see what happens when we
+2:47 start recording here so we've done two
+2:49 prompts hello there my name is Riley are
+2:52 you recording right now or are you not
+2:54 recording right now so we have these two
+2:56 errors so we have an error on Firebase
+2:58 let's start with this error so Firebase
+3:03 error please
+3:06 fix so now it gave us new rules to put
+3:09 for Firebase so let's go ahead and we
+3:12 are going to go back to Firebase and
+3:14 we're going to go to fir store database
+3:15 and we're going to hit rules and now
+3:17 we're going to paste these
+3:19 in publish and then now what we're going
+3:23 to do is come back here let's see if we
+3:24 got rid of that error so yeah we don't
+3:27 have the Firebase error right when we
+3:29 started but now if we do hello there my
+3:31 name is Riley and this is not working so
+3:35 that we're getting some deep gram error
+3:37 I'm just going to make sure that it
+3:38 knows the name right of deep gram so I'm
+3:42 just going to say I'm going to click I'm
+3:44 going to say deep gram API key is in my
+3:48 secrets folder as I'm just going to put
+3:51 this in quotes again I'm just going to
+3:53 put this right here to make sure that it
+3:55 knows that it is in there as deep gram
+3:57 API key and please fix all changes
+4:03 necessary now we're going to hit at code
+4:08 base and we're going to run
+4:12 this and let's go ahead and stop this
+4:14 and rerun it just in case um we need
+4:17 some adjustments
+4:21 here all right so let's go ahead and
+4:25 save prompt number
+4:27 four and here we are on The Voice Notes
+4:30 app let's go ahead
+4:32 and hello there my name is Riley and we
+4:37 now have a voice recording app after
+4:40 four
+4:41 prompts how sick is this now it's your
+4:44 opportunity to do exactly as I did get
+4:47 to this point and then create the
+4:48 sickest app ever maybe we should do a
+4:52 massive competition to see if this works
+4:54 how cool would that
+4:57 be and there we go SA saved no errors on
+5:00 the save um now we can right now we can
+5:04 hop over to v0 right so let's go to v0
+5:07 real quick and let's go like this uh v0
+5:13 create a super
+5:16 epic
+5:17 um voice note epic note card that looks
+5:24 insanely cool it'll literally just like
+5:28 um just check this out so your epic note
+5:31 goes here um and so yeah you can change
+5:36 it less edited see I don't like this at
+5:38 all can you make the colors less aggress
+5:45 aggressive and can you uh make the notes
+5:50 look like this and we can actually go to
+5:53 whatever site I love my favorite Notes
+5:55 app is my mind maybe it's time that we
+5:57 build a better version of this app so we
+5:58 can screenshot this right here and we
+6:01 can say we can copy this image okay we
+6:04 can very quickly just paste that image
+6:06 in here and say make it look more like
+6:09 this less aggressive and match the font
+6:14 in the image and we can run that can you
+6:17 make the start
+6:21 recording at the top of the
+6:25 page and then the notes should be in a
+6:30 grid format um the start recording
+6:35 button um should have should be dark
+6:40 blue and gray and the cards should be in
+6:45 a
+6:46 grid that are
+6:49 Max five notes wide so we can add that
+6:56 now look at that so like look at how
+6:58 much cleaner this is right here for the
+6:59 note card and so what I'm going to do is
+7:02 I'm just going to um hit the code here
+7:06 what I want to do real quick I'm going
+7:08 to save this and it should be kind of a
+7:10 new layout here once once it
+7:13 loads and here we have this start
+7:15 recording hello there my name is Riley
+7:18 and this is
+7:20 still
+7:23 working good right the notes there now
+7:26 I'm going to hit so now we're good here
+7:28 so what I'm going to do is I'm I'm just
+7:29 going to hit accept all now I'm going to
+7:31 press command R to refresh the chat I'm
+7:33 just going to hit at codebase I'm going
+7:36 to type in can you please make the cards
+7:40 on the
+7:41 grid look more like this only use this
+7:47 as ins
+7:50 inspiration do
+7:51 not uh use the code exactly just make
+7:57 sure that the cards look
+8:01 exactly like this I will also attach an
+8:06 image now what we can do is let's
+8:09 actually go back to v0 we are going to
+8:13 snag the image of this card I really
+8:15 like this card a lot
+8:19 um and we're going to just copy this
+8:24 copy
+8:26 um you
+8:29 are only looking at the styling of this
+8:32 note you are literally only looking at
+8:34 the styling uh and I want the styling to
+8:37 be exactly the same and I'm also going
+8:39 to attach the code make the cards look
+8:42 like this and make the
+8:46 background a
+8:48 darker shade of
+8:52 blue with
+8:54 gray dots here's the code there we go
+8:57 it's going to tell me to import some
+8:59 Library which is all good okay so this
+9:01 is done we're going to hit save all
+9:03 we're going to snag this npm install
+9:05 lucide react and we're going to go
+9:08 exactly as I just said we're going to go
+9:09 to the Shell oh it's already looking
+9:13 good oh we already have lose side react
+9:15 downloaded okay um and so here are those
+9:18 cards now let's say can you please make
+9:23 the
+9:25 background of the full entire page page
+9:30 that same dark blue color that same blue
+9:33 color
+9:35 with the
+9:37 dots right now it looks like this we can
+9:41 screenshot
+9:43 this and pull this up and we are going
+9:46 to copy this and we're going to paste
+9:49 this back in right here now what we're
+9:52 going to do add a clean border around
+9:57 the start re
+10:00 recording um around the start recording
+10:04 button this should be
+10:09 silverish uh we'll see what
+10:12 happens all right let's go ahead and hit
+10:14 save all there we go now it is this full
+10:17 screen right here and we now have that
+10:20 border around this so now I want to be
+10:22 able to edit the cards uh both the title
+10:25 of the cards and the body of the cards
+10:28 when I
+10:29 hover over a card in the
+10:34 grid it should have a light little
+10:38 effect then allow me to click this will
+10:44 open a center
+10:47 Peak uh note details um this view this
+10:51 view will have a delete button save
+10:58 button and and Ne uh and right button
+11:03 and left button the left and right
+11:10 buttons will allow me to go to the
+11:13 following note or the previous note in
+11:16 the
+11:18 grid this is a lot of instructions I
+11:20 don't know if it's going to get all of
+11:21 these but let's just go ahead and run
+11:24 this we can hit
+11:27 save okay I don't see any errors now
+11:31 look look at that we couldn't do this
+11:33 before now we can hover and let's go
+11:36 ahead and click on this clean
+11:39 nice new
+11:42 title and so this is the note that we
+11:44 just recorded uh let's see if we can go
+11:46 low so like yes we can uh go down here
+11:50 so we can go all the way down here and
+11:51 we can hit save nice we can hit over wow
+11:56 so this is second note and we can do we
+12:00 okay we can hit save and then do we have
+12:02 to hit save that's a good question so
+12:04 third uh let's see if we go to the next
+12:06 one if we go back will it still say
+12:08 third no okay so we do have to hit save
+12:10 that actually might be a good thing uh
+12:13 it for now that's fine uh we can edit
+12:15 that later because it's hard to know
+12:17 when the database would update and it's
+12:18 not very fun to add now but uh that's an
+12:21 error I've dealt with before I'm not
+12:22 super worried about it now let's say so
+12:26 when I record the note and again we just
+12:29 made a change so testing testing testing
+12:32 core functionality of
+12:34 application I don't know why I said it
+12:36 like
+12:37 that all right so we're going to stop
+12:40 this
+12:41 recording
+12:43 um okay so we still have it right here
+12:46 new uh title of note we can actually use
+12:48 AI to title these um that might be
+12:50 something worth doing later um okay so
+12:52 the core functionality works so once
+12:54 again uh what did we just add um card
+12:58 details
+12:59 nice stage and commit let's go ahead and
+13:02 hit web view okay so when note being
+13:05 recorded in real time and it's awesome
+13:10 can we make where the note is recording
+13:15 in real time with the text and the blue
+13:22 dot can we make that match the cards in
+13:29 the
+13:31 grid same
+13:34 gradient and blue dot actually
+13:39 a
+13:42 horizontal line of
+13:45 dots doing a
+13:48 wave
+13:51 motion for
+13:53 recording and make the
+13:56 dots light gray
+14:01 so let's go ahead and try running that
+14:04 and we'll stop this recording okay yeah
+14:06 save all let's make sure the core
+14:08 functionality has not been altered so we
+14:12 can start this hello this seems to be
+14:16 significantly cooler what do you guys
+14:18 think I mean in my opinion this is
+14:21 pretty damn clean now I don't know how I
+14:24 feel about these notes going down every
+14:28 time a line fill up and so I'm wondering
+14:31 what
+14:33 the uh solution is to this while
+14:37 recording the note can you dim the whole
+14:43 page besides the uh
+14:47 recording uh the recording button the
+14:51 start the recording button and the area
+14:56 that shows the text then put this in
+15:01 front of the rest of the
+15:05 page currently when I'm recording my
+15:07 note the notes in the grid are pushed
+15:09 down as the number of lines increase in
+15:12 my voice recording I don't want that to
+15:14 happen anymore therefore I want you to
+15:17 make this have layers so as I'm
+15:20 recording the note it should happen
+15:21 above the notes and when I hit stop it
+15:24 should go into the grid and the top of
+15:26 the notes grid should remain in in the
+15:29 same place and let's
+15:32 go so let's go ahead and run
+15:36 this now let's take a look here we're
+15:39 going to hit save all and we saw I saw
+15:42 some movement here let's just go see
+15:44 let's go ahead and see what this looks
+15:46 like hello this is a test now it's
+15:49 recording kind of
+15:52 directly above the note grid and I like
+15:55 the padding on this let's see what
+15:57 happens when we full screen this
+16:00 this seems to be like a pretty cool
+16:02 application huh it's coming together
+16:05 right right now here we have a problem
+16:09 because we can't hit stop right this
+16:11 whole thing is unclickable so I
+16:13 literally can't stop this so I should
+16:16 probably tell Claude that problem can
+16:20 you include a stop recording button
+16:26 above the voice note so that I can
+16:30 press a button to end the voice note now
+16:37 I also want you to make
+16:44 Command b or controlb on
+16:50 Windows the start recording button and
+16:56 the stop recording recording hot key the
+17:01 recording hotkey or or or keyboard
+17:05 shortcut I'm just going to refresh this
+17:07 because we literally have no way of
+17:08 stopping that note um so that didn't
+17:11 save which is fine that note sucked
+17:15 anyway so let's go ahead and we're going
+17:18 to hit save
+17:20 all and it added com uh command control
+17:23 B to that we will remove that um we can
+17:26 make it look cooler than that but we
+17:28 just pressed control b or command B I'm
+17:30 on a Mac and we're still getting the
+17:33 core functionality of the
+17:35 application and I think I'm really
+17:37 liking this I am really enjoying this
+17:40 application this seems pretty damn cool
+17:43 to
+17:45 me all right now I'm going to press
+17:47 command B after I stop talking right
+17:52 now
+17:54 um where is it
+17:59 this is a test is this working I need to
+18:02 know if this is going into the note
+18:06 grid okay hello
+18:12 test okay when I press command B it's
+18:17 not going into the grid please fix this
+18:24 problem please make the stop button both
+18:29 on the main
+18:32 grid and the
+18:35 recording note area please make those
+18:39 buttons light gray with dark
+18:45 text all right now let's go ahead and
+18:47 we're going to hit save all Let's test
+18:50 this once again command B hello my name
+18:53 is
+18:53 Riley command
+18:57 B there we go so we just solved the
+19:00 problem and we can still scroll
+19:03 horizontally all
+19:05 right let's hit uh link to template this
+19:09 will pop up right here we're going to
+19:11 hit use template I'm going to put
+19:14 ultimate voice
+19:16 app and I'm going to copy that and I'm
+19:19 going to just use this template like
+19:21 this so Cur uh repet is moving while we
+19:25 uh while we're at it let's go to uh
+19:30 firebase.com I think that's what it
+19:33 is there we go and let's go ahead and
+19:37 we'll go to
+19:39 console we're going to create a new app
+19:42 we can call it the ultimate voice app
+19:44 we're going to continue turn off Google
+19:46 analytics hit create project while
+19:48 that's loading what I'm going to do is
+19:49 I'm going to rightclick on the replit
+19:52 project and we're going to open this up
+19:53 in a split view now we're going to come
+19:56 over to this full screen so we're Go
+19:58 full screen we're going to open up a new
+20:00 tab we're going to type in
+20:03 secrets and here we see empty fields for
+20:07 our secret Keys what I am going to do
+20:10 here is we're going to hit continue and
+20:13 there's going to be this little app uh
+20:15 this web icon right here and we're going
+20:17 to press this and I'm going to paste in
+20:19 I'm just going to call this ultimate
+20:20 voice app we're going to register the
+20:22 app now what I'm going to do is I'm
+20:24 going to quickly
+20:26 uh screenshot here
+20:29 and move this in front of these keys
+20:33 and now I
+20:37 am all right so I just pasted those keys
+20:40 in right there you have to keep those
+20:42 secret and in case I ever want to topl
+20:43 playy this app I I just wanted to make
+20:45 sure that those are secret so I did it
+20:46 right off camera takes like 30 seconds
+20:48 and it's very easy to tell which key
+20:50 goes where now uh very quickly let's
+20:53 click storage let's click fir store
+20:57 database and we are also going to do
+20:59 authentication but I like to do the
+21:02 database let's click on this right here
+21:04 we're going to hit next we're going to
+21:06 start in test mode for database that's
+21:08 literally all we need to do for database
+21:10 for storage get started start in test
+21:12 mode same thing we are done and now for
+21:16 authentication this one is has a little
+21:19 bit more a few more steps to do on
+21:21 authentication we're going to open this
+21:23 one up we're just going to hit Google as
+21:25 the authentication message we're going
+21:26 to enable and here we're just going to
+21:28 press this email that I'm using to set
+21:31 this up then I'm going to press settings
+21:33 I'm going to come over to repet again
+21:34 I'm going to hit this play button and
+21:37 this should open up this web view in
+21:40 just a second waiting waiting
+21:44 compiling anytime now where is it okay
+21:49 yeah so here is the web view this is
+21:51 what the template looks like by default
+21:52 we're going to copy this and we're just
+21:54 going to paste this in as an uh as an
+21:56 authorized domain and we're going to hit
+21:58 add
+21:59 now what we're going to do is we need to
+22:02 connect cursor with uh with repet so I
+22:07 am going to um separate all these tabs
+22:11 and so we have the database Now set up
+22:13 to repet we've already done all of the
+22:15 configurations so that as soon as you
+22:17 run your first prompt you're going to be
+22:18 connected to the database properly now
+22:21 we need to just go to cursor and I'm
+22:22 going to hit new window and I'm going to
+22:25 just basically put cursor here and I'm
+22:27 going to put put
+22:30 repet
+22:32 here and what I'm going to do is I'm
+22:35 going to click this new tab I'm going to
+22:36 hit it SSH then on cursor I'm going to
+22:40 press this little toggle integrated
+22:42 terminal you may need to download this
+22:44 extension which is called toggle
+22:45 integrated terminal I will show you
+22:47 where the extensions are in just a
+22:49 second but um we're going to press this
+22:51 little button right here and now I'm
+22:53 going to hit command K generate n SSH
+22:58 key for repet name it
+23:01 repet and copy the public key to my
+23:08 clipboard and we are going to run this
+23:12 this is going to generate this little
+23:13 thing right here we're going to press
+23:15 enter if you've done this before then
+23:17 you want to overwrite or at least that's
+23:19 how I do it I press Y and then enter
+23:20 enter something this magic key is now
+23:23 automatically copied to my clipboard
+23:24 once you see that little thing right
+23:26 there we're going to hit add SSH key
+23:27 we're going to paste that in
+23:28 and we're just going to put in that same
+23:31 ultimate voice app at SSH key after you
+23:34 do that you're going to hit connect
+23:36 we're going to copy this we're going to
+23:37 open cursor with SSH we're going to
+23:39 paste this in add new SSH host paste
+23:41 this in and we're going to press enter
+23:43 we're going to press this top one then
+23:44 we're going to hit connect then we're
+23:46 going to hit continue then this is going
+23:48 to be our side window we are almost set
+23:51 up once that loads there should be this
+23:54 other button that pops up over here but
+23:56 we are going to be pressing open folder
+23:58 um um there we go open folder now we are
+24:01 looking for that same name ultimate
+24:02 voice app we're going to hit okay now we
+24:04 are connected now what does it say to do
+24:07 on the template

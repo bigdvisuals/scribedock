@@ -1,0 +1,483 @@
+Title: What is Cryptography? | Introduction to Cryptography | Cryptography for Beginners | Edureka
+URL: https://www.youtube.com/watch?v=5jpgMXt1Z9Y&list=PL9ooVrP1hQOGPQVeapGsJCktzIO4DtI4_&index=11&pp=iAQB
+Channel: YouTube playlist
+Video ID: 5jpgMXt1Z9Y
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:24:55.858Z
+
+0:01 [Music]
+0:06 cryptography is essentially important
+0:09 because it allows you to securely
+0:10 protect data that you don't want anyone
+0:12 else to have access to it is used to
+0:14 protect corporate secrets secure
+0:16 classified information and to protect
+0:18 personal information to guard against
+0:20 things like identity theft hi guys my
+0:22 name is aria from Eddie Rocca and I
+0:24 welcome you all to another session on
+0:26 cyber security and today's video is
+0:28 basically going to be about cryptography
+0:30 now before we actually jump into the
+0:32 session let me give you guys a brief on
+0:34 the topics that we're gonna cover today
+0:35 so first of all we're gonna cover what
+0:37 is cryptography to the help of a very
+0:39 simplistic scenario then we are going to
+0:41 go through the classifications of
+0:42 cryptography and how the different
+0:44 classification of algorithm works in the
+0:46 end I'm going to show you guys a nifty
+0:48 demo on how a popular algorithm called
+0:50 RSA actually works so let's get started
+0:53 now I'm going to take the help of an
+0:56 example or a scenario to actually
+0:58 explain what is cryptography all right
+1:00 so let's say we have a person and let's
+1:02 call him Andy I suppose Andy sends a
+1:05 message to his friend Sam who is on the
+1:07 other side of the world now obviously he
+1:09 wants this message to be private and
+1:11 nobody else should have access to the
+1:13 message now he uses a public forum for
+1:15 example the internet for sending this
+1:17 message the goal is to actually secure
+1:20 this communication and of course we have
+1:22 to be secure against someone now let's
+1:24 say there is a smart guy called Eve who
+1:26 is secretly got access to your
+1:28 communication channel since this guy has
+1:30 access to your communication he can do
+1:32 much more than just eavesdrop for
+1:34 example he can try to change the message
+1:36 in itself now this is just a small
+1:38 example what if Eve actually gets access
+1:41 to your private information well that
+1:43 could actually result in a big
+1:44 catastrophe so how can Andy be sure that
+1:47 nobody in the middle could access the
+1:49 message sent to Sam the goal here is to
+1:51 make communication secure and that's
+1:53 where cryptography comes in so what
+1:55 exactly is cryptography well
+1:57 cryptography is the practice and the
+1:59 study of techniques for securing
+2:01 communication and data in the presence
+2:03 of adversaries so let me take a moment
+2:05 to explain how that actually happens
+2:07 well first of all we have a message this
+2:10 message is firstly converted into a
+2:12 numeric form
+2:13 and then this numeric form is applied
+2:15 with a key called an encryption key and
+2:18 this encryption key is used in an
+2:20 encryption algorithm
+2:21 so once the numeric message and the
+2:23 encryption key has been applied in an
+2:25 encryption algorithm what we get is
+2:27 called a ciphertext now this ciphertext
+2:29 is sent over the network to the other
+2:31 side of the world where the other person
+2:34 whose message is intended for will
+2:36 actually use a decryption key and use
+2:39 the ciphertext as a parameter of a
+2:41 decryption algorithm and then he'll get
+2:43 what we actually sent as a message and
+2:45 if some error had actually occurred he'd
+2:48 get an error so let's see how
+2:50 cryptography can help secure the
+2:51 connection between Andy and Sam so to
+2:54 protect his message Andy first converts
+2:56 his readable message to an unreadable
+2:58 form here he converts a message to some
+3:01 random numbers and after that he uses a
+3:04 key to encrypt his message after
+3:06 applying this key to the numerical form
+3:08 of his message he gets a new value in
+3:09 cryptography we call this ciphertext so
+3:13 now if Andy sends the cipher text or
+3:15 encrypted message over communication
+3:16 channel he won't have to worry about
+3:18 somebody in the middle of discovering
+3:20 the private message even if somebody
+3:22 manages to discover the message he won't
+3:24 be able to decrypt the message without
+3:26 having a proper key to unlock this
+3:27 message so suppose Eve here discovers
+3:30 the message and he somehow manages to
+3:32 tamper with the message and message
+3:34 finally reaches Sam Sam would need a key
+3:36 to decrypt the message to recover the
+3:38 original plaintext so using the key he
+3:41 would convert a ciphertext to numerical
+3:43 value corresponding to the plaintext now
+3:45 after using the key for decryption what
+3:47 will come out is the original plaintext
+3:49 message or an arrow now this error is
+3:52 very important it is the way Sam knows
+3:54 that message sent by Andy is not the
+3:56 same as a message that he received so
+3:58 the error in a sense tells us that Eve
+4:00 has tampered with the message now the
+4:02 important thing to note here is that in
+4:04 modern cryptography the security of the
+4:06 system purely relies on keeping the
+4:08 encryption and decryption key secret
+4:10 based on the type of keys and encryption
+4:12 algorithms cryptography is classified
+4:14 under the following categories now
+4:16 cryptography is broadly classified under
+4:19 two categories namely symmetric key
+4:21 cryptography and asymmetric key
+4:23 cryptography popularly also known as
+4:25 public
+4:26 now symmetric key cryptography is
+4:29 further classified as classical
+4:31 cryptography and modern cryptography
+4:33 further drilling down classical
+4:35 cryptography is divided into two which
+4:38 is transposition cipher and substitution
+4:40 cipher on the other hand modern
+4:42 cryptography is divided into stream
+4:44 cipher and block cipher in the upcoming
+4:47 slides I'll broadly explain all these
+4:49 types of cryptography so let's start
+4:51 with symmetric key cryptography first so
+4:53 symmetric key algorithms are algorithms
+4:56 for cryptography that use the same
+4:58 cryptographic keys for both encryption
+5:00 of plaintext and decryption of
+5:02 ciphertext the keys may be identical but
+5:05 there may be some simple transformation
+5:07 to go between the two keys the keys in
+5:09 practice represent a shared secret
+5:11 between two or more parties that can be
+5:14 used to maintain a private information
+5:16 link this requirement that both parties
+5:18 have access to the secret key there's no
+5:20 the main drawbacks of symmetric key
+5:22 encryption in comparison to publicly
+5:24 encryption also known as a symmetric key
+5:27 encryption now symmetric key
+5:29 cryptography is sometimes also called
+5:31 secret key cryptography and the most
+5:33 popular symmetric key system is the data
+5:36 encryption standards which also stands
+5:37 for DES next up we're going to discuss
+5:41 transposition cipher so in cryptography
+5:44 a transposition cipher is a method of
+5:46 encryption by which the positions held
+5:48 by units of plaintext which are commonly
+5:51 characters or groups of characters are
+5:53 shifted according to a regular system so
+5:55 that the ciphertext constitutes a
+5:57 permutation of the plaintext that is the
+6:00 order of units is changed the plaintext
+6:02 is reordered now mathematically speaking
+6:04 a bijective function is used on the
+6:06 characters position to encrypt and an
+6:08 inverse a function to decrypt so as you
+6:11 can see that there is an example on the
+6:12 slide so on the plaintext side we have a
+6:16 message which says meet me after the
+6:17 party now this has been carefully
+6:19 arranged in the encryption matrix which
+6:22 has been divided into six rows and the
+6:24 columns so next we have a key which is
+6:27 basically four two one six three five
+6:29 and then we rearrange by looking at the
+6:32 plaintext matrix and then we get the
+6:34 cipher text which basically is some
+6:36 unreadable gibberish at this moment so
+6:39 that's how this whole algorithm work
+6:40 on the other hand when the ciphertext is
+6:42 being converted into the plaintext the
+6:44 plaintext matrix is going to be referred
+6:46 and it can be done very easily going on
+6:49 we are going to discuss substitution
+6:51 cipher
+6:51 so substitution of single letters
+6:53 separately simple substitution can be
+6:56 demonstrated by writing out the
+6:57 alphabets in some order to represent the
+7:00 substitution this is termed a
+7:02 substitution alphabet the cipher
+7:04 alphabet may be shifted or reversed
+7:06 creating the Caesar and app stash cipher
+7:09 respectively or scrambled in a more
+7:11 complex fashion in which case it is
+7:13 called a mixed alphabet or deranged
+7:15 alphabet traditionally mixed alphabets
+7:17 may be created by first writing out
+7:19 keyboard removing repeated letters in it
+7:21 then writing all the remaining letters
+7:23 in the alphabet in the usual order now
+7:26 consider this example is shown on the
+7:28 slide using the system we just discussed
+7:30 the keyword zebra's gives us the
+7:31 following alphabets from the plaintext
+7:33 alphabet which is a to C so the
+7:35 ciphertext alphabet is basically zebras
+7:37 then followed by all the alphabets we
+7:40 have missed out in the zebrawood so as
+7:42 you guys can see it's zebras followed by
+7:44 SC D F G H and so on now suppose we were
+7:47 to actually encrypt a message using this
+7:49 code so as you guys can see on the
+7:51 screen I've shown you an example which
+7:53 is a message flee at once we are
+7:55 discovered is being actually encrypted
+7:57 using this code so if you guys can see
+8:00 out here though F letter actually
+8:02 corresponds to s and then the L letter
+8:05 actually corresponds to I out here then
+8:09 we actually get the cipher text which is
+8:12 s I is that you using the code and the
+8:15 process that I just discussed now
+8:17 traditionally the cipher text is written
+8:19 out in blocks of fixed length omitting
+8:21 punctuation x' and spaces this is done
+8:23 to help avoid transmission errors to
+8:26 disguise the word boundaries from the
+8:27 plaintext
+8:28 now these blocks are called groups and
+8:30 sometimes a group count that is the
+8:32 number of groups is given as an
+8:33 additional check now five letter groups
+8:35 are traditional as you guys can see that
+8:37 we have also divided our ciphertext into
+8:40 groups of five and this dates back to
+8:42 when messages were actually used to be
+8:45 transmitted by telegraph now if the
+8:47 length of the message happens not to be
+8:49 divisible by five it may be padded at
+8:51 the end with nulls and these can be any
+8:53 character
+8:54 that can be decrypted too obvious
+8:56 nonsense so the receiver can easily spot
+8:58 them and discard them next on our list
+9:00 is stream cipher so a stream cipher is a
+9:05 method of encrypting text to produce
+9:07 cipher text in which a cryptographic key
+9:09 and algorithm are applied to each binary
+9:12 digit in a data stream one bit at a time
+9:14 this method is not much used in modern
+9:17 cryptography the main alternative method
+9:19 is block cipher in which a key and
+9:21 algorithm are applied to block of data
+9:23 rather than individual bits in a stream
+9:25 okay so now that we've spoken about
+9:27 block cipher let's go and actually
+9:29 explain what block cipher does a block
+9:31 cipher is an encryption method that
+9:33 applies a deterministic algorithm for
+9:35 the symmetric key to encrypt a block of
+9:37 text rather than encrypting one bit at a
+9:39 time as in stream ciphers for example a
+9:42 common block cipher AES encrypts 128-bit
+9:45 blocks with a key of predetermined
+9:46 length that is either 128 192 or 256
+9:50 bits in length now block ciphers are
+9:52 pseudo ranbir mutation families that
+9:54 operate on the fixed size of block of
+9:56 bits these PRPs are function that cannot
+9:59 be differentiated from completely random
+10:01 permutation and thus are considered
+10:03 reliable I've been proven to be
+10:05 unreliable by some source ok so now it's
+10:07 time that we discuss some asymmetric
+10:09 cryptography so asymmetric cryptography
+10:12 also known as public key cryptography is
+10:14 any cryptographic system that uses pair
+10:17 of keys which is a public key which may
+10:19 be this emanated widely and private keys
+10:21 which are known only to the owner this
+10:23 accomplishes two functions
+10:25 authentication where the public key
+10:27 verify is that a holder of the paired
+10:29 private key sent the message and
+10:30 encryption where only the paired private
+10:32 key holder can decrypt the message
+10:34 encrypted with the public key in a
+10:36 public key encryption system any person
+10:38 can encrypt a message using the
+10:40 receivers public key that encrypted
+10:42 message can only be decrypted with the
+10:44 receivers private key so to be practical
+10:46 the generation of public and private key
+10:48 pair must be computationally economical
+10:50 the strength of a public key
+10:52 cryptography system relies on
+10:53 computational efforts required to find
+10:56 the private key from its paired public
+10:57 key so effective security only requires
+11:00 keeping the private key private and the
+11:02 public key can be openly distributed
+11:04 without compromising security okay so
+11:06 now that I've actually shown you
+11:08 hobb cryptography actually works and how
+11:10 the different classifications are
+11:11 actually applied let's go and do
+11:13 something interesting so you guys are
+11:16 actually watching this video on YouTube
+11:18 right now so if you guys actually go and
+11:21 click on the secure part besides the URL
+11:24 you can actually go and view the digital
+11:26 certificates that are actually used out
+11:28 here so click on certificates and you'll
+11:31 see the details in the details tab now
+11:34 as you guys can see the signature
+11:36 algorithm that is used for actually
+11:38 securing YouTube is being sha-256 with
+11:41 RSA and RSA is a very very common
+11:44 encryption algorithm that is used
+11:46 throughout the internet then the
+11:47 signature hash algorithm that is being
+11:49 used is sha-256
+11:51 and the issuer is Google in Internet
+11:53 Authority and you can get a lot of
+11:56 information about sites and all their
+11:58 authority key identifier their
+12:00 certificate policy is the key usage and
+12:02 a lot of thing about security just from
+12:05 this small little button audio also let
+12:08 me show you a little how public key
+12:10 encryption actually works so on the side
+12:13 which is basically called web start CS
+12:15 door UTA dot edu you can actually demo
+12:18 out public key encryption so suppose we
+12:21 had to send a message first we would
+12:23 need to generate keys so as you can see
+12:26 I just click generate keys and it got me
+12:28 two keys which is one is the public key
+12:30 which I will distribute or the network
+12:32 and one the private key which I will
+12:34 actually keep secret to myself now I
+12:37 want to send message saying hi there
+12:40 when is the exam tomorrow so now we are
+12:45 going to encrypt it using the public key
+12:47 because that's exactly what's
+12:49 distributed so now as you can see we
+12:52 have got our ciphertext so this huge
+12:54 thing right out here is ciphertext and
+12:57 it absolutely makes no sense whatsoever
+12:59 now suppose we were to actually then
+13:01 decrypt the message we would use the
+13:03 private key that goes along with our
+13:05 account and we would decode the message
+13:07 and as you guys can see voila we have hi
+13:10 there when is the exam tomorrow so we
+13:12 have actually sent a message on the
+13:14 Internet in a very secure fashion above
+13:16 that there's also RSA that needs some
+13:18 explaining because our promise at two
+13:20 now RSA is a very very commonly used
+13:23 algorithm that is used throughout the
+13:25 internet and you just saw it being used
+13:27 by YouTube so it has to be common
+13:29 so RSA has a very unique way of applying
+13:32 this algorithm there are many actual
+13:34 parameters that you actually need to
+13:36 study okay so now we're actually going
+13:38 to discuss RSA which is a very popular
+13:40 algorithm that is used throughout the
+13:42 internet and you also saw that it's
+13:44 being used by YouTube right now so this
+13:46 crypto system is one of the initial
+13:47 system it remains the most employed
+13:49 crypto system even today and the system
+13:52 was invented by three scholars which is
+13:54 Ron Rivest Adi Shamir and Len Adleman
+13:57 hence the name RSA and we will see the
+14:01 two aspects of the RSA cryptosystem
+14:03 firstly generation of key pair and
+14:05 secondly encryption decryption
+14:06 algorithms so each person or a party who
+14:09 desires to participate in communication
+14:11 using encryption needs to generate a
+14:13 pair of keys namely public key and
+14:15 private key so the process followed in
+14:17 the generation of keys is as follows
+14:19 first we have to actually calculate n
+14:21 now n is actually given by multiplying p
+14:24 and q as you guys can see out here so p
+14:27 and q are supposed to be very large
+14:29 prime numbers so out here P will be 35
+14:32 but for some very strong encryption we
+14:35 are going to choose very large prime
+14:36 numbers then we actually have to
+14:38 calculate Phi now Phi is you can see the
+14:41 formula goes is P minus 1 into Q minus 1
+14:43 and this helps us determine for the
+14:46 encryption algorithm now then we have to
+14:49 actually calculate e now he must be
+14:51 greater than 1 and less than Phi which
+14:53 is P minus 1 into Q minus 1 and there
+14:56 must be no common factors for e and Phi
+14:58 except for one so in other words they
+15:00 must be co-prime to each other now to
+15:03 form the public key the pair of numbers
+15:05 m and e form the RSA public key system
+15:08 this is actually made public and is
+15:10 distributed throughout the network
+15:12 interestingly though
+15:13 n is a part of the public key and the
+15:16 difficulty in factorizing a large prime
+15:18 number ensures that the attacker cannot
+15:20 find in finite time the two Prime's that
+15:22 is P and Q that is used to obtain M this
+15:25 actually ensures the strength of RSA now
+15:28 in the generation of the private key the
+15:31 private key D is calculated from P Q and
+15:34 for a given n and E there is a unique
+15:37 number D now the number D is the inverse
+15:39 of e modulo 5
+15:41 this means that D is the number less
+15:43 than Phi such that when multiplied by e
+15:46 it gives 1 so let's go and actually fill
+15:49 up these numbers so n should be 35 out
+15:53 here and if we generate them we get the
+15:56 value of 5 which is 24 which is
+15:58 basically 4 into 6 and then we should
+16:01 also get e it's now it should be
+16:03 co-prime so we are going to give it 11
+16:05 as 11 is co-prime to both so now for the
+16:10 actual encryption part we have to put in
+16:12 E and n out here so e out here for us is
+16:16 11 and n is 35 and then we're gonna pick
+16:21 a letter to actually cipher which is a
+16:23 and then we are going to encode it as a
+16:26 number so as you guys can see we've
+16:28 encoded as 1 and out here now after
+16:32 we've given the message its numerical
+16:34 form you click on encryption and we get
+16:37 it now to actually decrypt the message
+16:39 we are gonna need D and n now D for us
+16:42 was 5 and n was 35 so 5 and 35 and then
+16:49 we're gonna take encrypted message from
+16:51 above and we're going to decrypt this
+16:53 message so after you decrypt it we have
+16:57 the numerical form of the plaintext and
+16:59 then decode the message is like your
+17:01 decode message and as you guys can see
+17:03 we have decoded a message using RSA so
+17:06 guys that's how RSA works I explain all
+17:09 the factors that we actually use an RSA
+17:12 from n 2 v 2e e 2 D and I hope you
+17:16 understood a part of it if y'all are
+17:18 still more interested you all can
+17:20 actually research a lot on RSA it's a
+17:22 very in-depth cryptography system and
+17:24 also that brings us to the end of this
+17:27 session I hope you guys had fun learning
+17:29 about cryptography and the different
+17:31 methods that are actually used on the
+17:33 Internet that's it for me goodbye
+17:36 I hope you have enjoyed listening to
+17:38 this video please be kind enough to like
+17:40 it and you can comment any of your
+17:42 doubts and queries and we will reply
+17:45 them at the earliest do look out for
+17:47 more videos in our playlist and
+17:49 subscribe to any rekha channel to learn
+17:52 more happy learning

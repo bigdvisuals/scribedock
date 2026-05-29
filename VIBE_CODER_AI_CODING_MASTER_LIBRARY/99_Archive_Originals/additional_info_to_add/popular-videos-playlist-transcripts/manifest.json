@@ -1,0 +1,59 @@
+{
+  "playlistTitle": "Popular Videos",
+  "playlistUrl": "https://www.youtube.com/watch?v=NQtYgZwOSBc&list=PL8CO4_1PqMUiHSgq0xa2pinI2LY8cmsr1&index=4",
+  "exportedAt": "2026-05-25T21:53:15.150Z",
+  "totalVideosFound": 6,
+  "downloadedCount": 6,
+  "skippedCount": 0,
+  "successfulVideos": [
+    {
+      "index": 1,
+      "videoId": "9VlvbpXwLJs",
+      "title": "30 Years of Business Knowledge in 2hrs 26mins",
+      "url": "https://www.youtube.com/watch?v=9VlvbpXwLJs&list=PL8CO4_1PqMUiHSgq0xa2pinI2LY8cmsr1&index=1&t=2s&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "01 - 30 Years of Business Knowledge in 2hrs 26mins.txt"
+    },
+    {
+      "index": 2,
+      "videoId": "K7KuU5KJoJg",
+      "title": "The Blueprint To $5,000/Month As A Beginner (2024)",
+      "url": "https://www.youtube.com/watch?v=K7KuU5KJoJg&list=PL8CO4_1PqMUiHSgq0xa2pinI2LY8cmsr1&index=2&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "02 - The Blueprint To $5,000 Month As A Beginner (2024).txt"
+    },
+    {
+      "index": 3,
+      "videoId": "amdXa3CfzHw",
+      "title": "10 Steps That’ll Turn You Into A Sales Machine",
+      "url": "https://www.youtube.com/watch?v=amdXa3CfzHw&list=PL8CO4_1PqMUiHSgq0xa2pinI2LY8cmsr1&index=3&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "03 - 10 Steps That’ll Turn You Into A Sales Machine.txt"
+    },
+    {
+      "index": 4,
+      "videoId": "NQtYgZwOSBc",
+      "title": "I Asked Richard Branson How To Make $1,000,000",
+      "url": "https://www.youtube.com/watch?v=NQtYgZwOSBc&list=PL8CO4_1PqMUiHSgq0xa2pinI2LY8cmsr1&index=4&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "04 - I Asked Richard Branson How To Make $1,000,000.txt"
+    },
+    {
+      "index": 5,
+      "videoId": "gT2bk52F9bg",
+      "title": "Alex Hormozi’s Blueprint To Making Money Blew My Mind",
+      "url": "https://www.youtube.com/watch?v=gT2bk52F9bg&list=PL8CO4_1PqMUiHSgq0xa2pinI2LY8cmsr1&index=5&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "05 - Alex Hormozi’s Blueprint To Making Money Blew My Mind.txt"
+    },
+    {
+      "index": 6,
+      "videoId": "pfQL-M4lkdw",
+      "title": "How To Set Up A Business In 47 Minutes",
+      "url": "https://www.youtube.com/watch?v=pfQL-M4lkdw&list=PL8CO4_1PqMUiHSgq0xa2pinI2LY8cmsr1&index=6&pp=iAQB",
+      "language": "English auto-generated",
+      "filename": "06 - How To Set Up A Business In 47 Minutes.txt"
+    }
+  ],
+  "skippedVideos": []
+}

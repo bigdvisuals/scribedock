@@ -1,0 +1,709 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=0k4Eq2VMNFM
+Channel: Riley Brown
+Video ID: 0k4Eq2VMNFM
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 Imagine if your web browser remembered
+0:01 every single thing that you browse. And
+0:03 imagine if it remembered every single
+0:05 step of all of your workflows so that
+0:08 all you have to do is ask the AI agent
+0:10 within your web browser to do any task
+0:12 and it will do it. That is what's coming
+0:14 very soon. In this video, we're going to
+0:16 be comparing the different Vibe browser
+0:19 tools. We're going to take a look at the
+0:21 features inside Perplexity's new Comet.
+0:23 And then finally, we're going to talk
+0:24 about what it means to have a
+0:26 state-of-the-art AI agent in your web
+0:28 browser. Let's just dive into the video.
+0:31 This is going to be a fun one. And
+0:34 before we dive into the browser wars
+0:37 comparing the main tools, I want to give
+0:39 a concrete example of Comet. I talked
+0:42 about DIA in my last video if you're
+0:44 interested. And the OpenAI browser is
+0:47 just a rumor, but it's 100% coming
+0:49 within the next few weeks because
+0:51 Google's stock is already tanking. And
+0:53 it just makes perfect sense that OpenAI
+0:55 would release a browser. But right now,
+0:57 I want to talk about Comet, not as like
+0:59 a you should use this, but I really want
+1:02 you to get a good idea of what a Vibe
+1:05 browser or an AI agent within a browser
+1:09 looks like and feels like. It is a
+1:12 combination of a familiar interface with
+1:15 an AI agent interface here on the right.
+1:18 And that is what Andre Karpathy has been
+1:20 talking about a lot. He he talked about
+1:22 it in this talk where you have a fast
+1:24 feedback loop between an a familiar
+1:26 interface and an AI agent that basically
+1:29 is keeping track of all of the
+1:31 keystrokes, all of the things that
+1:32 you're doing. It's learning and soon
+1:35 it's going to become more proactive and
+1:36 that's how we get the the the kind of
+1:38 the Jarvis of the future. So let's talk
+1:41 about this. Obviously it is perplexity,
+1:43 right? It's a perplexity simple
+1:45 interface. We can search things. Uh we
+1:48 can say um what did Andre
+1:52 uh Carpathy
+1:54 talk about in his Y combinator
+1:59 thing right and it will just give it to
+2:03 us straight right here the evolution of
+2:05 software 1.0 know etc etc standard
+2:08 perplexity uh response and so this is
+2:12 cool right obviously you have perplexity
+2:16 right nothing new open AI or chat GBT
+2:19 can do this claude can now do this but
+2:21 what it can't do is say please uh go to
+2:25 LinkedIn and post
+2:28 uh this uh but condense it to four
+2:33 sentences
+2:34 no emojis
+2:36 or hashtags.
+2:39 And so now you see it says working.
+2:42 Check this out. If we click on this
+2:43 right here, we see that this in this
+2:46 little side browser, it navigated to
+2:48 LinkedIn. Now it's writing the post. I
+2:50 don't know if you can see that. It's
+2:52 very small on my screen. It's now
+2:54 reasoning.
+2:56 I need to create a new LinkedIn post. As
+2:59 you can see, it's actually pasted that
+3:01 post in. And boom. And if we go to a new
+3:05 tab by pressing command T, I can just go
+3:08 LinkedIn. And we can see here that
+3:15 if we go to my profile,
+3:18 we can see that it posted this for me.
+3:21 It automatically posted it. And so
+3:24 that's basically what's going on here.
+3:27 One thing that I really like about these
+3:29 VI browser tools is that you can
+3:31 at@mention different things that are
+3:35 open or your bookmarks. So for the Andre
+3:37 Carpathy video, I can do at Andre
+3:40 Carpathy and enter it in. With
+3:42 perplexity, it doesn't seem to have
+3:44 really strong bookmarks or have really
+3:47 strong uh like you can't mention
+3:49 bookmarks like on dia browser for
+3:51 example, which is a very similar idea
+3:54 and I think it's useful that we actually
+3:55 talk about this. So this is forget
+3:57 Google and Microsoft OpenAI maybe
+3:59 building the ultimate suite of apps
+4:01 right so let's say that I am writing a
+4:04 Google uh I'm on Google docs and if you
+4:07 watch my last video you already saw this
+4:09 um if you go commande E it opens up this
+4:12 side panel I can not only go at and tag
+4:15 that article say uh write uh write five
+4:20 sentences on this um I can also for the
+4:24 next one right it's going to write this
+4:26 for me and I'll be able to um please
+4:30 write it
+4:35 right if you get it to write it in this
+4:37 format you can very easily insert it but
+4:40 you what you can also do here what you
+4:43 can also do here is you can go at all
+4:46 open tabs and you can also at your
+4:48 bookmarks like my short form hooks right
+4:51 I can write short form hooks I can go at
+4:54 um long form hooks All right. Um, and I
+4:57 can say, "Please write in my voice." So,
+5:01 I just gave it context of some of my
+5:04 content and the context of the rest of
+5:06 the tabs open. And so, that's actually
+5:08 my favorite feature out of DIA or
+5:11 Perplexity. Like, I absolutely love the
+5:14 fact that I can just at@mention all of
+5:15 my bookmarks because it turns my web
+5:18 browser and all the things that I
+5:19 consciously save into permanent memory
+5:22 that I can access at any given time. And
+5:25 this is just one pretty good example
+5:27 right here. However, the thing that I
+5:29 don't like about DIA is it doesn't have
+5:31 really strong AI models. I'm pretty sure
+5:33 this is GBT4.1
+5:34 and it's just not great at writing yet.
+5:37 And so I still can't tell which web
+5:40 browser that I want to go to go with.
+5:43 But yeah, you can like atmention things.
+5:45 And on this you can actually have it go
+5:48 do things. You can say like please uh go
+5:51 to Amazon.
+5:53 Um, search for a new, I don't know, pen
+5:59 that is uh futuristic
+6:03 and uses AI somehow.
+6:08 Please scroll until you find three.
+6:13 And you literally can basically just
+6:15 send an AI agent to go do tasks for you
+6:18 while you are on your main tab. And you
+6:20 can see here it's browsing something or
+6:23 it's b browsing Amazon.
+6:26 It's taking advantage of Prime Day and
+6:28 it's going off and doing things for you.
+6:31 And so that's basically what's going on
+6:33 here, right? Over time, very very
+6:35 quickly, this AI aspect of this web
+6:38 browser is going to get more and more
+6:40 powerful. Probably to the point where it
+6:42 gets so powerful that you just you don't
+6:45 even really need the web browser
+6:47 portion. the AI is going to be able to
+6:48 do so much for you. That is what I want
+6:52 to talk about today. That's what I want
+6:53 to really dive into some of the details
+6:55 and kind of compare these different
+6:57 tools. DIA was the first one to launch.
+6:59 They launched a little over a week ago
+7:01 now and um I've been in their beta for
+7:04 like 2 weeks and a lot of people really
+7:07 like it. But I will say Comet is
+7:10 stealing the show and I guarantee you
+7:11 OpenAI when they release their browser
+7:13 within the next week, they are going to
+7:15 steal the show from Perplexity. And so
+7:18 one thing that OpenAI released last
+7:21 year, they released operator and deep
+7:23 research. And so you can think of deep
+7:25 research as basically a PhD level
+7:28 researcher that can go off and research
+7:31 things and it will decide when it's done
+7:32 researching. And that's what makes it so
+7:35 agentic, right? An agent is a model that
+7:39 uses tools in a loop. And so if you're
+7:41 losing tools in a loop, it's not just
+7:43 going to use tools in a loop forever.
+7:45 The agent will actually decide when to
+7:47 stop using tools. And the same goes for
+7:50 operator, which is a browser use agent,
+7:53 which is very similar to what you saw
+7:55 with perplexity. Perplexity has an
+7:58 operator, right? I'm just calling it
+7:59 operator. That's the name OpenAI gave
+8:02 operator, but we're just going to call
+8:03 it operator, which is just a browser use
+8:05 agent. And Perplexity also has deep
+8:08 research and their deep research has
+8:10 access to many different models. You can
+8:12 use Deep Seek 1, you can use OpenAI's
+8:14 models, you can use Claude's models, you
+8:17 can use any AI model. Uh they just added
+8:20 Grock 4. Uh DIA is free, right? Our
+8:26 cheapest plan is $200 per year to get
+8:28 access to Comet. Maybe there's free, but
+8:31 like I don't think you get access to all
+8:32 the features for free. But DIA seems to
+8:35 be free, but I do think they're going to
+8:37 add a premium uh plan with the different
+8:40 AI models, which I would pay for. And so
+8:43 these three tools, DIA, Comet, and
+8:46 ChatGpt have features that are somewhat
+8:49 similar. And that is skills, spaces, and
+8:52 projects. If you're in DIA, you can
+8:55 actually press slash and you have access
+8:57 to basically like custom prompts, right?
+9:00 And so let's say that I'm watching a
+9:02 YouTube video on DIA and it's this video
+9:06 right here. This is the this is the
+9:08 demo. We press command E and we what we
+9:11 can do is we can actually create custom
+9:14 uh this is quote summary. So this just
+9:16 grabs the most important quotes from the
+9:18 video and it just puts them in a line.
+9:21 And obviously it's not numbering them
+9:23 properly, but this is just a custom
+9:25 summary format. And I have another one
+9:27 which is summary quick which is a very
+9:28 short summary that I can use at any
+9:30 given time. And this is just a way to
+9:32 access certain AI powers really quickly
+9:35 in in comet. Um I forget which ones I
+9:39 even have. They have what's called
+9:41 spaces. It's very similar. Um this is
+9:44 like AING. This is basically my AI agent
+9:47 that um uh explains things really
+9:50 simply. So I can say explain AI agents
+9:54 and the custom prompt within this.
+9:56 Right? If we were to open up a new tab
+9:58 here and we were to open up spaces in
+10:02 aing
+10:04 um if we were to go into our custom
+10:08 prompt, if we hit settings, um it's like
+10:11 you're a you are an expert explainer
+10:14 specifically on the topic surrounding
+10:16 AI. So I can very quickly access this
+10:18 system prompt and any other files that I
+10:21 upload to this like almost like a chat
+10:24 GBT project or a claude project. It's
+10:27 very similar. You can basically um have
+10:30 access to it at any time. All you have
+10:32 to do is press at and it's very similar
+10:34 to the way that you at mention on DIA.
+10:37 Chachibbt has projects and it's very
+10:39 similar and I guarantee you they're
+10:41 going to be carrying that into their web
+10:43 browser and it wouldn't actually
+10:45 surprise me if Chachbt just didn't
+10:47 become a browser because I think that
+10:48 they just want to keep people on that
+10:50 platform. And so that's what I mean by
+10:52 skills, spaces, and projects. They all
+10:55 have different ways that maintain
+10:58 different types of memory and system
+10:59 prompts depending on the task that you
+11:01 want to do at any given time. If we
+11:03 compare the amount of users, right?
+11:04 Obviously Chrome has 2.5 billion roughly
+11:09 weekly active users and OpenAI has
+11:12 weekly 800 million weekly active users.
+11:15 They are growing by far the fastest. The
+11:17 same way that Google Chrome in just a
+11:19 few years took over the browser market.
+11:22 Chat GBT is doing the same thing to them
+11:24 again. And so obviously in late 2022 we
+11:27 were introduced to chat GPT and then you
+11:29 know in 2023 and 2024 we had separate
+11:32 experiences. We had chat GBT and we had
+11:35 Google and a lot of things was going to
+11:37 a web browser copying and pasting things
+11:39 pasting them into chat GBT getting some
+11:41 summaries pasting it back into Google
+11:43 and it's kind of this like kind of this
+11:46 slow process and the were two separate
+11:49 entities and now with this VI browsing
+11:52 revolution we get a very nice
+11:56 you put them together basically we put
+11:58 together this web browser with this AI
+12:01 chat feature and they're very much
+12:03 related, right? You can highlight
+12:05 something on perplexity, right? In
+12:08 perplexity, right? Let's say I were to
+12:09 copy this, right? If I highlight this,
+12:12 look, it shows up right here, and it
+12:15 immediately puts it into context. Uh, on
+12:18 top of this, right, on top of this,
+12:19 let's go to an interesting part. So,
+12:22 this is a slide. If I were to press this
+12:24 button right here, this is a screenshot
+12:27 on perplexity. And I could say please uh
+12:31 like do additional
+12:34 research, right? And it would have
+12:37 context of that image. And so it's very
+12:41 much uh intermingling these chat
+12:44 features and the browser feature. And
+12:47 it's the same exact process on Dia,
+12:49 right? DIA has this camera thing. It's
+12:52 like click to drag. And this has like a
+12:54 snap feature. It's actually pretty solid
+12:57 the way it does that. They have a really
+12:59 good design and then you can just very
+13:01 quickly reference things. So the
+13:04 feedback loop and the just kind of the
+13:07 speed of usage between the browser and
+13:09 the chat is becoming like that. And
+13:12 obviously in Perplexity's case uh you
+13:15 can literally browse just by telling a
+13:17 basically a separate browser instance to
+13:19 go off and browse for you which is
+13:22 really really cool. And this is kind of
+13:25 another shift. And so this little side
+13:28 panel right here is still reactive,
+13:31 right? You still have to go to it and
+13:33 tell it what you want it to do. You have
+13:35 to tell it to go browse stuff. It's not
+13:37 yet proactive. But mark my words, that's
+13:40 exactly where this is going. Right? I
+13:43 was reading an article today that said
+13:45 these companies are aiming to transform
+13:46 browsers from passive tools into
+13:48 proactive assistants that anticipate
+13:51 user needs which they can deliver
+13:53 smarter and more tailored experiences
+13:55 than Chrome has yet to fully embrace for
+13:58 now, right? We'll see if Chrome responds
+14:02 to these tools. They basically have to.
+14:04 and the way their whole product team is
+14:07 set up now. You've I've seen Google
+14:10 completely turn it around and they are
+14:12 now innovating as fast as OpenAI. Gemini
+14:16 and Claude are both rapidly advancing in
+14:19 terms of revenue and I anticipate it's
+14:21 going to get much more competitive from
+14:23 those players as well. So, what will
+14:26 Open AI's browser do, right? What will
+14:29 the features be? And I really want you
+14:32 to think about this because you might
+14:33 have heard of all of the things that I'm
+14:35 about to say, but have you ever wrapped
+14:36 your head around what it means to have
+14:39 all of them in one single tool? In my
+14:42 opinion, the way that chat GBT is moving
+14:47 a as it becomes a browser, it will
+14:49 become a business. You and Chat GBT are
+14:53 a business, right? Why do businesses
+14:56 exist? Businesses exist because it's
+15:00 more efficient to have many people
+15:01 working together, right? The sum of all
+15:03 the people working together on a problem
+15:05 is greater than its parts. And you know,
+15:09 you don't have time to learn accounting,
+15:11 to learn design, to learn how to build a
+15:13 product, to do marketing, and to do all
+15:15 these different things. Well, chat GBT
+15:18 as it gets smarter will allow you to
+15:22 become a business in and of yourself,
+15:24 and you can just move a lot faster. You
+15:25 don't have to set up meetings. You don't
+15:26 have to talk to people. You can just
+15:28 take action. You can learn anything
+15:30 because let's talk about their features,
+15:32 right? ChachiBBT is
+15:36 a web browser, right? It is an AI that
+15:38 can use a browser and it can run many
+15:40 instances of a web browser, right? If
+15:42 you remember operator, it takes control
+15:44 of your browser. It can go off and do
+15:45 tasks. It is also a deep researcher.
+15:49 Obviously, it has normal web uh web
+15:51 search, but it can already research for
+15:53 up to like 45 minutes depending on how
+15:55 hard your research question is. And it
+15:57 is AI that can research like a PhD.
+16:02 And obviously with a tool like chatbt,
+16:05 it can answer any question. Obviously
+16:07 with their image generation tool, it can
+16:09 create any visual, whether that is an
+16:11 image or an infographic, right? It can
+16:15 speak to you. And then where it gets
+16:18 really really interesting is it can
+16:21 create documents. Chat GBT released a
+16:24 feature called um canvas. And you can
+16:27 see it a little bit right here. We can
+16:29 make this a little bit bigger. But if
+16:31 you ask Chat GBT or if you ask Claude,
+16:34 they have the same feature, right?
+16:35 Claude has the same feature. I used it
+16:37 right here. This is a little canvas,
+16:40 right? and you can highlight it and you
+16:42 can say explain and like it's kind of
+16:45 this natural separation between um your
+16:49 chat interface and kind of the work that
+16:52 you're working on in chat GBT you can
+16:54 actually directly edit it you can't type
+16:57 on this on claude yet which is kind of
+16:59 annoying they should add that feature
+17:01 but the point is is you can create these
+17:03 little canvases if you use Gemini right
+17:06 Gemini's feature where I'm pretty on my
+17:10 arc. If I go to uh Gemini on
+17:14 gemini.google.com,
+17:16 uh create a canvas on uh a poem, right?
+17:21 If you just ask it to create
+17:25 a canvas, it should. Maybe I have to.
+17:29 Okay, so I asked the AI to create a
+17:32 canvas. And now you can actually edit
+17:35 this right here on the side. And
+17:38 Gemini's interface has gotten a lot
+17:39 better. And what you can do is you can
+17:41 actually hit this share feature. You can
+17:43 export it to docs. And chat GBT can do
+17:48 this same exact thing where it can use a
+17:50 canvas and soon and soon open a uh in
+17:55 OpenAI you're going to be able to add it
+17:59 to their version of Google Docs. So, not
+18:02 only did OpenAI hire two former Chrome
+18:06 founding team members, um they're also
+18:08 building, right, they are building the
+18:12 ultimate work suite of apps and
+18:13 services. So, they are literally
+18:15 building Google uh the equivalent to uh
+18:19 Google Docs, uh Google Sheets, Google
+18:22 Slides, and I believe I would anticipate
+18:25 there will add an uh a mail. And the
+18:28 same way that Google copied Microsoft,
+18:31 um, they're going to be building a full
+18:33 office suite, they already added a
+18:35 granola like feature. So granola is a
+18:37 notetaker. Well, OpenAI copied that
+18:39 exact feature as well. So it seems to me
+18:41 that they're going after the kind of
+18:43 office suite. And so yeah, that's kind
+18:47 of the direction they're going. It can
+18:49 do all of these things. Then pretty
+18:51 soon, not only will it be able to do all
+18:52 types of research, answer any of your
+18:54 questions, create, speak, and create
+18:57 documents for you and create sheet,
+18:59 slides, and mail, right? Not only is it
+19:02 going to be able to research or answer
+19:04 your question, create any visual or
+19:06 speak to you, it will be able to create
+19:07 any document for you in the file type
+19:11 that you need. And as a thought
+19:13 experiment, I really wanted to talk
+19:15 about uh now versus one year from now.
+19:19 as a thought experiment, right? As you
+19:21 know, if you've used deep research,
+19:23 right? Deep research on chat GPT, um,
+19:26 how good is it doing research? And I
+19:28 would say it's pretty good now. Like I
+19:30 would say it's a six or seven out of 10.
+19:32 Tyler Cowan, who is a an economist, um,
+19:35 he talks about how his deep research 03
+19:38 deep research is actually better than
+19:40 some of his research assistants. But a
+19:44 lot of people think that it is very good
+19:46 at doing research. Now, if you used
+19:49 operator, you know that it's not very
+19:51 good at controlling a computer. It
+19:53 doesn't really have good context of
+19:55 where it's at, right? Which is uh you
+19:58 know, very similar to this comet thing.
+20:00 It's just like uh go to LinkedIn and um
+20:05 please draft a post. Don't post it. Just
+20:10 type it of this. And um in this window
+20:15 that opens up right here on Perplexity,
+20:17 I would show you on on chat GPT, but I
+20:19 just got a new MacBook and I'm not even
+20:21 signed in. Okay, there you go. So when
+20:24 this thing pops up and it says working,
+20:26 that means it is using the browser
+20:27 agent. And so this is what I'm talking
+20:29 about. This is what it means to browse
+20:31 an um to like actually browse. So here
+20:34 it's actually typing something on
+20:35 LinkedIn for me um while I work, right?
+20:38 You don't even need to have this open.
+20:39 Ideally, this gets so good that you
+20:41 don't even need to like really keep tabs
+20:43 on it. It'll just be like, "Yeah, buddy.
+20:44 I got you. I posted it. Don't worry
+20:46 about it." And it's just like, "Oh,
+20:47 okay. That's pretty damn cool." And you
+20:49 can see here that it is lined up. I
+20:52 don't think it's actually posted it, but
+20:54 it's still not great, right? It can do
+20:56 like f four or five steps of a thing,
+20:58 but it forgets where it's at, right? It
+21:01 doesn't have really good context.
+21:02 There's another tool that I've been that
+21:04 I've used. It's called VI by Vers. VI.
+21:07 It's like a computer use AI agent. It
+21:10 literally controls your actual computer.
+21:12 It doesn't just control your browser,
+21:14 but it's not very good. I'm going to be
+21:16 honest. And so, I personally think this
+21:19 is going to get a lot better very, very
+21:22 fast. It's already gotten better in the
+21:24 last 6 months, but I've been talking to
+21:25 companies who are working on this
+21:27 problem and there's a lot of innovations
+21:32 coming around the corner to basically
+21:34 allow for the agent to have like spatial
+21:36 memory and know exactly what step it's
+21:38 on and be able to retrace its steps and
+21:42 know what the next step is to be. Cuz
+21:44 right now it's just kind of getting
+21:45 lost. Imagine in a year, right? What
+21:49 happens if in one year it becomes better
+21:52 than 99% of humans at doing research and
+21:55 controlling a computer? Meaning it could
+21:57 just fly through web pages much faster.
+22:00 It uh it could memorize long workflows,
+22:04 right? As you can see here, like I set
+22:07 up this research by like copying and
+22:09 pasting things from around the internet
+22:11 into this Figma board. I drag them
+22:13 around this canvas, organize them in an
+22:16 interesting way. Imagine if an AI agent
+22:18 could do the same thing, right? Imagine
+22:20 if an AI agent could actually like I
+22:22 think that would be really cool if it
+22:24 could copy and paste things that it
+22:26 thought that I would think are
+22:28 interesting and pasted them on a canvas.
+22:30 Maybe it left leaves me little comments
+22:32 for what I think would be interesting. I
+22:34 think that would be like a really
+22:36 fascinating
+22:37 um and super useful tool. Now, what does
+22:41 that mean for a lot of people? I think
+22:42 that would scare a lot of people because
+22:44 like most people who went to college
+22:47 went there to build expertise, right? To
+22:49 build knowledge and to be able to do
+22:52 things in a company that requires a
+22:54 computer, right? You are using your
+22:56 knowledge through a computer. And what
+22:58 we're doing in this specific case is
+23:00 we're basically teaching an AI, right?
+23:02 it can already answer any question for
+23:04 you. But like you're like, "Yeah, but
+23:07 you know, I'm safe because you know AIs
+23:09 don't know how to actually do this
+23:11 stuff. It might have knowledge, but it
+23:13 can't actually do anything." Yeah, well
+23:15 that might not last very long, right? If
+23:18 you can teach an AI to use that same
+23:20 knowledge that it has in chat GBT and
+23:23 you could exert that knowledge into
+23:26 using a computer, right, which I think
+23:28 it's on pace to. I think by mid 2026
+23:31 it's going to be a 10 out of 10 at
+23:33 controlling a computer. Like I actually
+23:35 believe that maybe even by the end of
+23:37 2025. Like who knows? We are one leap
+23:40 away. And the implications of that are
+23:44 insane. Absolutely insane. We are in a
+23:49 massive shift right now. We are in a
+23:51 massive shift. Um, and it started off,
+23:54 you know, like as you can see here, from
+23:57 like 010 or from 2010 to like 2018, we
+24:02 saw Chrome just like take over the
+24:05 browsing market. And right now, like
+24:08 over the past, I would say 5 years,
+24:10 we've seen a shift from a lot of the way
+24:12 that people interface with the internet
+24:14 have just become really social. People
+24:15 are using Tik Tok to search, people are
+24:17 using Instagram to search, people are
+24:19 using X to search, right? I keep up with
+24:22 AI advancements and adoption mostly
+24:25 through X, like 90% of it, because
+24:27 that's where all of the smart people are
+24:28 hanging out and posting things in real
+24:30 time. And it has just become a better
+24:32 source of information than Google, which
+24:34 basically just serves me ads all the
+24:36 time. And so, we're kind of going
+24:38 through this third shift from like
+24:40 browsers to social to chat. And then now
+24:45 we're gonna kind of get this like weird
+24:48 merger between AI chat and browsing,
+24:52 right? It's it's it's this weird
+24:54 phenomenon. And we don't fully know what
+24:57 this looks like yet, but we do know it's
+25:00 powerful. We know that browsing is
+25:02 essential. People still use browsers all
+25:04 the time. More people use browsers. More
+25:06 people are using Chrome than chat GPT by
+25:09 a lot, right? As we saw earlier up here,
+25:13 right, we see 2.5 billion weekly active
+25:17 users on Chrome, 800 million uh on Chat
+25:21 GBT. But if this was left alone, Catch
+25:23 GBT is going to pass Chrome within the
+25:25 next year or two, right? And so a lot of
+25:28 companies are asking themselves right
+25:29 now. They're like, "Okay, what do we
+25:31 do?" Right? How do we show up on these
+25:33 browsers? And in the future, I'm going
+25:36 to make a video on kind of large
+25:38 language model optimization. Um, this is
+25:41 a new trend um that requires probably an
+25:44 hourong video and I'll probably bring
+25:46 someone on to talk about it um on a
+25:49 future episode of the podcast uh because
+25:51 I don't know much about it. I do know
+25:53 that you probably want to show up on
+25:56 popular publications. You probably want
+25:58 to show up there and you probably want
+26:01 to be talked about in public, right? I
+26:03 have a startup, the Vibe Code app, and I
+26:05 want people uh to know about it, right?
+26:07 I'm in charge of its marketing. And I
+26:10 think it's important to get out there
+26:12 and kind of intermingle your brand with
+26:15 other brands and and really get out
+26:17 there because AI is going to be
+26:18 searching the internet, right? People
+26:20 are going to be interfacing with the
+26:21 chat and as we saw with the perplexity
+26:24 example, AI is going to be searching the
+26:26 internet. Most of the entities searching
+26:30 the internet is AI. And so the whole
+26:33 paradigm of search engine optimization
+26:36 is going to be flipped on its head. We
+26:37 don't know exactly how it will be
+26:38 flipped on its head, but that's why we
+26:42 have this channel. I'm going to be
+26:43 talking about it in the future. Um, and
+26:46 the way that I see the most successful
+26:49 people um, handle the AI revolution in
+26:52 general and I think it would stand for
+26:55 this transformation from this like chat
+26:58 paradigm to this browser chat paradigm
+27:01 is just to become a business. Um, not
+27:03 only become a business but become a
+27:05 content creator. It is now more risky to
+27:08 get a job than it is to become a founder
+27:10 or entrepreneur. And that's because of
+27:12 all of this futuristic technology,
+27:14 right? Businesses don't want to take the
+27:16 risk of bringing on too many humans if
+27:19 you don't know what role you're hiring
+27:21 for. Like if you're asking yourself,
+27:22 will my job be safe? Just know that like
+27:26 if you're worried, if you're playing
+27:27 defense, right? If you're playing
+27:29 defense and you're worried about these
+27:30 agentic browsers that can go off and do
+27:32 tasks for you, you're already doing
+27:35 something wrong. You need to attack
+27:37 through it. do not be cynical about it
+27:39 and just learn how to use these tools
+27:41 effectively to always be connecting or
+27:45 ABC. And so this is something that I've
+27:46 been talking about, right? You always
+27:48 want to be finding connections through
+27:50 all of your life's experiences. And you
+27:54 want to find connections between like AI
+27:56 content and certain marketing principles
+27:59 and then also like take concepts from
+28:02 poker, which is one of my other
+28:04 interests. And you want to focus on
+28:05 being human, finding connections, things
+28:07 that AIs aren't likely to find. And you
+28:10 want to make sure that you're not just
+28:11 doing repetitive behaviors on a computer
+28:15 because that's exactly what AI is
+28:17 getting really really good at. And so
+28:20 you can use these AI search um these AI
+28:25 powered vibe browsing tools to just
+28:27 rapidly accelerate the speed at which
+28:30 you learn. And if you just focus on like
+28:34 being really fast, delivering
+28:36 high-quality work, and using AI across
+28:38 the board, you will make it. You will be
+28:41 fine. It's going to be such an exciting
+28:44 time in the world of AI. And um every
+28:48 single tool that we know of is going to
+28:51 is going to kind of transition into
+28:53 something like this where you have this
+28:55 familiar web browser um or familiar
+28:58 interface, right? This is going to be
+29:00 Adobe. Adobe is going to literally be
+29:02 this, right? You have this familiar
+29:04 video editing platform. You'll have your
+29:06 timeline down here with all your tracks
+29:08 and then you'll have an AI agent that
+29:10 can go out and control everything,
+29:13 right? And if your tools are built in
+29:15 such a way that it can't do this, your
+29:17 software tools are in trouble. That's
+29:20 just the way it works. And it's going to
+29:23 What an exciting time. Anyway, that was
+29:27 just a quick little video on the browser
+29:30 wars, all the different tools and the
+29:32 transition. And uh yeah, I'll see you
+29:33 here in the next video.

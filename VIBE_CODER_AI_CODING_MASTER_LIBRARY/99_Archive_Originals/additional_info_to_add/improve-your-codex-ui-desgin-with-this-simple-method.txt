@@ -1,0 +1,96 @@
+Improve Your CodeX UI Desgin with This Simple Method
+
+0:00 You know one of the biggest problem when
+0:02 you when you need to improve the user
+0:04 interface of your existing application
+0:07 and especially when you are working with
+0:08 codeex one of the biggest problem that
+0:11 you face is that codeex is not really
+0:14 good with UIUX stuff and according to my
+0:17 experience Gemini
+0:20 is the best one right because it just
+0:23 saves you a lot of time because it ju it
+0:26 it just does things it takes a lot of
+0:29 decision
+0:30 that you would take yourself especially
+0:34 in UIUX.
+0:36 So let me share with you a very simple
+0:39 workflow that I that I am using at this
+0:42 point that can save you a lot of time
+0:44 and frustration hopefully. Now this is
+0:47 like one of my application I'm working
+0:49 in some of the features over here. Now
+0:51 let's try to find a part of this
+0:53 application which I want to improve in
+0:56 terms of UIUX. So I'll take a look at
+1:00 different things. Okay. So we can take
+1:02 this to-dos page example.
+1:05 This does not look very good to me.
+1:08 Right? I mean this is minimal but we
+1:10 need to improve this. So what I'll do
+1:13 I'll simply take a screenshot of this
+1:15 portion. I'll simply take this
+1:17 screenshot like this.
+1:22 Then I'll come to Google Gemini. I'll
+1:24 create a new chat. Make sure you select
+1:26 the canvas option. I'm going to paste
+1:30 this screenshot over here. I'm going to
+1:33 choose the pro model and then I'm going
+1:36 to paste the prompt that I use every
+1:38 single time. Let me show you. So this is
+1:41 the prompt that I'm using system prompt.
+1:44 The premium monogram UI designer role.
+1:47 You are an expert react and tailwind CSS
+1:49 developer with a specialty in high-end
+1:51 minimalist UI design. Your goal is to
+1:54 take any UI screenshot or description
+1:56 provided by the user and immediately
+1:58 redesign it using a strict premium
+2:01 monochrome aesthetic. Objective:
+2:03 transform outdated or cluttered UIs into
+2:05 clean modern single file react
+2:07 components without asking for further
+2:09 clarification. Right? So this is like
+2:12 one of the prompts that I have created
+2:14 which gives me something that I want
+2:17 basically and just like that I'll
+2:19 provide this prompt to you and then I'll
+2:22 simply click on this submit button and
+2:24 then we just wait and see what it
+2:26 creates this time. This was a very
+2:28 minimal design by the way. Let's just
+2:31 see what happens. Okay. So this is what
+2:33 it created. This is much much better I
+2:36 would say. Now if at this point you feel
+2:39 like something is not good, you can
+2:41 obviously select that portion like this
+2:45 and then you can add a comment and then
+2:48 Gemini will update it accordingly. Let
+2:51 me give an example. So I'm going to
+2:53 click on this select and ask and then
+2:56 from here I'm going to just tell it to
+2:59 remove these and now it is going to
+3:03 remove that. And now you can see that
+3:06 badge is removed and we are here. So
+3:08 obviously you can do all the adjustments
+3:10 that you want to do. You can tell it to
+3:12 apply colors based on your app and
+3:15 things like that. But then you can
+3:18 simply take the code of all of this.
+3:21 This is the important thing. You simply
+3:23 take all this code. You tell codeex to
+3:27 basically this is what your designer
+3:28 sent and I want you to in integrate this
+3:31 UIUX exactly to this area of my
+3:34 application and it is going to do that
+3:37 automatically for you because now you
+3:40 have all the code that makes this user
+3:42 interface beautiful right so now you
+3:45 don't your codeex does not have to
+3:46 figure out what classes to use the
+3:49 different visual hierarchy stuff and
+3:51 different design elements you don't have
+3:53 to worry about all those things. You can
+3:55 simply provide this code and it will
+3:57 automatically create integrate this
+4:00 thing within your application.

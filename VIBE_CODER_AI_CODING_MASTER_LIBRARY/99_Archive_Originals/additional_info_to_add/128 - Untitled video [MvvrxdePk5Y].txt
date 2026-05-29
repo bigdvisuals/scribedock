@@ -1,0 +1,1361 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=MvvrxdePk5Y
+Channel: Riley Brown
+Video ID: MvvrxdePk5Y
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 using AI specifically Claude 3.5 sonnet
+0:03 I created a full website with a front
+0:06 end and a backend from scratch meaning I
+0:10 basically went to Claude and said I want
+0:12 a page that looks like this and Claude
+0:14 said okay here's the code gave it back
+0:16 to me I pasted it in a code editor and
+0:19 then I ran it I then evaluated it or I
+0:22 got errors and I would say Claude fix it
+0:24 and I went through this entire process
+0:26 over and over again without writing any
+0:28 code basically just asking Claude what
+0:31 to do and then pasting in the code or
+0:34 doing the instructions on the back end
+0:36 which I'll get to later I created this
+0:38 full website keep in mind two weeks ago
+0:41 I had never written a line of code in my
+0:42 life or copied and pasted code in my
+0:45 life into an editor but it was one
+0:48 feature that really drove me it was this
+0:51 feature in Claud which basically renders
+0:54 your code directly in the side window so
+0:57 you don't even need to copy and paste it
+0:58 anywhere you can say Crea front end
+1:00 website that looks like this and it will
+1:02 just do it make this about pizza
+1:10 actually you see that Slice of Heaven it
+1:13 will just do that right there on the
+1:14 side window the problem is this isn't
+1:16 actually a website you can hit publish
+1:19 and share this front-end experience but
+1:21 you can't hook it up to your own domain
+1:23 and the data isn't stored anywhere so
+1:26 then I thought how far could I push this
+1:28 what could I create while using only AI
+1:31 that would actually benefit my business
+1:34 and so that's when I decided okay well I
+1:36 need a place to paste this code so I
+1:39 asked Claude where do I paste this code
+1:41 to get it to run and it suggested repet
+1:44 so that's where I went so the rest of
+1:45 this video this is the first time I've
+1:47 ever created a functional backend where
+1:49 other users can sign in so far 84 people
+1:53 have signed in I created this thing
+1:55 using the backend so that when a user
+1:57 signs up it will actually count the
+2:00 number of users and it will put it right
+2:02 here from scratch right before you could
+2:04 do this on web uh WordPress with some
+2:06 plugin but I know how to ask Claude to
+2:09 just create it from scratch without any
+2:12 intermediary I had never created a
+2:14 website with a backend and I've never
+2:16 really created a website that's gotten
+2:18 any traffic and so I want this site to
+2:21 look good and I want it to be scalable
+2:23 over the long run so throughout this
+2:25 video you're going to see me creating
+2:26 the front-end concept on CLA artifacts
+2:28 based on another site
+2:30 that I wanted to mimic and then I'm
+2:32 going to paste this code into the editor
+2:34 on repet and there is a template that I
+2:37 used it's not a very big template it
+2:39 just adds a little file that makes it
+2:41 run more smoothly and I'll paste it in
+2:43 the description below and then in repet
+2:45 we also just made a ton of adjustments
+2:47 copying and pasting from repet which
+2:49 basically runs the code and you'll see
+2:51 me wrestle with Claude to get it to look
+2:54 correct and then we created a backend on
+2:57 Firebase which I had no idea really how
+3:00 to do this prior to last week when I
+3:03 first tried it and failed and today in
+3:06 this video I got it down and then we
+3:09 basically connected this back end with
+3:10 the front end and then we created a
+3:13 database and so the database is
+3:15 necessary for all of the actions to be
+3:17 stored on the website so when someone
+3:19 adds a comment it needs to store those
+3:21 comments in a collection I kind of think
+3:25 of this as like a giant Excel sheet sort
+3:27 of and then I also did user Management
+3:31 on this website I have this admin page I
+3:33 can add a course and I can add a new
+3:35 lesson however if I sign out and sign in
+3:39 as a standard user I don't have that
+3:42 page right it's not there there's
+3:44 nothing there right so I can't see
+3:47 that so we set up permissions user
+3:50 management and then my main code file
+3:52 got way too long and then I asked AI to
+3:55 basically separate it into a bunch of
+3:56 different files which then made it
+3:58 significantly easier to do styling and
+4:01 then after I did styling we deployed it
+4:04 and then I added my own domain and so
+4:06 this video is not necessarily a
+4:10 step-by-step tutorial because the path
+4:13 that I took is certainly not the most
+4:15 optimal path I'm not claiming to be an
+4:17 expert I a beginner but I'm a Relentless
+4:21 beginner and so I was successful in this
+4:23 video and so the main point is that this
+4:26 is proof that through Brute Force asking
+4:28 AI with enough determination you can
+4:31 basically get the end result that you
+4:33 want as long as you don't get flustered
+4:35 and you have a high tolerance for being
+4:37 annoyed you can do unspeakable things
+4:39 because this is just the Foundation
+4:41 create. Inc is a uh a domain that I
+4:43 bought I spent thousands of dollars on
+4:45 this domain and I'm going to build
+4:48 prototypes that are actual AI apps that
+4:51 users can use and I'm going to create a
+4:54 podcast where literally all we do is use
+4:56 different AI tools to create apps that
+4:59 we can then put prototypes we're going
+5:00 to keep everything open source people
+5:02 are going to be able to download the
+5:03 code and make them better and it's going
+5:05 to be a creative Studio using all the
+5:08 different AI tools all the way from code
+5:10 to AI generated video images and music
+5:13 it's going to be sick and so I wanted to
+5:16 create this I thought it was very
+5:17 important and I used AI through Brute
+5:20 Force throughout this process to create
+5:23 it and I hope that it inspires you to do
+5:25 the same and if there's anything that
+5:27 you need from me I going to put a
+5:30 general chat on create. Inc where you
+5:32 can ask questions and I'm going to
+5:35 respond there I am also going to on
+5:39 create. in this creating websites with
+5:41 AI for on this creating frontend and
+5:44 backend with AI this is where I'm going
+5:45 to put all of the information so I
+5:48 haven't edited this yet but right now I
+5:50 can't edit this because I'm not signed
+5:52 into to my main account but if I sign in
+5:54 as Riley Kirkwood gmail.com which is the
+5:57 admin account right I can actually get I
+6:00 can go to this site and now I can edit
+6:02 this so I will
+6:05 be putting all of the
+6:08 resources here step by step more detail
+6:15 me know if you guys have questions and
+6:20 this is all being stored on the backend
+6:22 database we can see that these are all
+6:24 the users all the users are coming in
+6:26 now cuz I posted it on Twitter I will be
+6:28 putting all of the resources here and we
+6:31 can see all of the comments that have
+6:32 come in all of this data is being
+6:34 updated based on what's happening on the
+6:36 front end of the website and I set this
+6:39 up fully by asking Claude and you're
+6:41 going to see this whole process in this
+6:42 video anyway I hope you enjoy this video
+6:45 my mission now I dedicating the next 10
+6:49 years to trying to build create. in into
+6:53 the most creative and empowering Studio
+6:56 I want to gather all the people who are
+6:58 excited to create things in one place
+7:00 and we're going to just create stuff and
+7:03 I believe that all these mediums are
+7:04 being mushed together programming video
+7:07 images 3D uh Motion Graphics it's all
+7:11 getting easier and it's all about what
+7:14 you want to create and your desire to
+7:16 create that's my main mission I hope you
+7:18 guys like this video um enjoy we're
+7:21 going to try and get AI to uh recreate
+7:24 this website all right so let's do this
+7:27 in segments I don't even know how to
+7:28 create a sign-in page but we're going to
+7:30 figure it out in this video so let's
+7:32 hone in here on this thing this thing is
+7:34 going to be the toughest part I don't
+7:36 even like it either can you
+7:39 turn this diagram
+7:43 into a progress bar list with indent
+7:48 paste that screenshot in
+7:50 here and let's just try
+7:55 this okay okay so let's add some
+7:59 background color so now it's like if
+8:02 indent uh the font is bold
+8:06 large okay okay okay so this isn't bad
+8:10 when I click on
+8:13 these I want it to open
+8:17 up to a new page use
+8:22 placeholders for the individual courses
+8:26 that you check off so we're just going
+8:30 to have it's just going to say
+8:33 arrays and
+8:36 hashing
+8:37 um course one and then there's going to
+8:41 be like it's going to have like one of
+8:43 those and then an hashing course
+8:46 2 um course one then I want it to update
+8:53 the
+8:54 progress bar of this on the main page
+9:02 also change the colors of these they are
+9:08 hideous make make them a dark
+9:14 themed the
+9:16 background of the site should be black
+9:22 as
+9:28 well okay okay so we ran into this
+9:30 problem where it doesn't have libraries
+9:32 on this so we're just going to have to
+9:34 open up REI it so we're going to start a
+9:36 new Ripple um NE
+9:39 code. we'll make this public Fork reppel
+9:42 this is just a template that I've used
+9:43 for react stuff before I can paste that
+9:46 code that it gives me on this right here
+9:50 I can paste this code in and it should
+9:54 sometimes and it doesn't always uh run
+9:56 in here so I'm just going to paste this
+9:58 in here let's see if this runs we got a
+10:00 bunch of Errors it looks like uh let's
+10:02 just see what
+10:04 happens so then I get this error so now
+10:08 I'm going to
+10:09 say okay I am going to run this in repet
+10:17 what do I need to do and then I'm just
+10:20 going to go errors that we got from the
+10:23 previous page right here and then it
+10:25 should just kind of tell me what to do
+10:27 full code or all I just I don't want to
+10:30 have to like paste in the individual
+10:33 components um and actually I am just
+10:37 going to start off by doing this so I'm
+10:39 going to go
+10:42 to right here we're going to go into
+10:44 this shell and we're going to paste this
+10:46 like this bada boom bada
+10:48 bing okay now what we're going to do is
+10:51 we are going to go back here and we're
+10:53 going to create full code for
+10:55 all I'm going to give it the so let's
+10:59 let's just
+11:00 download it already knows the app. TSX
+11:03 file it doesn't know this so I'm just
+11:05 going to give it this I'm also going to
+11:07 give
+11:09 it um this the
+11:13 index.html and then the TS config and
+11:17 then the package.json I don't really
+11:20 know what those do but I've just I've
+11:22 been coding using AI for the last two
+11:26 weeks so I kind of know what the AI is
+11:28 asking for um and so create the full
+11:30 code for all this is current code and
+11:36 let's just see what it does
+11:39 here now it's creating the index.
+11:42 TSX okay um so we need an index. TSX
+11:47 file which we may already have uh index.
+11:50 TSX okay so we'll paste that in
+11:53 there um now it's creating an app. TSX
+11:57 file and if we run out of credits on
+12:00 this cloud account no worries we'll copy
+12:02 all the code paste into a new cloud
+12:03 account because I do have two we're
+12:05 going to copy this bad boy and we're
+12:06 going to go to app. TSX and let's copy
+12:09 it all paste it all back to this uh
+12:13 index.html let's copy this uh
+12:17 index.html copy all paste all good um
+12:21 Vite config.sys
+12:31 in drag this in
+12:35 okay okay let's stop running this for a
+12:40 sec how does this look and run this
+12:45 thing okay so here it
+12:49 is we have this if we click on arrays
+12:52 and hashing it opens up like this and we
+12:54 can Mark these
+12:56 [Music]
+13:01 oh okay we're going to have
+13:05 to that's we weird it won't let me Mark
+13:08 that off so that's all I need to do is
+13:10 tell them you just have to like explain
+13:12 these things like you just have to
+13:13 explain everything um and it'll
+13:16 eventually get it like I know for a fact
+13:18 like like and
+13:21 so let's just do it all right let's do
+13:24 it um okay app. TSX all right let's just
+13:29 give it a old good old run here
+13:33 click God damn it dude not
+13:36 working man it limits me to one check
+13:41 off you got this all right let's see
+14:00 okay there we go it's starting to figure
+14:03 it out so now we can Mark these off
+14:07 here um and then let's see what do you
+14:10 add here so NE code. okay so when you
+14:14 click on one of these you click here and
+14:17 it has
+14:18 this um video
+14:22 solution um some of
+14:26 the hey everyone welcome this is all
+14:28 static like the only thing that's
+14:31 Dynamic for the user is just
+14:34 like it needs to keep track like from a
+14:37 backend database perspective it just has
+14:39 to keep track of this their status right
+14:43 within each course page there should be
+14:46 an identical progress
+14:49 bar at the top that
+14:53 has the same progress bar that
+14:58 matches the percentage of the one on the
+15:06 [Music]
+15:08 homepage okay let's copy this
+15:12 over
+15:17 um and let's give it a little try should
+15:20 reset oh what the hell is going on
+15:25 here yes that makes sense Okay so two
+15:29 pointers we click on this right now we
+15:32 have this progress bar here matches this
+15:34 progress bar here boom boom boom boom
+15:38 yep boom boom boom and ignore the
+15:42 um the layout here I know this looks
+15:45 ugly this looks like disgusting but it's
+15:49 fine we have to be okay with it looking
+15:50 gross let's very quickly add one more
+15:53 thing actually we're going to do this
+15:54 for my own website so I want it to say
+15:56 create do in to
+16:00 create
+16:02 anything and then a button we'll just
+16:06 put
+16:09 create I don't I know this probably
+16:11 isn't good copyrighting okay so we're
+16:13 basically creating this there is a bar
+16:17 at the top
+16:25 here all right and then so we have an
+16:28 icon
+16:30 on uh Creations road map um okay
+16:36 um okay now and so we're going to
+16:39 screenshot this I want this to be the
+16:45 homepage the thing you just
+16:49 created looks good but that should only
+16:55 be half the screen the left side should
+17:02 be and so we'll go
+17:06 header
+17:07 subtitle button there should be a top
+17:11 bar and notice how I'm like literally
+17:13 typing out what's in this like that's
+17:14 exactly what you have to do um and this
+17:16 is a hyperlink to something hyperlink
+17:21 and then road
+17:24 map uhoh this is starting to look pretty
+17:26 good I know the colors are you'll also
+17:29 notice that the header and subtitle and
+17:33 button are too low they're centered I
+17:36 need that to be aligned to the top so
+17:39 they should be right below the pop bar
+17:43 that's where those should be located
+17:45 that's try it so now it's using AI again
+17:48 I have not written or even edited a line
+17:50 of code yet I've only used
+17:54 AI okay wait the main change is the
+17:56 homepage I've removed the justify Center
+17:59 I just need to copy this and we just
+18:00 need to go back okay all right we're
+18:03 good yeah all right
+18:06 yeah yes there we go all right we screen
+18:12 this here this is what our website looks
+18:14 like so
+18:15 far
+18:17 um cool let's use up the rest of this
+18:20 CLA sesh as we're cut off until 6:00
+18:24 p.m. so that's an hour and a half from
+18:26 now and I have another clot account that
+18:27 we can use so it's fine
+18:29 let's say okay so now I want a way to
+18:34 edit this
+18:38 data and for the site to get updated I
+18:43 want to be able to add course topics
+18:48 which are like arrays and
+18:51 hashing and then right if we go to our
+18:54 site here so I want to be able to add
+18:55 arrays and hashing and then I want to
+18:57 also be able to add arrays and hashing
+19:00 course one oh that should be lesson one
+19:04 those should be lessons then course
+19:05 topics and then we'll call these lessons
+19:08 then I want users to be able to sign in
+19:14 and then Mark off their
+19:18 progress and have
+19:21 it
+19:22 and have that data
+19:26 save each lesson should have its own
+19:32 page like the
+19:34 hierarchy is course
+19:39 subject
+19:42 lessons that are part of course subject
+19:47 and the course subject is complete when
+19:53 all lessons are
+19:55 complete underneath
+20:00 I want to be
+20:03 able to add these both for my users who
+20:09 should be able to sign in
+20:14 and keep their progress
+20:25 saved all right so before I paste this
+20:28 code in it's accessing Firebase full
+20:31 instructions on setting up the fire base
+20:38 please and okay so what I'm actually
+20:40 going to do is I'm going to come to
+20:41 repet right now and I like the way this
+20:44 is like if we were to restart this yeah
+20:46 okay this is looking good so I'm
+20:48 actually just going to Fork this because
+20:49 I don't want to don't want to mess it up
+20:51 so let's start off by let's go let's
+20:53 make this
+20:54 V1 and then we're going to Fork this bad
+20:56 boy fork uh neat code IO
+21:01 V2 adding back
+21:04 end all right now let's hit public for
+21:10 okay now if we it up it's okay so
+21:14 we can Fork this and we can without
+21:17 worry we can copy this code up here oh
+21:21 yeah lot of instructions so now I need
+21:24 to go to two monitors cuz this part
+21:25 there's a lot of stuff I need to do I do
+21:27 not want to be flicking back forth here
+21:29 so I'm going to move claw over okay so I
+21:31 just got it set up so I can switch
+21:33 between my two monitors okay so we're
+21:35 still working on this one right here so
+21:36 if we look at here I'm just going to
+21:38 start doing a lot of these uh things
+21:44 here because we need to now we need
+21:49 to um we need to go to Shell and so all
+21:51 the stuff I'm doing right now is from
+21:53 claw directly so it says install
+21:56 Firebase well that's good going I am
+21:59 going to go to Firebase google.com I've
+22:02 done this once before and I am going
+22:06 to uh start looking at these
+22:09 instructions here so go to Firebase
+22:11 Right console. firebase.com add project
+22:15 we need to add a project
+22:19 build
+22:21 wait go to
+22:24 console yes console. add a project
+22:29 uh create dot do
+22:33 Inc and we're going to
+22:35 continue
+22:41 continue create this project
+22:47 here okay
+22:52 continue so here it says register your
+22:54 app with Firebase
+23:00 a web app okay yeah yeah we got to do
+23:03 this
+23:05 nickname
+23:11 um. Inc also set up Firebase
+23:15 [Music]
+23:18 hosting I don't think so I think we're
+23:20 just going to register the app add
+23:22 Firebase SDK so now we need to add this
+23:26 file so we're basically just going
+23:28 through the instructions on cloud here
+23:31 um all right we're just going through
+23:33 these instructions right here we have
+23:34 this screen share um so now we need to
+23:37 click uh we need to add this in the
+23:39 source directory so we can download this
+23:42 right here it just downloaded it and now
+23:46 on repet we can
+23:49 literally just
+23:52 drag that in we can drag this into the
+23:57 source directory
+23:59 Dory and we have this Firebase TTS
+24:04 big um set up the Firebase
+24:08 authen npm install Firebase I already
+24:11 did that yep okay so now we have all
+24:13 those saved as Secrets set up your fir
+24:16 store security
+24:18 rules all right so let's finish setting
+24:20 up the fir store okay so set up your fir
+24:22 store security rules so we're going to
+24:23 copy these rules we're going go over to
+24:25 the fire
+24:27 store right okay yeah yeah set up the
+24:29 Firebase authentication in the Firebase
+24:31 console go to authentication signin
+24:34 method
+24:37 authentication I'm just going to bring
+24:39 this in a little bit and I'm actually
+24:41 going
+24:42 to copy
+24:45 this uh I don't want to switch so I'm
+24:47 just going to put
+24:52 this behind me so here's my other
+24:54 monitor so set up fire okay uh so what
+24:57 do we need to do we need to set up
+24:59 Firebase authentication in the Firebase
+25:02 console go to authentication signin
+25:05 method authentication signin method
+25:07 upgrade to
+25:09 enable enable Google as a
+25:13 provider add your authorized
+25:17 domain okay set up fire store database
+25:20 in the Firebase console go to fir store
+25:24 database
+25:26 build fire store datab
+25:31 database um
+25:34 so create a
+25:37 database um yeah okay after you set this
+25:42 location you cannot change it yeah sure
+25:45 uh start in production mode start in
+25:46 test
+25:47 mode production mode
+25:50 create says that right
+25:54 here okay set up fire store database
+25:57 okay we've done this okay so now it
+25:58 wants me to just paste these rules right
+26:01 here uh so set of fire rules console go
+26:05 to fire database rules and replace the
+26:08 default rules with
+26:14 okay
+26:16 publish right here it says uh these
+26:19 rules allow authenticated users to read
+26:22 and write their own data update your
+26:24 react application is I'm just going to
+26:27 copy these 8 and9 it says like update
+26:30 your react application and Implement
+26:32 these functions I don't want to have to
+26:34 like find it so I'm just going to say
+26:36 give me
+26:38 full app.
+26:41 TSX and so since we only have two
+26:43 prompts left that'll be uh one of the
+26:45 last ones give me full app TSX for these
+26:48 two rules here
+26:58 we're going to go back
+27:01 into um okay app.
+27:07 TSX now let's try and run this thing
+27:10 there we got some errors when we ran it
+27:12 basically just putting in this error
+27:14 right here into CLA I apologize for the
+27:16 oversight the error is occurring because
+27:18 The UU ID package is not installed you
+27:20 need to resolve this okay so that means
+27:22 we just need to go here we go to Shell
+27:39 okay I think it's missing value so
+27:42 Firebase error so now I think we just
+27:44 need to continue with the Firebase
+27:46 instructions but we just ran out of
+27:48 messages until 6 wait can we just use a
+27:51 project let's start a project so
+27:53 actually we're going to start a project
+27:54 here we're going to upload as many of
+27:55 these as they let us I'm adding custom
+27:57 instructions to this so these projects
+27:59 basically allow you to add more um you
+28:01 get to add more documents um so I'm
+28:04 working on an app using repet with react
+28:08 uh
+28:09 TSX um using Firebase as a backend help
+28:15 me make this app and be a useful
+28:21 assistant okay we're going to save these
+28:24 instructions um simple language
+28:28 tell me what this app
+28:31 does below I will paste a few
+28:36 things I was
+28:39 talking to another AI chat
+28:43 bot on and it I just
+28:47 completed these steps here so now I'm
+28:51 going to go back to this and now I'm
+28:52 going to grab this right here which is
+28:54 the steps I just created so hopefully
+28:57 it'll know where I'm in this
+28:59 project copy this
+29:06 over yes
+29:10 exactly okay so now we have a chatbot
+29:12 that has some context this is my current
+29:17 app.
+29:19 TSX help me make the above
+29:24 changes CU when I run it
+29:29 okay yeah yeah yeah yeah so now that's
+29:31 where I was when I run
+29:33 this I get
+29:39 this oh yeah I don't think I've set up
+29:41 the Firebase okay so I want to set up
+29:43 the
+29:45 Firebase so now we need to just tell it
+29:48 basically that we're on the Firebase
+29:51 I've set up the rules I've added no data
+30:03 all right so we're going to start the
+30:05 collection section ID
+30:09 corses we're going to Auto ID it
+30:15 field
+30:18 name bring intro
+30:22 to
+30:25 cing intro to AI
+30:30 save
+30:33 okay all right I think I might need to
+30:35 communicate this error better so this
+30:37 one has this error that pops up that
+30:39 says uh some stuff here so I'm just
+30:41 going to say I'm getting this error here
+30:45 is my ts
+30:50 config
+30:53 Json what do I do
+31:01 all right so now we need to just go to
+31:03 Shell let me paste this bad boy in here
+31:07 literally just listening to the
+31:09 AI updated Jon
+31:17 updated now we need to go to TS
+31:19 [Music]
+31:21 config that's
+31:26 exactly oh it's adding this node here
+31:29 okay
+31:32 um ever since you're using Vite we
+31:34 should switch to VES wave of handling
+31:35 environment variables means we need to
+31:37 copy this so now we need to go to
+31:42 Firebase config TS yep and we're
+31:46 switching this out
+31:49 okay oh there we go we don't have that
+31:51 error
+31:53 anymore okay uh I think I think it
+31:56 should run now
+32:01 hey I'll take
+32:04 it you don't have any of the buttons up
+32:07 top that's we're going to have a lot of
+32:08 problems here um so does look like so it
+32:12 just says one intro AI here I'm going to
+32:16 say in CLA okay so it ran and the only
+32:20 thing that I had in my Firebase was was
+32:26 what I added
+32:29 here now tell me what are the next steps
+32:34 to building this
+32:37 out because all that was on the site
+32:44 was and we can actually show a picture
+32:46 of
+32:48 it
+32:52 um was
+32:56 this look at this
+32:59 H I've like struggled through this and
+33:02 literally it just goes great progress
+33:03 your app is now running and displaying
+33:06 basic structure the next steps is to
+33:08 build out your learning management
+33:09 system involves adding more
+33:10 functionality improving the user
+33:11 experiment experience here's suggested
+33:14 road map and then it just gives me like
+33:16 15 different things I need to do um but
+33:20 we'll just go one by one I'm not giving
+33:22 up it uh Implement user authentic
+33:25 authentication okay let's do
+33:31 that let's start with
+33:37 one all right give me full code
+33:41 please I'm using up so much
+33:49 context all right let's grab this code
+33:52 come on let's do
+33:55 it and so what will this allow me to do
+33:58 all right so make sure the
+33:58 authentication qu thoroughly sign in
+34:00 with Google verify the user information
+34:02 is displayed in the top bar sign in so
+34:06 we got an error we need to go into
+34:09 Firebase Firebase select your project in
+34:12 the left side of the bar on
+34:14 authentication in the authentication
+34:16 page click on the settings tab at the
+34:19 top add a repet domain top right corner
+34:23 top right corner
+34:27 ah there we go nice so we need to add
+34:31 that in Firebase got it got it got it um
+34:35 add domain boom and add nice
+34:40 now be able to go back to this code
+34:43 Let's uh stop running this run again
+34:47 this should load up here and now if we
+34:49 hit sign
+34:53 in no way
+35:00 oh my god wow let's go we just added it
+35:04 and so now we have
+35:06 profile okay email user ID we did it
+35:11 cool okay I'm an admin I guess I'm an
+35:14 admin how do I know I'm an admin how
+35:17 does it think that I'm an
+35:19 admin so now I'm an admin right so we
+35:22 can add a new course subject um intro
+35:27 AI images add
+35:31 course um insufficient POS uh
+35:34 permissions nice because I'm not a uh
+35:37 because I'm not an admin so maybe I
+35:39 shouldn't even see this uh so admin
+35:43 panel um how do I choose who is an admin
+35:48 so how do I sign in as an admin and add
+35:53 more horses should we set the admin flag
+35:57 for account you should in the user's
+35:59 collection find your user document it
+36:01 seems you're already there looking at a
+36:03 document with ID starting at JP blah
+36:06 blah blah blah blah like add
+36:09 field and input type is
+36:13 admin is
+36:16 admin and PPE is Boolean nice and so
+36:21 this should be
+36:24 through click add a new field okay
+36:28 okay nice now give me full code from
+36:35 previous
+36:37 [Music]
+36:38 instructions um with all these like I
+36:41 don't want to have to do that just give
+36:42 me the full
+36:43 code uh for any files
+36:51 edited all right it is loading up that
+36:54 full code these are getting so long that
+36:57 I need to just learn how to like update
+37:00 the Snippets or figure out a better
+37:02 method like it was limited at the
+37:04 maximum length generate the rest of the
+37:07 code so we are going to paste this in
+37:11 here and then beneath it we are going to
+37:14 paste rest going to paste it
+37:17 in for
+37:20 here all right and run
+37:25 this okay so I'm signed in as Riley
+37:30 Brown
+37:31 already and I should be able to go to
+37:34 admin and add in add new course name and
+37:40 it added a course description okay so
+37:43 courses if we click on this it crashes I
+37:46 shouldn't have done that let's focus
+37:48 here courses admin new course name
+37:54 um AI gen images is course description
+38:00 the uh
+38:02 mid
+38:04 Journey
+38:06 Ria and
+38:08 more ad
+38:14 course insufficient permissions okay
+38:17 let's sign in
+38:20 again I gave it to this email right here
+38:24 mid
+38:25 Journey mid
+38:32 all right so let's tell Claude what's
+38:35 wrong we're going to figure this
+38:36 out so now we need to go to the Firebase
+38:39 again I think we needed to update our
+38:40 rules here so we're actually going to
+38:43 change the rules here publish fire store
+38:47 security
+38:48 rules um all right now we're down to 10
+38:51 left on this chat but good where it's
+38:53 past six so we can be fine um update the
+38:57 app routes so we're going to change this
+39:01 we're going to go
+39:02 to this right here and
+39:05 go type in
+39:09 return okay so we got to change this
+39:12 return function this should be good
+39:15 let's try it so we can click on admin
+39:17 new course name mid Journey images add
+39:23 course
+39:25 okay we did it oh my God that updated no
+39:28 way right cuz if we stop running it
+39:30 right if we stop running it and we run
+39:32 it again it should in theory be there it
+39:34 is let's go let's go yes all right now
+39:37 let's go to the Firebase it should be
+39:39 there it should be there in data courses
+39:42 let's go number two mid Journey boom set
+39:45 it up let's go it works yeah
+39:54 yes that took so long oh my God that
+39:57 took so so long so
+39:59 long that was so
+40:03 annoying anyway let's keep our
+40:07 composure all right so since chatu PT
+40:10 has context here I'm just going to
+40:12 import the um let's move to chat GPD
+40:15 just a little bit just because it has
+40:17 some context might as well use that you
+40:18 know what I'm saying all right so I'm
+40:20 going to index. TSX so let's go uh index
+40:25 do ESX like like literally as soon as
+40:28 you they add more context as soon as
+40:31 they add more context it's over like
+40:33 it's actually over the the all of the
+40:35 Annoying problems are occurring right
+40:37 now because I'm like moving around
+40:41 and moving to a new chat box I'm running
+40:43 out of like the and like
+40:46 honestly it'd be fine if I we just had
+40:48 like I'll pay more I'll pay more I'll
+40:50 pay thousands of dollars a month to just
+40:53 flick out apps like they're
+40:55 nothing like you could if you had a
+40:58 larger context I'm telling you
+41:00 index.html okay um I don't even know
+41:04 what it needs honestly um uh why are the
+41:10 courses when I add
+41:13 them why are they different
+41:19 colors and can we make them way smaller
+41:24 so this is our new code no we can't copy
+41:27 that cuz that copies the entire prompt
+41:29 we have to copy the code means okay so
+41:32 now we're here we're on app. TSX boom
+41:36 and boom and so these are the available
+41:38 courses now we got to go back to this
+41:40 neat goe a better way to prepare for
+41:43 coding
+41:44 interviews so with chat
+41:47 GPT learn to create
+41:51 anything
+41:52 button create now a it we'll make
+41:56 him do it
+41:59 oh man all right we're getting a little
+42:01 bit closer look at this so this is uh
+42:04 neat code right here right obviously has
+42:07 this thing that like Wiggles around um
+42:11 whatever we do not need it to say course
+42:13 progress it
+42:16 can just be the
+42:18 bar and so when I clicked on intro to AI
+42:21 it failed but watch I can click on this
+42:23 mid Journey thing and it shows course
+42:25 progress and then we can see lessons oh
+42:28 so does that mean I need to go in here
+42:29 and choose new lesson but since I don't
+42:33 oh my God I can click on Mid journey and
+42:35 add a lesson okay I didn't even know I
+42:37 could do that and I'm building the thing
+42:39 sort of uh mid Journey lesson is uh
+42:44 generating images and if this fails that
+42:47 means we haven't added a lesson
+42:50 yet oh wait so let's see courses mid
+42:54 Journey generating
+42:55 images oh lesson content goes here okay
+43:00 so courses let's try that again CU I
+43:03 don't think we can edit
+43:06 stuff coures go here okay so I want to
+43:09 be able
+43:10 to okay so let's get the vernacular
+43:12 right so we can add a lesson so um we
+43:15 can add mid Journey lesson we can go uh
+43:18 lesson to S so we're adding a lesson and
+43:23 so it's a course name description lesson
+43:27 name description lesson all right so
+43:29 this is where we're at right
+43:31 now um okay so yeah we can add a bunch
+43:34 of stuff these are these are all that we
+43:37 added so basically we can add a bunch of
+43:39 courses now and so this is kind of what
+43:40 this site looks like create. Inc learn
+43:42 to create anything uh we can create now
+43:46 or um right we can press this right here
+43:50 uh coding without knowing how to code
+43:52 and we see all the different lessons
+43:53 right if we want to add a lesson we go
+43:55 to the admin select a course
+43:57 um we can hit uh create uh the new
+44:00 course name um new course name is we
+44:04 need to add a lesson here to the mid
+44:06 Journey one we're adding a lesson and
+44:08 the lesson is um Mid
+44:12 journey test lesson 2 add lesson and we
+44:18 can actually see that so if we click on
+44:19 Mid Journey mid journey test lesson and
+44:22 we can actually Mark these off we go
+44:24 back to courses we can see that mid
+44:25 journey is updated right so this is what
+44:28 we're able to do right this literally
+44:30 Works Boom full all right we've
+44:32 completed everything right oh oh oh
+44:35 let's go back oh oh oh oh oh it
+44:41 works it literally
+44:45 works and this update this is updated
+44:47 for my account if I'm signed in right so
+44:50 actually it told me that I need to run
+44:53 this react quill I don't fully know what
+44:55 that does
+44:57 but we're doing it um I think that's for
+45:00 the YouTube embed or something I don't
+45:02 know uh we're going to copy this code
+45:04 we're pasting this in at this point
+45:06 right here right we're going to get rid
+45:08 of this and we're just going to paste
+45:09 that boom stop and we're rerunning it
+45:13 and every time we run it notice how our
+45:15 data gets saved the same now I want to
+45:19 be able to add a lesson but I want to be
+45:21 able to when I click on one of these I
+45:24 want to be able to edit this there we go
+45:26 now we can edit the lessons this is very
+45:32 cool because it is okay so now we need
+45:36 to update the rules here on the
+45:38 Firebase okay so you see uh so we just
+45:41 have to make these changes so that only
+45:43 admins can change it um first so we got
+45:46 to go to rules and we just got to
+45:51 um
+45:52 change wait we added some other stuff
+45:56 too
+45:58 so this was
+46:01 changed to the rules
+46:06 earlier um update it with these new
+46:11 rules in this case I apologize for the
+46:13 confusion you're right and those rules
+46:15 are quite good however we can make small
+46:16 adjustment to explicitly separate the
+46:18 read and write operations for courses
+46:20 here's an updated rules to maintain the
+46:21 same security but it's more explicit and
+46:24 this will allow admins to edit lessons
+46:29 and courses I can add other admins super
+46:32 easy um yes okay cool allow update and
+46:37 create okay so that's pretty cool so now
+46:39 we are going to
+46:41 officially uh paste in the new
+46:44 rules
+46:46 publish
+46:48 now let's go ahead and stop this run it
+46:51 again take a look
+46:54 here um
+46:57 let's go to
+46:59 admin add lesson for Mid
+47:03 Journey this is a new test lesson oh
+47:10 yeah add
+47:12 lesson this is another mid journey test
+47:18 [Music]
+47:20 lesson add
+47:22 lesson all right so go to this one so
+47:26 want to change this
+47:29 just paste a bunch of
+47:32 let me save changes when I edit a
+47:38 lesson or when I press save changes it
+47:45 doesn't appear to do anything all right
+47:49 it's loading this up boom paste that in
+47:53 okay so
+47:55 now this is a a test
+47:59 edit saving lesson saved successfully
+48:03 wow nice
+48:06 nice wait okay so back to course so if
+48:10 we run it click out of here and hit
+48:14 which one was that oh
+48:19 um I don't remember what that was so on
+48:21 generating songs with AI I'm going to
+48:23 put this is a lesson here as an admin
+48:29 this is really cool and I did it yay
+48:35 successfully so if I go to back to
+48:38 course so this is in generating songs
+48:39 with AI first one text a song so if I go
+48:42 like this courses if I just stop running
+48:44 it and rerun it
+48:47 here and then we go to generating songs
+48:51 with AI text a song there it is so I
+48:55 want to sign out here and I want to sign
+48:57 in with a different account that's not
+49:01 an
+49:03 admin okay so my name is also Riley
+49:06 brown but I don't have the admins panel
+49:08 and so I can go to courses and I want to
+49:11 see what it shows here generating songs
+49:13 with AI text to song and now it's just
+49:16 the static page I don't have the ability
+49:18 to edit it which is exactly what we're
+49:21 trying to do here wow all right so this
+49:25 is where we're at right now now this is
+49:29 his
+49:30 website
+49:31 and um it has this stuff down here so if
+49:35 we run this on repet look at this this
+49:38 is what the site looks like I can turn
+49:39 off Dev tools so this is what it looks
+49:41 like I haven't added anything down here
+49:43 but we can um I'm signed in as a guest
+49:47 or not a guest I'm signed in as a normal
+49:48 user so I can go in I can see all this
+49:50 stuff I can mark off my progress here
+49:54 you can see I can mark off my progress
+49:57 and I can sign out and then I can sign
+50:00 back in as this email right here right
+50:03 this is my email that has admin access
+50:05 which means I can add courses right I
+50:08 can add a how sick is this website
+50:13 course with a website
+50:16 description
+50:17 very sick and I can add this course now
+50:20 I can add a lesson under that right how
+50:22 sick is this uh
+50:26 website and I can be
+50:28 like uh
+50:31 sickness uh
+50:33 level one level two can add level
+50:38 three we can add uh a
+50:42 bonus right we can add these lessons and
+50:44 this uh course right how sick is this
+50:47 website boom um and let's zoom in a
+50:50 little bit just to get a better view of
+50:52 this and I can click on this and since I
+50:54 have admin access I can edit this
+50:57 um let's talk about
+51:00 sickness and all of its
+51:06 levels it is very very very
+51:12 sick save
+51:14 changes loaded lesson save successfully
+51:18 okay now we can go back to
+51:20 course and let's say I am taking these
+51:23 courses as well right and I can use
+51:25 these as like uh which ones have I
+51:27 created to show like maybe I'll create
+51:29 an outline I don't know I can take the
+51:31 course as well whatever right
+51:35 um but uh yeah like that's pretty neat
+51:39 right right
+51:40 [Music]
+51:42 um and yeah I have ideas on actually how
+51:46 I'm going to use this for my podcast
+51:48 right um great. Inc is the name of my
+51:51 podcast each one is going to have
+51:53 subjects so available courses right and
+51:55 so we can actually just go into the code
+51:57 right we can go into my code here I just
+52:00 got to get out of this and I can type in
+52:03 um available courses is that not in here
+52:06 um I can go to that available courses
+52:08 section and say
+52:10 podcast categories actually we're going
+52:13 to call these podcast lessons in each EP
+52:15 uh podcast we're going to learn
+52:17 something and I'm going to post them
+52:18 here by category podcast lessons um
+52:22 create doc I guess this will be a little
+52:24 trying to run this again
+52:29 so on the phone it would look something
+52:31 like
+52:35 this um we can get rid of these Dev
+52:37 tools right here this is what it would
+52:38 look like on the phone make it a
+52:41 wider once you get wide enough and get
+52:44 it like it'll look like this which maybe
+52:48 we'll want to make it centered I think
+52:51 we're going to want to make it centered
+52:52 but I'm not going to worry about that
+52:53 for now um actually yeah
+52:57 create let's go to
+52:59 this all right so cool nice we've
+53:03 created this so now we have these
+53:04 lessons that people can sign in
+53:07 for is there any way
+53:10 to
+53:12 separate the code
+53:15 into
+53:17 now we want to separate the code into
+53:22 chunks so that it's easier to to ask
+53:30 questions and to give AI
+53:34 context
+53:37 Etc so it's not
+53:43 generating
+53:45 massive code edits all right so now we
+53:48 are going to do some work in separating
+53:50 our code into different edits and now
+53:51 we're going to have a top bar TSX
+53:53 progress bar TSX homepage and then we're
+53:55 going to be able to edit it in more
+53:57 chunks and then we can ask AI how to
+53:59 edit just those specific Parts which
+54:01 will make it a lot easier for us to um
+54:04 make the structural changes but like the
+54:05 back end I think is there right and and
+54:08 then we can add like course favorites
+54:09 and then we can add some more metadata
+54:34 oh my God so guys I have been working
+54:37 this whole time on basically I just uh
+54:41 came back from the gym feeling refreshed
+54:44 and I forgot to plug my mic in and so
+54:46 you couldn't hear me that whole time if
+54:47 you go to app. TSX 482 lines of code
+54:51 incredibly difficult to deal with um and
+54:54 it takes two responses to get it done
+54:57 so I asked Claude I
+55:01 said I said up here I said is there a
+55:04 way to separate the code into chunks so
+55:05 that it's easier to ask questions to
+55:06 give AI contact so it's not generating
+55:08 massive code edits every time and it's
+55:10 just like yeah dog I got you man and
+55:12 then updated app. TSX we just created
+55:14 all this on the side here so once I
+55:16 separated them all into different parts
+55:18 it became significantly easier to make
+55:20 changes and so I've just been basically
+55:23 just taking the last few hours just kind
+55:24 of messing with things I think the site
+55:26 looks pretty good so I'm currently can
+55:29 sign out I can sign back in and I can
+55:32 sign in as my admin account I can see
+55:36 where I am at right I can also take
+55:38 these courses right create. in learn
+55:41 anything you want podcast lessons we can
+55:44 go to profile which I could probably add
+55:47 some customizations on profile I'm not
+55:49 too worried about that now but the one
+55:51 thing that I'm really liking about this
+55:54 is I can go to this one right here
+55:56 response to NE
+55:58 code. and here's the course and we can
+56:01 actually get comments took me forever to
+56:03 figure out the comments and I'll
+56:05 actually go into that this was just
+56:07 something I was working on last night I
+56:08 wasn't going to add comments but you
+56:09 basically have to add an index when you
+56:11 say you want to add comments and it
+56:13 suggests making an
+56:15 index in the errors when you're typing a
+56:19 comment it'll give you an error in these
+56:21 Dev tools and it'll say create an index
+56:23 at this link it'll just give you the
+56:25 link like Firebase it creates a template
+56:28 for you and basically the
+56:30 index uh decides how in what order it's
+56:33 going to show you these uh comments at
+56:36 least that's my understanding but now
+56:39 since I'm signed in this is kind of just
+56:41 what the editor looks like I can edit
+56:42 these and it looks super clean this is
+56:45 me editing one of the courses and I can
+56:50 hit save changes load uh or lesson saved
+56:54 successfully okay we can now go uh we
+56:58 can sign out and this is what it looks
+57:02 like for uh for no one else I actually
+57:05 want to block this from anyone who's not
+57:07 signed in I want course pages to only be
+57:13 available to those who are
+57:17 users and have signed in I'll give
+57:23 you info below so what I'm going to give
+57:27 Claude here some context I'm going to
+57:29 give it the I only want I want them to
+57:31 have access to course
+57:34 page um we'll paste that in
+57:38 here and then I I should give
+57:41 Claude
+57:43 the course page um what else do I
+57:48 give it course page and lesson
+57:52 page and then
+58:00 listen page we'll paste that in there uh
+58:04 pasted as
+58:05 Doc and then I will also give my
+58:09 Firebase
+58:12 Services let's download this and
+58:17 download anything that has to do with
+58:19 Firebase and then we're going to go to
+58:21 Firebase and I'm going to go
+58:24 rules I actually think think that's what
+58:26 it'll need but we can just see so I'm
+58:30 going to paste
+58:32 in Firebase
+58:36 rules and then more docs which are those
+58:47 two okay let's see what it can do with
+58:50 that amount of context
+58:56 so here's the updated security rules we
+59:00 are going to update that while it
+59:01 generates the full code for both for the
+59:05 rules now that's updated we can publish
+59:08 this and then now it's generating these
+59:10 rules
+59:12 here so here's the course
+59:16 page course page we paste this in like
+59:21 this um lesson page we're going to
+59:25 lesson page we're going to paste this in
+59:28 like
+59:29 this so
+59:34 now everything looks the same we're
+59:38 going to sign
+59:44 out
+59:46 nice so we can't see it if we're signed
+59:49 out so if we go like this sign
+59:53 in we sign into a non-admin account we
+59:57 can click here no no no no oh oh oh oh
+1:00:02 oh it doesn't it needs this off page
+1:00:05 here this is use off here here here here
+1:00:10 here um stop stop stop
+1:00:14 stop wait stop is use
+1:00:19 off so
+1:00:21 now now I am not signed in check this
+1:00:25 out nothing
+1:00:26 right all I can do is press courses I'm
+1:00:28 sure I could put like a popup that says
+1:00:30 like please sign in if you want to blah
+1:00:32 blah blah but for now I'm just going to
+1:00:34 say this is fine I think this is a good
+1:00:35 final place to be so we're in RB
+1:00:38 Visionary this is a just a standard user
+1:00:41 click on this we can see everything boom
+1:00:44 boom and we can start marking things off
+1:00:47 right this one has seven lessons let's
+1:00:49 mark off five of these uh we can go back
+1:00:51 to this and we can see all of our
+1:00:54 creation paths
+1:00:56 and we can see everything right and
+1:00:59 there's only one here this is the one
+1:01:02 that has a normal note taking out with
+1:01:03 the front end you can see the
+1:01:05 video and there we
+1:01:11 go not sure why the heading didn't work
+1:01:13 but that's okay I'll worry about that
+1:01:15 later this seems to be solid now time to
+1:01:18 hook it up so now I'm going to attach my
+1:01:20 domain create. Inc but first I need to
+1:01:24 uh go to a new
+1:01:31 site hopefully it deploys properly good
+1:01:35 so now that it's deployed we can manage
+1:01:39 and we're going to link a domain create.
+1:01:42 in next now we're going to copy this a
+1:01:47 record what we're going to do is we're
+1:01:49 going to go like this then we're going
+1:01:50 to
+1:01:51 go like this and so we're going to do a
+1:01:55 text record
+1:02:00 so we're going to add a text record host
+1:02:05 at this is the value that's a repl
+1:02:08 domain a record and
+1:02:13 um I think that's all we need let me
+1:02:16 just hit link domain if I remember
+1:02:18 correctly and then you wait for it to
+1:02:20 verify and so now we can actually just
+1:02:23 type in create.
+1:02:27 and I created this website and so this
+1:02:30 has been many hours since I first
+1:02:32 deployed it and I just given myself
+1:02:34 while I was editing the video I was
+1:02:36 making changes and editing the site and
+1:02:38 I just want to go through some of the
+1:02:40 additions that I made so I added this
+1:02:42 thing right here which uses the backend
+1:02:45 which basically counts the amount of
+1:02:47 users so as you sign up if you want to
+1:02:49 go literally there's no cost associated
+1:02:51 with this if you sign up then you'll
+1:02:53 have access to all this stuff um you
+1:02:55 don't have to do it but I added just now
+1:02:57 I added the this song to it so check
+1:03:01 this
+1:03:03 out something magal just not yet
+1:03:08 though this button will do
+1:03:13 something and you can close that out and
+1:03:17 it was actually simpler than I thought
+1:03:19 it would be I I generated this song on
+1:03:21 sunno and I typ 10 this button will do
+1:03:23 something magical and it plays all the
+1:03:24 way up until halfway way through in
+1:03:26 which case I used the online MP3 cutter
+1:03:29 uh to cut the song to the exact portion
+1:03:32 that I wanted and then I talked to chat
+1:03:34 gbt and I went through this long thing
+1:03:36 saying like and then I basically said
+1:03:39 that I want this site to be the exact
+1:03:41 same thing that it was before this but I
+1:03:44 want it the only change to be that when
+1:03:46 I do that button click a pop up that
+1:03:48 says this button will do something
+1:03:50 magical just not yet though and then the
+1:03:52 song will play and then eventually this
+1:03:54 actually took a while because I had a
+1:03:56 problem with one of the files but I
+1:03:58 basically had to create uh within here I
+1:04:01 had to create this um dialogue. TSX
+1:04:05 which was the actual popup that pops up
+1:04:08 so when you press the button I'm using
+1:04:10 this
+1:04:11 homepage uh I'm using this homepage
+1:04:16 file and basically there should be crlf
+1:04:21 dialogue it's like when this is popped
+1:04:23 up then it will basically basically call
+1:04:27 this TSX file which will then call this
+1:04:31 magic button MP3 so I dragged in thatso
+1:04:34 song into here and called it Magic
+1:04:36 button.
+1:04:41 mp3 and yeah and so I just asked chbt it
+1:04:44 was probably took me 30 minutes to
+1:04:46 implement that but next time I need to
+1:04:47 do that it's going to be here in the
+1:04:49 code like I already know how to do it
+1:04:51 and I just know that I need to drag a
+1:04:53 song into this folder and then just
+1:04:56 change and then just show chat gbt the
+1:04:59 the the dialogue and the homepage and it
+1:05:02 be like hey I want to do it just like I
+1:05:03 did last time except I want it to be on
+1:05:05 a bigger card or whatever button or I
+1:05:07 want to do it on an image you just tell
+1:05:09 AI to do that and it will do that and
+1:05:11 then you can start being creative and
+1:05:12 you can make more stuff on your site but
+1:05:15 I generated this logo on Mid journey and
+1:05:17 I generated this on Mid Journey using
+1:05:21 the logo as a reference image so it kind
+1:05:23 of matches and then I added this like
+1:05:25 bottom component I'm going to add more
+1:05:28 padding here I might make this a little
+1:05:30 bit smaller but I added these buttons
+1:05:32 and for now it just takes it to my
+1:05:34 Twitter and I added this animation this
+1:05:38 actually took way too long I spent way
+1:05:40 too long on this
+1:05:41 animation um last night because I was
+1:05:44 just like feeling it and it was really
+1:05:47 annoying to set this up and I don't know
+1:05:49 if I like it but whatever I'm just
+1:05:51 messing around having a good time
+1:05:53 creating finding out what I can create
+1:05:56 um and what I'm working on next is a
+1:05:57 prototypes page which is a list of all
+1:05:59 the apps that I'm building I kind of
+1:06:01 showed like those buttons but I'm
+1:06:02 working on another repple uh for the
+1:06:05 prototypes page I want to create um a
+1:06:08 signin to test tools and have a full
+1:06:10 credit system this is going to be a lot
+1:06:12 more difficult and I may ask someone for
+1:06:13 help on this um because I'm going to be
+1:06:17 creating stuff with guests and I want to
+1:06:20 be able to I'm going to post all of it's
+1:06:21 going to be posted open source um now we
+1:06:24 can actually get into AI apps I wanted
+1:06:26 to build the foundation and now we can
+1:06:28 build better AI apps because I've been
+1:06:31 working on a lot of interesting stuff um
+1:06:33 but anyway yeah that's kind of my plan
+1:06:36 for this um this is day 15 now it was 14
+1:06:40 when I wrote the draft for this day 15
+1:06:42 of writing code and I'm having a great
+1:06:45 time with it so yeah we got before I
+1:06:51 even put this video out we have 89
+1:06:52 people in here who have just signed up
+1:06:55 and when you sign up you'll have access
+1:06:56 to all this information and you'll be
+1:06:58 able to do comments I'm adding the
+1:06:59 ability to comment on the main page and
+1:07:02 there will be more things that you can
+1:07:04 actually test out I'm working on in my
+1:07:05 notes app that I W uh working on in my
+1:07:07 last video Notes app that I was working
+1:07:09 on in my last video I'm actually going
+1:07:11 to post that on here and let people sign
+1:07:13 in and create up to like 20 notes just
+1:07:15 to test it and yeah we're just going to
+1:07:18 kind of build out this ecosystem thank
+1:07:20 you guys for watching subscribe I will
+1:07:22 see you here in the next video

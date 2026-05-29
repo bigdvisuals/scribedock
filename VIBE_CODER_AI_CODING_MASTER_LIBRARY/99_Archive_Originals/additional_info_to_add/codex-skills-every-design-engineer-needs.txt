@@ -1,0 +1,363 @@
+Codex Skills Every Design Engineer Needs
+
+0:00 Hey everyone, welcome to today's video.
+0:01 My name is Lucas and today we're going
+0:04 to be covering a few use cases for
+0:06 product designers to use inside of
+0:08 Codeex. Um, specifically skills to use
+0:11 inside of Codeex. Now, Codex is this
+0:13 type of IDE that is made by OpenAI and
+0:17 you can go to their website
+0:19 openai.com/codex
+0:21 and read a little bit more about what
+0:22 they do. So, as you can see, designed
+0:24 for multi- aent workflows, adapts to how
+0:26 your team builds, u made for always on
+0:29 background work. Now, once you download
+0:31 the codeex app, you can open it up.
+0:33 You're going to get something like this
+0:34 where you can start prompting and
+0:36 editing a few files from your project.
+0:39 You can also start building things and
+0:41 or or chatting with the AI to to kind of
+0:45 build on top of things in in your
+0:47 project or you can start from scratch
+0:49 like I am over here. But up here on the
+0:51 left, we have skills. And in today's
+0:53 video, I'm just going to go and talk to
+0:55 you about a couple of potential use
+0:58 cases that you can use using Codeex as a
+1:01 product designer. And by the way, before
+1:03 we dive into today's video, I'd love to
+1:04 invite you guys to my Discord community.
+1:07 It's called the Creator Network, and we
+1:09 are a bunch of different entrepreneurs,
+1:11 designers, developers from all around
+1:12 the world, and we get together every
+1:14 single weekday to talk about different
+1:16 tools, different topics, different
+1:18 challenges. So if you guys are
+1:19 interested in joining those chats, link
+1:21 is down in the description below. Now
+1:23 let's go to the most obvious skill. I
+1:26 can see the Figma logo over here. So I
+1:28 think that the the first thing that we
+1:30 want to try out is Figma to code using
+1:33 codec. So we have a few ways to get
+1:35 started. We can use either Figma NCP for
+1:37 design to code work or turn Figma
+1:40 designs into production ready code. I'm
+1:41 going to choose this one. And over here,
+1:43 once you click on that, you're going to
+1:44 get like a quick little guide or
+1:46 overview prerequisites, and it's going
+1:48 to give you like a little step-by-step
+1:50 guide on how to get started. And once
+1:52 you give that a quick skim, we can click
+1:55 on install. And then going back to the
+1:58 chat, I can forward slash and we can
+2:02 choose our new skill that's over here.
+2:04 And I can start by saying, you know,
+2:06 let's let's turn my design into code.
+2:09 So, I just said that. It immediately
+2:11 gave me this little popup. The following
+2:12 MCP servers are required by the selected
+2:15 skills but are not installed yet. Figma
+2:17 install them now. Install. And that
+2:19 takes me to this little widget over
+2:22 here. I'm going to click on agree and
+2:24 allow access. And now we're back into
+2:26 codeex. And so now it's telling me to
+2:28 send a link in this format to start
+2:31 immediately. So I can go ahead and open
+2:33 Figma. And I'm going to choose a
+2:35 community project. This one I found
+2:36 online. 20 screens login and register
+2:39 mobile. That's what it's called. Shout
+2:40 out to the person that did this. And
+2:42 we're going to basically select this and
+2:43 I'm going to click on command L to copy
+2:46 the link of this Figma frame to the to
+2:49 the clipboard. And going back over here,
+2:51 I'm going to paste that in here. And it
+2:53 pretty much has this format. So I'm
+2:55 going I'm just going to send that like
+2:57 that. And now it says that it's
+2:59 implemented the design, turned it into
+3:01 code. It gave me these two files, HTML
+3:03 and CSS. What's included? It gives us a
+3:06 quick rundown of what's included. I also
+3:08 saw that it found like inter in
+3:10 incorrect text size values in some of
+3:13 the buttons. So it was kind of like
+3:15 correcting those mistakes that were from
+3:18 Figma. And note repo had no existing
+3:20 framework. So I implemented this as a
+3:22 standalone HTML CSS. I couldn't do a
+3:25 browserbased visual diff in this
+3:27 environment. So final pixel check in
+3:29 your browser is still needed. So let's
+3:31 go ahead and commandclick this. And I'm
+3:34 going to double click on this. And this
+3:36 is what we get over here. We get pretty
+3:38 much what we wanted. Nothing is
+3:40 interactive. I can type this. I can
+3:42 delete this. So that works. I can do the
+3:45 same over here. And I type something in
+3:47 and it understands that this is like a
+3:49 password. It should be hidden.
+3:52 I can toggle this. I can click this and
+3:56 then it like refreshes the page. And
+3:58 these buttons don't have any hover
+4:00 effects or any states. I cannot click on
+4:02 login. A few things are kind of off. So
+4:05 I would want to see how we can kind of
+4:07 improve the design here. Now it's giving
+4:09 me these next steps. If you want next I
+4:11 can convert this into react next
+4:13 components, add interaction states and
+4:15 build additional screens. So let's just
+4:18 do the first two I would say. And we're
+4:20 going to just paste it in here and click
+4:22 on submit. Now it's telling me what it
+4:24 did. It's giving me some notes and it's
+4:27 telling me to run these different
+4:28 things. So, I'm going to click on the
+4:30 terminal over here and I'm going to copy
+4:32 these commands or I'm just going to type
+4:35 them down. mpm install. Go ahead and
+4:38 click on enter. Then we're going to do
+4:40 npm rundev. Click on enter again. And
+4:44 now commandclick this. Now we're
+4:46 starting to get a little bit more
+4:48 interactivity. I'm getting these
+4:50 different states. So over here, as you
+4:53 can see, the switch. I click on login
+4:55 and now it says login form is valid. But
+4:57 the design is still kind of off. So what
+5:00 I'm going to do is I'm going to try to
+5:01 bring in a screenshot from Figma and
+5:05 tell Codex to kind of polish the design
+5:07 a bit. So over here, I'm just going to
+5:08 go ahead and take a screenshot of this.
+5:11 And going back over here, just going to
+5:13 drag and drop the screenshot into the
+5:16 chat. And for reasoning, we might want
+5:18 to kick it up a bit. So I'm going to
+5:20 click on hi. Click on send. And now
+5:23 that's looking much better. We have a
+5:24 fixed icon. That's the first thing I
+5:26 noticed. This is looking much nicer as
+5:29 well. Obviously, if you know, this is
+5:32 still something to fix, but you know,
+5:34 eventually you can do that. You can just
+5:35 give it an image and it can replace the
+5:37 image here. That's no big deal. And you
+5:39 can eventually create a login view
+5:41 that's different, a signup view that's
+5:43 different, create extra pages, make this
+5:46 web or desktop responsive because right
+5:47 now it's only mobile responsive or it
+5:49 only kind of shows in this size. But
+5:51 yeah, all in all, you know, eventually
+5:53 it'll get there. It does a pretty good
+5:55 job bringing in designs in from Figma.
+5:57 You just need kind of that like extra
+5:59 touch and patience to, you know, mold it
+6:02 into a much nicer looking design. Now,
+6:04 the next use case here is design system
+6:07 extraction. So, basically opening up any
+6:10 Figma file, Figma project and having the
+6:14 ability to kind of extract the theme
+6:16 from that design to eventually build
+6:18 something new here in Codex. So I can
+6:21 basically say generate design tokens,
+6:23 CSS variables, typography scale, spacing
+6:26 rules, and component API docs from a
+6:29 design file from a Figma design file and
+6:31 turn it into a doc x or a markdown. And
+6:34 before we do that, we just want to make
+6:36 sure that we use that other skill, the
+6:38 just a Figma skill. So let's install
+6:40 that and forward slash. Let's do the
+6:43 Figma paste. Enter. And once you do
+6:46 that, you want to just copy the link of
+6:49 this specific Figma project. And then go
+6:52 back here and we're going to paste that.
+6:53 We just want to make sure that this is
+6:56 the correct file structure or or link
+6:58 structure. So file frame node. That
+7:00 looks correct. Let's go ahead and send
+7:02 that. And something to kind of keep in
+7:04 mind, it says that it failed because the
+7:07 MCP session expected a selected layer,
+7:10 but then automatically it started
+7:12 saying, I got the node map successfully.
+7:14 Next, I'm collecting screenshots plus
+7:16 variable definitions from the same node
+7:18 and retrying design context. So, it's
+7:20 like kind of trying and failing, but
+7:22 then retrying in a different way. So,
+7:24 it's interesting to see how this works.
+7:26 And so, now it created this markdown
+7:29 file and this doc. So, I'm going to
+7:31 click on the markdown file just to check
+7:32 it out. And as you can see, it created
+7:34 the the file. So, carbon design system.
+7:38 So, source node extracted via Figma MCP
+7:42 design tokens. We have the different
+7:43 colors. We have the typography. We have
+7:45 the font weight. We have effects,
+7:48 typography, style, spacing, rules, a
+7:51 bunch of different things that we can
+7:53 use as a markdown for eventually
+7:55 building out different types of
+7:56 prototypes. And I can say turn this doc
+7:58 into an HTML HTML page. So I can
+8:00 visually see the colors, typography,
+8:03 etc. And now I can click on that. I get
+8:05 this nice HTML HTML page with the carbon
+8:09 design system. So we have our design
+8:11 tokens, topography scale, spacing rules,
+8:14 API component API docs. Looks really,
+8:16 really fancy. Beautiful really. And it
+8:19 just took us like what 2 minutes to do
+8:21 this, which is crazy. But yeah, that was
+8:23 basically generating design tokens from
+8:25 Figma. Now the next thing that I want to
+8:27 cover is generating a UI audit from
+8:31 specific screenshots or from a document
+8:33 or even eventually from a Figma design.
+8:35 basically asked for like an
+8:37 accessibility and UX consistency audit
+8:40 in some type of PDF file format with
+8:43 sections with tables with priority so
+8:45 that we can just eventually send it to
+8:47 our stakeholders or to our client. And
+8:50 first off, I just want to start off with
+8:51 like maybe screenshots like this. So I
+8:54 can maybe try to just give it like
+8:56 something like this with the different
+8:58 screenshots of what six screens. And
+9:00 this is where we can use for example
+9:02 this PDF skill. So I'm just going to
+9:03 click on install skill. And I eventually
+9:06 also want to test it with real URL. So
+9:08 I'm going to also install this playright
+9:11 skill over here. And so for the first
+9:13 thing, I'm just going to click on
+9:14 forward slash PDF skill. Create a UI
+9:19 audit. Create a UI audit based on the
+9:21 screens in the attachment. Output a
+9:23 client ready PDF with sections, tables,
+9:25 and priorities. We also want to make
+9:26 sure that our screenshot is attached.
+9:29 I'm going to go ahead and click on send.
+9:31 And we get this UI audit airwall mobile
+9:34 flow PDF. I haven't opened it yet. So
+9:36 let's open it together and let's double
+9:38 click over here. And we basically get
+9:40 this PDF over here. Couple of pages,
+9:43 eight pages long. UIUX audit report.
+9:46 Airwalks mobile transfer and activity
+9:48 flow prepared for CL client
+9:50 stakeholders. I guess you can like you
+9:52 know you know uh change the name over
+9:54 here. Executive summary. This audit
+9:56 reviews the provided airwalls mobile
+9:58 screens across home activity transfer
+10:00 setup review and success states. It
+10:02 gives us a few findings over here with
+10:05 with different topics like accessibility
+10:07 potential low contrast and secondary
+10:09 gray text and iconography. So for
+10:12 example we have this like secondary gray
+10:14 text over here over here and the icon it
+10:18 seems to be white with this like light
+10:19 gray background. I guess I guess that's
+10:21 true. And then you have like detailed
+10:23 findings over here. And then at the
+10:25 final part of this, you have these
+10:27 different sprints, potential sprints
+10:29 that you can run in order to improve.
+10:31 Now, I find this flow pretty
+10:33 interesting. You know, you can also ask
+10:35 it to include the images and maybe have
+10:37 the image and then show the findings of
+10:40 that specific screen. You know, the
+10:41 deeper you go into this, the more custom
+10:44 you can make it to your own to your own
+10:46 use case. Anyways, the next thing that I
+10:48 want to do here regarding the same skill
+10:51 is or a different skill now but the same
+10:53 type of use case is playright CLI skill.
+10:58 And what I want to do is I want to give
+10:59 it a specific link and so that it
+11:03 analyzes the flow of that link to the
+11:06 end goal which would be in my case we
+11:08 can go to the marketplace and look for a
+11:11 free template maybe under you know a
+11:14 specific category like political or
+11:17 something like that. Let's just make it
+11:19 a little bit easier. A free template for
+11:21 the e-commerce space. So, I can say, "Go
+11:23 to thisframe.com/marketplace
+11:25 and look for a free e-commerce template.
+11:28 Provide me with an HTML audit that shows
+11:30 the steps it took for you to find the
+11:32 free template and also include
+11:34 screenshots of the page if possible or
+11:36 of the pages. And give me an executive
+11:39 summary, findings, tables, and
+11:41 prioritize action plan on how to improve
+11:43 the UX of this flow." And over here, I'm
+11:46 going to set this to high so it has high
+11:48 reasoning. And we go ahead and click on
+11:50 send. and I had to quickly grant
+11:53 permissions. A pop-up came up saying
+11:56 asking if I if I allow Codex to use my
+11:58 browser. I said yes. Okay. So now we
+12:01 have our main deliverable. We have these
+12:04 different PGs over here. Very very
+12:06 interesting. It did take a while to
+12:08 generate, but let's start clicking on
+12:10 this. And I can see some some
+12:12 screenshots. They look pretty good.
+12:14 Click on this. And now we have our UX
+12:16 audit framework marketplace free
+12:17 e-commerce template discovery flow audit
+12:21 and
+12:23 step one step two. Damn, look at this
+12:26 e-commerce category pricing filter
+12:28 option
+12:30 free filter template detail confirmation
+12:34 findings table. These are the different
+12:36 findings. What has a high priority? I
+12:39 guess this one is high priority. We can
+12:41 eventually, you know, adjust adjust
+12:43 that. Finding no explicit guided path
+12:45 for common intents. I need a free. Okay.
+12:48 So, you can't like type that, you know,
+12:50 you can't type that in like a search
+12:52 bar. There's no like AI to kind of help
+12:53 you. You have to like look for it. High
+12:55 horizontal category density may reduce
+12:58 discover discoverability in smaller
+13:00 viewports. Interesting. And we have this
+13:02 prioritize action plan 0 to two weeks.
+13:04 We can do this. and six to 10 weeks we
+13:07 have these these uh more challenging
+13:10 sprints I guess but it did a fantastic
+13:12 job. This was the first try. Wow, we get
+13:15 something like this a full UX audit. But
+13:18 anyways guys, that's it from my side.
+13:20 Hope you enjoyed today's video. It's
+13:21 pretty impressive what you can do with
+13:22 Codeex. Really excited to see what you
+13:24 guys are using Codeex for. You know,
+13:26 maybe you're using it at your job or for
+13:29 some type or you're just poking around
+13:31 or something. I don't know. Let me know
+13:32 down in the comments below. And again,
+13:34 thanks so much for watching. Hope to see
+13:35 you next time.

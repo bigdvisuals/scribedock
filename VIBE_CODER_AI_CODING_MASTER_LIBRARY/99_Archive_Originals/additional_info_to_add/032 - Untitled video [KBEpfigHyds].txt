@@ -1,0 +1,996 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=KBEpfigHyds
+Channel: Riley Brown
+Video ID: KBEpfigHyds
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 Today, we're going to build an app with
+0:01 AI that can actually accept payments.
+0:04 This was never possible until today.
+0:07 This is going to be a complete vibe
+0:09 coding a mobile app guide that you can
+0:12 send to the app store and collect
+0:14 payments, which means make money. We're
+0:16 first going to build a mobile app with
+0:18 AI. Then, we're going to create a payw
+0:20 wall that actually works without writing
+0:23 a single line of code. Then, we're going
+0:25 to send our app to the app store. And
+0:27 then we're going to test the payw wall
+0:28 and see if it works and allows us to
+0:30 actually accept payment. My name is
+0:32 Riley Brown and this right here is
+0:34 Muhammad. And we make videos like this
+0:36 every single week. So make sure to
+0:38 subscribe and hit that like button. It
+0:40 helps us out a lot. Let's dive in. So
+0:43 Muhammad, what app are we building
+0:45 today?
+0:45 >> We're going to make a construction
+0:47 estimator app. So
+0:48 >> there's no way this app makes money.
+0:50 >> Dude, this app makes $4.8 million and
+0:53 it's growing. I've been tracking it for
+0:55 the last 2 months. It's exploding right
+0:56 now. And so basically what they do is
+0:58 like they just help uh like different
+1:00 construction companies make estimates
+1:03 about the projects with AI. And so you
+1:05 can see some of these pictures here.
+1:06 It'll give you like uh AI generated
+1:08 images for like a a bathroom remy model
+1:11 or like you know um estimations in
+1:14 seconds that's probably just generated
+1:15 with AI. [snorts] And so this app is
+1:17 exploding. And I think that we can make
+1:19 this in Vibe Code.
+1:20 >> Okay.
+1:21 >> So that's what we're going to So, we'll
+1:22 make it in Vibe Code and then we will
+1:23 actually add a payw wall so that we can
+1:25 charge users,
+1:26 >> of course. Yeah. Um, and so I have a
+1:28 prompt ready here. Um, and it's
+1:31 basically just explaining to the agent
+1:33 to make the base of it, like not the
+1:34 functionality cuz we'll add that later
+1:36 since it's like pretty heavy on AI. And
+1:38 so, basically, I just told it like what
+1:39 it does. Um,
+1:40 >> so I want to build the base of my app
+1:42 which will give contractors an estimate
+1:44 on the price of a job. It will be for
+1:47 various types of contractors such as
+1:48 home improvement fences, remodeling,
+1:49 kitchen upgrade, bathroom upgrade, etc.
+1:51 It will be used to keep track of
+1:53 progress of current jobs and to estimate
+1:55 new jobs. We will use AI for this, but
+1:57 do not implement this now. That's what I
+1:58 normally do. Um, we're going to use
+2:00 camera as well for AI eventually. So,
+2:04 give these estimates and for jobs
+2:06 pictures. Okay. For now, build a
+2:08 beautiful base. We will add the
+2:09 functionality later. I like it.
+2:11 >> Cool. All right. So, we're just going to
+2:12 copy that and then head over to
+2:14 vibecode.dev dev and then we can just
+2:16 paste that in. And I think I'm going to
+2:18 use opus for this.
+2:19 >> Got to use opus,
+2:20 >> especially for the first prompt.
+2:21 >> Yeah, we can just send that.
+2:23 >> So, Vive Code uses cloud code out of the
+2:26 box. So, it's literally cloud code that
+2:28 builds mobile apps and you don't need to
+2:30 do any setup or anything. And yeah, so
+2:32 it's going to build the app and then
+2:34 we'll make adjustments. I guess while
+2:36 it's loading, we could probably like
+2:38 ready up the API.
+2:39 >> Yeah. Yeah. Yeah. So, I can go over to
+2:40 the API tab. Um, we have a few new ones
+2:43 that I added today. Oh,
+2:45 >> so we have a few that we could choose
+2:47 from. Um, and then like you can click
+2:49 this arrow to read more and see the
+2:50 pricing if you wanted to. I think I'm
+2:52 going to use I will be using Nano Banana
+2:55 for the image generation. So maybe I
+2:57 want to keep it in the Gemini family and
+2:59 just use Gemini 3.
+3:00 >> I think Gemini 3 is really good at
+3:02 images like as even input images as
+3:05 input.
+3:05 >> Yeah. Yeah. And it's pretty cheap. So we
+3:07 can use that. So we can add to prompt.
+3:09 Please use Gemini 3 for the AI
+3:14 estimation.
+3:15 >> So, it's done. It's done loading. And
+3:17 now what?
+3:18 >> I scan the QR code. So, I'm going to
+3:19 bring my phone up here.
+3:20 >> So, you just once it's done loading, you
+3:22 scan the QR code. And right now,
+3:24 Muhammad is using a tool called Bezel,
+3:26 which allows you to like see your phone
+3:28 on the screen as he uses it. And he
+3:31 scanned it. And now this is the app that
+3:32 it's created. It's okay. Too many colors
+3:35 for my life.
+3:35 >> You don't like it? The purple annoys me,
+3:37 but like it's fine. It it looks like it
+3:39 has all the features. You want to go
+3:41 through it.
+3:41 >> So these are this is my homepage. I
+3:43 think we got like quick estimates here.
+3:45 Um and that's the same as this new
+3:47 estimate tab I see. Um which is cool. Um
+3:50 we have jobs to see like I guess our
+3:52 current jobs that are going and estimate
+3:54 scheduled in progress completed. Um we
+3:57 have this profile page which I guess we
+3:59 can change to like the business profile.
+4:01 >> Um edit profile notifications. These all
+4:04 don't do anything because I did tell the
+4:05 agent not to do anything. But let's Why
+4:08 don't Yeah. So, we should definitely
+4:10 just add that AI. For whatever reason,
+4:11 we lost our AI prompt. I guess we can go
+4:13 do that again.
+4:14 >> Yeah.
+4:15 >> Okay. So, yeah. So, we're adding Gemini
+4:17 3 Pro and we're using this because um I
+4:21 think it's the best with for an image
+4:22 input.
+4:23 >> Yeah. Please use Gemini for the AI
+4:27 estimates. And then it also added Yeah.
+4:30 So, just photo estimates.
+4:31 >> I was just kind of spec specify like so
+4:33 I can take a photo and it gives
+4:34 estimates. take a photo and it gives
+4:39 structured
+4:40 >> estimates. Yeah,
+4:40 >> estimates.
+4:43 Um, and it seems to be the only AI
+4:46 feature. Um, we can add that nano banana
+4:49 one later where you like take a picture
+4:51 of a bathroom and it remodels it
+4:53 >> and also gives you, but we can do that
+4:54 later. We can just do this for now.
+4:56 >> Um,
+4:57 >> and then I think we could pair it with
+4:59 the image that we generated. Yeah,
+5:01 >> we just toss that bad boy in there.
+5:03 >> And please use this image as the app
+5:07 icon throughout the app.
+5:09 >> All right, so this is the second prompt
+5:11 that we did. And after the first prompt,
+5:13 we created this and now we can continue
+5:15 editing it with AI. And we're basically
+5:18 telling Cloud Code what to do. And we
+5:19 have the APIs that we can reference
+5:21 super easily.
+5:23 >> Yeah. All right. Looks like it's done.
+5:24 So we asked it to use Gemini for
+5:27 actually giving the estimates. So, I see
+5:30 it. The button looks different. Uh, fill
+5:32 in category, title, and description to
+5:34 use AI estimate. Okay. I know you spent
+5:36 a lot of time working on this studio,
+5:38 Riley, but I think it needs an upgrade.
+5:40 >> Okay.
+5:40 >> I think it needs a painting upgrade. And
+5:42 I think we need to paint the walls
+5:45 rainbow.
+5:46 >> Rainbow. Huh.
+5:47 >> Yeah. And the walls are black now, but I
+5:50 want rainbow. And so, I'm assuming the
+5:52 AI will estimate the price. So, then we
+5:54 can take a photo here.
+5:57 >> Okay. Yeah,
+5:57 >> this entire wall to be painted
+6:01 >> and it's during this animation it had
+6:03 like the photo. Oh, $6,000.
+6:07 >> Medium confidence on that.
+6:09 >> Okay. Medium confidence. $6,000.
+6:12 >> Gives you like a scope of work. Apply a
+6:13 vibrant rainbow color scheme to the
+6:15 painted walls. 5 seven days. And it
+6:18 gives you like a cost breakdown um of
+6:19 the labor and material. Uh that's cool.
+6:22 I we could probably ask it to be more
+6:23 specific on like the cost breakdown of
+6:26 everything if you wanted to.
+6:27 >> Yeah, I mean I think we could do that in
+6:29 like version two. I think we should just
+6:30 get the MVP up and add this. Should we
+6:33 add the payw wall or should we do the
+6:34 nano banana next?
+6:35 >> Let's get right nano banana would be
+6:36 like one prompt. So let's get that and
+6:38 then we'll do the payw wall and start
+6:40 accepting payments.
+6:41 >> Sounds good. Okay. So I can go over to
+6:43 the API tab and then go to images nano
+6:46 banana pro the new one. I also want
+6:50 after the estimate to generate an image
+6:55 >> with the changes applied. So
+6:58 >> wait, so that'll happen automatically
+7:00 like when it showed you the 6,000 it'll
+7:02 just show the rainbow wall instead.
+7:04 >> Yeah.
+7:04 >> Okay. Yeah. Type finish typing this and
+7:06 then I want to add one thing.
+7:07 >> Okay. um with the blinders applied so
+7:10 the users can show their clients also
+7:14 while it's loading like when the AI is
+7:17 loading and now we're going to have
+7:18 multiple AIs loading at the same time I
+7:21 want the original image being shown
+7:24 there so that you know a like the user
+7:27 can see it while it's loading and then
+7:29 once it's done loading it'll switch to
+7:30 the new image and also have the cost
+7:33 breakdown below it.
+7:35 >> Yeah. with all of the other stuff and
+7:38 also let the user go full screen into
+7:41 the new photo so they can see it all and
+7:43 exit. That sounds like a good prompt.
+7:45 >> Ship it.
+7:45 >> Ship it. Yeah, we'll wait for that to
+7:47 finish. It's done.
+7:48 >> Let's give it a test.
+7:49 >> So, let's see the nano banana. We can do
+7:51 painting again. We can do the same one.
+7:53 >> Do the rainbow. I like the rainbow.
+7:55 >> Rainbow walls. I want paint these walls
+8:00 rainbow.
+8:02 Um, okay. Take a photo.
+8:08 Nice. Okay, there we go. Last time it
+8:11 was literally just like the spinner over
+8:13 a black screen, which is boring.
+8:15 [snorts]
+8:16 >> This is looking a lot better.
+8:18 >> Whoa. [laughter]
+8:20 >> Whoa.
+8:21 >> Okay,
+8:22 >> so there's a cool little animation and I
+8:25 can see the rainbow walls.
+8:27 >> Very cool.
+8:28 >> And I guess I could show those to my
+8:30 clients and be like, "This is what it
+8:31 would look like." Okay, so last time it
+8:32 said 4500 or 6,000
+8:35 >> 6500.
+8:36 >> Yeah,
+8:36 >> you could probably fine-tune. You could
+8:38 definitely fine tune it.
+8:39 >> You could definitely fine-tune it, but
+8:41 like it works. You know, I think this is
+8:42 a good version one. You know, it's a
+8:44 good estimate. After all, it is an
+8:45 estimate.
+8:46 >> Yeah. And so we can use that estimate
+8:47 and it pops up there. And then you can
+8:49 continue just doing these upgrades to
+8:51 this app. Like we can do so many things
+8:52 like we can make all of this work. Um we
+8:55 can like set up database if we wanted
+8:57 to. But the point of this video is to
+8:59 show off the payments. And so,
+9:00 >> yeah. Yeah. Yeah. So, yeah. So, what we
+9:02 wanted to really do in this video is to
+9:04 focus on how to make money because I
+9:06 feel like this app is already good
+9:08 enough for someone out there to buy the
+9:10 app after just three prompts. And so,
+9:12 what I want to do is drill down into
+9:14 payments. So, we're going to add
+9:15 payments and we're not going to write a
+9:16 single line of code. And I want to talk
+9:19 about what it means to add payments and
+9:21 what happens when we add payments
+9:23 because I think a lot of people missed
+9:25 it in our last video,
+9:26 >> right? And so, yeah. So, it's a new
+9:28 feature now that we have a payments tab
+9:30 at the bottom. And I'm going to start
+9:31 the flow from the very beginning. Like
+9:33 this is how you will see it if you've
+9:34 never done this before.
+9:35 >> And so, when you press payments, it says
+9:38 connect revenue cap.
+9:39 >> Yeah.
+9:40 >> So, what is Revenue Cat?
+9:41 >> So, Revenue Cat is basically um the
+9:44 middleman that sits between you and your
+9:47 users. Um so, for anyone that's like
+9:50 ever made like a web app, it's kind of
+9:51 like Stripe, but not really. Um, with
+9:54 Revenue Cat, you get the um the system
+9:57 payment. Like if you ever subscribe to
+9:59 something on Apple, um, and there's like
+10:01 a little card that comes up and you
+10:02 double click the home button [snorts]
+10:04 and it scans your face and you pay for
+10:05 it. Um, that is native to Apple and the
+10:08 purchases go to Apple and you can like
+10:10 easily manage subscriptions and yeah, so
+10:12 basically it just does that. It just
+10:13 makes everything a lot easier. So the
+10:14 first step we're going to do here is
+10:16 connect Revenue Cat and then Yeah. and
+10:18 then it automatically uh creates a
+10:20 project which we'll get into. Okay.
+10:21 >> Um, so to connect it, we just hit this
+10:23 button. [snorts]
+10:24 >> Nice.
+10:25 >> Um, I'm already signed in. Uh, it'll
+10:27 just ask you to sign in and then this
+10:28 will come up as well.
+10:29 >> And then you just authorize it.
+10:31 Basically giving Vibe Code access to
+10:33 your revenue c.
+10:34 >> Yeah. Yeah. Um, and you can create
+10:36 account as well. It's free. Um, and
+10:38 you'll get this screen as well.
+10:40 >> Very cool.
+10:40 >> So, we can authorize it and it was
+10:42 successful. And now, um, yeah. So, we
+10:44 can see the, uh, the step you were
+10:47 talking about.
+10:48 >> Okay. Okay. So, it automatically created
+10:50 a project.
+10:51 >> Uh, not yet. Not yet. First, I have to
+10:53 just uh enter my display name. And so,
+10:56 this is like the name that you're going
+10:57 to see on the home screen, you know,
+10:59 like that users will see.
+11:00 >> Oh, I see.
+11:01 >> And so, I already have a name here,
+11:03 Contractor Pro. So, I'll just use that.
+11:05 >> Okay.
+11:06 >> All right. Cool. And then, yeah. And so,
+11:08 during this process, it creates a
+11:10 revenue cap project and then an Apple
+11:13 app for your revenue cat. And so a
+11:16 revenue cap project is sort of like this
+11:19 topdown
+11:20 like like group for your app basically.
+11:23 Um so
+11:25 >> and it basically like it has all of the
+11:27 data of like what users have purchased
+11:30 what subscription.
+11:31 >> Yeah. And it's crossplatform and so
+11:33 >> and so when you create a new revenue cat
+11:36 project there's like different products
+11:38 that you can have within it. And I think
+11:40 that's where this screen comes in right
+11:42 here.
+11:42 >> Yeah. Once it's done loading, it says
+11:44 what to do next. And we've put some
+11:46 placeholders in like create a monthly
+11:48 subscription for $4.99, make the
+11:50 settings page premium only, create a
+11:52 lifetime access product, etc., etc.
+11:54 >> Yeah. And so, usually that that step
+11:57 takes like a long time because there's
+11:58 like products and offerings and
+12:00 entitlements, but you don't have to
+12:02 worry about any of that because the
+12:03 agent can do it itself.
+12:05 >> Um, so we can just start with this
+12:07 pre-selected one, but instead of $4.99,
+12:09 I kind of want it just to be $9.99. So,
+12:12 we're going to make it $9.99.
+12:13 >> Um, and that's for a monthly
+12:14 subscription. Then we can do and a
+12:16 yearly plan for like $49.99.
+12:20 >> I like it.
+12:21 >> And so, it'll do both.
+12:22 >> And then what I like to do here is I
+12:24 would say like add a payw wall when a
+12:27 user does certain a certain action in
+12:28 the app. I would say
+12:30 >> when the user tries creating a job. And
+12:34 so, yeah, we can send that and then we
+12:37 can see the agent pull.
+12:38 >> And so, now it's loading. Do you want to
+12:39 pull up RevenueCat? You can see the
+12:42 project that was created.
+12:43 >> So if you go to Revenue Cat, you can log
+12:46 into your account and it log into this
+12:47 obviously the same account that you
+12:49 connected.
+12:50 >> And here we can go.
+12:51 >> I have a bunch of projects. Contractor
+12:53 pro. That was our
+12:54 >> contractor pro. And so we have zero MR
+12:57 obviously. We have no one who signed up
+12:59 so far.
+12:59 >> Yeah.
+13:00 >> But that will change when we start
+13:02 testing it because we're going to test
+13:04 it with sandbox data.
+13:06 >> Yeah. And I guess we can talk about that
+13:09 now while the agent is creating the payw
+13:11 wall.
+13:12 >> Right now you can either have real data
+13:14 or sandbox data.
+13:15 >> Yeah.
+13:16 >> And then the sandbox data is basically
+13:18 what allows us to test it before like
+13:20 you can Yeah. Turn it on right there.
+13:22 Sandbox or data.
+13:24 >> What is it when it's Yeah,
+13:25 >> it's just live data. Yeah.
+13:26 >> Cool. And so yeah, so it's going to
+13:28 build the subscriptions inside of Vibe
+13:30 Code and then um you can test it by like
+13:33 doing like a test purchase of the
+13:35 subscription and then you'd see it
+13:37 inside of Revenue Cat in when your uh
+13:39 sandbox data is on.
+13:41 >> Very cool.
+13:42 >> And then if we go to product catalog, it
+13:44 all starts out empty. Maybe the agent
+13:46 has added No, it hasn't added anything
+13:48 yet,
+13:49 >> but it's doing that right now. The agent
+13:51 is currently adding a product.
+13:53 >> Yeah, it's currently doing that.
+13:55 >> Yeah.
+13:55 >> Yeah. Okay. Okay, it looks like it's
+13:56 done. Um, so we can test out the pay
+14:00 wall by creating a new job. Paint walls.
+14:04 Walls. Doesn't matter. We're just
+14:06 testing it out. And then Riley. Cool.
+14:08 Create estimate. And that's my payw
+14:11 wall.
+14:11 >> Wow. Okay. So, it added this payw wall.
+14:14 How does it work? Like, can you use it?
+14:16 >> Yeah. So, let's hit the subscribe
+14:19 button. And then you're going to get
+14:20 this screen, which is just like a test
+14:23 screen. This is not what your users are
+14:24 going to see. It's going to show up that
+14:26 it's going to show the
+14:27 >> like the little thing that will scan
+14:29 your face if you want to do Apple.
+14:30 >> Yeah. Yeah. And we'll show that um after
+14:32 we submit it to the app store. Um
+14:35 >> so we can test a valid purchase of a
+14:37 monthly subscription and then it gives
+14:40 me the success message.
+14:41 >> And so in theory it should show the
+14:44 $9.99 in Revenue Cat.
+14:45 >> Yeah. Yeah. So, we can go back to
+14:46 revenue cat, go to overview, move my
+14:50 phone out of the way, and we can see I
+14:51 have one active subscription for $10 MR.
+14:55 >> And at the bottom, it says a few seconds
+14:56 ago, someone signed up for $9.99.
+15:00 >> Yeah.
+15:01 >> Amazing.
+15:02 >> And then, yeah, it created all the
+15:04 products and entitlements
+15:06 and um yeah, and I do want to do one
+15:09 thing. You can do something cool.
+15:11 Revenue Cat has these new payw walls and
+15:13 this new payw wall editor that you can
+15:15 use. Um, our payw wall is okay, but it
+15:18 could be better. Um,
+15:20 >> so you can just select from an existing
+15:21 payw wall.
+15:22 >> Yeah. So, they have like a bunch of
+15:23 templates here. And like this one kind
+15:25 of matches us, I guess.
+15:27 >> Um, we could obviously change all of
+15:29 this. I'm not going to change all of it
+15:31 >> right now. Yeah, just
+15:32 >> contractor
+15:34 pro.
+15:36 Um, you know what? That's fine. And then
+15:38 we can publish that. Confirm. publish.
+15:42 And then we go back
+15:46 to offerings and it looks like it's
+15:47 already linked to that payw wall. Then I
+15:49 can go back to the vibe code agent and
+15:51 ask it to ple please use the payw wall I
+15:57 created in revenue cat instead of ours
+16:02 since ours um
+16:05 a little ugly.
+16:06 >> Yeah, just a little bit. After you
+16:08 submit this to the app store, you can
+16:10 change the payw wall um live like over
+16:13 the air. So it'll change instantly even
+16:14 after you deploy it um in case we want
+16:17 to make any changes to it. So yeah, and
+16:19 then if we go back to product catalog,
+16:22 we will see that the Apple status is not
+16:26 ready yet.
+16:27 >> Mhm.
+16:27 >> And that's because we have to configure
+16:29 a few things inside of Revenue Cat to
+16:31 make it work.
+16:32 >> It's only like three steps and then uh
+16:34 we'll go over that.
+16:35 >> Okay. Um, so after this is done, we'll
+16:37 submit it to the app store and we'll go
+16:38 over that.
+16:39 >> Amazing.
+16:40 >> Okay, it looks like it's done updating.
+16:42 So, we should see the new payw wall that
+16:46 um, we created in Revenue Cat. And there
+16:48 it is
+16:48 >> with our annual good
+16:50 >> in monthly subscription.
+16:51 >> Sign up for annual this time.
+16:53 >> Sure, why not?
+16:56 Cool. We get the success message and
+16:58 then I should be able to create the
+16:59 estimate, which I just did. And then if
+17:01 we go over to revenue cat and refresh,
+17:04 we will see $50 now.
+17:05 >> Oh yeah. And then uh while it was
+17:07 loading, we did uh you you cancelled the
+17:10 previous user. So
+17:12 >> yeah. Yeah.
+17:12 >> Do you want to show how you did that?
+17:14 Because sometimes you want to test u the
+17:17 payw wall again. But if you've already
+17:19 signed up in the app that you make um
+17:22 then you won't be shown the payw wall
+17:24 again.
+17:24 >> Yeah. And if you don't want to wait like
+17:25 the 30 minutes, you can just click on
+17:27 the user um like I just did
+17:29 >> and then scroll down and you'll see
+17:31 delete user.
+17:32 >> Ah,
+17:32 >> and then we can confirm
+17:35 >> and then if you refresh the app inside
+17:37 of Vibe Code, then you'd be able to see
+17:38 the payw wall again.
+17:39 >> Okay. And so you can see the payw wall.
+17:41 Okay, great.
+17:41 >> That'd be great if you wanted to test
+17:42 how it would work if like a user
+17:44 cancelled the subscription or uh
+17:46 something like that. So
+17:48 >> cool.
+17:48 >> Uh great. And so that's pretty much all
+17:52 set up. Um, and then when you do set up
+17:55 payments inside of Vibe Code, we set it
+17:57 up such that when you submit to the app
+18:00 store, it'll just like work immed like
+18:02 you don't have to do anything. It'll
+18:03 just work.
+18:04 >> Mhm.
+18:04 >> And so the app is ready to be shipped to
+18:07 the app store and accept payments. And
+18:09 so we can go over here to share and
+18:11 publish to app store. [snorts] Um, and
+18:14 then we [clears throat] can just click a
+18:16 few of these buttons. That's the name I
+18:18 want. Yeah. Uh, we can make a logo
+18:21 calculator with price tag and then we
+18:23 could upload our own if we had one, but
+18:26 this is fine for now.
+18:27 >> I think this is great. It's super easy
+18:28 to upload it later.
+18:30 >> That looks good.
+18:31 >> Great.
+18:31 >> We'll use that. And then if you don't
+18:32 have an Expo access token, you can just
+18:34 click this link and get one and then
+18:36 just paste it in here.
+18:37 >> And it's completely free. All you need
+18:39 is an Expo token which will allow the
+18:41 app that's built on Vibe Code to be sent
+18:43 to the app store.
+18:45 >> Yeah. Yeah. Press start build.
+18:47 >> Need that token. And then this usually
+18:49 takes like five minutesish. Um and then
+18:53 you'll get a success uh with a link to
+18:56 view the build process which we'll see
+18:58 in a sec. All right. So it looks like
+19:00 the build is finished and um if we head
+19:02 over to expo you can see that the build
+19:06 um has succeeded and then the submission
+19:10 has succeeded.
+19:11 >> Amazing.
+19:12 >> So if we go now to app store connect
+19:16 >> app store connect. Okay. So, for those
+19:19 who are brand new and maybe they've just
+19:21 used the Vibe Code app a few times and
+19:22 they've sent an app to the app store,
+19:24 this is where you manage your app, like
+19:27 this is where you would have to submit
+19:29 it through if you weren't doing it
+19:30 through this method.
+19:32 >> Yeah.
+19:32 >> Yeah.
+19:32 >> Yeah.
+19:33 >> And you will have to do some stuff on
+19:35 App Store Connect to get it on the
+19:36 actual App Store, like such as uploading
+19:39 uh screenshots for your app, uploading a
+19:41 description, privacy policy, and terms
+19:44 of services and stuff.
+19:45 >> Yeah, that those are all needed. Um, so
+19:47 if you click on the app, you'll see like
+19:50 you can upload the screenshots here,
+19:52 description, keywords, and then, um, if
+19:54 you don't know like what else you need
+19:56 to do, you can just go to like add
+19:57 review and, um, it'll tell you like a
+20:00 bunch of stuff that you need to do. And
+20:01 so I don't have any of these done. You
+20:03 don't have to do these for the test
+20:05 flight. Um, and so test flight is
+20:07 basically like the last time you're
+20:09 going to test your app before you submit
+20:10 it. So it's like production, everything
+20:12 is like production level.
+20:14 >> Okay. Um, besides purchases, those are
+20:16 still sandboxed. Um,
+20:17 >> got
+20:18 >> everything else, it's how it will be in
+20:20 the app store. And so, usually when I
+20:22 submit an app, I'd like to test it in
+20:24 test flight.
+20:26 >> You can see that Expo created the test
+20:28 flight build. But like I mentioned
+20:29 before, if we go back to RevenueCat and
+20:32 go to the products, which is basically
+20:34 our subscriptions, you'll see that
+20:36 there's uh some things that we need to
+20:38 do first. Mhm.
+20:40 >> And [clears throat] so inside of App
+20:42 Store Connect again, go to the main
+20:44 distribution page and if you scroll down
+20:47 on the left side, you'll see a place for
+20:49 inapp purchases and subscriptions. Um we
+20:52 did subscriptions. If you did inapp
+20:54 purchases, you'll go there, but since we
+20:56 did subscriptions, we're going to go
+20:57 inside and then we can see that um
+21:01 there's no products or groups. And so
+21:03 you can add that manually in revenue or
+21:06 you could ask the agent inside of Vibe
+21:08 Code to push the apps from RevenueCat
+21:12 inside of App Store Connect. So you
+21:14 don't have to do like any manual
+21:15 configuration there.
+21:16 >> Got it. Okay, let's see this.
+21:18 >> So um and actually it's one of the
+21:20 preset uh things. So deploy my revenue
+21:22 cap product to App Store Connect.
+21:24 >> Got it. Okay, so you can type this
+21:25 prompt and it will just create those
+21:27 products within App Store Connect.
+21:29 >> Yeah.
+21:29 >> Okay. And so we can just send that one.
+21:31 And so that will create the products in
+21:34 App Store Connect. Um,
+21:36 >> and then once that's done and it creates
+21:38 those, what else do we have to do? We
+21:40 have to test the test flight version and
+21:43 make sure the payw wall works. Is that
+21:44 right?
+21:45 >> Yeah, we have to do that. And we have to
+21:47 do one thing in revenue, which is um we
+21:50 have to like give it some permissions to
+21:53 allow us to look at the app store
+21:56 connect purchases.
+21:57 >> Got it. And that uh revenue cat needs
+22:00 that. So it can do receipt validation
+22:02 which basically means it just checks if
+22:04 the user subscribed or not basically.
+22:06 >> Got it.
+22:06 >> And so we need to upload some things
+22:08 there which we'll get into. And so we
+22:09 can see here that the agent knew that it
+22:11 can't push without the credentials I was
+22:14 talking about. And so it gives me steps
+22:16 here on how to do it. So we can do
+22:18 number one um go to app store connect
+22:20 and then go to users and then grab a
+22:23 key. And so [snorts] the key it needs is
+22:26 the app store connect key. So, we can go
+22:29 to revenuecat.
+22:31 >> Wait. So, you go to
+22:32 >> sorry, you go to apps and providers.
+22:34 Then you go to um the pre-created Apple
+22:37 app for contractor pro or your app
+22:39 there. And then you'll see um some
+22:41 things that it needs. And so, we can do
+22:43 the first one inapp purchase key
+22:45 configuration.
+22:46 >> Um and it gives you a reason why. And
+22:49 there's some like docs that they have uh
+22:51 to make it easier. And so, [snorts] we
+22:53 can go to app store connect. And then
+22:56 here at the very top, you'll see users
+22:58 and access. You're going to want to
+22:59 click that. And then after that, you're
+23:01 going to go to integrations. And then
+23:04 you're going to see inapp purchase. And
+23:06 here you're going to create the key. And
+23:08 so we can add a new one with this plus
+23:10 button. And call it contractor pro
+23:14 revenue cat. And then we're going to
+23:16 create that. And then make sure you
+23:17 download it. You only have like one
+23:18 chance to download it. If you refresh,
+23:20 it's just going to go away. So you're
+23:21 going to download that. and then go back
+23:24 to revenue cat and then you can just
+23:26 drag and drop that one in here and then
+23:29 it says credential needs attention you
+23:31 need this issuer ID um and if you go
+23:33 back to app store connect you'll see it
+23:35 at the top of the same page issuer ID
+23:37 >> and you just copy it
+23:38 >> copy that and then you can paste that
+23:40 and then now you have valid credentials
+23:42 >> amazing
+23:43 >> cool and then you also need app store
+23:45 connect API and so this is basically the
+23:48 same thing um instead of inapp purchases
+23:51 on the left here you'll just see App
+23:53 Store Connect API. You'll click that.
+23:55 Create another one. Uh, contractor pro
+24:00 revenue cat.
+24:02 And then you want to give it just total
+24:04 access.
+24:07 And then generate download. Same thing.
+24:10 And then we can drag that inside of
+24:12 here. This one's called Okey. Okay. And
+24:15 it also needs the issuer ID. So you can
+24:17 find that at the top here. And then you
+24:19 just paste that in. And then you also
+24:21 need a vendor number. And this is
+24:23 different, but Revenue Cat gives you a
+24:25 link you can click right here, which
+24:27 will take you to the page in App Store
+24:29 Connect, and you can find your vendor
+24:31 number at the top left right here. You
+24:33 just paste it in there, and it should be
+24:36 good to go. You don't need to really do
+24:38 anything else. Um, you don't need Apple
+24:41 server to server notifications.
+24:43 Um, so yeah, that should be good. So,
+24:45 we're going to save changes. inapp
+24:47 purchases. Uh, that's valid credentials
+24:49 and App Store Connect API valid
+24:51 credentials. Cool. Now, the App Store
+24:56 should be ready to submit. So, now we
+24:59 can go back to the Vive Code app. Just
+25:01 copy and paste.
+25:03 >> Yeah. So, you would nor you would
+25:04 normally do what you just did before you
+25:07 type this.
+25:08 >> Yeah. Yeah. Okay.
+25:08 >> And if you do anything out of order, the
+25:10 agent will tell you.
+25:11 >> Okay.
+25:11 >> And then it basically gave the same
+25:12 instructions. Um and then we can say
+25:15 okay I've given the credentials
+25:20 try again.
+25:22 >> Cool. And so can you scroll up to your
+25:23 original prompt? I just want to see it
+25:25 again. So you you said deploy and create
+25:27 my revenue products to the app store
+25:29 connect with your connections. And the
+25:31 reason it wasn't able to do that is you
+25:33 didn't basically give revenue those keys
+25:36 from your app store connect which allows
+25:37 you to do it.
+25:38 >> Yeah. Yeah.
+25:39 >> Okay. Gotcha. And so now that I've done
+25:40 that, it should be able to uh create the
+25:44 two products because we had monthly and
+25:45 yearly. Um and a few other things that
+25:48 you don't have to really worry about.
+25:49 >> Very cool.
+25:50 >> Okay, so it looks like the agent is
+25:52 done. Um it pushed the monthly and
+25:54 yearly.
+25:55 >> It did that really fast, like 20
+25:57 seconds.
+25:57 >> So just two little things and then both
+25:59 products are now live in App Store
+26:01 Connect. And so now if we go back to our
+26:04 apps and go back to contractor pro
+26:07 [snorts]
+26:08 back down to subscriptions you will see
+26:11 uh contractor pro premium and then
+26:13 you'll have a monthly subscription and a
+26:14 yearly subscription. Now
+26:18 now that you've done that few more
+26:20 little things that you have to do.
+26:21 >> Great.
+26:22 >> And this is just Apple being Apple. Um
+26:24 but once you do them once you don't have
+26:25 to ever do them again. So it's just like
+26:27 a onetime setup. Um, so I'm just gonna
+26:30 uh inside of my subscriptions, I'm just
+26:32 going to go into one. I'm gonna go to my
+26:34 monthly subscription. And then [snorts]
+26:36 you'll see the status here says missing
+26:38 metadata. And that basically means I
+26:40 just have to like set up uh just like a
+26:43 few things like the pricing and the name
+26:46 uh the name of it, I suppose. Um so I'll
+26:50 do that. Availability, I'll just do all
+26:52 countries.
+26:54 And then subscription pricing. this it
+26:57 was $9.99
+27:01 and then it'll automatically convert it
+27:03 to the currencies. Um, pretty soon the
+27:08 agent will be able to like do this
+27:09 pricing stuff for you, but for now we're
+27:11 going to have to do that localization
+27:13 just like the name of it. Uh, premium
+27:17 premium contract
+27:20 pro. Add that. And then this image is
+27:23 optional. You also need a screenshot of
+27:26 the payw wall so Apple reviewers can
+27:28 look at it. And so we're going to just
+27:30 grab a screenshot here. So I went on my
+27:33 phone and just took a screenshot of the
+27:35 payw wall. Um yeah, I know they do.
+27:37 Okay. So I've sent it to my computer.
+27:41 I'm just going to drag and drop it in.
+27:42 Cool. Review notes optional. It's pretty
+27:45 self-explanatory. Oh, dimensions are
+27:47 wrong. Okay. And so once you do that,
+27:49 you can go back and then you can do the
+27:52 same thing if you have two
+27:53 subscriptions. I'll do that off camera
+27:55 just to like, you know, so I don't Yeah.
+27:57 Yeah.
+27:58 >> Um and then after you do that, you also
+28:00 have to do a localization for the group
+28:02 of the subscriptions. So I mean it sort
+28:06 of makes sense here. It's like premium,
+28:08 but the only difference is the time
+28:10 span, but you get the same access. Got
+28:12 it.
+28:12 >> And so you're going to need a group
+28:13 name. And so in this case, it's premium.
+28:16 Um, and then we can just use the app
+28:18 name in English. Create.
+28:22 >> That makes sense.
+28:23 >> Cool.
+28:23 >> Can you explain that just just one more?
+28:25 So, what is the group? The group
+28:27 >> What is that?
+28:28 >> The group. Okay. So, I have two
+28:29 subscriptions technically.
+28:31 >> Gotcha. Like monthly and yearly.
+28:32 >> Yeah. But they offer the same
+28:34 privileges. The only difference is how
+28:37 often they get charged and by how much.
+28:39 >> Okay. So, the subs there's two
+28:40 subscriptions of the same product. Yeah.
+28:43 which is the group is the premium access
+28:46 is the Okay, that makes sense.
+28:48 >> Um, and then if you have like two
+28:51 different subscriptions that offer two
+28:52 different things, the agent will know
+28:54 and then create two separate groups that
+28:56 you have to name.
+28:57 >> Makes sense.
+28:57 >> Since both of my subscriptions are on
+28:59 the same uh payw wall, we're just going
+29:01 to send the same picture and then just
+29:03 like yearly sub [snorts] and then this
+29:07 should work. We're going to save that.
+29:10 And then you can see up here the status
+29:12 is now from missing metadata to ready to
+29:15 submit. And so awesome. Now we're ready
+29:18 to test it on test flight. And so we can
+29:20 go to test flight. We can see that the
+29:22 build number is one. And since expo
+29:25 already created this group, I should
+29:27 have a link in my email to accept this.
+29:30 Okay. In this case, I didn't get the
+29:32 email immediately. You should get an
+29:34 email that looks like this. And if you
+29:36 don't, you can go into internal testing.
+29:39 Um, and then you just select yourself
+29:42 and then you just reinvite. And then you
+29:43 should get this email. And so we're
+29:45 going to open the app inside of
+29:47 TestFlight.
+29:49 >> Okay. So this is the app that we created
+29:50 on Vive Code that we sent to the app
+29:53 store. Now we're opening it in
+29:54 TestFlight, not in Vive.
+29:57 >> Yeah. And so now this is like a
+29:59 production uh level app now. Okay. Opens
+30:03 up instantly.
+30:04 Um, cool. It's the same app that we had
+30:06 in Vive Code. Everything looks the exact
+30:08 same. And then we can um see the payw
+30:13 wall and see if that works. Just do
+30:15 random stuff. Riley
+30:18 create estimate. And then we do get the
+30:20 payw wall. And if you go to continue,
+30:24 you'll get this uh like Apple popup. Um,
+30:28 and so we can subscribe. And then here
+30:30 you would put in your testing, your beta
+30:32 testing information. Um, and then you'd
+30:34 put in your login information there and
+30:36 then it should go through. Um, I did
+30:39 that off camera uh to hide my password,
+30:42 but
+30:43 >> nice.
+30:43 >> You would get that and then you just do
+30:45 continue
+30:47 and then cool. You get premium just like
+30:50 you would.
+30:50 >> Wait, you just paid?
+30:52 >> It wasn't technically paying. No, I
+30:54 didn't pay real money since it's test
+30:56 flight. But
+30:56 >> we're still doing test flight. Okay.
+30:58 Okay, that makes sense. Essentially,
+30:59 that's I would have to pay if it was
+31:01 deployed uh on the app store. On the app
+31:04 store, it's the same thing.
+31:05 >> Um [snorts] and then we go over to
+31:06 revenue
+31:07 >> and it'll show up in the sandbox data.
+31:09 >> It'll show up in the sandbox. Um it'll
+31:12 [clears throat] switch instantly right
+31:13 when it's live on the real app store.
+31:15 Then it'll actually charge real money.
+31:17 Um but right now it's still sandbox
+31:19 data.
+31:20 >> Okay. Okay. And then so right now the
+31:22 app is in test flight and you just and
+31:26 once you submit it to the app store, is
+31:29 there anything that you need to do to
+31:31 make sure that the real payments go
+31:33 through?
+31:33 >> No, it's already right now.
+31:35 >> It's already right now. So we built an
+31:37 app that allows us to take a photo of
+31:40 something and then it will analyze it
+31:42 with AI, generate a new image with AI,
+31:45 and there's um and we added a payw wall
+31:48 with payments integrated. Yeah,
+31:50 >> that's insane.
+31:51 >> Without writing a single line of code.
+31:52 >> That's great. Anyway, so that's a video.
+31:55 Um, I encourage you guys let us know in
+31:57 the comments what we should build next.
+31:59 This video was meant to focus basically
+32:01 mostly on the payment side. And if we
+32:04 missed anything or you or you get stuck
+32:06 anywhere, please join the Discord. I'll
+32:09 put a link to our Discord below and you
+32:11 can ask as many questions as you want.
+32:13 Um, Kihan will be in there all week
+32:16 helping people get through with
+32:17 payments. If you run into any problems,
+32:20 uh, just let us know in the Discord and
+32:21 we'll help you through it. Um, I know
+32:23 this might have seemed like a lot
+32:24 towards the end, but like we're going to
+32:26 work to make this easier and easier and,
+32:29 um, yeah, we're just going to make a ton
+32:31 of tutorials going forward until
+32:33 everyone kind of understands it.
+32:34 >> Yeah,
+32:35 >> there it is.
+32:36 >> Thank you guys.
+32:38 Peace.

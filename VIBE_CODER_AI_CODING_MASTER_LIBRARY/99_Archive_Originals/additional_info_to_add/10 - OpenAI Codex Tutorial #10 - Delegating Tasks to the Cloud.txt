@@ -1,0 +1,111 @@
+Title: OpenAI Codex Tutorial #10 - Delegating Tasks to the Cloud
+URL: https://www.youtube.com/watch?v=9tGpIwE-sro&list=PL4cUxeGkcC9iDBeA8IyR1IE1kl4w5IDEG&index=10&pp=iAQB
+Channel: YouTube playlist
+Video ID: 9tGpIwE-sro
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:50:31.703Z
+
+0:00 All right then, my friends. In this
+0:02 lesson, we're going to look at one more
+0:03 feature of the Codex extension, and that
+0:05 is the ability to delegate tasks from
+0:07 your local project to Codex Cloud. So,
+0:10 we can do that by coming down here and
+0:12 changing this option from local to run
+0:14 in the cloud. You can also select a
+0:16 cloud environment to fire this task in
+0:18 as well if you have multiple
+0:19 environments set up for different repos.
+0:21 So, I've been pushing all my local
+0:23 changes up to the remote repo throughout
+0:25 this course. And that means the main
+0:26 branch on the remote is up to date and
+0:28 it incorporates all my changes. However,
+0:30 if you have local changes to your repo
+0:32 that you want Codex Cloud to use as
+0:34 well, you can tell it to do that by
+0:36 selecting your local branch to work
+0:37 from. Anyway, now I'd like to fire off a
+0:40 new task to run remotely on codeex so I
+0:43 can open a PR directly later from it.
+0:45 But I want to do that from VS Code so
+0:47 I'm not having to switch to a browser to
+0:49 set it off. So then we can just say
+0:52 something like can you implement a
+0:55 responsive
+0:56 drop-down navbar for mobile screens and
+1:02 then we can hit enter and when we do
+1:04 that codeex is going to send that task
+1:06 off to the cloud where it can run
+1:08 remotely in an isolated container. So
+1:11 let's go and have a look what it's done.
+1:13 All right then. So now we can see that
+1:15 task is down here and it's completed
+1:17 because I gave it just a couple of
+1:18 minutes to run before I started
+1:20 recording again. So if we click on this
+1:22 task, we should be able to see the code
+1:24 changes it made to the various files.
+1:26 And normally I would take a good look at
+1:28 these changes first before opening a PR
+1:30 for them. But right now I'm just going
+1:31 to hit the create PR button to get the
+1:33 ball rolling. Then when it's created
+1:35 that pull request, we should be able to
+1:37 click the button again to go and view
+1:38 it. So then from here we could review
+1:41 the code and merge it if we're happy.
+1:44 But I'm just going to switch back to VS
+1:46 Code to preview the changes first of
+1:48 all. So then if we click on this cloud
+1:50 task from inside the codeex panel in VS
+1:53 Code, we can actually see that same
+1:54 summary of changes from here as well. So
+1:56 it's brought down that information from
+1:58 Codex cloud and we can see it locally in
+2:00 the project including the actual code
+2:02 changes as well which we can view. And
+2:04 actually, you can also click on this
+2:06 button right here to apply the changes
+2:08 to your local workspace. But just be
+2:10 aware that it's going to apply those
+2:11 changes to whatever branch you're
+2:13 currently on. But you can revert the
+2:15 changes by clicking on this button right
+2:16 here. Anyway, with those changes
+2:18 applied, we could view the application
+2:20 in a browser to preview what it looks
+2:22 like. Okay, so I've opened up the dev
+2:25 tools so I can make this smaller and see
+2:27 what it looks like on smaller screens.
+2:28 And hopefully at some point we should
+2:30 see this mobile menu kick in, which we
+2:32 do. And if we click on that, then we see
+2:34 the links right here. Click it again and
+2:36 it goes away. Let's make this smaller to
+2:38 make sure it still works and looks okay.
+2:40 Yep. All looking all right. And if we
+2:42 click on a link, well then, yeah, it
+2:44 still works. Awesome.
+2:47 Okay, so now I'm happy with the changes
+2:49 and I could go ahead and merge them into
+2:51 the main branch, which is what I'm going
+2:52 to do. But hopefully now you can see how
+2:55 the Codex extension and the Codex cloud
+2:57 can kind of work together a little bit.
+2:59 Now, honestly, I think the link between
+3:01 the two things is just a little bit
+3:02 rough around the edges at the moment. It
+3:04 could be smoother, and it would be nice
+3:06 to have more of the cloud features
+3:08 displayed in the extension, such as
+3:09 opening a PR directly from the Codeex
+3:12 panel, but like I said before, Codeex as
+3:14 a whole product feels like it's very
+3:16 much still in the early stages, and I
+3:18 would expect more features and
+3:19 improvements to be made in the future.
+3:22 Anyway, next up we're going to see how
+3:24 to fire off parallel tasks using the
+3:26 Codex cloud which can all be working on
+3:28 the code at the same time.

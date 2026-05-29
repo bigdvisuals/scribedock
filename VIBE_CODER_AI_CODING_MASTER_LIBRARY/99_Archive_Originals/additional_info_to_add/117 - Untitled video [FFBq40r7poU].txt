@@ -1,0 +1,619 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=FFBq40r7poU
+Channel: Riley Brown
+Video ID: FFBq40r7poU
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 I feel like jeet's agent had two modes
+0:04 as I figured out that was a PM mode and
+0:07 a code editor mode I have a strong
+0:09 feeling that the PM mode was actually 01
+0:13 because it was very good at the
+0:15 reasoning and the coding wasn't that
+0:17 good but it launched last week and they
+0:20 we know that they've given this to their
+0:22 Partners so like startups that open AI
+0:24 has either put some money in this
+0:27 announcement today was basically of a
+0:30 new method of thinking so it's not
+0:34 necessarily a new model we don't exactly
+0:36 know if there using GPT 4 or under the
+0:40 hood or not but what we know is they've
+0:43 trained this model to respond to
+0:46 questions differently and they've
+0:48 trained it to think before it answers
+0:51 basically as a step within the model
+0:54 people have done this before with
+0:56 fine-tuning and other higher level
+0:59 things like G bt4 gbt 40 you would just
+1:02 ask it a question and it's increasingly
+1:04 getting faster and faster it'll
+1:05 immediately start like responding with
+1:07 its main answer and you're saying that
+1:09 there's like a period of time that it's
+1:11 like thinking before it gives you an
+1:13 answer so it's it takes longer for it to
+1:17 respond yeah it will for sure take
+1:20 longer and that's just like a limitation
+1:22 of this type of response and we saw a
+1:26 huge wave like a few days ago some
+1:28 people who said they'd done done this
+1:30 with llama 70b and it was like as good
+1:32 as 405b turns out they hadn't so I want
+1:36 to try a quick prompt here and so let's
+1:38 say I want to clone let's say I want to
+1:40 clone
+1:41 notion and I want to turn
+1:45 it into an app and web app on all
+1:51 platforms and types please tell me how I
+1:56 can do
+1:57 it okay so
+2:00 we're using and the new model is called
+2:02 Chachi bt1
+2:04 preview and let's run it this is my
+2:06 first time doing it on the computer at
+2:08 least so it literally says
+2:14 thinking and so it is significantly
+2:16 longer oh it shows you it's thinking oh
+2:18 it literally says I'm digging into legal
+2:21 side speciality copyrights trademark
+2:24 laws I'm considering front end and
+2:26 backend tools I'm piecing together the
+2:29 apps interface face with tools like
+2:32 figma what does that even mean though is
+2:34 it just like a placeholder text I I'm
+2:36 very curious on what that actually means
+2:38 yeah I don't know what it's doing under
+2:40 the hood I don't think anyone does but
+2:42 it seems like there is some back and
+2:45 forth maybe they're two models maybe
+2:47 they're not more who knows what's going
+2:49 on maybe it's the same model just like
+2:51 repeating itself and trying to dig
+2:54 through a problem um I don't know
+2:57 exactly how it works and open air hasn't
+2:59 won't publish that but from what we do
+3:02 know it it reasons about things before
+3:05 it gives in response so you saw the
+3:06 reasoning okay and so my question to you
+3:08 is what types of apps do you think are
+3:12 going to become better as a result of
+3:14 this of this new way of thinking yeah
+3:16 some people were just like it does
+3:19 better at things that require like
+3:21 logically reasoning through data so one
+3:24 example that one of my friends gave me
+3:26 was basically that she was using it to
+3:29 go through a bunch of yeah emails and
+3:33 dig out specific pieces of information
+3:35 like in this example it was like emails
+3:38 about logistics and she wanted specific
+3:41 information about what's going on with
+3:43 different like pieces of things that her
+3:45 company ordered equipment that kind of
+3:47 stuff and so it it was able to like
+3:50 reason about those things better rather
+3:52 than just like autocomplete which is
+3:55 like how the older models used to work
+3:58 and I think the interesting part of this
+3:59 is like right now it probably won't be
+4:01 that much better at most tasks if we go
+4:04 to Sam's Sam alman's tweet he said it's
+4:07 actually not that good when it comes to
+4:10 like basic tasks maybe someone else's
+4:12 but they basically said it wasn't as
+4:15 good when it comes writing copy or um
+4:19 expanding on text if you told her to
+4:21 write an email it probably wouldn't do
+4:22 that much better even like writing basic
+4:25 code um but right now it's only thinking
+4:28 for 10 or 20 seconds I think the key
+4:30 thing that they have unlocked here is
+4:34 they can make it think for many minutes
+4:36 hours and days and that hasn't even come
+4:39 out yet and that's when it's going to be
+4:41 really was there a chart someone posted
+4:43 a chart where it basically showed the
+4:45 performance got better the longer it it
+4:47 it thought for and so like right now as
+4:49 you're saying it's only thinking for 20
+4:50 seconds what if you let it think
+4:53 overnight or something like that that's
+4:55 like where my brain goes yeah that's
+4:57 pretty much it that's just like definely
+4:59 break through for certain Fields where
+5:03 there's lot of Frontier level stuff
+5:05 happening and that's why the examples
+5:06 that samman shared in his tweet were
+5:09 like really difficult problems like he
+5:12 shared like competition math competition
+5:14 code and PhD level questions which
+5:16 require you to keep reasoning checking
+5:19 your work and going around with that and
+5:21 the meme that's been going around is a
+5:23 strawberry test where it can it's people
+5:26 ask it how many hours are there in
+5:28 strawberry and the older models couldn't
+5:30 do it and now the newer models can so
+5:33 that's because it goes through and
+5:35 checks it works checks it its own work
+5:39 to figure out like it's not just like
+5:42 chaining GPT 4 prompts together like
+5:45 where it's like I feel like you could
+5:46 write a really good prompt if you were
+5:48 like making an app that did this where
+5:50 you just have it respond with the
+5:52 sentence then you have the then you have
+5:54 it trigger another response is it just
+5:57 like doing that or is there some other
+5:59 Tech technology under the hood that's
+6:02 what I'm curious about I feel like it's
+6:04 almost like doing it in just two prompts
+6:05 that's what it feels like to me and I've
+6:07 done this many times with GPT 40 and it
+6:09 just all of the AI models for whatever
+6:12 reason get stuck on this but from my
+6:14 perspective it literally looks like it's
+6:17 just and I know it's not I know that the
+6:21 it's this part right here is just like
+6:23 another GPT prompt but in with the quote
+6:26 formatting and so I'm struggling to
+6:28 figure out what what makes it different
+6:30 and I guess maybe no one knows except
+6:32 for the open
+6:34 Team yeah maybe they don't even know
+6:36 honestly like a lot of this AI stuff is
+6:39 is Black Box and you could like people
+6:41 have done chaining right chaining is a
+6:44 very common way of building AI
+6:47 applications a lot of the bigger AI
+6:50 application companies like Harvey for
+6:52 legal they do a lot chaining but and
+6:56 like Lang chain is one of the biggest AI
+6:58 libraries which devel Vel is used and
+7:00 the main feature is you can chain
+7:02 multiple AI llms together to to reason
+7:06 about a longer task but what used to
+7:08 happen is it used to get stuck in a loop
+7:11 where it didn't know how to exit that
+7:13 Loop and clearly there's some sort of
+7:15 breakthrough here I don't know if they
+7:18 know we or what they don't know what
+7:21 they do know we don't know any anything
+7:23 other than what they've showed us today
+7:25 which is it does some sort of reasoning
+7:28 it's more lot more a like agentic than
+7:32 than the previous models where it can do
+7:34 things itself and get out it out get
+7:37 itself out of these holes that used to
+7:39 dig itself to with like just simple like
+7:42 GPT chaining where you're trying to get
+7:45 that sounds great for me because
+7:47 yesterday as I was I had a thousand line
+7:50 code file and I had to get out of it and
+7:53 I'm wondering maybe it'll get better at
+7:54 refactoring and by refactoring I didn't
+7:56 know what it meant yesterday but I've
+7:58 been using AI code and I ended up with a
+8:01 file that was too long and I needed to
+8:03 separate the file into a bunch of
+8:05 smaller files and I'm it seems like
+8:08 something it would be a lot better at
+8:09 because it can like reason like okay
+8:12 what are the steps I need to do and then
+8:13 go through them one at a time which
+8:16 seems like really useful for coding now
+8:19 that I think about it and I'm curious so
+8:21 I actually have a coding project open
+8:23 right now it's an app that you've seen
+8:25 before and I've used it for one prompt
+8:28 so I have set up 01 preview and for
+8:31 anyone who wants to set up open AI there
+8:34 are some steps I'm going to link to an
+8:36 an an's video down below if you want to
+8:39 set that up I'm curious have you used it
+8:42 to code yet Beyond just making that
+8:46 video no I haven't I haven't given a
+8:48 chance to use it to code but I saw some
+8:51 benchmarks that people published that it
+8:53 wasn't that much better at like
+8:55 application
+8:56 development just because I I think like
+9:01 certain parts of application development
+9:03 require a lot of thinking and that's
+9:05 usually the start figuring out the first
+9:07 prompt but as you get into it you
+9:10 probably just want to build out features
+9:11 faster and maybe the time to reward
+9:14 ratio doesn't make sense later on like I
+9:17 I saw this chart we can pull it up later
+9:19 but it was like it's only better than
+9:21 GPD 4 at coding like 60% of the time and
+9:26 40% of the time it's worse it's the for
+9:29 five or 10 times longer response time I
+9:31 don't know if that's worth it for me um
+9:34 but I think I definitely use it to like
+9:35 Plan before I get into the execution of
+9:38 things and also for the first prompt
+9:41 because the first prompt sets up a lot
+9:42 of the foundations which I think is
+9:44 necessary for building a good project
+9:47 this is composer and I actually use
+9:48 composer to build this app right here on
+9:51 the side right here oh yeah I just added
+9:52 this feature that uh lets me search
+9:54 through the notes so I can type in like
+9:56 banana and then it like in real time
+9:59 finds the app and I used I actually
+10:02 tried using the new AI model and it
+10:04 didn't update the file it like laid out
+10:07 all the steps that I needed to take to
+10:08 do it but it didn't actually make the
+10:10 changes in cursor I think it's also
+10:12 going to take some time for the people
+10:14 at cursor to set up their app so that it
+10:16 uses this because the output is just in
+10:19 a different format so I would assume
+10:21 that they have to like optimize cursor
+10:23 for that type of
+10:25 output let's create a new chat and let's
+10:28 just say
+10:30 tell me about this code base if you
+10:33 wanted to take this to production what
+10:38 are the steps you would need to take
+10:43 your goal is to profit as much as
+10:48 possible all right let's try
+10:50 this is it even responding it's thinking
+10:54 it's still thinking I guess it has to go
+10:56 through so many files okay all right
+10:58 we'll let it oh there we go so I guess
+11:00 you have a pretty good idea of where I
+11:01 am in this app uh yeah I guess I wonder
+11:04 if it actually went through or or if
+11:06 it's giving us just like a boilerplate
+11:08 answer it's talking about ADV search
+11:11 capabilities and I was thinking about
+11:13 adding tags to the notes even
+11:15 automatically that would be really fun
+11:17 to do it automatically and group them by
+11:19 tag and AI Auto tagging and literally
+11:22 said
+11:23 that yeah and a web clipper extension
+11:26 I've been saying that I literally was
+11:28 thinking like you should be able to save
+11:30 imagine if we had a team account and we
+11:32 before this podcast we could just save
+11:34 things to this note that'd be really
+11:35 cool wait this is actually awesome
+11:37 enhanced content generation use more
+11:39 sophisticated AI models for better
+11:41 quality content so it looked and saw
+11:43 that I'm using uh llama
+11:46 3170 B so it's use a better model
+11:50 personalized recommendation leverage
+11:51 machine learning to suggest ideas or
+11:53 content types natural language queries
+11:56 allow users to interact with their data
+11:58 using conversational language I think
+12:00 that is a higher quality answer than
+12:02 Claude gives currently let's go over the
+12:05 this tweet let's break this down here
+12:07 yeah so this is just they probably ran
+12:09 an AB test blindly for people who are
+12:12 using chat GPT there probably 100
+12:15 million people using chpt probably a
+12:17 million or two million people got there
+12:18 so the data is good but yeah they just
+12:21 probably you can thumbs up and thumbs
+12:22 down something GPT so they probably
+12:25 without telling people were like hey
+12:27 using 01 pre view in the back end and
+12:31 they um saw if people started thumbing
+12:34 it up more or thumbing it down more and
+12:36 basically they found out for questions
+12:38 related to the personal writing or
+12:41 editing text it was actually lower
+12:43 whereas for questions related the
+12:46 computer programming data analysis and
+12:48 mathematical calculation in that order
+12:50 was higher but this which model was
+12:52 better The Win rate wasn't that much
+12:55 greater and I I don't know if you use
+12:57 seen that feature in chat GPT but
+12:58 sometimes
+12:59 responses so that's probably more likely
+13:02 on how they presented this to the user
+13:04 and so the user chose which one they
+13:06 thought was better and it seems like for
+13:08 computer programming 01 preview in 01
+13:11 mini won about 60% of the times over
+13:15 what's the difference between what's the
+13:16 difference between o1 preview and 01
+13:18 mini yeah they just the size of the
+13:20 model so one of the models is bigger and
+13:24 the other one is smaller that's pretty
+13:25 much it and what that means is that like
+13:28 the the main difference here in the
+13:32 model training is not by like the data
+13:36 or um the amount of compute they used
+13:42 but in the inference steps so I just
+13:44 sent you another link that kind of
+13:46 expresses what this means so the 01 mini
+13:50 is in theory much
+13:53 faster yeah it should be faster it
+13:56 probably has lesser oh this is
+13:58 interesting this is
+13:59 I saw this uh before I was boarding the
+14:02 plane so yeah break this down this is
+14:05 really
+14:08 interesting yeah um so I probably
+14:11 wouldn't be able to break this down into
+14:14 something that's easily understood let's
+14:16 see how good chat GPT is this new 01
+14:20 preview uh please break this down at a
+14:27 ninth grade
+14:29 uh reading
+14:30 level and make it
+14:34 incredibly uh easy to digest and you
+14:39 know what let's go 10th grade I'm
+14:40 feeling smart
+14:42 today and so we will where' it go I
+14:45 don't think 01 is multimodal yet so I
+14:48 don't know if you can upload images but
+14:50 wor just we we'll figure that we'll
+14:52 chain it we'll chain it we'll go like
+14:54 this we'll go to perlex we'll face this
+14:56 in here yeah describe this image image
+14:59 in perfect detail so we'll get
+15:02 perplexity to do that and while that's
+15:04 going we'll prepare chat GPT we'll say
+15:07 we'll say I'm about to give you I or I
+15:11 just saw an image that I'm about to
+15:18 describe and that is what I want you to
+15:23 teach and
+15:25 make easy and we're just gonna
+15:29 um we'll copy this right here and yeah
+15:33 we'll just paste this whole thing in and
+15:35 we'll see what they say so we're
+15:38 referencing this image right here and so
+15:40 this is actually a good test how is it
+15:42 at teaching something very simply which
+15:44 I think is very important it's like
+15:46 actually one of my biggest passion in
+15:48 the AI space so imagine you have two
+15:50 cars that both need to be built then
+15:53 driven the way they spend time in
+15:56 building and driving is different let's
+15:58 use this idea to understand two types of
+16:00 large language models llms the most
+16:03 common ones and a special strawberry
+16:06 model large language models are like
+16:08 smart robots that can read and write
+16:10 text almost like a human they learn from
+16:12 tons of books articles and websites to
+16:15 understand language patterns and
+16:16 generate sentences the three stages of
+16:18 llms so there's pre-training which is
+16:22 this is the first big step where the
+16:24 model learns General language rules from
+16:26 a massive amount of Text data right
+16:28 that's just how chat gbt Claude have
+16:31 worked since the beginning of kind of
+16:33 this whole movement in late 2022 it's
+16:36 like building the cars engine and body
+16:38 the post trining fine tuning here the
+16:40 model gets extra training on specific
+16:43 tasks I think of this as like thumbs up
+16:45 thumbs down right it started off with
+16:47 this model that was trained and correct
+16:50 me if I'm wrong here it started off with
+16:52 this model that was like trained on a
+16:54 ton of data and in that data there was a
+16:56 lot of things that they don't want like
+16:58 they probably talk about how to set
+16:59 buildings on fire with certain materials
+17:01 they started talking about a lot of
+17:03 illegal things a lot of things that
+17:04 weren't appropriate for the workplace a
+17:06 lot of things that were just Incorrect
+17:08 and so they basically had to get a bunch
+17:10 of humans and that's the controversy
+17:12 that they got like just people in other
+17:13 countries to work for below minimum wage
+17:16 and they just basically said bad good
+17:17 bad good bad good where you basically
+17:20 train or you reinforce that behavior out
+17:23 of them and then there's inference which
+17:25 I actually this is probably the most
+17:27 abstract term here but let's see what
+17:30 how it does so inference after that that
+17:33 thumbs up and thumbs down process right
+17:35 there's inference and so this is when
+17:36 the model actually this is when the
+17:39 model is actually used to generate text
+17:41 or answer questions it's like driving
+17:43 the car on the road okay I wish we had
+17:47 more on inference I'm just GNA say can
+17:49 you just talk about inference
+17:52 pre-training is like basically you are
+17:55 taking all the information from the
+17:56 internet and you're like basically
+17:58 telling this model can you predict the
+18:00 next word based on all this information
+18:02 and you're adding these steps where it
+18:04 gets better no one really knows how
+18:06 those steps work but it's somewhat like
+18:08 our brain like a neural network that
+18:09 makes a bunch of connections Roes R and
+18:13 then red right so that connection is
+18:15 like made and there are like billions of
+18:17 these and that's what people say when
+18:19 they talk about parameters billions of
+18:21 parameters now post training is like
+18:23 making some of these networks stronger
+18:25 like when you're thinking and when
+18:27 you're me remembering stuff if there was
+18:29 like an emotional event that happened
+18:31 you know how those NE like you might
+18:32 have learned this in in high school that
+18:34 those neurons become more activated and
+18:36 stronger that's the post training is
+18:38 okay make sure that you know this stuff
+18:40 really well and answer in this way and
+18:42 don't like like you said it's like the
+18:43 human feedback that's where they do the
+18:46 the human feedback loop and the
+18:47 inference part I think the best way to
+18:49 describe it is like it doesn't change
+18:51 the actual brain structure or the actual
+18:54 structure of the model you're not
+18:55 updating the parameters You're simply
+18:57 just telling it how to
+18:59 respond so that's where it learns how to
+19:02 reason it learns how to think in a
+19:04 stepbystep manner so it's spending more
+19:08 time on that step or it's or I'm just
+19:11 curious on what the main conclusion bars
+19:14 are I just realized that they're
+19:16 percentages so as a percentage the
+19:18 pre-training is less important I'm just
+19:20 curious on what it mean so is this time
+19:23 is this total resources or is this just
+19:25 an abstraction I like is it spent it's
+19:28 probably an abstraction of all of those
+19:30 things so it's just spending a lot more
+19:32 time in the inference stage where it's
+19:34 not updating the parameters of the model
+19:37 but like making sure that the par the
+19:39 model responds in a certain way where it
+19:41 like thinks about everything before
+19:43 responding it's basically teaching it
+19:45 this extra step but after it's been
+19:48 fully formed and it doesn't update like
+19:51 the knowledge it has or the data it has
+19:54 it just updates the way it responds and
+19:56 so I'm curious when people talk about
+19:58 ages I'm wondering I've heard a lot of
+20:00 people say that the future of Agents is
+20:02 having this one really smart model where
+20:05 they basically delegate to smaller
+20:08 models who are better at certain things
+20:10 but they're faster and it's cheaper and
+20:12 so I'm wondering you have this model
+20:15 like strawberry at the top of your agent
+20:19 Workforce where you say I want to build
+20:21 a website or I want to build a company
+20:24 that does this and they can reason as I
+20:26 showed in cursor it can reason on the
+20:28 plan and then delegate to something
+20:31 smaller there's some things that maybe
+20:32 like llama like really fast models might
+20:35 actually just be able to get the job
+20:37 done and then they can almost check
+20:39 their work do you is that a correct kind
+20:42 of way to think about where this whole
+20:44 Space of Agents is going or is am I
+20:46 completely off
+20:48 here yeah I think that's correct what I
+20:50 think about it and this is just a guess
+20:53 I don't know anything about this I feel
+20:55 like jeet's agent had do modes as I
+20:59 figured out there was a PM mode and a
+21:02 code editor mode I have a strong feeling
+21:04 that the PM mode was actually 01 because
+21:08 it was very good at the reasoning and
+21:11 the coding wasn't that good and that
+21:13 feel it feels like that's and that
+21:16 wasn't that long ago it launched last
+21:18 week and they we know that they've given
+21:20 this to their Partners so like startups
+21:23 that open AI has either put some money
+21:25 in or has a direct relationship with
+21:29 um here it is here it is if you scroll
+21:31 down for the next one that's oh yeah
+21:34 here's the tweet it says that it's that
+21:36 it says the team composition is myself
+21:38 the project manager and strategic
+21:40 planner and then the editor a
+21:42 sophisticated engineer that can improve
+21:44 software features and I feel like the in
+21:48 my testing the project manager was a lot
+21:52 better in repet agent than the editor
+21:56 which didn't do as good a job in
+21:59 comparison but that's just based on my
+22:01 testing it's just a wild guess I'm
+22:03 curious what project do you think like I
+22:06 should build with 01 that could that I
+22:09 could use their API in in an app what
+22:13 are some ideas you have of a tool that
+22:15 would be uniquely good for 01 and I'm
+22:19 gonna see if I can build it
+22:21 tonight probably something related to to
+22:24 planning I think cuz it'd be able to to
+22:27 plan better I think you should honestly
+22:30 build something that helps you plan
+22:32 projects and figure out what best steps
+22:35 are to take to build those projects it
+22:38 seems like this is going to be a lot
+22:40 better at the planning step or that's
+22:43 one thing I think the other way that you
+22:45 could go down is based on open ai's news
+22:48 announcement it's a lot better at math
+22:51 and reasoning so you could do something
+22:54 there like like maybe an IQ test game
+22:59 you versus an AI agent another one could
+23:02 be sort of app that helps students with
+23:05 math problems but that doesn't seem as
+23:07 exciting you could also build yeah those
+23:10 are some examples another one could be
+23:12 what if you built like cursor but or
+23:15 what if you build cursor is to vs code
+23:18 you can build something that is the
+23:20 Google Sheets maybe so like a simple
+23:24 Excel model that like is like just a
+23:26 grid web app that's a grid
+23:29 that you can that's AI powered so it
+23:32 does your modeling as you're typing it
+23:36 out and since it uh since it's good in
+23:40 math it'll be able to get those grds
+23:43 filled out accurately which existing
+23:45 models probably could do that well maybe
+23:47 for if I don't know if you use EXL for
+23:49 your business and mapping out Revenue
+23:51 cost that kind of stuff that would be
+23:53 very useful and practical for people so
+23:55 yeah there's some ideas I'm shooting
+23:57 thank you for laying out all those as
+23:59 you were saying those I had 50 ideas
+24:00 flashed to my head and yeah I'm really
+24:02 passionate about coming up with ideas
+24:04 for coding and even like with an
+24:06 existing code base so like somehow
+24:09 figuring out all like what we did in
+24:10 cursor but maybe um maybe or a path of
+24:15 prompts so like it literally could come
+24:16 up with all the prompts you might need
+24:18 to get to the end and I'm C that would
+24:19 actually sounds fun call it path of
+24:21 prompt.com where you map it out you give
+24:24 what a good cursor prompt looks like and
+24:27 then you just have it come up with every
+24:28 single cursor prompt and then we just
+24:30 have to figure out a way to upate it
+24:32 yeah that could be awesome I feel you
+24:34 already working in composed script maybe
+24:37 some like a visual composed script could
+24:39 also be good for this because it would
+24:41 be able to build out a UI much easier
+24:43 but that being said I don't think the
+24:45 API supports like calling functions or
+24:50 image stuff yet so that well we could do
+24:53 a chain we could like somehow find a way
+24:54 to like call in other ones if it says
+24:58 certain code then it triggers another
+25:00 one or something like that anything's
+25:02 possible and so I know you have to go
+25:03 and I'm just going to start building
+25:04 right after this but yeah thanks for
+25:06 doing this to but

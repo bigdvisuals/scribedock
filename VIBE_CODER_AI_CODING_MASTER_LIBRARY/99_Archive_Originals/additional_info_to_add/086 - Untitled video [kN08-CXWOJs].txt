@@ -1,0 +1,344 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=kN08-CXWOJs
+Channel: Riley Brown
+Video ID: kN08-CXWOJs
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 So, using the new GPT-4o vision model, I
+0:03 created this right here. So, the
+0:06 background is the GPT-4o image model,
+0:09 and this is a Claude clone, and we can
+0:11 chat with it. We can say, "Give me
+0:14 simple recipe for potato."
+0:18 And look at the styling that we created.
+0:24 We also have this side panel, and if we
+0:26 want to vibe out, we can listen to some
+0:28 music.
+0:32 But, it actually doesn't stop there. I
+0:34 added this notes feature, and we can now
+0:37 select things. We'll see this plus sign,
+0:39 and boom! There we go. And I'm going to
+0:42 show you exactly how I created this.
+0:44 Let's not waste any time. Let's just
+0:46 dive straight into the video. So, first,
+0:48 let's go ahead and take Claude, and
+0:50 we're just going to screenshot the whole
+0:52 site. Let's screenshot it once with it
+0:54 closed, and let's screenshot it once
+0:57 with the sidebar open.
+1:00 I want you to turn this into the style
+1:03 of Studio
+1:05 uh Ghibli
+1:07 with a clean background to the site, and
+1:13 make it simple, yet beautiful.
+1:19 And so, I'm going to upload
+1:23 the simple screenshot of Claude into
+1:25 ChatGPT, generate image. And let's see
+1:28 what it does. And wow, look at this.
+1:33 It's generating.
+1:36 Let's make some clouds
+1:40 and grass
+1:43 in the background
+1:45 of this page have clean angles that
+1:52 focus attention on the input field.
+1:57 Okay, it's generating. Take a look at
+1:59 this. This is cool. It's going to put
+2:02 some clouds in the background.
+2:06 Oh, wow. That is very cool. Now, what
+2:10 we're going to do is we are going to
+2:11 open up Cursor. Then, we're going to
+2:13 just start off from this base template
+2:15 right here, which is just a basic
+2:16 Next.js template. It'll help you get
+2:18 started. Highly recommend just pasting
+2:20 this in. Please, can you turn this app
+2:22 into something that looks like this? And
+2:24 now, we're going to give it an image of
+2:26 Claude, and then we're going to
+2:27 restylize it. So, we'll just toss that
+2:29 image in there.
+2:30 This is an AI image
+2:34 uh or an AI text chat. We're actually
+2:38 going to use the thinking max mode on
+2:41 Claude. It's quite expensive, but I'm
+2:43 going to use it anyway.
+2:44 And and then, run the project once
+2:49 you create it. I want it to allow me to
+2:55 chat with
+2:57 Claude, the AI model, and use this API
+3:02 key. All right. So, I pasted my API key
+3:05 right here. I want to keep it covered
+3:08 and secret, but now we're going to press
+3:10 send. Okay, let's run it.
+3:14 Okay, so now it's forking the repo,
+3:16 which is correct.
+3:18 Okay, so it's done. Let's go ahead and
+3:21 command-click on localhost:3000.
+3:23 Okay, so we have an error. Let's go
+3:25 ahead and try and fix this error. Paste
+3:27 this in.
+3:28 We have this error. Also, put API key in
+3:34 uh .env file for me, please.
+3:40 Okay, so it's done. Let's go back to our
+3:44 app. Ah, okay. So, this is looking good.
+3:47 So, we can say, "Hello. This is Riley.
+3:50 What is the best way to have ice cream?"
+3:56 Let's see if this works.
+3:58 Ba-da-boom, ba-da-bing.
+4:00 Ooh, okay, interesting formatting. Let's
+4:02 not worry about that too much now, but
+4:03 we have the AI chat working. So, I'm
+4:05 going to take that image that we created
+4:08 on ChatGPT.
+4:11 I'm going to download this. So, let's
+4:12 just go into Cursor, and I am going to
+4:14 go public.
+4:17 In the public folder, I'm just going to
+4:18 drag that ChatGPT image into the public
+4:22 folder. And I'm just going to call this
+4:23 bg.png.
+4:26 And I'm going to say, "Please, make the
+4:29 background of the site have a bg.png
+4:35 in the background. This should be behind
+4:41 the chat." Let's just see what this
+4:42 looks like.
+4:45 Um
+4:47 Okay.
+4:48 Ooh! What the hell? Look at that. That
+4:54 is insane.
+4:57 Oh my.
+4:58 Hello.
+5:02 Okay, I'm going to take a screenshot of
+5:05 this here while it's still coding
+5:06 something.
+5:11 Oh, wow. I love it. Okay.
+5:13 Hmm. Hmm. Hmm.
+5:19 See, notice there's like a big white bar
+5:21 going across the bottom. I actually
+5:22 don't want that. I just want the input
+5:24 area to be white. And then, also notice
+5:26 how the uh user input and then the
+5:29 AI-generated responses are solid white.
+5:32 Instead, I want that to be
+5:36 um I want the user input to be very,
+5:39 very light gray background, not fully
+5:41 opaque. And then, I want the AI's
+5:43 response to be dark text, and then make
+5:47 it like a light blue to white gradient
+5:49 for the response.
+5:52 And have like borders, like And then,
+5:55 also, anywhere there's white, I actually
+5:57 don't want it to be fully white. I want
+5:58 it to be like a very off-white, tan-ish
+6:01 color.
+6:05 Oh my god. Hello there. Uh tell me a
+6:09 poem.
+6:20 Very cool. Um
+6:24 Please, make the AI background
+6:29 uh less opaque.
+6:36 And slightly less opaque
+6:40 for the the
+6:43 user input. All right. Now, let's give
+6:45 this a test. Please, write
+6:48 three
+6:50 eight-line poems
+6:53 about
+6:54 coding with AI.
+6:57 Ooh, yes. That's a money. Look at that.
+7:01 We designed this right here. Ooh, let's
+7:04 design the sidebar.
+7:08 Wow, that's crazy.
+7:10 I think that looks really good. Um
+7:15 Wow, nice. Tell me more um about this
+7:20 topic.
+7:23 Oh my god. We made this
+7:27 so fast. We vibe-coded this. This is
+7:30 beautiful. Okay. Um please, make a white
+7:35 uh light blue-ish
+7:38 white borders around the the user inputs
+7:45 and the
+7:47 AI response.
+7:50 Also,
+7:51 make the sidebar
+7:54 background
+7:56 have
+7:59 some sort
+8:02 of
+8:04 um tan to green gradient
+8:08 that uh would be cool for nature.
+8:13 Make it
+8:15 look good as the background. No idea how
+8:18 this is going to look.
+8:20 But, that's crazy.
+8:24 So, it's editing this chat drawer.
+8:27 And let's scroll over here. Let's press
+8:30 on this. Oh my. Look at that. Look at
+8:34 this design. That's insane. So, now I'm
+8:37 going to say, "Please, create a
+8:41 icon that matches this style."
+8:45 An icon that matches this style that
+8:48 would be good for a logo. Um make this
+8:54 icon
+8:56 um
+8:58 have
+9:01 rounded edges. Be creative.
+9:08 Oh, wow. Okay, make the wooden part
+9:13 bigger.
+9:15 Remove the background, so it's PNG.
+9:21 And then, have it just be the bottom
+9:26 plant looking. That looks good. So, now
+9:30 we're going to download this. Let's go
+9:32 to Cursor, and we're going to take this
+9:34 image right here, and we're going to
+9:35 drag this in.
+9:37 And we're going to just click on it.
+9:38 We're going to press enter. We're going
+9:39 to type logo.png,
+9:41 and here we're going to say, "I just
+9:44 uploaded a logo.
+9:47 Uh PNG. Please, put this on the top
+9:52 right of the screen, and make it big."
+9:57 All right, let's just do that.
+10:00 Make sure we save it.
+10:03 Okay.
+10:09 Not
+10:11 the biggest fan. Can you please center
+10:16 it where it says "Good evening, Riley?"
+10:25 Instead of it saying "Good evening,
+10:27 Riley," make it say "Welcome to Vibe
+10:30 Chat." So, we're going to name this app
+10:32 called uh Vibe Chat.
+10:35 Okay, we'll try that.
+10:37 Now, let's go ahead and go to Chat GPT
+10:39 and say
+10:40 "Please make the um parts that are
+10:46 engraved
+10:48 like the plant
+10:50 and circle, make just those parts a
+10:55 gradient
+10:57 of the colors in the image I gave
+11:00 earlier."
+11:02 Actually,
+11:05 this one.
+11:06 "And make a dark border around the edge
+11:13 of the square."
+11:17 "A light vibey meditation
+11:22 music relaxing
+11:25 soulful
+11:27 energizing."
+11:31 And we'll just hit create.
+11:34 All right, here we go.
+11:39 Ooh,
+11:41 I don't mind this. This is kind of hype,
+11:44 honestly. Ooh,
+11:46 look at that.
+11:48 It's kind of nice. Let's download that
+11:50 bad boy.
+11:51 All right, so now let's
+11:55 Now what we're going to do is we are
+11:56 going to go here.
+11:59 And now all we need to do is we need to
+12:01 take that image that we just created,
+12:04 drag it into here. And what I'm going to
+12:06 do is I'm going to press enter, command
+12:07 A, command C,
+12:10 copy the name.
+12:12 Now I'm going to delete that one, and
+12:15 now we're going to paste this in right
+12:16 here. We're going to call this logo.png.
+12:18 Then we're going to hit command S. Now
+12:20 it should replace this here. So, if we
+12:22 go back here,
+12:24 we hit command R.
+12:28 Let's refresh this.
+12:33 Uh rerun the server.
+12:37 Mhm.
+12:39 Okay, please tell me about
+12:43 Brooklyn.
+12:47 Mhm.
+12:53 Okay, okay.
+12:56 "Next to that link
+12:58 button, I want you to add a little
+13:03 notepad
+13:04 icon. When I press this, a little
+13:09 notebook
+13:10 should pop up on the right side of the
+13:15 screen.
+13:17 When I highlight any part of the AI
+13:21 response,
+13:23 it should have a little plus icon pop
+13:29 up, and if I press that button, the
+13:33 selected
+13:35 text gets added to that notepad.
+13:41 While that is loading,
+13:44 what I want to do
+13:46 is I want to grab this song that we
+13:49 generated on Suno.
+13:51 I'm going to drag it into public,
+13:53 and I'm going to go song.
+13:56 mp3.
+13:58 I'm going to prepare this prompt.
+14:00 Uh "Please have a play button on the top
+14:05 right
+14:09 that plays the song
+14:13 song.mp3
+14:16 song.mp3
+14:18 in public
+14:20 folder.
+14:21 I want to be able
+14:25 to pause it."
+14:29 Okay, let's see how this looks.
+14:32 So, I do not see the
+14:35 um hello. Okay, so now we have this
+14:39 notepad icon. Let's see what it does.
+14:41 Okay, so notes.
+14:43 Uh "Tell me a
+14:45 Ooh, it's changing.
+14:48 Okay, so I'm going to say "Tell me about
+14:50 diffusion
+14:52 models in one paragraph."
+14:58 So, now we can press this button right
+14:59 here. Let's see. Okay.
+15:03 All right, so now if we select this, a
+15:07 little plus button pops up. Boom! Nice.
+15:11 "Tell me a poem about this."
+15:17 And we can just do a portion of this.
+15:18 "So, in the realm where data streams,
+15:21 chaos reigns, and patterns dream, a
+15:24 whisper grew, a subtle scheme, a dance
+15:26 of noise,
+15:27 a diffusive theme."
+15:30 Wow, I like that. Let's save that. Boom!
+15:33 Clean. And now we can play music.
+15:38 We're having fun. This is vibe coding.
+15:41 "Please move to bottom
+15:44 left
+15:46 corner
+15:48 and make it
+15:49 above the sidebar if opened."
+15:57 And we can pause it. "I want the notes
+16:00 panel not to be
+16:03 a right sidebar.
+16:06 I want it to be a floating
+16:10 panel with room on all sides, rounded
+16:15 edges, dark border."
+16:20 All right.
+16:22 We did it. Look at this.
+16:24 This is insane. So, in one sitting, we
+16:27 created this app, this clone of Claude,
+16:31 but like more vibey. It's called Vibe
+16:33 Chat. So, we can say "Give me
+16:36 five simple recipes for steak
+16:42 in the air
+16:44 fryer."
+16:47 And okay, wait. So, let's actually just
+16:49 chill for a bit. Let's listen to some
+16:51 music.
+17:00 All right, let's go to our previous
+17:01 chats here. Okay, we can press this
+17:04 little button right here. So, we now
+17:05 have our notes out.
+17:43 Mhm, that sounds good.
+17:53 And we are just vibing.
+18:03 Mhm.

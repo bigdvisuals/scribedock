@@ -1,0 +1,1098 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=SD5E3xdEXuQ&pp=0gcJCQMLAYcqIYzv
+Channel: Riley Brown
+Video ID: SD5E3xdEXuQ
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 In this video, we are going to show you
+0:01 how to build your very first mobile app
+0:04 using AI. No programming experience is
+0:07 required. Even if you don't have a
+0:09 computer, why don't we go ahead and get
+0:11 started building today? We're going to
+0:12 show you how to build an AI powered
+0:14 group chat app that you can use in any
+0:17 scenario. I think there would be cool to
+0:18 like blend a running app and a chat app.
+0:20 That's what I want to do. And it will
+0:22 even have a little AI assistant that you
+0:24 can at@mention that has full
+0:26 understanding of the entire chat thread.
+0:29 All right, let's see if this AI feature
+0:31 is working. Oh. Oh. And if you want to
+0:36 follow along, you can. We're also going
+0:38 to post a template in the description
+0:40 that you can remix and begin from that
+0:42 point. Are you going to go for a run?
+0:45 Come on, work. Anyway, let's dive in.
+0:51 >> So, this is the app that we're going to
+0:52 be building today. Khan, walk us through
+0:55 what this app is. Yeah, honestly it's a
+0:57 beauty. But this is just a glorified
+1:00 group chat app. And there's a special
+1:02 feature where you can actually ask AI
+1:04 specific questions about who said what,
+1:06 what's going on. So right now I can do
+1:08 like at AI uh when am I filming and what
+1:12 is it about?
+1:14 And
+1:14 >> we use this for our um like planning our
+1:17 content stuff. And so the AI has full
+1:20 context.
+1:21 >> Yeah, I am filming on Wednesday. and
+1:23 you're talking about the new composer
+1:24 feature. For those of you who use
+1:25 cursor, you know that people are talking
+1:27 about the new composer AI model. Um, and
+1:30 we're going to be building three apps
+1:32 and increasing in difficulty. And so
+1:34 this app, I think it looks really good.
+1:36 It's fun to use. I actually enjoy it
+1:38 more than iMessage. And so what we're
+1:40 going to be doing in this video,
+1:42 >> uh, as you can see, we have a prompt up
+1:44 right here on the screen. We're going to
+1:45 go through all of the prompts that Keon
+1:47 used and we're going to recreate this
+1:49 app. Then we're going to use the new
+1:52 feature that you can use on the Vibe
+1:53 Code app, which is remix. So with one
+1:55 click, I can just get this app on my
+1:57 phone and remix it and make it for my
+1:59 own custom use case. And so below uh
+2:02 this video, wherever you're watching it,
+2:03 you can actually find the template and
+2:05 you can remix it. But I highly recommend
+2:08 watching how Khan builds this because
+2:11 you're going to learn a ton and this is
+2:13 how you learn how to build any app that
+2:14 you want uh by learning how to prompt.
+2:17 And so why don't we go ahead and get
+2:19 started building?
+2:20 >> Yeah, sounds good. So yeah, as Riley
+2:22 said, um, you know, I think you can
+2:25 definitely remix this and create all
+2:27 sorts of possibilities. And remixing is
+2:28 really meant to give you a kind of a
+2:30 head start. So you don't exactly have to
+2:32 start from scratch, but starting from
+2:33 scratch is a great skill to have. So
+2:35 we're going to be going through a little
+2:36 bit of how we did this. Uh, and so
+2:38 obviously I'm in the Vibe Code app. I
+2:40 just click new app, and I will be
+2:42 pasting in the first prompt. And before
+2:44 I do that, I'm just going to walk
+2:46 through a little bit of what this prompt
+2:47 is composed of. So in the very
+2:50 beginning, as all good prompts should
+2:51 have, we have kind of a broad statement
+2:53 about what the end goal is, describing
+2:56 kind of what we're trying to create in
+2:59 kind of a high level but with specifics.
+3:01 So I say, make me a group chat app where
+3:03 everyone is a unique user. I be specific
+3:05 about what a unique user means. In this
+3:07 case, one persistent account per device.
+3:10 So there's no real like O. This is good
+3:13 because like you know we have a
+3:14 database, we have a backend but we don't
+3:16 have to deal with all this like
+3:17 authentication stuff. A little bit of a
+3:19 you know hack for things that don't need
+3:20 to be too secure because only those with
+3:22 my link will be using this app. So
+3:25 that's the thought behind that. Anyone
+3:26 who joins will be put in the same chat
+3:28 room. So this was like the app is just
+3:31 one chat room and that's you know vibe
+3:33 code kind of functions as like you can
+3:35 go back and join other chat rooms too.
+3:37 So you know it works really well in our
+3:39 ecosystem. And by the way, if you're if
+3:41 you're following along, you can adjust
+3:42 that and be like, "Make five different
+3:44 chat rooms." Like, you could probably do
+3:46 that, right?
+3:46 >> You can just add Ooth to it. Yeah, you
+3:48 can make a whole messaging app. You can
+3:50 make Reddit, you know, like, yeah, you
+3:52 can make Facebook Messenger. You can
+3:53 make as complicated as a messaging app
+3:55 as you want. I think since this one,
+3:57 we're going to package this app up and
+3:59 allow users to remix it. Kept it a
+4:01 little simple. Um, but yeah, I think I
+4:04 think this is a great start to kind of
+4:05 show you what you can absolutely build
+4:07 with Vibe Code and just the beauty of it
+4:10 all. And so going back to the prompt,
+4:13 the second line is make sure messaging
+4:15 works. And I think this is really
+4:17 important because you know if you might
+4:18 have a little bit of like technical
+4:20 knowledge you know that you kind of want
+4:22 to highlight where you know the AI you
+4:24 want the AI to kind of focus on
+4:26 technically and messaging isn't too
+4:28 complicated technically but it is
+4:30 something that you want to highlight and
+4:31 kind of draw attention to. So this is
+4:32 just really important to draw attention
+4:34 that you know the core function is a
+4:36 messaging app and so the AI better get
+4:38 that right. And then I dive into a
+4:40 little bit about how I want the app to
+4:42 kind of be structured. I say something
+4:43 like create a header. Um, put a profile
+4:46 icon on the right. Put a chat uh have
+4:49 the chat name in the middle or that it's
+4:50 implied that it's in the middle. Um, and
+4:53 I say that the chat name can be edited
+4:54 by anyone later but defaults to group
+4:56 chat and the setting icon on the left.
+4:58 So, I think this is a really descriptive
+5:01 like what precisely I want from this as
+5:04 in I want a header and I want something
+5:06 on the left and right and I want
+5:07 something displayed the group chat name.
+5:09 So it kind of leaves no room for
+5:11 inference, no room for the AI to kind of
+5:13 like be like creative cuz oftent times
+5:16 when you let it be creative, it gets
+5:18 really dumb. After that, I dive into a
+5:19 little bit more specifics about what the
+5:21 profile should include. You know, name,
+5:23 bile, photo option. I spec specify that
+5:26 I want camera roll and camera and the
+5:29 settings should be the group chat name,
+5:30 description, and any members in the
+5:32 chat. So pretty basic stuff but I go and
+5:36 hammer down a little bit more about some
+5:38 specific technical things like you know
+5:40 I want the placeholder text to be
+5:41 visible messages should be stored in the
+5:43 database non-local storage similar
+5:46 images should be uploaded to storage. I
+5:47 mean honestly all that stuff you know
+5:49 you could probably leave it off but it
+5:51 might come back you know just leaving no
+5:52 room for AI to kind of like wiggle its
+5:54 way out of being lazy. And so this that
+5:56 that makes up the first prompt. I'm
+5:58 going to go ahead and paste it in. There
+5:59 we go.
+6:00 >> Okay. So he just pasted in the prompt.
+6:02 Um and when you enable cloud just think
+6:04 backend. So authentication, database and
+6:06 storage.
+6:07 >> Yeah.
+6:07 >> And also to keep in mind here. So he
+6:09 just sent in the prompt and he's not
+6:12 sending it to just any AI. This is
+6:13 claude code, right? I've seen Khan use
+6:15 cloud code for hundreds or thousands of
+6:18 hours. So you know you know claude codes
+6:20 um habits and yeah and and the more you
+6:23 interact with the coding like the same
+6:25 coding agent, you learn things like make
+6:28 sure messaging works. you learn that it
+6:30 messes up on certain things and like how
+6:32 to talk about it. And I think it's it's
+6:33 definitely a skill that you build as you
+6:37 as you prompt more.
+6:38 >> Yeah. Yeah. It might kind of look a
+6:39 little random like, oh, make me make
+6:41 sure messaging works, but this is kind
+6:42 of like you get a flow. You get kind of
+6:44 get an idea of what kind of needs to be
+6:46 highlighted and how to highlight it.
+6:47 Like I don't want to be too verbose, but
+6:49 I also want to like highlight it to
+6:51 cloud code that this is something of
+6:53 focus. And similarly, as like Riley
+6:56 said, mainly I noticed in the past that
+6:59 Enthropic specifically is kind of bad at
+7:01 placeholder text. So placeholder text is
+7:04 like when you have a text input field
+7:06 and you know there's like some values
+7:08 like for example right now on the Vibe
+7:10 Code app, you can see Q more prompts.
+7:12 That's the placeholder text. Often times
+7:14 cloud will just leave that as the
+7:15 default value and you cannot see what it
+7:17 is, but you can kind of have an idea
+7:19 that something ugly is going on. So
+7:22 that's something that I picked up while
+7:23 using cloud for a while.
+7:24 >> Totally.
+7:25 >> Yeah. Okay, we are bundling and let's
+7:29 see. Perfect. So
+7:31 >> dude, I swear AI does this goofy
+7:34 gradient every single time.
+7:36 >> This is this is this is anthropics and
+7:38 probably chat GBT's favorite gradient.
+7:40 You know, a lot of times people make
+7:42 jokes that you can tell this website was
+7:44 made by AI because this gradient is
+7:46 everywhere.
+7:47 >> Blue and purple is insane.
+7:48 >> Literally everywhere. But, you know,
+7:50 it's good. It works. I mean, it looks
+7:52 like it works. We got a profile page.
+7:54 All right. Yeah. Purple and blue. Sure.
+7:55 Why not? I'm going to go set my name
+7:57 first. I'm Kihan. And uh I'm mysterious.
+8:01 So, we'll just go with that. Uh-oh.
+8:04 >> That's okay. Um, we got a little error.
+8:07 All we have to do is hit fix. Honestly,
+8:09 I don't know if I'm I want I'm going to
+8:11 see. This is actually a really good
+8:12 point to learn cuz I'm going to go
+8:13 investigate a little bit more before I
+8:16 click fix. So, I know that this error
+8:18 was triggered when I clicked save
+8:19 profile. And what I really want to see
+8:21 is if it got my name and the error was
+8:24 thrown when I clicked the button or if
+8:25 it actually had an error saving my name.
+8:28 So, those are two distinct issues that
+8:29 I'm going to go investigate. And I'm
+8:31 just going to do that by like kind of
+8:33 saying like hi and seeing okay, there's
+8:36 no name associated with that. If I come
+8:38 back here, I'm back to anonymous. So,
+8:40 yeah, it did have an issue saving my
+8:42 name. And so, save profile itself seems
+8:44 to be the problem. I'm just going to go
+8:46 ahead and click fix. And yeah, and you
+8:47 can actually see kind of the errors that
+8:49 it it made in the logs. So maybe we can
+8:52 find something. These are the errors
+8:55 that, you know, must have caused that.
+8:57 We can see that, you know, we've got
+8:59 some bad requests from some Zod errors.
+9:01 I don't really know what that means. I
+9:02 don't think you need to know what that
+9:03 means. All I know is AI knows what it
+9:05 means. So we fed that back to AI. Um AI
+9:07 has access to the logs, so it'll know
+9:09 exactly what I'm talking about, even
+9:11 though I don't. But every time you press
+9:13 fix, it automatically checks the logs.
+9:15 >> It'll it'll debug.
+9:17 >> Yeah. Yeah. And if you know logs, if
+9:18 you're not technical at all like me,
+9:20 just know that the logs can help the AI
+9:23 figure out what the problem is.
+9:24 >> Great. Yeah, it's telling me that it's
+9:26 fixed the error. And uh let's try naming
+9:28 myself Khan again.
+9:30 Khan.
+9:33 Uhoh.
+9:34 Oh. Oh, wait. No. Okay. So, the changes
+9:36 were not propagated yet. So,
+9:38 >> okay. So, it just bundled it. Saved as
+9:41 >> Khan. Amazing. Perfect. A little bit of
+9:43 a lag there, but all good. You know, I'm
+9:45 out here alone in my group chat. I'm
+9:46 saying, "Hi, my name's Kihan. Uh maybe
+9:49 it doesn't display my own names. I'm
+9:51 curious to see what happens after I
+9:52 invite users and kind of see how this
+9:54 interaction goes." So, before I invite
+9:57 users like Riley, I'm going to go and
+9:59 actually spend another prompt on
+10:03 building something called an onboarding
+10:04 flow. And so what you saw me right now
+10:07 do is I kind of had to name myself after
+10:09 the group chat came into existence,
+10:12 which is a little bit like awkward
+10:13 because like I don't want anyone in my
+10:15 group chat sending messages as
+10:17 anonymous. Ideally, they name
+10:18 themselves. And so that's kind of the
+10:20 real use of an onboarding flow. And so
+10:22 an onboarding flow is kind of like
+10:25 before you get full access, you have to
+10:28 get onboarded first. And so I'm going to
+10:30 be asking to build me an onboarding flow
+10:31 for this group chat. And so I have it
+10:34 out here outlined kind of what I want.
+10:36 Pretty simple. Walk new users through an
+10:38 onboarding flow with three screens. This
+10:39 is once again kind of my broad
+10:40 statement. I want you to create an
+10:42 onboarding screen. It has three screens.
+10:44 A little bit specific, a little bit
+10:45 broad, you know, finding the balance
+10:47 there. I go down and break it into
+10:49 detail. The first screen should welcome
+10:50 the user to the chat. Show the chat
+10:52 title, description, and image. Yada yada
+10:53 yada. That's kind of the settings page
+10:55 that, you know, we built out here. And
+10:56 then we have the next screen is a prompt
+10:59 for the user to put their display name
+11:00 and a bio which is you know fill out
+11:02 like this stuff next. And then uh make
+11:06 sure the key make sure it is keyboard
+11:07 avoiding. This is the little technical
+11:08 things that you know I'm always sure AI
+11:10 might mess up. And the final screen of
+11:12 onboarding is their profile photos. I
+11:14 think it's useful to say here that like
+11:16 you should especially since we're going
+11:18 to be sharing the app with other people.
+11:20 You should never expect a user, even if
+11:22 they're your friend, to like go do
+11:24 something, like if they'll figure it
+11:25 out, you might as well guide them to do
+11:28 the exact actions you want. And that's
+11:29 what you're doing here through the
+11:30 onboarding flow. It's like you cannot
+11:32 get to the meat of the app without doing
+11:34 this.
+11:35 >> Exactly. Exactly. And you know, you
+11:37 could send this group chat link and then
+11:39 send them, you know, a text message
+11:40 like, "Oh, make sure you set your name."
+11:42 But like, why even do all that? Why not
+11:44 just make the app force you to do that?
+11:45 You know, so that's truly like what, you
+11:47 know, onboarding flow really does.
+11:48 >> And it sounds like a prison almost, but
+11:50 like really you could find tasteful and
+11:52 fun ways to onboard people. And and I
+11:54 think the best apps on the app store
+11:56 right now, I mean, which you could send
+11:58 this to the app store. We have that
+11:59 feature in the app. The best apps have
+12:02 really pleasant and fun onboarding
+12:04 experiences and they're gathering a ton
+12:06 of information about the user.
+12:07 >> For sure. For sure. You know, Vibe Code
+12:09 actually has an amazing onboarding and
+12:10 we spend a lot of time iterating on
+12:12 that, designing that. And I think part
+12:14 of it is we want to make it fun. We
+12:15 don't want to make it feel like jail and
+12:16 at the same time we want to expose the
+12:18 power we have really you know we I think
+12:20 we did a great job with onboarding but
+12:22 >> I mean that's why everyone copied it.
+12:24 >> Oh everyone did copy our onboarding.
+12:25 Yeah. I want to draw a little bit of
+12:27 attention to something that I considered
+12:29 when I designed this onboarding and I
+12:30 actually you know noticed I split it
+12:32 into three screens.
+12:34 >> The second screen which is asking the
+12:35 user to input its display name and bio
+12:37 and the third screen is asking for a
+12:39 photo. They're both correlated to the
+12:42 profile screen. But you know the reason
+12:44 I decided to split that into two screens
+12:45 is actually if you think about this
+12:47 there's something called screen real
+12:49 estate in software engineering and
+12:50 especially important for designing
+12:52 mobile apps is that the mobile phone is
+12:54 only so big and if you notice when I
+12:57 have a keyboard it kind of eats up
+12:59 already like
+13:00 >> you know a third of it. And so the
+13:03 thought behind splitting this into two
+13:04 screens was that I want to provide
+13:06 adequate space and kind of feel like a
+13:08 white, you know, I already feel like
+13:10 this screen is a little too cramped. And
+13:12 I think that's why in the onboarding
+13:14 flow, I want to make it extra crisp,
+13:16 extra spacious, which is why I decided
+13:18 to split it up into two screens. And so
+13:20 that was kind of the reasoning behind
+13:21 it. And also, you know, I want to make
+13:24 the name, I think the only required
+13:26 field is the user's display name. That
+13:28 one's required. And I think being able
+13:30 to skip the photos would be really good.
+13:31 And I think jamming all that optionality
+13:34 into one page and all the text inputs
+13:36 and the keyboard, it's going to get
+13:37 really messy. So beforehand, I've
+13:39 considered that and I've told it to
+13:40 split go ahead and split that up into
+13:42 two screens. And this is the type of
+13:44 thing that if you don't like, you know,
+13:46 put the hours in, you're I can tell you,
+13:49 but like you know, AI is going if you
+13:51 leave this out, AI is going to put all
+13:52 that in one screen. It's going to be
+13:54 ugly and you're going to have no idea
+13:55 why. You have an app that's exactly what
+13:56 you asked for, but is really ugly. And
+13:58 it goes down to like the principles of
+14:00 you know screen real estate design and
+14:02 kind of intuitive UX. And so I think
+14:05 that is really important when you design
+14:06 these prompts. You want to not only you
+14:08 know tell it broadly what you want but
+14:10 think a little bit about the user
+14:12 experience. And so
+14:13 >> this is you know all in all pretty
+14:15 simple second prompt. It's a lot shorter
+14:16 than the first prompt because there's a
+14:18 lot of specifics to you know iron out on
+14:20 the first prompt and I'm kind of adding
+14:21 a feature now which is less intensive
+14:23 than building the whole thing on the you
+14:25 know first prompt. So, I'm going to go
+14:27 ahead and copy this prompt and send it
+14:29 to our good old Claude Code.
+14:32 >> Amazing.
+14:33 >> Cool. Let's do it.
+14:34 >> Number two.
+14:35 >> Yeah.
+14:36 >> Going in hot. All right. So, now we'll
+14:38 just wait for Claude Code within the
+14:40 Vibe Code app. See here, Claude Code is
+14:42 working hard on your project. And uh
+14:44 we'll wait and let's see if it actually
+14:46 creates a beautiful onboarding flow.
+14:48 >> We just wrapped up. So, let's see. We
+14:51 >> Okay, it's done.
+14:51 >> Do have an onboarding screen. This is
+14:53 kind of an onboarding screen. Let's see.
+14:54 Welcome to group chat. Group chat is the
+14:56 default name of group chat.
+14:58 >> And what do we have? This beautiful
+14:59 gradient in the background again.
+15:01 >> Oh yes, the same gradient. I mean,
+15:03 honestly,
+15:04 I'm glad it put in the effort, you know.
+15:06 Good stuff. Not being lazy. But yeah, uh
+15:09 chat in real time connect with everyone.
+15:10 One group, all users together. Yeah, it
+15:12 kind of introduces it. Great. Get
+15:13 started. This is a little ugly, but once
+15:16 again, you can kind of see that there's
+15:17 some crowding going on. And uh that's
+15:20 kind of why I like how there's like
+15:22 three buttons that kind of show you that
+15:23 there's three pages of the onboarding.
+15:25 But tell us about yourself. My name's
+15:26 Kihan. Um I will I created this. Yeah.
+15:31 You know, add a little bio. Make sure
+15:33 that this works and continue. I can take
+15:35 a photo. Why not?
+15:36 >> See, this is a nice experience. It
+15:39 >> Yeah,
+15:40 >> it is sort of ugly. Um I'm not I'm not
+15:43 talking about the photo you just took.
+15:44 Um
+15:45 >> thanks. Um, but this onboarding flow is
+15:48 kind of nice. It guides you through the
+15:50 the whole process.
+15:52 >> It guides you through the process. It
+15:53 gathers the information that it needs
+15:56 for the meat of the app to really
+15:58 function well. And obviously, we're
+15:59 going to go back and make sure that's
+16:01 not that ugly, you know, in prod. But,
+16:04 um, now that we have onboarding, I feel
+16:06 comfortable inviting users. As I said
+16:07 before, I don't want to send this app to
+16:09 someone and then text them a paragraph
+16:11 about how to use it. Now that this app
+16:13 is kind of intuitive to use and kind of
+16:14 forces you to tell me your name, at
+16:16 least I feel comfortable sharing this
+16:18 with Riley. So, I'm going to go ahead
+16:20 and see if I can talk to not just the
+16:22 void, but Riley now. So, uh, last
+16:24 message before inviting Riley.
+16:27 For inviting Riley, I'm just going to
+16:30 say something like chicken because this
+16:31 will come up later actually, but
+16:33 chicken. Um, I'm going to share this
+16:35 with Riley. Do you want to make about
+16:36 sharing?
+16:37 >> Yeah. So, all he has to do is hit share
+16:38 and then you want to make sure that it's
+16:40 public. You see there? So, he toggled on
+16:43 public and now he can press that little
+16:45 share button and he can actually share
+16:47 this app with anyone and they can open
+16:49 this app whether or not they have the
+16:51 Vibe Code app downloaded. And so, as you
+16:54 can see here, why don't you go ahead and
+16:55 pull up my phone real quick?
+16:57 >> Oh, yeah.
+16:58 >> So, this on the right is my phone and on
+17:01 the left is Khan's phone. And so, he
+17:02 just texted me a link, right? I can just
+17:05 go to messages here. Khan sent me this.
+17:08 I can hit open and Khan's app will open
+17:12 on my phone.
+17:13 >> Perfect. Now I can text you and we can
+17:14 see if messaging actually works.
+17:16 >> And so and so the same thing, right?
+17:18 Right. You see he just went through the
+17:20 onboarding and now I know like if this
+17:22 was a real situation, I wouldn't know
+17:23 what you're building. Right? But you
+17:24 sent me this link. You're like, "Okay,
+17:26 welcome to the group, Chad. I understand
+17:27 what's going on. Get started. All right.
+17:29 I'll put in my name. Riley. I didn't
+17:32 make this. Um, continue. take photo
+17:37 and we can use that finish and boom I
+17:41 just see these messages and you can see
+17:43 here I can see Khan I do notice like my
+17:46 eyesight's not amazing right I can't
+17:49 this is very small so if you can't see
+17:51 it I can't really see it that well
+17:52 either but the cool thing is we can make
+17:55 it bigger very easily all it takes is a
+17:56 single prompt and um yeah so I am now
+18:00 using the app that Khan made and it's
+18:03 all being stored in the same database
+18:05 And so we can um
+18:07 >> we can now message each other. Yeah.
+18:09 Welcome. Welcome.
+18:10 >> And why don't you um invite Emily to the
+18:12 group chat as well.
+18:13 >> Oh, perfect. Yeah, I will. I do see a
+18:16 few issues and we'll be addressing them
+18:18 shortly. But let me just send this to
+18:20 Emily right now. Emily, come come say
+18:22 hi. Um
+18:23 >> hang out.
+18:24 >> Yeah, but obviously something's wrong
+18:25 with the profile photo. It's just a
+18:27 purple circle, you know, on both of our
+18:28 screens. But yeah, I love how, you know,
+18:31 incoming messages are labeled. They have
+18:33 a profile photo. profile photo isn't
+18:35 working exactly well yet. We'll get to
+18:36 that. But my messages on the right. It's
+18:38 clear to me that those are my outbound
+18:41 messages and my incoming messages are
+18:43 wellleled. And so, first order of
+18:46 business, Riley did say the text is a
+18:47 little small. I want all of you guys to
+18:49 be able to see kind of how everything's
+18:50 working. So, I'll be asking the agent to
+18:53 make the text bigger a little. And I'll
+18:55 also be telling it that it messed up and
+18:57 no profile photos are working. But oh,
+18:59 Emily,
+19:00 >> shout out Emily is now in the chat.
+19:02 >> That's crazy. Yeah. But so yeah, as you
+19:04 can see, multiple people working uh
+19:06 talking and everyone's receiving
+19:07 messages and able to send messages.
+19:09 Messages are formatted properly. Profile
+19:11 photo is broken and font size is broken.
+19:13 So let me just go ahead and type that
+19:14 in. I want you to make the text sizes of
+19:17 the text bubble larger, maybe by 4
+19:20 pixels. And I want you to add more
+19:22 padding to the text bubble so that
+19:24 doesn't look awkward. And also I want
+19:27 you to go and investigate while profile
+19:29 photos are not showing up properly. It
+19:31 seems that I was able to set a profile
+19:34 photo, but on the chat screen, all I see
+19:36 is a purple circle for everyone. So,
+19:39 this was kind of like off the bat just
+19:40 using my voice. I kind of just described
+19:42 the problems in a lot of detail. I was
+19:44 hyper specific about four pixels. You
+19:46 know, I I don't think that matters too
+19:48 much. I could have just said make it
+19:49 larger, but I have a good idea of kind
+19:51 of how big I want it. The padding
+19:52 reminder though is kind of like a you
+19:54 pick this up as you, you know, vibe code
+19:56 more and more. It's like sometimes if it
+19:58 makes the text larger and the bubble's
+19:59 the same size, you know, text starts
+20:01 overflowing, it gets really ugly. So,
+20:03 just, you know, put that suggestion in
+20:05 there as well. And while that's loading,
+20:07 I just want to say I can't actually edit
+20:08 his app, right? So, when he pinches, as
+20:11 you can see here, if you pinch,
+20:12 >> Yep.
+20:13 >> he gets all the settings, but since he
+20:15 sent it to me, all I can do is remix.
+20:19 And I'm not going to remix it. I'm going
+20:21 to remix it in a little bit, but um
+20:23 that's one thing. So if you send it to
+20:25 someone else, they can't edit your app.
+20:26 You're the only one who can edit your
+20:28 app.
+20:28 >> Yeah, we'd love to hear if this is that
+20:30 would be like, you know, sharing
+20:31 permissions or something would be
+20:32 something you guys want in the future.
+20:34 But this is currently to make sure that
+20:35 whatever you're touch you're you're
+20:37 working on is not getting messed up by
+20:39 other people touching it. So
+20:40 >> that would be interesting to allow
+20:41 certain users to be able to edit it so
+20:43 you can kind of build it together.
+20:44 >> Yeah. Yeah, that'd be really cool.
+20:46 >> We'll see.
+20:47 >> Yeah.
+20:47 >> Photos just loaded. Um, as you can see
+20:50 on my phone, it it's still updating. Uh,
+20:53 we still have some time to wait, but
+20:55 it's coming in. It's looking good
+20:57 >> across the board. I'm starting to see
+20:58 profile photos. And so, that's really
+21:00 good. I think I'm ready to move on to
+21:02 the next step where I'm going to go and
+21:04 build this AI feature where we can do
+21:06 something like, you know, at AI who's in
+21:08 the chat or something, right? Like,
+21:09 >> I like it.
+21:10 >> Yeah. So, you know, I had this prompt
+21:12 pulled up before. It was now an AI
+21:14 assistant that can be invoked by anyone
+21:17 in the group. Pretty broad blanket
+21:18 statement. It should have access to
+21:20 context regarding the chat group users
+21:22 and the last 200 messages of the
+21:24 conversation history. And I kind of give
+21:25 it a little more technical. Pull the
+21:27 last 200 messages and put it in the
+21:29 prompt. Oh, this is implied from the
+21:30 database. 200 messages from the database
+21:33 and put it in the prompt. The goal for
+21:35 this AI is to be a helpful assistant. It
+21:37 should respond whenever a user message
+21:39 includes at AI
+21:42 as a message in the chat. Just being
+21:45 extra extra, you know, precise. I'm
+21:47 going to go ahead and send this as soon
+21:50 as I pinch. Perfect. Boom. Okay, this is
+21:53 my prompt. Go.
+21:54 >> Do you think this is the hardest one?
+21:56 Like, do you think the AI is going to
+21:57 struggle with this one the most or or
+21:59 what do you think?
+21:59 >> I think that there was a little bit, you
+22:02 know, I left it a little bit of room to
+22:04 kind of figure figure out like how to do
+22:06 it. You know, if I were to be a little
+22:08 bit more detail- oriented, I could have
+22:10 given it a custom system prompt here or
+22:12 I could have, you know, put it into my
+22:14 environment and say use this. But I
+22:16 didn't. I think, you know, I'm asking
+22:18 for a pretty generic, you know, I kind
+22:20 of mentioned I want it to be a helpful
+22:21 assistant. I think I think it could
+22:23 figure that out by itself. I think a
+22:25 little bit, you know, I'm asking it to
+22:27 pull d messages from the database,
+22:30 which, you know, I mentioned in prompt
+22:32 one. So, this actually directly
+22:33 references something that I asked it to
+22:35 do in prompt one. So, I'm hoping that
+22:37 it's going to be able to pick up on that
+22:38 thread. I do think this might be one of
+22:40 the most finicky messages. I didn't
+22:42 spend a lot of time crafting it, but I
+22:43 do think that I conveyed the highle
+22:46 goal. And I think as your app gets more
+22:48 and more structure, there's less and
+22:50 less flexibility in like kind of what
+22:52 you expect, right? I'm expecting it to
+22:54 give me a text message like when I add
+22:56 this because like there's not much
+22:58 leeway now as opposed to I guess what
+23:00 I'm trying to say is like when the
+23:02 biggest part of like flexibility kind of
+23:04 comes from UI and UX stuff is just not
+23:07 formatted the way you expect it and then
+23:09 that sometimes directly translates to
+23:11 features not exactly being what you
+23:13 intended it to be. Now that I have kind
+23:15 of the UI and the UX laid out, if I ask
+23:18 for a feature, it kind of conforms to
+23:19 what already exists. And so I can kind
+23:21 of hopefully be a little bit more vague
+23:23 and we'll see how it works out. All
+23:25 right, so let's see if this AI feature
+23:28 is working. So remember I was, you know,
+23:32 I wanted to test the AI on something. So
+23:34 I said last message before inviting
+23:36 Riley chicken. So let's see if AI can
+23:38 pick that up at AI. What uh animal did I
+23:42 mention before inviting Riley? Something
+23:46 really specific just to see if you know
+23:47 the AI is working. Okay, you mentioned
+23:50 chicken before inviting Riley. If you
+23:51 have any more questions or details, you
+23:53 know, feel free to ask. Great. Wow,
+23:55 that's right. Okay, cool.
+23:56 >> See it here. Bring my bring my uh phone
+23:59 back.
+23:59 >> Bring your phone back. Yeah. Okay, so
+24:01 yeah, as you can see, we have added the
+24:03 AI feature. It's currently named
+24:05 anonymous. You know, it's a little rough
+24:06 around the edges, but the core feature
+24:08 of this app is all working. We have an
+24:10 app people can message and we can even
+24:12 ask AI to, you know, tell us about
+24:15 specifics of what was said previously
+24:17 or, you know, just be a helpful
+24:18 assistant. I can probably ask it like
+24:20 who is the current president or queen of
+24:22 England. Wait,
+24:23 >> you have to do AI, right?
+24:24 >> Oh, yeah. England.
+24:26 AI. Yeah. And so, you know, now we have
+24:29 this nice
+24:29 >> dude. This fast, too. I like it.
+24:32 >> Yeah. Very good. It's a little out of
+24:34 date, but you know, point is we're
+24:35 having AI now. I can continue to upgrade
+24:37 the AI. I think I'll probably do that
+24:39 for the um remix. Okay. So, before we uh
+24:43 film this, you actually already went out
+24:45 and created a chat app in preparation
+24:47 for this video. And yours, I remember
+24:49 you showed me yours looked a lot like
+24:51 the one on the right. And then it took
+24:53 you about seven prompts back and forth
+24:55 with AI, which was probably like what,
+24:57 10, 20 minutes, maybe a little bit
+24:59 longer to go from something that looked
+25:00 like that to something that looks like
+25:02 the one on the left. And I think it
+25:04 looks insanely good. And so what I want
+25:06 to do is I actually have a good use case
+25:08 for that chat app. And I'm hoping uh if
+25:11 you send it to me, I'm hoping to remix
+25:13 it, honestly.
+25:14 >> Yeah, sure. So yeah, let's talk about
+25:16 the remix feature. Once again, Riley
+25:18 kind of mentioned that if you get shared
+25:20 an app, you are allowed to remix it. So,
+25:22 I'll text this app to Riley and he can
+25:24 go ahead and play with it on his phone.
+25:26 Amazing. Khan just sent me this new app
+25:29 that I can open. Basically the same app
+25:32 reskin to look a lot better. Honestly,
+25:34 it's literally the same exact app, but
+25:36 you did a great job styling it.
+25:38 >> Thank you. Yeah. Yeah. I really took
+25:40 from the Apple Glass Morphism. I
+25:41 honestly wasn't a really big fan of, you
+25:43 know, the whole look, but I think I like
+25:45 it now. I like it now. It took some time
+25:46 to grow.
+25:47 >> I think a lot of people are coming
+25:48 around to it.
+25:49 >> Yeah.
+25:50 >> Okay. So, what I want to do, I've been
+25:52 actually getting into running a little
+25:54 bit and I was thinking about uh a lot of
+25:56 these running apps are going viral and a
+25:58 lot of people are actually like making
+26:00 decent money making these running apps
+26:01 like Strava clones and such.
+26:03 >> Dude, I know. Have you seen the one
+26:05 where like you like run a square and
+26:06 it's like your territory? That one's
+26:08 been really popular.
+26:09 >> Yeah. Yeah. Yeah. It's And running is
+26:11 just big and so I think there would be
+26:12 cool to like blend a running app and a
+26:15 chat app. And so that's what I want to
+26:16 do. So, he just sent me this remix
+26:19 um or sent me the link a public link to
+26:22 his app. When you make it public, you're
+26:24 basically allowing people to remix it or
+26:26 if you're devel
+26:42 uh Vibe Code's features to make it my
+26:44 own. And so I just kind of wait for the
+26:47 send box to be acquired. Still don't
+26:49 know what that fully means, but it
+26:50 sounds awesome to say. And it looks
+26:52 cool. This little animation looks
+26:53 awesome. Okay, here we go. We now have
+26:56 this cloned app on my phone. And as you
+26:58 can see here, it doesn't show remix at
+26:59 the bottom. I have full access to the
+27:02 pinch to build on Vibe Code. And so what
+27:05 I want to do is I want to change this
+27:07 from being just like our chat that we
+27:09 were using about our content or
+27:11 whatever. And I want to make it
+27:12 specifically around running because
+27:14 running apps have been killing it
+27:16 recently. And so what I want to do is
+27:18 I'm going to go ahead and I'm just going
+27:20 to read my prompt here and I'm going to
+27:21 use my voice. Let's make this app
+27:24 centered around running. So combine the
+27:26 profile into the settings page and put a
+27:29 running icon at the top right. When this
+27:32 button is pressed, start tracking the
+27:34 user's location and send a map into the
+27:38 group chat that tracks the user's
+27:40 location real time and say who's
+27:42 running. If users click on it, uh a
+27:45 modal with updating location should come
+27:49 up and show additional details like
+27:51 time, the run, like how long the run is
+27:55 and pace, you know, since the run began.
+27:58 Uh this means you will have to record
+28:00 when the user started the run and you
+28:03 should also periodically track where the
+28:06 user is at any given time. Then
+28:08 broadcast that update to this new custom
+28:12 component which is visible for everyone
+28:14 in the group chat. So everyone in the
+28:16 group chat should be able to see where
+28:18 um anyone who's running is at any given
+28:20 time. Let's try this. That that is kind
+28:23 of a beefy prompt.
+28:24 >> Yeah, that was pretty beefy. um just to
+28:27 kind of um yeah, you know what? I trust
+28:30 cloud code.
+28:31 >> I like it though. I think you did a lot
+28:32 of great things. Um you were pretty
+28:34 specific about how you wanted the user
+28:37 UX to work, you know, so I think that's
+28:39 good. And you gave it a little bit of
+28:41 hints about how it should approach this
+28:42 technically, like oh like think about
+28:45 how you're going to have to periodically
+28:47 record its location, probably like track
+28:49 the distance of those locations. So I
+28:51 think I think it's giving it some like
+28:53 breadcrumbs to work with.
+28:54 >> We'll see. Let's rip it. I am sending
+28:56 this prompt right here off to Claude
+28:59 Code and then we will wait. Also, while
+29:01 it's loading, I want to go ahead and I
+29:04 want to type in uh 3D render icon
+29:09 cartoon of a man running cute icon. And
+29:14 I'm going to just copy this. I like to
+29:16 just copy it. And I'm just going to
+29:18 generate, you know, maybe
+29:21 >> three or four icons. And I want this to
+29:23 just be an action button since it's for
+29:26 uh our squad, you know. I want I'm going
+29:28 to just make it a fun icon, you know? I
+29:30 don't care if it's not good technical
+29:32 design. I'm going to make it my own, you
+29:34 know.
+29:34 >> Yeah. Yeah. No, that's good. Dude, you
+29:36 could probably even like um we should
+29:38 allow you to generate multiple icons at
+29:40 once.
+29:40 >> Fire. That should just be a feature.
+29:43 >> Yeah, we should. Or also, I think what
+29:45 we should do in the Vibe Code app is
+29:46 just not even have like it shouldn't
+29:49 remove what you have typed in the box. M
+29:52 >> you should just be able to type enter
+29:53 because sometimes you might want to only
+29:54 adjust one word and enter it again, you
+29:56 know. Um I definitely pictured the guy
+30:00 facing inward, not outward, you know.
+30:03 >> Yeah, I I pictured it going outward, but
+30:05 that's great.
+30:05 >> All right. Well, it's my app now. I
+30:08 reward
+30:09 >> Yeah, it's your app.
+30:10 >> And then um and so I think it's still
+30:13 working, right? Like it's not even close
+30:14 to done.
+30:16 >> But the cool part of the Vive Code app
+30:17 is you can actually cue the prompts up.
+30:19 So it'll
+30:20 >> So I can just type this in and say,
+30:22 "Please use this icon as the runner."
+30:26 And boom, we can send that in. As you
+30:28 can see here in the one slot, we have
+30:30 the queued up prompt. So now we're
+30:32 waiting for two prompts to finish. It
+30:34 appears like it's done. This one took a
+30:36 while. So I don't know what to expect
+30:38 here. Hopefully it actually uses like
+30:40 the maps, like the native built-in maps.
+30:43 Yeah.
+30:43 >> Um but we'll see. So unfortunately it
+30:47 didn't. Actually, you know what I'm
+30:48 going to do? I'm going to share this
+30:49 with you first.
+30:50 >> Yeah.
+30:51 >> Go ahead and make this remix the of
+30:53 yours public and then I'm going to send
+30:55 it right back to you. Um
+30:56 >> then I can see where you're running
+30:58 hopefully. Are you going to go for a
+31:00 run?
+31:00 >> I am going to go I mean if it works I
+31:02 doubt it's going to work first try.
+31:04 There's a good chance it doesn't work
+31:06 but we can fix it. Um but hop in the
+31:08 chat first.
+31:10 >> All right. I'm hopping in your remixed
+31:13 version of this running app.
+31:15 >> Yeah. Um
+31:16 >> um let's see.
+31:16 >> All right. Oh,
+31:18 what is this, bro?
+31:20 >> Oh, and I get to see it on mine. I get
+31:22 to see it on my screen.
+31:23 >> You open it up full screen.
+31:25 >> Yeah.
+31:26 >> All right. I'm going to go for a I'm not
+31:29 going to run right now. I'm not wearing
+31:30 running clothes, but I'm going to go for
+31:32 a speed walk. Let me know what you see
+31:34 on your screen. I'll be right back in
+31:35 like 3 minutes.
+31:36 >> All right. Do Do the dash. Do the dash.
+31:40 >> Wow. This is crazy.
+31:42 All right. We are moving down the
+31:45 street. Let's see if this works. Um, no
+31:47 way. It's working outside. The meters
+31:50 are going up. I can't tell if the blue
+31:54 line Oh, there we go. The blue line is
+31:56 working. Let's go. Oh my. I'm really
+31:59 impressed at the styling. It has managed
+32:02 to keep the theme that I've, you know,
+32:04 spent my seven prompts on making it, you
+32:06 know, glass style. I really love this
+32:09 like live running in progress or I guess
+32:12 speedwalking in progress. But we have
+32:14 the start time right above that. We have
+32:16 a distance. We have uh Riley's run
+32:19 distance and duration. Let's see if uh
+32:22 we can actually track his movement. Oh
+32:24 no, wait.
+32:26 We're at 48 m. I don't really see Oh, I
+32:30 see it. I see it. I see where he is
+32:32 going. I do think I have to like leave
+32:35 and come back to get it like completely
+32:37 to update. Yeah, he's slowly inching
+32:40 over there. Wow. I love how it's kept
+32:42 the styling. It's using the Apple native
+32:44 maps and it's drawing the lines. This is
+32:47 where we started. Don't come crash our
+32:49 office. But all in all, very impressive.
+32:52 I'm trying to figure out if it's
+32:54 updating on my side or I if I'm like if
+32:57 I have to leave and come back to see.
+32:59 But regardless, this is very impressive.
+33:01 Riley has made progress. Oh, he is
+33:03 making his way downtown. Wow, that is
+33:05 really cool. Wow, congrats on turning.
+33:11 >> Messaged me. He said, "Wow, congrats on
+33:13 turning." I said, "Thanks, babe. I'm
+33:15 running."
+33:15 >> I think this is a very impressive
+33:17 demonstration of what you can do with
+33:18 remixing. You can take an existing app
+33:20 and you can just add features to this.
+33:22 Now, you can just run and I can see him
+33:25 run in a group chat in live time. It's a
+33:27 little janky, but you know, that's one
+33:30 prompt. And I can see he's made it
+33:32 nearly around the block. I should be
+33:33 expecting him any second now cuz I have
+33:35 his location.
+33:38 Oh, I hear him. He is coming. He is so
+33:40 back. Yeah. And the full circle is
+33:42 complete. Yeah. Welcome back, Riley. Oh,
+33:46 you really did go for the run.
+33:47 >> Does it work?
+33:48 >> It works. I see your whole
+33:50 >> Let's go. See you running around the
+33:52 vlog. I see you running around the vlog.
+33:54 >> Clearly, I need to do more cardio.
+33:56 >> Wow, that is cool. Yo, try stopping.
+34:00 >> Oh my god. It says you did that in 2
+34:02 seconds, but then when you tap in, it's
+34:03 like, okay, you're out for 5 minutes.
+34:05 >> 58 seconds. That's world record, right,
+34:07 >> dude? Yeah. 652 m in 2 seconds. You
+34:10 might be Usain Bolt.
+34:11 >> I love seeing your message rounds. I've
+34:14 nearly made it around the block. Keep it
+34:16 up, King.
+34:17 >> Oh my.
+34:18 >> That AI is this.
+34:19 >> Is this real
+34:21 >> world? Haha. Riley. Riley's.
+34:26 >> Wow, that's so cool. The AI also has
+34:28 >> It has
+34:29 >> It has context on your run.
+34:30 >> Tell me about my last run.
+34:32 >> At AI at AI.
+34:35 >> Oh my god.
+34:35 >> Wait, can I just go AI like uh
+34:38 >> and then go like this?
+34:40 Maybe.
+34:41 Let's see.
+34:42 >> I can't see your actual runs, Riley. It
+34:45 looks like Khan's cheering you on, so
+34:47 you must be doing great. Damn it.
+34:48 >> Oh, okay. So, it doesn't actually have
+34:50 the running data. I'm sure it won't be
+34:51 too hard to get it to honestly, but
+34:54 yeah,
+34:55 >> I'm out of breath. We've been filming
+34:56 for a while. I think we should call it
+34:58 there. For anyone watching, we are going
+35:00 to put the same template that I remix to
+35:03 make this app. We're going to put it
+35:05 down below. You can download it. And if
+35:07 you use code remix, you can try it out
+35:09 for free. You can try the Vive code out
+35:11 for free. Just use code remix during
+35:13 onboarding and you'll get access to
+35:15 that. Anything else?
+35:17 >> No, I think we I think this is a great
+35:19 explanation. I think this was an amazing
+35:21 video. I'm so surprised at how the
+35:23 results came out. And I think this is
+35:25 like two great ways for you to create an
+35:27 app with zero coding experiences. Like,
+35:30 you know, Riley doesn't know how to code
+35:32 and I never wrote a single line of code
+35:34 during this whole process. And we've
+35:36 created the first app. This is just the
+35:38 chat app, you know, from scratch.
+35:40 >> From scratch.
+35:40 >> From scratch. Starting from nothing.
+35:42 Just the straight, you know, Vibe Code
+35:43 app, raw dogging it. And now with
+35:45 Riley's promo code remix, you can also
+35:47 use existing templates, remix them, add
+35:51 features, build on top of it, create
+35:52 your own twists and turns. Two ways for
+35:55 you to get started. One from scratch,
+35:56 one from an existing point. Go ahead and
+35:59 create whatever you want. Dude, I need
+36:01 to whenever we I make videos, I need to
+36:03 go for a run before I'm feeling good.
+36:04 I'm ready to film again. Let's go.
+36:06 >> Oh man. Anyway, that's a good video. See
+36:08 you guys in the next video. Comment
+36:09 below. Let us know what we should build
+36:11 next. See you here for the next one.

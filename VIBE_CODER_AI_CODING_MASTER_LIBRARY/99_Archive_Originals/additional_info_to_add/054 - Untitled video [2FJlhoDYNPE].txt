@@ -1,0 +1,2185 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=2FJlhoDYNPE
+Channel: Riley Brown
+Video ID: 2FJlhoDYNPE
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 Vibe coding is one of the most exciting
+0:02 and fastm moving areas of AI. And AI
+0:05 coding models are getting more powerful
+0:07 every single month. And beginners are
+0:10 beginning to build more and more complex
+0:12 apps with AI writing all of the code.
+0:15 And if you're just watching this from
+0:16 the sidelines, it might feel like you're
+0:18 falling behind. But here's the truth.
+0:21 Vibe coding is a lot easier to
+0:23 understand if you really just focus for
+0:26 a few hours. Even if you have zero
+0:28 coding experience, this is going to be
+0:30 the most comprehensive video on vibe
+0:33 coding. You are going to go from an
+0:35 absolute beginner to someone who can
+0:37 build 20 different types of app because
+0:39 that's exactly what we're going to do in
+0:41 this video. We are going to build I
+0:43 think 13 to 15 different apps in this
+0:47 video. All of different types all using
+0:50 the most powerful AI coding models in
+0:52 the world. This video is going to be
+0:54 divided into five parts. In part one, we
+0:57 are going to talk about the most
+0:58 powerful coding agents in the world and
+1:00 how to set them up. In part two, we're
+1:02 going to be building some static pages,
+1:04 things like landing pages, things like
+1:07 lead magnets, things like creating a
+1:09 game, building custom dashboards and
+1:12 presentations in your own company style.
+1:16 Then in part three, we're going to talk
+1:17 about creating full-on web apps. So, not
+1:20 only are we going to create a web app
+1:21 that you can use authentication and
+1:24 database so your friends can sign in,
+1:26 and we're going to talk about how to
+1:27 immediately share these apps with your
+1:29 friends, we're also going to talk about
+1:31 API, the most powerful AI technology in
+1:34 the world and actually how to use that
+1:36 technology and put them in your app. And
+1:38 you can do this all by vibe coding. And
+1:40 then we're going to do this again except
+1:42 with mobile apps. And we're going to
+1:44 build a full mobile app. And then in
+1:46 part five, we're going to deploy our
+1:48 apps that we create on the web and on
+1:50 mobile to the app store and to the
+1:52 internet with our own custom domain. So
+1:54 I promise you, you're going to go from
+1:56 being a beginner to someone who feels
+1:58 like you have complete control over the
+2:00 next wave of AI technology and you're
+2:02 going to be able to vibe code
+2:04 experiences. Because what you'll realize
+2:06 throughout this video is vibe coding
+2:08 goes beyond creating apps. You can
+2:11 basically create any experience that
+2:14 happens on a computer or a phone. So, if
+2:16 you like videos like these, please
+2:18 consider liking the video, subscribing
+2:21 the video, and sharing this video with
+2:22 your friends because if this video does
+2:24 well, I'm going to keep doing it because
+2:26 I actually really enjoy making videos
+2:28 like these. It just takes like 30 hours.
+2:30 But anyway, let's not waste any more
+2:32 time. Let's learn how to vibe code. You
+2:35 want to know something really cool? you
+2:38 with no coding experience or little
+2:41 coding experience. Today, you can use
+2:43 the most powerful coding models in the
+2:46 world, the same coding models and tools
+2:50 that developers use every single day.
+2:52 The best developers in the world use
+2:54 these tools right here. And these are
+2:56 the coding models that we're going to be
+2:58 using today. And I'm going to show you
+2:59 exactly how you're going to do that. So,
+3:02 these right here are the three tools
+3:03 we're going to be using today. We're
+3:05 going to be using Claude Code. We're
+3:07 going to be using Codeex, which many
+3:09 people are saying is the most powerful
+3:10 AI coding model in the world right now.
+3:12 And we're also going to be using Gemini.
+3:14 And in order to use all of these tools
+3:17 like Cloud Code, Codeex, and Gemini CLI
+3:20 in the web, just go to sandbox.dev.
+3:24 And in order to create a mobile app,
+3:26 we're going to be using the Vive Code
+3:27 app. And the Vive Code app uses Cloud
+3:30 Code basically. And in order to sign up
+3:33 for all of these tools, all you have to
+3:35 do is sign up either on sandbox.dev or
+3:38 vibcodeapp.com.
+3:40 And once you are logged in, you've
+3:42 signed up and you should the first thing
+3:46 that you should do is you should create
+3:48 a new sandbox. When you create a new
+3:50 sandbox, it allows you to select the
+3:52 model that you would use and you can
+3:54 select cloud code and then you can
+3:56 select your stack. If you want to create
+3:59 a modern looking web website that a lot
+4:01 of people would want to create, I
+4:03 recommend choosing Nex.js. This is the
+4:05 most popular. And so we can select cloud
+4:07 code with Nex.js. And we can immediately
+4:09 begin using cloud code in the web. So we
+4:12 have cloud code, we have codeex, and we
+4:14 have Gemini open. And before we start
+4:16 diving in and just building these static
+4:18 web pages like a landing page, marketing
+4:21 page, we're going to build a prototype
+4:22 artifact, a lead magnet. We're going to
+4:24 build a dashboard and maybe some other
+4:26 static web pages. And then also web apps
+4:28 with a database. We're going to build a
+4:30 game with a database that your friends
+4:32 are going to be able to sign in and
+4:33 you're going to have a high score. Uh
+4:35 we're going to add some payments later.
+4:36 And then we're going to download these
+4:37 locally. Before we really dive into all
+4:39 of that, I want to talk about the
+4:41 basics, right? What are these tools? Why
+4:44 do I think they're going to be the best
+4:46 tools for the next 5 years and beyond?
+4:49 And then what are some of the basics?
+4:51 What are the commands that you can use?
+4:53 what are the models that you can use
+4:54 within all three of these different
+4:57 coding tools. And we're going to talk
+4:59 about a few other things. The first
+5:01 thing I want to say is the reason why I
+5:03 become so obsessed with these coding
+5:06 models, specifically Claude Code and
+5:08 recently Codeex by OpenAI, these
+5:11 companies are raising billions of
+5:13 dollars. Anthropic just raised 13
+5:16 billion to basically continue developing
+5:20 the best AI coding model in the world.
+5:22 Anthropic wants to create the best AI
+5:25 coding model in the world and their
+5:27 company's very focused on developers.
+5:30 And so that's why I want to start off
+5:32 with Claude Code here. And I want to
+5:35 describe how to use it because it looks
+5:38 a little confusing at first. Right? This
+5:40 is Claude Code. When you open it up, it
+5:42 says welcome to Claude Code. It has
+5:44 random things. It looks like a terminal,
+5:47 right? This is basically running in a
+5:49 terminal
+5:51 in the cloud and it just doesn't look
+5:55 super clean. But at the most basic
+5:56 level, this right here is cloud code and
+5:58 this right here is your web view. And
+6:01 these have sharable links. So whatever
+6:03 you make right here, you can immediately
+6:05 share with other people. And I can just
+6:07 type in, please
+6:09 make this into a landing page that says
+6:15 hello world.
+6:18 nothing else. The point is whatever your
+6:20 idea is, just type it over here. The
+6:24 smartest AI coding model in the world
+6:26 will begin looking at this existing
+6:29 codebase. And since we selected Nex.js
+6:31 at the beginning, which is basically
+6:33 just a stack that has really good
+6:36 styling by default, it's basically just
+6:39 going to change the code files so that
+6:40 it matches exactly what you said. Right?
+6:43 This is vibe coding. You say what you
+6:44 want. AI attempts to make it for you. As
+6:48 AI models get better, it will get better
+6:50 at making the thing that you ask. Look
+6:52 at that. So, it just made a code change
+6:54 right here. It says done. The landing
+6:56 page now displays Hello World centered
+6:59 on the screen. Look at that. It's hello
+7:02 world. Please make the font more
+7:05 Japanese
+7:07 style.
+7:09 Still English font. And then please make
+7:14 it a landing page for Riley's YouTube
+7:19 channel. Search the internet, find Riley
+7:24 Brown AI, and make a link tree of all of
+7:29 his videos. Super minimal. All right.
+7:33 The point is whatever I type here, it
+7:36 can create a website here on the right.
+7:39 And what we'll find out as this video
+7:41 goes along is you can create a lot more
+7:43 than just a simple website. You can see
+7:45 here that the agent, this coding agent
+7:48 Claude Code is searching the internet
+7:50 and it's doing all these different
+7:51 things. I can do here is I can actually
+7:53 just copy this, right? And now we can go
+7:55 over to codeex and the first thing that
+7:58 I'm going to do is I'm going to press
+7:59 slash. I'm going to choose GPT5 high
+8:03 which is their best model. I'm going to
+8:05 paste that in and press enter. Then I'm
+8:08 going to go over to Gemini CLI. I'm
+8:10 going to do the same exact thing and
+8:11 press enter. We see here we're using
+8:14 Gemini 2.5 Pro. And this will all make
+8:16 more sense. If if all of this seems
+8:18 crazy, don't worry. It will seem easy
+8:21 within the next 30 minutes to an hour. I
+8:23 promise. And you can see here it's still
+8:25 going, but this web view is uh we got a
+8:29 little bit of an error here. But don't
+8:31 worry, it's fixed it. See, it just fixed
+8:33 its own little error because it's still
+8:35 coding. You can see here it found my Tik
+8:37 Tok. There it is. It found my Twitter.
+8:41 There it is. It uh it found the LinkedIn
+8:45 for my company. Um AI tutorials
+8:49 collection.
+8:50 Whoa. What's this?
+8:53 Wait, where is this? So, it found this
+8:57 website online
+9:00 in the imageof.ai.
+9:02 I have no idea what this is, but they
+9:05 have a website for me. I guess that's
+9:09 quite interesting. And so now Claude
+9:11 Code is done. Let's go ahead and check
+9:14 on codeex. Codeex is still working and
+9:18 Gemini is still working. If you were
+9:21 running these locally, you would
+9:22 basically have to approve each and every
+9:26 uh code change. Not every single code
+9:29 change, but it'll say like, are you sure
+9:30 you want to make changes? And you would
+9:32 press yes. You would press yes. In this
+9:34 web version, it's running it on bypass
+9:37 permissions mode or I think codeex calls
+9:39 it yolo mode. And I think Gemini also
+9:44 calls it yolo mode. You can see here it
+9:46 says yolo mode. So it doesn't ask for
+9:48 any permissions. It just does it. And it
+9:51 also automatically saves. So it
+9:53 automatically saves it to get so that
+9:55 like you will save your changes every
+9:58 time. And just to be safe, whenever
+10:00 you're done, just press save. Um, but
+10:02 here, uh, Gemini is kind of going in a
+10:04 different direction, right? It looks a
+10:06 little bit different than Claude here.
+10:09 This is Codeex right here. And wow,
+10:12 Codex is going ham. So, we cloned an 80
+10:16 million app in 60 minutes with no code.
+10:20 Ooh, this link is broken. Oh, maybe it
+10:22 hasn't added the links yet because it's
+10:24 not done. Oh, it is done. So, it didn't
+10:27 add any of the links, but that's okay.
+10:29 So, the point is here is that these
+10:31 different coding models are
+10:33 state-of-the-art. They do act in
+10:35 different ways here. Like, you can see
+10:36 here that all of these kind of went in a
+10:38 slightly different direction.
+10:39 Personally, I liked the Gemini direction
+10:41 in terms of styling because I think
+10:43 Claude Code is known for being the most
+10:45 popular right now. I want to talk about
+10:47 commands. So, commands are different
+10:50 things that you can do within Claude
+10:53 Code that may help you. And you access
+10:55 commands by pressing the slash button.
+10:59 Here we press the slash button. We see
+11:01 add directory, agents, bashes, bug,
+11:04 clear, compact, config, context, cost,
+11:08 etc. Right, the first one I'll go over
+11:11 is cost. So if we hit slash and then
+11:13 scroll down to cost and press enter,
+11:16 we'll see exactly how much we've spent
+11:18 so far. So we've spent 35
+11:21 so far using Claude. One thing that we
+11:24 can do is we can press slash and we can
+11:26 go to model. You can see here this
+11:29 default model is kind of a mixture
+11:31 between sonnet and opus. Here we could
+11:35 change it to just opus and this is about
+11:39 five times as expensive and I now would
+11:42 type to opus. Right? I can this model is
+11:47 more powerful. It costs more money than
+11:50 sonnet. The same is true for GPT5.
+11:55 We can hit slash model. And right now
+11:59 we're on GBT5 high, which is a similar
+12:01 cost to Opus. And many people are saying
+12:04 GPT5 high is the state-of-the-art model
+12:08 right now. It's the best coding model in
+12:09 the world. Personally, for most
+12:11 requests, I use medium. But once like
+12:14 when I if I have a really big prompt or
+12:17 when I'm just starting out, I will use
+12:19 GBT5 high. It's a little bit slower, but
+12:22 wow, it does a really, really good job.
+12:24 So, if you've used Chat GBT or if you've
+12:27 used the Claw desktop app, you likely
+12:30 know that the longer the chat thread,
+12:33 the worse the AI becomes. And this is
+12:36 because you fill its context window
+12:38 which is basically the maximum length of
+12:42 tokens or in this case like all
+12:46 everything that we've talked about
+12:47 previously the more stuff it does in a
+12:49 single thread the worse it gets because
+12:52 it needs to remember what it's done
+12:54 right you and that this is why a lot of
+12:56 people are calling prompt engineering
+12:59 now context management or context
+13:02 engineering where your job is to make
+13:05 sure it has access to the right context
+13:07 and not irrelevant context or not too
+13:11 much context. You want to make sure that
+13:13 it has the right amount of stuff. So
+13:15 imagine here I was working on this app
+13:17 for a very very long time. Um, and it
+13:21 will actually give you this little
+13:23 circle that pops up here saying like
+13:24 you've used x amount of its context
+13:26 window. And that is a sign that you need
+13:29 to use the slash
+13:31 um either the clear command which will
+13:34 actually reset the chat. Right? I'm
+13:38 going to show you this in a second. Or
+13:40 you can use compact. What compact does
+13:43 is it basically takes everything which
+13:46 might be a million tokens in the chat
+13:48 window and it will actually go through
+13:50 all of it and it will summarize it down
+13:52 to a chunk so that you now have a lot
+13:55 more context you can add but it won't
+13:57 forget everything. It might remember the
+14:00 uh some of the main details that you've
+14:02 been working on which will help it. And
+14:05 I'm going to do slash compact. And what
+14:07 this does is it basically summarizes the
+14:10 conversation. And I'm actually not going
+14:13 to fully do this cuz it's not necessary.
+14:15 We've only done one prompt. I do want to
+14:17 show you slashclear. This completely
+14:19 resets the chat. So now we have
+14:22 completely reset the chat. Let's say I
+14:25 want to go back to a previous chat or
+14:27 the next time I come back to this, I can
+14:29 actually go back to a previous chat by
+14:31 typing in slashres.
+14:34 And you can see here now we are back at
+14:37 our previous conversation, right? If we
+14:39 want to see what we've done previously.
+14:41 This is a good way to kind of go over
+14:44 all of the different changes you've
+14:45 made, especially if you've made 50
+14:47 different changes, you can go back to
+14:48 previous conversation. So in summary,
+14:50 for clawed code, the things that you
+14:52 need to understand are whatever you type
+14:54 here, right? Change Riley Brown to Riley
+15:00 Brown is awesome,
+15:04 right? Whatever I type here, it will
+15:06 make changes to the code and then it
+15:08 will update it here when you run it in
+15:11 the web. When you run it um locally,
+15:13 which we will talk about later for the
+15:15 little more advanced section, you do
+15:18 have to do some intermediate steps like
+15:20 you have to run it locally. Here we do
+15:22 that automatically in this browser in
+15:25 sandbox.dev.
+15:27 But here, whatever we type here, we see
+15:29 the changes here. It really is that
+15:32 simple. And then of course I can copy
+15:34 this link here and then I can share it
+15:37 with anyone, right? I could send it to
+15:39 someone and be like, "Hey, check out
+15:40 this website that I'm building." And
+15:41 boom, we are in this sharable website
+15:45 here. And then in summary, we can also
+15:48 use commands. And I think the most
+15:50 important ones here are models, right?
+15:53 You want to be able to see which model
+15:54 that you can use like default opus um or
+15:57 opus plan mode. We also want to be able
+16:00 to use
+16:02 um another command is the clear which
+16:06 resets the chat. We also have compact
+16:08 which summarizes the chat. Um and then
+16:10 we also have cost so we can see exactly
+16:12 how much it's cost so far. See we have a
+16:14 dollar. Notice how it kind of increased
+16:17 in cost once we switched to opus. That's
+16:19 just the way it works. Okay. So that is
+16:21 just a good introduction to claude code.
+16:25 Now you know how to use it. Now let's
+16:27 put it to the test. We're about to do
+16:29 some projects with all three of these
+16:32 most powerful AI coding models in the
+16:34 world. We're going to build some landing
+16:36 pages, marketing page, prototype,
+16:39 artifact, lead magnet, and dashboard.
+16:41 And I think this category, the simple
+16:44 static pages, is kind of what people
+16:47 talk about when they say vibe marketing.
+16:50 So, Greg Eisenberg, who is one of my
+16:52 favorite people on the internet and he's
+16:54 actually become a pretty good friend, he
+16:56 talks a lot about Vibe Marketing and
+16:59 Board Marketer, who um is his co-founder
+17:02 for one of his companies, they talk a
+17:04 ton about using Claude Code to to do
+17:07 Vibe Marketing. And Vibe Marketing is
+17:10 this new wave of really fast iteration,
+17:14 fast prototypes, fast validation. And
+17:17 I'll explain what I mean by this. You
+17:19 can with natural language spin up
+17:22 landing pages and these landing pages
+17:25 can collect information, right? You can
+17:26 say that you're working on a tool
+17:28 release a landing page, put it out there
+17:30 on the internet, get people to sign up
+17:32 or even pay you money before you even
+17:34 release the product. Then you can use
+17:36 that money to create a product. Or you
+17:38 can release landing pages for just for
+17:41 specific features within your app or
+17:43 create a weight list or you can just
+17:45 allow people to sign up for a course.
+17:48 You can do all these different things.
+17:50 You can create prototypes for an app
+17:53 that you want to build and you can get
+17:54 really quick validation. Right? One of
+17:56 the biggest parts of running a business,
+18:00 especially on the internet, is you
+18:02 really want to validate your ideas
+18:04 quickly. Right? You want to be able to
+18:07 very quickly validate whether or not a
+18:11 business idea or tool is worth having in
+18:14 the world, right? you should get
+18:16 feedback from users as quickly as
+18:17 possible. And so that is kind of the
+18:20 first um the first type of tools that I
+18:24 want to create today. And so we can
+18:28 uh we can actually click on this here at
+18:30 the top. We can go back home and we can
+18:32 actually launch a new terminal. And
+18:34 we're going to create a landing page,
+18:36 right? We can click on cloud code and
+18:39 the best one for a landing page is
+18:40 Nex.js.
+18:42 And we are going to press continue just
+18:44 like last time. So I don't actually
+18:46 really like making landing pages that
+18:48 much. I much rather build like actual
+18:51 tools. But one thing Claude Code is
+18:53 really good at is just taking a simple
+18:55 image as inspiration. And so we can
+18:59 actually save this to our computer. And
+19:01 with Claude Code, you can actually
+19:03 upload images, right? You can actually
+19:05 upload images directly to Claude Code.
+19:07 And we can press attach image, browse
+19:09 files, and we can attach this
+19:11 screenshot. And we can just paste this
+19:14 image directly in here. Please create a
+19:17 landing page for my app. Vibecodeapp.com
+19:23 is the current site, but I want to make
+19:28 it look more like this. Please use this
+19:32 styling but keep the copy for Vibe Code
+19:37 app and make it really
+19:41 good for conversions. And so we're going
+19:44 to be using the best coding models in
+19:45 the world for simple things like landing
+19:48 pages. And so we can now run this. And
+19:51 while this is loading, I'm actually
+19:53 going to go ahead and I'm actually just
+19:56 going to I'm going to continue on this
+19:58 same one. I'm going to say I'm just
+20:00 going to say okay completely restart
+20:04 codeex. I want to actually make this
+20:08 landing page for this. And then we can
+20:11 paste that in here. And we can run that
+20:14 in Gemini. We can actually do the same
+20:17 thing. And I know it says codeex make a
+20:20 new landing page like the style of the
+20:23 image. And so now we're creating three
+20:25 different versions of the landing page.
+20:26 And we're just going to get to choose,
+20:27 right? We're going to choose between
+20:29 Cloud Code, the best coding model in the
+20:31 world, Codeex, likely the second or
+20:33 first best coding model in the world, or
+20:35 Gemini, the third best coding model in
+20:37 the world. It's pretty nice. And all we
+20:39 need to do is just have one subscription
+20:40 and just open them up in the web, which
+20:42 is pretty insane. All right. And
+20:45 basically, I think we're done on all of
+20:47 them. Oo, Gemini did not do that well.
+20:50 But I mean, look at this. Claude Code
+20:53 created this right now. Don't make
+20:55 coding complicated. Skip setup. Skip
+20:58 configuration.
+21:00 All right. So now we can actually just
+21:01 make a change. Go. Boom.
+21:04 Please change this to the app that
+21:09 builds mobile apps. The left phone in
+21:14 the two phones. Please make it a more
+21:20 neutral
+21:22 background color like dark
+21:27 gray. The pink is offputting.
+21:31 Please make it look like a shopping app.
+21:37 And then see here I So what I want to do
+21:39 is I want to change this copy right
+21:40 here. So all I have to do is just copy
+21:42 this. And I'm just going to say for this
+21:45 section, right, we just now like like
+21:48 we're context managing here, right? We
+21:50 want it to know exactly what we're
+21:52 talking about. I'm just going to paste
+21:53 that here. Make this about the app that
+21:57 builds mobile apps. And then one thing
+22:00 that we can do is we can use Whisper
+22:01 Flow. Whisper Flow is an app that allows
+22:04 us to speak to our computer. And you can
+22:07 go look that up. Wispr
+22:10 space flow. It allows you to very easily
+22:12 talk to your computer. I'm going to do
+22:14 that now. Uh, please make the left one
+22:17 say build an app in seconds with our
+22:20 mobile app. For the second one say this
+22:22 is the first ever app that builds mobile
+22:24 apps directly on your phone. The third
+22:26 one should be share with anyone and
+22:28 remix templates. And now we can enter
+22:30 that in and it'll immediately start
+22:32 building. And if you don't like waiting
+22:34 like me, you can just go to the next
+22:35 window. And here we're doing this on
+22:37 multiple windows. You'll notice here it
+22:40 actually went to the Vibe Code app
+22:41 website and pulled this image. It took
+22:45 the image from it and inserted it into
+22:47 this website. And here it says the app
+22:50 that builds apps describe what you want.
+22:52 So now there's those weird squigglies in
+22:54 the back. But let's actually go ahead.
+22:56 I'm going to copy this. I'm going to
+22:57 open it up full screen. If you press
+22:59 this button right here, it'll open it up
+23:01 in a new tab. Ooh, this looks a lot
+23:03 better full screen. Actually, this looks
+23:05 pretty good. Get the app. Right. Here's
+23:08 the Apple Play Store, Google Play Store.
+23:11 You know what? I don't want these things
+23:13 in these little components. So, what I'm
+23:15 going to do is I'm gonna c I'm going to
+23:16 just take a photo of this right here.
+23:18 And I'm going to go back to codeex. And
+23:21 so, I'm going to attach an image, right?
+23:22 We can browse our files. Copy this in.
+23:25 This will give us a link. We can copy
+23:27 this. And we're going to paste in the
+23:29 link here. We're going to say, "Please
+23:31 don't put the component around the black
+23:34 rectangles for App Store or Google Play.
+23:39 Please just put the" And sometimes the
+23:42 formatting gets a little bit weird. Put
+23:44 the black buttons. Wait
+23:48 alone.
+23:49 That's weird. Here we can say, "Okay,
+23:52 this is so boring. I want a full landing
+23:57 page." And remember, I actually told
+23:59 this to be minimal, right? I told this
+24:02 to be minimal when we first made this
+24:06 like Japanese style app. That could have
+24:08 been one of the reasons why it didn't
+24:09 make it very well, cuz it's sticking
+24:10 with that original Japanese style. And
+24:13 keep this style, but please find
+24:17 vibecodeapp.com,
+24:20 search it. Then add some copy to this
+24:23 site that makes it better and add one
+24:28 really cool animated section that draws
+24:34 attention. Right, we're trying to create
+24:36 a landing page for our own app or
+24:39 whatever idea that you have. You can see
+24:41 here it made these changes. It took
+24:43 these buttons outside of the components
+24:45 which looks really, really, really good.
+24:47 We can see it full screen right here.
+24:50 And we can see the buttons are much
+24:51 easier to press and it has these little
+24:53 squigglies. We can press get the app. I
+24:56 don't know if this will take us to the
+24:57 app. Let's see. Yes, it literally took
+25:00 us to the app and that's pretty cool.
+25:03 Um, here's claude code. Um, it did edit
+25:07 this second phone here, right? This
+25:09 phone here now has a dark gray
+25:11 background. We can open up this one full
+25:14 screen. Let's take a look at this Vive
+25:16 Code. Log in. Sign up, start coding
+25:18 free. This button doesn't go anywhere,
+25:21 but here we go. We have this clean
+25:24 little landing page. So, in the last
+25:27 section, we're going to talk about
+25:28 deployments. So, don't worry about that
+25:30 now. I'm going to show you how to get
+25:31 this on the internet under your own
+25:32 domain. But that's going to come a
+25:34 little bit later because we're going to
+25:35 do that at the same time as mobile apps
+25:37 at the end. And we're going to really
+25:39 dive into that. But while you're
+25:41 creating this, you can always just send
+25:42 these to people. You can send these
+25:44 sharable links very easily. You can just
+25:46 share them with your friends. Okay. So
+25:48 the next thing that we can create is a
+25:51 lead magnet or we can collect
+25:54 information. So imagine for a second,
+25:57 imagine for a second that I created a
+25:59 big guide, right? This is a good example
+26:02 of something that would be a guide,
+26:03 right? If I completely created this
+26:06 presentation that I wanted to put on the
+26:09 internet, but I wanted to get something
+26:11 in return. This is called a lead magnet
+26:14 where I put it on the internet and I
+26:16 require someone to send me their email
+26:19 and I will actually send them this guide
+26:23 uh and this will allow me to collect
+26:25 leads or allow me to provide additional
+26:27 value and this is a really really easy
+26:31 way to do it and I'm about to show you.
+26:33 And so let's say you create any sort of
+26:35 PDF uh you could do this on Gamma, you
+26:38 could do it on Canva, you can do it on
+26:40 Excaladraw. Some of these are my
+26:42 favorite ones to just kind of like
+26:44 create an info guide and send it out to
+26:46 people. One thing you would do is you
+26:48 can hit share. And what we're going to
+26:50 do is we are going to hit public view
+26:53 link and we're going to copy this public
+26:55 view link. And if we go to a website
+27:00 called tally. We can actually create a
+27:01 new form. This is the format that I
+27:04 normally use. Right? This is a form
+27:07 here. So it's you could say get the
+27:09 guide and there's a bunch of templates
+27:12 built into tally but basically it's like
+27:15 what is your name want to include an
+27:16 exclamation point or a question mark and
+27:19 here you can just gather some
+27:21 information if you want like like do you
+27:23 want do you use claude or codeex or
+27:26 whatever whatever information you want
+27:29 and the cool thing about this is if you
+27:30 just press uh slash you can choose from
+27:33 a ton of things you can choose a matrix
+27:35 a linear scale like on a scale from 1 to
+27:41 10,
+27:43 uh, did you like the video? Right? And
+27:47 you can just collect as much information
+27:48 as you want. And then what we can do is
+27:51 we can add a new page. Right? So I'm
+27:53 going to delete this right here, right?
+27:54 Really quick. Um, I'm going to do slash
+27:57 page new page. Now they won't see this
+28:01 page until they press next. This is
+28:03 where we're going to put the guide.
+28:04 We'll say get your guide. We'll paste it
+28:08 right here. And now they can get it
+28:10 after they've given us their email so
+28:12 that we can include them in email
+28:14 marketing later in case you create a new
+28:17 product later and you want to send them
+28:18 an email directly. That is incredibly
+28:22 useful. And so you might think, wait,
+28:24 this is not part of vibe coding. What do
+28:27 you mean? What are you going to do with
+28:28 this? Well, it's as easy as going up
+28:30 here. We can hit publish. Now what we
+28:33 can do is it shows this like menu right
+28:36 here after you publish it and we can
+28:38 actually go to share and embed forms.
+28:42 And so here I'm actually going to embed
+28:44 it in the page just like this. We can
+28:47 see here that it looks exactly like
+28:49 this. And I'm going to hit copy. Uh I'm
+28:53 going to hit get the code. And here I'm
+28:56 just going to copy all of this.
+28:59 Now, what we're going to do is we're
+29:01 going to go to sandbox.dev.
+29:03 We're going to use cloud code to create
+29:04 a landing page that we can put on the
+29:07 internet. So, I'm going to go to cloud
+29:10 code next.js
+29:12 continue with cloud code. Okay. So, now
+29:14 we have cloud code open and what we want
+29:16 to do is we want to create our own
+29:17 custom landing page and collect that
+29:20 information where that data is sent to
+29:22 us. In this case, tally is uh is
+29:26 basically a place that's storing all of
+29:29 that information, right? I can go see
+29:31 all of the things that I've collected
+29:33 information for. Um some of these I've
+29:36 collected 899.
+29:38 This one I select uh this is a 6,000
+29:41 emails that I've collected for the Vive
+29:43 Code app way back in I don't even
+29:46 remember um in April. And what we can do
+29:49 here is we can just paste in this embed
+29:52 code, right? It's called get the guide.
+29:55 We basically just go to share. Uh we
+29:58 want this standard embed code. We say
+30:00 get the code. We'll just copy this in.
+30:03 Now we go back to cloud code. I created
+30:07 a full vibe coding guide. This guide
+30:11 explains all of the things that it
+30:14 people need to know about vibe coding to
+30:16 turn their idea into an app without
+30:17 writing a single line of code. Please
+30:19 make a very clean landing page and then
+30:21 add this tally link into it. I want to
+30:24 embed this tally link so that people can
+30:26 fill out the information to get the
+30:28 guide. Make it really simple but make it
+30:30 good. Now I'm going to paste in that
+30:32 text. Right? The text that we're pasting
+30:34 in is this HTML code right here. And
+30:36 we're just going to press enter. Okay.
+30:38 While this is loading, what I want to
+30:40 show you is that you can do other things
+30:43 with these landing pages, right? Because
+30:45 it's so easy to create a landing page,
+30:47 you don't only need to create it for,
+30:49 you know, standard like standard landing
+30:52 pages for a website. You can just create
+30:55 these static artifacts or presentations.
+30:58 And so what we can do here is we can
+31:00 actually open up, let's go ahead and
+31:01 open up another cloud code with Nex.js.
+31:03 And we can actually create a
+31:05 presentation. And imagine for a second
+31:07 that you just wrote out a massive uh
+31:09 notion doc or you had a Google uh Google
+31:12 doc with a ton of your research or you
+31:15 have internal company research that
+31:17 you've done. Um you can basically just
+31:19 paste uh that in here and create a
+31:23 presentation with cloud code, a full-on
+31:26 presentation. And so I'm going to show
+31:28 you how to do that. So we can browse
+31:29 files here. I just took a screenshot of
+31:31 that like resource guide just to give it
+31:33 some things to talk about. And so we can
+31:35 copy this URL and paste in. So we
+31:37 basically just paste it in that image.
+31:39 Please create a PowerPoint a landing
+31:43 page. Make sure to specify to make it a
+31:45 landing page that is a slide deck. I
+31:49 want these slides to be full screen and
+31:54 make it a presentation on this topic.
+31:59 And I want to be able to toggle between
+32:04 the slides and make them and make the
+32:08 and make these slides super minimal.
+32:13 White background,
+32:15 black text,
+32:17 teenage engineering
+32:21 styling,
+32:22 light color around the edges. I don't
+32:26 know. I'm just coming up with a random
+32:27 style. Make at least
+32:30 nine slides based on your research on
+32:37 the topic that is shown in the image.
+32:42 So, we just entered this in right here.
+32:44 We gave it an image and we said create a
+32:46 landing page that is a slide deck.
+32:48 Right? So, now it's creating a landing
+32:50 page that is a slide deck and we're
+32:51 going to immediately be able to share
+32:52 these with people. Let's go ahead and go
+32:54 back to this. Check this out. So here's
+32:56 our landing page that we created. We can
+32:58 copy this. Now what we can do is let's
+33:02 go ahead and act as if we shared this
+33:04 link with someone else, right? We could
+33:06 immediately paste this on social media
+33:08 and as long as we have our sandbox open,
+33:10 people could actually open this link.
+33:13 And here we go. Turn your ideas into
+33:16 apps without writing code. And here we
+33:18 could put my name is Jim Bob at
+33:22 jimbobgmail.com
+33:25 and I really liked this video. We can
+33:28 hit next. Oops. What do you like? Oh,
+33:32 Claude. Great. Next. Oh, get your guide.
+33:35 Here's the guide. And what you'll notice
+33:38 is right. And so that's how people would
+33:41 get the guide if you posted on social
+33:43 media. And you could customize that site
+33:45 to look exactly how you wanted it,
+33:47 right? The and you in return would get
+33:50 some information. You would get a lead
+33:52 for your business. It says, "Thanks for
+33:54 completing this form." And on tally, it
+33:57 should show up here. If we go to
+33:58 summary, we see that we have one
+34:00 response from Riley. And here are all
+34:02 the responses. And so, you actually just
+34:05 gather a ton of leads for your business.
+34:07 And let's go back to the presentation.
+34:09 Check this out. So, this is really cool,
+34:12 actually. So this is the slide deck. We
+34:14 see that it has uh slides 1 to 10. We
+34:17 can open this up full screen and it's
+34:19 still making changes, right? But we see
+34:21 we have this slide deck and we can
+34:23 actually toggle static pages, web app,
+34:26 full stack applications, right? And it's
+34:29 just basically taking all the stuff that
+34:31 I put here, right? This is an outline
+34:32 that I made and it's making this into a
+34:35 presentation. Now we have this
+34:38 presentation right here and I can easily
+34:41 change it, right? Right. I could go back
+34:42 here and I could say, "Please, can you
+34:45 add icons? Find cool icons that match
+34:51 teenage engineering vibes. Download
+34:56 packages
+34:58 if you have to make cool icons." And so,
+35:02 we're just testing it here. I actually
+35:04 don't know how it's going to do with
+35:05 this, but you can see here you created
+35:07 just a slide deck, right? You don't need
+35:09 to use a slide deck tool. You can just
+35:11 make it a landing page and it's by
+35:13 default it's sharable, right? If we were
+35:15 to go send it to someone else and they
+35:17 opened it in a I'm opening it in
+35:18 incognito to simulate another user
+35:20 opening it, but anyone can just open
+35:22 this, right? You can use it. You can
+35:23 share it. You could give a presentation
+35:25 like this. And later we're actually
+35:27 going to talk about deploying it. So you
+35:29 can create these landing pages and
+35:30 immediately deploy it to the internet
+35:32 and share it with other people. And you
+35:34 could even put a payw wall on it, right?
+35:36 You only get access to this if you pay.
+35:39 We're also going to talk about that
+35:40 later. And if you check this out, it
+35:42 added icons to every single slide. And
+35:46 as you can see here, it creates this
+35:48 very clean, simple presentation. Right?
+35:52 We could say, okay, scrap the subject
+35:55 matter of this presentation
+35:58 and do research on the latest in AI
+36:04 image
+36:06 generation and editing. Focus on the
+36:10 nano banana. Let's do ideoggram
+36:15 API with character and GBT
+36:21 image and other similar models released
+36:27 in the previous
+36:30 3 months. Please um make the slides
+36:35 about that. Keep the styling.
+36:39 All right, we can completely change it.
+36:41 And the point is here is you just have
+36:43 full control and you can create whatever
+36:45 you want here and it will search the
+36:47 internet. It's awesome. And look at
+36:49 that. We have 10 new slides on Nano
+36:52 Banana. Um we could say and it's a real
+36:56 time character preservation, targeted
+36:58 edits, Gemini integration. And we could
+37:00 use this, right? We could use this as a
+37:03 slide deck. You know, we can make some
+37:05 changes. is we could say one thing I
+37:07 don't like about it is please can you
+37:10 pin the um the slide navigator to the
+37:16 bottom right like please
+37:19 put it
+37:21 pinned to an edge to
+37:25 the corner so that the heights of each
+37:30 slide are not different.
+37:35 And for the um and please align the text
+37:42 of the slides to the left, not centered.
+37:48 And please add a little border just at
+37:55 the top or something. I don't know.
+37:58 Point is, you have full control over
+38:00 this, which is awesome. And I mean, come
+38:02 on. Look at this. We can press this
+38:05 button right here and we have this slide
+38:07 deck that we can present. It pinned this
+38:10 to the bottom right. Now we basically
+38:12 can just create any digital experience
+38:15 that we want just by asking claude code
+38:18 to create it and we have these sharable
+38:20 links. I could immediat if I was live
+38:21 streaming I could share it with my
+38:23 audience and we can deploy this. And so
+38:25 yeah that's a landing page a lead magnet
+38:27 and an artifact or a presentation that
+38:29 we've created. But let's create some a
+38:32 few more static pages before we move on
+38:33 to creating real web apps with databases
+38:36 and AI feature. So let's go ahead and
+38:38 open up I'm going to open up a cloud
+38:40 code window. Let's go ahead and do this.
+38:43 Let's go to sandbox.dev.
+38:45 And here I actually want to open up a
+38:47 codeex window. So let's do codex with
+38:50 gbd5. Uh for this one let's do nex.js.
+38:54 And then for the third one I'm actually
+38:56 going to do claw again and we're going
+38:57 to create a game. So, we're going to
+38:59 create a static really easy uh game
+39:02 here. And so, we can hit cloud code.
+39:05 We're going to go to gamedev and hit
+39:06 3JS. And we're going to create a game.
+39:09 For this first one, I want to create a
+39:12 uh prototype. So, this right here is a
+39:15 tool that I love to use uh to create
+39:17 prototypes, and it's just Excal. And
+39:20 this is normally the tool that I use to
+39:22 like create like an um just drawings.
+39:25 And it's just my favorite canvas app.
+39:28 And what we can do is we can actually
+39:31 just create a really quick prototype on
+39:34 here for an app that we want. Let's say
+39:36 we want to create an app that allows us
+39:39 to edit YouTube thumbnails. And so let's
+39:43 say we want to create an app that has
+39:45 our YouTube thumbnail right here. Right?
+39:48 Let's imagine we have a YouTube
+39:49 thumbnail right here. Let's go ahead and
+39:52 we just want to change this background
+39:54 to something different. Right? So here,
+39:58 um, I'm just going to say thumbnail, and
+40:01 then I'm going to drag this down here.
+40:03 And I'm going to, uh, input text. This
+40:06 will be left aligned. And I'm just going
+40:09 to make this, uh, text definitely a
+40:12 little bit smaller. This text will be
+40:15 smaller. And I'm just going to say like
+40:17 this. So point here. uh user types here
+40:21 to edit the thumbnail
+40:26 above. And then here is where user
+40:30 uploads their thumbnail. And we can drag
+40:34 this arrow right here. And here's this
+40:36 prototype. Uh what do we want to name
+40:39 this? Nail.ai.
+40:42 Um nail.ai.
+40:45 And here at the bottom, we're going to
+40:47 have versions. And maybe this is a
+40:49 bottom tab here. So let's go like this.
+40:52 Maybe we'll have like this versions bar
+40:54 at the bottom here. Maybe the background
+40:56 for this is like a little bit lighter,
+40:58 right? Because as we edit the thumbnail,
+41:00 it's going to have different versions.
+41:02 And so what we can do is we can put the
+41:04 thumbnail um where we can put V1, V2,
+41:09 etc. So this input text will go right
+41:11 here and V3. So I'm just kind of drawing
+41:15 this out on Excal right here. And now
+41:17 what I'm going to do is I'm just going
+41:18 to screenshot this and I'm going to
+41:21 allow this to just save to my computer.
+41:24 We're going to go to Cloud Code and
+41:25 we're going to create a prototype and
+41:27 I'm going to switch this to Opus. So I'm
+41:30 going to change it to model and we're
+41:32 going to go to Opus. Please create a
+41:34 prototype and we're going to be using
+41:36 Whisper Flow again. So I'm going to
+41:38 speak to my computer for an app that
+41:41 allows me to edit my thumbnails. And so
+41:46 it starts off with me uploading a
+41:47 thumbnail and then I can type to edit it
+41:50 and the versions will go down below. I
+41:52 just want to create a prototype for
+41:54 this. Right? I just want to be able to
+41:55 upload images. Right? Right now I want
+41:57 to be able to do that and then type some
+41:59 text and then I want an up arrow arrow
+42:02 that's inside the dialogue box that's
+42:05 two lines high right below this YouTube
+42:07 thumbnail. And then I want versions to
+42:10 go below. And that should open up after
+42:13 I enter in one edit to the thumbnail.
+42:17 And please look at the image I'm going
+42:20 to attach for you and make everything
+42:23 minimal. Uh I just want you to focus on
+42:27 lay the layout right now. And it it
+42:29 shows up as pasted text one. Now we need
+42:31 to attach that image so we can browse
+42:33 files. We're going to paste in that
+42:35 screenshot. Copy to the clipboard. Paste
+42:38 it in. Enter. So here's the full prompt
+42:41 that was entered. Now we wait for Opus
+42:43 to be done. This could take a little
+42:45 bit. It's got to analyze the image. It
+42:47 has a lot of work to do. So we're
+42:49 creating a prototype. Another thing that
+42:51 we could do is we could create a
+42:53 business dashboard. So I'm going to
+42:56 pretend that I have data, right? We
+42:58 could actually generate some data.
+43:00 Please generate some fictional
+43:05 data for my lumber company. Actually,
+43:10 for my
+43:12 barber shop, I have six barbers. Please
+43:19 generate
+43:21 data for the month for each of them
+43:25 randomly.
+43:27 Make it realistic.
+43:29 So, we can generate a bunch of data with
+43:31 chatgbt very easily. We could have done
+43:33 this just directly in the sandbox.dev.
+43:37 Um and yeah, so I'm going to let chat
+43:40 GPTt begin making this data. So what we
+43:44 can do here is we can actually just copy
+43:46 this whole thing. Uh we can copy all the
+43:49 data here. We can just copy all the
+43:50 data. And what we're going to do is we
+43:54 are going to go to codeex. We're going
+43:57 to hit slashmodel. Remember you can do
+43:59 that on both codeex and claude. And
+44:04 we're going to do GBT5 high. I'm going
+44:07 to go ahead and paste this in. Okay.
+44:10 Pasted content. Please create a business
+44:16 dashboard
+44:19 for my barber shop.
+44:22 Riley's
+44:24 barber shop. have multiple slides
+44:32 for this to look at the data in
+44:35 interesting ways. This will be used to
+44:40 attract
+44:42 investors. So now we can create this. As
+44:45 you can see here, all of this was pasted
+44:46 in. You can just take any data and paste
+44:49 it in and create a dashboard. We will
+44:51 see what gets created here. We can
+44:54 create a game. So with claude, we're
+44:55 going to go model Again, I'm going to go
+44:58 ahead and use Opus because I think that
+45:00 is the best for creating games. This
+45:02 right here is 3JS. I encourage you to
+45:05 just trust me that this is the best um
+45:09 stack or pre-built template for games.
+45:12 Let's just create a simple game. I want
+45:15 you to create a game that allows me to
+45:21 fly around and
+45:25 um
+45:27 and collect coins. This should be a fun
+45:33 game.
+45:35 Please search the internet and get inspo
+45:40 from other popular games. Maybe look up
+45:46 popular
+45:47 games on GitHub
+45:51 in 3JS
+45:53 that are fun and cool with a lot of
+45:59 stars. Okay, so now we're creating a
+46:03 dashboard. We're creating a game. And
+46:05 here we have our prototype. I'm not
+46:07 loving what I'm seeing here in this
+46:09 prototype. Let's check this out here.
+46:11 So, we can upload this screenshot. Oh,
+46:14 you upload it. Then the instructions
+46:15 come in and we say make this larger.
+46:19 Enter. Okay, now the versions come in. I
+46:23 actually like this. Um,
+46:27 make it better. Okay, so it adds
+46:30 different versions. This is very cool.
+46:32 So we can create a prototype. Um, okay.
+46:36 So now this is too white. Please make
+46:40 the background have dots in the
+46:44 background like graph paper kind of but
+46:50 lighter gray and then add a title at top
+46:56 left called nail.ai AI and make the
+47:01 background of the input
+47:05 field a gray to light gray gradient
+47:12 and make it just look cooler.
+47:17 The up arrow enter button should be more
+47:22 fun to press. So, we're just continuing
+47:26 along. We want to make changes to this.
+47:28 This is boring to me, right? We want to
+47:31 make this look much cooler. Um, we're
+47:34 getting an error here, it appears. Um,
+47:38 that's okay. This is good. This is the
+47:39 first error we've gotten in this video.
+47:42 So, what I'm going to do is I'm just
+47:43 going to copy this and I'm going to say
+47:46 we got this error. Please, can you fix
+47:51 this right now?
+47:56 And the game is still generating. Okay,
+47:59 let's check on our game. I'm going to go
+48:01 ahead and open this up in a new tab.
+48:03 This already looks better. Notice here
+48:05 we have this like dotted background
+48:07 here. We can upload this thumbnail.
+48:10 Let's go ahead and choose a better
+48:12 thumbnail. Oh, here's one of my actual
+48:14 thumbnails. Now it has this like gray
+48:16 gradient. I don't love the blue light
+48:19 up. Make his hair blue. Enter.
+48:25 Next.
+48:27 Yes. You see here, it's we're we're kind
+48:29 of creating it. Obviously, it's not
+48:31 actually editing it. That's actually for
+48:33 later once we get into APIs, but this is
+48:35 a pretty cool prototype. And this would
+48:37 be for my fictional site, nail.ai. Let's
+48:40 move along. Okay, our single prompt,
+48:44 right? We've entered in one prompt here.
+48:46 The prompt was to turn this CSV file
+48:49 into a dashboard. We can go ahead and
+48:52 open this up. All right, this link is
+48:54 immediately sharable here. We can kind
+48:57 of scroll through here, right? We see
+48:59 that our total revenue paid um it took
+49:02 all of that data and here's the um pay
+49:06 per day. Here are the service plus tips
+49:09 for all of the different people here. Um
+49:13 the tip percentage of service. Okay,
+49:17 David's doing something right. Here we
+49:19 see payment methods. Here we have card.
+49:22 So mostly that makes a lot of sense.
+49:25 Here we see some other data and here's
+49:29 the cumulative pay right which is 4972
+49:34 which is close to the same 4972 is the
+49:38 same as this right here. And then
+49:40 finally then finally let's go ahead and
+49:42 check on the game. Right. So this is a
+49:44 game that we created where you could fly
+49:46 around and collect coins. I told it to
+49:48 search GitHub to find some inspiration.
+49:51 Skycoins Adventure. I'm not a huge fan
+49:53 of this name, but let's go ahead and
+49:54 start flying. Okay, I'm in the air.
+49:57 Whoa, look at this. So, I'm like a paper
+50:00 airplane. It doesn't look at all like a
+50:02 paper airplane, but we are flying
+50:04 around. I mean, look at that. When it
+50:05 hits uh game over. So, I can't hit the
+50:08 red things, right? This paper airplane
+50:10 does not look at all like a paper
+50:12 airplane. Um, but we can collect these
+50:17 coins. So, I just collected got 10
+50:18 coins. Let's see if I can Oh, nope. I
+50:21 missed. I need to get some more coins.
+50:25 I cannot. My depth perception on here is
+50:28 not great. I'm just going to die. Game
+50:31 over. Okay, great. So, we created a
+50:34 game, right? And so, in this little
+50:36 section, like I showed you that we could
+50:39 create a landing page, we created a lead
+50:41 magnet, we created a prototype
+50:45 um for a thumbnail app, which is right
+50:48 here. Right. this little thumbnail
+50:50 prototype that we may actually use again
+50:52 later in this video. We created this
+50:54 dashboard, this interactive dashboard
+50:56 that's like really immersive. I'm not a
+50:59 huge fan of the styling, but we could
+51:00 change that. And then we created a game,
+51:03 right? We created all of these things
+51:04 that we can immediately share and
+51:06 eventually you're going to know how to
+51:08 deploy them to the internet. And this is
+51:10 only going to get easier and easier as
+51:11 time goes on. That's why right now it's
+51:13 the best time to learn how to vibe code.
+51:14 You want to do it while it's a little
+51:16 bit hard, right? because everyone's
+51:17 going to be doing it in like a year or
+51:19 two. But yeah, that's what we can create
+51:21 in terms of static landing pages. And so
+51:24 we are just now getting into the fun
+51:26 part, which is the web app. Now we can
+51:29 create web apps that have a database. So
+51:32 your friends are going to be able to
+51:34 sign in and use it live, and you're
+51:37 going to be able to see their data
+51:38 update in real time. And I'm going to
+51:41 show you a ton of really cool web app
+51:43 examples. And yeah, let's move on to the
+51:45 next section. Now, we're getting to the
+51:47 fun part. So, I think it's time to bring
+51:48 out the special pencil because we are
+51:51 going to begin building full-on web
+51:54 apps. And that includes database and
+51:57 authentication.
+51:59 And this is about to get much more fun.
+52:02 Same thing as earlier, we're going to go
+52:03 ahead and open up sandbox.dev. We're
+52:05 going to press enter. Now, what we're
+52:08 going to do is we're going to open up
+52:10 instant DB. Many people who vibe code
+52:14 use superbase which is a place where
+52:18 people do o and database. We think it's
+52:21 much worse, much harder. AI is really
+52:23 bad at superbase and we run into a lot
+52:26 of problems. Instant DB makes it
+52:28 incredibly easy to work with. Don't
+52:31 expose this key. I'm going to delete
+52:32 this key at the end of this video. Um,
+52:36 this is basically all you need. So when
+52:39 you create an account on Instant DB,
+52:41 which is where all of the data is going
+52:43 to be stored for the app that we're
+52:46 about to create, you need to create a
+52:49 new app. And so remember, all you need
+52:53 to do is go to instantdb.com.
+52:56 Okay, that is the domain. And when you
+52:58 create an account, you're going to get a
+53:00 dashboard. And then you're going to
+53:01 create new app. and we're gonna call
+53:04 this Riley
+53:06 to do app. We're gonna start off really,
+53:10 really simple. We're going to hit let's
+53:12 go. Now, what we're going to do is we're
+53:14 going to copy this public app ID, right?
+53:18 This is the key that you need to
+53:21 communicate
+53:23 uh with the database for this app. And
+53:26 so within Vibe Code Sandbox, what we're
+53:29 going to do is we're going to open up
+53:30 Cloud Code. We're going to go next.j JS.
+53:33 This is kind of the old reliable stack.
+53:36 And we're going to hit continue with
+53:38 cloud code and nex.js. Okay. So now we
+53:40 have this Riley to-do app. And we can
+53:43 just copy this key right here. And we're
+53:45 going to create a basic to-do list app.
+53:47 I want you to research instant DB. This
+53:53 is what I will be using for
+53:58 database and off.
+54:01 I want to implement a signin page and
+54:06 users can create notes.
+54:11 They can
+54:13 edit their notes and upload images as
+54:19 attachments to their notes. Please use
+54:25 this public app ID for instant DB. We're
+54:31 going to paste this in right here. This
+54:33 is my key. Please do research on this.
+54:41 And use the docs
+54:45 for instant DB so that it works on the
+54:50 first try.
+54:52 Now, what we're going to do is we're
+54:54 going to copy this and I'm going to run
+54:57 it. So you can see here that it's
+55:00 actually loading right now and we see
+55:03 this sign in with email, sign in with
+55:05 Google. I've never actually done the
+55:07 signin with Google on Instant DB before.
+55:09 I've always found that the signin with
+55:12 email feature within Instant DB is the
+55:15 easiest way to test um both database and
+55:18 authentication. Okay, so it's done
+55:20 loading. We basically just entered one
+55:22 prompt and it loaded for a very long
+55:24 time. It basically had to search all of
+55:26 the Instant DB docs. I have no idea if
+55:28 this is going to work, but I'm going to
+55:29 enter my email. So, Riley,
+55:33 so for whatever reason, it's
+55:36 a little bit weird. The styling is
+55:38 showing up a little bit weird, but we're
+55:39 going to send a magic code. So, now it's
+55:41 sending a verification code. So, I'm
+55:43 going to check my email. Now, we have
+55:45 this verification code. We can copy
+55:47 this. So, this allows us to sign into
+55:49 our profile. So, we just signed in.
+55:52 Yeah, the styling up here of my notes
+55:54 title. Hello. This is my note. This is
+55:58 my note. I am typing now. I don't know
+56:02 why it's styled like this, but we can
+56:04 create this note. We can see here.
+56:06 Hello, I am typing now. This note, it
+56:10 seems like it was entered into the
+56:11 database. So, if we go to instant DB and
+56:14 we we are on Riley to-do app, which is
+56:18 the Riley to-do app one, we go to
+56:20 explorer. So we have files
+56:24 users. Okay, let me refresh this. Okay,
+56:28 so we have one note. This is my note. I
+56:30 am typing now. Title, hello. This is my
+56:34 note. So it was entered into the
+56:36 database. If I signed out and signed in
+56:40 right as a different user other than
+56:43 this user right here, I wouldn't be able
+56:46 to see my note. At least in theory. What
+56:48 I want to do here is I'm just going to
+56:49 screenshot this and I'm going to attach
+56:53 this image here. So, we're going to
+56:54 browse files, screenshot. This image
+56:57 here shows what it looks like for
+57:01 whatever reason when I type the text is
+57:05 really light on the light background.
+57:09 Please fix this. And then also, please
+57:13 really simplify. Um, please really make
+57:18 this look sleek. I hate the way this
+57:23 looks. Take inspo
+57:26 from bare note. Make it look more like
+57:30 that, but don't break the database and
+57:36 off. That does work great. And so now
+57:40 we're going to wait. Okay, so it's done.
+57:42 It looks a lot different. I'm already
+57:44 signed in, so we can hit new note.
+57:47 Hello, my name is Riley again. I welcome
+57:52 you to my first note. Smiley face. Yay.
+57:59 So, we can hit save. And look at that.
+58:02 It enters it in here. This looks a lot
+58:04 better. This new note button. I don't
+58:06 like the color. Change the color of the
+58:10 new note button, please. Can you make it
+58:15 dark gray, but when I hover
+58:20 make it look really clickable,
+58:25 please
+58:27 can you also allow me to wait, let me
+58:31 see if I can do something. Testing
+58:34 images. Oh,
+58:37 hello. I am about to
+58:41 save images to this. Let's see if the
+58:44 files. So, I want to see if we can
+58:46 upload files. So, I'm going to hit
+58:47 choose file. We're going to do this
+58:50 screenshot
+58:52 and we're going to hit save. Okay, we
+58:54 got an issue. Failed to fetch on window
+58:57 headers properly. Okay, upload images
+59:01 properly. I got this error. Please, can
+59:08 you fix this?
+59:11 Paste that in. Enter. Okay, let's go
+59:14 ahead and test this again. We're going
+59:16 to hit new note.
+59:18 Test image.
+59:21 Choose a file.
+59:23 Do this screenshot.
+59:27 We're still running into
+59:30 an image here. That's
+59:36 Oh, did that work?
+59:42 For whatever reason, the images might
+59:47 not be working. I'm getting an error. If
+59:52 there's anything that I need to paste
+59:57 into instant DB permissions,
+1:00:01 please tell me now I want this to work.
+1:00:06 Okay, I'm going to explain what I mean
+1:00:08 by that in just a second. Permission
+1:00:10 denied has not storage permissions.
+1:00:12 Okay, this is great. I whenever I get
+1:00:15 multiple errors in a row
+1:00:18 on Instant DB if you go to permissions,
+1:00:21 you can like paste stuff in here, I know
+1:00:24 that it has the power to actually update
+1:00:27 that
+1:00:29 uh straight like Claude code can do it.
+1:00:31 It doesn't always do it. Please give me
+1:00:34 what I need to paste into the
+1:00:38 permissions. And now we're going to wait
+1:00:41 for that. Okay. So, correct instant DB
+1:00:44 storage permissions. Use the simpler
+1:00:45 version that works. Okay. I'm going to
+1:00:47 copy this.
+1:00:54 Save. Huzzah. Your rules have been
+1:00:57 updated. Now, let's go ahead and upload
+1:01:01 an image.
+1:01:03 Wait. Save.
+1:01:05 Where is it?
+1:01:08 There it is. Okay. Our image is now
+1:01:10 loading. So we can see here is the
+1:01:13 image. Very very cool. We literally have
+1:01:18 an app that you can sign into. We have a
+1:01:21 new note that you can create. Um and you
+1:01:25 can sign in, sign out. We can try
+1:01:26 signing in. I'll just sign in again.
+1:01:28 Riley at not a number.com.
+1:01:33 And we can send a magic code. Um, we can
+1:01:38 open the code, right? This is how we
+1:01:40 sign in. I have not yet tried Google
+1:01:43 signin yet. I don't know if that works,
+1:01:45 but
+1:01:47 new note. Hi. We can choose file and
+1:01:53 upload one of these images. I don't know
+1:01:56 why it goes down to the bottom, but
+1:01:58 there we go. The point is is we now
+1:02:00 created a web app that your friends can
+1:02:02 sign into. What's cool about this is see
+1:02:05 this sandbox link will allow me to sign
+1:02:07 in directly on my phone. I can sign in
+1:02:10 from the same account or I can sign in
+1:02:12 with a different email account. And you
+1:02:14 now have this web app that you can use
+1:02:16 in the sandbox. And again, we're going
+1:02:18 to talk about deployments a little bit
+1:02:20 later. Okay. So, we created this really
+1:02:23 simple notes app. And what I'm going to
+1:02:26 do is I'm actually going to open up a
+1:02:27 new sandbox. We're going to dive into my
+1:02:30 favorite section of this entire video,
+1:02:32 which is APIs. And APIs are really fun
+1:02:37 in the AI era because there are so many
+1:02:40 brand new AI experiences you can create
+1:02:43 for your users
+1:02:45 and it's just so much fun in the era of
+1:02:49 AI agents. So, what we've done so far is
+1:02:51 we created a very simple notes app and
+1:02:55 it was really cool, right? We created a
+1:02:57 notes app. It had a database. Users
+1:02:58 could sign in and uh you could add
+1:03:02 notes, upload images, and it was all
+1:03:04 stored in Instant DB. We're going to
+1:03:06 create another app, another web app
+1:03:09 right now, except we're going to utilize
+1:03:12 some really cool APIs. So, what APIs are
+1:03:16 for those of you who've used Chat GBT,
+1:03:19 right? Chat GBT is an AI model that is
+1:03:22 packaged into a really nice experience.
+1:03:25 ChatGBT started as GBT3 which was
+1:03:28 technology that was it was an AI model
+1:03:31 trained on language but it wasn't it
+1:03:34 didn't actually start out in chat GBT
+1:03:36 chat GBT was the packaging of this
+1:03:40 technology that made it go viral that
+1:03:42 created the AI revolution and that is a
+1:03:46 really key thing to understand that
+1:03:49 there might be experiences that you can
+1:03:52 create as someone as a vibe coder that
+1:03:56 could unlock a new way of experiencing
+1:03:59 technology that could be a multi-million
+1:04:02 dollar business. And if we look here,
+1:04:05 right, like chatbt is like text to text.
+1:04:08 That's at least how it started, right?
+1:04:09 You type, you type some text as an input
+1:04:14 and then the AI responds with a text
+1:04:16 answer and then you might respond again.
+1:04:19 And then recently, right, you can upload
+1:04:21 images, right? So now it's images image
+1:04:24 to text right it can respond with text
+1:04:27 um now it can also respond with images
+1:04:30 right uh chat GBT can also respond um
+1:04:34 with images and the open AI image model
+1:04:38 is very good and then there's also a lot
+1:04:41 of image models right nano banana by
+1:04:44 Google was just released and so if you
+1:04:46 go to a website like ka and you want to
+1:04:51 create an image Right. We what we can do
+1:04:52 is we can actually upload an image. We
+1:04:56 can change this to nano banana. We can
+1:04:59 select this model. We can upload an
+1:05:01 image. Let's find a image.
+1:05:05 That would be good.
+1:05:07 So, we're going to upload this
+1:05:08 screenshot of me or this um thumbnail.
+1:05:13 And I'm going to say make the man
+1:05:15 wearing sunglasses.
+1:05:18 And we are using the nano banana
+1:05:21 technology except Korea a like a Korea
+1:05:25 is almost a billion-dollar company at
+1:05:26 this point. One of the fastest growing
+1:05:29 companies in the creative AI space right
+1:05:31 now and it is using the APIs of all of
+1:05:35 the popular tools. And so you can use
+1:05:38 Nano Banana to make these edits, right?
+1:05:40 And so I can remove this image and what
+1:05:43 I can do is I can download this one and
+1:05:45 we can use this one. So now we have this
+1:05:47 image of me wearing sunglasses and I can
+1:05:49 say make his hair longer and we are
+1:05:53 using the nano banana technology that
+1:05:56 Google created through Crea. Crea is the
+1:05:59 experience packaged of this nanobanana
+1:06:03 technology and make it blonde. Right?
+1:06:07 We're making the hair longer and we're
+1:06:09 making it blonde. And we can just
+1:06:12 continue this path of editing these
+1:06:14 images. And you can see here that we are
+1:06:16 using nano banana. And there we go. I
+1:06:19 have now have long hair. I don't like
+1:06:22 the way my mouth looks. So we can I'm
+1:06:25 going to just show you like this is a
+1:06:26 pretty cool experience that you can
+1:06:28 create with other people's technology.
+1:06:30 Right? That is one of the points here is
+1:06:32 like these AI models are getting so
+1:06:34 good. There's so many different use
+1:06:35 cases. Right? Girls might want to use
+1:06:37 them to edit their Instagram pictures.
+1:06:39 guys might want them for YouTube
+1:06:41 thumbnails. That's kind of how I would
+1:06:42 want to use this. And we can just
+1:06:44 continue this iteration. And using some
+1:06:47 of these tools is a good way to get
+1:06:51 train your brain into understanding what
+1:06:53 all of these different APIs do. And so
+1:06:55 let's say that I wanted to actually use
+1:06:58 this nano banana technology. One thing
+1:07:01 that I really like to do is so we're
+1:07:04 remember the stack that we've been
+1:07:05 using. We've been using cloud code and
+1:07:07 nex.js. JS. We've been using NextJS. One
+1:07:10 thing you could do is you can go to any
+1:07:12 AI model and we can say Nex.js. This is
+1:07:15 the stack that I'm using. I want to
+1:07:20 create an app that lets me edit images.
+1:07:25 Please
+1:07:26 write in this app. I would upload my
+1:07:28 image and then I would just type the
+1:07:31 edit that I want it to make and it uh I
+1:07:34 want it to send it to the Google API and
+1:07:36 I want it to make the edit and return
+1:07:38 the image and I want this to work
+1:07:40 perfectly. So please give me the
+1:07:42 documentation that I need to make this
+1:07:44 work in the proper language. This is a
+1:07:47 brand new model. Find the right
+1:07:48 documentation and write out all the code
+1:07:51 that I should provide to an AI agent to
+1:07:53 make this app. You can do the same
+1:07:55 prompt in chat GPT. In fact, I'm going
+1:07:57 to do that as well. So, I'm going to
+1:07:58 enter this into perplexity. We can give
+1:08:00 this to chat GPT as well. Any AI model,
+1:08:03 we're basically searching the internet.
+1:08:05 We're taking information about an API,
+1:08:08 right? This API
+1:08:11 um that we're going to use, which is
+1:08:12 Nano Banana, which allows people to edit
+1:08:14 images. I want to make it in my own app.
+1:08:17 I'm going to make it specifically for
+1:08:19 YouTube thumbnails. And then we're going
+1:08:22 to create our own app for this. and
+1:08:24 we're going to use brand new AI
+1:08:26 technology. So, Perplexity responded and
+1:08:29 I've used Perplexity for a very long
+1:08:31 time with this stuff. I'm just going to
+1:08:32 copy this right here. And of course,
+1:08:34 we're going to go to sandbox.dev. We
+1:08:36 already created a prototype for this
+1:08:39 earlier. So, earlier we created this
+1:08:42 prototype for nail.ai,
+1:08:44 which is this very simple nail.ai app.
+1:08:48 We can upload a thumbnail, right? We can
+1:08:51 upload this and we can say make his
+1:08:54 glasses red and we can press enter.
+1:08:57 Obviously, it doesn't do it. And now
+1:09:00 what I'm going to do is I'm going to say
+1:09:02 okay, I want to make this prototype come
+1:09:04 to life. I want this to work with the
+1:09:07 brand new
+1:09:09 uh image model called Nano Banana by
+1:09:12 Google. I want this to work perfectly
+1:09:14 and have versions and I want to be able
+1:09:17 to select the version I want to edit.
+1:09:19 So, I want to be able to rapidfire enter
+1:09:23 in prompts to edit the first thumbnail
+1:09:26 that I um like I want to be able to edit
+1:09:29 the thumbnail and then I want after it's
+1:09:32 done loading to show up and then I
+1:09:34 immediately want to enter in a new
+1:09:35 prompt to edit that brand new thumbnail
+1:09:37 and I want to do that over and over
+1:09:38 again and be able to go back to previous
+1:09:41 versions to edit that one. Please think
+1:09:43 deeply about this. Right? Think very
+1:09:46 deeply about this. I'm going to give you
+1:09:47 some documentation on this new nano
+1:09:49 banana technology. Search the internet
+1:09:51 more if you have to and really think
+1:09:53 about how you can make this work. I
+1:09:55 really want it to work. So, we're
+1:09:56 entering that prompt. Now, what I'm
+1:09:58 going to do is I'm going to enter in I'm
+1:10:01 going to paste that prompt from
+1:10:03 Perplexity which explains basically how
+1:10:06 to use this technology. And now here is
+1:10:12 my Gemini API key. So, anytime you use
+1:10:17 an API, right, anytime you use an API,
+1:10:20 you need to have an API key. So, we're
+1:10:24 using the Gemini
+1:10:27 API
+1:10:29 uh API. Um it's part of Gemini and Nano
+1:10:33 Banana is like a subset. So, it's a
+1:10:35 technology within Gemini. So, we're
+1:10:37 using Nano Banana. In order to use any
+1:10:40 of the Gemini AI APIs, you need an API
+1:10:44 key. This API key is kind of like a
+1:10:47 password that like connects your account
+1:10:53 to the application that you're using,
+1:10:55 right? Because it's not free. It's very
+1:10:58 cheap to use in my opinion. And this
+1:11:01 password um you need to basically give
+1:11:04 this password to Claude. And so Claude
+1:11:08 is going to paste this key into the app
+1:11:11 that we make. So we're making an app and
+1:11:14 Claude is going to give this key to our
+1:11:17 app. So our app is basically going to
+1:11:20 communicate with Gemini.
+1:11:24 Um, and this is going to happen like so
+1:11:29 we're going to communicate with Gemini
+1:11:31 and we're going to do this when the user
+1:11:36 um prompts our application. Right?
+1:11:40 Anytime a user prompts our application
+1:11:42 or types into the edit box,
+1:11:47 right? You can see here, remember we
+1:11:48 created this prototype earlier. We're
+1:11:51 going to upload our thumbnail. Anytime a
+1:11:53 user types into this input prompt,
+1:11:57 the app is going to communicate with the
+1:11:59 Gemini API and say like, "Hey, I want to
+1:12:02 edit this image. Here's the API key."
+1:12:05 And if you have an API key and it has
+1:12:07 sufficient credits, it will allow it.
+1:12:10 And then the Gemini API, the Gemini API
+1:12:14 will
+1:12:16 send an image back to the app and then
+1:12:18 the user, right? And then the
+1:12:23 user is happy or sad, right? Maybe the
+1:12:29 image is bad, right? If you do a bad job
+1:12:32 setting up the app, it could fail,
+1:12:34 right? If you do a bad job coding this
+1:12:37 and so you might need to do some
+1:12:38 testing. Maybe the API won't work
+1:12:40 perfectly. And so what we need to do is
+1:12:43 we need to get the Gemini API key. To do
+1:12:45 this, I'm going to go to Google AI
+1:12:49 Studio and we need just need to create
+1:12:51 an account on Google AI Studio and we
+1:12:54 need to hit get an API key. Get API key.
+1:12:58 Create an API key. We can just select
+1:13:01 any project or create a new project. And
+1:13:04 we can actually test this out for free.
+1:13:05 Google's very they do give you a lot of
+1:13:08 credits for free. So, I can copy that
+1:13:10 API key. And we need to go back to the
+1:13:12 app that we were creating right here.
+1:13:16 Here's the key. This is the key. Please
+1:13:20 make this app fully work as a YouTube
+1:13:25 thumbnail
+1:13:28 editor and we're going to press enter.
+1:13:31 I'm going to very quickly hit escape and
+1:13:35 I'm just going to go slashmodel.
+1:13:38 I'm going to make sure. Okay, I'm going
+1:13:40 to switch to Opus. Okay, please
+1:13:43 continue. And now we're on Opus, which
+1:13:46 is a much better model. This is a more
+1:13:48 complex task. It has to read
+1:13:50 documentation and it has to implement
+1:13:52 the API key and make this feature work.
+1:13:55 This is the hard this is the main
+1:13:57 feature of the app. So, I'm going to use
+1:13:59 Opus to make sure that it does a lot
+1:14:00 better. Okay, let's give this another
+1:14:02 test. We can open this up in a new tab.
+1:14:06 We are going to choose. Let's go ahead
+1:14:08 and choose this. Please make him
+1:14:12 smiling.
+1:14:14 And here we go. It's not failing
+1:14:17 immediately, which tells me I think it's
+1:14:20 going to work, but we will see.
+1:14:23 Boom. It works. So, we should be able to
+1:14:27 click. Okay. So, we can click through
+1:14:28 the different versions. Please make his
+1:14:32 hair brown
+1:14:35 and give
+1:14:37 him an orange turtle neck. Uh his hair
+1:14:42 brown and longer and give him a
+1:14:46 turtleneck. Amazing.
+1:14:49 Okay, this is very cool.
+1:14:59 Oh wow, that works very well. That's
+1:15:03 insane.
+1:15:04 And you know, Korea is, like I said, a
+1:15:07 multi-billion dollar company. And now we
+1:15:09 created an app that in my opinion might
+1:15:11 actually be a better UI. I have one more
+1:15:14 idea on how we can make it better. But
+1:15:16 first, what I want to do is I'm actually
+1:15:17 going to compact this uh just because
+1:15:20 the conversation's getting a little bit
+1:15:22 longer. I want to make sure, right, we
+1:15:24 have a lot of conversation going on
+1:15:27 here. I want to compact it so that the
+1:15:29 AI performs a little bit better. And so,
+1:15:31 while it's compacting, I'm going to
+1:15:33 enter in my prompt. So, I want you to
+1:15:34 make the image that is uploaded and
+1:15:37 edited bigger by like 1.5x.
+1:15:43 And then I want you to make
+1:15:49 the versions almost
+1:15:52 seem like a sidebar
+1:15:56 on the right.
+1:15:58 Right now
+1:16:01 they are too big. Please can you make
+1:16:07 them
+1:16:09 smaller and on the right? so I can see
+1:16:14 more of them. And the full image
+1:16:18 thumbnail
+1:16:21 should be visible,
+1:16:24 but they should just be small,
+1:16:31 please.
+1:16:35 Actually, that's probably good. We can
+1:16:37 run this.
+1:16:39 Right. This is a little bit big. I want
+1:16:42 to see more of this thumbnail. I want to
+1:16:43 get in detail. And then I want to put
+1:16:45 these a little bit over here. And I feel
+1:16:48 like that'll be fire for nail.ai. This
+1:16:50 could legit make a decent amount of
+1:16:52 money.
+1:16:55 Ooh, it's making changes live. You see
+1:16:58 that? Now it should make it a little bit
+1:17:00 smaller. Let's see. This is great. This
+1:17:02 is good. It made it the same width. Now
+1:17:05 I hopefully it edits the version history
+1:17:08 and see it's making changes. Let's see.
+1:17:14 Okay, it's a little bit smaller. We are
+1:17:17 getting a little bit cut off here on the
+1:17:19 side.
+1:17:21 Um, let's just say add a gold chain to
+1:17:26 his neck.
+1:17:32 Good. Okay, we can scroll up and down.
+1:17:38 Please make the sidebar
+1:17:42 a little bit smaller. All the images
+1:17:47 should appear
+1:17:49 slightly smaller.
+1:17:52 And right now the selected image on the
+1:17:57 side has a blue ring around it and that
+1:18:03 is being cut off.
+1:18:09 You can see this. This is like being cut
+1:18:11 off all weirdly right here. I'm not
+1:18:13 quite sure what that's all about. Okay.
+1:18:15 So, now we have this chain. Yeah, I want
+1:18:17 this to be smaller. I don't like this
+1:18:19 like blue ring is getting cut off here.
+1:18:22 I don't want that to happen. Okay. Now,
+1:18:25 let's see if we upload a new image here.
+1:18:30 Make the man on the right
+1:18:35 have bigger eyes
+1:18:39 and blond
+1:18:42 hair.
+1:18:44 [Laughter]
+1:18:47 Make the man on the right
+1:18:51 um labeled
+1:18:54 weirdo
+1:18:56 and make him wearing a tank top.
+1:19:03 Make the man on the right have a thick
+1:19:09 mustache.
+1:19:11 French mustache. This is crazy. This
+1:19:15 works great. I love this app.
+1:19:19 And yeah, we created this, you know, and
+1:19:21 we gave him a mustache.
+1:19:25 Uh, wait, we can copy this image, right?
+1:19:27 Oh, wow. Oh, wow. This is insane. This
+1:19:31 is absolutely fantastic.
+1:19:38 Okay, so let's think about what we've
+1:19:40 done so far, right? We've created a
+1:19:43 bunch of different static pages and a
+1:19:46 lot of these fall under the vibe
+1:19:48 marketing category, right? Creating
+1:19:49 landing pages, collecting information
+1:19:51 through lead magnets, creating artifacts
+1:19:54 like the presentation, the dashboard,
+1:19:57 and other prototypes. We then used that
+1:20:00 same prototype to create an app that
+1:20:03 used an API. The API that we chose to
+1:20:06 use was this Nano Banana API. And we
+1:20:09 created an app that we could edit
+1:20:11 thumbnails using this nano banana API.
+1:20:14 And we also created a simple notes app
+1:20:17 with a database and authentication. And
+1:20:20 this was a web app. So we created a web
+1:20:23 app and we've created static pages. What
+1:20:25 I want to do now is I want to move over
+1:20:27 to the mobile app category. So I want to
+1:20:30 show you that the same way you can just
+1:20:32 go to an app or a site and build web
+1:20:35 apps with the most powerful tools, you
+1:20:36 can also do it on mobile. And so the way
+1:20:38 that you do this is we're going to go
+1:20:40 ahead and open up our phone and we are
+1:20:43 going to go to Vibe Code. And here we
+1:20:46 get access to those same models. Claude
+1:20:48 Sonnet. We're going to use Claude for
+1:20:50 Opus or we could use GPT5. Right now I'm
+1:20:54 going to go ahead and use Claude Opus
+1:20:56 4.1. Remember we were talking yesterday
+1:20:59 about APIs. We were talking about using
+1:21:01 Claude which is a powerful AI chat
+1:21:03 model. OpenAI which has access to a lot
+1:21:07 of different APIs, right? You can use
+1:21:09 just the GPT5 API. So if you could
+1:21:12 basically create your own custom
+1:21:14 chatbot, you could use Gemini. You could
+1:21:16 do the same thing. 11 Labs. Vibe Code
+1:21:19 app comes pre-built with OpenAI. It has
+1:21:23 Gemini. It also has XAI, so Grock, and
+1:21:27 it also has Anthropic. So it has these
+1:21:30 four APIs automatically built in. and 11
+1:21:34 Labs. The app that I want to create
+1:21:36 right now is a voice notes app. And
+1:21:39 you'll see here that the APIs are built
+1:21:41 in directly. So I can say, I want you to
+1:21:44 build an app that allows me to speak a
+1:21:49 voice note. Use the OpenAI API with
+1:21:52 Whisper. I want to use Whisper to get
+1:21:55 the transcription of that voice note.
+1:21:57 And then I want to convert it into an AI
+1:22:00 summary. And yeah, I want to be able to
+1:22:01 record a voice note. I want a big button
+1:22:04 at the very bottom of the phone. And it
+1:22:05 should be a pill that's almost the width
+1:22:08 of the bottom of the phone that says
+1:22:09 record. And I want these to show up in a
+1:22:12 very simple list top to bottom on the
+1:22:14 screen. White background, relatively
+1:22:17 simple. And then when I click on it, I
+1:22:19 want it to open from the right into a
+1:22:23 notes details page where it shows the
+1:22:27 transcript as a button. I can click it
+1:22:30 to open the full transcript, but it
+1:22:32 shows a summary. And I also want to use
+1:22:34 the OpenAI API to summarize it and then
+1:22:36 also use the OpenAI API to use AI to
+1:22:40 title the note as well. Please build
+1:22:42 this app. The app name should be called
+1:22:46 Monkey Note. So here we go. We are using
+1:22:49 the same models that we were using in
+1:22:51 sandbox directly on our phone to build a
+1:22:53 mobile app that we can get on the app
+1:22:55 store. So we can enter this in right
+1:22:57 here. And now the agent is going to work
+1:22:59 and it will literally make the app on
+1:23:02 our phone and we can continue making
+1:23:05 changes just like in the sandbox. Okay,
+1:23:06 so it appears like it's done and once
+1:23:09 it's done it'll just start bundling. So
+1:23:11 it's building the app directly on the
+1:23:13 phone and here we go. We have Monkey
+1:23:15 Note. Let's see if this works.
+1:23:18 Hello. This is a test note to see if
+1:23:21 Monkey Note, the app that I just made,
+1:23:23 is working. I hope that it's working.
+1:23:27 Okay, we're getting this error.
+1:23:28 Remember, it's a very similar process.
+1:23:31 Um, so I'm going to go ahead and paste
+1:23:33 in this error and let's see if that
+1:23:35 fixes it. Right. In order to edit your
+1:23:37 app, all you do is you press this little
+1:23:39 orange button on the side. You paste in
+1:23:41 your prompt. Very similar to cloud code
+1:23:43 on the computer. And I you can just copy
+1:23:46 your error and paste it right back in.
+1:23:48 That's what I normally do. And hopefully
+1:23:50 it fixes it. I feel like this is lo
+1:23:52 local storage that has been saved from a
+1:23:55 different app that I've created
+1:23:56 previously, but we'll see if this works.
+1:23:58 Okay, so it's done. Um, we have monkey
+1:24:01 note. We're immediately getting this
+1:24:03 render error. So, I'll copy that for
+1:24:05 later. Let me see if this works. Hello.
+1:24:08 Uh-oh. I'm getting an error. I'm still
+1:24:11 recording even though I'm getting some
+1:24:12 errors. There's just all kinds of errors
+1:24:15 here. Riley Brown is talking about
+1:24:17 errors on his app, Monkey Note. Okay.
+1:24:21 processing transcribing your note. Okay,
+1:24:24 we got so many errors, but look at this.
+1:24:27 Okay, what is happening?
+1:24:31 Okay, we're getting all kinds of weird
+1:24:34 errors. There's so many errors going on
+1:24:36 right now. I don't fully understand
+1:24:39 what's going on. There's errors when I
+1:24:41 start recording. There's errors after I
+1:24:43 start recording. I'll paste one of them
+1:24:44 below. Please really just like think
+1:24:47 about how to simplify
+1:24:49 how this works and just make it work
+1:24:51 properly. The summaries are working and
+1:24:54 the app looks good. I'm just getting
+1:24:55 these like weird errors. Okay, a lot of
+1:24:58 vibe coding. You do have to deal with
+1:25:00 debugging, right? And I copied one of
+1:25:02 the errors. I'm just going to paste it
+1:25:03 right here and we'll see if uh Opus
+1:25:06 figures this out. And again, remember in
+1:25:09 Claude um Claude code, remember the
+1:25:12 clear the slashclear command. The way
+1:25:14 that you do this is you press this
+1:25:16 little eraser right here on the phone.
+1:25:18 You can see that that clears the chat.
+1:25:21 We are definitely going to move this.
+1:25:23 This is not a good place to have the
+1:25:25 clear chat. In fact, this whole sheet is
+1:25:28 going to be redesigned. There's a lot of
+1:25:30 things that you can do, right? You can
+1:25:32 share, you can connect this to SSH if
+1:25:34 you want to use it with cursor or
+1:25:36 something like that. That is basically
+1:25:38 how to do that. So, let's wait for these
+1:25:41 changes to be made. Monkey Note is
+1:25:43 loading. All right, so here we have
+1:25:45 Monkey Note and we can press record.
+1:25:49 Hello, I'm recording on Monkey Note. I
+1:25:52 hope that the error we be had previously
+1:25:55 is no longer an error. I really hope
+1:25:57 this works from the bottom of my heart.
+1:25:59 I hope this works. Testing, testing,
+1:26:01 one, two, three, banana, chicken,
+1:26:03 turtle. Let's see. Please, no error.
+1:26:05 We're not getting an error right away.
+1:26:06 Okay, there we go. This works. We see
+1:26:10 the summary the and can we do view the
+1:26:13 transcript? There we go. We have the
+1:26:15 full transcript. It's a little bit off
+1:26:17 to the right, but that's okay. We now
+1:26:20 created this app. And since this is a
+1:26:22 mobile app, it uses your own phone
+1:26:25 storage. So, this app is stored directly
+1:26:27 on your phone, but in order to set up a
+1:26:29 database that uses like instant DB, the
+1:26:32 process is identical to what we did in
+1:26:34 the sandbox earlier. All you would need
+1:26:36 to do is go to instant DB, get your
+1:26:38 public app ID and give it to the agent
+1:26:40 and say use the database. And you can do
+1:26:42 the same thing with mobile app. But I
+1:26:45 really like creating these local app
+1:26:47 first because this will be saved. All of
+1:26:49 this is stored on our phone, right? Even
+1:26:52 if we left the app, right, we could see
+1:26:54 the transcript and these are stored
+1:26:56 directly on our phone. Oh, here's
+1:26:58 testing monkey note error resolution. So
+1:27:00 yeah, we ran into a little bit of errors
+1:27:01 there. What I want to show you is after
+1:27:04 I was done filming yesterday with the
+1:27:06 thumbnail, I created a uh an app, a
+1:27:10 version of this app on my phone. And
+1:27:13 look at how crazy this this app is. This
+1:27:16 is one of the coolest mobile apps I
+1:27:17 think I've created yet. And something
+1:27:18 that I would actually use for my
+1:27:20 business. And I'm actually going to be
+1:27:23 releasing this as a template that you
+1:27:25 can fork directly on the Vibe Code app
+1:27:28 is you're going to be able to you're
+1:27:29 going to be able to take this app and
+1:27:31 turn it into your own. And so this app
+1:27:34 allows me to upload a um right I took
+1:27:37 this photo of myself earlier today. I
+1:27:40 can upload this photo and it uses Nano
+1:27:42 Banana and we can say give him an orange
+1:27:47 beanie and we enter that in. and it
+1:27:49 looks very similar to the web app, but
+1:27:51 there's something about using it on the
+1:27:52 mobile app that just makes it really,
+1:27:54 really fun. And this is the app that I'm
+1:27:57 going to submit to the app store because
+1:27:58 I might actually submit this to the app
+1:28:00 store. See, it gave him an orange beanie
+1:28:01 and I can immediately say, make his
+1:28:04 shirt a black sweater and add lights
+1:28:10 around the white board. And it just
+1:28:14 makes it very very easy to um edit
+1:28:18 YouTube thumbnails just right here on my
+1:28:21 phone. Right. It added lights around the
+1:28:23 whiteboard. And then I can press these
+1:28:25 three dots and hit export all. And we
+1:28:28 can go okay. If I go to photos, we can
+1:28:31 see here that we have this one. Look at
+1:28:34 this black shirt. This looks exactly
+1:28:36 like me. We have the lights going around
+1:28:38 the whiteboard. That's pretty insane.
+1:28:41 And so, yes, we created this app. We
+1:28:44 created this app on our phone, right? We
+1:28:46 created this app on the Vive Code app.
+1:28:48 But the Vive Code app also has a web
+1:28:50 app. And once you sign in, you'll see
+1:28:52 here that we can see all of our So, we
+1:28:56 can also work on this on our phone. And
+1:28:58 when we make changes on our computer, we
+1:29:00 can scan this QR code and it will
+1:29:02 actually just open up on our phone. And
+1:29:03 I can even show you how this works.
+1:29:06 Right? If I'm using camera on my phone,
+1:29:10 I can scan this QR code and this will
+1:29:13 actually just open up the Vibe Code app
+1:29:15 and it will open up the exact app that
+1:29:17 we're working on. And then I can just
+1:29:19 make changes on the computer and it will
+1:29:21 update to the phone. Right? This will
+1:29:24 all update to the phone. I could say
+1:29:27 make nano-banana
+1:29:30 dash Riley all caps in the title. I just
+1:29:34 want to show you that you can make
+1:29:35 changes on the computer and it will
+1:29:39 actually update directly on our phone
+1:29:42 app as well. So you can make changes on
+1:29:44 the computer and some people prefer the
+1:29:46 computer which I think is awesome. And
+1:29:48 the reason I'm showing you this is we
+1:29:50 are going to be deploying this to the
+1:29:51 app store. So we're entering the final
+1:29:53 part of our video where we want to take
+1:29:55 our apps and actually put them on the
+1:29:57 internet. We want to allow other people
+1:29:58 to use them. We want to be able to put
+1:30:01 them on the app store. And this is the
+1:30:03 first step to actually charging money
+1:30:06 for our apps. In the next video in the
+1:30:09 series, we're going to talk only about
+1:30:10 payments. This is going to be a very
+1:30:12 long video by itself. Um, and that's
+1:30:16 going to be a really, really fun one.
+1:30:18 But the first thing that you need to
+1:30:19 understand before you get to payments is
+1:30:21 you need to understand how to deploy.
+1:30:22 Okay. So, once you see this saving
+1:30:25 progress thing right here, you will um
+1:30:28 you'll it it is done coding. And so all
+1:30:30 you have to do is hit this refresh
+1:30:31 button. And here we see that Nano Banana
+1:30:35 was changed to all caps. And so I like
+1:30:38 the state of this app. It allows you to
+1:30:39 edit images all just immediately. You
+1:30:42 can switch between these which is like
+1:30:44 really fun to see. And we can press
+1:30:47 this. And I'm going to press export all.
+1:30:51 Right. You can do that which is really
+1:30:52 fun. You can save them all to your
+1:30:53 library. I think that is a good version
+1:30:57 one of this product to see if other
+1:30:59 people would actually like to get this
+1:31:01 app. Now, we can just go to the app
+1:31:03 store. In order to deploy to the app
+1:31:05 store, what you're going to need, this
+1:31:06 bundle identifier is autogenerated. You
+1:31:09 don't need to edit this. I'm going to
+1:31:11 change this app name to Nano Banana
+1:31:15 Riley.
+1:31:17 And version, I'm just going to leave it
+1:31:20 at 1.0. We're going to generate an app
+1:31:22 icon. Man in orange hoodie with a
+1:31:28 YouTube logo on the hoodie. I don't
+1:31:32 know. You can generate anything here.
+1:31:35 Okay, that's fine. Save icon.
+1:31:38 Now, continue to build setup. So, here
+1:31:42 you're going to need an Expo Access
+1:31:44 token. And you're going to just click on
+1:31:46 this and open this up in a new tab. I
+1:31:49 already have this set up and so it
+1:31:51 automatically gets set up for me. And
+1:31:53 here's the token. Whatever page you get
+1:31:55 taken to, you're going to create a free
+1:31:56 account. Then you're going to create a
+1:31:58 token and you're going to copy that
+1:31:59 token and you're going to paste that
+1:32:01 token right here. It's that easy on
+1:32:03 Expo. Then what you're going to do is
+1:32:05 you're going to set up an Apple
+1:32:07 developer account. And I already have an
+1:32:10 Apple developer account. And this part
+1:32:12 is somewhat difficult. It just takes a
+1:32:15 little bit of time. But down below this
+1:32:17 video, I'm going to include a guide on
+1:32:20 how to get set up with an Apple
+1:32:22 developer account. And we may even link
+1:32:24 a video. I may make a separate video
+1:32:27 just on this on how to get set up with
+1:32:29 an Apple developer account. Once you get
+1:32:31 that set up, then you can just start
+1:32:33 uploading unlimited apps to the app
+1:32:36 store. And you can just create a ton of
+1:32:38 apps, send them to your friend, get them
+1:32:39 on the actual app store. Because after
+1:32:42 that, all you have to do is hit start
+1:32:43 build process. And this will begin
+1:32:47 building your app and sending it to the
+1:32:50 app store. And then you are basically
+1:32:54 done. In the guide that I paste below,
+1:32:57 it'll show you all the steps that you
+1:32:59 need to do beyond this step, which is
+1:33:02 basically creating a description for
+1:33:04 your app. You also need to create a
+1:33:07 static landing page somewhere or a link.
+1:33:10 You could even use a notion document
+1:33:11 that has terms of service and privacy
+1:33:13 policy which take almost no time, but
+1:33:16 I'll explain that in the guide. And then
+1:33:18 you're ready to send it to Apple for
+1:33:20 review
+1:33:22 here. One thing you need to do while
+1:33:24 you're deploying to the app store is you
+1:33:26 need to just hit allow. And then there's
+1:33:29 a sixdigit code that I have on my phone.
+1:33:32 It's not showing up here. I think it's
+1:33:34 for privacy reasons, but I'm just going
+1:33:36 to type in that code.
+1:33:39 And then this is going to complete the
+1:33:42 build. You basically need to give
+1:33:44 permission from your Apple developer
+1:33:47 account to send this app to the app
+1:33:49 store. And that's what it's doing right
+1:33:51 now, which is very cool.
+1:33:57 Okay. And then finally, I do want to
+1:33:59 talk about deploying directly to the
+1:34:02 internet. And by the time you see this
+1:34:04 video, we may not have deployments yet,
+1:34:06 but deployments will be here within the
+1:34:08 next few days. So, we're going to add a
+1:34:09 one-click deployments here button right
+1:34:12 here at the top, and you're going to be
+1:34:13 able to deploy it to the internet. For
+1:34:16 those of you who um maybe you want to
+1:34:19 download your code, you can do that. And
+1:34:22 then then you can download then you can
+1:34:24 deploy on Versell, you could deploy on
+1:34:26 Netlefi or any of these various tools.
+1:34:29 And so to download your code, what
+1:34:31 you're going to do is you're going to
+1:34:32 press this download button right here.
+1:34:34 And this will not only save your
+1:34:36 project, but it will also send you an
+1:34:37 email. And then that email
+1:34:41 in your email, you will see uh an email.
+1:34:44 And then all you have to do is click
+1:34:45 here and your app will download. And
+1:34:48 then you can open it up in cursor.
+1:34:50 Right? I could if you love using cursor
+1:34:53 you can come into cursor and you could
+1:34:56 open up a new project
+1:34:58 and if I you go into the downloads
+1:35:00 here's the project that I downloaded I
+1:35:02 can hit open and this will open up the
+1:35:04 project right here as you can see right
+1:35:07 here and then you can actually just tell
+1:35:08 cursor please upload this code to this
+1:35:12 repo and then you could paste in a
+1:35:14 GitHub repo link get repo link and then
+1:35:18 and deploy to Verscell using the CLI.
+1:35:22 That's how normally how I deploy.
+1:35:24 There's a lot of different ways you can
+1:35:26 deploy, but the point is is you can get
+1:35:27 your code locally on your computer. You
+1:35:29 could open up with cloud code. You can
+1:35:31 open it up with cursor for those of you
+1:35:32 who are a little bit more advanced, but
+1:35:34 we're going to have a deploy button.
+1:35:35 We'll get it straight to the internet.
+1:35:36 And in future videos, I'll talk about
+1:35:38 payments. I will also talk about custom
+1:35:41 domains. And I'm just all I'm going to
+1:35:44 do for the rest of my life is make
+1:35:46 content about Vibe coding. And as AI
+1:35:48 technology gets better, we're going to
+1:35:50 be able to create cooler and cooler
+1:35:51 apps. It's going to be amazing. And so,
+1:35:54 thank you guys for watching this video.
+1:35:55 If you got value, please hit the like
+1:35:58 button, hit subscribe, and yeah, I'll
+1:36:00 see you here for the next

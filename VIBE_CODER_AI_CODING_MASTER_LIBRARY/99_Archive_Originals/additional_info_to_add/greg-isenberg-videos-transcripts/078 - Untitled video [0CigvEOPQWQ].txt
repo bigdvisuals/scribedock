@@ -1,0 +1,645 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=0CigvEOPQWQ
+Channel: Greg Isenberg
+Video ID: 0CigvEOPQWQ
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 What the hell is Geo AI search? This is
+0:03 probably one of the biggest
+0:04 opportunities to take your vibecoded app
+0:07 or take your company and get a bunch of
+0:09 customers. So, I brought on Cody
+0:10 Schneider and we're going to give you
+0:12 the clearest explanation of what Gio is,
+0:15 who's Gio for, how to get traffic from
+0:18 Gio, which tools do you need to use, and
+0:20 why are people obsessing over AI search?
+0:23 A lot of people have done tutorials on
+0:25 Gio, but we put it into one place and I
+0:28 think this is the clearest explanation
+0:29 of what actually matters. Where's the
+0:31 fluff? There's a ton of sauce in this
+0:33 episode and thanks for Cody for spilling
+0:35 it.
+0:37 [Music]
+0:43 >> Let's start from the beginning like what
+0:45 is GEO? Um, cuz what I'm hoping to get
+0:48 from this episode is by the by the end
+0:50 of it, I want to know what GEO is, how
+0:53 it works, which tools I need to be
+0:55 using, and if it's just hype. And I know
+0:59 you'll give me the truth on that. I
+1:01 mean, I'll just be blunt right now. I
+1:02 think it's hype, right? I And here's the
+1:05 reason, okay? There's still more
+1:07 searches happening on Google. Like,
+1:09 people aren't stopping searching on
+1:11 Google. It's just like it's basically
+1:14 like if you think about the graphs going
+1:16 up like searches on Google are still
+1:18 increasing and searches on AI chat is
+1:20 still increasing like it's not like a
+1:22 bigger percentage of searches are being
+1:25 cannibalized by chat. It's like they're
+1:26 almost increasing at the same velocity
+1:29 if not faster on Google, right? And so I
+1:32 I I when people are obsessing over this,
+1:34 I think it just it's also a bubble
+1:35 thing. Like when you're in startup land,
+1:38 um like everybody's talking about this
+1:40 because they saw this massive spike that
+1:42 happened like a a couple months ago.
+1:44 Guess what? Chat GPT5 launches, right?
+1:48 GPT5 launches and people just get nuked
+1:50 on that as a source. So they invested
+1:53 all of this into like a a great example
+1:55 of this is the tally founder has this
+1:57 graph where it's like absolute liftoff
+2:00 right it's going crazy GPT5 drops they
+2:03 like it changes the entire search
+2:05 algorithm within uh chat GPT and they're
+2:08 uh their referral from that they're like
+2:10 like basically referral traffic coming
+2:12 from Chad GPT and signups just like
+2:14 plummets right so I I I think it's
+2:16 something to think about and invest in
+2:18 but there's the only reason that you
+2:20 should be investing in it is if the
+2:22 product that you're building has a
+2:24 purchasing decision time horizon that's
+2:26 long where people do research to
+2:28 understand what types of products are
+2:31 like are available and like the best for
+2:34 their specific business use cases. So
+2:35 let's like break that down, right? So if
+2:38 a if a person is uh like having to
+2:42 research like basically people don't do
+2:44 sales calls anymore to understand how
+2:46 the product functions. They do all of
+2:48 this research on the like front end and
+2:50 then when if they talk to a salesperson,
+2:52 it's like they're so deep in the funnel
+2:54 by that point that they're buyer ready.
+2:56 And we see that this we see this
+2:58 happening with people that use chat as
+3:00 the research tool. So they basically go
+3:02 to chat, they research like, you know,
+3:04 we'll say best funnel building software
+3:07 2025 for uh soul or you know, we'll say
+3:10 um uh like local businesses, med spas,
+3:14 right? Or whatever. And so they do this
+3:16 like long query and then it pulls back
+3:18 all the information um and then
+3:20 basically surfaces that to them. The uh
+3:24 I if what people are doing is they're
+3:27 using it as a research tool. And this is
+3:29 why like there's like this obsession
+3:31 with it is because what we see is that
+3:32 there's a higher p like conversion
+3:34 percentage of people that come from chat
+3:36 to the website when they sign up. And
+3:38 the reason for that is they've like gone
+3:39 through the whole buyer journey. like
+3:41 they've educated themselves and gone
+3:43 through the whole buyer journey so that
+3:44 they're more buyer ready by the time
+3:45 they hit their site they're like they're
+3:47 like yeah I credit cards out they're in
+3:48 hand they're basically about to like
+3:50 purchase this thing right um but overall
+3:53 like the the when you look at the total
+3:56 volume of like searches that are
+3:58 happening like it's minuscule it's it's
+4:00 super tiny and I think it's this bubble
+4:02 thing that's that is software because
+4:04 software saw this um happen uh most
+4:08 quickly because early adopters are all
+4:10 software people like or anybody that's
+4:12 in this ecosystem and also software has
+4:14 a long purchasing decision time horizon
+4:16 so there is that research component so I
+4:18 think that's what is skewing the data
+4:19 here that's what's like going on so
+4:22 >> okay so what is GEO geo is perplexity
+4:26 chat GBT gemini people querying and
+4:29 getting answers from LLMs who's GEO for
+4:33 uh you know for people whose purchasing
+4:35 decision timeline's long these longtail
+4:37 keywords
+4:38 um and the beauty about it is that
+4:41 people are so well researched that by
+4:44 the time they come to your startup,
+4:47 they're ready to pull out that credit
+4:48 card and spend versus the old way where
+4:52 it's kind of like people come to your
+4:54 website and you're getting the 1 to 2%
+4:56 average conversion rate. Here, I know a
+4:59 lot of people are saying they're seeing
+5:00 like 10, 15, 20% conversion rate from
+5:03 LLM.
+5:04 >> I've seen like 40%. Right? So, it is a
+5:06 really high value customer, but like
+5:08 just the volume again is so small,
+5:10 right? Um the there's two customer types
+5:12 that I the data I've seen that like
+5:14 we've seen like have success with this.
+5:17 One is local businesses that are service
+5:19 businesses. So, something that you don't
+5:21 make a purchase of often. Um, so think
+5:23 like roofing, think like um, uh, you
+5:26 know, anything that's like home related
+5:28 like HVAC. When you don't have a
+5:31 understanding of that thing because
+5:33 you're not purchasing it on a regular
+5:34 basis, right? People are using this to
+5:37 discover those those local businesses.
+5:39 It's like a research tool again like
+5:41 larger purchasing decision like larger
+5:44 commitment, larger purchasing decision
+5:46 time horizon research tool. Okay, local
+5:49 businesses fit into that. the other
+5:52 piece of software, right? Like tools,
+5:55 anything like that where it's like,
+5:56 okay, we're going to use the CRM. I'm
+5:58 about to commit my whole company to
+5:59 using the CRM. I'm going to like go
+6:02 super deep on comparing all the
+6:04 different op, you know, options and then
+6:07 make my decision based on that. So, if
+6:08 you kind of fall into those categories,
+6:10 like those are the two that I've seen. I
+6:12 haven't seen it really in ecom yet.
+6:15 There is some around this like but it's
+6:17 a lot of it's like very like best you
+6:19 know supplement for sleep right or
+6:22 something like that right um it's kind
+6:24 of these it but it but again the this
+6:27 the volume that's happening there it's
+6:29 just really not worth it for them to go
+6:31 and invest in it where it can make sense
+6:34 is for ecom brands that have like almost
+6:38 like cult followings I would describe
+6:39 them. So, like imagine like a tailor
+6:41 that's like like um we just I just for
+6:45 another project that uh my team's
+6:47 working on, we had them go deep on this
+6:49 company called Sunspel. It's like this
+6:51 old like basically um uh like men's wear
+6:55 uh uh manufacturer. Um, and uh, for
+6:59 them, like say you're trying to discover
+7:01 a brand that like has a certain
+7:04 aesthetic and like great quality levels,
+7:07 but again, it's like a a bigger
+7:09 purchasing uh, like decision. Like
+7:11 you're almost like I'm going to like
+7:13 choose this brand for myself, right?
+7:16 Like this is all the only shirts I'm
+7:18 going to buy are going to be from this
+7:19 company. That is when like this can
+7:22 work. But if if it's like for, you know,
+7:24 almost impulse buy types of products um
+7:26 that are in a a cheaper uh uh you know,
+7:29 purchase, it it we're not seeing it be
+7:32 as valuable. It may this may change,
+7:35 right? This may evolve, but like
+7:36 currently like it's just not as valuable
+7:38 as if they're uh if if it's more of a
+7:40 higher ticket item. So
+7:42 >> Okay, cool. So I get I I have a good
+7:45 understanding what go Gio is whatever
+7:48 we're calling it. Gio
+7:50 >> I call it AI search because it's like
+7:52 it's all it is, right? But anyway, yeah,
+7:55 >> AI search. It's true.
+7:58 That's true. Um the VCs got a hold of of
+8:01 of it and started calling it GIO. So AI
+8:04 search. Um okay, so let's say people are
+8:07 are into this idea. Maybe they have a
+8:09 service business. Maybe they're building
+8:11 a cult-like ecom brand. Maybe it's a,
+8:14 you know, SAS software that's like
+8:15 pretty specific. How do you actually get
+8:18 started?
+8:19 >> Yeah. Okay. So, this is kind of the I
+8:22 think what I'll start with is the how it
+8:24 actually functions because then that
+8:25 will lead into okay, what are the the
+8:27 strategies I can execute to actually go
+8:29 and influence this so that I show up
+8:31 within these results.
+8:33 First off, um let's break down how like
+8:36 when I type into a chat, like when I go
+8:38 to chat GPT and I type in, you know,
+8:40 again, uh best funnel building software
+8:42 for mobile devices, right? Uh or for for
+8:46 mobile, um what's actually happening in
+8:49 the background is the AI is basically
+8:53 taking that keyword and then it's doing
+8:55 what it's called what what's called
+8:57 basically like AI fanning. There's not
+8:58 really a name for this yet, but this is
+9:00 like what I've seen people describe it
+9:02 as. So imagine it takes that initial
+9:04 query from the user and then what it
+9:07 does is it goes and expands that query
+9:09 into we'll just say a hundred different
+9:11 queries. So it takes that the user
+9:14 provided query and then it goes and it
+9:16 writes a 100 different queries that are
+9:18 more descriptive. It actually enhances
+9:20 them and it writes them from all of
+9:22 these different uh angles. It's almost
+9:24 like a fact page, right, Greg? Like
+9:26 think about it like that where it's
+9:28 like, okay, here's all the different
+9:29 questions that somebody could ask in
+9:30 relationship to this. It's going to make
+9:33 this like mind map of questions, right?
+9:37 Or this word map of questions and then
+9:38 it takes all those queries and it goes
+9:40 and it searches those individually
+9:43 on, you know, Google, uh, on Bing. Each
+9:46 of them kind of like lean into different
+9:48 ones. So, let's again walk through this.
+9:51 User types in their initial query. It
+9:53 goes, the AI goes and it writes these
+9:56 derivative queries that are more
+9:57 descriptive. And how we know this is
+10:00 happening is you can actually see this
+10:02 in Google search console, right? So if
+10:04 you go to your Google search console and
+10:07 you filter queries that uh have a a
+10:10 length of over 50 characters, you're
+10:12 going to see these queries that no human
+10:14 would ever write. Like that the it is
+10:16 only AI writing them. Like if you
+10:18 actually drop these queries into an AI
+10:20 detector like ai or not.com as an
+10:22 example like it's going to tell you like
+10:24 this is a query written by AI like this
+10:26 is written by AI. Um and so the other
+10:30 component of how we know that AI is
+10:32 doing this search is because it is uh
+10:35 showing the it's showing impressions but
+10:38 no clicks. So why why why do we like
+10:42 assume that this is happening? So
+10:44 basically what's going on is it's
+10:45 searching for that query that that AI
+10:48 the AI fanning that it created. It
+10:51 searches that long query.
+10:53 It then finds what's ranking on page one
+10:55 and then it individually goes to the
+10:57 URLs. It doesn't click through through
+10:59 Google. It goes to the URLs that are in
+11:02 the search results. It scrapes those out
+11:04 and it puts it into the context window.
+11:06 So imagine like just to put numbers on
+11:08 this, you have a hundred different uh uh
+11:12 you have 100 different uh derivative
+11:14 queries that it creates. It goes and
+11:16 scrapes a thousand pages. It pulls those
+11:19 thousand a thousand pages into the
+11:21 context window and then it answers the
+11:24 original query that the user gave it.
+11:26 Right? So how do you actually win in
+11:30 that setting? You have to have surface
+11:32 area and brand mentions is really the
+11:35 specifics here. Surface area within that
+11:38 thousand pages that it scraped, right?
+11:41 And it loves listicles. It loves like
+11:44 top 10 lists. And so you as a company
+11:47 basically have to get included within
+11:49 that. And the more surface area you have
+11:51 within that th that you know thousand
+11:53 different pages, the more likely you are
+11:55 to be suggested as, you know, the top
+11:58 result within the uh for the original
+12:00 search that you did. And it's just
+12:02 numbers, right? Like if there's a
+12:03 thousand pages and you're only included
+12:05 on five of them, then you're way less
+12:07 likely to show up than if it's a
+12:09 thousand pages and you're included on
+12:12 40% of them. Right? So the the when you
+12:15 think about this, it's like basically
+12:16 like whatever query somebody gets
+12:18 searched, you have to go and find all of
+12:21 those uh like pages that it's sourcing
+12:23 from, get included on those. And the
+12:25 more that you're included on, the more
+12:27 likely it is that you show up within the
+12:29 search results that the AI actually
+12:30 gives back to you. So, so listicles like
+12:34 being on listicles, the top, you know,
+12:37 25 restaurants in New York City, that
+12:40 sort of thing, brand mentions, but how
+12:42 do you actually
+12:44 how do you actually do that? Like, which
+12:46 tools do you need? Like, what's your
+12:47 stack to go and actually do these
+12:49 things?
+12:50 >> Totally. I mean, so there's tons of them
+12:52 out there, right? Like like Prompt Watch
+12:54 is one, like AI for SEO or AI SEO
+12:57 tracker is another. That's like an indie
+12:59 one. Um there's uh I can't remember the
+13:02 name of Jackie Chow's uh company. He
+13:04 just released one of these as well. Um
+13:07 there is uh another one called Try
+13:10 Profound that's more enterprise, but all
+13:13 of the all of them kind of do a similar
+13:15 thing. All you're looking for is the
+13:17 URLs
+13:19 that are being referenced by the AI
+13:22 search for queries that are related to
+13:26 your product. So all of these companies
+13:28 and all these products, they do almost
+13:29 really similar things. Um you basically
+13:32 like give your product, it creates all
+13:34 of these like different ways that
+13:36 somebody could query for your product
+13:39 and then it goes and it finds all of the
+13:41 URLs that are being referenced for those
+13:43 queries. So once you have that URL list,
+13:47 you're like set. You already know what
+13:48 AI is referencing, right? So now your
+13:50 job basically goes and it turns into I
+13:53 need to reach out to every one of those
+13:55 websites
+13:56 >> and get our brand placed on each of
+13:59 those individual URLs. Right? So just to
+14:01 like again to use real numbers um I I
+14:03 got to keep a company hidden but this is
+14:05 like what a friend just told me when I
+14:06 talked to him a couple weeks ago. So
+14:08 imagine you find
+14:09 >> for like you're a software company. Um,
+14:12 you basically find all of the queries
+14:15 that are related to the for company like
+14:17 what somebody would search within the
+14:19 discovery process using AI chat. You
+14:21 find 40 45,000
+14:23 URLs that are unique that are being
+14:26 referenced in all of the queries that
+14:29 are related to your product. You take
+14:31 those 45,000 URLs, you go find the
+14:34 emails of those uh like website owners
+14:38 and you reach out to them and you're
+14:39 basically like, "Hey, I want to get
+14:41 added or included on this URL. What is
+14:44 the cost to do that?" Right? Like this
+14:46 is literally a campaign that they're
+14:47 running. Um they're seeing this be super
+14:50 expensive. People know that this is like
+14:52 how this works and the value of this.
+14:54 They're they're like paying basically
+14:56 like $500 per link that's being included
+14:59 on these, right?
+15:00 >> Wow.
+15:01 >> It's actually crazy, right?
+15:03 >> Crazy.
+15:04 >> It's crazy. Um you can get that down if
+15:06 you give them a really high affiliate
+15:07 commission. So if you're like, "Hey,
+15:09 like can we pay you X and we'll give
+15:10 you, you know, 40% affiliate commission
+15:12 or 50% affiliate commission on the
+15:14 traffic, you know, that you drive or
+15:16 something like that, right? that you can
+15:17 you can kind of you know uh like you can
+15:20 figure out some type of like deal
+15:22 composition that that that can make it
+15:23 cheaper. But that's just like the
+15:25 numbers that he shared with me. I I
+15:27 haven't seen like a lot of like you know
+15:29 raw data on this yet. So um with that
+15:33 though like a few of these can make a
+15:36 lot of impact um because a lot of the
+15:39 times like it's referencing the same
+15:42 URLs for a lot of the queries. So if you
+15:45 find like okay these URLs are referenced
+15:48 like more often in that kind of like you
+15:51 know niche or that that that search uh
+15:54 like you know that keyword family that
+15:55 people are searching right if you just
+15:58 go and and basically prioritize those
+15:59 that are being referenced most uh like
+16:02 you can make a way like very high impact
+16:04 very quickly with this and it's
+16:06 overnight right like I think that's the
+16:07 thing that like why people are obsessing
+16:09 over this as well if you do what I just
+16:11 described like you get impact like
+16:13 literally 24 hours later, right? Um, and
+16:17 it's way different than traditional SEO
+16:18 where it's like, oh, it's this very long
+16:20 buildup, like you know, you have kind of
+16:22 like a um, you know, like you have to
+16:24 build this trust with Google over time,
+16:26 etc. Um, in contrast, when you go and
+16:30 get placed on this, because the AI is
+16:32 just aggregating from those URLs, you're
+16:35 going to suddenly start being shown up,
+16:37 right? Like you're going to start
+16:38 suddenly showing up for those queries
+16:40 when somebody types it into chatbt. Does
+16:42 that make sense?
+16:44 Yeah, it makes sense. And also, not only
+16:46 does old SEO take years, new SEO takes
+16:49 days, the amount of new SEO, AI search
+16:52 SEO is increasing every single day,
+16:54 right? There's more and more people
+16:56 searching on Perplexity, searching on
+16:57 chat.
+16:58 >> Uh so, you're just now's the time,
+17:02 right? Now is the time to actually be
+17:04 doing this sort of thing.
+17:05 >> Totally. And and there's tons of these
+17:07 services out there that are like, "Hey,
+17:08 we're going to go and write like a
+17:09 thousand blog posts for you and like
+17:12 make this private blog network that's
+17:14 specific towards you to help influence
+17:16 the AI." I think it's [ __ ] I like
+17:20 I've seen the data. There's no way that
+17:22 that c like stays sustainable and works.
+17:25 Um I I I again I this is just like my
+17:28 personal opinion. And I know I'm going
+17:30 to get flamed in the chat just like
+17:31 talking about this, but the when it
+17:34 comes down to it, like all that's
+17:36 happening is basically what is ranking
+17:38 on page one through three of Google.
+17:40 That is what the source material for the
+17:42 AI responses are. So like your job is to
+17:45 basically get onto all of the qu all of
+17:48 the pages that are ranking on page one
+17:50 through three of Google so that you show
+17:53 up within the AI chat. So when you're
+17:55 paying for that link to like that $500,
+17:58 like technically you are building a
+17:59 backlink as well to your site. So that's
+18:01 actually like a good thing. Like there's
+18:02 like you you like there is like a you
+18:04 know kind of a knock-on effect where
+18:05 it's like oh we're doing this
+18:06 specifically for AI SEO but we're also
+18:08 building a link which helps the like
+18:10 total domain authority and like
+18:11 effectiveness of the of the site that
+18:13 we're like actually you know our own
+18:15 like company site which allows for us to
+18:17 rank for more comp you know hard
+18:18 keywords that are more competitive over
+18:20 time. So there is that component as
+18:22 well. But I think the the the the big
+18:25 thing here is that like the only way
+18:28 that this works is that like for example
+18:31 chat GPT and OpenAI and and Plexity like
+18:35 they're all built on the back of this
+18:38 like search engine Google, right? Google
+18:40 has spent the last whatever 30 years or
+18:44 25 years basically indexing the entire
+18:46 like internet. Imagine like like
+18:49 perplexity and chat GPT. Why would they
+18:52 go and index the entire web when they
+18:54 have this thing that they can lean on
+18:56 top of or like you like like get on top
+18:58 of that gives already good results,
+19:00 right? Maybe in the future they go and
+19:02 index the entire web and then they like
+19:04 serve back like what what they think is
+19:06 most relevant. But currently it's more
+19:08 effective for them to just lean like
+19:11 basically build themselves on top of
+19:13 Google because Google has done all that
+19:15 heavy lifting of that indexing. it's
+19:16 already invested all this capital into
+19:19 that process of like indexing the entire
+19:21 web and understanding it, right? Um, and
+19:23 so I I I think that when like you kind
+19:26 of break this down like at its
+19:28 fundamental pieces, right? When you go
+19:30 elemental with this like this is just
+19:32 SEO. It's just like a layer on top of
+19:34 it. And it's it's it's honestly in a way
+19:37 almost like influencer marketing, right?
+19:39 Or like because you're basically saying,
+19:42 "Hey, your pages are ranking page one
+19:44 through three. like can I pay you to
+19:46 like put us on this list so that we show
+19:49 up higher, right? And so it's just this
+19:51 like you know derivative layer that's
+19:53 above like traditional like search
+19:55 engine optimization
+19:57 >> and and dumb question here like to to
+19:59 find out which URLs are are being
+20:02 referenced. Are you using Google search
+20:04 console or is there another tool that
+20:06 >> Yeah. Yeah. Yeah. So all of those AI
+20:08 like SEO tracker tools, they all show
+20:10 you this. It's basically like the URLs
+20:12 that Google is sourcing from. Um I can't
+20:15 remember the name of the one my friend
+20:17 was using. Um it's a startup I think I
+20:20 think
+20:20 >> like for for like is you know I know
+20:23 there's you know ATFs and there's um SEM
+20:28 Rush and you know all those companies
+20:30 like is there any de facto one to use?
+20:34 >> There isn't one yet. They're all kind of
+20:36 like I think they're all right now
+20:38 they're all just trackers, right? It's
+20:39 basically just like percent of brand
+20:41 mentions, which I don't give a [ __ ]
+20:42 about and you shouldn't either. Like
+20:45 that's like kind of a vanity metric.
+20:46 What's more important is like what are
+20:48 the actual things being referenced? How
+20:49 do I go and reach out to those people,
+20:51 right? Um so I I think if there like you
+20:54 know any of these people building these
+20:56 like types of companies, that's actually
+20:57 the value like as a growth person like
+20:59 that's what I want. Like I don't really
+21:01 care about the percent of brand
+21:02 mansions. There's so many of these out
+21:04 there that like do this now, right? Um,
+21:06 and so it's more about like what are the
+21:08 URLs that are being referenced. I know
+21:10 ah refs and SCM Rush are going to like
+21:12 provide this as a solution at some
+21:15 point. Um, I'll try to find the uh uh
+21:19 the uh one that my friend is using, uh,
+21:21 Greg, but because he basically went to
+21:23 them and was like, "Can I just like get
+21:25 the entire list for this these key like
+21:27 these queries, like that whole list,
+21:29 that 45,000? Can I just get that from
+21:31 you and basically pay for access to
+21:33 that?" And that was like how he went
+21:34 about that process. But I can't remember
+21:36 the name of it. So, I'll ping him after
+21:37 this and we can just include it in the
+21:38 show notes. So,
+21:40 >> cool. Yeah. And I'm on You can see my
+21:42 screen, right?
+21:42 >> Yeah. Yeah.
+21:43 >> Yeah. I'm on prompt watch. I've never
+21:45 used it, but it seems like it's it's
+21:48 doing what you what you're talking
+21:49 about.
+21:49 >> It's it's all of them are doing the same
+21:52 thing. There's only so much. Basically,
+21:53 what they do is they go and they send
+21:56 synthetic data to all of these chats.
+21:59 Like whether you pick any of these like
+22:01 AI optimization, search optimization
+22:04 tools. They send synthetic data to these
+22:07 chats. They get the results back. They
+22:10 look at what's being referenced. that's
+22:11 where the brand mentions are basically
+22:13 coming from like the percent of brand
+22:14 mentions and then they uh they look at
+22:16 the URLs that um the chat is using as
+22:20 the source material like that's every
+22:22 single one of them is doing the exact
+22:23 same thing basically. So and then how do
+22:26 you actually do this? How do you
+22:27 actually like make impact with this is
+22:30 um you're again finding those URLs that
+22:33 are being referenced for queries that
+22:35 are related to your product and then you
+22:36 have to create some type of campaign or
+22:38 some type of process to go and basically
+22:40 get get placed. So
+22:42 >> cool. Anything else that people should
+22:44 know about uh with Geo and AI search?
+22:47 >> I I think that's the biggest like
+22:50 biggest thing that I'm seeing currently.
+22:52 Um I I would have it be a part of your
+22:55 stack but not the only thing you rely
+22:57 on. Um just like all marketing. Um like
+23:00 again just the fact that
+23:03 >> you know a new model gets released and
+23:04 it just claps everybody from a uh from a
+23:08 you know a signups uh from that as a
+23:10 source. It's a classic, right? It's
+23:12 basically like new algorithm drops and
+23:14 everybody gets screwed. Um or like it
+23:16 just totally gets messed up, right? like
+23:19 Twitter algro changed and all it is on
+23:21 my feed is just like basically like
+23:23 bombing videos. It's ridiculous, right?
+23:25 And I I think we have to like you have
+23:27 to think about that with with all of
+23:29 this is like you can get platformed just
+23:31 like with this you can get platformed
+23:32 just like anything else. So
+23:34 >> amazing. All right. Thanks, man. I I
+23:36 appreciate it. Um there you have it.
+23:38 Sauce about geoi search from the sauce
+23:43 boss himself, Cody Schneider. Thanks.
+23:45 >> I live to serve. Thanks for hosting,
+23:47 Jeet.

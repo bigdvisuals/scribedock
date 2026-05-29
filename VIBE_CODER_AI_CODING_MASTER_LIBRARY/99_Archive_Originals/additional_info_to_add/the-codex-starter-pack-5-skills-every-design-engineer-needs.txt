@@ -1,0 +1,353 @@
+The Codex Starter Pack: 5 Skills Every Design Engineer Needs
+
+0:00 Hey guys, welcome to today's video. My
+0:01 name is Lucas. And now, in this YouTube
+0:03 channel, what I do is I post around five
+0:06 videos a week covering the hottest and
+0:08 most interesting workflows when using
+0:11 Cloud Code or Codex. And in today's
+0:13 video, what I want to do is I want to
+0:14 show you my favorite skills and MCPs to
+0:17 use with these two tools specifically
+0:19 for design engineers. So guys, without
+0:21 further ado, let's go ahead and get
+0:23 started. Now, before we get started, I'd
+0:24 love to invite you all to my Discord
+0:26 community, The Creator Network. We get
+0:27 together every single weekday to talk
+0:29 about different tools and topics and
+0:30 workflows. So, if you guys are
+0:31 interested in joining that, link is down
+0:34 in the description below. Now, in
+0:35 today's video, I'm going to be using
+0:37 Codex. You can use Cloud Code, like I
+0:39 said, but for the past few days, I kind
+0:42 of prefer Codex. And I'm going to be
+0:43 showing you these examples in this brand
+0:45 new file that I created. Now, the first
+0:46 skill that I want to show you here is
+0:47 called the Grill Me skill, and it's by
+0:49 this guy called Mac Pocock. And
+0:52 essentially, what this is is that you
+0:53 give it a, you know, description of what
+0:55 you want to do, and it interviews you
+0:58 relentlessly about every aspect of this
+1:00 plan until that you guys reach a shared
+1:03 understanding. And I've spoken to some
+1:05 people in my community, and they say
+1:06 that they can get up to like 60
+1:08 questions. This AI ask you question
+1:10 after question until you reach a shared
+1:12 understanding, then provides a summary
+1:13 of what you've covered. And this is
+1:15 fantastic in the early phases of coding
+1:17 because you need to discover all of the
+1:19 requirements by talking them through.
+1:20 And in order to install this, you have
+1:22 to visit their GitHub. Just scroll down
+1:24 over here, and you want to copy this
+1:26 install command. And then we can just
+1:27 write install this skill,
+1:30 paste it in here, and the install has
+1:32 been completed. So, what we can do is we
+1:33 can just restart Codex. And then we can
+1:35 go over here and type Grill Me, and we
+1:38 can see that we have this Grill Me
+1:40 skill. And so, what I can say is I grill
+1:42 me about an idea that I have regarding a
+1:44 local app that I want to build to help
+1:46 me organize my folders. And then we get
+1:48 the first question of the interview,
+1:50 what is the app's primary job? And then
+1:52 we can just like copy this, paste this
+1:54 in here. These are the suggestions that
+1:56 it gave me. And then second question,
+1:58 what kind of files or folders are we
+1:59 organizing first? And then question
+2:01 three,
+2:02 almost instantly later, what should the
+2:04 app optimize for when deciding where
+2:06 things go? And then you can go on and on
+2:08 with the questions until you want to
+2:10 stop and you can just say like, "Let's
+2:11 stop. Just give me a prompt based on
+2:13 what we have until now."
+2:14 And it can give you that entire prompt
+2:16 that you can eventually then use in the
+2:17 chat instead of just having to start
+2:19 with one simple prompt and then using
+2:22 using high reasoning to eventually get
+2:24 what you want after several prompts if
+2:26 that makes sense. Now, the next skill
+2:27 that I want to talk about, which is not
+2:29 really a skill, it's more of like a
+2:30 native/command
+2:32 inside of Codex is goal. And you
+2:34 basically give Codex a goal to follow.
+2:36 So, use goal when a task needs Codex to
+2:39 keep working across turns toward a
+2:41 verifiable stopping condition. And I
+2:43 found a tweet the other day by Pietro
+2:45 Schirano, who is like one of my favorite
+2:47 design engineers, and he wrote this,
+2:49 "Use Codex goal to create a skill based
+2:51 on your quest and test and validate the
+2:54 skill, grade it, and keep improving it
+2:56 in a loop until it meets a target
+2:58 threshold. And then share the skill on
+3:00 Twitter, monetize it, and repeat." So,
+3:02 we can then, for example, type goal. We
+3:05 can then write using the and then we can
+3:08 go {slash} skill creator, which
+3:10 basically is like another skill that
+3:12 allows us to create skills. Then we can
+3:13 say, "Use the skill creator to create a
+3:15 skill that allows me to drop a URL." And
+3:18 then the agent gives a critique against
+3:20 the design standards. So, we can go
+3:21 ahead and submit this. And then once
+3:23 this prompt is sent, we can see sent as
+3:25 a goal. And going back to this page, you
+3:27 can also see that we have different
+3:28 commands that we can eventually give to
+3:30 the agent, for example, like goal pause,
+3:31 goal resume, or goal clear when you want
+3:34 to like completely clear that goal. And
+3:36 then basically we get this new skill
+3:37 called critique URL design. I can then
+3:40 go ahead and type this in here. We have
+3:43 critique URL design, and I can give it
+3:45 some type of URL like, let's say
+3:46 stripe.com. And then we get our
+3:48 critique. It says it does the the is
+3:50 actually really good, which it is.
+3:52 Um but it says the critique is less
+3:54 about taste and more about a few places
+3:56 where the polish is so highly visual
+3:58 highly visually that accessibility and
+4:00 clarity lag behind it. So, we have a few
+4:03 points in different paragraphs. We have,
+4:05 you know, a little section of what
+4:06 works, next actions. Now, what we can do
+4:09 again is we can again type goal and
+4:13 clear. And then we can basically rewrite
+4:15 our goal, say like complete an iterative
+4:17 improvement of the website audit skill
+4:20 so it can reach
+4:21 or it can review each section of the
+4:23 website being reviewed and grade it
+4:25 between a 0 to 100 based on taste,
+4:27 brevity, consistency, content prior
+4:29 prioritization. All right, now it says I
+4:31 created and iterated the installed
+4:33 website audit skill here. So, I can just
+4:35 run this again. And then we can do
+4:37 stripe.com again. And now we basically
+4:39 have our different sections. We have our
+4:41 section scorecard, header, taste,
+4:43 brevity, consistency, prioritization,
+4:46 etc. etc. And we can then take the skill
+4:48 and kind of run this one whenever we
+4:50 want in any of our Codex conversations.
+4:53 All right, so the next skill that I want
+4:54 to show you guys is actually a pretty
+4:55 interesting one because we're going to
+4:56 be opening our our browser over here.
+4:59 And I'm going to search for
+5:00 magicpath.ai.
+5:02 And you don't need a paid account for
+5:04 this. You can do this completely for
+5:05 free before you write anything in the
+5:08 comments below. And you want to create a
+5:09 new design over here. And once you open
+5:12 this up, what you could do is you can
+5:13 click on connect agent. And this is like
+5:15 this skill command that you can
+5:17 basically also paste into the chat. And
+5:20 we can write install this skill
+5:24 and paste this in like that. And it says
+5:26 that magicpath has been installed. We
+5:27 just have to restart Codex. And then we
+5:29 can just type like, "Can you see
+5:33 my current project?" All right, it says
+5:35 that yes, I can see your magicpath
+5:37 context. Current browser URL matches
+5:39 project 11. So, what I'm going to do
+5:41 over here is I'm going to say build me a
+5:44 build me a a website that allows people
+5:46 to search for skills and read about them
+5:48 and then we can like type a little bit
+5:50 more about the initial design style and
+5:52 it says that it's going to build us
+5:53 directly in the magic path project that
+5:55 I have open as a new canvas component.
+5:57 And as you can see we have Codex kind of
+6:00 moving around over here. And so this
+6:02 canvas component over here is going to
+6:04 be called skill marketplace editorial.
+6:06 All right, and we basically get our
+6:08 design and what's great about magic path
+6:10 is that we it's like this infinite
+6:11 canvas, right? We can move around move
+6:14 this around we can create more designs.
+6:16 I can like duplicate this. I can select
+6:19 this and create like more variants in a
+6:21 different layout and create three of
+6:23 these and put them underneath and they
+6:26 start creating like that and they're all
+6:28 connected to Codex. But what I can also
+6:30 do is I can go back to that skill that
+6:32 we just created which we called website
+6:35 audit and then once we click this
+6:37 component, we have this like little
+6:38 preview button which basically opens
+6:40 like the preview of this design. We can
+6:42 copy this URL and paste it over here.
+6:45 And by the way, while we wait for this,
+6:47 we also see that our different variants
+6:49 start getting generated. And so we start
+6:51 to get our score. We actually get an 82
+6:52 out of 100. So we have the header, we
+6:55 have the hero, the search and filters,
+6:57 skill results list, skill detail panel.
+6:59 And it gives us these like different
+7:01 suggestions as to what to fix. And then
+7:03 we can just select this component and we
+7:06 can type something like apply these
+7:09 fix suggestions to the current component
+7:12 in magic path. And now it says that it
+7:14 has been updated and this is the before
+7:17 and this is the after the update and it
+7:18 doesn't look like much. You can see that
+7:20 there's a few details like with this
+7:22 little shadow or with this like little
+7:25 um you know black left outline on the
+7:27 left side. Um but you can see read skill
+7:30 now opens, compare now adds and removes
+7:33 skills. So if I were to for example
+7:35 click on this, nothing happens. But now
+7:38 in the new version, I can compare
+7:40 different skills for example by
+7:42 selecting them. you can see that one is
+7:43 selected, website audit, and I can
+7:45 remove that. I can close this read
+7:47 skill, open it up. We also have the
+7:49 search now has a real empty state, so if
+7:51 I for example were to search something
+7:53 and nothing shows up, it's just empty.
+7:55 But over here, if I search something it
+7:57 says no skills
+7:59 no skill matches this search yet. So
+8:01 it's made like these minor UX details,
+8:04 basically like these UX enhancements
+8:07 that my skills suggested. But now going
+8:09 to another skill by Jacob Krehl, I've
+8:12 mentioned this in my YouTube channel
+8:14 once, I think. It's called make
+8:16 interfaces feel better, and we can copy
+8:18 this and again install this skill, and
+8:22 then again restart CodeX to pick up the
+8:24 new skill, and then we can basically
+8:26 duplicate this after.
+8:28 And then we can just say to, you know,
+8:30 build the selected component and run it
+8:32 on a local host. All right, and once
+8:33 that's done, we basically have this
+8:35 running in the local host, and I can
+8:37 just click on this link, and we can see
+8:39 our project built over here. And then
+8:42 what I can say is I can say like, "Hey,
+8:44 slash make interfaces feel better. Use
+8:48 this skill to improve the design and
+8:50 then upload or update to the same port."
+8:53 And before we open this up, we can see
+8:54 the before and after. So headings could
+8:56 wrap awkwardly or clip on narrow
+8:58 screens. So added balance wrapping for
+9:00 major headings and tuned mobile headline
+9:03 scale. And so this is for typography,
+9:05 but we also have for services, for
+9:06 interaction as well, for for performance
+9:09 even. And basically what this does is
+9:11 that it it polishes the entire site,
+9:14 right? Um as you can see, this header
+9:16 text is smaller, we have this max width
+9:19 of a of like around 1,000 or 1,200
+9:22 pixels for the width of the content of
+9:24 the site. These buttons seem to be
+9:26 rounded now, as well as down here. So as
+9:29 you can see, this is how it looked like
+9:31 before, and this isn't how it looks like
+9:33 afterwards. And overall, it just looks
+9:35 much tidier, I'd say. And last but not
+9:37 least is this impeccable skill. So, I
+9:39 can go ahead and click on get started
+9:41 and I'm just going to install this skill
+9:42 and just write like install this skill.
+9:46 And I have a great video about this um
+9:48 skill in my channel. I'll link it down
+9:50 below. But basically, you have 23
+9:52 different commands that are part of this
+9:54 one skill. And you can, for example,
+9:56 have audit, you can have critique as
+9:58 well. There's more of refinements like
+10:00 animation or to make or or for layout or
+10:03 for colorize. Now, I, for example, to
+10:05 choose the impeccable animate. And so,
+10:07 I'm going to just going to write
+10:08 impeccable and then animate the navbar
+10:12 and hero section. And so, once that's
+10:14 done, we can kind of see how that
+10:16 animates the navbar and the hero
+10:18 section. We can also look into things
+10:20 like polish, which is the meticulous
+10:22 final pass between good and great. And
+10:25 so, we can again just write impeccable,
+10:27 click on enter, and polish the page. And
+10:31 what's also cool about impeccable is
+10:33 that they also have a Chrome extension
+10:35 that you can just run and it'll scan the
+10:37 page for anti-patterns, which are
+10:40 basically like common things that like a
+10:42 vibe-coded website would have like, you
+10:45 know, a purple and pink gradient,
+10:48 gradient text, an AI color palette. All
+10:51 right. And basically, what that what
+10:52 that's done is that it polished my site
+10:54 a little bit. So, in the skill
+10:57 marketplace editorial, which is down
+10:59 here,
+11:01 we have a broader search indexing,
+11:03 accessible press, and expanded state,
+11:05 required submit fields, and an inline
+11:07 success state. So, I can maybe, for
+11:09 example, like
+11:11 click on this and we have different
+11:13 types of button states. I can see also
+11:16 with the filters that we have like this
+11:18 nice little
+11:19 um motion for these for these buttons as
+11:22 I hover over them and also up here in
+11:24 the navbar. But then, we can also like
+11:26 use impeccable to kind of redesign the
+11:28 page. So, we can do like {slash}
+11:30 impeccable build me a pricing page or
+11:32 redo this hero section. So, I'm just
+11:34 going to write Impeccable, redesign this
+11:37 page. And basically, what that gives us
+11:39 is like a new kind of look. You get
+11:41 something like this, which is pretty
+11:43 interesting. It has this new sticky
+11:44 scroll effect on the on the uh right
+11:47 side. We have this nice little shadow
+11:49 for the different buttons over here. And
+11:52 step-by-step, we kind of went a long way
+11:54 from this first initial design to get
+11:57 something like this. But anyways, guys,
+11:59 that's pretty much it for today. Hope
+12:01 you enjoyed today's workflow. And if you
+12:02 have any comments or questions, please
+12:04 let me know down in the comments below.
+12:05 And guys, like always, thank you all so
+12:06 much for watching. Hope to see you next
+12:07 time. Goodbye.

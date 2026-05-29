@@ -1,0 +1,445 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=LWPN-PAhtLA
+Channel: Starter Story
+Video ID: LWPN-PAhtLA
+Transcript language: English auto-generated
+Downloaded at: 2026-05-25T20:45:40.983Z
+
+0:00 Cursive directory. We built it in a
+0:01 weekend and now it makes 35k per month.
+0:04 >> This is Pontis, a developer bored on his
+0:07 flight to France when he spotted an
+0:09 opportunity. The second he landed, he
+0:12 called his friend. They coded for 3
+0:14 hours straight and launched a simple
+0:16 directory.
+0:17 >> When I landed, I called Victor and said,
+0:18 "We need to build this directory for
+0:20 cursor rules."
+0:21 >> That 3-hour build is now doing $34,000 a
+0:24 month with 99.8% 8% profit margins and
+0:27 they only work on it 3 hours a month.
+0:30 >> We posted a site on X and it instantly
+0:32 took off. I have never seen something
+0:34 like that before. [music]
+0:35 >> I thought directories were dead in 2025,
+0:38 but Pontis has proved me wrong and
+0:40 showed me that anybody [music] can do
+0:42 this. So, I brought Pontis on the
+0:44 channel to break down exactly how he did
+0:46 it. In this video, we'll dive into
+0:48 exactly what tools he used to build a
+0:51 $34,000 a month website in just 3 hours.
+0:54 the secret to why his directory took off
+0:56 when many others don't and his advice
+0:59 for anyone building websites like this
+1:01 right now. All right, this one is crazy.
+1:04 So, let's get into it. I'm Pat Walls and
+1:06 this is Starter Story.
+1:09 Hey guys, I wanted to pop in here with a
+1:11 very important message. Black Friday is
+1:13 around the corner and you know I'm going
+1:15 to be doing something I probably
+1:16 shouldn't. To celebrate over 700,000
+1:18 subscribers here on YouTube, I'm going
+1:20 to be giving away one of the best deals
+1:22 we've ever done on Starter Story. Last
+1:24 year, our early bird Black Friday deal
+1:26 sold out in less than 2 hours. And this
+1:29 year, I think it'll sell out in less
+1:31 than one. And I don't want anyone of my
+1:33 subscribers on YouTube to miss this. So,
+1:36 here's the deal. I've set up a VIP list
+1:38 where you will be notified about our
+1:39 Black Friday deal before anyone else.
+1:42 And trust me, it's going to be one of
+1:43 the best deals we've run in years with
+1:45 extras and bonuses I probably won't ever
+1:48 do again. If you want to get notified as
+1:50 soon as it's live, just head to the
+1:53 first link in the description and you
+1:54 can join that VIP list right now for
+1:57 free. Thank you everyone for watching
+1:58 and supporting the channel. Let's get
+2:00 into the video. All right, Pontis,
+2:02 welcome to the channel. Tell me about
+2:03 who you are, what you built, and what's
+2:05 your story. Uh yeah, my name is Pontis
+2:07 and together with my best friend Victor,
+2:08 we spent the past two years
+2:10 bootstrapping our startup midday which
+2:12 is our long-term focus. Along the way,
+2:14 we built the curs of the directory
+2:15 languin and several other open-source
+2:17 projects. We love building in public,
+2:19 testing ideas quickly and showing that
+2:20 even a small weekend project can turn
+2:22 into something big. One example that is
+2:25 the directory we built, cursive
+2:26 directory. We build it in a weekend and
+2:28 now it makes 35k [snorts]
+2:29 per month.
+2:30 >> Okay, cool. I mean you're building a lot
+2:31 of cool stuff but what I really want to
+2:33 dive into is the directory. Can you
+2:36 explain what a directory is and what
+2:38 your directory does?
+2:39 >> So basically a directory is of course
+2:41 made for discoverability uh to find
+2:43 something that you're interesting in and
+2:45 curs directory of course is made for for
+2:47 cursive developers to explore and find
+2:50 new ideas. We grown the site to 49,000
+2:52 registered users uh 2.2 million unique
+2:55 visitors since launch and then of course
+2:57 we have a gross margin of 99.8% 8% uh
+3:00 and operation cost is just under 500
+3:02 bucks and of course it's open source.
+3:04 All the rules are merged on in GitHub.
+3:07 So the maintenance cost is like 3 hours
+3:09 per month and then we continue building
+3:10 our main startup.
+3:12 >> Well that's absolutely insane. You just
+3:13 built this directory in a couple hours.
+3:15 Millions of people have visited. It's
+3:17 made tens of thousands of dollars. I
+3:19 want to understand how do you even get
+3:20 the idea to do something like this?
+3:21 >> The whole idea came up when I actually
+3:23 took the flight down to move to France.
+3:25 It's a three-hour flight and I
+3:26 downloaded a lot of videos to look on
+3:28 tech heavy stuff and I I downloaded some
+3:30 cursor things and then I discovered this
+3:32 common pattern about rules. So, it was
+3:34 kind of mind-blowing for me that there
+3:36 were no uh place to find these rules in
+3:38 one specific place. Uh you could Google
+3:40 and find some obscure gist on GitHub or
+3:43 some forums but no real clear answer to
+3:46 finding these rules in one place. And
+3:48 that's basically how the idea came up.
+3:50 >> Okay, cool. So, you find this idea, it
+3:52 doesn't exist yet. How do you go about
+3:53 building it? Both me and Victor has a
+3:55 lot of experience building apps and
+3:57 websites through the years. So, uh we
+3:59 knew exactly what we needed to do. I I I
+4:01 called Victor as soon as I landed on the
+4:02 Airbnb uh and said to him like we need
+4:05 to create a directory for rules for
+4:07 cursory rules. In just matter of
+4:08 minutes, he spun up Figma and started to
+4:10 design while I started initial project
+4:12 with Nex.js and I created a hard-coded
+4:15 JSON file with some rules that I found
+4:17 online and in matter of like an half an
+4:19 hour we had something up in Versel uh
+4:21 ready to to click around on. I bought
+4:23 the cursor directory domain uh which was
+4:26 a really really good domain according to
+4:27 the site of course. So we built the site
+4:30 completing three hours and but then we
+4:32 just continued to iterate. Victor and I
+4:34 have been working together for several
+4:35 years. We already know our DNA in terms
+4:37 of design and code. So that helped a lot
+4:40 of course.
+4:40 >> So I mean this is one of the reasons why
+4:41 I wanted to bring you on the channel.
+4:43 The fact that you did it in 3 hours and
+4:45 had the balls to actually launch it and
+4:47 ship it and maybe be okay with it not
+4:49 feeling perfect. What would be your
+4:50 advice for anyone watching this that
+4:52 wants to ship fast?
+4:54 >> Yeah, so of course I have this main
+4:56 startup that we focus on day in and day
+4:58 out, right? We work a lot of hours.
+5:00 Usually once a week or twice a week, we
+5:02 find these things that you can really do
+5:04 really, really fast, but we hold off.
+5:06 But in this case, we didn't. And I think
+5:08 that's something that comes like a
+5:09 thread through how we work. We find
+5:11 these ideas and that comes together when
+5:13 you dial in and work fully on something
+5:15 you're committed to and being out there
+5:17 and seeing a solution that you can do.
+5:19 Well, yeah. I I think it's a combination
+5:21 of dialing in into what you're doing and
+5:23 being out there and finding ideas at the
+5:25 same time.
+5:26 >> Okay, cool. I'm what I'm hearing there.
+5:27 What I think is really cool is for the
+5:29 cursor directory, you didn't have a lot
+5:30 of expectations and you just said screw
+5:33 it, I'm going to launch. So, that's
+5:34 where I have a few more questions is,
+5:36 okay, yeah, sure. You build this, you
+5:37 build it really fast. Nowadays, anybody
+5:39 can build stuff fast. How did you
+5:40 actually launch this and get millions of
+5:42 users
+5:43 >> in the first week? That was also the
+5:45 first week in France. Uh, so we did a
+5:47 bunch of different things. So I I posted
+5:49 the the cursor directory uh on on X of
+5:52 course at the initial uh release. I mean
+5:54 we're building public on X. We share
+5:56 everything we do all the way to the
+5:58 code, right? We are fully open source.
+6:00 So I think we had like 1 million
+6:02 impressions on one of the posts and of
+6:04 course we had several posts. So we have
+6:06 a developer following uh from the
+6:08 beginning but then I also posted on
+6:09 hacking news. We ended up on the on the
+6:12 front page and a lot of YouTubers
+6:14 started to cover uh curs directly into
+6:16 the uh videos. So there were a lot of
+6:19 coverage around cursor directory. We
+6:21 grow steadily because we share knowledge
+6:23 along the way and I think that really
+6:25 tied together with cursor right it's
+6:26 it's a developer focused uh community
+6:29 and we build this super fast we have
+6:31 this tech heavy design approach.
+6:33 >> Okay so one thing I noticed about cursor
+6:35 directory and your other startups when I
+6:37 was checking them out is the design. You
+6:40 may not realize this but I feel like
+6:41 your design is a competitive advantage
+6:43 here. When I go to cursor directory,
+6:45 this thing is beautifully designed and I
+6:47 can imagine that was one reason why it
+6:49 kept getting shared to a bunch of other
+6:50 people. So I want to ask you for anyone
+6:52 watching this, how to design beautiful
+6:54 apps, how to do it quickly. What are the
+6:56 secrets to designing products? Well,
+6:58 >> yeah. So basically we have a formula. Of
+7:01 course it helps a lot to have a great
+7:02 designer as a co-founder. It it comes
+7:04 down to to the small things that are
+7:06 also the hardest. Like keep it simple.
+7:08 Find something that you like. Stay with
+7:10 pride and and and find the patterns and
+7:13 the tonality of of the websites that you
+7:15 like and of course learn from others. Uh
+7:18 if I would start from the beginning, I
+7:20 would probably find websites that I love
+7:22 and take bits from it and and learn from
+7:24 that. Uh in this case, of course, we
+7:27 already have a design system. We already
+7:29 have components that we can reuse from
+7:31 our previous startups. So it was much
+7:33 much easier for us. There are a lot of
+7:35 great designers out there that you can
+7:36 follow on X. It's a huge community that
+7:38 you can learn from. I usually tweet out
+7:40 that design is more important than ever
+7:42 especially in this fast-paced AI
+7:44 generated uh website world that we
+7:46 started to live in. Design will actually
+7:48 be the things that puts you apart from
+7:50 the competitors right because it's easy
+7:52 to create an website today but all of
+7:54 them usually looks the same. So, it's
+7:56 not much that you need to be different
+7:57 on, but you need to find the tonality
+7:59 and the angle that you believe in is
+8:01 right, and that's going to be your
+8:03 advantage.
+8:03 >> What I love about Ponis' story is that
+8:05 he built the MVP of his app in just 3
+8:08 hours. He did not overthink it. He just
+8:11 saw an opportunity and shipped it right
+8:13 after he landed from his flight from
+8:14 France. This is proof that if you know
+8:17 how to build with AI, you can move
+8:19 insanely fast. But here's the thing.
+8:22 Most people waste weeks stuck in
+8:24 tutorials or second-guessing themselves.
+8:26 [music] And this causes people to never
+8:28 actually ship. Well, this is exactly why
+8:31 we created Starter Story Build. It is
+8:33 our program where you will build and
+8:35 launch your project using just AI tools
+8:38 in a matter of weeks. You'll master how
+8:40 to talk to AI. So, it will build apps
+8:42 for you. And the best part is that you
+8:43 won't even be doing this alone. You'll
+8:45 be a part of a group of founders all
+8:47 sharing feedback and staying accountable
+8:48 every single day. So, if you're ready to
+8:50 finally ship your idea, head to the
+8:52 first link in the description to claim
+8:54 your spot. We are starting our next
+8:55 cohort very soon, so be sure to go there
+8:58 and claim your spot right now before it
+9:00 runs out. Okay, now let's get back to
+9:02 the video. Okay, so another reason why I
+9:04 wanted to bring you on Pontis is I
+9:05 haven't heard of a directory that has
+9:07 been crushing it in a long time. I
+9:08 remember a couple years ago directories
+9:10 were kind of taking off. Nowadays, I
+9:12 don't see that as often anymore. I
+9:14 thought directories were dead. Clearly,
+9:15 that's not the case. So my question for
+9:17 you is do directories still work in 2025
+9:19 or are they dead? Yeah, I mean I get
+9:22 these questions a lot like aren't
+9:23 directors dead but it truly is director
+9:26 still is incredibly successful in 2025
+9:30 especially if you build something for
+9:31 the right audience and and in this case
+9:33 of course we we found the audience uh at
+9:35 the right time at the core directly
+9:37 solves a timeless problem like you need
+9:39 to find something uh that you're
+9:41 interested in and in this new AI world
+9:43 where we live in like cursor people are
+9:46 starting to look through how to do
+9:47 things and find the right answers
+9:49 [music] that's where directors is really
+9:51 really shine, right? It's a collection
+9:52 of things that a bigger audience are
+9:54 interested in at the same time. And if
+9:56 you can catch that wave, you're really
+9:58 going to find a lot of like visitors and
+10:01 a lot of opportunities. [music]
+10:02 If you catch it, if you can own it, then
+10:04 it's super powerful.
+10:05 >> Okay, cool, Pontis. Well, thank you for
+10:07 sharing all that. I'd love if you
+10:08 actually pulled up your directory right
+10:11 now and showed me how it works, how it
+10:13 looks, and what's the business model.
+10:14 Could you pull it up right now?
+10:16 >> Okay, so yeah, this is directory. So,
+10:18 you have a bunch of different rules. So
+10:19 you can go in and then you copy those
+10:22 then you add that to your uh cursor uh
+10:25 rules in your editor. It's kind of
+10:27 basic. You can filter on your like what
+10:29 you're interesting in. You can see the
+10:30 popular ones. You can see off official
+10:32 ones and then of course you can search
+10:34 for different things. We enable that you
+10:37 could register and create your own
+10:38 account uh and be a member of the of the
+10:41 community. So you can post your own
+10:42 stuff. People can vote uh on interesting
+10:45 things. But here's something that I can
+10:47 just share whatever they are interesting
+10:49 in and get up votes. People can find the
+10:51 jobs and uh companies can share their
+10:54 job ads. So it's a paid uh ad that they
+10:57 pay to get listed some months after MCPS
+11:00 uh came along and that were also a thing
+11:02 that made C directory really really fly.
+11:05 So that was the second way where we saw
+11:06 a huge adoption of the site because we
+11:09 created this uh [music] MCP searchable
+11:11 uh way to find and extend your cursor
+11:14 experience. Uh, and these are also
+11:16 featured. So, you can pay to get them
+11:18 featured on the site. And then we also
+11:20 made it possible to generate your own
+11:21 cursor rules tailored to your to your
+11:24 website. In JavaScript, uh, you have
+11:26 this package JSON which defines all your
+11:28 dependencies. You could just upload that
+11:30 and then you get your defined cursor
+11:31 rules back to tailor that to you.
+11:34 Because we really really saw that
+11:36 developers wanted to tailor their
+11:38 versions or their cursor experience, but
+11:40 they didn't know how to start. this was
+11:43 a good way for developers to started
+11:45 this to get the grasp of it.
+11:47 >> All right. Well, thank you for sharing
+11:48 that. Looks awesome. I'd like to switch
+11:49 topics a little bit and talk about tech
+11:51 stack. How did you actually build this
+11:53 app and what tools you use right now?
+11:55 >> So, I think this is the important one
+11:57 like you should stick with something
+11:58 that you know uh and already uh use uh
+12:02 every day, right? So, we stick what we
+12:03 know. So, we chose Nex.js JS fully
+12:05 TypeScript shing components uh resend
+12:09 for email uh open paniful analytics and
+12:12 just [music] connected with GitHub and
+12:14 and shared it on on Verset. So Verset is
+12:16 our hosting provider. Payments we we use
+12:18 polar which is a great merchant of
+12:20 record to handle uh payments uh
+12:22 especially if you're Europe company. And
+12:24 then on the productivity side we we of
+12:26 course use cursor to code uh notion for
+12:29 product management, GitHub for version
+12:31 control. every tool we choose uh to
+12:33 share have the same philosophy like no
+12:35 servers uh no friction just focus on
+12:37 building and shipping fast because
+12:39 that's really what's matters right
+12:41 getting it out there to our users all in
+12:43 all 525 bucks a month with a 99.8 eight
+12:47 gross margin.
+12:48 >> Okay, cool. Well, thanks for sharing
+12:49 that, being transparent about the
+12:50 numbers, that's an insane profit margin.
+12:52 The last question that I have for you
+12:54 that we ask everyone who comes on
+12:55 Starter Story, what advice would you
+12:56 have for anyone getting started right
+12:58 now, whether they're building a
+12:59 directory or building cool SAS software
+13:02 apps, whatever it is online, what would
+13:03 be your advice?
+13:04 >> Start. It sounds simple, but here's the
+13:06 thing. When you start building and when
+13:08 you commit to something, you eventually
+13:10 getting dialed in. You create your own
+13:11 luck by constantly finding ways to move
+13:13 forward, shipping, sharing, and iterate.
+13:15 One thing will lead to another and
+13:17 there's really no such thing as failure.
+13:19 When you build something, the worst
+13:20 thing that can happen is you learn and
+13:22 then you take next step to find your
+13:23 ways forward.
+13:24 >> Well, that's great advice. Thanks for
+13:25 coming on the channel, Pontis, sharing
+13:27 all this amazing story, amazing
+13:29 business, amazing stuff that you're
+13:31 building other than cursor directory.
+13:32 So, thanks for coming on and sharing.
+13:34 >> Thanks for having me.
+13:35 >> Okay, first of all, that advice was
+13:37 amazing. Just get started. You don't
+13:39 know if this directory that you build is
+13:41 going to be a complete flop or is going
+13:43 to make $34,000 a month. There's no way
+13:46 to know that without actually getting
+13:48 started building something and seeing
+13:49 what happens. It all starts with a
+13:51 simple idea. And nowadays with what you
+13:53 can do with AI, an idea is all you need
+13:56 to potentially build something that
+13:57 changes your life. This is why we
+13:59 launched Starter Story Build, where we
+14:01 will help you take your idea from your
+14:02 head, turn it into a real app using only
+14:05 AI tools in a matter of weeks. So, if
+14:07 you're ready to launch your project and
+14:09 you're serious about actually building
+14:11 something, head to the first link in the
+14:12 description to check out Starter Story
+14:14 Build. All right, that's it for this
+14:16 episode. Thank you guys for watching.
+14:17 We'll see you in [music] the next one.
+14:18 Peace.

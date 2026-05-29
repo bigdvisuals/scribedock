@@ -1,0 +1,1157 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=e_M_Wavx-EQ
+Channel: Riley Brown
+Video ID: e_M_Wavx-EQ
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 Three of the biggest trends in the world
+0:01 of AI over the past two years has been
+0:03 AI automations, AI agents, and vibe
+0:06 coding. And we're going to be using 10
+0:08 of the top AI tools in the world in one
+0:11 central platform that brings vibe
+0:13 coding, automation, and AI agents
+0:15 together. Today, I'm talking to Fabian
+0:18 Stellzer, the founder of Glyph, and we
+0:20 are going to be using Glyph to create AI
+0:23 workflows that can help you grow or
+0:25 start your business. We're also going to
+0:26 build multi-step workflows that help my
+0:28 content team. We're going to talk about
+0:30 how to use these workflows in vibe coded
+0:32 apps. And we're going to see a live demo
+0:34 that will allow you to create an AI
+0:36 agent that has access to all of the
+0:38 workflows you create, which will make
+0:40 powerful AI agents accessible and easy
+0:43 to use. Let's just dive in. All right,
+0:45 I'm going to show you how to build an
+0:49 automated meme generator. This is an
+0:51 example one I've made. It's been run
+0:53 like almost
+0:54 90,000 times. So, it lets Claude take
+0:58 your input and figure out what a good
+0:59 meme would look like and then it
+1:02 generates the classic format that we all
+1:04 know and love. So, this is on glyph.app
+1:07 where you can build these sorts of
+1:09 workflows very easily and the basic idea
+1:12 is that you're playing with AI Legos. We
+1:14 have a bunch of different types of
+1:15 blocks and I'm going to go through
+1:18 through them one by one and then we're
+1:20 going to sort of upgrade this workflow
+1:22 to be a bit more fun. Now the way glyph
+1:25 works is that you usually want to start
+1:26 with one of these input blocks, right?
+1:29 You can send stuff into it via API, but
+1:32 it's also something that like you can
+1:34 test on glyph or have others like use it
+1:35 on glyph. It's going to show up in the
+1:37 native glyph UI basically for these
+1:39 workflows. like you want some type of
+1:41 input that your user is going to put in.
+1:43 And that is at this point like we we
+1:46 have like text inputs which is just a
+1:47 prompt. You can use image inputs. You
+1:50 can have like a multi-pick which
+1:52 basically lets you the user has like
+1:54 this drop down where they can choose
+1:56 from. Right? We're not going to do it
+1:58 here, but this is just an example. I'm
+1:59 going to take this workflow here. I'm
+2:01 going to make a remix and we're going to
+2:02 make an audio version of it. We'll
+2:04 delete this text input and we'll replace
+2:06 it with an audio input. That's going to
+2:09 give us this like little audio interface
+2:11 for folks to upload stuff. Now, in order
+2:15 for this to work, we need to add a
+2:17 separate step, which is we're going to
+2:19 go audio to text and we're going to plug
+2:22 our audio input in there. So, glyph
+2:24 works with these variables, right? It's
+2:26 technically more like a spreadsheet than
+2:28 a note-based sort of thing. So, you add
+2:31 these variables and we can just click on
+2:32 that one. It's going to sort of take the
+2:34 audio input, plug it into our audio to
+2:36 text. And we're going to call this one
+2:38 input one as that's what it's called in
+2:40 the rest of the workflow. And now this
+2:42 gets piped into a text block, right? And
+2:45 that's part of the sort of generator
+2:47 suite. So you've got text generators
+2:49 where we have tons and tons of LLMs. We
+2:53 have image generators where you've got
+2:55 Flux, stable diffusion, deli, GPT image.
+2:58 We're just about to add image 4 which is
+3:00 awesome. Then you have a full Comfy UI
+3:02 environment if that's your jam. So you
+3:04 can build pretty sophisticated comfy
+3:06 workflows, add them here. If you don't
+3:07 know what that is, never mind. You don't
+3:09 need it. If you know what it is, it's
+3:11 really powerful. You can add like audio
+3:12 generators, generate speech, music,
+3:14 sound effects, this audio to text thing,
+3:16 which we just used to change our text
+3:20 input to an audio one. And now this here
+3:23 gets turned into text. Then it gets
+3:24 piped into this block here, which is
+3:27 clot 3.5 set. I'm actually going to
+3:29 upgrade this to clot 4. I'm going to go
+3:31 with opus because it's new. Nice. You
+3:34 you added opus. We added opus. Yeah. So,
+3:36 we're going to add cla opus um to put it
+3:38 to good use in simulating virgin versus
+3:41 chat memes, right? So, you have the
+3:44 ability here to add a system prompt
+3:46 where we're giving you like broad
+3:47 context on what it's supposed to do and
+3:49 a regular prompt. And in this case, I
+3:51 have it generate JSON. And I think you
+3:53 went over this in one of your previous
+3:54 tutorials. JSON is this really useful
+3:57 format for generating structured
+3:59 outputs. And you'll see in a second why
+4:02 we want structured outputs. Basically,
+4:03 I'm having it generate these individual
+4:06 pieces of the meme, right? I'm giving it
+4:08 an example here so it knows how that's
+4:10 going to look like. We've got like five
+4:12 quotes for the virgin and five quotes
+4:15 for our chat. I think the best way to
+4:17 think about it, the same way that your
+4:18 audio input, the output of your audio
+4:21 input was a variable, you're basically
+4:24 taking one single AI response and
+4:26 turning it into 10 different variables
+4:28 that you can use later on individually
+4:31 so that you can deterministically place
+4:33 those variables wherever you want them
+4:35 on a later step in the canvas. Exactly.
+4:38 And this is what's happening here in
+4:39 this JSON block. Right. So, we've got a
+4:41 bunch more slightly sort of utilitarian
+4:43 blocks like we've got a text combiner
+4:45 where you can combine text like you have
+4:47 multiple prompts you want them in one
+4:49 text box or you want to just add a
+4:51 readme use text combiner or use this
+4:54 JSON extractor which will basically let
+4:57 you do this where we can add like the
+4:59 inputs that we want and in this we send
+5:03 we're sending the JSON that Claude Opus
+5:05 is going to generate for us and then we
+5:07 split it up D into multiple variables
+5:10 that we can then use on one of the
+5:12 output blocks. So for output, we've got
+5:14 HTML where you can write HTML code or
+5:16 VIP code HTML code. And we have this
+5:19 canvas which is pretty straightforward
+5:21 where I basically just uploaded the chat
+5:24 versus virgin meme format. And I'm just
+5:27 like adding these here. That's it.
+5:29 Right? And because I for this one I like
+5:31 it to look amateurish. I'm making sure
+5:34 that some are bold, some aren't. So, you
+5:37 know, it doesn't look as automated,
+5:40 basically. Let's run it. We've got an
+5:42 audio input, right? So, I'm going to I'm
+5:43 going to just go I'm going to allow VIP
+5:46 coder versus senior staff engineer. So,
+5:50 I'm going to run this and we can see how
+5:53 it's going to go through these little
+5:55 steps. So, whisper turns it into text
+5:58 and now Opus is turning it into a meme.
+6:00 This is the first time I'm testing Opus
+6:02 on memes, actually. So, I'm curious how
+6:04 it's going to do. And there we go. We
+6:07 have our meme. So virgin senior staff
+6:09 engineer versus chat vip coder. So it's
+6:12 kind of fun that that's the beauty of
+6:15 LLMs, right? Like Opus groed that
+6:18 obviously the vibe coder is the chat in
+6:21 this context and senior stuff engineer
+6:24 is the virgin has strong opinions about
+6:26 semicolons and tap with whereas wipe
+6:28 coder variable names vibes saw the thing
+6:33 with
+6:35 message 10x engineer because uses
+6:37 chatgpt for everything solves po
+6:39 incidents while having mushrooms that's
+6:41 what it's like 100% hasn't shipped code
+6:43 in three years only reviews Ouch. So,
+6:45 yeah, that's the beauty of Glyph that
+6:47 you can make these kinds of workflows.
+6:49 I'm I'm a huge fan of memes. I remixed
+6:51 one of these and I turned it into a
+6:53 productive workflow. Let me share my
+6:55 screen real quick because I created one
+6:58 for all of my YouTube videos. Let me see
+7:01 here. I have my glyphs saved here. So,
+7:03 this is creating a thumbnail design.
+7:05 Whenever I do this, I always go into
+7:07 edit and let me zoom in and make sure
+7:09 you can see it. So, right here, this is
+7:12 this is my flow. And the one thing that
+7:15 I think the biggest and so I'm going to
+7:17 change this to uh to Opus. One thing
+7:19 that I did on here is I'm actually using
+7:22 a PDF that I uploaded to GitHub. So on
+7:26 GitHub, if you just upload a PDF, you
+7:28 can actually turn it to a public PDF
+7:31 that Claude can use for examples. So
+7:34 Claude can actually ingest full PDFs.
+7:37 For example, if we were to just go to
+7:38 this link, it will actually show us
+7:41 exactly what it's seeing. And so you can
+7:44 see here it just automatically
+7:45 downloaded this. And that's basically
+7:48 what it's doing in this workflow is it's
+7:49 going to look at a ton of highquality
+7:51 examples of YouTube thumbnails and
+7:54 titles. It'll go through pages. There's
+7:56 pages of these. And so I'm giving Claude
+7:59 access to highquality examples. And then
+8:02 what we're doing is we're saying you are
+8:03 a helpful assistant that analyzes
+8:05 packaging which are titles and
+8:06 thumbnails paired together. And again,
+8:09 since I forked your meme generator, I
+8:11 just made I basically created the same
+8:13 workflow where it's going to output 10
+8:16 different variables. And these are
+8:18 separated in the JSON parser. So we have
+8:21 title 1 through 5 and then thumbnail
+8:23 image 1 through 5. And then this goes
+8:26 through individual image generation for
+8:28 the five. And so it's like thumbnail
+8:30 image for your YouTube video. This
+8:31 should be a high quality thumbnail of
+8:34 this variable right here. And so it's
+8:36 going to and the input the input I
+8:38 skipped over this. The input is just
+8:40 notes about my idea. And so the more you
+8:43 put the better it's going to do because
+8:44 whatever makes your episode unique,
+8:46 it'll pick that up and then it will look
+8:48 at all those examples and create
+8:50 high-quality thumbnails and titles. And
+8:52 then it's going to go through that five
+8:53 different times. And then it's going to
+8:55 throw everything onto a canvas just like
+8:58 your meme generator. And so let's go
+9:00 ahead and run this. And this will take a
+9:01 little bit longer, I think, cuz it's
+9:04 actually generating the images where
+9:05 yours had deterministic images. They
+9:08 were automatically placed there. So, it
+9:10 will take a little bit longer, but this
+9:11 is fun. let's say a a complete uh guide
+9:16 to vibe coding, how to build apps with
+9:22 natural language using AI where we built
+9:28 an app in 90 seconds and made
+9:36 $5,000. We're just coming up with
+9:38 something random. And then you can run
+9:39 this glyph. And it's kind of fun because
+9:41 you can kind of just follow along and
+9:42 see where it is. And so you can see that
+9:45 it's obviously finished the input step.
+9:47 And now it's going through this text
+9:49 step. And so right now it's analyzing
+9:51 the PDF basically and generating 10
+9:54 based on my idea while using the PDF
+9:57 that I showed you earlier as examples.
+10:00 And now it's generating the images. And
+10:02 this is the longest step. Unfortunately,
+10:04 OpenAI's API can take a little bit. But
+10:07 what I didn't realize is that these are
+10:09 all generating at the same time. Like
+10:11 any step that can be done in parallel is
+10:13 going to be done in parallel. Any step
+10:14 that's sequential because it's depending
+10:16 on another one is going to have to wait
+10:17 for the generation to be done. Amazing.
+10:20 Yeah, that's huge. And so yeah, these
+10:22 are all generating at the same time. And
+10:24 the reason I like to go in this edit
+10:26 field, and this is something that I
+10:27 asked you about, it would be cool if you
+10:29 could make the output have the images as
+10:32 well as separate images. Because in this
+10:35 field, if you if you just run uh like
+10:38 right now, we're in the edit view where
+10:40 you can edit. And this is cool because I
+10:42 can actually copy all of the outputs for
+10:44 all of them or save them to my computer.
+10:46 So, this is like where I do the work.
+10:49 Yeah. I mean, so the there's some
+10:51 changes coming to the API where it will
+10:54 support multi out. For now, there's a
+10:56 little hack that you can use that I'm
+10:58 going to show you. So if you if you go
+10:59 to your workflow and you add a a text
+11:04 combiner at the very last step.
+11:07 [Music]
+11:08 Oh. Oh. But after the canvas. Yeah. Like
+11:11 the canvas is cool because it's going to
+11:13 sort of put them all together so you get
+11:14 an overview, right? Which is useful. But
+11:17 if you by API want the individual image
+11:19 URLs, then just add a text combiner. And
+11:22 what you could what you could do is you
+11:24 could just like do some JSON here where
+11:26 you say like you know curly brackets uh
+11:28 image one and then I don't even know how
+11:31 to write in JSON. I've only ever had AI
+11:33 write in got you got to vibe code it.
+11:35 But the basic idea would be that you've
+11:38 got like so if you if you look down
+11:39 there you've got image one, image two,
+11:41 image three, image four, image five.
+11:42 Those are images but they're image URLs.
+11:45 If you just like click on them, it's
+11:46 going to give you all of these as the
+11:49 sort of final step output of the API
+11:52 call for this individual glyph. And then
+11:54 you can just like pull those images and
+11:57 do with them whatever you want. Wait, so
+11:59 where would the canvas go in this
+12:00 workflow? Like would the output be in
+12:02 this in this world? So it depends on how
+12:03 you want to use this, right? Like if you
+12:05 want to use this just in glyph and you
+12:07 want to see everything on one image,
+12:09 then you want to have that canvas as
+12:11 your last step. But if if what you want
+12:14 is to get these individual images in
+12:16 like some vibe coded app then what you
+12:20 need is ideally um both the canvas
+12:22 actually you could put the canvas on
+12:24 render the canvas you could put the
+12:26 canvas so you would do a JSON output of
+12:28 all the images and the canvas and then
+12:30 you just plug those into the output of
+12:32 the app. Okay, great. I want to come
+12:34 back to this. We'll talk about this. I
+12:35 want to show the output because I think
+12:36 this is pretty solid. So this is one of
+12:39 the most important things about a
+12:40 YouTube video. like after this video,
+12:42 like I'll spend an hour, an hour and a
+12:44 half with my team thinking about how we
+12:45 want to package this episode. And it's
+12:48 it's hard to initially come up with
+12:49 ideas, but once you have a few ideas,
+12:51 it's a lot easier to be like, "Okay, we
+12:52 can do that, but we'll tweak it." And
+12:54 so, like my main page that I have is
+12:56 this. So, now I have five decent ideas.
+12:59 It's like the complete guide to vibe
+13:01 coding, build AI apps with just words,
+13:03 $5,000 in 24 hours. And we can zoom in
+13:06 here and we can see that these are like
+13:08 pretty good, you know, and they're not
+13:10 always perfect, but they always give me
+13:12 ideas. And then I can very easily go to
+13:15 the OpenAI API or OpenAI and ask it to
+13:18 like edit them. And I can also send this
+13:21 cuz I have a YouTube thumbnail guy and I
+13:23 can send them examples. I'm like, make
+13:25 it like this except change this. And so
+13:27 we create five different examples. And
+13:29 then if we like any of them
+13:30 individually, like let me show you. I
+13:32 can save this. So, I'm just going to
+13:34 save this image. Let's go ahead and call
+13:35 it vibe coding Riley. And one of the
+13:39 APIs that I wish you would add, I found
+13:41 this uh it's called Seagmind face swap
+13:44 v4. Let me try and find a good face
+13:46 swapper on glyph. And you can put that
+13:48 step right in there. It would be
+13:49 amazing. I would love to throw a face
+13:51 swap in. I'm pretty sure this thing
+13:54 you're using is using the inside face
+13:58 one and these these guys don't give out
+14:00 commercial licenses. So, we never we
+14:04 weren't able to get one, but I think a
+14:06 lot of folks just ignore it. Okay, this
+14:08 is a really bad image of me, but I just
+14:10 create I created this before the
+14:12 episode. And you can just drag in your
+14:14 face into here. And if you go into the I
+14:17 actually like the uh the swap type.
+14:20 Where's style? Oh, yeah. Here we go.
+14:23 Style is the way it's better. And this
+14:25 one takes like 20 seconds. I did a bunch
+14:27 of testing on these in case I actually
+14:29 just wanted a last minute thumbnail and
+14:30 I had to use one of these thumbnails.
+14:32 And they don't do that bad because it
+14:34 has examples of good thumbnails. I have
+14:36 some improvement ideas for your
+14:37 workflow. Yeah, let's hear it. If you
+14:39 send it to me, I can remix it and I'll
+14:41 show you. Amazing. Let's do that. One
+14:43 thing that's really cool is you can
+14:44 actually share these workflows with your
+14:45 team. And this is something that we're
+14:47 doing uh because our team's growing. So,
+14:49 I want other people to have access. And
+14:51 it's really easy. You just click share.
+14:53 And then I'm going to go to Twitter and
+14:55 send it to you. And then you're going to
+14:56 pull it up and you're going to remix it.
+14:58 And you can make these private or
+14:59 public. If they're public, then anyone
+15:01 can remix them. And I think that's just
+15:03 really cool. It allows me to find other
+15:04 people's workflows and I can remix them.
+15:06 This is a remix from a meme generator.
+15:09 So, it's great. Let's make some
+15:10 improvements to your VIP marketing
+15:13 workflow. So, I'm going to hit here for
+15:15 remix. Okay, so I've remixed Riley's
+15:19 thumbnail ideator because I want to add
+15:21 some cool extra feature, which is
+15:24 basically so you have like this is the
+15:27 main step, right? So, this is cloth on
+15:29 it and it's basically analyzing the PDF
+15:31 of yours and it's going to sort of come
+15:33 up with these ideas for thumbnails. And
+15:35 what we're going to do is we're going to
+15:36 add an extra step where we adding
+15:38 another LLM. So, we have a bunch of them
+15:40 here. What I want to be adding
+15:42 specifically is Perplexity because we're
+15:45 going to add like some online research
+15:47 to the whole thing. So, I can add
+15:49 Perplexity Llama
+15:51 3.1 Sonar 70B. Here, I'm going to call
+15:54 this one research. I'm going to say
+15:56 you're an online researcher working for
+15:59 a YouTube creator and you'll be
+16:02 researching stuff online for them or
+16:05 we're just going to say just so they
+16:07 have current context on the series of
+16:11 videos that they are creating. And I'm
+16:15 going to say research this topic and
+16:17 we're going to plug in your input.
+16:19 Right? So if you if you like whatever
+16:21 input you put in here, it's going to go
+16:23 in there. We can give it a few more
+16:25 tokens to work with. Let's say a
+16:26 thousand output tokens. And now we have
+16:28 this extra step research. And what we
+16:31 can do is now we go to this here. Here
+16:34 is the users video idea. Input one. Our
+16:37 research team found additional context
+16:40 that may be relevant. And now I'm just
+16:43 going to hit research. And that's going
+16:45 to plug in this generated step. And if
+16:48 we now sort of run this again, we're
+16:50 going to do current LLM jailbreaks. Now
+16:53 it's going to run this step first,
+16:55 right? And so we get the power of
+16:56 perplexities online stuff. So it's going
+16:59 to be a bit more current. We're working
+17:01 around the context cutoff or the
+17:03 knowledge cutoff issues that even the
+17:05 latest LMS will always have. This is
+17:07 something that I don't think enough
+17:08 people uh take into account with the
+17:10 current AI models is the fact that prior
+17:13 to adding this step when we put in our
+17:15 idea for the video all it has is my idea
+17:19 obviously and then it has all the
+17:20 different examples but it doesn't have
+17:22 all of the current culture and knowledge
+17:25 and new cuz when we say vibe coding
+17:28 right if I put in make a video about
+17:30 vibe coding about building an app with
+17:31 AI it actually doesn't fully understand
+17:34 it doesn't have proper context around
+17:35 what vibe coding means what people are
+17:37 doing with vibe coding, what popular
+17:39 apps are surrounded by vibe coding. And
+17:41 so this step will actually allow Claude
+17:44 because the following step will be
+17:45 Claude. It'll allow Claude to have that
+17:47 additional information. And that's how
+17:50 Claude might actually come up with the
+17:51 best memes or the best uh YouTube
+17:54 thumbnail and it might reference
+17:55 something that is popular in culture.
+17:57 And this is just very important. And
+17:58 this is how people are uh writing
+18:00 scripts like the most relevant scripts
+18:02 for social media especially. It's very
+18:04 important to give it internet access.
+18:06 And I'm assuming that maybe adding the
+18:08 Grock API because Grock just added
+18:10 search like their to their search API
+18:13 like you could even pull from Twitter
+18:15 directly. And so there's a lot of
+18:16 different ways to get context. This is
+18:18 super cool. Yeah. Yeah. And one of the
+18:20 inputs that Claw generated got flagged
+18:22 by
+18:23 OpenAI, so not all of them went through.
+18:26 And I think it's because there was like
+18:28 some mention of jailbreaks, but that's
+18:30 all right. We got we got a few of them.
+18:32 And um but yeah, exactly. So that's the
+18:34 that's the kind of step that gives it
+18:36 the context to have things that it may
+18:38 not have had in his training data
+18:40 because vibe coding is new. Claude
+18:41 doesn't know about vibe coding yet. And
+18:43 yeah, what you said about Grock and um
+18:46 real time access to all the tweets on X
+18:49 is going to be pretty awesome. So we're
+18:50 going to definitely add that. Another
+18:52 thing that might be cool showing is you
+18:54 can add other glyphs inside of your
+18:57 glyph. I don't know if you know that. So
+18:59 for example, I have a glyph called get
+19:02 random Vicki. So if I just run this,
+19:04 this is using a block called the web
+19:06 fetcher with which you can call any API
+19:08 and I'm calling a thing on Valtown that
+19:10 just gives me a random Wikipedia
+19:12 article. Let's say we want to add some
+19:14 randomness to your workflow, some
+19:16 entropy. What we could do is we could go
+19:18 in here and add another block and we're
+19:20 going to use a glyph block. And with
+19:21 that glyph block, we can just paste the
+19:24 URL of the glyph that we want. Get
+19:26 random Vicki is now in here. I'm going
+19:27 to call this Can you show Can you show
+19:29 what you pasted? Where did you get that
+19:32 code that you just pasted in there? It's
+19:34 just this sort of little piece here.
+19:35 That's the ID. And but also the URL will
+19:38 work. Technically, it just needs this
+19:39 ID. And so you put that in here. There's
+19:42 a bunch of like presets in here as well
+19:44 that are quite useful, right? Like
+19:45 extract text from website or prompt,
+19:48 etc., etc. But most of the time, I'm
+19:50 just going to use it for like stuff that
+19:52 I've made like another workflow I want
+19:53 to plug into um another workflow. And so
+19:56 now we've got random vici and this is
+19:59 probably not super useful for this
+20:00 particular workflow but for many it will
+20:02 be right and so here we could now go and
+20:05 be like also be inspired by this random
+20:10 thought you just had. Let's suppose you
+20:11 want to generate like wild ideas. What's
+20:13 the problem with LLMs and wild ideas is
+20:16 even though they're kind of not
+20:18 deterministic, they sort of are, right?
+20:20 And one of my favorite tricks is to just
+20:22 plug in random Wikipedia text, right?
+20:24 like you can just run this and it's
+20:26 going to just pull random bits of stuff
+20:28 from Wikipedia. So now we've got the
+20:30 Braggs law, also known as Wolf Bracks
+20:33 condition. So that's going to sort of,
+20:35 you know, pull it into a different
+20:36 direction. And what I like to do is I
+20:38 like to just like include that and tell
+20:40 it last night you may have dreamt this,
+20:42 you can ignore it. That's going to be
+20:44 enough to let's say you you have a
+20:46 workflow where you need this bit of
+20:48 entropy. It's going to sort of pull it
+20:49 into different directions. It's going to
+20:50 make it more creative. Cool trick. And
+20:52 uh yeah, at the same time, of course, an
+20:54 example of how you can like just take
+20:56 any any other glyph and put it inside of
+20:58 your glyph. That's very interesting cuz
+21:00 you're right. I've tried to get AI to
+21:03 create things at random. And you're
+21:04 right, it will kind of predictably come
+21:07 up with things that are random and it
+21:09 doesn't really help the workflow. That's
+21:10 very interesting. I've never heard of
+21:11 that where like you dreamt this last
+21:13 night, but don't worry about it. It's
+21:15 very similar to one guy I met in San
+21:17 Francisco tells cursor the cursor agent
+21:20 like in its cursor rules that he is uh a
+21:23 mixture between Rick and Morty and then
+21:25 one character from Silicon Valley. I
+21:28 forget which character from Silicon
+21:29 Valley. It's like you are this person
+21:32 and then it's like in last night you did
+21:34 this activity but it doesn't really
+21:35 matter that much. Now write your output
+21:37 and it's output's way more concise and
+21:40 you can find little ways to like get it
+21:42 to act in a certain way like where you
+21:44 change where it's looking in the uh
+21:46 training data and it's really fun. So
+21:48 that's a very useful trick. I'm trying
+21:49 to think of other ways that you could
+21:51 use glyphs within a glyph glyphception.
+21:55 Um and uh yeah. Yeah, I feel like my
+21:58 mind is going crazy. For example, what
+22:00 you could do is let's make a glyph that
+22:03 is basically using GP GPT image for face
+22:07 swap. Right? Now, the way we would do
+22:08 this is like we need two images, right?
+22:11 Like one is our target image. We're
+22:13 going to call this target and this one
+22:15 we're going to call face and then we're
+22:17 going to add an image generator at this
+22:20 step and we're going to pick GPT image
+22:22 by OpenAI. We're going to advance
+22:25 controls. And there we can do image URLs
+22:27 or blocks that return images separate
+22:29 with new lines. And so we're going to
+22:31 put face and then new line target. And
+22:34 I'm going to call this GPT face swap.
+22:37 And I'm going to publish this. And now
+22:40 we have to write a prompt, right? And
+22:42 we're going to try something very simple
+22:44 where we basically say take the person
+22:46 from the first image and replace take
+22:49 the person and face from the first image
+22:52 and replace the face on the second image
+22:54 with that one. Keep everything else
+22:58 exactly the same. And we're going to
+23:01 test this now. Then you're going to plug
+23:03 this into the other workflow, right?
+23:05 Yeah. And you know what? I'm going to
+23:06 grab my face from here and we're just
+23:09 going to test it with this one. So, I'll
+23:11 just like paste the URL here. That's the
+23:14 face. And then I'm going to I'm going to
+23:16 go to your workflow here. And we're
+23:18 going to copy this image and paste it
+23:22 here. That's good to know that you can
+23:23 just paste this image URLs. That's cool.
+23:26 Should be working. And now we're going
+23:27 to run this glyph. And let's see if
+23:30 that's going to work because I feel
+23:32 like, yeah, sometimes GPT image can do
+23:35 these face swaps reasonably well.
+23:36 They're not perfect, but they're fine.
+23:39 We might want to sort of adjust the the
+23:41 output size to match our target image
+23:44 because now it's going to generate a
+23:45 square one and obviously it's GPT image
+23:47 so it's going to take take its sweet
+23:48 time to do that. We could also let me
+23:50 see I have another I have another face
+23:52 swapper in here. So I'll just like take
+23:56 my face again and put it in here. And if
+23:59 that one works we can just also use this
+24:01 one. I'm going to copy this image
+24:02 address and put it in here. And we're
+24:05 just going to say some additional
+24:06 context YouTube thumb. Now, this one is
+24:08 using like a comfy workflow that's
+24:10 actually quite complicated because it
+24:12 sort of detecting the image on the
+24:13 target, the t the face on the target
+24:15 image, masks that then runs like an
+24:18 inside face, not the face swapper, but
+24:21 another sort of similarish um algorithm.
+24:24 And we can see now it's the sort of
+24:25 comfy flow. And while that's running,
+24:27 let's check in on our on the GPT one and
+24:29 see if that one worked.
+24:33 So, that kind of did kind of work,
+24:35 right? Yes, we need to we need to adjust
+24:37 it for landscape and then we can run it
+24:40 again. But can you try with my my face
+24:43 on Twitter? Of course. So, we're going
+24:45 to go grab your face. So, going to go
+24:48 here. Copy image address. And I think it
+24:52 was here.
+24:54 No. Okay. So, that's the other one. That
+24:57 is the other one. That's great. Uh, so
+25:00 obviously like this one is messing up
+25:01 the rest because we're looking at like a
+25:03 stable diffusion based workflow, but so
+25:06 I think I think this here will be much
+25:07 better. And we're going to sort of drop
+25:09 your face here. And then we're going to
+25:11 grab one of these again. I think this
+25:13 one was fine. Let's see. And now we add
+25:17 this as our target. So we're putting my
+25:19 face on one of the images that we
+25:22 generated in my workflow. Okay, correct.
+25:24 So now this is going to run and usually
+25:27 takes like 30 seconds GPT image. Hey,
+25:30 there we go. That's not bad actually.
+25:33 It's not bad. Yeah. Yeah. Basically, you
+25:35 would take this ID, right? And you could
+25:37 say, hey, I'm going to take one of these
+25:40 and in the end add like a glyph block,
+25:43 right? And then add this particular
+25:45 workflow we've made and we have like
+25:47 lift again. And then it's going to sort
+25:49 of perform the the face swap on your on
+25:52 the generated ones. And uh it's going to
+25:54 be a very sort of GPT heavy workflow in
+25:56 terms of like you know just credits and
+25:58 and image image gen. But uh it's worth
+26:00 it. I think it's pretty cool. Yeah. I
+26:02 mean as someone building a startup and
+26:04 we're trying to create so much content
+26:06 at scale like it's definitely worth it
+26:09 for us to just create these models like
+26:11 if we were to do that face swap step you
+26:13 know if sometimes it worked sometimes it
+26:15 didn't I would probably have it just do
+26:16 five different outputs so we have five
+26:18 options. So, so chat GBDS every step it
+26:21 has five chances and since they run in
+26:23 parallel it doesn't take any additional
+26:24 time. I take a few seconds because it's
+26:27 you have to wait for the one that takes
+26:28 the longest. But I think it's really
+26:30 cool to get a ton of options for things.
+26:32 And I think AI is really good for
+26:34 ideiation. And so one of my favorite
+26:36 things about creating workflows is just
+26:39 creating a ton of options that allows
+26:41 your team or for you to like get to the
+26:44 final output the quickest. I just want
+26:45 to talk about how you can actually turn
+26:47 this into a vibecoded app because we've
+26:50 actually done this on the vibe code app.
+26:52 I made a video on Twitter where I took
+26:54 the meme generator and I think the the
+26:56 the hook was Greg Eisenberg at the
+26:58 beginning like I took a photo of Greg
+27:00 and then I I had the im the input was an
+27:04 image. the um an image and a description
+27:08 of the person and then the output was
+27:09 one of those memes of that person where
+27:12 um and it and it was really funny and I
+27:14 plugged it into the app and I basically
+27:16 just asked cursor to do it cuz I've
+27:18 never written a line of code in my life
+27:19 and it it worked pretty well. I had to
+27:21 like battle with it maybe two or three
+27:23 iterations but it it worked after that
+27:25 and so you want to talk about that?
+27:27 Totally. Yeah. So so this one is cool,
+27:29 right? So this is this is a glyph I just
+27:31 made. This is a workflow that generates
+27:33 LM Studio like podcasts, right? So, it
+27:36 takes a topic, you tell it how many
+27:37 turns and those are the two inputs and
+27:40 it's sort of running it through claw
+27:42 GPT4 mini and then two audio blocks that
+27:44 generate two different speakers with 11
+27:47 labs. And then it's generating these
+27:48 types of like little little podcasts. If
+27:51 we were to if we were to run this via
+27:53 the API, you just basically want to go
+27:55 to this little button here, run via API,
+27:58 and that's going to give you a curl that
+28:00 you can just like literally paste to
+28:01 cursor winds or vip code app and it'll
+28:06 know what to do with it, right? Like
+28:07 you'll have to get a you click through
+28:09 to this page to get an API token, right?
+28:11 That's your little password secret that
+28:13 you also need to include in your app.
+28:15 Make sure it doesn't leak. This is not
+28:17 the VIP coder friendly version yet. I
+28:19 think there's another version going out
+28:21 where you just get like a piece of text
+28:22 that you can paste into whatever VIP
+28:24 coding app you're using and that's going
+28:26 to have all the context that the LLM
+28:28 needs to then integrate this glyph into
+28:30 your app. I want to make sure everyone
+28:32 understands how valuable this is because
+28:34 if you went to if you went to cursor and
+28:37 you're like I want to create an app that
+28:39 allows me to put in my idea and then it
+28:42 would you uh and then we're going to use
+28:43 perplexity to search the internet and do
+28:46 research on this thing and go through
+28:48 all these different steps and then
+28:50 create this LLM uh this uh kind of
+28:53 notebook LM style podcast as an output.
+28:56 It would be a nightmare. Maybe you'll
+28:58 get cursor to set it up once. But what
+29:00 happens when you actually want to modify
+29:02 it as a vibe coder? Even as a
+29:04 programmer, it would be annoying to like
+29:05 go through those workflows and and and
+29:07 and go through the code files and
+29:09 manually change the variables. So the
+29:12 reason why I think the marriage between
+29:14 no code automation and vibe coding is
+29:17 going to be so powerful is because it
+29:19 allows you to fully test this backend.
+29:22 And I think over time it's only going to
+29:23 get easier to add these backend
+29:26 workflows directly into your app. And so
+29:28 it's just one API call. It just looks at
+29:30 what the inputs are and gets the output.
+29:33 And so it doesn't matter how many steps
+29:34 are in between. You can add as many
+29:36 steps as you want and you can just test
+29:39 them right there. So you nail the
+29:40 backend. And so now when I'm making
+29:42 apps, I'm using glyph. I'm like in there
+29:44 creating these workflows and seeing what
+29:46 the input output is like. And then and
+29:48 then I think okay, how would should this
+29:50 work on the vibe code app, right? like
+29:52 how could I make this show up in a way
+29:54 that makes it the most like it completes
+29:56 the experience in a way that would be
+29:58 fun or it would go viral. It could rank
+30:00 number one on the app store. Um that's
+30:02 kind of how I'm kind of changed my
+30:04 thinking around creating these fun
+30:06 workflows. Totally. Yeah. I mean there
+30:08 there's like there's this like special
+30:09 place for a somewhat deterministic
+30:12 workflow where especially when you're
+30:14 kind of like dealing with AI models,
+30:15 right? Like not having to have six
+30:17 different API keys is kind of neat,
+30:20 right? So, and like being able to know,
+30:22 okay, I've set this up in a way where
+30:24 I'm like really happy with it. And you
+30:26 might sort of find that you want like a
+30:28 different voice here, right? So, you
+30:29 just pick like a different voice. I like
+30:31 Jeremy and I like um Charlotte. You
+30:33 might like another voice. And then for
+30:35 the sort of script writing, you might
+30:37 want something more unhinged. So, you
+30:38 basically can go in here and be you can
+30:40 basically say like, well, look, like
+30:42 these podcasts are like truly unhinged.
+30:43 They're like more comedy stage than
+30:45 regular podcasts. So, you just change it
+30:47 here. You run it. You test it until
+30:49 you're happy. And once you're happy with
+30:51 this workflow, you just do this last
+30:53 step and you get like everything you
+30:55 need to plug it into your app into your
+30:58 sort of like front end that you've
+30:59 created. And obviously, yeah, you're
+31:01 just only using one API key for it. And
+31:02 it makes it Yeah, that makes it so much
+31:04 easier to not have to get like 10
+31:05 different APIs. Yes. Yes. There's
+31:08 workflows, there's apps, and then the
+31:10 third thing is agents. And I think the
+31:12 key difference between like a workflow
+31:14 and an agent is that an agent instead of
+31:17 having this one thing that it always
+31:18 just goes through step by step, agents
+31:20 decide themselves what to run, when to
+31:22 run it. And you just basically set up an
+31:24 agent and give it a bunch of tools. And
+31:26 so in this world, like the glyphs become
+31:29 individual tools that are used by the
+31:30 agents. And so one fun agent I've made
+31:33 for myself is Clawberg. And Claudeberg
+31:37 is my Bloomberg terminal replacement.
+31:40 And the way it works is that I go, "Hey,
+31:42 Clotber, let's find some unique
+31:45 opportunities for stocks to short this
+31:49 week." And um so what Clotber will do,
+31:51 it has like a custom UI that I've wipe
+31:54 coded and it'll check the date. It'll
+31:56 say, "Good to see you again, Fabian. Let
+31:58 me scan the landscape first." Then it's
+31:59 running a tool called basic internet
+32:02 search. So it's learning about stuff
+32:04 that's been happening. Geopolitical
+32:05 tensions running high. Let me dig
+32:07 deeper. Let me see what's moving. So you
+32:09 can give you give you can give these
+32:11 agents access to tools as well as glyphs
+32:16 as tools. It it has access to glyphs but
+32:18 because glyph can access any other thing
+32:21 in this case the basic internet search
+32:23 is a glyph. It's a glyph with
+32:25 perplexity. Got it. And now so it's
+32:27 identifying palenteer is interesting. So
+32:29 it's generating for me these artifacts
+32:32 that are visualizing the stock data.
+32:35 This is HTML. Wow. Wow. That's insane.
+32:39 And so it's going through, as you can
+32:40 see, like all I did is I said, "Hey,
+32:42 let's find some unique opportunities for
+32:43 stocks to short." And so it's going
+32:45 through all of these and then it's
+32:46 generating this report where it says
+32:47 like primary short is Palencia.
+32:49 Secondary short is Lulu, Lululemon. And
+32:52 those are the recommendations it came up
+32:54 with. And I can go through these check
+32:56 out. It also has like super micro
+32:58 computer inc, but seems like it doesn't
+33:00 want me to short that one. And now the
+33:01 cool thing is that we've made it like
+33:04 extremely easy to make these agents.
+33:05 I've got one that's called Longevity
+33:07 Genius, which I quite like because I can
+33:10 just go and say, "Hey, can you can you
+33:13 research what are some hot new
+33:15 supplements for brain health and
+33:19 generate a podcast on them?" And so this
+33:22 this guy here is going to go and use its
+33:24 skills as we call it in that context. So
+33:27 it's going to run web search with
+33:29 perplexity four times. Then it's going
+33:31 to sort of take that knowledge. I've
+33:33 uncovered some fascinating developments.
+33:34 let me create a podcast that dives Steve
+33:36 into these topics and now it's running a
+33:39 skilled generate andplay podcast. Right
+33:41 now that's going to take a while because
+33:42 it's like generating all the speech and
+33:44 everything. The idea is you've got the
+33:46 workflows on one side and then you have
+33:48 the agents on the other side and they
+33:50 are using the workflows. And we've all
+33:52 seen Manis and like Genpark super agent
+33:55 etc etc and they're cool. They're great
+33:57 products but I don't want to live in a
+33:59 world where we're all using the same
+34:01 three agents. Like I think everyone
+34:02 should have their own agent or multiple
+34:04 agents and it should be like as easy
+34:06 making it an agent as it is to write a
+34:08 prompt basically. Right. Yeah. And so
+34:11 this this is insane. This is actually
+34:13 this is really exciting because I think
+34:16 you know like someone watching this
+34:17 right they saw me create this YouTube
+34:19 thumbnail workflow and they're like oh
+34:22 it would probably take time to create
+34:23 the YouTube workflow and then maybe I
+34:25 have an Instagram workflow and maybe I
+34:26 have a script writing workflow but you
+34:29 can basically take all of the workflows
+34:30 that you create on here and basically
+34:33 give them access to one singular agent.
+34:36 So, I could have a content creation
+34:37 agent. Correct. Or or I could just have
+34:39 a Vibe Code app marketing agent that has
+34:41 access to all these different workflows
+34:43 and then any new hire that we bring on,
+34:46 it could have access to the way that we
+34:48 think. I want people to understand why
+34:50 we're doing certain things and you can
+34:52 actually include that in the output
+34:53 whether you do that through HTML code or
+34:55 canvas like features. But you're
+34:57 basically centralized. me just you can
+34:59 just type YouTube thumbnail with the
+35:00 idea of blank because basically the the
+35:03 central agent is actually just deciding
+35:05 what to input into the glyph sort of
+35:09 right. Okay, cool. And so here now this
+35:11 guy just went like the four times
+35:13 perplexity search uncovering some
+35:15 interesting new directions for brain
+35:18 health and then it generated a podcast
+35:20 that you can listen to here with a
+35:21 microphone here. So, I've been hearing
+35:23 this term everywhere lately, vibe
+35:26 coding. Like literally every Yeah, you
+35:29 get the point. It's like a sort of that
+35:30 one is deterministic. It's not vibe
+35:32 coding it. like it knows how the
+35:34 structure of that HTML is going to look
+35:36 like and it's going to sort of run this
+35:37 sort of thing to generate the podcast
+35:39 and to play it and you can download the
+35:41 episode and yeah and so basically you
+35:43 can like go and also like we have some
+35:45 stuff like Tik Tok studio which is a fun
+35:48 one or you can go in and be like so that
+35:50 one's going to generate I think brain
+35:52 rot if I go and say hey let's first do
+35:56 five images on spooky castles of the
+35:59 world and it's going to go and run like
+36:02 it has access to this tool which is
+36:04 called so I've made a tool called fast
+36:06 Tik Tok image which is just using flux
+36:08 schnell to generate these like crappy
+36:12 sloppy AI castles now it's running them
+36:14 all and now I can go sweet let's turn
+36:17 this into a podcast and then a video and
+36:21 so now it knows I've got access to
+36:23 generate podcast version two I've got
+36:26 access to create Tik Tok video and so
+36:28 the first thing it's going to do is
+36:29 going to sort of generate the audio part
+36:31 and then it's going run this other glyph
+36:33 which is generating the Tik Tok videos.
+36:35 And so you can see where this is going.
+36:37 So it's basically the sort of like
+36:38 hyperpersonalized agent that has access
+36:40 to the specific tools that you or your
+36:42 marketing team or your colleagues or
+36:44 your family or your kids want to use and
+36:47 then it decides itself when to use which
+36:51 skill as we call them. They're just
+36:52 tools. They're glyphs. We're calling
+36:54 them skills in this context when they're
+36:56 used by the by the glyph agents. Um is
+36:59 awesome. I genuinely like I think this
+37:01 is such an ideal interface for glyphs. I
+37:04 think having a bunch of different pages
+37:06 open can be kind of intimidating and so
+37:08 if you want to create a workflow but
+37:10 like this is just a chat interface that
+37:12 many people are used to. Yes, it will
+37:14 take some time to set up but like that's
+37:15 the fun part for a lot of people who
+37:18 want to dig in and actually personalize
+37:20 these workflows. And it's worth it,
+37:22 right? If you're doing anything
+37:24 creative, if you're if and you want to
+37:25 do it repeatedly, like it's worth the
+37:28 time to get your hands dirty. And you
+37:30 can always start with other people's
+37:31 glyphs as well. Like you can remix
+37:33 people's glyphs. Maybe you only need to
+37:35 alter it a little bit. And so that's a
+37:37 really interesting way of creating these
+37:39 like mini apps. I really cool. I I'm
+37:42 very excited. When can uh people expect
+37:44 this to drop? This is basically in the
+37:47 final stages of testing and we're going
+37:49 to open it up very sooning. days, not
+37:52 weeks. Amazing. Amazing. Let's go. I'm
+37:55 excited. I'll I'll send you the thing
+37:56 that it's generating here because
+37:58 they're quite it's generating it's
+38:00 generating a video. And so the thing the
+38:03 way it's set up is like this guy. It
+38:04 literally has as it prompt you're
+38:06 helping folks create all kinds of
+38:07 content using various tools. Use a bunch
+38:09 of images per video, not just one. And
+38:11 that's it. You can obviously go much
+38:12 more sophisticated on that. But this is
+38:14 the only prompt it has. Plus, it has
+38:17 like access to these like tools. And
+38:19 this is really what makes it kind of
+38:20 like understand especially when you're
+38:22 using I think like this one's using claw
+38:24 4 like these brains they're also just
+38:26 glyphs. So you're running a glyph as its
+38:28 brain essentially and then you have like
+38:31 yeah you can like change the theme while
+38:32 we're waiting for this to we're going to
+38:34 go YouTuber theme use gradients and
+38:36 those uh agents they're going to get an
+38:38 API as well. So once you have an agent
+38:41 and that can be a personality. So say
+38:43 say you've made you've really crafted a
+38:45 personality that is extremely unique in
+38:48 how it chats then again same thing
+38:50 single button turn this into a chat app
+38:53 and so it's kind of like you basically
+38:55 get full access to the agent and then
+38:58 you make your own front end for it in
+39:00 VIP code app or you make like a specific
+39:03 type of setup where it's like hey
+39:05 actually anytime I just press this
+39:07 button on my on my vipcoded app I want
+39:10 the agent to do this at vcode Hey, once
+39:13 you release this, we're going to make it
+39:15 as easy as possible to integrate it with
+39:18 the Vibe Code app so you can create
+39:19 these experiences on mobile and get them
+39:22 on the app store because I think AI
+39:23 agent-based tools like these are going
+39:26 to crush on the app store like genuinely
+39:28 because you know the current apps are
+39:30 are quite dumb, you know, especially on
+39:32 the app store and I think we're going to
+39:33 go through this period where like people
+39:35 are going to create much cooler apps
+39:37 that can do a lot more creative things
+39:38 and I definitely think that this is the
+39:40 interface that to like create them. I
+39:42 think this is great from like a vibe
+39:44 coders perspective is you just create
+39:46 the workflows and you get it
+39:48 deterministically to run well. Not
+39:50 deterministically, but like you get it
+39:51 to, you know, 98% of the time it's doing
+39:54 what you want it to do and then you're
+39:55 like, you know what, this is a super
+39:57 useful workflow. And since you have so
+39:59 much customizability, you can embed your
+40:02 knowledge, right? You can embed your
+40:04 what you've learned in any given domain
+40:06 and include them in a PDF reference
+40:08 somewhere. And maybe that's the secret
+40:09 sauce to make it work. and you can turn
+40:12 that into an app and you can monetize
+40:13 it. I'm super excited for you guys. Like
+40:16 this is a really cool tool. Send you
+40:17 some examples. Like it gives you this
+40:19 like classic YouTube Tik Tok style with
+40:21 like um subtitles and everything. But
+40:24 yeah, that's the that's the vibe of it.
+40:26 And yeah, I think it's going to be
+40:27 really it's going to be really cool.
+40:28 Like you can do entire games like
+40:30 agent-based games basically. It's going
+40:32 to be interesting. Amazing. Well, thank
+40:34 you so much for coming on. This was
+40:36 super fun. Super excited for the agent
+40:38 tool. Let me know the day it comes out.
+40:40 I will be testing it, probably make a
+40:42 video on it and maybe create some
+40:44 vibecoded stuff with it. And yeah,
+40:46 appreciate you coming on 100%. Well,
+40:48 yeah, this is a really in-depth look at
+40:50 Glyph. And I think once you kind of
+40:53 learn the interface, like you'd be
+40:54 surprised at how many cool use cases you
+40:57 come up with. What I've always found
+40:59 with vibe coding, with tools like glyph,
+41:02 like no code automation, you come up
+41:04 with more ideas the longer you use them.
+41:06 It's hard to come up with ideas, but
+41:08 after you create one workflow, you're
+41:09 like, "Oh, wait. I could do that
+41:10 workflow, but for this. Oh, for this.
+41:12 And before you know it, you have 10
+41:13 different workflows. And then I just
+41:15 save these as bookmarks. And just
+41:16 anytime you need a thumbnail, I just go
+41:18 to my thumbnail glyph. I just type it
+41:19 in. I just type my idea. Now I have five
+41:21 ideas. Now we're rocking and rolling.
+41:23 Now I can send it to my editor and say
+41:25 create two or uh three thumbnails
+41:27 similar to this with these titles. And
+41:30 yeah, I'm going to slowly build out
+41:32 every decision that we make as a
+41:33 marketing team into workflows. And so
+41:35 yeah, thank you for giving us the
+41:37 rundown on this. That was awesome. My
+41:39 pleasure.

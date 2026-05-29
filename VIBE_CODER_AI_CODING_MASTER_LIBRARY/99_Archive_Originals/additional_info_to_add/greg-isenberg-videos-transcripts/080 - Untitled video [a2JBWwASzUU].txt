@@ -1,0 +1,1019 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=a2JBWwASzUU
+Channel: Greg Isenberg
+Video ID: a2JBWwASzUU
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 This is not your standard SIP episode. I
+0:03 brought on this guy who went from zero
+0:06 to 250 million mobile app installs using
+0:09 some open-source AI models. He tells the
+0:13 whole story how he did it. You know, it
+0:15 definitely fired me up around this whole
+0:17 new wave of creating, you know,
+0:19 multi-million dollar uh mobile apps in
+0:24 under 7 months.
+0:27 [Music]
+0:33 Ben, you've created these AI apps.
+0:35 You've got hundreds of millions of
+0:36 downloads. You're backed by Nvidia.
+0:39 I want you to teach us, well, actually,
+0:42 what do you want to teach us before what
+0:44 I want you to teach us?
+0:45 >> Yeah. Uh, I thought I'd just come on
+0:47 here and talk about a strategy that's
+0:49 worked well for me in many different
+0:51 domains in life. Uh, and it's sort of a
+0:54 basic fundamental of mimisus, which is
+0:59 if something is working, then probably
+1:01 you can copy it and put your own spin on
+1:03 it and it'll continue to work.
+1:05 >> Okay? And by the end of this episode,
+1:07 like what are the concrete things that
+1:10 people are going to learn?
+1:11 >> I'm going to show you how I've applied
+1:13 that strategy to the few different uh
+1:16 successful things in my life. how I used
+1:19 it to come up with a concept for an app,
+1:22 my first mobile app ever that got over
+1:23 100 million downloads. How we use that
+1:26 concept to consistently go viral on
+1:29 Instagram and have reels that get
+1:32 millions of views and that are on one
+1:35 hand a remix of something else that
+1:37 already exists, but on the other hand
+1:39 something that we put our own unique uh
+1:42 flavor on.
+1:43 >> Okay. I mean, how to create apps that
+1:45 get millions of downloads, how to get
+1:47 how to create content that gets millions
+1:49 of views, how to raise, you know,
+1:51 millions of dollars from from people
+1:53 like Nvidia. You you have my attention.
+1:56 >> Okay, let's do it. It's actually pretty
+1:57 [ __ ] easy if you uh don't overthink
+1:59 it too much. Um, so, okay, first very
+2:02 brief anecdote. I think I picked up this
+2:04 principle from video games. I was a
+2:06 jungle main in League of Legends. I was
+2:08 sort of like a platinum gold level
+2:10 player which is like 60th 70th
+2:13 percentile. I wanted to get better. So I
+2:15 started watching streams of players that
+2:18 were better than me that were playing
+2:19 the same role and I would just copy them
+2:22 and then put my own spin. So that's
+2:23 where this sort of entered my head for
+2:25 the first time.
+2:27 Uh in the summer of 2020,
+2:30 I applied this to conceptualize and
+2:33 eventually launch uh one of the most
+2:35 viral apps ever, Aombo. Uh so there were
+2:38 a few signals that I picked up on. First
+2:41 was Reface.
+2:43 Uh Reface in the summer of 2020 was the
+2:46 number one app on the app store and Dre
+2:48 invested and led a $5.5 million round.
+2:52 And what got my attention about this was
+2:53 it was an app that I fully understood.
+2:56 Uh, so what did Reface do? Reface did
+2:59 face swaps. So you could put in like a
+3:01 Cardi B music video,
+3:03 >> take a selfie, it would put your selfie
+3:05 into the Cardi B music video. Hundreds
+3:07 of millions of downloads, memes that,
+3:09 you know, my friends were sending each
+3:11 other. Um, I knew which model they were
+3:14 using and how they were accomplishing
+3:15 this. And the the design of the app was
+3:19 also very simple and intuitive and kind
+3:21 of made sense to me. So that was the
+3:23 first seed.
+3:24 Uh, the second seed was this PewDiePie
+3:28 video
+3:29 >> where he covered some very strange
+3:32 memes. And we can see the date here, 4
+3:35 years ago, August 2020.
+3:38 >> It's beautiful. It's beautiful. And of
+3:40 course, this got 7 million views because
+3:42 it's PewDiePie. Um, and this got my
+3:45 attention as well because this was
+3:47 another open source AI model that I was
+3:49 familiar with called the first order
+3:51 motion model. And uh it was starting to
+3:54 go viral in sort of the AI circles and
+3:57 also just like the hardcore like Discord
+3:59 autist circles like people on their
+4:01 computers for like 14 hours a day. Um
+4:04 and they were Yeah, people like us.
+4:06 >> And they were using a Google Collab
+4:08 notebook uh to basically stitch this
+4:10 output together. You gave it a selfie,
+4:13 you gave it a driving video, which is
+4:14 what kind of creates this animated
+4:17 choreography. It's actually someone else
+4:19 moving their head around.
+4:21 And so this one driving video of a guy
+4:23 singing uh Baka Mita Thai went viral
+4:26 over and over and over again. And so one
+4:29 night I'm uh smoking a joint with my
+4:31 roommate on the roof. We're looking at
+4:32 these memes. Someone made a Telegram bot
+4:34 where you could do something similar.
+4:36 We're like, man, like
+4:38 why doesn't someone just make an app
+4:40 like where anyone can do this where it's
+4:42 simple? Uh, and so immediately like it
+4:46 kind of starts off as a joke, but the
+4:48 circuits start firing like, "Oh wait,
+4:50 like Reface just did the same thing.
+4:52 They have hundreds of millions of
+4:53 downloads. Here's a new open source AI
+4:55 model that like no one's done this for
+4:57 yet." Like easy. Like we're going to be
+5:00 billionaires. We'll get this done in a
+5:02 week, you know. Um, did not take a week.
+5:05 Took us seven months. But in uh March of
+5:09 2021, we launched Wombo. And maybe I can
+5:12 find a quick
+5:14 uh walkthrough on YouTube.
+5:16 >> When when you had this idea and you saw
+5:19 that A16Z reace company, like a lot of
+5:22 people would look at that and be like,
+5:23 "Okay, they're going to win this space."
+5:26 Like, you know, it's already going to
+5:27 get competitive. But you kind of said,
+5:29 "No, no, no. I'm going to create an I'm
+5:31 going to compete with them."
+5:33 >> Yeah. I wasn't thinking that I'm going
+5:35 to compete with them. I was just
+5:36 thinking like it's early like there's
+5:38 lots of space to play like I don't know
+5:41 like there's
+5:44 where my mind goes to is like uh like
+5:46 like movie directors or or musical
+5:50 artists like we're never going to run
+5:52 out of like new movie directors or
+5:55 artists like we're going to continuously
+5:58 want new interesting [ __ ] So I I don't
+6:01 think anything is like too crowded.
+6:03 >> Mhm.
+6:03 >> Yeah.
+6:04 >> Abundance mindset. Yeah,
+6:06 >> Sam Alman, the co-founder of OpenAI,
+6:09 just said that it is the era of the idea
+6:11 guy, and he is not wrong. I think that
+6:15 right now is an incredible time to be
+6:17 building a startup. And if you listen to
+6:18 this podcast, chances are you think so,
+6:20 too. Now, I think that you can look at
+6:22 trends uh to basically figure out uh
+6:26 what are the startup ideas you should be
+6:28 building. So, that's exactly why I built
+6:30 ideabser.com. Every single day you're
+6:33 going to get a free startup idea in your
+6:35 inbox and it's all backed by high
+6:39 quality data trends. How we do it?
+6:42 People always ask. We use AI agents to
+6:44 go and search what are people looking
+6:46 for and what are they screaming for in
+6:49 terms of products that you should be
+6:50 building and then we hand it on a, you
+6:53 know, silver platter for you to go check
+6:55 out. Um, we do have a few paid plans
+6:58 that, you know, take it to the next
+7:00 level. uh give you more ideas, give you
+7:02 more AI agents and more almost like a
+7:05 chat GBT for ideas with it, but you can
+7:07 start for free ideabrowser.com. And if
+7:10 you're listening to this, I highly
+7:11 recommend it. Um, so I'll just kind of
+7:14 briefly walk through this. You can
+7:16 actually see that in this video, this
+7:18 lady shows this old Google Collab
+7:21 notebook for the first order motion
+7:23 model. So like my grandma could never
+7:24 use this [ __ ] Like I mean she could if
+7:26 I like taught her Python.
+7:28 >> Yeah. but like she could never use that.
+7:31 Um, so here we go.
+7:34 Uh, you would take a selfie. That's the
+7:36 first thing you do. Then you pick a song
+7:40 and then you sit through a little
+7:41 loading screen like this. And then
+7:45 finally, you get your output. And uh,
+7:48 we'll just see see that at the end.
+7:50 obviously looks super basic by 2025
+7:53 standards, but literally those three
+7:56 screens of input, song selection,
+8:01 output,
+8:02 oh, sorry, loading screen, and then
+8:04 output, four screens. That's all we
+8:06 needed to get 100 million downloads. And
+8:09 uh we intentionally sort of designed
+8:12 something that would be extremely simple
+8:14 to use. um sort of uh the whole thing is
+8:18 engineered for verality in a way because
+8:21 the whole expectation is you as a user
+8:24 come in, you make a piece of content,
+8:26 you make that piece of content extremely
+8:28 easily and extremely quickly and then
+8:31 your natural inclination is to share or
+8:33 to make another one where like your dad
+8:35 is the one singing or the pope or a
+8:37 politician or whatever. And so we we
+8:41 spent no money on marketing and we spent
+8:45 all our money on inference and uh that's
+8:48 that's how the thing went viral.
+8:51 Now maybe the only other thing I'll say
+8:52 here and I'll kind of kiss my own ass a
+8:55 little bit here is the song selection.
+8:57 >> Mhm. Uh
+9:00 we selected 15 songs that we launched
+9:02 with and these are some of the most
+9:04 recognizable and iconic songs of all
+9:07 time or there were songs there were kind
+9:10 of meme songs and so like you know one
+9:13 example of something that would make a
+9:15 song a meme song is you don't need to
+9:17 know English to vibe with it.
+9:19 >> Uh for example uh boom boom boom boom by
+9:21 the Wenger boys.
+9:22 >> You don't need to know English. No
+9:24 >> sounds great.
+9:25 >> Yeah. Absolutely.
+9:25 >> Wherever you are.
+9:26 >> Yeah. And so we we really deliberately
+9:28 picked those 15 songs and then we really
+9:31 deliberately made the 15 driving videos
+9:34 for those songs. And uh that was I think
+9:39 key
+9:40 >> and and he made it like stupid simple.
+9:42 >> Stupid simple
+9:42 >> stupid like this is you can give this to
+9:45 a 5-year-old and they'll know what to
+9:46 do.
+9:47 >> Exactly.
+9:47 >> A buddy of mine has a an app that's
+9:49 going viral right now. Maybe you've seen
+9:51 it. Mixie.
+9:52 >> Mixie.
+9:53 >> Yeah. Have you seen that?
+9:54 >> I think so.
+9:55 >> Yeah. So, it's like a mashup. Um, like
+9:58 go to just just Google Mixi
+10:01 >> Mixie app.
+10:03 >> I think it's with an I. There it is.
+10:05 >> Oh, yeah. I've seen this.
+10:06 >> Yeah. So, it's like two guys.
+10:10 >> Um,
+10:12 you know, you put two beats together, it
+10:15 mashes it up. Like, simple idea, right?
+10:17 But the UI is really simple. Um, and
+10:21 they're getting like
+10:22 >> I mean, it's one of the top music apps.
+10:24 Yeah.
+10:24 >> Um, I don't know the monetization of
+10:26 this, but
+10:29 I think there's this whole next there's
+10:31 this whole new generation of apps that
+10:33 are just like really stupid simple.
+10:35 >> Um, that uh I mean it's a similar
+10:39 concept, right? Like I'm sure his songs
+10:41 are like he's doing a queue of songs
+10:44 that you know people actually want to
+10:45 choose, right? Um, it's simple UI. Um,
+10:50 and it's viral because you want to share
+10:52 that on IG, etc.
+10:55 >> Yeah. I I personally
+10:57 like starting with stupid simple
+10:59 >> and maybe from stupid simple you can do
+11:02 something more advanced and interesting.
+11:04 >> Yeah.
+11:04 >> Um, but
+11:05 >> with with respect to mobile apps, right?
+11:07 >> With respect to mobile apps.
+11:08 >> And I mean it it all kind of boils down
+11:10 to attention at the end of the day. Like
+11:12 if if you're trying to make a product,
+11:15 uh it's not just someone's money that
+11:17 you're after. Like even before that,
+11:19 it's their attention. And there's so
+11:21 many [ __ ] distractions. There's so
+11:22 many different things that are pulling
+11:24 you in a million different directions at
+11:25 all times that I find the best way to
+11:30 sort of introduce myself and get
+11:32 someone's attention for the first time
+11:33 is to do something stupid, do something
+11:35 funny, do something simple, not try to
+11:38 [ __ ] explain Socrates to them or
+11:39 something. Um, but just basically tell a
+11:42 small joke or another analogy could be
+11:45 like give them a small piece of candy,
+11:46 >> right?
+11:47 >> As opposed to like, you know, here's a
+11:48 [ __ ] steak,
+11:49 >> right? Yeah. Because what I'm trying to
+11:51 figure out, what I'm trying to reverse
+11:52 engineer is how do you create a mobile
+11:54 app that gets millions of downloads? So,
+11:57 stupid simple one.
+12:00 >> What else? Uh so uh in our case there's
+12:04 always been some kind of viral content
+12:06 creation loop meaning someone comes in
+12:09 makes a piece of content shares that
+12:12 content on other platforms and that's
+12:14 what drives your user acquisition. Um
+12:17 and so that whole uh that whole
+12:21 component has a lot of extremely
+12:23 important details. Um so first is the
+12:25 content creation. How are you going to
+12:27 help someone make a good piece of
+12:29 content? Also, the game has changed
+12:31 since 5 years ago uh with how far
+12:33 generative AI has come um and the kind
+12:36 of content that people are interested in
+12:38 making, but still I think it's
+12:39 applicable today. Um so here's how I
+12:43 would boil it down. How do you how do
+12:45 you help someone make a piece of content
+12:47 that either they're going to post on
+12:48 Instagram and post on Tik Tok for the
+12:51 algorithm and the algorithm is like
+12:53 that's a great piece of content. let's
+12:55 give it millions of views or more for
+12:57 their own like personal networks and the
+13:00 people in the personal network are going
+13:01 to be like wow that's really awesome I
+13:04 want to make that thing too
+13:05 >> so you're basically saying you start
+13:07 with the content like the end content
+13:09 which is kind of what my friend Joe is
+13:11 doing with Mixie right cuz like he knows
+13:13 that people want to share these mixes
+13:16 >> absolutely and so like you know one
+13:18 thing maybe we could touch on briefly is
+13:19 just the algorithmic feeds of today like
+13:23 the amount of human attention that is
+13:24 just being sucked into the full screen
+13:27 infinite scroll format whether it's Tik
+13:29 Tok or Instagram or YouTube shorts or
+13:32 you know X has one like that is just
+13:34 like the battlefield of attention and so
+13:37 I think like a great source of product
+13:39 inspiration is to look at that and look
+13:42 at where are people's attention going
+13:43 what kind of content are people making
+13:45 can I make it easier for them to make
+13:47 some some piece of content that is
+13:49 consistently going viral over and over
+13:51 again
+13:52 >> and then and then put my watermark in
+13:54 the bottom right.
+13:55 >> Does this only work for like BTOC fun
+13:57 apps or could this also work for like
+14:01 B2B or or proumer type apps?
+14:04 >> I think it could work for everything.
+14:06 like you probably need to adjust your uh
+14:09 like principles a little bit and like
+14:11 you know maybe I'm going to stop paying
+14:13 attention to the Tik Tok algorithm and
+14:16 start paying attention to like I don't
+14:17 know the conference that all the people
+14:19 in a particular niche are going to but
+14:22 it's it's the same thing like what do
+14:24 the people you care about pay attention
+14:26 to
+14:27 >> right
+14:27 >> and where right
+14:29 >> and and sort of the key the key point is
+14:34 like look at what other you you know,
+14:36 look at the content, look at what's
+14:38 going viral, and then apply that to
+14:40 whatever it is you're doing.
+14:41 >> Yes. So, in the case of Wombo in the
+14:45 summer of 2020, it was, well, Reef is
+14:48 just got a number one app and hundreds
+14:50 of millions of downloads, and hey,
+14:52 there's this new model now, which is
+14:53 still very hard to use. This is another
+14:56 very good signal, by the way. If
+14:58 something is going viral inside of like
+15:01 some technical circle, but it's still
+15:03 it's still difficult for a lay person to
+15:05 use, then uh if you can help the lay
+15:09 person get access to that same
+15:11 technology and make it easier for them,
+15:13 that's typically like a really good
+15:15 recipe for verality or a really good
+15:17 sign that something might go viral. Um,
+15:21 so I'll just wrap up the the Wombo
+15:23 story. Y
+15:24 >> from kind of that moment of inspiration,
+15:26 it took us seven months to actually get
+15:28 the app on the app store. Uh, but we
+15:30 finally launched it in March of 2021. It
+15:34 went insanely viral, got like 50 million
+15:36 downloads in its first month, uh, in
+15:39 first 3 months. And um you know after
+15:42 sort of some just like stabilizing and
+15:44 taking it all in and raising a little
+15:46 bit of money and building out our team
+15:48 uh the obvious like next question was
+15:52 okay well we just did this with one AI
+15:54 model. What other AI models can we do
+15:57 this with? And now this is a really
+15:59 obvious question to ask in 2025 in the
+16:02 age of AI. Um again 2020 was still a
+16:05 little bit different earlier. Generative
+16:07 AI was not even a buzz word yet
+16:09 >> and generative AI is already a buzz word
+16:11 that we've moved past now which
+16:14 >> what's the latest now
+16:15 >> I feel like now it just like AGI super
+16:17 intelligence like agents
+16:19 >> you know
+16:21 uh so the next concept was dream which
+16:25 was an artwork generator um for the
+16:27 nerds it predates midjourney and stable
+16:30 diffusion and deli and was basically the
+16:33 first time that image generation went
+16:35 viral now of course image generation is
+16:37 everywhere. Um and uh we saw something
+16:41 very similar happening again almost the
+16:43 exact same thing we saw happening with
+16:44 Wombo. Uh people were playing with a
+16:47 combination of two models VQ GAN
+16:51 [ __ ] Vugan and Pashan I need your help.
+16:55 >> What's up?
+16:55 >> I forgot what were the two models.
+16:57 >> Huh?
+16:58 >> Diffusion models.
+16:59 >> It was Vugan diffusion.
+17:00 >> Vugan clip.
+17:01 >> Vugan clip. That's right. Vugan clip. So
+17:05 you combine VQGan with clip, you could
+17:07 generate these crazy dreamlike images.
+17:10 There was like maybe 20 or 30 people on
+17:12 Twitter um and really like five at the
+17:15 beginning who were like messing around
+17:17 with this stuff. And those were like the
+17:19 earliest incantations of like this era's
+17:22 neural networks for image synthesis. And
+17:25 we did the same thing. Uh we wrapped
+17:28 that up into a fun and easy to use
+17:30 mobile app. We made an an extremely
+17:33 optimized version of the model which had
+17:35 fast generation times
+17:38 and uh we we we did some templating to
+17:42 make it easier to create high quality
+17:45 images. Basically just adding words to
+17:47 the prompt that the user gave us. And uh
+17:51 exactly the same thing happened another
+17:53 number one app.
+17:56 And many of the lessons that we learned
+17:58 from Wombo about give the user as simple
+18:02 to provide input. In the case of Wombo
+18:04 is a selfie. In the case of Dream was a
+18:06 text prompt.
+18:08 Pre-process that user's input with your
+18:11 own input that kind of like structures
+18:13 it and makes it work well. So in the
+18:16 case of Wombo, it was the driving video.
+18:18 In the case of Dream, it was the kind of
+18:20 stylistic keywords that we were adding
+18:22 to the user's prompt. uh make the
+18:25 inference really really fast and free
+18:27 for the user. Um did that in both cases
+18:32 put all that together in a fun and easy
+18:34 to use interface and you have something
+18:36 with like all the ingredients for
+18:37 verality.
+18:38 >> Okay. And um like Okay. So it goes
+18:42 number one. What next?
+18:45 >> Yeah. So just in terms of the trajectory
+18:49 of the company,
+18:51 listen, I had no idea what the [ __ ] I
+18:52 was doing. Like I'm not like one of
+18:54 these like Silicon Valley kids who like
+18:56 watched every Paul Graham video. I was
+18:59 just like smoking weed in my bedroom
+19:01 playing League of Legends and like
+19:02 really really interested in AI. Um so
+19:06 made every mistake we could. Uh but uh
+19:10 the at that time now we're sort of at
+19:12 the end of 2021. We had a team of about
+19:15 20 people all working here in Toronto.
+19:18 Um got a few apartments that we were
+19:20 using as offices. Um, in 2022,
+19:25 we're like, let's raise money, cuz
+19:27 that's what you're supposed to do. Uh,
+19:29 ended up putting together a series A uh
+19:33 where the lead investor kept us in due
+19:36 diligence for 2 months and then pulled
+19:38 out of the deal. and they pulled out of
+19:41 the deal partially because our original
+19:44 Wombo app used music and there were some
+19:47 sort of unknown liabilities and risks
+19:50 around our use of music. I don't know if
+19:52 I should bring it up with these mixie
+19:53 guys, but [ __ ] the music licensing
+19:56 people are vicious, annoying
+19:58 [ __ ] but also, you know, it is
+20:00 what it is.
+20:02 Um,
+20:04 and also partially because FTX crashed
+20:06 and uh all this crazy [ __ ] was happening
+20:09 in crypto and
+20:10 >> Zer was over.
+20:11 >> Yeah, there was like a market spook.
+20:13 >> So, we went from having [ __ ] number
+20:16 one app thinking we're about to get $15
+20:18 million to having negative runway and
+20:22 being like, "What the [ __ ] just
+20:24 happened?" Um,
+20:25 >> negative runway meaning like you're out
+20:26 of money.
+20:27 >> Yeah. Like
+20:28 >> or you're like really out of money. like
+20:30 really out of money where and it really
+20:34 happened because that month Dream went
+20:36 viral again and we had a million dollar
+20:38 server bill on Amazon for that month for
+20:41 all the influence that we were doing and
+20:43 I had like maybe not the perfect
+20:46 philosophy around this which which was
+20:49 like money is fake let's just make an
+20:50 amazing [ __ ] product let's get all
+20:52 the users we'll figure it out later um
+20:56 yeah didn't work at that point So,
+20:59 uh, we went into like a year and a half
+21:02 of cockroach mode basically where I
+21:05 wasn't paying any of my bills unless I
+21:07 absolutely had to. We were extremely
+21:09 focused on monetizing our product which
+21:12 previously we had never given a [ __ ]
+21:13 about and basically getting to like
+21:16 profitability and along the way we you
+21:18 know still raised some money from
+21:20 investors who believed in us. Uh, so
+21:22 yeah about a year and a half of
+21:23 cockroach mode got to profitability. And
+21:26 how did you monetize the apps? Because I
+21:29 think
+21:30 >> because I think that's a question that a
+21:31 lot of people have, which is like, okay,
+21:33 great. Now I've built this mobile app.
+21:34 It's starting to get some traction.
+21:36 >> Yeah.
+21:36 >> What, you know, how do you think about
+21:38 monetizing? Like what what's the sauce
+21:41 around monetizing mobile apps?
+21:43 >> Just copy people who are better than
+21:44 you.
+21:47 >> So, who's the best? Who's the best? And
+21:49 what are they doing?
+21:49 >> [ __ ] Nikita, man.
+21:52 >> Nikita. That guy is the
+21:54 That guy's a great monetizer of apps.
+22:00 >> Shout out Nikita Beer. Yeah, go or I
+22:03 guess you can't do it anymore, but go
+22:04 like pay $10,000 to talk to him on intro
+22:07 and I'm sure he'll give you some good
+22:09 tips.
+22:09 >> Okay, so how did you how did you
+22:11 monetize it?
+22:12 >> Uh we introduced a subscription and we
+22:15 introduced ads. The subscription did
+22:17 things like, well, if you want to
+22:18 generate an image, uh, you could
+22:20 generate four at a time instead if
+22:23 you're a subscriber, or you could act
+22:25 have access to some premium styles if
+22:27 you're a subscriber. Um, and that took
+22:30 us from zero to I think at our peak,
+22:33 Dream was doing over $500,000 a month.
+22:36 Uh, and that got us to the profitability
+22:39 and sort of stability that we needed.
+22:41 And and from a sub like what are we
+22:43 talking like $5 a month, $5 a week? I
+22:46 know a lot of people are doing weekly
+22:48 subscriptions now. Like what was it?
+22:51 >> We've done everything from $5 a week to
+22:54 $5 a month. We started really cheap and
+22:57 got more expensive over time. And um
+23:01 there's also like all the like dark
+23:03 patterns that you could do with like
+23:05 hidden trials and all that kind of
+23:07 stuff, but we never went to too deep
+23:09 into that.
+23:10 >> Yeah. Okay. Have you I'm sure you
+23:12 studied like Cal AI and what they do.
+23:15 >> Yeah. Yeah. Yeah.
+23:15 >> What do you think?
+23:16 >> It's a new generation of killers, man.
+23:19 >> I love to see it. It seems like every
+23:22 few months now there's like a new
+23:24 18-year-old kid making $2 million a
+23:26 month on some simple stupid [ __ ] And uh
+23:31 I think it's only going to accelerate.
+23:33 >> Mhm. Yeah. And and those apps are
+23:36 monetizing via subscriptions, right?
+23:38 >> Yeah. Weekly, monthly?
+23:41 >> I'm not sure. We'd have to double check.
+23:42 >> I think weekly. Yeah. I think a What I
+23:44 That's a trend I'm seeing a lot is like
+23:47 weekly subscriptions anywhere from like
+23:50 $3 to $20 a week.
+23:53 >> Mhm. Makes sense.
+23:55 >> Yeah.
+23:55 >> Yeah.
+23:56 >> Cool. Okay. So, going back, so you're
+24:00 you start making money basically.
+24:02 >> And then what next?
+24:04 >> Yeah. So we slowly emerge out of
+24:06 cockroach mode. I guess bringing us into
+24:08 2023 and 2024. The most notable things
+24:12 that happened uh were one, we had a
+24:16 relationship with Nvidia. Uh they
+24:18 approached us very early on uh because
+24:21 they saw that our apps were going viral
+24:23 and that we were doing this thing that
+24:24 was going to be called generative AI and
+24:26 they want to kind of learn more about it
+24:28 and see how they could support it. Of
+24:30 course, it's evolved like far far beyond
+24:32 that now.
+24:34 Um and that culminated in uh us meeting
+24:39 them more and more and them making an
+24:41 investment into Wombo.
+24:44 Uh the second thing that happened was I
+24:47 sort of
+24:50 I lost some interest in making apps and
+24:54 I gained more interest in you know where
+24:57 all of this was going, where AI was
+24:59 going.
+25:01 Oh man, this is going to be kind of a
+25:02 convoluted point, but it'll make sense
+25:04 at the end. Okay, so one thing that
+25:07 we've always cared about is inference
+25:09 efficiency. How do we make generation
+25:12 times extremely fast and how do we spend
+25:15 the least amount of money that we can on
+25:17 powering this inference?
+25:20 Uh so initially
+25:23 that meant we are going to host our
+25:25 models on GPUs. We're going to sign a
+25:28 three-year contract with Amazon where
+25:30 they give us some better pricing and
+25:33 we're going to pay uh specialists
+25:37 $3,000 a day to make our model produce
+25:41 the same output but in a fraction of the
+25:43 time and it's just worth it to find a
+25:44 specialist like that. That was sort of
+25:46 the first solution. And and and then
+25:49 we're going to run all the inference on
+25:50 the cloud. Our users never have to worry
+25:53 about it and it's consistent. It's high
+25:55 quality. It's reliable.
+25:58 Uh then
+26:01 there was a motivation to move some of
+26:03 this inference on device especially as
+26:07 your user base has devices in it that
+26:10 are powerful and perfectly capable of
+26:13 running the model that you care about.
+26:15 And so we started doing a little bit of
+26:17 that
+26:19 and sort of the natural extension of
+26:21 that is well if there's someone in my
+26:23 user base with an iPhone 16 Pro or a
+26:27 computer with a 4090 on it um that can
+26:30 run their own workloads,
+26:32 what if they could run workloads for
+26:34 other users as well? And so that idea of
+26:38 sort of peer-to-peer computing and using
+26:41 our users compute was born out of our
+26:44 continuous push towards inference
+26:46 efficiency. Um hopefully all of that is
+26:49 making sense so far.
+26:52 Uh and and so the other thing that
+26:54 happened was at the end of 2023 at the
+26:56 start of 2024 I got really interested in
+26:59 how AI and crypto would intersect. And
+27:03 so I looked at every project in the
+27:06 space, studied them closely, again
+27:09 coming back to that same principle of
+27:11 copy what other people are doing or at
+27:12 least understand what other people are
+27:14 doing
+27:14 >> before you do your own thing. And so we
+27:16 looked at, you know, Bit Tensor and
+27:18 Jensen and Render and Akos and Golem and
+27:24 the Internet Computer and Folding at
+27:26 Home and all these other sorts of
+27:27 examples of decentralized AI or
+27:31 decentralized computing happening.
+27:34 And I just ended up finding that
+27:36 extremely interesting. Um, and to make a
+27:39 long story short, aside from learning
+27:42 about those projects and even building
+27:45 in some of their spaces, uh, the
+27:48 conclusion we came to was to build our
+27:50 own thing called W.ai, which would
+27:53 essentially allow anyone to turn their
+27:54 MacBook, their gaming computer, and in
+27:57 the future their PlayStation or iPhone
+27:59 or whatever into a compute contributor.
+28:01 And so, it's almost like Airbnb for that
+28:03 device. when you're not using it, you
+28:05 can make it available to the world. It's
+28:08 going to run some hopefully valuable
+28:10 workload and earn you a reward.
+28:13 >> And reward being money.
+28:15 >> Reward today being points
+28:18 >> which will later turn into a token
+28:19 >> which will later turn into money.
+28:21 >> Uh I'm not like media trained so I don't
+28:24 know what what I'm
+28:25 >> not media trained. I had no idea.
+28:26 >> No, I'm not [ __ ] media trained. Uh
+28:29 but
+28:30 >> the idea is you are contributing to the
+28:32 network. Like if I just let if I let W.I
+28:36 generate 10,000 images for somebody else
+28:39 on my machine,
+28:40 >> then I should be able to generate at
+28:41 least 10,000 and1 images in return. And
+28:45 that seems fair.
+28:46 >> Yeah.
+28:46 >> Yeah.
+28:47 >> Totally cool. And that's the journey.
+28:49 >> That's the journey. A lot of crazy [ __ ]
+28:51 has happened in between. Um cycled
+28:55 through the team many many times. We
+28:57 started with six co-founders. Only one
+29:00 remains. Three of them have started new
+29:02 companies that are very [ __ ] cool and
+29:04 interesting. Uh so check out Omega,
+29:06 check out Dippy. That's the Wombo Mafia.
+29:10 And uh now we all live in a big ass
+29:12 house in LA. There's like 12 of us who
+29:15 live and work there. Uh there's a few of
+29:17 us who don't live and work there, but
+29:18 are still core parts of the team. Um but
+29:21 yeah
+29:22 >> and and just to tie a bow on it. Okay.
+29:24 So I think that there's a huge
+29:26 opportunity to build and I know you
+29:27 agree too build mobile apps that have an
+29:30 AI component to it.
+29:31 >> Yes.
+29:33 >> A lot of you know like every startup
+29:35 most fail.
+29:37 >> If you want to create a mobile app with
+29:40 some AI component to it
+29:43 >> that gets millions of downloads. The way
+29:46 to do it is step one see how other
+29:50 people see see like understand your
+29:53 landscape. What are the what are the
+29:54 other apps?
+29:55 >> Go look at Caloni. Go look at Rayon. Go
+29:58 look at all those apps.
+29:59 >> Right. Study them.
+30:00 >> Study
+30:01 >> like understand that every single
+30:02 screen. Yes. Why they're doing it? How
+30:04 they're doing it? What colors they're
+30:05 using? What typography? Everything.
+30:08 >> Step one. Step two is from a content
+30:11 perspective, understand what go is going
+30:14 viral in a bunch of different niches,
+30:17 right?
+30:18 >> And and we can we can stay on this point
+30:19 a little bit. I have two collections
+30:22 that I think of interest here. This
+30:26 group chat on Instagram
+30:28 >> and this collection, which I can
+30:29 actually make public and share with you
+30:31 if you'd like. Yeah,
+30:32 >> this has been me sort of cataloging AI
+30:36 generated content or content that could
+30:38 have been generated by AI which has gone
+30:41 viral on these respective platforms for
+30:44 the last like two years. Uh so for
+30:47 example, let's go. There was like a a
+30:50 week or two where I was getting a bunch
+30:51 of these baby videos.
+30:53 >> Yeah.
+30:55 >> Like the von Yeah. I I've seen these
+30:57 like the baby This is with Hedra, right?
+31:00 >> Yeah, this is with Hedra. And I think
+31:01 they were using chat GPT to turn the
+31:04 original image into like a babyfied
+31:05 image.
+31:05 >> Okay.
+31:06 >> And then Hedra to animate it.
+31:08 >> Okay. Hedra.ai for folks who haven't
+31:10 checked it out. ChatGBT to create the
+31:12 reference image and feed that to Hedra.
+31:14 Okay.
+31:15 >> Yeah. So I'll upload like a picture of
+31:17 Heisenberg
+31:18 be like turn him into a baby and then
+31:20 take that baby picture bring it to
+31:22 Hedra. So maybe someone, you know, for
+31:26 the week or two that this was going
+31:27 viral or even now can make an app that
+31:30 just [ __ ] abstracts that away from
+31:32 for people. They don't have to worry
+31:33 about chat GPT. They don't have to worry
+31:34 about hedra. It's just, you know, take a
+31:37 selfie, choose a scenario, done,
+31:40 >> right? So it's basically productizing
+31:43 the content format is what you're
+31:45 saying.
+31:45 >> Yes, exactly. Yeah.
+31:48 >> Um,
+31:49 it's also just useful to study how this
+31:52 stuff changes over time cuz it's the AI
+31:55 is not just transforming or creating
+31:57 content in one way. It's doing a bunch
+31:59 of different things.
+32:01 >> Let's see.
+32:01 >> So, is is your advice to people just
+32:03 like scroll and then just save?
+32:06 >> Yes.
+32:08 >> If you want to brain rot then you must
+32:10 be brain rotted first,
+32:11 >> right? True.
+32:13 So lately, we've been having a lot of
+32:15 success with some really stupid [ __ ]
+32:17 Uh, and it's
+32:20 turning celebrities, extremely
+32:22 recognizable celebrities, into pregnant
+32:25 cats.
+32:27 >> Okay, like the Trump. Let's go open the
+32:28 Trump one.
+32:30 >> Hey, Elon, it's time for our litter to
+32:33 be born.
+32:41 Hey, Donald. Why do these kittens look
+32:43 like Jeffrey Epstein?
+32:48 >> So, like, why does this work? It works
+32:51 because you have celebrities who are
+32:53 recognizable. Works because it's kind of
+32:55 controversial. It works because
+32:59 pregnancy is a concept that everybody
+33:01 can evolutionarily like understand. And
+33:05 then male pregnancy is just something
+33:07 that shocks your mind a little bit. Um,
+33:10 >> and it's top of mind, right? This is
+33:12 right around when Elon and Trump were
+33:15 fighting.
+33:16 >> Yes.
+33:16 >> Right.
+33:17 >> Now, the other thing about that meme I
+33:19 just showed you is we've repeated that
+33:21 exact same scenario, that exact same
+33:24 story line like six different times and
+33:26 it goes viral each time. Um, including
+33:29 this one that has almost 20 million
+33:31 views. Hey, Messi. It's time for our
+33:33 baby to be born.
+33:37 [Music]
+33:42 >> Hey, Ronaldo. Why does this baby look
+33:44 like I show speed?
+33:49 >> So, literally the exact same thing, just
+33:52 changing the characters, changing the
+33:53 settings a little bit,
+33:54 >> right?
+33:55 >> And as a result, like we can pump that
+33:57 out in like an hour.
+33:58 >> And so, that that got 18.8 8 million
+34:01 views on Instagram.
+34:02 >> Yeah.
+34:03 >> And your goal is to get, you know, how
+34:04 many downloads from that?
+34:07 >> Uh well, hopefully like
+34:10 even 1 or 2% is pretty good.
+34:11 >> Yeah.
+34:12 >> Um right now there it's a weird time for
+34:15 us where we don't care at all about our
+34:17 mobile apps and we care 100% about W.I.
+34:21 >> And this content is not really about
+34:23 driving downloads to W.I. It's more
+34:26 about keeping us sharp and uh on top of
+34:31 the algorithm.
+34:32 >> Yeah.
+34:32 >> Like I think that's really important.
+34:33 >> Yeah. The reason I asked is just for
+34:35 people who are creating content like
+34:37 this, what like what sort of conversion
+34:40 rate should they expect?
+34:42 >> Yeah. I think 1 to 2% is like a win.
+34:44 >> Yeah. And uh I think also a lot of the
+34:47 downloads are not going to like it's
+34:49 possible that your downloads won't come
+34:51 from the video getting lots of views on
+34:53 the algorithm, but from people sharing
+34:55 some piece of personalized content with
+34:58 their friends. So like for example,
+35:00 let's say we turned this thing like
+35:04 whatever this recipe is into an app.
+35:07 Like if I turn myself into a pregnant
+35:10 cat, I might not post that on Instagram,
+35:13 but I might post that into like a
+35:15 WhatsApp group chat and it'll go like
+35:18 that'll lead to some reality.
+35:20 >> Someone someone in the comment section,
+35:21 I can hear it already now, is is going
+35:23 to say, "Okay, I'm going to go create an
+35:26 app that turns you into a pregnant cat."
+35:30 >> Yes. I'm on 10%.
+35:31 >> No, no, no. They're that's not even what
+35:32 they're going to say. They're going to
+35:34 say, "And you think that you're going to
+35:37 get millions of downloads and then
+35:39 you're going to be able to charge people
+35:41 $3 a week for the privilege to do that?
+35:46 That's crazy. You are you guys are out
+35:48 to lunch." That's that's what someone in
+35:50 the comment section is saying right now.
+35:52 >> Yeah, I think uh I think that person is
+35:55 not entirely wrong, but they are wrong.
+35:57 Like if you make an app and it goes
+35:59 viral, even if it goes viral once and
+36:01 people never use it again, like that's a
+36:04 eight, nine, potentially nine figure
+36:07 opportunity. Um, think about it like
+36:10 you're making a movie. Like if you make
+36:12 a movie, people go to the movie theater
+36:15 and spend 20 bucks to watch the movie,
+36:17 another 30 bucks to get a bunch of
+36:19 [ __ ] popcorn and [ __ ] and uh then
+36:22 they leave and they never think about
+36:23 that movie ever again. So, like you're
+36:26 just giving someone a bite-sized version
+36:27 of that that they paid $3 for instead of
+36:30 50. Um, so
+36:33 yeah, I think you know the other thing
+36:35 is with these apps to get millions of
+36:37 downloads, 98% of people are going to
+36:39 use them for free and you're going to
+36:41 make all your money on the 2% who don't.
+36:43 The 98% are going to drive your verality
+36:46 and keep making your content and sharing
+36:48 it with their families and friends and
+36:49 getting you to the top of the app store.
+36:51 And then the 2% of people who don't give
+36:53 a [ __ ] and they're just clicking buttons
+36:54 and they want the extra thing that you
+36:56 can't get for free. That's where you're
+36:57 actually going to make all your money.
+36:59 >> Cool. And let's maybe let's end it on,
+37:02 you know, for people listening,
+37:05 you know, do you really believe that
+37:07 there's a lot of opportunity to to
+37:10 create mobile apps with AI right now?
+37:12 >> Infinite opportunity.
+37:14 >> Yeah.
+37:14 >> Yes.
+37:14 >> And why do you believe that? Because
+37:16 people are glued to their [ __ ] phones
+37:18 and they want to be entertained and they
+37:20 want utility. So if you can be useful or
+37:23 entertaining,
+37:24 then you can make an app. Do do they
+37:27 need to raise venture capital for it?
+37:28 >> [ __ ] no.
+37:29 >> And you know,
+37:32 how big of apps are we talking? Like
+37:34 could they create?
+37:36 >> I don't know. Like it's
+37:37 >> with no venture capital.
+37:38 >> Like how if if I make a really good
+37:40 song, how many people will listen to it?
+37:41 If I make a really good movie, how many
+37:43 people will watch it? If I make like a
+37:45 really good recipe for some gum, like it
+37:48 that it it depends on a lot of factors,
+37:51 but if you make something truly great
+37:53 and truly unique and then kind of truly
+37:55 captures the the current moment, then I
+37:57 think you can get hundreds of millions
+38:00 of downloads and make at least tens of
+38:02 millions of dollars just with popcorn
+38:04 mobile apps.
+38:06 >> Popcorn mobile apps.
+38:07 >> Yeah.
+38:08 >> All right. I like it.
+38:09 >> Yeah. And good luck to everyone. I hope
+38:11 you make it. It's a [ __ ] crazy time
+38:13 to be alive. Thank you for coming on,
+38:15 sharing some sauce, and uh
+38:18 you fired me up to to create a pregnancy
+38:21 uh cat mobile app.
+38:23 >> I want 10%.
+38:25 >> Later, dude.
+38:27 >> Much love.

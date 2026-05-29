@@ -1,0 +1,3728 @@
+How to Build & Sell Web Apps With AI Without Coding (FULL COURSE)
+
+0:00 We have entered an era where anyone can
+0:02 build powerful websites and apps simply
+0:03 by speaking their ideas into existence
+0:05 through AI. And what used to take months
+0:07 and tens of thousands of dollars can now
+0:09 be done in minutes. And mastering the
+0:11 skill of vibe coding, or as I prefer,
+0:13 software composing, is undoubtedly one
+0:15 of the most valuable investments that
+0:17 you can make in your future today. I
+0:19 know this because over the past 2 years,
+0:20 I've gone from knowing nothing about AI
+0:22 to building multiple AI businesses that
+0:24 have generated over $6 million in
+0:26 revenue for me. And along the way, I've
+0:28 helped over 200,000 entrepreneurs in my
+0:30 community to learn AI skills like this.
+0:32 And more importantly, use those skills
+0:34 to solve real problems in the world and
+0:36 generate income from it. And if I had to
+0:37 start over again today, this skill of
+0:39 using AI to build websites and apps, aka
+0:42 software composing, is exactly what I
+0:44 would be going all in on right now. So,
+0:46 in this full course, I'm going to teach
+0:47 you everything that you need to build
+0:49 complete websites and web applications
+0:51 using nothing but natural language
+0:52 prompts. No coding experience required.
+0:55 Then I'll share the exact strategies my
+0:56 community and I use to turn these skills
+0:58 into real income because building them
+1:00 is only half of the equation.
+1:07 And as you can tell by the length of
+1:08 this video, we get a lot to cover. So
+1:10 this is going to be unlike any other
+1:11 guide anywhere on the internet on this
+1:13 topic. So I'm going to be splitting it
+1:14 into three powerful chapters. In the
+1:16 foundations chapter, we'll master the
+1:18 essential theory behind web app building
+1:20 and the key terminology that will allow
+1:22 you to explain to the AI what you want.
+1:24 and instantly put you ahead of 99% of
+1:26 people who are trying to build with AI.
+1:27 Then in the building chapter, we'll
+1:29 transform that knowledge into action by
+1:31 creating a fully functioning SAS app
+1:32 step by step over my shoulder using an
+1:35 incredibly intuitive tool that makes the
+1:36 process dead easy. As we go, you're
+1:38 going to develop real hands-on skills
+1:39 and build actual projects that you can
+1:41 immediately customize and monetize for
+1:43 yourself. And finally, in the
+1:44 monetization chapter, we'll explore the
+1:46 massive market that is waiting to be
+1:47 captured. and I'll be revealing exactly
+1:49 how people in my community are
+1:51 converting these skills into $5,000,
+1:53 $10,000, $15,000 projects and my proven
+1:55 method for getting your first few
+1:57 clients with zero social media and zero
+1:59 paid ads. And of course, if you're new
+2:01 here and don't know who I am, my name is
+2:02 Liam Ollie and as I said, 2 years ago, I
+2:04 knew nothing about AI. I started my
+2:05 journey here on YouTube, which led me to
+2:07 launching Morningside AI, which is my AI
+2:09 agency. Um, and then I built my own SAS
+2:11 agent which has over 70,000 users and
+2:13 then grew my online community where we
+2:15 are now the number one AI business
+2:16 community anywhere in the world with
+2:18 over 200,000 people. I teach people like
+2:20 you and nontechnical people especially
+2:22 how to learn AI skills and monetize
+2:25 them, build a business around them. And
+2:26 that's really my focus in that community
+2:27 and everything I'm going to be sharing
+2:28 with you today comes from being in the
+2:30 trenches with the stuff every day at my
+2:32 agency, Morningside AI, and by working
+2:34 closely with students who are also doing
+2:35 it in their agencies. So, so if you want
+2:37 more information about me and want to
+2:38 learn more about my story, I'll link my
+2:40 my story video in the description below.
+2:41 But without further ado, if you are
+2:43 ready to harness the potential of this
+2:44 new software composing skill, let's get
+2:46 into it.
+2:49 All right, so before we can get into the
+2:51 building, we need to lay a proper
+2:52 groundwork first. So, welcome to chapter
+2:54 1, foundations. I know how tempting it
+2:57 can be just to jump straight into
+2:58 prompting and building. Um, and a lot of
+3:00 other guides out there that you may find
+3:01 on this topic will do just that, but
+3:03 it's a shortcut that leads to ultimately
+3:05 getting stuck when you are building. So,
+3:07 they might show you how to build one
+3:08 specific thing, but you never learn why
+3:10 it works, which limits what you can
+3:11 create on your own after those
+3:12 tutorials. So, we're going to be doing
+3:14 it differently. My promise to you in
+3:15 this course is that I'm going to help
+3:16 you to become a true software composer,
+3:18 someone who can build powerful custom
+3:20 applications because you actually
+3:21 understand the core principles of what
+3:23 you're doing. This foundational
+3:24 knowledge is what is going to separate
+3:25 you from 99% of people who are just
+3:28 blindly throwing prompts at AI and this
+3:29 is going to be your unfair advantage in
+3:31 this market. So in this chapter you're
+3:32 going to master the essential concepts
+3:34 that make up any web application. We're
+3:35 going to be exploring firstly what is
+3:37 software composing this revolutionary
+3:39 new way to build software using natural
+3:41 language and why it's one of the most
+3:42 valuable skills that you can learn
+3:44 today. Then we'll get into what a web
+3:45 app is. We'll get clear on what we're
+3:47 actually building and how it differs
+3:48 from just a simple website and how
+3:50 they're so much more powerful. Then
+3:51 we'll go into the front end versus back
+3:52 end where you'll learn the two different
+3:53 sides of every app, what the user sees
+3:55 and the engine that runs all of that
+3:57 behind the scenes. Then we'll get into
+3:58 databases. We're going to demystify how
+4:00 software remembers information from user
+4:02 accounts to product listings. Then
+4:04 there's a section on APIs where you'll
+4:05 understand the magic of how different
+4:07 parts of an app and even different parts
+4:08 of other apps can communicate with each
+4:10 other over the internet. And finally,
+4:12 we'll be getting into authentication and
+4:13 authorization where we'll cover the
+4:15 mechanisms that allows users to sign up
+4:17 to login and how to control what they
+4:18 have permission to see and do within
+4:20 your app. So, by the end of this
+4:21 foundations chapter, you'll have the
+4:22 vocabulary and the mental models to be
+4:24 able to build with AI confidently and
+4:26 effectively. So, let's get started with
+4:27 the big idea that makes all of this
+4:29 possible, which is software composing.
+4:33 So, now that you understand the
+4:34 incredible potential that we're dealing
+4:36 with here, the ability to be able to
+4:38 translate your ideas into code and and
+4:40 build real revenue generating software,
+4:42 let's dive into what this transformation
+4:44 actually means and why it represents
+4:45 such a massive opportunity for anyone
+4:47 who's trying to not only get into AI,
+4:49 but to build a a career for them in the
+4:51 AI era. And this skill in particular is
+4:52 going to be one that will change the
+4:54 trajectory of many lives and careers,
+4:55 whether you're a student, an employee,
+4:57 or an entrepreneur. It was Andre
+4:58 Karpathy, one of the founders of OpenAI,
+5:00 who coined the term vibe coding. And he
+5:02 was describing a fundamental shift from
+5:04 writing software from scratch to
+5:06 building it with natural language and
+5:08 speaking into computers and using AI to
+5:10 do that for you. But I actually prefer
+5:11 the term software composing uh since the
+5:13 creative process that you go through
+5:14 that I'm going to teach you is a lot
+5:16 more like composing than coding
+5:18 necessarily. You can think of
+5:18 traditional coding as like being a
+5:20 construction worker and you need to kind
+5:21 of build everything yourself. mixing
+5:23 concrete from scratch, pouring the
+5:25 foundation and building up the walls,
+5:26 laying the plumbing, wiring, electric,
+5:28 etc. But software composing is more like
+5:30 being an architect who kind of describes
+5:32 the vision to expert builders who can
+5:34 handle all the complex stuff for you.
+5:35 So, you're not just getting help with
+5:36 code, you're stepping into a creative
+5:38 role and where you describe what you
+5:40 want the software to do and how it
+5:41 should feel and and how to use it. And
+5:43 then the AI handles all the
+5:44 behind-the-scenes tech work for you.
+5:46 This isn't just about speed. It's about
+5:47 who gets to participate in building the
+5:50 digital world. So, here's how software
+5:52 used to get built. Someone had an idea
+5:53 for an app. They write detailed specs
+5:55 about what it should do and and how it
+5:57 should work. Then designers create
+5:58 mock-ups and wireframes for the UI.
+6:00 That's 2 to 4 weeks right there. And
+6:02 then next, the developers are going to
+6:03 analyze everything, choose the
+6:05 programming languages and frameworks.
+6:06 Another one's 2 weeks. And then comes
+6:08 months of actual development. And after
+6:11 all of that, then you've got testing and
+6:13 debugging uh for another few weeks after
+6:15 that. So, finally launching the app out
+6:17 to the world might take you another week
+6:18 or two. So you're looking at 3 to eight
+6:20 months costing potentially $50 to
+6:22 $500,000 depending on the complexity of
+6:24 the software of course. And all of this
+6:26 requires multiple software and design
+6:27 specialists. Now here's the new way that
+6:29 it works with the software composing
+6:30 revolution. You have an idea, you
+6:33 describe it to an AI system in plain
+6:35 English or whatever your native language
+6:37 is, as I'm going to show you how to do
+6:38 later in this video. And then this AI
+6:40 system creates a working prototype for
+6:42 you immediately. And then you're able to
+6:44 refine it further through conversation.
+6:46 And then you can share it with the world
+6:47 in just a single click. So this shrinks
+6:49 the timeline to days or even hours for
+6:51 simple projects. And as for the cost,
+6:52 the tool that I'm going to be showing
+6:54 you how to use in this course cost as
+6:55 low as $20 per month. So for the first
+6:58 time in human existence, a
+7:00 non-developer, a non-technical person,
+7:01 like basically the whole world, can
+7:03 build an entire app for the cost of a
+7:04 freaking pizza. So what's really
+7:06 happening here is that the person with
+7:07 the idea can now be the person who
+7:09 builds it. So this revolution we're
+7:10 seeing isn't magic. It's the result of
+7:12 three major breakthroughs that are just
+7:13 coming together basically at at the
+7:15 right time. So firstly, you've got the
+7:16 AI boom, which you probably heard about
+7:18 by now. You got tools like chat GBT. And
+7:21 they didn't just learn how to write and
+7:23 make poems for you. They also learned
+7:24 how we built. So when you say, "I want
+7:27 users to upload photos." The AI
+7:28 understands everything that involves
+7:30 like saving files and creating upload
+7:32 buttons and making sure that it all runs
+7:34 smoothly. It knows what you mean and and
+7:36 how to make it real through code.
+7:37 Secondly, we have purpose-built tools
+7:39 for this software composing. You have
+7:41 platforms like bolt and cursor and
+7:42 replet agent and they weren't
+7:44 retrofitted with AI. They were made from
+7:46 the ground up for this new way of
+7:48 creating where basically you just
+7:49 describe what you want and the system
+7:50 builds it. These tools are the essence
+7:52 of software composing or what some call
+7:54 vibe coding. And the third factor is
+7:56 invisible infrastructure. So these
+7:57 modern platforms now handle all of the
+7:59 hard stuff for you when it comes to
+8:00 building automatically. There's no
+8:02 server setup. There's no uh complex
+8:04 configurations. You just get to focus on
+8:06 what your app should do and the rest
+8:07 just works. So, we're basically
+8:09 witnessing the democratization of
+8:10 software creation. And most people don't
+8:12 even realize it yet. As they say, the
+8:13 future is already here. It's just not
+8:15 evenly distributed yet. And this is the
+8:17 future right here. This skill of
+8:18 everyone being able to do this and build
+8:20 their own software when they need it.
+8:21 So, you're really getting a head start
+8:22 on everyone else. So, with this skill,
+8:24 if you figure it out now, you can become
+8:25 the AI person at your company as
+8:27 businesses are actively seeking people
+8:28 who understand AI and this skill set
+8:30 commands premium salaries and consulting
+8:32 rates. And of course, with this skill,
+8:33 you can also launch your own business,
+8:35 which we're going to be covering later
+8:36 in the video. And that's what I've done
+8:37 and thousands of people in my community
+8:39 have as well. This is because ideas that
+8:40 once required a technical co-founder can
+8:42 now be prototyped by you and ours. And
+8:45 for those with the skill, there's
+8:46 another huge opportunity in that small
+8:47 businesses who can't afford $50,000
+8:50 development projects, they are very
+8:51 eager for this affordable and customuilt
+8:53 tools that you're going to have the
+8:54 skills to do by the end of this video. I
+8:56 know this because there's early adopters
+8:57 in my community that we're going to
+8:58 touch on later that are selling $5 to
+9:00 $15,000 projects that take them a
+9:02 weekend. So, at the end of this video,
+9:03 I'm going to be breaking down exactly
+9:04 how they are landing these kinds of
+9:05 projects and show you how to turn your
+9:07 skills that I'm going to teach you here
+9:08 into real income and momentum in your
+9:10 career. So, the way I see it, this is
+9:12 like digital literacy. You know, knowing
+9:13 how to use a computer, that skill opened
+9:15 doors for people in the '90s. And then
+9:17 understanding the internet became
+9:18 essential in the 2000s. Now, knowing how
+9:20 to work with AI and build your own
+9:23 software is the next frontier that's
+9:24 going to give you an edge in your
+9:26 career. This is the new form of literacy
+9:28 that defines who's going to get to build
+9:29 the future and who gets left behind. And
+9:31 the shift isn't just about productivity.
+9:33 It's about survival. We are watching a
+9:35 split screen in real time. We have those
+9:37 who can build with AI and have learned
+9:38 these skills and then those who watch
+9:40 from the sidelines and rely on others.
+9:42 If you can guide AI to create what you
+9:44 imagine, you can become exponentially
+9:45 more capable. This is the easiest way to
+9:47 put yourself on the front foot for your
+9:49 career. In this video, we're doing it
+9:50 differently and focusing on actual
+9:52 mastery based on deep understanding of
+9:53 the basics of building software. So,
+9:55 first you're going to learn the
+9:56 foundations, as I said, what web apps
+9:58 are really made of and how they work
+10:00 behind the scenes. You'll learn the
+10:01 essential terms that will help you to
+10:03 explain your ideas to AI clearly so that
+10:05 it can build exactly what you envision.
+10:07 This is really the most important part
+10:09 because in order to get the most out of
+10:10 these AI models, you need to be able to
+10:12 describe what you want. Knowing the key
+10:14 terms and and having a useful vocabulary
+10:16 is really what separates these fumbling
+10:18 vibe coders from effective software
+10:20 composers. Then after the foundations
+10:21 and the building section, we'll build an
+10:22 entire web app together from scratch to
+10:24 fully functional. And it's going to be a
+10:26 real project, not some toy example. An
+10:28 event discovery platform where users can
+10:30 browse, manage, and create music events.
+10:32 And you're going to see how all of the
+10:33 pieces fit together from front end to
+10:35 back end. And we'll take it one step at
+10:37 a time, prompt by prompt, so that you
+10:38 always understand what's happening and
+10:39 why. The way I see it, you can watch
+10:41 others build the future, or you can
+10:42 start building it yourself. So, if
+10:43 you're ready to level up, let's start
+10:45 understanding the basics of all of this.
+10:50 So when you sit down at a restaurant and
+10:52 order food, you don't just say, "I want
+10:54 food." You give a very specific order
+10:57 like, "I want a medium rare steak with
+10:59 garlic butter and mashed potatoes hold
+11:01 the gravy." This same principle applies
+11:03 to composing software. The clearer you
+11:05 are about what you want and what you're
+11:07 ordering, the better results you're
+11:08 going to get from AI. But right now, you
+11:10 might not even know what's on the menu,
+11:11 so to speak, or even what you can order.
+11:13 So let's just unpack what a web
+11:14 application even is so that you can
+11:16 better understand how to ask for exactly
+11:18 what you want from AI. Every piece of
+11:20 software you interact with falls into
+11:22 one of four categories. So firstly we
+11:24 have mobile apps that you downloaded
+11:25 from maybe the app store on your iPhone
+11:27 or Google Play on your Android. Things
+11:28 like Instagram, Uber, your banking app
+11:31 and they live on your phone. They can
+11:32 often work offline and they're built
+11:34 specifically for iOS or Android. Then
+11:36 secondly we have desktop apps. These are
+11:39 traditional programs you install on your
+11:40 computer like Microsoft Word or
+11:42 Photoshop or Zoom. And they're very
+11:44 powerful and they often work offline and
+11:46 are designed for Windows or Mac OS. And
+11:48 while they're still widely used, they
+11:49 require installation and can take longer
+11:51 to update and can be harder to maintain
+11:53 across different devices. Thirdly, we
+11:55 have websites. And these are what you
+11:56 access through your web browser. So
+11:58 company landing pages, news sites,
+12:00 portfolios, they're mostlyformational.
+12:02 You read them, but you don't interact
+12:04 that much, right? Just like a page for
+12:05 you to look at on the internet. What you
+12:06 see is what you get. and everyone sees
+12:08 the same thing. And then fourth, and
+12:10 this is what we're going to be focusing
+12:11 on, we have web apps. These run right in
+12:14 your browser, but here's the key
+12:15 difference. They're interactive. They're
+12:17 personalized and dynamic. You can think
+12:19 of like Gmail or or Netflix or Airbnb.
+12:22 They respond to what you do and they
+12:24 remember your preferences and they adapt
+12:26 in real time. It's like an app but on
+12:28 the web, right? A web application. And
+12:30 here's why they dominate and why that's
+12:32 what you're going to learn in this
+12:33 course. Web apps work on any device with
+12:35 a browser and they don't require
+12:36 downloads. They can be updated instantly
+12:38 and they don't need Apple or Google's
+12:40 permission in order to launch them. If
+12:42 you want to launch an app for your
+12:42 phone, then you have to go and apply
+12:44 through the app store to get permission
+12:45 to be on the app store. And here's why
+12:47 this matters. Web apps are the
+12:48 foundation of most SAS businesses. So,
+12:50 if you've heard that building a SAS is
+12:52 kind of the holy grail or the thing you
+12:53 should do as a founder, this is what
+12:55 they mean, building a web app, and it's
+12:56 one of the most versatile and scalable
+12:58 and easily monetizable software that you
+13:00 can create. And that's why you're going
+13:01 to learn how to build one today. What
+13:02 makes web apps so special is that they
+13:04 remember you. your Netflix queue, your
+13:05 Amazon cart or Gmail inbox all stay the
+13:08 same between visits and they're
+13:09 personalized based on your activity.
+13:10 They also update in real time like
+13:12 livestock prices, instant chat messages,
+13:14 or a constantly refreshing social feed.
+13:16 And unlike static websites, they're just
+13:17 like a portfolio that displays
+13:19 information. Web apps that users
+13:20 contribute. You can post and upload and
+13:22 leave reviews and handle complex tasks
+13:24 like shopping or applying for loans or
+13:26 managing projects. So, that's the
+13:27 difference between a simple $500 website
+13:29 that just displays some unchanging
+13:31 information and a fully dynamic $50,000
+13:34 web application.
+13:40 When it comes to web apps, it's
+13:41 important to understand that there are
+13:42 two sides of this coin really, the front
+13:44 end and the back end. And this is where
+13:46 we could over complicate things in
+13:47 technical terms, but I'm going to try to
+13:48 make this super simple for you cuz it's
+13:50 a really important concept to understand
+13:51 as you go into building your own
+13:53 software. It's actually simpler than you
+13:54 think. Let's use a restaurant analogy.
+13:56 So, you can think of a web app like a
+13:57 restaurant. When a user arrives, they're
+13:59 experiencing the front end. They're in
+14:00 the dining room. The front end is like
+14:02 the table they sit at, the decor that
+14:03 they're surrounded by, and the menu that
+14:05 they're choosing from. And then you have
+14:06 the waiter in there taking their orders.
+14:08 The back end is the kitchen. It's what
+14:10 happens behind the scenes. You got the
+14:11 food preparation, inventory management,
+14:13 order processing, basically all the work
+14:15 that the customers don't see, but makes
+14:17 everything function. And just like the
+14:19 restaurant is useless without
+14:20 ingredients, our web app runs on data
+14:22 and needs somewhere to store and manage
+14:23 it as well. And that's where databases
+14:25 come in, which you can think is like a
+14:26 walk-in freezer or the pantry or the
+14:28 wine celler for the restaurant. It's
+14:30 where the ingredients or for web apps
+14:31 the data are stored, organized for quick
+14:34 access, kept fresh and available for
+14:36 use. So basically, if you understand how
+14:37 a restaurant works, you now understand
+14:39 how web apps work really. So when you
+14:41 sit down at a restaurant and a waiter
+14:42 hands you a menu, that menu is like the
+14:44 front end of your application. It shows
+14:46 you what's available and lets you make a
+14:48 choice. You decide on the salmon and
+14:49 place your order. The waiter notes it
+14:51 down just like the front end captures
+14:52 your input through something like a
+14:54 button you click or or through filling
+14:56 out a form. The waiter then brings your
+14:57 order to the kitchen. This is the front
+14:59 end sending your request to the back end
+15:01 of your app along with all of the
+15:03 details. And in the kitchen, the chef
+15:04 reads a ticket salmon. They check the
+15:06 fridge to see if the ingredients are in
+15:08 stock. And that's what we call backend
+15:09 querying the database. And then once
+15:11 it's collected those ingredients, the
+15:12 chef gets to work. So it's like
+15:14 seasoning and cooking and plating up the
+15:15 dish. This is the back end doing the
+15:17 heavy lifting of turning your request
+15:19 turn the front end into a finished
+15:20 product. Then finally the way to bring
+15:22 the salmon to your table and that is the
+15:24 back end sending a response back to the
+15:26 front end in order to fulfill the
+15:28 users's request. So this whole dance
+15:30 from menu to meal mirrors exactly how
+15:32 web apps work. So when you use basically
+15:34 any web app on the internet, you are
+15:36 constantly asking for stuff from the
+15:38 back end like data or updates or some
+15:40 kind of saved info that you have like
+15:41 your Gmail inbox. But when you click on
+15:42 the sent tab in your Gmail, it's sending
+15:44 to Google servers and asking, hey, this
+15:47 person wants their information that they
+15:48 had sent already and then the back end
+15:50 finds it in the database, pulls it back,
+15:51 and then sends it to the front end and
+15:53 displays on your screen. When you're
+15:55 using these apps, you are constantly
+15:56 asking for stuff from the back end like
+15:57 data updates and saved info. You're also
+16:00 sending stuff back there like messages
+16:01 or photos or form answers for the back
+16:03 end to store in the database under your
+16:05 account. And all of this happens super
+16:06 fast. Like you just you just tap or
+16:07 click and then the app reacts. It's as
+16:09 simple as that. So think about Netflix.
+16:11 When you log in, you see all of the
+16:13 available shows and movies and you press
+16:14 buttons to play and pause and you can
+16:16 type stuff into the search bar. All of
+16:18 that is what we call the front end and
+16:19 it's what we refer to as the user
+16:21 interface or UI for short. If you take
+16:23 Airbnb, the UI has photos of the
+16:25 rentals, a calendar where you can select
+16:27 dates, a book now button, a review
+16:30 section, a map showing the property's
+16:32 location. And so, a user interface like
+16:33 this has one job, be easy to use, and
+16:36 look great while you're at it. So, it
+16:37 captures the user input, your clicks,
+16:39 what you type in, and the selections
+16:40 that you make. It displays information
+16:42 clearly and gives you feedback when you
+16:44 do something, like a confirmation screen
+16:45 when you successfully book your rental
+16:47 or an error message when something goes
+16:49 wrong. And when designed well, it shows
+16:50 up nicely in browsers on different
+16:52 screen sizes from from laptops to
+16:54 tablets to phones. But here's what the
+16:56 front end can't do. It can't handle the
+16:58 heavy stuff. It can't make big decisions
+16:59 or store important data longterm. It's
+17:02 like that waiter. Great at taking your
+17:03 order, but don't ask them to cook the
+17:05 meal or remember what you ordered last
+17:06 week. That is the job of the back end.
+17:08 So, going back to Netflix, the backend
+17:10 remembers what you've watched. It makes
+17:12 personalized recommendations, streams
+17:14 video files to your device, manages your
+17:17 subscription and billing, and tracks
+17:18 your viewing analytics as well. All this
+17:20 data being sent to the back end and
+17:21 stored in the database under your
+17:23 account. For Airbnb, the back end is
+17:24 checking dates that are available,
+17:26 calculating the price, including all of
+17:27 those awful fees, processing payment
+17:29 transactions, sending confirmation
+17:31 emails, and updating the host calendar
+17:33 as well on their end. So, how they work
+17:35 together. So, we're almost ready to move
+17:36 on to the next step, but let's just lock
+17:38 in our understanding by putting all of
+17:39 these pieces together in an example.
+17:41 Everyone is familiar with online
+17:43 shopping. So what exactly happens when
+17:45 you click add to cart? So step one, the
+17:47 front end, the website you're looking
+17:48 at, notices that you clicked the button.
+17:50 It detects that you have clicked the
+17:51 button. Step two, it sends a message to
+17:53 the back end like, hey, this user wants
+17:55 to add product 123 to the cart. It
+17:57 includes your user ID and the product
+17:59 info. And then step three, the back end
+18:00 checks a few things. Is the user logged
+18:02 in? Is the product still in stock?
+18:04 What's the updated total, including tax?
+18:06 And then if all's good, it can update
+18:07 your cart behind the scenes. Then step
+18:09 four, the back end replies, "Got it.
+18:11 Cart updated. The new total is $47.99."
+18:14 And then step five, the front end shows
+18:16 this result. You see a message like item
+18:18 added. And the cart icon updates with
+18:20 your new item count. All of that happens
+18:22 in a flash faster than you can second
+18:23 guess whether or not you really need
+18:24 another pair of shoes. So everything in
+18:26 a web app follows the same rhythm. Front
+18:28 end captures, backend thinks, front end
+18:30 shows. Traditionally, front end and
+18:32 backend developers were two different
+18:34 roles with very different skills and
+18:36 learning different coding languages as
+18:37 well. But as a software composer, you're
+18:38 going to be wearing both hats. And this
+18:40 is called full stack development. And
+18:41 it's a legit superpower if you want to
+18:43 be able to build apps and make money
+18:45 while doing it.
+18:50 Without a way to remember things, your
+18:51 software would have the memory of a
+18:52 goldfish. And that's not going to cut it
+18:54 if you want to be able to build
+18:55 something that people actually use. So
+18:56 think about using your favorite apps.
+18:58 What if you logged back into Netflix and
+18:59 it forgot what shows you were watching?
+19:01 Or if Amazon dumped your cart when you
+19:03 closed the browser tab? or worse yet,
+19:05 your bank app erased your balance and
+19:07 transaction history every time you log
+19:09 back in or refresh the page. So without
+19:11 having some kind of memory, apps would
+19:12 be ridiculously annoying, confusing, and
+19:15 basically useless.
+19:16 >> I don't know.
+19:16 >> I don't know.
+19:17 >> I don't know.
+19:18 >> So that's why software needs a way to
+19:19 store and organize information. And once
+19:21 you understand how that works, even just
+19:23 the basics, you'll be way better at
+19:25 building the stuff with AI. In our
+19:26 restaurant analogy earlier, I said that
+19:28 the back end stores your data in
+19:29 something like a kitchen's walk-in
+19:31 freezer where all the ingredients or
+19:33 your data in this case are kept ready
+19:34 for when they're actually needed. That's
+19:36 a very helpful mental image for
+19:37 understanding what storage is. But to
+19:40 understand how it's organized and
+19:41 access, there's a better metaphor. You
+19:42 can picture a filing cabinet like the
+19:44 old school kind that you see in an
+19:45 office. This is a great way to imagine
+19:47 how databases actually work in a real
+19:48 app. That cabinet is your database, your
+19:51 software's complete memory for
+19:52 everything to do with users and the app
+19:54 itself. So in a database data is
+19:56 organized by category. So imagine that
+19:58 each drawer in this filing cabinet holds
+20:00 one type of information. For example, if
+20:02 you had an e-commerce app like Amazon,
+20:04 you might have one drawer for the users,
+20:06 another drawer for products, and then
+20:07 another for orders. In database terms,
+20:10 each of those drawers is called a table.
+20:12 So if you were to pull open the users
+20:13 drawer, you'd find a bunch of folders,
+20:15 one for each of your users, where each
+20:17 folder has tabs for labels for
+20:19 information like your name, your
+20:20 address, your email, etc. So what this
+20:22 looks like in real life. So to map a
+20:24 metaphor to an actual database table,
+20:25 things would look a bit like this. You
+20:27 have a users table and then for each
+20:29 person you have the ID, the first name,
+20:31 the last name, the email, and then the
+20:33 address as well. Here we've got a table
+20:35 or a drawer that is full of our users
+20:37 with each row essentially being a folder
+20:39 in that drawer with columns for each tab
+20:41 in that folder. And at this point you
+20:42 might be thinking, hm, so a table is
+20:44 basically like a spreadsheet like Google
+20:46 Sheets or Microsoft Excel. So then a
+20:48 database is basically a collection of
+20:50 spreadsheets. And honestly, it's pretty
+20:51 much as simple as that. Sure, things can
+20:53 get a little bit more complex, but just
+20:55 to get started with building, like we're
+20:56 going to do later in this video, that's
+20:57 all you really need to know. So, when we
+20:59 build our app later, we're going to be
+21:00 creating an application that's
+21:01 essentially communicating with a fancy
+21:03 spreadsheet that we can easily store
+21:04 stuff within and grab things from, like
+21:06 a a bunch of spreadsheets that are
+21:08 really optimized for building software
+21:10 around because we can easily interact
+21:11 with them and send data and pull data
+21:13 back. So far, we've looked at one table
+21:15 at a time, like a table full of users,
+21:17 but real apps use multiple tables that
+21:19 are connected behind the scenes. So, you
+21:21 can think of it like having a bunch of
+21:22 Google Sheets that can all talk to each
+21:23 other or are related to each other in
+21:25 some way. So, in a shopping h, what
+21:26 happens when a user actually orders a
+21:28 product? Let's just walk through it step
+21:29 by step. So, when someone places an
+21:30 order, like a user named Tara, who is
+21:32 buying some kind of shoes, the app uses
+21:34 three different tables to handle that
+21:36 order. Firstly, it has the users table.
+21:38 So, who made that order? Then it uses
+21:40 the orders table, the order itself, what
+21:42 was bought, how many, and by whom. Then
+21:43 the products table, the items to order.
+21:45 So here's what happens behind the
+21:46 scenes. The app knows that Tara is
+21:48 already in the users table with the user
+21:50 ID 1 2 3. It knows the shoes are already
+21:52 in the products table with a product ID
+21:54 of 999. So when you click purchase and
+21:56 create a new order, it creates a new row
+21:58 in the orders table that connects these
+21:59 two things. So in the orders table, we
+22:01 have order ID, user ID, product ID,
+22:04 quantity, total, and then we have the
+22:06 data to fill out one of those rows. So
+22:08 this row is basically saying user 123,
+22:10 Tara, ordered one of product 999 shoes
+22:14 and the total is $89. So the actual user
+22:16 and product info isn't copied into this
+22:18 row. The app just uses their ID numbers
+22:20 to kind of link things together. And
+22:21 that's how databases stay clean and
+22:23 organized. Instead of one big messy
+22:25 table, they've got smaller, more focused
+22:27 tables that are all connected to each
+22:29 other by IDs. It's like each table is a
+22:31 smart sheet and the app just follows the
+22:33 links between them. With this basic
+22:34 understanding in mind, you can write
+22:35 much better prompts at the software
+22:37 composing tools like Bolt that we're
+22:38 going to work on later. As a clearer you
+22:40 are, the better the AI can build it. So,
+22:41 what I've just taught you allows you to
+22:43 go from a weak prompt like let users
+22:45 save their favorites to being able to
+22:46 create a much clearer prompt like create
+22:48 a favorites table that stores which user
+22:50 likes which products. So, I hope you're
+22:52 starting to see already why I've taken
+22:53 this route with this video. It's this
+22:55 building up of of vocabulary and
+22:57 understanding of all the moving parts
+22:58 that is really what you need to have any
+23:00 kind of long-term success with this new
+23:02 skill of software composing. So, let's
+23:03 recap and just lock it in, right? Apps
+23:06 need memory. Databases give them that. A
+23:08 database is like a filing cabinet full
+23:10 of drawers for each category of data.
+23:12 We'll call these tables. And each drawer
+23:14 holds folders or rows with labeled
+23:16 columns. It's really not that much
+23:17 different from spreadsheets that you're
+23:19 already familiar with. And these tables
+23:20 can be linked together using IDs to keep
+23:22 things in sync without getting sort of
+23:24 mushed all into the same one. And the
+23:25 best part is that you're not going to
+23:27 need to code any of this. You just need
+23:29 to be able to describe it clearly. So
+23:30 I'm giving you the vocabulary again. So
+23:32 now that you understand how data is
+23:33 stored and connected behind the scenes,
+23:35 the next question is how does the app
+23:37 actually get that data when it needs it?
+23:39 And that's where APIs come in. And
+23:41 they're actually a lot simpler than you
+23:42 think.
+23:45 When you hear API, which stands for
+23:47 application programming interface, you
+23:49 might start to feel a little bit
+23:50 intimidated. And I get it. It sounds
+23:51 pretty technical, but I promise that
+23:53 it's actually a lot simpler than you
+23:54 think. So, if you remember back to our
+23:55 restaurant analogy from earlier. Well,
+23:57 when you want a meal, you don't just
+23:59 march into the kitchen and grab some
+24:00 food yourself, right? You go sit down,
+24:02 you tell the waiter what you want, and
+24:04 then they go and talk to the kitchen for
+24:05 you. Then, they bring the food to you
+24:07 when it is ready. And that's exactly
+24:08 what APIs do within software. They are
+24:10 the waiters that carry your app's
+24:12 request into the kitchen, which is the
+24:13 back end, and they grab what you ask for
+24:15 from the database and bring it back to
+24:17 the front end. So, for example, when you
+24:19 visit the web page for those shoes
+24:20 you've been eyeing, you're asking the
+24:21 API or the the waiter, hey, bring me
+24:24 these shoes. I want to take a look at
+24:25 them. So, when you click on the shoes on
+24:27 the site, the API hears that, walks into
+24:29 the back end, grabs the shoes info from
+24:31 the products table in the database, and
+24:33 then sends it back to the front end to
+24:34 be displayed. and and just like that,
+24:36 the shoe's name, the photo, the price,
+24:38 and the details can pop up and load into
+24:40 your screen. And that little back and
+24:41 forth exchange, asking for something,
+24:43 and getting something is called a
+24:45 request and a response. And that pattern
+24:48 is happening constantly and often in
+24:49 milliseconds every time you do something
+24:51 within web apps. So, every time you load
+24:53 a YouTube video or check the weather,
+24:54 APIs are quietly running around behind
+24:56 the scenes like super fast waiters that
+24:58 are grabbing what you need from the back
+24:59 end and then serving it up to you in the
+25:01 front end. There are many different
+25:02 kinds of APIs. So for example, when you
+25:04 as the user ask for something from the
+25:06 back end, this is called a get request,
+25:08 which makes sense because you are asking
+25:11 to get something. So when you're in an
+25:12 app and you click on your profile, you
+25:14 are getting the profile info that is
+25:16 stored for you such as your username,
+25:17 your email, your avatar, etc. And then
+25:19 your browser translate that info that it
+25:21 got for you from the back end and
+25:22 displays on the web page. But APIs
+25:24 aren't only used for getting stuff.
+25:26 They're actually used to send stuff as
+25:27 well from the front end to the back end.
+25:29 Like for example, if you fill out a
+25:30 form, that is then saved in the
+25:32 database. And these kind of actions and
+25:34 requests are called post requests. Just
+25:36 like you send a postcard through the
+25:38 post office, post requests are for
+25:40 sending data from the front end or what
+25:41 the user is interacting with to the back
+25:43 end or even to another external software
+25:45 that your app is able to communicate
+25:47 with. This might sound a bit confusing,
+25:48 but we will be doing this in the app
+25:49 that we're going to be building in the
+25:50 building section of this video. Our
+25:52 users will be able to create new music
+25:53 events which will then store in the
+25:55 database and display those events to
+25:57 them in the front end. Then we have
+25:58 internal versus external APIs. So, while
+26:00 we have these waiters who pass requests
+26:02 and responses between the dining room
+26:03 and the kitchen or the front end and the
+26:05 back end, where does our restaurant get
+26:06 its ingredients from? So, just like a
+26:08 restaurant isn't growing all of the food
+26:10 it cooks, an app doesn't always have to
+26:11 generate all of its own data or handle
+26:13 every single task by itself. It can
+26:15 actually get stuff from other apps using
+26:18 what's called external APIs. So, let's
+26:20 say that you need a map for your app.
+26:21 Instead of building all of that from
+26:23 scratch, you can just use something like
+26:24 the Google Maps API which has already
+26:26 done all of the heavy lifting for
+26:28 mapping the whole world and getting all
+26:29 the data stored somewhere. And Google
+26:31 has created a powerful API that you can
+26:33 just plug in to display their maps and
+26:34 location features inside your app. In
+26:36 fact, APIs that you talk to nearly any
+26:38 service or application on the internet.
+26:40 So when you think of APIs, just imagine
+26:41 a box. That's your app. Now imagine
+26:44 another box. That's a different app. And
+26:46 the way that they interface or
+26:47 communicate with each other is through
+26:48 an API, the application programming
+26:50 interface. So you get the you get the
+26:52 naming for it. Now now imagine a wire
+26:54 that plugs from your box to the other
+26:56 box and this wire is used to send
+26:58 requests. Now imagine a second wire from
+27:00 that other box to yours. That one is
+27:01 used to receive responses in your app.
+27:03 And that's really all you need to know
+27:04 to understand the essentials of how APIs
+27:06 work. It's basically just the way that
+27:08 softwares connect and communicate with
+27:09 each other, either between the front end
+27:10 and back end of an app or between one
+27:12 app and another one. So APIs allow you
+27:14 to plug in powerful features without
+27:16 having to build them yourself. You're
+27:17 not reinventing the wheel. You are
+27:18 composing apps out of building blocks
+27:20 that are already made by other teams and
+27:22 are available for you to use. For
+27:24 example, if you want to plug in some AI
+27:25 into your application, OpenAI and
+27:27 Anthropic and all of the other model
+27:28 providers have super handy and easy to
+27:30 use APIs where you don't have to have
+27:32 built your own AI model or LLM. You can
+27:35 just access chat GBT by API by sending a
+27:38 message saying, "Hey, can you do this?"
+27:40 and send it to Open AI and then it will
+27:41 send back the response just like you're
+27:43 using chat GPT. So that's how you can
+27:45 programmatically build in very powerful
+27:47 things that other companies have built
+27:48 into your applications. But in order to
+27:50 be allowed to use those APIs like say
+27:52 talking to OpenAI's chatbt models, you
+27:54 need permission to use them. And that's
+27:56 where API keys come in. As the name
+27:58 suggests, they are the keys that unlock
+28:00 your access to plug into various APIs so
+28:02 that you can start sending and receiving
+28:04 what you need from it. And unless the
+28:06 API is free, you'll also need some
+28:07 credits, which is essentially your way
+28:09 of paying the other app for renting
+28:11 their features within your app. Like in
+28:13 order to use the chatbt models, you need
+28:14 to have set up an account with OpenAI.
+28:16 You need to have set up your credit card
+28:17 on there so that you can pay for the
+28:19 access to the models. And then once you
+28:21 have that set up, OpenAI will give you a
+28:23 special API key that you can put into
+28:25 your application so that when you are
+28:26 communicating with them, they know that
+28:28 it's you and that you have paid. So they
+28:29 can check that you've got billing,
+28:30 you've got your credits, and then every
+28:32 time you send a message to them, they
+28:33 can calculate how much that cost and how
+28:34 much to deduct your credits. So let's
+28:36 use a real world example to explain
+28:37 this. Now that we have a good mental
+28:39 model for this, let's make it a little
+28:40 bit more concrete. So, imagine you're
+28:42 building a food delivery app. To build
+28:44 this, you could hook into the Google
+28:45 Maps API to show all the restaurant
+28:47 locations. You could use Stripe's API to
+28:49 take payments. You could use Twilio's
+28:51 API to send order updates via SMS and
+28:54 the Google Firebase API for live chat
+28:56 with the driver. See, you're not
+28:57 actually building all of these things
+28:58 from scratch these days. You're
+29:00 composing software with your own unique
+29:01 features while leveraging what's already
+29:03 available to you out there on the market
+29:04 through all of these incredible APIs
+29:06 that people create. And the beauty is
+29:07 when you are working with AI tools like
+29:09 what we're going to use in this video.
+29:10 They're going to take care of most of
+29:11 that technical implementation for you.
+29:13 You just need to focus on clearly
+29:14 describing what you want your app to do,
+29:16 you can either suggest an API that
+29:17 you're already aware of, or the AI could
+29:19 even figure out on its own which are the
+29:21 best APIs to use and how to wire
+29:22 everything up for you. And that is the
+29:24 power of software composing. And now
+29:25 that you understand APIs, you've
+29:26 unlocked a huge part of building super
+29:28 powerful apps.
+29:33 All right, we are making great progress
+29:35 here. There's only a little bit more
+29:37 theory before we can start building the
+29:38 app. So stick with me. The final concept
+29:40 that we need to understand is how to
+29:42 allow people to create accounts in our
+29:43 app so that they can log into it and
+29:45 we're able to track and customize their
+29:47 experience. So let's return to our
+29:48 restaurant analogy again. For exclusive
+29:50 fine dining restaurants, you won't be
+29:52 able to get seated or get a table
+29:53 without having a reservation. So if you
+29:55 just show up without reserving a table
+29:56 beforehand, you'll be turned away at the
+29:58 door. Similarly, your web app needs a
+30:00 system in order to recognize users and
+30:02 know what they're allowed to access.
+30:03 Without it, anyone could walk in
+30:05 claiming to be someone else and sit at
+30:06 any table, including the chef's private
+30:08 dining room in the back. So, if you make
+30:09 a reservation, or in our analogy, if you
+30:11 create an account, then you'll be
+30:13 allowed in and seated at a specific
+30:15 table that was reserved in your name.
+30:16 And in the world of software, we're
+30:18 talking about the concepts of
+30:19 authentication and authorization. So,
+30:21 what's the difference between
+30:22 authentication and authorization? Well,
+30:24 authentication is basically, do you have
+30:26 a reservation? You can think of
+30:28 authentication like the host checking
+30:29 the reservation book. They need to
+30:31 verify is this person who they claim to
+30:33 be. Do they actually have a reservation
+30:35 under this name? And can they prove that
+30:37 they made the booking? Maybe with a
+30:39 confirmation number or something. In web
+30:41 app terms, this is when users log in
+30:42 with their email and password or maybe
+30:44 they use their Google account or they
+30:46 scan their fingerprint. They're proving
+30:47 that they are authentic, showing that
+30:49 they really are who they say they are.
+30:50 And that's why it's called
+30:51 authentication. Authorization is more
+30:54 like what table are you assigned to. So
+30:55 once the host confirms your reservation,
+30:57 they'll escort you to the table booked
+30:59 in your name. And so if you didn't
+31:00 reserve the expensive private corner
+31:02 booth, they're not going to allow you to
+31:03 sit there, right? Similarly, when you
+31:05 log into a web app, you'll have access
+31:06 to only a certain number of pages and
+31:08 the data is specific to you. Like when
+31:10 you log into your Netflix account, you
+31:12 can see all of the available content and
+31:14 your personal watch list. But of course,
+31:15 you can't see what other people have
+31:16 watched and you definitely don't have
+31:18 access to a special admin view where
+31:20 Netflix employees might upload new
+31:22 content from. Basically, you can only go
+31:24 where you have the authority to go. You
+31:26 only see what you have been authorized
+31:28 to see. And that's why it's called
+31:29 authorization. In a web app, you need
+31:31 both user authentication and
+31:32 authorization. Without authentication,
+31:34 your app is like a restaurant with no
+31:36 host. Anyone can just walk in and claim
+31:38 that they're a VIP who booked the
+31:39 private dining room. And without
+31:41 authorization, it's like letting every
+31:42 guest just wander into the kitchen, sit
+31:44 at the chef's table, and swipe the
+31:46 company credit card. In our app, we'll
+31:48 set up a login system so users can sign
+31:50 in and be authenticated into their own
+31:52 accounts. And once they're logged in,
+31:53 they can create events and save events
+31:55 that they want to attend. And on their
+31:56 personal profile, they'll have the
+31:58 authorization to see both the events
+31:59 they are planning to attend and the ones
+32:01 that they have created themselves. So if
+32:03 you feel intimidated by these terms,
+32:04 just know that modern AI coding tools
+32:06 like what we're going to use later in
+32:07 this video make the implementation of
+32:08 authentication or OR far easier than it
+32:10 used to be.
+32:15 All righty. So you've made it through
+32:16 foundations. We have covered a lot of
+32:18 ground. Like seriously, a lot of ground.
+32:20 Like that took me years to learn all of
+32:21 that. Just in the space of 30 minutes,
+32:23 you've been able to do that. So
+32:24 congratulations firstly. But trust me,
+32:26 this is the stuff that 99% of people are
+32:28 going to skip in getting into this new
+32:29 kind of software composing vibe coding
+32:31 thing. And it's the very reason that
+32:32 they're never going to get far and
+32:33 they're going to get stuck later on. So,
+32:35 by understanding these core concepts,
+32:36 you've already built a massive
+32:37 advantage. Now, you have the language
+32:39 and the vocabulary and the mental models
+32:41 to build things that others simply
+32:42 can't. So, let's do a quick recap before
+32:44 we move on of everything that we've
+32:45 covered. First, we covered what software
+32:47 composing is and why it's so important.
+32:48 You learn that you no longer need to be
+32:49 a coder who builds everything from
+32:51 scratch and instead you can be more of
+32:52 an architect who clearly describes your
+32:54 vision and lets the AI handle the
+32:56 complex construction. We then defined
+32:57 what a web app is. Not just a static
+32:59 website but a dynamic interactive
+33:01 application like Airbnb or Netflix or
+33:04 your favorite SAS product that can
+33:05 remember users and change in real time.
+33:07 You learn the difference between the
+33:08 front end and the back end using our
+33:10 restaurant analogy where the front end
+33:12 is the dining room, everything that the
+33:13 user is going to see and interact with
+33:15 on the web page and then the back end is
+33:16 like the kitchen which is the hidden
+33:18 engine that does all of the heavy
+33:19 lifting for you. We also talked about
+33:21 databases which is the software's
+33:22 memory. We use the filing cabinet
+33:24 analogy where your database has tables
+33:26 or drawers that hold records or rows of
+33:29 information like your users or your
+33:31 products or orders. Next, we covered
+33:33 APIs which are the the waiters of the
+33:35 software world and they are the
+33:36 messengers who carry requests and
+33:37 responses between the front end and the
+33:39 back end or even between completely
+33:40 different applications allowing them to
+33:42 work together. And finally, we broke
+33:44 down authentication and authorization
+33:46 with authentication being about proving
+33:48 who you are like showing your ID to get
+33:50 into a club. And authorization is about
+33:52 what you're allowed to do once you're
+33:53 inside. Each of these concepts is a
+33:55 critical piece of the puzzle and
+33:57 together they form the blueprint for
+33:58 every modern web application. Now, it is
+34:00 absolutely crucial that you have a solid
+34:02 grasp on these ideas and concepts before
+34:04 we move on. And I mean, if it helps, go
+34:06 and ask Chat GBT and say, "Hey, I don't
+34:07 quite understand a specific part of the
+34:09 video. Can you please explain this
+34:10 concept?" And you'll be able to go back
+34:12 and forth and solve it. And that really
+34:13 is the best way to get personalized
+34:14 teaching to help you work through these
+34:15 tricky concepts. And I say this because
+34:17 you're going to need to fully understand
+34:18 all of what we've taught there in order
+34:19 to get the most out of the building
+34:21 chapter that's coming up. But if you're
+34:22 feeling confident and congratulations,
+34:24 you have now laid the foundation and now
+34:26 it's time to pick up the tools and start
+34:28 building. So, in the next chapter of
+34:29 this video, we're going to turn this
+34:30 theory into practice and start building
+34:32 web apps.
+34:36 So, welcome to chapter 2. You've built
+34:38 the foundation and now it's time to
+34:40 start building on that foundation. This
+34:41 is where the theory becomes real and
+34:43 you'll see just how powerful this
+34:44 software composing skill is. In this
+34:46 chapter, we're going to be building a
+34:47 complete full stack web application from
+34:49 scratch, which is an event discovery
+34:51 platform where users can browse, attend,
+34:53 and even create their own music events.
+34:55 But we're not going to build this all at
+34:56 once. We'll do it step by step, prompt
+34:58 by prompt, looking over my shoulder in a
+35:00 way that mirrors how real world
+35:01 applications are developed. So, we'll
+35:03 start with a very simple idea and then
+35:04 progressively add layers of
+35:05 functionality on top of that. And it is
+35:07 crucial that you follow these builds in
+35:08 order and don't jump ahead because each
+35:10 lesson will layer on top of the last.
+35:12 And by the end of each build, you'll
+35:13 have a working application. And by the
+35:15 time we're done, at the end of build
+35:16 three, you will have a complete full
+35:18 stack SAS product that you can be proud
+35:20 of and put straight into your portfolio.
+35:21 So, here is what we're going to be
+35:22 covering in this chapter. Before we jump
+35:24 straight into building, we need to
+35:25 survey the current landscape of AI
+35:27 development tools. This is really
+35:28 important for you to know and I'm going
+35:29 to show you all of the different options
+35:31 out there in terms of the tools that are
+35:32 on hand for you as a software composer.
+35:34 And I'll also be explaining the tool
+35:35 that we're going to use for this course.
+35:36 Then we'll get into build one where
+35:37 we'll be doing front end and UI design.
+35:39 We're going to start off by creating the
+35:40 visual part of our app first, which is
+35:42 the user interface or front end. You're
+35:44 going to learn how to take a design from
+35:45 an idea to a beautiful and interactive
+35:47 front end that users can see and click.
+35:49 Then we'll be getting into build two
+35:50 where we'll be focusing on building our
+35:52 backend databases and APIs. In this
+35:54 second build, we'll give our app a brain
+35:56 and memory. We'll connect it to a
+35:57 database in order to store our events
+35:59 and our users and set up the APIs that
+36:01 allow the front end and back end to
+36:02 communicate with each other. Then
+36:03 finally, in build three, we'll be
+36:04 tackling the authentication and
+36:06 authorization of users. So with the core
+36:07 app working and the front end and back
+36:09 end talking to each other, the final
+36:10 touch is to add the ability for users to
+36:12 create accounts, login and then have
+36:14 personalized experiences when they are
+36:16 logged in like saving events to their
+36:17 own profile and creating new events.
+36:19 Then we will deploy your app to the real
+36:20 world and handle security. So this step
+36:22 is all about taking your application
+36:23 live and putting it on the internet for
+36:25 the world to see. And we'll be covering
+36:26 the essential steps to make sure that
+36:28 it's safe and secure. Then we'll jump
+36:29 into a short section on debugging, which
+36:31 is fixing what breaks in your app. None
+36:33 of your builds are going to be perfect
+36:34 on the first try. So, I like to teach
+36:35 you guys how to fish, not just give you
+36:37 a fish. So, I'm going to teach you how
+36:38 to think like a developer and find bugs
+36:40 and then use AI to help fix them. This
+36:42 is a critical skill that again is going
+36:44 to put you ahead of 99.9% of all the
+36:46 other people who are trying to do this
+36:48 software composing and vibe coding
+36:49 thing. So, by the end of this chapter,
+36:51 you won't just have a finished product.
+36:52 You'll have the hands-on skills and the
+36:54 confidence to start building your own
+36:56 ideas. So, let's get into it. First up,
+36:58 let's explore the software composing
+36:59 landscape.
+37:02 So in this exciting new world of
+37:04 software composing, there are a number
+37:05 of different tools that we can choose
+37:06 from. Tools at the moment currently fall
+37:08 into three categories. We have browser
+37:09 based builders. These are AI assisted
+37:11 app builders where everything happens
+37:12 online. These are the most popular for
+37:14 newcomers and the easiest to get started
+37:15 with. These include tools like Bolt.
+37:17 Bolt is fantastic for beginners. You
+37:19 just describe your app and it can build
+37:20 everything from the front end to the
+37:22 back end. And most importantly, it has
+37:24 super easy database integrations with
+37:26 powerful backend tools like Superbase,
+37:27 which makes things so much easier. And
+37:29 when you're ready to launch your app
+37:30 live to the world, you can do it in an
+37:32 instant with a simple publishing step.
+37:33 Bolt is also the sponsor of this video
+37:35 and as you'll see in a second, it is the
+37:37 perfect starting point for beginners
+37:38 that also has all of the tools that you
+37:40 need to really grow into an advanced
+37:42 software composer and build complex
+37:43 applications. It's just a great tool for
+37:45 quickly turning your ideas into working
+37:47 products and beyond. So, in a second,
+37:48 we'll be jumping into use Bolt to build
+37:50 the music event discovery app that we've
+37:51 been talking about previously. Another
+37:52 popular tool is Replet agent. So, Replet
+37:54 agent combines AI building with a more
+37:56 complete coding workspace, which is
+37:58 great if you already have a little bit
+37:59 of development experience or if you want
+38:01 to dive deeper into traditional
+38:02 programming as well. Compared to the
+38:03 other platforms out there like Bolt,
+38:05 it's known for being not so great at
+38:06 design, but very very good at building
+38:08 powerful back-end functionality. Then we
+38:10 have Lovable. And Lovable is another one
+38:11 of these vibe coding apps uh with a
+38:13 reputation for being really really good
+38:14 at building beautiful web designs.
+38:16 That's kind of their specialty. The next
+38:17 category of tools are desktop AI coding
+38:20 assistants. So these are apps which work
+38:22 on your computer and offer a lot more
+38:23 control. These are kind of similar to
+38:25 ripplet agent because they're more for
+38:26 people with more technical and coding
+38:28 experience but they can be super super
+38:29 powerful. Firstly we have cursor. So
+38:31 when traditional software developers
+38:32 code they use what's called a code
+38:34 editor which is basically like Microsoft
+38:36 Word on steroids but perfectly made for
+38:37 coding. The most popular code editor is
+38:39 called visual studio code which now has
+38:41 an AI powered tool called cursor. So
+38:42 cursor can basically read your entire
+38:44 coding project and make contextual
+38:45 suggestions. And with its agent feature
+38:47 you can type in what you want and it's
+38:48 going to attempt to build that for you
+38:49 within cursor. So, this tool is great if
+38:51 you're already a developer and you want
+38:52 to supercharge your efficiency with AI
+38:54 or if you're gaining more experience as
+38:56 a software composer and want more
+38:57 hands-on control of your codebase. And
+38:59 we'll touch more on this a bit later.
+39:00 And so, as you improve your software
+39:01 composing skills, you may want to try
+39:03 out things like cursor to extend beyond
+39:05 what you can do on the browser based
+39:06 ones. Then, there's windsurf which
+39:07 offers similar capabilities to cursor
+39:09 but with different AI models and
+39:10 workflows. Finally, it's important to
+39:12 point out that these general purpose
+39:13 LLMs that you already use for
+39:15 brainstorming ideas like chatbt or
+39:17 claude can also write working code. This
+39:19 means you always have a coding partner
+39:20 on standby, so you're not locked into
+39:22 any single tool. You can go back and
+39:23 forth between tools like Bolt and Chatbt
+39:25 to refine your project incrementally. So
+39:27 just remember that this whole landscape
+39:28 is evolving extremely fast. There's
+39:30 going to be new tools that pop up and
+39:31 old ones that fade away and features are
+39:33 going to be changing all the time. The
+39:34 best tool is one that you'll actually
+39:36 use. So start simple, experiment often,
+39:38 and grow your toolbox as you go. It's
+39:40 very easy to get overwhelmed. So with an
+39:41 AI coding companion by your side and
+39:42 knowing how to use it properly, you're
+39:44 already miles ahead of the game. So with
+39:45 this understanding of all the tools
+39:46 available to us, we can now start with
+39:48 building our app with Bolt, which means
+39:50 we just need to start mapping out the
+39:51 plans for how our app should look and
+39:53 feel.
+39:58 This is the app we're going to be
+39:59 building together throughout this
+40:00 course. As you can see, it's a platform
+40:02 for discovering live music events.
+40:04 There's this list of events that users
+40:06 can scroll through and check out events.
+40:09 They can filter the list by category.
+40:11 Whether they're interested in things
+40:12 like festivals
+40:14 or concerts, it's going to show just
+40:15 those events for those categories.
+40:18 And of course, we will be adding user
+40:19 authentication. So users can create an
+40:21 account or logging back into an existing
+40:24 account like you see me doing here.
+40:27 Once we log in, we will see our user
+40:29 profile and see the events that we're
+40:30 attending
+40:32 as well as events that we created. If we
+40:35 created the event, we can pop it open
+40:37 and edit it as well as delete it. In
+40:40 order to create new events, we can pop
+40:41 open this add event form.
+40:44 And whenever we fill this out and hit
+40:45 create event, we will be adding a new
+40:47 event to our backend database. And all
+40:49 of our events that we're seeing here are
+40:51 being pulled in from that same database
+40:53 that we can add events to. So, we are
+40:55 going to be building out a full stack
+40:56 application uh with user authentication
+40:59 step by step. So, if you're ready to
+41:00 start building, let's get into it.
+41:07 Whenever we compose software, we need to
+41:08 think about what our users will actually
+41:10 be interacting with and how we want them
+41:12 to experience our app. So, let's get
+41:13 grounded in two quick definitions. The
+41:15 UI or user interface is what users see
+41:17 and interact with. Things like buttons,
+41:20 text, the layout, while UX or user
+41:22 experience is how people feel using the
+41:24 product. Is it intuitive, helpful,
+41:26 enjoyable? Think of UI as the map you
+41:28 design to lead the user on a specific
+41:29 journey and that journey itself is the
+41:31 UX. To make things super clear about
+41:33 what we're building, I created this
+41:35 Figma that breaks down each major step
+41:37 of the app we're building, which is
+41:38 available for you in the course
+41:40 resources. To access this and all other
+41:41 resources, just join our free school
+41:43 community. After creating your account
+41:45 and verifying your email, you'll be
+41:46 granted access within a couple minutes.
+41:48 Then head to the classroom and open the
+41:50 AI foundation section. That's where
+41:51 you'll find this software composing
+41:53 course you're taking right now. The
+41:54 course resources are located just below
+41:56 the orientation. You'll find the Figma
+41:58 link here along with the relevance tool
+42:00 we'll use soon. When designing your own
+42:02 app, you'll want to start with a clear
+42:04 vision like this of what you're building
+42:05 and what elements you'll need on screen.
+42:07 While AI tools like Claude or Chat GPT
+42:09 or other ones can certainly help with
+42:11 this process, I recommend beginning with
+42:13 a simple sketch. This approach helps you
+42:15 develop a firm grasp of your project
+42:17 before diving into development. You can
+42:19 do that sketch in Figma or some other
+42:21 design tool or even a simple pencil on
+42:23 paper. That way, once you have a solid
+42:25 plan, you can get a really good starting
+42:27 prompt from a UI design tool like the
+42:29 one I'll share with you in a few
+42:30 minutes. So, let's walk through the
+42:32 skeleton piece by piece or in UI terms
+42:35 element by element to see how this UI
+42:37 design supports a smooth and intentional
+42:39 user experience. We start at the top
+42:41 with the navbar, which is short for
+42:43 navigation bar. Unless you're brand new
+42:45 to the internet, you've already used
+42:46 these and you know that they're for
+42:48 navigating around the site. Nearly every
+42:50 web application has one, and they can
+42:52 range from minimal with a number of
+42:53 links that route to different parts of
+42:55 the site to much more involved. But for
+42:57 our needs, we'll be starting out with a
+42:58 very simple navbar with only one link
+43:00 events, which will just scroll the page
+43:02 down to the event list below. Under the
+43:04 navbar, we have what's called the hero
+43:06 section. If the homepage of your app is
+43:08 like the front door, then the hero
+43:10 section is the welcome mat, which greets
+43:12 your users. Generally, hero sections
+43:14 contain two key elements. a heading, in
+43:16 our case, discover music events, which
+43:18 tends to be the first text the user
+43:20 reads written to immediately communicate
+43:22 the purpose of your app. Then there's a
+43:23 button that invites people inside or to
+43:25 take an action. That's why they're
+43:27 referred to as CTA or call to action
+43:30 buttons. They're typically in a bold
+43:31 color that stands out on the page and
+43:33 provides a clear first step for users to
+43:35 take in our app. The phrase join the
+43:37 movement makes the action feel
+43:39 meaningful and inclusive while also
+43:41 fitting the theme of our site. Below the
+43:43 hero section, we have a list of events
+43:44 that users can scroll through to see the
+43:46 available events that they can attend.
+43:48 And these events are displayed using
+43:49 what are called cards. These are
+43:51 basically containers that organize
+43:53 information in a neat way, kind of like
+43:55 how trading cards display stats about
+43:58 players. For our app, they'll contain a
+44:00 preview of the details about a single
+44:02 event. So technically here, we're
+44:03 looking at a list of event cards. So, in
+44:05 just a simple web page here, we've seen
+44:07 how a few UI choices, a navbar, a hero
+44:11 section with a clear heading and button
+44:13 along with this card layout can create a
+44:15 user experience that feels welcoming,
+44:17 clear, and actionable. Good UI and UX
+44:19 just means thinking about what the user
+44:21 needs at each step and designing the
+44:23 user interface that meets them where
+44:25 they are. When it comes to planning out
+44:26 your apps, UI, and UX, there are a
+44:28 number of tools you can use these days
+44:30 with new tools releasing all the time
+44:32 that can help out. To make this process
+44:34 easier for you, we created a relevance
+44:36 UI designer tool for you to use. The
+44:38 template will be available in the course
+44:40 resources. So, let's walk through using
+44:41 it so you can see how helpful it can be.
+44:43 As you see, it's going to ask me to
+44:44 describe my project needs. So, I'm going
+44:46 to tell it I need a UI design for a live
+44:48 music event discovery app. It is going
+44:50 to run me through a series of questions.
+44:52 Like the first one, it's asking is it
+44:54 for web or is it for mobile? Is it for
+44:56 phone or tablet? But this is a web app.
+44:59 And by the way, I did speed up the video
+45:01 throughout this section. So, the actual
+45:03 processing of the tool takes a little
+45:04 longer in real life than you're seeing.
+45:06 Now, it's asking, do I want it to be
+45:08 responsive? That's just a web-based term
+45:10 that's referring to, do you want it to
+45:13 adapt or respond to different screen
+45:15 sizes? And of course, we want people to
+45:16 be able to use this app and have a nice
+45:18 experience regardless of the device size
+45:20 that they're looking at it on. So, we'll
+45:22 say yes, it needs to look good on any
+45:24 screen. Then, it says great. Now, could
+45:26 you please provide the name of your app?
+45:28 Uh, our app, we're just calling it Show
+45:30 Go. and it's asking us what are the
+45:32 brand colors for Shogo. We could give it
+45:34 specific hex codes, which is a fancy
+45:36 number that specifies an exact color, or
+45:38 we can just share some general ideas.
+45:40 So, I'm telling the UI designer that I
+45:42 want it to be in a dark mode with purple
+45:44 accents and maybe even a neon purple
+45:46 vibe to it. Now, it's going to ask me to
+45:48 describe the personality of the brand.
+45:50 So, I want it to be futuristic, clean,
+45:52 and energetic. So, it's going to take
+45:54 that and ask as a follow-up of what
+45:56 design preferences do we have. I'm going
+45:57 to tell it that I like a minimal ticky
+45:59 feel. And here importantly is going to
+46:01 ask what key screens or pages do we
+46:03 envision needing for our app. For
+46:04 example, a home screen, an event details
+46:07 page, a user profile. We will eventually
+46:10 need both those pages. But for now, as
+46:12 we want to build this incrementally
+46:14 together, I'm going to tell it let's
+46:16 just focus on the homepage.
+46:18 And considering that it's going to ask
+46:19 us what UI or user interface elements do
+46:22 we want on the homepage. What kind of
+46:24 navigation style buttons, search bar,
+46:27 event listings, etc. So, it's already
+46:30 envisioning the elements that were in
+46:31 our sketch that we drew was already
+46:33 pretty intuitive. So, I'm just going to
+46:34 summarize what we sketched out so far.
+46:36 So, there should be a navbar at the top,
+46:39 a hero banner underneath that with a
+46:41 heading saying discover music events and
+46:43 a button that says join the movement and
+46:46 then under that hero a list of event
+46:48 cards that display the events details.
+46:50 Then, it's going to intelligently ask us
+46:52 what kind of content we want included in
+46:54 those event cards. So, we're going to
+46:55 say we want the event name, description,
+46:58 location, venue, date, time, category,
+47:02 and an image. And then it's going to get
+47:03 a sense for the target audience or
+47:05 demographic of our application. So,
+47:06 we'll say live music enthusiasts,
+47:08 skewing more towards the Gen Z to
+47:10 millennial demographic. Now, it's asking
+47:12 us, what key user flows do you envision
+47:14 for the homepage? So, at this point,
+47:16 we're really talking about not just the
+47:18 user interface, but also the user
+47:20 experience. So what kind of actions and
+47:22 experiences do you want the user to have
+47:24 when they are on your page? So we'll
+47:25 tell it that we want the user to
+47:27 immediately be inspired to start
+47:28 scrolling the list of events and
+47:30 exploring the details of those events.
+47:32 Eventually we can talk about the users
+47:33 logging in but let's focus on this for
+47:35 now. Now as you see it's asking us for
+47:37 any examples of apps or websites that we
+47:39 like. So I have already saved a few
+47:41 websites that I was inspired by. And of
+47:43 course this is a process that you can go
+47:44 through yourself. You can uh search the
+47:47 internet or even have a chat with an LLM
+47:50 to generate some ideas of existing
+47:52 websites for you that might be in line
+47:53 with direction that you want to take
+47:55 your app in. I already did that and
+47:56 found that this super list site has a
+47:58 nice feel that we can mimic with like
+48:00 the purple gradient and lighting effect.
+48:02 And then raycast. I liked how there's
+48:04 this animation in the hero section. I
+48:06 like this glow around the elements here.
+48:08 Okay.
+48:12 And then this third one is spline. It
+48:14 has another animation in the header
+48:15 that's even responding to the cursor
+48:17 movement, which is cool, and a nice dark
+48:19 mode. So, I'm going to give it these
+48:20 three inspirations and tell the UI
+48:23 designer what I like about them. I like
+48:25 how they are in dark mode, uh, fairly
+48:27 minimal but futuristic, and have
+48:29 engaging animations in the hero section.
+48:31 So, I would like to see something like
+48:32 this with a purple gradient. And I'm
+48:35 going to get even more specific and tell
+48:36 it that I want animating sound waves in
+48:38 that hero section. I think that would be
+48:40 really fit the vibe of our app. So now
+48:42 it's going to take all of that
+48:43 information from the questions that
+48:45 asked us uh and it's creating a summary
+48:47 of requirements. So I'm going to review
+48:49 this, make sure it's all in line with
+48:52 what I'm wanting to see and say this
+48:53 looks great. Let's see it.
+48:56 Once it's generated, it's created
+48:58 something that's really quite in line
+48:59 with what we're looking for. There's
+49:02 just a few things that I want to change.
+49:03 It's missing the navbar and also I want
+49:06 the event cards images to be on the
+49:08 left, not the right. So, it's going to
+49:10 take that feedback and generate another
+49:12 version for us. So, if we scroll up
+49:14 here, it is looking much nicer. It's
+49:16 looking nice enough for us to go ahead
+49:18 and copy the image. And we're going to
+49:19 bring this into Bolt. So, we'll head to
+49:21 bolt.net. And if you don't already have
+49:23 an account, you can get started or sign
+49:25 into your account that you already have,
+49:27 which I'll do now. And I'm going to
+49:28 paste that image here. And then, if I go
+49:30 back into the UI designer relevance
+49:32 tool, you'll see it's generated a prompt
+49:34 for us. And by the way, this prompt and
+49:36 the image itself will be available in
+49:38 the course resources below this video.
+49:40 So I can just grab that, tell Bolt to
+49:42 refer to the image that I already gave
+49:43 it. And then I'm going to paste that
+49:45 prompt in here. So it's going to refer
+49:46 to this and then also refer to the text
+49:49 prompt. And I could just submit this as
+49:50 is. But I want to bring your attention
+49:52 to this helpful tool at the bottom here.
+49:54 If I click this, it's actually going to
+49:55 enhance the prompt for me. So it's going
+49:57 to improve that even more to be in line
+49:59 with the kind of prompt that's going to
+50:00 really suit Bolt's functionality. So now
+50:03 I can review it, make any changes that I
+50:05 want to, but it's looking pretty good.
+50:07 It seems to have all all of the pieces
+50:09 that I'm looking for. So I can go ahead
+50:10 and submit that. Now we're brought to
+50:12 the true Bolt interface of composing our
+50:15 applications. On the left here, we see
+50:17 that it's thinking through the process
+50:18 that it's going to implement. So we can
+50:20 follow along with this thought process
+50:21 if you're interested. And then on the
+50:23 right panel, it's going to be generating
+50:25 the preview of what it has coded for us.
+50:28 Mind you, I am speeding all of this up
+50:29 to respect your time. If you were to
+50:32 build this yourself, it's going to take
+50:33 a bit longer. And as we can see, we've
+50:35 got an amazing first draft of our
+50:37 application here. That looks a lot like
+50:39 what we came up with with the UI
+50:41 designer. It's got our nice list of
+50:42 events. They're styled a bit
+50:44 differently, but I don't mind that. I
+50:45 think it actually looks quite nice. And
+50:47 we even have this CTA button up here in
+50:49 the hero, and it knew without us even
+50:51 telling it to to add this filter because
+50:53 it knew that every event had a category.
+50:55 So, it it intelligently added this
+50:57 filter for us. We did not even have to
+50:59 prompt that which is really shows you
+51:01 the power of Bolt that it can take your
+51:03 idea and expand upon it and make
+51:05 assumptions about how you want things to
+51:06 work beyond what you give it. The only
+51:08 thing I'm seeing here that we might want
+51:10 to change, we don't necessarily need
+51:11 this search icon. We don't need artists
+51:14 or venues. So really the act of software
+51:16 composing is creating a really solid
+51:17 initial prompt and things like our
+51:19 relevance tool can help you achieve that
+51:21 and properly planning things out at the
+51:23 beginning and then once you have a solid
+51:24 baseline then you just give it feedback
+51:26 as you go. So now we're going to uh tell
+51:28 it we want to remove the following links
+51:30 from the navbar. We'll take away venues
+51:32 and artists and also remove that search
+51:34 icon. Now it's telling us I'll remove
+51:36 those links. And now we can see this
+51:38 bright red error staring us in the face.
+51:40 I know that probably feels pretty
+51:42 intimidating, but it doesn't have to
+51:43 because more often than not, all you
+51:45 have to do is click the blue attempt fix
+51:47 button and Bolt is going to be able to
+51:49 figure it out and fix it for us. But it
+51:50 doesn't actually seem to have solved it
+51:52 cuz we still have those items in our
+51:54 navbar. So let's zoom into the chat
+51:55 window here. I want to bring your
+51:57 attention to this discuss icon. So, if I
+51:59 turn this on, I can actually have more
+52:01 of a discussion with Bolt about what's
+52:03 going on in my application. If I don't
+52:05 have discuss turned on and I'm giving it
+52:07 actual prompts and discuss, I can have
+52:09 more of an LLM type conversation with it
+52:11 and then it can suggest what changes
+52:13 should happen from that discussion. So,
+52:15 I'll tell it that I asked it to remove
+52:17 the venues and artist links from the
+52:19 navbar, but they are still there. So,
+52:22 now it's thinking about it. It's saying
+52:23 I'm correct and apologizing is giving me
+52:26 a plan to fix it. So we can review the
+52:27 plan and tell it to implement that plan.
+52:31 And now we only have the events item in
+52:32 our navbar just like we want. So that's
+52:34 great. But we wanted it to actually do
+52:36 something. So it would be nice if when a
+52:38 user clicks on this, they're actually
+52:39 scrolled down the page to that list of
+52:41 events. So let's tell both when the user
+52:43 clicks on the events link on the navbar,
+52:45 they should be scrolled to that event
+52:46 list down the page. So it's going to run
+52:49 through that behavior. We can test that
+52:50 out and it's working exactly how we
+52:52 wanted it to. Great. So, we're in a
+52:54 really good place. So, let's just
+52:56 continue to interact with the
+52:57 application like a user might. Uh, so we
+52:59 can get a feel for what feels right,
+53:01 what feels wrong. First thing I'm
+53:02 noticing here is that we have this get
+53:04 tickets button, but we don't actually
+53:06 want to be selling tickets from this
+53:08 application. We just want people to be
+53:10 able to see events and mark themselves
+53:12 as attending those events. So, let's
+53:14 discuss with Bolt. instead of revealing
+53:16 the get tickets button. When I hover my
+53:17 cursor over the event card, I want to
+53:19 always see a button on the event card
+53:21 that says view details because moving
+53:23 forward, we're going to be wanting to be
+53:25 able to click on that button and pop
+53:26 open that event and see all of its
+53:28 details in a dedicated page. And we can
+53:30 see now it has a view details button.
+53:32 So, that's good. But, it's kind of
+53:33 looking weird here when I hover over
+53:35 these event cards cuz it's it almost
+53:37 makes them look less active versus more
+53:39 in focus cuz they turn kind of darker
+53:41 and a little more hidden. I don't like
+53:42 that styling. So, I'm going to ask Bolt
+53:44 to fix that. I don't like how when I
+53:46 hover over an event card, the button
+53:48 dulls in brightness. What can we do to
+53:51 fix this so that hovering over an event
+53:53 card makes it feel more in focus and not
+53:55 dimmed? It takes my feedback, creates a
+53:58 plan, which I'm going to go ahead and
+54:00 implement. And if you're ever curious,
+54:02 as you're deepening your understanding
+54:03 of how things are working within your
+54:04 app or within programming in general,
+54:06 you you can of course read through this
+54:08 and get a sense for what it's actually
+54:09 doing and learn more actively that way.
+54:11 So now when we hover over it's bringing
+54:13 it more into focus where you're getting
+54:15 this light color. It increases in scale
+54:18 and that view details button still looks
+54:20 clickable. So now that it looks
+54:22 clickable, let's actually make it do
+54:23 something. When I click on the view
+54:25 details button, I want to open up a
+54:26 modal for that event that shows all of
+54:28 its details. And if we look back at our
+54:30 Figma where we planned out our homepage
+54:32 here, we have already planned for when
+54:33 we click the view details button, we
+54:35 open up this modal. modal is just a term
+54:37 that means it's an element that comes on
+54:39 screen but doesn't necessarily take up
+54:42 the entire screen because this
+54:43 functionality is a bit more involved. I
+54:45 want to go ahead and tell it to enhance
+54:46 the prompt. Then I'm going to review it.
+54:48 I'm seeing it all looks pretty good but
+54:50 I am noticing that it puts something
+54:52 relating to ticketing which again we
+54:53 don't want. So I'm going to delete that
+54:55 since everything else looks good. I'll
+54:56 go ahead and submit this prompt. It's
+54:58 going to take a while to work through
+54:59 that which of course I'm going to speed
+55:01 up for you. Now when we scroll down and
+55:02 click this button here it is. We have
+55:04 this modal which pops open the events
+55:07 details. That view looked a little bit
+55:09 compact, but an important detail to note
+55:11 here is that we're seeing a smaller
+55:12 preview window of our application. And
+55:15 if we want to see the full screen,
+55:16 there's this icon at the top right that
+55:18 we can click on. And that's going to
+55:20 open up our app in full screen mode. So,
+55:22 we can truly see how things look in an
+55:24 actual web page. So, it's looking
+55:25 beautiful except for some reason it's
+55:27 showing this get tickets button, which
+55:29 we do not want as well as a share event
+55:30 if we want to keep it minimal. So, we
+55:32 want both of these buttons removed. So,
+55:34 we'll minimize our preview window and
+55:35 tell it to remove the get tickets and
+55:37 share event buttons from the event
+55:39 modal. And I'm just going to tell it to
+55:40 enhance it for good measure.
+55:43 Now, we'll go back into full screen
+55:45 mode, click view details, and there it
+55:47 is. Those buttons were successfully
+55:49 removed. And with that, we've
+55:51 accomplished everything that we mapped
+55:52 out over in Figma, where we have our
+55:54 navbar at the top. We've got this hero
+55:57 section with our heading. We've got our
+55:58 call to action button. We even have this
+56:00 animating visual in our event list
+56:02 that's even filtering like we wanted it
+56:03 to, which it figured out on its own. We
+56:06 can pop open any event and see all of
+56:08 its details in a dedicated modal like
+56:10 this. So, in very little time, with just
+56:12 a few iterations and a good amount of
+56:14 pre-planning, we were able to build out
+56:16 a beautiful landing page for our
+56:18 application. In the next step, we're
+56:19 going to uh build out the back end. So,
+56:21 if you're ready to implement a database
+56:23 so we can add new events into that and
+56:25 pull events from that database, let's
+56:27 head to the next section and make our
+56:29 app even more powerful
+56:34 in our application. Right now, we have
+56:36 all of our events displaying
+56:38 beautifully, but we aren't yet storing
+56:40 them in an actual database that we're
+56:42 then pulling them from. Right now,
+56:44 they're just living within our codebase.
+56:45 So, in this section of the build, we're
+56:47 going to implement our actual database.
+56:49 We're going to be using a a tool called
+56:52 Superbase. And once we set it up, we
+56:54 will have a database table called events
+56:56 where all of our apps events are going
+56:58 to live. And then we can pull those
+56:59 events from the database and display
+57:01 them in our app. And under the hood, we
+57:03 will be making a get request so that we
+57:06 can be reading those event rows from the
+57:08 table and then displaying the data that
+57:11 lives in those rows columns such as the
+57:13 events, title, description, and so on.
+57:16 Once we got that backend synced up, not
+57:19 only do we want to be pulling events
+57:20 from that table, we also want to be
+57:22 adding events into that table. So, we're
+57:25 going to add a new item in our navbar,
+57:27 which pops open a form, which has inputs
+57:30 that allow us to gather all of the
+57:32 necessary information to create a new
+57:33 event. Then, we will do a post request
+57:36 to add those new events as rows within
+57:38 our events table. And finally, from our
+57:41 event details modal, we'll add an edit
+57:43 and a delete button so that we can
+57:45 update the event rows so that we're able
+57:48 to change things like the title, the
+57:50 description, and also we will want to be
+57:52 able to delete an event row. So that is
+57:55 what we're going to accomplish in this
+57:56 chapter. So let's get started on the
+57:58 first step. If we head back into our
+57:59 Bolt interface, we'll see under this
+58:02 integrations tab, there is superbase. So
+58:04 this is really a tightly integrated tool
+58:07 that we have access to when we use Bolt.
+58:09 So, if we go to superbase.com, we can go
+58:11 ahead and either sign into our account
+58:14 or click start your project to sign up
+58:16 now and create a new account. So, I'll
+58:18 walk through creating that new account.
+58:20 And once we sign up, we will be prompted
+58:22 to create a new organization. We'll give
+58:24 that organization a name, your company
+58:27 name, your team name, or whatever
+58:29 personal name you want to give it.
+58:31 You'll then specify what type of
+58:32 organization this is, personal or
+58:34 otherwise, and you could upgrade to a
+58:36 paid plan. But for now, we'll stay with
+58:39 their free plan and hit create
+58:40 organization. Then inside of that
+58:42 organization, we'll create a new
+58:44 project. We are going to give it a
+58:46 password and of course a name in our
+58:48 case, our app name Shogo. So we'll
+58:50 create that project and we are routed to
+58:52 the dashboard for our project. Here's
+58:53 where we can see the number of tables in
+58:55 our database. Of course, we have zero
+58:57 cuz we haven't created one. So let's
+58:59 walk through creating one right now. On
+59:01 this side navigation here, we'll click
+59:03 on table editor and then create a table.
+59:06 From here, we'll give the table a name.
+59:08 Uh, we're going to call it events
+59:09 because, of course, this is the table
+59:11 that's going to hold our events. And
+59:13 then just a basic description, our list
+59:15 of live music events. Uh, and in the
+59:17 column section, this is where we could
+59:19 add the columns that relate to every
+59:21 field within the event, such as the
+59:22 title, date, time, description, but
+59:25 we're actually not going to do that from
+59:26 here. Instead, we're going to ask Bolt
+59:28 to create these new fields for us. So
+59:31 that is the power of the tight
+59:33 integration between Bolt and Superbase
+59:35 that we can actually prompt creating
+59:37 columns within your tables from the Bolt
+59:39 interface. So let's head back to Bolt
+59:41 and set up the actual integration
+59:43 between our Bolt accounts and our
+59:45 Superbase account. So click on the
+59:47 integration and then make sure we have
+59:48 the correct organization selected and go
+59:51 ahead and authorize Bolt. Once it's
+59:53 successfully connected, we can select
+59:55 the project and hit connect project.
+59:58 Now, as you can see down here in the
+1:00:00 success message, we have connected to
+1:00:02 Superbase. What we want to do is add
+1:00:04 each of these events to that Superbase
+1:00:07 events table, which means we need
+1:00:09 columns for all of these different
+1:00:10 points. The title, date, time, location,
+1:00:15 organizer, description, category, and
+1:00:18 even the image. So, let's go ahead and
+1:00:20 ask Bolt to add the following columns to
+1:00:22 the existing events table in the
+1:00:24 connected Superbase project. We want it
+1:00:26 for title, date, time, location,
+1:00:30 organizer, description, category, and
+1:00:33 the image. I'm going to specify here
+1:00:35 that the image column needs to be
+1:00:37 prepared for users to eventually upload
+1:00:40 images and store them within Superbase.
+1:00:43 Now, I'll submit the prompt, and Bolt
+1:00:45 will go ahead and run through these
+1:00:46 steps for us. After it's done
+1:00:48 summarizing the steps it's taking, we're
+1:00:50 going to get this confirmation button
+1:00:51 that we need to click. This just gives
+1:00:54 bolt the approval from you, the creator,
+1:00:56 to go ahead and make those changes
+1:00:58 within your connected Superbase account.
+1:01:00 So, if we go to our Superbase events
+1:01:02 table, we'll see that those columns were
+1:01:05 in fact created for us straight from the
+1:01:07 bolt interface. Now that we have those
+1:01:09 columns, we want to move our current
+1:01:11 events data into that events table. So,
+1:01:14 where do those events live? Right now, I
+1:01:16 want to bring your attention to this
+1:01:18 other tab in the preview window here
+1:01:20 called code. And like it sounds, this is
+1:01:22 the actual code base for your project.
+1:01:24 Looking at your project in this view,
+1:01:26 you can see how it's constructed all of
+1:01:27 its folders and files. And if we look
+1:01:30 inside the events grid file, we'll see
+1:01:32 this section called mock events. So this
+1:01:34 is in fact all of our event data. So we
+1:01:37 want to move all of this out of our
+1:01:38 project and into our connected Superbase
+1:01:41 table. And while we're here, a cool
+1:01:43 thing that you can do is you can
+1:01:45 highlight a section of the code which
+1:01:47 gives you this option to ask Bolt. So if
+1:01:49 we click that then we can ask bolt
+1:01:52 questions about the code itself. For
+1:01:53 example, we can ask it what is this mock
+1:01:56 events doing and it will explain to us
+1:01:59 the mock events is serving as a
+1:02:00 temporary placeholder for development
+1:02:02 and testing purposes. And it's even
+1:02:04 suggesting next steps where we might
+1:02:06 want to replace the mock data with our
+1:02:08 connected database and remove these mock
+1:02:10 events from our codebase. It's got a
+1:02:12 great sense for what we actually want to
+1:02:14 do next. So, we'll say great, I want to
+1:02:16 remove these mock events from the
+1:02:18 codebase and migrate them over into the
+1:02:20 events in my connected Superbase
+1:02:22 project, mapping all of the properties
+1:02:24 to their related columns. Now, once we
+1:02:27 submit that, Bolt is going to go ahead
+1:02:28 and start doing that migration for us.
+1:02:31 And while we're still looking at this
+1:02:32 code tab, you can see this whole time as
+1:02:35 we've been building, this is what is
+1:02:36 actually happening within the code.
+1:02:38 Files are updating, lines of code are
+1:02:41 added, lines are removed. So this is all
+1:02:43 happening as you're prompting your app
+1:02:45 into reality. And just like before, we
+1:02:47 need to confirm that we want to apply
+1:02:49 these changes. So once we do, when we
+1:02:51 head back into our events table, we
+1:02:53 should see these events. And here they
+1:02:55 are. All of that mock data is now real
+1:02:58 data living in a real database within
+1:03:00 our Superbase project. To clean this up,
+1:03:02 we'll just delete out that initial blank
+1:03:04 event that was created when all of these
+1:03:06 columns were added to this table. So
+1:03:08 we're turning back to our Figma. We set
+1:03:10 up our superbase project. We now have
+1:03:13 all of our actual events living there
+1:03:14 and we're making a get request. Then
+1:03:17 fetch all of those and display them just
+1:03:19 like we were before. Now we're ready to
+1:03:21 move on to the next step where we add a
+1:03:23 new item to our navbar. When we click on
+1:03:25 that, we want to pop open this create
+1:03:27 event form with all of these input
+1:03:30 fields to gather the necessary
+1:03:31 information from our user. Let's
+1:03:33 implement just the user interface part
+1:03:36 and then we'll get that actual
+1:03:37 functionality working where we add new
+1:03:39 events to our database. We will tell
+1:03:42 Bolt that we wanted to add an item to
+1:03:44 the navbar called create event that when
+1:03:46 clicked opens up an event create form
+1:03:49 modal with all of the necessary input
+1:03:52 fields for a user to create an event for
+1:03:54 our app like title, date, time,
+1:03:57 location, etc. The form should also have
+1:04:00 a create event button at the bottom. But
+1:04:02 like I said, this form should not yet
+1:04:04 add events to Superbase. Let's focus on
+1:04:07 the user interface only for now. And
+1:04:09 based on what we can see from the
+1:04:10 summary of what it did, it seems like it
+1:04:13 should be working well. So let's open up
+1:04:15 this form. And we can see we have all of
+1:04:17 these input fields. The only thing is
+1:04:19 for our image, we don't want our users
+1:04:21 to have to put in a URL for the event
+1:04:23 image. We want them to be able to upload
+1:04:26 actual image files. So let's tell Bolt
+1:04:28 instead of a field for the event image
+1:04:30 URL in the create event form. I want the
+1:04:34 user to be able to upload an image file
+1:04:35 from the forms input.
+1:04:38 Now, let's check it out. Click the
+1:04:40 create event link. And there we go. We
+1:04:42 have this button that allows us to
+1:04:43 select actual files that live on our
+1:04:45 device and upload them. Great. So, now
+1:04:48 let's tell Bolt to add the functionality
+1:04:50 for adding a new event row to the events
+1:04:52 table in the connected Superbase
+1:04:55 project. And then we'll specify whenever
+1:04:57 a user fills out the create event form
+1:05:00 and submits it. All of that data should
+1:05:02 be used to create a new row in the
+1:05:04 table. Please make sure to handle the
+1:05:06 image, upload storage and processing
+1:05:08 correctly cuz it is a process for your
+1:05:10 application too. Upload a file, process
+1:05:13 it, and store it correctly. So, we just
+1:05:15 want it to be mindful to do everything
+1:05:17 it needs to do to accommodate that.
+1:05:20 While this is working, I just want to
+1:05:21 remind you exactly what's happening
+1:05:23 here. When we click create event, the
+1:05:25 app is going to take all the information
+1:05:27 here. Make a post request to create a
+1:05:30 new event row. And then it's going to
+1:05:32 add that row and fill in each of those
+1:05:34 columns with the information that our
+1:05:35 user entered into the different input
+1:05:37 fields in our form. And then in real
+1:05:40 time, we should be getting and
+1:05:41 displaying that newly created event in
+1:05:43 our event list. So back to our app, it's
+1:05:46 telling us that it's going to create a
+1:05:48 storage bucket for event images. That's
+1:05:50 really just a fancy way of saying I'm
+1:05:52 creating the necessary storage for the
+1:05:54 image files that your user is going to
+1:05:56 be uploading. And so we'll confirm that
+1:05:58 we want to apply those changes. So now
+1:06:00 that it's ready, we can go ahead and
+1:06:02 create a test event to make sure
+1:06:04 everything is working and we can add new
+1:06:06 events to our superbase events table. We
+1:06:09 will choose our image that just lives on
+1:06:11 our desktop. I created this earlier in
+1:06:13 chat GPT and we'll add the description.
+1:06:15 Then go ahead and click the create event
+1:06:17 button. If we scroll down here and go in
+1:06:19 jazz category, we should be seeing it.
+1:06:21 And there it is. Awesome. And when we
+1:06:23 view the details, everything that we
+1:06:25 just submitted via that form is showing
+1:06:27 up here, which means when we look at our
+1:06:29 database, there it is, just like we
+1:06:31 expected. Awesome. So, now that we're
+1:06:33 able to create new events, wouldn't it
+1:06:35 be great if we could then from this
+1:06:36 event details model also delete and edit
+1:06:39 these events? So, remember, we're going
+1:06:41 to be adding an edit and a delete button
+1:06:43 so our users can update these event rows
+1:06:46 and also delete the entire event. So,
+1:06:48 back in bolt, we'll tell it on the event
+1:06:50 details modal at the bottom left. Add
+1:06:53 two buttons, a delete and an edit
+1:06:55 button. And notice here how I'm being
+1:06:57 very specific about where I want things
+1:06:59 added into my user interface. They
+1:07:01 should be nonfunctional for now cuz we
+1:07:03 just want to get them into our app and
+1:07:04 then get them to work. As you're
+1:07:06 noticing, it's a better practice to
+1:07:08 implement things incrementally, get your
+1:07:11 user interface to work, and then stack
+1:07:13 functionality on top of that. So now if
+1:07:15 we open up one of our events like our
+1:07:17 cat cabaret, we see our delete and our
+1:07:19 edit button. Of course, when we click on
+1:07:22 them, nothing happens. So let's actually
+1:07:24 make these things happen. So we'll tell
+1:07:26 Bolt that when a user clicks the edit
+1:07:28 button on the event details modal, a new
+1:07:30 edit event form should appear allowing
+1:07:32 the user to update any of the fields of
+1:07:35 that event in the event Superbase table.
+1:07:37 And we'll ask it to please make sure
+1:07:39 that it sets up the proper permissions
+1:07:41 so that a user can patch these event
+1:07:43 rows from the app. And really what we're
+1:07:46 talking about here is rowle security. In
+1:07:49 other words, there's security settings
+1:07:51 relating to what users can and can't do
+1:07:53 to your database and the rows within
+1:07:55 them. Can they read or pull those rows
+1:07:57 into their app? Can they write or add
+1:07:59 rows into the table? Can they update or
+1:08:02 add rows themselves? These are all part
+1:08:04 of role level security settings. And
+1:08:07 right now it's ensuring we have the
+1:08:09 proper settings in place. We're going to
+1:08:11 confirm that we do want to apply these
+1:08:13 changes to add update permissions for
+1:08:15 our events table. And now when we pop
+1:08:18 open an event and click the edit button,
+1:08:20 we see this form which is filled with
+1:08:22 all the values that live in that events
+1:08:24 columns. And so we can change the title,
+1:08:26 for example, add the word live in front
+1:08:28 of it. And when we hit update event, you
+1:08:31 can see we're seeing it update in real
+1:08:33 time, which means it's working
+1:08:34 perfectly. So we can move on to our next
+1:08:36 and final step of this section where we
+1:08:39 set up the ability for a user to click
+1:08:41 on the delete button of the event
+1:08:42 details modal. So a user can delete this
+1:08:45 event row from the events superbase
+1:08:47 table.
+1:08:48 We'll confirm that we want to apply
+1:08:50 these changes to add delete permissions
+1:08:52 for the events table. And now when we go
+1:08:55 to an event like our live DJ set, we
+1:08:57 should be able to delete it. And it's
+1:08:59 asking are we sure? Yes, we are sure.
+1:09:02 But looks like something's going wrong
+1:09:03 cuz we still actually see that event. So
+1:09:06 it did not get deleted. But let's double
+1:09:08 check our database. And yep, it still
+1:09:10 exists here. So let's turn on the
+1:09:12 discuss mode and tell Bolt that when I
+1:09:14 clicked on the delete button of one of
+1:09:16 the events, specifically the live DJ set
+1:09:19 one, that event did not actually delete
+1:09:21 from the events superbase table. And I
+1:09:23 can still see it in the apps event list.
+1:09:26 It thinks about it for a moment. Let's
+1:09:28 see what it's saying. So it's telling us
+1:09:29 that it understands. And to help
+1:09:31 diagnose the problem, please provide the
+1:09:34 following information. Of course, no one
+1:09:36 likes to run into errors, but good news
+1:09:38 is this gives us some experience with
+1:09:40 debugging because it's telling us that
+1:09:42 it's wanting us to check the browser
+1:09:44 console for errors, which I'll show you
+1:09:46 how to do in just a moment. And then we
+1:09:48 should be able to see a message that's
+1:09:50 logged in that console. But in order to
+1:09:53 get our code set up to be logging this
+1:09:55 message for us, we need to tell Bolt to
+1:09:58 do what it's suggesting, which is to add
+1:10:00 the console log. And you'll see what
+1:10:02 this means in just a minute. So now
+1:10:03 we'll open our browser's developer
+1:10:05 console. We'll click the delete button
+1:10:07 on an event, confirm the deletion, and
+1:10:10 then we'll check the console to see what
+1:10:11 it's printing out for us. This should
+1:10:13 help us identify whether the correct
+1:10:15 event ID is being passed and if there's
+1:10:18 any superb basease errors that's
+1:10:19 preventing the deletion or if it's
+1:10:22 actually succeeding but maybe the user
+1:10:24 interface isn't updating properly. So
+1:10:26 let's go ahead and go into full screen
+1:10:29 so we can look at this more clearly. And
+1:10:31 since I'm using Google Chrome I have
+1:10:32 access to the Chrome developer tools. So
+1:10:35 by clicking these three vertical dots I
+1:10:37 can go to more tools than developer
+1:10:39 tools. And here is our developer
+1:10:41 console. And it looks like we've got a
+1:10:43 lot of mess here. And we don't actually
+1:10:45 yet know what triggered this. So to wipe
+1:10:48 this and start from a clean slate, we'll
+1:10:50 just hit this clear button. And now
+1:10:52 we'll do what Bolt was telling us. We're
+1:10:54 going to open up one of the events. And
+1:10:56 we're going to go ahead and hit delete.
+1:10:58 Confirm deletion. And as we can see,
+1:11:00 it's saying it's attempted to delete the
+1:11:02 event with the ID of 13 and was deleted
+1:11:06 successfully. So it seems like it
+1:11:07 actually worked that time. And if we go
+1:11:09 into our app, let's just double check.
+1:11:11 Yeah, we're not seeing the live DJ set
+1:11:13 event. So, let's go to our superb base
+1:11:16 table and make sure that it was deleted.
+1:11:18 And there it is. It just was removed
+1:11:20 from the table. So, that's odd. It
+1:11:21 didn't work the first time, but it ended
+1:11:23 up working the second time. Sometimes
+1:11:25 these things happen. Development is not
+1:11:27 always a straight easy path. Sometimes
+1:11:29 you have to make some detours and do a
+1:11:31 little debugging. And in this case, we
+1:11:33 didn't even have to implement the
+1:11:34 solution. It maybe just needed some more
+1:11:37 time to figure itself out. But with that
+1:11:39 tangent out of the way, let's summarize
+1:11:40 what we've accomplished. We now have all
+1:11:43 of these events living within an actual
+1:11:45 database. We can edit them. We can
+1:11:47 delete them. We can create new events.
+1:11:50 So, we've made really great progress in
+1:11:53 very little time. But, of course, we're
+1:11:55 not done yet because in a real
+1:11:56 application, we probably don't want just
+1:11:58 anyone to be able to create events. And
+1:12:01 certainly, we don't want any random
+1:12:03 stranger to be able to delete events or
+1:12:05 edit events. If I create a new event,
+1:12:08 some random person should not be able to
+1:12:09 visit the website and then delete the
+1:12:11 event or change the location without my
+1:12:14 permission. That's why we're going to
+1:12:16 add user authentication in the final
+1:12:18 chapter of this build.
+1:12:22 We will be using Superbase's built-in
+1:12:25 authentication features for our
+1:12:26 application. That means soon we will
+1:12:28 have a dedicated users table on our back
+1:12:30 end that we can add new users to and
+1:12:32 pull users from. That way on our
+1:12:34 homepage when a user clicks on these
+1:12:36 join buttons they'll pop open this new
+1:12:38 join modal where they can fill out the
+1:12:40 fields with their personal information
+1:12:42 and click join which creates a post
+1:12:44 request to create a new user which is
+1:12:46 then added into our users table within
+1:12:48 Superbase. If they already have an
+1:12:51 account, they can click the sign-in link
+1:12:53 which opens the login modal where they
+1:12:55 can sign back in with that same
+1:12:56 information which makes a post request
+1:12:59 verifying that user already exists
+1:13:01 within our Superbase users table. And to
+1:13:04 make the user experience smooth, we will
+1:13:06 add these links that allow people to
+1:13:08 switch between the different modals
+1:13:10 depending on whether they need to sign
+1:13:12 into their existing account or create
+1:13:14 their account. So heading back into our
+1:13:16 application, let's get that
+1:13:17 functionality started. We'll tell Bolt
+1:13:19 when the user clicks on join now or join
+1:13:22 the movement buttons, pop open a new
+1:13:24 modal with a field for a user's name and
+1:13:26 email so they can create a new account.
+1:13:28 Don't add any actual authentication
+1:13:30 behavior yet. Just build that modal
+1:13:32 because as we've talked about, it's much
+1:13:34 easier to build step by step than trying
+1:13:36 to prompt these elements to be built at
+1:13:38 the exact same time that we are
+1:13:40 prompting for complex authentication
+1:13:42 behavior on the back end. So once it
+1:13:44 runs through this logic, we should now
+1:13:45 be able to click these buttons and pop
+1:13:48 open that modal and it's looking great.
+1:13:50 We have a field for the user's name,
+1:13:52 their email address, and a new to add a
+1:13:55 password field even though I forgot to
+1:13:57 tell it to add that field within the
+1:13:58 prompt. Now at the bottom here, it says
+1:14:00 already have an account sign in, but of
+1:14:03 course we don't yet have a sign-in
+1:14:05 modal, which we need for users to log
+1:14:06 back into their created account. So
+1:14:08 let's tell Bolt now create a sign-in
+1:14:11 modal in a similar style as the account
+1:14:13 creation modal that is open when the
+1:14:15 user clicks on the signin navbar item.
+1:14:19 Now when we test this out we're clicking
+1:14:21 but it's not opening that new modal. So
+1:14:23 let's turn on discuss mode and tell Bolt
+1:14:25 I'm not seeing that new signin modal
+1:14:27 when I click on the signin navbar item.
+1:14:31 It's going to give us a plan to fix the
+1:14:32 modal and we have this terminal error.
+1:14:35 So we'll ask it to attempt to fix it.
+1:14:38 Looks like we still are getting a
+1:14:39 terminal error. And once again, we still
+1:14:42 have that terminal error. So, at this
+1:14:44 point, we could continue to go down this
+1:14:45 path of asking Bolt to attempt to fix
+1:14:48 the error. But sometimes with Bolt or
+1:14:50 with software composing in general,
+1:14:52 you'll find that you'll get into what I
+1:14:54 call these error loops. And it's
+1:14:55 actually easier if you go back in time
+1:14:57 to an earlier state of your application.
+1:14:59 So, if I scroll back up here and I find
+1:15:01 the last point that was working well
+1:15:03 within our application. So right here I
+1:15:05 found the point where we added the sign
+1:15:07 up modal for user registration. If we
+1:15:10 click this revert button, it is going to
+1:15:12 revert to a previous version. So if we
+1:15:14 confirm that we want to proceed. Now
+1:15:16 what is happening is we're being taken
+1:15:18 back in time to that version. So let's
+1:15:21 reprompt it with slightly different
+1:15:22 phrasing and see if we can start from a
+1:15:24 clean slate and get a better result.
+1:15:26 We'll tell it now when the user clicks
+1:15:28 on the sign-in item in the navbar, open
+1:15:30 a new modal that takes in the user's
+1:15:32 email and password and specify that we
+1:15:35 don't need any actual authentication
+1:15:37 setup yet.
+1:15:39 Now, let's try that out. And yep, on the
+1:15:42 first try, we're getting that sign in
+1:15:44 modal looking exactly like we wanted it
+1:15:46 to. So again, that's just proof that
+1:15:48 sometimes it's better not to waste time
+1:15:50 in those error loops and just to revert
+1:15:52 back to the last successful version of
+1:15:54 your app. And of course here at the
+1:15:55 bottom, if a user doesn't have an
+1:15:57 account, we want to encourage them to
+1:15:58 sign up. So to get our prompt really
+1:16:00 specific here, I'll take a screenshot of
+1:16:02 this section, feed it into the bolt
+1:16:04 prompt window and say when I click on
+1:16:06 this link at the bottom of the sign-in
+1:16:08 modal, I want to be switched to the join
+1:16:10 or signup modal we created earlier. And
+1:16:12 similarly, I want to be shown the
+1:16:14 sign-in modal when I click on the
+1:16:16 sign-in link at the bottom of the join
+1:16:18 modal.
+1:16:20 So let's test that out. And the join
+1:16:23 modal is not yet working. But let's try
+1:16:25 it on the sign-in modal just to make
+1:16:26 sure. So it is working there. So let's
+1:16:29 tell it. On the sign-in modal I can
+1:16:31 effectively switch to the join modal.
+1:16:33 But from the join modal I can't yet
+1:16:35 switch to the sign-in modal from its
+1:16:37 link at the bottom.
+1:16:40 All right. Hopefully that fixed that.
+1:16:42 Just testing this out. There it is. We
+1:16:45 can switch back and forth between the
+1:16:46 modal for our users to create an account
+1:16:48 and log back into their account.
+1:16:50 Perfect. Now we're ready for our next
+1:16:52 step. So we'll turn on the discussion
+1:16:54 mode because we're going to get a little
+1:16:55 more complex here and add the actual
+1:16:57 authentication. So we're going to tell
+1:16:59 Bolt that we wanted to set up Superbase
+1:17:02 authentication so that we can create new
+1:17:04 users by taking in their name, email,
+1:17:07 and password from the join modal and
+1:17:09 then log back in from the sign-in modal.
+1:17:12 Again, we've already built out the user
+1:17:13 interface. Now we're adding the
+1:17:15 functionality. So come up with a plan
+1:17:17 and we'll tell it to implement
+1:17:19 authentication.
+1:17:20 Now once it's done, if we go back inside
+1:17:22 of our Superbase, head over to the
+1:17:24 authentication tab, we can see that we
+1:17:26 have this new users table and it's all
+1:17:29 set up with a user ID or UID, a display
+1:17:32 name, their email, and under providers,
+1:17:34 the type is email. So what does that
+1:17:36 mean? Well, if we look in the signin
+1:17:38 providers tab, there's a bunch of
+1:17:40 different providers such as Google. I'm
+1:17:42 sure you've seen this many times online
+1:17:44 where you can log into an app with your
+1:17:46 Google account. We could set that up
+1:17:48 here. We could also set up to be able to
+1:17:50 log in with our Apple account, but
+1:17:52 that's a little more complex. And to
+1:17:53 keep things moving forward more simply,
+1:17:55 we're sticking with just the email
+1:17:57 provider, which really just means that
+1:17:59 the user gives us their email and their
+1:18:01 password, and we create their account
+1:18:03 from that. As we can see, it is enabled
+1:18:05 because Bolt assumed that's what we
+1:18:07 wanted based on how our join form was
+1:18:09 set up and the prompt that we gave it.
+1:18:11 But there is a setting inside of here
+1:18:13 that we want to turn off. Notice how it
+1:18:15 says confirm email. This setting means
+1:18:17 that users will need to confirm their
+1:18:19 email address before signing in for the
+1:18:21 first time. This just automatically
+1:18:23 sends an email to the email that they
+1:18:25 sign up with. They'd have to go in and
+1:18:27 click it to verify their account. You
+1:18:29 might want this in your application, but
+1:18:31 we're going to turn that off just to
+1:18:32 simplify our build. Then go ahead and
+1:18:35 save that setting. So, now that we've
+1:18:37 confirmed we have this users table set
+1:18:39 up, we should be able to create an
+1:18:41 account from our app and see that new
+1:18:43 user show up here. So, let's go back to
+1:18:45 the app and click join now. And I'll
+1:18:47 sign up giving it a name and email and a
+1:18:50 password and click create account. If we
+1:18:53 go back into the users table, it looks
+1:18:55 like that didn't work. But don't worry,
+1:18:57 what we actually need to do is just hit
+1:18:59 refresh. And then we will see that user
+1:19:01 is showing up in our table with their
+1:19:03 ID, display name, and email. So now that
+1:19:06 we're creating users who can log into
+1:19:08 our app, what should our application
+1:19:10 look like once users log in? Because
+1:19:12 what we show them on the public facing
+1:19:14 side should be different from what they
+1:19:15 are able to see once they're inside of
+1:19:18 the application itself. So really, we're
+1:19:19 talking about the authenticated view
+1:19:22 versus the unauthenticated view.
+1:19:24 Starting at the top, there should be
+1:19:26 changes within the navbar. If the user
+1:19:28 isn't logged into our app, we really
+1:19:29 don't want them to be able to create an
+1:19:31 event. So we're actually going to be
+1:19:33 removing that from the landing page. And
+1:19:35 we also don't need this whole call to
+1:19:36 action hero section inside of our app
+1:19:38 because users will already have joined.
+1:19:40 So we'll remove that which means we have
+1:19:42 the ability to then display more events
+1:19:44 within the space of the screen that we
+1:19:46 have. So let's head back into bolt turn
+1:19:48 on discuss mode and say now that we have
+1:19:51 off let's make it possible for only
+1:19:53 authenticated users to be able to create
+1:19:55 events. So remove the create event item
+1:19:57 from the navbar for logged out users.
+1:19:59 Also, the signin link should not be
+1:20:02 displayed and the join now button should
+1:20:04 instead be log out.
+1:20:09 Great. So, we're making progress now.
+1:20:11 We'll tell it that we also want to
+1:20:12 remove the hero section when a user is
+1:20:15 logged in.
+1:20:19 Cool. Now, when a user is logged in,
+1:20:21 this is what they'll be seeing. A nice
+1:20:23 clean list of events with no unnecessary
+1:20:25 information. And then when we log out,
+1:20:28 we still have that hero section with the
+1:20:30 necessary calls to action. But if we pop
+1:20:32 open the details for an event, we're
+1:20:33 still showing the delete and edit
+1:20:35 buttons, but we don't want strangers on
+1:20:37 the internet to be able to delete and
+1:20:39 edit our events. So we'll tell Bolt that
+1:20:41 when a user is not authenticated, we
+1:20:43 should not display the edit or delete
+1:20:45 buttons on the event details modal.
+1:20:48 So let's open up an event again. And
+1:20:50 great, those buttons are no longer
+1:20:52 there. So we're making great progress.
+1:20:55 Let's head back into our Figma and get
+1:20:57 clear on our next steps. So, we've now
+1:20:58 designed the authenticated view of the
+1:21:01 page that we're showing events on. We
+1:21:03 also want to add a new page for the
+1:21:05 user's profile and each user will have
+1:21:07 their own user profile which they have
+1:21:09 the key or the authority to access. On
+1:21:12 this user profile page will show that
+1:21:13 users's information and we'll have two
+1:21:16 different tabs. one for the events that
+1:21:18 they have marked themselves as attending
+1:21:20 and another for the events that they
+1:21:21 have created which should give them a
+1:21:23 simple and easy way to manage events in
+1:21:25 our app. So the benefit of planning
+1:21:27 things out is we can grab screenshots
+1:21:29 from our plans and send them into Bolt
+1:21:31 to give it more context. Again, however
+1:21:33 you do this and whether it's with pen
+1:21:35 and paper or some other tool is entirely
+1:21:38 up to you. So we'll share that
+1:21:39 screenshot with Bolt and tell it that
+1:21:41 when a user logs in, they should be
+1:21:43 routed to a new user profile page. This
+1:21:45 page should have their user info at the
+1:21:47 top and two tabs. One for displaying the
+1:21:50 events they are attending. And we'll
+1:21:52 specify that we'll build that
+1:21:53 functionality out later so it doesn't
+1:21:55 get confused trying to do too many
+1:21:56 things at the same time. And another one
+1:21:58 for events the user has created. We'll
+1:22:01 tell it to refer to the attached image
+1:22:03 for context. Since this is a little more
+1:22:05 advanced of a prompt, we're also going
+1:22:07 to enhance it for good measure.
+1:22:10 Double check and see that it all looks
+1:22:12 good. Then submit it. And it's okay if
+1:22:14 you don't understand everything it's
+1:22:16 telling you, but the more apps you build
+1:22:18 like this, the more of the process
+1:22:19 you're going to start to understand. So,
+1:22:21 we'll submit the prompt. And now, when a
+1:22:24 user signs back into their current
+1:22:26 account, let's see what happens. Well,
+1:22:28 they're not yet being routed to their
+1:22:30 profile, but we do have this profile
+1:22:32 item in the navbar. So, let's click that
+1:22:34 and see what it looks like. Cool. It
+1:22:36 looks a lot like the screenshot that we
+1:22:38 shared. We have our user information at
+1:22:40 the top. We have a tab for the events
+1:22:42 that the user is attending and a tab for
+1:22:45 created events. But on this tab, it
+1:22:47 looks like we have a bunch of events.
+1:22:49 And scrolling down further, we have this
+1:22:51 entire event list. So that's obviously
+1:22:53 not what we want. And going back to the
+1:22:55 attending tab, looks like that event
+1:22:57 list is at the bottom here. So let's
+1:22:59 tell Bolt to fix that. Let's tell Bolt
+1:23:01 that there are a few issues. When the
+1:23:04 user logs in, they are not routed
+1:23:05 directly to their profile page. on the
+1:23:08 profile page, the full event list is
+1:23:10 there. If you scroll down, we do not
+1:23:12 want that because that should only be on
+1:23:14 its own dedicated page. And also in the
+1:23:18 events created tab of the user profile,
+1:23:20 we're seeing a bunch of events even
+1:23:22 though the user did not create them. We
+1:23:24 only want to see events the user created
+1:23:26 in this tab.
+1:23:28 All right, so we'll implement the plan.
+1:23:31 Now, when we head over to the profile
+1:23:33 and we scroll down, the event list is
+1:23:35 gone on both views. And it's not showing
+1:23:37 us any events in the created tab, but it
+1:23:40 is telling us that no events were
+1:23:41 created. And it's giving us this helpful
+1:23:44 button to create our first event from
+1:23:46 here. But if we click it, it's routing
+1:23:48 us to the event list itself. That's not
+1:23:50 what we want. So, I'll tell Bolt that
+1:23:51 when I click on the create your first
+1:23:53 event button from my profile, I'm routed
+1:23:56 to the events page. Instead, I should
+1:23:58 open the create event modal. So we'll
+1:24:00 implement its plan and go back and check
+1:24:02 that.
+1:24:04 Great. Now we are seeing that create
+1:24:06 event form like we would expect. But
+1:24:08 something I'm noticing here is that
+1:24:09 there is this organizer field, but we
+1:24:12 don't want users to fill this out
+1:24:13 themselves. We want to take that users's
+1:24:15 information and save them as the
+1:24:18 organizer of that event. So we'll tell
+1:24:20 it instead of the create event form
+1:24:22 having an organizer field, we want the
+1:24:24 organizer column to be filled in
+1:24:26 automatically based on the ID of the
+1:24:28 user who is creating that event.
+1:24:32 So let's go ahead and create a new event
+1:24:34 to make sure that that's working like we
+1:24:36 wanted to. Once we fill out all of this
+1:24:38 information for this event that I know
+1:24:41 all of you want to go to, when we click
+1:24:43 create that event and head to our events
+1:24:45 table, we will see that under the
+1:24:47 organizer column, our users ID has been
+1:24:49 automatically added as the organizer.
+1:24:51 This is going to help our app keep track
+1:24:53 of which users created which events and
+1:24:56 then display those events to them within
+1:24:58 their user profile. And we're seeing the
+1:25:00 event that we created. If we pop it
+1:25:02 open, remember we have these delete and
+1:25:04 edit buttons. That's great if we are the
+1:25:06 organizer of the event, but if we didn't
+1:25:08 create the event, we shouldn't be able
+1:25:10 to delete it or edit it. If we go to the
+1:25:12 event list, we'll probably find that we
+1:25:14 can click the delete and edit buttons on
+1:25:16 every event, even if we didn't create
+1:25:18 that event. But when I click on the
+1:25:20 events link in the navbar, we're not
+1:25:22 actually routed to that event list. And
+1:25:24 also, there's this messy text here,
+1:25:26 which looks like it says something like
+1:25:28 back to events. So, let's clean this up
+1:25:30 quickly and then we'll return to fixing
+1:25:33 who's seeing the right buttons on the
+1:25:34 right events. So, we'll tell Bolt to fix
+1:25:36 the navbar functionality so that when we
+1:25:38 click on the events item, we're routed
+1:25:40 to the homepages event list and also
+1:25:43 remove that ugly back to events item
+1:25:45 from the navbar. Once it runs through
+1:25:47 that, we can test that out. If we go to
+1:25:49 profile and then click events, we are
+1:25:51 routed to the event list. And now we can
+1:25:54 continue where we left off. As you can
+1:25:56 see, even though I did not create this
+1:25:58 specific event, I can still delete and
+1:26:00 edit it. So, we'll tell it that a user
+1:26:02 should only ever see the delete and edit
+1:26:04 buttons on the event details modal of
+1:26:07 the events they actually created, or in
+1:26:09 other words, that they are the organizer
+1:26:11 of. So now, when I open an event that I
+1:26:13 did not create, I do not have the
+1:26:15 ability to delete or update it. Perfect.
+1:26:18 So this is another example of
+1:26:19 authorization where only the user who
+1:26:22 has created an event has the authority
+1:26:24 over that event and the ability to
+1:26:26 update and delete it. Next up, there is
+1:26:28 a button that we do want to be
+1:26:30 displaying here and that is an attend
+1:26:32 button that users can click to say that
+1:26:34 they are attending that event. Then
+1:26:36 those events can be displayed here in
+1:26:37 the attending tab. In order to get this
+1:26:39 to work, what we're really talking about
+1:26:41 is relational databases, which you
+1:26:44 should remember us covering earlier in
+1:26:46 the foundation section. So let's get
+1:26:47 clear on how all of this is going to
+1:26:49 work where we allow users to mark
+1:26:51 themselves as attending events. From the
+1:26:53 event list, they open up the event
+1:26:55 details modal and they'll click on a new
+1:26:58 attend button. This is going to make a
+1:26:59 post request to create a row in a table
+1:27:02 in Superbase called event attendees. Our
+1:27:04 back end is going to be using relational
+1:27:06 databases where it's relating users to
+1:27:09 events with this separate event
+1:27:11 attendees table which is like a bridge
+1:27:13 between them. We have a row for each
+1:27:15 event attendee and it has a column for
+1:27:17 that user's ID and the event ID. So
+1:27:19 let's head back into Bolt. We'll start
+1:27:21 with the user interface and tell Bolt to
+1:27:23 add an attend button on the event
+1:27:25 details modal for users who are
+1:27:27 authenticated.
+1:27:29 Now when we open that event details
+1:27:31 modal great, we're seeing this nice
+1:27:33 attend button. Now let's make it work.
+1:27:35 So I'll say when a user clicks on the
+1:27:37 attend button, I want them to be added
+1:27:39 as an attendee of that event. So create
+1:27:42 a new superbase table for event
+1:27:43 attendees that can track the attendees
+1:27:46 of events. We will call this table event
+1:27:48 attendees.
+1:27:50 We'll confirm that we want to apply the
+1:27:52 changes and create that new table. So
+1:27:54 when we open up an event and click that
+1:27:56 button, we should be added to that
+1:27:58 table. But when we do that, we see this
+1:28:01 error. So let's attempt to fix it.
+1:28:05 Looks like it figured itself out. Now
+1:28:07 when we click attend, it's now showing
+1:28:09 there's one attendee for this event. And
+1:28:12 the state of this button switched from
+1:28:14 attend event to leave event, which is a
+1:28:16 nice logical assumption that Bolt built
+1:28:18 in. So let's go to our superbase and
+1:28:20 double check that we actually have that
+1:28:22 events table, which we do. And we have
+1:28:24 this event attendee row with the events
+1:28:27 ID and the users ID. Now over in our
+1:28:31 profile, we should be seeing the events
+1:28:33 that we have marked ourselves as
+1:28:35 attending. So let's tell Bolt in the
+1:28:37 user profile display the events that
+1:28:39 user is attending under their events
+1:28:41 attending tab. Checking that out here is
+1:28:44 that event that we marked ourselves as
+1:28:46 attending and we can view those details.
+1:28:49 We can leave the event if we wanted to.
+1:28:51 So that is a great user experience. If
+1:28:53 we look back at the event that we
+1:28:54 created, we can also mark ourselves as
+1:28:57 attending that event. Something we do
+1:28:59 want to change, however, is the fact
+1:29:00 we're displaying the organizer here. We
+1:29:03 don't need to show the organizer's ID to
+1:29:05 everyone in our application. So let's
+1:29:07 just ask Bolt to remove this from the
+1:29:09 details view. We don't need to display
+1:29:11 the organizer. We want to keep that data
+1:29:14 on the back end only. Now if we look at
+1:29:16 that event again, nice. We're no longer
+1:29:18 seeing that organizer. Let's double
+1:29:20 check that the leave event button is
+1:29:22 working. Looks like it is. If we head
+1:29:25 back into our profile, it's no longer
+1:29:27 showing up in our attending tab. Great.
+1:29:30 So it is working. There's a little more
+1:29:32 work to do. If we log out and we go to
+1:29:34 an event, we can make the app more
+1:29:36 effective at inviting people to join by
+1:29:38 adding a button to the event details
+1:29:40 itself that invites them to join to
+1:29:42 attend. So, we'll tell Bolt on the event
+1:29:45 details modal for a non-authenticated
+1:29:47 user, show a join to attend button that
+1:29:50 pops open the signup modal. Now, if the
+1:29:53 user is not logged in and they open an
+1:29:55 event, they'll be invited to join the
+1:29:57 event and create their account.
+1:30:00 Great. We've built out our entire app
+1:30:02 and for users that are new or not logged
+1:30:05 in, we have this nice landing page which
+1:30:07 invites them to join the movement and
+1:30:08 explore our events. They can learn more
+1:30:10 about that event and we're encouraging
+1:30:12 them to join our app to attend. Once
+1:30:14 they have joined, they can log back into
+1:30:16 their account and they have a customized
+1:30:18 profile that shows the events they've
+1:30:20 marked as attending, the events they've
+1:30:22 created, which means we're building this
+1:30:24 cool community of people who can create
+1:30:26 and share their events. And users can
+1:30:29 explore other people's events and mark
+1:30:31 themselves as attending those. So, our
+1:30:33 app is super useful and you could
+1:30:35 duplicate this same functionality for
+1:30:37 any kind of event, whether it's music,
+1:30:40 social events, volunteer events. But of
+1:30:43 course, an app is not actually useful
+1:30:45 unless it is available on the internet
+1:30:47 for people to find and use. So, in this
+1:30:49 next section, we're going to learn how
+1:30:51 to publish our app, which is simpler
+1:30:53 than you might think, so that we can
+1:30:54 share what we built with the world and
+1:30:56 get actual people using our app.
+1:31:02 The official term for publishing your
+1:31:04 app is called deployment, which is the
+1:31:06 process of putting your finished site
+1:31:08 online. So when you hit publish and
+1:31:10 bolt, it builds your project, packaging
+1:31:12 up everything you've created into a
+1:31:14 ready to go website. Then Netlify, a
+1:31:17 hosting service that puts websites live
+1:31:19 on the internet, picks up that package,
+1:31:21 and delivers it to the world through
+1:31:23 your own link. When it's finished with
+1:31:25 that process, it'll tell us that the
+1:31:26 site has been successfully published.
+1:31:28 And you can view it at this link. And
+1:31:30 here is the app we built living on the
+1:31:33 internet for anyone to use. If we shared
+1:31:35 this URL, then other people can use our
+1:31:37 actual app. In order to uh take
+1:31:40 ownership and control over this project,
+1:31:42 you can transfer this Netlefi project
+1:31:44 into your own Netlefy account. If we
+1:31:46 click this, we can either log into our
+1:31:49 Netifi account or sign up. If we don't
+1:31:51 yet have one, we could use something
+1:31:53 like GitHub or GitLab or just sign up
+1:31:55 with an email.
+1:31:58 If it's our first time, we're going to
+1:31:59 have to go into our email and verify our
+1:32:01 account. Then go ahead and log in.
+1:32:04 Notice how it's telling us we can claim
+1:32:05 our apps on Netlefi. So, we will click
+1:32:08 claim apps. Now, we've successfully
+1:32:10 claimed our Bolt project. We can view
+1:32:12 that project. And here's the dashboard
+1:32:14 for the project. We can go into the
+1:32:16 configuration and do things like change
+1:32:19 the project name because we probably
+1:32:21 don't want to name this Sensational
+1:32:23 Cactus or whatever random name was
+1:32:25 generated for it. So instead, we'll call
+1:32:27 this show go app. A benefit of using
+1:32:31 Netlfi is that it offers continuous
+1:32:33 deployment, which means that your site
+1:32:35 can be set up to automatically update
+1:32:38 whenever you make changes to your app.
+1:32:40 Netlifi enables this by watching your
+1:32:42 project for updates and instantly
+1:32:44 publishing them live. We won't set that
+1:32:46 up now, but it is a powerful option you
+1:32:48 can explore. I also want to show you
+1:32:50 domain management because right now the
+1:32:52 domain name that our app lives at is
+1:32:54 showapp.netifi.app.
+1:32:56 app. This is what users would have to
+1:32:58 type into their browser to find you. And
+1:32:59 it's likely that you actually want to
+1:33:01 set up your own custom domain. So, if
+1:33:03 you go to add a domain, you can add a
+1:33:05 domain you already own. If you purchase
+1:33:06 one on another site like godaddy.com or
+1:33:09 we can actually buy a domain name within
+1:33:12 netlefi. We can search for something
+1:33:14 that we want like showo.app and it looks
+1:33:17 like that's not available, but there is
+1:33:19 showgo.live
+1:33:21 which is a perfect domain name for our
+1:33:22 app. So, if we wanted to, we could go
+1:33:25 ahead and buy this. And then in domain
+1:33:27 management, we could set that up as the
+1:33:29 primary domain name that users would
+1:33:31 actually type in and see in the browser.
+1:33:33 That covers the basics of what you need
+1:33:34 to know to deploy your site, customize
+1:33:37 your domain name, and release your app
+1:33:39 into the world so that people can start
+1:33:40 using it, giving you feedback, and most
+1:33:43 importantly, making you money. And I'm
+1:33:45 about to tell you all of my tips for how
+1:33:47 to monetize these kinds of projects. But
+1:33:49 before I do that, I want to make sure
+1:33:51 that you have even more confidence to
+1:33:53 build these projects on your own. So,
+1:33:54 let's go through a checklist for
+1:33:56 debugging when things go wrong during
+1:33:58 software composing.
+1:33:59 [Music]
+1:34:02 Even when you're using powerful tools
+1:34:04 like Bolt, building software doesn't
+1:34:06 always go according to plan. But here's
+1:34:08 the good news. That's all completely
+1:34:09 normal. Bugs and errors aren't a sign
+1:34:12 that you did something wrong. They're
+1:34:13 just part of the building process. What
+1:34:15 matters is how you approach them. One of
+1:34:17 the most common things you'll run into
+1:34:19 is a terminal error. We ran into a
+1:34:21 number of them during your app build.
+1:34:22 When that happens, try this. First,
+1:34:24 click attempt fix. If that doesn't solve
+1:34:27 it, turn on discuss mode and explain
+1:34:29 exactly what you're seeing. Phrase your
+1:34:31 request as clearly as you can. Now,
+1:34:33 let's talk about UI and UX issues. These
+1:34:35 can show up in all kinds of ways. Maybe
+1:34:38 a button doesn't take the user where it
+1:34:39 should, or something shows up in the
+1:34:41 wrong place on the screen. When that
+1:34:43 happens, the best thing you can do is
+1:34:44 walk through your app like a real user
+1:34:47 would. Click around. Notice what feels
+1:34:49 off. Then clearly explain to the AI what
+1:34:51 you expected to happen and what actually
+1:34:54 happened instead. Screenshots can really
+1:34:56 help here, especially for visual issues.
+1:34:58 Another thing that can trip you up is
+1:35:00 what I call an AI error loop. That's
+1:35:02 when the tool keeps trying to apply the
+1:35:04 same fix again and again without getting
+1:35:06 anywhere. If you find yourself in that
+1:35:08 loop, it's time to switch things up. If
+1:35:10 you've tried something three times and
+1:35:11 it's still not working, go back and
+1:35:13 revert to a version that did. Then
+1:35:16 reword your request or break it into
+1:35:18 smaller steps. And if nothing's working,
+1:35:20 just take a short break. That mental
+1:35:22 reset can make a big difference.
+1:35:24 Sometimes a feature looks like it's
+1:35:25 working, but it's not. You might see a
+1:35:27 confirmation message saying something
+1:35:29 was added or deleted, but nothing
+1:35:31 actually changed inside the database.
+1:35:33 So, always check your database to verify
+1:35:35 that what your app looks like it's doing
+1:35:37 on the front end matches what is
+1:35:39 actually happening on the back end. In
+1:35:41 the build section, you saw me open
+1:35:43 Chrome's developer tools and look at the
+1:35:45 console. That's where you'll see useful
+1:35:47 logs and error messages you can share
+1:35:49 with the AI. If you're running into an
+1:35:51 issue, open the console, clear any
+1:35:53 existing errors, messages, or warnings,
+1:35:56 and then recreate the problem. That way,
+1:35:58 you will see only the fresh, relevant
+1:36:00 output, making it easier to spot what's
+1:36:03 actually going wrong. Take a screenshot
+1:36:05 of what's in the console and ask your AI
+1:36:08 to help you debug.
+1:36:09 [Music]
+1:36:14 And just like that, you've done it. So,
+1:36:15 just take a quick second to appreciate
+1:36:17 what you've accomplished. You have built
+1:36:19 a complete full stack web application
+1:36:21 from the ground up. Think back to the
+1:36:22 start of this course. We began with the
+1:36:24 foundational concepts, the front end and
+1:36:26 the back end. the database as your app's
+1:36:28 memory, APIs as the messengers, and then
+1:36:30 authentication as the gatekeeper. These
+1:36:32 were just some abstract ideas and
+1:36:33 concepts back then, but now they are
+1:36:35 real. You didn't just learn about the
+1:36:36 front end, you designed and prompted a
+1:36:38 beautiful interactive user interface.
+1:36:41 And you didn't just learn about the back
+1:36:42 end, you built one, creating a database
+1:36:44 in Superbase to store real data for your
+1:36:46 users and events. And you didn't just
+1:36:47 learn about authentication, you
+1:36:49 implemented a secure login system that
+1:36:51 gives users their own personal
+1:36:52 experience within your app. So what
+1:36:54 you've just done in a matter of hours is
+1:36:55 something that just a few years ago
+1:36:57 would have required a computer science
+1:36:59 degree, three years of coding
+1:37:00 experience, and probably tens of
+1:37:02 thousands of dollars to build. So you
+1:37:03 now have a superpower. You have the
+1:37:04 ability to take an idea from your mind
+1:37:06 and turn it into a real working piece of
+1:37:08 software that can be used by anyone in
+1:37:10 the world. And this is what it means to
+1:37:11 be a winner in the AI revolution. It's
+1:37:13 not about watching from the sidelines as
+1:37:15 many people are doing right now. It's
+1:37:16 about stepping into the arena and
+1:37:17 feeling uncomfortable and becoming a
+1:37:19 builder. You've taken a massive step on
+1:37:21 that path today. So now you have the
+1:37:22 skills and you've proven that you can do
+1:37:23 it. The only question left is how do you
+1:37:25 monetize it? So in our final chapter,
+1:37:27 I'm going to answer that for you. I'll
+1:37:28 show you the exact blueprint for turning
+1:37:29 these powerful new skills into a real
+1:37:31 and sustainable income. So let's get
+1:37:33 into it.
+1:37:36 All right, so you've seen how to build a
+1:37:37 complete full stack web application from
+1:37:39 scratch using nothing but natural
+1:37:40 language. So you have the technical
+1:37:41 skills now, but the big question is how
+1:37:43 do you actually make money with this?
+1:37:44 Like what's the point? So in this final
+1:37:46 chapter, I'm going to give you the
+1:37:47 complete blueprint for turning these
+1:37:49 skills into a real income. We have a lot
+1:37:50 to cover here. Uh so let me break down
+1:37:52 exactly what's coming up. So firstly,
+1:37:54 I'm going to be revealing the best
+1:37:55 business model that you can start right
+1:37:56 now to monetize these skills, the AI
+1:37:58 automation agency, and I will back that
+1:38:00 up with proof, sharing five incredible
+1:38:02 examples of real people from our
+1:38:03 community who are already making
+1:38:05 thousands or even tens of thousands of
+1:38:06 dollars with these exact skills. Next,
+1:38:08 we'll break down the most common and
+1:38:10 high demand services that these
+1:38:11 successful builders are offering to
+1:38:12 businesses. This will give you a very
+1:38:14 clear starting point, showing you
+1:38:15 exactly what you can sell to businesses
+1:38:16 today. And finally, I'll be walking you
+1:38:18 through my proven step-by-step process
+1:38:20 for signing your first few clients
+1:38:21 without you having to pay for ads or
+1:38:23 spending months creating content. So, by
+1:38:25 the end of this chapter, you're going to
+1:38:26 have a clear and actionable plan. So,
+1:38:27 let's get into it.
+1:38:30 Now, before we dive into the how-to, let
+1:38:32 me just destroy a a huge misconception.
+1:38:34 You didn't need to build the next Airbnb
+1:38:35 or create some revolutionary ventureback
+1:38:38 startup in order to make some money in
+1:38:39 the AI space these days. And the real
+1:38:41 opportunity is much much simpler and a
+1:38:43 lot more accessible to people like you
+1:38:44 and I. It's helping businesses to make
+1:38:46 the single most important transition of
+1:38:48 the next decade, adopting AI. So, think
+1:38:50 about it. Every business owner knows
+1:38:52 that they need AI to survive. They're
+1:38:53 hearing about it everywhere now. Good
+1:38:54 stuff and bad stuff. But for most of
+1:38:56 them, AI is just this abstract buzzword.
+1:38:59 They don't know how to actually apply it
+1:39:00 in their own business and get some
+1:39:01 benefits from it. And right now, I can
+1:39:03 tell you from my own experience of
+1:39:04 running my agency, Morningside, that
+1:39:06 many businesses are stuck with these
+1:39:07 clunky spreadsheets or inefficient
+1:39:09 workflows that are costing them
+1:39:11 thousands and thousands of dollars a
+1:39:12 month. And that's where you come in. The
+1:39:13 skills that you've just learned allow
+1:39:14 you to build a bridge for these
+1:39:16 businesses. You can create custom AI
+1:39:18 tools and intelligent dashboards and
+1:39:19 powerful software that helps them to
+1:39:21 automate their processes, understand
+1:39:22 their data better, and actually use AI
+1:39:24 to get ahead. So whether you like it or
+1:39:26 not, the future of business is simple.
+1:39:27 It's going to be more software and less
+1:39:29 people. And you you can now build that
+1:39:31 kind of powerful software that
+1:39:32 businesses need to make that jump. But
+1:39:34 don't just take my word for it. Of
+1:39:35 course, let's hear from some of the
+1:39:36 world's most famous businessmen about
+1:39:38 just how obvious and glaring this
+1:39:39 opportunity is. If I was 25 years old
+1:39:42 today in 2024, what would I do? I think
+1:39:45 everything is looking at AI now in a
+1:39:47 different way and I think AI growth is
+1:39:49 going to be exponential. So, anything to
+1:39:51 do with AI now, what could that be? In
+1:39:53 the simplest form is helping people use
+1:39:55 the technology. There's going to be a
+1:39:57 massive amount of people wanting to use
+1:39:59 it that don't know how to and they're
+1:40:00 willing to pay to solve that pain point.
+1:40:03 Mark Cuban is saying the exact same
+1:40:04 thing that the biggest opportunity right
+1:40:06 now is helping small to medium-sized
+1:40:08 businesses who don't understand this
+1:40:09 technology but know that they needed to
+1:40:11 survive and they are absolutely right.
+1:40:13 I've been running Morningside AI my
+1:40:14 agency for 2 and 1/2 years now and we've
+1:40:17 worked with dozens and dozens of
+1:40:18 businesses who are in this exact same
+1:40:19 position and we help them out with
+1:40:21 consulting and figuring out where AI can
+1:40:23 help them and then we build those
+1:40:24 systems for them and manage them
+1:40:25 longterm as an AI transformation
+1:40:27 partner. And here's why we've been able
+1:40:28 to do that and be so successful over the
+1:40:30 past 2 and a half years. So according to
+1:40:31 recent data, there are 1.7 million
+1:40:33 businesses in the US alone that are
+1:40:35 making between half a million to $10
+1:40:37 million per year. These are the small
+1:40:38 businesses that make up 62% of jobs in
+1:40:41 the USA. And these businesses know they
+1:40:43 need AI and they need new software in
+1:40:44 order to stay competitive, but they
+1:40:46 can't afford to hire a traditional
+1:40:47 development agency for hundreds and
+1:40:49 hundreds of thousands of dollars. And
+1:40:50 here's the key, there's basically no one
+1:40:51 there to help them right now. All the
+1:40:53 big consulting firms are focused on
+1:40:54 helping other huge corporations with
+1:40:56 million-dollar contracts. So this means
+1:40:58 that there's a massive starving market
+1:40:59 for the exact skills that you now have
+1:41:01 where you can offer 5 105 $20,000
+1:41:03 services to these small businesses and
+1:41:05 make it actually affordable for them so
+1:41:06 that they can actually get some benefit
+1:41:08 of the AI revolution as well. And I was
+1:41:09 able to spot this opportunity 2 and a
+1:41:11 half years ago and start my agency
+1:41:12 because we've seen this pattern before.
+1:41:14 When the internet first came out in the
+1:41:15 '90s, businesses were desperate for
+1:41:17 websites. Well, eventually they were.
+1:41:18 And the agencies that popped up to build
+1:41:20 those websites for them, they made
+1:41:21 fortunes. And today it's not about
+1:41:22 websites. It's about AI and AI powered
+1:41:24 software and AI automation and AI agents
+1:41:27 and you are now in the perfect position
+1:41:28 to build it for them. Like I said, I
+1:41:30 spotted this opportunity in in early
+1:41:31 2023. And my agency, Morningside AI, was
+1:41:33 built on this exact principle of helping
+1:41:35 businesses to make the transition by
+1:41:37 building custom AI systems and
+1:41:38 automations that they couldn't build
+1:41:40 themselves. They don't know which ones
+1:41:42 they need and they don't have the
+1:41:43 ability to set them up themselves and
+1:41:45 also manage them. The skills that you've
+1:41:46 just learned, how to build AI integrated
+1:41:48 apps and systems are the foundation of
+1:41:50 this entire model. And the market for
+1:41:52 this stuff is still completely untapped.
+1:41:54 Based on data from my own community, for
+1:41:55 every one person offering these kind of
+1:41:57 AI development services, there are 1,100
+1:42:00 businesses in the US alone that need
+1:42:02 help. The most powerful way to monetize
+1:42:03 the skills you've just gained is by
+1:42:05 offering AI automation and custom
+1:42:06 software services to small businesses.
+1:42:08 This is the core of what I call the AI
+1:42:10 automation agency or AAA model. the
+1:42:12 exact model that I used to build my own
+1:42:14 agency, Morningside, which has allowed
+1:42:16 us to work with some of the world's
+1:42:17 biggest brands and generate millions of
+1:42:18 dollars in revenue. And the best part is
+1:42:20 that this path is accessible to you
+1:42:21 right now. And it's not just me getting
+1:42:23 success with this either. There's
+1:42:24 thousands of people in my community that
+1:42:25 are already on this path, turning their
+1:42:27 AI development skills like what you just
+1:42:29 learned into real income. So don't take
+1:42:30 my word for it. Let me show you what's
+1:42:32 happening right now within the
+1:42:33 community. Real examples of people
+1:42:34 taking these skills and making money
+1:42:35 with it. Take Noah Santon and his
+1:42:37 agency, Born and Brand. They're a
+1:42:39 perfect example of this. So, they build
+1:42:40 what are called MVPs or minimum viable
+1:42:42 products for their clients. And get
+1:42:44 this, they can go from just an idea to a
+1:42:47 working app in an average of only 14
+1:42:49 days. And they're charging an average of
+1:42:51 $15,000 for these projects, plus some
+1:42:53 monthly retainers as well. The value for
+1:42:54 business owners is so clear. They are
+1:42:56 saving months and potentially hundreds
+1:42:57 of thousands of dollars in order to test
+1:42:59 their software ideas. And Noah's offer
+1:43:01 is so good, they've even been noticed by
+1:43:03 Versel, the creators of one of the top
+1:43:04 AI development tools. Then there's Ryan
+1:43:06 Duffy from Fitted Automation. He's
+1:43:08 building entire custom platforms for his
+1:43:10 clients, integrating everything from CRM
+1:43:12 to AI chat bots, and he's locked in
+1:43:14 retainers of $5,000 a month. He's
+1:43:16 showing that one person with these
+1:43:17 skills can deliver what used to take an
+1:43:19 entire software engineering team to do.
+1:43:21 Another example is Ahmed Muktar of Agent
+1:43:23 XAI, and he's built a sophisticated
+1:43:25 HIPPA compliant AI medical assistant.
+1:43:27 So, the client paid over $5,600 for just
+1:43:30 the initial build, and Ahmed has also
+1:43:32 secured 20% equity in the company. And
+1:43:34 it's not just happening in the US. We
+1:43:36 have guys like Lucas Malatak in Slovakia
+1:43:38 building a complete financial planning
+1:43:40 platform called Finn Plan Pro with no
+1:43:42 prior coding experience. He charged over
+1:43:44 $7,300 for the build and gets $400 every
+1:43:47 month on retainer from his client.
+1:43:48 Another community member Patrick Burn is
+1:43:50 tackling the manufacturing industry
+1:43:51 building complex supply chain platforms
+1:43:53 using these vibe coding tools and he's
+1:43:55 landed clients on a $15,000 per month
+1:43:57 retainers for the ongoing work that he's
+1:43:59 doing for them. And finally, we have
+1:44:00 Toby Fox Mason who is whipping up some
+1:44:02 incredible dashboards for some massive
+1:44:04 clients like UCLA Health for $3,500 and
+1:44:07 the Saudi Ministry of Health for $1,800.
+1:44:10 So, what I'm saying is that this stuff
+1:44:12 isn't hypotheticals. These are real
+1:44:13 people from my community achieving
+1:44:15 incredible results with the exact kinds
+1:44:17 of skills that you're developing right
+1:44:18 now. So, the next step is what can you
+1:44:20 actually offer? So, based on what's
+1:44:21 clearly working, here are some of the
+1:44:23 high demanded services that you can
+1:44:24 start with. Firstly, we have rapid
+1:44:26 prototyping and MVP development. So,
+1:44:28 think about it. Lots of people have
+1:44:29 ideas, particularly business owners, but
+1:44:30 they're terrified of spending $50,000 or
+1:44:32 waiting three to six months for a
+1:44:34 traditional developer to get it done.
+1:44:35 With these skills you have now, you can
+1:44:36 be the solution. You can offer to build
+1:44:38 a functional prototype at a minimum
+1:44:39 viable product in weeks, not months, and
+1:44:41 for a fraction of the cost. Remember
+1:44:43 Noah's agency we just talked about?
+1:44:44 Their offer is so powerful that they
+1:44:46 have a 87.5% close rate on their sales
+1:44:48 calls. So, you can structure similar
+1:44:49 packages, maybe starting at a $1,000 to
+1:44:52 $5,000 for an initial MVP. You then
+1:44:54 prove the concept and then you can
+1:44:55 upsell them with more development later.
+1:44:57 The second proven offer that you can
+1:44:58 start with is the custom internal tools
+1:45:00 and dashboards. Like I said before, so
+1:45:02 many businesses are running on clunky
+1:45:03 and outdated systems or just like a
+1:45:05 total mess of spreadsheets. And so with
+1:45:07 these skills, you now have the power to
+1:45:08 fix that. You can build them custom CRM
+1:45:10 or or project management tools or
+1:45:12 intelligent analytics dashboards that
+1:45:14 streamline their entire operation. For
+1:45:15 example, Stfan Floren who built a custom
+1:45:17 CRM for a HVAC company for $3,700
+1:45:20 upfront plus a monthly retainer. Or Toby
+1:45:22 Foxmason's dashboards from before. These
+1:45:24 projects solve a very specific and very
+1:45:26 expensive problem for businesses. And
+1:45:28 the third proven offer is niche SAS
+1:45:30 MVPs. So this is a bit more of an
+1:45:31 advanced play, but as your skills grow,
+1:45:33 you can start to spot recurring problems
+1:45:35 in a specific industry. It's like
+1:45:36 Ahmed's Helix AI for the medical field
+1:45:38 that we talked about before, you can
+1:45:40 build a targeted software solution and
+1:45:41 potentially even get equity in the
+1:45:43 business if you help one of your clients
+1:45:44 to build one of these softwares that
+1:45:46 solves a specific problem in their
+1:45:47 industry. Okay, so now you know what you
+1:45:48 can offer. Let's break down how you
+1:45:50 actually get your first client. Step one
+1:45:52 is to deepen your skills and build your
+1:45:54 portfolio. First things first, if you
+1:45:55 haven't already, you need to join my
+1:45:57 free school community. This one is a
+1:45:58 non-negotiable because it's where you're
+1:45:59 going to find all of the resources and
+1:46:01 the templates and the guides that I
+1:46:02 mentioned. The link is in the
+1:46:03 description if you haven't joined
+1:46:04 already. And once you're in, you can
+1:46:05 find the YouTube resources post for this
+1:46:07 video. And in there, there'll be a link
+1:46:08 to all of the resources I've mentioned.
+1:46:10 And inside there's also my entire free
+1:46:11 course which is all around how to start
+1:46:13 an AI automation agency. There's a lot
+1:46:14 of business strategy concepts and also
+1:46:17 full guides like this on how to build AI
+1:46:19 automations and also AI agents as well.
+1:46:21 The next step is that you need to
+1:46:23 practice deliberately become a real
+1:46:24 builder and practice these skills more.
+1:46:26 An easy way to do this is to go into my
+1:46:28 community and find what others have
+1:46:29 built on Bolt or Lovable or Replet. Just
+1:46:31 search up Vibe Coding or Bolt or Lovable
+1:46:33 etc. and then challenge yourself to be
+1:46:35 able to rebuild what they've done. And
+1:46:36 this is how you truly learn by taking
+1:46:38 the skills we've taught here and be able
+1:46:39 to flex them to solve your own problems
+1:46:40 and build on top of what we've taught
+1:46:42 here. Another great way to further your
+1:46:43 skills is to build your own personal
+1:46:45 projects. Create some handy tools or
+1:46:47 apps for yourself. Maybe you want to
+1:46:48 make a LinkedIn content generator or an
+1:46:50 AI performance coach. These kind of
+1:46:52 projects become your portfolio of things
+1:46:54 that you've done. The proof that you
+1:46:55 know what you're talking about and
+1:46:56 that's going to help you to get your
+1:46:57 clients in the next step. And finally,
+1:46:58 you need to stay on the cutting edge.
+1:47:00 This space of of software composing and
+1:47:02 vibe coding is moving very very fast. So
+1:47:04 keep watching tutorials, keep staying
+1:47:05 active in the community to see what
+1:47:06 other people are doing with it. And just
+1:47:08 really make sure you're up to date on
+1:47:09 the latest tools and techniques. And for
+1:47:10 those who want to take their skills to
+1:47:11 the next level, once you've got a good
+1:47:13 grip on things like Bolt, you can then
+1:47:14 explore tools like Cursor to add even
+1:47:16 more advanced functionality to the apps
+1:47:18 you build. A very common way of building
+1:47:19 more advanced apps is to build it
+1:47:20 initially in Bolt and to move it to
+1:47:22 Cursor to do even more advanced stuff
+1:47:23 and then move it back to Bolt and then
+1:47:25 deploy it there. And step two is to gain
+1:47:27 real world experience by offering your
+1:47:29 value for free. And this step is crucial
+1:47:30 and many many people miss it. The
+1:47:32 fastest way to build credibility and
+1:47:34 testimonials is to do your first one or
+1:47:36 two projects for other people for free.
+1:47:38 So you can frame it as building your
+1:47:39 portfolio. If you just go onto my school
+1:47:41 community and post an introduction
+1:47:42 something like, "Hey everyone, I've been
+1:47:44 mastering AI app development with tools
+1:47:46 I built and I've built." Mention a
+1:47:48 personal project that you built recently
+1:47:49 in step one and I'm looking to build one
+1:47:51 to two more real world projects for free
+1:47:52 and add them to my portfolio. Does
+1:47:54 anyone need some kind of prototype or
+1:47:55 custom internal tool built? I'll be
+1:47:57 happy to chat and help. So when you get
+1:47:58 a project, deliver excellence. Treat it
+1:48:00 like it's a $10,000 project. Your goal
+1:48:02 is to make your client ecstatic. And
+1:48:04 then you ask the magic questions.
+1:48:06 Firstly, I'm so glad you're happy with
+1:48:08 the result. Would you mind sharing your
+1:48:09 experience in a post in Liam School
+1:48:11 community? It would mean the world to
+1:48:12 me. That is an extremely powerful
+1:48:13 method, giving you social proof and
+1:48:15 helping you to get your first paying
+1:48:16 clients. And the second thing that you
+1:48:17 should be asking to your clients is,
+1:48:19 amazing, now that you've seen what's
+1:48:20 possible, do you know anyone else who
+1:48:21 might benefit from a similar solution?
+1:48:23 I'm now taking on paid projects starting
+1:48:25 around your initial starting price,
+1:48:26 maybe 500, a,000, 2,000. And that's how
+1:48:29 you get referrals where your past
+1:48:30 clients or the free clients you've
+1:48:32 worked with refer you to other people
+1:48:33 who become your paid clients. So, trust
+1:48:35 me on this. It's one or two successful
+1:48:37 free projects with public testimonials
+1:48:39 posted in the school community will
+1:48:40 generate more paid leads than you can
+1:48:41 handle. One of the great things about my
+1:48:43 community is that we support those who
+1:48:44 give first and that is the easiest way
+1:48:46 to shoot to the top and be recognized
+1:48:47 for what you do. Step three is to
+1:48:49 transition into paid projects and start
+1:48:50 marketing yourself properly. So once you
+1:48:52 have a couple of case studies and a good
+1:48:53 portfolio, it's time to start charging.
+1:48:55 The most effective method for getting
+1:48:56 these paid clients at this stage is to
+1:48:58 use warm outreach. This is an untapped
+1:49:00 gold mine which is basically sending out
+1:49:02 messages to your existing network, your
+1:49:03 friends, family, schoolmates or
+1:49:05 colleagues or any even acquaintances,
+1:49:07 people that you barely know, anyone that
+1:49:08 you follow on Instagram or have ever had
+1:49:10 in your contacts. I'll leave a link to
+1:49:11 Alex from Guide to Warm Outreach, which
+1:49:13 is incredible. I'm not even going to try
+1:49:14 to top it. Uh it's really, really good
+1:49:15 and it's free. I'll leave a link in the
+1:49:16 resources for this video on school.
+1:49:18 Basically, his method is to reach out to
+1:49:20 20 to 30 people that you know per day,
+1:49:22 not to sell to them directly, but to ask
+1:49:24 them for referrals. A simple message
+1:49:25 works best. You can say, "Hey, name hope
+1:49:27 you're well. Just a quick one. I've
+1:49:29 recently been building custom web apps
+1:49:30 for businesses. I've built mention your
+1:49:32 portfolio here. Do you know any business
+1:49:34 owners struggling with a common pain
+1:49:35 point that you think they'd be
+1:49:36 struggling with? I'm offering my
+1:49:37 services at a very competitive rate.
+1:49:38 Now, any intros will be hugely
+1:49:40 appreciated. The warm outreach strategy
+1:49:42 is based around getting hundreds and
+1:49:43 hundreds of people that you could reach
+1:49:44 out to and then just blasting that
+1:49:45 message out to 20 or 30 people per day
+1:49:47 and eventually people are going to start
+1:49:48 coming back and saying, "Oh yeah, hey, I
+1:49:50 know someone who could be interested in
+1:49:51 this." And that is the most reliable way
+1:49:53 of getting paid clients. Another great
+1:49:54 way to start getting paid clients is
+1:49:55 through what I call the community
+1:49:56 content flywheel. There's a guy in my
+1:49:58 free community called Rory Ridges and
+1:49:59 he's been doing this perfectly where
+1:50:01 he's basically making YouTube videos
+1:50:02 about what he's learning on his journey,
+1:50:03 things he's doing for clients, the cool
+1:50:05 things that he's done personally, and
+1:50:06 then when he posts them on YouTube, he
+1:50:07 then shares them back into the school
+1:50:08 community for this 200,000 people who
+1:50:11 are also very interested in the same
+1:50:12 things to say, "Hey, that's a cool
+1:50:13 video, Rory." And they check out his
+1:50:15 YouTube channel. He starts to get views.
+1:50:16 He starts to get subscribers. And by
+1:50:18 doing this community content flywheel
+1:50:19 love of creating content on say YouTube
+1:50:20 or LinkedIn, then posting it back in the
+1:50:22 school community, you start to get an
+1:50:24 audience for yourself much faster than
+1:50:25 if you're just relying on the algorithm
+1:50:26 alone. So to do this, you can start off
+1:50:28 real simple. Just record yourself
+1:50:29 building a small tool or or something
+1:50:31 cool that you made, then write a post or
+1:50:32 or film a video about it, then share it
+1:50:34 on just one platform. Just pick one and
+1:50:36 do it. And you don't need to do a whole
+1:50:37 bunch of them, trust me. Just if you
+1:50:38 just do one and do it well, you'll get
+1:50:39 all the leads that you ever needed. So
+1:50:41 say it's on YouTube, then you can share
+1:50:42 that YouTube link and make a little post
+1:50:44 about it in my school community and say,
+1:50:46 "Hey guys, this is something that I
+1:50:47 learned when I was doing XYZ. This might
+1:50:48 be helpful for you guys. Let me know if
+1:50:50 you want to see anything else." So like
+1:50:51 I said, this kind of crossosting jump
+1:50:52 starts your channel or or your profile
+1:50:54 growth on something like LinkedIn and
+1:50:55 and also builds your reputation in our
+1:50:57 community and attracts inbound leads
+1:50:59 over time through it. Then you need to
+1:51:00 set your initial pricing. I recommend
+1:51:02 that you start with project based
+1:51:03 pricing. So for an MVP, it could be
+1:51:04 anywhere from $500 to $5,000. And as you
+1:51:07 get better, you can move to monthly
+1:51:08 retainers like Ryan Duffy where he's got
+1:51:10 it at $5,000 a month or Patrick Burn
+1:51:12 where he's got it at $15,000 a month.
+1:51:13 Now, what I've just laid out, it's not
+1:51:15 about just landing a few freelance gigs,
+1:51:17 right? This is the foundational path to
+1:51:19 building your own sustainable and
+1:51:20 scalable AI automation agency. So, you
+1:51:23 start by delivering these AI built web
+1:51:25 apps. You provide incredible value to
+1:51:26 your clients and then you can start to
+1:51:28 expand your services. You can hire other
+1:51:30 specialists in AI agents or AI
+1:51:32 automations to work under you or even
+1:51:34 other software composers so that you can
+1:51:35 focus on growing the business. So this
+1:51:37 is the path that I took with Morningside
+1:51:38 AI and now we have a killer development
+1:51:40 team and a killer AI consulting team as
+1:51:42 well where we're doing development deals
+1:51:44 with huge companies for $200,000 or more
+1:51:46 and $60,000 AI audits that we do in just
+1:51:48 4 weeks. So while we didn't get to that
+1:51:51 point overnight, it is the path that
+1:51:52 tens of thousands of people in our
+1:51:54 community are on right now. So the
+1:51:55 skills you've learned in this video are
+1:51:56 your entry ticket. The demand for the
+1:51:58 stuff is enormous. Businesses need these
+1:52:00 solutions to stay competitive. And now
+1:52:01 you have the ability to provide them.
+1:52:05 So the opportunity is here. Right now
+1:52:07 you have the foundational skills. You've
+1:52:08 seen the proof. The next step, the most
+1:52:10 crucial step is to take action. If you
+1:52:12 haven't already followed these tutorials
+1:52:13 and you just skipped the end, go back
+1:52:14 and do it and then dive into my school
+1:52:16 community. It is the best place to be if
+1:52:18 you're trying to start an AI business
+1:52:19 and learn AI skills. So if you haven't
+1:52:21 already, that is your immediate next
+1:52:22 click after this video. The resources,
+1:52:24 the incredible network in there, and the
+1:52:26 support, it's all there for you. The
+1:52:27 link is going to be in the first link in
+1:52:28 the description. Then once you're in
+1:52:29 there, you need to start building more
+1:52:30 projects. Don't let these skills get
+1:52:32 rusty. Replicate, innovate, build for
+1:52:34 yourself your own projects. Copy what
+1:52:36 other people have done. The more you
+1:52:37 build, the more confident and more
+1:52:38 capable you'll become. The more skills
+1:52:39 you're going to add on to this
+1:52:40 incredible foundation that you've got
+1:52:42 now. And then next, you need to start
+1:52:43 offering your skills. You got to take
+1:52:44 that leap. Reach out to your network,
+1:52:46 post in the community, and don't be
+1:52:47 afraid to start small. Your first paid
+1:52:49 project doesn't need to be $15,000. Just
+1:52:51 aim for a fair price for the value you
+1:52:53 deliver and grow from there. You need to
+1:52:54 think about this long term. and
+1:52:55 overcharging someone and watching it
+1:52:56 blow up in your face because you
+1:52:57 couldn't deliver that value is just
+1:52:59 going to completely derail your journey.
+1:53:00 And of course, like this video and
+1:53:02 subscribe if you haven't already. Uh,
+1:53:03 and share it with your friends and
+1:53:04 family. I put a lot of work into these
+1:53:06 videos and I just really like for as
+1:53:07 many people to be helped by this as
+1:53:08 possible. And by subscribing, you're
+1:53:10 going to make sure that you're in the
+1:53:11 loop to see all of my future videos on
+1:53:12 learning AI skills and monetizing them
+1:53:14 and building businesses around them. So,
+1:53:15 to wrap up, just remember those names
+1:53:16 that we talked about. Yeah, we have
+1:53:18 Noah, Ryan, Ahmed, Lucas, Patrick, Toby.
+1:53:21 They all started from a point of
+1:53:22 learning of initial skills just like
+1:53:24 you. And they embraced these new AI
+1:53:26 development tools and put in the effort
+1:53:27 to master them and are now out there
+1:53:29 delivering incredible value and earning
+1:53:31 significant income by using these
+1:53:32 skills. And you absolutely can, too. And
+1:53:34 I'm not going to sit here and tell you
+1:53:35 that it's always going to be easy. There
+1:53:36 are going to be challenges and bugs to
+1:53:37 fix and moments of doubt. But the
+1:53:39 ability to create software with AI and
+1:53:41 to bring your ideas to life is a
+1:53:43 superpower in today's world. And now you
+1:53:45 possess the beginnings of that
+1:53:46 superpower. All the resources we've
+1:53:48 discussed and the links, the tools, and
+1:53:49 the incredible support of my school
+1:53:50 community are waiting for you. The path
+1:53:52 is clear. So, let's get building. And
+1:53:54 more importantly, let's get you
+1:53:56 monetizing these incredible new skills.
+1:53:58 The AI revolution isn't waiting, and
+1:53:59 neither should you. Your future as a
+1:54:01 software composer and as an AI
+1:54:02 automation agency owner starts today.
+1:54:04 So, if you want to jump straight into
+1:54:05 mastering no code AI automation in 100
+1:54:07 minutes, you can check out that video up
+1:54:09 here. It's definitely the best sort of
+1:54:11 complimentary skill to add on top of
+1:54:12 what you already know, and that's one of
+1:54:13 my most comprehensive videos to date.
+1:54:15 But guys, that is all for the video.
+1:54:16 Congratulations on making it through.
+1:54:18 I'm so proud of you and I'm so excited
+1:54:19 for the journey that you're about to
+1:54:20 start on. That's all for me.

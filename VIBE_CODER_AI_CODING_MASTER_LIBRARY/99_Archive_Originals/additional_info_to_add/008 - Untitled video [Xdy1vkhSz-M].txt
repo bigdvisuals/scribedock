@@ -1,0 +1,665 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=Xdy1vkhSz-M
+Channel: Riley Brown
+Video ID: Xdy1vkhSz-M
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 One of the reasons why I think Codex is
+0:02 better than Claude Code is because of
+0:04 their built-in plugins. And one of the
+0:06 coolest built-in plugins that they have,
+0:08 in my opinion, is the Remotion plugin.
+0:11 Directly inside Codex, OpenAI's new
+0:14 super app, you can generate motion
+0:16 graphic videos. Not only this, but you
+0:19 can actually use their new image model
+0:20 to create assets and then put them in
+0:23 your videos that you can create simply
+0:25 by typing. In this video, I'm going to
+0:27 show you exactly how to create motion
+0:30 graphic videos with Remotion inside
+0:33 Codex. And I'm going to show you how to
+0:34 set up your project so that you can
+0:36 create high-quality brand [music]
+0:37 assets. I'm going to show you how to
+0:39 create images and SVGs that you can
+0:41 place into your videos. And if you have
+0:43 a ChatGPT subscription, you have access
+0:46 to Codex and you can get started right
+0:48 away. And if you like videos like these,
+0:51 I make them multiple times per week, so
+0:53 make sure to hit that like and subscribe
+0:55 button. Let's not waste any more time.
+0:57 Let's dive into the video.
+1:00 Okay, so this right here is Codex. And
+1:03 this right here is Remotion. This is
+1:06 where I typed my prompt and this is
+1:09 where the video showed up. This was the
+1:11 result of a couple of prompts.
+1:18 So,
+1:19 let's first talk about what is Codex.
+1:21 And so, all Codex is is OpenAI's super
+1:24 app. And in my opinion, it is the best
+1:26 way, especially if you're not fully
+1:28 technical, to control Codex 5.4, the
+1:31 best general agent in the world, in my
+1:33 opinion, especially at really hard,
+1:36 complex tasks, which I'm doing more and
+1:39 more frequently. And I think it is the
+1:41 best interface for AI agents. It is
+1:44 OpenAI's version of Claude Code's
+1:47 desktop app. Claude Code's desktop app
+1:50 has Claude Code in it now. In my
+1:52 opinion, it is much worse than OpenAI
+1:55 Codex. Claude Code also decided to have
+1:59 a distinction between code and co-work.
+2:02 In Codex, they're combined together. So,
+2:05 if you ask for a work-based task, like a
+2:07 spreadsheet document or presentation,
+2:09 you have to do that in co-work for it to
+2:10 create the right artifact. But code is
+2:13 specifically for coding. In Codex, you
+2:15 can just ask Codex for a presentation,
+2:19 right? You can just ask Codex for a doc.
+2:21 It'll give it to you and you can open it
+2:23 up here on the side. The same way you
+2:25 can also open a video here on the side
+2:29 and you can create websites here on the
+2:31 side and you can basically do anything
+2:34 or create anything that you might want
+2:36 to create on a computer inside Codex.
+2:38 And so, that brings us to the question,
+2:40 what is Remotion? And so, Remotion is
+2:42 simply a way to create motion graphic
+2:45 videos with code. And I don't know if
+2:47 you've heard, but AI writes code pretty
+2:50 well. So, all you have to do is type
+2:52 words in English, AI writes the code,
+2:55 and the video will render. Remotion is a
+2:59 plugin, right? You can see all the
+3:01 plugins up here. I type whatever I want
+3:03 in the video here, which is into Codex
+3:06 using the model GPT 5.4 extra high. It
+3:09 generates some code and then it renders
+3:12 right here. And I can click this to
+3:14 export my video. So, why would you use
+3:16 Remotion instead of just using After
+3:18 Effects or Premiere or some other
+3:20 template software? Well, it's just a
+3:21 difference of preference. One is a
+3:23 prompt interface, one is a manual
+3:24 interface that takes a long time to
+3:26 learn. And it depends on what you're
+3:28 working on. And also, AI is getting
+3:30 better over time, right? As AI gets
+3:32 better, it'll get a lot easier to do a
+3:34 prompt interface. Right now, if you're
+3:35 an expert, I still recommend using After
+3:37 Effects or other animation software. But
+3:40 one really good example of when it is
+3:43 super useful to use Remotion is when
+3:46 Claude actually used Remotion to create
+3:49 like 20 launch videos in the span of 1
+3:52 month. And so, Claude has been releasing
+3:54 these videos right here. When they first
+3:56 launching these types of videos, these
+3:58 were all created with Remotion. You can
+4:01 create these little animations here with
+4:04 Remotion. And they got over 300 million
+4:07 views over the course of a month just
+4:09 releasing these Remotion videos for all
+4:12 of their feature launches. And they
+4:14 literally were releasing one every
+4:15 single day. So, Remotion just allows you
+4:18 to create videos really quickly and you
+4:20 can do this in Claude Code or you can do
+4:22 it in Codex like we're doing today.
+4:24 Okay, so earlier I mentioned that you
+4:26 can very easily download the Remotion
+4:28 skill or the Remotion plugin. How do you
+4:31 set this up? Well, I'll show you right
+4:33 now. And if you get confused by any of
+4:35 this at all, I created a Codex video.
+4:38 This is a 1-hour and 40-minute video
+4:40 that covers everything inside Codex, but
+4:43 I think you'll pick it up pretty quickly
+4:45 in this video. So, what we're going to
+4:46 do here is we are going to go up to
+4:48 create a new project inside Codex. And
+4:51 this is because we might create a ton of
+4:53 videos and we want this organized in a
+4:55 folder. And we want to be able to create
+4:57 many chats within this folder and that's
+5:00 why you create projects. So, we're going
+5:01 to go ahead and create a new project and
+5:03 we're actually going to create this in
+5:05 the desktop folder. We're going to
+5:07 create new folder and now we're going to
+5:09 say Remotion project. And then we're
+5:12 just going to press open. And then
+5:14 you'll see your project start over here.
+5:17 So, what we can do is we can press this
+5:19 create a new chat. And you can literally
+5:21 go to Google, type in download Codex,
+5:23 and you can download it directly to your
+5:24 computer. You what you can do here is
+5:26 you can go up to plugins and then you're
+5:28 just going to go to plugins. And what
+5:31 you're going to do is you're going to
+5:32 type in Remotion. And then you're going
+5:34 to download this and you're going to be
+5:35 good to go. It's going to say, "Are you
+5:36 sure you want to download?" You're going
+5:37 to hit yes and you're ready to use
+5:40 Remotion. Now, once you create a new
+5:42 chat, let's go ahead and test this with
+5:44 something very, very simple. I want you
+5:48 to create a and then you can press at
+5:51 Remotion video. And this should just
+5:56 say, "Hello world" in black text on a
+6:01 white background, right? Let's get this
+6:04 up and running and then we can start
+6:06 making really complex videos. Boom. And
+6:09 so, just like Claude Code, the AI agent
+6:12 is going to work and once it's done,
+6:15 it'll run it locally and then you'll be
+6:17 able to open it up here in this side
+6:19 browser. Before anything gets run, this
+6:22 kind of opens up in this summary and you
+6:24 can see the prog- the progress, you can
+6:26 see the artifacts, and you can see the
+6:28 sources. So, this worked for about 2
+6:30 minutes and we got this response here.
+6:33 And what you're looking for is this
+6:35 localhost link. This is running it
+6:37 locally on your computer. And if you
+6:39 click on this, boom. The Remotion plugin
+6:43 automatically opens up and you can
+6:45 almost think of this Remotion plugin as
+6:46 like a mini app that's running on your
+6:48 computer. And whatever you type here
+6:51 gets updated here. All we asked for is a
+6:53 hello world and this is what we got. We
+6:56 can hit play and nothing happens.
+6:58 Literally just loops saying, "Hello
+7:00 world." We can say, "Please make the
+7:04 hello world jiggle and make it say,
+7:09 'Hello, comma, from Riley.'" I promise
+7:12 we're going to do more exciting stuff. I
+7:13 think it's important to be boring at the
+7:15 beginning just to give you the little
+7:17 taste. Okay. Hello world. There's a
+7:18 reason why when you start coding that
+7:20 you start with a hello world project.
+7:21 You just got to make something exist and
+7:23 then you can make the things better. You
+7:25 can let your imagination go after you
+7:27 understand the fundamentals. And while
+7:29 that was loading uh for 51 seconds, I
+7:31 closed the sidebar just to show you that
+7:33 if you have the sidebar ever gets
+7:34 closed, then you can just click on this.
+7:37 There you go. We have the change. It
+7:38 says, "Hello from Riley" and it now
+7:41 jiggles. Okay, now what I want to do is
+7:44 I want to do some basic vocabulary. And
+7:48 what I want to talk about right here is
+7:50 I want to talk about this right here.
+7:52 So, this right here is a composition. We
+7:55 have now created one composition, which
+7:57 is this hello world composition, and we
+8:01 can ask for it another composition. And
+8:04 so, what I'm going to do, I'm going to
+8:06 say, "Please create another composition
+8:10 that has the Codex logo and the Remotion
+8:14 logo." And what I'm going to do is I'm
+8:16 actually going to do find the logos on
+8:19 the internet. Okay, so I just downloaded
+8:21 them off Google Images. This is the
+8:23 Remotion logo. This is the Codex logo.
+8:25 Now, what I'm going to do is I'm going
+8:27 to go to our Remotion project and we can
+8:29 just hit open in finder. So, now we see
+8:32 that the project folder is open. It is
+8:34 at desktop Remotion project, which
+8:36 matches Remotion project. And you can
+8:39 see here that the agent has created this
+8:41 folder called hello world video. So, now
+8:43 what we want to do is we just want to
+8:45 drag those two images into this folder
+8:48 and they are called codex.png and
+8:51 remotion.png. So, now we can at mention
+8:55 Remotion and you can see here Remotion
+8:57 PNG shows up. at Codex PNG. There we go.
+9:03 Please put these on the screen dark gray
+9:08 background with text in Instrument Sans
+9:14 Instrument Serif font
+9:17 uh with text that says AI-powered
+9:21 video motion graphics. Then add a little
+9:26 animation beam that connects them. So,
+9:31 we can run this and what it should do is
+9:34 it should add a new composition that'll
+9:36 show up right here and then the timeline
+9:40 will be different. And I'll show you how
+9:42 to create more scenes in the timeline in
+9:45 just a second. Okay, so it is still
+9:47 thinking and still working, but you can
+9:49 see here it added AI motion graphics.
+9:52 Check this out. Watch what happens when
+9:53 I click. Boom. Now we see some stuff
+9:57 show up here. I'll explain this once
+9:59 it's done generating. Okay, so it is
+10:01 done and let's take a look at this. Look
+10:04 at this. This is pretty cool. Right? We
+10:07 have these two logos sending a beam to
+10:11 each other and so this is kind of like
+10:13 they're you're kind of connecting them.
+10:15 Now let me show you how we can quickly
+10:17 make changes. But the first thing that I
+10:19 want to do is I can see that it actually
+10:20 rendered the video. If I click on this,
+10:22 it actually shows the full rendered
+10:25 video. But we don't need to do this
+10:27 every time. I'll say I'll tell you when
+10:31 to render
+10:33 uh from here on out. We don't need to
+10:38 We're going to be making a lot of
+10:39 different changes. So we can run that
+10:40 prompt. Don't do anything for now. So
+10:43 now I want to do is I want to talk about
+10:45 vocab for a little bit. I will take a
+10:49 screenshot of this.
+10:55 So this right here is the timeline and
+10:59 this is a scene inside your timeline.
+11:03 And of course you can hit play and do
+11:06 all of the normal things and here's
+11:08 where you render. Notice here that the
+11:10 AI can just decide when to render it and
+11:12 send me an MP4, but you can also render
+11:15 it yourself by pressing this button
+11:17 right here and you can actually decide
+11:19 the settings on how you want to render
+11:22 it. It's It's the same as if you were
+11:23 exporting it on Premiere Pro or CapCut.
+11:27 Additionally, we have something up here
+11:29 called assets. And so I'm going to click
+11:32 on this assets folder and I believe that
+11:35 the two assets are going to be one and
+11:37 two, right? These are PNGs which are
+11:40 assets which are different than code.
+11:42 Everything else is code, right? This
+11:44 laser beam is code, this text is code
+11:47 and the background is code. The assets
+11:50 are going to be the little assets that
+11:51 you add to your app and in this case we
+11:54 added these PNGs with no background
+11:56 which the AI added to the scene. And so
+11:59 we can verify this if we click on
+12:00 assets. There you go. We see Codex and
+12:04 Remotion. If we go back to compositions
+12:06 and click on this, we are back. Now what
+12:08 we can say is
+12:10 Please, can you get rid of this line? I
+12:16 don't like it. Now notice how it's like,
+12:19 "Okay, what line like am I talking
+12:21 about?" In In this case it would
+12:23 probably get it, but I'd love to be
+12:24 overly prescriptive. It just saves me a
+12:26 lot of time in the long run and this is
+12:28 also because I use CleanShot Pro. It's
+12:30 super easy to just like take a
+12:32 screenshot, open this up and I can very
+12:34 easily just like label the line. And I
+12:36 can just paste it in and the AI will see
+12:38 that I'm literally pointing at this line
+12:41 right here. Please make the scene last 2
+12:44 seconds longer. Then when it's done,
+12:49 please have the logos animate off the
+12:54 screen to their uh respective sides. So
+12:57 the Codex logo should disappear left,
+13:00 the Remotion logo should disappear right
+13:02 and then I want the text to slide down
+13:05 to the center of the screen and then
+13:07 animate into full guide. And so I'm
+13:10 going to add quotes here after full
+13:12 guide. And now we're going to run this
+13:14 prompt. So this one's a little bit
+13:15 longer of a prompt. And again, we're
+13:17 running this. We're using Codex. We're
+13:19 using GPT-5.4.
+13:21 Reasoning effort extra high. It is the
+13:24 best right now in my opinion. Okay, it's
+13:26 done. It worked for about a minute and 2
+13:28 seconds. And by the way, this is going a
+13:30 little bit slower or faster because I'm
+13:32 using the fast mode. It is twice as
+13:35 expensive, but I spend a lot on AI and
+13:38 this is something I'm perfectly willing
+13:40 to spend money on. So what I can do is I
+13:42 can test this. Let's take a look. So
+13:44 here the beam is gone.
+13:49 Okay, so here this is a good guide. This
+13:52 came down.
+13:55 And then full guide came on here. And so
+13:58 you'll notice here there's actually 30
+14:01 frames per second. So right now we're at
+14:03 4 seconds exactly and these are not, you
+14:06 know, decimal points. These are frames.
+14:08 This part right here. And so we can
+14:10 actually reference a specific frame. So
+14:12 this is like at 4:17. I can I can say
+14:15 4:17.
+14:16 At this frame when AI-powered motion
+14:19 graphics turns to full guide, I was
+14:21 hoping the text would literally change
+14:24 from AI-powered motion graphics to full
+14:27 guide as if it was being like backspaced
+14:30 and then retyped, not like having it
+14:33 fade out and then the other one fade in.
+14:35 Find a way to like maybe reorder the
+14:37 letters into it. Use your best judgment
+14:40 and find the best animation for this.
+14:42 Also, I just wanted the line between the
+14:45 two logos to disappear. I like the
+14:47 little ball that was being shot from the
+14:49 Codex logo to the Remotion logo. So
+14:51 please re-add that.
+14:53 And remember, if you hit command enter,
+14:55 this will steer it into the
+14:57 conversation. This does not mean queue
+14:59 it up for once it's done with this. It
+15:02 steers it, so it basically adds this to
+15:04 the current session. And so now it's
+15:06 going to do both of these things in one
+15:09 swoop or, you know, one edit. All right,
+15:11 after 2 minutes it is done. Let's give
+15:13 it a look here. Let's see. So now we
+15:15 have the little ball going across. Dude,
+15:19 let's go. And now we can say hold the
+15:22 full guide for another 2 seconds. Can
+15:28 run that. I want it to hold this at the
+15:30 end for 2 seconds longer. It ends too
+15:32 early. Okay, so it's done. Let's just
+15:34 skip right here to the end. Let's see.
+15:37 So it goes from here
+15:39 to here, backspace, full guide. Bang. So
+15:42 we just created that. In a couple of
+15:44 prompts we created this motion graphics
+15:46 video. And yeah, so you're starting to
+15:49 get the hang of it. Let's dive into some
+15:51 other cool stuff here. Okay, so I want
+15:53 to talk a little bit about organization
+15:55 and how to create consistent assets. So
+15:59 I want to show you here that you can see
+16:01 here that this shot right here. So this
+16:03 I have this like cool animation in the
+16:06 background that you can actually see by
+16:08 going up to brand assets and we can
+16:10 actually find it right here. So we have
+16:13 this background cool animation. Remember
+16:16 this is just code. This is called a
+16:18 Lissajous figure, fun fact. And we're
+16:21 using this for a brand asset and we're
+16:23 also I also created this background
+16:25 gradient. And so I created this
+16:27 composition called brand assets and here
+16:31 we have all the logos that we might want
+16:32 to use. We have a dark gray gradient, a
+16:36 blue gradient, a gray figure, a blue
+16:38 figure, a red figure, a green figure and
+16:41 then we have some other cool types of
+16:44 things that I might want to use. And
+16:46 what this allows me to do is just ask
+16:48 the agent for specific things. And you
+16:50 can see here that this is called a red
+16:52 figure, right? So if we go to red figure
+16:55 right here, we can very easily just ask
+16:58 the agent for a red figure. I can say,
+17:00 "Hey, there's a red figure in brand
+17:01 assets. Just use that." And so then we
+17:03 can create new videos that all have the
+17:06 same background. And so since we have an
+17:09 iPhone mock-up, I was able to ask the
+17:11 agent, "Hey, can you create another
+17:12 iPhone mock-up for this part?" And one
+17:15 thing we'll get to later, you notice
+17:17 here there's this green thing. You can
+17:19 ask the agent to add music. And so here
+17:21 you can see that there's music. And
+17:23 we'll talk about that in just a second.
+17:25 One thing that you can also do is you
+17:26 can actually open up this full screen
+17:28 mode which I actually do really like and
+17:30 you can even close this side panel so
+17:32 it's literally full screen. And so now
+17:35 we can actually really we can start to
+17:36 add more scenes to this. So we have full
+17:39 guide.
+17:41 And now um I'm going to outline the
+17:44 steps really quick. Okay, so I just
+17:46 typed out my prompt and I want to break
+17:48 it down real quick. Firstly, I included
+17:50 one screenshot which is just the Codex
+17:52 user interface and this is just a
+17:54 reference to the agent. I'm going to
+17:55 screenshot this because I'm going to do
+17:57 an in-depth analysis of this prompt real
+17:59 quick. So what I'm doing here is I'm
+18:02 basically saying I want to create new
+18:04 scenes after this. So I want to create
+18:06 new scenes and here I put scene one,
+18:09 scene two and scene three. And then I
+18:12 also said maintain the background
+18:14 throughout. And then I said type into
+18:16 Codex input. So we're going to type into
+18:18 the Codex input and then I said it's in
+18:21 the image. Don't use the image I gave
+18:23 you. Simply use it as reference, right?
+18:25 This image is referenced in this part of
+18:27 the prompt. And then I said this text
+18:31 should be typed in, right? Create a
+18:34 launch video for Remotion and Codex
+18:36 integration. So we're basically creating
+18:38 the video that we're creating now. So
+18:40 it's kind of meta.
+18:41 And then show the Codex logo in scene
+18:44 two and then a loading animation. And
+18:46 then in scene three it should show the
+18:49 video rendered of what we created so
+18:52 far. And so basically it's going to take
+18:54 the video that we're making, put it on a
+18:56 TV in the final scene and show that it's
+18:58 rendered if that makes sense. So I'm
+19:00 going to go ahead and enter this prompt
+19:01 here. Okay, so I entered the prompt and
+19:04 you can see here we can actually toggle
+19:05 this on and we can see what the AI is
+19:08 saying and again we can always toggle
+19:09 back and we can see the exact prompt
+19:12 that we used right here. And in this
+19:14 full screen view we can only see what
+19:17 the AI is responding, but this allows us
+19:19 to kind of fully immerse ourselves into
+19:22 whatever it is that we're creating. And
+19:24 while that's loading, I'm actually going
+19:26 to go to suno.ai.
+19:29 And what I can do here is I'm just going
+19:31 to type in relaxing
+19:33 funk launch video
+19:38 instrumental.
+19:41 And we can hit create. And we can
+19:44 actually, yeah, change this to
+19:46 instrumental.
+19:56 >> [music]
+19:59 >> All right, that's not bad.
+20:03 I like this one.
+20:05 Okay, so we can just click on download.
+20:07 We'll download the MP3 file. Now I'm
+20:10 going to go back to Codex and what I can
+20:13 do here, I'm going to open up this
+20:15 project folder and so here we see this
+20:18 song slow funk lift. I can drag this
+20:21 into this folder right here. And now
+20:25 what I can do is I can say at slow funk
+20:28 lift, please add this song at 75%
+20:34 volume throughout
+20:38 the whole thing. And now it's going to
+20:40 add that really quickly and then we can
+20:42 see how it did. And you can see here it
+20:44 added one, two, and three sequences.
+20:47 Sorry, these aren't scenes. These right
+20:49 here are called sequences and we'll take
+20:52 a look at this. This actually doesn't
+20:54 look too bad. You can see here that it
+20:56 added this like green line right here so
+20:58 we can see that the slow funk song is
+21:01 actually in our app or or in our video.
+21:04 We'll take a look at it right when it's
+21:05 done. Okay, so everything's done. Let's
+21:07 take a look at this. I'm going to go
+21:09 full screen for this. Let's take a look
+21:12 here. We can lower this. Let's see.
+21:19 >> [music]
+21:29 [music]
+21:29 >> Ooh, let's go.
+21:34 Ooh, there you go.
+21:36 >> [music]
+21:39 >> So literally it put the video that we
+21:42 made, it exported it and then put it in
+21:45 here. This is actually awesome. Let's
+21:47 add a few more scenes. I want to add
+21:49 four more scenes real quick. I'm going
+21:51 to type in my prompt. I'm going to take
+21:52 a few minutes to think about it. Okay,
+21:54 remember keep the background consistent
+21:56 throughout the rest. Remove the glows
+21:59 like the the background like glowing
+22:01 behind the
+22:03 TV. I actually don't like that or like
+22:05 reduce it to barely anything and then
+22:08 keep the background the same throughout
+22:10 the rest. The first thing I want to show
+22:12 is a scene that shows social media
+22:14 platforms. Maybe show three different
+22:16 social media platforms and then show
+22:18 that we're getting a ton of likes, like
+22:20 hearts or and then yeah, show that and
+22:23 then show quick pan to another scene
+22:25 where it shows revenue increasing, then
+22:28 switch to another scene where it shows
+22:30 views going from zero to 1 million
+22:33 and then say the last scene, scene four
+22:36 that I want you to add is like show the
+22:38 Remotion and Codex logo again and then
+22:41 have the text on it say launch your
+22:43 video today and then what I want is for
+22:47 the final scene, scene five for the
+22:49 logos to fly out again and then put
+22:53 OpenAI Codex. Just those that text at
+22:56 the center of the screen to finalize it.
+22:58 That's the final part.
+23:01 It's a long prompt. We'll go ahead and
+23:02 enter that in. Okay, it's done. Let's
+23:04 give this a try.
+23:07 So let's see.
+23:11 >> [music]
+23:21 [music]
+23:26 >> Okay, this is pretty good. Pretty good
+23:27 so far. Remove the background [music]
+23:29 gradient that looked kind of ugly. I
+23:31 like it. Ooh,
+23:32 let's go. This is a fire shot here. Look
+23:36 at this.
+23:38 There we go. We don't have the the
+23:40 correct icons for Instagram, TikTok, and
+23:44 YouTube. We need to get that but I'll
+23:46 add that in just a second.
+23:50 >> [music]
+23:50 >> Okay, not bad. We can change this so I'm
+23:53 just going to start
+23:56 going like this. I'm just going to
+23:58 literally
+23:59 circle this right here.
+24:02 I'm just going to say, "Please get rid
+24:05 of this little arrow as shown here. Just
+24:11 make it the line. Make the line green."
+24:15 And then I'm going to say, "Also, I want
+24:18 the actual icons used."
+24:23 And so I just grabbed the logos off the
+24:24 internet. We're going to drag them into
+24:26 the Remotion project once again and
+24:29 I can cut YouTube.
+24:35 YouTube.
+24:37 There we go and ATT.
+24:38 Okay.
+24:39 Please use these logos. Okay, while
+24:44 that's running it looks like this was
+24:45 fixed. This looks a lot better so the
+24:48 logos should be replaced here. Let's
+24:51 check out the rest.
+24:56 Nice.
+25:00 Nice.
+25:02 Launch your video today.
+25:11 Okay, so here I want to combine these.
+25:14 So right now on the second to last
+25:16 sequence it says launch your video today
+25:19 and then it switches to a new sequence,
+25:21 right? Switches to a new sequence that
+25:23 like has them stop jiggling. So in this
+25:26 new sequence it like changes the icon
+25:29 like the icons stay the same but it like
+25:32 has them reappear and then they are not
+25:34 jiggling. Instead I want it to just be
+25:36 the second to last scene should be the
+25:38 last scene and then they should be
+25:40 jiggling and then they should fly off
+25:43 the screen and then the text that says
+25:46 launch your video today should fly off
+25:48 the screen at the same time and then the
+25:51 OpenAI Codex text should appear exactly
+25:53 as it does. So then it will be a lot
+25:56 smoother. Okay, we'll fling that one in
+25:58 there as well and it's still working but
+26:01 look at this. Here we go. We can see
+26:03 Twitter. I know Twitter is no longer in
+26:06 existence. It's X now but we're just
+26:09 doing this for fun. I mean this is
+26:10 coming together pretty well. I mean
+26:11 we're creating this video pretty
+26:13 quickly.
+26:17 Okay, it's done. Let's check out this
+26:19 last part. So it's right after this
+26:21 scene right here.
+26:28 Ooh.
+26:33 I mean come on. Let's go. And then now
+26:36 to export the video we just hit render.
+26:39 I just do it the H.264
+26:43 and yeah, let's just render this video
+26:45 and we can see here that this is
+26:47 rendering the video right here and this
+26:49 means actually turning into a video that
+26:51 you can export and you can upload onto
+26:53 Twitter or something. And what we can do
+26:56 here is we can see this right here. And
+26:59 now once we're done we could very easily
+27:02 just drag this up into Twitter and we
+27:05 could launch our launch video. And look
+27:07 at that. We have our launch video just
+27:09 like that.
+27:11 Anyway, we covered a lot in this video.
+27:13 We dove into Codex. We covered adding
+27:15 images and different assets to our
+27:17 video. We generated a song, added it to
+27:20 the video and I think it came out really
+27:23 well for you know seven to eight
+27:25 prompts. If we spent another like three
+27:27 hours on this I'm sure we could have
+27:28 made it just absolutely insanely good
+27:32 but I think this is pretty solid for the
+27:33 sake of this video. I hope you learned
+27:35 how to create engaging content for
+27:38 social media and these really do well on
+27:41 Twitter. But thank you guys for
+27:42 watching. I'll see you here in the next
+27:43 video. Peace.

@@ -1,0 +1,1451 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=5YTzBbfipD0
+Channel: Greg Isenberg
+Video ID: 5YTzBbfipD0
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 we've got J
+0:01 Scream the man who needs no introduction
+0:04 funnel
+0:05 master and then we've got Jake naap who
+0:10 originally come from Google created
+0:12 helped create the the design Sprint and
+0:15 I think Jake what I want to get out of
+0:18 this this whole episode is to teach me
+0:21 and by virtue of me
+0:23 everyone how to build a product that has
+0:27 the highest probability of success so
+0:30 that's what I want to do I want I want
+0:32 to build an AI rapper startup but I want
+0:34 to build it with the highest probability
+0:36 success and I want a framework and a
+0:39 process and a
+0:41 methodology to help me get
+0:44 [Music]
+0:51 there amazing so yeah that sounds like
+0:54 super fun to talk about because that's
+0:56 what I've been obsessed with for a long
+0:58 time is trying to figure out how to get
+1:01 how to get the best out of a a good idea
+1:04 and also even how to evaluate if we've
+1:06 got a set of ideas which one should we
+1:07 pursue first and then how do we tune
+1:09 whichever one seems the most promising
+1:11 into like the best form of it that's
+1:14 going to be different it's going to feel
+1:15 like it's worth people paying attention
+1:17 to and uh and then how to experiment on
+1:20 it once you once you find it so yeah
+1:21 let's let's do it that'd be
+1:23 wonderful all right I have like an app
+1:26 idea a rapper idea that I'd love to
+1:29 Launch and I was wondering maybe could
+1:31 that be a good thing for Jake to help uh
+1:34 evaluate and help me figure out how to
+1:36 actually make it
+1:37 successful and I actually haven't
+1:39 pitched this to him and I I don't know
+1:41 I'm really curious about what it is I
+1:43 kept it a secret so it's like authentic
+1:46 don't ask a question you know the answer
+1:48 to you fly devil you all right of course
+1:52 let's go all right Jake listen I have
+1:55 this idea for a GTP rapper um GTP GTP
+1:59 rapper
+2:01 it is all so I I've got this idea I'm
+2:03 just going to like build it uh using all
+2:06 the fancy AI tools that are out there
+2:07 it's called hit. me y okay hit. me it's
+2:12 a way for me and other people like me so
+2:15 like knowledge workers to control their
+2:18 dopamine to get a dopamine hit oh hit me
+2:21 with dopam hit me with dopamine right
+2:23 it's for people who just want to be like
+2:25 I don't want to fall into the Doom
+2:27 scrolling of being on X being on in
+2:30 I just need a dopamine hit I know that's
+2:32 what I need yes I just need a Time
+2:35 control dopamine hit of like the top
+2:37 things I want to know from my ex account
+2:39 the top things I want to know from
+2:41 whatever and so that I can still get the
+2:44 dopamine hit feel less fomo because I
+2:47 don't want to delete my apps and become
+2:49 like a Zen Monk and uh yeah I I I don't
+2:52 want to Doom scroll but I still want I
+2:54 still want to know what Greg's up to
+2:56 yeah yeah this sounds like actually this
+2:58 is kind of an interesting idea Plus kind
+3:00 like ai ai could it also be crypto it
+3:06 will not yet have a crypto elements not
+3:09 today okay yeah I love it I love it this
+3:11 is a good idea okay so well maybe it is
+3:14 shall we um should we just jump right
+3:16 into the framework that we use so this
+3:19 is this framework is uh what I use with
+3:23 uh with startups that we invest in
+3:25 character Capital so it's a little tiny
+3:28 VC fund we're investing in uh like preed
+3:31 startups and often they're at this state
+3:34 like they you know smart founder got an
+3:37 idea haven't built anything yet or just
+3:40 starting to toy around with something
+3:42 let's Get Off to the Races so shall I
+3:44 share my screen and we just like that do
+3:45 you want to go into tutorial mode just
+3:47 like let's that fast or should we talk
+3:49 first what did I talk what did we what
+3:51 did we say about question ask you know
+3:54 the answer to exactly this guy just
+3:55 wants straight into tutorial let's
+3:57 [ __ ] do it can you give me more cable
+3:58 over there so I can kind of squeeze
+3:59 seven more cable or like six more cable
+4:03 I want the sauce I would
+4:06 like show me sauce show me sauce okay
+4:09 okay let's do it let's share screen it's
+4:11 a very sauce based
+4:13 audience Saucy so this is the murro
+4:17 template for the foundation Sprint which
+4:19 is the that's the method so like Greg
+4:22 said I created the design Sprint this is
+4:24 sort of the prequel to The Design Sprint
+4:27 I mean created it more recently in the
+4:28 last few years but um um it's something
+4:30 you do before a design Sprint so it's
+4:32 perfect for this moment where John's got
+4:33 this idea he's ready to rock and just
+4:35 like a quick overview before we dive in
+4:37 like the the big steps of this would be
+4:39 first we want to get into like the
+4:40 basics just want to identify like
+4:43 crisply what are the what are these key
+4:45 elements of what you're doing then we
+4:47 want to talk about
+4:48 differentiation and then we want to say
+4:50 like okay within that sort of idea that
+4:53 you have what what are the different
+4:55 forms that it might take and maybe we
+4:56 can do a quick pass on which of those
+4:58 forms would be best um we'll have to go
+5:00 quick if we're gonna you know not take
+5:03 forever doing this but um let's just
+5:05 jump into this like this customer thing
+5:07 so who like who's the customer for this
+5:09 you kind of give me okay a few it
+5:11 doesn't have to be one you can give me
+5:13 like more than one and then we can
+5:14 choose so for me I think it's um
+5:16 initially mainly guys just because I
+5:19 know guys you know yeah you know guys
+5:21 I'm one of the guys you you define like
+5:22 what do you mean by guys like guys what
+5:24 does guys mean okay are we really going
+5:27 to are we really going to start this
+5:28 question on no like what's the age range
+5:30 what's the age range what's the is there
+5:32 you said knowled so I think it's
+5:34 knowledge workers I think it's like 25
+5:38 to 35 maybe 25 to 40 um definitely you
+5:43 know working in Tech or product space or
+5:46 or or entrepreneurs actually I think
+5:48 maybe mainly entrepreneurs it's it's
+5:51 people who are like and it doesn't have
+5:53 to just be guys it's just I happen to be
+5:55 a guy and I'm thinking about this at a
+5:56 very basic level it is sexist very
+5:59 sexist it's a sexist product no but the
+6:02 idea here is that it's guys who are like
+6:05 I really need to keep up with all the
+6:06 things that are going on in the
+6:08 entrepreneurial space I don't want to M
+6:10 miss out on some new tech thing I don't
+6:12 want to miss out on like this deep seek
+6:13 thing that has happened but I also don't
+6:15 just want to read the news I want to be
+6:16 looking at social media and seeing like
+6:18 The Cutting Edge stuff but also what
+6:20 happens is when I go okay wait shut up
+6:22 for a second because that's going to be
+6:23 the next thing yeah so I just wrote down
+6:25 two based on what you said one is like
+6:27 guys knowledge workers entrepreneurs
+6:28 maybe 25 to yes or we could just say
+6:30 like entrepreneurs like I think
+6:32 entrepreneurs is the for V1 okay let's
+6:35 just call it we'll we'll lock that for a
+6:37 second cool entrepreneurs yeah oh sexy
+6:39 entrepreneurs yeah I will put that in
+6:42 not bolded text oh no looks like it's
+6:44 gonna be in bold okay sexy entrepreneurs
+6:47 quick break in the Pod to tell you a
+6:49 little bit about startup Empire so
+6:52 startup Empire is my private membership
+6:55 where it's a bunch of people like me
+6:59 like you
+7:00 who want to build out their startup
+7:02 ideas now they're looking for content to
+7:04 help accelerate that they're looking for
+7:06 potential co-founders they're looking
+7:08 for uh tutorials from people like me to
+7:12 come in and tell them how do you do
+7:14 email marketing how do you build an
+7:15 audience how do you go viral on Twitter
+7:17 all these different things that's
+7:19 exactly what startup Empire is and it's
+7:22 for people who want to start a startup
+7:25 but are looking for ideas or it's for
+7:27 people who have a startup but just
+7:29 they're not seeing the traction uh that
+7:31 they need so you can check out the link
+7:34 to Startup empire.co in the description
+7:37 okay so then problem okay so because you
+7:41 started talking about the problem to
+7:43 what is the yeah like you hadn't read
+7:45 the book I think digital addictional is
+7:48 one of them and the sense that we're
+7:50 just spending hours on social media even
+7:54 though that's you know what it is
+7:56 consumption versus creation ah okay over
+8:00 consumption instead of actually creating
+8:02 things is the problem and the feeling of
+8:04 dark emptiness that comes with that so
+8:07 of those which which would be like the
+8:08 one like digital addiction spending
+8:10 hours on social media I know they're all
+8:12 like over consumption overc consumption
+8:14 yeah so like in it makes you feel like
+8:16 you're getting stuff done but actually
+8:18 all you're doing is consuming
+8:20 information okay overc consumption
+8:22 that's the best label for you this this
+8:23 podcast doesn't count as that no no this
+8:26 right this is pure pure
+8:30 meaning yeah there no this is sauce
+8:33 sauce this is pure sauce this is 100%
+8:38 sauce Okay so we've got entrepreneurs
+8:42 yeah and we've got uh overc consumption
+8:46 that's our problem okay so what's a
+8:50 special capability that might give you
+8:51 an edge so that so just to clarify do
+8:54 you mean what gives me personally as the
+8:56 entrepreneur making this product an edge
+8:58 yeah you Jonathan you're building this
+9:00 thing what's like your you know if if
+9:04 you imagine other team like somebody
+9:05 else somewhere got the same idea right
+9:07 now what sort of special and I'm gonna
+9:10 ask you by the way I'm gonna ask you
+9:11 like what's your capability that might
+9:13 give you an edge what's your Insight
+9:15 that might give you an edge what's your
+9:16 motivation for doing this might give you
+9:17 an edge because any of those by the way
+9:19 I want to interrupt I just want to say
+9:20 one thing the beauty about this whole
+9:22 process because I bet you people are
+9:24 thinking it's not like we're talking
+9:25 about should we use bolt or lovable or
+9:30 yeah you know which tools should we use
+9:32 this is back to First principles this
+9:35 like a first principles way of figuring
+9:38 out how to build an AI rapper startup
+9:41 idea right absolutely and this is like I
+9:44 guess when startups come to you guys
+9:47 that's where you you don't necessarily
+9:49 care especially with something like this
+9:51 exactly the tools they're going to use
+9:53 it's does this even have space in the
+9:55 market toally totally yeah I mean that's
+9:56 the thing it's like the um know from
+10:00 working with hundreds of startups over
+10:01 the years and seeing everything from
+10:03 like slack and Uber to a lot of
+10:07 companies that just went out of business
+10:09 um which by the way I mean that can
+10:10 happen even if you're really smart and
+10:11 have a good idea but like the the
+10:14 difference of the core thing that
+10:16 technology ultimately will matter when
+10:18 you're building it but like the core
+10:19 thing is like does it solve a problem or
+10:21 are people excited about the getting the
+10:23 solution to the problem and usually like
+10:26 you just thought of this idea I don't
+10:28 know today or like recently maybe 15
+10:30 minutes ago 15 minutes ago but like
+10:31 usually working with a startup and
+10:33 they've been doing this thing for like
+10:35 them thinking about it for a while right
+10:36 like maybe weeks months you know maybe
+10:39 maybe even a couple years like oh should
+10:40 I should I go ahead and do this and even
+10:43 still even if you've been thinking about
+10:44 it for a long time it is rare that
+10:47 people are totally dialed in on the
+10:49 first principles on the basics always
+10:52 helpful to say whoa let's just back off
+10:54 of the Tex stack let's just talk about
+10:58 who's the C
+10:59 customer yeah I think like uh Greg I
+11:03 know you don't talk about this this too
+11:04 much on your podcast but one of your
+11:06 companies runs design Sprints a lot and
+11:09 I'm sure you've experienced a company
+11:11 coming to you guys and being like it's
+11:13 so nice to also just have the time and
+11:16 space to think about these things like
+11:18 most people just dive right into the
+11:19 business but being able to have someone
+11:21 even right now I'm getting caught up in
+11:23 this and I'm like it's such a pleasure
+11:26 to just be able to have the head space
+11:28 to think about it and it can it's
+11:29 already bringing up new ideas that I
+11:31 wasn't even thinking about in the first
+11:32 place and it's fun to be the outsider
+11:34 here too like I love getting to ask the
+11:37 questions and I'm sure if you're the
+11:39 entrepreneur who has the idea already uh
+11:41 you probably have a friend who would
+11:43 love to ask you the questions and like
+11:44 you know learn yeah I think I think it's
+11:47 really hard to build when your hands are
+11:48 on fire period like if your hands are on
+11:52 fire and you're just like you see a
+11:55 viral tweet and you're like oh my God I
+11:56 need to go build what this person is
+11:59 saying really quickly um you kind of
+12:02 need to take a step back and be like
+12:04 okay what whoa like what am I doing here
+12:06 why am I doing it for who like what
+12:10 that's why I like this framework so yeah
+12:11 let's let's keep going okay so you asked
+12:13 me what my special capability is or
+12:15 something what was your question yeah
+12:17 right your capability and like there
+12:19 might be more than one I mean I know you
+12:21 Jonathan you have many capabilities but
+12:22 it's like what's the thing that if you
+12:25 if you imagine the typical person who
+12:27 might compete with you who's also we got
+12:29 their own capabilities what's the thing
+12:30 that really like is a standout thing for
+12:33 you um I think what would be what I
+12:36 would bring to the table would be like
+12:38 packaging up an idea so like positioning
+12:42 and packaging uh probably the the mark
+12:46 direct response marketing
+12:49 angle um it's in in a nutshell probably
+12:52 I would have stronger marketing skills
+12:54 yeah funnel funnel Master yeah the
+12:57 funnel I think
+12:59 funnel
+13:02 building yeah that kind of stuff it
+13:04 would it would all be around marketing
+13:06 and then one of the advantages would be
+13:08 design because I'm a designer design
+13:11 yeah also uh you know I don't think it
+13:14 comes across in the podcast or even in
+13:16 person but you're funny you have a good
+13:18 sense of humor and it might that might
+13:19 be an advantage so that's even a thing
+13:21 okay yeah what about what about unfunny
+13:24 unfunny also is an advantage like yeah
+13:28 absolutely it's a huge
+13:30 Advantage by the way uh Greg do you want
+13:33 us to zoom in more when on the sections
+13:36 yeah yeah you know what I think the only
+13:37 way I can do it is to make the window
+13:39 smaller which I will do now oh baby yeah
+13:43 is that better for you yeah yeah and if
+13:45 you don't
+13:46 mind uh because there's audio listeners
+13:49 just like whatever you're seeing yeah
+13:51 right audio sorry audio listener uh that
+13:53 I wasn't doing that all along quick
+13:56 recap quick catch up for audio listeners
+13:57 what we've got foret forget it we're
+14:01 doing sticky notes on a virtual
+14:03 whiteboard so that's that's what you
+14:04 missed okay um so here we got packaging
+14:07 and idea funnel Master positioning
+14:08 design which of these stands out to you
+14:10 as like yeah that's probably the thing
+14:12 or the two things I'd hang my hat on
+14:14 here okay I think if I was I think what
+14:17 would make me difficult to compete with
+14:19 would be the funnel part yeah funnel
+14:21 Master Fel that guy yeah and I think the
+14:25 design element because a lot of people
+14:28 who build these are developers right and
+14:31 I'm a designer so I would just come at
+14:33 this with a different angle and I'd be
+14:34 able to make a nice interface for it and
+14:36 I think that would be important for this
+14:38 particular challenge love it okay I'm
+14:40 gonna grab those two make them big so
+14:42 we've got this little running tally of
+14:46 quick Decisions by the way if you're
+14:47 doing this on your own or if you have
+14:49 like a team this will take longer
+14:50 Jonathan's just one person look at the
+14:52 one behind us you did this with the team
+14:54 today I guess we can say they're like
+14:56 pip decks and how long did it take for
+14:59 this oneise for this exercise two hours
+15:01 two hours yeah there's a few little
+15:02 buildup steps before but yeah so it's
+15:04 like this is probably normally going to
+15:05 take we flying through it yeah we're
+15:06 flying okay Insight do you have like a
+15:09 something that you get about this that
+15:12 other people do not get I think that
+15:14 this is one of these things where I
+15:16 actually am going through cycles of
+15:18 digital addiction and it's it's kind of
+15:22 like a eating my own dog food or
+15:24 something I have this problem I've tried
+15:26 I've spent a lot of money buying
+15:28 products to help solve this problem they
+15:29 haven't solved it um okay but those
+15:32 don't quite reach the level of an
+15:33 Insight what what's an Insight I need to
+15:35 explain well it's like for example uh AI
+15:39 can help with
+15:41 this like a lot of people have taken a
+15:43 crack at doing this but nobody
+15:47 has unlocked the power of like AI plus
+15:52 design equals something really special
+15:54 okay I think that a missing element from
+15:56 all of this in all of the products I've
+15:58 seen out there that attempt to do
+15:59 something like this is they end up
+16:03 replicating a nonstop scrolling system
+16:07 that can be refreshed my insight here is
+16:10 you have a specific amount of time to
+16:11 use this per day and so once your time
+16:14 is up of like 30 minutes I think time
+16:16 might be an element time capping timea
+16:19 the usage might actually be an element
+16:21 that other products might not be able to
+16:24 combine with the AI and design and ETA
+16:26 yeah
+16:27 okay um tell me Jake tell me if this is
+16:30 a an Insight uh yeah
+16:34 so one of the things I like to do is use
+16:36 Google Trends to figure out if like I
+16:40 might have an idea that there's
+16:41 something worth building in the space
+16:43 but I like to know the monthly search
+16:46 volume and how it's trended over time um
+16:49 so when I look at for example phone
+16:52 addiction um maybe I can share
+16:56 my so if we look at phone addiction can
+16:58 you see my screen yeah yeah look at
+17:01 that hit me this is
+17:04 like as a startup
+17:07 Builder this is what you want to see
+17:09 literally up and to the right so when
+17:11 you know I use a tool I'm not like
+17:14 involved or sponsored by any sense uh
+17:17 Glimpse it's like uh kind of layers on
+17:21 top of Google Trends um so if you look
+17:25 at 2008 you're looking at you know
+17:27 18,000 a month which by the way there's
+17:30 still a huge there's still a market for
+17:31 that but now we're looking at hundreds
+17:34 of thousands or 100 plus thousand
+17:36 searches per month um my guess is it's
+17:40 only going to get bigger too so the
+17:42 Insight here being that and then by the
+17:44 way I also like kind of looking at uh
+17:47 you know what kind of questions people
+17:48 have like how to reduce phone addiction
+17:50 what is this a cool app yeah this is
+17:52 cool how do how does grayscale help
+17:54 phone addiction by the way these
+17:56 questions really help me on being like
+17:57 oh maybe I should have like a great
+17:59 scale product feature or something this
+18:01 is really cool also great for YouTube
+18:03 video keyword research yes when is the
+18:08 what what's going on in that what years
+18:10 are the dip
+18:11 in like maybe because people didn't care
+18:14 about it [ __ ] it just it's like they
+18:17 were at home right so like the phone
+18:20 addiction was less severe yeah you're
+18:23 not in the toilet like at a restaurant
+18:26 on your phone and being like what am I
+18:29 totally who am I you you can also see
+18:33 you know certain
+18:35 countries um are more addicted to their
+18:37 phone than others which I find really
+18:40 interesting um so like for example like
+18:42 the
+18:43 Philippines people are really addicted
+18:44 to their phone there apparently
+18:46 Singapore
+18:48 like they're really addicted to their
+18:50 phone so um my question to you Jake and
+18:54 I'll I'll give the Baton to you back to
+18:57 the screen share yeah you know is this
+19:00 an Insight does this consider an in is
+19:03 this considered an Insight in your
+19:04 framework just say no and then stop
+19:06 talking just flat out
+19:11 no
+19:13 damn damn and that's the
+19:16 [Laughter]
+19:19 podcast no I mean I think it is right
+19:21 it's like that's a you know the the
+19:24 downside with that Insight is that you
+19:26 were able to get it from from Google
+19:28 trend friends so presumably anyone could
+19:31 access it the best insights are ones
+19:33 that for some reason because of your
+19:35 unique sort of situation you have a peak
+19:38 into something that nobody else does and
+19:41 um but you know those aren't necessary
+19:43 for a great product they just often
+19:45 those are like really special it's clear
+19:49 from that chart that like Apple's sort
+19:52 of screen time features and all that
+19:54 stuff it's like it's not making a
+19:55 difference like this is still a problem
+19:57 so um that was always a Band-Aid
+19:59 solution just to make them see seem like
+20:01 they cared yeah yeah but it would
+20:04 definitely push you John to say like
+20:06 okay this is a legit problem I can I can
+20:10 definitely like sniff test it with
+20:11 Trends but is there something that you
+20:13 think you know about this or or or guess
+20:16 about this that you don't think other
+20:17 people guess I think that um not many
+20:23 people know yet the destructive results
+20:28 of consuming versus
+20:30 creating and I think that it's only
+20:33 starting to like slowly make its way
+20:36 into the Zeitgeist I don't even think
+20:38 the average entrepreneur who spends
+20:41 loads of time even listening to all of
+20:43 this stuff about Co showers and all of
+20:45 this stuff yet knows the destructive
+20:48 power of consuming more than you create
+20:52 um the depression the anxiety all of
+20:54 these things I'm like always studying
+20:57 things like anxiety try to solve my own
+20:59 life problems and a huge huge amount of
+21:03 information is just starting to come out
+21:06 around consuming versus creating being a
+21:09 cause of a lot of issues and I think
+21:11 yeah not many people have been digging
+21:14 into that insight as much as I have on
+21:16 this topic totally that certainly Miss
+21:18 like I just read a great and it was kind
+21:21 of like a little niche post about how uh
+21:25 having high agency is correlated with
+21:27 just like overall like happy life
+21:29 satisfaction and the author identified
+21:32 consuming versus creating among a long
+21:33 list of things is like that's a a great
+21:35 way to give yourself like high agency
+21:38 but it's not something that you've heard
+21:39 that was the first time I had heard a
+21:40 glimpse of it and then I was shocked
+21:41 that you were talking about it because
+21:42 I'd never heard it so that's yeah that's
+21:44 a new that's a new thing I've only
+21:46 started talking about it in the last two
+21:47 weeks because I'm like oh my God I I was
+21:51 I was stuck on the consuming is bad
+21:53 because you're getting like lots of bad
+21:55 stuff and you're numbing yourself I
+21:57 didn't think about the fact that
+21:58 consuming is bad because you're not
+22:00 creating and now by the way doing this
+22:03 uh Foundation Sprint I know I don't know
+22:06 if this ever happens I'm like wait a
+22:07 minute I don't want to make a GTP rapper
+22:10 that's about giving you the information
+22:12 from X and all these places I want to
+22:15 make a GTP rapper that focuses on
+22:17 helping you figure out how to switch
+22:21 consumption into Creation in certain
+22:23 points of your day I don't know if
+22:26 that's part of how this works but I just
+22:28 like that it gave me a random idea that
+22:31 wait a second why would I focus on that
+22:34 thing when this is this Insight is the
+22:37 core of the problem but totally I mean
+22:39 the reason why we're doing the basics
+22:41 like before we do the approach is for
+22:42 that very reason like we want to make
+22:44 sure that the approach you take is the
+22:45 one that best solves the problem this is
+22:47 you know what this is one of the
+22:48 challenges and I'm Greg you've probably
+22:50 seen this again with LCA sometimes when
+22:53 people are in a design Sprint they're
+22:54 like oh I now want to do something
+22:56 different but in a design Sprint it's
+22:57 hard to get off the train because it's
+23:00 powering forward and like clock's
+23:02 ticking they've already paid for the
+23:03 [ __ ] Sprint as well so you don't want
+23:05 to but like the foundation Sprint what I
+23:07 like about it is that you have I I feel
+23:09 like the client again I'm thinking about
+23:12 it from an agency perspective the client
+23:14 has the opportunity to just explore a
+23:16 bit right right yeah yeah it's a little
+23:18 bit you you have more freedom you like
+23:20 you have a little bit more slack in this
+23:21 cool maybe let's just keep keep going on
+23:23 by the way I'm not kidding right now I'm
+23:25 like I actually don't want to share this
+23:26 idea because I want to do it so we can
+23:29 delete the podcast let's just delete
+23:31 Greg's probably going to be like it
+23:32 sucked so much anyway he doesn't want to
+23:34 put it we'll see we'll see if this is a
+23:36 good idea by the end that's right Jake's
+23:39 gonna rate it yeah so motivation like
+23:42 what is of all the things you could do
+23:44 why would you do this you spend time on
+23:46 this this is probably getting a bit too
+23:48 personal but uh I have make it deep yeah
+23:52 I have like generalized anxiety disorder
+23:55 uh which is like a you know everyone has
+23:58 every one says they have anxiety so
+24:00 whatever it's like the one of the things
+24:02 and I've come to a strong realization
+24:05 that it gets much worse when I'm
+24:08 consuming more and more and more and
+24:10 it's much better when I'm in a more
+24:12 creation mode um like sitting on
+24:16 watching YouTube videos all day even if
+24:18 they're really interesting and about
+24:20 business if I don't pair that with
+24:23 actual action it makes life worse so I
+24:27 have a self motivation to create things
+24:31 that increase my ability to create yeah
+24:35 okay I've written that is that a good
+24:37 motivation or is it too like soft and
+24:39 personal yeah it was really soft and
+24:41 personal and like kind of
+24:44 like sitting here like uh no that's good
+24:48 like that's I think that's what this
+24:50 should be right like the the reason this
+24:52 is split out from the other stuff is
+24:55 sometimes this is what makes the thing
+24:57 great that the the creator of the thing
+25:00 is
+25:01 like hair on fire about something that
+25:04 other people are not so motivated on
+25:06 Yeah scratch my own itch yeah or or or
+25:08 you know sometimes it's not their own
+25:09 itch it's like no this is this problem I
+25:12 see that I really want to solve or like
+25:14 whatever it might be but that it's
+25:16 special and it really drives you it can
+25:18 inform how you differentiate yeah so
+25:21 it's good to tune into that so I think I
+25:23 think that's a good one I would of these
+25:26 like what do you think of the phrasing
+25:27 want to solve this for oh there's one
+25:29 more thing and actually it might even be
+25:31 stronger than all of these it's like I
+25:33 think back to my teenage years when I
+25:34 used to make comic books I was in a band
+25:36 and I used to make little video games
+25:37 and all of this stuff and I was really
+25:39 proud of the stuff I got out and I think
+25:41 of the last 10 years I'm like I just
+25:43 spent 80% of my time just consuming
+25:47 social media and didn't create things
+25:51 and I think like uh one big motivation
+25:55 is to not regret not creating things
+26:00 yeah yeah yeah yeah
+26:02 yeah Greg's like I need to get these
+26:04 guys off the podcast well what about no
+26:06 I was just thinking like what about
+26:07 helping people you know this is about so
+26:11 I have to say Jonathan's ass no I want
+26:13 to be really honest if for being here I
+26:15 actually think first at least for this
+26:18 challenge I think first about like what
+26:21 selfishly I'd love to exist for myself
+26:24 and then I'm and and with all the things
+26:26 we end up doing at my company I'm like
+26:29 really pleasantly happy that it also
+26:32 helps other people but I always want to
+26:33 make the thing for myself first or I
+26:36 won't care as much I don't know that's
+26:38 just my own it's cool if it helps other
+26:40 people but I will only really care about
+26:44 it if I feel like this is something that
+26:46 would have helped me 10 years ago it's
+26:50 like what would have been amazing if it
+26:51 was there 10 years ago for me that's
+26:54 what I want to
+26:56 make I think yeah you go that's a
+26:59 strategy that's certainly a strategy
+27:02 well you're more strategic about these
+27:04 things and so I would never just go I
+27:05 would like call you up and call Jake up
+27:08 and i' be like guys so how do I not just
+27:10 make this a Jonathan product you know
+27:12 well what worries me about a Jonathan
+27:14 product
+27:16 is and I want to put this Rafa our our
+27:20 producer can maybe put this image up
+27:23 Have You Ever Seen The Simpsons episode
+27:25 where Homer designs his car
+27:29 oh we got to be able to find that but
+27:30 you know okay I I get the general idea
+27:32 that it just becomes so specific
+27:35 to okay bring it off Homer Homer's dream
+27:39 car there it is
+27:41 like that is Jonathan designing his app
+27:45 yes okay so the the issue I have with
+27:48 that with this
+27:49 is that's my app that's
+27:52 what literally has that car right today
+27:56 so the horn at the top I think from what
+27:59 I remember from the 90s plays like
+28:01 lukara when you it's like lukara lukara
+28:06 yeah you know so some sometimes what
+28:08 sounds great to
+28:09 you isn't what sounds great to others so
+28:13 that's the that's what I'm hoping this
+28:15 process oh yeah actually I guess there
+28:18 will be yeah you're right
+28:20 yeah here's how I think about this uh
+28:23 let's see let me get out of this yeah
+28:24 what would you say to that yeah I I
+28:27 would say that here we start this is is
+28:32 this which one was I editing oh yeah
+28:33 that's a laptop you're using there this
+28:35 is a laptop yeah yeah ah I see right
+28:38 okay yeah no here we go so uh the thing
+28:40 about this is we started off we talked
+28:43 about who's the customer what's the
+28:44 problem you want to solve for the
+28:46 customer and we talked about right
+28:48 Jonathan's capabilities and insight
+28:50 thing about the motivation is i p just
+28:52 personally like if I'm investing in a
+28:54 company I'm I'm a little nervous if
+28:57 their motivation is just money just
+28:59 because that's like well yeah of course
+29:00 like that should come if you do a good
+29:02 job here but it's a little hard to tap
+29:04 into what's special about that it's hard
+29:06 to like create drive or fire out of that
+29:10 to do something unique and opinionated
+29:12 it's it's actually fine with me if it is
+29:15 sort of selfish I think there is a
+29:17 category where it's like gosh for this
+29:19 personal reason like I saw my parents
+29:22 struggle with this I saw you know I have
+29:24 friends who struggle with this or I've I
+29:26 work in this you know I work with this
+29:30 group of people whether it's like
+29:31 Jonathan maybe is mentoring
+29:32 entrepreneurs and he sees them
+29:33 struggling and he knows he wants to help
+29:35 people like that if that's sincerely
+29:36 true well then like great like maybe
+29:39 that's it but if the sincere reason is
+29:41 he wants to solve it for himself and we
+29:43 still did also start by saying like yeah
+29:45 but who are the people who will use this
+29:46 and like do we think what problem do we
+29:48 suspect they have I personally think
+29:51 it's fine for him to be to to be honest
+29:53 and say like yeah but like really my
+29:54 motivation is I want this thing for
+29:57 myself there's great stuff that comes
+29:59 can come from that you know we just it
+30:01 has to be balanced with that other those
+30:02 other elements and ultimately it has to
+30:04 be balanced with experiments are
+30:07 probably design Sprints we're going to
+30:09 prototype the thing put it in front of
+30:10 those customers and see like okay do
+30:13 they also share the problem you have
+30:14 okay do they find that Homer's dream car
+30:16 for you is like just garbage for them or
+30:19 or are you on to something so anyway I
+30:21 guess I like just sort of labeling it
+30:23 here because it's like we're not going
+30:25 to change Jonathan's mind that that's
+30:27 why he's motivated so like fine like
+30:29 good yeah great I want The
+30:34 Cucaracha what would your horn play my
+30:36 horn would
+30:50 play you didn't add
+30:52 cut you didn't add human trumpet to the
+30:56 unfair advantages yeah human trumpet no
+30:59 one's ever asked me to human TR I've
+31:01 never gotten the opportunity to human
+31:03 trumpet on this uh podcast but finally I
+31:06 hope that doesn't get cut out so which
+31:09 of these would you choose John um
+31:11 honestly if I'm looking at it I would go
+31:12 for the more positive thing it's I want
+31:15 to create want to create and I I want to
+31:18 replace consumption with creation or
+31:20 like change the pie chart to like 8020
+31:24 creation consumption okay but Greg's
+31:27 podcast doesn't count and I would listen
+31:29 to that every day on repeat while I'm
+31:31 cing okay let's move on competitors what
+31:34 how do people try to solve this today
+31:36 what what do they do as a workaround or
+31:37 are there other products that they use
+31:39 so I got a little bit stuck here when I
+31:40 was trying to fill this out I was
+31:41 thinking like like the competition here
+31:44 or at least people would believe the
+31:45 competition would be something like
+31:46 brick you know this thing that blocks
+31:48 your phone uh news feed Eradicator
+31:51 Freedom which you use and talked about
+31:54 before um honestly the grayscale thing
+31:58 in the iPhone and even the iPhones built
+32:01 in stuff like the screen time stuff and
+32:03 another uh comp competitor is like
+32:06 basically like movements you know like
+32:09 no social media movements and no news
+32:11 movements um like those types of things
+32:15 uh digital detox Retreats and things
+32:18 like
+32:19 that okay cool I see all those as my
+32:22 absolute enemies so which of these
+32:24 enemies is like the 800B gorilla like
+32:27 what's the you know what I think is
+32:28 missing from here is honestly like
+32:29 people just try to White Knuckle it like
+32:31 they try to just self-control yeah
+32:33 selfcontrol yeah try to use selfcontrol
+32:34 and feel bad and honestly pisses me off
+32:37 so much when I talk to people about this
+32:39 topic and they're like uh I'm just gonna
+32:42 like or I have a friend who's like
+32:43 obviously is as addicted as anyone else
+32:45 and he's like yeah I'm just gonna yeah
+32:47 it's Greg and he's like yeah I'm just
+32:48 gonna like you know man up and like
+32:51 whatever and it's like yeah that doesn't
+32:52 really work like it's too good you know
+32:54 we can stop uh yeah I think probably
+32:58 self-control is the most common thing
+33:03 that people say to me is like the thing
+33:05 they're going to use instead of all
+33:06 these things yeah I don't think people
+33:08 really use these things think about that
+33:10 I think it's like I mean people some
+33:11 people do but like it's almost no one
+33:13 compared to try to use self-control what
+33:15 would be my opinion I think that's a
+33:16 really I I was genuinely not thinking of
+33:18 that so if we grab this
+33:21 set okay let's just say like all of
+33:24 these are your competitors but like the
+33:26 most important one maybe is self-control
+33:29 and is that accur so when I read the
+33:31 book I wouldn't have thought that you
+33:33 could put something like that in there
+33:35 you don't have to the book's garbage you
+33:36 just need to buy it no I think I mean I
+33:39 don't know like that
+33:41 part I I think we you know we sort of
+33:45 talk about like competitors might be
+33:48 products competitors might be a
+33:50 substitute so substitute of like oh I
+33:53 use yeah like I'm using this thing to
+33:56 solve that problem I do this thing inste
+33:58 and sometimes the competitor is like
+34:00 there is actually no that solves it
+34:02 which can be mean it's oh it's a great
+34:05 opportunity there's no competitors there
+34:07 but it can also mean like the problem's
+34:08 not that bad people aren't motivated to
+34:10 solve it and the fact that like none of
+34:12 these other like you it would definitely
+34:13 give me pause here that people have
+34:15 tried all these things and none of these
+34:17 is like like exploding because people
+34:21 don't really want maybe they don't
+34:23 really want to solve it I think it's
+34:25 also that we don't understand why we're
+34:28 addicted to this stuff and we have not
+34:31 created other better substitutes to like
+34:34 why would you not open up this box that
+34:37 does everything for you and hits you
+34:38 with dopamine all day long right and I
+34:41 will also say you can also say to
+34:44 yourself yeah well I don't do this drug
+34:46 and I don't do party I don't party all
+34:48 the time and I don't like you can say I
+34:50 don't do all these things can't say that
+34:52 no I can't say that obviously so you
+34:54 know what I'm talking about but like
+34:56 other clean eating people can say I
+34:58 don't do all this stuff but then you
+35:01 feel like oh well it's it's innocent I'm
+35:03 just spending 80% of my life
+35:06 scrolling um but I think that there's a
+35:09 strong sense of there's the negativity
+35:11 that comes from that the negative
+35:12 consequences are way more extreme than
+35:14 people
+35:18 believe and again I just want to be
+35:20 clear it doesn't mean I'm saying people
+35:23 shouldn't use these shouldn't consume
+35:26 and shouldn't just chill and shouldn't
+35:27 like switch their brain off sometimes
+35:29 it's the ratio that I'd like to solve
+35:32 with a
+35:34 product all right I'm gonna grab this
+35:36 stuff over and just kind of bring it
+35:37 together so we have one quick quick
+35:40 little little One-Stop shopping to see
+35:42 all this so the customer
+35:45 entrepreneurs yeah delete the word sexy
+35:47 because it's frankly offensive to very
+35:50 offensive so we're just going to make
+35:52 that entrepreneurs and the problem is
+35:56 this power of consume versus
+35:58 create and the advantage the sexy power
+36:02 of consume the sexy power of consume
+36:05 your advantage is your sexy over
+36:08 consumption over sexy consumption wait
+36:11 how did I get over consumption there oh
+36:13 that's the
+36:15 problem Jake Jake's like what's a laptop
+36:18 a laptop what's a trackpad okay uh
+36:20 problem is people are going to be asking
+36:22 what's this software you're using oh no
+36:23 it's written on the top left a it's a
+36:25 whiteboard thing called Meo it's good if
+36:27 want to use a whiteboard thing it is
+36:28 actually a good one we do I mean we
+36:31 don't get any there's no affiliate link
+36:33 or something [ __ ] okay okay actually
+36:36 then you disclose that okay I have
+36:38 nothing to do with Meo and I think it's
+36:41 a good one of those whiteboard things
+36:43 and I think there it's also free yeah
+36:46 it's pretty great it's pretty great uh
+36:48 but I am incentivized to say so okay uh
+36:51 so we've got yeah your customer
+36:53 entrepreneurs problem over consumption
+36:55 your capability is design and funnel m
+36:57 your Insight is your power of consume
+36:59 versus create your motivation is wanting
+37:01 to create and then we're going to plunk
+37:04 in these competitors with selfcontrol
+37:07 I'm going to destroy them the 800 yeah
+37:09 you're
+37:10 gonna rip these guys I'm going seek
+37:14 them so I'm gonna seek them deeply 800
+37:18 pound gorilla self-control all these
+37:20 other guys over here now this is like
+37:24 look this stuff it's called the basics
+37:26 and like if I don't know
+37:28 for some people they're like see this
+37:30 and at first BL you're like this is kind
+37:32 of stupid like of course I know this
+37:33 stuff why would I need to like fill out
+37:34 a canvas changed I mean all the stuff I
+37:37 wrote is so much like it's it's actually
+37:40 really helpful to see this in a
+37:41 scannable one pager it's kind of nice
+37:43 it's kind of nice and the key thing too
+37:46 here and you know I don't know like I
+37:48 can't how long have we already gone how
+37:50 many I don't know much time we have left
+37:51 to go but like one of the key things
+37:53 here is you've got all this stuff in the
+37:55 basics and then now it's like okay
+37:58 my brain is totally primed to think
+38:00 about differentiation do I have the
+38:02 opportunity to differentiate from these
+38:04 competitors given my advantage my
+38:07 whatever combination of capability
+38:09 Insight motivation can I realistically
+38:12 make something that's just going to
+38:14 totally destroy those competitors and
+38:16 can I frame the world in a way for these
+38:19 customers for entrepreneurs in this case
+38:21 that they're going to see that and be
+38:22 like oh my God yeah well I'd never
+38:23 thought about things that way but I want
+38:25 that thing that you know that does it so
+38:27 so um so it's good it's a really good
+38:29 warm-up right even even if you didn't
+38:31 have the magical experience of Jonathan
+38:33 of being like Oh that changed the way I
+38:34 saw things a bit even if it was just
+38:36 laying out what's in your head I feel
+38:37 like this is a very powerful way to
+38:40 Prime yourself to think do I have a
+38:43 market do I have an opportunity here so
+38:45 now Jake yeah I don't know if you've
+38:48 ever done this but have you ever done
+38:50 something like taking a screenshot of
+38:53 for example the basics going to chat GPT
+38:56 CH or chat at GPT Pro and being like I'm
+39:00 thinking about creating a
+39:02 startup this is the idea what am I
+39:06 missing I don't think that would be a
+39:08 bad idea but I don't do it because my
+39:12 experience with experimenting with it
+39:15 has been that the the way chat GPT looks
+39:19 at the world it just tends to be like
+39:21 kind of the oatmeal version of things
+39:24 and I'm so much more interested in like
+39:26 the opinion like weird versions of
+39:28 things that people come up with uh I
+39:31 still feel like for weirdness humans
+39:33 have like kind of an advantage at that
+39:35 and and so I I like I like the founders
+39:37 take more than that and that said it's
+39:40 not going to hurt to do that and I
+39:42 should totally be wrong and I'm sure
+39:44 like thousands of people would shout at
+39:45 me like you're wrong like you can
+39:47 totally get that great stuff from it
+39:49 that's just been my experience we had a
+39:50 we had a Founder recently who actually
+39:52 ran an entire Design This is a smart guy
+39:55 like co-founder of uh Google Gemini real
+39:58 smart guy who left found a new a new
+40:00 startup and he's like you know great
+40:02 we're running this design Sprint
+40:04 together running this Foundation Sprint
+40:05 together great but I want to see what um
+40:09 I'm going to create like some different
+40:11 gbts have them run through as if they
+40:13 were a team right like see what they
+40:15 produce in their own Foundation Sprint
+40:17 and their own design Sprint and you know
+40:19 we looked at it and it was kind of like
+40:21 eh like what you came up with was so
+40:23 much so much spicier as a as a human
+40:26 going through it
+40:28 um but again like your mileage may vary
+40:31 I wouldn't I wouldn't like a a die on a
+40:33 hill saying that but that's that's my
+40:34 experience so
+40:35 far my take on yeah so my take is I
+40:39 would go through this process you know
+40:42 yourself or with a team humans only just
+40:45 pure completely pure once you're done it
+40:49 then you can do two things one is show
+40:52 this to other people and get feedback
+40:55 yeah and the other thing is show this to
+40:57 Ai and get
+40:59 feedback yeah yeah yeah I mean that
+41:03 that's the thing like if you I feel like
+41:05 if you rely on it to do the thinking for
+41:08 you you will miss you know God honestly
+41:12 even if it does come up with a great
+41:14 thing not stepping through and
+41:16 processing it yourself I think it's hard
+41:19 to have the motivation to and the
+41:21 conviction to go after the thing it's
+41:23 hard it's hard for it to click right in
+41:25 your brain it's hard for it to what
+41:27 click uh hard for it
+41:30 to what what
+41:32 [Laughter]
+41:40 what got it differentiation should we
+41:43 should we dive in and do this I mean
+41:46 look it's up to Greg yeah is it still
+41:48 Saucy or you know I'm still I'm actually
+41:51 quite excited about I I kind of want to
+41:54 do this now yeah let let's rock okay
+41:57 well so for this this whole part what
+42:00 we're trying to do is create a 2 by two
+42:03 we're trying to create like business
+42:04 school 101 diagram where you plotting
+42:07 your competitors and you're in the upper
+42:09 right of this 2 by two diagram and they
+42:12 are totally pressed out of that quadrant
+42:15 they're somewhere in the like L shape of
+42:17 other quadrants that I like to think of
+42:19 as loserville you're going to push them
+42:21 down there so like in this diagram we
+42:23 have here here it is zoom in there in
+42:27 this diagram like the target is for like
+42:29 you to be up here and every competitor
+42:31 including the 800 pound gillet to be
+42:33 down there crummy crummy yeah
+42:36 differentiator on one side crummy
+42:37 opposite on the other and uh so that's
+42:40 what we're going to go for now I feel
+42:41 like a lot of people do think about
+42:44 differentiation but I just don't know
+42:47 how often folks dig really deep into it
+42:49 thinking about differentiation from the
+42:51 customer perspective at the very very
+42:53 Inception of a project and it's a
+42:56 tremendous opportunity if you start
+42:58 there you define this very special way
+43:01 that you're going to frame Your solution
+43:03 against the competition from the
+43:04 beginning and then you prove that with
+43:07 design Sprints and then you build that
+43:10 and execute it then you're not you're
+43:12 not sort of slapping positioning on at
+43:14 the end when you're doing marketing or
+43:16 or sales it's like truly embodied in the
+43:19 product and it becomes really easy to
+43:22 talk about it's like this actually is
+43:23 what the thing is this is why it's
+43:24 special and then you're also giving your
+43:26 customer a tool to talk to other people
+43:29 about it because that you know it will
+43:31 deliver on the promise so anyway that's
+43:33 differentiation I think a huge deal but
+43:34 I think you have to dig deep to get
+43:37 exactly the right differentiators so
+43:39 that's what this little the step by step
+43:41 we're about to do is is all about that
+43:42 by the way and and what you just said
+43:44 there if you don't have clear
+43:46 differentiation you need to be a god
+43:48 tier marketer to sell something if you
+43:51 do have clear
+43:53 differentiation it's very easy to market
+43:55 the thing how I know this because I
+43:58 Market other people's stuff a lot and
+44:01 sometimes when it's just a vanilla thing
+44:03 and it's like when I say like oh yeah
+44:05 what's the difference between this and
+44:06 this and they can't explain it I know
+44:09 this is going to be a
+44:10 slog and there's probably not that
+44:12 infrequent for a company who has already
+44:14 built something to not know how to
+44:16 describe it I've certainly lived that
+44:17 building products or to to not be able
+44:19 to say oh it's a little you know it's
+44:21 this is why this is different from the
+44:23 other things it's even if they can't
+44:26 describe the overall thing I just wanted
+44:28 them to be able to say okay so but how
+44:30 does it compare to your direct
+44:33 competitor why is that different
+44:36 yeah well should we jump do this okay so
+44:38 this first step uh a little I'll give a
+44:41 little verbalization of this for people
+44:44 who aren't on video is is just a series
+44:46 of scales uh from the first one is from
+44:49 slow to fast like you know one through
+44:51 seven slow to fast a line a scale the
+44:54 next one not so smart to Smart hard to
+44:56 use easy to use expensive to free um and
+44:59 so forth there's a few of these and I
+45:00 call these like the classic
+45:02 differentiators these are things that
+45:04 lots of products have differentiated on
+45:06 in the past they're are things that
+45:08 people sort of readily understand what
+45:10 these are um and they're certainly not
+45:13 the full comprehensive set of things you
+45:16 could differentiate on but it's a great
+45:17 warm-up for thinking about
+45:19 differentiation so Jonathan what I'm
+45:20 going to ask you to do is like bearing
+45:22 in mind what the competitive you know
+45:25 alternatives are today
+45:27 for solving this problem how do you
+45:29 think your product could stack up and
+45:31 maybe you can even like like drive here
+45:33 and just copy that little blue sticky
+45:35 note and place it on the bar wherever
+45:37 you would say like could you be faster
+45:40 sometimes this won't make sense yeah but
+45:42 it's I think I got a feel for it just by
+45:44 looking at it um I'm just going to do
+45:46 that right now silently yeah and I'll
+45:49 narrate I can narrate what you're doing
+45:51 unless Greg has something you know to
+45:54 say since we're just monolog I have
+45:56 something say once you get to the
+45:58 expensive and free yeah you I think this
+46:01 product speed is like zero of zero
+46:03 importance so I'm just going to like
+46:05 drop it in the middle does matter yeah
+46:06 it doesn't matter um I would say it's
+46:08 actually also not super smart I would
+46:11 use a relatively it would be a
+46:13 relatively off-the-shelf use of some
+46:16 sort of chat GTP or any I would
+46:19 basically not need a lot of intelligence
+46:22 yeah uh very easy to use very easy to
+46:25 use yeah I would definitely start this
+46:27 all free definitely free okay did you
+46:29 want to interject there Greg I did so
+46:32 one of the things i' I've been noticing
+46:35 in so in software land at least is um
+46:39 there's there's this shift from software
+46:43 as a service to paper
+46:46 use so what I'm thinking
+46:50 is like what's hard for me about this
+46:52 framework is is thinking about okay
+46:56 it's not as simple as free versus
+46:58 expensive sometimes it's the differenti
+47:01 could be the type of business model how
+47:03 how how should I think about
+47:05 that that's a great question I think
+47:08 that if you are thinking about it so the
+47:10 next step after this is like custom
+47:12 differentiators like what are what are
+47:14 the ones that you think would apply and
+47:16 would be useful for separating from the
+47:17 competition and I think it's possible
+47:20 that the the way people pay for it could
+47:24 make a ton of sense here that could be
+47:25 the thing that makes it stand out it
+47:27 makes you say like God that's much
+47:28 better I'd much rather I'd much rather
+47:30 pay a subscription for getting my CDs
+47:32 mailed to me than you know rent them one
+47:34 at a time at the video store to use like
+47:36 the Netflix sort of example but um but
+47:40 for now like I think free free is an
+47:44 especially powerful concept and this is
+47:47 not to say it's not better right than
+47:49 than like as a business model it's just
+47:51 that in this world on this first set of
+47:54 activities here where it's like these
+47:55 are things that you can can kind of take
+47:58 to the bank that customers will
+47:59 understand free is instantly
+48:01 understandable and like you know it it
+48:03 it makes a huge difference if you ever
+48:05 read predictably irrational there's like
+48:06 a lot of studies around how insanely
+48:09 irrational people act when something is
+48:11 free so that's that's my push back here
+48:13 I would also say that a very good
+48:15 argument against this is that sometimes
+48:17 expensive is actually the selling point
+48:19 like the fact that it's the luxury
+48:21 version the expensive version is part of
+48:23 what makes it appealing and that totally
+48:25 can be true it's just that's more likely
+48:27 to be like in our special case that's a
+48:30 custom one over here these are just sort
+48:32 of the dumb set
+48:34 right um I think it's a relatively
+48:38 one-sized fits
+48:40 all does this mean one siiz F fits-all
+48:43 versus focused what would that mean in
+48:46 this
+48:47 context like with a product that I'm
+48:49 talking
+48:51 about uh yeah like it might be really
+48:55 focused on on the exact thing you think
+48:58 your customers have I mean honestly like
+49:01 screen time and like all of these you
+49:04 know you listed off a bunch of
+49:06 competitors that are sort of general
+49:09 purpose for like I I don't really I'm
+49:12 feeling like I use my phone a bit too
+49:13 much and you're specifically trying to
+49:15 solve the problem of um consumption
+49:18 consumption right these are not these
+49:20 are not like laser focused on
+49:22 consumption so I could imagine that you
+49:24 might say I think I can really
+49:25 differentiate on being focused for
+49:28 entreprene okay so in that Concept in
+49:29 that context I would say it's focused it
+49:31 is focused okay and then simple
+49:34 complicated simple it's going to be
+49:36 simpler than those other options and
+49:37 then integrated versus siloed I think
+49:39 it's probably quite siloed I think this
+49:41 would be like a St like completely
+49:44 Standalone uh I don't know exactly if it
+49:48 would need to interact too much besides
+49:50 pulling stuff from other places and like
+49:52 this is good that not all of these are
+49:53 like to the right you know this isn't
+49:55 like oh God you got an f and PE no it's
+49:58 like it's good that these things are
+49:59 spread out like this okay so now we're
+50:02 going to do the same thing only I want
+50:04 you to come up with your own
+50:05 differentiators that you think are
+50:06 espcially special okay I think that one
+50:08 of the big in now that we've gone
+50:10 through this process um most of these
+50:13 products are about um they're about like
+50:17 removing this stuff from your life and
+50:20 replacing it with like nothing right
+50:23 yeah this is like a product that
+50:28 has it replaces the bad stuff it
+50:31 replaces the consumption with creation
+50:34 ideally so I don't know exactly how the
+50:37 product would do this yet but an example
+50:39 of this that I would have would be
+50:42 you're about you know at 8:00 pm maybe
+50:44 this product saying you're probably
+50:45 about to sit down and watch Netflix how
+50:48 about this instead here's like a
+50:50 suggestion on how you can create versus
+50:52 consume or you maybe type in I'm about
+50:56 to
+50:57 sit down and watch YouTube for 4 hours
+51:00 and it's and it's like hey um if it's
+51:03 Greg's podcast that's fine but anything
+51:05 else maybe you could do a like you know
+51:08 maybe it's like what were you thinking
+51:10 of watching I was thinking of watching
+51:11 loads of business or uh politics well
+51:14 how about this instead something that
+51:16 would maybe scratch the itch but in a
+51:19 more in a less dopamine dumping way yeah
+51:22 well let's just put like a tiny bow on
+51:24 this little part I wrote while what you
+51:26 saying I wrote like replace distraction
+51:29 to remove distraction so like your
+51:30 competitors are removing distraction
+51:32 yeah exactly they're about removing I'm
+51:33 replacing I also wrote a scale of like
+51:36 creation dopamine as like the good thing
+51:38 like give you dopamine for no dopamine
+51:40 versus no dopamine like remove the
+51:41 dopamine um so that's yeah okay so this
+51:44 is like Anyway let's just like zoom out
+51:46 for a second I'm literally zooming out
+51:47 on the Whiteboard but like zooming out
+51:49 in terms of where we are we started with
+51:51 talking about okay you've you've got
+51:54 this idea for a GPT rapper and you're
+51:57 trying to figure out what form should it
+51:58 take is there something there this
+52:01 process is a way to just kind of Define
+52:03 well what is it what what are the basics
+52:05 of this thing who's the customer for it
+52:07 what are we trying to solve what can I
+52:08 do that's special here what can my team
+52:11 do that's special here who are the
+52:12 competitors and then starting to think
+52:14 about how can I craft the story around
+52:17 this before that I even know exactly
+52:18 what I'm building what's the story I'm
+52:20 likely to be able to to really win on
+52:22 both win on execution win on telling
+52:24 that story marketing that story that's
+52:26 what John's trying to do right now he's
+52:28 thinking about like okay I'm not GNA be
+52:30 you know a smarter alternative than the
+52:33 other products it's not going to be
+52:34 faster so be more integrated but maybe
+52:37 some of the things that really matter
+52:38 are this notion of like creating a
+52:40 different kind of dopamine not just
+52:42 saying like it's dopamine or no dopamine
+52:44 but saying no there's a different this
+52:45 is going to offer you something
+52:46 different um and we would continue on
+52:48 with this but in terms of evaluating
+52:51 whether this idea is promising or not
+52:53 you know already even though we're
+52:54 probably about like halfway through this
+52:56 whole this whole Foundation Sprint
+52:58 method which by the way is all in this
+53:00 book click which John keeps putting his
+53:02 phone on so I can't pick it up easily
+53:04 but uh we're about halfway through there
+53:06 and to me already this is feeling like
+53:08 yeah there's something feels like
+53:09 there's something unique there there's
+53:10 something that's like I was just getting
+53:11 started feeling a b special we're just
+53:13 gonna keep going after Greg hangs up the
+53:15 phone like yeah got yeah so anyway
+53:17 that's the that's that's kind of the the
+53:20 thought process with this framework so
+53:21 far and you just keep going and it kind
+53:23 of bring it keeps like bringing your
+53:27 vision and strategy into into like
+53:30 Clarity from blurriness to Clarity but
+53:32 but the in a nutshell it's about finding
+53:34 your key it's about finding What Makes
+53:37 You Different and what will help make
+53:38 your product stand out in the market
+53:41 yeah that's right is that in the
+53:42 nutshell is that what you the nutshell
+53:44 it's about you know you have the seed of
+53:46 an idea this is a great very first thing
+53:49 to do yeah can you make it special yeah
+53:52 I think um a lot of people who listen to
+53:54 the show I mean their idea guys and
+53:57 girls right so they have a lot of ideas
+53:59 the thing with ideas is you kind of you
+54:02 start really with you start in the fog
+54:05 you're in the fog and your goal is
+54:08 to um by the way you're drunk on the
+54:11 fog right like you are so excited about
+54:14 this idea you want to get going and I
+54:16 think it's helpful to
+54:18 just you know John used the word like
+54:22 clear kind of clear it out or clarify it
+54:25 what I like about this method is it
+54:26 forces you to kind of go through um the
+54:30 the fog lifting
+54:32 experience um and then at the end you
+54:35 could be like you know what I don't want
+54:36 to build this Homer car like there's too
+54:39 much competition or I can't
+54:40 differentiate or I don't have an
+54:42 advantage or you know what I'm actually
+54:44 not that motivated and I encourage
+54:46 people to actually like sleep on this
+54:49 like just you know sleep on this before
+54:51 you invest your time and energy into
+54:53 something and then uh so yeah I
+54:57 appreciate you guys coming on um we'll
+55:00 include a link to the book um actually
+55:04 can I say one thing people should not go
+55:07 and just buy the book because your
+55:09 audience doesn't want to sit down and
+55:11 read they be too lazy they want to get
+55:13 started straight away so if they go to
+55:16 you can decide whether to leave this in
+55:17 or not if they go to the clickbook decom
+55:20 they can get this template they can get
+55:22 all of that other stuff months before
+55:24 the book comes out and just be totally
+55:27 badass immediately we we'll include that
+55:30 and
+55:31 um I like always I'm always in the
+55:33 comment section so feel free to leave a
+55:36 comment uh for me but also for everyone
+55:38 else um and uh look forward to see what
+55:42 everyone you know builds through this
+55:44 framework and Jake and John thanks Jake
+55:47 and jream actually thanks for I can't
+55:50 believe you called me John well it says
+55:51 Jake and John so I was just
+55:53 looking that's actually
+55:57 you know he calls me jce cream because
+56:00 my name is Jay ice cream on Twitter
+56:03 on all right a lot of regret from you
+56:06 about that that gamer
+56:09 tag oh great see you next time guys dude
+56:12 you're Legend talk to you later
+56:15 [Music]

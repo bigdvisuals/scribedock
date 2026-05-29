@@ -1,0 +1,292 @@
+Title: OpenAI Codex Tutorial #2 - Running Cloud Tasks
+URL: https://www.youtube.com/watch?v=aPXvW7uxQio&list=PL4cUxeGkcC9iDBeA8IyR1IE1kl4w5IDEG&index=2&pp=iAQB
+Channel: YouTube playlist
+Video ID: aPXvW7uxQio
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:50:31.703Z
+
+0:02 All right then, my friends. So, now
+0:03 we've got Codeex Cloud set up to work in
+0:05 our project. We can start asking it to
+0:07 run some tasks and make some code
+0:09 changes. But before we make any changes,
+0:11 I just want to show you the current
+0:12 state of the application it's going to
+0:14 do some work on. So, this is a nextJS
+0:17 application and at the moment it's
+0:19 basically just the UI of a little
+0:21 project called Yumpair, which is meant
+0:22 to be a food pairing site where users
+0:24 can pair together different foods, then
+0:26 other users can rate those pairings,
+0:27 etc. There's no back end or anything
+0:29 like that wired up to this right now.
+0:30 We're just going to be focusing on the
+0:32 front end and the UI for this course. So
+0:34 now we're going to get Codeex working on
+0:36 a few different little tasks for this
+0:38 project. So then how do we now assign a
+0:41 task to Codeex to run on the cloud for
+0:43 this application? Well, all we need to
+0:45 do is first of all make sure the correct
+0:47 environment is selected down here and
+0:49 then the correct branch is also
+0:51 selected. The one that we want Codex to
+0:52 either look at or branch off from. In
+0:54 our case that's going to be the main
+0:55 branch. And then we can just start
+0:57 typing something right here. Now before
+0:59 we do that, we actually have two
+1:00 options. We can either just chat with
+1:02 Codeex about the code in the project
+1:03 where Codeex doesn't actually make any
+1:05 changes, just reads your code and chats
+1:07 with you about it. Or we can actually
+1:09 ask Codex to make some code changes to
+1:11 the project. So let's start by asking
+1:14 Codex a question about the repo to see
+1:16 if it's got a good idea about what the
+1:18 project is about, what moving parts
+1:20 there are, and so forth. So we're going
+1:22 to say can you explore the codebase
+1:26 and give me a brief summary of this
+1:29 project. Right? So once you've written
+1:32 that you just need to choose the ask
+1:34 option and not the code option. And that
+1:37 way codeex won't start making any code
+1:39 changes. And when we do that codeex is
+1:42 going to fire up this task. Even though
+1:44 we're just asking it a question. It's
+1:46 still counted as a task. And Codex still
+1:48 spins up a container to run the code in
+1:50 so it can analyze it. And we'll see that
+1:52 task after a moment down here in the
+1:54 task list. So this is where all of your
+1:56 current tasks are going to be listed.
+1:58 And then you can archive tasks once
+2:00 they've been completed. For now, I'm
+2:03 going to click on this one to see what's
+2:05 going on with it. And when we click on
+2:06 that, we can either wait on this screen
+2:08 until Codex completes the task and
+2:10 responds to us here, or we can click on
+2:12 this link to view the task logs in real
+2:15 time as it runs. If we do that, we're
+2:17 going to see everything Codex is doing
+2:18 on the right from setting up the
+2:20 environment to reading the files and all
+2:22 the reasoning and steps it takes in
+2:24 between. You can also make this side
+2:26 panel right here, which is where Codex
+2:28 will eventually reply a little bit wider
+2:30 if you wanted to as well by moving this
+2:32 around. So then, Codex has now finished
+2:34 this task and you can see all the logs
+2:36 over here on the right if you scroll
+2:38 right down. I'm not going to go through
+2:39 them because there's far too many, but
+2:41 it's basically looking at all the
+2:42 different files and analyzing the code.
+2:44 And then once it's finished, it gives us
+2:46 a reply right here, which includes a
+2:48 summary of the app. And it says, "Yumper
+2:50 is a Next.js application for discovering
+2:52 and sharing flavoral ingredient
+2:54 pairings, inviting users to suggest
+2:56 combinations such as strawberries plus
+2:58 balsamic, etc., etc." Then it lists some
+3:01 key features like the homepage that
+3:03 we've got, the create pairing page, and
+3:05 it's picked up on the unit test as well.
+3:07 Now, it's not done any test because I
+3:09 just asked it a question about the
+3:11 application. I didn't ask it to
+3:12 implement any kind of new features. But
+3:14 that is an example of how we can just
+3:16 basically chat with codeex and get it to
+3:19 look at the codebase and give us a
+3:21 response. Now, if you wanted to carry on
+3:23 that chat, you could do right down here
+3:25 and you could just ask it a follow-up
+3:27 question and then you could choose
+3:28 either to ask it something or turn this
+3:31 into a task where it actually perform
+3:33 some code changes. Now, I'm not going to
+3:34 do any of that right now. I'm just going
+3:36 to go back over to the dashboard right
+3:39 here where we see this task. Now, if you
+3:41 want to archive this task, if you're
+3:43 done with it, you can do it by clicking
+3:44 on this button right here, the archive
+3:46 button. And then if we go over to
+3:48 archive, you can see all of the tasks I
+3:51 recently had, including some other ones.
+3:53 Okay, so now we've asked Codex a
+3:54 question about the project. Let's give
+3:56 it some real work to do. What I'd like
+3:58 to do is add some more fields on the
+4:00 form to create a new food pairing, which
+4:03 is going to be a description field, and
+4:05 also somewhere a user can add some
+4:07 commaepparated tags. So I'm going to ask
+4:09 Codex to work on this by pasting in the
+4:11 following prompt which says can you add
+4:14 two more fields to the new food pair
+4:16 form. One a short description field and
+4:18 two a field to add tags which are comma
+4:21 separated. The tags should be shown
+4:23 within the input field as a pill design
+4:24 when a user adds a comma and each one
+4:27 should contain a cross to delete them
+4:28 again. Duplicate tags should not be
+4:30 allowed. The two fields should stack on
+4:32 top of each other. So, that's the prompt
+4:35 and notice it's fairly precise and I've
+4:37 actually made an effort recently to make
+4:38 my prompt a little bit more precise and
+4:40 keep the AI models on track. But now,
+4:42 let's kick this off by hitting the code
+4:44 button, not the ask button this time.
+4:46 And when we do that, we should see a
+4:48 task down here after a moment, which we
+4:51 can then click on to go to that task and
+4:53 view the logs and whatnot. And again,
+4:55 Codeex is spinning up another brand new
+4:57 container here, which it does for each
+4:59 new cloud task. But this time, it's also
+5:01 going to start making some code changes.
+5:03 And it does this in its own remote
+5:05 environment. So it's not touching our
+5:07 main codebase in case we don't like what
+5:08 it does. And if we don't like what it
+5:10 does, well, we can just discard the task
+5:12 and move on to a new one. All we need to
+5:14 do now then is just wait for this task
+5:16 to finish.
+5:18 All right. So it looks like Codeex has
+5:20 finished that task and it gives me a
+5:22 summary of what it's done right here. It
+5:25 also tells me what testing it's done and
+5:27 those tests have passed. It provides a
+5:30 screenshot down here which is a nice
+5:31 feature. So, if we click on that, we can
+5:33 see the new fields down here, a short
+5:35 description and any tags. So, that's
+5:38 nice. It looks good. And then any files
+5:40 that it's changed, we're going to see
+5:41 the diffs right here. So, we can scroll
+5:43 through the diffs over on the right. You
+5:45 can see this menu. We've got the top got
+5:47 the preview, which is the screenshot,
+5:49 the diff, which is all the code changes.
+5:51 So, we could scroll through those and
+5:53 take a look at all those code changes,
+5:54 and then also the logs as well. Also, up
+5:57 here, we have this button to create a
+5:59 PR. So I'm going to click on this now to
+6:01 have codeex create that PR and then
+6:04 after a moment that button should change
+6:06 to a view PR button which we can click
+6:08 on again to open that on GitHub. So then
+6:12 here we go. This is the PR that Codex
+6:14 made and we can see it added a
+6:15 description summarizing what changes it
+6:18 made to the code. It also added a link
+6:20 to the task on Codex as well which is
+6:22 quite nice. And then up here we can see
+6:24 the branch that Codex made to work on
+6:25 these changes. And by default, these
+6:27 branches all start with codeex, then a
+6:30 forward slash, and then whatever the
+6:31 feature might be. You can, I think,
+6:33 change this in your codec settings back
+6:35 on the codec site, but we just kept the
+6:37 defaults. So, we could review the
+6:39 changes here on the PR right now, but I
+6:41 just want to preview this branch locally
+6:42 on my computer so that I can view this
+6:44 change in a browser before we merge it.
+6:47 Okay, so in VS Code, I'm on the main
+6:50 branch currently. And now I'll run a git
+6:52 fetch to pull down the latest refs for
+6:54 all the branches on the remote. Then I
+6:57 will just switch to the new branch by
+6:59 running git switch and then pasting in
+7:01 that new branch name. And once I've done
+7:03 that, I can hit enter to switch to that
+7:06 branch. And I should have all the
+7:07 changes on this branch locally. And I
+7:09 could view those changes and that code
+7:11 directly here in VS Code, but also
+7:13 preview the changes now in a browser.
+7:15 So, I've already got the dev server
+7:17 running and now I just need to visit
+7:19 localhost port 3000 to view this site.
+7:21 And by the way, I can do this because I
+7:23 already had a local copy of the repo
+7:25 that Codeex is working on on my computer
+7:27 and it was fully up to date with the
+7:29 remote one before Codex started making
+7:31 any changes. So, all I needed to do was
+7:33 bring down that new branch into my local
+7:35 repo. Now again, if you're completely
+7:38 new to Git and GitHub and this is going
+7:39 over your head, I would highly suggest
+7:41 learning at least the basics of that
+7:43 before you start playing around too much
+7:45 with Codex Cloud because Codex heavily
+7:47 involves GitHub in its workflow by
+7:49 making new branches, opening PRs and all
+7:51 that jazz. So if you want to master Git
+7:53 and GitHub first, then I do have that
+7:55 masterass on my pro site and the link to
+7:57 that is down below the video. Okay. So,
+8:00 if we go to the make a young pair page,
+8:02 which is where the form is, and scroll
+8:04 down, we can see those two new fields
+8:06 right here. We have the description. So,
+8:07 I'll say an awesome pair. And then we
+8:10 have the tags. And we should be able to
+8:12 add some. So, let's say sweet. And then
+8:14 a comma. And yeah, that appears. It
+8:16 looks pretty nice. And if we click on
+8:18 the cross, it goes away. Let's try
+8:20 adding a duplicate because we did say we
+8:22 shouldn't be allowed duplicates. I'm
+8:23 going to say sweet again, then a comma
+8:25 to add it. And yeah, it doesn't add the
+8:28 suite twice. Let's say fruity and then a
+8:31 comma and yeah everything works there.
+8:33 So let's also try and reset these fields
+8:35 by clicking on the reset button and that
+8:37 works as well. Awesome. Okay, so at this
+8:40 point I might be happy with the work
+8:42 that Codex has done and I want to merge
+8:44 that new feature branch into main. So
+8:47 let's quickly do that. And we can also
+8:49 delete the branch it was working on too
+8:51 since we won't need that anymore. And at
+8:53 this point, I probably want to update my
+8:55 local main branch by pulling those
+8:56 changes on main down. Also, we can head
+8:59 back to the Codeex dashboard right now
+9:01 where we can still see that task down
+9:04 here in the task list. And since that
+9:06 task is complete, we can now archive it
+9:08 by clicking on this little icon right
+9:10 here. Then we can switch to the archive
+9:13 tasks by clicking on the archive tab. As
+9:16 of yet, I don't think there's a way to
+9:17 permanently delete the tasks. I'm sure
+9:19 that's going to come at some point in
+9:20 the future. But anyway, now we have
+9:23 chatted with Codeex about a project and
+9:25 we've also assigned Codeex a coding task
+9:28 which it completed on its own feature
+9:30 branch. Then we've asked it to make a PR
+9:33 for that new feature. We've previewed
+9:35 the feature locally and then we've
+9:36 merged it into main on the remote repo.
+9:39 In the next lesson, we'll take a look at
+9:41 how codec can review its own code
+9:43 changes and pull requests on GitHub.

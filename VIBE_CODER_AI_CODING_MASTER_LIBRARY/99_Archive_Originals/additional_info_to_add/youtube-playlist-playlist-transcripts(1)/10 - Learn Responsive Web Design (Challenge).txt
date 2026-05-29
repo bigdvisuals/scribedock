@@ -1,0 +1,459 @@
+Title: Learn Responsive Web Design (Challenge)
+URL: https://www.youtube.com/watch?v=TPNheq7g1P8&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=10&pp=iAQB
+Channel: YouTube playlist
+Video ID: TPNheq7g1P8
+Transcript language: English auto-generated
+Downloaded at: 2026-05-25T21:41:00.259Z
+
+0:00 responsive design that is the topic
+0:02 today so typically when you design a
+0:06 layout like we've been doing in desktop
+0:08 you also have to ensure that it works on
+0:10 all device sizes all right so that means
+0:13 all the various laptop and desktop sizes
+0:15 the tablets to phones as well and
+0:18 knowing how to take a layout and make it
+0:21 adapt from a UI design perspective is
+0:23 very important so I'm going to show you
+0:25 how to do that with this layout right
+0:27 here which is a layout that we've
+0:29 already worked on different contexts and
+0:31 then at the end I'm going to go ahead
+0:32 and put you to the test where you can do
+0:34 the same thing with this layout which is
+0:36 also a previous layout in this series so
+0:40 as always make sure to subscribe let's
+0:42 get
+0:45 started all right so make sure you check
+0:47 out Lesson Four in the figma community
+0:49 file which you know of course is linked
+0:51 in the YouTube description and you'll
+0:52 find this familiar design um we actually
+0:55 did this in the very first nav bars
+0:57 challenge up here and our goal here is
+1:01 to make this responsive um to fit these
+1:03 two frames at least now of course it
+1:06 needs to be something where you it works
+1:08 at every single size every tiny little
+1:11 size in between because devices like I
+1:13 mentioned at the beginning you know they
+1:15 they're just plentiful in in their sizes
+1:17 but just to get practice we're just
+1:19 going to focus on these two right here
+1:21 and the first thing we're going to start
+1:22 with is the navigation it's at the top
+1:25 and that that's what makes most sense
+1:27 and there are considerations that are
+1:29 specific to navigations when you're
+1:31 trying to make them responsive um and I
+1:34 I see a lot of people get this wrong
+1:36 often so let's go ahead and start the
+1:38 first thing I'm going to do is just grab
+1:40 the uh the logo and we're going to paste
+1:42 it in over here now mind you we're still
+1:45 not messing with components and all that
+1:47 stuff I know that would make it a
+1:49 thousand times easier um If This Were a
+1:51 serious project but we're going to get
+1:52 into that stuff a little bit later
+1:54 because I really just want to focus on
+1:56 you know the fundamentals not worried
+1:58 about features too much uh with figma so
+2:02 the size the one of the things that you
+2:04 have to to Really drill into your mind
+2:07 is is the size does is the size of
+2:10 whatever I'm going to be translating
+2:12 into this tablet right here this tablet
+2:14 layout as you can see it says iPad Pro
+2:17 11 um you can see uh you can ask
+2:21 yourself does it need to change size you
+2:23 know is it too big or is it too small um
+2:26 typically you're going to be scaling
+2:27 things down when you work your way down
+2:29 to small smaller device widths um but
+2:31 this size right here I don't think it
+2:33 needs to be adjusted at all I think it's
+2:35 perfectly fine as is um the next thing
+2:38 to ask yourself is there enough room for
+2:40 the navigation the primary nav you know
+2:43 header
+2:44 navigation and sometimes if you want to
+2:47 try to get all the links in you can do
+2:50 it oftentimes if you get into it a much
+2:53 smaller size like this you're not going
+2:54 to have enough room to put all the links
+2:57 or all the links to the pages um but you
+2:59 could could still have room for some of
+3:02 the most important links all right and
+3:05 whatever doesn't get included or shown
+3:08 in this navigation because we lack the
+3:10 width or the space to place them can go
+3:13 inside of a hamburger menu which is the
+3:15 typical ux pattern you you know you use
+3:18 something on your phone you you click on
+3:20 the little three lines that's called a
+3:22 hamburger icon and then a menu flies out
+3:25 that's how you access the menu and we do
+3:27 that because there's just not enough
+3:29 space B to place it here in the header
+3:32 section so what I'm going to do is I'm
+3:36 going to take because remember this is
+3:37 also a link it's just a primary call to
+3:39 action it's the most important that's
+3:42 why it stands out the most we want
+3:43 people to join so I'm going to keep that
+3:46 over here all right and I'm not going to
+3:48 put it to the very right because to the
+3:51 very right I'm going to leave room or
+3:53 space for a hamburger menu so iconify
+3:57 which I mentioned earlier in the series
+3:59 is a plug and that's free and we can
+4:01 type in menu right here and these will
+4:04 give you just a bunch of different menu
+4:05 options so I'm going to take this one
+4:08 and I'm going to scale it up because it
+4:10 looks you know pretty small where it
+4:13 was and you don't want these things to
+4:15 be too small because remember people are
+4:17 using them with their fingers all right
+4:19 so they're going to be tapping it that
+4:21 also means you don't want this too close
+4:24 to where they're accidentally pressing
+4:26 stuff that they didn't want to I'm going
+4:28 to hide this uh
+4:30 layout grid right
+4:32 there so you could center this actually
+4:35 and that could work as well or you could
+4:37 write align it and that could work too
+4:39 so I'll just leave it right here for now
+4:42 and there you go now you would have to
+4:44 design If This Were a real project an
+4:46 actual navigation uh overlay but we're
+4:49 not going to do that here in this video
+4:52 I just really want to focus on oops I
+4:54 didn't replicate that there we go I just
+4:56 want to focus on the responsive part and
+4:58 that stuff so the next section is this I
+5:03 the hero section which is split up into
+5:05 two parts this green section and this
+5:07 top section right here and what you have
+5:09 to ask yourself when you're dealing with
+5:11 responsive design is you're thinking of
+5:13 columns and rows really right here we
+5:17 have two columns all right one two two
+5:20 pieces of type well clearly we don't
+5:23 have enough space because if I were to
+5:25 replicate this and drag it over here we
+5:27 can't fit it all in right even if we
+5:29 made it smaller it would still be
+5:32 difficult to fit those in on the same
+5:34 row so what we need is two rows and one
+5:38 column so you kind of create the
+5:40 opposite effect here's one row and two
+5:42 columns but we now we're going to need
+5:44 two rows in one column okay if that
+5:48 makes sense so what I'm going to do is
+5:49 just grab this hold alt and just drag
+5:51 over which will allow us to I replicate
+5:55 it and we're going to put this right
+5:57 here in line and we can also o toggle on
+6:00 our layout right here and we can see it
+6:03 does extend outside of this which we do
+6:05 not want so we can just make this a
+6:07 little bit smaller until it all fits in
+6:11 or we could also just drag this in as
+6:13 well because I I personally don't like
+6:15 having the three word words I don't like
+6:17 having learning platform split up into
+6:19 two lines I think it makes most sense
+6:22 just to do
+6:23 this and that works well don't even have
+6:27 to scale this down I'm fine with it as
+6:29 is cuz remember we want our navigations
+6:32 to be large I mean I'm sorry our
+6:35 headings so let me just toggle that off
+6:38 this is looking solid so far and
+6:40 remember I want you to take take note of
+6:43 these little minute differences because
+6:45 I didn't mention it when I did it but
+6:47 notice the amount of white
+6:49 space from here to here right this
+6:53 little gray
+6:55 thing and then now let's go take that
+6:57 same element and rep at it and put it
+7:02 right where it was underneath the logo
+7:05 and notice there's way more here so
+7:07 you're also when you're dealing with
+7:09 responsive design you're also taking
+7:11 into consideration adjusting the other
+7:13 UI fundamentals such as Whit space
+7:15 typically you're going to have less
+7:17 white
+7:18 space um on a tablet and a phone layout
+7:22 as compared to the desktop all right so
+7:25 now let's go ahead and replicate this
+7:28 the sub headline and this actually works
+7:30 perfectly as
+7:34 is yeah and that
+7:37 works okay I may want to add a little
+7:39 more line height there okay so now we
+7:43 have the green section so this one's a
+7:45 little bit more tricky because it's
+7:47 almost like an illustration sort of
+7:49 weird sort of layout um but to make
+7:51 things a little bit easier on myself and
+7:54 yourself if you're following along I'm
+7:56 taking all this type right here and I've
+7:58 selected all these layers over here on
+8:00 the left and what I'm going to do is
+8:02 right click and just choose flatten so
+8:05 no longer is it editable text but now
+8:08 it's become you know essentially now
+8:11 here's the thing I may want to back up
+8:13 because it has changed my coloring so
+8:16 what I'll do instead is just grab these
+8:19 four right there I will flatten those
+8:23 there we go and then we can take these
+8:25 two and flatten those and then take this
+8:27 and flatten it as well okay now it's all
+8:30 flattened and it's just going to make it
+8:31 a lot easier for us to scale things down
+8:34 so what I want to do is take a I'm just
+8:37 going to take the frame tool F on your
+8:41 keyboard and I'm going to get the same
+8:44 color
+8:46 here there we go and now what I'm going
+8:49 to do is take this um you know those
+8:52 three elements that we flattened and
+8:54 just hold alt and drag them over here
+8:58 and then hold shift with them still
+9:00 selected right around here or so all
+9:04 right so after scaling down we're going
+9:05 to go ahead and push this right
+9:08 here hold I we're going to select this
+9:10 element and get it up yeah right around
+9:14 there and then we'll take the um the
+9:16 button here which just going to group
+9:18 real quick these two elements hold alt
+9:20 and drag
+9:22 over this is too large now so I'm going
+9:24 to take this and scale it down um to
+9:28 like around 28
+9:30 and this as well and again if we had
+9:32 Auto layout it would make this stuff
+9:34 easier get to that stuff in the future
+9:37 get this down a bit and then I think
+9:39 I'll just align this right here
+9:41 underneath this column established by
+9:43 git the G and git and then just take
+9:46 this and put it right around there we
+9:48 could perhaps make this a little bit
+9:51 larger yeah something like that and
+9:54 there we go so we don't have the space
+9:57 to do this you know to have the console
+9:59 the git clone layer code and then the
+10:01 button over here we just don't have the
+10:03 width so you have to intelligently try
+10:06 to maintain all the same elements
+10:08 although you can hide elements if you
+10:10 need to and show elements only on you
+10:12 know and vice versa like on on I on
+10:16 tablet here and phone uh but for the
+10:18 most part you want to maintain your
+10:19 elements and you don't want to diverge
+10:22 too far or too much away from what you
+10:25 started with here on desktop okay um I
+10:28 see a lot of people they just try to to
+10:29 change the layout way too much and you
+10:31 don't want to do that your frontend
+10:33 developer will murder you okay so now
+10:37 now that we have that I'm going to go
+10:38 ahead and this part's easy this this
+10:40 trust symbol section down here you know
+10:43 I could take this just replicate it and
+10:46 get it into
+10:48 position and then just grab a few of
+10:52 these not sure what that
+10:54 is all right and then copy them hold Alt
+11:00 we can scale them down just a little bit
+11:02 but not too
+11:05 much let's get this scaled
+11:09 up move these
+11:11 up and there we
+11:13 go that right there is um a tablet
+11:18 variation responsive variation of this
+11:20 layout except this is going to work on
+11:22 tablets or you devices similar to this
+11:26 width now what about when we get even
+11:28 smaller to fun phones so this is an
+11:30 iPhone 14 15 Pro Max screen you can see
+11:33 the width is
+11:34 430 over here the iPad Pro the width is
+11:37 is actually 834 almost twice as much and
+11:40 then over here we have a width of 1920
+11:43 which is well over 2x this so This
+11:46 drastically has to change our designs
+11:48 but we want to minimize the changes as
+11:51 much as possible again it's all about
+11:54 looking at your your columns and and and
+11:56 and your and figuring out what are we
+11:58 going to to collapse or into a to
+12:01 multiple uh rows instead of columns so
+12:05 now this time we're not going to have
+12:07 enough room to put these three elements
+12:10 so really what we'll do is just take our
+12:13 layer code right here and this time we
+12:15 do need to make it smaller we're at 35
+12:18 you know we can go as small as about 20
+12:20 or so for the logo and then we'll take
+12:23 our hamburger menu and scale that down
+12:26 as
+12:27 well and we'll position it
+12:31 right around there I think would be
+12:32 solid there we go all right so let's
+12:35 hide
+12:37 this okay and again I don't think we
+12:40 would you know you actually might have
+12:42 enough room if we scale down to size of
+12:45 the type it's already it's at 24 so if
+12:47 we did something like 18 we'll see if we
+12:50 have enough room we might actually have
+12:52 enough room and if that's the case then
+12:54 we will adjust this sorry there we go
+13:02 okay so this needs to be drastically
+13:05 adjusted here so this is telling me let
+13:07 me click on this our Auto
+13:09 layout and that's because this is not
+13:12 set up correctly there we
+13:17 go okay so we do actually have enough
+13:21 space to put that but I I feel that it's
+13:24 way too thick so what we can do is
+13:26 adjust the Border down from 3 to to two
+13:29 and then also we'll take a look at the
+13:31 drop shadow and I'll change this from
+13:34 four on The X um and two as well so now
+13:38 it's not quite it doesn't quite uh stand
+13:42 out as much so let's see
+13:46 here there we go I still think it looks
+13:50 way too large so what I'm going to do is
+13:52 reduce it to 16 I wouldn't go less than
+13:56 that and put that right there so that
+13:59 could work as
+14:01 well okay so basically the same thing
+14:04 and then you know these two parts again
+14:06 we just
+14:07 maintain the two rows that we already
+14:10 established except now we have to make
+14:11 this quite a bit smaller so let's try
+14:14 like 40 here and let's reduce the line
+14:19 height all right and notice how I'm not
+14:23 really paying attention a ton of
+14:25 attention to like oh okay so this this
+14:28 line height is this value and this width
+14:30 over here based on this width you know
+14:33 not everything has to be
+14:35 perfectly um in terms of ratio I I
+14:38 personally just eyeball things in the
+14:40 distances of of how things are scaled
+14:42 down some people um you know take the
+14:47 opposite approach and want to be super
+14:49 super anal about everything um not
+14:54 me I think we can make boost that up to
+14:56 about size
+14:57 18 or 420 would
+15:00 work there we
+15:03 go all right and once again we have this
+15:06 section here we're just about wrapping
+15:12 up this I'm going to just drag out for a
+15:15 second we're going to take these
+15:17 elements and ALT left click drag over
+15:22 and then once again we'll just scale
+15:23 this down you want to make sure when
+15:25 you're scaling down type for um you know
+15:28 smaller devices is that they are at
+15:30 least going to be readable on those
+15:31 devices so it's important to test this
+15:34 stuff as much as possible here let me
+15:36 just group these together so I don't
+15:38 have to keep on selecting them
+15:40 individually we'll pull this
+15:42 up all right we'll get our execute
+15:44 button and the execute button has the
+15:46 same fate as this join today we have to
+15:48 make this smaller so again we'll just go
+15:51 to like um 18 or so and adjust this
+16:00 we could put this into an auto layout
+16:02 actually make her life a little bit
+16:03 easier and once again I'm just going to
+16:05 reduce the stroke width and take the
+16:09 drop shadow and reduce that to two as
+16:14 well you know you could do different
+16:16 things like for instance you could well
+16:19 if we took this out ah no we're we're
+16:22 just going to keep the same kind of idea
+16:30 push this down to get it more
+16:32 centered almost none
+16:35 here and then we have our little thingy
+16:38 right
+16:39 there and again the reason we're doing
+16:42 this um with with these different
+16:45 viewport variations is the fact that uh
+16:48 you if you have a frontend developer
+16:49 they need to see how the design is going
+16:51 to be modified and how they need to
+16:53 handle this in CSS the front end
+16:54 development uh portion so very important
+16:58 to get this stuff done um when you're
+17:01 working with another front end developer
+17:03 or
+17:04 so and again this is going to be the
+17:06 same concept you know we just take these
+17:08 elements here scale them down just a
+17:14 bit and this could be like a scrolling
+17:17 Marquee of sorts of different
+17:19 logos like one right here and then I
+17:22 know there's another one off here to the
+17:24 side somewhere but yeah you get the
+17:26 point let's just keep it like this a
+17:28 little bit more spread
+17:31 out all right and there you
+17:37 go so this was a fairly simple uh
+17:40 demonstration of creating a responsive
+17:42 design everything basically stayed the
+17:44 same here between these two um other
+17:49 scenarios might be a little bit more
+17:50 complex than this um but now it's going
+17:52 to be your turn and now you're going to
+17:55 switch to the lesson for responsive
+17:57 design challenge right here so this is
+17:59 the the desktop that I want you to start
+18:02 with um and it might be a little bit
+18:05 tricky but just follow along I you know
+18:08 just remember everything I taught you
+18:10 here in this design and apply the same
+18:12 Concepts to this one think think about
+18:15 you know start with the navigation and
+18:17 again here's your two
+18:19 different uh screens to design for same
+18:22 ones as the previous one and try to make
+18:26 logical decisions about what makes sense
+18:28 for a adjusting this you know you're
+18:29 probably not going to have enough room
+18:32 to have these three
+18:33 columns right here so think about how
+18:36 you're going to modify these all right
+18:38 so submit your work after you're done
+18:41 with this Click Share click copy link um
+18:44 all the submission instructions are in
+18:46 the description here here uh on YouTube
+18:49 wherever you're watching this and try to
+18:51 get them submitted within 3 hours of
+18:53 this video having been uploaded so
+18:55 around 1: p.m. Eastern Standard Time and
+18:57 we'll take a look at some of the I the
+19:01 the submissions tomorrow and we'll see
+19:03 how you all did all right everybody
+19:06 hopefully enjoyed that I'll see you soon
+19:08 check out designc course.com sub up here
+19:10 and I'll see you bye
+19:17 [Music]

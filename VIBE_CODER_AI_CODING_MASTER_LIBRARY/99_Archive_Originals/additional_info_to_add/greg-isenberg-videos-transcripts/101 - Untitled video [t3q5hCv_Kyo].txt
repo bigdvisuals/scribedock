@@ -1,0 +1,1099 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=t3q5hCv_Kyo&pp=0gcJCQMLAYcqIYzv
+Channel: Greg Isenberg
+Video ID: t3q5hCv_Kyo
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 You've seen those complicated NAND
+0:02 workflows that are all over the
+0:04 internet, but then you go into NAND and
+0:07 you find out that it's super super
+0:09 difficult to create these workflows.
+0:11 There needs to be an easier way. And I
+0:14 found it. It's called string.com. It's
+0:16 in alpha right now. Not many people are
+0:19 talking about it. And it's one of the
+0:21 easiest ways to deploy AI agents using
+0:25 yes, prompts. You can literally just
+0:28 prompt it and it's going to create those
+0:30 complicated workflows for you. I brought
+0:33 on the founder. This is the tutorial
+0:35 where he shares four workflows. The
+0:37 fourth one to me is the most
+0:38 interesting. Uh but it we go from
+0:41 easiest to most complex and I can't wait
+0:45 to see what you end up building.
+0:50 [Music]
+0:56 This is actually an emergency pod. We
+0:57 got Todd on the pod because he just
+0:59 launched string.com.
+1:01 Uh, which is kind of my dream product.
+1:03 Todd, if people stick through to the end
+1:07 of this episode, what are they going to
+1:09 learn with string.com? They're going to
+1:11 learn how to build AI agents that, you
+1:13 know, make their jobs more efficient or
+1:14 give them superpowers. Then that's the
+1:16 goal. Okay. Well, let's uh let's share
+1:20 your screen and let's get going. Um, all
+1:23 right. So, this is string.com uh which
+1:25 is an AI agent that builds AI agents.
+1:28 Um, and I I have kind of four examples.
+1:31 I spent about two hours this morning
+1:32 going through these. So, I tried to find
+1:34 use cases that were actually like real
+1:36 and would be relevant to a, you know,
+1:38 solo entrepreneur or a small business
+1:40 owner trying to like get stuff done. Um,
+1:43 and we'll just kind of go increasingly
+1:44 in complexity if that works for you.
+1:47 Cool. Let's do it. Um, so the first one
+1:50 I had was just, you know, build an agent
+1:52 that monitors hacker news for any
+1:53 mention of the term MCP. As you know, we
+1:55 we've built a lot of MCP servers. Uh,
+1:58 when new articles are discovered, you
+1:59 know, notify me in Slack. And I'll just
+2:02 go ahead and kick this off, but my
+2:04 assumption is um based on doing this
+2:06 this morning that it's possible there
+2:08 are so many articles mentioning MCP
+2:10 because it's like the the hot topic of
+2:12 the day that um the first version of
+2:15 this may be overwhelmed with volume. So,
+2:16 it'll be interesting to see how uh
+2:18 string handles it. So, the first thing
+2:20 I'll say, don't ask me this again, but
+2:22 um it always gives me a plan before I go
+2:25 ahead. This really prevents the tool
+2:28 from like burning your AI credits on
+2:30 like going in the wrong direction. Um in
+2:33 this case, it's a relatively simple
+2:34 prompt and so it should have success,
+2:37 but uh we noticed previously that
+2:39 sometimes, you know, the the AI would go
+2:41 build something wrong and then you'd be
+2:42 out of credits. You'd be like, "This
+2:43 thing doesn't work." Um, so essentially
+2:47 there's two tabs of string. There's the
+2:49 progress, uh, which basically tells you
+2:51 like what the agent is doing on your
+2:53 behalf. Um, you know, it's saying like,
+2:56 I'm going to go ahead and build this
+2:58 agent. I need to figure out how to get
+2:59 the articles from HackerNews. I need to
+3:00 figure out how to integrate with Slack.
+3:03 Um, for those of the audience who know
+3:05 Pipere, that's the company we run. We've
+3:07 got tens of thousands of tools available
+3:09 to agents. So some of these things uh
+3:12 will be pre-built and some of them will
+3:14 be dynamically written with code and
+3:16 that's part of this increasing
+3:18 increasing complexity I'm going to show.
+3:20 Um so here we are. We've got call of a
+3:23 simple agent. It the trigger is
+3:25 basically looking for articles that
+3:27 match the term MCP and it's going to
+3:29 send the message to Slack. It's asking
+3:31 me to test um and this is basically it
+3:34 could fail. It could say like it's
+3:35 somehow just not getting the articles.
+3:38 Let's let's see if it does. So, what's
+3:40 cool about this is you've sort of
+3:41 abstracted away
+3:44 um you know the the NADN flow charts
+3:47 that you know we're so familiar with
+3:49 nowadays and it's really now just
+3:51 prompting using plain English to
+3:53 actually create that. Yeah. I I actually
+3:56 went back to a slide that I presented in
+3:58 January uh today when I was just
+4:01 thinking about um you know why we went
+4:04 down this direction and it was really
+4:05 like if you can get out of this
+4:07 beautiful mind of like these really
+4:09 complex node charts that like everyone
+4:11 gets lost in and you simplify the
+4:13 interface to natural language which for
+4:15 us is English. I think you could make
+4:17 the product 10 times easier to use. And
+4:20 similarly, if you remove the dependency
+4:22 on this registry of triggers and
+4:24 actions, which we have one of the
+4:26 biggest in the world, but you sort of
+4:28 included codegen, then I thought you
+4:30 could solve 10 times more use cases. And
+4:32 that was basically the the drive to
+4:35 create um to create string. So Todd, I'm
+4:38 literally sweating just because this is
+4:41 exciting me so much. I'm literally going
+4:42 to have to take off my sweatshirt.
+4:44 That's a good sign. You know, that's a
+4:46 good sign. I gota be by the end of this
+4:49 episode. I'm I don't know if I'll have
+4:50 any clothes on.
+4:53 Um, strip automation is a new game. I
+4:55 haven't played it before, but um, so
+4:57 this is part of the magic of the
+4:59 product. So, what you're seeing here is
+5:00 it's asking me to configure my Slack
+5:02 account. So, I went ahead and said, you
+5:04 know, it's my pipe email and then it
+5:07 should ask, you know, what channel I
+5:08 want to send it to, um, as a next step.
+5:11 But again, this is kind of like built
+5:12 on, you know, five years of app
+5:15 integrations um uh and approved clients.
+5:18 So, I'll just say let's do Todd test.
+5:22 And so now those are really the only
+5:24 like config components. Um I've
+5:26 obviously connected my Slack account
+5:28 before, but if not, I would have went
+5:29 through like an OOTH flow. Um but my
+5:32 hope would be that, you know, once this
+5:35 goes end to end, we can just open Slack
+5:37 and we'll we'll see a message. Um, and
+5:39 once it tells me that we're good, I will
+5:41 go ahead and open it. That was
+5:44 successfully sent a message. All right,
+5:45 let's go see.
+5:47 Um, all right. So, this is sending, you
+5:50 know, per new article. So, I think it
+5:53 was relatively intelligent. So, instead
+5:54 of trying to send like 500 articles, it
+5:57 just sent me the most recent one as a
+5:59 test. And of course, if I deploy this
+6:01 agent, it will go ahead and send every
+6:03 new article mentioning MCP to me.
+6:07 Sam Alman, the co-founder of OpenAI,
+6:10 just said that it is the era of the idea
+6:12 guy and he is not wrong. I think that
+6:16 right now is an incredible time to be
+6:18 building a startup. And if you listen to
+6:19 this podcast, chances are you think so,
+6:21 too. Now, I think that you can look at
+6:23 trends uh to basically figure out uh
+6:27 what are the startup ideas you should be
+6:29 building. So, that's exactly why I built
+6:31 ideabser.com. Every single day you're
+6:33 going to get a free startup idea in your
+6:36 inbox and it's all backed by high
+6:40 quality data trends. How we do it?
+6:43 People always ask. We use AI agents to
+6:45 go and search what are people looking
+6:47 for and what are they screaming for in
+6:50 terms of products that you should be
+6:51 building and then we hand it on a you
+6:54 know silver platter for you to go check
+6:56 out. Um we do have a few paid plans that
+7:00 you know take it to the next level. uh
+7:02 give you more ideas, give you more AI
+7:04 agents and more almost like a chat GBT
+7:06 for ideas with it. But you can start for
+7:09 free ideabrows.com and if you're
+7:11 listening to this, I highly recommend
+7:13 it. I'm going to go back. It should say,
+7:15 "Yep, yeah, the agent is ready to run
+7:17 and we can deploy it."
+7:18 So, this is kind of like a basic
+7:22 automation, but I think what's cool
+7:24 about it is like I have someone on my
+7:26 team who actually looks for news and
+7:28 sends it to our product managers,
+7:30 product designers to just keep them up
+7:32 to date. Like that's a person that's
+7:34 actually going and doing that. Yeah.
+7:36 This just replaced that part of that
+7:39 person's workflow. Yeah. And I I love
+7:42 starting with like the most basic, which
+7:43 is like trigger action pair in our
+7:45 language. But when I built this this
+7:47 morning, I immediately said, "Can you
+7:49 summarize the article? Can you do
+7:51 sentiment analysis? Tell me if it's
+7:52 positive or negative. Can you write a
+7:54 clever comment that I could respond to
+7:57 the post that shows I know a lot about
+7:59 MCP and have a perspective on it?"
+8:02 Right? And you can imagine this just
+8:03 getting more and more complex, but
+8:05 again, instead of that like beautiful
+8:07 mind of like node craziness, um, you
+8:10 know, you're just iterating through
+8:12 through English. Absolutely. All right.
+8:15 All right. You want to go to uh one
+8:17 another example? Let's do it. I'm not
+8:19 promising that I'm going to take off my
+8:21 t-shirt, but we will see. Okay. So, I
+8:24 tried to find one that was a little like
+8:25 relevant to maybe um people who are
+8:28 content creators. So, I said, you know,
+8:30 build me an agent that monitors an RSS
+8:31 feed. In this case, I'm just going to
+8:32 use the Pipeam blog for new blog posts
+8:35 and then use AI to write like a viral
+8:38 LinkedIn post and put that content in a
+8:40 Google doc just so I can go grab it and
+8:42 and post it quickly. Now, you probably
+8:44 do this like I do. I I did give it a
+8:46 little guidance on the LinkedIn post.
+8:48 You know, I just said, "Hey, there's
+8:49 three viral components. Keep it short
+8:51 and punchy. You know, it should be one
+8:52 sentence paragraphs." Of course, if I
+8:54 was doing this, you know, for real, I
+8:57 would probably spend a decent amount of
+8:58 time on like the LinkedIn prompt just
+9:01 because having done this myself over a
+9:03 long period of time, um you know, the
+9:05 better your prompt, like the better the
+9:07 output and I would hone that over time.
+9:09 Um but again in this example I'm trying
+9:11 to now include like a few different
+9:14 things like do some some AI uh integrate
+9:18 with another app in this case um you
+9:20 know Google Docs and go from there. So
+9:22 I'm going to this is just one of the
+9:24 little nuances but I've turned on auto
+9:27 testing so as it builds it'll just
+9:29 automatically test so I don't have to
+9:32 constantly click test test test. But if
+9:34 you were doing an agent that might like
+9:36 delete rows from a Google doc, you know,
+9:38 you kind of might want to have human
+9:40 control over that. Okay. And what's by
+9:43 the way, we never talked about pricing.
+9:45 Like how how does this work? Yeah. So we
+9:48 we're really following the model of the
+9:49 vibe coding platforms, which is you
+9:52 basically have a subscription to the
+9:53 product and it comes with a pool of AI
+9:56 tokens. Um I believe the token count is
+10:00 20 million on our like basic plan. And
+10:02 you can see I have 58 million tokens in
+10:04 my account right now. So um we can
+10:06 monitor through this process like how
+10:08 many I I use doing all these use cases.
+10:11 U but of course like our goal is to you
+10:14 know reduce the cost of token creation
+10:16 and token usage and just you know as
+10:18 these models get better reduce those
+10:20 costs. And I see a button for open in
+10:23 pipe dream. What does that mean? Yeah.
+10:26 So, um it's funny. I was uh I was in a
+10:29 meeting kind of demoing a very early
+10:31 version of this to Gummo from Verscell
+10:33 and he said, you know, my sort of view
+10:35 of these vibe coding platforms is
+10:37 they're best when they're built on top
+10:38 of like dev tools that have been built
+10:40 over like four or five years. And the
+10:42 reason is because you can have this
+10:43 escape hatch. So, we have this button
+10:46 where you can like open this into our
+10:48 old product um and essentially go back
+10:51 into that wizzywig editor and um you
+10:54 know make changes and do the drag and
+10:56 drop and all that experience. Um I
+10:59 actually slacked my team when I was
+11:01 doing this this morning um and I said I
+11:04 only had to do that once this morning.
+11:06 So to me it's like it's a little bit of
+11:08 an antiattern, right? like we want users
+11:11 to never have to open um in pipe and and
+11:16 eventually that button will go away. Um
+11:18 and I think that will be you know when
+11:20 we're no longer an alpha product but
+11:22 we're you know a successful product that
+11:24 button will be gone.
+11:27 It's interesting by the way I don't know
+11:28 if you caught that while we were talking
+11:29 but um it looked like oh it's happening
+11:31 again. Looks like there's there's a
+11:33 there's a some sort of error in the
+11:34 trigger. Um, I'm not a 100% sure what is
+11:38 happening, but it's obviously not
+11:40 receiving a trigger event. It should
+11:41 recover. Um, oh, here it is. It's
+11:43 explaining. So, it says it's it's not
+11:45 receiving data for the 25th event. So,
+11:48 it's basically like looking for blog
+11:50 posts that happened. I guess that was 3
+11:52 days ago. Clearly, we need to produce
+11:54 more blog content as a company because
+11:56 there was nothing recent enough. So, I
+11:58 assume what it's going to say is I
+12:00 changed the date. Okay. I've set the
+12:03 published after date to May 1st. So now
+12:04 it's like it's going further back to
+12:07 looking for like the most recent blog
+12:08 post, which I think is actually pretty
+12:10 intelligent, right? It started with a
+12:12 narrow date range, then it probably
+12:14 expanded from 1 day to 3 days, and then
+12:16 it's like, all right, there's nothing
+12:17 there. I'm going to go all the way back
+12:18 to like two months ago and grab your
+12:21 most recent blog post. It' be
+12:22 interesting to see the the most recent
+12:24 blog post was uh June 11th. So it needed
+12:27 to go back, you know, a little more than
+12:29 than two weeks uh to find that. So I
+12:31 again I consider when whenever you're
+12:33 vibe coding and something fails but
+12:34 recovers that's more what we're focused
+12:37 on today really than than anything else
+12:39 is like trying to figure out how to get
+12:41 people to value
+12:43 and does it fail often and like how
+12:45 should people think about dealing with
+12:48 the failures. Yeah. I mean I think it
+12:51 really depends on the complexity of the
+12:52 use case but my sort of general belief
+12:55 is if you're just testing these tools
+12:58 you should probably get you know 50 to
+13:01 75% if it's something like a prompt on
+13:03 the homepage should be higher than that
+13:04 but I mean if you're just doing like
+13:06 simple things want to see if I can get
+13:07 to value like I would think over 50%. If
+13:09 you're doing things complicated whether
+13:11 this is like you know replet bolt
+13:14 lovable or you know a product like
+13:15 string you know I think you're in that
+13:18 25 to 50% success rate today and that's
+13:21 why these products are you know in our
+13:23 our product at least is alpha um you
+13:25 know like that's the percentage we're
+13:27 monitoring internally is like how do we
+13:29 get the majority uh of people to value
+13:33 um so it's interesting so it says it you
+13:35 know created a used open AI in this step
+13:37 to create a LinkedIn post. Um, one thing
+13:40 I'll mention is we we have this kind of
+13:42 like what we call batteries included for
+13:43 AI. So, we used to include all these AI
+13:47 tools, but you constantly had to like
+13:49 input your API keys or figure out should
+13:52 I use this image creation thing or that
+13:54 image creation thing. So, now when
+13:56 anything touches AI, we default to the
+13:58 tools we think are best for your use
+14:00 case and we just include our own API
+14:03 keys and then we just bill you credits
+14:06 when you run these agents in the future.
+14:08 It's just another one of those examples
+14:10 of can we get more people to value. Um
+14:13 so let's see if we created a Google doc.
+14:15 Okay. See um make sure this is a let's
+14:20 see um how alter builds integrations
+14:24 faster without having a single back. I
+14:26 mean again I'm not going to go through
+14:27 all the detail on this but like looks
+14:29 like a you know kind of like a legit
+14:30 LinkedIn post to me. probably would need
+14:33 to edit it, but um a summary of this
+14:36 this blog article.
+14:40 Yeah, it's insane. Yeah. So, and and if
+14:43 you wanted to and when you say edit,
+14:45 like you mean a human being edited
+14:46 editing it? Well, I'm just saying when I
+14:48 do the final link, I don't know what you
+14:50 do on LinkedIn, but like when I do the
+14:51 final LinkedIn post, I kind of take what
+14:53 the AI has given me and then I, you
+14:55 know, I polish it. That's like the last
+14:56 five, 10 minutes. I want it to be my
+14:58 voice. Um, and of course I'm trying to
+15:00 train it to get better and better, but I
+15:02 always think that last polish is like is
+15:04 the best human use of time. So what you
+15:07 could could have done here, for example,
+15:09 is add another step that pings a Slack
+15:11 channel that says the Google doc has
+15:13 been created and is ready for review,
+15:16 right? Yep. Absolutely. Yeah. And if you
+15:19 wanted to do that, you would just type a
+15:21 message. Like how would you how would
+15:23 you do that? Yeah. Yeah, I mean it's
+15:25 just like it's almost like an employee
+15:27 like your AI, you know, everyone's
+15:28 hiring these AI automation engineers.
+15:30 It's like the new hot like job wreck.
+15:33 Um, you know, we thought about calling
+15:34 this product just like your superhuman
+15:37 AI automation engineer, you know,
+15:39 because it's like working for you at all
+15:41 times and and available for for work.
+15:43 Um, I'm just not sure that that's a
+15:45 widely understood job yet, but maybe it
+15:48 will be eventually. So, what's it saying
+15:50 here? Uh, so it says the user wants to
+15:52 add a step to process when the process
+15:54 is completed. So it needs to configure a
+15:57 Slack notification step. So here it's
+15:58 just saying send Slack notification. Um,
+16:01 and then I assume it's got to write
+16:04 that. And then of course it's got same
+16:05 exact flow we just went through before.
+16:07 It's got to figure out where you want
+16:08 that to go. We've tried things where we
+16:11 just like automatically select Slack
+16:13 channels. Like so we have to be smart
+16:15 about it. Like there's certain apps
+16:16 where you can, you know, make an
+16:18 inference and figure things out, but
+16:19 it's like you probably don't want this,
+16:22 you know, little test that you're
+16:23 working on to exactly like click the
+16:26 general channel. Like you probably don't
+16:27 want to like blast your company um you
+16:30 know, with all your little tests. Um so
+16:33 anyways, that's that's kind of what it's
+16:34 doing. It's just figuring out like where
+16:36 to send it. Um
+16:39 and you know, I assume uh we'll see what
+16:41 it says. See, uh it's running the test.
+16:45 All right, successfully test. See here.
+16:48 I don't see Oh, yeah, it is. Yeah, new
+16:50 LinkedIn post generated. Nice. It thinks
+16:52 it's it's high quality enough to get a
+16:54 rocket ship emoji. Um, it didn't link to
+16:57 the document, which of course I could
+16:58 ask it to do. Um, but, you know, it's
+17:01 interesting. Here it goes. It gives you
+17:02 the document ID, but didn't give you the
+17:04 URL. So, and that's a case where I think
+17:06 it was kind of a dumb decision. Um,
+17:08 could have been better. We'll tell
+17:10 string to do better next time.
+17:13 Love it. Um, you want to move on to
+17:15 another example? Let's do Let's do it.
+17:17 Okay. So, I'm going to give an example.
+17:18 So, I was really inspired by um your
+17:21 boring marketer team that had like a
+17:23 little chat about string in, uh, on
+17:26 Twitter, which I saw, which is super
+17:27 cool. Um, I liked it because it was a
+17:29 real world use case. They basically
+17:31 said, um, you know, give me a daily
+17:33 summary of my, uh, Google Analytics. So,
+17:36 I'm going to fire this up and then I'll
+17:38 talk through it. Um, and so I would say
+17:40 this is an example where based on my
+17:42 test this morning, so I might need to
+17:43 jump to one that works. I'm thinking
+17:45 like 50% success rate. Um, and so
+17:47 already I got some ideas on how to fix
+17:49 this. But about three weeks ago, we sent
+17:52 an email uh it was like to a million
+17:54 people and it included a URL to a
+17:58 Verscell app and we basically built a
+18:00 demo of like it was chat it end up we
+18:04 ended up putting on chat.piptream.com
+18:05 pipe.com, but at the time it was a just
+18:07 a Verscel URL and somehow Verscell URLs
+18:11 like get flagged as like really bad in
+18:14 Gmail and these other email services. So
+18:17 like for the last three weeks I've been
+18:18 logging in every day and like into
+18:21 Google Postmaster tools and figure
+18:23 trying to figure out like are we out of
+18:24 the penalty box? Are we out of the
+18:25 penalty box? We out of the penalty box.
+18:27 So, um, I basically just said every day
+18:30 summarize, I should have said the last
+18:31 seven days of Google Postmaster
+18:33 statistics and send them to Slack so
+18:34 that I can and break it out by day and
+18:36 include a summary of the week so I can
+18:38 figure out, you know, basically are we
+18:40 essentially out of the penalty box or
+18:42 not. Uh, it turned out about, you know,
+18:44 a little over maybe four or five days
+18:46 ago, we kind of like got out of the
+18:47 penalty box. Um but the reason why this
+18:50 is particularly interesting is what you
+18:52 can see on the screen right now is you
+18:54 know we've integrated
+18:56 Google's APIs but we have nothing in the
+18:59 registry related to like fetch your
+19:03 Google postmaster tools. So this is all
+19:06 like dynamic code gen. This is the
+19:07 second half of what I talked about which
+19:09 is one communicate with natural language
+19:11 instead of like a wizzywig editor and
+19:13 two you know get out of the registry and
+19:16 write all these things dynamically. And
+19:17 so um basically string is writing custom
+19:21 code to hit the API to figure out you
+19:23 know stats and then we'll ultimately
+19:25 format that message for Slack and then
+19:28 send that message to me. Maybe we've
+19:29 overused Slack in this demo but we do
+19:31 live in Slack. Um, and when I did this
+19:34 this morning, you know, one time it it
+19:36 sort of veered off and got a little bit
+19:38 lost and it was really struggling to get
+19:40 the statistics from Postmaster Tools.
+19:43 And then the second time I did it, it
+19:44 had one error, it fixed it, and it
+19:46 worked. So, be interesting to see um,
+19:48 you know, how how successful the test
+19:50 is.
+19:52 I mean, if if this is able to work, like
+19:54 that's a huge that's a huge win, right?
+19:57 Like that's saving you a ton of time.
+20:00 Yeah. I think for most uh what I would
+20:02 say is like most people just wouldn't do
+20:05 it. Yeah. You know, like when I've
+20:07 talked to the CEOs of other um no code
+20:11 platforms, they always say the number
+20:14 one problem they have is their product
+20:16 is too complicated. And these are the
+20:18 people who run the least complicated
+20:20 noode tools in the world. So, I think
+20:22 that just the fact of the matter is if
+20:24 you have to go through some multi-step
+20:26 config that requires you to understand
+20:28 an API, you've lost, you know, at least
+20:31 half and probably more like 80% of the
+20:34 potential audience uh for these types of
+20:37 products. See, I already see by the way
+20:39 this is this is already I already know
+20:40 it's going to error because it says it's
+20:42 received data for seven zero days in the
+20:44 past seven. So, be interesting to see if
+20:46 it recovers um for that. Yeah, I think
+20:49 like as you're going through a lot of
+20:50 these examples, I'm just thinking about
+20:52 my own business like what are what are
+20:55 automations I can do to help save time
+20:58 and also just like make more money.
+21:01 Yeah. And I the way the way we like view
+21:04 this, we have like this worldview of
+21:05 these automation, you know, agents. The
+21:09 first is tasks. Like if you just want to
+21:10 send an email, send a message to Slack,
+21:13 add a row to a Google sheet, I think
+21:15 ultimately that's going to be built into
+21:17 the AI chat apps. You know, I think
+21:19 you're going to go to Claude and you're
+21:20 just going to be like, you know, like
+21:22 send a message in Slack and it's just
+21:23 going to do it. Um, so I I think that
+21:25 like you don't need a standalone tool
+21:27 for that. The second category is
+21:29 automations, which I think we're we're
+21:31 starting in automations in this uh
+21:33 conversation. We'll kind of move into
+21:35 true agents, but automations are things
+21:36 we all know. they're like zaps or pipe
+21:39 dream workflows or you know whatever the
+21:40 tool of choice is for for a company and
+21:44 I think those can absolutely move to a
+21:47 textbased interface. I think we've sort
+21:50 of proven that. And then the third
+21:52 category is what we internally call like
+21:54 real AI agents. These are things that
+21:55 have like autonomy and access to tools
+21:58 um and sort of don't need this
+22:00 stepby-step guidance as much as there
+22:02 might be a step that says like you know
+22:04 go do these things and it just figures
+22:06 out is there steps is it one step is it
+22:09 one app three apps um and we're spending
+22:11 most of our time you know on the product
+22:14 side either trying to get people to
+22:16 value just like the chat interface or
+22:19 building the the foundation for these
+22:21 more autonomous uh capabilities. I mean,
+22:24 that's the dream. The autonomous agents
+22:26 is the dream that you set a goal for one
+22:29 of these invisible employees and they
+22:32 have some constraints, but they're
+22:33 basically working at the problem and
+22:35 they're trying to get closer to that
+22:37 goal and they're they're working for you
+22:40 autonomously. And we really try like to
+22:42 not overpromise those things because I
+22:44 feel like half these tools are like it's
+22:45 solved and I'm like it's not solved,
+22:47 right? It's like it's there's a lot of
+22:49 momentum and green shoots and uh
+22:52 potential but for the most part and you
+22:54 know we have another half of our
+22:56 business by the way where we sell
+22:57 infrastructure to other AI agent
+22:59 companies and we see you know there's a
+23:01 lot of promise but it's early you know
+23:03 it feels like the first out of the first
+23:06 inning you know not even the first
+23:07 inning so all right so um anyways this
+23:10 one just said summarize postmaster stat
+23:13 um it actually had one test failure um
+23:16 and then it actually got to success and
+23:18 I said, "Hey, the key metrics are all
+23:20 blank." Um, and then it went ahead and
+23:22 and fixed it. Um, and then, you know, it
+23:25 sort of explained to me like the visual
+23:27 representation, you know, basically
+23:29 said, you know, here's your results for
+23:32 the last week. This was 8:30 this
+23:33 morning. All the metrics are good except
+23:35 for this one, which I know, which was
+23:37 the one where we got hammered on our
+23:39 reputation. Um, did a little bit of
+23:41 analysis and then said, you know, focus
+23:43 on improving sender reputation. And it
+23:45 was kind of like a, you know, no
+23:47 Um, I got to work on that. So, uh, but
+23:50 that was the, uh, that was the example
+23:51 that worked this morning. You know, this
+23:54 gets me thinking that like productizing
+23:56 agents and automations and then kind of
+23:58 wrapping wrapping that up and selling
+24:00 that to other companies is a great
+24:04 business to start. You know, I'm talking
+24:06 about like a cash flowing business. Like
+24:07 if you're, you know, I'm sure someone
+24:10 would pay $29 a month for that service
+24:12 set up. So, have you seen people
+24:15 basically start using string to create
+24:18 some workflows and agents and then
+24:21 selling that to you know other
+24:23 companies? Yeah, I mean we've we've
+24:25 talked a lot about I think it's a little
+24:27 like at least on our platform it's a
+24:28 little early but I I think if you look
+24:29 at what's happened with NAND and all
+24:31 these you know they call it the like the
+24:33 automation bros on like Twitter and and
+24:35 YouTube you have this demographic of
+24:37 people that you know maybe were in you
+24:40 know drop shipping and then we're in
+24:41 crypto and then are like they're in the
+24:43 business of making money on the internet
+24:45 and they've sort of discovered this like
+24:47 AI agent uh category as a potential
+24:50 market to like you know build products
+24:52 and sell them. Um, at least from my
+24:54 conversations with customers, I think
+24:56 most of those is more about today, at
+24:58 least generating views of their content
+25:01 and actually less about selling like
+25:03 quote unquote the templates. Um, but I
+25:06 think that there's a huge opportunity
+25:08 once these templates like are actually
+25:10 easy enough to implement for the end
+25:12 user that like I think there could be
+25:14 really big businesses built in these. It
+25:16 reminds me a little bit of like the kind
+25:18 of like the website template world where
+25:20 um you know the challenge is always can
+25:23 you actually get to value if you
+25:24 purchase it, right? And so these things
+25:27 need to be easy enough to implement for
+25:28 the end user and then I think absolutely
+25:30 you could um you could build a business
+25:33 on that. Before we get to the to the
+25:35 next one, do you have any you have one
+25:38 or two ideas for people if they were
+25:40 trying to build a big business on top of
+25:42 string? What what they what could they
+25:44 build? Well, I don't I don't think we've
+25:45 built the tooling yet for people to
+25:47 build a business. And I was going to get
+25:49 a little like little tech nerdy, but
+25:51 like there's really no reason why every
+25:55 agent on string couldn't also be an MCP
+25:58 server. And we we have a view that you
+26:00 know there will be MCP server businesses
+26:02 built where people are like here's an
+26:04 MCP server to I don't know like pick
+26:07 random examples process refunds on this
+26:09 SAS app or you know write blog posts in
+26:12 this way or you know do this other job
+26:14 function that people have. Um and so you
+26:17 know we've talked a lot about once we
+26:19 can prove that we can create like
+26:21 scalable agents at you know that are
+26:23 solving real business problems uh for
+26:26 companies there's no reason not to
+26:27 enable people to just like turn that
+26:30 into an MCP server that you then sell
+26:32 and market. Obviously we want to build
+26:34 tooling there so like it's like a
+26:36 oneclick and you you know submit it to
+26:38 marketplaces. Um but I I think there
+26:40 needs to be more demand frankly on the
+26:42 MCB server side. like it sounds good but
+26:44 like you know we need more people
+26:46 consuming them but that feels to us like
+26:49 that's the biggest business opportunity
+26:50 for like an enduser of our product
+26:53 today. Cool. Yeah. Um All right. The um
+26:57 and I guess that's that's skipping over
+26:59 the obvious use case which is like we do
+27:01 have a lot of like contractors who just
+27:03 like sell automations and then build
+27:05 them on our product but I feel like
+27:06 that's not really like us enabling them
+27:08 as much as just like they use the tool.
+27:11 Um, all right. So, I'm going to go with
+27:12 like a little bit of a more complex one.
+27:15 Um, and in this case, like I was like I
+27:19 figured the first question you were
+27:20 going to ask me is like what are the use
+27:23 cases people should solve? Like this is
+27:24 the problem with horizontal products,
+27:26 right? You can do anything. I was like
+27:28 great. Like what do I do next? Um, so
+27:31 this idea was basically build an agent
+27:33 that runs every day. It sends me an idea
+27:36 for automation that I can do like in my
+27:39 business. Um, and I tried to create
+27:40 something that would actually create
+27:41 like an end consumable end product. Like
+27:44 it would send me an email that looked
+27:46 good that like was, you know, in HTML
+27:49 that like, you know, like I don't know,
+27:50 had an end product I could look at. And
+27:52 then I try to get even a little bit more
+27:54 complicated, which is I just wanted to
+27:55 create a link at the end of that email
+27:57 where I could just open it directly in
+27:59 string and have it build the agent for
+28:02 me. So I was trying to almost create
+28:03 like a complete end to end like send me
+28:05 an idea, I click a button and then it
+28:07 builds it. Um, and this is going to go
+28:10 much deeper into a few things. One is
+28:13 there's going to be a lot of steps that
+28:16 need to be accomplished. Like string can
+28:18 either jam a bunch of this code into a
+28:20 single step or have multiple steps. So,
+28:22 we'll see how that works. It's going to
+28:24 do codegen. Uh, it's going to integrate
+28:26 Gmail. Um, and I'm going to set up for
+28:29 auto testing so that uh it just kind of
+28:32 goes through that process on its own.
+28:35 Uh, and then I'll pause there if you
+28:37 have any questions on it. It sounds like
+28:40 for the vast majority of use cases, auto
+28:42 testing should be on by default. Is that
+28:45 right? I think so. I mean, again, it's
+28:48 the only risk of auto testing is if the
+28:50 agent is doing something you don't want,
+28:52 but like if it's sending me an email,
+28:54 I'm not too worried about it. Like if
+28:55 it's sending me a Discord message, not
+28:57 too worried about it. if it's, you know,
+28:59 interacting with my product database in
+29:01 Snowflake, I might feel a little, you
+29:04 know, less confident in allowing it just
+29:06 to, you know, go rogue. And I will say
+29:09 like, you know, I'm sure this is true
+29:11 for every vibe coding platform. We've
+29:12 seen some examples where it's done dumb
+29:14 stuff, right? It's not common, but it
+29:16 does happen. Um, so that that's really
+29:19 the guidance around, you know, auto
+29:21 testing.
+29:23 Same is true with human beings, though.
+29:26 That that is also true. Yeah. Um, so it
+29:30 looks like what we have so far we'll see
+29:31 is it's basically generating the idea.
+29:34 It's creating like the prompt that's
+29:36 then going to share that I'm going to
+29:38 open up in string. It's creating the
+29:40 email content. Uh, let me just see if
+29:42 we're okay. Make sure we're not then
+29:44 it's going to convert it to markdown. I
+29:45 assume what it's going to do next is
+29:47 it's going to um oh it says convert down
+29:50 convert markdown to HTML which is good
+29:53 uh because it's going to send an email
+29:54 and now it's creating a template and
+29:56 hopefully uh integrate Gmail and send it
+29:58 to me. It's like relatively quick. I'm
+30:01 glad you think that. I mean, every time
+30:03 I see a spinner, I have like a little
+30:04 panic attack cuz you you just like you
+30:06 want these things to be instant. But,
+30:08 you know, when it's writing code and
+30:10 it's like progressing through um you
+30:12 know, like ideation and iteration, it's
+30:15 like it it takes time, you know, it
+30:17 takes time. Yeah. Um
+30:21 All right, there it goes. So, it's it's
+30:22 got a send email message uh action from
+30:26 Gmail. So, that's good. I do think by
+30:29 the way like you know any one of these
+30:32 AI products that's like built on top of
+30:34 the APIs of like the foundational model
+30:37 companies like every one of these things
+30:39 going to be better like the way I think
+30:41 about it is this is the worst string
+30:43 we'll ever be you know it's like the way
+30:45 I think about it like if it's good
+30:47 enough to get to value that's awesome
+30:48 but it's like it's the worst it'll ever
+30:50 be in um in our use of the product.
+30:53 Well, yeah, that's why I wanted you on
+30:55 the pod also is just because I'm a big
+30:58 proponent of play with the tools now,
+30:59 get good at the tools so that as the
+31:01 foundational models get better and these
+31:04 tools get better, it won't be like your
+31:07 first time trying these tools, uh, you
+31:09 know, you'll have some of the reps,
+31:11 you'll understand the guard rails,
+31:12 you'll understand the constraints,
+31:14 you'll understand some of the best
+31:15 practices. So, I just think it's a good
+31:17 idea to get your hands dirty. Yeah, I
+31:20 think that's true. Um, and like if if
+31:23 you're good at using AI tools today,
+31:28 like you're the unicorn, right, in your
+31:31 business, in your company, you're
+31:33 hirable. I mean, it's just like every
+31:36 single CEO I talk to is like, "How do I
+31:38 get my company to be more AI native? And
+31:41 how do I get people to use?" So, it's
+31:42 like I mean, it's just like such a way
+31:44 to differentiate yourself.
+31:46 Totally. Oh, good. I was worried there
+31:48 for a second. So, it looks like we've
+31:50 we've progressed. I don't know. That did
+31:52 seem to be a little bit of a longer uh
+31:55 duration than I would have expected
+31:56 normally, but um it's going to go
+31:59 through and test all these steps. What's
+32:02 nice about auto test, I don't know if
+32:04 you've done this on the like Manis or
+32:06 any of the the Vibe coding things, but
+32:08 you know, a lot of the people that I
+32:09 think are best at using these tools,
+32:11 like they've got like four or five tabs
+32:13 open and they're working on like
+32:14 multiple projects at the same time. And
+32:16 so one of the things about you know
+32:18 moving to these things to be auto you
+32:20 know an auto test or anything else that
+32:21 like it just it'll just get to the end
+32:24 you know you can be working on something
+32:25 else you know it's like it's like
+32:27 delegating a task to an employee so you
+32:29 might have four or five running at one
+32:31 time and then you don't have to like
+32:33 worry as much about you know it's the
+32:35 waiting game. If you do run four or five
+32:38 at the same time does it go any slower
+32:40 or how does that work? They're single
+32:42 threaded on our end. So like um you know
+32:45 if you have three or four in your
+32:47 account it's not uh it has no impact on
+32:50 the speed of your right experience.
+32:53 You're not you're not throttled or
+32:54 anything like that. No. Um interesting.
+32:57 All right. So we got a a test fail on
+32:59 converting markdown to HTML which is not
+33:01 totally surprising. So it'll be
+33:03 interesting to see if um if string
+33:05 recovers.
+33:08 It's an emotional roller coaster just
+33:10 vibe coding and vibe marketing, you
+33:12 know, because with the fail the tests
+33:14 and the failures and then it works.
+33:17 Yeah. Well, you know, one of the we we
+33:19 talk a lot about these AI tools, at
+33:20 least internally, is like there's this
+33:24 like magical experience when you get
+33:27 something to value. You know what I
+33:28 mean? It's like my best example is the
+33:30 first time I used Bolt and I clicked the
+33:32 button and then it showed me a website.
+33:35 you know, that was like the hit. That
+33:36 was like the the dopamine hit, you know,
+33:38 like it worked. And what's kind of
+33:40 interesting is I've found that when you
+33:42 hit errors and recover in some ways,
+33:44 sometimes you get a little bit more of
+33:46 that like I'm making progress. Like it's
+33:48 I'm getting that hit again and again.
+33:50 Um, you know, so it's um I don't know.
+33:53 It's been my own kind of vibe coding
+33:56 experience.
+33:57 Okay, so it says test failed then it
+33:59 tested successfully. Yeah, we could kind
+34:02 of like try to go in and and uh see what
+34:06 happened. I'm wondering if um yeah, it
+34:08 looked like it was just like a, you
+34:10 know, bad code on doing that
+34:11 transformation. It looks like here it
+34:15 did. Does look like it got it. So, this
+34:16 is just kind of like a little preview of
+34:18 the text. It looks like it got to
+34:19 success. Um let's see if where we are
+34:22 now. Sly sent chat. Okay. Um let's see
+34:27 if it if it gets all the way through.
+34:30 You know our hope of course is that the
+34:32 user never has to look you know at like
+34:36 you know JSON or output or open and pipe
+34:39 dream. That's the goal right um you know
+34:43 today the more sophisticated you are and
+34:45 the more technical are obviously you'll
+34:47 be more powerful at these tools than
+34:48 than non-technical people right. Um
+34:52 okay so here it is. It's it looks like
+34:54 our prompt is is going to be something
+34:57 about seamlessly onboarding new clients.
+34:59 Um let's see with slow manual onboard
+35:03 process loss revenue. Okay, it's like
+35:05 pitching. All right, we got one more
+35:07 error. Let's see what we got.
+35:10 If we don't hit this one, we um Oh,
+35:12 interesting. It's going right to Gmail.
+35:13 So, let me go ahead and just see what we
+35:16 got out the other side.
+35:19 I just used a demo Gmail account. So,
+35:23 my gut is given we had one error, I
+35:25 guess I'm skeptical to it's going to
+35:26 work on the first try, but we'll see.
+35:29 We'll see. Mhm. You're right, though.
+35:32 When it does, you know, when you do fall
+35:34 and recover, it does give you that
+35:37 dopamine hit. Like right now, I have
+35:39 that uneasy feeling in my stomach.
+35:42 The slot machine, but you you haven't
+35:44 gotten the results yet. Totally. I'm
+35:46 like getting anxious. I'm like, "Oh my
+35:48 god, is this going to work?" Yeah, I'm
+35:51 uh I'm skeptical, but let's see. Um
+35:53 let's see if this All right, we got
+35:55 something. Let's see. Okay. Um it's not
+35:58 actually that bad. The the thing the
+36:00 error I was getting earlier this morning
+36:02 was it was like not converting the
+36:03 markdown to HTML. So it'd be like this
+36:06 kind of like garbage. All right. So
+36:08 today's automation idea intelligent
+36:10 client onboarder orchestrator. Um, so
+36:13 it's basically saying, you know, many
+36:15 businesses have slow onboarding
+36:17 processes. Imagine end automation that
+36:19 transforms clients. All right, not not
+36:21 too bad. Um, it's going to do this
+36:24 automation. It's giving some ideas.
+36:26 Probably don't need to read through all
+36:27 this. Um, here's the generated prompt
+36:30 seamless and then I'll I'll just click
+36:32 here. Let's see if it works. It's gonna
+36:35 seamlessly onboard new clients with
+36:37 automated workflows. Now, I mean, if I
+36:39 click this, it's not going to solve my
+36:41 problem. It's a little too generic, but
+36:45 I'm pretty happy. Like it went end to
+36:47 end, you know, it got something like I
+36:49 wouldn't be embarrassed if you know this
+36:51 email went to like a customer or an
+36:53 internal team, you know? I mean, like
+36:54 for I don't know how long that was, 10
+36:56 minutes, you know, not too bad. Yeah.
+36:59 And I think like this is step one,
+37:02 right? Like you can make it better from
+37:03 here. Yeah. So I think that's a part of
+37:06 it, right? Yeah. I love that it's
+37:09 selling competitors in the in the email
+37:12 about Pipe Dream.
+37:14 Bad string. We got to work on that.
+37:17 It's just it's uh it's doing the best it
+37:20 can. Yeah. Well, again, these things are
+37:22 based on historical data. So, it's like
+37:24 it's interesting when you launch a new
+37:25 product like string, I always wonder
+37:27 myself like how long before, you know,
+37:30 open AAI is going to recommend this in
+37:33 chat GBT to customers, right? It's like
+37:35 it could take could take months, you
+37:37 know? I it depends on how good they are.
+37:39 And I don't know if you're seeing that
+37:40 in your business, but like I checked
+37:42 last week and now it's like a third of
+37:44 the traffic to our website is coming
+37:46 from AI, you know, chat bots, you know,
+37:49 rather than Google. So it's um it
+37:51 matters, right? These new products are,
+37:53 you know, important to get in the
+37:55 system. Todd, thanks for coming on. If
+37:58 people want to get started, well, first
+38:00 of all, I should make make mention I'm
+38:02 not involved in string at all. You know,
+38:04 I just invited Todd on to to show this
+38:06 product. I think this is an interesting
+38:08 product. I'm starting to use it. I'm
+38:10 trying to get good at it. And that's why
+38:13 people I think like listening to the
+38:15 show is I bring on interesting founders
+38:18 building interesting tools to help
+38:20 people save time, make more money and
+38:22 propel their startup ideas, you know, in
+38:25 into reality. Um, so I wanted to just
+38:28 say that. But Todd, if people want to
+38:31 use string, what is the best way to get
+38:34 started? like you know it is a bit
+38:36 daunting to look at a blank screen what
+38:38 do you want to automate so do you have
+38:40 any you know I guess advice for people
+38:43 yeah well the first thing I would say is
+38:44 thanks for having me on the podcast I'm
+38:46 a big fan of yours and and consume a lot
+38:48 of your content and I appreciate kind of
+38:50 what you're doing for entrepreneurs and
+38:52 small business owners and so thanks for
+38:54 being thanks for having me here um I I
+38:58 would recommend starting with like
+39:00 everyone has in my opinion one to two
+39:02 hours of just operation ational BS they
+39:06 have to do every day in their job,
+39:08 right? It's like the things that people
+39:10 generally like doing the least and it's
+39:12 like the kind of grind of being a
+39:15 knowledge worker. And I always say like
+39:16 just start there. Start with something
+39:18 you spend, you know, 15 minutes a day
+39:21 doing or an hour a week doing or a few
+39:23 hours a week doing. Don't try to create
+39:26 an AI salesperson that like closes deals
+39:29 for you as your first agentic product,
+39:31 right? It's just like automate something
+39:34 that you have to do that you don't like
+39:35 doing that would save you time or money
+39:38 and then you know kind of iterate and
+39:40 get more complex from there because
+39:42 otherwise I found that people they dive
+39:44 right in the deep end something doesn't
+39:46 work and they go this stuff doesn't work
+39:48 and I don't think it's a string issue
+39:49 that's just a vibe coding vibe
+39:52 automation whatever you want to call it
+39:53 issue so it's like start smart small
+39:56 solve a real problem get to value and
+39:58 then you know you'll understand at that
+40:02 what edges you can push in terms of
+40:04 complexity and and value. All right,
+40:06 man. Thanks for coming on. Appreciate
+40:08 you. Awesome. Saturday podcast only from
+40:10 now on. Yeah, I told Todd so we're
+40:13 recording this on a Saturday. I was
+40:14 like, this is an emergency podcast. I
+40:16 was texting with him last night. I was
+40:18 like, I need to understand string, so
+40:21 you got to come on. And uh thank you.
+40:24 Thank you for spending your Saturday.
+40:26 And people uh like, comment, subscribe
+40:29 uh if you want more of this in your
+40:30 feed.

@@ -1,0 +1,522 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=7l6XfYtX2Vs
+Channel: Riley Brown
+Video ID: 7l6XfYtX2Vs
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 Chat GBT and Claude are basically the
+0:02 same tool except for this one feature
+0:07 called MCP. When you properly set up
+0:09 this feature right here, Claude becomes
+0:11 10 times better than chat GPT. Once you
+0:14 set this up, Claude becomes a full AI
+0:17 agent equipped with all of the tools
+0:20 that it chooses to use. It chooses when
+0:23 to use each of these tools. And in this
+0:26 video, I'm going to show you exactly how
+0:27 to set this up. some example workflows
+0:30 that I use to do research, create
+0:32 content, generate thumbnails, all from
+0:34 the comfort of my chatbot LLM. And this
+0:38 is something that ChatGBT just doesn't
+0:40 have access to right now. Let's not
+0:42 waste any time. Let's begin setting it
+0:44 up. So, if you haven't already, you need
+0:46 to get Claude and not the web version of
+0:49 Claude. What you need is the desktop
+0:51 version of Claude. So on your browser,
+0:53 just type in desktop download and this
+0:56 will take you to this page right here
+0:59 and then download it for whatever
+1:00 computer you have. I have a Mac. Once
+1:03 you have Claude downloaded, your screen
+1:05 will look a lot like this. And if you
+1:08 hover over tools and you click on it,
+1:11 you won't see anything down here. So
+1:14 Claude Sonnet 4 is an agent. Claude Opus
+1:17 4 is an even more powerful agent. They
+1:20 are agents out of the box. As soon as
+1:22 you download Claude, they are an agent.
+1:26 And an agent is just an AI that can use
+1:29 tools in a loop. So it isn't an
+1:33 automation, meaning if one thing
+1:35 happens, then this thing happens. When
+1:37 you chat with it, it will decide what
+1:40 tools to use. And these are all of the
+1:43 tools that it can use. When you're just
+1:45 now starting out on Claude, you won't
+1:47 see anything here, right? And right now
+1:49 I deleted all of the tools that I
+1:51 normally have access to and we're going
+1:53 to be adding them. And you can
+1:54 theoretically have 200 to 300 different
+1:57 tools that your Claude agent can access
+2:00 every time you ask it a question or tell
+2:01 it to do something. You just need to
+2:04 understand how to give it access to the
+2:06 most powerful tools in the world. And
+2:08 for this we're going to be using the
+2:10 Docker MCP toolkit. So we are going to
+2:13 go to docker.com and we are going to
+2:15 download the docker desktop for whatever
+2:18 computer you have. And again I have the
+2:21 Mac. So once we download docker our
+2:23 screen will look a little bit like this.
+2:25 And you're going to notice here that we
+2:27 have this MCP toolkit beta over here on
+2:31 the left. And here you see that we can
+2:33 now add MCP servers. Before we enable
+2:36 any servers, what we need to do is go to
+2:38 clients and we need to actually enable
+2:41 the cloud desktop. So once I've enabled
+2:43 the cloud desktop, it'll say disconnect
+2:45 and that's exactly what you want. And
+2:47 then we can go back to servers. So the
+2:50 first tool that we're going to add is
+2:52 notion. So we're going to click on this
+2:54 plus sign and we're going to see here
+2:57 that it shows tools 19. All of these
+3:01 tools are basically subtools that the
+3:05 Docker MCP for Notion has access to. Let
+3:10 me explain. First, I want to explain
+3:12 what this isn't. This isn't an
+3:14 automation. Many of you have heard of
+3:16 Zapier, which is notorious for workflow
+3:19 automations where if a trigger event
+3:21 happens, a certain action happens like
+3:24 adding it to notion, adding it to Google
+3:26 Drive, right? And there can be follow-up
+3:29 actions, follow-up actions, follow-up
+3:32 actions, and there can even be splits,
+3:35 right? If an action happens, if that
+3:37 action is of type A, then it will do one
+3:40 thing. And here it will add it to drive,
+3:43 right? It's not even this. What MCPs are
+3:47 is basically when you send a message to
+3:50 Claude, it's going to actually decide
+3:54 which tool to use. And remember in
+3:57 Docker I showed you that within this
+3:59 notion uh tool we have 19 different
+4:02 tools. So you can basically just plug
+4:04 these in right here. Now this claud
+4:07 agent is now equipped with these 19
+4:09 different tools. Meaning if you ask it
+4:12 it can create a comment in any notion
+4:14 database. It can create a database. It
+4:17 can delete a block within a notion page.
+4:19 It can get a block. It can post a
+4:23 database query. Right? It can search
+4:25 your database. It can do all of those
+4:27 things. And if you add up enough of
+4:29 these tools, it can do basically
+4:31 anything in Notion that a human could
+4:33 do. It can navigate, create, delete, and
+4:37 edit. Very similar to how um cursor can
+4:42 navigate a codebase, edit, delete,
+4:45 search the web. It's a very similar
+4:47 process. So, if we want to give Claude
+4:50 the ability to do all of those different
+4:52 things within notion, what we need to do
+4:55 is enable it. And we've already done
+4:56 that, right? We enabled this server. And
+4:59 once you enable a server, you will see
+5:01 it in this servers tab, right? And when
+5:04 we click on this, the last thing that we
+5:05 need to do is we need to get our Notion
+5:08 integration token. And all you need to
+5:11 do to get this, you're going to press on
+5:14 the side panel. You're going to scroll
+5:15 all the way down and you're going to hit
+5:17 settings. Within settings, what you're
+5:19 going to do is you're going to click on
+5:20 connections. And now you're going to
+5:22 press on develop or manage integration.
+5:26 Okay. Now, what we're going to do is
+5:27 we're going to create a new integration.
+5:29 We're going to do is we're going to keep
+5:30 this internal. We're going to choose
+5:33 whatever workspace you want to use. Oh,
+5:36 we have to add a name. I almost forgot.
+5:38 And we're going to call this agent
+5:41 powerups. Whatever you want to call it.
+5:43 We're going to hit save. And now we can
+5:45 configure this integration. So wait, why
+5:47 do we even have to do this? The reason
+5:49 we have to do this is because we're
+5:50 adding this notion tool, but so we need
+5:52 to actually sign in, right? We're
+5:54 getting a code that's connected to our
+5:56 account. Not only that, the reason why
+5:58 we have to create a custom integration
+6:00 is we're deciding which exact pages
+6:02 within our notion database Claude will
+6:04 have access to. And so in this case, uh
+6:07 we are giving it access to whatever
+6:09 accounts that we want, right? So, if we
+6:11 go to the notions integrations that we
+6:13 just had open, we get to choose exactly
+6:15 what the capabilities are. I turn all of
+6:18 the capabilities here on. I want it to
+6:20 be able to read comments and insert
+6:22 comments. Now, press on access. And now,
+6:25 we're going to select the pages. And
+6:26 we're going to go to team spaces. And
+6:28 I'm going to enable agent mind. Agent
+6:32 mind is my space that has one uh main
+6:37 page or database called agent
+6:39 instructions. And so I'm going to hit
+6:41 update access. And if we go to notion,
+6:45 what we can do now is we can actually
+6:47 click on agent instructions. And here is
+6:50 everything that my claude will have
+6:54 access to. And notice how I'm literally
+6:57 creating this for AI. I'm saying here
+7:01 are your instructions if you're reading
+7:02 this AI agent, right? This is all of the
+7:06 SOPs. So, basically all of the
+7:08 instructions on how to create content.
+7:10 You can see here we have short form
+7:11 hooks, long form hooks, podcast research
+7:14 instructions, a list of a bunch of my
+7:16 good tweets, a bunch of my good short
+7:19 form content, long form tutorial
+7:21 examples, etc., etc., etc., how to use
+7:24 certain tools. I'm now creating this for
+7:27 AI. I'm basically planning over the next
+7:30 year, two years, we are going to have AI
+7:32 do as much as we possibly can. And so
+7:36 now that we've created this integration,
+7:38 right? Remember at the beginning in this
+7:40 configuration we generated this code.
+7:43 What we're going to do now is we are
+7:45 going to hit show and we're going to
+7:47 copy this code. I'm going to do it off
+7:49 camera because I don't want anyone else
+7:50 to have access to my notion page. So
+7:53 we're going to go back to Docker and now
+7:55 we are going to paste that token right
+7:57 here. So, I just paste in my notion
+8:00 token. And what you need to do after you
+8:03 set up any of these tools is you need to
+8:05 go to you need to hit back. And now what
+8:08 you're going to do is you're going to go
+8:09 to clients and you're going to
+8:10 disconnect Claude. And you're going to
+8:12 come down to Claude and you're going to
+8:13 quit Claude. So, we just closed out
+8:16 Claude. And now what we're going to do
+8:18 is we're going to hit connect and we're
+8:20 going to reopen Claude. And then we're
+8:22 going to wait about 10 seconds just to
+8:25 give it some time to load. Right. And so
+8:27 now if we were to click on this right
+8:29 here, we should see this MCP Docker and
+8:33 remember there was 19 tools within that
+8:35 notion integration and we're going to
+8:37 see those same 19 tools listed right
+8:41 here. Okay, so now we have Claude open
+8:43 and we're ready to use these new tools
+8:46 that we have access to, which is these
+8:48 Docker notion tools. So let's start off
+8:52 pretty simple. I want you to do some
+8:55 research on the new Dia browser and I
+8:58 want you to go into the how to create
+9:01 content SOPs database. Find the short
+9:04 form hooks that I've listed there and I
+9:06 want you to use those um in your um I
+9:11 want you to use those in your content
+9:13 scripts um or as influence for your
+9:15 content scripts to write short form
+9:18 content on the DIA browser, the AI
+9:21 browser that was released. And I want
+9:22 you to place one document in the content
+9:26 database that has three versions um or
+9:30 yeah three different options for a short
+9:32 form script all with hooks based on the
+9:35 uh short form hooks in the how to create
+9:37 content SOPs. You are using the notion
+9:41 uh docker tool and we are going to run
+9:44 this and as you can see here it is using
+9:47 the browser tool. Now it is using this
+9:49 API post search tool. It is using a post
+9:53 database query. And notice these are all
+9:55 tools that are within this docker notion
+10:00 tool. And so perfect. Now let me get a
+10:02 second table to see if there are more
+10:03 hooks. Uh I can see there. Okay. And so
+10:06 now it's grabbing right. It is taking a
+10:08 look at this database right here. And
+10:10 it's looking for these short form hooks
+10:12 and it found them. Great. I have all the
+10:14 hooks from your SOP's database. Now let
+10:16 me find your content database. And so
+10:19 now it's going back here. content
+10:20 database. And now it's going to try
+10:22 creating a page in this. Let's see if
+10:24 it's able to do that. Boom. DIA browser
+10:26 short form content scripts. It added
+10:29 that. We can open this up. Let's go
+10:31 ahead and open this up full screen.
+10:33 We're going to see um great. Now I'll
+10:35 add the content to this newly created
+10:36 page with three different short form
+10:39 script options for the DIA browser. And
+10:42 so it's going to automatically just do
+10:44 this for us. Boom. Option one. It feels
+10:46 illegal to know. This feels illegal to
+10:49 know, but there's a new browser that can
+10:51 literally do your work for you. It is
+10:53 called DIA. And it's not just another
+10:55 Chrome alternative. This thing can chat
+10:58 with all your open tabs. And look at
+10:59 this. It's adding even more, right? And
+11:01 the second one that it's using is
+11:03 everyone is doing Y, but you should be
+11:05 doing X. Everyone is still using Chrome
+11:08 like it's 2015, but they should be using
+11:11 AI browsers instead. Look at how good
+11:14 that is. And by the way, and I'm going
+11:17 to show you the the the And so there is
+11:19 number three. The hook that it's using
+11:21 is you're not going to believe what I
+11:23 just found out. You're not going to
+11:24 believe what I just found out about the
+11:26 future of web browsing. That is amazing.
+11:30 So it created these three short form
+11:32 scripts, right? Look at that. It just
+11:36 created that. You watched it happen
+11:37 live. the the AI agent within Claude was
+11:41 controlling basically controlling or
+11:44 adding things to notion based on SOPs
+11:48 that I had created previously. If we go
+11:50 into agent mind agent instructions and
+11:52 we click on how to create content SOPs,
+11:55 we'll actually find all of these right
+11:57 here. Right? We remember one of them was
+12:00 illegal, right? We can type in illegal.
+12:03 It feels illegal to know. So use this as
+12:05 inspiration. Okay. So now I want to do
+12:09 some other actions. I'm going to say I'm
+12:11 what I'm going to do is I'm just going
+12:12 to take this page and I'm just going to
+12:14 say on this page in notion using the
+12:18 Docker MCP tool, I want you to add
+12:20 comments on this giving me other options
+12:22 for hooks and a few other things that I
+12:25 could change. Give me some interesting
+12:27 things that I could do. And there we go.
+12:29 Now it's using some tools. Great. I
+12:31 found your page. Let me retrieve the
+12:33 content. So now it is get block
+12:35 children. I think this just basically
+12:36 means ret um read the page because all
+12:39 of these are children under this name of
+12:43 this page. I think that's kind of how
+12:45 they conceptualize it. I'm not fully
+12:47 sure certain. So now it's creating a
+12:49 comment. Let's see where it creates the
+12:51 comment. Let's see if it creates it here
+12:52 or actually on the document itself.
+12:55 Okay, it added a comment right here.
+12:57 Alternative hook variance instead of
+12:59 this feels illegal to know and it added
+13:01 it up here. This is not supposed to be
+13:04 public yet. Delete this after you watch
+13:06 it. My manager would kill me if they
+13:08 knew I was sharing this. I probably
+13:10 shouldn't be telling you this, but look
+13:12 at this. Body enhancement ideas books
+13:15 appointments while in a meetings. And so
+13:17 it's literally giving us ideas about the
+13:20 content and that is really cool and it's
+13:23 adding many different comments. Okay, so
+13:25 now for the really fun part. Now what we
+13:28 can do is we can actually go to projects
+13:29 and now we can think of each of these
+13:31 projects like a person or an AI agent
+13:36 that has certain abilities or certain
+13:39 instructions or a certain set of skills.
+13:41 For example, let's go new project and
+13:43 let's call this content uh greater. And
+13:46 what we're going to do is we're going to
+13:48 create this project and we're going to
+13:50 give it instructions. You are claude and
+13:52 you have access to docker MCP tool with
+13:55 all of uh notion tools within it. You
+13:58 have 19 different notion tools that you
+14:00 can use. What your job is to do is to
+14:02 grade the content that gets created. And
+14:06 so whenever I say grade this, I want you
+14:11 to please comment directly on the notion
+14:14 page. Do not comment on the whole page.
+14:17 comment on the specific blocks within
+14:19 the page that you want to comment on and
+14:22 add a ton of comments and tell me where
+14:24 I should change things, tell me
+14:25 different things that I could add, give
+14:27 me different options, but you should be
+14:29 adding many comments on different parts
+14:31 and that is your job as an agent. And so
+14:35 now what we can do is we can save these
+14:38 instructions. Now all we need to do, we
+14:40 can just copy this right here and we can
+14:42 paste it in. And I'm just going to say
+14:44 grade this. And now it says, "I'll help
+14:46 you grade this." And now it's using
+14:47 those same tools. And notice how I
+14:49 didn't have to explain everything this
+14:51 time. I could just say, "Grade this."
+14:53 And I want you to realize that I made a
+14:56 brand new project for this command, but
+14:58 I could just create a ton of different
+15:00 commands in one single project and just
+15:02 be able to have these go-to things that
+15:05 I can say to grade this, right? I could
+15:07 add a grade this. I could add a research
+15:09 this. I could add all of these different
+15:11 things that when I say it, it will go
+15:14 out and do all of these different steps.
+15:16 And yeah, look at this. As you can see
+15:20 here, it is now commenting on specific
+15:22 parts of the video. Strong opening. You
+15:25 immediately establish credibility by
+15:26 blah blah blah blah blah. Excellent
+15:28 hook. This feels illegal to know is a
+15:30 perfect curiosity gap. Very cool. And
+15:33 it's commenting directly on the script
+15:35 here. And here it says, "Great copy
+15:37 structure. Love the bullet points for
+15:39 scannability. Consider adding specific
+15:42 time savings. Ex uh saves two hours a
+15:45 day. Very interesting." And it's
+15:47 basically just going to continue to add
+15:50 comments here. And as you can see here,
+15:52 it's literally adding comments for every
+15:54 single line, which is absolutely insane.
+15:58 Time to have a little bit more fun.
+15:59 We're going to actually add another
+16:01 tool. So, we're going to come back to
+16:02 Docker. these tools within Claude and
+16:05 we're going to just type in glyph and
+16:07 we're going to add glyph. Once we add
+16:10 glyph, we're going to see two tools in
+16:12 our server. And you'll see here that it
+16:14 says secrets required. This means we
+16:17 need to click on it and we need to go to
+16:19 configuration and we need to give it two
+16:21 secrets here. And so what I'm going to
+16:23 do is I'm going to go to glyph.app. And
+16:26 what you'll see here is a bunch of
+16:30 glyphs or workflows. And what we can do
+16:33 is we can actually create a workflow,
+16:36 but I'm actually going to use one that
+16:38 I've already created. So, I'm going to
+16:39 go to my glyphs. And I have this
+16:42 thumbnail ideiator photorealistic tool,
+16:45 which allows me to type in an idea video
+16:48 about using MCPs to make Claude so much
+16:51 better. And it makes it absolutely
+16:53 amazing because I can give the AI agent,
+16:55 which is Claude, access to tools. This
+16:57 glyph allows me to type in my idea like
+16:59 I did right here and hit run this glyph.
+17:02 Now what it's going to do is it's going
+17:03 to take my input and it is going to go
+17:06 through this workflow and what it's
+17:07 going to do is it's going to take the
+17:10 text output here and it's going to
+17:12 generate five different images and then
+17:15 it's going to put it on a canvas and as
+17:17 you can see here it created this uh
+17:20 image right here. So it literally
+17:21 created these five thumbnails and it
+17:24 uses this workflow. uses the chat GPT
+17:26 image model. If you want to hit edit,
+17:29 right, you can actually see that it use
+17:31 it splits it up into this JSON format.
+17:34 And this is a whole video in and of
+17:36 itself. And what you can do is you can
+17:38 actually just snag this title right
+17:40 here, this idealistic.
+17:42 And what we're going to do is we
+17:44 actually need to go to our profile. So
+17:47 we need to click on our profile and we
+17:48 need to go to settings. And what we need
+17:50 to do is we need to click on API. Once
+17:52 we click on API, we now have two
+17:55 different tokens here. What we need to
+17:57 do is we need to create a new API token.
+17:59 And so I just named it token. Now I'm
+18:01 going to copy it. And now we're going to
+18:03 go back to Docker and we're going to
+18:04 paste the secret in right here. And we
+18:07 are going to hit this plus sign. Now it
+18:10 shows 10 different tools here. And one
+18:12 of those tools is, you know, it has all
+18:14 of these tools that we can use right
+18:16 here. But remember, we just added a new
+18:17 tool. So, we need to go to clients,
+18:19 disconnect the clawed uh desktop. We're
+18:22 going to quit the desktop. And what
+18:24 we're going to do is connect and reopen.
+18:25 And this is going to open this up. And
+18:27 now what we can do is if we press on
+18:29 this right here, and we can see MCP
+18:32 Docker. And and you notice here that it
+18:35 says 29 different tools. So, we now have
+18:38 all of those glyph tools right here,
+18:40 which is my glyph, user info, my glyphs,
+18:43 remove all my glyph tools, remove glyph
+18:45 tool, run glyph, save glyph, search
+18:48 glyphs. So, this is very cool. So, now
+18:52 we can say what are my glyphs? Just list
+18:56 them. Claude would like to use an
+18:58 external integration. We're going to hit
+18:59 always allow. And it is loading. Here
+19:01 are my glyphs. So, thumbnail idealistic.
+19:04 So now what I'm going to do is I'm going
+19:05 to say search my notion database find
+19:09 the uh content script on dia browser and
+19:14 use the thumbnail ideiator photo
+19:18 realalistic glyph on that. And now it is
+19:21 running the glyph. And so it basically
+19:24 went through all of these different
+19:25 steps and it didn't actually output the
+19:28 link to the glyph like the output of the
+19:31 glyph but here it is. So, if we click on
+19:33 this and we hit open link, we'll see
+19:36 that the DIA browser AI does your work.
+19:39 Browser revolution, never browse again,
+19:42 multitasking revolution, browser from
+19:45 the future, 5 hours verse 5 minutes. It
+19:48 has five decent thumbnails, right? And
+19:50 there's tons of useful tools that you
+19:52 can do, right? You can add get YouTube
+19:54 transcript. You can also add an Obsidian
+19:57 integration. You can also add EXA. So
+20:00 like this is an alternative to uh the
+20:03 search feature that's built directly
+20:05 into Claude. You can have additional
+20:07 search options. That's what exit does.
+20:09 And again, all of these do require an
+20:11 API key, but you can just go to Claude
+20:12 and say, "Search the internet. Tell me
+20:14 exactly where to get the configuration
+20:16 key for this." And then one of the most
+20:18 popular is Slack. So you can add your
+20:20 Slack team ID, Slack channels ID, and
+20:23 Slack bot token. Now, all of these could
+20:25 be videos on their own, but it is all
+20:28 about mixing and matching whatever tools
+20:30 that you want to give Claw to make it as
+20:32 powerful as you want because you can
+20:34 give it the proper context to do the
+20:37 tasks that you want and to retrieve the
+20:40 best information so that it can answer
+20:42 your question and be the smartest AI
+20:44 agent that can help you basically do
+20:46 everything. And that is the essence of
+20:48 MCPs. And I really really hope this
+20:50 tutorial was helpful and I'll see you
+20:52 here in the next

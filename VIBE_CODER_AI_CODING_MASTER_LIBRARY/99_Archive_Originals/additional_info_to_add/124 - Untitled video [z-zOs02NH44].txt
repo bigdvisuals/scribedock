@@ -1,0 +1,842 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=z-zOs02NH44
+Channel: Riley Brown
+Video ID: z-zOs02NH44
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 in this video I'm going to show you how
+0:02 you with zero coding experience can
+0:04 create a full web application in less
+0:07 than 5 minutes with this simple template
+0:11 this template will give you a working
+0:13 application that will have database
+0:16 storage and authorization meaning you
+0:17 can sign in as a user and other people
+0:20 can sign into your application and then
+0:22 you can just add things on top of it by
+0:25 talking to Claude and the first time you
+0:27 set this up which we're going to go over
+0:28 the full setup in this video video this
+0:30 process will take 15 minutes every other
+0:33 time you do this it will take 5 minutes
+0:36 to create a full application that will
+0:38 have many different pages a database
+0:41 you'll be able to upload posts and send
+0:43 a link to your friend so that they can
+0:45 sign into your application we're using
+0:47 Claude to generate the code and we're
+0:50 using repet to run the code and the
+0:52 template link is a repet file which is a
+0:55 collection of code files we've generated
+0:57 with Claude and so we are going to be
+1:00 talking about how to set this up so that
+1:03 every single time you want to create an
+1:04 app you can make the foundation to the
+1:07 app in about 5 minutes because this so
+1:09 far has been the most timec consuming
+1:11 thing for me actually getting the
+1:13 project off the ground and started and
+1:15 so we're going to go over this process
+1:18 right here and it is very simple and
+1:20 it's going to start off with simply
+1:22 downloading the link downloading all the
+1:24 files from your repet and pasting them
+1:26 into Claude this will give Claude
+1:30 intimate knowledge of your repet
+1:32 template that you can use every single
+1:34 time you want to create a new
+1:36 application and then every single time
+1:38 you're going to have to just set up the
+1:40 a new Firebase project and so this
+1:43 process may look like it'll take a while
+1:45 it doesn't this whole process takes
+1:48 about 4 minutes and you just basically
+1:50 need to really pay attention to this
+1:52 step right here which is to properly
+1:54 copy and paste your tokens into repet
+1:57 this will connect your repet codebase
+2:00 with your Firebase storage
+2:03 authentication and database and this
+2:06 basically connects everything together
+2:08 so that Claude can generate code for
+2:10 your codebase in repet so they can all
+2:13 communicate and everything can be stored
+2:15 properly and we're going to go over this
+2:17 process in this video and we're going to
+2:19 show you how far we get with only five
+2:21 prompts and you're going to realize that
+2:23 you'll be able to create the application
+2:25 that you want anyway let's dive into it
+2:29 let's go ahead and begin at the first
+2:31 step which is open the template link
+2:34 this will take you to this page right
+2:37 here and we're just going to hit use
+2:39 template we can just make it public
+2:41 private doesn't matter and we're just
+2:43 going to hit use template this is where
+2:46 we're going to be putting the code that
+2:48 Claude gives us if it looks intimidating
+2:50 to you if you've never been in a code
+2:52 base don't worry a month ago I was
+2:54 scared shitless of this but it gets it
+2:58 gets easier The Next Step we use the
+3:00 templates the first thing that we're
+3:01 going to do is we're just going to
+3:02 download the zip files in order to
+3:05 download the zip files you're going to
+3:06 go to your files right these are all of
+3:09 the files that make up your app and
+3:13 we're going to hit download as a zip
+3:16 this takes like 10 to 20 seconds to
+3:18 fully download and then you're going to
+3:20 go to
+3:22 Claud once we get to Claud the first
+3:26 thing that we're going to do is we're
+3:28 going to create a project we're going to
+3:29 come up to this top bar we're going to
+3:31 hit projects and we're going to hit
+3:33 create projects and we'll just call this
+3:36 the same thing I recommend calling it
+3:38 the same thing you called your app just
+3:39 to keep everything organized and that
+3:41 will stay consistent throughout the next
+3:43 steps as well so voice note app and
+3:48 we'll hit create
+3:50 project now what Claude can do is Claude
+3:53 can actually
+3:55 have project knowledge or files that you
+3:59 can upload if you remember custom gpts
+4:01 it's very similar to that process we're
+4:03 going to take that zip file that we
+4:06 downloaded earlier of our entire
+4:08 codebase and we are going to download
+4:10 them what's cool about this process is
+4:14 you're going to be able to do this over
+4:15 and over and over again you can use this
+4:18 project every single time all you're
+4:20 going to need to do use the template and
+4:23 then come to this project and create a
+4:24 new chat and you can immediately start
+4:26 making a new app and that's one of the
+4:29 main reasons I I wanted to create this
+4:30 videos I I'm going to use this all the
+4:32 time it's incredibly useful so we're
+4:35 going to open this
+4:36 up we basically need all of the files in
+4:40 here except for a few so we want to make
+4:42 sure that we get and correct me if I'm
+4:44 wrong here we're going to want all of
+4:46 the ones in Source right yeah okay all
+4:51 so all the ones in source and for
+4:53 whatever reason you can't upload folders
+4:55 so if you select a folder and you try
+4:57 and upload it it'll it'll give you an
+4:58 error and you have to upload all of them
+5:00 again so all of the ones in source and
+5:03 all of the sub file you're going to want
+5:05 what other ones you can do the others
+5:07 they're not that big but we yeah you can
+5:10 do all those three at the bot four at
+5:13 the bottom okay so all these four at the
+5:16 bottom we just don't want any of the
+5:17 node modules right no none of those
+5:20 index and then package.json not the lock
+5:22 not the lock the package that Json and
+5:26 the post CSS config so that's all of
+5:30 them right yeah that's all of them and
+5:32 yeah we don't need anything from public
+5:34 but if you guys make a project where you
+5:36 have images you can upload those but we
+5:40 we don't need these let's go ahead and
+5:42 drag them in so you just drag all these
+5:44 files here and they're going to load up
+5:46 it should be like 5 to 10% I guess it's
+5:49 a small project so it's going to be
+5:51 3% and that's good now what you're going
+5:54 to do after you've done this is you're
+5:56 going to come to this whiteboard here
+6:00 and you're going to copy these
+6:02 instructions and we are just going to
+6:04 paste these into these custom
+6:09 instructions and you're creating an app
+6:12 in react and typescript we are using a
+6:15 replit template that starts with these
+6:17 files so the cloud project knows exactly
+6:22 where you're going to be starting your
+6:23 project every single time you want to
+6:25 create an app with this template which
+6:27 is super useful and so we're just going
+6:29 to save these instructions and I
+6:33 believe we're going to add in the prompt
+6:36 now we're going to pause what we're
+6:38 going to do is we're going to go to
+6:40 Firebase so we're going to
+6:42 firebase.com and you're going to create
+6:44 an account it's free you're going to go
+6:46 to
+6:48 console and I guess can you quickly
+6:51 explain why we're using
+6:54 Firebase yeah Firebase makes a lot of
+6:56 the hard Parts about building an app
+6:58 really easy so they handle stuff like
+7:00 authentication storing data storing
+7:02 files so you don't really have to think
+7:06 about them or write too much code to do
+7:07 any of that stuff so we'll just use
+7:10 Firebase uh to do all those things like
+7:12 log in users to save their data to save
+7:15 like images they upload or anything like
+7:17 that let's go through this process and
+7:18 this will allow you to set up a database
+7:20 authentication and storage database
+7:22 meaning all of just like the the text
+7:24 data and the simple dat I don't know how
+7:28 to distinguish it from Storage I gu
+7:30 storage would be files like anything
+7:32 that needs to be a file like images
+7:34 audio files if you could if you can put
+7:36 it in an Excel spreadsheet then it would
+7:38 be in the database if you can't put it
+7:40 in the Excel then it would be in the
+7:41 storage that's the way that I think
+7:42 about it create a project create a
+7:44 project and what was the name of the
+7:46 project that I was using voice note app
+7:49 yeah voice note something like that
+7:50 voice note app template demo and we're
+7:54 going to go like this and we are not you
+7:57 can always change this later for now I
+8:00 recommend taking the least amount of
+8:02 steps as possible you do not need to
+8:03 enable Google analytics so we're going
+8:05 to go ahead and create this project this
+8:09 will take a few minutes so we've gone to
+8:11 Firebase we went to console we created a
+8:14 name for a project and now we're here on
+8:16 this web icon step your Firebase project
+8:19 is ready let's go ahead and start this
+8:21 up you're just going to press this web
+8:23 icon now we're going to call this voice
+8:28 note app
+8:30 and we are going to register the
+8:33 app this is going to generate these
+8:35 codes here if you're create if you're
+8:39 creating an app for the first time do
+8:40 not share these codes with anyone we can
+8:42 actually open up a split window so on
+8:47 repet there is this firebase.com
+8:59 base the storage and the authentication
+9:01 your app needs to communicate with
+9:03 Firebase the app that we're using and so
+9:05 it uses these codes and these codes are
+9:07 sensitive and anytime you have any codes
+9:09 and this could be an open AI API token a
+9:12 claw API token any of these should not
+9:15 be shared with other people because they
+9:16 can just use them and it could cost you
+9:18 a lot of money it could ruin your
+9:20 project a lot of bad things could happen
+9:23 so the way that we can get around this
+9:25 is we can actually open up this Secrets
+9:28 tab in other code editors it's a EnV
+9:31 file I believe is how it's stored or
+9:34 something yep yep yes and so here ooh I
+9:39 like this that it's open by default it's
+9:42 not it doesn't make me edit them oh it's
+9:43 because we're using a template for the
+9:45 first time that's cool yeah and so what
+9:47 I'm going to do here is I'm going to go
+9:49 to this voice note app template and I'm
+9:51 going to open in split view and so we
+9:54 see here on the right we have our API
+9:57 tokens
+9:59 and on the left here for the API key
+10:01 we're just going to copy whatever's in
+10:02 the API key and we're going to paste it
+10:04 in right here add secret now we're
+10:07 looking at the off domain and I think
+10:10 they should be in order and we're just
+10:12 going to paste these in like
+10:22 so add secret okay so we have completed
+10:28 that step that is probably the most
+10:29 annoying
+10:30 step on Firebase once you've added those
+10:33 codes into repet what we are going to do
+10:35 is we're going to add three things right
+10:37 now we're going to add a firestore
+10:39 database we're going to add
+10:41 authentication and then we're going to
+10:42 add storage let's first start off in
+10:45 order of the diagram we're going to
+10:46 start off with the fire store database
+10:49 this one is so easy you literally open
+10:51 up fir store
+10:53 database all three of these it's going
+10:55 to pop up at the top of the screen
+10:57 create database and now we're going to
+11:00 just hit
+11:01 next here we're going to start in test
+11:04 mode what does test mode
+11:07 mean test mode just means anyone can
+11:10 write anything and read anything from
+11:12 your database so that's why those keys
+11:14 are important but don't worry when
+11:16 you're building your app it's fine you
+11:18 just want to change it to production
+11:19 mode before you start selling it and
+11:21 making it publicly available yeah so
+11:23 we're creating this
+11:25 database and we're done I believe on the
+11:29 database yep we're done once we have it
+11:31 created okay so now we have a database
+11:33 now we're going to go back to build and
+11:35 we're going to go to authentication on
+11:37 authentication we are going to wait for
+11:41 it to pop up at the top we're going to
+11:42 hit get
+11:43 started so you're going to start off
+11:45 with a default application and it's
+11:47 going to be just like a simple social
+11:49 media app and you will be able to sign
+11:51 in it's going to be awesome but like if
+11:53 you think about anytime you've gone to
+11:55 use an app and you sign in you need a
+11:57 way to like separate the different
+11:58 profile files and a lot of the time you
+12:00 can just use your Google account so
+12:02 that's what we're setting up right here
+12:03 so we're setting up this Google account
+12:05 and we are going to just hit enable and
+12:08 then you're going to hit you're going to
+12:10 add in your email it's going to by
+12:12 default populate with whatever email you
+12:15 set this up with so it's super easy and
+12:17 you're going to hit
+12:18 save okay so now we have a database in
+12:22 authentication we're good there we could
+12:24 add other forms of signin but for now
+12:27 when I start out just might as well just
+12:29 do Google you can always add more later
+12:31 you can actually add the domain right
+12:32 now you should just run the app and rep
+12:34 it should
+12:35 work yeah that that's actually really
+12:38 useful actually I think we should get
+12:40 there let's get there when we need it
+12:42 the last thing we need to do is add
+12:43 storage and so as I was saying earlier
+12:46 if it's an image or a video and as
+12:49 you'll see in a second the template app
+12:50 that we have set up you can upload
+12:53 images so these get stored in your own
+12:56 folder so every user has their own
+12:58 folder where own files are uploaded and
+13:00 so we can hit get started now we're
+13:02 going to hit start in test mode once
+13:04 again and we're going to hit next done
+13:08 and I believe that's it yep that's all
+13:10 now we can just run the project let's go
+13:12 back to the diagram though let's see
+13:14 what the diagram
+13:16 says okay so far we went through the
+13:18 Firebase and we added those tokens to
+13:21 the secret folder we created these three
+13:24 things we created a database
+13:26 authentication and
+13:27 storage now
+13:30 I believe that's it right we can run
+13:37 this boom let's go do you want to go
+13:40 over the difference between a web view
+13:42 like in 30 seconds difference between
+13:44 web View and deploy a deployed app for
+13:46 those who are new I didn't get this when
+13:49 I was first starting so the web view is
+13:53 just your app running in the development
+13:56 version so some things will be different
+13:59 like the URLs will be really long that's
+14:03 just how ret does it for those who
+14:06 you're running it on different platforms
+14:08 other than repl it might say local host
+14:10 or something similar but basically the
+14:12 difference is you can't share this with
+14:14 your friends because the moment you
+14:16 leave repet it'll stop running but the
+14:18 deployed version will stay on repet
+14:20 server or wherever else you put it
+14:23 forever until you remove it yeah so you
+14:26 have a Dev domain and when you deploy
+14:29 the app you're giving it a website on
+14:31 the internet that's how I understand it
+14:33 at least and you actually have to tell
+14:35 Google Firebase which stores all of our
+14:38 data you actually have to tell them both
+14:40 of those so we're running this and it's
+14:43 running in the development for me to
+14:44 sign in right I believe that if I were
+14:47 to try and hit this button we're going
+14:48 to get an error and it's going see we
+14:51 yeah so it pops up here and we get an
+14:54 error and it I've ran into this so many
+14:56 times cuz I forgot that I needed to all
+14:59 you need to do is you're going need to
+15:00 come here and you're going to copy this
+15:02 code right here and we are going to go
+15:06 to Firebase and we want to go to this is
+15:11 going to be an
+15:12 authentication you're going to go to
+15:14 settings and we're going to go to
+15:16 authorize domains and you're going to
+15:18 hit add a domain and we're going to hit
+15:21 add now if we come back to this editor I
+15:26 always rerun it every time I like make a
+15:27 change to the front or back or
+15:30 database now if we click sign in it
+15:33 should allow me to sign in which it did
+15:37 and so I'll make this the main account
+15:39 and if we can actually sign into this
+15:41 application in our web view so we can go
+15:45 to the home feed and once you sign in
+15:49 it'll take you to this home feed super
+15:51 boring because guess what no one's using
+15:53 your app um what we can do is we can
+15:56 actually create the first post hi my
+15:58 first post on the template and then we
+16:02 can actually upload a good old image and
+16:07 I'll just include a screenshot of this
+16:09 car here and now we can
+16:11 post and this is our first post we have
+16:16 our first post on this template app and
+16:20 remember we're going to build on top of
+16:21 this but I just want to show you to make
+16:23 everything tangible if you go to your
+16:25 storage you can see your post right this
+16:28 is your user user and then this is the
+16:31 image that we posted we can see it in
+16:33 this storage database and it is already
+16:36 set up we have our application ready to
+16:39 go we can see our profile we can sign
+16:41 out and we can sign back in super easy
+16:45 Once you have this fully set up you
+16:47 literally have a working template that
+16:50 you can use at any given time you can
+16:52 always use this template link to create
+16:55 a new project and then your existing
+16:57 Cloud project as long as you don't
+16:59 change the files or the prompt that we
+17:01 set up you can use that over and over
+17:03 again you can set up a project in 5
+17:05 minutes all you have to do is open the
+17:07 template link then go straight to
+17:09 Firebase because you've already created
+17:11 this right here and then all you need to
+17:13 do is when you get those tokens paste
+17:16 them into repet add the authentication
+17:19 link and then once you have it fully set
+17:21 up create that index and you have a
+17:24 fully working app that you can deploy in
+17:27 literally 5 minutes which is incredibly
+17:30 cool this used to take me multiple
+17:33 hours yeah it's it's insane it's insane
+17:36 you can literally go from an app idea to
+17:39 getting it fully deployed sharable with
+17:41 your friends in less than five minutes
+17:43 like really just showed you so now let's
+17:47 go to Claude because remember we can go
+17:50 to Claude at any time and whatever you
+17:53 named your project you can just keep
+17:55 going to this so you can create an app
+17:56 in one chat and then you can create a
+17:58 new app as long as you create a new
+18:00 template and then new Firebase storage
+18:02 and authentication so what we're going
+18:06 to do now is we're going to say I want
+18:09 to create an app that and we can just
+18:14 say what our app does and so we've been
+18:16 talking about what app we want to build
+18:18 ultimately the app we want to build is a
+18:20 voice note application this first
+18:22 iteration is just going to have text
+18:24 because in order to add voice we're
+18:25 going to need to create a backend that
+18:27 accesses an AP I endpoint and that's
+18:30 what we're talking about next week and
+18:31 we're going to create a new template
+18:33 that makes that maybe another 5 minute
+18:35 process but it'll allow you to use
+18:38 different AIS so that's the ultimate
+18:40 goal here remember that so this one is
+18:42 going to be a lot simpler so what I want
+18:45 to have is I want to create an app that
+18:47 let's say one allows me to create notes
+18:53 and add them to folders I want to be
+18:58 able to change and edit the
+19:01 folders
+19:03 default
+19:04 folders for all users are let's just say
+19:11 ideas tasks and journal for now and
+19:18 since we can change them it doesn't
+19:20 matter each I was thinking about this
+19:22 each of the folders should have a
+19:27 description
+19:29 because I think that's going to be
+19:30 useful later once you we add the voice
+19:32 feature so that the AI can know what
+19:34 folder to put things in each post is by
+19:39 default private but user can choose to
+19:43 make it public and go to the home
+19:49 feed and these are going to be like
+19:51 eventually I want the app to be like
+19:53 made for like when you go on a walk you
+19:55 can record your voice notes and it will
+19:57 automatically organize them in folders
+19:59 and you can actually make them like
+20:01 groups so you can have you can share
+20:03 your voice notes with the feed and it's
+20:06 good practice to create something with a
+20:07 feed so you know how to make an app
+20:09 that's actually sharable make it sky and
+20:14 clouds vibe in terms of
+20:18 colors
+20:20 and aesthetic generate the full code I
+20:23 think that'll be good good first start
+20:28 and it already knows that we're using
+20:30 repet because we've uh we've told it
+20:33 that in this in the in the system prompt
+20:36 or custom prompt and it knows that it is
+20:39 literally adding to this template as if
+20:41 it's starting from a certain point not
+20:44 starting from scratch which is what I
+20:46 like which makes the whole process so
+20:47 much easier the beginning is absolutely
+20:50 the hardest part we're literally just in
+20:53 copy paste mode so now we have Bottom
+20:55 bar it's changing the Bottom bar that
+20:57 we've created
+21:01 um Bottom
+21:06 bar um add note component so this is and
+21:11 so you want to make sure that you look
+21:12 for update and create so if it's create
+21:16 a new note I just copy this right here
+21:20 and um if it says component you know and
+21:24 we've this will already be pre-loaded in
+21:26 your file you'll know that it should go
+21:28 in the components folder. TSX we're just
+21:31 creating this new file and then we're
+21:33 just going to add whatever it told us to
+21:34 put in you could also download these and
+21:37 drag them in but then you have to change
+21:39 the name for whatever reason the name
+21:40 doesn't stay consistent I found that
+21:42 this is just easier and it's good
+21:44 practice in my opinion to just like see
+21:46 the
+21:47 code um and figure out where it goes it
+21:50 it's been helpful so we also need a
+21:53 folders and we are going to come to
+21:55 components add file paste the name in
+21:59 we're going to copy the folders code
+22:02 that it gave
+22:04 us
+22:06 and we're going to paste it in here and
+22:09 again you can do a double check so you
+22:11 can kind of see if it says export
+22:13 folders and it matches the name of the
+22:16 the document um claude's response was
+22:20 limited which is which is perfectly fine
+22:23 keep going start the start folder View
+22:28 over and finish what you were doing and
+22:34 yeah get used to copying and pasting I
+22:38 guess I can't tell you how much I've
+22:40 been doing this so you just got to get
+22:43 used to it I just think it's so crazy
+22:45 that we can create stuff like this um no
+22:48 it's absolutely insane that you've never
+22:50 written the ler code but you've created
+22:53 many apps and we're going to create this
+22:55 one right now which is going to be
+22:56 awesome yeah yeah and anyone can do it
+22:59 it's not hard the only skill I've had is
+23:01 setting up my life so that I have enough
+23:02 spare time to do this and then updated
+23:06 profile and we will see if
+23:08 this guy runs here so I'm going to stop
+23:12 and rerun let's see if we get any errors
+23:14 on the Run we
+23:18 do okay another
+23:21 index nice okay so we got a problem if
+23:26 if you look into the error and and when
+23:28 you use the web view this is a good time
+23:31 Dev tools will give you certain errors
+23:35 however you can't for whatever reason on
+23:37 replit it's hard to click on this all
+23:39 you have to do is click new tab and then
+23:42 you're going to rightclick and hit
+23:45 inspect and so this is you said this is
+23:47 like the same thing right it's the same
+23:49 thing it just looks a little bit
+23:50 different repet just makes it a little
+23:52 bit easier but as you can see there's
+23:54 another place called console the exact
+23:57 same error showing up sign in with your
+23:59 account just by clicking that link it
+24:01 sets up this I used to think I had to do
+24:03 this manually and so I I ran into a lot
+24:06 of errors with this and I wasted me
+24:08 probably multiple hours on this now that
+24:10 I know you can open that up and just hit
+24:13 save it's going to save a lot of time as
+24:16 you can see here like look this is a
+24:17 pretty cool interface right here
+24:21 um you like it let's see if it has any
+24:24 default folders it doesn't um and that
+24:27 could actually be
+24:30 okay can we add a folder this will be a
+24:32 good question uh test folder
+24:36 one um actually since there's
+24:40 descriptions uh I guess like let's just
+24:42 go
+24:43 tasks
+24:45 any any um note that has to do with
+24:52 completing
+24:53 something create
+24:56 folder okay it created the folder here
+24:59 and so we can create this is your ideas
+25:02 create folder so we can create multiple
+25:04 folders I really like the formatting on
+25:06 this and let's see if we can edit wow we
+25:08 can edit them right away sometimes I've
+25:10 run into problems creating apps where
+25:12 you can't edit them uh at least without
+25:15 telling Claude that you need to change
+25:16 something but that looks good our
+25:18 profile looks good we can see our
+25:20 folders no notes in the folder okay so
+25:23 let's create a new note here voice app
+25:29 idea I want to turn this app into a
+25:34 voice app that
+25:36 automatically folders them and so we can
+25:40 determine whether we want to make this
+25:41 public for this one I do want to try
+25:43 because that will make it pop up in the
+25:44 home feed and so we can hit create
+25:49 note and so we can wait let me
+25:56 see wow okay so
+26:01 oh our first BG but can we acknowledge
+26:04 how far it got with just one promp yeah
+26:07 no it's it's said like it created
+26:09 folders created a folder page and you
+26:12 can create notes you can edit the
+26:13 folders like those are like five
+26:15 features and just one PR done um
+26:19 like literally every time you want to
+26:22 create an app all you need to do is
+26:24 create a new template on repet and then
+26:27 just take the 3 to 5 minutes to create
+26:29 the Firebase and you can begin and then
+26:31 you literally after One Singular prompt
+26:33 in Claude this is the app that we have
+26:36 we can add a new note to any of the
+26:38 folders that we create and we can very
+26:41 easily edit the folders delete the
+26:43 delete the folders it's insane and we
+26:45 have a clean profile and it has this
+26:47 like tag button here which I think is
+26:49 super clean the drop down is working too
+26:53 which is amazing like on the create new
+26:57 uh note page
+26:58 do homework I guess there's no note page
+27:01 right because there's note details so
+27:03 that's one thing we should keep track of
+27:05 yes you're good yeah there's no note
+27:10 page okay so we just need to tell Claude
+27:13 that so
+27:15 these the app looks great I always like
+27:19 to tell it I've noticed when you tell it
+27:21 that it did a good job on everything
+27:24 except what you're what you want to
+27:26 change it actually does better
+27:29 uh because it knows that it like I mean
+27:31 if you were talking to a human too it'
+27:33 be the same thing like hey great job on
+27:34 everything but we need to change these
+27:36 small things so one nothing is
+27:40 populating on the homepage when I click
+27:45 on one of the notes on the profile
+27:50 page it goes to
+27:54 nothing there is no notes page
+27:59 anything
+28:01 else I think that's all um those are the
+28:05 two two bugs okay so GFC uh make the N
+28:09 Train generate the full
+28:10 code um and this should solve the
+28:15 issue and once you get into this
+28:18 Rhythm and you have the project set up
+28:21 it's so much more satisfying to create
+28:23 apps than if you're just dealing with
+28:25 bugs in the setup and so I think this is
+28:28 a really good way to start um even
+28:30 though I know I'm probably missing out
+28:32 on some good learning
+28:34 about setting up libraries and like why
+28:37 I'm getting the errors but I think it's
+28:39 just good to just build and then if you
+28:41 really want to take it seriously then
+28:43 kind of start digging into those types
+28:45 of things absolutely so many people just
+28:48 get stuck um doing tutorials and like
+28:51 tutorial hell and like you look like
+28:55 like right now someone can like take
+28:56 this template l build an app out in 5
+28:59 minutes like we showed you it's not that
+29:00 complicated it's crazy you can customize
+29:03 it the way that you want it so we need
+29:05 to update home so now we're doing the
+29:07 same thing we didn't even have a note
+29:08 view before and we can just copy this
+29:11 and we are going to go to components and
+29:15 hit add file this is going to be called
+29:17 note view. TSX and now we're going to
+29:21 paste that code in here and that should
+29:25 probably solve our problem we're just
+29:28 just go through all the
+29:31 steps
+29:33 and now let's update the ad note
+29:36 component let's make sure this is full
+29:38 code looks like it and the project is a
+29:40 little bit smaller
+29:42 um add note.
+29:46 TSX there it is sign in we got to update
+29:49 that all right so I think we should now
+29:52 let's go ahead and run
+29:55 this um and open web View
+29:59 I'm still not seeing home which is a
+30:02 continued problem I believe
+30:06 um but let's see if we got some of the
+30:08 other stuff we asked for So within
+30:12 folders we should be able to click on
+30:13 these we could last time and now we
+30:19 can interesting
+30:32 so one thing you can always check you
+30:34 can just see if it's being recorded
+30:36 somewhere like you can well the note is
+30:39 clearly being recorded actually because
+30:42 it's in our notes so we we know that
+30:46 they're being recorded in the database
+30:49 because we've refreshed the document the
+30:53 issue is that we can't click on Note H
+30:57 very very
+31:01 strange let's try adding a new note
+31:04 because we did update the ad note
+31:07 component ah okay so this is a new note
+31:11 oh okay this that was a really good
+31:14 point and I think this is
+31:17 useful it is communicating with Firebase
+31:19 and it's basically adding different
+31:22 fields to the data right and when we
+31:25 change the ad note component it changes
+31:29 the database so it might not be
+31:31 compatible with the notes we've already
+31:33 created that didn't have those rules is
+31:35 that a kind of way of looking at it yeah
+31:38 yeah that's that's absolutely
+31:44 correct okay so now we're adding a new
+31:46 one to ideas and then we'll try and make
+31:48 this note public create note let's see
+31:50 if we get any errors okay
+31:53 so we can click home there we go there
+31:57 are note is showing up right here on the
+32:00 home feed and if we go to
+32:03 profile uh we can see that this is a new
+32:05 note we might be able to click on
+32:08 this okay so we still have that error
+32:11 note not found but we did
+32:15 fix this
+32:20 problem on the home feed we do now get
+32:23 all of these on the home feed that's
+32:25 good progress yeah we we solved one
+32:28 one thing you can always do you don't
+32:29 need to do this by any means um but I
+32:33 just want to make sure that if you're
+32:34 new to creating uh websites or web apps
+32:38 with Claude you know that you can
+32:40 actually just copy and paste
+32:42 screenshots and it can be very useful um
+32:47 this is the page I
+32:52 see when I create uh when I click on a
+32:57 note but the home page seems to be
+33:01 working well just fix the notes page
+33:06 based on whatever you think is
+33:12 wrong I always think of Claude as a she
+33:15 actually I don't know why updated note
+33:17 view is right here
+33:20 okay um
+33:28 so we should just be able to click on
+33:30 this there oh yeah let's go okay so wait
+33:34 um let's do this so I let's just make a
+33:37 note here and let's just kind of tag
+33:39 everything so this is a
+33:43 note
+33:45 title this is note content we are typing
+33:50 and I want to do like new lines just to
+33:52 see how it shows up anywhere else so
+33:54 like let's do a full line break I am
+33:57 doing a line a line break to see what
+34:03 the formatting looks
+34:07 like
+34:09 yeah and we'll go ideas make this note
+34:12 public create
+34:14 note um I think it' be cool to have like
+34:17 a tally on each folder like how many
+34:20 notes are in it or something which
+34:22 is which is a pretty easy thing to do
+34:25 and then like maybe even add pins this
+34:28 actually looks cool right let's really
+34:30 quickly go in and test this so we can go
+34:32 to the ad note section and we're going
+34:35 to paste this in right here and we are
+34:38 going to just use this as a
+34:41 title the beauty and importance of
+34:44 clouds okay let's see how this shows up
+34:46 on the home feed okay so it does get cut
+34:48 off which is good and if we click on
+34:50 this like look at how clean this is
+34:52 actually and so I just think this looks
+34:53 so clean
+34:56 so um um actually we're good right do we
+35:00 have any we we fixed all the errors
+35:02 right like yeah everything's working it
+35:04 looks good okay so let's count this real
+35:08 quick in 1 2 3
+35:14 4
+35:16 five five Claud prompts what we created
+35:20 was this and we wrote none of these
+35:22 lines of Code by the way zero of these
+35:25 lines of code were written by us we used
+35:27 the template that we just created and we
+35:29 created this app right here and this
+35:31 isn't even the let's like fully restart
+35:34 literally created a social media Notes
+35:36 app in four prompts on Claude because
+35:38 look we can SE all these home feed and
+35:40 we didn't add what user posted them
+35:42 which would probably be useful um but we
+35:45 can see the home feed and so if and it
+35:47 automatically created folders for us
+35:50 right here so that when we create a note
+35:52 Test new account post and then I'll just
+35:56 post the same
+35:58 I'll post this same thing right here we
+36:00 can add something to our
+36:03 journal and we can make this note public
+36:05 we can create this note and if we go to
+36:08 the home feed we haven't added which
+36:10 users posted this but this is one user
+36:12 this is our our account and these are
+36:14 the other accounts so we have this home
+36:16 feed we have all of our folders
+36:18 obviously we've only if we go into ideas
+36:21 we're not going to see anything right
+36:23 we're only going to see something in
+36:24 Journal and it stores our notes like
+36:27 this

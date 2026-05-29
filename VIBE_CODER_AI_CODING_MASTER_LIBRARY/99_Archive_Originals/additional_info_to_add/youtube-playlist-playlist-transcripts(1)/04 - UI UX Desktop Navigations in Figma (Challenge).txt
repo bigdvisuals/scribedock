@@ -1,0 +1,752 @@
+Title: UI/UX Desktop Navigations in Figma (Challenge)
+URL: https://www.youtube.com/watch?v=EZBwM1aOwLc&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=4&pp=iAQB
+Channel: YouTube playlist
+Video ID: EZBwM1aOwLc
+Transcript language: English auto-generated
+Downloaded at: 2026-05-25T21:41:00.259Z
+
+0:00 day four of the 30-day uiux design
+0:03 Series this is exciting because this is
+0:06 the first time you're going to actually
+0:08 be put to the
+0:11 test I'm going to show you exactly how
+0:14 to build a nav bar on a desktop design
+0:18 this one right here then at the end
+0:21 utilizing what you learned I want you to
+0:23 take this design and do your own
+0:26 navigation based on what you learned
+0:28 then I want you to submit it to me and
+0:31 tomorrow I'm going to check out some of
+0:32 these and I'm going to make improvements
+0:35 and I'm also going to give shout outs to
+0:36 ones that didn't need improvements this
+0:38 way we could all get better together now
+0:41 I know what some of you are thinking 30
+0:42 minute video on a navbar well that's
+0:45 because I really want to cover a lot of
+0:47 the foundational uiux design principles
+0:49 which I do in this video and so it's a
+0:52 little bit lengthy and I know a lot of
+0:53 you are used to watching 60c design
+0:56 tutorials on Tik Tok and YouTube shorts
+0:58 that's all the rage these days but guess
+0:59 what but you're not going to get better
+1:01 by just spending 60 seconds take the
+1:04 time to watch this video and then have
+1:06 fun with it at the end when I give you
+1:08 this figma document that you'll be able
+1:10 to replicate and then you'll be able to
+1:13 do your own little navbar design and
+1:15 then submit it to me and the
+1:17 instructions are at the end so I'll stop
+1:18 talking it's already a long video let's
+1:20 get started all right everybody you
+1:22 excited we're ready to finally get
+1:24 started after 4 days and the first thing
+1:27 I want you to do is click on the figma
+1:29 community 5 and it's going to be linked
+1:31 wherever you're watching this in the
+1:32 description or so and this is a template
+1:34 that we're going to be using for all the
+1:36 projects that are part of this 30-day
+1:38 uiux challenge and you want to click
+1:40 open inigma right here now when you do
+1:43 that it's going to open up this page
+1:46 right here so this is what figma looks
+1:49 like this is the desktop version you can
+1:51 download it or you could use the
+1:52 webbased version they're very very
+1:53 similar and essentially this is the um
+1:58 project that we're going to be focusing
+1:59 on as you can see there's uh what looks
+2:01 to be like on desktop this is like a
+2:04 desktop frame uh a hero section you know
+2:08 the top part of a section but it's
+2:09 lacking a navigation and so that's going
+2:12 to be your challenge um in this page
+2:16 right here you can see it's an entirely
+2:18 different layout and that's going to be
+2:20 your challenge for the end of this but
+2:22 we'll get to that in a bit so first I
+2:25 wanted to talk about what actually nav
+2:27 bars are and you know what they purposes
+2:30 and this is very simple you should
+2:32 understand this um if you've used the
+2:34 internet at all on a desktop like on a
+2:36 laptop or something you have the browser
+2:38 maximized and you see a navigation and
+2:39 there's a typical pattern for that you
+2:42 typically have The Branding logo on your
+2:44 left side and then on the right column
+2:46 you have the navigation like the home
+2:49 about frequently asked questions contact
+2:51 us join now something like that and so
+2:55 when we create a navigation we have to
+2:57 ask ourself what are the pages
+3:00 um and we also need to make sure that
+3:03 based on what's currently designed here
+3:07 that it fits it will fit well okay and
+3:10 what we need to do if you could look up
+3:12 here we always have to ask ourself
+3:15 whether we're designing for a navbar a
+3:17 UI card a footer anything any type of UI
+3:22 element we always have to ask ourselves
+3:24 especially when you're first starting
+3:25 out is the visual hierarchy good is the
+3:29 contrast good is the color the alignment
+3:30 the white space the groupings so you
+3:32 could see right here I have included a
+3:34 little check mark and an X right here
+3:36 right so what we're going to do once we
+3:39 finish designing this desktop navigation
+3:42 is we're going to ask ourselves is the
+3:44 visual hierarchy good and don't worry if
+3:46 you don't know what that means right now
+3:48 I'll explain when we get to that is the
+3:50 contrast good and if so we're just going
+3:52 to drag things over here and we're going
+3:54 to duplicate them and and and we're
+3:56 going to make sure what we cross all the
+3:59 the the the te's and the dots and the
+4:01 eyes okay so I'm going to back up here
+4:05 and let's get started so right here you
+4:07 can kind of see over here we have a logo
+4:10 called L code and then we have Pages
+4:13 these are not really styled except for
+4:15 the logo and typically if you're working
+4:17 for a client or whatever they'll provide
+4:19 you with the logo asset and the first
+4:22 thing like I said that we want to do is
+4:24 we want to place this over here so what
+4:27 I'm going to do is just duplicate this
+4:29 and the way you can do that you can
+4:30 duplicate multiple ways here in figma
+4:33 you can hold alt left click and just
+4:34 drag or you hit contrl D and that will
+4:38 duplicate as well okay so we're going to
+4:41 place this over here and where should
+4:44 the logo be placed this is a good
+4:47 question if you're kind of unsure well
+4:50 what I want you to follow and right now
+4:52 we're going to talk about alignment
+4:53 which is one of the UI foundational
+4:55 principles right here we're going to
+4:57 talk about alignment if you know notice
+5:00 right here it looks like the headline
+5:04 and all this type right here where it
+5:05 says console and then also this first uh
+5:09 little trust symbol Tesla right there
+5:11 it's all aligned on the same vertical
+5:13 axis so if I hit shift R and I left
+5:16 click and drag on top of this we'll get
+5:19 a guide and you can see how everything
+5:21 is lined nicely right to that so it
+5:23 would make sense to also align our logo
+5:27 along that same column this is alignment
+5:30 all right it's very important to
+5:32 understand this stuff so if I hit shift
+5:35 R again we can hide that and we can
+5:37 always bring it back by toggling it
+5:38 shift R shift R like that and you could
+5:41 also drag down horizontal guides as well
+5:44 control Z of course will undo stuff like
+5:46 that so shift R let's hide that so now
+5:49 we have this aligned where it makes
+5:52 sense logically based on what's already
+5:54 designed okay so that you cannot go
+5:56 wrong there so alignment is checked off
+5:59 at least in Rel to the logo now what
+6:01 about Whit space you see Whit space
+6:04 right here so what is whites space
+6:06 whites space is simply the empty areas
+6:08 of the design and that sounds kind of
+6:11 boring and like a nothing Burger but
+6:13 Whit space is extremely important
+6:16 because if things are too close together
+6:18 or they're too far apart they do not
+6:20 feel right and it will break the beauty
+6:22 of the layout
+6:24 so the next question we have is where do
+6:27 we put this in a vertical context do we
+6:29 put it here do we put it up here at the
+6:33 very top well typically There's No Going
+6:37 to there's not going to be any right
+6:38 answer but I would say it makes sense to
+6:41 put it right around here and of course
+6:43 you have a degree of flexibility and
+6:45 subjectivity like for instance I would
+6:47 not put it any closer than about here to
+6:50 the top or any further down than about
+6:52 maybe right around here now how would I
+6:55 know that well we need to take a look at
+6:58 the entire design as a whole and we have
+7:01 to get it a feeling for how things or in
+7:04 white space is being applied based on
+7:06 what's Happening and so it would not
+7:09 absolutely make sense if we put this
+7:11 like right here against the
+7:13 edge because it just feels like it's too
+7:15 close and this is one of those things
+7:17 that you just have to develop an eye for
+7:18 eventually so I'm going to put it like
+7:20 right around here and that seems like a
+7:22 nice good area for it to have enough
+7:24 room to breathe okay when things are
+7:26 cluttered it's harder to see them okay
+7:29 okay so next up we have our actual pages
+7:33 and you can see the way it's displayed
+7:34 here they're kind it's a vertical
+7:36 navigation but it's not meant to be a
+7:37 navigation it's just to let you know
+7:38 what pages we need so in a context of a
+7:43 primary navigation on
+7:45 desktop like 9 99 out 100 times you want
+7:48 it to be a horizontal navigation meaning
+7:51 that instead of things being stacked on
+7:53 top of each other like this they're
+7:55 going to be stacked from left to right
+7:57 so let's go ahead and design for for the
+8:00 actual pages so I'm going to hit t for
+8:03 the type tool and I'm just going to type
+8:05 in home now the first question we might
+8:08 have is what font would we use well in
+8:12 this case we already have the design
+8:14 here for us right now we're designing
+8:16 with training wheels on and what that
+8:19 means is I've already provided the
+8:21 design for you so a lot of the thought
+8:23 is the thought processes are are cut
+8:26 down because a lot of this stuff's
+8:27 already divined so if if you're working
+8:30 on an existing design and we're adding
+8:32 you know in this context some type here
+8:35 we have to ask ourselves and we have to
+8:36 look where are the other you know what
+8:39 other fonts are being used here and I
+8:41 can see too we have enter right here
+8:45 this is enter as
+8:47 well and then this stuff right here we
+8:50 can see is console laws all right so
+8:53 it's kind of like a a code Codi sort of
+8:56 font and you could either use you could
+8:59 use either or for this case um so when
+9:03 it comes to design there's a lot in art
+9:05 in general there's a great degree of
+9:07 subjectivity and then there's also
+9:10 things that are objectively wrong and
+9:12 false so what we could do is we could
+9:14 experiment with both of those so we can
+9:16 change inter say for instance to
+9:19 consolas okay maybe make it
+9:22 bold all right so that seems like it
+9:24 works now what
+9:27 about what about over here um actual you
+9:31 know do we do we think it needs to be
+9:33 bold um how about all of them I are
+9:36 should all the links be bold or maybe
+9:37 just the currently active page you know
+9:39 could that be bold these are all
+9:41 questions that you can ask yourself as
+9:42 well what about font size all right so
+9:46 now we're going to talk about another
+9:48 aspect and this is called be quiet it's
+9:51 my phone this is called visual hierarchy
+9:54 and visual hierarchy is an extremely
+9:56 important concept to understand and
+9:59 essentially it
+10:01 means where do we want the eye to be
+10:04 directed to all right visual hierarchy
+10:07 doesn't just relate to uiux design it's
+10:09 an art design in general it's a
+10:11 principle and if if anything is too
+10:15 large for instance then it's it that's
+10:18 what's going to take people's attention
+10:19 because it's really big and bold that's
+10:21 why your headline if that's the first
+10:23 thing you want somebody to read which it
+10:24 typically is you want that to be large
+10:27 okay so what about the font size all
+10:30 right so the font size in relation to
+10:32 what well the the closest element here
+10:34 is the actual logo so would it makees
+10:37 sense to have like a home
+10:39 button this size I don't think that's
+10:42 bad actually that font size here is 24 I
+10:45 think that's a fine font size now if we'
+10:47 bump this up to
+10:49 50 you know how ridiculous this looks it
+10:51 doesn't look right it's too large and
+10:55 likewise if we were to go down to say
+10:57 12 that's going to be really hard for
+11:00 people to see okay so your your
+11:04 topography font size is one of the
+11:06 biggest ways that you reinforc visual
+11:09 hierarchy um and basically visual
+11:11 hierarchy is about establishing uh
+11:14 elements of importance based on priority
+11:17 and you style it and you you establish
+11:20 that visual hierarchy by adjusting all
+11:23 these other fundamentals I just realized
+11:25 I also need to put in topography
+11:29 right there as well okay so 24 would
+11:33 actually be a good size so I'm going to
+11:34 put
+11:35 24 and I'm just for now I'm not going to
+11:38 worry about placement too much I'm just
+11:41 going to go ahead and put in home
+11:42 curriculum fact contact and join today
+11:45 so there's a couple ways of approaching
+11:48 this I'm going to do it the real simple
+11:49 way um but it's also the less Dynamic
+11:52 way and the reason I'm doing that is
+11:53 because I don't want to drown you with
+11:55 too much information up front so we're
+11:58 not going to be focusing on on I the
+12:00 correct way to do this stuff yet which
+12:02 would be through components and
+12:04 component variants here in figma we're
+12:06 not going to mess with that so don't
+12:08 worry about that for now we will later
+12:10 in this course so just to make things
+12:12 easy we're just going to duplicate this
+12:14 so control D or command D or alt left
+12:17 click and drag to the right we're going
+12:19 to put in
+12:22 curriculum okay so another question you
+12:26 might have for yourself is okay so we
+12:28 have curric
+12:30 um how far apart should these be well
+12:33 remember what is the fundamental that
+12:36 refers to the space between the empty
+12:38 space between elements that's white
+12:40 space right so just with font size where
+12:43 I demonstrated to large and too small
+12:46 there's also too much white space and
+12:48 too little white space so before we
+12:51 experiment with that white space let's
+12:53 get the other links here um just so we
+12:56 can experiment now I will introduce Auto
+12:59 layout to you and that's a it's a core
+13:01 fundamental of figma if I take both of
+13:04 these elements double click hold shift
+13:07 left click and double click so now we
+13:08 have in our layers both of those
+13:10 elements selected right down here we can
+13:14 add what's What's called the auto layout
+13:16 right here so we click
+13:18 plus and it puts it into this Auto
+13:20 layout in our property inspectors right
+13:22 here we can see if we adjust this value
+13:25 we can increase or decrease the amount
+13:28 of wees space between these two links
+13:31 now what's also really cool is if we
+13:33 just double click and we select
+13:35 curriculum we control D and duplicate it
+13:38 it's going to maintain that white space
+13:40 in between and if we hover over we can
+13:42 also real quickly adjust it okay so what
+13:47 are the other links we have faac for
+13:49 frequently asked questions I'm going to
+13:51 lowercase that we'll duplicate that one
+13:53 contrl D we also have
+13:57 contact all right and then we also have
+13:59 join
+14:01 today all right so join
+14:03 today okay
+14:06 so we have to ask ourselves what isn't a
+14:09 a a suitable amount of white space right
+14:13 so for us I would say too little or or
+14:18 let me just show you the maximum and the
+14:19 minimum of the subjective degree to
+14:22 which it's okay and a an okay amount of
+14:26 white space I would not go any smaller
+14:29 then
+14:30 perhaps I go a little bit larger than
+14:32 that I think that's too close so I would
+14:34 take
+14:36 this and let's adjust this I wouldn't go
+14:39 any closer than this which is a value of
+14:42 40 pixels between each link now I also
+14:46 want to go wider than perhaps right
+14:49 around
+14:50 here any wider and they will start to
+14:52 feel a little bit too separated in
+14:56 distance so this is
+14:58 also referred to as grouping okay right
+15:01 here are your is the elements that
+15:04 you're grouping together does it make
+15:06 sense how you're uh applying white space
+15:08 to them and Alignment so that's real
+15:11 important as well so here we have joined
+15:14 today and we have to ask ourselves also
+15:17 is there anywhere where it makes sense
+15:19 to where we should Des we should style
+15:22 these links differently based on the
+15:24 context so in primary navigation
+15:29 you should always have what's called an
+15:31 active State button you know which page
+15:34 are we currently on well this is the
+15:36 homepage so we can denote that this is
+15:39 the
+15:40 homepage in a number of different ways
+15:42 you can make it bold and that can give
+15:44 you a visual separation between the
+15:46 other
+15:47 elements you can also change the color
+15:51 so for instance now we're talking about
+15:53 color if we were to change this to a
+15:55 certain color which color would make
+15:57 sense well we can see our primary color
+16:00 here is green it's the only only other
+16:02 element that only actual color outside
+16:04 of whites and Grays blacks uh that we
+16:08 have so it would make sense to use this
+16:11 same color and then perhaps make it a
+16:14 little bit darker because we have to
+16:15 ensure contrast is correct so if I grab
+16:20 this okay this looks good right but this
+16:24 is hard to see it's really hard to see
+16:27 so I want you to go ahead and come up
+16:30 here and click on plugins and type in
+16:34 Stark all right stark contrast and
+16:37 accessibility I want you to install this
+16:39 plugin so if you're brand new to figma
+16:42 it has plugins that extend the
+16:45 functionality of figma itself and Stark
+16:48 is a contrast and accessibility Checker
+16:51 all right and we're going to be using
+16:52 this a lot so when you install that if I
+16:56 select this type right here and I click
+16:59 on right click and over here somewhere
+17:02 and I go to plugins and I click on
+17:05 Stark and then we click on
+17:07 contrast with this home button selected
+17:10 you'll see it says all this weird stuff
+17:13 which is confusing and I'll I'll
+17:14 describe what this is now
+17:17 so right now you want green check marks
+17:20 on some of these elements this is
+17:22 telling us that the there is not enough
+17:26 contrast all four are just xed out in
+17:28 red
+17:29 that means it's hard to see okay and it
+17:32 gets these values from the wcag which is
+17:34 the web content accessibility guideline
+17:36 standards and basically they've done a
+17:38 lot of research and they find okay at
+17:41 what acceptable level um is there enough
+17:44 contrast for people to be able to see
+17:46 especially people who might have Vision
+17:49 impairments so what the one way that we
+17:52 can adjust this while keeping the same
+17:54 Hue the same green color is we can we
+17:56 can tint it we can add we can add I
+17:59 Darkness to it so the way we can do this
+18:02 is I just move this over here we take
+18:05 this Color Picker and all we have to do
+18:08 is just drag down the the this value
+18:11 right here so when we do that and I
+18:14 scroll out you could see that now it's
+18:16 changed to
+18:17 3.3 5 to one
+18:20 ratio and let's move this over here all
+18:23 right now we're at 3.75 now we're at
+18:26 4.5 this is what we want
+18:29 all right so tripa a would be just
+18:32 really high contrast but this is still
+18:34 acceptable if it's at at least a 4.5 to1
+18:37 ratio large text you can get away with
+18:40 less contrast a 3:1 ratio as long as
+18:45 it's large this is not large text so
+18:48 right there is a good color value if we
+18:50 wanted to have color in this right here
+18:52 lets us know let's the user know that
+18:54 this is the currently active page now
+18:56 you could also do this by adding an
+18:58 underline or a little icon or a little
+19:01 circle next to it there's a lot of
+19:02 different ways to designate the active
+19:05 State okay now that we have
+19:08 that does it make sense anywhere else in
+19:12 your opinion to emphasize or style any
+19:15 of these links differently well I would
+19:18 say yes and that is the join today
+19:21 because this is a a really important
+19:23 element the there should be a goal for
+19:25 every web page or every app or every
+19:27 page of an app there should be a goal of
+19:29 some sort in this goal we want people to
+19:30 join our service right so we want this
+19:33 to be styled different we want it to
+19:35 stand out okay so it needs to be grouped
+19:39 or styled differently from the rest of
+19:41 this stuff right here so what I'm going
+19:43 to do is I'm going to take join today
+19:47 and just yank it out of there and then
+19:49 we're going to take this and then up
+19:51 here in the property inspector you'll
+19:53 see these little weird icons these are
+19:55 for alignment if you click this one
+19:58 right here the second one align
+19:59 horizontal this will align it
+20:02 horizontally perfectly within you know
+20:05 based on the width of the frame here in
+20:07 which it resides so now we could take
+20:11 this and just put it over
+20:13 here ah okay so that looks pretty cool
+20:17 and now we've changed the groupings in a
+20:20 way that makes a little bit more sense
+20:23 so we can do this we can really
+20:25 emphasize this as an actual button in
+20:27 many different ways we could put it in a
+20:29 button container like this we can make
+20:31 it bold perhaps and we can make it our
+20:36 primary green color over
+20:38 here yep that would work that's that's
+20:41 that's fine that's there's nothing wrong
+20:44 with that um like I said we could also
+20:46 take
+20:49 this and we can put it behind it now use
+20:53 your left bracket key and that will
+20:55 automatically shift the currently
+20:57 selected layer to the very bottom of the
+20:58 frame in which it resides so now we have
+21:01 this big old button and we want to get
+21:04 this aligned up correctly so what we
+21:06 will do is we're going to select both of
+21:07 these and click Auto layout so remember
+21:11 to select both the elements we we have
+21:12 our our type here I'm going to hold
+21:14 shift left click and that selects both
+21:16 of them then we click on auto layout and
+21:19 we want to make sure it is centered
+21:21 right here so now what's cool is we can
+21:24 do um other stuff in terms of adding
+21:28 what white space around elements I and
+21:31 moving this stuff around so I don't
+21:34 think I like having it a white
+21:36 background I think this button
+21:38 background if we come down here and we
+21:41 select frame six or we can just double
+21:43 click and rename this to button
+21:46 BG we can take the fill which is the
+21:48 background color and we can make that
+21:51 our primary color color down
+21:54 here now we can double click and select
+21:56 the type and we can make that
+22:01 black okay now we have to ask us does
+22:04 this ask ourselves does this look
+22:05 centered this text well sometimes when
+22:07 you're dealing with text you can have of
+22:10 some overflow issues with the bounding
+22:12 box and so I'm just going to just
+22:15 slightly decrease the height so that it
+22:17 gets centered vertically in there much
+22:19 better okay so here's our in one thing I
+22:23 might do is reduce the stroke width
+22:25 because it's a smaller button and this
+22:27 is a thicker stroke
+22:29 so I'm going to reduce the stroke width
+22:31 by double clicking on our button BG
+22:33 frame and we're going to go ahead and
+22:36 reduce the actual
+22:38 stroke from five to
+22:41 three there we
+22:43 go all right so now that we have that
+22:48 another thing that we really have to ask
+22:49 ourselves is do we have equal amount of
+22:53 white space from the left of this logo
+22:57 based on the white space that's visible
+23:00 to the right of the to the right side of
+23:02 the final element on the same horizontal
+23:04 path so in this case it's the join now
+23:06 button is there enough is there equal
+23:08 white space so the way you can determine
+23:10 that determine is to take the actual
+23:13 frame you select it and in a property
+23:15 inspector right where it says layout
+23:17 grid we're going to click this little I
+23:19 icon to toggle that
+23:21 visibility and essentially this will
+23:24 allow you to make sure that you have
+23:26 equal white space on the right and left
+23:28 so we could clearly see this is not set
+23:31 up correctly so what we do is just take
+23:34 it and we make sure it's aligned where
+23:36 where it needs to be we also make sure
+23:39 need to make sure that it's aligned in a
+23:41 way that makes sense based on the other
+23:43 elements here so I've align it to the
+23:45 center of this text so join today is now
+23:48 exactly on the same horizontal path of
+23:50 the rest of these and this also you can
+23:53 see it's perfectly in the center here of
+23:56 this L code
+23:59 logo and that right there is actually a
+24:02 pretty solid let me hide that a pretty
+24:05 solid head Navar and it's not crazy
+24:10 complex but it it kind of feels that way
+24:13 so let's go through these and make sure
+24:15 that everything checks off this a visual
+24:18 hierarchy makes sense so in order to
+24:21 answer that question the visual
+24:23 hierarchy of this top section right here
+24:26 has to be compared to the other elements
+24:30 that are adjacent to it so what is it so
+24:31 we have a headline and then we have a
+24:33 sub headline right here all right well
+24:36 we know that the headline needs to be
+24:38 the element that people see first
+24:40 because it educates them as to kind of
+24:42 what this page is about right what this
+24:44 website is about so we want that to be
+24:47 the biggest element we don't want
+24:48 anything in here being bigger right we
+24:50 don't want like the lar code Type to be
+24:53 like 80 pixels because then it competes
+24:56 too much so that's what visual hierarchy
+24:59 is so everything here looks to be in
+25:01 line and make logical sense in terms of
+25:03 its height and its size and and all that
+25:06 so the visual hierarchy passes now what
+25:09 about contrast so remember the only
+25:12 contrast issue that we had was on this
+25:14 home because we we we added color to it
+25:17 but we we use star contrast Checker to
+25:20 the plugin to to ensure that it's
+25:22 actually contrasting enough now of
+25:25 course because we have a white
+25:26 background with black text that is
+25:28 maximum contrast so we're not going to
+25:30 have any issues there you may want to
+25:32 see what your contrast looks like with
+25:35 black on this green color but this is
+25:38 sufficient as well so we're going to go
+25:39 ahead and denote that as a good one now
+25:44 what about color well the colors are
+25:46 fairly simple we're using black and then
+25:49 just the same exact Hue with a different
+25:52 shade over here and over here as the
+25:55 rest of the page now you could add a
+25:58 another color but the safest option is
+26:00 to have fewer colors most of especially
+26:02 when you're starting out so our colors
+26:05 good how about alignment all right so
+26:08 we're aligned along the
+26:10 same column right here as you can see
+26:13 now what about this we drag this down we
+26:17 put this into Center everything is lined
+26:19 to the center of this element which I
+26:21 like and it works well so there's also
+26:25 equal white space between here and here
+26:27 so that's as well so our alignment now
+26:30 what about white space again if we were
+26:33 to take this all these all three of
+26:35 these elements if it was up here we
+26:38 would not have good white space because
+26:40 it's just kind of tucked up there a
+26:42 little bit too close
+26:45 especially given the fact that we're on
+26:47 a desktop I frame here essentially when
+26:50 you're when you get to smaller sizes you
+26:53 also reduce your white space when when I
+26:55 when I mean smaller size like like like
+26:57 for instance going from desktop perhaps
+26:59 to like tablet to phone typically you
+27:03 reduce your white space with the less
+27:06 physical width that you have Okay so
+27:09 let's take that I'm going to back up
+27:11 there and a few times just there it is
+27:14 that is good Whit space so what about
+27:17 grouping all right so we're are we
+27:19 grouping things that make sense together
+27:22 and one of the primary ways you
+27:25 establish grouping is through wh space
+27:27 and alignment so we have our logo here
+27:31 we have our four most important pages
+27:34 right here and then we have the primary
+27:37 call to action a link to it in the the
+27:39 head uh or the header essentially the
+27:41 nafar and this works perfectly fine
+27:43 everything makes sense and then finally
+27:46 topography make sure that you're using
+27:49 consistent topography make sure that
+27:51 your font sizes which is a part of uh
+27:53 topography as well are making sense and
+27:57 so I would say this pth
+27:58 now I'm not doing anything crazy with
+28:00 crazy effects it's very simple and
+28:02 typically that is what you want so now
+28:06 we're going to get to the fun part where
+28:08 you are challenged so now click on
+28:10 lesson one navbar challenge you're going
+28:13 to see the same sort of situation here
+28:15 except this time I'm going to leave a
+28:18 few things up to you I'm going to
+28:21 leave what color you're going to use so
+28:23 all you have to do is just take this
+28:25 just alt left click drag put this
+28:28 somewhere that makes sense and then what
+28:31 color are you going to use what makes
+28:33 sense to you I'm not going to give you
+28:34 any hints but anything that you do use
+28:37 make sure that you're checking with the
+28:40 start contrast Checker to make sure that
+28:42 you adhere to at least 4.5:1
+28:45 ratio so I want you to build out a
+28:49 navigation and notice we have I threw in
+28:51 a little bit of a curveball we want to
+28:54 include this icon as well and if you
+28:57 want to change the color of this you
+28:58 just click on the element itself which
+29:01 we do have currently selected and you
+29:02 click on selection colors and then
+29:05 change the color here so I want you to
+29:08 include a search so think about how
+29:11 you're going to be grouping things
+29:12 together very important so when you're
+29:15 finished and you've checked all of these
+29:17 off and you're confident that you did a
+29:19 good job and you want me to check it out
+29:21 and you don't care if other people see
+29:23 it as well click share and then click on
+29:26 copy link that copies it to the
+29:28 clipboard and then get out your browser
+29:31 and then I want you to go to x.com or
+29:33 Twitter and I want you to and if you
+29:35 don't have an account then create one
+29:37 then I want you to also follow me I'll
+29:40 link this in the description here follow
+29:42 me here on Twitter or X whatever you
+29:46 want to call it and then I want you to
+29:48 make a post just post in paste in that
+29:51 figma
+29:52 document and then also mention at
+29:57 30 or the hashtag 30 days uiux just like
+30:01 this and then you can also tag me if you
+30:03 want at
+30:04 designc you'll see me right there and
+30:07 you can also leave a comment or whatever
+30:09 what what does everybody think about my
+30:10 Challenge and what I will do is I'm
+30:13 going to take a look at these and if we
+30:16 get enough good submissions or bad
+30:18 submissions or enough submissions in
+30:20 general tomorrow we're going to take a
+30:21 look at these and I'll review them live
+30:25 I I can't do every single one of them
+30:27 but I'll I'll pick out a few good ones
+30:28 and a few and a few different ones that
+30:31 need to have fixes that way we can grow
+30:34 and learn together so I know this was a
+30:36 long video that's because I had to
+30:38 really talk about those fundamentals
+30:41 going forward I'll try to make these
+30:43 quicker I but hopefully you hung with me
+30:46 and if you did definitely submit your
+30:48 work and make sure you get it done here
+30:50 within the next maybe max8 hours because
+30:53 I need time to actually look at these
+30:56 and create the video so I I will see you
+30:58 all very soon goodbye
+31:06 [Music]

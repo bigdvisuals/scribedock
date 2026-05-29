@@ -1,0 +1,549 @@
+Title: What is Cyber Security? | Introduction to Cyber Security | Cyber Security Training | Edureka
+URL: https://www.youtube.com/watch?v=ooJSgsB5fIE&list=PL9ooVrP1hQOGPQVeapGsJCktzIO4DtI4_&index=3&pp=iAQB
+Channel: YouTube playlist
+Video ID: ooJSgsB5fIE
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:24:55.858Z
+
+0:01 [Music]
+0:06 it can be rightfully said that today's
+0:08 generation lives on the internet and we
+0:11 generally users are almost ignorant as
+0:13 to how those random bits are ones and
+0:14 zeros rich securely to a computer it's
+0:17 not magic it's work and sweat that makes
+0:19 sure that your packets reach to you
+0:21 unzipped today IRA Paul from Ed Eureka
+0:24 I'm here to tell you guys about how
+0:26 cyber security makes this all possible
+0:28 now before we begin let me brief you all
+0:30 about the topics that we are going to
+0:32 cover today so basically we are gonna
+0:33 ask three questions that are important
+0:35 to cyber security firstly we're going to
+0:37 see why cyber security is needed next
+0:40 we're going to see what exactly is cyber
+0:41 security and in the end I'm going to
+0:43 show you all through a scenario how
+0:45 cyber security can save a whole
+0:47 organization from organized cybercrime
+0:49 okay so let's get started now as I just
+0:52 said we are living in a digital era
+0:54 whether it be booking a hotel room
+0:56 ordering some dinner or even booking a
+0:58 cab we are constantly using the Internet
+1:00 and inherently constantly generating
+1:02 data this data is generally stored on
+1:05 the cloud which is basically a huge data
+1:07 server or data center that you can
+1:09 access online also we use an array of
+1:12 devices to access this data now for a
+1:15 hacker it's a golden age with so many
+1:17 access points public IP addresses and
+1:19 constant traffic and tons of data to
+1:21 exploit blackhat hackers are having one
+1:24 hell of a time exploiting
+1:25 vulnerabilities and creating malicious
+1:27 software for the same above that cyber
+1:30 ducks are evolving by the day
+1:31 hackers are becoming smarter and more
+1:33 creative with their malware and how they
+1:35 bypass virus scans and firewalls
+1:37 still baffle many people let's go
+1:39 through some of the most common types of
+1:41 cyber attacks now
+1:42 so as you guys can see I've listed out
+1:44 eight cyberattacks that have plagued us
+1:46 since the beginning of the Internet
+1:48 let's go through them briefly so first
+1:50 on the list we have general malware
+1:52 malware is an all-encompassing term for
+1:54 a variety of cyber threats including
+1:56 Trojans viruses and bombs malware is
+1:59 simply defined as code with malicious
+2:01 intent that typically steals data or
+2:04 destroy something on the computer next
+2:06 on the list we are fishing often posing
+2:08 as a request for data from a trusted
+2:10 third party phishing attacks are sent
+2:12 via email and asked users to click on a
+2:14 link and enter the personal data
+2:16 freshing emails have gotten much more
+2:19 sophisticated in recent years making it
+2:21 difficult for some people to discern a
+2:23 legitimate request for information from
+2:25 a false one phishing emails often fall
+2:28 into the same category as spam but are
+2:30 more harmful than just a simple ad next
+2:33 on the list we have password attacks a
+2:34 password attack is exactly what it
+2:37 sounds like a third party trying to gain
+2:39 access to your system by cracking a
+2:41 user's password next up is DDoS which
+2:44 stands for distributed denial of service
+2:45 ad or staff focuses on disrupting the
+2:48 service of a network attackers sent high
+2:50 volumes of data or traffic through the
+2:52 network that is making a lot of
+2:53 connection requests until the network
+2:56 becomes overloaded and can no longer
+2:57 function next up we have
+2:59 man-in-the-middle attacks by
+3:01 impersonating the endpoint in an online
+3:03 information exchange that is the
+3:05 connection from your smartphone to a
+3:07 website the MIT M attacks can obtain
+3:09 information from the end users and
+3:11 entity he or she is communicating with
+3:13 for example if you're banking online the
+3:16 man in the middle would communicate with
+3:18 you by impersonating your bank and
+3:20 communicate with the bank by
+3:21 impersonating you the man in the middle
+3:23 would then receive all the information
+3:24 transferred between both parties which
+3:27 could include sensitive data such as
+3:29 bank accounts and personal information
+3:30 next up we have drive-by downloads
+3:33 through malware on a legitimate website
+3:35 a program is downloaded to a user system
+3:37 just by visiting the site it doesn't
+3:40 require any type of action by the user
+3:41 to download it actually next up we have
+3:44 mal advertising which is a way to
+3:46 compromise your computer with malicious
+3:48 code that is downloaded to your system
+3:50 when you click on an affected ad lastly
+3:52 we have rogue softwares which are
+3:54 basically malware that are masquerading
+3:56 as legitimate and necessary security
+3:59 software that will keep your system safe
+4:00 so as you guys can see now the internet
+4:03 sure isn't a safe place as you might
+4:05 think it is this not only applies for us
+4:07 as individuals but also large
+4:09 organizations there have been multiple
+4:11 cyber breaches in the past that has
+4:13 compromised the privacy and
+4:14 confidentiality of a data if we head
+4:17 over to the site called information as
+4:19 beautiful we can see all this major
+4:21 cyber breaches that have been committed
+4:23 so as you guys can see even big
+4:26 companies like eBay
+4:27 AOL Evernote Adobe have actually gone
+4:30 through major cyber breaches even though
+4:32 they have a lot of security measures
+4:34 taken to protect the data that they
+4:36 contain so it's not only that small
+4:39 individuals are targeted by hackers and
+4:41 other people but even bigger
+4:43 organizations are constantly being
+4:45 targeted by these guys so after looking
+4:48 at all sorts of cyber attacks possible
+4:50 the breaches of the past and the sheer
+4:52 amount of data available we must be
+4:54 thinking that there must be some sort of
+4:56 mechanism and protocol to actually
+4:57 protect us from all these sorts of cyber
+4:59 attacks and indeed they're in a way and
+5:02 this is called cyber security in a
+5:04 computing context security comprises of
+5:06 cyber security and physical security
+5:08 both are used by enterprises to protect
+5:11 against unauthorized access to data
+5:13 centers and other computerized systems
+5:15 information security which is designed
+5:17 to maintain the confidentiality
+5:18 integrity and availability of data in a
+5:21 subset of cyber security the use of
+5:23 cyber security can help prevent against
+5:25 cyber attacks data breaches identity
+5:27 theft and can aid in risk management so
+5:30 when an organization has a strong sense
+5:32 of network security and an effective
+5:34 incident response plan this better able
+5:37 to prevent and mitigate these attacks
+5:39 for example and use a protection defense
+5:42 information and guards against loss of
+5:44 theft by lots of scanning computers for
+5:46 malicious code now when talking about
+5:48 cyber security there are three main
+5:50 activities that we are trying to protect
+5:51 ourselves against and they are
+5:53 unauthorized modification unauthorized
+5:56 deletion and unauthorized access these
+5:59 freedoms are very synonymous to the very
+6:01 commonly known CIA tried which stands
+6:04 for confidentiality integrity and
+6:06 availability
+6:08 the CIA triad is also commonly referred
+6:10 to as a three pillars of security and
+6:12 most security policies of bigger
+6:14 organizations and even smaller companies
+6:17 are based on these three principles so
+6:19 let's go through them one by one so
+6:21 first on the list we have
+6:23 confidentiality confidentiality is
+6:25 roughly equivalent to privacy measures
+6:28 undertaken to ensure confidentiality are
+6:30 designed to prevent sensitive
+6:31 information from reaching the wrong
+6:33 people while making sure that the right
+6:35 people can in fact get it access must be
+6:37 restricted to those authorized to view
+6:39 the data in question in as common as
+6:42 well for data to be categorized
+6:44 according to the amount and type of
+6:46 damage that could be done should it fall
+6:48 into unintended hands more or less
+6:50 stringent measures can then be
+6:52 implemented across to those categories
+6:55 sometimes safeguarding data
+6:56 confidentiality may involve special
+6:58 training for those privy to such
+7:00 documents such training would typically
+7:02 include security risks that could
+7:04 threaten this information training can
+7:07 help familiarize authorized people with
+7:09 risk factors and how to guard against
+7:10 them further aspects of training can
+7:13 include strong password and password
+7:14 related best practices and information
+7:17 about social engineering methods to
+7:19 prevent them from bending data handling
+7:21 rules with good intention and
+7:22 potentially disastrous results next on
+7:25 the list we have integrity integrity
+7:27 involves maintaining the consistency
+7:29 accuracy and trustworthiness of data
+7:31 over its entire lifecycle data must not
+7:34 be changed in transit and steps must be
+7:36 taken to ensure that data cannot be
+7:38 altered by unauthorized people for
+7:40 example in a breach of confidentiality
+7:42 these measures include file permissions
+7:45 and user access controls version control
+7:48 may be used to prevent erroneous changes
+7:50 or accidental deletion by authorized
+7:52 users becoming a problem in addition
+7:55 some means must be in place to detect
+7:57 any changes in data that might occur as
+7:59 a result of non human caused events such
+8:01 as electromagnetic pulses or silver
+8:04 crash some data might include checksums
+8:07 even cryptographic checksums for a
+8:09 verification of integrity back up or
+8:11 redundancies must be available to
+8:13 restores affected data to its correct
+8:15 state last but not least is availability
+8:17 availability is best ensured by rigorous
+8:20 maintaining of
+8:21 hardware performing hardware best
+8:23 immediately when needed and maintaining
+8:25 a correctly functional operating system
+8:27 environment that is free of software
+8:29 conflicts it's also important to keep
+8:31 current with all necessary system
+8:33 upgrades providing adequate
+8:35 communication bandwidth and preventing
+8:37 the occurrences of bottlenecks are
+8:38 equally important
+8:39 redundancy failover and even high
+8:42 availability clusters can mitigate
+8:44 serious consequences when Hardware
+8:46 issues do occur fast in as adaptive
+8:48 disaster recovery is essential for the
+8:51 worst case scenarios that capacity is
+8:53 reliant on the existence of a
+8:55 comprehensive disaster recovery plan
+8:56 safeguards against data loss or
+8:58 interruption in connection must include
+9:01 unpredictable events such as natural
+9:03 disasters and file to prevent data loss
+9:05 from such occurrences a backup copy must
+9:08 be stored in a geographically isolated
+9:09 location perhaps even in a fireproof
+9:12 water safe place extra security
+9:14 equipments or software such as firewalls
+9:16 and proxy servers can guard us against
+9:19 down times and unreachable data due to
+9:21 malicious actions such as denial of
+9:23 service attacks and network intrusions
+9:25 so now that we have seen what we are
+9:28 actually trying to implement when trying
+9:29 to protect ourselves on the internet we
+9:31 should also know the ways that we
+9:33 actually protect ourselves when we are
+9:35 attacked by cyber organizations so the
+9:37 first step to actually mitigate any type
+9:39 of cyber attack is to identify the
+9:41 malware or the cyber threat that is
+9:43 being currently going on in your
+9:44 organization next we have to actually
+9:47 analyze and evaluate all the affected
+9:49 parties and the file systems that have
+9:51 been compromised and in the end we have
+9:53 to patch the whole treatment so that our
+9:55 organization can come back to its
+9:57 original running state without any cyber
+10:00 breaches so how is it exactly done this
+10:03 is mostly done by actually calculating
+10:05 three factors the first factor is
+10:07 vulnerability the second factor is
+10:09 threat and the third is risk so let me
+10:12 tell you about the three of them a
+10:13 little bit so first on the list of
+10:15 actual calculation is we have
+10:17 vulnerability so a vulnerability refers
+10:20 to a known weakness of an asset that can
+10:22 be exploited by one or more attackers in
+10:24 other words it is a known issue that
+10:27 allows an attack to be successful for
+10:29 example when a team member resigns and
+10:31 you forgot to disable their access to
+10:33 external accounts change logins or
+10:35 remove
+10:35 their names from the company credit
+10:36 cards this leaves your business open to
+10:39 both unintentional and intentional
+10:41 threats
+10:42 however most vulnerabilities are
+10:44 exploited by automated attackers and on
+10:47 a human typing on the other side of the
+10:49 network next testing for vulnerabilities
+10:52 is critical to ensuring the continuity
+10:54 of your systems by identifying weak
+10:56 points and developing a strategy to
+10:58 respond quickly here are some questions
+11:00 that you ask when determining your
+11:03 security vulnerabilities so you have
+11:05 questions like is your data backed up
+11:07 and stored in a secure off-site location
+11:09 is your data stored in the cloud if yes
+11:12 how exactly is it being protected from
+11:14 cloud vulnerabilities what kind of
+11:16 security do you have to determine who
+11:18 can access modify or delete information
+11:20 from within your organization next like
+11:23 you could ask questions like what kind
+11:25 of antivirus protection is in use
+11:27 what are the license currents are the
+11:29 license current and is it running as
+11:31 often as needed also do you have a data
+11:33 recovery plan in the event of
+11:35 vulnerability being exploited so these
+11:38 are the normal question that one asks
+11:40 when actually checking their
+11:41 vulnerability next up is threat a threat
+11:44 refers to a new or newly discovered
+11:46 incident with potential to do harm to a
+11:48 system or your overall organization
+11:51 there are three main types of threat
+11:52 national threats like floods or
+11:55 tornadoes unintentional threats such as
+11:57 employee mistakingly accessing the wrong
+11:59 information and intentional threats
+12:01 there are many examples of intentional
+12:04 threats including spyware malware adware
+12:06 companies are the actions of disgruntled
+12:09 employees in addition worms and viruses
+12:11 are categorized as threats because they
+12:14 could potentially cause harm to your
+12:15 organization through exposure to an
+12:17 automated attack as opposed to one
+12:19 perpetrated by human beings although
+12:22 these threats are generally outside of
+12:24 one's control and difficult to identify
+12:26 in advance it is essential to take
+12:28 appropriate measures to assess threats
+12:30 regularly here are some ways to do so
+12:32 and sure that your team members are
+12:34 staying informed of current trends in
+12:36 cybersecurity so they can quickly
+12:38 identify new threats they should
+12:40 subscribe to blogs like Y owed and
+12:41 podcasts like the tech janux extreme IT
+12:44 that covers these issues as well as
+12:46 joined professional associations so they
+12:49 can benefit from breaking news feeds
+12:50 conferences and Vimanas
+12:52 you should also perform regular threat
+12:54 assessment to determine the best
+12:55 approaches to protecting a system
+12:57 against a specific threat
+12:59 along with assessing different types of
+13:00 tech in addition penetration testing
+13:03 involves modeling real-world threats in
+13:05 order to discover bollen abilities next
+13:07 on the list we have risk so risk refers
+13:10 to the potential for loss or damage when
+13:12 a threat exploits a vulnerability
+13:14 examples of risks include financial
+13:16 losses as a result of business
+13:18 disruption loss of privacy reputation or
+13:21 damage legal implications and can even
+13:23 include loss of life risk can also be
+13:25 defined as follows
+13:26 which is basically threat x the
+13:29 vulnerability you can reduce the
+13:31 potential for risk by creating and
+13:32 implementing a risk management plan and
+13:34 here are the key aspects to consider
+13:36 when developing your risk management
+13:38 strategy firstly we need to assess risk
+13:40 and determine needs when it comes to
+13:42 designing and implementing a risk
+13:44 assessment framework it is critical to
+13:46 prioritize the most important breaches
+13:48 that need to be addressed all the
+13:50 frequency may differ in each
+13:51 organization this level of assessment
+13:53 must be done on a regular recurring
+13:55 basis next we also have to include a
+13:58 total stakeholder perspective
+13:59 stakeholders include the business owners
+14:01 as well as employees customers and even
+14:04 vendors all of these players have the
+14:06 potential to negatively impact the
+14:08 organization but at the same time they
+14:10 can be assets in helping to mitigate
+14:12 risk so as we see risk management is the
+14:15 key to cybersecurity so now let us go
+14:18 through a scenario you actually
+14:19 understand how cyber security actually
+14:21 defends an organization against very
+14:23 manipulative cyber crime so cyber crime
+14:26 as you all know is a global problem
+14:27 that's been dominating the news cycle it
+14:29 poses a threat to individual security
+14:32 and an even bigger threat to large
+14:33 international companies banks and
+14:35 government today's organized cybercrime
+14:37 for our shadows lone hackers are fast
+14:40 and now large organized crime rings
+14:42 function like startups and often imply
+14:44 highly-trained developers who are
+14:45 constantly innovating new online attack
+14:47 most companies have preventative
+14:49 security software's to stop these types
+14:51 of attacks but no matter how secure we
+14:53 are cybercrime is going to happen so
+14:56 meet Bob
+14:56 he's the chief security officer for a
+14:58 company that makes a mobile app to help
+15:00 customers track and my
+15:02 manage the finances so security is a top
+15:04 priority so Bob's company has an
+15:06 activity response platform in place that
+15:09 automates the entire cybersecurity
+15:10 process the ARP software integrates all
+15:13 the security and ID software needed to
+15:16 keep a large company like Bob's secure
+15:18 into single dashboard and acts as a hub
+15:20 for the people processes and technology
+15:22 needed to respond to and contain cyber
+15:25 attack let's see how this platform works
+15:27 in the case of a security breach
+15:29 while Bob is out on a business trip
+15:31 irregular activity occurs on his account
+15:34 as a user behavior analytics engine that
+15:36 monitors account activity recognize a
+15:38 suspicious behavior involving late-night
+15:41 logins and unusual amounts of data being
+15:43 downloaded this piece of software is the
+15:45 first signal that something is wrong and
+15:47 alert is sent to the next piece of
+15:49 software in the chain which is the
+15:51 security information and event
+15:52 management system now the ARP can
+15:55 orchestrate a chain of events that
+15:57 ultimately prevents the company from
+16:00 encountering a serious security disaster
+16:02 the ARP connects to a user directory
+16:04 software that Bob's company uses which
+16:07 immediately recognizes the user accounts
+16:09 belong to an executed who is out on a
+16:11 business trip and then proceeds to lock
+16:13 his account the ARP sends the incident
+16:16 IP address to a threat intelligence
+16:17 software which identifies the address as
+16:19 a suspected malware server as each piece
+16:23 of security software runs the findings
+16:25 are recorded in the ARP incident which
+16:28 is already busy creating a set of
+16:29 instructions called a playbook for a
+16:31 security analyst to follow the analyst
+16:34 then locks Bob's accounts and changes
+16:36 his passwords this time the software has
+16:39 determined the attempted attack came
+16:41 from a well known cyber crime
+16:42 organization using stolen credentials
+16:44 Bob's credentials were stolen when the
+16:47 hacker found a vulnerability in his
+16:49 company's firewall software and used it
+16:51 to upload a malware infected file now
+16:53 that we know how that happened the
+16:55 analyst uses the ARP and identifies and
+16:58 patches all the things the ARP uses
+17:01 information from endpoint tools to
+17:03 determine which machines need to be
+17:04 patched recommends how to bash them and
+17:06 then allows the analyst to push the
+17:08 patches to all the computers and mobile
+17:10 devices instantly
+17:12 meanwhile bob has to alert the legal
+17:14 departments of the
+17:15 and the AARP instantly notify the
+17:18 correct person of the situation and the
+17:20 status of the incident after the attack
+17:22 is contained and Bob's account is
+17:24 secured the analysts then communicates
+17:26 which data may have been stolen or
+17:28 compromised during the incident he
+17:31 identifies which geographies
+17:32 jurisdictions and regulatory agencies
+17:34 cover the users and informations
+17:36 affected by the attack then the ARP
+17:39 creates a series of tasks so the
+17:41 organization can notify the affected
+17:43 parties and follow all relevant
+17:44 compliances and liability procedures in
+17:47 the past a security breach this large
+17:49 would have required Bob's company to
+17:51 involve several agencies and third
+17:53 parties to solve the problem a process
+17:56 that could have taken months or longer
+17:57 but in a matter of hours the incident
+18:00 response platform organized all of the
+18:02 people processes and technology to
+18:04 identify and contain the problem find
+18:07 the source of the attack fix the
+18:09 vulnerability and notify all affected
+18:11 parties and in the future Bob and his
+18:13 team will be able to turn the cognitive
+18:15 security tools these tools will read and
+18:18 learn from tens of thousands of trusted
+18:20 publication blogs and other sources of
+18:22 information this knowledge will uncover
+18:25 new insights and patterns anticipate and
+18:27 isolate and minimize attacks as they
+18:29 happen and immediately recommend actions
+18:31 for security professionals to take
+18:33 keeping data safe and companies like
+18:35 Bob's out of the headlines ok guys I
+18:37 hope you all learned something about
+18:39 cyber security today and why it is so
+18:41 essential in today's world if you all
+18:43 have any doubts or questions regarding
+18:45 this video please post a comment down in
+18:47 the comment section that's it for me
+18:49 goodbye
+18:50 I hope you have enjoyed listening to
+18:52 this video please be kind enough to like
+18:54 it and you can comment any of your
+18:57 doubts and queries and we will reply
+18:59 them at the earliest do look out for
+19:02 more videos in our playlist and
+19:03 subscribe to any rekha channel to learn
+19:06 more happy learning

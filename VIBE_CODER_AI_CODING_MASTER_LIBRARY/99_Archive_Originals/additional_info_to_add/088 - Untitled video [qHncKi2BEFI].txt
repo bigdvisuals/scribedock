@@ -1,0 +1,894 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=qHncKi2BEFI
+Channel: Riley Brown
+Video ID: qHncKi2BEFI
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 there are so many massive Trends going
+0:02 on in the world of artificial
+0:03 intelligence especially with Vibe coding
+0:06 and thropic trying to build cursor AI is
+0:09 scared of China and then we also have
+0:11 Chinese models both images videos and
+0:14 especially llms coming out very soon we
+0:18 have Google's new insane image model
+0:20 that people are using instead of
+0:22 Photoshop AI is getting better at
+0:24 writing and AI is entering social media
+0:29 Platforms in a way way that I didn't
+0:30 expect but I think all of the other
+0:32 platforms are going to follow so my name
+0:34 is Riley Brown and I look at the space
+0:36 through these four lenses marketing and
+0:38 culture app building tools that we use
+0:40 for everyday productivity and then
+0:43 content creation and creativity and if
+0:46 you're interested in how AI affects
+0:48 these things consider subscribing okay
+0:51 let's just dive straight into it okay
+0:53 right now there's so much going on in
+0:56 Vibe coding and Vibe coding right now I
+0:59 think is the fast fastest growing Trend
+1:01 in all of Tech I mean Vibe coding has
+1:03 quickly passed prompt Engineering in
+1:06 terms of how many people are talking
+1:08 about it and it's for reasons like this
+1:10 so baval sadu posted this video the
+1:12 other day that got so many people
+1:15 excited about the future of AI and 3D
+1:19 gaming and so let's watch this video
+1:22 real quick prompt create a poly cabin in
+1:25 the woods and then blender right here
+1:27 let's go ahead and throw this on2
+1:29 5-speed blender is going to go through
+1:32 and actually generate all of the Assets
+1:34 in this image right here and it's using
+1:38 mCP within Claud so Claud is literally
+1:41 controlling blender through code right
+1:44 here and creating all of the Assets in
+1:46 blender and then these blender assets
+1:49 can be imported into games that you
+1:51 create with AI another method to do this
+1:55 and this was a really cool video by maid
+1:58 he said uh generate 3D animated
+2:01 characters for your Vibe coded 3js game
+2:04 in less than 5 minutes so what he's
+2:05 doing here
+2:07 effectively he's generating an image on
+2:09 the new Gemini image model which we'll
+2:11 get to later and then he's going to
+2:15 Trellis and I think this basically takes
+2:17 an image right here and it's actually
+2:20 going to turn it into a 3D model and so
+2:22 then it's going to get an extracted glb
+2:25 file and I don't know much about the
+2:27 gaming but I do know that when I use AI
+2:30 to generate something in blender I
+2:32 exported it as a glb into a game and so
+2:36 we've gone from 2D character to a 3D
+2:38 character using trellis and then you
+2:41 have to convert the glb into an fbx and
+2:45 then you import it into mixim to figure
+2:48 out how you want to animate it and then
+2:50 they're going to export the fbx plus the
+2:52 animations for your 3js game and so this
+2:56 sounds cool but it's not super easy
+2:59 right right there's a lot of steps a lot
+3:01 of different tools that you might need
+3:02 to learn you need to learn about glb
+3:04 files or fbx files I actually don't
+3:06 think this is the best place to start
+3:08 and if we go to the next slide here uh
+3:11 Dan Green said I finally cave to the
+3:14 height here's my attempt at Vibe coding
+3:16 with zero manual coding I gave myself
+3:19 just 30 minutes to build a 3D RPG with
+3:22 3js using cursor claw and Claw 3.7 Sonet
+3:26 and I'm about to play this video but I
+3:28 think 100 % this is a really good place
+3:32 to start a simple game and you don't
+3:34 have to go into blender create any of
+3:36 these assets you can just ask cursor to
+3:39 create a 3js game with these assets and
+3:41 to me this kind of looked like a
+3:43 Minecraft like game as you can see some
+3:45 enemies running around uh they seem to
+3:48 have some health and you could basically
+3:51 just run around in this like RPG like
+3:53 world and this was just 30 minutes of
+3:57 prompting and he has water trees
+4:00 different Hills on the map and it's this
+4:02 first person game which is kind of cool
+4:04 and then uh the last Trend I want to
+4:06 talk about in kind of this Vibe code
+4:09 gaming or generative gaming is is what
+4:12 you could call it is this video was
+4:14 insane so someone created this this is
+4:17 prompt to RPG character and with
+4:20 directly within the game right within
+4:23 the game he's controlling this raccoon
+4:26 right here so it shows the character
+4:28 that he's controlling so he's
+4:29 controlling this raccoon walking around
+4:31 this map and then he's going up here and
+4:33 entering a green alligator in a space
+4:36 suit and it's going to generate this
+4:39 green alligator in a space suit and now
+4:42 we can run around this kind of this map
+4:44 and now he's generating a knight in Dark
+4:47 armor and the knight in Dark Armor gets
+4:50 generated he can control that Knight
+4:52 again a monkey in a yellow space suit
+4:54 generate boom there is a monkey in a
+4:57 space suit so this is going to be
+5:00 massive the ability to just create games
+5:04 on the Fly this is going to push all of
+5:08 the value to content creators especially
+5:10 streamers I could see a world where
+5:13 streamers basically spend a like a full
+5:15 day building a game for his followers
+5:18 and and everyone's just commenting in
+5:19 the chat what features to add and they
+5:21 just kind of create this game and then
+5:22 the next day they just play it all
+5:24 together okay that's it for the gaming
+5:26 stuff so VZ got a makeover U v0
+5:30 Integrations you can now add storage
+5:32 into your generations with up stash
+5:34 superbase or neon and I'll explain what
+5:38 that means in a second if you're new to
+5:39 the whole vibe coding space you can also
+5:41 set up a database without creating a new
+5:43 account through versell Marketplace and
+5:45 you can generate and execute uh SQL to
+5:48 interact with your database and so let
+5:51 me show you what this means here so we
+5:53 can play this video and we can say can
+5:56 we add a database to this calendar to
+5:58 keep track of which events were added
+6:01 previously right look how great this
+6:03 design is v0 is a tool like repet like
+6:06 bolt like lovable that is a web-based
+6:11 tool you can go to it and ask it to
+6:12 generate an app but the problem with
+6:15 these apps have been that you can't add
+6:17 a database and uh so anything that you
+6:20 add into the site if you were to refresh
+6:22 the page all of it would be gone now you
+6:24 can ask it to add a database and so you
+6:27 can create a little app in VZ then you
+6:29 could use that app right if you send the
+6:31 link to your app to a friend they could
+6:34 interact with the website and it can add
+6:36 their data right if you wanted to create
+6:38 a Twitter clone that data needs to be
+6:40 stored somewhere right and so now you
+6:42 can begin to build apps with a database
+6:45 and this is very cool over to bolt so
+6:49 bolt is another vibe coding tool that
+6:51 you can just build apps on the web this
+6:53 is becoming a very competitive space
+6:56 right now you have bolt repet lovable
+7:00 H and there's many others actually v0
+7:03 and they just added the ability to use
+7:06 figas you can basically import your
+7:08 designs if you use figma directly into
+7:11 bolt and this is pretty cool I think
+7:13 this is going to be something we're
+7:14 going to see across all of these
+7:16 web-based Vibe coding tools you're going
+7:18 to be able to just import your figma
+7:21 designs okay so that's it for the vibe
+7:24 coding Trends let's move to the next one
+7:26 which is anthropic Harmony so this video
+7:29 just just leaked from anthropic and it
+7:31 mentions anthropic Harmony and it is
+7:34 this new tool right an early preview of
+7:37 the upcoming Harmony feature for Claude
+7:39 Harmony will allow users to give Claude
+7:42 full access to a local directory so it
+7:45 can research and operate within its
+7:47 content is harmony the first anthropics
+7:50 AI agent and here's a
+7:53 video and so here you can basically give
+7:57 it access to the files on your computer
+8:00 and you can just say summarize it and so
+8:04 this is kind of a boring use case uh but
+8:07 to me we're we're reaching a point where
+8:09 anthropic is going deep into your
+8:12 computer anthropic has computer use
+8:15 where it can literally control your
+8:16 computer it has mcps and which can do
+8:19 things on your computer as well as uh
+8:22 interact with apis like external apis
+8:25 really easily so it's getting easier and
+8:26 easier to add other Technologies to to
+8:30 uh to Claude and so if we open up Claud
+8:32 here right you can see that in Claude I
+8:34 was actually using it for blender I have
+8:37 access to these 41 tools right these are
+8:40 all mcps and very soon we're just going
+8:43 to be able to by default basically give
+8:45 it access to files on my computer they
+8:48 just added a new model that makes it
+8:50 much quicker for it to edit files they
+8:53 also created Cloud code which you
+8:56 interact with it directly in your
+8:57 terminal and many people are saying it's
+8:59 better than than cursor at generating
+9:01 code and so we're seeing all these
+9:03 interesting features made specifically
+9:05 for developers and slightly more
+9:06 technical people out of anthropic and so
+9:09 I think that is the branch that we're
+9:11 seeing right now we're seeing open ai go
+9:13 all in in on the product side making it
+9:16 accessible to everyone I think open AI
+9:18 strategy is to go for you know billions
+9:21 of users just like Facebook and
+9:23 anthropics like okay we're going to go
+9:25 for the people building products the
+9:27 people the developers who want to build
+9:29 really cool things and I think it's
+9:32 interesting to see them kind of become
+9:34 different in that way and this is not
+9:36 just for developers as well you can
+9:38 actually go directly on your desktop and
+9:40 we could just create a new folder and so
+9:42 we created this Untitled folder too
+9:45 please in my desktop folder um create
+9:51 three documents in the Untitled folder
+9:56 two I want you to create
+9:59 for documents these should be 10line
+10:03 poems and these should be text files so
+10:05 find that folder and adds add those four
+10:08 poems files in that folder and rename
+10:11 the folder to Riley's
+10:17 poems and so we have now have access to
+10:21 our own computer and so we can allow for
+10:23 this chat and it's using the mCP which I
+10:26 know is different than Harmony but my
+10:27 point is I want to show you that
+10:29 anthropic is starting to get have more
+10:32 an intuitive sense of your computer and
+10:35 so now it's writing the folders look it
+10:37 changed it to Riley's poems and if we
+10:40 click on this we'll see that it's
+10:41 created Morning
+10:44 Light okay now it's created City Lights
+10:47 Ocean Dreams and now Autumn thoughts it
+10:50 did that automatically it can create all
+10:52 these different folders and then we can
+10:54 now open this up and now take a look at
+10:56 this we have these four poems in here
+10:59 has text files and we can see them just
+11:01 like this we could ask okay now write an
+11:06 essay in that folder and first search
+11:11 the web and make this
+11:15 about uh the
+11:18 TBN
+11:20 podcast that just
+11:23 launched uh that's big on Twitter
+11:29 web it's searching the web and now it's
+11:31 creating this essay and then it's going
+11:33 to enter it directly into the folder
+11:36 which I think is just incredibly boom
+11:38 there is the essay we can click on it
+11:40 right here and now we can read it so
+11:42 here we have this text file and we can
+11:45 read it which is really cool it's like
+11:48 having perplexity right because Claude
+11:50 can't buil in search the web but since
+11:53 it has access to the MCB tool and your
+11:55 files it can quickly add things to your
+11:58 files and I think this is really really
+12:00 all right let's move to the next Trend
+12:02 open AI wants to train on copyright data
+12:06 this one is quite interesting so open
+12:10 aai and Google ask the government to let
+12:12 them train AI on content they don't own
+12:16 so open a and Google are pushing the US
+12:18 government to allow their AI models to
+12:19 train on copyright material both
+12:22 companies outline their stance in
+12:24 proposals published this week with open
+12:26 AI arguing that applying fair use
+12:28 production to AI is a matter of National
+12:31 Security and I'm going to explain this
+12:33 in a second if you get a little lost
+12:35 here but the initiative is supposed to
+12:38 enhance America's position as an AI
+12:40 Powerhouse while preventing the
+12:42 burdensome requirements from impacting
+12:44 innovation in its comment open AI claims
+12:47 that allowing AI companies to access
+12:50 copyrighted content would help the US
+12:52 avoid forfeiting its lead in AI to China
+12:56 while calling out the rise of deep seek
+12:58 I think open AI is doing a really good
+13:01 job at pretending that deep seek doesn't
+13:03 scare the crap out of them I know for a
+13:06 fact that it does it is terrifying that
+13:09 deep seek found a way to really cheaply
+13:13 create an AI that's basically at the
+13:15 quality of chat GPT 4.5 there's little
+13:19 doubt that the prc's people Republic of
+13:22 China AI development will enjoy
+13:25 unfettered access to data including
+13:28 copyrighted data that will improve their
+13:30 models open AI rights they're basically
+13:33 saying that China is going to train all
+13:35 of their AI models on us copyrighted
+13:38 material they're going to download all
+13:39 the movies they're going to download all
+13:41 the books they're going to download
+13:43 everything and they are going to train
+13:45 AI models on that material no matter
+13:48 what no matter if they have access or
+13:50 not and Sam alman's argument or open
+13:52 ai's argument as well as Google who
+13:55 agrees they're basically saying we need
+13:57 to have access or we going to lose to
+14:00 China and they're saying that if they
+14:02 lose to China in this AI race that is a
+14:06 matter of National Security if the prc's
+14:09 developers have unfettered access to
+14:11 data and American companies are left
+14:13 without fair use access the race for AI
+14:16 is effectively over you know two years
+14:19 ago open Ai and Sam Alman was going on
+14:21 little world tours saying I dare any of
+14:24 you to uh compete with us there was a
+14:27 famous video If you to build
+14:29 foundational models how should we think
+14:31 about that where is it that a team from
+14:33 India you know three super smart
+14:35 Engineers with you know not 100 million
+14:37 but let's say 10 million could actually
+14:39 build something truly substantial look
+14:41 the way this works is we're going to
+14:42 tell you it's totally hopeless to
+14:44 compete with us on training Foundation
+14:45 models you shouldn't try and it's your
+14:47 job to like try anyway and I believe
+14:49 both of those things I think it I think
+14:50 it is pretty hopeless
+14:53 but where he basically told I think he
+14:56 was in India and he said yeah you won't
+14:58 compete with us but you can try and now
+15:01 uh you know foreign companies are now
+15:05 basically right there with them and he's
+15:07 saying that they will 100% win if and
+15:10 it's a matter of copyright issues open
+15:13 AI always makes it seem like they have
+15:15 this secret to AGI and I think it's
+15:19 becoming very clear that they have no
+15:20 more secret sauce and it's starting to
+15:23 look like China might outcompete the US
+15:26 in terms of creating good AI text models
+15:30 like chat gbt and AI video models
+15:32 because they created cling so China's AI
+15:35 models are looking extremely good and a
+15:37 Chinese company just released Manis
+15:39 which is basically a mixture between
+15:42 open ai's operator which is only
+15:45 accessible on the $200 per month plan
+15:48 and deep research which is also
+15:50 accessible on the $200 per month plan
+15:52 and they're releasing it um presumably
+15:56 for much cheaper once it gets released
+15:58 to the public
+15:59 and so China is starting to look like a
+16:02 huge threat and that's going to cut into
+16:04 their profits and they are extremely
+16:07 worried about it and then we have this
+16:09 story which I think is going to start
+16:10 coming up again a lot this open aai
+16:13 researcher was basically publicly saying
+16:15 that the company broke copyright law and
+16:19 he was about to go on a press circuit he
+16:21 was about to talk to a bunch of
+16:22 different Outlets about how specifically
+16:25 open AI was breaking copyright law then
+16:28 then he committed suicide in his
+16:31 apartment many people were saying that
+16:33 it didn't actually look like a suicide i
+16:36 h I have not done much research into
+16:38 this but I guarantee you this is going
+16:40 to come up as open AI starts arguing
+16:43 that they should have unfettered access
+16:45 to all of the movies created in the US
+16:48 all of the books created in the US Open
+16:50 AI is going to want to train AI models
+16:54 on literally everything and so was
+16:56 Google and many other us companies and I
+16:59 thought this was a really interesting
+17:01 tweet from Santiago Sam totally hopeless
+17:04 to compete with us Sam I wish he would
+17:06 just compete by building a better
+17:08 product and he said that about Elon Musk
+17:10 and then also Sam we need to ban my
+17:13 competitors and uh this was uh
+17:15 commenting on a tech crunch tweet saying
+17:17 open AI calls deep seek State controlled
+17:20 calls for bans on PRC produced models
+17:24 okay so let's move on to the next Trend
+17:26 which Chinese models are coming out soon
+17:29 so Buu was released yesterday so Buu
+17:33 just released a brand new model I forgot
+17:35 to add a slide for this but let's go
+17:37 ahead and let's just say uh do research
+17:41 on BYO and their new model in essay
+17:46 format and add it to that folder and
+17:51 let's just go ahead and do this so now
+17:53 it's creating this
+17:57 essay okay it just added this essay so
+18:00 we can click on this but basically the
+18:02 uh Ernie 4.5 is a model created by Buu
+18:06 it's a multi-billion dollar company in
+18:08 China and they created these new AI
+18:11 models that represent significant
+18:12 advancements in AI capabilities so Ernie
+18:15 4.5 and Ernie X1 and they called Ernie
+18:19 uh 4.5 just you know a couple weeks
+18:22 after chat GPT released GPT 4.5 and it's
+18:26 their latest Foundation model just like
+18:28 chat gpt's new 4.5 model and then they
+18:31 also released X1 A specialized reasoning
+18:34 model that's even cheaper than deep
+18:36 seeks reasoning model and apparently
+18:38 it's nearly as good so yeah it performs
+18:41 on par with deep seeks R1 at only half
+18:44 the price basically they created a model
+18:47 that's a lot like GPT 4.5 and uh just
+18:50 like deep seeks R1 and then we also have
+18:53 deep seek R2 which was originally
+18:55 rumored to come out tomorrow but they
+18:58 have since destroyed those claims saying
+19:00 it's not coming out tomorrow I would
+19:02 imagine that with all of these new
+19:04 reasoning models coming out in the US I
+19:07 would expect by the end of March uh for
+19:10 uh deep seek to release their R2 model
+19:13 and I'm very curious to see how good
+19:15 this model is because I think the
+19:18 reasoning feature within uh deep seeks
+19:21 R1 is still my favorite feature within
+19:24 an AI model it literally thinks like a
+19:27 human or at least it appears to think
+19:29 like a human and reading the way that it
+19:31 processes things I think is one of the
+19:34 most entertaining uh things in Ai and
+19:36 one of the most interesting things to
+19:38 actually like see how an AI model thinks
+19:40 because remember open AI still hides the
+19:43 true reasoning behind their reasoning
+19:46 models and those are tokens that you're
+19:48 paying for and they're not showing you
+19:50 whereas if you use deep seek it will
+19:52 show you the full reasoning which I
+19:53 think is why it is probably my favorite
+19:56 model out now except for maybe CLA son
+19:59 it because it's just so good at coding
+20:02 okay let's move to the next thing which
+20:03 is Google AI news especially their new
+20:07 AI image model so Logan killpatrick he
+20:10 said native image generation with Gemini
+20:13 2.0 flash is now available to all
+20:15 developers via an experimental release
+20:18 in the Gemini API and Google AI studio
+20:21 if you Google Google AI studio right now
+20:23 you'll find that this is free you can
+20:25 use this for free and this model is
+20:29 incredible and here's an example of
+20:32 someone who basically uploaded this
+20:34 image of a woman and then this jacket
+20:36 and said make this woman wear this
+20:39 jacket and let's actually go try it
+20:42 let's type in let's type in Google AI
+20:45 Studio I'll show you exactly how to set
+20:47 this up you're going to have to create
+20:49 an account I've already created an
+20:50 account so I don't have to and over here
+20:53 you can see the models so just go to
+20:55 this first tab over here which is create
+20:56 prompt then go to the models and make
+20:59 sure you're on Gemini 2.0 image
+21:02 generation and so now we can actually we
+21:05 can use this new image model and so
+21:08 let's go ahead and go to Google images
+21:10 and we can actually we can go uh let's
+21:13 go man and we'll get this image of this
+21:17 guy and we're going to copy this image
+21:19 and we can paste that in and we'll go
+21:23 orange puffer jacket copy this image
+21:28 and we can paste that
+21:30 in say make this man wearing this jacket
+21:36 and zoom
+21:38 out and so let's see how long this
+21:43 takes and so here we have this man
+21:46 wearing the jacket uh but you actually
+21:48 don't need to upload multiple images so
+21:50 we can just upload this image and say
+21:52 give him a blue hat and earrings and it
+21:58 will actually just give him a blue hat
+22:00 and earrings and what I like about this
+22:02 model is it doesn't overly affect the
+22:04 other parts of the image so you see here
+22:06 that this is almost like identical the
+22:09 face except for the earrings and this
+22:12 blue hat and then we can just keep
+22:14 continuing make his
+22:17 turtleneck uh orange and jacket blue and
+22:23 so ideally this will be orange this
+22:25 turtleneck will be orange and the jacket
+22:27 will be blue there we go and so now we
+22:30 went from this to this to this uh now
+22:36 make the background dark blue with a
+22:46 painting uh now add another painting to
+22:52 the left of the other
+22:55 one now give the man son
+22:59 glasses and make
+23:02 mustache
+23:04 larger and look at that we can just kind
+23:06 of flow and edit these images and I
+23:09 guarantee you many apps out there if you
+23:12 want to build apps using this AI model
+23:14 is going to be very massive and I think
+23:17 there's going to be a lot of viral apps
+23:19 using this technology because you can
+23:21 immediately just put this in the app
+23:23 because you can get this code directly
+23:25 and if you use this code right here with
+23:27 your API key you can actually add it
+23:29 into any app that you want to create so
+23:32 yeah this new Gemini 2.0 flash image
+23:35 model is the biggest thing Google has
+23:37 done recently they also released this
+23:39 open weight Gemma 3 Model that can
+23:41 actually run on phones so on the AI
+23:45 models that are going to be able to run
+23:46 directly on your phone are getting
+23:49 better and better which means that uh
+23:51 you know anytime you use open AI that
+23:53 costs money because you need to interact
+23:55 with their server their gpus generate
+23:58 the text and send it back to your phone
+24:00 that's how you use chat gbt but if you
+24:03 have these models running directly on
+24:05 your phone you're going to be able to do
+24:07 a lot with AI without even needing
+24:09 internet access so it'll be effectively
+24:10 free for the cost of the electricity on
+24:13 your phone basically so the next Trend
+24:15 open AI is developing a new model that
+24:17 excels at creative writing and so Sam
+24:20 Alman tweeted this the other day we've
+24:22 trained a new model that is good at
+24:24 creative writing not sure yet how or
+24:27 when it will be released but this is the
+24:29 first time I've been really struck by
+24:31 something written by AI it got the vibe
+24:33 of meta fiction so right please write a
+24:36 meta fictional literary short story
+24:38 about Ai and grief and I'll let you
+24:40 pause the video uh to you know if you
+24:42 want to read this and I think the
+24:44 writing is pretty good but what I want
+24:47 to talk about more is is the question I
+24:49 get a lot which is why does AI suck at
+24:52 writing and the simple answer is AI
+24:55 That's good at responding to corporate
+24:57 emails probably won't be that good at
+25:00 writing for social media or books Etc
+25:04 and a simple mental test that I do when
+25:08 I think okay is this technology going to
+25:10 get really good for my use cases and I
+25:12 call it the Microsoft test I have no
+25:14 idea why I use
+25:16 Microsoft and this Microsoft test is if
+25:19 this big corporate entity agrees with
+25:22 you on the quality of something it'll
+25:24 get better at creating that thing with
+25:26 AI let me explain Microsoft and you or
+25:30 or open Ai and you will agree on what
+25:33 good code looks like right if you want
+25:36 to generate code in cursor it's good
+25:38 code especially if you're a programmer
+25:40 right if you're a programmer you you're
+25:41 going to agree on the quality these
+25:43 companies are getting so good at
+25:44 training only on the like really high
+25:47 quality outputs that it's only going to
+25:49 continue to get better in fact there's
+25:50 companies out there whose job is to just
+25:52 collect really high quality outputs but
+25:55 the problem with writing is that what I
+25:58 think is really good writing Microsoft
+26:00 or open AI won't agree so we're not
+26:03 we're not going to scale towards that
+26:06 high quality output because there's just
+26:07 disagreement the people training good
+26:10 writing they don't know what good
+26:11 writing is for everyone and there isn't
+26:13 good writing for everyone I prefer AI
+26:17 models to speak way more unfiltered and
+26:19 to just say it how it is without any
+26:21 sort of political correctness and that's
+26:24 why I think I prefer X AI outputs a
+26:27 little bit more but xai suffers from
+26:30 those same biases because a lot of their
+26:32 models are trained on open AI outputs
+26:35 and so that's why AI is not good at
+26:38 writing so you actually need a model you
+26:41 need to train a model specifically on
+26:43 good creative writing and that's why
+26:45 there's tensions between us and China or
+26:48 that's why Sam ultman wants to be able
+26:50 to train on all of the books ever
+26:53 created they want to make sure that they
+26:55 get all of the books out there and train
+26:57 their model on high quality outputs you
+27:00 know the highest selling books of all
+27:02 time they want to train their models on
+27:03 that so they can actually get better at
+27:04 writing and their argument is that if
+27:06 they don't do that China is going to do
+27:09 it then China will have a strategic
+27:11 advantage over the us because they're
+27:14 able to train on all the data in the
+27:15 world because you know China don't give
+27:18 no
+27:19 F and so that's kind of Sam's argument
+27:22 there so the next Trend involves the
+27:25 best use of AI within a social media
+27:27 platform form in my opinion and it
+27:30 involves this new grock feature where if
+27:33 you're kind of confused on what's going
+27:34 on or you want additional context you
+27:36 can just type at grock who's using the
+27:39 dupes in TFI I don't really know what
+27:41 this video was about this is just an
+27:43 example and grock provides context in
+27:46 TFI body doubles are widely used
+27:48 especially in action film so it actually
+27:50 has context of the video here it can
+27:52 watch the video it understands what's
+27:53 going on in the video it understands
+27:55 who's tweeting and AI can actually per
+27:58 Tri that relevant context and this in my
+28:01 opinion is a significantly better use
+28:05 than uh you know how meta is trying to
+28:06 use AI with these AI avatars I'll get
+28:08 more to that in a second but this
+28:10 feature xai uh launching the ability to
+28:13 at grock uh directly copied perplexity
+28:18 so ask perplexity is a feature that was
+28:20 the same thing as this Gro feature but
+28:23 perplexity created it first and this
+28:25 account was created a few weeks ago and
+28:27 it's already at1 ,000 followers and so
+28:29 now you can type acts at perplexity and
+28:32 I actually think the answers are
+28:33 slightly better than grock and many
+28:35 people who ask perplexity or grock just
+28:38 do at both of them and say go they say
+28:40 at grock at perplexity what's going on
+28:43 with this and so now they are kind of
+28:45 competing but obviously grock has a
+28:47 strategic Advantage because they own the
+28:49 platform and I think that first of all I
+28:53 think that uh meta is going to launch
+28:56 this maybe maybe in Faceook definitely
+28:58 in Threads and I think they should
+29:00 actually add it in Instagram as well I
+29:02 think that would be super useful and
+29:04 yeah I think that this is a way better
+29:06 use case of AI than these AI weird AI
+29:10 avatars I actually think no one wants AI
+29:12 avatars I think AI avatars are one of
+29:15 those things that literally no one wants
+29:18 and will be used to just kind of like
+29:20 addict the agency users who just like
+29:23 scroll completely mindlessly and like
+29:27 don't want and want to lose touch with
+29:29 reality completely for whatever reason
+29:31 like I think AI avatars are so beyond
+29:35 stupid um but for whatever reason meta
+29:38 wants to continue to add these into
+29:40 their platforms in various ways I just
+29:43 don't think it's a good use of AI but
+29:44 using AI that you can just comment and
+29:46 talk to like it's a person in the
+29:47 comments of that social media really
+29:50 smart and I expect this to get more
+29:52 immersive I'm not quite sure what that
+29:53 means but I think there's something
+29:55 there because it's a very popular
+29:56 feature Within X so the next Trend so
+30:01 the next trend is Manis and so
+30:03 everyone's going over Manis and many
+30:06 people are saying that this is kind of
+30:07 the prototype for AGI I mentioned it a
+30:10 little bit earlier in this video it's a
+30:11 lot like uh chat gbt's deep research and
+30:14 chat gpt's operator built in one and I
+30:18 actually got access the other day and
+30:19 I'll show you one of my prompts or one
+30:24 of my uses for it so my last one was
+30:26 basically create create a presentation
+30:29 with relevant images on the following
+30:31 topics which was this presentation here
+30:33 I wanted to see what images it would
+30:35 grab and so basically it went through
+30:37 all of these different steps boom boom
+30:39 boom boom boom boom all the way down
+30:40 visited sites taking screenshots doing a
+30:43 lot of things converting things using
+30:46 python basically just kind of a more
+30:49 free flowing have access to a lot of
+30:51 tools and then generated this report
+30:53 right here the report was decent and I
+30:57 all I asked to do was just to grab
+30:59 images right I wanted to get relevant
+31:01 images for this presentation and it went
+31:03 through and it sometimes it just
+31:05 downloaded images from the internet and
+31:07 the other times it actually took
+31:08 screenshots of videos some of them
+31:10 weren't that great but the point is it's
+31:13 doing a lot more work and it was just
+31:16 revealed earlier I think uh about a week
+31:19 ago that this is actually an anthropic
+31:22 Claude 3.7 wrapper now if AI models in
+31:26 China continue to get better they're
+31:28 cheaper so Manis will likely switch to
+31:30 the cheaper models um but it's basically
+31:34 using all of the most powerful models to
+31:37 create this agentic workflow that can uh
+31:40 can begin to create a lot more things it
+31:43 can create a code for an app it can
+31:45 generate a presentation and it's like
+31:48 having like a research employee that can
+31:50 create documents for you but it can also
+31:52 go out and search the web which makes it
+31:54 like gbt research and operator built
+31:57 into one and this is definitely the form
+32:00 factor of the future in my opinion when
+32:03 you're using your computer you just have
+32:05 access to a chatbot that can kind of go
+32:07 do a ton of different things and it's
+32:09 going to get access to more and more
+32:11 tools and soon it might be able to just
+32:13 watch the Youtube video and that is
+32:15 going to be a very interesting time on
+32:17 the internet and that's why many people
+32:20 are recommending that you create
+32:22 websites and create blogs and content
+32:25 for the internet you actually write it
+32:27 specifically for AI agents you make sure
+32:29 that everything's easily searchable by
+32:30 the agent because many people actually
+32:32 won't visit your site but their AI agent
+32:35 that's looking for relevant information
+32:36 will visit your site the problem with
+32:38 this is that AI agents are actually
+32:40 going to create a lot of the websites so
+32:42 we might see this like huge overload and
+32:44 so that's why I think people will
+32:45 actually be pushed into closed
+32:48 communities where you can have a higher
+32:50 degree of certainty that the information
+32:52 there is higher signal or good
+32:55 information because AI agents are going
+32:57 to change everything and you know for a
+33:00 YouTube video for doing research on a
+33:01 YouTube video it's going to get
+33:02 significantly easier to just send an
+33:04 agent on all of your little ideas and
+33:06 then you can just evaluate the reports
+33:09 generated by Ai and then you can be like
+33:11 okay yeah I'll make a video on this and
+33:12 it'll do like 70% of the research work
+33:14 up front and it's going to get
+33:18 significantly better and I really like
+33:21 this video if you look up this video by
+33:23 McKay Wrigley it's a 14-minute video and
+33:25 he claims that in the next 2 to three
+33:27 years it's going to have an IQ of over
+33:28 180 it'll never stop working and it'll
+33:31 be 10 times faster and Manis right now
+33:33 is kind of in this limited preview but
+33:35 soon you're going to be able to just run
+33:36 these as many of these windows at once
+33:39 because these take so long to generate
+33:42 this is going to start to look like a
+33:44 lot more like many different agents at
+33:48 once in fact I have a tweet that I keep
+33:51 repeating over and over again cuz I
+33:53 basically said that uh the future of AI
+33:55 agent workflows is going to look a lot
+33:57 like like online poker in 2010 where you
+34:00 have a ton of different windows open
+34:02 because poker is a game of patience
+34:04 right you're folding a lot and it's
+34:07 you're not actually doing anything
+34:08 you're just sitting there waiting and so
+34:10 poker players would have many tables
+34:12 open at once and when it was their turn
+34:14 on one of the tables they would actually
+34:16 go play that hand and on the hand it
+34:20 would actually show you a HUD or a heads
+34:22 up display which basically keeps track
+34:24 of all the stats of all the players at
+34:27 your table table and this uh and this
+34:30 allowed players to just switch from game
+34:33 to game to game to game to game because
+34:34 they could go to a game where it's their
+34:36 turn see the relevant stats of all the
+34:38 players and then make an informed
+34:40 decision and it allowed them to turn
+34:42 this like ma uh like 20 different games
+34:44 at once into just one giant game making
+34:47 sequential decisions over and over again
+34:49 and their goal was to make as much money
+34:50 per hour right which will be the same
+34:52 goal that you'll have when operating
+34:54 these AI agents imagine in the future
+34:56 you have Manis and one of them's your
+34:58 content researcher one of them's your
+34:59 content poster one of them's dedicated
+35:02 just to posting good stories maybe these
+35:04 agents are talking to a central database
+35:06 and they can talk to each other and your
+35:08 goal is to just make effective decisions
+35:10 nudging these AI agents to do better
+35:13 things right you think that's kind of
+35:15 management like good management you're
+35:17 basically managing human employees well
+35:19 soon that will be this dashboard of AI
+35:23 agents that are doing things for your
+35:24 company but it may require your
+35:26 decision-making process
+35:28 and that's where you come in and so
+35:29 that's why I think it's going to kind of
+35:31 look like this in the future when it
+35:33 comes to AI agent workflows okay and
+35:36 finally every week that I do this I'm
+35:37 going to try and Shout out someone that
+35:39 I actually like consume content from
+35:41 that I get a ton of value because I
+35:43 think there's a lot of terrible content
+35:45 being made on AI business startups and
+35:48 when there's really high quality content
+35:50 being made by someone I want to make
+35:51 sure to shout them out and that's TBN
+35:54 which is this new like technology
+35:56 Brothers podcast Network or something
+35:58 and they have like really high quality
+36:01 guests they had Obby shiffman who
+36:02 created um friend.com Shan Pur a lot of
+36:06 people that you'll recognize and big
+36:08 people in Tech that don't normally do
+36:10 podcast stuff and so I think this is a
+36:12 really good way to keep an eye on on
+36:16 startups and how they're using modern
+36:18 technology within startups and it's just
+36:20 a really fun Liston it was just created
+36:22 so I want to shout them out and yeah you
+36:24 should definitely follow that account
+36:26 and by the way I have a Community
+36:28 software composer. comom if you want to
+36:30 learn more about Vibe coding which is my
+36:32 biggest passion right now we have like
+36:33 14,000 users in this community and we
+36:37 talk about your projects you can ask
+36:39 questions when you're confused it's free
+36:41 and we're doing a big live stream
+36:43 there's a live stream coming up we're
+36:45 building mobile apps live stream on
+36:47 March 26 we're going to from start to
+36:49 finish we're going to build a mobile app
+36:51 it's going to be sick I'll see you guys
+36:53 there um Peace

@@ -1,0 +1,740 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=P5hJnYfA_EE
+Channel: Riley Brown
+Video ID: P5hJnYfA_EE
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 If you clicked on this video, chances
+0:01 are you want to build a mobile app of
+0:04 your very own that has a professional
+0:05 design and one that can actually make
+0:07 you money on [music] the app store. And
+0:09 I'm going to show you exactly how to do
+0:11 this in this video using Claude Code
+0:14 directly [music]
+0:15 from your phone. We're going to start
+0:16 with ideation. Then we're going to move
+0:17 to prompting the AI to build our app.
+0:19 Then we're going to talk about design.
+0:21 We're going to add images, sound
+0:22 effects, and haptics. And then we're
+0:24 going to send the app to the app store.
+0:26 And we're not going to write a single
+0:28 line of code. Let's not waste any more
+0:29 time. Let's dive into the video.
+0:32 Okay, so today we're talking about how
+0:34 to vibe code a mobile app. We want to
+0:37 take our idea for an app and then get it
+0:39 on the app store without writing a
+0:41 single line of code because we are at a
+0:44 massive shift right now. The world is
+0:47 changing and the mobile app market is
+0:49 growing. It's going to reach 1.1
+0:52 trillion by 2034. $1.1 trillion.
+0:58 And right now we're seeing this massive
+0:59 shift. And it's kind of awkward, right?
+1:01 The shift from going from software
+1:03 engineering where you have to manually
+1:05 type all the code to vibe coding. And
+1:08 yes, there's a lot of hype around it. A
+1:10 lot of these tools don't work as
+1:11 advertised. It's quite awkward and it is
+1:14 a little bit scary, but at the end of
+1:16 the day, it is inevitable and there's
+1:18 never been a better time to actually
+1:20 learn this stuff. And so today, we're
+1:22 going to be building our app from our
+1:24 phone. And so we're going to be using
+1:25 Claude Code within the Vibe Code app.
+1:27 You can download an app that literally
+1:29 uses cloud code to build an app and you
+1:32 can immediately test it directly on your
+1:33 phone and you can add images, sounds,
+1:35 and everything directly within this app.
+1:38 And so what I want to start off by
+1:40 talking about is how do you actually
+1:42 come up with a really good app idea? So
+1:47 this right here is a little worksheet
+1:48 that I like to fill out when I'm trying
+1:50 to come up with an app idea that I can
+1:51 use to make money. And I think the best
+1:53 way to actually fully understand this is
+1:55 to see an example. So I think a really
+1:58 good example of an app that solves a
+2:00 very specific problem in a really really
+2:03 novel way is Calai. And obviously now
+2:06 there's a lot of copycats and in the
+2:08 vibe code app you can actually one
+2:09 prompt Cali like you can create cali in
+2:12 a single prompt which I've made a video
+2:13 on previously but what Calai does really
+2:16 well is it solves a problem. So let's go
+2:18 through these questions right what
+2:21 problem does your app idea solve? And
+2:23 not only do you want to solve a problem,
+2:26 but you want it to solve a problem in a
+2:28 way that's marketable, in a way that's
+2:30 fun. And the problem, like people want
+2:32 to be healthy, but tracking calories is
+2:35 super annoying. It takes a while. And so
+2:38 that problem is annoying. And so the way
+2:40 they tried to solve this problem is you
+2:43 take a photo of your food and it uses
+2:45 Open AI's API, which is very easy to do.
+2:47 Like I said, you can do it on Vibe Code
+2:49 in one single prompt. And you can take a
+2:51 photo of your food and it automatically
+2:53 tracks your calories. Taking a photo and
+2:55 using AI to analyze calories is easy to
+2:58 understand. It's cool and viral for
+3:01 short form content. And does your app
+3:04 have a halo feature? That is the next
+3:07 question. A halo feature is a standout
+3:09 feature in a mobile app that creates a
+3:11 memorable user experience and often
+3:14 becomes the defining reason user chooses
+3:17 that app over competitors. So, a halo
+3:20 feature kind of creates a word of mouth
+3:22 buzz. It's the thing that you can say
+3:24 about the app that that's very easily
+3:26 spreadable. It's very contagious, right?
+3:28 You take a photo of your food and it and
+3:30 it counts your calories. That's the Halo
+3:32 feature. It's the most important feature
+3:33 of the app. And so, take a photo of your
+3:36 food, get the macros. Then, once you
+3:39 kind of understand what problem your app
+3:42 idea will solve, you want to make sure
+3:44 that there's a market for it. And so
+3:45 there's a tool out there and it's called
+3:47 sensor
+3:49 sensor tower. And a lot of people who
+3:51 talk about mobile apps on the internet
+3:53 talk about sensor tower. When you're in
+3:55 the market analysis section in sensor
+3:57 tower, we can go to health and fitness.
+3:59 And so we can actually see which apps
+4:01 are doing the best. And here we can see
+4:03 that my is doing very well. We can see
+4:05 um we can see cali.
+4:08 We can see all of these different tools.
+4:10 We can see straa is really doing well.
+4:13 And if we actually click on Cal AI, we
+4:16 can actually see the specific details
+4:18 within the app. We can see that it does
+4:20 2 million in revenue per month. Yes,
+4:22 they spend a lot on ads and UGC and all
+4:25 these different marketing efforts, but
+4:28 they do have $2 million per month coming
+4:31 in. And so you can know, you can
+4:33 understand that this is a type of app
+4:35 that could work. However, you can see
+4:38 that there's a lot of different
+4:40 competitors, right? Fitness Pal is a
+4:43 competitor. We can probably scroll down
+4:45 and find more. Chronometer calorie
+4:49 counter. We have Callo AI food calorie
+4:52 counter. And then if you just go up to
+4:54 the search bar and we just type in
+4:56 calorie, we can see that there are, you
+4:59 know, calorie counter by fat secret
+5:01 which does 500k a month. Um you can
+5:04 filter it by apps and we can see that
+5:06 there's just a ton of different apps
+5:07 doing a lot of revenue. So there is a
+5:09 market for this type of app, but there
+5:12 is a lot of competition and these
+5:15 competitors all are driving down the
+5:17 price. And so what you're looking for is
+5:19 an opportunity to create an app that has
+5:22 a lot of demand, but also there's room
+5:25 for you to do it in a unique way. So
+5:28 what is my app idea? And so before I
+5:32 started filming this video, I came up
+5:34 with an idea that I just really want to
+5:35 solve. And I've been struggling a lot
+5:37 with YouTube thumbnails, right? I
+5:40 struggle
+5:42 coming up with high quality YouTube
+5:47 thumbnails
+5:49 and executing
+5:51 on making them. And so the problem that
+5:56 I want my app to solve is faster YouTube
+6:02 thumbnails
+6:04 of me.
+6:06 And is this problem marketable? I think
+6:09 if there was a mobile app where I could
+6:10 take a photo of myself and then turn
+6:13 that photo into a high-quality YouTube
+6:16 thumbnail, I think that would be very
+6:17 marketable, right? And I'm thinking
+6:19 like, does it have a halo feature? And
+6:21 that halo feature is take photo of
+6:24 yourself,
+6:26 uh, generate high quality thumbnails.
+6:30 And there's many different ways that we
+6:31 could do it. And maybe we can actually
+6:34 begin thinking about that a little bit
+6:35 more. And but is there a market for my
+6:38 app? And so I can look at sensor tower,
+6:41 right? Let's go like thumbnail. Let's
+6:43 see. Thumbnail maker over 100K channel
+6:47 art. Um thumbnail maker channel art. See
+6:50 more. It doesn't look like that anyone
+6:54 has kind of dominated this market, but
+6:56 this one does over 100K downloads. It is
+6:59 less than 5K revenue per month. this one
+7:02 right here. Um, and we Oh, and then this
+7:05 is only on Google Play, it looks like.
+7:08 That's very interesting. And then
+7:10 another way to to kind of do some
+7:12 research is like what is the average and
+7:14 we can go to just chat GPT for this. If
+7:17 you go to chatgbt, what is the average
+7:18 price
+7:20 people pay for uh per month for a
+7:25 thumbnail designer that does uh let's
+7:29 say uh let's say 12 thumbnails? So, how
+7:34 much would that cost per month and how
+7:38 many people need YouTube
+7:43 thumbnails? So, like I'm a content
+7:45 creator. I make content and I need
+7:48 YouTube thumbnails. I pay much more than
+7:50 10 to 15 each. Um, and so I think it
+7:53 would be closer to around at least $20.
+7:55 And so if it was 12 times, let's just
+7:58 say 15, 180 per month. And so that is a
+8:02 lot of money to spend. And I think it
+8:03 would be closer if we were making a
+8:05 premium product on our phone. I think
+8:07 people would pay $300 per month to have
+8:09 this. I'm saying that I think people
+8:11 would be willing to pay like $50 a month
+8:14 if it got you pretty close to creating
+8:16 high-quality thumbnails and they could
+8:18 actually prototype these thumbnails and
+8:20 send them to a thumbnail designer or
+8:22 they could finish the job on Canva. So I
+8:25 think that there is a market for this
+8:27 and I'm going to go ahead and I'm going
+8:29 to try and solve this problem. So what I
+8:31 want to do is I am going to just say
+8:35 yes. Um, and would your problem uh
+8:38 require a large change of behavior? This
+8:40 is the final question that I forgot to
+8:42 address with the Calai. I think it's
+8:44 very low friction to take a photo of
+8:46 your food, right? That is not a lot to
+8:48 ask for. And so what we want to do is we
+8:51 want to create an experience with our
+8:52 thumbnail designer app. How do we create
+8:55 this in in such a way where it requires
+8:57 very little change in behavior from the
+8:58 user? Right? The user takes photo of
+9:02 themselves
+9:04 then um describes
+9:08 the thumbnail.
+9:10 That is what we want. And we can
+9:13 actually copy this and what we can do is
+9:17 we could probably just move to our
+9:18 prompt. And so the way that I like to
+9:21 ideulate is I actually created a custom
+9:23 chat GPT and it's called Vibe Code, a
+9:25 mobile app. And this will be in the
+9:26 description below. And what I'm going to
+9:28 do is I'm going to use this and I'm just
+9:30 going to say I have an idea for an app.
+9:35 And then uh this app um I'm just going
+9:38 to paste in kind of some of the info
+9:41 that we had here. Um
+9:46 which was
+9:51 this is a worksheet I filled out about
+9:55 my app.
+10:01 And all this does is this asks me
+10:03 follow-up questions. And so it's like,
+10:05 do we want the app to generate
+10:06 thumbnails automatically? I'm just going
+10:09 to say I want this to be a protoype.
+10:14 Don't add the AI features yet. Simply
+10:19 prototype
+10:22 how the app should look.
+10:25 It should all be uh let's say 16 by9
+10:30 because that's the aspect ratio of
+10:31 YouTube thumbnails. I want there to be a
+10:34 reference image. So I I want to be able
+10:36 to take a photo of myself and then it
+10:37 will generate an image that's always 16
+10:40 by9. We can set that up in the AI later.
+10:43 So the flow is take a photo of myself.
+10:46 Then after I do step one, then it adds
+10:49 it creates a prompt for me to fill in.
+10:52 Right? This prompt will be to describe
+10:54 the thumbnail and then it will create
+10:56 the thumbnail and it will be 16 by9.
+10:58 Create a prototype for how this would
+11:01 look. You don't need to add the AI
+11:03 features quite yet. And so all this
+11:06 custom GPT is going to do is it's just
+11:08 going to create my first prompt for the
+11:10 Vibe Code app, which is basically clawed
+11:12 code that knows that it's creating a
+11:14 mobile app for us to test and iterate on
+11:17 um to build it. Look at this. So here is
+11:20 your perfect prompt.
+11:22 Here's a prototype called thumb sprint.
+11:24 There we go. We can just copy this
+11:26 entire prompt here. If you wanted to use
+11:28 the web app for Vibe Code, all you have
+11:30 to do is just paste it right here. And
+11:32 it makes it super easy to just paste it.
+11:34 But I want to use the new mobile app for
+11:36 Vibe Code. It just came out. And so what
+11:37 I'm going to do is I'm just going to
+11:38 paste this directly into the Vive Code
+11:40 app right here. And now we are going to
+11:43 press generate.
+11:45 And now Claude Code within the Vibe Code
+11:48 app is now beginning to do work. And it
+11:51 is now building the app right here. And
+11:55 it is building a prototype. And this was
+11:57 actually one of the longer prompts I've
+11:58 done for this, but um we'll see how it
+12:01 turns out.
+12:03 So our app is done and it is called
+12:06 thumb sprint. Let's just take a look at
+12:09 what this looks like for now. So I don't
+12:11 like the yellow. I think it's pretty
+12:12 ugly. I'm going to hit new thumbnail.
+12:14 Okay, I can take a photo.
+12:21 Uh, okay. So, that's quite interesting.
+12:23 Use photo. Okay. So, now it asks me to
+12:28 Okay, so it asks for all of these
+12:32 different things. Then I can hit uh I'm
+12:34 just want to test and see what this
+12:35 looks like.
+12:40 Okay. And then so this is what it would
+12:42 look like. Okay. So I want to change
+12:45 some things about this.
+12:47 I am just going to pinch. Right. In
+12:49 order to edit our app, all we do is we
+12:50 pinch in from our sides of the phone.
+12:52 And now we can edit the app. Now I can
+12:54 type in please simplify this. Have no
+13:00 buttons like have no toggles
+13:04 just text prompt
+13:08 for the YouTube thumbnail
+13:13 generation.
+13:15 And then now what we can do is we can
+13:16 actually add images. So here I'm going
+13:18 to open up the image tab and I'm just
+13:21 going to generate a let's say 3D render
+13:26 of a cartoon icon of a blue YouTube play
+13:30 button. So now we can generate an image.
+13:33 Let's generate another one. And we're
+13:34 going to use these in our app.
+13:38 3D render cartoon icon of a paintbrush
+13:42 that is blue.
+13:44 We're going to go with a blue theme
+13:46 here. And so we're generating a bunch of
+13:47 different assets that we're going to put
+13:49 into our app. 3D render of a cartoon
+13:53 icon of a
+13:57 character icon.
+14:02 I don't like that generate button.
+14:03 Cartoon 3D render
+14:06 of a
+14:08 blue generate button. up arrow circular.
+14:13 Okay, so there's the profile icon.
+14:17 Okay, great. So, I'm just going to
+14:19 select this play button here and we're
+14:21 going to add it to the prompt. This
+14:24 image, please use this
+14:28 instead of the icon above thumbnail
+14:33 sprint on the main homepage. And then
+14:35 please make the background white. And
+14:37 then make the icons and buttons blue.
+14:39 Get rid of all yellow. I don't like
+14:41 that. that it's pretty ugly. And so
+14:43 there's the prompt that we're entering.
+14:44 Now we're making a big edit to our app
+14:46 to radically simplify it. Okay. So this
+14:48 is a really good example of something we
+14:50 can show. So what I'm going to do is I'm
+14:51 going to take a photo of myself here.
+14:53 Screenshot it.
+14:57 Now I'm going to save to photos. Now
+14:59 what I'm going to do is I'm going to
+15:01 actually take a photo on the camera
+15:05 and I'm going to screenshot this. And
+15:08 now what we're going to do is we are
+15:09 going to go we're going to pinch images.
+15:13 We're going to hit this top left square
+15:15 right here. We're going to upload this
+15:17 image and we're going to upload this
+15:19 image. We're going to select this one.
+15:21 I'm going to add these images to the
+15:23 prompt.
+15:25 Okay. Okay. When I take the photo of
+15:26 myself, as you can see in the two images
+15:29 that I'm giving you right now, there's a
+15:31 little blue area that is ideally what is
+15:36 like where I put my face. That face
+15:39 should be the car. We're going to use
+15:40 that as a character reference. But like
+15:42 when I take the photo, it it just takes
+15:44 the top part of the image, not what's in
+15:47 that middle area. Please make that look
+15:50 better. All right. So, it's almost done
+15:52 downloading, bundling, and boom. Let's
+15:55 take a look. Let's see if this works
+15:56 better.
+16:00 There we go. We can use this photo as a
+16:03 character reference. Man in studio.
+16:07 Okay. Create thumbnail. And then this is
+16:09 where the thumbnail would pop up, but
+16:10 there would be a loading screen. Okay.
+16:12 Time to add AI features. What we want to
+16:15 do is we want to go to the API tab. And
+16:18 we want to be able and what we want to
+16:21 do is we actually want to use image
+16:23 generation. We want to use ideoggram. So
+16:26 ideog has a really good API that has a
+16:28 good character reference. And so I want
+16:32 to be able to use the ideagram character
+16:36 reference to generate an image. And this
+16:39 image should always be 16 by9. Look
+16:41 deeply into this ideagram character
+16:43 reference and make the image that gets
+16:46 generated use the ideagram API and make
+16:49 it of that character. So I can just take
+16:52 a photo of myself and like I am doing
+16:54 right now and that character will be
+16:57 present in the image always 16 by9 and I
+17:00 will describe the image. Please make
+17:02 this happen. Okay. So it's loading right
+17:04 and while it's loading we can actually
+17:06 generate some audio and haptics. So I'm
+17:11 going to change this to sound effect and
+17:14 we can actually generate sound effects.
+17:15 So for the first sound effect, what I
+17:17 want to do is I want to have one that is
+17:19 let's go ahead and do a very light ding
+17:25 button noise.
+17:29 A soft enter button.
+17:37 Let's generate another one. A
+17:41 success noise light for user interface
+17:45 on a mobile app.
+18:00 H
+18:04 I'm not a huge fan of those yet. A very
+18:07 pleasing little noise for a success in a
+18:12 game.
+18:19 Lovely chime video game noise.
+18:24 Beautiful elegant
+18:27 success noise in user interface.
+18:40 I like this one. So, I'm going to add
+18:42 this to prompt and I'm going to say use
+18:46 this noise when I press generate.
+18:51 And I'm just going to get this prompt
+18:53 queued up. I'm just going to leave this
+18:55 right here. Let's go ahead and test our
+18:56 app. Let's see if this app actually
+18:58 works. So, we just tried to create this
+19:01 and I don't know if the app refreshed.
+19:03 I'm just going to make sure it
+19:04 refreshed. I'm going to hit refresh. And
+19:06 now, boom. Okay. New thumbnail.
+19:10 Use photo. Man in studio.
+19:17 Okay. Generating thumbnail. Okay. We did
+19:20 indeed get this error.
+19:24 And so what I'm going to do here is I'm
+19:25 going to say use this noise when I press
+19:30 take photo. Also, the image generation
+19:36 did not work.
+19:40 Okay, so it's done. Let's go ahead and
+19:42 give this a try. New thumbnail. Take
+19:45 photo.
+19:47 Let's actually take the hat off for
+19:48 this.
+19:53 All right. See, it used the sound effect
+19:55 there. That's not the best photo. Let's
+19:57 take a new one.
+20:03 All right, let's use this character,
+20:06 which is me.
+20:08 Cinematic
+20:10 image of a man.
+20:16 Create thumbnail. Let's see if this
+20:18 works. And boom,
+20:21 there it is. There I am in an image
+20:25 right there with a character reference.
+20:27 And now
+20:29 for the kicker, huh? AI. Here's the
+20:33 kicker. All right. So, we're going to
+20:34 click on API image generation. We're
+20:37 going to use nano banana. Add it to the
+20:40 prompt. Okay. This is working great. Now
+20:43 what I want to have happen is I want to
+20:45 create a version system and I want to
+20:48 create an image editing model with nano
+20:51 banana. So if you look at the preview
+20:54 right now there's an image showing at
+20:57 the top that is the current image right
+21:00 we can think of that as the current
+21:02 image below that I want there to be
+21:04 versions. So I want this to after it
+21:07 generates that's version one. Then I
+21:09 want to be able to edit version one
+21:11 using Nano Banana. Look up the
+21:12 documentation for Nano Banana. Do that
+21:15 effectively. And I want to be able to
+21:16 describe the change. And then I want
+21:19 version one
+21:21 through 2 3 4 5 6 7 8 9 10 all the way
+21:24 across unlimited basically as I edit
+21:28 more to go horizontally below the image.
+21:31 And I want that to be sidescrollable.
+21:34 Version one, version two, version three,
+21:35 version four, etc., etc., etc.
+21:38 And whatever one I click on should show
+21:41 up in the preview.
+21:43 And then it should edit that one using
+21:46 nano banana. And then that should be
+21:48 that should show up as the latest
+21:50 version. And I want to be able to edit
+21:52 the images with text. Please make this
+21:54 work. Okay. So it's done.
+21:57 Let's go ahead and see what it did here.
+22:00 Right. You can click on the tasks. It
+22:02 said to create nanobanana API service.
+22:04 Add version state management. Create
+22:06 horizontal scrollable list UI. Add edit
+22:10 prompt. Okay, amazing. Now, let's go
+22:12 ahead and let's try this again.
+22:18 Cinematic
+22:19 image of a man on a couch.
+22:26 Generating version one. Notice how
+22:28 that's a little bit different. Let's
+22:30 see.
+22:32 Okay, there I am sitting on a couch in a
+22:35 turtleneck. Now we can edit this
+22:37 version. Make the man's shirt red. You
+22:43 can't see it's being covered. That's
+22:45 okay. Um,
+22:47 create new version. So now it's creating
+22:51 version two.
+22:55 Let's see if this works.
+22:57 And by the way, what we can do for those
+22:59 of you who understand code, you can go
+23:01 to the logs, right? You can go to the
+23:03 logs here. We can actually see what's
+23:05 happening. So, image edited
+23:07 successfully. Okay, so let's go and see.
+23:11 There you go. It was successful, right?
+23:14 You can see that in the logs here, which
+23:16 is very cool. And you can see exactly
+23:18 what's happening behind the scenes if
+23:20 that is something that interests you.
+23:23 Now, we can say
+23:26 add white text at bottom. And I'll fix
+23:30 this how this is covering the the like I
+23:32 want to be able to see the input field.
+23:34 Um, so I'll fix that in a sec. At the
+23:38 bottom,
+23:40 make it say,
+23:43 oh yeah,
+23:46 create new version. So, it's creating
+23:48 version three. And again, I like to just
+23:50 see the logs to see if it's working. And
+23:53 we should get an image success once it's
+23:55 done.
+23:57 Oh yeah. So, it added this white text at
+23:59 the bottom that says, "Oh, yeah." Okay.
+24:03 When I am editing these, I actually want
+24:08 to be able to see the input area. And
+24:11 there's two buttons beneath the image,
+24:15 save to gallery, and then the other
+24:16 button below it. I want that instead to
+24:19 be accessible in like uh a modal that
+24:22 can be tapped. Uh so where where it
+24:24 shows the text that says version 1, two
+24:27 or three, etc. at the very top in line
+24:29 with the back arrow. I want there to be
+24:30 the three dots button that opens a modal
+24:34 that allows me to then say hit those
+24:37 save buttons within that and not have
+24:39 them on the main screen. They're big and
+24:41 ugly.
+24:43 Things are going well. We've integrated
+24:44 two APIs, the ideagram character API and
+24:48 the nano banana API. And now we just
+24:52 need to kind of create like an export.
+24:54 And then we will have a very good MVP
+24:56 and we'll be able to send this to test
+24:58 flight so that we can allow others to
+25:00 test the app. Okay, let's go ahead and
+25:02 give this a try. New thumbnail
+25:08 news
+25:11 man
+25:13 cinematic
+25:15 image of a man
+25:20 wearing
+25:22 a hoodie.
+25:26 Okay, so it's generating version one.
+25:28 What did we change about this one? We
+25:30 changed what it looks like after this
+25:32 loads. So, after this loads, those
+25:34 buttons should no longer be in the way,
+25:36 and we should be able to see the text
+25:37 input field here. Okay. So, now I'm
+25:39 wearing a hoodie. This is pretty fire.
+25:42 Please. Um, or no, I don't need to say
+25:45 please. Make him wearing a backwards
+25:52 black hat.
+25:55 Create new version. There it is. Okay.
+25:58 Um,
+26:00 make the background
+26:05 red velvet
+26:10 carpet
+26:11 and tan walls.
+26:16 Create new version.
+26:18 See, this allows us to take a photo of
+26:20 ourselves immediately. Create a
+26:22 thumbnail. We can describe the
+26:24 thumbnail.
+26:26 And boom, there we go. And we can edit
+26:28 it perfectly. Um, add big
+26:33 white
+26:35 text at bottom of screen. Welcome to the
+26:42 jungle.
+26:43 Boom.
+26:46 There we go. So, version three, two, and
+26:50 one. Look at that.
+26:53 And here we can see the prompts here.
+26:56 Wow. This app is coming out really good.
+26:59 And then here we can hit save. Oh, save
+27:04 to gallery.
+27:06 Okay, saved four versions. Did that save
+27:08 all four versions?
+27:10 It didn't. It just saved the most recent
+27:13 one. So, let's add that button.
+27:18 Please add a save all versions to
+27:21 gallery in the draw in the popup menu.
+27:24 Like I have four versions. I want to be
+27:26 able to save all of them to gallery,
+27:27 please. Boom.
+27:31 And then, you know what? H,
+27:33 [clears throat] we could also use our
+27:35 own API keys here if we wanted to add um
+27:39 something else. I'm trying to think.
+27:42 Let's do one final test. Photo of
+27:44 myself.
+27:50 Use photo. Actually, one other thing
+27:52 that I want to do,
+27:54 describe thumbnail.
+27:57 I would like on the describe your
+27:59 thumbnail section to have four
+28:01 placeholders that should be in a 2x two
+28:03 grid beneath the thing that
+28:05 automatically pastes that uh placeholder
+28:09 into the describe your thumbnail input
+28:11 area. And that is cinematic image of a
+28:14 man. The next one is cinematic image of
+28:18 a woman. The next one is cinematic image
+28:21 of a man in a YouTube studio. And the
+28:25 final one is YouTube thumbnail image
+28:28 of a person looking frightened.
+28:33 Okay, let's give this a test. Here I am
+28:36 going to take one of these
+28:44 use photo. See now we have these quick
+28:46 examples. Um, let's do this last one.
+28:50 And boom. That's great. We now have
+28:52 those placeholders
+28:54 generating version one.
+29:00 Okay, now we can say make the background
+29:07 gray
+29:10 and make his shirt
+29:14 red.
+29:16 Create new version.
+29:20 Okay. Um, make
+29:24 him wearing a red beanie.
+29:30 There it is.
+29:33 Add white text that says
+29:39 beanie.
+29:42 Beanies ranked.
+29:45 I'm ranking beanies, I guess.
+29:51 Create new version and then we'll try to
+29:53 export it. And I think this is a great
+29:55 MVP for our app.
+30:00 Beanies ranked. There we go. Now, if we
+30:02 press these three dots, save all four
+30:06 versions to gallery. Success. Let's go
+30:10 to our photos. And boom, we have them in
+30:14 order. one, two, three, and four. We
+30:19 have a thumbnail generator using the
+30:20 character API from ideoggram and the um
+30:25 nano banana. So if we pinch and we now
+30:29 go to share
+30:31 and we click publish, we can now send it
+30:34 to a friend.
+30:41 Okay, now
+30:43 I just shared it in Slack here. Let's
+30:46 publish it to the app store. We're going
+30:48 to get started. I have done all three of
+30:50 these things right here. We're going to
+30:51 hit next. So, I'm going to call this
+30:54 Riley Nail.
+30:57 And boom, next. We're going to generate
+30:59 an app icon here. We're going to just do
+31:02 YouTube thumbnail. This can always be
+31:05 changed later. That's all good. YouTube
+31:07 thumbnail generate. This will
+31:09 automatically choose like a really high
+31:11 quality style icon or at least it won't
+31:13 be terrible. You can always change it
+31:15 later. And I recommend putting some
+31:17 decent time into the app icon as well as
+31:20 the app store screenshots which I'll
+31:22 talk about in a future video. There you
+31:24 go. Use as app icon. Boom. Next. This
+31:27 bundle identifier thing that just leave
+31:30 it whatever the default is. Um, now we
+31:33 need our expo access token. If you click
+31:35 on this, it'll actually just take you to
+31:38 expo. Just signed up to a new account
+31:41 actually just to go through the process.
+31:43 And uh you can hit new token. And I just
+31:46 hit new token and generate one.
+31:49 And now what we need to do is we can
+31:51 just copy this token, right? We can just
+31:54 copy this token right here. We're going
+31:57 to go back and we're going to paste this
+31:59 access token right here. And we're going
+32:01 to hit start build.
+32:04 And now it says your app is on the way
+32:07 to the app store waiting for build logs.
+32:11 And so the app is now being sent to the
+32:13 app store. And I can actually get a test
+32:15 flight link, send it to other people so
+32:17 other people can use the app. And then
+32:19 you can actually submit this build,
+32:21 which I'll talk about in future videos,
+32:23 directly to the app store. And that's
+32:25 when it gets either approved or denied
+32:27 by Apple. After you reach this point,
+32:29 you need to do App Store screenshots and
+32:32 a description as well as a terms of
+32:34 service and a privacy policy. Those are
+32:37 really easy to set up and I'll put in
+32:39 the details below. There's a link to get
+32:41 that all set up. It does take like 15 to
+32:44 30 minutes and in the future video I'm
+32:47 actually going to set up payments in the
+32:49 app. And so here it actually said um
+32:53 please enter this. So I'm going to hit
+32:55 allow. And on my computer, it's giving
+32:58 us this six-digit code. So, 006719.
+33:04 Submit the code. And boom, your app is
+33:08 on the way to the app store. And so, I'm
+33:11 need to select my developer team.
+33:13 Continue with team.
+33:16 And boom, we are done.

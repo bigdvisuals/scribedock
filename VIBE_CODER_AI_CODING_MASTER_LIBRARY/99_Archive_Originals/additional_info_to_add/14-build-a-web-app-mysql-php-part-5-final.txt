@@ -1,0 +1,319 @@
+14. Build a Web App - MySQL/PHP Part 5 (Final)
+
+0:12 Hello, Gary Simon of designcourse.com.
+0:14 Today, we're going to put an end to this
+0:17 mega tutorial on making a web app and
+0:20 specifically because it's been about 2
+0:22 weeks now and I just didn't want it to
+0:24 go over 2 weeks, but we are going to
+0:26 finish the main aspect of it, which is
+0:28 the matching system and also making it
+0:31 actually
+0:32 um search based on location for that
+0:35 form at the top. All right, so basically
+0:37 if you need access to the project files,
+0:38 they will be there this time since this
+0:40 is the final uh tutorial. So, they're
+0:44 available of course for free at
+0:45 designcourse.com and if you haven't yet
+0:47 subscribed here on YouTube. All right,
+0:48 let's get started. All right, so I I
+0:51 just ran through this tutorial and it
+0:53 was like 16 minutes long and I realized
+0:56 that my microphone wasn't recording. So,
+0:59 so I have to do it again. This sucks so
+1:01 bad. So, I'm going to be moving faster
+1:03 this time just because I want to get
+1:05 this whole series finished and I'm going
+1:07 to be I just want to be done with it
+1:08 anyhow. So, I because I didn't really
+1:10 anticipate this taking 2 weeks and so I
+1:13 just want to switch gears.
+1:14 So, anyhow, to start again, I let's see.
+1:18 We're back here in main.php.
+1:21 Um we need to get that search form
+1:24 working basically. So, let me get out my
+1:27 window here and
+1:30 I'm just going to um
+1:32 Yeah, this is sucks. I
+1:35 Let me go ahead and I have to upload
+1:37 some files here.
+1:41 Actually, let me cancel.
+1:43 I'm off screen right now. Um
+1:46 I just want to delete all the files that
+1:48 I updated just now on uh
+1:53 All right, so um basically this is where
+1:55 we left off. Just this portion works and
+1:57 this up here, the search form doesn't
+1:59 work. This doesn't recognize that. So,
+2:01 let's go ahead real quickly into that
+2:03 section and get that working. So,
+2:06 basically what we need to do is check to
+2:08 see if that form has been submitted. So,
+2:12 we'll come down here and
+2:15 we'll put in if
+2:18 if is not set
+2:21 post state
+2:25 then we'll make a query
+2:28 or a variable, rather.
+2:30 Additional query equals
+2:32 and state equals
+2:36 Well, let's see. Once state
+2:39 and city equals
+2:42 once not dash
+2:45 uh once
+2:47 city.
+2:51 Yeah, and that's it. And then we'll put
+2:54 else if
+2:56 post ignore location which is that
+3:00 checkbox doesn't equal one
+3:03 then
+3:06 the additional query this time
+3:09 will equal
+3:12 instead of getting it from the wants
+3:16 we'll get it from the post.
+3:19 Which
+3:21 Oops, I forgot a bracket over there.
+3:24 All right.
+3:26 Okay, so now I will just come over here
+3:32 and get rid of this portion at the end,
+3:34 those two ands, and just put in
+3:36 additional
+3:40 query
+3:42 and save it.
+3:43 All right, so now if I go to
+3:46 if I upload this off screen and come
+3:49 back here
+3:52 All right, so if if you refresh you see
+3:54 no errors. That's always that's always a
+3:56 good thing.
+3:57 Uh now if we type in for example or just
+4:00 put choose ignore location, hit update
+4:02 results
+4:03 you'll see that we get this over here
+4:06 and this is messed up coding. This
+4:08 should actually be two uh or three
+4:10 separate columns and so the reason being
+4:13 what we'll do is just fix that real
+4:14 quick.
+4:16 Uh we have to take off this bracket.
+4:20 That's not technically a bracket, but
+4:22 basically just put it put a new one down
+4:24 here.
+4:25 So, you save that and then you combat
+4:31 or you fix, rather.
+4:34 I'm going like I'm wrong damn windows
+4:36 again up here. All right. So, if we
+4:38 refresh this
+4:40 we'll see now that we have
+4:43 Dallas, Texas and
+4:45 whatever that birth ta I have no
+4:47 whatever. All right, so basically I
+4:50 yeah, we have three different matches
+4:51 and right now it's not it's basically
+4:53 ignoring the location.
+4:55 Um so, if we look over here, I
+4:58 you'll see it looks kind of crappy
+5:00 because we have like two um commas right
+5:03 here and that's because I did not scrape
+5:07 the commas remove the commas from the
+5:11 Yeah, the second step. So, what you
+5:13 would want to do ideally or maybe even
+5:15 the first step for index.php
+5:18 for the sessions where you set that, you
+5:20 could do an str_replace and it would
+5:22 look like this.
+5:25 Replace a comma with nothing and then
+5:32 close that up and that's how you would
+5:34 get rid of commas and you can also get
+5:36 rid of a bunch of other stuff too if you
+5:37 wanted to. Um but I'm not going to mess
+5:39 with that
+5:40 just because this isn't a serious
+5:42 project. All right, so I yeah, basically
+5:46 now let's also go back and test and make
+5:49 sure I make up a city and see
+5:52 Yeah, it shouldn't show any results
+5:54 basically.
+5:55 Um
+5:57 So, also uh let's see here. So,
+6:00 what we could also do is like if no
+6:02 results showed up, you could always just
+6:04 go over to
+6:06 um let me
+6:08 come over here
+6:10 go back to our main.php.
+6:12 You know, so basically if
+6:14 results were found
+6:17 all you would have to do is put in
+6:20 a variable
+6:23 right I think right here would work.
+6:25 Found results equals
+6:28 one
+6:30 and then down here
+6:33 if
+6:35 is set
+6:36 found results
+6:38 echo sorry, no results were found.
+6:46 All right, and then I
+6:49 what you could do, yeah, let's just test
+6:51 that to make sure it works
+6:53 and we can go back here to
+6:56 refresh.
+6:59 Oh, come on. Please, seriously?
+7:03 All right, I
+7:06 Let me go ahead back and yeah, I paused
+7:08 that. I realized I should have put if
+7:10 not set. So,
+7:12 yeah.
+7:14 I upload that. Make sure this works,
+7:16 otherwise I'm going to look really
+7:17 stupid. So, now I
+7:20 There we go.
+7:21 Now that works. All right, so I
+7:24 also you'd want to change this text up
+7:25 here cuz it's not really reflecting
+7:27 what's happening. Um you could probably
+7:29 change this text to um
+7:32 people who have what you need and then
+7:34 down here would be people who need what
+7:36 you have basically. So, let me go over
+7:39 here.
+7:40 Um I'm not going to worry about that
+7:42 changing that text though. Um but what
+7:44 we can do now now that that area is
+7:47 basically completed for the most part is
+7:50 take this all of this stuff
+7:54 and then copy it
+7:56 get rid of all of this, these three
+7:58 blocks of HTML.
+8:02 And it should look like that and then
+8:04 just paste all that in and then what you
+8:06 need to do is just change up
+8:09 the array right here. We had two of
+8:10 them, wants_arr and then offers_arr.
+8:13 I'm going to leave it as wants though
+8:15 just to make it easier on us so that we
+8:17 don't have to mess around with changing
+8:18 so many different things. So, basically
+8:21 the everything right here
+8:23 can stay the same. Um let's see. All
+8:27 right, so this has to change. This has
+8:30 to change from offers to wants.
+8:33 All right, and
+8:35 what else?
+8:38 From wants and where want equals wants
+8:42 offer.
+8:49 All right, and then I all this stays the
+8:53 same as well.
+8:57 I'm going to change this to found
+8:58 results too just because I don't want
+9:00 the other one.
+9:01 Just like a
+9:02 quick way of dealing with that.
+9:05 And
+9:07 yeah, I think that might actually work.
+9:09 So,
+9:11 let me
+9:13 go back here
+9:16 and
+9:18 ignore location and now it's showing
+9:20 different results based on the offers
+9:23 and whatever that I specified for this
+9:25 account. So,
+9:27 yeah. I Now, basically
+9:31 this is where I'm just going to end it.
+9:33 Um when it comes to
+9:35 the contact this person, you could do
+9:37 you can approach that multiple ways. You
+9:39 could pull the person's email and just
+9:41 make it like an a draft link and it'll
+9:43 just go to it'll open up their
+9:45 uh their email client, which that's not
+9:47 a good way because then people would be
+9:49 spamming people left and right when
+9:51 people's emails are exposed. Ideally,
+9:53 what you would do is use maybe something
+9:56 like jQuery to uh
+9:58 check on click if one of these are uh
+10:01 pressed, it'll bring up maybe like an
+10:03 overlay div window where it it blurs out
+10:05 the rest of the background. And you
+10:06 could do a a Google search on how to do
+10:08 that with CSS, basically.
+10:10 Um and then inside there you would have
+10:12 just a very simple message form where
+10:14 you have a message area and a button,
+10:16 click send. Uh and then it would send it
+10:19 an email to the appropriate email based
+10:21 on, you know, each one of these rows. Uh
+10:24 the edit my barter thing, that's just I
+10:26 ideally that would pop up in a new
+10:28 window, though you can do it in an
+10:29 entirely new document and mod rewrite it
+10:31 maybe to like edit barter up here. And
+10:33 then once again, I mean, if you've
+10:35 followed along enough of this, I mean,
+10:38 you should have a good understanding or
+10:39 at least a good starting point to be
+10:41 able to figure out how to edit
+10:43 information in the actual database. So,
+10:46 that's very basic stuff. Um the my
+10:48 account, same thing, changing passwords
+10:50 and changing uh the email accounts and
+10:52 all that stuff. That's very basic. And
+10:54 again, if you're
+10:56 kind of you get stuck anywhere, just,
+10:58 you know, become a self-teacher. I have
+10:59 to do just use Google, type in your
+11:01 issue specifically, uh and you'll
+11:03 probably get a ton of results from sites
+11:05 like Stack Overflow, where people have
+11:07 asked your question already. And if you
+11:08 can't find an answer to question, just
+11:10 go to Stack Overflow and post it. Um a
+11:12 log out, I mean, that's very simple. All
+11:15 All that is just one line of code um to
+11:17 kill a session, basically. Um so, yeah.
+11:20 Uh
+11:21 obviously, there's a lot more that needs
+11:23 to be done, but the purpose of this
+11:24 course, I think I fulfilled it over 2
+11:26 weeks. I really didn't want it to run
+11:27 over 2 weeks, and we're at that point.
+11:30 But the purpose primarily being just to
+11:32 show the full process of making an app,
+11:35 so, you know, from coming up with the
+11:36 idea, coming up with the domain name,
+11:38 the the logo design, the mock-ups in
+11:41 Photoshop, the HTML and CSS, and then
+11:44 finally the coding portion. So,
+11:46 hopefully, um even though we didn't get
+11:48 to a finished full product, uh
+11:51 hopefully you gained something out of
+11:53 it. Uh and you took away, you know,
+11:55 something positive. So, yeah. Um I'm
+11:57 eager to start getting into other stuff
+12:00 now. Um
+12:01 I've been tampering with Unity, which is
+12:04 a game engine. Uh
+12:07 and it they have a free version as well.
+12:09 And so, I've been
+12:10 taking my newly acquired Blender skills,
+12:13 and I've been playing around between uh
+12:15 those programs, making 3D environments
+12:18 uh that you can actually walk around.
+12:19 And so, I'll be I think I'll definitely
+12:21 be doing some of those. I'm not sure
+12:22 when.
+12:23 Uh but yeah, tomorrow I'll have a new
+12:25 tutorial. I'm not even sure on what yet,
+12:28 but uh yeah, I'll see you then. So,
+12:30 I I'll be putting up the files here
+12:34 uh for this final project. Not every
+12:37 single day I've been adding the actual
+12:38 project files, but today I will, just
+12:40 because it's the end uh for the for the
+12:43 this series. So, all right. Check out
+12:45 designcourse.com and subscribe here on
+12:47 YouTube. All right, bye.

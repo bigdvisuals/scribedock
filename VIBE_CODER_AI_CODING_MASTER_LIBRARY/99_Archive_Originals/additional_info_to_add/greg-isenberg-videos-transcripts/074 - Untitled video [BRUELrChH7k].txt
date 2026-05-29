@@ -1,0 +1,838 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=BRUELrChH7k
+Channel: Greg Isenberg
+Video ID: BRUELrChH7k
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 I'm going to show you how to build a
+0:01 100K MR mobile app. There are people
+0:04 today that are building this type of
+0:06 scale mobile apps, millions of dollars a
+0:09 year of revenue, that have very little
+0:11 experience, but know how to create
+0:13 products that are niche enough, that
+0:16 resonate with people, and that hit the
+0:18 right marketing channels. Now, I'm not
+0:20 promising by the end of this that you'll
+0:22 be able to hit 100K MR. No, of course
+0:24 not. But what I am promising you is that
+0:27 by the end of this, you'll have the
+0:28 frameworks necessary, the thinking
+0:31 necessary, the sauce necessary for you
+0:34 to start something that could hit 100k
+0:36 MR or more.
+0:40 [Music]
+0:46 Um, so my hope is that it gets your
+0:48 creative juices flowing and and that you
+0:51 end up shipping something that that is
+0:54 valuable and that starts generating
+0:55 revenue for you and creates happy
+0:57 customers. Now there are uh literally
+1:00 kids now creating mobile apps that are
+1:02 hitting this amount of scale. Um, and
+1:04 it, you know, I think it's they've just
+1:07 have a good understanding of the lay of
+1:09 the land. They understand creators
+1:11 really well. They understand what makes
+1:12 viral apps really well. They understand
+1:14 what makes viral social formats. So, if
+1:16 they can do it, so could you. I'm going
+1:18 to give the whole playbook here. Um, I
+1:22 have done consumer mobile in the past.
+1:24 I've started and sold uh venturebacked
+1:27 consumer mobile apps. I was an adviser
+1:28 to Reddit, adviser to Tik Tok. So, I'm
+1:30 not just a Joe Schmo. and I, you know,
+1:33 have been in the trenches and I want to
+1:35 share this sauce with you. It is no fun
+1:37 keeping the sauce to myself. It's like,
+1:39 you know, eating spaghetti. It's no fun
+1:40 to eat spaghetti alone. You know, you
+1:42 want to invite your family. You want to
+1:43 invite your neighbors. You want to
+1:45 invite your friends. So, you are my
+1:46 family. You're my neighbors, my friends
+1:48 here today. All that I ask is you like
+1:51 and comment on this so I know to keep
+1:53 sharing this sauce with you. Um, and
+1:55 also it'll spread to more people. So,
+1:58 you know, I think the world is is a is a
+2:00 better place when we have products that
+2:02 people love to use every single day. So,
+2:05 let's get into it. If you want to build
+2:07 a 100K or mobile app, you want to pick a
+2:09 daily habit to serve. Important word
+2:11 here, habit. The habit is because of the
+2:14 frequency of it. You know, habits is
+2:17 something that you do frequent. You're
+2:18 going to want to find a narrow wedge use
+2:21 case. Um, so you don't want to create
+2:23 something. You don't want to pick this
+2:24 huge huge competitive um space. You want
+2:28 to pick something that's narrow and that
+2:30 wedges into something. And I will say
+2:32 having AI a part of that is important
+2:35 because that's going to AI obviously is
+2:39 very interesting to consumers right now.
+2:40 They want to use consumer AI products.
+2:43 You're going to want to prototype this
+2:44 in a relatively short amount of time.
+2:46 You can use something like Lovable or
+2:48 Bolt. You can use something um I think
+2:50 they integrate with Expo to create the
+2:52 mobile app. Uh you can use something
+2:55 like ROR and you can use something like
+2:57 Vibe Code app. And then you're just
+2:59 going to want to do distribution tests.
+3:01 So you're going to want to focus on one
+3:02 channel with three formats per week. So
+3:06 the mistake a lot of people make is
+3:07 they're trying five different channels,
+3:09 10 different formats. No, I think you
+3:11 know the people that really crush it uh
+3:13 here are are focusing on one channel.
+3:16 Think Instagram or Tik Tok. Uh and then
+3:19 just uh different formats. When I mean
+3:21 by formats, I mean, you know, are you
+3:23 doing stories, you know, like I don't
+3:25 mean like an Instagram story, like a
+3:27 story where you're doing these, let me
+3:28 tell you about the story of how, you
+3:30 know, I lost 65 pounds or are you doing
+3:34 uh like meme style stuff, different
+3:36 types of meme formats, um, and content
+3:40 formats that, you know, hopefully
+3:42 resonate. And there I can do a whole
+3:44 video on how to find formats, uh, in if
+3:46 you know, in the future. Um once you
+3:49 find something that uh starts to take
+3:51 off from a format perspective, you're
+3:53 going to want to onboard, you know, 100
+3:55 true true users. If you can't get a 100,
+3:56 it's 12, 18, 25, then you start
+3:59 monetizing them. Uh the you know what
+4:02 you see is people either do X dollars
+4:05 per month or week or an annual uh basis.
+4:08 Uh and then you do this retention loop
+4:10 and referrals. So once you have a group
+4:12 of people, you want to incentivize them
+4:14 to invite their friends and then you
+4:16 start scaling via ads, ASO, app store
+4:20 optimization, and affiliates. Typically,
+4:23 I'm seeing anywhere between 15% and 40%
+4:26 affiliate cuts um for these consumer
+4:30 mobile apps. And then you get to 100KMR.
+4:33 It looks so simple, doesn't it? But it
+4:35 is more complicated than that. And in
+4:37 this episode today, we're going to go
+4:38 deeper in each of these different
+4:40 categories. Um, and I hope to just give
+4:42 you a little bit more confidence around
+4:45 some of this stuff. Yes, I know that,
+4:47 you know, people are going to say in the
+4:48 comment section, you make it look so
+4:49 easy. You make it look so easy. Uh, I'm
+4:52 not trying to make it look easy. I'm
+4:53 just trying to distill it as much as
+4:55 possible uh for you. So, I talked about
+4:59 the key word being a habit. Um, and I
+5:02 want to I want to just double click into
+5:03 that. a habit, you know, let's just say
+5:05 we're talking about in the wellness
+5:07 space, the habit might be something like
+5:08 a sleep tracking nuance, you know, in
+5:11 money, it might be micro saving
+5:13 challenges. In learning, it might be
+5:14 10-minute space drills. In fitness, it
+5:17 might be form feedback bursts. And it
+5:18 even might be even more niche than that,
+5:21 you know, and it probably is. It
+5:23 probably is like these are this is niche
+5:25 and it's not niche enough in my opinion.
+5:27 Uh the important thing is like if you
+5:29 want to build something in wellness
+5:30 let's say and you want to build
+5:31 something in sleep you want to look for
+5:33 an evidence of paid demand that's you
+5:36 know a lot of people come up with ideas
+5:38 for mobile apps uh consumer mobile apps
+5:41 and they have a lot of demand but people
+5:44 are not willing to pay for it. So that
+5:46 is a that's like one of the biggest
+5:49 mistakes people make. Don't make that
+5:51 mistake. You you want to look at uh
+5:53 search volume uh within communities. Uh
+5:55 you want to look for competitor gaps.
+5:57 You want to look at high frequency,
+5:59 daily use case, not weekly. You know, if
+6:01 you're seeing weekly use cases or
+6:03 monthly use cases, kill it. One of the
+6:06 reasons why Cal AI works is the people
+6:08 in that, you know, in that what is Cal
+6:11 AI? You take a picture and it tells you
+6:12 how many calories it is. Um, people are
+6:14 doing that every single day. In fact,
+6:16 they're doing it multiple times a day.
+6:18 So, they're thinking it it's valuable to
+6:20 them. they're willing to pay for it and
+6:22 they're selling the outcome of look fit,
+6:24 look good and people will pay for that.
+6:27 So, um there's a few ways that you can
+6:29 find demand. Uh one is you can go to
+6:31 Reddit um and you can actually just go
+6:33 into different subreddits. Um what I
+6:36 like to do is I like to uh just sort by
+6:40 uh the top or the best. Um, and then you
+6:44 can actually, you know, sort. Let's do
+6:47 top and maybe this year I'm in the SAS
+6:51 subreddit. Um, and then you can just see
+6:54 like what people are talking about. Um,
+6:56 and just and it gives you validation to
+6:59 what you what it is you're building. So,
+7:01 you know, if it's if it's health, you're
+7:04 building something wellness, like what
+7:05 are the 10 different subreddits that you
+7:07 need to that you should be looking into?
+7:09 How can you sort by top and best uh by
+7:12 the year, by the week, by the month, and
+7:14 then just write notes around what people
+7:16 are saying, how they're talking, and
+7:18 that'll help you validate it. One of my
+7:20 favorite features on idea browser is
+7:22 this market insights bit. So, it
+7:24 basically uses AI to scrape Facebook
+7:26 groups and Reddits, all the stuff that I
+7:28 was doing manually, basically going to,
+7:31 you know, subreddits and trying to
+7:32 figure out what are the different pain
+7:34 points, uh what are some pe what what
+7:37 are some products that people are asking
+7:38 for? what are the different habits that
+7:40 these people have? But I just auto I
+7:42 built this to automate the whole thing.
+7:44 So for example, you know, I'm in this,
+7:47 you know, I can see the fractional
+7:49 executive marketplace in management OS
+7:51 and I can see what are the different
+7:53 pain points and solutions and
+7:55 underserved segments and just literally
+7:58 go in and see how often are people, you
+8:02 know, saying it's really hard to find uh
+8:05 fractional executives and I can and
+8:07 literally get quotes from people how
+8:10 people are, you know, you can see like
+8:12 current workarounds people are using
+8:13 LinkedIn and Upwork and Top tool. It's
+8:15 like I never even heard of Toptool. And
+8:17 then willingness to pay signals. Someone
+8:19 said burn thousands of dollars. Several
+8:21 users mentioned 2 to 10,000 engagement
+8:24 gone, you know, gone arry.
+8:27 So I just love playing with this, going
+8:30 through this, seeing what the different
+8:32 solutions that people are asking for.
+8:34 It's crazy that people are literally on
+8:37 Facebook groups and subreddits being
+8:39 like, "Hey, someone go and like, I would
+8:42 I would pay for this. I would pay for
+8:44 this." They're asking for it. It also
+8:46 goes into these underserved segments and
+8:48 much much more. Um, I just think that
+8:51 there's a treasure trove of data in
+8:54 Facebook groups and subreddits. And
+8:55 yeah, that's what one of that's why I
+8:57 built Idea Browser. Idea Browser is a
+9:00 paid is there's a free component and
+9:01 there's a paid product. what I showed
+9:03 you today was uh the paid paid product.
+9:05 Uh and then Tik Tok, you know, it's free
+9:07 to use Tik Tok and you can just, you
+9:09 know, if you're building something in
+9:11 sleep tracking, what you can do is uh
+9:13 just go onto Tik Tok um search for um
+9:18 sleep tracking. And you know, I'm just
+9:21 going to do that right now. Sleep
+9:23 tracking.
+9:26 And then uh once you search for it,
+9:28 you'll see in the top right there's
+9:30 three dots. Click the three dots
+9:33 and you click filters and then you sort
+9:36 by the most amount of likes. Um and then
+9:40 you can just watch videos of people in
+9:42 your space to give you to give you a
+9:44 sense of like is there demand for this
+9:47 habit. So step one is basically finding
+9:50 this habit. Uh usually it's related to a
+9:52 trend. Um but find a habit you you know
+9:56 could use some of these tools to go
+9:57 ahead and do that. Once you've uh
+10:00 figured that out, you figured out what
+10:02 you want to build, um you know, this is
+10:04 sort of how I think about, you know, the
+10:07 the the experience of the app. So, you
+10:10 create the app, the user basically
+10:12 discovers the app in the app store.
+10:14 There's a listing view in the app store.
+10:16 It's really important to have or you
+10:18 know just a really clean you know name
+10:22 and and and app store previews that you
+10:26 know get people to um want to download
+10:29 it right so the conversion rate on the
+10:31 app store is really important you know
+10:34 for example like I think the name Vibe
+10:36 Code app is a really good name for a
+10:38 vibe coding app for mobile apps um so
+10:43 you know one of the reasons why this is
+10:45 now you know top 10 I think developer
+10:48 app is you know the name is is really
+10:52 good. So think about how you can
+10:54 optimize the name and the the previews
+10:57 include a video in there so people are
+10:59 going to download it they're going to
+11:00 open it and then you basically have
+11:02 maximum 60 seconds in onboarding and
+11:04 it's important to create value first.
+11:07 When you look at some of the, you know,
+11:08 some of these apps, um, that, you know,
+11:11 have a lot of, uh, virality to them,
+11:14 they basically have, you know, just a
+11:16 60, you know, a very short value first
+11:19 mentality for developing that. Um, and
+11:23 then you're going to create, uh, an
+11:25 account. um they'll have a starter plan
+11:28 for success and then you create like a
+11:29 daily check-in and then you can create
+11:31 some sort of streak or nudge and
+11:33 progress within the uh within the
+11:37 framework of the app. So to to just
+11:40 summarize what what we figured out here
+11:42 is, you know, you you figure out a
+11:44 habit, you figure out a a a micro niche
+11:47 in that habit, you validate that by
+11:49 things like Reddit, Idea Browser, Tik
+11:51 Tok, um you optimize the app store
+11:54 previews, um you optimize the name,
+11:58 create a really good brand, um and uh
+12:02 you know, you're off to the races. you,
+12:03 you know, you include things like
+12:05 leaderboards and streaks and progress
+12:08 because you want people to feel like
+12:11 they're, you know, making progress on
+12:12 whatever habit they are. Uh, there is.
+12:14 And by the way, there's so much like
+12:17 people people,
+12:20 you know, see these examples of like
+12:21 Calai and all these apps and they're
+12:23 like, it's over. There's too much
+12:25 competition. There is so many different
+12:27 habits that and micro habits that
+12:29 there's opportunity for. So, keep going.
+12:33 What I've seen in terms of pricing is
+12:35 there's usually a free trial between 7
+12:38 to 14 days. I'm actually seeing seven
+12:40 days to be uh a little more effective.
+12:43 Um and then what I've noticed is people
+12:44 are charging, you know, seven to I, you
+12:47 know, I put $15 here, but re
+12:49 realistically all the way up to $40 a
+12:52 month for different core experiences.
+12:54 You can do something where you know you
+12:57 you have a payw wall after the first
+12:59 habit win. So like you get them to you
+13:03 know basically participate in the habit
+13:05 they win and then it's like okay now you
+13:08 understand the value of this product go
+13:11 and pay for it or you can do something
+13:13 like a $49 a year annual anchor an
+13:16 add-on for a pro pack where it's like $5
+13:19 a month or $10 a month. This is for your
+13:21 like power users. You don't have to
+13:22 worry about this for your minimal viable
+13:24 product. This is like post 100K a month,
+13:27 but something to consider also like do
+13:30 you want to create like a group or team
+13:31 plan, you know, for example, Calai for
+13:35 your company and stuff like that. That's
+13:37 a way to get a lot of seats really
+13:38 quickly. But again, that's post 100K a
+13:41 month. Um, this is the way to think
+13:44 about uh pricing. So, you know, this is
+13:47 this is just helpful for me to think
+13:49 about um and might be helpful for you
+13:51 this this graph around. Okay. was just
+13:54 around um h how to think about getting a
+13:58 stranger onboarded and how to get them
+14:00 become an advocate for your company. So
+14:04 they download the app, they're
+14:05 onboarded, you want to get that first
+14:07 success within 24 hours. And I can't
+14:09 tell you how important that is. If you
+14:12 can get success like that win within the
+14:15 first hour, 30 minutes, two hours, that
+14:17 is actually so much it's an order of
+14:19 magnitude better than 22 hours, 18
+14:23 hours, you know, 40 hours cuz it just
+14:26 you might not be able to win them back.
+14:28 So, you get them for the first win. So
+14:31 important. Your your MVP is you're just
+14:33 focusing on the first win of the habit
+14:35 and then you try to get them to engage
+14:37 back into the app. Think about like
+14:39 three sessions in seven days building
+14:41 that routine, right? So you want to go
+14:43 from first win to building the routine.
+14:45 Um what ends up happening is uh you
+14:49 people are going to go into different
+14:51 camps. So you're going to go in some
+14:52 people are going to go into the camp of
+14:54 uh they're not really using the app.
+14:56 They're idle. Um so you want to
+14:59 basically trigger a nudge or a benefit.
+15:02 So, you know, I see that you're not
+15:04 taking a photo of, you know, your h you
+15:06 know, your h your food today. You know,
+15:09 how can I how can how can you get the
+15:11 user to actually do that? And you want
+15:13 to position that as value for the the
+15:16 user. The the mistake a lot of uh app
+15:20 builders make is they think about
+15:21 themselves. They're just pushing the
+15:23 content. They're like, I need you to be
+15:24 active because I know if you're active,
+15:26 you're going to be using this product
+15:27 more. You're going to be spending more
+15:29 money. But that's a mistake. What you
+15:31 want to do is just position it as, okay,
+15:33 how how can let me let me put my my feet
+15:36 in the shoes of of this customer. How,
+15:39 you know, what can I what can I send
+15:41 them that's going to produce value
+15:42 that's going to get you to the win. So
+15:46 triggers and nudges are very important.
+15:48 Um, even if they're 3 days idle, you
+15:50 want to you want to trigger and uh nudge
+15:53 them. Um, and then you want to for the
+15:55 people who do streaks, these are people
+15:56 that are going to be your active power
+15:58 power users. And then you're going to
+16:01 want to basically get those people and
+16:03 prompt those people to share and refer
+16:05 the product because those people are
+16:07 going to be your advocates. They're
+16:08 using it every single day. So you're
+16:10 going to basically segment those people
+16:12 and then send them notifications
+16:14 um and communication uh on social and
+16:18 stuff like that that says like hey like
+16:21 you know if you share it you're going to
+16:22 get XYZ.
+16:25 So in this section I'm going to talk
+16:26 about how to actually get customers.
+16:28 This isn't the only way to get
+16:29 customers, but how I'm seeing a lot of
+16:31 these apps get customers. Um, it's
+16:33 basically a mix of organic, owned, and
+16:35 paid. So, on organic, what they're doing
+16:38 is they're have, you know, these Tik Tok
+16:41 pages. Sometimes it's multiple Tik Tok
+16:43 pages. Um, and they're also using IG
+16:46 with many chat integration. So, I'm sure
+16:48 you've seen it. It's basically like
+16:50 they'll do a a reel and they'll say
+16:52 comment xyz for more and then many chat
+16:57 will automatically DM people. Um they're
+17:00 doing things like uh SEO GEO they're
+17:03 using platforms like X. I think even Roy
+17:06 from Cleuly the founder of Cluey was
+17:08 saying how how important X is in terms
+17:10 of getting customers. Um they use that
+17:13 to send them to get them on a wait list
+17:16 of some sort. you know, could be a
+17:18 newsletter, could be just a weight list
+17:20 that's owned and operated. Um, and you
+17:24 know, they also use things like paid, so
+17:26 you know, ASA, which is a, you know,
+17:28 Apple's, um, search program. Uh, so the
+17:32 paid search when you're actually
+17:33 searching on the app store. Um, they're
+17:35 using Facebook and IG creatives and
+17:37 they're creating, you know, tens if not
+17:39 hundreds of them. And they're using a
+17:41 clipping. I actually think that clipping
+17:43 97% of it is like complete waste of
+17:47 money. Um but some of them are seeing
+17:49 success around clipping. I should have
+17:51 mentioned what is clipping. Clipping is
+17:52 basically when uh you take long form,
+17:55 you put it into short form, and then
+17:57 there are these a agencies that you can
+17:59 pay that will say like for every million
+18:01 views you get, I you know, if you pay me
+18:04 $5 CPM, um you know, I'll I'll go, you
+18:08 know, would you pay me $5 CPM? If I get
+18:10 you a million views, absolutely. Because
+18:12 then you're looking at it, you're like,
+18:13 a million views. If I convert 1% of
+18:15 those to my app, then I'm going to crush
+18:18 it. But the problem is a lot of those
+18:19 views just aren't converting from what
+18:22 I've seen. So would love to hear what
+18:25 people are are seeing in terms of
+18:26 clipping in the comment section. But um
+18:29 hard to f hard to find this that
+18:32 working. I'm sure it does work in some
+18:35 cases, but for the most part it hasn't
+18:37 been working. Um or I haven't seen it
+18:40 work. Then uh in terms of owned, you
+18:42 also have the inapp share prompts.
+18:44 That's going to be a huge lever for you.
+18:46 Um, and then you can do things like
+18:48 referral where it's like three for one
+18:50 month pro. So that's just a way to get
+18:52 your customers to have more customers.
+18:56 So um I I do think that you can get from
+18:59 like 30 day zero to 30 days to app
+19:02 revenue. So you can do something like
+19:04 for the first few days you define your
+19:06 wedge then you define your you know
+19:08 wireframes and prototype then you create
+19:10 your core loop which is hard right
+19:12 that's around it's hard but you know at
+19:15 this point hopefully you can you
+19:16 understand the habit you've think you've
+19:18 used things like Reddit Tik Tok and idea
+19:21 browser to validate some of uh some of
+19:23 it um then you do you know the telemetry
+19:27 the payw wall you do some onboarding and
+19:29 the ASO then you do some channel tests
+19:32 and and then you work on retention. Like
+19:34 you could come up with an idea and build
+19:36 an app in 30 days and get to some
+19:38 revenue. Uh you can screenshot this. Um
+19:41 but I do believe it's totally possible.
+19:44 Let's talk about the metrics that um
+19:47 that you should care about if you're
+19:48 trying to get to 100K MR. So retention
+19:52 churn streaks percentage is kind of an
+19:55 underrated one. You want to get that as
+19:57 high as possible. D7 and D30 meaning day
+20:00 seven and day 30 retention. Um the
+20:03 revenue obviously the uh ARPU arpoo
+20:07 average revenue per user the trial to
+20:10 the paid percentage you know that's
+20:12 going to be a huge one and the annual
+20:13 mix percentage um the acquisition the
+20:17 cost per install you know your organic
+20:19 installs your ASAct
+20:22 you know all of that stuff is going to
+20:23 be really important these are all levers
+20:25 like you're basically a scientist and
+20:27 you're playing with all these levers in
+20:29 the referral camp you have invites per
+20:30 users and the K factor K factor
+20:32 basically means the virality of uh you
+20:36 know for every one person that comes
+20:38 into the app how many of them how many
+20:40 are they inviting. So if you have a K
+20:42 factor above one that's what you're you
+20:45 want to get because you know that means
+20:46 every person is bringing another person
+20:49 in the activation camp what's going to
+20:52 be really important to you is your day
+20:53 zero to D1 success percentage your sign
+20:56 up completion and your time to first
+20:58 win. Um, I included this over here
+21:01 because a lot of people don't know how
+21:04 to think about new features and what to
+21:06 put on the backlog of feature
+21:09 development. So, the way I think about
+21:11 it is when you're coming up with an
+21:12 idea. So, let's say you've okay, you've
+21:14 built your MVP, you've got your core
+21:16 loop, um, but you, you know, it isn't
+21:19 exactly working. Some of these, you
+21:21 know, the retention isn't as high as you
+21:23 want or the streak percentage isn't as
+21:24 high as you want. So you're you're going
+21:26 to at this point you're going to come up
+21:28 with a bunch of ideas for how to fix
+21:30 that. But it's important to use this
+21:32 impact times confidence uh over effort
+21:36 and put it into a score. Uh you know I
+21:39 call it the ice score. Um you know not
+21:43 all feature ideas are created equal. So
+21:46 you have to you know you uh if you're
+21:49 working with a team you and your team
+21:50 have to come up with your best guess at
+21:53 what the impact's going to be if you
+21:55 create this what your confidence is that
+21:56 and how much uh effort is it going to
+21:58 take to go build that and based on that
+22:00 you can prioritize what you are going to
+22:03 ship this week and then try to aim to
+22:05 ship three things per week if not kill
+22:08 defer that other stuff right just like
+22:11 put it in the backlog don't think about
+22:12 it focus on your one two or three things
+22:15 this week. If if I'm building a 100K uh
+22:19 MR mobile app, one of my northstars is
+22:21 going to be weekly active paying users.
+22:23 And the way to think about that is
+22:25 you're going to have your acquisition
+22:27 volume, right? How many people are
+22:29 coming in at the top of the funnel and
+22:31 you know, how are you going to be able
+22:32 to, you know, get more of acquisition?
+22:35 Well, you just, you know, play with your
+22:37 how much you're spending on on app store
+22:39 keywords, paid ASA creatives. That's
+22:43 your IG and creator budget. Um, and then
+22:47 your organic, right? Um, the activation
+22:50 rate, so your onboarding speed, the paid
+22:53 conversion, the pricing, and the timing,
+22:55 and the weekly retention, which is
+22:57 streaks and notifications. So I think
+22:59 that you know just thinking about the
+23:00 northstar as your weekly active paying
+23:03 users wapu
+23:05 and then thinking about playing with the
+23:08 levers of acquisition activation rate
+23:10 pay conversion and weekly retention is
+23:12 how you're going to start thinking about
+23:14 it if you know anyone can go and create
+23:17 a mobile app that gets you know a few
+23:19 hundred MR but the ones that get to 100k
+23:22 MR really understand these levers quite
+23:25 well. the the monthly MR, you know,
+23:28 because they're software businesses and
+23:31 there's not much cost, your gross margin
+23:32 is going to be 80 to 90% before Apple
+23:35 takes their cut. Um, so I think, you
+23:39 know, you don't want to spend a lot of
+23:40 money on paid first. In fact, I would
+23:45 spend nothing really on paid in the
+23:47 beginning. I would be working just on
+23:49 organic
+23:51 um doing my organic stuff trying to get
+23:54 uh you know maybe some affiliate but you
+23:56 know mostly organic
+23:58 um and then once you've figured out okay
+24:01 what's my LTV lifetime value um then you
+24:04 can start playing with paid and then you
+24:07 should think about paid as a paidback
+24:09 within less than 3 months um you know
+24:12 the LTV how do you calculate LTVs is a
+24:15 common question it's your ARP RPU, um,
+24:18 your RPO,
+24:20 average revenue per user, times month
+24:22 retained, and then you should think
+24:24 about trying to get an LTV over CAC of
+24:26 above three. The best apps, the best
+24:29 consumer mobile apps have an LTV over
+24:31 CAC above three. Um, and that's what I'm
+24:34 seeing in these 100K plus MR uh,
+24:37 consumer mobile apps is they just
+24:38 they're spending a lot of money because,
+24:41 you know, it's they're they're just
+24:43 getting paid back so quickly. So, uh
+24:46 this is the framework for how you could
+24:49 create a consumer mobile app um and how
+24:52 how some of the best people are thinking
+24:54 about it um that what I've observed. And
+24:58 um without further ado, I'm going to
+25:00 actually give you four ideas that I
+25:02 think could fit in this framework around
+25:04 the habits um and that are sorely
+25:08 needed. Um so, and this is just to get
+25:12 your creative juices flowing. This is
+25:13 really to get I know you're going to
+25:14 listen to this and you might be like I
+25:16 don't really like this one but it
+25:17 actually got me thinking about something
+25:18 else. So the dog allergy scanner. So for
+25:21 owners of dogs with food sensitivities.
+25:23 So there's millions of dogs out there.
+25:25 Percentage of them have food
+25:26 sensitivities. People really care about
+25:28 their dogs obviously. Snap a photo of
+25:30 ingredient labels at the store. AI flags
+25:33 unsafe food for your dog specific
+25:35 allergies. So what is the core loop? The
+25:37 core loop is you scan save unsaved
+25:40 feedback save to favorites. You can
+25:42 monetize with a $5 a month premium. So
+25:44 you can do multiple pets, you know, vet
+25:47 Q&A, custom diet plans, things like
+25:49 that. And then how do you grow this
+25:51 thing? Well, you do it via vet
+25:53 partnerships and pet tik tok. Um, so
+25:56 really simple one. I think there's a lot
+25:58 of analogies here to like cali and uh
+26:01 there's a guy who has an app. I think
+26:03 it's called I think his name. Yeah,
+26:05 Bobby the Bobby approved app and he he
+26:08 has like a YouTube channel and he just
+26:10 says you know is this a healthy is this
+26:12 a healthy Bobby approved organic no seed
+26:15 oils thing and people there's millions
+26:17 of people that scan in grocery stores um
+26:20 to see if it's you know healthy. Well,
+26:23 this is just sort of a similar idea but
+26:25 for allergies. Um, and you know there's
+26:28 the saying for a business, are you a
+26:31 vitamin or are you a painkiller? A
+26:33 vitamin business you don't really want
+26:34 to be in. A vitamin business means like
+26:36 you don't really need it, but a
+26:38 painkiller you really need. Um, and this
+26:41 is something that would fit into the
+26:42 painkiller because obviously people
+26:45 don't want to feed uh stuff that is
+26:48 going to make their dogs lives uh worse
+26:51 worse than you know or just not not fun,
+26:55 right? So um we don't want to hurt our
+26:57 dogs. Um the second one is um second
+27:01 idea is something that actually
+27:03 triggered uh affects me. So I know this
+27:05 well this is why I I in included this
+27:07 one. So I get migraines and I would pay
+27:10 for something like this. So it's called
+27:11 a migraine weather guard. So for
+27:14 migraine sufferers who track triggers
+27:16 which I do track my triggers things like
+27:18 red wine, things like um uh some red
+27:22 meats um and stuff like that. It uses
+27:25 hyperlocal weather, barometric pressure
+27:27 shifts to warn users hours before
+27:29 onsets, daily check-in log log symptoms,
+27:33 builds personal trigger models, monetize
+27:35 via $7 a month subscription, affiliate
+27:38 with migraine products like cooling caps
+27:40 and supplements, and then you can do
+27:42 niche distribution through Reddit
+27:43 migraine groups, neur neurology clinics,
+27:47 uh, and migraine Tik Tok. So, another
+27:49 simple idea. Um, you know, uses AI to
+27:53 basically figure this stuff out. Um,
+27:55 that's the wedge. Um, people would pay
+27:57 for it. It's a painkiller. And that's
+27:59 the hook. Uh, you're starting to get it.
+28:01 I also like that it does the affiliate
+28:03 stuff. So, that helps you get your LTV a
+28:06 little a little bit up. This one, uh,
+28:08 number three, uh, the silent study
+28:10 timer. So, for students in competitive
+28:12 exam prep, like things like the MCAT,
+28:15 the CFA, the BAR, and there's hundreds
+28:17 of thousands of the of them. Um, you
+28:20 create something for for them that's a
+28:22 study timer. So, it's not a generic
+28:23 Pomodoro app. There's there's hundreds
+28:25 of those apps, but you simulate like a
+28:28 vi a library vibe with a shared silent
+28:31 study rooms where avatars show up who's
+28:33 active. You can do gamified streaks,
+28:35 leaderboard for hours studied,
+28:37 accountability groups. You can monetize
+28:39 via $29 a year um premium study rooms
+28:43 with advanced analytics that tells you,
+28:45 you know, how locked in you are. And you
+28:48 remember we talked about names for um
+28:51 for apps, why certain apps are just
+28:53 crushing it. Calai, uh we talked about
+28:56 the vibe code app. Well, if something
+28:58 like this was called like locked in, I
+29:00 think it would do really well. Um and
+29:02 then the growth would be via YouTube
+29:03 study with me channels and discord
+29:05 servers. Another kind of idea I would
+29:07 have for this is a lot of people uh in
+29:10 uh listen to lowfi studying music. So
+29:13 they create you can create like a
+29:15 YouTube channel, put lowfi music, make
+29:18 that music with AI, get people onto onto
+29:21 it and then basically send them to this
+29:23 app. That's is this is an idea that will
+29:25 work. This idea will work. Uh, so you're
+29:28 gonna go, you create the organic uh via
+29:32 via these YouTube channels and then you
+29:34 send them to this app. I don't know why
+29:36 people aren't doing this. Uh, and you
+29:38 can also pay some of these other, you
+29:40 know, low-fi channels to promote some of
+29:44 your stuff with a with a a link in bio.
+29:46 How much would it cost? Right? So, this
+29:48 is a this is a good one. The one
+29:50 downside to this idea I will say is
+29:52 students are less likely to pay than for
+29:54 example 37year-old migraine people
+29:57 suffering from migraines who who have
+29:59 kids uh who just you know want to make
+30:02 sure they're not going to get it. But um
+30:04 I do think this is a cool idea. And the
+30:06 last the last idea is a plant watering
+30:09 AI coach. So um we've all dealt with
+30:12 plants that we buy and they die and it
+30:14 sucks. So, for urban apartment dwellers,
+30:17 Los Angeles, New York, Miami, uh, snap a
+30:20 photo and and anyone really. Um, snap a
+30:23 photo, but that's who you would target,
+30:24 I think. Um, high disposable income,
+30:28 that sort of thing. Snap a photo of a
+30:30 plant. The app identifies the species,
+30:32 builds watering and sunlight schedule.
+30:34 You can send push reminders align with
+30:36 weather, skip watering if humid today,
+30:39 monetize via $3 a month premium, and
+30:42 then you do the affiliate thing, links
+30:43 to soils, pots, fertilizer, and then you
+30:46 growth via Instagram plant influencers
+30:48 and Etsy plant sellers. So, I think I
+30:51 put this as the end. It's probably my
+30:52 least favorite idea cuz there this is
+30:54 actually quite competitive. Um, there
+30:57 are apps that are doing the something
+30:59 similar that are making millions of
+31:01 dollars a year, but I do think that, you
+31:03 know, I've used some of them. They're
+31:04 not the best apps and I still think that
+31:07 there's, you know, opportunity even if
+31:09 there is competition to have your own
+31:11 take on it with the right name, with the
+31:13 right brand, and with the right go to
+31:15 market strategy. So, this has been
+31:19 uh episode on just building consumer
+31:22 mobile apps. Um, you know, I think that
+31:28 for a while you couldn't build a
+31:31 consumer mobile app that got to this
+31:33 amount of scale and without raising tons
+31:35 of venture capital and and then taking
+31:39 it years of time. But I do think that
+31:41 now, right now, as of recording this, um
+31:44 there's just a remarkable opportunity
+31:46 because people on the consumer side want
+31:48 to try AI apps. Um and unlocks all these
+31:53 new behaviors like, oh, take a photo to
+31:55 do this and AI analyzes it. Um and then
+31:59 you have all these creators that would
+32:01 could distribute your product and just,
+32:04 you know, I just think that's a it's a
+32:05 remarkable time to build. And I think
+32:06 that people think that um it's getting
+32:10 saturated with consumer mobile apps, but
+32:14 um I don't think that's the case. That's
+32:16 my hot take. I think there's going to be
+32:18 so so many examples of, you know,
+32:20 there's going to be like a hundred, you
+32:22 know, mini versions of Cali or more um
+32:26 that are successful. And my hope is that
+32:28 someone listening got a little bit of
+32:31 creative juices that helped them be
+32:33 like, you know what, I am going to start
+32:35 an app. I am gonna start an app and uh
+32:39 that's all I can ask for. So um if you
+32:42 enjoyed this, please let me know. I hope
+32:44 it got the creative juices flowing. Have
+32:46 a creative day, friends, and I'll see
+32:48 you next

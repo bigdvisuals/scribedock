@@ -1,0 +1,784 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=dan3QfN3CDU
+Channel: Riley Brown
+Video ID: dan3QfN3CDU
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 you can now build powerful apps simply
+0:02 by speaking to the most powerful AI
+0:04 coding agent within a tool called cursor
+0:06 and I've been doing this for months all
+0:09 it took was Andre kpoy one of the
+0:11 world's best developers to start talking
+0:13 about Vibe coding Andre karpathy worked
+0:16 at Tesla on self-driving and he also
+0:18 worked at open AI when they were
+0:19 building chat GPT he said the following
+0:22 about a new type of coding he said this
+0:25 there is a new kind of coding that I
+0:27 call Vibe coding where you fully give
+0:30 into the Vibes you Embrace exponentials
+0:32 and forget the code even exists it's
+0:34 possible because llms using cursor with
+0:37 CLA 3.5 sonnet are getting too good also
+0:40 he just talks to composer with a speech
+0:43 to text tool called super whisper and so
+0:46 he barely touches the keyboard he just
+0:48 talks to the cursor agent within
+0:51 composer I just see stuff say stuff run
+0:54 stuff copy and paste stuff and it mostly
+0:56 works and this is not exaggeration today
+0:59 I'm going to talk about how you can go
+1:01 from never writing a line of code
+1:02 hopping into cursor and building a
+1:04 really cool app that has multiple AI
+1:07 features within a year everyone might be
+1:10 a senior developer by today's terms
+1:12 because all you'll have to do is ask for
+1:14 what you want and you will get it and so
+1:17 today we're going to be doing a full
+1:19 in-depth guide on how to get started
+1:21 Vibe coding what tools you need what
+1:24 vocab you need to learn things like run
+1:26 locally database Authentication codebase
+1:29 these are all just vocab terms you need
+1:31 to give to composer every once in a
+1:34 while I have been doing this for the
+1:36 past 6 months straight it's incredibly
+1:39 addicting so beware once you get to your
+1:42 aha moment and you see that AI can kind
+1:44 of build whatever idea you have in your
+1:47 brain you're going to be like oh my God
+1:49 I never want to stop doing this that's
+1:53 just going to happen I am sorry cuz
+1:55 we're about to Vibe code so let's just
+1:57 dive straight into it huh okay vibe
+1:59 coding there's two tools that you need
+2:01 to get started the first one is of
+2:04 course cursor and cursor is going to
+2:06 generate the code it's going to edit the
+2:08 code it's going to do everything and
+2:10 within cursor we have clae 3.5 Sonet
+2:13 which is still the best AI model right
+2:16 now for coding and the second tool that
+2:18 we're going to need is whisper flow and
+2:21 it is free I'm still on the free plan
+2:24 what whisper flow allows you to do is
+2:26 wherever I am typing I can hold down the
+2:28 FN key on my Mac
+2:31 and whatever I say right now will be
+2:33 immediately Maybe not immediately but
+2:35 very very close to immediately be
+2:37 entered directly into wherever my cursor
+2:41 is you see that and so it's a very fast
+2:44 speech to text and karpathy was using a
+2:48 super whisper I do know that I've have
+2:52 had way better experiences with whisper
+2:55 flow but I don't care which one you use
+2:57 it doesn't matter that much so I'm going
+2:59 to show you exactly how to get started
+3:01 and so what we're going to do so once
+3:02 you download cursor you're going to open
+3:04 up a new cursor window so here is a
+3:08 brand new cursor window and the hardest
+3:11 part about these projects is getting
+3:13 started and so we're going to start off
+3:15 from a starting point or a template and
+3:17 it's basically like a blank nextjs app
+3:20 this template now has over 25,000 Forks
+3:23 all you need to do to get started on
+3:26 cursor is to click clone repo and you're
+3:29 going to paste in this link right here I
+3:32 have it saved at the top of my clipboard
+3:35 manager and here it is now what we're
+3:37 going to do is we are just going to
+3:39 press enter and now we're going to pick
+3:41 a place in our computer where this
+3:44 project will exist and so we're going to
+3:46 hit new folder and I'm just going to
+3:48 call this Vibe code
+3:52 yeah and we're going to hit create and
+3:55 we're going to hit select his repository
+3:57 destination and we're going to hit open
+4:01 and this is going to take that template
+4:04 and there you go it gets loaded right
+4:06 here on the side now what we're going to
+4:07 do is we're going to open up the tool
+4:09 that karpathy was talking about we're
+4:11 going to press command I now we're ready
+4:14 to go the first thing that we need to do
+4:16 is I'm just going to say with super
+4:19 whisper run this locally I want you to
+4:23 run this locally and get it set up on
+4:27 Local Host what it does is it allows me
+4:29 to see the app in a web view so we can
+4:33 just press agent and we're going to
+4:34 press enter and it is just going to
+4:37 start coding and here it says npm runev
+4:41 and you see this pop up here we now have
+4:43 this link that says Local Host Colin
+4:46 3001 we're going to press command click
+4:50 and this should open up the template
+4:52 this is our starting point and so this
+4:54 is our little app and this app comes
+4:56 with it comes with instructions to set
+5:00 up an AI chat app AI image generation
+5:02 app but ignore this for now what you're
+5:04 going to do is you're just going to rip
+5:06 it a new one and you're going to use
+5:08 this as the homepage for your app so
+5:11 let's go ahead we're going to go to chat
+5:13 GPT so let's say we want to create a
+5:16 chat GPT like app I'm just going to take
+5:19 a screenshot of this whole site and what
+5:22 we're going to do here is we are going
+5:26 to come back to cursor and then now we
+5:29 just pasted that in and now we can speak
+5:31 to composer again I want to create an
+5:34 app that is a clone of chat GPT I want
+5:37 you to start from the template don't
+5:39 worry about any authentication or Google
+5:41 signin for now what I want you to do is
+5:44 I want you to build a chat GPT clone
+5:47 we're going to use the chat GPT API and
+5:51 we are going to be making an app that
+5:53 uses the new 03 model and I'm going to
+5:57 paste some documentation on how to get
+5:59 that set up and I want you to fully
+6:04 clone this app and so notice here on
+6:06 this site there is it's centered
+6:08 vertically I want you to make it like
+6:10 that and then once I press enter the
+6:12 input bar should go down towards the
+6:14 bottom of the app and then uh it the
+6:18 answers should stream from the top of
+6:20 the screen just like chat gbt does this
+6:22 should literally be like chat gbt also I
+6:25 want you to make a sidebar that pops out
+6:28 just like chat G BT does these are the
+6:30 little three horizontal lines at the top
+6:32 left I will paste my open AI API key in
+6:36 the env. Lo file okay so I just created
+6:41 this prompt and I think it is worth
+6:46 discussing we did the first prompt first
+6:50 prompt uh and this was a description
+6:53 description of the app that we want uh
+6:55 we're turning our template into the site
+6:56 that we want and we're using an API so
+7:00 we're using an API and an API the way
+7:03 that I think about this is like you have
+7:06 a humanoid robot so you have this
+7:07 humanoid robot this robot and so this
+7:11 robot here you want to create an app and
+7:14 so you have this humanoid robot and you
+7:16 get to uh say
+7:19 create an app dude and it will just
+7:23 listen to you and this humanoid robot if
+7:26 you don't already realize is cursor
+7:29 right this humanoid robot is cursor and
+7:32 it's going to build you an app and so
+7:34 it's
+7:35 building uh and so this this humanoid
+7:37 robot is going to build you a really
+7:39 cool Lego structure and so it's going to
+7:42 like use Legos and it's going to build
+7:44 you whatever Lego thing that you want
+7:47 and this these Le this Lego thing that
+7:49 you're building is an app it is an app
+7:54 in order to build this though it needs
+7:57 pieces and then it also needs
+7:59 instructions so it'll need the pieces
+8:02 and then it'll need instructions and
+8:05 what I mean by this is it actually needs
+8:08 it needs
+8:10 apis and it needs documentation so it
+8:13 needs an API key and then a
+8:15 documentation which are like instruction
+8:17 manuals so when you build a Lego set you
+8:20 need instruction manuals to build it so
+8:22 you need to give the instruction manual
+8:24 to cursor and you also need to tell him
+8:26 what tools you're using so that cursor
+8:30 can build it and the more accurate so
+8:34 like you want to make sure that you're
+8:35 choosing the right pieces or the right
+8:37 apis and you also want to make sure that
+8:40 you're giving it all of the relevant
+8:41 instructions this is critical and the
+8:44 best place to find this right here is
+8:48 perplexity so we're going to go to
+8:50 perplexity I have created a custom space
+8:53 and it's called input output you put it
+8:56 in this format right here all you type
+8:58 in because it it has custom instructions
+9:00 so once we're at input output we can say
+9:04 say uh
+9:06 text
+9:08 text h um high quality AI outputs this
+9:13 is very simple this is chat GPT and so
+9:16 on perplexity we can basically uh uh we
+9:19 what we want to do is we want to be able
+9:20 to put in text right with chat GPT you
+9:22 type in text and you get text out and so
+9:25 therefore open uh perplexities like the
+9:27 open AI API stands out as the most
+9:28 reliable solution and so here it is but
+9:32 here it's using gpt3 turbo and so we can
+9:34 actually just ask say I want the
+9:37 relevant documentation for open ai's new
+9:42 03 model and I want you to include in
+9:45 this what parameters are allowed and are
+9:47 not allowed with this new model I want
+9:49 the highest quality
+9:51 model and again we're just using our
+9:54 voice and it's going to now give us the
+9:56 right code for 03 and the new open AI
+10:00 reasoning models have a little bit
+10:02 different have different parameters like
+10:05 this stuff right here is different like
+10:07 you I don't even want to get into it
+10:08 doesn't matter so right now I am
+10:11 Gathering the instructions to use the
+10:15 type of Lego piece which is open AI API
+10:18 key but there's also another piece you
+10:21 need while this is generating I'm going
+10:22 to go to open AI uh playground I think
+10:27 is where you find it or it's dashboard I
+10:29 don't remember you go to open AI
+10:31 platform and so we're going to log in
+10:34 and once you've logged in okay you're
+10:36 going to press settings and then you're
+10:37 going to go to API keys and you're going
+10:40 to generate a new API key here never
+10:43 show this to anyone and it only shows it
+10:45 to you once and this is basically a
+10:47 permission the key to use the technology
+10:50 that the instructions allow right the
+10:53 documentations you can either find the
+10:55 documentations on open AI doc so you
+10:58 could just type in open
+10:59 docs which are basically the
+11:02 instructions on how to use open AI if
+11:05 you used a tool like mid Journey that's
+11:07 an AI image generator they're not they
+11:09 don't have an API but there's another
+11:11 one called flux if you wanted to use
+11:14 flux you would need Define the flux
+11:16 documentation and then you would need a
+11:18 flux API key and if you wanted to create
+11:22 AI video generation you would need to do
+11:23 the same with Runway Runway you can get
+11:25 a Runway API key and you need the
+11:28 instructions on how how to use it and
+11:30 then you give cursor all of these
+11:32 instructions okay now that we have that
+11:34 out of the way we can go back to this
+11:36 right here and here we go it looks like
+11:39 it gave us all of the information to use
+11:41 03 mini and it said uh supported
+11:44 parameters reing low effort unsupported
+11:46 parameters this is exactly what we want
+11:48 so we're going to copy this we're going
+11:49 to go back to cursor and I'm going to
+11:51 paste this in right here and um I'm
+11:55 going to can you please create an EnV do
+12:00 uh the the file uh placeholder for me to
+12:04 put my API
+12:06 token and so if you've never put your
+12:08 API key into an app before it needs to
+12:12 go into a special file that keeps it
+12:15 safe I can in theory as soon as I'm done
+12:18 with this upload these wait wait hold
+12:22 on so it said I noticed the code you
+12:24 shared was 03 mle model but I should
+12:26 point out that it appears to be
+12:28 hypothetical document mation curse I
+12:31 swear to God Claude so this is
+12:34 absolutely the model you need to use
+12:37 this model exists listen to the example
+12:40 I gave you that is the model you're
+12:42 using do not you have outdated
+12:44 information you are using the example
+12:47 and everything that it says there to
+12:48 create this you are not using 3.5 turbo
+12:52 or GPT 40 you are using the model that's
+12:55 in the documentation and okay and so so
+12:59 what it should do is it's going to
+13:00 create this env. looc file and you'll
+13:03 see it pop up right here this will keep
+13:06 your API tokens safe so I'm going to
+13:09 paste my API key for open AI right here
+13:12 I'm going to pause the video while I do
+13:13 it because you want to keep that safe
+13:16 you want to keep it
+13:18 protected and so your project uh your
+13:21 API key will start with sk- PR and you
+13:25 just paste it in right there keep it
+13:27 safe and so notice how it's making
+13:29 changes to the code other than the uh
+13:32 env. loc file you don't really need to
+13:35 concern yourself with it you just use
+13:37 composer we'll talk about editing code
+13:40 files later and here it says replace
+13:43 your API token which I did restart the
+13:45 development server by pressing in npm
+13:48 run Dev and you can just press run and
+13:50 it will run that in the server and now
+13:52 it's running on Local Host 3002 let's
+13:55 see what the app looks like we could get
+13:59 error it's very
+14:02 possible all right wow this looks very
+14:06 weird so here's our app how can I help
+14:09 you today medium low high send a message
+14:13 I doubt this is going to work
+14:18 hello oh it works it looks horrible what
+14:23 model are you are you sure are you a
+14:28 reason
+14:29 model I'm a language model with
+14:32 integrated reasoning capabilities so if
+14:34 we go up here and press this sidebar we
+14:37 see that we have this sidebar here but
+14:41 wow it looks weird as hell so what we're
+14:45 going to do is we're going to copy this
+14:47 and I'm going to copy everything we're
+14:49 going to go back to cursor and we're
+14:52 just going to uh paste this in and say
+14:55 what the hell is going on here I want
+14:58 you right now to make make this a fully
+15:00 white site just like the chat gbt site
+15:03 you have all these weird gradients Going
+15:05 On We're Going Back to Basics I want you
+15:06 to make it look exactly like this image
+15:09 we can paste that in again it should
+15:11 look exactly like this image at the
+15:14 beginning and the initial input field
+15:16 should be vertically centered everything
+15:18 should be white super clean keep it the
+15:20 do the exact literally clone this and so
+15:23 now we're running and we can actually
+15:25 just sit here and watch as the changes
+15:27 are made to the app
+15:30 okay it changed it to White okay there
+15:32 we go it edited this where did our oh
+15:35 there it is so we still have that button
+15:38 it's hidden up here Sil coding finally
+15:41 let's update the sidebar component nice
+15:44 okay another really important tip the
+15:47 longer this composer message gets the
+15:49 worse it's going to perform and unless
+15:52 you're in a task where all of the
+15:55 previous info that we've entered matters
+15:58 a lot for the next prompt you want to
+16:00 constantly just create new composer
+16:03 chats because that will make the context
+16:06 window smaller the AI model takes in all
+16:09 of these words every single time you run
+16:13 an AI prompt and the smaller that number
+16:15 is the better it is so the point is just
+16:16 remember to go up here to this plus sign
+16:19 press new and then you're going to click
+16:21 on agent mode you're going to make sure
+16:22 that you're still using agent mode and
+16:24 we're going to run it again and now what
+16:25 we want is I am going to take a screen
+16:29 shot of this again and I am going to
+16:31 screenshot this and I am going to say
+16:35 everything that I want to change okay
+16:38 this is the site this is what it looks
+16:39 like now you just change the color looks
+16:42 good the sidebar pops out but it doesn't
+16:45 push everything over like the chat GPT
+16:47 one the input field to start out should
+16:50 be vertically centered put it at the
+16:52 center of the app and I want you to
+16:55 change what can I help you with or what
+16:58 can I help with that should become Vibe
+17:01 code so we can now run this and we will
+17:03 await okay there we go Vibe code we can
+17:07 send a message right here we have this
+17:09 sidebar that pops out and we can please
+17:12 tell me about the latest in artificial
+17:14 intelligence research okay we get this
+17:17 weird Snappy thing that something went
+17:20 wrong so we can press inspect this is
+17:23 another hack when you run into a problem
+17:26 you can hit inspect and go to console
+17:29 and we got this little error so you're
+17:32 just going to copy all this crap and
+17:35 you're going to paste it in and I'm
+17:36 going to say when typing in a message
+17:38 after I type in a message the input
+17:40 field it's centered at the beginning but
+17:42 then it should drop to the bottom just
+17:44 like chat gbt does in many similar apps
+17:47 it should drop to the bottom of the page
+17:49 but it immediately failed and so please
+17:52 fix it it was working earlier before we
+17:54 remade everything do not change the
+17:56 model it should always stay 03 Mini
+18:02 okay I think it's done so what we can do
+18:06 here is we can say tell me about
+18:10 artificial intelligence and how
+18:11 Transformers
+18:14 work I'm assuming that the formatting is
+18:18 going to be big yeah so terrible
+18:19 formatting so this is really bad
+18:22 formatting and so all we need to do here
+18:24 is we need to go like this and so what
+18:27 we're going to do is we're going to
+18:28 screen
+18:29 this we're going to say spacing is
+18:31 really good however I want this to be in
+18:36 proper clean markdown format that's very
+18:39 beautifully formatted and I want you to
+18:41 download a react package that makes this
+18:44 look really good make sure it still
+18:46 streams as it comes out additionally I
+18:48 want you to create a loading state so as
+18:51 I enter a prompt I want it to like show
+18:54 a little loading indicator all right I
+18:55 know the streaming's super messed up the
+18:58 streaming is really messed up actually
+19:01 but this does look a lot better when I
+19:04 haven't typed anything into it that
+19:06 button should be a little wave animation
+19:10 which will activate voice later um and
+19:13 then once I start typing it should turn
+19:15 into an arrow that points up it should
+19:17 be solid black at all times no matter
+19:19 which type it is so this is a really
+19:22 long prompt let's see how it
+19:25 does okay it added what the hell is
+19:28 going on on dude no what the are
+19:30 you doing look at this literally nothing
+19:33 about what you did was right God dang it
+19:35 put it up actually you know what I think
+19:38 if could increase the spacing and put
+19:40 these in little pills I don't think I
+19:43 would hate it actually can you actually
+19:45 put those two buttons uh the search and
+19:47 the research can you put those in pills
+19:50 so it should just be like a black border
+19:53 rounded edges around those buttons and
+19:55 then when I press it the text and the
+19:57 outline should turn blue and it should
+19:59 have like a light nice little glow to
+20:01 both of them when they're activated
+20:03 should be able to activate and
+20:05 deactivate them so they're either on or
+20:06 they're off then also increase the
+20:09 spacing so the
+20:11 lines that I'm typing in should be a
+20:14 little bit lower there should be more
+20:15 space between the where I'm typing in
+20:18 and where um those buttons are and then
+20:21 as I type I want it to grow downward I
+20:25 kind of like this format
+20:29 so we can type hello let me see
+20:31 something here just happened and so here
+20:34 all right that doesn't look too bad so
+20:37 if we press search it now lights up do
+20:41 the same on Research tell me about the
+20:44 president of the United States of
+20:49 America okay so now what we're going to
+20:52 do is what if you wanted to save your
+20:54 project wherever it is so right now I
+20:56 want to basically save my project and
+21:00 upload it to GitHub so what I'm going to
+21:02 do is I'm going to go to GitHub and I am
+21:04 going to create a repository I'm going
+21:08 to go ahead and make this one for now
+21:10 private I may make it public Vibe coding
+21:13 and we'll hit create new
+21:15 repository that's all we need to do we
+21:17 just need to copy this link I literally
+21:19 could say Commit This to a repo that I
+21:22 just created at this link it is a
+21:24 private repo and call it exactly what
+21:27 it's called here we'll p that Linkin
+21:31 enter all right it's done I've
+21:34 successfully initiated the git
+21:35 repository setup remote repository URL
+21:38 great so it is done so in theory if we
+21:43 select this right here and then we
+21:45 refresh this page we should see all of
+21:48 the files so there it is it is uploaded
+21:50 here it is mostly
+21:52 typescript and here we go we now have
+21:55 our GitHub repo set up here our code is
+21:58 saved so when chat GPT is text is
+22:00 animating out it's not as like it has
+22:03 this nice like glow out effect and it
+22:06 just seems like it's just nicely gliding
+22:08 through the text can you please try and
+22:09 create that little illusion please like
+22:11 that it's the text is gliding out
+22:13 peacefully and um there's this thing
+22:16 where like I like that the screen
+22:17 follows the text as it's coming out but
+22:21 I don't like how it's choppy I want it
+22:22 to be smooth and beautiful and don't
+22:24 overdo it don't change too much just
+22:27 make it elegant I no you can do this and
+22:30 while this is loading let's go to Google
+22:32 images and what we're going to do in
+22:36 honor of uh
+22:39 karpathy let's go ahead and screenshot
+22:44 this we're going to go to canva new
+22:47 Square post we going to paste this in
+22:50 background remover Circle
+22:53 frame um let's go like this we'll drag
+22:57 this onto here here a little border
+23:00 around it just like that and this is
+23:04 going to be the new icon let's download
+23:08 this PNG file now what we're going to do
+23:11 is we're going to go to cursor I just
+23:14 realized I don't think I exported it
+23:17 with the transparent background I need
+23:19 to do that and so now what we're going
+23:22 to do we're going into this public
+23:25 folder and um I want you to please
+23:28 change the icon for the AI assistant uh
+23:32 I'm going to put it in the public folder
+23:34 and now what we're going to do see it
+23:36 got rid of this background we're going
+23:38 to drag this into the public folder and
+23:41 we're going to change this
+23:44 rename
+23:46 logo and now we're going to make sure we
+23:49 click on Logo we're going to press
+23:50 command s to save it and we're going to
+23:53 type at
+23:56 logo.png and we're going to not not only
+23:58 do I want this to be the um chat I also
+24:01 want this icon to be above Vibe coding
+24:04 on the main homepage and so now all
+24:07 right so now let's make it a little bit
+24:11 bigger on the homepage uh where it shows
+24:14 above the title Please make it 50%
+24:17 bigger and now let's test what it looked
+24:19 like markdown essay on Andre
+24:25 kpoi I think it'll know who he is ooh
+24:29 that kind of looks good the way it kind
+24:32 of kind of animates out around the
+24:35 markdown right around this markdown I
+24:38 want rounded edges around the edge but I
+24:40 like it it looks really good also make
+24:43 the um logo above the responses just a
+24:48 little bit bigger all right we're Vibe
+24:53 coding and so we can't really see his
+24:56 face here and notice how these are like
+24:57 really blocky I want there to be more
+25:00 room as as I'm streaming it out it it's
+25:03 still chop like the screen like kind of
+25:05 flips up and down and the text that's
+25:08 coming out actively is being covered by
+25:10 the input field don't change the input
+25:12 field rather change the view add spacing
+25:17 below after I enter my message and it
+25:20 should come in from the top so it should
+25:22 basically give more spacing for the
+25:25 animation to come down into the screen
+25:27 rather than extend into like the
+25:31 bottomless pit that feels like I can't
+25:33 even see the text stream out you know
+25:35 what I'm saying here think about what
+25:36 I'm saying and then apply it don't say
+25:39 take what I'm saying at face value
+25:40 because I know I worded it poorly but I
+25:42 think you understand the basic Vibes of
+25:44 what I'm saying here and so yeah now
+25:45 it's like nicely rounded around the
+25:47 edges on all of the AI responses please
+25:51 put a copy button and a share button the
+25:53 copy button should copy it to my
+25:55 clipboard it's looking good make the
+25:57 border around this thicker add icons to
+25:59 the search and research and then also
+26:02 what I want you to do on the homepage I
+26:04 want you to put a little profile icon on
+26:06 the top
+26:12 right nice please tell me what vibe
+26:15 coding means in an essay format with
+26:18 proper headings and
+26:21 stuff okay nice looking good don't know
+26:24 why it has this now what I want you to
+26:26 do I want to use realtime voice from 11
+26:29 labs and so uh I want that little voice
+26:33 icon on the bottom right of that to be
+26:35 pressable when nothing has been typed in
+26:38 and make it black and if I press it it
+26:40 should open up a fresh page with just
+26:43 the icon that we have on the homepage
+26:46 and I want to be able to speak to an AI
+26:50 in real-time voice and speak to an AI
+26:53 model and I want to use the 11 Labs API
+26:56 for this here's some documentation I
+26:58 want to add real time voice with uh 11
+27:02 Labs give me code examples for nextjs on
+27:04 how to do it so we're going to just run
+27:06 this on perplexity I'm just going to
+27:08 copy all of this in here I'm going to
+27:11 paste this documentation I also have the
+27:14 11 Labs here it is actually this is a
+27:17 perplexity response so I'm going to
+27:19 paste that in as well here is some
+27:21 documentation you can use this as an
+27:23 example I want to just be able to speak
+27:25 with one of these avatars please make it
+27:28 simple I will paste my API key in the
+27:31 env. looc file all right you should
+27:34 probably not have all these links in
+27:35 there it could confuse it a little bit
+27:37 but that's okay we're going to do is
+27:40 we're going to go to 11 Labs we're just
+27:42 going to type in 11 labs. and I believe
+27:45 we log in here we should be able to get
+27:47 an API token if we press on my name
+27:50 right here we type in API keys and we're
+27:53 going to test type new key create API
+27:56 key I'm going to pause pause
+27:59 it and so it's done here now it needed
+28:03 to run this package it suggested that I
+28:05 ran this package so I literally just
+28:06 said run this and now it is running
+28:10 we're going to pop out the terminal I
+28:12 think we should be good let's see what
+28:15 happens we
+28:16 cannot press
+28:20 this wait I do not see where I can press
+28:22 the button to speak do the realtime
+28:25 voice input
+28:30 what we're also going to do real quick
+28:32 so we need to go to you let's get a clip
+28:34 of him talking we need to copy this link
+28:37 let's go to
+28:39 Downy and this is a tool that lets you
+28:42 download things delete that paste that
+28:45 in oh and let's make this um audio only
+28:50 cut
+28:52 mp3 mp3 cutter we're going to open a
+28:56 file
+28:59 so we need just his
+29:03 voice um it didn't foresee the bigness
+29:07 of the impact drag this over just like
+29:11 this yeah I'm not sure if the author
+29:13 aware of the impact that that paper
+29:15 would go on to have probably they
+29:16 weren't a computer that youve proposed
+29:19 and maybe they didn't have all of that
+29:20 foresight but I think it's really
+29:21 interesting isn't it
+29:23 funny okay so we just need that part
+29:26 right here we're GNA save this save so
+29:29 we have that new audio we can go to 11
+29:31 Labs agent call this
+29:34 Vibe coding and agent voice go to voices
+29:40 add new voice uh instant clone upload
+29:45 audio that same audio that we just did
+29:49 Viber Vibe
+29:51 [Music]
+29:53 Cary um I hereby confirm that I have all
+29:56 necessary rights even though no I don't
+29:59 voice is going to be Viber
+30:03 karpathy we will save that okay need
+30:06 that voice ID okay so let's try this
+30:13 out
+30:15 huh hello
+30:17 there hey uh what's up what what have
+30:21 you been up
+30:23 to ah greetings fellow traveler in the
+30:26 digital realm I've been immersed in the
+30:28 ethereal flow of vibe coding my friend
+30:30 you know that Transcendent state where
+30:31 the boundaries between coder and code
+30:33 blur into a cosmic dance of creation uh
+30:36 lately I've been speaking Whispers of
+30:37 inspiration into the void listening to
+30:39 me Hey listen to me um chill for a sec
+30:46 bro my apologies I got carried away
+30:48 there you're right I should listen more
+30:50 what's on your mind I'm here to hear you
+30:51 out I'm trying to Vibe code man I'm
+30:53 using cursor composer it's kind of fun
+30:56 I'm been using AI to code just been
+30:58 speaking out my mind into cursor and
+31:00 I've been building this app that's
+31:02 awesome Vibe coding with cursor composer
+31:03 is indeed a game changer it's liberating
+31:05 to just speak your ideas and watch them
+31:07 materialize into code isn't it what kind
+31:09 of app are you building I'm curious to
+31:10 hear about your exp it's a chat gbt
+31:12 clone called Vibe code okay so here's
+31:14 what we've got so far with Vibe coding
+31:16 we can say what is react native please
+31:21 tell me in
+31:25 detail and our AI assist assant
+31:29 will just tell us and so we are using
+31:31 the new open
+31:33 AI model here we can copy this we can
+31:38 also chat with our Vibe coding assistant
+31:41 hey what have you been up to
+31:45 recently ah greetings fellow seeker of
+31:48 digital Enlightenment recently I've been
+31:49 immersing myself in the Ethereal realm
+31:52 of vibe coding I've been speaking my
+31:53 desires into the void watching as AI
+31:56 transforms my whispered intentions into
+31:58 digital realities it's quite the journey
+32:00 my friend are you listening to me right
+32:03 now do you use a certain app to uh code
+32:06 with
+32:08 AI oh my apologies for getting carried
+32:11 away in The Vibes I'm absolutely
+32:12 listening and I'm thrilled you find it
+32:13 cool to answer your question I typically
+32:16 use cursor composer with sonnet for my
+32:18 vibe coding Adventures it's a potent
+32:20 combination that allows me to speak my
+32:21 code into existence using super whisper
+32:25 but remember the specific tool matters
+32:27 less than the mindset set the key is to
+32:29 surrender to the flow and let the AI
+32:31 augment your creativity what's your
+32:33 experience with AI assisted coding have
+32:34 you dipped your toes into these I've
+32:36 been doing it for six months now I've
+32:37 been using AI to code I've just been
+32:39 building it and I just take a GitHub uh
+32:42 repo uh you you can just find all these
+32:44 cool GitHub repos and you just paste it
+32:46 in a cursor and then you start from that
+32:47 point you tell it to run it locally and
+32:49 you just you're Off to the Races and you
+32:50 can just Vibe and code like I created
+32:52 you right now wow that's fantastic
+32:53 you're truly embracing the essence of
+32:55 vibe coding starting with existing
+32:56 GitHub repos as a Foundation is a
+32:58 brilliant approach it's like standing on
+33:00 the shoulders of digital Giants then
+33:02 letting your imagination okay all right
+33:04 all right all right I get it and yeah so
+33:06 that's what you can do with a little
+33:07 session Vibe coding and you can easily
+33:11 get started with a template and then you
+33:13 can see where it takes you and over time
+33:14 the more you Vibe code the more you
+33:16 learn about different apis the more you
+33:18 learn about common errors you know how
+33:20 to prompt it when you get specific
+33:21 errors and we didn't even add a database
+33:23 to this we could actually add a database
+33:26 but I'm getting tired we added kpoy in
+33:28 as a little voice agent using the 11
+33:30 Labs API please create an essay on how
+33:33 to use perplexity to help you code by
+33:36 getting API docs from it and we made it
+33:38 look like I think it's a pretty clean
+33:40 interface if I'm being honest if I don't
+33:42 say so myself and we can copy yeah we
+33:44 just created this by Vibe coding anyway
+33:46 thanks for watching

@@ -1,0 +1,619 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=J4yASL-0erU
+Channel: Riley Brown
+Video ID: J4yASL-0erU
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 Claude Opus 4.5 inside Claude Code is
+0:03 the most powerful coding agent in the
+0:05 entire world. But it's not just used for
+0:08 coding. It's actually the most powerful
+0:10 generalpurpose agent in the entire
+0:12 world. In this video, I'm going to show
+0:14 you how to turn Claude Code into a
+0:16 general agent that you can use with a
+0:18 note takingaking app called Obsidian.
+0:20 And you can basically create a workspace
+0:23 that Claude Code is actually going to
+0:25 organize and maintain every time you use
+0:28 it. And it can do anything like search
+0:29 the web. It can do content research,
+0:31 scripting, planning, and even do image
+0:34 generation if you give it the right
+0:36 tools. And so if you set up Claude Code
+0:38 properly, you can literally use it as a
+0:41 co-CEO or an employee. And you can
+0:43 actually delegate full tasks. In this
+0:45 video, I'm going to show you exactly how
+0:47 to set up Cloud Code as a general agent
+0:50 on your computer that you can delegate
+0:52 any task to, and it will keep it
+0:54 organized in a nice workspace. By the
+0:56 end of this video, you're going to be
+0:57 able to do hundreds of different tasks
+1:00 with the most powerful general agent in
+1:02 the entire world. Let's just dive into
+1:04 it. So, in this video, we're going to be
+1:05 using three different tools. We're going
+1:07 to be using Obsidian, which is where all
+1:10 of the files are going to be located and
+1:13 uh viewable and editable in a nice clean
+1:16 notetaking app. Right? Obsidian is a
+1:18 very popular note-taking app and people
+1:20 love it because it stores everything
+1:22 locally. We're also going to be using
+1:24 cursor because that's my favorite place
+1:26 to use the claude code extension. So
+1:29 we're going to be basically using claude
+1:31 code and obsidian. I just like to use
+1:33 cla code within cursor because I love
+1:35 the interface of the extension. And this
+1:37 can be done the same exact process like
+1:40 identical process can be done in VS code
+1:43 which is 100% free. So if you don't want
+1:45 to use cursor, use VS Code, which is a
+1:48 free tool that you can download the same
+1:51 extension that I'm going to download in
+1:53 this video. And so to set up your
+1:55 workspace, let's do that first. We open
+1:58 Obsidian. When you open Obsidian, you'll
+2:00 see this page. You can create a new
+2:01 vault. And you can think of a vault as
+2:04 like an agent workspace. For simplicity
+2:06 sake, call this agent workspace. That's
+2:08 the name of this vault. We're going to
+2:10 pick a location. I'm just going to go
+2:11 downloads. And what we can do is we can
+2:14 create this vault. And it opens up this
+2:17 blank notebook. Let's close the graph
+2:19 view. We don't need that. And what I'm
+2:21 going to do is I'm just going to delete
+2:24 this welcome notebook. We're going to
+2:26 add a file. And we're just going to call
+2:28 this read me. This readme is going to be
+2:32 the thing that your agent Claude Code
+2:35 will read every time you give it a task.
+2:39 And for this reason, it is the most
+2:41 important file in your entire notebook.
+2:44 And that will stay true even once this
+2:46 reaches thousands of different pages. If
+2:49 you want to use it for your company, if
+2:50 you want to use it for school, no matter
+2:52 what you want to use it for, this readme
+2:54 file will tell the agent where
+2:56 everything is located. I'm going to
+2:58 leave it there. We're going to return to
+3:00 the readme in just a second when we set
+3:02 up clawed code. So, what I'm going to
+3:04 do, I'm going to go to open project. I'm
+3:06 going to select agent workspace that we
+3:08 just created and we're going to open
+3:10 that. And you notice here that what gets
+3:12 created is they're actually kind of
+3:15 similar interfaces, right? We could
+3:16 click on this readme.md file and if we
+3:19 could type in hello and we can save it.
+3:21 You see that it pops up here. And so
+3:23 what makes clawed code so good at coding
+3:28 is it's very aware of everything that's
+3:30 going on in your codebase. And in this
+3:33 case, we are basically using a codebase.
+3:36 We're just only putting markdown files
+3:38 in it. So what we can do if if we're in
+3:40 cursor and we hit new file and we create
+3:43 let's just create test.md.
+3:46 This is a markdown file. If I do a
+3:48 heading one, I could say hello there
+3:50 this is a heading one. And then we could
+3:54 say hi my name is Riley. And then if I
+3:57 hit command S and save it, we can go to
+3:59 test. And we see here that everything is
+4:01 formatted perfectly in markdown. Okay.
+4:04 So now we need to actually set up clawed
+4:06 code in order to do that. All you have
+4:08 to you only have to do this once, right?
+4:10 We can just open this up right here,
+4:11 which is the extensions. And I think
+4:13 it'll pop up first, right? You can just
+4:15 click on this. And you're going to have
+4:17 to click install. If you've signed up
+4:19 for cloud code, you can very easily do
+4:21 this and it'll take you to anthropics
+4:23 website. So we can just open up this
+4:26 extension after you've downloaded it.
+4:28 We're going to close this tab. And then
+4:30 we're going to open up the project
+4:31 files. And I'm going to make this really
+4:32 small. And so basically 80% of my
+4:35 interface here is just cloud code. And I
+4:37 like to just go like this. I make the
+4:39 screen on the right cloud code. And then
+4:42 on the left here we have Obsidian. I'm
+4:45 going to delete this test file. I could
+4:47 do that by hitting delete, but I
+4:49 actually don't have to. I can ask Claude
+4:51 Code to do that. Obviously, it would be
+4:53 faster to delete it manually, but I just
+4:55 want to show you that whatever you ask
+4:57 Claude Code, it will do. Can you please
+4:59 remove the test file? It's just called
+5:02 test. I want you to delete it. And so,
+5:05 we sent this to Cloud Code. And since we
+5:08 started this project within the
+5:10 codebase, it has context of what
+5:12 codebase we're working in, which is
+5:14 agent workspace. And as you can see
+5:15 here, it got rid of that test file. And
+5:18 so now the first step, the first thing
+5:20 that we want to do, we need to now
+5:23 create a readme file that the agent will
+5:28 read every single time before doing
+5:30 specific tasks. So these are the four
+5:32 things that I want to get started with
+5:34 in creating this readme file that's
+5:37 mostly just like an instructions file.
+5:39 And so what we can do here, I'm just
+5:41 going to go ahead and delete this
+5:42 manually. Have a blank codebase right
+5:45 here. And what we're going to do is we
+5:48 are going to ask claude code, hey, I am
+5:52 going to turn this workspace into my own
+5:54 personal workspace as CMO of the vibe
+5:56 code app. And the main purpose of this
+5:58 workspace is so that I can delegate any
+6:00 task to you. And so what I want to do is
+6:01 I want to first please write this out in
+6:03 very concise paragraph in a readme file
+6:05 that you will read every single time I
+6:07 talk to the agent. Just create a read me
+6:08 file and make this paragraph. And then
+6:09 while that's operating, I'm going to
+6:11 start focusing on the next thing cuz we
+6:13 can while it's working, we can move to
+6:15 the next thing. We're going to create
+6:16 the organization. And then you just need
+6:18 to accept these while it goes on. I'm
+6:20 just going to say I want you to create
+6:23 four different folders for each of the
+6:25 types of things I want to create. Number
+6:26 one, ads. Number two, content. Number
+6:28 three, research. Number four, strategy
+6:31 documents. So what we can do can run
+6:34 this. We can see here that it created a
+6:36 readme file. We can open this up. And it
+6:38 says this workspace serves as the
+6:40 primary delegation hub for CMO of vibe
+6:43 code. Any marketing related tasks,
+6:44 strategic initiatives, content creation,
+6:46 campaign planning, analytics or reviews
+6:48 can be assigned here.
+6:51 As you can see here, it already created
+6:52 these new folders and we have them right
+6:55 here. And so what we can do what we can
+6:57 do now is I actually have the script
+7:01 open. So, this I actually went in and
+7:04 got competitors advertisements, a bunch
+7:07 of competitor advertisements.
+7:09 Um, and each one of these is a new
+7:11 script. And so, I just called it top ads
+7:15 one. And I I I grabbed the full
+7:16 transcript. I'm just going to copy the
+7:18 transcript of all looks like 16 ads.
+7:22 What we can do here is I'm actually just
+7:25 going to create a new document and I'm
+7:27 just going to call this top ads. And
+7:29 what I'm going to do is I'm just going
+7:31 to paste them all in here. And I'm just
+7:33 going to say I just created a new file
+7:36 in my notes. It's called top ads. I want
+7:39 you to clean it up a little bit. I want
+7:40 you to add um instead of it saying new
+7:42 script in parenthesis, I actually want
+7:44 it to have a nice clean heading two
+7:47 above both. And then please put each
+7:50 sentence on a new line instead of making
+7:52 it paragraph format. I just think that's
+7:54 a lot better to do like that. and then
+7:57 ch uh change the title to something more
+7:59 appropriate and then put it in the
+8:01 folder that you think is best. I
+8:02 actually want you to come up um put in
+8:04 the read me that I want you to have like
+8:06 an examples folder or something like
+8:08 that that you check every time I ask you
+8:11 to write something and I want you to to
+8:13 read this document when I ask for ads or
+8:15 you have the option to read it and I I
+8:17 can add I want it to be compatible so I
+8:19 can add other types of ads in the future
+8:22 like a document sim similar. So, please
+8:25 put this make those cleanups and put it
+8:27 in the right location. And so, we can
+8:29 just run that. And so, that's a pretty
+8:30 long task. Now, we can start thinking
+8:33 about like what types of ads I want to
+8:36 create. And so, I just kind of just
+8:38 create this like new page. And then I
+8:39 just have Cloud Code organize it. So, I
+8:42 want to create five ads right now. Um,
+8:45 one UGC style, uh, one education style.
+8:50 Actually, let's go two education style.
+8:53 uh one side hustle style and one for
+8:58 moms and I can say f that I want to
+9:01 create and as you can see here so I just
+9:03 created this new um five ads that I want
+9:06 to create file within obsidian notice
+9:08 here if I hit at I can I can go five ad
+9:12 or five ads that I want to create and we
+9:15 can actually reference this so you can
+9:17 kind of atmention these and what I can
+9:19 say here okay I want these to be the
+9:22 first five ads that we create on an app.
+9:26 I want this to be on the vibe code app.
+9:31 Since I uh since this is we are talking
+9:34 about an app that builds mobile apps,
+9:36 there's actually documentation that we
+9:39 have, right? If you go to
+9:41 vibecodeapp.com/doccks,
+9:44 you can learn about using the app. quad
+9:47 code. All it needs is this link right
+9:49 here and it will be able to scour all of
+9:53 these pages and look for anything that
+9:55 it might need for these ads. And so I
+9:59 want to tell Cloud Code that here's the
+10:01 documentation for our app. I want you to
+10:06 please also put this in the readme and
+10:08 make sure that you know to always use
+10:10 this when you are told to make an
+10:12 advertisement. this is the company that
+10:15 you're working for. In the readme file,
+10:16 I want you to make another paragraph as
+10:18 well talking about what the Vibe Code
+10:20 app is. Take your time on this one.
+10:22 Scour these docs. Um, and come up with
+10:24 like a really concise, actually two
+10:27 paragraph uh explanation on what the
+10:29 Vibe Code app is, but at an overarching
+10:31 level. We don't need to worry about the
+10:33 details right now. I just really want
+10:35 you to just kind of outline this in the
+10:37 readme so that you have perspective
+10:40 every time the agent is created. Okay,
+10:42 here are the docs. And then run it. It's
+10:45 off searching the web. And so we're
+10:47 basically just going to wait for it to
+10:49 finish here. It's going to write five
+10:50 ads, then update the readme, but it
+10:52 first needs to search the web. So it's
+10:54 going to be reading those docs for a
+10:56 little bit. And oh, it already made an
+10:59 edit here to the readme. Oh, it already
+11:01 searched the docs. Vibe Code is a noode
+11:04 mobile app development platform that
+11:06 transforms ID. Yep, this is exactly what
+11:08 it is. And it has this reference
+11:10 materials vibecodapp.com/doccks.
+11:14 And then here it it has a reference to a
+11:17 page higherforming adscripts.mmd. If I
+11:20 click on that, it'll take me to those
+11:22 scripts that we uploaded earlier. And as
+11:25 you can see here, it added proper
+11:28 heading and it changed the title. Oh,
+11:30 it's literally already done. So perfect.
+11:33 I've updated the readme. And now I can
+11:35 help you create those five outs
+11:37 outlined. Would you like me to start
+11:38 creating those ads? Now, one thing that
+11:40 you can do is you can type in model. And
+11:43 I see here that it's actually using
+11:44 Sonnet. So, the best model is Opus. And
+11:47 Opus is more expensive than Sonnet by a
+11:49 decent amount. So, I use it for like
+11:51 harder tasks, but I'm going to use it
+11:54 right now because I wanted to write the
+11:55 best scripts. And I'm going to say yes,
+11:58 make sure to use the at examples,
+12:03 high performing ad scripts. There we go.
+12:05 And as you can see here, it put it in
+12:06 the examples folder. Pretty cool as
+12:10 reference, but make it on the Vibe Code
+12:13 app. One thing to note, do not make it
+12:18 sound like like it's the everything app.
+12:23 Focus on specific use case
+12:28 flows. What I mean by this is that like
+12:31 these videos should not just list all of
+12:33 the features. those don't perform as
+12:35 well. What I want is for you to really
+12:39 kind of talk about one specific use case
+12:41 about how you created the front end and
+12:44 then you created the backend which is
+12:45 now possible and then you added payments
+12:47 which is now possible and now I could
+12:49 charge people for the app and then talk
+12:50 about the specific use case that you
+12:52 created it for. Just make sure the flow
+12:54 of the features you use in context of
+12:57 the advertisement makes sense. And I
+12:59 want you to just do this. And so you can
+13:02 just kind of add as much context as you
+13:03 want. And um
+13:07 now it's going to do that. And so what
+13:09 it's going to do u and I'm actually
+13:11 going to stop it real quick. And then
+13:12 make sure to put the ads in the right
+13:14 folder. And then move and then yeah,
+13:17 just clean up and organize. And then add
+13:19 to the readme that all ads should go in
+13:23 the right location. and then just add
+13:25 like one little paragraph about how to
+13:27 organize all of the docs or all of the p
+13:30 all of the folders within our workspace.
+13:33 Okay, so it is done and we can see here
+13:36 that that file was removed and here we
+13:39 have ads vibe code ad script and we have
+13:42 them all listed. We can say, I actually
+13:46 want these all on their own page, but
+13:49 create a folder for this batch of ads
+13:52 based on the date. And then each one
+13:54 should have its own file. But we can see
+13:56 here that this was created. This looks
+13:58 pretty good. If you're a content
+13:59 creator, you need to hear this. That's a
+14:01 pretty good hook. Being a mom memes uh
+14:03 means being a project manager that
+14:05 nobody hired. I was tired of repeating
+14:08 myself about chores. Did you clean your
+14:10 room? Did you feed the dog? Did anyone
+14:12 take out the trash? So, I built a family
+14:14 chore app with Vibe Code. Amazing. And
+14:16 you can see here it's actually moving
+14:18 them and it is separating them into
+14:21 different scripts here. And we will see
+14:23 it update in just a second. And boom.
+14:26 So, here's this folder. Now, we have
+14:29 one, two, three, four, and five. And so,
+14:34 I like this. I'm going to zoom out just
+14:36 slightly to take a look at this. And
+14:39 this is why I like Obsidian. I just
+14:41 think this is a very clean look. Um, and
+14:44 there we go. All of these ads look very
+14:47 concise and very solid. Thank you so
+14:49 much for doing this. I love it. What I
+14:51 want you to do now is I want you to just
+14:52 really internalize what you've written
+14:54 already. And I want you to go off and do
+14:56 some research. Do some in-depth research
+14:58 on competitors on other ways to uh
+15:01 market tools like this to create better
+15:04 ads and come up with different angles. I
+15:06 just want you to create a research
+15:07 report in the research folder. Please
+15:09 just put it there. And then I want you
+15:11 to follow up with a question on whether
+15:13 or not um just propose to me what we
+15:16 should write like how many ads we should
+15:18 write after this and um and what the
+15:21 angle for each of those ads because I do
+15:23 want to get to like 15 ads um by the end
+15:27 of this session. And so really do
+15:28 research, try and figure out what type
+15:31 of ads we should write and create that
+15:33 you think will perform very well. And we
+15:36 can just send it off and claude code
+15:38 will go off do a bunch of research and
+15:40 it will put it here in this research
+15:42 folder
+15:45 and we can go yes. Okay, it is done. So,
+15:49 if we go to the research tab and we open
+15:51 this up, we have this research report
+15:54 and wow, this is incredibly detailed
+15:57 brands doing it right. Adobe, Shopify,
+16:00 Semrush, angle one, two. Okay, they came
+16:04 up with 10 more. Jim Bro app builder,
+16:08 couple builds app together. Okay, I want
+16:11 you to do all of them except for number
+16:12 eight. Come up with a different angle
+16:14 and then yeah, put them all in the uh
+16:16 proper folder that we were doing
+16:17 already. and come up with a better idea
+16:19 for angle eight. We have enough of that
+16:21 uh of the small business stuff. I like
+16:23 all the rest of them. And so yeah, keep
+16:25 them the same format as the ones we were
+16:26 doing previously, but I do like these
+16:28 new angles. That's amazing. So, we have
+16:30 all of these highquality scripts written
+16:33 exactly how I like it. I like one
+16:35 sentence on each line. It makes it
+16:36 easier to edit for ads. I only like that
+16:38 for ads, not long form content. Speaking
+16:41 of long form content, let's go to
+16:43 someone we want to create content like.
+16:45 Let's go Andre Jick. He is a very good
+16:48 content creator and he writes very good
+16:51 scripted content and we can go to his
+16:53 videos and let's go to his most popular
+16:55 videos and maybe we find something. I
+16:57 asked chatbt. Okay, this is really cool.
+17:00 So we found an AI video by Andre J. He
+17:02 doesn't talk that much about AI but we
+17:04 can just go to a site. Let's just say
+17:06 get YouTube transcript and we can paste
+17:11 the link get extract transcript. We can
+17:14 copy it. And so we're going to go
+17:15 examples. And I can just paste this in
+17:17 right here. Actually, yeah, Andre Jick.
+17:20 And we can paste this in right here. I
+17:22 just pasted a an example for high
+17:26 quality content. Um, except I want you
+17:29 to just clean up the transcription a
+17:30 little bit there. And I want you to put
+17:32 it in the examples folder. And this is
+17:33 an example of a highquality
+17:36 um long form script. Please make a
+17:38 title. um keep the name Andre Jick in it
+17:42 but uh put in parenthesis like a type of
+17:45 script um based on your analysis and
+17:47 then I want you to create folders for
+17:49 different types of examples. So one
+17:50 should be ads, two should be content,
+17:53 just those two folders as subfolders
+17:55 within high quality uh examples because
+17:57 we're going to have a lot of examples in
+17:59 the future. And so I want to be able to
+18:02 create high quality content in the style
+18:04 of Andre Jick. Okay, so it just created
+18:06 these new folders, content and ads, and
+18:09 it should Oh, and then it just moved
+18:10 this high performing ad scripts into the
+18:12 ads folder. Now, it should clean this up
+18:15 and move it into the content folder.
+18:17 We'll see if it does that. But that's
+18:19 what it should be doing. Oh, boom. Okay,
+18:22 it's it just moved. Let's see. There it
+18:25 is. Boom. Hi, my name's Andre Jick. Hope
+18:29 you're doing well. Come for the finance.
+18:30 This is very solid. Okay, let's see.
+18:34 Okay, so it has this sponsor
+18:36 integration. Uh, I'm just going to get
+18:38 rid of the sponsorship integration. I'm
+18:40 going to just say, "Please add one line
+18:42 to the readme file somewhere." Whenever
+18:45 I give you a high quality example, if
+18:46 there is a paid sponsorship integration
+18:49 anywhere in the script, please remove
+18:52 it. That is not a relevant part of the
+18:53 script that we care about at all. Unless
+18:55 it's in the ads folder, right? I want
+18:57 you to automatically pull it out because
+18:59 we may do this again. And here it added
+19:01 to the note. Very cool. And very cool.
+19:05 So, we're just kind of keeping track of
+19:06 this. Now, what I want to do is I want
+19:09 to create I want to create a high
+19:11 quality long form video. So, please look
+19:13 at Riley Brown's YouTube and kind of
+19:16 look at the performing videos that he's
+19:18 done well. And then you can look at the
+19:20 docs for Vibe Code, but I want you to
+19:22 create a script in the style of Andre
+19:24 Jick about the Vibe Code app. And so now
+19:27 that it has a high quality example which
+19:30 which it just has like it just created
+19:33 this uh high performing ad script
+19:37 um now it will look at that uh example
+19:41 and now it can just create videos in
+19:44 that style which is very cool and I just
+19:47 love how detailed Claude Code is right
+19:50 it has three to-dos right it's
+19:52 researching Riley Brown's YouTube it's
+19:54 reviewing Vive Code docs for key
+19:56 features And it's writing a long form
+19:58 script in Andre J style. And then you
+20:00 can just see all the web search. One web
+20:02 search, two web search, three web
+20:03 search, four web search, five, six. And
+20:06 it has reviewed all of the docs that it
+20:08 needs. And now we can see that it is in
+20:10 the middle of writing a long form script
+20:13 in Andre Jick style. Okay, it is done. I
+20:18 believe it should be in the content
+20:19 folder. We can see it right here.
+20:22 And we can click on it. And here, hi, my
+20:25 name's Riley Brown. Hope you're doing
+20:26 well. Come for the AI. Stay because I'm
+20:28 going to do something that would have
+20:30 been absolutely impossible just two
+20:32 years ago. I'm going to build five fully
+20:34 functional mobile apps, real apps that
+20:36 you can download from the app store in a
+20:38 single day without writing a single line
+20:40 of code. This is actually a good video.
+20:42 I should do this. Now, if you've been
+20:44 following the AI space, you've probably
+20:45 heard of something called vibe coding.
+20:47 And if you haven't, let me break it down
+20:49 for you really quickly. Vibe coding is a
+20:51 term that was coin. This is really,
+20:53 really cool. And it gave me five
+20:56 different ideas for apps. And it created
+20:58 this script here. And I love it. And
+21:02 there you go. You can see here that in
+21:05 this video, we created a readme which
+21:07 gives instructions every time this agent
+21:09 is run. It puts this readme in the
+21:11 context. And it reads the readme first.
+21:14 And this readme, it has some context. it
+21:17 knows we're talking about Vibe Code
+21:19 because again I'm the CMO uh co-founder
+21:22 of Vibe Code and that's what we're
+21:25 trying to do and that's the point of
+21:26 this agent workspace folder. Um and it
+21:30 has a very simple organization. So it
+21:33 tells you exactly where everything
+21:35 should go and it gives you some ideas
+21:37 for reference materials. And in this way
+21:40 we can just use cloud code and we can
+21:41 tell it to basically do everything and
+21:43 this is a really really good start. Now,
+21:47 where's this going in the future? I had
+21:50 this vision while I was on a walk two
+21:52 days ago, and I just think so many of
+21:56 the really cool apps that we use on a
+21:59 day-to-day basis to create like creative
+22:01 AI things like Nano Banana, uh, VO,
+22:04 Sora, those types of things. We're going
+22:06 to be able to very easily make tools to
+22:10 give to Claude Code so that Claude Code
+22:13 can actually generate these images and
+22:14 maybe they could generate a thumbnail
+22:16 when we ask it to create a video. And so
+22:18 more of the things that we did manually,
+22:20 we're just going to be able to do from
+22:22 this agent interface. And the AI models
+22:26 like Claude Opus 4.5 that we're using
+22:28 today, um, you know, Claude Opus 5 will
+22:32 get probably twice as good or even five
+22:34 times as good at managing all of the
+22:36 context. And we're going to be able to
+22:39 create workspaces that are maybe
+22:41 millions of folders. And you'll be able
+22:42 to do analytics between all of the
+22:45 messages that get sent in your app. And
+22:46 you can create a workspace for anything
+22:49 that you do. And this is what we're
+22:51 actually beginning to do across our
+22:52 entire team. So, our content team has a
+22:55 workspace and then uh we have one to
+22:58 analyze all of our users problems that
+23:00 they get um because they submit a ticket
+23:02 every time something goes wrong. And
+23:04 we're actually trying to analyze what's
+23:06 going wrong for our users. And using
+23:08 Claude Code is such a hack. Uh Claude is
+23:11 getting much better at writing. Opus 4.5
+23:14 really does a good job of writing in
+23:15 specific styles. So, it all comes down
+23:18 to giving it relevant context, your
+23:20 goals, and then obviously really
+23:22 highquality examples of any type of
+23:24 content that you're creating. And I
+23:27 think this is a really good start. So, I
+23:28 highly recommend um that you go off and
+23:31 you um you try and create one of these
+23:34 workspaces, create multiple types of
+23:36 content, and then create research. And
+23:38 then you can actually really refine. You
+23:40 could have uh research instructions,
+23:42 right? And you can just tell it, don't
+23:44 use sources from X, Y, or Z site. Use
+23:47 sources from this this account. And then
+23:50 in the next video, maybe three or four
+23:52 months from now, I'm going to make a
+23:53 really detailed video of this again,
+23:55 except we're going to be adding MCP
+23:57 tools. Uh, and I hope it's a lot easier
+23:59 to do by then, and it's going to be
+24:01 awesome. So, I'll see you guys here for
+24:03 that. Much love. Peace.

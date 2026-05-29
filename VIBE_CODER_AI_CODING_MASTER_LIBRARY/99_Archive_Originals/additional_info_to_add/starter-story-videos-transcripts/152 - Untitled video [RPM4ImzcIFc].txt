@@ -1,0 +1,683 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=RPM4ImzcIFc
+Channel: Starter Story
+Video ID: RPM4ImzcIFc
+Transcript language: English auto-generated
+Downloaded at: 2026-05-25T20:45:40.983Z
+
+0:00 Here is everything I know about
+0:01 marketing in open source.
+0:03 >> This is Nevo. His app makes $17,000 a
+0:06 month thanks to two words, open source.
+0:10 >> Open source is a way to introduce your
+0:12 project to millions of developers.
+0:14 >> While you may be familiar with the
+0:15 concept of open source software, what is
+0:17 not talked about enough is how building
+0:19 an open source can actually get you
+0:22 access to thousands of users and help
+0:24 your software stand out in a sea of
+0:26 competition. Thanks to open source, my
+0:28 app has been downloaded 5 million times.
+0:31 >> I asked Nevo to come onto the channel
+0:32 and explain all of this to me along with
+0:35 his full open source playbook, including
+0:38 the one secret to actually crushing it
+0:40 in open source, his step-by-step
+0:42 playbook on exactly how to have an epic
+0:45 open source launch, and how he would
+0:47 start over building [music] anything in
+0:49 open source in 2026. All right, let's
+0:52 get into it. I'm Pat Walls, and this is
+0:55 Starter Story.
+0:58 Real quick, Nevo is about to break down
+1:00 how to make it in open source. And look,
+1:02 this episode is not about building, it's
+1:04 about distribution, which [music] if you
+1:06 watch this channel, this is the story we
+1:08 hear over and over and over. This is
+1:11 what it actually takes to build a
+1:12 successful business. If distribution is
+1:15 something that you're serious about,
+1:16 well, I put together a quick resource
+1:18 for you called the niche communities
+1:20 playbook. Inside, we've got tons of data
+1:22 and examples on how to promote your app
+1:25 on places like Reddit, Facebook groups,
+1:27 [music] X, Open Source, and dozens of
+1:29 other marketing channels that founders
+1:31 are actually using to grow their
+1:32 business today. If you want it, just go
+1:34 ahead and grab it for free right down
+1:35 there below in the description. But
+1:37 otherwise, let's get into the interview.
+1:40 All right, Nevo, welcome to the channel.
+1:41 Tell me about who you are, what you
+1:43 built, and what's your story. Hi, my
+1:45 name is Neo and I build the biggest
+1:47 open-source social media scheduling tool
+1:49 that allows you to schedule your post
+1:50 for 25 social media platforms with a lot
+1:53 of help of AI. Post is currently making
+1:56 $17K per month. One of the reasons for
+1:58 Posti success is being open source and I
+2:01 think this is a great opportunity for
+2:03 any builder that trying to build an app
+2:05 in 2026 and I'm super excited to tell
+2:08 you about it and tell you how you can
+2:11 get huge growth when you go open source.
+2:13 Okay, open source. I'm excited to talk
+2:15 about it today. Before we get into all
+2:17 that, can you just show me what you
+2:19 build, what's the business model, and
+2:21 then maybe pull up some of the revenue
+2:23 dashboards so we can show that this is
+2:24 this is legit.
+2:25 >> So, we are Posties, open- source social
+2:27 media scheduling tool. This is our main
+2:29 landing page. We support the biggest
+2:30 amount of social media uh channels, 25.
+2:33 So, Posties is a is operating on a SAS
+2:35 module. We have here a few packages,
+2:38 standard team, pro and ultimate, very
+2:40 similar to other social media scheduling
+2:42 tools. depends on the tier that you
+2:44 take. You get different amount of
+2:45 channels and different features. We want
+2:48 uh people to use the standard package,
+2:50 but we also want to upsell people to the
+2:52 other packages based on features and not
+2:54 only based on channels. So, our revenue,
+2:56 we're currently on 17K MR. We have 472
+3:00 subscribers. We have a very high churn
+3:02 that we're trying to drop right now on
+3:04 19%. We're getting 3,830
+3:07 trials since August 20 uh 25. trial to
+3:11 conversion rate 21%. So our open source
+3:14 is the same as our SAS offering.
+3:17 Developers can come and just self host
+3:19 this on their machine and they will need
+3:21 to do all the hard work. They will need
+3:22 to go approve every provider with any
+3:25 social media and they can just use it on
+3:27 their computer. There is no difference
+3:28 and there is different open- source
+3:30 modules between companies but for us
+3:32 there is no difference between the open
+3:34 source and the cloud offering. You can
+3:36 self-host posties. We put a lot of docs
+3:38 on how to self-host it. Opus is a really
+3:40 great way to penetrate into mess markets
+3:43 because it's just a kind of like a blue
+3:45 ocean inside all these flooded millions
+3:47 of companies because postis for example
+3:49 is a social media scheduling tool. We
+3:51 have tons of alternative if you look for
+3:53 social media scheduling tool like
+3:55 thousands still we are managing to grow
+3:57 our revenue and put our face out there.
+3:59 It's just another [music] way to
+4:01 penetrate the market be transparent and
+4:04 get fast feedback. Okay, let's get into
+4:06 a little bit more about open source and
+4:08 your background. How do you get into
+4:10 this open source space and eventually
+4:12 build an app that's doing 17,000 MR? I
+4:15 was not an open-source person overall
+4:18 just a developer for many many many
+4:20 years but I was working in a co-working
+4:22 space and [music] I met some few cool
+4:25 people that building uh an open-source
+4:28 uh infrastructure [music] tool for
+4:29 sending notifications and I joined a
+4:31 company and I was in this company for 2
+4:34 years we go from zero to 32,000 stars
+4:38 and I've never seen growth like that
+4:40 before in open source in my life. Right
+4:42 after that I've seen more and more
+4:44 companies going open source. So in the
+4:46 second year I started to do a lot of
+4:48 consulting very nichy consulting because
+4:50 I was the only person talking about that
+4:52 and I worked for that for around a year
+4:55 and doing so many consultation just
+4:58 freaked me out and stress from doing so
+5:00 many meeting and talking to so many
+5:01 people and I wanted to go back to what I
+5:03 like the most building products and this
+5:05 is when I started to build hosties open
+5:08 source of course [music] and everything
+5:10 else I've built so far is open source
+5:13 >> neo's story is pretty unique [music]
+5:15 right? He grew his open source project
+5:16 to $17,000 a month purely through
+5:19 marketing in open source communities.
+5:21 And if you know anything about open
+5:22 source communities is that they love
+5:25 transparency. They'll grill you about
+5:27 security and compliance. And they might
+5:29 even ask you questions about SOCK 2
+5:31 compliance and ISO 2701, terms you might
+5:34 not even be familiar with. And when you
+5:36 don't have answers to those questions,
+5:38 suddenly you're spending days filling
+5:40 out forms instead of building your
+5:41 product. Well, that's where Delve comes
+5:44 in. Delve is the first AI native
+5:46 compliance platform [music]
+5:47 built specifically for fast growing
+5:50 startups. Their agents help you handle
+5:51 the repetitive stuff, monitoring your
+5:53 tech stack for security gaps and
+5:55 autofilling security questionnaires so
+5:57 you don't have to. Thousands of fast
+5:59 growing startups trust Delve to get
+6:01 compliant fast. Delve is offering an
+6:03 exclusive $1,000 discount just for
+6:06 Starter Story listeners and you [music]
+6:08 won't find this deal anywhere else. So,
+6:10 if you're ready to get compliant without
+6:11 the headache, check out Delve in the
+6:13 link in the description or go to
+6:15 delve.co/starter
+6:17 story. Thanks to Delve for sponsoring
+6:19 today's episode. Let's get back to the
+6:21 story. All right, so you're kind of
+6:23 going deep on this idea of open source
+6:26 and marketing and the combination of the
+6:27 two, but I do want to take a step back
+6:29 and just talk about the opportunity of
+6:31 open source right here. You saw this
+6:34 sort of little opening in the crazy
+6:36 world of software. There's so many
+6:38 people building so many different
+6:39 things. Tell me about why you think open
+6:42 source is such a great place to be
+6:44 building right now in 2026.
+6:46 >> I think today everybody can literally
+6:49 build almost anything. And I think this
+6:51 is why this should be the year of open
+6:53 source compared to previous years
+6:54 because everything that you can build
+6:56 somebody else can build. So why not go
+6:58 open source? The market is already
+7:00 flooded. There's already so many
+7:02 competitors there like tons of SAS going
+7:04 out every day compared to a few years
+7:06 ago. You need to find some
+7:08 differentiation with what you build.
+7:10 [music] So open source is a great way to
+7:12 introduce your project to a million of
+7:13 developers. Developers are not buying
+7:15 persona and they will probably not pay
+7:17 you. So don't try to find some elaborate
+7:20 way to make them to pay you. You just
+7:22 need to make like a very good docs and
+7:24 make sure they know how to use your SAS.
+7:26 You can look at this as kind of like a
+7:28 free tier to your SAS. Just you don't
+7:30 pay for any usage for it because people
+7:32 just deploy it on their own computer.
+7:34 they just use it maybe with their
+7:35 customers and so on. So developer will
+7:37 not pay you but here is what they will
+7:39 do for you. They will help to build your
+7:41 brand. They will talk to a lot of
+7:43 people. Maybe they are working in a
+7:44 company where there's already other
+7:46 people that are not developers and they
+7:48 are looking for a solution right now.
+7:49 Okay, I know this thing. So word of
+7:51 mouth is like a really great channels.
+7:53 Tons of user generated content on social
+7:55 media. So every time I go and I search
+7:57 for posties on social media every day I
+7:59 see some post about some developer
+8:01 trying to sell posties. you get tons of
+8:03 developer actually you know contributing
+8:05 to your product so I can't say that it's
+8:08 making you more productive when people
+8:09 contribute to your product but it gives
+8:11 you tons of feedback and let you to find
+8:14 bags much faster iterate on them and
+8:16 find new features because they are
+8:17 actually part of your community they are
+8:19 like advocate of your product except for
+8:21 that you can start to see a lot of blog
+8:23 post around what you are building so I
+8:26 see tons of SEO just from people writing
+8:28 about how to use posties or putting a
+8:31 review about postis somewhere. There is
+8:32 also tons of options to list your
+8:35 product in different directory that have
+8:37 a very high domain authority, domain
+8:40 ranking for SEO. It also increase your
+8:42 credibility in general as uh from
+8:44 non-developers. They come they see there
+8:46 is a GitHub there was contribution not
+8:49 so long ago. There is a g commit just
+8:52 made a few days ago. They can see that
+8:54 the product is actually active. And then
+8:57 there is the one thing many people do
+8:59 and this is usually where the biggest
+9:01 money lies in open source and it's
+9:04 self-hosting enterprise support. So
+9:06 imagine for example I build a social
+9:08 media scheduling tool but I'm dealing
+9:09 with an enterprise that will never put
+9:12 their information outside. They will
+9:14 probably want to self-host this but they
+9:16 will also need support. And this is
+9:18 usually where most of these companies uh
+9:20 the one the funded one or the one that
+9:22 have enough motivation to do enterprise
+9:24 sales uh find money. So you shouldn't be
+9:26 afraid to go open source. Don't be
+9:28 afraid for somebody copying your product
+9:30 because today the only thing that is
+9:32 winning usually is brand. And I've seen
+9:34 so many people come and copy post this
+9:37 and self-host it somewhere as a totally
+9:39 different solution just competing with
+9:40 me. And I like [gasps] I'm so stressed
+9:43 and after checking this one week two two
+9:45 weeks later I see that they just
+9:47 abandoned [music] the project because
+9:48 there is no way that you are the brand.
+9:50 You are the one that created this open
+9:52 source solution. Anybody that will
+9:53 compete with you will always be one step
+9:55 behind you and probably just abandon it
+9:58 at some point.
+9:59 >> I mean I I agree 100% in a world where
+10:02 AI can write any code and is actually
+10:05 probably referencing open source code
+10:07 itself to write that code. What is the
+10:09 value of code anymore? There's really
+10:11 not a whole lot. It's as you said it's
+10:13 in brand and open source is a great way
+10:15 to build a brand especially as a
+10:17 bootstrapped builder where you're
+10:20 essentially getting free distribution. I
+10:22 really like this model. If you were to
+10:23 start over today and maybe go in to a
+10:26 different category, maybe it's not
+10:27 social media schedulers, what would be
+10:29 your advice or your playbook for someone
+10:31 who wants to start out in open source
+10:33 right now in 2026?
+10:35 >> So, I have my own playbook and this is
+10:37 what I've done with so many companies
+10:39 I've worked with while I I did
+10:40 consulting and I'm just going to share
+10:42 my entire playbook of what what I did.
+10:45 So, here is what you need to do. First
+10:46 of all, you need to start a preparation
+10:49 in a normal marketing way. your GitHub
+10:52 become your landing page. That's like
+10:54 your marketing landing page. So, you
+10:55 should treat it the same thing as you
+10:57 treat your main website even better. You
+10:59 can just literally go to the post
+11:00 repository and look how I build it. If
+11:03 you're trying to create something
+11:04 completely new, write everything try to
+11:07 make people understand what you build.
+11:09 If you already have an alternative, the
+11:10 best way to do is to write that you are
+11:12 an open- source alternative to something
+11:14 that give the fastest context to people
+11:16 to understand what you're building. Then
+11:18 add your license to the project. if you
+11:20 have three main licenses for open source
+11:22 which is MIT, Apache 2 and AGPL3. So
+11:25 really check what license you want to go
+11:26 with. Then you want to go and create
+11:28 some issues on your GitHub repository
+11:30 for different feature you want people to
+11:32 uh create for you. Developers that come
+11:34 to your GitHub usually don't know
+11:36 exactly what you're building. They don't
+11:38 have in mind exactly what they're going
+11:40 to work on. If you create an issue for
+11:42 them, it's a lot easier for them to just
+11:43 come in and just tell you, can you
+11:45 please assign me to this issue? That's
+11:47 much much easier to get code faster than
+11:49 people figuring out what to open for
+11:51 you. You want to open a discord server
+11:53 so developer can join fast. Go to post
+11:55 discord and just copy the channels list
+11:57 the same thing as I did. Make sure you
+11:59 have docs for developers to know how to
+12:00 deploy their project. This is super
+12:02 important. If they don't know how to
+12:03 deploy their project, they will just
+12:05 churn. They will not clone your
+12:06 repository. You will not become
+12:07 trending. It's a lot better to create a
+12:09 docker for your project. So if you have
+12:11 a docker, the deployment is much much
+12:13 much much easier. And this is everything
+12:15 you need to do for the open source
+12:16 [music] part. So step number two is
+12:19 bringing traffic to your project. So as
+12:20 I said before, you want to get into the
+12:22 main GitHub trending feed. And to do
+12:24 that, you want to get as maximum traffic
+12:26 as possible in the shortest amount of
+12:28 time. This is what I call the launch and
+12:30 get as much traffic as possible. To
+12:32 prepare for your launch, you will need a
+12:33 few accounts in few places. So you will
+12:35 want to register to HackerNews like 2
+12:37 weeks beforehand. You also want to
+12:39 register to Reddit, but try to do a
+12:41 little bit of work before. get your
+12:43 karma a little bit up because if you
+12:44 don't have karma in Reddit, you won't be
+12:46 able to post there. Almost all your
+12:47 posts will be filtered. Then you have
+12:49 something that you probably never heard
+12:51 before which is called Lei. This is an
+12:52 alternative to [music] Reddit. They're
+12:54 not really good at anything else except
+12:56 for open source for people that want to
+12:58 do marketing. But with open source, they
+12:59 are crazy. Every time I post something
+13:01 on Lei, it's getting at least 100 up
+13:04 votes. Great way to post your stuff.
+13:06 Lemie is a self-hosted Reddit. And the
+13:08 last one, Devo2, Medium, and Hackernon.
+13:10 [music] Those channels are not only for
+13:12 SEO. They can bring you direct traffic
+13:14 and I'll talk about them. So the first
+13:16 thing you want to do is write an article
+13:18 in dev.2 medium and hackeron. You want
+13:21 to write an article about how you build
+13:24 something inside your open source or
+13:26 that you just launch your open source
+13:28 project about this this and this. Later
+13:30 on you can also write listicles like top
+13:33 10 open source project you should check
+13:34 in 2026. These are not super focused but
+13:37 they can give you stars and make you
+13:38 trending which is the whole goal of the
+13:40 strategy. There's something called the
+13:41 Google discover feed. The Google
+13:42 discover feed show articles of things
+13:45 that you are interested in. If you check
+13:47 my articles on dev2 medium and hackeron
+13:49 this is the main traffic source for all
+13:51 of them. I get tons of traffic from
+13:53 these places. So this is why it's super
+13:55 important that you invest in your title
+13:58 and cover picture. Same thing as you
+13:59 like when you're working on your YouTube
+14:01 because people just going to see the
+14:02 discover feed. Step number three,
+14:04 register on Hacker News. Create a new
+14:06 post. Just submit. Write show spaceh and
+14:10 the name of the project that you have
+14:11 and then link to your GitHub repository,
+14:14 not your main website. They are very
+14:15 picky at the things that they like to
+14:17 put inside. It's not promised to you
+14:19 that you will get there. But hackernews
+14:22 love open source project. And [music] if
+14:24 you put your open source project inside,
+14:25 there is a very very high chance you
+14:27 will get into the main feed and then you
+14:29 can expect almost like 10,000 views.
+14:32 Step number four, go to Reddit and post
+14:34 it on /r/selfosted. If you are not open
+14:36 source and you want to post your project
+14:38 somewhere on Reddit, you will probably
+14:40 get filtered or banned because
+14:42 self-promotion is prohibited. But the
+14:44 nice thing about open source is that if
+14:46 you have something in open source and
+14:47 you go to self-hosted, people just
+14:49 waiting for you to post there and do
+14:51 [music] a totally self-promotion for
+14:52 yourself. Not only that, every time you
+14:54 have a new version, people want to see
+14:56 it again and again and again. Your goal
+14:58 is just to go there to STR self-hosted,
+15:01 write a post. Here is an example of a
+15:03 post and every time you have a new
+15:05 version, you can release it again and
+15:07 write all the features and everything
+15:09 that you have inside. Make sure you ask
+15:11 for a star. Make sure you're super
+15:13 humble, down to earth. Do it like a
+15:14 building in public. Use I, not we, and
+15:17 post it every month in / r/fosted. That
+15:20 at least was my thing. There are some
+15:22 other channels you can crossost to you
+15:24 have r/web / r/programming. If you are
+15:27 in AI space, you can use / r/
+15:29 localama/r/I
+15:32 agent or / r/chain. Step number five is
+15:34 just to get traffic from everything else
+15:36 that you have. Now, this is why it's
+15:39 step number five because you might not
+15:40 have any, but if you have, put it on X,
+15:42 LinkedIn, your newsletter, and send
+15:44 everybody to your GitHub. Make sure all
+15:46 these five steps are going on at the
+15:48 same week. That's very important. So,
+15:51 you get into the main trending feed.
+15:52 Once you are there, you will see your
+15:54 star count rocketing very fast. you will
+15:56 see a lot more people joining your
+15:57 Discord and you will see a lot more
+15:59 issues, pull requests and forks for your
+16:01 repository. And that's my playbook to do
+16:04 every week in open source to grow my
+16:06 project. What I love about Neo's story
+16:08 is that he turned open-source into
+16:10 [music] an asset. He got thousands of
+16:12 GitHub stars and that ultimately helped
+16:14 grow his business to $17,000 a month. He
+16:17 did this by going deep into niche
+16:19 open-source communities, subreddits,
+16:21 HackerNews, Lemi, Dev.2. But he wasn't
+16:24 just posting random stuff everywhere. He
+16:26 strategically targeted channels where
+16:28 [music] his users were actually hanging
+16:30 out. And that made all the difference.
+16:31 This is exactly what we break down in
+16:33 the Starter Story Build niche
+16:35 communities playbook. It's a free
+16:37 resource that shows you exactly how to
+16:39 find and dominate the right niche
+16:41 communities for your product. You'll
+16:42 learn how to market your idea and find
+16:44 the communities where your customers
+16:46 actually are. More importantly, the
+16:48 playbook is packed with real examples
+16:50 from real founders that we've talked to
+16:52 through this channel on what's [music]
+16:54 actually working right now. So, if
+16:55 you're ready to take distribution
+16:57 seriously and get real traction on your
+16:59 product, head to the first link in the
+17:01 description to get the starter story
+17:02 build niche communities playbook for
+17:04 free. All right, let's get back to the
+17:06 video. Okay. Wow. I mean, that was an
+17:08 amazing playbook of how to truly crush
+17:10 it with open source. So, that was
+17:12 awesome. Thanks for sharing all that.
+17:14 I'd love to switch topics a little bit
+17:15 and have you just show off your app. I'm
+17:17 not sure if this is the self-hosted
+17:19 version or the SAS version. Curious to
+17:21 hear that, but also can you just show me
+17:23 what your app does and how it works and
+17:25 maybe how it might be useful to someone
+17:26 who's watching this.
+17:27 >> So, here we can see the main Posties
+17:29 dashboard. Very similar to many other
+17:31 social media scheduling tool. Here is
+17:33 all my social media channels that I have
+17:35 connected to posties. When you add a new
+17:37 channel in Posties, you can find that
+17:39 there is 25 channels. It's the biggest
+17:41 than any other platform. And then you
+17:43 can just put post into [music] the
+17:44 future. I can click here. I can create a
+17:47 set uh of pre-made things if I want or
+17:50 not without a set. I can just select all
+17:53 the social media platform I want to post
+17:55 to. I can write some text and I can
+17:57 write also comment and post if the
+17:59 platform support that. I'm crossing to
+18:01 all of that all of those. But if I want
+18:02 I can just edit the content for a
+18:04 specific one and change how it will look
+18:07 in a specific platform. Edit again. I
+18:09 put a lot of effort in UI. So I hope it
+18:11 looks good. You have different settings
+18:13 for different social like Instagram. You
+18:14 can post a real or a post and then you
+18:16 can just edit to the calendar. So you
+18:18 can see all of them are already here. So
+18:20 we have all the draft of all of them.
+18:22 You can now change them to a different
+18:24 date and so on and use also you know
+18:27 this is like the basic functionality of
+18:29 every social media scheduling tool. And
+18:30 then you have some extra stuff such as
+18:32 AI tools. You can create uh you can
+18:35 design media. You can use AI images. You
+18:37 can use AI video. You can bold your text
+18:39 and so on. Except for that we also have
+18:42 the public API and this is what a lot of
+18:44 people use and because we are open
+18:46 source more developers prefer to use us
+18:48 instead of using nonopensource solution.
+18:50 So you have your public API key and then
+18:53 you can automate social media post in
+18:54 your workflow if you use NA10 or [music]
+18:56 just the API to do different stuff.
+18:58 >> Thanks for sharing that showing that
+19:00 tool. I mean that looks really
+19:01 impressive. Super cool that this is not
+19:03 only open source but you know product
+19:05 that you can post to all these different
+19:06 platforms at once. I want to understand
+19:09 a little bit how you actually built this
+19:11 product. What's the tech stack? What
+19:12 does this run on? And what tools do you
+19:14 use to run this business?
+19:15 >> So for hosting, we are using railway for
+19:18 the back end and for the main marketing
+19:20 website. I use Verscell only for the
+19:23 NexJS application. I don't use Versel
+19:25 API. We're using our own backends. I use
+19:27 Simrush for SEO. I also use ahrefs only
+19:30 for the dashboard. I don't pay for the
+19:32 entire product. So it's only $20 per
+19:34 month. We send a lot of emails when
+19:37 posts are posted with resends. Cloudfare
+19:39 R2 for hosting. Uh I use dub.co for
+19:42 short linking and also for the affiliate
+19:44 program. Flossible for analytics. AI
+19:47 generators for images with uh or text
+19:50 with OpenAI KI and FAI. This is my
+19:53 biggest expense. I use something called
+19:54 translated. I want every post to be
+19:56 posted. I don't want any failures. That
+19:58 means that I need to convert videos to
+20:00 the right size of the social media
+20:01 platform that I'm going to post to. If
+20:03 not, it will just fail. I'm paying $600
+20:05 for that. We use Outrrench for SEO, one
+20:07 SEO article every day. I use Corser for
+20:09 AI. I'm only paying $20. I'm not a heavy
+20:11 user. I'm using WebStorm as the ID. We
+20:14 use Beehive as the email newsletter.
+20:16 It's a headless hack. Discord for
+20:18 customer support is $0. GitHub Copilot
+20:21 is free for open source. Sentry for
+20:23 monitoring for bugs and crashes and also
+20:25 and all that also free for open source.
+20:28 And we use GitHub action to run tests
+20:30 and build Docker versions. Free for open
+20:32 source. And the margins is around 80%.
+20:35 >> Okay. Well, thanks for sharing. I mean,
+20:36 very profitable business, super cool.
+20:38 Thanks for sharing all that. Last
+20:40 question that we ask all founders who
+20:41 come on starter story, if you could go
+20:43 back in time before you built this
+20:45 business, uh, what advice would you give
+20:48 yourself or what advice would you give
+20:49 anyone who wants to do what you do,
+20:51 build an open source SAS in 2026?
+20:54 >> My biggest advice is, I think a little
+20:55 bit controversial. I think you should
+20:57 learn a lot before you build. But you
+21:00 don't also want to get into this
+21:02 analysis paralysis state. I had so many
+21:04 failures in so many startups at first
+21:06 and then I just like paused and I said,
+21:08 "Okay, let's read some book. Let's read
+21:10 about traction for marketing. Let's read
+21:13 about Alexi $100 million deals. Let's
+21:16 read about Russell Branson uh lead
+21:18 generation." And then I started to make
+21:20 smarter decisions. It's really important
+21:22 that you learn the basics and it's
+21:23 really important that you learn about
+21:26 what is the idea that you're going to
+21:28 build. And I've seen this like a lot of
+21:30 people they just go out and maybe they
+21:31 just like you know they've never heard
+21:33 before about anything and just like
+21:34 start with a B2C which is usually harder
+21:36 for people that don't do good
+21:37 distribution and then they don't know
+21:39 what to do. So they grind for a year and
+21:41 then they close and then actually say
+21:43 after that I should go B2B. So I think
+21:45 it's really important that you learn.
+21:46 You should focus your time half of the
+21:48 time learning, half of the time creating
+21:50 something and learning is is the biggest
+21:53 power.
+21:53 >> That's great advice. Thanks for coming
+21:55 on and sharing this amazing business.
+21:57 You built this open- source opportunity.
+21:59 That was awesome. So, thanks for coming
+22:01 on and hope to see you again soon.
+22:02 >> Thank you for having me.
+22:04 >> All right. Thanks to Neo for coming on
+22:05 to the channel. Nevo built a social
+22:07 media postuler. I'm sure you can think
+22:10 of a bunch of other social media
+22:11 postulers that already exist. This is
+22:13 just another example to show you that
+22:15 you don't need to reinvent the wheel to
+22:16 build something successful. And when it
+22:18 comes down to it, distribution can
+22:20 change the game. And [music] something
+22:21 like having your angle open source in
+22:24 this specific example can really make
+22:26 the difference. But it always starts
+22:28 with building [music] something. And if
+22:29 you're ready to build your idea, you
+22:31 definitely want to check out Starter
+22:32 Story Build. It is our boot camp where
+22:34 you will come up with an idea, you'll
+22:35 build it, you'll launch it, and you'll
+22:37 get it in the hands of real users in
+22:39 just a couple weeks. Our next cohort is
+22:41 starting soon, so head to the
+22:43 description and click that link and you
+22:44 can get started building your thing
+22:46 right now. All right, that's it for this
+22:48 episode. Thank you guys for watching.
+22:49 We'll see you in the next one. Peace.

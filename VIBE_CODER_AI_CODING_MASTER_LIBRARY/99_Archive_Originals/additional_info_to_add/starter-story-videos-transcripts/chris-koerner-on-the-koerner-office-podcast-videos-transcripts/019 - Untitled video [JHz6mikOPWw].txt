@@ -1,0 +1,542 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=JHz6mikOPWw
+Channel: Chris Koerner on The Koerner Office Podcast
+Video ID: JHz6mikOPWw
+Transcript language: English
+Downloaded at: 2026-05-25T23:53:08.598Z
+
+0:00 In the last 30 days, I made $5,000. How technical is your background? Do
+0:05 you know how to code? I don't know anything about coding, nothing about tech, nothing at all. Like,
+0:09 I still could not write you a single line of code. And I was able to quit my normal job
+0:13 and I already made 5 grand in my first month. My life fully has changed. This is easily like a 50,
+0:18 60K, 70K a year job. And I have agents doing this for me. I just tell them what to do. Man,
+0:23 my mind is blown right now cuz I'm thinking of just like all these venture capitalists
+0:27 in Silicon Valley. They're not going to have projects to give money to. No. Because what
+0:30 you're doing is something that a similar startup in Silicon Valley would need to
+0:35 raise 1 to 7 million bucks for. You would not be profitable today. Period. End of story. If
+0:40 it weren't for these agents, right? 100%. I could quit along the way, but I'm like,
+0:44 "No, I'm going to put my head down. I'm going to make this work. I'm going to take the bet
+0:48 on myself and be a self motivator to actually be successful." Dude, it's inspiring. I'm inspired,
+0:53 man. I'm 20 years older than you and like I didn't know half of these tools existed. My gosh,
+0:58 that's a huge find. What other tools are in your tool belt that people have to use like yesterday?
+1:06 Lots of talk lately about OpenClaw, the new AI agent that can, you know, run your life
+1:11 or whatever. But what if OpenClaw is already outdated? Today, I'm talking to an 18-year-old
+1:15 that just viodated an app. He has no technical experience whatsoever. This app made $5,000 in the
+1:21 last 30 days. He just viodated it a couple months ago. And it's a pretty complex app. It competes
+1:26 with a company that just raised $50 million. So, we talked a little bit about how he built his app,
+1:31 you know, how to vibe code apps, but we also talked a lot at the end about AI agents,
+1:35 what type of agent is better than OpenClaw, few agentic tools out there that are changing the
+1:41 game. He talks about what prompts we should use to vibe code better apps, what tools we should use,
+1:46 and just super inspiring. I mean, 18 years old, doesn't know how to code. Please enjoy. Veim,
+1:50 well, why don't you tell us who you are and what you do? Hey, I'm Vadim and I'm the
+1:54 founder of Vugola, which is a clipping starter for clippers and marketers and I'm scaling that to be
+1:59 the number one clipping tool by the end of 2026. Okay, so talk to people about clipping like it's
+2:04 been around for a few years now. Why is clipping important and what does it do? So for example,
+2:08 all the streamers you see all the podcasters see clipping is only become more relevant in the
+2:12 future. That's why I started building my startup primarily for clipping because like if you think
+2:17 about clipping, it's purely organic marketing and it's a win-win for both your client and the
+2:22 Clippers. If the Clippers get paid a dollar per thousand views and then the client gets
+2:25 like 100 million views, it's a win-win. And in the future, I firmly believe the the future is short
+2:30 form content. there only be more reels, more like posts and clipping is going to be another like
+2:36 branch of this marketing where it's going to like completely take over and especially like content
+2:40 rewards w like the things that they're doing and like changing the industry in itself like that's
+2:45 going to be just the future. So that's why how I got into clipping. And clipping essentially just
+2:49 in broken down terms is if you're at a podcast, live stream, whatever you are, if you so like
+2:54 if you post your own YouTube channel and then you post your own shorts to your own YouTube channel,
+2:58 that's only five channels of reach you have. But if you have Clippers, they make up like
+3:02 50 sub accounts in your name, repurpose all the like they clip like they bunch of clips
+3:08 to show content on all 50. Now you have like 50 channels of eyeballs going all to you. So that's
+3:14 basically what clipping is. So, I think like the big elephant in the room, the big question mark
+3:18 with clipping is how effective actually is it at bringing short form viewers to long form viewers
+3:25 or listeners. I've done quite a bit of clipping. I've had an agency. I've done on [ __ ] I've done
+3:29 it off. I've got a bunch of accounts. I've got my verdict. I'm curious what what you've seen.
+3:35 I know I know you're biased. I know you're in the business of clipping, but have you seen any sort
+3:40 of like a a correlation or a conversion rate? like how many short form views equal one long form view
+3:47 or what whatever. Yeah. So I can't really tell you the exact metrics of clipping, but it all
+3:52 comes down to how you package clipping. Obviously like if you're a streamer, you just want more
+3:56 people to know who you are. For example, Clvicular says he has like a thousand plus clippers. So his
+4:00 primarily like all of his clips are going to be like him like quote unquote the mogging like trend
+4:04 or him like looks maxing whatever it is and that's the kind of clips like that the streamer has. But
+4:09 I think clipping, if you want to tailor, like you want to get eyeballs from your short form content
+4:13 to your long form, it's really good for podcasters because if they see your clip and they get value
+4:18 from the clip, like the clip is good quality, they take something out of it on Instagram, on Tik Tok,
+4:22 on YouTube, on like YouTube shorts, they will go find your channel, subscribe because they're going
+4:26 to want to see more of that content. So clipping like for podcasters is like pretty good. Let's say
+4:31 for a streamer and like I just want like you for entertainment, not for value. That's like where
+4:36 the difference is because like it's it all comes down to like are your clips like for entertainment
+4:40 or they like actually value driven and for conversions. So that's like you have the streamers
+4:44 of the world and you have the podcasters of the world and I would argue the podcasters have a
+4:47 higher conversion rate of people going and viewing their podcast and just think a streamer probably
+4:51 would. Yeah. Okay. Now I want to get into this app that you built. Tell me tell me what you built and
+4:57 what inspired you to build it. Yeah. So it's a clipping scheduling captioning to allin-one. And
+5:02 why I built this was before I started building any startups at all, I wanted for us to take back like
+5:07 a step back and be like, okay, wasn't we relevant in the next like six to like two years, like six
+5:11 months to two years because the one thing I see in the startup community is people build 10 apps
+5:17 and they just like quote unquote throw crap on the wall and just see whatever sticks. They don't like
+5:21 actually take time to diagnose, research, and actually see like, hey, let me build one legit
+5:25 complex software that can just go scale. So I I'm like, okay, Clip is going to be the future
+5:30 of marketing. Everybody's gonna be clippers. And the one thing I I noticed that other clipping
+5:35 companies don't do is tailoring for agents because the future is agentic systems, pipelines,
+5:40 workflows. So I'm like, okay, what if I just build out like a prototype MVP stage of like just
+5:45 a normal clipping tool, see if people actually want it, and then based based on what people say,
+5:50 then I I'll start building out the agentic tool, the scheduling, the captioning. So that's how I
+5:53 got into it. And now we have a couple hundred paying users now. We've generated I think over
+5:59 like 10,000 plus clips and like so far the growth has been pretty steady. So what is your MR? What
+6:07 is your lifetime revenue? Let's talk numbers but both like how long ago did you found it and what
+6:12 are your numbers today? Yeah, so in the last 30 days I made $5,000. So in the last 30 days I made
+6:19 5K as like no coding experience, nothing at all. I started building in October. I got into lovable.
+6:25 I don't know what I was doing. I was like cursing at the AI. I was telling it you're not building me
+6:28 the right page. You're not doing this. And like only then I realized if AI gives you something
+6:32 bad, it's a skill issue cuz AI can only act on the minor context and prompt engineering again. It's a
+6:38 skill issue with the user yourself. Yeah. So like Exactly. Like I was like I was the most nubious
+6:43 vibe coder you probably like ever see. Like I like asked Lovable to build me something. Love
+6:48 like did not build what I wanted cuz obviously I didn't tell it enough details and I would get mad
+6:52 at lovable. So like that's how I started my vlog coding journey. It was unlovable. Then I moved to
+6:56 cloud code. It was like it's a pretty complex software like taking clips, framing, cropping,
+7:01 sort like it was like complex software and I like had so much times to quit but I started
+7:06 like so I when I got into cloud code everything started working out like started picking it up
+7:10 and the last probably like two months I actually started marketing it organically on Twitter and
+7:15 it's purely off Twitter so far which is also like a bad market for clipping like in my opinion like
+7:20 I could scale way better on Instagram, YouTube shorts, Tik Tok which I started posting now but
+7:26 yeah purely on X in the last two months when I actually started marketing it in like the like
+7:30 the free like uh the public beta stage, we made $5,000 in the last like 30 days. Now, is that
+7:37 5,000 from like monthly subscriptions or lifetime subscription? What do you charge? Yeah. So,
+7:42 I have three three paid tiers. So, first is like a $9 plan and then it's a $39 plan and it's a $99
+7:48 plan. So, for each monthly Yeah. monthly monthly recurring revenue. I also figured out that the way
+7:52 I can like upsell like because like for if you're having a a software business like if ideally your
+7:59 churn rate like a user will go to your software and like if if you liked it or not they're going
+8:03 to leave probably within the like the first two to three months probably one to three months they're
+8:07 going to cancel the subscription leave your software. Believe it or not just because you're
+8:11 watching this doesn't mean you're subscribed to my channel. YouTube's going to show you stuff even if
+8:15 you're not subscribed to it. Over half of people that watch my videos are not subscribed. It would
+8:19 mean the world to me if you just hit subscribe. Thank you so much. So the way I even maximize my
+8:24 revenue even more is when for example when I add like a monthly and yearly plan and then on top
+8:31 of that let's say they have a month they chose a monthly plan and when they click on the like
+8:35 get monthly plan a popup appears and sells them a quarterly plan. So you want to keep upselling
+8:40 them like better better deals maximizing how much revenue you can take from your us from
+8:45 the like from the user because it from like one to three months they're going to leave you and
+8:49 then after like they s they pick their plan then you take them to a custom checkout page where you
+8:54 upsell them additional free credits now. So like it's like a onetime purchase for like a bunch of
+8:59 more credits. It's like a really good value deal for the user. When I did that I like saw like my
+9:04 revenue kind of like just like like spike up on one day. I think like one day I made like a like
+9:09 like 900 bucks just like in one day after I made like the upselling perks and features and now and
+9:16 you're just pro promoting this on Twitter. You you're starting to do short form video but mostly
+9:20 just Twitter, right? Yeah, purely Twitter. Okay. And how technical is your background? Like did
+9:26 you know how to code or is like vibe coding your first coding experience? I don't know anything
+9:32 about coding, nothing about tech, nothing at all. Like I kind of just learned along the way.
+9:35 I'm like basically like your grandma. I'm not even joking. I don't know anything about like
+9:39 coding. I'm basically your grandma that got into like tech and I just over time I just like learned
+9:44 like and now I know like the the basics of it probably but I still could not write you a single
+9:48 line of code. Why did you start with lovable and would you recommend that people start with it? I
+9:52 know you have a more complex app. Most people are probably doing more simple things but what's your
+9:56 recommendation there? Honestly like looking back now I would not recommend Lovable at all. First
+10:02 of like in my opinion it's too like too expensive and also the designs and UI gives you is like it
+10:08 it looks like vi coded slop. So like in the AI space like there's thing called like they can
+10:12 tell if your website is vi coded or if it's not. It's called AI slop which just means like your
+10:16 website is like garbage and it's obviously made by AI. And did like a horrible job on the designs.
+10:21 Way too expensive. Like I said like I spent like $500 of the monthly credits in the span of 4 days.
+10:27 Maybe that's just a me problem, but I just burned through so much credits. So like if
+10:32 you're if you're just beginning into VIP coding, I would like the terminal looks very complex,
+10:38 but basically all you need to know is like you need you need a backend server. So like super
+10:41 base to like store all your data. You need Versel to like for example you have a domain,
+10:46 you need to host the domain on the server. So you need Versel for that. And then for your front end,
+10:51 that's like your front-end code. So you just like open up cloud code in the terminal and you
+10:55 talk cloud code. It makes the local files for you. You push it onto GitHub. GitHub is literally like
+11:00 a Google drive for your code and it's basically all you need to like build like build a startup a
+11:05 software. It just like those four things and it's like it seems complex at first but like it's not
+11:10 really like it's pretty easy if you get into it. So like you can skip all like the replets of the
+11:14 world, lovables of the world. You can kind of like skip all that and go straight into cloud code.
+11:19 Okay. So superbase for the database, Verscell for the hosting, GitHub for hosting your code, the
+11:26 terminal app on your computer for actually making the code. What is the AI tool that you're using
+11:31 to actually like vibe code it? Is it cloud code? Yeah, I'm using cloud code and also for example
+11:37 like I'm using cloud code max subscription. So I'm paying 200 bucks a month. And also for you guys
+11:41 that do not know, I just realized this. So when I first got cloud uh cloud code, if you buy it on
+11:47 the mobile app, it's 250 bucks. I don't know why, but then if you buy it in the web app, it's 200
+11:51 bucks. So, make sure to buy it on the web app. So, yeah, I use cloud pro and also whenever my cloud
+11:56 code subscription runs out, I have a second codeex plan. Codeex is basically open AI's coding. Like
+12:03 how there's claude, there's cloud code for coding and then there's open GBT and then there's codeex
+12:09 for coding. Yeah, it's 250 on mobile app because they have to give like 20% to Apple. Yeah. Yeah.
+12:14 Yeah. I forgot about that. Apple Apple takes a chunk out of that. Have you been a clipper in
+12:19 the past? Like what got you into this world? Yeah. So, basically when I started doing this, like a
+12:24 bunch of people started reaching out to me from like the clipping space, like well-known names,
+12:27 like like do you have clipping experience? Like I never clipped. I was never a clipper. I never
+12:31 did I never did anything of that before I started building software at all. I literally just like
+12:36 like researched. I'm like, "Okay, I want like I want to build the actual legit software that
+12:40 is going to be viable and can actually scale in the future. The future is going to be short from
+12:44 concept. Future going to be clipping. Everybody's going to need like that." So why not why not me
+12:48 instead of building a simple like walking app or calorie tracking app or like some simple IO iOS
+12:53 apps what if I just build a legit complex like almost like it's not an enterprise like software
+12:58 but like a legit software web application that like I can just scale and will actually be like
+13:03 viable and like it's going to be like relevant in the future. So you saw clipping as a tidal
+13:07 wave and you said I'm going to hop on this tidal wave. I'll have an easier chance of success. Yeah.
+13:12 Right. This is here to stay. Now what about opus? Right. Like is that the biggest clipping app in
+13:18 the space? Mhm. Do you even like look at them or are you just thinking like this market's so big
+13:22 not everyone's going to use it? There's room for everyone. How do you look at at them? Yeah. So
+13:26 the way I look at it obviously so I like I tested out all my competitors first of all like before
+13:30 I started building my software I tested all my competitors and I started like deep analyzing with
+13:34 myself and AI cuz like if you don't know your AI can actually go and like do things. For example, I
+13:40 use a tool called Hermes agent. Essentially, it's open claw but on steroids. And there's a thing
+13:47 called Chrome Dev Tools MCP where it can literally go and open tabs for you, take screenshots and
+13:52 analyze. So my Hermes agent, my my like you say Jarvis. So my Hermes agent would go analyze,
+13:59 take screenshots, click through buttons while on my MacBook Pro, I would also be researching and
+14:04 analyzing uh these competitors. And one thing I realized is first of all like they're like I re
+14:09 I also I went through like the customer reviews. So like one thing is they're it's too expensive.
+14:14 The clipping process takes too long. Opus clip also it clips the same clips at the same time.
+14:19 Like if you post a podcast opus clip since they have a a good it's like a clipping logic. Like
+14:24 for example if you clip a minute and 5 seconds of a video in one clip it can have that clip and then
+14:30 in clip two it can have the same clip. It can be like a minute five and it jumps to a minute
+14:34 10 and a minute 20. I don't make it separate like it reuses the same clip moments in multiple clips.
+14:39 So you're spending credits basically getting the same exact clip. You're not going to repurpose
+14:43 that same clip over time because all these algos look at your content and see if it's the same
+14:47 content. They're not going to at all. So I like I deep analyze all my competitors seeing like
+14:52 okay they're not a genensic all like the user is saying XYZ I can improve in this this this
+14:58 way. So let me start building and if I can make my product 10% better than theirs and heck like
+15:03 the market share is so big why can why can't I not just take a piece of it as well you know?
+15:07 So I had that mindset as well like you said. So how long did it take you to go from, you know,
+15:13 your first prompt in lovable when you first had this idea and you started building it to your
+15:17 first dollar in the bank account? First dollar in my bank account. I think it was in the beginning
+15:23 of February. I think it was like February 2. I got like my first like Stripe notification.
+15:28 And by the way, like my product I did not market it anywhere. I was just building in public on on
+15:33 Twitter and I saw like I saw someone bought like the creator plan and mind you my product probably
+15:38 sucked back then like it probably was horrible but someone still paid for it and used it you know so
+15:43 like I remember so yeah February 2nd I think that's when I got my first like notification
+15:48 and first sale and when did you first start prompting it in lovable first start prompting in
+15:52 lovable it was October November so you spent like a few months kind of tinkering with it learning
+15:58 the hard way and then first dollar in on February 2nd. Yeah. And then March, your first full month,
+16:05 you did 5,000 in revenue. Yep. 5,000 in revenue. And how much of that was profit? 85 80% profit
+16:13 margins. That's amazing. Are you using AI credits on the on the back end when they generate videos?
+16:18 Is that part of your cost or no? Yeah. So, there's a whole system with like the face analyzing,
+16:23 transcript analyzing, looking at the emotion of the speakers, where they're at. like everything's
+16:27 basically on API credits and yeah I'm basically outsourcing and like when I'm pricing my packages
+16:33 I'm making sure hey like if I package it in this amount of price this amount of credits like
+16:38 ideally you want 70 to 80% profit margins in the SAS world. Yeah. And are you using claude API on
+16:45 the back end like for generating these videos? No, I'm not using cloud. I'm using Gemini API. That's
+16:50 like that's the most effective because like Gemini does a good job at reasoning and also Gemini also
+16:56 has a VLM which is is basically so you have LLM it's a like a language learning model then you
+17:02 have VLMs which is a visual learning model. So not only can the AI like look at the transcription and
+17:08 analyze which parts of parts of the clips which part of the video will be good clips but can also
+17:13 look at the video itself and dissect okay who's the speaker where they at like what are they
+17:18 talking about? Oh, it's a podcast. Oh, this is a Oh, this is like a stream. This is like a gaming
+17:22 thing and stuff like that. Okay. Now, how have you used OpenClaw throughout the process of building
+17:28 andor marketing this business? So, I started using OpalClaw, I think a few months. Yeah, I think like
+17:34 two months ago, three months ago, I started using Oplaw when it became viral. And the way I got
+17:37 my first like 400 like before I had like a free plan, which like as a boost company, I was getting
+17:41 burned through credits cuz people were making multiple free accounts. But the way I got like
+17:45 my first 450 plus users, even though like a bunch of them were free, but I got so much feedback from
+17:50 them was through Reddit marketing. So essentially back when I used OpenClaw, I switched from it,
+17:55 but we'll get back into that later. My OpenClaw, I made like a a marketing agent. Essentially, it
+17:59 would go on subreddits, it would go on LinkedIn, it would go on X on Twitter, it would see where
+18:04 people were talking about what's the best clipping tool, what's the best AI video tool, and I gave it
+18:08 a bunch of these specific uh keywords tailored to my SAS. So hey, look for like users complaining
+18:13 about clipping. look for users complaining about Opus Clip because even Opus Clip back in the day
+18:18 they had like a 48 hour outage and in that moment I told my market hey go like give me a list like
+18:23 bullet bullet bullet their usernames the post where they're complaining so I can go and shoot
+18:28 them a DM hey I'm building a clipping tool I would love for you to try for free so that's how I got
+18:32 my first 450 like free users on my software and got a bunch of feedback on things to improve on
+18:38 to remove simplify and stuff like that with open claw so how many total users do you they have
+18:43 today both free and paid. I switched from there's no free plan anymore. So just a paid plan. Okay.
+18:49 And right now we have like 267 paying users right now. So you got you had a pretty easy time getting
+18:55 unpaid users with your OpenClaw agent just by posting or commenting on Reddit, but then your
+19:01 paid users mostly came from X. Is that right? Yeah. Cuz one thing I noticed is like I was
+19:05 giving way too much free value on the free plan. Like I was cuz not only is it's not clipping,
+19:11 it's also scheduling. Like you can like schedule, it's like a whole social media scheduler as well.
+19:15 Unlike these like clipping tools, they focus on clipping and stuff. Like you can clip and
+19:19 schedule natively all in one ecosystem. So like these people will lally make free accounts clip
+19:24 schedule and then they make another free account, another free account, another free account. I'd
+19:27 get burned through a bunch of credits and like I'm like, okay, the way the way I can filter this is
+19:33 let me just make a simple $9 a month instead of the free plan. I'll do a $9 a month plan and that
+19:38 will filter just the people just to test it out and the actual real users that actually want the
+19:43 product and want the software and and mind you when I had the free plan my revenue like I was
+19:48 not seeing any revenue at all like maybe just like one sale in like like a couple weeks or something
+19:53 and then in March in March I think like the end of February that's when I like I made okay I made the
+19:58 decision I'm not going to have any free plans I'm going to make like the $9 plan like minimum and
+20:02 that's going to filter people and I'm actually going to see if people actually want to use my
+20:06 software. And right when I did the $9 month plan, people just started buying it. I'm like, "Oh,
+20:10 wow." So, like, it was a good filter. Like, it was a good move in the end of my day. Did you know you
+20:15 can build a six-figure business with only a 10,000 person email list? I just talked to the founder of
+20:20 Beehive, and he told me that there are people with 10 to 15,000 subscribers making more than
+20:26 newsletters that are 10 times that size. Here's how. Well, this one designed newsletter with
+20:32 around 15,000 subs doesn't just sell ads. They run two-week online cohorts four times a year that
+20:38 generate six figures. And on top of that, they're charging companies 20 to $30,000 to get in front
+20:44 of their audience. And that's on one small focus list. This is not about going viral anymore. It's
+20:50 about owning a niche and monetizing it correctly. And Beehive gives you exactly the tools to do just
+20:56 that, like surveys to understand exactly who your readers are, or a built-in recommendation network
+21:02 to grow automatically. Paid subscriptions, digital products, sponsorship tools,
+21:07 and you keep 100% of the revenue. You don't need a massive audience to run a successful business.
+21:13 You need the right system. So move your email list over today and try out Beehive with 30% off for 30
+21:19 days with code chris30 because this might be the simplest, highest leverage business that you can
+21:25 build right now. Just go to beehive.com/chris to learn more. That's behiv.com/chris.
+21:32 Do you have any numbers as to what percentage of people upgraded from freeto paid versus just
+21:38 bounced? That's the one thing I had a mistake on. So there's thing called post hog which is
+21:43 it can look at your whole entire website and like your analytics and stuff. I did not have proper
+21:48 conversion and data set up from the beginning. So I I can't really tell you like I can probably
+21:52 go in my Stripe and have my AI analyze all like the Stripe IDs and the users and see which users
+21:58 upgrade from the starter plan to the creator plan and then from maybe from the creator to the agency
+22:02 plan. I could probably look at that right now. From the beginning I didn't have that set up but
+22:07 I have it set up now. Now I set it up yesterday with post like analytics but I didn't have proper
+22:11 like data like I didn't have onboarding I didn't have offboarding like I didn't have any of that
+22:16 which like looking at this now from like a marketer's perspective like what like what
+22:20 what was I doing you know I mean it's like that's the alternative to not starting oftentimes people
+22:25 check all those boxes and then they all that friction causes them to never launch in the
+22:29 first place. So that's usually how I do it too. Like I'm so anxious to get revenue in the door,
+22:33 I don't set up all the necessary tracking things. But in the end, it doesn't really make that big
+22:37 of a difference. You know, like a year from now, you're not going to care about that. Sure. It's
+22:41 all about learning process. Yeah. But would you say that you were surprised by what percentage
+22:46 of people actually upgraded to paid? Yeah, I was actually really surprised because like my
+22:51 competitor skill, they're they have a free plan. I'm like, why not just like why not me make a free
+22:56 plan? I'll see if if like people are going to go to me and like no one was buying at all. Like what
+23:00 the heck? So I'm like, "Okay, let me just make a free plan and let's see if there's a demand,
+23:04 if like people actually want the tool, started marketing it more, started talking about it more
+23:08 on Twitter, and people started funneling in. And then I started getting more emails, more feedback,
+23:12 things that they like and didn't like, what to improve on, what to add, and stuff like that."
+23:16 Sorry, did you say that Opus did or didn't have a free plan? They have a free plan. Yeah,
+23:20 that's interesting. I would have thought that they that they didn't cuz clearly your data has showed
+23:25 that it's not a good idea. Yeah. The thing with Opus, they raised $50 million. By the way, and
+23:30 like if you look at their ads, their marketing, it just they're just burning money just to get
+23:34 big names like Mr. Beast or I Shall Speed just to use their products. If you look at their pages,
+23:38 it's just like well-known podcasters around the world. So, I'm like, why not like I can
+23:42 like literally niche down and go after smaller podcasters, entrepreneurs, affiliate marketers,
+23:48 whoever it might be that need clipping. I can niche down and take a big like big chunk of the
+23:52 market share as well that way. Have you thought of building an OpenClaw agent that will go to
+23:56 [ __ ] and start DMing Clippers just like spamming them links to your thing, giving them free credits
+24:02 or whatnot? No, I didn't think of that. But what I did think is so uh Daniel Bit Bitsson,
+24:07 he's a founder of Content Rewards. He was like a clipper back in the day, YouTube shorts guy,
+24:12 pretty successful young lad. And he's like, "Yeah, Daniel Bitsen, Bi T- O, and he's the founder of
+24:18 Con Rewards." And I have an idea and I messaged them on uh Twitter and on messages. Essentially,
+24:24 I want to build out a genic clipper where like the future of clipping is not going to be like
+24:29 human clippers. It's literally going to be agent clippers clipping for you. Okay? Like
+24:33 think about it. They can go take your video so they can go analyze on WO what campaign it is,
+24:38 find that video on YouTube, copy the link, paste it into Vola, clip it, they download the clips,
+24:44 they add the trending sounds that the B-rolls, everything. And then they submit it on their
+24:48 like social media platforms because they can schedule as well. And then the way clipping works,
+24:52 you take whatever you schedule on social media. You take that like Instagram link, Tik Tok post
+24:56 link and then you just submit it on content rewards. You submit it on W. And that's how
+25:01 they start tracking you for your views and giving you like a CPM which they pay you like 10 cents,
+25:06 30 cents or whatever, like a dollar per thousand views. And like I thought about hey like why not
+25:10 like Conwords build out like a API key or like why build out like a API key and just build it
+25:15 for agents. So like I'm I'm in the talks with them. So like we'll see where the future leads.
+25:19 But that's where I think where clipping will be like fully agentic. Yeah. I'm thinking of these
+25:23 patterns like 20 years ago in the early to mid 2000s, you know, the smart thing to do was to
+25:28 build your business internet first, right? Like if you're starting a business, it doesn't necessarily
+25:34 have to be an internet business, but it needs to be optimized for the internet. And then 5
+25:38 years later, mobile became everything, right? Facebook launched in ' 04 and then Instagram a
+25:44 few years later and then the iPhone in ' 07. And so everyone was saying like your business has to
+25:49 be mobile first and Instagram was really unique cuz it was the first social media app to be mobile
+25:55 first whereas Facebook was web first and then they made an app later because there weren't even apps
+25:59 in ' 04. So it was mobile first for a while and now like 3 years ago it's like your business has
+26:05 to be AI first. Like AI like it can be a normal business but you have to lead with AI. And now it
+26:11 feels like today in the next 5 years it needs to be agentic first. And it seems like that's what
+26:16 you're doing. Like you're building the framework for your business to be agentic first because
+26:20 eventually like agents are going to be buying these apps and a human will record a podcast
+26:25 and then an agent will just pick it up and take it from there, right? Agents will be doing all
+26:29 kinds of tasks. They're going to have our credit card info. They're going to go buy things for us
+26:32 because they know we need it. Like that's what the future looks like and that's how businesses need
+26:37 to build their foundation to be agentic first. 100%. And like and if like if you're a viewer
+26:42 watching this podcast right now like if you're building your startup or software whatever it
+26:46 might be start tailoring it and thinking okay how can I build it out for agents cuz literally the
+26:51 future is agentic workflows and like enterprise companies literally like your agent is going to
+26:56 go download my agent skill like for example people are saying a software is going to be dead because
+27:02 like cloud code can build you anything and you don't need to buy any subscription. Well,
+27:06 no. If if I have an agent that knows clipping, but then it sucks at scheduling, instead of building
+27:10 my own scheduling tool, why not like I just outsource and grab a API key and get like this
+27:16 scheduling skill and hook it up to my agent. So now my agent can clip and then schedule. I love
+27:21 it. What are you building or playing around with on OpenClaw today that people can learn from and
+27:27 and copy? Yeah. So I actually switched from OpenClaw, spoiler alert. So I switched from
+27:33 openclaw to Hermes agent essentially. So open claw is like the one thing about openclaw I had a big
+27:39 problem with I don't know if you experienced this as well but the memory and like the self-learning
+27:43 loop on openclaw it was just not like I found myself repeating to openclaw time and time again
+27:49 that like hey you're forgetting this you're not doing this it had contradicting memory and then
+27:54 a thing called hermes agent came out essentially it's like opencloud it's a genensic tool where
+27:58 you plug in like cloud code or you plug in open like codeex your subscription to it and it can
+28:03 do things with it and Hermes agent has like 40 like 40 plus built-in skills. They have a
+28:08 built-in self-memory system. So on Opal Cloud, you have to build out this memory system by yourself,
+28:12 which I had to do. But Hermes agent has everything built in natively already within like within when
+28:18 you install it, it's already built in. So I switched from open call to Hermes agent and
+28:22 so far it's been incredible. So like I have like a a Hermes like CEO agent, I have a brain rot agent,
+28:28 I have a marketing agent, a growth agent, and a specific coding agent all tailored for VGOLA. So
+28:33 that's like basically the whole entire company and team you could say behind Vola. Wow. If you
+28:37 were to hire a human to replace everything that your agent is doing for you. Mhm. Would that be
+28:43 a full-time job? Would that be two humans? Three part-time job? What do you think it would take?
+28:47 Oh my goodness. I don't even know. I'm spending about like I don't know how much tokens worth
+28:52 of like cloud code tokens and codex tokens I'm spending just on coding itself. And then like I
+28:57 have a customer support agent literally setting up post hawk like post hawk analytics viewing a
+29:02 bunch of metrics having chron jobs in real time. Like this is easily like a 50 60k 70k a year job
+29:08 just for like one department of bugola like moderating fulltime. And I have agents doing
+29:13 this for me all for like 200 bucks a month 400 bucks a month like everything for my own behalf.
+29:19 And like I'm the CEO and I just tell them what to do and they do it for me you know. Man, my mind is
+29:25 blown right now cuz I'm thinking of just like all these venture capitalists in Silicon Valley. Like
+29:29 they're not going to have projects to give money to. No. Because what you're doing is something
+29:33 that like a similar startup in Silicon Valley would need to raise 1 to 7 million bucks for,
+29:39 right? And hire that 50 to 100k person over and over. Like two marketing people, an admin person,
+29:45 like you're spending hundreds of dollars a month on agents doing the same thing. Like you would
+29:51 not be profitable today. Period. end of story if it weren't for these agents, right? Because five
+29:56 grand a month ain't going to pay all those bills 100%. And the thing also like so if if you don't
+30:01 understand how Cloud Code works for if you're a user, so essentially when you buy the $200 a
+30:06 month plan, they're giving you like $15,000 worth of actual credits and tokens. And if I'm spending
+30:12 that all the time and then I go to Codeex and another Codeex $200 plan, that's another like
+30:17 $15,000 worth of coding and like token usage and credits. So essentially these like these companies
+30:23 because not everybody hits their usage limits and weekly limits every single week. Only for me I'm
+30:28 maxing that thing out every day. Like I kind of have this like anxiety almost that if I don't
+30:32 maximize my my token usage every week every day I'm losing money you know. So like if you're like
+30:39 if you're on cloud co if you're on CEX maximize your output like you're supposed to be like
+30:44 hitting your limits every single week you know. So, cuz like you're literally spending like 30 45
+30:50 $50,000 worth of credits for like 400 600 bucks a month. Oh my gosh. All right. Hermes agent,
+30:56 that's a huge find. What other tools are in your tool belt that people have to use? Like yesterday,
+31:02 I literally was researching with my Hermes agent and like he literally like talked to me like,
+31:07 "Hey, you don't have any like analytics set up, nothing. So like for your software, you want to
+31:10 set up like not sponsored, nothing like it's called Post Hog. It's actually really good.
+31:14 Essentially, Post Hog can literally go on your software and it can see where users are clicking,
+31:19 how long they're on a page for, what they're going to, like the whole entire user journey
+31:24 and then you can build out post hog called events where essentially it's like your whole
+31:29 onboarding flow or for me like the first user they sign up then it tracks for their first clip,
+31:33 their first download, their first post, the first caption and literally tracks every single user's
+31:38 journey seeing okay here they cancelled their their subscription here they got more credits
+31:43 here they got this that XYZ and it's basically like a whole entire like analytical tool that
+31:49 you can like fully deep dive and have your agent just running for you. So like I got post I'm on a
+31:55 free plan also by the way I don't know how like I don't know why I would need a paid plan. How are
+32:00 they making money? That's what I'm saying. Like maybe there's like a limit I'm going to reach or
+32:03 something. I don't know. I literally got a free plan. Put the code like I just told my agent,
+32:07 hey like put this code embed it in my software. I grabbed the API key, gave it to him like, "Okay,
+32:14 start setting all these analytic tracks." And the thing with like if you don't know what to do for
+32:18 your software, the beauty of AI, it's supposed to help you and brainstorm with you, you know? So,
+32:23 like I couldn't come up with all like the post hog events like it literally like went down like
+32:27 a step by step. Hey, you need to track this, you need to track that, you need to track this, boom,
+32:31 boom, boom. And like I was brainstorming with Hermes and then I'm like, "Okay, go go go build it
+32:36 out." And it started building it out for me. And the thing with Hermes agent as well like I don't
+32:39 know if like I wish I could like I could share my screen right now here but you can also see
+32:43 in like Telegram what it's working on what tools what MCP servers it's calling so you can track
+32:49 it whole entire like analyt like it whole journey and it's coding thing as well in real time unlike
+32:54 for openclaw you would tell it hey do like build me this thing and it would just like go quiet
+33:00 and then just spit spit something back out to you couldn't really know what it was doing what it was
+33:04 working on maybe like it took the prompt the wrong way or It's funny because it reminds me of like
+33:09 my hiring process. The the key question that I ask all my potential employees is how well do you work
+33:14 in ambiguity? And it sounds like OpenCloud does not work great in ambiguity, right? It needs more
+33:20 handholding, whereas Hermes Hermes agent like it's just accountable. It's it has autonomy. It just
+33:26 goes and does things. Mhm. Guys, I hate to break it to you, but you're not very likely to actually
+33:31 start a business based on something you see or hear on this podcast, unless you spend a little
+33:35 more time with me and with other people that are doing just that. So, come check out TK Owners.
+33:41 That's tkowners.com where hundreds of people are launching, starting, testing, experimenting with
+33:46 business ideas that they heard from this podcast. If you want to go fast, go alone. If you want to
+33:50 go far, go together. Check out tkowners.com. We'd love to have you. And also another thing,
+33:55 so uh do you know what paperclipip is? Have you heard of the paperclipip? It's like a new AI,
+34:00 uh Google that built out. It's basically I can't keep up, man. Twitter is something new
+34:06 every single day, but essentially there's a thing I know there's a thing called paperclipip. It's a
+34:09 open- source GitHub project and essentially it's a whole like AI orchestration structure for you.
+34:15 So essentially it's like you have a CEO agent and then it can break down into like your CMO,
+34:22 your CTO and then those agents can have agent agents and essentially like it's it's literally
+34:28 a a gentic AI company. So like you can literally hire a CEO, tell it, hey, hire me this kind of
+34:35 agent. You tell it your goals, you tell it your to-do list, you make issues and essentially it
+34:39 literally works for you around the clock 24/7. And the thing with uh paperclipip uh so the founder of
+34:44 paperclipip went on a podcast and talked about a maximizer skill and in my Hermes agent you want
+34:49 to tell your agents if you're using Hermes open call whatever it might be is you want to build it
+34:54 build it out so like hey if I give you a task make sure you go and fix it and do it no matter what
+35:00 cuz like if agents they have access to like click on your web they can like with Chrome dev tools
+35:06 MCP servers they can go click on tools they take screenshots they can like if you give it like your
+35:10 login password make like a dummy account. So, it can log into Instagram, it can log into Tik Tok,
+35:14 it can log into Google, and like I built out a native like custom skill where like,
+35:18 hey, if I give you a task, you work on it no matter what, you do not bug me at all
+35:23 until you like figure it out and you literally self-improve. If you run into any work blocks,
+35:28 if you if you work if you go into like a unknown arrow page, you yourself figure it out and only
+35:33 like tag me and like message me back if you only need my help like 100%. And the thing with armies,
+35:39 it literally figures out and clicks on stuff. It sends me screenshots proactively now because
+35:44 like I give it a task and it runs for me until it literally finishes it. So if you have like agents,
+35:49 I would I would like advise you guys set that up as well that like give them the access they need
+35:53 and just let them run and only ping you when that task is actually done. I call it the let let them
+35:58 cook prompt. Keep cooking. What other like killer prompts like that would you suggest or or hacks or
+36:05 tools to get your agent and or LLM to run better or more efficiently? So another good thing is like
+36:11 the term is called reverse prompting. Essentially as like when you're setting up your open claw or
+36:16 for example now my Hermes agent you want it to ask you questions back. So, for example, like you long
+36:22 as you talk with it like you want to tell your goals and also like be super specific with AI like
+36:27 if you're a vibe coder, you know coding expense like me like like once I learn this like quote and
+36:33 like embed it into your whole entire workflow. If AI gives you a wrong prompt, a wrong build,
+36:38 a wrong UI design, whatever, if the AI gives you something that's not your expectation,
+36:41 it's a skill issue on you. It's a you problem. Like whether you like it or not, the AI can only
+36:47 do so much on what you tell it. like on context and prompt engineering like think about AI like we
+36:53 like we might have a like I had a wrong impression of AI that AI is so grand it knows everything
+36:57 about me like it doesn't know everything about me if I didn't tell it stuff it's not going to go on
+37:01 the web and like search everything and like know my personal goals my ambitious even if it did go
+37:06 on the web it it doesn't know your insecurities your thoughts your mind your history background a
+37:11 conversation you had offline like it doesn't know any of that yeah and that's what I'm saying so
+37:15 like once I found this out like hey like be super specific about the context for prompt engineering
+37:20 like for example if you look at like one like this is a good like side note like if like if you go on
+37:24 a website and you like a designed website and you want to implement it for your startup literally
+37:28 pull up a notes tab on the sidebar of your computer and start writing like in description
+37:33 not your AI but like for yourself and a dog like I like this navbar I like this header I like this
+37:37 prompt and you want to take screenshots of it cuz your AI can also like look at screenshots don't
+37:42 forget that like you want to make a huge note prompt of like things you like take screenshots
+37:47 of the website give it to your agent and now has so much more context rather saying, "Hey,
+37:51 I like the website of xyz.com. Copy it." Like, you have to be so much more specific in how you prompt
+37:58 engineer your your AI. Any other prompts or hacks that you can think of like that? Ask your agent,
+38:04 hey, what tools and what API keys, what kind of MCP servers, what do you what do you need so you
+38:10 can be fully autonomous? Because like for example, like the I didn't know like ChromeDev tools MCP
+38:16 essentially like I'll I'll talk about this again. I did not know anything about it and like every
+38:20 time I was asking my agent to go take screenshots of XYZ web or this website whatever it couldn't
+38:25 and then I told okay how can we make you like do it how what like what skills do you need what like
+38:30 go look on open says GitHub repos look on Twitter go do whatever and then it told me okay there's a
+38:36 thing called Chrome Chrome dev tools MCP where I can where you can allow it on your Mac mini your
+38:42 MacBook and I can go open tabs for you I can go do this for you so tell your agent Like to make
+38:47 it fully autonomous, tell your agent, hey, what skills do you need? What API keys do you need so I
+38:53 can help you so we can improve our work like work relationship and like our workflow? Yeah, I love
+38:59 that. Any other tools that you would recommend? We've got Hermes Agent, we've got Post Hog, we've
+39:03 got Paperclip. Anything else that is just blowing your mind lately? Honestly, as of the moment,
+39:09 that's about it. Like I don't want to like over like complicate everything. That's literally all
+39:13 you need to like build like a good like startup business in today's world. And literally like I
+39:18 have no coding experience. I have nothing at all. And I was able to quit like my like normal like
+39:23 high paying like a marketing job and like build like a decent income for like just the first month
+39:28 of me building like fully marketing my software and I already made five grand in my first month
+39:33 just like that, you know? So like it's like it's super like simple. It's simple work but it's not
+39:39 easy work if that makes sense. Like the time to build a business it's still like it's simple but
+39:44 obviously success if success was easy everybody would be successful obviously like there's like
+39:49 to be entrepreneur it's still hard and you just have to go over these roadblocks like when I was
+39:53 building my software one little like last thing like when I was building my software like I was
+39:58 running to Roblox like the the face tracking the cropping like everything was like super off cuz
+40:02 like a clipping software open raised 50 million to build theirs and who am I to put my own you know
+40:08 and like I could have quit along the way, but I'm like, "No, I'm going to put my head down.
+40:12 I'm going to make this work. I'm going to take the bet on myself and be a self motivator to actually
+40:16 be successful." And now looking back now having like a legit like startup company under my belt,
+40:21 it's like a fully Tom's AI agents. Like my life like fully has changed in the span of like four
+40:26 or five months. Dude, that's inspiring. I'm inspired, man. I'm 20 years older than you and
+40:31 like I didn't know half of these tools existed. You're inspiring a lot of people. Last question
+40:36 I'll ask you. You obviously did a bunch of research in finding this clipping opportunity.
+40:42 What tools or what methodologies, frameworks, whatever can people use to find profitable,
+40:48 uncovered, undiscovered niches? Mhm. So, essentially, you want to like take a step
+40:54 back and like really like for this like part, I didn't use any AI. I didn't use like any uh like
+41:00 I literally just like I came up with this D by myself. Like like like you want to take a step
+41:04 back and actually look into the marketplace. Like I don't care if it takes you like a week or maybe
+41:09 like two weeks. Like you actually want to do deep research by yourself. Like you want to understand
+41:14 the market that you're going to go into. You want to understand what your competitors are
+41:18 doing. You want to understand where the future is headed. Like in this podcast we're talking
+41:21 about how the future is agentic software agentic workflows building skills and and and endpoints
+41:28 web hosts for other agents. And like now having that kind of info, you can start thinking, okay,
+41:34 what can I build that every other company or every like or maybe like one niche market will need. So
+41:39 like maybe like automate like automated leads, but like take it like take that automated leads. How
+41:45 can I make automated leads agentic? Okay, I can build a agent that literally goes and has like
+41:50 a cron job. So itely runs every single day and it can go find me leads on my own behalf. And then I
+41:56 take another step further. It can go message those leads. and go follow up with those leads. So like
+42:00 you can think about a whole like a genic workflow like you you connect one dot you think about it.
+42:05 Oh, mind mapping. This is a huge. You want to go and using mind mapping tools and like build one
+42:10 point. Okay, where does this lead to? Goes here. Okay, it goes into here. And you want to mind
+42:14 map your whole entire research like your entire research thing about whatever niche you want to go
+42:19 into. And that's basically all I I'll say like it sounds cliche, but literally like you want to you
+42:25 want to be the expert in your own field. Like I know everything about clipping. I know where what
+42:30 my competitors doing, where they're lacking, what what they're not doing. And like that's
+42:34 how I'm gonna take the edge on all these like multi-million dollar companies and competitors
+42:38 on Vugola. So whatever you're building, you want to be the expert in it and literally use
+42:42 your own creativity and mind mapping so you fully understand your whole entire market. This is the
+42:47 original Disney like master plan from like 60 70 years ago. Was this a mind map essentially?
+42:54 Yeah, essentially that that's like like the thing about this mind map like I bet you when
+42:57 Walt Disney was doing this, he probably first started with just like the maybe just the music
+43:02 or maybe just the TV like sector and he kept building on to it over time. Yeah. And he just
+43:07 like started building and strategizing those mind. Okay, I should like this connects here,
+43:11 this connects here and like you strategize on your own and research on your own behalf, you
+43:15 know? Yeah. Are there any mind mapping tools that you would recommend? I think Miro Miro is a good
+43:22 one. That's probably the best one I would use. Oh, I've heard of this one. Yes, this looks familiar.
+43:28 Where can we find you? Where can we find your app or you? Yeah. So, if you guys want to test my app,
+43:32 it's still in beta stage right now and we're like I'm obviously like making and polishing it out,
+43:36 like working on non-stop. You can find bugai.com. Basically, vuggai.com. And then where you can find
+43:44 me on on social media. So, I have I'm mainly on Twitter. I built up my personal brand on Twitter
+43:50 to like 27,000 followers and then I started posting on Instagram. So you can find me at
+43:55 Vadem and then uh under underscore and then stru. So s t r i z h e s. Okay, gotcha. We will link to
+44:04 you there. Well, Vim, this is amazing, inspiring. Thank you for all your tools. Speaking of mind
+44:10 map, my mind is blown right now. Um, thanks for coming on, man. Thank you, Chris, for having me.
+44:15 All right, what' you think? Please share it with a friend and we'll see you next time on the Kerner

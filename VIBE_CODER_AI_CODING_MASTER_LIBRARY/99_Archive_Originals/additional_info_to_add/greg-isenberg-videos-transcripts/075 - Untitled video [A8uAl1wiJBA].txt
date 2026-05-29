@@ -1,0 +1,738 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=A8uAl1wiJBA
+Channel: Greg Isenberg
+Video ID: A8uAl1wiJBA
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 So, you want to start a boring business
+0:02 that prints cash, but you don't have the
+0:04 right idea. So, you go on YouTube or you
+0:07 go on X and you see start an HVAC
+0:09 business, start a plumbing business. But
+0:12 the reality is a lot of those businesses
+0:14 are really competitive and difficult to
+0:17 get into. So, I brought on the boring
+0:19 marketer and he shared he revealed his
+0:22 sauce for how to find startup ideas in
+0:26 boring spaces that print money. And he
+0:30 does so by using these NAN workflows
+0:32 that scrapes Google Maps data and then
+0:35 he actually uses AI to power the whole
+0:39 business. Now, I was hoping he was going
+0:41 to share this and I had to convince him,
+0:43 but he finally did. And this entire
+0:46 episode is about how to actually find
+0:49 these ideas, how to actually build these
+0:51 businesses, and actually how to quietly
+0:54 print money with boring businesses using
+0:57 AI. Thank you to the boring marketer for
+1:00 spilling the sauce and thank you to
+1:01 Hostinger for sponsoring this episode.
+1:04 Enjoy the episode. Like, comment so we
+1:08 can get started.
+1:11 [Music]
+1:20 >> We got the boring marketer on the pod.
+1:24 James, by the end of this episode, what
+1:26 are people gonna take out of it?
+1:28 >> I want to help people find the perfect
+1:30 niche to go and start a boring local
+1:33 business. I think that this is a very
+1:36 overlooked opportunity. Everyone's
+1:39 trying to create a sexy SAS and I want
+1:41 them to kind of look in their backyard
+1:43 for opportunities that can get them
+1:44 going.
+1:45 >> And are you going to use AI to help them
+1:47 figure that that out?
+1:49 >> Of course. Always do. We're going to
+1:50 we're going to look at some workflows,
+1:52 some cool AI use cases, and uh we're
+1:55 going to talk a little bit about how
+1:57 I've used this information for my own
+1:59 boring local business that's doing
+2:01 pretty well right now.
+2:02 >> Yeah. So, basically, there's this unfair
+2:04 advantage using AI to figure out which
+2:06 boring business to actually create. And
+2:09 James, by the end of this episode, are
+2:10 people going to have like the
+2:12 confidence, the prompts, the workflows
+2:15 to do this?
+2:16 >> Yep. They're going to have clear ideas
+2:17 what they should go attack. They're
+2:19 going to have some frameworks for how to
+2:20 think about what niche they should go
+2:22 after and I'm going to walk them through
+2:24 workflows that, you know, they can copy
+2:26 and use on their own if they want.
+2:28 >> Great. Let's get into it.
+2:30 >> Let's do it. All right. So, uh, you
+2:32 know, last time I was on, Greg, uh, I
+2:34 was telling you about, uh, Diesel Dudes,
+2:37 which is,
+2:38 >> uh, the local boring business that I
+2:40 started with one of my friends, uh, here
+2:42 in the Carolinas. And uh since I was on
+2:45 uh that business has grown to do like a
+2:48 consistent like $30,000 a month uh in a
+2:51 very short amount of time. Like
+2:53 honestly, I've been pretty much blown
+2:55 away by like how quickly it's it's taken
+2:57 hold. And I've been doing some
+2:59 reflecting on like why it worked out
+3:01 well. And I'm going to try to translate
+3:03 some of the key like patterns that I've
+3:05 seen so far uh in its success. So,
+3:08 there's a few things that people should
+3:10 be thinking about if they want to enter
+3:12 into the boring local business space.
+3:15 And uh the first thing is that you want
+3:17 to find underserved opportunities. So,
+3:20 you know, you look on X or whatever and
+3:22 there's a bunch of like MBAs and stuff
+3:24 like that and everyone's like, I'm going
+3:26 to go and start rolling up plumbing
+3:27 companies or HVAC companies or
+3:29 accounting firms and everyone's thinking
+3:32 about the same like three to five niches
+3:35 uh when they want to, you know, get into
+3:37 this uh type of space. So, what I think
+3:40 people should really be looking at is uh
+3:43 they should be going deeper and kind of
+3:45 ignoring the ones that everyone else is
+3:47 doing. Um, what do I mean by that? Um,
+3:50 if you think about like home services
+3:52 for example, um, there's all these like
+3:54 little micro niches that have very high
+3:58 uh, order value or customer value. So,
+4:01 I'll just ramble off a few and some
+4:03 people might know what these are, some
+4:04 people might not, but hardcaping. So,
+4:07 these are people that come and build
+4:09 like retaining walls at a house. Um,
+4:12 smart home automations or irrigation
+4:15 systems at a home. Uh these are like
+4:18 three to $5,000 uh services um on one
+4:21 job that someone comes out and
+4:23 accomplishes in basically a day. Um
+4:26 other ones that I really like uh closet
+4:29 redesign and organization sounds super
+4:31 niche, but there's a lot of wealthy
+4:33 people that want nice closets, believe
+4:34 it or not. The other one, garage
+4:37 organization and renovation. So my
+4:40 garage is an absolute disaster. I had a
+4:42 guy come out and give me a quote on like
+4:45 refinishing my garage and making it look
+4:47 nice and it was like a $15,000 quote. I
+4:50 was blown away. Um, I need to sell a lot
+4:52 more like local business services in
+4:54 order to go and do that. Uh, but I was I
+4:57 was pretty surprised as how few people
+4:59 were serving that market and how
+5:01 valuable a potential customer was. So,
+5:04 high customer value, underserved
+5:06 markets. So, the next question someone
+5:08 might ask is, "That sounds great, but
+5:10 how in the world do I actually find
+5:12 something like that?" And that's where
+5:13 AI is going to come into play.
+5:16 >> All right, you caught my attention.
+5:18 >> All right, cool. So, the first the first
+5:20 thing that someone needs to do is
+5:22 basically take what I said, take that
+5:24 transcript right there. I want to find
+5:26 underserved local business ideas that
+5:29 don't include plumbing and HVAC and all
+5:32 the common ones you see people talking
+5:33 about on X. I need a high customer value
+5:37 and I need this to be like an
+5:39 underserved market. So there's not a ton
+5:41 of providers. Um, you know, you can say
+5:43 list out 20 different potential niches
+5:46 uh in various locations. Locations that
+5:50 I like to target are referred to as like
+5:52 tier 2 cities or tier three cities. So
+5:56 don't think about like Los Angeles or
+5:58 New York or, you know, Chicago or San
+6:00 Diego or something like that. I live in
+6:02 Charlotte. There's a ton of opportunity
+6:04 here. Think about like Nashville or
+6:06 Atlanta or, you know, uh Dallas, Texas
+6:10 or Denver, Colorado. They're growing
+6:12 quick. They have uh you know, wealthy
+6:14 people that are like moving there in
+6:16 droves. And that tells me that there's
+6:18 probably a lot of demand uh for services
+6:21 and not enough providers uh that can
+6:23 actually go and do the work. So, you get
+6:26 a list of hypotheses, right? That's
+6:28 where I started. And then the next thing
+6:30 that you're going to do is you're going
+6:31 to run those hypotheses through a
+6:34 workflow like this that I'm about to
+6:36 show you. This is a local uh niche
+6:40 research workflow. And uh I'm going to
+6:43 walk you through kind of the main points
+6:45 here. And you know, this is like a
+6:47 pretty complicated workflow as you can
+6:50 see. Um it took a long time to actually
+6:52 build it out, but it has a lot of value.
+6:55 And um in terms of this workflow, uh
+6:58 it's going to be available in the
+6:59 marketers community. I'm just going to
+7:01 give it away for free there so that
+7:02 people can come up with all kinds of
+7:04 ideas. So if you want it, uh go to uh
+7:08 the vibearketer.com,
+7:09 sign up. You'll find this inside as like
+7:11 a community benefit. But uh what it's
+7:14 going to do is it's going to look at one
+7:15 of my favorite treasure troves for
+7:17 market intelligence and opportunity
+7:20 identification, and that's Google Maps.
+7:22 So, if you're looking for a service
+7:24 locally, one of the first things that
+7:26 you look at is Google. You're not going
+7:28 to chat GPT to find like local
+7:30 businesses that you want to go and hire.
+7:32 You're probably going to go to Google.
+7:33 You're going to look at reviews. You're
+7:35 going to see, you know, businesses that
+7:36 are close to you and all that. So, we
+7:38 created a scraper that goes out and
+7:41 takes these hypotheses for ideas and
+7:44 locations and runs them through this
+7:46 workflow in order to validate it,
+7:48 collect a bunch of data, and then let AI
+7:51 kind of synthesize it and tell you if
+7:53 it's a good idea or not. Make sense so
+7:56 far?
+7:57 >> Yeah, absolutely.
+7:58 >> All right, cool. So, um, basically, like
+8:00 I said, you're going to specify the
+8:02 niche and location that you want. It
+8:04 must be like a city and state, and then
+8:05 you can have like multiple keywords. So,
+8:07 we're going to go out and scrape Google
+8:09 Maps. So, we're going to look at the
+8:11 titles of different businesses, their
+8:13 domain, their address, their contact
+8:15 info, and we're going to collect the
+8:17 reviews. So, we're not just going to
+8:19 like look at the actual reviews. We want
+8:21 to understand review volume and velocity
+8:23 for one. So, why volume and velocity? To
+8:27 me, that's a good uh signal that there's
+8:30 a lot of demand in the market. You know,
+8:32 we don't want to go into a market where
+8:33 there's like five Google reviews out
+8:35 there. We want enough volume coming
+8:37 through that we know that there's plenty
+8:39 of customer demand. And then what we're
+8:41 going to do is actually look at those
+8:43 reviews and gather the sentiment around
+8:45 that service. So imagine, you know, you
+8:47 can go and find a niche that has, you
+8:50 know, hundreds of reviews every month,
+8:51 but customers are generally not happy.
+8:54 To me, that sounds like opportunity or
+8:56 arbitrage, right? Next thing we're going
+8:58 to look at social presence. We're going
+9:00 to get Instagram, Facebook, LinkedIn
+9:02 details of all of these businesses.
+9:04 We're going to capture what times these
+9:06 businesses are open. You know, for
+9:08 instance, maybe there's a gap uh in
+9:10 terms of, you know, certain businesses
+9:12 don't have nighttime hours or something
+9:14 like that. And this could be like an
+9:15 emergency service that that people need.
+9:18 Um, so after we gather all of that data
+9:21 with this workflow, we're going to
+9:23 create some calculations. I kind of
+9:25 mentioned these a little bit, but how
+9:26 fast are new reviews coming in? How many
+9:29 players exist in that niche locally? um
+9:32 are customers satisfied? Is consistent
+9:35 service being offered? We're going to
+9:37 look at like the top uh 10 and the
+9:40 bottom 10 players and uh and really kind
+9:42 of identify who the market leaders are.
+9:46 So um next step like I said AI market
+9:49 analysis. So, we're going to get the
+9:50 data. Then, we're going to look at uh
+9:52 the patterns across the niches, missing
+9:54 high potential ideas within the niche,
+9:57 uh certain angles that a business could
+9:59 play on, um what the opportunities are,
+10:03 etc. So, I'll just give you like a quick
+10:05 look at uh at what that looks like, and
+10:07 then I want to touch on how uh you can
+10:10 set up uh workflows like this really,
+10:12 really quickly and uh and save a lot of
+10:14 money doing so. All right. So, here's um
+10:18 here's an example of the output. So, I
+10:21 ran it through uh like Charlotte, for
+10:22 example, and I've got landscaping. I've
+10:25 got cosmetic dentistry. I've got wedding
+10:28 uh design services, destination wedding
+10:31 planning, luxury tax advisory services,
+10:35 estate planning attorney for high netw
+10:37 worth individuals, smart home automation
+10:40 installation, luxury home security
+10:42 systems, exotic car detailing services,
+10:46 uh custom car wraps, body contouring med
+10:49 spa, dermal fillers, sports
+10:52 chiropractor, custom pool builder, and
+10:55 outdoor kitchen designer. So, we've got
+10:57 a lot of really interesting, unique
+10:59 markets that aren't the ones that, you
+11:01 know, everyone's typically trying to go
+11:03 after.
+11:04 >> Yeah. I mean, someone I will say
+11:06 someone's going to be looking at this
+11:07 and they're going to be like, "All
+11:08 right, but I don't know the first thing
+11:10 about car wrapping."
+11:12 >> Yeah.
+11:13 >> So, what do you say to someone like
+11:14 that? Well, uh, what I say to someone
+11:16 like that, you know, the the big
+11:18 opportunity here, you don't necessarily
+11:20 have to go and be an expert in any one
+11:22 of these markets to create a successful
+11:25 business here. So, let's say you know
+11:27 nothing about car rapping, but cars kind
+11:29 of interest you or something like that.
+11:31 One way you could play this is you could
+11:33 start a local newsletter uh that
+11:36 attracts the end customer. So maybe for
+11:38 instance you start a local newsletter on
+11:41 car meetups in the area or something
+11:43 like that. You know there's all kinds of
+11:45 them. I see like coffee and cars or you
+11:48 know antique car uh meetups or
+11:50 enthusiast groups. Enthusiast groups are
+11:52 also a great market to to think about.
+11:55 So think about creating like a
+11:57 newsletter or a directory that's sort of
+12:00 broad within the niche. So that's one
+12:02 way that you can leverage AI quickly.
+12:04 You could vibe code up a directory site.
+12:06 You could vibe code a newsletter landing
+12:09 page and then you could use some of the
+12:10 claude code SEO tactics that I talked
+12:13 about in our last video to get traffic
+12:16 to that site to get subscribers. Right
+12:18 after you get subscribers, that puts you
+12:20 in a totally different position to
+12:22 attack a market. You're not going and to
+12:24 the to the exotic car uh you know,
+12:27 service companies or whatever and
+12:29 saying, "Hey, like I'm starting an
+12:31 agency. I really want to help you grow
+12:32 your business." you know, they get
+12:34 hundreds of those types of uh messages a
+12:37 month. You're saying, "Hey, I have one
+12:39 of the top newsletters in the local
+12:41 market with a bunch of car enthusiasts
+12:44 and I want to figure out how I can pass
+12:46 some on to you and I think it would
+12:47 really benefit your business. Is there a
+12:48 way that we could partner up or
+12:50 something like that?" So, I I think
+12:52 that's the way to frame it and to think
+12:54 about it. Um, you know, you don't have
+12:56 to be an expert. If you know how to use
+12:58 some of these AI tools, you can attack
+13:00 these markets and really help out
+13:02 another one of these types of
+13:03 businesses.
+13:05 >> Yeah. I think the way to think about it
+13:06 is you're not going to be in the car
+13:09 rapping business. You're actually going
+13:10 to be in the media business, like the
+13:11 car media business. And people think
+13:14 that the media business is actually a
+13:16 bad business to be in. Because when they
+13:17 think of the media business, they think
+13:19 of like, you know, Time Warner or Kai
+13:21 Nast, you know, these big media
+13:24 conglomerates that have spent billions
+13:25 of dollars incubating and building these
+13:27 media assets. The difference today is,
+13:31 uh, you know, it just doesn't cost that
+13:32 much to create the media, you know, with
+13:35 all these AI tools. So if you can
+13:37 actually go and you know attract a highv
+13:40 value customer uh you know and and then
+13:44 ultimately pass them off from a lead
+13:47 genen perspective to someone else get a
+13:49 cut of that your margin is going to be
+13:51 super high your costs are going to be
+13:53 pretty low and your competition is going
+13:55 to be low and that's why I'm that's why
+13:57 I'm interested you still have my
+13:59 attention. Like think about it. If if
+14:01 you're going and trying to create like a
+14:03 national media company for like you know
+14:06 vehicles and cars or something like
+14:08 that, there's going to be a lot of
+14:09 competition. Good luck.
+14:11 >> Yeah. Good luck. Have fun. Like go on
+14:13 Instagram. There's pages with like
+14:15 millions of followers. There's
+14:16 established websites getting, you know,
+14:18 millions of visitors a month. But if you
+14:20 narrow that down into a local niche and
+14:23 you create, you know, the best kind of
+14:25 like vehicle media company in uh, you
+14:28 know, Nashville, Tennessee or something
+14:30 like that, your competition is going to
+14:32 be, you know, much smaller. And those
+14:34 media companies, if they even do exist,
+14:37 they're not an expert in leveraging AI
+14:40 to automate a lot of facets of this
+14:41 business, create highquality content
+14:43 quickly, and move fast. So, I think that
+14:45 that's really kind of one of the
+14:47 opportunities for people in terms of
+14:49 this arbitrage uh that's out there.
+14:52 >> And and in terms of like how big could
+14:54 this be? Like Nashville car wrapping
+14:56 like you know, are we talking $50,000 a
+14:59 year of profit, $200,000 a year of
+15:02 profit? Like what are you thinking?
+15:03 >> I mean, I can speak to like uh to the
+15:06 mobile diesel mechanic uh business in
+15:09 Charlotte and Colombia, right? If you
+15:12 think about that, uh, you know, top of
+15:14 your mind is probably it probably
+15:15 doesn't sound like that big of an
+15:17 opportunity. Uh, however, um, average
+15:20 customer size currently is $1,600 per
+15:23 job. Um, we get probably 10 inbound
+15:26 phone calls every single day. We can't
+15:28 even service all of the calls that we're
+15:30 getting right now. We're trying to hire
+15:32 up to keep up with the demand. So um you
+15:36 know I think that this alone could be
+15:37 like a multiple sevenf figureure
+15:39 business in two uh locations. So once we
+15:42 figure out those two locations and we
+15:44 have the playbook and we can scale that
+15:45 out or whatever um you know it can be
+15:48 really really significant. Um again uh
+15:51 I'm going the route where I'm actually
+15:53 building out this infrastructure and the
+15:55 operations and hiring the people but you
+15:57 don't have to do that. If I were doing
+15:59 it the way that we're talking about with
+16:00 more of a lead genen play or a lead
+16:02 genen model, uh there's really kind of
+16:04 two ways that you can approach that. Uh
+16:06 one is, you know, you create that
+16:08 newsletter uh type thing and uh you you
+16:12 acquire the end customers and you go to
+16:14 the business and you say, "Hey, like um
+16:16 I'm going to uh sell you leads for $100,
+16:21 $200 a piece or something like that."
+16:23 You know, if a company's got like a
+16:24 $1,600 average customer value, they
+16:28 would happily pay that. That's probably
+16:30 what they pay on Google Ads or something
+16:32 to get a a hot qualified call coming
+16:35 into their business. And this is just
+16:37 another channel that could add some
+16:39 incremental opportunities for them. So,
+16:41 you know, imagine if you uh are able to
+16:44 get, I don't know, 200 300 uh phone
+16:46 calls or hot leads a month for a
+16:48 business in in one of these markets that
+16:50 clearly have enough demand. I mean, your
+16:52 costs are pretty low. It could be a 20
+16:54 $30,000 a month company right there.
+16:56 >> All right, let's continue.
+16:58 >> All right, cool. Um, all right. So, uh,
+17:01 something that I want to highlight when
+17:02 setting up a workflow like this, let's
+17:04 say you're an entrepreneur or something
+17:06 just kind of getting, you know, a
+17:07 business like this going, you want to
+17:09 keep costs low, you want to move
+17:10 quickly. Uh, one of the tools that you
+17:13 should think about, uh, which I use for
+17:14 this workflow is Hostinger. So uh
+17:17 Hostinger uh allows you to create
+17:20 virtual private servers for your inadin
+17:22 workflows. So you know typically uh
+17:25 people would go to NADN and they would
+17:27 sign up for a hosting account here. Uh
+17:30 and they would be you know limited in
+17:32 terms of the amount of workflows they
+17:33 can run per month and they'd be spending
+17:35 you know anywhere from 20 to 50 to 100
+17:38 or $200 a month to to run these
+17:41 workflows and host them uh online. So
+17:44 >> wait so James Yeah. When when when you
+17:47 say that like I see the concurrent
+17:49 execution. So basically NAD limits the
+17:52 amount of
+17:54 workflow executions you can do at a
+17:57 given time. Is that what you're saying?
+17:58 >> Yeah. You get a certain amount of
+18:00 workflow runs per month per plan. So on
+18:03 the $20 plan you get like $2 and a half
+18:05 thousand. $50 plan you get 10,000. Uh
+18:09 you know bigger point is that uh you
+18:11 know it's $50 a month. We already
+18:13 subscribe to a lot of SAS tools. I have
+18:15 so many and I'm like always trying to
+18:16 cut my costs. So I use Hostinger for
+18:20 this and I was able to you know get this
+18:22 hosted on the cloud uh for you know
+18:25 between like five and and $7. So and I
+18:28 can create unlimited workflows on there
+18:30 and uh and scale this up. So in terms of
+18:32 like cost and scalability I think this
+18:35 is something people should look at uh
+18:37 when they're when they're working with
+18:38 like tools like inadin.
+18:40 >> Cool.
+18:41 >> Yep. So easy process. Choose your plan.
+18:44 Uh, you know, once you log into
+18:46 Hostinger, uh, there's a virtual private
+18:48 server item over on the menu. You're
+18:51 just going to add a new virtual private
+18:52 server. Uh, select your location where
+18:55 you want your server to be. Just type in
+18:57 inade.
+18:59 Select it. Hit next. You'll create a
+19:01 password uh to log in with. Um, I didn't
+19:05 select these additional features. You
+19:06 can if you want. And uh you know once
+19:09 you're in you'll just create some inadin
+19:11 credentials and uh you'll be able to log
+19:13 directly into uh to your workflows there
+19:16 and uh it's self-hosted on your own
+19:19 private server for for a lot cheaper
+19:21 than what you might typically uh pay. If
+19:24 you want to self-host your workflows
+19:26 super easy. You just go to
+19:27 hostinger.com/sip10s
+19:31 sip10 to support the channel.
+19:34 >> Cool. Yeah. Cheaper and and more
+19:36 workflows.
+19:38 for less. So yeah, so yeah, like
+19:40 basically, you know, we're getting the
+19:42 data here and uh I'll run through it a
+19:45 little bit uh more before we go to the
+19:47 next stage. So I just wanted to talk
+19:49 about a couple of these like unique
+19:51 angles within these markets. So uh for
+19:53 landscaping, you don't need to go and
+19:55 start like a landscaping business. You
+19:57 could be the eco-friendly or sustainable
+20:00 landscaping service that you know
+20:02 specializes in water features and koi
+20:04 pond installation or something like
+20:06 that, right? So, um, you know, there's a
+20:08 lot of money in these micro niches in
+20:11 local markets. That's the main point
+20:12 that I want people to kind of take away.
+20:15 And Google Maps is like a great data
+20:17 source uh to go and look at, hey, is
+20:21 there a high number of reviews? Uh, are
+20:23 there not that many providers in the
+20:25 market? And kind of look at those,
+20:26 pattern match a little bit. And, uh,
+20:29 it's a great way to, uh, you know, get
+20:31 over that, uh, you know, mental tail
+20:33 spin of like, I don't know what niche to
+20:35 target or or whatnot. So let AI help you
+20:37 there and uh and work with some data for
+20:39 it.
+20:41 Um so let's just take an example like
+20:44 let's say you decided to uh pick the
+20:46 cosmetic dentistry market or something
+20:48 like that and uh perhaps you have like a
+20:51 sub angle or a subniche within it. Maybe
+20:53 you focus on like you know uh family
+20:56 service and and you work well with kids
+20:58 or something like that. I don't know.
+21:00 So, uh, I fed in all of the the review
+21:03 sentiment and the pain points that are
+21:06 coming from this Google Maps information
+21:08 into another, uh, workflow, which is a
+21:11 newsletter creation workflow. So, this
+21:14 workflow here, it's going to feed in
+21:15 this data. We have an AI agent that's
+21:18 going to look at all of it. It's going
+21:20 to come up with a bunch of ideas in
+21:21 terms of like uh your topic, your angle,
+21:25 subject lines, uh and some business
+21:27 rationale to uh to decide if this is
+21:30 like a good newsletter issue or a good
+21:32 newsletter angle. So, uh this creates
+21:35 amazing newsletters uh after it's able
+21:37 to collect all that Google Maps data.
+21:40 It's got a wealth of of context that
+21:42 it's feeding into the agent and uh you
+21:44 know, I was really pleased with kind of
+21:46 like how it came out. Um, so yeah, hits
+21:50 on all the pain points someone might be
+21:51 thinking about. Uh, again, you could
+21:53 integrate things like local events or
+21:56 uh, you know, links or, you know, things
+21:59 of interest that the market might be
+22:00 into and then you're addressing all the
+22:02 pain points and you've got a bunch of
+22:04 content uh, that you can send out uh, to
+22:06 get those leads.
+22:08 >> It almost sounds too easy, dude. You
+22:10 know what I mean?
+22:11 >> I know. I know.
+22:13 >> Yeah. cuz like kind of what you're
+22:14 saying is like all right so I'm going to
+22:17 I'm going to use Google Maps which by
+22:18 the way I've never even thought of using
+22:20 Google Maps as the data source but makes
+22:22 complete sense so I'm going to use
+22:24 Google Maps data source to find reviews
+22:27 and I'm going to find niches with sort
+22:30 of bad reviews with high velocity so I'm
+22:32 going to find really good niches
+22:34 validated and then you're you're going
+22:36 to use AI to actually essentially build
+22:41 the media um completely reusing the
+22:45 words that people are using in Google
+22:48 reviews
+22:50 and just set it out on autopilot and
+22:52 just execute on this.
+22:54 >> Exactly. Exactly. I mean, you could use
+22:56 any any of the newsletter tools out
+22:58 there to build like a fast landing page
+23:00 or whatever. Um you know, build out some
+23:03 location or uh service pages or whatever
+23:06 that looks like. I mean, again, you
+23:08 could go to Chad GPT and say, "Hey, like
+23:11 here's the niche that I chose. Uh, it's
+23:13 going to be cosmetic dentistry. Uh, what
+23:15 other like SEO pages or whatever could I
+23:18 put on here to get people to come and
+23:20 sign up for my newsletter?" And, uh, you
+23:22 know, you don't need to go crazy and go
+23:24 into all the SEO keyword research tools
+23:26 and all that. I didn't do any of that
+23:27 for Diesel Dudes. And we get all of our
+23:30 traffic and and leads from the search
+23:32 research I did on on GPT5. So, uh,
+23:35 that's really all you need to do. And I
+23:38 think this is a massive arbitrage. Like,
+23:40 and and nobody's really talking about
+23:42 it, which blows my mind.
+23:43 >> You say nobody's really talking about
+23:45 it. Nobody is talking about it.
+23:47 Literally, on my timeline, it's
+23:49 literally, it's all the same things.
+23:51 HVAC, plumbing,
+23:53 uh, you know, pool cleaning, it's all
+23:56 the same thing. And what's going to
+23:58 happen is you're going to have a bunch
+24:00 of people who are just going to who have
+24:02 no business, you know, building in that
+24:04 space, go into an extremely competitive
+24:07 space with, by the way, a bunch of
+24:08 sharks. There's like a bunch of like
+24:10 >> Oh, yeah.
+24:11 >> Wall Street funded, you know,
+24:14 competition. And I know some of these
+24:15 people um and you're they're going to
+24:18 get their, you know, lunch eaten.
+24:20 >> Yeah. Yeah. So, you know, like if you
+24:23 know enough about AI to be dangerous,
+24:26 you can build workflows, you can use,
+24:28 you know, the tools that are out there,
+24:29 things like that. Um, this presents a
+24:32 great opportunity for you to create like
+24:35 a lowcost business by doing the
+24:37 research, right? Like find those
+24:39 underserved markets in in these tier 2
+24:42 and tier three cities. find your angle,
+24:45 create the media asset, and then you can
+24:47 resell the leads, you can get verified
+24:49 partners, whatever. You could do that to
+24:51 fund actually creating your own uh
+24:54 operation if that's what you want to do
+24:56 after you learn enough uh over time.
+24:59 >> All right, man. Well, I appreciate you
+25:01 sharing the sauce. Um you could have
+25:03 kept this one to yourself, but you're
+25:06 too good of a person. I I app that's why
+25:08 I love you.
+25:09 I'm sure I'm going to get uh get some
+25:11 competitors that are going to be uh
+25:12 trying to get into this and stuff, but
+25:14 but that's okay. There's plenty of room
+25:16 for everybody to eat in this like local
+25:19 niche uh boring business space if they
+25:22 can use AI
+25:23 >> mobile diesel gals.
+25:25 >> That's right. That's right. Plenty of
+25:27 business. Maybe I can uh send them some
+25:29 of our lead overflow that we have.
+25:32 >> Um I appreciate you. If people want to
+25:35 learn more about workflows, learn more
+25:37 about Vibe Marketing, learn more about,
+25:38 you know, using AI for boring
+25:40 businesses, where could they go?
+25:41 >> They should go to the vibearketer.com.
+25:43 Uh, sign up for the newsletter. We send
+25:45 out workflows like the one we talked
+25:47 about every week. Uh, we highlight all
+25:49 the cool things that are happening at
+25:51 the intersection of AI and marketing.
+25:52 And then we have a community where we've
+25:54 got like over 2500 workflows and a
+25:56 directory we built for our members. Um,
+25:58 I've got a new secret project that I
+26:02 launched exclusively within our
+26:04 community. You know all about it, uh,
+26:06 Greg. We've been working on this for a
+26:07 while. I think it's going to take Vibe
+26:09 Marketing as a whole to the next level.
+26:10 We're giving away a bunch of free
+26:12 credits there. I'm doing Vibe sessions
+26:15 in the community every other week where
+26:17 I'm just getting on for like two hours
+26:19 at a time, jamming with members. We're
+26:21 building out a mentor program. A lot of
+26:23 cool things happening there.
+26:25 >> Amazing. Uh, I'll include the link. uh
+26:28 to that in uh to the VI marketer uh and
+26:32 the and the community in the in the show
+26:34 notes. Uh I'll include the link to
+26:36 Hostinger uh in the show notes. I think
+26:39 uh we reached out to them and got a a
+26:42 discount code, right?
+26:43 >> Yep. Exactly. Yep. We got a discount
+26:45 code. Throw it in the show notes and uh
+26:48 people can save a lot of money on their
+26:49 workflows.
+26:50 >> I think it's SIP 10. Uh, and thanks
+26:53 again for hosting her, for making this
+26:55 episode possible and and getting James
+26:58 to, you know, extract some sauce and and
+27:01 and I appreciate you. And, uh, I'll see
+27:03 you next time. Also, let us know what
+27:05 you want us to cover next. You know,
+27:08 we're always looking for topics for
+27:10 what, you know, what we should cover
+27:12 next. So, you know, I read every single
+27:15 comment. James goes in there and reaches
+27:17 comments, too. So, let us know and uh,
+27:20 we'll sauce it up.
+27:21 >> Awesome. Thanks for having me, Greg.
+27:22 Appreciate it.

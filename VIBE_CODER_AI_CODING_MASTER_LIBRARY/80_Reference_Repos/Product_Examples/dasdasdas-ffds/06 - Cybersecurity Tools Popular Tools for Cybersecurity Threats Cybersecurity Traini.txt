@@ -1,0 +1,455 @@
+Title: Cybersecurity Tools | Popular Tools for Cybersecurity Threats | Cybersecurity Training | Edureka
+URL: https://www.youtube.com/watch?v=KgtevibJlTE&list=PL9ooVrP1hQOGPQVeapGsJCktzIO4DtI4_&index=7&pp=iAQB
+Channel: YouTube playlist
+Video ID: KgtevibJlTE
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:24:55.858Z
+
+0:01 [Music]
+0:06 threats are constantly evolving and just
+0:09 like everything else tend to follow
+0:10 certain trends whenever a new type of
+0:13 threat is especially successful or
+0:14 profitable many others of the same type
+0:16 will inevitably follow the best defenses
+0:18 need to mirror those trends so users get
+0:20 the most robust protection against the
+0:22 newest wave of threats hi folks my name
+0:25 is Aria and today we are going to talk
+0:27 about cybersecurity tools that have
+0:29 stood still through thick and thin
+0:30 against various kinds of cyber attacks
+0:32 since there are a multitude of tools
+0:35 spread out across various domains of
+0:37 cybersecurity we are going to talk about
+0:39 one tool from each domain so let's begin
+0:41 without wasting much time so first on a
+0:44 list is blue vector now network security
+0:46 programs and human IT operators who
+0:48 manage them under constant threat new
+0:51 attack techniques like malware deployed
+0:53 without files are straining resources
+0:55 and testing defenses in two critical
+0:57 ways first brand new threats and attack
+1:00 techniques often have at least a small
+1:02 window of time when they can bypass some
+1:04 defenses before defender catches up
+1:05 second even if critical threat like zero
+1:08 day malware are stopped the constant
+1:10 siege of attackers means that defenders
+1:12 are likely to get overloaded by both
+1:14 real alerts and false positives one
+1:16 possible solution that has only recently
+1:19 become an option is tasking machines and
+1:21 computers with protecting themselves if
+1:23 a security program could be programmed
+1:25 to think that act like an analyst then
+1:27 it could try and counter malware and
+1:29 human back intrusion at machine speed a
+1:31 move that would give defenders a serious
+1:33 home-court advantage this is exactly
+1:35 what blue vector defense tries to do
+1:37 blue vector works almost right away but
+1:39 also has deep machine learning
+1:41 capabilities so it gets even smarter
+1:43 over time and to learn the intricacies
+1:44 of each network that deploys it tweaking
+1:47 its algorithms and detection engines in
+1:49 a way that makes more sense
+1:51 for the environment blue vector is
+1:52 installed as either a hardware based
+1:54 Network appliance or as a virtual
+1:56 machine it can operate in line with
+1:58 network traffic stopping and remediating
+2:00 threats in real time as they attempt to
+2:02 enter a protected space or as a
+2:03 retrospective tool that can scan the
+2:06 work performed by other programs and
+2:07 analysts cutting threats that they might
+2:09 have missed and recommending fixes it is
+2:12 designed to work with all
+2:13 ipv6 traffic as well as older ipv4
+2:16 streams so it can operate in
+2:17 environments that are rich in Internet
+2:19 of Things and supervisory control and
+2:21 data acquisition devices such as those
+2:23 in industrial and manufacturing settings
+2:25 as well as for normal office type
+2:27 environments so that was it for blue
+2:30 vector next up on our list of
+2:31 cybersecurity tools is Brocato these
+2:34 days even the most basic cybersecurity
+2:36 defenses for any medium to large
+2:38 enterprise will include an intrusion
+2:40 prevention system or an intrusion
+2:41 detection system even by itself a
+2:43 well-tuned IPS / IDs system that is
+2:46 constantly monitored by security teams
+2:48 will catch most network problems and
+2:50 security breaches however the fact that
+2:53 many organizations stop there has led to
+2:55 an up stick in successful attacks
+2:56 designed specifically to operate in IDs
+2:58 blind spots this is where Brocato
+3:00 platform comes into play at its core
+3:02 Rakata
+3:03 offers advanced IPS IDs protection with
+3:06 multiple detection engines and threat
+3:08 feed to defend network traffic and core
+3:10 assets but it goes a step further adding
+3:12 the ability to launch threat hunts based
+3:14 on events or simple anomalies this would
+3:17 enable an organization to begin Network
+3:19 level threat hunting
+3:20 using the same staff and tools they are
+3:22 already using for IPS monitoring it
+3:24 would be a good step in the right
+3:25 direction towards better protection
+3:27 without the pain of installing
+3:28 additional programs or retraining staff
+3:30 looking first at ricotta as a pure idea
+3:33 system it is deployed as a physical or
+3:35 virtual appliance that serves as the
+3:37 main collator point and user interface
+3:39 this in turn links up to network sensors
+3:41 that are deployed at Network choke
+3:43 points to capture traffic data while
+3:45 ricotta sensors will almost always be
+3:47 deployed at network gateways they can
+3:49 additionally be placed around core
+3:50 assets of internal points by a network
+3:52 traffic flow to give platform visibility
+3:54 into her eyes and remove menteur
+3:56 potential threats now that takes care of
+3:58 intrusion detection up next on our list
+4:00 of tools is cloud defender by alert
+4:02 logic compared to traditional servers
+4:04 and client architectures cloud computing
+4:06 is the new kid on the block while
+4:08 cybersecurity best practices are similar
+4:11 within a cloud environment many of the
+4:12 vulnerabilities and specific threats
+4:14 that target the cloud are different as
+4:16 such even organizations with deep
+4:19 cybersecurity teams that may need a
+4:20 little help when moving large chunks of
+4:22 their computing infrastructure to the
+4:24 cloud that is the whole idea behind
+4:25 cloud defender
+4:27 from alert logic designed from the
+4:28 ground up as a way to provide protection
+4:30 to web applications critical data and
+4:33 everything else running or stored within
+4:34 an organization's cloud there is a whole
+4:36 sliding scale of support available at
+4:38 the low-end cloud defender is a
+4:40 user-friendly tool that would enable
+4:42 local IT staff to inspect the cloud
+4:43 deployment to look for evidences or
+4:45 hidden threats or breaches at the other
+4:48 extreme the 200% cyber security team at
+4:50 alert logic can take over most
+4:52 cloud-based cyber security functions
+4:54 offering monitoring advising and logging
+4:56 of events in a software-as-a-service
+4:58 model when used as a SAS alert logic
+5:01 will do everything short of remediating
+5:02 problems most organizations are probably
+5:05 want to use cloud defender as some
+5:07 combination of both SAS security and as
+5:09 a tool to aid the local team the
+5:11 platform is configured for this and
+5:13 making all logs and information
+5:15 collected by the program available at
+5:17 least for a year to local IT staffers
+5:19 cloud defender works with any cloud
+5:21 environment including Amazon Web
+5:22 Services Microsoft Azure Google cloud
+5:25 services VM bears and others there is no
+5:27 difference in pricing based on the cloud
+5:29 environment pricing is totally based on
+5:31 the number of nodes you've been
+5:32 protected and the size of the log files
+5:34 being analyzed up next on our list of
+5:36 tools is coffins triage which works as a
+5:39 phishing defense tool one of the most
+5:40 popular and quickest ways for attackers
+5:42 to enter the network these days is to
+5:44 trick a user into taking an action
+5:46 whether installing malware or providing
+5:48 their login credentials and if they
+5:50 pretended to be a company official a
+5:51 business partner or a family friend
+5:53 their chances of success skyrockets
+5:55 phishing email run the game from Kemsley
+5:58 work sweepstakes type scams all the way
+6:00 up to highly researched and targeted
+6:02 campaign designed to attack a handful of
+6:04 key people at an organization yet
+6:07 despite the danger they pose most
+6:08 organizations have little or no defense
+6:10 against them back in 2008 when the
+6:13 original Fishman product was deployed
+6:15 which was also the name of the company
+6:16 at the time there was also very low
+6:18 awareness of the danger that these types
+6:20 of email represented the Fishman
+6:22 simulation was created to allow
+6:24 network administrators and security
+6:26 personnel's to craft their own phishing
+6:27 emails to train users about the danger
+6:30 sometime incident in mail messages as an
+6:32 organization fish me has moved its focus
+6:35 away from pure education into threat
+6:37 remediation even the company's name is
+6:39 changing
+6:40 fish me to KO fence which is a
+6:41 combination of collaborative and defense
+6:43 when the first KO fence branded products
+6:45 triage takes email reported by users as
+6:48 suspected phishing and helps to manage
+6:49 responses in one sense the fish meat
+6:52 product helps to make users more adept
+6:54 at spotting phishing scams while triage
+6:56 creates a way for organizations to tap
+6:58 into newfound skill set that the
+7:00 employee should have learned the next
+7:01 tool in our list deals with application
+7:03 security which is basically the
+7:05 convergence of endpoint security network
+7:07 security and content security as you
+7:09 guys can see the name of the tool is
+7:11 contrast security which is actually a
+7:13 suit of tools now as such cybersecurity
+7:15 programs tend to look at the problem of
+7:17 defense from a lot of different angles
+7:19 with expectations that enterprises will
+7:22 employ several different type of
+7:23 security at the same time this has led
+7:26 to a different problem alert fatigue
+7:28 setting in on IT teams as all of those
+7:30 programs sound the alarm many times and
+7:32 all the time the contrast security suit
+7:34 aims to change that trend in two
+7:36 important ways first it takes one of the
+7:38 critical aspects of cyber security today
+7:40 that is application security and
+7:42 condenses it into a single program that
+7:44 can protect apps from the time of
+7:47 development first begins all the way
+7:49 through the deployment and their full
+7:50 lifecycle second because contrast
+7:52 security embeds agents inside each app
+7:55 that is protecting essentially becomes a
+7:57 part of the program there is almost no
+7:59 chance of false positive in fact it's
+8:01 called a rare hundred percent on the
+8:03 overall security benchmark passing over
+8:05 2,000 tests without generating any false
+8:07 positives the secret sauce for contrast
+8:10 security is use of bytecode
+8:12 instrumentation a feature in Java used
+8:14 to help integrate programs and
+8:16 application features during development
+8:18 only hill contrast security uses it for
+8:20 the purpose of cyber security
+8:21 specifically embedding an agent into an
+8:24 application which will thereafter we
+8:26 directly monitored and protected from
+8:27 the inside out in the sense it turns any
+8:30 type of normal application into one that
+8:32 is designed to focus on security but
+8:34 don't worry all the normals business
+8:36 focus tasks of the app will still
+8:38 function so next on a list of tools is
+8:40 digital guardian in recent years
+8:42 advanced threats have been increasingly
+8:44 targeting endpoints this makes sense
+8:46 because endpoint security has
+8:48 traditionally been the realms of
+8:50 signature-based
+8:50 anti viruses technology that has proven
+8:53 to be an addict
+8:53 protection against targeted and highly
+8:56 advanced malware campaigns that is where
+8:58 Digital Guardian threat aware data
+8:59 protection platform comes in with most
+9:02 endpoint security programs protection is
+9:04 delivered through the creation of rules
+9:06 behavior that breaks the rules of the
+9:08 network is considered a suspect and is
+9:10 blocked
+9:11 flagged or otherwise becomes the subject
+9:12 of a security alert one of the biggest
+9:14 problems with this method is that
+9:16 security is only as good as the rule set
+9:19 administrators either must carefully
+9:20 craft rules based on their own expertise
+9:23 or set a protection program into
+9:24 learning mode for several weeks or
+9:26 months while it discovers good Network
+9:28 behavior and crafts rules restricting
+9:30 everything else the digital garden
+9:32 platform by contrast comes ready to use
+9:35 preloaded with thousands of best
+9:36 practices rules based on years of
+9:38 experience working in the field and
+9:40 after a quick data discovery process
+9:42 those rules are tailored to the specific
+9:43 network that it is protecting this is
+9:46 all done nearly instantaneously so that
+9:48 when agents are deployed they can
+9:50 immediately begin protecting endpoints
+9:52 with good security policies next on our
+9:54 list of cyber security tools we have
+9:56 intellect up there are important
+9:58 distinctions between compliance and
+9:59 security they are meant to be mutually
+10:02 supporting with compliance rules put in
+10:03 place to provide a good security
+10:05 baseline but it's possible to be
+10:07 completely in compliance with all
+10:08 applicable regulations and still not be
+10:11 adequately secured the reverse is also
+10:13 true if an organization has deep
+10:15 security but it's still not technically
+10:17 in compliance with applicable
+10:19 regulations should a data theft occur
+10:21 they will likely still be held
+10:22 responsible
+10:23 sometimes financially because of the
+10:25 lack of compliance and just like
+10:27 compliance and security are similar but
+10:29 different so too are the skill set used
+10:31 to implement them organizations can have
+10:33 a deep IT or cyber security staff that
+10:36 is unskilled with compliance issues or
+10:38 unpracticed in knowing exactly which
+10:40 regulations apply that is where the
+10:42 intellect the platform from tech
+10:43 democracy shines the platform acts like
+10:46 a security information and event
+10:47 management console but for compliancy
+10:50 issues installed either as an on-premise
+10:52 or cloud-based console it pulls
+10:54 information from a series of networked
+10:56 collectors and correlates that data into
+10:59 continuously monitored compliancy
+11:00 dashboard it's a neat tool that every
+11:02 company should have up next on our list
+11:04 of tools we have the man tix for which
+11:06 is
+11:07 interesting tool in my opinion given the
+11:09 insidious nature of advanced threats
+11:11 it's almost a certainty that every
+11:13 organization of any size will eventually
+11:16 be hacked or compromised regardless of
+11:18 what or how many cyber security defenses
+11:20 are in place in response the somewhat
+11:22 new concept of threat hunting is
+11:24 becoming an increasingly important part
+11:26 of cyber security defenses the man takes
+11:28 four platform named after the apex
+11:30 predator of the insect Kingdom the
+11:32 praying mantis seeks to solve the people
+11:34 problem while the program provides
+11:36 robust threat hunting tools for use by
+11:38 clients the company also employs a team
+11:40 of experts to hunt on their behalf it
+11:43 takes threat hunting into the
+11:44 software-as-a-service realm man takes
+11:46 four was originally designed for the
+11:48 Canadian government's Department of
+11:49 Public Safety which is the equivalent of
+11:52 the department of homeland security in
+11:53 the United States in Canada man takes
+11:56 four helps to defend Network sitting in
+11:58 10 sectors considered critical
+12:00 infrastructure rooting out threats that
+12:02 might bypass more traditional protection
+12:04 the system is deployed as two components
+12:06 the first part is comprised of observer
+12:08 sensors that sit at critical points
+12:10 within a protected network either
+12:12 alongside routers or ad network gateways
+12:14 though they can be deployed almost
+12:16 anywhere depending on the need the
+12:18 sensors are lightweight enough to be
+12:20 housed inside a virtual machine or
+12:21 within the network server with
+12:23 additional bandwidth
+12:24 however because the observer sensor
+12:26 process and record a lot of traffic the
+12:29 best deployment is probably going to be
+12:30 as a small appliance that hosts nothing
+12:33 else something the company provides the
+12:35 sensors can be set to work in line or to
+12:38 passively sniff network traffic now the
+12:41 last tool that we're going to discuss
+12:42 for today is a pretty important tool
+12:44 also in my opinion and it covers a very
+12:46 important aspect of any industry level
+12:48 cybersecurity plan that is traffic
+12:50 analysis network traffic analysis tools
+12:53 have been used for a long time to help
+12:55 improve efficiencies in enterprise
+12:57 network locating unused capacity
+12:59 bandwidth and eliminating choke points
+13:01 it has recently been employed as an arms
+13:04 of cyber security - that makes sense
+13:06 given that except for insider threats
+13:08 attacks are going to be initiated and
+13:09 ultimately controlled by outside
+13:11 elements the communication between the
+13:13 internal threat malware and controllers
+13:15 on the outside are captured by traffic
+13:17 analysis tools the problem is that while
+13:20 the logic of you
+13:21 traffic analysis in cybersecurity is
+13:22 solid the reality is a bit different for
+13:25 one even small to medium-sized
+13:26 enterprise is going to generate three or
+13:28 four billion traffic logs per month
+13:30 without computerized assistance no human
+13:33 is going to be able to wade through that
+13:34 and find anything meaningful second
+13:37 capturing all that data traditionally
+13:39 requires the installation of Network
+13:41 wraps on gateways across the network for
+13:43 an organization with branch offices or
+13:45 remote locations the number of crafts
+13:47 installation can climb pretty high and
+13:49 even then some traffic may escape around
+13:52 those gateways SEC bi has fielded new
+13:55 software that aims to eliminate both of
+13:57 those problems volume processing of data
+13:59 for actionable intelligent threat and a
+14:01 reliance on network traffic hardware
+14:03 they have done this by deploying their
+14:05 analyzer as a software module capable of
+14:08 running on premise or in the cloud it
+14:10 only looks at the log files so there is
+14:12 no need for any network traps agents on
+14:14 the clients or anything beyond access to
+14:16 the console we generated log files it
+14:18 then crunches those billions of events
+14:20 in the logs using finely tuned
+14:22 algorithms that look for patterns
+14:23 associated with an ongoing attack or an
+14:26 advanced persistent threat it can be
+14:28 deployed with as a pay-as-you-go
+14:29 contract where users only pay based on
+14:32 how many gigabytes of log file data they
+14:34 need to process per day ok guys that was
+14:36 it from me for today I hope you all
+14:38 learned something new about all these
+14:40 types of cyber security tools thank you
+14:42 and goodbye
+14:43 I hope you have enjoyed listening to
+14:45 this video please be kind enough to like
+14:47 it and you can comment any of your
+14:50 doubts and queries and we will reply
+14:52 them at the earliest do look out for
+14:55 more videos in our playlist and
+14:56 subscribe to any rekha channel to learn
+14:59 more happy learning

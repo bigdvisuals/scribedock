@@ -1,0 +1,571 @@
+10. Build a Web App - Step 1 - MySQL/PHP
+
+0:06 [Music]
+0:12 hello Gary Simon here of designc
+0:13 course.com today we're going to create
+0:16 our actual MySQL tables and the table
+0:20 structures and so basically this is a
+0:22 step that we're going to need to have
+0:24 done before we actually mess around with
+0:26 any type of PHP all right so in in
+0:28 making the site basically active so if
+0:31 you've never messed around with mySQL
+0:33 well basically you do need to have a
+0:34 host uh you can set it up locally uh
+0:37 I've never done it but I've always just
+0:38 used the host and usually basically
+0:42 every host out there they offer MySQL
+0:44 databases so you'll have to log into
+0:46 your host control panel to kind of
+0:48 figure out how to do that and I'm going
+0:50 to be using PHP my admin to basically
+0:53 set up those tables all right so I yeah
+0:56 check out designc course.com if you
+0:58 haven't yet and subscribe here on
+0:59 YouTube all right let's get started all
+1:01 right so I'm going to be jumping all
+1:03 over the place on this but my goal is to
+1:06 basically get the first and second step
+1:08 done today uh in terms of making it
+1:11 actually work and saving it to a
+1:12 database and all that stuff uh so I'm
+1:16 going to get out a browser
+1:19 here all right so basically uh let's go
+1:21 back to the index uh the first step you
+1:24 know they they enter their needs uh they
+1:27 can offer you know whatever they put put
+1:30 in here com separated by comma and click
+1:33 on FInd matches so there's a few things
+1:35 that have to take place after they click
+1:38 that so first I'm going to to switch
+1:41 over here I this is going to be the part
+1:45 where you're going to need to log into
+1:46 your host whoever that is and you're
+1:48 going to have to figure out how to
+1:50 create a mySQL database so I've already
+1:52 created one called barter full and so
+1:55 basically when you create one you're you
+1:57 know you're given the option of uh
+1:59 specifying the name of it of course and
+2:01 then attaching a MySQL user to it and
+2:04 you can make a custom uh mySQL database
+2:08 username and password for accessing this
+2:11 so you will need basically uh also the
+2:15 MySQL address so if you real quickly
+2:21 download the project files and trying to
+2:24 get out the right window here uh there's
+2:27 a new folder that I've included in it so
+2:30 this is called include and it has two
+2:34 files basically so this DB as a database
+2:38 this is something that we're going to be
+2:39 including on the top of every page so
+2:41 index.php will include it up here uh
+2:45 what this does is it it connects to the
+2:47 MySQL server so you're going to need
+2:49 four pieces of information you're going
+2:50 to need your host name and your uh
+2:53 basically your host provider will be
+2:55 able to provide that for you in the
+2:57 control panel whatever type of system
+2:58 they use uh your username that you
+3:01 specified along with password and then
+3:02 the database name goes here all right so
+3:06 the second file is just this class I've
+3:07 used for years upon years upon years uh
+3:10 and it just makes uh basically taking
+3:14 PHP and querying the database make it a
+3:18 little bit easier uh so that's something
+3:20 I've used forever um so yeah basically
+3:24 this stuff down here will actually do
+3:26 the connecting stuff from uh up here so
+3:30 yeah uh real quickly what I'll do
+3:34 is in index.php at the top I'll open up
+3:39 the PHP tags and what we want to do is
+3:44 just type
+3:45 in require
+3:48 once
+3:50 include and then also the name of our
+3:53 first one which is db.
+3:57 in.php all right so that basically just
+3:59 takes that file and includes it into the
+4:03 index.php so we'll do that
+4:06 twice and include that MySQL db. class.
+4:12 PHP all right and save that now also
+4:16 obviously before you upload or whatever
+4:18 you're going to need to save the
+4:20 credentials in here which I'm going to
+4:22 do off screen so that well for obvious
+4:26 purposes okay so I just paused and saved
+4:29 that file there so we don't have to
+4:30 worry about that anymore okay so now
+4:32 what we want to do is actually create
+4:34 the users table in uh MySQL so PHP
+4:38 myadmin this is basically uh a script
+4:42 that most nearly all hosting providers
+4:46 provide and it allows you to basically
+4:48 interact with your and create and modify
+4:51 uh MySQL databases so I've already
+4:54 created the database this is it right
+4:56 here bartile and inside the database of
+4:58 course you have your different tables
+5:00 for storing information so the first one
+5:03 we want to in uh create is going to be
+5:06 users okay so
+5:09 basically whenever I go to create a
+5:12 database I just get out notepad I have
+5:14 the name up here and then I have the
+5:16 individual fields that I want to create
+5:19 so the name of this table is going to be
+5:21 users it's going to have each one basic
+5:24 basically every table I create has an ID
+5:26 a unique ID that auto increments and
+5:29 also in email obviously the city the
+5:31 state so these three things they enter
+5:33 on the second step and then just date
+5:36 added this is just a field that uh we
+5:39 can specify about you know when they
+5:41 actually joined so uh what we want to do
+5:44 is create the table name right here and
+5:48 that is going to be users number of
+5:50 fields is
+5:53 five all right so the first field is ID
+5:56 and then you have the type now if you
+5:58 never mess with MyQ well there's a lot
+5:59 of of different data or basically row
+6:02 types and so uh int just means integer
+6:06 so if it's just going to be numbers
+6:08 that's fine the length is how many
+6:11 characters that this field can hold so
+6:13 11 would be you know I don't know how
+6:16 many millions but I yeah so also over
+6:19 here you have all this other stuff I I
+6:21 always just make it null for the first
+6:23 one primary and then AI is autoincrement
+6:26 and then over here we could put email
+6:29 and that's going to be a
+6:32 varar and that can go up to 255 Fields
+6:36 I'm not sure how long the longest email
+6:37 can be just to be safe I was just put
+6:40 255 here uh City same thing I know
+6:45 there's some long city names I have no
+6:46 clue
+6:48 State I I'm not sure if we're going to
+6:50 be let me switch back to
+6:53 our uh let's see here step two yeah
+6:56 we're just saving basically
+7:00 yeah the uh two two letter values um of
+7:04 the name we're not saving the full state
+7:06 name so this only has to be
+7:10 two and then down here date added this
+7:14 is going to be a
+7:15 date time field all right so now we can
+7:20 hit save and now it creates the table so
+7:24 up here we have all these different tabs
+7:26 and uh browse basically means you can
+7:29 browse the data that's you know been put
+7:31 in but obviously we don't have any yet
+7:35 all right so basically let's minimize
+7:39 that let me get back out uh the HTML
+7:42 editor we're on
+7:45 index.php okay
+7:47 so basically what we need to do is at
+7:50 the
+7:51 top let's also mind uh form action right
+7:55 here if you specify an actual script uh
+7:59 it'll take you it'll submit when a
+8:00 person hits the submit button down here
+8:03 uh it will submit that data you know
+8:05 whatever input Fields you have to that
+8:09 specific page but if you leave it blank
+8:11 it will just submit to its the same page
+8:13 itself and so what you have to do in
+8:16 which is what we're going to do so what
+8:17 you have to do in that case is look for
+8:21 when that form is submitted all right so
+8:24 there's a few ways you can do it um I
+8:27 usually I just get out uh like for
+8:29 example I need I offer this name what
+8:32 you could do
+8:35 is if is
+8:39 set and then post and because our we
+8:42 have the method is post right here and
+8:45 then inside you could put the name of
+8:47 the field so I
+8:50 need and I have to probably be a good
+8:53 point to put a disclaimer on this I'm a
+8:56 much better designer than I am a coder
+8:58 but I've done things a certain way for
+9:01 so long probably like well over a
+9:03 decade uh I'm sure if any of you are
+9:05 like really experienced coders and
+9:07 probably pick apart different things I'm
+9:09 doing wrong but the point of this is is
+9:11 just to to make something that functions
+9:13 all right so basically if is set that
+9:16 means if it's if it exists and it will
+9:19 exist if they click the fine matches
+9:21 button uh then whatever we specify in
+9:25 here will occur all right so just a
+9:27 quick example
+9:30 we could put Echo and we'll put yay
+9:35 submitted all right just like that and
+9:37 if we save this I'm going to bring it
+9:40 I'm going to pause real quick so I can
+9:41 get those files trans okay so I've
+9:43 transferred all these new files over to
+9:46 butter.com uh and we bring up the
+9:50 browser basically uh as you can see we
+9:53 don't have that yay submitted thing here
+9:55 because it hasn't actually been
+9:57 submitted but if we hit f matches we see
+10:00 that it says yay submitted so that's
+10:03 roughly how that works if you never mess
+10:05 with PHP MySQL then yeah that's uh very
+10:08 handy thing to know obviously very basic
+10:11 so and basically I the first thing we
+10:14 need to concern ourselves when it comes
+10:16 to people submitting that form is making
+10:19 sure that both of the fields are filled
+10:21 out so both are required obviously so if
+10:24 a person doesn't fill out those fields
+10:27 then obviously we don't want to save any
+10:28 data or whatever we want to display uh
+10:31 some type of message that lets them know
+10:33 hey both fields are required so uh the
+10:36 field names are I I need and I offer so
+10:40 what we want to make sure of is they're
+10:42 not empty so instead of just checking to
+10:46 see if it was put submitted at all the
+10:48 first thing we want to do is
+10:52 I instead of is
+10:56 set we can put uh if post I need doesn't
+11:01 equal that's a sign for that so it's
+11:03 exclamation point in
+11:05 uh you know uh equal sign uh it doesn't
+11:09 equal blank you know and then put also
+11:12 and two and signs means
+11:19 and I think you use uh empty as well but
+11:23 I've always done it like this probably
+11:25 not smart whatever I offer doesn't equal
+11:28 that
+11:39 okay so we can check now if we upload
+11:52 this and oops I need to remove that one
+11:57 that's why I errored so if we upload Lo
+12:02 this and come back
+12:06 here basically if we submit
+12:10 this then it's still not going to show
+12:12 us anything but if we enter just
+12:14 something in here randomly yes there's
+12:17 stuff in the field so I if we just do
+12:20 one we can see it doesn't work
+12:24 I yeah just like that so let me come
+12:27 down here
+12:33 now what we want to do and I shouldn't
+12:35 have removed that first one is basically
+12:38 put let's see
+12:42 here we are going to do the if is set
+12:45 post I
+12:47 need we are going to keep that one
+12:50 shouldn't have got rid of that close
+12:52 that up
+13:01 now inside of
+13:05 here also we yeah we want to change this
+13:08 to or so you know they could enter one
+13:12 and leave the other one blank uh yeah
+13:15 that would be bad so what we want to do
+13:17 down here is else so that means okay
+13:21 well one of them are basically blank so
+13:24 we have to put uh some type of message
+13:26 so I'm going to make a variable or call
+13:29 it error MSG
+13:33 equals you've oops you left one of the
+13:38 fields
+13:40 blank you know whatever you can make a
+13:42 say whatever you want basically and then
+13:45 down here what we can do is put
+13:48 in an area yeah the div class alert so
+13:52 basically inside here we can put PHP if
+13:56 is
+13:57 set error
+14:01 MSG
+14:04 Echo error
+14:07 MSG all right so actually you know what
+14:10 I think I'm going to change how that
+14:11 works one second I'm going to copy this
+14:14 portion I'm just going to put Echo error
+14:16 MSG and then outside of this just above
+14:21 the div we're going to put PHP and then
+14:23 paste that uh area right here if is that
+14:26 error message open up the bra we'll
+14:29 close that one right
+14:31 here and then put PHP and then close the
+14:35 bracket right
+14:36 there all right so basically save that
+14:41 and we'll re-upload the
+14:44 index.php and what we want to do is go
+14:47 back to the
+14:49 browser all right so we can go ahead
+14:52 let's just maybe put one and see what
+14:54 happens five matches
+15:00 you left one of the fields blank I
+15:02 screwed it up obviously because yeah
+15:05 okay I'm sorry I think I drank too much
+15:08 last night this should be and I should
+15:10 have left it there there we
+15:13 go
+15:14 Jesus oh
+15:17 man get out of here stupid I
+15:20 accidentally loaded that up all right so
+15:22 now it should work correctly sorry about
+15:24 that so now we just have one blah blah
+15:28 blah there we go now it's going to work
+15:30 if they're either both left blank or
+15:33 just one is left blank uh we can Al you
+15:35 can also style this a little bit better
+15:38 obviously that looks terrible I think
+15:40 what I'll go ahead and do that real
+15:42 quick um let's see here let's go to that
+15:46 was called alert all right so let's get
+15:49 out our
+15:51 CSS come down here um I'll put this over
+15:56 here yeah
+16:00 alert and I think we can um text align
+16:04 Center font weight bold margin I don't
+16:08 know let's try like 30 P
+16:11 pixels zero now let's go ahead and save
+16:15 that in the
+16:18 CSS see what this
+16:24 does okay well yeah that's not bold
+16:26 because of uh where is it at
+16:29 let me come down
+16:34 here put comma 700 there I think and
+16:39 then also
+16:43 I background color we'll make it yellow
+16:48 and then padding like I don't know 10
+16:50 pixels we'll try that and see what
+16:55 happens also put in index.php because we
+16:58 changed
+17:01 that all right so that sticks out quite
+17:04 a bit that's fine though all right so I
+17:07 okay so now that we have that that's
+17:09 good um so let's come back down here to
+17:14 our
+17:16 index.php okay so both of the fields are
+17:19 entered now what do we want to do okay
+17:21 well basically you also don't want to
+17:25 allow people to proceed if they only
+17:28 enter like a a couple characters for
+17:31 example like if they put like a or just
+17:33 one or B or whatever so there's a
+17:36 function that will be able to count
+17:39 basically uh how many characters
+17:42 are uh in a given VAR variable basically
+17:46 so uh what we could do is put um I'll
+17:50 just call it character count I need
+17:55 equals St
+17:57 Len post
+18:00 post I
+18:02 need all right so
+18:05 basically this variable right here will
+18:08 contain a number count of how many
+18:10 characters a person entered so
+18:13 I
+18:15 offer equals the same
+18:20 thing all right so now what we can do
+18:24 that now that we have that we can put a
+18:27 another if statement so so
+18:29 if let me just copy that real quick so
+18:32 I'm not typing out all these I if
+18:35 character count I
+18:37 need is greater than we'll say
+18:42 three
+18:44 and then the same thing basically with
+18:46 the different variable
+18:51 name I offer all
+18:56 right and then inside here here is where
+18:59 they will Pro will proceed to the next
+19:01 step and then we could put an else right
+19:04 here and put another error
+19:12 message you need to enter more than
+19:16 three characters or something like that
+19:18 all right so I let's see let's see if
+19:21 that works real
+19:23 quick probably
+19:26 won't all right so
+19:30 okay well I did leave on of the fields
+19:32 blank so that would fire first all right
+19:34 so what if we just do this all right
+19:39 good what if I do this and this good all
+19:44 right so now if I do
+19:45 this there we go nothing happens because
+19:48 we don't have anything in
+19:52 inside here okay so basically now at
+19:55 this point you know you can probably go
+19:57 through a lot of other
+19:59 uh functions to clean up whatever
+20:01 they're trying to enter like if they
+20:02 only enter numbers for example you don't
+20:04 want them to proceed but you get the
+20:06 idea now so that's the whole point I'm
+20:07 not really serious about this project in
+20:09 terms of barter.com and making it
+20:12 successful so anyhow now let's assume
+20:15 okay we're here we're happy with the
+20:16 data now what do we do okay well
+20:20 basically we want to save in a session
+20:24 the information from those two Fields
+20:28 right here in here for I need and I
+20:30 offer and the reason we're going to save
+20:31 it in a session is because they uh
+20:35 haven't yet entered their email or
+20:36 anything so the session variable will
+20:39 get sent off uh to the Second Step
+20:42 basically so first we have to create
+20:45 those session variables so what we want
+20:47 to do is put I
+20:50 session and we'll just call this I need
+20:55 equals and what we can do is
+21:01 put post I
+21:07 need I
+21:10 offer all right right there and then
+21:13 once we've saved that then what we can
+21:15 do is redirect them to that second step
+21:19 all right so what we'll do is
+21:23 header
+21:25 location and this is also where we're
+21:29 going to put in uh an HT access
+21:34 file so let's go to file new file we'll
+21:38 save this as HT
+21:42 access all right so now in here uh I'm
+21:45 going to copy and paste a few things
+21:47 that I just kind of always included into
+21:50 my uh htx file and you can use them if
+21:55 you wish uh we want to put
+21:59 I'm going to put this over here rewrite
+22:01 engine
+22:02 on
+22:05 and go ahead and put our first rewrite R
+22:08 so
+22:10 basically when it comes to uh the file
+22:13 names you know we could always just put
+22:14 you know header redirect step-2 PHP but
+22:18 that doesn't look nice I would just
+22:20 prefer it to be you know step two well
+22:23 the way you do that is you write out
+22:26 this rewrite rule so rewrite
+22:29 write
+22:31 Rule and then what you do is put
+22:34 here the actual directory or the name
+22:38 that you want it to be so I'll just put
+22:40 in uh maybe I'll put final step all
+22:44 right and then put a forward slash
+22:48 question mark and a number sign or
+22:51 dollar sign and then we'll put in the
+22:54 actual file name step-2 PHP
+22:58 and then just put l right here I can't
+23:01 describe everything or explain
+23:02 everything it's just how I've done it I
+23:04 know it works so I yeah we'll save that
+23:08 and we'll see if this
+23:10 works uh so let me go ahead to here just
+23:14 drag that htx file into the root and if
+23:18 we go to and just type in um what was it
+23:22 final
+23:24 step all right we'll see that it works
+23:28 oh and that's showing up because I don't
+23:30 have that if step step whatever all
+23:33 right so now what we can do uh is come
+23:35 over
+23:37 here and we can put final Dash step all
+23:42 right so I'm going to save that and
+23:46 let's see if that works correctly so
+23:49 we'll enter some
+23:57 data oops
+23:59 what am I doing on line 21 I screwed
+24:01 something up sorry about that where are
+24:04 we at line 21 is right here oops I
+24:07 forgot to semicon at the end yeah that
+24:10 happens like 50,000 times during the
+24:12 course
+24:13 of
+24:15 project all right so
+24:18 now all right so let's just put blah
+24:21 blah blah blah blah blah five matches
+24:24 good so now we're at final
+24:27 step all right so now what we want to do
+24:30 is check on final step because you just
+24:32 don't want anybody to be able to go to
+24:34 final step without having that those
+24:36 session variables present so what I'll
+24:39 do is come over here we'll go to first
+24:44 I'm going to um copy this stuff at the
+24:45 top we'll go to step
+24:48 two paste that
+24:51 again and what you want to do is check
+24:56 first and foremost that those session
+24:57 variable are present so
+25:01 if is set which means that exclamation
+25:04 form means it's not
+25:08 set I think you could just put session I
+25:10 think I'm not sure but I'm just going to
+25:12 put I need just to be
+25:15 certain and you don't really need to
+25:17 open up with brackets if you just have
+25:19 one single command so you can just do
+25:22 this and then underneath it you can put
+25:23 in or beside it it doesn't matter you
+25:26 can put in uh
+25:29 like an error message if you want I'm
+25:31 just going to treat it by um doing a
+25:33 header
+25:34 location uh index.php it'll just shoot
+25:39 them back to that homepage basically all
+25:41 right so if it's not set send them
+25:46 there save all right so now we'll see
+25:50 what
+25:55 happens all right so
+25:59 why is it doing it well it's because we
+26:00 have to uh basically create the session
+26:03 first and I have a session include I
+26:05 should have included from the start but
+26:07 that's no
+26:08 problem sorry I had to pause there for a
+26:10 second uh so basically let's create a
+26:12 new file real quick we're going to save
+26:14 it inside the
+26:16 includes uh folder we're going to call
+26:18 it sess
+26:20 session.
+26:22 in.php
+26:25 and inside of here we're going to put uh
+26:28 by opening a PHP tag we're just going to
+26:30 put at session
+26:33 start because you have to start the
+26:35 session in order for it to be carried on
+26:38 through the different
+26:39 pages and we'll just save that and then
+26:44 in
+26:53 include we'll uh require once that and
+26:57 save that and also same thing here as
+27:02 well and we'll let me make sure
+27:04 everything's uh uploaded both of those
+27:06 files as well as the
+27:09 include all right so now we go back to
+27:13 our browser here and we just type in you
+27:17 know whatever
+27:19 here now it keeps us at final step
+27:22 because those session variables are now
+27:24 carried on or they're there rather all
+27:27 right so
+27:29 I wow that took a lot longer than I
+27:32 thought I we're already at 27 minutes
+27:35 basically so uh yeah I think this would
+27:37 be a good point to stop just because
+27:40 we're done with step one and then
+27:42 tomorrow we can pick up with step two
+27:44 and actually you know getting this this
+27:47 data saved all into a table all right so
+27:51 if you haven't yet check out designc
+27:52 course.com and subscribe here on YouTube
+27:54 all right goodbye
+28:02 [Music]

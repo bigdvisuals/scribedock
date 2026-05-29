@@ -1,0 +1,839 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=gWNFna6fgS8
+Channel: Greg Isenberg
+Video ID: gWNFna6fgS8
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 Everyone wants to build GPT rappers,
+0:02 micro SAS. I get it. It's super super
+0:06 sexy. But there's a huge opportunity
+0:09 right now to be using AI for boring
+0:11 businesses. I brought on the boring
+0:14 marketer and he shares the story of how
+0:16 in less than 24 hours, he ranked one of
+0:19 his boring businesses on Google in the
+0:22 top three spots for multiple target
+0:24 keywords and made thousands of dollars.
+0:27 and Claude Code did 100% of the work.
+0:31 And this is an exact tutorial with how
+0:33 to make money for boring businesses with
+0:36 AI. And he shares why he thinks that's
+0:40 where the money is. Enjoy the episode.
+0:46 [Music]
+0:52 >> We got the boring marketer on the pod,
+0:55 James. by the end of this podcast, what
+0:57 are people going to learn?
+0:59 >> So, I kind of had a a revelation that,
+1:02 you know, everyone's building like
+1:03 agents and workflows and rappers and SAS
+1:06 tools, but I feel like everyone's
+1:08 ignoring like businesses in their
+1:09 backyard. So, I want to talk about what
+1:11 I think is like a multi-billion dollar
+1:13 arbitrage opportunity uh to build a
+1:16 local service business.
+1:17 >> Okay. So, boring businesses in the AJI.
+1:20 >> That's right. That's right.
+1:22 >> Okay. And then tactically what are
+1:24 people going to learn here?
+1:26 >> Yeah. So, uh, we were having a couple
+1:29 discussions on X and some people chimed
+1:31 in with some replies. Uh, one of the
+1:34 things that I'm astounded by is people
+1:36 still want to learn how to set up like
+1:38 their development environment with Cloud
+1:40 Code. So, we're going to briefly go
+1:42 through that. Just some questions and
+1:44 some things to do in terms of prompting
+1:46 to make sure you're set up the right
+1:47 way. Then we're going to talk about how
+1:49 I was able to build this website in just
+1:52 a couple hours and perfectly match up my
+1:55 Figma design files. A lot of people
+1:57 struggle with, you know, getting nice
+1:59 designs uh with their AI tools that
+2:02 don't feel like AI made it. So, we're
+2:04 going to go through that process. And
+2:06 then most importantly, we're going to
+2:08 talk about how I optimized this website
+2:11 uh for local search and actually started
+2:14 generating revenue within 24 hours of
+2:17 making updates to the site itself.
+2:20 >> Within 24 hours, making thousands of
+2:22 dollars of revenue, which is insane.
+2:24 >> Yeah.
+2:25 >> So, I can't wait to to just see how you
+2:27 did it. Let's uh let's let's get into
+2:30 it.
+2:30 >> Cool. So, uh, the story here, um, I have
+2:34 a lot of friends that have boring
+2:36 businesses, you know, things that are
+2:38 outside of tech and startups and AI and
+2:40 stuff like that. And one of my friends
+2:43 has a small trucking company. So, he
+2:45 just ships goods from like, you know,
+2:48 Charleston to Charlotte and and back and
+2:50 forth and all that. And his truck uh, is
+2:52 used. It was breaking down and he kept
+2:55 running into these like mechanical
+2:57 problems. So, he found a local mechanic,
+3:00 started kind of building a relationship
+3:01 with him, and he thought, "Hey, maybe we
+3:04 should start a service that, you know,
+3:05 helps trucks get back on the road." And,
+3:08 uh, he came to me and he was like, "Hey,
+3:10 like, you know, I'm really good at
+3:12 operating and I've got, you know, the
+3:14 mechanic and I know this business, but I
+3:16 don't really know how to like get a
+3:18 website going, get the marketing going
+3:20 for it. Would you like to partner up on
+3:22 this?" And I was like, you know, that
+3:24 sounds pretty interesting. And it rang a
+3:26 couple like bells in my mind for a few
+3:29 reasons. One reason being all right like
+3:33 this might sound a little bit crazy, but
+3:35 what if like we have like an AGI takeoff
+3:39 by 2030 or something like that, you
+3:42 know, and digital services and SAS and
+3:44 all this stuff is like super super
+3:47 disrupted, you know. Um that that is a
+3:50 real possibility. So I was like, okay,
+3:52 there might be a barbell strategy here
+3:54 to where you can kind of like hedge
+3:56 against that as like a multireneur as as
+3:59 you kind of coined the term, right? So
+4:01 maybe on one side of the barbell, I've
+4:03 got, you know, my service businesses
+4:05 online, I've got my SAS tools, I've got
+4:07 my community, and on the other side, I'm
+4:09 a partner in some like boring businesses
+4:12 that have a high degree of defensibility
+4:15 against being completely disrupted by
+4:17 AI. So, I don't think in the next 5
+4:20 years there's going to be robots going
+4:22 down major highways coming to fix like,
+4:25 you know, heavy duty tractor trailers
+4:27 and and stuff like that. So, I think
+4:29 that has some staying power and that's
+4:31 going to be a continued need for some
+4:33 time. So, I got thinking about that and
+4:36 I was like super interested to to get
+4:38 into it.
+4:39 >> Cool. Yeah. Let's let's let's let's see
+4:42 what uh what you did.
+4:43 >> All right. Cool. So, I'll I'll do a
+4:44 quick tour around the website real quick
+4:46 and just kind of show you the structure
+4:48 and what I was able to do. So, you know,
+4:50 you have kind of like your basic
+4:52 homepage. Uh we've got some nice little
+4:54 like illustrations and things like that.
+4:57 We've got like, you know, a bunch of
+4:58 clickable items that take you into like
+5:00 individual services and all of that
+5:02 stuff. Uh we've got all these different
+5:04 location pages and uh you know, we have
+5:07 some other like SEO optimizations on the
+5:10 website. uh like all these handy
+5:12 internal links and stuff like that. So,
+5:15 if you look at uh some of these pages,
+5:18 uh I have like a huge amount of detail
+5:21 on all of these about each individual
+5:24 location. I've got like landmarks and
+5:26 you know, unique information about these
+5:29 locations that uh we can service and and
+5:32 things along those lines. Um, now an SEO
+5:35 agency or a digital marketing agency
+5:37 would charge you an arm and a leg to go
+5:40 and like build out a website, create 50
+5:42 plus pages, optimize the entire thing so
+5:46 that it'll rank for uh the keywords that
+5:49 are relevant to your company. Uh, using
+5:51 Claude Code, I was able to do all of
+5:53 this in a matter of hours. So, actually,
+5:55 I did it over the weekend. It took me
+5:57 around four hours or so to get the site
+6:00 live, to do months worth of SEO work and
+6:04 push it live. And as you mentioned at
+6:06 the beginning, uh you know, this
+6:08 actually started generating thousands of
+6:10 dollars of revenue yesterday. This phone
+6:12 started blowing up and now the mechanics
+6:14 basically fully booked up for the next
+6:16 few days. So that's like real vibe
+6:19 marketing ROI. Uh you know, just using
+6:22 Claude code, which I think is kind of
+6:24 mind-blowing and Real quick, I need to
+6:28 tell you about something that's helping
+6:30 me sleep better at night as an
+6:33 entrepreneur. I was running multiple
+6:35 companies with money scattered
+6:37 everywhere. Zero spending visibility and
+6:40 making growth decisions pretty blind. I
+6:43 knew there had to be a better way. And
+6:45 my friend told me about Bracks. So, I
+6:48 switched and now I have mission control
+6:51 for every dollar. spend management and
+6:54 visibility, virtual cards for my team,
+6:57 and earning cash from the sameday
+7:00 Treasury product. I was leaving so much
+7:03 money on the table, but not anymore. I
+7:06 have a financial operating system for
+7:08 our businesses to make decisions so I
+7:11 can spend smarter and move faster. And
+7:14 it's been a total game changer. I'm
+7:17 loving Brex so much. I reached out to
+7:21 them and asked them to sponsor the pod.
+7:23 If you're building something real, you
+7:25 need a complete financial operating
+7:27 system like Brex. It'll help you sleep
+7:30 better, too. And you can't be mad at
+7:32 that. The devil's advocate to that is
+7:34 James, just cuz I've known you for 15
+7:36 years, you are one of the best search
+7:39 marketers I know. You know, you've
+7:42 you've you've been there and done that.
+7:44 someone who's who knows that there's
+7:47 value in SEO but doesn't know how to do
+7:49 that. How how can they actually
+7:53 >> you know implement this and see similar
+7:54 results?
+7:55 >> Yeah, let's uh let's dig in. Um so I've
+7:58 got like a whole process here that we
+8:00 can talk about. So, um I'm going to walk
+8:03 you through sort of the exact process
+8:05 that I did, uh for getting your website
+8:08 like discovered and then we're going to
+8:10 cut back and talk about like the design
+8:13 stuff and the development environment
+8:15 stuff and and all of that afterwards.
+8:17 All right. So, um why another reason why
+8:20 I think like local is so interesting um
+8:24 is because the competition is not very
+8:27 sophisticated. You know, like if you
+8:29 find kind of a boring niche in a local
+8:32 market, you're going up against people
+8:34 who haven't updated their website in 10
+8:36 or 15 years, perhaps. They're still
+8:38 operating off, you know, uh, notepads
+8:40 and spreadsheets and stuff like that.
+8:43 So, there's a real opportunity for
+8:45 somebody that's AI savvy to use this
+8:47 playbook to partner with other
+8:49 businesses or other operators and, you
+8:52 know, develop something that makes real
+8:54 money pretty quickly. So the first thing
+8:56 that I did was I took the diesel dude's
+8:59 website and I gave it to AI and I was
+9:01 like, "Hey, find me some keywords." And
+9:04 keywords are just like what people are
+9:06 searching for. I think everyone knows
+9:08 that despite what uh you know X might
+9:12 have you believe SEO is not dead by any
+9:14 means on a local level. Actually, it's a
+9:16 huge opportunity right now. Um, you
+9:18 know, if a trucker is broken down on the
+9:20 side of the highway, he's not opening up
+9:22 Chat GPT and saying, "Hey, like, you
+9:25 know, how do I fix my truck and like
+9:27 what local mechanics should I call up?"
+9:30 And sitting there and letting it do
+9:31 research. He's opening up Google. He's
+9:33 finding a review. He's clicking on the
+9:35 call button and he's trying to get
+9:37 somebody there right away so he can get
+9:38 back on the road. You know,
+9:39 >> James, so he's not in Cursor, you know,
+9:42 tapping into the Perplexity MCP. No,
+9:45 he's he doesn't have he's not popping
+9:48 open his development environment uh with
+9:51 cursor calling perplexity MCP and then
+9:54 using cloud code to build a plan to find
+9:57 the optimal mechanic for his making
+10:00 model.
+10:01 >> Okay, understood.
+10:02 >> Yeah, just to clarify. So, but think
+10:04 about it like you know if you need your
+10:06 air conditioner repaired or like you
+10:09 know uh you have a broken window or
+10:11 something like that like you're opening
+10:12 up Google you're finding someone with
+10:14 good reviews and you're giving them a
+10:15 call like that's how like 99.9% of this
+10:18 stuff works right so um I wanted to find
+10:21 like what are those search terms that
+10:23 these folks are looking for so um you
+10:26 know keyword research people can over
+10:29 complicate it they're like do I need
+10:31 this tool and that tool and like you
+10:33 know what variations and volume and all
+10:35 this stuff do I need to uh discover and
+10:38 oftentimes to get like analysis
+10:40 paralysis you know so here's a way that
+10:42 you can like bypass all of that and this
+10:45 is the vibe marketing way so open up
+10:48 chatpt 03 or claude or whatever and just
+10:51 say hey here's my website here's what
+10:53 I'm trying to do give me a list of like
+10:55 25 to 50 keywords that I can optimize my
+10:59 website around that's all you need to do
+11:01 really like you know for a local market
+11:03 especially, you don't need to worry
+11:05 about like all this different like
+11:07 volume and uh you know keyword metrics
+11:10 and competition level and and stuff like
+11:12 that. I think a lot of people get hung
+11:14 up on it. So just want to clarify that
+11:15 all you have to do is ask AI what
+11:18 keywords you should focus on for your
+11:20 website. All right. So um I had to kind
+11:24 of analyze the keywords for uh search
+11:26 intent and buying stage. And what I mean
+11:29 by that is um are these folks like
+11:32 looking for repairs and service like
+11:35 right now? You know, I wanted to find
+11:37 out what keywords are are that type
+11:39 where somebody's willing to like pick up
+11:41 their phone and and give this company a
+11:42 call and which ones are just kind of
+11:44 like looking for information and stuff
+11:46 like that. So, when you get started,
+11:48 especially for like a boring business,
+11:50 you want to tap into uh those search
+11:52 terms where people are ready to like
+11:54 pull out their credit card or ready to
+11:56 have you come out to their site or or
+11:58 wherever the work is happening. So,
+12:00 that's what I kind of dialed in on.
+12:01 Okay. So, uh you can see that here like
+12:04 uh we we have a few different categories
+12:06 of search terms that AI gave us. We have
+12:09 emergency keywords, service keywords,
+12:12 problem keywords, and local keywords. So
+12:14 I found that all of these were pretty
+12:16 high intent and they seem to be good
+12:18 ones to focus on. Um so the other thing
+12:22 that you need to think about is uh SEO
+12:25 is all about really demand and supply. I
+12:28 mean that's really one simple way to
+12:30 think about it. Um so demand is what
+12:33 people are searching for and you can
+12:35 think of supply as like landing pages on
+12:38 your website. All right. So for each one
+12:40 of these search terms that related to a
+12:43 specific service that the company can do
+12:46 and any of the locationoriented terms, I
+12:49 ended up building out dedicated pages
+12:51 for each and every one of those. We'll
+12:52 we'll talk about that in a bit when we
+12:54 get into the uh the vibe coding aspect
+12:57 of this. So find your keywords, map them
+13:00 to the intent, and make sure that you
+13:03 know they just kind of make sense and
+13:04 don't overthink it. All right. Um, so
+13:07 the next step is, uh, you know, I
+13:10 already had this website built out.
+13:11 We'll talk about how I built that. But
+13:13 then, uh, I went into a SEO audit. So, I
+13:18 asked Claude Code, uh, where I built the
+13:20 site, hey, go through this website in
+13:23 extreme detail. Ultra think about this.
+13:26 You can use the ultra think command. So,
+13:28 it'll spend extra time. use Opus, really
+13:31 go deep and do sort of some deep
+13:33 research and find all the technical and
+13:36 onpage SEO issues and opportunities that
+13:39 we can fix together so that I can
+13:41 dominate the local market. So, it went
+13:44 through it found out, hey, you don't
+13:47 have these files that help Google
+13:49 understand what the site is all about.
+13:51 It's slow to load. uh you can optimize
+13:54 the speed, you can make it snappier, you
+13:57 need to include schema markup and some
+13:59 of these other technical things so that
+14:01 Google knows exactly what your website
+14:03 does and then uh once you find them you
+14:06 can just say fix them.
+14:09 Um so like you know when you work with
+14:11 like an agency or something like that
+14:13 that can take a long time. they have to
+14:14 get access to your codebase or whatever.
+14:16 And now there's this beautiful sort of
+14:18 like power that someone has who can
+14:21 build the website uh and go and fix all
+14:23 this stuff on their own uh really
+14:25 quickly and and make sure it's
+14:26 optimized. So we identified those
+14:28 technical issues, we fixed them. So we
+14:31 did like, you know, robots txt XML
+14:34 sitemap URL fixes. You don't even have
+14:37 to know what all of it is to be honest
+14:38 with you. Just that Claude will find it
+14:40 and Claude will do it. So you just have
+14:42 to have that initial initial prompt. Um,
+14:46 okay. So we did that and then uh we
+14:50 started to dig into content. So like I
+14:52 said for each of the locations and each
+14:54 of the services uh I asked it to go
+14:56 super super deep into mapping out how we
+15:00 can outrank all the competition uh on
+15:03 these individual search terms. So I
+15:05 don't have a location page that's like
+15:08 diesel services in Charlotte. I have a
+15:10 page that goes into local landmarks,
+15:13 things around Charlotte, common issues
+15:15 that might affect your truck, uh,
+15:17 frequently asked questions about, you
+15:20 know, uh, the industry or whatever.
+15:22 Like, it was able to reference like,
+15:24 ooh, there's probably a lot of like
+15:26 NASCAR type stuff happening in
+15:28 Charlotte, uh, with trucks and and
+15:30 shipping because that's where it's based
+15:32 or whatever. And it included that in,
+15:34 uh, in this individual location page.
+15:36 So, I guess I would say like, you know,
+15:39 typically um if you're in a boring
+15:41 market, the competitors are not going
+15:44 super deep and getting all this
+15:46 information integrated into their site.
+15:48 It's your opportunity to use AI to do
+15:50 additional research and, you know, build
+15:53 out more information that, you know,
+15:55 search engines or even LLMs will prefer
+15:58 uh, you know, to to crawl and to to
+16:00 serve you up versus uh the other other
+16:03 boring local ones. All right. So um
+16:07 here's a little thing like a lot of
+16:09 people you you actually posted about
+16:10 this yesterday uh Greg about sub agents
+16:13 in cloud code. So here's a good uh use
+16:16 case for uh spinning up additional
+16:18 agents. So um you know let's say that I
+16:21 wanted to keep working on the website. I
+16:23 wanted to you know start working on a
+16:25 blog or something like that but there
+16:27 was still you know some SEO or whatever
+16:30 stuff to fix in the background. So I can
+16:32 just tell cloud code, hey uh launch
+16:34 three agents, find, you know, missing
+16:37 alt text or identify pages under uh
+16:40 certain amount or audit for metad
+16:42 descriptions. Or you can just say, "Hey
+16:45 Claude, launch uh launch three different
+16:47 sub aents. One to, you know, find
+16:49 content opportunities, one to analyze my
+16:51 competitors, and one to identify all the
+16:54 other fixes I should be doing on my
+16:56 website." So it's as easy as that. And
+16:59 as you are, you know, working in that
+17:01 main chat window, Claude will have these
+17:03 multiple other agents kind of working on
+17:05 the background to identify uh the other
+17:09 opportunities and things that you should
+17:10 update and fix.
+17:13 >> I'm with you.
+17:14 >> All right. You with me?
+17:16 >> I'm with you. I'm
+17:19 I don't get shocked easily with
+17:23 but like I'm not I I'm kind of shocked
+17:25 like at at how simple you're making this
+17:28 seem.
+17:28 >> Yes. Yes.
+17:30 >> Yeah. I mean, you know, like it what
+17:33 what I've realized lately is like
+17:37 it it is actually very simple. Like you
+17:39 could you can just lit just type a
+17:41 question, spin up a few agents. Like I
+17:44 think the biggest gap that I see with AI
+17:46 is people don't know the question to ask
+17:49 you know that's where the vertical
+17:51 expertise comes in. So that's really the
+17:54 gap and it's also the opportunity you
+17:56 know um so finding out what questions
+17:59 you should ask is really key and people
+18:01 don't really spend enough time on that I
+18:03 think you know they want to get into the
+18:05 the sexy stuff and start vibe coding and
+18:08 building stuff but like that there is so
+18:10 much alpha in just knowing the questions
+18:13 to ask if I didn't know to ask claude
+18:15 code about SEO or whatever I wouldn't
+18:17 have gotten those jobs yesterday and
+18:19 made thousands of dollars you know so
+18:21 simply knowing Knowing the questions is
+18:23 uh is so clutch. Um so yeah once you
+18:27 know that it becomes pretty pretty
+18:29 simple. Um so another thing that it
+18:31 found it was like hey your mobile
+18:33 website's slow. I was like okay fix
+18:35 that. So it went in it compressed all
+18:37 these images. It made it super snappy.
+18:40 Um and right now when you like you know
+18:43 search for the site and you pull it up I
+18:45 mean it's it's super fast. Um so it
+18:48 shrunk a bunch of files. It converted
+18:50 all the images to a webp format. It did
+18:53 all these technical optimizations that
+18:55 you know for the most part I don't even
+18:57 know what it is. I have no idea how I
+18:59 would personally do it manually. And you
+19:01 know I've got cloud code just you know
+19:03 building a worldclass machine for me uh
+19:06 on autopilot essentially. So, it did
+19:09 that and uh you know after I started to
+19:11 make some of these changes, I um went
+19:14 over to Google Page Speed Insights and
+19:17 this is a free tool anyone can use and
+19:20 if you go to it um you can type in your
+19:23 URL and it will give you performance
+19:27 issues with your website. All right, so
+19:29 I just put in Diesel Dudes right here.
+19:31 Mobile still has some things I'm working
+19:33 on fixing, but the desktop site has an
+19:36 incredible performance score in terms of
+19:39 speed, uh, accessibility, SEO.
+19:42 Basically, this just means it's super
+19:43 fast. Google knows exactly what this
+19:46 website does. There's minimal technical
+19:48 errors, and it loads in a snap. Um, so
+19:52 here's a little hack for you. Like,
+19:54 everyone's done a little bit of vibe
+19:55 debugging at this point. you know,
+19:57 they've like built something, they found
+19:59 some errors in the code, they copy and
+20:01 paste it back over to their agent to go
+20:03 fix it. You can do the same thing for
+20:05 this. You take your URL, you plug it in,
+20:08 you find an error, you go down, you find
+20:11 the details, you copy and paste this
+20:13 stuff into cloud code. it knows exactly
+20:16 what to go fix. Work on getting those
+20:18 scores up on page speed and that's some
+20:21 lowhanging fruit. Um, you know, to get
+20:23 some additional traffic to your website
+20:25 and outrank your competition. You can
+20:27 take it a step further. Um, you can get
+20:30 SEM Rush or whatever. You can do an
+20:32 audit there. It'll give you a bunch of
+20:34 other like technical optimizations and
+20:36 you don't even need to know what it
+20:37 means. You can just copy and paste it to
+20:39 Claude. It'll prioritize them. It'll go
+20:41 into the codebase. It'll fix them. Is it
+20:43 worth doing that?
+20:45 >> Um, I think it is here on on this. So,
+20:48 like especially for like uh for kind of
+20:51 local rankings, like a lot of the
+20:53 websites that I kind of looked at that I
+20:55 was competing against were like old and
+20:57 and slow and things. And I think that's
+20:59 one of the reasons why I was able to
+21:00 rank so quickly. Like this is a pretty
+21:03 like targeted niche. Uh not a lot of
+21:06 like, you know, fast and formative
+21:08 websites. and just with like technical
+21:10 optimizations,
+21:12 um, I was able to to climb the rankings
+21:14 pretty quick.
+21:16 So, it it depends on the market you're
+21:18 in. It depends on the the the
+21:19 competition and the search terms that
+21:21 you're going after. Like, I think again
+21:23 like in a in a not very competitive
+21:25 market, these types of things can make a
+21:27 big difference. If you're in a very
+21:29 crowded market with, you know, very
+21:31 sophisticated websites, like you're in a
+21:34 a hyperco competitive SAS market, just
+21:36 optimizing your page speed insights
+21:38 probably isn't going to, you know, shoot
+21:40 you to the top.
+21:42 >> Cool.
+21:43 >> Yeah. All right. Um, so that was a nice
+21:46 little hack uh that I that I worked on
+21:48 and that I found. Um, and uh you know,
+21:51 the other thing that I did uh you know,
+21:53 I set up a Google business profile. I
+21:56 had Claude Code uh kind of go back and
+21:58 forth between uh that and between the
+22:01 website to make sure it was like
+22:02 consistent and there weren't any like
+22:05 you know uh kind of information that
+22:07 didn't match up and uh and things of
+22:09 that nature. Um Cloud Code went in and
+22:12 it made a bunch of like internal links
+22:14 on the website. So it um
+22:18 it linked up like relevant uh location
+22:20 pages. linked up uh you know relevant uh
+22:24 services with uh related services and
+22:27 stuff like that. And these internal
+22:28 links are are good for your SEO as well.
+22:31 Cloud code knew what to do. It
+22:33 discovered it on its own. I didn't need
+22:35 to tell it to go and you know create
+22:37 internal linking uh on the website. So
+22:41 uh what was the result of all this? I
+22:43 mean, like I said, like if you now if
+22:45 you go to Google and you say mobile
+22:47 diesel mechanic Charlotte and uh you
+22:51 look here, like we're showing up uh in
+22:54 the maps like right away and uh you
+22:57 know, we're in the top three organic
+22:59 results and these some of these
+23:01 competitive websites and businesses have
+23:03 been around for you know, 20 years or
+23:05 something like that.
+23:06 >> Um y
+23:07 >> this is crazy, dude.
+23:08 >> Yeah.
+23:09 >> Like you know how crazy this is.
+23:11 >> This is nuts. I mean, that typically
+23:13 takes people months and months to go and
+23:16 climb up the rankings and start showing
+23:18 up for these like
+23:20 >> high intent keywords.
+23:22 >> Yeah. And this is
+23:25 uh this is basically like real estate on
+23:27 the internet owning owning that space,
+23:30 right? Cuz you know, while you're
+23:32 sleeping at night or on autopilot,
+23:34 you're getting leads.
+23:35 >> Yeah. Exactly. Like as I said, like my
+23:39 uh business partner's phone has been,
+23:42 you know, blowing up. Um
+23:45 let's see. Let's just look at I don't
+23:47 know. I'm just kind of seeing. Yeah,
+23:49 here we are. I77 mobile diesel repair.
+23:52 So, new website just getting started
+23:55 already ranking for a bunch of terms and
+23:58 getting getting phone calls from real
+23:59 companies who, you know, want their uh
+24:02 want their trucks fixed and and back on
+24:04 the road.
+24:07 incredible. And I know people are going
+24:09 to you, you know, they're going to
+24:11 comment and be like, "Yes, you know, SEO
+24:14 isn't dead now, but in like a few years,
+24:17 we're going to be on our AI powered
+24:19 browsers and we're just, you know, just
+24:21 going to be asking perplexity and chat
+24:22 GPT questions." And the reality is, and
+24:26 and let me know if you disagree with me,
+24:27 James, but the reality is if you do good
+24:30 SEO,
+24:33 the LLMs are going to just take some of
+24:37 the top SEO results and just plug it as
+24:39 answers.
+24:40 >> Yeah. Like, uh, you know, LLM or GEO or
+24:45 whatever the the name of the week is.
+24:48 Um, I think it is a a big opportunity.
+24:51 Like I I think that we trust the
+24:54 recommendations that you know these LLMs
+24:56 are are giving us and I think the
+24:58 traffic that people are getting from uh
+25:01 those recommendations is very high
+25:03 intent and and very primed to take an
+25:05 action or whatever. Um but yeah like how
+25:08 do you show up in in chat GPT or
+25:11 whatever? The way you show up in chat
+25:12 GPT is by doing good SEO. There's
+25:15 there's really like I have not seen
+25:19 really one uh unique strategy that is
+25:23 different from just doing good
+25:25 foundational SEO to go and show up in
+25:28 LLMs. Um you know like you have to think
+25:31 in terms of all right uh something needs
+25:34 to understand what my website's all
+25:36 about you know so you have to have a
+25:38 clean technical foundation. uh you have
+25:40 to have the right like meta tags and
+25:43 descriptions and you have to have your
+25:44 keywords kind of naturally uh integrated
+25:47 into your pages. You have to develop you
+25:50 know topical authority which is like you
+25:52 know having relevant information and
+25:54 signals around the topic that someone's
+25:56 looking for. Um links are important. So
+26:00 uh you know that's still relevant.
+26:02 Google still likes links. LLMs like
+26:05 links. um they trust websites that other
+26:08 websites look at and link to. Um so uh
+26:11 reviews also like um getting good Google
+26:14 reviews if you're a local business like
+26:17 that is you you can't really replace
+26:19 that. There's not a hack to go and do
+26:22 that's going to replace that kind of
+26:24 trust signal, you know. So there are
+26:27 there are small things like that you can
+26:28 do and have cloud code do your website
+26:30 like add LLM.txt txt or something which
+26:34 is just kind of like essentially like an
+26:36 allow list that's saying let chat GPT
+26:39 come and and crawl this website and and
+26:41 stuff like that. But there's not a huge
+26:44 differentiated
+26:45 uh you know strategy out there that that
+26:48 some people know or whatever uh that are
+26:51 that's hiding from everyone else. It's
+26:53 like the Midwit meme, right? At the top
+26:55 of the curve is like
+26:57 >> do you know all the things, right? All
+26:59 the GEO things like uh LM.txt,
+27:04 but like the do just do good SEO, like
+27:07 foundational SEO is the trick to being
+27:09 found in LM.
+27:11 >> That's the trick. And I think that, you
+27:13 know, again, some people sort of like,
+27:15 you know, chase a shiny object and then
+27:18 they forget about what actually matters
+27:19 for their own business. like for this
+27:22 company here like ranking high on Google
+27:25 is way more valuable than going and
+27:27 showing up in chatpt you know like it it
+27:31 depends on who the customer is what
+27:33 they're doing how they find things and
+27:36 and stuff like that so are browsers
+27:38 going to change are they going to have
+27:40 AI yeah for sure but again this is such
+27:43 an arbitrage opportunity right now that
+27:45 I think people could you know generate
+27:48 tons of revenue by going and using
+27:50 claude code and the latest AI tools to
+27:52 outrank competitors in like boring
+27:54 industries and boring markets.
+27:57 >> Anything else you wanted to cover?
+27:58 >> Yeah, real quick. Uh two hacks uh that I
+28:01 just wanted to share. Uh one is, hey,
+28:04 how were you able to get this site to
+28:06 look good uh with cloud code or
+28:08 whatever. So, I had a few people ask me
+28:10 that on X. So, I had the Figma design
+28:13 files and I had a designer uh make it
+28:16 look good in there. So, I think that's
+28:18 like an important distinction. Like
+28:20 design and a good brand is very
+28:22 valuable. Like it's worth, you say this
+28:25 all the time, like it's worth getting a
+28:27 designer to like make it look good and
+28:30 then going and doing a lot of the vibe
+28:32 coding work. You'll stand out. A lot of
+28:34 sites look the same now that are vibe
+28:35 coded. People can kind of tell. So, I
+28:38 had a designer whip something up in
+28:40 Figma for me. And then I got this plugin
+28:42 called Anima. Anda allows you to convert
+28:46 Figma designs into React components that
+28:50 Cloud Code can use to assemble and build
+28:52 your website uh and essentially get, you
+28:55 know, 95% of the way there with the
+28:57 design. So, it got me there. I vibed a
+29:00 little bit, made a few updates and
+29:02 fixes. Anima is how I did that. The
+29:04 quick second thing is like, you know,
+29:06 people uh still seem to wonder like how
+29:09 do you set up cloud code? How do you set
+29:11 up your development environment? Stuff
+29:12 like that. Maybe there's some like
+29:14 boring local businesses that don't have
+29:16 a lot of experience in this thing that
+29:18 you know watch this episode or whatever.
+29:21 So, uh on your Mac, if you have a Mac,
+29:24 you have a terminal. Okay? Like you can
+29:26 search for terminal and then you can
+29:29 Google or chatbt like you know claude
+29:32 code install command or how do I install
+29:34 cloud code? You'll end up getting like
+29:36 cloud desktop. Um you you can get a
+29:39 subscription. It's like 20 bucks a month
+29:41 or something like that. And uh you know
+29:43 take that command once you're
+29:44 authenticated on cloud desktop uh throw
+29:47 it into your terminal. Um all the
+29:49 packages and the files will install for
+29:52 cloud code and then you'll just like log
+29:54 in. It'll open up like you know cloud or
+29:57 cloud desktop and you'll authorize or
+29:59 authenticate it and you're good to go.
+30:01 Once you're there's a few things that
+30:03 you should do foundationally. One is uh
+30:06 you should set up GitHub. So, you want
+30:09 to be able to uh have, you know, control
+30:12 over each of the versions of of code
+30:15 that you're pushing and have like a uh a
+30:17 way to like roll back if you need to or
+30:19 share those code files or whatever.
+30:21 Create a repository on GitHub um and ask
+30:25 Claude Code how you can push push the
+30:27 the site there and it'll help you with
+30:28 the steps. And then I use Verscell to
+30:31 deploy and to host the website. So you
+30:34 can go to Verscell, you can create an
+30:36 account, uh you can link up Verscell
+30:38 with your GitHub repository and every
+30:40 time you push code updates to GitHub,
+30:43 it'll automatically update your website
+30:44 on Verscell for everyone to see. So
+30:47 that's the process that I used to get my
+30:49 environment set up as like a
+30:50 non-technical person.
+30:52 >> Appreciate the sauce.
+30:53 >> You got it, man. Uh anytime. Uh
+30:56 hopefully people find it valuable. just
+30:57 uh you know uh don't sleep on boring
+31:00 businesses I guess is uh is the lesson
+31:02 here
+31:03 >> you know. Well, one thing is uh you have
+31:06 a YouTube channel, you have an X
+31:08 account. We'll include that in the show
+31:09 notes. Yep. Uh definitely subscribe and
+31:12 follow. You're just sharing things in
+31:13 real time.
+31:14 >> Uh yeah, I'm at Boring Marketer on X.
+31:16 You can find me on YouTube, the Boring
+31:18 Marketer. Uh number two is we've got
+31:21 this community called the vibearketer
+31:23 community and uh the URL is right here
+31:25 the vibearketer.com
+31:27 and uh I wanted to show something. We we
+31:30 have this new uh members hub that we
+31:32 launched and uh in here we have over
+31:34 2500 different inadin workflows that you
+31:38 can literally plug and play if you want
+31:40 to automate something in your business.
+31:42 So, we give you the code, you can take
+31:44 it and throw it into NAND. Uh, you know,
+31:47 we've got these broken out for different
+31:49 use cases. It's fully searchable. If you
+31:52 want to find something for, you know,
+31:53 marketing seed keywords, here's a good
+31:56 example. We talked about seed keywords.
+31:58 Uh, there's SEO ones, there's social
+32:00 media ones, whatever, like ready to go.
+32:02 Um, you can come join the community, get
+32:04 access to this. We've also started
+32:07 building out this partner resources uh
+32:09 for our members where we've got some
+32:11 awesome like deals and discounts for
+32:13 people who want to use uh some of the
+32:15 latest like you know AI workflow tools
+32:18 and stuff like that. So really starting
+32:20 to expand the community uh working on
+32:23 some cool classroom updates right now
+32:25 and I I really do believe it's the best
+32:27 place to be for AI and marketing the
+32:29 intersection of those two things.
+32:31 >> Cool. Yeah, I'll include I'll include
+32:33 the links to all those places. So people
+32:36 can can get deeper and and it's really
+32:38 just like I always say getting your
+32:40 hands dirty um you know and and and
+32:44 testing trying iterating and uh dude I
+32:49 love having you on. You're the best.
+32:52 Thanks for sharing the sauce and I'll
+32:54 see you next time.
+32:54 >> Thanks for having me, Greg. Talk to you
+32:56 soon. Later.

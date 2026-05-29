@@ -1,0 +1,414 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=jpSY4MlWX50
+Channel: Starter Story
+Video ID: jpSY4MlWX50
+Transcript language: English auto-generated
+Downloaded at: 2026-05-25T20:45:40.983Z
+
+0:00 I prompted my way to $30,000 without
+0:02 writing a single line of code. This guy
+0:04 made $30,000 from an app he built on his
+0:07 morning commute. How? Two tools, Cursor
+0:10 and Bolt. I think a lot of people make
+0:12 cool stuff with Bolt and Cursor
+0:14 nowadays, but they don't monetize it
+0:15 because they need In this video, we'll
+0:18 go over the wild story of how Polus just
+0:20 built, launched, and marketed a SAS
+0:23 product by himself and got traction in
+0:25 about 30 days. you probably have like a
+0:27 winning idea already that you could just
+0:29 prompt your way and start building. Why
+0:31 you should definitely tune into this
+0:33 video? Well, I had Polus share with me
+0:35 his exact process on screen of how he
+0:38 builds fast with AI tools, how he
+0:41 creates beautiful designs and how you
+0:43 can too. And how making money and
+0:45 marketing your app is as simple as a
+0:47 couple tweets. All right, let's get into
+0:49 it. I'm Pat Walls and this is Starter
+0:52 Story.
+0:55 Welcome, Polus, to the channel. Thanks
+0:57 for coming on. Tell me, what's your
+0:59 story? My name is Polus and I used AI to
+1:02 build an app that made me 30K. It's an
+1:04 app that matches startups with
+1:05 influencers and I built and launched it
+1:07 7 months ago. It's got over a,000 users
+1:09 at the moment with over 350 paid users.
+1:12 I used Bolt and Cursor to make it and I
+1:16 use Framer for design. I did it all
+1:18 myself without needing a team all in my
+1:20 daily commute. Nice. Cool. Before you
+1:22 made 30K with your app, tell me a little
+1:25 bit more about your background, your
+1:26 story as an entrepreneur. It started
+1:28 when I was 18 and I needed to make money
+1:30 to get my way through college and the
+1:33 only job that I could get was door to
+1:35 door sales and one day I ended up
+1:38 knocking on the wrong door and someone
+1:40 literally grabbed me and held a knife to
+1:42 my throat. After that, I just had enough
+1:45 and I wasn't really employable as a
+1:48 student. So, I dove into every side
+1:49 hustle that I could. So I did web
+1:51 design, I did copywriting, sales
+1:53 funnels. I became kind of like a
+1:55 generalist. It paid enough to get my way
+1:58 through university. When I was in
+2:00 university, I did computer game
+2:01 development. But funny story, I actually
+2:04 completely sucked at code. I was very
+2:06 visual and I just couldn't understand
+2:07 it. But now AI can actually code for
+2:10 you. And so the limitations that I had
+2:13 before are kind of removed. AI can do
+2:15 the heavy lifting in terms of code and
+2:17 kind of patch up the area where I'm not
+2:19 the best at. Nice. So tell me what got
+2:21 you into building online and and
+2:24 realizing that you could, you know, make
+2:25 money online. So I was going through
+2:27 kind of a rough patch because I tried
+2:29 all these different business models and
+2:31 I wasn't making enough money to break
+2:33 free from a 9 to5. I got really
+2:35 frustrated one day that none of the
+2:38 things that I did really got me where I
+2:39 wanted to be. So I was pursuing
+2:41 creatorled services and products just
+2:43 work with creators and the idea of a
+2:46 database came to my mind and I just
+2:49 started building it out because it's
+2:51 something I'd use myself and I figured
+2:53 with AI I could turn this into a
+2:55 fullyfledged SAS if enough people wanted
+2:57 it. So I really just gave it a spin as
+2:59 kind of like experiments and it did
+3:01 pretty good. So tell me what it felt
+3:03 like to finally launch and have this
+3:04 validated idea and have it make its
+3:07 first dollar. Tell me about that. So for
+3:09 months before launch, I was building
+3:12 this database. It was a lot of effort
+3:15 and I had no idea it would pay off. So
+3:17 when I launched my application, I
+3:19 remember I was sitting with my
+3:20 girlfriend and we were just having
+3:21 dinner. I pull up my phone. I just see
+3:23 sale after sale. I was like, "Okay, how
+3:24 long is this going to keep going for?"
+3:26 And that night got about like 20 or 30
+3:28 different sales. So it was very nice
+3:31 feeling that just motivated me to just
+3:32 keep going and pursue this further cuz
+3:35 now I felt like that was a validation
+3:37 that this could be a real product. Okay.
+3:39 So can you share your step-by-step
+3:40 playbook on how you build MVPs with AI?
+3:43 If I'm a complete beginner, I would
+3:45 recommend everyone to use Perplexity.
+3:48 It's what I did. I just asked Perplexity
+3:50 because it has the most upto-ate
+3:52 information. So it has all the
+3:53 documentation, anything that you want to
+3:55 any tool, any library, just tell it
+3:57 you're a complete noob and absolutely
+3:59 don't know how to do anything and it'll
+4:01 give you really detailed step by step
+4:03 because it's deep research. It'll pull
+4:04 up a long document that you can
+4:06 reference and just follow along. The
+4:08 next step is I'd pull up Bolt and just
+4:11 take it one step at a time as well. So I
+4:13 would implement the first thing that
+4:14 Replexity says. So it could be like the
+4:16 dashboard, importing the project,
+4:18 cloning a GitHub repository if there is.
+4:20 Once I'm in there, I just keep prompting
+4:22 it and if there's errors, I just throw
+4:24 the error back at the AI. It fixes the
+4:27 error, go onto the next thing, and I use
+4:30 Bolt to a point where I get a nice
+4:33 looking MVP with the functionality. And
+4:35 then I take that, download the project,
+4:37 I put it into cursor. And here is where
+4:40 I hook up like superbase. So it writes
+4:43 all the scripts to connect the back end.
+4:46 and I get clerk off and that makes it
+4:48 very simple to plug and play the
+4:51 authentication. And this is all steps
+4:53 that perplexity can provide for you. So
+4:56 you can just ask questions along the way
+4:57 and it'll give you some solutions.
+4:59 Replexi is a great starting point. Bolt
+5:01 is a great way to make the MVP and then
+5:04 you move to cursor to dial in the
+5:06 details. So you're 80% of the way there
+5:08 and cursor will then just get you to the
+5:11 final finish line. have users
+5:13 authenticating. You have a backend with
+5:15 real data and with a bit of prompting
+5:17 and some scoring, it'll make it secure
+5:19 as well. Okay, Polus is proof that it's
+5:22 never been easier or faster to build an
+5:24 app in 2025. Tools like Cursor and GPT4
+5:28 make it possible to go from idea to
+5:30 product in a weekend. But if you don't
+5:33 understand your customer or what they're
+5:34 searching for and how they describe
+5:36 their problems, then you're just
+5:38 building fast in the wrong direction.
+5:40 That's why we're excited to partner with
+5:42 Seamrush for this video. It's one of the
+5:44 best tools out there for figuring out
+5:46 what people actually want. You can plug
+5:48 in an idea and see what people are
+5:50 searching for, what's getting traffic,
+5:52 and where the gaps are. It's got 26
+5:55 billion plus keywords across 140
+5:58 countries. And yeah, most people think
+6:00 that it's just an SEO tool, but trust
+6:02 me, it's way more than that. You can use
+6:04 it to validate your idea before you
+6:05 build, find high intent keywords your
+6:07 competitors are ignoring, or even spin
+6:10 up landing pages that match what people
+6:11 are already looking for. I'm going to
+6:13 show you how you can find successful
+6:14 business ideas just like Polus is in
+6:17 Semrush with one search right now. Go to
+6:19 Seamrush and find their topic research
+6:21 tool. Search any topic or niche. Let's
+6:24 just do Tik Tok influencer since that's
+6:26 kind of similar to Polus' business, but
+6:28 you could literally just search
+6:29 anything. And I'm going to open some of
+6:30 the cards that look interesting like
+6:32 this one. Tik Tok influencer marketing.
+6:34 On here, you can see all the questions
+6:36 people are literally plugging into
+6:37 search engines. These are the real
+6:39 problems people have and are actively
+6:41 looking for a solution. I like this one
+6:43 because it's not a super high keyword
+6:45 difficulty and there's high volume of
+6:47 people searching for it. So maybe
+6:49 there's some lowhanging fruit in there.
+6:51 And look right here, Tik Tok influencer
+6:54 search platform. What's the best way to
+6:56 hire Tik Tok influencers? Polus'
+6:58 business can literally be tied back to a
+7:00 single page in Seamrush. And that's just
+7:03 crazy powerful if you ask me. Right now,
+7:05 they're offering a free 7-day trial to
+7:08 try out all 55 tools in the platform.
+7:10 Just head to the first link in the
+7:12 description if you want to try it out.
+7:14 All right, let's get back to it. We
+7:16 talked about the code building an MVP.
+7:17 Let's talk about one thing that I think
+7:18 is really cool about your stuff is how
+7:20 good it looks. How do you use AI to
+7:23 design amazing looking websites? It's
+7:26 really the simplest it can be. First
+7:27 thing I do is I pull up Framer and I
+7:30 pick a free template. So any template
+7:32 that you see on there that you like.
+7:33 It's simple enough and clean for you to
+7:35 edit. And then you just have to pick a
+7:36 nice font and a nice button. And then
+7:39 the rest just needs to be simple and
+7:41 clean. The most important part is just
+7:43 to get out. Focus on just editing the
+7:44 template really quick and just put it
+7:46 out there. Cool. Based on what you built
+7:49 and what you've learned working on lots
+7:51 of marketing stuff and also on your own,
+7:52 what do you think is like the most
+7:54 important thing to focus on when you're
+7:55 creating a good landing page and a good
+7:57 design? So, I focus 80% of my time on
+8:00 everything that's above the fold. We'd
+8:02 call this the hero section. This the
+8:03 first thing that people see when they
+8:05 open the website and has to have the
+8:08 your full message just out there and
+8:10 people really need to grab an
+8:11 understanding of what it is within the
+8:13 first couple seconds. Anything that you
+8:15 can save them time with, save them
+8:17 money. Anything that solves a painful
+8:19 problem, you should have in a headline
+8:20 and a subheading, and then just a big
+8:22 call to action. All right, so we talked
+8:24 about landing page design, which was
+8:26 awesome, but what about UI design? When
+8:28 you're building an app, how do you use
+8:30 AI to design UI and UX? When I'm
+8:33 building it out in cursor, you get the
+8:34 basic thing done and then you add some
+8:37 things to it. So, the more features you
+8:38 add, the more things you work on, it's
+8:40 got to stay clean. and it's got to stay
+8:42 cohesive and you got to make sense. So
+8:44 for everything UI related, I just ask it
+8:47 to make it clean, functional, and
+8:49 modern. And I try to have it use like
+8:51 shad CN components and they're all free.
+8:53 But when I have ideas and when you have
+8:55 ideas for how you want onboarding flow
+8:57 to be or some other elements of the app,
+8:59 what I would suggest is just creating
+9:01 something in Figma, you can doodle if
+9:03 you want. You just plug it into cursor
+9:06 and just explain the behavior that you
+9:07 want and then it'll spit out a nice
+9:10 looking page for you. All right. Well,
+9:12 thanks for sharing that. Let's dive into
+9:14 the marketing side of things cuz uh
+9:17 seems like X Twitter has really been
+9:19 working well for you. Tell me about that
+9:20 strategy. Show me a tweet that really
+9:22 took off for you and and let's talk
+9:24 about that. So, this post did the most
+9:26 in terms of numbers. It got close to
+9:28 500k impressions. And I think the reason
+9:31 it worked is because I found an angle to
+9:35 attach it to trends happening in the
+9:36 space. A lot of people when they're
+9:38 building in public never go viral
+9:39 because they never join the bigger
+9:41 conversation and human attention span is
+9:44 limited. So it's 100 times easier to
+9:46 just bring your ideas to where the focus
+9:48 is already happening. So this post had
+9:50 you know nice simple visual demo has
+9:53 like real like raw human like reaction
+9:55 but most importantly it tapped into the
+9:58 main debate at the time which was is AI
+10:00 coding actually good enough to build a
+10:02 full SAS. Thanks for sharing that. I'd
+10:04 love if you just shared a little bit
+10:05 more about the bigger strategy here the
+10:07 bigger thing which is build in public. I
+10:08 love if you just talked about that from
+10:10 you know kind of strategy perspective or
+10:11 what you love about building in public
+10:13 and why it's worked for you. So for me
+10:15 what's worked is just shipping often.
+10:17 don't just have like one big video
+10:18 release like a lot of VC startups. So,
+10:20 for example, I tapped into the
+10:22 influencer conversation that was
+10:23 happening at the time. I saw Mark Lou
+10:26 posting a similar format. So, I figured
+10:28 I'd get some inspiration and then
+10:30 convert it into a post for Creator
+10:32 Hunter. What's not worked for me and
+10:35 what I see is there's been like a lot of
+10:37 competitors and copycats that come up,
+10:39 but they never really take off because
+10:40 either they're copying the exact same
+10:43 thing and people see right through that
+10:44 and you need an edge that no one can
+10:47 easily copy with AI tools nowadays.
+10:50 Nice. That's a good strategy. Okay, so
+10:52 now the exciting part. Let's talk about
+10:54 tech stack. What tools, languages, or
+10:57 whatever else you use to build this
+10:59 business? And if you don't mind me
+11:00 asking, what are the generally the costs
+11:02 to run this business? What kind of
+11:03 margins are we looking at? I use
+11:05 perplexity for the game plan, bold for
+11:06 the functional MVP, cursor for making it
+11:09 production ready. I use Versal which is
+11:11 free and then Superbase also free and
+11:13 then API for scraping. In terms of costs
+11:15 and margins, so it's about 90%. All
+11:18 right. So what I want to ask you is, you
+11:20 know, you you built a bunch of stuff and
+11:22 you finally seeing success with Creator
+11:24 Hunter. What have you learned during
+11:25 that process that surprised you? I'm
+11:27 getting a lot of questions as well about
+11:29 how I did it and people want the sauce
+11:31 on how to build stuff and build stuff
+11:33 fast. I think you can just start
+11:34 prompting and just prompt your way to
+11:37 making something and sell it. I think
+11:38 people underestimate the knowledge they
+11:40 already have. So like if you have like a
+11:42 deep domain knowledge, you probably have
+11:43 like tons of ideas already on what to
+11:46 build and you probably have like a
+11:47 winning idea already that you could just
+11:50 prompt your way and start building. I
+11:51 like that. Cool. All right. Now that you
+11:53 are working on this full-time, tell me
+11:55 what a day in the life looks like for
+11:56 you for now building Creator Hunter.
+11:58 Yeah, so it's a big change. More
+11:59 traveling and more work. When I was
+12:01 building out the MVP and was at the same
+12:03 time traveling to China, New York,
+12:05 France, and seeing revenue while you're
+12:08 out and about exploring is a nice
+12:10 feeling. It's a real blessing. But I've
+12:12 been working on it full-time on Creator
+12:13 Hunter since the 24th of December when I
+12:16 quit the job. So some days there's more
+12:18 hours that I put in this than my 9 to5.
+12:21 But I don't feel exhausted at all. Cool.
+12:23 I like that. Well, the last question
+12:25 that we asked anybody that comes on
+12:26 starter story is if you could give
+12:28 advice to young polus maybe a couple
+12:30 years ago. What would you tell them? I
+12:32 think never underestimate how much you
+12:34 can do solo. AI as your CTO is like a
+12:37 superpower. I I don't know how long this
+12:39 period of time will last, but we need to
+12:41 take advantage of it. Whatever ideas you
+12:43 have, you can probably execute it in a
+12:45 weekend. If you just figure out the most
+12:46 scrappy idea possible in the most
+12:48 scrappy way possible, you can get it out
+12:50 there. And then if you put a buy button
+12:51 on it, share it on Twitter in the most
+12:53 scrappy way or Tik Tok, I think you'll
+12:55 be surprised by the amount of people
+12:57 that actually want to get it. Well,
+12:58 that's great advice. Thanks for coming
+13:00 on, Polus. I love what you built. You're
+13:02 going to be a massive success. Keep
+13:04 building, keep going, and uh hopefully
+13:06 we'll see you back on the channel. Thank
+13:08 you. Thanks, Polus, for coming on. I
+13:10 think his story is amazing and it's
+13:12 proof that anybody right now can build
+13:14 anything with AI. I mean, he just got
+13:16 started. He built a bunch of stuff and
+13:18 throughout that process found the idea
+13:20 that would change everything. I see a
+13:22 lot of people waiting for the right time
+13:24 to start and just sitting on the
+13:26 sidelines while others like Polus are
+13:28 just getting started playing around with
+13:30 these tools, throwing at the wall
+13:32 and shipping stuff every week. If you
+13:34 got started right now and started
+13:36 playing with these tools and shipping
+13:37 stuff, imagine where you'd be in two
+13:39 weeks. Yes, it's early and not
+13:41 everything is perfect, but the early
+13:43 bird gets the bag. So, if you're serious
+13:45 about shipping, want to build something
+13:47 real and put it out into the world,
+13:48 check out Starter Story Build. I put the
+13:50 first link in the description. Let's
+13:52 build. Thanks for watching. I'll see you
+13:53 guys in the next one. Peace.

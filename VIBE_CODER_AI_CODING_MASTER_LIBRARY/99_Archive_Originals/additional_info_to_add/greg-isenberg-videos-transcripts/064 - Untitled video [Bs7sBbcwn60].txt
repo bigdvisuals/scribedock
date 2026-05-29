@@ -1,0 +1,1355 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=Bs7sBbcwn60&t=2s
+Channel: Greg Isenberg
+Video ID: Bs7sBbcwn60
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 Alex, by the end of this episode, what
+0:02 are we going to learn?
+0:03 >> You are going to learn how you can go
+0:05 from no idea whatsoever to brilliant
+0:08 idea to having the idea fully built out
+0:11 with AI agents.
+0:13 >> Okay. And could you give us a sneak peek
+0:15 of some of the tools that we're going to
+0:17 be using?
+0:18 >> We're going to be using two really
+0:20 awesome tools. We're going to be using
+0:21 idea browser to come up with a really
+0:24 amazing business idea and then we're
+0:26 going to be using OpenAI's codeex to
+0:29 build out that idea.
+0:30 >> Okay, let's get started.
+0:33 [Music]
+0:39 >> I must confess that I built Idea Browser
+0:42 for myself. Um, so I am a co-founder in
+0:45 Idea Browser, but I think that if it's
+0:48 valuable for me, it's going to be
+0:49 valuable for other people. So, let's get
+0:51 to it.
+0:52 >> And I must confess, I have absolutely no
+0:54 affiliation with idea browser
+0:56 whatsoever. I just find it awesome to
+0:58 find ideas. So, let's do it.
+0:59 >> All right.
+1:00 >> I am going to share my screen. First of
+1:03 all, props Greg on idea browser. Uh,
+1:06 awesome awesome platform. Let me
+1:09 >> Well, the context there, by the way, is
+1:11 that like I run a holding company. So,
+1:13 we're constantly incubating, investing,
+1:15 and acquiring businesses. So, we need
+1:17 ideas. Ideas is the lifeblood of our
+1:20 business. So the whole idea is like if
+1:22 you can scrape Facebook groups,
+1:23 subreddits, get data and create
+1:27 validated ideas, then you have an unfair
+1:30 advantage.
+1:31 >> Yeah. And I, you know, based I talk to a
+1:34 lot of vibe coders and new people to AI
+1:36 every single day. And you know, building
+1:37 has never been easier. The challenge is
+1:40 the ideas. People can't come up with
+1:42 good ideas. And so this is a fantastic
+1:44 way to find them. So you can find things
+1:46 to build out. I personally use this kind
+1:48 of as like a boxing gym in a way idea
+1:50 browser where it's like, okay, I'm gonna
+1:53 go into this. I'm gonna find ideas. I'm
+1:55 gonna build them out. Not always
+1:57 necessarily will they be million-dollar
+1:58 businesses, but at least I'll get that
+2:00 practice of going from my idea to
+2:02 building. And so, what I'll do is kind
+2:04 of walk you through how I use it and and
+2:06 we'll choose an idea and we'll start
+2:07 building it out. But where I like to
+2:09 start off is Market Insights. What's
+2:11 cool about Market Insights is it pulls
+2:13 from a lot of the big social media
+2:15 networks, right? Reddit, Facebook, and
+2:17 you can see what people are talking
+2:19 about, see their pain points, see where
+2:22 there might be solutions, and maybe come
+2:24 up with ideas from these. So, I don't
+2:26 know too much about psychedelic assisted
+2:28 therapy, but I know a little bit about
+2:30 email deliverability, and so I'll come
+2:32 in here, I'll see what pain points
+2:34 people are having with email
+2:36 deliverability, sudden drops in
+2:38 deliverability. If you have a newsletter
+2:39 like I do, you know, this is something
+2:41 you run into all the time. uh fear of
+2:44 Google Outlook policy changes. You can
+2:46 really find some cool interesting pain
+2:48 points to solve from these marketing
+2:51 insights.
+2:53 They give you some solution gaps, uh
+2:55 places where there are no solutions at
+2:57 the moment, uh segments that are
+2:59 underserved. A lot of really cool ways
+3:02 you can pull ideas from here. But where
+3:04 I seem to personally find the most ideas
+3:07 to build out is I like to go to trends.
+3:10 This is just like purpose-built, ready
+3:13 served on a platter, things you can
+3:14 build out. Like I don't even have to
+3:15 think too hard, right? Like website
+3:17 designed for small businesses, wellness
+3:20 app. This is a cool one. So this is this
+3:21 is one I've been thinking about and it
+3:23 looks like it is having a lot of volume
+3:25 and growth at the moment. And so what
+3:27 I'll do is I'll look for a trend that I
+3:30 myself have interest in because the best
+3:32 products to build out are things you
+3:34 have interest in. I'll click in.
+3:37 And what this is going to do is give me
+3:39 more information on this trend. So, I
+3:42 can actually pull up the wellness app
+3:44 here. It'll tell me a little bit about
+3:46 how many monthly searches uh this app or
+3:49 this trend is getting. Tell me about
+3:51 what people are searching for with this
+3:52 trend. A wellness app refers to a
+3:54 digital platform designed to support
+3:56 individuals in achieving and maintaining
+3:57 their health and well-being goals. Uh
+3:59 and gives me a little bit info on how
+4:01 many people are searching for this. And
+4:03 as you can see, a lot of people
+4:05 searching, not a ton of competition. So
+4:08 this for me, when I'm coming into idea
+4:10 browser and I'm looking for ideas to
+4:12 build out and practice my building
+4:14 skills, this is kind of exactly what I'm
+4:17 looking for. Things that are having good
+4:19 growth, things with not a lot of
+4:21 competition, and things where I myself
+4:24 am interested. I'm interested in
+4:25 wellness. I work out. I try to eat
+4:27 relatively healthy, not including
+4:29 chocolate. And so this is something I
+4:33 for me is a really good candidate for to
+4:36 build out.
+4:38 >> It's funny because like when you put it
+4:39 like that, find something that is in a
+4:42 growing industry with low competition
+4:44 that you personally understand and love.
+4:47 Like obviously the you know your chances
+4:49 of success is going to be highest there.
+4:52 >> Well, the chances of success honestly
+4:54 are 100%. The reason being is like at
+4:57 the very least even if no one buys the
+5:00 product at all, you've built a product
+5:02 for yourself, right? That will improve
+5:04 your own life. And like for me, my
+5:06 business, Creator Buddy, I built it
+5:08 because I wanted to build an AI that
+5:09 analyzes my posts. At the very least, if
+5:12 no one bought it, I would have a product
+5:14 for myself to improve my own content.
+5:16 And so, that's why it's always a win if
+5:18 you build things you're interested in.
+5:20 So, here's my workflow. This is what I
+5:22 do. You know, I gone into trends. I
+5:24 found a trend I really like. I have a
+5:26 prompt I built called the idea browser
+5:30 prompt purpose-built for idea browser
+5:32 where I'll go I'll take this trend
+5:36 I'll copy it I'll go into chat GPT which
+5:39 for me at the moment GPT5 is the most
+5:41 powerful model there is sonnet 45
+5:44 incredible for coding the best for
+5:45 coding but for straight up for chatting
+5:47 ideulating I'm still a GPT5 guy and so
+5:51 what I'll do is I will take my prompt
+5:54 and we can put this in the description
+5:56 down below, but basically the prompt is
+5:59 this. I'm giving you a link to a
+6:01 business idea from idea browser. Your
+6:03 job is to act as a professional app
+6:05 builder and creative strategist. Read
+6:08 the page and then generate three
+6:09 highquality unique app ideas inspired by
+6:12 that idea. For each app idea, include
+6:15 the name, uh a concept summary, core
+6:18 features, why it works, and why it would
+6:20 succeed in today's market. keep it
+6:22 practical uh and make it easy for a solo
+6:25 founder to build out. So, I have that
+6:28 prompt. I'll take our trend we found.
+6:31 I'll put it in here. So, here's the
+6:32 idea. Paste it in. And what this is
+6:36 going to do is have chat GPT
+6:40 go into that website, see what that
+6:43 trend is all about, and then give us a
+6:45 few ideas for what we can build out in
+6:49 our next stage, which will be going into
+6:51 codeex and actually building out that
+6:52 idea.
+6:55 So, we have a few different ideas here.
+6:58 We have Mood Mosaic, which is an
+7:00 expressive mood journaling and creative
+7:02 wellness app for people who want a more
+7:04 visual, playful way to track emotional
+7:06 health. Rather than writing pages of
+7:08 text, users paint their mood via simple
+7:11 sketches, colors, stickers, and stamps.
+7:13 Maybe a little out there. Well, Sync
+7:16 Buddy Wellsync Buddy is a wellness,
+7:18 accountability, and habit pairing app
+7:20 that helps pairs, small groups
+7:23 synchronize, and support each other's
+7:24 wellness routines. Uh, and it's for
+7:28 people who thrive on social
+7:29 accountability.
+7:31 That's actually a multiplayer social
+7:33 network wellness app. It's not a bad
+7:35 idea.
+7:36 And then we have Bio-ythm Coach. Bioythm
+7:39 Coach is a personalized micro wellness
+7:41 app built around users individual daily
+7:44 bio-ythms. Uh, it nudges users to
+7:47 schedule task breaks and wellness micro
+7:49 practices like stretching, breathing,
+7:51 and light exposure in alignment with
+7:53 their energy peaks and troughs. That
+7:56 one's pretty cool. I think I don't think
+8:00 any of these are bullseye for what I
+8:02 want to build, but what we can do from
+8:03 here is we can take certain ideas and
+8:06 combine them into one, right? Like some
+8:09 of these are a little abstract like mood
+8:11 mosaic. I don't really want to build
+8:12 like a drawing app. Wellsync, building a
+8:15 multiplayer social network's a little
+8:16 tough for one podcast. Bio-ythm, I kind
+8:19 of like getting daily habits based on
+8:24 your goals. So, let's do this.
+8:27 I think what we can do is we can say,
+8:29 uh, I like idea number three, but it's a
+8:34 little abstract.
+8:37 Build me a plan for a
+8:40 habit tracker that also that also
+8:45 builds us wellness routines.
+8:49 So, what I really liked in this one was
+8:52 uh the wellness micro wellness app. I I
+8:55 like that idea. Being able to track
+8:56 every little wellness thing you do and
+8:58 getting recommendations around how to be
+9:00 more well. So, let's we can go back and
+9:02 forth with chat GPT here and get more
+9:05 ideas around that.
+9:06 >> Yeah, I like that idea like we have
+9:07 to-do lists for our professional lives,
+9:09 but we don't really have to-do lists for
+9:11 our longevity lives.
+9:15 >> We don't. We don't. And I think a lot of
+9:17 reason why is people just don't think of
+9:19 ways to be well. So putting a little bit
+9:22 of AI spin in there where it recommends
+9:24 those things and you make a to-do list
+9:26 out of that. I think that could be cool.
+9:29 >> So let's see what we got here. Concept
+9:31 overview habit flow is a dynamic
+9:33 wellness habit tracker that doesn't just
+9:35 track what you do. It designs and adapts
+9:37 your daily wellness routines
+9:39 automatically based on your energy
+9:40 levels, goals, and feedback. The app
+9:43 blends traditional habit tracking with
+9:44 adaptive scheduling and AI coaching to
+9:46 help users build sustainable
+9:48 personalized wellness systems. This is
+9:50 something I'd use. Greg, would you use
+9:52 this?
+9:53 >> I totally would. I'm actually and I'm
+9:55 like in a health kick right now. I'm
+9:56 like actively trying to to be more
+9:59 healthy and like I need it in my face a
+10:01 little bit more. Um, so yes, I would.
+10:05 Even gives you the monetization. So free
+10:07 tier, how you can make money off of it.
+10:10 Upsell. We really at this point have not
+10:13 done any sort of creative thinking.
+10:16 We've leaned on idea browser and it's
+10:18 just kind of fed us ideas and the AI
+10:20 helped us come up with the winning idea.
+10:22 I mean there's even a lazier way to do
+10:24 this we'll do you know for another video
+10:27 but like the lazier way to use idea
+10:30 browser if you go back to it for a
+10:31 second like you can if you see the
+10:34 related idea next to the trend on the
+10:36 right hand side on the right bar
+10:39 >> there are and click click that idea
+10:43 so in idea browser there's almost a
+10:46 thousand I think ideas in based on all
+10:48 these trends so there are precooked
+10:51 ideas based on you know and these are
+10:54 curated by human beings so it's like we
+10:56 go through them and we're like hey this
+10:58 is good or bad um so you're right you're
+11:01 right you can use chatp you can use
+11:03 cloud you can use some of these tools to
+11:05 go and ideulate or you can just use the
+11:07 pre the database and there's one more
+11:10 tool that you can also use that I should
+11:11 just me make mention is if you go to
+11:15 yeah tools
+11:18 um research your ideas. So, we won't
+11:22 have time to do this now, but let's say
+11:25 you picked an idea you really liked.
+11:27 Like we could have picked like that one.
+11:29 It sounds like we have that idea that we
+11:30 liked from Chat GBT. You can actually
+11:32 put it into idea browser. It's going to
+11:36 it takes time. It takes up to 24 hours,
+11:38 but it actually generates a report on
+11:40 exactly like pretty much step by step
+11:43 how you should be building this
+11:45 business.
+11:46 >> So, it's like a like a deep research
+11:48 tool.
+11:48 >> Deep research. Deep research for ideas.
+11:50 Yeah,
+11:51 >> that's sick.
+11:52 >> And it's cool seeing how other people
+11:54 use it, by the way. Like I we see people
+11:56 use Some people want it's just like more
+11:58 of a preference thing. You know, some
+12:00 people like pasta, some people like
+12:01 pizza. Some people like relying on the
+12:04 trends and just like kind of going with
+12:07 it. And some people just say, I like
+12:09 human beings giving my ideas and
+12:13 that's why I'm just going to go to the
+12:14 the database.
+12:16 >> Yeah. Yeah, I mean I think the key is
+12:18 this is not to overthink it. I think the
+12:21 main problem a lot of people have is
+12:23 they kind of wait for the perfect idea
+12:25 and then the perfect idea never comes
+12:27 and they end up accomplishing zilch,
+12:30 right? What the the key and how I kind
+12:33 of got to my winning business idea was I
+12:36 just kept building things. I just kept
+12:38 choosing ideas and you learn from each
+12:40 idea you build out. Oh, this is actually
+12:42 interesting. I like building this out.
+12:43 and you eventually get to where you want
+12:45 to go. And that was what was great about
+12:47 Idea Brows. You have a trillion ideas in
+12:49 front of you. Just choose one, start
+12:51 building it out, and if it's a losing
+12:54 idea, you still win because you figure
+12:56 out what the next idea you want to build
+12:57 out is, and you get closer to where you
+12:59 want to be. So, just build something
+13:00 out.
+13:01 >> Totally. I mean, even the idea for
+13:04 Twitter, for example, came from Odo.
+13:06 Like, the original concept, I don't know
+13:08 if you know the story.
+13:09 >> I don't.
+13:10 >> Yeah. So Jack Dorsey raised a few
+13:12 million dollars to build out audio which
+13:14 is a micro podcasting app idea and he
+13:17 built it and
+13:20 started just you know I guess it was too
+13:22 early to do that and he was kind of like
+13:24 let's just make a text and came out you
+13:26 know basically came up with the idea
+13:28 from for Twitter through that process.
+13:30 Same is true with Instagram. You know
+13:32 the story of Instagram how it started
+13:34 off as bourbon. No,
+13:36 >> you know, Bourbon was uh a location.
+13:41 It was kind of like Foursquare,
+13:42 actually. Remember check-ins?
+13:44 >> Yes.
+13:44 >> Like checking in? Yes. You would check
+13:46 into places and you would post photos of
+13:49 the place you checked in on. What they
+13:51 learned was
+13:53 people just cared about the photos.
+13:56 And so they're like, "Let's just build a
+13:58 photo sharing app." So your best idea
+14:02 usually isn't your first idea, but it it
+14:04 kind of gets you there to your point.
+14:07 >> And I think it's the same thing with
+14:08 Open AI, isn't it? The same exact story
+14:11 where it wasn't a chatbot at all. They
+14:13 just kind of demoed it as kind of like a
+14:16 proof of concept. Hey, what would happen
+14:17 if this was a chatbot? And it turned out
+14:19 everyone using OpenAI was just doing the
+14:22 chatbot. Like, okay, we'll turn this
+14:23 into a chatbot product. and they
+14:25 released GPT3.5
+14:27 and like that's all they've been doing
+14:29 since it's building on top of that
+14:30 chatbot. So that's how you come up with
+14:32 your trillion dollar idea. You just
+14:34 build something and you'll along the way
+14:36 find what the right thing to do is.
+14:39 >> All right, let's go back.
+14:42 >> So let's do this. We've kind of ironed
+14:44 out our idea. The last thing we need to
+14:47 do before we start building, which this
+14:49 will be the fun part, is we want to turn
+14:51 this into a PRD. So, uh, a product
+14:54 requirements document. AI agents are
+14:57 really, really good when they have a
+14:58 detailed plan, when they have a product
+15:00 requirements doc to work off of. So, we
+15:02 want to build this and then hand it off
+15:05 to our codeex agent who will start
+15:07 building the app for us.
+15:09 And so, what we're going to do here is
+15:11 we are going to say, okay, I really like
+15:15 this idea.
+15:18 Let's turn
+15:20 the MVP
+15:23 very simple version
+15:27 of this app and for those who don't know
+15:29 at home minimally viable product so like
+15:31 kind of like the first version of the
+15:33 app that is usable that gives value to
+15:35 the user very simple version of the app
+15:37 into a PRD we can hand off to an AI
+15:43 coding agent
+15:46 and I'm going to hit answer on that. And
+15:48 now Chad GBT5 will build us the PRD for
+15:52 habit flow. Actually pretty good name if
+15:54 you ask me. Um, and we were going to
+15:58 take this PRD and in a second I'll show
+16:00 you how we hand it to Codeex to start
+16:01 building some cool stuff out.
+16:04 >> I got to be honest, I haven't like
+16:06 played around with codeex all that much.
+16:09 >> Am I making
+16:11 >> You are making a mistake. Now, do I
+16:14 think it's the end all beall? you'll
+16:16 never have to use another AI coding tool
+16:18 again. No, I think it works really
+16:19 really well in complement to like a
+16:22 cloud code for instance. Yeah, but there
+16:24 are some features and functionality
+16:26 which I'll show you uh when we hop in
+16:28 that you can't do anywhere else.
+16:30 primarily their concept of handoff and
+16:34 cloud agents which basically gives you
+16:36 the ability to spin up tasks wherever
+16:39 you are whenever you are crossplatform
+16:42 uh and constantly be productive no
+16:44 matter what you're doing
+16:47 so let's do this let's take this PR date
+16:51 actually let's do one more thing here
+16:53 can you make this a markdown file please
+16:57 this is the way AI agents read uh is in
+17:00 markdown file. So, boom. Perfect.
+17:03 It's going to spin this up into a
+17:05 markdown file. And in the meantime, what
+17:08 I'm going to do is I'm going to switch
+17:10 over to codeex. So, for those who want
+17:14 to work with us at home alongside us,
+17:16 which I think is a very smart idea. What
+17:18 I have here is Visual Studio Code
+17:21 completely free. You can download it. No
+17:23 monthly fees or anything. Uh, and I
+17:26 installed the codeex plugin for Visual
+17:28 Studio Code, which is going to give you
+17:30 this nice codeex UI here over on the
+17:32 left hand side, uh, that we can work in.
+17:36 But the first thing we're going to do is
+17:38 we're going to create a new file. I
+17:40 create a new project in Visual Studio
+17:41 Code. I'm going to create a uh
+17:45 project.md,
+17:48 a markdown file. I'm going to copy over
+17:51 our new PRD here. It's going to have
+17:54 everything about the project. I'm going
+17:56 to hit save. And now what we can do is
+17:59 switch to codeex. For those new to
+18:01 codeex, uh this is a plugin for Visual
+18:04 Studio Code. So you can just install it.
+18:06 Connects to your chat GPT account. So as
+18:08 long as you're paying the $20 a month or
+18:10 whatever for the kind of the base tier,
+18:12 you'll have access to codeex. Now
+18:15 there's a couple things different here.
+18:17 If you're more used to clawed code or
+18:19 cursor with codeex you have two options.
+18:24 You can work locally or you can work in
+18:26 the cloud. So workly working locally is
+18:30 kind of probably what you're used to
+18:31 with clawed code probably what you're
+18:33 used to with cursor where it just sees
+18:34 the code in your in your IDE and edits
+18:38 it writes code changes code whatever the
+18:41 difference here is you can run this in
+18:43 the cloud and basically what that means
+18:46 is you can spin up AI agents that work
+18:50 on in the cloud on the internet and does
+18:53 things for you asynchronously writes
+18:55 code for you asynchronously and The
+18:57 advantage to this is you can now spin up
+19:00 these agents from your ID plugin here
+19:03 like you see with codeex from your chat
+19:06 GPT app on your iPhone. You can spin up
+19:10 uh agents from codeex on the web. So if
+19:13 you go to chad gbd.com/codex,
+19:17 you can spin up agents from your web
+19:19 browser, you can spin up agents to do
+19:21 tasks for you wherever you are, mobile,
+19:24 browser, IDE, and they all work
+19:27 together. Hand off tasks to each other.
+19:29 Uh which allows you to basically unlock
+19:32 productivity while you sleep, while
+19:33 you're on the go, while you're at the
+19:34 gym, wherever you are. You can have AI
+19:36 agents work for you building out code
+19:39 and doing whatever you want.
+19:41 >> That's a big deal.
+19:42 It's a really big deal. It's a It's a
+19:44 It's a whole new paradigm of building
+19:48 that we really haven't had before where
+19:50 doesn't matter where you are, doesn't
+19:52 matter what you're doing, you can have
+19:54 code being built. My personal favorite
+19:56 way of using it is before I go to bed
+19:59 every night, I challenge myself. I need
+20:00 to spin up three tasks for AI agents. So
+20:04 before I go to bed, before I turn off my
+20:06 computer, I have to give codeex three
+20:08 tasks. So whether it's implementing
+20:10 features, whether it's doing other
+20:11 tasks, which I'll show you in a second,
+20:13 whether it's marketing, product,
+20:14 whatever, just having three tasks spun
+20:17 up before I go to bed so that when I
+20:19 wake up, my app has advanced. Uh it's a
+20:22 really, really cool new way to be able
+20:24 to use AI agents.
+20:27 With that being said, I'll show you all
+20:29 the other cool stuff you can do with
+20:30 cloud agents in a second, but let's get
+20:32 the kind of base
+20:35 app set up here. So I'm going to say
+20:37 work locally and I'm going to say I
+20:41 created a PRD in
+20:45 project.md
+20:48 please build out the MVP using Nex.js
+20:56 and Superbase.
+20:58 So that's going to be our text stack.
+21:00 Next.js for the front end, Superbase for
+21:02 the database. Uh you can choose your
+21:05 model. You have many different options
+21:06 here, high, medium, or low. I've been
+21:09 using codeex high for everything, but I
+21:11 just watched uh the codeex product
+21:14 manager build out an app live at the
+21:16 OpenAI dev day, and he used low for
+21:19 everything. I was kind of shocked. So,
+21:20 I'm going to use low for this. Uh, and
+21:23 I'm going to hit send, and it's going to
+21:24 start building out our MVP.
+21:28 >> You're like, if it's good enough for
+21:29 him, it's good enough for me.
+21:31 >> Yeah. I was just like, by default, I
+21:33 want the smartest model. And so I've
+21:35 been using high and which takes forever
+21:37 takes a long time. But the head guy who
+21:40 did like a live demo building out a
+21:42 complex app for the entire convention
+21:44 use just low for everything. Okay, I
+21:46 guess low is good enough.
+21:47 >> It t it takes longer and doesn't it take
+21:49 more tokens.
+21:52 >> Takes more tokens takes longer. But I
+21:54 don't My mindset's always been like I
+21:55 just want the smartest employee possible
+21:57 doing everything for me.
+21:58 >> Right. You're putting in like the the
+22:00 most premium gasoline.
+22:03 >> Exactly. I want the most premium
+22:05 everything. If I'm drinking water, I
+22:07 want to drink Mountain Valley water. I
+22:08 can't drink out of a tap. You kidding
+22:10 me?
+22:11 >> At a boy.
+22:12 >> There we go.
+22:14 >> You know, this is this is the GPT high
+22:15 of water, but apparently uh you can do
+22:18 the GPT low tap water and it still works
+22:21 well.
+22:23 >> So, that's building that out. Now, while
+22:25 that's building that out, I'm going to
+22:28 show you the power codeex. And for the
+22:30 record, OpenAI is not paying me. But
+22:32 also for the record, I will happily take
+22:34 an open AI check. Um, I'm going to
+22:37 switch as this is working to the cloud.
+22:42 So, run in the cloud. Actually, let's do
+22:43 a new chat here. I'm going to say run in
+22:47 the cloud.
+22:48 And I'm going to say take a look at
+22:52 project.md.
+22:55 Let me make sure we're on the right.
+22:57 Yep, we're on the right uh repo here.
+22:58 So, you're going to connect this to your
+22:59 GitHub as well. We're on the wellness
+23:01 repo.
+23:02 and build us an entire
+23:06 marketing plan for this app.
+23:10 And so now what we're doing with Codeex
+23:12 is we have the local agent building us
+23:15 out the app, the MVP, and now I'm going
+23:18 to spin up a cloud agent to build us a
+23:20 marketing plan on the cloud for the app.
+23:23 And I hit send on that.
+23:26 And that is the power of codecs and like
+23:30 these cloud agents that you really
+23:31 didn't have before in cursor or cloud
+23:34 code that you can now take advantage of
+23:36 where I'm now spinning up AI employees
+23:38 in the cloud to do other tasks while the
+23:41 local agent is building out our app for
+23:43 us. It's kind of crazy because if I had
+23:47 downloaded VS Code, downloaded Codeex, I
+23:50 wouldn't have known that like just by
+23:53 looking at local versus cloud.
+23:56 >> Yeah. I mean, it's kind of a new
+23:58 paradigm of building. Also too, I think
+24:02 these companies can do a little bit
+24:03 better of a job of explaining to people
+24:04 how everything works.
+24:06 >> Uh, but yeah, it's it's a whole new way
+24:09 of thinking about AI coding. It's
+24:11 instead of thinking about it like I'm
+24:13 like pair programming with an intern
+24:15 like you would with cloud code or
+24:17 cursor, it's now
+24:19 >> I'm kind of the CEO of a company and I'm
+24:22 hiring employees to do things for me as
+24:24 I work, right? I have my software
+24:26 engineering intern building. Now I in my
+24:29 chat have in the cloud my marketing head
+24:32 of marketing going and building this out
+24:34 and building out a marketing plan and
+24:36 you can just spin up agents as you go in
+24:39 the cloud to do a lot of things at once
+24:44 and I can actually show you here uh as
+24:46 this is going uh oh you can actually see
+24:49 it right here so you can see the work
+24:50 it's doing in the cloud. Here's an
+24:52 entire marketing plan for habit flow. Uh
+24:55 objectives and KPIs we can track. Target
+24:57 audience of who we're going to be
+24:59 targeting. Resilient achievers 25 to 40
+25:01 year old professionals like us. It's
+25:03 exactly exactly what we were thinking
+25:05 with this uh positioning messaging
+25:07 pillars competitive landscape. It did
+25:10 look it did uh research on competitors
+25:12 for us. Did everything we wanted as our
+25:15 other agent was working on us on
+25:18 actually building out the MVP.
+25:20 And it looks like that is still working
+25:22 here as well as 1,200 lines of code. So
+25:24 we had,200 lines of code built out for
+25:26 us while our marketing agent was working
+25:27 the cloud to build out that plan
+25:30 >> while we were talking smack about open
+25:32 AI.
+25:34 1,200 lines that they're just beautiful
+25:36 lines that they're creating for us.
+25:38 And what's really cool is if I actually
+25:42 it's probably not going to be too
+25:43 visible on the camera, but if I go into
+25:46 codeex on my phone and I refresh here on
+25:51 my chat GPT app, I have that entire
+25:54 marketing plan on my phone as well.
+25:56 >> That's cool,
+25:57 >> right? And so it's completely
+25:59 crossplatform.
+26:00 Everything I do in the ID is in my
+26:02 mobile app. Everything I do in my mobile
+26:04 app, it's on the browser and vice versa
+26:06 across the board.
+26:09 which is uh you know an ecosystem I
+26:13 don't think any other AI company can
+26:15 really pull off right now at the moment
+26:16 which is really awesome.
+26:20 So we have it still building out our
+26:22 app. We're going to have the MVP done uh
+26:24 when it does that. But like I think
+26:26 typically when people are building out
+26:27 apps like this during this time when the
+26:30 agents building they'll go they'll go on
+26:32 X they'll doom scroll they'll do
+26:34 whatever all of a sudden two hours gone
+26:37 they got nothing done. If you kind of
+26:39 shift your mindset now to having
+26:43 cloud employees, AI employees, which is
+26:46 unlocked with codeex, you can get a lot
+26:48 more done in these kind of in between
+26:50 moments, right? Like while this is
+26:52 working, I can maybe spin up a new chat,
+26:54 make sure we're working in the cloud,
+26:55 and we can say, uh, you're a product
+26:59 manager. come up with a road map for the
+27:03 app based on
+27:06 project.md
+27:09 and I hit send. Now I have my product
+27:11 manager employee working for me all
+27:13 while I wait for the MVP to be built out
+27:16 which looks like that is actually good
+27:18 to go and set here. Um boom. Okay,
+27:21 perfect. Yep. So now we can run this
+27:25 and we can uh test it out. So, let's
+27:28 see. We didn't set up the database just
+27:30 yet. So, this might not work right away.
+27:33 But if this doesn't work right away, we
+27:34 can we can run through what setting up
+27:36 the database as well. But I'm going to
+27:39 let's see here.
+27:42 I'm going to run this
+27:44 uh npm rundev. Let's see. Run. Oh, we
+27:48 got to run npm install. Okay.
+27:51 NPM install. So, this is going to
+27:54 install all the dependencies, all the
+27:57 tech, all that. So, it's good to go. And
+27:58 then we'll be able to run the app after
+28:00 this.
+28:02 All right. So, we'll do a little bit of
+28:03 debugging here. We're getting errors
+28:05 trying to install the dependencies. I'm
+28:06 going to go in. I'm going to go to
+28:07 codeex. I'm getting errors when running
+28:12 npm install.
+28:16 Here they are.
+28:20 Let's make sure we run this locally.
+28:22 Yep. Running it locally. I'm going to
+28:24 hit send. Uh, and it'll go through and
+28:26 it'll figure out the errors and fix
+28:28 whatever needs to be fixed here.
+28:30 >> I'm happy that there's errors to be
+28:32 honest cuz you know it happens, right?
+28:34 It's a part of the process.
+28:37 >> It looks like Yeah, it looks like it had
+28:40 the wrong version of Superbase in the uh
+28:43 in the dependency. So, it was trying to
+28:45 install a version of Superbase that
+28:46 doesn't exist, which is an issue. Uh, so
+28:50 let's try that again.
+28:53 Still having errors with superbase.
+28:54 Let's do this. Let's just say for the
+28:56 sake of this seems to still have issues
+29:01 with superbase for this
+29:05 MVP. Let's just save data locally.
+29:12 I'm going to hit send so we can get a
+29:13 working version first and then we'll
+29:15 implement superbase right after so we
+29:16 can get that working off the rip. Um, so
+29:19 that's going to kind of remove that
+29:20 dependency that's giving us fits here.
+29:22 So we can see uh kind of the MVP version
+29:25 here that we can test.
+29:29 But again, unlike uh other apps, what we
+29:32 can do with codeex is we can have many
+29:35 different strands of work going on at
+29:37 the same time. So we still have our road
+29:40 map going here. So we have the road map.
+29:42 Let's check in on that.
+29:45 So here's our road map. vision deliver a
+29:47 delightful adaptive habit tracker that
+29:49 keeps people consistent in wellness
+29:50 routines. Uh so guiding initiatives
+29:53 product alignment phase one the core MVP
+29:56 experience which we're working on
+29:59 improved habits via smart nudges. Um
+30:02 let's see phase three expansion and
+30:04 monetization experiment. So it really
+30:06 builds us out step by step what we're
+30:08 going to be building out with our
+30:10 product manager uh agent here which
+30:13 really cool. you can always make sure
+30:15 you're being productive.
+30:19 We can go back to our local agent who is
+30:21 fixing our dependencies here.
+30:25 What are you using at the moment to uh
+30:27 kind of vibe code? Are you using Claude
+30:28 or or what have you been playing with?
+30:31 >> Yeah, I mean I've been in a Claude code
+30:34 phase for maybe what has it been three
+30:36 months?
+30:37 >> Mhm. Um,
+30:39 but have been seeing this kind of one of
+30:41 the reasons why I wanted to have you on.
+30:43 Like have been seeing some of the codec
+30:44 stuff and I'm starting to get
+30:49 tempted to to to to you know to to to go
+30:53 deeper into it.
+30:55 It's it's worth playing around with to
+30:57 see how it fits into your
+31:00 >> workflow, right? Because it works a
+31:02 little different. I find in some ways
+31:04 Codeex isn't as proactive,
+31:07 >> right? It seems like Claude always does
+31:08 a little bit extra of what you ask,
+31:11 which some people annoys them, some
+31:13 people they love.
+31:14 >> Codeex is almost the opposite where you
+31:16 have to nudge it along sometimes to do
+31:18 things. So, it's worth playing around
+31:20 with to see if it's compatible, right?
+31:22 Like the same way you'd interview
+31:24 employees to see if they work well in
+31:25 your company. It's like interviewing the
+31:27 AI agent.
+31:28 >> Yeah. You also get to know, you know,
+31:31 who they are and and and how they work
+31:33 and you can kind of what what might be
+31:36 good for you might not be good for
+31:38 someone else.
+31:40 >> Exactly. Exactly. You know, there's
+31:42 people who live and die by cursor,
+31:44 right? And and they all work in
+31:46 different ways and have different
+31:47 features and functionality. For me, I'm
+31:49 having uh I'm I'm having a lot of
+31:53 productivity almost like 6040 codecs to
+31:56 claude code where you know I I have the
+31:59 workflow I'm showing you here and then
+32:00 if it gets stuck I'll have Claude code
+32:04 kind of be the surgical go in and fix
+32:06 that like micro issue that's it's been
+32:08 working well for me.
+32:11 So I'm going to try installing this
+32:13 again. Uh we changed this around. Boom.
+32:16 Okay. So, we added the packages. Looks
+32:18 like it installed. Let me see if I can
+32:20 do npm rundev and get this working.
+32:23 Looks like it's working. Okay, let's
+32:26 test this out. All right, I am going to
+32:29 switch over. Uh, habit flow. Build
+32:31 sustainable routines with energy aware
+32:33 planning. Adaptive wellness routines
+32:35 without the rigidity. Habit flow
+32:37 calibrates your day every morning. Set
+32:39 up your focus, pick your start habits,
+32:41 and let the app shape a plan that
+32:42 responds to how you feel. Track
+32:44 completions, watch streaks grow, and
+32:45 help the momentum with gentle datadriven
+32:48 nudges. Okay, let's see what see if we
+32:51 got Oh, wow. So, we have an entire
+32:53 onboarding flow. And again, like first
+32:56 of all, this is awesome, right? Like we
+32:59 have like obviously this isn't the full
+33:01 app, but this is a pretty cool MVP where
+33:04 we have like the intro, the onboarding
+33:06 experience, whole lot of other cool
+33:07 things in here. Uh, and this really you
+33:11 get these types of awesome results when
+33:13 you do things like build out a PRD ahead
+33:16 of time, right? When you develop your
+33:18 idea and it takes a little bit of extra
+33:20 time to do, right, to go into idea
+33:22 browser, find a really good idea,
+33:24 develop it with AI, but you're going to
+33:27 save time in the long run because you're
+33:29 going to be a lot more focused uh, and
+33:31 get better results from your agents
+33:33 because you have that in-depth PRD built
+33:36 out. So, let's play around with this a
+33:37 little bit and see what we want to add,
+33:40 what we want to tinker with, and I can
+33:42 kind of show you how I use codecs to
+33:43 tinker with different things and add on
+33:45 new features and things like that. So,
+33:47 it's personalized habit flow. Alex
+33:50 check-in preference, morning check-in f
+33:53 for me, focus is the issue. You get so
+33:55 many different AI tools out there. I can
+33:57 never focus on one thing at a time. I'm
+33:59 sure you got that same issue.
+34:01 >> Starter habits, 10-minute mobility flow,
+34:03 two-minute breath res, I could use that.
+34:05 hydrate. I'm pretty good at that. Let's
+34:07 get rid of that. Let's do I could I
+34:09 could do more deep work sprints.
+34:12 >> Habits. I want to meditate more.
+34:13 Everyone talks about meditation. I want
+34:15 to meditate more.
+34:16 >> Let's do that. Let's add that to the
+34:18 list. Oh, okay. So, it saves the habits
+34:21 we want to do. And then we can
+34:23 >> save and continue. Please add your name.
+34:25 I got to add my name in here. Alex.
+34:27 Saved. You can hop into today to
+34:29 generate your first adaptive plan. Okay.
+34:33 So, let's go to today. Let's see how
+34:34 that works. Today's pacing. Tune your
+34:37 energy, then work through the tailored
+34:38 plan. How's your energy? I had a lot of
+34:41 coffee today, so we're going to do five.
+34:43 All right, we got an error. Let's we'll
+34:44 do some debugging in a second.
+34:46 >> Mhm.
+34:48 >> Plan mode. So, it gives us Okay, it
+34:50 gives us some some uh to-dos for
+34:53 wellness techniques we can do. And then
+34:56 routine logic, primary rank habits.
+34:58 Okay, so this is pretty cool. We give it
+35:00 our goals and it gives us a bunch of
+35:02 to-do items. uh to stay well. I like
+35:05 that a lot. Let's do a little debugging
+35:07 here. Let's see what this error is. Set
+35:08 log is not defined. So, a lot of people
+35:12 they have really complex
+35:14 uh workflows when it comes to debugging
+35:17 and errors. They have MCPs that has
+35:20 codecs or cloud code watch your log and
+35:22 like screenshot your browser and this
+35:24 and that. They have all these. the end
+35:27 of the day, they're probably usually
+35:28 trying to sell you something to get you
+35:30 to do these really complex workflows for
+35:33 no reason. Here's my really complex
+35:35 workflow for debugging.
+35:37 I highlight the error. I do command C
+35:42 and then I go into my IDE and I hit
+35:48 commandV
+35:49 >> and then I hit enter. Uh I don't find
+35:52 any need to set up MCPS for this. Uh, I
+35:55 don't need to do any sort of advanced
+35:57 workflows. Please solve this error.
+36:02 And then I hit enter. Uh, this seems to
+36:04 work best for me. I don't need to have
+36:06 codecs connected to my browser or
+36:08 anything like that. I just copy and
+36:09 paste errors. Uh, and it seems to fix it
+36:12 pretty well. Um, and it looks like it's
+36:14 fixing the error. And at the same time,
+36:16 while it fixes the error, again, you
+36:18 probably want to get into kind of that
+36:19 codeex mindset of, okay, how can I be
+36:22 productive while my agents work? I'll
+36:24 spin up a new chat. I'll make sure I'm
+36:27 in the cloud and I can say set up an AI
+36:33 chat interface where I can chat with a
+36:40 wellness expert
+36:42 AI and get advice. So, I thought of
+36:45 another feature to build out while this
+36:47 works. I'm going to give it to our cloud
+36:49 agent. And what I'll show you towards
+36:51 the end of this is how we can start
+36:52 pulling down these changes and
+36:54 implementing it into our app as we go.
+36:56 And so the key here, especially when
+36:58 you're using a really awesome tool like
+37:00 Codeex, is productivity focus. And
+37:03 because we have these cloud agents, we
+37:05 can always make sure we have things
+37:07 cooking, things baking in the back end,
+37:09 and have new features pumping out as we
+37:11 go. So let's see here. Let's go into
+37:16 uh let's see. Did we have this here?
+37:21 Let's go. The only downside is sometimes
+37:23 you get uh tripped up and you forget
+37:25 which agents are working on what. Here
+37:28 we go. Uh looks like it fixed the error.
+37:31 Let's go back in. Make sure we're not
+37:33 getting an error on the screen anymore.
+37:36 Is this like kind of percolating uh
+37:39 ideas for you, Greg, around codecs and
+37:41 and things you can do with it? Yeah, it
+37:44 totally I also think uh first of all, I
+37:46 agree with the whole MCP complicated
+37:48 workflow to the errors. So, I've tried
+37:50 using some of those tools and it's oh
+37:52 man, it's like it just feels like I'm
+37:55 overengineering things. So, I'm happy
+37:57 you said that. So, that's that was
+37:58 actually what I was thinking about. Um
+38:00 the second thing is I was literally I
+38:02 was thinking about this app and I you
+38:04 know one of the beauties about uh
+38:07 building an app instead of just like
+38:08 sketching it uh you know on a notepad is
+38:12 it got me thinking that this in a mobile
+38:14 setting would actually probably rip. Um
+38:18 you know not that we're going to build
+38:19 an iOS app today but you know maybe if
+38:21 people want in the future we can
+38:24 >> follow up followup uh iOS focus one
+38:27 where we go we show you how to build an
+38:28 iOS app. I like that.
+38:30 >> Yeah. No, but I think that's that's how
+38:32 I I would think about it and then what I
+38:34 do is I would I would probably write out
+38:38 that idea and be like, "Hey, here's
+38:39 here's what I've built out. you know,
+38:41 this is here's, you know, here's my
+38:43 vision for an iOS app. And I would use
+38:47 uh idea browsers AI agent to basically
+38:50 scan, you know, scan social sentiment,
+38:53 give data um around, you know, is this a
+38:57 good idea and how how would it implement
+38:59 it? So, that's something that always
+39:02 exists. That is a pro feature, but um
+39:05 you know that is that's something I it's
+39:09 like you have to build it to get those
+39:11 ideas. You know what I mean? So
+39:13 >> So this is the uh this is the the
+39:16 research your ideas uh agent, right? I
+39:19 mean I think that's really good because
+39:22 again this is the mindset you need to be
+39:25 building when when you start becoming an
+39:27 AI builder is you know how do I get
+39:29 maximum efficiency? How do I get maximum
+39:32 productivity? Well, this is another
+39:34 employee we can spin up, right? So,
+39:36 while our codeex agents are building out
+39:37 road maps, marketing plans, debugging,
+39:40 fixing our next feature, let's get an
+39:42 agent going, an idea browser that's
+39:44 going to now take our PRD.
+39:49 And we can go in here. Below is a PRD
+39:52 for my wellness app.
+39:56 Please research how this would do on
+40:00 mobile or how we can improve this idea.
+40:06 And I paste that in and I can hit send
+40:09 here. And now, right, this is the kind
+40:11 of AI agent employee mindset. I have my
+40:14 three to four employees working for me
+40:16 in codeex. I now have my employee
+40:19 working for me in idea browser to
+40:21 research this idea and expand upon it.
+40:23 You know, maybe now I go back into chat
+40:25 GPT and I spin up, you know, I give
+40:28 another task. Hey, can you build out the
+40:30 landing page for the app, right? I can
+40:33 go in here. Hey, please mock up for me a
+40:38 landing page and all the copy for it for
+40:42 this app. I hit send on that. And now
+40:45 you know this is how you build a
+40:48 one-person billiondoll business
+40:50 >> is it's one person but it's eight
+40:52 employees working for you at the exact
+40:54 same time. Our Chad GPT agent,
+40:58 >> our idea browser agent developing our
+41:00 ideas for us and then our codeex agents
+41:03 right PRDS writing code and building out
+41:07 our roadmap for our app. This is like
+41:09 the mindset you need to have to build a
+41:12 successful oneperson business.
+41:14 So this is really cool. You can edit
+41:15 your research brief, generate the
+41:17 research report.
+41:18 >> This is really cool. Okay, so it gets
+41:20 the challenges, the moes, the
+41:22 observations. This is cool.
+41:24 >> So if you click generate report, so it's
+41:27 it's generating now, but if you what
+41:29 you'll see if you scroll down, you'll
+41:31 see an example of a report. Um, it
+41:34 basically is the idea browser format but
+41:38 for your idea, which is really cool. And
+41:40 if you if you scroll up and you see at
+41:44 the top right there's a build this idea.
+41:47 This is a new feature that basically
+41:49 should gives you optimized prompts for
+41:52 your idea um and for the database of
+41:55 ideas you know for marketing email
+41:58 sequences ads all that sort of stuff.
+42:01 And then you can just copy the prompts
+42:02 and put it in vo cursor cloud whatever.
+42:05 >> You know what would be really cool?
+42:06 >> What?
+42:08 using the V0ero API.
+42:11 >> Yeah.
+42:11 >> And like when they generate this report,
+42:13 it automatically builds like just the V1
+42:16 like kind of the shell of the page to
+42:19 kind of give that visual inspiration
+42:21 like right in the right in the report
+42:22 you boom, you have your V1. Copy this
+42:24 code to Vzero.
+42:25 >> Totally.
+42:26 >> That'd be sick. That'd be really sick.
+42:29 >> It's an idea. Um this is sick. Write a
+42:32 build. Choose your copy your prompt.
+42:33 Paste in any of these builders. And oh,
+42:36 and this is the prompt. Yeah, that's the
+42:37 prompt.
+42:38 >> That's sick.
+42:39 >> And if and if you sc And if you see on
+42:40 the left hand side like uh marketing
+42:43 product, you can see what you can
+42:45 actually build.
+42:48 >> Wow, this is amazing. Salesfunnel lead
+42:51 mag. What would the email sequence look
+42:52 like that we build here? This is this is
+42:55 where I stink. I have 40,000 people on
+42:57 my email newsletter, but like I just I
+43:00 don't understand the email funnel thing.
+43:02 Like I'm like yeah
+43:03 >> a dog chasing a car. I want to know what
+43:05 to do with it, you know? It's like this
+43:07 would this would be helpful. This is
+43:09 cool. Nice.
+43:12 All right. Cool. And what happened? What
+43:14 happens when I click the tool? Oh, it
+43:15 just takes me to the All right. Got it.
+43:17 Got it. Okay. Yeah. This is awesome.
+43:19 >> Yep.
+43:21 >> All right. So, we can now see we have
+43:23 our seven different employees working
+43:25 for us. Let's switch back.
+43:29 And like I love Claude code, don't get
+43:31 me wrong. I love cursor, but like this
+43:32 isn't possible with any other tool at
+43:34 the moment. like this is like a really
+43:36 big advantage. I'm going to uh switch
+43:39 back to codeex. Let's do this. Let's see
+43:43 what we got here. Okay, so it fixed the
+43:44 error and then let's see what else we
+43:46 got. Set up the AI chat. How's our agent
+43:50 doing here? Okay, it's still working.
+43:51 Oh, let's apply. Apply results. Skipped.
+43:54 Close. Okay, did this put in our Let's
+43:59 see if this actually put in the chatbot
+44:01 and see if that's ready to go. So, I'm
+44:03 going to switch back to our app. Let's
+44:07 see what we got here. Habit flowing
+44:10 and refresh progress. We probably have
+44:13 to ask it to build it into our menu
+44:16 here. The AI uh chatbot.
+44:19 >> Um, but we can do that. Let's go back
+44:21 in.
+44:22 >> We can do anything.
+44:24 >> Anything we want. Anything we want.
+44:26 Unlimited ideas. As long as you got AI
+44:28 agents working for you to come up with
+44:29 the ideas, you got unlimited ideas. And
+44:31 like this is what you can see here is
+44:34 like we went from so far we're like 40
+44:36 minutes in. We went from literally zero
+44:38 idea to a fully working product
+44:43 in what would probably take people weeks
+44:46 to do, right? You know, gen, you know,
+44:48 studying ideas, validating ideas, then
+44:50 you get an engineer to build out the the
+44:52 kind of V1. They have to put it live.
+44:54 Then you develop other ideas and you
+44:56 have other people come up with road maps
+44:57 and marketing. We got all that done in
+44:59 like half an hour, which is pretty
+45:01 incredible. Let's make sure we add the
+45:05 chat section to the top menu bar and hit
+45:09 send on that. And our cloud agent, we'll
+45:12 go do that. And then we can do things
+45:15 like just to show the power of what we
+45:17 got today with agents. I'm going to go
+45:19 into codeex
+45:21 on my browser. So, say we're on the go
+45:25 and maybe we're working from a coffee
+45:27 shop or something or we're on a library
+45:29 computer. People are still going to
+45:30 libraries and we have to log we can log
+45:32 into chatgbt.com/codex
+45:35 because we don't have the ID on our
+45:38 computer. We can just go into the
+45:39 browser go into codeex. We can make sure
+45:43 we are in our wellness app and we can
+45:45 say uh build out the email marketing
+45:51 sequence for this app. And now I'm
+45:54 spinning up agents from the browser
+45:55 while I was spinning up agents from the
+45:57 IDE and also doing it from my mobile
+45:59 phone. And like this is like the really
+46:01 cool way to think about AI development
+46:03 now. So kind of as you've seen so far,
+46:06 we have a bunch of different AI agents
+46:08 working for us. We have an MVP good to
+46:10 go that people can start testing out.
+46:13 Now, now the number one question I get
+46:15 other than how do I come up with ideas
+46:16 is how do I get people to start using
+46:18 the app? Well, the best way to do this
+46:22 is the free way, which is just organic
+46:24 marketing. So, if I go into Twitter,
+46:28 which for me is like I think the
+46:29 quickest way to just get people onto the
+46:32 app. You know, you get engagement in
+46:34 literally seconds. I'm gonna pull open
+46:37 Twitter or X if Elon's watching. Please
+46:39 don't shadowban me. And I'm going to go
+46:42 post and I'm gonna say, "Been super
+46:46 obsessed
+46:48 with wellness lately,
+46:51 but can't think of any habits
+46:56 to implement.
+46:58 Anyone else have this challenge?
+47:03 thinking of building an app around this,
+47:06 right? I'd send this out. This is
+47:09 literally how I launched Creator Buddy,
+47:11 my social media app. I was like, I wish
+47:14 I had an AI that knew all my tweets. And
+47:17 so, I went into a tweet. I said, "Wish I
+47:19 had an AI that knew all my tweets, but
+47:20 anyone use like an AI assistant that's
+47:22 aware of all your tweets and can coach
+47:24 you?" I hit send. It went like super
+47:26 viral. Got like 200,000 impressions. And
+47:29 like that's how I kicked off my beta.
+47:31 So, I would post this. I would then DM
+47:35 anyone who replies, "Yeah, I'm
+47:36 interested." And I'd say, "Hey, do you
+47:37 want to beta test this?" And I would
+47:39 send them the link to the app we just
+47:41 built. And like, this is how you start
+47:43 getting users and build kind of like
+47:45 your base for your app is you use
+47:47 organic marketing with Twitter. You
+47:50 leverage your community. You reach out
+47:52 to them. You do the kind of unscalable,
+47:55 which is DMing a whole bunch of people
+47:57 saying, "Here's the app. Do you want to
+47:58 test it out?" And like that's how you
+48:00 get your beta testers and that's how you
+48:02 start building the scale uh which will
+48:05 eventually be a popular app. Like this
+48:07 is how you start getting those users is
+48:10 just start talking about your app on
+48:12 social media.
+48:13 >> Alex, what do you say to people who are
+48:15 like well easy for you to say you've got
+48:17 thousands of followers. I've got 500
+48:20 followers.
+48:22 >> Uh well my question is this. How do you
+48:24 think I got thousands of followers?
+48:27 By tweeting, right? Like I wasn't born
+48:29 and then God handed me 300,000
+48:32 followers. I've been on Twitter for like
+48:34 2 years now. I started tweeting. People
+48:36 liked what I tweeted. People were
+48:38 interested in the projects I was
+48:39 building. Then I got to that level. So
+48:42 how do you think I got 300,000 followers
+48:44 doing exactly what I'm showing you here,
+48:46 which is coming up with interesting
+48:48 ideas and then tweeting them out. So
+48:50 even if you have a 100red followers,
+48:52 tweet out your ideas. You'll still get a
+48:54 couple hits. You'll still get a couple
+48:56 people to use your app. And like this is
+48:58 how you'll get to that level where you
+49:00 have 300,000 followers. Like yes, is it
+49:02 easier for me to launch apps because I
+49:03 have a huge audience? Yes. But also, how
+49:06 do you think I got a huge audience by
+49:08 doing this what I'm showing you here? So
+49:10 like you have to start from somewhere.
+49:11 You might as well do it instead of
+49:12 complaining.
+49:16 So you put it out, you get a couple
+49:18 bites like you're like fishing in the
+49:20 water, you send them the link to the
+49:22 beta, now you got people using it,
+49:24 right? And so we went from in the span
+49:27 of this has been recording for 52
+49:29 minutes now, right? We went from ideas
+49:33 in idea browser. We had no idea what we
+49:35 wanted to do. We went in idea browser.
+49:37 We looked at some market insights. We
+49:39 looked at some trends. We looked at
+49:41 like, okay, what am I interested in
+49:42 here? Website save energy solar.
+49:45 Vomiting dog treatment. I'm going to get
+49:46 a dog soon. This will probably be
+49:48 something I'm interested in once I do
+49:49 that. Right? You found an idea that's
+49:52 interesting to you.
+49:54 You went to Chad GBT. You developed that
+49:56 idea. You went back and forth, bounced
+49:58 ideas off Chad GBT, came up with a
+50:00 well-developed PRD. We went from there.
+50:04 We went into our building agent, right?
+50:06 We went into Codeex, which I'm loving
+50:09 right now. We spun up a bunch of AI
+50:12 employees to develop the idea for us to
+50:14 build the code to start building out a
+50:16 marketing plan, a product plan, a road
+50:18 map. We have all those people working
+50:20 for us at once. And while our employees
+50:23 work for us and the app gets built out,
+50:25 I'm now going on to X and I'm finding my
+50:28 first beta testers. And that's how you
+50:32 as a one-person business can have the
+50:34 same power, the same leverage as a
+50:37 massive company and start getting your
+50:39 first users and first paying customers.
+50:42 So, it's pretty powerful. You just got
+50:44 to learn where you can find that
+50:45 leverage like with idea browser and
+50:48 codeex and chat GPT. Alex, thank you for
+50:51 your sauce and your generosity for
+50:53 coming on. Uh, highly recommend people
+50:56 go and follow him. I'll include links
+50:58 for his ex, his newsletter,
+51:01 uh, and Creator Buddy all in the show
+51:04 notes so people can go check that out.
+51:07 Um, anything you want to leave folks
+51:09 with, Alex? Check out the YouTube as
+51:11 well. All I do is post tutorials how to
+51:13 build cool things as I go. And uh you
+51:15 know this is what I would leave people
+51:17 with. 99% of people woke up today, pick
+51:21 up their phone, doom scrolled for 15
+51:24 hours, and then are going to go to bed.
+51:25 Right? If you just spend even five
+51:27 minutes today experimenting, searching
+51:31 for ideas, developing ideas here and
+51:33 there, you do that over the span of a
+51:36 week, a month, two months, you're going
+51:38 to be so far ahead of the competition,
+51:40 it's going to be unbelievable. So, just
+51:42 find a little bit of time every day to
+51:44 do one of the two things, you know, we
+51:47 went through on this video. And over
+51:49 time, as that compounds, you're going to
+51:51 have incredible products. You're going
+51:52 to have paying customers. You're going
+51:54 to have something. You're going to have
+51:55 a lot more than what you have now. So,
+51:57 just find a few minutes to do what we
+51:59 did today. I promise cool things will
+52:01 happen.
+52:01 >> And send this to a friend because it's
+52:03 more fun to build with friends. You
+52:05 know, you'll you'll be more you'll be
+52:07 held more accountable. Um, so I don't
+52:11 know about you, Alex, but like when I
+52:13 when I do, you know, if I'm doing
+52:15 something like this, like I want to do
+52:16 it with like the homies and I want to
+52:18 like build something together. So I
+52:20 think it's a lot more fun with friends.
+52:22 Personally,
+52:23 >> I absolutely you hold each other
+52:24 accountable. You don't want to be the
+52:26 one that shows up in the group chat and
+52:27 they're like, "What'd you do today?" And
+52:28 you're like, "Oh, I just doom scrolled
+52:30 all day." So a lot of benefits that as
+52:32 well.
+52:32 >> Thanks a lot, man. I'll catch you later.
+52:34 >> Of course, my man. See you soon.

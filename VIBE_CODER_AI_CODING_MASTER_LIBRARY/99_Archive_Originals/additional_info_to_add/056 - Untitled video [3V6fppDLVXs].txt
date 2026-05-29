@@ -1,0 +1,459 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=3V6fppDLVXs
+Channel: Riley Brown
+Video ID: 3V6fppDLVXs
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 I'm searching for the best AI coding
+0:02 model in the world. And many people are
+0:04 saying that Codeex with GBT5 is better
+0:07 than Claude Code at building apps. So,
+0:09 I'm going to put that to the test today.
+0:12 Angry Birds one prompted it. Let's see
+0:14 how this looks. Oh, what the hell is
+0:17 going on? What is this? I'm going to try
+0:20 to build an app with both of these
+0:22 tools, Codeex CLI and Cloud Code, and
+0:25 we're going to see which one is better.
+0:27 Our first prompt will be identical in
+0:30 both of these tools and I'm going to try
+0:32 and see what I can build with both
+0:33 Codeex and Claude Code. Let's not waste
+0:36 any time. Let's just dive into the
+0:37 video. And so for this, I'm going to be
+0:40 using Claude Code, which is open right
+0:42 here, and Codeex, which is open right
+0:44 here. I'm going to be using both of
+0:46 these tools in the web. I think it's
+0:48 much easier to open up a webbased
+0:51 version of these apps instead of
+0:53 actually downloading these on my
+0:54 computer. So all you need to do is just
+0:56 type in sandbox.dev
+0:58 and then just press enter and this will
+1:02 load up right here. So we're going to be
+1:04 able to use cloud codec codeex and by
+1:06 the time you watch this video you'll
+1:08 likely be able to use Gemini CLI. And
+1:11 here's just where you can use all of the
+1:13 most powerful uh coding tools in the
+1:15 world all just in the web um in sandbox.
+1:18 So I selected a cloud code window and
+1:21 what we're going to do is we're going to
+1:22 select Nex.js JS and press enter. And
+1:26 then I'm going to do the same thing with
+1:28 codecs. And so I've already done that
+1:30 and I have them open right here. So we
+1:32 have a cloud code window open and a
+1:35 codeex window open. And now we can just
+1:36 use them in the web. So what we're going
+1:38 to be doing here is we're going to be
+1:40 entering the same prompt in cloud code
+1:43 and in codeex with GPT5. And the first
+1:46 thing that we're going to do is we're
+1:47 actually going to select our model in
+1:49 codeex. So here with codeex we're going
+1:52 to hit slash and type model. And this is
+1:55 going to allow us to switch the model.
+1:56 We're going to be using GBT5 high.
+1:59 And we are going to paste this prompt
+2:01 in. So we're going to be building this
+2:04 browserbased personal OS. So this is
+2:07 something that I've been really
+2:08 passionate about. So this I want to
+2:11 build something like this. And it's not
+2:13 the full version of this little um thing
+2:17 here, right? You can open up these
+2:18 little uh menus. You can open up, right?
+2:21 It has these little docs here. Just a
+2:24 personal little operating system site. I
+2:27 want to create something that looks a
+2:28 lot like this. I think this would be
+2:30 really fun. So, what we're going to do
+2:32 here is I'm actually going to um type in
+2:36 the same prompt in both. And you can
+2:38 pause the video to read this, but I'm
+2:41 just going to copy this and we're going
+2:43 to paste it into cloud code. Press
+2:46 enter. And we're going to paste this
+2:48 into codeex. And press enter. So now
+2:52 they're building the same site with the
+2:54 same prompt, cloud code versus codeex.
+2:57 And now they're both building the app.
+2:59 And we can kind of watch both of them.
+3:01 We can go back and forth, right? If we
+3:03 wanted to, right? If we wanted to, we
+3:05 could um open up the sidebar here and
+3:07 just hit new terminal. Let's say I
+3:09 wanted to do uh another one with cloud
+3:11 code. We could just do the same thing.
+3:12 Let's say we wanted to use cla code, but
+3:14 we wanted to use spelt instead of
+3:16 nex.js, which is a stack. I'm not fully
+3:18 sure what it means, but we can do that.
+3:20 You know what? Let's run four at the
+3:22 same time. So, we're going to do cloud
+3:23 code on spelt. And then we're also going
+3:25 to go to sandbox.dev. And what we're
+3:28 going to do here is we are going to use
+3:30 codeex and we're going to do spelt and
+3:33 we're going to run this sandbox here.
+3:35 And after changing the model, I'm going
+3:37 to go ahead and paste this prompt in.
+3:39 And now we're going to run it. So now we
+3:40 have four of these running at the same
+3:42 time. So we have these four windows open
+3:45 uh running right now. And normally when
+3:47 you use cla code, you do it directly in
+3:48 your terminal and you can open up claude
+3:51 like this. Um and then when it's done
+3:52 running, you actually have to just tell
+3:54 it to run it locally. It's kind of
+3:55 annoying and it's weird using cloud code
+3:57 and codeex at the same time. Um and so I
+4:00 just like using it in the web. And what
+4:03 immediately when it's done creating the
+4:05 app, it's just going to run it right
+4:06 here in this web view. And you can save,
+4:09 you can run, you can download your code,
+4:12 and you can also just tell Claude code
+4:14 to deploy your app to um GitHub, uh
+4:18 commit your code to GitHub or deploy it
+4:20 to Verscell, which we'll talk about
+4:21 later. Okay, so it's been about 5
+4:25 minutes and this is what so I mean
+4:28 Codeex went crazy. Um this is what it
+4:32 created in one prompt. So I always just
+4:34 save by default. It auto saves every 1
+4:36 minute or every time that you save, but
+4:39 um I like to save um for good measure.
+4:43 And Claude code is still going. So
+4:44 Claude's still going ham. Let's see what
+4:46 Claude on spelt is still going ham. And
+4:50 codeex looks to be done on spelt. And
+4:52 you can uh take a look. Maybe don't use
+4:54 spelt. We have errors on both there. But
+4:57 this is what codeex created. Okay, this
+5:00 is still coming along. Um, so far I'm
+5:03 very impressed with Codeex here. So this
+5:06 is Codeex uh Codex Nex.js operating
+5:10 system. Let's go ahead and rename this.
+5:12 Okay, so we have Claude and we have
+5:14 Codeex and this is after one prompt. So
+5:17 we have these notes here in Codeex and
+5:19 we can just full screen it. See if we
+5:20 can open up tasks. Oh, you have to
+5:22 doubleclick them. So let's see if we can
+5:24 add a task. We can't. Oh, new task. Oh,
+5:29 I see. New task. We can select tomorrow.
+5:31 Add. Okay. Kind of weird looking. Let's
+5:35 see in our notes, right? We can create a
+5:37 new note. Um, this is a new note. This
+5:41 is very interesting. So, they tried to
+5:42 make it markdown. And it's this weird
+5:44 format where it puts them next to each
+5:46 other. Um, kind of like Obsidian in the
+5:48 early days. Kind of weird. This is
+5:50 markdown. AI kind of struggles with
+5:53 markdown a lot. I've noticed. Um, files.
+5:56 I don't really know what this does. If
+5:58 we create like a new file here, new text
+6:00 file. Um, Riley.ext. I don't even fully
+6:04 know what this does. I do kind of like
+6:06 the uh user interface, right? We have
+6:09 this browser. This is just like a shell
+6:11 for a browser. It doesn't actually work.
+6:14 Maybe we could get that to work. Here's
+6:15 a fake little terminal that we can just
+6:17 run. Hello. You know, this is just
+6:20 probably fake. Here we have this like
+6:22 settings. Oh, so we have settings. We
+6:24 can go dark mode, which doesn't fully
+6:27 work. We can turn off sound effects. I
+6:29 don't hear any sound effects. Dark.
+6:32 Apply. Yeah, I don't see dark mode
+6:35 working at all, but this is actually
+6:37 pretty solid. So, this is codeex. I'm
+6:38 going to give this like an 8 out of 10
+6:40 in terms of like what we asked it to do.
+6:43 Here, let's take a look at cloud code.
+6:46 So, we have there's this bottom bar
+6:48 here. If we click on notes. Okay, so we
+6:52 have this new note feature. Can we move
+6:54 it around? Okay, we can't move it
+6:56 around. Claude code. We got an error
+6:58 when we moved it around. Here's this.
+7:00 Okay, we can't move any of these around,
+7:02 but um new task. So, we can add these
+7:06 new tasks. Here we have a folder. Hello.
+7:09 Here's this new folder. Very, very
+7:12 interesting. Okay, so we can resize
+7:14 this. We can't move anything. Let's see
+7:16 if we can exit out of them. We can exit
+7:18 out of these. That's cool. We have this
+7:20 web browser. Let's just see what
+7:22 happens. So, for the next prompt for
+7:23 both of these, let's pop out of here and
+7:26 let's say um please make the web browser
+7:30 work. I want it to be a functional web
+7:34 browser that lets me type in a site and
+7:39 view it. Okay, let's go ahead and do the
+7:43 same thing here. So, we can just copy
+7:45 this and we are going to paste this into
+7:48 codeex.
+7:50 Okay, it is done. So, codeex and cloud
+7:54 code are done. Let's test the new
+7:56 browser. Let's see if this works. So, if
+7:58 we open up the browser here,
+8:00 if we type in, let's go to
+8:03 vibecodeapp.com.
+8:06 And this does not work unfortunately.
+8:10 If we go to the browser here, let's go
+8:14 ahead and go to vivecodeapp.com.
+8:19 Ooh, Claude, I see you. I see you. Okay,
+8:23 let's fix some errors here. So, one
+8:25 error here is I can't uh move the uh
+8:29 panels around. That is kind of annoying.
+8:34 Please fix that and make them visible.
+8:38 The panel top bar is not showing, right?
+8:42 Like, let me see like if we go to notes,
+8:44 right? This note here like where it like
+8:46 I should be able to drag is just not
+8:48 visible. The cursor of my mouse
+8:51 indicates that I should be able to drag
+8:56 but I can't. So please make it so I
+9:00 can't and make the top bar visible. Here
+9:04 we can drag it around but the browser is
+9:06 not working. I'm just going to say the
+9:09 browser is not working. This is the
+9:13 error. Please make the browser
+9:18 work better. All right, we'll see how
+9:20 they do after these changes. Okay,
+9:21 they're done. Um, let's go ahead and
+9:24 close the browser. Let's open up a new
+9:26 one. And it does not appear that this is
+9:28 working. Um, maybe if we go So, if we go
+9:33 to vivecode app.com.
+9:37 So, it's still working. The other thing
+9:39 that we wanted to fix on this was to be
+9:40 able to move it around. Notice here that
+9:45 um this top bar is not showing up, but
+9:48 that is I think that's okay sort of. But
+9:52 this top bar is
+9:55 movable now. So I can move things around
+9:57 here, right? I can open up a to-do list,
+10:00 move things around. I can bring up in
+10:02 folders, move things around. I do like
+10:05 this a lot. Overall, I'm actually going
+10:08 to give this to Codeex. I just think it
+10:10 looks a lot better and I've noticed I've
+10:12 created a few apps like these and I just
+10:14 love the styling that codeex on GBT5
+10:18 high uh goes with. I just think it's
+10:20 significantly better than Claude Code at
+10:23 just following all of the instructions
+10:25 and not doing too much. And I just think
+10:27 this looks so much better. Let's move on
+10:29 to the experiment number two. So this
+10:31 experiment number two is going to be
+10:34 we're actually going to create Angry
+10:36 Birds. So what we're going to do is
+10:38 we're just going to copy this prompt for
+10:39 Angry Birds and we're going to compare
+10:41 Claude Code and Codeex. So all we have
+10:44 to do is go to sandbox.dev and we'll go
+10:46 to sandbox.dev. And then on this one we
+10:49 are going to open up cloud code on
+10:51 gamedev 3JS
+10:54 and we're going to run this. And then
+10:56 here we're going to do codeex with gbt5
+10:59 gamedev 3JS. Enter. And okay. So this is
+11:03 what it looks like when they open up.
+11:04 they both open up to the same exact um
+11:09 to the same exact template, which is
+11:11 this like fox running around. And so
+11:13 this is basically just a gamedev
+11:15 template. And what we're going to do is
+11:16 we're going to be entering in this
+11:18 prompt. So we're just going to paste
+11:20 this prompt in. And what we're going to
+11:22 do is enter this into claude code. And
+11:25 so creating a simple 2D physics game
+11:27 inspired by Angry Birds. The player
+11:30 launches a character from a screenshot,
+11:32 etc., etc., etc. And what we're going to
+11:34 do is we're going to change this to
+11:35 model. Uh we're going to make sure this
+11:37 is GBT5 high and we're going to paste in
+11:40 that same prompt and we're going to run
+11:41 it and we'll see how they do. Okay, it
+11:44 is now done. However, I'm not sure I see
+11:47 anything for codeex. So on codeex, I
+11:51 don't see anything. Um if we refresh
+11:54 this,
+11:56 I literally don't see anything. However,
+12:00 wow. Oh wow. Angry Birds one prompted
+12:05 it. Let's see how this looks. Um, can I
+12:08 full screen this? Yes. Okay, so we have
+12:11 Angry Birds. Oh, no. Please. Oh. Oh.
+12:15 Oh, no way. Let's go.
+12:18 This is fire.
+12:24 Okay, so game over. Try again. Okay,
+12:28 let's see.
+12:30 Please
+12:31 uh make the aiming path black like it's
+12:37 white now and hard to see. Please add
+12:43 birds flying around above and clouds.
+12:51 Okay, now let's go to codeex and tell it
+12:53 did tell it that it did a horrible job.
+12:56 I'm sorry. I don't see anything except
+13:02 what looks like a sky. This is a tough
+13:07 prompt, but Claude just ripped it. I
+13:09 mean, look at this. This is fire.
+13:12 Actually fire.
+13:15 Wait.
+13:21 Pretty sick.
+13:23 Okay, so we have some clouds and some
+13:26 birds. Claude code is still going ham.
+13:29 So, it's still adding some stuff. Let's
+13:31 check on Codeex. Oh boy. Oh wow. This
+13:34 does not look good. This is not a good
+13:36 run for codeex. Um I don't see any
+13:40 birds. Um I want angry birds. Search and
+13:46 figure this out. So, let's go ahead and
+13:48 test this. Um oh, that's way better.
+13:52 Look at that.
+14:06 What the dang.
+14:10 Please make the explosions
+14:13 when I hit one of the um targets
+14:18 um 3x as big. And please, let's see if
+14:23 there's levels here. Oh my god, I'm not
+14:27 going to lie. I had to pause it. That's
+14:28 how long it took me to beat that level.
+14:30 That was pathetic. But uh yeah, so I
+14:32 just hit the third bird. Let's play
+14:34 again. Okay, so there's only one level.
+14:36 Okay. And then also, and please make um
+14:39 there be different levels. Start with
+14:44 only one to hit, then two, then three.
+14:49 Uh, then add three more levels. Also,
+14:54 move everything to the right. This might
+14:57 break everything because I don't have
+15:00 enough room to pull back the sling.
+15:06 Um, yeah, there we go. Let's enter that.
+15:09 Let's see if see what's going on over
+15:10 here. Let's give this a refresh. Oh,
+15:14 whoa.
+15:16 Oh, what the hell is going on? What is
+15:19 this?
+15:21 Whoa, this looks kind of cool.
+15:26 Why is it like attached?
+15:28 What the heck? This is sweet. Like the
+15:32 graphics are way cooler. Can I just like
+15:36 out of shots? Let's see what this looks
+15:37 like here. Okay. Oh, wow. Wait, this is
+15:41 Codeex. So, this is Codeex. Um, I don't
+15:45 even know what to do here. So, okay, the
+15:48 bird is not flinging, per se. It is
+15:53 being flung while being still connected
+15:58 to the sling. Like, it stays connected
+16:03 when it should fling. And there's again
+16:07 not enough room to sling it back to the
+16:12 left of the sling. So fix that. Also,
+16:16 the targets are too high. Okay, coming
+16:20 back. Like it's way better design here.
+16:23 And remember, they're starting off with
+16:24 the same stack. So they're using the
+16:26 same exact template to start. Okay, so
+16:28 it looks like cloud code is done. And so
+16:30 we added new levels and bigger
+16:32 explosions. So we'll test that in a
+16:33 second. And now it looks like things are
+16:35 messed up again. Oh, okay. But again,
+16:37 the slingshot looks weird. Oh. Oh, wait.
+16:40 There's no explosions. Okay, so the bird
+16:43 the the green birds the green birds
+16:47 should explode when I hit them. They are
+16:52 not right now. Like they just fall to
+16:56 the ground. Okay, so that's a problem.
+16:59 This is looking good. Let's test the
+17:00 claw code version. Let's see.
+17:03 Boom. Oo, massive explosion. Level one
+17:06 complete. Okay, so now we're on level
+17:08 two. Wait, there might be one to the
+17:10 right of it. Let me see. Oh, yep.
+17:14 There's another one. Okay. Bang.
+17:17 Massive explosion. Okay, so here's level
+17:20 three. This is fire. Actually, this is
+17:22 crazy. Bang.
+17:26 Bang.
+17:32 Pretty solid. You know what? I need to
+17:34 get someone else's opinion on which one
+17:36 is better. Okay, so I'm joined here. Uh
+17:39 this is an judging. So this is after
+17:42 five prompts. Um so this is Claude Code
+17:45 and this is Codeex. What the
+17:48 >> freak is that?
+17:49 >> Okay. Whoa.
+17:51 >> Okay. So Codeex did a better job
+17:53 designing in my opinion.
+17:55 >> Yeah, that looks
+17:55 >> kind of like weird. So like check this
+17:57 out. What the
+17:59 >> Oh.
+18:00 >> Oh. So, one problem it has is normally
+18:02 it's like you don't win until you kill
+18:04 both of the green birds. And for
+18:06 whatever reason, I had to spend an extra
+18:08 prompt on this and it still didn't fix
+18:11 it. So, that's one downside. But, it is
+18:13 way better design. Like, the design is
+18:15 quite good. Um, it doesn't have like a
+18:17 little path thing like where you're
+18:19 aiming. But, here's Claude Code.
+18:23 Claude Code nailed basically nailed most
+18:25 of it in one prompt. Like, look at the
+18:27 aiming thing. I like
+18:28 >> Oh, nice.
+18:29 >> Yeah.
+18:30 Oh wow.
+18:31 >> Loads. And they have levels. So like
+18:33 this is level one.
+18:35 >> And you know,
+18:35 >> cuz their UI is not as good.
+18:37 >> Yeah. The UI is not as good, but like
+18:40 you can actually win,
+18:41 >> right?
+18:41 >> And you can move on.
+18:43 >> So
+18:44 >> very cool.
+18:44 >> Yeah. What do you Who Who won? Who won
+18:47 in your opinion?
+18:47 >> Um I think Clog Code won cuz
+18:51 >> it's playable.
+18:52 >> It's playable and if you can build a
+18:54 good foundation, then you can add this
+18:56 UI.
+18:57 >> But this looks pretty cool. I do like
+18:59 >> I also think the physics look better.
+19:01 >> They do better. I like the the flight
+19:03 path like after it flings. It's quite
+19:06 nice.
+19:07 >> Yeah.
+19:07 >> Yeah. I think it'll take a few more
+19:08 problems.
+19:09 >> It's very cool.
+19:09 >> Yeah. Anyway,
+19:11 >> cool.
+19:13 >> Yeah. Anyway, if you go to sandbox.dev,
+19:16 you can actually find this and it is
+19:19 literally free for a limited time right
+19:21 now and you can just immediately launch
+19:23 into your sandbox. You can select cloud
+19:26 code or codecs with GBT5. And you can
+19:28 select your stack. If you want to make
+19:29 games, choose 3JS. For most other apps
+19:32 or sites, you should choose Nex.js. And
+19:34 I'll see you guys here for the next
+19:36 video.

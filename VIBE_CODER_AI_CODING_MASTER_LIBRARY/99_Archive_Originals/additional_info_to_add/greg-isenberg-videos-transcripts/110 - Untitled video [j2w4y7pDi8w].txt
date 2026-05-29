@@ -1,0 +1,1229 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=j2w4y7pDi8w&pp=0gcJCQMLAYcqIYzv
+Channel: Greg Isenberg
+Video ID: j2w4y7pDi8w
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 I think there's going to be thousands of
+0:02 mobile apps built with AI but also have
+0:05 AI that are going to be a million dollar
+0:07 a year businesses. And I found uh a
+0:11 founder called Sherry Jen and she vibe
+0:14 coded this app uh built it built it in
+0:16 public got thousands of customers to it
+0:21 and I think she's a first-time founder.
+0:23 So I'm trying something new. I brought
+0:25 her on the podcast and I said, "Hey,
+0:27 what can you teach us about how you
+0:29 built in public, how you vibe coded this
+0:32 thing, um, and just your your thought
+0:34 process for for building this company."
+0:38 And I think a lot of people could copy
+0:40 her blueprint. That's why I wanted to
+0:42 bring her on and just learn a lot from
+0:44 it. Uh, one of my favorite parts of the
+0:46 episode was where she showed us how she
+0:49 uses ChatGBT image genen to actually
+0:52 create memes for her startup. So, uh,
+0:55 interesting episode. Um, grab a notebook
+0:58 cuz you might want to take some notes.
+1:00 Thanks for coming here. Thanks for being
+1:01 here. And I can't wait to see what you
+1:03 build. Have a creative day, friends. I'm
+1:05 rooting for you.
+1:08 [Music]
+1:14 We got Cherry on the pod. Sherry, I'm
+1:18 actually super excited to learn from
+1:19 you. If people stick around until the
+1:22 end of this episode, what are they going
+1:25 to take away? Number one, sometimes you
+1:28 can just take a first step to getting
+1:31 started. Whether it is 3 hours of vibe
+1:33 coding a prototype just to test
+1:35 something with users or writing your
+1:37 first like, hey, I'm building this app
+1:40 and this is day one. That's that's all
+1:42 you really have to do sometimes. And
+1:43 that compounds more than you would
+1:45 imagine. And Sherry's out there. I
+1:48 noticed her cuz she's getting thousands
+1:49 of downloads for her app. She's building
+1:51 in public. She's vibe coding. So, she's
+1:53 a testament to it. Um, Sherry, you
+1:56 brought a little presentation. I want
+1:58 you to go through it. I want you to
+1:59 teach people. I want people who are
+2:02 soloreneurs, who want a side hustle, who
+2:05 have a business but just want to AI it.
+2:08 I want them to come away with feeling a
+2:11 little bit stronger, a little more
+2:13 excited, a little more fired up and have
+2:15 some tangible product design, consumer
+2:18 psychology, build in public knowhow so
+2:21 that they could grow their app, consumer
+2:25 app. We're going to be mostly talking
+2:26 about mobile apps faster. So, let's get
+2:28 into it. Sherry, thanks for coming on.
+2:31 Awesome. No, I'm super excited to be
+2:33 here and I've, you know, been a fan for
+2:35 a while. So, I'm super excited for the
+2:37 conversation. Uh, so, uh, just to do a
+2:39 little intro, so right now, um, you
+2:41 know, I've been a founder for four years
+2:43 now and currently the product I'm
+2:45 working on is called Peak. Um, been
+2:48 building in public on X for it the last,
+2:51 uh, I guess four months now. Um, but
+2:53 basically the idea is we want to
+2:55 revolutionize the way that, you know,
+2:57 personal finance has really been um,
+2:59 from dashboards to like more dynamic UIs
+3:02 that actually make it feel much more
+3:04 enjoyable and bite-sized when it comes
+3:06 to making some of those decisions. But
+3:08 I'm not going to go into like, you know,
+3:10 the nitty-gritty of the, you know,
+3:11 product just yet. Um, I actually want to
+3:13 talk a little bit about the process
+3:15 actually from from like getting from
+3:18 zero to, you know, something that's
+3:20 launched on the app store. Um, and you
+3:23 really, you know, can just get started
+3:25 with a vibecoded prototype to start
+3:27 testing with users on day one. You do
+3:30 not have to have something that is
+3:31 perfect and beautiful. And I'll share
+3:32 some examples of what the very very
+3:34 early versions of of Peak look like.
+3:37 What I what I like about Peak is it's a
+3:40 peak, no pun intended, to a whole new
+3:43 wave of consumer mobile apps. Like
+3:45 there's like a thousand like peaks peak
+3:47 for X ideas, startup ideas that can come
+3:49 out of this. So I want you to go
+3:52 continue and and sort of show show what
+3:55 the product is. Absolutely. Um yeah. So
+3:59 I like you know talk a little bit about
+4:01 like you know some of these like
+4:03 principles that you know we were
+4:04 thinking about when when designing the
+4:06 product and then I'll walk through like
+4:08 two evolutions of you know what it looks
+4:10 like and how that translates. So um you
+4:13 know when it comes to like how humans
+4:15 process information right uh and just
+4:17 like actually how LLM also process
+4:19 information if there's too many tokens
+4:21 um you need to have information chunked
+4:23 in ways or else people get overwhelmed
+4:26 right so I'm just looking at the you
+4:28 know we call it sauce on this on this
+4:30 podcast the sauce on on this slide here
+4:32 so from a product perspective
+4:36 um we show only one takeaway at a time
+4:39 on screen something like cards
+4:41 I think that's that's really smart like
+4:43 basically what what all the things that
+4:46 you've described here progressive
+4:47 disclosure
+4:49 um single person the second thing is
+4:51 single purpose conversational UI the
+4:53 third thing is the daily reports that
+4:55 can be read as a part of a check-in or
+4:56 narrative story that's easy for the user
+4:58 and then the last thing is um helping
+5:02 nudge users with relevant information at
+5:04 a time and provide practical first
+5:06 steps. these four behavioral science
+5:11 uh principles could be applied to any
+5:13 product. Absolutely right. And and
+5:15 that's why like um I like the point that
+5:17 you made earlier around how um we're not
+5:21 here talking about how to build a
+5:23 finance app. We're actually talking
+5:25 about how consumer apps that are AI
+5:28 enabled that help people in some part of
+5:31 their life whether it's to be healthy,
+5:33 be productive, be financially secure,
+5:36 right? They all they all ultimately
+5:40 follow some of the same principles,
+5:41 right? Um but of course the data that
+5:45 gets piped in and you know the subject
+5:47 area that that could all be different,
+5:48 but it's all the same at the end of the
+5:50 day. And even when you like, you know,
+5:53 create a podcast or, you know, you you
+5:55 want to create content, it's the same
+5:57 thing, right? Because you're you're
+5:59 there to like bring like here's the
+6:02 audience's brain and understanding how
+6:04 they process information and you're
+6:06 bringing it down in a way that they can
+6:08 understand. Same thing, right, that is
+6:10 applied here. So I can maybe move on to
+6:14 actually showing you what we started to
+6:16 test um how these kind of you know like
+6:19 start to manifest in in a finance
+6:21 product. So this is a very these are
+6:24 very very early versions of something I
+6:26 did in Nex.js. Um I I basically uh used
+6:30 cursor and vzero uh to code this out. As
+6:33 you can see uh it is very very
+6:36 rudimentary and no pretty designs. But
+6:38 the main thing that I actually spent a
+6:40 lot of time testing with users is this
+6:44 area. We called it AI templates.
+6:47 Horrible name, but later on we call it
+6:49 check-ins. But this is the part where
+6:51 it's it's it becomes quite different.
+6:54 Um, and this relates a lot to firstly
+6:58 this whole context switching fatigue
+7:01 principle. So when you click into these,
+7:03 you basically ask like a single
+7:05 question, right? So instead of having to
+7:07 like bring in you know information from
+7:10 all different places like some you know
+7:12 Reddit post someone made here or like oh
+7:14 this you know WhatsApp conversation I
+7:16 had with a friend who knows finance.
+7:18 It's all in one place so you can kind of
+7:20 like step through the problem without
+7:21 really really getting distracted. Um I
+7:25 can maybe try to show you what
+7:28 the like the chat I actually have it
+7:32 pulled up. It is uh very scrappy. I can
+7:34 just maybe switch tabs.
+7:37 Um, so can you see
+7:40 this? Like I have like the console log
+7:42 and everything on the Oh, okay. So the
+7:45 way that like this really simple one
+7:46 worked was start conversation. Uh, it's
+7:49 actually powered by Claude 35 on the
+7:53 back and it was this really simple
+7:55 interaction that I used to test with
+7:57 users. Um, yes, food spending.
+8:01 Yeah, this is cool.
+8:03 Um, this is this what's cool about this
+8:06 and the lens I'm using for for everyone
+8:09 is this could be applied to a million
+8:12 niches. There is and I'm curious like
+8:15 have you thought of other niches where
+8:18 this could work like peak for X. Yeah. I
+8:22 mean I think that uh like nutrition is
+8:26 definitely like eating and uh
+8:30 eating diet health kind of all all sort
+8:32 of related right um now I'll tell you
+8:35 like a habit I wish I had that I do not
+8:39 have because it takes too much effort um
+8:42 I want to be more specific about like
+8:46 the types of food that I am eating to
+8:49 like reach my goals right whether it's
+8:50 like oh I to like build muscle for this
+8:53 like competition I'm doing in the summer
+8:55 or maybe for others it's like oh I want
+8:56 to cut right um now getting like uh
+9:02 everything tracked and then being able
+9:04 to like personalize the goal then being
+9:07 able to like plan the meal and then
+9:08 figure out where to buy the meal because
+9:10 you know you have to go out and get
+9:12 groceries cook whatever and then like
+9:14 give continuous feedback around how the
+9:17 plan is going right because it's
+9:19 iteration like you it might not be
+9:20 perfect the first time. Like I would
+9:22 love that, right? I mean, if someone's
+9:24 building that today, like I I would love
+9:26 to take a look, but it's the same kind
+9:27 of concept of like, you know, you you
+9:30 have to like capture not just the
+9:33 tracking and the numbers part. It's like
+9:35 there's so much more so many more steps
+9:38 to ultimately getting to you taking an
+9:41 action and then seeing the results of
+9:43 the action. So, I think this applies to
+9:45 so many different so many different
+9:47 areas where um you know where there's
+9:51 some level of like improvement that
+9:54 we're achieving for as human beings,
+9:56 right? Like totally what would it be for
+9:57 you, Greg? Like is there something right
+9:59 now? Yeah. Like honestly, right now I
+10:03 want to get really good at tennis. Yeah.
+10:06 And um there's a lot of systems that I
+10:09 have to put place in my life to get good
+10:11 at tennis. So I need peak for tennis.
+10:14 Yeah. Yeah. It's like um essentially
+10:17 like you know we have really busy lives,
+10:19 right? Like I think a lot of our
+10:21 executive function um basically this
+10:23 prefrontal cortex, right? Is spent on
+10:25 like you know our day-to-day jobs,
+10:28 right? Like for me it's like you know
+10:30 running a company. You know for you it's
+10:32 like you know running your stuff as
+10:33 well. For the stuff outside like we we
+10:36 it's often times we're just like too
+10:38 tired to think, right? there's like a a
+10:40 a quot to how much we can like plan and
+10:42 think and do all of that. And so that's
+10:44 why that happens a lot, right? We just
+10:46 we just don't have systems in place even
+10:48 though we're fully capable of those
+10:50 systems, right? So in a like mental
+10:54 resource constrained environment, how do
+10:56 we help take away that thinking that
+10:59 planning portion from the human? So they
+11:02 get you just get told, hey, if you want
+11:04 to get good at tennis, here's a 10step
+11:06 part to your first stage of mastery,
+11:09 right? And this is all you have to do
+11:10 every single day. And maybe one of the
+11:12 frictions of getting good at tennis is
+11:13 like, I need to find somebody to play
+11:15 with who's at my level. Like I think
+11:17 tennis is really fun, but like I don't
+11:19 want to play with someone who's like so
+11:21 good that like I'm just boring them cuz
+11:22 like I suck, you know? So maybe like
+11:24 part of that is like a social matching
+11:26 platform where like you have scores
+11:28 where like you know you kind of know
+11:29 someone's like at a similar level as
+11:31 you, right? And then you get to you're
+11:33 in the same area, you can go and then
+11:35 get matched and you play somewhere like
+11:37 that reduces the friction of like oh how
+11:39 who do I know in my circle who's like at
+11:41 my level? So it's it's all about
+11:42 reducing that friction having like AI.
+11:45 So like basically work for us so that we
+11:48 can become like better versions of
+11:50 oursel like you can be like a great
+11:51 tennis player and I can like finally
+11:53 have the diet that like I really want to
+11:55 have that I definitely am not following
+11:57 right now.
+11:59 Amazing. Cool. Let's go back to uh the
+12:03 slides. And so you vibe coded this
+12:07 prototype in less than three hours. And
+12:10 then what next? Yeah. Well, so I then
+12:14 started to just like do user testing. So
+12:17 I uh I I I uh had this thing I call a
+12:21 rule of six, which means talk to six
+12:24 people that you think is your in your
+12:25 ideal customer profile. Too less is like
+12:28 you don't have enough sample size. Too
+12:30 many it's like you just don't move fast
+12:31 enough because like you know people are
+12:34 doing this on their schedule. So I just
+12:35 started to talk to people. Um, I pick
+12:37 people who are like in their 20s because
+12:39 um I also think uh 20s is easier when it
+12:42 comes to habit formation around finances
+12:44 because you're just starting to earn a
+12:45 paycheck. You're just starting to make
+12:47 like big financial first decisions. So,
+12:50 I just talked to a lot of 20some year
+12:51 olds about money and then they started
+12:54 to use the app, right? I just like
+12:55 didn't really guide them. I was just
+12:57 like, "Hey, just like start using it and
+12:58 like let me just see where your eyes go
+13:01 to." And um it was quite interesting
+13:04 that I started to see a lot of parallels
+13:06 which um come back to a lot of the
+13:08 hypotheses that we had around the
+13:10 behavioral friction people have around
+13:11 managing money. So I put here like two
+13:14 like you know quotes from the users we
+13:17 spoke to. Um one person said they you
+13:21 know have used dashboard apps right by
+13:22 their bank you know the Chase apps
+13:25 whatever. Um, and most of these apps
+13:28 feel overwhelming. Lots of numbers and
+13:30 info, but like I don't know what to do
+13:31 with it. Um, then when they started to
+13:34 talk about the experience using the the
+13:36 chat and peak, they were like, "Oh, this
+13:39 feels like it's helping me actually get
+13:42 to my answers and it feels more dynamic
+13:45 than this like dashboard that I know is
+13:47 being shown to like thousands of other
+13:49 people, right? where like again because
+13:50 it's so standardized you're making me do
+13:53 the thinking around how to interpret it
+13:55 versus like you know the conversational
+13:57 AI doing a lot of that work. Yeah. So
+14:00 the rule of six you get feedback you
+14:03 start getting insights these insights by
+14:06 the way relevant for anyone building an
+14:07 AI app. What's next? Yeah you start to
+14:11 build. Um, so, uh, we basically took
+14:14 this, um, and spent
+14:17 about one and a half months actually
+14:20 building it out before we launched in
+14:22 the app store. And, um, for anyone who's
+14:25 launching a mobile app, uh, you
+14:27 sometimes get asked like, should you do
+14:29 test flight, should you do like the
+14:30 pre-orders, like do you do a wait list?
+14:33 Um, we just like sent it and we're like,
+14:35 you know what, like let's just get it
+14:37 out there, right? And um you're never
+14:39 going to feel ready and it's fine.
+14:42 There's going to be bugs, but that's
+14:44 okay. That you don't get real feedback
+14:46 until you have real users. So this is
+14:49 what the app looks like today. So
+14:52 obviously a lot more uh you know design
+14:56 elements in here that are way more
+14:57 colorful than it was created. But you'll
+14:59 start to see like there's actually
+15:00 parallels, right? This this page
+15:02 essentially was this, right? But we like
+15:06 added more um you know cards that felt
+15:08 like a lot more readable. We added these
+15:11 like stories basically which are like
+15:13 you know nearly daily check-ins. Now uh
+15:16 this is a mockup so I realized uh you
+15:18 know there's some dates that look kind
+15:19 of funny but uh basically these are like
+15:22 almost like Instagram stories right? Um
+15:25 so we uh so on this screen um we did
+15:30 something where we wanted to like take
+15:32 what was familiar with two people in
+15:34 other apps. So like these like little
+15:37 circular icons are familiar in
+15:39 Instagram, right? Because it feels like
+15:41 this, oh, like there's a little story,
+15:43 right? It's a narrative going back to
+15:45 just Stalt's principle of like let me
+15:47 give me something that feels narratively
+15:48 relevant to me, right? Organized
+15:50 information and storytelling. So we
+15:52 created these like daily stories, right?
+15:54 That look like what you see on
+15:56 Instagram. Um, and then down here, these
+15:59 cards we actually modeled off of like a
+16:01 lot of wellness apps, right? like
+16:03 meditation apps or like uh journaling
+16:06 apps where like you click and then
+16:08 they'll have prompts of like in the vibe
+16:10 checks question there's a vibes checks
+16:12 card there's a question like hey like
+16:15 you know um what's what's my financial
+16:17 standing like right now right it's like
+16:18 a vibe check so um we used a lot of the
+16:22 you know things that make people feel
+16:23 very calm um and applied it to money
+16:26 where people don't always feel calm
+16:28 right and some of our users actually
+16:30 told us that um They feel like they can
+16:34 open up peak a lot more because it
+16:36 doesn't feel as scary as like their
+16:37 banking app like with red numbers being
+16:39 like, "Oh, like you spent so much more
+16:41 this month." Like here, like they're
+16:42 like, "Yeah, I feel more comfortable
+16:44 because of how friendly it feels." And
+16:46 it doesn't feel judgmental. It feels
+16:48 like it's trying to help me. It's like
+16:49 here's where you are and we're going to
+16:51 get you to where you want to be. Yeah.
+16:54 So if you're building an AI app, think
+16:56 about well I think you got that insight
+16:59 from the rule of six and and getting you
+17:03 know so step one like in a world where
+17:05 anyone could vibe code an app and the
+17:08 hard part isn't really the software.
+17:10 It's really about the insights that you
+17:13 can generate from your target audience
+17:15 or community and then thinking about
+17:18 okay what are their pain points? Um, you
+17:20 know, one thing, by the way, you can
+17:21 also do is you can go and simulate what
+17:24 people's pain points are by just going
+17:26 to like chat GBT Manis and being like,
+17:29 "Hey, like what are the most common pain
+17:31 points with an app like
+17:34 mint.com?" And that's called like
+17:36 synthetic user testing. So you can do
+17:40 synthetic user testing and real user
+17:42 testing which by the way obviously real
+17:44 user testing is better but it's
+17:46 sometimes it's just easier to prompt and
+17:49 get something and then you reflected it
+17:51 in the product with UI that feels
+17:54 familiar in a calm design style. So, I
+17:59 think that, you know, you're even seeing
+18:02 that with Airbnb's like recent redesign
+18:06 when they added like their new
+18:09 icons. Um, like it feels calming. It
+18:12 feels like fun. It like people don't
+18:14 want apps that are black and white
+18:17 anymore, you know, soulless like brands
+18:21 anymore. They want fun brands. They want
+18:23 calm and and then intelligence. Finally,
+18:27 intelligence, artificial intelligence is
+18:30 the foundation of the experience of the
+18:35 app. So every like all these
+18:38 uh you know entry points uh as they say
+18:41 in product design um are designed to get
+18:45 people to interface with the intelligent
+18:48 to get more smart to help you out more
+18:52 so that it's becomes a a partner you
+18:56 know not a piece of software. Exactly
+18:59 right. Um so something that we have um
+19:02 as well is we have a vector database
+19:04 that actually stores memory from the
+19:06 user. So we have like actually thousands
+19:09 of signals that we save down right from
+19:11 like you know do you have a sibling
+19:14 right um what are your values or um you
+19:17 know how did you feel when you spent on
+19:19 you know fitness maybe if it's a you
+19:23 know higher spend category because
+19:24 you're going to Equinox whatever in San
+19:26 Francisco but if you care a lot about it
+19:28 and that's a priority we we remember
+19:29 that and we're not going to be like oh
+19:31 you know reduce spend here we're more
+19:32 like maybe there's other areas you can
+19:34 find efficiencies right so um It's I I
+19:37 think that like people's expectations of
+19:40 products as you said is going to change
+19:42 right with all of this available today
+19:43 where they expect things to be
+19:45 emotionally resonant and like taking
+19:47 into account not just function but
+19:49 feeling right like I want to use
+19:50 something that makes me feel a certain
+19:52 way because you know that affects how
+19:55 often you know I engage with it. And
+19:57 then to your second point, right, I
+19:59 think we want to start using things that
+20:01 feel as humanlike as possible, right?
+20:04 And you know, we're getting to a stage
+20:06 where it's like you're talking to
+20:08 someone who is almost like a a smarter
+20:10 best friend or maybe a best friend that
+20:12 like has spent 6 to 12 more months in
+20:15 this area and is like able to like
+20:17 actually give you good advice and
+20:20 suggestions to like help you get better
+20:22 as well. And and none of this was
+20:24 possible I guess in like this kind of
+20:26 scale and speed years ago, right? Uh
+20:29 right now it's like you can whip up I
+20:32 mean you can probably whip this up even
+20:34 faster than we did, right? I think you
+20:35 probably whip this up in like maybe a
+20:37 few weeks, maybe a week depending on
+20:40 like how complex your app is and like
+20:41 it's it's truly amazing. It's just such
+20:43 an exciting time to be building mobile
+20:45 apps right now. And uh before we get to
+20:48 your next slide, you vi you when you say
+20:50 how did you build this? Yeah. Yeah. You
+20:52 what what tools did you use? What stack?
+20:55 Yeah. Yeah. So for like the front end
+21:00 and the back end it's been in Typescript
+21:03 and then for the mobile app uh because
+21:05 we wanted to be like more platform
+21:07 agnostic across you know iOS as well as
+21:10 Android uh use React Native and using
+21:13 Expo for that. Um, so yeah, pretty
+21:16 typical. I think we uh, you know, don't
+21:20 do anything too like fancy outside of
+21:22 the the React stack. Um, as for the LLM
+21:26 side, we actually string together a
+21:28 combination of uh, Gemini as well as
+21:31 Claude. uh depending on like the I guess
+21:34 the function but a lot of the initial
+21:36 insights
+21:37 like these kind of uh uh I would say
+21:41 like more detailed insights we use 37 on
+21:44 claude because the reasoning is freaking
+21:46 fantastic um and then elsewhere where
+21:49 it's like uh speed is required more we
+21:52 rely more on on Gemini so a lot of the
+21:55 coordination on this chat this is Gemini
+21:57 plus Gemini tool calling essentially
+21:59 that's that's going on cool All right,
+22:02 let's let's continue. Yeah. Um, so yeah,
+22:06 that's uh the gist of like our journey
+22:09 on the product side. Um, we've been out
+22:12 in the market for just a bit over a
+22:13 month now. Um, and uh, it's been super
+22:16 exciting. Um we built them public on
+22:19 Twitter which I can you know go into
+22:20 detail in the next next part but uh been
+22:24 really like uh grateful and overwhelmed
+22:27 by the response and we've had like
+22:29 thousands of people download the app. Um
+22:32 our most active users are telling us
+22:34 they use it every single day. Um you
+22:36 know they're checking their balances,
+22:38 they're doing like these AI check-ins to
+22:40 like understand their finances better.
+22:43 Um it's still early days, but it's like
+22:46 so we're already seeing how um people
+22:49 are using our app uh nearly seven times
+22:52 more frequently than like your desktop
+22:56 dashboard app. And they're talking more
+22:58 about like the the habit formation that
+23:00 really is, you know, coming into play
+23:02 when you have this kind of experience.
+23:04 How do you go from zero to thousands of
+23:08 customers using your product with
+23:11 basically no audience by building in
+23:13 public? Can you in this section, can you
+23:16 teach us how? Yeah, absolutely. I mean,
+23:19 it's it always sounds kind of scary and
+23:22 impossible, right? Um there's but really
+23:26 it's not to this audience. This
+23:27 audience, not to this audience. this
+23:29 audience has is bought into the concept
+23:32 that building a public works, but how
+23:34 how do you do it? Amazing. Okay, I will
+23:37 I will go into how I do it. Um I I'll
+23:40 actually just jump into uh like what I
+23:44 what what it kind of looks like
+23:46 timelinewise um for me uh really just in
+23:49 the last few months. This little jump
+23:51 right here is I think I responded to
+23:53 some guy's tweet about college uh not
+23:55 getting into certain colleges. So I
+23:57 remembered this one. By and large, you
+23:59 can see like there wasn't a lot here.
+24:01 And this is right here was actually when
+24:03 I made my first build in public post for
+24:06 Peak. And I know cuz it was actually on
+24:08 my birthday. And for a long time, you
+24:11 might not really see much, right? And I
+24:13 think that's where like you you kind of
+24:15 have to feel okay with um like posting
+24:19 and not getting a lot of engagement and
+24:22 impressions at the start because that is
+24:24 normal, right? Um, but you just have to
+24:28 find one opportunity where somebody
+24:31 catches wind of your post or your reply
+24:34 and it really just compounds from there
+24:36 like visually like you can kind of see
+24:38 it. Um, yeah, it started to happen
+24:41 around here. Amazing. And can you maybe
+24:44 go into like some of the post? Oh,
+24:46 there. Yeah. Yeah. So, um this is the
+24:48 very first post, uh I made uh and as I
+24:52 as I was evaluating it, I was like I
+24:54 think I got better at like figuring out
+24:56 how to post about things as well like
+24:58 but you know it was one of those things
+24:59 where I was like let me just get the
+25:02 first one out there. So this was done in
+25:04 March. Um, as you can see, it's uh it
+25:07 was actually 4500 initially in the the
+25:10 views, but I think since my account has
+25:13 grown, it I think a few people have come
+25:14 back and looked at my first post, maybe.
+25:17 Um, but yeah, I nothing crazy. I
+25:19 basically said uh day one building the
+25:22 next big personal finance app. I was
+25:24 like, okay, maybe I'll make it like a
+25:26 journal thing. So, like it keeps me
+25:27 accountable that like, okay, I'd do day
+25:29 two, day three, day four. Um, and then I
+25:33 say like, yeah, one of the biggest
+25:34 reasons why I built Peak was because
+25:35 running my own company made it harder
+25:37 for me to manage my money as disciplined
+25:39 as before. Couple with, you know, ADHD
+25:41 felt all over the place. So, and I
+25:44 actually uh have this like URL spend.
+25:47 That was actually a landing page that I
+25:50 created for this like, you know, very
+25:52 very early uh version of the app uh
+25:56 which we we uh you know, re redirected
+25:59 and took down. But uh yeah, basically it
+26:02 was very very simple, right? This this
+26:04 challenge. Can I break this down? So, uh
+26:07 you know, I'm on X a lot. I get hundreds
+26:09 of millions of impressions every single
+26:11 year.
+26:13 And this is an incredible tweet. Um and
+26:16 I want to break down what why it works
+26:19 and some tweaks I would make. Yeah. Go
+26:21 ahead.
+26:23 So, if you're building in public,
+26:27 um the the best thing you can do is get
+26:31 people to follow along in in your
+26:33 journey. So, the the smartest thing
+26:36 about this is you you're like day one
+26:38 building the next big personal finance
+26:40 app. So, it's like, okay, I might follow
+26:42 Sherry cuz like I want to see where this
+26:44 goes. People don't like not knowing the
+26:48 ending of the story. It's just human
+26:52 beings. So, it's like okay, I guess I'll
+26:55 follow you.
+26:59 Finance app. We all know that none of us
+27:02 are happy, ecstatic, or I shouldn't say
+27:06 none of us. I would say most of us,
+27:08 yeah, lots of us are unhappy with
+27:13 um at least 50% of people are unhappy
+27:15 with the financial tools they use. A lot
+27:17 of them are using like antiquated bank
+27:21 old school 200-y old bank banking apps
+27:24 that look like they're designed from the
+27:26 '9s. So building the next big personal
+27:28 finance app is aspirational. So you have
+27:31 a journey meets aspirational and then
+27:34 you're just you say honestly which makes
+27:36 me feel like you're a real human being
+27:38 you know like we're texting. Writing
+27:41 like you're texting is super impactful
+27:44 on building in public an X. The only
+27:47 thing that I would Oh, and you say that
+27:49 like what you
+27:51 know, you know, run because running my
+27:55 own company made it harder to manage my
+27:56 money. Like you're you're a bit
+27:58 vulnerable. Being vulnerable also really
+28:00 works in in building in public. The only
+28:03 thing that you're missing here and this
+28:05 is like a personal thing but um if you
+28:08 would have said like I suffer from ADHD
+28:12 and like that would be for the people
+28:15 who have ADHD extremely
+28:17 relatable. Um also having a link in here
+28:22 suppresses the
+28:24 the algorithm but other than that this
+28:26 is like a nine on 10 tweet is really
+28:29 good. Can we move on to the next slide?
+28:31 Yeah for sure. I know this gets like
+28:33 talked about so much of like you just
+28:36 got to show up. You just got to post.
+28:38 And I know like everyone's like but
+28:41 everyone says it. I've been doing it for
+28:42 a while. Like I I'm not going anywhere.
+28:44 It feels like I'm
+28:46 stuck. It's nonlinear. And I like could
+28:50 not believe when this day happened. And
+28:53 and actually I only found out about this
+28:55 because my uh I mean our app was melting
+28:59 essentially like I I was getting all
+29:01 these pings from Intercom like this this
+29:04 and this user like has filed a ticket or
+29:07 whatever and I like messaged my
+29:09 co-founder, right? And I was like um are
+29:11 there bots? Like what's going on here?
+29:13 It's like this like moment where you're
+29:14 like is this a bug? Are these bots like
+29:16 it could cross your mind, right? And
+29:18 then I was like, "No, I I think these
+29:20 are real users." Cuz we were like
+29:21 looking at like what people were doing.
+29:23 Like, no, they're actually trying to
+29:24 connect their bank accounts. Like, you
+29:25 wouldn't do that if you were a bot,
+29:26 right? So then I started to trace back
+29:28 and that's when I realized I think I was
+29:31 one of the first people that resp
+29:34 happened to respond to this one tweet
+29:36 that this guy Preston um posted. Um he
+29:40 posted uh I want a finance app with
+29:42 three numbers. What I spent today, what
+29:43 I spent this week, and what I spent this
+29:45 month. And I don't think he knew it was
+29:47 going to go to like 6.5 million views.
+29:51 And certainly I didn't think like I I
+29:54 reply a lot on Twitter a lot. Actually,
+29:57 that's another piece of advice which is
+29:58 like when you're you know early on like
+30:01 reply a lot and then at some point your
+30:03 post will carry you more. But anyways, I
+30:06 was replying to like you know a lot of
+30:08 threads that I felt like were relevant,
+30:10 right? So, it it just so happened that
+30:13 my one response here got picked up. Um,
+30:16 and uh I added an app store link. Um,
+30:19 and uh I said something like you get a
+30:22 cute mascot that roasts you. Um, and
+30:26 then yeah, it it just kind of took off.
+30:28 Uh, and you never know when it comes. It
+30:31 this one came like a month into Build in
+30:32 Public. So, like I started what March
+30:34 6th. Uh, so this was like a month and 3
+30:37 days. And uh yeah, this is the first
+30:39 time like I hit some kind of inflection
+30:42 point building in public. Yeah. You also
+30:44 what's good about this is you weren't
+30:46 like download my app. It's you know I
+30:49 think people don't like pure promotion.
+30:53 I feel like you humanized it when you
+30:56 said you also get a cute mo mascot that
+30:58 can roast you in an AI chat interface if
+31:00 that's your style too. So again, going
+31:03 back into going back to write like you
+31:06 text and write like you're speaking to
+31:08 another human being. I know that sounds
+31:10 obvious, but people they they get all
+31:13 corporate when they're trying to do this
+31:14 sort of stuff and that just doesn't
+31:16 work. Yeah, I completely agree. Um
+31:21 I feel like the so even the way that
+31:26 like um I write stylistically is um I I
+31:30 make it very conversational like a text
+31:31 message, right? It's like um you know I
+31:34 don't use capitalization. Uh I uh you
+31:38 know add little things like if that's
+31:40 your style too, which I don't know if I
+31:42 would have used back at Google. Um yeah,
+31:45 a little cheekiness. you know, you're
+31:46 like, it's kind of how you would talk
+31:48 with a friend, right? A little
+31:50 unfiltered. Um, but yeah, that's that's
+31:53 like actually my norm like how I talk
+31:56 here. Um, this tweet is just how I talk
+31:59 in like real life. There's not a big
+32:00 difference.
+32:02 Love it. Yeah. All right. What else?
+32:04 Yeah. So, um, yeah. So, this like kind
+32:08 of set things off and then, um, I was
+32:11 going to show you like one specific
+32:13 tweet. I'm actually just going to jump
+32:14 to like my Twitter cuz I don't think I
+32:16 put the uh I'll share this tab. So, this
+32:21 tweet was basically the first
+32:24 day that I actually on my own post got
+32:27 more than like a thousand.
+32:31 And I mean, the algorithm does have an
+32:34 impact, right? In a way, it's like if
+32:36 you have like a moment like that and you
+32:38 kind of catch it and you post anything
+32:41 afterwards, it kind of like grows from
+32:44 there. So, I followed up, right? I was
+32:46 just basically like,
+32:48 "Hey, you know, there was a bunch of
+32:51 downloads I was not expecting posted by
+32:53 this person." Uh, and then we actually
+32:56 made some changes to the UI because it's
+32:58 not three numbers, it's four because it
+32:59 would have looked weird with three. I
+33:01 had a debate with my team on that. Um,
+33:05 but yeah, we we kind of shipped it
+33:07 overnight. We were like, you know what,
+33:08 there's probably something to this whole
+33:10 like simplicity thing where like people
+33:12 are obviously reacting to the the bloat,
+33:14 right? The Frankenstein dashboards where
+33:17 you're like, sure, like I can look at my
+33:18 cash flow in this fancy sinky chart with
+33:20 12 colors, but like how do how much did
+33:23 I spend today? You know, like that's all
+33:24 I need to know. So yeah, we just like
+33:26 ship this right away. So um that's like
+33:29 I mean the pros and cons of build in
+33:31 public, I think it's a pro. like you get
+33:33 to move really fast. You like see
+33:34 feedback and then you build it. You get
+33:36 like you get reactions. Um obviously the
+33:39 the downside is like if you're you're
+33:42 you're kind of accountable to things,
+33:43 right? Like you're like, "Oh, I I see
+33:45 this. I want to work on it." Then people
+33:47 expect you to put something out. But I
+33:48 like it because it kind of keeps me, you
+33:51 know, on track and making sure that like
+33:53 I'm creating the best app for our users.
+33:56 So there's a few there's a few ways to
+33:59 build an app that gets a lot of
+34:01 traction. One is trendjack. So you look
+34:04 at what trends are are going to be and
+34:08 then you like build for those trends.
+34:11 And I think that's like I think it's
+34:13 that's a huge way to do it. The other
+34:15 way which you know is something I I
+34:17 think about is tweet jacking. And
+34:19 obviously you think about that. So you
+34:21 what what you really did is you saw a
+34:23 tweet that got a lot of traction,
+34:27 millions of views, and then you
+34:30 essentially vibe coded
+34:33 a an, you know, that tweet into your app
+34:37 and then
+34:39 you latched on to all those people who
+34:44 wanted this product and then all of a
+34:47 sudden they're like, "Wow, this, you
+34:49 know, peak is for me. this is a product
+34:51 for me and you can only do that today.
+34:54 Like you, you know, in a world where
+34:57 there's AI and you can ship things
+34:58 overnight, you can only do that today.
+35:00 So, I think this is brilliant. And then
+35:01 I love that you you included like the
+35:05 journey day, whatever you put up there.
+35:08 Um, yeah. So, day 22. 22. Yeah. Yeah.
+35:12 This is cool. I like this. Yeah. So, I
+35:15 mean, this is more tech stuff, but I
+35:17 thought this could be maybe useful for
+35:19 people who are like, "Oh my gosh, I have
+35:21 to post every single day, like, how do I
+35:24 come up with ideas, like all that stuff,
+35:26 right?" Um, so I kind of came up with
+35:30 like things that I enjoy talking about
+35:34 almost every single day. And oftentimes
+35:36 these are things I'm already talking to
+35:38 friends about, right? So, it's not like
+35:39 I'm creating new behavior, it's just
+35:41 like it's another medium. So, um, you
+35:43 know, we already talked about the daily
+35:44 updates, right? Um, but one thing I'll
+35:46 add here is, um, I did start out with
+35:48 like, hey, you know, building the day
+35:51 one of building a next biggest personal
+35:53 finance app. I realized like, hey, that
+35:56 gets used if I use it over and over
+35:58 again. It's like, okay, like what's new,
+35:59 right? So, I actually started to um make
+36:02 thematic challenges during certain time
+36:04 periods. So, uh, I started like, uh,
+36:07 another one I called like the 3x
+36:09 retention in 30 days because our week
+36:11 three retention was not great at one
+36:13 point. Um, it was like 13%. Which you
+36:16 don't want as a consumer app. Not great.
+36:18 So then I was like, you know what, I
+36:20 don't mind. I'm just going to tell
+36:21 people our retention needs to improve,
+36:23 right? This is the number. Here's where
+36:24 I want to be. Here's like how long I
+36:27 want to take to work on this, and here
+36:28 are all my steps I'm doing it. Um, and
+36:32 uh, funny enough, we did two things that
+36:35 actually shot our week three retention
+36:38 up from that uh, from like
+36:40 13%. essentially like 28% in like a
+36:45 short period. Um, we
+36:48 uh, improved onboarding completion,
+36:51 literally just asking people, hey, it's
+36:53 been 3 days, just connect your bank
+36:55 account and finish. And 50% of the
+36:56 people we just sent a reminder did it.
+36:59 And the second thing is we started to
+37:01 send uh these context specific
+37:03 notifications. So it's like uh like uh
+37:07 well we'll basically look at their
+37:08 behaviors right after a time period and
+37:10 we'll be like oh it's uh it's it's a
+37:14 weekend now. Um you know you might want
+37:16 to you know take a look at like you know
+37:18 your you know spend buckets right in in
+37:21 these particular areas like
+37:22 entertainment etc. Uh so it's like
+37:24 related to the time period and um that
+37:27 also brought a lot of people back into
+37:28 the app. So um we actually completed the
+37:31 challenge in four days which was kind of
+37:34 funny actually four or five days. Uh so
+37:36 I was like okay I mean I'm not done like
+37:37 working on retention by any means. It
+37:39 wasn't like okay we're done but it was
+37:40 kind of hilarious that sometimes like
+37:43 it's the little small things that
+37:45 actually can make a difference. Um
+37:47 totally. I mean, I think what what
+37:49 you're saying is if you're building in
+37:51 public, you might want to have one
+37:53 really big goal. For example, I want to
+37:56 make a million dollars ARR in 12 months
+38:00 and I'm building the next big tennis
+38:04 app. Yeah. And that's a really big goal
+38:08 and you can remind people of that goal,
+38:10 but you need to have sub goals. Mhm.
+38:13 Exactly. So if you want to bring people
+38:14 along for the journey, you need to have
+38:16 a set of sub goals probably every 30
+38:20 days. Yeah. Where people are bringing
+38:23 you you're bringing people along and
+38:24 it's like okay today's cha uh you know
+38:27 this month's challenge is going to be
+38:29 retention and then okay day 31 happens.
+38:33 You're like okay new challenge happen.
+38:36 I'm trying to hire a designer and I you
+38:39 know and I'm going to go. So e every
+38:42 startup has a set of challenges and and
+38:44 focusing it around every two weeks or 30
+38:46 days I think is really smart. Making
+38:48 memes around personal finance talk more
+38:50 about that and talk more about your
+38:51 process for creating them. Yeah. Um
+38:55 so I would say like you know don't make
+38:57 memes for the sake of making memes
+38:59 although it's it's super fun but um you
+39:01 know one thing that um you know we all
+39:04 know is like just talking about finance
+39:05 itself without like thinking about the
+39:08 emotions and the context around it can
+39:10 be very boring right so making memes is
+39:13 kind of my way to figure out like what
+39:15 is it that like really like people feel
+39:20 like some kind of way about right,
+39:23 emotionally when it comes to money. And
+39:25 so I started to create memes actually to
+39:28 like, you know, get uh get that kind of
+39:31 I guess feedback from folks. And maybe
+39:33 I'll show some examples again. I'm just
+39:34 going to go to my ex because I think
+39:36 it's just easier to to share. Uh all
+39:40 right, I'm on my timeline. Okay. Uh so I
+39:44 started to post
+39:47 um like I I do stupid stuff here. I
+39:51 mean, this is pretty like just silly.
+39:52 This is a, you
+39:54 know, this is from the latest Avengers
+39:57 movie. So, it's a bit of the
+39:59 trendjacking, whatever. Like, I was
+40:01 like, maybe people, you know, get the
+40:02 reference. So, this is a a superhero or,
+40:05 you know, villain uh in the movie called
+40:07 The Void, right? So, basically uh you
+40:10 know, you go into this feeling of
+40:12 nothingness, right? Um, so I just like,
+40:16 you know, took a couple minutes was like
+40:18 maybe there's some joke that I can make
+40:20 about this and uh I was like, you know,
+40:23 like I feel like I am really bad at
+40:26 managing subscriptions cuz it's one of
+40:27 those things you just like pay for and
+40:29 forget and it just like goes into
+40:30 nothingness even though it's not really
+40:32 nothing cuz I'm paying for it. Um, and
+40:34 so I used like that kind of a you know
+40:39 like as a tagline, right? and then added
+40:42 this image which uh I just bas I think I
+40:46 prompted on this is GPT4 by the way. I
+40:48 prompted like New York skyline and I
+40:50 took a screenshot of like some you know
+40:52 picture of this super villain and I said
+40:54 put the peak face right here. Um and I
+40:57 use this to basically like kind of get
+41:00 more and more like uh arena brand
+41:04 awareness isn't it? Yeah in a way. And I
+41:07 I've been doing a few like a few of them
+41:09 like I did let me see this one was also
+41:13 yeah like wall of shame. I mean yeah I
+41:16 actually looked really smart. This is so
+41:18 smart. Like what you're doing is
+41:23 basically you you know some of the pain
+41:27 points of the audience you're going
+41:29 after, but you're packaging it
+41:33 in trends and memes so that the
+41:38 algorithms love you. and you're using
+41:42 like not enough people are are using
+41:44 like image gen and some of these tools
+41:48 to have an unfair advantage. Like if
+41:52 you're building in public, a meme a
+41:54 week a meme a week is going to be
+41:57 helpful. Like you will get thousands of
+41:58 impressions. Yeah. If they're good. If
+42:00 they're good. And they're they're not
+42:03 necessarily too hard to do. I even
+42:05 actually have this post here cuz someone
+42:07 was like, "How do you do it?" I'm like,
+42:08 "I think it's pretty simple. I actually
+42:10 recorded. Yeah. Can you uh make that
+42:12 full screen and start from the
+42:14 beginning? Yeah. Yeah. Uh maybe. Okay.
+42:17 So, let's see what your prompt is. Can
+42:18 you create Can you create Can you create
+42:21 a peak cartoon meme around the latest
+42:22 Thunderbolt Avengers movie, The Dark
+42:25 Void scene subscription creep? Insert
+42:28 clip of lightning lit abyss that place
+42:30 your 1399 free trial keeps teleporting
+42:33 to. Okay. Yeah. By the way, um this line
+42:38 I actually uh got from 03. I was
+42:40 actually using uh 03 to uh brainstorm
+42:43 like trends and then and then thunder uh
+42:46 I I saw the Thunderbolt movie and I was
+42:48 like, "Oh, that was one of the ones." So
+42:49 I I actually copied this from 03 into 40
+42:55 and I just added this part at the top,
+42:57 right? Can you create the peak cartoon
+42:59 meme? And I added the logo. Um this is
+43:02 the logo asset. So what you're saying is
+43:04 you can even use these LLMs to give you
+43:07 ideas around what memes to create. You
+43:09 don't even need you don't even need the
+43:11 ideas themselves. So use use
+43:15 uh use chat GBT as a meme co-founder.
+43:21 Yes. And start from there. Absolutely. I
+43:24 mean the the one thing you still have to
+43:25 have is you have to have taste. I mean
+43:27 they'll give you a bunch of ideas. Like
+43:29 nine out of 10 are You have to
+43:31 decide like which one like, you know,
+43:34 catches people's
+43:36 attention is visually suitable and can
+43:39 relate to some message around your
+43:40 brand. Right. I've actually never tried
+43:42 this. I've actually never tried to use
+43:46 uh I've never tried to use chat GBT as a
+43:50 way to come up with meme ideas. So, I'm
+43:52 going to try this after. I think this is
+43:54 cool. Yeah, you totally should. Um I I I
+43:57 can uh see what my prompt was when I
+43:59 asked it for memes. I I think I said a
+44:01 few things um in there. So like pop
+44:03 culture like um cuz we're reaching an
+44:05 American audience. I was like sports,
+44:07 you know, sports stuff kind of works,
+44:09 celebrity gossip. So I gave a few
+44:11 categories as well. So it wasn't just
+44:13 like make me memes. It was like I I I
+44:16 added some details in it, but I I can
+44:18 send it along if you want to give a meme
+44:20 gener
+44:23 uh on GBT. So, uh, I'll keep playing
+44:27 this, but you can see how the first one
+44:29 looked like not great. I mean, it was
+44:32 like the sentry guy wasn't there. Like,
+44:36 it's a dark I mean, I looked at this
+44:38 copy. I was, okay, like clearly it just
+44:40 copied word for word from the for
+44:42 language and like, yeah, I mean, it
+44:45 nobody would get what this meant. So,
+44:46 then I just like uh prompted it again. I
+44:50 was like, "Okay, use this picture of
+44:52 Sentry." Sorry. Uh, Sentry/Void. Uh,
+44:55 Sentry. I don't know if you did you see
+44:57 the movie, the latest Marvel one. No,
+44:59 but I've seen like the trailer.
+45:02 Yeah, it's it's actually pretty good.
+45:04 Um,
+45:06 I felt pretty disappointed with Marvel
+45:08 for a long time, but I actually think
+45:09 this was this was a solid movie. Um,
+45:12 I'll do like a very quick 10-second
+45:14 explanation of Sentry. Uh basically when
+45:17 sentry is really uh sad and in a
+45:20 depressed place it turns into the void.
+45:22 So so devoid of stuff. So that's um the
+45:26 same thing. So I gave it I I basically
+45:28 ripped that photo. Sorry. O I ripped
+45:30 that photo from Google images I think.
+45:34 Um and then I came up with this which
+45:36 like obviously looks kind of this looks
+45:39 like some Statue of Liberty like
+45:42 Superman. Doesn't really look like the
+45:44 void. And then like I don't know what's
+45:45 going on here. Like peak with the whole
+45:48 I was like trying to like tell it to use
+45:52 a New York skyline and it like just took
+45:54 this text. I mean it just does stupid
+45:56 things but like I don't give up. I just
+45:58 like try to like see if I can be more
+46:00 specific and I was like actually use
+46:02 this image, right? And then um change
+46:06 the
+46:07 text. Uh, I think it like crapped out
+46:11 there. And then I said actually like add
+46:14 the peak logo onto the face and then the
+46:17 text should be this. So it's very
+46:19 specific and then you get that. So it's
+46:22 multiple iterations. Uh, like I think if
+46:25 you give up after the first try, you'll
+46:26 be like, "Yeah, it sucks for like image
+46:28 jet or making memes." I'm like, "No, you
+46:30 just got to like, you know, finesse it
+46:34 and you you get something out of it."
+46:36 Awesome.
+46:38 Um, what else you got? Yeah. Well, uh,
+46:41 let's go back here. Um, I think we did
+46:44 actually talk about this, but yeah, you
+46:46 can use like GPT and LLM to brainstorm.
+46:48 And in fact, um, not beyond just like
+46:51 meme ideas. Uh you can actually use I I
+46:56 use 03 for this mostly but you can
+46:58 actually feed it your Twitter handle,
+47:00 your socials and ask it can you like
+47:05 analyze
+47:07 like what you think would be three
+47:11 strong angles for me to talk about
+47:14 uniquely and like give me those
+47:18 categories. You could do that. Um, and
+47:20 you you'd be surprised like what it
+47:22 comes up with. Yeah, you can do it and
+47:25 you probably should. Yeah, absolutely.
+47:27 Yeah.
+47:28 Um, just have a few more things. I know
+47:31 like uh Yeah, there's a I put this in
+47:34 here because a lot of people like say
+47:36 that build in public has a bad rap
+47:38 because people are just talking like
+47:40 it's like they're just yapping or
+47:43 where's the product, right? And I think
+47:44 that's why the build part is really
+47:46 really important. like you got to show
+47:48 like you're interacting with people,
+47:51 you're taking feedback and all of that.
+47:53 So, I actually added this tweet in here
+47:55 because it's very recent. Um it's just
+47:57 from like a day ago, I think. Uh but I
+48:02 yeah, so this person Seb um had been
+48:05 using Peak for a month. Um I think
+48:07 discovered it from the tweet probably
+48:10 from Preston. Um and uh left feedback,
+48:14 right? It's like, "Hey, here's some
+48:14 things that like I want, you know,
+48:16 working better." The refresh, uh, the,
+48:19 you know, Gen Z lingo is something that
+48:21 some people like. It's some people
+48:22 don't. It's polarizing depending on who
+48:24 you ask. And then,
+48:26 um, this part is really where I kind of
+48:29 took out and said, "Okay, we're doing
+48:31 the one thing that we want to uniquely
+48:32 do well, which is story gen." And then,
+48:37 I mean, I always think when someone says
+48:38 borrow UX, like I I appreciate that.
+48:41 like it's a yeah it's something that I
+48:44 don't mind hearing. Um so I yeah I
+48:47 interact a lot with people on replies,
+48:50 DMs, probably have like at least 50
+48:53 people like in some kind of direct line
+48:56 of communication that just you know
+48:57 sends me the stuff um while we're
+48:59 building Peak Public and that's it.
+49:02 That's pretty much it. Yeah. All right.
+49:04 Yeah. Um, Sherry, thank you so much for
+49:08 your time and sharing your process and
+49:10 how you built this both from a product
+49:12 perspective, from an insights
+49:13 perspective, and from a marketing
+49:15 perspective. Um, I'm going to include
+49:18 the the links uh to where people could
+49:21 follow along your journey and Peak's
+49:23 journey uh in the show notes if people
+49:25 want to go and and and and get more of
+49:29 that. Um, do you have anything you want
+49:31 to leave, you know, the audience with
+49:34 before you head out? Um, I think this is
+49:37 the golden age of building AI native
+49:40 mobile apps. So, um, I'm really excited
+49:44 to see what everybody starts building.
+49:45 Um, this is like a paradigm shift not
+49:48 just for personal finance, but it's for
+49:51 the whole suite of any kind of
+49:53 applications that we're going to use to
+49:54 like, you
+49:56 know, improve ourselves in some area,
+49:59 right? to like live a higher quality of
+50:01 life. So, I think this is like such a
+50:03 cool time to be building. Um, so yeah,
+50:06 just uh go out there and uh do some cool
+50:09 stuff. Amen. Thanks, Sherry. I
+50:11 appreciate it. Thank you. Bye. Bye. Bye.

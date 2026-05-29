@@ -1,0 +1,758 @@
+The True Power of AI Coding - Build Your OWN Workflows (Full Guide)
+
+0:00 No matter what you are building, if
+0:02 you're working with AI coding
+0:03 assistants, it is a lot more than just
+0:05 prompts. It's all about creating
+0:07 systems, workflows that can evolve to
+0:10 fit your needs. I know it's tempting to
+0:12 just wing it. But if you want to build
+0:14 anything substantial, you do need
+0:16 structure. There's a reason why we have
+0:18 so many strategies around context
+0:20 engineering like the PRP framework or
+0:23 BMAD, the GitHub spec kit. There's a
+0:25 million of them out there. And that's
+0:27 actually the problem as well. It's easy
+0:29 to get lost in the sauce, so to speak,
+0:31 with all these different strategies and
+0:33 how they apply to you. Now, the solution
+0:35 to this problem is what I'm going to be
+0:36 covering with you in this video. We're
+0:38 going to be scrapping the notion of
+0:40 existing frameworks like PRP and BMAD,
+0:43 and we're going to be building our own.
+0:45 I'll show you how it works. Because if
+0:46 we can understand the philosophy and
+0:48 strategies that go into all these
+0:50 existing frameworks, not only can we use
+0:52 them better because we actually
+0:54 understand them, but also we can tweak
+0:56 them to our needs and even build our own
+0:58 workflows and systems. This is where the
+1:00 power really comes into your hand. And
+1:03 this diagram that you're looking at here
+1:05 is everything I'm going to cover with
+1:07 you in this video. It sums it up really
+1:09 nicely because I want to keep things
+1:11 simple and fundamental here. I want to
+1:13 give you a process that you can apply
+1:15 that'll take you super far with AI
+1:17 coding assistance no matter what you are
+1:19 making. So the primary mental model that
+1:21 guides most of my coding is the
+1:23 three-step process of planning, then
+1:26 implementing and then validating. That's
+1:28 we're going to build a workflow around.
+1:30 And so I'll just go through at a really
+1:31 high level everything that we're
+1:33 covering here. Then we'll get into
+1:34 detail and I'll show you a real example
+1:36 as well. And so first of all, I always
+1:38 start with planning. And I have a
+1:41 multi-step process for this. I start
+1:43 with vibe planning. That's what I like
+1:45 to call it. We're basically just
+1:46 exploring very free form the different
+1:48 ideas that we want to implement for a
+1:50 new project or the codebase for an
+1:52 existing project. And then from there,
+1:54 we create our initial requirements for
+1:56 that new feature or new project. And
+1:58 then we prepare all of the context so
+2:00 the AI coding assistant has what it
+2:02 needs to get the job done. And slash
+2:04 commands are great for this. We're going
+2:05 to be covering slash commands and sub
+2:07 aents and other components of AI coding
+2:09 in this video as well. And then once we
+2:11 have all of the context we need, we want
+2:13 to then execute on it to actually
+2:15 produce our code. And creating a
+2:17 predefined workflow through slash
+2:19 commands is fantastic for this as well.
+2:22 So we can define how we want to manage
+2:24 tasks and research our codebase, those
+2:26 kinds of things. And once we have the
+2:28 code outputed, it is time for
+2:30 validation. And we want to leverage AI
+2:32 coding assistants to validate their own
+2:35 work and then put ourselves in the
+2:37 process as well. making sure that we can
+2:39 really be the project manager for the AI
+2:42 coding assistant. And then the last
+2:44 thing that I'll be covering throughout
+2:45 this video here is the different
+2:48 concepts for AI coding assistance and
+2:50 how they apply to different parts of our
+2:52 workflow like global rules and sub aents
+2:54 and slash commands. For example, we
+2:56 don't actually want to use sub aents in
+2:58 the implementation phase. So I'll talk
+3:00 about how that works, really the
+3:01 philosophy behind it. This will also
+3:03 help you understand how these different
+3:05 strategies work like PRP and BMAD. Now,
+3:08 what I'll be building live here is not
+3:10 the focus of this video. So, I thought I
+3:13 would take this as an opportunity to do
+3:14 something fun and different, showing you
+3:16 something that I'm working on personally
+3:18 because I've been overhauling my
+3:20 productivity workflows recently,
+3:21 switching to an app called Obsidian. It
+3:24 is a free and local knowledge management
+3:27 platform. You can kind of think of it
+3:28 like Notion except there's also a ton of
+3:30 open source plugins to extend it. I'm
+3:32 working on some myself. I will probably
+3:35 be creating a lot more content around
+3:37 Obsidian in the future because you can
+3:39 also use it as your second brain. It's
+3:41 super cool and there's a lot of AI
+3:43 integrations that I have been working on
+3:45 including what I'm going to showcase in
+3:47 this video. So, we have the co-pilot
+3:49 chat on the right hand side. This is
+3:52 connected to, you can see it right here
+3:53 in the bottom right the Dynamis Obsidian
+3:55 agent. I have my own AI agent that I
+3:58 have running in Docker on my computer
+4:00 and that is what Obsidian is connected
+4:01 to. It's super cool. So, I can say tell
+4:03 me about and then I can reference files
+4:05 within Obsidian like the one that you're
+4:06 looking at right here. I can send this
+4:08 in and it's going to my custom agent.
+4:10 This connection here is what we're going
+4:12 to be building out in this video just as
+4:14 an example for the custom workflows that
+4:16 we're creating here. It's super cool.
+4:17 Take a look at that. All right. Now,
+4:20 let's dive into the process and we'll
+4:21 start with the planning phase here,
+4:23 which honestly is the most important
+4:25 phase by far because if you're not
+4:27 curating your context correctly for the
+4:29 AI coding assistant, it will fall on its
+4:32 face. And by the way, everything in this
+4:34 video is going to be rather brief. I
+4:36 just want to start with the basics here.
+4:38 If you really want to dive deep into
+4:40 mastering AI coding assistance with me,
+4:43 definitely come be a part of the
+4:44 half-day workshop that I'm hosting on
+4:46 September 27th. This is where we really
+4:48 dive deep. All of my strategies in one
+4:51 place for getting the most out of AI
+4:53 coding assistance. So, hope to see you
+4:55 there. Link below. Definitely check it
+4:57 out. I am going to be pouring so much
+4:59 value into that workshop. And so, right
+5:01 now, you kind of get a taste actually of
+5:03 a lot of what we're going to be covering
+5:04 here. I want to help you build your own
+5:06 AI coding workflows so you can
+5:07 understand the philosophy and strategies
+5:10 that go into all these different
+5:11 frameworks. And so, with that, we can
+5:13 start with the planning phase. Now, the
+5:15 first thing I always do to start the
+5:17 planning phase is vibe planning. Now,
+5:19 hear me out on this. If you've seen my
+5:21 AI coding content in the past, you know
+5:23 that I'm not a fan of vibe coding, but
+5:26 that's different because that's when we
+5:27 get into the actual implementation. We
+5:29 definitely want a lot of structure and
+5:31 validation there. But when we're in the
+5:33 planning phase initially, all we're
+5:35 doing is exploring ideas, architecture,
+5:38 concepts, figuring out our tech stack.
+5:40 We're doing that with our AI coding
+5:43 assistant as our research companion. And
+5:45 I purposefully do not want this to be
+5:48 structured because I want a more
+5:49 freeformed mindset as I'm working in
+5:52 this initial phase. And so for new
+5:54 projects, this means researching online
+5:56 resources, previous projects that you've
+5:59 implemented. I actually love to do this
+6:00 where I'll create an examples folder in
+6:02 my codebase and take existing projects
+6:05 and put it there and research that with
+6:07 my coding assistant. And then for
+6:09 existing projects, it's generally
+6:11 researching and analyzing the existing
+6:13 codebase to see where our new feature is
+6:15 going to fit in. And of course, this
+6:16 isn't an exhaustive list. It's really
+6:18 whatever you want to do to have a
+6:20 conversation with your AI coding
+6:22 assistant so you're both on the same
+6:23 page of what needs to be fully planned
+6:26 and implemented. And so once you have
+6:28 that conversation with the coding
+6:29 assistant, within that same context
+6:32 window, I'll have it help me create what
+6:34 I like to call an initial MD. This is
+6:36 the first file that we create for our
+6:39 planning. Just a simple markdown
+6:41 document. The goal is to produce a
+6:43 markdown doc with a detailed feature
+6:46 request, otherwise known as a PRD. This
+6:48 is the kind of document that's more high
+6:51 level, the kind of thing you could give
+6:52 to another human to describe what you're
+6:54 looking to build. So, at this point,
+6:56 we're not super specific to prompting
+6:58 strategies for the coding assistant yet.
+7:01 And so, for a new project, generally,
+7:03 you want this to be very high level. a
+7:05 simple MVP for the application you want
+7:07 to build, including a lot of references
+7:09 to the supporting documentation and
+7:11 examples that you found in the vibe
+7:13 planning stage. And then for the
+7:15 existing project, it's pretty similar,
+7:17 but it's going to be a lot more focused
+7:19 and detailed that specific feature you
+7:22 want to build into the existing
+7:23 codebase, including a lot of references
+7:25 to what I like to call integration
+7:27 points. The files that have to be
+7:29 edited, maybe the files you want to
+7:31 reference for architecture. Again, all
+7:34 of those things that you discover with
+7:35 the coding assistant in the vibe
+7:37 planning stage. So once we have this
+7:39 initial MD, that's when we want to take
+7:42 our requirements and turn it into a
+7:46 full-fledged prompt for the AI coding
+7:48 assistant. And this is really where the
+7:50 strategies around context engineering
+7:52 come into play. You've probably seen
+7:54 this diagram on my channel before, but I
+7:56 recreated it from scratch in Excaladraw.
+7:58 Hope you're proud of me. I put way too
+8:00 much effort into making this. It's kind
+8:01 of silly, but anyway, we have RAG,
+8:04 providing external documentation to our
+8:06 coding assistant, memory, like our
+8:08 conversation history. We have task
+8:10 management. This is super important for
+8:12 the planning phase, and we'll talk about
+8:14 this in a little bit. And then, of
+8:15 course, we have prompt engineering,
+8:16 which is a lot about how do we take our
+8:18 initial request and craft it in a way
+8:20 where we have a plan of attack for the
+8:23 coding assistant. And so, the goal in
+8:25 this stage, we are producing a second
+8:28 markdown document. So, we take our
+8:30 initial MD and we produce a detailed set
+8:34 of goals, tasks, and resources for the
+8:36 AI coding assistant. Basically giving it
+8:38 everything it needs to get the job done
+8:40 effectively. So, we're taking our PRD,
+8:43 turning it into a full-fledged
+8:45 implementation prompt. And by the way,
+8:47 this is exactly what the PRP framework
+8:49 accomplishes that I cover on my channel.
+8:51 And so I'm starting from the basics
+8:53 here, but it's kind of cool how like it
+8:54 naturally progresses into kind of a
+8:56 light bulb moment where it's like, "Oh
+8:57 yeah, PRP, that totally makes sense
+8:59 because that's exactly what we're
+9:00 doing." When you generate a PRP, you're
+9:02 taking your initial requirements and
+9:04 turning it into a much more structured
+9:07 document for the coding assistant that
+9:08 has things like the task list that you
+9:11 want to knock out, your desired codebase
+9:13 structure, your success criteria, all
+9:15 the documentation examples that you
+9:17 wanted to reference. That is what we're
+9:18 creating with our planning document. And
+9:21 there are a lot of tools to help us get
+9:23 the job done here. I'll show you Archon
+9:25 in a little bit with our live example,
+9:27 the PRP framework, of course, even
+9:29 simple web search tools that we have
+9:31 with things like cloud code. That is a
+9:33 part of the rag that we have for context
+9:36 engineering and archon is also for rag
+9:38 by the way and also our task management.
+9:40 And then a lot of other tools coming out
+9:42 like the GitHub spec kit is rather new,
+9:44 really cool, provides a lot of commands
+9:46 to help us do a very similar thing that
+9:48 we're doing here with the vibe planning
+9:50 and then you know creating our initial
+9:52 requirements and creating the plan.
+9:53 GitHub spec kit does a lot of that. And
+9:55 so again, understanding the philosophies
+9:57 here that go behind these different
+9:59 strategies. All right, let's get into
+10:00 the codebase now because I want to show
+10:02 you how this works in action. Now, for
+10:04 brevity sake, I already had the
+10:06 conversation complete, but I'll walk you
+10:07 through my general process, how I'm
+10:10 applying the principles to start to
+10:12 create this AI coding workflow that I'll
+10:14 showcase here. That is just an example
+10:16 of the kind of thing that you can build.
+10:18 And so, first of all, we're starting
+10:20 with a brand new conversation with cloud
+10:22 code. And this works no matter your
+10:23 coding assistant, of course. And the
+10:25 first thing I do whenever I start a new
+10:28 conversation working in an existing
+10:30 codebase like I'm doing for this
+10:32 Obsidian integration is I will run a
+10:34 primer slash command. And so we're
+10:36 starting to get into slash commands
+10:37 here. Slash commands are simply prompts
+10:40 that you want to turn into reusable
+10:42 workflows which very much goes with the
+10:44 theme that we have here. creating a
+10:46 system for AI coding both with mental
+10:48 models and also with literal workflows
+10:51 that we have created as these markdown
+10:53 slashcomands here. And so what the
+10:56 primer does is it lists out instructions
+10:58 for files to read to quickly catch the
+11:01 AI coding assistant up to speed on our
+11:03 project when we're starting a new
+11:04 conversation. And so that way it kind of
+11:07 feels like our coding assistant has been
+11:09 working with us on this project for a
+11:10 while now, but it is actually a fresh
+11:12 conversation. And so it does a bunch of
+11:14 research through the key files in my
+11:16 codebase. And then at this point I'm
+11:18 ready to move to the vibe planning and
+11:20 slash commands are pretty important for
+11:22 most stages of our workflow here. Really
+11:26 every single stage. And so I have this
+11:28 part of the diagram here talking about
+11:30 this for the planning stage. This is
+11:32 where we want to set up our global
+11:34 rules, the key instructions for our
+11:35 coding assistant. And then we use sub
+11:37 aents and slash commands to automate
+11:40 parts to create those workflows for
+11:42 parts of our planning stage. And we do a
+11:44 lot of that for validation and
+11:46 implementation as well. Except we don't
+11:48 use sub agents for implementation. I'll
+11:50 talk about that in a second here. So
+11:52 yeah, we're in the VI planning stage
+11:53 now. And this is where, like I said, we
+11:56 don't have structured prompts. It's
+11:58 super basic here. I just describe at a
+11:59 high level what I want to build because
+12:01 I want my AI agent to be able to connect
+12:03 to my Obsidian vault. I give an example
+12:05 that I pulled from a past project that I
+12:07 want it to reference. This is just the
+12:10 high level. Let's start to get into the
+12:12 code. Then once we do this exploration
+12:14 and we're confident in its understanding
+12:17 and you can kind of elaborate more and
+12:19 and fix up some of its understanding,
+12:21 you make sure you're on the same page
+12:22 with it. Then you will go and create the
+12:25 initial MD. And so you on the same page,
+12:28 you did your planning. Now we start to
+12:30 add in our structure. And so in this
+12:32 case, I'm calling my initial MD OpenAI
+12:35 API compatibility. It's just a markdown
+12:37 document with that initial request that
+12:39 we have for our AI coding assistant. So
+12:41 we have the feature that we want at a
+12:42 high level, the endpoints that we want
+12:44 to build, some examples of how we want
+12:46 to interact with our agent. It's not
+12:49 super super planned out at this point,
+12:51 but this is our initial request that
+12:53 we're then going to turn into the full
+12:56 plan. That's the key here is at this
+12:58 point we're just creating our initial
+13:00 MD. And so we have that built out. And
+13:03 now at this point that is the end of our
+13:05 first conversation. We want to move now
+13:08 to another fresh conversation because we
+13:11 want to move on to the next stage of our
+13:12 workflow. Taking that request and
+13:15 turning it into the full plan with all
+13:17 of the context engineering. And so I've
+13:19 created yet another slash command for
+13:22 this part of the workflow. So I'm
+13:24 calling it create plan.md. And again,
+13:26 this is just an example of what your
+13:28 planning workflow can look like. You can
+13:30 build this however you want. Just
+13:32 generally, you'd want to kind of follow
+13:34 the principles that I have covered in
+13:36 this diagram. And so, I walk you through
+13:38 this three-step process. And now, I'm
+13:40 just building slashcomands and sub aents
+13:42 around this general flow, doing some
+13:44 things that are kind of more specific to
+13:46 my project as well. And so, you can
+13:47 build these kind of flows to however
+13:49 works best for what you are creating.
+13:51 And so for my create plan, basically I'm
+13:55 just telling it to take the requirements
+13:57 document, that's what we just finished
+13:59 creating, and then go through a few
+14:01 different phases. So read and understand
+14:03 the requirements. We have a research
+14:05 phase where I wanted to use web
+14:06 searching for rag and also archon if it
+14:09 is available. And then I also have this
+14:12 codebase analyst sub agent. So I created
+14:14 a sub agent that it calls upon to do a
+14:17 lot of that extensive research. And not
+14:19 to get too deep into sub agents right
+14:21 now, but they're very powerful because
+14:22 they have their own context window. So
+14:24 they can do a ton of research and then
+14:26 output a summary of that without it
+14:28 polluting our primary conversation. So
+14:30 we keep our context window concise and
+14:32 focused. And so this sub agent just does
+14:35 a lot of research around our existing
+14:37 codebase to figure out exactly what our
+14:40 plan should look like. So we need to
+14:42 create you know that implementation plan
+14:44 task by task our desired codebase
+14:46 structure the documentation we want to
+14:48 reference and the codebase analyst and
+14:50 this whole slash command helps us create
+14:52 that and so I'll go back into the
+14:54 conversation and kind of show you what
+14:56 that looks like. So first of all I ran
+14:58 the create plan here with the
+15:01 requirements document passed in as my
+15:03 argument in the command and it starts by
+15:05 calling the codebase analyst sub aent.
+15:07 So it does a ton of research. It figures
+15:09 out exactly how we're going to be
+15:11 integrating this new feature in our
+15:13 codebase. It does some rag searches with
+15:16 archon. It does some codebase example
+15:18 searches and then it produces our plan.
+15:22 And so this is kind of taking that
+15:24 initial MD to the next level with all of
+15:26 that context engineering. And so these
+15:28 things I've been speaking to, we'll find
+15:30 those here. Like here is our step by
+15:32 step all the tasks that we want to
+15:33 implement. And it gets really granular
+15:35 here which is always good. If you want
+15:36 to be specific with AI coding
+15:39 assistance, that's exactly what this
+15:41 plan gives us. We have the different
+15:43 files that we need to modify, the ones
+15:45 that we need to create, existing
+15:47 patterns to follow, everything that it
+15:50 needs to get the job done. Super cool.
+15:52 And we have the success criteria as
+15:54 well. Maybe I could add like a desired
+15:55 codebase structure, but it's more about
+15:57 editing existing files. So I think like
+15:59 for what I'm building here, this plan is
+16:01 absolutely perfect. So now that we have
+16:03 the plan created, that is the end of
+16:06 what I've gotten to so far. So now with
+16:09 that comprehensive plan, well, first of
+16:11 all, I'd recommend validating it,
+16:13 actually making some adjustments with
+16:15 the help of the coding assistant if
+16:16 necessary. But once you're confident in
+16:18 the plan, then it is time to move on to
+16:21 implementation. Now, for implementation,
+16:23 the most important thing is to have a
+16:26 workflow that guides the coding
+16:27 assistant on how to knock out the tasks
+16:30 one by one. And the task management here
+16:33 is the most important thing, especially
+16:36 if you're trying to do quite a bit in
+16:38 one request. If the coding assistant
+16:40 tries to do too much at once, that's
+16:42 when you have a lot of hallucinations.
+16:43 And so tasks are your way to have a
+16:46 larger request, but still have it be
+16:47 very focused and granular on one little
+16:50 thing each time. Like if we go back to
+16:52 our planning document, you could see
+16:54 that like we have very granular tasks
+16:57 that we're having a knockout one by one.
+16:59 And so we're going to create another
+17:01 slash command to define this workflow.
+17:04 And exactly what your slash command
+17:06 looks like depends entirely on what
+17:08 you're doing for your task management.
+17:11 And so in my case, I'm using archon for
+17:13 task management. And so my workflow
+17:16 speaks a lot to how exactly I want to
+17:18 use archon. Now it's not the case that
+17:20 you have to use archon. That's the point
+17:22 here is this is just an example of my
+17:24 workflow. So it's creating all these
+17:26 tasks here for this OpenAI API
+17:28 compatible implementation. But you could
+17:30 be using Cloud Taskmaster or another
+17:32 Markdown document to manage your tasks.
+17:34 However you want to do it, even just the
+17:36 internal task management tools that we
+17:38 have within these coding assistants like
+17:40 Cloud Code. The important thing is just
+17:42 to create a workflow around the task
+17:45 management. And so when I go to my
+17:47 execute plan here, I'll just show you
+17:49 really quickly at a high level what this
+17:51 looks like. And this might end up
+17:52 looking a lot different for your
+17:53 workflow, but I want to read my plan
+17:56 that I've created. This could be a PRP
+17:57 if we're using the PRP framework or, you
+18:00 know, it could be the project brief if
+18:01 we're using the BMAD method. And then I
+18:03 want to set up the project in Archon if
+18:05 it isn't already. Create all these
+18:07 tasks. I want to analyze the code. And
+18:10 then I have this cycle here where I need
+18:13 to mark a task as to-do or doing. And
+18:17 then it'll go through that task and then
+18:18 move it to review and then move on to
+18:20 the next task. And it'll do that in a
+18:22 cycle until everything is done. And then
+18:24 it'll move on to validation. And we
+18:26 actually have a sub agent to help with
+18:28 validation as well. So it'll execute
+18:30 this guy to within its own context
+18:32 window, create a bunch of tests, and
+18:34 make sure that our code is good, and
+18:36 then report back to our primary coding
+18:37 assistant if there's anything that needs
+18:39 to be fixed up. And so yeah, generally
+18:42 my process around validation is while
+18:44 the coding assistant is running, I will
+18:46 validate to make sure that it's using my
+18:48 MCP servers properly, that it's editing
+18:51 the right files and looking in the right
+18:53 places, I generally watch it at least
+18:56 kind of closely to test these things.
+18:58 And then once we have the code outputed,
+19:00 this is where our plan should also speak
+19:02 to how the AI coding assistant can
+19:04 validate its own work. And then we want
+19:06 to be a part of this process as well.
+19:09 Performing a code review because we
+19:10 don't want to vibe code. We want to
+19:11 actually look at and understand the code
+19:13 that is being produced and then running
+19:15 any kind of manual tests that we want to
+19:16 like actually talking to the agent in
+19:18 Obsidian like we'll see at the end of
+19:20 this video here. And sub aents can be
+19:23 great for validation because again we
+19:25 want isolated context windows to not
+19:27 pollute our primary conversation so that
+19:29 we can have a sub agent run a bunch of
+19:32 different tests to make sure that
+19:33 everything is rock solid. And one last
+19:36 thing for validation. There's another
+19:38 agent that I love using to review my
+19:40 work. You can think of it as another
+19:42 validation sub aent and that is Code
+19:44 Rabbit. an AI powered code review
+19:47 platform and they are sponsoring this
+19:49 video but I do use them every single day
+19:51 for my work and it's free for open
+19:54 source projects so naturally I've
+19:56 integrated code rabbit with archon every
+19:59 single pull request that is made to the
+20:01 archon GitHub repository is
+20:03 automatically reviewed by the code
+20:05 rabbit agent it analyzes my codebase
+20:07 deeply and my poll request it
+20:09 understands how it affects things and
+20:11 outlines that here it gives me a
+20:13 beautiful sequence diagram for every PR
+20:15 it suggests reviewers and of course we
+20:17 have the allimportant actual code review
+20:19 here with the changes that it recommends
+20:21 and I will literally take these and give
+20:23 them to claude code or whatever AI
+20:25 coding assistant I'm using. So, it's
+20:27 become a crucial part of my development
+20:29 workflow, and I'm just very thankful to
+20:31 have Code Rabbit for Archon, especially
+20:34 with all the poll requests that we're
+20:35 managing every single week. And they
+20:38 have a CLI tool now, so you can use Code
+20:40 Rabbit not just to review your PRs in
+20:42 GitHub, but now you can also use it as
+20:44 one of your agents reviewing things
+20:46 locally when you're developing on your
+20:48 machine. Code Rabbit also offers free
+20:50 trials for their paid tiers and is free
+20:53 for open- source software like Archon
+20:55 like I mentioned earlier. And the
+20:57 reviews with the CLI and IDE tools are
+20:59 free with rate limits that apply of
+21:01 course. And so if you've been feeling
+21:03 overwhelmed with the amount of code that
+21:05 you've been creating with AI tools, this
+21:08 is your ticket to maintain quality
+21:09 without slowing down. I'll have a link
+21:11 to Code Rabbit in the description. I
+21:13 would definitely recommend trying them
+21:15 out. So on to implementation in action.
+21:18 And this is pretty simple overall
+21:20 because we did so much of the work up
+21:21 front in the planning stage. So now
+21:24 thanks to the plan that we've generated
+21:26 that has all the components of context
+21:28 engineering. All we have to do is
+21:30 execute our predefined workflow passing
+21:33 in the plan that we have created. So
+21:35 again we have the execute plan/comand
+21:38 where we take in our requirements. We
+21:39 break it down into all those tasks. And
+21:41 in this case I'm doing everything in
+21:43 archon. And so I went through this
+21:45 implementation already. So, we have all
+21:47 the tasks in done. It knocked it out
+21:50 100%. Is actually really incredible. And
+21:52 so, I'll go back to the terminal here
+21:53 and show you uh the conversation that we
+21:55 have. And so, it's partially cut off
+21:57 because there's a lot of work that it
+21:58 did here. But, yeah, we just sent it in
+22:00 to implement literally everything. And
+22:03 it goes for a while here. There's a lot
+22:05 that it's taking care of, but I have
+22:06 quite a bit of trust in the coding
+22:09 assistant because of all the context
+22:11 that I gave it and how things are split
+22:13 up between the different tasks. And you
+22:15 can see that was doing a lot of the task
+22:16 management with archon here as it is
+22:19 changing things. So it's interled
+22:20 managing tasks making changes and then
+22:23 going through that cycle. And then at
+22:25 the very end here we have validation.
+22:27 And validation is kind of mixed into
+22:29 implementation as well. And that is
+22:31 where we invoke our specialized
+22:33 validator sub aent. And so it went for
+22:36 quite a while here. Actually probably
+22:38 longer than I really needed it to go. It
+22:40 did a lot of validating with unit
+22:42 testing and other things to make sure
+22:43 that our code is rock solid. And the
+22:45 important thing that I want to call out
+22:47 here is that for the validation that's
+22:49 when we go back to using sub aents. So
+22:52 planning and validation we use sub aents
+22:55 but I on purpose did not use any sub
+22:58 aents during the implementation. And the
+23:00 reason for that is when we're actually
+23:03 making the code changes doing the
+23:05 implementation, we want everything to
+23:07 remain in the primary context window for
+23:10 cloud code or whatever our AI coding
+23:12 assistant is. If we have different sub
+23:15 aents implement different parts of our
+23:17 codebase, they're not really
+23:18 communicating with each other and memory
+23:20 is not shared between them. So you start
+23:22 to have conflicting changes and
+23:23 overlapping changes. It becomes a mess
+23:26 when you use sub aents for the actual
+23:27 code creation. And so generally I always
+23:30 use sub agents for the research upfront
+23:33 and then also having a validator
+23:35 specialist so I can give a very specific
+23:37 system prompt to this agent for how to
+23:38 validate my code. So that's the really
+23:41 important distinction I want to make
+23:42 there. Otherwise for slash commands I'm
+23:44 using them in every single part of the
+23:46 implementation like you saw. And then
+23:48 global rules. I haven't covered too much
+23:50 in this video, but really this is what
+23:52 you'd set up in your planning phase
+23:53 initially. When you're trying to just
+23:55 think at a high level like what are the
+23:56 instructions that I want my coding
+23:58 assistant to follow literally no matter
+23:59 what I'm doing, starting the project
+24:01 from scratch, adding in a new feature,
+24:03 doing a bug fix, there are a lot of
+24:04 those kind of golden rules that you want
+24:06 to put within your claw.md whatever that
+24:10 file is called for your coding
+24:11 assistant. And then of course the last
+24:13 step here is our own review. You
+24:15 definitely want to perform a code review
+24:17 on everything that was outputed by your
+24:19 coding assistant. Otherwise, you're
+24:20 still just reverting back to Vive
+24:22 coding. So, perform a review and then
+24:24 run manual tests as well. Like I have my
+24:27 agent API running again in Docker. I
+24:29 have the connection already set up in
+24:31 Obsidian. So, I'll just show you this
+24:32 really quick. I'll go into my chat
+24:33 window here and I'll say summarize. And
+24:35 then I'll just reference this whole
+24:37 diagram that we've been going through
+24:38 throughout this video. So, I'll send
+24:40 this to send to my agent. It's
+24:41 communicating to literally what we just
+24:43 built using the OpenAI API compatible
+24:46 endpoints. And there we go. We have a
+24:47 summary of the full workflow based on
+24:51 our diagram here. Absolutely beautiful.
+24:53 The implementation is flawless. And now
+24:55 we have this workflow that we can use
+24:57 for other things as well. I mean the
+24:58 whole planning slash commands and primer
+25:01 that I had and the sub agents for
+25:02 validating and executing and my whole
+25:04 process for task management in archon
+25:06 like it's not actually that specific to
+25:09 this specific implementation. Like I can
+25:11 take this and reuse it for anything that
+25:14 I want to build. And that is the main
+25:16 thing that I'm trying to describe to you
+25:18 in this video is how you can create
+25:21 these combinations of rules and sub
+25:23 agents and slash commands and even just
+25:25 like a mental model of how you plan then
+25:27 implement and validate and like that
+25:29 becomes your process that you can reuse
+25:31 for anything. you've now built a system
+25:33 for working with AI coding assistants.
+25:36 And even when you start to incorporate
+25:37 other things like the PRP framework or
+25:39 the GitHub spec kit, you're still
+25:41 following that same mental model, just
+25:42 using those approaches to basically
+25:45 augment what you have and you can tweak
+25:46 it to your needs. So that's everything
+25:49 that I've got for you today. If you
+25:50 appreciated this video and you're
+25:52 looking forward to more things around AI
+25:55 coding and building out these kinds of
+25:56 workflows, I would really appreciate a
+25:58 like and a subscribe. And with that, I
+26:00 will see you in the next

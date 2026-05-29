@@ -1,0 +1,845 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=B0IvHPnwPx0
+Channel: Greg Isenberg
+Video ID: B0IvHPnwPx0
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 Should you try Sam Alman and OpenAI's
+0:03 new AI engineer in the browser codecs?
+0:07 Well, in this episode, that's what we
+0:10 unpack. We do a live tutorial for
+0:13 nontechnical people around how to use
+0:17 codecs to get the most of it. Uh, I
+0:19 brought on Ben Tossel. He's a, you know,
+0:22 one of the most renowned people for
+0:24 explaining no code tools for
+0:26 non-technical people. If you want to see
+0:29 more content like this, like and comment
+0:31 so I know to create more free stuff.
+0:34 Enjoy the episode.
+0:36 [Music]
+0:44 Ben Tossel on the pod. He just went
+0:47 viral for talking about Codeex. So, we
+0:50 had to bring him on the Startup Ideas
+0:52 podcast to introduce us to Codeex. Uh,
+0:55 what are we going to learn today, Ben?
+0:58 Well, we'll find out. I think what I've
+1:02 seen is people talking about codeex as
+1:04 this is really good for like senior
+1:05 engineers and their workflow and I don't
+1:09 like people telling me what it's for. I
+1:11 just want to figure it out myself. Like,
+1:12 can I use it? Does it work well for me?
+1:14 If so, is this tool for me? So, I'm
+1:17 nontechnical. Always have to like
+1:19 disclaim that. Um, I'm more technical
+1:21 than a nontechnical person and less
+1:23 technical than a technical person. So
+1:25 somewhere in the middle and I'm just
+1:26 making these tools work for me. So cool.
+1:29 So today's going to be an introduction
+1:31 to codeex by a non-technical British
+1:36 man. And let's get into it. Okay, cool.
+1:40 Um, if you don't know what codeex is,
+1:43 it's effectively a way to type in a
+1:47 task, it will code it for you, and then
+1:50 push it to GitHub. That's basically what
+1:52 this is. So here it is connected to my
+1:55 GitHub repo, my personal website, the
+1:58 main
+1:59 branch and the website looks like
+2:03 this. So this is it so far. So if we
+2:06 want
+2:07 to change something here, say I want to
+2:12 have another tab that's like food I
+2:14 like. Um, I'll just say add another
+2:19 tab next to
+2:22 investments tools that is
+2:25 called food. I like
+2:29 um in the dock
+2:32 [Music]
+2:34 put
+2:36 tacos.
+2:38 So I because I want to I want this to be
+2:41 true to the non-technical person. So you
+2:43 had to set up a GitHub.
+2:46 You had to create a website. How did you
+2:48 create that website originally?
+2:51 With codeex. Yeah. So yeah. So if we go
+2:55 back, this is something I did cover in
+2:57 my video. Um, which you need to have
+3:00 GitHub connected. So yeah, GitHub is
+3:03 effectively a way for your code to be
+3:06 stored and you can like have this is
+3:09 like what a profile looks like on GitHub
+3:11 and not a very good profile but a
+3:13 profile nonetheless. Um so you have
+3:16 these repos repositories which is
+3:18 basically like that's your project. So
+3:21 this one for example is my personal
+3:23 site. It effectively stores all the code
+3:26 files that you have and then any changes
+3:29 you make, you commit them. So they're
+3:32 called commits. They all show up here.
+3:34 So you can see that it looks like I've
+3:36 been very
+3:37 busy. I sort of have, but I've been
+3:39 sending all these to codeex to do. And
+3:43 then you'll see some
+3:44 other coding agents in here which we
+3:48 won't talk about in this video, but um
+3:52 there's more other tools out there as
+3:54 well that I highly recommend. Um so
+3:57 that's very briefly what GitHub will do.
+4:01 And then you have to create a new
+4:03 repository. So when you've got a
+4:07 new like you want to do a personal site,
+4:09 you want to do a marketing site,
+4:10 whatever you want to do, you got to
+4:12 create a repository for it. You type in
+4:14 any name. You can make it public or
+4:16 private. Add a read me. Just explains
+4:19 what your project does. Then create it.
+4:21 And then you'll end up
+4:23 with the page that I was just
+4:26 on. Something like this. Yep. Um and
+4:30 that's it. But then you're like, okay,
+4:32 well, what do you mean? Where's the
+4:34 project? Where's the like site then? Um,
+4:37 and I have linked mine here, but so what
+4:40 what I what I did actually to start this
+4:41 whole thing off was I had my site built
+4:43 on card, which is a no code build that
+4:45 I've loved for years and it was doing
+4:48 fine. My site was up and live for years
+4:52 and I just didn't do anything with it.
+4:54 Um, and then I actually went and I just
+4:57 did like right
+4:58 click. I think I did view page source
+5:02 which shows you the whole code that like
+5:05 serves the page. This is the code that
+5:06 is on my personal page. So everyone can
+5:08 go and look at this. So on the no code
+5:10 builder I had this I just
+5:12 did all copy paste into a coding I
+5:17 actually used a different coding coding
+5:19 agent factory to then say put this all
+5:21 into code and put it on this GitHub
+5:24 repo. And that's where this then started
+5:27 off. Um, I've also connect you can
+5:30 connect it to then GitHub pages which
+5:32 then lets you have your URL live and you
+5:35 can give that to people and have custom
+5:37 domains there. Um, I used the cell
+5:40 because I'm just trying to be a bit
+5:41 fancier and that's another way to deploy
+5:43 stuff and you don't really need to worry
+5:45 about that too much. Um, okay. If it's
+5:48 like your first fora into sort of coding
+5:52 stuff. Um, yeah. Cool. Okay. So,
+5:55 website's live. We want to add
+5:57 something. We want to change something.
+5:58 We we add a task on codeex. Yeah. So add
+6:02 another tab next to investments tools
+6:03 that is called food alike in the dark.
+6:06 Put tacos. Um so if I just you can hit
+6:10 ask which is just it doesn't generate
+6:12 any code. It'll just tell you stuff
+6:13 about your code. Um going to hit code
+6:17 here and then it come up as a task here.
+6:21 And you can see these are all past ones
+6:22 where they show how many lines of code
+6:24 it added, how many have been removed,
+6:27 whether I actually merged it, closed it,
+6:29 and we can talk about merging, closing,
+6:31 all that kind of stuff in a sec. We'll
+6:33 see it firsthand. So, when we go into
+6:36 this task, you can see it's doing a
+6:39 bunch of stuff that looks a bit like
+6:41 hackery um that you see in the movies.
+6:43 It's just using the terminal to find
+6:46 different
+6:47 files, understand what the code actually
+6:50 says. As you can see there, this is the
+6:51 code. This is my command pallet modal.
+6:55 So I got codeex to add this. When you do
+6:56 command K, comes with this like
+6:59 shortcuts modal. So then I can type it.
+7:01 I can just do I or T and it'll navigate
+7:04 the tabs. That's just in my keyboard.
+7:08 Um, so this is now so I'm interested to
+7:12 see if it adds a new tab and if it adds
+7:13 that to the command line as well, if
+7:15 Codex is smart enough to have to like
+7:17 piece those pieces together.
+7:19 Um, so here it's yeah saying these are
+7:23 all the things that I'm doing. I've
+7:25 looked at each file. I'll check out what
+7:27 the documents look like. I'll create a
+7:30 new document for the new
+7:33 section with the title food I like and
+7:36 tacos matching the
+7:38 style. I'll create and update the main
+7:41 site with a new tab. And it has it said
+7:44 I spotted the key event listeners for
+7:46 int but no changes need there. I'll I'll
+7:49 add a food
+7:50 tab. Okay. So that doesn't look like
+7:53 it's going to add its own. So the int is
+7:56 my keyboard shortcuts for navigating
+7:58 those tabs. I thought it would do that
+8:01 but maybe because I didn't ask it to. So
+8:04 now it's still working on it. Almost
+8:09 done. We'll see this in a second. So you
+8:12 can see that it's added
+8:14 two lines of code on the food document
+8:18 and more on the other one. This is what
+8:21 it looks like when it's done it
+8:23 successfully it seems. Anyway, um so
+8:25 I'll show you the files it's changed.
+8:27 This is the food file. This is the main
+8:30 like website file. So it's added another
+8:32 button food I like and then added
+8:37 the food piece here in the tabs. um it
+8:42 did its own test. So codeex is like a
+8:46 use case they talk about a lot is
+8:48 testing and we can get into that a bit
+8:51 later on because I think it's a bit more
+8:53 technical than you probably need for
+8:56 this like for this workflow anyway. But
+8:59 as we're here like okay great it's all
+9:00 worked. So if I go to my sites refresh
+9:03 it it's not there. So I haven't actually
+9:07 pushed any of those changes.
+9:09 Um so this
+9:12 button is what what you want to do next.
+9:15 Create new PR. So PR stands for pull
+9:17 request and effectively code is like one
+9:23 thread just one line which is the main
+9:25 branch. They call it branches. So it's
+9:27 your main branch. Every time you go and
+9:29 work on something else it's a fairly
+9:31 standard practice to create a branch. So
+9:33 you basically take that code, you copy
+9:36 it over to like another version over on
+9:38 the side, you work on that feature. As
+9:40 long as that feature is successful and
+9:42 there's no conflicts with the main code
+9:44 base, then you can merge it back in and
+9:47 no issues should be there. So that's
+9:49 what we're hoping for today as well. Um,
+9:52 so if you click view the pull request,
+9:55 so on my repo here, pull request, add
+9:58 food tab, summary gives you a quick
+10:01 summary of what it did. This is my
+10:03 because I'm connected to VEL for
+10:05 deploying I can do that and see the
+10:07 testing stuff there. So that's something
+10:08 we can get into later. Um all checks
+10:11 have passed. No conflicts with the base
+10:13 branch. So you can merge it. So if we
+10:15 just merge
+10:17 that will
+10:20 then you'll see that here. This pull
+10:23 request is coming in. So it's just
+10:24 pending. It might take a couple of
+10:27 seconds and then once we've done that
+10:29 it'll deploy and we'll be able to see it
+10:31 on our site. So that loop is a bit long
+10:34 currently and this is where we can get
+10:37 into the sort of testing piece and yeah
+10:39 running tests the environment previews
+10:42 like all of that is stuff we can dive
+10:44 into because this is the simplest
+10:45 version I think which is just like write
+10:47 a task get code push it to your codebase
+10:51 see the change.
+10:53 Okay, quick uh before you get into that,
+10:57 why am I even using codeex? When I look
+11:00 at codeex as a non-technical person, it
+11:03 feels 10 times more overwhelming to me
+11:06 than some of the prototyping first tools
+11:09 like bolt and lovable and stuff like
+11:11 that. So why why should people
+11:15 even you know besides playing with the
+11:17 tools is fun and it's good to learn. Why
+11:20 should a non-technical person even do
+11:22 this? Maybe they shouldn't is my answer.
+11:27 Great.
+11:28 I I think I mean it's part of my job to
+11:33 just like test everything, but more so I
+11:36 like to see
+11:37 where things feel like they might be
+11:40 going. So seeing Codeex, the UI of
+11:44 Codeex is very different to the UI of
+11:47 everything else. I mean, you could argue
+11:49 that like a Bolt would look kind of
+11:52 similar where it'll got it's got like
+11:54 the sidebar and then I mean, I don't
+11:56 know if we've got any other builds here.
+11:58 So, this
+12:00 is what I got. So, it's got like the
+12:02 sidebar, chat, and then you've got your
+12:04 files, your code, you can see the
+12:05 preview, all that kind of stuff. You can
+12:07 deploy it. Um, you can integrate with
+12:09 GitHub. Like all of the same pieces
+12:12 are there. But I think what I find
+12:16 interesting about Codeex is you don't
+12:17 look at the code or think about the code
+12:19 at all. I think you you're obviously
+12:22 going to see it here, but I very rarely
+12:25 like look into any of these files. Um
+12:27 I'm only doing it to sort of demo it,
+12:29 but generally it would be like, okay,
+12:31 add this. Okay, it just says it says
+12:34 it's open. That's what I'll I'll talk
+12:38 about that in a sec. So it says it's
+12:39 open. I'm like, okay, that worked. Pull
+12:42 request. Did it pass the checks? Fine.
+12:44 And this you can now do on your mobile
+12:48 as well through chat. I think that you
+12:50 can do it all quite easily. So you you
+12:52 can see it will be sort of setting off
+12:53 mini tasks to an agent to go and do
+12:56 that. I think bolts you can do it I
+12:59 guess as a on your mobile but it's not
+13:01 going to be great.
+13:02 Um, and I just think generally text to
+13:06 app builders are overbuilding everything
+13:09 or
+13:10 completely setting everything up as an
+13:13 overbuilt tool, but actually all the
+13:16 features are under underbuilt. So if you
+13:18 ask for like a Shopify Spotify clone
+13:21 with Bolt, it'll spit out like UI
+13:24 perfect looks amazing, but all the
+13:26 pieces don't actually work. And when
+13:27 it's those pieces that you actually want
+13:30 to get working in order for it to be
+13:32 something that you can deploy and do
+13:34 whatever you want to do with it.
+13:37 Um so you you like focused on like the
+13:39 end piece and then you got to work your
+13:41 way back through all the pieces that
+13:42 need to work
+13:44 which is actually hard if you ever have
+13:47 tried to do that. Whereas in this one,
+13:49 I'm very iteratively adding on to
+13:51 something and every time I'm adding a
+13:53 new
+13:54 thing. Technically, there are tests and
+13:57 checks and everything should be all
+13:59 fine. So, there should be a lot less
+14:01 time
+14:02 spent doing work on things that are not
+14:05 going to work. Like things that I'm
+14:07 going to then spend hours debugging,
+14:10 I'll either just give Codeex another
+14:12 task or try a different coding agent. So
+14:15 my workflow is kind of changing in that
+14:18 sense of like I get the chatting back
+14:21 and forth when I'm trying to make
+14:23 something and I think it's really
+14:24 helpful to have the like the ask version
+14:27 of these coding agents versus the coding
+14:29 ones. Same as in cursor you like have
+14:32 one chat and you just ask about what's
+14:33 happening in the codebase blah blah
+14:34 blah.
+14:36 Um, but something about this feels a lot
+14:39 different and it feels a lot more like
+14:40 writing or like you set this is your
+14:42 to-do list, but you're not doing the
+14:44 to-do. You're not doing any of the
+14:45 to-dos. Something that's way way more
+14:48 advanced than you is doing it in a way
+14:50 that
+14:51 feels delegated and off your plate. So I
+14:55 just think you start here and you can
+14:57 think well at some point the like the PR
+15:01 stuff that's going to be automated like
+15:04 I'm sure you can get bots now that if
+15:05 there's a successful pull request it'll
+15:08 just merge it to the main branch. So
+15:09 like you never have to go on to GitHub
+15:12 and
+15:13 then you can do I think I think the
+15:16 limits around a task can last around 30
+15:18 minutes or something until it starts
+15:20 breaking. This is early preview
+15:21 obviously, so it's all Yep. a bit on the
+15:24 fritz, but um can we uh can you explain
+15:28 a little more about what we're seeing
+15:30 around merged and closed and what's
+15:31 happening? Yeah, but let me just show
+15:33 you. Did this work? Okay, it did the
+15:37 keyboard shortcut does not work. Um but
+15:40 food like that all works fine. Tools.
+15:43 Yeah, great. So that change all
+15:45 happened. So then this is merged. So
+15:49 that means it's been merged to my main
+15:52 codebase. My main branch, it's all part
+15:55 of the main codebase now. So if there's
+15:57 another branch, it'll have that code
+15:58 already in it. So when you open when you
+16:01 create a task, it starts off as open. Um
+16:06 you won't see any open ones here because
+16:07 I've either closed them or merged
+16:10 them. This is an example of one I said
+16:14 make a light and dark mode icon button
+16:17 switcher. And this is for a different
+16:19 test that I was doing. It made one. I
+16:22 looked at it as like when I was testing
+16:23 it and I was like, "No, that's awful."
+16:25 So, I just close the pull request. You
+16:28 can just deny it basically like, "Hey, I
+16:29 want to make this change." And you're on
+16:31 that GitHub page. You're like, "Well,
+16:33 none of the checks passed. It didn't
+16:35 work or whatever. You can just close it
+16:38 and then just not use that." So, none of
+16:39 that is affected. It was on a branch.
+16:41 Your main code's fine. So, you basically
+16:43 like, think about it, I guess, in the
+16:45 support sense. You open a ticket,
+16:48 ticket's been worked on, and then the
+16:49 ticket's closed, sort of problem solve.
+16:52 That's kind of how how I think about
+16:54 this anyway. Um, so yeah, that's we've
+16:57 opened the task, we've merged it, we've
+16:59 closed it, it works on my site. I did no
+17:03 coding and I
+17:05 did maybe like four or five button
+17:07 pushes to do this. And the numbers that
+17:11 I see next to merge and close, I see
+17:13 like a positive number and a negative
+17:15 number. What What are those numbers? Do
+17:17 you even know what those numbers are,
+17:19 Ben? I do. They are the number of lines
+17:23 of code changed. So + 12 minus 0. We
+17:27 didn't take away any code, but we added
+17:28 12 lines of
+17:29 code across your whole code base. So
+17:32 it's not just like in one file. Um,
+17:34 generally that's yeah, that's what it
+17:35 is. So even on my personal site, I have
+17:38 this which I haven't worked on yet,
+17:41 which is I I basically try to copy the
+17:44 codeex UI and that's what I use for this
+17:47 inspiration. But yeah, I've got these
+17:49 numbers here. They don't actually work.
+17:50 But this one actually pulls in the live
+17:54 GitHub repo. So any changes I make are
+17:57 reflected in there every 15 minutes. So
+18:00 it's I don't know if we just did we just
+18:02 do 12 lines? We did. Yeah. So that
+18:04 actually is updated one. So if I click
+18:06 on that then it'll show me the commit of
+18:09 what I just did. Just again a little
+18:11 thing I just said to codeex try and do
+18:14 that and it did it like no problems.
+18:18 Um before we go you know you've been
+18:21 playing with codeex for a few days now.
+18:24 Um what sort of best practices do you
+18:27 have for for non-technical people who
+18:31 who are playing with it? O um I'm
+18:35 worried about like what people will do
+18:36 and then call me out for uh but I would
+18:38 just start really simple like use it on
+18:41 your personal site or create a new
+18:43 personal site if you're precious about
+18:45 yours. The one of the first things I did
+18:48 like I mentioned was like okay I've been
+18:50 on this no code tool builder for god
+18:52 knows how long. Be nice for me to just
+18:54 have the site in code so I can make any
+18:57 changes in any like weird and wonderful
+19:00 extra pieces that I'd like.
+19:02 So just do it line by line and like
+19:05 piece by piece. You can see all of these
+19:07 merge pieces like add a food tab. I
+19:09 could do that in the code myself. Remove
+19:12 this text animation. Add keyboard
+19:14 shortcuts. Add a dark light mode
+19:17 switcher. So like all of those things,
+19:19 they're all like nice to have fun
+19:21 interactive things that you see on other
+19:23 people like other developers websites
+19:25 that maybe you just don't have on your
+19:27 own. But I would just start with make
+19:29 sure you have a GitHub repo and it has
+19:32 at least a read me so you can just
+19:34 enable that when you're creating one.
+19:35 And then just go from there. Say, okay,
+19:38 make a website with my name as the
+19:41 header. Create an about section and then
+19:44 create like some social links and go
+19:46 from there. And then I think it's just
+19:48 playing around with everything and just
+19:50 merge stuff, close stuff. Um, the thing
+19:54 about GitHub that is good, but it's not
+19:57 that easy, I don't think, anyway, is if
+19:59 you have merged something that then your
+20:01 site completely [ __ ] up, like I did it
+20:05 before where the site just wasn't
+20:07 loading anything and I was like, "Oh
+20:08 [ __ ] what have I done?" You can always
+20:10 go back to a previous version that
+20:12 didn't work. So, if like that food tab
+20:13 thing broke a bunch of stuff on the
+20:15 site, I'll be like, "Uh, okay, I'll go
+20:17 back to this." So I can go back to this
+20:21 and all of these are like just
+20:24 disregarded. Code is never there. Don't
+20:26 worry about it. So there's no real
+20:28 danger of if it's like a personal side
+20:30 that isn't client facing, money-making,
+20:32 whatever. It's something that you're
+20:34 just working on. You can iterate on and
+20:36 add like weird wonderful funky things.
+20:38 There's no real risk of like anything
+20:42 happening other than your site changing.
+20:44 Um, and then when you get stuck, ask
+20:48 chatb like hey, how do I roll back this
+20:50 GitHub stuff?
+20:52 Um, how do I like I want it? Cuz the
+20:55 thing you can't do in codeex, so there's
+20:57 some limitations here obviously like you
+20:58 can't upload any files, you can't upload
+21:00 any images, you can't say make the UI
+21:02 look like this. So me trying to do the
+21:04 UI piece was a challenge. Um, but then
+21:08 you can go to other tools like vzero,
+21:10 generate some design stuff, bring that
+21:12 code in here or you can deploy that on
+21:14 GitHub and point that here. Like there's
+21:16 loads of ways to do it.
+21:18 Um, yeah, I just start small and iterate
+21:21 even smaller. And it's just getting a
+21:24 feel for
+21:25 like could I see myself coding like this
+21:28 in a future like in 6 months time am I
+21:30 going to just think this is so obviously
+21:33 how everyone should be writing any code
+21:36 like I don't I can't write a line of
+21:37 code
+21:38 myself bar like the minimum stuff but I
+21:42 can ship all sorts of stuff with tools
+21:44 like this
+21:46 and especially it being mobile
+21:49 native just feels like I'm going to be
+21:53 shipping all the time. Uh, when you say
+21:56 ask chatgbt if you don't understand
+21:59 something, do you mean going to
+22:00 chatgbt.com or do you mean going to
+22:04 chatbt.com/codex and hitting the ask
+22:06 button? I generally go to
+22:09 chatbt.com and then I'll change between
+22:11 the models to see what I what's going
+22:14 wrong. And the good thing about using
+22:16 chat is you can still say like look at
+22:18 this repo or you can try and there's
+22:21 some other tricks as well like um if you
+22:24 change the first letter of GitHub to u
+22:28 so uit hub you'll see this which is
+22:32 looks like a lot of text but this is all
+22:34 the code that is involved in
+22:37 my site. So, I can basically copy all of
+22:40 that and it's going to be 90 9,000
+22:42 tokens. I can copy
+22:45 that, go to
+22:49 chat.com and then that's yeah, and just
+22:52 say
+22:54 um my personal
+22:58 site are
+23:00 there any like bugs? You just do like
+23:05 that kind of thing.
+23:08 Um, so I just tend to do that. I haven't
+23:11 really used the ask. I think I did it
+23:14 here. So I asked how do I ask you to
+23:18 push changes to my staging environment?
+23:19 How do I check the staging from a UI
+23:22 perspective and it can do it and it's
+23:24 but it's more connected to it's not
+23:25 connected to the internet. So it's like
+23:27 I'm just looking at your repo and
+23:28 answering based on what it has, what
+23:30 knowledge it has to give you that
+23:32 response. whereas I'd prefer it to be
+23:35 based on my code and also various sites
+23:38 I can go and look up how I can help you
+23:41 fix this thing. So generally that's what
+23:44 I've been doing. Um good tip. Yeah, good
+23:46 tip. I also like your tip around try
+23:49 this for you know well you kind of said
+23:51 like there's levels to this. Level one
+23:53 is build a personal site. Um what are
+23:57 what are the next levels like after
+23:59 you've built a personal site? you know
+24:01 what's level two, three, and four as
+24:03 you're learning about codecs. Yeah, I
+24:06 mean I think I haven't seen anyone I saw
+24:09 someone tweet about this like has anyone
+24:11 use codeex for like working with
+24:12 databases or
+24:14 authentication cuz they're like they're
+24:16 a few steps up to deal with those. But
+24:19 then there's things like MCP which are
+24:21 making a lot of this very very easy in
+24:24 things like cursors. So it's again maybe
+24:26 I'll just be patient and wait for MCP
+24:29 stuff to be in codeex or maybe I don't
+24:32 use codeex anymore and claude have just
+24:35 released their SDK and there's a version
+24:37 on that like there's all different ways
+24:38 that this is probably going to go
+24:40 anyway. Um yeah I think the first step
+24:43 is like it's just getting you to getting
+24:47 you down the rabbit hole like oh I can
+24:48 use this thing to code onto a site that
+24:51 I own and can see. Cool. what would I
+24:54 want to add? And even on your own site,
+24:56 you start going, would it be great if an
+24:58 integration with GitHub could pull in
+24:59 the latest information like even that is
+25:01 I would say a next mini level
+25:04 up. It really depends then on what what
+25:07 kind of things you're into and want to
+25:08 build. But I think there's there's
+25:09 obvious things like having user sign in
+25:13 sign up. There's like people saving or
+25:16 bookmarking items in your product or
+25:19 whatever you're building.
+25:21 Um there's the database layer. There's
+25:25 like the whole AI piece is another
+25:28 another thing. Um but the best thing
+25:31 about this whole space is there's so
+25:33 many open
+25:34 source like repos on GitHub. you are
+25:37 going to be spending time on GitHub that
+25:39 just I mean I think there's a there's a
+25:41 guy who works at together AI Hassan who
+25:48 always
+25:51 releases all of these open
+25:54 [Music]
+25:55 source Yeah. All of these open source
+25:57 like mini AI tools. So this is like a
+26:00 summarized PDFs. Okay, great.
+26:04 Um, and then they're always open source.
+26:08 And this like might even look scary, but
+26:10 it really it's clone the reaper, which
+26:13 is clone the code base by using
+26:16 that. And for that today, you'd have to
+26:19 use some of the other coding tools, but
+26:23 I think it's like it's going to be
+26:24 fairly soon where you can just I mean, I
+26:27 could I might be able to do it now. Um,
+26:28 we can try. So if I fork it and then
+26:31 just do that. So that I've now got that
+26:35 code. I wouldn't just change the name
+26:37 and say my code, but that's that's what
+26:39 it is. Then if I go to
+26:43 codeex, I'll need to go to my
+26:45 environments to create the environment.
+26:47 Basically connect the right repo. Um
+26:50 what was that called? PDF
+26:53 something. It might just there we are.
+26:55 Smart
+26:56 PDFs. Um, so if I just do
+27:00 that, I think the UI needs to be. So
+27:03 then if I click into
+27:05 that,
+27:07 how do I get this code up and running?
+27:14 And dumb
+27:16 question like why did you need to create
+27:18 a separate environment for smart PDFs?
+27:22 It's just so they called it environments
+27:23 and it's just like a different
+27:25 connection. So it's a different place
+27:27 that it's talking to and writing code to
+27:31 because like you can see here these are
+27:32 all
+27:35 Yeah, it's effectively that. So I think
+27:37 even the fact you have to go into
+27:39 environments, create an environment
+27:41 doesn't feel intuitive. No, it just
+27:44 feels like you should be able to I don't
+27:46 know an add button here that is just
+27:48 like connect a new repo.
+27:50 Um, but the environments piece is much
+27:54 more advanced than that, which is why
+27:56 it's probably done this way.
+27:59 So, here they have this piece, the code
+28:02 exe execution piece, which I haven't
+28:04 actually touched yet. Um, but often if
+28:07 you have code like what Hassan's got, so
+28:11 I assume that's that's why I asked that
+28:13 question because I think it's going to
+28:15 be helpful to show a bit of that is
+28:18 [Music]
+28:21 um, where's the
+28:23 [Music]
+28:26 code? So you'll see here when you're
+28:28 running to to run this app, you need to
+28:30 run pmpm install. So that's a terminal
+28:33 command. you got to run this and you got
+28:36 to run
+28:37 this which feels a bit crazy and like I
+28:40 don't know what you're saying if you're
+28:41 a nontechnical person. Um but if you're
+28:44 in cursor or some sort of actual like
+28:46 coding environment there are terminal
+28:47 command to basically spin up the servers
+28:50 and the things that you need in order
+28:52 for the app to work. Um but with codeex
+28:56 for it to be able to interact with your
+28:59 code and see it
+29:01 properly you need to run those commands.
+29:03 So here is where you say it gives you
+29:06 examples there but it's like PM PM
+29:09 whatever it was
+29:11 um
+29:13 install and then whatever the other ones
+29:16 see you have to put them here but this
+29:17 is
+29:18 like proper development environment when
+29:21 you're building something that is a bit
+29:22 more it's got frameworks like XJS Python
+29:26 whatever like it's got things in it
+29:28 that's more than HTML CSS and JavaScript
+29:31 which is more what I talked about today
+29:33 in the personal site context. Um, but
+29:37 yeah, I want to do this. I want to test
+29:39 this out and
+29:41 um, yeah, there might be a follow-up
+29:44 video to say I was wrong. All the idea
+29:47 was really good. So, yeah. Cool. Um,
+29:50 let's leave it at that. I don't want to
+29:51 get more technical and more down the
+29:54 rabbit hole for this. Uh, Ben, thank you
+29:57 for being generous with your time and
+29:58 your sauce. I will include where to
+30:01 follow Ben in the show notes. Highly
+30:03 encourage people to go check him out and
+30:05 his newsletter, Ben's Bites. Anything
+30:08 you want
+30:10 to leave people with, Ben, I think all
+30:13 of this looks scary or feels scary and
+30:16 there's too many things launched all the
+30:18 time. So that's just the world that
+30:21 we're in, unfortunately. And I think
+30:22 just like getting to the point where you
+30:24 feel like let me just test this one
+30:27 thing and on this one simple site idea
+30:30 and this one simple feature you just got
+30:32 to start there. And I think the whole
+30:34 point of what I do with my newsletter
+30:36 and like what I tweet about and record
+30:38 videos on every so often is try to make
+30:42 it less scary for a non techchnical
+30:44 person. Today it wasn't a planned like
+30:48 tutorial style this is how you can do
+30:49 these things but my video might be a bit
+30:52 more this is like a really a more
+30:56 structured way like showing you actually
+30:57 how to set up a projects and stuff
+31:00 but it's it's not that scary like I know
+31:04 it's easy to say from the other side of
+31:06 the
+31:06 fence but I've been nontechnical forever
+31:10 and been talking about no code forever
+31:12 and all those other things. So, I come
+31:14 from that world of I can't code. Code is
+31:17 scary. What is GitHub? What am I
+31:19 supposed to do with it? And I'm just
+31:22 getting curious enough to go past those
+31:24 barriers to then be like, "Oh, I've got
+31:25 a site live and now I've got 50 live and
+31:28 I've got all sorts of different apps of
+31:30 different complexities." And like once
+31:32 you go to the rabbit hole, you're going
+31:35 to start wanting to do more once you've
+31:37 figured out that. So, don't set yourself
+31:39 up for failure with let me do a a
+31:41 Spotify clone and then deal with all the
+31:44 bugs in the middle because it'll just be
+31:45 a nightmare and you'll never want to do
+31:46 it again. Like, start with one simple
+31:48 thing, try and do that. If you [ __ ] it
+31:51 up, then ping me, I guess. Um, yeah.
+31:55 Amazing. And um yeah, my you know just
+31:58 my takeaway from from you showing this
+32:01 is it does feel a overwhelming like just
+32:05 the semantics the terminology GitHub
+32:08 just itself feels like a behemoth. Um,
+32:12 that being said, I think that playing
+32:14 with codecs is almost like a lightweight
+32:17 way to learn how to code in some ways.
+32:20 Like it it it it introduces you to a lot
+32:23 of computer science and development
+32:26 terminology in a lightweight way and
+32:29 like a bit more of a fun way. So
+32:33 um whether you end up using codeex or
+32:36 you end up using bolt for example
+32:39 uh you you know it it's just this is
+32:42 going to make you better at building
+32:45 with AI period and the lovables and
+32:48 bolts and and curses of the world are
+32:50 probably going to introduce a to-do list
+32:52 taskbased UI in the future because it
+32:55 just kind of it makes a lot of sense. So
+32:59 my take is will I be using Codex every
+33:01 day, Ben? I'll be No, I'm not going to
+33:03 be using every day. Will I be using
+33:05 Codeex this weekend as a learning
+33:06 project to play with my personal
+33:08 website? Absolutely. Yeah. Yeah.
+33:11 Exactly. And I think it is that
+33:12 terminology that you got to get over a
+33:14 bit. And I did a a write up actually. It
+33:16 was on our substack that's like GitHub
+33:19 for nontechnical people trying to dispel
+33:21 some of that scary stuff. Um but yeah, I
+33:25 mean I I think the same. And it's more
+33:26 that like you'd rather do one thing
+33:30 correctly. Yeah. Than the big thing and
+33:32 then try like this introduces coding to
+33:36 you like it drip feeds it. I think with
+33:39 you got to set up GitHub and then you
+33:41 can start coding. That's fine. With
+33:44 these text to app builders, you can just
+33:46 type a prompt and you start building.
+33:48 Great. But it's not the same. You still
+33:50 end up at the same place at the end of
+33:52 it. You still have to deploy it. It
+33:54 lives somewhere. It's probably going to
+33:55 live on GitHub. Like is that it's going
+33:57 to end up in the same place. It's just
+33:58 how you enter. And I think what you
+34:01 mentioned with is this going to be the
+34:04 place where someone learns about coding
+34:07 or like this is where they write their
+34:09 first line of code or AI writes it for
+34:10 them. I kind of feel like this is a
+34:13 better place to start than a text app
+34:15 builder because like I said, it's going
+34:16 to build a big fancy thing and what
+34:20 you're going to end up in is like seeing
+34:21 a bunch of terminology, code being
+34:24 written, tests failing, they're all to
+34:27 do with now you have to help the AI
+34:29 solve these bugs. That's a way deeper
+34:33 like place to start swimming than here,
+34:35 I think. So that's what I think is
+34:38 interesting about this is like it really
+34:40 doesn't feel like coding. Yeah. But it
+34:42 is and it's come from the like almost
+34:46 top down bottom up like analogy you
+34:48 could think about here maybe. Um but I
+34:51 don't think it's built like that. So
+34:52 it's obviously meant for the whole
+34:53 stack. So it's yeah we'll see. Ben toss
+34:56 everyone. Thanks for the time. Hope you
+34:58 learned something. Cheers.

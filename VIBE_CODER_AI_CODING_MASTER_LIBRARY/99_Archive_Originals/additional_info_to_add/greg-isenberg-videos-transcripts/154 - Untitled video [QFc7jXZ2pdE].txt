@@ -1,0 +1,1180 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=QFc7jXZ2pdE
+Channel: Greg Isenberg
+Video ID: QFc7jXZ2pdE
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 this episode is with Max the co-founder
+0:03 and CEO of gum Loop if that name rings a
+0:06 bell it's because they just raised $9
+0:08 million they're one of the best-in-class
+0:10 AI agent and AI automation companies now
+0:14 this is a software that you can use to
+0:17 basically automate what a junior
+0:19 employee does prior to this interview I
+0:22 have not used it so I reached out to Max
+0:25 and I said hey can you give us a
+0:26 tutorial how to automate what a junior
+0:29 employee does we use gum Loop to do it
+0:33 uh this is probably one of the most
+0:36 requested uh episodes gum gum Loop is
+0:39 super hot right now and I'm excited for
+0:42 you to learn how to automate more things
+0:45 in your business this is relevant for
+0:48 the biggest companies in the world to a
+0:49 solo preneur enjoy the
+0:52 [Music]
+0:57 episode baby
+1:01 all right so super excited to have Max
+1:04 here this might be one of the most
+1:07 requested tools AI tools that people
+1:11 want me to cover we're talking gum Loop
+1:14 today we've got the founder co-founder
+1:17 CEO of gum Loop to literally I mean you
+1:21 tell us what are we doing today yeah I
+1:24 think uh uh we're just going to demo gum
+1:26 Loop I'll show you how it works how to
+1:27 get started with it honestly demoing is
+1:29 my my favorite thing to do so I'm super
+1:31 excited to do it in general and to be on
+1:32 the Pod I appreciate you having me and
+1:36 just to be
+1:37 clear I'm not involved at all in gum
+1:40 loop at all I just have heard good
+1:42 things that people are
+1:44 using gum Loop for a lot of really
+1:47 interesting automations and could you
+1:51 tell people Max by the end of this
+1:54 podcast what will they learn so that
+1:56 they can implement it in their own
+1:58 businesses like it's cool that your demo
+2:00 gum Loop but that's about you what are
+2:02 people going to get out of this yeah I
+2:05 think by the end of the Pod you should
+2:06 be able to build super powerful Ai
+2:08 workflows and deploy them uh so you'll
+2:11 have usable tools you can share with
+2:13 friends that do any number of kind of AI
+2:16 actions with your data um sounds kind of
+2:19 vague but uh I can uh show you exactly
+2:22 how that works beautiful all right well
+2:25 let's just let's get our hands dirty
+2:28 sweet I guess to start here a gum Loop
+2:31 workflow is just a series of steps
+2:34 basically that you're connecting you're
+2:36 passing data from one node we call it to
+2:39 another and uh before you know it you're
+2:41 kind of able to build these super
+2:43 powerful AI powered workflows that
+2:45 connect directly with your data so this
+2:48 is what we call the Hub these are all of
+2:50 my
+2:51 workflows uh and if I were to just
+2:54 introduce you to the idea of like making
+2:56 a workflow from
+2:57 scratch you you're faced with this empty
+2:59 can canvas and what you do is you add
+3:02 these nodes onto the canvas so we get
+3:04 compared a lot to like zappier and make
+3:05 and other kind of no code automation
+3:07 tools mainly because we have a lot of
+3:09 the same Integrations so like if you
+3:11 wanted to pull data from your slack your
+3:13 air table your outlook notion Reddit uh
+3:17 all of these sort of Integrations you
+3:20 can do that but the the power really
+3:22 comes in when you connect this data with
+3:25 AI steps so let me let's say I want to
+3:28 read from my Gmail inbox I drag this
+3:30 Gmail node onto the canvas it's reading
+3:33 from a certain
+3:34 inbox um and then I want to pair that
+3:37 with one of our AI steps so we have many
+3:40 different AI steps they're all powered
+3:42 by llms the most basic one is ask AI
+3:45 this is like asking chat GPT a question
+3:48 except it doesn't just have to be open
+3:49 AI models you can really plug and play
+3:51 with any model um even like Loop in your
+3:54 Azure uh the models you have deployed on
+3:58 Azure um
+4:00 and you connect the flow of data just by
+4:02 connecting nodes like that and I could
+4:04 write a prompt saying like summarize
+4:06 this obviously this is not a super
+4:07 useful
+4:09 workflow but that is how you connect
+4:12 data and these AI steps so beyond an Ask
+4:15 AI node we have a lot more nuanced sort
+4:17 of AI tooling here so you can do things
+4:19 like data extraction where I could
+4:21 specify a schema like I want the amount
+4:23 and the contents of this is this is like
+4:25 a receipt or something I can have ai
+4:27 extract the amount with uh claw 3.5
+4:30 Sonet and let's say I want to also
+4:32 specify the
+4:33 date I now have uh oh cap stop I now
+4:37 have two pieces of data that I'm
+4:39 extracting uh that you can use later in
+4:42 your workflow you can also do like
+4:43 categorization summarization scoring you
+4:45 can do video and image analysis really
+4:48 when you pair this these llm steps with
+4:50 your data you end up with like fully AI
+4:52 powered products that would have
+4:53 normally taken an engineer to build and
+4:55 that's kind of what we're delivering
+4:57 with gum loop I can show you quick break
+5:01 in the Pod to tell you a little bit
+5:03 about startup Empire so startup Empire
+5:06 is my private membership where it's a
+5:10 bunch of people like me like you who
+5:13 want to build out their startup ideas
+5:16 now they're looking for content to help
+5:18 accelerate that they're looking for
+5:20 potential co-founders they're looking
+5:21 for uh tutorials from people like me to
+5:25 come in and tell them how do you do
+5:27 email marketing how do you build an
+5:29 audience how do you go viral on Twitter
+5:31 all these different things that's
+5:33 exactly what startup Empire is and it's
+5:35 for people who want to start a startup
+5:38 but are looking for ideas or it's for
+5:40 people who have a startup but just
+5:42 they're not seeing the traction uh that
+5:45 they need so you can check out the link
+5:47 to Startup empire.co in the description
+5:51 I think this workflow this one
+5:53 here uh is kind of interesting because
+5:56 this is actually how we generated all of
+5:57 our Revenue in the early days of of YC
+6:00 uh so my standard workflow is I I would
+6:03 wait for people to sign up for the
+6:04 product and then when I saw their email
+6:06 I would Sprint to my laptop Google who
+6:08 they were try to figure out everything I
+6:09 could about them and then email them if
+6:11 they were a high value lead we were kind
+6:13 of shooting for Enterprises to use the
+6:15 product so that was what we were looking
+6:17 for but this workflow emulates that
+6:19 entire process for me so I think this
+6:22 one also exemplifies two cool features
+6:24 on gum Loop that make it different from
+6:25 other
+6:26 platforms um one is subflows which I'll
+6:29 get into and the other one is how this
+6:31 is triggered so the input to this flow
+6:33 is a user email this example one is like
+6:36 Tim at HubSpot that's uh imagine that
+6:38 person signed up for the product but I
+6:40 don't sit here all day copy pasting in
+6:42 people's emails this is all running via
+6:44 web hook so like you can treat any gum
+6:46 Loop workflow like an API trigger it
+6:49 from your own product based on an event
+6:51 um in our case the second someone
+6:52 presses create an account on gum Loop
+6:54 their email gets passed into this
+6:55 workflow and it runs in the
+6:57 background that email then gets passed
+6:59 in to this step here which is not
+7:03 something you can find in the node
+7:04 Library it's not like an AI step it's
+7:05 not an integration it is a subflow so
+7:08 this is an entirely separate workflow
+7:10 used as a node and it kind of has like
+7:13 the power of a function if you're a
+7:15 programmer it's reusable it's clean uh
+7:18 it's extensible you can give this to
+7:19 your cooworker they can import it to
+7:21 their workflow and kind of like benefit
+7:22 from the work you you
+7:23 did but in this case this is doing all
+7:26 the heavy lifting for the research so it
+7:28 takes the email it gets the domain out
+7:30 of it it scrapes their website it
+7:33 summarizes what they do as a company
+7:34 with Cloud 3 Hau I even went a little
+7:37 deeper here and I edited the prompt
+7:38 template under the hood to say like
+7:39 please just give me a oneliner I want
+7:41 this to be hyper concise it extracts
+7:44 their company name this was a later
+7:45 addition I made because if you try to
+7:46 get a company name with like Zoom info
+7:48 or something you'll often get like gum
+7:50 Loop YC w24 which is not like I can tell
+7:53 you're Bing if you're uh calling me that
+7:56 so I I ask AI just to get the the
+7:57 company name and then I do use those
+8:00 different Enrichment Services in this
+8:01 note here so it's doing a waterfall
+8:03 approach I'm getting industry Revenue
+8:05 country but you can get like LinkedIn
+8:07 URL monthly web traffic total funding
+8:09 number of employees if you
+8:11 wanted all of that gets funneled into
+8:13 this little formatter not super
+8:15 necessary to be honest but it it looks
+8:16 nice because I'm about to send this into
+8:18 our company slack so I want it to be
+8:19 like a nice readable notification I can
+8:21 open on my
+8:22 phone and then all of that funnels into
+8:25 the company slack so like 5 seconds
+8:26 after someone presses create an account
+8:28 on the platform we get a ping saying how
+8:30 much revenue they're making where
+8:31 they're based a link to their company a
+8:32 summary what they do um and then it also
+8:35 drafts an outbound email in my inbox so
+8:39 it's linked to my Gmail I click save as
+8:41 draft because I don't want to spam
+8:42 someone with like a hyper personalized
+8:44 message right when they sign up uh and
+8:46 then at the end of the day I used to go
+8:47 through like maybe we had in the early
+8:49 days like 20 signups in a day I would
+8:51 send off the top 10 delete the rest and
+8:53 and that was my workflow that would get
+8:54 them on a demo call um so it was kind of
+8:57 like a semi inbound semi upbound sort of
+8:59 thing
+9:00 uh and yeah we built this in the early
+9:02 days you could definitely extend the
+9:04 workflow like you could add perplexity
+9:06 to it you could research their company
+9:08 way more you could uh do a bunch of like
+9:11 Google searching you could add them to
+9:12 your air table enrich your CRM it really
+9:15 is like a build your own software sort
+9:17 of platform but in our case like we kept
+9:18 it simple here uh and I like kind of
+9:21 keeping this workflow as is because it's
+9:22 a relic of the past for
+9:23 us um yeah
+9:27 so my first reaction to this is this is
+9:31 probably this is probably the most
+9:33 beautiful automation
+9:35 software i' I've seen yet like it just
+9:38 look it feels a lot more fun and human
+9:42 to
+9:43 use um which is awesome like it feels
+9:46 like it's like hooking the stuff up is
+9:48 gonna it feels like Lego building blocks
+9:50 which of you know and it's kind of got
+9:53 that like figma feel um yeah thank you
+9:56 so just for that yeah just going from
+9:58 that like design perspective I love that
+10:01 I think that something like this like
+10:03 this is the difference between if you
+10:04 make $50,000 a year in sales or you
+10:07 could make 5 million having these tight
+10:10 systems that just
+10:12 automatically you know are in your
+10:14 workflows um it's the it's your unfair
+10:17 Advantage frankly like you know most
+10:20 people aren't doing it that's that's the
+10:22 advantage I think one of the things I'm
+10:24 thinking about um because I'm like oh
+10:28 how do I implement this on some me of my
+10:30 companies is does everyone need
+10:34 to create one of these workflows
+10:36 themselves or is there are there like
+10:39 templates that I can go and
+10:41 grab yeah so that's a good question you
+10:44 we often see at companies that there's
+10:46 like a couple like maybe five AI people
+10:49 who really love this sort of thing they
+10:50 build amazing tooling and then everyone
+10:52 else just uses it um and that's a I'll
+10:55 show you a few features that really
+10:56 enable that so like people can actually
+10:57 use the workflows without even seeing
+10:58 this crazy flowchart sort of thing um
+11:02 but also we do have a template directory
+11:03 and we're going to be launching a
+11:05 marketplace where people can publish and
+11:06 even sell their templates so if you
+11:08 wanted this like crazy enrichment flow
+11:10 that someone worked hard on you could
+11:11 play pay a few dollars and just clone it
+11:13 into your
+11:14 workspace um but yeah I think that's the
+11:17 future like being able to share useful
+11:20 tooling one one thing we like to say
+11:22 internally is that uh understanding a
+11:25 problem should be the only prerequisite
+11:26 to solving it like you shouldn't need to
+11:28 have an engineering degree to understand
+11:30 like how to boost sales with automation
+11:32 you should just need to understand how
+11:33 to write a great email or what data to
+11:35 look for in a good customer so that's
+11:38 kind of what we're we're gunting for and
+11:39 I think templates are kind of a Band-Aid
+11:41 over the product being a a little too
+11:43 confusing at at the beginning if we can
+11:45 nail this ux problem I don't think
+11:47 you'll need templates because you can
+11:48 just get to something amazing in like
+11:49 five minutes of
+11:50 tinkering totally and that's why I
+11:52 wanted to have you on the Pod honestly
+11:54 is just I wanted to see I wanted to show
+11:57 people what was possible so that they
+11:59 can go and just mess around on on you
+12:02 know on their own because that's that's
+12:03 the number one way that people are going
+12:05 to learn realistically is trying things
+12:07 out and then being like you know what um
+12:09 I actually like sending the personalized
+12:11 email right away for whatever reason um
+12:15 and that that might work for someone and
+12:17 it just not might work for you or me or
+12:19 something like that could you uh could
+12:21 you show something else yeah I have a
+12:24 bunch of stuff to show oh amazing um I
+12:27 also built some some workflows that you
+12:28 could use uh like I stayed at the office
+12:31 a little later last night and just made
+12:32 some that are kind of cool but just to
+12:34 uh show off this and how you run it
+12:37 because you can run any workfl manually
+12:39 I realized I haven't uh I haven't shown
+12:41 how it works so it it breaks down every
+12:43 single step you can view the inputs and
+12:45 outputs you can go deeper and
+12:46 investigate what's happening in the
+12:47 subflows I just got the slack
+12:49 notification I have the draft in my
+12:51 inbox um just wanted to like illustrate
+12:54 how this actually runs but yeah let's
+12:56 let's dive into another workflow
+13:02 here uh this one watches all of your
+13:05 videos and gives me an analysis of how
+13:07 you run these interviews we thought that
+13:08 was kind of fun to make but I think this
+13:10 one's pretty
+13:11 cool this exemplifies the value of loop
+13:14 mode as we call it so this is kind of
+13:16 how large companies run at scale you can
+13:18 run automations manually in this kind of
+13:20 one-off fashion you can trigger them
+13:22 with events or web hooks or you can like
+13:25 kick off a run that does thousands of
+13:27 events at the same time it will Loop
+13:28 your automation and and be able to run
+13:30 them at massive scale so this this flow
+13:34 here uh takes in a YouTube link to your
+13:37 podcast and it writes a blog post about
+13:39 it so uh this video here dude I need
+13:43 this yeah I actually need this I built
+13:47 it thinking that you would uh enjoy this
+13:49 so like this is one of I I'm not paying
+13:51 for premium on this account but this is
+13:53 one of your your episodes with Samir
+13:55 call from Colin and Samir yeah let me
+13:58 just
+14:00 by the way shockingly this this pod went
+14:03 didn't get a lot of love but it was like
+14:04 one of my favorite episodes of yeah I
+14:08 really enjoyed this
+14:09 one um so I I I picked that one
+14:13 specifically because I thought it was
+14:14 like kind of jam-packed with knowledge
+14:17 and and tips it wasn't just like a I
+14:19 think the demo ones maybe are harder to
+14:20 convey as a blog post but the ones where
+14:22 they're giving advice and info those are
+14:24 really great so I think this is uh this
+14:27 sort of AI content generation workflow
+14:29 is interesting because you're not like
+14:31 making content out of thin air you're
+14:33 just repurposing kind of the hard work
+14:35 you've already done previously so all
+14:37 you have to do is paste in this YouTube
+14:38 link you press run and then the blog
+14:40 post will be live in like five seconds
+14:44 uh on ghost which is our CMS it the
+14:47 thumbnail is a little grainy because I
+14:48 didn't get the best thumbnail but it's
+14:50 uh it gives a tldr so like his main
+14:52 points that he covered and then at each
+14:54 of those main points it goes into like
+14:55 exactly what he was saying about it and
+14:57 then it embeds your video at the bottom
+14:59 and also links all of his socials I
+15:00 didn't even prompt it to do this it just
+15:02 somehow did that um dude are you kidding
+15:05 me right now this is
+15:07 amazing yeah this took like under 20
+15:10 minutes to build I can show you how it
+15:12 works yeah let's do it um at the
+15:15 interesting thing I want to show off
+15:16 just to start is that this workflow that
+15:18 takes in one YouTube link can be looped
+15:20 over a thousand YouTube links if you
+15:22 just use this flow as a subflow link it
+15:24 to a Google sheet and then run it in
+15:26 Loop mode which is like a for Loop
+15:28 basically on gum Loop so you give it a
+15:30 thousand inputs it will run your
+15:31 workflow a thousand times and gum Loop
+15:33 handles the infrastructure of how all of
+15:34 this runs concurrently all of the rate
+15:36 limits you just kind of like go get a
+15:38 coffee while your content's
+15:40 generated um okay so do you want me to
+15:43 dive into how how this works I would
+15:45 love that sweet so the input is a
+15:49 YouTube link it feeds into this subflow
+15:51 which is doing basically all of the hard
+15:52 work I can open the subflow um that
+15:56 YouTube link that we pass in dynamically
+15:58 gets passed into this YouTube node that
+15:59 we have that gets the transcript we also
+16:01 have a Gemini node that can use like it
+16:04 can you can do uh uh speech to text if
+16:07 you wanted to do that to get the
+16:08 transcript or you can use Gemini to
+16:10 actually analyze the video itself
+16:12 there's a couple it's kind of like an
+16:13 artistic Choice which whichever
+16:15 direction you want to go um I could have
+16:18 just fed that transcript into a single
+16:20 AI prompt saying like write a write a
+16:22 blog post but I find if you break things
+16:24 up into bite-size steps the model will
+16:26 listen to you a lot better you'll get
+16:27 much higher quality results
+16:29 so the the beauty of gum Loop is that
+16:31 you can just do that prompt one time
+16:32 work really hard on it and then benefit
+16:34 from that good prompt like thousands of
+16:37 times if you run this thousands of times
+16:39 uh so in this case I take the transcript
+16:41 and I just ask o1 to give me a digest
+16:43 like take the fluff out because there's
+16:45 like kind of casual conversation in
+16:47 between the points give me something
+16:49 verbose but informative is there a
+16:51 reason why you chose o1 versus something
+16:54 else I think for work like this 01 is
+16:57 just amazing at like the longer form a
+17:00 critical thinking so if you have a 55
+17:02 Minute Podcast that's a lot of content
+17:04 to process I don't want it to get too
+17:05 distracted so I'm okay with paying more
+17:08 in terms of uh just so I can get the
+17:10 best possible
+17:11 digest and uh the quality of your AI
+17:13 steps Cascades for sure so like if you
+17:16 if you if I were to use uh like GPD 3.5
+17:19 here it would the next step would only
+17:21 be as good as whatever the previous step
+17:22 output it totally makes sense the next
+17:26 thing I do is I just ask it to write a
+17:28 blog post so you can change the prompt
+17:30 here super easily uh you'll notice I
+17:32 said you're writing in Greg's
+17:34 perspective um I wanted a tldr because I
+17:37 think that's useful I like that when I'm
+17:39 a reader and I said like avoid jargon
+17:43 sometimes models will just be too
+17:45 verbose and then the last step here is
+17:48 uh just to format it in HTML so you'll
+17:50 see there's these like nice headers and
+17:52 sections that is like AI is exceptional
+17:56 at that sort of thing and just taking
+17:57 content and knowing what should be a
+17:59 title where to put where to make things
+18:02 bold um I then manually just link the uh
+18:06 your video at the bottom because I I
+18:08 think every blog post should have a link
+18:10 back to the original source and I output
+18:12 that so that's the content that's going
+18:13 into our ghost node
+18:15 here um it also this workflow is picking
+18:18 a title which is kind of cool so I just
+18:20 snip like the first thousand words from
+18:23 the podcast which is normally where
+18:24 you're like front loading the
+18:25 information and I have an extract data
+18:27 node here so this extract data node just
+18:30 lets you kind of get really structured
+18:32 content out of the model you can get a
+18:34 title without it saying like okay here's
+18:36 your title that's sort of fluff and you
+18:38 don't have to beg uh chat gbt to to like
+18:41 omit those fluff words it just gives you
+18:43 the value so I'm like I want a very
+18:45 short title your context your job is to
+18:48 uh pick a title for this video make it
+18:50 short something
+18:53 Snappy uh and then that goes into the
+18:55 blog content and then the thumbnail
+18:57 thing I just uh
+18:59 you can get the thumbnail of any video
+19:01 with this format I just figured I asked
+19:04 Claude and it told me this is how you
+19:05 get the thumbnail of a
+19:09 video Yeah and this is a a template that
+19:12 I could share like easily I can make
+19:14 this available to anyone copy the link
+19:16 to the workbook and then send it over to
+19:17 you and then you just have it as if you
+19:18 built it yourself yeah we'll include
+19:20 that in the show notes in case people
+19:23 want to like mess around with it I think
+19:25 this is so important
+19:26 because this is a way to get to get
+19:29 thousands of visits SE from SEO on
+19:34 autopilot to whatever it is you're doing
+19:36 so one of the things that you can do is
+19:40 um you know if you selling a product
+19:42 let's
+19:43 say um and you can put at the end like
+19:47 if you
+19:48 know uh if you like this podcast you
+19:52 should buy my product or service right
+19:54 and then a percentage of those people
+19:56 are going to try are going to buy that
+19:58 or service or you can just have a lead
+20:00 magnet you know you can just be like um
+20:03 you know give me your you know if you
+20:05 like the call in sere episode you're
+20:07 going to like uh the 2025 create a
+20:11 report that we did and then people click
+20:13 on it they give their email address you
+20:15 get the email address and then you can
+20:16 remark it to them it's just a way to get
+20:19 yeah it's free visits free signups
+20:22 leads um this is the type of thing that
+20:25 you just set it on autopilot and then
+20:27 you let it compound and and good things
+20:30 happen yeah also where this content goes
+20:33 is totally configurable like if you
+20:35 wanted it to go to your Shopify your web
+20:37 flow into a Google doc into notion like
+20:39 you just swap out the last step and it
+20:41 just reconfigures itself you don't need
+20:43 to like build the ooth integration I'll
+20:45 also show you in a couple minutes how
+20:47 you can build your own integration with
+20:49 AI you just prompt it and it will build
+20:51 the node for you that you can use on the
+20:53 platform yeah I was gonna ask you about
+20:54 that like how does that work it's uh I
+20:58 think it's pretty cool I'll demo the
+20:59 full thing I'll build an integration
+21:01 live okay um and I'll also I want to
+21:03 show you gum Loop interfaces next
+21:05 because this is a feature we're super
+21:06 excited about mainly because kind of
+21:09 what I mentioned before if you send this
+21:10 to your cooworker who's never heard of
+21:11 gum Loop they have a huge task ahead of
+21:14 them of figuring out what the hell is
+21:15 going on like they how would they know
+21:18 to put in a value here or to click run
+21:20 or any anything so what we do is we
+21:24 released a feature that lets you just
+21:25 make an interface on top of this flow
+21:28 I'll show you a flow that has a a really
+21:30 nice interface
+21:32 uh you have 90 you have 97 pages on this
+21:36 account yeah I I have many accounts um
+21:40 so this flow you can see it was cloned
+21:43 389 times because I I put this one on
+21:45 Twitter and uh it I think it's really
+21:49 cool um so I'll just start without the
+21:52 interface and just explain what this
+21:54 it's kind of an ad marketing workflow
+21:56 but it's doing what a lot of people on
+21:58 marketing team are doing in terms of
+21:59 competitor analysis on a daily basis or
+22:01 weekly basis so it starts off by
+22:04 scraping your competitor's Facebook ads
+22:06 like anything that they're running on uh
+22:09 Facebook Instagram uh WhatsApp I think
+22:11 has ads too it's all just kind of one
+22:14 location where you can view all of the
+22:15 active ads it then feeds all of those
+22:18 ads into the subflow uh the subflow is
+22:20 wrapped in an a shield so that you can
+22:22 if the ad is like wonky or there's an
+22:24 issue you can just skip over that error
+22:25 kind of a more advanced feature but uh
+22:28 Gemini is watching the video ad and
+22:30 analyzing the image so it's coming up
+22:31 with like on an adby ad basis because
+22:33 it's in Loop mode it's coming up with an
+22:35 analysis of like what is this company
+22:36 trying to achieve with this 302
+22:39 ad um it with all of those analyses even
+22:42 if it's like 50 active ads it will dump
+22:44 all of that at the bottom of this very
+22:46 large o1 prompt that's saying like
+22:48 you're an expert in ad analysis I want
+22:50 you to come up with a overall analysis
+22:52 of this competitor's ad strategy like
+22:54 what is what are they focusing on what
+22:56 does it seem like they're they're like
+22:58 really want to convey with these ads um
+23:00 it then formats that in HTML and then
+23:03 sends management an email so on a
+23:06 scheduled basis like you can ask it to
+23:07 run this every morning or every Friday
+23:09 morning at 9:00 a. PSD and you'll get a
+23:13 uh sorry my cough you'll get an analysis
+23:15 of the competitor's ad strategy in your
+23:18 inbox in a really beautiful formatted
+23:19 way but like I said before if you send
+23:22 this to someone no idea what's going on
+23:23 so this gum Loop interface simplifies
+23:25 things all you need to really do let me
+23:27 just refresh this I don't overwrite
+23:29 anything all you need to do is um send
+23:33 someone a
+23:36 link sorry send someone this link and
+23:40 this is what they see it's a like a
+23:42 really simple impossible to mess up
+23:44 version of the app you can just uh I'll
+23:48 use this as an example I wanted to email
+23:50 me at Max at gum
+23:55 Loop gosh my mic is covering my keyboard
+23:59 all
+24:00 right um and then they don't even need
+24:02 to know how the workflow is working you
+24:04 can go see it if you want to you can
+24:05 click view workflow but I I'm going to
+24:07 get an analysis of a competitor's ad
+24:09 strategy in my inbox and just to show
+24:11 you how you edit an interface you click
+24:13 here and it's this kind of really simple
+24:15 drag and drop build your own UI people
+24:18 on your team will think you're like an
+24:19 AI engineer who built this crazy web app
+24:21 but you just like clicked a couple times
+24:23 and picked some cool
+24:26 headers I'll show you the uh output in a
+24:28 second it
+24:31 arrives this is really cool I can see
+24:33 myself using this my team to just get
+24:37 get smarter could I use this like if I
+24:40 want to build a a SAS product could I
+24:43 use this and just have gum Loop actually
+24:46 doing the the work in the back end like
+24:49 could I make a website and charge people
+24:52 to to to do to do this 100% we have many
+24:57 users doing that with uh web hooks so
+24:59 you can build your workflow like you're
+25:01 like engineering this crazy API but then
+25:05 you just uh I realize I'm doxing my uh
+25:08 we're gonna need to blur some of this
+25:09 out if that's okay doxing my API key
+25:11 yeah we'll do we'll we won't dox that we
+25:14 will blur that out so sweet yeah um but
+25:18 yeah you can trigger any workflow via
+25:20 API and then you can pass in Dynamic
+25:22 Fields so like if you have a cool form
+25:23 at the bottom of your website that you
+25:24 wanted to trigger this crazy workflow
+25:26 and get them an email sent you just copy
+25:29 paste that web hook definition and uh it
+25:31 will run whenever you'd like and you can
+25:33 also set up an alert on gum Loop so that
+25:35 you know if things go wrong you get
+25:36 emailed if there's an issue simplifies
+25:39 the process I don't know if you can do
+25:41 this but can you show an example of
+25:43 someone who uses a gum Loop web
+25:46 hook uh in in their product yeah a lot
+25:50 of people have them like in internal
+25:52 dashboards so like you you pay to be to
+25:54 use the service and then you have access
+25:56 to like this crazy PDF processor or like
+25:58 contract analyzer but uh often times
+26:01 people don't expose them like on the
+26:02 landing page because you can just like
+26:04 Run a thousand workflows that will cost
+26:06 a lot of credits um got it yeah cool I
+26:11 can show you uh a few more things custom
+26:15 nodes in particular I think those are
+26:16 really cool so max I'm loving this
+26:21 thanks yeah I I love to demo it's like
+26:23 the best part of my job for
+26:25 sure um okay let me show you
+26:28 this one is just a random workflow I
+26:30 think it's cool every morning at 9:00
+26:31 a.m. I get a text and an email about my
+26:35 entire day so it just specifies like the
+26:38 start and end time for this Google
+26:39 Calendar reader it researches every
+26:41 single person I'm meeting so it gets the
+26:42 attendee list does all that research of
+26:44 like finding their company scraping like
+26:46 their revenue monthly web traffic to
+26:48 kind of size up how big of a customer
+26:50 they are or how big of a customer they
+26:51 could be um it feeds all of that into a
+26:54 prompt saying like hey I'm Max from gum
+26:55 Loop this is my calendar this is all the
+26:57 research
+26:58 uh explain who I'm going to meet why
+27:01 they might be important to me this is
+27:03 what I care about it then has another AI
+27:05 prompt that makes a tldr like a three or
+27:07 four point form thing that I can just
+27:08 see on my phone at 9:00 a.m and then I
+27:11 get a much more thorough email
+27:13 report um all of this is just scheduled
+27:15 you can schedule things with natural
+27:17 language
+27:21 uh okay you should be able to schedule
+27:23 things with natural language this is a
+27:26 the the UI was collapsed for some
+27:30 reason yeah you you would click new time
+27:32 trigger here and then you're able to
+27:34 describe I I know why okay I couldn't
+27:37 have scheduled it because it was already
+27:38 scheduled right um but if if you have a
+27:40 new workflow you can just describe like
+27:42 every second day of of every 4th month
+27:44 at 9:00 a.m. and it'll it'll make the
+27:45 Cron job for you let me uh I just wanted
+27:50 to go back and show you
+27:52 this this was the competitor ad analysis
+27:54 output that just came in two minutes ago
+27:57 because it took a bit of time to run
+27:58 over every ad but it talks about new ads
+28:02 in the last seven
+28:03 days uh this these are all of the links
+28:05 to the ads so I can go watch them uh I
+28:09 you can change the prompt so that it
+28:10 formats it differently but I just asked
+28:11 it to like make things spacious use a
+28:13 bit of color put Emojis focus on the
+28:15 content type and structure but it's a a
+28:18 s simple kind of prompt edit away if you
+28:19 want a totally different analysis of
+28:22 ads so cool you can also link together
+28:26 like if you use that as a subflow you
+28:27 can speci speci ify 40 competitors and
+28:29 have one comprehensive ad analysis if
+28:31 that's more interesting it's like having
+28:33 a junior ad
+28:36 assistant totally and it takes like an
+28:39 hour maybe 45 minutes to build like a
+28:41 completely custom one from scratch and
+28:43 the cost like what's the cost of like an
+28:46 email like that uh so it depends it's
+28:49 kind of like a a function of how many
+28:51 ads there are how many times you're
+28:52 running the Gemini queries like B I
+28:54 think um it might be like 500 gum Loop
+28:58 credits which doesn't mean anything to
+28:59 you as I'm saying that but uh way way
+29:03 way less than someone spending an hour
+29:04 of their time what's the uh what's the
+29:07 current you know USD to gum Loop credit
+29:10 I actually don't know the exact
+29:11 conversion rate I've been using CAD so
+29:14 oh no I don't know what yeah what our
+29:16 conversion is but one of the perks of
+29:19 gum Loop is that you can actually
+29:20 provide your own API keys if you wanted
+29:22 to let's say you already pay for Apollo
+29:25 you already pay for Gemini you pay for
+29:27 like five other
+29:28 you can put your own API keys and then
+29:30 the cost on gum Loop will basically drop
+29:31 to zero so we have some really large
+29:33 customers where kind of like credits
+29:34 maxing they just put in their API keys
+29:37 and all of their workflows are like five
+29:38 credits the cheapest plan comes with 30
+29:40 credits or 30,000 credits um so they can
+29:42 like really run at scale without paying
+29:44 a crazy amount so 30,000 credits it's n
+29:50 $97 right now yeah right now as of
+29:53 recording
+29:54 this um so 500 credits would be like
+29:59 a162 per
+30:01 email that sounds about right so we're
+30:05 talking I mean think about how much
+30:07 you'd have to pay a junior ad person in
+30:10 San Francisco where you live um you know
+30:14 you're talking minimum $80,000 a year
+30:18 yeah right probably yeah I think that
+30:20 sounds right um You could also make it
+30:22 cost a lot less on gum like throw on
+30:24 your own API key watch the credit cost
+30:25 drop to 50 and then
+30:28 run it a thousand times if you want and
+30:30 it's kind of like
+30:32 negligible
+30:34 cool I want to show you custom nodes now
+30:37 so this is a feature I think is is going
+30:40 to be one of the the focuses of gum loop
+30:43 on top of the AI stuff where we're kind
+30:45 of layering on top of the product so you
+30:46 can just like get your workflow built
+30:48 for you which I'll go into
+30:50 um often times we notice that like a
+30:53 large customer of ours like instacart or
+30:55 samsara they they really want either to
+30:57 inter with their internal data like they
+30:59 want to uh hit their own end points or
+31:02 they want some third party that we don't
+31:04 support on the platform so we always had
+31:06 to build custom Integrations for them
+31:08 but we what we like thought would be the
+31:10 best solution is to let you build your
+31:11 own integration so you go into the
+31:14 custom node category and uh let's take
+31:16 for example built with this was one
+31:20 request that we got
+31:22 recently someone wanted this builtwith
+31:24 integration it tells you like what
+31:25 websites a uh or what products a a
+31:29 website is built with and uh I can just
+31:32 copy the docs
+31:34 here into this custom node Builder and
+31:36 we'll get a builtwith node in a couple
+31:38 seconds no so I'll go create custom node
+31:41 you'll see I'll call it builtwith
+31:42 because I made this yesterday the input
+31:45 we can call it company the output data
+31:48 you can add as many inputs like kind of
+31:49 just like build your own integration
+31:50 here uh just by like choosing the
+31:53 type you can add a logo I won't do that
+31:55 for now and then I'll say uh make this
+31:59 integration please paste in everything
+32:03 it understands the context of what a gum
+32:04 Loop integration is what packages it has
+32:06 access to it's telling you put in your
+32:08 API key right here because I don't pay
+32:10 for built with but that's where you
+32:11 throw it in and then everyone in your
+32:13 workspace which is kind of like how you
+32:14 collaborate with team members uh on the
+32:16 gumlu platform they'll all have access
+32:18 to your custom nodes so I have like a a
+32:21 studio gibl node for example they have a
+32:23 public facing API it'll tell you like
+32:25 stuff about a movie everyone at gum Loop
+32:27 can use this just like the gum Loop team
+32:29 built this custom integration for you
+32:31 and the people who built it can go back
+32:32 in the code if they wanted to change it
+32:34 um I could say like add comments
+32:38 throughout the
+32:42 code it already had a ton of comments
+32:44 but it'll write it again now with my uh
+32:47 even more kind of comment forward
+32:49 request um so what we noticed is like a
+32:51 lot of semi- technical people that
+32:53 companies uh have just used this
+32:57 interface to build really complex like
+32:59 Twitter scrapers like people are
+33:00 scraping Blue Sky for social media
+33:02 analysis they're like building
+33:04 Integrations with their Dev Team without
+33:06 actually being a Dev uh you can kind of
+33:08 like help yourself since AI is baked
+33:10 into the product and this is going to be
+33:12 a huge focus in the future I I think the
+33:14 next step is what if you could just like
+33:16 hit command K on the canvas and describe
+33:18 the the integration you want it will
+33:20 know how to name it it'll know what icon
+33:22 to get the inputs it'll know how to
+33:23 write the code it'll know how to test it
+33:25 for you uh and it'll just kind of appear
+33:27 here here so you can just uh you never
+33:30 even have to enter this this janky
+33:31 custom node
+33:34 Builder it's not even that janky
+33:36 honestly but I would love a world where
+33:38 I could just
+33:39 describe like it would yeah it would
+33:41 make my life easier for sure yeah I I
+33:44 think one of the janky parts I mean I'm
+33:46 very critical of uh I I always think we
+33:48 can do better which I I think is why we
+33:50 get to our whole team is very like uh UI
+33:53 forward so when when things start to
+33:55 look ugly to us we get really critical
+33:56 of it and want to improve it totally but
+33:58 little things like the fact that I
+33:59 pasted in all of the docs I shouldn't
+34:02 have to do that I could just link the
+34:03 docs and we could scrape them uh that
+34:05 would be a lot easier true a lot more
+34:06 pleasant um you the fact that I had to
+34:08 like specify company and output the docs
+34:11 should tell you what the output should
+34:12 be they should tell you what the input
+34:13 should be uh I think that's that sort of
+34:15 direction is how it could be 10 times
+34:16 better than what it is right now one of
+34:18 the last features I wanted to show you
+34:19 is kind of addressing the same problem
+34:21 as the interface where if someone builds
+34:23 a really powerful tool you shouldn't
+34:25 need to understand how the tool works
+34:26 you should just be able to experience
+34:27 the value it provides like you don't
+34:29 look at the code behind the SAS product
+34:31 you love you just use that tool or use
+34:33 that product so we we created a Chrome
+34:35 extension um this flow looks kind of
+34:37 crazy but I'll explain what's happening
+34:38 in a second the main thing I wanted to
+34:40 point out is that this flow starts with
+34:42 a Chrome extension node and what that
+34:45 does is it allows the flow to be
+34:48 accessible in my Chrome extension here
+34:49 the gum Loop Chrome
+34:51 extension um the one I wanted to show
+34:53 off is a LinkedIn profile researcher it
+34:56 does everything that I would do as a
+34:58 recruiter to reach out to like someone
+34:59 who seems like a good candidate to join
+35:01 gum Loop um let's go to my co-founder
+35:04 for example let's say I wanted to
+35:06 recruit this guy I would go and press
+35:08 play on this workflow I have pre-built
+35:10 it's taking the entire content of the
+35:12 screen and throwing that into the
+35:14 workflow just like you're kind of copy
+35:15 pasting it except a lot more seamless uh
+35:18 it could also screenshot it could look
+35:20 at the there's a bunch of different
+35:21 actions that the Chrome extension can do
+35:22 but in this case it's
+35:23 scraping and then it feeds all of that
+35:26 let me actually go to the Run itself it
+35:28 feeds all of that um through the
+35:31 workflow which is doing like the
+35:33 processing and Analysis of the of the
+35:36 content of the profile so the first
+35:37 thing it does is it extracts like name
+35:38 Title Company University location it
+35:41 summarizes the person's background I
+35:42 specified that I care about certain
+35:44 properties in a candidate um like being
+35:46 a founding engineer or a Founder before
+35:48 so it it gives me the notable
+35:50 details it then finds their Twitter and
+35:52 their GitHub this is kind of like a
+35:54 cheeky subflow where I Google their name
+35:56 uh I have a
+35:58 I I have ai look at the top results and
+35:59 pick the one that's most likely their
+36:01 socials it dumps all of that in a Google
+36:03 sheet so that we can track candidates it
+36:06 pings my team on slack being like hey
+36:07 guys look at this new profile go add
+36:08 them on LinkedIn so they can kind of
+36:10 feel like they're being reached out to
+36:12 and then it also finds their email with
+36:14 Apollo and then uh Engineers like a
+36:18 really basic message you can really go
+36:20 crazy on this if you wanted to like use
+36:22 this in
+36:23 production most of the people who are
+36:24 using this type of workflow have tons of
+36:26 context about like what the company does
+36:27 and why they're reaching out maybe a
+36:29 bunch a bunch of example emails and then
+36:31 it puts all of that in my inbox as a
+36:33 draft so even if like an intern on our
+36:35 team finds an interesting candidate they
+36:36 can get an email in my inbox so that the
+36:38 founder is reaching out um and this lets
+36:41 kind of just like everyone benefit from
+36:43 the tool you're using without looking at
+36:45 this crazy workflow they just open the
+36:46 Chrome extension press play uh and
+36:49 things
+36:51 happen and Dreams Are Made they are yes
+36:56 hopefully I think ing the Chrome
+36:58 extension with the the custom node
+37:00 Builder just lets you build infinitely
+37:02 powerful like no code Chrome extensions
+37:05 which which I find pretty cool what else
+37:06 have you seen people do a lot of really
+37:11 nuanced like Outreach is a big one so
+37:13 like let's say there's a a list of
+37:16 hotels in this like Niche directory that
+37:18 you look at and you wanted to email each
+37:20 one and be like you're ranking third out
+37:22 of 50 we could make you number one
+37:23 you're ranking like 402nd out of 50 it
+37:25 will like with a single click can scrape
+37:28 the entire page draft 50 emails that are
+37:30 all relative because it knows their
+37:31 positioning and then you get like six
+37:33 hours of personalized outbound done as a
+37:35 hotelier uh Service Company just done in
+37:38 a couple seconds um that seems kind of
+37:41 random but that's like the the first one
+37:42 that comes to mind it's all about like
+37:44 imitating the really Niche workflow that
+37:46 you do every day and just building SAS
+37:48 for it because I don't think any
+37:49 vertical SAS startup would ever build
+37:51 that but now that you can just use Legos
+37:52 and piece it together you get your own
+37:54 sess yeah I I was having a car ation
+37:58 recently with a an executive of a a
+38:02 large company I do a billion in IA every
+38:04 single year and he was walking me
+38:08 through uh basically how this company
+38:10 works like how the sausage is made and I
+38:12 was shocked to hear how much of his
+38:15 company was operating manually like how
+38:19 few automations he was actually doing in
+38:22 a world where things like this exist um
+38:25 and this is like a you know uh Tech
+38:28 forward company this isn't like I'm not
+38:30 talking about a company that's been
+38:31 around for a hundred years and I think
+38:34 that if you're a big company like that
+38:36 to a small company to a company of one I
+38:39 think a good exercise is just writing
+38:42 down what are the things I'm doing
+38:44 manually and thinking about how can I
+38:46 auto you know what can I automate being
+38:48 in business is a game of of unfair
+38:52 advantages it's a game
+38:54 of uh creating the best possible
+38:56 customer experience and that means it's
+38:59 always about how do you save time as
+39:03 Founders and executive
+39:05 teams and also you know so that we can
+39:10 work on our like high leverage stuff the
+39:11 stuff that we think that actually could
+39:13 move you know can move the needle while
+39:15 automating away a lot of the stuff that
+39:18 um is repetitive frankly yeah I like to
+39:22 say that like when people ask me what
+39:24 they should automate for their
+39:25 businesses I like to say that if you can
+39:27 list it as a a list of steps like for an
+39:29 intern you would hand off a little
+39:30 sticky note being like you do these 15
+39:32 things in a row and that's the entire
+39:33 workflow then you can 100% automate it
+39:36 and I think there's like thousands of
+39:38 those workflows in every business
+39:39 there's opportunity to automate
+39:41 basically everywhere it's just about
+39:42 like understanding what tools can get
+39:43 you there and understanding the problem
+39:45 itself to to solve one huge thing we
+39:48 were noticing was like an SDR or a
+39:50 marketing person or a growth person at a
+39:52 company would deeply understand a
+39:54 problem but they have to like break that
+39:56 down for an engineering team they have
+39:58 to like find headcount and budget and
+40:00 then they'll get some like half baked
+40:02 solution that is not exactly what they
+40:03 had in mind because there's kind of this
+40:04 broken telephone sort of situation going
+40:06 on but if you give people the tools to
+40:09 solve their own problems you get just
+40:10 like hyper custom exactly what they
+40:12 wanted work blows that that work out of
+40:14 the box and that's kind of what we've
+40:16 been doing as a startup so like we I
+40:18 like to think we we're super efficient
+40:20 because we automate basically all
+40:21 business processes at the company with
+40:23 gum Loop uh that's why I think the
+40:25 product gets better because we dog food
+40:26 it um and people ask us like how big the
+40:28 team is normally and when I tell them we
+40:30 were two people and two interns up until
+40:33 just recently they're kind of mind blown
+40:35 because we seem like we're a larger
+40:37 company but it's because we can just
+40:39 like automate the boring stuff and focus
+40:40 on engineering product uh marketing like
+40:44 the things that that we we think we're
+40:46 good at and that matter yeah absolutely
+40:49 uh I also think that when you compare
+40:52 using something like gum Loop
+40:54 to you know sometimes working with human
+40:58 beings you're you're you know like for
+41:01 example the first flow that you showed
+41:03 around sending emails that were so data
+41:05 enriched a lot of those emails probably
+41:08 if it was a human behind it it probably
+41:10 wouldn't be as personalized um or have
+41:15 as much data um now I know someone in
+41:17 the comment section is going to be like
+41:19 yeah but it would be more personalized
+41:20 it's a human being um and I hear you
+41:23 like there there is by the way I'm not
+41:25 saying that like sales needs to be done
+41:27 automated I'm just saying that I'd
+41:29 rather have that person you know H you
+41:32 know in the first video call or in an
+41:34 IRL meeting than
+41:36 sending like essentially automated sales
+41:40 email so U Max I want I want to give you
+41:43 a just I just want to thank you for for
+41:47 taking us around gum Loop playing with
+41:49 it um what should people do if I mean do
+41:55 you want yeah I guess sign up to gum
+41:56 Loop and play with it yeah uh we're like
+42:00 super easy to sign up with totally free
+42:02 to use at the beginning like you don't
+42:03 no credit card needed to play around I
+42:05 think that's like the most honest way to
+42:07 build a product like if you can't hide
+42:08 behind a sign up flow or like a book a
+42:10 demo button people can actually see if
+42:12 they like it or not which holds us
+42:13 pretty accountable so yeah go to gum
+42:15 Loop sign up for free if you do the
+42:17 tutorial you get a thousand free credits
+42:19 so you'll actually have like quite a lot
+42:21 of space to just play around um and we
+42:23 have a community we're building a slack
+42:25 Community now so like we'll have a we
+42:27 have Discord but we'll have a slack
+42:28 Community where you can ask questions
+42:30 get help from experts and then pretty
+42:32 soon you'll be able to just sell your
+42:33 workflows share them with
+42:35 others if you have any questions just uh
+42:38 I guess email us or yeah join the
+42:40 community yeah and I think you know my
+42:41 perspective is if you're not if if
+42:44 you're not automating stuff in 2025 like
+42:48 you should
+42:50 be um so like play with the tools like
+42:54 play with gum Loop you know play with
+42:56 the other tools that are there um find
+42:58 what works for you um and it's a there
+43:03 is like a learning curve in terms of
+43:04 like okay now I understand what I could
+43:06 automate and from that you can just
+43:08 layer on more and more automation so um
+43:11 thanks again for coming on Max uh you're
+43:14 a legend and uh I'll see I'll see you
+43:17 around yeah thanks for having me bye
+43:20 everyone
+43:21 [Music]
+43:29 it's time baby

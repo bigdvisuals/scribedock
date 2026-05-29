@@ -1,0 +1,469 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=Ke4iqmdD5iI
+Channel: Riley Brown
+Video ID: Ke4iqmdD5iI
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 In this video with zero coding onai are
+0:02 going to build two apps that share a
+0:05 backend and by the end of this video
+0:06 you're going to know how to build a
+0:07 mobile app and a web app just by
+0:09 prompting. You're going to know how to
+0:10 add APIs to the backend and you're also
+0:12 going to know how to make both of these
+0:14 apps share a backend and database. So if
+0:17 you like videos like these, please hit
+0:19 that like button and we're going to be
+0:20 doing videos like these every single
+0:22 week. Let's not waste any more time.
+0:24 Let's dive in. So an what are we
+0:26 building today? Okay, so today we're
+0:28 going to make a web app using Vibe Code
+0:30 and a mobile app that connects to the
+0:32 same back end, but we're going to start
+0:33 off with the web app. And the app is
+0:36 essentially going to be a simulated
+0:38 version of Instagram where every single
+0:40 user except me and you on that Instagram
+0:44 is going to be fake. They're going to be
+0:46 an AI agent that can like photos when
+0:50 they want to, that can comment on photos
+0:52 when they want to, post photos when they
+0:53 want to, and it's just going to be
+0:55 completely simulated universe. So, if
+0:57 you don't have any friends, you can just
+0:58 use use this one.
+1:00 >> What's funny is there was an app 2 years
+1:01 ago that went viral for this and they
+1:03 made a ton of money. So, it's actually a
+1:05 pretty good app idea.
+1:05 >> I'm going to start with the web app on
+1:07 Vibe Code. Here's my first prompt. Make
+1:10 an Instagram clone with Autumn DB. Here
+1:12 we go.
+1:12 >> Okay. So, now we'll just wait for the
+1:14 agent. Okay, so it's been working for 9
+1:17 minutes now. And this is pretty long uh
+1:19 for a prompt. It's it's created a 16step
+1:22 to-do list, completed it, and then now
+1:24 it's working through an eightstep to-do
+1:26 list.
+1:27 >> Yeah, it created two agents in parallel.
+1:29 So these were like working in parallel.
+1:31 >> 43 steps is crazy. Okay, finally we have
+1:34 an update on the front end there.
+1:36 Instagramly. This is crazy.
+1:38 >> Cool. So it just finished. It took a
+1:41 long time. Um but let's test it out. So,
+1:43 I'm just going to put in my email here
+1:46 and wait for the code. I'm just going to
+1:49 check my phone
+1:50 >> right now. He's doing authentication.
+1:52 So, this is I think the best way to do
+1:54 authentication when you're starting out
+1:56 as a vibe coder. Uh just a quick email
+1:58 authentication. So, he's signing into
+2:00 his account. Get a quick message to your
+2:03 email. And here we see looks like the
+2:07 search might not be working. maybe
+2:09 >> search. It didn't It built profile and
+2:11 home and create post and it didn't do
+2:16 search or or notifications. That's
+2:19 completely fine. We just got to tell it
+2:21 to Got it. So, I'm going to do make this
+2:23 dark mode. Search notification pages are
+2:26 giving me 44 errors. Fix that. and then
+2:31 allow me to actually upload real photos
+2:35 as assets or AI generate photos directly
+2:40 inside the app using and then I'll go
+2:44 here
+2:45 >> into our API tab and I'll select
+2:48 >> okay so an wants to add an API uh which
+2:52 allows you to use external services
+2:54 within your app normally you would need
+2:56 to go to these providers and get an API
+2:59 key and set up your credit card to
+3:00 basically give your app access to use it
+3:03 because it's not free to do this. But in
+3:05 vibecode.dev, it's preconfigured so that
+3:08 you can just use it and it will connect
+3:10 to your balance that you see at the top
+3:11 of the screen so that you don't actually
+3:13 have to use your own API key. Keep
+3:15 going.
+3:16 >> Yeah. So, I'm going to add GPD image 1.5
+3:18 which is like the same one you can you
+3:21 use when you use chat GPD. So, if you're
+3:23 like using chat GPD and you're like,
+3:24 "Hey, Chat GPD, make me an image. It
+3:26 looks amazing." I'm using the same one.
+3:27 It's GPD image 1.5. You can see how much
+3:30 it costs. We charge you exactly what
+3:32 OpenAI charges us. So you can use this.
+3:35 You can deploy apps with it. And we give
+3:37 you this service completely for free on
+3:39 top of everything you are with V code.
+3:40 So I'm going to say use this and make
+3:43 the images low quality and square
+3:46 images. I just want like fast images. So
+3:49 I'm like telling it to do low quality.
+3:51 And yeah, uh maybe these few features
+3:53 should be enough for this prompt. Just
+3:55 like solidifying this app a little bit
+3:57 more.
+3:57 >> Cool. Amazing. So, it's done. Let me try
+4:00 generating like an AI image. What should
+4:03 I post about? Um, selfie on the beach.
+4:06 >> Great. Where's dark mode?
+4:08 >> Oh, yeah. It didn't do dark mode. Maybe
+4:09 there's like a button to turn it on.
+4:11 Have to click on it.
+4:12 >> Why is it's like It looked like it
+4:13 optimized it for mobile. It looks like a
+4:15 mobile app.
+4:16 >> I did tell it to to make Instagram, so
+4:18 it might have thought like
+4:19 >> Yeah, see it looks a lot better. Okay.
+4:21 >> Okay. Wow. Of course, that's what selfie
+4:23 is.
+4:24 >> Uh, is a little bit of me.
+4:29 >> [laughter]
+4:30 >> Um, okay. It made this. Uh, I can see I
+4:34 can see that I'm there.
+4:35 >> Okay. Now you have one profile.
+4:37 >> And I'll add my name. I am definitely
+4:40 the person in the photo. Uh,
+4:43 >> great. Change your photo.
+4:45 >> I didn't ask it to do that, so it I
+4:47 guess it didn't. Also, I'm not able to
+4:49 update my profile, but that's okay.
+4:51 >> Okay. One thing that we noticed is since
+4:54 our first prompt, we added
+4:56 authentication and backend. It allocates
+4:58 a lot of its tokens on the back end. And
+5:01 so
+5:01 >> I should have just started with like a
+5:03 simpler prompt.
+5:04 >> Yeah. So what we're going to do here is
+5:06 we're just going to do a full redesign.
+5:07 I just think this looks incredibly ugly
+5:09 and I want this to look good. We have to
+5:11 have high standards. So why don't you
+5:13 enter a prompt here that makes it good?
+5:15 I you know, I got it. Whisper flow it.
+5:17 All right. I want you to make this look
+5:19 a lot better. keep the bottom tab bar. I
+5:22 I think that's fine, but make everything
+5:24 else like show up because like right now
+5:26 I'm on my profile. I don't even see an
+5:28 outline for where my profile is. I don't
+5:31 see my username at all. So, that needs
+5:33 to be fixed. But make it dark mode and
+5:36 it should not be a toggle to turn on
+5:37 dark mode. It should be the default. And
+5:39 I want you to really think about this
+5:40 and put a lot of effort into making this
+5:42 look good. This isn't necessar this is
+5:45 like Instagram, but it is not supposed
+5:47 to look like Instagram necessarily. So,
+5:49 just make some sort of dark theme. Use a
+5:52 really good accent color. Do not do
+5:54 purple. If it's purple, I will hate you
+5:56 forever. And just make it look really
+5:58 good. Is it storing in the database
+6:00 already?
+6:01 >> Should be. Check it out.
+6:03 >> Okay. So, an asked for a database on the
+6:07 first prompt and it automatically
+6:08 created a database and you can just view
+6:10 it right here. And so, the image URL is
+6:13 showing up there. If you go to users at
+6:15 the top left should be able to see you.
+6:17 So, this is where you signed in. and
+6:18 there's your email and everything about
+6:20 you. I recommend I said this in my last
+6:22 video. I recommend if there's one thing
+6:24 that you should learn as a vibe coder,
+6:26 it's how databases work. I think that no
+6:29 matter how good AI models get,
+6:31 understanding the basics around
+6:34 databases and database tables is really
+6:36 important because I think the future of
+6:38 like enterprise software or software for
+6:40 small businesses even are just going to
+6:42 be like many little mini apps connected
+6:44 to the same database and I and you will
+6:47 just be incredibly valuable at your
+6:48 company if you understand them.
+6:50 >> Yeah. So, I did a few prompts just like
+6:52 clean up um the app and make it look a
+6:55 little bit nicer
+6:57 um so it looks a little bit nicer than
+6:59 before. The feature set is basically the
+7:01 same. You can still upload photos. I can
+7:03 upload this photo and say, you know,
+7:05 robot or I can generate photos and now
+7:09 it allows me to edit my profile as well.
+7:12 So, it's it's a pretty decent like
+7:14 Instagram clone where things are
+7:17 working. I can like search for my posts
+7:19 and stuff. Now, we want to add AI
+7:22 accounts. So, this is the cool part. So,
+7:24 we can like literally tell it that I'm
+7:26 going to clear context before just so it
+7:28 has like a fresh set of context. tell it
+7:31 I've made a fully featured Instagram
+7:33 clone where users can create accounts,
+7:35 upload photos, comment, and like um I
+7:39 want to be able to um now have a bunch
+7:45 of AI agents that are operating in the
+7:47 background that are taking decisions
+7:50 themselves about liking, commenting,
+7:52 posting over like certain periods of
+7:54 time and they should work independently
+7:57 to each other. to set it up in a way
+7:58 that they're running independently
+8:00 [snorts] and I should have like an admin
+8:02 panel where I can create new AI agents
+8:06 as like users and so make an admin panel
+8:09 that I can access that has all of this
+8:12 and then yeah just over time like they
+8:14 will just interact with other AIS so
+8:17 they'll either create they can either
+8:19 create a new post using the GPT API
+8:22 which is already implemented in the app
+8:24 or they can or they can comment on other
+8:27 people's posts. So these are their set
+8:29 sets of actions and they can choose to
+8:33 do all of this or they can choose to do
+8:35 none of it and each of them operate in
+8:37 different time frames like maybe one
+8:39 post slots you run it every every second
+8:42 maybe one like goes a lot slower and
+8:44 then in the admin panel allow me to like
+8:47 change the time scale so I can like
+8:49 speed up time or slow down time which
+8:51 will make them operate faster so I can
+8:52 like run them all at 8x just so I can
+8:55 see more things happening but choose
+8:57 realistic time frames. I don't want it
+8:59 to be like overly spammy unless I like
+9:02 speed it up. So yeah, just build this
+9:04 like AI system for me. All the agents
+9:06 should run on GPT 5.2 and they should
+9:09 have use GPT image 1.5 to create images
+9:14 and it they and um load the system with
+9:18 four different personas. one based on
+9:22 Justin Bieber, one based on the rock,
+9:24 one based on Kylie Jenner, and one based
+9:27 on Timothy Shalamé. And they should all
+9:30 post like based on their personalities
+9:32 and give them all like system prompts.
+9:34 And these are all things that should be
+9:35 editable from the admin panel. So this
+9:38 is a beefy prompt, but look, it was
+9:40 formatted pretty nice thanks to Whisper
+9:42 Flow. You can also use Whisper Flow
+9:44 directly inside Vibe Code, but now I'm
+9:46 going to give it the API. So here's GPT
+9:49 5.2. two and here is GP image. So be
+9:54 like here are the APIs I was talking
+9:58 about. Yeah. So
+10:00 >> looks good to me.
+10:00 >> Let's let it run.
+10:01 >> Yeah. I think one thing that I think is
+10:03 really interesting that that you just
+10:05 did now that vibe coding backends and
+10:08 vibe coding things like automations are
+10:10 possible. It's really useful to set up
+10:12 what an did which is this like admin
+10:14 panel where you can speed up time. So if
+10:17 I wanted to set up an automation that
+10:18 would like send me an email every day
+10:20 after lunch, you want to be able to
+10:22 speed that up so you can do faster
+10:24 >> test it. So you there should be like
+10:26 maybe manual way for you to test it,
+10:28 right?
+10:28 >> Yeah, 100%. And so I think that's really
+10:30 useful um to kind of be able to
+10:32 configure everything and that's going to
+10:33 show up in the app interface.
+10:36 >> Yeah, it'll probably show up like
+10:37 slashadmin. I can just go slashadmin
+10:39 here. Obviously it's not done yet. And
+10:41 then you could put in the database like
+10:43 you could tell the agent to like make
+10:45 only a certain user's email accessible
+10:49 to like the admin panel so that like any
+10:51 users you might get in the future can't
+10:52 just change the app.
+10:54 >> Yeah. But you have to like build all
+10:55 this stuff out. That's why vibe coding
+10:56 is such a skill because the AI is not
+10:59 going to like figure out what you want
+11:01 it. It can't read your your mind. And so
+11:04 >> you'll have to tell it all these
+11:05 different things. No matter if it gets
+11:07 10 times better, it can't read your
+11:08 mind, right? And so that's why vibe
+11:10 coding is such an important skill that
+11:12 you should learn.
+11:13 >> Mhm.
+11:14 >> Okay, cool. So we just finished this
+11:17 app. It says done.
+11:20 >> So in the top of the screen you have the
+11:21 URL and what an is showing you is you go
+11:24 to slashadmin. Like if you remove admin
+11:26 real quick and press enter like it's
+11:28 just going to the base URL. That's like
+11:29 the homepage.
+11:30 >> Yeah. If I go to profile, I can go to
+11:32 profile. You can also just like click on
+11:34 these and see how it changes. But I'm
+11:37 just going to go to admin cuz it told me
+11:39 that like the admin is on /admin. So I'm
+11:42 going here and now I imported these like
+11:45 four agents. Timothy Shalamé, Kylie
+11:48 Jenner, Dwayne the Rock Johnson, and
+11:50 Justin Bieber. And they're they're going
+11:52 to be acting in their like own domain.
+11:55 You can see that they posted like
+11:57 Timothy Shalamé says love the
+12:00 >> very elegant feels like a quiet sci-fi
+12:02 poem. And I said, "Yo, this or Justin
+12:05 Bieber said, "Yo, this fire clean work,
+12:06 bro." So they're commenting on my sci-fi
+12:09 looking post. And so they are also going
+12:13 to post eventually based on on their
+12:17 time horizon. I can speed it up.
+12:19 >> Yeah. Go all the way.
+12:20 >> So none of them have posted yet, right?
+12:22 >> No, you can see like zero posts for
+12:24 anyone. I can see Timothy commented once
+12:27 and Justin commented once. They're both
+12:28 on me. Kylie probably liked my post and
+12:31 so did Dwayne. Yeah, but they need they
+12:33 need uh posts to comment, you know? So,
+12:36 like you got
+12:37 >> Dwayne said, "Robot vibes are strong on.
+12:40 Keep grinding. Let's go, dude. Too many
+12:42 M dashes."
+12:43 >> Yeah, [laughter]
+12:45 clearly they're like prompts are not
+12:47 very good, but they're going on now.
+12:49 Let's wait for someone to post. Let's
+12:51 hope hopefully someone posts soon. Oh,
+12:53 we see Kylie Jenner posted twice.
+12:55 >> Makes sense that she posted twice.
+12:56 >> There we go. Kylie Jenner. [laughter]
+13:00 >> Golden hour glam in my sand robe. Lip
+13:02 kitten hand roses plus silk sheets.
+13:04 Obsessed.
+13:05 >> Timothy Shalamé said, [laughter] "Wait,
+13:07 isn't he married to Kylie Jenner?" Oh,
+13:09 >> they're dating. Oh, they're
+13:10 >> dating. Okay. Okay. So, this is my doc's
+13:12 page. I made it return like raw text.
+13:15 So, it's like super easy to copy paste.
+13:17 You could also ask it to just put a a
+13:19 button to copy paste. So, I'm just going
+13:20 to copy paste this. So, I'm going copy
+13:22 it. Open a new project with Vibe Code.
+13:24 Create a mobile app. I'm going to be
+13:26 like, I want you to build me a view only
+13:29 version of Instagram. I already have the
+13:32 backend for it that I built in a
+13:33 different project and I'm going to give
+13:35 you the documentation for that. I want
+13:37 you to just build a mobile app that
+13:38 allows me to view this Instagram clone
+13:42 content in a mobile app format. Make it
+13:45 look really good just like Instagram. Uh
+13:47 we'll add more features later, but for
+13:49 now just make it view only. And then
+13:51 I'll say here is the documentation
+13:55 for the back end and I will paste what I
+13:59 >> from the doc
+14:00 >> from here. Yeah.
+14:00 >> Cool.
+14:01 >> And then now we wait for the agent to be
+14:04 done. Y
+14:04 >> okay. So we still have five steps left
+14:06 but looks pretty good so far. It hasn't
+14:09 added icons in the bottom tab yet, but
+14:11 we can see all the posts.
+14:12 >> We can see all the posts. We can see
+14:14 that they're like the exact clones of
+14:16 the posts here. We can see this this VIP
+14:18 code post. There's this a Justin Bieber
+14:20 post, Dwayne the Rock Johnson post from
+14:23 before. So everything is loading up. We
+14:26 can see like it's still building, but
+14:27 like you can see that there two likes on
+14:29 this post. And I guess there's one like,
+14:32 but maybe this one hasn't reloaded yet.
+14:35 Now there's three likes. There's
+14:36 probably three likes now on this one,
+14:37 too. Yeah, there.
+14:38 >> Yeah. Wow, that's crazy. Very cool.
+14:40 We'll wait for it to finish.
+14:41 >> Cool. So, we can see it's done. It added
+14:44 some nice tabs. We can see this explore
+14:46 page with all the posts as well. Wow,
+14:48 dude. There's a lot of posts
+14:50 >> and yeah, it looks great. This is like a
+14:52 good recommended way to build a mobile
+14:55 app, which is like make it as a compion
+14:57 to a web app versus like building it as
+15:00 the only version of the app cuz you can
+15:01 do a lot more complicated things on web.
+15:03 And yeah, you can see I can see all my
+15:05 posts like all the data is synced. I
+15:08 could add authentication as well like
+15:10 build this fully functional if I wanted
+15:12 to. It would just require like doing the
+15:14 same steps again, right? I told it to
+15:17 give me all the instructions I should
+15:19 add for authentication and it gave me
+15:22 all these instructions. And if I went
+15:24 back to the docs page, I could I copy it
+15:27 again and I could be like, hey, you
+15:29 know, make sure to implement this
+15:30 authentication. We can do that in a
+15:32 different video, but I have this running
+15:35 in this like sort of mobile app now. And
+15:37 this is a fully native mobile app. You
+15:39 can see it's running on my phone as
+15:41 well. I have everything working. I have
+15:43 like all this like native code. You can
+15:46 see these like but buttons on top are
+15:48 native. I could add like native tab bars
+15:50 in the future I want if I wanted that as
+15:52 well. Um but it's like a fully native
+15:55 app running and it's nice like this
+15:57 native app cuz my phone's in dark mode
+15:59 is dark mode automatically. We don't
+16:01 have to mess around with that. But yeah,
+16:02 it's working pretty well and I have this
+16:04 like logged out version of Instagram
+16:06 running on this phone in just one
+16:08 prompt.
+16:08 >> That's one prompt which is actually
+16:10 pretty crazy. All right, guys. Well, I
+16:12 hope you learned a lot from this video.
+16:14 We created a web app. We created a
+16:15 mobile app that connected to that web
+16:18 app. And I hope you got some ideas. If
+16:20 you have some ideas on what we should do
+16:22 in the next video, please let us know.
+16:24 We're down to build anything. We have a
+16:26 lot of really insane videos coming up.
+16:28 Uh we're going to start talking about
+16:30 building our own agents in the future,
+16:31 which is going to be really fun. So,
+16:34 yeah, I'll see you here for those
+16:35 videos. I appreciate it. Thanks so much.
+16:38 Peace.

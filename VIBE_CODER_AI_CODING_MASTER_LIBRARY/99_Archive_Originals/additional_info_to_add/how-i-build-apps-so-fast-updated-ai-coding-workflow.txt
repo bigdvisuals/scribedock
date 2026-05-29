@@ -1,0 +1,563 @@
+How I Build Apps So Fast (UPDATED AI coding workflow)
+
+0:00 It's been a few months since I've talked
+0:01 about my coding workflow, but so much
+0:02 has changed that I figured it was time
+0:04 for an update. In this video, we're
+0:05 going to go over all the new stuff I've
+0:07 added to my coding workflow, why I'm
+0:08 paying for both Claude Code and Cursor,
+0:10 how I'm doing automated testing on both
+0:12 iOS and web, and a few features that
+0:14 have completely changed how I work. If
+0:16 you're new here, welcome to the video.
+0:17 My name is Chris, and I build
+0:18 productivity apps, and today we're going
+0:19 to be going over my coding workflow. A
+0:21 quick heads-up, this is more of an
+0:23 advanced workflow video, and I really
+0:24 wanted to focus on what's new with my
+0:26 workflow. If you want the basics on how
+0:28 I use plan mode, debug mode, how I use
+0:30 dictation, I will leave a link in the
+0:31 description to my other videos. Today is
+0:33 about the newer, less obvious stuff.
+0:35 Real quick, let's talk about the models
+0:36 that I'm using before we dive in. I'm
+0:38 using Opus 4.7 in Claude Code, and
+0:40 specifically, I run everything in max
+0:43 mode, and I'm using GPT 5.5 extra high
+0:45 in Cursor. Both of these are the latest
+0:48 models at the time of reporting. 70% of
+0:49 my coding is in Claude Code, and the
+0:51 other 30% is in Cursor, and I'll cover
+0:53 when and how I switch later in the
+0:54 video, but first, let's go over some of
+0:56 the cool new stuff that I want to show
+0:57 you guys. The biggest unlock I've had
+0:59 over the last few months is getting
+1:00 Claude Code and Cursor to use my app and
+1:03 help me automate testing. Usually, the
+1:05 way that I, and I'm pretty sure a lot of
+1:07 you guys test, is you have Claude Code
+1:09 implement a fix, and then you have to
+1:10 run the simulator, and then check and
+1:12 make sure everything works. On iOS
+1:14 specifically, I found something new
+1:15 called Xcode Build MCP. It's a free MCP
+1:18 tool made by the people at Sentry, and
+1:20 it lets Claude Code and Cursor basically
+1:22 do 90% of what you can do in Xcode. When
+1:24 you give Claude Code this MCP, it can
+1:27 build the app, it can run the simulator,
+1:28 it can take screenshots, it can tap on
+1:30 things on the screen, and it can pull
+1:32 all of the logs. So, now whenever I'm
+1:33 fixing a bug, I just have to tell Claude
+1:35 Code, "Can you make this change?" and
+1:37 then verify it works in the simulator
+1:39 using Xcode Build MCP. And when it's
+1:41 done, if everything's working properly,
+1:43 you should just see the simulator open,
+1:44 and Claude Code will take control of the
+1:46 simulator and start tapping and testing
+1:48 for you. And it has the ability to take
+1:50 screenshots and access the logs, so no
+1:52 more copy and pasting logs from Xcode
+1:54 into Claude Code, or dragging
+1:56 screenshots into Claude Code, it is all
+1:58 handled for you. And because of this, I
+1:59 can actually keep Xcode completely
+2:01 closed when I'm building iOS apps. I can
+2:03 just have Claude code open and it'll do
+2:05 everything Xcode can do. There are still
+2:07 a few things that Xcode build MCP can't
+2:09 do. It's like maybe 10% of things, and
+2:11 that includes changing Xcode specific
+2:13 settings where it's easier to just open
+2:15 up Xcode and change it directly, or
+2:16 testing anything that requires complex
+2:18 multi-gestures. So in my daily planning
+2:20 app Ellie, I have this ability to
+2:22 reorder a list. Unfortunately, Xcode
+2:24 build MCP does not have the ability to
+2:26 test this for me, so I have to manually
+2:28 do that part myself. But it does have
+2:30 access to the log, so once I'm done
+2:31 manually testing that myself, I can have
+2:33 it read the logs directly, and at least
+2:35 that part is automated. But outside of
+2:37 the multi-touch gesture stuff, 90% of
+2:40 everything I need is handled by this
+2:41 MCP, and again, I just don't have Xcode
+2:43 open most of the time. On the web, it's
+2:44 actually much easier for Claude code.
+2:46 I'm specifically using something called
+2:48 Claude with Chrome. It's kind of the
+2:49 same idea, but instead of giving Claude
+2:51 code a simulator, you can actually give
+2:52 it an instance of Google Chrome. And the
+2:54 way you run this is first, you install
+2:56 the Claude Chrome plugin, and then you
+2:58 run Claude {dash} {dash} Chrome, and
+3:00 then you'll see that Claude has the
+3:01 ability to control Google Chrome. So now
+3:03 I can test my app, take screenshots, and
+3:06 even read the console. So no more
+3:07 pasting logs between Chrome and Claude
+3:09 code anymore. And if you're using
+3:10 Cursor, it's even easier because they
+3:11 have a built-in browser that does all of
+3:14 this stuff for you. Previously, my
+3:15 workflow was I told Claude code
+3:16 something's broken, it goes and fixes
+3:18 it, then I manually have to go verify
+3:21 that the thing is fixed, and then if
+3:22 it's not, I have to take screenshots, I
+3:24 have to paste console then I have to go
+3:25 back to Claude code and say, "Hey, it's
+3:27 still broken. Can you try fixing it
+3:28 again?" And then we repeat this process
+3:30 over and over again until the issue is
+3:32 fixed. But now with the Xcode build MCP
+3:34 and Claude with Chrome, I just have to
+3:35 tell it, "Hey, can you fix the problem?"
+3:38 and then go verify it by using Xcode
+3:40 build MCP or Claude with Chrome, and
+3:42 keep going until you fix it. And I let
+3:44 Claude code run for like 20-30 minutes,
+3:46 and then by the time I get back, the
+3:47 issue is fixed. [music] This is
+3:49 game-changing because it makes context
+3:50 switching much easier because I can let
+3:52 Claude code run for a longer period of
+3:55 time without intervention. While we're
+3:56 talking about automating things, the
+3:57 second biggest unlock I found is using
+4:00 MCPs and CLIs way more than I was a
+4:03 couple months ago. When I made my last
+4:05 Claude code workflow video, I was barely
+4:06 using MCPs. I think I was just using the
+4:08 Superbase MCP. But now I am fully
+4:11 addicted to using MCPs and CLIs, and I
+4:13 genuinely cannot imagine working without
+4:15 them now. Let me show you what this
+4:16 looks like in practice with a production
+4:18 application of mine. If a user emails me
+4:20 and says, "Hey Chris, the app keeps
+4:22 crashing when I open the settings page."
+4:23 The old me would spend an hour digging
+4:26 through logs. I would have to go into
+4:28 Sentry, which is what I'm using to look
+4:30 at crashes in the apps. I would have to
+4:32 go into my database, look at the user's
+4:34 data to figure out is there something
+4:36 that got corrupted? Is there something
+4:37 weird going on? And then sometimes I
+4:38 would have to go into Axiom to go look
+4:40 at server logs. I would have to go to a
+4:42 bunch of different services to piece
+4:44 together what happened at the time of
+4:46 crash. But now because I've hooked up
+4:47 all of these services as MCPs or CLIs, I
+4:50 can just ask Claude code, "Hey, this
+4:53 specific user, here's their email, they
+4:55 reported a crash in the settings page.
+4:57 Can you go figure out what happened?"
+4:59 And then I tell it, "Feel free to check
+5:00 out Sentry, Axiom, or Superbase or
+5:02 Firebase using the CLIs or MCPs you have
+5:04 available to debug [music] this." And
+5:06 now what it's going to do is it's going
+5:07 to use the Superbase MCP to pull up that
+5:10 user's account info. It's going to check
+5:12 if the settings look weird. It's going
+5:13 to pull Sentry to see if there's any
+5:15 crashes for this specific user. And
+5:18 within Sentry it's also going to check
+5:19 what specific iOS version is the user
+5:21 using? Is there anything weird that
+5:22 sticks out with their specific device?
+5:24 Like are they on an older operating
+5:25 system or something? And if you
+5:26 configure Sentry correctly like I did,
+5:28 it'll even show you where in the code
+5:30 the crash actually occurred. And if for
+5:32 some reason it needs the back end logs,
+5:34 it has the ability to pull Axiom, which
+5:35 is what I'm using for all of the logging
+5:37 as well. Hooking up these tools directly
+5:39 into Claude code cursor has been
+5:41 game-changing for my workflow because
+5:42 now I don't have to go into all of these
+5:45 services and try to piece everything
+5:46 together, which would have me like 45
+5:48 minutes. Instead, I can just have Claude
+5:49 code do it and it will figure all of
+5:51 this out in like 3 minutes. Almost every
+5:53 major developer service has some sort of
+5:55 MCP or CLI available and there's really
+5:57 no reason not to use it. Now, quick tip,
+5:59 if you're trying to figure out, should I
+6:00 use the MCP or the CLI? My default is to
+6:04 actually use the CLI whenever possible.
+6:06 The reason is after talking to some
+6:07 engineers who know way more than I do,
+6:09 they told me that in most cases the CLI
+6:11 is a bit more efficient in terms of the
+6:13 context window, so it eats a lot less
+6:15 tokens than the MCP servers. And in
+6:17 general, I feel like the agents just
+6:19 know how to use the CLIs a little bit
+6:21 better than the MCPs. But honestly, you
+6:23 can't go wrong. If you use either, you
+6:24 should be good. Next thing I want to
+6:25 highlight in my workflow is what am I
+6:27 using to do code reviews? I get this
+6:29 question a lot on my channel and I have
+6:30 recently started using a service called
+6:32 Greptile and a huge shoutout to them for
+6:34 actually sponsoring this video. But even
+6:36 if they weren't sponsoring, this is the
+6:37 tool that I would be using anyway.
+6:39 Greptile is an AI code review service,
+6:41 so every time I open a pull request on
+6:43 any of my apps, Greptile will review the
+6:45 pull request and try to surface issues,
+6:48 which is huge for me because as a solo
+6:50 developer, I don't really have anyone
+6:51 reviewing my code and I'm shipping a ton
+6:54 of PRs every single day. I was
+6:55 previously using Cursor's BugBot, but
+6:57 I've switched over to Greptile and I
+6:58 don't know how they pulled this off, but
+7:00 it is really good at reviewing code. I
+7:03 ran BugBot and Greptile simultaneously
+7:06 on like 60 PRs over the last month and a
+7:08 half and Greptile has been noticeably
+7:10 better. If you want proof of what this
+7:12 looks like in practice, I recently
+7:13 open-sourced my AI agent, so you can go
+7:15 check out the code, but I have Greptile
+7:17 set up on the repo. So, if you go to the
+7:19 pull request tab, you can see Greptile
+7:21 running and reviewing each of the pull
+7:23 requests and you can see Greptile in
+7:25 action just by looking at the comments.
+7:27 I'm pretty sure on like 95% of the pull
+7:29 requests I've opened, it has caught at
+7:31 least one [music] valid thing. The setup
+7:33 is dead simple. You sign up for
+7:34 Greptile, you link the repos you want it
+7:36 enabled on, you toggle it on, and then
+7:38 from that point every PR that you open
+7:40 will get automatically reviewed. [music]
+7:41 And here's my specific workflow, which
+7:43 has been a huge unlock for me. When I'm
+7:45 shipping a feature, I open a pull
+7:46 request and then Greptile's going to
+7:48 review it. Then I tell Cloud Code, "Can
+7:50 you wait for Greptile to finish
+7:51 reviewing and then go through every
+7:53 comment, fix anything that's real, and
+7:55 keep looping until Greptile gives you a
+7:57 five out of five?" Greptile actually
+7:59 grades your PR with a score, and so I
+8:00 basically have Cloud Code just looping
+8:02 and iterating until it hits a five out
+8:05 of five. And that's when I know that the
+8:06 PR is ready to ship. I'll leave a link
+8:08 in the description if you want to check
+8:09 Greptile out. 14 days to try it, no
+8:11 credit card required. I think the
+8:12 service is like $30 a month and it is
+8:14 well worth it for the peace of mind that
+8:16 it gives me, especially as a solo
+8:17 developer who has no one to review the
+8:19 pull request for them. That's the newest
+8:21 tool that I've added to my workflow and
+8:22 I've been seriously impressed by what
+8:24 it's been able to catch. The next
+8:25 feature I want to talk about is
+8:26 something that I thought everybody knew
+8:28 about, but people have been pretty
+8:29 surprised when I bring it up, and it's
+8:30 called remote control. Basically, it's a
+8:32 way for you to continue a session that
+8:34 you have running on Cloud Code on your
+8:37 phone or desktop, but I primarily am
+8:39 using it on my phone, which is huge for
+8:40 me because I'm constantly having to
+8:42 leave the house and run errands every
+8:43 time I'm in the middle of some sort of
+8:45 coding session with Cloud Code. The way
+8:46 it works is if you have Cloud Code
+8:48 running on your computer, you can type
+8:50 {slash} remote control and it lets you
+8:52 continue the exact same session on your
+8:55 phone. So, if you open the Cloud app,
+8:56 you'll go to code, you'll see that
+8:58 session appear there and you can
+9:00 continue it like nothing happened and it
+9:01 will sync between the two devices.
+9:03 Again, huge if I'm in the middle of a
+9:05 coding session and then I have to go to
+9:06 the grocery for some reason, I can then
+9:08 continue the session while I'm on the
+9:09 go. Probably a little unhealthy, but I
+9:11 will own up to that. I actually had the
+9:12 opportunity to talk to Boris himself,
+9:14 who's the one who created Cloud Code,
+9:16 and I asked him, "What is the coolest
+9:17 feature and the biggest workflow hack
+9:19 that you have?" And this is the one that
+9:20 he mentioned. He also gave me another
+9:22 tip that you can actually run {slash}
+9:23 config and then you can have it set
+9:25 where every time you start Cloud Code,
+9:28 it's going to automatically start a
+9:30 remote control session. So, now I have
+9:32 this running as well. You're probably
+9:33 wondering, "Is there something for
+9:34 Cursor?" There are Cursor Cloud agents
+9:36 and they work really great. I still use
+9:38 them for certain things, but the reason
+9:40 I prefer Claude Code's remote control is
+9:42 because Claude Code has access to all of
+9:45 the MCPs and CLIs I have on my device.
+9:47 But, when you're using Cursor's cloud
+9:49 agents, you really only have access to a
+9:51 handful of remote MCPs. Now, there are
+9:53 some workarounds to get specific CLIs
+9:55 and some other local only MCPs working,
+9:57 but it is such a hassle to set up, and
+9:59 I've just been too lazy to do it, to be
+10:01 honest. Now, in terms of what I'm using
+10:02 to run Claude Code, I'm actually using
+10:04 an app called C Mux. And then Cursor is
+10:06 obviously just Cursor. But, if you saw
+10:07 my other videos, I used to run Claude
+10:09 Code directly in the Cursor terminal. I
+10:11 have recently switched over to C Mux,
+10:13 and here are a few reasons why. The
+10:15 first is that C Mux has a really nice
+10:17 sidebar, so I'm able to see all of my
+10:19 projects on the left, and then I can
+10:21 open up as many windows as I want in the
+10:22 right, and it's really intuitive to do
+10:24 this. But, it makes juggling multiple
+10:26 projects, which I'm constantly doing,
+10:28 really easy. The second reason is it has
+10:29 built-in notifications. So, when a
+10:31 specific Claude Code instance needs my
+10:33 attention, C Mux will ping me, and then
+10:35 when I click it, it'll automatically
+10:37 open to the relevant window. And it
+10:38 actually even highlights which window
+10:40 needs my attention. And this is really
+10:42 important if you're like me, and you're
+10:43 running like 10 Claude Code instances at
+10:45 once at all times. Now, the third
+10:46 reason, and arguably the most important
+10:48 reason I'm using C Mux, is it is
+10:50 incredibly lightweight when it comes to
+10:53 memory on my device. I've noticed that
+10:55 when I'm using Claude Code inside of
+10:57 Cursor, this thing is consuming RAM, and
+11:01 my computer gets really slow. And I have
+11:03 a very, very powerful computer. I got
+11:05 like
+11:06 >> [music]
+11:06 >> 64 gigs of RAM, and this is an M4 Max,
+11:09 but it still struggles when I have like
+11:12 five instances of Claude Code running
+11:14 inside of Cursor. I rarely have that
+11:16 problem when I'm running like 20
+11:18 instances of Claude Code inside of C
+11:20 Mux. It does just fine. The memory
+11:21 footprint is really light. Now, in terms
+11:23 of Claude Code itself, the model I'm
+11:25 using is Opus 4.7, and I'm specifically
+11:28 running it on Max mode, which is the
+11:29 highest thinking mode that you can set
+11:31 it at. I'm on the $200 a month max plan
+11:33 and I've had zero issues with the rate
+11:35 limit so far. Another tip, whenever you
+11:37 start a new Claude Code session, it is
+11:39 going to default to medium thinking. I
+11:41 got kind of annoyed having to set it to
+11:43 max every single time and I realized
+11:45 there's actually a flag that you can set
+11:47 and when you set this, every new session
+11:49 is automatically going to start with max
+11:51 thinking enabled. So, I have that set
+11:53 right now. Honestly though, you could
+11:54 get away with extra high or even medium
+11:56 in most cases, but I set it to max just
+11:58 because I have the $200 a month plan. On
+12:00 that note, a lot of people keep telling
+12:02 me, I feel like Claude Code just doesn't
+12:03 get it, it's just not that smart. In
+12:05 most cases, I usually tell them, can you
+12:07 check what model you're using and what
+12:08 thinking mode? And over half the time,
+12:10 they have it set to Sonnet and medium
+12:13 thinking. And I tell them, okay, well,
+12:14 that's why. That is not that great of a
+12:16 settings. I mean, it's probably good for
+12:17 most coding tasks, but in my case,
+12:20 almost all the tasks that I run, I have
+12:22 to run them in Opus and max mode to get
+12:24 the best results. Another setting I have
+12:26 turned on is that I'm using Claude Code
+12:28 in what's called no flicker mode. So, I
+12:29 think this is a beta thing at the time
+12:32 of recording, but they have this new
+12:33 rendering mode where it'll render a
+12:35 little differently in the terminal
+12:36 compared to if you have this off. You
+12:38 don't lose anything out in terms of
+12:39 functionality, but there are a few key
+12:41 differences. Like, for example, when I
+12:43 scroll through a conversation, the text
+12:46 input bar stays pinned to the bottom.
+12:48 There's this little button that appears
+12:49 where I can click it to scroll to the
+12:50 bottom. It's also just a little bit
+12:52 smoother when it comes to scrolling,
+12:53 too. But, the biggest thing that it
+12:55 gives you is you can click directly in
+12:57 the text input field and the cursor will
+12:59 jump to that position. It's really
+13:01 annoying on the default Claude Code
+13:03 experience where you have to keep
+13:04 tapping [music]
+13:05 to move your cursor because for some
+13:06 reason clicking does nothing. There's a
+13:08 few other small quality of life
+13:10 improvements that come when you use no
+13:11 flicker mode, but these are the two I
+13:12 wanted to highlight. You can probably go
+13:14 online and check the full list and then
+13:15 I would just enable this and it does
+13:17 feel like a meaningful step up in terms
+13:19 of experience. So, this is the flag you
+13:20 need to set. When you do it, no flicker
+13:22 mode will be turned on. I mentioned in
+13:23 the beginning of the video that I'm also
+13:25 using Cursor for about 30% of my tasks.
+13:27 so why am I doing that? Claude code
+13:29 seems completely fine. Well, there are
+13:31 some cases where Opus 4.7, even with max
+13:33 thinking, just does not get the task.
+13:36 And specifically, this happens with very
+13:38 complex bugs with a lot of edge cases.
+13:40 For those bugs, that's when I switch to
+13:42 cursor, and I specifically use GPT 5.5
+13:45 extra high with the 1 million context
+13:48 window. Probably the most controversial
+13:49 thing I'll say in the video, but in my
+13:51 experience, GPT 5.5 extra high 1 million
+13:54 context window is better than Opus 4.7
+13:57 max thinking at majority of tasks,
+14:00 especially if the task is very complex.
+14:03 I'll give you an example. In my daily
+14:04 planning app, I have this feature called
+14:06 recurring tasks. It is a very
+14:08 complicated feature. It touches like 50
+14:10 parts of the code base across multiple
+14:12 repos. It's a very complex system. And
+14:14 when something breaks in the system, I
+14:16 have to consider like a dozen different
+14:17 edge cases. Every time I use Opus 4.7
+14:20 for this, it fixes the bug, but then two
+14:22 or three other things break in the
+14:23 process. But I found that GPT 5.5 with
+14:26 extra high usually is able to think
+14:29 through these edge cases and solve it in
+14:31 one or two goes. You're probably
+14:32 wondering, why don't I just use GPT 5.5
+14:34 extra high for everything then? The
+14:36 answer is cost. It is a ridiculously
+14:38 expensive model to run. I'm on the $200
+14:41 month cursor ultra plan, and I've
+14:42 noticed that all the credits get
+14:44 evaporated after a few days of using
+14:46 this model. But it's also a massive
+14:47 overkill for like 90% of the tasks that
+14:49 I'm working on. So, my rule of thumb is
+14:51 I try to use Opus 4.7 and Claude code
+14:54 for the task. But if it's struggling to
+14:55 get it, or I have a hypothesis that it's
+14:57 not going to get it, then I switch to
+14:59 GPT 5.5 extra high with the 1 million
+15:02 context window. And yes, I have the $200
+15:04 month max plan and the $200 month ultra
+15:07 cursor plan. So, that's $400 a month in
+15:10 AI tooling, but because I make a living
+15:12 building apps, that cost is totally
+15:14 worth [music] it, to be honest. I'll
+15:15 probably get a couple comments asking,
+15:16 why don't I just use Codex instead of
+15:18 cursor? I do actually have the the a
+15:20 Codex plan just to test things out, but
+15:22 in my experience, I just enjoy the
+15:24 cursor experience a lot more where I
+15:26 prefer to use it whenever possible. But,
+15:28 I will say Codex has an extremely good
+15:30 Mac app, and I heard there's rumors that
+15:32 they're going to release an iOS [music]
+15:33 app, so I'll be constantly testing it,
+15:35 and if anything changes, you guys will
+15:37 be the first to know. So, a quick recap
+15:38 here. Here are the things that I would
+15:39 steal. The first is use Xcode Build MCP
+15:42 if you're building an iOS app, so you
+15:44 don't have to use Xcode anymore. And if
+15:45 you're building on web, use Claude with
+15:47 Chrome or Cursor's web browser to do
+15:49 your testing. If you have not tried to
+15:51 automate the testing workflow, please do
+15:53 it because it's one of those things that
+15:55 doesn't click until you do it. But, now
+15:56 that I've done it, I actually just
+15:57 cannot go back. [music] Second, try to
+15:59 use MCPs and CLIs wherever possible. It
+16:01 has been game-changing in terms of
+16:03 production debugging. If you haven't
+16:04 done it before, it is also
+16:05 game-changing. I feel like I've been
+16:07 using that word 100 times in this video,
+16:08 but really, these things are actually
+16:10 kind of game-changing for my workflow.
+16:12 Third, get some sort of AI code review
+16:14 system in place like Greptile. It is
+16:16 massive for me as a solo developer. I
+16:18 don't have anyone to review my PRs, and
+16:19 it really helps me sleep at night. Last,
+16:21 spend some time looking at the Claude
+16:23 code configurations. If you type {slash}
+16:24 config, you should see a list of
+16:26 settings. Go through all of them and
+16:28 really customize Claude code to work
+16:29 with your workflow. And if you haven't
+16:31 tried remote control and coded on your
+16:33 phone before, please do it. I will warn
+16:34 you, it is kind of addicting and
+16:36 probably a little unhealthy, but it has
+16:37 been massive in terms of being able to
+16:40 continue sessions while I'm on the go
+16:42 and just not disrupting my workflow.
+16:43 That's basically all the new stuff. If
+16:45 you want the basics of my workflow,
+16:46 again, I will leave a link in the
+16:47 description to my two videos on Claude
+16:50 code and Cursor. But, if you like this
+16:51 content, check out my Instagram and
+16:52 TikTok. I post almost every other day
+16:54 about building productivity apps. And
+16:55 obviously, if you like this content,
+16:56 don't forget to subscribe. Thank you
+16:58 guys so much for watching, and I will
+16:59 see you guys in the next video.
+17:01 >> [music]

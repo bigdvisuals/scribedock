@@ -1,0 +1,814 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=NMSo2fkjauw
+Channel: Riley Brown
+Video ID: NMSo2fkjauw
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 AI generated images and videos are
+0:02 taking over the internet and I don't
+0:04 think people realize how easy it is to
+0:06 build apps that use this technology. And
+0:08 there are people making all the way up
+0:10 to 150K per month using these APIs. And
+0:14 in this video, we're going to talk about
+0:16 how you without any coding experience
+0:18 can actually build apps and how you can
+0:20 actually test and compare all of these
+0:22 images and video models to best create
+0:25 an experience that uses this AI
+0:27 technology in a novel way. Let's just
+0:29 dive straight into the video. Okay. So,
+0:32 this is going to be a real time image
+0:35 editing platform that you can make with
+0:37 Replicate. So, let's say let's generate
+0:40 an image of a unicorn.
+0:45 Oh, wow. The loading. Let's wow. Make
+0:49 this a 90s character style.
+0:58 Let's give this unicorn a rainbow mane.
+1:06 And let's give it two horns.
+1:09 This is awesome. I'm going to show you
+1:11 some examples, some more examples of how
+1:13 you can sort of play around with some of
+1:14 the parameters that are exposed. Um, but
+1:17 this is just like a really simple app
+1:19 that one of our replica uh staff members
+1:22 just vibe coded in in a couple of hours.
+1:26 We used uh OpenAI real time API. Um,
+1:29 that's what gets us to just like have a
+1:31 natural conversation with the app and
+1:34 Flux Context Max. So that's doing the
+1:36 image editing. The image creation is
+1:38 Flux Chanel also on replicate. Um, and
+1:42 yep, all created in cursor. We just pop
+1:44 in the replicate API docs and there you
+1:47 go. That's amazing. I love it. All
+1:49 right. So, this is the the explore page
+1:52 of replicate. I love how you described
+1:55 it, Riley. It's just like kind of like
+1:56 an app store for all the latest AI
+1:58 models where you can just see what's
+2:00 what's the latest. You can test them
+2:03 super quickly. You can fine-tune models.
+2:05 You can put up your own models, which is
+2:08 something that not not a lot of people
+2:09 know about. you can we provision GPUs
+2:12 for your models so you don't have to
+2:14 worry about any of the backend
+2:15 infrastructure. Um but if you want to
+2:18 use one of the latest like
+2:19 state-of-the-art models, we've have
+2:22 quite a few of them featured here. So
+2:24 like for instance, bite dance just came
+2:26 out with video and image models. We have
+2:28 cling, we have Google, we have V3, which
+2:31 has been super super huge. Um ID, Black
+2:34 Force Labs, Flux models. These are all
+2:37 just like our featured main ones right
+2:39 now. And then we have official models.
+2:41 So we even have like your open AI models
+2:43 like we have one, we have GPT 4.1,
+2:47 GPT40,
+2:48 like all of these you can sort of just
+2:51 access all these state-of-the-art models
+2:53 with one singular API key. And I think
+2:55 that's like the biggest draw of
+2:56 replicate is you don't have to like go
+2:59 to OpenAI, you don't have to go to
+3:00 Anthropic and test them all out. You can
+3:02 just stay here and sort of plug and play
+3:04 with all of them. Yeah. And for those of
+3:06 you who are watching who are completely
+3:08 untechical, what's important to
+3:09 understand is like all of these have an
+3:11 input and an output. These are AI models
+3:13 that you can plug into any workflow that
+3:15 you want. So whether you want to build
+3:16 an app and sell it commercially right
+3:19 here, you can see that this has a text
+3:21 prompt. And so this is the the example
+3:23 prompt for this one looks like the sun
+3:25 slowly between tall buildings, etc.,
+3:27 etc., etc. And it allows you to just
+3:30 type in a prompt and you get this video.
+3:33 And if you can create an app or come up
+3:35 with some interface as he showed
+3:37 previously with the voice input, right?
+3:39 And interfaces are incredibly important
+3:41 whether you're on web or mobile, you can
+3:43 create these interfaces that make using
+3:45 this technology more more fun, more
+3:48 useful. You can give them access to AI
+3:51 agents who can actually go out and use
+3:52 these. That's kind of what he's showing
+3:54 you right now is there's inputs and
+3:57 there's outputs and these different
+3:58 models yield different inputs, different
+4:00 outputs for different costs. And so
+4:02 these are all decisions you have to make
+4:03 when designing a creative product. And
+4:05 yeah, I just wanted to uh provide a
+4:07 little bit of context there. So this is
+4:08 what we call model page. When you click
+4:10 onto a model, you can see all the
+4:12 different parameters. So like for
+4:14 instance, this is a video model. We have
+4:16 prompt. We have starting image if you
+4:18 wanted to pass in like a key frame that
+4:20 your video starts from and then creates
+4:22 the image from there. Duration,
+4:24 resolution, aspect ratio. You can just
+4:27 sort of plug and play with all of these
+4:28 and then get different outputs. As for
+4:30 pricing, we are super transparent about
+4:32 pricing and we clearly list what prices
+4:35 look like. So for instance, uh this by
+4:37 dance model is is 3 cents per second of
+4:40 output video. And um you know we and
+4:43 these are for different resolutions as
+4:45 well. So 480p versus 1080p are different
+4:47 prices. Um, so yeah, you know, we have
+4:50 all the information here just for like
+4:52 you to test out what whatever works for
+4:54 you, whatever works for your use case.
+4:57 And you know, you can just sort of in
+4:59 our search for instance, you don't even
+5:01 have to know the type of model that
+5:03 you're looking for. Like I I'm looking
+5:05 for a video model, but I don't know
+5:07 what's called seed dance one, for
+5:08 instance. Or maybe I'm looking to edit
+5:10 images, but I don't know what these
+5:12 these models are called. You can
+5:14 literally just type in your use case. So
+5:16 let me do just like edit
+5:18 edit image and we've created collections
+5:21 for you to just sort of browse through
+5:24 and curated a bunch of these models that
+5:27 you can just see like what works for
+5:28 your use case. So we have some
+5:30 recommendations right now. Flux context
+5:33 and flux cont flux context pro and flux
+5:35 context max are really big for image
+5:38 editing as well as ideoggram 3 is really
+5:40 good for text and typography stylistic
+5:43 changes. We have a few here, but you can
+5:45 just sort of go through this kind of app
+5:47 store of models and see what works for
+5:50 your for your use case. Quick break to
+5:52 tell you about the app that vibe codes
+5:54 mobile apps in just seconds. We've been
+5:56 working on this app for the past 4
+5:58 months straight. All you need is an
+6:00 idea. You just type your app idea and it
+6:02 will build a native mobile app right on
+6:04 your phone. It connects with cursor or
+6:07 any other IDE. You can create games, AI
+6:10 powered productivity apps, and we even
+6:11 have an NAN integration that lets you
+6:14 build apps powered by AI agents. You can
+6:17 download the app at vibecodeapp.com
+6:19 or use the link in the description cuz
+6:21 obviously right now there's only so much
+6:24 information you can get navigating
+6:25 through these model pages. I think it's
+6:27 very useful to see the inputs, the
+6:29 outputs. It's a great place to get
+6:30 started. But like if you're let's say
+6:33 you're a content creator and maybe
+6:34 you're not even trying to build an app.
+6:36 Maybe you're trying to create the best
+6:37 thumbnails and you're trying to find
+6:38 what technology makes the best
+6:40 thumbnails. The way that I do it is I go
+6:42 into playground and I you can add models
+6:46 to your playground and you can actually
+6:48 test them side by side and they show up
+6:50 in the grid and you can see which model
+6:52 created what. So you can kind of have
+6:54 this like AB testing of like what models
+6:57 are performing best for whatever it is
+6:58 that you want to create. Yeah, this is
+7:00 playground. So, this is basically your
+7:03 space to test out all the latest
+7:06 state-of-the-art models and see like,
+7:08 you know, what works well for certain
+7:10 use cases and what doesn't and just like
+7:12 side by side compare things. So, for
+7:14 instance, with video models, like a big
+7:16 thing people want to test is physics.
+7:18 Like, is a video model good at
+7:21 simulating an Olympic gymnast diving off
+7:23 a diving board or flipping off of a
+7:25 balance beam? So, I just wanted to go
+7:28 ahead and test like is Cling better, is
+7:29 V3 better, is Bite Dance's new model
+7:32 better, like what is what is doing well
+7:35 for for physics? And you can just see
+7:37 like all the different outputs. I can
+7:38 click one and see that this used uh v2.1
+7:42 master from cling and this happened to
+7:44 be like the best at the physics um for
+7:47 me. But it's just like the best way to
+7:49 test like you can see we have all the
+7:51 different models you can put into your
+7:52 own version of playground. So I've
+7:54 loaded all these ones up here for
+7:56 testing and yeah and even here I was
+7:59 just testing out different outputs from
+8:01 this is Google's image and 3 model for
+8:03 image um we have blackforce labs flux
+8:06 pro um 3 again and flux dev. So, just
+8:12 like seeing, you know, just like super
+8:14 quickly like what what are the the best
+8:17 best models here? And what's cool and
+8:19 what I've noticed that and I've talked
+8:21 to a lot of people who've created
+8:22 rappers who make millions of dollars per
+8:24 year. Um, a lot of the time they're
+8:26 actually chaining these together. They
+8:28 find these subtle workflows. That's kind
+8:30 of their edge. You know, if they're they
+8:32 find some specific use case that they're
+8:33 good at generating and then they find
+8:35 like a specific workflow. So, oftentimes
+8:37 the output of one model can be the input
+8:39 into the next model. So, for example, if
+8:41 you were to just download, if you just
+8:43 press download on that squirrel image
+8:45 and you want to just toss that into the
+8:48 editor in the like Flux context because
+8:50 you generated that on image gen from
+8:53 Google, right? You could upload that as
+8:55 the input image of another one and then
+8:58 you can edit that. And so, that's kind
+8:59 of the flow I get into is like you could
+9:01 say make the squirrel
+9:03 I'll just say like get rid of the
+9:05 flowers in the background for flux
+9:06 context max. This is our image editing
+9:09 model. And what's cool is you can run
+9:11 multiple of these at a time. Like you
+9:12 don't have to wait for it to finish.
+9:14 Like a lot of like I use some other
+9:15 tools. Um like you said, get rid of the
+9:17 flowers. You can say make his hair
+9:19 green. You can constantly change the
+9:20 prompt. I don't think people like
+9:21 creating YouTube thumbnails. Um they're
+9:23 kind of annoying to create. And for the
+9:26 first time, we're actually getting these
+9:28 affordable image editing models like
+9:31 Flux Context. It's almost like having
+9:33 Photoshop in an AI model. It can like
+9:35 locate the part of the video or the
+9:37 image that you want to edit. It can
+9:38 change testing. I was just like testing
+9:41 ID is like huge for creating ads or like
+9:44 ad copy and just like really good with
+9:47 text and just I was creating like UGC
+9:49 ads for instance like you could toss
+9:51 this into a video model and create a UGC
+9:54 ad that you can post on Tik Tok or or
+9:56 whatever short form content platform you
+9:58 want to. Also, one thing that um I don't
+10:02 think you touched on that I think is
+10:03 just like quite important is the recent
+10:06 predictions. This will actually help you
+10:08 troubleshoot a lot. So like if you're
+10:09 using it within an app, right, you can
+10:11 actually see all of your recent ones
+10:13 that go through. And if you click on I
+10:15 think if you just click on ID, you can
+10:17 see like you can see here. I just did a
+10:19 podcast with Matt Wolf and I was testing
+10:22 with the the different image models and
+10:24 we were testing upscalers. This one is
+10:26 like really subtle. Um, but it's pretty
+10:29 fun to look back and you can actually
+10:30 see you can even click on that little
+10:34 like uh document with the magnifying
+10:36 glass to get like an at glance look.
+10:38 It's right next to to the left of the
+10:40 ID. Yeah, there you go. Oh, lovely. I
+10:43 like that. Cool. Yeah. And you can see
+10:46 this one failed. And that could be for
+10:49 um this looks like it was an error in my
+10:52 vibe coding abilities. Um but it's good
+10:55 to be able to see that, right? Because
+10:57 sometimes when you're vibe coding an
+10:58 app, you don't know if the error
+11:00 happened on like communicating with
+11:01 replicate or if the error is just the
+11:05 app not displaying the image back into
+11:08 your app. And so it's it's always good
+11:10 to um kind of be able to um kind of know
+11:14 where what's wrong because then you can
+11:16 just tell the AI like it's showing up,
+11:18 it's it's succeeding, it's not an API
+11:21 issue, you're just not displaying it
+11:23 correctly and it'll usually fix the
+11:24 problem. Yeah.
+11:26 Yeah. And so what I'm going to do here
+11:29 is I'm actually going to go to um
+11:31 playground. So if I type in playground,
+11:33 I don't know if that's the easiest way
+11:34 to find it. That's just how I do it. We
+11:37 can actually just So obviously, yeah, we
+11:40 can select a model. I'm going to use
+11:41 Flux Context Pro. And um like I want to
+11:45 be able to upload an image. Let's find
+11:47 an image of myself. Hopefully I find one
+11:50 here pretty quickly somewhere. I'll just
+11:54 go to Twitter. I'll get my profile
+11:56 picture. I'll save this image. Yeah, I
+11:58 always do the same exact thing when
+11:59 testing. I just don't know where it is.
+12:02 Um, okay. So, we can just I believe we
+12:05 can just drag an image in right here.
+12:07 So, we can just drag this image right
+12:09 there. So, now we have this input image.
+12:11 Uh, please make this a uh YouTube
+12:16 thumbnail of this person. I don't know
+12:19 if this prompt is the best. um with text
+12:22 that says
+12:24 uh one
+12:27 or let's go yeah million
+12:30 dollar rapper
+12:34 and then uh we can change the aspect
+12:36 ratio because aspect ratio of a YouTube
+12:38 thumbnail is 16 by9 so you don't even
+12:40 though this is a square input it should
+12:43 change it to 16 by9 and obviously
+12:45 there's some other um things that you
+12:48 can edit we don't need to dive dive too
+12:50 far in detail there, but they're worth
+12:53 checking out. Um, some models have more
+12:55 parameters than others, but once we find
+12:57 just like an API that we like, like if
+13:00 we like this result, okay,
+13:03 million-dollar rapper for whatever
+13:05 reason, it um or we can say uh in the
+13:11 style of anime,
+13:14 um
+13:17 I don't know, this is probably a bad
+13:18 prompt. Um,
+13:22 but the point is what we can do. Oh,
+13:25 okay. That's not bad. Yeah, not bad. Not
+13:27 bad. And then, um, what we can do here.
+13:32 Um, oh, I like the one the Yeah, million
+13:37 dollar rapper. That's actually like
+13:39 legit not a bad I don't think it would
+13:42 really good. Okay, so we like this,
+13:45 right? We like this. All we need to do
+13:46 is just copy this, right? All we need to
+13:49 do is copy this and um we're going to
+13:52 get I know that HTTP usually works the
+13:55 best because this is kind of like more
+13:57 universal actually. I'm very curious um
+14:00 what your take is on this. So like
+14:01 you've probably seen a lot of people
+14:03 vibe code or even just code with these
+14:05 workflows. Do most people start off with
+14:08 kind of a front-end mockup and then
+14:10 adding the AI or do you think what do
+14:13 you think is better? Oh, that's a good
+14:14 question and I feel like it might depend
+14:16 on your expertise level. So, I would say
+14:20 like if you're just starting off,
+14:22 putting the API straight into your
+14:24 prompt is is going to work way better
+14:27 than you expect anyways. Um, like you're
+14:30 you're able to create a very high
+14:32 functioning app just within one or two
+14:34 prompts. um like just the first prompt
+14:36 you get it working and then maybe you
+14:38 just have to kind of massage the UI a
+14:40 little bit like you like maybe I want it
+14:42 to be dark dark mode or maybe I want the
+14:44 image input to be front and center and I
+14:47 want the prompt box to be here but
+14:49 usually it just takes like three or
+14:51 three prompts. Um, but if you have like
+14:54 a really good idea of the UI and you
+14:56 like um, you know, you you're a designer
+14:59 or maybe even just like you could sketch
+15:01 it up on a post-it note and send that as
+15:04 as part of your prompt as well. That
+15:06 works pretty well. Um, it just depends
+15:08 on like how comfortable you feel with
+15:11 like design. Um, but even if even if
+15:14 you're just a beginner, just the prompt
+15:16 works works wonders. Yeah. Okay. Here's
+15:19 a fun hypothetical question for you.
+15:21 Let's say I'm completely untechnical.
+15:22 I'm watching this video right now. Maybe
+15:24 I'm don't like my job. I feel like I'm
+15:28 not able to use AI and I want to use AI,
+15:30 right? And I want to create a rapper and
+15:33 I want to create an app. Let's say I
+15:35 have like
+15:37 let's say two weeks and maybe I have
+15:39 some spare time and I can learn um you
+15:42 know I can spend 10 total hours learning
+15:45 some skill to build an AI rapper to that
+15:48 actually makes money. like how would you
+15:50 start to take the most like efficient
+15:52 path to creating an AI rapper that gets
+15:54 attention and maybe a few customers? I'm
+15:57 going to be so honest with you now with
+16:00 vibe coding tools. The number one skill
+16:04 I think you should be learning is
+16:06 marketing, like how to market and catch
+16:08 attention again because vibe coding has
+16:12 made it so easy to to make an app. Like
+16:15 honestly, there's like no excuse. like
+16:17 you should just like toss in a replicate
+16:19 API and then make a make an app and it's
+16:22 it's so easy like really anyone can do
+16:24 it and so now it's kind of like you get
+16:27 to expand more like questionwise like
+16:31 now you get to sort of think about like
+16:33 what kind of UIs or design choices do I
+16:36 want to make for my users like you get
+16:37 to sort of sort of be more creative now
+16:40 like I think the leverage has shifted to
+16:42 creatives and like people were really
+16:44 thinking about design thinking or um how
+16:47 users experience platforms or marketing
+16:50 like how can I best capture the users's
+16:52 attention and their problems and you
+16:55 know how can I create short form content
+16:57 that works really well um you know we're
+17:00 seeing like crazy like the like uh Roy
+17:03 Lee for instance he's he's taking over
+17:05 mostly because of the marketing aspect
+17:07 and I think it it makes everything more
+17:09 creative in a sense like you get to
+17:10 really flex your creative muscles now
+17:12 versus before you really had to learn
+17:14 these technical skills skills that
+17:17 didn't really like get your juices
+17:18 flowing like it does now. So, I would I
+17:21 would totally say marketing or like
+17:22 design or just like anything that really
+17:24 resonates with the user the most. And
+17:27 first of all, I really think marketing
+17:29 is incredibly important. Um, and like
+17:32 I've actually talked a lot about that on
+17:33 my channel. One thing I haven't talked
+17:35 about is actually design. Like it's very
+17:38 obviously I want I want to say I'm good
+17:40 at design, right? I like good design, I
+17:42 think. But like to me it's pretty
+17:44 unclear on how to even learn design.
+17:46 Like what really well-designed apps have
+17:49 you seen created recently? And like how
+17:51 can I actually go and like learn those?
+17:54 Like is it just finding a bunch of
+17:56 examples of really good apps and trying
+17:58 to copy them? Like what do you think?
+18:00 Honestly, I think that's a great
+18:01 starting point. Um just like think about
+18:04 the apps that you use every day. So you
+18:06 use your iPhone amazingly designed
+18:09 product an iPhone. Um, Dolingo, another
+18:12 great example of just like a typical
+18:14 language learning app that has been
+18:16 really fine-tuned for good design. Siri,
+18:20 uh, cursor, another like tool that was
+18:23 forked from VS Code, which already has
+18:24 great design. And so it's now more about
+18:26 like how is the user going to interact
+18:28 with the AI interface. I think like
+18:30 start starting from things that have
+18:32 already been built. You don't have to re
+18:34 reinvent the wheel at all. Um, I think
+18:36 that's a that's a great starting point.
+18:38 and just talking to users, seeing how
+18:41 people use your app. Um, it's just a
+18:44 great it's fun. Like, it's fun and it's
+18:46 the best way because that's ultimately
+18:48 like you're you're putting a product in
+18:50 people's hands and so you want to know
+18:52 how it's working. In the meantime, I
+18:54 could I could totally show you like one
+18:56 of my Vzero examples of using the exact
+18:59 same API. Go ahead and do that. Yeah,
+19:02 that'd be amazing. So I I personally
+19:03 like to use Vzero just because um and
+19:06 and literally I'm doing the same exact
+19:08 thing that you're doing. Um so I wanted
+19:10 to create a a modern web app for an
+19:12 image editing platform. Uh and I I just
+19:16 said using the replicate API
+19:18 documentation of this image editing API.
+19:21 And this is exactly the Flux Context Pro
+19:24 uh API that uh Riley is using. Um
+19:28 state-of-the-art image editing right
+19:30 now. Uh, I just copied and pasted the
+19:33 the docs that you would see just right
+19:37 if you go into we have our form. This is
+19:40 like what you first see. And then I just
+19:42 hit N.JS because all of your web apps
+19:45 are going to be in JavaScript or N.JS.
+19:48 And I just copy and paste this code
+19:49 snippet right here, which is the actual
+19:51 API run. Um, and I I then I just pass it
+19:55 over to to Vzero. Oh, not sure if you
+19:58 saw the the docs, but this is this is
+20:00 pretty much what you would copy and
+20:02 paste from Oh, amazing. Amazing. From
+20:04 from replicate. Yeah. Um, I like Vzero
+20:08 because it automatically will ask for
+20:10 your token and store it. So, you can
+20:12 actually like run the app in in house.
+20:16 Um, but you can see like you can also
+20:18 track like all the different versions
+20:19 that you started off with. So, this was
+20:21 like the first version that came up uh
+20:24 with just this prompt.
+20:27 uh was was this and you can see like it
+20:29 it hits all of the parameters that are
+20:32 included in in the flux context API. So
+20:35 we have image upload. This is where you
+20:38 type in your prompt. You can change the
+20:40 aspect ratio. You can change the output
+20:42 out output format and then safety
+20:44 tolerance is something that will
+20:47 provision against um harmful outputs or
+20:49 harmful inputs for the prompt. Um but
+20:52 this is this is what you get one shot
+20:54 which is already amazing. So like
+20:55 literally the rest of my chat history is
+20:58 just fixing the UI and making sure it's
+21:01 like something that So you can see like
+21:03 this is the rest of my chat history. It
+21:05 asked for my replicate API token and it
+21:07 just added it right here. Um so now it's
+21:10 like stored in this app and I can run it
+21:12 natively. Um you can see my next
+21:15 iteration
+21:16 I said I want the UI to be like this and
+21:19 I gave it a sample image. I'm not sure.
+21:22 Can you see that? Yes, I can. Amazing.
+21:24 Yeah. So, I gave it a sample image of
+21:26 just like a quick mockup of this is the
+21:28 image. The prompt box is underneath it.
+21:30 And I wanted to see my like edit history
+21:33 as a as a series of thumbnails
+21:35 underneath. And this this automatically
+21:38 worked. So, we can go to version two.
+21:41 And in version two, we have it exactly
+21:43 like how I set up. So, we have like our
+21:45 image input. We could type in whatever.
+21:48 So for instance, I can type in or I can
+21:51 put in the
+21:53 um let's do the ad.png.
+21:56 So this is one of the ads that I created
+21:58 on replicate. And we can transform this.
+22:01 We could say uh change
+22:05 the text
+22:08 reveal your radiance to
+22:13 let's say like cleanse cleanse your
+22:18 soul.
+22:19 And we'll just go ahead and hit generate
+22:21 and see what happens. So again, it's
+22:24 hitting the flux context API that's on
+22:27 replicate. So we're using replicates API
+22:29 here. You can see that it just changes
+22:31 your text right there for you. And you
+22:33 can see that we have our image history
+22:36 that's going to be stored in in a
+22:38 series. It's exactly how I sketched out
+22:40 my my image. That's amazing. That's
+22:44 amazing. And one thing that I've noticed
+22:46 um people do on these um like on apps is
+22:50 they like change the uh editing
+22:52 animation. I don't know. you want to try
+22:53 and make a change on this one and say
+22:55 like, uh, oh, I don't know if you can
+22:57 Oh, what's cool about VZ is you can
+22:59 actually like fork these. So, if you
+23:00 want to go off in different directions,
+23:01 you can hit the fork button up there at
+23:03 the top and you could say like change
+23:05 the um editing animation. Um, and you
+23:08 can just find ways that makes the
+23:10 experience just better kind of. Um,
+23:13 which is really cool. Yeah, you can see
+23:15 in my like final version. Um, so let's
+23:18 see if I could go back to my
+23:22 previous versions. My final version
+23:25 ended up being this after I just like
+23:26 massaged out everything. I was like, I
+23:28 wanted a dark UI. Um, I wanted the UI to
+23:32 be a bit more clean and modern. Um, like
+23:35 pretty much was just like massaging out
+23:37 the best UI and it it only took four
+23:39 prompts. Um, but yeah, you can fork
+23:42 this. You can change like, you know, I
+23:44 want a different editing animation. um
+23:47 all that. So I I think it's a great
+23:49 platform to s sort of test out these
+23:51 replicate APIs with. What are you seeing
+23:54 as the most like popular APIs right now?
+23:58 This again is the the explore page. So
+24:00 we've curated the the models that we
+24:04 think we see on Twitter a lot are the
+24:05 biggest ones that we just like put up
+24:07 really big right here and like people
+24:09 people really want to use them. So like
+24:11 again V3 is super super huge. Um this is
+24:15 what people really um are just like like
+24:18 this is like first grab like I want to
+24:20 use an image generation model. We have
+24:22 image in 4 from from Google. Um or image
+24:25 editing we have flux context is another
+24:27 big one. Um next we have the official
+24:30 models. These are always on models or
+24:33 warm models which basically means we
+24:35 keep the GPU associated with each of
+24:38 these models on at all times which means
+24:41 for you that you're going to get super
+24:43 super fast results which is what users
+24:45 likes to to see obviously. So we have
+24:48 our open AIS we have cling for video we
+24:52 have uh bite dance's new video model
+24:54 which a lot of people are talking about.
+24:56 Chatterbox is a good texttospech model
+24:59 that a lot of people are starting to
+25:00 use. Anthropic, you can totally just
+25:03 like browse all the official models that
+25:06 we have and we have them a bunch right
+25:08 here that you can just sort of pick and
+25:10 test. And then what I would say is best
+25:13 for intros like get just getting
+25:16 started. Uh you wouldn't know what the
+25:18 names of these models are but you come
+25:20 into the platform knowing what your use
+25:22 case is. So like generate images,
+25:24 generate video, edit images, upscale
+25:26 images. We've curated all of these APIs
+25:29 here just for your particular use case.
+25:32 Um use LLM like we have OpenAI,
+25:34 Anthropic, Deepseek, uh generate speech,
+25:38 transcribe speech. You can even caption
+25:40 videos. So I know a lot of people have
+25:42 started to use this for like Tik Tok
+25:44 short form content. We have video
+25:46 captioning here. So you can just come in
+25:48 and like, you know, let's say you want
+25:50 to edit images. Just click one of these
+25:52 collections. We have like our
+25:55 recommendations here. So we have like a
+25:57 little blurb about what you can sort of
+25:59 do. So you can change the style of your
+26:01 images. You can add text, keep specific
+26:04 parts of an image while keeping it
+26:05 structure. And then we, you know, sort
+26:07 of go through our recommendations. And
+26:09 then here we have all of the models that
+26:12 we suggest you might want to use. Like
+26:14 these are our top three. So we have the
+26:16 flux context pro and max and then we
+26:19 have idoggram
+26:21 and then we have just like a bunch of
+26:22 like upscalers. We even have openis's
+26:25 GPT image model that went super viral.
+26:28 Um flux all Yeah, that was the the
+26:30 studio gibli one that was super viral.
+26:33 Yeah, you can use this for studio gibli.
+26:35 Um you can even use flux contacts for
+26:37 studio gibli at a much cheaper price.
+26:40 Yeah. What do you what do you see
+26:41 between um the GPT image and flux
+26:44 context? I think a lot of my friends who
+26:46 are interested in the space are very
+26:48 focused on those two models like because
+26:49 I know the GBT one is a decently more
+26:53 expensive right. Yeah, it is more
+26:55 expensive and this uh GPT image model is
+26:59 what's known as an auto auto reggressive
+27:02 model. Um so it's basically it's
+27:05 different in how it's generating the
+27:07 image itself. So it's going to generate
+27:09 it from top down whereas a diffusion a
+27:12 diffusion model which is what flux
+27:13 context is is going to sort of create it
+27:16 all around. So it's it's different
+27:18 technically um like architecturally wise
+27:21 but they're still both really good
+27:22 models. This one's a little bit more
+27:24 pricey but you can do multi-image input.
+27:27 So you can see for instance I said add a
+27:30 floral pattern to the vase and you can
+27:33 see like her different images are this
+27:35 vase and then this pattern and then it
+27:38 just puts it on on there right for you
+27:40 and that that itself is an app idea. You
+27:43 can just take this API and have people
+27:46 put two images merge them together and
+27:48 that's something that people would pay
+27:50 for. You can go back up to flux context.
+27:53 Um, so these are the big image editing
+27:55 models that are going super super viral.
+27:57 You can see a lot of people are starting
+27:59 to use these. The difference between
+28:01 these two is is price and um efficiency
+28:06 and like sort of output as well. So pro
+28:09 is the the chiller more distilled
+28:12 version of max. Max is going to cost
+28:14 you8
+28:16 um so 8 cents per output image but you
+28:19 can get really great outputs like this
+28:21 style transfer. It preserves text. It
+28:24 adds text to images. And then Pro is
+28:28 going to cost you four cents per image.
+28:30 And it's still a great great model. You
+28:32 can see that this is really good at
+28:34 style transfer. Make this into a '90s
+28:36 cartoon is the example right here. Um,
+28:39 but people are creating amazing apps
+28:41 just from these two APIs. Flex Context
+28:44 Pro and Flex Context Max. Um, image
+28:46 editing, thumbnail creation for YouTube,
+28:49 real time voice editing. There's just so
+28:52 much possibility here. Yeah, I think I
+28:54 think it's starting to go more
+28:55 mainstream a little bit. Like Mr. Beast
+28:57 just released a tool that I I'm pretty
+29:00 sure it's just using Flux uh context,
+29:02 but to all of his viewers, right, who
+29:05 might not be AI inclined, just see like,
+29:07 oh, this guy's selling magic. Like, I
+29:09 don't have to generate thumbnails
+29:11 anymore. That's awesome. Um, we might we
+29:14 might have a connection there on the
+29:15 download potentially. I um I could have
+29:19 guessed that. I think that's really
+29:20 cool. I think just with AI images and AI
+29:23 video over the last I would say three
+29:26 months like since the OpenAI image model
+29:28 we've seen just this rapid acceleration
+29:30 like uh Google showing all their cards
+29:32 with I think their image models and
+29:34 obviously their video models are really
+29:36 good and we haven't even seen what Sora
+29:38 does now which I never count out OpenAI
+29:40 so who knows what that'll look like 3
+29:42 months from now. So, like I'm just
+29:44 saying right now if you can get some
+29:47 sort of marketing advantage and you are
+29:49 making content in some niche, I think
+29:52 there's never been a better time to kind
+29:53 of like dive in and try and create tools
+29:56 because as the technology gets better,
+29:57 your tool will get better. So, you you
+29:59 should just focus on marketing and then
+30:01 just constantly be testing the APIs and
+30:04 plug those into your app. And like I
+30:06 think that is kind of the ma the big
+30:08 recipe um that I've seen work across
+30:11 social media, especially as a creator. I
+30:13 know a lot of creators who are working
+30:14 on tools like this and I just think you
+30:18 don't it doesn't need to be perfect.
+30:20 Just get started and kind of make
+30:21 improvements as AI gets better. Yeah,
+30:23 totally. I mean like all the AI is
+30:25 there. Like replicate is an AI
+30:27 marketplace. You can just take one of
+30:29 these APIs, put it in your app, and then
+30:32 at that point it's just the distribution
+30:34 and the marketing. like if you have an
+30:35 advantage there or if you're able to,
+30:37 you know, storytell or, you know, create
+30:40 create great content, that will be the
+30:42 the advantage in the next coming years
+30:44 for sure. Oh yeah, totally 100% agree.
+30:48 Um yeah, and I think I'll I'll link uh
+30:51 everything down below. Like I'll link uh
+30:53 a link to um some other resources to
+30:56 learn replicate. I'll also link um uh
+30:59 just kind of a link to the playground
+31:01 and other um tutorials that might be
+31:03 helpful. I really appreciate you uh
+31:05 coming on and talk today. Um I learned a
+31:07 lot. I took so many notes and um I'm
+31:10 actually going to try and recreate the
+31:12 voice app that you created. I think that
+31:14 sounds really fun. It is open source
+31:16 also. So if you want to, I will send you
+31:19 I'll send you that link, put it in the
+31:20 description. If you guys who are out
+31:22 there, you know, you want to riff off of
+31:24 it. We love to see what people create.
+31:25 Amazing. I will do that actually. That
+31:27 sounds really fun. All I need is like an
+31:28 OpenAI key and a replicate key probably,
+31:31 right? Amazing. Great. I'm going to do
+31:33 that. Awesome. Nice. All right. Well,
+31:36 thank you so much for um coming on.
+31:38 Awesome. Thank you so much. Thanks for
+31:40 for for having me. Love being here.

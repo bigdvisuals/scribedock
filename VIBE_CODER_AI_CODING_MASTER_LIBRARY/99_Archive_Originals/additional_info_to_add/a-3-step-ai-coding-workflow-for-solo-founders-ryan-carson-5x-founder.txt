@@ -1,0 +1,884 @@
+A 3-step AI coding workflow for solo founders | Ryan Carson (5x founder)
+
+0:00 I think the biggest mistake that I do
+0:02 that everyone does is they try to rush
+0:04 through the context where you just don't
+0:07 have the patience to tell the AI what it
+0:08 actually needs to know to solve your
+0:10 problem. And I think if we all just slow
+0:11 down a tiny bit and do these two steps,
+0:13 it speeds everything up. Nobody really
+0:15 knows how to do this stuff. The only way
+0:17 you're really going to figure it out is
+0:18 by getting in here and getting your
+0:20 hands dirty and see what works. That's a
+0:23 place where so many engineers and
+0:25 product managers get stuck in a loop
+0:26 like who's going to take this PR and
+0:28 actually break it down in the right
+0:30 steps. So even just this is such a
+0:32 timesaver for people building products
+0:35 building this new startup I literally
+0:37 feel like I'm able to do all of it. Am I
+0:39 able to do it as well as a dedicated
+0:42 product manager? No. Am I able to think
+0:44 as deeply as CTO? No. But I am able for
+0:47 sure to build this company. This is the
+0:50 way people I'm telling you. Pay
+0:52 [Music]
+0:54 attention. Welcome to How I AI. I'm
+0:58 Claire, product leader and AI obsessive
+1:00 here on a mission to help you build
+1:01 better with these new tools. 2025 is
+1:04 definitely the year of the vibe coder,
+1:06 but you can't always vibe your way to a
+1:09 scalable execution strategy. In this
+1:11 episode, Ryan Carson, a five-time
+1:14 founder with 20 years experience, shows
+1:16 us how he brings PRDs, task lists, and
+1:19 some advanced prompting techniques to
+1:21 Cursor to make sure he's not just
+1:23 vibing, he's building the right things.
+1:25 Let's get to it. Today's episode is
+1:27 brought to you by ChatPD. I know that
+1:30 many of you are tuning in to How I AI to
+1:32 learn practical ways you can apply AI
+1:34 and make it easier to build. That's
+1:36 exactly why I built ChatPD. Chat PRD is
+1:40 an AI co-pilot that helps you write
+1:42 great product docs, automate tedious
+1:44 coordination work, and get strategic
+1:46 coaching from an expert AI CPO. And it's
+1:49 loved by everyone from the fastest
+1:51 growing AI startups to large enterprises
+1:53 with hundreds of PMs. Whether you're
+1:56 trying to vibe code a prototype, teach a
+1:58 firsttime PM the ropes, or scale
+2:00 efficiently in a large organization,
+2:02 Chat PRD helps you do better work fast.
+2:05 And we're integrated with the tools you
+2:07 love. Vzero.dev, Dev, Google Drive,
+2:09 Slack, Linear, Confluence, and more. So
+2:12 you don't have to change your workflow
+2:13 to accelerate with AI. Try ChatPRD free
+2:17 at
+2:19 chaturd.ai/howi ai. And let's make
+2:22 product fun again. Hey Ryan, it's nice
+2:25 to have you here. Thanks. It's exciting
+2:27 to be here. I listen to every episode so
+2:29 far and I'm honored to be here myself. I
+2:32 can't wait. So I'm going to start with
+2:33 an easy question, which is what are the
+2:35 last three things you built with AI? I
+2:37 don't know if you call constantly using
+2:39 chat GBT with your kids, building
+2:41 something in AI, but I feel like I feel
+2:44 like I'm the constant AI coach in our
+2:46 family and I'm always delighted actually
+2:47 with what our kids are doing. And
+2:50 because of that, um, my amazing
+2:52 14-year-old kiddo Devon, he said, "Dad,
+2:54 like you know, I've been thinking about
+2:56 this game." And I said, "Well, like
+2:58 let's build it." And so we're building a
+3:00 a primitive little sidescroller and he's
+3:02 like the creative director. So Oh, it's
+3:04 so fun. So that's sort of thing one and
+3:06 thing two. I would say thing three is
+3:09 the startup I'm building which is just
+3:10 this huge amount of work where I'm
+3:13 coding. But then there's just all sorts
+3:14 of little quick things I vibe code you
+3:16 know all the time. So all day every day
+3:19 all day every day chat should be te vibe
+3:21 coding. I'm going to make us all
+3:23 t-shirts and hate.
+3:26 Okay. So one of the things that I think
+3:27 you do really well compared to other
+3:30 vibe coders is you bring some structure
+3:33 to the process. you're you're quite wise
+3:35 about how you use cursor and so I'd love
+3:38 for you to pull up your screen and show
+3:40 us how you get cursor to follow a plan.
+3:43 Let's do it. So the reason why uh I do
+3:48 this is because I've been coding and
+3:50 coding coding with AI and you just learn
+3:54 as you do this that you really have to
+3:56 get good
+3:57 about context what you're showing the AI
+4:00 what you're asking AI to do and you end
+4:02 up cutting back uh all all the things
+4:04 you're doing to a manageable amount of
+4:06 things uh that the AI can actually do.
+4:08 So, the process I'm going to show you,
+4:10 I'm in Cursor now. Uh, in case you're
+4:12 listening to the show, you can download
+4:14 it for free at cursor.com. Uh, it's
+4:16 basically a VS Code fork, right? So, if
+4:18 you ever use VS Code, it's a great tool.
+4:20 So, what I've done here is open up a a
+4:23 basic project that I vibe coded
+4:24 yesterday just to kind of show you
+4:27 what's going on. This is a a stupid
+4:29 little CRM tool for a yacht club because
+4:32 I thought that would be kind of funny.
+4:34 So, so there's that. So, all right. So
+4:37 say that you want to make a change in
+4:38 here and it's a bigger change than just
+4:40 a small uh you know a quick hey will you
+4:43 change this thing say it's larger all
+4:45 right so you would probably want to
+4:47 create a product requirement doc right
+4:48 like prd and and if you're watching the
+4:50 show and you don't know about cla's chat
+4:52 prds absolutely check it out because
+4:54 it's amazing but if you need a lighter
+4:56 lift then here's what I do so I've
+4:59 created three files over here in my
+5:02 cursor rules folder and I'll walk you
+5:06 through what they do and how they work.
+5:07 I've also open sourced these and so we
+5:09 can throw those uh a link in the show
+5:11 notes for you all to grab that. So the
+5:14 first one is a simple uh instruction for
+5:16 the AI to create a product requirement
+5:18 docs. Again, Claire knows everything
+5:20 about this and lives this and breathes
+5:22 this, but to a lot of people that don't
+5:24 know about PRDs, right, it's it's how
+5:26 you describe a feature that you're
+5:28 wanting to build. And so this rule
+5:31 explains to the AI how to write a PRD
+5:34 for the user. So the way you use this is
+5:38 is very simple, right? So I'm gonna go
+5:39 over and I want to pause really quickly
+5:41 because I love your initial prompt which
+5:44 says this is a PRD that's suitable for a
+5:48 junior developer to understand and
+5:50 implement this feature. That's such an
+5:52 interesting little call out. Yeah, that
+5:54 well spotted because again the as you
+5:57 code and code and code with AIs, you you
+5:59 start to realize that they're like a
+6:02 genius PhD student, right? But but they
+6:06 they can't seem to connect these really
+6:10 simple obvious things that you and I
+6:12 know. And so saying junior developer is
+6:15 kind of a way to instruct the AI, let's
+6:16 keep this at the at a certain level.
+6:18 Yep. You know, we've got some process,
+6:20 we've got some clarifying questions.
+6:22 You'll see this in action. I'll actually
+6:24 run it. Great. So, let's do that. Great.
+6:26 So, I'm going to atlude this file which
+6:28 puts it in the context window and then
+6:31 I'm going to give it a simple
+6:32 instruction which I've pre-written which
+6:33 is I'd like to add a report that shows
+6:36 me all the boat names of members and how
+6:38 many emails they've been sent. This is a
+6:40 big deal if you're in a yacht in a yacht
+6:42 club. You have a lot more fun use cases
+6:46 to provide coding. I I try, you know.
+6:49 So, let's see what happens. And so I'm
+6:50 going to go and hit go. We're in agent
+6:53 mode. For those of you who are astute,
+6:56 you'll notice I'm using Claude uh 37
+6:58 Sonnet in Max mode. I actually tend to
+7:02 use uh Gemini 2.5 Pro. And it's funny, I
+7:04 didn't notice that had selected that,
+7:06 but
+7:08 I'm now a default 03 girl. Ooh. Ooh.
+7:11 We'll have to talk. Yeah. And then when
+7:12 03 gets stalled out, I go to 37. Right.
+7:14 Right. It's funny. I'm pretty much
+7:16 default uh Gemini 2.5 Pro. I love the
+7:19 max mode. It is sort of expensive. I
+7:22 probably spend maybe three 400 bucks a
+7:24 month. Uh uh but you know, worth it.
+7:27 Think that's okay. Okay. So, what we've
+7:28 got here is the AI came back and gave us
+7:31 some clarifying questions on the PRD. Uh
+7:33 I'm going to answer a couple of these
+7:35 just to to show you how this works. So,
+7:37 if you're listening along, the AI has
+7:39 said, "Okay, great. I'll help you create
+7:40 a PRD." Uh have a couple questions for
+7:42 you. Uh the first one is, "What is the
+7:44 problem this reporter is is trying to
+7:46 solve?" Well, we are uh what problem is
+7:48 this? We're trying to give visibility
+7:51 into how many emails people are getting,
+7:55 right? All right. So, that's thing one.
+7:57 Let's go. Let's answer the second one.
+7:58 Who specifically will be using the
+7:59 report? All right. We'll say admins.
+8:01 Where should this report be accessible?
+8:03 Uh you pick. And so there's a couple I I
+8:07 would say there's probably too many
+8:08 questions in here, but one of these
+8:10 things again that I want everyone
+8:12 watching to kind of get used to is
+8:13 you'll notice in this PRD rule file,
+8:17 I've done something specific here where
+8:18 I've said I want these questions to be
+8:22 dot notation where it's 2.1 and
+8:24 2.2 because you end up otherwise the AI
+8:27 would just give you a bunch of questions
+8:29 and it would it would put more than one
+8:31 question in a bullet point and it
+8:33 becomes hard to use. So, you kind of get
+8:34 used to this specificity, right? So, I'm
+8:37 just going to uh and say the rest. Make
+8:40 your best judgment. I do the exact same
+8:42 prompt. I say you pick whatever you
+8:45 think is best. Yeah, cuz I'm kind of
+8:47 lazy, right? So, all right. So, let's do
+8:49 that. So, it's going to fire up and
+8:51 start creating this PRD. Now, what I've
+8:54 chosen is is, you know, over here I've
+8:57 got a task folder. You put PRD in there.
+9:00 And then we're going to generate a list
+9:01 of tasks in a minute. So, it says,
+9:03 "Okay, great." Uh, I'll now create it.
+9:05 And it's generating it. So, that will
+9:07 happen in a minute. I'm going to
+9:09 actually nip over uh to my browser
+9:12 because I do want to show you a couple
+9:14 other interesting things. Um, so, first
+9:17 of all, this is my amazing Yacht Club
+9:19 member of the app that we just coded.
+9:21 Now, we're going to pop this in the
+9:23 link, but this is uh the uh repo that
+9:27 has these prompts in it. We'll give
+9:28 those to you. But there's this really
+9:29 cool open source tool called Taskmaster.
+9:32 This is open source. It's completely
+9:34 free and it's like a hyped up version of
+9:36 what I'm showing you. So it's it runs in
+9:39 as a command line interface tool. It's
+9:41 great. It it's actually was too much for
+9:43 me. I I wanted less uh less power, less
+9:46 control or less power, more control. So
+9:49 this is a a great alternative to that.
+9:51 So I'm going to head back into cursor.
+9:54 Just to kind of recap where we are so
+9:56 far. So you have a cursor rules files
+9:58 that gives uh rules and instructions for
+10:01 generating a PRD. You generate the PRD
+10:04 in agent mode using whatever your
+10:06 preferred model is. That puts that PRD
+10:09 markdown file in a tasks folder that
+10:12 you've put in in your repo. And now
+10:15 we're going to look at that PRD and show
+10:18 how you work through it to build
+10:20 something. Exactly. Okay. You're a good
+10:22 student. So here is our PRD. It's pretty
+10:25 straightforward if you've ever looked at
+10:26 a PRD. Um, I'm going to show you. So,
+10:29 you've got functional requirements, uh,
+10:31 non- goals, design considerations, etc.
+10:33 Right? And let's back up like what are
+10:36 we doing here? What we're doing is
+10:39 making it clear, uh, to the large
+10:41 language model what we want done. I
+10:43 think the biggest mistake that I do that
+10:46 everyone does is they try to rush
+10:48 through the context where you just don't
+10:51 have the patience to tell the AI what it
+10:53 actually needs to know to solve your
+10:55 problem. And I think if we all just slow
+10:57 down a tiny bit and do these two steps,
+10:59 it speeds everything up, right? So,
+11:02 we've got a PRD. It's not rocket science
+11:04 here. Uh now, next, what we want to do
+11:06 is generate tasks for this. So, let's go
+11:10 and generate the task based on off this
+11:12 PRD. So I if you're listening I'm back
+11:14 in cursor and I'm uh I'm including the
+11:18 the file that generates the task. It's
+11:20 called generate tasks and I'm going to
+11:23 say uh please generate tasks task for
+11:26 and then I'm going to tag the PRD. Got
+11:28 it. So this is another rule probably
+11:31 similar to your generate PRD one that
+11:33 explains what a task is and how to do it
+11:35 well and then you're giving it the
+11:37 context of the PRD itself. Exactly. So
+11:38 let's have a quick look at the generate
+11:40 task list. So, the goal is to guide an
+11:43 AI assistant in creating a detailed
+11:44 step-by-step task list list. This is
+11:47 what it what I want the list to look
+11:49 like. This is the process. You'll see
+11:52 it's going to ask me a couple questions
+11:54 and it's going to pump out uh tasks in
+11:57 this format as a markdown file. I have
+11:59 to ask, how did you create these rules?
+12:02 These the it's a lovely prompt. It's
+12:04 well structured. It's clear. How did you
+12:06 get good at writing these instructions
+12:08 prompts? the same way you did.
+12:11 Basically, I tried a couple things. They
+12:13 didn't work. I got more specific and
+12:16 then of course, you know, I had a very
+12:18 intelligent LM write this for me and
+12:20 then I edit it. You know, you again, you
+12:23 sort of learn some of the tricks of the
+12:24 trade. Like, I want this task list to be
+12:27 in markdown and I want I want there to
+12:29 be check boxes so we can check them off.
+12:32 I mean, silly stuff like that. So, the
+12:35 biggest thing I want people to walk away
+12:36 from the show is, you know what, nobody
+12:39 really knows how to do this stuff. The
+12:40 only way you're really going to figure
+12:42 it out is by getting in here and getting
+12:44 your hands dirty and see what works. Um,
+12:47 and then stick with a model that you
+12:49 consistently like. Like, I'm getting to
+12:51 know Gemini 2.5 Pro really well, like
+12:53 what it's good at, what it's not good
+12:55 at. So, let's see what it's good at. All
+12:58 right. So, I just said, "Please generate
+13:00 task for this PRD." I tagged the file.
+13:03 Uh we're using a reasoning model. So
+13:05 we're seeing uh the thinking tokens kind
+13:07 of whiz by and all this thinking might
+13:10 cost you a little bit more, but you get
+13:12 a little bit more visibility. You learn
+13:13 more and looks like it's doing a good
+13:16 job. Amen. Yeah. I I feel like for the
+13:18 extra 5 cents, like this is absolutely
+13:22 worth it. Um, so in in this instruction,
+13:25 it it the instruction is give me some
+13:28 basic tasks and then ask me if they're
+13:31 okay and then tell me to go to proceed.
+13:33 So you'll see it says ready to generate
+13:35 the subtasks. Uh, respond with go to
+13:37 proceed. You know, as I'm looking at
+13:39 this side by side, what I really like
+13:41 about your generate tasks instructions
+13:43 is you've given it a very explicit
+13:46 process. It's you get this file, you do
+13:48 step one, you get this next step next
+13:51 file. And it's not quite an agent, but
+13:54 it really brings in this like agentic
+13:56 thinking of where are the decision
+13:58 points, where are the user interaction
+14:00 points um but in sort of more this
+14:02 linear um step-by-step chat mode.
+14:05 Exactly. And I have beenounding the
+14:07 cursor team non-stop like why don't you
+14:10 just build this into the core developer
+14:12 experience of the app? I don't
+14:13 understand why this isn't just the way
+14:15 you use cursor and they keep saying
+14:16 we're doing it. So, you know, and and
+14:18 for those listening, that
+14:20 delightful is when cursor cursor is done
+14:23 generating. Isn't that the best? I love
+14:25 that. I love it. This episode is brought
+14:27 to you by notion. Notion is now your do
+14:31 everything AI tool for work. With new AI
+14:35 meeting notes, enterprise search, and
+14:37 research mode, everyone on your team
+14:39 gets a notetaker, researcher, doc
+14:41 drafter, brainstormer. Your new AI team
+14:44 is here right where your team already
+14:47 works. I've been a longtime Notion user
+14:50 and have been using the new Notion AI
+14:52 features for the last few weeks. I can't
+14:54 imagine working without them. AI meeting
+14:57 notes are a gamecher. The summaries are
+14:59 accurate and extracting action items is
+15:02 super useful for standups, team
+15:04 meetings, one-on- ones, customer
+15:06 interviews, and yes, podcast prep.
+15:08 Notion's AI meeting notes are now an
+15:10 essential part of my team's workflow.
+15:13 The fastest growing companies like
+15:15 OpenAI, Ramp, Verscell, and Cursor all
+15:18 use Notion to get more done. Try all of
+15:22 Notion's new AI features for free by
+15:25 signing up with your work email at
+15:30 notion.com/howi aai. So, we're going to
+15:33 accept those changes. We're going to hop
+15:34 over here and let's just kind of see
+15:35 what it did, right? So, oh wow, I know.
+15:38 It's fun, isn't it? So, what you've got
+15:41 up here is the relevant files. Now, this
+15:43 is a trick I learned from a friend on X
+15:46 where my thinking here is that this
+15:48 should help the LLM just remember what
+15:50 files are we really focusing on. Even
+15:53 though I will specifically tag these in
+15:55 the context, uh I I think it's helpful.
+15:58 One of the things I want uh briefly
+15:59 touch, I probably anthropomorphize LMS
+16:03 probably too much, but but because
+16:05 they're trained on human output on the
+16:07 web, you know, my belief is we need to
+16:10 give LM like the right context and be as
+16:14 helpful as we can so they can actually
+16:15 solve our problems, right? I I
+16:18 completely agree. I'm also very polite
+16:20 to to the LLMs. It's how I get people to
+16:22 people to do work. It's how I'm going to
+16:24 get the agents to do work, right? So why
+16:26 wouldn't you, you know, be treat an
+16:28 agent like you would treat a human? I
+16:29 that's the way I So I agree. All right.
+16:32 So then we've got, you know, pretty
+16:33 detailed list of tasks, right? We've got
+16:35 1 2 3 four with subtasks. Some we've
+16:38 even got sub subtasks here. And then
+16:40 we're going to start iterating on this.
+16:42 So here's how it works. I've got another
+16:44 rule called task list, which probably
+16:48 need to rename because that doesn't
+16:49 really make sense. But this is the
+16:51 instructions for iterating through uh
+16:55 these tasks. So I'll kind of walk you
+16:56 through that. So this is task list
+16:59 management. These are guidelines for
+17:00 managing task lists in markdown files to
+17:03 track progress. The task completion we
+17:05 have a uh we want to do one subtask at a
+17:08 time. Like this is really important that
+17:10 the the doesn't start trying to do all
+17:12 the tasks. uh when you finish a subtask
+17:15 immediately mark it as complete and then
+17:18 you'll see I say stop after each subtask
+17:21 uh and wait for the user's go ahead and
+17:23 then it's just a little bit more uh
+17:25 clear clarity here if people see me
+17:27 shaking my head it's because I am
+17:29 realizing now I'm using cursor like such
+17:32 an amateur this is I doubt that this is
+17:35 so good I'm just floating through the
+17:37 ether saying you know 03 take me away
+17:41 and maybe I'm I'm overconfident in my
+17:44 product management skills and so I'm
+17:46 putting this all into the chat but this
+17:48 is this is the way people I'm telling
+17:51 you pay attention I appreciate that I
+17:53 mean I think the answer is yes to both
+17:56 of us I mean sometimes you do just need
+17:57 to roll and see what happens but I'm
+17:59 learning over and over that if I don't
+18:01 follow this process I end up down some
+18:03 rabbit hole and I have to revert right
+18:06 so let's let's go ahead and continue
+18:08 here what I'm doing now is I'm tagging
+18:10 the task list rule which tells the AI I
+18:12 how to act and then I'm going to say
+18:14 let's start and then I'm going to tag
+18:16 the uh the tasks the task list which is
+18:20 uh so we got a prd we got a task list
+18:23 and now we have a set of rules that
+18:25 knows how to work through a task list
+18:27 and actually get work done it does
+18:30 exactly so all right so let's start it's
+18:34 going to think about it and it's looking
+18:37 through this big list of tasks right now
+18:40 and so what it's saying is okay let's
+18:41 start with the first subtask define
+18:43 Prisma scheme email campaign. I'll start
+18:46 by reading the existing Prisma uh
+18:48 campaign. Okay, existing blah blah blah,
+18:50 you know, so it's just thinking it
+18:51 through and boom, it has checked off
+18:55 1.1. H with a delightful noise. I have a
+18:58 question. Are you are you hooking it all
+19:01 into git? How are you doing sort of the
+19:05 the change management here? Yep. So what
+19:07 I tend to do is I will commit after I
+19:10 after I finish either one of the bullet
+19:13 one of the one of the parent tasks if I
+19:16 if I feel like the app is in a state
+19:17 that it's workable. Yep. And I will
+19:20 commit at that point. Got it. If I don't
+19:22 I won't commit until all of these tasks
+19:25 are done. Oh wow. Um which you know is
+19:28 probably you know half a day of work. it
+19:32 you you know you kind of get used to
+19:34 like oh all right if I had to revert now
+19:37 you know how bad would it be? Yep. And
+19:39 and I try to think about well what would
+19:41 I need to undo? So it said uh all right
+19:45 shall I proceed with subtask 1.2 and I'm
+19:48 going to say uh yes. Sometimes I'm
+19:51 really lazy and I just say
+19:54 why as in the letter Y. So it's just
+19:57 going to keep working. Now, we don't
+19:59 need to go through this whole thing, but
+20:01 I just wanted to show all of your
+20:03 amazing listeners and audience this is a
+20:06 pretty easy process to follow and I've
+20:10 built huge features with this. I mean,
+20:13 you know, 10,000 lines of code reliably
+20:16 and almost never had trouble. I still
+20:19 feel like this human in the loop part is
+20:20 really important where after each task
+20:23 you are kind of checking what's
+20:25 happening. I've noticed that it often
+20:28 does introduce some small problem or
+20:30 there's a llinter um you know error and
+20:33 then you got to go fix it. So, and you
+20:36 know, this is great to get the actual
+20:37 engineering work done. But if I just
+20:40 take a step back for product managers
+20:42 out there that don't know where to get
+20:44 started with cursor, even if you just
+20:47 did the prd task list part, I'm looking
+20:51 at this task list right now and it's got
+20:53 and basically like epics and tasks in
+20:55 it. And that's a place where so many
+20:58 engineers and product managers get stuck
+21:00 in a loop like who's going to take this
+21:01 PRD and actually break it down in the
+21:03 right steps that are going to work in
+21:05 our codebase. So even just this is such
+21:07 a timesaver for people building products
+21:10 I think. So now you can overengineer
+21:14 this process. You know this is literally
+21:15 a markdown file. Um it's somewhat handc
+21:18 cranked. you know, I thought, oh, maybe
+21:20 I'll use, you know, Asana's MCP, you
+21:23 know, server and create a sauna task.
+21:25 And yeah, I was like, no, like it's
+21:27 actually easier for me just to see a
+21:28 markdown file and know what's happening
+21:31 and I can even add tasks to it. So, my
+21:34 encouragement to everybody is just start
+21:35 small, start simple and get good at that
+21:39 and get comfortable at that and then you
+21:40 can, you know, uh, graduate from there.
+21:43 So, and and 30 chime noises later, we
+21:45 are going to have a report about your
+21:47 yacht club. That's right. Emails. I
+21:50 mean, speaking of MCPs, are you using
+21:52 MCPS at all in your cursor experience?
+21:55 How is that fitting into your workflow?
+21:56 I am. So, I'm going to um show you a
+21:59 couple of those now. Um I wasn't using
+22:02 many at the beginning and then the first
+22:04 MCP I started using was for Postgres um
+22:08 because it's really useful to ask the
+22:11 AI, hey can you go see if I if this data
+22:14 is actually in the database. Um so I
+22:16 started that and then I've gone down the
+22:17 rabbit hole. So I'm going to show you a
+22:19 couple uh MCP servers that I think are
+22:21 really useful. So let me go and share my
+22:23 screen. Okay. So what you are seeing now
+22:26 is on the left I've got browser base.
+22:27 That's the actual backend. I've got a
+22:29 free account. So, I just want to try
+22:31 this out and see how well it works. I'm
+22:32 going to show you uh the fun that you
+22:34 can do with an MCP here. So, on the
+22:37 right, I've got cursor and I'm in my
+22:39 cursor settings. I'm going to go to MCP
+22:41 and you'll see down here I've got a
+22:44 browserbased MCP. Yep. Which I've set
+22:46 up. I've got stage hand as well, which
+22:48 is really fun. So, let me show you uh
+22:51 how this works. So, we're going to go
+22:54 back into start a new chats, turn it on
+22:58 agent mode, and I'm going to say um
+23:02 navigate to chat PRD and take a screen
+23:06 grab. Now, let's see if the MCP gods
+23:10 uh
+23:13 cooperate because I did this this
+23:15 morning and it I I was like, "Wow, this
+23:19 is super cool." Okay. So, what we should
+23:22 see over here in a
+23:23 minute, let me refresh this to see. It
+23:26 did. Oh my god, this is so
+23:28 cool. Okay. So, in the in the cloud. Oo.
+23:34 So, what I'm doing is controlling a
+23:36 headless browser in the cloud from
+23:39 cursor.
+23:41 The future is now. It's in It's bonkers.
+23:45 Well, it's like, okay, what use is this?
+23:47 Like, that's kind of cool. I mean, let's
+23:49 actually do something kind of fun. So,
+23:50 I'll say uh
+23:53 navigate to pricing. Okay. So, we should
+23:58 actually see the cursor move over here
+24:01 in this headless browser in the cloud.
+24:04 You're just showing off at this point. I
+24:06 Well, I just learned this this morning
+24:07 and and Okay. And I was thinking, "Oh my
+24:09 god, this is so neat. Let's see if it if
+24:11 it actually
+24:13 works." Yep, there it goes. Whoa.
+24:17 So again, well besides kind of a parlor
+24:20 trick like what actual use is this? I
+24:23 think it's going to unlock a huge amount
+24:25 of front end testing for me. Yeah.
+24:28 Right. So as you know like it's really
+24:30 cluji right now trying to uh to squash
+24:34 bugs on the front end when you're like
+24:36 taking a screen grab and you're pasting
+24:37 into cursor and you're like no I mean
+24:39 over there and yep. Um, so now we have
+24:42 this this ability to start automating
+24:45 some of this behavior, you know, right
+24:46 inside cursor. So that was kind of a fun
+24:48 trick I thought I would show you. Now,
+24:51 if you're watching this, you're like,
+24:53 what it really what we're doing here is
+24:56 uh I'll go back to the MCP uh part of
+24:59 cursor. What we're doing is is
+25:02 basically giving cursor the ability to
+25:05 interact with other apps, right? And so
+25:08 we're saying, okay, browser base is
+25:09 pretty cool. You can have this browser
+25:12 in the cloud you can do things with. I
+25:14 want to be able to tell the AI what to
+25:16 do. I don't want to have to know how to
+25:17 call the APIs and do all that stuff. So
+25:20 that is uh what I thought was a lot of
+25:21 fun. So, and can you walk us through
+25:23 just a couple of the use cases, the ones
+25:24 we're seeing here? So, browser base lets
+25:27 you basically browse the web and and do
+25:30 a couple things through through the text
+25:32 window and cursor. What are some of
+25:34 these other ones that you find useful?
+25:36 Um, so Postgres is probably the one I
+25:38 use the most. Um, so this for the
+25:41 startup I'm building, I'm using Postgres
+25:43 on on uh for the database in Versel. And
+25:46 there's just a lot of times where I just
+25:47 want to be able to tell the AI, you
+25:49 know, is this value in this row in the
+25:52 database? Like I don't want to have to
+25:54 actually write SQL to do that. Yeah. And
+25:56 so you can go right into the chat window
+25:59 and just say, hey, you know, use the
+26:00 Postgres tool and tell me uh if this is
+26:03 in the database or not, which is really
+26:04 cool. Prisma is I'm using for this uh
+26:07 play project which is fun. Same with
+26:09 SQLite. So the one I use every day is is
+26:12 Postgres.
+26:14 And one of the things that I love about
+26:16 AI especially in the sort of dev tools
+26:18 stack is it just reduces toil. And one
+26:22 of the pieces I feel like is um toil for
+26:25 engineers is how many tabs you have to
+26:27 have open to orchestrate working across
+26:29 your task list. Right? You have you have
+26:31 to have your project management software
+26:33 open so you know like what task I'm
+26:35 working on and what's next. You have to
+26:36 have your browser open so you can do
+26:38 some work. Your querying your database
+26:41 and all this puts it in a single
+26:42 interface that you can seamlessly switch
+26:44 through in natural language. Amen. So I
+26:46 do want to show you one tiny quick other
+26:48 tool and I know we're almost out of
+26:49 time. No, let's do it. Um so you you're
+26:52 probably hearing over and over
+26:54 everyone's listening or watching me
+26:55 preaching about context. Um it it is
+26:58 just so much more important than I think
+27:00 we understand. And again, if we
+27:01 anthropomorphize, it's like, well, how
+27:03 would you expect anybody to do anything
+27:05 unless you give them the right book or
+27:07 the right piece of paper, right? And so,
+27:09 I've started to use a tool called Repo
+27:11 Prompt. Again, I don't have any
+27:13 financial uh uh reason to say this. I
+27:15 don't own any of this company, but it's
+27:17 this really great tool for Mac. And I
+27:19 just want to show you how to use it
+27:20 really quick. The question is why? Like,
+27:22 why wouldn't I just use Cursor? Well,
+27:24 the the thing about cursor is there's
+27:26 all this magic happening in the
+27:28 background with the context where you
+27:31 don't know for sure what is in the
+27:33 context unless you tag it, right? Which
+27:36 is fine, but they they sort of magic
+27:38 that away and sometimes you really
+27:40 really want to control the context. So,
+27:42 what I've done is I've open repo prompt.
+27:44 I've got the the site on the left and on
+27:46 the right I've got the UI and I've
+27:48 opened up the how I AI uh project which
+27:51 is that simple uh yacht email app. Okay.
+27:54 So say that I want to throw a lot of
+27:58 these into uh a prompt to do something.
+28:01 So if I select the whole repo, let's go
+28:05 over to compose down here. You can see
+28:08 how many tokens that is. All right, so
+28:10 that's 395,000 tokens. Okay, that's way
+28:12 that's way too many. So, let's go ahead
+28:15 and reduce that. So, all right, I know I
+28:19 want some stuff in the app
+28:21 folder. All right, why is it so big?
+28:23 Now, we're at, you know,
+28:25 324,000. Still too big. So, I think it's
+28:28 probably in generated. So, you get rid
+28:30 of that. Okay, good. Now, we're at
+28:31 12,000 tokens. So, the point is you if
+28:34 you know what context you want, repo
+28:36 prompt is a really powerful way to do
+28:38 that. So, I'm going to go ahead and
+28:39 select components lib. Uh let's open up
+28:42 the schema for Prisma, you know, and
+28:45 scripts. All right. Now, what? So, I go
+28:49 up here and I put in a prompt. How can I
+28:51 improve the maintain maintainability of
+28:53 this code? And then you can do some
+28:55 other neat things like I want to include
+28:57 a stored prompt and I'm going to use the
+29:00 architect version. Now, what is that?
+29:03 Well, that is a prompt that repo prompt
+29:06 has written already with a bunch of kind
+29:09 of power moves in it, right? It's it
+29:12 should act like a an architect versus a
+29:15 dev. So now I go down to copy and I'm
+29:18 going to say I want to include the save
+29:19 prompts. I want to include the files and
+29:21 I want to include the user instructions.
+29:22 And I'm going to click
+29:24 copy. Now what? Well, I'll show you. So
+29:27 let's go over uh to 03. Now, I could I
+29:32 could go over to cursor, but I don't
+29:33 know exactly what cursor is going to do
+29:35 to my context. Instead, I'm going to
+29:37 paste it in here. Now, what is this?
+29:40 What you've got, let's start at the
+29:42 bottom. It's basically putting
+29:43 everything in XML tags, right? So,
+29:46 you've got user instructions. So, that
+29:47 was the prompt I put in. Then, the meta
+29:50 prompt is uh telling it how to to
+29:54 execute the prompt and and the files
+29:57 that it's including. Let's go up here.
+29:58 So, file contents. This is kind of the
+30:00 key. So each file is
+30:02 included and it's it's demarked
+30:07 specifically like this. So it says the
+30:09 file with the actual path and it's so it
+30:14 basically it's very specific. It's
+30:15 saying to the AI this is exactly the
+30:18 context you need. It's super clear and
+30:20 then you can execute some sort of prompt
+30:22 on that. I do this for like heavy
+30:24 lifting stuff where I used to do this
+30:27 all the time with 01 Pro where I would
+30:29 go into repo prompt. I would select
+30:31 exactly the right context and then I
+30:32 would go into 01 pro and say think super
+30:35 hard about this. I've given you exactly
+30:37 the right context and you get amazing
+30:38 answers because of that. Yeah. And these
+30:40 these new models have such big context
+30:43 windows, but I'm not copying and pasting
+30:46 12,000 tokens into the chat window,
+30:49 right? But this tool just does it for
+30:51 you really.
+30:53 Interesting. And then you're getting
+30:55 less of a black box here. Less of a
+30:57 black box. Yeah. And you know, and I
+31:00 have a feeling that this stuff will
+31:01 probably go away. I think, you know, the
+31:04 context windows are going to get bigger.
+31:06 Tools like cursor are going to get
+31:07 better at managing context, you know,
+31:09 but right now you have to do all this
+31:11 stuff. Like you you can't just wave your
+31:13 wand and and hope the LM is going to
+31:16 write all the right stuff for you. That
+31:18 that's what I've been doing. So now now
+31:19 I have a now I have a better process um
+31:22 to to follow here. Okay. Anything else
+31:24 really important in your stack you need
+31:26 to tell us about um the most important
+31:28 thing um uh is this. So let me share my
+31:31 screen. So this is TSTO's live set from
+31:35 New York City. So this is how I actually
+31:38 code. I just turn on some EDM and and
+31:41 late at night, you know, code after
+31:43 everyone goes to bed listening to
+31:45 amazing EDM. And uh that is an important
+31:47 part of my stack. So if I could ask for
+31:49 an additional cursor feature, it would
+31:51 be AI generated streaming EDM matched to
+31:56 the generation pace of your tokens that
+31:58 ends with a drop instead of that cursor.
+32:02 I would pay extra money for that. You
+32:04 you heard it here first. Get get all
+32:06 this task management context window
+32:08 stuff. Forget about that. I want the
+32:10 fun. Okay, we'll spend three minutes on
+32:12 lightning round questions. One, you're a
+32:15 builder. You're a founder. It's clear
+32:16 how this technology is changing the
+32:19 building part of things. How is it in
+32:21 your mind changing the company and the
+32:23 founder side of things? Wow. It's a
+32:26 complete rewrite. So I've been fortunate
+32:28 to start three companies and and see
+32:31 them acquired and and one of them you
+32:32 know we had about 110 employees and I
+32:35 had a CTO and a VP of Venge and you know
+32:37 product managers and and you know
+32:41 building this new startup I literally
+32:44 feel like I'm able to do all of it now
+32:47 am I able to do it as well as a
+32:49 dedicated product manager? No. Am I able
+32:52 to think as deeply as a CTO? No. But I
+32:55 am able for sure to build this company
+32:58 by myself. And I mean, you're doing this
+33:01 with chat purity. I mean, it's it's
+33:03 bonkers to me that it's actually
+33:05 possible. So, I I just can't wait for
+33:07 the future. I could not agree more.
+33:09 Okay. And then, of course, you showed us
+33:11 how you're a very thoughtful and
+33:14 organized product manager and manager of
+33:18 your AI, but you know, it sometime
+33:20 doesn't listen. So, what do you do?
+33:24 What's your what's your tactic for
+33:25 really getting it back on track? So, I'm
+33:29 just too nice. I I just say please think
+33:34 harder about this. Like, I know you can
+33:37 do this. Um, you know, think again about
+33:41 it. And I'm just not a mean person. So,
+33:43 as much as I want to say, you know, god
+33:44 damn it, you know, I don't I I have a
+33:48 hypothesis that this is this is actually
+33:49 a parenting thing because I do the same
+33:51 thing. I say, "I believe you can do
+33:54 this. I believe in you." I I believe you
+33:57 can. I believe you can. Well, that's
+33:59 amazing. Ryan, where can we find you and
+34:01 how can we be helpful? Um, I am on X all
+34:04 the time. So,
+34:06 x.comarson. Um, and if you want to know
+34:08 a little bit more, just head to
+34:09 rycarson.com and that is me. Great.
+34:12 Well, thank you so much. It's been a
+34:14 blast. Thank you.
+34:16 Thanks so much for watching. If you
+34:18 enjoyed this show, please like and
+34:20 subscribe here on YouTube, or even
+34:22 better, leave us a comment with your
+34:23 thoughts. You can also find this podcast
+34:26 on Apple Podcasts, Spotify, or your
+34:29 favorite podcast app. Please consider
+34:31 leaving us a rating and review, which
+34:33 will help others find the show. You can
+34:35 see all our episodes and learn more
+34:38 about the show at
+34:40 howiipod.com. See you next time.

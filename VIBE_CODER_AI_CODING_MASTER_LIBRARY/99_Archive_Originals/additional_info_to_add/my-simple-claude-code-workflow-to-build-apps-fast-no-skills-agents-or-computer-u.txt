@@ -1,0 +1,377 @@
+My Simple Claude Code Workflow To Build Apps Fast (No Skills, Agents, or Computer Use)
+
+0:00 Am I the only one that feels like AI
+0:01 coding has just gotten way too
+0:03 complicated these past couple of days? I
+0:05 feel like every other day I see somebody
+0:06 talking about how their crazy open claw
+0:08 setup is running 50 different agents at
+0:10 once and made them 50 billion dollars in
+0:12 2 seconds. And another day I see
+0:13 somebody posting about their claw code
+0:15 setup that is 15 different agents, 30
+0:17 different skills, and runs 50 different
+0:19 agents at once. And I am just so
+0:21 overwhelmed by all of that. And I see
+0:23 this as somebody that honestly takes in
+0:24 a lot of AI and coding and developer
+0:27 social media content. And I'm just like,
+0:28 I'm overwhelmed. Like this is crazy.
+0:30 Because my workflow is so incredibly
+0:32 simple. Like honestly, later on in this
+0:34 video when I show you how simple my
+0:35 workflow is, you might be like, bro,
+0:37 that's it. I thought you were going to
+0:37 show me some secret sauce. But there
+0:39 really is none. It's so dead simple. But
+0:41 I find it really effective and I'm able
+0:42 to still push out a ton of code every
+0:45 single day. So in this video, I want to
+0:46 do two things. Number one is I want to
+0:47 talk about what I think a lot of people
+0:49 get wrong and do wrong with their AI
+0:51 coding setups. And number two, I want to
+0:52 walk you through my actual really simple
+0:55 AI coding setup to at least prove to you
+0:56 that you don't need a really complicated
+0:58 AI coding workflow to get a lot of great
+1:00 results. Now, for some context about
+1:02 myself, I am a content creator on the
+1:04 internet. I code for YouTube. But not
+1:06 only that, I also have my own startup
+1:08 that I run called Yorvi. I am the sole
+1:10 developer for this. We have currently
+1:12 scaled this to roughly 7 grand a month
+1:14 of revenue. And I built this all out
+1:16 with a really simple AI coding workflow
+1:17 with nothing complex at all. I'll talk
+1:19 more about this later on for some
+1:20 context to show you about a real feature
+1:22 that I built using my really simple AI
+1:24 coding workflow. But more on that to
+1:26 come later. Now, I want to talk about
+1:27 what I think a lot of people kind of get
+1:29 wrong or what I fundamentally disagree
+1:31 with other people's approaches with AI
+1:33 coding. It is actually this meme is the
+1:35 big inspiration for this video. If in
+1:37 case you're not familiar, this is called
+1:38 the midwit meme, right? You have the
+1:40 person in the middle of the bell curve.
+1:41 The vast majority of people are in and
+1:43 they are a really struggling try-hard.
+1:44 And then the people on the left and the
+1:46 right-hand side, the enlightened awoken
+1:47 Jedi and then the bumbling village idiot
+1:50 buffoon that is very simple. An example
+1:52 of what this meme could be used for is
+1:54 for somebody's personal productivity
+1:55 stack. The person on the left and the
+1:57 person on the right would say, "Just use
+1:59 Apple Notes." And then the person in the
+2:00 middle would be, "Notion, Obsidian,
+2:02 second brain, cron job workflow, data
+2:05 ingestion, open claw." That's an example
+2:07 of the meme. And I really feel this way
+2:09 for AI coding as well. I feel like the
+2:10 AI coding version of this would be,
+2:12 "Just tell AI to write code." And then
+2:14 in the middle it would be, "Agent,
+2:15 sub-agent, skills, swarms, batch,
+2:18 offline workflows, blah blah blah blah."
+2:20 And I don't know where I am from the
+2:21 left or the right-hand side. Probably
+2:23 more on the left-hand side, the bumbling
+2:24 simple village idiot than the
+2:26 enlightened Jedi. But my workflow is
+2:28 really simple. And another big
+2:29 inspiration for this video was actually
+2:31 recently this week when Gary Tan
+2:33 launched his G-Stack, which is
+2:35 essentially a repository full of claw
+2:37 code skills and agents that cover
+2:39 everything any modern tech company would
+2:41 need, like CEO review, design review,
+2:43 end review, QA review, ship, retro, blah
+2:46 blah blah. So much going on here. And
+2:48 I'm sure that it works really, really
+2:50 well. But my ideology in terms of these
+2:52 really intense, super intense setups is
+2:55 how I feel about Neovim.
+2:59 Like yes,
+3:01 more productive with it. I don't know. A
+3:03 little TBD on that one. And essentially,
+3:05 the way that I view this is if you were
+3:06 to get a top 1% Neovim user and the top
+3:09 1% VS Code user, like I'm sure that they
+3:11 would both be equally as productive. And
+3:13 you don't even though one would have a
+3:15 substantially simpler setup with VS Code
+3:18 compared to Neovim, for example, or vice
+3:19 versa as well. Basically, what I'm
+3:21 trying to say is you don't need to be
+3:22 really complex, really crazy complicated
+3:25 to have really good results. The real
+3:27 power is the person that uses the tool,
+3:29 not the tool itself, type you
+3:31 know? And I think the fundamental
+3:33 disagreement or different beliefs that I
+3:35 have versus somebody else that has a
+3:36 really complicated AI coding workflow is
+3:38 I think a lot of the other people that
+3:39 have really complex workflows, they're
+3:41 almost trying to create an autonomous
+3:43 coding junior engineer that'll do
+3:45 everything for them. Plans, writes,
+3:47 tests, opens up Chrome, logs in,
+3:49 browses, tests, screenshots, video
+3:52 records, confirmation that everything is
+3:53 working correctly. And I'm sure that
+3:55 that does work. But for myself
+3:56 personally, I look at AI as rather than
+3:59 trying to create a clone of myself, just
+4:01 as a force and productivity multiplier
+4:03 of my own self. Uh cuz I always want to
+4:04 be involved in the loop for most of the
+4:06 work that I'm doing. Sure, for small
+4:08 little bugs like typos or really simple
+4:10 bugs, I can probably use something like
+4:13 Devin, the AI software engineer. Like
+4:14 stuff that I don't really even have to
+4:15 test myself. I just take a look at the
+4:17 code. I'm like, yep, that works. Thumbs
+4:18 up. We're good to go. Once again, this
+4:19 is not sponsored by Devin. This is just
+4:21 an example of like the AI software
+4:23 engineer that became really popular a
+4:24 couple years ago. Basically, an example
+4:26 of an autonomous AI clone junior
+4:29 engineer that'll do the work for you.
+4:30 But for the vast majority of my work,
+4:32 the minute any work gets even remotely
+4:34 complicated, I personally wouldn't even
+4:36 trust if AI were to sign off on and
+4:37 said, "Yeah, good to go. Thumbs up."
+4:39 Like I will still go in and manually
+4:41 test it myself and verify it works
+4:43 myself with my own human eyes. So I
+4:45 really view AI not as a way to clone
+4:47 myself, but just as an output and force
+4:50 multiplier for my own baseline skill. So
+4:52 that's why I personally don't bother
+4:54 with like setting up browser use,
+4:56 screenshotting, making sure everything
+4:57 works, video recording to prove that it
+4:59 all works. Like I keep it really, really
+5:01 simple. And I also don't do all this
+5:02 crazy opinionated agent stuff because
+5:05 quite frankly, I feel like I don't
+5:06 really need it. So let me show you my
+5:07 exact coding workflow. So the way that I
+5:09 do all my coding is primarily in this
+5:10 tool called Conductor. Once again, not a
+5:13 sponsored video by them. But I did make
+5:14 a video going in-depth into Conductor in
+5:16 this video right here. Oh my god, the
+5:18 video flopped. You check it out. It's
+5:19 actually a good video though. But
+5:20 essentially, what it is is it is a
+5:22 really nice claw code wrapper that lets
+5:24 you spin up individual work trees really
+5:26 easily and have these dedicated agents
+5:28 working on multiple tasks at once. So my
+5:30 workflow is really, really simple. I
+5:32 start off everything with claw code plan
+5:34 mode. It writes out my plan. The one
+5:36 thing I do with my plan is I tell claw,
+5:38 "Write out the plan in a phase-by-phase
+5:41 implementation." And the reason I do
+5:42 this is because when I actually
+5:43 implement the feature and implement the
+5:45 plan, I only implement one phase at a
+5:47 time per PR. I hate getting gigantic PRs
+5:50 where we're merging 5,000 line changes
+5:52 at once. It is impossible for me to
+5:54 review and actually have a good review
+5:56 of the code and a good understanding
+5:57 code that is written. So I make things
+5:59 really small, really granular to make it
+6:01 easier for me to review the code. So
+6:03 then I tell it to do phase-by-phase. And
+6:05 typically, the way I structure it is I
+6:07 try to do all the back-end and all the
+6:09 database changes first. [music] And then
+6:11 typically, those are like the bigger,
+6:12 meatier things that need to get done.
+6:14 Then the UI usually comes last because
+6:16 it's easier to wrap around the back-end
+6:18 functions once the UI is all wired up.
+6:20 And then once I get the plan written
+6:21 out, I actually commit it into this
+6:23 dedicated plan repository just so that
+6:25 everything is tracked with version
+6:26 control. Then when I actually go to
+6:28 implement that plan, I just tell it to
+6:30 implement phase one and phase one only.
+6:31 Nothing else. Once it's done, I review
+6:33 it and it looks good to go. I then tell
+6:35 claw, "Okay, update the plan to mark
+6:37 that phase as completed," as you can see
+6:39 right here, "and to add any code
+6:41 pointers or any additional context from
+6:43 our conversation into your plan." And
+6:46 the reason why I can do this is because
+6:47 the phases of work that I'm doing are
+6:49 kind of chunked small enough where it
+6:51 can be done within one conversation. So
+6:54 it has a full context of everything
+6:55 that's written out, especially with the
+6:57 new 1 million token context Opus 4.6
+7:00 model. So then it knows all the context
+7:02 that can be dumped into marking this
+7:03 phase as completed. And then once you do
+7:05 that, I also have one more thing that I
+7:07 do before I make my PR. So if you look
+7:10 at my codebase, you're going to see so
+7:12 many different claw.md files. And the
+7:14 reason I do this is because every single
+7:16 one of these claw.md files, it is the
+7:17 source of truth for one particular
+7:19 feature in my app. You can see I have a
+7:21 claw.md for how authentication is
+7:22 handled, for how the spy V2 feature is
+7:25 handled, the content remix is handled,
+7:26 the settings and billing page is
+7:28 handled. Oh, and just for some context,
+7:30 the app that I'm building is called
+7:31 Yorvi. It is a social media marketing
+7:33 tool to help you make better viral
+7:35 content to market your app or business
+7:37 on social media. And the way that we do
+7:38 that is we have a viral content database
+7:40 for you to get inspiration for good
+7:42 viral marketing, specifically marketing
+7:44 content out there. And then if you find
+7:45 content that you like from our database
+7:47 or content that you find on the internet
+7:49 yourself, you can upload it into our
+7:51 content remix tool. And then you can
+7:52 then remix that video to fit your brand,
+7:55 your niche, your whatever, while still
+7:57 maintaining that original video's viral
+7:59 format. So we just help you create and
+8:01 script out highly viral optimized
+8:03 content scripts, specifically scripts to
+8:05 market your product on social media. And
+8:07 then to give some more context on this
+8:08 plan right here, the spy V2 event-driven
+8:11 alerts, this is for this feature here
+8:13 where we have an account spy tool, which
+8:15 is under a work in progress right now,
+8:17 which lets you spy on different accounts
+8:19 out there that you might have as
+8:20 competitors or content inspiration. And
+8:22 then we detect if any outliers or really
+8:24 high-performing content comes out. And
+8:26 if they do, we send you an email alert
+8:28 being like, "Hey, you check this video
+8:30 out. It's doing really, really well for
+8:31 this account. Maybe you want to copy it
+8:33 within our existing content remixing
+8:35 tool." So then that's what the spy V2
+8:37 event-driven alert is all about. It's
+8:38 about a better way of creating and
+8:41 alerting users about posts that are
+8:42 popping off and going viral on certain
+8:44 accounts that they're tracking and
+8:46 spying on. So with all that in mind, the
+8:48 last thing that I do with all these MD
+8:50 files is after I update the plan and add
+8:52 any context, I then tell claw, "Look at
+8:55 all the claw.md files and see which
+8:57 claw.md files are referencing this
+9:00 feature or this code path and update
+9:02 those claw.md files with any relevant
+9:04 changes to the changes that we just made
+9:06 in this particular phase of our plan."
+9:08 And this is really important because the
+9:10 claw.md files is what's used for any
+9:12 type of future context for future LLM
+9:14 and coding work in general. So always
+9:16 make sure to keep those claw.md files up
+9:18 to date. And that's it. That's my entire
+9:20 AI coding workflow. Really only two like
+9:23 special things I do in the beginning and
+9:24 at the end. But other than that, I just
+9:26 tell AI to build what I wanted to build.
+9:28 Now, I'm not allergic to building out
+9:30 skills or building out agents, you know?
+9:31 Probably going through this and talking
+9:33 about this, it is probably beneficial
+9:34 for me to create a dedicated skill on
+9:37 creating plans in this particular
+9:39 format, like phase-by-phase, and to
+9:41 write that plan into my plans directory.
+9:43 And it's probably beneficial for me to
+9:44 create a dedicated skill to also say,
+9:46 "Hey, look for all the other claw.md
+9:48 files and update them if necessary." But
+9:51 other than that, it's a pretty simple
+9:52 approach. And I think if I were to give
+9:53 any advice for anyone trying to build
+9:55 out their own AI coding workflow, I
+9:57 would say just try to use it as simple
+9:59 as possible. Just tell it to do code,
+10:01 write code, how you want it to code. And
+10:02 then as you get more and more reps in,
+10:04 you're going to see certain nuances,
+10:06 certain workflows that you find yourself
+10:08 repeating over and over and over again
+10:09 in every single conversation, then you
+10:11 should just create a dedicated skill or
+10:13 a dedicated agent to automate that part
+10:15 of your AI coding workflow. I'm just not
+10:17 a big believer in just like copying
+10:18 anyone's stack like this G stack with
+10:20 all these crazy skills. I feel like AI
+10:22 coding and AI uses in general is so
+10:24 personal to every single individual that
+10:26 you will find out your own workflow. And
+10:28 because it is so easy to create custom
+10:30 workflows with AI, you can just tell AI
+10:32 to build the skill, build this
+10:34 automation for you. And I think that's
+10:35 how you're going to get the most gain
+10:36 from any AI coding workflow. It's by
+10:38 creating and optimizing your own
+10:40 personal one, rather than copying what
+10:42 someone else is using out there on the
+10:43 internet. Obviously, watch videos like
+10:45 mine, other creators or like Gary Tan's
+10:47 and get inspiration for what other
+10:48 people are doing. And then you can test
+10:50 it out yourself and see if you like it,
+10:51 but I personally, I don't know. I don't
+10:53 know if I personally would just like
+10:54 copy this entire 20 agent, 20 skill
+10:57 directory into your workflow. Like I
+10:58 would do it little by little and adapt
+11:01 it all to your own personal individual
+11:03 workflow as well. But that's all I got
+11:04 for today. My once again, my flow is so
+11:07 simple. And even then I'm still able to
+11:08 build out this app as a solo developer
+11:10 and scale it to over 25,000 users. So
+11:13 complexity is not a prerequisite for
+11:15 good high output with AI coding. But I
+11:18 want to hear from you in the comments
+11:19 down below if you actually do have a
+11:20 really involved coding workflow and
+11:22 coding process. Like do you really find
+11:24 that much more gain? Am I missing out?
+11:26 Am I being a boomer right now? Please
+11:28 keep me updated, let me know. I want to
+11:29 hear your thoughts in the comments down
+11:30 below. That's all I got for today.
+11:32 Thanks so much for watching and I'll see
+11:33 you in the next one.

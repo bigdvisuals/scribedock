@@ -1,0 +1,469 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=RHeFGH6K4mc
+Channel: Riley Brown
+Video ID: RHeFGH6K4mc
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 In the past 3 weeks, we have seen the
+0:02 release of two of the best AI coding
+0:05 models in the entire world. So, we first
+0:07 got Gemini 3 and Gemini 3 was incredible
+0:10 at both design and visual understanding
+0:14 and using 3JS to create these
+0:16 simulations. This is just one example of
+0:19 someone creating a 3D simulation of a
+0:22 nuclear power plant. And then just a
+0:24 week or two later, we saw the release of
+0:27 Opus 4.5. And McKay Wrigley said, "The
+0:30 more I code with Opus 4.5, the more I
+0:32 think we're 6 to 12 months away from
+0:34 solving software. It's getting weird."
+0:36 And so, as a result of these two models
+0:39 being released, OpenAI had a code red.
+0:43 And so, OpenAI's response was a new
+0:46 model. And this new model is called GPT
+0:48 5.2. And in this video, we are going to
+0:51 be testing 5.2. And we're going to be
+0:53 doing this within cursor. Let's begin.
+0:56 Okay. So, as we go through uh using GPT
+0:59 5.2 within cursor, you're also going to
+1:01 learn how to use cursor to use any of
+1:03 the models. And we're going to go ahead
+1:05 and we're going to open up cursor. And
+1:08 when you show up on this screen on
+1:10 cursor, you're like, what do I do? I
+1:12 can't type my prompts anywhere. That's
+1:14 okay. Don't panic. All you need to do is
+1:16 just hit open project. We're going to
+1:18 hit new folder. And we are going to just
+1:21 type in testing GPT new model. anything
+1:26 you want here and you can put it
+1:27 anywhere you want. I'm going to create
+1:28 this folder and now we're going to hit
+1:30 open. Now what we're going to do is uh
+1:32 we will see a screen that looks like
+1:34 this. What we're going to do um you can
+1:37 go to this agent panel or you can use
+1:40 editor. I personally like the original
+1:42 editor. Maybe I'm just used to it, but I
+1:44 genuinely like it a lot more. And so I
+1:48 have my cursor window open right here,
+1:50 this chat window. And you can toggle it
+1:52 on and off by pressing this button. And
+1:54 you can also select your model. I have
+1:56 been using Opus 4.5 a lot recently, but
+2:00 I use it within quad code, not as much
+2:01 within cursor. Today we're going to be
+2:03 using GPT 5.2 within cursors agent. So
+2:08 now what I can do is I whatever I type
+2:11 in here, I will create a code project or
+2:14 within this directory, we're going to
+2:16 build an app and create files and all
+2:18 the files will show up here. What I'm
+2:21 going to do is I want you to create the
+2:24 most beautiful landing page for Vibe
+2:29 Code, which is my startup. And so we can
+2:32 say vibecode.dev.
+2:34 Please look up the Vibe Code app and
+2:38 make a high quality landing page for it,
+2:43 but make the copy really good and change
+2:48 the theme to Neo Brutalist
+2:52 and make it perfect. Design should be
+2:58 beautiful. Go. All right, let's see what
+3:02 this new model has in store. Let's see
+3:04 if it can create a highquality design
+3:07 like Gemini. Okay, so it's done. Now,
+3:10 what we want to do is I can run it. I'm
+3:15 just going to say, please run this
+3:17 locally. Oh, wow. Here we go.
+3:22 Look at this. So, I'm going to open this
+3:24 up in Arc. Oh my god.
+3:30 What?
+3:32 This is actually insane. Look at this
+3:35 one shot.
+3:38 This is one shot
+3:40 with It has some interesting like
+3:44 like you can't see the text here, but
+3:47 look at this.
+3:51 Oh my.
+3:54 This is pretty insane. Wow. Build a real
+3:57 app from a prompt on your phone. Vive
+4:01 Code turns your idea into a working
+4:02 native app you can run. Tap one share
+4:05 fast. Generate React Native Expo code
+4:07 test instantly on your device. Then
+4:10 export to cursor. I actually don't want
+4:12 to make any changes. What I want to do
+4:13 is I want to send this to my team and
+4:16 just show them for fun like look at what
+4:18 GBT 5.2 created in one shot. And so the
+4:23 way that I can't send him send anyone
+4:26 this localhost 5173, but what I can do
+4:30 is I can press this plus sign. I'm just
+4:33 going to use um Opus for this because I
+4:36 know Claude is really good at using the
+4:38 um CLI for uh Verscell. And so I can
+4:41 just say I want you to push the code to
+4:46 GitHub. And what I'm going to do really
+4:48 quickly is I'm just going to create a
+4:49 brand new repo. So, I'm going to go to
+4:51 github.com,
+4:52 sign in, and then I'm going to create a
+4:54 new repo. And I'm just going to call
+4:55 this landing page 5.2. And we don't need
+5:00 a description. I'm just going to choose
+5:02 me as the owner. And I'm going to create
+5:04 the repository. Now, what I'm going to
+5:06 do is I'm going to copy this. We're
+5:08 going to go to cursor and push it to the
+5:11 code to GitHub. This is a new repo. Put
+5:14 it here. Then I want you to deploy this
+5:19 to Verscell using the CLI. If you
+5:23 haven't done this already, there will be
+5:25 it'll like give you a little setup thing
+5:27 that will pop up when you do this. But
+5:29 for me, this should just work in one
+5:31 prompt. So it is going to upload the
+5:33 code to GitHub so that we can create
+5:36 versions of our work and we can save our
+5:38 code as we progress through this. And
+5:41 then it's going to take that code and
+5:43 push it to Verscell which will actually
+5:45 host our landing page which will give it
+5:47 a real domain. And then we're going to
+5:49 do it in one shot. Like we don't have
+5:52 like we don't have to go to any other
+5:53 site. It's just going to do this all
+5:55 through the command line. Um or
+5:58 basically do it through the terminal and
+6:00 it's super easy. Look at this. Versel
+6:02 CLI is installed. Let me deploy the
+6:04 project. Um there's an issue with the
+6:08 project name. Let me check if there's a
+6:09 Verscell.json JSON file. And so yeah, so
+6:12 now it created this whatever this is. I
+6:14 don't really know what this does, but I
+6:16 guess it allows them to deploy it with a
+6:18 specific project name. And it says done.
+6:21 And look at this for cell deployment
+6:24 dashboard. Uh, but we can also go to our
+6:28 production URL. So if we copy this, I'm
+6:31 going to open up Arc. We're going to
+6:32 paste in this URL. And boom, this is on
+6:35 the internet. So now I can send this to
+6:37 my team in Slack and they can see it on
+6:40 the internet. And so obviously we can
+6:41 make some changes. We can say the
+6:43 subheader uh under build a real app from
+6:45 your phone on your from a prompt on your
+6:47 phone. I like that header but everything
+6:49 beneath that I want it to be a lot more
+6:51 simplified. You know about the user
+6:53 experience. Don't talk about React
+6:55 Native Expo code. think about from a
+6:57 vibe coder perspective, like someone who
+6:59 just wants the result, you know,
+7:00 simplify it and then take that mentality
+7:03 throughout the rest of it. A and even
+7:05 the the little oval thing uh above the
+7:09 um like that says prompt native app
+7:11 react native plus expo, that's not that
+7:14 cool. Uh that that's just not um it's
+7:17 hard to understand if you're a beginner.
+7:20 So we can just run this. What's cool
+7:21 about cursor is you can actually create
+7:23 queued up prompts. So we can just start
+7:26 prompting before it's done. That thing
+7:28 on the right side, I want that to look
+7:30 more like a mobile app. You know, this
+7:32 just kind of lists all the features. I
+7:34 want it to be a mobile app. Like it
+7:36 actually looks like a really cool mobile
+7:37 app with the outline as if it's an
+7:39 iPhone. Like have it be a whole iPhone
+7:41 with an app that's like very personal.
+7:43 Like even at the top of that, it might
+7:44 say your app. Uh and then like have it
+7:47 be uh emotionally drawing in the sense
+7:51 that it should have a really good app
+7:53 idea on this phone. And so what we can
+7:55 do is we can press enter. And you see
+7:56 this, it has one queued up prompt. So as
+8:00 soon as it finishes, it will um start
+8:04 the next prompt. So it is going to
+8:08 update both of these. I updated the
+8:11 browser. And you can see here this is
+8:12 much simpler. Describe what you want.
+8:14 Vibe code builds it. Test on your phone
+8:16 in minutes. Tweak it until it's perfect
+8:19 and share it with anyone. No coding
+8:22 experience required. And so now this
+8:24 next prompt that we're doing should turn
+8:26 this into a high quality mobile app. And
+8:30 ideally it'll look much better. Oh wow.
+8:33 Okay. So I don't know if it's still
+8:35 working. Okay. It's done I believe. And
+8:38 look at this. So we can actually update
+8:40 it. So this is what it started out
+8:42 building. And here it is. Your app lives
+8:44 here. Any app you can imagine. This
+8:46 could be your app. Just describe it. I
+8:49 like it. These icons are getting a
+8:51 little bit cut off. We could regenerate
+8:53 these icons, but this gives you a pretty
+8:56 good idea.
+8:58 And now, so if we go to this link right
+9:00 here, notice here that this is the old
+9:03 version. This is the new version. This
+9:04 is the old version. What if we want to
+9:08 update the one that's actually on the
+9:10 internet? And by the way, we can replace
+9:12 this with our own domain. I have a lot
+9:14 of other videos. There's a lot of
+9:16 videos. And you can actually just ask
+9:17 cursor how to do that. I don't want to
+9:19 buy a domain right now. So you can do
+9:21 that on your own time, but I want to say
+9:23 please push these changes to GitHub and
+9:28 please ship to Verscell the updates. And
+9:31 now we wait. We can see here it's
+9:33 building build completed in Verscell
+9:36 output. Done. So if we go back here and
+9:39 we update this, there we go. We have our
+9:42 new version. It's on the internet. You
+9:44 can go to this link right here to see
+9:45 this landing page. Okay. So, we just did
+9:48 a landing page. The next item on the
+9:51 agenda is to create an app that has AI
+9:53 features and a database. And so, what
+9:57 I'm going to do in cursor I can press
+9:59 command shiftn. This will open up a new
+10:01 window. We can go to projects. We're
+10:04 going to go new folder and I'm just
+10:05 going to call let's go gro clone. And
+10:09 so, we're going to clone gro except
+10:11 we're going to use the open AI API. I
+10:13 just want to make it look like grock. So
+10:16 now what I want to do is I want to
+10:17 construct a prompt. So we're going to
+10:19 make sure that we're using gpt 5.2.
+10:22 We're going to go to grock.com.
+10:25 And what we're going to do is we are
+10:26 going to get a screenshot of before I
+10:28 type anything in. And we're also going
+10:31 to get a screenshot after I type
+10:33 something in. Actually, let's get this
+10:35 screenshot right here. Copy this. And
+10:38 now we'll say, "Please tell me a story
+10:43 about the origin
+10:45 of Apple the company." And then we're
+10:49 going to get another screenshot.
+10:54 Okay.
+10:56 Oh, that's kind of cool.
+10:58 Okay. So, we can copy that to my
+11:00 clipboard. Now, what I'm going to do is
+11:03 I'm going to say, I want you to create
+11:05 an app that is like Grock. This app
+11:09 should look exactly like the image that
+11:11 I'm showing you here. I want you to make
+11:13 a clone, but I want it to use the OpenAI
+11:15 API. I'm going to give you an API key
+11:17 right now. And so, we can paste in that
+11:21 image right there. And then the first
+11:23 image,
+11:25 the first image I gave you is after I
+11:27 typed in a chat. The f uh the one before
+11:29 that or the one that I uploaded after is
+11:31 when before I type something into the
+11:33 chat. Please make it look the same. And
+11:35 also I want you to please have the
+11:39 drawer menu on the left. And then I also
+11:41 want you to use SQLite to create a
+11:44 database and authentication. For the
+11:46 authentication for now just make the
+11:49 username and password just numbers. So
+11:52 username one, password one. These
+11:56 accounts should be created when I sign
+11:59 in with these accounts. This is just a
+12:02 simplification. We'll add real
+12:03 authentication later. I just want to
+12:05 test the database. Don't make the AI
+12:08 features yet. Right now, I want you to
+12:10 make it deterministic and just make the
+12:13 AI response just be uh response
+12:17 to
+12:19 um and then we'll put insert user input
+12:23 in the chat. This is just and I want all
+12:26 of these to be stored in chat. So really
+12:28 think deeply about how to store this in
+12:29 the database and I want these chats to
+12:31 be able to run for a while. But I just
+12:33 want to create the design and then the
+12:35 database and then we'll add the AI
+12:37 features in a future step. Okay, this is
+12:39 a pretty detailed prompt. We're going to
+12:41 go ahead and run this. While that's
+12:42 running, I just wanted to explain what
+12:44 we're kind of doing here. I have found
+12:46 the best way to like get used to vibe
+12:49 coding is I just use uh SQLite uh SQL
+12:53 light and database. This is a type of
+12:55 database. It's like a good way to just
+12:57 create a really quick database and get
+12:59 it up on the internet. These are good
+13:00 for just like very simple internal tools
+13:03 that you might want to use for like one
+13:05 specific process. And it's really easy
+13:07 to get started. You don't have to use
+13:08 Firebase or anything like that. The next
+13:10 thing that I want to say is yeah, so
+13:12 we're basically just creating an exact
+13:14 clone of Grock and it's going to have
+13:18 database. It's going to have a mini
+13:20 authentication which means just sign in.
+13:22 So authentication is uh is the same
+13:26 thing as I just think of it as signin.
+13:31 And we're going to we're going to add an
+13:35 API. And so an API is um where right
+13:39 you've heard maybe of the open AI API
+13:43 the underlying technology behind chat
+13:45 GPT is just the chat GPT API and the
+13:47 website is just a wrapper right this is
+13:50 the experience by which ina in this case
+13:53 we're using the open AI API which is
+13:56 just like GPT 5.2 to we can even add it
+13:59 to the app, right? And we're going to
+14:02 create an experience for this
+14:04 technology. And this is basically just
+14:07 like a web app. And this web app is
+14:09 going to have all of these features
+14:11 here. Okay, so it appears like it is
+14:13 done. And this went for a while. I think
+14:14 this went for like 7 minutes. So it
+14:16 appears to be done. Let's go ahead and
+14:18 give this a test.
+14:20 Um, this looks pretty cool. Test
+14:23 message, please.
+14:26 Okay, we did get one error. So, I'm
+14:29 going to copy this error. I'm going to
+14:31 go ahead and open this up. I got an
+14:33 error during testing. Please fix this is
+14:39 when I typed and entered an input.
+14:44 Okay, it's done. Let's give this a look
+14:46 here. Hello there. And I'm going to
+14:52 Okay, so this is a message. Hello there.
+14:54 So, we have set up this. It looks like
+14:57 the database. Let's see if we if we
+14:59 refresh the browser. The data is
+15:01 persistent. This is pretty cool. Back.
+15:06 Boom. Okay, this is cool. So, we have
+15:08 all of our chats here on the side. If we
+15:11 refresh in the browser here, we have it
+15:13 all here on the side. This looks pretty
+15:15 good. Um, nice. We have this database
+15:21 working. Um, that's pretty cool. So,
+15:24 we've created this little chat app here.
+15:27 And now what I want to do is I want to
+15:31 get the API. So, what I'm going to do is
+15:33 I'm going to open up a browser. And I'm
+15:35 just going to type in OpenAI
+15:38 dashboard API. And we're actually going
+15:41 to use the OpenAI technology. We're
+15:43 going to go to OpenAI platform. Signing
+15:45 in. We're going to go API
+15:49 dashboard. And what I'm going to do is
+15:52 I'm going to go to API keys. I am not
+15:55 going to show this part. Okay. What I
+15:57 have done here is I copied the OpenAI
+16:00 API key that I got from that dashboard
+16:02 API site on OpenAI and I pasted it in
+16:05 myv file right here so that it can
+16:08 actually use the OpenAI technology. You
+16:11 want to keep this safe. You do not want
+16:13 people to get this key. So I'm keeping
+16:15 it hidden right now. Okay. So now we can
+16:18 go back to to OpenAI GPT 5.2. Okay, I've
+16:22 included the OpenAI API key uh in the
+16:27 environment variables. What I want you
+16:29 to do is please set up the AI so that it
+16:32 actually works properly. I want it to
+16:34 work properly and actually have AI
+16:37 responses. Please make sure that it
+16:39 shows up in proper markdown format so
+16:41 it's not looking all weird. Please make
+16:44 this work. use the new uh Open AI 5.2.
+16:50 Search the internet. Figure out how to
+16:54 do this. Okay, it's done. If you start
+16:56 your app and send a message. Okay, so if
+16:59 we just restart, go to chat. Hello
+17:02 there. Um, okay. So, it appears that it
+17:08 is done. Let's go ahead and refresh here
+17:11 in the browser. Let's see if we finally
+17:14 have AI. So, what is the best way to get
+17:21 lean? Oh, so I don't know if it's
+17:26 working. Oh, okay. So, that literally
+17:30 was super delayed. Uh, please tell me in
+17:34 one sentence how to make a mobile app.
+17:39 Okay, so they both come in at the same
+17:42 time. The design I'm not super impressed
+17:45 with with GPT 5.2.
+17:49 Please tell me in two paragraphs how
+17:54 LLMs work. I will say uh it's pretty
+17:58 slow and I enjoy using Opus 4.5 a lot
+18:02 more than GPT 5.2 2. And I recommend
+18:06 just doing that. If you want to create a
+18:08 new chat, I recommend just using Opus
+18:11 4.5. I find it to be a lot better, but
+18:14 that's how you do it. We created this
+18:16 app, right? If I were to go file, new
+18:19 incognito window, paste this in. I guess
+18:23 we can't sign out. I'm trying to sign
+18:25 out right now. Um, and okay, there you
+18:29 go. Look. So, we've created a AI powered
+18:32 app with a database. So we're signing in
+18:34 as user three, right? You'll see that we
+18:36 have no data over here. And what we can
+18:40 do is we can say hi. And all of this
+18:42 data is stored in this SQLite database.
+18:44 And we have AI features set up. And so
+18:47 that's how you do this within cursor.
+18:49 And we use GPT 4 or 5.2 to do this. And
+18:54 remember, if you want to deploy this,
+18:55 you can use the Verscell CLI and GitHub.
+18:58 Those are that's kind of the stack that
+19:00 I use for vibe coding within Cursor. But
+19:02 yeah, in this video we created a landing
+19:04 page and it seemed pretty decent at
+19:07 design and for these complex larger
+19:10 tasks. It struggled a little bit
+19:12 creating a highquality design, it did
+19:15 much worse than Gemini 3. Yeah, I think
+19:18 what you should do is you should test
+19:20 all of these models and decide which one
+19:22 you think is best. Personally, I think
+19:24 Claude Opus 4.5 is the best right now,
+19:28 but I'm open to this changing. Uh, I
+19:31 just think it's pretty good. It's almost
+19:33 as good as Gemini 3 at design and then
+19:35 it just does like crazy stuff and it's
+19:38 pretty fast. And so I just think it's
+19:40 really good at being a general agent.
+19:43 And if you watch my previous video, I'm
+19:45 actually using this as a general agent
+19:47 and I use it to control my Obsidian,
+19:50 which is my note-taking app and I
+19:51 basically use it for all of my tasks. So
+19:54 I highly recommend using Claude Opus 4.5
+19:56 for this. Uh but anyway, this is a video
+19:59 uh using the brand new GBT 5.2. It's not
+20:02 quite as good as the other two models in
+20:04 my opinion, and that's why there is a
+20:06 code red at OpenAI, and we'll see how
+20:09 these models progress. I anticipate that
+20:11 all three of these companies will be
+20:13 releasing new models within the next two
+20:16 to three months, and I'll be here
+20:18 covering it right here on this channel.
+20:19 So, subscribe. I'll see you in the next
+20:21 video.

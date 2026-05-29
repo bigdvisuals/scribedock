@@ -1,0 +1,408 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=F8i0kkrQ8_o
+Channel: Starter Story
+Video ID: F8i0kkrQ8_o
+Transcript language: English auto-generated
+Downloaded at: 2026-05-25T20:45:40.983Z
+
+0:00 I'm Ule, co-founder of Papermark.
+0:02 >> And I'm Mark. We bootstrapped Papermark
+0:05 to 75K MR.
+0:07 >> This husband and wife duo built a near
+0:10 million dollar business thanks to this
+0:12 opensource SAS.
+0:14 >> Yeah, I think off the bat being open
+0:16 source was the right bet for us.
+0:18 >> In just a year and a half, they took a
+0:20 weekend open source project to $75,000
+0:24 MR.
+0:24 >> Paper Mario started as a tweet. So, I
+0:27 asked both of them to come onto the
+0:28 channel and break all of it down. In
+0:30 this video, you'll learn why open source
+0:32 is actually a really genius business
+0:34 model, how there are loads of big
+0:37 companies just waiting to be open
+0:38 sourced, and how to grow in open source
+0:41 if you're just starting out today. All
+0:43 right, let's dive in. I'm Pat Walls and
+0:45 this is Starter Story.
+0:49 All right, welcome Mark and Julia to the
+0:52 channel. Tell me about who you are, what
+0:54 you built, and what's your story. Hey
+0:56 Pat, I'm Mark, co-founder of Papermark.
+0:58 It's the open- source successor to
+1:00 Docsend for sharing documents and data
+1:02 rooms securely. Papermark started as an
+1:05 open- source project on the side without
+1:07 the idea to actually go commercial
+1:09 >> and uh we are close to reach our first
+1:13 million error.
+1:14 >> Okay, that's crazy. In 1.5 years, you
+1:17 guys basically built a million-doll
+1:18 business. Let's go back to how you guys
+1:20 found the idea for this. How did you
+1:22 find the idea for Papermark? Yeah, it's
+1:25 actually funny. It started as a tweet. I
+1:27 pushed out a tweet and I basically said
+1:29 like I'm going to build an open source
+1:31 alternative to Docsend and it went just
+1:33 like crazy. Within, you know, a couple
+1:35 hours it got like 40,000 views. Lots of
+1:38 people mentioned that they would love to
+1:39 see this as an open source project. So
+1:41 over the weekend, I actually built it at
+1:43 least their first MVP, the first version
+1:45 that was usable and pushed out on Monday
+1:48 the launch tweet and it got like 100k
+1:51 views. And then soon after their first
+1:54 customers came and were asking like,
+1:56 "Can we give you money to buy the
+1:58 service?" And that's kind of how it
+2:00 kicked it off.
+2:01 >> That's crazy. The amount of founders
+2:02 that I talked to that have built a
+2:04 business based off a single tweet is
+2:06 actually way higher than you'd think. I
+2:08 just want to understand a little bit
+2:09 more about what Papermark is and what it
+2:11 does for our audience who may not
+2:13 totally be in this space. Can you
+2:15 briefly explain what Papermark actually
+2:17 does? So essentially the papermark is a
+2:20 document analytics and sharing platform.
+2:23 So you kind of turn your document into
+2:25 the link which you later can share
+2:28 protect with the password with the
+2:30 watermark and then get the all analytics
+2:33 so they can see exactly okay someone was
+2:36 on my document for 5 minutes on this
+2:39 slide 1 minute here. So you know exactly
+2:42 what happened and the papermark is uh
+2:44 essentially alternative to the docend
+2:47 and other data room providers which
+2:49 exist already for 10 years or more but
+2:53 they like don't innovate anymore. They
+2:55 don't produce anything new. They mostly
+2:57 focus on the enterprise customers.
+2:59 That's why the open-source kind of new
+3:02 solution was needed in this market.
+3:04 >> All right. So the main reason I wanted
+3:05 to bring you guys on the channel is that
+3:06 you built this business on top of open
+3:09 source which is a super cool model. You
+3:12 guys managed to find a way to not only
+3:13 build an open source project but build a
+3:15 really really nice business on top of
+3:17 it. Can you first explain to me just
+3:19 what open- source is and then we'll get
+3:21 into the the business side of things.
+3:23 >> Yeah, of course. So open source like the
+3:25 name says the source code that's
+3:28 powering the project is publicly
+3:31 available. So anyone can look at it,
+3:33 anyone can contribute to it. And the
+3:35 cool thing is that the entire like
+3:37 history of the project is also publicly
+3:40 available. It also opens up the project
+3:42 globally to any developer in the open
+3:44 source ecosystem that likes to
+3:46 contribute or that is interested in the
+3:48 project and wants to contribute to it.
+3:50 There are of course licenses that have
+3:52 some protective mechanism and in the end
+3:55 you have these communities that form
+3:57 around each project and they can be
+3:59 larger or smaller depending on the
+4:01 popularity of the project or the
+4:02 maintainer as well. A lot of developers
+4:04 these days they want to show off their
+4:06 work. Maybe they can't find a job but
+4:08 they can do open source projects. They
+4:10 can contribute to open source in order
+4:11 to advance their own career. So
+4:13 attracting early users open source is
+4:15 great because you can just ultimately
+4:17 ship in public.
+4:18 >> All right. So can you break it down for
+4:20 me? So you have open source, all the
+4:22 code is free, anybody can use it. How
+4:24 does this actually work for your
+4:25 business and how do you make money?
+4:27 >> So the business model for Papermark is
+4:29 basically you can either self-hosted for
+4:31 free or for many of the users that maybe
+4:35 not be techsavvy that don't want to host
+4:37 it themselves because they don't want to
+4:38 do deal with the overhead or the
+4:40 maintenance. We have a hosted version
+4:42 that we charge for for the open core
+4:45 model. Our core software of Papermark is
+4:47 is open source and self-hostable. And
+4:49 then if you need advanced features, you
+4:52 can acquire a license and still run it
+4:54 on your infrastructure as a self-hosted
+4:56 version, but just with our enterprise
+4:57 license attached to it, so that you can
+4:59 enjoy the full suite just as it is on
+5:02 papermark.com.
+5:03 >> Looking back, uh what are the benefits
+5:05 to building open source that you've
+5:07 realized?
+5:08 >> Number one, it's highly defensible
+5:10 because you you have nothing to hide
+5:12 behind. you essentially give away the
+5:14 core product for free. There's no need
+5:16 for anyone else to kind of build the
+5:17 same project and charge anything for it
+5:20 because it's essentially already as low
+5:21 as it can get. Number two, it's very
+5:24 scalable because there's essentially
+5:26 zero barrier to entry. We have people
+5:28 coming to our project every day, looking
+5:31 at it, either contributing to it,
+5:33 running it for their small teams, or
+5:35 then seeing the open source project and
+5:37 converting actually to papermark.com
+5:39 because they don't want to deal with the
+5:40 self-hosting of it. they just come to us
+5:42 because we do the best service in in in
+5:45 hosting the solution. Number three, we
+5:47 have that communitydriven R&D velocity.
+5:50 Incumbents only have like their
+5:51 employees that basically maintain the
+5:54 the software. We have the community that
+5:56 basically looking through the projects,
+5:58 monitoring it, seeing where they can
+6:00 contribute new features. If they find
+6:02 like issues, they can immediately swoop
+6:04 in and like provide a a solution for it.
+6:06 The velocity with the community is just
+6:08 like immense. And number four, it's very
+6:11 secure and has high trust. The code can
+6:14 be audited by any third party. You're
+6:15 not hiding behind proprietary software
+6:18 that we need to grant access to someone
+6:20 at a bank that is trying to evaluate
+6:23 whether it would be a great fit for the
+6:25 infrastructure. They have to run through
+6:26 so many checks and they can do that very
+6:29 easily by just by auditing our open
+6:31 source code and seeing that nothing
+6:32 nefarious is going on and everything is
+6:34 extremely secure. All right, before we
+6:37 move on with the interview, I do want to
+6:38 talk about one thing. As a founder,
+6:40 you're likely moving fast towards
+6:42 product market fit, your next funding
+6:44 round, or your next big enterprise deal.
+6:47 But with AI accelerating how quickly
+6:49 startups are building and shipping,
+6:50 security expectations are higher earlier
+6:53 than ever. Getting security and
+6:55 compliance for your business right can
+6:57 unlock growth, but it can also stall it
+6:59 if you wait too long. With deep
+7:01 integrations and automated workflows
+7:03 built for fastmoving teams, Vanta gets
+7:05 you audit ready fast. And it keeps you
+7:08 secure with continuous monitoring as
+7:10 your models, infrastructure, and
+7:12 customers evolve. Fast growing startups
+7:14 like Langchain, Writer, and Cursor trust
+7:17 Advant to build a scalable foundation
+7:19 from the start. Go to
+7:21 vanta.com/starterstory
+7:23 to get $1,000 off Vanta and join over
+7:26 12,000 ambitious companies already
+7:29 scaling with the platform. That's
+7:31 vanta.com/starterstory
+7:33 for $1,000 off. I'll put a link in the
+7:35 top of the description for you to check
+7:36 it out. Thank you, Vanta, for sponsoring
+7:38 the channel. I love the platform that
+7:40 you're building. And without further
+7:42 ado, let's get back to the interview.
+7:44 For anyone watching right now who's a
+7:46 developer who's excited about open
+7:47 source, what are the opportunities right
+7:49 now to build an open source and also
+7:51 build a business on top of it?
+7:53 >> With the era of AI, founders can target
+7:56 much smaller niches and like smaller
+7:58 markets. It just makes it so easy to
+8:00 create like a very small differentiated
+8:02 business off of an existing incumbent.
+8:05 The kind of like key markets that I see
+8:08 today that are being rebuilt is anything
+8:11 that has to do with like a CRM. they
+8:13 have become so large that the software
+8:15 itself is is very complex and they try
+8:17 to do this like one sizefits-all where
+8:20 of course once you're in at like the
+8:21 highest tier you can then customize it
+8:24 to your own use case but why not build a
+8:28 very targeted CRM for veterinarians or
+8:32 like office building managers that have
+8:34 like a very specific use case to use the
+8:37 CRM but and don't need like the entire
+8:39 complexity. Think about reducing
+8:41 complexity in what existing businesses
+8:44 are there and just like build it very
+8:46 simple. Think to yourself like is there
+8:48 an open source alternative? Does it make
+8:50 sense to build an open source
+8:51 alternative? Is the market massive? Is
+8:53 there enough room for other players in
+8:56 the market? Because often times you will
+8:58 find that software is not really the
+9:00 differentiator. So being open and open
+9:02 source is no detriment to you or your
+9:05 business.
+9:06 >> Okay, let's change subjects a little
+9:08 bit. Let's talk about growth. I mean 0
+9:10 to 900,000 ARR there's something here
+9:13 whether it's open source whatever it is
+9:15 but if you guys can just break down how
+9:17 did you grow this quickly what were the
+9:19 right decisions that you made yeah I
+9:20 think off the bat I think being open
+9:22 source was the right bet for us building
+9:24 in public with open source is is
+9:26 extremely natural because you have
+9:28 nothing to hide behind already there's
+9:30 no downside to sharing the small
+9:32 progress even that you're making even if
+9:34 the features are not 100% complete share
+9:36 that on Twitter on LinkedIn just with
+9:39 anyone and you'll slowly gather
+9:41 community around that. Then lastly, in
+9:43 terms of growth, we also participated in
+9:46 this month-long open- source hackathon
+9:48 called Hacktoberfest. There's like a
+9:50 cycle where we build faster, more
+9:53 customer notice that we're building and
+9:55 shipping features whereas the incumbents
+9:57 are slow and like sleeping and then they
+9:59 start switching because now the feature
+10:01 sets aren't reaching feature parody and
+10:03 even going beyond that.
+10:05 >> Cool. And thanks for sharing that. Can
+10:06 you break down some of the numbers
+10:07 behind the business?
+10:08 >> So in the first year we grew to 20,000
+10:12 MR to middle of the second year we grew
+10:15 to 75,000 MR. So we are getting closer
+10:19 to our first million middle of the
+10:21 second year we serving around 30,000
+10:24 users because there's like a lot of free
+10:27 users. Uh then we serve around,000
+10:30 customers. Uh 60 contributors uh 7,000
+10:34 stars. Maybe the focus if our northstar
+10:37 metric is amount of views on the shared
+10:40 documents. So we have 80 800,000
+10:45 views on the shared documents. It means
+10:47 that people upload their documents then
+10:49 share the link and then 800,000 view
+10:53 their documents.
+10:54 >> Let's change topics a little bit. I know
+10:55 a lot of people watching this are
+10:56 developers even people building in open
+10:58 source. Let's talk about tech stack.
+11:00 Tell me about how this business is
+11:01 built. Yeah. So we run Papermark as two
+11:04 projects in Nex.js. So one project is
+11:08 our website and our marketing content
+11:10 and the other project is the open-
+11:12 source project which powers like
+11:14 app.papermark.com.
+11:16 It runs uh next.js with TypeScript. On
+11:19 our day-to-day of course we're like so
+11:21 many others are using cursor as kind of
+11:24 like our AI IDE. Everything's hosted on
+11:27 GitHub. Papermark is hosted on Verscell
+11:29 Planet Scale for our Postgress database.
+11:33 Trigger, it's a background tools. Resend
+11:36 is I think like a fan favorite these
+11:38 days for like easy email. It gets
+11:40 delivered to your inbox like in terms of
+11:42 transactional emails like really
+11:44 quickly. And then of course Stripe.
+11:46 >> On that same note, can you break down
+11:48 some of the costs and margins to run
+11:50 this business? What does it look like to
+11:52 run a business built on open source?
+11:54 Yeah. So our main cost is spending on
+11:58 freelancers and founder salaries around
+12:02 80% then we have around 15% on different
+12:06 experiments with marketing and growth
+12:08 and uh 6 to 5% it's the tools.
+12:11 >> Thank you for sharing that. Last
+12:12 question that I have is advice for
+12:15 anyone who wants to build in open source
+12:17 do things in open source potentially
+12:18 even build a business in open source.
+12:20 What would be your advice to someone
+12:22 watching this? I think being an open-
+12:24 source alternative to like in any market
+12:26 to any big incumbent isn't a shorefire
+12:29 success. You need to reach at least
+12:32 feature parody with the existing tools
+12:34 in the market and then you need to out
+12:36 ship them, right? You only you need to
+12:37 be better than the current offering in
+12:40 the market. You want to become the clear
+12:42 successor to the incumbents, not just be
+12:45 an alternative that's also there. And
+12:47 you need to turn that excitement around
+12:49 open source into product momentum. So
+12:51 convert them into paying customers or
+12:54 even users of your tool. Only then you
+12:56 can actually make it a successful
+12:58 business.
+12:59 >> Uh from my experience I didn't know how
+13:01 to code at all and I decided okay I'm
+13:04 going to build the first project. I took
+13:07 existing opensource to build on top of
+13:09 and then what I build I also made open
+13:12 source and I feel so much push and
+13:15 support from the open source community
+13:17 and contributors. I would definitely if
+13:20 you want to try open source and see
+13:22 really what it is, you need to kind of
+13:24 jump into it. You will not get the whole
+13:26 idea if you're not going to build that.
+13:28 Just do it open source from the
+13:30 beginning. Try to be part of the
+13:32 community. Help people contribute and
+13:35 they will do the same and you will see
+13:37 how your project grow.
+13:39 >> All right. Well, that's great advice.
+13:40 Thank you Julia and Mark for coming on
+13:42 the channel. It's so impressive what you
+13:44 guys built in just a couple years.
+13:46 Thanks for sharing everything about the
+13:48 open source model, building it open
+13:49 source. It was awesome. See you guys
+13:51 soon.
+13:52 >> Thanks, Bad.
+13:53 >> Thank you.
+13:54 >> I wanted to thank Mark and Julia for
+13:56 coming on to the channel. I loved
+13:57 hearing about how they grew Papermark
+14:00 and their unique approach to building
+14:01 this project with open source. However,
+14:04 I must remind you that it all still
+14:06 started with a simple idea. And
+14:08 nowadays, that's all you need to
+14:10 potentially build something that changes
+14:12 your life. And that's why we launched
+14:14 Starter Story Build. We'll help you take
+14:16 that idea up here and turn it into a
+14:18 real app using only AI tools. So, if
+14:21 you're ready to launch your project,
+14:22 then head to the link in the description
+14:23 and check out Starter Story Build. All
+14:25 right, that's it for this episode.
+14:27 Thanks again for watching. We'll see you
+14:29 in the next one. Peace.

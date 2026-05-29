@@ -1,0 +1,1018 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=ssUPJ0KGEwk
+Channel: Chris Koerner on The Koerner Office Podcast
+Video ID: ssUPJ0KGEwk
+Transcript language: English auto-generated
+Downloaded at: 2026-05-25T23:53:08.598Z
+
+0:00 I think you could monetize it. I think
+0:01 you can monetize anything. Okay. They
+0:03 have these devices that will be Dude,
+0:07 you're blowing my mind right now.
+0:08 This guy owned a bar or restaurant or a
+0:10 nightclub and he created a fake profile
+0:13 of a very pretty girl and set up dates
+0:17 for like dozens or hundreds of men to
+0:19 meet at that bar or restaurant. And it
+0:22 worked. Like it just drove a ton of
+0:24 customers and they all got ghosted, but
+0:26 then they were there. I'm going to share
+0:27 some crazy things. Are you ready for a
+0:29 crazy story, Chris? He has over 10
+0:31 million followers and literally all he
+0:34 does is
+0:38 Welcome to the Kerner office. It's
+0:39 Friday, therefore it's Holdco Bros. Nick
+0:41 and I are going to talk about some cool
+0:42 business ideas and this is part two of
+0:44 last week's Holdco Bros. Sometimes we
+0:47 record a double episode and we split it
+0:48 up. So, one quick note, we had a glitch
+0:51 in last week's episode. We included a
+0:53 segment that was supposed to be in this
+0:54 week's episode, which was about using
+0:56 chat GBT inside of Google Sheets, which
+0:58 I'm really excited for. So, you may have
+1:00 got a sneak peek last week, but that was
+1:01 a different episode entirely. So, we're
+1:03 going to play that whole segment again
+1:04 this week. You might not have heard it.
+1:06 Anyway, don't stop listening because you
+1:08 start hearing a segment that sounds
+1:10 familiar because all of the other
+1:12 segments are new. So, enjoy. You're
+1:13 going to love this one. Please share
+1:14 with a friend. We'll see you next time.
+1:15 Have you used AI in a spreadsheet much?
+1:19 like not uploading a spreadsheet to GPT,
+1:22 but
+1:22 oh man, it is so cool. So, here's what I
+1:25 did. So, there's this Google Sheets
+1:27 extension called I think it's called GPT
+1:30 for sheets,
+1:31 and it's dirt cheap, costs almost
+1:33 nothing, and you basically type in a
+1:35 formula equals GPT, and then in
+1:37 parenthesis, you put a prompt, and then
+1:39 you put comma, and then the cell that
+1:41 you're referring to. Okay?
+1:42 And so, there are just so many use cases
+1:44 here. I I did this for my newsletter.
+1:46 Like I would love the first names of as
+1:50 many of my newsletter subscribers as
+1:51 possible because when I email them I
+1:53 could include the first names and it'll
+1:55 help your deliverability because all of
+1:58 the carriers will see that each email is
+2:00 unique and it seems more personalized
+2:02 like people know I'm not writing them
+2:04 personally but it just feels better,
+2:07 right? It just it just shows better. And
+2:09 you can put in what's called fallback
+2:11 values to where if you can't get their
+2:13 first name, then you could just say like
+2:15 for Texas next what I do is howdy, and
+2:18 then if I have their first name, it'll
+2:19 put their first name. If I don't, it'll
+2:21 just put partner. So it's like either
+2:24 way, I don't look like an idiot, right?
+2:26 It's also not like I get all the time in
+2:28 Twitter, hey co-founders, are you
+2:31 worried about I'm like,
+2:33 anyways, keep going. So on my subscribe
+2:36 page, if I were to ask for their first
+2:37 name, then I'd lose 20 to 30% of
+2:39 subscribers. So I don't it's not worth
+2:41 that much to me.
+2:42 Really?
+2:43 Yeah. It's just more friction.
+2:45 Okay.
+2:46 But I still want them. And so there are
+2:48 services where you can append data.
+2:50 There's one called Norbert where you can
+2:53 upload a list and it's going to go to
+2:54 LinkedIn. It's going to go all over the
+2:56 internet and say, "All right, we think,
+2:57 you know, this guy's email is
+2:58 johnsmith@gmail.com. His name is gonna
+3:00 be John,
+3:02 right? Sometimes it'll use logic just by
+3:05 doing it that way and sometimes it'll
+3:06 actually like connect the the random,
+3:09 you know, dragon slayer@gmail.com
+3:12 email to a LinkedIn profile and then use
+3:14 their first. So Norbert and you know its
+3:17 competitors work about 30 40 50% of the
+3:19 time. But this GPT for sheets is awesome
+3:22 because it can do it as well. So I use
+3:25 it for two different things. So, for
+3:27 perfume vending, for instance, we have a
+3:30 type form where we require their first
+3:32 name. But some people are idiots and
+3:34 they type in like a question like, "Hey,
+3:36 I want to know the price of it and it
+3:37 says that's their first name." It's like
+3:38 that's not helpful. And some people
+3:40 don't put it cuz it it's not I don't
+3:42 know if it's we asked for it, but it's
+3:44 not like a required field, but most
+3:45 people put it in. And then some people
+3:47 just type gibberish. And so I exported
+3:49 all the perfume vending leads to a
+3:51 Google sheet. I typed in a formula
+3:52 that's like, "Hey, most of these are
+3:54 first names. Some of them are all caps.
+3:56 Some of them have no caps. I want you to
+3:57 standardize them. Make them all
+3:59 grammatically correct. Uh if someone
+4:01 just writes a sentence and like there's
+4:02 no first name of any nationality found
+4:05 in that sentence, leave it blank. Like
+4:07 it's a really long prompt. And then if
+4:09 it's like if it's all caps, just make
+4:10 it. If it's like gibberish, like people
+4:13 just hit the keyboard, then just leave
+4:14 it blank. And then you drag it down.
+4:16 Boom. Good to go.
+4:18 What?
+4:19 And it costs like a fraction of a
+4:20 fraction of a penny per row.
+4:23 Dude, you're blowing my mind right now.
+4:24 cuz like data integrity is such a big
+4:26 problem especially when you're trying to
+4:28 do any type of analysis. That was a big
+4:31 issue with all the leads that we got for
+4:33 perfume vending is people would put like
+4:36 we let me back up here. When you're
+4:38 asking people for information, you can
+4:40 do it one of two ways. You can leave it
+4:41 free text or you can give them drop
+4:43 downs. And when we asked them where
+4:46 they're from, these weren't drop downs.
+4:47 It was like where are you from? And so
+4:49 some people like they just misspelled
+4:51 Maryland or like Michigan or South
+4:54 Africa like and so I had to go in
+4:56 manually and find these ones and sort
+4:59 and clean up the data. I had to do like
+5:00 a lot of manual data clean up
+5:02 especially for large data sets. That's
+5:03 incredible. Yeah. So then let's say you
+5:07 don't have first names, you just have an
+5:08 email address. Then the prompt is, hey,
+5:11 all I have is an email address. Can you
+5:13 like discern what the first name is? And
+5:14 if you can't like reasonably with 70%
+5:17 accuracy, just leave it blank then. Cuz
+5:19 a lot of times it's like smith
+5:21 johnhgmail.com.
+5:22 His name is John. It's not Smith, right?
+5:25 A lot of times it's like John7727.
+5:28 Oh, it's John. And sometimes it's like
+5:30 mixed in there and it's really really
+5:32 good for that and it costs almost
+5:34 nothing. So now what I did was I went to
+5:37 my newsletter, I exported every single
+5:39 one, I drugg it down and now I have
+5:41 first names for like most of my emails.
+5:44 But it doesn't end there. Go ahead. Go
+5:45 ahead.
+5:46 So tell me the name of the plugin again.
+5:48 GPT for sheets.
+5:49 Okay. So GPT for sheets. And then I just
+5:51 go in a cell equals GPT.
+5:56 And then I tell it what
+5:57 open parenthesis open parenthesis
+6:00 prompt,
+6:02 cell number, and then you drag it down
+6:04 and then close parenthesis.
+6:06 Could you do it where it's like prompt,
+6:07 comma, column? Right. Right. So, it's
+6:09 like
+6:10 Mhm.
+6:11 I want you to find me the most common
+6:14 name in this column. Let's just say
+6:16 boom. And then it'll be like John. Like,
+6:18 will it do that type of information?
+6:20 Does that make sense?
+6:21 Yeah. Yeah. You can already upload
+6:23 spreadsheets to Chad GPT. Like you you
+6:25 recommended a podcast. I listened to it
+6:27 yesterday, by the way. Very, very good.
+6:29 And he was talking about he exports his
+6:30 YouTube analytics, uploads it to ChatGpt
+6:33 and says, "Hey, like what are some
+6:34 commonalities here?" Like that's cool,
+6:36 but this is like hyper hyper granular,
+6:38 which I love. And so for all of these
+6:40 co-founder applications we have, you
+6:42 know, we've gotten 30,000 co- co-founder
+6:45 applications and like a third of them
+6:47 fill out a 28 minute long type form
+6:50 asking all kinds of questions about
+6:51 businesses that they started, what
+6:52 they've done that's impressive, what
+6:54 school, when are they graduating. And we
+6:55 look at this and we're like, what do we
+6:57 do with this? Okay, we could like do
+6:59 control find Harvard. like that guy
+7:01 might be interesting, but that's like
+7:03 that gets you 1% of the way there, you
+7:05 know, because we don't care about
+7:06 Harvard. Like we want a guy that built a
+7:09 Chrome extension from his dorm room and
+7:11 like hacked into the the university
+7:13 servers, right? But that's in his story.
+7:16 That's not like we don't have a drop
+7:17 down that says, "Did you hack into your
+7:19 university servers?" And so we could
+7:21 totally make a prompt that's like, "All
+7:23 right, here's our grading criteria. We
+7:25 want students that have actually done
+7:27 something. Maybe it was a lemonade
+7:28 stand, but like they have to have
+7:30 already started a business. We don't
+7:31 care what their revenue was. We want
+7:32 students that have an eye for
+7:34 entrepreneurship that are ideas people.
+7:37 Uh we want students if you don't care
+7:38 about GPA, ignore like assign zero
+7:40 weight to GPA, a zero weight to school,
+7:42 zero weight to graduation date. This is
+7:44 what we're looking for. Drag it down.
+7:46 Score them 1 to 10.
+7:48 I'm on Google Workplace Marketplace.
+7:50 Work. Google Workplace Marketplace. GPT
+7:52 for sheets
+7:53 by Tallarian.
+7:55 It's got some weird look. It's like blue
+7:56 background with some stars on it.
+7:58 Sounds about right.
+8:00 I'm in I'm installing it. But I do, if
+8:03 you're listening to this and you want to
+8:04 use this, you got to go to OpenAI, get a
+8:06 $20 account a month account if you don't
+8:08 already have it, and get an API key
+8:11 because GPT for sheets will allow you to
+8:13 use your own API key and it costs
+8:16 especially almost nothing then because
+8:18 it's these things are really cheap on
+8:20 the surface, but the longer your prompt
+8:22 gets your input and the longer of an
+8:24 output you're asking for, the more it's
+8:27 going to cost you. So across thousands
+8:28 of rows, it actually can get expensive.
+8:31 So, you want to use your own API key.
+8:33 Oh, so you actually need to go and get
+8:36 You don't need to.
+8:37 Oh,
+8:37 no. But you'll save a lot of money if
+8:39 you do.
+8:40 All right. Keep keep going with your
+8:41 idea cuz I'm all over the place at this
+8:42 point.
+8:43 No, that's it. I'm going to make a
+8:44 YouTube video about this. I'm going to
+8:46 like share my screen and
+8:48 I promise you listeners, you will hear
+8:50 this in a week, two weeks, three weeks.
+8:52 I promise you I will come with ideas
+8:53 based on just using this Chrome
+8:55 extension.
+8:57 It's just the ability to clean up the
+8:58 data.
+8:59 Yeah. Like it's a big deal.
+9:01 Like right now, if I want to go in and
+9:03 take a look at your financials and say
+9:05 like what's something that you're
+9:07 spending an exorbitant amount of money
+9:08 on, I got to go filter the right way. I
+9:10 got to put in some formulas to show me
+9:11 which percentages I like. There's a
+9:12 million things I have to do just to get
+9:14 to the point where I can make the
+9:15 assessment, where I can do the analysis.
+9:18 This could clean it up for me so much
+9:20 faster. Anyways, that's incredible.
+9:23 Yeah. And another use case is I tweeted
+9:25 about this a month or two ago, but if
+9:27 you wanted to serve local businesses,
+9:29 sell them something, you could use
+9:31 outscraper to Are you with me, Nick?
+9:33 I am.
+9:34 Nick. Nick
+9:35 kind of.
+9:37 Yes. Okay.
+9:41 He's not with me one way. Now he's not
+9:43 with me another. I know right now. Okay.
+9:46 Is that what you want me to say?
+9:46 Tone it down. Tone it tone the
+9:48 excitement down.
+9:49 Okay. Go ahead.
+9:50 I need you to act less like yourself.
+9:53 Like your wife always asks you to do.
+9:54 Don't be yourself so much. It's
+9:56 annoying,
+9:57 right?
+10:01 No. Like imagine you go to outs scraper,
+10:04 you say, you know what? I want to sell
+10:06 customer service software to nail nail
+10:07 salons. Okay. You scrape all of the
+10:10 onestar reviews for nail salons in the
+10:12 country. And then you use you put them
+10:15 in Google Sheets. Use GPT for sheets to
+10:17 say what are like the most common
+10:18 repeated words in this dirty, late,
+10:22 closed, rude, right? And then you can
+10:25 build build software around the
+10:28 complaints. Or conversely, show me all
+10:30 the five star reviews. What are you
+10:31 hearing the most? Boom, boom, boom. Wow.
+10:33 Okay, there's a correlation between
+10:34 number of reviews and the word
+10:36 delicious. How can I monetize that? Like
+10:38 there's just endless ways you can use
+10:41 this. I'm really curious to use it right
+10:43 now because like there are times where I
+10:44 get data and I'm like I don't know how
+10:45 to sort this because it's just in a
+10:46 funky format. And so I'll go to chatgbt
+10:48 and I'll say this is the data I have.
+10:50 This is the format it's in. I'm trying
+10:52 to do x y or z. Write me a script for
+10:55 how to parse this data and it'll be like
+10:57 okay do and it'll you know tell me
+10:59 whatever to write. This could eliminate
+11:01 just even go to chatbt. I could just
+11:02 write in here and tell it what I want.
+11:04 Anyways that's freaking love it. All
+11:06 right. What do you got? What do you got?
+11:08 Two options for you. newsletters
+11:11 or dating?
+11:13 Let's do dating.
+11:14 Okay. So, I was talking to somebody this
+11:17 morning that we both know. Her name is
+11:20 Kelly. She is our executive assistant
+11:23 and uh she was complaining to me about
+11:25 her Bumble interactions and just how
+11:27 stupid men are. You know,
+11:29 Bumble
+11:30 just texting out of the blue, right? And
+11:33 you when you're trying to get laid, you
+11:34 say stupid stuff and that shows up in
+11:36 the DMs. So anyways, I was thinking
+11:39 about it and I started doing some
+11:42 research. I'm going to share some crazy
+11:44 things. Okay, are you ready for the
+11:45 craziest stat you've ever heard around
+11:47 dating? 30 years ago, what was the
+11:48 number one way that people met their
+11:50 spouse?
+11:51 H I don't know. School in person.
+11:53 Through friends,
+11:54 like down at the soda shop, I don't
+11:57 know, World War I. I don't know.
+12:01 Through friends.
+12:02 Okay.
+12:03 What's the number one way today that
+12:04 people meet their
+12:05 online? online
+12:07 online and it's cool but there's
+12:10 something I think that we miss in
+12:12 meeting people online and it's the
+12:13 social proof like when you met someone
+12:15 through your friends was like oh I know
+12:16 Gary I'm friends with him you should go
+12:19 on a date with him it's like oh Lauren
+12:20 said I should go on a date with him okay
+12:22 cool I'll go on a date with him but when
+12:24 you go to these online dating sites yes
+12:27 you have a lot more access you can talk
+12:28 to people you see their profile you see
+12:29 all this stuff but as far as I know like
+12:32 there's no social proof
+12:33 Mhm. You've been on LinkedIn and you've
+12:36 seen where on LinkedIn it's like people
+12:37 can write recommendations,
+12:40 right? Yep.
+12:41 Or like Sam Parr posted one time. He's
+12:43 like, "Hey, a friend of mine is looking
+12:44 for a date and he got a ton of people
+12:46 reaching out to him." I don't see any of
+12:48 that in the dating world. I just see it
+12:50 as this is me. You're putting your best
+12:52 foot forward and then people are
+12:54 reaching out to you and it it just has
+12:56 created this really weird dynamic. Let
+12:58 me ask you though, do you know how big
+13:00 the online dating industry is? revenue
+13:02 per year.
+13:04 No idea.
+13:05 It's about10 billion dollars. It's
+13:07 actually nine, call it actually nine $9
+13:09 billion. By 2031, it's projected to be
+13:13 at $13 billion.
+13:15 So, as far as like an annual annualized
+13:17 growth rate, it's about 7%. Which is
+13:20 crazy good for a general industry. So,
+13:23 it's only growing. It's growing like
+13:24 crazy. And you're dealing with this
+13:25 problem where you don't have the same
+13:27 social checks to get people comfortable
+13:30 with dating one another. So I started
+13:32 thinking
+13:34 and and these are like just ideas. What
+13:36 are some ways that you could actually
+13:38 facilitate this connection? So you could
+13:42 start a business around
+13:45 local sports leagues that are just for
+13:47 singles. I know that that exists, but
+13:49 I'm I'm just throwing it out there. You
+13:51 you could start
+13:53 a local newsletter.
+13:55 You you know the newsletter economics
+13:57 just for singles.
+13:58 You could also scrape the APIs or or
+14:01 integrate with the APIs of Tinder,
+14:05 Bumble, Grinder.
+14:07 That was a joke.
+14:08 On Grinder,
+14:10 Tinder,
+14:11 you had to. You had to. I had to, dude.
+14:14 Tinder or Bumble and just build another
+14:18 site where you can link to somebody's
+14:19 social proof, right? It's almost like,
+14:21 hey, these are my letters of
+14:23 recommendation that you can go and look
+14:25 at. these are my friends and this and
+14:26 and these are links to their social
+14:27 profiles so you can see that they're
+14:28 actual real people. But if I were to do
+14:30 this and figure out a way I don't have
+14:33 the answer, but I like there's a huge
+14:35 opportunity here. If I were to do it, I
+14:36 would start local. I would start with
+14:38 finding people
+14:39 I would be local, find people in my
+14:41 local market and I would start building
+14:43 a network there and figure out what the
+14:45 best way to facilitate that social proof
+14:48 is and then try to roll it out. Do the
+14:50 same things that I would do in growing a
+14:51 local newsletter, but I would just grow
+14:52 it locally for local singles. And then I
+14:55 would either do a sports league or I I
+14:57 tend to go sports league because I think
+14:58 being active and physical is a really
+15:00 good way to have interaction. But there
+15:01 could be other like you could have an
+15:02 improv league, you could have cooking
+15:04 classes, you like there's a whole other
+15:05 thing, but it's like just geared towards
+15:07 singles. What do you think?
+15:09 So is your attempt to pull people off
+15:11 the apps into p more inerson stuff?
+15:15 My my attempt is to use the apps to
+15:18 funnel them to inperson things. M
+15:21 so it's like cool go on the apps find
+15:23 who you like
+15:24 but
+15:26 maybe you don't want to go on a date
+15:27 with that person maybe you don't want to
+15:28 be one-on-one with them right like we're
+15:30 Mormon we grew up when you turned 16 you
+15:31 didn't you weren't supposed to just date
+15:32 oneonone you dated in groups so it's
+15:35 like facilitate a group environment for
+15:37 people that maybe are uncomfortable with
+15:40 just going the one-on-one route and and
+15:42 have that facilitate relationships
+15:44 all right if you are watching this clip
+15:46 right now you are watching this on
+15:47 YouTube and if you are a fan of podcast
+15:49 please check out my podcast while you're
+15:50 at it because sometimes I have podcasts
+15:52 that aren't on YouTube and sometimes I
+15:53 have YouTubetubes that aren't on
+15:54 podcasts. So check out the Kerner office
+15:56 on any podcast platform or you can go to
+15:58 tkopod.com
+16:00 also my newsletter. We'll throw that in
+16:01 there. There are no ads. It's weekly.
+16:03 It's different content than my podcast
+16:04 and YouTube newsletter. Chrisjkerner.com
+16:07 you'll see the link and we'll see you
+16:08 there. Could be a dating app for
+16:10 introverts too. I don't know.
+16:12 You don't care, do you? You really don't
+16:14 care.
+16:15 No, I'm just trying to think. I don't
+16:16 know enough about like I've I've never
+16:18 owned a dating app, right? ever. And so
+16:20 I'm very
+16:21 I've never been on a dating app.
+16:23 Right. Right. Here are some thoughts
+16:25 that come to mind. First of all, an
+16:27 interesting growth hack that I saw was
+16:29 this guy owned a bar or restaurant or a
+16:31 nightclub and he created a fake profile
+16:35 of a very pretty girl and set up dates
+16:39 for like dozens or hundreds of men to
+16:41 meet at that bar or restaurant.
+16:44 Okay.
+16:45 And it worked. like it just drove a ton
+16:47 of customers and they all got ghosted
+16:48 but then they were there.
+16:50 So
+16:52 it's pretty smart, right? It's the
+16:54 thing.
+16:54 That's a pretty good growth hack.
+16:56 I think that any business built on the
+16:58 theory that people are coming offline
+17:00 more is a good business. I love that
+17:03 thesis and I agree with it. Like the
+17:05 mechanics of it, I I can't wrap my mind
+17:07 around it.
+17:08 I don't know. Yeah, it was just it was
+17:09 just an idea that I had this this
+17:10 morning where it's like there has to be
+17:11 a way to provide the same social proof
+17:14 and facilitate
+17:16 these social connections in the real
+17:18 world. It's fine to meet people online.
+17:21 I think that's really good because you
+17:22 don't have this like awkward like
+17:23 getting to know someone and like what do
+17:24 they really think and all that stuff
+17:26 like you can kind of just see it up
+17:27 front. What if it was something like you
+17:31 like let's say Nick you're the business
+17:32 owner you're the aggregator of the
+17:34 people here and you go find like in
+17:37 Dallas it would be like Clyde Warren
+17:38 Park which is like a nice park downtown
+17:40 it's built over an overpass it's kind of
+17:43 hipster it's close to everything you
+17:45 could organize meetups for specifically
+17:48 targeted to people that are on dating
+17:50 apps like active on dating apps
+17:52 and people could have their first date
+17:55 there that way like everyone at the
+17:57 event which isn't public place so you
+17:58 don't have to go rent something
+17:59 expensive. They're all like they're in
+18:01 the shared experience. They're all on
+18:03 this awkward first date together and
+18:05 they might end up meeting someone there
+18:07 that that is the ultimate fit for them.
+18:12 There may be somebody who's listening
+18:13 that is in this world and they're like,
+18:13 "Yeah, that already exists and we just
+18:15 don't know. We're not single.
+18:16 It's called It's called a party. Tech
+18:18 this will go viral. We're going to get
+18:20 cancelled." It's like tech bros discover
+18:22 a party, right?
+18:24 But it's like when we went to SM Bash or
+18:27 when we went to Main Street, it's all
+18:29 these people who like met on Twitter and
+18:31 now they're meeting in real life and you
+18:33 you there are functions there that allow
+18:35 you to meet people in person. It's it's
+18:37 the same thing, right? Like everybody's
+18:38 on Tinder, so they may like recognize a
+18:40 profile picture, but then there are
+18:42 activities that are designed to get
+18:44 people to interact. So it's like not a
+18:46 party in the sense that it's a general
+18:48 free-for-all. Like, oh cool, the punch
+18:49 is over there and music's playing and
+18:50 everyone just dances. It's like,
+18:52 okay, you come. Maybe there's some speed
+18:54 dating.
+18:55 I was just gonna say that
+18:56 you like literally and maybe there's
+18:57 like sports. I really like improv
+18:59 because I think it's fun to just see how
+19:01 people think. Like maybe there's an
+19:02 improv thing like and you can choose the
+19:03 different activities
+19:04 that you do, but that that would like
+19:06 facilitate imposture it.
+19:08 All right, we landed on something good
+19:10 here.
+19:11 Once again, Chris and Nick are super
+19:13 unique. This one's good.
+19:15 This is a good one. Like this idea
+19:17 though.
+19:17 This one.
+19:19 this idea the the app idea though, dude.
+19:24 No, it could be it could like let's say
+19:26 you take a restaurant and you reserve
+19:28 like the back room, right, for parties
+19:31 like 30, 40, 50 people and the only
+19:34 people that are invited or allowed to
+19:37 come and you could charge a a fee at the
+19:40 door that will be on their first date
+19:42 with someone that they met on an online
+19:44 dating app. It has to be a first date
+19:46 date and they they never have to have
+19:48 met them before and it must be from an
+19:50 online dating app. And then you get them
+19:52 there and then you gify it, right? Maybe
+19:55 you do improv, maybe you do karaoke,
+19:58 maybe you do speed dating, maybe you do
+20:00 all three. And you could even gify it to
+20:02 where it's like you go open-minded and
+20:05 you might end up with the same person.
+20:07 Like you might get there maybe maybe you
+20:10 get there and intentionally you spend
+20:11 like 20 or 30 minutes with that person
+20:13 that you came with getting to know them
+20:14 for the first time and it's like all
+20:15 right now we're doing speed dating and
+20:16 you have like two or three minutes with
+20:18 everyone there and then at the end of it
+20:19 it's like all right raise your hand if
+20:21 you want to stay with the same person or
+20:23 not for the rest of the night and you
+20:24 could switch right or you could even
+20:26 make it you could even make it blind
+20:28 right make it blind or else human
+20:30 psychology will get into play and it's
+20:31 like all right here's a piece of paper
+20:33 right here if you want to stay with the
+20:36 same person or Twitch and then like
+20:38 someone gets on stage and and it would
+20:40 be really awkward, but it's like it is
+20:42 what it is. Or or you copy Nick Gray and
+20:46 you make it exclusive and and you and
+20:48 like you plan the experience
+20:50 and anybody who comes that doesn't
+20:52 participate well, you kick them out.
+20:53 Like you're very exclusive. You're gated
+20:55 with who comes in. But before the event,
+20:57 you send out a list. Here's everybody
+21:00 who's attending. You can go look at
+21:02 their profiles here. Like it's it's very
+21:05 clear like you're going to this to try
+21:07 and find someone to date, but you're not
+21:09 necessarily assigned to anybody up
+21:11 front, but you can go and you look and
+21:12 you're like, "Oh, Chris is going to be
+21:14 there. Oh, cool. He's an Alabama fan.
+21:15 Oh, all right. I went to Alabama. Oh,
+21:17 Nick's going to be there. Okay, I like
+21:18 that."
+21:19 Could it could be my sister, though.
+21:21 Could be my sister. You got to watch out
+21:22 for that.
+21:23 Yeah, that's true.
+21:24 It's not It's not funny.
+21:29 It's an epidemic in the South. Okay.
+21:32 But you would go and you'd have some
+21:35 information before you went and then
+21:37 that would make the the party more
+21:39 enjoyable because you at least know
+21:40 who's there. You've seen their profiles.
+21:41 You maybe you have a list of like these
+21:42 are the five people I want to talk to.
+21:44 And essentially you're just facilitating
+21:46 a meetup, but you're focusing on the
+21:48 niche of dating. And you could you could
+21:50 do this with any niche. You could
+21:52 facilitate meetups focusing on the niche
+21:54 of SMB. You could facilitate meetups
+21:56 focusing on the niche of disc golf
+21:58 players. Like you know what I mean? Like
+21:59 it could be any niche. It's funny
+22:01 because like you don't have to pay for a
+22:02 venue because they're buying their own
+22:04 food and drinks, right? So, they reserve
+22:06 the room for you because they know
+22:08 you're you're going to be paying
+22:09 customers. You just charge like a a door
+22:12 charge, the 20, 30, 40 bucks at the door
+22:15 for this whole experience. And that's
+22:16 how you make money.
+22:17 Yeah. You don't have to control any. You
+22:18 don't have to control the venue, the
+22:19 menu, the seating, none of it.
+22:23 Have you seen Black Mirror? Have you
+22:24 ever seen that on Netflix? They have an
+22:27 episode that's like this where it's like
+22:29 social proof. Everyone has like a social
+22:31 credit score. And so for for instance,
+22:33 like let's say you walk out of a store
+22:34 and you don't hold the door open for
+22:36 someone and the girl's like rude. She'll
+22:38 pull out her phone and like scan your
+22:39 face and like leave you a bad review as
+22:41 a person. And then your reviews, it like
+22:45 tallies up to like a score and everyone
+22:47 is driven by like their score. Like
+22:49 what's your score? Oh, it just dropped.
+22:50 And like people are getting good scores
+22:52 all the time, but occasionally they'll
+22:53 get like a negative review that will
+22:55 drop their score that everyone can see
+22:57 and they like stress out over it. And it
+22:59 kind of reminds me of that like it's
+23:01 like a crowdsourced are you a good
+23:04 person?
+23:05 Yeah.
+23:05 And it's like there is a benefit to that
+23:07 and there's a downside.
+23:08 I just think in in situations where
+23:10 there's really that are really high risk
+23:14 is the wrong word. Leverage maybe.
+23:16 High stakes.
+23:17 High stakes. Dating is one of them
+23:18 because you're you're trying to find
+23:19 your spouse, like your mate for the rest
+23:21 of your life. Starting a business could
+23:22 be one of them. You want to have some
+23:25 type of social proof. Like you're
+23:27 looking for that because you're making a
+23:29 decision with almost no information. You
+23:30 want to gather as much as you can. It's
+23:32 such an important decision.
+23:33 I like it. That's a good one. Thank you.
+23:35 I like ideas that like you don't have to
+23:37 build an app for, right? Like you can
+23:38 use the app to build something in person
+23:41 for low tech. Yep.
+23:42 We're not what we're not what our wives
+23:44 would call like smart,
+23:46 you know? No, no, no.
+23:50 Very good looking or attractive to them
+23:53 on most days
+23:55 or decent providers.
+23:57 Good father.
+23:59 Yeah.
+23:59 Right. Yeah. Or who I would have chosen
+24:02 had I had it to be all over again.
+24:04 Or our first choice, you know, like
+24:09 I mean they call me Fallback Chris for a
+24:11 reason, you know.
+24:11 Plan B Chris.
+24:13 Oh my gosh. All right. I got one. I got
+24:15 one. So, there's this guy on social
+24:18 media called the dumpster dive king. And
+24:21 he he has over 10 million followers. And
+24:25 literally all he does is dumpster dive.
+24:28 That's it. And he has a GoPro and he
+24:30 dives for dumpsters and he finds things.
+24:32 And sometimes people confront him.
+24:33 They're like, "What are you doing here?
+24:34 This is private property." And he's
+24:35 like, "No, it's not cuz according to
+24:37 ordinance blah blah blah of the city, I
+24:38 I am allowed to be here. This is
+24:39 public."
+24:40 Of course.
+24:40 So that's like that's good content. The
+24:43 biggest reason why he's so viral is
+24:44 because of the payoff at the end of
+24:46 these videos. What's he going to find?
+24:48 It's a treasure hunt, right? This goes
+24:51 to like a previous episode talking about
+24:53 treasure hunts. Like it is human nature.
+24:55 It's first principles. We want to know
+24:57 what's at the end of the rainbow. Like
+24:59 what's in the box? Like we want the
+25:01 payoff and the algorithms want the
+25:03 payoff because it means high retention.
+25:05 So, I did a deep dive on the dumpster
+25:08 dive king and was enthralled by it
+25:11 because it's just a video with him
+25:13 voicing over it. Like, he's not really
+25:15 talking while he's dumpster diving,
+25:17 right? He's like, "Oh, I found these
+25:19 golf clubs. Oh, these are $400 golf
+25:20 clubs." So, people love it cuz they're
+25:22 like typing like, "That's not a $400
+25:24 golf club. That's a $300 golf club. Oh,
+25:26 oh, it was discontinued." And like
+25:28 everyone has an opinion on what he's
+25:29 finding. Everyone wants to get to the
+25:30 end to see what he finds. And so it's
+25:33 just it's a brilliant business as far as
+25:35 social media is concerned. But then he
+25:36 took it a step further.
+25:38 And he sells all this stuff he finds on
+25:40 his own website, lostg goods.com,
+25:43 okay, which is a a very very ugly
+25:46 website, but a very smart thing to do.
+25:47 And I would bet that most of his sales
+25:50 come from
+25:51 eBay, Facebook Marketplace, Etsy, the
+25:53 big marketplaces. And then this is just
+25:54 kind of like the 5 10% of his sales.
+25:58 It's a good It's a good name because
+25:59 it's it's like lost goods. And no,
+26:01 they're stolen from the trash goods, but
+26:03 you've rebranded it to lost goods. You
+26:05 know what I mean?
+26:06 It is good.
+26:07 But I like this idea because it reminds
+26:10 me exactly of an idea I had 3 years ago.
+26:13 So 3 years ago, I was living in Houston
+26:15 for 6 months and we lived in a
+26:18 neighborhood that had its own 18hole
+26:21 disc golf course. And so I would play
+26:24 disc golf with the kids and it was fine.
+26:26 But what we really loved was waiting
+26:30 through the ponds and the ditches
+26:32 looking for lost disc golf discs. And
+26:35 it's very simple. You take off your
+26:37 shoes and there was a creek. The
+26:38 neighborhood is called Cross Creek
+26:39 Ranch. So there was a creek that went
+26:41 across the neighborhood and you would
+26:43 just kind of waddle through this, you
+26:45 know, kneedeep creek and you would feel
+26:48 plastic in your toes and you reach down,
+26:50 you pick it up, it's like, "Oh, it's a
+26:51 disc." And some of these discs are quite
+26:53 valuable. They could be hundreds of
+26:54 dollars. Most of them are like10 to $30,
+26:57 but it's still it's like I just found 20
+26:59 bucks. I just found 20 bucks. I just
+27:00 found three 20 bucks stacked on top of
+27:02 each other because this is like a honey
+27:03 hole where you know the the wind always
+27:06 carries it to this spot. And it was so
+27:09 fun. Like male, female, old, young. It's
+27:12 just you're treasure hunting. And I
+27:14 never sold I never sold any of them.
+27:16 They're still in my garage. We've lost a
+27:18 bunch of them. Uh a lot of times people
+27:20 will write their name and number on the
+27:22 back of the desk in Sharpie. And so that
+27:24 was fun too because then you get to play
+27:26 like hero and text them like I got your
+27:28 disc. Come get it. And it's just it it
+27:31 was very fun. So the idea I think you
+27:35 could monetize this. I think you can
+27:36 monetize anything. They have these
+27:38 devices that will beep if it sees
+27:42 plastic or if it senses plastic of some
+27:44 sort in a certain vicinity. And so I
+27:46 think you could build a tool where you
+27:48 could easily find these discs and like
+27:51 literally monetize it by just finding
+27:53 and selling these discs. And then you
+27:55 could monetize it by selling that tool
+27:57 and then you could monetizing it. You
+27:59 could monetize it by filming everything.
+28:01 And it's the same principle as the
+28:03 dumpster dive king. People want to know
+28:04 what are you reaching in the murky water
+28:06 for? What's coming out? There are guys
+28:08 doing this with golf balls. Like there
+28:10 are people that have built a decently
+28:12 sized business on social media posting
+28:15 content about finding golf balls and
+28:17 then selling the golf balls on their
+28:18 website because people want to support
+28:19 them.
+28:20 So you're starting a social media
+28:21 channel and but you've thought about the
+28:24 ways you would monetize it. It's not
+28:25 just through views. You'd also have a
+28:26 store that you'd resell this stuff.
+28:28 Yeah, you could monetize it by but it's
+28:32 not done. So I went and bought a domain
+28:33 name when I had this idea, which isn't
+28:35 saying much cuz I buy all the domain
+28:37 names. In fact, at one point I owned 70%
+28:39 of the domain names in the world. Fun
+28:41 fact,
+28:41 actually, hold on a second. Hey Siri,
+28:43 remind me to buy all the domainames.com.
+28:48 Okay. I go
+28:51 anyway, the domain name I owned was
+28:53 waterfinds.com,
+28:55 which is so similar to lostgoods.com.
+28:58 Yeah.
+28:58 Okay. two words like and that the idea
+29:02 was to do this and then to sell
+29:04 everything I found on this website and
+29:07 is this going to be a $10 million
+29:08 business? No. Could it be a sevenf
+29:11 figureure business? Yeah, I genuinely
+29:12 believe it could be even without social
+29:14 media. But I think someone should do
+29:16 this. I went and I let the domain name
+29:17 expire and now it's like a premium
+29:19 domain name for 10 grand. Someone like
+29:22 it's not worth 10 grand. It's not. So,
+29:24 like I am,
+29:25 but like yeah, if I wanted to buy it
+29:26 back, it'd be it'd be 10 grand.
+29:28 Waterfind.com.
+29:29 I love that idea. Fun. Get you out doing
+29:32 stuff with your kids. That's awesome.
+29:34 Absolutely. Someone needs to do it.
+29:37 Okay, let's recap these ideas and then
+29:39 merry date or kill them. So, we have
+29:41 first GPT for sheets, which is a tool
+29:45 that allows you to use AI in either
+29:49 cleaning your data or just helping you
+29:51 build out your spreadsheets. There is
+29:53 facilitating local dating events or just
+29:56 any niche group facilitating those types
+29:59 of events. And then there is water
+30:00 findiness where you are starting a
+30:03 channel and posting that content and
+30:05 then either reselling the stuff online
+30:07 or monetizing from the channel that you
+30:10 can launch. All right, Chris, merry date
+30:12 or and kill which ones?
+30:14 Now, how are we monetizing GPD for
+30:16 sheets?
+30:16 I don't think we explicitly said how
+30:18 we're monetizing GPT for sheets. I think
+30:19 there's a lot of different applications
+30:20 that you got for it, but it's just like
+30:21 implementing it in your business.
+30:23 I mean, we could theoretically just
+30:24 charge a fee to clean someone's data
+30:26 with it, right? We start for free. Say,
+30:29 hey, hey, I'm launching this business.
+30:31 I'm really good at cleaning data. I use
+30:33 AI, right? We we could just go ahead and
+30:35 say that. Can I do it for free? Yeah.
+30:37 Yeah. Is it helpful? All right. What
+30:38 would you pay for this? Right? And then
+30:40 you kind of start pricing your way into
+30:41 it. Go the old the old shout out to
+30:43 Brandon Doyle method and charge
+30:45 basically nothing to start and just keep
+30:47 raising your prices until you start to
+30:48 get pushed back.
+30:49 Brandon Doyle beat dude.
+30:51 That's right. All right. Brandon Brandon
+30:53 Doyle rules.
+30:56 All right. Just babe.
+30:58 Mary did kill.
+31:00 Oh, this is tough. It's like dependent
+31:02 on like the time of life that you're in.
+31:05 No. No. Stop horrifying. Just say it.
+31:08 Yeah. Mary GBD for sheets. Date
+31:11 waterfines. Kill dating idea.
+31:14 Okay. Mary GPT for sheets. Date
+31:18 facilitating local events and kill water
+31:21 fines.
+31:23 That makes sense. I would have guessed
+31:24 that for you as well.
+31:25 Okay. So, we both said to marry GPD for
+31:27 sheets. I think that to me that's like
+31:29 there's so many applications. Like you
+31:30 could start a ton of businesses or you
+31:32 could just make your own business more
+31:33 efficient. Like there's a ton of
+31:34 reasons. Why did you want to date the
+31:37 water fines? because it's really really
+31:39 fun and I would love it. It would be a
+31:42 grind to get to a meaningful amount of
+31:44 money, but it would just be so fun and I
+31:47 like I'm an introvert like organizing
+31:50 events like that gives me anxiety. So,
+31:53 it's not really a knock on the business
+31:54 model or idea. It's it's me. It's not
+31:56 me, it's you. I didn't like the water
+31:59 finds because I just I think it'd be a
+32:00 grind. It would take so long to get it
+32:02 monetized. Like if I have something else
+32:04 that I'm doing that's making me money
+32:05 and I want to have a side hustle or
+32:07 whatever, I think it's a cool channel to
+32:09 do and I think it's a fun thing to do
+32:10 with your kids. But I think for anybody
+32:12 listening who wants to just like start
+32:13 it as a business, I think it would be
+32:15 really really hard. So for me, that's
+32:16 why I killed it. I didn't put the dating
+32:19 as number one, I think it's much harder
+32:21 to spin up than utilizing the GP for
+32:24 sheets. I think utilizing GP for sheets,
+32:26 you can do really quickly. the the
+32:27 dating or facilitating niche groups, I
+32:30 think is really really difficult to get
+32:32 spun up.
+32:32 Also, the the dating thing, as far as we
+32:34 know, this could exist. We could sound
+32:35 like idiots right now to half the
+32:37 population. As far as we know, isn't
+32:38 really a thing. And that just makes me
+32:40 nervous, right? I don't I don't want to
+32:41 invent something new.
+32:43 Yeah. Yeah. So, let us know what you
+32:44 guys think. Merry Date or kill.
+32:46 All right, that's a wrap. All right,
+32:48 man.
+32:48 All right, what' you think? Every
+32:50 Friday, hold on the Kerner office. Love
+32:52 you guys. Please share with a friend.

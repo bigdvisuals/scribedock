@@ -1,0 +1,656 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=WsQ_W0VHW2I
+Channel: Riley Brown
+Video ID: WsQ_W0VHW2I
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 everyone's talking about the number one
+0:01 app on the app store right now called
+0:04 Deep seek that overtook chat GPT today
+0:08 we are going to create a mobile app
+0:10 without writing a single line of code
+0:12 we're creating a deep seek rapper for
+0:15 the past 2 years people have made
+0:17 millions of dollars creating chat GPT
+0:19 rappers but today you're going to be one
+0:21 of the first people to create a mobile
+0:24 app that uses deep seek and I'm going to
+0:26 show you the easiest way to do this
+0:28 without writing a single line of code
+0:30 because the most useful apps that
+0:32 leverage this deep seek technology are
+0:34 going to be for specific use cases
+0:37 tailored to your problem and so that's
+0:39 where you come in we have built this
+0:41 template for you to start from that uses
+0:43 deep seek and so this step-by-step guide
+0:46 will walk you through the entire process
+0:48 of using cursor the best AI coding tool
+0:50 in the world to Fork our template to
+0:53 then create a customizable mobile app
+0:55 one that you can tailor to your exact
+0:57 workflow and needs and you don't need to
+1:00 know how to code we're using natural
+1:02 language for all of them we're going to
+1:04 show you all the tools that you need to
+1:05 get set up we're going to show you how
+1:07 to add additional AI features we're
+1:09 going to show you how to add additional
+1:11 apis that will actually make your AIS
+1:13 more useful and then we'll show you the
+1:15 next steps on how to take this project
+1:18 and turn it to a full mobile app on the
+1:21 App Store my name is Riley Brown I run a
+1:24 community called software composers it's
+1:26 100% free we have about 10,000 people
+1:28 and all we do is we just talk talk about
+1:30 building apps with AI tools and so with
+1:32 that said let's just dive straight into
+1:34 the video so on your Mac the first thing
+1:36 that you need to do is you need to go
+1:38 find xcode so you're just going to go to
+1:41 your app store on your Mac Type X and
+1:44 we're just going to download xcode right
+1:47 here we need to download xcode because
+1:49 we're actually going to be using the
+1:51 iPhone simulator which will allow us to
+1:54 simulate an iPhone experience directly
+1:57 on our computer right on our screen and
+1:59 so so we're going to be using that as we
+2:01 develop the app that we're building
+2:03 today once xcode is downloaded you're
+2:05 just going to press open and now we're
+2:07 going to press continue once you have
+2:10 xcode open what you're going to do is
+2:11 you're going to go up to xcode you're
+2:13 going to click settings now we're going
+2:16 to go to this components Tab and we're
+2:18 going to go to iOS 18.2 we're going to
+2:21 hit get so we're also going to download
+2:23 this right here and wait for that to
+2:25 finish okay now that that's done we're
+2:27 now going to go to cursor. comom and
+2:30 this is the best AI coding tool in the
+2:32 world by far and what we're going to do
+2:34 is we're going to press download for Mac
+2:37 once you have this downloaded on your
+2:39 computer it's going to look something
+2:41 like this except you're not going to
+2:42 have this little toggle integrated
+2:45 terminal button right here so in order
+2:48 to get this button you need to download
+2:51 you need to come over you need to turn
+2:53 on the sidebar on the left and you need
+2:54 to open up this little extensions button
+2:57 right here and I want you to just type
+3:00 in terminal and you are looking for
+3:03 terminal for visual studio code by Jun
+3:06 Han and you're going to download this as
+3:08 an extension now what you're going to do
+3:10 is we're going to now open up a new
+3:14 cursor window so right click on the
+3:16 bottom and hit new window and we're
+3:18 going to create our project this is
+3:20 where the app code is going to be stored
+3:22 so we're going to click open project and
+3:25 we're going to create a new folder do
+3:27 this somewhere where you're not
+3:28 accidentally going to delete it for me
+3:30 I'm going to do this in documents I'm
+3:31 going to hit new folder and I'm GNA name
+3:34 this deep search yeah doesn't really
+3:38 matter you're going to hit create folder
+3:41 and now we're going to hit open and
+3:42 since you've downloaded this terminal
+3:44 you're going to open up this terminal
+3:46 and you're going to open up a web
+3:48 browser real quick and you're going to
+3:50 go to bunge you're going to copy this
+3:54 code right here we're going to go back
+3:55 to cursor and we're just going to paste
+3:57 it into the terminal and press enter and
+3:59 this is going to download bun and when
+4:02 it says installed successfully to bun
+4:05 d/ bin SL bun you are ready to go now
+4:10 what we're going to do is we're going to
+4:11 press command I as you can see here this
+4:14 opens up composer and now we are ready
+4:17 to Fork the template that we have
+4:19 created right here so I'm going to type
+4:21 in can you please Fork this repo and run
+4:29 it and then make make sure that it's on
+4:30 agent mode now we're going to paste the
+4:32 link to the
+4:33 template so here is the repo and so we
+4:36 are just going to copy this link and so
+4:39 this is the starting code for your app
+4:42 so now we're going to go back to cursor
+4:43 and we're going to paste that link right
+4:45 here so it's can you please Fork this
+4:48 repo and run it make sure that it's on
+4:50 agent mode and it's Claude 3.5 Sonet and
+4:55 we're just going to press submit and
+4:57 it's going to begin coding so for me I
+4:59 have a set on YOLO mode so I don't have
+5:02 to approve these commands here they just
+5:06 happen automatically you might have to
+5:09 hit approve if you want to put it on
+5:10 YOLO mode you can go to settings
+5:13 features the YOLO mode is under features
+5:16 and you'll find this enable YOLO mode
+5:18 and you can turn that on and as you can
+5:20 see here it's doing all the work setting
+5:22 up the app right here and so we're just
+5:24 waiting for it to finish whenever it
+5:25 asks if you want to pop out the terminal
+5:27 I normally do it and so then you can
+5:29 actually see what's going on here and
+5:31 the app is now being built for iOS this
+5:33 process might take a few minutes this
+5:35 needs to generate the native iOS project
+5:37 files install Coco pod dependencies
+5:40 build the app launch the iOS simulator
+5:43 oh it popped up on my other monitor here
+5:45 we go so we're in business here is our
+5:48 iPhone simulator popping up still
+5:51 loading all right so it's done and this
+5:54 is the project that we're working with
+5:56 and you'll notice here that we got an
+5:57 error and you'll notice that this error
+6:00 is coming from Clerk and so clerk is
+6:03 what we're using for authentication so
+6:06 users will be able to sign in to the app
+6:07 that you create with their Gmail so the
+6:10 first thing that we're going to do is we
+6:12 are going to go to the to the browser
+6:15 and we're going to type in
+6:19 Clerk and we're going to use clerk for
+6:22 authentication and this is free and so I
+6:25 think you won't ever have to pay for
+6:27 this unless you get over like a, users
+6:30 or 10,000 users or something like that
+6:32 so we're going to create an account and
+6:33 I'm just going to create an account with
+6:35 one of my emails and what we're looking
+6:37 for is an API token but we're just going
+6:40 to have to fill out this uh information
+6:42 I'm just going to say blah and uh create
+6:46 application um here's the application
+6:48 name here we are looking for an API
+6:52 token and so once we're on this page
+6:55 after we've created a project on clerk
+6:58 we're going to go to Expo and what we're
+7:01 going to do is we're going to come down
+7:02 to set your clerk API keys so you're
+7:05 going to copy this right here and all
+7:08 you care about is this EnV tab right
+7:12 here where it says Expo public uh clerk
+7:15 publishable key equals and then you want
+7:17 the key that comes right after that we
+7:20 are going to go to cursor and you'll
+7:22 notice you have a do EnV file right here
+7:25 we're going to paste that key everything
+7:28 that came after this part right here
+7:30 you're just going to paste that right
+7:31 here and I'm going to do that off camera
+7:33 I don't want to expose my API key so I
+7:35 just pasted my API key right there make
+7:37 sure you save so command s after to save
+7:40 it and now what we need to do is we need
+7:42 to go back into cursor and we need to
+7:43 say I got an error and we're going to go
+7:47 back to we're going to open up the
+7:48 simulator I got an error um from clerk
+7:53 I've put the API key in the dot file
+7:58 restart the app now that I've done that
+8:02 all right it has loaded it has loaded
+8:05 back up this is our starting app and we
+8:09 can actually hit continue with Google
+8:12 we're going to hit continue we are going
+8:13 to hit Riley create. in or whatever
+8:15 email you use to sign in and we're going
+8:18 to log in now here it gives us the
+8:21 opportunity to put in our API token and
+8:24 so what we're going to do here is we're
+8:26 now going to go to deep seek and we're
+8:28 going to type in deep
+8:30 seek.com and we're going to see at the
+8:32 top right API platform we're going to
+8:34 click on
+8:36 that now what we're going to do is we're
+8:38 going to go up to API keys and we're
+8:40 going to hit create new API key and this
+8:43 is deeper C seeker and we're going to
+8:47 hit create API
+8:49 key so I copied that key and I'm going
+8:53 to paste it right here um and then
+8:55 you're going to hit save API key that
+8:57 will actually save that key to your
+9:00 simulator if you were doing this on your
+9:02 phone it would actually save it on your
+9:04 phone and you wouldn't have to enter it
+9:05 in every time you open the simulator so
+9:07 I'm going to go ahead and paste that but
+9:08 again I'm going to do it off cameras to
+9:10 keep it private keep your API Keys
+9:13 private and after you press save it will
+9:15 open up this screen right here so you
+9:19 can click on model for now let's start
+9:21 off on deep seek chat we can now type
+9:24 into this message we can say tell me
+9:27 about how to train
+9:30 and llm if you want to see how it would
+9:34 look like on a phone with the keyboard
+9:36 press command K and that opens up the
+9:39 keyboard like this uh tell me uh and
+9:42 then we can say
+9:44 with uh
+9:48 5.5 uh
+9:51 million dollar now let's go ahead and
+9:54 run
+9:56 this there you go we now have deep seek
+10:00 chat this isn't the reasoning model we
+10:01 have deep seek chat up and running and
+10:04 it has perfect markdown format you see
+10:07 that right there we have good headings
+10:10 and you can actually change this app
+10:13 instead of it being a GPT rapper we now
+10:16 have a deep seek chat rapper at the time
+10:18 of making this video deep seek is ated
+10:21 the absolute peak in terms of popularity
+10:24 deep seek has single-handedly collapsed
+10:27 Nvidia and their stock price price and
+10:30 everyone in the world is talking about
+10:32 deep seek right now and because of this
+10:34 their API is actually down and their
+10:37 chat API Works their R1 their new
+10:40 reasoning model doesn't work but by the
+10:42 time you see this it will likely work
+10:45 and you will be able to use the
+10:48 reasoning feature this Reasoner feature
+10:50 right now it doesn't work so we're going
+10:52 to build the app right now with the chat
+10:55 we're going to format the app to match
+10:57 our own use case and then we'll just
+10:59 hope in the future that the Deep seek
+11:01 Reasoner will work it's just right now
+11:03 that it's really struggling and it is
+11:06 limiting API usage so uh so far in the
+11:09 app we can chat and if we press these
+11:11 three dots up here we can actually see
+11:13 our previous chats right we can see all
+11:15 of our chats and this is stored on the
+11:17 phone or on your simulator and what we
+11:20 can do is we can press new chat and
+11:22 let's go ahead and edit the Outlook of
+11:25 this page and so all we need to do is
+11:28 just say where it says hi I'm deeper
+11:31 seeker can you please have it say hello
+11:35 I'm content composer and I'm going to
+11:39 actually build a perplexity for Content
+11:42 creation and so I'm going to have
+11:45 subtitle below subtitle and let's go
+11:48 ahead and uh also
+11:52 change the icon to match the vibe of the
+11:57 new app on I'm creating based on the
+12:02 title I just said and we're just going
+12:04 to run this in the agent and we're going
+12:06 to let it go to
+12:08 work as you can see here it searched the
+12:11 code
+12:12 base finding other relevant
+12:16 files and boom it changed the icon now
+12:19 it should change this enter button
+12:22 however I just realized we're actually
+12:24 creating the perplexity but instead of
+12:26 searching the web it's going to search
+12:27 YouTube so we're going to build the
+12:28 perplexity for YouTube and so change
+12:32 everything to Red the same color as
+12:38 YouTube then please change the icon to
+12:42 the you icon I typed it into uh the app
+12:46 which we should not do we need to type
+12:48 it into cursor and we'll paste that
+12:51 in make the text black keep icon as is
+12:58 and remember you can also use this
+13:00 search feature up here and we can just
+13:02 type in
+13:03 hello and we can click on this right
+13:05 here and we can actually find where it
+13:07 is in the text so we have logo
+13:11 YouTube and I'm going to change the name
+13:14 of this to uh
+13:17 Plex plexitube tube because it's the
+13:20 YouTube we're going to type in the
+13:23 perplexity of YouTube and we're going to
+13:25 hit command
+13:27 s okay I like I like I like where this
+13:29 is going this is feeling good okay now
+13:33 we're going to add some additional AI
+13:34 features so if you want to follow along
+13:36 with me I've used the super dat API
+13:39 before and if we go to super dat what
+13:42 super dat does is if you feed it a
+13:44 YouTube video link it gives you back the
+13:46 full transcript of that video and so I
+13:49 want users to be able to ask a question
+13:52 to the app and then I want it's going to
+13:54 basically find the right YouTube video
+13:57 find the link send it to superp data and
+14:00 then feed it back a response generated
+14:03 by AI based on the transcript of that
+14:05 video what I'm going to do first is I'm
+14:08 actually going to just have the user
+14:10 input a link it's going to take that
+14:12 exact YouTube video link and summarize
+14:14 it and then we can build the search
+14:17 feature after so I'm going to go ahead
+14:19 and hit sign in here and I'm going to
+14:21 grab my API key that I've already
+14:23 created so I can go to my
+14:25 subscriptions and we can hit on this
+14:28 Mega one right here and we can go to
+14:31 this access
+14:33 Keys all right so I copied that key but
+14:36 we also need to get the uh documentation
+14:39 so I'm going to get getting started I'm
+14:40 going to copy the link on the getting
+14:43 started page if you want to use an API
+14:45 right if you wanted to use open ai's API
+14:47 if you want to use replicate if you want
+14:49 to add AI images to your IOS app which I
+14:51 encourage you to try all the different
+14:53 things that you your brain comes up with
+14:55 you need to go and get documentation
+14:57 this is basically instructions on how
+15:00 your code needs to look in order to
+15:02 access these access this tool along with
+15:05 your API token and so in cursor you
+15:08 actually don't need to copy all of the
+15:10 the page you can just copy the link and
+15:12 cursor will actually scrape the page and
+15:14 get the information directly from it so
+15:16 we can go back to cursor right here and
+15:19 we're going to just paste in this super
+15:22 data getting started and we're also
+15:24 going to paste in the YouTube transcript
+15:27 and I'm going to copy in this
+15:29 information right here and we're going
+15:31 to paste that in and then I'm going to
+15:32 say what I want I want you to allow the
+15:35 user to paste in a YouTube transcript if
+15:38 they just paste in a YouTube transcript
+15:41 I want you to use the super dat API that
+15:44 I will give you all the information
+15:45 right here to do to search the get the
+15:49 transcript and then use the AI models
+15:52 that they've selected um and summarize
+15:57 that YouTube transcript
+16:00 and so adjust the prompts accordingly
+16:02 keep everything the same all that you're
+16:04 doing is adding an intermediate step
+16:06 that searches pulls the transcript and
+16:08 enters it into the prompt that the user
+16:10 puts in
+16:12 and make the adjust the prompt so that
+16:15 they are summarizing whatever they are
+16:17 getting according to the user's question
+16:20 and so yeah and
+16:23 now here is my API token and I'm
+16:27 actually going to paste it right here in
+16:28 the chat patent it will put it in the
+16:30 right
+16:31 place so it is now generating the code
+16:34 I'm blocking
+16:35 the um API key but it's now it looks
+16:40 like it's doing the correct thing it
+16:42 looks like it's setting up everything
+16:43 correctly we'll see how this does okay
+16:46 now that that's done we can press accept
+16:48 all let's go ahead and open the
+16:51 simulator and so what we can do is we're
+16:54 actually just going to paste in a
+16:56 YouTube video so let's go to YouTube
+16:59 we're going to type in YouTube and let's
+17:01 just get a shorter video for now let's
+17:04 go ahead and let's get this video right
+17:06 here last week chines we can open this
+17:09 up let's go back to the uh cursor
+17:18 here and we are now going to paste in
+17:22 this YouTube transcript and I'm just
+17:24 going to say summarize
+17:29 and and we're going to run
+17:32 this error failed to fetch YouTube
+17:35 transcript that's okay you're going to
+17:36 deal with errors we're going to
+17:38 screenshot this and we're just going to
+17:41 throw it in here I got this error let me
+17:45 try one thing before we submit this what
+17:47 happens if we just paste in this YouTube
+17:51 transcript okay we still get the
+17:56 error maybe let's
+17:59 separate the the
+18:02 fields and put a a a an add link button
+18:09 that lets the user paste in a link
+18:15 instead of making it all in one field
+18:19 let's see I have no idea but it looks
+18:22 like they put it up
+18:25 here um okay so let's go ahead and paste
+18:28 this
+18:29 guy in here we hit search it looks like
+18:35 it's running does it loaded is it loaded
+18:38 there it is transcript loaded all right
+18:41 in five sentences tell me about this
+18:46 video video man nice nice this video
+18:49 discusses how Chinese company deep seek
+18:51 is disrupted okay so we got this summary
+18:54 working now we need to add an
+18:55 intermediate step and we're going to be
+18:57 using another API for this we're going
+19:00 to be using the API so let's go ahead
+19:03 we're going to go um we're going to go
+19:05 right here we're going to go to Ser API
+19:09 and we are going
+19:12 to go here we're going to sign in now
+19:15 what this is going to do is this is
+19:16 going to allow us to do a YouTube search
+19:19 API so we're going to type in so we need
+19:22 to find the video
+19:26 results so yeah so we're going to type
+19:29 in what we want to have happen here this
+19:32 is the this is the API we're going to
+19:34 want to use so we're going to copy this
+19:36 and we're going to go back to cursor I'm
+19:39 going to say okay now I want to have an
+19:41 intermediate step
+19:43 here the user is now going to ask a
+19:46 question and you are going to put that
+19:50 you're going to take their question
+19:52 enter it into the Sur API and you are
+19:55 going to be using the YouTube results
+19:58 API for that so you're going to find
+20:01 their uh the videos that um you're going
+20:05 to basically load videos based on their
+20:08 input query then you are going to look
+20:12 the first three results you're going to
+20:15 pull the transcripts and answer their
+20:17 question based on those transcripts so
+20:20 you're going to pull all three in and
+20:23 you're so you're going to have a first
+20:24 search step so the first step is you're
+20:26 going to search and then you're going to
+20:27 pull all three transcripts using the
+20:30 super dat API that we just set up we
+20:32 have the working super dat API set up
+20:35 for entering links directly I want to
+20:37 keep that feature but if the user just
+20:39 asks a question you're going to have an
+20:40 intermediate search step where you're
+20:42 going to search YouTube and you're going
+20:43 to take the first three results you are
+20:45 going to display them on the screen or
+20:48 or some sort of display verification
+20:52 that you were able to pull the right
+20:54 videos and then you are going to use the
+20:57 Deep seek API to search through those
+21:00 and then give a response in this you're
+21:02 also going to be able to pull the
+21:04 channel name and I want those to be
+21:06 included use the AI prompt change it so
+21:08 that you mention in the video like what
+21:11 video said what so your summary should
+21:13 include the video
+21:14 names okay
+21:17 now here is
+21:20 documentation here's the Ser API now we
+21:23 need to get our API key and we can do
+21:26 that by signing in here's the API key I
+21:28 will change this later here is the API
+21:32 key paste that in
+21:38 okay okay so let's give this a test so
+21:42 my last video was on deep seek so let's
+21:44 say deep seek is AI
+21:48 done um because of deep
+21:53 seek uh Riley
+21:56 Brown said that so we can go like this
+22:00 and let's see searching YouTube videos
+22:03 okay so it looks like two of them failed
+22:08 and it's actually just pulling in one
+22:11 transcript and now it
+22:15 failed um let's try that again okay so
+22:20 it looks like it's only loading one of
+22:22 the
+22:24 transcripts okay and this is this is an
+22:27 accurate summary of my last video video
+22:28 so we're actually on the right track we
+22:32 need so I'm going to bring in both of
+22:35 those previous transcripts
+22:40 here it's only pulling in one transcript
+22:43 so I want the search feature to last
+22:45 until all transcripts are pulled in I
+22:47 want you to append them all together we
+22:50 can adjust that
+22:55 later all right let's see if that works
+22:59 let's just type in deep seek so we're
+23:02 still running into problems with the
+23:03 Deep seek API so I really quickly just
+23:06 brought in the Gemini 1.5 Pro so
+23:09 Google's model that has a large Conex
+23:11 window as the default while they figure
+23:14 out their API things like I've never
+23:16 seen an AI product go this viral as deep
+23:19 seek so their servers are basically
+23:21 under just attack right now we've
+23:24 basically replaced it with Gemini
+23:27 1.5 and
+23:29 um all right let's give Gemini another
+23:31 try here let's go ahead and just type in
+23:35 deep seek
+23:37 news open AI done let's see if it pulls
+23:41 my video from YouTube let's see YouTube
+23:45 transcript one why everyone in AI is
+23:48 freaking
+23:49 out failed to load transcript darn
+23:53 it okay it got two of the transcripts
+24:01 wow that was actually really fast Gemini
+24:04 is real fast for this one okay deep
+24:07 seeks impact open ai's position deep
+24:11 seek
+24:13 Nvidia let's search this up again so
+24:16 it's searching the YouTube videos it is
+24:19 going to pull some transcripts here
+24:23 okay okay nice nice
+24:30 all right generating a response this is
+24:31 actually pretty fast using
+24:37 Gemini and boom okay so big Tech in
+24:40 panic mode to deep seek pop the AI
+24:43 bubble this video discusses the release
+24:44 of deep seek blah blah blah blah blah
+24:47 Nvidia okay answer to your
+24:50 question um wow wow wait actually this
+24:53 is actually a pretty good response link
+24:55 to referenced videos that's pretty cool
+24:57 actually
+24:59 um that worked pretty well let's see if
+25:02 we can do a followup question um tell me
+25:06 more about how open AI will be affected
+25:12 by
+25:15 this there's no way it's going to be
+25:17 able to like what is it even going to
+25:19 pull in from here okay open ai's
+25:22 operator yeah it's just taking in my
+25:24 transcript but at least we can do
+25:25 another question immediately after
+25:29 um we could do the perplexity automatic
+25:31 questions that they have right after but
+25:33 I'm not going to do that right now um
+25:36 but this is working all right this is
+25:39 actually pretty cool um
+25:43 nvidia's uh stock
+25:46 [Music]
+25:56 prices I'm just gonna
+26:00 look at the top of the screen here see
+26:02 that loading indicator at the top I want
+26:04 that to no longer be a thing I want that
+26:07 gone completely at the very top right of
+26:09 the screen it has that loading indicator
+26:11 done please done get it out get it out
+26:13 I've asked you to do it before and you
+26:14 didn't so get it together and
+26:16 get it out of there I don't want
+26:22 it also make the loading indicators just
+26:26 like make them just like a little bit
+26:28 cleaner change no functionality but your
+26:30 loading indicators are ugly I don't like
+26:32 the spinny circles I want something
+26:35 cleaner something more relaxing and
+26:47 subtle make the the transcript one
+26:50 transcript 2 transcript 3 text very
+26:52 light gray and have a little bit more
+26:55 pizzazz
+27:06 Pizzazz and so again we have all our
+27:09 chats right
+27:11 here we have perplexit
+27:14 tube okay hopefully I got rid of that
+27:16 we're changing some of the
+27:18 Styles all right I think this might be
+27:21 the one I think this might be the one
+27:23 that completes the perplexit tuu
+27:26 experience the perplexity of YouTube so
+27:27 I'm going to type in Riley Brown uh deep
+27:32 seek info and we're going to just enter
+27:36 that in finding relevant videos that's
+27:38 looking a lot better we have transcript
+27:41 one loaded I built a deep seek search
+27:43 engine I did that's one of my YouTube
+27:44 videos the next one should be uh open AI
+27:47 is done there we go and I actually don't
+27:49 know if I've talked about deep seeking
+27:50 another one so we'll see which one it
+27:51 pulls uh we'll see okay maybe it pulled
+27:55 a different deep seek video so now it's
+27:57 thinking
+28:00 and boom we created
+28:03 perplexit so it summarizes each video
+28:06 and then answers your question Riley
+28:07 Brown deep seek video Riley Brown
+28:08 features deep seek prominently of two
+28:10 provided videos I built a deep seek
+28:11 search engine without writing a single
+28:13 line of code and open AI is done in the
+28:15 first video Riley Brown uses deepsee
+28:17 Reasoner model as a core of a speech
+28:20 engine that he used cursor he States two
+28:23 hours I created a perplexity clone that
+28:26 is specific for my use case and it's
+28:28 actually good as perplexity for what I'm
+28:31 trying to do and we're using deep seek
+28:34 and this demonstrates his belief that
+28:35 deep seeks capabilities and potential to
+28:37 Ral established players like perplexity
+28:39 wow this is really good and it gives
+28:41 links so I could in theory click on this
+28:45 and it would take us directly to the
+28:49 video that's incredible I love it and
+28:53 that's perplexit tuube

@@ -1,0 +1,326 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=XDYrf2bbMxg
+Channel: Riley Brown
+Video ID: XDYrf2bbMxg
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 Vibe coding. Everyone is talking about
+0:02 it. Where you use AI tools to do all of
+0:05 the work and create an app. That's what
+0:07 we're going to do today. We're going to
+0:08 create a web app that will make me
+0:11 money, but not in the way that you
+0:14 think. So, this is what I want the app
+0:15 to do. I want users to be able to upload
+0:18 screen recordings to our web app. And I
+0:21 want it to convert it into something
+0:24 that looks like this, right? to where it
+0:27 has the outline around the phone because
+0:29 I've found that it performs
+0:31 significantly better than uploading just
+0:34 the screen recording directly to a
+0:37 social media platform probably like 20
+0:39 to 50 times better. I want the users of
+0:42 our app which is an app that builds
+0:44 mobile apps to be able to convert their
+0:46 video into a highquality format. And the
+0:49 three tools that I'm going to use today
+0:50 is I'm going to use an app called Mobin
+0:53 for design inspiration. Then I'm going
+0:55 to implement the design on v 0ero and
+0:57 then I'm going to create the app using
+0:59 cursor. Let's dive straight into the
+1:01 video. So the first thing that I'm going
+1:03 to do is I'm going to go to
+1:05 vzero.dev. And so once we have v 0ero
+1:07 open and we're all logged in, we're
+1:09 actually going to go to mobin, which is
+1:12 mobin.com. And this is a tool I've been
+1:14 using for months now. Mobin has the
+1:16 biggest library of designs to choose
+1:18 from, whether you're on web or if you're
+1:21 on iOS. So, I can choose from thousands
+1:25 of designs and they are a sponsor for
+1:27 this video. What I'm going to do is I
+1:30 want to find a design that would work
+1:32 really well with the app that we're
+1:35 building right now. And so, what I'm
+1:37 looking for is a good upload component
+1:40 and I'm a sucker for simplicity. So,
+1:42 what I'm going to do is I'm going to
+1:43 make sure that we're on web and on Mobin
+1:46 this search screen will pop up. I'm just
+1:48 going to type in upload. And here it
+1:51 automatically created this file upload.
+1:53 Now all of these screens right here are
+1:57 upload screens from existing websites
+2:00 that have really good design. And I
+2:03 actually really do like this right here.
+2:08 Ooh, I really like this from Cosmos. And
+2:11 so this is a cool one. So I'm actually
+2:14 going to just save this. We'll create a
+2:17 collection. And I'm just going to make
+2:18 this web apps that I like. And we can
+2:24 create this little playlist right here.
+2:27 And we can save our designs to that
+2:28 playlist. Let's keep going. Okay. So, I
+2:30 do like the simplicity of this one from
+2:33 bio sites. And so, I'm going to save
+2:35 this one as well. And we can save it to
+2:36 the same profile. And you can actually
+2:38 add a little comment right there. Maybe
+2:40 you're working with the team. Let's
+2:41 continue. And I do think this one looks
+2:44 pretty good as well from Grammarly. So,
+2:46 let's save this one. Okay. So, now we
+2:48 just need to decide which one I want to
+2:50 use. And I definitely think I like this
+2:52 one the most. You know, I I like the
+2:55 simplicity of this one, but the app that
+2:57 I want to create, I wanted to save their
+2:59 videos that they create down below. So,
+3:02 let's go ahead and use this one. So, I'm
+3:03 just going to go ahead and copy the
+3:05 screen. Now, what I'm going to do is I'm
+3:07 going to go back to Vzero where we are
+3:10 designing our app and I'm going to paste
+3:11 it in just like that. I'm going to say,
+3:15 "Please,
+3:16 can you recreate this except in the top
+3:23 bar instead of that search bar that is
+3:26 up at the top that starts with
+3:29 try, I want you to just have an upload
+3:34 button that when pressed, the component
+3:37 that's coming out centered below the top
+3:41 bar, I want that to drop down and that's
+3:44 where I want the user to be able to
+3:46 upload a video. And then below the top
+3:49 bar as you in the image, you see all
+3:51 these colorful components and images
+3:55 that are on the site. Let's call this
+3:57 app
+3:59 mobile vid. And the basic premise of
+4:02 this app is users are going to upload
+4:04 their screen share videos from their
+4:07 phone and it's going to convert them
+4:08 into highquality videos. But you should
+4:10 not add any of that functionality. We're
+4:12 just trying to design this app
+4:19 here. Okay, so it is done generating.
+4:23 Ooh, that looks good. Check that out.
+4:26 And so now we can press upload. And now
+4:29 this pops down. So what I actually want
+4:31 to do is I'm going to screenshot
+4:35 this. And I'm going to upload this right
+4:40 here. And then I'm going to upload that
+4:42 same Mobin image that we had earlier.
+4:45 And I'm just going to say the first
+4:48 image I uploaded was the the app that
+4:50 you just
+4:51 created. The drag a video here I only
+4:56 want to be there after I press upload.
+4:58 And I want it to drop down from the
+5:02 upload button that is centered at the
+5:05 top of the app. So, make the upload
+5:07 button center on the top bar and make it
+5:10 longer. Make it a longer button. Also,
+5:12 get rid of discover library and the red
+5:16 circle and create. So, it just should
+5:19 say mobile vid and then upload should be
+5:22 longer and it should when pressed have
+5:26 this dropdown. Okay, so now it's coding
+5:29 everything
+5:32 out. Okay, it's now done. Let's take a
+5:36 look at this. Okay, I dig it. So, what
+5:41 we're going to do now is let's go ahead
+5:43 and take this to cursor. So, what I'm
+5:46 going to do is I'm just going to press
+5:47 this button right here and I'm going to
+5:50 hit download zip. Once the zip is
+5:53 downloaded, what I'm going to do is I'm
+5:55 going to doubleclick the zip so that it
+5:58 opens. And then I'm going to actually uh
+6:01 let's just create a project from this
+6:03 point. So, what I'm going to do is I'm
+6:05 going to hit open project on a new
+6:08 cursor window and we're going to press
+6:11 mobile vid and we're going to hit
+6:15 open. And now we're going to open this
+6:17 up full
+6:19 screen. And let's go ahead and make this
+6:21 a little bit larger. And now we have the
+6:24 whole project over here. And now what
+6:28 I'm going to do is give cursor the
+6:30 prompt. So, for those of you who are
+6:33 new, let let's pause for a second. Let's
+6:34 do a 30 secondond refresher. Right. All
+6:36 we've done so far is we used Mobin to
+6:39 find, you know, a cool design that we
+6:40 want to use. And I think we found a
+6:42 really cool design on Mobin and we were
+6:45 able to upload it to Vzero and Vzero
+6:47 coded out a Next.js project that we
+6:50 could use to expand upon on Cursor. I
+6:53 think cursor is going to be
+6:54 significantly better at finding the best
+6:57 solution to uh create an app that allows
+7:01 a user to upload a screenshot. Right?
+7:03 This is a screen share video from their
+7:05 phone to this app that can be used on
+7:08 the web or you know on their phone or
+7:11 their computer and then it will create a
+7:14 clean video with the iPhone frame around
+7:17 it. That is what I want to create. So
+7:19 now we're back on cursor and it has
+7:22 access to all of the files that we just
+7:24 created on v 0ero. So now I'm going to
+7:27 ask cursor, I want you to create an app
+7:32 that allows the user to upload a video.
+7:36 And this video is going to be uh
+7:39 vertical screen share video of an app
+7:42 someone created. And the main problem
+7:45 we're trying to solve here is that I
+7:48 want these videos to show up on a
+7:51 Twitter
+7:53 feed where instead of it being 9 by6 or
+7:57 whatever format the a standard iPhone
+8:00 is, I want it to instead have the
+8:04 outline like you know uh if you ever
+8:07 look at a mockup of an iPhone image,
+8:09 it'll show the outline of the phone with
+8:12 the dynamic island and the time on top.
+8:14 You know what I'm talking about? And um
+8:17 I want that to be on a 3x4 square with a
+8:24 background. So like there you have the
+8:26 background of the video and then you
+8:29 have the mockup on top of
+8:32 that. And so when vibe coding, it's
+8:35 always good to include an image. And so
+8:37 I just splurge my idea out using voice.
+8:41 And so sometimes it's always good to
+8:42 explain that this is kind of what it
+8:44 looks like. There's going to be a
+8:45 background, an outline to the phone, and
+8:47 then the user video will go in the
+8:49 middle. So I'm going to save this to the
+8:50 clipboard. We're going to go back to
+8:51 cursor. I'm going to paste it in, and
+8:53 I'm going to say it should look like the
+8:57 image. This illustrates uh the concept.
+9:01 And so right now, we're just using
+9:02 claude 3.7 sonnet on max mode. All
+9:07 right. This is going on for so long.
+9:10 This is insane. Now, please run this
+9:14 locally so I can use it. Okay, it's
+9:18 done. Let's go ahead and click on this.
+9:20 All right, so here is our app. Let's see
+9:23 if this works. Okay, I am not
+9:26 optimistic, but we'll see. So, it looks
+9:28 exactly as we created it. Let's go ahead
+9:31 and upload a video. So, here is the app
+9:34 that I just created using the Vibe Code
+9:36 app. So, I literally created this on my
+9:38 phone. We want our users for our app to
+9:42 be able to post this on the internet and
+9:43 make it look good. The problem with this
+9:46 is if you're on Twitter, right? If
+9:48 you're on Twitter and you are to like
+9:51 and you go and you upload this video
+9:54 like this, it's going to show up in this
+9:56 ugly format. When it shows up actually
+9:59 on the feed, you can only see like the
+10:01 middle of it. And so that's why we want
+10:03 it to be in a more square grid so it
+10:06 looks appealing and it can actually go
+10:08 viral. Similar to our pinned post which
+10:11 got, you know, uh, almost 200,000 views
+10:14 and it looks a lot more. See how this
+10:16 shows up in the feed? Like this is what
+10:18 people immediately see. They see a phone
+10:21 on this big screen and it's a lot easier
+10:23 to tell that it is a phone screen. So
+10:26 now let's go ahead and give this a try.
+10:28 Let's try this. We're going to upload
+10:32 A screen recording of a
+10:35 video. Wait, that was immediate.
+10:38 Download video. Please work. Let's see
+10:40 what it
+10:42 downloaded. I don't think it's popped up
+10:45 yet. Okay, it's not downloading the
+10:49 correct one. But this looks really good.
+10:51 Actually, this is exactly what we want.
+10:54 And so I'm going to tell cursor that. So
+10:57 I'm going to copy this right here.
+11:02 I really want you
+11:04 to make it, export it exactly as it
+11:08 looks in this screenshot. Everything
+11:10 you're doing is great, right? When I
+11:11 upload the image, the video, it converts
+11:14 it into a perfect format. However, the
+11:17 problem with this is that when I export
+11:20 it, it's exporting the original video
+11:23 instead of exporting the new video
+11:25 that's created that has the iPhone
+11:28 background. You know what I
+11:32 mean? Okay. So, let's hope that fixed
+11:36 it. Let's go ahead and upload a video
+11:39 here. Let's see how it looks. I want it
+11:41 to look exactly like this. So, if we
+11:44 download this video, we will see what it
+11:49 looks
+11:50 like. So, let's wait for it to come
+11:54 in. Wait, what does this button do? Oh,
+11:57 it literally added a share on Twitter
+12:00 button because it was part of the
+12:02 prompt. I don't know what happens when
+12:04 uh let's Wait, what happens when I press
+12:07 this? Oh my god, it literally goes to
+12:10 Twitter. It added that just naturally.
+12:13 That's crazy. That's dope. Okay, I like
+12:18 that feature except it doesn't show up
+12:20 until you hover it. So, I'll change it.
+12:21 But let's see what it looks like on
+12:24 here. I just downloaded. Where is it?
+12:27 Right
+12:33 here. Okay, this is
+12:36 working. All right, that looks pretty
+12:39 good. Nice. That's exactly what we're
+12:41 trying to do. And so now, if you were to
+12:44 press share on Twitter, you could
+12:46 immediately share it just like by
+12:49 dragging it right there. And this would
+12:51 look significantly better in the feed.
+12:54 That's cool. That is a legitimately
+12:56 useful feature. Let's see if we can do
+12:59 one more thing. Um, okay. I actually
+13:02 want the background not to be white. I
+13:06 don't want it to be white. I want it to
+13:07 be the same color. Actually, I want it
+13:09 to be this image. I want this image to
+13:11 be the background. Um, yeah, found it.
+13:14 Okay. Let's go back to
+13:16 cursor. Let's drag this image in here.
+13:21 This is the image I want in the
+13:24 background. Okay. Um, now let's see.
+13:28 Let's go back. Let's give this a little
+13:30 test
+13:32 here. Oh, it immediately changed it. So,
+13:35 let's refresh it here. So, we can upload
+13:37 a
+13:38 video. And now we can go like this. We
+13:41 can upload this screen
+13:43 recording. Nice. Download video. Okay.
+13:47 So, it just downloaded. Let's see.
+13:50 Oh yeah, let's go. That's what I'm
+13:54 talking about. Boom. We did it. We
+13:58 created an app that takes a screen
+14:01 recording and it adds a clean border
+14:04 around it so you can clearly tell it's a
+14:06 phone and it just makes it a lot more
+14:07 appealing. And then what you can do is
+14:09 you can immediately just click on this
+14:11 and hit share on Twitter and it
+14:14 immediately allows people to share it on
+14:17 Twitter just like this.
+14:20 Um, that's pretty cool.

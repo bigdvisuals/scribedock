@@ -1,0 +1,1064 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=YiitvyQGbkc
+Channel: Greg Isenberg
+Video ID: YiitvyQGbkc
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 Amir is back on the pod. Thank you. Uh
+0:03 by the end of this episode, what are
+0:05 people going to learn? Today we're going
+0:07 to cover three aspects of building
+0:10 business, using new tools to actually
+0:12 build out landing pages, and then using
+0:14 other tools like humble to actually
+0:16 create high converting landing pages and
+0:18 running experiments. So, we're going to
+0:19 cover how to actually use idea browser
+0:21 to build the right amount of context and
+0:24 planning to come up with an idea and
+0:25 build a landing page behind it, validate
+0:27 it, refine a design using paper design,
+0:30 and then going into humbulics and then
+0:32 running an experiment and tracking data
+0:33 to then come back and keep optimizing
+0:35 for conversions.
+0:36 >> And you're going to commit to giving all
+0:38 the sauce. You're not holding back.
+0:40 >> Raw. We're going to go going to go
+0:42 through everything, all the sauce. By
+0:43 the end of this, you're going to learn
+0:44 what it takes to take an idea, validate
+0:47 it, refine it, build a landing page with
+0:49 a nice design that's not vibe coded, and
+0:51 then get the right data to make some
+0:53 money.
+0:53 >> Okay? Cuz there's a lot of tutorials
+0:55 that sort of promise that, right? But
+0:57 then you end up with like a purple vibe
+0:59 coded landing page.
+1:00 >> Do I ever let you down?
+1:01 >> No, you don't.
+1:01 >> I don't let you down. That's true. There
+1:03 you go.
+1:04 >> All right. Let's let's go. Let's get
+1:05 into it.
+1:06 >> All right. So,
+1:14 Idea browser came out with something
+1:15 really cool um I really like which is
+1:17 basically you can now directly connect
+1:20 idea browser to cloud code as an MCP.
+1:23 What's really interesting about it is
+1:25 you know you guys used to focus a lot on
+1:27 finding the right idea and then building
+1:29 it. But what was missing was how do you
+1:32 track the natural progression of how the
+1:34 business is evolving over time with the
+1:36 right context and documents to then come
+1:38 back and reference and say, "Okay, cool.
+1:39 Like this is the idea I had. Here's how
+1:41 I started with ICP positioning. Now I
+1:43 want to come back and refine this or
+1:44 help me figure out um kind of what to
+1:47 pitch for or who to go after as my
+1:49 customers." So I was playing around with
+1:51 Jordan earlier today. We were on a live
+1:53 stream and we found this really cool
+1:54 idea which was an AI sparring partner
+1:57 for B2B sales teams. The idea was how do
+2:00 we build a tool that kind of essentially
+2:03 helps reps practice on prospects on real
+2:07 time and get them to essentially go
+2:09 through simulations of being like, you
+2:11 know, going through a sales call and
+2:12 getting feedback on what they can
+2:13 improve on. We put together a quick
+2:15 landing page. We made some designs and
+2:17 then got some data in there and started
+2:18 tracking it. So, for today's episode,
+2:20 we're going to build on top of this.
+2:22 We're going to refine the messaging.
+2:24 We're going to go through some sections
+2:25 on the website, refine the copy and
+2:26 design, show you how to use paper for
+2:28 that, and then also uh yeah, get some
+2:31 experiments and AB testing in there.
+2:32 >> Cool.
+2:33 >> Um so what I so what we have so far is
+2:35 we have this one specific file which is
+2:38 uh like um offer definition and talk
+2:40 tracks that tells you who your your
+2:42 target customer is, the transformation,
+2:44 the offer, the value, competitive
+2:46 positioning. What's really cool is you
+2:48 guys also have skills in here which you
+2:50 can use to then build on top of the
+2:54 idea. Um, so I actually want to use the
+2:58 lead magnet legend here, this specific
+3:00 skill to build the specific lead landing
+3:03 page site um to kind of get someone to
+3:06 come sign up and you know go through
+3:08 this process. So we're going to open up
+3:09 terminal and we already have all the
+3:11 MCPS connected. So if I go to MCP you
+3:13 can see I have idea browser, I have
+3:14 paper, all that. We're going to go
+3:16 through it. So, I'm going to say connect
+3:18 to idea
+3:20 idea browser MCP. Um, look at my AI B2B
+3:25 sparring partner project. Pull the right
+3:29 context. Then use the lead magnet skill
+3:32 to create a
+3:34 By the way, I just got to say this cuz
+3:36 people are going to hate on you for the
+3:37 comments. In the comments, you type your
+3:41 your prompts. You don't use voice.
+3:44 Listen, I love Whisper Flow, but tell me
+3:46 how I'm going to do this while I'm doing
+3:48 the pod. Okay. All right. Just just you
+3:50 got to bear with me here.
+3:51 >> Okay. So, when you're at home, are you
+3:52 using Whisper Flow or are you still
+3:53 typing?
+3:54 >> I am. So, I'm using I usually use
+3:55 Whisper Flow when I'm initially starting
+3:57 a project or some some session and it's
+3:59 like a long It depends on honestly on
+4:01 the context of how much information I'm
+4:03 going to put in the terminal. But yeah,
+4:05 no, I got Whisper Flow, you know. Okay.
+4:06 I'm I'm up to date with the tools.
+4:10 So what we're doing right now is we've
+4:12 pulled the right project context and so
+4:15 like we have context right here that's
+4:16 built as a file and then um we're then
+4:19 we also have a growth strategy that we
+4:21 worked on earlier and then from there
+4:23 we're going to uh build out a lead
+4:25 magnet specifically for this idea. So we
+4:28 have this AI B2B sparring partner. Um
+4:30 what's really cool is you got have you
+4:32 guys have this like activity streak to
+4:33 keep building on kind of your business.
+4:36 And that's like the biggest problem
+4:37 these days. Like everyone can build
+4:38 landing pages. Everyone has ideas. How
+4:41 do you actually like know where to get
+4:43 customers? How do you actually grow it?
+4:45 And that's the next kind of gap that
+4:48 we're all trying to solve for right now.
+4:49 >> Well, yeah. I think uh we've all tried
+4:51 the vibe coding tools. We've all built
+4:53 stuff.
+4:54 >> Um I do think that having the right idea
+4:56 is important.
+4:58 >> Um finding the right niche is important.
+5:00 >> But you know, the other thing is just
+5:03 like how do you get customers?
+5:05 uh to to honestly just give you
+5:07 confidence to keep going.
+5:08 >> Exactly.
+5:09 >> Yeah.
+5:10 >> Yeah. Yeah. And and we're gonna
+5:12 eventually get there and I think you
+5:13 guys do a really good job of this and
+5:14 I'm not like promoting like I'm
+5:16 promoting idea browser don't get me
+5:17 wrong but I wasn't you know I'm actually
+5:19 using this tool myself now because that
+5:22 was kind of the biggest gap I had myself
+5:23 like with Humbolty was like okay cool I
+5:25 have all these great ideas and I've been
+5:28 understanding who our customer is and
+5:30 trying to get customers through trial
+5:31 and error. And I was telling Jordan
+5:33 Jordan earlier I was like I wish I had
+5:34 idea bowseres sooner right so that I can
+5:36 come back and use these specific skills
+5:39 to um to understand okay cool what is
+5:42 the right growth strategy because a lot
+5:43 of what you guys have has been fully
+5:45 refined and we were going through this
+5:46 earlier today and it was interviewing me
+5:47 and asking me questions and I was like
+5:48 this is so impressive I wish I had
+5:50 humbalytics for this specifically so
+5:52 that I can come back and say okay cool
+5:53 like humb to go after director of
+5:56 marketings in this specific field with
+5:58 this kind of messaging and yeah so kudos
+6:00 to you guys for building a really cool
+6:02 product with this and I think a lot of
+6:03 people now can actually use this to
+6:05 build the idea and then also help build
+6:07 the business as well. Um so we going
+6:10 back to cloud code we were connected to
+6:12 MCP we have built out the lead magnet
+6:14 which is basically five objections that
+6:16 kill fright software deals. So we
+6:19 actually niched down we built this AI
+6:21 BDB sparring partner in the fright
+6:23 software industry and it's going to say
+6:26 you're going to want to create a PDF
+6:27 guide um give them all Yep. So this is
+6:30 great. Okay, cool. So we we have the
+6:31 idea of the lead magnet and it should
+6:33 now actually save
+6:36 the file in here. Let's go back. Boom.
+6:39 Now we have the file. So this is really
+6:41 cool. Like you have context of the ideas
+6:43 it came with and it's added here. Um now
+6:47 we're going to come back and use the the
+6:50 scale. I got to come back here. We have
+6:53 the where is this? The landing page
+6:55 architect. using and basically what
+6:58 we're going to do now is for the people
+7:00 that don't know paper is it's a really
+7:03 cool tool where essentially it's
+7:05 connected so I'm going to take a step
+7:08 back typically with Figma you had
+7:10 designers creating static assets in
+7:12 Figma landing page designs and then
+7:13 handing off to engineering teams right
+7:16 the missing gap was now we have a lot of
+7:18 people that are building landing pages
+7:19 and websites with cloud code directly in
+7:21 code and refining it through there and
+7:23 then losing track of like what they're
+7:24 iterating on and not having the ability
+7:26 to be able to kind of refine this. So
+7:28 with paper, what you're able to do is
+7:30 actually um have an interface connected
+7:33 to cloud code where you're ideulating
+7:35 creating iterations of iterations
+7:37 directly in the design and then coming
+7:39 up with like what direction you want to
+7:41 go with and then having it in code. So
+7:43 it's kind of like the intermediary step
+7:45 that we were missing before where people
+7:47 are just directly building in code
+7:50 >> and you know you can use paper. Or are
+7:52 there any other competitors that people
+7:53 use or just or just stick to paper?
+7:56 >> I mean, so Figma just recently came out
+7:58 with their birectional ACP. MC ACP.
+8:01 >> I'm in your world, man.
+8:03 >> Totally.
+8:03 >> Yeah. MCP. Um uh where you can both
+8:07 design like uh you can take a design and
+8:10 build it to code or code to design to go
+8:12 birectional, which this is essentially
+8:14 what paper already is. Um, but I just
+8:16 feel like um, the tooling and the
+8:18 interface and the experience on paper is
+8:20 a lot nicer in my opinion and it just
+8:22 works a lot better. So, we're we're now
+8:24 connected to we've we've captured the
+8:26 lead magnet. We have the landing page
+8:30 scale architect being added as well with
+8:31 the offer that we want to have and now
+8:33 we want to actually build out the page
+8:36 using paper. So, while that's going
+8:38 through it, I want to talk about kind of
+8:40 how you can refine your designs as well.
+8:42 So often times you see people with kind
+8:44 of these vibecoded designs and they're
+8:45 not entirely sure how to actually go
+8:47 with like the right direction of
+8:49 building out a design system. What I
+8:51 typically like to do is always give
+8:54 Claude um a reference image of an
+8:57 existing design that I like. So, for
+8:59 example, I'll go into um an existing
+9:03 site or have some bookmarks of sites I
+9:04 like and I'll take the screenshots and
+9:06 I'll drop it into cloud and I'll say
+9:07 extrapolate like the key design elements
+9:10 from these pages and help me create a
+9:12 design system. So, what you're seeing
+9:14 right now for example is a design system
+9:16 that I've created using cloud based on
+9:18 reference images so that we can kind of
+9:20 reference back into for future sessions.
+9:23 So if I want to come back and create a
+9:24 new section or new component my landing
+9:26 page, I can say reference design style
+9:28 guide as like the basis as you're
+9:30 creating new components so that you have
+9:32 that consistency. Um now I want to show
+9:34 an example like again a lot of people
+9:36 have this misconception that vibe coded
+9:38 design is bad. This has all been fully
+9:42 vivecoded. We built all these
+9:44 animations, all these components using
+9:46 claude and doesn't seem that way. It
+9:48 seems very polished, very well refined.
+9:50 And the way to do that is you refine it
+9:52 through paper and then give example
+9:54 components and illustrations from other
+9:56 websites or libraries to build on top
+9:58 of. So for example, um I use this tool
+10:02 quite a lot. It's called Tail Arc Tail
+10:05 Pro and they have a lot of great
+10:08 existing blocks and illustrations that
+10:11 you can use and you can actually install
+10:12 these and use it as a reference. So I'll
+10:14 go back into paper and I'll show you
+10:16 kind of how Oh, nice. Right now, we're
+10:19 seeing Cloud Code design and build
+10:21 directly in paper on what this lead
+10:24 magnet looks like, which is
+10:25 >> really cool.
+10:26 >> Really, really cool. I love the little
+10:29 kind of section by section it's building
+10:31 out.
+10:34 So, I think this is perfect. Actually,
+10:35 this is a great segue to that. So, we're
+10:36 going to let it build out the landing
+10:37 page. Then, I'm going to show you how
+10:39 you can actually use tail arc as a
+10:41 reference point to then improve the
+10:44 design of this. So, so it goes from
+10:46 something like this to something a
+10:48 little bit more tailored like like this
+10:50 for example.
+10:52 >> By the way, there's an ant on the table
+10:53 just there. Do we do we let the ant
+10:56 watch your your your demonstration or do
+11:00 we you know or do we sort of move him
+11:04 aside? What do you think?
+11:05 >> I think we'll just we'll give him put
+11:06 him put him in I mean where do we put
+11:08 him?
+11:09 >> Um I mean I I have nothing against the
+11:12 Yeah, he's chilling.
+11:13 >> He's chilling.
+11:13 >> He's getting the direct sauce. Yeah,
+11:14 he's we can give the ant some sauce, you
+11:16 know.
+11:17 >> Here's a napkin in case.
+11:18 >> Yeah.
+11:22 >> Um, okay, cool. So, we're building out
+11:24 the section, which is pretty cool. Now,
+11:26 like a lot of people say, "Okay, cool.
+11:27 Like, why don't I just build this
+11:29 directly in code? Why do I have to
+11:30 actually use paper?" The idea is that
+11:33 you can use paper to help build out
+11:36 different variations. So, if I want to
+11:38 try different layouts, I can just do it
+11:39 directly in here, make some refinements
+11:41 myself, especially for designers. I
+11:43 think this is super powerful for
+11:44 designers that want to just jump in and
+11:46 start changing things themselves without
+11:47 having to kind of use cloud code again
+11:49 or existing components they have. So
+11:51 we'll let this finish then I want to
+11:52 show you some examples of what I've also
+11:54 created in paper to show you that what's
+11:56 what's possible if you keep refining it
+11:57 and go through it go through it.
+11:59 Perfect. So we're all done here. Now
+12:02 what does this look like in actual real
+12:04 practice if you spend time refining
+12:05 this. So this is all designed in paper.
+12:08 Um, I've given the design style guide I
+12:10 have in Humbolytics. I've said here's
+12:12 the components you have and use these
+12:14 components to refine it. So, I actually
+12:16 build out some of these sections in here
+12:17 and then port it over to code. I or I
+12:19 even use it to create static assets that
+12:22 I want to use in ads, in thumbnails,
+12:25 whatever it is. This is all purely you
+12:27 like built using cloud. Now, how do you
+12:30 go back to actually refine the design
+12:33 here? Um, so what I do typically is I'll
+12:37 go into Tail Arc and find a section that
+12:40 I like. So we have this like content
+12:42 area section. I'll go into
+12:46 um let's go into content
+12:50 right here. Okay, cool. I like I like
+12:52 this. I like this right here. Or maybe
+12:54 yeah, we'll use this one. Cool. So I'll
+12:57 go back in the terminal and I'll say
+12:58 install this tail arc component and use
+13:02 it for the content section in the lead
+13:05 magnet first. Design it in paper and
+13:10 then we just need to pull the API key
+13:12 for tail arc. Cool.
+13:14 >> I've actually never heard of tail arc.
+13:16 >> Really?
+13:16 >> Yeah.
+13:17 >> Yeah. It's it's just another UI library.
+13:19 I mean
+13:20 >> I'm not sure who's behind it. I think
+13:21 it's like an indie founder or something
+13:23 like that.
+13:23 >> Looks clean.
+13:24 >> Yeah. Super clean. It's the way to go,
+13:26 you know. Kudos or shout out to whoever
+13:28 built this. I think it's a indie person.
+13:30 So, whoever it is, you've done a great
+13:31 job. Keep keep doing it.
+13:33 >> Um, yeah, I'm a fan. I'm I'm a big fan.
+13:37 They got taste, that's for sure.
+13:40 So, what we're doing right now, we're
+13:41 just installing Tail Arc so that we can
+13:43 like install the right components here.
+13:45 And
+13:47 um, yeah, what's special about this is
+13:48 that you can take those components that
+13:50 I showed you earlier. So if we're going
+13:51 to, for example, we're going to do the
+13:52 content one,
+13:55 this one specifically, and I can just
+13:56 drop it in as well, a screenshot to say
+13:58 like install this, use this component,
+14:03 and then I'll go back into paper and say
+14:05 like use it for this section here.
+14:07 What's also interesting uh is, you know,
+14:10 showing tail arc, showing idea browser,
+14:12 the MCP, it's sort of a glimpse into
+14:14 like the future of software, right? Like
+14:16 you're not in the past we would go and
+14:18 just use SAS, right? Yeah,
+14:20 >> now it's like the work is getting done
+14:22 in the terminal.
+14:24 >> Nailed it to again. It's becoming the
+14:26 interface for work for everything. You
+14:28 know, if you remember our first episode
+14:29 cursor was Yeah. Like
+14:31 >> you were you were right.
+14:32 >> So you said
+14:34 >> what? I think your exact words were
+14:35 something like
+14:37 >> like Yeah. B I I think the mistake I
+14:40 made was I I I said cursor. That's what
+14:42 you said.
+14:42 >> Yeah. Cursor is the interface of work or
+14:44 it's the future of interface of work. I
+14:45 would say now terminal. The terminal is
+14:47 interface of work. We were, you know, we
+14:49 were very, you know, we were early. We
+14:51 were early. We were early. Like we're
+14:53 like, "Yo, markdowns are going to become
+14:54 a thing. You're going to do all your
+14:56 work in cursor, all of it in terminal."
+14:58 >> People thought we were crazy.
+14:59 >> Yeah. Yeah. Like
+15:01 >> here we are today, man. Everyone, you
+15:03 know,
+15:03 >> and we're showing you this and someone
+15:04 probably listening to this is probably
+15:05 like, "You guys are crazy."
+15:08 >> 100%. Yeah, you know, uh, another thing
+15:11 for example was like you're now seeing
+15:12 people building out markdown pages on
+15:15 their websites to make it easier for
+15:16 agents to access, right? You look at
+15:18 what's happening now. People are giving
+15:20 agents wallets. What's going on here?
+15:22 They're giving out wallets. They're
+15:24 giving them um emails, inboxes, stuff
+15:27 like that. So, it's insane to see um
+15:31 Yeah, yeah, it's it's insane to see kind
+15:34 of the evolution of that. And we're
+15:35 seeing actually tangent um
+15:41 I have a thesis. The thesis is that more
+15:45 agents are going to actually visit uh
+15:47 websites than humans.
+15:48 >> Mhm. I mean that's that's I'm 100%
+15:50 certain of that. It's not even you know
+15:54 >> I saw that Gartner had a research report
+15:56 that said 20% of commerce will on the
+16:01 internet by 2030 will be agents. meaning
+16:03 like agents are buying things.
+16:06 >> Um, you know that the the
+16:09 tail or what's the the how do I say
+16:12 this? Basically where it's all where
+16:14 it's going is agents doing more and more
+16:16 things. So obviously yeah there's just
+16:17 there's going to be way more agents than
+16:19 humans. Therefore there's going to be
+16:20 way more consumption of agents of
+16:22 products.
+16:23 >> Yeah. And it's like the multiplier
+16:25 effect too, right? Because you have
+16:26 people running multiple open claws or
+16:28 multiple agents. Exactly.
+16:29 >> On behalf of one person
+16:31 >> and who was it? There was a report
+16:32 saying I don't know if they were serious
+16:34 but they're saying yeah we should put a
+16:35 tax on a we should put a tax on agents
+16:38 right because it's like
+16:41 yeah it's making us more productive
+16:44 there's a whole think about human beings
+16:47 right like if you have a if you
+16:49 >> if you're running a company and you want
+16:50 to hire someone you have to pay payroll
+16:52 tax on that person right
+16:54 >> so of course then you know governments
+16:57 are going to be like well
+16:59 >> it's kind of like you're hiring a person
+17:01 Therefore, there should be some taxes
+17:03 that, you know, agents have to pay.
+17:06 >> There there's an arbitrage opportunity
+17:08 right there, right? Like you you as a
+17:09 single human now have an army of agents
+17:11 working for you on your behalf. They're
+17:13 a multiplier effect of what your income
+17:15 is or whatever it is that you're doing
+17:16 more productive.
+17:18 Yeah. Where's like, you know, you're
+17:19 making more money. Yeah. I wouldn't be
+17:21 surprised at some point we have some
+17:22 agent tax. It's like on on your taxes
+17:24 like list out the agents you have. But
+17:27 um but anyways, uh back to kind of
+17:29 talking about the future of web. Yeah.
+17:31 Like we're also seeing right now um
+17:35 more websites being built to be agent
+17:38 friendly, right? Firecraw fire uh cloud
+17:41 for came out with their um endpoint to
+17:43 be able to crawl websites to give access
+17:45 to agents to be able to get the data
+17:47 they need. And you know we actually had
+17:50 our website built in web flow. Then we
+17:52 migrated to framework and now we fully
+17:54 built in custom code. Why? Because we
+17:56 wanted to be able to use the agent as
+17:58 our CMS. So use cloud code to directly
+18:00 update our CMS and the act ability to
+18:03 give access to other tools to like
+18:06 quickly ship changes, run tests, give
+18:09 access to our agents and MCPS which is
+18:12 you can now kind of do with web phone
+18:13 framework but it's not as open as you
+18:14 want it to be essentially.
+18:16 >> So
+18:16 >> makes sense.
+18:17 >> Yeah, that's kind of the the the thought
+18:19 process behind it. Let's go back. Okay,
+18:21 nice. So yeah, we're getting a much
+18:22 nicer refined design here. Um, and then
+18:26 if we wanted to, we can go back and like
+18:27 maybe find more components to drop. So,
+18:30 um, let's look at like maybe
+18:34 So, one of the things I really liked
+18:35 about your website, the Humble Litics
+18:37 website, is like the animations were
+18:38 really good.
+18:39 >> Yeah.
+18:40 >> How do you think about like if we wanted
+18:42 to like update the designs here to be a
+18:46 little more animated, how would we do
+18:48 that?
+18:48 >> Yeah. So, I So, right now we're doing
+18:50 right now. So, I basically went into
+18:51 here. Um, so this one has a very subtle
+18:54 animation. I copied this component and I
+18:57 dropped it back into terminal in cloud
+18:59 code. I said, "Hey, add the section and
+19:01 then add a subtle animation." And the
+19:04 goal like I always say like you don't
+19:06 want to overanimate things. It's
+19:08 interesting to see how like agents
+19:10 respond to constraints and guard rails,
+19:12 especially around like, hey, make subtle
+19:14 changes, subtle animation, subtle design
+19:17 refinements. I'm actually very
+19:18 intentional with that word when I use it
+19:20 with agents because like if you say
+19:22 improve the design, it's so broad and
+19:23 generic. Whereas you say, "Hey, work on
+19:25 refining the design. Make sure you have
+19:27 consistent layouts and themes and keep
+19:29 it subtle enough to make sure there's
+19:32 like cohesiveness across the entire
+19:33 page." I find that prompt works a lot
+19:35 better than just saying improve the
+19:37 design.
+19:37 >> Keep it subtle, stupid.
+19:39 >> Yeah, keep it subtle. Exactly. Exactly.
+19:41 There you go. Um, so you know, while
+19:46 that's happening, I'll say when you're
+19:48 done, make the changes in the code and
+19:50 push it and tell me the URL for it and
+19:55 add a section on the homepage to the
+19:59 lead magnet. Cool. We already have the
+20:02 site right now and um,
+20:06 we're going to now add that lead magnet
+20:08 section. So, we were actually earlier
+20:09 today with Jordan and I in the live
+20:10 stream, we're building out the home
+20:11 section, the hero section, and we
+20:13 started working on the steps below it.
+20:15 But now what we're going to do is build
+20:16 a lead magnet page using what we just
+20:19 covered in paper and the designs. Um,
+20:22 and then yeah, we're going to push it
+20:24 live to the website and then run some
+20:25 get some analytics in there and run some
+20:27 experiments to see what drives more
+20:28 conversions.
+20:29 >> Cool.
+20:29 >> Cool.
+20:30 >> Yeah. And then like for the audience,
+20:31 like keep in mind like we're doing this
+20:32 really really quickly. We're speed
+20:33 running through this,
+20:34 >> you know. Um, obviously like if you look
+20:36 at this design, it's a lot more refined
+20:38 than what it would be. Typically, I
+20:39 would spend a couple hours going through
+20:41 this, going through specifically like
+20:43 different illustrations or blocks or
+20:45 sections. I just want to cover like the
+20:47 key principles of how I approach it and
+20:51 then you can come back and like use
+20:52 these different components to refine
+20:53 each individual section. Any questions,
+20:56 thoughts? Yeah, I think uh I was just
+21:00 just thinking about this like we we all
+21:02 have these this you know expectations
+21:04 that you're going to like one prompt
+21:05 something, two prompt something, three
+21:06 prompt. So I'm happy you said that it's
+21:08 probably going to take a couple hours
+21:10 >> if you really do want to get it dialed.
+21:12 So I I just I don't want people to go
+21:15 through this whole process and be like
+21:17 >> well when air did it look so so much
+21:19 better. Well, air amir first of all you
+21:22 had the library so that was helping but
+21:24 also you know it takes time right
+21:27 >> it takes a lot of time like we yeah we I
+21:30 mean it doesn't take a lot of time if
+21:32 you think about it just takes like
+21:35 >> imag you know if air from 2017 saw this
+21:39 >> oh like
+21:41 and heard that and heard that you said
+21:42 it took a lot of time
+21:44 >> you'd be like what is air on
+21:47 >> no yeah no
+21:48 >> but it takes time it takes some amount
+21:50 of
+21:50 It takes time, taste, and skill to know
+21:54 what you got to do and how to do it,
+21:55 right? It's like we've we made it so
+21:57 easy to achieve the tasks. How do you
+21:59 give the agents the right direction and
+22:00 approach to say here's how you need to
+22:02 do it?
+22:03 >> The taste taste is what we know we've
+22:04 been talking about a lot.
+22:06 >> Yeah.
+22:07 >> And and direction, right? Like this
+22:09 particular component needs subtle
+22:11 animation. Here's a reference of that.
+22:14 >> Exactly. Exactly. Like I built this
+22:16 component from scratch. not from
+22:18 scratch. Off an existing component that
+22:20 was I think let's actually find it.
+22:24 >> So you found a component here.
+22:26 >> Exactly. So I found a component here.
+22:28 We're going to find it cuz I know I'll
+22:30 tell you where it is. So like this is
+22:33 for example right here. Okay. So we had
+22:35 this component
+22:36 >> and
+22:38 this is it right here. I I ported this
+22:40 one over but I said add a sol animation
+22:42 to switch through it for example or or
+22:44 this analytics query right here. So this
+22:46 one is
+22:48 this one
+22:50 >> right now that specific component I
+22:53 think it was it was one of these one of
+22:56 these cards essentially and yeah I took
+22:58 it and I said hey based on this
+23:00 component oh right here this one it was
+23:02 this one and I turned it into
+23:04 >> this
+23:06 which is you know
+23:08 >> I think it looks great.
+23:09 >> Yeah.
+23:09 >> Yeah.
+23:09 >> Yeah. So cool. So, we we've we've built
+23:13 out the design of the guide page in
+23:15 here. Um, and now we're going to see if
+23:18 it's live on the website. So, let's push
+23:19 this and then we're going to go to
+23:21 guide.
+23:22 Boom. So, now we have it. We have the
+23:24 sections here. Okay. So, now let's get
+23:28 some analytics in here to see how many
+23:31 people actually could sign up for this
+23:32 lead magnet.
+23:33 >> So, I just want to say one thing. This
+23:34 lead magnet looks gorgeous. Like, think
+23:37 about this lead magnet. looks better
+23:39 than 99.99999%
+23:41 of lead magnets that exist. Right? So
+23:44 people listening to this like this is
+23:49 uh think think about you know don't just
+23:53 create one lead magnet, right? Like
+23:54 every few weeks create new lead magnets,
+23:56 optimize your lead magnets and you're
+23:58 going to be able to outperform because
+24:00 you're going to know how to do and
+24:02 create gorgeous looking lead magnets.
+24:04 >> Exactly. And we did we did this in like
+24:05 30 minutes. Again, like you get the
+24:07 right components, the right direction.
+24:09 You can do some research on the best
+24:11 ones, port them over as reference
+24:12 styles, and then make that refinement.
+24:14 So, right now, while you were going
+24:15 through it, I found this kind of decent
+24:17 component. I was like, why don't we just
+24:18 try this design instead and add it? So,
+24:20 let's see what happens.
+24:21 >> Yeah.
+24:22 >> Okay, cool. It's going to adopt it and
+24:23 it's going to have that split split
+24:25 layout. All right, so we've got this
+24:26 lead magnet. We'll wait while it's
+24:28 refining the design. We're going to come
+24:29 back and essentially get some analytics
+24:32 installed and look at some click
+24:34 tracking form submissions and run some
+24:36 experiments to see if I were to change
+24:37 this headline headline for example um
+24:41 what would this look like and you know
+24:42 what would increase more form
+24:44 submissions for our leads and we we use
+24:46 this approach at uh humble we just
+24:48 started actually where we built like an
+24:50 autonomous CRO agent where we have
+24:53 direct skills and MCPs connected to a
+24:55 cloud so we directly connect to our
+24:58 track our analytics and experimentation
+25:00 tool, our marketing site, which is why
+25:02 we ported over to custom code. We
+25:04 wouldn't have been able to do this
+25:05 through Webflow and then we have Google
+25:06 Ads. The idea is how can we spin up
+25:09 multiple subpages that are personalized
+25:11 campaigns like personalized campaign
+25:13 landing pages based on the campaigns we
+25:15 have. So, like if I'm running a a a
+25:19 painoint campaign on Google Ads and I
+25:21 have five adsets, I want each one to
+25:23 have its own personalized landing page
+25:25 and I want to AB test each individual
+25:27 landing page to see what headline
+25:29 resonates the most or what layout for
+25:31 example. Um, you're able to do this with
+25:33 the custom code site really quickly with
+25:35 cloud code. With framer or web flow, you
+25:37 have to create the pages, create the
+25:38 sections, come back and update it. You
+25:40 know what I mean? So that's kind of the
+25:41 whole thesis we're talking about earlier
+25:42 where it's like the feature of websites
+25:44 is custom code and the agent is the CMS
+25:47 and then you have it running and you can
+25:48 even set up like um uh so what we do is
+25:50 we have like a cron job now directly in
+25:52 cloud code because they support
+25:53 automated tasks to say every week go
+25:55 into um like run this specific task. So
+25:59 what we have is Google ads directly
+26:01 connect to cloud through the API. We
+26:03 have three cloud scales a paid media
+26:05 manager that pulls data from meta and
+26:08 Google. We have a CRO optimizer that
+26:10 runs AB tests and then we have a funnel
+26:12 report that just gives us a report of
+26:13 like here's how many users you had
+26:15 signed up. It connects to stripe chart
+26:16 mobile all the different tools that we
+26:18 have and then we have humbalytics that
+26:20 essentially hits our endpoint to give
+26:22 you recommendations actually uses fire
+26:24 crawl to scrape the pages and then um uh
+26:27 helps you kind of say okay here's what
+26:28 you need to optimize for helps you run
+26:30 the experiment all through cloud and
+26:32 then it manages the manages the like the
+26:35 results for you. I mean
+26:38 that is just so cool that we live in a
+26:40 world where you can do that.
+26:41 >> I know. Yeah. Yeah. And the best part is
+26:43 you can actually use this with idea
+26:45 browser to pull all that context and
+26:47 save it as a file back into idea
+26:49 browser.
+26:50 >> Jordan and I were talking about this
+26:51 like yo we can do this now. Like imagine
+26:53 you do a weekly report. You pull all the
+26:56 data you add it into idea browser and
+26:57 now Idea browser has contest of like how
+26:59 growth has been over time
+27:01 >> which is
+27:03 which is sort of the unlock right.
+27:05 >> Yeah. Yeah.
+27:06 You know, if you have that, you're just
+27:09 going to get better results. You're
+27:11 going to compound and that's like how
+27:13 you can compete in Right.
+27:15 >> Yeah. Exactly. Um, so we just added the
+27:18 the component to the like we installed
+27:21 this new component, but I realized the
+27:22 mistake we made was we got rid of the
+27:24 form, so we're adding it back in. But
+27:26 yeah, like the to your point, uh, we
+27:29 actually before this, we were tracking
+27:31 all the context directly in Obsidian as
+27:32 well. So we have a master like
+27:35 performance log.
+27:36 >> Yeah.
+27:36 >> It says like here's how this AB tested.
+27:38 Here's how much money it made. Here's
+27:39 what you need to improve on. And we just
+27:41 come back to this context. So we have
+27:43 this all set up now. We have this
+27:44 landing page. And let's go back to the
+27:47 homepage and maybe run an an experiment
+27:49 on this homepage to see if we can
+27:51 increase clickthrough rates. So what
+27:53 I'll do is I'll spin up cloud again. And
+27:56 then we're going to go into so with
+28:00 Humbolytics you can just go directly to
+28:01 the API create an API key get your
+28:04 property details and instructions to hit
+28:05 the cloud. Uh but what it you know you
+28:07 get the basic analytics you would
+28:09 typically see where people are visiting
+28:10 from traffic you know the channels
+28:13 everything you want if you're looking to
+28:15 like run paid ad campaigns you get full
+28:17 attribution directly in here so you can
+28:19 see exactly what channels are making you
+28:20 money. You can have heat maps to see
+28:22 scroll depth, what people are clicking
+28:24 on, the full experience. You can even
+28:26 create funnels. So, for example, if you
+28:27 want to go like, you know, from page to
+28:30 guide, you can even run it. It'll show
+28:32 you what people went through his steps.
+28:35 Um, and then you can run AB experiments.
+28:37 So, we have zero right now. We're going
+28:39 to use Claude to actually run an
+28:41 experiment. So, we're just going to copy
+28:44 this. just gonna
+28:47 and then we're going to have a we have a
+28:48 dedicated skill for this but I thought
+28:49 just to show people the steps. So using
+28:52 this approach
+28:55 create an AB experiment no code type for
+29:00 the headline
+29:02 suggest what the headline
+29:04 >> so you have a skill for this?
+29:06 >> We do.
+29:06 >> Yeah.
+29:07 >> Yeah. I I'll share the link afterwards
+29:09 that people can use where essentially
+29:10 we'll help you get set up with like
+29:12 comolytics, run experiments, get
+29:13 recommendations. But we have endpoints
+29:15 right now that you can hit to say okay
+29:17 like tell your agent or cloud code hit
+29:19 the specific endpoint the
+29:20 recommendations endpoint and it'll
+29:21 actually scrape your site pull traffic
+29:24 insights pull all the existing data you
+29:26 have in homalytics and even idea browser
+29:28 and then give you a very detailed report
+29:30 on here's what you should like focus on
+29:33 for your landing page or what you should
+29:34 test.
+29:35 >> Yeah.
+29:36 >> Nice. So it's pulling insights based on
+29:38 analytics. We have a 40% average scroll
+29:40 25% bounce rate. Here's the page
+29:42 content. Here's what your control should
+29:44 be and then here's what you should be
+29:46 what should be the variant. Okay, cool.
+29:48 We should now go back into experiments.
+29:51 We now have an AB test running directly
+29:54 through here, which is crazy. It's
+29:55 actually insane. And we did this without
+29:57 even deploying change cuz our script
+30:00 dynamically updates the content on the
+30:02 site without you having to go to your
+30:03 developers and say, "Hey, like can you
+30:05 can you create this new page or push it
+30:06 for us?" So, this is what we had. If I
+30:09 refresh this
+30:11 maybe a couple times because it's like
+30:13 it's distributing traffic. Let's see.
+30:15 >> Right.
+30:16 >> There we go.
+30:18 >> Every lost deal started with an
+30:20 objection your rep wasn't ready for.
+30:22 Honestly, not bad.
+30:23 >> Pretty fire.
+30:24 >> Yeah. But here's the cool thing. We just
+30:26 launched an experiment.
+30:27 >> Yeah.
+30:28 >> And it automatically updated the page
+30:30 without pushing code. And now you're
+30:32 tracking to see how this headline will
+30:33 actually impact conversions. Yeah. So if
+30:35 I click this for example, you know, and
+30:39 then let's say we go back to control. So
+30:41 this is right now showing. Okay, now
+30:43 we're on control and we go back in here.
+30:46 We can see exactly
+30:48 >> how conversion is doing.
+30:50 >> So it's still pretty early. So it's
+30:51 going to like not have any good data to
+30:53 show, but it's showing you even what
+30:54 people are clicking on directly and
+30:56 telling you how the test is doing.
+30:58 >> Insane.
+30:59 >> Yeah.
+30:59 >> Insane.
+31:00 >> It's also insane that like I don't know
+31:02 anyone who's doing this.
+31:04 Yeah, I know. Yeah. Yeah. We we I think
+31:08 this this stack right here um what I
+31:11 showed between going from idea to
+31:14 refining in paper then analyzing
+31:16 optimizing for this like if you're a go
+31:18 to market person or marketing person and
+31:20 use a stack you're unstoppable. Yeah. So
+31:22 we're we're we're doing this at scale
+31:24 now. We're running a bunch of paid meta
+31:25 ads Google ads directly connected
+31:27 pulling all the context creating
+31:29 personalized pages and seeing like
+31:30 what's what's making money. I mean
+31:32 there's also an opportunity to actually
+31:34 take this stack and sell this as a
+31:36 service right like how many businesses
+31:40 you know would would pay 5 10 15 20
+31:42 grand a month
+31:44 >> if you can actually be doing this
+31:46 >> for them like probably a lot. Yeah, we
+31:49 so we actually have a couple customers
+31:51 that work with us and say, "Hey, like
+31:52 we'll pay you like 5k, 10k a month. Can
+31:54 you just run
+31:55 >> right?
+31:55 >> Can you just use your software and then
+31:57 run it for us?" Yeah. Yeah. Yeah.
+31:58 Because like you can connect meta ads
+32:00 directly in here, Google ads, get full
+32:02 revenue attribution and then they say,
+32:03 "Hey, like just tell us like where where
+32:05 our top funnel spend should be." And so
+32:07 it's almost like we're seeing this now
+32:09 too like managed service.
+32:10 >> Yeah, makes sense.
+32:11 >> Yeah. Yeah. So yeah, we've I feel like
+32:14 we've covered a lot, right? We went from
+32:15 an idea that we had in idea browser to
+32:19 um to like now having relevant context.
+32:22 So we can even come back and say like in
+32:24 the terminal say you know using idea
+32:26 browser MCP add this info uh to the
+32:30 context. So we can come back and
+32:31 actually add this as a file right. Um so
+32:34 we went from idea to designing something
+32:37 in paper to building a new landing page
+32:40 to then having analytics and experiments
+32:42 behind it.
+32:43 >> Crazy.
+32:44 What a time to be alive, my friend.
+32:45 >> What a time to be alive. All right. Was
+32:47 that Was that saucy?
+32:47 >> That was saucy, man. I like I would be
+32:50 real with you. Like if this
+32:52 >> I've I've never seen
+32:55 anyone do this this fast with this
+32:58 stack.
+32:59 >> Yeah. Yeah. Yeah. If it it sometimes I
+33:02 yearn to be an employee again and like
+33:05 go to micro marketing so I can just take
+33:07 this and just blow people's mind away
+33:09 because it's like
+33:10 >> it's so much fun. Like I wish we had a
+33:12 million dollar monthly spend so I can
+33:14 just dabble with these tools
+33:15 >> and just show them what's possible.
+33:17 >> Yeah. What's going through my mind is
+33:18 like there's a lot of arbitrage.
+33:20 >> Insane,
+33:21 >> right? Like if you
+33:23 >> if you can, you know, if you get have
+33:25 good ideas, if you get, you know, source
+33:26 of good ideas and you can AB test them
+33:28 and you can be creating beautiful
+33:31 websites, you know, lead magnets, that
+33:33 sort of thing. and you have access to 7
+33:37 billion people who have, you know,
+33:39 internet connections and and their
+33:41 credit cards attached to it. Like
+33:44 there's arbitrage and I remember
+33:48 >> I remember when the Facebook ad platform
+33:50 first came out.
+33:51 >> Oh yeah.
+33:51 >> And you know the average click I think
+33:55 back then was 5 cents a click.
+33:58 >> So meaning like you can create an ad and
+34:01 I was at the time working with these
+34:03 social gaming companies. So, I would say
+34:04 like, "Hey, you know, as an example,
+34:07 Farm Bill, I would say like, would you
+34:09 pay me $2 for every install I got for
+34:11 you?" And they'd be like, "Sure. This,
+34:13 you know, we monetize so much better
+34:15 than that." And I was just using
+34:18 Facebook ads cuz I was paying 5 cents a
+34:20 click. And there was this moment of
+34:21 opportunity basically where you could do
+34:23 really well
+34:24 >> um because of this ad platform and and
+34:26 and how cheap it is. Now, fast forward
+34:28 to today, I don't even know what a CPC
+34:30 is. On average, it's probably $2 or
+34:32 something like that. Yeah, it's $23.
+34:34 >> $23, right? So, it's it's, you know, so
+34:37 much more expensive and it's
+34:39 >> and it's just because people didn't know
+34:41 back then, right? And it's sort of the
+34:43 same thing with this with this sort of
+34:44 stuff. It's like, you know, 99.999% of
+34:46 people don't know that this stack
+34:48 exists.
+34:48 >> Yeah.
+34:49 >> And there's an opportunity to create
+34:51 offers and arbitrage right now.
+34:54 >> The right tooling, the right approach.
+34:55 You have a terminal with a million
+34:57 context tokens. There's the
+34:58 opportunities are endless.
+35:00 >> Yeah. you know,
+35:00 >> so I appreciate you sharing.
+35:03 >> Yeah.
+35:04 >> Um and uh I'll include the link that for
+35:08 that skill in the show notes in the
+35:10 description
+35:10 >> for sure.
+35:11 >> I'll include links on where to follow
+35:12 Amir uh on X and and other places.
+35:16 >> And uh stay saucy, my friend.
+35:18 >> Thank you for having me, man. Good to
+35:19 see you.
+35:20 >> Good to see you. All right.

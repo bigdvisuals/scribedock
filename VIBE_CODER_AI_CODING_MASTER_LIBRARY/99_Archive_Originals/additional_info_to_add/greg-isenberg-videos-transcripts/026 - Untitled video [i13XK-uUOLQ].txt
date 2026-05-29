@@ -1,0 +1,1480 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=i13XK-uUOLQ
+Channel: Greg Isenberg
+Video ID: i13XK-uUOLQ
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 How can you make money from OpenClaw?
+0:02 Like how can you spin up these OpenClaw
+0:04 instances, these sub-agents, these
+0:07 digital employees that can go out and
+0:09 make you money while you sleep? Is it
+0:11 even possible? Well, in today's episode
+0:14 I brought on Nick and he shows a
+0:15 tactical tutorial for how to spin up
+0:18 multiple OpenClaw machines in a virtual
+0:20 [music] instance, how you can be
+0:22 automating tasks on Upwork
+0:25 >> [music]
+0:25 >> and these boring business automations,
+0:27 and how you can actually make money from
+0:30 OpenClaw. If this doesn't get your
+0:32 creative juices [music] flowing for the
+0:34 future of SaaS, how people are going to
+0:35 make money, and how to actually use
+0:38 OpenClaw
+0:39 >> [music]
+0:39 >> from not just a cute little use cases,
+0:42 but actually money-making
+0:45 uh opportunities, then I don't know what
+0:47 [music] will. I had such a good chat
+0:49 with Nick, it got my creative juices
+0:50 flowing. I think it will yours, too. And
+0:53 this is I think one of Nick's first
+0:55 podcast, so give him a like and comment
+0:58 to juice him up because he shared that
+1:00 sauce.
+1:02 >> [music]
+1:02 >> The starter by the podcast.
+1:06 It's sippin' time, baby.
+1:08 >> [music]
+1:09 >> I couldn't be more excited to have Nick
+1:11 on the pod. He's one of my go-to people
+1:15 when I have questions about OpenClaw.
+1:17 Nick, by the end of this episode, what
+1:20 are people going to learn?
+1:22 Yeah, people are going to learn that
+1:24 OpenClaw is more than just a personal
+1:26 assistant. You can actually deploy this
+1:29 into businesses, you could drive actual
+1:31 outcomes, generate revenue off of
+1:34 OpenClaw as an opportunity. Um
+1:36 and yeah, we're seeing it on X, like
+1:38 people who are deploying OpenClaw for um
+1:42 kind of executives or um individuals who
+1:45 are super busy. Uh they're making
+1:47 thousands of dollars, you know, setting
+1:48 OpenClaw up, getting it up and running
+1:50 for these people, and managing it for
+1:52 them. So, I think there's a huge
+1:53 opportunity here. And yeah, just excited
+1:56 to jump in.
+1:57 Cool. And before we get going, I need
+1:59 you to make a commitment to me and to
+2:01 the person listening or watching, which
+2:03 is
+2:04 I need you not to hold back any sauce. I
+2:06 don't want to know just about the
+2:08 opportunity. I want to know how are
+2:09 people doing it tactically. And by the
+2:11 end of this episode, what I want is
+2:14 for people to take away like I want
+2:16 people to know how they can actually
+2:18 make a dollar from this. And is that a
+2:20 commitment, Nick, that you are willing
+2:22 to make to us? Absolutely. Absolutely. I
+2:26 I'm not going to hold back anything. I
+2:28 I'm I've in fact, I think OpenClaw is is
+2:32 a is a tool that allows us to be able to
+2:35 do the things that we have always been
+2:37 able to make money from, like automation
+2:39 with AI, but do it even better. And I'm
+2:41 going to show you how to get it all set
+2:42 up so you can do that and the wedge to
+2:44 get going. So. Let's do it. Yeah. So, I
+2:48 guess jumping right in, as far as like
+2:51 getting set up with OpenClaw, you can
+2:52 see here, you know, this is Orgo. This
+2:55 is our startup.
+2:56 You don't have to use Orgo to get
+2:58 started with OpenClaw. Just full
+2:59 disclaimer, this is what I'm using. And
+3:01 what I'm going to do is I have a project
+3:03 here.
+3:04 Uh you can see I have a couple a couple
+3:06 projects and I have Greg, I set you up a
+3:08 project. I hope I hope you enjoy your,
+3:11 you know,
+3:12 five computers.
+3:14 Um and so you can imagine, Greg, you
+3:17 let's say you're a a business owner and
+3:19 you have a busy life, you know. Um you
+3:22 got all you have the podcast going on,
+3:23 you have all these businesses you're
+3:24 running, the agency, the Idea Browser,
+3:27 all this stuff. And and you need you
+3:29 need help automating some stuff.
+3:31 So, what I'm going to do is I'm going to
+3:32 come in, I'm scrapping, Nick. I'm going
+3:34 to come in and I'm going to help
+3:36 automate some things in your in your
+3:38 business, in your life,
+3:40 um you know, as a busy executive. And
+3:42 I'm going to get you set up with
+3:43 OpenClaw. So, when you open up uh
+3:46 computer here, I you can see I have it
+3:47 open. This is the the ClaudeBot um
+3:50 computer I made for you. If I actually
+3:53 just type in OpenClaw TUI, this will
+3:56 open up OpenClaw in the terminal, and
+3:58 you can see I I actually already started
+4:00 like, "Hey,
+4:01 I'm Greg Eisenberg." And it's all ready
+4:04 to get set up. And so, actually what I
+4:07 could do is, um, I could invite you to
+4:09 this project, and then you'd be able to
+4:10 do this as well. Like in your terminal,
+4:12 you'd be able to spin this up, and now
+4:13 you're talking to OpenClaw. So, um,
+4:16 super easy get set up. Once again, you
+4:17 don't have to use Orgo. You can use
+4:19 whatever you want. You can use I know,
+4:21 uh, Manas just dropped their, uh,
+4:23 their own version of like one-click
+4:25 deployment OpenClaw.
+4:27 Um,
+4:27 also Kimmy launched their version as
+4:29 well. X is down right now, so we can't
+4:31 actually pull it up on Twitter or
+4:32 anything, but uh, Kimmy launched their
+4:34 version. And so, uh, there's all these
+4:37 options as far as getting started. You
+4:38 could use a Mac Mini, whatever. So,
+4:41 the key here, Greg, with OpenClaw and
+4:43 actually creating money from it, is to
+4:45 have the wedge to know what is the
+4:48 specific use case in a person's business
+4:50 that we're going to automate like first.
+4:52 Because
+4:53 for
+4:54 When when you see OpenClaw on Twitter,
+4:57 it's very much a personal assistant.
+4:59 It's exciting. It's fun. But, all the
+5:02 demos that go viral, including me, I get
+5:04 it. I I I'm I'm I'm I'm guilty of this,
+5:06 too. All the All the demos that go viral
+5:08 are a little bit, you know, kind of
+5:11 toyish. They're a little flashy. But,
+5:13 the the real power is in finding the
+5:16 thing that actually, you know, drives
+5:18 business outcomes, saves time for a
+5:21 business. Finding that and and building
+5:23 the automation around that. So,
+5:26 I have something running here. This is
+5:28 my OpenClaw
+5:29 doing looking up products
+5:31 for, uh, a business that I, uh, deployed
+5:35 for This is a a promotional
+5:37 distributorship.
+5:38 And what this is doing is it's looking
+5:41 up products and actually downloading all
+5:44 the product information,
+5:46 and then like parsing all that
+5:47 information. There's all these reports
+5:48 it needs to download and then uploading
+5:51 that into a Zoho CRM. Um so it can
+5:56 essentially, you know, create a central
+5:58 source of truth for this client. So this
+6:00 is a perfect example here of like
+6:03 actually creating a agent you that
+6:06 OpenClaw deploys to be able to automate
+6:09 something end to end.
+6:10 Um
+6:12 so just just to recap are we all good so
+6:15 far?
+6:16 Yeah, so a few things I I just want to
+6:19 talk about. So one thing is when you
+6:21 showed, you know, that Orgo screen, you
+6:23 did you had like five machines running.
+6:25 So
+6:26 what's interesting is, you know, I've
+6:28 got my Mac mini going, you know, I've
+6:31 got one instance. So using something
+6:33 like this is cool
+6:35 um because you can have multiple
+6:37 instances going, right? And you can see
+6:39 them all in one screen and one view. So
+6:41 that's really cool. That that was sort
+6:42 of an aha moment for me.
+6:45 Yeah.
+6:46 Absolutely. Yeah, it's like
+6:48 everyone, you know, as far as where you
+6:50 deploy your your main OpenClaw. You can
+6:52 see here I like I starred the main one.
+6:55 Uh and so that's like you can have that
+6:58 wherever, but what people don't realize
+6:59 is OpenClaw can spawn sub agents. And I
+7:03 think this is going to be huge for
+7:05 people who start like right right now
+7:07 we're at the phase of having one
+7:09 OpenClaw. It's going to happen quickly.
+7:11 You're already seeing on it on Twitter
+7:13 memes about like, oh, what if you have a
+7:15 you know, 10 Mac minis or all the Mac
+7:17 Studios are being bought out. So this is
+7:19 happening faster. You're going to want
+7:20 10 OpenClaws, you know, 100 OpenClaws.
+7:23 Right now you can have one OpenClaw and
+7:25 just have it spawn up to I think eight
+7:27 sub agents and each sub agent could have
+7:29 its own computer. And you can do this
+7:32 like this is why this is like kind of
+7:33 where Orgo shines is you can spin up
+7:35 multiple computers for, you know, each
+7:37 individual sub agent of your OpenClaw.
+7:39 And in this case here I had it looking
+7:41 on Upwork for actual things that we
+7:44 could automate with Open Claw. This is
+7:45 like a little hack here as far as like,
+7:47 well, I want to make money with Open
+7:49 Claw. Well,
+7:50 uh oh, I don't know any any business
+7:52 that I could reach out to that I could
+7:53 automate stuff for. A great place to
+7:55 start is Upwork because there's jobs on
+7:58 Upwork that are literally posted.
+7:59 They're They're asking you They're like,
+8:01 I want to pay 500, 1,000, 1,500, 3,000,
+8:04 20,000 dollars for this AI workflow and
+8:07 you can
+8:08 I spun sub-agents and viral on Twitter.
+8:10 I spun sub-agents to go find all these
+8:12 jobs and then build out little demos for
+8:15 each of them and and we picked the best
+8:17 one and okay, let's let's apply for that
+8:19 proposal with that. So,
+8:20 that's a little tidbit there on on
+8:22 Upwork and all of that.
+8:24 So, which is which is kind of hilarious
+8:26 cuz I mean, Upwork,
+8:28 you know, is designed for human beings
+8:30 to complete work, right? It's not
+8:31 designed for machines, let alone
+8:34 multiple machines, to complete work. Um
+8:38 but I mean, as long as the the quality
+8:39 of work is good,
+8:41 um you know, customer's going to be
+8:43 happy, right?
+8:44 Yeah, and I think like it's good to you
+8:47 know, it's good to treat it as the as a
+8:49 starting point. Like, you know, if you
+8:51 can save time preparing a proposal for a
+8:53 job on Upwork, it's like,
+8:55 um what is that worth, you know? And if
+8:57 you could do just a 100x volume, uh what
+9:00 is that worth? So, there's a couple
+9:01 things on that of like the
+9:03 parallelization
+9:05 of work with Open Claw. So, there's
+9:07 like, could you have 10 Open Claws
+9:09 working on a given task and it breaks up
+9:11 that tasks into 10 sub-tasks? And so,
+9:14 each Open Claw does one of those
+9:16 sub-tasks. That's one way of having
+9:18 parallelization, but another way is
+9:20 to have
+9:22 10 Open Claws working on the same task,
+9:25 uh just 10 different instances of it.
+9:26 And that was kind of like what I was
+9:28 doing here is, you know, four different
+9:29 instances of the one Open Claw that you
+9:32 know, or four different Open Claws doing
+9:34 the same thing of looking up different
+9:36 uh jobs on Upwork that they can apply
+9:38 to. So, that's kind of an interesting
+9:39 topic there. Um
+9:42 But, yeah. So, like as far as Open Claw
+9:44 goes, it's it's it's uh a huge
+9:46 opportunity. I just want to like throw
+9:48 this in here.
+9:49 Andreessen Horowitz talks about computer
+9:52 use agents. I view Open Claw as a
+9:53 computer use agent. You know, you're
+9:55 giving an agent a computer, and it's
+9:57 able to do it's able to use that
+9:59 computer. It's like it's a computer use
+10:01 agent, but that's half the story. The
+10:02 other half of the story is for it to be
+10:03 able to like
+10:05 click around,
+10:06 actually operate a graphical user
+10:08 interface on like legacy softwares and
+10:11 systems. And so, um you can imagine like
+10:16 you know, in here this this automation I
+10:17 built, this is navigating a legacy
+10:20 platform for this client that doesn't
+10:21 have any clean APIs, and it's able to
+10:23 click in, download reports, and
+10:26 actually, you know, be the universal API
+10:29 uh to be able to solve problems that you
+10:30 couldn't previously solve without
+10:31 computer use agents. So, I think there's
+10:33 a huge opportunity here. And Andreessen
+10:35 Horowitz, they talk about it, and they
+10:36 say,
+10:37 "We believe that the properly uh to
+10:39 properly verticalize computer use agents
+10:41 and assist companies in adopting it will
+10:44 be a major area of exploration for
+10:45 startups."
+10:47 And this [snorts] is like this to me
+10:48 this screams Open Claw. You know, can
+10:50 you create a vertical use case for Open
+10:51 Claw for a business and actually assist
+10:55 that company in adopting it? I think
+10:57 that's that's the huge opportunity here.
+10:59 Um
+11:01 So, going back to this like workspace we
+11:04 have set up for you. Um you know, with
+11:07 with with all the people setting up Open
+11:08 Claw, you could set it up as easy as
+11:11 you know, I invite Greg
+11:13 to this workspace.
+11:15 I create him a new computer. We can just
+11:16 do it now. Uh
+11:18 Open Claw 2.
+11:22 I select how much RAM. Let's do
+11:24 Let's do 8 gigs. Launch that.
+11:27 >> [snorts]
+11:28 >> Open that up.
+11:30 And then all we need now to get you set
+11:34 up is to get the
+11:36 um let me get the the curl command for
+11:39 Open Claw. I copied that from their
+11:40 website. And then, as this computer
+11:43 loads,
+11:44 we'll be able to then literally just
+11:46 paste it into the terminal.
+11:49 And once I see the interface pop up,
+11:52 boom, okay. So, now I'm going to hit
+11:53 enter.
+11:55 And now we're off to the races
+11:56 installing Open Claw. So, like
+11:58 it's as easy as that. And I think
+12:00 there's this is this in and of itself is
+12:02 like a workspace where you can invite
+12:05 people and get them set up with Open
+12:07 Claw or Clawd Code. I think this is like
+12:10 a huge a huge opportunity as well of
+12:12 like just there are executives right now
+12:14 that are like reaching out to me
+12:17 like law firms, insurance companies.
+12:19 They're like, "Can you Can I just like
+12:21 pay you to teach me how to use this
+12:22 stuff?" So, like that's its own whole
+12:25 thing as well as far as like if you're
+12:26 savvy enough to even know how to install
+12:28 Open Claw and get it set up in the first
+12:30 place.
+12:31 Um [snorts] I just see there's a huge
+12:32 opportunity around like just helping
+12:33 executives, businesses adopt it. Um
+12:38 So, yeah, you can see that it's as easy
+12:39 as this to get set up.
+12:41 And then, as far as like what specific
+12:45 things can we
+12:47 can we automate with Open Claw?
+12:50 There's a couple it it it it takes a
+12:51 little bit of a design thinking
+12:53 approach. So,
+12:55 when you go into a business, let's say
+12:56 you find a project on Upwork and you
+12:58 want to you want to automate that with
+12:59 Open Claw. Or let's say you go into a
+13:01 business and you're talking to the
+13:03 executive, the decision maker, and it's
+13:05 clear that they have things that need to
+13:06 be automated. Well,
+13:08 as far as like design thinking goes,
+13:10 like you need to have uh a clear way of
+13:13 like first mapping like all the
+13:15 different possibilities. You can see
+13:16 here this is something I did in the past
+13:18 of like there's all these different
+13:19 things that you can automate and you
+13:21 want to map them all two very simple
+13:24 metrics. What is the value that we can
+13:26 create by automating this thing? And
+13:28 what's the relative effort, cost, and
+13:30 time? And so we ultimately want to start
+13:32 with, okay, we want to automate things
+13:34 with OpenClaw that are high value and
+13:36 low effort, cost, and time. And that's
+13:38 like your your your low-hanging fruit.
+13:41 Um and so you start there. And so like
+13:44 for for this client, this was like
+13:47 that this was that. This was like, okay,
+13:48 we're looking at products on this
+13:49 website. We're downloading them. We're
+13:51 parsing all the information. Uh that's
+13:54 the low-hanging fruit. So, start with
+13:56 the design thinking approach of like,
+13:58 okay,
+14:00 simplest, fastest to deploy.
+14:02 And then you need to map out like
+14:05 the systems design around how like how
+14:08 is this thing going to be automated, all
+14:09 right? So for this for this client,
+14:12 she's like, okay, I send an email to a
+14:15 to a client of hers, right? She sends an
+14:17 email to a client and she has a a
+14:19 presentation link with all these
+14:20 products. Okay? And and all those
+14:22 products, she needs to look at all of
+14:24 them up and get all the information on
+14:26 them and then upload them into Zoho. So
+14:29 then your next step after identifying
+14:31 the opportunity is to literally like map
+14:34 this out. I use Figma. You can use
+14:35 whatever. But map out the the actual
+14:38 workflow process of like, okay, step
+14:40 one, step two, step three. What is this
+14:42 automation going to look like tip to
+14:43 tail so that we can do the whole thing.
+14:46 Um because with OpenClaw and Computer
+14:48 Eyes, now now is now you can do that.
+14:50 You can do you could do things from tip
+14:52 to tail. It's not like um you know, it
+14:54 used to be where you'd have to like
+14:56 go into a website and click a button and
+14:59 then it'd be able to do some 50% of the
+15:01 whole thing, but then you'd have to copy
+15:02 that and paste that somewhere else and
+15:03 do it on your own. Like we can do it tip
+15:05 to tail. Um
+15:08 So, quick recap.
+15:10 Install OpenClaw into a computer.
+15:13 Identify the next Identify the the
+15:16 low-hanging fruit opportunities, the
+15:18 highest value opportunities, and And
+15:20 begin to map out what that even looks
+15:22 like to begin with.
+15:23 Couldn't you you know sort of this is
+15:26 meta but couldn't you use open claw to
+15:28 actually do some of the
+15:31 prioritization on the automations and
+15:34 actually I mean you as a human being did
+15:36 the Figma but couldn't you actually just
+15:38 use the open claw or cloud code or
+15:40 something like that to
+15:42 to help you with that. So for example
+15:44 like if you go back to the the Figma.
+15:48 Mhm.
+15:50 Like
+15:51 you could walk into a business and
+15:53 basically say hey I want to figure out
+15:56 what we can automate here and
+15:59 you do customer interviews with
+16:01 different people on the team. You record
+16:03 those customer interviews. You get the
+16:05 transcripts. You upload the transcripts
+16:08 and then you say hey based on that then
+16:10 you're like you can actually say you
+16:12 know you give this as a reference image.
+16:14 Basically say like hey I want to figure
+16:16 out which which automation opportunities
+16:19 have the highest amount of value lowest
+16:21 amount of effort cost and time. Give me
+16:23 the top three and then create you know
+16:26 Figma and I think there's like a Figma
+16:28 MCP even
+16:31 uh
+16:32 that you can use and you can say like
+16:33 hey like can you map this thing out
+16:35 based on these customer transcripts.
+16:36 Does that make Does that make sense or
+16:38 am I Oh absolutely. Yeah.
+16:41 No that's that's that's the way to do
+16:42 it. Like I whenever I do any kind of
+16:45 call with a client or cut like potential
+16:47 customer
+16:48 oh my gosh Gemini for
+16:51 for Google Meet is amazing. You just
+16:53 have it take take all the notes and then
+16:55 actually that's that's how I even got
+16:57 cuz I don't know about I don't know
+16:58 about you Greg but sometimes when you're
+17:00 in these calls you kind of
+17:01 you know this this this industry you
+17:03 know you're in a new industry you're
+17:05 helping this customer you don't
+17:06 understand the domain expertise the the
+17:08 lingo and so you got to go back and and
+17:11 like okay like what what was it that
+17:13 they said and so have the granola or
+17:15 Gemini notes or whatever and then
+17:17 literally ask it to like, okay, what's
+17:19 the step-by-step workflow, and then map
+17:22 it out. It just helps me to map it out
+17:23 visually.
+17:25 Uh but you could literally ask it, yeah,
+17:26 like you said, um based on this
+17:28 transcript, what does the the automation
+17:31 workflow look like, you know,
+17:32 step-by-step.
+17:33 >> And if you don't want to use, you know,
+17:34 Figma, you can also even say
+17:36 uh you know, do output in Mermaid
+17:41 uh code, and then you can use that
+17:43 Mermaid code and insert that into an
+17:45 Excalidraw or Teal Draw or something
+17:48 like that. So, uh a little pro tip
+17:51 there. Nice. Nice. Yeah, yeah. And the
+17:53 yeah, and the Figma MCP is pretty cool,
+17:55 too, yeah. Definitely check that out.
+17:56 So,
+17:57 yeah, so then once you figure out what
+18:00 the workflow is, right? Um this is where
+18:03 like you have to actually
+18:05 um
+18:07 be able to know, okay, how much how much
+18:09 can I really ask like, how much can I
+18:12 just say like to open claw right now,
+18:14 hey, like build this like, hey, build
+18:16 this thing, and you just describe the
+18:19 workflow versus genuinely using
+18:22 something like Claude code to build out
+18:25 like what that workflow would look like
+18:26 with, you know, Python APIs, a genuine
+18:30 automation pipeline and process that
+18:32 your open claw can actually just trigger
+18:35 upon
+18:37 um whenever it's like contextually
+18:39 relevant. So,
+18:40 for instance, this this whole pipeline
+18:42 here of like going to these websites,
+18:44 looking at this product information,
+18:46 downloading the information, parsing it,
+18:47 uploading it to Zoho, the trigger of all
+18:50 of that is
+18:52 uh you know, the open claw being CC'd in
+18:54 an email, and it seeing that email it
+18:57 has a link that is relevant for this
+18:59 type of workflow to be triggered. So,
+19:01 that that is like the thing that's like
+19:03 the listening event that open claw can
+19:05 do with like a cron job that it sets up
+19:07 to just like,
+19:08 okay, listen for this trigger, and then
+19:10 once that trigger starts, it can then
+19:13 activate the whole Python script
+19:16 workflow automation, everything that you
+19:17 would need downstream of that. So,
+19:19 you're not relying too much on Open
+19:20 Claw's like um abilities in and of
+19:24 itself. You're more of so creating
+19:25 specialized AI workers under each
+19:29 underneath the Open Claw that it can
+19:30 call individually, if that makes sense.
+19:33 You know, you talked earlier about sub
+19:35 agents. I think a lot of people are
+19:37 confused about what is a sub agent
+19:40 versus a task and stuff like that. Can
+19:42 you just
+19:44 clearly explain that? Yeah. Um so, sub
+19:48 sub agents are
+19:50 um
+19:50 I I I there's a couple ways to view
+19:52 them, right? So, like in the context of
+19:55 cuz there the and the reason I say
+19:56 there's a couple ways to view them is
+19:57 cuz there's a couple ways of using them.
+19:59 So, in the context of like Open Claw,
+20:01 you can ask it to spin up five research
+20:04 sub agents that all go and research some
+20:06 given task. And and like and you know,
+20:09 like I said earlier, you could you could
+20:10 have it parallelize that task across,
+20:12 you know, splitting it up across each
+20:14 sub agent or having each sub agent
+20:17 actually go and do the same task, you
+20:18 know, across five different instances.
+20:20 But, the next thing around sub agents is
+20:23 that you can actually, like you said,
+20:26 um
+20:26 maybe think of them in terms of skills.
+20:29 So, if you're familiar with Anthropic
+20:30 skills,
+20:31 um
+20:32 you can have like these specialized
+20:34 instructions and rules along with actual
+20:37 code that you can provide to your agent
+20:39 for it to be able to go and do a given
+20:42 task. And this is really nice
+20:46 um because it you know, it it gives you
+20:47 a very more
+20:48 purp
+20:50 a very more powerful general purpose
+20:51 agent that can do many of your specific
+20:53 nuanced tasks
+20:55 um across various domains. But, the
+20:58 thing is it's like
+21:00 I want my general agent to be freed up
+21:02 and uh to more so just be the
+21:05 orchestrator.
+21:06 And what if the the general agent, this
+21:09 one, right? The the one I have starred
+21:11 here, can just call a sub agent like
+21:14 worker number four here to do a given
+21:16 skill
+21:18 that you have created. So, if your skill
+21:20 is that it goes on Twitter and finds the
+21:22 most viral ideas and it bookmarks them,
+21:25 um rather than having your main agent do
+21:27 that and now you can't talk to your main
+21:29 agent for the next 20 minutes cuz it's
+21:30 working on that, can it call that skill
+21:33 into a sub agent and have the sub agent
+21:35 do that? That, I think, is where
+21:38 things get really interesting and
+21:40 and in terms of the context of like
+21:41 deploying open claw for businesses,
+21:44 I would think of everything that you
+21:46 have in terms of an AI automation
+21:48 opportunity around workflows, skills,
+21:50 tasks, etc.,
+21:52 I would actually just create that as its
+21:54 own
+21:55 like specific sub agent with its own
+21:57 skill that that your open claw could
+21:59 then call. If that Does that make sense?
+22:03 It does. It does.
+22:04 Um
+22:05 it's
+22:06 it's bit you know, I think the the basic
+22:08 idea is like
+22:10 you know, in layman's terms, it's
+22:14 as soon as you have your
+22:17 um
+22:18 your open claw instance, you know, do
+22:20 something, they're busy, you know? It's
+22:22 like they got a they've got a mug of hot
+22:24 coffee
+22:25 and so you and your your job is you want
+22:28 to leverage
+22:30 this as much as possible. So, you don't
+22:31 want, you know, your agent to hold a
+22:35 a hot coffee. So, if if you ask it to do
+22:37 to move this desk into this area, you
+22:40 know, it it says, "No, I'm holding a
+22:42 cup of hot coffee. I can't do that." So,
+22:44 what sub agents do is it basically
+22:47 creates leverage
+22:49 for your open claw. And it basically
+22:51 says like, "Okay, I'm you're going to
+22:53 create a set of sub agents who are going
+22:54 to be good at XYZ thing
+22:57 and that way it frees up your your main
+23:01 agent to to, you know, as you say,
+23:05 orchestrate, to basically be the manager
+23:08 of the sub agents. Uh, and you know,
+23:11 what that could mean is, uh,
+23:13 like looking at, um, quality of work. It
+23:16 could mean,
+23:17 uh, checking for certain things and
+23:18 stuff like that.
+23:20 Exactly. Exactly. I think that's going
+23:22 to be huge, you know, when when you
+23:24 start working with these businesses and
+23:26 and and customers who want things to be
+23:29 automated,
+23:30 once you show them what's possible,
+23:32 their eyes light up, they get all these
+23:34 ideas themselves. These are high agency
+23:36 people, you know, they they come up with
+23:38 creative ideas that they want to start
+23:39 implementing. And and and then what you
+23:41 realize is there's just a a huge a huge
+23:44 list of things that can be automated and
+23:45 they're excited about that. And and so
+23:48 actually like the the ability to, okay,
+23:51 first solve a vertical specific workflow
+23:53 for for a customer, and then that
+23:56 opening up their mind and then they then
+23:57 being like, "Oh, I wonder if I could
+23:59 could I text this thing and it does
+24:01 this?" This is kind of where like the
+24:03 whole open claw moment,
+24:05 um, is really powerful. It's like
+24:07 it's it's the it's the it's the
+24:09 assistant-like capability. It's the, you
+24:11 know, I have it I have it here. It's
+24:13 like, what a lot of people might get
+24:15 confused about why is it that open claw
+24:17 so special? It's it's the ability that
+24:18 that has its own computer, it's running
+24:21 24/7, you can text it,
+24:24 and you can schedule tasks, and really
+24:27 if if we just removed open claw from
+24:29 this part here, and you just called this
+24:31 a really good employee,
+24:33 it it would just make sense. You'd be
+24:35 like, "Oh, works 24/7, can code, can
+24:37 schedule tasks, I can text it, and they
+24:40 have their own computer." Um,
+24:42 so I think that's like kind of why open
+24:45 claw is exciting for a lot of people.
+24:46 And if it's not, you know, if if some
+24:48 people think it's it's overhyped, you
+24:50 have to kind of look at the whole
+24:51 picture, I think, and and then you're
+24:53 able to really gauge it. So,
+24:55 I I'm certainly bought in on this on
+24:57 this idea that you know, it could
+24:59 potentially it could be be a really good
+25:01 employee. I think there's also cases
+25:04 where people aren't setting up their
+25:05 open claw in the right way where it ends
+25:07 up being a bad employee. Um, and I think
+25:10 you know, that's sort of like the
+25:15 the issue with that is, you know,
+25:16 sometimes you have a bad employee
+25:18 because the manager, the coach
+25:19 essentially is is not doing good job at
+25:22 giving the right context at the right
+25:23 time. So, I think you know, do you have
+25:26 any tips and tricks around um, besides
+25:29 spinning up sub-agents, like how how
+25:31 could people listening to this, if they
+25:33 want to go after this opportunity of um,
+25:37 essentially verticalize, you know, open
+25:39 claws, uh, and automating some of these
+25:43 flows, how could people actually, you
+25:47 know, take their open claw from a bad
+25:49 employee to a good employee?
+25:51 Yeah, I think it comes down to let's
+25:54 maybe we should walk through. So, I know
+25:57 you have I was actually looking at this.
+25:59 So, idea browser. So, for everyone, if
+26:01 you don't know, Greg has this amazing
+26:03 product, idea browser. And I love this
+26:06 trend to this idea today, TikTok trend
+26:09 tool that catches viral waves before
+26:11 they peak. So,
+26:14 I was actually looking at this this
+26:15 morning. I was like, wow, this is
+26:16 actually something that you can maybe
+26:18 turn into a skill for an open claw to
+26:21 create a specialized skill around this.
+26:23 So, let's just do a live. Let's see. I I
+26:26 genuinely don't know how far can we get?
+26:29 Can we build this out now? Let's see if
+26:31 I copy all of that. And now I'm here in
+26:34 the open claw that that we set up for
+26:36 you. And you can see it just got set up.
+26:38 It's it I just told it, "Hey, I'm Greg
+26:39 Eisenberg." So, we're getting started.
+26:41 That's it. And let's just say I want to
+26:44 build
+26:45 a um
+26:47 a a specialized skill
+26:50 to be able to do the following.
+26:52 And I'm just going to paste
+26:55 that entire
+26:56 um idea browser idea. And I'm going to
+26:59 ask it as far as like creating these
+27:02 automations, creating workflows, or
+27:03 doing anything with OpenClaw,
+27:05 my number one tip is always ask it to
+27:07 ask you questions. So, what do you need
+27:10 from me
+27:12 um to be able to build this out?
+27:15 Um let's create a plan. And so,
+27:18 a lot of people need to remember
+27:20 OpenClaw is like a
+27:22 uh almost a little bit of a wrapper
+27:24 around like Claude code in a way. Um so,
+27:28 let's see. Okay, cool.
+27:30 This is a big vision, Greg. I like it.
+27:32 Let's break down um
+27:34 a realistic build as an OpenClaw skill.
+27:38 So, now it's saying, "Okay, I need data
+27:40 access.
+27:41 I need the scope. I need the niche focus
+27:45 um
+27:46 that'll shape what we build a lean
+27:48 skill." So, the first thing that we can
+27:51 maybe do is
+27:53 here in like Orgo, we have this
+27:55 playground mode.
+27:56 And you can ask the playground agent
+27:59 here to do things in this computer in
+28:01 this this computer environment. Um so,
+28:04 one thing I might test first is like can
+28:06 we get can we get this agent to even
+28:08 just spin up TikTok
+28:10 and just scroll TikTok and identify what
+28:15 is on the For You page of TikTok. So,
+28:16 let's like maybe start there. Does that
+28:18 sound good? Yeah, absolutely. Let's do
+28:20 that. Open Firefox.
+28:23 Go to TikTok.
+28:26 Scroll I'm going to say scroll TikTok
+28:29 looking for [snorts]
+28:31 what the most common videos are
+28:34 on the For You page.
+28:37 Give me a summary.
+28:39 So, let's see how it's able to do this.
+28:43 So, this is using our our playground
+28:45 mode.
+28:47 And
+28:49 boom, opens up Firefox.
+28:54 It's going to go to TikTok.
+28:56 And for those listening, I'm just going
+28:58 to talk through a little bit about what
+29:01 this agent in our our playground is
+29:03 doing. It's It's visually interacting
+29:04 with the screen. It's, you know,
+29:05 clicking into Firefox. It's opening up
+29:07 the browser. Now it's typing in
+29:09 tiktok.com.
+29:11 It's going there.
+29:15 And
+29:17 let's see.
+29:20 This is always such a magical
+29:21 experience, just watching a computer
+29:24 navigate the web like a human being.
+29:28 It's amazing.
+29:29 You know, this is There it goes.
+29:32 Uh it's on It's on the It's on the
+29:34 homepage.
+29:36 And now it's going to It's going to
+29:38 actually scroll TikTok. It's going to
+29:40 probably take a screenshot of this, get
+29:42 the context of based off that screenshot
+29:44 of what the video's about. You can even
+29:46 see it It has hashtags movie, hashtag
+29:48 for you page. So it's going to be able
+29:49 to infer a lot of things. Boom, it
+29:51 scrolls. It scrolls.
+29:53 It gets a pop-up. It's going to close
+29:55 out the pop-up.
+29:56 Um
+29:58 but on your point, Greg,
+30:00 Dario Amodei, the CEO of Anthropic, he
+30:02 just had a podcast with Dwarkesh.
+30:06 And it came out a couple days ago. And
+30:09 you know what's really interesting what
+30:10 he said in that in that in that podcast.
+30:13 He said
+30:14 >> He said this idea of his around this
+30:16 data center full of brilliant
+30:20 you know, scientists and
+30:22 Nobel Prize winners, essentially his
+30:24 concept of what AGI will be like.
+30:27 He says the constraint to getting there
+30:29 is computer use agents. The ability to
+30:31 have an AI that can operate a computer
+30:34 like you and I can, but better, you
+30:36 know, interact with the visual
+30:37 interface,
+30:38 also be able to do things under the
+30:40 hood, kind of like Claude code.
+30:42 Um this is the constraint, he said.
+30:45 And
+30:47 I mean, it makes perfect sense. If if it
+30:49 can do anything that you and I can do on
+30:50 a computer, that seems like it can go
+30:52 pretty far.
+30:53 Um Open Claude is like
+30:56 a Chat GPT moment, I think, for for this
+30:58 kind of idea of computer use.
+31:00 And and and as far as like building
+31:04 these computer use agents out, you can
+31:05 see this is this is clearly working, so
+31:07 we know this is possible. Um you can
+31:10 build A lot of people might get confused
+31:12 with Orgo when they come to our site.
+31:14 They see computers for agents. They're
+31:16 like, "What does that mean?" Well, I
+31:17 think they get it now. It's like, "Okay,
+31:19 you want your Claude bot to have its own
+31:20 computer." But also, we provide, and
+31:23 I'll show this, we provide the dot in
+31:26 our docs, like where actually provide
+31:28 the programmatic APIs so that you can
+31:31 create custom computer use agents that
+31:34 um do a given task very well. So, you
+31:36 can bring any model. You can get Kimmy
+31:38 2.5 is like the super cheap um you know,
+31:41 Chinese model. It's very good at
+31:43 computer use.
+31:44 And you can give it the ability to
+31:45 click, drag, scroll, type in the
+31:47 keyboard, spin up a computer.
+31:50 Um and you can create specialized,
+31:52 really fast performance, low-cost
+31:54 computer use agents um using our docs.
+31:57 And I just say that to say like as far
+31:59 as, you know, this this thing that we're
+32:01 doing here, creating a skill around
+32:03 scrolling TikTok, um I think that's how
+32:06 we can we can actually give it a shot as
+32:09 let's just We see this is working now.
+32:11 Let me just grab the Orgo docs and let's
+32:14 start building this skill out. If you
+32:16 didn't see here, I'm at the Orgo docs. I
+32:18 click this thing called
+32:20 LLMS full.txt. This is like all the
+32:23 instructions for the LLM to be able to
+32:25 build on top of Orgo.
+32:28 And what I'm going to do is
+32:30 I'm going to wait for
+32:32 I I probably I'm going to wait for this
+32:33 to finish this its task, and then I'll
+32:35 be able to tell it um
+32:39 But [snorts] while this goes Greg, you
+32:40 have any thoughts? Um well it just you
+32:43 know sort of a thing I was thinking
+32:44 about is it sounds like when whenever
+32:46 you're trying to
+32:49 you know
+32:50 do a new automation, you start by
+32:53 thinking about what is a lightweight
+32:54 skill that I should create. Is that
+32:56 correct?
+32:57 Right. Exactly. What's the MVP?
+33:00 Yeah.
+33:01 So you start with like a lightweight
+33:02 skill.
+33:04 Um you test it and then from there
+33:08 you're probably like hey here's what
+33:09 went wrong, here's what could be better,
+33:11 that sort of thing.
+33:13 Right. Exactly. Just fine-tuning, you
+33:16 know, debug like
+33:18 I think the design thinking process
+33:21 around all of this is super important of
+33:23 like
+33:23 okay
+33:25 if I want to build a car
+33:27 maybe the first thing I do isn't to
+33:29 build the frame of the car or you know,
+33:33 to build um you know, the whole body of
+33:36 the car. That's not the first thing. The
+33:38 first thing I should do if I want to
+33:39 build a car, well why do I want to build
+33:40 a car? Well I want to build a car to go
+33:42 to from point A to point B. Oh okay. So
+33:44 really maybe I should start by building
+33:46 a skateboard.
+33:48 How can we accomplish the task
+33:51 to get the get the dream out the dream
+33:54 outcome
+33:55 and um
+33:57 and sometimes that means like starting
+33:59 with something that's completely
+34:00 different than the end state.
+34:03 Um so this is done here.
+34:05 I think it interrupted itself. Probably
+34:08 a context thing. But now we can actually
+34:10 what we can do
+34:12 this is all live so we're you're you're
+34:14 seeing this in real time. You can
+34:16 [snorts] literally there's a couple ways
+34:17 to go about this.
+34:19 You can actually install Claude code
+34:21 into this computer and have it build out
+34:24 uh the automation in here or we can just
+34:26 ask this agent to do it for us. So let's
+34:29 see
+34:30 um I want to build a computer use agent
+34:35 that does this exact thing.
+34:38 Uh, but more programmatically
+34:41 using the Orgo API docs.
+34:45 And I paste that here.
+34:47 What do we need to get started?
+34:50 And we send that off. All right, here we
+34:51 go.
+34:52 So, we need an Orgo API key. Here's the
+34:54 architecture of what we'll build.
+34:57 Okay, this looks good.
+35:00 Um, Orgo key, [clears throat]
+35:01 Anthropic key, it has all the code here.
+35:06 Cool.
+35:07 Um, you're looking at a TikTok video.
+35:09 Extract the username, video description,
+35:11 the category, the appropriate like
+35:14 count.
+35:15 Boom, boom, boom.
+35:17 Okay, cool. So, [snorts] I have all
+35:19 these things already and
+35:22 don't worry, I'm going to delete these
+35:23 keys, so I'm not worried about leaking
+35:24 or anything. I'm going to copy my Orgo
+35:26 API key. I'm going to paste it in there.
+35:29 And I'm going to say
+35:32 Orgo API key.
+35:34 I also have my Anthropic key. Let me
+35:36 grab that.
+35:37 I'm going to paste that here.
+35:39 Can we build this out?
+35:42 And so now, we're going to have our our
+35:44 playground mode build out this computer
+35:47 use agent to be able to go do this thing
+35:48 that we just tested out. We know it
+35:50 works. We know we can do it. Let's turn
+35:52 it into something that could be more
+35:53 programmatic, kind of like a skill, and
+35:55 let's give it to Claude bot, so it
+35:56 always has access to it.
+35:58 The dream.
+36:00 The dream.
+36:03 It's literally
+36:04 any idea you have, you can just build
+36:06 it.
+36:09 And that's sort of the arbitrage
+36:11 opportunity, right? Especially
+36:14 like in our world, of course, like we're
+36:16 so used to this now, even though it's
+36:18 only been like 2 months.
+36:21 Uh, but, you know, the opportunity is
+36:25 the vast majority of people on this
+36:27 planet and businesses
+36:29 would love to have better automation and
+36:32 would love to
+36:34 you know, have computer use agents
+36:36 working for them, aka really good
+36:39 employees working for them.
+36:41 Um but they don't know how. And so I
+36:44 think that which is which is cool that
+36:45 you're like you're showing us like some
+36:47 of the best practices on on how to do
+36:49 it. Exactly and
+36:51 and I think this is also like I can I
+36:53 can imagine, you know,
+36:55 the the whole audience of this podcast,
+36:57 we're all pretty tech savvy. We know how
+36:59 to do things like vibe code and and and
+37:02 you know, play around with Claude code
+37:03 and be able to do these things and we
+37:04 take it for granted in terms of what
+37:07 that
+37:08 value is worth.
+37:09 Um
+37:11 as far as like open claw and the
+37:13 opportunity around that, I mean, open
+37:15 claw started going viral on Twitter
+37:17 around two to three weeks ago. Only now
+37:20 is it starting and I'm starting to see
+37:21 it's starting to go viral on Tik Tok a
+37:23 little more mainstream. So,
+37:26 um
+37:28 yeah, I I just mean, you know,
+37:31 people are catching on and a lot of
+37:34 people still need help with getting, you
+37:35 know, up and running on this type of
+37:36 stuff and what you might think is oh I
+37:39 mean I have a basic understanding of
+37:40 open claw and and Claude bot and Claude
+37:43 code. Uh and you might under under write
+37:45 that. A lot of people find that valuable
+37:47 so um being able to help businesses
+37:50 adopt it or just people in general, I
+37:51 think it's super good opportunity. Yeah,
+37:54 I think my only advice for people would
+37:56 be to
+37:59 fo- focus like don't be everything to
+38:02 everyone. Like
+38:04 don't don't help any every business,
+38:06 help real estate agents for example or
+38:10 like pick a vertical that maybe you have
+38:12 some unfair advantage for some
+38:14 particular reason and that unfair
+38:15 advantage doesn't necessarily mean you
+38:17 have 20 years of experience. It might
+38:19 mean just that, you know, you want to
+38:21 build something for uh real estate
+38:23 agents cuz your mom was a real
+38:25 uh real estate agent. So, you you you
+38:27 know you know the customer, right? Um
+38:31 so, I think that's that's the way to do
+38:34 that to do this.
+38:36 Absolutely. Yeah, it's it's um whatever
+38:38 you know, that's your advantage. And I
+38:41 mean, I guess as far as like some maybe
+38:44 I this doesn't apply to everyone.
+38:46 Obviously, if you're in this industry,
+38:47 then go for it. But like, you know,
+38:49 probably things to avoid, things that
+38:51 have have a lot of like red tape, like
+38:53 health care, finance, you know, I
+38:56 recommend maybe starting something
+38:59 Yeah, like you said, um
+39:00 you know, you could do even
+39:01 manufacturing or or uh there's a lot of
+39:04 distributorships out there who's you
+39:06 know, they distribute
+39:07 uh merchandise. Um just like the the
+39:10 demo I was showing earlier of that
+39:11 computer use agent working. Um so, yeah.
+39:15 I I think as far as, you know, doing
+39:18 doing what you know,
+39:19 and and starting there, and then the
+39:21 market will tell you. You know, the
+39:22 market will pull you into specific
+39:24 verticals. You'll start seeing ways that
+39:26 as you build these specific This is a
+39:28 great point. As you build it out these
+39:30 specific workflows around these
+39:32 verticals of like
+39:34 uh let's say you do, you know, let's say
+39:35 you do the manufacturing thing. And you
+39:36 do manufacturing for doors.
+39:39 Um over time, you're going to have a
+39:41 workflow for almost like every kind of
+39:43 thing you could imagine
+39:44 in that industry.
+39:46 And if you have the agents all built
+39:48 out, can you imagine you have a
+39:50 workspace and you invite
+39:53 uh you know, some some new company into
+39:55 this workspace that uh for for
+39:57 automations, for manufacturing, for
+39:59 doors, like luxury doors. And you invite
+40:01 them and they have all these AI
+40:03 employees in the workspace in Orgo set
+40:06 up, ready to go. You just see them all
+40:07 here, and they're all ready to go. It's
+40:09 like
+40:10 you feel like you just hired not a
+40:12 person, but a team. Um
+40:15 I think that's that's that's a very near
+40:18 In fact, I don't think there's anything
+40:19 stopping us from having that right now.
+40:21 It's all about just, you know, who's
+40:23 going to go out there and and put in the
+40:25 work to actually do that. Uh and if you
+40:26 do, I think it's I mean, it's it's
+40:29 pretty clear.
+40:30 Yeah, I mean, and that's that's why I
+40:32 truly believe that, you know, agents are
+40:35 the new SaaS. Like, you know what I
+40:37 mean? So, yes, I agree with the like the
+40:40 vision you painted. I think that, you
+40:42 know, in the past, you know, we created
+40:45 software that we would sell to these
+40:48 businesses, and then they would have
+40:50 people actually,
+40:52 you know, press the buttons, touch the
+40:54 knobs to to make it useful. Now, you
+40:57 don't you're not going to create
+40:58 software and then invite them to the
+41:00 software.
+41:01 You're going to create agents, and
+41:03 you're going to invite them to the
+41:05 agents, and then the agents are going to
+41:07 do work that creates value for these
+41:10 companies. So, that's the mindset shift,
+41:12 and
+41:14 you know, it's it's only recently
+41:16 actually that people have been, you
+41:19 know, I think over the last like 2
+41:21 weeks, I would say, 2 3 weeks that
+41:23 people have been like
+41:25 on X talking about this. Um
+41:29 how agents are the new SaaS.
+41:32 But, I I do think that, um
+41:34 like over the you're going to see over
+41:36 the next 2 to 3 months like some really
+41:38 big winners. Um
+41:40 and you're going to start to see it
+41:41 work. So, I'm excited for people
+41:42 listening because I think that
+41:44 um this is the a type of audience that
+41:47 will act on some of this stuff.
+41:50 And it'll be interesting to see what
+41:52 what happens. Yeah.
+41:55 Yeah, I I I think it was it was it Sam
+41:57 Altman that just said, you know, every
+41:59 company is turning into an API company.
+42:02 Yeah.
+42:03 And that's interesting cuz interfaces
+42:05 are,
+42:06 in a sense, dying in that way of like,
+42:08 you know, you won't interact like the
+42:10 ultimate interface, for whatever reason,
+42:11 seems to be chat and text message.
+42:16 And it's happened twice now of like
+42:19 Okay, the chat GPT moment was a chat box
+42:21 and now it's the open claw moment which
+42:23 is like a text message or telegram. So
+42:25 it's like okay, chat has happened twice.
+42:28 Um
+42:29 and that just means okay, so we just
+42:31 want to wait for our agents to be able
+42:33 to use all the tools that we use and we
+42:34 don't really
+42:35 care about how it does it. It just needs
+42:37 to be able to do it and and it runs in
+42:38 the in the background. Um
+42:40 and does it under the hood.
+42:42 Um
+42:44 So here, okay, I started uh I built you
+42:47 can see that this agent in the
+42:49 playground built out the TikTok
+42:51 agents.py
+42:52 inside the computer. So now I asked open
+42:55 claw, "Hey,
+42:57 um I built a TikTok agent.py in your
+42:59 desktop. Can you take a look?"
+43:01 And it's re It says, "Okay, I've read
+43:03 it. Here's what I see.
+43:05 Uh there's a skeleton for, you know,
+43:07 using Orgo um plus uh Anthropic's API.
+43:13 Go ahead, Greg. No, you keep going.
+43:16 And and it was and it was um you know,
+43:18 all all the actual TikTok logic
+43:21 trend detection, all this stuff. Um it's
+43:24 like okay, maybe we should build that
+43:25 out.
+43:26 And it's like oh you you got the API
+43:28 keys hardcoded etc. etc. So let's just
+43:30 say
+43:31 let's use this script, build on top of
+43:35 it
+43:36 or whatever you need to do.
+43:40 And let's spin up a
+43:42 Orgo VM inside of the Greg Eisenberg
+43:46 workspace
+43:48 to accomplish this
+43:50 um automation with TikTok.
+43:54 Let's demo it just working.
+43:58 We can spawn
+44:01 a
+44:02 uh sub agent and VM
+44:05 in this workspace. And let me just give
+44:07 it a API key just in case it needs that.
+44:12 What really blows my mind about this
+44:14 whole thing is that
+44:18 you know, I was going to say we were
+44:19 we're building a business in a very
+44:21 short amount of time, but it's really
+44:22 like we're building an asset. Like
+44:25 the amount of assets that people are
+44:27 going to be be building
+44:29 um
+44:30 using tools like this is is going to be
+44:33 crazy.
+44:35 Right?
+44:35 >> Yeah.
+44:37 It's insane. Honestly, it comes down to
+44:39 like
+44:40 I honestly like it comes down to taste
+44:42 now, good ideas.
+44:45 Um
+44:46 >> [laughter]
+44:46 >> cuz like if you have a good idea, you
+44:48 could just just build it. And then yeah,
+44:50 there's there's going to be like, "Oh my
+44:52 goodness, what's going to happen with
+44:54 all of these assets, like you said, that
+44:56 people are just going to build and build
+44:57 and build?" There's going to be so many
+44:58 assets. I think is this what is this
+45:00 what we mean when we talk about the
+45:03 um
+45:04 the abundance that AI will bring, you
+45:06 know, of solving all these problems.
+45:09 Yeah. Well, I think what ends up
+45:11 happening is
+45:13 uh you know, unfortunately, there are
+45:15 going to be more and more layoffs as AI
+45:19 helps with productivity.
+45:21 At the same time, I think there's going
+45:22 to be a
+45:25 renaissance, the golden age of
+45:26 entrepreneurship, and people creating
+45:30 assets, products like this, one-person
+45:32 businesses, and
+45:35 uh
+45:36 that's how I see it playing out.
+45:38 Yeah.
+45:39 Even even
+45:41 it maybe may we don't know officially,
+45:43 but maybe it's already happened with
+45:45 Peter Steinberger, the creator of Open
+45:46 Claw. You know, he he just um officially
+45:50 announced he's joining OpenAI.
+45:53 Like I think it was just him who built
+45:55 Open Claw. How much did he get, you
+45:56 know, acquired for? I think it was a
+45:58 lot.
+45:59 Um
+46:01 so that's that's I mean, that's that's
+46:03 cool. I think
+46:04 it this is the best time to be a
+46:06 builder/tinkerer
+46:08 to get creative.
+46:10 Um
+46:10 I I'm excited to see what people build
+46:12 with open claw and computer use agents
+46:14 in general of like
+46:16 it's just there's so many things, you
+46:17 know, whether it's a a super fast chess
+46:21 computer use agent or if it's something
+46:23 that's genuinely driving an outcome in
+46:24 your business. Like I just think there's
+46:26 so many things that can be built. Um
+46:29 playing around with these tools, getting
+46:31 familiar,
+46:32 learning how to how to leverage them.
+46:34 Yes, AI is going to be replacing a lot
+46:37 of jobs.
+46:38 But also, it's going to enable a lot of
+46:40 people to do things, you know, that
+46:41 they've never been able to build before
+46:43 and now they can do it. So,
+46:45 um
+46:47 yeah, I'm I'm just Oh, here it is. Okay,
+46:49 so you can see hm it spun up this
+46:51 computer, TikTok Trend Hunter.
+46:54 And my screen's just refreshing.
+46:56 Uh let me just click into it.
+47:00 And
+47:01 and I could just tab back and forth a
+47:03 little bit to see okay, VM is up, it's
+47:05 opening Firefox.
+47:07 Let me wait for the agent loop to start.
+47:08 Here we go.
+47:09 So, it's spun up its own computer. This
+47:11 is insane, Greg. It spun up its own
+47:13 computer.
+47:15 Open claw did. And now it's it's using
+47:17 its own Python script that it just made
+47:19 just now. We took it from my Idea
+47:20 browser.
+47:22 And now it's going to go do this thing.
+47:24 >> [laughter]
+47:25 >> Um
+47:27 that we just built out. I don't know how
+47:28 long this took. Last like 10 minutes.
+47:30 Kind of just, you know, in between we're
+47:31 talking, having our coffee.
+47:33 It's like [laughter]
+47:35 this is insane. I don't know. You kind
+47:36 of it makes me it gets me giddy.
+47:39 It's like
+47:40 >> [laughter and gasps]
+47:41 >> Uh and it's going to figure this out.
+47:43 It's like, you know, it's going to debug
+47:44 like okay,
+47:46 what's going on? Why why am I on the
+47:47 ads.tiktok.com? Let me reroute myself.
+47:50 I'm sure it's going to figure all this
+47:52 out. Um but it's just cooking, you know.
+47:55 Crazy, dude.
+47:57 Crazy.
+47:58 Anything else you want to cover before
+48:01 we head out?
+48:04 Yeah, I think um
+48:06 as far as other things to cover, I mean
+48:11 I I just want people to start thinking
+48:13 about these tools,
+48:15 you know, yes, they're they're once
+48:16 again, they're great personal
+48:18 assistants,
+48:19 but if you start thinking of Open Claw
+48:21 as an N8N, or [clears throat] you start
+48:23 thinking of it as a um
+48:25 you know, like a Lindy AI of like, you
+48:28 know, people there are real businesses
+48:30 right now. Like we can go to Upwork
+48:32 right now
+48:34 and find jobs that are being posted
+48:36 around, you know, things like this this
+48:38 is what you do. You just go to Upwork.
+48:40 Upwork's great cuz you get to see what
+48:42 the market's asking for. And you just
+48:43 type in
+48:44 uh robotic process automation, you know,
+48:47 this old outdated way of of
+48:50 programmatically automating tasks that
+48:53 it's like
+48:55 clunky and it it breaks and it's not
+48:58 intelligent. If the button isn't in the
+49:00 exact UI space that you
+49:02 delegated it to, it won't work. And you
+49:05 go here like posted yesterday, Android
+49:07 RPA automation, posted yesterday,
+49:09 automation pipeline for client upload.
+49:12 You go here, you could just do let's
+49:14 let's find $500, $1,000, $5,000. Let's
+49:17 look at all these projects. Okay, this
+49:20 one,
+49:21 boom, right here.
+49:22 Um
+49:23 $1,000 budget. I'm looking for
+49:26 experienced automation engineer to build
+49:28 desktop automation computer use
+49:31 uh for my software business. We sell a
+49:32 specialized dynamic PDF. You take all
+49:35 this context,
+49:37 give it to Open Claw, give it to Claude
+49:38 Code. How much of it can you build out
+49:40 as a demo based off of this context
+49:42 alone?
+49:43 Send a proposal. You have your first
+49:45 customer right here, $1,000.
+49:47 Um
+49:48 get get get some case studies, leverage
+49:51 that.
+49:52 Maybe go deeper into this industry that
+49:54 this person's in, start building out
+49:56 specialized workflows using Claude bot
+49:58 Open Claude for all the different
+49:59 vertical use cases in that, create a
+50:01 workspace of it. Um I think that's where
+50:04 we're at right now and I'm excited by
+50:05 this. So,
+50:07 um
+50:08 yeah, I I guess we'll just see where it
+50:09 goes and
+50:10 yeah, okay, this needs a little
+50:12 debugging, as to be expected. We spent
+50:14 10 minutes on it, but I think you get
+50:16 the gist. Um and yeah, I'm excited to
+50:20 see what everyone builds.
+50:22 From your lips to God's ears, baby. I
+50:24 I am I'm I'm I I think your approach
+50:28 makes complete sense. Um it's the exact
+50:31 approach I would use, totally recommend
+50:33 it. People get your hands dirty, get
+50:35 tinkering. I'm excited for what you
+50:38 build.
+50:39 Um Nick doesn't do a lot of podcasts. Um
+50:43 I think I was only able to find him do
+50:44 one live stream before. So, show him
+50:47 some love in the comment section. Uh
+50:50 like the video,
+50:52 um show him some love and um
+50:55 Nick, I hope you come back on.
+50:57 Uh share more use cases. I'm going to be
+51:00 sharing more use cases that I'm using
+51:02 that my you know, I haven't done uh too
+51:05 many publicly, but I'm going to be
+51:06 sharing more of my use cases
+51:08 both on virtual machines and on my own
+51:10 Mac Mini
+51:12 uh for my Open Claude stuff. So, get
+51:14 ready for that, folks. And uh
+51:17 Nick, wait, is there anything Is there
+51:19 Is there anything else before before we
+51:21 go that you want to that you want to
+51:23 share?
+51:24 I just want to share with you, Greg. You
+51:26 don't know this, but I've been a
+51:28 long-time follower. This is
+51:31 my YouTube Rewind 2025 top 0.5%.
+51:36 So, if you're watching this and you love
+51:38 Greg's podcast, you love his videos, you
+51:42 get building on top of it, you put cool
+51:44 stuff out there, you know, you join your
+51:47 you join your top YouTube channel on
+51:48 your on your we your rewind of the year.
+51:51 I love it. I love it. Nick, you're a
+51:53 legend. You got to come back on. You're
+51:55 one of us. You're one of us. So,
+51:59 I appreciate I appreciate that. Thank
+52:01 you, Greg. Thank you for having me.

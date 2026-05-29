@@ -1,0 +1,227 @@
+Everything you need to know about Mobile App UI’s in 8 minutes (beginner friendly)
+
+0:00 When it comes to UI, mobile is just so
+0:02 different from desktop that it results
+0:03 in some pretty questionable designs. So,
+0:06 in this video, I'm going to show you how
+0:07 to design your very first mobile UI
+0:09 completely from scratch in a way that's
+0:11 dynamic, purposeful, and effortless to
+0:13 use. And by the end, you won't just have
+0:15 a stunning mobile design. You'll
+0:17 understand why the best apps are
+0:18 designed the way they are. The first
+0:20 difference of desktop to mobile is
+0:23 obviously the navigation. Where we had
+0:24 an expansive sidebar, we now definitely
+0:27 do not. So, we have two options. If we
+0:29 can consolidate our sidebar links down
+0:31 to just a few key icons, we can go with
+0:33 a nice bottom bar, which nowadays is
+0:35 typically floating with the important
+0:37 action broken out just like this. Five
+0:39 links down here is pretty much the
+0:41 definite limit, and three or four is
+0:43 much more ideal. But, either way, this
+0:45 means that we'll always maintain over a
+0:47 44-pixel target since people do have fat
+0:49 fingers. It's important to note too that
+0:51 depending on the context you're in,
+0:53 these actions can and do change, which
+0:55 we'll touch on when we start building
+0:56 out a few pages. That typically is the
+0:59 standard. However, sometimes you just
+1:01 have too many important things in the
+1:02 sidebar to really fit things in here, in
+1:04 which case another valid form of
+1:06 navigation is to take the sidebar and
+1:08 turn that into a whole page that sort of
+1:10 becomes the home page. In this case,
+1:12 we'll add in some recent notes to the
+1:14 top and actions and counts to the right
+1:16 side, so it doesn't feel so lopsided. It
+1:19 also conveniently clears up the bottom
+1:21 for a nice big search bar or action
+1:22 button, which is what apps like Notion
+1:24 do. Moving up to the top, a bell and
+1:26 more menu is a good place to start, but
+1:28 these actions are also highly contextual
+1:30 based on the page. Now, when it comes
+1:32 time to actually start building,
+1:33 squishing things down and trying to fit
+1:35 as much on the screen as possible is
+1:37 pretty natural. This all looks fairly
+1:39 normal, actually, until I zoom out and
+1:41 show you the other normal-sized apps for
+1:43 comparison. Despite our screen getting
+1:46 much, much smaller, the type scale and
+1:48 spacing remains relatively similar to
+1:50 desktop, even getting a bit larger. iOS
+1:52 actually has a base font size of 17
+1:55 pixels, while macOS has a base of only
+1:57 13 pixels. So, more often than not,
+1:59 things actually get larger on these
+2:01 smaller screens. And it's a tough
+2:03 realization that on desktop, where you
+2:04 could have had an action bar, a gallery
+2:06 of recent notes, a full calendar, tasks,
+2:09 and a scratch pad, now you can pick one
+2:11 of those things. And because we have to
+2:13 pick just one, the way we start to lay
+2:15 out content starts to change a little.
+2:17 Dashboards and desktop designs can lay
+2:19 out content in two directions at the
+2:21 same time. What that means is this
+2:23 layout has two columns and three rows,
+2:25 obviously extending in both directions.
+2:28 However, on mobile, you can choose one
+2:30 direction to move in per section. Either
+2:32 you can stack each note vertically, or
+2:34 you can make it horizontal off the page,
+2:36 but of course, you can't have both like
+2:37 you reasonably could on desktop. This is
+2:40 a useful guideline when taking content
+2:41 from dashboards and making it
+2:43 mobile-optimized. And if you understand
+2:46 that concept, things really start to
+2:47 become a piece of cake. In addition,
+2:49 ignoring our floating menus and actions,
+2:51 there's really only four types of
+2:53 building blocks for an app. The biggest
+2:55 and most important are cards. Basically,
+2:57 everything on here is a card in some way
+2:59 or another because it allows us to
+3:00 flexibly group content in place of white
+3:03 space, which we don't typically have a
+3:04 lot of here. The others are text or
+3:06 links, of course, images, and inputs.
+3:09 And of course, any of those can be put
+3:11 into cards as well. One important note
+3:13 about cards is to try and avoid
+3:15 double-nesting them, kind of like this.
+3:17 It's not always avoidable, but it
+3:19 creates padding on padding, which really
+3:21 restricts the space you have and ends up
+3:23 cramping things. Often, you can group
+3:25 with white space instead of a container
+3:27 and somewhat alleviate this problem.
+3:29 Because we are so space-constrained on
+3:31 mobile apps, I'd like to introduce the
+3:33 important idea that one screen does one
+3:36 thing, and that's it. Obviously, the
+3:38 very notable exception is our home
+3:40 screen, but otherwise, the settings is
+3:42 just settings, and the notes editor is
+3:44 just a notes editor. We don't throw in
+3:46 clutter like recent notes or suggested
+3:48 templates at the top. Instead, whenever
+3:50 you need to add something new, don't
+3:52 reach for a different layout, reach for
+3:53 a different page altogether. Though,
+3:55 this example about templates brings up
+3:57 an interesting point about context.
+3:59 We're editing a note, so we don't want
+4:01 to be ripped away to a new page to
+4:02 select a template, but we don't have
+4:04 enough room on screen. This is where
+4:06 bottom sheets become super useful. This
+4:09 is a bottom sheet. You've probably seen
+4:11 it a bunch, and now we can simply add in
+4:13 a title, search bar, and a check and X,
+4:16 and all of our templates, too. These can
+4:17 be any height, but they keep the user in
+4:19 context and are easy to navigate with
+4:21 gestures, which we'll talk about in just
+4:24 a second. Another good example is the
+4:25 typical use of this plus button, which
+4:27 either opens a little menu or opens with
+4:30 an input to just immediately start
+4:32 typing. But, before we get to gestures,
+4:34 sometimes when you're designing, you
+4:36 need some inspiration. So, a tool I use
+4:38 all the time and actually used to make
+4:40 this video is Mobbin, the sponsor of
+4:42 today's video. Mobbin curates hundreds
+4:44 of thousands of videos, images, and user
+4:47 flows, all from top apps like Notion,
+4:49 Craft, Headspace, and many more. It
+4:52 often helps me to see how top teams
+4:53 design flows like onboarding or to check
+4:56 out specific UI elements just like
+4:58 bottom sheets. You can filter by
+4:59 categories, screens, UI elements, and
+5:01 user flows, so you can always find
+5:03 what's relevant to you. If you're
+5:05 interested, you can check out Mobbin
+5:07 using my link in description to get 20%
+5:09 off. Now, back to the video. Now,
+5:11 gestures is where mobile apps start to
+5:13 get really interesting. One of the most
+5:15 common is swiping right to go back like
+5:17 this. But, if we move the background
+5:19 left by about 35% and then also animate
+5:22 it right, we get a super smooth
+5:24 transition. Same idea with our bottom
+5:26 sheets. As the bottom sheet comes up, we
+5:28 often zoom out the background and zoom
+5:30 back in on swipe down. Swipes are
+5:32 everywhere in modern mobile apps, so as
+5:34 long as you educate the user on how to
+5:36 use them, they can be relied on pretty
+5:38 heavily. A good example is a handy swipe
+5:40 up to search, which is used by Slack as
+5:42 well as sort of by Apple, too. And I'd
+5:45 be remiss if I didn't mention the long
+5:47 press, the mobile equivalent of the
+5:48 right click. It's typical to blur the
+5:51 rest of the screen and just show the
+5:52 actions in addition to some slight zoom
+5:55 on the element itself. Or, we can take
+5:56 it even a step further and turn this
+5:58 into a more dynamic preview like how iOS
+6:01 does it. Now, also because of our
+6:03 limited space, actions need to come and
+6:05 go as needed. They can't always be
+6:07 persistent. For example, clicking into
+6:09 one of our notes hides our navbar and
+6:11 reveals other actions specific to note
+6:13 editing, such as text formatting or
+6:14 sharing up at the top. Or, when we go to
+6:16 select templates, all of that is hidden
+6:18 for really just two actions, a
+6:20 confirmation button and an X. And of
+6:22 course, how these actions animate in and
+6:25 out is half the fun, too. Finally, what
+6:27 we've designed here is an ideal state.
+6:30 The app is filled with content, but
+6:31 don't forget what the user sees the
+6:33 first time they log in when there is no
+6:35 content. We could have cards inviting
+6:37 user to start adding in events, tasks,
+6:39 and notes, but instead, let's draw
+6:41 attention to the plus button, which is
+6:43 our main action, and add in a
+6:45 full-screen empty state to simplify
+6:47 things. Then, we have a simple popover
+6:49 instructing them on how things actually
+6:52 work. But, there is also another type of
+6:54 empty state, which is when we search for
+6:56 a note, for example, and get no results.
+6:58 Instead of just an instruction, we
+7:00 should have some nice imagery, and we
+7:02 need to acknowledge that there are no
+7:03 notes matching the existing keywords,
+7:06 and then perhaps give them a few
+7:07 suggestions in case of a typo, and an
+7:09 action to exit the empty state. There is
+7:12 a ton of different apps and mobile
+7:13 designs you could build, but this should
+7:15 give you the foundation to start
+7:17 creating some really pro-level app
+7:19 designs super easily. If you're
+7:21 interested in checking out Mobbin, it'll
+7:23 be the very first link down below, and
+7:24 the link to all of the Figma assets used
+7:26 in this video will be down there, too.
+7:28 Thank you so much for watching, and I'll
+7:30 see you in the next one.

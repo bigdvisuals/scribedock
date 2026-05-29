@@ -1,0 +1,928 @@
+Title: Cybersecurity Tutorial | Demo On Man In The Middle Attack | Cybersecurity Training | Edureka
+URL: https://www.youtube.com/watch?v=_QtSB0Old_Q&list=PL9ooVrP1hQOGPQVeapGsJCktzIO4DtI4_&index=6&pp=iAQB
+Channel: YouTube playlist
+Video ID: _QtSB0Old_Q
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:24:55.858Z
+
+0:00 [Music]
+0:06 hi guys my name is Aria and today we are
+0:09 going to explore the realms of
+0:10 cybersecurity with the advent of
+0:12 Technology and the need for its security
+0:14 the term cyber security has been coined
+0:16 into singular word but it is very
+0:19 evidently made up of two separate terms
+0:21 cyber which refers to everything that
+0:23 comes under the digital culture and
+0:25 security which is the art of protecting
+0:27 or hiding an entity so when you put the
+0:29 two terms together it basically means
+0:31 the protection of everything that is
+0:32 digital well that in itself makes it a
+0:35 very vast topic including domains like
+0:37 application security information
+0:38 security cloud security but due to time
+0:41 constraints I'm going to be discussing
+0:43 one the most important domains in my
+0:44 opinion and that is network security so
+0:47 Before we jump in let me tell you guys
+0:49 that this whole video will be actually
+0:51 divided into two parts so the first part
+0:53 will be discussing about the network and
+0:55 when we are discussing about the network
+0:57 we are going to go through a packet
+0:58 structure how packets are transferred
+1:00 from one computer to another network
+1:02 architectures including tcp/ip model and
+1:04 OSI based models and all the type of
+1:07 addressing like multicast broadcast and
+1:09 unicast and we'll also be going over
+1:12 protocols like address resolution
+1:13 protocol z' and how they can be high in
+1:15 the security aspect we are going to be
+1:17 discussing firewalls and the types of
+1:19 firewalls and the two different flavors
+1:20 of cryptography namely symmetric key
+1:22 cryptography and public key cryptography
+1:24 and in the end we are also going to
+1:26 perform a very interesting demonstration
+1:28 as to how to perform a man-in-the-middle
+1:30 attack and what a man-in-the-middle
+1:32 attack can do to your system ok so let's
+1:35 begin with our session today okay so
+1:37 first we are going through the network
+1:39 part and I'm gonna teach you all how a
+1:40 network actually works okay so I think
+1:43 it's right to assume all of you watching
+1:45 this video have downloaded some sort of
+1:47 file in the past whether it be a movie a
+1:49 TV show some software or music you have
+1:52 downloaded something off the internet
+1:53 but most of you don't really know how
+1:55 the whole process works now let me take
+1:58 a moment to explain the whole thing so
+2:00 first of all when you click that juicy
+2:01 download button your whole file doesn't
+2:04 really get sent to you all at once
+2:05 rather it is broken down into tiny units
+2:08 called packets which are then
+2:09 transmitted over a network to your
+2:11 computer now the way how atoms make
+2:13 enormous objects together data packets
+2:16 come together to form one big file they
+2:18 can be considered the atom of a network
+2:20 and like an atom a data packet - has a
+2:22 pretty complex structure which can be
+2:24 broken down into three significant parts
+2:26 namely the packet header which generally
+2:28 contains critical information about
+2:30 where the packet is coming from and
+2:32 where it is headed the payload which is
+2:34 basically the data contained by the
+2:36 packet and the packet trailer which is
+2:38 dust data to signify the end of the
+2:40 packet now out of the three the packet
+2:42 header is the most important to
+2:44 understand when understanding the
+2:45 structure of a network so let's have a
+2:47 deeper look at it okay now what do you
+2:49 see on your screen at this moment is an
+2:51 ipv4 packet header a little bit on ipv4
+2:54 before we continue
+2:55 is that ipv4 is the fourth version of
+2:58 the Internet and it is also the most
+3:00 widely used digital communication
+3:02 protocol there's also ipv6 but it hasn't
+3:05 really been implemented widely and about
+3:07 ipv5 well let's say it's what Microsoft
+3:10 it with Windows 9 it doesn't exist now
+3:12 it's pretty evident from what we look at
+3:15 that the IP header indeed is a complex
+3:17 structure with numerous paths the ipv4
+3:20 packet header consists of 20 bytes of
+3:22 data an option part also exists within
+3:24 the header that allows further optional
+3:27 bytes to be added but this is not
+3:28 normally used with the occasional
+3:30 exception of something called a router
+3:32 alert now let's take a moment to discuss
+3:34 all the header files briefly so first of
+3:37 all we have the version part now this is
+3:39 always set to 4 in the current IP
+3:41 version and it shows the version of the
+3:43 protocol that we are following next is
+3:45 the header length or the IP header
+3:47 length and it's our number of 32-bit
+3:49 words forming the header which is
+3:51 usually 5 next is the DC SP field which
+3:55 is for differentiated services code
+3:56 point it is a 6 bit field sometimes set
+3:59 to 0 but can indicate a particular
+4:01 treatment sometimes reflecting the
+4:03 quality of service needs of an applicant
+4:05 to the network and the DC SP informs a
+4:08 router how to queue packets file there
+4:10 waiting to be forwarded next is the e CN
+4:12 field which stands for explicit
+4:14 congestion notification and it tells us
+4:16 about the congestion in the network
+4:18 router next is this total length which
+4:21 is the size of the Datagram and this is
+4:23 in bytes and this is the combined length
+4:25 of the header and the data together
+4:27 next comes the identification field now
+4:29 the identification field is a 16-bit
+4:32 number which together with the source
+4:34 address uniquely identifies a packet
+4:36 that is used during reassembly of a
+4:39 fragmented Datagram next is the flag
+4:41 spot now there are a sequence of three
+4:44 flags one of the four bits is unused
+4:46 and used to control whether the routers
+4:48 are allowed to fragmented packet and to
+4:51 indicate the parts of a packet to the
+4:52 receiver next is the fragmentation
+4:54 offset and this is the byte count from
+4:56 the start of the original sent packet
+4:58 sent by any router which performs IP
+5:01 router fragmentation next is time to
+5:03 live now time to live is the number of
+5:06 hops or links which the packet may be
+5:08 routed over or decremented by most
+5:10 routers used to prevent accidental
+5:12 routing loops it's a very important
+5:14 aspect of every packet next comes the
+5:17 protocol now the protocol is the service
+5:19 access point or SP which indicates the
+5:22 type of transport pack had been used and
+5:23 carried for example if it's one it's
+5:26 ICMP if it's two its IGMP if it's six
+5:29 its TCP and which 17 it means it's
+5:32 following the UDP protocol next is the
+5:34 header checksum now a once compliment
+5:37 checksum is inserted by the sender and
+5:39 updated Venom of the packet header is
+5:41 modified by a router and it is used to
+5:43 detect processing errors introduced into
+5:45 the packet inside the router or bridge
+5:47 where the packet is not protected by a
+5:49 link layer cyclic redundancy check now
+5:51 packets with an invalid checksum are
+5:53 discarded by all nodes in an IP network
+5:55 the checksum can be thought of something
+5:58 like a barcode if the barcode gives you
+6:00 wrong information you just discard that
+6:01 packet now as you guys can see the next
+6:04 field is the source IP address and it is
+6:06 the IP address of the original sender of
+6:08 the packet and next is the destination
+6:10 address which is the destination field
+6:12 of the packet and then we spoke about
+6:14 the options field now it is not normally
+6:16 used but when used the IP header length
+6:18 will be created in five 32-bit words to
+6:21 indicate that the size of the option
+6:22 field has been included now the Internet
+6:25 Protocol has been there for a long time
+6:27 and there has been a couple of models
+6:29 that have really given the protocol a
+6:31 structure the first model is called the
+6:33 OSI model and the second tcp/ip
+6:35 now both these protocols have a layered
+6:37 stack architecture with each layer
+6:39 having very similar function
+6:41 first of all let's have a look at the
+6:44 OSI model
+6:44 now communications between machine is
+6:46 hard many many details and
+6:48 considerations are important in order to
+6:51 relay some information from point A to
+6:53 point B and therefore every system is
+6:55 left on its own and has a tendency to be
+6:57 very different the OSI layer model was
+7:00 made as an effort to divide the process
+7:02 of communication into a number of steps
+7:04 so every step could tackle some of the
+7:06 needed functions of the transmission
+7:08 separately now let me use a very strange
+7:10 analogy to explain all the functions of
+7:12 each of the layers in the OSI model so
+7:15 suppose you want to send a number of
+7:17 objects let's say a group of vases to a
+7:19 friend of yours that lives on the other
+7:20 side of the world
+7:21 he needs the set vases in order to put
+7:24 on some plants on a display now you and
+7:26 your friend represent layer 7 which is
+7:28 the application layer which makes the
+7:30 final use of the sent object now you
+7:33 give this waste to another person let's
+7:35 call him a professional pack up he takes
+7:37 your vases puts it in several boxes
+7:39 fills them with wrapping in order to
+7:41 prevent it from breaking and closes the
+7:43 boxes completely this professional
+7:45 Packer
+7:45 represents layer 6 which is the
+7:47 presentation layer now this professional
+7:49 parkour takes all the boxes gives them
+7:51 to the guy and arranger now he doesn't
+7:54 know what is inside the boxes but he
+7:56 knows they all go to the same friend of
+7:58 yours so he labels them appropriately so
+8:00 far he represents layer 5 and that is
+8:03 the session layer now the arranger takes
+8:05 all the boxes down to an office who
+8:07 handles clients and dawson's of other
+8:09 buildings they keep in touch with
+8:11 hundreds of other agencies at the same
+8:13 time they do not actually send the boxes
+8:15 but they track them and know when a box
+8:17 for an order is missing and so these
+8:19 guys are layer 4 which is also called
+8:21 the transport layer now one of the guys
+8:23 from the office actually takes all your
+8:25 boxes along with many others to a post
+8:27 office this post office is the third
+8:29 layer here it is given an address the
+8:32 one of your friends and this is the
+8:34 layer 3 that is called the networking
+8:35 now one of the guy is from the post
+8:37 office takes all the boxes to a doc and
+8:39 the guys at the doc pull all the boxes
+8:42 into a container they know very little
+8:44 about what the boxes contain or where
+8:46 their final destination is they only
+8:48 care about which are the doc is this
+8:51 container headed to now this doc is
+8:53 representing layer 2 which
+8:55 the data link layer and finally we have
+8:57 the ship it only knows where it is
+8:59 headed and takes a container with it it
+9:01 handles the waves the conditions of the
+9:03 sea the weather and all the other
+9:05 physical conditions that none of the
+9:07 other layers have to deal with the ship
+9:09 is layer number one which is the
+9:11 physical layer now after all this the
+9:13 ship gets to port the containers are
+9:15 opened out here now boxes which are
+9:17 meant for this address stay on the dock
+9:19 and the others are put into other
+9:21 containers and another ship and sent on
+9:23 its own way now all this thing boxes are
+9:25 sent to an Associated post office and
+9:27 Leo too has done shop then the post
+9:30 office receives the boxes maybe
+9:31 realizing some are missing they call the
+9:33 sending post office to check what happen
+9:35 and once they are sure all the boxes are
+9:37 there they send it to the big office and
+9:39 now layer three has done its job
+9:40 completely then the big office gets the
+9:43 boxes checks they are all in the correct
+9:45 order and please fill the relevant
+9:47 tracking data and send them to your
+9:48 friends arranger and Lea for has done
+9:50 its job completely
+9:51 then the arranger reads the label put by
+9:54 your arranger and he makes sure
+9:56 everything is in order he knows they are
+9:58 for your friend and calls a professional
+10:00 pakil here layer five has completed its
+10:02 job then the professional Parker takes
+10:05 everything from the boxes checks if
+10:07 everything is intact and if everything
+10:09 is okay he calls a friend and Lia six
+10:11 has done his job and finally your
+10:13 friends get the vases happily unaware of
+10:16 everything that happened on every little
+10:17 he sets up the plants on display and is
+10:20 happily continuing with his day now this
+10:22 is how the OSI layer model has actually
+10:24 differentiated all the different steps
+10:26 that you need for one packet to reach
+10:28 from one computer to another I hope that
+10:31 analogy helped you all understand how a
+10:32 packet actually travels from one
+10:34 computer to another okay so it's time
+10:37 now that we discussed the tcp/ip model
+10:39 tcp/ip specifies how data is exchanged
+10:42 over the Internet by providing
+10:44 end-to-end communication that identify
+10:46 is how it should be broken into packets
+10:48 addressed transmitted routed and
+10:50 received at the destination IP now
+10:53 tcp/ip requires a little central
+10:54 management and it is designed to make
+10:56 networks reliable with the ability to
+10:58 recover automatically from failure of
+11:00 any device on the network the advantage
+11:03 of TCP is that it is non proprietary and
+11:05 as a result it is not controlled by any
+11:07 single company
+11:08 therefore the internet protocol suit can
+11:10 be modified very very easily it is
+11:12 compatible with all the operating
+11:14 systems so it can't communicate with any
+11:16 other system on the network and the
+11:18 internet protocol suit is also
+11:19 compatible with all types of computer
+11:21 hardware and network types
+11:23 now the tcp/ip functionality is divided
+11:26 into four layers each of which includes
+11:28 a specific protocol the application
+11:30 layer provides applications with
+11:32 standardized data exchange its protocols
+11:34 include hypertext Transfer Protocol
+11:36 which is HTTP File Transfer Protocol
+11:38 which is FTP post office management
+11:40 protocol which is pop3 Simple Mail
+11:43 Transfer Protocol SMTP and simple
+11:45 network management protocol which is
+11:47 SNMP next is the transport layer the
+11:50 transport layer is responsible for
+11:52 maintaining end-to-end communication
+11:53 across the network TCP handles
+11:56 communication between hosts and provides
+11:58 flow control multiplexing and
+12:00 reliability the transport protocols
+12:02 include TCP and the user Datagram
+12:04 protocol which is sometimes used instead
+12:06 of TCP for special purposes next we have
+12:09 the network layer now the network layer
+12:11 also called the internet layer deals
+12:13 with packets and connects independent
+12:14 networks to transport the packets across
+12:16 network boundaries the network layer
+12:19 protocols are the Internet Protocol
+12:20 which is the IP protocol and the
+12:22 Internet control message protocol which
+12:24 is also abbreviated as ICMP last but not
+12:27 least we have the physical layer now
+12:29 physical layer consists of protocols are
+12:31 operate only on a link that is the
+12:33 network components that interconnects
+12:35 nodes or hosts in the network the
+12:37 protocols in this layer include Ethernet
+12:39 for local area networks and address
+12:41 resolution protocol so now that we have
+12:43 discussed the models which describe the
+12:45 architecture let's move on to the
+12:47 different ways packets can be addressed
+12:49 to other devices majorly three main ways
+12:52 of addressing namely unicast broadcast
+12:55 and multicast now unicast is a term used
+12:58 to describe communication where a piece
+13:00 of information is sent from one point to
+13:02 another in this case there is just one
+13:04 sender and one receiver unicast
+13:07 transmission in which a packet is sent
+13:08 from a single source to its specified
+13:11 destination is still the predominant
+13:13 form of transmission on local area
+13:14 networks within the internet or local
+13:17 area networks example the Ethernet and
+13:18 IP networks support the unicast transfer
+13:21 mode and most
+13:22 users are familiar with the standard
+13:23 unicast applications example HTTP SMTP
+13:27 FTP and telnet which employ the TCP
+13:30 transport protocol the second type of
+13:32 transmission is broadcast and broadcast
+13:35 is the term used to describe
+13:36 communication where a piece of
+13:38 information is sent from one point to
+13:40 all other points in this case there is
+13:42 just one sender but the information is
+13:44 sent to all connected receivers the
+13:47 broadcast transmission is supported on
+13:49 most LANs and may be used to send some
+13:51 messages to all computers on the land
+13:53 example the address resolution protocol
+13:56 uses this to send an address resolution
+13:58 query to all computers on a LAN now
+14:01 network layer protocol such as ipv4 also
+14:03 support a form of broadcast that allows
+14:05 the same packet to be sent to every
+14:07 system in a logical network last but not
+14:10 the least is multicast now multicast is
+14:13 the term used to describe communication
+14:14 where a piece of information is sent
+14:16 from one or more points to a set of
+14:18 other points in this case there may be
+14:20 one or more senders and the information
+14:22 is distributed to a set of receivers one
+14:25 example of an application which may use
+14:27 multicast is a video server sending out
+14:29 Network TV channels simultaneously
+14:31 delivery of high quality video to each
+14:34 of large numbers of delivery platforms
+14:36 will exhaust the capability of even a
+14:38 high bandwidth network with a powerful
+14:40 video clip server this poses a major
+14:42 scalability issue for applications which
+14:45 require sustained high bandwidth one way
+14:47 to significantly ease scaling to large
+14:49 groups of client is to employ multicast
+14:51 networks now unlike broadcast
+14:53 transmission multicast clients receive a
+14:56 stream of packets only if they are
+14:57 previously elected to do so membership
+15:00 of a group is dynamic and controlled by
+15:02 receivers and the router in a multicast
+15:04 network learn which sub networks have
+15:06 active clients for each multicast group
+15:08 and attempts to minimize the
+15:10 transmission of packets across parts of
+15:12 the network for which there are no
+15:14 active clients okay so let's see we've
+15:17 discussed the various types of
+15:18 addressing the fundamental unit of a
+15:20 network and the network architecture
+15:22 that are widely followed now let's see a
+15:24 connection is actually established when
+15:26 you actually make a request so suppose
+15:28 you're on a browser how many type
+15:31 www.and hit enter now
+15:34 when you hit enter a series of
+15:36 transactions takes place firstly a
+15:38 packet called a syn packet is sent from
+15:40 your computer all the way across the
+15:42 network to the IP address of the Google
+15:44 server we will get two IP addresses in
+15:46 just a bit
+15:47 now when Google server receives the syn
+15:49 packet it realizes that we are trying to
+15:51 establish a connection with Google so
+15:53 Google sends back a syn ACK packet which
+15:56 stands for acknowledgment this is
+15:58 basically a way to say hey I acknowledge
+16:00 the fact that you're trying to connect
+16:01 to me now this ACK packet is sent to our
+16:03 computer all across the network finally
+16:06 when our client computer receives a syn
+16:08 ACK packet it sends back another packet
+16:11 called the ACK packet which basically is
+16:13 an acknowledgment of an acknowledgement
+16:14 now after the syn/ack packet is received
+16:16 by Google a connection is set up between
+16:19 your computer and the Google server this
+16:21 process is the famous three-way
+16:23 handshake now in TCP basically every
+16:25 packet comes with an ACK packet to say
+16:28 yup I got it and if you don't get an ACK
+16:30 you resend it now since this is a
+16:32 two-way communication you want to make
+16:34 sure that your desire to connect got
+16:36 through through the receiving computer
+16:37 and thus they send back the syn ACK
+16:40 packet and they want to know that
+16:42 whether you got their acknowledgment or
+16:43 not so you send back the acknowledgement
+16:46 of an acknowledgement which is basically
+16:47 the ACK packet now both parties have
+16:50 positive confirmation that the other
+16:52 party has received and agreed to their
+16:54 request to connect now a good question
+16:56 might have arised in some of your minds
+16:58 that how does one know who is what on a
+17:00 network
+17:01 well that is solved by the computers
+17:03 address which is basically divided into
+17:05 two address 1 the physical address which
+17:07 is the MAC address and 1 the digital
+17:09 address which is the IP address an IP
+17:12 address also short for Internet Protocol
+17:14 address is an identifying number for a
+17:16 piece of network hardware having an IP
+17:18 address allows the device to communicate
+17:20 with other devices over an IP based
+17:23 network like the Internet now most IP
+17:26 addresses look something like four
+17:28 numbers that are divided by three dots
+17:29 for example 150 1.10 1.65 dot 121 that's
+17:34 probably valid IP address now if I'm
+17:37 going to send a packet to my friend in
+17:39 another country I have to know the exact
+17:41 destination it's not enough just to put
+17:43 a package with his name on it through
+17:45 the mail and expected to reach him
+17:46 I must instead
+17:48 the specific address to it which you
+17:49 could do by looking it up in a phonebook
+17:51 this is exactly what the IP address is
+17:53 you can generally find your own IP
+17:55 address by typing an IP config on
+17:57 windows system or ifconfig on a linux
+18:00 based system now moving on to MAC
+18:02 addresses well in a local area network
+18:04 or other networks the MAC address is
+18:06 your computer's unique Hardware number
+18:08 when you're connected to the internet
+18:10 from your computer a correspondence
+18:12 table relates your IP address to your
+18:14 computer's physical address or MAC
+18:15 address the MAC address is used by the
+18:17 media access control sub-layer of the
+18:20 data link layer of tell'em communication
+18:21 protocols there is a different Mac
+18:23 sub-layer for each physical device type
+18:25 the other sub layered levels in the DLC
+18:28 layer is the logical link control sub
+18:30 layer now if you have access to the
+18:32 Internet from a local area network in
+18:34 your home or business is as possible
+18:36 that you share an IP address with some
+18:38 other user this is because while you
+18:39 might use a different computer or device
+18:41 you all use the same internet connection
+18:44 or the same access gateway now in the
+18:46 early days of the internet people
+18:47 connect it to their modem directly to
+18:49 their computer after all most homes only
+18:51 had one computer today most homes
+18:53 contain several devices that connect to
+18:55 the Internet
+18:55 therefore it is far more common to
+18:57 connect a DSL or cable modem to a router
+18:59 that can be accessed by multiple devices
+19:02 now some modems even include a built-in
+19:04 wireless router now your router gives
+19:06 each connected device a unique internal
+19:08 IP address that distinguishes
+19:10 differently on different local networks
+19:12 this address are automatically
+19:14 distributed by the router using a
+19:16 protocol called dchp
+19:18 typically IP addresses of local devices
+19:20 might be then dot one dot one
+19:23 ten dot o or 1.3 and some routers may
+19:26 also use the IP address that use the
+19:28 whole 192.168.0 map but this is not true
+19:32 for MAC addresses every device on this
+19:35 planet has a unique MAC address mac or
+19:37 media access control address is a
+19:39 globally unique identifier assigned to a
+19:41 network device and therefore it is often
+19:43 referred to as a hardware or physical
+19:45 address MAC addresses are of six bytes
+19:48 the first three bytes are ID numbers of
+19:50 the manufacturer which is assigned by an
+19:52 internet standards body and the second
+19:54 three bytes are serial numbers assigned
+19:56 by the manufacturer itself okay so that
+19:59 was about MAC addresses and IP addresses
+20:02 now what happens when you're actually
+20:03 trying to connect to some other computer
+20:05 on a local area network so when you're
+20:08 on a local area network a certain
+20:09 protocol called ARP which stands for
+20:11 address resolution protocol is used to
+20:14 communicate with other devices on the
+20:16 network
+20:16 the term address resolution refers to
+20:18 the process of finding an address of a
+20:20 computer in a network now the address is
+20:22 resolved using a protocol in which a
+20:24 piece of information is sent by a client
+20:26 process executing on the local computer
+20:28 to a silver process executing on a
+20:30 remote computer the information received
+20:32 by the server allows the server to
+20:34 uniquely identify the network system for
+20:37 which the address was required and
+20:38 therefore provide the required address
+20:40 the address resolution procedure is
+20:43 completed when the client receives a
+20:45 response from the server containing the
+20:47 required address now if you realized ARP
+20:50 isn't really using a three-way handshake
+20:52 mechanism or any authentication so this
+20:54 can be very easily exploited all you
+20:56 have to do is live and someone sends an
+20:59 ARP request now you could lie to a
+21:01 computer that you are the router and you
+21:03 could lie to the router that you are the
+21:05 victim computer this is what we call
+21:07 Arps spoofing and an attack like this is
+21:09 called a man-in-the-middle attack an mi
+21:11 TM attack happens when a communication
+21:13 between two systems is intercepted by an
+21:15 outside entity this can happen in any
+21:18 form of online communication such as
+21:20 email social media web surfing etc not
+21:23 only are they trying to eavesdrop on
+21:25 your private conversation they can also
+21:26 target all the information inside your
+21:28 device but taking away all the
+21:30 technicalities the concept of an mi TM
+21:33 attack can be described in a simple
+21:34 scenario now imagine being brought back
+21:36 to the days when old snail mail was
+21:38 being actually used Jerry writes a
+21:41 letter to Jackie expressing his love for
+21:42 her after years of hiding his feelings
+21:44 he sends the letter to the post office
+21:46 and it is picked up by a noisy mailman
+21:49 he opened it and just for the hell of it
+21:51 he decided to rewrite the letter before
+21:53 delivering the mail to Jackie this
+21:55 results in Jackie hitting Jerry for the
+21:57 rest of her life
+21:58 after Jerry called her fat cow on the
+22:00 letter the moral of the story is the
+22:02 mailman is a joke and so are all the
+22:04 hackers that do the same this is exactly
+22:06 where the security aspect of network
+22:08 security comes into play to protect our
+22:10 data from unauthorized access
+22:12 unauthorized modification an
+22:14 unauthorized deletion
+22:16 and the most common type of security
+22:17 measure that every computer uses is a
+22:19 fireball a firewall is a software or
+22:22 firmware that enforces a set of rules
+22:24 about what data packet will be allowed
+22:26 to enter or leave an ephah firewalls are
+22:29 incorporated into a wide variety of
+22:31 network devices to filter traffic and
+22:32 lower the risk that malicious packets
+22:34 traveling over the public Internet can
+22:36 impact the security of a private network
+22:38 now firewalls while they come
+22:40 pre-installed can also be purchased as
+22:42 standalone software applications now
+22:45 generally speaking there are three types
+22:47 of firewalls packet filtering firewalls
+22:49 application or proxy firewalls and
+22:51 hybrid firewalls let's look at packet
+22:54 filtering firewalls first now packet
+22:56 filtering firewall just checked the
+22:57 packet header of packets that are being
+22:59 sent to your computer they analyze the
+23:01 packets according to rules written in a
+23:03 file called ACL where it stands for
+23:05 access control list packet filtering
+23:07 firewalls are already installed in your
+23:09 router and provide the chiefest form of
+23:11 security but it is underwhelming as a
+23:13 payload is not checked so basically it
+23:16 checks the packet header but not the
+23:17 payload so it's not a very good type of
+23:19 firewall but it always comes
+23:21 pre-installed in a computer next up is
+23:23 application firewalls which are
+23:25 completely different from packet
+23:26 filtering firewalls they check both the
+23:28 payload and the packet header and above
+23:31 that proxy firewalls have their own IP
+23:33 address so when you access the internet
+23:35 through the proxy firewall you are
+23:37 actually hiding yourself from malicious
+23:38 users by masking your IP with your
+23:40 firewalls IP this is the basic
+23:42 principles on how proxy servers and
+23:44 proxy firewalls work last but not the
+23:46 least is a hybrid firewall which is the
+23:48 combination of Application Firewall and
+23:50 a packet filtering firewall they provide
+23:52 much higher security but it should be
+23:54 noted that they must be applied in
+23:56 series when they are applied in parallel
+23:58 the security is brought down to the
+24:00 level of a packet filtering firewall and
+24:02 the networks act like the proxy firewall
+24:04 doesn't exist at all and that was all
+24:06 about firewalls but in all honesty it is
+24:09 comparatively much easier to break a
+24:11 firewall than modern encryption systems
+24:13 which are used to protect data so when
+24:15 talking about encryption we are talking
+24:16 about cryptography now cryptography
+24:18 comes in two flavors namely symmetric
+24:21 cryptography and public key cryptography
+24:22 so first let's discuss symmetric key
+24:25 cryptography now an encryption system in
+24:27 which the sender and receiver of a
+24:29 message
+24:29 share a single common key that is used
+24:31 to encrypt and decrypt a message is
+24:33 called symmetric key cryptography now
+24:35 this contrasts with public key
+24:37 cryptography which utilizes two keys a
+24:39 public key to encrypt a message and a
+24:41 private key to decrypt them secret key
+24:44 systems are simpler and faster but their
+24:46 main drawback is that two parties must
+24:48 somehow exchange the keys in a secure
+24:50 way public key encryption avoids this
+24:52 problem because the public key can be
+24:54 distributed in a non secure way and the
+24:56 private key is never transmitted now a
+24:58 symmetric key cryptography is sometimes
+25:00 also called secret key cryptography
+25:02 because the security of this whole
+25:04 encryption algorithm depends on how
+25:06 secret you can keep your key now
+25:07 cryptographic key is the core part of a
+25:09 cryptographic operation many
+25:11 cryptography systems include a pair of
+25:13 operations such as encryption and
+25:15 decryption and a key is a part of the
+25:17 variable data that is provided as an
+25:19 input to cryptography algorithms to
+25:20 execute the sort of operation now in a
+25:23 normal symmetric key cryptography you'd
+25:26 probably have a plaintext suppose the
+25:27 plain text which is the quick brown fox
+25:29 jumps over the lazy dog which is put
+25:31 into an encryption algorithm which
+25:33 contains the key and the message and you
+25:35 get a ciphertext now the ciphertext is
+25:37 then also put into a decryption
+25:39 algorithm which uses the same key and
+25:41 then you get the plaintext that produced
+25:43 the ciphertext this is how simple
+25:45 symmetric key cryptography works now in
+25:48 public key encryption systems any person
+25:50 can encrypt the message using a
+25:52 receivers public key that encrypted
+25:54 message can only be decrypted with the
+25:55 receivers private key so to be practical
+25:58 the generation of a public and private
+25:59 key pair must be computationally
+26:01 economical now the strength of a public
+26:03 key cryptography system relies on
+26:05 computational effort or the work factor
+26:07 in cryptography that is required to find
+26:09 the private key from it pairs public key
+26:11 so effectively security only requires
+26:14 keeping the private key private and the
+26:16 public key can be distributed without
+26:17 compromising security public key
+26:19 cryptography systems often rely on
+26:21 cryptography algorithms based on
+26:23 mathematical problems particularly those
+26:25 inherent in certain integer
+26:27 factorization discrete logarithms and
+26:29 elliptic curve relationships public key
+26:32 algorithms unlike symmetric key
+26:33 algorithms do not require a secure
+26:35 channel for initial exchange of one or
+26:37 more secret keys between the two parties
+26:39 so because of the computational
+26:40 complexity of asymmetric encryption it
+26:42 is
+26:43 usually used only for small blocks of
+26:45 data typically the transfer of a
+26:47 symmetric key encryption system this
+26:49 symmetric key is then used to encrypt
+26:50 the rest of the potentially long message
+26:52 sequence and the symmetric key
+26:54 encryption and decryption is based on a
+26:56 simpler algorithm that works much faster
+26:58 so because of the computational
+27:00 complexity of asymmetric encryption it
+27:03 is usually used only for small blocks of
+27:05 data typically the transfer of a
+27:07 symmetric encryption key example a
+27:09 session key now this symmetric key is
+27:11 then used to encrypt the rest of the
+27:12 potentially long message sequence and
+27:14 the symmetric encryption and decryption
+27:15 is based on simpler algorithms that is
+27:18 much faster okay so now it's time for an
+27:20 interesting demo on why you actually
+27:23 should really be aware of cyber security
+27:25 so for this demonstration I'm going to
+27:27 be showing you guys a man-in-the-middle
+27:28 attack so for the man-in-the-middle
+27:30 attack as we earlier discussed we are
+27:32 gonna need to ARP spoof ourselves to
+27:35 another computer and ARP spoof ourselves
+27:38 to the router - so that means we are
+27:40 gonna fool the computer that we are the
+27:42 router and then we are going to fool the
+27:44 router that we are the computer so for
+27:47 this demo I'm going to be using two
+27:48 machines one is going to be running
+27:49 Linux and on the Linux based machine I'm
+27:51 gonna be performing the attack and for
+27:54 the victim I've chosen it to be my own
+27:56 machine and for the results you guys
+27:58 will see how I'm gonna sniff out all the
+28:00 images that is being soft on the victim
+28:02 machine so for this demonstration we are
+28:05 going to be using framework called web
+28:07 sploit now web sploit is an open source
+28:09 framework and it's easily available on
+28:11 linux and it can help simulate
+28:13 man-in-the-middle attacks just for
+28:15 educational purposes so let's get
+28:17 started
+28:17 so first of all we are going to start
+28:19 our website by typing in the command but
+28:21 right
+28:27 so once you go into web slide you go
+28:30 show modules so as you guys can see we
+28:33 have so many modules available out here
+28:35 and these are all the types of attacks
+28:37 that you could possibly simulate with
+28:39 this framework so we're gonna choose the
+28:40 man-in-the-middle attack so that is
+28:42 we're gonna use network slash MIT m so
+28:47 now what you're going to see all the
+28:49 options that we're having so as you guys
+28:52 can see out here the website framework
+28:55 gives us numerous amounts of options to
+28:57 set up first we can set the interface
+28:59 that we're going to attack on and then
+29:01 we can also set the router that we're
+29:03 going to attack through then we can set
+29:05 this target IP address and we can also
+29:07 set from a number of different sniffers
+29:09 for example we can use driftnet for
+29:12 sniffing out victim images we can use
+29:14 URL Snarf's for sniffing out victim
+29:16 links then we can use d sniff for
+29:18 sniffing out all sorts of passwords also
+29:20 we are going to use SSL strip for
+29:22 actually stripping down SSL protocol so
+29:24 that you're not actually visiting a
+29:26 secure site so firstly we need the IP
+29:29 address of our victims computer so I'm
+29:32 going to go on my computer and check out
+29:33 my password so IP config so as you guys
+29:37 can see my password out here is 192.168
+29:40 2.1 42 and my default gateway is
+29:44 192.168.1.1
+29:46 so that means my computer this is 2.41
+29:49 42 is connecting to the router which is
+29:51 then connecting to the rest of the
+29:53 internet through 192.168.1.1 so to check
+29:57 out my attacking computer's IP address
+30:00 I'm going to go I have config and we see
+30:04 that we're running on the interface WOL
+30:06 p2s oh you can also check that by going
+30:09 route - n and this will show you the
+30:12 Gateway that it's 192.168.1.1 out here
+30:16 as you guys can see and our IP address
+30:19 is out here 192.168.1.2 1-5 so this is
+30:24 our attacking IP address so moving on to
+30:26 web splash now okay
+30:28 so first we need to set our interface so
+30:32 we go set interface so that sets our
+30:35 interface then we need to set the target
+30:38 as the router IP address is already
+30:40 correct so our target is gonna be
+30:45 192.168.1 for two 192.168 2.1 for two
+30:51 and we're gonna use the driftnet sniffer
+30:54 for sniffing out all the victim images
+30:56 and SSL is true so let's just check
+30:58 we've got everything correctly show
+31:00 options so yes our interface has been
+31:02 set our router has been set the target
+31:05 has been set we've said our sniffer and
+31:07 SSS revering is on so all we have to do
+31:10 now is run our attack
+31:13 so first we're gonna forward all the IP
+31:15 now we're gonna ARP spoof it that's
+31:18 gonna just lie on the network that fear
+31:20 somebody else so now that I've run the
+31:22 attack on our attacking computer it's
+31:24 time we go and browse some images on
+31:26 Google so let's look at some images of
+31:29 Lamborghinis so let's search for
+31:31 Lamborghini so as you guys can see it'll
+31:34 sniffing out all the images of all the
+31:36 Lamborghinis that I'm looking at out
+31:38 here
+31:40 like this Lamborghini looks really cool
+31:43 this is a scratched one there's so many
+31:46 Lamborghinis to look at so as you guys
+31:48 can see whatever images that you're
+31:50 looking at is just being sniffed out of
+31:53 the network and I can see them as well
+31:55 as an attacker so this gives you a
+31:58 measure of the magnitude of informations
+32:00 that can be stolen from you just through
+32:02 a simple man in the middle attack that
+32:04 can be actually performed that regular
+32:06 software's that are available for open
+32:07 source use ok so that was it for a demo
+32:11 that was all about cybersecurity for
+32:13 today I hope you guys enjoyed this
+32:15 session and I hope you guys enjoyed the
+32:17 demo too as it showed how much a hacker
+32:19 can steal from you and I hope you guys
+32:21 learned something today that's it for me
+32:23 goodbye I hope you have enjoyed
+32:25 listening to this video please be kind
+32:28 enough to like it and you can comment
+32:30 any of your doubts and queries and we
+32:33 will reply them at the earliest do look
+32:35 out for more videos in our playlist and
+32:38 subscribe to any rekha channel to learn
+32:40 more happy learning

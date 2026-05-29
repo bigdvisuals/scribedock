@@ -1,0 +1,465 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=TxD7wLq12Eg&pp=0gcJCQMLAYcqIYzv
+Channel: Riley Brown
+Video ID: TxD7wLq12Eg
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 oh wow this is going to be easier than I
+0:02 thought oh my this is just working right
+0:04 away what the [ __ ] no stop never mind um
+0:09 guys in 2 hours I just created a
+0:12 perplexity clone that is specific for my
+0:15 use case and it's actually as good it is
+0:19 actually as good as perplexity for what
+0:22 I'm trying to do and we're using deep
+0:24 seek the chat GPT killer to build this
+0:28 and whether you are a beginner or you've
+0:29 been coding for a few years this video
+0:32 you are going to see from scratch you're
+0:34 going to see me create content specific
+0:37 perplexity Mark Zuckerberg
+0:40 incident with
+0:43 Bezos wife and I can search the web and
+0:48 it's going to load sources read all of
+0:51 the web sources it's going to load them
+0:53 up right here I can click on all of
+0:55 these it's going to begin thinking I can
+0:58 close the thinking if I want but I like
+1:00 reading the thinking of the new deep
+1:03 seek model and then it's going to
+1:05 generate a full response so here it's
+1:08 going to generate a full response date
+1:10 of the incident January 20th 20
+1:13 yesterday basically Mark Zuckerberg key
+1:16 figures involved incident Donald Trump
+1:18 during 25 it is literally exactly and it
+1:21 has sources right I can click on all
+1:23 these sources right we can go check
+1:25 these out and I can click on these
+1:27 sources look it'll take us directly to
+1:29 the source and we can literally just ask
+1:32 follow-up questions we can say what
+1:35 happened with Elon Musk and the salute
+1:41 salute thing and we are literally
+1:43 generating this is literally perplexity
+1:46 and it we're calling it Yap search
+1:48 because we're actually building it
+1:50 directly into the app that I'm building
+1:52 which is the cursor for writing content
+1:54 the first thing that we're going to do
+1:55 is we're going to open cursor and I'm
+1:58 going to go ahead and open a folder and
+2:02 we're going to create a new folder I'm
+2:03 going to go ahead and make this in
+2:06 document and I'm just going to say new
+2:08 folder and I'm going to say deep seek
+2:10 and search and we're going to create
+2:13 this app here we're going to hit open
+2:15 and now what we're going to do is we're
+2:17 going to press command I to open up
+2:19 cursor compos and we can actually just
+2:22 say I want you to uh fork and run this
+2:28 repo locally we're going to run the
+2:31 template that we use for all of these
+2:33 videos and I have this saved right and I
+2:37 have this saved right here in one
+2:40 command we're just going to run this
+2:42 real quick generate command run command
+2:45 it's forking so it's adding the right
+2:47 files to the app downloading them we're
+2:49 going to hit pop out terminal the
+2:51 repository is being set
+2:53 up here we go now it gives us this link
+2:56 to Local Host let's go ahead and click
+2:58 on this and there we go we have our
+3:01 template ready to go let's go back to
+3:03 cursor and we're going to say I want to
+3:06 create a
+3:08 perplexity like app that allows me to
+3:12 talk to the new deep seek seek Reasoner
+3:17 model type a question and get an answer
+3:21 using this model what we're going to do
+3:24 is we're going to come to deep seek
+3:26 we're going to go to deep seek.com and
+3:29 we're going to click on this API
+3:31 platform and what we're going to do is
+3:33 we're going to go to API keys and we're
+3:35 going to grab a key we're going to grab
+3:37 this right here so this is the Reasoner
+3:39 model we're going to click on this we're
+3:41 going to go back to
+3:43 cursor and we are going to paste in uh
+3:46 here are docs and we're just going to
+3:49 paste this in just like that here is my
+3:53 API key I'm going to paste that in at
+3:55 the end before I run it and what we're
+3:58 going to do actually is we're just going
+3:59 to get this your first API call just in
+4:01 case it needs this we're going to go
+4:03 back to
+4:04 cursor and we're going to paste that in
+4:07 as well here is my API key so I'm about
+4:09 to paste my API key and run this
+4:11 restarted the server so whenever this
+4:13 link pops up I'm just going to click on
+4:15 it and it should take us to the other
+4:17 server okay so here it has this ask deep
+4:21 seek reason or something
+4:23 hello it is
+4:26 thinking can I assist you today what
+4:29 model are you I'm deep
+4:31 seek awesome so this chat app is working
+4:35 all right so I gave it my API key and
+4:37 just ran the prompt and now it is coding
+4:39 all right it is done let's hit accept
+4:41 all hey guys for whatever reason the
+4:44 7-minute clip that I recorded right here
+4:46 for whatever reason my screen software
+4:48 made it record like
+4:51 this not good at all so I'm just going
+4:54 to show you really quickly give you a
+4:56 synopsis so the model that we just added
+4:59 previously was the Deep seek chat model
+5:02 and their new model is called Reasoner
+5:04 so I was basically showing you that I
+5:07 wanted to get this reasoning and the
+5:09 reasoning is the best part about this
+5:10 deep seek model because it shows you how
+5:12 it's thinking so I went to chat GPT and
+5:14 said can the uh show me the reasoning I
+5:17 I wanted to find out if I could actually
+5:18 stream the reasoning and you can and so
+5:20 I figured out how to do that and I
+5:22 pasted all these docs into um cursor and
+5:26 then I basically just said run it and
+5:28 then here I am testing it and there you
+5:30 go it's showing the thinking rather than
+5:32 just doing the normal chat and there we
+5:36 go then I asked what are the best apis
+5:39 to use for cloning perplexity and here I
+5:43 basically I asked perplexity how can I
+5:45 clone you and then I found this one that
+5:47 I had never heard of before which was
+5:49 called tavali and I asked what is this
+5:51 and so then I kept going I went to
+5:52 tavali got an API key and then I uh put
+5:57 the docu or then I said how do I use T
+5:59 in a nextjs project uh to create a
+6:02 perplexity clone and it told me exactly
+6:03 how to do it and I copied the text
+6:07 pasted it into cursor and then I past it
+6:12 in and ran it and here I am just
+6:15 speaking out a long prompt saying
+6:17 exactly what I want it to do it's going
+6:19 to search the internet find the sources
+6:21 and then feed it through the reasoning
+6:23 model so the reasoning model can
+6:25 actually reason through all the sources
+6:26 and the Tav API was actually pretty good
+6:29 and then this happened let's go ahead
+6:32 and see what this looks like so we're
+6:35 going to type in
+6:38 write a report on the Deep seek
+6:44 reasoning
+6:46 model searching the internet for
+6:47 relevant information deep seek is
+6:49 thinking analyzing search results Source
+6:53 One starting with Source One Source two
+6:55 Source three Source
+6:56 4 oh wow this is going to be easier than
+6:59 I thought oh my this is just working
+7:02 right away what the [ __ ] no stop never
+7:06 mind okay it worked very well uh up
+7:10 until after the final output it just
+7:13 started spitting out a bunch of like the
+7:16 same responses it didn't give me that
+7:18 one final report at the end something
+7:19 went wrong towards the end I have no
+7:22 idea what happened so this is a really
+7:24 good tip on um kind of figuring out the
+7:27 problem we're going to hit
+7:30 inspect and we're going to see what the
+7:32 problem is here we're going to make sure
+7:33 that we're on console and so this kind
+7:35 of shows us [ __ ] that we can uh send to
+7:38 cursor and it will help us fix so this
+7:40 thinking is working the thinking is
+7:42 working and this is going to just start
+7:44 going off
+7:46 crazy and let's see
+7:49 here okay okay so this is failing hard
+7:54 and what's going on
+7:57 here um Okay so my input was tell me a
+8:02 joke and here was this error
+8:06 log uh please fix this all right let's
+8:10 see if this works let's see if this
+8:12 works we're going to hit
+8:14 accept and let's go ahead and try this
+8:17 again tell me a joke search the internet
+8:20 for relevant information okay wow it's
+8:22 like deciding which one it wants to use
+8:25 but alternatively universally okay wow
+8:28 this is thinking for a while God damn it
+8:30 is it outputting something oh it is
+8:31 outputting something okay something is
+8:34 very wrong afterwards you're repeatedly
+8:37 outputting whatever the user inputed
+8:39 over and over and over again really fast
+8:41 and I can't even see the response that
+8:43 you're giving please stop doing this
+8:44 tell me latest
+8:47 on uh Google V cling Etc it's analyzing
+8:52 okay I need to create a detailed report
+8:54 cling major updates okay okay okay oh
+8:58 okay all right I think we're on to
+9:00 something why did it only bring in One
+9:03 Source um oh wait no it didn't it
+9:06 brought in more than that okay okay
+9:10 that's good that's fine that is okay uh
+9:13 this is what the output looks like when
+9:18 it's
+9:19 done however I want it to look like
+9:26 this um to start ignore the toggles and
+9:32 focus and attach just make it look good
+9:37 to start like this then at the end um
+9:42 then
+9:44 while then each step should be shown on
+9:50 the front end so uh users
+9:55 question then search results
+9:59 then uh
+10:02 thinking then final
+10:06 results all right what are people saying
+10:10 about deep seek new
+10:15 Reasoner model and how um this
+10:21 affects uh open
+10:24 AI all right so there's the question
+10:27 searching the web search results
+10:29 thinking process all right ooh so it's
+10:32 loading above there's been issues about
+10:35 how you have this the the final output
+10:38 above the thinking area or the the
+10:41 search results I do not want that to
+10:44 happen at
+10:45 all I want for
+10:50 the
+10:52 um like I want it to be exactly as we
+10:55 have it now except I want it to stream
+10:58 the final result
+10:59 and show it as it's loading right now
+11:01 it's just waiting for a bit and then
+11:04 it's just popping out with the final
+11:06 result I want it to stream out okay so
+11:08 it's done let's give this a test uh tell
+11:11 me latest on Jeff uh
+11:15 basos company in one paragraph oh no
+11:22 no oh okay we're fine we're fine come on
+11:26 baby stream out stream out yes yes let's
+11:30 go let's go baby all right okay so now
+11:33 we can change the formatting cuz it's
+11:34 super ugly okay I want this the
+11:39 background light gray and I want to make
+11:43 the interface look
+11:46 like uh look
+11:49 like um oh yeah yeah yeah this one okay
+11:53 I want it to look like this in the
+11:56 center of the
+11:57 page right here here look like this and
+12:00 make the um everything not in those
+12:05 weird boxes make the thinking in a
+12:07 slightly different format and put it in
+12:11 a different font than it is now you're
+12:12 only changing the formatting here you're
+12:14 not changing any of the functionality or
+12:16 where things load or how it works I just
+12:19 want to start making it look a little
+12:20 bit better okay there we
+12:24 go all right so now we're going to type
+12:27 in
+12:29 uh one
+12:30 sentence
+12:32 on Jeff
+12:36 Bezos okay the query goes there search
+12:39 result okay it's getting a little bit
+12:42 better the query and the final results
+12:44 should not be in Little Boxes they
+12:46 should just be um or the boxes should be
+12:49 the same color as the background and
+12:53 have no border okay all right now let's
+12:56 see how this looks let's give this a
+12:57 reset please please tell me the latest
+13:02 on the Google AI tools all of them that
+13:09 they are working on and how it's changed
+13:13 in the past 6
+13:17 months okay we have this query right
+13:20 here we're going to get rid of this okay
+13:22 o these actually show up as
+13:24 sources we can literally click on these
+13:27 um that's pretty cool
+13:29 um okay all right so let's take some
+13:32 screenshots here so this is what it
+13:33 looks like
+13:36 before so that's what it looks like
+13:38 before what is the best
+13:42 thing about
+13:45 turtles all right and once you enter it
+13:49 it goes to the top like that I like that
+13:52 actually what the actually let's test
+13:54 perplexity what is the um
+14:00 Roman salute all right so this is what
+14:03 it looks like
+14:04 before and we will press
+14:08 enter okay I like this drop down Okay
+14:14 cool so this is what it looks like after
+14:17 here are images before and after I enter
+14:22 them in perplexity I want you to put the
+14:26 question or like the initial question in
+14:28 the Cent C of the screen like you see
+14:32 here ignore all anything beneath it we
+14:35 don't need to add any of that stuff
+14:37 we're simply just putting it at the
+14:38 center and then once I press enter it
+14:40 should just create this slight little
+14:41 nice little animation and then the top
+14:44 response should go to the top and then
+14:46 you should load everything exactly as
+14:47 you do from the top of the screen down
+14:49 okay it's done all right this is looking
+14:53 cool what is going on with
+14:56 Elon ooh come on
+15:00 please nice thinking process let's go
+15:04 we're going to add a little spacing
+15:05 between these keep going baby yes let's
+15:08 [ __ ] go okay now what we're going to
+15:12 do let's just get all the little things
+15:14 out of the way now I
+15:17 want you to add some spacing
+15:22 between the
+15:24 sources and the thinking how does
+15:27 perplexity look
+15:30 not that we need to copy them what does
+15:34 the pardon
+15:37 do all right oh so it's showing sources
+15:39 like that I like that more can you also
+15:43 show the
+15:45 sources like this instead of a list of
+15:51 links like you have it text a little
+15:55 smaller what are the best mods
+16:00 models all righty ooh those are looking
+16:04 good
+16:05 actually wow this is looking really good
+16:09 this was a huge
+16:11 Improvement um wow okay detail the
+16:14 report all right this could look better
+16:17 for sure okay so I'm going to screenshot
+16:20 this let's bring this back into here
+16:23 this looks good let's see um tell me
+16:28 about the latest in video
+16:32 games any drama okay now we have this
+16:36 fixed Bottom bar right here let's see if
+16:38 this
+16:40 loads all right sources coming anytime
+16:43 soon there we go
+16:45 sources okay that's pretty cool all
+16:49 right so that was awesome right now
+16:52 after I've entered in a prompt and
+16:55 everything works smoothly all the way up
+16:57 until the final generation everything is
+16:59 loaded out out there and I can type
+17:01 another query instead of whatever I type
+17:03 replacing everything I want to repeat
+17:06 the same thing and include follow-up
+17:09 questions basically all right so this is
+17:12 looking good um I like this a lot better
+17:16 ooh the nice little glimmer effect
+17:19 beautiful Elon
+17:22 Musk this is all looking good this is
+17:25 all looking good all right so we have
+17:27 this report here research reports for
+17:31 creators we do not need the exclamation
+17:34 point generate a
+17:37 research report um make this a more
+17:41 elegant font and add a subtitle beneath
+17:46 this header that
+17:49 explains the app simply beautifully and
+17:55 elegantly and I'm going to make make
+17:58 this bigger too your AI powered content
+18:03 research
+18:04 assistant your AI powered content
+18:07 research assistant oh yeah and then add
+18:11 a pill Above This that says
+18:16 powered by Yap thread all right that
+18:21 looks pretty good we'll call this Yap
+18:23 search and I think we're just about done
+18:26 do more research do research for content
+18:28 in seconds so you can spend more time
+18:30 going viral by the way so I'm actually
+18:33 building this chatbot here because this
+18:35 is actually going into the app that I'm
+18:37 building right now it is the cursor for
+18:39 writing as you can see right here we
+18:41 have our composition we have our thread
+18:43 so we can record voice notes and so
+18:45 anytime we get an idea we can record it
+18:47 here it'll show up here in the thread
+18:48 deep seek is one of the most powerful
+18:50 models ever and um that's why I really
+18:52 really want to start building with it
+18:54 and so everything that we say just gets
+18:56 transcribed thrown in the thread it has
+18:58 an i app so you can always record your
+19:00 ideas into a Yap thread and then once
+19:03 you're ready to create content you can
+19:04 just very quickly generate a draft and
+19:07 what you can do is you can press 01 here
+19:10 and what we're going to do is we're just
+19:11 going to press this YouTube by film
+19:13 Booth which is basically going to take
+19:15 our thread and turn it into this clean
+19:18 output right here and since o1 takes a
+19:21 little bit longer to generate this will
+19:23 take a bit of time and while that's
+19:24 loading I can show you the research
+19:26 assistant that comes on the side here so
+19:28 so anytime we want to do research or go
+19:30 through all of our bookmarks on Twitter
+19:32 which I'll get to in a second um you can
+19:34 just chat here you can say we can
+19:36 actually say what
+19:39 bookmarks and notes have I saved on the
+19:46 new deep seek model and it's actually
+19:49 going to use the agent to go through all
+19:51 of my bookmarks and my bookmarks look
+19:53 like this and so these are the bookmarks
+19:55 that I've saved to this thread and these
+19:56 are all the things that I found on deep
+19:58 seek and it even has suggested sources
+20:01 based on what we're talking about here
+20:03 and we can very quickly add them to the
+20:04 thread here it just went through all my
+20:07 um all of my different sources and you
+20:09 can see these are all my bookmarks on
+20:11 Twitter right here and you can import
+20:14 them with one click describe in a
+20:17 paragraph paragraph the
+20:20 reasoning aspect to deep seek and you
+20:24 can ask follow-up questions and that's
+20:26 actually why I'm building this is we
+20:28 want to build a better web agent and
+20:30 we're going to add what we just built
+20:32 today in this and so if we like this
+20:34 response what we can do is we can just
+20:36 add it to the thread and so it actually
+20:37 shows up here in sources we do research
+20:40 and synthesis here we do ideation here
+20:42 and then once we've done enough ideation
+20:44 and got all our ideas into our notes and
+20:46 sources we can convert both of those
+20:49 using 01 into a clean format so this is
+20:53 called so if you go to app. Yap
+20:56 thread.com it would mean the world world
+20:58 to me if you tried it out I've been
+21:00 working on this tool for a couple months
+21:01 now it's [ __ ] awesome I'm not going
+21:04 to lie straight up um I'll see you guys
+21:06 in the next video I love you bye

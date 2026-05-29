@@ -1,0 +1,592 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=E_rX4JJrYkY
+Channel: Starter Story
+Video ID: E_rX4JJrYkY
+Transcript language: English auto-generated
+Downloaded at: 2026-05-25T20:45:40.983Z
+
+0:00 This is how every indie hacker should
+0:02 grow their apps.
+0:03 >> This is Mickey, a guy from Spain who
+0:05 launched his app just seven months ago.
+0:07 And today, he's already making over
+0:09 $40,000 a month.
+0:11 >> This app was profitable from day one.
+0:13 >> But here's what he did different. He
+0:15 didn't chase Tik Tok trends or spend
+0:17 years building a personal brand. He did
+0:19 it all through a single channel, Google.
+0:22 >> Google still works today if you take
+0:24 this approach.
+0:25 >> So, I brought Mickey onto the channel to
+0:27 break it all down for us. And in this
+0:29 episode, we'll dive into what every
+0:31 builder gets wrong about distribution,
+0:34 the right combination of organic and
+0:36 paid Google search, and the exact
+0:38 five-step playbook he used to hit
+0:40 $40,000 MR in less than a year. This one
+0:43 is going to be fun. Let's dive in. I'm
+0:45 Pat Walls, and this is Starter Story.
+0:50 All right, real quick before we dive in.
+0:52 Mickey is about to break down how he
+0:54 broke 40K a month using Google search.
+0:57 But if you're watching this and
+0:58 thinking, I want to build something, but
+1:00 I don't have an idea yet. Well, I've got
+1:02 a free template that will help you find
+1:04 one. Link is right down there in the
+1:05 description. But more on that later. All
+1:08 right, Mickey. Welcome to the channel.
+1:09 Tell me about who you are, what you
+1:11 built, and what's your story.
+1:12 >> Hey, Pat, I'm Mickey. I'm the founder of
+1:14 Late Social Media API that help brands
+1:17 scale and um make content across
+1:19 multiple platforms. We went from zero to
+1:21 30K MR in just 7 months by focusing on
+1:24 Google search ads.
+1:25 >> All right, cool. Well, I'm really
+1:27 excited to talk about it. We're going to
+1:28 talk a lot about Google today, which I
+1:30 love and I'm very excited about. But
+1:31 first, before we do that, I want to
+1:32 understand what did you build? What's
+1:34 your product? What's the pricing model?
+1:35 How does it work?
+1:36 >> So, late is a social media API. What we
+1:38 do is wrap around the official APIs,
+1:41 Facebook, Instagram, Twitter, LinkedIn.
+1:44 We go through all the platform
+1:46 permissions. We uh basically pay for the
+1:49 highest plans so that you have access to
+1:51 the uh all the features available and uh
+1:54 we hand it to you in a single API that
+1:57 basically has access to everything and
+2:00 uh without limits. We charge our users
+2:02 for connected accounts. Basically we
+2:04 have three plans. We have the bill so
+2:06 the users can just start building their
+2:08 integrations. We go through accelerate
+2:10 for more accounts. Then our unlimited
+2:13 plan allows you to connect as many
+2:15 accounts as as you want. So currently we
+2:17 just crossed 40k MR. We started around 7
+2:20 months ago. So we have been growing
+2:23 pretty fast and uh well the first
+2:25 clients started landing around August
+2:27 last year and today we just crossed 4K
+2:30 MR. So our total signups are 50K uh
+2:34 since launch. We have more than 700
+2:36 paying users for now and our turn rate
+2:39 is less than 10%.
+2:40 >> That is pretty amazing. You were able to
+2:42 do 40k MR in really less than a year.
+2:45 That's really really impressive. I'm
+2:47 excited to talk all about Google and how
+2:49 you did that. But before we do, I want
+2:50 to understand how you get here. What
+2:52 were you doing before? Why did you
+2:54 decide to build a SAS business? How do
+2:55 you get here?
+2:56 >> Yeah, the before late, I spent over 5
+2:59 years experimenting with startups. I
+3:01 started an online tech company called
+3:03 Academy here in Spain. We raised venture
+3:05 capital and today has more than 100
+3:08 employees. So, uh around a year ago, I
+3:10 got deeper into building SAS products
+3:12 and recognized a gap in the market.
+3:14 There was no simple affordable API for
+3:17 social media automation and well most
+3:19 tools were either too expensive, too
+3:20 complicated or lacked good documentation
+3:23 which is essential for developers. So
+3:25 well this led to the idea of building
+3:26 late an API first platform designed to
+3:29 be developer friendly. I started
+3:30 spending my time on proven channels like
+3:33 SEO and paid ads which is basically what
+3:36 has allowed us to hit 40k MR in 7
+3:38 months.
+3:39 >> Okay, cool. So, we're not even going to
+3:41 talk today much about how you built or
+3:42 anything like that cuz I don't think
+3:43 it's all that important. You have a
+3:45 really cool approach here where you
+3:46 basically said, "I can build this. All I
+3:48 want to do is focus on distribution.
+3:49 Focus on how this thing can grow." And
+3:51 it did. It got to 40k MR in less than a
+3:54 year. What was a highle strategy that
+3:55 you had when you went into this and you
+3:57 decided to build this? What was your
+3:58 plan to grow it quickly?
+4:00 >> So, basically, we saw that social media
+4:02 is noisy. It's oversaturated. And while
+4:05 organic reach is dead for most
+4:07 businesses and it's very very difficult
+4:10 to work on it. There are people that are
+4:12 actively searching for social media
+4:14 scavening API or Twitter automation tool
+4:16 that they have a 10x higher intent to
+4:18 buy. So uh we are actually here
+4:20 capturing the intent that red exists
+4:23 rather than are trying to create it
+4:25 through viral content. We focus 100%
+4:27 high in channels like SEO and go search
+4:30 ads because they have predictable unique
+4:32 economics and uh don't depend on lack or
+4:35 trends and we use data from both
+4:37 channels to optimize landing pages
+4:39 messaging and we reinvest all our
+4:42 revenue into scaling what works.
+4:44 Mickey's story is just insane. 0 to
+4:47 $40,000 a month in just 7 months [music]
+4:49 is crazy impressive. But here's what
+4:51 happens when you get to this sort of
+4:53 level. Once you start having to close
+4:54 bigger customers, things [music] start
+4:55 to get tricky. It's not just about
+4:57 whether your app works or not. These
+4:58 customers want to know if your SOCK 2 or
+5:00 ISO 2701 compliant. And if you can't say
+5:04 yes, the deal is probably dead. This is
+5:06 why we partnered with Vanta on this
+5:08 video. [music] Vanta automates the
+5:10 painful parts of compliance so you can
+5:12 keep scaling instead of drowning in
+5:14 paperwork. It hooks right into your
+5:16 stack, runs continuous checks, and keeps
+5:18 all the evidence clean for the auditors.
+5:20 Vanta [music] handles it so you can stay
+5:22 in growth mode. Over 14,000 companies
+5:25 like Ramp and Writer already use Vanta
+5:27 to prove security in real time. And
+5:29 right now, Vanta is offering $1,000 off
+5:32 for Starter [music] Story viewers. So,
+5:34 if you're scaling fast and want to land
+5:36 customers without the compliance
+5:37 headache, check out Vanta at the first
+5:39 link in the description. Huge thank you
+5:41 to Vanta for this partnership. Let's get
+5:43 back to the episode. Okay. Yeah, and
+5:44 that's a really really good insight is a
+5:47 lot of people think when they get
+5:48 started, I need to figure out 10
+5:50 different channels. I going to have to
+5:51 do Reddit. I got to do organic social. I
+5:53 got to do a waiting list. I got to do
+5:54 all these things. I think smart founders
+5:56 like you pick one channel, then maybe
+5:58 pick a couple ideas of what could work,
+5:59 but then if something sort of starts
+6:01 working, they go all in on one channel,
+6:02 they get it to 40K MR, and then like you
+6:05 said, you get it to a million ARR. That
+6:07 I think is the right way of thinking
+6:09 about channels. So, let's talk about the
+6:11 channel that truly worked for you, which
+6:13 was Google. I know there was a little
+6:14 bit of organic, but then also you were
+6:16 running paid ads as well. Let's do a
+6:18 deep dive into this one channel that
+6:21 worked for you.
+6:21 >> So, for Google, basically, we create
+6:23 content on our website that is useful
+6:26 for our users or our target users. And
+6:29 some of this gets on uh Google and ranks
+6:32 organically and some of it it doesn't
+6:34 rank. So, we run ads for it. So
+6:36 basically it's the same content that is
+6:38 useful for both purposes. Obviously we
+6:41 prefer it if the pages show up for the
+6:43 organic Google searches but sometimes
+6:45 it's not possible. That's when we run
+6:48 ads on it.
+6:49 >> Okay, I like that. So really you're just
+6:51 writing one article or lots of articles
+6:53 that can organically rank and then you
+6:55 can run paid against. So you only really
+6:56 have to do one sort of action. Let's
+6:59 dive into the organic stuff. Can you
+7:01 break down what works in on the organic
+7:03 side? Basically for the organic side, we
+7:06 just focus on very bottom of the funnel
+7:09 keywords. We use tools like hrefs to
+7:11 find keywords with 300 800 monthly
+7:14 searches that have low competition but
+7:16 that they are very very high intent. We
+7:19 just target terms like social media API
+7:21 scheduling API for Twitter and things
+7:23 like that. Then we create content. We
+7:25 write in depth guides that answer the
+7:27 user's intent. For example, how to
+7:29 schedule Instagram posts automatically.
+7:31 And we also try and maintain a clean
+7:33 site structure, fast load times and
+7:36 mobile optimization, proper metadata. We
+7:39 also do link building. We've built back
+7:41 links through tools and also by reaching
+7:43 out manually to other people and paying
+7:45 them. And we track everything all our
+7:48 rankings with hrefs and Google search
+7:50 console and basically constantly
+7:52 optimize our CTR based on the results.
+7:56 This has already produced more than 8K
+7:58 MR in organic revenue.
+8:00 >> Okay. So you write these articles, they
+8:02 essentially rank for free through
+8:03 Google's organic search. So this
+8:05 generates around 8,000 in [music] new
+8:07 customers per month. What about the rest
+8:08 of the revenue? How's that happening?
+8:10 >> So they happen through Google search ads
+8:12 which are our guaranteed revenue engine.
+8:15 So while IO compounds over time, paid
+8:17 search gives us immediate results and
+8:19 feedback. So here's our strategy. We
+8:21 beat on high intent commercial keywords
+8:23 the same that we are trying to rank
+8:25 organically for. We create landing pages
+8:28 for each one of them. So each ad group
+8:30 has its custom landing page tailored to
+8:33 the keyword and the intent. For example,
+8:35 Instagram API has a specific page for
+8:38 Instagram. We automate everything
+8:40 through uh Google ads. We use automated
+8:43 bidding which sets a target CPA at $120,
+8:47 which is our average catch threshold.
+8:50 Google's algorithm optimizes bits to hit
+8:52 this target. And on the ad copy, we
+8:54 basically focus on value. For example,
+8:56 scale 30 days of social media in 1 hour
+8:59 or reach 100k followers fast with our
+9:02 API. On the testing side, we do
+9:04 continuous AB testing of headlines,
+9:06 descriptions, and landing pages.
+9:08 Everything tracked through Post Hook.
+9:10 Currently, we spend around $8,000 a
+9:13 month. We get $2.5 in revenue for every
+9:16 dollar spent. Monthly revenue from paid
+9:18 search is around 15K MR.
+9:20 >> I love what Mickey is showing us right
+9:23 now. He just found one channel that
+9:25 works and he's going allin. But here's
+9:27 the thing. Before you get into growth,
+9:29 you still need to build something. And
+9:31 if you're watching this and still
+9:32 feeling stuck on that step, well, I have
+9:34 something for you. I put together our
+9:36 free business idea template, and it
+9:39 walks you through seven proven methods
+9:41 to find painful problems that people
+9:44 actually want solved. In under one hour,
+9:46 you will map out 21 problems worth
+9:48 solving and then pick the one that you
+9:51 should go build. Sometimes the best
+9:53 ideas are hiding in plain sight. And
+9:55 this template gives you a simple system
+9:57 to spot them. So head to the first link
+9:59 in the description, grab the template
+10:01 for free, and potentially find your next
+10:03 idea. All right, let's get back into the
+10:05 episode. Okay. Well, I mean, I like
+10:07 that. It's cool. Like you can just do
+10:08 the organic thing and do this 8K and
+10:11 you'd have 8K MR, but you're sort of
+10:13 again treating it like a math problem.
+10:15 you're pouring a little bit of gasoline
+10:16 on the fire and when you see certain
+10:18 keywords working in paid, then you're
+10:20 channeling maybe more articles or more
+10:22 keywords around organic and then those
+10:24 feed them back. So, what I think our
+10:26 audience will love to hear from you,
+10:27 could you break down this strategy step
+10:29 by step? Imagine you have a brand new
+10:31 SAS. It's ready to go. You have an MVP
+10:33 ready to go. It's a decent product.
+10:34 Maybe you got a few customers. What
+10:36 would be your step-by-step process to
+10:37 get started on this Google strategy in
+10:40 2026? So for step one, you just
+10:42 basically find your core keywords that
+10:45 are high intent and are very very close
+10:47 to your value proposition. You can use
+10:48 edge refs, you can use seam. I mean
+10:51 there are some very very core keywords
+10:53 that you don't have to search for. You
+10:55 already know that they are very related
+10:57 to your product. For example, for us
+10:58 it's social media API. It's very very
+11:00 obvious. So um you know that these
+11:02 keywords are being searched and you
+11:04 basically create a spreadsheet with them
+11:06 the monthly search volume that they have
+11:08 and the difficulty and you focus on
+11:10 these keywords and nothing else and
+11:12 basically try and work towards ranking
+11:15 for them within 3 to 6 months. For step
+11:18 two, just focus on creating content for
+11:20 the keywords that you've found. Make
+11:22 sure that it's high quality content. Can
+11:23 be a blog, a landing page or just a free
+11:26 tool. And well, just add a big CTA to
+11:28 your signing page so that you get
+11:30 signups for this traffic. And basically
+11:33 then you can just add internal linking
+11:35 link to other pieces of content on your
+11:37 site. And you try and do that through uh
+11:39 the first week. So you try and push 10
+11:42 to 15 highquality articles in the first
+11:44 week to build momentum. It's also
+11:46 important that you don't create too much
+11:49 content and also Google doesn't like
+11:51 that. So it's better to have quality
+11:53 content. For step three, you just start
+11:55 launching your ads with the data and the
+11:58 content that you already have. So
+12:00 basically, set up a Google Ads account,
+12:02 create some ad groups based on these
+12:04 keywords that you are also targeting
+12:06 with organic content. You create three
+12:08 to five variations of the copy. Just
+12:11 focus on value propositions more than
+12:13 just stating the features. In step four,
+12:16 just optimize and scale based on the
+12:18 data that you have. You identify what's
+12:20 working. You identify the keywords
+12:21 [music]
+12:22 that are bringing new customers and you
+12:24 try and optimize for this. You just
+12:25 can't forget about the rest because the
+12:27 ones that are converting are the ones
+12:29 that really matter to you. You can post
+12:31 their performing keywords and just
+12:33 double down on the high ROI keywords.
+12:36 And then you can just start testing.
+12:38 Update the headlines, update the copy
+12:40 and add CTAs based on what converts
+12:42 best. Then just try and increase the
+12:45 budget month over month as long as the
+12:47 return on this ad spend is working. In
+12:50 step five, just track and try and
+12:52 improve your cost of acquisition. So now
+12:54 you can just set dashboard either in
+12:57 Google Sheets, data studio or any tool
+12:59 that you like. You can start tracking
+13:01 the cost of acquisition, the return on
+13:03 ad spend, the revenue and the traffic
+13:06 per channel. And then you can just start
+13:07 benchmarking against what's working.
+13:09 Good CAC is 20 40% of the lifetime
+13:12 value. And your goal is basically to
+13:14 keep CA under 30% of the first year
+13:17 revenue. Every month you can just AB
+13:19 test new keywords add copy landing pages
+13:22 based on what worked last month. So that
+13:25 would be my fivestep playbook if I would
+13:27 be starting over again.
+13:28 >> Okay. Well, thank you for sharing that.
+13:29 Great playbook. I love Google. This is
+13:31 awesome. Thanks for breaking it all down
+13:33 for us. Let's switch topics a little bit
+13:34 and talk about the product that you
+13:36 built. Could you give us a demo? I just
+13:37 want to see what this thing looks like,
+13:39 how it works, and yeah, could you show
+13:40 it?
+13:41 >> Sure. So, our app is nothing fancy
+13:44 really on the UI. We just have uh social
+13:47 media. Basically, everything that you
+13:49 can do through the API, you can also do
+13:52 through our UI. So, it's very very
+13:54 simple. Um you can just from here create
+13:56 new posts and uh yeah, basically just
+13:59 select the accounts that you want this
+14:01 content [music] to go to. We also have
+14:03 here the option to connect all your
+14:05 accounts and handle all your accounts
+14:07 from the UI. Here you can also create
+14:09 new API keys. So as a developer you can
+14:11 just basically handle all your APIs from
+14:14 here. We also have here an inbox feature
+14:16 that basically allows you to handle all
+14:18 your DMs and comments through uh the UI.
+14:21 The rest of the platforms you can set up
+14:23 web hooks. You uh get notifications when
+14:25 a post fails or when a post succeeds
+14:27 [music] when an accounts get
+14:29 disconnected. You can also check all the
+14:30 logs from your publishing activity to
+14:33 see well if you have errors or you if
+14:36 you if everything is working correctly
+14:37 [music]
+14:38 and then from here you just can access
+14:40 the API docs which are well very
+14:42 important um because you'll be building
+14:45 an integration and this is uh what
+14:47 [music] we try and spend the most time
+14:49 on so that uh well it's very very
+14:52 straightforward for you to learn and
+14:54 start using.
+14:55 >> Okay cool and on a similar note how did
+14:57 you build this? What tech stack did you
+14:58 use? What runs the business? How'd you
+15:00 build it?
+15:00 >> So most important thing that we use is
+15:02 cloud code so we can code much faster.
+15:04 We also use data fast. It helps us track
+15:06 what's bringing revenue and what's not.
+15:08 We also use Google ads spend uh up to
+15:12 $8,000 per month. And we also use eight
+15:14 refs which is around $200 per month. And
+15:16 this is essential for us for insights
+15:19 monitoring on the organic side.
+15:21 >> Okay, cool. Well, thanks for sharing
+15:22 that. Last question that we ask all
+15:24 founders who come on to Starter Story
+15:26 who built cool stuff like you. What
+15:27 would be your advice to young Mickey
+15:29 before you got started or for anyone
+15:30 watching that wants to get started and
+15:32 build cool SAS like this and learn
+15:34 Google? What would be your advice?
+15:35 >> My advice would be to just stop trying
+15:37 to be everything to everyone. When I
+15:40 realized that basically picking one
+15:41 growth channel, getting really good at
+15:43 it. In our case, [music] it's paid
+15:45 search. It was 100 times better than
+15:47 being mediocre at 10 channels. So, my
+15:49 advice would be just pick your single
+15:51 best level for growth, get obsessed with
+15:53 it, and measure it relentlessly. And
+15:56 that's great advice. As I kind of
+15:58 mentioned before, you can win with just
+16:00 one channel, right? You can build a
+16:02 million-dollar business. You can build a
+16:03 $10 million business, maybe even a
+16:04 hundred million dollar business with
+16:06 just one channel. So, if anyone's
+16:08 watching this and you take one thing
+16:09 away from that, here's proof of that.
+16:11 Thank you, Mickey, for coming on and
+16:12 sharing. Awesome business. Hope to see
+16:14 you grow.
+16:15 >> Thank you for having me.
+16:16 >> Okay, producer Gus, what' you think
+16:18 about that one?
+16:19 >> I thought it was really cool. I I think
+16:21 we talked to someone else recently like
+16:22 that was very similar but like it's very
+16:24 systematized right he has like a super
+16:27 solid system I think for you know
+16:29 whatever finding the keywords ranking
+16:31 them and [music] then running paid
+16:32 search on them. So I thought that was
+16:34 really awesome just to hear kind of that
+16:36 system and I feel like so many of the
+16:37 great founders we talked to like have
+16:40 something like that where they have like
+16:42 this methodical approach like we don't
+16:44 get lucky like it's it's all [music]
+16:45 math and I was like wow that's that's
+16:47 awesome.
+16:48 >> Yeah that's what I like about Google. I
+16:50 think a lot of people are talking about
+16:51 organic Tik Tok and these sorts of
+16:53 things or AI and you know all this but
+16:55 at the end of the day Google is like a
+16:57 very very tried and trueue acquisition
+17:00 channel for a lot of businesses. At the
+17:02 end of the day this is a great
+17:03 distribution strategy or marketing
+17:05 strategy for people that don't want to
+17:06 go on camera and want to, you know,
+17:08 maybe they're a little bit more of a
+17:09 finance type and enjoy putting together
+17:11 spreadsheets of keywords and seeing
+17:12 intent and looking at the numbers. Not
+17:14 everyone is meant to be on camera and
+17:15 and create viral content. This is this
+17:18 is a real solid plan that he put
+17:20 together and his playbook was especially
+17:22 good. I think you can really do this
+17:23 with pretty much any SAS, specifically
+17:25 B2B SAS more so, but I really think that
+17:27 this could work and is a great first
+17:29 [music] channel. Yeah. And then the
+17:30 other thing I was thinking about was
+17:31 like on Twitter, you'll see how many
+17:33 people are talking about how like Google
+17:35 [music] search is dead or like Google
+17:37 SEO is dead kind of thing. I think
+17:39 [music] we've even done like some videos
+17:41 on the Bill channel on that topic. But I
+17:43 don't know. I guess what do you think
+17:44 about that? like is he's kind of showing
+17:46 that maybe it's not this as true or what
+17:49 we're like what do you think
+17:50 >> here's the truth Google search is not
+17:52 dead but informational queries are dead
+17:55 so if you search not dead but
+17:57 essentially dead if you search Google
+17:59 for how to uh create a great social
+18:03 media post that you're probably not
+18:05 going to rank it's going to be harder to
+18:06 rank for that and those people are
+18:08 coming for information on how to create
+18:12 a good social media post they're just
+18:13 going to use chat GPT for right to get a
+18:15 more customized way better answer. But
+18:17 if they're searching for things like
+18:18 social media scheduler, they may put
+18:21 that into more so into AI, but at the
+18:23 end of the day, it's still the same.
+18:24 Like they're going to put that into
+18:25 Google, they're going to put that into
+18:26 the AI. They're going to click in
+18:28 through to your software and buy it.
+18:31 Yeah, there's an argument that one day
+18:32 you'll be able to put into AI and it'll
+18:34 write all the code and create the whole
+18:35 app for you. But right now still people
+18:37 need tools and intentbased
+18:39 there'sformational queries and then
+18:41 maybe you call it intentbased queries.
+18:43 people are still searching things for
+18:45 like I need insurance, I need a social
+18:47 media scheduling tool, I need some
+18:49 clothing or something like that. So the
+18:51 SEO is dead is more [music]
+18:53 aroundformational based queries.
+18:55 >> Yeah, I mean I find myself using like
+18:57 Chat GBT a lot more first search. But
+18:59 sometimes when I even when I'm still
+19:01 looking for like a tool or something to
+19:03 buy, I almost still go to Google instead
+19:05 of chat cuz [music] I don't know. I feel
+19:06 like Google has something it'll really
+19:08 show me versus chat will just like list
+19:10 out whatever the answer without not
+19:12 always with like a link. Anyway, so
+19:13 yeah, I thought that was interesting to
+19:15 see that that still works if you do it
+19:16 kind of in this mathematical way. Okay,
+19:19 cool. Well, SEO and Google still works,
+19:21 but you need to build something. So, I
+19:23 will shamelessly plug starter story
+19:25 build right here. If you want to find
+19:26 that idea that you can eventually put
+19:28 into the Google Playbook, check out
+19:30 Starter Story Build. I'll put a link in
+19:32 the description for that. We will help
+19:33 you come up with your idea, build it
+19:35 with just AI tools. You don't even need
+19:36 to know how to code and get it in the
+19:38 hands of real customers. I'll put that
+19:40 link down there. Thank you guys for
+19:41 watching. We'll see you in the next one.
+19:42 Peace.

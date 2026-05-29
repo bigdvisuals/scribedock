@@ -1,0 +1,691 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=qb90PPbAWz4
+Channel: Greg Isenberg
+Video ID: qb90PPbAWz4
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 Andre Karpathy, I mean, one of the
+0:01 godfathers AI has just launched
+0:04 something called Auto Research. And Auto
+0:06 Research is a huge deal and it's going
+0:08 viral on Twitter. And I just wanted to
+0:11 do an episode where I can explain to you
+0:13 in the clearest way possible what it is,
+0:16 what are the use cases, how to make
+0:17 money from it, how to be more productive
+0:19 with it, how to create impact with it.
+0:21 And by the end of this episode, I'm
+0:23 going to give you a bunch of different
+0:24 ideas, use cases for how to use Auto
+0:27 Research. I'm going to explain it to you
+0:29 in the most clear way possible. And at
+0:31 the end, I'm going to tell you how you
+0:33 can actually get started with it. Um so,
+0:36 let's go right into it.
+0:45 So, what is Auto Research? Well, it's
+0:47 like having a super nerd robot intern
+0:50 that runs science experiments on AI AI
+0:52 models for you all night without you
+0:54 doing the boring stuff. I mean, sounds
+0:56 intriguing, right? So, how do you
+0:58 actually
+0:59 you know, program it or get started with
+1:01 it? Well, the first thing is you got to
+1:03 give it a goal. So, you can say
+1:05 something like make this small AI model
+1:08 smarter. That's the goal. And then an AI
+1:10 agent will actually plan what to do,
+1:13 like different settings, code changes,
+1:15 edits the Python code for you, runs a
+1:17 short training experiment on a GPU
+1:20 um for about 5 minutes. It reads the
+1:22 results. It And then it decides what to
+1:25 change next and to repeat the loop. So,
+1:27 in some ways, you know, if you've seen
+1:29 my video on the Ralph Loop, where it
+1:31 basically would do engineering 24/7 and
+1:34 you'd wake up to new stuff happening. In
+1:37 simplest terms, that's what Auto
+1:40 Research is helping you know, it do. You
+1:43 give it a goal, the AI agent does a
+1:45 thing, you know, you tell the AI what
+1:47 better means, uh cheaper leads, more
+1:50 clicks, higher sales, better model
+1:52 score. And then the AI keeps changing
+1:54 things, testing them, and it only saves
+1:57 the changes that improve. So, what's
+1:59 really cool about it is you wake up, you
+2:01 grab the best version, and then
+2:03 hopefully you turn it into something you
+2:04 charge for or, you know, you give it
+2:06 away. I saw this tweet by Toby who's the
+2:10 CEO and co-founder of Shopify. Auto
+2:12 research works even better for
+2:14 optimizing any piece of software. Make
+2:16 an auto folder, add a program MD, that's
+2:19 just a markdown file which is really the
+2:21 foundation of what a you know, how
+2:23 you're going to be using auto research.
+2:25 And a bench script, make a branch and
+2:27 let it rip. So, that's why I started
+2:30 paying attention to auto research,
+2:31 right? When Andre Karpathy, legend, and
+2:34 Toby and and and more people, you know,
+2:36 start playing with it, I'm like, okay, I
+2:38 got to pay attention. So, I created this
+2:40 little visual for for how to think about
+2:43 what auto research is. So, you set the
+2:44 goal, uh the the AI plants an
+2:47 experiment, it edits and trains the code
+2:51 and settings. It runs a short training
+2:53 on a GPU. By the way, this is an
+2:55 important I should I should mention that
+2:57 you need a
+2:59 uh
+3:01 a Nvidia chip to actually run auto
+3:05 research or you can do it in the cloud.
+3:07 I'll talk about this at the end of the
+3:08 episode, but you you know, you do need
+3:11 that. You can't just run it on let's say
+3:12 you have a MacBook M1 or something like
+3:14 that. It reads metrics. It says, is it a
+3:17 better result? If it's if it's not, it's
+3:20 going to log the attempt and it's going
+3:21 to discard the config. If it's yes, it
+3:23 saves it to the config um and then just
+3:26 plans a different experiment and it
+3:27 just, you know, hopefully gets better on
+3:29 your goal, whatever it is. So,
+3:31 um
+3:32 let's
+3:33 uh
+3:34 let's get into
+3:36 um
+3:37 we're going to get into some of the
+3:38 ideas, business ideas around it, but
+3:40 right before that, I just want to say,
+3:42 here's a simple mental model for how I'm
+3:44 thinking about uh auto uh auto research.
+3:47 So,
+3:48 imagine you have a research boss you can
+3:50 boss around. Number one, you write, you
+3:52 know, a clear task. So, for code
+3:54 experiments, maybe it's improve this
+3:56 model test score. For business, figure
+3:59 out the top five competitors for product
+4:01 XYZ and make a short report. Step two is
+4:04 you give the uh you give the bot um you
+4:07 know, access to the code, a GPU for ML
+4:09 experiments. You obviously need to give
+4:11 it access to the internet and documents
+4:13 if you're doing reading task. The bot
+4:15 then runs a loop. So, it it plans, it
+4:17 acts, meaning it might run code or
+4:20 search, it reads results, it updates the
+4:22 plan, and then you just come back later,
+4:24 you know, uh you could be 12 hours, 20
+4:27 hours, 6 hours, and you see if it's
+4:30 logged everything, charts and metrics,
+4:31 and then it gives you a written sum-
+4:33 summary in normal language. So, you
+4:35 know, think of auto research as a
+4:37 research bot that runs experiments for
+4:39 UI C, tries lots of ideas fast, and
+4:41 keeps the winners. Quick break to invite
+4:43 you to something. Now, this isn't an ad.
+4:45 I just want to invite you to a free
+4:47 event because I think that you're going
+4:48 to get a lot out of it. I wanted to take
+4:50 1 hour of time where we just talk about
+4:52 building businesses in the age of AI.
+4:55 People say SaaS is dying. I actually
+4:57 believe the quite opposite. I think that
+4:59 SaaS is just evolving. I think right now
+5:01 is an incredible time to be building
+5:03 software startups that help you craft
+5:06 your dream life. And for all those
+5:08 reasons, I'm say I said, "Let's just
+5:10 book 1 hour of time. It's going to be
+5:12 11:00 a.m. March 12th." That's a
+5:15 Thursday, where we can go and lock in
+5:18 and just talk about building businesses
+5:20 in the age of AI. I'll include a link in
+5:22 the description in the show notes to
+5:24 join, and I can't wait to see you there.
+5:26 Okay, how do we use it? Here are some
+5:28 ideas for you.
+5:30 So, the first idea for you I have is a
+5:32 niche agent in a box, you know,
+5:34 products. This can be multiple products.
+5:36 And by the way, I put out these ideas. I
+5:38 want you to do these ideas. I think
+5:40 that, you know, even if they don't turn
+5:41 into businesses, you will learn about
+5:43 these tools, and that is is to help you
+5:46 outperform 99.9% of people on this
+5:49 planet. So,
+5:51 uh you package tiny auto research loops
+5:54 tuned for one painful niche. So, the
+5:56 example I think of is an Amazon listing
+5:58 experimenter, an email sequence tuner
+6:01 for real realtors,
+6:03 uh a pricing optimizer for SaaS. Those
+6:06 are, you know, auto research loops and
+6:09 and and ideally an
+6:11 niche that you understand well, and then
+6:13 you charge a monthly fee. So, the value
+6:14 prop is this thing runs experiments for
+6:17 you 24/7 and just show shows you the
+6:19 winner to click accept. How valuable is
+6:22 that? And how many different niches are
+6:24 there that, you know, this plays into?
+6:27 The hard part is figuring out what the
+6:29 what what's the pain points and then and
+6:31 then obviously, you know, you want to be
+6:32 quick quick to market, right? So,
+6:34 here's a visual of it. Pick the painful
+6:36 niche, design the tiny auto research
+6:38 loop, run experiments automatically, see
+6:41 which setup works best, turn best setup
+6:44 to a simple agent product, and then you
+6:46 charge that monthly subscription. Number
+6:48 two,
+6:49 you're going to want to, you know,
+6:50 here's an idea, print money using an AB
+6:52 testing for marketing. So, this is it's
+6:55 it's very similar,
+6:56 um but instead of, you know, uh
+7:00 in- instead of uh
+7:02 you know, doing it for realtors or
+7:03 whatever, you're doing it for ads and
+7:05 landing page experiments. So, landing
+7:07 pages, so the agent writes variants of
+7:10 headlines, layouts, and offers, pushing
+7:11 them to traffic, measures which one
+7:14 converts better, and keeps iterating.
+7:15 So, this is like conversion rate
+7:17 optimization around landing pages. You
+7:19 know, the old Think of, you know, tools
+7:21 like Optimizely. That's a SaaS tool
+7:23 that, you know, when I first moved to
+7:25 San Francisco, you remember how big they
+7:27 were and everyone was talking about
+7:28 Optimizely and AB testing, and it's
+7:30 like, well, this is the future of that.
+7:33 Uh auto research for different landing
+7:35 pages. You can also do use auto research
+7:38 for something like ads, which auto auto
+7:40 creatives, it auto test angles, and
+7:42 audiences, and then it keeps the combat
+7:45 combos that lower CAC or raise ROAS. So,
+7:48 you know, you profit by running this for
+7:50 your own prod- products. Like if you if
+7:52 you want to build your own products and
+7:53 just use this internally, that works.
+7:55 Or, you know, all offering an always-on
+7:58 experiment engine to clients as a
+7:59 retainer service. For 5K a month, I'm
+8:02 going to, you know, give you the best
+8:03 landing pages every single month and
+8:05 it's just going to come to your inbox,
+8:06 that sort of thing.
+8:08 Visual of it, business goals,
+8:11 uh is you know, the goal that you're
+8:12 giving the auto research is more sales.
+8:15 It's generating things like pages and ad
+8:17 versions, sending traffic to the
+8:18 versions, measuring conversion and
+8:20 revenue.
+8:21 Um does any version beat the current
+8:23 best? Um you know, if if it doesn't,
+8:25 then you're going to keep the current
+8:26 control. But if it does, you know,
+8:28 you're promoting the winner to a new
+8:29 control and it you're asking for the AI
+8:32 for new ideas.
+8:34 All right. Hope Hope your creative
+8:36 juices are are starting to get flowing.
+8:37 You're starting to understand a little
+8:38 bit more about how how it's working, how
+8:41 you think about goals, how you can think
+8:42 about agents, and how you can set up
+8:44 these loops.
+8:45 Number three, research as a service. So,
+8:47 auto research's recipe is basically a
+8:50 loop for doing research, right? Cuz
+8:52 you're searching, reading, summarizing,
+8:55 and you're comparing, and then you're
+8:56 repeating. So, how do you point that at
+8:58 money problems? Like market and
+9:00 competitor research for startups. So,
+9:02 constantly updated reports on who's
+9:04 doing what, pricing, features, and gaps.
+9:07 Super valuable. Investor and M&A decks,
+9:09 fast technical and market due diligence
+9:11 summaries. Super valuable. Comp-
+9:14 compliance and regulation tracking for
+9:16 niches. I don't know, crypto,
+9:17 healthcare, finance. Super valuable. So,
+9:20 you can charge per report like a
+9:22 one-off, or you can set up like a
+9:24 monthly subscription for always fresh
+9:27 dashboards. So, visual uh define client
+9:31 research question, auto research
+9:33 searches and reads,
+9:35 um summarize and compare findings,
+9:37 create reports and dashboards, deliver
+9:39 insight to client, and the client pays
+9:41 per report or monthly, whatever you
+9:43 decide. Number four,
+9:45 uh, power tool inside your own product.
+9:47 So, if you already have built a SaaS or
+9:50 workflow, embed an auto research style
+9:53 agent so your users can press optimize,
+9:55 just like a big I envision like a big
+9:57 button that just says optimize, and the
+9:59 system runs a mini research loop for
+10:01 them. So, for example, tune prompts,
+10:03 pick best pricing, rank suppliers. Then,
+10:06 you can charge higher tiers for this
+10:08 feature, or you can use it as a wedge to
+10:10 upsell pro and enterprise plan. So,
+10:12 maybe you,
+10:13 uh, maybe that's a part of pro and
+10:15 enterprise, maybe it's something that
+10:16 you just send an email to, you know,
+10:17 your entire list and you're like, "Hey,
+10:20 you know, we have this really powerful
+10:22 tool." Imagine you press this button,
+10:23 it's like it's like bending spoons,
+10:25 right? It's like bending spoons. Like,
+10:27 how is this,
+10:28 um, bending spoons is not the private
+10:30 equity group I'm talking about. I'm like
+10:31 the idea of you can bend a spoon, right?
+10:33 It's incredible that you'd be able to
+10:34 optimize, press a button, and this would
+10:36 happen. So, visual over here, have an
+10:38 existing SaaS, add an optimize button,
+10:41 users run mini research loops, tool
+10:43 suggests better settings or prices,
+10:45 users see better results, offer higher
+10:47 price pro plans and enterprise plans.
+10:49 Number five, this is a saucy episode, by
+10:52 the way.
+10:53 This is saucy, all right. Agency that
+10:56 sells, "We run more tests than anyone
+10:58 else." Because auto research lets you
+11:00 run hundreds of experiments instead of a
+11:02 few, you have a simple pitch, "We do 100
+11:05 times more testing than other shops for
+11:07 the same or lower fee." A niche example,
+11:10 a Shopify store conversion lab, B2B SaaS
+11:13 pricing experiment service, email
+11:15 subject line and sequence optimizer. You
+11:17 charge per month, and a bonus if you hit
+11:19 specific KPI lifts, rev share
+11:21 performance fee. People love that, you
+11:23 know. Of course they're going to be, you
+11:25 know, interested in Yeah, if you can do,
+11:28 if you can lift this KPI, we'll give you
+11:30 some bonus. So, here's the uh
+11:33 the visual. Starting optimization
+11:35 agency, use auto research to run many
+11:37 tests, improve stores, pricing, emails,
+11:40 and funnels. Show clients more
+11:42 experiments and wins.
+11:44 Charge monthly retainer and performance
+11:46 fee.
+11:48 Number six, and we've got about uh 10.
+11:51 Yeah. So, we're almost almost done, and
+11:53 then after we're going to talk about
+11:56 um
+11:56 just some cool interesting, you know,
+11:58 stories around auto research, and then
+12:00 I'll end with uh
+12:03 you know, how you can set this up, you
+12:04 know, very briefly. So,
+12:07 auto quant for trading ideas. So, you
+12:08 can use auto research to run small, fast
+12:11 uh backtests of many simple trading
+12:13 rules. So, LLM-based factor screens,
+12:15 sentiment filters on one GPU overnight.
+12:18 So, you can keep the few strategies that
+12:20 look promising, then either trade on
+12:22 your own account or sell signals and
+12:24 strategy reports. So, depends if you're
+12:26 a trader, maybe you're doing yourself.
+12:29 Um or yeah, you can just, you know, sell
+12:31 this as a digital product or yeah, yeah,
+12:34 yeah, basically a digital product. So,
+12:36 you define the simple trading rules, you
+12:38 run many backtests overnight, you review
+12:40 the strategy performance, you keep only
+12:42 promising strategies, trade your own
+12:44 capital, or you can sell the signals. I
+12:46 think finance is changing a lot, um and
+12:49 I think with things like auto research,
+12:51 uh
+12:52 you know, it just
+12:54 it's it it's going to be an unfair
+12:56 advantage for a lot of people.
+12:58 Um
+13:00 So, I think you're going to see a lot
+13:01 more digital products
+13:04 uh that people sell, and also, you know,
+13:05 just using their own money, trading
+13:07 themselves instead of giving
+13:10 uh 1% or whatever to a financial
+13:12 advisor.
+13:15 Um I'm sure also, by the way, a lot of
+13:17 people are going to get burned by this,
+13:18 too. Like, they're not They're just
+13:20 going to blindly just trust an auto
+13:22 research. You need to have a human in in
+13:24 the loop, and you need to manage that uh
+13:26 obviously accordingly. But yeah, you can
+13:28 just see Yeah, there's definitely going
+13:30 to be some people are going to get
+13:31 burnt. You just give
+13:33 the entire um
+13:36 They're just going to like give a bank
+13:37 account and just let auto research just
+13:39 trade for it. I mean,
+13:42 it would be interesting it would be an
+13:43 interesting test, that's for sure.
+13:44 Number seven, always on lead
+13:46 qualification and follow-up. Point an
+13:48 auto research style agent at your CRM,
+13:51 like a salesforce or something like
+13:52 that, and inbound leads. Let it test
+13:54 rules and messages to see which leads
+13:57 are most likely to buy, right? It auto
+14:00 grades the leads, suggests next actions,
+14:02 and drafts follow-up. So, sales people
+14:04 only focus on high-value deals, so it's
+14:06 more revenue per hour spent. Visual over
+14:09 here for you. Connect to CRM, auto you
+14:12 know, auto research test the leads, rank
+14:14 leads by likelihood to buy, draft
+14:17 follow-up messages, sales focus on best
+14:19 leads, revenue per sale increases.
+14:21 Eight, finance ops autopilot for
+14:24 businesses. Use the loop to grind
+14:26 through invoice matching, expense report
+14:28 generation, and exception detection with
+14:31 continuous small improvements rule and
+14:32 prompts. You can sell this as we cut
+14:34 your AP expense time in half, either as
+14:38 software or as an op service with a
+14:39 small team and agent. By the way, I can
+14:41 totally see someone like someone
+14:43 starting this and this gets acquired by
+14:45 one of the large fintech companies or
+14:47 one of the large banks. Uh so, visual uh
+14:51 here, ingest invoices and expenses. The
+14:53 auto research improves rules and
+14:55 prompts, matches invoices and detects
+14:57 exceptions. It generates clean expense
+14:59 reports, reduces manual finance work,
+15:01 and then you can sell it as a software
+15:03 or op service. Or you start maybe you
+15:04 start as op service and then
+15:06 uh you kind of evolve into the software.
+15:10 Two more for you. Number nine, an
+15:11 internal productivity lab for your own
+15:13 org. I thought this was interesting. So,
+15:16 treat your company like Karpathy's GPU
+15:19 lab. Define KPIs, so like response time,
+15:22 close rate, ticket resolution, and let
+15:25 agents iterate on workflows and
+15:27 templates and routing rules. So, you
+15:29 just get fewer meetings, less manual
+15:31 grunt work, and then you personally
+15:33 touch only the high-impact decisions
+15:35 when everyone else rides the improved
+15:37 process. So, the goal here is defining
+15:40 the key metrics, Auto Research is
+15:42 testing the new workflows, it's
+15:43 improving templates and writing rules,
+15:45 you're cutting meetings and manual
+15:46 tasks, that's good, team focuses on
+15:48 high-impact work, and then higher
+15:50 productivity and ideally higher profit.
+15:53 Last idea for you, done for you research
+15:56 or due diligence shop. So, you use the
+15:58 research loop to chew through docs,
+16:00 filings, product pages, and reviews and
+16:03 keep an evolving living memo for
+16:05 clients, like investors, acquirers,
+16:07 execs. You make money by selling fast,
+16:10 well-structured briefs, and a monthly
+16:12 update packs instead of one-off manual
+16:15 research logs.
+16:16 Um so,
+16:17 uh you know, the the goal get an
+16:20 investor or acquirer question, this
+16:21 happens all the time, Auto Research
+16:24 reads through docs and filings, it
+16:26 summarizes that product market and risk,
+16:28 and maintains a living memo for the
+16:29 client, it delivers a brief and updates
+16:31 packs, and the client pays for reports
+16:33 and ongoing access.
+16:36 Um
+16:36 I would pay for something like this.
+16:38 Um so,
+16:39 hopefully someone builds it.
+16:41 All right. So, those are a bunch of
+16:43 ideas for you. I also saw a couple
+16:45 interesting things this morning. Um my
+16:48 good friend Morgan Linton, uh who's, you
+16:51 know, been on the pod before, he says,
+16:52 "I woke up this morning and all I can
+16:54 think about is Auto Research. So many
+16:57 ideas swirling around in my head, not
+16:59 sure 99% of the world realize the
+17:01 incredible breakthroughs Karpathy's
+17:03 making and just sharing casually on X.
+17:06 Right now, where my mind is going is
+17:08 medicine. It feels like in many ways
+17:11 clinical trial design is itself kind of
+17:14 like a hyperparameter search. I know
+17:16 right now trials cost tens of millions
+17:19 of dollars minimum. It feels like an
+17:21 agent swarm could optimize treatment
+17:23 protocols on small proxy experiments,
+17:26 promote the most promising candidates,
+17:28 and then move to humans to review. So,
+17:30 humans still very much in the loop, but
+17:32 later on, and experimentation going much
+17:35 deeper, happening faster, and for far
+17:37 less money. I think for me, while I'm
+17:38 not a doctor,
+17:40 he's an engineer. What I'm the most
+17:42 excited about when it comes to AI is the
+17:45 impact it will have on human health and
+17:47 critical areas like disease treatment.
+17:50 Might be a crazy idea, so a real doctor
+17:52 can jump in the comments and slap me on
+17:54 the wrist here. I looked at the replies,
+17:56 I didn't see
+17:57 you know, any any doctors come in, but I
+17:59 don't know. I just can't stop thinking
+18:01 about how
+18:02 what Karpathy has discovered here could
+18:04 have some pretty profound implications.
+18:06 So, only halfway through my coffee
+18:07 though, but woke up this morning, and
+18:09 this is what I'm thinking about, so I
+18:11 thought I'd share. I agree, I think
+18:13 there's a lot of really interesting not
+18:15 just like business profit ideas, but
+18:17 also just like medicine,
+18:19 science,
+18:21 research. So, I'm excited for people to
+18:24 to take this and and to continue with
+18:26 it.
+18:27 Um I also saw this tweet here.
+18:29 Uh what's after auto research? It's
+18:31 Karpathy's new open source project
+18:34 AgentHub. So, Karpathy also launched
+18:36 AgentHub. What is AgentHub? It's GitHub
+18:38 for humans. Uh sorry, GitHub is for
+18:41 humans, AgentHub is for agents. So, it's
+18:43 basically a GitHub for for agents. An
+18:45 agent swarm collaboration platform, a
+18:47 very promising direction. I'm watching
+18:49 him speed run a one-man billion-dollar
+18:53 uh
+18:54 company. If you look at the GitHub for
+18:57 AgentHub, it says, "First use cases for
+18:59 auto research, but it's a lot more
+19:01 general than that, exploratory project."
+19:04 He says, "Agent-first collaboration
+19:06 platform." A bare get repo, a message
+19:08 board designed for a swarm of agents
+19:10 working on the same code bat code base.
+19:13 Think of it like a strip down GitHub
+19:17 where there's no main branches, no main
+19:18 branch, no PRs, no merges, a sprawling
+19:20 dag dag of commits in every direction
+19:23 with a message board for agents
+19:24 coordinate coordinate.
+19:27 I think this is really interesting and
+19:29 just like whenever Karpathy's up to
+19:30 something, I'm always paying attention.
+19:32 So, I had to put that one in there as
+19:33 well.
+19:34 So,
+19:35 um you know, maybe you've gotten to the
+19:37 end of uh
+19:39 this episode and you're kind of like,
+19:40 "Okay, I kind of I think I understand
+19:42 what auto research is. I think I know
+19:45 what, you know, Karpathy's a G, um
+19:47 Toby's a G, like all these smart people
+19:49 are are are playing with it. Um how do I
+19:51 get started?" Well, to get started, I'd
+19:53 recommend
+19:55 um
+19:56 just tell Claude code to get you
+19:59 started.
+20:00 So, you know, I went ahead and I
+20:03 basically was like
+20:05 uh
+20:06 I I gave um
+20:08 Claude code the le- the this um
+20:12 this GitHub repo. The GitHub the auto
+20:14 research GitHub repo.
+20:16 And wow, 25,000 stars already. So, this
+20:19 is crazy. Um it's really growing growing
+20:21 quick.
+20:24 Um so, I just gave it I gave
+20:27 uh gave it the link and I was just like,
+20:28 "I need help installing auto research by
+20:30 Karpathy."
+20:31 Um and it says, "Here's how to install
+20:34 it and set up auto research by Karpathy.
+20:37 You need an Nvidia GPU." So, I talked to
+20:39 I talked about that in the beginning. It
+20:40 was tested on a H100, but other Nvidia
+20:43 GPUs should work and you need a UV
+20:45 package manager. So, you have to install
+20:48 UV, you clone the repo, you install the
+20:50 dependencies, um you prepare the data
+20:54 and run a training experiment. In my
+20:56 case,
+20:57 I don't have an Nvidia GPU. I'm actually
+21:00 using a MacBook and an M1 Pro. I know
+21:04 I'm I need a
+21:06 I need a upgrade
+21:08 um
+21:09 to a new Mac. So, I was like, "So, wait,
+21:11 I need an Nvidia GPU to do this?" Um
+21:14 but, there's a few options. Cloud GPU um
+21:18 ch- you know, you can So, you can rent
+21:20 an Nvidia GPU from a service like Lambda
+21:22 Labs, Vast AI, RunPod, or Google Colab.
+21:26 Some offer free tier with GPUs. This is
+21:28 the most straightforward forward path.
+21:30 So, that's that's the answer to people
+21:32 who don't have an Nvidia chip. Just rent
+21:34 it on one of these services. I
+21:37 personally use Google Colab. Why?
+21:39 Um
+21:40 I just know Google the best and trust
+21:42 Google the best. Um
+21:45 you know, it also says you can try it,
+21:47 you know, via Apple Silicon via an MPS
+21:49 backend. I'm like, "No, I'm not going to
+21:51 do that." Um so, with that that's what
+21:53 road I did. I went on Google Colab. The
+21:55 easiest way to get started, you go to
+21:57 colab.google.com, you create a new
+21:59 notebook, you change the runtime to
+22:02 change runtime T4 GPU, and you run a
+22:04 bunch of commands. That might be like
+22:07 complicated, sound complicated. You This
+22:09 is what Colab looks like. You literally
+22:11 just tell you know, you you listen to
+22:14 what um
+22:15 Cloud Code tells you to do, and you just
+22:17 paste it in, and you can get started.
+22:19 So,
+22:21 you know, if if people are interested, I
+22:23 can spend you know, more time
+22:26 with this with Auto Research as I'm
+22:28 learning, sharing more about it. But, I
+22:30 just wanted to do give you a quick
+22:31 primer on what it is, why it's
+22:34 important, what are some ideas on how
+22:37 you can actually use this thing, um and
+22:40 then how are people installing it?
+22:42 They're just you know, you can use Cloud
+22:44 Code as your helper to get it installed
+22:46 installed, and you're going to want to
+22:48 rent uh a a GPU in the cloud at least to
+22:51 start. So, hope this has been helpful.
+22:54 Um this is an another solo podcast that
+22:57 I'm doing on the Startup Ideas Podcast.
+22:59 Last time I did this last week, I had a
+23:01 lot of comments that said, "Yeah, Greg,
+23:03 I actually really like when you just
+23:05 come in solo and just start like telling
+23:07 us what's on your mind and stuff like
+23:09 that in real time." So, I'm here. I read
+23:11 every single comment. So, you know, keep
+23:14 commenting, keep liking, keep
+23:15 subscribing, and I'll keep, you know,
+23:17 putting this out there for you for free.
+23:19 Yeah, I'm excited to see what you end up
+23:22 using this for. Um of course, it's
+23:24 early, right? Like this is this is brand
+23:27 new.
+23:28 Um people are still trying to figure out
+23:30 what are the use cases, but I always
+23:31 find that, you know, in the in the fog
+23:34 in the fog, people don't really
+23:36 understand where the opportunity is is
+23:39 when there's
+23:40 sometimes an opportunity. So,
+23:42 um one thing I've just learned in my
+23:44 career is just like when I see people
+23:46 like Karpathy doing things like this,
+23:49 you want to pay attention, you want to
+23:50 tinker with it, you want to have some
+23:52 fun with it, and you want to see what
+23:53 it's all about. So, thanks again for,
+23:56 you know, giving me your time.
+23:58 Um
+23:59 hope this has been clear. Share this
+24:01 with a friend uh who you think would see
+24:03 it valuable. Um and if you need any uh
+24:06 if you need any ideas more ideas on
+24:09 startups to build
+24:11 uh you know, with AI, ideabrowser.com
+24:13 definitely your place to go, and I'll
+24:15 see you in the comment section, and uh
+24:18 I'll see you next time, you know? Have a
+24:20 creative day.

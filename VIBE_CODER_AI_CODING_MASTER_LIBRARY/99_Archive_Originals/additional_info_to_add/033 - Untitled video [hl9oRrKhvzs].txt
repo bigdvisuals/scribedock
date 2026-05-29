@@ -1,0 +1,220 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=hl9oRrKhvzs
+Channel: Riley Brown
+Video ID: hl9oRrKhvzs
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 Many people are quickly realizing that
+0:01 you can actually build an app with AI
+0:04 and get it on the App Store. But most of
+0:06 these apps are relatively simple apps.
+0:08 Well, that was up until last week
+0:10 because now you can create a full iOS
+0:12 app with AI that has a database, AI
+0:15 integrations like different APIs, and
+0:18 you can also accept payments. And you
+0:20 can do all of this without writing a
+0:22 single line of code, and you can get the
+0:24 app on the App Store, and that's exactly
+0:26 what I'm about to show you right now.
+0:27 So, what we're going to do is we're
+0:28 going to go to vibe.code.dev, and all
+0:30 you do is just type this into any
+0:31 browser, and here we can build a mobile
+0:35 app. Okay, so this is my idea for an
+0:37 app. I want to create an app that uses
+0:39 the brand new Nano Banana Pro, and we're
+0:42 basically just creating the front end
+0:43 shell of the app in the first prompt,
+0:45 but it will be for parents to help their
+0:47 kids with their homework. And so, you're
+0:48 going to be able to take a photo of your
+0:50 kids homework, and it's going to edit
+0:51 the image in such a way that it will be
+0:53 as if you wrote on the homework the
+0:56 correct answer, and it will show all of
+0:58 the work. And we're going to add the AI
+1:00 feature right after we use this first
+1:02 prompt. So, all we need to do is just
+1:04 copy this first prompt. We are going to
+1:05 use Claude Opus 4.5. We're going to
+1:08 paste in this prompt, and we are going
+1:10 to run it. And so, this is using Claude
+1:13 code. Vibe code app uses Claude code out
+1:15 of the box, so it's literally Claude
+1:17 code as if you were using it in your
+1:19 terminal. And now the app is loading.
+1:21 Okay, so it's done now. Okay, so we have
+1:24 it loaded up. Let's see this. And so,
+1:26 I've actually prepared a homework
+1:29 assignment we can take a photo of. So,
+1:31 we can take a photo of this homework.
+1:34 And
+1:36 ah, it has this little pencil animation.
+1:38 I like it. Our AI is carefully analyzing
+1:41 the problem and writing the solution
+1:42 step by step. And bang, this is where
+1:46 the edit will come in. So, now let's go
+1:48 ahead and add the AI feature here. All
+1:51 right, so now if we go to the API tab,
+1:53 and we go to the image, and we click
+1:55 Nano Banana Pro, and we add it to the
+1:57 prompt, please can you allow me to use
+2:01 this API to add the correct answer and
+2:07 all of the work. So, the prompt for the
+2:10 AI should be complete this assignment by
+2:15 writing the correct answer in pen and
+2:19 show all work for all problems. So, we
+2:23 can add the AI feature. And so, this is
+2:26 what we just entered a prompt. Now, what
+2:28 we want to do is we want to actually
+2:30 create a database. So, now what we can
+2:33 do is we can actually enable a backend.
+2:36 So, we're going to set up a Vibe code
+2:38 backend. Please move the AI feature to
+2:43 the backend, and also add a database and
+2:48 authentication
+2:49 in order to store previous images
+2:54 generated, etc. So, we just set up the
+2:57 Vibe code cloud. Okay, so now the AI is
+3:00 done with the previous prompt, and now
+3:01 it's implementing the backend. Here we
+3:03 can actually test and see if the app
+3:05 works. Let's go ahead and do that. We
+3:06 can now take our app, put it up to the
+3:08 homework.
+3:09 We'll take a photo here. Now it is
+3:11 working on it. Oh, and there you go.
+3:14 Look at that. It perfectly answered
+3:16 George Washington. It solved the math
+3:18 problem. Here it says racial injustice
+3:20 and moral courage. And then for four, I
+3:23 put this partial problem to see what it
+3:25 would do, and it just didn't answer it.
+3:27 And so, that is really cool. And here we
+3:29 can hit save. It's actually not going to
+3:30 do anything because it hasn't yet
+3:32 implemented the backend. And so, it's
+3:35 still doing that. So, now we're going to
+3:36 wait for the backend and database to be
+3:39 created. Okay, so it's done. Let's check
+3:41 it out. As you can see here, there's now
+3:43 a profile icon. I can select the profile
+3:45 icon, and I can actually sign up. Okay,
+3:48 so I just signed up. Let's hit save.
+3:50 We'll go back to the app here. And so,
+3:53 if I open up this document, now let's go
+3:54 ahead and take a photo of the homework.
+3:56 It's now working on it. Uh-oh, we got an
+3:59 error. Let's go ahead and just press
+4:01 fix, and this is free. So, when this
+4:03 happens, it's free for it to fix the
+4:05 issue. Now we'll just wait for the error
+4:07 to be fixed. Okay, so it is now done.
+4:10 Let's go ahead and take a look here. If
+4:12 we open up that Google Doc, let's go
+4:14 ahead and try this.
+4:18 Oh, it's done. And look at that. It
+4:20 solved it perfectly, and it answered all
+4:23 of these questions. Okay, so now what
+4:25 we're going to do is we're going to
+4:26 press save. Now, if we go to the cloud
+4:29 tab, and we go to the generated image
+4:31 tab, we should see it right here. There
+4:34 you go. We now have the image URL right
+4:38 here. So, these images are being stored
+4:40 in the database, and we can sign in. And
+4:43 so, we have the database integrated
+4:45 perfectly, and we have the different
+4:47 tables that we can just see directly in
+4:49 our web view, and we can also see it
+4:51 within our mobile view as well. As you
+4:53 can see here on the phone, you can also
+4:55 see the entire database just like you
+4:57 can on the web. And we have
+4:59 integrations, and now we need to just be
+5:01 able to accept payments before we send
+5:04 it to the App Store. And this process is
+5:05 very simple. Just all you have to do is
+5:08 pinch and go to the payments tab. And
+5:11 once we have the payments tab open, and
+5:12 by the way, this is an identical process
+5:14 to if you do it on web. So, this is the
+5:16 same exact thing. Uh for now, I'll show
+5:18 you how to do it on web. You can just
+5:20 hit finish setup here. And then once it
+5:22 initializes, it basically created a
+5:24 project on RevenueCat automatically. And
+5:27 so, now we can make this a
+5:29 create a monthly subscription for $4.99.
+5:31 Also, I want you to please add a paywall
+5:36 screen. So, if the user has not paid
+5:38 when they go to click on a project, hit
+5:40 them with a paywall. Um like if they go
+5:42 to try and take a photo before they've
+5:44 hit a paywall, right as they press the
+5:45 button, a paywall should come up, and it
+5:47 should make them pay the $4.99 per month
+5:50 in order to get access. Make that screen
+5:53 look professional. And so, we can run
+5:55 that. And then very quickly, what I'm
+5:57 going to do is go to the image tab.
+5:58 We're going to do 3D render icon of a
+6:03 camera over a homework assignment.
+6:08 And I can copy this so that I can run it
+6:10 many times. Here, we're going to
+6:12 generate images. images can be placed
+6:14 directly into the app. We can generate
+6:16 audio as well. I don't really want to
+6:17 generate audio for this one. Yeah, and
+6:19 then we can add this prompt to the queue
+6:21 here. I think I like this one right
+6:24 here. So, we can add this icon. Please
+6:27 use this icon on that paywall screen.
+6:32 Make this big. Make this the main icon
+6:37 {slash} image for this screen. And as
+6:40 you can see here, it created a product.
+6:43 It created a price. And it is basically
+6:45 creating the whole offering within
+6:48 RevenueCat. And if we come to RevenueCat
+6:50 and we click on Study Sketch, we can see
+6:52 that it created this project, and we
+6:54 have no active trials yet because no
+6:56 one's paid for you. Okay, so it's done.
+6:59 Let's give this a try. So, now we have
+7:01 this open. Now, what I'm going to do is
+7:03 I'm going to go to this right here for
+7:06 homework. Let's click.
+7:08 Boom! There you go. Unlock with premium.
+7:11 If we hit start, now we can test the
+7:14 valid purchase. And as you can see here,
+7:16 if we go back to RevenueCat, if we
+7:18 refresh our page, we should see There we
+7:21 go. $5 revenue. So, this is a test
+7:23 purchase. It won't be an actual purchase
+7:26 until you actually get it on the App
+7:28 Store. This is sandbox data, but this
+7:30 paywall did indeed work. You can see a
+7:32 few seconds ago, we did a test store of
+7:35 $5. And so, we created an app with
+7:38 database, AI integrations, and it also
+7:40 accept payments. So, a full backend. And
+7:43 now we can send it to the App Store
+7:45 simply by pinching. Now, we're going to
+7:46 hit publish to App Store, and we're
+7:48 going to hit get started. I've already
+7:50 signed in with my Apple developer
+7:51 account. I can just hit next, next. And
+7:53 now you just need an Expo token, which
+7:55 I've already gotten. And now your app is
+7:59 on the way to the App Store, and now
+8:01 it's going to be sent to TestFlight. And
+8:03 there you go. In this very quick video,
+8:05 you saw me create an app with a front
+8:07 end, with a database, with AI
+8:08 integration. It accepts payments. So, it
+8:10 has a fully integrated backend. We sent
+8:12 it to the App Store. It's really that
+8:14 easy. I'll see you guys here for the
+8:15 next video.

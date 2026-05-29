@@ -1,0 +1,262 @@
+Python Cybersecurity for Beginners: Firewall Part 1 - Simulation
+
+0:06 so today I'm really excited to start a
+0:08 new series and we're going to be looking
+0:10 at a whole range of different little
+0:12 mini python projects all related to
+0:15 cyber security and cyber security
+0:16 adjacent Fields so all these mini
+0:19 projects will be completely beginner
+0:20 friendly meaning if you just know the
+0:22 basic python syntax then this is a great
+0:24 way to start applying your knowledge in
+0:26 a more practical manner specifically
+0:29 related to fields that are hopefully of
+0:30 interest to you and also know that for
+0:32 most of these projects we'll actually be
+0:34 spending a few episodes on each we're
+0:36 going to build on work we've done in
+0:37 previous weeks allowing us greater
+0:40 insight into the mechanics of these
+0:41 little apps and it'll help us better
+0:43 understand what the actual real world
+0:45 application of these programs will look
+0:46 like finally I also want to mention
+0:48 especially for beginners these projects
+0:50 are not only a great opportunity for you
+0:52 to learn but also they'll be great for
+0:54 your portfolio and will really help you
+0:56 break into cyber security if you're
+0:57 somebody that's currently looking for a
+0:59 job or you intend to apply for a job in
+1:01 the near future Napoleon like anyone can
+1:04 even know that so in today's first L
+1:07 we're just going to be building a very
+1:08 simple little firewall simulator and the
+1:10 reason for this is it'll help us just to
+1:12 understand from a very high level the
+1:14 kind of mechanics or logic underpinning
+1:17 what exactly it is a firewall is doing
+1:19 in follow-up videos we'll work on this
+1:21 blueprint and add some meat to it and in
+1:23 this way will actually build some
+1:24 functional firewalls that you could
+1:26 potentially even use on your own system
+1:28 but before we dig into it I just want to
+1:30 give a brief 60-second Max overview of
+1:32 exactly what a firewall is so when most
+1:34 of us think of a firewall probably the
+1:36 first thing that comes into your head is
+1:38 a piece of hardware and you're not
+1:39 completely wrong firewalls are often
+1:42 housed in their own unique dedicated
+1:44 Hardware especially in Enterprise
+1:45 application but honestly a firewall is
+1:47 really just the program it's a program
+1:49 that sits exactly at the interface
+1:51 between an internal Network as well as
+1:53 an untrusted external network like the
+1:55 internet the program then monitors all
+1:57 incoming traffic to the network and then
+1:59 it evaluates the traffic based on a set
+2:02 of predetermined rules each evaluation
+2:04 will lead to one of two outcomes either
+2:06 the rule will determine that you should
+2:07 block the traffic in which case the data
+2:09 packets are dropped and it's not allowed
+2:11 to enter into the internal Network or
+2:12 alternatively the rule will allow for
+2:14 the data to enter the network so I think
+2:16 of a firewall really as an algorithmic
+2:19 bouncer it stands in front of an
+2:21 entrance and decides who's allowed in
+2:23 and who is not allowed in so today's
+2:25 simple firewall simulator is basically
+2:27 going to do four things first we're
+2:29 going to use a python dictionary to
+2:30 define a set of firewall rules then
+2:33 after that we'll use a function to
+2:34 generate a list of random IP numbers
+2:37 which will assimilate Network traffic
+2:39 then for each of these simulated IPS
+2:40 we'll apply the rule and decide on an
+2:42 action either allow or block and finally
+2:45 we'll output to the terminal the result
+2:47 of each evaluation all right that's it
+2:50 so let's get to our actual
+2:54 code okay everyone here on our IDE we're
+2:57 first going to import the random module
+2:59 and and we're just going to use this
+3:00 module for the purposes of our
+3:02 simulation now for the rest of the code
+3:04 I'm actually going to start at the
+3:05 bottom and we'll work our way upwards
+3:07 and the reason for this is simply
+3:08 because due to the nature of how this
+3:10 code will run I think it'll be easier
+3:12 for us to understand it that way so
+3:13 right at the bottom we'll drop our mainu
+3:16 and the main guard simply ensures that
+3:17 when the script is executed that the
+3:19 main function is called after this we're
+3:21 going to Define our main function and
+3:23 our main function will consist of two
+3:24 main parts first we have our firewall
+3:27 rules which in this case is represented
+3:29 by iary with key value pairs
+3:31 representing the IP address as well as
+3:33 the action taken in other words here we
+3:35 can see I've decided on six arbitrary IP
+3:38 addresses and for the purposes of
+3:39 simulation these are six IP addresses
+3:42 that we've decided not to allow onto our
+3:44 internal Network and now for the second
+3:46 part of our main function we can see
+3:47 here that we're declaring a for Loop
+3:50 that'll run 12 times and this for Loop
+3:52 is really just going to simulate Network
+3:54 traffic we create the variable IP
+3:56 address which is assign the value
+3:58 returned by the Generate random IP
+4:01 function below this we create a variable
+4:03 named action which is assigned the value
+4:05 returned by the function check firewall
+4:07 rules when it is called with the
+4:08 arguments IP address and firewall rules
+4:12 and here's our third and final variable
+4:13 random number to which is simply
+4:15 assigned a random number between 0 and
+4:19 99,999 and for the purpose of our
+4:21 simulation this will simply serve as a
+4:23 unique identifier allowing us to for
+4:25 example when we take multiple action
+4:27 against the same Source IP to to be able
+4:30 to distinguish between the different
+4:32 instances of those actions and finally
+4:34 in our main function we're going to
+4:36 print to the terminal the IP address of
+4:39 the packet that was analyzed the action
+4:41 taken against that IP address and the
+4:44 random unique identifying number so
+4:47 let's now look at the two other
+4:48 functions called specifically in our for
+4:50 Loop Generate random IP and check
+4:52 firewall rules so here we Define the
+4:54 Generate random IP function which is
+4:56 simply going to return a value of 1 1921
+4:59 68 1 and a random value between 0 and 20
+5:03 for the final octet here we just
+5:04 generate a random IP number that
+5:06 represents the source IP and finally we
+5:09 Define our check firewall rules function
+5:12 which receives IP and rules as arguments
+5:14 first we use a for Loop to unpack the
+5:16 dictionary by using the items function
+5:19 for each of the IPS on our block list
+5:21 it'll compare the randomly generated IP
+5:24 and see if they match if they match it
+5:26 means that the source IP is indeed on
+5:29 our block list in which case it returns
+5:31 action which in this case is block and
+5:33 if the randomly generated IP does not
+5:35 match any of the IPS on our list then it
+5:38 will return the action allow and now
+5:39 before we run our code I just want to
+5:41 give one final highlevel rundown of it
+5:44 on the top we import the random module
+5:45 to Generate random IP addresses below
+5:48 this we Define the Generate random IP
+5:50 function which generates a random IP
+5:52 address for us below this we Define the
+5:54 firewall rules function which takes an
+5:57 IP address and the dictionary of rules
+5:58 as arguments it'll check each time if
+6:01 the given IP address matches any of the
+6:03 rules and it'll return the corresponding
+6:05 action below this we Define our main
+6:07 function which contains the core logic
+6:09 of the script first we Define a
+6:11 dictionary firewall rules with
+6:12 predefined rules where we match the IP
+6:15 we wish to block with the action we wish
+6:17 to take below this we simulate Network
+6:20 traffic by generating 12 random IP
+6:22 addresses and checking them against the
+6:23 firewall rules and then finally we'll
+6:25 print the IP address and the
+6:27 corresponding action whether allowed or
+6:29 blocked for each simulated traffic
+6:31 finally below we call the main guard
+6:32 which just ensures that our main
+6:34 function runs once the script is
+6:38 [Music]
+6:39 executed and so let's go ahead and
+6:41 actually run our code and we can see 12
+6:44 simulated instances of an IP address an
+6:47 action taken as well as a random unique
+6:50 identifier we can match this up against
+6:52 our original script and we can indeed
+6:54 see that 169 and 16 were all blocked
+6:57 correctly and all the other IP were
+6:59 allowed through
+7:04 correctly all right guys so that's it
+7:06 for this first little script I mean
+7:09 admittedly it is a little bit silly
+7:11 because if we really think about what we
+7:13 just did we didn't really create
+7:14 anything that interacts with the network
+7:16 traffic we really just created a little
+7:17 script that matches patterns but at the
+7:20 same time let's not take this for
+7:21 granted this really helps us to
+7:23 understand from a very rudimentary level
+7:26 exactly how a firewall is structured to
+7:28 make decisions this also invites us to
+7:30 start thinking a little bit deeper about
+7:32 a firewall for example how we wrote this
+7:34 script today what are some of the
+7:36 potential weaknesses what could be a
+7:38 good application of writing it this way
+7:40 and maybe what other situations would we
+7:42 need to write it in a different way just
+7:44 as a very simple example if you think
+7:46 about what we did today we basically
+7:47 told the script hey allow everyone in
+7:50 this network except this list of ips so
+7:53 in other word there is a level of
+7:55 implicit trust it basically says trust
+7:57 everyone except these few people so this
+7:59 will be a good application for something
+8:00 like a web server obviously you cannot
+8:02 possibly guess every single IP that will
+8:04 come to your web server so it's safer to
+8:06 say anyone's allowed and if for some
+8:08 reason there are specific IPS maybe you
+8:10 got it from an intelligent feed that you
+8:12 do not want to connect to your web
+8:13 server then you can add them
+8:15 specifically to your block list on the
+8:17 other hand if this firewall for example
+8:19 were to sit in front of a private
+8:21 Network then obviously we'd invert it in
+8:23 a sense we'd basically say trust no one
+8:25 block every single IP and instead we'd
+8:27 give it a list of specific IPS and tell
+8:29 it basically only these IPS are allowed
+8:32 on the network so in the following
+8:34 lesson which I hopefully will publish in
+8:36 just a few days we're going to build on
+8:38 this and we're going to create a actual
+8:40 real world functional firewall that'll
+8:42 be able to detect potential denial
+8:44 service attacks and then block an IP
+8:46 that is suspected of attacking us all
+8:48 right guys that's it for this week I
+8:50 hope you enjoyed it if there are any
+8:52 specific mini projects you can think of
+8:54 you would like me to do in the future
+8:55 let me know Below in the comment section
+8:57 and if you enjoyed this video obviously
+8:59 I would would appreciate a like or maybe
+9:01 even a subscribe and until next time
+9:04 peace out

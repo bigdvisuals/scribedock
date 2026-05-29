@@ -1,0 +1,904 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=Mkkq9Ays4lo
+Channel: Riley Brown
+Video ID: Mkkq9Ays4lo
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 Nano Banana, the AI image model created
+0:02 by Google, is taking the world by storm.
+0:05 It is quickly becoming the number one AI
+0:08 image editor in the entire world. And
+0:11 today, we're going to be using AI to
+0:13 build an app that uses Nano Banana to
+0:15 edit our YouTube thumbnails with words.
+0:19 Today, I'm joined by Zach Lloyd, the
+0:21 founder of Warp, and we're going to be
+0:23 building this app without writing a
+0:25 single line of code. By the end of this
+0:26 video, you are going to learn how to
+0:28 build an AI image editing app with Nano
+0:31 Banana. You'll understand how senior
+0:33 developers think about vibe coding. And
+0:35 at the end, you'll even see how to use
+0:38 an AI agent to test the app that you
+0:40 build. This is going to be a really fun
+0:43 episode. Let's dive in. Okay, so what
+0:47 are we building today?
+0:49 Okay, so there's a new image model from
+0:52 Google, which is cool, called Nano
+0:54 Banana, which lets you basically prompt
+0:57 to create or edit images. I thought it
+1:00 would be fun to build a little web app
+1:03 that lets uh lets a user kind of upload
+1:06 an image or start from scratch and just
+1:08 kind of play with Nano Banana and see
+1:09 what the output's like. Love it. So, I'm
+1:12 going to do this in warp, which is makes
+1:14 sense. It's what I what I work on. Um,
+1:18 and so I will start uh by just setting
+1:22 up the scaffolding for a new project
+1:23 just by telling warp and we'll we'll use
+1:25 nex next.js
+1:27 set up a brand new nex.js
+1:31 project in the current directory
+1:33 initialize a git repo for me and just
+1:37 run a hello world version of the server
+1:39 and then we'll add on to it after that.
+1:42 >> Amazing. And you're using um are you
+1:44 using a voice tool directly in warp or
+1:47 is that a separate voice tool?
+1:50 >> So we have this built into warp. This is
+1:52 using whisper flow.
+1:54 >> Nice. Okay. So we are here uh we have a
+1:58 really basic task list for this. Again
+2:00 the way that I like to get going any
+2:02 kind of vibe coding thing is I just like
+2:03 to get the scaffolding in place. So
+2:05 we'll use Turboac and we will let um MPX
+2:09 sort of set us up here. So, we're
+2:11 basically creating a blank template for
+2:13 Nex.js. Y um with like all of the like
+2:16 the plumbing setup so that we can build
+2:19 a simple image editing app using Nano
+2:22 Banana. And that is
+2:23 >> Yeah, I was playing with this earlier
+2:25 too. I don't know if it's interesting to
+2:27 people, but I have I I built like a
+2:29 little CLI version of it that we can we
+2:31 can play with as a
+2:33 >> Let's do that.
+2:34 >> I think that's super useful. Let's um
+2:36 let's go ahead and see if I have here
+2:40 a hello world. Okay, so we have blank
+2:43 template here. Um nextjs app. This looks
+2:47 good to me. Let's start to make this
+2:51 more useful. And I I'll keep this open
+2:54 so I can do stuff in it while this agent
+2:55 is working. But let's go ahead and
+2:57 expand this. So So okay. Okay. So the
+3:00 way that I envision this app, this is
+3:01 it's funny. I've been wanting to build
+3:02 an app um that uses Nano Banana
+3:05 specifically around thumbnails. So
+3:07 >> Mr. Beast tried to release a thumbnail
+3:10 tool a few months ago and he faced some
+3:12 backlash for it just because a lot of
+3:13 people in his community are they they
+3:16 design thumbnails by hand and I've been
+3:18 wanting to develop one for myself and so
+3:20 the way that I picture it is you just
+3:22 upload it by default is like a 16x9
+3:25 orientation and the main feature is you
+3:27 just upload a thumbnail
+3:28 >> and what it does is it allows you to
+3:30 edit the thumbnail. So like you can
+3:32 create one of yourself and so I would
+3:34 just have like a box in the middle with
+3:36 an upload image and then it loads there
+3:39 >> and then you prompt Nano Banana to make
+3:41 edits
+3:42 >> and then there's like I was picturing
+3:43 there'd be like versions. So like
+3:46 >> any edit you type will edit the latest
+3:48 version of it. Does that make sense? And
+3:50 so you can just like keep iterating.
+3:51 It's like vibe thumbnail design.
+3:54 >> Vibe thumbnail design. Let's do it. That
+3:56 makes sense to me. Let's start with um
+4:00 the basic interface for uploading a
+4:03 single thumbnail and and then I think
+4:06 from there let's do a single edit using
+4:09 Nano Banana and get that working and
+4:10 then we can do the multiple versions.
+4:13 >> That's how I would do it. I like it.
+4:14 >> All right. So make uh alter the the main
+4:19 page of the current project to have a
+4:24 single form button that lets a user
+4:27 upload a thumbnail image from their
+4:31 computer and then displays the image
+4:35 centered in the screen. We'll keep it
+4:37 really simple for now. So let's do that.
+4:41 So again, I just speak to it. We'll go
+4:43 for this. And then while this is running
+4:46 over here, let me So this is the project
+4:49 that I did a little bit earlier to try
+4:51 and play with the API just via CLI. So
+4:53 I'm going to say, can you take a look at
+4:55 the current project and figure out what
+4:57 all the run scripts are and uh just tell
+5:01 me how to run run them and what the
+5:03 setup process is.
+5:04 >> I like it.
+5:04 >> Let's go see how we're doing here. I'm
+5:06 going to open this back up. This looks
+5:09 pretty good to me.
+5:10 >> Exactly as I envisioned. Okay, we'll
+5:12 make this look cool too at some point,
+5:13 but let's uh let's just test this basic
+5:15 functionality. We should find a good
+5:18 actually
+5:18 >> here. I'm I'm searching for a thumbnail.
+5:21 >> Um
+5:22 >> here's here's here's one that we did for
+5:24 our recent Warp launch. Does this one
+5:26 work?
+5:26 >> Yeah, that's great.
+5:27 >> So, this is cool. We just did this
+5:29 launch around Warp Code. We have this we
+5:32 did this funny cowboy themed uh
+5:34 advertising campaign. So, so far so good
+5:36 on this. Yeah, like we have
+5:37 >> I would have it replace kind of the
+5:39 click to upload area and I would make it
+5:41 three times bigger.
+5:42 >> So, what I'll do is I'll just grab a
+5:44 screenshot of this. I will come back
+5:46 here for a second. I'm going to grab
+5:48 this in. We said, can we make the
+5:51 thumbnail three times bigger and replace
+5:54 the image upload area once the thumbnail
+5:57 is there? And below the thumbnail, put a
+6:01 simple text input box, which is going to
+6:04 be the instructions for how to edit the
+6:06 thumbnail along with the submit button.
+6:08 Does that make sense, Riley? Absolutely.
+6:10 So, you're basically setting it up so
+6:12 that theoretically the next prompt would
+6:14 be to be like when the user types in and
+6:17 presses submit, then use the API to
+6:20 alter the image. And so, we're basically
+6:21 setting everything up except for the
+6:23 API. And I think that'll be a good a
+6:26 good stage to try to get the image from
+6:28 the browser to the server and then from
+6:31 our server off to Google. Let's see
+6:33 where we're at with this. So, we'll do
+6:35 this. We'll grab this.
+6:38 >> This looks awesome.
+6:39 >> That looks amazing. Yes.
+6:42 >> Yes.
+6:43 >> And then in theory in theory, you could
+6:45 just type in like make his hat green or
+6:47 like make his face more intense. And
+6:51 that that's
+6:52 >> that's the that's the vision that I had.
+6:54 I like I like this a lot.
+6:55 >> Okay, cool. Let's just see where we're
+6:57 at for a sec. One of the things that I
+7:00 tend to do is I like to look at kind of
+7:03 the structure of the code as it gets
+7:05 more complicated. Are you doing this at
+7:07 all? Like out of curiosity.
+7:09 >> I don't at all. Um I I've never actually
+7:12 written a line of code and I've actually
+7:14 built many apps and deployed them to the
+7:17 app store. Um
+7:18 >> amazing. I'm tempted to learn how to
+7:21 code though just because it does
+7:22 interest me. Um I do ask AI a lot of
+7:25 questions about what the code is doing.
+7:27 But in terms of like the details like
+7:29 this, no, I don't do it.
+7:30 >> Okay. So I probably won't need it. I
+7:32 have a feeling we'll be able to do this
+7:34 without it. But my like the software
+7:36 engineer in me cuz the way I'm using
+7:38 these these types of coding tools in
+7:40 warp specifically is I'm working on like
+7:42 a million line rust codebase and it's
+7:46 complicated and like if you do things
+7:48 wrong it can cause a lot of a lot of
+7:50 issues. And for vibe coding on that type
+7:52 of codebase I really want to see I want
+7:55 the ability to sort of review what it's
+7:56 doing. So you'll see you'll probably see
+7:58 me popping that open. But let's let's go
+8:01 to the next step here. The next thing I
+8:02 think we should do is handle the form
+8:04 submit. So sending both the image and
+8:07 the text to the server. And I think
+8:12 before we wire up sending it off to
+8:14 Google, I think just like having the
+8:16 server print a sort of logging message
+8:18 that it's able to receive the contents
+8:20 from the client. Does that sound good?
+8:21 >> That makes sense. Totally.
+8:22 >> Okay. So update the page to handle the
+8:26 form submit. Uh I'd like to do this if
+8:28 we can without reloading the whole page.
+8:30 It should be a single page app. I want
+8:33 for now to just add a handler on the
+8:35 server that can receive the image bytes
+8:38 and receive the user prompt and just
+8:42 print out the user prompt to the console
+8:45 and print out the size of the image to
+8:47 the console just so I can verify things
+8:49 are wired up correctly.
+8:51 >> That makes sense.
+8:51 >> All right. So, we'll do this. I'm
+8:54 curious if it's going to want some sort
+8:55 of like front-end server or API server.
+8:57 If it's going to do this in a simple
+8:58 way. I hope it does it in a simple way.
+9:00 Honestly,
+9:01 >> I found that Nex.js is pretty good. Like
+9:03 when I vibe code with Nex.js in general,
+9:06 it it's pretty good at sometimes it
+9:08 takes a couple tries, but it's pretty
+9:10 good at nailing it within the first like
+9:12 10 minutes, I would say.
+9:13 >> Amazing.
+9:14 >> And that's with me like I don't I don't
+9:15 even know mostly what you said there. It
+9:18 doesn't even fully make sense, but I'm
+9:19 excited to learn about this, too. It's
+9:21 just great.
+9:22 >> So, you're seeing my like engineer
+9:24 brain. So, like the way that I think
+9:26 about this is like we have the browser.
+9:28 It's holding an image and it's holding
+9:30 this prompt. It needs to send those up
+9:32 to the server and the server is going to
+9:36 have an API that that the browser calls
+9:38 and receives it. And then we're going to
+9:41 implement logic from that API endpoint
+9:43 to just directly call out to Google. But
+9:45 the Google part is going to be the
+9:46 trickiest part. I know that. And so I
+9:48 just want to get the image to our server
+9:51 first and see if that's working. So
+9:52 let's go ahead and run this again. I'll
+9:54 just hit the up arrow, get this back. So
+9:56 far, I'm pretty impressed. No compiler
+9:58 errors even, which is cool. So, we'll go
+10:00 ahead and do this. I'll bring this back
+10:02 in. Then, let's say make the hat red
+10:05 just for kicks. It's not going to do
+10:07 anything. It's just going to process.
+10:08 It's just going to send that. And if I
+10:10 go back here, what I want to see is so
+10:13 this is exactly what I was hoping to
+10:15 see. So, I see that the prompt is
+10:16 getting here and the image is getting
+10:18 here. And to me, we're now ready to try
+10:20 and get this stuff over to Google,
+10:23 right? Amazing. Yes, that makes sense.
+10:25 Totally. I might actually try this
+10:26 strategy next time I'm vibe coding. I
+10:28 may actually try this intermediate step.
+10:30 I feel like even though it's not as fun,
+10:32 it might actually save me a lot of time
+10:34 in the long run. This is cool.
+10:35 >> Yeah. In fact, I'll have it actually
+10:37 make a commit for me right now. I'll be
+10:38 like, can you make a commit for me with
+10:40 a message around what stage we're at?
+10:42 And then I'll keep going.
+10:43 >> Amazing.
+10:44 >> What's your Do you commit as you go?
+10:46 like how how do you like to manage? Um
+10:49 >> I use GitHub uh relentlessly actually as
+10:52 a vibe coder. It is absolutely critical
+10:54 to uh commit your changes when they are
+10:56 good as often as possible so you can
+10:58 revert because reverting is the vibe
+11:00 coders's best friend. It's very hard to
+11:02 vibe code your way out of a hole at this
+11:04 stage of of the the AI models. Um you
+11:08 can do it. It's just much easier to
+11:09 revert your changes and and give it
+11:11 another try. Yeah, I mean I totally find
+11:14 that's a real failure mode if you sort
+11:16 of get into like the things not working.
+11:18 The best strategy is to go back to a
+11:20 moment where it was and and start moving
+11:22 forward again rather than trying to undo
+11:23 what you were doing.
+11:25 >> Totally.
+11:25 >> Um all right, let's move let's move on
+11:27 though. So the next thing that I'm going
+11:29 to do here is update this API to
+11:32 actually call out to Google. And I think
+11:36 that this this is a new enough API that
+11:39 I want to actually feed in the
+11:41 documentation. Yep. Um to our agent so
+11:45 that it it knows how to use it. So I'm
+11:48 going go over here. Let's click on this.
+11:51 I'm going to say just copy the URL here.
+11:54 And I'm going to say could you take a
+11:55 look at the Nano Banana documentation
+11:58 and understand how to use the API and
+12:01 summarize it for me. And then I'll just
+12:02 pass in this link and we'll continue. It
+12:06 thinks it's new, but it's not. So the
+12:08 reason I do this is like for something
+12:10 new like Nano Banana, I don't think that
+12:13 the base LLM here, which I'm using
+12:15 Sonnet, is going to have information on
+12:18 how to use it correctly. It'll have some
+12:19 information, but I think we're better
+12:21 off um sort of reading the docs and
+12:24 having the agent put that in context
+12:26 before we build with it. Does that make
+12:27 sense to you, Riley?
+12:28 >> Yes, absolutely. Yeah. With the with the
+12:31 newest and latest APIs, it's always
+12:33 important to get docs. And I have found
+12:35 that it's actually just easier to go
+12:37 find the docs and paste them in than to
+12:39 actually ask the AI to like do a web
+12:41 search and find the docs and then have
+12:43 them use it. Um, yeah, it's just it's a
+12:46 tough task to ask an AI to do that.
+12:47 >> I think it understands it. And what's
+12:49 cool is like I was doing this earlier
+12:52 with like raw CLI tools. It seems like
+12:54 there's a uh an actual node integration
+12:57 I can use. So I'm going to go ahead and
+12:58 say let's use the node integration to go
+13:01 ahead and try to call nano banana with
+13:04 the prompt and the image file. Well,
+13:07 we'll need to set up our Google API key
+13:09 as well. What's the preferred way of
+13:11 passing that in? Is it via m file? The
+13:13 transcription is not perfect, but it's
+13:15 pretty good. I normally say env file. It
+13:18 picks it up better than if by saying
+13:20 than saying M, but
+13:21 >> interesting.
+13:21 >> Just a little hack. Yeah,
+13:22 >> that's good. Yeah. Yeah. So, let's see.
+13:25 So, it's going to make me a a M local,
+13:29 which is right. So, what I'm going to do
+13:32 while this is going here, I'm going to
+13:34 hit command O and I'm going to open our
+13:38 I'm in I'm curious on what you were
+13:39 about to do. That looked like a really
+13:40 cool feature. Wait, you can just like
+13:42 command O opens up like a file.
+13:44 >> Yeah. So, this is a new feature in Warp,
+13:46 which is I think definitely worth
+13:48 showing for people who are coding in it.
+13:50 We just got enough feedback that it's
+13:52 very useful to be able to see your
+13:53 files. And so we now have a file tree in
+13:55 here. And we have the ability to hit
+13:57 command O and search files and open
+13:59 them. And so what I wanted to do is open
+14:03 ourv.local
+14:04 [Music]
+14:06 file. Okay. So what I'm going to do is
+14:09 this key is stored in our Google vault.
+14:12 So this is actually kind of a cool thing
+14:14 to to show how we do how I do this
+14:16 securely with a uh API key. So, I'm
+14:19 going to say, could you fetch the Google
+14:22 language API key from our Google Secrets
+14:25 Manager? It's in the warp-server-staging
+14:28 project. Cool. And also, um, if you guys
+14:31 want to find an API key, uh, just look
+14:33 up Google AI Studio if you're following
+14:35 along, and you can pretty easily
+14:37 generate an API key. And I believe it's
+14:39 free up to a certain amount of
+14:41 generations if you guys are following
+14:42 along. So, this is awesome. So, it found
+14:46 the API key for me from our secrets
+14:48 manager. And it's going to go ahead. I'm
+14:49 going to close this cuz it's going to
+14:50 write it directly into the file. And it
+14:52 might not even get to the screen, which
+14:53 is what I want. So, now it's going to it
+14:55 did that for me, which is really cool.
+14:57 Let's I think we're ready to just try
+14:59 this. Honestly, let's just see what I'm
+15:02 excited to try.
+15:03 >> I I would be really impressed if this
+15:05 worked. But, all right. Tell me, what do
+15:06 you what do you want to do this cowboy?
+15:08 >> Say let's just say uh make the hat
+15:10 black.
+15:11 >> I have no idea if it's going to work,
+15:13 but let's see. It's not getting an
+15:14 immediate error. So that is cool. Let's
+15:17 see how we're doing here. So
+15:20 >> Oh, there it is. Wow. And then
+15:25 >> So that's cool. That is really really
+15:27 cool. That's awesome.
+15:29 >> Um I think I think we can I think what
+15:30 we should try and do now
+15:33 >> um
+15:34 >> actually I mean this is super cool.
+15:36 Okay. I did not expect it to just work
+15:38 on the first try like that. Hell yeah.
+15:39 Um, what I think we should do is I, you
+15:42 know, the same way that we're vibe
+15:44 coding right now, right? We're we're
+15:45 we're entering prompt after prompt after
+15:46 prompt. I want to create that same
+15:48 experience, but like vibe thumbnail
+15:50 design. Like we can almost name it that.
+15:52 And so I want to be able to I want it to
+15:55 replace almost almost like a stack, you
+15:58 know, like maybe there's like tabs where
+16:00 you have like the latest version of the
+16:01 image. So like this ver this image
+16:03 should have been replaced by the image
+16:05 with a black hat. And then as soon as
+16:07 you type in again, you can just press
+16:08 enter and it will edit it again and then
+16:11 again and then again. And so you can
+16:12 just kind of like keep iterating on the
+16:14 same image. I think that would be the
+16:16 best experience for thumbnail design.
+16:18 >> I got it. So it's like it always takes
+16:20 the you want it to always take the last
+16:22 one as input or do you want to take the
+16:24 original as input?
+16:25 >> The the latest one as the
+16:28 >> latest one. So it's like an iterative.
+16:30 Okay, let's do it. So again, I'm going
+16:32 to grab a snapshot of this just so I can
+16:34 like give it some guidance on how to
+16:36 change the API. I'll cancel this. I'll
+16:38 put this in. You can notice the context
+16:40 window.
+16:42 Yeah, we're still okay. At some point
+16:44 it's it's we may want to refresh the
+16:46 conversation here, but it should work
+16:47 fine. So I'm going to say we want to
+16:49 adjust the user experience so that after
+16:53 a user submits the image and prompt the
+16:56 resulting image that comes back from
+16:58 Google becomes the current image that
+17:02 you prompt again. This will allow us to
+17:05 iteratively reprompt to change the
+17:08 image. It also would be cool to display
+17:11 the prior images in some sort of history
+17:14 UI. Perhaps a strip of past images that
+17:19 shows on the bottom of the screen. Could
+17:21 you implement that for me? I love it. I
+17:23 love that prompt.
+17:25 >> Oh, let's see if it gets what I'm
+17:27 saying.
+17:28 >> Yeah, I think it should. It should get
+17:30 it. I don't see a reason why it
+17:32 wouldn't.
+17:33 >> It may struggle with getting the latest
+17:35 version. I feel like I've made a tool
+17:37 similar to this before, but Nano Banana
+17:39 is just the best in the world at editing
+17:41 specific things. Like, it's such an
+17:43 insane technology. Funny story. So, I
+17:45 worked before I started Warp, I worked
+17:48 at a company, right? I was a co-founder
+17:50 at a company actually where our product
+17:53 was
+17:54 basically a marketplace for photo
+17:56 editing. And so, it was an app where
+17:59 people could submit their photos and ask
+18:01 for changes like this and a human would
+18:04 do the work of like going into Photoshop
+18:07 and like removing stuff from the
+18:08 background or changing someone's hat
+18:10 color or something like that. And it's
+18:12 just been it's just just so not needed
+18:15 to have a human do that at this point.
+18:17 And it's insane.
+18:18 >> It's wild.
+18:19 >> Yeah.
+18:20 >> No, it's actually insane because like
+18:22 with Photoshop, you literally would have
+18:24 to have first of all, you'd have to have
+18:26 experience going to Photoshop. You have
+18:27 to go to the interface. You have to use
+18:28 the um masking tool and like separate
+18:31 the different layers and then you can
+18:33 start manually manipulating the layers.
+18:35 And people thought that Photoshop would
+18:37 just win this battle because like
+18:39 because you um it's like oh the people
+18:41 who know how to use Photoshop are going
+18:42 to be at an advantage. But it turns out
+18:44 that like all of that masking and middle
+18:47 layer it just didn't even matter. It's
+18:48 just who can describe the changes they
+18:50 want the most um can just edit images on
+18:53 the spot which is just an insane thing.
+18:55 It is wild. Um let's see how we're doing
+18:57 here. So so far so good. It recompiled.
+19:01 Let's go ahead and run this again. Did
+19:03 you send me an image?
+19:04 >> I have not yet. I'm doing it right now.
+19:07 I'm trying to Let me test it with my
+19:08 cowboy while I'm waiting here. But then
+19:10 we can do we can do your image. Uh make
+19:14 black. We'll see how this is. Curious
+19:17 mostly if it understood my prompt.
+19:19 Amazing.
+19:20 >> So there does seem to be a bug here in
+19:22 terms of this. Well, it's I would expect
+19:24 this to be a thumbnail, but now I'm
+19:25 curious if I do make the horse
+19:29 white if it maintains the black hat,
+19:31 which is what we want, right?
+19:32 >> Yes. That would be the test. Oh my god.
+19:36 >> Did it just work?
+19:37 >> It just works. This history thing needs
+19:39 some work, but yeah.
+19:40 >> No. No. All right. Try it again. Say,
+19:42 uh, give the horse a horn like it's a
+19:45 unicorn or something like that.
+19:48 >> That's not the That doesn't look
+19:50 amazing, but it's pretty cool.
+19:51 >> No, it got it. It got it. I mean,
+19:54 >> that's good enough.
+19:55 >> Remove the text. Yeah. Send me Send me
+19:57 something and we'll do it on yours. Now,
+19:58 I'm really curious if it can remove the
+20:00 text.
+20:03 Wow.
+20:04 Did it get it? Oh, it got it removed the
+20:06 text now. Um, say say add big red text
+20:11 that says nano banana is insane. This is
+20:15 so cool.
+20:16 >> Yes, it is.
+20:19 [Laughter]
+20:21 >> Insane.
+20:23 >> Wait. Uh, say move the
+20:25 >> Yeah, move the text like into the upper
+20:27 left so I can see the character or
+20:29 something like that. It should get it
+20:30 >> upper. Yeah, upper left. So it doesn't
+20:33 cover the cowboy.
+20:34 >> Okay.
+20:35 >> We are living in science fiction here.
+20:38 >> Yeah. It's amazing. It's insane. It's
+20:40 insane. Like not only does is this image
+20:42 model insane, but we literally vibe
+20:44 coded an interface to do it into
+20:47 existence, which is even more insane.
+20:50 Now, let me I'm curious. So, this is
+20:51 cool, too. So, it did even though it's
+20:54 not showing the thumbnail correctly, it
+20:56 did do the history of this in a very
+20:57 cool way, right?
+20:59 >> Yes. I like it. I like it. some some
+21:01 buggess perhaps, but
+21:02 >> yeah, I mean, we could uh get it to like
+21:05 maybe show up in the YouTube thumbnail
+21:08 orientation, so they're rectangles and
+21:10 then show the actual image displayed
+21:12 there. I think that would be a good edit
+21:13 to make.
+21:14 >> So, should we fix this?
+21:15 >> Let's fix that. And then let's do it one
+21:18 then we'll do the next example with my
+21:20 thumbnail. I got it into a storage
+21:21 bucket so I can send it to you.
+21:22 >> There's a couple problems I noticed here
+21:24 which is interesting. So, first of all,
+21:26 make a commit at the current spot with
+21:29 the message that it's basically working
+21:31 except for some bugginess with the
+21:33 history strip. All right, so we got a
+21:34 good commit here. Now, I wanted to fix
+21:36 this history bug. So, I'm going to grab
+21:37 the screenshot, put it in, and say
+21:39 there's a couple bugs with the history
+21:41 strip at the bottom of the app. The
+21:44 first bug is that it's not actually
+21:47 rendering thumbnails. It's just
+21:49 rendering them as black squares. So,
+21:51 please fix that. The second bug is that
+21:53 when you revert to a thumbnail, it's
+21:56 getting pushed onto the history stack,
+21:59 whereas I think it should just be like
+22:01 popping off the rest of the stack. So,
+22:03 please fix that.
+22:05 >> M I see what you mean.
+22:07 >> I noticed it kept adding things to it. I
+22:09 don't think that's what we want.
+22:11 >> No, I I agree with that.
+22:12 >> So, let fix this. And then
+22:15 >> we also use the Whisper Flow SDK and we
+22:18 also got that error. the not error, it's
+22:20 just it shows up as the like the line
+22:22 breaks or whatever. It's very
+22:23 interesting.
+22:24 >> I don't mind this. I feel like it's
+22:25 actually if you're if you're prompting,
+22:28 it's actually great.
+22:29 >> I would say if you're not prompting,
+22:31 it's probably not what you want.
+22:33 >> Yeah, it's that I we use it for it just
+22:35 looks weird in the prompting, especially
+22:37 like with our tool, it's more user
+22:38 friendly, so people are like, "Oh, what
+22:39 the heck is that?" But for developers,
+22:41 yeah, it's perfectly fine.
+22:42 >> Yeah. Yeah. And it's fine for the LM,
+22:45 too. Like the LM is perfectly capable of
+22:47 reading this.
+22:48 >> Yes. Yes, this is a prompt, which is
+22:49 interesting. So, let's see. So, it's
+22:51 fixing the thumbnail rendering. Okay. I
+22:53 don't know if that's going to fix it or
+22:54 not, but it's trying. We will see. And
+22:57 then I'm curious about this. So, the way
+23:00 that it's organized it, which is
+23:02 interesting to me as a developer. Yeah.
+23:04 This is I would imagine the standard
+23:06 Nex.js.
+23:10 Yeah. Yeah. This is the beauty of vibe
+23:12 coding is that I just really don't have
+23:14 to read this whole thing. Pretty cool.
+23:15 All right. So, let's see now.
+23:18 if it understood and fixed it. It's
+23:21 restarting it for me, which is what I
+23:22 want. Let's go over here. Open it back
+23:24 up. And should we try with yours?
+23:26 >> Yeah, let's do it. I'm excited.
+23:27 >> Okay, so open this. All right, there you
+23:29 are.
+23:30 >> Say,
+23:30 >> what should we do?
+23:32 >> Say, give the man gold sunglasses.
+23:35 >> Okay, here we go.
+23:36 >> Processing with nano banana. I love it.
+23:38 >> Could make more fun. Put a little banana
+23:40 emoji or something animated. Oh yeah, we
+23:42 could change this. There you are.
+23:44 Looking cool,
+23:45 >> dude. That's crazy. So, the image
+23:47 history is still it seems it's still
+23:49 doing something funky, which is okay. I
+23:51 feel like it might
+23:54 Yeah, I'm very interested to see what
+23:55 the issue is. Let me if we want to go
+23:58 fancier here. Let me try something. I
+24:01 could try Well, it's up to you. I could
+24:03 try to have u the agent debug it by
+24:05 taking a look at the web page.
+24:07 >> I like it. Let's do that.
+24:08 >> No guarantee of success, but we could
+24:10 try it.
+24:11 >> Let's do it. So, the way that I would do
+24:13 this is I'm going to open up our MCP
+24:16 servers here. And what I want to do is
+24:19 add Puppeteer.
+24:22 Do you know Puppeteer? I've heard of it.
+24:24 So, we'll see if we can make this work
+24:26 or not.
+24:28 So,
+24:30 I will
+24:32 grab this.
+24:34 I'll grab this.
+24:37 And what I'm going to do here is I'm
+24:38 going to add an MCP configuration into
+24:40 warp.
+24:42 This didn't work to start. Hold on. Let
+24:45 me edit it. Oh, I didn't give it a name.
+24:48 Hold on. Let me try this one more time.
+24:51 Pservice puppeteer MPX.
+24:54 I would think that this should work.
+24:56 So, there we go. I'm going to see if
+25:00 it's starting. It's starting. Okay. So
+25:02 now Puppeteer is an MCP server that can
+25:06 read like it can basically run Chrome
+25:08 for you and like read a web page. So let
+25:11 me see if this works. This will be
+25:12 experimental. Uh but I'm going to say
+25:15 there's a the bug with the history is
+25:18 still present. Could you use the
+25:19 puppeteer MCP server to look at the
+25:23 website at localhost 3000 where the
+25:26 server is running and try to debug why
+25:29 the image isn't being rendered
+25:30 correctly.
+25:31 >> And the challenge with this now that I'm
+25:33 thinking about it more is like you only
+25:35 get into this state
+25:38 once you've
+25:40 let's see what happens. But you only get
+25:41 into the state once you've actually
+25:42 submitted an image. So this might not
+25:45 this might not work. But I think it's
+25:47 worth trying just to see. Okay.
+25:49 >> But if Oh. Oh, I see. So, basically what
+25:51 it's doing here is it's using a tool
+25:53 >> that will simulate you using the tool.
+25:56 Okay.
+25:57 >> Exactly.
+25:57 >> Okay.
+25:58 >> Isn't this cool?
+25:58 >> It's awesome. It's very cool. That's
+26:00 kind of all like I've always thought
+26:01 that. I'm like, wait, as a vibe coder,
+26:03 I'm basically doing this, you know? I'm
+26:05 I'm pasting in a prompt and then I'm
+26:06 going to test it myself. It's just like
+26:08 why wouldn't an AI just test it? Now
+26:11 it's Let's see if it's able to actually
+26:14 do it. Let me readjust this here. So,
+26:16 it's got to navigate to the page. So now
+26:18 you see it's learning what to do it
+26:19 right. So it's going to this local host
+26:21 3000. I'll try and do this side by side.
+26:23 >> Oh, I see. So it it's entered in local.
+26:26 >> But the problem here is like we need to
+26:28 actually run the server. So hold on. Let
+26:31 me cancel this and then I will go ahead
+26:33 and run
+26:35 the server in the background and say
+26:39 I've now run the server in the
+26:40 background. So try the puppeteer MCP
+26:43 debugging one more time.
+26:44 >> Amazing. Again, this is a We'll see. But
+26:48 let's
+26:48 >> No, I'm very curious if it can. It's so
+26:50 cool. There we go. There's the web page.
+26:52 You see it?
+26:53 >> Yep. Okay. It's upload.
+26:56 >> You need to have Puppeteer upload an
+26:59 image and give a prompt in order to
+27:01 actually debug the issue. So, have
+27:04 Puppeteer do that.
+27:05 >> So, this is like a browser agent like
+27:08 >> correct.
+27:09 >> Okay,
+27:09 >> it did it. You see this? Now, let's see
+27:11 if it can fill in the instruction field.
+27:13 I mean, it it's I feel like if it
+27:15 uploaded an image, it should be able to
+27:16 type.
+27:18 >> Yeah. Let's see if it can do it. Let's
+27:20 try a different approach.
+27:23 >> This is wild.
+27:25 >> There we go. Make the background. You
+27:27 see that? I'm not crazy. That is crazy.
+27:31 And now it's processing.
+27:33 >> Now it should literally make the
+27:34 background red.
+27:37 >> Yep.
+27:37 >> Okay, great. And now, can it see
+27:41 the
+27:43 uh So, it's going to take a screenshot.
+27:45 This is inc. Dude, this is the future.
+27:48 It's so cool.
+27:49 >> This is actually insane. I I can't
+27:50 believe this worked. I was like, "No way
+27:53 this works."
+27:54 >> So, it's literally simulating a human
+27:57 user. And then now it's it's just
+27:59 analyzing like it's analyzing all of the
+28:01 logs like when you press inspect or
+28:03 whatever like all of the data that's
+28:04 coming in there has access to that. If I
+28:06 it's it's it's like if I were to open up
+28:09 Chrome DevTools
+28:11 and have and try to figure out why this
+28:14 thing wasn't rendering properly.
+28:18 Um and so it sees it.
+28:20 >> Oh,
+28:22 interesting. So there is a history
+28:23 thumbnail and it was the correct
+28:25 dimensions and properties is displaying.
+28:28 >> Huh. And now it's in this background
+28:31 input. But let's let's see. This is very
+28:34 revealing. Okay.
+28:36 Let me check if there's any CSS issues
+28:38 or ZS or Zindex problems. Found the
+28:41 issue. Let's see if it actually found If
+28:43 it found the issue, I'm going to be
+28:44 blown away. By the way, the reason
+28:46 you're seeing all this logging stuff
+28:47 here is I ran the server in the
+28:49 background. We're still seeing some of
+28:51 its output. So, it says it found the
+28:53 bug. If it really found the bug, let's
+28:55 see if it could actually make the code
+28:56 change and verify the fix because that
+28:58 would be pretty cool, too.
+28:59 >> That would be very cool. And this
+29:01 puppeteer thing, is this something
+29:03 that's free or is this something that
+29:04 you have to pay for?
+29:06 >> No, I I'm pretty sure this is just a
+29:08 free MCP server that lets you that lets
+29:11 the agent control the browser, right? So
+29:14 amazing. And you saw how simple it was
+29:15 to install. You just um kind of like
+29:18 >> Okay. Okay. So it lets the agent So
+29:20 you're still paying for the tokens for
+29:22 the agent to control the browser. It's
+29:24 just a server of tool. Okay, that makes
+29:26 sense. Okay.
+29:27 >> Yes. So, let's um let's try it.
+29:31 Actually, let me delete this for a
+29:33 second. And let's just try this on our
+29:36 own and see if it fixed it. Actually,
+29:38 let me just I think it should be the
+29:39 latest, but let's refresh this just to
+29:41 make sure. And actually, I'll I'll do
+29:43 this in my normal browser over here.
+29:45 Refresh. Do this. We'll try this. I'm a
+29:49 little skeptical that it actually made
+29:50 the code change. Like, did it make the
+29:53 code change someplace? I don't think it
+29:55 made the code change. Can you make the
+29:56 actual code change for me, please?
+29:58 >> So, yeah. So, it h it has loaded up in
+30:01 its context whatever the problem might
+30:03 theoretically be and now you're just
+30:05 saying take that information and make
+30:06 the change.
+30:07 >> Yeah.
+30:07 >> And I'm sort of surprised it didn't just
+30:09 fix it. Oh, it I guess it did. It
+30:11 already made it. Okay. So, then let's
+30:12 see.
+30:13 >> What do you want? Do you want those
+30:14 sunglasses again?
+30:16 >> Give him a gold chain.
+30:18 >> Okay.
+30:22 >> No way. It did it. It did it. How
+30:25 awesome was that?
+30:26 >> That's crazy.
+30:28 >> That was one of the coolest demos I've
+30:29 ever done. Like that was really cool.
+30:32 >> So in this video, just to reiterate, we
+30:34 added So we created an X.js project. We
+30:37 basically created the what you call as
+30:39 the scaffolding. I would call that as
+30:40 like a base template kind of give you
+30:42 the foundation. Then we added image
+30:44 upload which went seamlessly. Then we
+30:46 added the edit instructions little um uh
+30:49 input field plus the button. And then
+30:52 you basically ran a test to see if you
+30:54 could communicate with the Gemini API
+30:57 and then we connected them and it worked
+30:59 on the first try. Then we wanted to
+31:01 change the image history and it didn't
+31:03 immediately work. So then you used the
+31:06 puppeteer MCP server that you that is a
+31:10 free thing that you can set up within
+31:12 warp as a server and which allows you to
+31:16 agentically control the browser to test
+31:19 for bugs and things of that nature.
+31:22 Basically did a bunch of research and
+31:23 tested it on your behalf and then the AI
+31:26 made the right changes and now we have
+31:29 this fully full app. Okay.
+31:31 >> It's pretty wild, right? That's sick. Do
+31:34 you think we could uh open source this
+31:36 and uh make it as part of a resource as
+31:38 part of the video? I think that would be
+31:39 really fun.
+31:40 >> 100%. Totally
+31:41 >> amazing. That's awesome. This was a
+31:43 really really fun demo. I I really
+31:45 appreciate you coming on to do this.
+31:48 >> Yeah, it was uh it was my pleasure.

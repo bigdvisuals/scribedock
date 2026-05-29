@@ -1,0 +1,1822 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=LWx4FGam2aQ
+Channel: Greg Isenberg
+Video ID: LWx4FGam2aQ
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 Some of my smartest friends are saying
+0:02 Open AI's Codex is the super app for AI.
+0:05 They're saying you pair that with GPT
+0:08 5.5 images 2.0 and use Codex's interface
+0:12 and you are going to be unstoppable. So,
+0:15 I called my friend Riley Brown to
+0:17 convince me that I should be using Codex
+0:20 with all these models. And in this
+0:21 episode, we go through everything. How
+0:23 to use it from A to Z. How to create
+0:27 skills, how to connect it to Notion, how
+0:29 to use Remotion to create beautiful
+0:32 videos. If you've been meaning to get
+0:34 good at Codex, but you haven't had a
+0:36 second, well, this is your episode.
+0:39 You're in for a treat. And if you want
+0:41 to show some love to me and Riley, give
+0:43 this a like and comment and I'll see you
+0:45 in there.
+0:54 We are blessed to have Riley Brown back
+0:56 on the pod. Riley, by the end of this
+0:59 episode, what are people going to get
+1:00 out of this? People are going to learn
+1:02 how to use the best interface to use AI
+1:05 agents, in my opinion.
+1:07 Uh I think Codex by Open AI, and that
+1:10 means if you have a ChatGPT
+1:11 subscription, you have access to Codex,
+1:14 which I think is the most powerful way
+1:15 to use AI agents.
+1:17 And we're going to learn the platform.
+1:19 And we're going to talk about GPT 5.5,
+1:22 which was released yesterday as of
+1:24 filming this. I don't know when this
+1:25 episode will be out. Um we'll talk a
+1:27 little bit about browser use.
+1:29 And you know, I've been a little
+1:30 skeptical about AI controlling browsers.
+1:33 I think it's kind of slow and a little
+1:34 boring. This is the first time
+1:37 that I see it. I'm like, "Oh,
+1:39 it's actually starting to be faster."
+1:40 And I could definitely see by the end of
+1:42 the year, these browser agents are going
+1:44 to be as fast as humans. So, we're going
+1:46 to talk about that. We're going to talk
+1:47 about computer use. We're going to talk
+1:49 about uh just doing all of your
+1:51 knowledge work and coding work inside
+1:53 one single platform, which is Codex.
+1:56 How does that sound? This
+1:59 I well, I just have to be honest with
+2:01 you. I got to say something.
+2:02 I am not on Codex today.
+2:05 In fact, I have never downloaded Codex.
+2:08 I
+2:09 it's just I'm not in that world, okay?
+2:11 And this episode for me is a first-hand
+2:15 basically tour,
+2:17 hacks, tips and tricks. By the end of
+2:20 this episode, I want to be converted. I
+2:21 want to be converted to Codex in that
+2:24 ecosystem. Um I hope so, but I might be
+2:27 wrong. I might By the end of this
+2:28 episode, I might be like, "You know
+2:29 what? I'm just going to stick with my
+2:31 own stack and
+2:32 you know, this is
+2:35 there's just a lot of smoke here, so
+2:37 let's see.
+2:37 >> No, for sure. And you know what? And and
+2:39 I want to preface this by saying like, I
+2:41 don't hate on anyone for using any
+2:43 stack. I think it's kind of dumb to do
+2:45 that. I think you have you should pick a
+2:48 stack and you should stick with it. Um I
+2:50 think moving from hot tool to hot tool
+2:52 is actually not the right strategy. If
+2:54 you're using Claude code uh inside
+2:56 Cursor, right? If you use Cursor for all
+2:58 your knowledge work and that works for
+2:59 you, great. Just keep doing that if you
+3:01 want.
+3:01 Uh I'm kind of permanently switching to
+3:03 Codex just because, you know, I work
+3:05 with seven engineers and all of them
+3:07 have switched to Codex.
+3:09 And we agree that it's pretty amazing
+3:11 and you can use Claude code inside of
+3:12 it, which is
+3:14 uh another bonus. But um you if you
+3:16 don't mind, I just kind of want to hop
+3:17 into kind of an Excalidraw kind of do a
+3:19 little precursor to Codex if that's cool
+3:21 with you. Yeah.
+3:23 Okay. So, um yeah, so I like to start
+3:26 with the basics. I've been uh
+3:28 really trying to get people uh
+3:30 to understand the difference between
+3:31 ChatGPT
+3:33 and Codex. Um and so a good way to think
+3:36 about Codex
+3:38 is it is a state-of-the-art AI agent on
+3:41 your computer, which is the the Codex
+3:43 model or the GPT-5.5 model in a nice
+3:47 interface that allows you to build an
+3:49 app, create any type of document,
+3:51 control your computer, and create
+3:53 automations. You can see that, right?
+3:56 This is the Codex interface. It looks a
+3:59 lot like Chat GPT, right? This is a new
+4:01 chat on Codex.
+4:03 And
+4:04 um what I like to do whenever I create a
+4:07 new uh like whenever I go to Codex and
+4:10 let's say I'm working on a new episode
+4:12 maybe I'm working on
+4:13 the Startup Ideas Podcast landing page
+4:16 and then I'm also doing some market
+4:18 research. So, we can actually create a
+4:19 new project and we can actually start
+4:21 from an existing folder and let's just
+4:23 call this folder
+4:25 um Greg or let's call it Startup Ideas
+4:28 Podcast. And we can just create a new
+4:30 folder and this folder will be
+4:34 over here on the side. Can you see this?
+4:36 Maybe I'll zoom in a little bit. Mhm.
+4:37 >> Um and anytime I hit new chat this chat
+4:42 will show up in here. As you can see
+4:44 here, I have all my threads
+4:46 over here on the side and they're all
+4:47 kind of organized. Notice there wasn't
+4:49 anything in this one and you can very
+4:50 easily just remove these from the side.
+4:52 So, it's just like you have your folder
+4:54 and your chats within each folder, which
+4:57 is just a project. And so, like research
+5:01 uh Startup
+5:03 Ideas Podcast look at his videos. And
+5:08 so, I have a skill which is YouTube
+5:11 researcher and this allows me to
+5:13 immediately pull transcripts from
+5:15 YouTube channels. So, I can say like
+5:17 take the transcripts
+5:20 uh from his last 10 videos and tell me
+5:25 only what he's doing wrong. Be negative.
+5:31 Make a report. And so, then you can fire
+5:34 this off and what I like is it's very
+5:38 tailored to multitasking. So, I can
+5:40 press command N
+5:41 and I I this interface is a little
+5:43 similar to Manas, if you've ever used
+5:44 Manas before. It's very easy to see
+5:47 which what your agents are doing, right?
+5:49 If
+5:50 it's done, you'll see a blue dot. As you
+5:52 can see here, these two are done. These
+5:54 are kind of like unread chats. So, like
+5:56 it means it's done and I haven't clicked
+5:58 on it yet. While it's working, it kind
+6:00 of spins around. Um and so, like uh
+6:03 what is the Startup
+6:06 Ideas Podcast?
+6:08 And so, you can see here it kind of just
+6:10 organizes chats into threads. And what
+6:12 we're seeing is this is kind of the
+6:14 dominant interface to interact with AI
+6:18 agents. You can see here, this is the
+6:20 new Claude Code
+6:22 desktop app. Right here, you can see
+6:24 their code feature, it's very similar.
+6:26 You have these folders with chats
+6:29 underneath it. And if you've seen the
+6:31 new Cursor interface, it's very similar.
+6:33 So, all of these companies are deciding
+6:35 that this is kind of the correct
+6:36 interface to interact with AI agents. It
+6:39 just so happens that I think Codex is
+6:40 the best one. So, let's go back to
+6:44 to our concept. And so, the way that I
+6:46 see it is like in 2025, that was the
+6:48 year of the TUI, right? We had we had
+6:52 this type of interface with Claude Code.
+6:54 And it's kind of a um
+6:56 it's bittersweet because I miss these
+6:57 early days of using Claude Code. I loved
+6:59 the terminal. It was really fun. And I
+7:02 think back to the early days when you
+7:04 and and a few others were talking about
+7:06 vibe marketing. And I think there was so
+7:08 I think it was super directionally
+7:10 correct using AI agents to do a lot of
+7:13 marketing tasks. I just think
+7:16 I'm curious to hear what your
+7:17 observation was. Is this just wasn't a
+7:19 great interface for a lot of the people
+7:21 who wanted to to get the benefits from
+7:24 it, but they didn't want to open a
+7:25 terminal or create skills like in these
+7:28 files? I think people in business just
+7:30 want an easier interface um to do all of
+7:34 these agentic workflows. And so, what
+7:37 all these companies are deciding on is
+7:38 that the GUI is better. So, we're moving
+7:41 from a terminal interface to a more
+7:45 clean, simple interface. You have your
+7:47 chats on the left, your agent in the
+7:49 middle, and then whatever the agent is
+7:51 working on on the right.
+7:53 Another way that I like to think about
+7:55 this is Claude Code or this Codex is
+7:58 like Claude Code and Co-work in a single
+8:02 product, but it's even better than that.
+8:04 And the reason why I like it more than
+8:06 Claude Desktop is Claude made a decision
+8:09 to split up Co-work and Claude Code. I
+8:12 would definitely try Claude more if they
+8:15 didn't do this. I do not like them just
+8:18 like they decided that people who are in
+8:21 business are going to use one product,
+8:22 people who want to code are going to use
+8:24 this other product. They have different
+8:26 limitations, right? You can't just ask
+8:28 Co-work to build an app. You you have to
+8:30 go to Claude Code to do that. Claude
+8:33 Co-work has different sets of
+8:35 permissions than Claude Code.
+8:37 And you know me, I'm super hyped on vibe
+8:39 coding. I think vibe coding has gotten
+8:41 so easy that like 95% of the things that
+8:44 you would want to code it it's as easy
+8:47 as creating a presentation. So, I think
+8:50 and all the all the PowerPoint doc
+8:53 Sorry if I'm kind of jumping around
+8:55 here, but within the um Codex app right?
+8:59 Codex app is I can create this this app
+9:02 right here. So, this is an app. This is
+9:04 a I posted this on Twitter yesterday.
+9:06 This is in one prompt. This is like a
+9:08 train simulator. Uh and it's super good
+9:11 at physics, and this is me just testing
+9:13 the model having fun. And I even added a
+9:15 crash counter, so these trains can crash
+9:17 into each other, and it's presented by
+9:18 Allstate. Um but the point is is in the
+9:21 same interface, you can create an
+9:23 application
+9:25 and you can also create
+9:27 uh spreadsheets. As you can see here, I
+9:29 can create charts, spreadsheets. You can
+9:32 also create Word docs. You can edit and
+9:35 export these Word docs, and you can
+9:36 create PowerPoint presentations, and you
+9:39 can export them with different apps. So,
+9:42 you can export this to Canva, and this
+9:44 will just open it up directly in Canva,
+9:46 so I can make further edits, and they're
+9:49 going to add more exporting features as
+9:50 time goes on.
+9:53 Because me as a startup founder, I'm
+9:54 constantly making all types of docs, and
+9:56 I'm making a lot of landing pages, lead
+9:58 magnets. I want to do it all in one
+10:00 interface. And so, that's kind of the
+10:01 main reasons that I use Codex. Any
+10:05 thoughts so far? Uh uh a million
+10:08 thoughts, but the biggest that I have is
+10:10 what you're basically saying is
+10:13 this is Codex is the fastest way to do
+10:16 the most amount of things, basically.
+10:19 Yes, it is. And it it it got all the
+10:21 primitives right. And okay, actually, we
+10:24 can dive into uh some more of the the
+10:27 reasons that like these are why I like
+10:30 Codex over certain tools. There's a lot
+10:31 of reasons I like it that these things
+10:34 are also in Cursor um and are in the
+10:37 Claude desktop app. Um but here are the
+10:40 things that only Codex does, or Codex
+10:42 does better than all of them. Right? Um
+10:44 it is the only interface that does vibe
+10:47 coding and knowledge work in one
+10:48 platform. If you go to Cursor and ask
+10:50 for a doc, you know, it'll give you it
+10:52 can like create HTML file and run it in
+10:55 the browser, but it can't just create a
+10:56 doc and let you view it like a Claude
+10:58 artifact in one interface. You can do
+11:00 this on Claude desktop app, but again,
+11:02 you have to go to this co uh Claude
+11:04 co-work feature. I'm not a fan of
+11:06 co-work at all.
+11:07 Um
+11:08 which may be a narrative violation on
+11:10 your channel. I don't know if you've
+11:11 been talking about Claude co-work, but
+11:12 that's okay.
+11:14 >> I haven't, but I'm intrigued with Claude
+11:16 co-work. Firstly, I I, you know, spend
+11:19 most of my time in Claude code, but I
+11:21 was thinking of doing a full-on episode
+11:23 on like co-work, because it's one of
+11:26 one of the questions I get asked the
+11:28 most, which is should I be using
+11:31 co-work, and how how to best use it? But
+11:34 don't don't wouldn't you wish that Cloud
+11:37 Code could just do what co-work could do
+11:40 from the same interface? Yes.
+11:42 >> Um yeah, and so to me I don't see any
+11:44 good reason why you wouldn't allow Cloud
+11:46 Code to do the stuff that co-work could
+11:48 do.
+11:49 Um
+11:49 and so that that's just my beef with
+11:51 Cloud co-work and that's why I've been
+11:53 annoyed by it and I haven't made any
+11:54 videos on it. It's because every time I
+11:55 try and use it, I run into some sort of
+11:57 like
+11:58 um limitation cuz the way that they set
+12:01 up the the environment where the agents
+12:04 can do stuff, there's way more
+12:05 restrictions on co-work which makes it
+12:07 super annoying to use in my opinion.
+12:09 Anyway,
+12:10 um I think Codex models are better at
+12:13 really complex tasks and we actually we
+12:15 know this for sure. Uh we've tested this
+12:17 extensively as a team. You know, we're
+12:19 highly incentivized to uh write the best
+12:22 code and write it fastest for uh in the
+12:25 quickest amount of time and Codex just
+12:27 does a better job with infrastructure,
+12:29 with really hard tasks. I've one-shotted
+12:32 The other day I one-shotted an app like
+12:34 Replit, a vibe coding tool that spun up
+12:37 sandboxes and you could vibe code web
+12:40 apps on your phone in one shot. It took
+12:42 an hour and 20 minutes to generate the
+12:43 code and this was on 5.4. It's pretty
+12:47 impressive. So, if you remember last
+12:50 year OpenAI started working on Atlas. I
+12:52 thought it was kind of I was just like,
+12:54 "Damn, they're kind of losing focus.
+12:55 They're you they're building this Atlas
+12:57 feature.
+12:58 Um you know, it's a standalone browser.
+13:00 How many people are going to use it?"
+13:01 Well,
+13:02 recently they had like this big red
+13:04 alert at their company and they decided
+13:06 to kind of push all of their efforts
+13:07 into one single app which was Codex and
+13:11 now what they're doing is they're just
+13:12 putting Atlas inside
+13:15 they're basically putting Atlas inside
+13:19 like this is the Atlas browser and I
+13:23 I know this by interacting with people
+13:24 at OpenAI. This is going to become a
+13:26 full web browser. So, you're going to be
+13:28 able to log in, it'll remember your
+13:30 login info. And so, instead of having
+13:32 like a web browser with all of your tabs
+13:35 open, and you have to decide what task
+13:37 you need to use, instead you'll start a
+13:38 chat with an AI, and the browser will be
+13:41 there right on the right, and you're
+13:42 you'll you'll have different windows
+13:44 open for the specific task. And I think
+13:47 that's just a better way to do knowledge
+13:48 work, you know? Um and you can just open
+13:50 up tabs directly in the app that you're
+13:53 creating whatever it is that you want to
+13:55 create. And you'll be able to open up
+13:56 Notion, and you can download the Notion
+13:59 plugin, and so you can have your AI edit
+14:01 Notion, and you'll have Notion open
+14:02 directly in the app. Um in the web
+14:04 browser, which I find to be pretty cool.
+14:08 Um and so, that's another thing. They
+14:10 also have a built-in Remotion plugin,
+14:12 and because their web browser is the
+14:13 best, you know, I created this video the
+14:16 other day. Oh boy, I've been doing a lot
+14:19 on here. Um
+14:21 And Remotion, for those people who don't
+14:23 know, is what?
+14:25 So, Remotion, and by the way, in uh 3
+14:28 hours I'll be launching a video on how
+14:30 to use Codex for Remotion. Remotion
+14:34 turns code into videos.
+14:36 So, you can create motion graphic videos
+14:38 with code. Well, guess what? Uh lucky
+14:41 luckily for you, AI will write all that
+14:43 code. So, you can just create uh you can
+14:46 just type out what um motion graphic
+14:50 scene you want, and it will create it.
+14:52 And Claude, as many people in your
+14:55 audience know, Claude has went on this
+14:57 massive run of of launches every single
+15:00 day. And
+15:02 and by the way, it's reconnecting. I
+15:03 think Codex is getting a lot of load
+15:06 right now. Like, there's just a lot of
+15:07 people using it, but
+15:08 >> about it, you know? You're talking about
+15:10 it. You're out there saying, you know,
+15:12 it's the super app, it's the best, you
+15:14 know, it's where you should be spending
+15:15 your time. You want to bet on Open AI,
+15:17 and then all of a sudden it's
+15:18 reconnecting. Yeah, dude. I mean, what
+15:20 can I say?
+15:22 Um well, I'll try and be quiet before we
+15:25 shoot our next video. Um I'll just pin
+15:27 this I ideally it'll just work in just a
+15:29 second. We don't need to show it for
+15:31 now. But, the point is you can generate
+15:33 really high-quality motion graphic
+15:34 videos and Anthropic did this when they
+15:38 first started doing their product
+15:40 launches, they were just launching them
+15:41 with Remotion videos. And it's really
+15:43 good for software products where you
+15:45 like have something happening on a user
+15:47 interface. It can generate the user
+15:49 interface, it can generate the motion.
+15:51 And the thing that's really cool about
+15:53 Codex is you can just search the
+15:55 Remotion plugin.
+15:57 And once you enable the Remotion plugin,
+16:00 any chat that you use, you can say
+16:02 @remotion.
+16:04 And you can say @remotion, please create
+16:07 a video.
+16:09 And then I created another skill, which
+16:12 is is called Internet Image Puller. It
+16:15 doesn't just pull images, it pulls all
+16:17 of the assets for any given company from
+16:20 the internet. So, it might work for 10
+16:22 minutes, it'll pull all of a brand's
+16:23 assets, put it in an HTML file, and then
+16:27 Remotion
+16:28 or Codex can have all of that
+16:30 information for Remotion. So, it can use
+16:32 your logo, it can use your colors, it
+16:34 can use your fonts in the video. You
+16:36 don't have to like manually tell it what
+16:38 to do. It'll just pull all of that
+16:39 information. And so, that's a really fun
+16:41 way and
+16:43 um this is how we do a lot of our launch
+16:44 videos. And some have gotten over a
+16:46 million views.
+16:47 Uh so, this is a really useful thing. It
+16:49 was just really annoying to use with all
+16:51 of the other tools.
+16:53 Codex is the only one where you can just
+16:55 @remotion and it opens directly in the
+16:57 app.
+16:59 Yeah, and you know, for
+17:02 for people who aren't super familiar
+17:04 with Remotion, it's not just that it,
+17:07 you know, takes concepts and turns turns
+17:10 the videos into code or or, you know,
+17:13 creates videos that are code. These
+17:15 videos are so high quality.
+17:18 It is actually insane. Like actually.
+17:22 Like I've I know multiple people who've
+17:25 gone from zero to 100,000 Instagram
+17:27 followers by doing re-motion videos.
+17:31 Now, they're high quality re-motion
+17:32 videos and they go back and forth and
+17:34 back and forth. I'm not saying you one
+17:36 prompt it and you get the best possible,
+17:38 you know, videos. But these are Is that
+17:39 re-motion right here?
+17:40 >> Yeah, so this is 77 like almost 800,000
+17:44 views. This is all re-motion. You can't
+17:46 hear it, but like you can create motion
+17:48 graphic videos. Yeah.
+17:51 And it's really easy to just like create
+17:53 pretty simple videos. And I think when
+17:56 you're doing a launch video, if it's a
+17:58 good idea, you should try and keep it as
+17:59 simple as possible. Never have multiple
+18:01 things happening at once.
+18:03 Oh, okay. It just popped up. It's It's
+18:06 testing if it's running, but like this
+18:08 is what would run on the side of your
+18:10 screen and it will in just a second. But
+18:12 it literally creates this like CapCut
+18:15 like timeline. And so this is And so
+18:18 these are all of your compositions.
+18:21 And so here we have this demo that I
+18:24 made yesterday.
+18:26 Um and this was in one shot. And the
+18:29 reason why I was able to generate this
+18:32 in one shot is I actually have this
+18:34 thing called brand assets.
+18:37 Um this contains all of the assets that
+18:41 I might want to use. And so once you've
+18:43 generated a video with all of your brand
+18:46 assets, you can just reference that to
+18:48 your AI and you could say, "Hey, please
+18:49 use this background or use this
+18:51 component or use this logo." And you
+18:53 notice here I just labeled all of these
+18:55 logos here. And so I can always say like
+18:59 "Please look at the brand assets, use
+19:01 the X logo, the YouTube logo, the TikTok
+19:03 logo, and the cursor logo and put it in
+19:05 this video in this scene." And so if you
+19:07 just get everything that you might want
+19:09 to use in here, it's easy to tell your
+19:10 AI to to use it later, if that makes
+19:13 sense. Anyway, you can create videos
+19:16 and you can open it right here in the
+19:18 browser as you can see. That took a
+19:20 little bit because Codex is running a
+19:22 little slow, but this is kind of like an
+19:26 everything app, which is which is pretty
+19:27 cool. And then to to
+19:31 to finalize why I use it over other ones
+19:34 is the computer use is better. It is
+19:36 faster than any computer use that I've
+19:38 used before and this means
+19:42 you download computer use as part of
+19:45 Codex. It can literally control your
+19:47 computer. Not only can it control your
+19:48 computer, it can control multiple of
+19:51 your apps at the same time, which is a
+19:53 mind-blowing experience and you can see
+19:55 the mouse moving around on your device.
+19:58 I had it controlling Canva yesterday. It
+20:00 was moving around pretty fast
+20:02 controlling Canva. It exported the right
+20:04 document and it fed it back into Codex.
+20:07 It was a really fun workflow and that's
+20:09 just a really cool experience. I I
+20:10 highly recommend trying this
+20:13 just to kind of see where AI's at in
+20:15 terms of computer use. And then as I
+20:17 talked about earlier, it can control the
+20:19 browser that's directly inside Codex.
+20:22 So, pretty soon we'll live in a world
+20:24 where an AI will be able to go to any
+20:25 site, open the browser,
+20:28 you're going to be logged in, so it'll
+20:29 have all of your login information.
+20:30 It'll be a full browser like Atlas and
+20:32 it will be able to take any action. So,
+20:34 there will be basically no limitation to
+20:36 what
+20:37 it can do. And then they released this
+20:39 new Chronicle feature so that it kind of
+20:41 like remembers everything. So, it'll
+20:43 kind of
+20:44 and this one might have some privacy
+20:46 stuff that you might want to look into
+20:48 if you're super big on privacy. This is
+20:49 my work computer and I I like testing
+20:51 stuff too much, so I had to enable it,
+20:53 but it basically watches your screen for
+20:55 context, so you don't have to explain
+20:57 yourself again. It just kind of knows
+20:59 what you're working on and it stores
+21:01 these as like little Codex memories and
+21:04 it allows you to stay in flow. So, you
+21:06 can move chats around, you don't really
+21:08 need to be that organized. The AI will
+21:10 just kind of have context over what
+21:11 you're doing. And these are kind of the
+21:14 main reasons I really like
+21:16 uh Kodak.
+21:17 >> didn't know about Chronicle, first time
+21:18 I've ever heard of that.
+21:20 Is it worth I I know there's privacy
+21:22 issues and security issues. I know the
+21:24 comment section is going to
+21:27 not love it. But, from a productivity
+21:29 standpoint, are you seeing meaningful
+21:32 uptick? So, I they released it 2 days
+21:35 ago. So, I'm not going to lie, there's
+21:37 been way too many things to test. But,
+21:40 if you go to personalization and you
+21:42 scroll down and go to Chronicle,
+21:44 uh I recommend learning more. This is
+21:45 not an endorsement. I'm using a work
+21:48 laptop. I test everything. W- I go
+21:51 unlimited permissions on
+21:53 I don't care about the privacy stuff.
+21:55 I'm testing everything. That's what I
+21:56 do. I love it too much. So, by no means
+21:59 am I telling you to do this and that
+22:00 it's worth the risk. I've no idea what
+22:02 the risk is. Um but, you should look
+22:04 into it because it is an interesting
+22:06 technology at the very least, right?
+22:08 H- Having an AI, assuming it's secure
+22:11 and everything, having an AI that
+22:13 understands what you're working on so
+22:15 that when you type something, it knows
+22:17 exactly what you're referencing, that is
+22:19 inherently useful. Whether or not it
+22:21 works really well, I it's up up for
+22:23 debate. I haven't tested it long enough,
+22:25 you know, it came out 2 days ago. So,
+22:27 what else do I need to know like cuz I'm
+22:28 downloading Kodak for the first time.
+22:30 So, what are things in terms of setup?
+22:34 Uh Remotion I'm going to add
+22:36 uh projects I understand
+22:39 plugins.
+22:41 Um yeah, so
+22:43 yeah, let's talk about plugins. So,
+22:44 plugins
+22:46 you know, there's a lot of words right
+22:47 now. And people talk about MCPs, they
+22:50 talk about plugins, they talk about
+22:52 skills, they talk about integrations,
+22:54 connectors, right? You have all of these
+22:56 words.
+22:57 And if I'm being honest, the difference
+22:59 between them is very blurry, right? Just
+23:01 kind of I clump all of those words
+23:03 together and I just call them skills.
+23:05 Um it just makes sense in my brain,
+23:07 right? You have an AI agent by default
+23:09 that's really smart. It can search the
+23:11 web, it can it can create apps, but if
+23:14 you don't give it any skills, then it's
+23:17 it's only going to be a generic model.
+23:19 What you need to do is you need to give
+23:21 your agent access to the tools that you
+23:22 already use to make it useful for your
+23:25 workflows. And so
+23:28 here they call them plugins and again
+23:29 skills and plugins, you can create your
+23:31 own skill. You can actually can't build
+23:33 your own plugin unless you get it
+23:34 approved by OpenAI. So that's kind of
+23:37 the the difference. Plugins are more
+23:38 efficient.
+23:39 Um and so one of the plugins that I use
+23:42 is Slack. So it's connected to our
+23:44 Slack. I can ask any question. You know,
+23:46 we have like 30 channels as a company
+23:48 and I can just ask AI to summarize
+23:50 everything that pertains to me. And
+23:52 because Codex keeps memories of me and
+23:55 I've given it a document that I've told
+23:58 what I think is important, it can find
+24:01 the things that are important. It'll
+24:02 surface them to me.
+24:03 Um and you can also connect it to your
+24:06 email, so it can send and receive emails
+24:09 or you can like tell you who emailed you
+24:11 if something's really important. Um and
+24:14 you can connect it up to Notion, you can
+24:16 connect it to sheets and you know,
+24:18 pretty soon you're going to be able to
+24:19 do it for all of them. The Expo one is
+24:21 pretty useful. It allows you to kind of
+24:23 view a mobile app uh preview directly
+24:27 inside Codex, which is really cool.
+24:29 Um and then obviously Remotion and
+24:31 Canva.
+24:33 You can just connect it to your existing
+24:35 tools.
+24:36 And if you don't find the tool that you
+24:39 want to use in plugins, you can create
+24:40 your own skill and you do that simply by
+24:43 creating a new chat
+24:45 and you say, I want to create a new
+24:48 skill
+24:50 that does
+24:51 whatever blank.
+24:53 Um
+24:55 and then you can also say use the
+24:56 /skill.
+24:58 Wait, I think it's at skill.
+25:02 Or maybe they don't have it anymore.
+25:05 To reference a skill, you use a / to
+25:07 reference plugins, you use the app
+25:09 mention, which I think is weird. I think
+25:11 they should combine all of them. Right?
+25:13 So I could say use computer use at
+25:16 browser use.
+25:18 Um to use a skill, you do a / and you
+25:20 can see all the
+25:21 uh slashes here. I don't see they used
+25:24 to have a skill builder
+25:27 skill, but they don't have it. I think
+25:28 it's just smart enough to just say
+25:30 create a skill and it'll just create it.
+25:32 After you create a skill, it'll show up
+25:34 here in this tab. And here are all the
+25:35 skills that I've created. Um I've
+25:38 created
+25:38 >> confusing, right? Cuz like
+25:40 you create a skill and then it puts it
+25:42 into the plugins
+25:44 tab. Well, no, no. A skill is in the
+25:47 skills tab. Oh, yeah, yeah, yeah, you're
+25:49 right. It's in the plugins tab. It has
+25:52 plugins and skills. And so I think this
+25:54 is super messy, right? That's why I
+25:56 think they should just combine it all
+25:57 into skills or pick one and just stick
+26:00 with it because it is super confusing.
+26:02 And the fact that they have that it's
+26:05 different like you have an app for
+26:08 um
+26:09 plugins and then you have a / for
+26:11 skills.
+26:12 I find to be like kind of annoying.
+26:16 Um
+26:17 but I will say I've tried all of these
+26:18 tools. This is the simplest version that
+26:20 exists yet. Okay, and in in the simplest
+26:23 way possible, what is the difference
+26:25 between a skill and a plugin?
+26:30 Honestly, I think plugins are just like
+26:32 a deeper
+26:34 integration. I I would be lying to you
+26:36 if I knew the technical thing. I just
+26:38 know that like if you're a company and
+26:40 you want to create an official plugin,
+26:42 you go to Open AI and you you create it
+26:44 with them. It's similar to you remember
+26:45 the apps SDK on Chat GPT? It's more of
+26:49 an official process. Right? There's a
+26:51 reason why, you know, we can't just
+26:53 we couldn't spend the rest of this video
+26:54 making the the gray Heisenberg plug-in
+26:57 and then get it approved right after
+26:58 this video. You'd have to reach out to
+26:59 OpenAI. You know, I'm sure they have
+27:01 thousands of companies trying to create
+27:03 plug-ins and you can only imagine the
+27:06 value of showing up here on the plug-ins
+27:09 tab, right? So, this is kind of their
+27:10 more official integration. Um and then
+27:13 skills are like what you create
+27:16 um and uh these are just again, all of
+27:19 these skills are mostly just like a
+27:21 folder that is stored somewhere in here
+27:23 and then there's a skill.md file in that
+27:25 folder that has specific instructions.
+27:28 And AI is really good at creating
+27:30 skills. So, all you have to do is just
+27:32 say, "Hey,
+27:33 any repetitive task that you have in
+27:35 Codex, say, 'Hey, I want to create a
+27:36 skill so we can do this faster next
+27:38 time.'" And then the AI will be like,
+27:39 "Okay, cool." Like, it may ask you some
+27:41 follow-up questions and then it'll just
+27:43 create the skill and then it'll show up
+27:44 here. Yeah, one thing you might want to
+27:46 do is
+27:48 you know, if you're downloading Codex
+27:49 for the first time, maybe you connect it
+27:50 to your Google Calendar
+27:52 and you basically say like, "Here's what
+27:54 I do on a given week
+27:56 and
+27:58 you know,
+27:59 help me create a set of skills that can
+28:02 help me do my job better." Absolutely.
+28:04 Yeah, I think I think one of the best
+28:06 ways to do it is just to like
+28:08 literally speak into your phone. I just
+28:10 I tell everyone to do this. Just yap
+28:12 about everything that you do on a
+28:13 day-to-day basis. Like, go through every
+28:15 task. Don't skip any details. Take 20
+28:18 minutes to just speak about everything.
+28:20 Get it in a document and then just look
+28:22 at it and be like, "Okay, what parts
+28:24 could I automate with something?"
+28:26 Anytime there's an automatable process
+28:29 and you can convert it into
+28:31 instructions that could be completed on
+28:33 a computer, that is a skill that you
+28:35 could create on Codex.
+28:37 Uh one really cool thing is
+28:40 um
+28:41 right? So, we just created this report
+28:43 using my YouTube researcher skill.
+28:46 And it looked at the Startup Ideas
+28:48 podcast negative only content report. As
+28:51 a tear slowly goes down my cheek. Oh, I
+28:54 I I love this. Let's let's
+28:57 All right, the show is drifting away
+28:58 from I I I I meant to do it as a joke.
+29:01 I'm not actually trying to to nitpick
+29:03 your channel. But I will say that
+29:05 as uncomfortable as it is to get AI to
+29:07 critique you, it is a useful activity.
+29:10 I've done it before, you know, like
+29:11 something you can't turn a blind eye,
+29:12 you know, and it can and AI will
+29:14 actually find
+29:16 um it can search other channels and see
+29:18 what they're doing right and then
+29:20 compare it to what you're doing wrong.
+29:21 It's like this channel's doing this
+29:23 right. That's why they are getting more
+29:24 views than you, right? And these
+29:26 exercises are good. It puts You should
+29:28 spend more time on what you're doing
+29:29 wrong than what you're doing right, in
+29:31 my opinion, and just focus on improving
+29:33 it every time.
+29:35 Now, let's say that this was the most
+29:36 useful report you've ever seen, right?
+29:38 Let's say we go through it and we're
+29:39 like, "Oh my god, like we need to we
+29:41 need to do this more often." One thing
+29:42 you can do is you'll notice here we have
+29:44 this automation tab.
+29:46 I want you to do this every single
+29:50 Friday.
+29:52 Um actually every
+29:54 Yeah, let's do every single Friday for
+29:57 the videos
+29:59 of that week.
+30:02 I want to know what I'm doing wrong.
+30:07 Uh please create an automation.
+30:12 Oops, I don't know why I didn't pick up
+30:13 on that. Oh, it's cuz I have my AirPods
+30:15 in.
+30:16 Um
+30:18 create automation.
+30:20 Uh 9:00 a.m. on Fridays.
+30:25 And so it really is that easy to create
+30:27 an automation. You just type in that you
+30:29 want this to happen. This is how I
+30:30 normally set up automations. People
+30:33 sometimes want to create an automation
+30:35 before they do it. It's just like do it
+30:36 once and then tell the agent to do that
+30:39 every time on this day. And that's a
+30:42 kind of a good workflow. And you can see
+30:43 here that it shows created weekly
+30:45 startup ideas podcast Fridays at 9:00
+30:47 a.m. If you click on it, it opens up
+30:49 right here. And it shows you the status,
+30:52 which is active, which is good. The next
+30:54 run is on May 1st, 2026. The last run is
+30:58 nothing because it hasn't run before.
+31:01 Um
+31:01 and there you go. It tells you what
+31:02 project, and then you'll notice here
+31:04 there's now a two on automations.
+31:06 And it shows up right here. And if you
+31:09 want to test it, all you have to do is
+31:10 come up here and hit run now, and it
+31:12 will run that automation. And that's how
+31:14 you can kind of test to see how good it
+31:16 is. And then, if you notice that
+31:19 something's wrong, you can press edit,
+31:21 and you can edit the automation. And I
+31:22 recommend doing that a few times, like
+31:24 whenever you're setting up an
+31:25 automation, you want to make sure it
+31:26 works.
+31:27 And that's how you set up these
+31:29 recurring tasks. And some recurring
+31:31 tasks that I'm seeing a lot of people
+31:33 have in the AI space, or just people in
+31:35 business, is they just have AI analyze
+31:38 their Slack and their
+31:40 email like twice a day, and it sends
+31:43 them an email summary. So, they just
+31:45 they get it very concise, and they all
+31:48 have links to to relevant uh chats or
+31:52 emails. So, it's really easy to
+31:53 navigate. I found that to be a really
+31:55 useful one for me as well. And, you
+31:58 know, you one-shotted that negative
+31:59 report. So, if I let's say I'm not happy
+32:02 with the output for whatever reason,
+32:05 to refine that, how do I do that? Yeah,
+32:08 I mean, say like
+32:10 hey, by the way,
+32:12 uh the report you gave me was too long.
+32:17 I want more concise.
+32:20 Put um
+32:22 and make it a slash And by the way, this
+32:26 document is a skill by default.
+32:30 That That is called Word Docs. So, I
+32:32 just say make it a Word Docs instead of
+32:35 Markdown.
+32:37 Um
+32:39 and then
+32:42 and then you can see I'll use the doc
+32:43 skill here. I'll do two things, convert
+32:45 the markdown into concise docs, and
+32:47 update the Friday automation. You see I
+32:48 was going to have it recreate the doc,
+32:51 and then I would say, "Okay, now update
+32:52 the automation." But it decided that it
+32:55 was just going to do it for me.
+32:57 Um which is cool. Which is actually not
+32:59 how I would want to do it. Um and one
+33:02 thing is in skills, you can always
+33:04 include references with skills. So
+33:07 um or in in your automation. So you
+33:10 could actually include the document that
+33:13 it creates
+33:14 uh inside the automation. You can say,
+33:17 "Hey, it should look like this
+33:18 document." Right? And you can give it an
+33:20 example. I I always tell people that
+33:23 really good instructions are good, but
+33:25 giving it a really good example is
+33:27 great. Right? You give an AI one good
+33:29 example, it's amazing. You give it five
+33:30 good examples, it's just going to do a
+33:32 great job every time. Um that's kind of
+33:35 how I think about it. So is there the
+33:37 concept of an eval on output? Meaning,
+33:41 you know, an eval basically, you know,
+33:43 evaluation, short for short for
+33:45 evaluation. Basically, this is a nine on
+33:48 10 output, 10 on 10 output, and it keeps
+33:50 going until it gets good output. Is
+33:52 there that concept within Codex? Um I
+33:55 mean, you could set it up yourself. The
+33:58 the, you know, this is GPT-5.5. It'll
+34:02 run for as long as you want it to run.
+34:04 And so you could just tell it, say like,
+34:06 "Hey, I want you to evaluate it." The
+34:08 problem is
+34:09 um I think in that case it would
+34:11 probably be useful to have examples of
+34:13 really good output so it knows what you
+34:15 want. You know, the AI
+34:18 they struggle with these uh subjective
+34:20 tasks, right? Coding is very um
+34:24 you know what a good output is because
+34:25 the app looks good and it fully works.
+34:27 So it's easy to verify whether it's good
+34:29 or not. But a report, you know, my my
+34:31 startup ideas podcast.
+34:33 Um
+34:35 So, this is another problem that Codex
+34:37 has. Oops. That's kind of annoying is
+34:39 like the bullets are all weird. Like
+34:43 So, this is one thing. This is another
+34:45 example of something you can fix. Like
+34:46 fix the bullets.
+34:49 They're weird formatting.
+34:53 Um
+34:54 What was I saying?
+34:56 Before the weird formatting?
+34:58 Before the bullets completely threw you
+35:01 off.
+35:03 You were saying
+35:04 those bullets are I don't think I know
+35:06 those bullets those bullets will throw
+35:08 anyone off.
+35:09 Yeah.
+35:10 Uh yeah, honestly.
+35:13 But yeah, you can just create these
+35:15 these
+35:16 uh I don't remember what I was saying.
+35:18 You were saying
+35:20 I don't I don't remember the bullets
+35:22 really took us for a left turn.
+35:27 We're talking about skill.
+35:29 I think you're talking about
+35:31 the you know, the right outputs
+35:33 examples.
+35:35 Yeah, yeah, yeah. Yeah, collect the
+35:37 number one thing that you can do
+35:40 uh in a company right now and what we're
+35:42 talking to a lot of companies that are
+35:43 trying to implement AI is just collect
+35:45 as many good examples as possible.
+35:48 Um this allows your agents to have
+35:49 examples that they can reference. Store
+35:51 them in a knowledge base that's easy to
+35:53 to find, right? If you store them in in
+35:55 like a Notion database for example, AI
+35:58 is really good at going to a Notion
+36:00 database, scouring the Notion database,
+36:03 finding the right document to use as the
+36:05 example. And in that way you can just
+36:06 kind of give it all of your documents as
+36:08 long as you keep it organized. It's it's
+36:09 going to be able to use it pretty well.
+36:11 Um and so, collecting examples
+36:15 is a really useful thing. And I've
+36:16 noticed a lot more companies are even
+36:18 recording their screen a lot more
+36:21 um in order to capture workflows because
+36:23 I've heard rumors that the the versions
+36:26 of OpenAI
+36:28 uh their new their newest model and
+36:30 version of Codex, you're going to be
+36:31 able to upload videos to it. And so, it
+36:33 can watch the video, see exactly how you
+36:35 do it, and then it will be able to
+36:36 control the computer just like you. And
+36:39 that's going to be a whole new world.
+36:41 And so, I'm kind of preparing for that
+36:43 world because most of my workflows as a
+36:46 creator or like I'm in I'm in marketing,
+36:48 a lot of my workflows require using an
+36:50 interface or using a tool like CapCut,
+36:53 like Canva, and AI will pretty soon get
+36:57 to a point where it can do that.
+36:59 And and just a side note,
+37:01 you know, if that's the case that uh you
+37:04 know, these super apps are going to
+37:06 allow recorded videos to be up uploaded
+37:09 to them,
+37:10 um you got to think that the value of
+37:13 recorded content is going to go up in in
+37:16 the AI age. So, just from a startup idea
+37:18 perspective, uh
+37:21 there's a lot there.
+37:22 Yeah, I mean, and why do you think you
+37:23 hear rumors of Meta and Microsoft
+37:26 employees now required to record their
+37:28 screen and do certain tasks? And it's
+37:30 kind of like
+37:32 you know, it's become a meme in that you
+37:35 know, a lot of people who are anti-AI
+37:36 where like, "Oh, when they start
+37:37 recording your screen, like it's over.
+37:39 Like they're trying to replace your
+37:41 workflows." And yeah, it is kind of
+37:43 scary in a corporate setting. But like
+37:45 if you run a small business and you want
+37:47 to accomplish more with like a small
+37:49 group of people, like you want to be
+37:52 able to offload some tasks that you
+37:54 wouldn't normally do
+37:56 um to an AI that can just kind of handle
+37:57 these tasks.
+37:59 Um
+38:00 Let me see here.
+38:05 Did it fix it? There you go.
+38:10 So, yeah. You can create any sort of
+38:11 document in here.
+38:13 Um
+38:14 Recording your screen will be big. So,
+38:17 the number of four negative If you go
+38:20 back to that doc, one of the things that
+38:22 I get wrong in this podcast apparently
+38:24 according to Codex is my interviews are
+38:26 way too soft. So, it says my guests get
+38:28 a friendly runway. There's not enough
+38:30 pressure on failure modes, cost,
+38:32 security, churns, customer acquisition,
+38:35 who should not use the product. So, I'd
+38:37 like to take this opportunity to
+38:40 take the Canadian out of me and not be
+38:42 so friendly and ask you the question
+38:45 with respect to Codex.
+38:47 Um you know,
+38:50 who should use the product?
+38:52 Cost, securities, churn, customer
+38:55 acquisition, like
+38:56 you know, what are the hard questions
+38:58 I'm not asking that I should be asking
+39:00 about Codex?
+39:01 >> You know what I respect about you is you
+39:03 got feedback and you are applying that
+39:06 feedback 10 seconds later, which I
+39:08 admire. That's great. Um
+39:10 Um you know, who should use the product?
+39:14 Um I think that if you're constantly
+39:20 I think content creators should use this
+39:22 platform. You know, like I I'm a content
+39:24 creator first. That's how my brain
+39:25 thinks. You know, I'm constantly
+39:26 creating lead magnets
+39:28 which require vibe coding. And if
+39:32 um
+39:33 And yeah, I find that to be super useful
+39:35 and I'm also creating documents. So, if
+39:36 you're creating websites and documents,
+39:39 you might as well do it in the same
+39:41 platform because ultimately like the
+39:42 websites that I create have to do with
+39:44 the documents that I create. I don't
+39:46 want them to be in separate platforms. I
+39:47 want to be able to create a document, do
+39:49 research, outline my thinking, and then
+39:51 convert it into a landing page
+39:53 seamlessly. And that's what you can do
+39:54 inside Codex. So,
+39:57 So, as much as I want to help you give
+39:59 good feedback, I think there's a reason
+40:01 why these companies are racing to create
+40:03 the super app is because they think that
+40:05 everyone in knowledge work will use
+40:07 these platforms. And I truly believe
+40:09 that that's
+40:10 where we're going. I'm not saying you
+40:12 need to use Codex. I have no vested
+40:14 interest in Codex. I'm not an investor
+40:15 in OpenAI. I've never been paid by them.
+40:17 I just like their platform and I think
+40:20 it's the best right now and I see a
+40:22 clear path to it being the best over
+40:24 time. So, that's why I'm trying to
+40:27 prepare now because it's it's only 10%
+40:30 as good as it will be maybe once these
+40:32 AI gets really good at controlling a
+40:34 browser. That's what I'm really excited
+40:36 about. So,
+40:37 for all those reasons you should use it.
+40:39 Um
+40:41 But again,
+40:42 don't use it if you don't want to.
+40:44 Anything else on this platform that's
+40:46 just a must know in terms of getting the
+40:48 most out of it?
+40:49 >> Honestly, you know what? I I I I would
+40:51 maybe should have started this. But so,
+40:52 yesterday in my video, I posted this
+40:54 video. I wanted to test the browser use.
+40:57 And so, I had it make this chess game
+40:59 and then I said I said, "Okay,
+41:01 uh use @browseruse
+41:05 and play yourself
+41:09 in chess
+41:12 uh one move
+41:14 at a time like earlier."
+41:18 So, what you're going to see here,
+41:20 hopefully,
+41:22 if Codex operates properly, and by the
+41:25 way, we're using 5.5 on medium
+41:27 intelligence, which
+41:30 uh I will talk about that right after.
+41:32 But let's see if this AI
+41:35 plays itself using the browser. And I
+41:37 think this is just like a good way to
+41:39 kind of get an idea of like how the
+41:41 browser use works. I recommend just
+41:42 having fun with it at first. I think
+41:46 people try to do like Oh, see? You can
+41:49 see the mouse. You see that? So, it's
+41:50 literally playing itself in chess
+41:55 as both teams. And look at how fast
+41:57 that's like working, right? Like
+42:00 you know, a a few months ago, this was
+42:02 way slower than this. I don't know if
+42:04 you tested any of the browser use stuff,
+42:05 but this is like pretty seamlessly
+42:07 playing.
+42:09 Yeah.
+42:10 It felt like
+42:11 uh
+42:13 like with Manas, for example, it was
+42:15 really cool uh that browser use was even
+42:18 possible, but it really felt like it was
+42:20 on a dial-up modem. And this this feels
+42:22 like it's broadband.
+42:24 100%. Yeah, I just checkmated uh black.
+42:26 So, white just checkmated black. White
+42:29 wins by checkmate. I played it through
+42:31 the in-app browser one move at a time,
+42:32 alternating white and black. Final
+42:34 result, white wins by checkmate.
+42:37 And here we can see the full sequence.
+42:39 And so, that In my video, it did this in
+42:41 one prompt. I said, "Build a chess game,
+42:44 then use browser use to test the game
+42:46 and play yourself until one team wins."
+42:48 And that's what it did in one shot,
+42:50 which
+42:51 I mean, that's pretty insane, you know?
+42:53 Like it it we're we're desensitized to
+42:54 it now, but like that's insane. If you
+42:56 If you think about where we were even a
+42:58 year ago. Um and then you think about
+43:01 where we will be
+43:02 a year from now, you know? Um it may
+43:05 just create its own Canva a year from
+43:07 now and then use that. It might find It
+43:08 might be like, "Oh, it'd be way faster
+43:10 for me to just create my own tool
+43:12 because Canva doesn't have this little
+43:13 feature and it can't add it." Like it
+43:15 might as well just make its own feature
+43:17 and then add it and then control it. And
+43:19 that So, are you not using Claude code
+43:22 at all anymore? This is like your daily
+43:24 driver? Okay, two things I forgot to
+43:27 cover. That's one of them. Command J
+43:31 opens the terminal. Type Claude. I have
+43:34 it set up to automatically run in uh
+43:35 dangerously skip permissions mode.
+43:37 Anytime Like I can say, "Redesign the
+43:40 chess app to make it the Anthropic
+43:45 vibe." Boom.
+43:47 Congratulations, you're using Claude
+43:48 code inside Codex. And you're using it
+43:51 with the Claude subscription, so you are
+43:53 getting you're benefiting from that same
+43:55 the same savings, right? Another reason
+43:57 why you want to use these models in
+43:58 these platforms directly, like in Claude
+44:01 or in Codex, is you just save so much
+44:03 money because they're subsidizing Like
+44:05 you get thousands of dollars of tokens
+44:08 for your $100 per month or $200 per
+44:11 month plan because you're using their
+44:14 platforms. So like for me
+44:16 there's no really good argument on not
+44:18 using these platforms if I'm being
+44:19 honest because you get so many tokens
+44:22 as a
+44:23 as a user. And you can also just use
+44:26 Claude code directly inside Codex and
+44:28 it'll work. Um
+44:30 so that's one thing. Also another thing
+44:31 is uh
+44:33 you know CO and uh some other people
+44:35 have been talking about how they like to
+44:37 use 5.5 on low and medium
+44:40 effort for
+44:42 most tasks, right? If you ask it to make
+44:45 a simple change and you use extra high,
+44:47 it'll often like really try and put a
+44:49 ton of effort into it and it might go
+44:51 off and like do unintended things. And
+44:54 so that's one thing to look out for. I'm
+44:56 not very good at discipline enough at
+44:58 doing that. I end up using I end up just
+45:00 on extra high just running it over and
+45:02 over again.
+45:03 Um but that's what I've been hearing
+45:06 other people say. And you can also if
+45:08 it's feels like it's going too slow, you
+45:09 can turn it to fast. Just know that this
+45:12 will be
+45:13 um
+45:14 more expensive. You'll run out of
+45:15 credits faster. I also think it's worth
+45:17 mentioning that 5.5 is an expensive
+45:20 model, right?
+45:21 >> Yes. It's if you use it via their API
+45:25 um let's see here.
+45:27 Look at that. So Claude code just
+45:29 changed to the chessboard, right? And
+45:31 then you can just
+45:32 throw it away. The only thing is if you
+45:34 use if you use Codex in the app, you get
+45:37 that like spinny animation and you can
+45:38 see when it's done. That does not happen
+45:40 when you use it in the browser. They're
+45:41 kind of like separate things. So just
+45:44 keep that in mind. But like look at how
+45:45 easy that was. Now people like oh but
+45:48 Claude's way better at design. So it's
+45:49 like just make the whole app and then
+45:50 tell Claude to design it. Like that's
+45:52 what I say. It's like
+45:54 it's that easy. Um what did you just ask
+45:56 right before this? Um
+45:58 I I just I was just saying that I you
+46:00 know you should should be noted that 5.5
+46:03 is a more expensive model.
+46:06 >> Yeah, if you use it via the API, it's
+46:08 just twice as expensive as
+46:11 uh the recent model, which is uh GPT
+46:15 5.4.
+46:16 It's twice as expensive. But, what
+46:19 you'll find is that the model is
+46:22 actually more efficient. So, it'll get
+46:24 the job done and get the job done better
+46:27 with less tokens.
+46:28 And I think
+46:30 that's where I think the benchmark thing
+46:32 will be a year from now. It's not going
+46:33 to be how token efficient is it. It's
+46:36 going to be how much money and how much
+46:39 time does it cost to do a specific task.
+46:41 You know, the same way you would hire a
+46:43 contractor
+46:44 or a or a human employee, you're not
+46:46 like
+46:47 you don't think about it in terms of
+46:48 token efficiency. You're like
+46:50 you know, you just think about how
+46:51 expensive is it to get a task done. And
+46:54 so, like if you were
+46:56 what this model does is it really thinks
+46:58 about your intent more. And so, it'll go
+47:00 more directly towards what it is that
+47:02 you want. And so, you may find that it
+47:04 actually gets things done better and
+47:05 faster. Um but yeah, it definitely can
+47:08 cost more money when using it on the
+47:10 API. I haven't noticed my credits going
+47:12 down
+47:13 twice as much when using it in the app.
+47:16 So, that's hard to say. Um and then it's
+47:18 also 20% more expensive than Opus 4.7.
+47:21 So, that's one thing to consider.
+47:23 So, it is pretty expensive.
+47:25 You said that there were two things that
+47:27 you wanted to cover. One was terminal.
+47:30 >> Yeah. One was the models and the second
+47:32 was using Claude code in the terminal.
+47:34 And again, this is a full terminal. So,
+47:35 if you're technical, like you can do
+47:36 anything in here. Um
+47:39 and I think yeah, I mean, you can create
+47:42 any type of document. I'm still learning
+47:44 this right now. So, for for example, you
+47:47 can leave comments on the
+47:50 uh on the browser. This is similar to
+47:53 Cursor has this feature as well. So, you
+47:55 you just comment directly on this and
+47:56 say like, this should say
+47:59 uh gray chess.
+48:03 Chess. And what you'll see once you
+48:04 press enter, you see that one annotation
+48:07 enters the the chat. Let me close out of
+48:09 this.
+48:10 Um and you can say and then you can add
+48:12 another one. You can say like
+48:14 uh the pieces
+48:16 should be bigger.
+48:20 And you can just say bigger.
+48:23 And so you can add three annotations and
+48:25 then just say make these changes.
+48:28 And that's kind of how I do it uh for a
+48:29 lot of the design changes and it's super
+48:31 useful. Um
+48:33 And so yeah, I mean, this is a very
+48:35 complete product. You can also full
+48:37 screen it. One thing that you can do is
+48:38 you can full screen and then you can
+48:39 kind of message message it here. It's
+48:41 kind of in a more immersive way to uh do
+48:44 some vibe coding tasks or if you want to
+48:45 just focus on the document that you're
+48:47 working on.
+48:48 I find this to be incredibly useful.
+48:50 Have you been using Codex a lot with
+48:53 images 2.0? Yes. Since it was launched.
+48:57 100%. So, um
+48:59 great question. Codex has GPT image 2,
+49:03 which is the best image model in the
+49:04 world. And again, this is not like up
+49:06 for debate. I'm not
+49:07 Again, I'm really not trying to shill
+49:09 anything. You notice here that it's
+49:10 making changes and it's using browser
+49:12 use to test stuff. I didn't even ask for
+49:14 that. So, just wanted to put that out
+49:15 there.
+49:16 Um
+49:17 yeah, the GPT image model is actually
+49:19 insane. It's better across every single
+49:21 category and it's built into Codex. And
+49:23 so, you can ask it to create websites.
+49:26 You can ask it to create 10 different
+49:28 versions of thumbnails and Codex will
+49:31 just prompt GPT image 2 and then it can
+49:34 generate
+49:36 um images. And then it can put those
+49:37 images in in a Word doc. You can put
+49:40 them in a presentation or a website or
+49:41 anything. So, yeah, it's a super useful
+49:43 feature and I think there might be a
+49:46 skill for it. Um it's {slash} image
+49:50 or GPT.
+49:54 Now, okay, you can just ask it to use
+49:56 GPT image and it'll just do it. And they
+49:59 also have Sora built in, too. Like Sora
+50:01 is an official plugin.
+50:03 And it Yeah, but you're going to use
+50:04 Sora? Like
+50:06 Yeah.
+50:07 >> No. God, no. Sora I don't even have it
+50:10 installed. I just, you know, some people
+50:12 out there, you know, they might want to
+50:13 create some brain rot videos or whatever
+50:15 they're doing. Yeah. I think the people
+50:17 that listen to this, like most people
+50:19 here are
+50:20 like I want to start a company where I
+50:22 are I have a company and I want product
+50:25 market fit and I want to scale it. And
+50:28 they're looking at how can I use this
+50:29 tool to just supercharge my productivity
+50:33 and so I think that with respect to
+50:36 Sora,
+50:37 you know,
+50:38 Sora's now delisted from the App Store,
+50:41 right?
+50:42 Yeah, yeah, it's it doesn't exist
+50:44 anymore.
+50:44 >> Doesn't exist anymore. So, it's like
+50:46 it's interesting, it's fun,
+50:48 but I think the people listening to this
+50:50 are way more interested in using
+50:52 Remotion.
+50:53 Totally, but but re- mind you, that's
+50:55 not like a reference to the app, the the
+50:57 plugin. It's it's it's the video model
+50:59 and Sora's not the best video model
+51:01 right now. So, that's why it's not
+51:02 interesting and I think that's what
+51:04 OpenAI realized. They're like, "Oh, this
+51:05 is going to take so much effort to
+51:06 create the best state-of-the-art video
+51:08 model." Like, that's what people want to
+51:10 use. So, you can create a skill that
+51:12 connects to FAL to use the best video
+51:14 models and you can attach it to this app
+51:16 and you could have those videos show up
+51:19 inside the Remotion thing. You can put
+51:21 videos inside of the Remotion video that
+51:24 play
+51:25 in the video itself. So, if you wanted
+51:27 to create a talking head video of you,
+51:29 I've seen you've you've
+51:32 have used AI video before, I'm certain.
+51:34 You could easily set that workflow to
+51:37 work directly inside Codex and you could
+51:39 add subtitles directly in it. I'm sure
+51:41 there's going to be a company that only
+51:42 builds like an AI video editor like
+51:45 Remotion that shows up inside Codex and
+51:47 they're going to make a killing, right?
+51:49 Um,
+51:50 that's all coming and so you'll be able
+51:52 to just edit, create videos directly
+51:54 inside Codex because any interface that
+51:56 you can possibly think of that would be
+51:58 on the internet will show up here
+52:00 because it's a full web browser. So,
+52:02 And with uh
+52:04 you know, working with FAL, you know,
+52:07 what is the best video models? Is it
+52:09 Seedance 2.0 or is there something else
+52:11 that you you use?
+52:13 >> Yeah, for whatever reason I've like
+52:15 completely lost interest in AI videos.
+52:17 Maybe it's gotten so good.
+52:19 For me I just focus so much more on like
+52:21 the I find coding and and agents so much
+52:24 more interesting than video models. I'm
+52:25 not up to date. I would love in the
+52:27 comments if someone could let us know
+52:29 what the current state of the art model
+52:31 is. I'm I'm really curious.
+52:33 Uh I've heard Seedance, Kling, and a few
+52:36 others are are really good. Um
+52:39 I I'm curious where Google is. Have you
+52:41 heard anything about VEO? Like is that
+52:43 still a good model or is it
+52:45 >> Was that the latest one? I think it was
+52:46 the latest. Maybe like 3.1 or something.
+52:49 >> Yeah, I mean
+52:51 I had PJ Aes on I don't know, 3 4 months
+52:55 ago and the stuff that he was able to
+52:57 show me in terms of creating
+52:59 commercials using VEO 3.0 I believe was
+53:05 incredible.
+53:08 Haven't heard of it a big launch from
+53:10 Google since then.
+53:12 Um
+53:13 but I I I loved I loved what I loved
+53:17 what he showed me. I also played with
+53:20 Seedance 2 last week.
+53:22 Um
+53:23 and I was also like very very impressed.
+53:28 Yeah, I always try it and I'm like this
+53:29 is awesome and then I'm like what am I
+53:31 going to use this for? Like for me I
+53:32 make educational content. I like
+53:34 talking. I you know, it's it's hard for
+53:35 me and I've just been using Remotion a
+53:37 lot because
+53:38 um very similar to you in the first you
+53:40 know, 1 to 2 minutes of my long-form
+53:42 videos, I use graphics to kind of
+53:44 outline the, you know, I saw or watched
+53:47 one of your open claw videos recently
+53:48 and you have a really cool graphic of
+53:50 like open claw with a spotlight coming
+53:52 down on the open claw. It was just a
+53:53 very good opening graphic and that's how
+53:55 I use I use it as as overlays over my
+53:58 long-form content. That's what I'm
+54:00 excited about. I just haven't using it
+54:03 not at all for for AI generated video.
+54:05 But also PJ is a legend, by the way. I
+54:07 love that
+54:08 >> Legend. Absolutely legend.
+54:09 I think uh a part of what what's
+54:12 daunting for a lot of people in AI in
+54:15 general is they hear about something
+54:17 like Codex
+54:19 and they're overwhelmed with how do I
+54:22 actually make this a part of my life? I
+54:25 just had coffee right before this with a
+54:27 friend of mine
+54:29 and I was like, "Dude, are you on you
+54:31 know, Codex, how you using Claude, how
+54:34 you using Gemini?" And he was just like,
+54:37 "To be honest, I use Notion and Notion
+54:39 AI.
+54:40 And like I ping pong with, you know,
+54:43 chat GPT and Gemini sometimes, but
+54:44 that's like basically it." And I was
+54:47 like, "Well, what's stopping you from
+54:49 setting up some automations and creating
+54:51 some skills and this and that?" And he's
+54:53 like, "I'm just overwhelmed and I don't
+54:55 know."
+54:56 Yeah.
+54:58 Yeah, I mean, Notion first of all,
+54:59 Notion's done a great job, honestly. I I
+55:01 you know, I think they're
+55:03 I don't use Notion much anymore because
+55:05 the platform got a little too um
+55:07 overwhelming to onboard other people
+55:10 onto. Like if you don't know how to use
+55:12 Notion, it's becoming a little annoying
+55:13 to like teach people how to use Notion.
+55:15 It's
+55:16 it's kind of overwhelming a little bit.
+55:18 Um but they have a really good agent
+55:19 sale system built in. And if you want to
+55:21 go deep in Notion AI and learning how to
+55:24 build agents, do it. Like yeah, I you
+55:27 know, it's great. I just personally want
+55:28 to create other types of documents and
+55:31 um
+55:32 I find Codex like very soon you'll be
+55:34 able to connect like Notion will just
+55:36 show up in the browser.
+55:38 Um
+55:39 because right now you can't sign in to
+55:41 anything and have it stay signed in.
+55:43 It's not persistent. Uh so that's but I
+55:46 know for a fact that they're releasing a
+55:49 full browser. And so there is a Notion
+55:51 skill already. You'll be able to control
+55:52 Notion. And so
+55:54 you're going to be able to use these
+55:55 models for cheaper inside Codex to use
+55:58 AI inside Notion. To me it doesn't make
+56:00 much sense to use the agents within
+56:02 Notion. Makes sense to use the agents
+56:04 within Codex and then use the interface
+56:06 of Notion if you like it. That's how I
+56:08 That's how I see it. But if you say you
+56:10 use Notion as your second brain, I'm I'm
+56:13 sure there's a plug-in a Notion plug-in
+56:15 that connects, right?
+56:16 >> Yeah, absolutely. Plug-in
+56:19 uh Notion. I have it set up. I use
+56:20 Notion for one specific thing and that
+56:23 is for all of my videos I create one
+56:25 Notion page and I drop in
+56:28 um
+56:29 I you can actually upload videos to it
+56:31 and like I can comment on parts of the
+56:33 script and include attachments on the
+56:35 videos. So it's it's a niche use case.
+56:37 So I use Notion and I set it up with one
+56:40 click. And if you actually go to Notion
+56:43 um
+56:45 actually we don't need to get into this
+56:46 but it's super easy to like choose what
+56:49 uh team spaces has access for Codex. So
+56:53 when you go to Notion you can very
+56:54 easily like set up permissions. Like you
+56:56 can only give it access to one database
+56:59 if you want. Um if you're if you're
+57:01 worried about it messing up messing with
+57:03 your Notion or privacy concerns, it's
+57:05 you can give it access to only specific
+57:07 databases which I find really useful.
+57:10 I want to end on this note.
+57:12 Um
+57:14 I want to end on for someone who's just
+57:16 getting started with Codex
+57:19 if there's three or four things that
+57:22 they should do once they've got it
+57:23 installed
+57:24 what would those four things be?
+57:27 Very funny. And by the way, we didn't
+57:28 plan this. I put this right before the
+57:30 podcast. I was like, if there's projects
+57:32 to get started to test,
+57:34 uh I actually wrote them down.
+57:36 Um and we covered one of them. I I think
+57:39 the first thing that you should do is
+57:40 you should have fun on all these
+57:41 platforms. I think the worst thing that
+57:42 people do when they when they show up on
+57:44 the platform is to like expect to get
+57:46 productivity out of it right away
+57:47 without kind of like
+57:49 play around for 30 minutes. Take an hour
+57:51 to just do fun projects and that just
+57:52 gives you an idea of like the
+57:54 possibilities and then hone it down and
+57:57 get very specific and get disciplined.
+57:59 And so I think one of the best things
+58:00 that you can do is like make a game
+58:02 uh and have browser use play a game
+58:04 against itself. Just use the browser use
+58:06 test it. It'll get your brain thinking
+58:08 about where this is going in the future
+58:11 and how this will be useful in the
+58:12 future, which may actually change
+58:15 how you set up your documentation now
+58:18 for all of your different tasks. Like
+58:19 maybe it'll maybe you can start
+58:21 preparing for it now cuz this is not a
+58:22 year from now. This is like 3 months
+58:24 away. AI will be able to control any
+58:26 browser like as good of a human and this
+58:29 is something I can't convey by
+58:31 explaining it. You have to try it out.
+58:32 So that's why I recommend trying it out.
+58:35 Another thing that you should do is
+58:36 um tell AI to do in-depth research and
+58:39 say I put it on max effort and say I
+58:41 want you to research this topic and um
+58:44 put it all organize all of the
+58:46 information you find into a spreadsheet.
+58:48 Then when you're done, turn that into a
+58:50 document and presentation and just get
+58:52 the sense that you can create a in-depth
+58:55 research report. You can put it in a
+58:57 spreadsheet. You can create a document
+58:59 and a presentation, right? So once you
+59:01 do these two things, you now understand
+59:03 browser use and all the types of
+59:04 documents it can create. And then I said
+59:06 make a 3D simulation. This one's more
+59:08 just for fun. Um if you want to, you can
+59:11 also try and build a mobile app in
+59:12 Swift. If you have a a company website
+59:14 and you're like, oh, you've always
+59:15 wanted to create a mobile app, um you
+59:17 can literally download the code to your
+59:20 to your web app or website, upload it
+59:22 and say, "Hey, I want you to build a
+59:23 mobile app in Swift." For this for now,
+59:25 you still need to have a Mac and you
+59:27 need to have Xcode downloaded, but it
+59:29 can one-shot mobile apps. Like full
+59:32 mobile apps.
+59:34 Uh if
+59:35 there's a few things that you need to
+59:36 learn, but you'll be mind-blown at what
+59:38 it can create in one shot. To the point
+59:40 where it's actually gotten scary for me.
+59:42 Like I'm like, "Oh my god, every app
+59:44 that can exist will exist." Um
+59:47 that's how good AI is getting at
+59:48 creating mobile apps. And then like the
+59:50 main thing after you've kind of played
+59:52 around
+59:53 like I said, list out all of the things
+59:55 that you do on a day-to-day basis, pick
+59:57 the most annoying thing that you do
+59:59 every day,
+1:00:00 and then um try and do it with computer
+1:00:02 use, or just try to create a workflow
+1:00:04 that accomplishes it. Maybe you use
+1:00:06 plugins, and then tell your agent to
+1:00:09 turn it into an automation.
+1:00:10 Just tell your agent to turn it into an
+1:00:11 automation, and
+1:00:14 you know, if you can create one useful
+1:00:15 automation in a couple of hours, that
+1:00:17 might be worth it, you know?
+1:00:19 Um
+1:00:20 And so those are just some projects that
+1:00:21 you could get started with right now
+1:00:23 that will give you an overarching view
+1:00:25 of what this tool can do. And I think by
+1:00:27 then you'll be like, "Okay, I
+1:00:28 understand."
+1:00:29 And by then you'll be like, "That Riley
+1:00:31 Brown guy, he was right about that Codex
+1:00:33 thing."
+1:00:34 >> Yeah, like and you might have doubt now.
+1:00:35 Like you you can only convey so much
+1:00:37 information by talking or even showing.
+1:00:38 Like you got to feel With AI, I think to
+1:00:41 a large degree you have to feel it. You
+1:00:43 do these things, if you're still not
+1:00:44 sold, message me. I I
+1:00:46 I I I don't think you you'll exist. Um I
+1:00:49 I don't think that person will exist.
+1:00:51 Just you got to try.
+1:00:53 >> I'll include links for where to find
+1:00:54 Riley in the show notes in the
+1:00:56 description. Riley say something.
+1:00:57 >> number. I want a direct line. No, no.
+1:01:00 I'll include Riley's phone number.
+1:01:02 Actually, be careful what you text Riley
+1:01:04 because he's got uh Chronicle set up.
+1:01:06 So, you know, whatever you text him
+1:01:08 might just show up on the internet.
+1:01:10 >> it goes it goes straight to Sam Altman.
+1:01:12 Yeah.
+1:01:14 Riley, thanks so much for coming on the
+1:01:16 show.
+1:01:17 Um do you have one last words word of
+1:01:21 wisdom to leave people after this Codex
+1:01:23 masterclass. Um honestly, just get out
+1:01:27 there and experiment. Right now is the
+1:01:28 best time to experiment and uh what I've
+1:01:31 noticed, you know, in being in San
+1:01:32 Francisco, uh I've noticed that the
+1:01:34 people who have been like really
+1:01:36 successful creating startups are people
+1:01:38 who just like want to experiment and
+1:01:40 tinker and they don't have so many
+1:01:42 people who are like type A want to get
+1:01:45 an immediate benefit after 30 minutes of
+1:01:47 using a tool and I don't think that's
+1:01:49 where the benefits come. I think the
+1:01:50 benefits come from tinkering, messing
+1:01:52 around with tools and and when you get
+1:01:55 when you have this weird inclination of
+1:01:56 you're like, "Okay, wait, what is a
+1:01:58 model? Why is this model different than
+1:02:00 the Deep Seek V4 model?" It's like go
+1:02:02 down that rabbit hole. Use AI, learn
+1:02:04 about it and then through that process
+1:02:05 you'll you'll learn the things you need
+1:02:07 to learn to like start or grow your
+1:02:10 business. I think all of the magic in AI
+1:02:12 happens in these like rabbit holes and
+1:02:14 then once you find something, just like
+1:02:16 go all in on it. That's That's kind of
+1:02:18 my my final advice and I think Codex is
+1:02:20 a great kind of surface to do it on.
+1:02:24 You're totally right, by the way. I
+1:02:25 lived in San Francisco for, you know,
+1:02:27 almost 9 years and
+1:02:30 I think it it's not just so much that
+1:02:32 the the tinkerers win is that people the
+1:02:36 tinkerers who aren't afraid of looking
+1:02:39 dumb
+1:02:40 uh win, right? So, I think um
+1:02:45 when you're when you're trying some of
+1:02:47 these tools, you might feel dumb
+1:02:49 initially. And it's because you aren't a
+1:02:52 master of it yet. Um but the only way to
+1:02:55 become a master is to actually put in
+1:02:57 the time and work. Um so, I think uh
+1:03:01 the
+1:03:02 the reward is infinite, right? The
+1:03:05 ability to use these tools really well
+1:03:06 like Codex and be able to create you
+1:03:09 know, for me this isn't just a
+1:03:12 a tool that's helpful for content
+1:03:13 creators. Like this is helpful for
+1:03:16 literally anything that, you know, you
+1:03:18 can dream of. Lead magnets you use one
+1:03:20 example lead magnets content of course
+1:03:22 but you know ideas for products that you
+1:03:25 want to create businesses you want to
+1:03:26 create automating your personal life
+1:03:29 automating
+1:03:31 a dream team for you know a business
+1:03:35 that you're starting just you know and
+1:03:37 everything in between so
+1:03:39 keep keep playing just stop listening to
+1:03:42 this but you know also like and comment
+1:03:45 for for us that you know I want I want
+1:03:47 this episode to to get a lot of love so
+1:03:49 Riley comes back on. Um but yeah get
+1:03:52 your hands on the app.
+1:03:53 >> on dude this is my fifth time on the
+1:03:55 show man. I mean I'll I'll I'll come
+1:03:57 back on anytime even if it gets 10
+1:03:58 views. You came you came on when we were
+1:04:00 just a little show and so
+1:04:03 >> honestly there's an argument to be made
+1:04:04 that I put you on the map. No I'm just
+1:04:07 playing.
+1:04:08 Uh the the the video the first vibe
+1:04:09 coding video it's funny I I actually
+1:04:11 someone a lot of people bring that up
+1:04:13 they're like oh I first saw you on Greg
+1:04:15 Eisenberg's cast when I was struggling
+1:04:17 through that first episode. And that's
+1:04:19 why we that's why we do this right like
+1:04:21 you know I hope I hope uh so yeah thanks
+1:04:24 again for coming on and I hope someone
+1:04:26 learned one two three four five things
+1:04:28 that just
+1:04:29 gave them not just the creative juices
+1:04:31 to
+1:04:33 to actually use these tools but the
+1:04:34 motivation to keep going so thanks a lot
+1:04:36 Riley. Appreciate you having me on this
+1:04:38 is awesome.

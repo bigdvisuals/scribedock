@@ -1,0 +1,987 @@
+Title: Parrot Security OS | Introduction to Parrot Security OS | Cybersecurity Training | Edureka
+URL: https://www.youtube.com/watch?v=hrgwhNoBbdg&list=PL9ooVrP1hQOGPQVeapGsJCktzIO4DtI4_&index=38&pp=iAQB
+Channel: YouTube playlist
+Video ID: hrgwhNoBbdg
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:24:55.858Z
+
+0:00 [Music]
+0:11 if you are a hacker pentester security
+0:14 researcher or just another person who PS
+0:17 Google in front of friends to look cool
+0:19 then it's likely that you must have
+0:20 already known about some Linux distros
+0:23 which are particularly made for them
+0:25 today we going to explore one such Linux
+0:27 to parro security OS so guys this is
+0:31 Arch from edua and I welcome you to this
+0:33 session on parro security OS one of the
+0:36 leading Linux distribution in
+0:38 penetration testing and ethical hacking
+0:41 so let's quickly go through today's
+0:43 agenda first we will Begin by discussing
+0:46 how Linux distributions are suitable for
+0:48 ethical hacking and different type of
+0:50 Linux disos that are available for
+0:52 ethical hacking and penetration testing
+0:55 then we will begin with our today's
+0:56 topic which is parro security OS we will
+0:59 discuss its features its history if or
+1:02 not parat security OS is suitable for
+1:04 you moving on we will see how parro
+1:07 security OS is different from Ki Linux
+1:10 and then I'll show you how to install
+1:12 parot security OS using VMware software
+1:15 and finally we'll end this session by
+1:17 taking a look at few popular ped
+1:19 security OS tools so I hope agenda was
+1:22 clear to you guys let's get started
+1:24 there a security focused operating
+1:26 system is a hacker's best friend as it
+1:29 helps a hacker to detect the weaknesses
+1:31 in computer systems or computer networks
+1:34 whether you want to pursue a career in
+1:36 information security or you are already
+1:38 working as a security professional or if
+1:41 you are just interested in this specific
+1:43 field for fun a decent Linux distro that
+1:46 suits your purpose is always a must now
+1:49 if you're wondering what a Linux drro is
+1:52 it is a Linux distribution that has been
+1:54 curated to perform security related test
+1:57 and most of the time a Linux St will
+2:00 have a Linux space of auntu or Debian
+2:03 flavor and they usually have some custom
+2:05 tools pre-installed in it as well as you
+2:07 guys know Linux is the best choice for
+2:09 Security Professionals for obvious
+2:11 reasons and hence most of the D are
+2:14 usually built on it a Linex D can help
+2:17 you in performing analysis ethical
+2:19 hacking penetration testing digital
+2:21 forensic task and various other auditing
+2:23 purpose but guys apart from these D
+2:26 there are other open source tools as
+2:27 well that you can bundle and use as per
+2:30 custom requirements but using these
+2:32 distros have lot of advantages like
+2:34 first of all they save lot of time and
+2:36 effort that you need to spend when you
+2:38 are dealing with customer requirements
+2:40 secondly they help beginners to easily
+2:42 start with security testing without
+2:44 having to get into the integrities of
+2:46 operating system and lastly the most
+2:49 popular reason is you have great pool of
+2:51 disos that you can choose from most of
+2:53 the time K Linux is the obvious first
+2:56 choice of operating system for every new
+2:58 hacker if you ask me why the obvious
+3:00 answer would be because K Linux has lot
+3:02 of cool things it comes bundled with a
+3:05 curated collection of tools moreover
+3:07 these tools are organized into easy to
+3:09 navigate menu and a live boot option
+3:12 that's very newbie user friendly as in
+3:14 it's very friendly to new ethical hacker
+3:17 but guys color Linux isn't the only
+3:19 distribution which is targeted at
+3:21 pentest there are many exciting
+3:23 Alternatives that may better fit your
+3:25 use case anyway let's begin our
+3:27 discussion with K Linux it was the
+3:29 developed by offensive security as a
+3:31 Rite of backtrack Ki Linux D stops the
+3:35 list of best operating system for
+3:37 ethical hacking purposes and then there
+3:39 is parro security OS which is our
+3:41 today's discussion it is a mixture of
+3:43 Frozen box operating system and K Linux
+3:45 it's the second most popular operating
+3:47 system for ethical hacking and
+3:49 penetration testing as well and then you
+3:51 have backbox Linux it's A2 based
+3:53 operating system with its focus mainly
+3:55 on security assessment and penetration
+3:58 testing then you have pend to an
+4:00 excellent hacking operating system with
+4:02 wide variety of tools that you can
+4:03 choose from apart from these you have de
+4:06 Linux black outclinic cyborg Buck track
+4:09 and many others but as for today's
+4:12 session we will be discussing about
+4:14 parot operating system par OS is the
+4:17 second most popular Linux D ethical
+4:20 hacking after K Linux it is a
+4:22 comprehensive portable security lab that
+4:25 you can use for cloud penetration
+4:27 testing computer forensics reverse
+4:29 engineering hacking cryptography and
+4:32 many other security purposes now a
+4:35 little bit about his history the first
+4:37 release of parot O appeared in April 10
+4:41 2013 originally it was developed as part
+4:43 of Frozen box now it has grown to
+4:46 include a community of Open Source
+4:48 developers Professional Security Experts
+4:51 Advocates of digital rights and Linx
+4:53 enthusiasts from all over the world well
+4:56 compared to others parate security o
+4:58 promises a lot lightweight operating
+5:00 system and it's highly efficient along
+5:03 with its plora of Legally recognized
+5:05 tools you also get the opportunity to
+5:07 work and surf anonymously which is like
+5:10 a granted wish to an ethical hacker or
+5:13 any penetration tester we'll learn about
+5:15 other features in the later part of the
+5:17 session so moving on since its release
+5:20 in 2013 parot has grown rapidly and
+5:23 currently offers many different flavors
+5:25 targeted towards different use cases for
+5:28 example like I said we have parro
+5:30 security it's the original parro OS and
+5:32 is designed with penetration testing
+5:34 forensic hacking development and privacy
+5:36 in mind then you also have parat home
+5:39 which is targeted towards desktop users
+5:41 it strips out the penetration testing
+5:43 packages and presents a nicely
+5:45 configured Debian environment then you
+5:47 have parro air it's focused on wireless
+5:50 penetration testing parro Studio it's
+5:53 designed with multimedia Creation in
+5:54 mind then you have parro Cloud the most
+5:56 popular it targets server applications
+5:59 giving the user access to full suit of
+6:01 penetration texting tools included in
+6:03 par security but it doesn't have a
+6:06 graphical front end like we do in parot
+6:08 security moving on we also have parrot
+6:10 iot it's designed for low resources
+6:13 devices such as orange Pi Raspberry Pi
+6:16 and you have pine 64 and many others so
+6:19 it's true that parot security OS doesn't
+6:21 have large community of users behind it
+6:23 as K Linux does but the distribution has
+6:25 been gaining a lot of momentum recent
+6:27 years so things could be very different
+6:29 just a year or two from now so let me
+6:32 convince you more let's just discuss the
+6:34 features of par security OS let's start
+6:37 with the system requirements it's based
+6:39 on Debian 9 it runs on a custom hardened
+6:42 Linux 4.5 kernel it uses a m desktop and
+6:46 light DM display manager it requires a
+6:49 minimum of 256 MB RAM and works with
+6:52 both 32 and 64bit systems as well as
+6:55 armm compatible version apart from this
+6:58 parro o can also be installed on cloud
+7:01 and updated to perform cloud-based
+7:04 security testing so basically it runs on
+7:06 Deb 9 it is compatible with 32 as well
+7:10 as 64-bit systems and armm systems as
+7:13 well and it requires a minimum of 256 MB
+7:16 RAM so those are the system requirements
+7:19 moving on it also supports anonymity it
+7:21 offers a tool call and non surf
+7:24 including anonymization of entire
+7:26 operating system it comes with custom
+7:28 built anti foren tools interfaces for
+7:31 gpg and crisp setup additionally it also
+7:34 supports encryption tools such as luks
+7:37 true Crypt and verac crypt and many
+7:39 others moving on it also supports
+7:42 forensic boot option to shut boot
+7:44 automon plus many more it braces Falcon
+7:48 programming language multiple compilers
+7:50 debuggers and Beyond it also provides
+7:53 full support for developing Frameworks
+7:55 for embedding systems and many other
+7:57 amazing features so guys the these are
+7:59 few features of parat O so basically
+8:02 parat operating system supports
+8:04 anonymity it offers different kind of
+8:06 cryptography tools it also supports for
+8:09 Inc mode and it also provides
+8:11 opportunity to develop Frameworks for
+8:13 embedded systems and many other amazing
+8:15 features moving on before you go ahead
+8:18 and use paratos there are some important
+8:20 considerations that you need to take a
+8:21 look at first of all parat TOS provides
+8:24 gate purpose features like any other
+8:26 normal operating system but guys before
+8:28 you go ahead and use par TOS there are
+8:30 some important considerations that you
+8:32 need to take a look at first of all it
+8:35 provides general purpose features like
+8:37 any other normal operating system does
+8:39 but at its score it is still tuned for
+8:41 security and 4 and six now let's see how
+8:44 different Paro is is from other
+8:46 distributions parot is different from a
+8:48 general purpose distribution because it
+8:50 does not try to hide its features for
+8:53 example there's a tool called parro
+8:55 update reminder it's simple yet powerful
+8:58 program using this program you can check
+9:00 for system upgrades once a week but
+9:02 instead of hiding the upgrade process
+9:04 behind a progress part like any other
+9:06 operating system it shows the user the
+9:08 full upgrade process from the APT output
+9:10 so you can see the upgrade process going
+9:12 on secondly parro was designed to be a
+9:15 very comfortable environment for
+9:17 Security Experts and researchers it
+9:19 includes many basic programs for daily
+9:22 use which other penetration testing
+9:24 distributions usually exclude Pate
+9:26 security includes its own sandbox system
+9:29 I mean it provides a secure distribution
+9:31 user applications in parrot are
+9:33 protected to limit the damages in case
+9:36 if the system is compromised any time so
+9:38 this way no harm is caused so like we
+9:41 discussed earlier it also supports
+9:43 digital 4 and six digital 4 and six
+9:46 experts need an environment that does
+9:48 not compromise their proof so parate
+9:50 comes with automount functions which are
+9:52 disabled by default to allow four and
+9:54 six Acquisitions to be performed in a
+9:56 very safe way so before you go ahead and
+10:00 choose any of these operating system
+10:02 make sure you check out their features
+10:04 or the services they offer and make sure
+10:06 if they are suitable for the task which
+10:08 you want to perform but as for parats
+10:10 these are its features we discussed
+10:12 earlier and these are the certain points
+10:15 that you should take into consideration
+10:16 before you go ahead and use it now if
+10:19 you're wondering who the parate security
+10:20 is made for well it's made for Security
+10:22 Experts digital forensics experts
+10:25 engineering and it students researchers
+10:28 you have journalist and activists as
+10:29 well in the list and you have the newb
+10:32 hackers police officers and special
+10:34 security institutions so basically if
+10:36 you ask me it's suitable for a student
+10:38 or the entry-level Security Experts as
+10:40 well so earlier I listed out few
+10:42 operating systems which are suitable for
+10:43 ethical hacking and penetration testing
+10:45 car Linux and parro security o are two
+10:47 very popular platforms for ethical
+10:49 hacking penetration testing digital
+10:51 forensics and many of security purposes
+10:54 for a beginner it's quite difficult to
+10:56 choose any one of these platforms I had
+10:58 the problem to so let's discuss the main
+11:01 differences between K Linux and parro
+11:03 secur since these both are usually the
+11:05 top lanux distributions for ethical
+11:07 hacking okay here we go first of all
+11:10 Kinex is a Debian based operating system
+11:13 by offensive security and it's a reight
+11:15 of backtrack as for parro security it's
+11:18 a mixture of Frozen box and K Linux
+11:21 coming to system requirements of par
+11:23 security which we discussed earlier but
+11:25 anyway K Linux requires a minimum of
+11:27 10gb hard disk space for inst instution
+11:30 a minimum of 512 MB RAM and then as for
+11:33 parro OS it requires a minimum of 256 MB
+11:36 of RAM and it is suitable for both
+11:38 32-bit and 64-bit processor
+11:41 architectures talking about desktop
+11:43 environment the default desktop
+11:45 environment for K Linux is genome
+11:46 desktop the desktop environment in parat
+11:50 is mate or mate whatever you call it and
+11:53 the default display manager is light BM
+11:55 now penetration testing tools K Linux
+11:57 has pre-installed penetration testing
+11:59 tools and all these tools can be
+12:01 automatically updated which is a very
+12:02 easy process but parro security has no
+12:05 updating capabilities it uses repository
+12:08 of K for updating its tools but one
+12:11 thing is it has its own dedicated
+12:13 repositories for storing the custom
+12:15 packets and then about the operating
+12:17 system as you guys know par security is
+12:19 the most lightweight Linux distribution
+12:21 that's available for ethical hacker and
+12:23 when it comes to K Linux it uses a very
+12:26 heavy operating system and has more
+12:28 Hardware requirements when compared to
+12:29 parro security OS on other hand parro
+12:32 security OS uses very fewer Hardware
+12:34 resources thereby it's very lighter and
+12:37 it has smoother software and then comes
+12:40 a tool called Wi-Fi Fisher K Linux has
+12:43 no pre-installed Wi-Fi Fisher whereas
+12:46 parro security has it Kali operating
+12:48 system doesn't have a privacy tool like
+12:51 torque lines and a non serve parot
+12:53 security is inbuilt privacy tools uh
+12:56 such as Tor l and a non surve car
+12:59 supports metable framework whereas
+13:01 there's no support for metable framework
+13:04 in parro secur well these are certain
+13:07 basic differences between car Linux and
+13:09 parro security So based on this now you
+13:11 can consider these factors when you're
+13:12 choosing the Linux drro that suits your
+13:14 purpose so this is the end of the theory
+13:16 part now that you guys know about what
+13:19 parot security o is its features it's
+13:21 high time that we go ahead and install
+13:24 it and explore its features in life so
+13:27 first I'll show you how to install par
+13:28 secur OS on VMware so basically when it
+13:31 comes to installation you have two
+13:33 options you can install parro security
+13:35 OS alongside your operating system using
+13:37 dual boot option or you can install it
+13:40 using any of these virtualization
+13:41 software like virtual box or VMware as
+13:44 for today's session I'll show you how to
+13:47 install it using VMware so let's get
+13:49 started with our
+13:51 installation so guys just search for the
+13:53 Pyro security OS and it's most probably
+13:55 the first link that you find on the net
+13:57 this is pyro security OS official
+13:59 website as you can see there's a little
+14:01 bit about its history its features it
+14:03 says it's based on deun it's designed
+14:06 for security development and privacy in
+14:08 mind it also includes a laboratory for
+14:10 security and digital forens six experts
+14:12 along with that it also focuses if you
+14:14 want to develop your own software and
+14:16 all that and its project goals mostly
+14:18 are security privacy and development
+14:21 this is the part which you should
+14:22 consider important development unlike
+14:24 other operating systems its features
+14:26 it's secure lightweight when compared to
+14:29 K Linux or any other operating systems
+14:31 and it's a free source so go ahead and
+14:34 explore it so as for the download
+14:36 options you can go for security Edition
+14:38 here in the download menu here you can
+14:40 see other options as well it says home
+14:42 edition security and other bills we
+14:45 discussed few of the flavors of pyro T
+14:47 earlier we discussed Pirro home Pirro
+14:50 air Pirro studio and many of those
+14:51 anyway today we concerned with parro
+14:52 security 4.5.1 is a current version
+14:55 that's running so you have two options
+14:57 here to download first of all take a
+15:00 look at the size it's 3.7 GB and 5.9 GB
+15:03 so make sure whichever you want you're
+15:04 downloading it depending on your
+15:06 operating system requirements and as you
+15:08 can see this is a live PL installer ISO
+15:11 this is a virtual Appliance you can
+15:13 choose any of these if download is
+15:15 taking a little longer than you've
+15:16 expected maybe you can go for merus or a
+15:18 torrent so I've already installed it I'm
+15:20 not doing it I have both ioso file as
+15:23 well as this OVA format install as well
+15:25 next thing we need to do is install
+15:27 VMware so VM whereare VMware Workstation
+15:31 Pro so you have a download option here
+15:34 you can go ahead and download it you
+15:36 have for the free option here you also
+15:38 have VMware Player I guess wait here I
+15:42 go for the link sorry about that here in
+15:44 the downloads so you can go for
+15:46 workstation Pro or you can also go for
+15:48 workstation player here any of this
+15:50 whichever suits you I've already
+15:51 downloaded it it's going to take for a
+15:53 while and then all you have to do is
+15:55 install click on next and finish the
+15:56 installation process so before you start
+15:59 your virtual machine make sure you have
+16:01 your paratos image ISO file or UVA
+16:04 format whichever is of your choice and
+16:06 then here we go BMW workstation homepage
+16:09 yeah as you can see I already have a
+16:10 parats operating system installed here
+16:12 or virtual machine installed here this
+16:14 is I have install it using ISO file it's
+16:16 very easy I'll show you how to do it but
+16:18 if you have OVA format all you have to
+16:20 do is click on this file menu here open
+16:22 and as you can see I have a power
+16:24 security OV here and click and import it
+16:26 that's all click select it and click on
+16:28 open so I'm not going to show you how to
+16:30 do that so it's very straightforward
+16:33 process that's it this is myo file let
+16:35 me show you to again how to install it
+16:36 anyway on file or you can just go for
+16:39 create a new virtual machine here click
+16:41 on next and attach the ISO file browse I
+16:45 have it in my local DISD here I have par
+16:48 security and open next it's a Linux it
+16:52 in latest version which is 64bit and
+16:54 click on next give any suitable name for
+16:58 your virtual machine let's say parro
+17:02 security okay W and click on next let's
+17:07 design about 40gb it again depends on
+17:10 what you want to do if you're doing
+17:11 heavy task maybe you can assign more
+17:13 disk so as it asked to Virtual disc a
+17:16 single file or split into multiple files
+17:18 I'm going to choose single file click on
+17:20 next and you can always go ahead and
+17:23 make this customize Hardware settings
+17:24 earlier later but you can do it now as
+17:27 well customize Hardware I have not
+17:30 connection as for network adapter memory
+17:32 52 let's just say 2GB and um that yeah
+17:37 we set processors I'm just designing one
+17:40 for now cool and close as you can see
+17:43 the changes which you made are displayed
+17:45 here once you're satisfied with your
+17:47 settings with that you made click on
+17:48 finish you're good to go your security
+17:51 system is been displaying here so like I
+17:53 said you can always make settings later
+17:56 on you have this edit virtual machine
+17:57 setting options here just click on
+18:00 this let me maximize the screen for you
+18:03 guys so as you can see the parro
+18:06 security ISO is very flexible there are
+18:08 quite a few options you have uh live
+18:10 mode you have terminal mode you have Ram
+18:12 mode so basically live mode is just a
+18:15 standard live USB boot option just like
+18:17 you can see while you're installing K
+18:19 Linux suppose if you don't know how to
+18:21 install car Linux there's a video on how
+18:23 to install it as well by Dua you can
+18:25 refer to that in the ethical hacking
+18:26 playlist okay so coming back sorry about
+18:29 that you have persistence mode encrypted
+18:31 persistence for and6 mode and all that
+18:34 terminal mode as you can see is another
+18:36 live boot option but without graphical
+18:38 user interface but the most popular one
+18:40 among new hackers or if you're the first
+18:42 time user is install option with a
+18:44 graphical user interface so it's almost
+18:46 familiar with K Linux users if you want
+18:49 to get a feel of par security if and all
+18:51 this features maybe you can give for
+18:52 live mode but if you want to get just
+18:54 started then you can always go for
+18:56 install mode I'm going to click on that
+18:58 and click on standard
+19:01 installer so it's mounting all the
+19:04 installation tools and all that so once
+19:07 the machine is booted up you'll be asked
+19:10 to select your preferred language in the
+19:12 graub menu select the graphical
+19:14 installer options and click on let's say
+19:16 English and United States American
+19:20 English so then the loader will
+19:22 automatically install some additional
+19:24 components and configure your network
+19:26 related settings it might take a while
+19:30 so basically then the installer should
+19:32 prompt you for a host name and the root
+19:34 password let's give some root password
+19:37 give the password of your
+19:39 choice reenter the password for
+19:43 verification and now it's going to ask
+19:45 you to set up a user apart from the root
+19:47 user so let's just say test user
+19:51 continue and I'm going to keep it as
+19:53 test continue and choose a password for
+19:55 the new user which is different from the
+19:58 root user password that you'll have to
+19:59 remember so just give this new user a
+20:03 password continue reenter the
+20:06 password okay let me just go back and my
+20:10 mistake let me try it
+20:12 again select your time zone so basically
+20:16 after you youve set your password it's
+20:18 asking you for the time zone let's say
+20:20 central
+20:22 eastern so now the installer will
+20:25 provide you four choices about the
+20:26 partition of the disk the easiest option
+20:29 for you is to use guided use entire dis
+20:31 option which is the first option here
+20:33 experienced users can always go for
+20:35 manual partitioning method for more
+20:37 granular configuration
+20:40 options so yeah guide and partitioning
+20:43 I'm going to select it guide use entire
+20:45 disk this is the disk where I want to
+20:47 store so it's asking if you want to
+20:49 store all files in one partition or
+20:51 different let's just say all files in
+20:53 one partition and hit on continue so now
+20:56 you'll have to confirm all the changes
+20:57 to be made to the disc dis on the host
+20:59 machine be aware that continuing will
+21:01 erase the data on the disk so after that
+21:04 you can just click on finish
+21:05 partitioning and writing disk thing it's
+21:08 asking if you want to write the changes
+21:09 to the dis obviously yes so click yes so
+21:13 once on confirming the partition changes
+21:15 the installer will run through the
+21:17 process of installing the files let it
+21:19 install the system automatically this
+21:21 may take a while so I'm going to meet
+21:23 you guys once the installation is done
+21:33 so once the installation is done It'll
+21:34 ask you if you want to install the GRUB
+21:36 boot loader on your hard disk just say
+21:37 yes and click on enter device manually
+21:41 oh sorry just click the device which is
+21:42 already there go
+21:44 back the installation process is now
+21:47 almost
+21:51 complete so guys the installation is
+21:53 done once the installation is done you
+21:55 can see the machine boots you into a m
+21:57 desktop environment
+21:59 as in if you have chosen the install
+22:00 option you'll be presented with a
+22:02 lightdm login screen so basically you'll
+22:05 have to enter password and the which is
+22:07 set up for the test user earlier not the
+22:09 root password please do remember that
+22:11 I'm sure you remember setting up a
+22:13 password for the user right that
+22:15 password and
+22:18 login so here we go so guys here we are
+22:22 as you can see the machine boots you
+22:24 into the mate desktop environment let me
+22:27 pronounce it mat a you can call it
+22:29 whatever you want M or mate desktop
+22:31 environment so as you can see it's very
+22:34 good looking apart from that par
+22:36 Security will automatically detect when
+22:38 updates are available and prompt you to
+22:40 update the system as soon as you install
+22:43 it here it's not showing it to me
+22:44 because I've already updated it but
+22:47 otherwise all you can do is just go to
+22:49 the terminal here you can see a terminal
+22:50 option here right go to terminal there
+22:51 and just say Pudo app get
+22:55 update last me for the password
+23:01 here you
+23:03 go might be I might have updated in
+23:06 another the virtual machine anyway I
+23:08 installed the other one as well maybe
+23:10 it's in that anyway it'll update for you
+23:12 so let me just minimize this while it's
+23:14 updating let's go ahead and do other
+23:16 things oh it's almost done I guess yeah
+23:18 as you can see it's almost updated and
+23:20 it says 116 packages more can be
+23:23 upgraded and if I want I'll have to run
+23:25 update list if I want to see which of
+23:27 those packets are have to just list out
+23:29 those using apt command here I'm not
+23:31 showing you to you guys so anyway when
+23:33 you're making use of it make sure your
+23:35 system always stays updated okay let's
+23:38 go back to exploring par TS so as you
+23:40 can see system is laid out in a very
+23:42 straightforward manner with a collection
+23:44 of tools that you might be familiar with
+23:46 if you using Ki Linux before the menu
+23:48 system is almost similar to KI Linux and
+23:51 it's very easy to navigate the real
+23:52 difference is that parate security is
+23:55 meant to be used as a daily driver as in
+23:57 your regular operating system to do the
+23:59 other things as well to prove that you
+24:00 can see you have sound and video options
+24:02 here a lot of programming languages
+24:04 options as well you have system tools
+24:07 and you have Graphics included you have
+24:09 office applications or softwares you
+24:12 have base you have math writer and
+24:15 planner just like any other normal
+24:17 operating system so while you can use
+24:18 color Linux as a desktop workstation it
+24:21 is really is a penetration testing
+24:23 distribution first I'm talking about Ki
+24:25 Linux so with Ki you need to build the
+24:27 system towards being a daily used system
+24:29 as in you start using col Linux you need
+24:31 to modify or you need to customize it in
+24:33 such a way that you make it more
+24:35 plausible or easy for you to use for the
+24:37 daily purposes but that's not the case
+24:39 with par secur it's interface and
+24:42 everything is so good it almost appears
+24:44 like a normal operating system and it is
+24:46 like a very normal operating system so
+24:48 you have your penetration distants which
+24:50 are there and along with that you have
+24:52 your day-to-day applications are also
+24:54 there in this now talking about the
+24:56 system requirements the default par
+24:58 Security install uses about 313 MB of
+25:02 ram so as you can see here you can see
+25:03 this quite little bar it's like a task
+25:06 manager which you can find it in your
+25:08 windows you can click on that it'll show
+25:10 you all the progress that's going on
+25:12 first of all it says the parro genu
+25:15 Linux system and the release and the
+25:18 conal all the information about your ISO
+25:20 file and you have made dtop environment
+25:23 here and the hardware which is this and
+25:25 the processor it's based on available
+25:27 space and all that when you click on the
+25:29 processes it shows all the processor
+25:31 which are currently running sleeping
+25:32 just like your task manager in your
+25:34 Windows operating system so yeah like I
+25:37 said it requires about 313 MB of ram
+25:40 approximately around that but of course
+25:42 this is only system related process
+25:44 running when compared to K Linux it's
+25:46 very lightweight K Linux install
+25:48 requires about 604 MB of RAM and that to
+25:51 only with system rated process running
+25:53 so like I said it's a very lightweight
+25:55 system so yeah the bar is a task manager
+25:57 it list all the process that are running
+25:59 and all that you obviously have a
+26:01 terminal which I showed earlier the cool
+26:03 thing with terminal is that it goes with
+26:06 their interface other than that it's
+26:07 pretty much like any other normal
+26:09 terminal and then there is appearance of
+26:11 the interface I mean my first reaction
+26:13 when I saw it was wow amazing right when
+26:16 compared to the plain col Linux so yeah
+26:19 you get to use cool collection of
+26:21 wallpapers as well you have change
+26:23 desktop background here you have fonts
+26:26 interface and you have quite a lot of
+26:29 collection of wallpapers and you can go
+26:32 ahead and add your Customs as well
+26:34 that's all about the interface and like
+26:37 I said it's like any other normal
+26:38 operating system so it comes with a lot
+26:40 of programming languages and a bunch of
+26:43 text editors you also have IDs as well
+26:47 it uses pluma as your default text
+26:49 editor so that's it when talking about
+26:53 the normal operating system now talking
+26:55 about the performance almost all of us
+26:57 know that color Linux is a bit laggy and
+27:00 when you run it on a lowend system
+27:02 sometimes it's like a nightmare when you
+27:03 have Brute Force attack going on in the
+27:05 background or you're doing something
+27:07 else it's going to what do you say stuck
+27:09 or it's very slow but in par to it's
+27:12 very lightweight and doesn't lag much as
+27:14 you can see it's smooth now talking
+27:16 about Hardware requirements pretty much
+27:18 both kly Linux and your pirate require
+27:21 highend Hardware but parot needs low
+27:23 specification Hardware as compared to KI
+27:26 so if I have to conclude in one word
+27:29 parate is a goodl looking drro it's very
+27:31 lightweight it's resource friendly and
+27:33 if you want to know how much resource
+27:35 it's consuming and all that you can
+27:36 always gohe click on the little bar
+27:38 which is available there click on the
+27:40 resources you can see the CPU history
+27:42 memory Network history file systems and
+27:44 all that so basically it's a
+27:46 good-looking Destro lightweight resource
+27:48 friendly all this features apart p
+27:50 security Os Os has pretty good
+27:53 collection of features as well which we
+27:54 discussed earlier it comes like with
+27:57 hell lot of tools but if you see the
+27:59 sections there are a lot of other things
+28:01 which are not in K Linux so the most
+28:03 pointed tool here is that in K Linux
+28:06 suppose if you want to say private when
+28:08 you're doing hacking or any other stuff
+28:10 you'll have to install a noner t and
+28:13 then enable them or proxy chain you also
+28:15 have option of proxy chains to stay
+28:17 yourself Anonymous on the system while
+28:19 you're doing hacking or pen testing or
+28:20 anything but with parate to you already
+28:23 have Anon Ser pre-installed all you have
+28:25 to do is click on that start button so
+28:27 let let me show you how to stay
+28:29 Anonymous so this is one of the best
+28:31 feature in parot security OS it has
+28:33 proxy chains as well as an non serf to
+28:35 make yourself anonimous so you can go
+28:37 for this Anon serve and click on Anon
+28:39 start here before that you can check
+28:41 your IP of your system so it says6
+28:45 5173 just remember it I don't have to
+28:48 note it down anywhere 106
+28:50 52173 now if I go and enable this first
+28:54 of all It'll ask you for the
+28:56 administration password give that
+29:01 okay so basically once you enter the
+29:03 password It'll ask you if you want the
+29:05 Anon serf to kill the dangerous process
+29:07 which that can be de anonymize you or
+29:09 clear catch files or modify your IP
+29:12 table rules and all that it'll ask you
+29:14 if you want to do that just say yes so
+29:16 basically as soon as you click on S as
+29:18 you can see the notifications here the
+29:20 tool will attempt to kill dangerous
+29:22 processes that can de anonymize you
+29:24 anytime it'll clear your catch files
+29:26 it'll modify your IP table
+29:28 modify your resolve config file disable
+29:31 your IPv6 and only allow you the
+29:34 outbound traffic through top as you can
+29:36 see it says store is running started it
+29:38 for you imagine doing all this stuff by
+29:41 yourself if you don't have a non surf
+29:42 like in K Linux this would be quite a
+29:44 bit of effort manually but with the
+29:46 script already present here it's just a
+29:48 clicka so parate security also includes
+29:51 a similar script for i2p as well apart
+29:54 from that once you've enabled you can
+29:55 also check like I said your IP address
+29:57 number
+30:07 now so as you can see it says Global
+30:10 Anonymous proxy activated dance like no
+30:13 one's watching and crypt like everyone
+30:14 is so basically it's saying that surf is
+30:16 started
+30:19 out as you can see my IP address has
+30:22 been changed it was something of 160
+30:24 something but right now it's 182 so Anon
+30:26 surf has made me anonymous now I can do
+30:28 whatever you want in an anonymous mode
+30:31 so that's all I wanted to show you here
+30:34 now going back to Fire Fox it has quite
+30:38 a documentation part well it's still in
+30:40 the creation stage here as you can see
+30:42 documentation it's not all that well
+30:45 prepared or created yet so if you have
+30:48 any minor doubts you can go ahead and
+30:49 refer to the documentation part here so
+30:52 yeah here you go okay then let's go back
+30:56 to the desro one thing that you can
+30:58 point out about parat with is that it
+31:00 has a lot of cryptography tools such as
+31:04 it has Zulu script Zulu mount a
+31:07 graphical utility that will help you
+31:08 mount your encrypted volumes then there
+31:11 is something called Crypt Keeper it's
+31:13 another graphical utility that allows
+31:14 you to manage encrypted folders and much
+31:17 more these utilities makes
+31:19 confidentiality easily accessible any
+31:21 with the minimal experience I mean if
+31:23 you do not have any idea about
+31:25 cryptography you can easily start
+31:26 learning here that's what I meant so it
+31:28 just doesn't stop with cryptography or a
+31:30 non surve you have lot of other tools
+31:32 which you might not find in color Linux
+31:35 so let me show you guys that par as you
+31:37 can see you have lot of tools you have
+31:39 most used tools which is Armitage you
+31:42 have VES shock zenmap oasp and all that
+31:45 then you have wireless testing tools
+31:48 give me a second yeah post exploitation
+31:51 this set of tools mostly you can't find
+31:53 them in the K Linux you have OS backd
+31:55 door tools web back door tools you have
+31:57 uh Webco vely and all that and you have
+32:01 something called social engineering kit
+32:04 if I'm right it should be in the
+32:06 exploitation tools where is exploitation
+32:08 here H you can see a social engineering
+32:10 toolkit just click on that password so
+32:13 it is started up all that so if I just
+32:15 click one you have lot of options the
+32:17 update set configuration you have social
+32:19 leing attacks you have different type of
+32:21 attacks here you have Powershell attack
+32:23 vectors you have mass mailer attack you
+32:26 have fishing attack vectors and all that
+32:28 so basically you can click on that and
+32:30 enable all the attacks not going to show
+32:32 you in this demo how to do it this is
+32:34 just the basic introductory video about
+32:36 paros let me just close the terminal
+32:38 well there are common tools like you
+32:40 have nmap I'm sure you know how to use
+32:43 nmap let me just show you anyway nmap is
+32:46 one of the scanning tools you can find
+32:47 it in information gathering I'm sure
+32:50 nmap is here yeah it's one of the basic
+32:53 tools okay let's just explore enmap and
+32:55 Dietra here let me just show you how to
+32:57 use use nmap first just click n map you
+33:00 have all the help or the nmap
+33:02 configuration options are displayed in
+33:04 front of you if you don't know how to
+33:05 use just go through them it's pretty
+33:07 easy a simple example I'm already using
+33:10 the one which is already there just say
+33:12 scan me do
+33:14 nm.org okay here I go making spelling
+33:18 mistake
+33:21 again sorry about that it's going to
+33:23 take a little while that's all while
+33:25 it's scanning let me just show you
+33:27 another tool which is diit try it's a
+33:31 deep magic information gathering tool it
+33:33 has ability so here it is it should be
+33:35 in the information gathering only you
+33:38 have yeah here it goes so basically like
+33:40 I said it has ability to gather as much
+33:42 information as possible about a host
+33:44 subdomains it email information TCP port
+33:47 scan who's look up and all that let just
+33:51 check out if the map scanning is done
+33:54 here is the terminal yeah it's going to
+33:56 take a little while so once the scanning
+33:58 is done it's going to show you how many
+34:00 seconds it took what are the POS which
+34:01 are open and the Clos pose and all that
+34:04 now about the mro you can enable it from
+34:07 your terminal but you can also do it
+34:09 from here information gathering and
+34:11 click on theit password so let's
+34:16 say huh here we go so let me maximize
+34:20 all you have to do is you have lot of
+34:22 options here you have W which performs a
+34:24 who lookup you can do it online as in
+34:26 using Firefox as as well you have lot of
+34:28 websites where you can gather all the
+34:30 information once you have your IP
+34:31 address or and all that and you have
+34:34 retrieve encraft dcom information on a
+34:36 host perform search for possible
+34:37 subdomains email address and all that so
+34:39 basically you can give all this options
+34:40 in one go let's say TR r y
+34:45 iph i no option says the output your
+34:48 host. text or to the file specified by
+34:52 IO so I just press click zero let me
+34:55 just give sud sudo
+34:58 let me just check if I have given any
+34:59 file here I do have a file called test.
+35:03 text
+35:04 okay so like I said in the io option
+35:08 it'll save your output to the Tex file
+35:09 or to the file specified by IO option so
+35:12 basically just specify the file name
+35:13 where you want to store all the scan
+35:15 info and the website where you want to
+35:17 website of whose information you want to
+35:20 scan so let's say the bl.
+35:25 pinterest.co here you go it's started as
+35:27 C let me just scroll
+35:30 up the host name and the host IP address
+35:33 it's showing once you have IP address as
+35:36 you know you can gather almost all the
+35:37 information it's also showing the places
+35:40 where it's originated it's created lost
+35:44 modified you have sources you have
+35:46 address here and then yeah last modified
+35:50 created source and all that so basically
+35:52 it's showing a lot of information here
+35:54 similarly you can using Dimitri or a
+35:56 deep magic information Gathering tool
+35:58 you can actually gather information
+36:00 about any other website you want to know
+36:01 let's just check out if in map is done
+36:03 scanning so see as you can see it's done
+36:07 so I've given a website name here
+36:09 instead of that you can go ahead and
+36:10 give the IP address which is this one
+36:13 and it'll show you the same results as
+36:14 you can see there are a lot of ports
+36:16 usually nmap scans about more than
+36:18 thousand ports as you can see it says
+36:20 992 are the closed ports and these are
+36:22 the open ports and suppose you want to
+36:24 know information about each Port because
+36:26 basically if you're an hacker if you try
+36:27 to hack something you don't need
+36:29 information about all the ports it's
+36:30 basically the one port which you want to
+36:32 so to know that you can there are a lot
+36:33 of options which are provided by inmap
+36:36 if you want to know more about by nmap
+36:37 there's an video in the Eda playlist all
+36:39 about inmap it's under network security
+36:42 so you make sure to take a look at that
+36:44 so while you are taking a look at p
+36:47 security make sure you go ahead and
+36:49 watch a video on col Linux as well so
+36:51 you will know how different parat and K
+36:53 Linux are though they are similar in few
+36:55 parts so yeah that's it about out system
+36:58 as in pyo so like I said it's one good
+37:01 looking drro which is lightweight when
+37:03 compared to K Linux and lot of tools lot
+37:06 of unique tools as well when compared to
+37:08 K Linux and it's very smoother way
+37:10 smoother apart from all these good
+37:12 things there are few things that are
+37:14 problematic with p o first of all like
+37:16 you don't find a search bar here that's
+37:18 not a problem but that's one demerit you
+37:21 can say and it's also a little
+37:23 problematic when it comes to launching
+37:24 your application the process is a little
+37:26 slow unlike kin
+37:28 so guys this is your parat OS so
+37:30 basically this was a crisp video on what
+37:33 parro OS is it's review it's features
+37:35 and all that and make sure to watch a
+37:37 video on parot OS versus K Linux so guys
+37:41 we have reached the end of the session I
+37:43 hope the session was informative and
+37:46 demo fun if you find any problem while
+37:48 installing or reviewing any tools of
+37:51 parat make sure you mention them in the
+37:52 comment session and we'll get back to
+37:54 you as soon as possible thank you and
+37:56 meet you in the next session
+37:57 I hope you have enjoyed listening to
+37:59 this video please be kind enough to like
+38:02 it and you can comment any of your
+38:04 doubts and queries and we will reply
+38:06 them at the earliest do look out for
+38:09 more videos in our playlist And
+38:11 subscribe to Eddie Raa channel to learn
+38:13 more happy learning

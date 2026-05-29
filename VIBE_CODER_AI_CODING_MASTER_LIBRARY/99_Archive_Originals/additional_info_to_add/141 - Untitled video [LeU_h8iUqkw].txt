@@ -1,0 +1,630 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=LeU_h8iUqkw
+Channel: Riley Brown
+Video ID: LeU_h8iUqkw
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 the biggest opportunity right now in the
+0:02 entire AI space is accurately thinking
+0:06 that custom gpts are just an army of
+0:10 virtual employees because of a feature
+0:13 They just added which is the at feature
+0:16 where you are able to type the at sign
+0:19 within chat GPT and you get access to
+0:22 all of your custom gpts immediately as
+0:25 if you were mentioning someone on slack
+0:28 if you're wondering if this video is you
+0:31 know applicable to you it is applicable
+0:34 to everyone who wants to think more
+0:38 clearly uh for everyone who wants to do
+0:42 more productive work and for everyone
+0:46 who wants to learn more efficiently so
+0:49 if you fall into any of these three
+0:51 buckets this video will have a lot to do
+0:55 with you the way that I think about this
+0:57 entire process is as follows so you're
+1:00 starting out here and so this is you
+1:03 right and you are starting out here and
+1:05 you want to get somewhere right you want
+1:06 to get to here maybe you're starting out
+1:09 with an idea right you have an idea that
+1:12 pops into your brain and you want to
+1:14 take this idea and go somewhere with it
+1:16 right and so think about this so let's
+1:18 say you get an email from your boss and
+1:21 you want to quickly respond based on
+1:25 what he said you can go into chat GPT
+1:28 and with one singular prompt you can say
+1:32 take this email that my boss said plus
+1:35 some ideas that I have and turn it into
+1:39 a deliverable we'll call this D1 and
+1:43 this deliverable is an email to boss now
+1:48 let's rethink this from a little further
+1:50 out shall we now let's think about
+1:52 Custom gpts Custom gpts you're not just
+1:55 trying to go anywhere you're trying to
+1:57 go somewhere at a certain level of
+1:59 accuracy so so let's say D1 is located
+2:02 here and then you write a prompt with
+2:05 chat gbt saying write it take my boss's
+2:08 email and tell him that I don't actually
+2:11 want to go to the meeting or something
+2:12 like that and use a professional tone so
+2:16 this is prompt number one and you prompt
+2:18 it and you say actually make it a little
+2:21 less formal it sounds a little too
+2:23 formal and you create another prompt but
+2:26 again it doesn't fully get there and so
+2:28 this is prompt number two and then
+2:30 you're like okay chat GPT make it a
+2:32 little bit more concise and be a little
+2:35 bit more friendly and you're almost
+2:37 there you're just like oh make sure to
+2:39 add the right footer to the email and
+2:40 then you're there right and then that
+2:42 took four separate prompts so on the way
+2:46 to D1 we learned so we went here to here
+2:50 to here to here and so we had to kind of
+2:53 make one two three four adjustments to
+2:58 figure out how we want to speak to the
+3:02 boss D1 is just equal to email boss
+3:07 right so that is just the deliverable
+3:08 that we want there there's also many
+3:11 other deliverables that we need so we
+3:13 have D2 D3 4 five six and so on AI
+3:20 realized this was a huge pain point for
+3:22 people to have to rewrite these rules in
+3:25 chat gbt over and over again and last
+3:27 year they released something that was
+3:29 called custom instructions which allowed
+3:32 you to create custom rules that were
+3:35 taken into account every time and then
+3:38 smartly they adjust it after that and
+3:41 we're like okay we'll make separate
+3:43 little custom instructions so now you
+3:46 could have these little custom
+3:47 instructions each one has a photo and a
+3:50 name so you could name them and these
+3:52 were custom gpts each custom GPT you can
+3:56 find on the left part of your screen
+3:59 when using chat GPT and they're
+4:01 comprised of three different things so
+4:03 they're comprised first of instructions
+4:06 and these instructions can be thought of
+4:10 as a job description and so everything
+4:13 below this line imagine if you were
+4:15 actually just thinking about an employee
+4:17 so this is a job description at the
+4:19 beginning of this video I said that they
+4:21 are like virtual employees so if you're
+4:23 envisioning them as virtual employees
+4:25 the instructions are the job description
+4:28 the files which I'm pretty sure they
+4:30 rebranded as knowledge these are like
+4:34 the virtual employees skills or context
+4:38 what do they know and then there's also
+4:40 actions and I'm going to be spending a
+4:43 lot of time on actions in this video but
+4:46 the reason I'm going to be focusing so
+4:48 much on actions right now is that this
+4:51 is the tools that your virtual employee
+4:56 can use you can tell them exactly what
+4:58 they do in their job J you can tell them
+5:00 exactly what skills they need to have or
+5:03 what files they need to have as context
+5:06 so if you're creating a custom GPT that
+5:08 makes newsletters upload 10 different
+5:11 newsletters as examples so it knows what
+5:14 to reference and it will slowly get
+5:16 better and better and better and better
+5:17 over time and then finally they have
+5:22 tools they can literally access websites
+5:26 databases they can access zapier that is
+5:29 something that I'm going to be
+5:30 discussing in great detail in this video
+5:32 remember we learned four things and more
+5:35 realistically you'll learn like 10 or 15
+5:38 different rules these rules end up being
+5:41 instructions that you can store for
+5:44 later right and you're going to call
+5:45 this like email bot or if you want to
+5:48 put it in Formula form you're going to
+5:50 call this D1 bot and you'll just insert
+5:54 D1 into this place right here and then
+5:58 we're going to do it again and imagine
+6:00 you're a social media manager for a
+6:03 company and you are creating content of
+6:06 all different kinds you can now create
+6:09 D2 and you can put all these rules into
+6:12 this format that you've learned over
+6:14 time through testing to get right here
+6:16 and you've perfected it and so this
+6:17 takes up front time D3 D4 and so you can
+6:21 store these as custom gpts and earlier
+6:25 they lived on the sidebar of chat GPT
+6:28 right and you could C Cy you could work
+6:30 in chat GPT copy all that information
+6:33 click on the sidebar go to a different
+6:35 custom GPT paste it in and then tell it
+6:38 to do something that was incredibly
+6:39 useful because you didn't have to type
+6:41 in those same prompts over and over
+6:43 again however it got even easier now
+6:46 because all you have to do literally now
+6:48 is when you're using chat GPT and you're
+6:51 looking into the text box right the text
+6:53 box that you normally type in here's the
+6:55 logo right here that's the chat gbt logo
+6:58 and you're typing into the prompt you
+6:59 just do at sign so let's say you've been
+7:01 prompting it before and you have this
+7:03 like really sick answer from chat gbt
+7:05 here and it was it just outlines
+7:08 everything you want to talk about in a
+7:10 newsletter for example now if you've
+7:12 created a newsletter box that converts
+7:15 an idea that you have into a new clean
+7:17 newsletter format well all you need to
+7:19 do is type in at newsletter bot and then
+7:21 say at newsletter bot go if you give it
+7:23 the right instructions I'll show you
+7:26 that with these actions that you can set
+7:27 up you can just set up it will
+7:28 immediately take what you were working
+7:30 on previously and it will turn it into
+7:33 whatever whatever the deliverable is
+7:36 that you've created for your custom GPT
+7:40 so the quality of your chat of your
+7:42 custom gpts starts with the quality of
+7:47 the deliverables that you are able to
+7:50 get from the quality of your
+7:53 instructions your file and your actions
+7:56 that you give custom gpts it's like
+7:59 having an efficient pipeline right here
+8:02 it's like it moves down this path
+8:05 efficiently maybe you're a student and
+8:07 you want to very quickly get your work
+8:09 done maybe you're forced to go to school
+8:11 but you actually want to have time to
+8:13 start your side business just use custom
+8:16 gpts and it can absolutely run it and
+8:18 with actions you could even spit your
+8:20 essay through a non-plagiarism thing
+8:24 that could actually send it back to you
+8:25 and give you three different options
+8:27 it's possible for sure now we're going
+8:29 to dive into custom gpts and talk
+8:31 through some of my thoughts and ideas
+8:33 about creating my Army okay so let's
+8:35 dive in here shall we while on chat GPT
+8:38 what are the best
+8:40 streaming softwares for multiple
+8:44 platforms just list them no description
+8:48 I want to save this information
+8:50 at add
+8:53 click add this
+8:57 list and so this is my to-do list right
+9:00 now the one that I just started today oh
+9:03 it just came in best streaming for
+9:05 multiple platforms we can click on it
+9:08 and in this custom text field there we
+9:11 go we have all of these so it just saved
+9:14 it as a note can you also add ask Jeremy
+9:20 if he's tried restream it's going out
+9:25 starting
+9:28 action
+9:30 and there we go it is talked so now we
+9:32 can go check as you can see here in the
+9:35 comments it asked have you tried using
+9:39 restream for streaming it asked him that
+9:42 question so you can add comments to an
+9:45 external database here is how you set
+9:47 them up you start off by giving it a
+9:49 name that you can always call and the
+9:51 name is actually much more important now
+9:53 because you can just type the at sign
+9:55 and access any of them at at any given
+9:57 time so the name is really important I
+9:59 would have a hierarchies all my clickup
+10:01 ones they're going to start with click
+10:02 then here we have the instructions and
+10:04 so a user will call you when they want
+10:07 to add something to the main board and
+10:10 so as a test I'm only adding things to
+10:12 the main board within clickup and so I
+10:15 just created future of which is the name
+10:17 of my community and we created a main
+10:20 board here this main board is just a
+10:23 list of tasks and each one of these
+10:25 tasks can have a subtask so I'm making
+10:28 this very specific so when you do add
+10:31 click it adds to your main board if
+10:32 you're familiar with second brain I was
+10:34 thinking that this is kind of the second
+10:36 brain idea where it gets added to this
+10:39 location the next step is kind of
+10:41 categorizing them like tagging them or
+10:43 moving them where they need to go so
+10:44 it's basically saying anytime anything
+10:46 is added at all like anytime there needs
+10:48 to be something added uh create it like
+10:50 a task these in clickup are considered
+10:53 tasks these are subtasks if you create
+10:56 them right that's a subtask so so if if
+10:59 it is added to clickup use tasks and
+11:02 what this means is it's going to be
+11:04 using a specific Rule and this is where
+11:07 it gets interesting so you're probably
+11:09 wondering how did it go from chat GPT to
+11:12 clickup and the answer is actions on
+11:15 zapier if you go to this link you can
+11:18 find this right here this is that link
+11:21 and I'll put it in the description and
+11:23 what this is is this shows all of the
+11:25 things that open AI can do directly from
+11:27 chat GPT and you can set these up to
+11:30 your custom gpts cuz remember your
+11:32 custom gpts all have actions these are
+11:35 the actions you can do within zaper so
+11:37 you can hook zappier up to do all these
+11:41 different things and these are the ones
+11:43 that I have enabled for the click all
+11:46 custom GPT that I'm about to create that
+11:48 uses clickup but if we were to hit add
+11:50 new action here and we typed in Click up
+11:54 we'll see a list of like 10 to 15
+11:56 different options like we can post an
+11:58 attachment create a folder update a task
+12:01 so let's say we actually wanted to
+12:03 generate an image with Dolly and create
+12:05 an automation within chat gbt we could
+12:07 use this Rule and it's going to have ai
+12:10 guess what the value is for the
+12:12 workspace and the file so we can go back
+12:14 and we should hear it see it here at the
+12:17 top and so you want to make sure these
+12:18 are enabled if you plan on using them
+12:20 and you don't need to have all of them
+12:21 enabled I don't plan on using this yet
+12:23 so I'm going to disable it and so to
+12:24 learn this entire process on zappier
+12:27 just go to this link and follow the
+12:28 instruction put in 30 minutes to an hour
+12:30 of time kind of learning those rules
+12:32 which is this page right here and this
+12:35 will go through the entire process this
+12:37 is the link that you need to get set up
+12:40 and these are the template rules that
+12:42 I'll be kind of diving into in this
+12:44 video get back to it so when you're
+12:47 first setting up on zapier just copy
+12:50 this to your clipboard and it should
+12:52 have this like Json tools meta there
+12:54 will be a link to this page right here
+12:56 and you're going to paste this here
+12:59 within actions so you're P you're going
+13:00 down to actions and you are pasting this
+13:02 import URL paste it import and you
+13:05 should get this code right here it looks
+13:07 pretty freaking
+13:08 good and then we're just going to click
+13:11 update confirm what click all purpose is
+13:15 going to do is it's going to do one of
+13:17 these actions right here these are just
+13:20 the names of the actions that I've
+13:23 turned on right here and so these
+13:26 actions that I've turned on we're going
+13:27 to list them right here that's looking
+13:30 good let's say we're reading an article
+13:32 and so let's go to Tech Crunch and let's
+13:35 say we're reading this article on these
+13:37 anybotics raises 50 million million to
+13:40 do this stuff blah blah blah so we're
+13:41 going to copy all of this in chat gbt
+13:43 and say summarize in five key points
+13:48 just for time sake and there we go so
+13:51 what we can do is go at at click all add
+13:54 this to uh add this to main board as
+13:58 task and include whole response in text
+14:03 field and so click all this click all is
+14:09 starting the action let's see if it gets
+14:11 it let's see if it gets it and there we
+14:13 go the task summary of any bodic
+14:15 deployment has been successfully added
+14:17 to the main board in clickup so clickup
+14:20 link we can click here and there we go
+14:23 the text field was filled in right here
+14:27 so we can see if we hover over this
+14:30 right here we see it pop up like this so
+14:33 if we're looking at the text field we
+14:35 hover over it we can see the response
+14:37 here we can see anyo anybotics and we
+14:40 can click on this and there we go we
+14:42 have this text field and we can see here
+14:45 that the activity we can see that it was
+14:47 added right here as well this is only
+14:49 the beginning because if we go to zapier
+14:52 real quick so let's go to zapier Let's
+14:54 create a new zap we're going to create a
+14:56 new zap and what we're going to do is is
+14:58 we're going to create a trigger and this
+15:01 trigger is going to be that thing that
+15:04 we just did so from chat GPT we created
+15:07 this trigger event and this trigger
+15:09 event is going to be a um this trigger
+15:13 event is going to be a new task a new
+15:17 task and it's going to be in my account
+15:20 which I've already set up and the
+15:23 trigger uh workspace is going to be uh
+15:26 Riley Brown's workspace in the space
+15:28 future of should be the name of it there
+15:30 we go in the folder called we're just
+15:34 going to leave that blank and we're
+15:36 going to test this trigger we just
+15:38 created a trigger event and that trigger
+15:40 event is the event that happens at the
+15:42 beginning that causes the chain and the
+15:44 chain is over here this is the chain
+15:47 okay I understand I'm moving really fast
+15:50 right now I'm here to provide some
+15:52 context keep in mind this is my first
+15:55 time using the at feature so this is a
+15:58 exper irental process for me cuz I've
+16:00 been thinking about custom gpts in my
+16:02 Army of custom gpts for months let's
+16:05 talk about zapier first they're there
+16:07 you can use them with actions meaning
+16:09 you can access zapier via the actions
+16:13 feature on chat gbt and so that screen
+16:17 with a bunch of toggles coming up and
+16:19 you'll see a bunch of toggles um are are
+16:23 zappier actions that have Integrations
+16:26 with other tools with clickup there
+16:28 about 11 different like action
+16:31 Integrations which is different this is
+16:34 all different than the actual zappier
+16:36 platform what you could do on the normal
+16:38 zapier platform right is you can create
+16:41 these chains and the chains start with a
+16:44 trigger right so you have this trigger
+16:46 at the beginning if this happens then
+16:48 the chain begins and so then you can
+16:50 create this next thing I've done this
+16:52 with notion before let's use uh Excel
+16:54 like an Excel spreadsheet or a Google
+16:56 sheet so you can say that if you create
+16:57 a Google sheet and imagine on the Google
+17:00 sheet you have one column two column
+17:02 three column four column and then so you
+17:04 have your entry so you have your first
+17:06 entry and then there's going to be
+17:07 something in the in this first row here
+17:10 each one of these is like a variable by
+17:12 creating this row it triggers this and
+17:16 it actually keeps track of these four
+17:18 things right it keeps track of these
+17:20 four variables and let's call them 1 2 3
+17:22 and four so 1 2 3 and four and let's say
+17:27 you were just like wanted to create a
+17:29 simple zap um and that's you know they
+17:31 created a little word like you know zap
+17:34 you zap it or whatever it's pretty
+17:35 stupid let's say you wanted to you know
+17:38 the text for the Tweet you wanted to
+17:40 tweet this was when you wanted to tweet
+17:42 it or whatever you can add like an open
+17:45 AI integration right here that takes the
+17:48 text that you wrote in this column right
+17:50 here that you were going to paste into
+17:52 that you want to turn into a tweet and
+17:54 it runs it through an AI it runs it
+17:56 through open Ai and just has a little
+17:58 prompt let's say you're using like tweet
+18:00 hunter or something like that like a
+18:01 external software that like schedules it
+18:04 for later and so that's kind of what it
+18:06 basically allows you to do it allows you
+18:07 to create some sort of event and there's
+18:09 so many of these triggers so many of
+18:11 them and you need to look for these
+18:14 trigger events where you can store
+18:16 information because you can get really
+18:17 creative with these and then once you
+18:19 start it with the right variables the
+18:21 possibilities are endless and the cool
+18:24 thing about this new update the way that
+18:26 I see it you have all your zap ear your
+18:28 normal zapier chains we'll call them
+18:30 zapier chains then you have your
+18:32 triggers right you have your actions
+18:34 you're plugging your custom
+18:36 gpts that you make so that they connect
+18:40 to zapier actions and that first zapier
+18:43 action which is basically like add
+18:45 something to clickup we make this item
+18:49 here we make this clickup item here the
+18:52 trigger in this chain so when something
+18:55 gets added as a task to click up it
+18:58 becomes the trigger so the trigger
+19:01 equals the clickup add task right
+19:04 picture it as like a note picture of
+19:06 this as just a note because that's kind
+19:08 of how I'm using it so it's basically
+19:09 adding a note into clickup within this
+19:12 note you can actually create custom
+19:14 Fields so you can create custom fields
+19:16 and include text when you get like a
+19:19 long summary from chat GPT like in your
+19:21 custom GPT then maybe it has you have a
+19:24 summary but then you also need a title
+19:26 for it so the title goes in as the as
+19:28 the title and then within this note you
+19:31 can add a subfield which is just like a
+19:33 description or if it was like a
+19:35 spreadsheet you can picture it just as
+19:37 like you have the name in The First
+19:39 Column and then the description in the
+19:40 second column in the third column you
+19:41 have a date in the fourth column you
+19:43 have whatever the right these are just
+19:45 the these are just kind of variables
+19:47 that you can then use in a later trigger
+19:49 and what I go through throughout the
+19:50 rest of this video is I'm going to run
+19:52 this through Claud you're basically just
+19:54 taking a chat with something like chat
+19:56 gbt except significantly worse I just
+19:58 use it because I get free API access so
+20:00 you run it through Claude And it
+20:02 accesses these variables because this
+20:04 has the title um which is variable a and
+20:08 then uh it has the um I think I call it
+20:11 I call it context which is just a text
+20:14 field and we'll call this B so Claude is
+20:16 like create an essay Based On A and B so
+20:24 you ask custom you ask custom GPT to do
+20:27 whatever you want then you can bring it
+20:29 in Via an action you basically use the
+20:32 at sign so I use at click all is the
+20:36 name of my custom GPT click all which
+20:39 then triggers this action right and I
+20:41 don't want to use the word trigger to
+20:43 get it uh mixed up with this but it
+20:45 basically initiates action and this
+20:47 action pushes it to click up straight
+20:50 from chat gbt I can do so much work
+20:53 directly in chat gbt because this all
+20:56 gets sent to clickup and then that is
+20:58 just the trigger and so then in zapier
+21:01 you can do anything because you can send
+21:02 this you could send this to 11 labs to
+21:05 create an audio description you can send
+21:08 it to haen to create an avatar this is
+21:10 very expensive but it's getting cheaper
+21:12 there's Alternatives coming but we can
+21:13 do all kinds of cool stuff and then this
+21:15 is kind of how you start getting like
+21:17 fully automated content right the whole
+21:20 world gets opened up in a chat interface
+21:22 and becomes like these little agents if
+21:25 you have the um if you have the discipl
+21:28 to actually go in and set this up which
+21:30 I'm actually just going to be going
+21:31 through a bunch anyway watch the rest of
+21:33 the video so the next thing in the chain
+21:34 is we're going to go to Claude and what
+21:36 we're going to do is we are going to in
+21:39 the user message right this is as if I
+21:41 was just using chat gbt but it's Claude
+21:43 for this sake um we're going to say
+21:46 write a beautiful essay on the future
+21:50 implications of the following story
+21:55 right so we can let's go ahead and use
+21:57 that as as the prompt here and so we're
+22:00 going to use Claude model 2 here is the
+22:03 story right and so we have to enter this
+22:05 in as a variable so this is the prompt
+22:07 that we're entering into Claud now we're
+22:09 entering the variables which anytime you
+22:13 create a trigger it creates it takes all
+22:16 of the different fields within that
+22:18 trigger which is like the title um all
+22:21 of the text fields that you create below
+22:24 it so we have to find where the
+22:26 description of the event is is and so
+22:28 here is that task custom field which is
+22:32 text field value right and so that is
+22:34 that custom field we need to add and
+22:36 then we could also get the title which
+22:39 is the task name so we're going to put
+22:42 the task name I'm just going to put like
+22:44 a separator here and then task custom
+22:47 field so which is that body of the text
+22:50 here so it's creating a prompt and
+22:52 saying do this for this so whatever it
+22:55 creates in chat gbd to add to clickup
+22:58 will be the things that gets added here
+23:02 I have a community and it's built on
+23:04 Circle and what's cool we can create a
+23:08 new Post in the updates section we can
+23:12 go to the community that I've already
+23:14 set up future of and the space AI
+23:18 updates the topic name is going to be
+23:22 the name for clickup and the description
+23:26 is going to be we just use the response
+23:30 directly from Claude the message right
+23:32 here we can immediately send that to and
+23:35 then we have to choose a user email and
+23:38 so we can publish that and then what
+23:40 we're actually going to do is we're just
+23:41 going to do this again so we're going to
+23:43 go claw this might not be the most
+23:45 efficient way to do this but I don't
+23:46 care really do a conversation and what
+23:49 we're going to do is create a title so
+23:51 we're taking we're going to very quickly
+23:53 create a title here and so we're just
+23:55 going to say create a 8 to 15 word title
+24:01 for the given Story Only list the title
+24:06 nothing else and we can um give this a
+24:11 Max token of say let's go 6 and then we
+24:16 can give it this thing right here so the
+24:19 the field here and so let's go ahead and
+24:23 test this step tell me the latest news
+24:28 by browsing the web what is going on
+24:32 with New York Times and open AI so it
+24:37 should browse the web here and tell me
+24:39 what's going on with the latest so it's
+24:40 doing research with Bing I wish it was
+24:42 perplexity because Bing significantly
+24:45 worse let's just say this is good enough
+24:46 so now we just go at click all add this
+24:50 to main board and include this whole
+24:53 thing in the text field and so we just
+24:56 called that custom GPT and it's starting
+24:58 the action and we're going to confirm it
+25:00 at it so there we go as you can see
+25:02 right here the task titled New York
+25:04 Times lawsuit against open Ai and
+25:06 Microsoft has been successfully added to
+25:08 the main board in clickup which means
+25:11 that if we go over to the main board
+25:14 right if we go to which is basically
+25:16 where I save everything we see that
+25:18 directly from chat GPT we can create
+25:22 something that looks like this and here
+25:24 we go New York Times lawsuit against
+25:26 open AI and Microsoft so it created this
+25:30 event and it added the text field here
+25:33 if we hover over this so here we can see
+25:35 that this was added and it was given
+25:39 this text field that you can see right
+25:41 here this also means okay so it was just
+25:44 added here and there we go we just got a
+25:46 notification right we just got a
+25:48 notification saying FOC updates posted
+25:50 New York Times lawsuit against open Ai
+25:54 and Microsoft on future of content if we
+25:57 refresh the AI updates page boom we see
+26:00 New York Times lawsuit against open Ai
+26:02 and Microsoft and we have the title and
+26:06 then we have this essay on the future
+26:09 implications of it based on what we
+26:12 pulled from this and this is the first
+26:15 time I've actually been able to use the
+26:16 at tool I got access like four hours ago
+26:19 and so this is an experimentation it's
+26:21 like what can you do with this and then
+26:23 from there how can you create an army of
+26:26 all of those people where the central
+26:28 Hub is chat gbt but you can deploy these
+26:31 chain reactions out onto the internet to
+26:33 go do stuff on your behalf I think this
+26:36 is freaking sweet I'm going to be
+26:38 creating my Army completely fully open
+26:41 sharing all the details in my community
+26:44 link below so if you want to join me
+26:46 find me there subscribe I'll be posting
+26:48 a lot more videos soon I'll talk to you
+26:50 later much love bye

@@ -1,0 +1,1008 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=f9Uk56LvBB0
+Channel: Greg Isenberg
+Video ID: f9Uk56LvBB0
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 You might have heard of Vibe Marketing.
+0:02 Today, I'm going to teach you exactly
+0:03 how to do it super simply using tools
+0:06 like MCP, NADN, and Clode. It's going to
+0:10 help you replace your entire marketing
+0:12 team with AI. And I know that sounds
+0:14 crazy, but I'm going to show you
+0:16 actually how to do it in a very, very
+0:18 simple way. Uh, you're going to enjoy
+0:20 this episode. people who listen to this
+0:23 episode, I don't care if you're a
+0:24 designer, a developer, a copywriter, a
+0:27 marketer, you will learn some skills
+0:31 that'll help you make a lot of money
+0:32 coming up. Um, help you automate a lot
+0:35 of your job, uh, help you get customers.
+0:38 Um, and we show you the exact plan for
+0:41 how you can create a business, um, from
+0:45 the arbitrage and the insights of using
+0:47 a lot of these AI AI tools. I couldn't
+0:50 be more excited for you to listen to to
+0:52 this episode until the end. Uh because I
+0:54 do believe that um a lot of lives will
+0:57 be changed if you know how to use these
+0:59 tools. Enjoy the episode.
+1:01 [Music]
+1:10 This might be our most requested startup
+1:14 ideas podcast. I did the video and we
+1:18 talked a lot about some of your ideas on
+1:20 Vibe Marketing, introduction, Vibe
+1:22 Marketing. I've brought on Mr. Vibe
+1:24 Marketing himself, Boring Marketer. And
+1:27 what are we going to learn
+1:28 today? Well, you know, uh, I've been
+1:31 spending a lot of time building
+1:32 workflows and sharing what I know about
+1:35 it with, you know, my social audience,
+1:37 community, and all that. And I think a
+1:40 lot of people believe that workflows
+1:42 have to be super super complicated. You
+1:44 know, maybe you've seen like a
+1:45 screenshot of a workflow and it's got a
+1:48 million different things happening, but
+1:50 I'm going to actually show you that the
+1:51 most powerful workflow you can build is
+1:53 also the simplest one. So, by the end of
+1:57 this episode, what are people going to
+1:59 learn? Are they going to get like an
+2:00 introduction to NADN? Are they going to
+2:02 understand how to build their first
+2:03 workflow? Like, why should someone give
+2:06 their time to to to stick to the end to
+2:09 this? I think if you stick to the end,
+2:11 you're going to get a glimpse of what
+2:12 the future of marketing actually looks
+2:14 like and it's going to be very
+2:16 actionable and I'm going to lead you
+2:17 through exactly how I would vibe market
+2:19 a product. Cool. And my ask for you is
+2:24 I've played with NAND. It's a bit
+2:26 overwhelming for me and I'd like to see
+2:28 a sample workflow so that I can
+2:30 basically just copy it and just
+2:32 implement it in my business. So that's
+2:34 my ask for you. Uh let's get right into
+2:36 it. Sure. All right. So, um, like I
+2:40 said, you know, there's a lot going on
+2:42 about these workflows and what tools to
+2:44 use and things of that nature. So, in
+2:47 the community that we have, there's a
+2:48 lot of people that are like, "Hey, how
+2:49 do I build my first workflow or where do
+2:52 I even start?" So, the two most common
+2:54 platforms that are out there that I
+2:57 typically recommend folks check out is
+2:59 either Gum Loop or Inate. I like to use
+3:02 Inade because I'm a little more on the
+3:03 advanced side and there's a little bit
+3:05 more flexibility. um like what I'm about
+3:08 to show you here today. Um but you
+3:11 should use it because you can automate a
+3:13 lot of the boring manual tasks that are
+3:15 in your business. I use it for marketing
+3:17 specifically where there's a ton of
+3:19 manual stuff that you have to do. And
+3:21 once you automate it, you're kind of
+3:23 freed up to focus on more strategic or
+3:25 creative things. And that's sort of the
+3:27 essence of what Vibe Marketing is all
+3:29 about. So, what I thought I would do is
+3:31 kind of show you a few things that I
+3:33 created this morning that if you were to
+3:35 try to do it manually, it would take you
+3:38 at least two to three weeks of work uh
+3:41 to get it done. And I did it in about 30
+3:44 minutes prior to hopping on this
+3:45 podcast. Sounds too good to be true, but
+3:49 I I'll let you you know, you're one of
+3:52 my smartest friends, so I I'd love to
+3:54 see I'd love to see it. Okay, cool. So,
+3:56 um, one of the other common questions I
+3:58 get around, you know, Vibe marketing and
+4:01 building workflows is, "What workflow
+4:03 should I build?" I think people have
+4:05 this like cold start problem. So, we're
+4:07 also going to try to answer that uh, as
+4:10 I walk you through this stuff. So, the
+4:13 way that I like to think about building
+4:15 my first VI marketing workflow is I like
+4:18 to understand where's the demand out
+4:20 there on the internet uh, for my product
+4:22 or my service. Now, the easiest way to
+4:25 find that is to do keyword research.
+4:28 This allows you to understand what
+4:30 people are searching for on Google, how
+4:32 often they're searching it, and how much
+4:34 potential traffic you can get uh to your
+4:37 website if you rank and show up on the
+4:39 results for that keyword. Now, you know,
+4:41 SEO and all that's changing. Uh, a lot
+4:44 of people are talking about how do I
+4:46 rank in LLMs or how do I show up in chat
+4:49 GPT if someone searches for a keyword
+4:51 related to my product as well? And this
+4:54 is going to help to address that, too.
+4:55 So, I'm really going to walk you through
+4:57 how I would approach an organic growth
+4:59 system that's going to help you rank and
+5:01 get discovered, help you create content
+5:04 that's relevant for what your customers
+5:06 are looking for, and then how you can
+5:08 look at it as sort of like a continuous
+5:10 improvement process so that you can go
+5:12 out and beat the competition. So, when
+5:14 it comes to keyword research,
+5:17 um, you know, there's a couple common
+5:19 tools that people use to do it. Uh
+5:21 there's hrefs, there's semrush, there's
+5:24 a bunch of other ones. Now, if you've
+5:26 ever tried to log into one of these
+5:27 tools, it's very overwhelming. Have you
+5:29 ever tried to log into ahs, Greg? Much
+5:32 to my sugarin. Okay, so you log in,
+5:36 there's a lot of different buttons, a
+5:38 lot of different things to click around
+5:39 on and and stuff like that. So, I'm
+5:42 going to show you sort of an end result
+5:43 and then I'm going to walk backwards.
+5:45 So, what you're looking at right here is
+5:47 a fully completed keyword research study
+5:51 uh that I did this morning. Uh so,
+5:54 sorry, I just opened uh that I did this
+5:56 morning. So, what we're looking at here
+5:58 is 42 different keywords that Beehive, a
+6:02 newsletter growth platform, could go and
+6:04 rank for. It's telling me that there's
+6:08 14,580
+6:10 uh monthly traffic available for these
+6:13 keywords. It's telling me that, you
+6:15 know, there's about medium competition
+6:17 for these keywords. So, I have
+6:19 opportunity to go and outrank the
+6:21 competitors. And there's 20 high
+6:24 potential keywords specifically here.
+6:27 So, what you see is there's various
+6:29 types of keywords. There's informational
+6:31 keywords. These are like how do I start
+6:34 my first newsletter? There's commercial
+6:36 keywords like what is the best
+6:38 newsletter platform for my business? And
+6:40 there's a couple other types as well.
+6:43 It's even showing me some of the
+6:44 competitors that are currently ranking
+6:46 for those keywords out in the market.
+6:49 Okay. So, the next thing is that it's
+6:51 giving me some key insights and
+6:53 recommendations already. So, it's
+6:55 telling me what type of content I need
+6:57 to go and create in order to rank for
+6:59 these keywords. So, it's telling me to
+7:01 create like comprehensive guides around
+7:03 newsletter creation, monetization, and
+7:05 even growth strategies. It's telling me
+7:08 how I can get a competitive edge uh
+7:11 versus the competition. So, I need to
+7:13 analyze the gaps on how I'm different
+7:15 than Substack, for example. And then
+7:18 it's giving me, you know, what the
+7:19 traffic opportunity actually is. So,
+7:21 this is just the overview. And then if
+7:24 we go into the longtail recommendations,
+7:26 you can see that we have a bunch of high
+7:28 quality, very targeted keywords that we
+7:31 can go after and try to rank
+7:33 for. Okay. So, uh, we've got examples
+7:37 like newsletter platform for creators,
+7:39 email marketing software for writers,
+7:41 best newsletter monetization tools.
+7:43 These are all things that folks are
+7:44 actively actively looking for uh,
+7:46 online. So, if I click into these
+7:49 keywords, it's giving me like the exact
+7:52 steps that I need to do to go and, you
+7:55 know, show up for this uh, so that I can
+7:57 get the right type of traffic to my
+7:59 website. So, it's telling me create
+8:00 in-depth guides, develop case studies,
+8:03 uh create comparison content with
+8:05 competitors, and then build landing
+8:07 pages optimized for this term. All
+8:09 right. So, I've got some information on
+8:11 like where the demand is out there, and
+8:14 that's usually the place that I like to
+8:16 start. Now, if you were to build this
+8:18 out as a workflow in inn, it would be
+8:22 very complex. you know, it would be
+8:25 like, "Hey, go and uh, you know, access
+8:28 uh some sort of keyword database,
+8:31 categorize the keywords, go and look at
+8:33 competitors, and there'd probably be
+8:35 like, you know, 15 to 20 different, you
+8:38 know, nodes, uh, which are, you know,
+8:40 different actions within a workflow um,
+8:43 in order to get this done. But I'm going
+8:45 to show you like how simple this can
+8:47 this can really be to get this type of
+8:49 output." I want to say one quick thing.
+8:52 Yeah.
+8:52 So, we just quickly went over the exact
+8:57 plan around how to just siphon out
+9:00 five, 10, potentially up to
+9:03 15,000 monthly traffic to a landing
+9:07 page. Like, it's like build this guide,
+9:09 here's what it should be, which is
+9:10 insane to think about. It's basically
+9:12 giving you the plan around how to
+9:14 actually build the thing. And then when
+9:17 you look at something like
+9:19 beehive.com, so these are SAS tools that
+9:22 will give you 10 20 30 40 50% of
+9:25 revenue, you know. So, I've done a a
+9:28 guide um I'll link it in the show notes
+9:31 around how to start an online directly,
+9:33 which sounds like by by the way the most
+9:36 boring business to start of all time,
+9:38 like an online directory and and and
+9:40 teaching people and basically, you know,
+9:42 creating a list of uh top, let's say,
+9:45 email providers. But having affiliate
+9:48 links is probably and creating
+9:51 directories and creating guides around
+9:52 this sort of thing is probably the most
+9:55 the easiest way to get started in this
+9:57 whole like make money online space.
+10:00 Yeah, exactly. I mean, the easiest way
+10:02 to get started is to figure out how you
+10:04 can identify existing demand and analyze
+10:08 the competitors to see what they're not
+10:10 covering and then that's your entry
+10:11 point right there. Cool. All right.
+10:14 Okay. So, this looks pretty complicated,
+10:17 right? Like, it's got all kinds of
+10:18 recommendations. It's got a bunch of
+10:20 keywords, all kinds of really good
+10:22 stuff. And like I said, you might think
+10:23 that this requires an incredibly complex
+10:26 workflow, but I'm going to show you how
+10:28 I arrived at this. So, I'm going to open
+10:30 up a clawed desktop. So, you might think
+10:34 that there's a super complicated
+10:36 workflow to find these opportunities uh
+10:40 and keywords out there, but I actually
+10:43 created that entire dashboard showing me
+10:46 my relevant keywords if I'm Beehive with
+10:49 one prompt within Claude. So, I said,
+10:51 "Find me 20 longtail keywords,
+10:54 non-branded." That means I don't want it
+10:56 to be like people searching for beehive
+10:58 for the domain beehive.com.
+11:01 Now, if you were just using Claude out
+11:03 of the box, it couldn't do that. Now,
+11:07 you might see that I have this little
+11:09 thing here called keyword tool. Do you
+11:11 see that, Greg? Yeah, I don't know what
+11:13 I'm looking at, but like I've never seen
+11:15 that. Okay, cool. Yeah, you've probably
+11:17 never seen that uh in Cloud because it's
+11:20 not something that you can just access
+11:22 within Claude. Uh what this is is this
+11:24 is an MCP integration. Okay. So, I'm
+11:28 able to access a tool that I created in
+11:32 in NADN called keyword tool that's going
+11:35 through hrefs, all the data in hrefs and
+11:39 just pulling out the information that I
+11:42 need, which are these 20 high potential
+11:44 longtail keywords. So, if you find hrefs
+11:47 confusing, if you find keyword research
+11:49 confusing, we're letting Claude do all
+11:51 the hard work of finding what keywords
+11:53 you need to focus on. I love it.
+11:56 Okay. So, that alone like if you want to
+12:00 do like manual keyword research and
+12:02 you're not like a super, you know,
+12:05 search or SEO or digital marketing
+12:08 professional, that could take you 20,
+12:10 30, 40 hours to go into a tool to
+12:13 analyze the keywords, to look at the
+12:15 competitors. And when I prompted Claude
+12:17 here, it returned these keywords to me
+12:20 within 30 seconds. Yeah. Also, you could
+12:24 be spending 20, 30, 40 hours and still
+12:26 not have the right keywords. Yeah,
+12:29 exactly. Like, these are highly
+12:30 relevant. They're exactly the type of
+12:32 keywords that I want to go after. And uh
+12:35 you know, this alone is like incredibly
+12:38 valuable.
+12:40 All right. I knew you'd give this sauce.
+12:42 Okay, let's let's continue. All right,
+12:44 so we've got our keywords here with a
+12:46 prompt. Um, and you can see like they're
+12:49 targeting the core functionality of
+12:50 Beehive as a newsletter platform while
+12:53 focusing on specific user needs and use
+12:56 cases. So, we're targeting keywords that
+12:58 have intent behind them. These are the
+13:00 ones that, you know, once somebody
+13:02 clicks on a result in say chat GPT or on
+13:05 Google search, these folks are actually
+13:06 going to do something on your website.
+13:08 You know, not all uh search traffic or
+13:12 whatever is created equal. These are uh
+13:14 the type of visitors that are actually
+13:16 going to convert to your product or
+13:17 service, which is super super important.
+13:20 Yeah, it's it's super important because
+13:21 there's a lot of people who are like,
+13:22 "Yeah, I get like a million visits a
+13:24 month to my directory or whatever, but
+13:26 it's lowquality stuff, right? I'd rather
+13:28 have 10,000 high quality um and just
+13:31 focus on those people if they're going
+13:33 to convert at 5 to 10x what with the
+13:36 others." Exactly. So what I like to do
+13:38 after I get the information here is I
+13:41 like to create like an interactive asset
+13:43 within Claude. So Claude has you know
+13:46 this artifact feature where it can
+13:48 basically code up like a dashboard or a
+13:51 website for you. So after I got these
+13:53 initial keywords from my keyword tool, I
+13:56 asked Claude to create an interactive
+13:58 dashboard uh highlighting all these
+14:01 keyword
+14:02 opportunities. And that is what I'm
+14:05 showing you here.
+14:07 Wow. So, you just you just prompted it
+14:09 that we'll share the prompts. Uh we'll
+14:13 share some of this in like a guide for
+14:14 people so that they can download this.
+14:16 It'll be in the show notes, but um you
+14:18 just basically one prompted this. Yep.
+14:21 Yep. Find the keywords. Now, create a
+14:23 dashboard. And you know, Claude's really
+14:25 smart. So, it didn't just list out all
+14:28 the all of those keywords that uh that
+14:30 we looked at after the first prompt. It
+14:32 actually went into hrefs and it pulled
+14:35 the potential traffic that you can get,
+14:38 you know, from these keywords. It pulled
+14:40 the difficulty. Um, it pulled the search
+14:43 volume for each one of these various
+14:45 keywords. It pulled some information
+14:48 about the competitors. So, this is all
+14:50 real data uh from hrefs.
+14:54 Crazy. And just for we have a lot of
+14:56 people listen on Spotify and Apple the
+14:58 Startup Ideas podcast. like can you just
+15:02 you know for the people who are not
+15:03 watching just name some of these
+15:04 keywords? Yeah, absolutely. So some of
+15:08 the keywords uh assuming I'm beehive uh
+15:11 actually better question what if you
+15:14 were to pick one or two keywords on this
+15:16 list what would you pick and why? Yeah.
+15:19 Uh we'll get into that next. I would say
+15:22 how to grow newsletter subscribers. Um
+15:24 it's got some decent volume. So 2,300
+15:27 searches uh monthly. Um it's relevant at
+15:31 89% and then the difficulty isn't too
+15:34 bad. So I feel reasonably confident that
+15:37 I could go and rank for that keyword uh
+15:39 with the right strategy.
+15:41 Cool. Okay. So we're going to go back to
+15:45 Claude and uh I'm going to talk about
+15:48 what what step two is. So here, you
+15:51 know, here we uh we have the keywords.
+15:53 Okay. And now it's like this is great.
+15:56 We have keywords, but what do I do with
+15:58 them? Um, so the the thing that you want
+16:01 to do with keywords is we want to start
+16:03 creating content around that search term
+16:07 so that we can attract the right people
+16:08 to our site. All right. So, I'm going to
+16:10 go back to Claude and I'm just going to
+16:12 kind of like walk you through my
+16:13 workflow here. So, we created that
+16:15 interactive artifact with the keyword
+16:17 data and insights. All right. Um we have
+16:21 some features where we can like
+16:22 integrate some social search. So we can
+16:25 go and find like hey based off uh this
+16:28 topic what are some uh social posts that
+16:31 are also in and around this too. So you
+16:33 know if you want to repurpose some
+16:35 content and create some social content
+16:37 you can do that too. Okay. Uh after I
+16:40 found the keywords uh the next thing
+16:42 that I did is I had Claude basically
+16:45 group those keywords into a few uh key
+16:48 topics. So this one here is called
+16:50 newsletter growth and audience building.
+16:52 I thought that would be pretty relevant
+16:54 to uh to your listeners. They're, you
+16:56 know, thinking about growing
+16:57 newsletters, growing their audience. So
+16:59 we can dig into that one a little bit
+17:01 more specifically. So what that is is
+17:04 it's just five keywords um in in one
+17:07 kind of topic um that uh that went and
+17:11 uh that that we researched that we can
+17:12 kind of talk about in in one group.
+17:15 Cool. All right. So, newsletter growth
+17:17 and audience building. All right. So,
+17:19 now that we have newsletter growth and
+17:21 audience building, I'm sending another
+17:24 prompt to Claude. And this prompt is
+17:28 analyze the search results from page one
+17:31 and page two of Google for this cluster.
+17:35 So, what this is doing here is it's
+17:37 actually going out and it's scraping the
+17:40 Google results to see what type of
+17:42 content is already out there uh for this
+17:45 topic. Make sense? Okay. So, uh
+17:48 basically what that's going to allow us
+17:50 to do is get a deeper understanding on
+17:52 what are our competitors that are
+17:54 ranking for this keyword not addressing.
+17:57 So, what are the gaps that are out
+17:58 there? So, you know, what are the
+18:00 topics? What are the themes? What are
+18:02 the ways that I can add more value than
+18:06 the competitors for people searching for
+18:08 for this keyword? All right, so some of
+18:10 the things that popped up like um right
+18:13 now the current content it's talking
+18:15 about like basic audience acquisition
+18:17 tactics um you know general list
+18:20 building frameworks uh it's not really
+18:22 going into things like datadriven growth
+18:25 benchmarks. So Claude is telling me
+18:27 there's an opportunity to create deeper,
+18:30 more comprehensive research than what
+18:32 the competitors are publishing that
+18:34 shows, you know, data points. Um, give
+18:36 me advanced segmentation strategies. So
+18:40 we can develop content on like how do I,
+18:42 you know, segment different subscribers
+18:45 based on their metrics. How do I
+18:47 trigger, you know, automations within my
+18:49 email platform or something like that.
+18:52 It's saying that there's a gap in
+18:54 technical guidance. uh how to uh you
+18:57 know coordinate this content across
+19:00 channels to develop like a comprehensive
+19:03 uh newsletter and audience growth plan.
+19:05 And then it says that another gap is
+19:08 people aren't really talking enough
+19:10 about retention. Uh which I find pretty
+19:12 interesting too. As someone who actually
+19:14 writes an email at
+19:16 gregregisenberg.com, this is the I can
+19:19 attest that this is the content that I
+19:21 would click into and be really
+19:23 interested in reading. Yep. Yep. So,
+19:27 this isn't just
+19:29 um an LLM, you know, making stuff up,
+19:33 right? It's actually this is this makes
+19:36 sense. Yeah. This is uh this is not just
+19:39 an LLM making it up because what we're
+19:42 doing with this MCP integration to the
+19:45 workflows in N8 is we're pumping all of
+19:48 the right context into claude here, you
+19:51 know, so it's basing all of this around
+19:54 real data uh that's out there. So
+19:56 there's no hallucination. It's not just
+19:58 making things up around, you know, what
+20:00 they might think uh people are
+20:02 interested in. It's actually
+20:05 understanding the demand. So, it's
+20:06 finding the keywords and then we
+20:08 selected a group of keywords and we're
+20:10 like, "Hey, go out there and read all of
+20:13 the ranking articles, posts, and
+20:15 websites on the front two pages of
+20:17 Google and tell me exactly what's
+20:19 missing." So, this gives you like such a
+20:22 targeted spear if you're a newsletter
+20:24 platform to know exactly how you can go
+20:27 and attack the market. Okay, you're
+20:28 firing me up now. Don't fire me up too
+20:30 much. It's going to get better. It's
+20:32 going to get better. So, we've got these
+20:34 gaps and uh the next thing that I want
+20:37 to do after I identify all these gaps is
+20:40 I want to know like what content that I
+20:42 can create. So, I'm going to click back
+20:44 over to our artifacts because I created
+20:47 another really cool one. And this is a
+20:50 30-day newsletter growth and audience
+20:53 building content dashboard. So, this is
+20:56 that group of keywords that I mentioned.
+20:59 Okay, newsletter growth and audience
+21:01 building. So, it's got about five
+21:03 keywords in it. And basically, I asked
+21:05 Claude to, you know, take a look at
+21:08 what's currently ranking and all that.
+21:10 Now, tell me exactly what kind of
+21:12 content I need to go and create to
+21:15 dominate these search terms. So, you
+21:17 know, there's no guesswork here. It's
+21:19 like this is what you need to go and do.
+21:21 Here's day one. On Monday, you need to
+21:24 go and create a blog post around the
+21:27 newsletter growth roadmap, tailored
+21:29 strategies for every stage, zero to
+21:31 100,000 subscribers. It tells me the
+21:34 keywords that, you know, this content
+21:36 piece uh is focused on. And then I had
+21:40 it include a content brief uh so that I
+21:44 can create the perfect blog post for
+21:46 this topic. So, it's telling me exactly
+21:49 what this brief is going to address.
+21:52 It's saying most content in this niche
+21:55 focuses on generic growth tactics rather
+21:58 than stage specific strategies. Um, it's
+22:01 even got the primary audience, so
+22:03 newsletter creators at all stages,
+22:05 beginner to advanced. And it's giving us
+22:08 kind of a comprehensive structure um in
+22:11 order to to write this guide. But as VI
+22:14 marketers, we're not going to go write
+22:16 all this, right?
+22:17 No, by marketers are the most boring
+22:19 people. Most lazy, boring. Yeah. People.
+22:23 Exactly. And that's why we love them.
+22:25 That's why we love them. That's it. So,
+22:27 we're not going to go write a blog post
+22:29 manually because if we wanted to do
+22:31 that, that could take another 20 to 30
+22:33 hours, you know, to make it perfect, to
+22:36 go back and forth, to integrate our
+22:38 brand voice, to do all that boring stuff
+22:40 manually. Sounds like a waste of time to
+22:42 me. So, how do we how do we automate it?
+22:44 How do we do it fast? I'm going to click
+22:46 this button, copy brief. Okay, I'm going
+22:49 to open Claude. So, after we identify
+22:53 this brief, you know, we're of course
+22:55 not going to manually write this. So, I
+22:57 created another prompt in Claude. So, I
+23:00 have a brand voice that I saved. Um, you
+23:03 know, most folks using LLMs probably
+23:06 have something to this effect where, you
+23:08 know, they're when they're prompting
+23:09 chat GPT or whatever, they're they're
+23:11 kind of giving it its your preferences
+23:13 on how you want the content to come out.
+23:15 So, I have a little prompt here. Use
+23:17 this brand voice and I copy and pasted
+23:20 the content brief uh that I showed you
+23:23 from the tool. So, this is exactly what
+23:25 we just went through. Okay. And now, uh,
+23:29 Claude is writing a complete search
+23:32 optimized blog post for me, uh, based on
+23:35 that brief with my voice foundation that
+23:38 I gave it. So, it's going through like
+23:41 every step. And, uh, I even have it
+23:44 pulled up here as an artifact that we
+23:46 can kind of scroll through and and look
+23:48 at. I mean, and when you say an
+23:50 artifact, you're saying like, is this
+23:53 this looks like a website to me? Yeah.
+23:55 So claw generates artifacts. It can
+23:58 generate, you know, dashboards. It can
+24:00 generate websites. So this actually is a
+24:02 website that I created. So when I said
+24:04 create an artifact, it just went in and
+24:06 it started coding this up. And I thought
+24:09 that hey, I might as well make it a
+24:11 little website to pull up and show you
+24:13 uh versus, you know, scrolling through
+24:15 uh the cloud dashboard there. Cool. So
+24:20 like I read this, I think it reads
+24:22 great. It even has different areas that
+24:24 I can, you know, utilize for um hero
+24:27 images and stuff like that. And the
+24:30 we'll we'll link this here, but I I want
+24:33 people to read through the level of
+24:34 detail. This is not like AI slop. You
+24:38 know, when when people are going to chat
+24:41 GPT or claude or whatever and they're
+24:43 like, "Hey, write me a blog post for
+24:45 this topic." A lot of times, you know,
+24:47 you do that and then you're sort of
+24:49 underwhelmed. Like I'm I'm sure you've
+24:51 been there as well. Yeah. I mean, you
+24:54 feel you almost feel like bait and
+24:55 switched. You're like, I just gave 30
+24:58 seconds of my time to this and I'm never
+25:01 getting that back. Yep. Yep. So, what I
+25:04 like about this is again like we're
+25:05 pumping all of that context, that real
+25:08 information and real data into Claude.
+25:10 So, it's looked at, you know, all the
+25:13 content that's out there. It understands
+25:15 the keyword and the audience that we're
+25:17 trying to reach and it's using that
+25:19 information to create a highly valuable
+25:22 piece of content here. Cool.
+25:25 So, um you know, let's say that uh you
+25:28 have your blog created and then you want
+25:30 to create some images too. Um you know,
+25:32 that's often uh something that that
+25:35 takes some time and it's manual or
+25:37 whatever. So, another neat thing that I
+25:39 did uh with this workflow is that I
+25:42 integrated uh Chad GPT's new image gen
+25:45 into it. So, you can just prompt Claude
+25:48 um right there. Hey, based off of uh
+25:51 this article that we're trying to
+25:52 create, make me an image that I can use
+25:54 for my hero image. So, that's done right
+25:57 there in the same place as well. And it
+26:00 it it looks good. It looks really good.
+26:02 Yeah, not bad at all. like you know the
+26:04 the challenge here for a lot of
+26:06 marketers uh using these tools is that
+26:09 they're switching between like you know
+26:11 10 different things like their their
+26:14 tabs open on their browser like you know
+26:16 they've got chatpt they've got claude
+26:18 they've got maybe some like blogging
+26:21 platform and a bunch of other you know
+26:23 SAS products and what we're doing here
+26:25 is like we're building our own tools
+26:28 that we can use in one simple place and
+26:30 I spend a lot of time in claude so being
+26:32 able to access these tools within where
+26:35 I'm already working saves me a ton of
+26:37 time on, you know, context switching
+26:40 back and forth between a bunch of
+26:41 different
+26:43 stuff. I've done a tutorial on what an
+26:45 MCP is. I'll I'll link it also and you
+26:50 know, but just quickly explain with
+26:52 within the context of Vibe Marketing
+26:54 what an MCP is. Yeah, I was thinking I I
+26:57 figured this would come up and uh the
+26:59 easiest way um that I can explain it is
+27:03 imagine it's like a two-way radio
+27:06 between your LLM and a third party piece
+27:09 of software. So what that means is that
+27:12 within the chat interface of the LLM, I
+27:15 can access data from this third party
+27:17 tool and then I can send back data or I
+27:20 can send back commands uh to it as well.
+27:22 So, it's enabling that communication
+27:25 between my LLM and another piece of
+27:27 software. So, what's the difference
+27:29 between an API and an MCP if that's the
+27:31 case? Um, you know, to be honest, that's
+27:34 above my uh my pay grade as a vibe
+27:36 marketer. So, like, you know, I I I'm
+27:39 using an API here to access like hrefs
+27:42 within my keyword tool. Uh, and then I'm
+27:46 using an MCP to make sure that that
+27:48 information is going back and forth
+27:50 smoothly between Claude and uh, between
+27:53 inate N. Yeah. I mean, the other thing,
+27:56 the reality is for 99% of people
+27:58 listening to this, it doesn't matter.
+28:00 Yeah, it doesn't matter. And, you know,
+28:02 again, like I I tell people this all the
+28:04 time, but when I'm working in these
+28:06 tools, like I'm not a I'm not an
+28:09 engineer. I I'm not the world's foremost
+28:11 automation expert, you know, to be
+28:13 honest either. So, I've got like Manis
+28:16 or Claude or, you know, GPT03 or
+28:19 whatever open as my like co-pilot
+28:22 guiding me through all this stuff for
+28:24 how to set it up. If I need some code,
+28:26 I'm asking. So, you know, there's a lot
+28:28 that you don't know and you can't know
+28:30 it all. So, you have to really lean into
+28:31 the AI tools as well, you know, as
+28:33 you're kind of building things out,
+28:35 tinkering, and experimenting. Totally.
+28:38 Do I see videogen here? Is that what I'm
+28:40 looking at? You see videogen? I was
+28:42 testing that as well. So, you know, one
+28:44 of the things about like the modern
+28:46 state of like organic growth online is
+28:50 that uh you know, a few years ago,
+28:52 everyone was all about like Google
+28:54 search, you know, so everyone was just
+28:55 like writing blog posts and things like
+28:57 that. But if you look at search results
+29:00 today or you look at, you know, results
+29:02 within chat GPT or an LLM, you see a lot
+29:05 of things from like Reddit or LinkedIn
+29:07 or X or, you know, YouTube, all these
+29:10 other channels where the content is
+29:12 multi-format and multi-channel.
+29:15 Yeah. I mean, when you Google MCP, I'm
+29:18 pretty sure like the first result is a
+29:21 tutorial that I did, right, with
+29:23 Professor Ross Mick on MCPS, which is
+29:26 insane. Yeah. So, you know, there's a
+29:28 lot more like social signals coming into
+29:31 play. Uh, so videos from YouTube again,
+29:34 like threads from Reddit, things like
+29:36 that. So, um, that's why I have image
+29:38 generation and video generation here
+29:40 because when you create a blog post,
+29:43 like that's just not enough these days.
+29:45 If you want to go and attack those gaps
+29:47 that we discovered, one of the major
+29:50 gaps that I always find is that your
+29:52 competitors are very like onetrack
+29:54 minded. They may have just created a
+29:56 blog post about, you know, newsletter
+29:58 growth. They probably don't have a short
+29:59 form video. They probably don't have a
+30:02 post on X, a post on LinkedIn, a thread
+30:04 on Reddit, all about that newsletter
+30:07 growth and audience building topic that
+30:09 we already verified there's demand for.
+30:11 So, you know, Google search is a great
+30:14 proxy for all these other channels
+30:16 around like what people are looking to
+30:18 engage with. And I believe that, you
+30:21 know, in today's world, like you have to
+30:22 be everywhere in all the formats in
+30:25 order to kind of dominate the
+30:26 competition, especially if you're a
+30:28 startup, you know, that's kind of the
+30:30 way that you can enter into an
+30:32 established market and start uh
+30:34 siphoning off that traffic from from the
+30:36 main players.
+30:38 Absolutely.
+30:40 So, um, you know, that said, uh, we've
+30:43 got, uh, we've got our blog post. And
+30:46 then I went back to, uh, to Claude and I
+30:49 started to create some X threads and and
+30:52 some other types of things, too. Um, so
+30:55 just for example, um, I said, "Hey,
+30:58 based on this blog post, create a thread
+31:01 on X." Um, and here it's got how I built
+31:04 a 1K subscriber newsletter in 60 days
+31:06 with no ad spend. Like that's right,
+31:09 dude. Someone like I Yeah. I I I can't
+31:13 believe that's a really good hook. Yeah,
+31:15 exactly. You know, most times you try to
+31:17 like create a create an expost or a
+31:20 LinkedIn post or whatever, it comes out
+31:22 like a blog post and it's just not done
+31:25 properly. So, I was like honestly I was
+31:27 blown away by the initial quality of
+31:29 this just with one prompt right out of
+31:31 the gate. So, you can see it here like
+31:33 it's in this plan as well. Um, it's got
+31:36 key insights thread from each growth
+31:38 stage. So, this is the brief. I did the
+31:41 same thing that I did for the for the
+31:43 blog post. I copied the brief. I took it
+31:46 into Claude. I said, "Hey, here's that
+31:48 voice foundation that we used for the
+31:50 blog post." And boom, it one-shotted
+31:52 that thread for me. And if you wanted to
+31:55 move from, you know, I'm trying not to
+31:58 say code on this on this episode, but
+32:00 there I'll say it. Clode. um if you know
+32:03 if you're if you want to move from from
+32:05 code to like web flow or another tool
+32:09 like how you know is that are you
+32:12 thinking about that as a vibe marketer?
+32:15 Yeah. Like how do you want to publish uh
+32:17 this type of content like on your
+32:19 website and and things of that nature?
+32:21 Yeah. You know, because it's like cool
+32:23 that it's on this artifact and it's cool
+32:26 I can share that with my team and get
+32:28 feedback and stuff like that, but
+32:29 eventually I'm going to want that on my
+32:31 domain.
+32:32 gregisberg.com, you know,
+32:35 uh, article
+32:38 Yeah. newsletter, right? I'm thinking
+32:41 about it. I haven't gotten there yet
+32:43 within Claude. I'm assuming I might be
+32:45 able to create uh a tool that's similar
+32:48 to the other ones here. And like I said,
+32:52 like this MCP server trigger is kind of
+32:54 like a two-way radio, you know? So, I
+32:57 can pull data in, I can send commands
+32:59 and things out. So, as long as I can
+33:02 access the Web Flow API, which I s I
+33:05 certainly can, um, I can send that blog,
+33:08 you know, into my, uh, my content
+33:11 management system or whatever. Now, I
+33:14 always recommend like a little bit of
+33:15 editing and and tweaking. So, once it's
+33:18 in web flow, you might need to, you
+33:20 know, do a little formatting, make sure
+33:21 it fits your design and stuff like that.
+33:23 But, you know, end to end is coming.
+33:25 Like eventually this is going to be like
+33:28 fully automated where you enter your
+33:30 URL, it's finding the keywords, it's
+33:32 creating cross-platform content, and
+33:34 that's just publishing it for you. So
+33:36 that's definitely in the future. I hear
+33:38 what you're saying. You're saying
+33:39 basically like, okay, you're going to
+33:42 use AI to create this content. You're
+33:44 going to want to review the content and
+33:46 edit the content potentially. You don't
+33:48 want to just
+33:50 automatically put it up on a web flow um
+33:53 because it's just not it might not be
+33:55 worth you know
+33:57 the the risk of you know uh damaging
+34:01 your brand or or something like that.
+34:03 Yeah. you know, in our community, we we
+34:05 actually did a survey. Um, hey, what are
+34:08 some of the biggest challenges that
+34:09 marketers are having with uh with AI,
+34:12 and one of the biggest challenges that
+34:14 they're having is uh is brand safety and
+34:17 keeping things aligned toward their
+34:19 brand. So, most marketers have like a
+34:22 human in the loop uh step and you know,
+34:25 when we build these types of automations
+34:27 out for for clients, uh they're very
+34:30 conscious of that. So, you know, we like
+34:32 to integrate with Slack, for example.
+34:34 So, uh let's say that you have Claude
+34:37 set up and you have like a uh a system
+34:40 like this. Um once you get your your
+34:43 draft in Claude, you say, "Hey, send it
+34:44 to Slack, right?" And then you have a
+34:46 shared channel with I don't know, maybe
+34:48 you have a a marketing manager or a
+34:50 social media manager or something like
+34:52 that. They can check it out and and
+34:54 review it uh right there and maybe give
+34:56 feedback for how you can improve the
+34:58 prompts or or something along those
+34:59 lines.
+35:00 Cool. Yep. So, yeah, that's kind of a
+35:04 completed like endtoend system. Um, and
+35:08 just to show you again like how simple
+35:10 this is, I want to show you like what
+35:12 most people think that a workflow, you
+35:16 know, looks like uh in in innate in um
+35:20 so I'm just going to pop out of here and
+35:22 I'm going to show you one that, you
+35:24 know, might look a little more
+35:25 complicated that we're working on. So,
+35:27 you know, you can imagine like the first
+35:30 time you're you're popping up X and you
+35:32 see someone talk about a workflow, you
+35:34 know, you see something like this and it
+35:36 it makes for great content and it gets
+35:39 people interested because it's so
+35:40 complicated and they think it must be
+35:42 so, you know, special and useful. And
+35:44 while these things are great, um they're
+35:47 not the place to start. Like these
+35:49 simple ones are often the most powerful.
+35:52 So you can see there's only four nodes
+35:54 here uh for this entire workflow and
+35:57 each of these has a has a workflow too
+35:59 but it's like literally you know a
+36:02 couple steps. So let me show you the
+36:03 keyword tool uh one uh what that
+36:06 actually looks like uh when you open it
+36:08 up. And this is the beauty of MCP
+36:11 because again you're not like designing
+36:14 all this complicated logic in a workflow
+36:17 builder. You're just saying, "Hey, pump
+36:20 this data into Claude and let Claude
+36:22 figure out what to do with it." So, all
+36:23 you're doing is connecting with Hrefs.
+36:26 You know, you have a little bit of code
+36:28 to say, "Hey, don't pull in all kinds of
+36:30 other stuff on like back links and and
+36:32 things. I just want keyword
+36:33 information." And then that's going into
+36:36 Claude and you're letting Claude find
+36:38 like what are the best keywords? Can you
+36:40 group these together? Can you tell me
+36:41 what to do with them?
+36:44 Crazy, dude. Yeah. So for me this has
+36:47 been like a total gamecher and I think
+36:49 that uh I don't know no one that I've
+36:52 seen is really thinking about you know
+36:55 the the the simplicity of uh of these
+36:58 types of workflows and how easy it is to
+37:00 to unlock that much value.
+37:03 Well dude thank you for sharing the
+37:05 sauce. I know you could have easily
+37:07 gatekeeped this but you know you're like
+37:10 me. You like to you like to you know
+37:12 distribute the sauce.
+37:15 um highly recommend if you're not
+37:17 following the boring marketer on X, he
+37:20 he's giving away a lot of these
+37:22 workflows. You also um give away these
+37:26 workflows in your community that you
+37:28 mentioned if you want to just pull it
+37:29 up, right? I think it's Yeah, sure. So,
+37:33 yeah, the community's been going crazy.
+37:35 Um you know, in school we've got uh I
+37:39 think close to one and a half thousand
+37:41 members now. And um in Slack, we also
+37:45 have another community with about
+37:46 another thousand people. So we have
+37:47 about
+37:49 2,500 like Vibe marketers just working
+37:51 on this stuff every single day. Like
+37:53 they're posting um you know questions,
+37:56 challenges they might be facing, sharing
+37:59 like really really interesting
+38:00 workflows. Like I thought this one was
+38:02 great. It's a it's one of the more
+38:04 complicated uh keyword research ones,
+38:06 but it's amazing. Uh so people are just
+38:08 giving away like tons of value in here.
+38:11 And then uh you know we launched a
+38:13 classroom to kind of help people like
+38:14 work through these step by step. And uh
+38:17 I'm going to be making a MCP
+38:21 uh workflow uh live uh within our
+38:24 classroom here too for our community to
+38:26 be able to like set this type of thing
+38:27 up and experiment with it as well. Cool.
+38:30 And and at bormarketing.com you also
+38:33 like help people with this stuff, right?
+38:36 Yeah. Yeah. So we're basically doing
+38:38 like vibe coding and vibe marketing as a
+38:41 service now. So you know we're we're
+38:43 making these very custom to businesses.
+38:45 We're identifying like where people are
+38:47 spending a lot of time manually and
+38:50 we're helping them automate this stuff,
+38:51 get out of the weeds so so they can kind
+38:53 of vibe and uh take advantage of all
+38:55 this. Cool. I'll include the link in the
+38:58 show notes. Uh full disclosure, I'm an
+39:00 investor in the business. I believed in
+39:02 the future of Vibe marketing. So, you
+39:04 know, happy to put my money where my
+39:06 mouth is.
+39:08 Um, you know, can I say your name,
+39:11 James? Yeah, absolutely. Yeah, the cat's
+39:13 out of the bag now. I've been doing
+39:14 videos and stuff, so people know I'm
+39:16 just not a diamond headed uh boring
+39:18 marketer anymore. Okay, cool. All right,
+39:21 so James, thanks for coming on. I I
+39:24 personally would love to do double click
+39:26 into more workflows. I think that this
+39:29 is a bigger topic that needs more time.
+39:31 So, if people got any value from this,
+39:34 please please let me know in the comment
+39:37 section. I only want to create content
+39:39 that you look at and you're like, "Wow,
+39:41 that was saucy." So, um, thank you,
+39:45 James, for your time and you were
+39:47 generous with your sauce. Um, and, uh, I
+39:51 got to ask, you know, if you enjoyed
+39:52 this episode, please like it and comment
+39:54 and subscribe, share it with your
+39:56 friends, and let's all get that let's
+39:58 all get that sauce together. James,
+40:00 thanks again. I'll see you next time.
+40:02 Thanks for having me.

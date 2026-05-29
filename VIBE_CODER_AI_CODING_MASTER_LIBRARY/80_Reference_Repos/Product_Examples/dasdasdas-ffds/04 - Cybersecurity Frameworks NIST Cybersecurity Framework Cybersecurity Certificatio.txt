@@ -1,0 +1,536 @@
+Title: Cybersecurity Frameworks | NIST Cybersecurity Framework | Cybersecurity Certification | Edureka
+URL: https://www.youtube.com/watch?v=uk8-jJgu8-I&list=PL9ooVrP1hQOGPQVeapGsJCktzIO4DtI4_&index=5&pp=iAQB
+Channel: YouTube playlist
+Video ID: uk8-jJgu8-I
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:24:55.858Z
+
+0:00 [Music]
+0:06 data is the most valuable asset which is
+0:09 the reason why data security has become
+0:12 an international agenda data breaches
+0:14 and security failures can put the world
+0:17 economy at risk realizing the need for
+0:19 the national and Economic Security the
+0:22 President of the United States issued an
+0:24 executive order to develop a
+0:26 cybersecurity framework to help reduce
+0:28 cyber risks hi folks my name is Aria and
+0:31 Here I am with another interesting video
+0:33 on cybersecurity
+0:35 so first let's have a look at the agenda
+0:37 of today's session all right to begin
+0:39 with we will see how the US government
+0:41 recognized the need for reliable
+0:43 function to secure the national and
+0:45 economic infrastructure to improve
+0:47 critical infrastructure security next we
+0:50 will discuss the importance of
+0:51 cybersecurity frameworks and why it is
+0:53 required in an organization then I'll be
+0:56 telling you about the different types of
+0:58 frameworks moving on I'll tell you about
+1:00 the components of cybersecurity
+1:01 frameworks that make it up all and after
+1:03 discussing the framework I'll tell you
+1:05 what steps are required to implement
+1:07 frameworks in an organization finally
+1:10 I'll describe a common flow of
+1:11 information and decisions are the
+1:13 different levels within an organization
+1:15 okay so let's begin so recognizing the
+1:18 national and Economic Security of the
+1:21 United States depends on the reliable
+1:23 function of critical infrastructure the
+1:25 President issued executed order one
+1:28 three six three six which is improving
+1:30 critical infrastructure cyber security
+1:32 in February 2013 the order directed NIS
+1:36 T to work with stakeholders to develop a
+1:38 voluntary framework based on existing
+1:40 standards guidelines and practices for
+1:43 reducing cyber risks to critical
+1:45 infrastructures the cybersecurity
+1:47 Enhancement Act of 2014
+1:49 reinforced NIS T's execute of order one
+1:53 three six three six rule created through
+1:55 collaboration between industry and
+1:57 government
+1:57 the voluntary framework consists of
+1:59 standards guidelines and practices to
+2:02 promote the protection of critical
+2:03 infrastructure the prioritized flexible
+2:06 repeatable and cost-effective approach
+2:08 of the framework helps owners and
+2:10 operators of critical infrastructure to
+2:12 manage cyber secure
+2:13 related risks now according to section 7
+2:17 of executed order the Secretary of
+2:19 Commerce shall direct the director of
+2:21 the National Institute of Standards and
+2:23 Technology should lead the development
+2:25 of a framework to reduce cyber risks to
+2:28 critical infrastructure the
+2:30 cybersecurity framework shall include a
+2:32 set of standards methodologies
+2:34 procedures and processes that align
+2:36 policy business and technological
+2:38 approaches to address cyber risks the
+2:41 cybersecurity framework shall
+2:42 incorporate voluntary consensus
+2:44 standards and industry best practices to
+2:47 the fullest extent possible now let's
+2:49 see why exactly do we need a
+2:51 cybersecurity framework let's start with
+2:53 that question so the framework will help
+2:55 an organization better understand manage
+2:58 and reduce its cybersecurity risks it
+3:00 will assist in determining which
+3:02 activities are most important to assure
+3:04 critical operations and service delivery
+3:07 in turn that will help prioritize
+3:09 investments and maximize the impact of
+3:12 each dollar spent on cyber security it
+3:14 results in a shift from compliance to
+3:16 action and specifies outcomes by
+3:19 providing a common language to address
+3:21 cybersecurity risk management it is
+3:23 especially helpful in communicating
+3:25 inside and outside the organization that
+3:28 includes improving communications
+3:29 awareness and among IT planning and
+3:32 operating units as well as senior
+3:34 executives of organizations it gives you
+3:37 a measure of where you are and where you
+3:39 need to go it can be implemented in
+3:41 stages or degrees which make it more
+3:43 appealing to business it has built in
+3:45 maturity models and gap analysis so you
+3:48 don't need additional maturity models on
+3:50 top of CSF organizations also can
+3:54 readily use the framework to communicate
+3:56 current or desired cybersecurity
+3:57 postures between a buyer or supplier now
+4:00 let's see what exactly is a
+4:02 cybersecurity framework the framework is
+4:04 voluntary guidance based on existing
+4:06 standards guidelines and practices for
+4:09 organizations to better manage and
+4:11 reduce cybersecurity risks in addition
+4:14 to helping organizations manage and
+4:16 reduce risks it was designed to foster
+4:18 risk and cybersecurity management
+4:20 communications amongst both internal and
+4:22 external organization stakeholders now
+4:25 let's see the types of cybersecurity
+4:26 frameworks
+4:28 so the first type of framework is PCI
+4:30 DSS which stands for payment card
+4:33 industry and data security standards it
+4:36 is a set of security control required to
+4:38 implement protected payment account
+4:40 security it is designed to protect
+4:42 credit cards debit cards and cash card
+4:44 transactions the second type of
+4:46 framework that we have is iso 2700 oh
+4:49 one and 2700 oh two it is the
+4:52 International Organization for
+4:53 Standardization now the best practices
+4:56 recommendations for information security
+4:57 management and information security
+4:59 program elements are from this framework
+5:01 the third that buffering verve is CIS
+5:04 which stands for critical security
+5:06 controls a prescribed arrangement of
+5:08 activities for cyber protection that
+5:11 gives particular are known for the
+5:12 approaches to stop the present most
+5:14 inescapable and perilous attacks a key
+5:17 advantage of the controls is that the
+5:19 organized and center fewer activities
+5:21 with high outcomes last but not the
+5:23 least we have the NIST framework uh NIST
+5:26 framework is made for improvising
+5:28 critical infrastructure cyber security
+5:30 with a goal to improve organizations
+5:32 readiness for managing cyber security
+5:34 risk while leveraging standard
+5:36 methodologies and processes now out of
+5:38 all the frameworks we just discussed
+5:40 NIST is the most popular framework Myst
+5:43 was developed in the February of 2013
+5:45 after the u.s. presidential execute of
+5:47 order it was designed to address
+5:49 national and economic challenges and it
+5:51 is supposed to be voluntary at least for
+5:53 private sectors now let's discuss the
+5:55 objectives of the framework so the
+5:57 cybersecurity frameworks prioritized
+5:59 flexible and cost-effective approach
+6:01 helps to promote the protection and
+6:03 resilience of critical infrastructure
+6:05 and other sectors important to the
+6:06 economic and national security the
+6:09 framework was developed to be adaptable
+6:11 flexible and scalable by an organization
+6:13 also it should be improve organization's
+6:16 readiness for managing cyber security
+6:18 risks the framework was designed to be
+6:21 flexible and performance-based and it
+6:23 should be cost effective it should
+6:25 leverage standard and methodologies and
+6:27 processes and should promote
+6:28 technological advancement and innovation
+6:31 and it should be actionable across the
+6:32 enterprise focus on outcomes now let's
+6:35 discuss the components of the NIST
+6:37 cybersecurity framework the
+6:38 cybersecurity framework consists of
+6:40 three main company
+6:41 namely the core implementation tires and
+6:44 profiles the framework or provides a set
+6:47 of desired cybersecurity activities and
+6:49 outcomes using common language that is
+6:52 easy to understand the core guides
+6:54 organizations in managing and reducing
+6:56 their cybersecurity risks in a way that
+6:59 is complementing an organization's
+7:01 existing cybersecurity and risk
+7:03 management processes next we have the
+7:05 framework implementation tiers which
+7:07 assists an organization by providing
+7:09 context on how an organization views
+7:11 cybersecurity risk management the tiers
+7:13 guide organization to consider the
+7:15 appropriate level of rigor for the
+7:17 cybersecurity program and are often used
+7:19 as a communication tool to discuss the
+7:21 risk appetite mission priority and
+7:23 budget last but not least is the
+7:25 framework profiles which are an
+7:26 organization's unique alignment of their
+7:29 organizational requirements and
+7:30 objectives risk appetite and resources
+7:33 against the desired outcomes of the
+7:35 framework core profiles are primarily
+7:37 used to identify and prioritize
+7:39 opportunities for improving cyber
+7:41 security at an organization let's
+7:43 discuss the framework tires now the
+7:45 tiles describe the degree to which an
+7:47 organization cybersecurity risk
+7:49 management practices exhibit the
+7:51 characteristics defined in the framework
+7:53 the tiles ranged from partial which is
+7:55 Taiwan to adaptive which is taya for and
+7:58 describe an increasing degree of rigor
+8:00 and how well integrated cybersecurity
+8:02 risk decisions are into broader risk
+8:04 decisions and the degree to which an
+8:06 organization shares and receive
+8:08 cybersecurity information from external
+8:10 parties tires do not necessarily
+8:12 represent maturity levels organizations
+8:15 should determine the desired Tyre
+8:16 ensuring that the selected level meets
+8:18 organizational goals reduce the
+8:20 cybersecurity risks to the level
+8:22 acceptable by the organization and is
+8:24 feasible to implement fiscally and
+8:26 otherwise next we have the core the core
+8:29 is a set of desired cybersecurity
+8:31 activities and outcomes organized into
+8:34 categories and aligned into informated
+8:36 references the framework or is designed
+8:39 to be intuitive and to act as a
+8:41 translation layer to enable
+8:42 communication between multidisciplinary
+8:44 teams by using simplistic and
+8:46 non-technical language the core consists
+8:49 of three parts functions categories and
+8:51 sub-categories the core includes five
+8:53 high-level functions
+8:55 identify protect detect respond and
+8:58 recover these five functions are not
+9:00 only applicable to cybersecurity risk
+9:02 management but also to risk management
+9:04 at a whole the core asks an organization
+9:07 to identify what processes and assets
+9:09 need to be protected now after assessing
+9:11 that you need to find what protection is
+9:13 available then you need to find out what
+9:15 techniques can identify the threats and
+9:17 what techniques can contain the impact
+9:19 of an incident and finally the core
+9:22 defines what techniques can restore the
+9:24 capabilities of the organization before
+9:26 the attack all right now let's dive
+9:28 deeper into the functions to see what
+9:30 these functions actually do and what
+9:32 purpose they serve
+9:34 the functions are at the highest level
+9:35 of abstraction included in the framework
+9:37 they act as a backbone of the framework
+9:39 or that all the other elements are
+9:41 organized around so the first function
+9:43 is identified it helps develop an
+9:46 organizational understanding to manage
+9:48 cybersecurity risk the systems people
+9:50 assets data and capabilities the
+9:53 activities and the identify functions
+9:55 are foundational for effective use of
+9:57 the framework understanding the business
+9:59 context the resources that support
+10:00 critical functions and related
+10:02 cybersecurity risks enable an
+10:04 organization to focus and prioritize its
+10:07 efforts consistent with its risk
+10:09 management strategy examples of outcome
+10:12 categories within this function include
+10:13 asset management business environment
+10:16 governance risk management and risk
+10:19 assessment now the next type is the
+10:22 protect function so to develop and
+10:25 implement appropriate safeguards to
+10:26 ensure delivery of critical services the
+10:29 protect function supports the ability to
+10:31 limit or contain the impact of a
+10:33 potential cyber security event example
+10:35 of outcome categories within this
+10:37 function include identify management and
+10:40 access control awareness and training
+10:42 data security information protection
+10:44 processes and procedures maintenance and
+10:47 protective technology the next kind of
+10:49 function is the detect function so this
+10:51 is used to develop and implement
+10:53 appropriate activities to identify the
+10:55 occurrence of a cybersecurity event the
+10:58 detect function enables timely discovery
+11:00 of cybersecurity events example of
+11:03 outcome categories within this function
+11:05 includes anomalies and events security
+11:07 continence monitoring and detection
+11:09 processes now next we have this Fon
+11:12 function now to develop and implement
+11:14 appropriate activities to take action
+11:17 regarding a detected cybersecurity
+11:18 incident the response function supports
+11:21 the ability to contain the impact of a
+11:23 potential cyber security incident the
+11:25 outcomes category within this function
+11:27 includes response planning
+11:28 communications analysis mitigation and
+11:31 improvements last but not the least we
+11:33 have the recover function now to develop
+11:36 and implement appropriate activities to
+11:38 maintain plans for resilience and
+11:40 restore any capabilities or services
+11:42 that were impaired due to a cyber
+11:44 security incident the recovery function
+11:46 supports timely
+11:48 the normal operations to reduce the
+11:50 impact from a cybersecurity incident
+11:52 examples of outcome categories within
+11:54 this function include recovery planning
+11:56 improvement and communications these
+11:58 five functions were selected because
+12:00 they represent the five primary pillars
+12:02 for a successful and holistic
+12:03 cybersecurity program they aid
+12:06 organizations in easily expressing their
+12:08 management of cybersecurity risk at a
+12:10 high level and enabling risk management
+12:12 decisions
+12:12 okay now let's understand the last
+12:15 component of the NISD framework n IST
+12:17 recommends that the framework be
+12:19 customized in a way that maximizes
+12:20 business value and that customization is
+12:23 referred to as a profile profiles are an
+12:26 organization's unique alignment of their
+12:28 organizational requirements and
+12:29 objectives risk appetite and resources
+12:32 against the desired outcomes of the
+12:34 framework core profiles can be used to
+12:36 identify opportunities for improving
+12:38 cybersecurity posture by comparing a
+12:40 current profile with the target profile
+12:42 profiles are about optimizing the
+12:44 cybersecurity framework to best serve
+12:46 the organization the framework is
+12:48 voluntary so there is no right or wrong
+12:50 way to do it one way of approaching
+12:52 profiles is for an organization to map
+12:54 their cybersecurity requirements mission
+12:57 objectives and operating methodologies
+12:59 along with the current practices against
+13:01 the subcategories of the framework or to
+13:03 create a current state profile these
+13:05 requirements and objectives can be
+13:07 compared against the current operating
+13:09 state of the organization to gain an
+13:11 understanding of the gaps between the
+13:13 two now the following steps illustrate
+13:15 how an organization could use the
+13:17 framework to create a new cybersecurity
+13:19 program or improve on an existing
+13:21 program these steps should be repeated
+13:23 as necessary to continually improve
+13:25 cybersecurity so the first step is to
+13:27 prioritize and scope the organization
+13:29 identifies its business mission
+13:31 objectives and high-level organizational
+13:34 priorities with this information the
+13:36 organization makes strategic decisions
+13:38 regarding cybersecurity implementations
+13:40 and determines the scope of systems and
+13:42 assets that support the selected
+13:44 business line or process the framework
+13:46 can be adapted to support the different
+13:48 business lines or processes within an
+13:50 organization which may have different
+13:52 business needs and associated risk
+13:54 tolerance risk tolerances may be
+13:56 reflected in a target implementation
+13:58 tier step two is to orient yourself
+14:01 now once the scope of cybersecurity
+14:02 program has been determined for the
+14:04 business line or process the
+14:06 organization identifies related systems
+14:08 and assets regulatory requirements and
+14:10 overall risk approach the organization
+14:13 then consults sources to identify
+14:15 threats and vulnerabilities applicable
+14:17 to those systems and assets so step
+14:20 three is to create a current profile the
+14:22 organization develops a current profile
+14:24 by indicating which category and
+14:25 subcategory outcomes from the framework
+14:27 or are currently being achieved if an
+14:30 outcome is partially achieved noting
+14:32 this fact will help support subsequent
+14:34 steps by providing baseline information
+14:35 the fourth step is to conduct a risk
+14:38 assessment this assessment could be
+14:40 guided by organization's overall risk
+14:42 management process our previous risk
+14:44 assessment activities the organization
+14:47 analyzes the operational environment in
+14:49 order to discern the likelihood of a
+14:51 cybersecurity event and the impact that
+14:53 the event could have on the organization
+14:55 it is important that organization
+14:57 identify emerging risks and use cyber
+14:59 threats information from internal and
+15:01 external sources to gain a better
+15:03 understanding of the likelihood and
+15:05 impact of cybersecurity events so the
+15:07 fifth step is to create a target profile
+15:09 the organization creates a target
+15:11 profile that focuses on the assessment
+15:13 of the framework categories and
+15:14 subcategories describing the
+15:16 organization's desired cybersecurity
+15:18 outcomes
+15:19 organizations may also develop their own
+15:21 additional categories and subcategories
+15:23 to account for unique organizational
+15:25 risks the organization may also consider
+15:28 influences and requirements of external
+15:31 stakeholders such as sector entities
+15:33 customers and business partners when
+15:35 creating a target profile the target
+15:37 profile should appropriately reflect
+15:39 criteria within the target
+15:40 implementation tier the sixth step is to
+15:43 determine analyze and prioritize gaps
+15:45 the organization compares the current
+15:47 profile and the target profile to
+15:49 determine gaps next it creates a
+15:51 prioritized action plan to address gaps
+15:53 reflecting mission drivers costs and
+15:55 benefits and risks to achieve outcomes
+15:58 in the target profile the organization
+16:00 then determines resources including
+16:02 funding and workforce necessary to
+16:04 address the gaps using profiles in this
+16:07 manner encourages the organization to
+16:09 make informed decisions about
+16:10 cybersecurity activities support risk
+16:13 management and enables the organ
+16:14 to perform cost effective targeted
+16:16 improvement the last step is to
+16:18 implement action plan the organization
+16:21 determines which actions to take to
+16:22 address the gaps if any identified in
+16:25 the previous step and then adjust its
+16:27 current cybersecurity practices to
+16:29 achieve the target profile for further
+16:31 guidance the framework identifies
+16:32 examples informated reference regarding
+16:35 the categories and subcategories but
+16:37 organizations should determine which
+16:38 standards guidelines and practices
+16:40 including those that are sector specific
+16:43 work best for their needs an
+16:44 organization repeats the steps as needed
+16:47 to continuously assess and improve its
+16:49 cybersecurity for instance organizations
+16:52 may find that more frequent repetition
+16:54 of audience step improves their quality
+16:56 of risk assessment for the more
+16:58 organizations may monitor progress
+17:00 through iterative updates to the current
+17:02 profile subsequently comparing the
+17:04 current profile to the target profile
+17:06 organizations may also use this process
+17:08 to align their cybersecurity program
+17:10 with their desired framework
+17:12 implementation deal now the framework
+17:14 helps guide key decision points about
+17:17 the risk management activities through
+17:19 the various levels of an organization
+17:21 for supporting risk management now as
+17:23 you can see in the picture it describes
+17:25 a common flow of information and
+17:27 decisions at the following levels within
+17:29 an organization the levels are executed
+17:31 business process and implementations are
+17:34 operations the execute of level
+17:36 communicates mission priorities
+17:37 available resources and overall risk
+17:40 tolerance to britainís process levels
+17:42 the business or process level uses the
+17:44 information as input into the risk
+17:46 management process and then collaborates
+17:49 with the implementation or operation
+17:51 level to communicate business needs and
+17:52 create a profile the implementation or
+17:55 operation level the implementation or
+17:57 operations level communicates the
+17:59 profile implementation progress to the
+18:01 business level the business level uses
+18:03 this information to perform an impact
+18:05 assessment next the business level
+18:07 management reports the outcomes of that
+18:09 impact assessment to the executive level
+18:12 to inform the organization's overall
+18:14 risk management process and to the
+18:16 implementation operation levels for
+18:18 awareness of business impact okay guys
+18:21 that was it from me for the topic of
+18:23 cybersecurity frameworks we discussed
+18:26 how NIST has actually changed the whole
+18:28 cyber secure
+18:28 the environment since it was released in
+18:30 the February of 2013 I hope you all
+18:33 learned something valuable that's it
+18:35 from me goodbye I hope you have enjoyed
+18:37 listening to this video please be kind
+18:39 enough to like it and you can comment
+18:42 any of your doubts and queries and we
+18:44 will reply them at the earliest do look
+18:47 out for more videos in our playlist and
+18:49 subscribe to any rekha channel to learn
+18:52 more happy learning

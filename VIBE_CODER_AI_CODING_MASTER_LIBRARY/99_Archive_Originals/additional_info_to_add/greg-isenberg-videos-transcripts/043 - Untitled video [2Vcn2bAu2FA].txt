@@ -1,0 +1,523 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=2Vcn2bAu2FA
+Channel: Greg Isenberg
+Video ID: 2Vcn2bAu2FA
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 This is the beginner's guide to actually
+0:02 setting up Claude skills. I'm going to
+0:04 make it super easy for you to understand
+0:06 how to use it, why it's important. I'll
+0:09 start by why it's important. Like you
+0:10 will be able to get way more out of
+0:12 Claude
+0:14 if you use skills. It's just going to
+0:16 get [music] way way more consistent,
+0:18 higher value stops. So who doesn't want
+0:20 that? This episode is for you. Um and
+0:23 it's it's for the beginner. I'm not
+0:24 going to be using Claude code. I'm just
+0:26 going to be using the website or if you
+0:28 want to just have the Mac app, we're
+0:30 going to talk about how you can create a
+0:31 custom skill.
+0:32 >> [music]
+0:40 >> So the first thing you're going to want
+0:41 to do is actually enable skills. So it
+0:44 doesn't enable it by by default. So if
+0:47 you go to settings and then you click
+0:49 capabilities, if you scroll down, you
+0:51 actually could see that there's this
+0:53 skills preview feature. Repeat
+0:56 customizable instructions that Claude
+0:57 can follow in any chat. Um and you can
+1:00 actually add them over here.
+1:03 If you want to create a new skill, it
+1:04 you know, gives you three options. It
+1:06 says create with Claude, build complex
+1:08 skills through conversation, write skill
+1:11 instructions, great for skills that are
+1:12 easy to describe. Um and then upload a
+1:16 skill. So this is if you actually have a
+1:18 zip already or skill, you can just
+1:20 upload it already. But for the vast
+1:21 majority of people, you actually want to
+1:23 just hit uh you know, let's create a
+1:26 skill together. And it says it basically
+1:29 onboards you to this idea of how to
+1:31 create a skill. So it says let's create
+1:33 a skill together using your skill
+1:35 creator skill. First, ask me what the
+1:37 skill should do. It says I'll help you
+1:39 create a custom skill. Let me first
+1:41 review the skill creator documentation
+1:43 to guide us through this process. So
+1:46 then it says perfect, let's create a
+1:47 custom skill. What functionality should
+1:50 this skill provide? For example, it
+1:52 could help with working with the
+1:53 specific formats or data,
+1:55 following particular workflows for
+1:58 workflows for your work or projects,
+2:00 integrating with specific tools or APIs,
+2:02 applying domain specific knowledge or
+2:05 procedures or something else entirely.
+2:08 So what do I have in mind? So hmm,
+2:10 that's a good question. I'm going to say
+2:13 Hey there. I run a design agency called
+2:17 LCA.
+2:19 I'm constantly creating new apps and
+2:23 websites. I'd love a skill that reviewed
+2:28 my
+2:29 uh designs.
+2:33 Actually,
+2:34 uh reviewed my
+2:36 viewed my copywriting
+2:39 on my apps and websites
+2:42 and and critiqued it to get the highest
+2:47 conversion rate possible.
+2:50 Basically, I want to ship apps that
+2:55 drive revenue,
+2:57 etc. and copy
+3:00 helps do that.
+3:02 So basically what I'm trying to do is I
+3:04 want to have almost like a copywriter
+3:06 that specializes for, you know, apps and
+3:10 and websites. And I want to see if I can
+3:12 create a skill that can go and do that.
+3:15 Um
+3:16 And it says great idea, a conversion
+3:18 focused copywriting review skill would
+3:20 be really valuable for your agency. Let
+3:22 me ask you a few questions to understand
+3:24 exactly how you do this. What kind of
+3:26 apps are you and websites are you
+3:28 typically building? So I'm going to say
+3:32 um I'm typically building mobile apps
+3:38 that have AI embedded in it
+3:43 um or
+3:46 SaaS.
+3:47 Number two,
+3:49 uh how would you
+3:51 provide the copy for review? Would you
+3:53 share URLs, HTML shots, HTML files,
+3:56 screenshots? I'm going to say I would
+3:58 share
+3:59 screenshots
+4:01 or Figma files
+4:04 or just paste text, whatever is easiest
+4:09 for you. So I literally treat it like,
+4:11 you know, as I would I'm talking to an
+4:13 employee. What specific elements do you
+4:16 want critiqued? Headlines, CTAs, value
+4:19 proposition, product descriptions, hero
+4:20 sections, pricing pages, onboarding
+4:22 flows, all of the above. All of the
+4:23 above.
+4:26 And what does a helpful review look like
+4:28 to you? Do you want specific suggestions
+4:30 with before and after, a scored
+4:32 assessment, prioritized issues to fix or
+4:34 something else?
+4:35 Actually, that all sounds great.
+4:40 If you have a business that's doing at
+4:42 least $50,000 a month in revenue, I've
+4:45 got something interesting for you. It's
+4:46 called offline mode. It's a two-day
+4:48 event that me and my team are putting on
+4:50 at a 20,000 plus foot square foot
+4:53 mansion. Yes, this is what it looks like
+4:55 on January 23rd and January 24th in Fort
+4:57 Lauderdale, Florida. I'll include a link
+4:59 in the description if you're interested
+5:01 in coming, but it's basically for people
+5:04 who have a business that's kind of
+5:06 cranking, but they really want to put it
+5:08 in rocket ship mode. They want to create
+5:11 a set of businesses that generate tons
+5:14 of money, tons of cash flow, tons of
+5:16 product market fit, tons of impact. Um
+5:19 but they're not just quite there yet.
+5:21 It's also about, you know, making your
+5:22 business AI first, how you can actually,
+5:25 you know, build not just one product,
+5:27 but multiple products. And you're going
+5:29 to leave with, you know, tactical
+5:32 uh answers to your questions. So um if
+5:34 that's you and this sounds interesting,
+5:37 uh
+5:37 I'll see you there.
+5:39 So you answer it. Um
+5:43 and it's actually a really good
+5:46 like before you create I mean, you
+5:48 should create your first skill, but I
+5:49 think that you should be asking
+5:51 uh Claude like which you know, telling
+5:54 it what you do and giving and asking it
+5:56 to tell you what are the 10 skills that
+5:58 you should be creating.
+6:00 Um so this would just be one of the
+6:02 skills. So you can see here it says I
+6:05 have a clear picture now. I'm creating a
+6:06 conversion copywriting review skill for
+6:08 your AI and SaaS mobile apps. I'll build
+6:11 a skill that reviews all copy elements,
+6:13 headlines, CTAs, value props, provide
+6:16 scored assessments with specific before
+6:18 and after suggestions, prioritizes
+6:20 issues by impact on conversion, works
+6:23 with screenshots, Figma files, and
+6:25 pasted text. Let me start up start by
+6:27 setting up the skill structure.
+6:30 And it's gone and it's like it's it's
+6:32 building out building this out. So
+6:35 uh why this is so important is, you
+6:37 know, yes, you could um
+6:40 obviously have this within within Claude
+6:44 um
+6:45 in like one chat, but you lose the
+6:47 context. With the skill, you're getting
+6:49 the consistency
+6:50 uh and you're just getting better output
+6:52 ultimately cuz you're getting consistent
+6:54 output that you want, right? You're
+6:56 giving it the right amount of of context
+6:58 and now knows about my business. A
+7:00 common question is, well, why wouldn't I
+7:02 just use a project within Claude? Well,
+7:06 um you could use a project, but projects
+7:08 are context specific for a specific
+7:12 like, you know, there's a beginning,
+7:13 middle, and an ending date to the
+7:16 project. So for example, like maybe
+7:18 you're working on a, you know, Christmas
+7:20 campaign. But after that,
+7:22 [clears throat]
+7:22 you know, the type of uh copy that, you
+7:25 know, you you would do for Christmas
+7:27 campaign, you know, might be might be
+7:29 different, you know, if you're doing
+7:30 something for Valentine's Day. So I
+7:32 think, you know, think of skills as like
+7:35 you're building like your team a little
+7:37 bit and you need a set of skills that
+7:39 are going to work regardless if you're
+7:41 working on a campaign or if you're
+7:43 working on just, you know, your it's
+7:46 it's sort of like your day-to-day
+7:47 operations. So let's just check in on
+7:50 what's happening here.
+7:52 Um it says it's building, you know, it's
+7:54 building the skill. It's starting it's
+7:56 starting by setting up the skill
+7:57 structure. Uh now let me build out the
+8:00 skill with conversion copywriting
+8:02 expertise. I'll remove the example files
+8:04 we don't need and create reference
+8:06 materials. Great. And now it let it says
+8:08 now let me
+8:10 uh let me write the main skill MD with
+8:12 the review workflow.
+8:14 So it's uh you know, these are markdown
+8:17 files. MD
+8:19 um
+8:20 which is really simple. And I saw I
+8:22 think someone from uh
+8:25 from Anthropic actually you know,
+8:27 someone asked them uh hey, like why did
+8:30 you do markdown files? Like that's like
+8:32 literally the most basic files ever.
+8:35 Like why didn't you do something a
+8:36 little a little, you know, more complex?
+8:39 And they just said that like it works,
+8:40 right? Uh files work. Markdown files are
+8:44 super easy to understand. If you're
+8:45 non-technical, obviously, you can really
+8:48 understand it. So I'm happy that they
+8:50 that they, you know, picked such an easy
+8:52 way to actually
+8:55 uh to to get involved.
+8:57 So
+8:59 um you can see here now it's it's sort
+9:00 of out work. You can you can actually go
+9:03 and see what it's doing. So, you know,
+9:06 it's it's, you know, key principles,
+9:08 quality standards. I mean, this is
+9:11 really insane, you know, like that that
+9:13 that this is possible. And
+9:17 um
+9:18 and and and it's gone and and I think
+9:19 it's I think we've got it. So it says
+9:21 hey, I've created your LCA
+9:24 uh conversion copy review skill. Here's
+9:26 what it includes. Provide expert
+9:27 copywriting reviews for your AI-powered
+9:30 mobile apps and SaaS. It works with
+9:32 screenshots, exactly what we said. So um
+9:36 it says what's inside. Okay, so it's got
+9:38 the markdown file, skill.md, which is
+9:41 the step-by-step review workflow with
+9:43 scoring system and output template. It's
+9:46 got a conversion framework.md.
+9:48 So it's got the core frameworks like
+9:50 AIDA.
+9:51 Uh I think that's attention, interest,
+9:53 desire, and action. PAS, BAB. These are
+9:57 different frameworks that I'm happy
+9:59 exist in here and value proposition
+10:01 formulas. Like any good copywriter knows
+10:03 those things. Element guidelines on MD,
+10:06 so it's specific best practices for
+10:09 every copy element. Headlines, calls to
+10:12 action, pricing, etc.
+10:14 Um so how it works. When you ask me to
+10:16 review copy, I'll automatically load the
+10:19 conversion frameworks and guidelines,
+10:21 analyze each element with specific
+10:23 scoring, prioritize fixes by conversion
+10:26 impact, critical, high, medium, low, and
+10:29 provide before and after after examples
+10:32 with psychological rationale.
+10:34 And then it says, "To use this, upload
+10:37 this dot skill file to Claude, then just
+10:41 share any app website and ask for
+10:44 conversion review." So, uh we're going
+10:48 to go ahead and do that. I'm actually
+10:49 going to go download it.
+10:51 Um download it here. Copy. I click copy
+10:54 to your skills. So, I believe we need to
+10:57 go back to
+10:59 the settings. We're going to go ahead
+11:01 and click settings.
+11:03 And then we're going to go back to
+11:04 capabilities. And here uh you can see
+11:07 the skills. We have to add the skills.
+11:10 And now is when we upload the skill. So,
+11:12 we're going to go ahead and drag and
+11:13 drop that from downloads.
+11:16 Um so, actually when I clicked copy, it
+11:19 put it in there. I wasn't sure about
+11:20 that. Um
+11:22 so, you actually you know,
+11:24 if you click copy, it automatically puts
+11:25 it there. But I've gone and uploaded it
+11:27 uh there again. And let's go and start a
+11:29 new chat and see if this works. So, I
+11:32 mean, we're going to need something for
+11:33 it to review. So, I'm actually just
+11:35 going to go to like, let's say Cal AI,
+11:37 which is a popular
+11:40 app for tracking your calories.
+11:44 >> [sighs]
+11:45 >> I'm just going to
+11:48 you know, screenshot this. Actually,
+11:50 maybe I'll screenshot Yeah, I'm going to
+11:52 screenshot these
+11:55 App Store previews.
+11:58 I'm going to go back.
+12:00 So, I'm going to say, "Hi, please use
+12:02 the conversion
+12:04 review skill to look at these App Store
+12:09 screenshots and provide better copy."
+12:13 Actually, I'm also going to give it the
+12:15 website. I'm literally just going to
+12:17 copy and paste.
+12:19 I've also included
+12:22 the website copy,
+12:25 which needs a copy pay uh review
+12:29 as well.
+12:30 So, I'm going to go and see if this
+12:33 actually uses the skill. Hopefully, it
+12:36 does. So, it says, "I'll review your App
+12:39 Store screenshots and website copy for
+12:42 conversion optimization. Let me start by
+12:44 examining the conversion copywriting
+12:46 best practice for your app."
+12:48 Um so, now you can see the agent really
+12:51 is going and working with the skill to
+12:54 get to give the best possible outcome.
+12:57 Think about if we didn't have the skill.
+12:59 If we didn't have the skill and you were
+13:01 like, "Make it better, you know, make it
+13:04 sound fresh, make it sound clean, make
+13:06 it conversion rate optimized." You just
+13:09 wouldn't, you know, it wouldn't get the
+13:11 best output. So, here let's see what
+13:14 happens.
+13:15 Um Cal AI's current copy relies heavily
+13:18 on generic AI messaging without
+13:20 explaining concrete benefits or
+13:21 differentiate from competitors. The App
+13:23 Store screenshots use vague headlines
+13:25 and don't communicate the value
+13:26 proposition. While the website copy
+13:28 berries Camellia compelling features
+13:31 under technical descriptions. Top
+13:33 priorities, rewrite headlines to focus
+13:36 on specific outcomes, clarify the unique
+13:38 AI capability, depth sensor for volume
+13:41 calculation, and lead with
+13:42 transformation rather than features. So,
+13:45 it goes and tells you the critical
+13:47 issues. It says, "The App Store
+13:49 screenshots." And let's actually go um
+13:52 and let's look at the App Store
+13:53 screenshots. So, it says, "Make easy
+13:55 calorie tracking easy with AI. Just snap
+13:58 a picture of your food, then let us do
+14:00 the rest." You can see, you know, it's
+14:03 it's it's taking a picture of a
+14:04 pancakes. And then it says, "Track your
+14:06 progress as you go.
+14:08 Protein, carbs, and fats."
+14:10 So, it says, "The issues is too generic.
+14:15 Every cal calorie tracker claims to be
+14:17 easy. There's no specific benefit or
+14:19 differentiation.
+14:21 Then let us do the rest is nothing
+14:22 meaningful." So, then it gives these
+14:25 alternatives. Option one, "Track
+14:26 calories in 3 seconds." I actually like
+14:29 the 3 seconds. I think that's uh really
+14:31 good. Oh, it did include by the way that
+14:33 the score.
+14:34 It's pretty harsh. 3 on 10, but um
+14:38 yeah, "Track calories in 3 seconds, no
+14:40 manual logging, get exact portions using
+14:43 iPhone depth sensing." Like it's it's
+14:45 it's obviously better. Why it works,
+14:47 specific time frame, 3 seconds,
+14:49 emphasizes the elimination of friction
+14:52 points users hate, highlights unique
+14:55 tech capability, includes concrete
+14:56 multiplier.
+14:58 I've written copy for some of the
+15:00 largest SaaS businesses, apps on the
+15:03 planet. And I cannot agree more with
+15:05 this statement. Option two, so it gives
+15:08 you another option where it's
+15:10 transformation focused. "Lost 17 lb
+15:12 without counting a single calorie. Your
+15:14 count camera calculates everything
+15:17 instantly. See calories, protein, carbs
+15:19 in real time. Join 5 million users
+15:22 hitting their goals daily." So, leading
+15:24 with success. I think that could be
+15:25 really cool, too. Um let's let's let's
+15:28 see how it did on um the website copy.
+15:31 So, the current copy says, "Meet Cal AI.
+15:34 Track your calories with just a
+15:36 picture." Um
+15:38 It has a lot of issues with it. It says
+15:40 it waste precious headline space, no
+15:42 emotional hook. The recommended
+15:44 alternative, "The only calorie tracker
+15:46 that actually knows portion sizes. Your
+15:48 iPhone depth sensor measures exact food
+15:51 volume." So, this I mean, and then it,
+15:54 you know, gives you the high priority
+15:55 improvements. Um
+15:58 And you can just, you know, see this on
+16:00 the screen. But the point here is it's
+16:02 done an incredible job here. It goes
+16:04 into medium priority refinements.
+16:07 It says, "What's working well here."
+16:10 It gives you product considerations and
+16:12 then a summary of what to do. Now,
+16:15 this this is awesome.
+16:19 But I saw a tweet um from my my friend
+16:22 uh Boring Marketer
+16:24 uh this morning. And he said something
+16:27 that's really smart around how you can
+16:29 get the most out of Claude skills.
+16:31 So, he said, "The trick to creating
+16:33 effective skills to make your AI think
+16:36 like an expert, not just to follow
+16:38 steps." So, he has a 10-step process
+16:40 that I think, you know, is really great.
+16:42 So, we've gone ahead and great. Now,
+16:44 anyone listening to this can great can
+16:46 create a Claude skill. But how do you
+16:49 actually make the skill 2x better, 3x
+16:52 better, 4x better, 5x better? You do
+16:54 something like this. And if people want,
+16:56 I can go and do an episode with with
+16:58 James the Boring Marketer
+17:00 um where we can actually, you know, go
+17:02 deeper on this. Understand what skill,
+17:04 what problem
+17:06 as step one, right? So, we we did that,
+17:09 but could we have gone deeper
+17:11 uh
+17:12 you know, with with with the LLM,
+17:15 probably. Explore, see where Claude
+17:17 fails without guidance.
+17:19 Step three, research, go deep on the
+17:21 domain. Step four, synthesize, extract
+17:24 principles from research. Step five,
+17:27 draft, write initial skill. Step six,
+17:29 self-critique, review against quality
+17:31 criteria. Step seven, iterate, fix gaps,
+17:35 get feedback, improve. Step eight, test,
+17:38 use skill on a real scenario. Step nine,
+17:41 finalize, codify into
+17:44 uh an optimal structure. What does this
+17:45 mean? It says, you know, make Claude
+17:48 Claude think like an expert, not follow
+17:50 steps. Produce output, not intermediate
+17:52 documents. Sounds like a practic prac
+17:55 practitioner, not documentation.
+17:57 Constrain ruthlessly, every section
+17:59 earns its place.
+18:00 The point here is that once you've
+18:02 created your first skill or your second
+18:04 skill or your third skill,
+18:06 skills aren't something that you aren't,
+18:09 you know, making better over time. So,
+18:12 as you see the output, let's say I
+18:13 didn't like the output of what I got, I
+18:15 can go ahead and edit the skill,
+18:19 you know, now that I have it, I can just
+18:20 go and and edit it and and add to it and
+18:23 change it and iterate from there. So, I
+18:25 want to keep this episode short. And and
+18:29 it's, you know, cuz today today was just
+18:30 about like how you can create your first
+18:32 few skills.
+18:34 And and but once you have that, the
+18:36 second step is iterating on those skills
+18:40 uh so that it really really it's like an
+18:42 employee that knows you. You don't even
+18:44 need to like tell it what to do, right?
+18:46 Um that's like what you want to get to,
+18:48 that it's just constantly delighting.
+18:51 And that's step two, you're iterating on
+18:52 the skills, getting the most out of
+18:54 them. Um and then step three is using it
+18:57 within uh a platform like Claude Code.
+18:59 Um we've we've shown today around, you
+19:02 know, just using it on
+19:05 uh on the web, on the Mac app. Um but
+19:08 you could use it within uh the terminal.
+19:12 And that's really where you're going to
+19:14 get the most amount of control in it.
+19:15 So, hope this was helpful. You know, I I
+19:19 do these practical AI tutorials because,
+19:23 you know, I think that uh
+19:26 we have a lot of ideas and, you know,
+19:29 this is this is the Startup Ideas
+19:31 podcast and it's about how you can get
+19:33 those ideas out of your head and
+19:35 actually create something that people
+19:36 love. Um
+19:38 And I think a big part of that is
+19:40 having, you know, using things like
+19:41 skills to your advantage. So, hope this
+19:44 is for how helpful. Please like,
+19:47 comment, and subscribe. I I literally
+19:49 read every single comment and respond to
+19:51 most, so
+19:53 um
+19:53 hope this was helpful. Happy holidays
+19:55 and have a creative day.

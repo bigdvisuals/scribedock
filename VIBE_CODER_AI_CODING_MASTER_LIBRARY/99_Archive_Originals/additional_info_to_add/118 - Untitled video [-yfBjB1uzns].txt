@@ -1,0 +1,223 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=-yfBjB1uzns
+Channel: Riley Brown
+Video ID: -yfBjB1uzns
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 we're going to be using AI to build an
+0:02 IOS app and we're going to be using
+0:04 cursor and all of the code will be
+0:06 written by composer which is their AI
+0:08 feature powered by Claude I will be
+0:11 using Claude for every prompt step
+0:13 number one you're going to download
+0:14 xcode and you're going to hit create new
+0:18 project choose the app and we're doing
+0:21 iOS and we're going to hit next name
+0:24 this app I'm calling it Yap jot and
+0:26 we're going to hit next now we need to
+0:29 select a location for it so you can just
+0:31 go into documents I have a folder called
+0:33 Riley's iOS projects we're just going to
+0:36 select that one and hit
+0:38 create this will open up this project
+0:40 right here then you're either going to
+0:42 open cursor or if you've never used it
+0:44 before you need to go to cursor. comom
+0:46 and download cursor and on cursor you're
+0:48 going to hit open a folder and here
+0:51 we're just going to go find that same
+0:52 folder Riley's iOS projects and we are
+0:55 going to click on the project it's
+0:58 called Yap jot and we're going to hit
+0:59 open so I include the general outline
+1:01 and I just want to start with a bottom
+1:02 bar that has voice content and settings
+1:05 and a new voice note button that's all
+1:07 we want and what we can do this is an AI
+1:10 prompt we are going to hit
+1:12 submit and about 15 seconds later we can
+1:15 see all of the changes that it wants to
+1:18 make to the code and not a lot it's only
+1:20 one page here but we can go ahead and
+1:23 hit save all and you can see here the
+1:26 code change was immediately reflected
+1:28 here and then I am I'm actually going to
+1:30 hit this play button and we'll see build
+1:33 succeeded and we see this little iPhone
+1:35 pop up right here and now it should
+1:38 automatically have this app pop up and
+1:40 it should show us what it made exactly
+1:42 what we just said voice content and
+1:44 settings and it even added this little
+1:46 button that doesn't do anything yet now
+1:48 that I like my change I'm going to hit
+1:51 accept all which locks it in and so the
+1:54 next feature that I want to add is
+1:55 making this record a voice note and so I
+1:57 want to be able to record a voice note
+1:59 and see a cool animation during it this
+2:00 step is significantly harder than the
+2:02 first one the first one's pretty easy
+2:03 because it's just basic layout so what
+2:06 we need to do is we need to learn about
+2:07 open AI whisper which is the best
+2:09 technology as far as I'm as far as I
+2:11 know on recording your voice and getting
+2:13 text out of it so we need to go to
+2:14 perplexity or you can go to Google
+2:16 wherever and you can ask for the docs
+2:19 for this technology so we're just going
+2:20 to run this and so I'm just going to
+2:23 copy this entire
+2:25 thing and in order to use this
+2:27 technology it's actually going to cost a
+2:29 little bit every single time that you
+2:30 record a voice message but you know
+2:32 hardly anything we need to go to open AI
+2:33 playground and get an API token we're
+2:36 going to hit create secret key now I'm
+2:39 going to paste both of those in there
+2:40 the key and the documents that we caught
+2:43 from perplexity and we're going to run
+2:45 this we actually need to download a
+2:47 package when it says uh to download a
+2:49 package it'll give you this link or any
+2:51 link to GitHub so on xcode we're going
+2:54 to hit file add package dependencies and
+2:57 we're going to paste the
+2:58 URL and ad
+3:01 package do some Googling and I basically
+3:04 found that I need to download this uh
+3:06 gml base bin and hit this download
+3:09 button and drag it right there and once
+3:12 you do that then it's ready to test so I
+3:15 doubt this is going to work I just want
+3:16 to test it and see if we need to like do
+3:18 anything okay that succeeded in building
+3:21 it let's test okay it's coming up here
+3:25 okay so we now see this start recording
+3:28 button
+3:31 hello hello this is Riley test test this
+3:34 is Riley test test we are testing this
+3:37 test oh
+3:41 yes
+3:43 H
+3:45 okay oh
+3:48 whoa there it is okay it's pretty slow
+3:53 um okay it worked okay so let's make
+3:57 some more changes we're going to reset
+3:58 the composer you don't want to get let
+4:00 this context get way too long okay so
+4:02 now we are adding a nice soothing
+4:04 animation while the user is recording I
+4:06 want a progress bar from when the user
+4:07 presses stop until it shows back up on
+4:10 the screen and then I want to also add
+4:12 logs uh I want to be able to see logs
+4:14 down here in xcode so I can just kind of
+4:16 see what the API is doing so I can give
+4:18 cursor more information about what's
+4:19 going on let's go ahead and run
+4:22 this now it's going back to work as you
+4:24 can see it's starting to code all right
+4:27 let's go ahead and hit save all let's go
+4:30 ahead and hit this play
+4:33 button and it looks like it's succeeding
+4:36 let's go ahead and test this hello my
+4:40 name is
+4:41 Riley and it is adding way too many logs
+4:44 on the user interface that is not what
+4:47 we want
+4:48 necessarily um actually we definitely
+4:50 don't want this we want this in the
+4:52 error log but this little Bub is kind of
+4:55 nice actually it is soothing indeed
+5:00 okay is this going to load
+5:02 here oh there we go so it didn't load
+5:05 through that progress bar but there is
+5:07 the message right there we can actually
+5:10 use our voice to fix this so let's check
+5:12 this out let's click
+5:15 this so what I want to have happen is I
+5:17 want to actually see the note that is
+5:20 recorded in content I want to see it on
+5:22 the main page after I record it and I
+5:25 want it to do exactly what it's doing
+5:27 which is add it to the content file take
+5:28 me to the content tab when I press it
+5:30 and I can open the most recent note okay
+5:32 so now we can
+5:35 press there we go now let's go ahead and
+5:38 type at uh
+5:40 codebase run
+5:43 it all right so let's go ahead and press
+5:46 save
+5:47 all and we're going to come over here
+5:50 let's go ahead and hit this play
+5:52 button and it's going to pop
+5:55 up all right let's
+5:57 see hello my name is Riley and I'm
+6:00 recording a note oh yeah oh yeah oh yeah
+6:04 there it is and we have this clean view
+6:07 note in folder so I can press this and
+6:09 here it takes me to the notes page just
+6:10 like I asked and there it is there is
+6:13 the note I don't fully like this blue a
+6:15 view note in folder button so we're
+6:17 going to make it a gray icon instead and
+6:19 we're just going to vertically align
+6:21 this a little bit better and then I also
+6:22 want not the name right I don't want the
+6:25 name of this note I think it's kind of
+6:26 ugly I want it to just show kind of the
+6:28 first part of the not here and that's
+6:30 what I want to do so let's go over here
+6:32 and we're just going to run
+6:34 this and so then we are going to press
+6:36 save all save all play all right so
+6:41 we're getting two errors so I just
+6:43 copied them and paste them over here
+6:44 into cursor run it let's go ahead and
+6:46 hit
+6:48 run and it
+6:51 succeeded please look good there it
+6:54 is hello my name is Riley and this is
+6:57 looking good so far I'm wondering what
+6:59 it will do after I hit stop
+7:01 recording there it is and we can just
+7:04 press this little gray icon and it takes
+7:07 it here and now it doesn't have the
+7:08 titles it has the first part of these
+7:10 little notes which is pretty
+7:12 cool basically the process you just uh
+7:16 keep following your Curiosities down the
+7:18 line and you just keep pushing every
+7:19 time you get confused ask Claude ask
+7:21 composer and use AI to your advantage
+7:24 and you can just create stuff right see
+7:26 check this out and look at what I just
+7:28 added right so if we press this button
+7:30 right here now it's these little blue
+7:32 Post-it cards I just added right here
+7:34 you can do whatever you want and we're
+7:36 going to add a lot of AI features and
+7:38 then conversions into different types of
+7:40 content very soon obviously this is only
+7:42 like 20% of the full process of actually
+7:44 getting your app on the App Store and
+7:46 making money off of it but that's why we
+7:48 started this community 13 days ago which
+7:50 already has almost 3,500 members and we
+7:53 have true developers they inspired and
+7:56 taught me how to use AI to create an app
+7:59 right here right and I can create
+8:01 anything that I imagine right here so if
+8:03 you want to learn more about this
+8:05 everything that I learn about using AI
+8:07 to make iOS apps will be posted here and
+8:11 I have posted the most recent template
+8:13 this is for web apps but you better bet
+8:15 we're going to be doing mobile iOS
+8:17 templates very soon

@@ -1,0 +1,848 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=BuZjz69pBd8
+Channel: Riley Brown
+Video ID: BuZjz69pBd8
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 if you thought the AI space was moving
+0:02 fast it's about to move a lot faster and
+0:05 that's because we're seeing a lot of
+0:07 competition coming out of China from two
+0:10 separate companies and we're seeing
+0:13 smarter models that can actually reason
+0:16 and think I just saw this tweet just now
+0:19 you can see that uh deep seek now has
+0:23 23% of the daily active users open AI
+0:27 has so that's their daily active users
+0:30 then here you see the daily app
+0:32 downloads so we're seeing intense
+0:34 competition coming in from China and so
+0:36 today we're going to talk about 03 chat
+0:39 gpt's latest model verse deep seek we're
+0:41 going to talk about 03 what people are
+0:44 talking about with the new 03 model open
+0:46 AI just announced a new feature it's
+0:48 called Deep research that news came out
+0:51 like 20 minutes ago and then we're just
+0:52 going to go through the difference
+0:54 between normal AI models like gbt 40
+0:58 versus Chain of Thought and what chain
+1:00 of thought is we're going to talk about
+1:01 the bottom line for creators business
+1:03 owners and app Builders an have you
+1:05 gotten a chance to use open AI 03 yet
+1:09 yeah i' I've used it I tried for a few
+1:11 tasks it just seems like a faster and
+1:13 cheaper version of 01 honestly I'm
+1:17 pretty sure it's n is it like nine times
+1:19 cheaper and four times faster yeah it's
+1:23 it's way faster and way cheaper I wonder
+1:26 if they made it so cheap just because of
+1:29 uh
+1:30 deep seek and the threat they're facing
+1:32 from Deep seek what have you noticed
+1:35 about R1 have you tried R1 I have I have
+1:39 I think R1 was really cool when it came
+1:41 out because the reasoning was so fast
+1:43 and you could see all the reasoning
+1:45 steps you know open AI just hides the
+1:48 reasoning which who who knows why
+1:51 they're doing that uh but the biggest
+1:53 thing showcases to users who are using
+1:55 it and to me specifically was like both
+1:59 both O3 and R1 kind of have distinct
+2:03 personalities like O3 seems like very
+2:07 you know closed off like guarded like um
+2:11 that doesn't want to like reveal too
+2:12 much information and it's very like
+2:15 corporate well R R1 seems like a friend
+2:18 if you've like seen the reasoning for R1
+2:20 it just sounds like the voice in your
+2:22 head that might be going on and talking
+2:24 about you know you thinking about
+2:26 something on ends or like you know when
+2:28 you're anxious about something
+2:30 how you think that's what r1's reasoning
+2:33 seems like um and that's pretty funny
+2:36 and I think that's what resonated with a
+2:37 lot of people especially younger people
+2:40 who started using R1 you know besides
+2:42 the fact that it's free which is
+2:44 probably pretty big but uh I think that
+2:47 was like sort of the biggest difference
+2:49 that I saw and so this is obviously open
+2:52 AI has at least maintain this illusion
+2:56 somehow Sam alman's a very good at
+2:58 marketing and this ill illusion that he
+3:00 has the most powerful models in the
+3:02 world and I think deep seat came in and
+3:05 just really shattered that illusion very
+3:08 fast but like this is scary to Sam
+3:11 because they're trying to raise what
+3:12 they're trying to raise $500 billion
+3:15 dollar or something absurd to build this
+3:17 massive Data Center and now we have this
+3:19 really cheap model that anyone has
+3:21 access to I've never seen a tool go this
+3:24 viral since the original chat GPT and
+3:26 I've been making content every day on
+3:28 these tools so so something about China
+3:31 and these cheap models and you whatever
+3:34 the the massive drop in Nvidia 177% just
+3:38 caused these tools to go so viral that
+3:41 they are rapidly stealing market share
+3:43 it was so weird how it was so delayed
+3:46 the market reaction versus when deep
+3:49 seek came out I was using I made my
+3:50 first deep seek video over a month ago
+3:52 when their V3 came out and I've been
+3:54 I've used R1 for a week before it kind
+3:58 of just like the ctive conscious at
+4:00 least on Twitter everyone just started
+4:02 talking about it it was it was honestly
+4:04 weird anyway hopping back to Chain of
+4:07 Thought I think I want to slow down
+4:09 there because I don't think everyone
+4:11 fully understands what Chain of Thought
+4:13 is at least the way that it appears to
+4:15 the end user is that when you enter a
+4:17 question you will literally see the AI
+4:20 give an explanation let's see so when
+4:22 you go to open AI mini you can say
+4:24 please um tell me the best strategy for
+4:29 days a trading meme stocks and we will
+4:34 actually see it begin reasoning except
+4:36 what open AI is doing here is they are
+4:38 faking this so this process and it
+4:41 didn't think for very long the more
+4:43 complex the problem the or question uh
+4:46 the longer it will think usually and R1
+4:51 when it did this people fell in love
+4:53 with it because as an said it kind of
+4:55 spoke like our internal dialogue I
+4:57 remember the first question I entered it
+4:59 was like oh he wants to do this so I
+5:01 need to do this so I need to do this so
+5:03 I need to do this and McKay Wrigley on
+5:05 Twitter brought up a really good point
+5:07 this actually allows for really good
+5:10 prompt engineering because you can see
+5:13 the exact moment in time the AI model
+5:16 got confused and so that can allow you
+5:17 to change your app or whatever prompt
+5:19 that you're doing to make it a little
+5:20 bit more clear you can see exactly where
+5:23 it broke to my understanding open AI
+5:26 made the Strategic decision to hide the
+5:29 reasoning
+5:30 because they don't want foreign
+5:32 adversaries to train on their data and
+5:35 you might be thinking what are you
+5:36 talking about it's doing reasoning right
+5:38 here this isn't their actual reasoning
+5:40 it's basically doing the reasoning in
+5:42 the background and then just using AI to
+5:45 alter it to be a summary of the
+5:47 reasoning which the best argument
+5:50 against that uh comes from Yak scen on
+5:52 Twitter who said that basically like why
+5:55 am I paying for tokens I can't see and I
+5:58 thought that was a really really good
+6:00 point because you are paying for these
+6:02 tokens it's a different than the final
+6:04 output if all else being equal even if
+6:07 they were the same price I'm going to
+6:08 use R1 because I can see the thinking
+6:10 what are your thoughts there yeah I mean
+6:12 it is unfortunate they don't show the
+6:14 reasoning and you know you can simulate
+6:17 reasoning in other models like Claude
+6:20 3.5 Sonet or even GPD 40 by just asking
+6:24 it to to think step by step obviously a
+6:27 reasoning
+6:28 model is slightly more advanced than
+6:31 that I can like decide
+6:33 one what it thinks about and how long it
+6:36 thinks and based on a thinking step it
+6:40 can choose to take more thinking steps
+6:43 or less thinking steps you know all of
+6:46 that's really interesting and seeing how
+6:48 different questions would yield
+6:51 different amounts of time taken thinking
+6:54 would be really interesting and how it
+6:56 navigates that would be really
+6:58 interesting but yeah I makes sense
+7:01 they're the only company until pretty
+7:04 recently that had a reasoning model at
+7:06 all right so uh you there must be a
+7:09 reason why they don't want to want to
+7:11 share this information I want to get
+7:12 into a little bit
+7:14 about why this is so important for
+7:17 agents so deep research can literally
+7:20 think for up to 30 minutes before giving
+7:23 a response and so you think about this
+7:25 is like this is perplexity on steroids
+7:28 on steroids it basically basically
+7:29 searches the internet finds relevant
+7:31 links pulls in all the relevant Parts
+7:34 uses AI to analyze those parts and then
+7:37 answer those questions um and this is
+7:39 not this is just a few steps where deep
+7:43 research which was just released today
+7:45 actually can think for a lot longer like
+7:48 it goes off and searches the Internet
+7:49 it's designed for you to enter a
+7:51 question and you go off on your day and
+7:54 then you get a notification later once
+7:55 it's done it's like a virtual employee
+7:58 can you talk a little bit an about like
+8:01 why reasoning is so important for the
+8:04 type of task that deep research
+8:07 does yeah for sure so I think you know
+8:11 reasoning is really important for
+8:14 agentic workflows um because these
+8:17 agents have tools that they need to use
+8:20 and they have this ability to think and
+8:22 decide what to do uh which is a lot
+8:25 harder for you know a straight model to
+8:29 do with when it doesn't have a thinking
+8:30 step if it doesn't have a thinking step
+8:32 it can't like break down a large task
+8:36 and work on it in a way that allows it
+8:38 to use its tools effectively so let's
+8:41 let's take an example for you know that
+8:44 I think that'll probably help uh if you
+8:47 give Claude or any other model um the
+8:51 ability to search the web and then you
+8:53 make it keep like repeating and asking
+8:56 itself like okay what's the next step
+8:58 and you want to get like a research
+9:01 document about the latest changes in AI
+9:04 Claude will be able to go search the web
+9:06 and do that um but it just won't be able
+9:10 to do it in a way that is as effective
+9:13 as a reasoning model because it won't be
+9:16 able to like break down the big problem
+9:19 into steps and then use different tools
+9:21 for each step maybe it needs to search
+9:23 the web for one tool maybe it needs to
+9:25 make some edits onto the document for
+9:28 another tool like those a lot of
+9:30 different tasks and a reasoning model
+9:33 could theoretically do those a lot more
+9:35 effectively because it can figure out
+9:37 what to do and so it's a lot better for
+9:39 agentic workflows and agents and you
+9:42 know that's what we've been hearing all
+9:43 about everyone's been talking about it
+9:45 on Twitter but that's the that's the big
+9:48 thing where where reasoning comes into
+9:50 play for it to decide like what to do um
+9:53 and that's not you know you can tell
+9:55 Claude to think harder and decide and it
+9:57 it does do pretty well at that but if
+9:59 you have like a really long like
+10:02 research project you want like deep
+10:04 research can think for up to 30 minutes
+10:07 Claud doing something like that you'd
+10:09 have to write a lot of code manually
+10:12 you'd essentially have to write the
+10:14 reasoning steps manually and feed it
+10:16 back into the model and you know you
+10:18 could do that like uh Devon has done
+10:21 exactly that right it takes takes a lot
+10:23 of time to reason about a problem and
+10:26 goes into it but Devon needed a billion
+10:28 dollars to make that a gentic workflow
+10:31 versus Now with uh reasoning models like
+10:35 o03 anyone could make that you know
+10:38 workflow a lot easier they could make it
+10:40 a lot faster and they could do it with
+10:42 less capital and that's why I think you
+10:45 know it's so big for for agents and
+10:47 anyone building agents because um they
+10:50 won't have to go through that manual
+10:52 process of sort of simulating the the
+10:56 reasoning now it's baked into the in
+10:59 step it's baked into before the model
+11:02 even provides an output which is which
+11:04 is what's super interesting you brought
+11:06 up two things that I uh I think are
+11:08 really relevant and I think Devon is a
+11:10 really good example that correct me if
+11:11 I'm wrong here it seems like the
+11:13 difference between cursor and Devon is a
+11:14 lot like the difference between the
+11:17 original chat gbt and then chat gbt deep
+11:19 research where like Devon is designed to
+11:22 kind of be this member of a team it's
+11:25 like simulating someone that can
+11:26 actually go off and just do things
+11:28 handle it by themselves but because they
+11:31 didn't have the Deep like the Deep
+11:33 reasoning abilities they would get stuck
+11:35 a lot and many people on Twitter have
+11:37 been complaining maybe since they're
+11:39 kind of it feels like they might be
+11:41 positioned to be building for the right
+11:44 thing in the end maybe that they are
+11:46 building the tool that can just go out
+11:48 and it can actually simulate having a
+11:50 real Junior developer and you can just
+11:53 delegate a task wait two hours come back
+11:55 and maybe it'll be done um and so that
+11:58 that's really interesting one thing you
+11:59 talked about when talking about agents
+12:01 something that I actually didn't fully
+12:03 understand is tools you said um these
+12:07 reasoning models have access to tools
+12:09 what is a tool what does that mean in
+12:11 terms of like agent workflows I think
+12:14 the best way to explain that is just
+12:16 with the Devon example right so like
+12:18 Devon right now is using GPD 40 and
+12:21 Claude 3.5 Sonet and if you tell Devon
+12:24 like hey Devon like build me a landing
+12:27 page or you like fix this bug
+12:29 right it it'll go out there and do that
+12:31 and it has a number of tools at disposal
+12:34 one it can like
+12:36 ask uh for more clarification on the
+12:39 task it can make a plan of the task and
+12:42 ask for approval on the task it can make
+12:44 edits to the code it can run the code it
+12:48 can look at the um the error logs for
+12:51 the code like all of these different
+12:52 things are accessing computer interfaces
+12:56 either like sending a message or like
+12:58 running code Etc and they're all tools
+13:02 their tools are provided to the AI and
+13:05 so for those long running workflows
+13:08 where the context that you give the AI
+13:10 is like uncertain like you just tell
+13:13 Devon like hey build me a landing page
+13:16 with clae 3.5 son it might straight away
+13:19 jump to building the landing page but
+13:22 with something like 03 it might think
+13:25 about like okay the user wants me to
+13:27 build a landing page for the haven't
+13:29 told me anything else I have some
+13:31 information about the project but maybe
+13:33 I should ask them more about the the
+13:35 project and what the landing page should
+13:37 be so then it'll use the other tool
+13:39 correctly and so it'll do a better job
+13:42 of like selecting what to do but in the
+13:44 end of the day tools are just like ways
+13:46 that AI agents can interact with um you
+13:50 know other computer systems any function
+13:54 that you could write in code could be a
+13:56 tool theoretically I'm glad you I'm glad
+13:59 you brought that up because literally
+14:01 that's how this operates I think it's
+14:04 interesting that the stakes of these
+14:06 questions are increasing right if if
+14:08 they're going off and doing more tasks
+14:11 uh you do not want it to be doing
+14:13 something poorly you know with typical
+14:15 prompt engineering uh if you're using
+14:17 GPT 40 if you do a bad prompt you just
+14:20 kind of stop it halfway through or like
+14:23 once it's done 30 seconds later you just
+14:25 go back and ask it again well if it's op
+14:27 if it's working for 5 to 30 minutes the
+14:30 way you get the most out of these models
+14:32 is you let these reasoning models decide
+14:34 how long they work and so in this
+14:37 example this is a follow-up question so
+14:39 the user in in the example that they
+14:41 gave today they asked this question
+14:43 which was help me find uh IOS and
+14:47 Android adoption rates and who uh and
+14:50 who want to learn another language and
+14:52 change in Mobile penetration over the 5
+14:55 years and top 10 developing countries bu
+14:57 GDP like individually all of these parts
+15:00 are hard to do research right you could
+15:02 hire an analyst they might only spend a
+15:04 little bit of time or might spend 40
+15:05 minutes just on uh iOS adoption rates
+15:09 but it went off and did all of these
+15:11 things but since this is a really hard
+15:13 question the AI model likely made the
+15:17 decision like okay this is a big step we
+15:21 need to ask some follow-up questions and
+15:23 so it said to provide you with the most
+15:25 relevant insights could you specify
+15:26 whether you're looking for data on a per
+15:28 country basis and so it asks for
+15:30 additional specifications I think this
+15:32 is really cool and then uh eventually
+15:34 the user just gave more follow-up
+15:37 information he said basically answered
+15:39 all the questions that they could and
+15:42 then it just went off and it started
+15:44 research and then it just went on for
+15:46 the rest of the episode and then they
+15:47 can go up to like 75 sources and they
+15:50 also do line by line Source sighting
+15:54 then later on in the video here yeah I
+15:57 thought this was a really interesting
+15:59 chart and so they basically just
+16:00 determine whether or not the Deep
+16:02 research agent did the task successfully
+16:05 and that's the Y AIS and then how long
+16:08 it would take an expert and here we saw
+16:11 that like obviously the shorter like the
+16:13 really short tasks had the best success
+16:16 rate that makes sense I would assume
+16:19 that after this 3-hour Mark we would see
+16:22 tapering like .13
+16:25 0805 but we saw this like weird thing
+16:28 that like after 3 hours that it would
+16:31 take an expert it actually slightly
+16:33 increased the pass rate um and so I
+16:37 think we're going to see certain things
+16:38 that are like really hard for humans uh
+16:41 might be way shorter and easier for AI
+16:44 to do and I thought this was a a
+16:46 fascinating chart that's super
+16:47 interesting I want I mean it's pretty
+16:50 low significance I guess you know which
+16:52 just one or two points but there's
+16:55 clearly a trend that's being established
+16:57 there I wonder if that's going to carry
+16:58 over
+16:59 well like like even if it was even it's
+17:01 not even like yeah it's not even that it
+17:03 goes up it's the fact that it's not
+17:05 trending downwards which is weird I mean
+17:07 you would think that an a task that
+17:10 would take 10 hours would see a
+17:11 significant drop off for a task that
+17:13 takes six hours but we didn't see that
+17:16 um and yeah and then I want to show an
+17:18 example of
+17:20 the here's an example of an
+17:23 output yeah so it cited I don't know how
+17:26 many sources you can see here that it's
+17:28 citing a ton of sources in here and I
+17:31 can't get it to scroll all the way down
+17:33 but it literally goes down for Pages
+17:35 it's like a 20 Page research document
+17:38 and if you click on it I'm pretty sure
+17:39 it'll show you the exact text it pulled
+17:41 from all the sources and it pulls from
+17:43 Reddit uh it pulls from Reddit a ton of
+17:45 different places so I guess first things
+17:49 first after I saw this I'm like first of
+17:51 all deep seek is going to respond like
+17:54 soon I expect them to release a like as
+17:58 soon as they well what's what's up
+17:59 you're going
+18:00 to look at
+18:04 that oh what the
+18:07 hell wait okay so I also heard some
+18:11 conspiracy theories today so first of
+18:13 all deep research is the exact name for
+18:16 a Google product released two weeks ago
+18:19 or two months ago that does the same
+18:21 exact thing so they released deep
+18:23 Research into Gemini in the Gemini app
+18:26 and then I saw someone comment under
+18:28 that and they're like they're not doing
+18:30 this to Google this is an SEO play
+18:33 saying if they call this deep research
+18:35 they want to steal the search engine
+18:37 optimization for deep seek and it's
+18:39 funny an literally just found is deeper
+18:42 Seeker a good name for this but funny
+18:46 enough an and I actually made an app at
+18:49 the beginning last week and it we
+18:50 literally called it deeper seeker and it
+18:52 used deep seek so that's super
+18:55 funny but like what do what do you think
+18:58 of that like do you think that they're
+18:59 trying to like get rank higher for deep
+19:03 the word deep research or deep seek or
+19:06 do you I mean to some extent for sure I
+19:09 mean we just saw that they had a chat
+19:11 named is deeper Seeker a good name and
+19:14 you know they're obviously poking fun a
+19:17 deep seek or trying to trying to do
+19:19 something which is surprising because
+19:21 open is such a big company and deep no
+19:23 one knew what deep seek was until last
+19:25 week right which is insane and they're
+19:28 already at
+19:29 233% of their daily active users I've
+19:31 seen a lot of tweet threads about how
+19:33 there's 03 mini then 03 high can you
+19:37 explain the difference between the mini
+19:38 and the high and what that
+19:40 means um it just seems like the high has
+19:43 access to more compute so it just can
+19:46 theoretically spend a little bit longer
+19:48 on the reasoning step and generate more
+19:50 tokens got it okay so like it has the
+19:53 capacity to think for longer whereas the
+19:57 03 mini will get cut off
+19:59 um okay that's interesting the the
+20:02 benchmarks have been very visual so a
+20:04 lot of people have been comparing these
+20:05 models they've been putting 03 mini next
+20:08 to deep seek next to Claude and they're
+20:10 seeing how well they perform at these
+20:12 coding tasks this person Flavio said
+20:15 write a Python program that shows a ball
+20:17 bouncing inside a spinning hexagon the
+20:20 ball should be affected by gravity and
+20:22 friction and it must bounce off the
+20:24 rotating walls realistically and we see
+20:27 here that that the Deep seek R1 is
+20:30 clearly not it's not simulating gravity
+20:34 where O3 mini seems like it's doing
+20:36 pretty well there was another example
+20:38 that I saved like what even is this what
+20:41 is what is going on here first of all
+20:44 that's some crazy simulations that's so
+20:46 cool I don't know I just thought this
+20:48 was cool people are also building uh
+20:51 like
+20:52 AI blender workflows like you can just
+20:55 like type it in and it'll generate like
+20:57 a ton of different objects in blender
+21:00 and then like it'll create like crazy
+21:01 movements and stuff and so yeah I
+21:03 thought that was a really interesting
+21:06 thing I think they're just like tasks
+21:08 that you can like have that have a lot
+21:10 of
+21:11 gotas and so if the model like gets an
+21:16 output looks at it again checks step by
+21:19 step for like you know uh if it did
+21:23 right or wrong and then keeps doing that
+21:25 a bunch of times until it's like certain
+21:29 I think that that's probably the big
+21:31 thing is just these tasks they're not
+21:33 like the the code is is just like hard I
+21:36 I you know it's interesting it might be
+21:38 better at like animations as well I'd
+21:41 have to text that test that out seems
+21:44 like it is uh better at those things and
+21:46 Claude Claude does really like in my own
+21:50 experience not to really good with the
+21:52 animations it just doesn't understand
+21:55 how to do that because animations are
+21:57 just math you just have to like you know
+21:59 interpolate and you have to like
+22:02 calculate where certain elements are and
+22:04 then do it like that and maybe the
+22:06 reasoning models are just able to spend
+22:08 more time doing the math it's like
+22:10 they're checking their work as they're
+22:11 going when like other models are just
+22:14 like giving the final answer whereas the
+22:17 reasoning models like you know show
+22:19 their steps or and check their work and
+22:22 so they're able to do better at like
+22:24 math related things which makes sense
+22:26 because all the examples you showed me
+22:28 are just
+22:29 they're just like harder coding problems
+22:31 because of the math not because of the
+22:33 actual
+22:34 coding which is which is incredibly
+22:36 interesting to me because a lot of
+22:39 people were wondering why I I just
+22:42 became obsessed with coding over
+22:44 creative AI tools you know a year ago I
+22:47 was very big into video editing I loved
+22:49 creating content and I was captivated by
+22:53 claw artifacts at first the fact like I
+22:55 just like discovered the power of code
+22:57 like code was always this like ra thing
+22:58 I'm like yeah it's a software some nerdy
+23:00 [ __ ] in the background happens and then
+23:02 I can use a computer cool I don't care
+23:05 then I was realized the power of code
+23:07 because I could like type in something
+23:09 and then it would generate little
+23:11 animations and they weren't great uh
+23:13 they were actually pretty bad if we look
+23:15 back at it but at the time it was really
+23:17 cool but I've always thought since the
+23:19 beginning like I'm like so much of this
+23:21 is actually going to replace content
+23:23 creation or or it can be used in content
+23:25 creation over the past few months I've
+23:27 realized that a lot of Adobe After
+23:29 Effects you can import things that use
+23:33 code so like you can import animations
+23:35 that import the certain colors that use
+23:37 math and equations and it turns out that
+23:40 like even illustrator uses equations
+23:42 like the the vectors are math based that
+23:46 versus pixel based which is um Photoshop
+23:49 and so all of these can be represented
+23:51 with math and so the better these models
+23:53 get at math the more creative they're
+23:57 going to get maybe I I don't I don't
+24:00 know like correct me if I'm wrong here
+24:01 but that's my interpretation you're
+24:02 going to be able to do cooler animations
+24:04 and AI models might end up just being
+24:06 able to do like really high quality
+24:08 video editing especially with overlays
+24:10 in animation uh because some of the best
+24:13 YouTube channels actually like have
+24:15 really good animations I think of Ray
+24:17 doio his like economic machine is like
+24:20 all is like an hour straight of really
+24:21 cool animations if it could like create
+24:23 animations as you're listening to an
+24:25 audiobook or something like that I
+24:27 really see that as like a really cool
+24:29 learning opportunity um yeah yeah that
+24:32 would be really cool I mean uh three
+24:35 blue one brown which is who's like this
+24:37 you know famous math uh content creator
+24:40 on YouTube all of his animations are
+24:42 written in in Python code and so
+24:46 theoretically you know three should be
+24:48 the best of that it would be interesting
+24:49 to to Benchmark it based on making you
+24:52 know three blue one brown animations I
+24:54 think that could be really interesting
+24:56 but yeah I think the point you is pretty
+24:58 cool
+24:59 yeah I I'll I'll definitely do a deep
+25:00 dive on that later yeah and so I guess
+25:04 what so open AI losing their lead uh Sam
+25:07 Alman I didn't save the quote here but
+25:09 Sam Alman was found in the Reddit forums
+25:13 obviously I think he's probably the
+25:15 biggest individual shareholder of Reddit
+25:16 so maybe he's that's why he spends so
+25:18 much time there but his legit account
+25:21 tweeted yeah we've he said something
+25:23 along the lines of yeah we don't have as
+25:25 large of a lead as we did in the past
+25:27 and I tweeted something after that I
+25:30 said I'm making a prediction that open
+25:33 AI is going to Pivot to specific
+25:35 Hardware or specific software and
+25:38 Hardware because I know that these
+25:39 working with Joanie I from Apple and it
+25:43 just feels like something Sam Altman
+25:45 would want to do like build the next
+25:46 iPhone um and if they lose their lead
+25:50 what do you think the probability is
+25:51 that they kind of pivot into building
+25:53 really great tools because they are
+25:55 really good at building tools I just
+25:57 think that there's an inherent tradeoff
+26:00 I I I feel like you're either um Ilia Su
+26:03 who's like [ __ ] anything else except for
+26:06 building super intelligence and now
+26:07 you're competing with China who can
+26:10 undercut you so you have to make a
+26:12 decision like are you pursuing super
+26:14 intelligence or are you pursuing
+26:16 becoming the next apple and making a ton
+26:17 of money and I think open AI kind of has
+26:20 to Microsoft Google xai these companies
+26:25 can pursue uh can kind of pursue do
+26:28 building super intelligence and fail and
+26:30 still be fine because they have existing
+26:33 Revenue where open a doesn't really have
+26:35 any other Revenue so I I'm curious what
+26:37 what do you think of that theory yeah I
+26:38 think the biggest lead they probably
+26:40 have is is the fact that everyone knows
+26:42 what chat GPT is and that brand
+26:45 recognition you know like they make so
+26:48 much more money from their app than any
+26:50 of the other AI model companies like
+26:53 Google or anthropic or X or even deep
+26:57 seek right deep seek is free right so
+27:00 yeah I mean but the point is yeah
+27:02 they're like they're a consumer company
+27:04 but they've definitely been focused on
+27:07 the non-consumer things but I think it
+27:10 just makes sense that they'll come back
+27:12 to the consumer stuff um because you
+27:15 know Sam Alman his first company was
+27:17 like a a social app uh he was building a
+27:21 location sharing app yeah Loop right it
+27:23 was like Yelp um and so it just makes
+27:27 sense it's like kind of his roots uh but
+27:30 the interesting part is that you know
+27:32 none of these none of like the the user
+27:35 experience in chat GPT is still not like
+27:40 up to par of like anywhere close to what
+27:43 a good consumer company would be so it
+27:46 just seems like they've been neglect
+27:47 neglecting it so you know despite of
+27:51 whether your theory is true or not I
+27:52 think it just is should do um but I
+27:56 think on choosing between from one of
+27:59 like 50 models doesn't seem
+28:02 like the ideal user experience um like
+28:07 let's look at this this tweet here like
+28:10 how is a regular user supposed to know
+28:13 what the differ between 03 mini and 03
+28:16 mini high is and they just use different
+28:19 acronyms or different um suffixes or
+28:23 prefixes for the different models like
+28:25 high or Pro and like no one has any clue
+28:29 like what the difference is like 01 Pro
+28:31 is supposed to be 01 but uses more
+28:33 compute but 03 mini High why is it not
+28:35 03 mini pro what is the what is the um
+28:39 the naming here and why does the user
+28:41 even have to choose the model there are
+28:43 a a
+28:45 few there are a few people I know who
+28:48 run run very large businesses who are
+28:50 like not technical at all they're like
+28:53 you know old and they love using Char
+28:56 gvt cuz it like
+28:58 speeds up so many many parts of our
+29:00 workflow but they have no idea there's
+29:03 any other model other than GPT 40 like
+29:05 they genuinely have no clue you can even
+29:07 click on that and so it's you know with
+29:11 Apple Computers no matter how old you
+29:13 are like I feel like everyone just knows
+29:15 how to use an iPhone like it's just so
+29:17 intuitive chat GPD is like not anywhere
+29:20 close to that level of user experience
+29:23 and so I do think that's what they
+29:24 should do I hope that's what they do and
+29:27 I hope your predictions but so far it's
+29:29 just not looking that good for them yeah
+29:32 yeah we'll see we'll see how it plays
+29:34 out I don't think obviously like they're
+29:37 still in the lead in terms of like AI
+29:39 quality and it looks like this the like
+29:41 there's a lot they could do with agents
+29:43 you know I think that there's actually a
+29:44 lot of promise with something like
+29:47 operator but again I don't see it as
+29:49 like a chat GPT offering like I think
+29:52 the best operator experience is a
+29:54 platform dedicated it's not something
+29:56 you go to as a little option
+29:58 you go to the operator to run multiple
+30:01 operators at once because there's so
+30:02 much downtime when you're operating and
+30:06 operators the their computer use
+30:08 interface um that like does tasks using
+30:11 a computer which is fascinating by the
+30:14 way and something that I want to talk
+30:15 about how we're literally taking
+30:18 basically the API for humans like the
+30:20 way we interact with computers and
+30:23 making AI compatible with that interface
+30:25 the same way humanoid robots are now
+30:28 compatible with our world or will be in
+30:30 the future and I think that is there's a
+30:33 lot of implications there um and so I
+30:37 guess obviously we're in our app Yap
+30:39 thread how do you see reasoning models
+30:42 helping us in the future uh with the app
+30:46 thread you know we've had a really hard
+30:48 time building this agent with the app
+30:50 thread because it's it honestly doesn't
+30:53 do the job of like which tool to use at
+30:56 which time really well and that you know
+30:58 comes back to the thing that we talking
+31:00 about earlier about Devon right and it
+31:02 being able to you know choose which tool
+31:04 to use or even cursers composer agent
+31:07 being able to choose which tool to use I
+31:10 think making these
+31:13 decisions are hard and kerser and deavon
+31:16 have clearly like made the experience
+31:18 pretty decent by putting a lot of work
+31:20 into that experience like proba you know
+31:24 I have no idea what they've done under
+31:25 the hood but specul you know I can
+31:28 speculate they just have like a bunch of
+31:30 different um you know comparisons and
+31:35 evaluations of what the agent should do
+31:38 what it steps should be how it should
+31:39 decide what tool to use and then just
+31:42 different a sort of Agents calling each
+31:45 other perhaps maybe there's an agent to
+31:47 decide what tool to use and another
+31:49 agent to like actually generate the code
+31:52 and all that that stuff I assume there's
+31:54 like some really complicated like chain
+31:56 of workflows like that whole thing is
+31:58 simplified with with reasoning models
+32:00 and so if we can you know use something
+32:02 like o03 o03 mini um for our agent I
+32:06 think that'll like help simplify a lot
+32:08 of the problems that we're facing with
+32:09 building an agent which is like the
+32:11 agent deciding what tools to use and how
+32:14 it should give the output and I think
+32:15 that' be that'll be really interesting
+32:17 to see um we're definitely going to to
+32:20 check it out and so make these tools a
+32:22 lot lot better yeah cuz cuz right now
+32:25 we're building out this feature that
+32:26 allows us to search the internet and we
+32:28 can also search through all of our
+32:29 bookmarks because as a content creator
+32:31 I've written almost a thousand videos
+32:33 over the last two years I just make
+32:35 content every day um it's part of being
+32:38 a content creator it's just creating
+32:39 sheer volume and uh one thing that I've
+32:42 always wanted to do is be able to just
+32:43 like do research here on the side which
+32:45 we just did we asked a question it found
+32:47 sources so it found sources on GPT
+32:49 operator it found research on deep
+32:51 research and then gave us links and so
+32:54 what we are building right now uh in the
+32:57 is the ability to apply this to just
+33:00 like cursor apply this to whatever
+33:02 document that we're creating so I could
+33:04 just say add a paragraph after this and
+33:06 it would immediately just like add in it
+33:09 would do research and then add in a
+33:11 paragraph hopefully we'll have that done
+33:12 by uh the end of this upcoming week
+33:16 those types of tasks right now it's like
+33:18 a sophisticated Pro process we had to
+33:20 spend an entire weekend changing
+33:22 everything on the agent if it were using
+33:24 03 instead of Sonet it like 03 model has
+33:28 more time to actually think and process
+33:31 the entire workflow rather than like
+33:33 choosing the First Tool and then handing
+33:35 it off to the next part they can
+33:36 actually think before and so it'll get a
+33:39 lot easier for us to build yeah yeah
+33:41 yeah exactly obviously over the next
+33:43 month or two I expect a lot more
+33:46 releases from Gemini Google Gemini I
+33:48 keep seeing glimmers of them like coming
+33:50 out with a big model but they never like
+33:52 do it it never makes any Buzz they
+33:55 literally released deep research and and
+33:58 no one knew about it no one knew about
+34:00 it except I hope they come out with
+34:02 something cool then we have xai and then
+34:04 obviously anthropic is way past due a
+34:06 really a reasoning model because they
+34:08 have not yet released a reasoning model
+34:11 and so we're going to see a lot of cool
+34:13 things and we'll we'll cover it here in
+34:15 this anyway see you guys later

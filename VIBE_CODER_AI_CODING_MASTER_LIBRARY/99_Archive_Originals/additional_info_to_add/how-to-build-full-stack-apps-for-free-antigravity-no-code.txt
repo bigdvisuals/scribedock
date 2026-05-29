@@ -1,0 +1,500 @@
+How To Build Full Stack Apps for FREE (Antigravity, No Code)
+
+0:00 Google's anti-gravity changes everything
+0:02 about building real apps. Most ways of
+0:04 building apps require you to be either
+0:06 highly technical or to know how to code.
+0:08 And in this video, I'm going to show you
+0:10 how anti-gravity makes this incredibly
+0:13 easier and way faster. So you can avoid
+0:15 costly mistakes, save thousands of
+0:17 dollars, and launch working AI apps
+0:20 [music] without needing a full
+0:22 engineering team. And if you don't know
+0:24 who I am, I'm Joe. I'm an ex senior
+0:26 manager in big tech. And over the last
+0:28 five months, I've helped dozen of
+0:30 businesses transition into AI. So with
+0:32 that aside, get comfortable and let's
+0:35 dive straight in. The first thing you
+0:36 want to do is download antigravity. You
+0:38 can either find it typing
+0:39 anti-gravity.google or you can go inside
+0:41 my community agentic module. And here
+0:44 you will see shortly the list of
+0:45 resources fully updated for agentic
+0:47 workflow and agentic. And this will be
+0:50 the initial page that you will be
+0:51 displayed with. So the initial thing
+0:53 that we do even before understanding
+0:55 anti-gravity and etc. We start from one
+0:57 foundational concept which is every
+0:59 project that we do needs to be inside a
+1:01 folder. So the first thing that we're
+1:02 going to be doing is open folder. We're
+1:04 going to go to desktop anti-gravity
+1:07 and we're going to create a new folder.
+1:09 For example, in this case it's the app
+1:13 uh and we're just going to open it.
+1:15 Okay. Now on the leftand corner, so
+1:19 right here you're going to have the name
+1:21 of the folder that you just created. And
+1:23 you will see that whenever we start
+1:25 typing with anti-gravity here you will
+1:27 have a list and a series of files mix
+1:30 between markdown HTML etc etc etc that
+1:33 anti-gravity will generate automatically
+1:35 without your input. This page right here
+1:38 it's the right hand side and here we
+1:40 chat with our chatbot and with the our
+1:43 agents in general and this page right
+1:45 here with the anti-gravity logo is
+1:47 basically where everything that we do
+1:49 will be displayed. So we will be able to
+1:51 see exactly what's inside the files that
+1:53 anti-gravity is generating and in case
+1:55 to interact with those. Now what do we
+1:56 want to create? We want to create now a
+1:59 very simple app. But in order for us to
+2:02 make it effectively we need to actually
+2:03 have two things. So first of all we need
+2:06 to have clarity on the type of apps that
+2:07 we want to do needless to say. But
+2:09 second of all, it's very good if we can
+2:11 provide anti-gravity with an example of
+2:14 the type of app or a sort of a visual
+2:17 reference that it can use in order to
+2:19 produce something that we really like.
+2:20 So how do we do that? One service that I
+2:22 would highly recommend I showed in the
+2:24 other video how you can take example
+2:26 from dribble but vzero from versel. It's
+2:28 a great service that I really really
+2:30 like. So you can press this link right
+2:32 here. You can go inside and I already
+2:35 prepopulated right here a very very
+2:37 simple prompt so that we could actually
+2:39 run it and see what's happening. So
+2:41 please help me create a modern and clean
+2:43 user interface for a to-do app that I
+2:45 would love to build. Ensure that the
+2:47 logo is in orange. Nothing crazy,
+2:49 nothing difficult. We're just going to
+2:50 run it and what's going to happen?
+2:52 What's going to happen is that this AI
+2:54 will take our prompt and will generate a
+2:56 UI that we actually like or that more or
+2:58 less reflects what we requested. And why
+3:01 is this useful? Because as you know from
+3:03 prompting engineering basics and if you
+3:05 don't I'm going to just share a little
+3:07 nugget with you but the more context an
+3:09 AI has the better it is and within the
+3:12 context is extremely important also to
+3:14 have what we call examples. So if you
+3:16 were doing I don't know AI workflows
+3:18 with NA10 or agentic workflows with
+3:21 Gemini you would be providing this LLM
+3:25 with few real life examples that would
+3:27 help the LLM fix the behavior or adjust
+3:30 the behavior or adjust the output right
+3:33 and this is what we're trying to do with
+3:34 Versell right so we're just providing
+3:36 additional examples so the LLM can
+3:38 better understand the content and the
+3:40 context cool so vers finished running
+3:42 and this is the output that it created
+3:44 so as you can see there is a nice UI
+3:47 that we can actually now take as a
+3:49 reference and screenshot and feed it to
+3:52 anti-gravity.
+3:53 So copy and here you can see it's
+3:56 interactive. We can you know type stuff
+3:59 and then move around delete we can do so
+4:02 many things. So versel is a very nice
+4:04 starting. Now we can go to anti-gravity
+4:06 paste it inside and we can record
+4:08 something along the way of hey I would
+4:10 like to create a todo app and in this
+4:14 app I would want you to use as a a
+4:16 reference for the user interface the
+4:19 screenshot that I provided. Please
+4:20 ensure that uh all of the buttons inside
+4:23 this UI are actually working and so the
+4:26 um person should be able to insert and
+4:28 delete tasks and also I would like this
+4:30 task to be categorized as per dashboard
+4:32 that you see. Cool. So now we can send
+4:34 it and as usual what's going to happen
+4:36 is that now the antigravity agents will
+4:39 start running and we'll start creating
+4:40 the initial plan. Why am I talking about
+4:43 plan and I'm not saying that it will
+4:44 start generating the app right away. The
+4:46 reason is because and let me move myself
+4:49 so you can actually see it. So if I zoom
+4:51 in on the bottom of this, you will see
+4:55 that I have a planning uh button right
+4:58 here and then a fast conversation mode.
+5:00 What is the difference between the two?
+5:01 The difference is that whenever you have
+5:03 a planning uh conversation mode, the
+5:06 agent will start giving you a plan and
+5:09 therefore you can think about it as an
+5:11 SOP that you would use inside a
+5:12 business, right? And then it you can
+5:14 check this SOP and validate if all of
+5:16 the steps are there if you want to add
+5:18 something else and etc. If you go in the
+5:20 fast conversation on the other side it
+5:22 will just start immediately doing
+5:24 whatever it is required. However, of
+5:26 course the output has a quality
+5:28 difference between the two right because
+5:30 if you let the agent think deeply
+5:32 through something then the output will
+5:35 be of course of major quality. If you
+5:37 want immediate answers, of course, the
+5:39 agent thought less about the the content
+5:41 and the context and therefore the
+5:43 quality is of course impacted. Now back
+5:44 to our app, we have the implementation
+5:47 plan and you can see that here you have
+5:49 an 80/20 of what it will do with a lot
+5:52 of steps and here you have also the
+5:53 tasks and you'll see that shortly after
+5:55 we we press proceed the AI agent will
+5:58 start actually initializing this process
+6:00 and this project and therefore we will
+6:02 start seeing this box ticked and this
+6:05 will also help us having an
+6:06 understanding of at what point the AI
+6:09 agent is what is it doing and maybe
+6:12 where is it stuck so that we can help it
+6:14 out throughout the process. Okay,
+6:16 fantastic. So now the agent stopped and
+6:19 we can go check the result of this in
+6:22 the local host link which basically
+6:24 means local host that we are running the
+6:26 app inside our computer so not in a
+6:28 cloud and using the GPUs of the computer
+6:31 and so we can see that okay right here
+6:33 we have our app it's dark anti-gravity
+6:36 all tasks uh two pending task which is
+6:38 this one and we have a categorization
+6:41 let's see now if it did what we wanted
+6:44 which is add something So this is a new
+6:50 task and we can add it.
+6:53 Perfect. This is here. And let's see if
+6:55 we can also change the category. New
+6:57 category
+6:59 right here. We we can. So this is
+7:01 perfect. How about if we cancel this? We
+7:04 can. And if the task is not more
+7:06 pending. Okay, you can see right here
+7:08 that the number is being updated. So
+7:11 perfect. It's working. So now the app we
+7:15 made something very simple. We could
+7:17 spend hours now making the UI better and
+7:19 fixing it and etc. However, this is just
+7:21 a front end right now. Let's make the
+7:24 core of the app working. So what do we
+7:26 want to do now? Let's imagine you are
+7:28 selling this app like because you
+7:31 created something so valuable that
+7:32 people are willing to pay. And by the
+7:34 way, if you want to learn how to sell
+7:35 it, please check my free community down
+7:37 there.
+7:39 We now need two things, right? We need
+7:41 first of all a way to uh store the data
+7:45 any information of the people using the
+7:47 app. So these people needs to
+7:48 authenticate themselves with an email
+7:50 with a password and something like this.
+7:52 And then potentially we need a stripe
+7:54 payment, right? Or some sort of way to
+7:55 receive the money. So let's go back to
+7:58 anti-gravity and think about how we can
+8:00 do this. And in order to do that, we're
+8:01 just going to go in the NCP servers. And
+8:04 we know that the NCP is nothing more
+8:05 than the English let's say of apps
+8:08 through which apps and AI chat one
+8:10 another. And we can press Firebase here.
+8:12 You're going to have a button that will
+8:13 enable you to install it. And then you
+8:15 can install it right here. Right. So if
+8:17 you go into MCP servers now we are going
+8:19 to see that we have all of the
+8:20 possibility of using Firebase. Now the
+8:22 only thing that we have to do right now
+8:24 if we really wanted to use Firebase as a
+8:26 backend and in order to make it work is
+8:28 simply to come back here and say hey I
+8:30 would like you to help me improve the
+8:32 app. I would like you to create a fully
+8:35 functioning backend so that whenever a
+8:37 new user comes in he has the possibility
+8:39 of being authenticated either through a
+8:42 Google signin or with a email and
+8:45 password. I would like you to use
+8:47 Firebase in order to create this fully
+8:50 functioning back end and to store all of
+8:52 the data. You have access to Firebase
+8:55 MCP. So please use it and create
+8:57 everything uh functioning for me. And
+8:59 now what's going to happen is then
+9:00 anti-gravity will start taking charge of
+9:03 the task that we just created and will
+9:05 start creating the whole uh structure
+9:08 for us. It's realistic that at one point
+9:10 in this prompt specifically we will have
+9:13 some sort of user interaction with the
+9:15 LLM specifically for I don't know
+9:17 logging into uh Firebase I expect okay
+9:20 we can press proceed to the
+9:22 implementation plan I was saying to have
+9:24 some sort of human interaction and to
+9:26 use Firebase as a back end and the
+9:27 interaction that I'm expecting is some
+9:29 sort of login or to provide some support
+9:31 emails because at the end all of these
+9:33 services like Firebase they work with
+9:35 this specific um functionality and
+9:38 Firebase right now sorry and
+9:40 anti-gravity right now does not have all
+9:42 of these information stored for us and
+9:43 therefore it cannot input this
+9:45 information there okay so the first
+9:47 thing that I was mentioning it's here
+9:49 probably to proceed with the setting up
+9:51 the fire I need you to authenticate so
+9:53 please go here and paste your
+9:55 authorization code by here so login open
+9:58 I'm going to go back here login with
+10:00 this continue allow so before continuing
+10:04 confirmation that uh perfect Perfect.
+10:08 This is the code. We can copy it. And
+10:11 boom. We are going to This is the code.
+10:14 Now we're going to copy it. And slowly
+10:16 anti-gravity will process all of the
+10:18 information. And then it will give us
+10:19 the great everything now seems to be
+10:21 working. Let's go and check in our local
+10:23 host how it looks. And we see that now
+10:25 the first thing that we see is this uh
+10:28 registration uh panel that we see where
+10:31 we have the Google sign in. We have also
+10:33 here the button. we have the possibility
+10:35 of creating an account and etc. Now, two
+10:38 things to say in case you tried them
+10:40 already. If you press Google, it will
+10:42 most likely not work. Yeah, error
+10:44 because we still did not deploy the app
+10:46 and so until you deploy it, it will not
+10:48 really work. And email, if I try with my
+10:53 regular dami email and I press create
+10:56 account, I will see that also there is
+10:58 an oath configuration not found. And the
+11:01 reason is that within anti-gravity right
+11:04 here, uh, anti-gravity successfully
+11:07 created this integration, right? But we
+11:11 don't really have yet integrated it
+11:14 inside Firebase. Okay. So, the only
+11:17 thing that you have to do right now
+11:18 without uh complicating it that much is
+11:21 simply to go right here and paste the
+11:23 error and say, "Hey, I got this error
+11:29 when I entered my uh email and password.
+11:35 Can you help me fix that?" Amazing. So,
+11:39 immediately after it says, "Okay, click
+11:42 this link Firebase console." If you see
+11:44 a get started button, see email password
+11:46 toggle enable and etc. So let's try it.
+11:51 Firebase.
+11:53 Great. So what did it say? Uh if you see
+11:56 a get started button, click it. Click
+11:59 it. We see the get started button. And
+12:03 now it's going to be these two, right?
+12:05 Uh select email password. Uh so it will
+12:09 be this one. And we're going to enable.
+12:11 And then we're going to uh press save.
+12:14 And then actually automatically uh it's
+12:17 even telling us that we have the sign in
+12:19 with Google. So we're just going to do
+12:22 it right like this. Right. And we have a
+12:24 support email. I can put mine. I can
+12:26 press save. And this should be more than
+12:29 enough for us to be able to then proceed
+12:31 into anti-gravity and go back to our
+12:33 project. So now we have uh done both. So
+12:37 our method should be there. So now let's
+12:39 go test it out. Uh if we go right here
+12:41 and we press sign up and we put my email
+12:49 uh let's maybe put uh a different one
+12:53 and random six whatever password. If I
+12:56 press create an account then I'll be
+12:58 able to log in and now I can see that I
+13:00 can start doing the things that I was
+13:02 supposed to. Okay. So app created
+13:06 authentication done at least with the uh
+13:09 email part. Let's now validate that also
+13:12 we managed to store the information and
+13:14 the emails that we registered right so
+13:16 if I go now on user right here I can see
+13:19 that I have all of the trial email that
+13:21 I used. So you see my last email GG and
+13:25 whatever with the password and etc. So
+13:27 now this is working. So what is another
+13:30 step that we have to do now now that
+13:31 everything is working is deploying the
+13:33 app right so we go back to our
+13:35 anti-gravity and we say hey please
+13:39 deploy the app now using
+13:43 uh Firebase MCP tool and you host it on
+13:49 Firebase
+13:51 hosting. So this way we we should be
+13:54 able now to also use the Google
+13:57 authentication that we had in the
+13:58 beginning. And after we have done this,
+14:00 we have done all the login process and
+14:03 the registration process. And so a great
+14:05 next step would be to integrate a form
+14:06 of payment. We will be using stripe as
+14:08 an example in order to have a full stack
+14:11 developed app. Right? All right. So now
+14:12 the agent finished and here we have a
+14:14 link which is the link that we used in
+14:16 order to host this agent inside um
+14:21 Firebase. So now we can test first of
+14:24 all we see it right and you see it here
+14:26 uh that the app is live and here we can
+14:29 try and see if the Google uh signup
+14:31 works and as you can see it really does.
+14:34 So here we can continue and once we are
+14:37 logged in we will have our app fully
+14:39 functioning right. So now we can try and
+14:41 test it and here it works. Fantastic. So
+14:45 now the last step we have to do is to
+14:48 connect Stripe API to this so that
+14:52 whenever someone logs in before logging
+14:54 in they have to go through a payment
+14:56 process and therefore we can get our 20
+14:58 bucks a month or whatever we want to
+15:00 sell this app for and so we can start
+15:02 monetizing because at the end of the day
+15:03 anti-gravity is a great tool but the end
+15:05 in mind whenever we build something in
+15:07 the AI space or anywhere is to either
+15:10 you know uh save on costs make more
+15:13 money or efficient a process and or save
+15:15 some time. Right? So these are the three
+15:18 um I want to say soul in which we should
+15:20 be using AI. Good. So in order to do
+15:23 that we go back right here and we say
+15:26 okay. So fantastic.
+15:29 Now everything works.
+15:33 I now need one last change,
+15:37 which is I need you to help me implement
+15:42 a stripe ament
+15:46 uh at the beginning
+15:50 of the process.
+15:54 So that a user before
+15:58 signing in has to pay I don't know how
+16:03 much? 20. Is that fair? 20 bucks
+16:08 a month.
+16:11 Okay, cool.
+16:14 Here are
+16:16 the Stripe API. Cool. So now this is our
+16:21 prompt. What do we need? We actually
+16:23 need a few things right now. We can go
+16:25 to the MCP servers and see if we have a
+16:29 Stripe thing. Okay, so here we have it.
+16:32 We can install it. And now here it says
+16:36 Stripe secret key. So what does it mean?
+16:38 It means that if you are new to the
+16:40 space, I will explain it in simple
+16:41 words. If you are not new to the space
+16:43 and so you've already done some
+16:44 automation, this means the API key,
+16:46 right? So whenever we have two apps that
+16:49 we need to connect in order to do that
+16:52 we do it through the so-called web hooks
+16:54 right or uh connections that happen in
+16:57 the web okay from app A to app B in
+17:00 order to do that there needs to be a
+17:02 sort of permission that we can grant an
+17:05 app in order for this app to access the
+17:08 other app and this is given through a
+17:11 unique identifier and this unique
+17:13 identifier is the API key. So you can
+17:15 literally see uh it as a key that is
+17:18 connected to you as a individual and
+17:21 that will help you being authenticated
+17:23 and granted all of the permission in
+17:25 order to use a a certain service. Right?
+17:28 So what does it mean? It means that
+17:30 right here we have to go in our stripe.
+17:34 Uh okay, you're going to have to log in.
+17:36 I hope I did it already or that I can
+17:39 manage to Okay, the light is gone and
+17:43 it's gone. It's like just gone. I'll
+17:46 have to check it later. Everything is
+17:48 live. So [laughter]
+17:51 cool. Let me see. Fantastic. So, this is
+17:54 the account. And where do we find our
+17:57 API keys? So, we're going to go on
+17:59 settings and go on developer. And then
+18:02 right here, you're going to have uh API
+18:05 keys. I assume is this one. And you're
+18:07 going to do manage API keys. And then
+18:10 here you will be like okay go create
+18:13 secret key building your own integration
+18:15 and create secret key. Here we're going
+18:18 to have to send a verification. I will
+18:20 open now Gmail. Okay. Here I has just
+18:23 authenticated myself and I just gave the
+18:25 confirmation. So trial anti-gravity app.
+18:30 Now create. And here it's going to be
+18:33 our API key that I will for sure delete
+18:36 right after this. So try API key. And we
+18:39 save it. As you can see now this is
+18:40 perfect. It it is connected here. We can
+18:43 now run this and once again the stripe
+18:48 API key
+18:50 and you also have access to the MCP.
+18:57 We press enter and now what's going to
+19:00 happen is that the agent as usual will
+19:03 go inside Stripe use our API key and
+19:05 then implement the payment to our app
+19:08 and ideally if everything goes as per
+19:10 expectation we should have that at the
+19:12 beginning in the beginning form we
+19:14 should have a payment process that
+19:16 should enable us to uh get the money and
+19:19 receive the money right so of course
+19:20 this would mean that whenever we test it
+19:22 later on I'm not going to pay myself so
+19:24 yeah this is just to say the payment is
+19:26 there fantastic So we are about to check
+19:30 if everything works as per expectation.
+19:32 So here we should be having that now
+19:35 with this link browser stripe checkout
+19:38 and boom amazing. So now the app asks us
+19:43 to pay and so with this once we will pay
+19:47 then we will be able to access the
+19:48 previous interface that we created and
+19:50 then we're going to be able to enter our
+19:51 to-do app. So now you have officially
+19:54 built a full stack app using
+19:56 anti-gravity. We managed to integrate
+19:59 not only a back end using Firebase but
+20:01 we also managed to integrate a payment
+20:03 process using Stripe. Now everything
+20:06 that we have learned is great on paper
+20:08 and building these things it's the first
+20:09 step. However, if you're interested in
+20:11 learning how you can monetize AI and AI
+20:13 automation, I would recommend you to
+20:15 join my free school community

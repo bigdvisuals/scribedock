@@ -1,0 +1,501 @@
+Title: UI/UX Prototyping and Animation in Figma (Challenge)
+URL: https://www.youtube.com/watch?v=Xc8zxE9pB4w&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=16&pp=iAQB
+Channel: YouTube playlist
+Video ID: Xc8zxE9pB4w
+Transcript language: English auto-generated
+Downloaded at: 2026-05-25T21:41:00.259Z
+
+0:00 interactions animations micro
+0:02 interactions that's the fun stuff that
+0:04 we're going to get into today with figma
+0:07 so you probably recognize this design
+0:09 from earlier in this series and I'm
+0:11 going to show you how to create these
+0:12 animations and micro interactions right
+0:15 here so there's four different types of
+0:17 interactions that I'm going to show you
+0:19 then I'm going to put you to the test by
+0:22 taking this hero section which we've
+0:24 already worked on and I have a few
+0:26 different animations I want you to
+0:28 integrate and there's a lot of creative
+0:29 free freom so it's going to be fun to
+0:31 see what some of you come up with now
+0:32 make sure to watch the whole playlist if
+0:34 you're landing on this video randomly
+0:36 there's 15 other videos before this one
+0:38 make sure to watch these in order if you
+0:40 want to get the most out of it check out
+0:41 designc course.com I'll stop rambling
+0:43 now and let's get
+0:46 started all right let's get started so
+0:48 the very first thing that we're going to
+0:50 do of the four different interactions SL
+0:51 animations that we're going to do is the
+0:54 most simple which is this share your
+0:56 music um button right here now we've
+0:58 already done I think one or two button
+1:00 interactions so this should be review
+1:02 for some of you or for most of you um
+1:04 and so the first thing we need to do is
+1:06 Select it and this text is kind of
+1:08 strange it's it's blocking our ability
+1:10 to select this right now so what I'm
+1:12 going to do is just lock those real
+1:14 quick so that I can gain access I think
+1:17 locking those four there we go so now I
+1:19 can select it it's called frame six
+1:21 let's just call this BTN for button and
+1:25 let's go ahead and click uh up here to
+1:27 create a component right in this button
+1:31 all right and then we also want to have
+1:33 we want to have two different states for
+1:35 this particular button um just a default
+1:37 state which is where it's styled now and
+1:40 then a hover state so two states and so
+1:43 what we need to do is click this plus
+1:45 right here to add a variant now when we
+1:47 do this it kind of breaks the layout so
+1:49 what we want to do is just I kind of
+1:50 create an area hit the F key draw out
+1:55 left click and drag just an area to
+1:57 position this component now we just rip
+1:59 it out of there so now um with the
+2:02 background I like to keep the the frame
+2:04 background the same as whatever it's
+2:06 going to be on so I'm just going to grab
+2:07 that color now we can see them and we
+2:10 have have to ask ourself how should this
+2:12 button change when somebody has their
+2:15 Mouse and they're hovering over it here
+2:17 on desktop so uh a common pattern that I
+2:21 like to do is to change it up quite a
+2:24 bit and just kind of flip the colors so
+2:26 for this instance this is going to be
+2:27 the hover instance we can change this um
+2:31 over here at the fill so we could
+2:34 possibly just get rid of the fill
+2:36 entirely just by hiding it and then
+2:39 taking the text inside of it and making
+2:42 that white all right you see it's like
+2:44 an outline button now then we switch up
+2:47 here to the Prototype
+2:49 tab we double click into the default
+2:52 State left click and drag down and this
+2:55 is not going to be on click this will be
+2:57 while
+2:58 hovering and and I personally want this
+3:01 to be instant meaning it's going to
+3:03 instantly change from the default view
+3:06 to the other view if you change it to
+3:08 Smart animate for instance it's going to
+3:12 transition between those two states for
+3:14 me for this type of button I just like
+3:16 it to be instant I think it's a better
+3:18 effect um and that's all we have to do
+3:21 so this is called BTN so if I go over my
+3:24 assets and I search for BTN we'll see
+3:27 the button now we can go ahead back and
+3:30 drag it over here so I'm just going to
+3:33 use my keyboard arrow keys to position
+3:35 this
+3:36 back and there's a couple different ways
+3:39 to preview your layout so let me close
+3:43 these out one way is just to select this
+3:45 and hit play right here it's going to
+3:48 open up a new tab and we can now hover
+3:51 over it yay now another way of doing it
+3:54 which might be a little bit faster is to
+3:56 click the down button up here and then
+3:58 choose preview instead and then with
+4:00 this uh frame selected this one right
+4:03 here you can now see and you can refresh
+4:06 to see if there's any animations and
+4:08 it's just kind of an extra window for
+4:10 you okay so now that we have one of
+4:13 three down let's do the search
+4:16 interaction this is going to be a fun
+4:18 one because you're going to see a lot of
+4:20 the potential in creating these micro
+4:23 interactions so let's go ahead and with
+4:26 this selected we're going to create
+4:29 component
+4:30 and once again I'm just going to drag
+4:32 this whole thing over here out of view
+4:36 there we go and then we're going to
+4:38 create a uh component uh an actual
+4:43 variant so there's going to actually be
+4:45 three different states for this one a
+4:47 default state which is the top one a
+4:50 hover state which is this one and then a
+4:53 click State when they click it it's
+4:55 going to expand out so here's how this
+4:58 first one works let's go head and make
+5:00 the adjustments I'm just going to do
+5:02 what we did over here and flip them so
+5:05 really I'll take the fill and make this
+5:09 white grab the actual icon you may have
+5:12 to double click a couple times to get to
+5:13 the actual icon color itself and then
+5:16 we'll choose this
+5:18 color great so now we can go to
+5:22 prototype drag this while
+5:26 hovering and this can be instant too
+5:30 yeah I'm okay with that and then so now
+5:33 we want to make sure this is named
+5:35 properly so we can find it so we go to
+5:36 layers called frame 10 let's d double
+5:38 click that and just do
+5:41 search there we go go to our
+5:44 assets come back here type in
+5:49 search drag it on roughly to where we
+5:51 want it to
+5:53 be and then now we click play you
+5:56 actually can't see that so I'm going to
+5:57 go back to the regular presentation mode
+5:59 and if we hover over it there we go now
+6:03 let's add the third interaction so I'm
+6:06 going to just take this here and we're
+6:09 add another
+6:11 variant and for this variant once again
+6:14 let's go ahead and real quickly make
+6:15 those
+6:17 changes and this okay for this one all
+6:20 we're going to do is just pull this off
+6:22 so first before I do that let's take
+6:25 this extend it out and I'm also going to
+6:28 take this one and and if I go to design
+6:31 we want to make sure this over here is
+6:33 to the left not the center same thing
+6:36 with this one to the left not the center
+6:38 now when we pull this out it's going to
+6:40 stay right around there so now pull this
+6:42 in we switch to prototype now let's get
+6:46 this Alpha here and we're going to drag
+6:49 this here all right and then we're going
+6:55 to specify onclick and we're going to
+6:57 make this a smart animate and for the
+7:00 duration um maybe like 800 milliseconds
+7:03 we'll see how it is linear we're going
+7:05 to change this to ease in
+7:06 andout and then for this one we're going
+7:10 to attach this if somebody clicks it
+7:12 we're going to go back to the original
+7:14 state so this will be on click um smart
+7:17 animate 800 milliseconds that should be
+7:20 good let me go ahead and mute my phone
+7:22 because I think my wife is texting me
+7:24 like
+7:28 crazy there we go
+7:30 all right and now um this is called
+7:32 search so let's go to assets assets
+7:35 rather oh it's already over here sorry
+7:37 so if we go back here and we click this
+7:40 ah look at that now there was an issue
+7:43 if I zoom up see this oopsie something
+7:46 happened there I'm not sure what but
+7:48 that should not be happening where
+7:49 there's a shift so let's go back here
+7:52 and see what the heck happened um so
+7:54 what I'll do and I want to include this
+7:56 just to show you how you can kind of
+7:58 make sure like TR shoot things so the
+8:00 overall width of this element here um is
+8:04 and this is also in the center let me
+8:05 just click this ah I know why because we
+8:09 changed the orientation of this so if we
+8:13 do the same thing here they should be
+8:14 more consistent but they're not
+8:18 exactly I correct looking that's
+8:21 interesting okay so if I go like this
+8:23 let's take this back here let's see what
+8:26 happens now now that I made that change
+8:28 um sometimes you may need to refresh
+8:30 this um if you hit R it will or should
+8:35 rather restart let me go back here and
+8:38 just hit play on our main element there
+8:41 we go
+8:46 so yeah so it's only slightly kind of
+8:48 pushing that off to the left when we get
+8:50 there um let's go
+8:53 back ah I tell you things just have to
+8:56 be a pain in the
+8:57 butt um see we can't move it because we
+9:00 have that but we do have the ability to
+9:03 modify this property right here so if I
+9:05 hit shift R and get a roller out or a
+9:08 guide here we can make sure that these
+9:10 are exactly where they need to be so if
+9:12 I grab this okay now if I go back it's
+9:19 perfect now that's not smart animate so
+9:22 let's um adjust that real quickly so if
+9:24 I take this this seems to be instant
+9:27 actually if we go from this to this
+9:29 element hm very interesting oh well it's
+9:32 not a big deal um we got most of it
+9:34 right anyhow so now that we have those
+9:36 two things let's uh further focus on
+9:40 another um animation here and so this
+9:44 one's going to be just making this bob
+9:46 up and down like a very subtle just just
+9:49 to give some movement essentially so
+9:51 what we'll do is I'm going to take this
+9:53 Frame and make it a lot larger because
+9:55 it's is a big asset I'm going to just
+9:57 throw it over here as you can see it
+9:59 kind of goes down far and before I
+10:02 create a component we want to I want to
+10:04 put this and wrap it inside of a group
+10:07 or not a group a frame rather and the
+10:10 reason we'll do that uh is because this
+10:12 will not work if we don't do that and
+10:14 you'll see what I mean in a second so
+10:16 I'm going to frame
+10:18 selection now notice
+10:21 I click content we don't have to worry
+10:23 about this um I'll show you what I mean
+10:25 in the future by that but now what we
+10:27 could do is take this and and make a
+10:30 component out of it make a component
+10:32 State doubleclick into this actual area
+10:37 and then just push it up a little bit
+10:40 that's it um so now we take this element
+10:43 in Prototype mode and this is going to
+10:46 be after a delay of 1 millisecond
+10:49 because we want this to happen on page
+10:51 load and instantly and then we're going
+10:54 to change this to linear because if you
+10:57 add any type of other eing to it it'll
+10:59 make the animation seem weird cuz we
+11:01 want it to just to bob up and down um
+11:03 and for the duration let's say like 4
+11:06 seconds so 4,000
+11:08 milliseconds and then we take this
+11:11 one and we animate it back as well so we
+11:15 take this animate it up this is not on
+11:18 click again this is after delay of 1
+11:21 millisecond 4,000 and that looks pretty
+11:24 good there make sure that it's named
+11:26 properly frame 12 we're call this mic
+11:30 now we go back to our assets type in
+11:33 mic we're going to throw this
+11:36 in now it's on top of our actual um
+11:41 design but I'm not worried about that
+11:43 for now I want to just uh see what this
+11:45 looks like and see if it ends up playing
+11:48 so sometimes you'll need to restart
+11:52 that okay so here's what it looks like
+11:55 so far it's going up too high and past
+11:57 this area that's not a big deal we need
+11:59 to bring it down just a bit and also
+12:02 situate it behind these ele these layers
+12:05 down here that we have locked so if I
+12:08 take my mic we're just going to drop it
+12:11 down a little bit until we're underneath
+12:14 those
+12:15 areas actually I'm going to go between
+12:17 them I think yeah that's better so it's
+12:20 like this so now let's see what this
+12:24 looks like so we have our interactions
+12:27 we have our button interaction we have
+12:28 this box in up and down now very cool
+12:32 now we're going to do one more before we
+12:33 conclude and I introduced The Challenge
+12:35 and this one's a little bit more tricky
+12:37 so it's it's basically taking these
+12:39 elements right here this is not lined up
+12:41 for some reason um and we want to modify
+12:44 them in such a way I'm going to lock
+12:46 that so we can grab these um so that
+12:49 they're a infinite scrolling Marquee
+12:52 they just keep on going and going and
+12:54 going and going now there's only really
+12:55 just two unique elements here but so
+12:58 forget about the cont content and all
+12:59 that stuff but if you ever wanted to
+13:01 create like um or even taking this text
+13:03 right here and make it just infinitely
+13:04 scroll across this is a technique um
+13:07 that you can use so what I'll do is grab
+13:11 um just two of these really so I have
+13:13 four elements we have two pieces of type
+13:15 and then the two icons um for now I'm
+13:17 just going to copy those and then delete
+13:19 them I'm going to delete this just to
+13:21 get everything off out of here okay so
+13:24 now I'm just going to paste them back in
+13:26 we're going to shift them all the way to
+13:28 the left where you see that red guide
+13:30 essentially showing up and I'm going to
+13:33 put these inside of a auto layout so I
+13:38 switch over here to design click Auto
+13:40 layout o wait first before we do that
+13:43 sorry about that we're going to group
+13:44 these so contrl G and then contrl G now
+13:49 we can put them in Auto layout by
+13:50 selecting both of them there we go and
+13:54 what I'm going to do is just take this
+13:57 we'll duplicate it take this
+14:00 this copy it duplicate that we can
+14:03 switch these around by the way so if I
+14:05 come in here this one will be there and
+14:07 now they're kind of you know adjusted in
+14:11 such a way now what I want to do is
+14:13 really extend this out pretty far
+14:15 because we want about seven or eight of
+14:17 these and we only have four of them
+14:18 right now inside of this so if I take
+14:21 both of
+14:22 these and do that now the reason we
+14:25 can't see it is because this is
+14:27 overflown just a bit um let's take this
+14:31 and this paste that okay so that's
+14:34 clearly way enough and you'll see why we
+14:36 have to essentially do this um in order
+14:39 to get this to scroll
+14:41 properly so now that we have that we
+14:44 want to add a group around them so
+14:49 contrl
+14:51 G actually no we're going to add a frame
+14:53 around I keep on saying group but I mean
+14:55 frame right click add frame and so frame
+14:58 selection
+14:59 and we're going to choose clip content
+15:02 and we're going to drag this all the way
+15:04 here okay there's a lot of setup work
+15:07 this is a little more of a complex one
+15:09 so now that we've done that we can now
+15:12 create the component and comp compar and
+15:15 create the uh component variant of it
+15:18 and what I'm going to do is we're going
+15:21 to take this and shift it no we have to
+15:25 double click into it first to make sure
+15:27 that we're grabbing the right thing so
+15:29 it's going to be the frame 12 12 and
+15:32 we're going to shift this just right
+15:33 here to where they look like they're
+15:35 exactly matched up again all right and
+15:38 it's really important that we get these
+15:40 evened up properly so shift
+15:42 R we're going to drag out an i a ruler
+15:47 that goes right to the edge of this icon
+15:48 up here and we want this icon down here
+15:51 with frame 12 selected to be aligned to
+15:54 it as well all right so if I zoom up we
+15:57 can see it's aligned perfectly to it and
+16:00 this one is aligned perfectly as well
+16:02 you want them to be perfect essentially
+16:04 so now that we've done that we can take
+16:07 this double click into this uh right out
+16:10 there sorry we want to grab the first
+16:14 variant which is this one go to
+16:17 prototype we're going
+16:20 to drag it down this is going to be
+16:23 after delay of 1 second because we want
+16:25 this to happen on page
+16:27 load um we'll make this last pretty long
+16:29 so 10,000 milliseconds or 10
+16:32 seconds and this is going to be linear
+16:34 smart animate and that's good now this
+16:36 one the one beneath it we drag this up
+16:40 and this is after delay of 1 second but
+16:43 this time instead of a smart animate we
+16:45 do instant it's instantly just going to
+16:47 reset back and it's going to look you
+16:49 know hope hopefully this works it's a
+16:51 little bit complex but I I did test it
+16:53 and it worked before so we'll see how
+16:55 that goes so now what I want to do is
+16:57 just take this whole thing and just put
+16:59 it over here for now and we're going to
+17:01 call this instead of frame 13 we're
+17:03 going to call this um
+17:05 logos no this isn't logos this is
+17:07 features sorry
+17:10 features now we go to assets we're going
+17:12 to search for
+17:13 features and we're going to drag it
+17:17 in all right we put it right there all
+17:22 right so now let's go ahead and click
+17:26 play and hope to god it works
+17:30 okay so it's getting cut off a little
+17:31 bit we can fix that at the bottom but
+17:34 remember this first um section it lasts
+17:38 for 10 seconds right so we want to make
+17:41 this uh we want to ensure that this
+17:44 actually just keeps going Beyond 10
+17:46 seconds to make sure we set up
+17:47 everything correctly with the uh second
+17:49 variant and it looks like it is and it's
+17:52 just perfectly scrolling and you can't
+17:54 tell any of the changes we made so
+17:56 awesome stuff as you can see you have a
+17:58 lot of fun with creating these
+18:00 interactions and these animations and
+18:02 now it's your turn by the way this is a
+18:06 little fast I would slow that down um
+18:08 and you want to make sure that you know
+18:10 we can pull this down that way it's not
+18:12 getting cut off anymore like that but
+18:15 yeah very solid um so now what we want
+18:17 to do is switch gears and now I'm going
+18:19 to introduce your animation challenge in
+18:23 interaction challenge so we've all seen
+18:25 this one before if you've been following
+18:26 along with this um course and once again
+18:30 we got a hero section here just like I
+18:32 showed you and this time I want you to
+18:34 do a few things here are the rules add
+18:37 interactions animations so the first
+18:38 thing I want to do is animate the join
+18:40 today button in the nav bar with a hover
+18:42 change this one right here so make that
+18:45 a hover change I want to see what type
+18:47 of I want to see how you change it when
+18:50 the mouse has hovered over it so again
+18:52 put up a frame like up here to house
+18:56 your components you can have multiple
+18:58 frames one per component it doesn't
+18:59 matter it's up to you um on page load
+19:02 animate the headline and sub headline so
+19:05 that means when the page loads or you
+19:07 click play make these animate in somehow
+19:10 they can animate from behind um you can
+19:13 actually add a frame around it so let me
+19:15 show you something really cool so if I
+19:18 add a frame frame the selection and I
+19:20 choose to clip content right here then I
+19:24 can double click and grab the text and
+19:25 guess what just animate it from nowhere
+19:28 and you can create a component variant
+19:31 with two
+19:32 states I would personally do that so
+19:36 um again though this is up to you I you
+19:39 have some creative freedom in terms of
+19:41 how you you you choose to do this so I
+19:42 would do that to both of these um and
+19:45 then number three animate something in
+19:48 the green console section so you know
+19:50 there's a lot of ideas that you could
+19:52 play around with um you know you could
+19:55 have this maybe hovering over here and
+19:56 changing the button color you could do
+19:58 something with um a scrolling Marquee
+20:00 with this section it's up to you and
+20:03 then finally this is a bonus you don't
+20:05 have to do this make the logos at the
+20:07 bottom infinitely scroll as a marquee
+20:10 these five logos make them infinitely
+20:12 scroll you just saw how to do it um in
+20:15 the previous you know this one this
+20:17 variation right here see if you can do
+20:19 it here as well make sure you read the
+20:22 the uh submission instructions in the
+20:24 description here and get them done as
+20:27 soon as possible and I will review them
+20:29 tomorrow um yeah this is getting fun we
+20:32 have uh day 16 we're doing this for 14
+20:35 more days with this uiux series
+20:37 hopefully you've Fallen along check out
+20:39 design.com and I will see you soon
+20:47 [Music]

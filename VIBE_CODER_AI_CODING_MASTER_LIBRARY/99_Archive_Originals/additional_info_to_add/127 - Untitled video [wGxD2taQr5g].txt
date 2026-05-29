@@ -1,0 +1,540 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=wGxD2taQr5g
+Channel: Riley Brown
+Video ID: wGxD2taQr5g
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 jungle crying it's a PR there we go
+0:04 that's so fun who let's go this is crazy
+0:09 yes this is all right this is coming
+0:11 together real nice it's July 30th and
+0:14 every day we're going to be creating
+0:16 something with AI today I'm going to be
+0:18 creating a website I want to look like
+0:21 this funky retro website that I found
+0:24 for during South by Southwest I'm going
+0:27 to use it as a general image reference
+0:31 and then I'm also going to come up with
+0:32 my own ideas one of the things that this
+0:34 website does is it lets you play music
+0:37 directly in the
+0:40 site and so I want to do that same exact
+0:43 thing except I want to add some
+0:45 additional features and change some of
+0:47 the Style Elements around so I'm
+0:48 basically adding one idea and then I'm
+0:50 basically having chat gbt organize it in
+0:52 a proper manner so this is my idea right
+0:55 now but I want to add this stuff to the
+0:57 site so now it's going to make it even
+0:59 more organ I said have this make a more
+1:02 complete instructions because these are
+1:03 going to be the instructions we give to
+1:05 Claude the landing page will include a
+1:07 music player and user interaction
+1:10 features clean design with ample white
+1:13 space to show the reference image the
+1:15 top section is two boxes side by side
+1:17 left box play button right box display
+1:20 button and so these are all the details
+1:22 that I wanted the mobile layout
+1:24 basically Stacks them so when it gets
+1:26 super narrow it'll stack them I want a
+1:28 user signin music feed and add
+1:29 additional features and we'll go through
+1:31 this so I am of course going to be using
+1:34 Claud so I'm just going to paste this in
+1:36 right here I'm using a project in Claud
+1:39 and it has all of the starting files and
+1:41 if you want to pause the video at any
+1:43 given time you can see my idea right
+1:45 here it's a basic landing page there's
+1:47 two boxes side by side in the top
+1:49 section there's a play and pause button
+1:51 on the left box and the right box will
+1:53 display song details including image I'm
+1:56 just going to run this real
+1:58 quick so it's first to try and
+2:00 understand what it's making and so I
+2:02 just want to make sure that it gets it
+2:04 so it's a landing page users arrive at a
+2:06 clean minimalist landing page with
+2:08 prominent music player the page features
+2:10 two main boxes one on the top for player
+2:12 PA controls user signin minimal
+2:14 interactions one soong per day songs
+2:17 must be uploaded as MP3 files with an
+2:20 accompanying PNG or jpeg images the
+2:23 music player displays current songs
+2:25 image with animated effects this is
+2:29 correct
+2:30 so the first thing that we're going to
+2:32 do is once we get past this stage to
+2:35 build the backend from when it's
+2:37 starting you're going to go to
+2:38 firebase.com then you're going to go to
+2:41 console create a project and we're going
+2:43 to call thisso station and we're going
+2:46 to hit continue press the default
+2:49 account and then you'll get used to
+2:51 these instructions this is the repet
+2:53 template you Fork the template that's
+2:55 the first thing that you should do Fork
+2:57 suo station and so that's what you do at
+3:00 the beginning you are telling your ideas
+3:02 to Claude once you have that general
+3:04 idea then just quickly come to Firebase
+3:07 and create a project after you create a
+3:09 project you're going to press this
+3:10 button right here this is web you're
+3:12 going to give your app name so you can
+3:14 have basically a project and then you
+3:17 can have multiple apps within that
+3:18 project so this app is going to be
+3:20 calledo station then we are going to hit
+3:24 Register App this is going to give you
+3:27 your API tokens and your NP M install
+3:31 Firebase and what I'm going to do is I'm
+3:33 just going to paste these API keys in
+3:36 here so where it says API key we're just
+3:39 going to put into our template on repet
+3:43 right here we're going to paste this API
+3:44 key update secret and then we're going
+3:47 to do that for all of them then we're
+3:49 going to come in here we're going to
+3:50 copy this npm install and we're going to
+3:53 go to the Shell up here and we're just
+3:55 going to paste that in right here and
+3:58 hit enter and this is going to start
+4:00 doing some magical stuff that I don't
+4:02 really know what it means so while
+4:05 that's going let's go ahead and go back
+4:08 to our claw here I'm glad the
+4:11 understanding is correct here's the plan
+4:13 to create this app in repet and we're
+4:17 just going to listen to it so here is
+4:19 the package.json file we're going to
+4:22 copy this and so this is going to go to
+4:24 package.json
+4:28 and we're just going to copy and paste
+4:30 this stuff this is going to SRC
+4:35 Firebase typescript oh let's create a
+4:38 new file and this file is going to be in
+4:41 the source file so we are going to press
+4:45 this button right here add
+4:47 file and we are going to do
+4:51 Firebase TTS and let's go ahead and
+4:53 paste this in and we just put those in
+4:56 so this document right here points at
+4:59 those API keys that we just put in so
+5:02 now we should be good and set up to that
+5:05 Firebase so now we're doing app. TSX
+5:09 paste now let's create landing page so
+5:13 this landing page is going to be in the
+5:14 components folder so we're going to copy
+5:16 this go over to the source add folder
+5:21 call it components and then we are going
+5:23 to add a file this is going to be
+5:26 landing page so now we need to create
+5:28 components user dashboard and so we're
+5:31 going to go over here we're going to
+5:32 create
+5:35 components add
+5:38 file user
+5:41 dashboard.
+5:43 TSX and then we're going to paste this
+5:45 in right here here we're going to have
+5:48 Source components music player so now
+5:50 we're going to have a music player boom
+5:53 and I need to start just copying these
+5:55 names over so we're going to have music
+5:56 player. TSX
+5:59 and you can actually just copy this
+6:01 whole file name over and it will
+6:03 automatically put it in the right file
+6:05 so I can copy this and copy this and so
+6:08 if we just click out of everything and
+6:10 then click new file and then we paste
+6:14 the name in right here and press enter
+6:19 it should put it in the right location
+6:21 then what we're going to do is we're
+6:22 going to import this right here import
+6:26 music player let's keep going down now
+6:28 we have the create Source components
+6:32 music feed so we'll copy that now we are
+6:35 going to create a file here and it
+6:39 automatically went to the right one
+6:41 we'll paste the name
+6:43 good so we're going to add a file and
+6:47 this is going to be music feed. TSX so
+6:51 there's music feed and then we're going
+6:53 to
+6:54 create Source
+6:58 components I should notes so we'll copy
+7:01 all both of this now we'll paste this in
+7:03 right here boom finally update the H
+7:07 index.html file to include the correct
+7:09 title and we're going to run this react
+7:13 Firebase hook styled components there we
+7:17 go npm install save Dev and typ style
+7:21 components whenever you see this
+7:24 npm just know that you need to paste it
+7:26 into the shell I've done all all of the
+7:31 items that you told me continue okay so
+7:35 it gave us full code for all of these
+7:38 Cloud's looking good right now not lazy
+7:40 at all we're going to update the music
+7:42 player let's go ahead and we're going to
+7:45 paste that in then we're going to come
+7:47 back and we are going to components
+7:51 music feed we're going to replace this
+7:53 paste it in Copy Source components notes
+7:58 paste it in now what we're going to do
+8:01 is we are going to do Source components
+8:04 header finally let's add a simple header
+8:06 with sign in sign out button and Vibe
+8:09 points display go into the components
+8:12 folder add a file we're going to call
+8:14 this
+8:15 header we're going to paste in the
+8:17 header text right here and there we go
+8:21 now we're going back to Claud let's keep
+8:23 on going now update the source
+8:25 components user dashboard to include
+8:27 header we did that we did that let's
+8:31 continue and damn it's just generating
+8:33 all of this code damn okay so now we
+8:38 have the header let's update the header
+8:41 section okay now let's update music feed
+8:44 and so now we're adding a new component
+8:46 this right here this allows you to
+8:48 customize the color so we're going to
+8:49 copy both come into repet boom now it'll
+8:53 go straight there color customizer boom
+8:57 paste that in now let's update the app
+9:01 component source. app is that the full
+9:06 app. TSX and the full user dashboard if
+9:12 not please generate those fully so
+9:16 here's the complete app. TSX copy this
+9:19 over boom and
+9:21 Boom come back here here is the source
+9:25 component user dashboard let's keep
+9:28 going
+9:29 generate full code for the next one so
+9:35 now it's generating the full code for
+9:37 the music
+9:38 one and I'm going to start having it go
+9:40 one by one because these are getting
+9:41 longer here's the full code for an
+9:43 updated music player boom updated music
+9:47 feed boom and here is the an updated
+9:50 user dashboard within Firebase after you
+9:54 have entered in your keys what you need
+9:56 to do is you need to go here we need to
+9:57 go to build and then we need to go to
+9:59 fir store database we're going to hit
+10:01 create database and then we're going to
+10:04 put for database ID we're going to leave
+10:07 that we're just going to hit next and
+10:08 then we're going to start in production
+10:10 mode and then we're going to start a
+10:11 collection and we're going to add and
+10:13 we're just going to make sure that we
+10:15 have a collection here make sure that we
+10:17 have rules and then after we do this
+10:20 we're going to go to build and we're
+10:21 going to go to
+10:23 authentication and what we want to do
+10:26 real quick is make sure that our account
+10:28 has proper access so we want to get
+10:30 started with authentication and we want
+10:32 to be able to sign in with Google and
+10:35 within Google what we want to do is
+10:37 press this enable button and then what
+10:39 we're going to do here is we are going
+10:41 to put the support email which is my
+10:43 main email and we're going to hit save
+10:46 and now we have that enabled we have
+10:50 settings we need to go authorize domains
+10:53 we basically need to give permission for
+10:56 this repet server or whatever the hell
+10:59 you call it to have access to this so
+11:01 we're going to go like this and we're
+11:03 going to copy this link right here we're
+11:05 going to go back here and we're going to
+11:07 paste this in and we're going to hit add
+11:10 and we basically just added that in
+11:13 right there as a domain so now it should
+11:16 be connected we also need to do storage
+11:19 so you need to go to storage and then
+11:21 it's basically the same thing get
+11:22 started for storage production mode done
+11:27 okay rules Okay so so I am testing it I
+11:32 have created a database created the
+11:36 Google sign in created the
+11:39 authentications and then uploaded the
+11:42 repet dev domain to the authorized
+11:48 domains I created the storage as well
+11:52 and they have the default rules do I
+11:57 need to do anything thing there okay
+12:01 what should the rules be for Firebase so
+12:06 here are the new rules so these are
+12:07 rules that you have to keep updated
+12:09 based on your code that allows certain
+12:11 users to do certain things so here's the
+12:13 fir store database which we go to rules
+12:17 and we're going to paste this in publish
+12:20 okay here it is so far so we can sign in
+12:22 with Google good we have a user we can
+12:26 sign in no errors yet all right
+12:29 okay so now let's generate a song
+12:33 [Music]
+12:36 onso that sounds like
+12:44 him cracked open my eyes to a world
+12:47 feeling
+12:50 still concrete jungles grind it's a
+12:53 predictable
+12:55 tail found a man pain in Chaos on a
+12:58 blank brick wall color screaming loud
+13:01 Breaking Free from the CLW and it struck
+13:04 me this wasn't just random a
+13:07 while Creations a
+13:10 riot a call from the
+13:13 [Music]
+13:24 child so now we have both the both of
+13:28 what we we need and then we're going to
+13:31 choose an image the PNG upload song okay
+13:35 so we have insufficient permissions
+13:37 that's okay so we need to basically test
+13:41 this so we got an error right this is
+13:43 the error that we got in the Firebase
+13:45 when we ran the code that I just ran the
+13:47 code and it gave me this error okay so
+13:51 now we need to replace the existing
+13:52 rules so we're going to go to fir store
+13:55 database and we are going to very
+13:58 quickly
+14:00 go to fir store rules paste and what
+14:04 we're going to do here is we're going to
+14:06 do storage rules so we need to go to
+14:09 storage these are current storage rules
+14:15 are you sure
+14:17 okay let's see if we still get the error
+14:20 let's go out like this let's stop this
+14:23 run and let's run it Again song title
+14:26 test artist name test let's choose the
+14:31 file here this one and then this image
+14:38 here and then upload
+14:41 [Music]
+14:46 song all right well that's pretty cool
+14:48 this works this is actually a good
+14:50 foundation I'm surprised this all worked
+14:53 it's nice with when the storage aspect
+14:55 works as well but we're signed in here
+14:58 we can sign out again we can sign in
+15:00 with Google and we're going to sign in
+15:02 with Riley cirround gmail.com and it
+15:05 even has my music feed saved and I can
+15:07 write notes here this is music feed oh
+15:11 so this is the song that I made so you
+15:13 can see the music feed so it'll actually
+15:15 show everyone's music feed here but we
+15:18 can play
+15:22 this so this is all attached to our own
+15:25 profile so this is a song Feed you can
+15:27 only enter a song in once so we actually
+15:29 need to change this so hello this is
+15:33 Riley this is a test note and we can
+15:37 save notes hopefully nope we got a
+15:40 problem insufficient permission okay so
+15:44 first I want you to generate new rules
+15:50 given that I just tried to use the notes
+15:57 feature and it gave me this then briefly
+16:03 in one sentence tell me actually in one
+16:08 short paragraph tell me what's going on
+16:13 here and then three summarize the app in
+16:16 full in concise bullets all right last
+16:19 prompt going in hot all right so now
+16:21 we're going to take the rules we're
+16:22 going to update the rules and then we're
+16:24 going to have to do the annoying process
+16:25 of resetting the stage here fir store
+16:28 database we're going into rules and
+16:30 we're now going to publish let's refresh
+16:32 everything so let's give this another
+16:34 test and so I am going to song
+16:38 [Music]
+16:40 titled wow this song is pretty good and
+16:46 actually before we do this so This song
+16:48 aspect works we can actually um change
+16:51 the text on the play
+16:53 buttons um which is kind of cool let's
+16:56 try and do this again so now we're
+16:57 creating another project for edit so
+16:58 we're going to go to repet we're going
+16:59 to download all our files because
+17:01 there's a lot of changes that need to be
+17:02 made and so we're going to just click
+17:03 this download as a zip file right now
+17:05 I'm also going to very quickly get a
+17:07 screenshot of the file structure right
+17:10 here and I'm this is one thing I always
+17:12 do we're going to come over here we're
+17:14 going to go to chat GPT we're just going
+17:15 to go file
+17:17 structure
+17:19 intext and I'm going to go like this
+17:21 come on okay so we're going to copy this
+17:23 we're going to start getting a little
+17:24 more screenshots of these like look at
+17:26 this
+17:30 that's just fun that's good stuff we're
+17:31 downloading everything right now so here
+17:34 is the current code base files we're
+17:39 going to paste this in like this boom
+17:44 now um and so let's start off with the
+17:47 current rules as well so let's go to
+17:48 rules current
+17:51 rules for
+17:54 database current rules
+17:56 for storage
+17:59 and we're going to copy this bad boy
+18:01 right
+18:02 there paste this one in I am creating an
+18:07 app based on the
+18:09 code what do you think this does all
+18:13 right so we have that ready tell me in
+18:17 bullet open up the files we should have
+18:20 the zip file because we downloaded the
+18:23 zip file this is loading up okay um now
+18:26 we are going to um just start uploading
+18:30 everything we want to get this this this
+18:34 this this this and that this and this
+18:37 and I guess we can throw the error log
+18:39 in so let's just go ahead and see what
+18:42 he thinks of this app the first thing
+18:44 that I want to do is remove the limit of
+18:50 one
+18:51 song uploaded per day unlimited please
+18:56 and now it's uploading the music feed Fe
+18:59 so now let's go back here let's go like
+19:01 this and music
+19:03 feed boom and boom okay let's start over
+19:07 run let's choose a song The Hammer the
+19:12 lightning artist name the hammer and
+19:15 we're going to choose the file on the
+19:17 edge of chaos and then the PNG file
+19:21 which is going to be this lightning one
+19:23 right here and we're going to upload
+19:24 this song and this lights up like this
+19:29 so we can listen to the old
+19:30 [Music]
+19:35 one okay now I know what I want to do
+19:37 Cloud understands where we're at here so
+19:39 we have to go to the right Cloud saying
+19:41 okay nice this looks amazing now I want
+19:46 to hone in on the design I want
+19:50 everything more Compact and to look
+19:54 retro and
+19:57 cool that's a good visual right there
+19:59 I'm going to paste this third one in
+20:02 look at how much white space is in the
+20:07 full page that is the last one
+20:11 containing both of the modules I want
+20:16 this app to be similar with same type of
+20:22 button placement and spacing generate
+20:27 full code for the changes I should make
+20:32 okay this is going ham so we have app.
+20:36 TSX we're going to go like this boom 66
+20:40 lines now so we've done that we need to
+20:43 update updated user dashboard boom and
+20:47 boom we have an updated music feed music
+20:51 feed updated notes whoa let's go this is
+20:56 crazy yes this is all right this is
+20:59 coming together real nice oh man that
+21:02 fired me up so much oh okay let's see if
+21:06 this works let's see if this works let's
+21:08 sign out let's start over start fresh
+21:10 let's let's think about this um that's
+21:12 pretty sicko station the landing page so
+21:14 we can look up
+21:16 welcome sign in to start sharing and
+21:19 listening to music that's pretty hype I
+21:20 like this a lot okay cool cool cool what
+21:24 seems to be the error here no idea what
+21:27 that means let's sign in here with my
+21:30 main account so this is this is where it
+21:32 gets interesting why can't we play the
+21:34 song let's see if we can upload one
+21:37 let's just go download MP3 audio let's
+21:40 grab another cool image here yeah let's
+21:44 do this one yeah so we are going to go
+21:47 to sunno yes so we're going to choose a
+21:49 file so music music feed song title all
+21:52 right we're close let me make sure I got
+21:54 all of them updated app user dashboard I
+21:56 think I did music feed okay the upload
+21:59 looked like it worked but the song is
+22:04 not playing I want to scrap the music
+22:08 notes right now let's focus on the music
+22:11 player all right so let's just start
+22:13 updating these real quick so app. TSX
+22:17 file and then we are going to do the
+22:19 updated user dashboard updated user
+22:23 dashboard updated music player please
+22:27 generate full full code for those okay
+22:31 now it's doing full code for all all
+22:33 right hopefully it doesn't run out of
+22:34 space app. TSX that was the full code
+22:38 complete user dashboard complete music
+22:41 player why is it so much smaller now
+22:43 complete music feed all right let's see
+22:46 actually let's play
+22:52 [Music]
+23:01 when playing the song it was not showing
+23:05 the image I want the image to be in its
+23:11 own box like an iPod in terms of layout
+23:16 where you have an image on top and
+23:20 controls on bottom like the OG iPods
+23:24 make these fixes okay so this looks a
+23:27 little bit longer so this looks good for
+23:29 music player boom 103 to 157 that looks
+23:33 a lot better there we go music feed a
+23:36 lot of the variables have this error
+23:40 okay not sure what's going on there but
+23:43 and what do we have for Dev tools let's
+23:45 figure this out before we go to the fun
+23:47 stuff here are more errors please take a
+23:51 look en rate full music player okay
+23:55 let's take a look at this oh what is it
+23:58 doing here here oh what the hell this is
+24:01 hype look at this so we can upload a
+24:04 song here and let's go background I want
+24:07 this like let's make it like tan yeah
+24:10 yeah
+24:10 [Music]
+24:14 yeah
+24:17 still concr
+24:20 Jedi there we go that's so fun and so
+24:24 okay let's test this full process here
+24:27 so what we can do is we can go toso and
+24:29 I'm just going to do create wait. in
+24:32 create. in if you would think you would
+24:36 create do in you should not speak just
+24:41 create do Inc don't even blank run and
+24:48 create. in and then deep Soul
+24:56 harmonic Yep this the one all right
+24:59 that's all I needed to hear let's
+25:00 download this and we're going to upload
+25:02 a song here and we're going to call this
+25:04 one create doting and then we'll upload
+25:07 the
+25:20 song if you would
+25:22 think you would create do
+25:25 de you should not speak
+25:29 just create do
+25:32 ink don't even
+25:34 drink run and create do ink just create
+25:40 do
+25:41 ink just create do ink

@@ -1,0 +1,238 @@
+Application Security 101 - What you need to know in 8 minutes
+
+0:00 application security
+0:03 boo
+0:03 most developers and companies believe
+0:06 their applications to be secure and
+0:07 understand the importance of security
+0:10 however year after year they continue to
+0:12 push vulnerable code into production
+0:15 in order to avoid these pitfalls and
+0:17 improve the overall security of our
+0:18 applications we need to understand what
+0:21 application security is all about
+0:24 [Music]
+0:27 application security is about taking
+0:29 steps to ensure that the software we're
+0:32 building and deploying
+0:34 are protected from dangers it involves
+0:36 taking actions and procedures throughout
+0:38 the application life cycle to ensure and
+0:41 prevent malicious actors from accessing
+0:43 data and our code through vulnerable
+0:45 software and hardware in simple terms
+0:47 this is like having smoke detectors to
+0:49 alert us of vulnerabilities found or
+0:52 issues within our code we need digital
+0:54 locks to keep out bad actors from having
+0:56 access to our apps without permission we
+0:58 need to implement measures like these to
+1:00 help ensure the security of our
+1:02 application this will also enable us to
+1:04 capture alert prevent any types of
+1:06 dangers that are happening within our
+1:08 apps now since every app is a bit
+1:11 different these questions are not
+1:13 comprehensive so you should consider
+1:15 more to help you identify additional
+1:17 ways your app can be used
+1:19 unintentionally and start securing there
+1:21 but enough about the whys and whats
+1:23 let's dig into the hows of application
+1:26 security there are six different types
+1:27 of application security
+1:29 authentication authorization data
+1:32 processing encryption logging and
+1:34 testing
+1:37 like that let's start with
+1:38 authentication and authorization
+1:40 authentication is about identifying you
+1:42 within a system an authorization is
+1:44 determining what permissions or things
+1:46 you're allowed to do
+1:48 within that system
+1:50 using github as an example
+1:51 authentication is when you use your
+1:53 username password
+1:55 and or two-factor authentication to get
+1:57 to your account
+1:59 authorization is the set of controls
+2:00 that keeps you from getting access to
+2:02 say somebody else's repos that are
+2:04 private these two things tend to happen
+2:06 simultaneously from a user's perspective
+2:08 and so that's why they're often lumped
+2:10 together after that we get into data
+2:12 processing which you can also think of
+2:14 as input handling you need to make sure
+2:16 that when users are providing data into
+2:18 your system they do so in a way that
+2:21 meets your expectations of what that
+2:22 data is supposed to be as an example to
+2:24 illustrate this think of an email when a
+2:27 user enters an email you expect to have
+2:29 a string like name an ed symbol and then
+2:32 a domain like google.com or gmail.com
+2:35 but you don't expect that to be
+2:37 something else you don't expect that to
+2:39 be code and you need to make sure that
+2:40 somebody isn't trying to do that within
+2:42 that field this is not only limited to
+2:44 users inputting data directly in your
+2:46 system this could be data that's coming
+2:48 in from another system that you need to
+2:50 also validate think of them as like apis
+2:53 and so forth next up we have encryption
+2:55 which can mean a lot of things the
+2:57 simplest way i would describe it and it
+2:59 might be oversimplifying things here
+3:01 but it's about sealing and locking
+3:03 information such that you can't access
+3:05 it unless you have a key so even if
+3:06 someone steals the data they can't
+3:08 really do anything with it without the
+3:10 key an example of this type of
+3:11 encryption is let's say you have data
+3:13 inside of a database and you want that
+3:15 data to be encrypted you would use an
+3:17 encryption algorithm along with a
+3:19 specific key that would then transform
+3:21 that data into a format that's not human
+3:23 readable then in order to access that
+3:25 data the only way you'll be able to do
+3:27 so is by decrypting it with the key all
+3:29 right next up is logging which is an
+3:31 aspect of monitoring and if you're fancy
+3:33 observability logging is a way to help
+3:35 detect and for research purposes
+3:37 identify where there are security issues
+3:39 within your application for example
+3:41 logging information about what a user
+3:43 might be doing or attempting to do
+3:45 that's malicious in your app so going
+3:47 back to our discussion before about data
+3:49 processing when somebody's trying to
+3:50 input malicious data in an email field
+3:52 let's say you can log that you can
+3:54 detect those failed attempts to enter an
+3:56 email as an example which will help in
+3:59 identifying blocking bad actors you can
+4:01 even use that logging data to create
+4:03 automated alerts based on certain
+4:05 thresholds like when your it department
+4:07 sends you a slack message after your
+4:09 fifth failed login and last but not
+4:11 least is testing now typically to
+4:13 developers testing consists of ensuring
+4:15 the functions and operations within your
+4:17 code are behaving as expected but also
+4:20 to handle the unexpected scenarios too
+4:22 but that's just one area of testing in
+4:23 addition to that there's security
+4:25 testing an example of security testing
+4:27 is penetration testing which involves
+4:28 having security researchers and experts
+4:31 attempt to break into your applications
+4:33 and systems on a periodic basis to
+4:34 ensure that it is still safeguarded and
+4:37 that is a brief overview of how we can
+4:39 secure applications this can feel
+4:42 cumbersome tedious and overwhelming
+4:44 especially if we're doing this manually
+4:46 but this is where tools come into play
+4:48 to help simplify things for us
+4:50 what are some tools that can help us
+4:51 secure our applications well there are
+4:53 many out there but we are going to focus
+4:56 on four different types of security
+4:58 tools that is software composition
+5:00 analysis static application security
+5:02 testing dynamic application security
+5:04 testing and interactive application
+5:07 security testing now i'm going to dive
+5:09 into these deeper but here's the quick
+5:11 summary of them
+5:12 first
+5:13 software composition analysis or ska is
+5:16 about security scanning of your
+5:18 dependencies second static application
+5:20 security testing or sas is about
+5:22 security scanning of the code you write
+5:25 next is dynamic application security
+5:27 testing or dast which is about scanning
+5:30 your code while it's running and last
+5:32 but not least is interactive application
+5:34 security testing which is about scanning
+5:36 your code while it's running and users
+5:38 are using it let's start with software
+5:39 composition analysis which is also known
+5:41 as origin analysis this method analyzes
+5:44 all the software components and
+5:45 libraries you're pulling into your
+5:47 application that you didn't write
+5:48 yourself scott tools help you identify
+5:50 known vulnerabilities and notify you of
+5:53 any patches config fixes like disabling
+5:56 a feature or other remediation options
+5:58 what does that mean in practical terms
+5:59 it means if you're relying on open
+6:01 source libraries that you pull into your
+6:02 application you need a scott tool to
+6:04 actively monitor those libraries for
+6:06 vulnerabilities so you don't have to
+6:08 vulnerabilities are regularly disclosed
+6:10 and reported on in open source libraries
+6:12 so you can either be constantly on the
+6:14 lookout for disclosures about all your
+6:16 known libraries or you can use the scott
+6:18 tool to handle it as no two skies are
+6:20 the same it's important to pick one that
+6:22 handles all the languages you use within
+6:24 your applications it's updated regularly
+6:27 and provides recommended fixes for you
+6:28 some skies go even further like sneak
+6:30 open source by adding automated fixed
+6:33 capabilities right into your workflows
+6:35 up next is static application security
+6:37 testing also known as white box testing
+6:39 where you scan your source code at rest
+6:42 sas identifies weaknesses that may lead
+6:44 to a vulnerability and then either
+6:46 generate a report from the results
+6:48 provide a fix in real time to the person
+6:51 writing the code one example of a static
+6:53 application security testing tool is
+6:55 sneak code this will analyze your
+6:57 application code as you write it
+6:58 identify potential vulnerabilities and
+7:00 provide suggested fixes right from
+7:02 within your ide interactive development
+7:04 environment then we have dynamic
+7:06 application security testing unlike
+7:08 static application security testing this
+7:10 is done while the application is running
+7:12 the testing is done without requiring
+7:13 in-depth knowledge of how the system
+7:15 works internally das tools will analyze
+7:18 running code identify issues with the
+7:20 requests and responses any interfaces
+7:22 scripts injections authentication and
+7:25 sessions it uses what's called fuzzing
+7:27 to perform the test last but not least
+7:29 is interactive application security
+7:30 testing this is about combining static
+7:33 and dynamic testing approaches they
+7:34 perform testing on application and data
+7:36 flow using pre-defined test cases the
+7:39 tool may recommend additional test cases
+7:40 based on a result of this so in closing
+7:42 what did we learn we learned what
+7:44 application security is why application
+7:46 security is important where we can go
+7:48 about securing our applications and how
+7:50 to do that and last we learned about
+7:52 some of the tools that are available
+7:53 their purposes and examples of them
+7:55 thank you for watching and be sure to
+7:56 like and subscribe so you don't miss a
+7:58 video

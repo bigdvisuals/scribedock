@@ -1,0 +1,700 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=pYsK9dfUnYA
+Channel: Greg Isenberg
+Video ID: pYsK9dfUnYA
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 Today we're going to talk about how to
+0:01 make money with voice AI agents. Now, I
+0:05 think a lot of people when they hear
+0:06 voice AI agents, they just think of
+0:08 these like robot callers that actually
+0:11 are horrible experiences. Now, I think
+0:14 that there are tons of those poorly set
+0:17 up voice AI agents, but at the same
+0:19 time, we're getting to a point where
+0:21 some of these voice agents actually
+0:24 sound like human beings. And I think
+0:26 there's a bunch of businesses that you
+0:28 can create using voice AI agents that
+0:31 could generate a lot of money. So today,
+0:34 we're going to give you a a primer on
+0:37 how to master voice AI agents, and I'm
+0:40 going to give away a bunch of startup
+0:42 ideas, the exact workflows on how to
+0:44 actually create these startup ideas and
+0:47 frameworks. And let's just start with
+0:49 one just to get just to get you excited.
+0:51 You know, I want I want you to feel
+0:53 excited. And I know that when you go
+0:55 through this startup idea, you're going
+0:57 to be like, "Wow, I could sit through
+0:59 this entire episode to learn exactly how
+1:03 to build these voice AI agents." So,
+1:07 [Music]
+1:14 >> this is startup idea number one. It's an
+1:16 AI property manager voice line. How does
+1:19 it work? We've all been there. We're
+1:22 renting an apartment, your toilet
+1:24 breaks. So, you end up call you call
+1:27 this line
+1:29 1 800 tenant whatever and it transcribes
+1:33 in real time uh what what you're saying.
+1:37 So, it said it knows that you said
+1:38 toilet broken and then it classifies the
+1:41 issue as urgent versus non-urgent. Based
+1:44 on that, it'll either create a high
+1:46 priority ticket using an API and then
+1:49 it'll dispatch a request with notes and
+1:52 photos and then you actually get a text
+1:55 with uh your the ETA and a ticket link.
+1:58 But if it's not urgent, um you know,
+2:01 it'll just log the ticket with normal
+2:04 priority and then it'll text
+2:05 troubleshooting steps and tickets and
+2:08 then you get a push call summary and a
+2:10 sentiment. So this whole process you can
+2:13 use uh you know vapy and 11 labs you can
+2:16 use deep gram and whisper you can use a
+2:18 property management tool like app folio
+2:20 or buildium and just uh uh connect with
+2:24 those those softwares and that's by the
+2:26 way one of the things I love about voice
+2:28 AI agents is you can use it and connect
+2:30 it to outside software
+2:33 repair vendor and then you can use
+2:34 something like Twilio for SMS
+2:37 if you didn't really understand that uh
+2:40 you this framework. I also like thinking
+2:44 about it from a flow perspective. So, uh
+2:47 the inbound ten tenant calls you issue
+2:49 the category is it urgent then you
+2:52 create the ticket. If it's not urgent
+2:54 creates the ticket and self-help SMS and
+2:57 then you sync the summary to the
+2:58 dashboard. This is a business that
+3:02 someone could create and charge $500 a
+3:05 month, $1,000 a month, $1,500 a month.
+3:08 And you know, you don't need that many
+3:11 customers to, you know, have a
+3:13 million-doll business here. So, I think
+3:15 it's totally possible. Um, and I know
+3:17 that there's people listening to this
+3:19 that are going to say, "Well, this
+3:21 already exists." Or, you know, the other
+3:24 the old school property managers are
+3:25 going to get into this. Well, okay. If
+3:28 that's the case, just go nicher. create
+3:31 an AI property management voice line for
+3:34 Quebec or Canada or, you know, with a
+3:39 specific type of brand. Um, so I think
+3:42 it's it's totally doable. Now, I'm going
+3:45 by the end of at the end of the episode,
+3:47 I'm going to go through four more ideas
+3:49 like this and I'm just going to give it
+3:50 away. People charge for this stuff. I'm
+3:52 just giving it away. I want you to have
+3:54 the sauce. I want you to build
+3:55 something. My goal is to get you bu to
+3:58 build something. But I need to start by
+4:00 just explaining lay of the land the
+4:03 foundations a primer about what you know
+4:05 what what what is a voice AI agent why
+4:08 why you should care and what are the
+4:10 different types of voice AI agents. So a
+4:13 voice AI agent is basically a software
+4:16 system that can have natural phone
+4:17 conversations with human beings that
+4:19 understand what people want and that
+4:22 take actions to help them. Think of them
+4:25 as digital employees with three
+4:28 superpowers.
+4:30 Listen and understand. Listen and
+4:31 understand human speech in real time.
+4:34 Think and reason about what you're
+4:35 asking for and speak and act to solve
+4:39 your problems. Now, there's four main
+4:40 types of voice AI agents. Number one,
+4:43 you have customer service agents
+4:45 handling complaints, returns, order
+4:47 status. Number two, you have sales and
+4:50 leads qualifications. That's qualifying
+4:53 prospects, gathering requirements.
+4:55 Number three, you have appointment
+4:57 scheduling. You can book meetings,
+4:59 manage calendars, and lastly, you have
+5:01 information and support, answering
+5:03 questions, providing business info. You
+5:06 know, that's what the four main types
+5:08 are. Now, if we just zoom in here, this
+5:11 is the way to think about it. Uh, how
+5:13 does this work? How do these voice
+5:14 agents work? Well, basically, step one
+5:16 is they listen to your voice. I need to
+5:19 book an an an appointment. Step two is,
+5:22 and this is the key point, and this is
+5:24 why it it's finally starting to get
+5:27 voice AI agents are starting to get
+5:28 good, is because the models are getting
+5:30 better. So, there's an AI brain that
+5:32 understands the intent. So, basically,
+5:35 when you're when you're on the phone
+5:37 with uh with one of these bots, you're
+5:39 on the phone with, you know, an LLM, a
+5:42 Gemini, a chat GBT. Um, so it
+5:45 understands what's happening. And then
+5:48 there's text to speech. Step three, text
+5:50 to speech. That converts the response to
+5:52 voice. I'd be happy with that. And step
+5:54 four, there's some action. So, it takes
+5:56 an action in a business system. It books
+5:58 the appointment. It updates a CRM in
+6:00 Salesforce. It sends a confirmation.
+6:02 Real quick, I need to tell you about
+6:05 something that's helping me sleep better
+6:08 at night as an entrepreneur. I was
+6:10 running multiple companies with money
+6:13 scattered everywhere. zero spending
+6:15 visibility and making growth decisions
+6:18 pretty blind. I knew there had to be a
+6:21 better way and my friend told me about
+6:23 Bracks. So, I switched and now I have
+6:26 mission control for every dollar. Spend
+6:30 management and visibility, virtual cards
+6:32 for my team, and earning cash from the
+6:35 same day Treasury product. I was leaving
+6:38 so much money on the table, but not
+6:41 anymore. I have a financial operating
+6:44 system for our businesses to make
+6:46 decisions so I can spend smarter and
+6:49 move faster and it's been a total
+6:52 gamecher.
+6:53 I'm loving Brex so much. I reached out
+6:57 to them and asked them to sponsor the
+6:59 pod. If you're building something real,
+7:01 you need a complete financial operating
+7:03 system like Brex. It'll help you sleep
+7:06 better, too, and you can't be mad at
+7:08 that. Now, what are the key technology
+7:11 components and what tools do we need to
+7:14 care about? And by the way, at the end
+7:15 of the very end of this episode, I will
+7:17 go through which tools uh you know, the
+7:21 pros and cons of some of these tools and
+7:23 how and if you're technical, which tools
+7:25 you should use and if you're
+7:26 non-technical, which tools you should
+7:27 use. That'll be at the end of the
+7:28 episode. Now, um there's a few
+7:32 components to voice AI agents. You have
+7:34 the speech to text. So, that's going to,
+7:36 you know, you're going to need that to
+7:37 convert the voice to text. So you can
+7:39 use something like deep gram whisper
+7:41 assembly AI. Uh an AI brain you can use
+7:44 something like C GPT uh GP5 I guess code
+7:49 and Gemini uh text to speech you can use
+7:52 11 labs uh which I've talked about a lot
+7:55 on on the pod cartigia opents
+7:58 and then there's these platforms that
+8:00 basically handle everything for you.
+8:02 I've had Lindy AI on on on the on the uh
+8:06 on the podcast before. they do a lot of
+8:09 voice AI, but Vappy and Synflow and
+8:11 Retail um are also uh the big ones. So
+8:17 th those are that's kind of the from a
+8:19 tech perspective like what you need. And
+8:23 a lot of people think that uh voice AI
+8:26 agents are just really just focused on
+8:28 like it's it's a limited use case and
+8:30 it's just not true. Like you can apply
+8:33 voice AI agents to healthcare, you know,
+8:35 appointment booking, insurance
+8:37 verification, home services, emergency
+8:39 calls, service scheduling, legal, client
+8:41 intake, case screening, restaurants,
+8:44 reservations, menu questions, real
+8:46 estate, lead qualification, showing
+8:48 schedules, e-commerce, order status, and
+8:50 returns and exchange. So, this is, you
+8:54 know, it it we we haven't even scratched
+8:55 the surface on on what to do with voice
+8:57 AI agents. I want to just make one
+9:00 important point here. A lot of the time
+9:03 actually human beings are better than
+9:05 the voice AI agents. The only thing is
+9:08 human beings don't work 24/7
+9:11 and voice AI agents can and also
+9:15 uh some people don't have the budget to
+9:18 hire 10 sales reps or 10 uh book you
+9:22 know assistants and stuff like that. So
+9:25 they it's just cheaper to to do this,
+9:27 right? If you're trying to save money,
+9:29 it's it's a good way to do it. I will
+9:31 say though, if it's a complex request,
+9:34 what I like to do here is, you know, I
+9:38 I'll I'll start a voice AI agent, but if
+9:41 it's complicated and I and the LM could
+9:43 see it's complicated, you can have it
+9:45 transfer to a human. So you can say, let
+9:47 me connect you with someone who can
+9:49 help. the other the and what some people
+9:51 do here is if it's salesreated, if it's
+9:54 if it's close to making a sale, just
+9:56 transfer it to a human being. So, that's
+9:58 just something to think about uh is like
+10:00 kind of like a hybrid appro approach.
+10:03 You don't need to go full-on 100% voice
+10:05 AI agent. You can have some voice AI
+10:07 agents help you and that'll get your
+10:09 cost down, help you scale. And then when
+10:11 you actually want to do the sale or you
+10:14 want more of a white glove experience,
+10:16 that's when you do transfer to human. Uh
+10:18 we have a paid membership for
+10:20 entrepreneurs called Startup Empire.
+10:22 There's about 600 people in it and it
+10:24 just helps people who are idea people,
+10:26 help them build their businesses faster.
+10:28 We thought it would be fun to build a
+10:30 Vappy um AI agent that gets feedback
+10:34 from our customers because we always
+10:36 want to make it better and better. Um
+10:38 and we used a flow like this and it's
+10:40 it's working pretty well. And I'm going
+10:42 to actually call Anna, that's her name,
+10:45 Anna the uh Anna Eisenberg AI.
+10:50 Um call her and uh see what uh see what
+10:55 she has to say for us. And and and this
+10:57 is this is how good voice AI agents are.
+11:00 Don't take my word for it. Take Anna's.
+11:03 >> Hello, this is Anna. I'm Startup
+11:05 Empire's AI assistant. I'll be in charge
+11:07 of collecting any feedback you have
+11:09 about your experience in Startup Empire.
+11:12 All of your feedback will be completely
+11:14 anonymous unless you decide otherwise.
+11:16 Let's get started. Would you mind
+11:19 telling us your name? If not, just say
+11:21 no thank you.
+11:22 >> My name is Greg.
+11:24 >> How has being part of Startup Empire
+11:26 helped you or your business?
+11:28 >> It's been pretty good. I've only been a
+11:30 member for 30 days and I noticed that
+11:33 there's some amazing people in the
+11:35 community, but I want to spend more time
+11:38 with them. I just don't know how.
+11:39 >> Could you please provide more details?
+11:42 >> Yeah, absolutely. I noticed that there
+11:44 was someone named Jordan in the
+11:46 community and I I I want to hop on a
+11:50 Zoom with him or just get to know him
+11:53 better because I just think he's super
+11:54 smart. What did you think was the most
+11:57 useful or impactful part of your
+11:59 experience?
+12:00 >> I would say every few weeks the Tony
+12:03 does a an AI chat where he just shows
+12:07 the latest stuff and and what what
+12:10 what's working for him. That has been
+12:11 the most interesting thing for me.
+12:13 >> If you could change one thing about our
+12:16 community or product, what would it be
+12:18 and why?
+12:19 >> I think that there's so many smart
+12:21 people in the community. It's just about
+12:23 how do I spend more time with them?
+12:26 >> Is there anything else you'd like to
+12:27 add?
+12:28 >> No.
+12:29 >> Thanks for taking the time to give us
+12:31 feedback. We appreciate you. Bye
+12:34 >> bye. So the cool thing about it is now
+12:38 uh what we do is we actually take that
+12:40 feedback, we send it to an LLM. It
+12:42 summarizes it. It shares it on our
+12:44 Slack. And I can actually show you that.
+12:47 See Empire notifications. You can see
+12:51 Greg. So, Greg, a 30-day startup empire
+12:54 member, shared valuable feedback,
+12:55 highlighting the community's smart
+12:56 people in Tony's impactful AI sessions.
+12:59 His main suggestion is to create more
+13:00 opportunities for members to connect
+13:02 deeper and specifically mentioning want
+13:04 to interact with more community members
+13:06 like Jordan.
+13:07 How cool is that? How cool is that? And
+13:11 now our community manager can go in and
+13:14 be like, "Okay, there's this person
+13:15 named Greg. Let's go connect him with
+13:17 Jordan. Let's do more events." um and
+13:20 everyone on our team could see. So, this
+13:22 is a bit of the primer on what voice AI
+13:25 agents are. And I want to get to the fun
+13:28 stuff. I want to get to the ideas. I
+13:30 want to give that these ideas and I hope
+13:32 you uh you end up building it. The
+13:35 second idea is an AI patient intake
+13:39 assistant for dentists.
+13:41 So, uh you know, you call up this
+13:44 number. I'd like to book a cleaning. It
+13:46 transcribes
+13:48 um an entity extract. So your name, your
+13:52 date of birth, your insurer, and then it
+13:55 checks the patient record. Are you an
+13:57 existing or new patient? If you're a new
+13:59 patient, it needs your insurance
+14:01 provider and member ID. So then it goes
+14:03 and creates that um and then it'll
+14:06 create that in a in a software. The
+14:08 popular ones in the dental world are
+14:10 Dentrix and Open Dental. It queries uh
+14:14 the appointment slots. It'll see if
+14:15 there's available times. It offers the
+14:17 top three times for you. You select the
+14:20 slot, the book, it books the slot, but
+14:22 plus a little buffer. It adds
+14:24 appointments and the notes and then it
+14:26 sends the confirmation and forms link.
+14:29 So the text stack needed for something
+14:30 like this is uh you're going to use
+14:33 something like a Vappy, a deepgram,
+14:36 whatever system that the dentist is
+14:38 using. Uh calendar, you can use, you
+14:41 know, Google calendar or Calendarly. Um,
+14:43 and then Twilio. Um, so super simple
+14:47 idea, something that you could sell to,
+14:50 you know, dental companies all day long.
+14:53 Um, it's a it's a it's a huge value ad
+14:56 for people to be able to call at any
+14:58 hour of the day to do this. And then
+15:01 dental offices are are good customers.
+15:03 Like they they make a lot of money.
+15:04 There's a lot of revenue there. I could
+15:06 see you end up potentially selling this
+15:09 to one of the practice systems. It's
+15:11 like not crazy that you scale this to12
+15:14 $2 million in revenue and they're like,
+15:16 "Yeah, we'll pay you four to 6x
+15:18 revenue." Um, and
+15:22 you know, life-changing uh result. So, I
+15:25 love this idea. I think it's
+15:26 interesting. Someone please build it.
+15:29 And then from a flow perspective, this
+15:31 is what it looks like. The call starts
+15:34 um and matches by the name and date of
+15:35 birth. um the yes no and you get your
+15:40 SMS confirmation.
+15:42 That's idea number two. Idea number
+15:44 three, and I I I must say I stole this
+15:47 idea from ideabrowser.com where if you
+15:50 haven't been already, go there to grab
+15:52 all your startup ideas. Um so what is
+15:56 the a what is it? It what is number
+15:58 three? AI HOA hotline. So um HOAs are
+16:03 huge especially in the United States.
+16:05 There's I think must be millions of
+16:07 people living in HOAs. So let's say you
+16:10 you call this hotline. It says when is
+16:12 the trash pickup? It looks through
+16:14 semantic search in the FAQ
+16:17 um or database knowledge database. It
+16:19 finds the answer. Gives you the answer
+16:22 snippet. It provides the time and rules.
+16:25 It log the calls and resolution and um
+16:29 it collects the details, address and
+16:31 evidence. It stores the structured
+16:33 result or sorry it stores the structured
+16:36 record and it creates the ticket and
+16:39 notifies the HOA manager. So this is a
+16:43 very simple very very simple flow. Um
+16:47 and I wanted to put this here because
+16:49 it's also you know it's just not that
+16:51 complicated and it's about having the
+16:54 information in a database like you can
+16:56 store it in an air table. like this is a
+16:58 simple simple uh voice AI agent business
+17:02 that you can create use retail or Vappy
+17:05 um you'll have to obviously have the
+17:06 knowledge database you have to create
+17:08 that content but you probably already
+17:10 have it anyways um and then yeah you
+17:14 just literally use an air table. So
+17:16 super super simple um HOAs have a lot of
+17:20 money um it's a good customer to sell
+17:22 into. uh it can scale a lot um and uh
+17:28 makes the lives of people better. So um
+17:31 that's that's idea number three for you.
+17:35 This one this is a this is a funny one.
+17:37 So um
+17:41 I don't know about you but uh I kind of
+17:44 remember this being a problem in
+17:46 elementary school. So it's called the AI
+17:49 school absence line. So Johnny, you
+17:52 know, you call this number and you say
+17:54 Johnny Smith, grade four is sick today.
+17:56 It transcribes and extracts those
+17:58 entities. So it's like, okay, Johnny
+18:00 Smith, name grade four. Got it. Name,
+18:02 grade, date, reason. It validates that
+18:05 Johnny Smith is in fact a student uh in
+18:10 you know uh Miami public in Miami
+18:14 grade school. And if it's valid, it
+18:17 append it appends the absence row. It
+18:20 compiles and sends an 8 am daily report
+18:23 um to P school which is uh software uh
+18:27 for um K through 12 uh it's a it's like
+18:33 a vertical software for K through 12 um
+18:36 for schools. It confirms it and uh yeah
+18:42 you you can have it as to repeat and
+18:44 clarify and it flags the exception for
+18:46 the office. So, you know, could be cool,
+18:48 right? could be cool. Just like a very
+18:50 more a very
+18:53 uh
+18:55 clean way of dealing with people are
+18:58 sick, kids get sick and they get sick
+19:00 all the time. And wouldn't it be great
+19:02 if it just automatically updated the
+19:04 database into a Google sheet, there's a
+19:07 daily email report. This is valuable.
+19:10 Now, it is harder to sell to schools. It
+19:12 is harder to sell to schools. So, I
+19:14 think that if I were going to do
+19:15 something like this, it might be one of
+19:17 those things where you kind of give it
+19:18 away. You give it away and you get them
+19:22 on the on the product and then over time
+19:24 once you've earned their trust, then you
+19:25 upsell them. So, that that's what I
+19:27 would do here. I would literally give
+19:28 this away. Um, and uh and then start
+19:33 there's, you know, once once you're in
+19:35 their system and you're integrated, then
+19:36 you can think about, you know, what are
+19:38 other things that you can go ahead and
+19:40 sell to them. So, um, it might look like
+19:43 a funny, simple idea, um, that can't go
+19:46 anywhere, but I actually think it's like
+19:47 a sneaky, really good idea that's a huge
+19:50 wedge into something that can be a lot
+19:52 bigger.
+19:54 And here's the flow for for folks that
+19:56 want to screenshot that. Uh, another
+19:59 idea, and we have I think we have one
+20:01 more idea, and then we're going to get
+20:02 to um the different tools and and and
+20:05 and the pros and cons, uh, if you're
+20:08 technical or non-technical. So, this one
+20:10 is the AI trade contracting uh
+20:13 contractor answering service. So,
+20:15 basically an answering service if you're
+20:16 a plumber, HVAC, electrician had to do a
+20:20 boring business idea in here. So, okay,
+20:23 let's break it down. How does this work?
+20:25 So, the customer calls in and says, "The
+20:28 water heater is leaking."
+20:30 You do an urgency check plus address
+20:33 plus photos via an SMS link. And then it
+20:36 queries the next slot by zone and tech.
+20:40 You get the slot options um via Google
+20:44 calendar. Um and then you offer the
+20:46 earliest window. So you know I should
+20:48 have said the voice agent is something
+20:49 like a Vappy and 11 Labs. You're
+20:52 checking the calendar. You're offering
+20:53 the earliest uh window and if they
+20:56 accept then you can actually take the
+20:58 deposit using Stripe or whatever payment
+21:01 processing you use. Um, and then if it's
+21:04 successful, um, that's awesome. You can
+21:07 create a job ticket and attach photos.
+21:10 Um, and then you can do an SMS
+21:12 confirmation and prep instruction. So,
+21:14 what I love about these voice AI agents
+21:18 and and it's built into all these
+21:21 different softwares is it it makes it a
+21:23 lot easier for the businesses, right?
+21:25 So, if it makes it a lot easier for the
+21:27 businesses, there is value that you're
+21:29 creating for them. And if there is value
+21:31 that you're creating for them, you can
+21:33 charge them money for it. Now, how much
+21:36 could you charge? I don't know, a few
+21:38 hundred a month, maybe. Um, $800, $500.
+21:42 Um, tough to say exactly, but I do think
+21:44 that they'd be willing to pay for it and
+21:47 on a monthly basis. So, um, I like this
+21:50 idea. I also think that it's interesting
+21:52 that, you know, obviously that you can
+21:54 connect payments, right? like people
+21:57 that's the that's the cool thing about
+21:59 um Voice AI agents and the integrations
+22:02 to these platforms is you can literally
+22:06 collect payments 24/7. It's kind of like
+22:08 the internet, right? Like it blew
+22:10 people's minds that you, you know, when
+22:12 the internet came out that you can go on
+22:14 the internet and people can put in their
+22:16 credit card and they can buy a digital
+22:18 product or physical product and you can
+22:20 wake up every single morning and you're
+22:22 getting paid. Now, the same idea could
+22:25 be applied to all these voice AI agents.
+22:28 You could literally just wake up and
+22:31 just if you're own, you know, you own an
+22:32 HVAC company or you're a plumber, oh my
+22:35 god, I have these four or five new
+22:37 customers that came in. Um, which is
+22:40 super super awesome.
+22:43 And here's what the flow looks like over
+22:46 here. Um, again, I think it's really
+22:48 interesting that you can upsell people
+22:51 using these voice AI agents, offer an
+22:53 annual maintenance plan, um, and then
+22:56 tag them in the CRM.
+22:58 Now, the last idea is a bit grim. Um,
+23:02 but you know, it's basically this idea
+23:05 that, um, you know, an AI funeral home
+23:09 intake line um, that's compassionate and
+23:12 compliant, of course. So, a family
+23:15 caller uh calls the line uh reports the
+23:18 passing of a loved one um and requests
+23:21 assistance. Um I I just put this in
+23:24 because I think it's important to note
+23:25 that uh you know, you'd want to have the
+23:28 the Vappy or whatever voice AI agent you
+23:31 use that's super soft tone. Um low pace,
+23:34 empathetic prompts, you know, no rush,
+23:36 I'm here to help. Things like that,
+23:38 putting it in there. Um and of course um
+23:41 if people do want to speak to a human
+23:43 being you should have that option for
+23:45 people um especially during that time.
+23:49 Um so it transcribes the entity and
+23:51 intent extract. So you know the name the
+23:53 time location maybe you know the
+23:55 religion any preferences they might
+23:57 have. It creates a pre preliminary case
+23:59 file. They gather key details pickup
+24:02 location contact preferences um and
+24:05 notifies the on call director with a
+24:07 summary. uh confirms call back window.
+24:10 It provides an ETA and what to expect,
+24:12 document, checklist, PDFs, anything like
+24:14 that. Um and then sends any
+24:16 compassionate resources, confirmation,
+24:18 and maybe um uh a phone number of or
+24:22 many phone numbers of the of people they
+24:24 can speak to if they need any support,
+24:26 if they want to talk about anything. Um
+24:29 you know, I have here on call director
+24:31 human. It's important to have that human
+24:32 in the loop. So this is like a hybrid
+24:34 idea um that just is an intake form um
+24:38 for you know a space that you know a lot
+24:40 of people aren't create you know
+24:42 creating uh software for for in the
+24:45 funeral home industry but you know if
+24:47 you can make the lives easier for for
+24:49 that business and and for the people
+24:50 running it um so that they can focus on
+24:53 their job and and and and stuff like
+24:55 that I think uh
+24:57 that could be great. So, you know,
+25:00 that's that's that's the last idea um
+25:05 that I want to give. Um and I think a
+25:08 lot of people hopefully a lot of people
+25:10 went through some of these ideas and are
+25:12 like, "Wow, this is I could do something
+25:14 like this. I could see myself building a
+25:15 voice AI AI business uh either hybrid or
+25:20 fully voice AI." Um and I just but I
+25:24 just don't know like which voice AI AI
+25:27 platform to start. So, you know, it
+25:30 I can't answer that for everyone. But
+25:33 what I will say is um you know, do you
+25:36 code or not? Well, if you don't code,
+25:39 then and your your your priority is
+25:41 speed and quality, then I would say, you
+25:44 know, something like Synthflow, which is
+25:46 about a 30 minute setup. Um it's a
+25:48 visual builder. It's about $29 to $450 a
+25:51 month. Perfect for an MVP. If you want
+25:54 quality, something like uh retail. um
+25:59 retail AI. So, it's natural
+26:00 conversations, handles interruptions,
+26:02 it's usage based, it's a bit of more of
+26:04 a premium experience. Now, if you're a
+26:06 bit more technical, and you don't have
+26:08 to be super technical, but a bit more
+26:10 technical, I would say using something
+26:12 like uh Vappy, I've used Vappy for a few
+26:17 a few uh a few use cases and it's been
+26:19 really great. Open AAI, TTS, Whisper, uh
+26:23 GPT, U Mini. Um but you know that's in
+26:27 the less to 50% uh 50 cents uh per call
+26:31 I believe. So um it does add up right.
+26:34 Um more than 50% there are there are
+26:37 some um you know more expensive tools
+26:40 that you could be using but yeah I think
+26:42 uh for the most part you know using
+26:44 something like Vappy or Synthflow or
+26:47 Retail is kind of where you want to
+26:49 start. Vappy is a little more uh
+26:52 technical, but if you can figure it out,
+26:54 I highly recommend Vappy. I'm not I
+26:57 don't work with them. Um
+27:00 and I'm not sponsored by any of these
+27:02 tools, but um I do think that having you
+27:07 know, I don't know. I find that if you
+27:08 can learn how to use it, um it's it's
+27:11 worth it. And it's just you have to be a
+27:13 little bit technical. Uh you have to be
+27:15 a little bit technical. So, I should
+27:17 also mention that I'll include in the in
+27:20 the show notes a pl uh how to actually
+27:23 get access to this Excal. I know that's
+27:26 big question that people have. They they
+27:28 see they see me do these these and
+27:30 they're like, "Hey, I need this. I need
+27:31 this. I don't want to just screenshot
+27:33 it." So, please like and comment before
+27:35 you grab it. Just do a quick like and
+27:37 comment and then grab the uh link from
+27:40 the show notes and I can't wait to see
+27:42 what you build. Um there you have it.
+27:45 This is uh how to master voice AI agents
+27:49 with some startup ideas in there.
+27:52 Hopefully now you have like a good
+27:53 foundation of what is happening in the
+27:56 world of voice AI agents and how you
+27:59 could how you can partake in it. Uh
+28:02 that's the magic of voice AI and I know
+28:05 it's not perfect but voice AI and
+28:07 connecting it with software and the
+28:09 automations that you can do. It's really
+28:11 really something special. if you can see
+28:13 past, you know, some of it is janky, of
+28:15 course. Uh it's only going to get
+28:17 better. Um and uh if you're here, you're
+28:21 early. So, this is just scratching the
+28:23 surface, of course. Um this is the tip
+28:26 of the iceberg. If people want me to go
+28:28 deeper into any of these topics, maybe
+28:30 doing a tutorial on something like Bappy
+28:32 or one of these platforms, just let me
+28:35 know. I read every single YouTube
+28:37 comment. Um I see every tweet that is
+28:40 tweeted at me. Um, I love when people
+28:43 like the video. It gives me a sense to
+28:46 know if I should create more stuff like
+28:47 this. So, please, please let me know.
+28:50 Um, I live to serve and and I want to
+28:53 see you build something big and great.
+28:56 Um, so thank you. Um, I'll see you in
+28:59 the comment section and uh, have a
+29:03 creative day, friends.

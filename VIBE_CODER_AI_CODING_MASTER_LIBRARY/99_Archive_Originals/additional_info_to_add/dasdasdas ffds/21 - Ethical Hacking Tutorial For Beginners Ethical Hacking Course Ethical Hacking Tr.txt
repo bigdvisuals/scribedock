@@ -1,0 +1,977 @@
+Title: Ethical Hacking Tutorial For Beginners | Ethical Hacking Course | Ethical Hacking Training | Edureka
+URL: https://www.youtube.com/watch?v=YkZBsiQj5lc&list=PL9ooVrP1hQOGPQVeapGsJCktzIO4DtI4_&index=25&pp=iAQB
+Channel: YouTube playlist
+Video ID: YkZBsiQj5lc
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:24:55.858Z
+
+0:00 [Music]
+0:10 hi guys my name is Aria and I welcome
+0:13 you all to this ethical hacking tutorial
+0:15 so I have a lot to cover and let's get
+0:18 started now to begin with let's look
+0:20 into what exactly is hacking and let's
+0:22 go over brief introduction to hacking
+0:24 and it's different types so hacking is
+0:26 identifying weaknesses in a computer
+0:28 system or networks to exploit its
+0:30 weaknesses to gain access an example of
+0:33 hacking is like using a password
+0:35 tracking algorithm to gain access to a
+0:38 target system now computers have become
+0:40 mandatory to run a successful business
+0:42 it is not enough to have isolated
+0:44 computer systems they need to be
+0:46 networked to facilitate communication
+0:48 with all sorts of external businesses
+0:50 that exist out there now this exposes
+0:53 them to the outside world and hacking as
+0:55 a whole
+0:56 now hacking means using computers to
+0:58 commit fraud and acts such as privacy
+1:00 invasions stealing corporate and
+1:02 personal data cyber crimes and all sorts
+1:05 of stuff now cyber crimes cost many
+1:07 organizations millions of dollars every
+1:09 year and businesses have actually
+1:12 realized the need to protect themselves
+1:13 against such attacks because of the
+1:15 losses that have incurred on their
+1:17 neighboring companies now before we go
+1:19 ahead let me just familiarize you guys
+1:21 with some of the most commonly used
+1:22 terminologies in the hacking world so
+1:25 firstly who is a hacker now hacker that
+1:27 you see on your screen is this black
+1:29 person out here a hacker is a person who
+1:31 finds and exploits the weakness in
+1:33 computer systems and our networks to
+1:35 gain access
+1:35 hackers are usually skilled computer
+1:38 programmers with in-depth knowledge of
+1:40 computer security now hackers are
+1:43 classified according to the intents of
+1:45 their action now the first type of
+1:47 hackers are called white hat hackers now
+1:50 a white hat hacker is also known as an
+1:53 ethical hacker now this type of hacker
+1:55 is a hacker who gains access to systems
+1:57 with a view to fix the identified
+1:59 weakness they may also perform sorts of
+2:02 penetration testing and vulnerability
+2:03 assessment and the most important part
+2:05 takes note about an ethical hacker or a
+2:07 white hat hacker is that they get prior
+2:10 information from the company or the
+2:12 target that they are hacking into
+2:13 so this is what actually sets him apart
+2:15 from a cracker or a black hat hacker now
+2:18 a hacker who gains unauthorized access
+2:21 to computer systems for personal gains
+2:23 that person is called a black hat hacker
+2:25 the intent is usually to steal corporate
+2:27 data violate privacy rights transfer
+2:30 funds from bank accounts and more such
+2:33 malicious stuff then there is also a
+2:35 blend of poets called the grey hat
+2:37 hacker so a grey hat hacker is a hacker
+2:39 who's in between ethical and black hat
+2:41 hackers he or she breaks into a computer
+2:44 system with our authority with a view to
+2:46 identify weaknesses and reveal them to
+2:48 the system owner in return for some bug
+2:50 bounty so companies like Google for
+2:52 example actually put out a lot of bug
+2:55 bounties now bug bounties are basically
+2:58 telling the public that you are free to
+3:00 actually find a bug in my system and if
+3:03 you do so and tell me about it I will
+3:05 reward you so that is what a bug bounty
+3:07 is now cyber crimes is the use of
+3:10 computers and networks to perform
+3:12 illegal activities such as spreading
+3:14 computer viruses online bullying and
+3:16 performing unauthorized electronic fund
+3:18 transfers most cyber crimes are
+3:20 committed through the internet and some
+3:22 cyber crimes can also be carried out
+3:23 using mobile phones via SMS and online
+3:26 chatting applications now there are a
+3:28 bunch of types of cyber crimes which I
+3:30 have actually discussed in my previous
+3:32 video called
+3:33 what is cyber security II and watch is
+3:35 ethical hacking so y'all can look up
+3:37 that now let me just get to the point of
+3:39 explaining what exactly ethical hacking
+3:41 is unless you've already understood it
+3:43 now ethical hacking is identifying
+3:45 weaknesses in computer systems and/or
+3:47 computer networks and coming with
+3:49 countermeasures that protect the
+3:50 weakness now ethical hackers have some
+3:52 goals that they need to meet if they're
+3:54 working for a company firstly they need
+3:56 to protect the privacy of the
+3:57 organization's from being hacked
+3:59 secondly they have to transparently
+4:01 report all the identified weakness in a
+4:03 computer system to the organization
+4:05 thirdly they have to inform hardware and
+4:07 software vendors that are catering to
+4:09 the company of the identified weakness
+4:11 and how they can be patched so these are
+4:14 the three main goals of an ethical
+4:16 hacker now why is an ethical hacker very
+4:19 important for a company but firstly
+4:21 information is one of the most valuable
+4:23 assets of an organization keeping
+4:25 information secure can protect an organ
+4:27 image and save an organization a lot of
+4:30 money this is because hacking can lead
+4:33 to a loss of business for organizations
+4:35 that deal in finances for example PayPal
+4:38 now ethical hacking puts them a step
+4:40 ahead of the cyber criminals who would
+4:42 otherwise lead to a loss of business so
+4:44 basically an ethical hacker would try to
+4:47 mimic a hacker and see what all while
+4:49 his ability is that he would find for
+4:51 suppose PayPal PayPal has a lot of
+4:53 ethical hackers working for them so they
+4:55 are constantly trying to find any sort
+4:57 of bugs that might be in their payment
+4:59 gateway which is actually letting fun
+5:02 being transferred without being
+5:03 invalidated so that would be a bug so an
+5:06 ethical hackers job is to actually
+5:08 identify that bug and patch it up before
+5:10 any cyber criminal actually finds that
+5:13 bug and uses it for his own malicious
+5:15 intents now the legality of ethical
+5:18 hacking now let me take a moment to
+5:20 actually talk about this topic
+5:21 now Ethel hacking is legal if the hacker
+5:24 abides by all the goals that he has to
+5:26 meet Pepe had just discussed
+5:28 now international council of e-commerce
+5:30 consultants or the EC Council provides a
+5:32 certification program that tests an
+5:34 individual skill those who pass the
+5:36 examinations are awarded with
+5:38 certificates and the certificates are
+5:40 supposed to be renewed after some time
+5:41 now our course at Eddie Rica that is the
+5:44 ethical hacking course is completely
+5:46 aligned to the CH v10 so y'all can go
+5:49 ahead and check that out if you all want
+5:50 to become an ethical hacker because that
+5:52 will certainly guide you as to how you
+5:54 can achieve that certification okay now
+5:56 moving on as an ethical hacker you will
+5:59 be dealing with a bunch of security
+6:01 threats all the time so it's very
+6:03 necessary that you know what exactly a
+6:06 security threat is and what kind of
+6:08 security threats exist now computer
+6:10 system threat is anything that leads to
+6:13 loss or corruption of data or physical
+6:16 damage to the hardware and/or the
+6:18 infrastructure knowing how to identify
+6:20 computer security threats is the first
+6:22 step in protecting computer systems the
+6:25 threats could be intentional accidental
+6:27 or caused by natural disaster now in
+6:30 this section we are going to talk about
+6:31 all sorts of security threats and we are
+6:34 going to talk about the types of
+6:35 security threats so what exactly is a
+6:38 security threat now security threat is
+6:40 defined as a risk
+6:41 that can harm or potentially harm a
+6:44 computer system or an organization the
+6:46 cost could be a physical one such as
+6:48 someone stealing computer or it could be
+6:50 a non-physical one such as a virus
+6:53 attack now these are the two kinds of
+6:54 threats that are existing out there this
+6:57 is physical threats and non-physical
+6:58 threats now there are also different
+7:00 kinds of physical threats now let's look
+7:02 into you the types of threats first it
+7:04 is internal threats secondly it's
+7:06 external threats and third is human
+7:09 threats now let's go over them one by
+7:11 one so firstly let's look at some
+7:13 examples of internal threats a file that
+7:16 is inside the system or some unstable
+7:19 power supply or humidity that is
+7:21 actually accumulating and becoming dew
+7:24 drop somewhere or malfunctioning your
+7:26 system then we come to external threats
+7:28 which include stuff like lightning
+7:29 striking down your house floods and
+7:32 earthquakes so these are the types of
+7:34 external threats so the last kind of
+7:36 threats that we have is human threats
+7:38 now human threats include theft or
+7:40 vandalism of the infrastructure or the
+7:42 hardware disruptions or accidental and
+7:45 unintentional errors that caused your
+7:48 computer system to malfunction
+7:50 now let's move on to non-physical
+7:52 threats now these are the kind of sets
+7:54 you as an ethical hacker will be dealing
+7:56 with much more so non physical threats
+7:58 is completely your forte so non-physical
+8:01 threats include loss or corruption of
+8:03 system data or disruption of business
+8:06 operations that rely on computer systems
+8:07 or the loss of sensitive information
+8:10 then non-physical threats can also
+8:13 include illegal monitoring of activities
+8:15 or computer systems then cyber security
+8:18 breaches of all sorts and other stuffs
+8:20 like viruses Trojans worms spyware
+8:22 keyloggers
+8:23 adware there's so many other stuff even
+8:25 denial of service attacks common non
+8:27 physical threats so basically you get
+8:29 the idea that anything which doesn't
+8:31 have a physical form like of computer
+8:33 virus or worms or a DDoS attack is a non
+8:37 physical threat now to protect an
+8:39 organization against non-physical
+8:41 threats there are things that you could
+8:42 do so firstly as an organization to
+8:45 protect your computer system from the
+8:47 previously mentioned threats an
+8:48 organization should have a logical
+8:50 security measure in place now logical
+8:53 security measures could include
+8:54 stuff like anti viruses our
+8:56 cybersecurity measures like some
+8:59 Incident Response system that you have
+9:01 for your organization for such stuff now
+9:04 to protect yourself against viruses and
+9:06 Trojans and forms and all sorts of stuff
+9:08 an organization can use anti-virus
+9:10 office now in addition to antivirus
+9:13 software and organization can also have
+9:16 a control measure on the usage of
+9:18 external storage devices and visiting
+9:20 websites that is most likely to download
+9:23 unauthorized programs onto the user's
+9:24 computer
+9:25 thirdly unauthorized access to computer
+9:28 systems resources can be prevented by
+9:30 the use of authentication methods and
+9:32 the authentication method can be in the
+9:34 form of user IDs and strong passwords
+9:36 smart cards and biometrics of sorts last
+9:39 but not the least is the installation of
+9:41 intrusion detection or intrusion
+9:43 prevention systems that is your IPS and
+9:46 IDs that these can be used to protect
+9:48 against denial of service attacks and
+9:50 there are other measures too that can
+9:52 also be used for denial of service
+9:53 attacks so these were some of the
+9:55 preventive measures that you should take
+9:57 for non-physical sets now it is not
+10:00 necessary for you to become an ethical
+10:02 hacker to take all these preventive
+10:04 measures now you sitting at home and
+10:06 watching this video can do this actually
+10:07 very simply by just using a virtual
+10:10 private network whenever you're browsing
+10:12 the internet or using a very good
+10:14 antivirus system that you've actually
+10:17 paid for because nothing actually good
+10:18 comes free let's remember that now I
+10:21 digress and let's move on ok now let's
+10:24 talk about the skills that you would
+10:26 need to become an ethical hacker so
+10:29 firstly you need to be good at
+10:31 programming now a programming language
+10:33 is a language that is used to develop
+10:35 computer programs and there are plenty
+10:37 of examples like HTML javascript Python
+10:41 PHP and you should be proficient at
+10:44 quite a few of these I'll tell you why
+10:45 it's very soon so secondly you should
+10:48 also have a very good and in-depth
+10:50 knowledge of operating systems
+10:52 especially because you'll be working on
+10:54 Linux mostly if you are an ethical
+10:56 hacker now you should know how to go
+10:59 about the command-line that exists in
+11:02 Linux and all the bash commands because
+11:04 you'll be extensively using them for
+11:05 your networking purposes which
+11:08 Peter my third point that you should be
+11:10 proficient at networking and should know
+11:12 the ins and out of how a packet actually
+11:15 gets delivered from your computer to a
+11:17 target system so three things
+11:19 programming operating systems and
+11:22 networking these are the three things
+11:23 that you will be basically playing
+11:25 around with every day as an ethical
+11:26 hacker
+11:27 now many people normally ask what
+11:30 programming languages should I learn if
+11:33 I'm trying to become an ethical hacker
+11:34 well there is no one answer because you
+11:37 will be dealing with a bunch of services
+11:39 so it would be smart for you as a person
+11:41 pursuing ethical hacking you know at
+11:43 least one example of all the types of
+11:45 languages that exists out there for
+11:47 example take HTML so you could learn
+11:50 HTML for actually knowing how webpages
+11:53 work which will help you because it's a
+11:55 cross-platform language and it is
+11:57 basically good if you are actually
+11:59 targeting web hackers now logging forms
+12:01 and other data entry methods are used
+12:03 using HTML to get these form types of
+12:06 data now you could also learn PHP which
+12:08 is of a create server-side language and
+12:10 is widely used over the Internet and
+12:12 knowing PHP will actually help you
+12:14 exploit weak PHP code so if suppose a
+12:18 company has some very weak back-end and
+12:20 you as an ethical hacker have to test
+12:22 out their back-end you should be
+12:24 proficient enough to know what the
+12:25 language is doing and where the
+12:27 discrepancies in the code exist because
+12:29 you wouldn't know that if you're not
+12:31 proficient at PHP same goes for
+12:33 databases now you should definitely know
+12:36 some PostgreSQL and some no SQL along
+12:39 with some SQL of course because SQL is
+12:42 the most commonly used but as an ethical
+12:44 hacker you'll be working with these
+12:45 three types of databases so it would be
+12:48 pretty helpful to know all these types
+12:50 of languages like MySQL is must then
+12:53 also knowing some bash scripting because
+12:55 you'll be working on Linux and most of
+12:57 the times you'll be tinkering around
+12:59 with tools and you'll be trying to
+13:00 customize them to meet your own needs so
+13:03 you should learn all sorts of
+13:05 programming if you're trying to become
+13:06 an ethical hacker because there is no
+13:09 single language that he'll be working on
+13:11 now where else is programming actually
+13:14 used when ethical hacking many people
+13:17 ask me after asking what programming
+13:20 language should I use that
+13:22 why should I learn programming when I'm
+13:23 doing ethical hacking now let me just
+13:25 try and explain that now firstly hackers
+13:27 are the problem solvers and tool
+13:29 builders of the company and learning how
+13:31 to program will help you implement the
+13:33 solutions to problems are you find in
+13:35 the company security now it also
+13:38 differentiates you from script kiddies
+13:40 who actually use pre-made tools to
+13:43 actually hack into systems so those are
+13:45 the people who are just practicing
+13:47 hacking and they already use pre-made
+13:49 tools like Metasploit and MIT MF
+13:51 frameworks to actually put off some
+13:54 hacking gimmicks now writing programs as
+13:57 a hacker will also help you automate
+13:59 many of the tasks which would usually
+14:01 take a lot of your time to complete so
+14:03 time saved is money made and thirdly
+14:06 writing programs can also help you
+14:08 identify and exploit programming errors
+14:10 in applications that you will be
+14:12 targeting now last but not least you
+14:15 don't have to reinvent the wheel all the
+14:17 time there are a number of open source
+14:18 programs that are readily usable out
+14:20 there but it is always useful that you
+14:23 can customize already existing
+14:25 applications and add your own methods to
+14:27 suit your needs and that would be
+14:29 impossible if you had no idea of how to
+14:31 program so there you go I give you for
+14:34 very good reasons as to why you should
+14:36 learn programming as an ethical hacker
+14:38 or person who is trying to pursue
+14:40 ethical hacking as a career now let's go
+14:42 with the different types of tools that
+14:44 ethical hackers use on day to day basis
+14:46 so the first tool that we are going to
+14:49 talk about is net sparkle now net
+14:51 sparkle is an easy-to-use web
+14:52 application security scanner that can
+14:54 automatically find SQL injections
+14:56 cross-site scripting x' and other
+14:58 vulnerabilities in your web application
+15:00 and web services and it is available as
+15:03 an on-premise and the software as a
+15:05 service solution now its features
+15:07 include dead accurate vulnerability
+15:09 detection with unique proof based
+15:11 scanning technology it is also known for
+15:13 its minimal configuration required the
+15:16 scanner automatically detects the URL
+15:18 rewrites rules custom 404 error pages
+15:20 then is the rest api for seamless
+15:23 integration with the STL c bug tracking
+15:25 and it is also fully scaleable solution
+15:27 it can scan 1,000 web applications in
+15:30 just 24 hours
+15:32 ok so the next two of our we're going to
+15:34 be talking about
+15:35 Bob Suter now Bob suit is a useful
+15:37 platform for performing security testing
+15:39 of web applications its various tools
+15:41 work seamlessly together to support the
+15:44 entire penetration testing process it
+15:46 spans from initial mapping to analysis
+15:49 of an applications attack surface now
+15:51 its features are that it can detect over
+15:54 3,000 web application vulnerabilities it
+15:56 can scan open source software's and
+15:58 custom-built application it has an
+16:00 easy-to-use log in sequence recorder and
+16:02 allows the automatic scanning and it can
+16:06 also be used for reviewing volatility
+16:07 data which built-in valves ability
+16:09 management it also easily provides wide
+16:11 variety of technical and compliance
+16:13 reports and it can also be used for
+16:15 detecting critical vulnerabilities with
+16:18 100% accuracy it can be used for
+16:20 automated crawl and scan advanced
+16:22 scanning features for manual testers and
+16:24 it is also a cutting edge scanning logic
+16:27 now the next tool that we're going to be
+16:28 talking about is n map
+16:30 now n map is a reconnaissance tool now
+16:33 recognizance is the first phase of
+16:35 ethical hacking so in recognizance we
+16:38 are actually trying to gather all the
+16:39 information and n map is a brilliant
+16:41 tool for doing that it can tell you
+16:43 about the hood domain name server it can
+16:46 tell you how a packet is actually
+16:48 reaching the target system it can
+16:51 determine what kind of an operating
+16:54 system the target system is using which
+16:56 is basically footprinting it can also do
+16:58 some very basic fingerprinting that is
+17:00 trying to figure out how a packet
+17:03 reaches which I just said what is the
+17:06 server information like when was the
+17:08 server created whose name is the server
+17:10 under where does the server located so
+17:12 all sorts of information gathering stuff
+17:14 and map is a brilliant tool now the next
+17:17 tool that we're going to talk about that
+17:19 ethical hackers used on a daily basis is
+17:21 our kinetics now a kinetics is a fully
+17:24 automated ethical hacking solution that
+17:26 mimics a hacker to keep one step ahead
+17:28 of malicious intruders the web
+17:30 application security scanner accurately
+17:32 scans html5 JavaScript and single page
+17:36 applications it can audit complex
+17:38 authenticated web apps and issue
+17:40 compliance and management reports on a
+17:42 wide range of web and network
+17:44 vulnerabilities features include the
+17:46 following
+17:47 firstly it can scan
+17:48 and for all versions of SQL injection
+17:50 cross-site scripting and around 4500
+17:54 additional vulnerabilities also it
+17:56 detects over 1200 WordPress core teams
+17:59 and plugin ballot abilities it is fast
+18:01 and scalable and crawls hundreds and
+18:03 thousands of pages without any sort of
+18:05 interruption it integrates with popular
+18:08 WAFS and issue trackers to aid in the
+18:11 SDLC process and it is always available
+18:14 on premise as a cloud solution okay now
+18:17 the next tool that we're gonna talk
+18:19 about is hash cat now hash cat is a
+18:21 robust password cracking ethical hacking
+18:23 tool it can help users to recover lost
+18:26 passwords audit password security or
+18:29 just find out what data is stored in the
+18:30 hash features include that it is open
+18:33 source platform it is also
+18:35 cross-platform it allows utilizing
+18:38 multiple devices in the same system it
+18:40 can utilize mixed device types in the
+18:43 same system it supports distributed
+18:45 tracking networks and it's also supports
+18:47 interactive pause and resume a support
+18:50 session and restore and there's also a
+18:52 built-in bench marking system and it
+18:54 also in creates thermal watchdogs and
+18:56 supports automatic performance tuning
+18:58 and ok so the last tool that we're going
+19:01 to be talking about that ethical access
+19:03 use all motional easy basis is called
+19:06 SQL map now SQL map automates the
+19:09 process of detecting and exploiting SQL
+19:11 injection weaknesses it is open source
+19:13 and cross-platform and it's supposed to
+19:15 following databases so it supports MySQL
+19:17 Oracle PostgreSQL ms SQL servers ms
+19:21 access IBM db2 SQLite Firebird Sybase
+19:25 and a lot of other database type it also
+19:27 supports the following SQL injection
+19:29 types so these are boolean based blinds
+19:31 time-based blinds error based Union
+19:34 query and stacked queries and auto fans
+19:37 so these are some of the tools that are
+19:39 being used by ethical hackers on a daily
+19:41 basis to do their job ok now moving on
+19:44 let's talk about social engineering so
+19:47 what exactly is social engineering now
+19:50 social engineering is the art of
+19:52 manipulating a user or a bunch of users
+19:54 of a computing system into revealing
+19:56 confidential information that can be
+19:59 used to gain unauthorized access to a
+20:01 computer
+20:02 the term can also include activities
+20:04 such as exploiting human kindness greed
+20:07 and curiosity to gain access to
+20:09 restricted access buildings are getting
+20:11 the user to installing backdoor software
+20:13 knowing the tricks used by hackers to
+20:16 trick users into releasing vital login
+20:18 information among others is the
+20:20 fundamental in protecting computer
+20:22 system now social engineering is a very
+20:26 widely used process so as an ethical
+20:28 hacker you should know what is exactly
+20:30 social engineering and how it is done
+20:33 so basically social engineering is
+20:35 manipulating people as I just said and
+20:37 you must all know that people are very
+20:39 easy to manipulate in this world pick is
+20:41 one they contain emotions and secondly
+20:44 emotions can wave on and from one form
+20:47 to the other one day you're sad the
+20:49 other day you're happy and a hacker very
+20:51 well knows how to actually manipulate
+20:53 you into giving out your information
+20:55 based on whether you're happy or sad so
+20:57 as an ethical hacker it is very
+20:59 important for him to educate his
+21:02 organization's people on how to not get
+21:04 social engineer and giving up their
+21:06 social credentials so this is why I have
+21:09 included the topic of social engineering
+21:11 now let's go with the phases of social
+21:13 engineering so social engineering is
+21:16 divided into five distinct phases and
+21:18 the forms cycle so this cycle is
+21:21 generally used by hackers when they're
+21:24 performing social engineering on you so
+21:25 you as a as an ethical hacker should
+21:27 also know these five steps so first step
+21:30 is gathering information now this is the
+21:33 first step and the hacker learns as much
+21:36 as he cans about the intended victim the
+21:38 information is gathered from company
+21:40 websites other publications and
+21:42 sometimes by talking to the user of the
+21:44 target system in itself the next part is
+21:47 actually planning your attack now the
+21:49 attacker outlines how he or she is
+21:51 intending to attack the target victim
+21:53 depending on the information that he has
+21:55 gathered from the first phase now after
+21:58 the person has decided how you are going
+22:01 to be attacked he is going to try and
+22:03 acquire all the tools to attack you so
+22:06 these include computer programs that an
+22:08 attack of using when launching the
+22:10 attack so this can be something as
+22:13 simple as Metasploit to something
+22:15 as complex as a fully catered ethical
+22:19 hacker built penetration testing tools
+22:21 now the fourth part is actually
+22:24 performing the attack so the weaknesses
+22:27 that have been found through all the
+22:28 information gathering is attacked on
+22:31 with the tools that have also been
+22:33 gathered now the information gathered
+22:35 during the social engineering tactics
+22:37 such as pet names birth dates of
+22:39 organization and founders and all sorts
+22:41 of information is used in attacks just
+22:43 password guessing so after the
+22:45 information is gained the psychic keeps
+22:47 going on and on and even more crucial
+22:50 information is passed down to the hacker
+22:52 now social engineering techniques can
+22:55 take many forms now these are the forms
+22:57 that you will normally see so first is
+23:00 the familiarity exploit now users are
+23:03 less suspicious of people they are
+23:04 familiar with that's normal human
+23:06 tendency an attacker can familiarize him
+23:08 or herself with the users of the target
+23:10 system prior to the social engineering
+23:13 attack and now the attacker may interact
+23:15 with the user during meals when the user
+23:17 probably goes out for a smoke break and
+23:19 he or she may join on social events
+23:22 while they're out for a drink and
+23:23 something like that this makes a tackle
+23:25 familiar to the user and let's suppose
+23:27 that the user works in a building that
+23:29 requires an access code or card to gain
+23:31 access now the attacker may follow the
+23:33 user as they enter such places and the
+23:36 users are most likely to hold the door
+23:38 open for the attacker to go in as they
+23:40 are familiar with them now the attacker
+23:42 can also asked for answers to questions
+23:45 such as where you met your spouse or the
+23:48 name of your high school math teacher
+23:49 and the users are most likely to reveal
+23:51 the answer as they trust a familiar face
+23:53 this information could be later on used
+23:56 to hack email accounts other accounts
+23:58 that are similar questions if one
+24:00 forgets their password now the second
+24:02 technique is an intimidating
+24:04 circumstance now people tend to avoid
+24:06 people who intimidate others around them
+24:08 using this technique the attacker may
+24:11 pretend to have a heated argument on the
+24:13 phone or with an accomplice in the
+24:15 scheme the attacker may then ask the
+24:17 user for the information which would be
+24:19 used to compromise the security of the
+24:21 user system the users are most likely to
+24:24 give the correct answer just to avoid
+24:25 having a confrontation with the attacker
+24:28 this technique and all
+24:29 we used avoid being checked at a
+24:31 security checkpoint now the Third Kind
+24:33 is phishing now this technique uses
+24:35 trickery and deceit to obtain private
+24:37 data from users the social engineer may
+24:40 try to impersonate a genuine website
+24:42 such as Yahoo or Facebook and then ask
+24:44 the unsuspecting user to confirm their
+24:46 account name and password this technique
+24:48 could also be used to get credit card
+24:50 information or any other valuable
+24:52 personal data now the next form is
+24:54 tailgating this technique involves
+24:56 following the users behind as they enter
+24:59 restricted areas as a human curtsey the
+25:01 user is most likely to let the social
+25:04 engineer inside the restricted area and
+25:06 the third one is of course human
+25:08 curiosity and emotions as a whole using
+25:11 this technique the social engineer may
+25:13 deliberately draw up a virus infected
+25:15 flashdisk
+25:16 in an area where the users can easily
+25:18 pick it up the user will most likely
+25:20 plug the flash disk into the computer
+25:22 and the flash disk may contain Auto
+25:24 running viruses or the user may be
+25:27 tempted to open a file with the names
+25:28 such as the employer re-evaluation
+25:31 report which may actually be an infected
+25:33 file and above this human greed is also
+25:36 major thing in social engineering many
+25:39 people are lured in by making promises
+25:41 such as I'll give you so much money if
+25:42 you click this link or you can win a
+25:44 game and win so much money which is just
+25:46 general forms of social engineering to
+25:48 get your credentials or cookies now
+25:51 there are a bunch of counter measures
+25:53 that you can take now these are pretty
+25:55 obvious but let's just discuss them
+25:57 because we have quite a lot of time to
+25:58 go to counter the familiarity exploit
+26:00 the user must be trained not to
+26:01 substitute for molarity but security
+26:04 measures even the people in that they
+26:05 are familiar with must prove that they
+26:07 have the authorization to access certain
+26:09 areas and information to conquer
+26:11 intimidating circumstances users must be
+26:13 trained to identify social engineering
+26:14 techniques that fish for sensitive
+26:16 information and politely C know thirdly
+26:19 to counter phishing techniques more
+26:20 sites such as Yahoo use secure
+26:22 connections to encrypt data and prove
+26:24 that they are the ones who they claim to
+26:26 be checking the URL may help you spot
+26:29 fake websites and avoiding responding to
+26:31 emails that requests you to provide
+26:32 personal information now to account a
+26:34 tailgating users must be trained not to
+26:36 let others users use their security
+26:39 clearance to gain access to restricted
+26:40 areas each user must use their own
+26:43 access for clearance at all times and
+26:46 human emotions can be helped as he all
+26:49 know humans are stupid and there's no
+26:51 helping human stupidity but still as a
+26:54 general rule of thumb never reply to any
+26:56 Nigerian or any African guy that is
+26:59 asking you for money because you just
+27:00 felt a kind one simple day okay so to
+27:04 those who are the types of social
+27:06 engineering now as ethical hacker you
+27:09 will be dealing with a lot of
+27:10 cryptography so I've also included
+27:12 cryptography in this tutorial so let's
+27:15 go over what exactly is cryptography now
+27:18 information plays a vital role in
+27:20 running businesses organizations
+27:21 military operations and such information
+27:25 in the wrong hands can lead to loss of
+27:27 business or catastrophic results now to
+27:30 secure communication a business can use
+27:32 cryptology to cipher information
+27:34 cryptology involves transferring
+27:36 information into non-human readable
+27:38 formats and vice versa now let us
+27:40 discuss what is cryptography so
+27:42 cryptography is the study and
+27:44 application of techniques that hide the
+27:46 real meaning of information by
+27:48 transforming it into non-human readable
+27:50 formats and vice versa so 11 Aegis try
+27:53 and in last rate how cryptography looks
+27:56 like suppose we have some text that says
+27:58 I love apples now if you were to use
+28:00 some cryptography algorithm that
+28:02 actually encrypts this text by actually
+28:04 shifting the letters by two it would
+28:07 look something like this so I would turn
+28:09 into K and L would turn to n over turn
+28:13 into Q V intervai and you would have
+28:15 something what we call in the computing
+28:18 world as ciphertext now ciphertext is
+28:20 confusing and it is almost impossible to
+28:23 understand if you don't really know the
+28:24 key but as an ethical hacker
+28:26 your job will be mostly turning stifle
+28:29 text into plain text without actually
+28:31 knowing the key now that is exactly what
+28:33 is called as crypto analysis or crypt
+28:35 analysis so crypt analysis is the art of
+28:38 trying to decrypt the encrypted messages
+28:40 without the use of the key that was used
+28:41 to encrypt the messages crypt analysis
+28:43 uses mathematical analysis and
+28:45 algorithms to decipher the ciphers and
+28:47 the success of cryptanalysis attacks
+28:50 depends on the amount of time available
+28:52 the computing power available and the
+28:54 storage capacity available
+28:56 now let's go over the types of crypto
+28:59 analysis techniques or the techniques
+29:01 that are used to break into ciphertext
+29:04 so the first technique that is used for
+29:07 deciphering texts is a brute-force
+29:08 attack now this type of attack uses
+29:11 algorithms that try to guess all the
+29:13 possible logical combination of the
+29:14 plaintext which are then ciphered and
+29:16 compared against the original cipher
+29:18 second kind is dictionary attacks now
+29:21 this type of attack uses a word list in
+29:23 order to find match of either the
+29:26 plaintext or key it is mostly used when
+29:28 trying to crack encrypted passwords now
+29:31 the third kind is called a rainbow table
+29:33 staff and this type of attack compares
+29:35 the ciphertext against precomputed
+29:37 hashes to find matches so basically you
+29:40 have a table of hashes and you're
+29:41 constantly comparing your given hash to
+29:43 the hash you're trying to find now let's
+29:46 also discuss the different types of
+29:48 cryptography algorithms that have been
+29:50 developed over time the first algorithm
+29:53 in that we have discuss about is md5 now
+29:56 md5 is an acronym for message digest v
+29:59 it is used to create 128-bit hash values
+30:02 and theoretically speaking hashes cannot
+30:04 be reversed into original plaintext and
+30:07 md5 is used to encrypt passwords as well
+30:10 as check data integrity md5 is not
+30:13 collision resistance and collisions
+30:15 resistance is the difficulty in finding
+30:17 two values that produce the same hash
+30:19 values now the second type of algorithm
+30:21 is sha which stands for secure hashing
+30:24 algorithm now sha algorithms are used to
+30:27 generate condensed representations of
+30:29 messages and these are called digests it
+30:32 has various versions such as a zero
+30:34 which produced a 128-bit hash value it
+30:37 was withdrawn from use due to
+30:39 significant flaws and replaced by sha-1
+30:41 now sha-1 produces 160-bit hash values
+30:44 and it is similar to the earlier
+30:46 versions of md5 and it has cryptography
+30:49 weaknesses and is not recommended for
+30:51 use after the year 2010 then we have
+30:54 char - it has two hash functions namely
+30:56 sha-256 and sha-512 sha-256 uses 32-bit
+31:01 word so our 512 uses 64-bit words then
+31:04 is char 3 and this algorithm was
+31:07 formerly known as K CCA K P Dan is
+31:10 widely
+31:10 used in the validation process and
+31:12 etherium if you know what that is
+31:13 now the third kind of algorithm is our
+31:16 c4 and this stands for riveting cipher
+31:20 for and this algorithm is used to create
+31:23 stream ciphers it is mostly used in the
+31:26 protocols such as SSL which stands for
+31:28 secure soft mail and to encrypt Internet
+31:30 communication using WEP which stands for
+31:33 wired equivalent privacy to secure
+31:35 wireless networks
+31:36 okay now this brings us to the
+31:39 theoretical end of our ethical hacking
+31:41 tutorial now it's time for some activity
+31:43 so for today's activity we will create a
+31:46 simple cipher using our t4 algorithm and
+31:49 we will then attempt to decrypt it using
+31:50 brute force attack for this exercise I'm
+31:53 gonna assume that we know encryption key
+31:55 is 24 bits and we will use this
+31:58 information to break the cipher now for
+32:00 this video are going to be using the
+32:02 software called crypt tool and I already
+32:04 have that downloaded
+32:05 I'll leave the download link in the
+32:06 description y'all can download it and
+32:08 follow with me as we are performing this
+32:11 activity so firstly open crypt old one
+32:14 and replace the text that you see now we
+32:17 can replace text with whatever we want
+32:19 so I'm gonna be replacing it with some
+32:21 random text like never underestimate the
+32:24 determination of a kid who is let's say
+32:29 time rich and cash poor now that's one
+32:34 of my favorite quotes and we are going
+32:35 to try and encrypt this so firstly we
+32:38 are gonna try and encrypt this for that
+32:40 click on the encrypt and decrypt menu
+32:43 and point to symmetric modern now in
+32:46 symmetric modern you will find rc4 so we
+32:49 will be trying to actually encrypt it
+32:52 using rc4 so let us put the key length
+32:56 as 24 bits so we already know that and
+33:00 the value has been set to 0 0 0 0 now
+33:04 all you have to do is click the encrypt
+33:06 button and you will get the following
+33:08 stream side form so this is your cipher
+33:10 text so as an ethical hacker you will be
+33:13 more interested in the analysis of the
+33:15 cipher text rather than the creation of
+33:17 the cipher text so as an ethical hacker
+33:19 you will need to analyze the cipher text
+33:21 and try and decipher what is
+33:23 plain text that is hiding behind this so
+33:25 to do this using tool you can go
+33:28 into the analysis part and then go into
+33:30 symmetric encryption and modern now all
+33:32 you have to select is the algorithm that
+33:34 is used now the assumption that we made
+33:37 is that it is going to be 24 bit key
+33:40 length so we can always assume that and
+33:42 all we have to do is start analyzing and
+33:45 what this will do is run a brute-force
+33:48 search on this entire ciphertext now
+33:51 depending on your computer's computing
+33:53 power this can take some time now it's
+33:55 showing one hour and 32 minutes so let
+33:58 me just actually let this run and show
+34:01 you what it's going to look like
+34:10 you
+34:19 now as you guys can see her are
+34:22 force attack has been completed it took
+34:24 quite some time but our results are out
+34:26 here so our result is divided into these
+34:30 four columns so first is the entropy the
+34:33 second is the hex dump that is the hex
+34:35 that was analyzed now the third part is
+34:38 part that we are interested in so this
+34:40 is a cipher or the D cipher text that we
+34:43 got from the cipher text and these are
+34:44 the keys that were used to actually
+34:46 decrypt them so when the key for or
+34:50 rather see 1 9 3 3 4 is used this is the
+34:53 decrypted text Africa
+34:55 now all these makes no sense but just to
+34:58 actually identify what probable
+35:00 plaintext is to a certain ciphertext
+35:03 always look for the entropy now out here
+35:05 this has the lowest entropy that is for
+35:07 point 0 0 0 1 and as we can see that it
+35:10 is indeed the sentence that I had typed
+35:13 out never underestimate the
+35:15 determination of a kid who is time rich
+35:18 and cash poor so this actually shows us
+35:21 how rc4 that is a brilliant photographer
+35:24 algorithm that is used in SSL and WEP
+35:27 can be so easily broken with a
+35:30 brute-force analysis and these tools are
+35:32 widely available for a general user like
+35:35 me or you to use so this brings us to
+35:38 the end of the activity that I spoke
+35:42 about and this also brings us to the end
+35:44 of this ethical hacking tutorial I hope
+35:47 you guys had wonderful time learning the
+35:49 various factors of ethical hacking like
+35:51 cryptography social engineering the
+35:54 phases of ethical hacking and all these
+35:56 such please don't forget to watch my
+35:58 other video which is watches ethical
+36:00 hacking I have actually made a big into
+36:02 this video as to what ethical hacking is
+36:04 and how a tickle hacking actually works
+36:07 and we add Eddie wrecker also have an
+36:09 ethical hacking course which is aligned
+36:11 to the C H version 10 that is the same
+36:14 certified ethical hacker certification
+36:17 version 10 if you buy this course you
+36:19 will actually be learning from a
+36:21 certified ethical hacker all about
+36:23 ethical hacking and will be a live
+36:25 instructor lunch session so hang on guys
+36:28 we are going to be releasing a lot more
+36:30 free content regarding ethical hacking
+36:31 but that's it for today good bye
+36:34 I hope you have enjoyed listening to the
+36:36 video please be kind enough to like it
+36:38 and you can comment any of your doubts
+36:41 and queries and we will reply them at
+36:43 the earliest do look out for more videos
+36:46 in our playlist and subscribe to Eddie
+36:48 Rica channel to learn more happy
+36:51 learning

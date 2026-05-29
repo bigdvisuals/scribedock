@@ -1,0 +1,285 @@
+Title: UI/UX Form Design DO's and DON'Ts! Review
+URL: https://www.youtube.com/watch?v=I5Vz2pl8pPI&list=PL0lNJEnwfVVOQ8qKmLoT7tLdTDKhEDzmG&index=15&pp=iAQB
+Channel: YouTube playlist
+Video ID: I5Vz2pl8pPI
+Transcript language: English auto-generated
+Downloaded at: 2026-05-25T21:41:00.259Z
+
+0:00 what is up everybody Gary Simon here
+0:01 today we are going to be doing the
+0:03 review of yesterday's challenge as a
+0:05 part of the 30-day uiux series which
+0:07 were're halfway through already day 15
+0:10 um and we're going to review the forms
+0:13 that you all submitted so I did about
+0:15 eight or9 different revisions and
+0:18 everybody should watch this even if you
+0:20 you know didn't design anything because
+0:22 there's a lot of good takeaways forign
+0:24 design is important to get right so
+0:26 tomorrow we're going to do yet another
+0:28 video so make sure you watch the whole
+0:29 play playlist up to this point And
+0:31 subscribe up here check out designcourse
+0:35 [Music]
+0:40 docomond Joseph all right so before I
+0:45 show you the revision this is the actual
+0:48 um first entry that we have to review
+0:51 and big red flag is a massive amount of
+0:55 just empty white space over here um I
+0:59 actually like
+1:00 how the form elements are designed they
+1:02 all look solid I I really don't have too
+1:05 much of a problem except for this this I
+1:08 having this up high this Arrow doesn't
+1:10 really make sense so let me show you
+1:11 what I did if you're going to stick with
+1:13 just this content here alone and not add
+1:16 anything else in this column then you
+1:19 should do something like this instead
+1:20 it's the same exact situation except I
+1:22 fixed the arrow um I did add like a
+1:25 white container around it and I centered
+1:27 it right in the middle I'm sure many of
+1:29 you you've seen these type of you know a
+1:32 registration or a login page that kind
+1:34 of has this little little card in the
+1:35 middle and that's fine uh but I would
+1:38 not do this where you just have a bunch
+1:40 of open white space here it makes it
+1:42 feel empty I will show you some other
+1:44 ways to tackle this in a second because
+1:47 you don't only like this isn't the only
+1:49 option you have options okay there's a
+1:51 lot of subjective decisions that are
+1:54 being made um looking at how they
+1:56 designed this uh Brendan designed the um
+2:00 actual different states looks fine to me
+2:04 yeah and the checkbox looks good as well
+2:07 again it's not too large this check mark
+2:09 in the middle so yeah everything looks
+2:12 solid here except for that big open
+2:14 white space overall not a bad submission
+2:16 just some minor you know touch-ups next
+2:19 one up is from anit Kamar and they did
+2:24 basically the same thing except there's
+2:26 just a little bit extended out further
+2:29 um the actual input Fields I have no
+2:32 problem with this however have an issue
+2:34 with grouping down here because I can
+2:36 see everything right here is a part of
+2:38 the same Auto layout so everything's
+2:39 going to have equal amount of white
+2:42 space but you really want to change the
+2:43 grouping so let me show you what I did
+2:45 over here so this time instead of just
+2:47 wrapping in a container and centering it
+2:49 I added a second column and all the
+2:52 second column right here right now you
+2:53 know your information will never be
+2:55 shared with third parties your personal
+2:56 information is protected by a group of
+2:57 monkeys that protect or service with
+2:59 machine guns okay whatever you just want
+3:01 to have some content over here if you're
+3:04 going to stick with this type of layout
+3:05 something that's pertinent and relevant
+3:07 based on you know your registration form
+3:08 or whatever the page is now you can see
+3:10 also I did separate more white space
+3:13 between these elements compared to here
+3:15 um oh one thing I just noticed I did not
+3:18 tackle is when you have things like
+3:20 checkboxes text areas text Fields uh
+3:24 radio buttons you want to make sure
+3:25 they're all styled the same so if you if
+3:28 if there's a one pixel stroke on your
+3:32 text field that one pixel stroke should
+3:34 also exist on your checkbox as well all
+3:37 right just to keep consistency so again
+3:40 not much has changed here except I
+3:42 filled out this space over here so you
+3:44 have options you could do this option or
+3:47 you could do this option it depends on
+3:48 you know what makes sense in what are
+3:50 the requirements of that particular page
+3:53 in which that form resides all right now
+3:55 looking over here I'd say looking at
+3:58 these these are all pretty solid um yeah
+4:02 these are all pretty
+4:04 solid yeah okay continuing on next one
+4:07 is from L Diablo okay so this one is an
+4:11 interesting approach because we are
+4:12 designing for desktops so in theory you
+4:15 could use columns now I have no problem
+4:18 with having maybe just four um elements
+4:21 being in two different columns two rows
+4:23 that's not the worst thing ever a lot of
+4:26 times people say uh ux people say all
+4:29 your call your your text field should be
+4:31 all in rows stacked on top of each other
+4:33 and I agree if there's going to be a ton
+4:34 of them but if you just have a first
+4:36 name email password confirmed password
+4:38 is not the worst thing I've ever seen
+4:40 now there are some other issues there
+4:42 however I think there's too much white
+4:44 space between these elements I think
+4:46 White against this very you know light
+4:48 yellow color is not obvious enough so it
+4:50 should have a stroke of some sort um I
+4:53 think you're I agree to to the terms and
+4:56 conditions being the same size as these
+4:59 labels up here I don't agree with um
+5:01 because it's a it's slightly different
+5:03 it's it's a different context so I'll
+5:05 show you what I did with this one right
+5:07 here so I took the same approach roughly
+5:10 I didn't make the background white I did
+5:12 give the form element a stroke again a
+5:15 lot of these are just sub subjective
+5:16 creative preferences that you you know
+5:19 you can integrate um because you know up
+5:21 here if we look at this and compare it
+5:24 with this one that I did up here it is
+5:25 styled a lot differently this has a drop
+5:27 shadow this one doesn't have a drop
+5:29 Shadow it just has a stroke this is all
+5:32 completely acceptable as well now notice
+5:34 what I did with the I agree to the terms
+5:37 and conditions you want to make sure
+5:39 these things are linked as well
+5:40 obviously so that they can actually read
+5:42 them um so we have this verse
+5:47 this and it just feels a lot more you
+5:50 know having it you in a card format
+5:53 instead of open-ended like this and
+5:55 really spaced out like this uh this
+5:57 works a lot better in my opinion
+6:00 um and then here's some of the elements
+6:03 I don't know why you would make this
+6:05 background this color because these
+6:07 these text Fields aren't sitting on that
+6:09 color if anything you know you would
+6:11 choose something like this color the the
+6:14 color in which they're actually sitting
+6:15 on so I would adjust that um enk row hit
+6:20 which has submitted a few times already
+6:23 I decided not to do a revision of this
+6:25 one because it's the same exact concept
+6:28 as as this one and this one so it would
+6:31 be a little bit redundant to keep on
+6:32 doing the same thing over and over the
+6:34 form Fields here actually look pretty
+6:36 solid
+6:38 so yeah that's all good over
+6:40 here um right here another one um so at
+6:44 least this person they uh from Aya um
+6:50 noticed that okay it's a little bit
+6:51 empty in this right column and put this
+6:54 graphic here which is just the hero
+6:55 section graphic I personally wouldn't
+6:58 use this type of graphic it's cool to
+7:00 put something over here and it doesn't
+7:01 even have to be text based it could be
+7:03 an image but I would use like a
+7:05 different UI image or something like
+7:07 that I understand you kind of limited on
+7:08 resources though um but then there's
+7:11 some other big issues though with this
+7:13 one look how large the checkbox is and
+7:16 also look at the location the the call
+7:18 to action the join up button should be
+7:20 the last element all the other
+7:22 actionable elements I or items that they
+7:25 have to type in stuff or click you know
+7:28 a radio button or a checkbox should be
+7:29 above the call to action um or the
+7:32 button basically so um definitely think
+7:35 about that and the reason I didn't do a
+7:37 revision of this one is because there
+7:38 was a similar one and I showed you how
+7:40 to use like a different um graphic that
+7:42 might work a little bit better so next
+7:44 up is Ricky
+7:46 Malana all right so here's one where we
+7:49 have a first name last name email
+7:51 password confirm password and I agree to
+7:54 terms and conditions um I wanted to show
+7:57 you you know yeah you could certainly
+8:00 use a photograph and fade it off like
+8:02 this but oftentimes when you fade it off
+8:04 you kind of for me I I I don't like how
+8:07 it looks washed out kind of I don't like
+8:09 this look right here so I tried to find
+8:12 an image that might be a little bit more
+8:14 suitable um and this is like this little
+8:17 um headphone graphic which is relevant
+8:19 to drums and drum synth and audio and
+8:21 such um and I also made some other
+8:24 adjustments you can kind of see how it's
+8:27 it's kind of hard it's hard on eyes when
+8:29 you have white with this yellow um yeah
+8:33 you could still see him but some people
+8:35 with vision impairment issues might not
+8:37 be able to see them very well um and
+8:39 take a look at how they made this gray I
+8:41 would not make this I would not add gray
+8:43 or midtone Grays on next to vibrant
+8:45 colors it just it's bad color contrast
+8:48 as it's called um and so what I did is I
+8:51 adjusted it here I just made everything
+8:53 black bold good Maxim maximum contrast
+8:57 and then we have a an accent graph graic
+8:59 over here in the right column so you
+9:02 just saw three different approaches we
+9:04 have a a photograph in the right column
+9:07 we have if I scroll up here um content
+9:11 in the right column like actual type
+9:13 based content and then we just have you
+9:15 know a single column that's not
+9:17 stretched out so far okay so another one
+9:21 and it's going to be our last one is
+9:23 nahil and this one we have some issues
+9:26 with as well um you wouldn't want to
+9:28 have a join up way over here I would
+9:31 move this sucker right there look how
+9:34 much better that just feels right um so
+9:37 I'll show you my revision I the actual
+9:40 form Fields I like them this is this is
+9:42 all pretty good yeah now right here I
+9:46 have read and accept the general terms
+9:47 and conditions I would underline this as
+9:49 well because it's not immediately
+9:51 obvious I know you made it bold but it
+9:52 should be underlined if it's clickable
+9:55 um so here's what I did with this oopsie
+9:57 with this one all right so I kind of
+9:59 mixed a couple ideas up above so I took
+10:03 everything put it in the center in order
+10:05 to have better contrast I have a white
+10:07 background um and behind this just to
+10:09 add some texture to the background I
+10:12 added that same headphone Graphics that
+10:14 we saw above and I think this is a
+10:16 really cool approach to make the layout
+10:19 a little bit more interesting utilizing
+10:21 you know the same Concepts that we
+10:23 already learned about and so that's
+10:25 about it right here um it seems like a
+10:27 lot of people had the same idea but you
+10:30 you definitely want to fill out that
+10:31 space and not leave it just like this um
+10:33 over there so tomorrow we're going to
+10:36 keep on going with uh another challenge
+10:39 and tutorial and hopefully you've been
+10:41 enjoying this let me know what
+10:43 specifically you want to learn more so
+10:45 about here in this series because we're
+10:47 about we're halfway through and I will
+10:49 see you all tomorrow check out designc
+10:51 course.com subscribe here if you haven't
+10:53 and I will see you soon bye
+11:00 [Music]
+11:07 for
+11:08 [Music]

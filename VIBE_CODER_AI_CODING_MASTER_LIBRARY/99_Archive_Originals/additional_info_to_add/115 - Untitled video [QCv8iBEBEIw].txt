@@ -1,0 +1,251 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=QCv8iBEBEIw
+Channel: Riley Brown
+Video ID: QCv8iBEBEIw
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 Greg had an amazing quote today on
+0:02 Twitter he said the most Unstoppable
+0:03 person on the planet right now is
+0:05 someone who knows how to create videos
+0:08 that the algorithm loves and someone who
+0:10 knows the new llm tools like Claude v0
+0:15 and cursor let's go to the board so what
+0:17 Greg is talking about in this tweet is
+0:20 the
+0:22 creator
+0:24 composer I have done this for the last
+0:28 four years I've been creating content
+0:30 for the last 2 years but I've been
+0:31 working and studying content for the
+0:33 last four years this is what I've gotten
+0:35 really good at I've Gotten Good at
+0:37 explaining my ideas across a lot of
+0:39 platforms mostly Tik Tok and Instagram
+0:41 on Tik Tok Tik Tok and Instagram
+0:43 combined I almost have 1 million
+0:44 followers and I've been making content
+0:46 consistently learning what makes good
+0:48 content this is my area of
+0:50 expertise and I am learning this because
+0:54 this heavily leverages this what
+0:56 composing is is using the language
+1:00 so composing is using the most important
+1:04 language to understand the most
+1:05 important language you have to learn and
+1:07 that language
+1:11 is you need to know English you need to
+1:13 be able to take an idea in your head and
+1:15 you explain it to an AI model so that
+1:18 the tools that we're going to talk about
+1:19 today make that app for you so Greg
+1:22 brought up three tools he brought up VZ
+1:24 which in later videos I'm going to be
+1:25 diving much deeper into and I already
+1:27 have you can go back and watch my last
+1:29 videos this is the stack that I use v0
+1:33 and then you have cursor repet and I'm
+1:35 going to add one at the end which is
+1:37 Firebase this is just a database tool
+1:40 every time I want to make an app I use
+1:42 v0 to design the
+1:44 site design it on v0 you just type in
+1:48 English and it designs your site for you
+1:50 just like that cursor cursor allows you
+1:53 to generate and edit many code files so
+1:58 like many code files in one prompt and
+2:03 that is actually called
+2:06 composer composer is a feature on cursor
+2:09 it is the best software feature I've
+2:12 ever used so after you generate the code
+2:13 you're like okay well you have the code
+2:15 what do you do with it four months ago I
+2:16 didn't know the answer to that the
+2:18 eyeopener moment was when Amar Rashi
+2:21 shout out Amar if you're watching this
+2:22 video he works at 11 Labs created this
+2:24 little app in Claud artifacts which is a
+2:27 lot like VZ but VZ is just a little bit
+2:29 better right now at designing and he
+2:31 took the code and pasted it into repet
+2:33 and I was like what what is that and
+2:35 he's just like run deploy and it
+2:37 deployed the site in like 7 Seconds
+2:39 deploying is actually much harder than
+2:41 it looks but repet makes it easier so
+2:43 this is like putting it on the internet
+2:45 so deploy like putting it on the web
+2:47 this is for web apps if you generate the
+2:50 code you can sync cursor and repet it's
+2:53 very likely that cursor adds in the
+2:55 ability that repet has to deploy it and
+2:57 it's very likely that repet adds the
+2:59 cursor ability
+3:00 right now they both don't do the other
+3:02 one repet has an agent feature not
+3:04 nearly as good as cursor and you can
+3:06 only really use Python um but they're
+3:08 both really good in their own way
+3:09 because replit makes it really easy to
+3:11 save your code it has a really good
+3:13 history feature so it's very easy to
+3:15 revert your code back to a certain point
+3:17 and it's also really good at deploying
+3:19 sharing and creating templates we've
+3:21 actually created a template uh that
+3:23 allows you to take your vzero code and
+3:25 build a full app and that already has
+3:28 like 6,000 people of use this uh to
+3:31 build an app which is awesome finally
+3:33 you need a database and we've actually
+3:35 built the database into the template and
+3:37 this template's free I'm not selling you
+3:38 right now um but like we've built
+3:42 it into the plumbing so you're just
+3:44 going to say I want to create an app
+3:46 that has social media features or I want
+3:48 to build a social media app for Penguins
+3:50 or something and it will create it and
+3:52 create the database if you use Twitter
+3:54 and you type out a tweet and attach a
+3:56 photo that photo and that that text that
+3:59 you typed in that post it needs to go
+4:01 somewhere that is why I'm including this
+4:03 but this is kind of these are the tools
+4:05 that you should focus on if you want to
+4:07 learn this side
+4:09 right many people have been making
+4:12 software for the last 10 years and many
+4:15 of them have failed they were not able
+4:17 to get users a lot of them got angry
+4:19 because people who made worse apps than
+4:22 them got a ton of users it's mostly
+4:25 because if you're good at writing
+4:27 software you have a very technical brain
+4:29 and you're not always great at
+4:33 storytelling which is going to be the
+4:36 most important thing that you can do I
+4:38 think that I think of this as it's going
+4:40 to be an extension the same way that
+4:42 like you you you you upload a bio you
+4:45 have a bio right you have your header
+4:47 image on all of your different platforms
+4:49 you have text posts and it all
+4:51 contributes to your social media
+4:53 presence but I believe that software is
+4:55 going to get so easy and fun to make
+4:57 that it's just going to be an extension
+4:59 of your content so it's just going to
+5:00 get more fun to create software and so
+5:02 that's why I think learning now and
+5:04 learning different apis I honestly
+5:07 couldn't even tell you what API stands
+5:09 for but I do know that if you look up
+5:11 Gro with a Queue at the end you can
+5:13 basically copy that information and look
+5:15 at the list of models they have a a
+5:17 speech to text model which allows you to
+5:20 build in features like the one I'm using
+5:23 voice to text right now what do you
+5:27 think it had to use model to do that
+5:31 right if I spent 3 hours trying to build
+5:33 this exact interface I would not get as
+5:35 good perplexity has insanely good design
+5:37 but I would get somewhat close this is a
+5:40 really cool app but I would actually get
+5:41 somewhat close if I tried to build this
+5:44 exact interface it's just really hard to
+5:46 compete with them because they have
+5:47 millions of
+5:48 users and one thing perplexity did very
+5:51 well they were very good at sticking to
+5:55 Brand discipline and saying we're the
+5:57 knowledge engine they could have gone on
+5:59 so many different tangents and created
+6:01 other features but they focused on
+6:03 providing people with answers and added
+6:06 features that only contributed to that
+6:08 story they haven't hired traditional
+6:09 marketing people perplexity has only
+6:11 hired designers and you end up with a
+6:15 product that is just so artistic and so
+6:17 expressive that it it does a lot of this
+6:19 itself the the software itself creates
+6:22 content for them because it's such a
+6:23 beautiful product but anyway it's about
+6:26 building an audience and you want to
+6:28 build an audience of people through
+6:30 attention and I think the best way to do
+6:32 that right now and I'm trying this out
+6:35 this is my new strategy this was not my
+6:36 strategy at the beginning but I'm trying
+6:38 out this new strategy that is easily the
+6:41 most fun and it's called learn in
+6:43 public and so what learn in public is
+6:45 it's a kind of a variation of build in
+6:47 public it's where you pick a new thing
+6:49 that you want to learn and then you just
+6:51 learn it and make videos every time you
+6:53 get a little bit better be like yeah I
+6:54 learned about this today today I just
+6:56 created X using this new thing if you
+6:59 pick something like composing which is
+7:02 creating apps with AI no one's talking
+7:04 about it because it's a brand new
+7:06 possibility one year ago this was hardly
+7:08 possible was very very difficult but now
+7:11 it's getting easier and so if you're
+7:12 riding the edges and you're pushing out
+7:14 into the unknown and you're making
+7:16 content on new things you're going to be
+7:17 more valuable because everyone else is
+7:19 in school and they're like that wasn't
+7:20 even an option for me on my
+7:22 syllabus but you can just do that and
+7:25 you can learn something and then you can
+7:26 make content on it and you can make
+7:28 products that help people move faster
+7:31 along from it or you could just build
+7:33 products for whatever else you're doing
+7:34 and so I think that if you're in both of
+7:36 these camps Creator composer you can
+7:39 actually make content for you can make
+7:42 apps that incorporate AI features into
+7:45 their content that was actually the
+7:47 first app that we're testing is going to
+7:49 be voice power it's not going to be
+7:51 perplexity in the sense that it gives
+7:52 you answers it's going to actually use
+7:55 voice to extract the ideas and turn them
+7:57 into good content and that's the premise
+8:00 of our first app
+8:02 basically be asked questions about what
+8:06 content you want to create and it's
+8:07 going to take you down a verbal path and
+8:10 prompt you with ideas and you're going
+8:11 to get all of your ideas out into an
+8:13 idea thread and then you're going to be
+8:15 able to convert that thread of ideas
+8:18 into something polished and consistent
+8:21 you can go anywhere you want speak your
+8:22 ideas and it will do all the structure
+8:24 for you and so that's the app that we're
+8:26 building in my last video you can see
+8:28 that I used these tools to pitch on Jen
+8:31 keihan my team on this app idea that had
+8:33 all the features built in and I'm going
+8:35 to go over all of these tools in future
+8:37 videos and I'm going to show you
+8:40 everything about using these tools to
+8:43 create apps and then building an
+8:45 audience and sharing that story so that
+8:47 you can get people to buy your stuff I
+8:49 think that this economy is going to be
+8:53 dominated by the Creator composer this
+8:56 is Vlog number one going to be diving
+8:58 into the tool that we're building bu
+8:59 specifically in the next video subscribe
+9:03 or I'll K or I'll be in worse shape than
+9:07 if you didn't subscribe I don't know how
+9:10 to end these

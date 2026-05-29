@@ -1,0 +1,676 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=150EzogAp_c
+Channel: Greg Isenberg
+Video ID: 150EzogAp_c
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T02:43:36.589Z
+
+0:00 today's episode for the first time ever
+0:02 I had heard about this AI product
+0:05 designer YC startup called
+0:08 poly. everyone's talking about it how
+0:10 it's this AI product designer that you
+0:12 just write some English and it's going
+0:14 to pop up these beautiful designs
+0:17 production ready code and I I wanted to
+0:20 try the product so I tried the product
+0:22 for the first time ever live on camera
+0:26 and you'll see the results I also give
+0:28 away uh an incred ible multi-million
+0:32 dollar a year startup idea in the
+0:34 process and at the end of this episode I
+0:36 compare it to V by verell which is
+0:40 probably the most well-known product in
+0:43 the AI designer space uh the question is
+0:46 our AI product designers here you'll
+0:49 find out in this episode just watch to
+0:51 the end I hope you
+0:53 enjoy the start
+0:57 by siing time baby
+1:00 [Music]
+1:02 okay this is going to be really fun so I
+1:04 saw this tweet from y combinator about
+1:07 this app called poly. it helps
+1:10 non-designers create production ready
+1:13 designs and front-end code with AI now
+1:16 I've seen a lot of products claim they
+1:18 can do this I use VZ a bunch uh to do
+1:21 these sorts of things um but I noticed
+1:24 that the output for some of these
+1:26 designs were just looking really really
+1:29 beautiful
+1:30 so I was thinking what we can do today
+1:33 is uh I just signed up to polyat um by
+1:37 the way it's not sponsored or anything
+1:38 like that I just thought it would be
+1:39 cool to F to play with it um and use
+1:43 this AI product designer uh app um
+1:47 together for the first time I'm
+1:48 literally going to give it an idea which
+1:50 by the way I think could be a
+1:52 multi-million dollar year business I'm
+1:54 going to give it give it to that idea
+1:55 and see if it creates uh a beautiful
+1:59 product does the idea of an AI product
+2:01 designer is that just a a catchy hook
+2:05 for for X that goes viral or is this
+2:08 something that uh that works and that
+2:11 you can start using in your everyday
+2:13 workflow so together we're going to go
+2:15 and play with it um and see see how it
+2:20 goes so um I just I just signed up and I
+2:26 guess it autoc creates a first project
+2:29 for you
+2:30 um and again you know we're if you're
+2:34 listening this on audio set up ideas on
+2:36 audio might want to check out the
+2:38 YouTube um to see what's going on in the
+2:40 screen share so basically I'm looking at
+2:42 this first time ever um it looks like
+2:45 there's it's almost like chat GPT but
+2:47 for design so we can go ahead and write
+2:51 what we want to build in here um it's
+2:53 cool that it has the the microphone cuz
+2:56 sometimes you know actually more
+2:58 recently I've been just like like uh
+3:00 recording my voice and saying what I
+3:02 want and I'm I'm happy that more
+3:04 products are doing this um I'm happy
+3:07 that it has a upload an image right over
+3:10 here um that's huge because what you can
+3:13 do is oh they even have a a picture of
+3:15 that um create a property finder
+3:17 interface similar to the one in the
+3:19 image the interface should display
+3:21 property listings right so you can
+3:23 actually go and literally on a napkin
+3:25 draw out a wireframe of what you want
+3:28 upload it to
+3:31 poly. and it should work um I do this
+3:34 sometimes on VZ if you're a watcher of
+3:36 the channel listener to the startup
+3:37 ideas uh podcast you might have heard me
+3:41 uh talk about this before um I find
+3:43 that's a really good way but let's just
+3:45 get into it so what is the idea I want
+3:46 to work on um today is I saw this this
+3:51 tweet um this guy Eddie who by the way
+3:54 is a 17-year-old I think yeah
+3:56 17-year-old one exit two viral apps had
+3:58 a really smart idea that got you know
+4:01 3.2 million views he says built an
+4:04 algorithm that stimulates how thousands
+4:06 of users react to your Tweet so you know
+4:08 it'll go viral before you post so I
+4:11 think this is a really great idea I wish
+4:12 it existed but I wish it existed for
+4:15 YouTube so I wish I could uh basically
+4:20 say that if I use this title and this
+4:23 thumbnail I'm likely going to get this
+4:25 amount of comments likes subscribers um
+4:29 now of course YouTube has some uh you
+4:33 know AB testing on thumbnails and stuff
+4:35 like that but I think like a more deeper
+4:38 uh product like this would do really
+4:40 well so I'm actually going to go and
+4:43 just screenshot this I'm going to go
+4:45 ahead and just screenshot
+4:46 this I'm going to save
+4:50 it I'm going to go into polyat and I'm
+4:52 going to say I have an idea for a
+4:56 startup it's basically this concept
+5:02 which is an algo that tells you if or
+5:07 how well a tweet will
+5:11 do I'm going to go
+5:13 add this before I
+5:17 forget boom okay I want to do this with
+5:22 YouTube so many YouTubers want to
+5:27 know how if they change their
+5:32 title okay change their
+5:35 title change their
+5:40 thumbnail Etc by the way I'm putting Etc
+5:44 there's a bunch of other product
+5:45 features that like I probably should be
+5:47 thinking about like for example does the
+5:49 length affect uh the amount of comments
+5:52 you're going to get if you make it
+5:54 shorter well you get more likes that
+5:55 sort of thing um but let's see if it's
+5:57 smart enough uh if or if it more literal
+6:01 so we're learning again we're learning
+6:02 this together I've never used this
+6:04 product um so so so so so many YouTubers
+6:08 want to know if they change their title
+6:09 change their thumbnail how will it
+6:13 affect engagement I want you to create a
+6:18 SAS that does this make
+6:22 it um I don't know what this is called
+6:26 um by the way I'm not I wouldn't call
+6:28 myself a designer I'm like more product
+6:30 person I know uh what you know what
+6:32 products I'm like more of like a product
+6:34 manager um so I don't know the exact
+6:38 term for this but like make it look
+6:40 glassy
+6:43 minimalist and with colorful calls to
+6:47 action let's just see what the hell
+6:49 happens there quick break in the Pod to
+6:52 tell you a little bit about startup
+6:54 Empire so startup Empire is my private
+6:58 membership where it's a bunch of people
+7:01 like me like you who want to build out
+7:04 their startup ideas now they're looking
+7:07 for content to help accelerate that
+7:09 they're looking for potential
+7:10 co-founders they're looking for uh
+7:13 tutorials from people like me to come in
+7:16 and tell them how do you do email
+7:17 marketing how do you build an audience
+7:19 how do you go viral on Twitter all these
+7:21 different things that's exactly what
+7:23 startup Empire is and it's for people
+7:26 who want to start a startup but are
+7:28 looking for ideas
+7:30 or it's for people who have a startup
+7:32 but just they're not seeing the traction
+7:35 uh that they need so you can check out
+7:37 the link to Startup empire.co in the
+7:40 description so okay uh We've upgraded to
+7:44 37 Sonet Generations can take a little
+7:46 bit long longer okay so I'm guessing
+7:50 that uh that this is going to take a few
+7:53 minutes here but while while that's
+7:55 doing there I'm just going to look
+7:57 around see if I click this
+8:00 okay you could make it light or dark
+8:02 mode I actually
+8:04 prefer I think I prefer this is actually
+8:07 a hot take I think I prefer the light
+8:08 mode um okay so now I'm looking here
+8:11 font radius colors these are probably
+8:13 things that allow you to edit the once
+8:16 it gets
+8:18 um created it allow you to edit what
+8:21 happens here um and I also noticed that
+8:26 okay so if you sign up for free you get
+8:28 250 credits and it says 50 credits for
+8:32 each page 25 credits for each component
+8:35 funny thing with AI companies is like
+8:37 they've they made it really smart and
+8:41 and instead of saying it's going to cost
+8:42 you $2 to do something they're just like
+8:44 it's G to cost you credits um and you
+8:47 really you really don't know how much
+8:49 you're spending but uh kudos to the a i
+8:52 companies who who uh who make it easy to
+8:55 spend money um and make it really yeah
+8:58 fun to spend money but um waiting
+9:01 waiting for this to to still load it's
+9:03 kind of taking longer than I'd hoped um
+9:06 I wish it took like a minute or less it
+9:09 can take up to a minute to generate but
+9:11 it'll be worth it um I wish it was it
+9:13 was telling me like it's given me no
+9:18 sense like no progress bar like where's
+9:20 the progress bar you think that for
+9:22 design uh app that they would have a
+9:25 progress bar to let people know how long
+9:27 this is going to take um
+9:30 but they do
+9:32 not now I could have not given it a
+9:37 image and seen what it would have
+9:39 created and maybe I should have done
+9:41 that um but from my experience with v0
+9:45 and some of the other prompt to
+9:48 design uh AI designer startups I find
+9:51 that when you give it something uh to
+9:53 start with you end up getting um just
+9:56 something closer to what you really want
+10:00 okay so we
+10:02 are we are done it's created something
+10:04 it's actually named it called to predict
+10:06 which honestly isn't a horrible name and
+10:08 says AI powered analytics to optimize
+10:10 your YouTube content and maximize your
+10:12 engagement I actually didn't I didn't
+10:15 expect it to do copy like this but you
+10:18 know not horrible um optimize every
+10:20 aspect of your content AB testing
+10:22 engagement prediction um it doesn't feel
+10:26 super glassy to me I don't know about
+10:28 you guys what you think think um but
+10:31 let's go what happens do I click here
+10:34 okay when I click on analytics nothing
+10:35 happens when I click get started does
+10:37 something
+10:38 happen
+10:40 okay it just made a black screen of
+10:45 death so when you click get started
+10:48 nothing happens okay good to know so
+10:53 what sucks about this is I don't really
+10:55 see the product right unless I click C
+10:58 demo yeah I mean this is this is I'm so
+11:01 I'm prompting it now this is a bummer I
+11:04 was hoping to see how the product would
+11:08 work this is just a landing page why
+11:13 didn't
+11:14 you um why didn't
+11:18 you create the
+11:21 actual
+11:23 product I'd like to see images of the
+11:27 product on the L landing page so that
+11:31 people know what they are signing up for
+11:36 and I'd like to be able to click C
+11:41 demo and see how the product is working
+11:47 and click around to see how it could
+11:50 work see I mean okay and the last thing
+11:52 is I
+11:54 I I want to make it more visual
+11:57 appealing like this is
+11:59 it's fine I think it's fine but I think
+12:02 it could be a lot more interesting so
+12:06 let's go to perplexity let's say see and
+12:10 basically let's ask perplexity I forget
+12:13 the name of the design term
+12:18 for when something is
+12:22 glassy what is
+12:24 it called it's minimalist and glassy
+12:30 I mean am I making this up there it is
+12:33 glass morphism that's what it's called
+12:35 that's what I want
+12:38 so the reality is you need with all
+12:42 these a lot of these tools it's as good
+12:44 as the prompt that you can do it right
+12:46 so you do need to know design terms and
+12:48 like what's trending and what people
+12:50 call Taste to get the most out of it so
+12:52 also I feel like you didn't make it
+12:57 glass moric
+12:59 please do
+13:01 that okay we're going to hit
+13:04 enter and uh see what
+13:07 happens so it looks like you can expect
+13:09 to wait about couple
+13:11 minutes I guess if you go to if you
+13:14 waste you know you go and open up
+13:15 Instagram or you go on X you know
+13:19 that that's not good but if you actually
+13:22 like sit there and like think
+13:24 about okay how do you want it to look
+13:27 right now um it's
+13:29 it's not the end of the world right like
+13:31 I'm I'm I'm trying to think about it
+13:32 like what do I want um so basically use
+13:35 these breaks for for good things right
+13:38 don't just go and go open up Instagram
+13:40 and and then open it back up in two two
+13:43 minutes I don't think that's great but
+13:45 um I think we learned a really valuable
+13:46 lesson here is that you do need to know
+13:48 design terms um to to really get the
+13:52 most out of any of these AI designer
+13:54 stuff right like when you go to poly's
+13:56 website AI product designer At Your
+13:58 Service well not really right if it was
+14:00 an AI product designer At Your Service
+14:02 it would it would start asking me
+14:05 questions about um you know what kind of
+14:10 vibe did I want you know what what what
+14:12 do I want to call it and uh it would
+14:15 just it would get to know it would try
+14:17 to extract the the the my taste and my
+14:20 vibe so that I can go and translate that
+14:22 or it just might know what what the
+14:25 trends are right and based on what I saw
+14:28 it didn't feel
+14:29 exactly like it was the most beautiful
+14:32 website I don't know if I uh again this
+14:34 is my first time using this so I don't
+14:35 know if I just steered it in the wrong
+14:38 direction um you tell me in the comment
+14:40 section but um I don't know let's
+14:44 continue learning about poly. a the AI
+14:48 designer and
+14:50 uh but I'm I'm a bit SK I am a bit
+14:53 skeptical right now um by the way it's
+14:56 crazy that like if I did the if you know
+14:58 two years ago if I would have seen this
+15:00 I would have been like oh my God this
+15:02 you know everything has changed this is
+15:03 the craziest thing you know it changes
+15:05 everything and now our bar for all these
+15:07 AI products is so high that the the
+15:11 output needs to be incredible uh for for
+15:13 you to really use it in your workflow I
+15:15 mean I want to be able to use this in my
+15:17 workflow like when I go to the
+15:19 website and it says like get the design
+15:23 and code for for anything you build like
+15:25 wow it's amazing connecting seamlessly
+15:27 with figma and your codebase you can use
+15:30 your components with polyat amazing like
+15:33 literally connecting to your codebase
+15:35 works with existing tools like it sounds
+15:37 like the dream um so I'm I'm optimistic
+15:42 I'm always optimistic I'm I'm one of
+15:44 those I love playing with new products
+15:46 and I think it's it's helpful to play
+15:47 with them um just to see just to see if
+15:52 it is going to it be a game changer for
+15:54 you um but oh here we go okay it's
+15:57 actually like it's not fully glassy like
+16:00 I wish it was more glassy but it's
+16:03 starting to look pretty pretty good C2
+16:05 predict in action that's what I'm
+16:07 talking about that's what I'm talking
+16:10 about like an image but what am I
+16:13 looking at is it just an image of
+16:18 analytics um okay yeah so this doesn't
+16:23 okay let me click on it before I make a
+16:24 judgment
+16:25 call okay I asked it to click when you
+16:28 click C demo I asked it to
+16:32 uh uh to be able to play around with it
+16:35 and nothing happened again but I see on
+16:37 the right hand side I guess this is okay
+16:40 these are my two prompts okay very cool
+16:43 so um you don't lose this is actually
+16:46 really good because you don't lose any
+16:48 of your images uh or any of your designs
+16:51 uh they're on the right hand side um and
+16:54 it looks like there's a a roll back
+16:55 button this little button here you can
+16:57 you can press
+16:59 um okay so okay cool so you have AB
+17:02 testing uh AI prediction I mean the
+17:05 images
+17:06 aren't
+17:08 useful um they're not useful
+17:13 because it s I guess you need to design
+17:17 um yeah you probably just need to design
+17:21 you got to tell it exactly like I don't
+17:22 want Low Time versus bounce rate um you
+17:25 know this is this is just not relevant
+17:27 for the use case of YouTubers so we're
+17:30 going to we're going to give it one one
+17:33 more prompt and we're going to try to
+17:34 get it
+17:36 to to to design to predict basically
+17:39 we're going to try to get it to design
+17:40 to predict I think they did a better job
+17:42 on the landing page overall looks looks
+17:44 clean um but I think with the product
+17:48 itself um come on you know you can do
+17:52 better so let's let's see let's see what
+17:54 we can do
+17:56 so uh what do what can we say
+18:00 I'm going to say I'm just going to talk
+18:01 to it honestly I don't think you did
+18:04 your
+18:05 research the example in prompt number
+18:09 one that I gave you was a beautifully
+18:14 designed version of an AB
+18:21 analytics
+18:24 product
+18:26 um for x
+18:30 and let's go ahead and include it again
+18:32 sometimes um
+18:35 sometimes AI forgets things so we're
+18:38 going to include it here maybe let's
+18:40 actually
+18:41 include can we include another image no
+18:46 they're pretty much it's pretty much the
+18:47 same thing so we're just going to
+18:48 include one image
+18:50 here
+18:53 okay let's go reattach
+18:57 it I'm going to say I've
+18:59 reattached that
+19:02 image
+19:04 again so you can reference
+19:09 it and this is the inspo for creating a
+19:16 similar type of product but for
+19:20 YouTubers do you have any
+19:23 questions for
+19:25 me before you design it sometimes I I I
+19:31 do this uh with Cloe or or chat
+19:34 GPT um I'm like before you go ahead and
+19:37 Vibe code or whatever just let's let's
+19:41 just straighten some things out let's
+19:43 measure twice cut once so I don't expect
+19:47 it to have questions for me but in in if
+19:50 it was an AI product designer
+19:52 realistically if I asked that it would
+19:55 it would respond right um so so I'm
+19:59 going to say I'm very
+20:03 disappointed
+20:06 um
+20:08 about how
+20:11 irrelevant the product images
+20:14 look they look like dashboards for
+20:19 website analytics
+20:21 okay let's see what you can
+20:27 do all right
+20:29 so we're generating the page and we're
+20:32 seeing what we can
+20:36 do should we for fun just compare this
+20:39 to
+20:40 v0 and and what would happen right like
+20:43 if
+20:44 we let's see let's try
+20:48 this okay so we're going to put back the
+20:51 prompt we're going to
+20:53 add this image and we're going to see
+20:56 what v0 does versus polyat so okay first
+21:01 of all I just got to say like I love
+21:03 what VZ is doing right now it's like
+21:05 giving me the the reasoning of what it's
+21:07 doing so I'm I'm I'm instead of being in
+21:10 a black box like polyat I'm I I feel
+21:14 like I'm actually talking to
+21:16 someone um I'll create a SAS application
+21:19 that helps YouTubers predict how changes
+21:20 to their titles thumbnails and other
+21:22 elements will affect engagement based on
+21:24 the image you shared I'll design a
+21:26 glassy minimalist interface with
+21:28 colorful calls to action that allows for
+21:30 AB testing of YouTube content like I
+21:33 feel just way more at ease with vzer
+21:37 right now I don't know if you agree with
+21:40 me at all but just looking at this I
+21:41 feel like okay they know what they're
+21:43 doing okay it's still still loading I'm
+21:47 wondering if vzer is slower faster than
+21:51 polyat um it definitely feels faster
+21:54 right because you you see what's going
+21:56 on you're you're seeing what they're
+21:57 thinking but is the
+22:00 actual uh outcome faster like maybe not
+22:03 you know polyat took like a minute or
+22:05 two I would say at least a minute to do
+22:08 each of the designs um you know I'm not
+22:11 timing this but you know this is like 45
+22:14 seconds a minute but it just it feels
+22:17 more fun to look at this okay we are
+22:19 we've got it um wow could you believe
+22:23 how similar it
+22:25 looks and it literally just copied
+22:30 the the image I gave I can't believe
+22:34 it okay cool
+22:37 wow but it actually built it it actually
+22:40 built the product so you can see version
+22:42 a original content title description
+22:45 thumbnail
+22:47 um and you can predict the performance
+22:50 wow this is
+22:53 amazing this is amazing with AI
+22:56 recommendations apply AI based on our
+22:58 analysis version a is likely to perform
+23:00 right so this is from a design
+23:03 perspective very similar to
+23:06 polyat but
+23:09 uh but it went a bit deeper it it
+23:11 definitely just like literally copied
+23:14 the image I sent which is you know not
+23:16 great but um that's horrible it's like
+23:19 literally copying it but I think this is
+23:21 actually really cool like I would use
+23:22 this product I would totally use this
+23:24 product all right let's go back to
+23:25 polyat see what what we've got okay so
+23:29 polyed is ready for us so I don't know
+23:33 you know not super glossy by the way I
+23:35 don't know if it's if it's me but it
+23:37 doesn't feel very glossy okay let's see
+23:40 um if we could get started oh wow okay
+23:45 now we're talking so it built it version
+23:48 a image video format Emoji I mean no
+23:51 this is video only right this is YouTube
+23:52 so it didn't really get it but this is
+23:54 beautiful like wow the communitive
+23:56 engagement chart I I think is really
+23:59 good uh sta statistical
+24:02 confidence is really
+24:04 interesting um wow recent
+24:07 optimizations AI suggestions I mean
+24:11 pretty pretty cool pretty cool title
+24:15 Optimizer performance comparison wow
+24:18 showing you all these different things
+24:19 like this is this is really helpful it
+24:22 might even be a bit more in depth
+24:24 than
+24:26 um wow yeah then then
+24:31 v0
+24:32 [Music]
+24:34 um but pretty cool what I like about v0
+24:39 is you you can
+24:42 just I think you can like ask questions
+24:44 right so you can say like this doesn't
+24:47 feel super glass what was it glass
+24:52 morphic do you think it is and let's see
+24:55 does it let's see what it says you're
+24:58 right the current design has some
+25:01 glass-like elements but doesn't fully
+25:03 Embrace true glass morphism let me
+25:06 enhance it to create distinctive frosted
+25:07 glass aesthetic with more pronounced
+25:10 blur Effects light borders and depth
+25:14 interesting yeah so I like that uh
+25:16 there's feedback that you get back from
+25:18 vzero versus like you're kind of
+25:21 like you're shouting into a a dark hole
+25:26 with poly you just kind of have to hope
+25:28 that it's going to create the thing you
+25:30 want
+25:33 um and I do like that with with v0
+25:36 you're you're hearing uh firsthand like
+25:39 how it's thinking about things so um
+25:43 let's go see what what happens from a
+25:45 visual perspective um from uh I don't
+25:49 know about you but I think from a design
+25:50 perspective like they're in the same
+25:52 ballpark you know they're in the same
+25:54 ballpark you know is is polyat uglier
+25:59 like than visually than than VZ I think
+26:03 probably a little bit is it slower I
+26:05 mean probably a little bit um but did it
+26:09 end up coming out with a nice product um
+26:12 it was maybe a bit closer to what we
+26:15 wanted but it did take three prompts I
+26:17 wonder if we would have done three
+26:19 prompts to vzer would that have gotten
+26:21 us a nicer product uh side by side are
+26:24 we comparing apples and oranges here I
+26:27 don't know um it's possible it's
+26:29 possible but
+26:31 um I gotta say based
+26:34 on based on oh let's actually let's see
+26:37 what this okay so it's a little more
+26:39 glossy yeah it's a little more glossy
+26:41 for sure yeah like this is a beautiful
+26:44 like this is this is nice so what this
+26:46 is missing here uh on on the vzero
+26:50 version is you can't hover over and see
+26:53 see seeing what what number you're at
+26:55 thought that was really nice that polyat
+26:57 did that
+26:59 um that was really that was really cool
+27:02 so um yeah like it literally built out
+27:05 the coat like it and and I think that's
+27:08 helpful I really do I think that's
+27:09 helpful and that's definitely a pro in
+27:11 the camp of of of
+27:14 polyat so yeah but I don't know man this
+27:17 looks really really nice like the vzer
+27:19 is a little bit nicer I think from a
+27:20 visual
+27:21 perspective um that's the episode that's
+27:24 that's the episode today I think um I
+27:27 wanted I wanted you to see me use this
+27:29 product poly for the first time I've
+27:31 used VZ before I've done episodes on VZ
+27:33 before I'm impressed with VZ continues
+27:36 to get better um but I'm always on the
+27:38 lookout for you know I see AI product
+27:40 designer and that's something I want so
+27:42 um you know what's my recommendation my
+27:46 recommendation you know is it vzer is it
+27:49 is it polyat well the reality is it
+27:52 seems like vzer is a little bit better
+27:54 but today but polyat might be better
+27:57 tomorrow you know who knows so I think
+27:59 it's um playing with these tools
+28:03 um right now I'm feeling like like vzo I
+28:06 enjoy I enjoy getting that um that
+28:10 feedback back um I think the visual
+28:13 Design's a a little bit nicer um but I
+28:16 think you know you can use both right
+28:18 you can you can now copy that vzer put
+28:20 it into polyat and see what happens like
+28:24 uh can you make this better can you make
+28:25 this pop more um I think that's uh
+28:30 that's how you get the most like how you
+28:32 get an actual product AI product
+28:33 designer is by doing that it's using a
+28:36 couple tools um just like how a lot of
+28:39 you probably use chat gbt you use Cloe
+28:42 um you're using grock now grock 3
+28:46 Gemini you're going to have three or
+28:48 four tools that you're going to use for
+28:49 AI product design um you're going to
+28:52 have three or four tools you're going to
+28:53 use for AI marketing you're have three
+28:54 or four tools that you're going to use
+28:56 for um a lot of these different
+28:59 categories so uh how do you get the most
+29:02 out of them is just you use all of them
+29:04 you realize what's best for each
+29:07 individual uh product right like Cloe
+29:10 for me writing is just it's just a
+29:12 better at writing uh researching you
+29:14 know chat gbt you know uh
+29:17 so there's these nuances that make these
+29:21 these products better it's about finding
+29:23 them uh writing them down and that's
+29:26 that's what I want this podcast you know
+29:27 to be is is not just about you know
+29:29 giving you startup ideas like hey go
+29:31 steal this startup idea for um that you
+29:35 can build this sass product around
+29:37 YouTube analytics and predictions like I
+29:39 I hope someone takes that idea that's
+29:41 it's G to work but um it's also about uh
+29:45 figuring out you know what what are the
+29:47 nuances sharing in the comment section
+29:50 learning together and uh you know thanks
+29:53 for listening uh if you enjoyed this
+29:55 please let me know I read every single
+29:57 comment on YouTube and
+30:00 uh let me know what uh what you want me
+30:03 to talk about on the next episode of the
+30:05 startup ideas podcast it's been real I
+30:08 thank you so much for listening um and
+30:12 uh I hope this provided an ounce of
+30:14 creative juices uh and happy building
+30:19 [Music]

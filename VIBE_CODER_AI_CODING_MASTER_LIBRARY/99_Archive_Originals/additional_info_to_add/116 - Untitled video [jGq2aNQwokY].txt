@@ -1,0 +1,1278 @@
+Title: Unknown video
+URL: https://www.youtube.com/watch?v=jGq2aNQwokY
+Channel: Riley Brown
+Video ID: jGq2aNQwokY
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:28:08.608Z
+
+0:00 super clean this is all working let's go
+0:02 ahead and test this I have an idea for
+0:04 an app that will allow me to talk to my
+0:05 codebase so I want to connect it with
+0:06 GitHub I want to be able to ideate with
+0:08 an AI chat bot that's super uh good at
+0:10 coding and has good ideas and
+0:11 understands the type of app that I'm
+0:12 creating and the overall fact that I'm
+0:14 using AI to create the app and stuff and
+0:16 so we can end that pretty damn fast and
+0:17 now we can hit this plus button right
+0:19 here and we now have access to all of
+0:20 those templates I've just deleted all of
+0:22 them except for one so we can click on
+0:23 this and it should in theory I need to
+0:24 add a loading screen here which is why
+0:25 it doesn't look like it's doing anything
+0:27 but here it is and look at this it's
+0:30 says one full paragraph plan the user
+0:32 experience in concise bullets look at
+0:34 that and then a simple text hierarchy of
+0:36 files and code and look at this so
+0:38 connect to GitHub wow this actually
+0:40 clean as hell so the first step is I'm
+0:42 recording my idea right here in this
+0:44 dream app. MD and the basic premise of
+0:47 this app is this is an AI powered note
+0:49 and content creation app that allows
+0:51 users to add multiple notes within each
+0:54 idea they can convert these ideas into
+0:56 different types of content the app
+0:59 utilizes AI to reformat the ideas into a
+1:02 script format based on Specific
+1:04 Instructions users can create a draft
+1:07 and then use AI to adjust the draft I
+1:10 want to add one thing here and the user
+1:12 can save these with a custom name and
+1:19 icon users can create a draft and then
+1:21 use them in the draft this is a very
+1:23 simple application and so this is just
+1:25 the first part this is the app that I
+1:27 want to create here and I'm actually
+1:29 just just going to use clae 3.5 Sonet
+1:31 because that's what I'm used to Let's
+1:33 create the app based on
+1:38 dream MD and let's start with the add
+1:44 notes feature this is a pretty good
+1:46 first prompt here so let's go ahead and
+1:48 run this as you can see here cursor is
+1:50 going to town it is on its fifth page
+1:53 loading
+1:54 here so we can go ahead and hit save and
+1:58 we get hit with ACH bu of Errors let's
+2:00 hit refresh let's see if that fixes a
+2:02 lot of the errors and let's just go
+2:04 ahead and hit sign in with Google and
+2:06 this looks like it is working let's go
+2:08 ahead and sign in with one of my emails
+2:10 and let's see if we get an error
+2:11 immediately sometimes you can it doesn't
+2:14 look like it took us to the correct page
+2:16 maybe we can hit go to
+2:17 dashboard okay so it looks like we're
+2:22 getting some errors here and I'm just
+2:25 going to copy and paste all the errors
+2:27 and say um
+2:30 and we just paste those errors
+2:33 in and so now we need to create
+2:35 different rules and so we need to go
+2:37 into Google Firebase and we're just
+2:39 going to edit these rules here and so
+2:40 we're going to go into here we're going
+2:42 to go to fir store database we're going
+2:43 to add in some new rules and we're going
+2:45 to paste this in add some
+2:47 rules and it doesn't look like we need
+2:50 to do anything for
+2:51 storage and this looks pretty good so
+2:54 we're going to save this and we're going
+2:56 to come back to Big
+2:58 note and and let's go ahead and sign in
+3:01 again go to
+3:02 dashboard and we get some new errors
+3:05 here no
+3:07 worries let's go ahead and paste these
+3:09 in please fix and it looks like this
+3:12 error is basically saying that we need
+3:14 to add an index we're going to hit new
+3:16 tab here and we're actually just going
+3:17 to do the same thing um oops we have to
+3:19 sign in to see the dashboard so we're
+3:21 going to hit sign in with Google here
+3:23 and what we're going to do is we're
+3:24 going to hit this uh email here now
+3:26 we're going to hit go to dashboard and
+3:28 we got an error so we need to hit
+3:30 inspect in inspect we're going to go to
+3:33 the side here and what we need to do is
+3:36 we need to go to the console which can
+3:38 be found down here and it's basically
+3:41 saying we are we need an index so we're
+3:45 going to go like this and we're going to
+3:46 sign in with the same email that we used
+3:48 to set up our Firebase account and we're
+3:50 going to just save this as an index and
+3:53 right now it is building and this does
+3:55 take a few minutes to load I don't like
+3:57 that it's an idea so we created a test
+4:00 idea and it doesn't Okay so let's see
+4:04 what happened here we need to write down
+4:05 everything okay so let's see it looks
+4:09 like it is saving the idea and we can
+4:11 actually check this on Firebase right we
+4:13 can go to Firebase and we can look in
+4:14 the firestore database and we'll see it
+4:17 here so we have test idea here so the
+4:18 ideas are saving to the database which
+4:20 is cool and that's what we
+4:22 want um let's go
+4:25 ahead and go to repet so we need to sign
+4:29 back in so let's go to dashboard I
+4:31 wonder if we've signed in okay so here
+4:32 we have test idea and so test idea 2 we
+4:37 can create this idea once we go here we
+4:40 now get this error and I think this is
+4:42 going to be the same exact thing right
+4:44 we're going to create a new tab and what
+4:46 we need to do is sign in once again so
+4:48 we're having trouble with the page
+4:50 ordering it's kind of weird right now
+4:52 but now I think if we click on this we
+4:54 can go to this page and so we need to go
+4:56 to inspect page again because this can
+5:00 help us open the console so we can
+5:02 actually click on this link right here
+5:03 we need to add another index uh on this
+5:06 notes page and so this will take some
+5:08 time again and we can save this and
+5:09 we're going to do the same thing while
+5:10 we're waiting so again uh so this one
+5:12 was created now this one's building this
+5:14 will take a few minutes now make the
+5:16 page for the notes also white background
+5:22 it has the
+5:24 same weird ridges okay so there we go so
+5:28 now we can enter a note so so this is me
+5:31 making a
+5:33 note add a note hello
+5:37 note this is another
+5:40 note and so this is pretty cool so what
+5:44 we're doing here so the linking is
+5:47 pretty bad so we have this your
+5:50 ideas okay so let's go ahead and accept
+5:53 all these changes and we're going to hit
+5:54 command R to reset the chat but before
+5:56 we go any further we are just going to
+5:58 commit this so so basic uh
+6:02 structure
+6:04 created I don't know whatever save all
+6:06 and commit changes uh commit and so now
+6:08 that we like where we are in the project
+6:10 we're going to come here to get and
+6:11 we're going to hit summary and we're
+6:13 just going to say basic uh
+6:16 structure uh created looks good and
+6:19 we're going to stage and commit all
+6:20 changes and that's good so we just saved
+6:24 our project now we can come back to
+6:26 cursor and we can open up our composer
+6:29 and begin in our next question so here's
+6:31 how we're going to change this so this
+6:33 is looking good on the database right
+6:34 all these notes are being saved properly
+6:37 it looks pretty good um yeah it looks
+6:40 good and we just don't want things to be
+6:44 in this order so I don't want the user
+6:46 experience to be in this order so what I
+6:49 want to have
+6:51 happen is the user the user opens after
+6:55 signing in and immediately
+6:59 can just start writing a note after the
+7:05 user saves a
+7:07 note it should go to an idea view the
+7:13 user does not name the idea each idea
+7:18 should just have a title at the top we
+7:24 are going to use AI to name that idea
+7:30 later and allow the user to customize it
+7:35 but for now the user
+7:39 experience is open
+7:42 app create idea create note
+7:47 save then uh note
+7:51 automatically gets saved to an
+7:55 idea with unique ID
+8:00 user can then immediately add another
+8:04 note to that same idea repeat until user
+8:10 is satisfied let's create this portion
+8:15 of the app and make and make the user
+8:21 experience like this okay let's go ahead
+8:24 and run this and now let's go ahead and
+8:26 hit save all this should
+8:30 pretty drastically change the
+8:32 app so here we go this is looking good
+8:36 okay so this is a test note save note
+8:41 okay the save didn't work reference
+8:44 error
+8:45 I I tried to add a note and got this
+8:51 error this looks to be done let's go
+8:53 ahead and hit save and we're going to go
+8:55 ahead and refresh this page here okay
+9:00 hello this is Riley I am making a note
+9:06 save note once again we got an error and
+9:09 look at that and we have to add once
+9:11 again another index would you look at
+9:13 that now let's go ahead and come here
+9:15 and it literally sets up the index for
+9:17 us automatically once again that's our
+9:18 third index that we had to add okay so I
+9:20 forgot to turn on my camera but this is
+9:22 the last prompt that I ran while that
+9:23 last index is running I said let me be
+9:25 really clear here I want to be able to
+9:26 add a list view that shows just this
+9:28 idea right now it shows like the notes
+9:30 and then it shows the ideas all on this
+9:31 main page I want as soon as I type uh
+9:35 type an idea here on the main page on
+9:38 main page this should go straight to a
+9:41 new idea in fact this doesn't even
+9:43 update right away you actually have to
+9:44 refresh it then this will actually show
+9:46 up right here so type your on main page
+9:48 right then it adds here and it adds to
+9:50 the most recent idea there's no way of
+9:52 like creating a new idea or like adding
+9:54 to a new idea it's very simple this um
+9:56 but it's actually a decent spot because
+9:58 it's all it's all working properly
+10:00 and so now now I basically want to
+10:02 create a new view so I'll just show you
+10:04 so we'll hit save all here let's go
+10:05 ahead and save this good good so here's
+10:08 this test idea test idea 2 so now we can
+10:11 say um note for idea three and so we can
+10:17 save this note okay o every single new
+10:22 note from the main page should create a
+10:26 new idea
+10:29 right now it's adding it to an old idea
+10:34 please make this change but I want to
+10:37 specify here I'm going to
+10:39 say but when I add a new note within a
+10:45 idea from the idea view
+10:50 page I
+10:52 want it to just be added there and to be
+10:57 able to add more to that
+11:00 idea okay let's run this let's test this
+11:03 out hello test let's hit save note
+11:06 what okay not sure what's going on there
+11:09 but let's go ahead and wait for this to
+11:10 be done okay so this is done let's go
+11:12 ahead and hit save all and let's go
+11:14 ahead and refresh
+11:16 this hello there okay so this is a new
+11:20 note test this woooo this is
+11:24 working
+11:26 good nice and now we just need to have
+11:29 like a navigation back
+11:32 button so okay so we're good here this
+11:35 is looking good um so we have our ideas
+11:38 so new test four so this should be idea
+11:42 4 test so this should be a brand new
+11:45 idea good new one yes sir this is good
+11:51 okay nice so now I'm going to ask for a
+11:53 back button so basically like can you
+11:55 add a back button to the top left idea
+11:56 page so I can navigate back to the main
+11:57 page and then
+12:00 uh Center the uh um Center the idea
+12:05 notes uh text on that page let's go
+12:08 ahead and hit save here good now we have
+12:11 this navigation button and we can now
+12:14 add a note
+12:17 here and this will create a new idea add
+12:20 to idea save note this is cool
+12:25 man a
+12:27 note and awesome
+12:29 okay now we're in a good place to start
+12:32 adding the AI features so this is
+12:35 looking good and we're just going to hit
+12:36 accept all and what we're going to do is
+12:38 reset the composer now what we're going
+12:39 to do is we're going to come to get on
+12:41 here and we're going to say
+12:43 created proper note and idea view I'm
+12:47 going to stage and commit all changes
+12:49 let's just say I want you to add a new
+12:52 page from the home screen
+12:55 called custom content first we need to
+12:59 be able to create the custom AI
+13:03 prompts and let's go ahead and run this
+13:06 and forgive me pause the video right now
+13:07 if you want to take a look at this
+13:08 prompt here it is I'm basically just
+13:10 asking for a new page that allows me to
+13:13 add in the custom modifier um that will
+13:16 be used in AI but we haven't added in
+13:18 the AI features for that modifier to be
+13:20 in work so I basically explained why
+13:21 we're doing it because I think it will
+13:22 help it organize the page and then I'm
+13:23 going to say then we're going to add the
+13:24 AI features in the next step so let's
+13:26 see if it got this right so we're just
+13:27 going to hit save all and we're going to
+13:29 come to Big note and right here it added
+13:32 this manage template so let's just make
+13:33 sure we have everything all refreshed
+13:35 this is looking good we can still click
+13:37 on our ideas here now let's hit manage
+13:39 templates and here we can hit template
+13:41 name let's call this
+13:44 newsletter and template description
+13:46 refine
+13:48 and let's say refine and make better
+13:51 take the notes that the user said and
+13:54 make them clean make them make it into a
+13:58 clean long clean
+14:01 long newsletter so we have this
+14:03 newsletter template right here ready to
+14:05 go and okay so here's what I want to do
+14:07 for whatever reason cursor like I can't
+14:09 really expand this but I basically want
+14:11 to be able to add a button on the idea
+14:12 page right I want to be able to on this
+14:14 idea page click a button that says turn
+14:16 into type of draft I want it to look at
+14:17 all of these notes I want it to look at
+14:19 all of these notes and I want to be able
+14:22 to turn it into a type of content that I
+14:25 will use right so I want you to use
+14:28 automatically turn into the specified
+14:30 type using AI so I wanted you to use the
+14:33 following model on grock and so I am
+14:37 going to give you the model and document
+14:42 I want you to implement this
+14:45 feature as efficiently and simply as
+14:50 possible and these
+14:53 drafts that are created should be stored
+14:57 on their own
+14:59 page actually should be stored on the
+15:02 top of the ideas page in which it was
+15:06 created and there should be a separate
+15:11 drafts page that you can access from the
+15:15 homepage and so now we need to paste in
+15:17 all of the grock so this is grock right
+15:19 here we're going to be using this for
+15:21 now we're not going to use this later I
+15:22 might change it to anthropic or
+15:23 something I just want to test this I
+15:24 want to use Gro because we're also going
+15:25 to use Gro for the voice because we're
+15:26 going to be adding voice notes very soon
+15:28 and so so this is what I want to do so
+15:29 we're going to be using this and then
+15:31 we're going to go grock what the hell
+15:33 we're going to go to grock here and
+15:35 we're basically going to grab um
+15:38 examples here and chatbot conversation
+15:41 memory with Lang
+15:43 chain and so here is chat completions
+15:45 let's just go ahead and hit let's just
+15:47 grab this whole page right here and this
+15:49 is the JavaScript as we can see uh right
+15:52 here we have JavaScript right here and
+15:54 so that's what we're using let's go
+15:55 ahead and go back to cursor and we're
+15:57 just going to paste all of this in
+15:59 and this is probably going to be the
+16:01 hardest change yet but hopefully it gets
+16:04 it so I just got an API key so it
+16:07 finished and it didn't even say anything
+16:08 about the API key but I actually just
+16:10 need to go into repet and in big note
+16:12 what we're going to do here is so we
+16:15 have idea notes so we can click on idea
+16:17 note so here it says create draft this
+16:18 is actually what we want to do right we
+16:20 can hit newsletter and create draft
+16:21 obviously it looks terrible but that's
+16:23 okay so what we need to do is we
+16:24 actually need to go to secrets and we
+16:26 need to do I'm going to go like this I'm
+16:28 going to go like this new secret I'm
+16:29 just going to put nextore public _
+16:34 grock API key and we're just going to
+16:38 paste this right here and we're going to
+16:40 add the secret now what we need to do is
+16:41 we need to grab this text right here and
+16:43 I need to say my I put in the secrets
+16:48 folder in repet I put this next public
+16:51 API key can you edit the code so it uses
+16:56 that did I
+16:57 not okay
+17:00 so let's go ahead and run that and then
+17:01 I'm going to ask it what npm do I need
+17:03 to run because it did not give me
+17:04 anything to run and I need to download
+17:06 their Library yes here we go npm install
+17:08 grock SDK so now we're going to hit
+17:10 shell and we're going to paste this in
+17:12 right
+17:13 here and there we go now we have this
+17:16 web view let's just save
+17:18 all and now that we've edited a bunch of
+17:20 stuff let's go ahead and let's stop and
+17:23 rerun this all right so this is where we
+17:24 are so far if we hit we can hit I have
+17:27 been creating app
+17:30 and then I'm just going to put this big
+17:32 I'm going to put the whole idea for the
+17:33 app that I have right here and I'm just
+17:34 going to hit save
+17:35 note and obviously the formatting is
+17:37 terrible but let's see if we can create
+17:39 a draft here I am using revet and
+17:42 Firebase as well save note okay now
+17:46 we're going to hit uh newsletter and
+17:48 let's see if this works we're going hit
+17:49 create draft we're probably getting an
+17:50 error no way view full draft okay it
+17:53 says 404 this page cannot be found okay
+17:56 I will say that if we hit view drafts it
+17:58 says says introducing the AI Power Note
+17:59 content creation app what's new we
+18:01 working on blah blah blah it literally
+18:02 looks like it works but when we hit view
+18:04 full draft so let's just say that okay
+18:06 it actually looks like this worked and
+18:08 it is creating a new draft however when
+18:10 I hit view full draft I'm getting an
+18:11 error this is the error and 404 this
+18:13 page cannot be found please help me fix
+18:16 this issue and we'll run that all right
+18:19 here it has said that it needed to
+18:20 create a page and it didn't create a
+18:22 page so the page literally didn't exist
+18:24 so we're going to save all here and in
+18:27 theory this should work so if we upgrade
+18:30 this or update it hit view drafts and
+18:32 now we can hit view
+18:33 draft and it failed to load draft
+18:36 because we have some errors maybe what
+18:37 we need to do actually because it
+18:39 probably didn't create the page I think
+18:41 it it's going to work I think it's going
+18:42 to work here so we need to refresh this
+18:43 the reason it didn't work is it probably
+18:44 didn't create a page for that Draft
+18:46 before the updates that it just made but
+18:48 I bet you money that if we go back to
+18:50 the main page here if we go back to the
+18:51 main page here that if we go to this
+18:53 idea right here which should be my super
+18:55 long idea in theory what we should do
+18:57 what we should do is we should say
+18:58 select a template newsletter create
+19:01 draft now it might actually create a
+19:04 page after it's done so here for this
+19:06 one let's check let's see okay failed to
+19:10 load draft never mind I was wrong now
+19:13 let's go ahead and go like this error
+19:15 when clicking on clicking on the draft
+19:18 and so what we can do here is what we're
+19:20 going to do is we're going to click on
+19:21 our last idea and here's the idea notes
+19:24 and I guess we'll try and create a new
+19:25 one we'll create the draft now let's see
+19:26 if this works nice here's the dra raft
+19:29 view good okay this is good let's go
+19:31 ahead and I know it looks terrible still
+19:33 I know it looks terrible I get it I
+19:35 understand I understand but here we are
+19:36 we're on the AI power not creation we
+19:37 can create an idea and we can create
+19:41 drafts with a template I'm not going to
+19:42 create another one we've already created
+19:43 a bunch we can manage templates and so
+19:45 we can create a new template I could
+19:47 create a Twitter template right here and
+19:49 add another one and then we can create
+19:51 drafts with those templates just like
+19:53 this and then we can view the full draft
+19:56 that's a good
+19:57 place okay so now it looks pretty good
+20:01 except on the draft view it's showing
+20:04 the Bold formatting stars or the I'll
+20:08 I'll give you an example and so this
+20:10 isn't that good so here I'll just give
+20:11 an example of what this looks like okay
+20:13 and so here we have what's new this is
+20:16 the type of formatting I don't want I
+20:20 want it to show up as bold in the draft
+20:23 View and I want to be able to edit these
+20:28 draft so here it wants me to to add in
+20:30 npm install react markdown which I will
+20:32 do let's go ahead and we are going to
+20:34 hit we're going to go to the Shell and
+20:38 we're going to paste this in and we're
+20:39 going to run this bad boy and there we
+20:41 go and we're going to see if this
+20:43 works we are going to hit save all come
+20:48 to this web view there it go this is
+20:50 looking pretty good so we can hit view
+20:51 draft here and full view draft okay and
+20:56 can we edit
+20:58 okay so we can save and we can edit it
+21:02 doesn't catch the line breaks let's see
+21:04 if it catches the header okay no it
+21:07 doesn't Okay the Bold was
+21:11 solved now I want to be able to do
+21:16 a heading
+21:18 with header header two header three Etc
+21:23 and have it look a lot like notion I
+21:27 except simpler so so can
+21:29 we I also want the line breaks to show
+21:34 up meaning meaning if there's a space in
+21:38 the AI response if there's a vertical
+21:43 space in between lines in the AI
+21:47 response it should be visible in the
+21:50 output and let's run that this is just
+21:54 about done we can hit save all there it
+21:57 is wow wow wow
+21:59 wow
+22:01 beautiful and so now what we can do
+22:03 let's go ahead and give this a full test
+22:05 so what we should do here is we need to
+22:06 come to manage templates and we can't
+22:09 edit the templates so we're actually
+22:10 going to be we're going to do that real
+22:11 quick let's just give it a full test
+22:12 here let's just say let's just say Quick
+22:15 Share we'll just call this a quick share
+22:17 I don't know template description
+22:19 markdown quick share this is a markdown
+22:22 format outline of whatever
+22:26 I of whatever the user
+22:30 gives this is a markdown format outline
+22:32 of whatever the user
+22:35 inputs take their core message and ideas
+22:39 and turn it into the most important
+22:43 idea ideas in markdown format and make
+22:48 it clean and
+22:53 organized use
+22:55 concise and full sentences
+22:59 with headings and bold for important
+23:04 keywords and ideas okay okay so now
+23:07 we're going to hit create template so
+23:09 this is Quick Share that gets added now
+23:11 what we can do is we can say outline the
+23:14 user experience of this app let's go
+23:17 codebase don't generate code let's go
+23:20 ahead and run this this is all looking
+23:22 very good and then next we'll add the
+23:24 voice features
+23:25 and we'll be looking pretty good okay so
+23:28 here I'm going to we're going to add a
+23:29 lot to this so I'm just adding the user
+23:30 experience so I'm just going to type in
+23:31 in a new note user experience and we're
+23:34 just going to paste this in right here
+23:36 and we're just going to hit save
+23:39 note and yeah we're going to want to
+23:42 make these notes the same formatting and
+23:45 that's okay we can change that later
+23:46 that's not important right now what's
+23:47 important right now is we are going to
+23:50 test this so we're going to select a
+23:51 template we're going to hit Quick Share
+23:52 and we're going to hit create draft and
+23:54 this should look extremely
+23:57 clean okay okay don't know what's going
+23:59 on here that's okay app development
+24:01 update view full draft look at that
+24:03 that's clean we should create padding on
+24:06 the sides so let's look at it like this
+24:07 that's super cool okay now for some fun
+24:11 features now that we've added the AI
+24:15 feature to create
+24:17 drafts I want to create an AI feature
+24:22 that renames the idea based on the first
+24:27 note from on the main
+24:29 page I create note you are going to use
+24:34 that note to rename the idea to a title
+24:40 with eight or less words that
+24:44 cleanly and in a in a slightly fun way
+24:49 no that cleanly titles the
+24:53 note right when it is created so right
+24:57 now if we test this so this is a new
+24:59 note
+25:00 which will have an idea save note at the
+25:05 top of the note there should
+25:09 be at the top of the note there should
+25:11 be a title of this list that
+25:17 loads that gets added and it updates the
+25:22 name of this note you can keep the
+25:26 existing ID that the list has and just
+25:31 add this title as a new field as a new
+25:35 string on Firebase called list
+25:39 title
+25:41 and this should show up both at the top
+25:46 of the list page and on the page and the
+25:51 homepage that shows all the lists and so
+25:56 now we wait for that to finish
+25:59 let's go ahead we're going to hit save
+26:01 all and let's test this out a man went
+26:04 to the
+26:06 store
+26:07 and let's make sure it used Gro okay it
+26:10 did use Gro okay we're good a man went
+26:12 to the store wearing a banana hat save
+26:16 note this should be pretty immediate it
+26:18 still just says new idea at the top and
+26:22 wasn't automatically named the man went
+26:26 to the store
+26:29 to buy
+26:30 chocolates save note and buys chocolates
+26:33 at the store can you please edit the
+26:37 prompt so that the only thing in the
+26:41 title is the title string I do not want
+26:46 to see anything else no quotation
+26:51 marks just eight words include nothing
+26:55 else all right so we're going to save
+26:56 this new note
+26:58 unlikely friends play pingpong nice so
+27:01 now today I am making an app and this
+27:03 app is an AI powered Notes app and it's
+27:05 going to be really cool I'm making it on
+27:06 replit I'm using cursor and I'm going to
+27:07 make this app into 100,000 user app and
+27:09 it's going to be amazing and cool nice
+27:11 okay okay that creates it pretty damn
+27:12 quickly okay what is this look like full
+27:14 screen all right now let's go through
+27:16 before I add any voice features I want
+27:17 to just change some of this formatting
+27:18 it's driving me nuts okay so how do I
+27:20 want this to be I'm just going to say
+27:22 just hit save all and accept all and
+27:24 let's just save this so now I actually
+27:25 want to be able to delete these lists
+27:27 and so now we can delete these ideas so
+27:29 I want to delete all of them without the
+27:32 and while I'm doing that can you please
+27:35 add that same option on the drafts page
+27:39 and so we should be able to delete
+27:42 delete delete yep delete yes good
+27:47 cool so we can delete these and then I
+27:50 want to see drafts and we're just going
+27:52 to hit it's not done yet going wait for
+27:55 it to finish going to hit save all we
+27:57 should see it right here good now I'm
+27:59 going to delete this draft delete this
+28:02 draft uh delete this
+28:04 draft and delete this draft and what I
+28:08 want to do here is can you please have
+28:11 the
+28:12 drafts show template type template
+28:16 type
+28:18 for list name so as the title right now
+28:23 it says I have
+28:25 created a newsletter template so it
+28:30 should say template for list name
+28:35 remember these were AI
+28:38 generated and we're going to want to do
+28:40 at codebase run that so after this
+28:43 update it was wrong so I'm basically
+28:44 saying down here where you can't really
+28:46 see it that well I'm just saying this
+28:48 was the title after this which is wrong
+28:50 it should say Quick Share for the app
+28:52 development title whatever that is so
+28:53 maybe we need to change the data data
+28:56 entry so that when draft gets created it
+28:59 should log what type of template was
+29:01 used the title should be logged and I
+29:04 have a feeling it'll just get it on this
+29:06 try and so now let's go ahead and press
+29:08 save all and let's go ahead and do this
+29:10 for a new note hello Riley is my name
+29:13 and so we can save a new
+29:15 note loading I like that loading screen
+29:17 there hello my name is Riley that's the
+29:19 new name of this list now we can create
+29:20 a template Quick Share create draft and
+29:22 it says all right so then we got an
+29:24 error here and that's probably because
+29:25 of this new update we just added and so
+29:27 we can copy this this can paste this
+29:30 here let's click on dev
+29:33 tools and we will run this so now I'm
+29:35 going to put my name is William and
+29:38 we'll save this note and introduction to
+29:40 William cool now we can do Quick Share
+29:43 let's see if we run into that same error
+29:44 did same
+29:46 error seems to be struggling with this
+29:49 error all right let's see if we can get
+29:51 this working let's just use this one
+29:52 Quick
+29:54 Share let's go Ahad and create a draft
+29:56 here okay good Quick Share for creating
+29:58 AI power notes apps on repet view full
+30:01 draft there we go the edit is still not
+30:05 great
+30:06 however we can figure that out
+30:09 later all right so let's hit accept all
+30:11 let's save this as let's call this draft
+30:14 title good and we're going to save all
+30:15 our changes let's go back to our web
+30:18 View and let's say we are going to then
+30:21 refresh the composer can we create a top
+30:25 bar on the main page and that is where I
+30:29 want the links for manage
+30:33 templates and
+30:36 view
+30:37 drafts except change their names to
+30:42 templates and
+30:46 drafts
+30:48 respectively in the top bar at codebase
+30:50 let's run it okay so it
+30:54 actually let's see what this looks like
+30:56 full screen so this actually looks
+30:57 pretty good so here we have these notes
+31:00 Here on the side we can just write a
+31:02 note just like this let's go ahead and
+31:05 say now can you put the note box on the
+31:10 right side and then have
+31:15 the actually can you put can you move
+31:19 the note the
+31:21 ideas to the right side I'm going to
+31:24 draw this right here now we are going to
+31:26 draw directly on this this so I'm just
+31:29 going to go to red right here actually
+31:32 I'm just going to draw this
+31:34 so let's go like this and this is what
+31:37 I'm going to give cursor right here now
+31:38 can you move these ideas to the right
+31:40 side here is an image I want the ideas
+31:44 moved over there and then I want the
+31:48 note uh dialogue box to look more like a
+31:53 document and be larger on the left side
+31:57 but
+31:58 uh keep the spacing the same actually
+32:01 larger on the left side so it'll end up
+32:04 being notes being text input
+32:08 field on the left and
+32:11 then ideas on the right actually cancel
+32:14 chat hold on I'm going to paste in the
+32:19 screenshot and then at code base run
+32:22 it and this looks pretty good so let's
+32:25 see this right here let's go full screen
+32:27 just like this wow yeah so create new
+32:31 note hello there my name is Riley and I
+32:36 am making a note and this is pretty cool
+32:39 man we can hit save note the note
+32:43 automatically gets named here and we
+32:48 have this same format right here for
+32:49 creating a new note that's pretty cool
+32:51 so this note should go in this same note
+32:55 this is me writing more about the same
+32:58 thing and yeah
+33:00 pretty cool man okay very cool and
+33:05 interesting and give me the National
+33:09 Anthem Parody about pizza and let's go
+33:13 like this save note now we're going to
+33:17 create a draft Quick Share create a
+33:19 draft this gets turned into yeah Quick
+33:21 Share for creating AI powered Notes app
+33:23 view full draft there we go we see this
+33:27 right
+33:28 here very interesting okay from the
+33:30 homepage right now if I hit hello and
+33:32 then command enter it doesn't add
+33:33 anything so from the homepage command
+33:35 enter should create the note and be the
+33:39 same as if I hit save all right let's
+33:43 try this there's no better ways to make
+33:45 videos than to just turn on your camera
+33:48 and shoot command
+33:52 enter okay nice okay when the save note
+33:58 is triggered I want there to be a little
+34:01 loading animation that pops up that says
+34:07 generating title until the new page
+34:11 loads which is like 2 seconds okay now
+34:14 we can do this hello there I am
+34:18 Riley and this is what I do for fun
+34:22 though command enter nice yes beautiful
+34:26 animation love it okay that's pretty
+34:28 damn clean cool all right so let's go
+34:31 ahead and enter this new one in here so
+34:33 I'm just going to enter this and save
+34:34 note and we're definitely going to need
+34:35 to fix this this is an entire essay
+34:37 founder mode and manager mode by Paul
+34:38 Graham and we can enter this in now
+34:41 let's add a new note this is me typing
+34:45 underneath this note this is me
+34:49 yes good that was pretty
+34:52 immediate okay and so now we are going
+34:54 to create
+34:55 template and so we added this concise I
+34:58 want to test it on this founder mode
+35:00 Let's go ahead and um we going to click
+35:02 concise create draft boom view full
+35:06 draft
+35:07 nope okay these aren't in order anymore
+35:10 but this is clean okay so in concise for
+35:12 founder mode versus manager mode two
+35:14 different ways to run a company there
+35:15 are two distinct modes of running a
+35:16 company founder mode and manager mode
+35:17 founder mode is more effective for
+35:18 Founders while manager mode is more
+35:19 suitable for professional managers
+35:21 conventional wisdom is mistaken blah
+35:23 blah blah blah blah cool cool and we can
+35:24 edit this it still doesn't look good I
+35:27 wish
+35:28 we could edit this in the same view as
+35:32 the display of it but let's not worry
+35:35 about that now I've gotten in trouble
+35:36 when I try to fix that early on can we
+35:38 please change the draft page to just to
+35:44 cards
+35:45 that take up a full row instead of the
+35:50 partial row like it take up a full row
+35:54 so what does this look like full screen
+35:55 okay take up a full row with very
+35:58 change the draft page to a list instead
+36:01 of
+36:02 cards and make them centered with a lot
+36:06 of padding I want these to be very
+36:09 centered with a lot of padding on each
+36:13 side in the margins and should be
+36:17 about the width of a social
+36:20 feed and then please make
+36:23 it just the title we have which is
+36:29 formatted like this here is an example
+36:34 so I'm going to give an example right
+36:35 here here's an
+36:37 example and then okay here's an example
+36:41 only show this title nothing else not
+36:45 even view full draft if the user clicks
+36:50 on the
+36:53 item or the draft in the list it should
+36:57 automatically take them to view the full
+37:01 draft all right look at that so in
+37:03 theory yep that looks good can we still
+37:05 press the three dots nice three dots
+37:07 works we can click on this and we can
+37:09 see this actually don't really like the
+37:12 headings anymore I like this look right
+37:14 here for the draft
+37:17 view when we click on full draft right
+37:22 now it has draft view at the top can we
+37:27 please make this can we please make this
+37:31 be the title that is on the cards on the
+37:34 previous page take the title out of the
+37:39 bottom part take the title out of the
+37:43 body of the draft view page and make it
+37:49 at the top and get rid of draft view
+37:54 also make the edit button on the top
+37:57 right and make it a simple black icon
+38:02 all right that looks pretty good now we
+38:04 can hit edit up here obviously that
+38:06 doesn't quite look as good but that's
+38:08 okay for now that's okay let's go ahead
+38:11 and concise for founder mode in manager
+38:14 mode okay this is looking good Quick
+38:16 Share I'm digging it instead actually on
+38:21 the home page can we put the the most
+38:25 recent 10 drafts
+38:28 below the create new note in order of
+38:32 recently created most recent first now
+38:36 we can store all the drafts on the
+38:37 homepage okay so here we have the most
+38:39 recent drafts concise for founder okay
+38:41 so I don't like all this extra text here
+38:44 so on the
+38:45 homepage the drafts have this have this
+38:51 and the ideas have this like we're going
+38:54 have to copy it like okay I don't want
+38:56 these to to be
+38:58 visible rather I want these to be rather
+39:02 I want these to be I don't want these to
+39:05 be visible rather I don't want these to
+39:07 be visible rather I want these I want
+39:12 there to be nothing for drafts there
+39:15 should be no dates on it or created at
+39:19 or anything just the titles and for the
+39:24 ideas group them by day one
+39:28 today yesterday and then date and then
+39:31 two days
+39:33 ago
+39:35 Etc but don't have the date on the
+39:39 actual card I'm actually going to know
+39:41 so there we go now we're going to save
+39:42 these just like this and all of these
+39:45 are from today let's go ahead and go
+39:47 into
+39:48 Firebase here and we'll go to manb so we
+39:51 can see ideas let's change this one to
+39:55 te we can change this to 9
+39:59 10 we'll change this to we'll just see
+40:02 what that looks like I don't think
+40:04 that'll update in real time I think
+40:06 we'll have to refresh it there we go you
+40:09 see that yesterday four days ago
+40:12 Etc and let's just go ahead and accept
+40:14 all let's just make sure the core
+40:15 functionality is working here and let's
+40:17 go like this just enter in some random
+40:19 stuff let's save the note I don't know
+40:20 if we got the clean animation that's
+40:21 okay and we'll just hit
+40:24 concise create draft and then on the
+40:26 drafts page page concise founder mode
+40:30 these are in order draft your
+40:32 ideas okay that's looking good so we can
+40:35 get this we can accept all and we're
+40:38 going to just we put drafts on
+40:41 homepage things are looking good now
+40:44 what we can do is we can test let me see
+40:48 this okay we lost the animation which is
+40:50 fine but that's okay that's fine now I'm
+40:53 doing some basic formatting stuff so
+40:55 match the formatting of the ideas and
+40:58 who the
+40:59 draft I like it a lot more can you
+41:02 please move the save note and just make
+41:06 it a green check on the bottom right of
+41:11 the note and make it smaller okay hello
+41:15 there this is pretty interesting can I
+41:19 pit command enter I can good interesting
+41:23 observation this is neat I like this now
+41:27 we want to do please get rid of the
+41:30 create new note on the on the create new
+41:36 note card rather make it make a separate
+41:42 heading above the empty or above the
+41:46 text how does this work okay that's cool
+41:48 nice that looks pretty good please get
+41:50 rid of the create new note on the create
+41:52 new note card on the main page and then
+41:55 make a separate
+41:58 heading above it because I don't want to
+42:02 have create new
+42:04 note um above the input field on the
+42:09 idea page it should just be the it
+42:12 should just be
+42:14 the input field no need for the heading
+42:19 okay so now I want the ability to create
+42:20 a note with voice I want you to
+42:22 create spacing on the create new note
+42:26 card which shows up on the homepage and
+42:29 the list page and it should be a full
+42:32 width of that note card but it should be
+42:33 like a toggle on the left it should be
+42:36 Yap and on the right it should say jot
+42:40 and basically if the user presses Yap
+42:44 then it should record the user's voice
+42:47 and when they press done which you
+42:50 should add somewhere on the screen that
+42:52 makes sense the text should
+42:53 automatically be added to the note and
+42:56 then it should be entered and then the
+42:58 same process should happen basically
+43:00 within this note compartment you can
+43:01 record your voice note and it will
+43:03 transcribe it when the transcription is
+43:05 done it should wait a half second and
+43:09 immediately just enter it automatically
+43:11 and then the same process should happen
+43:13 as if I just wrote it and we're using we
+43:14 are using the grock model for this step
+43:19 and so what we're going to do here we're
+43:21 going to do the grock model for this
+43:22 step we're going to go to grock fast
+43:23 inference grock Cloud we're going to go
+43:25 like this we're going to go
+43:27 documentation
+43:28 settings nope and so I just found this
+43:31 on perplexity and so we're going to
+43:35 enter this down
+43:37 here and this is just the docs I was
+43:40 just wanted to know which model I should
+43:41 use but we're going to run this okay
+43:42 this is looking correct so far prompts
+43:44 this right no
+43:46 way okay so here we have jot so we can
+43:50 type let's just make sure all the
+43:50 functionality the old functionality is
+43:52 here yep typing Basics nice okay so here
+43:58 yeah hello my name is Riley and I'm
+43:59 speaking now and this is looking
+44:01 actually pretty good so far I'm not sure
+44:03 if it's recording my voice right now and
+44:05 we could get some errors but so far so
+44:08 good
+44:10 okay we got an error no worries can
+44:14 paste that
+44:15 in just make sure we got all these
+44:17 errors locked in here I am using the
+44:20 same maybe it's not putting in okay so
+44:23 we just got to put in hold we can copy
+44:26 this right here okay I literally forgot
+44:27 to film this last part but I finally got
+44:29 it to work after finagling it I had to
+44:31 switch models with Gro and now we're
+44:32 just adding like a VI animation so it is
+44:35 adding I literally said okay while
+44:37 recording can we add a clean wave
+44:38 animation across the center of the
+44:39 checkered pixels or something like that
+44:41 uh something light and viby and I'm
+44:42 going to hit save here I don't know if
+44:45 anything
+44:46 changed but let's go ahead and we try
+44:48 this hello there my name is Riley and
+44:50 this is absurd this is awful not good
+44:53 okay it worked
+44:55 but okay that did did not work it looked
+44:59 horrible scrap that animation and make
+45:02 it a clean little light animation wave
+45:07 over the top of the text input and let's
+45:12 just make sure the text input still
+45:13 works so let's test and see if this
+45:17 works I hope it does command enter
+45:22 okay let's take a look at this hello
+45:24 there my name is Riley and I'm speaking
+45:28 and I'm not sure how I feel about this
+45:30 animation it's jumpy and weird but I
+45:33 don't know I just wish it looked a
+45:35 little bit cooler I'm basically saying
+45:37 if we make it a little bit smoother it's
+45:39 a little jumpy right now and not the
+45:41 best let's please make it look better
+45:45 and we got an A now let's test this
+45:47 voice feature let's do it from here
+45:50 hello everyone I think that this is
+45:52 looking good I enjoy this a lot we
+45:54 struggled a little bit because there was
+45:56 some animation mix up and the fact that
+45:57 this voice thing is the same as the one
+46:00 that we're going to see on the next page
+46:01 right we're about to see it on here so
+46:02 if we hit stop see it says doing the
+46:04 magic and then opens up here this is the
+46:06 same thing so we can add more here right
+46:08 we can do some stuff here and make this
+46:09 absolutely epic and fun and I think this
+46:11 is a pretty good experience we can just
+46:12 record our voice right here and hit stop
+46:14 the one thing I don't like is it has
+46:15 this kind of full screen animation which
+46:19 I don't love right if the whole page
+46:21 refreshes instead of it just updating it
+46:22 so like pizza burger banana pizza burger
+46:25 I hit stop and it just refresh refes the
+46:27 whole page it's not terrible but you
+46:29 know I can change it and so what I want
+46:31 to do here is I want to edit this page
+46:33 right here this is the page I want to do
+46:34 so this is looking good we can actually
+46:35 come here I'm going to hit save all I
+46:38 think I already hit accept all yeah save
+46:40 all let's just say on the list
+46:44 page on the idea page rather on the idea
+46:47 page so this is what we're going to do
+46:48 we're going to add some padding on each
+46:50 side here we're just doing some basic
+46:52 stuff this looks pretty bad when it gets
+46:53 super zoomed out so we want to add some
+46:55 padding here on the idea page whoops and
+46:57 yeah so we're going to want to go like
+46:58 this we're going to hit save all I think
+47:00 it just made a little mistake here maybe
+47:02 okay on the list page can you actually
+47:04 make more spacing between the top bar
+47:06 and the title right now it's everything
+47:07 is jammed really too far up but the side
+47:11 spacing is good also on the notes that
+47:15 have already been entered within the
+47:17 idea please do not have the date for
+47:19 each one there should just be nothing
+47:20 there and it should just be the note
+47:21 text let's run that okay that's looking
+47:24 a little bit better here can we please
+47:26 add a little bit less spacing between
+47:29 each one of the notes and then also make
+47:31 the notes background white the same
+47:33 color as the background with no outline
+47:36 it should feel like a page and make the
+47:40 text of the notes a little bit bigger
+47:43 all right so that's looking pretty good
+47:44 let's check this out here so we are
+47:47 adding things to this note right now
+47:50 boom this is going pretty well I'm
+47:52 digging it that's pretty solid actually
+47:55 now change the create draft to be hey
+48:00 you help me yes yep can we please change
+48:03 the create draft button actually before
+48:06 we do this let's go ahead and accept all
+48:07 changes save all refresh chat and let's
+48:09 also go uh over here and within let's go
+48:13 to get and we are going to save this
+48:15 good stage and commit all changes don't
+48:17 name your stuff like that you won't be
+48:18 able to find it I'm just being dumb web
+48:21 view so now could we please change the
+48:23 draft button I don't like this down here
+48:25 button to be like a right button locked
+48:30 on the side of the screen and when I
+48:34 press it it creates a popup from that
+48:39 side button that lets me I can basically
+48:43 select the type that I want and then it
+48:49 automatically creates a draft instead of
+48:53 having to click create draft okay and we
+48:57 just added this what I don't like though
+48:59 is so let's say I do a concise for this
+49:00 this is just a random note I hit concise
+49:02 now it takes me to the list of drafts I
+49:03 want it to take to take me to the exact
+49:04 page of draft so I'm just going to run
+49:05 this one right here after I create a
+49:07 draft in the ideas page I want it to
+49:08 take me directly to the draft's page
+49:09 right I want it to take me to this page
+49:11 right right here not necessarily the
+49:14 this list right that's what I want to
+49:15 have
+49:16 happen and let's go ahead and press save
+49:18 all and let's go ahead and refresh
+49:21 everything I'm going to click
+49:23 on let's go like this let's click on on
+49:27 this right here this random ideas page
+49:29 now I'm going to click on this concise
+49:32 and we got an error testing testing one
+49:33 two 3 banana now let's P change the
+49:35 drafts page that worked by the way can
+49:37 we make the background of the page and
+49:41 the draft white please there is a gray
+49:45 background now around the card put the
+49:49 created date pinned to in the top right
+49:53 and and actually make it a little
+49:57 make it just say today with a little
+50:01 clock icon and then if you hover over
+50:06 that icon it shows
+50:08 you all this info this is just an
+50:12 example all right let's see how it did
+50:14 save all there we go we can hover over
+50:17 this boom nice and we can edit this the
+50:20 editing doesn't look that good but this
+50:22 is good so far so let's accept all save
+50:24 all and we are going to go to
+50:27 our so we have our drafts
+50:29 page now I want you to create a page
+50:34 just for actually no what we need to do
+50:37 is we need to go to did we already press
+50:39 accept all on the
+50:41 homepage only show the most recent 10
+50:45 ideas and put the date
+50:49 and actually let's do 15 ideas and group
+50:53 them by the day so today
+50:58 yesterday one day ago Etc and so once we
+51:03 do that then we're going to create a
+51:04 separate ideas page all right so I'm
+51:06 making my last change here I just went
+51:08 ham and just made some changes not fully
+51:10 on film they were small boring ones
+51:11 except for the icons I added icons to
+51:13 the existing templates oh yeah I want to
+51:15 be able to edit the templates and please
+51:19 allow me to do that I want to be able to
+51:23 delete them from the edit View on
+51:27 templates okay so we just created this
+51:29 let's go
+51:30 ahead and go back to the homepage so I'm
+51:33 adding the a little date here so just
+51:35 like this is super clean we can still
+51:36 delete all these notes and the recent
+51:38 drafts on templates we can create a new
+51:40 template we can choose from this so just
+51:41 we'll call this main Twitter post and
+51:44 Twitter post example and we can put blah
+51:48 blah and if we add this right here we
+51:51 have these clean templates that we can
+51:52 add we cannot edit them until we edit
+51:53 this prompt here now we can hit save all
+51:56 hopefully we can edit good edit this we
+51:58 can delete this template okay good
+52:00 perfect let's delete this I don't like
+52:03 this one the concise one I do not delete
+52:05 template okay Quick Share delete
+52:08 template okay now we have the Swift app
+52:10 idea and we can edit this we can see
+52:12 this right here and we can you know
+52:15 maybe we'll change this to a star we can
+52:16 update this template very easily that's
+52:18 pretty cool and we have all of this
+52:20 information super clean this is all
+52:22 working let's go ahead and test this
+52:25 hello I'm recording my voice I don't
+52:26 know how I feel about this full cover I
+52:28 like it I don't mind it I don't mind it
+52:29 I think it's good for first draft we're
+52:30 going to stop running this doing the
+52:31 magic and we're going to save this and
+52:35 now what I want to do here is I'm going
+52:36 to go okay I have an idea for an app
+52:38 that will allow me to talk to my code
+52:39 base so I want to connect it with GitHub
+52:40 and I want to be able to yeah I want to
+52:42 be able to connected to my GitHub and
+52:43 then uh I want to be able to chat with
+52:45 the docs and come up with ideas and come
+52:46 up with plans to create the app and make
+52:48 it better and plan out a different app
+52:49 and id8 with an AI chat bot that's super
+52:51 uh good at coding and has good ideas and
+52:53 understands the type of app that I'm
+52:54 creating and the overall fact that I'm
+52:56 using AI to create the app and stuff and
+52:58 so we can end that it's going to take a
+52:59 little bit longer to transcribe but
+53:00 pretty damn fast and now we can hit this
+53:01 plus button right here and we now have
+53:03 access to all of those templates I've
+53:05 just deleted all of them except for one
+53:06 so we can click on this and it should in
+53:07 theory I need to add a loading screen
+53:08 here which is why it doesn't look like
+53:09 it's doing anything but here it is and
+53:12 look at this it says one full paragraph
+53:14 plan the user experience in concise
+53:16 bullets look at that and then a simple
+53:19 text hierarchy of files and code and
+53:21 look at this so connect to GitHub wow
+53:23 this actually clean as hell and yeah so
+53:26 that's we can do and we can edit this I
+53:27 need to change the edit thing I need to
+53:28 figure out how you can cleanly edit
+53:30 markdown files but we'll figure that out
+53:32 later right now this is a good draft and
+53:34 yeah on the homepage now we can see that
+53:36 41 seconds ago we created this and so we
+53:37 have recent ideas which shows all of
+53:39 these things right here like I can say I
+53:41 also want to add a different feature
+53:43 that lets me in real time record my
+53:46 voice and this will create an AI chatbot
+53:49 that sings and when it sings in code and
+53:52 that code syncs with my soul and takes
+53:55 me to Valhalla
+53:57 and so now after this update in theory
+53:59 if we do this again uh we can run that
+54:01 same prompt directly over it and let's
+54:03 see if there's anything sing all right
+54:05 so code singer mode anyway there we go
+54:08 and so now it's just about refinement we
+54:10 have this one paragraph plan user
+54:12 experience pretty damn cool huh

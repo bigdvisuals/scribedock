@@ -1,0 +1,591 @@
+Vibe Coding Tutorial and Best Practices (Cursor / Windsurf)
+
+0:00 I've been Vibe coding like crazy lately
+0:02 which basically just means using an AI
+0:04 agent to do my coding for me very little
+0:07 actual writing of code in fact basically
+0:09 none and I'm going to tell you all of
+0:11 the things that I learned along the way
+0:12 to get the most out of it let's get
+0:14 right into it all right so quickly what
+0:16 I'm talking about with Vibe coding or
+0:19 really agentic coding whatever you want
+0:21 to call it is you're using this agent
+0:24 based coding in cursor or wind Surf and
+0:26 you can see it right here so there's
+0:28 agent ask and edit this is not your
+0:31 starting to code something you hit Tab
+0:33 and it finishes that piece of code for
+0:35 you this is I am literally trying to get
+0:38 AI to write the entire application end
+0:40 to end and so it's a little bit more
+0:42 difficult to do and there are definitely
+0:44 some limitations now first what is my
+0:47 setup either cursor or wind Surf and I
+0:50 have almost exclusively been using CLA
+0:52 3.7 models mostly focused on the
+0:55 thinking version so I'm using CLA 3.7
+0:57 Sonet thinking right here now inur
+1:00 cursor and wind surf you can set up
+1:02 really any model that you want to do
+1:04 that you go up to cursor settings and
+1:06 here it comes with a predefined list of
+1:07 models that you can choose from all
+1:09 provided by cursor directly or wind Surf
+1:12 and then you can also add models down
+1:13 here the way that you add custom models
+1:16 is essentially and it's not super clean
+1:19 is by overtaking this open AI API key
+1:21 here so you turn it on you add your key
+1:24 and you can override the base URL you
+1:27 can only do that once which means you
+1:28 can only really have one non-open AI API
+1:32 service but that's okay so here I use
+1:35 grock and I put my grock key here grock
+1:38 is formatted using the open AI API
+1:40 standard so it just works now whatever
+1:43 model you choose if you're using it with
+1:44 the agent feature you want to make sure
+1:46 that it really supports agentic behavior
+1:48 and function calling and Tool calling
+1:51 really well most models don't Clyde 3.7
+1:54 thinking does so what I would recommend
+1:56 doing first is getting a very specific
+1:58 spec written that just means a very
+2:02 detailed explanation of what you want
+2:04 built and so I'm actually using grock 3
+2:06 for that write a spec for an application
+2:07 that will be a Twitter clone be as
+2:09 specific as possible we're going to be
+2:10 using python for the back end so I'll
+2:12 just hit enter and I work with AI
+2:15 separately to help me write that spec
+2:17 and here you can see it writes out all
+2:18 of the not only technical specification
+2:20 but also how it operates how it works
+2:23 Etc and here you can even see it's
+2:25 writing out the database schema so this
+2:27 is really complete here the API n points
+2:30 and so once it's done you basically take
+2:33 all of that and you paste it into cursor
+2:36 I'll show you what that looks like so we
+2:37 have a brand new cursor window you're
+2:39 going to come up to the top right and
+2:40 click this toggle AI pane here it's
+2:43 going to open up the chat window if you
+2:45 have a recent version of cursor the
+2:47 agent will be the default I have clad
+2:49 3.7 Sonic thinking as my model and
+2:53 here's the important part we're going to
+2:54 paste our spec in but before doing that
+2:57 one other thing I learned and this is a
+2:59 especially important as the codebase
+3:02 gets larger is to use rules cursor rules
+3:05 or wind surf rules both of the idees
+3:08 support rules and the rules are
+3:10 basically a way to tell AI to tell the
+3:14 agent how you want to code what
+3:16 technologies you should use what
+3:18 workflows you want to use and this was a
+3:21 huge Discovery for me because frequently
+3:23 I would try to build something and it
+3:25 would build it using some technology
+3:28 that wasn't already in my step and it
+3:30 would break other things if there was a
+3:32 bug and I was trying to fix the bug it
+3:33 would try to use a different technology
+3:36 a good example is I wanted to use a SQL
+3:38 database for everything but every time I
+3:41 ran into an issue with SQL database the
+3:43 agent would try to fix it by switching
+3:44 to Json storage in a file and it was
+3:46 just super annoying because I would
+3:49 think it was working and then nothing
+3:50 would be appearing in the database and
+3:52 so on and so forth all right so
+3:53 switching back to this is my actual
+3:56 project I am going to show you where the
+3:58 rules are so incursor set you go down to
+4:00 rules and you can have user specific
+4:03 rules which are rules for any project
+4:06 but I like adding it to project rules
+4:08 you add a new rule and it essentially
+4:10 creates this cursor folder and within
+4:12 that a rules folder all of these MDC
+4:16 files are the rules and you can
+4:18 reference them kind of like a system
+4:20 message for the AI to work with thanks
+4:23 to the sponsor of this segment MTH
+4:26 access the best generative AI for just
+4:28 $10 per month this includes the best
+4:31 llms like Claude deep seek GPT 40 llama
+4:35 models Mistral Gemini grock and
+4:38 reasoning models like deep seek R1 and
+4:40 03 mini and for that same price it also
+4:43 includes the best image generation
+4:45 models mid Journey flux Pro recraft
+4:48 Dolly stable diffusion all in one place
+4:50 and you can create custom amus to help
+4:53 you on your projects these are kind of
+4:54 like agents and you give them all your
+4:56 custom context and they will know what
+4:59 you need them to do you can install it
+5:01 on any device Apple Android Windows
+5:04 Linux you can do oneclick repr prompting
+5:07 and so much more so definitely check out
+5:09 mamouth they've been a great partner to
+5:11 this channel tell them I sent you links
+5:13 down below now back to the video so let
+5:16 me show you my coding preferences this
+5:19 is how it's formatted all natural
+5:21 language description you can Auto attach
+5:23 different files but I didn't use that
+5:25 coding pattern preferences now let me go
+5:27 through each of these and tell you why I
+5:29 added them because hopefully it's going
+5:30 to save you a lot of time by just
+5:33 understanding why these things are
+5:34 necessary which kind of reflects some of
+5:36 the tendencies that these AI coding
+5:38 agents have that don't really work all
+5:40 that well so always prefer Simple
+5:43 Solutions that speaks for itself avoid
+5:46 duplication of code whenever possible
+5:48 which means checking for other areas of
+5:50 the codebase that might already have
+5:51 similar code and functionality what I
+5:54 found is that when adding new
+5:56 functionality or trying to fix old
+5:58 functionality it would often duplicate
+6:01 code thinking that that code did not
+6:03 already exist so now I'm explicitly
+6:05 saying make sure you check everywhere
+6:07 make sure this code doesn't already
+6:09 exist and if it does fix that rather
+6:11 than adding new working code another
+6:14 thing that I struggled with is the AI
+6:17 agents didn't have a good sense of the
+6:19 split between Dev test and prod
+6:23 environments and this was a huge huge
+6:25 learning for me I would make some change
+6:28 write some test for it the test would
+6:31 affect the dev environment the
+6:33 production environment would be trying
+6:34 to use local stuff and it was just a
+6:36 mess so now I say okay everything you do
+6:40 you are going to take into account we
+6:42 want separate Dev test and prod
+6:44 environments here's another issue you
+6:47 are careful to only make changes that
+6:49 are requested or you are confident are
+6:51 well understood and related to the
+6:53 change being requested another issue
+6:55 that I ran into is I would ask for a
+6:57 change and one little piece of code one
+7:00 little piece of functionality and like
+7:03 three other things would just break for
+7:05 no reason and it was just trying to
+7:08 touch other pieces of code so I'm really
+7:10 emphasizing to make sure only focus on
+7:12 the thing that I'm asking you to focus
+7:13 on again next reemphasizing just focus
+7:17 on what I'm asking you to focus on don't
+7:19 introduce new things so when fixing an
+7:21 issue or bug do not introduce a new
+7:23 pattern or technology without first
+7:25 exhausting all options for the existing
+7:27 implementation and if you finally do do
+7:29 this make sure to remove the old
+7:31 implementation afterwards so we don't
+7:34 have duplicate logic again this is
+7:36 something I would find something would
+7:37 be done one way it would not work
+7:40 perfectly I would say fix that and
+7:42 rather than fixing it it would just
+7:44 rewrite it in a different way completely
+7:46 thinking it was new code so hopefully
+7:49 that fixes it so keep the code base very
+7:51 clean and organized I would often times
+7:53 find disorganization in the code avoid
+7:55 writing scripts and files if possible
+7:57 especially if the script is likely only
+7:59 to be run once what I found again is
+8:02 that when the agent was testing
+8:04 something so let's say one of the API
+8:06 endpoints was broken or one of the pages
+8:08 was broken it would write a script to
+8:10 test it which is fine but then it would
+8:12 just leave the script in my code base
+8:14 and I would have a bunch of different
+8:16 one-off scripts that would likely never
+8:18 be used again so I want them either to
+8:21 just write the script and execute it in
+8:23 line or when it's done with the script
+8:25 just delete the file all right next this
+8:27 is an obvious one avoid having files
+8:28 over 200 300 lines of code refactor at
+8:30 that point now that's not usually a good
+8:32 hard and fast rule to have but for AI I
+8:35 think it's appropriate I would
+8:37 frequently find files that were just
+8:39 absolutely massive and then I would ask
+8:41 it to refactor it and by the time I
+8:43 noticed it the refactoring would break
+8:45 all the tests and it would just take a
+8:47 long time so just get ahead of it as
+8:48 soon as it looks like you're about to
+8:50 get over that line size go ahead and
+8:53 refactor the code I also found that it
+8:56 would mock data like crazy stub and mock
+8:59 data which basically just means have
+9:01 kind of backup fake data but that
+9:03 doesn't really work in Dev or production
+9:05 environments so let's say I asked it to
+9:07 go scrape an article and for whatever
+9:10 reason the scraping failed it would
+9:12 catch the error and fall back to using
+9:14 mock data and think everything worked
+9:16 but it didn't work that is not what I
+9:18 wanted the behavior to be what I really
+9:21 wanted is it to actually scrape the data
+9:24 properly and so it would always use mock
+9:26 data it was really frustrating so I
+9:28 explicitly said said do not use mock
+9:31 data for Dev or prod only in test
+9:33 environments and I kind of doubled down
+9:35 and said it again never add stubbing or
+9:37 fake data patterns to code that affects
+9:39 the Devon prod environments next I
+9:41 actually found it overwriting myv file
+9:44 so I had to frequently get new API keys
+9:46 so I just said don't do that now another
+9:49 rule is my stack and I could probably
+9:51 even get more detailed with this but
+9:53 this is just what is your technical
+9:54 stack because again I would find it
+9:57 using for example if the SQL didn't work
+10:00 it would just switch to using a Json
+10:02 store in a file which was not what I
+10:05 wanted so I said python for the back end
+10:07 HTML JS for the front end SQL database
+10:10 never Json file storage separate
+10:12 databases for Dev test and prod again
+10:15 just reemphasizing that elastic search
+10:17 for search using a hosted version
+10:20 because I would talk about elastic
+10:21 search and it would think okay you want
+10:23 to do that locally sometimes it would do
+10:25 it with a hosted version but I only
+10:27 wanted it to be hosted and python test
+10:30 and I'm going to get to testing in a
+10:31 moment next I had my coding workflow
+10:33 preferences a little bit of duplicative
+10:36 information here but hopefully just kind
+10:38 of giving it more guidance so focus on
+10:40 areas of code relevant to the task do
+10:43 not touch code that is unrelated to the
+10:45 task obviously you could see I ran into
+10:46 a lot of issues with this write thorough
+10:48 test for all major functionality I was
+10:51 doing this manually I would just have it
+10:52 write some code for me and then say okay
+10:54 now write test for it and sometimes I
+10:56 would forget so now it should just write
+10:58 test for all major functionality avoid
+11:00 making major changes to patterns and
+11:02 architecture of how a feature Works
+11:04 after it has shown to work well unless
+11:06 explicitly instructed it should say
+11:09 instructed and so again I would say hey
+11:11 fix this issue and to fix it it would
+11:14 basically throw away the original
+11:15 pattern and rewrite it from scratch
+11:17 using some other pattern or some other
+11:18 Tech and I didn't want that I wanted it
+11:20 to just fix what I had already there and
+11:23 always think about what other methods
+11:25 and areas of code might be affected by
+11:27 code changes so those are the rules you
+11:29 can add more and just give it as much
+11:32 instruction as you see fit because this
+11:35 is going to be really helpful as you go
+11:37 so now we have that full spec back in
+11:40 grock So what I would do is obviously go
+11:42 through it work with grock on it or
+11:44 whatever other AI you want to use make
+11:46 sure it is exactly what you want make
+11:48 the appropriate changes copy it all
+11:51 paste it into here and you're good to go
+11:53 so I'm not going to iterate on this I'm
+11:55 just going to take it on one shot I'm
+11:56 going to highlight it all I'm going to
+11:58 paste it right into the window and say
+12:02 build this based on this spec and let's
+12:05 see so it's going to go I'm not going to
+12:08 watch it let's just assume it's going to
+12:09 go I'll show you what it looks like in a
+12:10 moment but let me just show you some
+12:12 more best practices okay so back to my
+12:14 existing code one thing that you're
+12:16 going to notice and you should get used
+12:18 to is this panel right here this is all
+12:23 the context you're giving it this is
+12:25 important because at a certain point it
+12:28 becomes too much cont context and it
+12:30 starts not performing as well so you
+12:32 kind of have to be very aware of how
+12:35 much context you're giving it how long
+12:37 the conversation is before starting a
+12:39 new chat and you can see right here in
+12:41 dark gray start a new chat for better
+12:43 results now this is something you're
+12:46 going to have to just figure out by
+12:47 playing with it if you start a new chat
+12:49 you lose context you can move some of
+12:51 the context over to a new chat window
+12:53 but that's annoying you want to give it
+12:55 as much context as possible but if you
+12:57 give it too much context it starts
+12:58 performing ing poorly so make sure
+13:00 you're playing around with that all
+13:02 right so I'm going to start a new chat
+13:03 I'm going to click it one more time so
+13:06 immediately the first thing it does is
+13:08 insert workflow preferences but I want
+13:11 all of my rules in there every time so
+13:13 I'll click my stack and coding
+13:15 preferences and so now it has the
+13:17 context of these three rules I don't
+13:20 actually know if it does it
+13:21 automatically but it seems like I do
+13:23 have to manually insert these three
+13:26 files which you know fine my next
+13:28 suggestion is stay very narrow with your
+13:32 requests from the agent meaning fix
+13:35 little things add little features and
+13:38 test as much as you can have it right
+13:40 tests now testing is an entire thing of
+13:44 its own what I have found works best is
+13:46 endtoend testing so testing where it's
+13:49 actually clicking through and attempting
+13:50 to do what you as a user would be doing
+13:54 rather than unit tests for example and
+13:56 keep in mind every single time you write
+13:58 something your you're going to run the
+13:59 test and if the test pass great and if
+14:02 the test don't pass have it fix the test
+14:05 but the fixing of the test is
+14:07 interesting you have to keep a close eye
+14:08 on it because sometimes it'll fix tests
+14:10 in a way that affect production the way
+14:13 you think it should work where actually
+14:14 just addressing a failure of the test is
+14:17 really the right way to go so you kind
+14:19 of got to just keep an eye on it you
+14:21 don't necessarily have to code it
+14:23 yourself or manually adjust anything but
+14:26 make sure the test pass and then use the
+14:28 integration test to confirm or just
+14:30 simply go to the app yourself and test
+14:32 that functionality yourself and so if
+14:34 you look right here we have tons of
+14:36 different test test for everything
+14:38 another recommendation uh kind of
+14:40 jumping all over the place but use a
+14:43 popular stack okay if you're using some
+14:45 nent technology AI is probably not going
+14:48 to do as well because it doesn't have as
+14:50 much exposure to whatever that coding
+14:52 language is or that stack is and thus
+14:55 it's just not going to perform as well
+14:56 so I would choose really common stacks
+14:59 for me I like python HTML and JavaScript
+15:02 on the front end keep it very simple SQL
+15:04 for the database elastic search if I'm
+15:06 doing search but choose very popular
+15:08 technology stacks and you'll just have a
+15:10 lot more documentation for AI to go
+15:12 research all right let me show you an
+15:14 example chat what it actually looks like
+15:16 so this is an older feature that I built
+15:18 so enforce a maximum tag length of 20
+15:20 characters make sure we don't already
+15:21 have code for this right test for this
+15:23 after implementation obviously I'm like
+15:26 reinforcing over and over again how I
+15:28 want to it's a code it can't hurt then
+15:30 you send and it starts so first it
+15:34 thinks okay and you can actually read
+15:35 the thought process which is really nice
+15:37 then you have tool calling so where you
+15:39 see listed directory listed directory
+15:41 read files search files it has a bunch
+15:43 of tools available to it you can also
+15:45 use mCP servers if you want to give it
+15:48 external tools that's a whole separate
+15:50 issue I actually didn't use that at all
+15:52 in any of my code yet but I need to play
+15:53 around with that some more so I'll get
+15:55 to that eventually but that's for
+15:56 another video so you can see here all
+15:59 this stuff happens you can actually just
+16:00 click through and really dig in and get
+16:02 a feel for how the agent operates with
+16:04 your codebase so here I'm going to
+16:07 scroll down so it GPT right there read
+16:09 the file read the file and then it says
+16:12 based on my analysis of the code base
+16:13 here's what I found tells me what it's
+16:15 going to do and then it starts now there
+16:18 are three settings for executing things
+16:21 you can do completely manually which
+16:23 means every time it's actually going to
+16:25 make a change or execute something that
+16:27 might affect your files It'll ask you
+16:29 and you have to manually approve things
+16:31 every time for me I do YOLO mode and it
+16:34 is literally called YOLO mode that's the
+16:37 opposite it just Auto executes
+16:38 everything and it's risky for sure
+16:41 because it'll push to GitHub it'll
+16:43 deploy to production so if you actually
+16:45 have a production level code base and
+16:48 people are using it I would not
+16:49 recommend that but for Vibe coding
+16:50 something from scratch go ahead and then
+16:53 they also have kind of the in between I
+16:54 think it's called Auto and that just
+16:56 means it's going to make the
+16:57 determination of which ones it does
+16:59 automatically and which commands it will
+17:01 ask you to approve so it makes some
+17:04 changes you can see it's running these
+17:06 tests all the tests pass out of all my
+17:09 tests one test failed so we need to fix
+17:11 the failing test so it looks at why it
+17:14 failed and it starts changing the code
+17:17 and you can see here more mock
+17:18 repository stuff I couldn't stand that
+17:20 that really frustrated me like crazy uh
+17:23 which is why I mentioned like five
+17:25 different times don't use any mocker
+17:26 stub data at all in Dev or production so
+17:30 continued on all the tests pass great it
+17:32 gave me a summary at the very end of all
+17:35 the things that changed and then I just
+17:36 continued but remember the more you
+17:39 continue the more the context window
+17:42 just becomes bloated and you want to
+17:43 just start a new chat as frequently as
+17:45 it makes sense I know that's not a very
+17:48 prescriptive rule but you're going to
+17:49 have to figure out what is best for you
+17:52 so I really became pretty darn dependent
+17:54 on the agents to do things for me I
+17:56 would even say Okay Commit This code
+17:58 right write a good description and
+18:00 deploy it to Heroku and it would do that
+18:02 and it really didn't have any problems
+18:03 the thing is all of this stuff is pretty
+18:05 slow now I feel a little bit spoiled at
+18:07 this point because I'm saying this stuff
+18:09 is slow but it's writing more code than
+18:11 I could in a much shorter period of time
+18:14 but every command that I would send off
+18:16 it would take between two and sometimes
+18:19 up to 15 minutes to finish the iteration
+18:22 cycle it would test things try things
+18:24 run the test the test failed it would
+18:26 fix it it would verify things are
+18:28 working and so it's a little bit slow in
+18:31 that sense one potential solution to
+18:33 that is to have different cursor windows
+18:35 open and just let it operate on
+18:37 different branches and have kind of two
+18:39 branches going at the same time and you
+18:41 could do that multiple times and so yeah
+18:43 you can have a lot of different branches
+18:45 that you're working on at the same time
+18:46 and then merge them all together at the
+18:47 end I occasionally switch back and forth
+18:50 between Cloud 3.7 thinking and Cloud 3.7
+18:53 regular non-thinking thinking tends to
+18:55 work best it's just a little bit slower
+18:57 and then occasionally I would just say
+18:59 refactor the code I would give it some
+19:01 instructions like find the longest files
+19:03 and refactor that but make sure to do
+19:05 lowrisk refactoring and I would
+19:07 explicitly tell it that and so it would
+19:09 just make the code a little bit cleaner
+19:11 a little bit more organized without
+19:13 refactoring patterns for the most part
+19:14 which I didn't really care to do cuz
+19:16 that would just break too many things
+19:18 now I did reach a point at which it was
+19:21 really difficult to make any changes I
+19:24 would make a change and it would just
+19:25 take so many iterations to get it right
+19:27 so many iterations to fix a bug and I
+19:31 think if I had known all of this stuff
+19:32 beforehand I would have been able to get
+19:34 a lot further and I got to say it does
+19:36 become pretty addicting I'm sitting
+19:39 doing something else I will come write a
+19:42 command build this feature and walk away
+19:44 and just let it work and come back 10
+19:47 minutes later to see either it worked or
+19:49 it didn't I would iterate walk away come
+19:51 back and so it's something you can
+19:52 almost do asynchronously something where
+19:54 you're doing something else and you can
+19:56 just give it command after command now
+19:58 one thing that I do wish I had was this
+20:00 available on my phone now repet has
+20:03 something like this but I don't love its
+20:05 coding agent it's just a little bit more
+20:07 difficult to use so I really wish that
+20:09 there was a fully hosted version that I
+20:11 can use on my phone anywhere because
+20:13 coding legitimate coding becomes much
+20:16 more feasible when you're using an agent
+20:18 like this and just typing something out
+20:19 on your phone is super easy to do and
+20:22 you can watch it and you can iterate on
+20:24 it and it doesn't require a full screen
+20:26 a keyboard and a mouse so it's kind of
+20:29 opening up an entire world of
+20:31 possibilities with mobile coding so a
+20:33 couple last suggestions commit often
+20:36 commit often I cannot suggest that
+20:38 enough make sure that every single
+20:40 change you make you are committing
+20:42 because you can always roll back if it
+20:45 gets to a state that is just unfixable
+20:48 and another version of that is you can
+20:50 actually see the chat history so you can
+20:52 roll back to previous chats so if I just
+20:55 click this one so I added dark mode I
+20:58 scroll to the very top and I can just
+21:00 say restore checkpoint and it will roll
+21:02 the code back for me so you not only
+21:04 have get to do that but you also have
+21:07 this built-in versioning through cursor
+21:09 or through wind surf itself so those are
+21:12 all of the best practices that I've
+21:13 learned over uh about 100 or 150 hours
+21:17 worth of vibe coding different
+21:19 applications a game and it's been a lot
+21:22 of fun and I can't wait till these tools
+21:24 get better this is the worst that they
+21:26 will ever be and so all of these
+21:28 problems you're experiencing now or I'm
+21:30 experiencing now they're only going to
+21:32 get easier to deal with in the future so
+21:35 enjoy Vibe code away you really need to
+21:38 know very little about coding to build
+21:40 something incredible and I encourage you
+21:42 to build if you enjoyed this video
+21:44 please consider giving a like And
+21:46 subscribe and I'll see you in the next
+21:47 one

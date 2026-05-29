@@ -1,0 +1,310 @@
+Title: OpenAI Codex Tutorial #4 - Using the Codex CLI
+URL: https://www.youtube.com/watch?v=hia0PznjGt8&list=PL4cUxeGkcC9iDBeA8IyR1IE1kl4w5IDEG&index=4&pp=iAQB
+Channel: YouTube playlist
+Video ID: hia0PznjGt8
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:50:31.703Z
+
+0:01 Okay then gang, in this lesson we're
+0:03 going to step away from Codex cloud to
+0:05 look at the Codex CLI tool which is
+0:07 still a part of the same Codex product.
+0:09 It's just another way of working with
+0:10 Codex. So the Codeex CLI is a coding
+0:13 agent just like Codex Cloud is but this
+0:15 time we run it locally on our computer
+0:17 from the terminal and we can ask it to
+0:19 make changes to a project locally on our
+0:21 computer this time instead of remotely
+0:24 like we would on Codeex Cloud. Now, if
+0:26 you've ever used Claude Code before,
+0:28 it's basically Codeex's version of that.
+0:30 And the good thing about the CLI tool is
+0:33 that we can just spin it up in any
+0:34 project locally on our computer to make
+0:36 code changes within that project. So,
+0:39 let's try installing this then, and
+0:41 using it within the same project, but
+0:43 this time in our local version of the
+0:45 repo. So, I'm on the Codex docs right
+0:48 now, which I will leave a link to down
+0:50 below the video. And down here you can
+0:51 see that we can install the codec cli
+0:54 npm or with brew if you're on a Mac. I'm
+0:56 going to copy this first command then
+0:58 and in my terminal I will paste in and
+1:00 then hit enter to install it. Now before
+1:03 we start using the codec cli I want to
+1:06 say one thing. This product is quite
+1:08 obviously still undergoing a lot of
+1:10 development and changes. So there might
+1:12 be a couple of things which are
+1:13 different if you're watching this video
+1:15 sometime in the future. But on the whole
+1:16 I think the core functionality should be
+1:18 roughly the same. Also, support on
+1:20 Windows directly is considered
+1:22 experimental at the time of recording
+1:24 this video as well. It does still work a
+1:26 lot of the time, and in fact, I'm using
+1:28 Windows to make some of this course, but
+1:30 there could be some glitches. In
+1:32 particular, I've noticed buggy behavior
+1:34 when it comes to using MCP servers with
+1:36 codecs on Windows. You can also run
+1:39 Codex in WSL on Windows 11, which some
+1:42 people have said gives you a smoother
+1:44 experience. I've personally not had any
+1:46 major issues running Codex CLI on
+1:48 Windows yet, aside from the MCP stuff,
+1:51 but you should be aware that support is
+1:53 experimental at this stage. So maybe
+1:55 only use it on throwaway projects for
+1:57 now. So then once it's been installed,
+2:00 we can open a project in a code editor.
+2:02 I'm using VS Code, but the editor
+2:04 doesn't really matter because we'll only
+2:06 be using Codex CLI from within the
+2:08 terminal, which means you don't even
+2:09 really need an editor. But I like to
+2:12 have mine open to see firsthand the code
+2:14 changes that Codeex is making. So I'll
+2:16 be using VS Code's integrated terminal
+2:18 to run Codeex. But again, you could use
+2:20 a different terminal if you want. The
+2:22 important part is that you navigate to
+2:24 the correct working directory to the
+2:25 root of your project folder within the
+2:27 terminal. Once you're there, the first
+2:29 thing we need to do is log to the Codex
+2:31 CLI, which we can do by running the
+2:33 command codeex login. When you run that,
+2:37 it's going to open up a browser and ask
+2:39 you to authenticate using your chat GPT
+2:42 account, which I'm currently doing off
+2:44 screen. But when you've done that, you
+2:47 should eventually see a little success
+2:49 message in the terminal which says
+2:51 you're now logged in. Okay. So next, we
+2:54 can just run the codeex command to start
+2:56 a codec session within this project. And
+2:59 when we do this for the first time in a
+3:01 folder, Codeex wants to know if it can
+3:03 work in this folder without asking for
+3:05 approval or whether we should approve
+3:06 edits and commands each time. I'm going
+3:09 to select the first option so I don't
+3:11 get bombarded as much every time it
+3:14 wants to make edits to a file or run
+3:16 commands. All right, so now we can go
+3:18 ahead and start asking Codeex to do
+3:20 things for us. Now, you'll see these
+3:22 different commands at the top of the
+3:23 session right here, which Codeex is
+3:25 telling us about. And we're going to
+3:26 look at those commands in the next
+3:27 lesson. But for now, let's just ask it a
+3:30 simple question like, can you give me a
+3:33 brief summary of this project?
+3:39 And by the way, you're also going to see
+3:40 this message right here that says MCP
+3:42 client for playright failed to start,
+3:44 program not found. So, you know, like
+3:46 before when I said that on Windows I've
+3:48 been having trouble with MCP servers.
+3:50 Well, this is an example of this because
+3:52 I tried to get the MCP server playright
+3:54 to work on Windows and I was having
+3:56 trouble with that. So, this is not going
+3:58 to show in your terminal, only in mine.
+4:00 Don't worry about that for now. Anyway,
+4:02 now I'm going to kick off this by
+4:04 pressing enter.
+4:07 And along the way, you will also have to
+4:10 allow permission for certain things like
+4:12 this to run a command.
+4:14 All right, so now Codex is finished. And
+4:16 along the way, I did have to give it
+4:18 permission to run certain commands on
+4:20 Windows PowerShell. And I think this is
+4:22 one of the areas that it definitely
+4:24 feels smoother on a Mac than it does on
+4:25 Windows because again, it is
+4:27 experimental on Windows. But it's still
+4:29 done the job and it's given us a project
+4:32 overview right here. So it's picked up,
+4:34 it's a next application using React.
+4:36 We've got different landing pages, we
+4:38 have the pair creation routes, we have
+4:40 client side form logic, we use Tailwind,
+4:42 etc. And it also picks up on how we test
+4:45 different things as well. And then
+4:46 finally, it gives us these next steps.
+4:49 So it tells us how to run the
+4:50 application and how to test the
+4:52 application as well. Okay. So now let's
+4:54 ask it to work on something for us. But
+4:56 before we do, I just want to make sure I
+4:59 move to a new branch so that I'm not
+5:01 messing up the codebase. So in a new
+5:03 terminal, I'm going to run git switch
+5:05 with the C flag to create new branch.
+5:08 And I'm going to call this refactor
+5:10 slashbtn
+5:12 component.
+5:14 All right. So then we can switch back to
+5:16 the codec session and we're going to
+5:18 give it a task to do which is going to
+5:20 be something like can you make a
+5:22 reusable button component and use it to
+5:25 replace the buttons currently on
+5:27 different pages. It should be able to
+5:29 accept a bg color and a handler function
+5:32 as props. So then we can hit enter and
+5:35 let codeex do its thing. And by the way,
+5:37 when we work locally with Codex using
+5:39 the CLI or with the VS Code extension,
+5:42 which we'll see later, that doesn't
+5:44 automatically add the task to Codex
+5:46 cloud. It just works locally within this
+5:49 project on my computer, right? And
+5:50 that's why I'm doing this work on a new
+5:52 branch. Now, as it works on this task,
+5:54 it is going to ask me to approve some
+5:56 code changes that it makes as it tries
+5:58 to make them. And there might be several
+6:00 different approvals all within this same
+6:01 task. So, for the sake of this video,
+6:03 I'm just going to approve all the
+6:04 changes as they happen. And then at the
+6:06 end, we're going to look at the
+6:08 resulting code.
+6:10 All right, then. So, that took a little
+6:11 while, but eventually we got there. And
+6:13 I did have to approve a few things along
+6:15 the way. So, you can see right here, the
+6:17 changes have been summarized. It said
+6:19 it's added a typed reusable button that
+6:21 accepts a background color, an optional
+6:23 text color, and click handler while
+6:25 preserving other button props. We've
+6:27 wired the new component into the pair
+6:29 creation form and we've introduced
+6:32 shared button styling hooks. All right.
+6:33 So, if we take a look over here as well,
+6:36 if I close this off, we can see the
+6:38 components folder and we can see that
+6:40 new button component inside here. Now,
+6:42 I'm not going to go through this line by
+6:44 line. But just in general, yeah, we have
+6:47 this button function and then the button
+6:50 template down here. All right, it looks
+6:52 okay at a glance. We have some changes
+6:54 in the app folder as well. So the CSS
+6:57 file, I'm sure, for styling the button.
+6:59 And then also in this form, we can see
+7:02 down here hopefully somewhere a new
+7:05 button component. Let's have a look. If
+7:08 we go down to the template, can we see
+7:11 the button anywhere? Should be at the
+7:12 bottom of the form, I guess. Okay. Yeah.
+7:14 So, we're using that new button
+7:16 component right here as well. So, now
+7:18 let's preview this in the browser.
+7:21 All right. Now, thinking about this, we
+7:23 shouldn't actually see any noticeable
+7:24 differences because I've not asked it to
+7:26 redesign the button or anything like
+7:28 that. I've just asked it to extract the
+7:31 button and put it in its own reusable
+7:33 component. So, it should look the same.
+7:35 And it put that in the form. So, if we
+7:37 scroll down, well, yeah, it looks the
+7:39 same. And does it still work? Well,
+7:41 let's try clicking on it. And yeah, we
+7:43 still get that same feedback. And in
+7:45 fact, I think it's updated the error
+7:47 feedback as well. So, it has done
+7:50 something extra which I didn't ask it to
+7:52 do, but sometimes AI models do this kind
+7:54 of thing. Anyway, I'm happy with this.
+7:56 It all looks good. Okay. So, just very
+7:58 quickly, I also want to show you how to
+8:00 manually add context to the CLI tool by
+8:02 referencing files for it to look at.
+8:05 Now, by default, Codeex can
+8:06 automatically scan your codebase and
+8:08 read all the files. But by manually
+8:11 adding the file to the context, you're
+8:12 giving Codeex a big hint about where the
+8:14 work should be done, and it keeps it
+8:16 more focused and on track, I think. For
+8:18 example, if I needed some code changes
+8:21 and I knew those changes needed to be on
+8:23 the homepage, then I could add that file
+8:26 to the context to let CEX know. To do
+8:29 that, then we could just use the at sign
+8:31 and start typing the file. And when we
+8:34 do that, Codex is going to start a fuzzy
+8:36 search to list all the possible file
+8:38 paths. And we can just key through these
+8:41 and hit tab on the one that we want to
+8:43 add as context. When we do that, we see
+8:46 that whole path added to the prompt.
+8:48 Under the hood, the contents of that
+8:49 file gets added to the prompt as
+8:51 context. So then I'd just like to write
+8:54 my prompt as normal, asking codeex to do
+8:56 something for me in this file. For now,
+8:58 I'm just going to delete this prompt
+9:00 because there's something else I want to
+9:01 show you. And that is how to add images
+9:04 to context as well. Now, we can do this
+9:07 by dragging an image file into the
+9:09 terminal. And when we do that, we'll see
+9:11 a path to the image right here. So this
+9:13 image is of the Flutter logo and I want
+9:16 to ask Codeex to look at this image and
+9:18 make two new theme colors in the CSS
+9:21 file based on the blues in this logo. So
+9:23 I'm going to paste this prompt in which
+9:25 says can you look at this Flutter logo
+9:28 image and make two new theme colors in
+9:31 the global CSS file called blue one and
+9:33 blue 2 based on the two blue colors in
+9:36 the image. I'm also going to add the
+9:39 global CSS file as context to avoid any
+9:42 confusion by using the at sign again.
+9:44 And then I'm going to start looking for
+9:46 that CSS file until I see it down here
+9:48 in the options. Then I'll key down to
+9:51 add that file. All right. So now I'm
+9:53 going to send this request off and see
+9:55 what happens.
+9:57 All right. So it says it's done those.
+9:59 So let's take a look inside source, then
+10:01 app, and then into globals.css.
+10:04 And yeah, we can see those two new theme
+10:06 colors right here. Flutter inspired
+10:08 blue. So, it's done that successfully.
+10:10 Okay then, my friends. So, that's the
+10:12 basics of using the Codex CLI locally in
+10:14 a project to make code changes. And
+10:16 again, it's important that you manually
+10:18 use local branches when any coding agent
+10:20 like codec starts making those changes
+10:21 because if not, you're going to find
+10:22 yourself in a world of mess with your
+10:24 codebase before you know it. Now,
+10:26 typically what I'd do now is commit
+10:28 these changes. If I'm happy with them,
+10:30 then I'd push this feature branch up to
+10:32 GitHub where we can review it and then
+10:34 merge it into main. Not going to do that
+10:36 on camera because this is not a version
+10:37 control course and I want to keep the
+10:39 focus on codeex itself. Anyway, in the
+10:41 next lesson, we're going to continue
+10:43 using the CLI tool and explore some of
+10:45 the built-in commands that we can use
+10:46 with

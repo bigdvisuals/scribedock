@@ -1,0 +1,197 @@
+Title: OpenAI Codex Tutorial #5 - CLI Commands & Resuming Sessions
+URL: https://www.youtube.com/watch?v=htNz7uazonY&list=PL4cUxeGkcC9iDBeA8IyR1IE1kl4w5IDEG&index=5&pp=iAQB
+Channel: YouTube playlist
+Video ID: htNz7uazonY
+Transcript language: English auto-generated
+Downloaded at: 2026-05-26T01:50:31.703Z
+
+0:00 All right, then. So, we've got the Codex
+0:02 CLI up and running now, which we started
+0:04 using in the previous lesson to make
+0:05 changes to the project on a new branch.
+0:07 Now, I've since pushed that branch up to
+0:09 GitHub and merged it, and I pulled down
+0:10 the most recent version of the main
+0:12 branch as well, which I'm on now, so
+0:13 everything's up to date. So, in this
+0:15 lesson, we're going to look at some of
+0:16 the built-in commands that come with the
+0:18 Codex CLI. And again, if you've ever
+0:20 used Claude Code, it's a pretty similar
+0:22 experience to their own commands, or
+0:24 slash commands as they're called,
+0:25 because each command starts with a
+0:27 slash. And it's exactly the same in the
+0:29 Codex CLI. Each built-in command starts
+0:31 with a forward slash. Now I'm just going
+0:34 to exit the current codec session by
+0:36 pressingtrl + c. And when I do that,
+0:38 it's going to put me back in the regular
+0:39 terminal. Then I'm going to run the
+0:41 codeex command again to start a brand
+0:43 new session. And when I do that, the
+0:46 first thing codex does is suggest trying
+0:48 out some of these different commands. So
+0:50 the first one is the init command, which
+0:52 creates an agents.md file, which we're
+0:54 going to talk about, I think, in the
+0:56 next lesson. The second one is the
+0:58 status command which shows a bit of
+1:00 information about the current session.
+1:02 Then we've got the approvals command
+1:04 which we can use to set up automatic
+1:05 approvals for codecs when it comes to
+1:07 file edits and whatnot. And finally the
+1:09 model command which lets us choose an
+1:11 open AAI model to work with. And by
+1:13 default this is set to the GPT5 codeex
+1:16 model at the time of recording. There
+1:19 are other commands that we can use as
+1:20 well which we can see if we type a
+1:22 forward slash. So if we scroll down
+1:24 here, we can see some more like the new
+1:27 command to start a new session. There's
+1:30 the compact command to squash the chat
+1:32 history into a compact summary to reduce
+1:34 the overall session context. And this is
+1:36 useful because as your sessions go on
+1:38 for longer, the context of the session
+1:40 accumulates and gets a bit bloated. And
+1:42 when that happens, it can affect AI
+1:44 decision-making when it comes to code
+1:46 edits. And you can also eventually hit
+1:48 the context limit, which is how much
+1:49 context an AI model can process at any
+1:52 time. So this compact command is really
+1:55 useful if you have these long running
+1:57 sessions to prevent context buildup and
+1:59 bloat. We've also got the diff command
+2:01 for showing git diffs directly in the
+2:03 terminal. We've got the mention command
+2:06 to add files as context to a prompt. And
+2:08 this is actually just the same as using
+2:10 the at sign which is much quicker than
+2:12 running this command. So I'm not sure
+2:14 why they've added this one in unless I'm
+2:16 missing something. There's the MCP
+2:18 command which lists out all the MCP
+2:21 servers configured for Codex in this
+2:23 project. And we'll talk more about MCP
+2:25 servers later in the course. And then
+2:27 we've got two more. The logout command
+2:28 to log out of the Codex CLI and the
+2:31 quick command to quit the current
+2:32 session. So there's quite a few commands
+2:35 built into the Codex CLI. Not as many as
+2:37 Claude Code, but I do think OpenAI will
+2:39 be adding to this list as they flesh out
+2:41 the product even more. Okay, so let's
+2:43 try using a couple of these commands
+2:45 then. First of all, I'm going to use the
+2:47 forward slash status command to give us
+2:50 some information about the current
+2:51 session that we're in. And when we hit
+2:53 enter, we should see a bunch of details
+2:55 all formatted quite nicely in my
+2:57 opinion. We've got workspace information
+2:59 which lists the working directory, the
+3:01 approval mode, the sandbox, which is
+3:03 basically where and how Codeex is
+3:04 allowed to play. In this case, it has
+3:06 right access only to this workspace, and
+3:09 also any agent files, which we don't
+3:11 have yet. Below that, we've got the
+3:12 account information. Then we've got the
+3:15 current model that we're using along
+3:16 with some extra details about that
+3:18 model. We've got the client version
+3:20 which is just the version of the codec
+3:21 cli we're using. And then finally we've
+3:24 got the token usage at the bottom which
+3:26 is a representation of how much we've
+3:28 used the AI model in terms of our own
+3:30 input the prompts and the AI's output.
+3:34 So that's the status command. Let's try
+3:36 another one like the model command. So
+3:38 just forward slash then model then hit
+3:41 enter. And when we do that, we can see
+3:42 that currently we have the GPT5 codecs
+3:45 with medium reasoning selected. And in
+3:48 fact, all of these models are GPT5
+3:50 variations at the time of recording. And
+3:53 we can use different degrees of
+3:54 reasoning with these models. I'm going
+3:57 to stick with the current selection and
+3:58 just hit escape for now. Next, let's try
+4:01 the forward slash approvals command,
+4:04 which is where we can select different
+4:05 approval modes for this project. Right
+4:07 now it's on auto, which means it can
+4:09 read files, make edits, and run commands
+4:11 automatically within this workspace. If
+4:14 you switch it to read only, then Codeex
+4:16 can only read the files and answer
+4:18 questions about them. And it's going to
+4:19 need your approval before it does
+4:21 anything else. Full access is where you
+4:23 give Codex full access to do what it
+4:25 wants with automatic network access as
+4:27 well. I'm going to stick with auto again
+4:29 and hit escape to go back. So that's
+4:32 just a few of the commands and we might
+4:33 be using a few more as we go forward.
+4:35 But for now, I want to use the quick
+4:37 command to quit the current codec
+4:39 session so that we can get dumped back
+4:41 into the regular terminal. Okay. So,
+4:43 there's one more thing I'd like to show
+4:44 you in this lesson, and that is how to
+4:46 resume a previous session. So, I think
+4:48 so far in this project using the CLI,
+4:51 we've made maybe two sessions, possibly
+4:54 three, I think just two. But normally in
+4:56 a project, I would have a different
+4:57 session for every distinct feature I
+5:00 want Codeex or whatever other Aentic
+5:02 coding agent I'm using to work on. So
+5:04 that might be 10, 11, 12, 13, 14
+5:07 sessions. And sometimes I might want to
+5:09 go back to some of the older sessions to
+5:11 continue working on that feature. So in
+5:14 codeex to resume a session, we can just
+5:16 type codeex in here. And then after
+5:18 that, resume and then press enter. And
+5:21 when we do that, we're going to get all
+5:22 of the different sessions we've had with
+5:24 this particular project. Now, there's
+5:25 only been two here, but there might be
+5:27 more, like I said. So we can just key up
+5:29 and down and select one of these using
+5:31 enter, and we'll go back into that
+5:33 session. You can also search as well. So
+5:35 for example, if I search the
+5:37 description. So for example, summary,
+5:38 which is what we did before. We wanted a
+5:40 summary of something. Oops, there we go.
+5:43 Summary. We can see it filters out the
+5:46 rest of the sessions, but leaves me with
+5:48 this one. So I could just press enter
+5:49 now to be dumped back into that
+5:51 particular session. Now, as of yet, at
+5:54 the time of recording this video, I
+5:56 don't think there's a way built into the
+5:57 Codeex CLI to delete old sessions, but
+6:01 I'm sure it's going to come in the
+6:02 future. And like I said before, I feel
+6:04 like Codeex as a whole is still trying
+6:06 to find its feet a little bit and the
+6:07 CLI tool does feel maybe a little bit
+6:10 unfinished, but because all these
+6:12 different providers are just so
+6:13 desperate to get their tools out onto
+6:15 the market as quickly as possible, we're
+6:16 going to see this kind of thing across
+6:18 the spectrum. Anyway, now we know how to
+6:20 use commands and resume previous
+6:23 sessions. Next up, we're going to talk a
+6:25 little bit about the agent files.
