@@ -22,6 +22,7 @@
   --lime-soft: rgba(182, 255, 0, 0.14);
   --lime-glow: rgba(182, 255, 0, 0.34);
   --cyan-soft: rgba(116, 236, 255, 0.12);
+  --focus-ring: #d8ff5a;
   --shadow-shell: 0 22px 60px rgba(0, 0, 0, 0.4);
   --shadow-raised: 0 18px 44px rgba(0, 0, 0, 0.38);
 }
@@ -580,6 +581,7 @@ body::before {
 
 .empty-state[hidden],
 .channel-state[hidden],
+.playlist-state[hidden],
 .transcript-shell[hidden],
 .panel-footer[hidden] {
   display: none;
@@ -601,10 +603,12 @@ body::before {
 }
 
 .empty-state-title {
+  max-width: 230px;
   margin-bottom: 6px;
   color: var(--text);
   font-size: 14px;
   font-weight: 600;
+  line-height: 1.35;
 }
 
 .empty-state-text {
@@ -614,7 +618,16 @@ body::before {
   line-height: 1.5;
 }
 
-.channel-state {
+.privacy-note {
+  max-width: 260px;
+  margin-top: 14px;
+  color: var(--muted-strong);
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+.channel-state,
+.playlist-state {
   display: flex;
   flex: 1;
   min-height: 0;
@@ -679,6 +692,13 @@ body::before {
   flex: 1;
 }
 
+.channel-mode-row {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 8px;
+}
+
 .channel-label {
   display: inline-flex;
   align-items: center;
@@ -696,6 +716,20 @@ body::before {
   background-color: var(--lime);
   box-shadow: 0 0 14px var(--lime-glow);
   content: "";
+}
+
+.channel-tab-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 18px;
+  padding: 0 6px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  color: var(--muted-strong);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
 }
 
 .channel-name {
@@ -719,6 +753,16 @@ body::before {
   gap: 12px;
 }
 
+.playlist-current-video-section {
+  display: grid;
+  gap: 8px;
+  padding-bottom: 4px;
+}
+
+.playlist-current-video-section[hidden] {
+  display: none;
+}
+
 .channel-count {
   color: var(--text);
   font-size: 14px;
@@ -726,6 +770,7 @@ body::before {
 }
 
 .channel-helper,
+.channel-note,
 .channel-summary,
 .channel-current-video {
   color: var(--muted);
@@ -760,7 +805,7 @@ body::before {
 
 .channel-progress-label {
   color: var(--text);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
 }
 
@@ -776,10 +821,28 @@ body::before {
 }
 
 .channel-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+  display: grid;
+  gap: 10px;
   padding-top: 4px;
+}
+
+.channel-primary-actions {
+  display: grid;
+  gap: 10px;
+}
+
+.channel-main-action,
+.channel-download-action {
+  width: 100%;
+}
+
+.channel-secondary-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.channel-secondary-actions .action-btn {
+  flex: 1 1 0;
 }
 
 .spinner {
@@ -869,6 +932,26 @@ body::before {
   color: var(--lime);
 }
 
+.action-btn.primary:disabled {
+  border-color: var(--border);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03));
+  color: var(--muted);
+  box-shadow: none;
+}
+
+.action-btn.primary-soft:disabled {
+  border-color: var(--border);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03));
+  color: var(--muted);
+  box-shadow: none;
+}
+
+.channel-main-action:disabled {
+  opacity: 0.46;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -886,8 +969,9 @@ body::before {
 .language-option:focus-visible,
 .search-container input:focus-visible,
 .transcript-row:focus-visible {
-  outline: none;
-  box-shadow: 0 0 0 3px rgba(182, 255, 0, 0.16);
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(182, 255, 0, 0.16);
 }
 
 @keyframes spin {

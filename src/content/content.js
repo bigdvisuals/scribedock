@@ -17,6 +17,15 @@
   var STORAGE_OPERATION_TIMEOUT_MS = 500;
   var NATIVE_TRANSCRIPT_FALLBACK_TIMEOUT_MS = 8000;
   var CHANNEL_SCAN_DELAY_MS = 1000;
+  var CHANNEL_DOM_QUIET_MS = 650;
+  var CHANNEL_READY_TIMEOUT_MS = 9000;
+  var CHANNEL_LOW_COUNT_RETRY_MS = 1000;
+  var CHANNEL_FALLBACK_RECHECK_MS = 500;
+  var PLAYLIST_SCAN_DELAY_MS = 1000;
+  var URL_CHANGE_FALLBACK_INTERVAL_MS = 500;
+  var CHANNEL_WAITING_MESSAGE = "Channel detected - waiting for videos to load...";
+  var CHANNEL_TIMEOUT_MESSAGE =
+    "Only some videos may be loaded. Scroll down or refresh if needed.";
   var lastUrl = window.location.href;
   var currentVideoId = null;
   var renderTimerId = null;
@@ -47,6 +56,15 @@
   var hasRenderedFirstTranscriptForVideo = false;
   var channelScanRequestId = 0;
   var channelScanState = createInitialChannelScanState();
+  var channelPageRequestId = 0;
+  var channelPageState = createInitialChannelPageState();
+  var channelDomObserver = null;
+  var channelDomQuietTimerId = null;
+  var channelReadyTimeoutId = null;
+  var channelLowCountRetryTimerId = null;
+  var lastChannelReadinessDiagnosticSignature = "";
+  var playlistScanRequestId = 0;
+  var playlistScanState = createInitialPlaylistScanState();
 
   function getYouTubeHelpers() {
     return window.YTTranscriptYouTube;
@@ -68,6 +86,10 @@
     return window.YTTranscriptChannel;
   }
 
+  function getPlaylistHelpers() {
+    return window.YTTranscriptPlaylist;
+  }
+
   function createInitialChannelScanState() {
     var channel = getChannelHelpers();
 
@@ -79,6 +101,46 @@
       channelUrl: "",
       channelName: "",
       channelAvatarUrl: "",
+      discoveredVideos: [],
+      processedVideoIds: {},
+      queuedVideoIds: {},
+      queue: [],
+      successes: [],
+      failures: [],
+      currentVideo: null,
+      preferredTranscriptLanguage: "",
+      status: "idle",
+    };
+  }
+
+  function createInitialChannelPageState() {
+    return {
+      url: "",
+      channelTab: "",
+      status: "idle",
+      message: "",
+      channelName: "",
+      channelAvatarUrl: "",
+      visibleVideos: [],
+      lowCountRetried: false,
+      previousUrl: "",
+      newUrl: "",
+      previousPageType: "",
+      newPageType: "",
+    };
+  }
+
+  function createInitialPlaylistScanState() {
+    var playlist = getPlaylistHelpers();
+
+    if (playlist && typeof playlist.createPlaylistScanState === "function") {
+      return playlist.createPlaylistScanState();
+    }
+
+    return {
+      playlistUrl: "",
+      playlistTitle: "",
+      playlistId: "",
       discoveredVideos: [],
       processedVideoIds: {},
       queuedVideoIds: {},
@@ -163,6 +225,34 @@
     };
   }
 
+  function getPageTypeFromUrl(urlValue) {
+    var pageSupport = getPageSupportHelpers();
+    var context;
+
+    if (
+      pageSupport &&
+      typeof pageSupport.getPageContextFromUrl === "function"
+    ) {
+      context = pageSupport.getPageContextFromUrl(urlValue);
+
+      if (context.mode === "CHANNEL_MODE") {
+        return context.channelTab === "shorts" ? "channel-shorts" : "channel-videos";
+      }
+
+      if (context.mode === "PLAYLIST_MODE") {
+        return "playlist";
+      }
+
+      if (context.mode === "VIDEO_MODE") {
+        return "video";
+      }
+
+      return context.isYouTubePage ? "youtube-other" : "non-youtube";
+    }
+
+    return "";
+  }
+
   function getVisibleChannelVideos() {
     var channel = getChannelHelpers();
 
@@ -189,20 +279,366 @@
     return channel.getChannelMetadataFromDocument(document);
   }
 
+  function getCurrentChannelReadiness() {
+    var channel = getChannelHelpers();
+    var metadata;
+    var videos;
+    var context;
+
+    if (
+      channel &&
+      typeof channel.getChannelPageReadiness === "function"
+    ) {
+      return channel.getChannelPageReadiness(document, window.location.href);
+    }
+
+    metadata = getCurrentChannelMetadata();
+    videos = getVisibleChannelVideos();
+    context = getPageContext();
+
+    return {
+      channelName: metadata.channelName,
+      channelAvatarUrl: metadata.channelAvatarUrl,
+      expectedTab: context.channelTab || "videos",
+      activeTab: context.channelTab || "videos",
+      hasChannelHeader: Boolean(metadata.channelName),
+      hasExpectedActiveTab: true,
+      channelNameFound: Boolean(metadata.channelName),
+      expectedTabFound: true,
+      validCardsFound: videos.length > 0,
+      visibleVideoCount: videos.length,
+      urlTabType: context.channelTab || "videos",
+      activeTabType: context.channelTab || "videos",
+      visibleVideos: videos,
+      isReady: Boolean(metadata.channelName && videos.length > 0),
+    };
+  }
+
+  function buildChannelReadinessDiagnostics(readiness, status) {
+    var safeReadiness = readiness || {};
+
+    return {
+      previousUrl: channelPageState.previousUrl || "",
+      newUrl: channelPageState.newUrl || channelPageState.url || window.location.href,
+      previousPageType: channelPageState.previousPageType || "",
+      newPageType: channelPageState.newPageType || "",
+      channelNameFound: Boolean(safeReadiness.channelNameFound),
+      expectedTabFound: Boolean(safeReadiness.expectedTabFound),
+      validCardsFound: Boolean(safeReadiness.validCardsFound),
+      validVideoLinksFound: Boolean(safeReadiness.validCardsFound),
+      visibleVideoCount: safeReadiness.visibleVideoCount || 0,
+      urlTabType: safeReadiness.urlTabType || safeReadiness.expectedTab || "",
+      activeTabType: safeReadiness.activeTabType || safeReadiness.activeTab || "",
+      loadStatus: status || channelPageState.status || "idle",
+    };
+  }
+
+  function logChannelReadinessDiagnostics(status, readiness, force) {
+    var diagnostics = buildChannelReadinessDiagnostics(readiness, status);
+    var signature = [
+      status || "",
+      diagnostics.previousUrl,
+      diagnostics.newUrl,
+      diagnostics.previousPageType,
+      diagnostics.newPageType,
+      diagnostics.channelNameFound,
+      diagnostics.expectedTabFound,
+      diagnostics.validVideoLinksFound,
+      diagnostics.visibleVideoCount,
+      diagnostics.urlTabType,
+      diagnostics.activeTabType,
+      diagnostics.loadStatus,
+    ].join("|");
+
+    if (!force && signature === lastChannelReadinessDiagnosticSignature) {
+      return;
+    }
+
+    lastChannelReadinessDiagnosticSignature = signature;
+
+    if (!window.console || typeof window.console.debug !== "function") {
+      return;
+    }
+
+    window.console.debug("[YT Transcript Channel] readiness", diagnostics);
+  }
+
+  function getChannelLoadMessage(status, count) {
+    if (status === "ready") {
+      return "Visible videos found: " + count;
+    }
+
+    if (status === "timeout") {
+      return CHANNEL_TIMEOUT_MESSAGE;
+    }
+
+    return CHANNEL_WAITING_MESSAGE;
+  }
+
+  function clearChannelPageTimers() {
+    if (channelDomQuietTimerId) {
+      window.clearTimeout(channelDomQuietTimerId);
+      channelDomQuietTimerId = null;
+    }
+
+    if (channelReadyTimeoutId) {
+      window.clearTimeout(channelReadyTimeoutId);
+      channelReadyTimeoutId = null;
+    }
+
+    if (channelLowCountRetryTimerId) {
+      window.clearTimeout(channelLowCountRetryTimerId);
+      channelLowCountRetryTimerId = null;
+    }
+  }
+
   function resetChannelScanState() {
     channelScanRequestId += 1;
     channelScanState = createInitialChannelScanState();
   }
 
+  function resetPlaylistScanState() {
+    playlistScanRequestId += 1;
+    playlistScanState = createInitialPlaylistScanState();
+  }
+
+  function resetChannelPageState() {
+    channelPageRequestId += 1;
+    clearChannelPageTimers();
+
+    if (channelDomObserver) {
+      channelDomObserver.disconnect();
+      channelDomObserver = null;
+    }
+
+    channelPageState = createInitialChannelPageState();
+  }
+
+  function applyChannelReadinessSnapshot(readiness) {
+    var safeReadiness = readiness || {};
+
+    channelPageState.channelName =
+      safeReadiness.channelName || "";
+    channelPageState.channelAvatarUrl =
+      safeReadiness.channelAvatarUrl || "";
+    channelPageState.visibleVideos = Array.isArray(safeReadiness.visibleVideos)
+      ? safeReadiness.visibleVideos.slice()
+      : [];
+
+    channelScanState.channelUrl = channelPageState.url || window.location.href;
+    channelScanState.channelName =
+      channelPageState.channelName || "";
+    channelScanState.channelAvatarUrl =
+      channelPageState.channelAvatarUrl || "";
+  }
+
+  function notifyChannelPageStateChanged() {
+    notifyChannelScanStateChanged();
+  }
+
+  function getChannelObserverTarget() {
+    return (
+      document.documentElement ||
+      document.body ||
+      document.querySelector("ytd-browse, ytd-two-column-browse-results-renderer, #contents")
+    );
+  }
+
+  function scheduleChannelSettleCheck(delayMs) {
+    if (channelDomQuietTimerId) {
+      window.clearTimeout(channelDomQuietTimerId);
+    }
+
+    channelDomQuietTimerId = window.setTimeout(function runSettleCheck() {
+      channelDomQuietTimerId = null;
+      evaluateChannelPageReadiness(channelPageRequestId, false);
+    }, delayMs || CHANNEL_DOM_QUIET_MS);
+  }
+
+  function handleChannelDomMutation() {
+    var context = getPageContext();
+
+    if (context.mode !== "CHANNEL_MODE") {
+      return;
+    }
+
+    if (!channelPageState.url || channelPageState.url !== window.location.href) {
+      startChannelPageSettling("dom-mutation");
+      return;
+    }
+
+    scheduleChannelSettleCheck(CHANNEL_DOM_QUIET_MS);
+  }
+
+  function observeChannelDom() {
+    var target = getChannelObserverTarget();
+
+    if (!window.MutationObserver || !target) {
+      return;
+    }
+
+    if (!channelDomObserver) {
+      channelDomObserver = new MutationObserver(handleChannelDomMutation);
+    } else {
+      channelDomObserver.disconnect();
+    }
+
+    channelDomObserver.observe(target, {
+      attributes: true,
+      attributeFilter: ["aria-selected", "href", "src", "title"],
+      childList: true,
+      subtree: true,
+    });
+  }
+
+  function finishChannelPageSettling(status, readiness) {
+    var count;
+
+    clearChannelPageTimers();
+    applyChannelReadinessSnapshot(readiness);
+
+    count = channelPageState.visibleVideos.length;
+    channelPageState.status = status;
+    channelPageState.message = getChannelLoadMessage(status, count);
+
+    notifyChannelPageStateChanged();
+  }
+
+  function scheduleLowInitialCountRefresh(requestId, count) {
+    if (count > 2 || channelPageState.lowCountRetried) {
+      return;
+    }
+
+    channelPageState.lowCountRetried = true;
+    channelLowCountRetryTimerId = window.setTimeout(
+      function refreshLowInitialCount() {
+        channelLowCountRetryTimerId = null;
+        evaluateChannelPageReadiness(requestId, false);
+      },
+      CHANNEL_LOW_COUNT_RETRY_MS,
+    );
+  }
+
+  function evaluateChannelPageReadiness(requestId, timedOut) {
+    var context = getPageContext();
+    var readiness;
+    var count;
+
+    if (requestId !== channelPageRequestId) {
+      return;
+    }
+
+    if (context.mode !== "CHANNEL_MODE") {
+      resetChannelPageState();
+      resetChannelScanState();
+      notifyChannelPageStateChanged();
+      return;
+    }
+
+    readiness = getCurrentChannelReadiness();
+
+    if (
+      !timedOut &&
+      !readiness.isReady &&
+      (
+        channelPageState.status === "ready" ||
+        channelPageState.status === "timeout"
+      )
+    ) {
+      return;
+    }
+
+    applyChannelReadinessSnapshot(readiness);
+    count = channelPageState.visibleVideos.length;
+
+    if (readiness.isReady) {
+      logChannelReadinessDiagnostics("ready", readiness, timedOut);
+      finishChannelPageSettling("ready", readiness);
+      if (!timedOut) {
+        scheduleLowInitialCountRefresh(requestId, count);
+      }
+      return;
+    }
+
+    if (timedOut && readiness.channelNameFound && readiness.validCardsFound) {
+      logChannelReadinessDiagnostics("ready", readiness, true);
+      finishChannelPageSettling("ready", readiness);
+      return;
+    }
+
+    if (timedOut) {
+      logChannelReadinessDiagnostics("timeout", readiness, true);
+      finishChannelPageSettling("timeout", readiness);
+      return;
+    }
+
+    channelPageState.status = "settling";
+    channelPageState.message = getChannelLoadMessage("settling", count);
+    logChannelReadinessDiagnostics("settling", readiness, false);
+    scheduleChannelSettleCheck(CHANNEL_FALLBACK_RECHECK_MS);
+    notifyChannelPageStateChanged();
+  }
+
+  function startChannelPageSettling(reason, routeInfo) {
+    var context = getPageContext();
+    var safeRouteInfo = routeInfo || {};
+    var sameChannelPage =
+      channelPageState.url === window.location.href &&
+      channelPageState.channelTab === context.channelTab;
+    var requestId;
+
+    if (context.mode !== "CHANNEL_MODE") {
+      resetChannelPageState();
+      resetChannelScanState();
+      notifyChannelPageStateChanged();
+      return;
+    }
+
+    if (
+      sameChannelPage &&
+      channelPageState.status !== "idle" &&
+      reason !== "navigation"
+    ) {
+      observeChannelDom();
+      scheduleChannelSettleCheck(CHANNEL_DOM_QUIET_MS);
+      return;
+    }
+
+    removePanel();
+    resetChannelScanState();
+    channelPageRequestId += 1;
+    requestId = channelPageRequestId;
+    channelPageState = createInitialChannelPageState();
+    channelPageState.url = window.location.href;
+    channelPageState.channelTab = context.channelTab || "videos";
+    channelPageState.status = "settling";
+    channelPageState.message = CHANNEL_WAITING_MESSAGE;
+    channelPageState.previousUrl = safeRouteInfo.previousUrl || "";
+    channelPageState.newUrl = safeRouteInfo.newUrl || window.location.href;
+    channelPageState.previousPageType = safeRouteInfo.previousPageType || "";
+    channelPageState.newPageType =
+      safeRouteInfo.newPageType || getPageTypeFromUrl(window.location.href);
+    channelScanState.channelUrl = channelPageState.url;
+
+    observeChannelDom();
+    scheduleChannelSettleCheck(CHANNEL_DOM_QUIET_MS);
+    channelReadyTimeoutId = window.setTimeout(function settleChannelTimeout() {
+      evaluateChannelPageReadiness(requestId, true);
+    }, CHANNEL_READY_TIMEOUT_MS);
+
+    notifyChannelPageStateChanged();
+  }
+
   function syncChannelScanContext() {
     var context = getPageContext();
-    var metadata;
 
     if (context.mode !== "CHANNEL_MODE") {
       if (
         channelScanState.status !== "idle" ||
-        channelScanState.discoveredVideos.length > 0
+        channelScanState.discoveredVideos.length > 0 ||
+        channelPageState.status !== "idle"
       ) {
+        resetChannelPageState();
         resetChannelScanState();
       }
 
@@ -210,25 +646,104 @@
     }
 
     if (
-      channelScanState.channelUrl &&
-      channelScanState.channelUrl !== window.location.href
+      !channelPageState.url ||
+      channelPageState.url !== window.location.href ||
+      channelPageState.channelTab !== context.channelTab
     ) {
-      resetChannelScanState();
+      startChannelPageSettling("navigation");
     }
 
-    metadata = getCurrentChannelMetadata();
     channelScanState.channelUrl = window.location.href;
     channelScanState.channelName =
-      metadata.channelName || channelScanState.channelName;
+      channelPageState.channelName || "";
     channelScanState.channelAvatarUrl =
-      metadata.channelAvatarUrl || channelScanState.channelAvatarUrl;
+      channelPageState.channelAvatarUrl || "";
 
     return context;
   }
 
+  function getCurrentPlaylistMetadata() {
+    var playlist = getPlaylistHelpers();
+
+    if (
+      !playlist ||
+      typeof playlist.getPlaylistMetadataFromDocument !== "function"
+    ) {
+      return {
+        playlistTitle: "",
+      };
+    }
+
+    return playlist.getPlaylistMetadataFromDocument(document);
+  }
+
+  function getVisiblePlaylistVideos() {
+    var playlist = getPlaylistHelpers();
+
+    if (!playlist || typeof playlist.extractPlaylistVideoLinks !== "function") {
+      return [];
+    }
+
+    return playlist.extractPlaylistVideoLinks(document, window.location.href);
+  }
+
+  function syncPlaylistScanContext() {
+    var context = getPageContext();
+    var metadata;
+
+    if (context.mode !== "PLAYLIST_MODE") {
+      if (
+        playlistScanState.status !== "idle" ||
+        playlistScanState.discoveredVideos.length > 0
+      ) {
+        resetPlaylistScanState();
+      }
+
+      return context;
+    }
+
+    metadata = getCurrentPlaylistMetadata();
+    playlistScanState.playlistUrl = window.location.href;
+    playlistScanState.playlistTitle = metadata.playlistTitle || "YouTube playlist";
+    playlistScanState.playlistId = context.playlistId || "";
+
+    return context;
+  }
+
+  function getSettledChannelVideos() {
+    if (
+      channelPageState.url !== window.location.href ||
+      (channelPageState.status !== "ready" && channelPageState.status !== "timeout")
+    ) {
+      return [];
+    }
+
+    return channelPageState.visibleVideos.slice();
+  }
+
   function buildPageContextResponse() {
     var context = syncChannelScanContext();
+    var playlistContext;
     var videos;
+
+    if (context.mode !== "CHANNEL_MODE") {
+      playlistContext = syncPlaylistScanContext();
+
+      if (playlistContext.mode === "PLAYLIST_MODE") {
+        videos = getVisiblePlaylistVideos();
+
+        return {
+          mode: playlistContext.mode,
+          isYouTubePage: playlistContext.isYouTubePage,
+          currentUrl: window.location.href,
+          playlistId: playlistContext.playlistId || "",
+          playlistUrl: playlistScanState.playlistUrl,
+          playlistTitle: playlistScanState.playlistTitle || "YouTube playlist",
+          videoId: playlistContext.videoId || "",
+          visibleVideoCount: videos.length,
+        };
+      }
+    }
 
     if (context.mode !== "CHANNEL_MODE") {
       return {
@@ -237,14 +752,21 @@
       };
     }
 
-    videos = getVisibleChannelVideos();
+    videos = getSettledChannelVideos();
 
     return {
       mode: context.mode,
       isYouTubePage: context.isYouTubePage,
+      channelTab: context.channelTab,
+      currentUrl: window.location.href,
+      channelHandleFromUrl: context.channelHandle || "",
       channelUrl: channelScanState.channelUrl,
-      channelName: channelScanState.channelName,
-      channelAvatarUrl: channelScanState.channelAvatarUrl,
+      channelNameFromDom: channelPageState.channelName || "",
+      channelAvatarFromDom: channelPageState.channelAvatarUrl || "",
+      channelName: channelPageState.channelName || "",
+      channelAvatarUrl: channelPageState.channelAvatarUrl || "",
+      channelLoadStatus: channelPageState.status,
+      channelLoadMessage: channelPageState.message,
       visibleVideoCount: videos.length,
     };
   }
@@ -252,13 +774,18 @@
   function buildChannelVideosResponse() {
     var context = syncChannelScanContext();
     var videos =
-      context.mode === "CHANNEL_MODE" ? getVisibleChannelVideos() : [];
+      context.mode === "CHANNEL_MODE" ? getSettledChannelVideos() : [];
 
     return {
       mode: context.mode,
+      channelTab: context.channelTab,
+      currentUrl: window.location.href,
+      channelHandleFromUrl: context.channelHandle || "",
       channelUrl: channelScanState.channelUrl,
-      channelName: channelScanState.channelName,
-      channelAvatarUrl: channelScanState.channelAvatarUrl,
+      channelNameFromDom: channelPageState.channelName || "",
+      channelAvatarFromDom: channelPageState.channelAvatarUrl || "",
+      channelName: channelPageState.channelName || "",
+      channelAvatarUrl: channelPageState.channelAvatarUrl || "",
       videos: videos,
     };
   }
@@ -280,10 +807,13 @@
   }
 
   function buildChannelExportDataResponse() {
+    var context = getPageContext();
+
     return {
       channelUrl: channelScanState.channelUrl,
       channelName: channelScanState.channelName,
       channelAvatarUrl: channelScanState.channelAvatarUrl,
+      channelTab: context.channelTab || "videos",
       status: channelScanState.status,
       discoveredCount: channelScanState.discoveredVideos.length,
       preferredTranscriptLanguage:
@@ -297,6 +827,47 @@
     notifyRuntime({ type: "YT_CHANNEL_SCAN_STATE_CHANGED" });
   }
 
+  function buildPlaylistScanStateResponse() {
+    return {
+      status: playlistScanState.status,
+      playlistUrl: playlistScanState.playlistUrl,
+      playlistTitle: playlistScanState.playlistTitle,
+      playlistId: playlistScanState.playlistId,
+      discoveredCount: playlistScanState.discoveredVideos.length,
+      queuedCount: playlistScanState.queue.length,
+      completedCount:
+        playlistScanState.successes.length + playlistScanState.failures.length,
+      videosFound: playlistScanState.discoveredVideos.length,
+      downloadedCount: playlistScanState.successes.length,
+      skippedCount: playlistScanState.failures.length,
+      successCount: playlistScanState.successes.length,
+      failureCount: playlistScanState.failures.length,
+      currentVideo: playlistScanState.currentVideo,
+      currentTitle: playlistScanState.currentVideo
+        ? playlistScanState.currentVideo.title || ""
+        : "",
+      canCancel: playlistScanState.status === "scanning",
+    };
+  }
+
+  function buildPlaylistExportDataResponse() {
+    return {
+      playlistUrl: playlistScanState.playlistUrl,
+      playlistTitle: playlistScanState.playlistTitle,
+      playlistId: playlistScanState.playlistId,
+      status: playlistScanState.status,
+      discoveredCount: playlistScanState.discoveredVideos.length,
+      preferredTranscriptLanguage:
+        playlistScanState.preferredTranscriptLanguage || "",
+      successes: playlistScanState.successes.slice(),
+      failures: playlistScanState.failures.slice(),
+    };
+  }
+
+  function notifyPlaylistScanStateChanged() {
+    notifyRuntime({ type: "YT_PLAYLIST_SCAN_STATE_CHANGED" });
+  }
+
   function delay(ms) {
     return new Promise(function resolveAfterDelay(resolve) {
       window.setTimeout(resolve, ms);
@@ -305,7 +876,7 @@
 
   function addVisibleVideosToChannelScan() {
     var channel = getChannelHelpers();
-    var videos = getVisibleChannelVideos();
+    var videos = getSettledChannelVideos();
 
     if (!channel || typeof channel.addVideosToScanState !== "function") {
       return [];
@@ -320,8 +891,9 @@
       : "No YouTube transcript is available for this video.";
   }
 
-  async function fetchChannelTranscript(video) {
+  async function fetchChannelTranscript(video, scanState) {
     var transcript = getTranscriptHelpers();
+    var safeScanState = scanState || channelScanState;
     var fetchFn = createFetchWithTimeout(
       window.fetch ? window.fetch.bind(window) : null,
     );
@@ -359,7 +931,7 @@
       preferredLanguageCode =
         (await transcript.getPreferredTranscriptLanguage()) || "";
     }
-    channelScanState.preferredTranscriptLanguage = preferredLanguageCode;
+    safeScanState.preferredTranscriptLanguage = preferredLanguageCode;
 
     selectedTrack =
       typeof transcript.selectBestTranscriptTrack === "function"
@@ -430,7 +1002,20 @@
       return buildChannelScanStateResponse();
     }
 
+    if (channelPageState.status !== "ready" && channelPageState.status !== "timeout") {
+      notifyChannelPageStateChanged();
+      return buildChannelScanStateResponse();
+    }
+
     newVideos = addVisibleVideosToChannelScan();
+
+    if (
+      channelScanState.discoveredVideos.length === 0 &&
+      newVideos.length === 0
+    ) {
+      notifyChannelPageStateChanged();
+      return buildChannelScanStateResponse();
+    }
 
     if (channelScanState.status !== "scanning") {
       channelScanState.status = "scanning";
@@ -497,6 +1082,134 @@
     }
 
     return buildChannelScanStateResponse();
+  }
+
+  function addVideosToPlaylistScan(videos) {
+    var playlist = getPlaylistHelpers();
+
+    if (!playlist || typeof playlist.addVideosToPlaylistScanState !== "function") {
+      return [];
+    }
+
+    return playlist.addVideosToPlaylistScanState(playlistScanState, videos);
+  }
+
+  async function fetchPlaylistTranscript(video) {
+    return fetchChannelTranscript(video, playlistScanState);
+  }
+
+  async function collectPlaylistVideosForScan(requestId) {
+    var playlist = getPlaylistHelpers();
+    var videos;
+
+    if (!playlist) {
+      return [];
+    }
+
+    if (typeof playlist.scanPlaylistVideos === "function") {
+      videos = await playlist.scanPlaylistVideos(document, window.location.href, {
+        delay: delay,
+        shouldContinue: function shouldContinuePlaylistCollection() {
+          return (
+            requestId === playlistScanRequestId &&
+            playlistScanState.status === "scanning" &&
+            getPageContext().mode === "PLAYLIST_MODE"
+          );
+        },
+      });
+    } else if (typeof playlist.extractPlaylistVideoLinks === "function") {
+      videos = playlist.extractPlaylistVideoLinks(document, window.location.href);
+    } else {
+      videos = [];
+    }
+
+    if (
+      requestId !== playlistScanRequestId ||
+      getPageContext().mode !== "PLAYLIST_MODE"
+    ) {
+      return [];
+    }
+
+    return addVideosToPlaylistScan(videos);
+  }
+
+  async function runPlaylistScan(requestId) {
+    var playlist = getPlaylistHelpers();
+    var newVideos;
+
+    if (!playlist || typeof playlist.runPlaylistScanQueue !== "function") {
+      return;
+    }
+
+    notifyPlaylistScanStateChanged();
+    newVideos = await collectPlaylistVideosForScan(requestId);
+
+    if (
+      requestId !== playlistScanRequestId ||
+      getPageContext().mode !== "PLAYLIST_MODE"
+    ) {
+      return;
+    }
+
+    if (
+      playlistScanState.discoveredVideos.length === 0 &&
+      newVideos.length === 0
+    ) {
+      playlistScanState.status = "completed";
+      notifyPlaylistScanStateChanged();
+      return;
+    }
+
+    notifyPlaylistScanStateChanged();
+
+    await playlist.runPlaylistScanQueue(playlistScanState, {
+      fetchTranscript: fetchPlaylistTranscript,
+      delay: function delayBetweenVideos() {
+        return delay(PLAYLIST_SCAN_DELAY_MS);
+      },
+      onStateChange: notifyPlaylistScanStateChanged,
+      shouldContinue: function shouldContinuePlaylistScan() {
+        return (
+          requestId === playlistScanRequestId &&
+          getPageContext().mode === "PLAYLIST_MODE"
+        );
+      },
+    });
+  }
+
+  function startPlaylistScan() {
+    var context = syncPlaylistScanContext();
+
+    if (context.mode !== "PLAYLIST_MODE") {
+      return buildPlaylistScanStateResponse();
+    }
+
+    if (playlistScanState.status === "scanning") {
+      return buildPlaylistScanStateResponse();
+    }
+
+    playlistScanState.status = "scanning";
+    playlistScanRequestId += 1;
+    notifyPlaylistScanStateChanged();
+    runPlaylistScan(playlistScanRequestId);
+
+    return buildPlaylistScanStateResponse();
+  }
+
+  function cancelPlaylistOperation() {
+    var playlist = getPlaylistHelpers();
+
+    playlistScanRequestId += 1;
+
+    if (playlist && typeof playlist.cancelPlaylistScanState === "function") {
+      playlist.cancelPlaylistScanState(playlistScanState);
+    } else {
+      playlistScanState.status = "cancelled";
+      playlistScanState.currentVideo = null;
+    }
+
+    notifyPlaylistScanStateChanged();
+    return buildPlaylistScanStateResponse();
   }
 
   function getSelectedTrack() {
@@ -1128,6 +1841,10 @@
     var entry = cacheResult && cacheResult.entry;
 
     if (!entry || !Array.isArray(entry.rows) || entry.rows.length === 0) {
+      return false;
+    }
+
+    if (!entry.videoId || entry.videoId !== currentVideoId) {
       return false;
     }
 
@@ -1816,17 +2533,96 @@
     }, NAVIGATION_DEBOUNCE_MS);
   }
 
+  function handleChannelNavigationForCurrentUrl(reason, routeInfo) {
+    var context = getPageContext();
+
+    if (context.mode === "CHANNEL_MODE") {
+      startChannelPageSettling(reason || "navigation", routeInfo);
+      return;
+    }
+
+    if (
+      channelPageState.status !== "idle" ||
+      channelScanState.status !== "idle" ||
+      channelScanState.discoveredVideos.length > 0
+    ) {
+      resetChannelPageState();
+      resetChannelScanState();
+      notifyChannelPageStateChanged();
+    }
+  }
+
+  function handlePlaylistNavigationForCurrentUrl(reason, routeInfo) {
+    var context = getPageContext();
+    var routeChanged = routeInfo && routeInfo.previousUrl !== routeInfo.newUrl;
+
+    if (context.mode === "PLAYLIST_MODE") {
+      if (
+        routeChanged ||
+        playlistScanState.playlistUrl !== window.location.href ||
+        playlistScanState.playlistId !== (context.playlistId || "")
+      ) {
+        resetPlaylistScanState();
+      }
+
+      syncPlaylistScanContext();
+      notifyPlaylistScanStateChanged();
+      return;
+    }
+
+    if (
+      playlistScanState.status !== "idle" ||
+      playlistScanState.discoveredVideos.length > 0
+    ) {
+      resetPlaylistScanState();
+      notifyPlaylistScanStateChanged();
+    }
+  }
+
   function handlePossibleNavigation() {
+    var previousUrl;
+    var newUrl;
+    var routeInfo;
+
     if (lastUrl === window.location.href) {
       return;
     }
 
-    lastUrl = window.location.href;
+    previousUrl = lastUrl;
+    newUrl = window.location.href;
+    routeInfo = {
+      previousUrl: previousUrl,
+      newUrl: newUrl,
+      previousPageType: getPageTypeFromUrl(previousUrl),
+      newPageType: getPageTypeFromUrl(newUrl),
+    };
+    lastUrl = newUrl;
+    handleChannelNavigationForCurrentUrl("navigation", routeInfo);
+    handlePlaylistNavigationForCurrentUrl("navigation", routeInfo);
     scheduleRenderForCurrentPage();
+    notifyRuntime({ type: "YT_TRANSCRIPT_NAVIGATED" });
   }
 
   function handleYouTubeNavigationFinish() {
-    lastUrl = window.location.href;
+    var previousUrl = lastUrl;
+    var newUrl = window.location.href;
+    var urlChanged = previousUrl !== newUrl;
+    var routeInfo = {
+      previousUrl: previousUrl,
+      newUrl: newUrl,
+      previousPageType: getPageTypeFromUrl(previousUrl),
+      newPageType: getPageTypeFromUrl(newUrl),
+    };
+
+    lastUrl = newUrl;
+    handleChannelNavigationForCurrentUrl(
+      urlChanged ? "navigation" : "yt-navigate-finish",
+      routeInfo,
+    );
+    handlePlaylistNavigationForCurrentUrl(
+      urlChanged ? "navigation" : "yt-navigate-finish",
+      routeInfo,
+    );
     scheduleRenderForCurrentPage();
     notifyRuntime({ type: "YT_TRANSCRIPT_NAVIGATED" });
   }
@@ -1870,6 +2666,7 @@
       "yt-transcript-helper-location-change",
       handlePossibleNavigation,
     );
+    window.setInterval(handlePossibleNavigation, URL_CHANGE_FALLBACK_INTERVAL_MS);
   }
 
   function buildTranscriptStateResponse() {
@@ -1961,6 +2758,27 @@
       return true;
     }
 
+    if (message.type === "GET_PLAYLIST_SCAN_STATE") {
+      syncPlaylistScanContext();
+      sendResponse(buildPlaylistScanStateResponse());
+      return true;
+    }
+
+    if (message.type === "SCAN_PLAYLIST_TRANSCRIPTS") {
+      sendResponse(startPlaylistScan());
+      return true;
+    }
+
+    if (message.type === "CANCEL_PLAYLIST_OPERATION") {
+      sendResponse(cancelPlaylistOperation());
+      return true;
+    }
+
+    if (message.type === "GET_PLAYLIST_EXPORT_DATA") {
+      sendResponse(buildPlaylistExportDataResponse());
+      return true;
+    }
+
     if (message.type === "PAUSE_CHANNEL_SCAN") {
       sendResponse(pauseChannelScan());
       return true;
@@ -2015,5 +2833,7 @@
   });
 
   listenForYouTubeNavigation();
+  handleChannelNavigationForCurrentUrl("initial");
+  handlePlaylistNavigationForCurrentUrl("initial");
   renderForCurrentPage();
 })();

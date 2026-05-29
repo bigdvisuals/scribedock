@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'src/utils/navigation.js',
     'src/utils/transcript.js',
     'src/utils/channel.js',
+    'src/utils/playlist.js',
     'src/utils/export.js',
     'src/utils/runtime-message.js',
     'src/content/content.js'
@@ -38,6 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     footerTime: document.getElementById('footer-time'),
     stateNotYoutube: document.getElementById('state-not-youtube'),
     stateChannelMode: document.getElementById('state-channel-mode'),
+    statePlaylistMode: document.getElementById('state-playlist-mode'),
     stateLoading: document.getElementById('state-loading'),
     stateNoTranscript: document.getElementById('state-no-transcript'),
     stateError: document.getElementById('state-error'),
@@ -45,10 +47,14 @@ document.addEventListener('DOMContentLoaded', () => {
     btnRetry: document.getElementById('btn-retry'),
     channelAvatarFallback: document.getElementById('channel-avatar-fallback'),
     channelAvatar: document.getElementById('channel-avatar'),
+    channelModeLabel: document.getElementById('channel-mode-label'),
+    channelTabBadge: document.getElementById('channel-tab-badge'),
     channelName: document.getElementById('channel-name'),
     channelStatusPill: document.getElementById('channel-status-pill'),
+    channelVisibleKind: document.getElementById('channel-visible-kind'),
     channelVisibleCount: document.getElementById('channel-visible-count'),
     channelHelperText: document.getElementById('channel-helper-text'),
+    channelNoteText: document.getElementById('channel-note-text'),
     channelProgress: document.getElementById('channel-progress'),
     channelProgressFill: document.getElementById('channel-progress-fill'),
     channelProgressLabel: document.getElementById('channel-progress-label'),
@@ -60,10 +66,27 @@ document.addEventListener('DOMContentLoaded', () => {
     btnPauseChannelScan: document.getElementById('btn-pause-channel-scan'),
     btnResumeChannelScan: document.getElementById('btn-resume-channel-scan'),
     btnCancelChannelScan: document.getElementById('btn-cancel-channel-scan'),
-    btnDownloadChannelZip: document.getElementById('btn-download-channel-zip')
+    btnDownloadChannelZip: document.getElementById('btn-download-channel-zip'),
+    playlistTitle: document.getElementById('playlist-title'),
+    playlistStatusPill: document.getElementById('playlist-status-pill'),
+    playlistVisibleCount: document.getElementById('playlist-visible-count'),
+    playlistHelperText: document.getElementById('playlist-helper-text'),
+    playlistProgress: document.getElementById('playlist-progress'),
+    playlistProgressFill: document.getElementById('playlist-progress-fill'),
+    playlistProgressLabel: document.getElementById('playlist-progress-label'),
+    playlistCurrentVideo: document.getElementById('playlist-current-video'),
+    playlistSuccessCount: document.getElementById('playlist-success-count'),
+    playlistFailureCount: document.getElementById('playlist-failure-count'),
+    playlistSummary: document.getElementById('playlist-summary'),
+    playlistCurrentVideoSection: document.getElementById('playlist-current-video-section'),
+    btnDownloadPlaylistCurrentVideo: document.getElementById('btn-download-playlist-current-video'),
+    btnScanPlaylist: document.getElementById('btn-scan-playlist'),
+    btnCancelPlaylistOperation: document.getElementById('btn-cancel-playlist-operation'),
+    btnDownloadPlaylistZip: document.getElementById('btn-download-playlist-zip')
   };
 
   let currentTabId = null;
+  let activeLoadContext = { tabId: null, videoId: null };
   let pollInterval = null;
   let activeStartSeconds = -1;
   let stateRefreshTimer = null;
@@ -90,7 +113,9 @@ document.addEventListener('DOMContentLoaded', () => {
     status: 'not-youtube',
     mode: 'UNSUPPORTED_MODE',
     channelContext: null,
-    channelScanState: null
+    channelScanState: null,
+    playlistContext: null,
+    playlistScanState: null
   };
   const STATE_REFRESH_INTERVAL_MS = 250;
   const MAX_LOADING_MS = 15000;
@@ -116,6 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     elements.stateNotYoutube.hidden = stateName !== 'not-youtube';
     elements.stateChannelMode.hidden = stateName !== 'channel';
+    elements.statePlaylistMode.hidden = stateName !== 'playlist';
     elements.stateLoading.hidden = stateName !== 'loading';
     elements.stateNoTranscript.hidden = stateName !== 'no-transcript';
     elements.stateError.hidden = stateName !== 'error';
@@ -147,7 +173,8 @@ document.addEventListener('DOMContentLoaded', () => {
         'no-transcript': 'No transcript',
         error: 'Error',
         'not-youtube': 'Waiting',
-        channel: 'Channel'
+        channel: 'Channel',
+        playlist: 'Playlist'
       };
       elements.panelStatus.textContent = labelByState[stateName] || 'Ready';
     }
@@ -160,8 +187,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  function renderVideoLoading(videoId) {
-    clearStateRefreshTimer();
+  function resetVideoReaderState(videoId) {
     sidePanelState.videoId = videoId || null;
     sidePanelState.title = '';
     sidePanelState.channel = '';
@@ -184,10 +210,31 @@ document.addEventListener('DOMContentLoaded', () => {
     elements.transcriptContainer.innerHTML = '';
     updateVisibleRowMeta(0, 0);
     updateCurrentTime(0);
+  }
+
+  function renderVideoLoading(videoId) {
+    clearStateRefreshTimer();
+    resetVideoReaderState(videoId);
+    elements.title.textContent = 'Loading current video...';
+    elements.status.textContent = 'Loading current video...';
     showState('loading');
   }
 
-  function scheduleStateRefresh(loadId) {
+  function renderCurrentPageLoading() {
+    clearStateRefreshTimer();
+    resetVideoReaderState(null);
+    elements.title.textContent = 'Loading current page...';
+    elements.status.textContent = 'Loading current page...';
+    showState('loading');
+  }
+
+  function renderNotYouTubeState() {
+    clearStateRefreshTimer();
+    resetVideoReaderState(null);
+    showState('not-youtube');
+  }
+
+  function scheduleStateRefresh(loadId, loadContext) {
     clearStateRefreshTimer();
 
     if (Date.now() - loadStartedAt >= MAX_LOADING_MS) {
@@ -197,7 +244,25 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     stateRefreshTimer = setTimeout(() => {
-      loadTranscriptState({ loadId, preserveState: true });
+      loadTranscriptState({
+        loadId,
+        preserveState: true,
+        expectedTabId: loadContext && loadContext.tabId,
+        expectedVideoId: loadContext && loadContext.videoId
+      });
+    }, STATE_REFRESH_INTERVAL_MS);
+  }
+
+  function scheduleChannelStateRefresh(loadId, loadContext) {
+    clearStateRefreshTimer();
+
+    stateRefreshTimer = setTimeout(() => {
+      loadTranscriptState({
+        loadId,
+        preserveState: true,
+        expectedTabId: loadContext && loadContext.tabId,
+        expectedVideoId: loadContext && loadContext.videoId
+      });
     }, STATE_REFRESH_INTERVAL_MS);
   }
 
@@ -478,10 +543,178 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  function sendMessageToTab(message) {
+  async function getTabById(tabId) {
     return new Promise((resolve) => {
-      if (!currentTabId) return resolve(null);
-      chrome.tabs.sendMessage(currentTabId, message, (response) => {
+      if (!tabId || !chrome.tabs.get) {
+        resolve(null);
+        return;
+      }
+
+      chrome.tabs.get(tabId, (tab) => {
+        if (chrome.runtime.lastError) {
+          resolve(null);
+          return;
+        }
+
+        resolve(tab || null);
+      });
+    });
+  }
+
+  function getVideoIdFromTab(tab) {
+    const youtube = window.YTTranscriptYouTube;
+
+    if (!tab || !tab.url || !youtube || typeof youtube.getVideoIdFromUrl !== 'function') {
+      return null;
+    }
+
+    return youtube.getVideoIdFromUrl(tab.url);
+  }
+
+  function isCurrentLoadContext(loadContext) {
+    if (!loadContext || loadContext.tabId !== currentTabId) {
+      return false;
+    }
+
+    if (!loadContext.videoId) {
+      return true;
+    }
+
+    return sidePanelState.videoId === loadContext.videoId;
+  }
+
+  function isMessageFromCurrentTab(sender) {
+    if (!sender || !sender.tab || typeof sender.tab.id !== 'number') {
+      return true;
+    }
+
+    if (currentTabId === null) {
+      return true;
+    }
+
+    if (sender.tab.id !== currentTabId) {
+      return false;
+    }
+
+    return true;
+  }
+
+  async function syncToActiveTab(tabId) {
+    const tab = tabId ? await getTabById(tabId) : await getActiveTab();
+    const pageSupport = window.YTTranscriptPageSupport;
+    const tabVideoId = getVideoIdFromTab(tab);
+    const urlContext = tab && tab.url && pageSupport
+      ? pageSupport.getPageContextFromUrl(tab.url)
+      : null;
+
+    currentTabId = tab && tab.id ? tab.id : null;
+    activeLoadId += 1;
+    activeLoadContext = {
+      tabId: currentTabId,
+      videoId: tabVideoId || null
+    };
+
+    if (!tab || !tab.url || !urlContext || urlContext.mode === 'UNSUPPORTED_MODE') {
+      renderNotYouTubeState();
+      loadTranscriptState({ expectedTabId: currentTabId });
+      return;
+    }
+
+    if (tabVideoId) {
+      renderVideoLoading(tabVideoId);
+      loadTranscriptState({ expectedTabId: tab.id, expectedVideoId: tabVideoId });
+      return;
+    }
+
+    renderCurrentPageLoading();
+    loadTranscriptState({ expectedTabId: tab.id });
+  }
+
+  function normalizeContextUrl(urlValue) {
+    try {
+      const url = new URL(urlValue);
+      return `${url.origin}${url.pathname}${url.search}`;
+    } catch (error) {
+      return '';
+    }
+  }
+
+  function getChannelHandleFromUrl(urlValue) {
+    const pageSupport = window.YTTranscriptPageSupport;
+
+    if (pageSupport && typeof pageSupport.getChannelHandleFromUrl === 'function') {
+      return pageSupport.getChannelHandleFromUrl(urlValue);
+    }
+
+    try {
+      const pathParts = new URL(urlValue).pathname.split('/').filter(Boolean);
+
+      if (pathParts[0] && pathParts[0][0] === '@') {
+        return decodeURIComponent(pathParts[0].slice(1)).toLowerCase();
+      }
+    } catch (error) {}
+
+    return '';
+  }
+
+  function buildLoadingChannelContext(tab, urlContext) {
+    return {
+      mode: 'CHANNEL_MODE',
+      isYouTubePage: true,
+      currentUrl: tab && tab.url ? tab.url : '',
+      channelHandleFromUrl:
+        (urlContext && urlContext.channelHandle) ||
+        (tab && tab.url ? getChannelHandleFromUrl(tab.url) : ''),
+      channelTab: (urlContext && urlContext.channelTab) || 'videos',
+      channelName: '',
+      channelNameFromDom: '',
+      channelAvatarUrl: '',
+      channelAvatarFromDom: '',
+      channelLoadStatus: 'settling',
+      channelLoadMessage: 'Channel detected - waiting for videos to load...',
+      visibleVideoCount: 0
+    };
+  }
+
+  function isCurrentChannelContext(pageContext, tab) {
+    const activeUrl = tab && tab.url ? tab.url : '';
+    const activeHandle = getChannelHandleFromUrl(activeUrl);
+    const responseUrl = pageContext && pageContext.currentUrl ? pageContext.currentUrl : '';
+    const responseHandle = pageContext && pageContext.channelHandleFromUrl
+      ? pageContext.channelHandleFromUrl
+      : getChannelHandleFromUrl(responseUrl);
+
+    if (!pageContext || pageContext.mode !== 'CHANNEL_MODE' || !activeUrl) {
+      return false;
+    }
+
+    if (tab.id !== currentTabId) {
+      return false;
+    }
+
+    if (responseUrl && normalizeContextUrl(responseUrl) !== normalizeContextUrl(activeUrl)) {
+      return false;
+    }
+
+    if (activeHandle && responseHandle && activeHandle !== responseHandle) {
+      return false;
+    }
+
+    return true;
+  }
+
+  function isCurrentChannelScanState(scanState, tab) {
+    if (!scanState || !scanState.channelUrl) {
+      return true;
+    }
+
+    return normalizeContextUrl(scanState.channelUrl) === normalizeContextUrl(tab && tab.url);
+  }
+
+  function sendMessageToTab(message, tabId = currentTabId) {
+    return new Promise((resolve) => {
+      if (!tabId) return resolve(null);
+      chrome.tabs.sendMessage(tabId, message, (response) => {
         if (chrome.runtime.lastError) {
           resolve(null);
         } else {
@@ -491,57 +724,61 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  function injectContentAssets() {
-    if (!currentTabId || !chrome.scripting) {
+  function injectContentAssets(tabId = currentTabId) {
+    if (!tabId || !chrome.scripting) {
       return Promise.resolve(false);
     }
 
     const cssPromises = CONTENT_CSS_FILES.map(file => {
       return chrome.scripting.insertCSS({
-        target: { tabId: currentTabId },
+        target: { tabId },
         files: [file]
       }).catch(() => null);
     });
 
     return Promise.all(cssPromises)
       .then(() => chrome.scripting.executeScript({
-        target: { tabId: currentTabId },
+        target: { tabId },
         files: CONTENT_SCRIPT_FILES
       }))
       .then(() => true)
       .catch(() => false);
   }
 
-  async function getTranscriptStateFromTab() {
-    let state = await sendMessageToTab({ type: 'GET_TRANSCRIPT_STATE' });
+  async function getTranscriptStateFromTab(tabId = currentTabId) {
+    let state = await sendMessageToTab({ type: 'GET_TRANSCRIPT_STATE' }, tabId);
 
     if (!state) {
-      const injected = await injectContentAssets();
+      const injected = await injectContentAssets(tabId);
 
       if (injected) {
-        state = await sendMessageToTab({ type: 'GET_TRANSCRIPT_STATE' });
+        state = await sendMessageToTab({ type: 'GET_TRANSCRIPT_STATE' }, tabId);
       }
     }
 
     return state;
   }
 
-  async function getPageContextFromTab() {
-    let state = await sendMessageToTab({ type: 'GET_PAGE_CONTEXT' });
+  async function getPageContextFromTab(tabId = currentTabId) {
+    let state = await sendMessageToTab({ type: 'GET_PAGE_CONTEXT' }, tabId);
 
     if (!state) {
-      const injected = await injectContentAssets();
+      const injected = await injectContentAssets(tabId);
 
       if (injected) {
-        state = await sendMessageToTab({ type: 'GET_PAGE_CONTEXT' });
+        state = await sendMessageToTab({ type: 'GET_PAGE_CONTEXT' }, tabId);
       }
     }
 
     return state;
   }
 
-  async function getChannelScanStateFromTab() {
-    return sendMessageToTab({ type: 'GET_CHANNEL_SCAN_STATE' });
+  async function getChannelScanStateFromTab(tabId = currentTabId) {
+    return sendMessageToTab({ type: 'GET_CHANNEL_SCAN_STATE' }, tabId);
+  }
+
+  async function getPlaylistScanStateFromTab(tabId = currentTabId) {
+    return sendMessageToTab({ type: 'GET_PLAYLIST_SCAN_STATE' }, tabId);
   }
 
   function formatTimestamp(seconds) {
@@ -812,7 +1049,8 @@ document.addEventListener('DOMContentLoaded', () => {
       completedCount: 0,
       successCount: 0,
       failureCount: 0,
-      currentVideo: null
+      currentVideo: null,
+      canCancel: false
     };
     const totalCount = Math.max(
       safeScanState.discoveredCount || 0,
@@ -824,36 +1062,85 @@ document.addEventListener('DOMContentLoaded', () => {
     const progressPercent = totalCount > 0
       ? Math.min(100, Math.round((completedCount / totalCount) * 100))
       : 0;
+    const availableCount = successCount;
+    const transcriptLabel = availableCount === 1 ? 'transcript' : 'transcripts';
     const isScanning = safeScanState.status === 'scanning';
     const isPausing = safeScanState.status === 'pausing';
     const isPaused = safeScanState.status === 'paused';
+    const isReady = safeScanState.status === 'idle';
     const hasAnyResults = successCount > 0 || failureCount > 0;
     const isCancelled = safeScanState.status === 'cancelled';
     const isCompleted = safeScanState.status === 'completed';
-    const showProgress = isScanning || isPausing || isPaused || isCancelled || isCompleted || hasAnyResults;
+    const isSettling = safePageContext.channelLoadStatus === 'settling';
+    const isTimedOut = safePageContext.channelLoadStatus === 'timeout';
+    const showProgress = totalCount > 0 || isScanning || isPausing || isPaused || isCancelled || isCompleted || hasAnyResults;
     const isPartialExport = isPaused || isCancelled;
+    const isShortsTab = safePageContext.channelTab === 'shorts';
+    const canDownloadTranscripts = availableCount > 0;
+    const canScanNewlyLoaded = isCompleted && safePageContext.visibleVideoCount > (safeScanState.discoveredCount || 0);
+    const shouldShowScanAction = isSettling || isReady || canScanNewlyLoaded || isCancelled;
+    const shouldShowDownloadAction = !isSettling && (isScanning || isPausing || isPaused || isCancelled || isCompleted);
+    const itemLabel = isShortsTab ? 'Shorts' : 'videos';
+    const channelLoadMessage = safePageContext.channelLoadMessage || (
+      isSettling
+        ? 'Channel detected - waiting for videos to load...'
+        : isTimedOut
+          ? 'Only some videos may be loaded. Scroll down or refresh if needed.'
+          : `Visible videos found: ${safePageContext.visibleVideoCount || 0}`
+    );
+    const canUseVisibleVideos = !isSettling && safePageContext.visibleVideoCount > 0;
+    const canPauseChannelScan = !isSettling && isScanning;
+    const canResumeChannelScan = !isSettling && isPaused;
+    const canCancelChannelScan = !isSettling && (isScanning || isPausing || isPaused);
+    const scanStatusLabel = isScanning
+      ? 'Scanning'
+      : isPausing
+        ? 'Pausing'
+        : isPaused
+          ? 'Paused'
+          : isCompleted
+            ? 'Complete'
+            : isCancelled
+              ? 'Cancelled'
+              : 'Ready';
+    const channelProgressLabel = isSettling
+      ? 'Channel detected - waiting for videos to load...'
+      : isScanning
+        ? `Scanning — ${completedCount} / ${totalCount}`
+        : isPausing
+          ? `Pausing — ${completedCount} / ${totalCount} scanned`
+          : isPaused
+            ? `Paused — ${completedCount} / ${totalCount} scanned`
+            : isCompleted
+              ? `Done — ${availableCount} ${transcriptLabel} ready`
+              : isCancelled
+                ? `Stopped — ${completedCount} / ${totalCount} scanned`
+                : 'Ready to scan';
 
     sidePanelState.mode = 'CHANNEL_MODE';
     sidePanelState.channelContext = safePageContext;
     sidePanelState.channelScanState = safeScanState;
 
-    elements.channelName.textContent = safePageContext.channelName || 'YouTube channel';
-    elements.channelVisibleCount.textContent = String(safePageContext.visibleVideoCount || 0);
-    elements.channelStatusPill.textContent = isScanning
-      ? 'Scanning'
-      : isPausing
-        ? 'Pausing...'
-        : isPaused
-          ? 'Paused'
-      : isCancelled
-        ? 'Cancelled'
-        : 'Ready';
+    elements.channelTabBadge.textContent = isShortsTab ? 'SHORTS' : 'VIDEOS';
+    elements.channelName.textContent = safePageContext.channelName || (isSettling ? 'Loading channel...' : 'YouTube channel');
+    elements.channelVisibleKind.textContent = itemLabel;
+    elements.channelVisibleCount.textContent = isSettling
+      ? '...'
+      : String(safePageContext.visibleVideoCount || 0);
+    elements.channelNoteText.innerHTML = isShortsTab
+      ? 'Scanning visible Shorts only.<br>Scroll down to load more.'
+      : 'Scanning visible videos only.<br>Scroll down to load more.';
+    elements.channelStatusPill.textContent = isSettling
+      ? 'Loading'
+      : isTimedOut
+        ? 'Partial'
+        : scanStatusLabel;
 
     renderChannelAvatar(safePageContext.channelAvatarUrl);
 
-    elements.channelProgress.hidden = !showProgress;
+    elements.channelProgress.hidden = !(showProgress || isSettling);
     elements.channelProgressFill.style.width = `${progressPercent}%`;
-    elements.channelProgressLabel.textContent = `${isPaused ? 'Paused' : isCancelled ? 'Stopped' : 'Scanning'} ${completedCount} of ${totalCount}`;
+    elements.channelProgressLabel.textContent = channelProgressLabel;
     elements.channelCurrentVideo.textContent =
       safeScanState.currentVideo && safeScanState.currentVideo.title
         ? safeScanState.currentVideo.title
@@ -861,29 +1148,58 @@ document.addEventListener('DOMContentLoaded', () => {
     elements.channelSuccessCount.textContent = `${successCount} available`;
     elements.channelFailureCount.textContent = `${failureCount} unavailable`;
 
-    elements.btnScanVisibleVideos.disabled = isScanning || isPausing || isPaused || safePageContext.visibleVideoCount === 0;
-    elements.btnPauseChannelScan.hidden = !isScanning;
-    elements.btnResumeChannelScan.hidden = !isPaused;
-    elements.btnCancelChannelScan.hidden = !(isScanning || isPausing || isPaused);
-    elements.btnDownloadChannelZip.hidden = !hasAnyResults;
-    elements.btnDownloadChannelZip.disabled = successCount === 0;
+    elements.btnScanVisibleVideos.hidden = !shouldShowScanAction;
+    elements.btnScanVisibleVideos.disabled = !canUseVisibleVideos;
+    elements.btnScanVisibleVideos.textContent = isCompleted
+      ? 'Scan newly loaded'
+      : isShortsTab
+        ? 'Scan visible Shorts'
+        : 'Scan visible videos';
+    elements.btnScanVisibleVideos.title = isCompleted
+      ? isShortsTab
+        ? 'Scan newly loaded Shorts'
+        : 'Scan newly loaded channel videos'
+      : isShortsTab
+        ? 'Scan currently visible Shorts'
+        : 'Scan currently visible channel videos';
+    elements.btnPauseChannelScan.hidden = !canPauseChannelScan;
+    elements.btnPauseChannelScan.disabled = !canPauseChannelScan;
+    elements.btnResumeChannelScan.hidden = !canResumeChannelScan;
+    elements.btnResumeChannelScan.disabled = !canResumeChannelScan;
+    elements.btnCancelChannelScan.hidden = !canCancelChannelScan;
+    elements.btnCancelChannelScan.disabled = !canCancelChannelScan;
+    elements.btnDownloadChannelZip.hidden = !canDownloadTranscripts || !shouldShowDownloadAction;
+    elements.btnDownloadChannelZip.disabled = !canDownloadTranscripts;
     elements.btnDownloadChannelZip.textContent = isPartialExport
       ? 'Download partial ZIP'
-      : 'Download transcripts ZIP';
+      : `Download ${availableCount} ${isShortsTab ? 'Shorts ' : ''}${transcriptLabel}`;
+
+    if (isSettling) {
+      elements.channelHelperText.textContent = channelLoadMessage;
+      elements.channelSummary.hidden = true;
+      elements.channelSummary.textContent = '';
+      return;
+    }
 
     if (isScanning || isPausing) {
-      elements.channelHelperText.textContent = 'Some videos may not have transcripts.';
+      elements.channelHelperText.textContent = isShortsTab
+        ? 'Some Shorts may not have transcripts.'
+        : 'Some videos may not have transcripts.';
       elements.channelSummary.hidden = true;
       elements.channelSummary.textContent = '';
       return;
     }
 
     if (isPaused || isCancelled) {
-      elements.channelHelperText.textContent = 'Partial export includes transcripts found so far.';
+      elements.channelHelperText.textContent = "Download what's ready so far.";
+    } else if (isTimedOut) {
+      elements.channelHelperText.textContent = channelLoadMessage;
     } else {
       elements.channelHelperText.textContent = safePageContext.visibleVideoCount > 0
         ? 'Transcripts will be downloaded only when available.'
-        : 'Scroll the channel page to load more videos, then scan again.';
+        : isShortsTab
+          ? 'Scroll the Shorts tab to load more Shorts, then scan again.'
+          : 'Scroll the channel page to load more videos, then scan again.';
     }
 
     if (!hasAnyResults) {
@@ -900,12 +1216,123 @@ document.addEventListener('DOMContentLoaded', () => {
       : `Scan complete. ${successCount} available transcripts, ${failureCount} unavailable.`;
   }
 
+  function renderPlaylistMode(pageContext, scanState) {
+    const safePageContext = pageContext || {};
+    const safeScanState = scanState || {
+      status: 'idle',
+      discoveredCount: safePageContext.visibleVideoCount || 0,
+      queuedCount: 0,
+      completedCount: 0,
+      successCount: 0,
+      failureCount: 0,
+      currentVideo: null
+    };
+    const totalCount = Math.max(
+      safeScanState.discoveredCount || 0,
+      safePageContext.visibleVideoCount || 0
+    );
+    const completedCount = safeScanState.completedCount || 0;
+    const successCount = safeScanState.successCount || 0;
+    const failureCount = safeScanState.failureCount || 0;
+    const progressPercent = totalCount > 0
+      ? Math.min(100, Math.round((completedCount / totalCount) * 100))
+      : 0;
+    const isScanning = safeScanState.status === 'scanning';
+    const isCancelled = safeScanState.status === 'cancelled';
+    const isCompleted = safeScanState.status === 'completed';
+    const hasCurrentVideo = Boolean(safePageContext.videoId);
+    const hasAnyResults = successCount > 0 || failureCount > 0;
+    const canDownloadTranscripts = successCount > 0;
+    const canCancelPlaylist = Boolean(safeScanState.canCancel) || isScanning;
+    const showProgress = totalCount > 0 || isScanning || isCompleted || hasAnyResults;
+    const playlistTitle = safePageContext.playlistTitle || 'YouTube playlist';
+    const scanStatusLabel = isScanning
+      ? 'Scanning'
+      : isCancelled
+        ? 'Canceled'
+      : isCompleted
+        ? 'Complete'
+        : 'Ready';
+    const progressLabel = isScanning
+      ? `Downloading ${completedCount} / ${totalCount}`
+      : isCancelled
+        ? 'Playlist download canceled'
+      : isCompleted
+        ? `Skipped ${failureCount} unavailable transcripts`
+        : totalCount > 0
+          ? `Found ${totalCount} videos`
+          : 'Scanning playlist...';
+
+    sidePanelState.mode = 'PLAYLIST_MODE';
+    sidePanelState.playlistContext = safePageContext;
+    sidePanelState.playlistScanState = safeScanState;
+
+    elements.playlistCurrentVideoSection.hidden = !hasCurrentVideo;
+    elements.btnDownloadPlaylistCurrentVideo.disabled = !hasCurrentVideo;
+    elements.btnDownloadPlaylistCurrentVideo.textContent = 'Download current transcript';
+    elements.playlistTitle.textContent = playlistTitle;
+    elements.playlistVisibleCount.textContent = String(totalCount || 0);
+    elements.playlistStatusPill.textContent = scanStatusLabel;
+    elements.playlistProgress.hidden = !showProgress;
+    elements.playlistProgressFill.style.width = `${progressPercent}%`;
+    elements.playlistProgressLabel.textContent = progressLabel;
+    elements.playlistCurrentVideo.textContent =
+      safeScanState.currentVideo && safeScanState.currentVideo.title
+        ? safeScanState.currentVideo.title
+        : '';
+    elements.playlistSuccessCount.textContent = `${successCount} downloaded`;
+    elements.playlistFailureCount.textContent = `${failureCount} skipped`;
+    elements.btnScanPlaylist.disabled = isScanning;
+    elements.btnScanPlaylist.textContent = isCompleted ? 'Scan playlist again' : 'Scan playlist';
+    elements.btnDownloadPlaylistZip.hidden = !canDownloadTranscripts;
+    elements.btnDownloadPlaylistZip.disabled = isScanning || !canDownloadTranscripts;
+    elements.btnDownloadPlaylistZip.textContent = 'Download playlist ZIP';
+    elements.btnCancelPlaylistOperation.hidden = !canCancelPlaylist;
+    elements.btnCancelPlaylistOperation.disabled = !canCancelPlaylist;
+
+    if (isScanning) {
+      elements.playlistHelperText.textContent = `Downloading ${completedCount} / ${totalCount}`;
+      elements.playlistSummary.hidden = true;
+      elements.playlistSummary.textContent = '';
+      return;
+    }
+
+    if (isCancelled) {
+      elements.playlistHelperText.textContent = 'Playlist download canceled';
+      elements.playlistSummary.hidden = !hasAnyResults;
+      elements.playlistSummary.textContent = hasAnyResults
+        ? `Playlist download canceled. ${successCount} downloaded, ${failureCount} skipped.`
+        : '';
+      return;
+    }
+
+    elements.playlistHelperText.textContent = totalCount > 0
+      ? `Found ${totalCount} videos. Missing transcripts will be listed in the ZIP report.`
+      : 'Scan the playlist to download available transcripts.';
+
+    if (!hasAnyResults) {
+      elements.playlistSummary.hidden = true;
+      elements.playlistSummary.textContent = '';
+      return;
+    }
+
+    elements.playlistSummary.hidden = false;
+    elements.playlistSummary.textContent =
+      `Playlist scan complete. ${successCount} downloaded, ${failureCount} skipped.`;
+  }
+
   async function loadTranscriptState(options = {}) {
     const loadId = options.loadId || activeLoadId + 1;
+    const expectedTabId = options.expectedTabId || currentTabId;
     const expectedVideoId = options.expectedVideoId || sidePanelState.videoId;
+    let loadContext = {
+      tabId: expectedTabId,
+      videoId: expectedVideoId || null
+    };
 
     if (!options.loadId) {
       activeLoadId = loadId;
+      activeLoadContext = loadContext;
       loadStartedAt = Date.now();
       lastRenderedSignature = '';
     }
@@ -919,28 +1346,31 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (loadId !== activeLoadId) return;
 
+    if (expectedTabId && (!tab || tab.id !== expectedTabId)) {
+      return;
+    }
+
     if (!tab || !tab.url || !pageSupport) {
-      clearStateRefreshTimer();
-      sidePanelState.videoId = null;
-      sidePanelState.title = '';
-      sidePanelState.channel = '';
-      sidePanelState.captionLabel = '';
-      sidePanelState.selectedTrackIndex = -1;
-      sidePanelState.selectionMode = 'auto';
-      sidePanelState.languageNotice = '';
-      sidePanelState.rows = [];
-      renderLanguageControl([], -1, 'auto', '');
-      showState('not-youtube');
+      renderNotYouTubeState();
       return;
     }
 
     currentTabId = tab.id;
     const urlContext = pageSupport.getPageContextFromUrl(tab.url);
+    const tabVideoId = getVideoIdFromTab(tab);
+    loadContext = {
+      tabId: tab.id,
+      videoId: urlContext.mode === 'VIDEO_MODE' ? tabVideoId : null
+    };
+
+    if (!options.loadId) {
+      activeLoadContext = loadContext;
+    }
 
     if (urlContext.mode === 'CHANNEL_MODE') {
-      const pageContext = await getPageContextFromTab();
+      const pageContext = await getPageContextFromTab(tab.id);
 
-      if (loadId !== activeLoadId) return;
+      if (loadId !== activeLoadId || !isCurrentLoadContext(loadContext)) return;
 
       if (!pageContext || pageContext.mode !== 'CHANNEL_MODE') {
         clearStateRefreshTimer();
@@ -949,48 +1379,86 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
-      const scanState = await getChannelScanStateFromTab();
+      if (!isCurrentChannelContext(pageContext, tab)) {
+        renderLanguageControl([], -1, 'auto', '');
+        renderChannelMode(buildLoadingChannelContext(tab, urlContext), null);
+        showState('channel');
+        scheduleChannelStateRefresh(loadId, loadContext);
+        return;
+      }
 
-      if (loadId !== activeLoadId) return;
+      const scanState = await getChannelScanStateFromTab(tab.id);
+
+      if (loadId !== activeLoadId || !isCurrentLoadContext(loadContext)) return;
 
       renderLanguageControl([], -1, 'auto', '');
-      renderChannelMode(pageContext, scanState);
+      renderChannelMode(pageContext, isCurrentChannelScanState(scanState, tab) ? scanState : null);
       showState('channel');
+
+      if (pageContext.channelLoadStatus === 'settling') {
+        scheduleChannelStateRefresh(loadId, loadContext);
+      } else {
+        clearStateRefreshTimer();
+      }
+
+      return;
+    }
+
+    if (urlContext.mode === 'PLAYLIST_MODE') {
+      const pageContext = await getPageContextFromTab(tab.id);
+
+      if (loadId !== activeLoadId || !isCurrentLoadContext(loadContext)) return;
+
+      if (!pageContext || pageContext.mode !== 'PLAYLIST_MODE') {
+        clearStateRefreshTimer();
+        elements.errorMessage.textContent = 'Could not connect to this YouTube playlist page. Please refresh.';
+        showState('error');
+        return;
+      }
+
+      const scanState = await getPlaylistScanStateFromTab(tab.id);
+
+      if (loadId !== activeLoadId || !isCurrentLoadContext(loadContext)) return;
+
+      renderLanguageControl([], -1, 'auto', '');
+      renderPlaylistMode(pageContext, scanState);
+      showState('playlist');
+
+      if (scanState && scanState.status === 'scanning') {
+        scheduleChannelStateRefresh(loadId, loadContext);
+      } else {
+        clearStateRefreshTimer();
+      }
+
       return;
     }
 
     if (urlContext.mode !== 'VIDEO_MODE') {
-      clearStateRefreshTimer();
-      sidePanelState.videoId = null;
-      sidePanelState.title = '';
-      sidePanelState.channel = '';
-      sidePanelState.captionLabel = '';
-      sidePanelState.selectedTrackIndex = -1;
-      sidePanelState.selectionMode = 'auto';
-      sidePanelState.languageNotice = '';
-      sidePanelState.rows = [];
+      resetVideoReaderState(null);
       sidePanelState.mode = urlContext.mode;
-      renderLanguageControl([], -1, 'auto', '');
       showState('not-youtube');
       return;
     }
 
     sidePanelState.mode = 'VIDEO_MODE';
-    const tabVideoId = window.YTTranscriptYouTube.getVideoIdFromUrl(tab.url);
 
     if (!sidePanelState.videoId || sidePanelState.videoId !== tabVideoId) {
       renderVideoLoading(tabVideoId);
     }
 
-    const state = await getTranscriptStateFromTab();
+    const state = await getTranscriptStateFromTab(tab.id);
 
-    if (loadId !== activeLoadId) return;
+    if (loadId !== activeLoadId || !isCurrentLoadContext(loadContext)) return;
     
     if (!state) {
       // Content script might not be ready or injected
       clearStateRefreshTimer();
       elements.errorMessage.textContent = 'Could not connect to YouTube page. Please refresh.';
       showState('error');
+      return;
+    }
+
+    if (state.videoId !== tabVideoId) {
       return;
     }
 
@@ -1004,7 +1472,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!state.videoTitle && state.status === 'loading') {
       elements.status.textContent = 'Loading transcript...';
       showState('loading');
-      scheduleStateRefresh(loadId);
+      scheduleStateRefresh(loadId, loadContext);
       return;
     }
 
@@ -1055,7 +1523,7 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       elements.status.textContent = state.status === 'loading' ? 'Loading transcript...' : 'Checking...';
       showState('loading');
-      scheduleStateRefresh(loadId);
+      scheduleStateRefresh(loadId, loadContext);
     }
   }
 
@@ -1162,19 +1630,60 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  function exportTxtTranscript() {
-    if (!sidePanelState.rows.length) return;
+  function exportTxtTranscriptFromState(state, fallbackTitle = 'transcript') {
+    const safeState = state || {};
+    const rows = Array.isArray(safeState.rows) ? safeState.rows : [];
 
-    const title = elements.title.textContent || 'transcript';
+    if (!rows.length) return false;
+
+    const title = safeState.videoTitle || fallbackTitle || 'transcript';
     const exportHelpers = window.YTTranscriptExport;
-    const text = exportHelpers.buildPlainTextTranscript(title, '', sidePanelState.rows);
+    const text = exportHelpers.buildPlainTextTranscript(title, '', rows);
     const filename = exportHelpers.createSafeFileName(title, 'txt');
 
     exportHelpers.downloadTextFile(filename, text, document);
+    return true;
+  }
+
+  function exportTxtTranscript() {
+    exportTxtTranscriptFromState({
+      videoTitle: elements.title.textContent || 'transcript',
+      rows: sidePanelState.rows
+    });
   }
 
   elements.btnDownloadTxt.addEventListener('click', () => {
     exportTxtTranscript();
+  });
+
+  async function downloadCurrentPlaylistVideoTranscript() {
+    const originalText = elements.btnDownloadPlaylistCurrentVideo.textContent;
+
+    elements.btnDownloadPlaylistCurrentVideo.disabled = true;
+    elements.btnDownloadPlaylistCurrentVideo.textContent = 'Preparing...';
+
+    try {
+      const state = await getTranscriptStateFromTab();
+
+      if (state && state.status === 'loaded' && exportTxtTranscriptFromState(state, state.videoTitle)) {
+        elements.playlistHelperText.textContent = 'Current video transcript downloaded.';
+        return;
+      }
+
+      if (state && state.status === 'unavailable') {
+        elements.playlistHelperText.textContent = 'This video does not expose a transcript right now.';
+        return;
+      }
+
+      elements.playlistHelperText.textContent = 'Current video transcript is still loading. Try again in a moment.';
+    } finally {
+      elements.btnDownloadPlaylistCurrentVideo.disabled = false;
+      elements.btnDownloadPlaylistCurrentVideo.textContent = originalText;
+    }
+  }
+
+  elements.btnDownloadPlaylistCurrentVideo.addEventListener('click', () => {
+    downloadCurrentPlaylistVideoTranscript();
   });
 
   elements.btnScanVisibleVideos.addEventListener('click', async () => {
@@ -1239,6 +1748,15 @@ document.addEventListener('DOMContentLoaded', () => {
       successes: successfulVideos,
       failures: exportData.failures
     }));
+    zip.file('README.txt', exportHelpers.buildChannelReadme({
+      channelName: exportData.channelName,
+      channelUrl: exportData.channelUrl,
+      exportedAt: downloadedAt,
+      scanStatus: exportData.status,
+      totalVisibleVideos: exportData.discoveredCount,
+      successes: successfulVideos,
+      failures: exportData.failures
+    }));
     zip.file('failed-videos.txt', exportHelpers.buildFailedVideosReport(exportData.failures));
 
     const blob = await zip.generateAsync({
@@ -1247,7 +1765,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     exportHelpers.downloadBlobFile(
-      exportHelpers.createChannelZipFileName(exportData.channelName),
+      exportHelpers.createChannelZipFileName(exportData.channelName, exportData.channelTab),
       blob,
       document
     );
@@ -1257,25 +1775,117 @@ document.addEventListener('DOMContentLoaded', () => {
     downloadChannelZip();
   });
 
+  elements.btnScanPlaylist.addEventListener('click', async () => {
+    await sendMessageToTab({ type: 'SCAN_PLAYLIST_TRANSCRIPTS' });
+    loadTranscriptState();
+  });
+
+  elements.btnCancelPlaylistOperation.addEventListener('click', async () => {
+    await sendMessageToTab({ type: 'CANCEL_PLAYLIST_OPERATION' });
+    loadTranscriptState();
+  });
+
+  async function downloadPlaylistZip() {
+    if (sidePanelState.playlistScanState && sidePanelState.playlistScanState.status === 'scanning') {
+      return;
+    }
+
+    const exportData = await sendMessageToTab({ type: 'GET_PLAYLIST_EXPORT_DATA' });
+    const exportHelpers = window.YTTranscriptExport;
+    const zipCtor = window.JSZip;
+
+    if (
+      !exportData ||
+      !Array.isArray(exportData.successes) ||
+      exportData.successes.length === 0 ||
+      typeof zipCtor !== 'function'
+    ) {
+      return;
+    }
+
+    const downloadedAt = new Date().toISOString();
+    const zip = new zipCtor();
+    const successfulVideos = exportData.successes.map((video, index) => {
+      const filename = exportHelpers.createPlaylistTranscriptFileName(index + 1, video.title);
+
+      return {
+        ...video,
+        index: index + 1,
+        filename
+      };
+    });
+
+    successfulVideos.forEach((video) => {
+      zip.file(
+        video.filename,
+        exportHelpers.buildChannelTranscriptFile(video, exportData.playlistTitle, downloadedAt)
+      );
+    });
+    zip.file('manifest.json', exportHelpers.buildPlaylistManifest({
+      playlistTitle: exportData.playlistTitle,
+      playlistUrl: exportData.playlistUrl,
+      exportedAt: downloadedAt,
+      totalVideosFound: exportData.discoveredCount,
+      successes: successfulVideos,
+      failures: exportData.failures
+    }));
+    zip.file('failed-videos.txt', exportHelpers.buildFailedVideosReport(exportData.failures));
+
+    const blob = await zip.generateAsync({
+      type: 'blob',
+      compression: 'DEFLATE'
+    });
+
+    exportHelpers.downloadBlobFile(
+      exportHelpers.createPlaylistZipFileName(exportData.playlistTitle),
+      blob,
+      document
+    );
+  }
+
+  elements.btnDownloadPlaylistZip.addEventListener('click', () => {
+    downloadPlaylistZip();
+  });
+
   elements.btnJumpCurrent.addEventListener('click', () => {
     resumeAutoScroll();
   });
 
   elements.btnRetry.addEventListener('click', loadTranscriptState);
 
-  // Listen for navigation updates from background or tab
+  // Listen for active tab and navigation updates so the panel never reuses another tab's video state.
+  chrome.tabs.onActivated.addListener((activeInfo) => {
+    syncToActiveTab(activeInfo.tabId);
+  });
+
   chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
-    if (tabId === currentTabId && changeInfo.status === 'complete') {
-      loadTranscriptState();
+    const isCurrentTab = tabId === currentTabId;
+    const isActiveTab = Boolean(tab && tab.active);
+
+    if ((isCurrentTab || isActiveTab) && (changeInfo.url || changeInfo.status === 'complete')) {
+      syncToActiveTab(tabId);
     }
   });
 
   // Also listen for messages from content script about SPA navigation or state changes
-  chrome.runtime.onMessage.addListener((message) => {
+  chrome.runtime.onMessage.addListener((message, sender) => {
+    if (!isMessageFromCurrentTab(sender)) {
+      return;
+    }
+
     if (message && message.type === 'VIDEO_CHANGED') {
+      const senderVideoId = sender && sender.tab ? getVideoIdFromTab(sender.tab) : null;
+
+      if (senderVideoId && message.videoId && senderVideoId !== message.videoId) {
+        return;
+      }
+
       activeLoadId += 1;
       renderVideoLoading(message.videoId);
-      loadTranscriptState({ expectedVideoId: message.videoId });
+      loadTranscriptState({
+        expectedTabId: sender && sender.tab ? sender.tab.id : currentTabId,
+        expectedVideoId: message.videoId
+      });
       return;
     }
 
@@ -1284,12 +1894,15 @@ document.addEventListener('DOMContentLoaded', () => {
       (
         message.type === 'YT_TRANSCRIPT_NAVIGATED' ||
         message.type === 'YT_TRANSCRIPT_STATE_CHANGED' ||
-        message.type === 'YT_CHANNEL_SCAN_STATE_CHANGED'
+        message.type === 'YT_CHANNEL_SCAN_STATE_CHANGED' ||
+        message.type === 'YT_PLAYLIST_SCAN_STATE_CHANGED'
       )
     ) {
-      loadTranscriptState({ expectedVideoId: sidePanelState.videoId });
+      loadTranscriptState({
+        expectedTabId: sender && sender.tab ? sender.tab.id : currentTabId
+      });
     }
   });
 
-  loadTranscriptState();
+  syncToActiveTab();
 });

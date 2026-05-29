@@ -63,8 +63,9 @@
         <div class="content-region">
           <div class="empty-state" id="state-not-youtube">
             <div class="empty-state-icon">YT</div>
-            <div class="empty-state-title">Open a YouTube video or channel</div>
+            <div class="empty-state-title">Open a YouTube video, channel, or playlist</div>
             <div class="empty-state-text">Transcript tools appear here when a supported YouTube page is open.</div>
+            <div class="privacy-note">Works only on YouTube. Transcript text stays local unless you copy or download it.</div>
           </div>
 
           <div class="channel-state" id="state-channel-mode" hidden>
@@ -74,21 +75,25 @@
                 <img id="channel-avatar" class="channel-avatar" alt="" hidden>
               </div>
               <div class="channel-heading">
-                <div class="channel-label">CHANNEL MODE</div>
+                <div class="channel-mode-row">
+                  <div class="channel-label" id="channel-mode-label">CHANNEL MODE</div>
+                  <div class="channel-tab-badge" id="channel-tab-badge">VIDEOS</div>
+                </div>
                 <div class="channel-name" id="channel-name">Channel</div>
               </div>
               <div class="status-pill channel-status-pill" id="channel-status-pill">Ready</div>
             </div>
 
             <div class="channel-main">
-              <div class="channel-count">Visible videos found: <span id="channel-visible-count">0</span></div>
+              <div class="channel-count">Visible <span id="channel-visible-kind">videos</span> found: <span id="channel-visible-count">0</span></div>
               <div class="channel-helper" id="channel-helper-text">Transcripts will be downloaded only when available.</div>
+              <div class="channel-note" id="channel-note-text">Scanning visible videos only.<br>Scroll down to load more.</div>
 
               <div class="channel-progress" id="channel-progress" hidden>
                 <div class="channel-progress-track">
                   <span class="channel-progress-fill" id="channel-progress-fill"></span>
                 </div>
-                <div class="channel-progress-label" id="channel-progress-label">Scanning 0 of 0</div>
+                <div class="channel-progress-label" id="channel-progress-label">Ready to scan</div>
                 <div class="channel-current-video" id="channel-current-video"></div>
                 <div class="channel-metrics">
                   <span id="channel-success-count">0 available</span>
@@ -99,11 +104,66 @@
               <div class="channel-summary" id="channel-summary" hidden></div>
 
               <div class="channel-actions">
-                <button id="btn-scan-visible-videos" class="action-btn primary" title="Scan currently visible channel videos">Scan visible videos</button>
-                <button id="btn-pause-channel-scan" class="action-btn" title="Pause channel scan" hidden>Pause</button>
-                <button id="btn-resume-channel-scan" class="action-btn primary" title="Resume channel scan" hidden>Resume</button>
-                <button id="btn-cancel-channel-scan" class="action-btn" title="Cancel channel scan" hidden>Cancel</button>
-                <button id="btn-download-channel-zip" class="action-btn primary-soft" title="Download available transcripts ZIP" hidden disabled>Download transcripts ZIP</button>
+                <div class="channel-primary-actions">
+                  <button id="btn-scan-visible-videos" class="action-btn primary channel-main-action" title="Scan currently visible channel videos">Scan visible videos</button>
+                  <button id="btn-resume-channel-scan" class="action-btn primary channel-main-action" title="Resume channel scan" hidden>Resume scan</button>
+                </div>
+                <div class="channel-secondary-actions">
+                  <button id="btn-pause-channel-scan" class="action-btn" title="Pause channel scan" hidden>Pause</button>
+                  <button id="btn-cancel-channel-scan" class="action-btn" title="Cancel channel scan" hidden>Cancel</button>
+                </div>
+                <button id="btn-download-channel-zip" class="action-btn primary-soft channel-download-action" title="Download available transcripts ZIP" hidden disabled>Download transcripts ZIP</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="playlist-state" id="state-playlist-mode" hidden>
+            <div class="channel-header">
+              <div class="channel-avatar-slot">
+                <div class="channel-avatar-fallback" aria-hidden="true">PL</div>
+              </div>
+              <div class="channel-heading">
+                <div class="channel-mode-row">
+                  <div class="channel-label" id="playlist-mode-label">PLAYLIST MODE</div>
+                  <div class="channel-tab-badge">PLAYLIST</div>
+                </div>
+                <div class="channel-name" id="playlist-title">Playlist</div>
+              </div>
+              <div class="status-pill channel-status-pill" id="playlist-status-pill">Ready</div>
+            </div>
+
+            <div class="channel-main">
+              <div class="playlist-current-video-section" id="playlist-current-video-section" hidden>
+                <div class="channel-count">Current Video</div>
+                <button id="btn-download-playlist-current-video" class="action-btn primary-soft channel-download-action" title="Download current transcript">Download current transcript</button>
+              </div>
+
+              <div class="channel-count">Videos found: <span id="playlist-visible-count">0</span></div>
+              <div class="channel-helper" id="playlist-helper-text">Scan the playlist to download available transcripts.</div>
+              <div class="channel-note" id="playlist-note-text">Playlist items may load as the page scrolls.</div>
+
+              <div class="channel-progress" id="playlist-progress" hidden>
+                <div class="channel-progress-track">
+                  <span class="channel-progress-fill" id="playlist-progress-fill"></span>
+                </div>
+                <div class="channel-progress-label" id="playlist-progress-label">Ready to scan</div>
+                <div class="channel-current-video" id="playlist-current-video"></div>
+                <div class="channel-metrics">
+                  <span id="playlist-success-count">0 downloaded</span>
+                  <span id="playlist-failure-count">0 skipped</span>
+                </div>
+              </div>
+
+              <div class="channel-summary" id="playlist-summary" hidden></div>
+
+              <div class="channel-actions">
+                <div class="channel-primary-actions">
+                  <button id="btn-scan-playlist" class="action-btn primary channel-main-action" title="Scan playlist videos">Scan playlist</button>
+                </div>
+                <div class="channel-secondary-actions">
+                  <button id="btn-cancel-playlist-operation" class="action-btn" title="Cancel playlist operation" hidden>Cancel</button>
+                </div>
+                <button id="btn-download-playlist-zip" class="action-btn primary-soft channel-download-action" title="Download playlist ZIP" hidden disabled>Download playlist ZIP</button>
               </div>
             </div>
           </div>
@@ -155,6 +215,7 @@
   <script src="../utils/youtube.js"></script>
   <script src="../utils/page-support.js"></script>
   <script src="../utils/transcript.js"></script>
+  <script src="../utils/playlist.js"></script>
   <script src="../utils/export.js"></script>
   <script src="../vendor/jszip.min.js"></script>
   <script src="sidepanel.js"></script>

@@ -127,12 +127,29 @@
     return safeValue || fallback || "youtube-video";
   }
 
+  function createSafeSlug(value, fallback) {
+    var safeValue = String(value || fallback || "channel")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "")
+      .slice(0, 80);
+
+    return safeValue || fallback || "channel";
+  }
+
   function createChannelTranscriptFileName(index, videoTitle, videoId) {
     var safeIndex = String(Math.max(1, Number(index) || 1)).padStart(3, "0");
     var safeTitle = sanitizeDisplayFilePart(videoTitle, "Untitled video");
     var safeVideoId = sanitizeDisplayFilePart(videoId, "unknown-video");
 
     return safeIndex + " - " + safeTitle + " [" + safeVideoId + "].txt";
+  }
+
+  function createPlaylistTranscriptFileName(index, videoTitle) {
+    var safeIndex = String(Math.max(1, Number(index) || 1)).padStart(2, "0");
+    var safeTitle = sanitizeDisplayFilePart(videoTitle, "Untitled video");
+
+    return safeIndex + " - " + safeTitle + ".txt";
   }
 
   function buildChannelTranscriptFile(video, channelName, downloadedAt) {
@@ -185,6 +202,39 @@
     }, null, 2);
   }
 
+  function buildPlaylistManifest(options) {
+    var safeOptions = options || {};
+    var successes = Array.isArray(safeOptions.successes) ? safeOptions.successes : [];
+    var failures = Array.isArray(safeOptions.failures) ? safeOptions.failures : [];
+
+    return JSON.stringify({
+      playlistTitle: safeOptions.playlistTitle || "",
+      playlistUrl: safeOptions.playlistUrl || "",
+      exportedAt: safeOptions.exportedAt || safeOptions.downloadedAt || "",
+      totalVideosFound: Number(safeOptions.totalVideosFound) || 0,
+      downloadedCount: successes.length,
+      skippedCount: failures.length,
+      successfulVideos: successes.map(function mapSuccess(video) {
+        return {
+          index: video.index || 0,
+          videoId: video.videoId || "",
+          title: video.title || "",
+          url: video.url || "",
+          language: video.transcriptLanguage || "",
+          filename: video.filename || ""
+        };
+      }),
+      skippedVideos: failures.map(function mapFailure(video) {
+        return {
+          videoId: video.videoId || "",
+          title: video.title || "",
+          url: video.url || "",
+          reason: video.reason || "Unknown failure"
+        };
+      })
+    }, null, 2);
+  }
+
   function buildFailedVideosReport(failures) {
     var lines = ["Failed videos", ""];
     var safeFailures = Array.isArray(failures) ? failures : [];
@@ -210,8 +260,36 @@
     return lines.join("\n");
   }
 
-  function createChannelZipFileName(channelName) {
-    return sanitizeDisplayFilePart(channelName, "Channel") + " - Transcripts.zip";
+  function buildChannelReadme(options) {
+    var safeOptions = options || {};
+    var successes = Array.isArray(safeOptions.successes) ? safeOptions.successes : [];
+    var failures = Array.isArray(safeOptions.failures) ? safeOptions.failures : [];
+    var lines = [
+      "Channel export summary",
+      "",
+      "Channel name: " + (safeOptions.channelName || ""),
+      "Channel URL: " + (safeOptions.channelUrl || ""),
+      "Export date: " + (safeOptions.exportedAt || safeOptions.downloadedAt || ""),
+      "Scan status: " + (safeOptions.scanStatus || ""),
+      "Total visible videos: " + (Number(safeOptions.totalVisibleVideos) || 0),
+      "Successful transcripts: " + successes.length,
+      "Failed/unavailable videos: " + failures.length,
+      "",
+      "manifest.json is the technical index for this ZIP.",
+      "failed-videos.txt lists videos without transcripts."
+    ];
+
+    return lines.join("\n");
+  }
+
+  function createChannelZipFileName(channelName, channelTab) {
+    var safeTab = channelTab === "shorts" ? "shorts" : "videos";
+
+    return createSafeSlug(channelName, "channel") + "-" + safeTab + "-transcripts.zip";
+  }
+
+  function createPlaylistZipFileName(playlistTitle) {
+    return createSafeSlug(playlistTitle, "playlist") + "-playlist-transcripts.zip";
   }
 
   function downloadTextFile(fileName, text, documentValue) {
@@ -264,14 +342,18 @@
 
   var api = {
     buildChannelManifest: buildChannelManifest,
+    buildChannelReadme: buildChannelReadme,
     buildChannelTranscriptFile: buildChannelTranscriptFile,
     buildFailedVideosReport: buildFailedVideosReport,
     buildMarkdownTranscript: buildMarkdownTranscript,
+    buildPlaylistManifest: buildPlaylistManifest,
     buildPlainTextTranscript: buildPlainTextTranscript,
     buildSrtTranscript: buildSrtTranscript,
     buildVttTranscript: buildVttTranscript,
     createChannelTranscriptFileName: createChannelTranscriptFileName,
     createChannelZipFileName: createChannelZipFileName,
+    createPlaylistTranscriptFileName: createPlaylistTranscriptFileName,
+    createPlaylistZipFileName: createPlaylistZipFileName,
     createSafeFileName: createSafeFileName,
     downloadBlobFile: downloadBlobFile,
     downloadTextFile: downloadTextFile

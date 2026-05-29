@@ -19,6 +19,23 @@
     return title;
   }
 
+  var CHANNEL_VIDEO_CANDIDATE_SELECTOR = [
+    'a[href*="/watch?v="]',
+    'a[href*="/shorts/"]'
+  ].join(", ");
+  var CHANNEL_VIDEO_CARD_SELECTOR =
+    "ytd-rich-item-renderer, ytd-rich-grid-media, ytd-rich-grid-slim-media, ytd-grid-video-renderer, ytd-video-renderer";
+  var CHANNEL_ACTIVE_TAB_SELECTOR = [
+    'yt-tab-shape[aria-selected="true"]',
+    'yt-tab-shape[aria-current="page"]',
+    "yt-tab-shape[selected]",
+    "yt-tab-shape[tab-title].yt-tab-shape-wiz__tab--tab-selected",
+    'tp-yt-paper-tab[aria-selected="true"]',
+    "tp-yt-paper-tab.iron-selected",
+    '[role="tab"][aria-selected="true"]',
+    '[role="tab"][aria-current="page"]'
+  ].join(", ");
+
   function normalizeAnchorUrl(href, baseUrl) {
     try {
       return new URL(href, baseUrl).toString();
@@ -56,20 +73,115 @@
     };
   }
 
-  function getAnchorTitle(anchor) {
-    var card;
+  function getChannelTabFromUrl(urlValue) {
+    var url;
+    var pathParts;
+
+    try {
+      url = new URL(urlValue);
+      pathParts = url.pathname.split("/").filter(Boolean);
+    } catch (error) {
+      return "videos";
+    }
+
+    return pathParts[1] === "shorts" ? "shorts" : "videos";
+  }
+
+  function getChannelContentRoot(documentValue) {
+    return queryFirst(documentValue, [
+      "ytd-browse[page-subtype=\"channels\"]",
+      "ytd-browse",
+      "ytd-rich-grid-renderer",
+      "ytd-two-column-browse-results-renderer",
+      "#contents"
+    ]) || documentValue;
+  }
+
+  function getChannelVideoLinkSelector(channelTab) {
+    return channelTab === "shorts"
+      ? 'a[href*="/shorts/"]'
+      : 'a[href*="/watch?v="]';
+  }
+
+  function queryVideoAnchors(rootValue, selector) {
+    if (!rootValue || typeof rootValue.querySelectorAll !== "function") {
+      return [];
+    }
+
+    try {
+      return Array.prototype.slice.call(rootValue.querySelectorAll(selector));
+    } catch (error) {
+      return [];
+    }
+  }
+
+  function getChannelVideoAnchors(documentValue, channelTab) {
+    var selector = getChannelVideoLinkSelector(channelTab);
+    var contentRoot = getChannelContentRoot(documentValue);
+    var anchors = queryVideoAnchors(contentRoot, selector);
+
+    if (anchors.length === 0 && contentRoot !== documentValue) {
+      anchors = queryVideoAnchors(documentValue, selector);
+    }
+
+    return anchors;
+  }
+
+  function matchesChannelTab(videoInfo, channelTab) {
+    if (!videoInfo) {
+      return false;
+    }
+
+    return channelTab === "shorts" ? videoInfo.isShort : !videoInfo.isShort;
+  }
+
+  function getActiveChannelTabFromDocument(documentValue) {
+    var activeTab;
+    var label;
+
+    if (!documentValue || typeof documentValue.querySelector !== "function") {
+      return "";
+    }
+
+    activeTab = documentValue.querySelector(CHANNEL_ACTIVE_TAB_SELECTOR);
+
+    if (!activeTab) {
+      return "";
+    }
+
+    label = normalizeText(
+      (typeof activeTab.getAttribute === "function" &&
+        (activeTab.getAttribute("tab-title") ||
+          activeTab.getAttribute("title") ||
+          activeTab.getAttribute("aria-label"))) ||
+        activeTab.textContent ||
+        ""
+    ).toLowerCase();
+
+    if (label.indexOf("shorts") !== -1) {
+      return "shorts";
+    }
+
+    if (label.indexOf("videos") !== -1) {
+      return "videos";
+    }
+
+    return "";
+  }
+
+  function getAnchorCard(anchor) {
+    return anchor && typeof anchor.closest === "function"
+      ? anchor.closest(CHANNEL_VIDEO_CARD_SELECTOR)
+      : null;
+  }
+
+  function getAnchorTitle(anchor, card) {
     var titleElement;
 
     if (!anchor) {
       return "";
     }
 
-    card =
-      typeof anchor.closest === "function"
-        ? anchor.closest(
-            "ytd-rich-item-renderer, ytd-rich-grid-media, ytd-rich-grid-slim-media, ytd-grid-video-renderer",
-          )
-        : null;
     titleElement =
       card && typeof card.querySelector === "function"
         ? card.querySelector(
@@ -89,18 +201,21 @@
     );
   }
 
-  function getAnchorThumbnailUrl(anchor) {
-    var image = anchor && typeof anchor.querySelector === "function"
-      ? anchor.querySelector("img")
+  function getAnchorThumbnailUrl(anchor, card) {
+    var image = card && typeof card.querySelector === "function"
+      ? card.querySelector("img")
       : null;
+
+    if (!image && anchor && typeof anchor.querySelector === "function") {
+      image = anchor.querySelector("img");
+    }
 
     return image && (image.currentSrc || image.src) ? image.currentSrc || image.src : "";
   }
 
   function extractVisibleChannelVideos(documentValue, baseUrl) {
-    var anchors = documentValue && typeof documentValue.querySelectorAll === "function"
-      ? Array.prototype.slice.call(documentValue.querySelectorAll("a[href]"))
-      : [];
+    var channelTab = getChannelTabFromUrl(baseUrl);
+    var anchors = getChannelVideoAnchors(documentValue, channelTab);
     var seenVideoIds = {};
     var videos = [];
 
@@ -110,16 +225,11 @@
         : "";
       var url = normalizeAnchorUrl(href, baseUrl);
       var info = getVideoInfoFromUrl(url);
-      var card =
-        anchor && typeof anchor.closest === "function"
-          ? anchor.closest(
-              "ytd-rich-item-renderer, ytd-rich-grid-media, ytd-rich-grid-slim-media, ytd-grid-video-renderer",
-            )
-          : null;
+      var card = getAnchorCard(anchor);
 
       if (
         !info ||
-        (typeof anchor.closest === "function" && !card) ||
+        !matchesChannelTab(info, channelTab) ||
         seenVideoIds[info.videoId]
       ) {
         return;
@@ -129,8 +239,8 @@
       videos.push({
         videoId: info.videoId,
         url: url,
-        title: getAnchorTitle(anchor),
-        thumbnailUrl: getAnchorThumbnailUrl(anchor),
+        title: getAnchorTitle(anchor, card),
+        thumbnailUrl: getAnchorThumbnailUrl(anchor, card),
         isShort: info.isShort
       });
     });
@@ -323,7 +433,11 @@
       }
     }
 
-    if (safeState.status === "scanning" && shouldContinue()) {
+    if (safeState.status === "pausing") {
+      safeState.currentVideo = null;
+      safeState.status = "paused";
+      onStateChange();
+    } else if (safeState.status === "scanning" && shouldContinue()) {
       safeState.currentVideo = null;
       safeState.status = "completed";
       onStateChange();
@@ -353,17 +467,19 @@
 
   function getChannelMetadataFromDocument(documentValue) {
     var titleElement = queryFirst(documentValue, [
-      "ytd-channel-name #text, #channel-name #text, yt-page-header-renderer #page-header #title",
       "yt-page-header-renderer h1",
+      "yt-page-header-renderer #page-header #title",
+      "yt-page-header-renderer [role=\"heading\"]",
+      "yt-page-header-renderer #title",
+      "ytd-channel-header-renderer #channel-name #text",
+      "ytd-channel-header-renderer #channel-name",
       "ytd-c4-tabbed-header-renderer #channel-name"
     ]);
     var avatarElement = queryFirst(documentValue, [
       "yt-page-header-renderer #avatar img",
       "ytd-c4-tabbed-header-renderer #avatar img",
       "ytd-channel-header-renderer #avatar img",
-      "#page-header #avatar img",
-      "#avatar img",
-      "yt-img-shadow img"
+      "#page-header #avatar img"
     ]);
 
     return {
@@ -374,12 +490,43 @@
     };
   }
 
+  function getChannelPageReadiness(documentValue, baseUrl) {
+    var metadata = getChannelMetadataFromDocument(documentValue);
+    var expectedTab = getChannelTabFromUrl(baseUrl);
+    var activeTab = getActiveChannelTabFromDocument(documentValue);
+    var visibleVideos = extractVisibleChannelVideos(documentValue, baseUrl);
+    var channelNameFound = Boolean(metadata.channelName);
+    var hasExpectedActiveTab = activeTab === expectedTab;
+    var validCardsFound = visibleVideos.length > 0;
+
+    return {
+      channelName: metadata.channelName,
+      channelAvatarUrl: metadata.channelAvatarUrl,
+      expectedTab: expectedTab,
+      activeTab: activeTab,
+      hasChannelHeader: channelNameFound,
+      hasExpectedActiveTab: hasExpectedActiveTab,
+      channelNameFound: channelNameFound,
+      expectedTabFound: hasExpectedActiveTab,
+      validCardsFound: validCardsFound,
+      visibleVideoCount: visibleVideos.length,
+      urlTabType: expectedTab,
+      activeTabType: activeTab,
+      visibleVideos: visibleVideos,
+      isReady:
+        channelNameFound &&
+        validCardsFound
+    };
+  }
+
   var api = {
     addVideosToScanState: addVideosToScanState,
     cancelChannelScanState: cancelChannelScanState,
     cleanVideoTitle: cleanVideoTitle,
     createChannelScanState: createChannelScanState,
     extractVisibleChannelVideos: extractVisibleChannelVideos,
+    getActiveChannelTabFromDocument: getActiveChannelTabFromDocument,
+    getChannelPageReadiness: getChannelPageReadiness,
     getChannelMetadataFromDocument: getChannelMetadataFromDocument,
     mergeChannelVideos: mergeChannelVideos,
     pauseChannelScanState: pauseChannelScanState,

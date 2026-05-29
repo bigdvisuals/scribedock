@@ -22,7 +22,6 @@ This version fetches and renders available YouTube caption and transcript data. 
 - Avoids duplicate sidebars
 - Uses YouTube's live global `window.ytInitialPlayerResponse` and fallback fetch paths for reliable availability checks
 - Clears stale rows immediately upon navigation
-- Includes a simple popup
 
 ## How To Load It In Chrome
 

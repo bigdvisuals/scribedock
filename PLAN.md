@@ -42,27 +42,27 @@ Do not build these yet:
 
 ```text
 youtube-transcript-extension/
-├── manifest.json
-├── README.md
-├── PLAN.md
-├── package.json
-├── src/
-│   ├── content/
-│   │   ├── content.js
-│   │   └── content.css
-│   ├── popup/
-│   │   ├── popup.html
-│   │   ├── popup.js
-│   │   └── popup.css
-│   └── utils/
-│       ├── youtube.js
-│       ├── transcript.js
-│       ├── export.js
-│       └── format.js
-├── tests/
-│   └── youtube.test.cjs
-└── assets/
-    └── icons/
+|-- manifest.json
+|-- README.md
+|-- PLAN.md
+|-- package.json
+|-- src/
+|   |-- background/
+|   |   `-- background.js
+|   |-- content/
+|   |   `-- content.js
+|   |-- sidepanel/
+|   |   |-- sidepanel.html
+|   |   |-- sidepanel.js
+|   |   `-- sidepanel.css
+|   `-- utils/
+|       |-- youtube.js
+|       |-- transcript.js
+|       |-- export.js
+|       `-- format.js
+|-- tests/
+|   `-- youtube.test.cjs
+`-- assets/
 ```
 
 ## Build Order

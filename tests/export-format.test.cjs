@@ -84,9 +84,22 @@ test("builds channel export filenames and metadata files", () => {
       reason: "No caption tracks found"
     }
   ]);
+  const readme = exportHelpers.buildChannelReadme({
+    channelName: "Channel Name",
+    channelUrl: "https://www.youtube.com/@channel/videos",
+    exportedAt: "2026-05-17T12:00:00.000Z",
+    scanStatus: "paused",
+    totalVisibleVideos: 2,
+    successes: [{ videoId: "dQw4w9WgXcQ" }],
+    failures: [{ videoId: "abcdefghijk" }]
+  });
 
   assert.match(transcriptFile, /Title: Video Title/);
+  assert.match(transcriptFile, /URL: https:\/\/www\.youtube\.com\/watch\?v=dQw4w9WgXcQ/);
+  assert.match(transcriptFile, /Channel: Channel Name/);
   assert.match(transcriptFile, /Video ID: dQw4w9WgXcQ/);
+  assert.match(transcriptFile, /Transcript language: English/);
+  assert.match(transcriptFile, /Downloaded at: 2026-05-17T12:00:00.000Z/);
   assert.deepEqual(manifest.successfulVideos, [
     {
       index: 1,
@@ -103,6 +116,80 @@ test("builds channel export filenames and metadata files", () => {
   assert.equal(manifest.totalFailedVideos, 1);
   assert.equal(manifest.preferredTranscriptLanguage, "es");
   assert.match(failed, /abcdefghijk \| Unavailable video/);
+  assert.match(readme, /Channel name: Channel Name/);
+  assert.match(readme, /Channel URL: https:\/\/www\.youtube\.com\/@channel\/videos/);
+  assert.match(readme, /Export date: 2026-05-17T12:00:00.000Z/);
+  assert.match(readme, /Scan status: paused/);
+  assert.match(readme, /Total visible videos: 2/);
+  assert.match(readme, /Successful transcripts: 1/);
+  assert.match(readme, /Failed\/unavailable videos: 1/);
+  assert.match(readme, /manifest\.json is the technical index/);
+  assert.match(readme, /failed-videos\.txt lists videos without transcripts/);
+});
+
+test("creates separate channel ZIP names for videos and Shorts", () => {
+  assert.equal(
+    exportHelpers.createChannelZipFileName("Vincent Chan", "videos"),
+    "vincent-chan-videos-transcripts.zip"
+  );
+  assert.equal(
+    exportHelpers.createChannelZipFileName("Vincent Chan", "shorts"),
+    "vincent-chan-shorts-transcripts.zip"
+  );
+});
+
+test("builds playlist export filenames and manifest data", () => {
+  assert.equal(
+    exportHelpers.createPlaylistTranscriptFileName(1, "Bad / File: Name?"),
+    "01 - Bad File Name.txt"
+  );
+  assert.equal(
+    exportHelpers.createPlaylistTranscriptFileName(12, ""),
+    "12 - Untitled video.txt"
+  );
+  assert.equal(
+    exportHelpers.createPlaylistZipFileName("My Playlist"),
+    "my-playlist-playlist-transcripts.zip"
+  );
+
+  const manifest = JSON.parse(exportHelpers.buildPlaylistManifest({
+    playlistTitle: "My Playlist",
+    playlistUrl: "https://www.youtube.com/playlist?list=PLdemo",
+    exportedAt: "2026-05-25T12:00:00.000Z",
+    totalVideosFound: 2,
+    successes: [
+      {
+        index: 1,
+        videoId: "aaaaaaaaaaa",
+        title: "Available video",
+        url: "https://www.youtube.com/watch?v=aaaaaaaaaaa&list=PLdemo",
+        transcriptLanguage: "English",
+        filename: "01 - Available video.txt"
+      }
+    ],
+    failures: [
+      {
+        videoId: "bbbbbbbbbbb",
+        title: "Unavailable video",
+        url: "https://www.youtube.com/watch?v=bbbbbbbbbbb&list=PLdemo",
+        reason: "No caption tracks found"
+      }
+    ]
+  }));
+
+  assert.equal(manifest.playlistTitle, "My Playlist");
+  assert.equal(manifest.playlistUrl, "https://www.youtube.com/playlist?list=PLdemo");
+  assert.equal(manifest.totalVideosFound, 2);
+  assert.equal(manifest.downloadedCount, 1);
+  assert.equal(manifest.skippedCount, 1);
+  assert.deepEqual(manifest.skippedVideos, [
+    {
+      videoId: "bbbbbbbbbbb",
+      title: "Unavailable video",
+      url: "https://www.youtube.com/watch?v=bbbbbbbbbbb&list=PLdemo",
+      reason: "No caption tracks found"
+    }
+  ]);
 });
 
 test("uses safe untitled filenames and empty failed reports", () => {
