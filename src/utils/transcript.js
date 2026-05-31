@@ -4,8 +4,16 @@
   var STATUS_MESSAGES = {
     checking: "Checking transcript availability...",
     available: "Transcript available",
-    unavailable: "No transcript available for this video",
+    unavailable: "YouTube does not expose captions for this video.",
     failed: "Transcript detection failed"
+  };
+  var FAILURE_REASONS = {
+    noCaptionTracks: "YouTube does not expose captions for this video.",
+    videoUnavailable: "This video is unavailable on YouTube or cannot be played right now.",
+    translationUnavailable: "The selected translation is not available for this video.",
+    nativeFallbackFailed: "YouTube layout/native transcript panel did not expose transcript rows.",
+    emptyTranscriptResponse: "YouTube returned an empty transcript for this caption track.",
+    transcriptFetchFailed: "YouTube transcript data could not be read right now."
   };
   var PREFERRED_TRANSCRIPT_LANGUAGE_KEY = "preferredTranscriptLanguageCode";
   var DEFAULT_TRANSCRIPT_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
@@ -572,19 +580,26 @@
     };
   }
 
-  function createFailedAvailabilityResult() {
-    return {
+  function createFailedAvailabilityResult(message, reasonCode) {
+    var result = {
       status: "failed",
-      message: STATUS_MESSAGES.failed,
+      message: message || STATUS_MESSAGES.failed,
       tracks: [],
       languages: []
     };
+
+    if (reasonCode) {
+      result.reasonCode = reasonCode;
+    }
+
+    return result;
   }
 
-  function createUnavailableAvailabilityResult() {
+  function createUnavailableAvailabilityResult(message, reasonCode) {
     return {
       status: "unavailable",
-      message: STATUS_MESSAGES.unavailable,
+      message: message || STATUS_MESSAGES.unavailable,
+      reasonCode: reasonCode || "no-captions-exposed",
       tracks: [],
       languages: []
     };
@@ -610,7 +625,7 @@
     var tracks = Array.isArray(safeSource.tracks) ? safeSource.tracks : [];
 
     if (tracks.length === 0) {
-      return createUnavailableAvailabilityResult();
+      return createUnavailableAvailabilityResult(safeSource.reason, safeSource.reasonCode);
     }
 
     return {
@@ -626,6 +641,8 @@
 
   function createTrackSourceResult(source, playerResponse, videoId, apiKey) {
     var tracks = getCaptionTracksFromPlayerResponse(playerResponse);
+    var playabilityStatus = playerResponse && playerResponse.playabilityStatus;
+    var playabilityValue = playabilityStatus && playabilityStatus.status;
 
     if (!playerResponse) {
       return {
@@ -636,10 +653,21 @@
       };
     }
 
+    if (playabilityValue && playabilityValue !== "OK") {
+      return {
+        ok: false,
+        reason: playabilityStatus.reason || FAILURE_REASONS.videoUnavailable,
+        reasonCode: "video-unavailable",
+        source: source,
+        foundPlayerResponse: true
+      };
+    }
+
     if (tracks.length === 0) {
       return {
         ok: false,
-        reason: "No caption tracks found",
+        reason: FAILURE_REASONS.noCaptionTracks,
+        reasonCode: "no-captions-exposed",
         source: source,
         foundPlayerResponse: true
       };
@@ -1100,6 +1128,35 @@
     return error && error.message ? error.message : String(error || "Unknown error");
   }
 
+  function getReasonCodeFromMessage(message) {
+    if (message === FAILURE_REASONS.emptyTranscriptResponse || message === "No readable transcript rows") {
+      return "empty-transcript-response";
+    }
+
+    if (message === FAILURE_REASONS.translationUnavailable) {
+      return "translation-unavailable";
+    }
+
+    if (message === FAILURE_REASONS.nativeFallbackFailed) {
+      return "native-fallback-failed";
+    }
+
+    return "";
+  }
+
+  function createTranscriptFailure(source, reason, reasonCode) {
+    var safeReason = reason || FAILURE_REASONS.transcriptFetchFailed;
+
+    return {
+      ok: false,
+      reason: safeReason === "No readable transcript rows"
+        ? FAILURE_REASONS.emptyTranscriptResponse
+        : safeReason,
+      reasonCode: reasonCode || getReasonCodeFromMessage(safeReason),
+      source: source || "pipeline"
+    };
+  }
+
   function createParserResult(name, rows, reason) {
     return {
       name: name,
@@ -1478,10 +1535,10 @@
     }
 
     if (foundReadableResponse) {
-      throw new Error("No readable transcript rows");
+      throw new Error(FAILURE_REASONS.emptyTranscriptResponse);
     }
 
-    throw new Error("Transcript fetch failed");
+    throw new Error(FAILURE_REASONS.transcriptFetchFailed);
   }
 
   async function fetchTimedTextTranscript(track, fetchFn, options) {
@@ -1492,11 +1549,7 @@
         source: "timedtext"
       };
     } catch (error) {
-      return {
-        ok: false,
-        reason: getErrorMessage(error),
-        source: "timedtext"
-      };
+      return createTranscriptFailure("timedtext", getErrorMessage(error));
     }
   }
 
@@ -1521,6 +1574,7 @@
       return {
         ok: false,
         reason: "No Android player caption track found",
+        reasonCode: "android-caption-track-missing",
         source: "android-player"
       };
     }
@@ -1539,11 +1593,7 @@
     timedTextResult = await fetchTimedTextTranscript(androidTrack, fetchFn, options);
 
     if (!timedTextResult.ok) {
-      return {
-        ok: false,
-        reason: timedTextResult.reason,
-        source: "android-player"
-      };
+      return createTranscriptFailure("android-player", timedTextResult.reason, timedTextResult.reasonCode);
     }
 
     return {
@@ -1635,7 +1685,7 @@
 
   function hasDirectCaptionTrack(tracks) {
     return tracks.some(function findDirectTrack(track) {
-      return !track.isTranslated;
+      return !isTranslatedTrack(track);
     });
   }
 
@@ -1646,7 +1696,10 @@
     var nativeTranscriptFetcher = safeOptions.nativeTranscriptFetcher;
     var tracks = safeOptions.track ? [safeOptions.track] : [];
     var lastTimedTextReason = "";
+    var lastTimedTextReasonCode = "";
     var lastAndroidReason = "";
+    var lastAndroidReasonCode = "";
+    var lastNativeReason = "";
     var timedTextResult;
     var nativeRows;
     var androidResult;
@@ -1656,6 +1709,7 @@
       return {
         ok: false,
         reason: "No caption tracks were provided",
+        reasonCode: "no-captions-provided",
         source: "pipeline"
       };
     }
@@ -1668,6 +1722,18 @@
       }
 
       lastTimedTextReason = timedTextResult.reason;
+      lastTimedTextReasonCode = timedTextResult.reasonCode || "";
+    }
+
+    for (index = 0; index < tracks.length; index += 1) {
+      androidResult = await fetchAndroidPlayerTranscript(videoId, tracks[index], safeOptions.apiKey, fetchFn, safeOptions);
+
+      if (androidResult.ok) {
+        return androidResult;
+      }
+
+      lastAndroidReason = androidResult.reason;
+      lastAndroidReasonCode = androidResult.reasonCode || "";
     }
 
     if (hasDirectCaptionTrack(tracks) && typeof nativeTranscriptFetcher === "function") {
@@ -1681,26 +1747,25 @@
             source: "native-transcript-panel"
           };
         }
+
+        lastNativeReason = FAILURE_REASONS.nativeFallbackFailed;
       } catch (error) {
+        lastNativeReason = FAILURE_REASONS.nativeFallbackFailed;
         logCaptionDebug(safeOptions, "Native transcript fallback failed: " + getErrorMessage(error));
       }
     }
 
-    for (index = 0; index < tracks.length; index += 1) {
-      androidResult = await fetchAndroidPlayerTranscript(videoId, tracks[index], safeOptions.apiKey, fetchFn, safeOptions);
-
-      if (androidResult.ok) {
-        return androidResult;
-      }
-
-      lastAndroidReason = androidResult.reason;
+    if (lastAndroidReasonCode === "android-caption-track-missing" && lastTimedTextReason) {
+      return createTranscriptFailure("pipeline", lastTimedTextReason, lastTimedTextReasonCode);
     }
 
-    return {
-      ok: false,
-      reason: lastAndroidReason || lastTimedTextReason || "No YouTube transcript is available for this video.",
-      source: "pipeline"
-    };
+    return createTranscriptFailure(
+      "pipeline",
+      lastNativeReason || lastAndroidReason || lastTimedTextReason || "No YouTube transcript is available for this video.",
+      lastNativeReason
+        ? "native-fallback-failed"
+        : lastAndroidReasonCode || lastTimedTextReasonCode
+    );
   }
 
   async function detectTranscriptAvailability(options) {
@@ -1726,6 +1791,9 @@
       }
 
       foundPlayerResponseWithoutTracks = foundPlayerResponseWithoutTracks || trackSource.foundPlayerResponse;
+      if (trackSource.reasonCode === "video-unavailable") {
+        return createFailedAvailabilityResult(trackSource.reason, trackSource.reasonCode);
+      }
 
       trackSource = getCaptionTracksFromScriptTags(videoId, documentValue);
 
@@ -1738,6 +1806,9 @@
       }
 
       foundPlayerResponseWithoutTracks = foundPlayerResponseWithoutTracks || trackSource.foundPlayerResponse;
+      if (trackSource.reasonCode === "video-unavailable") {
+        return createFailedAvailabilityResult(trackSource.reason, trackSource.reasonCode);
+      }
 
       trackSource = await getCaptionTracksFromWatchPageFetch(videoId, fetchFn);
 
@@ -1746,6 +1817,9 @@
       }
 
       foundPlayerResponseWithoutTracks = foundPlayerResponseWithoutTracks || trackSource.foundPlayerResponse;
+      if (trackSource.reasonCode === "video-unavailable") {
+        return createFailedAvailabilityResult(trackSource.reason, trackSource.reasonCode);
+      }
 
       if (foundPlayerResponseWithoutTracks) {
         return createUnavailableAvailabilityResult();

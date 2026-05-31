@@ -16,6 +16,14 @@ const sidePanelCss = fs.readFileSync(
   "utf8",
 );
 
+function getCssRule(selector) {
+  const ruleStart = sidePanelCss.indexOf(`${selector} {`);
+  assert.notEqual(ruleStart, -1, `Missing CSS rule for ${selector}`);
+  const ruleEnd = sidePanelCss.indexOf("\n}", ruleStart);
+  assert.notEqual(ruleEnd, -1, `Missing CSS rule end for ${selector}`);
+  return sidePanelCss.slice(ruleStart, ruleEnd + 2);
+}
+
 test("side panel guards optional footer elements before using them", () => {
   assert.match(sidePanelScript, /if \(elements\.footer\) \{/);
   assert.match(sidePanelScript, /if \(elements\.lineCount\) \{/);
@@ -32,10 +40,301 @@ test("side panel uses one integrated app shell with reader-first actions", () =>
   assert.match(sidePanelHtml, /class="app-shell"/);
   assert.match(sidePanelHtml, /class="shell-main"/);
   assert.match(sidePanelHtml, /class="toolbar-actions"/);
+  assert.match(sidePanelHtml, /id="btn-export-toggle"/);
+  assert.match(
+    sidePanelHtml,
+    /id="btn-export-toggle"[\s\S]*aria-haspopup="menu"[\s\S]*aria-expanded="false"[\s\S]*aria-controls="export-menu"/,
+  );
+  assert.match(sidePanelHtml, />Download</);
+  assert.match(sidePanelHtml, /id="export-menu"/);
   assert.match(sidePanelHtml, /id="btn-download-txt"/);
-  assert.match(sidePanelHtml, />Download TXT</);
+  assert.match(sidePanelHtml, /id="btn-download-md"/);
+  assert.match(sidePanelHtml, /id="btn-download-json"/);
+  assert.match(sidePanelHtml, />TXT</);
+  assert.match(sidePanelHtml, />Markdown</);
+  assert.match(sidePanelHtml, />JSON data</);
   assert.doesNotMatch(sidePanelHtml, /id="btn-more-downloads"/);
-  assert.doesNotMatch(sidePanelHtml, /class="dropdown-menu"/);
+});
+
+test("side panel does not duplicate the native Chrome side-panel header", () => {
+  assert.doesNotMatch(sidePanelHtml, /class="app-bar"/);
+  assert.doesNotMatch(sidePanelHtml, /YouTube Transcript Helper/);
+  assert.doesNotMatch(sidePanelHtml, /id="btn-close-panel"/);
+  assert.doesNotMatch(sidePanelCss, /\.app-bar\s*\{/);
+  assert.doesNotMatch(sidePanelCss, /\.icon-btn\s*\{/);
+  assert.doesNotMatch(sidePanelScript, /btnClosePanel/);
+});
+
+test("side panel shell uses the framed working reader design", () => {
+  const containerRule = getCssRule(".panel-container");
+  const appShellRule = getCssRule(".app-shell");
+
+  assert.match(containerRule, /padding:\s*0;/);
+  assert.match(appShellRule, /border:\s*1px solid rgba\(75,\s*126,\s*108,\s*0\.55\);/);
+  assert.match(appShellRule, /border-radius:\s*14px;/);
+});
+
+test("side panel footer keeps status text and jump action on one clean row", () => {
+  assert.match(
+    sidePanelCss,
+    /\.footer-status\s*\{[\s\S]*?display:\s*grid;[\s\S]*?grid-template-columns:\s*minmax\(0,\s*1fr\) auto;/,
+  );
+  assert.match(
+    sidePanelCss,
+    /\.footer-group span\s*\{[\s\S]*?white-space:\s*nowrap;/,
+  );
+  assert.match(
+    sidePanelCss,
+    /#follow-status\s*\{[\s\S]*?text-overflow:\s*ellipsis;/,
+  );
+  assert.match(
+    sidePanelCss,
+    /\.jump-current-btn\s*\{[\s\S]*?margin:\s*0;[\s\S]*?min-height:\s*26px;[\s\S]*?white-space:\s*nowrap;/,
+  );
+});
+
+test("side panel visual system uses colorful app-style accent tokens", () => {
+  assert.match(sidePanelCss, /--accent-blue:\s*#[0-9a-fA-F]{6};/);
+  assert.match(sidePanelCss, /--accent-purple:\s*#[0-9a-fA-F]{6};/);
+  assert.match(sidePanelCss, /--accent-pink:\s*#[0-9a-fA-F]{6};/);
+  assert.match(sidePanelCss, /--accent-lime:\s*#[0-9a-fA-F]{6};/);
+  assert.match(sidePanelCss, /--brand-gradient:\s*linear-gradient\(135deg,/);
+  assert.match(sidePanelCss, /--glow-color:\s*rgba\(/);
+});
+
+test("side panel uses edge-to-edge layout for main sections", () => {
+  const headerRule = getCssRule(".video-header");
+  const toolbarRule = getCssRule(".toolbar");
+  const transcriptRule = getCssRule(".transcript-container");
+
+  assert.match(headerRule, /margin:\s*0;/);
+  assert.match(headerRule, /border-radius:\s*0;/);
+  assert.match(headerRule, /border-bottom:/);
+  assert.match(toolbarRule, /margin:\s*0;/);
+  assert.match(toolbarRule, /border-radius:\s*0;/);
+  assert.match(transcriptRule, /margin:\s*0;/);
+  assert.match(transcriptRule, /border-radius:\s*0;/);
+});
+
+test("side panel export formats render in normal toolbar flow", () => {
+  const exportMenuRule = getCssRule(".export-menu");
+
+  assert.match(
+    sidePanelCss,
+    /\.toolbar-actions\s*\{[\s\S]*?display:\s*grid;[\s\S]*?grid-template-columns:\s*minmax\(0,\s*1fr\) minmax\(0,\s*1fr\);/,
+  );
+  assert.match(
+    sidePanelCss,
+    /\.export-menu-wrap\s*\{[\s\S]*?position:\s*relative;[\s\S]*?display:\s*block;/,
+  );
+  assert.match(
+    exportMenuRule,
+    /position:\s*absolute;/,
+  );
+  assert.match(
+    exportMenuRule,
+    /top:\s*calc\(100% \+ 7px\);/,
+  );
+  assert.match(
+    sidePanelCss,
+    /\.export-menu-item\s*\{[\s\S]*?white-space:\s*nowrap;/,
+  );
+  assert.match(
+    sidePanelCss,
+    /\.export-menu-item:focus:not\(:focus-visible\)\s*\{[\s\S]*?box-shadow:\s*none;/,
+  );
+  assert.doesNotMatch(exportMenuRule, /position:\s*fixed;/);
+  assert.doesNotMatch(exportMenuRule, /^\s*transform:/m);
+});
+
+test("export menu is hidden by default and only visible when explicitly opened", () => {
+  assert.match(sidePanelHtml, /<div id="export-menu" class="export-menu" role="menu" hidden>/);
+  assert.match(
+    sidePanelCss,
+    /\.export-menu\s*\{[\s\S]*?display:\s*none;[\s\S]*?pointer-events:\s*none;/,
+  );
+  assert.match(
+    sidePanelCss,
+    /\.export-menu\.is-open\s*\{[\s\S]*?display:\s*grid;[\s\S]*?pointer-events:\s*auto;/,
+  );
+  assert.doesNotMatch(
+    getCssRule(".export-menu"),
+    /display:\s*grid;/,
+  );
+});
+
+test("export menu tracks open state and toggles only from the Download button", () => {
+  assert.match(sidePanelScript, /let isExportMenuOpen = false;/);
+  assert.match(sidePanelScript, /exportMenuWrap: document\.querySelector\('\.export-menu-wrap'\)/);
+  assert.match(
+    sidePanelScript,
+    /function openExportMenu[\s\S]*?isExportMenuOpen = true;[\s\S]*?elements\.exportMenu\.classList\.add\('is-open'\);[\s\S]*?elements\.exportMenu\.hidden = false;/,
+  );
+  assert.match(
+    sidePanelScript,
+    /function closeExportMenu[\s\S]*?isExportMenuOpen = false;[\s\S]*?elements\.exportMenu\.classList\.remove\('is-open'\);[\s\S]*?elements\.exportMenu\.hidden = true;/,
+  );
+  assert.match(
+    sidePanelScript,
+    /function toggleExportMenu[\s\S]*?if \(isExportMenuOpen\) \{[\s\S]*?closeExportMenu\(\);[\s\S]*?\} else \{[\s\S]*?openExportMenu\(\{ focus: 'none' \}\);/,
+  );
+  assert.match(sidePanelScript, /elements\.btnExportToggle\.addEventListener\('click', toggleExportMenu\);/);
+
+  const copyClickStart = sidePanelScript.indexOf("elements.btnCopy.addEventListener('click'");
+  const copyClickEnd = sidePanelScript.indexOf("function exportTxtTranscriptFromState", copyClickStart);
+  const copyClickBody = sidePanelScript.slice(copyClickStart, copyClickEnd);
+
+  assert.doesNotMatch(copyClickBody, /openExportMenu|toggleExportMenu/);
+});
+
+test("export menu closes after selecting any export format", () => {
+  const txtExportBody = sidePanelScript.slice(
+    sidePanelScript.indexOf("function exportTxtTranscript()"),
+    sidePanelScript.indexOf("function exportMarkdownTranscript()"),
+  );
+  const markdownExportBody = sidePanelScript.slice(
+    sidePanelScript.indexOf("function exportMarkdownTranscript()"),
+    sidePanelScript.indexOf("function exportJsonTranscript()"),
+  );
+  const jsonExportBody = sidePanelScript.slice(
+    sidePanelScript.indexOf("function exportJsonTranscript()"),
+    sidePanelScript.indexOf("elements.btnExportToggle.addEventListener"),
+  );
+
+  assert.match(txtExportBody, /closeExportMenu\(\);/);
+  assert.match(markdownExportBody, /closeExportMenu\(\);/);
+  assert.match(jsonExportBody, /closeExportMenu\(\);/);
+  assert.match(sidePanelScript, /elements\.btnDownloadTxt\.addEventListener\('click', \(\) => \{[\s\S]*?exportTxtTranscript\(\);/);
+  assert.match(sidePanelScript, /elements\.btnDownloadMd\.addEventListener\('click', \(\) => \{[\s\S]*?exportMarkdownTranscript\(\);/);
+  assert.match(sidePanelScript, /elements\.btnDownloadJson\.addEventListener\('click', \(\) => \{[\s\S]*?exportJsonTranscript\(\);/);
+});
+
+test("export menu closes on outside click, Escape, and focus leaving the menu area", () => {
+  assert.match(
+    sidePanelScript,
+    /document\.addEventListener\('click', \(event\) => \{[\s\S]*?isExportMenuOpen[\s\S]*?!elements\.exportMenuWrap\.contains\(event\.target\)[\s\S]*?closeExportMenu\(\);/,
+  );
+  assert.match(
+    sidePanelScript,
+    /elements\.btnExportToggle\.addEventListener\('keydown'[\s\S]*?event\.key === 'Escape' && isExportMenuOpen[\s\S]*?closeExportMenu\(\{ restoreFocus: true \}\);/,
+  );
+  assert.match(
+    sidePanelScript,
+    /elements\.exportMenu\.addEventListener\('keydown'[\s\S]*?event\.key === 'Escape'[\s\S]*?closeExportMenu\(\{ restoreFocus: true \}\);/,
+  );
+  assert.match(
+    sidePanelScript,
+    /elements\.exportMenuWrap\.addEventListener\('focusout'[\s\S]*?!elements\.exportMenuWrap\.contains\(event\.relatedTarget\)[\s\S]*?closeExportMenu\(\);/,
+  );
+});
+
+test("side panel scan and transcript states use readable highlights", () => {
+  assert.match(
+    sidePanelCss,
+    /\.channel-progress-fill\s*\{[\s\S]*?background:/,
+  );
+  assert.match(
+    sidePanelCss,
+    /\.channel-metrics span\s*\{[\s\S]*?border-radius:\s*999px;/,
+  );
+  assert.match(
+    sidePanelCss,
+    /\.transcript-row\.active-row\s*\{[\s\S]*?background:/,
+  );
+  assert.match(
+    sidePanelCss,
+    /\.row-timestamp\s*\{[\s\S]*?border-radius:\s*999px;/,
+  );
+});
+
+test("side panel JSON export uses metadata and downloads a json file", () => {
+  assert.match(sidePanelScript, /function exportJsonTranscript/);
+  assert.match(sidePanelScript, /buildJsonTranscriptExport/);
+  assert.match(sidePanelScript, /createSafeFileName\(title, 'json'\)/);
+  assert.match(sidePanelScript, /languageCode: safeState\.languageCode \|\| ''/);
+  assert.match(sidePanelScript, /source: safeState\.source \|\| ''/);
+});
+
+test("export menu keeps button state in sync and supports keyboard navigation", () => {
+  assert.match(sidePanelScript, /function openExportMenu/);
+  assert.match(sidePanelScript, /function closeExportMenu/);
+  assert.match(sidePanelScript, /function focusExportMenuItem/);
+  assert.match(
+    sidePanelScript,
+    /elements\.btnExportToggle\.setAttribute\('aria-expanded', 'true'\);/,
+  );
+  assert.match(
+    sidePanelScript,
+    /elements\.btnExportToggle\.setAttribute\('aria-expanded', 'false'\);/,
+  );
+  assert.match(sidePanelScript, /elements\.btnExportToggle\.focus\(\);/);
+  assert.match(
+    sidePanelScript,
+    /elements\.exportMenu\.addEventListener\('keydown'/,
+  );
+  assert.match(sidePanelScript, /event\.key === 'Escape'/);
+  assert.match(sidePanelScript, /event\.key === 'ArrowDown'/);
+  assert.match(sidePanelScript, /event\.key === 'ArrowUp'/);
+  assert.match(sidePanelScript, /event\.key === 'Home'/);
+  assert.match(sidePanelScript, /event\.key === 'End'/);
+});
+
+test("export menu uses polished styling and readable focus states", () => {
+  assert.match(
+    sidePanelCss,
+    /\.export-menu\s*\{[\s\S]*?top:\s*calc\(100% \+ 7px\);[\s\S]*?margin-top:\s*0;[\s\S]*?padding:\s*5px;[\s\S]*?border:\s*1px solid rgba\(200,\s*244,\s*209,\s*0\.14\);[\s\S]*?border-radius:\s*12px;[\s\S]*?backdrop-filter:\s*blur\(12px\);/,
+  );
+  assert.doesNotMatch(getCssRule(".export-menu"), /radial-gradient|::before|::after/);
+  assert.match(
+    sidePanelCss,
+    /\.export-menu-item\s*\{[\s\S]*?min-height:\s*30px;[\s\S]*?justify-content:\s*flex-start;[\s\S]*?padding:\s*6px 9px;[\s\S]*?border-radius:\s*8px;[\s\S]*?background:\s*transparent;/,
+  );
+  assert.match(
+    sidePanelCss,
+    /\.export-menu-item:hover,\s*\.export-menu-item:focus-visible\s*\{[\s\S]*?background:\s*rgba\(255,\s*255,\s*255,\s*0\.045\);/,
+  );
+  assert.match(
+    sidePanelCss,
+    /\.export-menu-item:focus-visible\s*\{[\s\S]*?outline:\s*2px solid var\(--focus-ring\);/,
+  );
+});
+
+test("side panel uses a soft reader palette instead of neon lime", () => {
+  assert.match(sidePanelCss, /--canvas:\s*#[0-9a-fA-F]{6};/);
+  assert.match(sidePanelCss, /--glass:\s*rgba\(/);
+  assert.match(sidePanelCss, /--accent:\s*#[0-9a-fA-F]{6};/);
+  assert.match(sidePanelCss, /--accent-soft:\s*rgba\(/);
+  assert.match(sidePanelCss, /--accent-ring:\s*rgba\(/);
+  assert.doesNotMatch(sidePanelCss, /#b6ff00/i);
+  assert.doesNotMatch(sidePanelCss, /--lime\b/);
+  assert.doesNotMatch(sidePanelCss, /182,\s*255,\s*0/);
+});
+
+test("transcript reader uses muted timestamps and a soft active highlight", () => {
+  const transcriptRowRule = getCssRule(".transcript-row");
+  const rowTextRule = getCssRule(".row-text");
+
+  assert.match(
+    transcriptRowRule,
+    /grid-template-columns:\s*48px minmax\(0,\s*1fr\);/,
+  );
+  assert.match(transcriptRowRule, /gap:\s*10px;/);
+  assert.match(transcriptRowRule, /margin-bottom:\s*4px;/);
+  assert.match(transcriptRowRule, /padding:\s*9px 10px;/);
+  assert.match(rowTextRule, /line-height:\s*1\.5;/);
+  assert.match(
+    sidePanelCss,
+    /\.row-timestamp\s*\{[\s\S]*?color:/,
+  );
+  assert.match(
+    sidePanelCss,
+    /\.transcript-row\.active-row\s*\{[\s\S]*?background:/,
+  );
+  assert.match(
+    sidePanelCss,
+    /\.transcript-row\.active-row\s*\{[\s\S]*?border-color:/,
+  );
+  assert.doesNotMatch(sidePanelCss, /\.transcript-row\.active-row::before/);
 });
 
 test("side panel explains supported pages and local transcript privacy", () => {
@@ -106,6 +405,38 @@ test("side panel exposes language selection controls and automatic mode wiring",
   assert.match(sidePanelScript, /function renderLanguageControl/);
 });
 
+test("side panel language selector stays compact and uses a restrained dropdown", () => {
+  const languageTriggerRule = getCssRule(".language-trigger");
+  const languageMenuRule = getCssRule(".language-menu");
+  const languageOptionRule = getCssRule(".language-option");
+
+  assert.match(languageTriggerRule, /max-width:\s*min\(190px,\s*calc\(100vw - 72px\)\);/);
+  assert.match(languageTriggerRule, /min-height:\s*26px;/);
+  assert.match(languageTriggerRule, /border-radius:\s*12px;/);
+  assert.match(languageTriggerRule, /padding:\s*4px 26px 4px 10px;/);
+  assert.match(languageMenuRule, /width:\s*max-content;/);
+  assert.match(languageMenuRule, /min-width:\s*190px;/);
+  assert.match(languageMenuRule, /max-width:\s*min\(240px,\s*calc\(100vw - 48px\)\);/);
+  assert.match(languageMenuRule, /border-radius:\s*12px;/);
+  assert.match(languageOptionRule, /min-height:\s*30px;/);
+  assert.match(languageOptionRule, /border-radius:\s*8px;/);
+});
+
+test("side panel language dropdown is not clipped by the header or toolbar", () => {
+  const headerRule = getCssRule(".video-header");
+  const languageRowRule = getCssRule(".language-row");
+  const languageControlOpenRule = getCssRule(".language-control.is-open");
+  const languageMenuRule = getCssRule(".language-menu");
+
+  assert.match(headerRule, /overflow:\s*visible;/);
+  assert.doesNotMatch(headerRule, /overflow:\s*hidden;/);
+  assert.match(headerRule, /z-index:\s*3;/);
+  assert.match(languageRowRule, /overflow:\s*visible;/);
+  assert.match(languageControlOpenRule, /z-index:\s*20;/);
+  assert.match(languageMenuRule, /position:\s*absolute;/);
+  assert.match(languageMenuRule, /z-index:\s*20;/);
+});
+
 test("side panel renders channel mode without removing the transcript reader path", () => {
   assert.match(sidePanelHtml, /id="state-channel-mode"/);
   assert.match(sidePanelHtml, /id="channel-mode-label"/);
@@ -128,7 +459,7 @@ test("side panel renders playlist mode with separate controls", () => {
   assert.match(sidePanelHtml, /id="state-playlist-mode"/);
   assert.match(
     sidePanelHtml,
-    /id="playlist-mode-label"[\s\S]*?>PLAYLIST MODE</,
+    /id="playlist-mode-label"[\s\S]*?>Playlist</,
   );
   assert.match(sidePanelHtml, /id="playlist-current-video-section"/);
   assert.match(sidePanelHtml, />Download current transcript</);
@@ -256,7 +587,10 @@ test("side panel ignores stale channel responses that do not match the active ta
     sidePanelScript,
     /if \(!isCurrentChannelContext\(pageContext, tab\)\) \{/,
   );
-  assert.match(sidePanelScript, /scheduleChannelStateRefresh\(loadId, loadContext\);/);
+  assert.match(
+    sidePanelScript,
+    /scheduleChannelStateRefresh\(loadId, loadContext\);/,
+  );
 });
 
 test("side panel syncs immediately when the active browser tab changes", () => {
@@ -337,14 +671,25 @@ test("settling channel pages hide stale active scan controls", () => {
 });
 
 test("side panel uses a compact tab badge for videos versus Shorts", () => {
-  assert.match(sidePanelHtml, />CHANNEL MODE</);
+  assert.match(sidePanelHtml, /id="channel-mode-label"[\s\S]*?>Channel</);
+  assert.match(sidePanelHtml, /id="playlist-mode-label"[\s\S]*?>Playlist</);
+  assert.match(sidePanelHtml, /class="channel-tab-badge">Playlist</);
   assert.match(
     sidePanelScript,
-    /elements\.channelTabBadge\.textContent = isShortsTab \? 'SHORTS' : 'VIDEOS';/,
+    /elements\.channelTabBadge\.textContent = isShortsTab \? 'Shorts' : 'Videos';/,
   );
   assert.match(sidePanelScript, /safePageContext\.channelTab === 'shorts'/);
   assert.match(sidePanelCss, /\.channel-mode-row\s*\{/);
   assert.match(sidePanelCss, /\.channel-tab-badge\s*\{/);
+});
+
+test("side panel keeps toolbar actions usable in narrow panels", () => {
+  assert.match(sidePanelCss, /@media \(max-width:\s*360px\)/);
+  assert.match(
+    sidePanelCss,
+    /@media \(max-width:\s*360px\)[\s\S]*?\.toolbar-actions\s*\{[\s\S]*?width:\s*100%;/,
+  );
+  assert.doesNotMatch(sidePanelCss, /@media \(max-width:\s*360px\)[\s\S]*?\.export-menu\s*\{[\s\S]*?grid-column:/);
 });
 
 test("side panel keeps channel mode and language selector message contracts together", () => {
@@ -429,7 +774,7 @@ test("channel action buttons separate the main action from secondary controls", 
   );
   assert.match(
     sidePanelCss,
-    /\.channel-actions\s*\{[\s\S]*?display:\s*grid;[\s\S]*?gap:\s*10px;/,
+    /\.channel-actions\s*\{[\s\S]*?display:\s*grid;[\s\S]*?gap:\s*8px;/,
   );
   assert.match(
     sidePanelCss,

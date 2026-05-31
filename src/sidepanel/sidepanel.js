@@ -29,7 +29,12 @@ document.addEventListener('DOMContentLoaded', () => {
     searchInput: document.getElementById('search-input'),
     searchCount: document.getElementById('search-count'),
     btnCopy: document.getElementById('btn-copy'),
+    btnExportToggle: document.getElementById('btn-export-toggle'),
+    exportMenuWrap: document.querySelector('.export-menu-wrap'),
+    exportMenu: document.getElementById('export-menu'),
     btnDownloadTxt: document.getElementById('btn-download-txt'),
+    btnDownloadMd: document.getElementById('btn-download-md'),
+    btnDownloadJson: document.getElementById('btn-download-json'),
     transcriptShell: document.getElementById('transcript-shell'),
     transcriptContainer: document.getElementById('transcript-container'),
     btnJumpCurrent: document.getElementById('btn-jump-current'),
@@ -42,6 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
     statePlaylistMode: document.getElementById('state-playlist-mode'),
     stateLoading: document.getElementById('state-loading'),
     stateNoTranscript: document.getElementById('state-no-transcript'),
+    noTranscriptMessage: document.getElementById('no-transcript-message'),
     stateError: document.getElementById('state-error'),
     errorMessage: document.getElementById('error-message'),
     btnRetry: document.getElementById('btn-retry'),
@@ -100,12 +106,16 @@ document.addEventListener('DOMContentLoaded', () => {
   let programmaticScrollTimer = null;
   let languageOptions = [];
   let isLanguageMenuOpen = false;
+  let isExportMenuOpen = false;
   let focusedLanguageOptionIndex = -1;
   const sidePanelState = {
     videoId: null,
+    videoUrl: '',
     title: '',
     channel: '',
     captionLabel: '',
+    languageCode: '',
+    source: '',
     selectedTrackIndex: -1,
     selectionMode: 'auto',
     languageNotice: '',
@@ -163,8 +173,16 @@ document.addEventListener('DOMContentLoaded', () => {
     elements.header.hidden = !showHeaderAndToolbar;
     elements.toolbar.hidden = !showHeaderAndToolbar;
     
-    elements.btnCopy.disabled = stateName !== 'loaded';
-    elements.btnDownloadTxt.disabled = stateName !== 'loaded';
+    const exportDisabled = stateName !== 'loaded';
+    elements.btnCopy.disabled = exportDisabled;
+    elements.btnExportToggle.disabled = exportDisabled;
+    elements.btnDownloadTxt.disabled = exportDisabled;
+    elements.btnDownloadMd.disabled = exportDisabled;
+    elements.btnDownloadJson.disabled = exportDisabled;
+
+    if (exportDisabled) {
+      closeExportMenu();
+    }
 
     if (elements.panelStatus) {
       const labelByState = {
@@ -189,9 +207,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function resetVideoReaderState(videoId) {
     sidePanelState.videoId = videoId || null;
+    sidePanelState.videoUrl = '';
     sidePanelState.title = '';
     sidePanelState.channel = '';
     sidePanelState.captionLabel = '';
+    sidePanelState.languageCode = '';
+    sidePanelState.source = '';
     sidePanelState.selectedTrackIndex = -1;
     sidePanelState.selectionMode = 'auto';
     sidePanelState.languageNotice = '';
@@ -232,6 +253,70 @@ document.addEventListener('DOMContentLoaded', () => {
     clearStateRefreshTimer();
     resetVideoReaderState(null);
     showState('not-youtube');
+  }
+
+  function getExportMenuItems() {
+    if (!elements.exportMenu) {
+      return [];
+    }
+
+    return Array.from(elements.exportMenu.querySelectorAll('.export-menu-item:not(:disabled)'));
+  }
+
+  function focusExportMenuItem(index) {
+    const menuItems = getExportMenuItems();
+
+    if (menuItems.length === 0) {
+      return;
+    }
+
+    const nextIndex = Math.max(0, Math.min(index, menuItems.length - 1));
+    menuItems[nextIndex].focus();
+  }
+
+  function closeExportMenu({ restoreFocus = false } = {}) {
+    if (elements.exportMenu) {
+      isExportMenuOpen = false;
+      elements.exportMenu.classList.remove('is-open');
+      elements.exportMenu.hidden = true;
+    }
+
+    if (elements.btnExportToggle) {
+      elements.btnExportToggle.setAttribute('aria-expanded', 'false');
+
+      if (restoreFocus) {
+        elements.btnExportToggle.focus();
+      }
+    }
+  }
+
+  function openExportMenu({ focus = 'first' } = {}) {
+    if (!elements.exportMenu || elements.btnExportToggle.disabled) {
+      return;
+    }
+
+    isExportMenuOpen = true;
+    elements.exportMenu.classList.add('is-open');
+    elements.exportMenu.hidden = false;
+    elements.btnExportToggle.setAttribute('aria-expanded', 'true');
+
+    if (focus === 'last') {
+      focusExportMenuItem(getExportMenuItems().length - 1);
+    } else if (focus === 'first') {
+      focusExportMenuItem(0);
+    }
+  }
+
+  function toggleExportMenu() {
+    if (!elements.exportMenu || elements.btnExportToggle.disabled) {
+      return;
+    }
+
+    if (isExportMenuOpen) {
+      closeExportMenu();
+    } else {
+      openExportMenu({ focus: 'none' });
+    }
   }
 
   function scheduleStateRefresh(loadId, loadContext) {
@@ -724,6 +809,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  function handleStaleTranscriptState(loadId, loadContext) {
+    elements.status.textContent = 'Waiting for the current YouTube video...';
+    elements.errorMessage.textContent = 'The YouTube page changed before the transcript finished loading.';
+    showState('loading');
+    scheduleStateRefresh(loadId, loadContext);
+  }
+
   function injectContentAssets(tabId = currentTabId) {
     if (!tabId || !chrome.scripting) {
       return Promise.resolve(false);
@@ -1121,7 +1213,7 @@ document.addEventListener('DOMContentLoaded', () => {
     sidePanelState.channelContext = safePageContext;
     sidePanelState.channelScanState = safeScanState;
 
-    elements.channelTabBadge.textContent = isShortsTab ? 'SHORTS' : 'VIDEOS';
+    elements.channelTabBadge.textContent = isShortsTab ? 'Shorts' : 'Videos';
     elements.channelName.textContent = safePageContext.channelName || (isSettling ? 'Loading channel...' : 'YouTube channel');
     elements.channelVisibleKind.textContent = itemLabel;
     elements.channelVisibleCount.textContent = isSettling
@@ -1459,6 +1551,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (state.videoId !== tabVideoId) {
+      handleStaleTranscriptState(loadId, loadContext);
       return;
     }
 
@@ -1466,6 +1559,7 @@ document.addEventListener('DOMContentLoaded', () => {
       (expectedVideoId && state.videoId !== expectedVideoId) ||
       (sidePanelState.videoId && state.videoId !== sidePanelState.videoId)
     ) {
+      handleStaleTranscriptState(loadId, loadContext);
       return;
     }
 
@@ -1477,8 +1571,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     sidePanelState.videoId = state.videoId || tabVideoId;
+    sidePanelState.videoUrl = state.videoUrl || (sidePanelState.videoId ? `https://www.youtube.com/watch?v=${sidePanelState.videoId}` : '');
     sidePanelState.title = state.videoTitle || 'Unknown video';
     sidePanelState.channel = state.channelName || '';
+    sidePanelState.languageCode = state.languageCode || '';
+    sidePanelState.source = state.source || '';
     sidePanelState.selectedTrackIndex = Number.isInteger(state.selectedTrackIndex)
       ? state.selectedTrackIndex
       : -1;
@@ -1499,6 +1596,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (state.status === 'unavailable') {
       clearStateRefreshTimer();
       elements.status.textContent = 'No transcript available';
+      elements.noTranscriptMessage.textContent = state.error || 'This video does not expose a transcript right now.';
       showState('no-transcript');
     } else if (state.status === 'error') {
       clearStateRefreshTimer();
@@ -1638,22 +1736,149 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const title = safeState.videoTitle || fallbackTitle || 'transcript';
     const exportHelpers = window.YTTranscriptExport;
-    const text = exportHelpers.buildPlainTextTranscript(title, '', rows);
+    const text = exportHelpers.buildPlainTextTranscript(title, safeState.videoUrl || '', rows);
     const filename = exportHelpers.createSafeFileName(title, 'txt');
 
     exportHelpers.downloadTextFile(filename, text, document);
     return true;
   }
 
-  function exportTxtTranscript() {
-    exportTxtTranscriptFromState({
-      videoTitle: elements.title.textContent || 'transcript',
+  function buildCurrentExportState() {
+    return {
+      videoTitle: sidePanelState.title || elements.title.textContent || 'transcript',
+      videoId: sidePanelState.videoId || '',
+      videoUrl: sidePanelState.videoUrl || (sidePanelState.videoId ? `https://www.youtube.com/watch?v=${sidePanelState.videoId}` : ''),
+      channelName: sidePanelState.channel || '',
+      captionLabel: sidePanelState.captionLabel || '',
+      languageCode: sidePanelState.languageCode || '',
+      source: sidePanelState.source || '',
       rows: sidePanelState.rows
-    });
+    };
   }
+
+  function exportTxtTranscript() {
+    closeExportMenu();
+    exportTxtTranscriptFromState(buildCurrentExportState());
+  }
+
+  function exportMarkdownTranscript() {
+    const safeState = buildCurrentExportState();
+    const rows = Array.isArray(safeState.rows) ? safeState.rows : [];
+
+    closeExportMenu();
+    if (!rows.length) return;
+
+    const title = safeState.videoTitle || 'transcript';
+    const exportHelpers = window.YTTranscriptExport;
+    const markdown = exportHelpers.buildMarkdownTranscript(title, safeState.videoUrl || '', rows);
+
+    exportHelpers.downloadTextFile(
+      exportHelpers.createSafeFileName(title, 'md'),
+      markdown,
+      document
+    );
+  }
+
+  function exportJsonTranscript() {
+    const safeState = buildCurrentExportState();
+    const rows = Array.isArray(safeState.rows) ? safeState.rows : [];
+
+    closeExportMenu();
+    if (!rows.length) return;
+
+    const title = safeState.videoTitle || 'transcript';
+    const exportHelpers = window.YTTranscriptExport;
+    const json = exportHelpers.buildJsonTranscriptExport({
+      title,
+      videoId: safeState.videoId || '',
+      url: safeState.videoUrl || '',
+      channel: safeState.channelName || '',
+      languageLabel: safeState.captionLabel || '',
+      languageCode: safeState.languageCode || '',
+      source: safeState.source || '',
+      exportedAt: new Date().toISOString(),
+      rows
+    });
+
+    exportHelpers.downloadTextFile(
+      exportHelpers.createSafeFileName(title, 'json'),
+      json,
+      document,
+      'application/json;charset=utf-8'
+    );
+  }
+
+  elements.btnExportToggle.addEventListener('click', toggleExportMenu);
+
+  elements.btnExportToggle.addEventListener('keydown', (event) => {
+    if (event.key === 'ArrowDown') {
+      event.preventDefault();
+      openExportMenu({ focus: 'first' });
+    } else if (event.key === 'ArrowUp') {
+      event.preventDefault();
+      openExportMenu({ focus: 'last' });
+    } else if (event.key === 'Escape' && isExportMenuOpen) {
+      event.preventDefault();
+      closeExportMenu({ restoreFocus: true });
+    }
+  });
+
+  elements.exportMenu.addEventListener('keydown', (event) => {
+    const menuItems = getExportMenuItems();
+    const currentIndex = menuItems.indexOf(document.activeElement);
+
+    if (menuItems.length === 0) {
+      return;
+    }
+
+    if (event.key === 'ArrowDown') {
+      event.preventDefault();
+      focusExportMenuItem(currentIndex >= 0 ? (currentIndex + 1) % menuItems.length : 0);
+    } else if (event.key === 'ArrowUp') {
+      event.preventDefault();
+      focusExportMenuItem(currentIndex <= 0 ? menuItems.length - 1 : currentIndex - 1);
+    } else if (event.key === 'Home') {
+      event.preventDefault();
+      focusExportMenuItem(0);
+    } else if (event.key === 'End') {
+      event.preventDefault();
+      focusExportMenuItem(menuItems.length - 1);
+    } else if (event.key === 'Escape') {
+      event.preventDefault();
+      closeExportMenu({ restoreFocus: true });
+    }
+  });
+
+  elements.exportMenuWrap.addEventListener('focusout', (event) => {
+    if (
+      isExportMenuOpen &&
+      elements.exportMenuWrap &&
+      !elements.exportMenuWrap.contains(event.relatedTarget)
+    ) {
+      closeExportMenu();
+    }
+  });
 
   elements.btnDownloadTxt.addEventListener('click', () => {
     exportTxtTranscript();
+  });
+
+  elements.btnDownloadMd.addEventListener('click', () => {
+    exportMarkdownTranscript();
+  });
+
+  elements.btnDownloadJson.addEventListener('click', () => {
+    exportJsonTranscript();
+  });
+
+  document.addEventListener('click', (event) => {
+    if (
+      isExportMenuOpen &&
+      elements.exportMenuWrap &&
+      !elements.exportMenuWrap.contains(event.target)
+    ) {
+      closeExportMenu();
+    }
   });
 
   async function downloadCurrentPlaylistVideoTranscript() {

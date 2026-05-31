@@ -54,15 +54,29 @@
               <span class="keyboard-hint" aria-hidden="true">Ctrl+F</span>
             </div>
             <div class="toolbar-actions">
-              <button id="btn-copy" class="action-btn" title="Copy transcript">Copy</button>
-              <button id="btn-download-txt" class="action-btn primary-soft" title="Download transcript as TXT">Download TXT</button>
+              <button id="btn-copy" class="action-btn primary" title="Copy transcript">Copy</button>
+              <div class="export-menu-wrap">
+                <button
+                  id="btn-export-toggle"
+                  class="action-btn"
+                  title="Download transcript"
+                  aria-haspopup="menu"
+                  aria-expanded="false"
+                  aria-controls="export-menu"
+                >Download</button>
+                <div id="export-menu" class="export-menu" role="menu" hidden>
+                  <button id="btn-download-txt" class="export-menu-item" role="menuitem" type="button">TXT</button>
+                  <button id="btn-download-md" class="export-menu-item" role="menuitem" type="button">Markdown</button>
+                  <button id="btn-download-json" class="export-menu-item" role="menuitem" type="button">JSON data</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="content-region">
           <div class="empty-state" id="state-not-youtube">
-            <div class="empty-state-icon">YT</div>
+            <div class="empty-state-icon" aria-hidden="true">YT</div>
             <div class="empty-state-title">Open a YouTube video, channel, or playlist</div>
             <div class="empty-state-text">Transcript tools appear here when a supported YouTube page is open.</div>
             <div class="privacy-note">Works only on YouTube. Transcript text stays local unless you copy or download it.</div>
@@ -76,8 +90,8 @@
               </div>
               <div class="channel-heading">
                 <div class="channel-mode-row">
-                  <div class="channel-label" id="channel-mode-label">CHANNEL MODE</div>
-                  <div class="channel-tab-badge" id="channel-tab-badge">VIDEOS</div>
+                  <div class="channel-label" id="channel-mode-label">Channel</div>
+                  <div class="channel-tab-badge" id="channel-tab-badge">Videos</div>
                 </div>
                 <div class="channel-name" id="channel-name">Channel</div>
               </div>
@@ -124,8 +138,8 @@
               </div>
               <div class="channel-heading">
                 <div class="channel-mode-row">
-                  <div class="channel-label" id="playlist-mode-label">PLAYLIST MODE</div>
-                  <div class="channel-tab-badge">PLAYLIST</div>
+                  <div class="channel-label" id="playlist-mode-label">Playlist</div>
+                  <div class="channel-tab-badge">Playlist</div>
                 </div>
                 <div class="channel-name" id="playlist-title">Playlist</div>
               </div>
@@ -175,13 +189,13 @@
           </div>
 
           <div class="empty-state" id="state-no-transcript" hidden>
-            <div class="empty-state-icon">--</div>
+            <div class="empty-state-icon" aria-hidden="true">CC</div>
             <div class="empty-state-title">No transcript found</div>
-            <div class="empty-state-text">This video does not expose a transcript right now.</div>
+            <div class="empty-state-text" id="no-transcript-message">This video does not expose a transcript right now.</div>
           </div>
 
           <div class="empty-state" id="state-error" hidden>
-            <div class="empty-state-icon">!</div>
+            <div class="empty-state-icon" aria-hidden="true">!</div>
             <div class="empty-state-title">Could not load transcript</div>
             <div class="empty-state-text" id="error-message">Failed to load transcript.</div>
             <button id="btn-retry" class="action-btn primary" title="Retry loading transcript">Retry</button>
@@ -192,10 +206,6 @@
               <!-- Rows will be injected here -->
             </div>
           </div>
-
-          <button id="btn-jump-current" class="jump-current-btn" title="Jump to current transcript row" hidden>
-            Jump to current
-          </button>
         </div>
       </div>
 
@@ -206,7 +216,12 @@
             <span class="footer-separator" aria-hidden="true"></span>
             <span id="follow-status">Transcript ready</span>
           </div>
-          <span id="footer-time">0:00</span>
+          <div class="footer-actions">
+            <span id="footer-time">0:00</span>
+            <button id="btn-jump-current" class="jump-current-btn" title="Jump to current transcript row" hidden>
+              Jump to current
+            </button>
+          </div>
         </div>
       </footer>
     </section>

@@ -673,7 +673,8 @@ test("reports no transcript when player response has no caption tracks", () => {
 
   assert.deepEqual(result, {
     status: "unavailable",
-    message: "No transcript available for this video",
+    message: "YouTube does not expose captions for this video.",
+    reasonCode: "no-captions-exposed",
     tracks: [],
     languages: []
   });
@@ -807,7 +808,8 @@ test("reports unavailable when player data exists but no caption tracks exist", 
 
   assert.deepEqual(result, {
     status: "unavailable",
-    message: "No transcript available for this video",
+    message: "YouTube does not expose captions for this video.",
+    reasonCode: "no-captions-exposed",
     tracks: [],
     languages: []
   });
@@ -879,7 +881,7 @@ test("does not fetch another detected track when the selected track has no reada
   assert.ok(requestedUrls.every((url) => url.indexOf("lang=es") === -1));
 });
 
-test("Android player transcript fallback runs only after timedtext and native rows fail", async () => {
+test("native transcript fallback runs only after timedtext and Android player fail", async () => {
   const androidPlayerResponse = {
     captions: {
       playerCaptionsTracklistRenderer: {
@@ -904,7 +906,7 @@ test("Android player transcript fallback runs only after timedtext and native ro
     }
   };
   const requestedUrls = [];
-  var nativeFallbackRan = false;
+  const calls = [];
 
   const result = await transcript.fetchTranscriptRowsWithFallbacks({
     videoId: "dQw4w9WgXcQ",
@@ -916,6 +918,84 @@ test("Android player transcript fallback runs only after timedtext and native ro
     fetchFn: async (url, options) => {
       requestedUrls.push(url);
 
+      if (options && options.method === "POST") {
+        calls.push("android-player");
+        return {
+          ok: true,
+          json: async () => androidPlayerResponse
+        };
+      }
+
+      if (url.indexOf("v=android") !== -1) {
+        calls.push("android-timedtext");
+      } else {
+        calls.push("timedtext");
+      }
+
+      return {
+        ok: true,
+        text: async () => "<transcript></transcript>"
+      };
+    },
+    nativeTranscriptFetcher: async () => {
+      calls.push("native");
+      return [
+        {
+          startSeconds: 1,
+          durationSeconds: 0,
+          timestamp: "0:01",
+          text: "Native worked"
+        }
+      ];
+    }
+  });
+
+  assert.equal(result.ok, true);
+  assert.equal(result.source, "native-transcript-panel");
+  assert.equal(result.rows[0].text, "Native worked");
+  assert.deepEqual(calls, [
+    "timedtext",
+    "timedtext",
+    "timedtext",
+    "android-player",
+    "android-timedtext",
+    "android-timedtext",
+    "android-timedtext",
+    "native"
+  ]);
+  assert.ok(requestedUrls.some((url) => /\/youtubei\/v1\/player\?key=test-api-key$/.test(url)));
+});
+
+test("native transcript fallback is skipped when Android player succeeds", async () => {
+  const androidPlayerResponse = {
+    captions: {
+      playerCaptionsTracklistRenderer: {
+        captionTracks: [
+          {
+            baseUrl: "https://www.youtube.com/api/timedtext?v=android&lang=en",
+            languageCode: "en",
+            kind: "asr",
+            name: {
+              simpleText: "English (auto-generated)"
+            }
+          }
+        ]
+      }
+    },
+    videoDetails: {
+      videoId: "dQw4w9WgXcQ"
+    }
+  };
+  let nativeFallbackRan = false;
+
+  const result = await transcript.fetchTranscriptRowsWithFallbacks({
+    videoId: "dQw4w9WgXcQ",
+    track: {
+      baseUrl: "https://www.youtube.com/api/timedtext?v=web&lang=en",
+      languageCode: "en"
+    },
+    apiKey: "test-api-key",
+    fetchFn: async (url, options) => {
       if (options && options.method === "POST") {
         return {
           ok: true,
@@ -932,15 +1012,21 @@ test("Android player transcript fallback runs only after timedtext and native ro
     },
     nativeTranscriptFetcher: async () => {
       nativeFallbackRan = true;
-      return [];
+      return [
+        {
+          startSeconds: 1,
+          durationSeconds: 0,
+          timestamp: "0:01",
+          text: "Native should not run"
+        }
+      ];
     }
   });
 
-  assert.equal(nativeFallbackRan, true);
   assert.equal(result.ok, true);
   assert.equal(result.source, "android-player");
   assert.equal(result.rows[0].text, "Android worked");
-  assert.ok(requestedUrls.some((url) => /\/youtubei\/v1\/player\?key=test-api-key$/.test(url)));
+  assert.equal(nativeFallbackRan, false);
 });
 
 test("Android fallback does not substitute a different language for the selected track", async () => {
@@ -1264,34 +1350,50 @@ test("translated transcript fetch attempts never request an untranslated caption
 });
 
 test("translated tracks skip native transcript fallback so original-language rows are not shown", async () => {
-  var nativeFallbackRan = false;
+  var nativeFallbackRuns = 0;
 
-  const result = await transcript.fetchTranscriptRowsWithFallbacks({
-    videoId: "dQw4w9WgXcQ",
-    track: {
+  for (const track of [
+    {
       baseUrl: "https://www.youtube.com/api/timedtext?v=abc&lang=hi",
       isTranslated: true,
       translationLanguageCode: "en"
     },
-    fetchFn: async () => ({
-      ok: true,
-      text: async () => "<transcript></transcript>"
-    }),
-    nativeTranscriptFetcher: async () => {
-      nativeFallbackRan = true;
-      return [
-        {
-          startSeconds: 1,
-          durationSeconds: 0,
-          timestamp: "0:01",
-          text: "Hindi native row"
-        }
-      ];
+    {
+      baseUrl: "https://www.youtube.com/api/timedtext?v=abc&lang=hi",
+      kind: "translated",
+      translationLanguageCode: "en"
+    },
+    {
+      baseUrl: "https://www.youtube.com/api/timedtext?v=abc&lang=hi",
+      isTranslated: false,
+      kind: "translated",
+      translationLanguageCode: "en"
     }
-  });
+  ]) {
+    const result = await transcript.fetchTranscriptRowsWithFallbacks({
+      videoId: "dQw4w9WgXcQ",
+      track,
+      fetchFn: async () => ({
+        ok: true,
+        text: async () => "<transcript></transcript>"
+      }),
+      nativeTranscriptFetcher: async () => {
+        nativeFallbackRuns += 1;
+        return [
+          {
+            startSeconds: 1,
+            durationSeconds: 0,
+            timestamp: "0:01",
+            text: "Hindi native row"
+          }
+        ];
+      }
+    });
 
-  assert.equal(nativeFallbackRan, false);
-  assert.equal(result.ok, false);
+    assert.equal(result.ok, false);
+  }
+
+  assert.equal(nativeFallbackRuns, 0);
 });
 
 test("Android player fallback keeps English translation parameters for translated tracks", async () => {
@@ -1458,6 +1560,24 @@ test("throws a clear error when a fetched caption track has no readable rows", a
         text: async () => "<transcript></transcript>"
       })
     ),
-    /No readable transcript rows/
+    /YouTube returned an empty transcript for this caption track\./
   );
+});
+
+test("reports a clear reason when caption responses are empty", async () => {
+  const result = await transcript.fetchTranscriptRowsWithFallbacks({
+    videoId: "dQw4w9WgXcQ",
+    track: {
+      baseUrl: "https://www.youtube.com/api/timedtext?v=abc&lang=en",
+      languageCode: "en"
+    },
+    fetchFn: async () => ({
+      ok: true,
+      text: async () => "<transcript></transcript>"
+    })
+  });
+
+  assert.equal(result.ok, false);
+  assert.equal(result.reasonCode, "empty-transcript-response");
+  assert.equal(result.reason, "YouTube returned an empty transcript for this caption track.");
 });

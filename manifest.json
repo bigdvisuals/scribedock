@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "YouTube Transcript Helper",
-  "description": "A beginner-friendly Chrome extension scaffold for showing YouTube transcripts.",
+  "description": "A clean side panel for reading, searching, and exporting available YouTube transcripts.",
   "version": "0.1.0",
   "action": {
     "default_title": "Open YouTube Transcript Helper"

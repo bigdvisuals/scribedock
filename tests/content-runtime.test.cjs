@@ -477,8 +477,54 @@ test("channel page context uses current header identity instead of stale card id
   assert.equal(pageContext.visibleVideoCount, 2);
 });
 
-test("content script does not request native-panel rows for an explicit selected track", () => {
-  assert.doesNotMatch(contentScript, /nativeTranscriptFetcher:\s*function nativeTranscriptFetcher/);
+test("content script wires guarded native fallback for direct single-video transcripts", () => {
+  assert.match(
+    contentScript,
+    /nativeTranscriptFetcher:\s*shouldUseNativeTranscriptFallback\(selectedTrack\)\s*\?\s*function nativeTranscriptFetcher\(\)/,
+  );
+  assert.match(
+    contentScript,
+    /var requestVideoId = currentVideoId;/,
+  );
+  assert.match(
+    contentScript,
+    /return fetchNativeTranscriptRows\(transcript, requestId, requestVideoId\);/,
+  );
+  assert.match(
+    contentScript,
+    /function isTranscriptRequestStale\(requestId, videoId\)/,
+  );
+});
+
+test("content script skips native fallback for translated tracks and exposes export metadata", () => {
+  assert.match(
+    contentScript,
+    /function shouldUseNativeTranscriptFallback\(track\)[\s\S]*isTranslatedTrack\(track\)/,
+  );
+  assert.match(
+    contentScript,
+    /videoUrl: currentVideoId\s*\?\s*"https:\/\/www\.youtube\.com\/watch\?v=" \+ currentVideoId\s*:\s*""/,
+  );
+  assert.match(contentScript, /languageCode: selectedTrack \? getEffectiveTrackLanguageCode\(selectedTrack\) : ""/);
+  assert.match(contentScript, /source: currentCaptionSource \|\| ""/);
+});
+
+test("content script handles stale transcript state intentionally", () => {
+  assert.match(
+    contentScript,
+    /"The YouTube page changed before the transcript finished loading\."/,
+  );
+});
+
+test("content script closes native transcript panel even when native fallback becomes stale", () => {
+  const nativeFallbackBody = contentScript.slice(
+    contentScript.indexOf("async function fetchNativeTranscriptRows"),
+    contentScript.indexOf("function jumpToTranscriptTime"),
+  );
+
+  assert.match(nativeFallbackBody, /try \{/);
+  assert.match(nativeFallbackBody, /finally \{/);
+  assert.match(nativeFallbackBody, /if \(openedNativePanel\) \{[\s\S]*closeNativeTranscriptPanel\(\);/);
 });
 
 test("channel SPA navigation resets stale state and waits for a settled DOM before showing counts", () => {

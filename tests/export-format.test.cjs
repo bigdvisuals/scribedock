@@ -33,6 +33,55 @@ test("builds markdown transcript exports", () => {
   assert.equal(markdown, "# Video Title\n\nhttps://youtube.com/watch?v=abc\n\n- **0:17** Hello world\n- **12:04** Second line");
 });
 
+test("builds JSON transcript exports with metadata and normalized rows", () => {
+  const json = JSON.parse(exportHelpers.buildJsonTranscriptExport({
+    title: "Video Title",
+    videoId: "dQw4w9WgXcQ",
+    url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    channel: "Channel Name",
+    languageLabel: "English",
+    languageCode: "en",
+    source: "timedtext",
+    exportedAt: "2026-05-29T12:00:00.000Z",
+    rows: [
+      {
+        startSeconds: 17.5,
+        durationSeconds: 2,
+        timestamp: "0:17",
+        text: "Hello world"
+      },
+      {
+        timestamp: "12:04",
+        text: "Missing optional values"
+      }
+    ]
+  }));
+
+  assert.deepEqual(json, {
+    title: "Video Title",
+    videoId: "dQw4w9WgXcQ",
+    url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    channel: "Channel Name",
+    languageLabel: "English",
+    languageCode: "en",
+    source: "timedtext",
+    exportedAt: "2026-05-29T12:00:00.000Z",
+    rows: [
+      {
+        startSeconds: 17.5,
+        duration: 2,
+        timestamp: "0:17",
+        text: "Hello world"
+      },
+      {
+        startSeconds: 0,
+        timestamp: "12:04",
+        text: "Missing optional values"
+      }
+    ]
+  });
+});
+
 test("creates safe transcript filenames", () => {
   assert.equal(exportHelpers.createSafeFileName("Bad / File: Name?", "txt"), "bad-file-name.txt");
 });

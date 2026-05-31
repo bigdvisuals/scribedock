@@ -891,6 +891,27 @@
       : "No YouTube transcript is available for this video.";
   }
 
+  function getTranscriptFailureMessage(selectedTrack, result, error) {
+    var reason = result && result.reason
+      ? result.reason
+      : error && error.message
+        ? error.message
+        : "";
+
+    if (selectedTrack && selectedTrack.isTranslated) {
+      return reason && result && result.reasonCode !== "empty-transcript-response"
+        ? reason
+        : (selectedTrack.label || selectedTrack.language || "Selected") +
+          " translation is not available for this video.";
+    }
+
+    if (reason) {
+      return reason;
+    }
+
+    return "No YouTube transcript is available for this video.";
+  }
+
   async function fetchChannelTranscript(video, scanState) {
     var transcript = getTranscriptHelpers();
     var safeScanState = scanState || channelScanState;
@@ -1788,6 +1809,30 @@
     };
   }
 
+  function isTranscriptRequestStale(requestId, videoId) {
+    var isStale = requestId !== transcriptRequestId || videoId !== currentVideoId;
+
+    if (isStale) {
+      logTranscriptDebug("The YouTube page changed before the transcript finished loading.");
+    }
+
+    return isStale;
+  }
+
+  function shouldUseNativeTranscriptFallback(track) {
+    var transcript = getTranscriptHelpers();
+
+    if (!track) {
+      return false;
+    }
+
+    if (transcript && typeof transcript.isTranslatedTrack === "function") {
+      return !transcript.isTranslatedTrack(track);
+    }
+
+    return track.isTranslated !== true && track.kind !== "translated";
+  }
+
   function updateTranscriptTitle(title) {
     currentTranscriptTitle = title || currentTranscriptTitle;
   }
@@ -1896,11 +1941,12 @@
     var transcript = getTranscriptHelpers();
     var selectedTrack = getSelectedTrack();
     var requestId = transcriptRequestId + 1;
+    var requestVideoId = currentVideoId;
     var baseFetchFn = window.fetch ? window.fetch.bind(window) : null;
     var fetchFn = createFetchWithTimeout(baseFetchFn);
-    var cacheKey = getCacheKeyForTrack(currentVideoId, selectedTrack);
+    var cacheKey = getCacheKeyForTrack(requestVideoId, selectedTrack);
     var debugOptions = getTranscriptDebugOptions();
-    var performanceLogger = createPerformanceLogger(currentVideoId);
+    var performanceLogger = createPerformanceLogger(requestVideoId);
 
     transcriptRequestId = requestId;
     currentTranscriptRows = [];
@@ -1914,7 +1960,7 @@
       var cacheEntry;
       if (!selectedTrack) {
         currentTranscriptStatus = "unavailable";
-        currentTranscriptError = "No transcript available for this video";
+        currentTranscriptError = "YouTube does not expose captions for this video.";
         notifyRuntime({ type: "YT_TRANSCRIPT_STATE_CHANGED" });
         return null;
       }
@@ -1923,7 +1969,7 @@
         currentCacheReadPromise = readTranscriptCache(cacheKey);
         cachedTranscript = await currentCacheReadPromise;
 
-        if (requestId !== transcriptRequestId) {
+        if (isTranscriptRequestStale(requestId, requestVideoId)) {
           return null;
         }
 
@@ -1932,7 +1978,7 @@
         }
       }
 
-      logTranscriptDebug("Selected video ID: " + (currentVideoId || "unknown"));
+      logTranscriptDebug("Selected video ID: " + (requestVideoId || "unknown"));
       logTranscriptDebug("Selected track index: " + currentSelectedTrackIndex);
       logTranscriptDebug(
         "Caption track source: " + (currentCaptionSource || "unknown"),
@@ -1967,13 +2013,22 @@
         fetchStartTime = getNow();
         result = await promiseWithTimeout(
           transcript.fetchTranscriptRowsWithFallbacks({
-            videoId: currentVideoId,
+            videoId: requestVideoId,
             track: selectedTrack,
             tracks: currentCaptionTracks,
             fetchFn: fetchFn,
             apiKey: currentTranscriptApiKey,
             debugLogger: debugOptions && debugOptions.debugLogger,
             performanceLogger: performanceLogger,
+            nativeTranscriptFetcher: shouldUseNativeTranscriptFallback(selectedTrack)
+              ? function nativeTranscriptFetcher() {
+                  if (isTranscriptRequestStale(requestId, requestVideoId)) {
+                    return [];
+                  }
+
+                  return fetchNativeTranscriptRows(transcript, requestId, requestVideoId);
+                }
+              : null,
           }),
           TRANSCRIPT_PIPELINE_TIMEOUT_MS,
           "Transcript loading timed out",
@@ -1990,10 +2045,7 @@
 
         if (!result || !result.ok) {
           currentTranscriptStatus = "error";
-          currentTranscriptError = selectedTrack.isTranslated
-            ? (selectedTrack.label || selectedTrack.language || "translation") +
-              " translation is not available for this video."
-            : "No YouTube transcript is available for this video.\nAudio transcription can be added later.";
+          currentTranscriptError = getTranscriptFailureMessage(selectedTrack, result);
           currentTranscriptRows = [];
           notifyRuntime({ type: "YT_TRANSCRIPT_STATE_CHANGED" });
           return null;
@@ -2025,9 +2077,7 @@
             (error && error.message ? error.message : "Unknown error"),
         );
         currentTranscriptStatus = "error";
-        currentTranscriptError = selectedTrack.isTranslated
-          ? "English translation is not available for this video."
-          : "No YouTube transcript is available for this video.\nAudio transcription can be added later.";
+        currentTranscriptError = getTranscriptFailureMessage(selectedTrack, null, error);
         currentTranscriptRows = [];
         notifyRuntime({ type: "YT_TRANSCRIPT_STATE_CHANGED" });
         return null;
@@ -2265,9 +2315,14 @@
     clickElement(closeButton);
   }
 
-  async function fetchNativeTranscriptRows(transcript) {
+  async function fetchNativeTranscriptRows(transcript, requestId, videoId) {
     var rows = getNativeTranscriptRows(transcript);
     var openedNativePanel = false;
+
+    if (isTranscriptRequestStale(requestId, videoId)) {
+      logTranscriptDebug("Native transcript fallback skipped: stale video/navigation mismatch");
+      return [];
+    }
 
     if (rows.length > 0) {
       logTranscriptDebug(
@@ -2282,14 +2337,27 @@
       return [];
     }
 
-    rows = await waitForNativeTranscriptRows(transcript);
-    logTranscriptDebug("Native transcript fallback rows: " + rows.length);
+    try {
+      if (isTranscriptRequestStale(requestId, videoId)) {
+        logTranscriptDebug("Native transcript fallback stopped: stale video/navigation mismatch");
+        return [];
+      }
 
-    if (openedNativePanel) {
-      closeNativeTranscriptPanel();
+      rows = await waitForNativeTranscriptRows(transcript);
+
+      if (isTranscriptRequestStale(requestId, videoId)) {
+        logTranscriptDebug("Native transcript fallback ignored: stale video/navigation mismatch");
+        return [];
+      }
+
+      logTranscriptDebug("Native transcript fallback rows: " + rows.length);
+
+      return rows;
+    } finally {
+      if (openedNativePanel) {
+        closeNativeTranscriptPanel();
+      }
     }
-
-    return rows;
   }
 
   function jumpToTranscriptTime(startSeconds) {
@@ -2351,6 +2419,7 @@
       currentTranscriptApiKey = null;
       currentCaptionSource = "";
       currentTranscriptStatus = "unavailable";
+      currentTranscriptError = safeResult.message || "YouTube does not expose captions for this video.";
       currentLanguageNotice = "";
       transcriptRequestId += 1;
     } else {
@@ -2361,6 +2430,7 @@
       currentTranscriptApiKey = null;
       currentCaptionSource = "";
       currentTranscriptStatus = "error";
+      currentTranscriptError = safeResult.message || "Transcript detection failed";
       currentLanguageNotice = "";
       transcriptRequestId += 1;
     }
@@ -2677,9 +2747,12 @@
 
     return {
       videoId: currentVideoId,
+      videoUrl: currentVideoId ? "https://www.youtube.com/watch?v=" + currentVideoId : "",
       videoTitle: metadataReady ? currentVideoMetadata.title : "",
       channelName: metadataReady ? currentVideoMetadata.channelName : "",
       captionLabel: selectedTrack ? getTrackDisplayLabel(selectedTrack) : "",
+      languageCode: selectedTrack ? getEffectiveTrackLanguageCode(selectedTrack) : "",
+      source: currentCaptionSource || "",
       status: metadataReady ? currentTranscriptStatus : "loading",
       error: currentTranscriptError,
       rows: metadataReady ? currentTranscriptRows : [],

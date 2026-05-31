@@ -1,8 +1,8 @@
 # YouTube Transcript Helper
 
-A beginner-friendly Chrome extension project for adding a transcript panel to YouTube.
+Chrome extension for adding a reliable transcript side panel to YouTube.
 
-This version fetches and renders available YouTube caption and transcript data. It proves that the extension loads, runs on YouTube video pages and Shorts, detects the current video ID, handles YouTube navigation seamlessly (including SPA navigation), and shows a usable transcript sidebar.
+This version fetches and renders available YouTube caption and transcript data. It runs on YouTube video pages and Shorts, detects the current video ID, handles YouTube navigation seamlessly (including SPA navigation), and shows a usable transcript sidebar.
 
 ## What Works Now
 
@@ -17,7 +17,7 @@ This version fetches and renders available YouTube caption and transcript data. 
 - Falls back to YouTube's native transcript rows when direct caption loading is not available
 - Renders timestamped transcript rows
 - Lets timestamps jump the YouTube video
-- Supports transcript search, copy, TXT export, and Markdown export
+- Supports transcript search, copy, TXT export, Markdown export, and JSON data export
 - Updates when YouTube changes videos without a full refresh (SPA navigation fix applied)
 - Avoids duplicate sidebars
 - Uses YouTube's live global `window.ytInitialPlayerResponse` and fallback fetch paths for reliable availability checks

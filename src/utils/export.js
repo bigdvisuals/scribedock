@@ -53,6 +53,56 @@
     return lines.join("\n");
   }
 
+  function getFiniteNumberOrDefault(value, fallbackValue) {
+    var numberValue = Number(value);
+
+    return Number.isFinite(numberValue) ? numberValue : fallbackValue;
+  }
+
+  function getOptionalDuration(row) {
+    var safeRow = row || {};
+    var durationValue = safeRow.durationSeconds;
+
+    if (durationValue === undefined) {
+      durationValue = safeRow.duration;
+    }
+
+    durationValue = Number(durationValue);
+
+    return Number.isFinite(durationValue) ? durationValue : null;
+  }
+
+  function buildJsonTranscriptExport(options) {
+    var safeOptions = options || {};
+    var rows = Array.isArray(safeOptions.rows) ? safeOptions.rows : [];
+
+    return JSON.stringify({
+      title: safeOptions.title || "",
+      videoId: safeOptions.videoId || "",
+      url: safeOptions.url || "",
+      channel: safeOptions.channel || "",
+      languageLabel: safeOptions.languageLabel || "",
+      languageCode: safeOptions.languageCode || "",
+      source: safeOptions.source || "",
+      exportedAt: safeOptions.exportedAt || "",
+      rows: rows.map(function mapRow(row) {
+        var safeRow = row || {};
+        var duration = getOptionalDuration(safeRow);
+        var mappedRow = {
+          startSeconds: getFiniteNumberOrDefault(safeRow.startSeconds, 0),
+          timestamp: safeRow.timestamp || "",
+          text: safeRow.text || ""
+        };
+
+        if (duration !== null) {
+          mappedRow.duration = duration;
+        }
+
+        return mappedRow;
+      })
+    }, null, 2);
+  }
+
   function formatSrtTime(totalSeconds) {
     var safeSeconds = Math.max(0, Number(totalSeconds) || 0);
     var hours = Math.floor(safeSeconds / 3600);
@@ -292,7 +342,7 @@
     return createSafeSlug(playlistTitle, "playlist") + "-playlist-transcripts.zip";
   }
 
-  function downloadTextFile(fileName, text, documentValue) {
+  function downloadTextFile(fileName, text, documentValue, contentType) {
     var doc = documentValue || root.document;
     var blob;
     var url;
@@ -303,7 +353,7 @@
     }
 
     blob = new Blob([text], {
-      type: "text/plain;charset=utf-8"
+      type: contentType || "text/plain;charset=utf-8"
     });
     url = root.URL.createObjectURL(blob);
     link = doc.createElement("a");
@@ -345,6 +395,7 @@
     buildChannelReadme: buildChannelReadme,
     buildChannelTranscriptFile: buildChannelTranscriptFile,
     buildFailedVideosReport: buildFailedVideosReport,
+    buildJsonTranscriptExport: buildJsonTranscriptExport,
     buildMarkdownTranscript: buildMarkdownTranscript,
     buildPlaylistManifest: buildPlaylistManifest,
     buildPlainTextTranscript: buildPlainTextTranscript,
