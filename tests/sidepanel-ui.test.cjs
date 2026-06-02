@@ -414,10 +414,11 @@ test("side panel language selector stays compact and uses a restrained dropdown"
   assert.match(languageTriggerRule, /min-height:\s*26px;/);
   assert.match(languageTriggerRule, /border-radius:\s*12px;/);
   assert.match(languageTriggerRule, /padding:\s*4px 26px 4px 10px;/);
-  assert.match(languageMenuRule, /width:\s*max-content;/);
+  assert.match(languageMenuRule, /width:\s*min\(240px,\s*calc\(100vw - 32px\)\);/);
   assert.match(languageMenuRule, /min-width:\s*190px;/);
-  assert.match(languageMenuRule, /max-width:\s*min\(240px,\s*calc\(100vw - 48px\)\);/);
+  assert.match(languageMenuRule, /max-width:\s*calc\(100vw - 32px\);/);
   assert.match(languageMenuRule, /border-radius:\s*12px;/);
+  assert.match(languageMenuRule, /overflow-y:\s*auto;/);
   assert.match(languageOptionRule, /min-height:\s*30px;/);
   assert.match(languageOptionRule, /border-radius:\s*8px;/);
 });
@@ -430,11 +431,32 @@ test("side panel language dropdown is not clipped by the header or toolbar", () 
 
   assert.match(headerRule, /overflow:\s*visible;/);
   assert.doesNotMatch(headerRule, /overflow:\s*hidden;/);
-  assert.match(headerRule, /z-index:\s*3;/);
+  assert.match(headerRule, /z-index:\s*30;/);
   assert.match(languageRowRule, /overflow:\s*visible;/);
-  assert.match(languageControlOpenRule, /z-index:\s*20;/);
+  assert.match(languageControlOpenRule, /z-index:\s*70;/);
   assert.match(languageMenuRule, /position:\s*absolute;/);
-  assert.match(languageMenuRule, /z-index:\s*20;/);
+  assert.match(languageMenuRule, /z-index:\s*80;/);
+  assert.match(languageMenuRule, /max-height:\s*min\(280px,\s*calc\(100vh - 190px\)\);/);
+});
+
+test("side panel status dot lives inside the status pill, not the transcript label", () => {
+  assert.doesNotMatch(sidePanelCss, /\.header-label::before\s*\{/);
+  assert.match(sidePanelCss, /\.status-pill::before\s*\{/);
+});
+
+test("side panel status pills use state classes for reduced-motion-safe pulse behavior", () => {
+  assert.match(sidePanelScript, /function setStatusPillState/);
+  assert.match(sidePanelScript, /classList\.remove\('is-ready', 'is-loading', 'is-scanning', 'is-error'\)/);
+  assert.match(sidePanelScript, /classList\.add\(`is-\$\{statusState\}`\)/);
+  assert.match(sidePanelCss, /\.status-pill\.is-ready::before\s*\{[\s\S]*?animation:\s*statusReadyPulse 2\.1s ease-in-out infinite;/);
+  assert.match(sidePanelCss, /\.status-pill\.is-loading::before,\s*\.status-pill\.is-scanning::before\s*\{[\s\S]*?animation:\s*statusActivePulse 1\.35s ease-in-out infinite;/);
+  assert.match(sidePanelCss, /\.status-pill\.is-error::before\s*\{[\s\S]*?animation:\s*none;/);
+  assert.match(sidePanelCss, /@keyframes statusReadyPulse/);
+  assert.match(sidePanelCss, /@keyframes statusActivePulse/);
+  assert.match(
+    sidePanelCss,
+    /@media \(prefers-reduced-motion:\s*reduce\)\s*\{[\s\S]*?\.status-pill::before,[\s\S]*?animation:\s*none;/,
+  );
 });
 
 test("side panel renders channel mode without removing the transcript reader path", () => {

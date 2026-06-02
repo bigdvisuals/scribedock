@@ -141,6 +141,18 @@ document.addEventListener('DOMContentLoaded', () => {
     'ko'
   ];
 
+  function setStatusPillState(pill, statusState) {
+    if (!pill) {
+      return;
+    }
+
+    pill.classList.remove('is-ready', 'is-loading', 'is-scanning', 'is-error');
+
+    if (statusState) {
+      pill.classList.add(`is-${statusState}`);
+    }
+  }
+
   function showState(stateName) {
     sidePanelState.status = stateName;
 
@@ -194,7 +206,17 @@ document.addEventListener('DOMContentLoaded', () => {
         channel: 'Channel',
         playlist: 'Playlist'
       };
+      const statusStateByState = {
+        loaded: 'ready',
+        loading: 'loading',
+        'no-transcript': 'error',
+        error: 'error',
+        'not-youtube': 'loading',
+        channel: 'ready',
+        playlist: 'ready'
+      };
       elements.panelStatus.textContent = labelByState[stateName] || 'Ready';
+      setStatusPillState(elements.panelStatus, statusStateByState[stateName] || 'ready');
     }
   }
 
@@ -1227,6 +1249,16 @@ document.addEventListener('DOMContentLoaded', () => {
       : isTimedOut
         ? 'Partial'
         : scanStatusLabel;
+    setStatusPillState(
+      elements.channelStatusPill,
+      isSettling
+        ? 'loading'
+        : isScanning || isPausing
+          ? 'scanning'
+          : isTimedOut
+            ? 'error'
+            : 'ready'
+    );
 
     renderChannelAvatar(safePageContext.channelAvatarUrl);
 
@@ -1365,6 +1397,14 @@ document.addEventListener('DOMContentLoaded', () => {
     elements.playlistTitle.textContent = playlistTitle;
     elements.playlistVisibleCount.textContent = String(totalCount || 0);
     elements.playlistStatusPill.textContent = scanStatusLabel;
+    setStatusPillState(
+      elements.playlistStatusPill,
+      isScanning
+        ? 'scanning'
+        : isCancelled
+          ? 'error'
+          : 'ready'
+    );
     elements.playlistProgress.hidden = !showProgress;
     elements.playlistProgressFill.style.width = `${progressPercent}%`;
     elements.playlistProgressLabel.textContent = progressLabel;

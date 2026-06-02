@@ -551,6 +551,91 @@ test("extracts channel metadata only from the current channel header", () => {
   });
 });
 
+test("extracts modern channel header avatars without the legacy avatar id", () => {
+  const modernAvatar = {
+    currentSrc: "https://yt3.ggpht.com/orangie-avatar=s160-c-k-c0x00ffffff-no-rj",
+    src: "https://yt3.ggpht.com/orangie-avatar=s160-c-k-c0x00ffffff-no-rj"
+  };
+  const fakeDocument = {
+    querySelector(selector) {
+      if (selector === "yt-page-header-renderer h1") {
+        return { textContent: "Orangie Web3" };
+      }
+
+      if (selector === "yt-page-header-renderer yt-avatar-shape img") {
+        return modernAvatar;
+      }
+
+      if (selector === "yt-page-header-renderer #avatar img") {
+        return null;
+      }
+
+      return null;
+    }
+  };
+
+  assert.deepEqual(channel.getChannelMetadataFromDocument(fakeDocument), {
+    channelName: "Orangie Web3",
+    channelAvatarUrl: modernAvatar.currentSrc
+  });
+});
+
+test("ignores invalid channel avatar URLs before using initials fallback", () => {
+  const fakeDocument = {
+    querySelector(selector) {
+      if (selector === "yt-page-header-renderer #page-header #title") {
+        return { textContent: "Channel Name" };
+      }
+
+      if (selector === "yt-page-header-renderer #avatar img") {
+        return {
+          currentSrc: "data:image/gif;base64,R0lGODlhAQABAAAAACw=",
+          src: "https://yt3.ggpht.com/real-avatar=s160-c-k-c0x00ffffff-no-rj"
+        };
+      }
+
+      return null;
+    }
+  };
+
+  assert.deepEqual(channel.getChannelMetadataFromDocument(fakeDocument), {
+    channelName: "Channel Name",
+    channelAvatarUrl: "https://yt3.ggpht.com/real-avatar=s160-c-k-c0x00ffffff-no-rj"
+  });
+});
+
+test("keeps looking when an early channel avatar candidate is only a placeholder", () => {
+  const realAvatar = {
+    currentSrc: "https://yt3.ggpht.com/modern-real-avatar=s160-c-k-c0x00ffffff-no-rj",
+    src: ""
+  };
+  const fakeDocument = {
+    querySelector(selector) {
+      if (selector === "yt-page-header-renderer #page-header #title") {
+        return { textContent: "Channel Name" };
+      }
+
+      if (selector === "yt-page-header-renderer #avatar img") {
+        return {
+          currentSrc: "data:image/gif;base64,R0lGODlhAQABAAAAACw=",
+          src: ""
+        };
+      }
+
+      if (selector === "yt-page-header-renderer yt-avatar-shape img") {
+        return realAvatar;
+      }
+
+      return null;
+    }
+  };
+
+  assert.deepEqual(channel.getChannelMetadataFromDocument(fakeDocument), {
+    channelName: "Channel Name",
+    channelAvatarUrl: realAvatar.currentSrc
+  });
+});
+
 test("returns an empty channel avatar when no real avatar exists", () => {
   const fakeDocument = {
     querySelector(selector) {

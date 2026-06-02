@@ -134,9 +134,9 @@ body::before {
 
 .video-header {
   position: relative;
-  z-index: 3;
+  z-index: 30;
   margin: 0;
-  padding: 14px 16px 10px;
+  padding: 16px 16px 13px;
   overflow: visible;
   border-bottom: 1px solid var(--border-soft);
   border-radius: 0;
@@ -155,33 +155,26 @@ body::before {
 }
 
 .header-top {
+  align-items: flex-start;
   justify-content: space-between;
-  gap: 10px;
-  margin-bottom: 11px;
+  gap: 12px;
+  margin-bottom: 12px;
 }
 
 .brand-lockup {
+  flex: 1 1 auto;
   min-width: 0;
+  padding-top: 2px;
 }
 
 .header-label {
   display: inline-flex;
   align-items: center;
-  gap: 7px;
   color: var(--muted-strong);
   font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-}
-
-.header-label::before {
-  width: 7px;
-  height: 7px;
-  border-radius: 999px;
-  background: var(--accent-green);
-  box-shadow: 0 0 14px var(--glow-color);
-  content: "";
 }
 
 .video-channel {
@@ -194,8 +187,12 @@ body::before {
 
 .status-stack {
   display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: flex-end;
   gap: 6px;
+  max-width: 46%;
 }
 
 .status-pill,
@@ -209,6 +206,8 @@ body::before {
 }
 
 .status-pill {
+  position: relative;
+  gap: 6px;
   padding: 4px 10px;
   border: 1px solid rgba(200, 244, 209, 0.24);
   background: rgba(200, 244, 209, 0.13);
@@ -217,10 +216,49 @@ body::before {
   font-weight: 700;
 }
 
+.status-pill::before {
+  width: 6px;
+  height: 6px;
+  flex: 0 0 auto;
+  border-radius: 999px;
+  background: var(--accent-green);
+  box-shadow: 0 0 10px rgba(200, 244, 209, 0.32);
+  content: "";
+}
+
+.status-pill.is-ready::before {
+  animation: statusReadyPulse 2.1s ease-in-out infinite;
+}
+
+.status-pill.is-loading,
+.status-pill.is-scanning {
+  border-color: rgba(143, 207, 183, 0.32);
+  background: rgba(143, 207, 183, 0.14);
+}
+
+.status-pill.is-loading::before,
+.status-pill.is-scanning::before {
+  background: var(--accent-blue);
+  box-shadow: 0 0 12px rgba(143, 207, 183, 0.44);
+  animation: statusActivePulse 1.35s ease-in-out infinite;
+}
+
+.status-pill.is-error {
+  border-color: rgba(242, 154, 141, 0.34);
+  background: rgba(242, 154, 141, 0.12);
+  color: #ffc6bd;
+}
+
+.status-pill.is-error::before {
+  background: var(--danger);
+  box-shadow: 0 0 10px rgba(242, 154, 141, 0.32);
+  animation: none;
+}
+
 .video-title {
   display: -webkit-box;
   overflow: hidden;
-  margin: 0;
+  margin: 0 0 2px;
   color: var(--text);
   font-size: 16px;
   font-weight: 700;
@@ -249,7 +287,7 @@ body::before {
   position: relative;
   display: flex;
   align-items: center;
-  margin-top: 9px;
+  margin-top: 12px;
   overflow: visible;
 }
 
@@ -260,7 +298,7 @@ body::before {
 }
 
 .language-control.is-open {
-  z-index: 20;
+  z-index: 70;
 }
 
 .language-trigger {
@@ -332,14 +370,16 @@ body::before {
 
 .language-menu {
   position: absolute;
-  z-index: 20;
-  top: calc(100% + 7px);
+  z-index: 80;
+  top: calc(100% + 6px);
   left: 0;
-  width: max-content;
+  width: min(240px, calc(100vw - 32px));
   min-width: 190px;
-  max-width: min(240px, calc(100vw - 48px));
-  max-height: min(220px, 40vh);
+  max-width: calc(100vw - 32px);
+  max-height: min(280px, calc(100vh - 190px));
+  overflow-x: hidden;
   overflow-y: auto;
+  overscroll-behavior: contain;
   padding: 5px;
   border: 1px solid rgba(200, 244, 209, 0.14);
   border-radius: 12px;
@@ -798,10 +838,10 @@ body::before {
 
 .channel-header {
   display: flex;
-  align-items: center;
-  gap: 10px;
+  align-items: flex-start;
+  gap: 12px;
   margin-bottom: 0;
-  padding: 12px 14px;
+  padding: 14px 14px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 0;
   background:
@@ -855,13 +895,15 @@ body::before {
 .channel-heading {
   min-width: 0;
   flex: 1;
+  padding-top: 2px;
 }
 
 .channel-mode-row {
   display: flex;
   min-width: 0;
   align-items: center;
-  gap: 8px;
+  gap: 7px;
+  margin-bottom: 3px;
 }
 
 .channel-label {
@@ -910,6 +952,7 @@ body::before {
 
 .channel-status-pill {
   flex: 0 0 auto;
+  margin-top: 2px;
 }
 
 .channel-main {
@@ -1224,6 +1267,43 @@ body::before {
   }
 }
 
+@keyframes statusReadyPulse {
+  0%,
+  100% {
+    opacity: 0.7;
+    box-shadow: 0 0 8px rgba(200, 244, 209, 0.24);
+    transform: scale(0.92);
+  }
+
+  50% {
+    opacity: 1;
+    box-shadow: 0 0 16px rgba(200, 244, 209, 0.48);
+    transform: scale(1.08);
+  }
+}
+
+@keyframes statusActivePulse {
+  0%,
+  100% {
+    opacity: 0.58;
+    box-shadow: 0 0 8px rgba(143, 207, 183, 0.26);
+    transform: scale(0.9);
+  }
+
+  50% {
+    opacity: 1;
+    box-shadow: 0 0 18px rgba(143, 207, 183, 0.58);
+    transform: scale(1.14);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .status-pill::before,
+  .spinner {
+    animation: none;
+  }
+}
+
 @media (max-width: 360px) {
   .panel-container {
     padding: 0;
@@ -1233,6 +1313,32 @@ body::before {
     flex-wrap: wrap;
     align-items: flex-start;
     gap: 10px;
+  }
+
+  .video-header {
+    padding: 14px 14px 12px;
+  }
+
+  .header-top {
+    gap: 9px;
+  }
+
+  .status-stack {
+    max-width: 52%;
+    gap: 5px;
+  }
+
+  .status-pill,
+  .time-pill {
+    min-height: 24px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+
+  .language-menu {
+    width: min(230px, calc(100vw - 28px));
+    max-width: calc(100vw - 28px);
+    max-height: min(260px, calc(100vh - 180px));
   }
 
   .search-meta {

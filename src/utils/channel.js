@@ -465,6 +465,73 @@
     return null;
   }
 
+  function isValidAvatarUrl(urlValue) {
+    var value = String(urlValue || "").trim();
+
+    if (!value) {
+      return false;
+    }
+
+    if (/^data:|^blob:/i.test(value)) {
+      return false;
+    }
+
+    return value.indexOf("i.ytimg.com") === -1;
+  }
+
+  function getAvatarUrlFromImage(image) {
+    if (!image) {
+      return "";
+    }
+
+    if (isValidAvatarUrl(image.currentSrc)) {
+      return image.currentSrc;
+    }
+
+    if (isValidAvatarUrl(image.src)) {
+      return image.src;
+    }
+
+    return "";
+  }
+
+  function getChannelAvatarUrlFromDocument(documentValue) {
+    var selectors = [
+      "yt-page-header-renderer #avatar img",
+      "yt-page-header-renderer yt-avatar-shape img",
+      "yt-page-header-renderer yt-decorated-avatar-view-model img",
+      "yt-page-header-renderer yt-img-shadow img",
+      "yt-page-header-renderer img",
+      "ytd-c4-tabbed-header-renderer #avatar img",
+      "ytd-c4-tabbed-header-renderer yt-avatar-shape img",
+      "ytd-c4-tabbed-header-renderer yt-img-shadow img",
+      "ytd-channel-header-renderer #avatar img",
+      "ytd-channel-header-renderer yt-avatar-shape img",
+      "ytd-channel-header-renderer yt-img-shadow img",
+      "#channel-header img",
+      "#page-header #avatar img",
+      "#page-header yt-avatar-shape img"
+    ];
+    var index;
+    var image;
+    var avatarUrl;
+
+    if (!documentValue || typeof documentValue.querySelector !== "function") {
+      return "";
+    }
+
+    for (index = 0; index < selectors.length; index += 1) {
+      image = documentValue.querySelector(selectors[index]);
+      avatarUrl = getAvatarUrlFromImage(image);
+
+      if (avatarUrl) {
+        return avatarUrl;
+      }
+    }
+
+    return "";
+  }
+
   function getChannelMetadataFromDocument(documentValue) {
     var titleElement = queryFirst(documentValue, [
       "yt-page-header-renderer h1",
@@ -475,18 +542,10 @@
       "ytd-channel-header-renderer #channel-name",
       "ytd-c4-tabbed-header-renderer #channel-name"
     ]);
-    var avatarElement = queryFirst(documentValue, [
-      "yt-page-header-renderer #avatar img",
-      "ytd-c4-tabbed-header-renderer #avatar img",
-      "ytd-channel-header-renderer #avatar img",
-      "#page-header #avatar img"
-    ]);
 
     return {
       channelName: normalizeText(titleElement && titleElement.textContent),
-      channelAvatarUrl: avatarElement && (avatarElement.currentSrc || avatarElement.src)
-        ? avatarElement.currentSrc || avatarElement.src
-        : ""
+      channelAvatarUrl: getChannelAvatarUrlFromDocument(documentValue)
     };
   }
 
