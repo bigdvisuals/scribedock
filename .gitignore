@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.zip
+.env
+.env.*
+VIBE_CODER_AI_CODING_MASTER_LIBRARY/
+99_Archive_Originals/
