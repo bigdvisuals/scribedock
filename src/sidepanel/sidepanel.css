@@ -369,14 +369,14 @@ body::before {
 }
 
 .language-menu {
-  position: absolute;
+  position: fixed;
   z-index: 80;
-  top: calc(100% + 6px);
-  left: 0;
-  width: min(240px, calc(100vw - 32px));
+  top: var(--language-menu-top, 0);
+  left: var(--language-menu-left, 16px);
+  width: var(--language-menu-width, min(240px, calc(100vw - 32px)));
   min-width: 190px;
   max-width: calc(100vw - 32px);
-  max-height: min(280px, calc(100vh - 190px));
+  max-height: var(--language-menu-max-height, min(280px, calc(100vh - 190px)));
   overflow-x: hidden;
   overflow-y: auto;
   overscroll-behavior: contain;
@@ -1336,9 +1336,9 @@ body::before {
   }
 
   .language-menu {
-    width: min(230px, calc(100vw - 28px));
+    width: var(--language-menu-width, min(230px, calc(100vw - 28px)));
     max-width: calc(100vw - 28px);
-    max-height: min(260px, calc(100vh - 180px));
+    max-height: var(--language-menu-max-height, min(260px, calc(100vh - 180px)));
   }
 
   .search-meta {

@@ -6,23 +6,25 @@ const distDir = path.join(rootDir, "dist");
 const packageJson = require(path.join(rootDir, "package.json"));
 const releaseIncludes = [
   "manifest.json",
-  "src",
-  "assets",
-  "README.md",
-  "CHANGELOG.md",
-  "TESTING.md",
-  "QA_CHECKLIST.md"
+  "src"
 ];
 
 const blockedZipEntries = [
+  ".git",
+  ".github",
+  ".playwright-mcp",
   "VIBE_CODER_AI_CODING_MASTER_LIBRARY",
   "node_modules",
-  ".env",
+  "docs",
   "dist",
+  "screenshots",
+  "secrets",
+  "tests",
   "99_Archive_Originals"
 ];
 
 const blockedZipExtensions = [
+  ".map",
   ".zip"
 ];
 
@@ -183,6 +185,10 @@ function buildZip(files) {
 function isBlockedZipPath(zipPath) {
   const pathParts = zipPath.split("/");
   const fileName = pathParts[pathParts.length - 1];
+
+  if (fileName === ".env" || fileName.startsWith(".env.")) {
+    return true;
+  }
 
   if (blockedZipExtensions.some((extension) => fileName.endsWith(extension))) {
     return true;

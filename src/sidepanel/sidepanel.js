@@ -512,10 +512,43 @@ document.addEventListener('DOMContentLoaded', () => {
     elements.languageControl.classList.remove('is-open');
     elements.languageTrigger.setAttribute('aria-expanded', 'false');
     elements.languageMenu.hidden = true;
+    clearLanguageMenuPosition();
 
     if (restoreFocus) {
       elements.languageTrigger.focus();
     }
+  }
+
+  function clearLanguageMenuPosition() {
+    if (!elements.languageMenu) {
+      return;
+    }
+
+    elements.languageMenu.style.removeProperty('--language-menu-top');
+    elements.languageMenu.style.removeProperty('--language-menu-left');
+    elements.languageMenu.style.removeProperty('--language-menu-width');
+    elements.languageMenu.style.removeProperty('--language-menu-max-height');
+  }
+
+  function positionLanguageMenu() {
+    if (!isLanguageMenuOpen || !elements.languageTrigger || !elements.languageMenu) {
+      return;
+    }
+
+    const triggerRect = elements.languageTrigger.getBoundingClientRect();
+    const viewportWidth = window.innerWidth || document.documentElement.clientWidth || 320;
+    const viewportHeight = window.innerHeight || document.documentElement.clientHeight || 480;
+    const edgePadding = viewportWidth <= 360 ? 14 : 16;
+    const preferredWidth = Math.min(240, Math.max(190, viewportWidth - (edgePadding * 2)));
+    const maxLeft = Math.max(edgePadding, viewportWidth - preferredWidth - edgePadding);
+    const left = Math.min(Math.max(edgePadding, triggerRect.left), maxLeft);
+    const top = Math.max(8, triggerRect.bottom + 6);
+    const maxHeight = Math.max(120, Math.min(280, viewportHeight - top - 12));
+
+    elements.languageMenu.style.setProperty('--language-menu-top', `${top}px`);
+    elements.languageMenu.style.setProperty('--language-menu-left', `${left}px`);
+    elements.languageMenu.style.setProperty('--language-menu-width', `${preferredWidth}px`);
+    elements.languageMenu.style.setProperty('--language-menu-max-height', `${maxHeight}px`);
   }
 
   function openLanguageMenu({ focus = 'selected' } = {}) {
@@ -527,6 +560,7 @@ document.addEventListener('DOMContentLoaded', () => {
     elements.languageControl.classList.add('is-open');
     elements.languageTrigger.setAttribute('aria-expanded', 'true');
     elements.languageMenu.hidden = false;
+    positionLanguageMenu();
 
     const selectedIndex = getLanguageOptionIndexByValue(getSelectedLanguageValue());
     const nextIndex = focus === 'last'
@@ -1154,6 +1188,43 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  function getChannelInitials(channelName) {
+    const words = String(channelName || '')
+      .replace(/^@+/, '')
+      .split(/\s+/)
+      .filter(Boolean);
+    const initials = words
+      .slice(0, 2)
+      .map((word) => word.charAt(0))
+      .join('')
+      .toUpperCase();
+
+    return initials || 'YT';
+  }
+
+  function updateChannelAvatarFallback(channelName) {
+    if (!elements.channelAvatarFallback) {
+      return;
+    }
+
+    elements.channelAvatarFallback.textContent = getChannelInitials(channelName);
+  }
+
+  function setLineBreakText(element, lines) {
+    if (!element) {
+      return;
+    }
+
+    element.textContent = '';
+    lines.forEach((line, index) => {
+      if (index > 0) {
+        element.appendChild(document.createElement('br'));
+      }
+
+      element.appendChild(document.createTextNode(line));
+    });
+  }
+
   function renderChannelMode(pageContext, scanState) {
     const safePageContext = pageContext || {};
     const safeScanState = scanState || {
@@ -1241,9 +1312,12 @@ document.addEventListener('DOMContentLoaded', () => {
     elements.channelVisibleCount.textContent = isSettling
       ? '...'
       : String(safePageContext.visibleVideoCount || 0);
-    elements.channelNoteText.innerHTML = isShortsTab
-      ? 'Scanning visible Shorts only.<br>Scroll down to load more.'
-      : 'Scanning visible videos only.<br>Scroll down to load more.';
+    setLineBreakText(
+      elements.channelNoteText,
+      isShortsTab
+        ? ['Scanning visible Shorts only.', 'Scroll down to load more.']
+        : ['Scanning visible videos only.', 'Scroll down to load more.']
+    );
     elements.channelStatusPill.textContent = isSettling
       ? 'Loading'
       : isTimedOut
@@ -1260,6 +1334,7 @@ document.addEventListener('DOMContentLoaded', () => {
             : 'ready'
     );
 
+    updateChannelAvatarFallback(safePageContext.channelName);
     renderChannelAvatar(safePageContext.channelAvatarUrl);
 
     elements.channelProgress.hidden = !(showProgress || isSettling);
@@ -1736,6 +1811,8 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
   });
+
+  window.addEventListener('resize', positionLanguageMenu);
 
   elements.transcriptContainer.addEventListener('scroll', () => {
     if (sidePanelState.status !== 'loaded' || isProgrammaticScroll) return;

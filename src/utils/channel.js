@@ -501,7 +501,6 @@
       "yt-page-header-renderer yt-avatar-shape img",
       "yt-page-header-renderer yt-decorated-avatar-view-model img",
       "yt-page-header-renderer yt-img-shadow img",
-      "yt-page-header-renderer img",
       "ytd-c4-tabbed-header-renderer #avatar img",
       "ytd-c4-tabbed-header-renderer yt-avatar-shape img",
       "ytd-c4-tabbed-header-renderer yt-img-shadow img",

@@ -164,17 +164,30 @@
       .slice(0, 80);
     var safeExtension = String(extension || "txt").replace(/[^a-z0-9]/gi, "").toLowerCase() || "txt";
 
+    safeTitle = avoidReservedFileNameStem(safeTitle, "youtube-transcript");
+
     return (safeTitle || "youtube-transcript") + "." + safeExtension;
+  }
+
+  function avoidReservedFileNameStem(value, fallback) {
+    var safeValue = String(value || fallback || "youtube-file").trim();
+
+    if (/^(con|prn|aux|nul|com[1-9]|lpt[1-9])$/i.test(safeValue)) {
+      return safeValue + "-file";
+    }
+
+    return safeValue;
   }
 
   function sanitizeDisplayFilePart(value, fallback) {
     var safeValue = String(value || fallback || "youtube-video")
       .replace(/[<>:"/\\|?*\u0000-\u001f]/g, " ")
+      .replace(/^\.+|\.+$/g, "")
       .replace(/\s+/g, " ")
       .trim()
       .slice(0, 80);
 
-    return safeValue || fallback || "youtube-video";
+    return avoidReservedFileNameStem(safeValue, fallback || "youtube-video");
   }
 
   function createSafeSlug(value, fallback) {
@@ -184,7 +197,7 @@
       .replace(/^-+|-+$/g, "")
       .slice(0, 80);
 
-    return safeValue || fallback || "channel";
+    return avoidReservedFileNameStem(safeValue, fallback || "channel");
   }
 
   function createChannelTranscriptFileName(index, videoTitle, videoId) {

@@ -636,6 +636,30 @@ test("keeps looking when an early channel avatar candidate is only a placeholder
   });
 });
 
+test("does not use generic channel header images as the avatar", () => {
+  const fakeDocument = {
+    querySelector(selector) {
+      if (selector === "yt-page-header-renderer #page-header #title") {
+        return { textContent: "Channel Name" };
+      }
+
+      if (selector === "yt-page-header-renderer img") {
+        return {
+          currentSrc: "https://yt3.ggpht.com/banner-that-is-not-avatar",
+          src: "https://yt3.ggpht.com/banner-that-is-not-avatar"
+        };
+      }
+
+      return null;
+    }
+  };
+
+  assert.deepEqual(channel.getChannelMetadataFromDocument(fakeDocument), {
+    channelName: "Channel Name",
+    channelAvatarUrl: ""
+  });
+});
+
 test("returns an empty channel avatar when no real avatar exists", () => {
   const fakeDocument = {
     querySelector(selector) {

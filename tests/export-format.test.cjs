@@ -84,12 +84,18 @@ test("builds JSON transcript exports with metadata and normalized rows", () => {
 
 test("creates safe transcript filenames", () => {
   assert.equal(exportHelpers.createSafeFileName("Bad / File: Name?", "txt"), "bad-file-name.txt");
+  assert.equal(exportHelpers.createSafeFileName("CON", "txt"), "con-file.txt");
+  assert.equal(exportHelpers.createSafeFileName("Video", "../../json"), "video.json");
 });
 
 test("builds channel export filenames and metadata files", () => {
   assert.equal(
     exportHelpers.createChannelTranscriptFileName(1, "Bad / File: Name?", "dQw4w9WgXcQ"),
     "001 - Bad File Name [dQw4w9WgXcQ].txt"
+  );
+  assert.equal(
+    exportHelpers.createChannelTranscriptFileName(2, "../CON", "aux"),
+    "002 - CON-file [aux-file].txt"
   );
 
   const transcriptFile = exportHelpers.buildChannelTranscriptFile({
@@ -184,6 +190,10 @@ test("creates separate channel ZIP names for videos and Shorts", () => {
   assert.equal(
     exportHelpers.createChannelZipFileName("Vincent Chan", "shorts"),
     "vincent-chan-shorts-transcripts.zip"
+  );
+  assert.equal(
+    exportHelpers.createChannelZipFileName("CON", "videos"),
+    "con-file-videos-transcripts.zip"
   );
 });
 

@@ -414,7 +414,7 @@ test("side panel language selector stays compact and uses a restrained dropdown"
   assert.match(languageTriggerRule, /min-height:\s*26px;/);
   assert.match(languageTriggerRule, /border-radius:\s*12px;/);
   assert.match(languageTriggerRule, /padding:\s*4px 26px 4px 10px;/);
-  assert.match(languageMenuRule, /width:\s*min\(240px,\s*calc\(100vw - 32px\)\);/);
+  assert.match(languageMenuRule, /width:\s*var\(--language-menu-width,\s*min\(240px,\s*calc\(100vw - 32px\)\)\);/);
   assert.match(languageMenuRule, /min-width:\s*190px;/);
   assert.match(languageMenuRule, /max-width:\s*calc\(100vw - 32px\);/);
   assert.match(languageMenuRule, /border-radius:\s*12px;/);
@@ -434,9 +434,14 @@ test("side panel language dropdown is not clipped by the header or toolbar", () 
   assert.match(headerRule, /z-index:\s*30;/);
   assert.match(languageRowRule, /overflow:\s*visible;/);
   assert.match(languageControlOpenRule, /z-index:\s*70;/);
-  assert.match(languageMenuRule, /position:\s*absolute;/);
+  assert.match(languageMenuRule, /position:\s*fixed;/);
   assert.match(languageMenuRule, /z-index:\s*80;/);
-  assert.match(languageMenuRule, /max-height:\s*min\(280px,\s*calc\(100vh - 190px\)\);/);
+  assert.match(languageMenuRule, /top:\s*var\(--language-menu-top,\s*0\);/);
+  assert.match(languageMenuRule, /left:\s*var\(--language-menu-left,\s*16px\);/);
+  assert.match(languageMenuRule, /max-height:\s*var\(--language-menu-max-height,/);
+  assert.match(sidePanelScript, /function positionLanguageMenu/);
+  assert.match(sidePanelScript, /getBoundingClientRect\(\)/);
+  assert.match(sidePanelScript, /window\.addEventListener\('resize', positionLanguageMenu\);/);
 });
 
 test("side panel status dot lives inside the status pill, not the transcript label", () => {
@@ -552,12 +557,14 @@ test("playlist mode disables duplicate starts and shows cancel while running", (
 test("side panel keeps channel guidance short and clean", () => {
   assert.match(
     sidePanelScript,
-    /Scanning visible videos only\.<br>Scroll down to load more\./,
+    /\['Scanning visible videos only\.', 'Scroll down to load more\.'\]/,
   );
   assert.match(
     sidePanelScript,
-    /Scanning visible Shorts only\.<br>Scroll down to load more\./,
+    /\['Scanning visible Shorts only\.', 'Scroll down to load more\.'\]/,
   );
+  assert.match(sidePanelScript, /function setLineBreakText/);
+  assert.doesNotMatch(sidePanelScript, /channelNoteText\.innerHTML/);
 });
 
 test("side panel shows channel loading and timeout states before allowing a scan", () => {
@@ -810,6 +817,7 @@ test("channel action buttons separate the main action from secondary controls", 
 
 test("side panel renders real channel avatars and falls back on missing or broken images", () => {
   assert.match(sidePanelScript, /function renderChannelAvatar/);
+  assert.match(sidePanelScript, /function updateChannelAvatarFallback/);
   assert.match(
     sidePanelScript,
     /elements\.channelAvatar\.addEventListener\('load'/,
@@ -823,6 +831,19 @@ test("side panel renders real channel avatars and falls back on missing or broke
     /elements\.channelAvatarFallback\.hidden = false;/,
   );
   assert.match(sidePanelScript, /elements\.channelAvatar\.hidden = true;/);
+});
+
+test("channel avatar fallback displays initials from the channel name", () => {
+  assert.match(sidePanelScript, /function getChannelInitials/);
+  assert.match(sidePanelScript, /return initials \|\| 'YT';/);
+  assert.match(
+    sidePanelScript,
+    /elements\.channelAvatarFallback\.textContent = getChannelInitials\(channelName\);/,
+  );
+  assert.match(
+    sidePanelScript,
+    /updateChannelAvatarFallback\(safePageContext\.channelName\);[\s\S]*?renderChannelAvatar\(safePageContext\.channelAvatarUrl\);/,
+  );
 });
 
 test("channel mode header uses one fixed avatar slot instead of two visible avatar columns", () => {

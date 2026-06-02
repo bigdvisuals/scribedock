@@ -12,6 +12,7 @@ const packageJson = JSON.parse(
 const popupDir = path.join(__dirname, "..", "src", "popup");
 
 test("side panel has the permissions needed to read and message YouTube tabs", () => {
+  assert.equal(manifest.permissions.includes("activeTab"), false);
   assert.ok(manifest.permissions.includes("tabs"));
   assert.ok(manifest.permissions.includes("sidePanel"));
   assert.ok(manifest.permissions.includes("scripting"));
