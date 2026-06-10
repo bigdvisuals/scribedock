@@ -70,8 +70,19 @@ test("side panel shell uses the framed working reader design", () => {
   const appShellRule = getCssRule(".app-shell");
 
   assert.match(containerRule, /padding:\s*0;/);
-  assert.match(appShellRule, /border:\s*1px solid rgba\(75,\s*126,\s*108,\s*0\.55\);/);
+  assert.match(appShellRule, /border:\s*1px solid rgba\(105,\s*159,\s*135,\s*0\.34\);/);
   assert.match(appShellRule, /border-radius:\s*14px;/);
+});
+
+test("side panel uses the ScribeDock brand without changing local privacy copy", () => {
+  assert.match(sidePanelHtml, /<title>ScribeDock<\/title>/);
+  assert.match(sidePanelHtml, /class="header-label">ScribeDock</);
+  assert.match(sidePanelHtml, /src="\.\.\/icons\/scribedock-48\.png"/);
+  assert.match(sidePanelHtml, /ScribeDock turns transcripts into clean, searchable text\./);
+  assert.match(
+    sidePanelHtml,
+    /Works only on YouTube\. Transcript text stays local unless you copy or download it\./,
+  );
 });
 
 test("side panel footer keeps status text and jump action on one clean row", () => {
@@ -282,7 +293,7 @@ test("export menu keeps button state in sync and supports keyboard navigation", 
 test("export menu uses polished styling and readable focus states", () => {
   assert.match(
     sidePanelCss,
-    /\.export-menu\s*\{[\s\S]*?top:\s*calc\(100% \+ 7px\);[\s\S]*?margin-top:\s*0;[\s\S]*?padding:\s*5px;[\s\S]*?border:\s*1px solid rgba\(200,\s*244,\s*209,\s*0\.14\);[\s\S]*?border-radius:\s*12px;[\s\S]*?backdrop-filter:\s*blur\(12px\);/,
+    /\.export-menu\s*\{[\s\S]*?top:\s*calc\(100% \+ 7px\);[\s\S]*?margin-top:\s*0;[\s\S]*?padding:\s*5px;[\s\S]*?border:\s*1px solid var\(--border-default\);[\s\S]*?border-radius:\s*12px;[\s\S]*?backdrop-filter:\s*blur\(12px\);/,
   );
   assert.doesNotMatch(getCssRule(".export-menu"), /radial-gradient|::before|::after/);
   assert.match(
@@ -291,7 +302,7 @@ test("export menu uses polished styling and readable focus states", () => {
   );
   assert.match(
     sidePanelCss,
-    /\.export-menu-item:hover,\s*\.export-menu-item:focus-visible\s*\{[\s\S]*?background:\s*rgba\(255,\s*255,\s*255,\s*0\.045\);/,
+    /\.export-menu-item:hover,\s*\.export-menu-item:focus-visible\s*\{[\s\S]*?background:\s*var\(--surface-control\);/,
   );
   assert.match(
     sidePanelCss,
@@ -300,11 +311,15 @@ test("export menu uses polished styling and readable focus states", () => {
 });
 
 test("side panel uses a soft reader palette instead of neon lime", () => {
-  assert.match(sidePanelCss, /--canvas:\s*#[0-9a-fA-F]{6};/);
+  assert.match(sidePanelCss, /--surface-canvas:\s*#[0-9a-fA-F]{6};/);
+  assert.match(sidePanelCss, /--canvas:\s*var\(--surface-canvas\);/);
   assert.match(sidePanelCss, /--glass:\s*rgba\(/);
   assert.match(sidePanelCss, /--accent:\s*#[0-9a-fA-F]{6};/);
   assert.match(sidePanelCss, /--accent-soft:\s*rgba\(/);
   assert.match(sidePanelCss, /--accent-ring:\s*rgba\(/);
+  assert.match(sidePanelCss, /--text-primary:\s*#[0-9a-fA-F]{6};/);
+  assert.match(sidePanelCss, /--border-subtle:\s*rgba\(/);
+  assert.match(sidePanelCss, /--disabled-text:\s*rgba\(/);
   assert.doesNotMatch(sidePanelCss, /#b6ff00/i);
   assert.doesNotMatch(sidePanelCss, /--lime\b/);
   assert.doesNotMatch(sidePanelCss, /182,\s*255,\s*0/);
@@ -376,6 +391,37 @@ test("side panel keeps zero-duration transcript rows highlightable", () => {
     /nextRow && Number\.isFinite\(nextRow\.startSeconds\)/,
   );
   assert.match(sidePanelScript, /Number\.POSITIVE_INFINITY/);
+});
+
+test("side panel looks ahead when choosing the active transcript row", () => {
+  assert.match(sidePanelScript, /const TRANSCRIPT_SYNC_OFFSET_SECONDS = 0\.35;/);
+  assert.match(
+    sidePanelScript,
+    /const adjustedTimeSeconds = currentTimeSeconds \+ TRANSCRIPT_SYNC_OFFSET_SECONDS;/,
+  );
+  assert.match(sidePanelScript, /start <= adjustedTimeSeconds/);
+  assert.match(
+    sidePanelScript,
+    /activeRow = row;[\s\S]*?} else \{[\s\S]*?break;/,
+  );
+  assert.doesNotMatch(sidePanelScript, /currentTimeSeconds >= start && currentTimeSeconds < end/);
+});
+
+test("side panel locks clicked transcript rows during manual seeks", () => {
+  assert.match(sidePanelScript, /let manualSeekLockUntil = 0;/);
+  assert.match(sidePanelScript, /const MANUAL_SEEK_LOCK_MS = 700;/);
+  assert.match(
+    sidePanelScript,
+    /manualSeekLockUntil = Date\.now\(\) \+ MANUAL_SEEK_LOCK_MS;/,
+  );
+  assert.match(
+    sidePanelScript,
+    /setActiveTranscriptRow\(rowElement\);[\s\S]*?sendMessageToTab\(\{ type: 'JUMP_TO_TIME', time: startSeconds \}\);/,
+  );
+  assert.match(
+    sidePanelScript,
+    /if \(Date\.now\(\) >= manualSeekLockUntil\) \{[\s\S]*?updateActiveHighlight\(activeStartSeconds\);/,
+  );
 });
 
 test("side panel exposes subtle search guidance and keyboard-friendly rows", () => {
@@ -497,6 +543,7 @@ test("side panel renders playlist mode with separate controls", () => {
   assert.match(sidePanelHtml, />Scan playlist</);
   assert.match(sidePanelHtml, /id="btn-cancel-playlist-operation"/);
   assert.match(sidePanelHtml, /id="btn-download-playlist-zip"/);
+  assert.match(sidePanelHtml, /id="bulk-export-format"/);
   assert.match(sidePanelHtml, />Download playlist ZIP</);
   assert.match(sidePanelScript, /function renderPlaylistMode/);
   assert.match(sidePanelScript, /urlContext\.mode === 'PLAYLIST_MODE'/);
@@ -565,6 +612,27 @@ test("side panel keeps channel guidance short and clean", () => {
   );
   assert.match(sidePanelScript, /function setLineBreakText/);
   assert.doesNotMatch(sidePanelScript, /channelNoteText\.innerHTML/);
+});
+
+test("bulk ZIP downloads expose format choice and guarded preparing states", () => {
+  assert.match(sidePanelHtml, /id="bulk-export-format"[\s\S]*class="bulk-format-trigger"/);
+  assert.match(sidePanelHtml, /id="bulk-export-format-menu"[\s\S]*class="bulk-format-menu"/);
+  assert.match(sidePanelHtml, /data-format="txt">TXT<\/button>/);
+  assert.match(sidePanelHtml, /data-format="md">MD<\/button>/);
+  assert.match(sidePanelHtml, /data-format="json">JSON<\/button>/);
+  assert.doesNotMatch(sidePanelHtml, /class="bulk-export-format"/);
+  assert.match(sidePanelScript, /isPreparingZip:\s*false/);
+  assert.match(sidePanelScript, /function setBulkExportFormat/);
+  assert.match(sidePanelScript, /toggleBulkFormatMenu/);
+  assert.match(sidePanelScript, /Preparing ZIP\.\.\./);
+  assert.match(sidePanelScript, /Downloading\.\.\./);
+  assert.match(sidePanelScript, /showZipDownloadError/);
+  assert.match(sidePanelScript, /downloadBlobWithChromeDownloads/);
+  assert.match(sidePanelScript, /await exportHelpers\.downloadBlobWithChromeDownloads/);
+  assert.match(sidePanelScript, /try\s*\{[\s\S]*?zip\.generateAsync/);
+  assert.match(sidePanelScript, /catch \(error\)/);
+  assert.match(sidePanelCss, /\.bulk-format-menu\s*\{[\s\S]*?top:\s*calc\(100% \+ 7px\);/);
+  assert.doesNotMatch(sidePanelCss, /\.bulk-format-menu\s*\{[\s\S]*?bottom:\s*calc\(100% \+ 7px\);/);
 });
 
 test("side panel shows channel loading and timeout states before allowing a scan", () => {
@@ -787,7 +855,7 @@ test("side panel uses state-based channel actions and cleaner progress labels", 
     sidePanelScript,
     /elements\.btnDownloadChannelZip\.hidden = !canDownloadTranscripts \|\| !shouldShowDownloadAction;/,
   );
-  assert.match(sidePanelScript, /'Scan newly loaded'/);
+  assert.match(sidePanelScript, /`Scan newly loaded \$\{itemLabel\}`/);
   assert.match(
     sidePanelScript,
     /`Download \$\{availableCount\} \$\{isShortsTab \? 'Shorts ' : ''\}\$\{transcriptLabel\}`/,
@@ -796,6 +864,7 @@ test("side panel uses state-based channel actions and cleaner progress labels", 
 
 test("channel action buttons separate the main action from secondary controls", () => {
   assert.match(sidePanelHtml, /class="action-btn primary channel-main-action"/);
+  assert.match(sidePanelHtml, /class="action-btn quiet-danger"/);
   assert.match(sidePanelHtml, /class="channel-secondary-actions"/);
   assert.match(
     sidePanelHtml,
@@ -813,6 +882,7 @@ test("channel action buttons separate the main action from secondary controls", 
     sidePanelCss,
     /\.channel-secondary-actions\s*\{[\s\S]*?display:\s*flex;[\s\S]*?gap:\s*10px;/,
   );
+  assert.match(sidePanelCss, /\.action-btn\.quiet-danger\s*\{/);
 });
 
 test("side panel renders real channel avatars and falls back on missing or broken images", () => {
@@ -831,6 +901,12 @@ test("side panel renders real channel avatars and falls back on missing or broke
     /elements\.channelAvatarFallback\.hidden = false;/,
   );
   assert.match(sidePanelScript, /elements\.channelAvatar\.hidden = true;/);
+});
+
+test("side panel rejects stale non-video responses by page key", () => {
+  assert.match(sidePanelScript, /pageKey:/);
+  assert.match(sidePanelScript, /loadContext\.pageKey/);
+  assert.match(sidePanelScript, /activeLoadContext\.pageKey/);
 });
 
 test("channel avatar fallback displays initials from the channel name", () => {

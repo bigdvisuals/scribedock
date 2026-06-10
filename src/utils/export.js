@@ -201,7 +201,7 @@
   }
 
   function createChannelTranscriptFileName(index, videoTitle, videoId) {
-    var safeIndex = String(Math.max(1, Number(index) || 1)).padStart(3, "0");
+    var safeIndex = String(Math.max(1, Number(index) || 1));
     var safeTitle = sanitizeDisplayFilePart(videoTitle, "Untitled video");
     var safeVideoId = sanitizeDisplayFilePart(videoId, "unknown-video");
 
@@ -209,10 +209,54 @@
   }
 
   function createPlaylistTranscriptFileName(index, videoTitle) {
-    var safeIndex = String(Math.max(1, Number(index) || 1)).padStart(2, "0");
+    var safeIndex = String(Math.max(1, Number(index) || 1));
     var safeTitle = sanitizeDisplayFilePart(videoTitle, "Untitled video");
 
     return safeIndex + " - " + safeTitle + ".txt";
+  }
+
+  function normalizeBulkExportFormat(format) {
+    var safeFormat = String(format || "txt").toLowerCase();
+
+    return safeFormat === "md" || safeFormat === "json" ? safeFormat : "txt";
+  }
+
+  function createBulkTranscriptFileName(index, videoTitle, format, includeVideoId, videoId) {
+    var safeFormat = normalizeBulkExportFormat(format);
+
+    if (includeVideoId) {
+      return createChannelTranscriptFileName(index, videoTitle, videoId).replace(/\.txt$/, "." + safeFormat);
+    }
+
+    return createPlaylistTranscriptFileName(index, videoTitle).replace(/\.txt$/, "." + safeFormat);
+  }
+
+  function buildBulkTranscriptFile(video, format, collectionName, downloadedAt) {
+    var safeVideo = video || {};
+    var safeFormat = normalizeBulkExportFormat(format);
+
+    if (safeFormat === "md") {
+      return buildMarkdownTranscript(
+        safeVideo.title || "Unknown video",
+        safeVideo.url || "",
+        safeVideo.rows
+      );
+    }
+
+    if (safeFormat === "json") {
+      return buildJsonTranscriptExport({
+        title: safeVideo.title || "",
+        videoId: safeVideo.videoId || "",
+        url: safeVideo.url || "",
+        channel: collectionName || "",
+        languageLabel: safeVideo.transcriptLanguage || "",
+        source: safeVideo.source || "",
+        exportedAt: downloadedAt || "",
+        rows: safeVideo.rows
+      });
+    }
+
+    return buildChannelTranscriptFile(safeVideo, collectionName, downloadedAt);
   }
 
   function buildChannelTranscriptFile(video, channelName, downloadedAt) {
@@ -355,6 +399,89 @@
     return createSafeSlug(playlistTitle, "playlist") + "-playlist-transcripts.zip";
   }
 
+  function sanitizeDownloadFileName(fileName) {
+    return String(fileName || "youtube-transcripts.zip")
+      .replace(/[<>:"/\\|?*\u0000-\u001f]/g, " ")
+      .replace(/\s+/g, " ")
+      .trim() || "youtube-transcripts.zip";
+  }
+
+  function getChromeDownloadLastError(chromeApi) {
+    var lastError = chromeApi && chromeApi.runtime
+      ? chromeApi.runtime.lastError
+      : null;
+
+    if (!lastError) {
+      return "";
+    }
+
+    return lastError.message || String(lastError);
+  }
+
+  function downloadBlobWithChromeDownloads(fileName, blob, options) {
+    var safeOptions = options || {};
+    var chromeApi = safeOptions.chromeApi || root.chrome;
+    var urlApi = safeOptions.urlApi || root.URL;
+    var safeFileName = sanitizeDownloadFileName(fileName);
+    var objectUrl;
+
+    if (!blob) {
+      return Promise.reject(new Error("ZIP blob is missing."));
+    }
+
+    if (!urlApi || typeof urlApi.createObjectURL !== "function") {
+      return Promise.reject(new Error("Object URL support is not available for ZIP download."));
+    }
+
+    if (
+      !chromeApi ||
+      !chromeApi.downloads ||
+      typeof chromeApi.downloads.download !== "function"
+    ) {
+      return Promise.reject(new Error("Chrome downloads API is not available for ZIP download."));
+    }
+
+    return new Promise(function downloadZip(resolve, reject) {
+      function revokeObjectUrl() {
+        if (objectUrl && urlApi && typeof urlApi.revokeObjectURL === "function") {
+          urlApi.revokeObjectURL(objectUrl);
+        }
+      }
+
+      try {
+        objectUrl = urlApi.createObjectURL(blob);
+        chromeApi.downloads.download(
+          {
+            url: objectUrl,
+            filename: safeFileName,
+            conflictAction: "uniquify",
+            saveAs: false
+          },
+          function handleDownloadStarted(downloadId) {
+            var lastErrorMessage = getChromeDownloadLastError(chromeApi);
+
+            revokeObjectUrl();
+
+            if (lastErrorMessage) {
+              reject(new Error(lastErrorMessage));
+              return;
+            }
+
+            if (typeof downloadId !== "number") {
+              reject(new Error("Chrome did not start the ZIP download."));
+              return;
+            }
+
+            resolve(downloadId);
+          }
+        );
+      } catch (error) {
+        revokeObjectUrl();
+        reject(error);
+      }
+    });
+  }
+
   function downloadTextFile(fileName, text, documentValue, contentType) {
     var doc = documentValue || root.document;
     var blob;
@@ -407,6 +534,7 @@
     buildChannelManifest: buildChannelManifest,
     buildChannelReadme: buildChannelReadme,
     buildChannelTranscriptFile: buildChannelTranscriptFile,
+    buildBulkTranscriptFile: buildBulkTranscriptFile,
     buildFailedVideosReport: buildFailedVideosReport,
     buildJsonTranscriptExport: buildJsonTranscriptExport,
     buildMarkdownTranscript: buildMarkdownTranscript,
@@ -416,9 +544,11 @@
     buildVttTranscript: buildVttTranscript,
     createChannelTranscriptFileName: createChannelTranscriptFileName,
     createChannelZipFileName: createChannelZipFileName,
+    createBulkTranscriptFileName: createBulkTranscriptFileName,
     createPlaylistTranscriptFileName: createPlaylistTranscriptFileName,
     createPlaylistZipFileName: createPlaylistZipFileName,
     createSafeFileName: createSafeFileName,
+    downloadBlobWithChromeDownloads: downloadBlobWithChromeDownloads,
     downloadBlobFile: downloadBlobFile,
     downloadTextFile: downloadTextFile
   };

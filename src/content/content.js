@@ -141,6 +141,8 @@
       playlistUrl: "",
       playlistTitle: "",
       playlistId: "",
+      sourceType: "",
+      pageKey: "",
       discoveredVideos: [],
       processedVideoIds: {},
       queuedVideoIds: {},
@@ -251,6 +253,38 @@
     }
 
     return "";
+  }
+
+  function getPageKeyFromContext(context, urlValue) {
+    var safeContext = context || {};
+    var youtube = getYouTubeHelpers();
+    var videoId;
+
+    if (safeContext.pageKey) {
+      return safeContext.pageKey;
+    }
+
+    if (safeContext.mode === "PLAYLIST_MODE") {
+      return "playlist:" + (safeContext.playlistId || urlValue || "");
+    }
+
+    if (safeContext.mode === "CHANNEL_MODE") {
+      return [
+        "channel",
+        safeContext.channelHandle || urlValue || "",
+        safeContext.channelTab || "videos"
+      ].join(":");
+    }
+
+    if (safeContext.mode === "VIDEO_MODE") {
+      videoId = youtube && typeof youtube.getVideoIdFromUrl === "function"
+        ? youtube.getVideoIdFromUrl(urlValue || window.location.href)
+        : currentVideoId;
+
+      return "video:" + (videoId || "");
+    }
+
+    return safeContext.isYouTubePage ? "youtube-other:" + (urlValue || "") : "non-youtube";
   }
 
   function getVisibleChannelVideos() {
@@ -690,6 +724,7 @@
   function syncPlaylistScanContext() {
     var context = getPageContext();
     var metadata;
+    var pageKey = getPageKeyFromContext(context, window.location.href);
 
     if (context.mode !== "PLAYLIST_MODE") {
       if (
@@ -704,8 +739,17 @@
 
     metadata = getCurrentPlaylistMetadata();
     playlistScanState.playlistUrl = window.location.href;
-    playlistScanState.playlistTitle = metadata.playlistTitle || "YouTube playlist";
+    playlistScanState.playlistTitle =
+      context.playlistTitle ||
+      metadata.playlistTitle ||
+      (context.sourceType === "queue"
+        ? "YouTube video queue"
+        : context.sourceType === "show"
+          ? "YouTube show"
+          : "YouTube playlist");
     playlistScanState.playlistId = context.playlistId || "";
+    playlistScanState.sourceType = context.sourceType || "playlist";
+    playlistScanState.pageKey = pageKey;
 
     return context;
   }
@@ -737,6 +781,8 @@
           isYouTubePage: playlistContext.isYouTubePage,
           currentUrl: window.location.href,
           playlistId: playlistContext.playlistId || "",
+          sourceType: playlistContext.sourceType || "playlist",
+          pageKey: getPageKeyFromContext(playlistContext, window.location.href),
           playlistUrl: playlistScanState.playlistUrl,
           playlistTitle: playlistScanState.playlistTitle || "YouTube playlist",
           videoId: playlistContext.videoId || "",
@@ -833,6 +879,8 @@
       playlistUrl: playlistScanState.playlistUrl,
       playlistTitle: playlistScanState.playlistTitle,
       playlistId: playlistScanState.playlistId,
+      sourceType: playlistScanState.sourceType || "playlist",
+      pageKey: playlistScanState.pageKey || "",
       discoveredCount: playlistScanState.discoveredVideos.length,
       queuedCount: playlistScanState.queue.length,
       completedCount:
@@ -855,6 +903,8 @@
       playlistUrl: playlistScanState.playlistUrl,
       playlistTitle: playlistScanState.playlistTitle,
       playlistId: playlistScanState.playlistId,
+      sourceType: playlistScanState.sourceType || "playlist",
+      pageKey: playlistScanState.pageKey || "",
       status: playlistScanState.status,
       discoveredCount: playlistScanState.discoveredVideos.length,
       preferredTranscriptLanguage:
@@ -1509,11 +1559,15 @@
 
   function getTranscriptDebugOptions() {
     var isEnabled = false;
+    var storageArea;
 
     try {
-      isEnabled =
-        window.localStorage &&
-        window.localStorage.getItem("ytTranscriptHelperDebug") === "true";
+      storageArea = window.localStorage;
+      isEnabled = Boolean(
+        storageArea &&
+          (storageArea.getItem("scribedockDebug") === "true" ||
+            storageArea.getItem("ytTranscriptHelperDebug") === "true"),
+      );
     } catch (error) {
       isEnabled = false;
     }
@@ -1528,7 +1582,7 @@
 
     return {
       debugLogger: function debugLogger(message) {
-        window.console.debug("[YT Transcript Helper] " + message);
+        window.console.debug("[ScribeDock] " + message);
       },
     };
   }
@@ -2537,10 +2591,13 @@
     }
 
     var action;
-    detectedVideoId = helpers.getCurrentVideoId(
-      document,
-      window.location.href,
-    );
+    // During YouTube SPA back/forward navigation, old watch-page DOM can linger
+    // after the URL has already changed to a channel or playlist page. Trust the
+    // URL here so stale ytd-watch-flexy nodes cannot keep an old video active.
+    detectedVideoId =
+      typeof helpers.getVideoIdFromUrl === "function"
+        ? helpers.getVideoIdFromUrl(window.location.href)
+        : helpers.getCurrentVideoId(document, window.location.href);
     logTranscriptPerformance(
       "video ID detection time",
       detectionStartTime,
@@ -2625,12 +2682,14 @@
   function handlePlaylistNavigationForCurrentUrl(reason, routeInfo) {
     var context = getPageContext();
     var routeChanged = routeInfo && routeInfo.previousUrl !== routeInfo.newUrl;
+    var nextPageKey = getPageKeyFromContext(context, window.location.href);
 
     if (context.mode === "PLAYLIST_MODE") {
       if (
         routeChanged ||
         playlistScanState.playlistUrl !== window.location.href ||
-        playlistScanState.playlistId !== (context.playlistId || "")
+        playlistScanState.playlistId !== (context.playlistId || "") ||
+        playlistScanState.pageKey !== nextPageKey
       ) {
         resetPlaylistScanState();
       }

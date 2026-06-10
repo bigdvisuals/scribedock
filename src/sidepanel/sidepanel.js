@@ -72,6 +72,9 @@ document.addEventListener('DOMContentLoaded', () => {
     btnPauseChannelScan: document.getElementById('btn-pause-channel-scan'),
     btnResumeChannelScan: document.getElementById('btn-resume-channel-scan'),
     btnCancelChannelScan: document.getElementById('btn-cancel-channel-scan'),
+    bulkExportFormatChannel: document.getElementById('bulk-export-format-channel'),
+    bulkExportFormatChannelLabel: document.getElementById('bulk-export-format-channel-label'),
+    bulkExportFormatChannelMenu: document.getElementById('bulk-export-format-channel-menu'),
     btnDownloadChannelZip: document.getElementById('btn-download-channel-zip'),
     playlistTitle: document.getElementById('playlist-title'),
     playlistStatusPill: document.getElementById('playlist-status-pill'),
@@ -88,11 +91,14 @@ document.addEventListener('DOMContentLoaded', () => {
     btnDownloadPlaylistCurrentVideo: document.getElementById('btn-download-playlist-current-video'),
     btnScanPlaylist: document.getElementById('btn-scan-playlist'),
     btnCancelPlaylistOperation: document.getElementById('btn-cancel-playlist-operation'),
+    bulkExportFormatPlaylist: document.getElementById('bulk-export-format'),
+    bulkExportFormatPlaylistLabel: document.getElementById('bulk-export-format-label'),
+    bulkExportFormatPlaylistMenu: document.getElementById('bulk-export-format-menu'),
     btnDownloadPlaylistZip: document.getElementById('btn-download-playlist-zip')
   };
 
   let currentTabId = null;
-  let activeLoadContext = { tabId: null, videoId: null };
+  let activeLoadContext = { tabId: null, videoId: null, pageKey: '' };
   let pollInterval = null;
   let activeStartSeconds = -1;
   let stateRefreshTimer = null;
@@ -104,9 +110,11 @@ document.addEventListener('DOMContentLoaded', () => {
   let lastActiveRowStart = null;
   let currentActiveRow = null;
   let programmaticScrollTimer = null;
+  let manualSeekLockUntil = 0;
   let languageOptions = [];
   let isLanguageMenuOpen = false;
   let isExportMenuOpen = false;
+  let openBulkFormatMenuMode = '';
   let focusedLanguageOptionIndex = -1;
   const sidePanelState = {
     videoId: null,
@@ -125,10 +133,13 @@ document.addEventListener('DOMContentLoaded', () => {
     channelContext: null,
     channelScanState: null,
     playlistContext: null,
-    playlistScanState: null
+    playlistScanState: null,
+    isPreparingZip: false
   };
   const STATE_REFRESH_INTERVAL_MS = 250;
   const MAX_LOADING_MS = 15000;
+  const TRANSCRIPT_SYNC_OFFSET_SECONDS = 0.35;
+  const MANUAL_SEEK_LOCK_MS = 700;
   const COMMON_LANGUAGE_PRIORITY = [
     'en',
     'es',
@@ -191,6 +202,8 @@ document.addEventListener('DOMContentLoaded', () => {
     elements.btnDownloadTxt.disabled = exportDisabled;
     elements.btnDownloadMd.disabled = exportDisabled;
     elements.btnDownloadJson.disabled = exportDisabled;
+    elements.bulkExportFormatChannel.disabled = sidePanelState.isPreparingZip;
+    elements.bulkExportFormatPlaylist.disabled = sidePanelState.isPreparingZip;
 
     if (exportDisabled) {
       closeExportMenu();
@@ -519,6 +532,88 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  function getBulkFormatElements(mode) {
+    return mode === 'channel'
+      ? {
+          trigger: elements.bulkExportFormatChannel,
+          label: elements.bulkExportFormatChannelLabel,
+          menu: elements.bulkExportFormatChannelMenu
+        }
+      : {
+          trigger: elements.bulkExportFormatPlaylist,
+          label: elements.bulkExportFormatPlaylistLabel,
+          menu: elements.bulkExportFormatPlaylistMenu
+        };
+  }
+
+  function closeBulkFormatMenu({ restoreFocus = false } = {}) {
+    const mode = openBulkFormatMenuMode;
+    const bulkElements = mode ? getBulkFormatElements(mode) : null;
+
+    if (!bulkElements || !bulkElements.menu || !bulkElements.trigger) {
+      openBulkFormatMenuMode = '';
+      return;
+    }
+
+    bulkElements.menu.classList.remove('is-open');
+    bulkElements.menu.hidden = true;
+    bulkElements.trigger.setAttribute('aria-expanded', 'false');
+    openBulkFormatMenuMode = '';
+
+    if (restoreFocus) {
+      bulkElements.trigger.focus();
+    }
+  }
+
+  function openBulkFormatMenu(mode) {
+    const bulkElements = getBulkFormatElements(mode);
+    const firstItem = bulkElements.menu
+      ? bulkElements.menu.querySelector('.bulk-format-menu-item')
+      : null;
+
+    if (!bulkElements.trigger || !bulkElements.menu || bulkElements.trigger.disabled) {
+      return;
+    }
+
+    if (openBulkFormatMenuMode && openBulkFormatMenuMode !== mode) {
+      closeBulkFormatMenu();
+    }
+
+    openBulkFormatMenuMode = mode;
+    bulkElements.menu.classList.add('is-open');
+    bulkElements.menu.hidden = false;
+    bulkElements.trigger.setAttribute('aria-expanded', 'true');
+
+    if (firstItem) {
+      firstItem.focus();
+    }
+  }
+
+  function toggleBulkFormatMenu(mode) {
+    if (openBulkFormatMenuMode === mode) {
+      closeBulkFormatMenu({ restoreFocus: true });
+      return;
+    }
+
+    openBulkFormatMenu(mode);
+  }
+
+  function setBulkExportFormat(mode, format) {
+    const bulkElements = getBulkFormatElements(mode);
+    const safeFormat = format === 'md' || format === 'json' ? format : 'txt';
+    const label = safeFormat === 'json' ? 'JSON' : safeFormat === 'md' ? 'MD' : 'TXT';
+
+    if (!bulkElements.trigger || !bulkElements.label || !bulkElements.menu) {
+      return;
+    }
+
+    bulkElements.trigger.dataset.format = safeFormat;
+    bulkElements.label.textContent = label;
+    bulkElements.menu.querySelectorAll('.bulk-format-menu-item').forEach((item) => {
+      item.classList.toggle('is-selected', item.dataset.format === safeFormat);
+    });
+  }
+
   function clearLanguageMenuPosition() {
     if (!elements.languageMenu) {
       return;
@@ -712,8 +807,44 @@ document.addEventListener('DOMContentLoaded', () => {
     return youtube.getVideoIdFromUrl(tab.url);
   }
 
+  function getPageKeyFromTabContext(tab, urlContext) {
+    const safeUrlContext = urlContext || {};
+    const tabUrl = tab && tab.url ? tab.url : '';
+    const videoId = getVideoIdFromTab(tab);
+
+    if (safeUrlContext.pageKey) {
+      return safeUrlContext.pageKey;
+    }
+
+    if (safeUrlContext.mode === 'VIDEO_MODE') {
+      return `video:${videoId || ''}`;
+    }
+
+    if (safeUrlContext.mode === 'CHANNEL_MODE') {
+      return [
+        'channel',
+        safeUrlContext.channelHandle || getChannelHandleFromUrl(tabUrl),
+        safeUrlContext.channelTab || 'videos'
+      ].join(':');
+    }
+
+    if (safeUrlContext.mode === 'PLAYLIST_MODE') {
+      return `playlist:${safeUrlContext.playlistId || normalizeContextUrl(tabUrl)}`;
+    }
+
+    return normalizeContextUrl(tabUrl);
+  }
+
   function isCurrentLoadContext(loadContext) {
     if (!loadContext || loadContext.tabId !== currentTabId) {
+      return false;
+    }
+
+    if (
+      loadContext.pageKey &&
+      activeLoadContext.pageKey &&
+      loadContext.pageKey !== activeLoadContext.pageKey
+    ) {
       return false;
     }
 
@@ -752,7 +883,8 @@ document.addEventListener('DOMContentLoaded', () => {
     activeLoadId += 1;
     activeLoadContext = {
       tabId: currentTabId,
-      videoId: tabVideoId || null
+      videoId: tabVideoId || null,
+      pageKey: getPageKeyFromTabContext(tab, urlContext)
     };
 
     if (!tab || !tab.url || !urlContext || urlContext.mode === 'UNSUPPORTED_MODE') {
@@ -956,11 +1088,12 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function activateTranscriptRow(rowElement, startSeconds) {
-    sendMessageToTab({ type: 'JUMP_TO_TIME', time: startSeconds });
     activeStartSeconds = startSeconds;
+    manualSeekLockUntil = Date.now() + MANUAL_SEEK_LOCK_MS;
     updateCurrentTime(activeStartSeconds);
-    updateActiveHighlight(activeStartSeconds);
+    setActiveTranscriptRow(rowElement);
     resumeAutoScroll(rowElement);
+    sendMessageToTab({ type: 'JUMP_TO_TIME', time: startSeconds });
   }
 
   function renderRows(rows, query = '') {
@@ -1078,21 +1211,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  function updateActiveHighlight(currentTimeSeconds) {
-    if (currentTimeSeconds < 0) return;
-    
-    const rows = elements.transcriptContainer.querySelectorAll('.transcript-row');
-    let activeRow = null;
-
-    for (const row of rows) {
-      const start = parseFloat(row.dataset.start);
-      const end = parseFloat(row.dataset.end);
-      if (currentTimeSeconds >= start && currentTimeSeconds < end) {
-        activeRow = row;
-        break;
-      }
-    }
-
+  function setActiveTranscriptRow(activeRow) {
     const nextActiveRowStart = activeRow ? activeRow.dataset.start : null;
     const activeRowChanged = nextActiveRowStart !== lastActiveRowStart;
     lastActiveRowStart = nextActiveRowStart;
@@ -1108,6 +1227,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
       currentActiveRow = activeRow;
     }
+
+    return activeRowChanged;
+  }
+
+  function updateActiveHighlight(currentTimeSeconds) {
+    if (currentTimeSeconds < 0) return;
+    
+    const adjustedTimeSeconds = currentTimeSeconds + TRANSCRIPT_SYNC_OFFSET_SECONDS;
+    const rows = elements.transcriptContainer.querySelectorAll('.transcript-row');
+    let activeRow = null;
+
+    for (const row of rows) {
+      const start = parseFloat(row.dataset.start);
+      if (Number.isFinite(start) && start <= adjustedTimeSeconds) {
+        activeRow = row;
+      } else {
+        break;
+      }
+    }
+
+    const activeRowChanged = setActiveTranscriptRow(activeRow);
 
     if (activeRow && activeRowChanged && isAutoScrollEnabled && !isElementInViewport(activeRow)) {
       scrollRowIntoView(activeRow);
@@ -1129,7 +1269,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (res && typeof res.currentTime === 'number') {
       activeStartSeconds = res.currentTime;
       updateCurrentTime(activeStartSeconds);
-      updateActiveHighlight(activeStartSeconds);
+      if (Date.now() >= manualSeekLockUntil) {
+        updateActiveHighlight(activeStartSeconds);
+      }
     }
   }
 
@@ -1349,12 +1491,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     elements.btnScanVisibleVideos.hidden = !shouldShowScanAction;
     elements.btnScanVisibleVideos.disabled = !canUseVisibleVideos;
-    elements.btnScanVisibleVideos.textContent = isCompleted
-      ? 'Scan newly loaded'
+    elements.btnScanVisibleVideos.textContent = isCompleted || hasAnyResults
+      ? `Scan newly loaded ${itemLabel}`
       : isShortsTab
         ? 'Scan visible Shorts'
         : 'Scan visible videos';
-    elements.btnScanVisibleVideos.title = isCompleted
+    elements.btnScanVisibleVideos.title = isCompleted || hasAnyResults
       ? isShortsTab
         ? 'Scan newly loaded Shorts'
         : 'Scan newly loaded channel videos'
@@ -1368,10 +1510,14 @@ document.addEventListener('DOMContentLoaded', () => {
     elements.btnCancelChannelScan.hidden = !canCancelChannelScan;
     elements.btnCancelChannelScan.disabled = !canCancelChannelScan;
     elements.btnDownloadChannelZip.hidden = !canDownloadTranscripts || !shouldShowDownloadAction;
-    elements.btnDownloadChannelZip.disabled = !canDownloadTranscripts;
-    elements.btnDownloadChannelZip.textContent = isPartialExport
-      ? 'Download partial ZIP'
-      : `Download ${availableCount} ${isShortsTab ? 'Shorts ' : ''}${transcriptLabel}`;
+    elements.btnDownloadChannelZip.disabled = !canDownloadTranscripts || sidePanelState.isPreparingZip;
+    elements.bulkExportFormatChannel.disabled = sidePanelState.isPreparingZip;
+
+    if (!sidePanelState.isPreparingZip) {
+      elements.btnDownloadChannelZip.textContent = isPartialExport
+        ? 'Download partial ZIP'
+        : `Download ${availableCount} ${isShortsTab ? 'Shorts ' : ''}${transcriptLabel}`;
+    }
 
     if (isSettling) {
       elements.channelHelperText.textContent = channelLoadMessage;
@@ -1492,8 +1638,12 @@ document.addEventListener('DOMContentLoaded', () => {
     elements.btnScanPlaylist.disabled = isScanning;
     elements.btnScanPlaylist.textContent = isCompleted ? 'Scan playlist again' : 'Scan playlist';
     elements.btnDownloadPlaylistZip.hidden = !canDownloadTranscripts;
-    elements.btnDownloadPlaylistZip.disabled = isScanning || !canDownloadTranscripts;
-    elements.btnDownloadPlaylistZip.textContent = 'Download playlist ZIP';
+    elements.btnDownloadPlaylistZip.disabled = isScanning || !canDownloadTranscripts || sidePanelState.isPreparingZip;
+    elements.bulkExportFormatPlaylist.disabled = sidePanelState.isPreparingZip;
+
+    if (!sidePanelState.isPreparingZip) {
+      elements.btnDownloadPlaylistZip.textContent = 'Download playlist ZIP';
+    }
     elements.btnCancelPlaylistOperation.hidden = !canCancelPlaylist;
     elements.btnCancelPlaylistOperation.disabled = !canCancelPlaylist;
 
@@ -1534,7 +1684,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const expectedVideoId = options.expectedVideoId || sidePanelState.videoId;
     let loadContext = {
       tabId: expectedTabId,
-      videoId: expectedVideoId || null
+      videoId: expectedVideoId || null,
+      pageKey: activeLoadContext.pageKey || ''
     };
 
     if (!options.loadId) {
@@ -1567,7 +1718,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const tabVideoId = getVideoIdFromTab(tab);
     loadContext = {
       tabId: tab.id,
-      videoId: urlContext.mode === 'VIDEO_MODE' ? tabVideoId : null
+      videoId: urlContext.mode === 'VIDEO_MODE' ? tabVideoId : null,
+      pageKey: getPageKeyFromTabContext(tab, urlContext)
     };
 
     if (!options.loadId) {
@@ -1988,6 +2140,60 @@ document.addEventListener('DOMContentLoaded', () => {
     exportJsonTranscript();
   });
 
+  function wireBulkFormatMenu(mode) {
+    const bulkElements = getBulkFormatElements(mode);
+
+    if (!bulkElements.trigger || !bulkElements.menu) {
+      return;
+    }
+
+    bulkElements.trigger.addEventListener('click', () => {
+      toggleBulkFormatMenu(mode);
+    });
+
+    bulkElements.trigger.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowDown' || event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        openBulkFormatMenu(mode);
+      } else if (event.key === 'Escape' && openBulkFormatMenuMode === mode) {
+        event.preventDefault();
+        closeBulkFormatMenu({ restoreFocus: true });
+      }
+    });
+
+    bulkElements.menu.addEventListener('click', (event) => {
+      const item = event.target && event.target.closest
+        ? event.target.closest('.bulk-format-menu-item')
+        : null;
+
+      if (!item) {
+        return;
+      }
+
+      setBulkExportFormat(mode, item.dataset.format || 'txt');
+      closeBulkFormatMenu({ restoreFocus: true });
+    });
+
+    bulkElements.menu.addEventListener('keydown', (event) => {
+      const items = Array.from(bulkElements.menu.querySelectorAll('.bulk-format-menu-item'));
+      const currentIndex = items.indexOf(document.activeElement);
+
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        closeBulkFormatMenu({ restoreFocus: true });
+      } else if (event.key === 'ArrowDown') {
+        event.preventDefault();
+        items[(currentIndex + 1) % items.length].focus();
+      } else if (event.key === 'ArrowUp') {
+        event.preventDefault();
+        items[currentIndex <= 0 ? items.length - 1 : currentIndex - 1].focus();
+      }
+    });
+  }
+
+  wireBulkFormatMenu('channel');
+  wireBulkFormatMenu('playlist');
+
   document.addEventListener('click', (event) => {
     if (
       isExportMenuOpen &&
@@ -1995,6 +2201,17 @@ document.addEventListener('DOMContentLoaded', () => {
       !elements.exportMenuWrap.contains(event.target)
     ) {
       closeExportMenu();
+    }
+
+    if (openBulkFormatMenuMode) {
+      const bulkElements = getBulkFormatElements(openBulkFormatMenuMode);
+      const wrap = bulkElements.trigger
+        ? bulkElements.trigger.closest('.bulk-format-menu-wrap')
+        : null;
+
+      if (wrap && !wrap.contains(event.target)) {
+        closeBulkFormatMenu();
+      }
     }
   });
 
@@ -2048,69 +2265,118 @@ document.addEventListener('DOMContentLoaded', () => {
     loadTranscriptState();
   });
 
-  async function downloadChannelZip() {
-    const exportData = await sendMessageToTab({ type: 'GET_CHANNEL_EXPORT_DATA' });
-    const exportHelpers = window.YTTranscriptExport;
-    const zipCtor = window.JSZip;
+  function getBulkExportFormat(mode) {
+    const element = mode === 'channel'
+      ? elements.bulkExportFormatChannel
+      : elements.bulkExportFormatPlaylist;
+    const value = element && element.dataset ? element.dataset.format : 'txt';
 
-    if (
-      !exportData ||
-      !Array.isArray(exportData.successes) ||
-      exportData.successes.length === 0 ||
-      typeof zipCtor !== 'function'
-    ) {
+    return value === 'md' || value === 'json' ? value : 'txt';
+  }
+
+  function showZipDownloadError(targetElement, error) {
+    const message = error && error.message ? error.message : String(error || 'ZIP download failed.');
+
+    if (targetElement) {
+      targetElement.textContent = message;
+    }
+
+    console.error('ZIP download failed', error);
+  }
+
+  async function downloadChannelZip() {
+    if (sidePanelState.isPreparingZip) {
       return;
     }
 
-    const downloadedAt = new Date().toISOString();
-    const zip = new zipCtor();
-    const successfulVideos = exportData.successes.map((video, index) => {
-      const filename = exportHelpers.createChannelTranscriptFileName(index + 1, video.title, video.videoId);
+    const originalText = elements.btnDownloadChannelZip.textContent;
+    const exportHelpers = window.YTTranscriptExport;
+    const zipCtor = window.JSZip;
+    const format = getBulkExportFormat('channel');
 
-      return {
-        ...video,
-        index: index + 1,
-        filename
-      };
-    });
+    sidePanelState.isPreparingZip = true;
+    elements.btnDownloadChannelZip.disabled = true;
+    elements.bulkExportFormatChannel.disabled = true;
+    elements.btnDownloadChannelZip.textContent = 'Preparing ZIP...';
 
-    successfulVideos.forEach((video) => {
-      zip.file(
-        video.filename,
-        exportHelpers.buildChannelTranscriptFile(video, exportData.channelName, downloadedAt)
+    try {
+      const exportData = await sendMessageToTab({ type: 'GET_CHANNEL_EXPORT_DATA' });
+
+      if (!exportHelpers) {
+        throw new Error('Export tools were not loaded. Close and reopen the side panel.');
+      }
+
+      if (typeof zipCtor !== 'function') {
+        throw new Error('ZIP tools were not loaded. Close and reopen the side panel.');
+      }
+
+      if (typeof exportHelpers.downloadBlobWithChromeDownloads !== 'function') {
+        throw new Error('Chrome download tools were not loaded. Close and reopen the side panel.');
+      }
+
+      if (!exportData || !Array.isArray(exportData.successes) || exportData.successes.length === 0) {
+        throw new Error('No downloaded transcripts are ready for this ZIP.');
+      }
+
+      const downloadedAt = new Date().toISOString();
+      const zip = new zipCtor();
+      const successfulVideos = exportData.successes.map((video, index) => {
+        const filename = exportHelpers.createBulkTranscriptFileName(index + 1, video.title, format, true, video.videoId);
+
+        return {
+          ...video,
+          index: index + 1,
+          filename
+        };
+      });
+
+      successfulVideos.forEach((video) => {
+        zip.file(
+          video.filename,
+          exportHelpers.buildBulkTranscriptFile(video, format, exportData.channelName, downloadedAt)
+        );
+      });
+      zip.file('manifest.json', exportHelpers.buildChannelManifest({
+        channelName: exportData.channelName,
+        channelUrl: exportData.channelUrl,
+        exportedAt: downloadedAt,
+        totalDiscoveredVideos: exportData.discoveredCount,
+        scanStatus: exportData.status,
+        preferredTranscriptLanguage: exportData.preferredTranscriptLanguage,
+        successes: successfulVideos,
+        failures: exportData.failures
+      }));
+      zip.file('README.txt', exportHelpers.buildChannelReadme({
+        channelName: exportData.channelName,
+        channelUrl: exportData.channelUrl,
+        exportedAt: downloadedAt,
+        scanStatus: exportData.status,
+        totalVisibleVideos: exportData.discoveredCount,
+        successes: successfulVideos,
+        failures: exportData.failures
+      }));
+      zip.file('failed-videos.txt', exportHelpers.buildFailedVideosReport(exportData.failures));
+
+      const blob = await zip.generateAsync({
+        type: 'blob',
+        compression: 'DEFLATE'
+      });
+
+      elements.btnDownloadChannelZip.textContent = 'Downloading...';
+
+      await exportHelpers.downloadBlobWithChromeDownloads(
+        exportHelpers.createChannelZipFileName(exportData.channelName, exportData.channelTab),
+        blob,
+        { chromeApi: chrome, urlApi: URL }
       );
-    });
-    zip.file('manifest.json', exportHelpers.buildChannelManifest({
-      channelName: exportData.channelName,
-      channelUrl: exportData.channelUrl,
-      exportedAt: downloadedAt,
-      totalDiscoveredVideos: exportData.discoveredCount,
-      scanStatus: exportData.status,
-      preferredTranscriptLanguage: exportData.preferredTranscriptLanguage,
-      successes: successfulVideos,
-      failures: exportData.failures
-    }));
-    zip.file('README.txt', exportHelpers.buildChannelReadme({
-      channelName: exportData.channelName,
-      channelUrl: exportData.channelUrl,
-      exportedAt: downloadedAt,
-      scanStatus: exportData.status,
-      totalVisibleVideos: exportData.discoveredCount,
-      successes: successfulVideos,
-      failures: exportData.failures
-    }));
-    zip.file('failed-videos.txt', exportHelpers.buildFailedVideosReport(exportData.failures));
-
-    const blob = await zip.generateAsync({
-      type: 'blob',
-      compression: 'DEFLATE'
-    });
-
-    exportHelpers.downloadBlobFile(
-      exportHelpers.createChannelZipFileName(exportData.channelName, exportData.channelTab),
-      blob,
-      document
-    );
+    } catch (error) {
+      showZipDownloadError(elements.channelHelperText, error);
+    } finally {
+      sidePanelState.isPreparingZip = false;
+      elements.bulkExportFormatChannel.disabled = false;
+      elements.btnDownloadChannelZip.disabled = false;
+      elements.btnDownloadChannelZip.textContent = originalText;
+    }
   }
 
   elements.btnDownloadChannelZip.addEventListener('click', () => {
@@ -2128,61 +2394,89 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   async function downloadPlaylistZip() {
-    if (sidePanelState.playlistScanState && sidePanelState.playlistScanState.status === 'scanning') {
-      return;
-    }
-
-    const exportData = await sendMessageToTab({ type: 'GET_PLAYLIST_EXPORT_DATA' });
-    const exportHelpers = window.YTTranscriptExport;
-    const zipCtor = window.JSZip;
-
     if (
-      !exportData ||
-      !Array.isArray(exportData.successes) ||
-      exportData.successes.length === 0 ||
-      typeof zipCtor !== 'function'
+      sidePanelState.isPreparingZip ||
+      (sidePanelState.playlistScanState && sidePanelState.playlistScanState.status === 'scanning')
     ) {
       return;
     }
+    const exportHelpers = window.YTTranscriptExport;
+    const zipCtor = window.JSZip;
+    const format = getBulkExportFormat('playlist');
+    const originalText = elements.btnDownloadPlaylistZip.textContent;
 
-    const downloadedAt = new Date().toISOString();
-    const zip = new zipCtor();
-    const successfulVideos = exportData.successes.map((video, index) => {
-      const filename = exportHelpers.createPlaylistTranscriptFileName(index + 1, video.title);
+    sidePanelState.isPreparingZip = true;
+    elements.btnDownloadPlaylistZip.disabled = true;
+    elements.bulkExportFormatPlaylist.disabled = true;
+    elements.btnDownloadPlaylistZip.textContent = 'Preparing ZIP...';
 
-      return {
-        ...video,
-        index: index + 1,
-        filename
-      };
-    });
+    try {
+      const exportData = await sendMessageToTab({ type: 'GET_PLAYLIST_EXPORT_DATA' });
 
-    successfulVideos.forEach((video) => {
-      zip.file(
-        video.filename,
-        exportHelpers.buildChannelTranscriptFile(video, exportData.playlistTitle, downloadedAt)
+      if (!exportHelpers) {
+        throw new Error('Export tools were not loaded. Close and reopen the side panel.');
+      }
+
+      if (typeof zipCtor !== 'function') {
+        throw new Error('ZIP tools were not loaded. Close and reopen the side panel.');
+      }
+
+      if (typeof exportHelpers.downloadBlobWithChromeDownloads !== 'function') {
+        throw new Error('Chrome download tools were not loaded. Close and reopen the side panel.');
+      }
+
+      if (!exportData || !Array.isArray(exportData.successes) || exportData.successes.length === 0) {
+        throw new Error('No downloaded transcripts are ready for this ZIP.');
+      }
+
+      const downloadedAt = new Date().toISOString();
+      const zip = new zipCtor();
+      const successfulVideos = exportData.successes.map((video, index) => {
+        const filename = exportHelpers.createBulkTranscriptFileName(index + 1, video.title, format, false, video.videoId);
+
+        return {
+          ...video,
+          index: index + 1,
+          filename
+        };
+      });
+
+      successfulVideos.forEach((video) => {
+        zip.file(
+          video.filename,
+          exportHelpers.buildBulkTranscriptFile(video, format, exportData.playlistTitle, downloadedAt)
+        );
+      });
+      zip.file('manifest.json', exportHelpers.buildPlaylistManifest({
+        playlistTitle: exportData.playlistTitle,
+        playlistUrl: exportData.playlistUrl,
+        exportedAt: downloadedAt,
+        totalVideosFound: exportData.discoveredCount,
+        successes: successfulVideos,
+        failures: exportData.failures
+      }));
+      zip.file('failed-videos.txt', exportHelpers.buildFailedVideosReport(exportData.failures));
+
+      const blob = await zip.generateAsync({
+        type: 'blob',
+        compression: 'DEFLATE'
+      });
+
+      elements.btnDownloadPlaylistZip.textContent = 'Downloading...';
+
+      await exportHelpers.downloadBlobWithChromeDownloads(
+        exportHelpers.createPlaylistZipFileName(exportData.playlistTitle),
+        blob,
+        { chromeApi: chrome, urlApi: URL }
       );
-    });
-    zip.file('manifest.json', exportHelpers.buildPlaylistManifest({
-      playlistTitle: exportData.playlistTitle,
-      playlistUrl: exportData.playlistUrl,
-      exportedAt: downloadedAt,
-      totalVideosFound: exportData.discoveredCount,
-      successes: successfulVideos,
-      failures: exportData.failures
-    }));
-    zip.file('failed-videos.txt', exportHelpers.buildFailedVideosReport(exportData.failures));
-
-    const blob = await zip.generateAsync({
-      type: 'blob',
-      compression: 'DEFLATE'
-    });
-
-    exportHelpers.downloadBlobFile(
-      exportHelpers.createPlaylistZipFileName(exportData.playlistTitle),
-      blob,
-      document
-    );
+    } catch (error) {
+      showZipDownloadError(elements.playlistHelperText, error);
+    } finally {
+      sidePanelState.isPreparingZip = false;
+      elements.bulkExportFormatPlaylist.disabled = false;
+      elements.btnDownloadPlaylistZip.disabled = false;
+      elements.btnDownloadPlaylistZip.textContent = originalText;
+    }
   }
 
   elements.btnDownloadPlaylistZip.addEventListener('click', () => {

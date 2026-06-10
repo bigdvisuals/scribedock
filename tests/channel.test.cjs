@@ -18,7 +18,7 @@ function createAnchor(href, title, thumbnailUrl, options = {}) {
     ? null
     : {
         querySelector(selector) {
-          if (selector === "#video-title, #video-title-link, a#video-title-link, yt-formatted-string#video-title") {
+          if (selector.indexOf("video-title") !== -1 || selector.indexOf(".title") !== -1) {
             return {
               getAttribute(name) {
                 return name === "title" ? options.cardTitle || "" : "";
@@ -295,6 +295,35 @@ test("falls back to an untitled label when no real title is available", () => {
         videoId: "dQw4w9WgXcQ",
         url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         title: "",
+        thumbnailUrl: "https://img/one.jpg",
+        isShort: false
+      }
+    ]
+  );
+});
+
+test("updates a duplicate channel video when a later anchor has the real title", () => {
+  const fakeDocument = {
+    querySelector() {
+      return null;
+    },
+    querySelectorAll() {
+      return [
+        createAnchor("/watch?v=dQw4w9WgXcQ", "17:47", "https://img/one.jpg"),
+        createAnchor("/watch?v=dQw4w9WgXcQ", "My App Failed - Real Title", "", {
+          cardTitle: "My App Failed - Real Title"
+        })
+      ];
+    }
+  };
+
+  assert.deepEqual(
+    channel.extractVisibleChannelVideos(fakeDocument, "https://www.youtube.com/@demo/videos"),
+    [
+      {
+        videoId: "dQw4w9WgXcQ",
+        url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        title: "My App Failed - Real Title",
         thumbnailUrl: "https://img/one.jpg",
         isShort: false
       }

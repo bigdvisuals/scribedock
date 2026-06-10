@@ -47,8 +47,94 @@
     return url.searchParams.get("list") || "";
   }
 
+  function isValidVideoId(videoId) {
+    return Boolean(videoId && /^[a-zA-Z0-9_-]{11}$/.test(videoId));
+  }
+
+  function getWatchVideosQueueInfoFromUrl(urlValue) {
+    var url;
+    var rawVideoIds;
+    var seenVideoIds = {};
+    var videoIds = [];
+
+    if (!isYouTubeUrl(urlValue)) {
+      return {
+        videoIds: [],
+        title: ""
+      };
+    }
+
+    try {
+      url = new URL(urlValue);
+    } catch (error) {
+      return {
+        videoIds: [],
+        title: ""
+      };
+    }
+
+    if (url.pathname !== "/watch_videos") {
+      return {
+        videoIds: [],
+        title: ""
+      };
+    }
+
+    rawVideoIds = url.searchParams.get("video_ids") || "";
+    rawVideoIds.split(",").forEach(function addVideoId(videoId) {
+      var safeVideoId = String(videoId || "").trim();
+
+      if (!isValidVideoId(safeVideoId) || seenVideoIds[safeVideoId]) {
+        return;
+      }
+
+      seenVideoIds[safeVideoId] = true;
+      videoIds.push(safeVideoId);
+    });
+
+    return {
+      videoIds: videoIds,
+      title: String(url.searchParams.get("title") || "").replace(/\s+/g, " ").trim()
+    };
+  }
+
+  function isYouTubeShowUrl(urlValue) {
+    var url;
+    var pathParts;
+
+    if (!isYouTubeUrl(urlValue)) {
+      return false;
+    }
+
+    try {
+      url = new URL(urlValue);
+    } catch (error) {
+      return false;
+    }
+
+    pathParts = url.pathname.split("/").filter(Boolean);
+
+    return pathParts[0] === "show" && pathParts.length >= 2;
+  }
+
+  function getShowPageKeyFromUrl(urlValue) {
+    var url;
+
+    try {
+      url = new URL(urlValue);
+    } catch (error) {
+      return "show:";
+    }
+
+    return "show:" + url.pathname;
+  }
+
   function isSupportedYouTubePlaylistUrl(urlValue) {
-    return Boolean(getPlaylistIdFromUrl(urlValue));
+    return Boolean(
+      getPlaylistIdFromUrl(urlValue) ||
+      getWatchVideosQueueInfoFromUrl(urlValue).videoIds.length > 0 ||
+      isYouTubeShowUrl(urlValue)
+    );
   }
 
   function getChannelHandleFromUrl(urlValue) {
@@ -129,7 +215,29 @@
 
   function getPageContextFromUrl(urlValue) {
     var playlistId = getPlaylistIdFromUrl(urlValue);
+    var queueInfo = getWatchVideosQueueInfoFromUrl(urlValue);
     var videoId;
+
+    if (queueInfo.videoIds.length > 0) {
+      return {
+        mode: "PLAYLIST_MODE",
+        isYouTubePage: true,
+        playlistId: "",
+        sourceType: "queue",
+        pageKey: "queue:" + queueInfo.videoIds.join(","),
+        playlistTitle: queueInfo.title || "YouTube video queue"
+      };
+    }
+
+    if (isYouTubeShowUrl(urlValue)) {
+      return {
+        mode: "PLAYLIST_MODE",
+        isYouTubePage: true,
+        playlistId: "",
+        sourceType: "show",
+        pageKey: getShowPageKeyFromUrl(urlValue)
+      };
+    }
 
     if (playlistId) {
       videoId = isSupportedYouTubeVideoUrl(urlValue)
@@ -177,6 +285,7 @@
     getPageContextFromUrl: getPageContextFromUrl,
     getChannelTabFromUrl: getChannelTabFromUrl,
     getPlaylistIdFromUrl: getPlaylistIdFromUrl,
+    getWatchVideosQueueInfoFromUrl: getWatchVideosQueueInfoFromUrl,
     isSupportedYouTubeChannelUrl: isSupportedYouTubeChannelUrl,
     isSupportedYouTubePlaylistUrl: isSupportedYouTubePlaylistUrl,
     isSupportedYouTubeVideoUrl: isSupportedYouTubeVideoUrl,

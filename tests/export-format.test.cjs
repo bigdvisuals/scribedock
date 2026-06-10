@@ -91,11 +91,11 @@ test("creates safe transcript filenames", () => {
 test("builds channel export filenames and metadata files", () => {
   assert.equal(
     exportHelpers.createChannelTranscriptFileName(1, "Bad / File: Name?", "dQw4w9WgXcQ"),
-    "001 - Bad File Name [dQw4w9WgXcQ].txt"
+    "1 - Bad File Name [dQw4w9WgXcQ].txt"
   );
   assert.equal(
     exportHelpers.createChannelTranscriptFileName(2, "../CON", "aux"),
-    "002 - CON-file [aux-file].txt"
+    "2 - CON-file [aux-file].txt"
   );
 
   const transcriptFile = exportHelpers.buildChannelTranscriptFile({
@@ -119,7 +119,7 @@ test("builds channel export filenames and metadata files", () => {
         title: "Video Title",
         url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         transcriptLanguage: "English",
-        filename: "001 - Video Title [dQw4w9WgXcQ].txt"
+        filename: "1 - Video Title [dQw4w9WgXcQ].txt"
       }
     ],
     failures: [
@@ -162,7 +162,7 @@ test("builds channel export filenames and metadata files", () => {
       title: "Video Title",
       url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
       language: "English",
-      filename: "001 - Video Title [dQw4w9WgXcQ].txt"
+      filename: "1 - Video Title [dQw4w9WgXcQ].txt"
     }
   ]);
   assert.equal(manifest.scanStatus, "paused");
@@ -200,7 +200,7 @@ test("creates separate channel ZIP names for videos and Shorts", () => {
 test("builds playlist export filenames and manifest data", () => {
   assert.equal(
     exportHelpers.createPlaylistTranscriptFileName(1, "Bad / File: Name?"),
-    "01 - Bad File Name.txt"
+    "1 - Bad File Name.txt"
   );
   assert.equal(
     exportHelpers.createPlaylistTranscriptFileName(12, ""),
@@ -223,7 +223,7 @@ test("builds playlist export filenames and manifest data", () => {
         title: "Available video",
         url: "https://www.youtube.com/watch?v=aaaaaaaaaaa&list=PLdemo",
         transcriptLanguage: "English",
-        filename: "01 - Available video.txt"
+        filename: "1 - Available video.txt"
       }
     ],
     failures: [
@@ -251,13 +251,169 @@ test("builds playlist export filenames and manifest data", () => {
   ]);
 });
 
+test("builds bulk transcript filenames and files for txt markdown and json", () => {
+  const video = {
+    videoId: "aaaaaaaaaaa",
+    title: "Available video",
+    url: "https://www.youtube.com/watch?v=aaaaaaaaaaa",
+    transcriptLanguage: "English",
+    source: "timedtext",
+    rows
+  };
+
+  assert.equal(
+    exportHelpers.createBulkTranscriptFileName(1, video.title, "md", false),
+    "1 - Available video.md"
+  );
+  assert.equal(
+    exportHelpers.createBulkTranscriptFileName(2, "", "json", true, "bbbbbbbbbbb"),
+    "2 - Untitled video [bbbbbbbbbbb].json"
+  );
+  assert.match(
+    exportHelpers.buildBulkTranscriptFile(video, "md", "Collection", "2026-05-25T12:00:00.000Z"),
+    /^# Available video/
+  );
+
+  const json = JSON.parse(
+    exportHelpers.buildBulkTranscriptFile(video, "json", "Collection", "2026-05-25T12:00:00.000Z")
+  );
+  assert.equal(json.title, "Available video");
+  assert.equal(json.videoId, "aaaaaaaaaaa");
+  assert.equal(json.channel, "Collection");
+  assert.equal(json.rows.length, rows.length);
+});
+
+test("builds playlist manifest for large scans with skipped videos", () => {
+  const successes = Array.from({ length: 165 }, (_, index) => ({
+    index: index + 1,
+    videoId: "a".repeat(10) + String(index % 10),
+    title: `Available ${index + 1}`,
+    url: `https://www.youtube.com/watch?v=${index}`,
+    transcriptLanguage: "English",
+    filename: `${index + 1} - Available ${index + 1}.txt`
+  }));
+  const failures = Array.from({ length: 35 }, (_, index) => ({
+    videoId: "b".repeat(10) + String(index % 10),
+    title: `Skipped ${index + 1}`,
+    url: `https://www.youtube.com/watch?v=skip${index}`,
+    reason: "No caption tracks found"
+  }));
+  const manifest = JSON.parse(exportHelpers.buildPlaylistManifest({
+    playlistTitle: "Large Playlist",
+    totalVideosFound: 200,
+    successes,
+    failures
+  }));
+
+  assert.equal(manifest.downloadedCount, 165);
+  assert.equal(manifest.skippedCount, 35);
+  assert.equal(manifest.skippedVideos.length, 35);
+});
+
 test("uses safe untitled filenames and empty failed reports", () => {
   assert.equal(
     exportHelpers.createChannelTranscriptFileName(2, "", "abcdefghijk"),
-    "002 - Untitled video [abcdefghijk].txt"
+    "2 - Untitled video [abcdefghijk].txt"
   );
   assert.equal(
     exportHelpers.buildFailedVideosReport([]),
     "Failed videos\n\nNo failed videos"
+  );
+});
+
+test("downloads ZIP blobs with chrome downloads and revokes object URLs", async () => {
+  assert.equal(typeof exportHelpers.downloadBlobWithChromeDownloads, "function");
+
+  const blob = { size: 123 };
+  const calls = [];
+  const urlApi = {
+    createObjectURL(value) {
+      assert.equal(value, blob);
+      calls.push("create");
+      return "blob:playlist-zip";
+    },
+    revokeObjectURL(url) {
+      calls.push("revoke:" + url);
+    }
+  };
+  const chromeApi = {
+    runtime: {
+      lastError: null
+    },
+    downloads: {
+      download(options, callback) {
+        calls.push(options);
+        callback(42);
+      }
+    }
+  };
+
+  const downloadId = await exportHelpers.downloadBlobWithChromeDownloads(
+    "Playlist ZIP?.zip",
+    blob,
+    { chromeApi, urlApi }
+  );
+
+  assert.equal(downloadId, 42);
+  assert.deepEqual(calls, [
+    "create",
+    {
+      url: "blob:playlist-zip",
+      filename: "Playlist ZIP .zip",
+      conflictAction: "uniquify",
+      saveAs: false
+    },
+    "revoke:blob:playlist-zip"
+  ]);
+});
+
+test("surfaces chrome download errors and still revokes object URLs", async () => {
+  assert.equal(typeof exportHelpers.downloadBlobWithChromeDownloads, "function");
+
+  const calls = [];
+  const chromeApi = {
+    runtime: {
+      lastError: { message: "Download blocked" }
+    },
+    downloads: {
+      download(options, callback) {
+        calls.push(options.filename);
+        callback();
+      }
+    }
+  };
+  const urlApi = {
+    createObjectURL() {
+      calls.push("create");
+      return "blob:failed-zip";
+    },
+    revokeObjectURL(url) {
+      calls.push("revoke:" + url);
+    }
+  };
+
+  await assert.rejects(
+    () => exportHelpers.downloadBlobWithChromeDownloads("playlist.zip", { size: 1 }, { chromeApi, urlApi }),
+    /Download blocked/
+  );
+  assert.deepEqual(calls, ["create", "playlist.zip", "revoke:blob:failed-zip"]);
+});
+
+test("rejects ZIP download when required download inputs are missing", async () => {
+  assert.equal(typeof exportHelpers.downloadBlobWithChromeDownloads, "function");
+
+  await assert.rejects(
+    () => exportHelpers.downloadBlobWithChromeDownloads("playlist.zip", null, {
+      chromeApi: { downloads: { download() {} } },
+      urlApi: { createObjectURL() {} }
+    }),
+    /ZIP blob/
+  );
+  await assert.rejects(
+    () => exportHelpers.downloadBlobWithChromeDownloads("playlist.zip", { size: 1 }, {
+      chromeApi: {},
+      urlApi: { createObjectURL() {} }
+    }),
+    /Chrome downloads/
   );
 });

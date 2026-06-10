@@ -63,6 +63,35 @@ test("classifies playlist URL shapes as playlist mode before plain video mode", 
   );
 });
 
+test("classifies watch_videos queues as playlist-like mode with a stable page key", () => {
+  assert.deepEqual(
+    pageSupport.getPageContextFromUrl(
+      "https://www.youtube.com/watch_videos?video_ids=VfohKtPKzeo%2CBXOYyhVRQV0%2CVfohKtPKzeo&title=Next+Level+Kitchen+%E2%80%A2+Top+episodes+for+you"
+    ),
+    {
+      mode: "PLAYLIST_MODE",
+      isYouTubePage: true,
+      playlistId: "",
+      sourceType: "queue",
+      pageKey: "queue:VfohKtPKzeo,BXOYyhVRQV0",
+      playlistTitle: "Next Level Kitchen • Top episodes for you"
+    }
+  );
+});
+
+test("classifies YouTube show pages as playlist-like mode", () => {
+  assert.deepEqual(
+    pageSupport.getPageContextFromUrl("https://www.youtube.com/show/SCdemoEpisodes"),
+    {
+      mode: "PLAYLIST_MODE",
+      isYouTubePage: true,
+      playlistId: "",
+      sourceType: "show",
+      pageKey: "show:/show/SCdemoEpisodes"
+    }
+  );
+});
+
 test("classifies unsupported YouTube and non-YouTube pages neutrally", () => {
   assert.deepEqual(
     pageSupport.getPageContextFromUrl("https://www.youtube.com/results?search_query=test"),

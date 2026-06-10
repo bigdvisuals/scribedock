@@ -19,6 +19,38 @@
     return String(value || "").replace(/\s+/g, " ").trim();
   }
 
+  function decodeTextEntities(value) {
+    var entityMap = {
+      amp: "&",
+      lt: "<",
+      gt: ">",
+      quot: '"',
+      apos: "'",
+      nbsp: " "
+    };
+
+    return String(value || "").replace(/&(#x?[0-9a-fA-F]+|[a-zA-Z]+);/g, function decodeEntity(match, entity) {
+      var code;
+      var entityName = String(entity || "");
+
+      if (entityName.charAt(0) === "#") {
+        code = entityName.charAt(1).toLowerCase() === "x"
+          ? parseInt(entityName.slice(2), 16)
+          : parseInt(entityName.slice(1), 10);
+
+        return Number.isFinite(code) ? String.fromCodePoint(code) : match;
+      }
+
+      return Object.prototype.hasOwnProperty.call(entityMap, entityName)
+        ? entityMap[entityName]
+        : match;
+    });
+  }
+
+  function normalizeTitleText(value) {
+    return normalizeText(decodeTextEntities(value));
+  }
+
   function normalizeAnchorUrl(href, baseUrl) {
     try {
       return new URL(href, baseUrl).toString();
@@ -39,8 +71,86 @@
     return url.searchParams.get("list") || "";
   }
 
+  function isValidVideoId(videoId) {
+    return Boolean(videoId && /^[a-zA-Z0-9_-]{11}$/.test(videoId));
+  }
+
+  function isWatchVideosQueueUrl(urlValue) {
+    var url;
+
+    try {
+      url = new URL(urlValue);
+    } catch (error) {
+      return false;
+    }
+
+    return url.pathname === "/watch_videos";
+  }
+
+  function isShowPageUrl(urlValue) {
+    var url;
+    var pathParts;
+
+    try {
+      url = new URL(urlValue);
+    } catch (error) {
+      return false;
+    }
+
+    pathParts = url.pathname.split("/").filter(Boolean);
+
+    return pathParts[0] === "show" && pathParts.length >= 2;
+  }
+
+  function parseWatchVideosQueueUrl(urlValue) {
+    var url;
+    var rawVideoIds;
+    var seenVideoIds = {};
+    var videoIds = [];
+
+    try {
+      url = new URL(urlValue);
+    } catch (error) {
+      return {
+        isQueue: false,
+        videoIds: [],
+        title: ""
+      };
+    }
+
+    if (url.pathname !== "/watch_videos") {
+      return {
+        isQueue: false,
+        videoIds: [],
+        title: ""
+      };
+    }
+
+    rawVideoIds = url.searchParams.get("video_ids") || "";
+    rawVideoIds.split(",").forEach(function addVideoId(videoId) {
+      var safeVideoId = String(videoId || "").trim();
+
+      if (!isValidVideoId(safeVideoId) || seenVideoIds[safeVideoId]) {
+        return;
+      }
+
+      seenVideoIds[safeVideoId] = true;
+      videoIds.push(safeVideoId);
+    });
+
+    return {
+      isQueue: true,
+      videoIds: videoIds,
+      title: normalizeText(url.searchParams.get("title") || "")
+    };
+  }
+
   function detectPlaylistPage(urlValue) {
-    return Boolean(getPlaylistIdFromUrl(urlValue));
+    return Boolean(
+      getPlaylistIdFromUrl(urlValue) ||
+      parseWatchVideosQueueUrl(urlValue).videoIds.length > 0 ||
+      isShowPageUrl(urlValue)
+    );
   }
 
   function getVideoIdFromUrl(urlValue) {
@@ -85,8 +195,28 @@
     }
   }
 
-  function isPlaylistLinkForCurrentPage(urlValue, playlistId) {
+  function getPlaylistSourceTypeFromUrl(urlValue) {
+    if (parseWatchVideosQueueUrl(urlValue).videoIds.length > 0) {
+      return "queue";
+    }
+
+    if (isShowPageUrl(urlValue)) {
+      return "show";
+    }
+
+    if (getPlaylistIdFromUrl(urlValue)) {
+      return "playlist";
+    }
+
+    return "";
+  }
+
+  function isPlaylistLinkForCurrentPage(urlValue, playlistId, sourceType) {
     var linkPlaylistId = getPlaylistIdFromUrl(urlValue);
+
+    if (sourceType === "show") {
+      return Boolean(getVideoIdFromUrl(urlValue));
+    }
 
     if (!playlistId) {
       return Boolean(linkPlaylistId);
@@ -157,9 +287,23 @@
 
   function extractPlaylistVideoLinks(documentValue, baseUrl) {
     var playlistId = getPlaylistIdFromUrl(baseUrl);
+    var sourceType = getPlaylistSourceTypeFromUrl(baseUrl);
+    var queueInfo = parseWatchVideosQueueUrl(baseUrl);
     var seenVideoIds = {};
     var videos = [];
     var roots = getPlaylistRoots(documentValue);
+
+    if (sourceType === "queue") {
+      return queueInfo.videoIds.map(function mapQueueVideo(videoId, index) {
+        return {
+          videoId: videoId,
+          url: "https://www.youtube.com/watch?v=" + videoId,
+          title: "",
+          thumbnailUrl: "",
+          index: index + 1
+        };
+      });
+    }
 
     roots.some(function extractFromRoot(rootValue) {
       var anchors = queryVideoAnchors(rootValue);
@@ -175,7 +319,7 @@
         if (
           !videoId ||
           seenVideoIds[videoId] ||
-          !isPlaylistLinkForCurrentPage(url, playlistId)
+          !isPlaylistLinkForCurrentPage(url, playlistId, sourceType)
         ) {
           return;
         }
@@ -218,17 +362,68 @@
     return null;
   }
 
+  function getElementTitleText(element) {
+    return normalizeTitleText(
+      (element && element.innerText) ||
+      (element && element.textContent) ||
+      ""
+    );
+  }
+
+  function getElementTitleAttribute(element) {
+    if (!element || typeof element.getAttribute !== "function") {
+      return "";
+    }
+
+    return normalizeTitleText(
+      element.getAttribute("title") ||
+      element.getAttribute("aria-label") ||
+      ""
+    );
+  }
+
+  function getPlaylistTitleCandidate(element) {
+    return getElementTitleText(element) || getElementTitleAttribute(element);
+  }
+
   function getPlaylistMetadataFromDocument(documentValue) {
-    var titleElement = queryFirst(documentValue, [
+    var titleSelectors = [
+      "yt-page-header-renderer h1",
+      "yt-page-header-renderer #title",
+      "yt-page-header-view-model h1",
       "ytd-playlist-header-renderer h1",
       "ytd-playlist-header-renderer #title",
+      "ytd-playlist-header-renderer yt-formatted-string#title",
       "ytd-playlist-sidebar-primary-info-renderer h1",
+      "ytd-playlist-sidebar-primary-info-renderer #title",
+      "ytd-playlist-panel-renderer h3",
       "ytd-playlist-panel-renderer #title",
-      "#playlist #title"
-    ]);
+      "ytd-playlist-panel-renderer .title",
+      "#playlist h3",
+      "#playlist #title",
+      "#playlist .playlist-title"
+    ];
+    var index;
+    var titleElement;
+    var playlistTitle = "";
+
+    if (!documentValue || typeof documentValue.querySelector !== "function") {
+      return {
+        playlistTitle: ""
+      };
+    }
+
+    for (index = 0; index < titleSelectors.length; index += 1) {
+      titleElement = documentValue.querySelector(titleSelectors[index]);
+      playlistTitle = getPlaylistTitleCandidate(titleElement);
+
+      if (playlistTitle) {
+        break;
+      }
+    }
 
     return {
-      playlistTitle: normalizeText(titleElement && titleElement.textContent)
+      playlistTitle: playlistTitle
     };
   }
 
@@ -272,6 +467,8 @@
       playlistUrl: "",
       playlistTitle: "",
       playlistId: "",
+      sourceType: "",
+      pageKey: "",
       discoveredVideos: [],
       processedVideoIds: {},
       queuedVideoIds: {},
@@ -488,7 +685,9 @@
     extractPlaylistVideoLinks: extractPlaylistVideoLinks,
     getPlaylistIdFromUrl: getPlaylistIdFromUrl,
     getPlaylistMetadataFromDocument: getPlaylistMetadataFromDocument,
+    getPlaylistSourceTypeFromUrl: getPlaylistSourceTypeFromUrl,
     mergePlaylistVideos: mergePlaylistVideos,
+    parseWatchVideosQueueUrl: parseWatchVideosQueueUrl,
     runPlaylistScanQueue: runPlaylistScanQueue,
     scanPlaylistVideos: scanPlaylistVideos
   };

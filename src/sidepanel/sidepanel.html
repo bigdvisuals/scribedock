@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Transcript</title>
+  <title>ScribeDock</title>
   <link rel="stylesheet" href="sidepanel.css">
 </head>
 <body>
@@ -13,7 +13,7 @@
         <header class="video-header" id="video-header" hidden>
           <div class="header-top">
             <div class="brand-lockup">
-              <div class="header-label">Transcript</div>
+              <div class="header-label">ScribeDock</div>
               <div class="video-channel visually-hidden" id="video-channel"></div>
             </div>
             <div class="status-stack">
@@ -76,9 +76,11 @@
 
         <div class="content-region">
           <div class="empty-state" id="state-not-youtube">
-            <div class="empty-state-icon" aria-hidden="true">YT</div>
+            <div class="empty-state-icon" aria-hidden="true">
+              <img class="empty-state-brand-icon" src="../icons/scribedock-48.png" alt="">
+            </div>
             <div class="empty-state-title">Open a YouTube video, channel, or playlist</div>
-            <div class="empty-state-text">Transcript tools appear here when a supported YouTube page is open.</div>
+            <div class="empty-state-text">ScribeDock turns transcripts into clean, searchable text.</div>
             <div class="privacy-note">Works only on YouTube. Transcript text stays local unless you copy or download it.</div>
           </div>
 
@@ -119,14 +121,26 @@
 
               <div class="channel-actions">
                 <div class="channel-primary-actions">
-                  <button id="btn-scan-visible-videos" class="action-btn primary channel-main-action" title="Scan currently visible channel videos">Scan visible videos</button>
+                  <button id="btn-scan-visible-videos" class="action-btn primary channel-main-action" title="Scan newly loaded channel videos">Scan newly loaded videos</button>
                   <button id="btn-resume-channel-scan" class="action-btn primary channel-main-action" title="Resume channel scan" hidden>Resume scan</button>
                 </div>
                 <div class="channel-secondary-actions">
                   <button id="btn-pause-channel-scan" class="action-btn" title="Pause channel scan" hidden>Pause</button>
-                  <button id="btn-cancel-channel-scan" class="action-btn" title="Cancel channel scan" hidden>Cancel</button>
+                  <button id="btn-cancel-channel-scan" class="action-btn quiet-danger" title="Cancel channel scan" hidden>Cancel</button>
                 </div>
-                <button id="btn-download-channel-zip" class="action-btn primary-soft channel-download-action" title="Download available transcripts ZIP" hidden disabled>Download transcripts ZIP</button>
+                <div class="bulk-download-row">
+                  <div class="bulk-format-menu-wrap">
+                    <button id="bulk-export-format-channel" class="bulk-format-trigger" type="button" aria-label="Bulk transcript file format" aria-haspopup="menu" aria-expanded="false" aria-controls="bulk-export-format-channel-menu" data-format="txt">
+                      <span id="bulk-export-format-channel-label">TXT</span>
+                    </button>
+                    <div id="bulk-export-format-channel-menu" class="bulk-format-menu" role="menu" hidden>
+                      <button class="bulk-format-menu-item is-selected" type="button" role="menuitem" data-format="txt">TXT</button>
+                      <button class="bulk-format-menu-item" type="button" role="menuitem" data-format="md">MD</button>
+                      <button class="bulk-format-menu-item" type="button" role="menuitem" data-format="json">JSON</button>
+                    </div>
+                  </div>
+                  <button id="btn-download-channel-zip" class="action-btn primary-soft channel-download-action" title="Download available transcripts ZIP" hidden disabled>Download transcripts ZIP</button>
+                </div>
               </div>
             </div>
           </div>
@@ -175,9 +189,21 @@
                   <button id="btn-scan-playlist" class="action-btn primary channel-main-action" title="Scan playlist videos">Scan playlist</button>
                 </div>
                 <div class="channel-secondary-actions">
-                  <button id="btn-cancel-playlist-operation" class="action-btn" title="Cancel playlist operation" hidden>Cancel</button>
+                  <button id="btn-cancel-playlist-operation" class="action-btn quiet-danger" title="Cancel playlist operation" hidden>Cancel</button>
                 </div>
-                <button id="btn-download-playlist-zip" class="action-btn primary-soft channel-download-action" title="Download playlist ZIP" hidden disabled>Download playlist ZIP</button>
+                <div class="bulk-download-row">
+                  <div class="bulk-format-menu-wrap">
+                    <button id="bulk-export-format" class="bulk-format-trigger" type="button" aria-label="Bulk transcript file format" aria-haspopup="menu" aria-expanded="false" aria-controls="bulk-export-format-menu" data-format="txt">
+                      <span id="bulk-export-format-label">TXT</span>
+                    </button>
+                    <div id="bulk-export-format-menu" class="bulk-format-menu" role="menu" hidden>
+                      <button class="bulk-format-menu-item is-selected" type="button" role="menuitem" data-format="txt">TXT</button>
+                      <button class="bulk-format-menu-item" type="button" role="menuitem" data-format="md">MD</button>
+                      <button class="bulk-format-menu-item" type="button" role="menuitem" data-format="json">JSON</button>
+                    </div>
+                  </div>
+                  <button id="btn-download-playlist-zip" class="action-btn primary-soft channel-download-action" title="Download playlist ZIP" hidden disabled>Download playlist ZIP</button>
+                </div>
               </div>
             </div>
           </div>

@@ -184,10 +184,10 @@
 
     titleElement =
       card && typeof card.querySelector === "function"
-        ? card.querySelector(
-            "#video-title, #video-title-link, a#video-title-link, yt-formatted-string#video-title",
-          )
-        : null;
+          ? card.querySelector(
+              "#video-title, #video-title-link, a#video-title-link, yt-formatted-string#video-title, .title, h3 a",
+            )
+          : null;
 
     return cleanVideoTitle(
       (titleElement &&
@@ -226,23 +226,42 @@
       var url = normalizeAnchorUrl(href, baseUrl);
       var info = getVideoInfoFromUrl(url);
       var card = getAnchorCard(anchor);
+      var title;
+      var thumbnailUrl;
+      var existingVideo;
 
       if (
         !info ||
-        !matchesChannelTab(info, channelTab) ||
-        seenVideoIds[info.videoId]
+        !matchesChannelTab(info, channelTab)
       ) {
         return;
       }
 
-      seenVideoIds[info.videoId] = true;
-      videos.push({
+      title = getAnchorTitle(anchor, card);
+      thumbnailUrl = getAnchorThumbnailUrl(anchor, card);
+      existingVideo = seenVideoIds[info.videoId];
+
+      if (existingVideo) {
+        if (!existingVideo.title && title) {
+          existingVideo.title = title;
+        }
+
+        if (!existingVideo.thumbnailUrl && thumbnailUrl) {
+          existingVideo.thumbnailUrl = thumbnailUrl;
+        }
+
+        return;
+      }
+
+      existingVideo = {
         videoId: info.videoId,
         url: url,
-        title: getAnchorTitle(anchor, card),
-        thumbnailUrl: getAnchorThumbnailUrl(anchor, card),
+        title: title,
+        thumbnailUrl: thumbnailUrl,
         isShort: info.isShort
-      });
+      };
+      seenVideoIds[info.videoId] = existingVideo;
+      videos.push(existingVideo);
     });
 
     return videos;
@@ -260,16 +279,32 @@
 
     discoveredVideos.forEach(function rememberVideo(video) {
       if (video && video.videoId) {
-        seenVideoIds[video.videoId] = true;
+        seenVideoIds[video.videoId] = video;
       }
     });
 
     (Array.isArray(videos) ? videos : []).forEach(function mergeVideo(video) {
-      if (!video || !video.videoId || seenVideoIds[video.videoId]) {
+      var existingVideo;
+
+      if (!video || !video.videoId) {
         return;
       }
 
-      seenVideoIds[video.videoId] = true;
+      existingVideo = seenVideoIds[video.videoId];
+
+      if (existingVideo) {
+        if (!existingVideo.title && video.title) {
+          existingVideo.title = video.title;
+        }
+
+        if (!existingVideo.thumbnailUrl && video.thumbnailUrl) {
+          existingVideo.thumbnailUrl = video.thumbnailUrl;
+        }
+
+        return;
+      }
+
+      seenVideoIds[video.videoId] = video;
       discoveredVideos.push(video);
 
       if (!processedVideoIds[video.videoId] && !queuedVideoIds[video.videoId]) {

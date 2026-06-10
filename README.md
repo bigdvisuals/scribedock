@@ -1,60 +1,86 @@
-# YouTube Transcript Helper
+# ScribeDock
 
-Chrome extension for adding a reliable transcript side panel to YouTube.
+ScribeDock is a Chrome extension for viewing, searching, copying, and exporting YouTube transcripts.
 
-This version fetches and renders available YouTube caption and transcript data. It runs on YouTube video pages and Shorts, detects the current video ID, handles YouTube navigation seamlessly (including SPA navigation), and shows a usable transcript sidebar.
+It gives YouTube videos, Shorts, playlists, and channel pages a cleaner transcript workspace so you can read transcript text, search inside it, copy useful sections, and export the transcript as TXT, Markdown, JSON, or playlist data.
 
-## What Works Now
+## Features
 
-- Loads as a Manifest V3 Chrome extension
-- Runs only on YouTube pages
-- Detects normal YouTube video URLs like `youtube.com/watch?v=VIDEO_ID`
-- Detects YouTube Shorts URLs like `youtube.com/shorts/VIDEO_ID`
-- Also supports mobile YouTube links like `m.youtube.com/shorts/VIDEO_ID`
-- Shows a transcript sidebar on normal video pages
-- Shows transcripts on YouTube Shorts when YouTube exposes transcript data through the fallback paths
-- Detects caption tracks and languages when YouTube exposes them
-- Falls back to YouTube's native transcript rows when direct caption loading is not available
-- Renders timestamped transcript rows
-- Lets timestamps jump the YouTube video
-- Supports transcript search, copy, TXT export, Markdown export, and JSON data export
-- Updates when YouTube changes videos without a full refresh (SPA navigation fix applied)
-- Avoids duplicate sidebars
-- Uses YouTube's live global `window.ytInitialPlayerResponse` and fallback fetch paths for reliable availability checks
-- Clears stale rows immediately upon navigation
+- Manifest V3 Chrome extension
+- Works on supported YouTube video, Shorts, playlist, and channel pages
+- Opens transcript tools in the Chrome side panel
+- Detects YouTube video IDs during normal page loads and YouTube single-page app navigation
+- Searches transcript rows
+- Copies transcript text to the clipboard
+- Exports transcript content as TXT, Markdown, or JSON
+- Exports playlist-related transcript data when supported
+- Keeps transcript processing local in the browser unless you copy or download the text
 
-## How To Load It In Chrome
+## Local Chrome Install
 
-1. Open Chrome.
-2. Go to `chrome://extensions`.
-3. Turn on **Developer mode**.
-4. Click **Load unpacked**.
-5. Select this project folder: `youtube-transcript-extension`.
-6. Open a YouTube video page or YouTube Short.
+Use this when you want to test the extension locally without publishing it.
 
-You should see a sidebar titled `YouTube Transcript Helper`.
+1. Open `chrome://extensions`.
+2. Enable Developer Mode.
+3. Click "Load unpacked".
+4. Select this project folder.
+5. Open a supported YouTube page and click the ScribeDock extension button.
 
-## Debug Mode
+For day-to-day development, selecting the project folder is simplest because Chrome reads the source files directly. For release testing, run the package script, unzip the generated ZIP from `dist/` into a temporary folder, and load that unpacked folder in Chrome.
 
-If you are experiencing issues with the transcript loading, you can enable debug mode to see detailed logs in your browser's DevTools console.
+## Build And Package
 
-To enable debug mode, open your browser's DevTools console (F12) and run:
-```javascript
-localStorage.setItem("ytTranscriptHelperDebug", "true")
-```
-Then refresh the page. Look for logs starting with `[YT Transcript Helper]`.
+This project does not use a bundler. The extension source lives in `manifest.json` and `src/`.
 
-To disable debug mode, run:
-```javascript
-localStorage.removeItem("ytTranscriptHelperDebug")
+To create a Chrome Web Store ZIP package, run:
+
+```bash
+npm run package
 ```
 
-## How To Test The Helper Code
+That script creates a ZIP file in `dist/`. The ZIP is a release artifact, which means it is useful for publishing but should stay separate from the GitHub source repo.
 
-Run this in the VS Code terminal to execute only the extension's test suite:
+## Test
+
+Run the automated test suite with:
+
+```bash
+npm test
+```
+
+This runs:
 
 ```bash
 node --test tests/*.test.cjs
 ```
 
-This checks URL detection, navigation decisions, transcript parsing, formatting, and export helpers.
+The tests cover URL detection, transcript parsing, export formatting, package safety, manifest checks, and side panel behavior.
+
+## Privacy
+
+ScribeDock is designed to work locally in your browser. Transcript text is not sent to a ScribeDock server. The extension reads transcript and page data from supported YouTube pages so it can display, search, copy, and export that information for you.
+
+Do not commit API keys, tokens, passwords, private notes, `.env` files, or packaged release ZIP files to this repository.
+
+## Chrome Web Store Publishing
+
+Use the ZIP generated by `npm run package` for Chrome Web Store submission. Keep that ZIP separate from the source repo because GitHub should contain the source code, documentation, tests, and project files needed to rebuild the package.
+
+Before publishing, verify the generated package by unzipping it into a temporary folder, loading that unpacked folder in Chrome, and testing transcript search, copy, and export on supported YouTube pages.
+
+## Debug Mode
+
+If transcript loading is not working, enable debug logs in Chrome DevTools:
+
+```javascript
+localStorage.setItem("scribedockDebug", "true");
+```
+
+Then refresh the YouTube page and look for logs starting with `[ScribeDock]`.
+
+To turn debug logs off:
+
+```javascript
+localStorage.removeItem("scribedockDebug");
+localStorage.removeItem("ytTranscriptHelperDebug");
+```

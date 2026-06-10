@@ -57,6 +57,24 @@ function createAnchor(href, title, options = {}) {
   };
 }
 
+function createPlaylistTitleDocument(selectorMap) {
+  return {
+    querySelector(selector) {
+      return selectorMap[selector] || null;
+    }
+  };
+}
+
+function createTextElement(text, attributes = {}) {
+  return {
+    textContent: text || "",
+    innerText: text || "",
+    getAttribute(name) {
+      return attributes[name] || "";
+    }
+  };
+}
+
 test("detects playlist-capable URLs", () => {
   assert.equal(
     playlist.detectPlaylistPage("https://www.youtube.com/playlist?list=PLabc123"),
@@ -69,6 +87,124 @@ test("detects playlist-capable URLs", () => {
   assert.equal(
     playlist.detectPlaylistPage("https://www.youtube.com/watch?v=dQw4w9WgXcQ"),
     false
+  );
+});
+
+test("parses watch_videos queue URLs with encoded IDs, duplicates, and title", () => {
+  assert.deepEqual(
+    playlist.parseWatchVideosQueueUrl(
+      "https://www.youtube.com/watch_videos?video_ids=VfohKtPKzeo%2CBXOYyhVRQV0%2Cbad%2CVfohKtPKzeo&title=Next+Level+Kitchen+%E2%80%A2+Top+episodes+for+you"
+    ),
+    {
+      isQueue: true,
+      videoIds: ["VfohKtPKzeo", "BXOYyhVRQV0"],
+      title: "Next Level Kitchen • Top episodes for you"
+    }
+  );
+});
+
+test("extracts real playlist title from modern visible playlist headers", () => {
+  const fakeDocument = createPlaylistTitleDocument({
+    "yt-page-header-renderer h1": createTextElement("  Best of   Startup Secrets  ")
+  });
+
+  assert.deepEqual(playlist.getPlaylistMetadataFromDocument(fakeDocument), {
+    playlistTitle: "Best of Startup Secrets"
+  });
+});
+
+test("extracts watch-page playlist title from attributes when visible text is empty", () => {
+  const fakeDocument = createPlaylistTitleDocument({
+    "ytd-playlist-panel-renderer #title": createTextElement("", {
+      title: "Best of Startup Secrets &amp; Founder Lessons"
+    })
+  });
+
+  assert.deepEqual(playlist.getPlaylistMetadataFromDocument(fakeDocument), {
+    playlistTitle: "Best of Startup Secrets & Founder Lessons"
+  });
+});
+
+test("keeps playlist metadata empty when no real title exists", () => {
+  const fakeDocument = createPlaylistTitleDocument({});
+
+  assert.deepEqual(playlist.getPlaylistMetadataFromDocument(fakeDocument), {
+    playlistTitle: ""
+  });
+});
+
+test("extracts watch_videos queue items without requiring playlist DOM links", () => {
+  const fakeDocument = {
+    querySelector() {
+      return null;
+    },
+    querySelectorAll() {
+      return [];
+    }
+  };
+
+  assert.deepEqual(
+    playlist.extractPlaylistVideoLinks(
+      fakeDocument,
+      "https://www.youtube.com/watch_videos?video_ids=VfohKtPKzeo%2CBXOYyhVRQV0%2CVfohKtPKzeo"
+    ),
+    [
+      {
+        videoId: "VfohKtPKzeo",
+        url: "https://www.youtube.com/watch?v=VfohKtPKzeo",
+        title: "",
+        thumbnailUrl: "",
+        index: 1
+      },
+      {
+        videoId: "BXOYyhVRQV0",
+        url: "https://www.youtube.com/watch?v=BXOYyhVRQV0",
+        title: "",
+        thumbnailUrl: "",
+        index: 2
+      }
+    ]
+  );
+});
+
+test("detects show pages and extracts visible episode links without list parameters", () => {
+  const fakeDocument = {
+    querySelector() {
+      return null;
+    },
+    querySelectorAll(selector) {
+      assert.equal(selector, 'a[href*="/watch?v="]');
+
+      return [
+        createAnchor("/watch?v=aaaaaaaaaaa", "Episode one"),
+        createAnchor("/watch?v=bbbbbbbbbbb", "Episode two"),
+        createAnchor("/watch?v=aaaaaaaaaaa", "Duplicate episode")
+      ];
+    }
+  };
+
+  assert.equal(
+    playlist.detectPlaylistPage("https://www.youtube.com/show/SCdemoEpisodes"),
+    true
+  );
+  assert.deepEqual(
+    playlist.extractPlaylistVideoLinks(fakeDocument, "https://www.youtube.com/show/SCdemoEpisodes"),
+    [
+      {
+        videoId: "aaaaaaaaaaa",
+        url: "https://www.youtube.com/watch?v=aaaaaaaaaaa",
+        title: "Episode one",
+        thumbnailUrl: "",
+        index: 1
+      },
+      {
+        videoId: "bbbbbbbbbbb",
+        url: "https://www.youtube.com/watch?v=bbbbbbbbbbb",
+        title: "Episode two",
+        thumbnailUrl: "",
+        index: 2
+      }
+    ]
   );
 });
 

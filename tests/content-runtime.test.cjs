@@ -136,6 +136,7 @@ function createContentRuntimeHarness() {
   let currentPage = "home";
   let channelHeaderName = "Channel Name";
   let broadChannelName = "Channel Name";
+  let staleWatchFlexyVideoId = "";
 
   class FakeMutationObserver {
     constructor(callback) {
@@ -158,6 +159,28 @@ function createContentRuntimeHarness() {
     querySelector(selector) {
       if (selector === "video") {
         return null;
+      }
+
+      if (selector === "ytd-watch-flexy[video-id]") {
+        return staleWatchFlexyVideoId
+          ? {
+              getAttribute(name) {
+                return name === "video-id" ? staleWatchFlexyVideoId : null;
+              }
+            }
+          : null;
+      }
+
+      if (selector.indexOf('ytd-watch-flexy[video-id="') === 0) {
+        return selector === `ytd-watch-flexy[video-id="${staleWatchFlexyVideoId}"]`
+          ? {}
+          : null;
+      }
+
+      if (selector === "h1.ytd-watch-metadata yt-formatted-string, h1 yt-formatted-string, h1") {
+        return currentPage === "channel" && staleWatchFlexyVideoId
+          ? { textContent: channelHeaderName }
+          : null;
       }
 
       if (selector === "ytd-browse, ytd-two-column-browse-results-renderer, #contents") {
@@ -259,6 +282,7 @@ function createContentRuntimeHarness() {
     setInterval: timerRuntime.setInterval,
     clearInterval: timerRuntime.clearInterval,
     fetch: null,
+    ytInitialPlayerResponse: null,
     chrome: {
       runtime: {
         id: "test-extension",
@@ -303,9 +327,31 @@ function createContentRuntimeHarness() {
       });
       return response;
     },
+    sendMessageAsync(message) {
+      assert.ok(runtimeListeners.length > 0, "content script message listener should be installed");
+
+      return new Promise((resolve) => {
+        runtimeListeners[0](message, {}, resolve);
+      });
+    },
     navigateTo(url) {
       context.location.href = url;
       context.dispatchEvent({ type: "yt-transcript-helper-location-change" });
+    },
+    setVideoMetadata(videoId, title, channelName) {
+      context.ytInitialPlayerResponse = {
+        videoDetails: {
+          videoId,
+          title,
+          author: channelName || ""
+        }
+      };
+    },
+    clearVideoMetadata() {
+      context.ytInitialPlayerResponse = null;
+    },
+    setStaleWatchFlexyVideoId(videoId) {
+      staleWatchFlexyVideoId = videoId || "";
     },
     replaceHomepageDomWithChannelDom() {
       currentPage = "channel";
@@ -341,6 +387,12 @@ test("content script keeps the side-panel runtime message contract", () => {
   assert.match(contentScript, /message\.type === "SCAN_PLAYLIST_TRANSCRIPTS"/);
   assert.match(contentScript, /message\.type === "CANCEL_PLAYLIST_OPERATION"/);
   assert.match(contentScript, /message\.type === "GET_PLAYLIST_EXPORT_DATA"/);
+});
+
+test("content script uses ScribeDock debug branding with the old flag as a fallback", () => {
+  assert.match(contentScript, /getItem\("scribedockDebug"\)/);
+  assert.match(contentScript, /getItem\("ytTranscriptHelperDebug"\)/);
+  assert.match(contentScript, /\[ScribeDock\]/);
 });
 
 test("content script saves explicit language choices and clears them in auto mode", () => {
@@ -629,4 +681,91 @@ test("homepage feed to channel SPA navigation re-checks after the old feed DOM i
     Array.from(channelVideos.videos, (video) => video.videoId),
     ["channel0001", "channel0002"],
   );
+});
+
+test("channel page to video page navigation exposes the current video title", async () => {
+  const harness = createContentRuntimeHarness();
+  const videoId = "vidnav00001";
+
+  harness.installScripts();
+  harness.navigateTo("https://www.youtube.com/@demo/videos");
+  harness.replaceHomepageDomWithChannelDom();
+  harness.advanceBy(700);
+  assert.equal(harness.sendMessage({ type: "GET_PAGE_CONTEXT" }).channelName, "Channel Name");
+
+  harness.setVideoMetadata(
+    videoId,
+    "My App Failed - My Brutal 6 Months Building a Startup",
+    "Current Video Channel"
+  );
+  harness.navigateTo("https://www.youtube.com/watch?v=" + videoId);
+  harness.advanceBy(800);
+  await Promise.resolve();
+  await Promise.resolve();
+
+  const state = await harness.sendMessageAsync({ type: "GET_TRANSCRIPT_STATE" });
+  assert.equal(state.videoId, videoId);
+  assert.equal(state.videoTitle, "My App Failed - My Brutal 6 Months Building a Startup");
+  assert.notEqual(state.videoTitle, "Channel Name");
+});
+
+test("channel back-forward navigation does not keep channel title as video title", async () => {
+  const harness = createContentRuntimeHarness();
+  const videoId = "backforw001";
+  const videoTitle = "The Current Video Title";
+
+  harness.installScripts();
+  harness.navigateTo("https://www.youtube.com/@demo/videos");
+  harness.replaceHomepageDomWithChannelDom();
+  harness.advanceBy(700);
+  assert.equal(harness.sendMessage({ type: "GET_PAGE_CONTEXT" }).channelName, "Channel Name");
+
+  harness.setVideoMetadata(videoId, videoTitle, "Current Video Channel");
+  harness.navigateTo("https://www.youtube.com/watch?v=" + videoId);
+  harness.advanceBy(800);
+  await Promise.resolve();
+  await Promise.resolve();
+
+  let state = await harness.sendMessageAsync({ type: "GET_TRANSCRIPT_STATE" });
+  assert.equal(state.videoId, videoId);
+  assert.equal(state.videoTitle, videoTitle);
+
+  harness.clearVideoMetadata();
+  harness.setStaleWatchFlexyVideoId(videoId);
+  harness.navigateTo("https://www.youtube.com/@demo/videos");
+  harness.advanceBy(800);
+  await Promise.resolve();
+  await Promise.resolve();
+  assert.equal(harness.sendMessage({ type: "GET_PAGE_CONTEXT" }).mode, "CHANNEL_MODE");
+
+  harness.setVideoMetadata(videoId, videoTitle, "Current Video Channel");
+  harness.navigateTo("https://www.youtube.com/watch?v=" + videoId);
+  harness.advanceBy(800);
+  await Promise.resolve();
+  await Promise.resolve();
+
+  state = await harness.sendMessageAsync({ type: "GET_TRANSCRIPT_STATE" });
+  assert.equal(state.videoId, videoId);
+  assert.equal(state.videoTitle, videoTitle);
+  assert.notEqual(state.videoTitle, "Channel Name");
+});
+
+test("playlist page to video page navigation exposes the current video title", async () => {
+  const harness = createContentRuntimeHarness();
+  const videoId = "plnav000001";
+
+  harness.installScripts();
+  harness.navigateTo("https://www.youtube.com/playlist?list=PLdemo");
+  assert.equal(harness.sendMessage({ type: "GET_PAGE_CONTEXT" }).mode, "PLAYLIST_MODE");
+
+  harness.setVideoMetadata(videoId, "Current Playlist Video", "Current Video Channel");
+  harness.navigateTo("https://www.youtube.com/watch?v=" + videoId);
+  harness.advanceBy(800);
+  await Promise.resolve();
+  await Promise.resolve();
+
+  const state = await harness.sendMessageAsync({ type: "GET_TRANSCRIPT_STATE" });
+  assert.equal(state.videoId, videoId);
+  assert.equal(state.videoTitle, "Current Playlist Video");
+  assert.notEqual(state.videoTitle, "YouTube playlist");
 });

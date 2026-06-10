@@ -1,6 +1,6 @@
 # Testing Guide
 
-This document outlines the manual testing steps to verify that the YouTube Transcript Helper extension is functioning correctly in your browser.
+This document outlines the manual testing steps to verify that the ScribeDock extension is functioning correctly in your browser.
 
 ## Manual Testing Steps
 
