@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to ScribeDock</title>
+  <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+  <main class="welcome-shell">
+    <section class="hero-section" aria-labelledby="welcome-title">
+      <div class="brand-row">
+        <img class="brand-icon" src="../icons/scribedock-48.png" alt="" width="48" height="48">
+        <span class="brand-label">ScribeDock</span>
+      </div>
+
+      <div class="hero-copy">
+        <p class="eyebrow">First install guide</p>
+        <h1 id="welcome-title">Welcome to ScribeDock</h1>
+        <p class="hero-text">Turn YouTube videos into searchable, downloadable transcripts without an account or subscription.</p>
+      </div>
+
+      <div class="hero-actions" aria-label="Quick actions">
+        <a class="btn primary" id="btn-open-youtube" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">Open YouTube</a>
+        <a class="btn" id="btn-try-sample-video" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">Try it with this YouTube video</a>
+        <button class="btn" id="btn-open-side-panel" type="button">Open Side Panel</button>
+        <a class="btn quiet" href="#how-it-works">How it works</a>
+      </div>
+
+      <p class="side-panel-status" id="side-panel-status" role="status" aria-live="polite"></p>
+    </section>
+
+    <section class="section-grid" aria-label="ScribeDock guide">
+      <article class="guide-card">
+        <p class="card-kicker">What it does</p>
+        <h2>Transcript tools in one panel</h2>
+        <ul class="feature-list">
+          <li>Get available YouTube transcripts.</li>
+          <li>Search inside transcript rows while watching.</li>
+          <li>Export TXT, Markdown, or JSON.</li>
+          <li>Use playlist and channel workflows when available.</li>
+        </ul>
+      </article>
+
+      <article class="guide-card" id="how-it-works">
+        <p class="card-kicker">How to use it</p>
+        <h2>Five quick steps</h2>
+        <ol class="step-list">
+          <li>Open a YouTube video.</li>
+          <li>Click the ScribeDock extension.</li>
+          <li>Open the side panel.</li>
+          <li>Choose a transcript language.</li>
+          <li>Copy or download the transcript.</li>
+        </ol>
+      </article>
+
+      <article class="guide-card">
+        <p class="card-kicker">Pro tips</p>
+        <h2>Best results</h2>
+        <ul class="feature-list">
+          <li>Works best on videos with captions.</li>
+          <li>Some videos may not expose transcripts.</li>
+          <li>Use playlist or channel mode for bulk exports.</li>
+          <li>Scroll channel pages to load more visible videos.</li>
+        </ul>
+      </article>
+
+      <article class="guide-card trust-card">
+        <p class="card-kicker">Privacy and trust</p>
+        <h2>Local by default</h2>
+        <ul class="feature-list">
+          <li>No account required.</li>
+          <li>No subscription required.</li>
+          <li>No transcript text sent to a ScribeDock server.</li>
+          <li>Local transcript cache stays in your browser to speed up reloads.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="framework-section" aria-labelledby="framework-title">
+      <div>
+        <p class="eyebrow">Goal / context / process / output</p>
+        <h2 id="framework-title">A clear workflow for transcripts</h2>
+      </div>
+      <div class="framework-grid">
+        <div>
+          <span>Role</span>
+          <p>ScribeDock works as your Chrome transcript workspace.</p>
+        </div>
+        <div>
+          <span>Goal</span>
+          <p>Make transcript reading, search, copy, and export fast.</p>
+        </div>
+        <div>
+          <span>Context</span>
+          <p>Use it on supported YouTube videos, playlists, and channels.</p>
+        </div>
+        <div>
+          <span>Process</span>
+          <p>Open YouTube, launch ScribeDock, pick language, then export.</p>
+        </div>
+        <div>
+          <span>Output</span>
+          <p>TXT, Markdown, JSON, and ZIP exports for bulk workflows.</p>
+        </div>
+        <div>
+          <span>Quality bar</span>
+          <p>Clean text, clear limits, safe links, and no spammy prompts.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="welcome-footer">
+      <p>ScribeDock is free. Support and feedback help fund fixes and better exports.</p>
+      <div class="footer-actions">
+        <a class="text-link" data-support-link href="https://ko-fi.com/scribedock" target="_blank" rel="noopener noreferrer">Support ScribeDock</a>
+        <a class="text-link" data-feedback-link href="https://forms.gle/i1tobcHWFWc3Bixt5" target="_blank" rel="noopener noreferrer">Leave feedback</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="welcome.js"></script>
+</body>
+</html>

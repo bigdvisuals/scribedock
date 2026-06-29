@@ -74,6 +74,40 @@
           </div>
         </div>
 
+        <div class="support-nudge-slot video-support-nudge-slot" id="support-nudge-video-slot">
+          <div class="support-nudge-card" id="support-nudge-card" role="status" aria-live="polite" hidden>
+            <div class="support-nudge-copy">
+              <strong>ScribeDock saved you time?</strong>
+              <span>Support future fixes and better exports, or send an idea for what to improve next.</span>
+            </div>
+            <div class="support-nudge-actions">
+              <a
+                class="support-nudge-link"
+                data-support-link
+                data-support-nudge-action="support"
+                href="https://ko-fi.com/scribedock"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Support ScribeDock on Ko-fi"
+              >
+                Support
+              </a>
+              <a
+                class="support-nudge-link secondary"
+                data-feedback-link
+                data-support-nudge-action="feedback"
+                href="https://ko-fi.com/scribedock"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Suggest an idea or support ScribeDock on Ko-fi"
+              >
+                Suggest idea
+              </a>
+              <button id="btn-support-nudge-dismiss" class="support-nudge-dismiss" type="button">Not now</button>
+            </div>
+          </div>
+        </div>
+
         <div class="content-region">
           <div class="empty-state" id="state-not-youtube">
             <div class="empty-state-icon" aria-hidden="true">
@@ -142,6 +176,23 @@
                   <button id="btn-download-channel-zip" class="action-btn primary-soft channel-download-action" title="Download available transcripts ZIP" hidden disabled>Download transcripts ZIP</button>
                 </div>
               </div>
+              <div class="support-card">
+                <div class="support-card-copy">
+                  <strong>ScribeDock is free.</strong>
+                  <span>Support helps fund fixes and better exports.</span>
+                </div>
+                <a
+                  class="support-card-link"
+                  data-support-link
+                  href="https://ko-fi.com/scribedock"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Support ScribeDock on Ko-fi"
+                >
+                  Support
+                </a>
+              </div>
+              <div class="support-nudge-slot" id="support-nudge-channel-slot"></div>
             </div>
           </div>
 
@@ -205,6 +256,23 @@
                   <button id="btn-download-playlist-zip" class="action-btn primary-soft channel-download-action" title="Download playlist ZIP" hidden disabled>Download playlist ZIP</button>
                 </div>
               </div>
+              <div class="support-card">
+                <div class="support-card-copy">
+                  <strong>ScribeDock is free.</strong>
+                  <span>Support helps fund fixes and better exports.</span>
+                </div>
+                <a
+                  class="support-card-link"
+                  data-support-link
+                  href="https://ko-fi.com/scribedock"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Support ScribeDock on Ko-fi"
+                >
+                  Support
+                </a>
+              </div>
+              <div class="support-nudge-slot" id="support-nudge-playlist-slot"></div>
             </div>
           </div>
 
@@ -244,6 +312,7 @@
           </div>
           <div class="footer-actions">
             <span id="footer-time">0:00</span>
+            <a class="support-link" data-support-link href="https://ko-fi.com/scribedock" target="_blank" rel="noopener noreferrer" aria-label="Support ScribeDock on Ko-fi">Support</a>
             <button id="btn-jump-current" class="jump-current-btn" title="Jump to current transcript row" hidden>
               Jump to current
             </button>

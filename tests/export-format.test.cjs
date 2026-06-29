@@ -195,6 +195,10 @@ test("creates separate channel ZIP names for videos and Shorts", () => {
     exportHelpers.createChannelZipFileName("CON", "videos"),
     "con-file-videos-transcripts.zip"
   );
+  assert.equal(
+    exportHelpers.createChannelZipFileName("Vincent Chan", "videos", 2, 3),
+    "vincent-chan-videos-transcripts-part-2-of-3.zip"
+  );
 });
 
 test("builds playlist export filenames and manifest data", () => {
@@ -209,6 +213,10 @@ test("builds playlist export filenames and manifest data", () => {
   assert.equal(
     exportHelpers.createPlaylistZipFileName("My Playlist"),
     "my-playlist-playlist-transcripts.zip"
+  );
+  assert.equal(
+    exportHelpers.createPlaylistZipFileName("My Playlist", 3, 4),
+    "my-playlist-playlist-transcripts-part-3-of-4.zip"
   );
 
   const manifest = JSON.parse(exportHelpers.buildPlaylistManifest({
@@ -283,6 +291,18 @@ test("builds bulk transcript filenames and files for txt markdown and json", () 
   assert.equal(json.rows.length, rows.length);
 });
 
+test("splits large bulk exports into stable ZIP parts", () => {
+  const videos = Array.from({ length: 205 }, (_, index) => ({
+    videoId: String(index + 1).padStart(11, "0")
+  }));
+  const parts = exportHelpers.createBulkZipParts(videos, 100);
+
+  assert.equal(parts.length, 3);
+  assert.deepEqual(parts.map((part) => part.length), [100, 100, 5]);
+  assert.equal(parts[0][0].videoId, "00000000001");
+  assert.equal(parts[2][4].videoId, "00000000205");
+});
+
 test("builds playlist manifest for large scans with skipped videos", () => {
   const successes = Array.from({ length: 165 }, (_, index) => ({
     index: index + 1,
@@ -321,11 +341,12 @@ test("uses safe untitled filenames and empty failed reports", () => {
   );
 });
 
-test("downloads ZIP blobs with chrome downloads and revokes object URLs", async () => {
+test("downloads ZIP blobs with chrome downloads and revokes object URLs after completion", async () => {
   assert.equal(typeof exportHelpers.downloadBlobWithChromeDownloads, "function");
 
   const blob = { size: 123 };
   const calls = [];
+  let changeListener = null;
   const urlApi = {
     createObjectURL(value) {
       assert.equal(value, blob);
@@ -341,6 +362,16 @@ test("downloads ZIP blobs with chrome downloads and revokes object URLs", async 
       lastError: null
     },
     downloads: {
+      onChanged: {
+        addListener(listener) {
+          changeListener = listener;
+          calls.push("add-listener");
+        },
+        removeListener(listener) {
+          assert.equal(listener, changeListener);
+          calls.push("remove-listener");
+        }
+      },
       download(options, callback) {
         calls.push(options);
         callback(42);
@@ -348,11 +379,17 @@ test("downloads ZIP blobs with chrome downloads and revokes object URLs", async 
     }
   };
 
-  const downloadId = await exportHelpers.downloadBlobWithChromeDownloads(
+  const downloadPromise = exportHelpers.downloadBlobWithChromeDownloads(
     "Playlist ZIP?.zip",
     blob,
     { chromeApi, urlApi }
   );
+
+  await Promise.resolve();
+  assert.equal(calls.includes("revoke:blob:playlist-zip"), false);
+  changeListener({ id: 42, state: { current: "complete" } });
+
+  const downloadId = await downloadPromise;
 
   assert.equal(downloadId, 42);
   assert.deepEqual(calls, [
@@ -363,6 +400,8 @@ test("downloads ZIP blobs with chrome downloads and revokes object URLs", async 
       conflictAction: "uniquify",
       saveAs: false
     },
+    "add-listener",
+    "remove-listener",
     "revoke:blob:playlist-zip"
   ]);
 });

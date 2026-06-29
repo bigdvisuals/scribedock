@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "ScribeDock",
   "description": "Read, search, copy, and export YouTube transcripts in a clean side panel.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icons": {
     "16": "src/icons/scribedock-16.png",
     "32": "src/icons/scribedock-32.png",
