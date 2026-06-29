@@ -1251,6 +1251,148 @@ body::before {
   color: var(--text);
 }
 
+.support-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 2px;
+  padding: 10px;
+  border: 1px solid rgba(200, 244, 209, 0.16);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(200, 244, 209, 0.07), rgba(200, 244, 209, 0.025)),
+    rgba(8, 14, 11, 0.34);
+}
+
+.support-card-copy {
+  display: grid;
+  min-width: 0;
+  gap: 2px;
+}
+
+.support-card-copy strong {
+  color: var(--text-primary);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.support-card-copy span {
+  color: var(--text-tertiary);
+  font-size: 11px;
+  line-height: 1.35;
+}
+
+.support-card-link {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  min-height: 28px;
+  padding: 5px 10px;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  background: rgba(112, 230, 189, 0.1);
+  color: var(--accent-green);
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 120ms ease, border-color 120ms ease, color 120ms ease;
+}
+
+.support-card-link:hover {
+  border-color: rgba(200, 244, 209, 0.46);
+  background: rgba(200, 244, 209, 0.15);
+  color: var(--accent-strong);
+}
+
+.support-nudge-slot {
+  display: block;
+}
+
+.video-support-nudge-slot:has(.support-nudge-card:not([hidden])) {
+  padding: 10px 14px 0;
+}
+
+.support-nudge-card {
+  display: grid;
+  gap: 10px;
+  padding: 11px;
+  border: 1px solid rgba(200, 244, 209, 0.2);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(200, 244, 209, 0.085), rgba(200, 244, 209, 0.03)),
+    rgba(8, 14, 11, 0.46);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.035);
+}
+
+.support-nudge-card[hidden] {
+  display: none;
+}
+
+.support-nudge-copy {
+  display: grid;
+  gap: 3px;
+}
+
+.support-nudge-copy strong {
+  color: var(--text-primary);
+  font-size: 13px;
+  font-weight: 750;
+  line-height: 1.25;
+}
+
+.support-nudge-copy span {
+  color: var(--text-secondary);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.support-nudge-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.support-nudge-link,
+.support-nudge-dismiss {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  min-height: 28px;
+  padding: 5px 10px;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  background: rgba(112, 230, 189, 0.1);
+  color: var(--accent-green);
+  font: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color 120ms ease, border-color 120ms ease, color 120ms ease;
+}
+
+.support-nudge-link.secondary,
+.support-nudge-dismiss {
+  border-color: var(--border-subtle);
+  background: rgba(255, 255, 255, 0.026);
+  color: var(--text-secondary);
+}
+
+.support-nudge-link:hover,
+.support-nudge-dismiss:hover {
+  border-color: rgba(200, 244, 209, 0.46);
+  background: rgba(200, 244, 209, 0.13);
+  color: var(--accent-strong);
+}
+
 .spinner {
   width: 24px;
   height: 24px;
@@ -1321,6 +1463,30 @@ body::before {
 #footer-time {
   color: var(--text-tertiary);
   white-space: nowrap;
+}
+
+.support-link {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  min-height: 26px;
+  padding: 4px 9px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  color: var(--text-tertiary);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 120ms ease, border-color 120ms ease, color 120ms ease;
+}
+
+.support-link:hover {
+  border-color: var(--border-subtle);
+  background: rgba(200, 244, 209, 0.08);
+  color: var(--accent-green);
 }
 
 .action-btn {
@@ -1422,6 +1588,10 @@ body::before {
 
 .action-btn:focus-visible,
 .jump-current-btn:focus-visible,
+.support-link:focus-visible,
+.support-card-link:focus-visible,
+.support-nudge-link:focus-visible,
+.support-nudge-dismiss:focus-visible,
 .language-trigger:focus-visible,
 .language-option:focus-visible,
 .search-container input:focus-visible,

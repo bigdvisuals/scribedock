@@ -24,6 +24,18 @@ function getCssRule(selector) {
   return sidePanelCss.slice(ruleStart, ruleEnd + 2);
 }
 
+function getSupportLinks() {
+  return sidePanelHtml.match(/<a\b(?=[^>]*\bdata-support-link\b)[^>]*>[\s\S]*?<\/a>/g) || [];
+}
+
+function getSupportNudgeMarkup() {
+  const start = sidePanelHtml.indexOf('<div class="support-nudge-card" id="support-nudge-card"');
+  assert.notEqual(start, -1, "Missing support nudge card");
+  const end = sidePanelHtml.indexOf('<div class="content-region">', start);
+  assert.notEqual(end, -1, "Missing support nudge card boundary");
+  return sidePanelHtml.slice(start, end);
+}
+
 test("side panel guards optional footer elements before using them", () => {
   assert.match(sidePanelScript, /if \(elements\.footer\) \{/);
   assert.match(sidePanelScript, /if \(elements\.lineCount\) \{/);
@@ -102,6 +114,89 @@ test("side panel footer keeps status text and jump action on one clean row", () 
     sidePanelCss,
     /\.jump-current-btn\s*\{[\s\S]*?margin:\s*0;[\s\S]*?min-height:\s*26px;[\s\S]*?white-space:\s*nowrap;/,
   );
+});
+
+test("side panel exposes visible support links safely", () => {
+  const supportLinks = getSupportLinks();
+  const channelModeStart = sidePanelHtml.indexOf('<div class="channel-state" id="state-channel-mode" hidden>');
+  const playlistModeStart = sidePanelHtml.indexOf('<div class="playlist-state" id="state-playlist-mode" hidden>');
+  const loadingStateStart = sidePanelHtml.indexOf('<div class="empty-state" id="state-loading" hidden>');
+  const channelModeMarkup = sidePanelHtml.slice(channelModeStart, playlistModeStart);
+  const playlistModeMarkup = sidePanelHtml.slice(playlistModeStart, loadingStateStart);
+
+  assert.ok(supportLinks.length >= 2, "Expected multiple support links");
+  assert.equal((sidePanelHtml.match(/<div class="support-card">/g) || []).length, 2);
+  assert.match(channelModeMarkup, /<div class="channel-actions">[\s\S]*?<\/div>\s*<div class="support-card">/);
+  assert.match(playlistModeMarkup, /<div class="channel-actions">[\s\S]*?<\/div>\s*<div class="support-card">/);
+  assert.match(sidePanelHtml, /<strong>ScribeDock is free\.<\/strong>/);
+  assert.match(sidePanelHtml, /<span>Support helps fund fixes and better exports\.<\/span>/);
+  assert.doesNotMatch(sidePanelHtml, /id="support-link"/);
+
+  supportLinks.forEach((supportLink) => {
+    assert.match(supportLink, /href="https:\/\/ko-fi\.com\/scribedock"/);
+    assert.match(supportLink, /target="_blank"/);
+    assert.match(supportLink, /rel="noopener noreferrer"/);
+  });
+
+  assert.match(sidePanelScript, /const SUPPORT_URL = 'https:\/\/ko-fi\.com\/scribedock';/);
+  assert.match(
+    sidePanelScript,
+    /supportLinks: Array\.from\(document\.querySelectorAll\('\[data-support-link\]'\)\)/,
+  );
+  assert.match(
+    sidePanelScript,
+    /elements\.supportLinks\.forEach\(\(supportLink\) => \{[\s\S]*?supportLink\.href = SUPPORT_URL;[\s\S]*?supportLink\.target = '_blank';[\s\S]*?supportLink\.rel = 'noopener noreferrer';/,
+  );
+  assert.match(sidePanelCss, /\.support-card\s*\{/);
+  assert.match(sidePanelCss, /\.support-card-copy\s*\{/);
+  assert.match(sidePanelCss, /\.support-card-link\s*\{/);
+  assert.match(sidePanelCss, /\.support-link\s*\{/);
+});
+
+test("side panel shows a one-time post-download support nudge safely", () => {
+  const supportNudgeMarkup = getSupportNudgeMarkup();
+
+  assert.match(sidePanelHtml, /id="support-nudge-video-slot"/);
+  assert.match(sidePanelHtml, /id="support-nudge-channel-slot"/);
+  assert.match(sidePanelHtml, /id="support-nudge-playlist-slot"/);
+  assert.match(
+    supportNudgeMarkup,
+    /id="support-nudge-card"[\s\S]*role="status"[\s\S]*aria-live="polite"[\s\S]*hidden/,
+  );
+  assert.match(supportNudgeMarkup, /ScribeDock saved you time\?/);
+  assert.match(
+    supportNudgeMarkup,
+    /Support future fixes and better exports, or send an idea for what to improve next\./,
+  );
+  assert.match(
+    supportNudgeMarkup,
+    /data-support-nudge-action="support"[\s\S]*href="https:\/\/ko-fi\.com\/scribedock"[\s\S]*target="_blank"[\s\S]*rel="noopener noreferrer"/,
+  );
+  assert.match(
+    supportNudgeMarkup,
+    /data-feedback-link[\s\S]*data-support-nudge-action="feedback"[\s\S]*href="https:\/\/ko-fi\.com\/scribedock"[\s\S]*target="_blank"[\s\S]*rel="noopener noreferrer"/,
+  );
+  assert.match(supportNudgeMarkup, /aria-label="Suggest an idea or support ScribeDock on Ko-fi"/);
+  assert.match(supportNudgeMarkup, /id="btn-support-nudge-dismiss"[\s\S]*>Not now<\/button>/);
+  assert.doesNotMatch(sidePanelHtml, /role="dialog"/);
+
+  assert.match(sidePanelScript, /const SUPPORT_NUDGE_DOWNLOAD_THRESHOLD = 2;/);
+  assert.match(sidePanelScript, /const SUPPORT_NUDGE_STORAGE_KEY = 'scribedockSupportNudge';/);
+  assert.match(sidePanelScript, /return chrome\.storage\.local;/);
+  assert.match(sidePanelScript, /downloadCount: supportNudgeState\.downloadCount/);
+  assert.match(sidePanelScript, /hasShown: supportNudgeState\.hasShown/);
+  assert.match(sidePanelScript, /storageArea\.get\(\[SUPPORT_NUDGE_STORAGE_KEY\]/);
+  assert.match(sidePanelScript, /storageArea\.set\(\{\s*\[SUPPORT_NUDGE_STORAGE_KEY\]:/);
+  assert.match(sidePanelScript, /function renderSupportNudge/);
+  assert.match(sidePanelScript, /function recordSuccessfulDownloadForSupportNudge/);
+  assert.match(sidePanelScript, /supportNudgeState\.downloadCount \+= 1;/);
+  assert.match(sidePanelScript, /supportNudgeState\.downloadCount >= SUPPORT_NUDGE_DOWNLOAD_THRESHOLD/);
+  assert.match(sidePanelScript, /function markSupportNudgeShown/);
+  assert.match(sidePanelScript, /supportNudgeState\.hasShown = true;/);
+  assert.match(sidePanelScript, /recordSuccessfulDownloadForSupportNudge\(\);/);
+  assert.match(sidePanelCss, /\.support-nudge-card\s*\{/);
+  assert.match(sidePanelCss, /\.support-nudge-card\[hidden\]\s*\{/);
+  assert.match(sidePanelCss, /\.support-nudge-actions\s*\{/);
 });
 
 test("side panel visual system uses colorful app-style accent tokens", () => {
@@ -625,7 +720,10 @@ test("bulk ZIP downloads expose format choice and guarded preparing states", () 
   assert.match(sidePanelScript, /function setBulkExportFormat/);
   assert.match(sidePanelScript, /toggleBulkFormatMenu/);
   assert.match(sidePanelScript, /Preparing ZIP\.\.\./);
-  assert.match(sidePanelScript, /Downloading\.\.\./);
+  assert.match(sidePanelScript, /BULK_ZIP_TRANSCRIPTS_PER_PART = 100/);
+  assert.match(sidePanelScript, /createBulkZipParts/);
+  assert.match(sidePanelScript, /Preparing ZIP part/);
+  assert.match(sidePanelScript, /Downloading ZIP/);
   assert.match(sidePanelScript, /showZipDownloadError/);
   assert.match(sidePanelScript, /downloadBlobWithChromeDownloads/);
   assert.match(sidePanelScript, /await exportHelpers\.downloadBlobWithChromeDownloads/);

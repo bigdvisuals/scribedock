@@ -5,6 +5,7 @@ node_modules/
 .env
 .env.*
 secrets/
+.codex-*
 
 # Generated extension packages
 dist/
@@ -15,6 +16,8 @@ dist/
 .parcel-cache/
 .playwright-mcp/
 coverage/
+playwright-report/
+test-results/
 tmp/
 temp/
 *.log
@@ -34,6 +37,8 @@ desktop.ini
 *.swp
 *.swo
 *~
+*.bak
+*.tmp
 
 # Local knowledge vault or archive folders
 VIBE_CODER_AI_CODING_MASTER_LIBRARY/

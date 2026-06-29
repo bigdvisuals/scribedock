@@ -4,29 +4,26 @@ Thanks for helping improve ScribeDock.
 
 ## Local Setup
 
-1. Install Node.js if it is not already installed.
+1. Install Node.js.
 2. Clone the repository.
-3. Run tests before changing behavior:
+3. Load the extension locally from `chrome://extensions`.
+4. Run the automated tests:
 
 ```bash
 npm test
 ```
 
-## Development Notes
+## Development Guidelines
 
 - Keep changes small and focused.
-- Do not commit secrets, `.env` files, Chrome Web Store ZIP files, or private local notes.
+- Do not commit secrets, `.env` files, packaged ZIP files, local tool output, or private notes.
 - Keep extension source files in `manifest.json` and `src/`.
-- Keep tests in `tests/`.
-- Use the existing package script for release ZIPs:
-
-```bash
-npm run package
-```
+- Keep automated tests in `tests/`.
+- Use `npm run package` for Chrome Web Store release ZIPs.
 
 ## Pull Request Checklist
 
 - Explain what changed and why.
 - Run `npm test`.
-- If release files changed, run `npm run package`.
-- Load the extension locally from `chrome://extensions` and check the main transcript workflow.
+- Run `npm run package` if release files or packaging behavior changed.
+- Manually load the extension in Chrome and verify the main transcript workflow.

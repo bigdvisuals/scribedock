@@ -1,42 +1,47 @@
 # Manual QA Checklist
 
-Use this checklist on real YouTube pages after loading the unpacked extension from this project folder.
+Use this checklist before packaging or publishing ScribeDock. These checks require real YouTube pages because transcript availability depends on YouTube data.
 
 ## Setup
 
+- [ ] Remove and load the extension fresh, then confirm the welcome guide opens once.
+- [ ] Reload or update the extension, then confirm the welcome guide does not reopen.
+- [ ] On the welcome guide, click `Open YouTube`, `How it works`, `Support ScribeDock`, and `Leave feedback`.
+- [ ] On the welcome guide, click `Open Side Panel` and confirm the side panel opens or a clear fallback message appears.
 - [ ] Reload the extension at `chrome://extensions`.
-- [ ] Open the side panel with the extension action.
-- [ ] Confirm the panel says it works only on YouTube when a non-YouTube tab is active.
+- [ ] Open ScribeDock from the extension action.
+- [ ] Confirm a non-YouTube tab shows the unsupported-page state.
 
 ## Transcript Loading
 
-- [ ] Manual captions: open a video with creator-provided captions and confirm rows load with timestamps.
-- [ ] Auto-generated captions: open a video with auto captions and confirm rows load.
-- [ ] No captions: open a video without captions and confirm the message says YouTube does not expose captions.
-- [ ] Non-English captions: choose a non-English language and confirm rows match that language.
-- [ ] Translated English captions: choose an English translated track and confirm it does not fall back to original-language native rows.
-- [ ] Shorts with captions: open a Short with captions and confirm rows load.
-- [ ] Shorts without captions: open a Short without captions and confirm a clear no-transcript state.
-- [ ] Live stream replay: open a replay with captions and confirm transcript loading or an honest unavailable state.
-- [ ] Unavailable/private/deleted video: open a known unavailable video URL and confirm the panel does not blame the user.
+- [ ] Manual captions: rows load with timestamps.
+- [ ] Auto-generated captions: rows load with timestamps.
+- [ ] No captions: the panel shows a clear unavailable state.
+- [ ] Non-English captions: selected rows match the chosen language.
+- [ ] Translated captions: translated rows do not fall back to the original-language native transcript.
+- [ ] Shorts with captions: rows load correctly.
+- [ ] Shorts without captions: the panel shows a clear unavailable state.
+- [ ] Live stream replay: transcript loading works or fails with a clear message.
+- [ ] Unavailable, private, or deleted video: the panel does not blame the user.
 
 ## YouTube Navigation
 
-- [ ] SPA navigation without page refresh: move from one video to another and confirm old rows clear while the new video loads.
-- [ ] Playlist page: open a playlist, scan it, and confirm available transcripts and skipped videos are counted.
-- [ ] Channel Videos tab: open a channel Videos tab, scan visible videos, and confirm only visible videos are included.
-- [ ] Channel Shorts tab: open a channel Shorts tab, scan visible Shorts, and confirm only visible Shorts are included.
-- [ ] Extension reload: reload the extension while YouTube is open, then reopen the panel and confirm loading still works.
+- [ ] Moving between videos without a refresh clears old rows before loading the next transcript.
+- [ ] Playlist page scan counts available transcripts and skipped videos.
+- [ ] Channel Videos tab scan includes only visible videos.
+- [ ] Channel Shorts tab scan includes only visible Shorts.
+- [ ] Reloading the extension while YouTube is open still allows the panel to recover.
 
 ## Export
 
-- [ ] TXT export: download TXT from a loaded transcript and confirm title, URL, timestamps, and text are present.
-- [ ] Markdown export: download Markdown and confirm it has a title, URL, and timestamped bullet rows.
-- [ ] JSON export: download JSON data and confirm metadata plus `rows` are present.
-- [ ] ZIP export: download channel and playlist ZIPs and confirm transcript files, `manifest.json`, and failed-video reports are included.
+- [ ] TXT export includes title, URL, timestamps, and transcript text.
+- [ ] Markdown export includes title, URL, and timestamped rows.
+- [ ] JSON export includes metadata and `rows`.
+- [ ] Channel and playlist ZIP exports include transcript files, `manifest.json`, and failed-video reports.
+- [ ] After 2 successful downloads, the one-time support/feedback nudge appears and can be dismissed.
 
 ## Stress And Network
 
-- [ ] Huge transcript: open a long video and confirm search, scrolling, and export still work.
-- [ ] Slow internet: throttle the network in DevTools and confirm loading, timeout, or retry states are clear.
-- [ ] Retry: use the Retry button after a failed load and confirm the panel attempts the current video again.
+- [ ] Long transcript: search, scrolling, and export remain usable.
+- [ ] Slow network: loading, timeout, and retry states are clear.
+- [ ] Retry action attempts the current video again after a failed load.
