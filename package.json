@@ -1,18 +1,23 @@
 {
   "name": "scribedock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "ScribeDock is a clean Chrome extension for reading, searching, copying, and exporting YouTube transcripts.",
   "scripts": {
     "test": "node --test tests/*.test.cjs",
     "package": "node scripts/package-extension.cjs"
   },
-  "main": "index.js",
   "directories": {
     "test": "tests"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "chrome-extension",
+    "youtube",
+    "transcripts",
+    "manifest-v3",
+    "javascript"
+  ],
+  "author": "bigdvisuals",
   "license": "MIT",
   "type": "commonjs"
 }

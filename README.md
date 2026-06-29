@@ -19,6 +19,7 @@ It is built as a Manifest V3 Chrome extension with plain JavaScript, HTML, and C
 - Copy transcript text to the clipboard
 - Export transcripts as TXT, Markdown, or JSON
 - Scan supported playlist and channel pages for transcript export workflows
+- Open a short welcome guide on first install so new users know what to do next
 - Handle YouTube single-page navigation without stale transcript rows
 - Support YouTube video pages, Shorts, playlists, and channel tabs when transcript data is available
 - Package only extension release files for Chrome Web Store upload
@@ -35,7 +36,8 @@ Use these steps to load the extension locally:
 2. Enable Developer Mode.
 3. Click "Load unpacked".
 4. Select this project folder.
-5. Open a supported YouTube page and click the ScribeDock extension button.
+5. Confirm the welcome guide opens on first install.
+6. Open a supported YouTube page and click the ScribeDock extension button.
 
 For release testing, run the package command, unzip the generated ZIP from `dist/` into a temporary folder, and load that unpacked folder in Chrome.
 
@@ -74,7 +76,7 @@ Create a Chrome Web Store ZIP:
 npm run package
 ```
 
-The package script writes `dist/scribedock-1.0.0.zip` and includes only:
+The package script writes `dist/scribedock-1.0.1.zip` and includes only:
 
 - `manifest.json`
 - `src/`

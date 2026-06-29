@@ -33,6 +33,7 @@ test("side panel has the permissions needed to read and message YouTube tabs", (
   assert.ok(manifest.host_permissions.includes("https://youtube.com/*"));
   assert.ok(manifest.host_permissions.includes("https://m.youtube.com/*"));
   assert.equal(manifest.host_permissions.includes("<all_urls>"), false);
+  assert.equal(manifest.web_accessible_resources, undefined);
 });
 
 test("extension action opens the side panel without unused popup files", () => {

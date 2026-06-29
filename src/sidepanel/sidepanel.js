@@ -42,6 +42,14 @@ document.addEventListener('DOMContentLoaded', () => {
     lineCount: document.getElementById('line-count'),
     followStatus: document.getElementById('follow-status'),
     footerTime: document.getElementById('footer-time'),
+    supportLinks: Array.from(document.querySelectorAll('[data-support-link]')),
+    feedbackLinks: Array.from(document.querySelectorAll('[data-feedback-link]')),
+    supportNudgeCard: document.getElementById('support-nudge-card'),
+    supportNudgeVideoSlot: document.getElementById('support-nudge-video-slot'),
+    supportNudgeChannelSlot: document.getElementById('support-nudge-channel-slot'),
+    supportNudgePlaylistSlot: document.getElementById('support-nudge-playlist-slot'),
+    supportNudgeActionLinks: Array.from(document.querySelectorAll('[data-support-nudge-action]')),
+    btnSupportNudgeDismiss: document.getElementById('btn-support-nudge-dismiss'),
     stateNotYoutube: document.getElementById('state-not-youtube'),
     stateChannelMode: document.getElementById('state-channel-mode'),
     statePlaylistMode: document.getElementById('state-playlist-mode'),
@@ -116,6 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let isExportMenuOpen = false;
   let openBulkFormatMenuMode = '';
   let focusedLanguageOptionIndex = -1;
+  let supportNudgeReady = Promise.resolve();
   const sidePanelState = {
     videoId: null,
     videoUrl: '',
@@ -136,10 +145,21 @@ document.addEventListener('DOMContentLoaded', () => {
     playlistScanState: null,
     isPreparingZip: false
   };
+  const supportNudgeState = {
+    downloadCount: 0,
+    hasShown: false,
+    isVisible: false,
+    isLoaded: false
+  };
   const STATE_REFRESH_INTERVAL_MS = 250;
   const MAX_LOADING_MS = 15000;
   const TRANSCRIPT_SYNC_OFFSET_SECONDS = 0.35;
   const MANUAL_SEEK_LOCK_MS = 700;
+  const SUPPORT_URL = 'https://ko-fi.com/scribedock';
+  const FEEDBACK_URL = SUPPORT_URL;
+  const SUPPORT_NUDGE_STORAGE_KEY = 'scribedockSupportNudge';
+  const SUPPORT_NUDGE_DOWNLOAD_THRESHOLD = 2;
+  const BULK_ZIP_TRANSCRIPTS_PER_PART = 100;
   const COMMON_LANGUAGE_PRIORITY = [
     'en',
     'es',
@@ -151,6 +171,158 @@ document.addEventListener('DOMContentLoaded', () => {
     'ja',
     'ko'
   ];
+
+  elements.supportLinks.forEach((supportLink) => {
+    supportLink.href = SUPPORT_URL;
+    supportLink.target = '_blank';
+    supportLink.rel = 'noopener noreferrer';
+  });
+
+  elements.feedbackLinks.forEach((feedbackLink) => {
+    feedbackLink.href = FEEDBACK_URL;
+    feedbackLink.target = '_blank';
+    feedbackLink.rel = 'noopener noreferrer';
+  });
+
+  function getSupportNudgeStorageArea() {
+    if (
+      typeof chrome === 'undefined' ||
+      !chrome.storage ||
+      !chrome.storage.local
+    ) {
+      return null;
+    }
+
+    return chrome.storage.local;
+  }
+
+  function normalizeSupportNudgeState(storedState) {
+    const safeState = storedState || {};
+    const downloadCount = Number(safeState.downloadCount);
+
+    supportNudgeState.downloadCount = Number.isFinite(downloadCount)
+      ? Math.max(0, Math.floor(downloadCount))
+      : 0;
+    supportNudgeState.hasShown = Boolean(safeState.hasShown);
+    supportNudgeState.isVisible = false;
+    supportNudgeState.isLoaded = true;
+  }
+
+  function loadSupportNudgeState() {
+    const storageArea = getSupportNudgeStorageArea();
+
+    return new Promise((resolve) => {
+      if (!storageArea || typeof storageArea.get !== 'function') {
+        normalizeSupportNudgeState(null);
+        renderSupportNudge();
+        resolve();
+        return;
+      }
+
+      storageArea.get([SUPPORT_NUDGE_STORAGE_KEY], (result) => {
+        normalizeSupportNudgeState(result && result[SUPPORT_NUDGE_STORAGE_KEY]);
+        renderSupportNudge();
+        resolve();
+      });
+    });
+  }
+
+  function saveSupportNudgeState() {
+    const storageArea = getSupportNudgeStorageArea();
+
+    if (!storageArea || typeof storageArea.set !== 'function') {
+      return Promise.resolve();
+    }
+
+    return new Promise((resolve) => {
+      storageArea.set({
+        [SUPPORT_NUDGE_STORAGE_KEY]: {
+          downloadCount: supportNudgeState.downloadCount,
+          hasShown: supportNudgeState.hasShown
+        }
+      }, resolve);
+    });
+  }
+
+  function getSupportNudgeSlotForState() {
+    if (sidePanelState.status === 'channel') {
+      return elements.supportNudgeChannelSlot;
+    }
+
+    if (sidePanelState.status === 'playlist') {
+      return elements.supportNudgePlaylistSlot;
+    }
+
+    return elements.supportNudgeVideoSlot;
+  }
+
+  function moveSupportNudgeToActiveSlot() {
+    const targetSlot = getSupportNudgeSlotForState();
+
+    if (!elements.supportNudgeCard || !targetSlot) {
+      return;
+    }
+
+    if (elements.supportNudgeCard.parentElement !== targetSlot) {
+      targetSlot.appendChild(elements.supportNudgeCard);
+    }
+  }
+
+  function renderSupportNudge() {
+    if (!elements.supportNudgeCard) {
+      return;
+    }
+
+    const canShowInState = sidePanelState.status === 'loaded' ||
+      sidePanelState.status === 'channel' ||
+      sidePanelState.status === 'playlist';
+
+    if (canShowInState) {
+      moveSupportNudgeToActiveSlot();
+    }
+
+    elements.supportNudgeCard.hidden = !(canShowInState && supportNudgeState.isVisible);
+  }
+
+  async function markSupportNudgeShown() {
+    await supportNudgeReady;
+    supportNudgeState.hasShown = true;
+    supportNudgeState.isVisible = false;
+    renderSupportNudge();
+    await saveSupportNudgeState();
+  }
+
+  async function recordSuccessfulDownloadForSupportNudge() {
+    await supportNudgeReady;
+
+    if (supportNudgeState.hasShown) {
+      return;
+    }
+
+    supportNudgeState.downloadCount += 1;
+
+    if (supportNudgeState.downloadCount >= SUPPORT_NUDGE_DOWNLOAD_THRESHOLD) {
+      supportNudgeState.hasShown = true;
+      supportNudgeState.isVisible = true;
+    }
+
+    renderSupportNudge();
+    await saveSupportNudgeState();
+  }
+
+  elements.supportNudgeActionLinks.forEach((supportNudgeActionLink) => {
+    supportNudgeActionLink.addEventListener('click', () => {
+      markSupportNudgeShown();
+    });
+  });
+
+  if (elements.btnSupportNudgeDismiss) {
+    elements.btnSupportNudgeDismiss.addEventListener('click', () => {
+      markSupportNudgeShown();
+    });
+  }
+
+  supportNudgeReady = loadSupportNudgeState();
 
   function setStatusPillState(pill, statusState) {
     if (!pill) {
@@ -195,6 +367,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const showHeaderAndToolbar = stateName === 'loaded' || stateName === 'no-transcript' || stateName === 'loading';
     elements.header.hidden = !showHeaderAndToolbar;
     elements.toolbar.hidden = !showHeaderAndToolbar;
+    renderSupportNudge();
     
     const exportDisabled = stateName !== 'loaded';
     elements.btnCopy.disabled = exportDisabled;
@@ -2007,9 +2180,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const exportHelpers = window.YTTranscriptExport;
     const text = exportHelpers.buildPlainTextTranscript(title, safeState.videoUrl || '', rows);
     const filename = exportHelpers.createSafeFileName(title, 'txt');
+    const didDownload = exportHelpers.downloadTextFile(filename, text, document);
 
-    exportHelpers.downloadTextFile(filename, text, document);
-    return true;
+    if (didDownload) {
+      recordSuccessfulDownloadForSupportNudge();
+    }
+
+    return Boolean(didDownload);
   }
 
   function buildCurrentExportState() {
@@ -2041,11 +2218,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const exportHelpers = window.YTTranscriptExport;
     const markdown = exportHelpers.buildMarkdownTranscript(title, safeState.videoUrl || '', rows);
 
-    exportHelpers.downloadTextFile(
+    const didDownload = exportHelpers.downloadTextFile(
       exportHelpers.createSafeFileName(title, 'md'),
       markdown,
       document
     );
+
+    if (didDownload) {
+      recordSuccessfulDownloadForSupportNudge();
+    }
   }
 
   function exportJsonTranscript() {
@@ -2069,12 +2250,16 @@ document.addEventListener('DOMContentLoaded', () => {
       rows
     });
 
-    exportHelpers.downloadTextFile(
+    const didDownload = exportHelpers.downloadTextFile(
       exportHelpers.createSafeFileName(title, 'json'),
       json,
       document,
       'application/json;charset=utf-8'
     );
+
+    if (didDownload) {
+      recordSuccessfulDownloadForSupportNudge();
+    }
   }
 
   elements.btnExportToggle.addEventListener('click', toggleExportMenu);
@@ -2284,6 +2469,14 @@ document.addEventListener('DOMContentLoaded', () => {
     console.error('ZIP download failed', error);
   }
 
+  function createBulkZipParts(exportHelpers, successfulVideos) {
+    if (exportHelpers && typeof exportHelpers.createBulkZipParts === 'function') {
+      return exportHelpers.createBulkZipParts(successfulVideos, BULK_ZIP_TRANSCRIPTS_PER_PART);
+    }
+
+    return [successfulVideos];
+  }
+
   async function downloadChannelZip() {
     if (sidePanelState.isPreparingZip) {
       return;
@@ -2319,7 +2512,6 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       const downloadedAt = new Date().toISOString();
-      const zip = new zipCtor();
       const successfulVideos = exportData.successes.map((video, index) => {
         const filename = exportHelpers.createBulkTranscriptFileName(index + 1, video.title, format, true, video.videoId);
 
@@ -2329,46 +2521,66 @@ document.addEventListener('DOMContentLoaded', () => {
           filename
         };
       });
+      const zipParts = createBulkZipParts(exportHelpers, successfulVideos);
+      const totalZipParts = zipParts.length;
 
-      successfulVideos.forEach((video) => {
-        zip.file(
-          video.filename,
-          exportHelpers.buildBulkTranscriptFile(video, format, exportData.channelName, downloadedAt)
+      for (let partIndex = 0; partIndex < totalZipParts; partIndex += 1) {
+        const partVideos = zipParts[partIndex];
+        const zip = new zipCtor();
+        const partLabel = totalZipParts > 1 ? ` ${partIndex + 1}/${totalZipParts}` : '';
+
+        elements.btnDownloadChannelZip.textContent = `Preparing ZIP${partLabel}...`;
+        if (totalZipParts > 1) {
+          elements.channelHelperText.textContent = `Preparing ZIP part ${partIndex + 1} of ${totalZipParts}.`;
+        }
+
+        partVideos.forEach((video) => {
+          zip.file(
+            video.filename,
+            exportHelpers.buildBulkTranscriptFile(video, format, exportData.channelName, downloadedAt)
+          );
+        });
+        zip.file('manifest.json', exportHelpers.buildChannelManifest({
+          channelName: exportData.channelName,
+          channelUrl: exportData.channelUrl,
+          exportedAt: downloadedAt,
+          totalDiscoveredVideos: exportData.discoveredCount,
+          scanStatus: exportData.status,
+          preferredTranscriptLanguage: exportData.preferredTranscriptLanguage,
+          successes: partVideos,
+          failures: exportData.failures
+        }));
+        zip.file('README.txt', exportHelpers.buildChannelReadme({
+          channelName: exportData.channelName,
+          channelUrl: exportData.channelUrl,
+          exportedAt: downloadedAt,
+          scanStatus: exportData.status,
+          totalVisibleVideos: exportData.discoveredCount,
+          successes: partVideos,
+          failures: exportData.failures
+        }));
+        zip.file('failed-videos.txt', exportHelpers.buildFailedVideosReport(exportData.failures));
+
+        const blob = await zip.generateAsync({
+          type: 'blob',
+          compression: 'DEFLATE'
+        });
+
+        elements.btnDownloadChannelZip.textContent = `Downloading ZIP${partLabel}...`;
+
+        await exportHelpers.downloadBlobWithChromeDownloads(
+          exportHelpers.createChannelZipFileName(
+            exportData.channelName,
+            exportData.channelTab,
+            partIndex + 1,
+            totalZipParts
+          ),
+          blob,
+          { chromeApi: chrome, urlApi: URL }
         );
-      });
-      zip.file('manifest.json', exportHelpers.buildChannelManifest({
-        channelName: exportData.channelName,
-        channelUrl: exportData.channelUrl,
-        exportedAt: downloadedAt,
-        totalDiscoveredVideos: exportData.discoveredCount,
-        scanStatus: exportData.status,
-        preferredTranscriptLanguage: exportData.preferredTranscriptLanguage,
-        successes: successfulVideos,
-        failures: exportData.failures
-      }));
-      zip.file('README.txt', exportHelpers.buildChannelReadme({
-        channelName: exportData.channelName,
-        channelUrl: exportData.channelUrl,
-        exportedAt: downloadedAt,
-        scanStatus: exportData.status,
-        totalVisibleVideos: exportData.discoveredCount,
-        successes: successfulVideos,
-        failures: exportData.failures
-      }));
-      zip.file('failed-videos.txt', exportHelpers.buildFailedVideosReport(exportData.failures));
+      }
 
-      const blob = await zip.generateAsync({
-        type: 'blob',
-        compression: 'DEFLATE'
-      });
-
-      elements.btnDownloadChannelZip.textContent = 'Downloading...';
-
-      await exportHelpers.downloadBlobWithChromeDownloads(
-        exportHelpers.createChannelZipFileName(exportData.channelName, exportData.channelTab),
-        blob,
-        { chromeApi: chrome, urlApi: URL }
-      );
+      recordSuccessfulDownloadForSupportNudge();
     } catch (error) {
       showZipDownloadError(elements.channelHelperText, error);
     } finally {
@@ -2430,7 +2642,6 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       const downloadedAt = new Date().toISOString();
-      const zip = new zipCtor();
       const successfulVideos = exportData.successes.map((video, index) => {
         const filename = exportHelpers.createBulkTranscriptFileName(index + 1, video.title, format, false, video.videoId);
 
@@ -2440,35 +2651,54 @@ document.addEventListener('DOMContentLoaded', () => {
           filename
         };
       });
+      const zipParts = createBulkZipParts(exportHelpers, successfulVideos);
+      const totalZipParts = zipParts.length;
 
-      successfulVideos.forEach((video) => {
-        zip.file(
-          video.filename,
-          exportHelpers.buildBulkTranscriptFile(video, format, exportData.playlistTitle, downloadedAt)
+      for (let partIndex = 0; partIndex < totalZipParts; partIndex += 1) {
+        const partVideos = zipParts[partIndex];
+        const zip = new zipCtor();
+        const partLabel = totalZipParts > 1 ? ` ${partIndex + 1}/${totalZipParts}` : '';
+
+        elements.btnDownloadPlaylistZip.textContent = `Preparing ZIP${partLabel}...`;
+        if (totalZipParts > 1) {
+          elements.playlistHelperText.textContent = `Preparing ZIP part ${partIndex + 1} of ${totalZipParts}.`;
+        }
+
+        partVideos.forEach((video) => {
+          zip.file(
+            video.filename,
+            exportHelpers.buildBulkTranscriptFile(video, format, exportData.playlistTitle, downloadedAt)
+          );
+        });
+        zip.file('manifest.json', exportHelpers.buildPlaylistManifest({
+          playlistTitle: exportData.playlistTitle,
+          playlistUrl: exportData.playlistUrl,
+          exportedAt: downloadedAt,
+          totalVideosFound: exportData.discoveredCount,
+          successes: partVideos,
+          failures: exportData.failures
+        }));
+        zip.file('failed-videos.txt', exportHelpers.buildFailedVideosReport(exportData.failures));
+
+        const blob = await zip.generateAsync({
+          type: 'blob',
+          compression: 'DEFLATE'
+        });
+
+        elements.btnDownloadPlaylistZip.textContent = `Downloading ZIP${partLabel}...`;
+
+        await exportHelpers.downloadBlobWithChromeDownloads(
+          exportHelpers.createPlaylistZipFileName(
+            exportData.playlistTitle,
+            partIndex + 1,
+            totalZipParts
+          ),
+          blob,
+          { chromeApi: chrome, urlApi: URL }
         );
-      });
-      zip.file('manifest.json', exportHelpers.buildPlaylistManifest({
-        playlistTitle: exportData.playlistTitle,
-        playlistUrl: exportData.playlistUrl,
-        exportedAt: downloadedAt,
-        totalVideosFound: exportData.discoveredCount,
-        successes: successfulVideos,
-        failures: exportData.failures
-      }));
-      zip.file('failed-videos.txt', exportHelpers.buildFailedVideosReport(exportData.failures));
+      }
 
-      const blob = await zip.generateAsync({
-        type: 'blob',
-        compression: 'DEFLATE'
-      });
-
-      elements.btnDownloadPlaylistZip.textContent = 'Downloading...';
-
-      await exportHelpers.downloadBlobWithChromeDownloads(
-        exportHelpers.createPlaylistZipFileName(exportData.playlistTitle),
-        blob,
-        { chromeApi: chrome, urlApi: URL }
-      );
+      recordSuccessfulDownloadForSupportNudge();
     } catch (error) {
       showZipDownloadError(elements.playlistHelperText, error);
     } finally {

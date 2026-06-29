@@ -221,6 +221,20 @@
     return safeFormat === "md" || safeFormat === "json" ? safeFormat : "txt";
   }
 
+  function createBulkZipParts(items, maxItemsPerPart) {
+    var safeItems = Array.isArray(items) ? items : [];
+    var safeMaxItems = Math.max(1, Math.floor(Number(maxItemsPerPart) || 100));
+    var parts = [];
+    var index = 0;
+
+    while (index < safeItems.length) {
+      parts.push(safeItems.slice(index, index + safeMaxItems));
+      index += safeMaxItems;
+    }
+
+    return parts;
+  }
+
   function createBulkTranscriptFileName(index, videoTitle, format, includeVideoId, videoId) {
     var safeFormat = normalizeBulkExportFormat(format);
 
@@ -389,14 +403,39 @@
     return lines.join("\n");
   }
 
-  function createChannelZipFileName(channelName, channelTab) {
-    var safeTab = channelTab === "shorts" ? "shorts" : "videos";
+  function addZipPartSuffix(fileName, partIndex, totalParts) {
+    var safeTotalParts = Math.max(1, Math.floor(Number(totalParts) || 1));
+    var safePartIndex = Math.max(1, Math.floor(Number(partIndex) || 1));
+    var safeFileName = sanitizeDownloadFileName(fileName);
 
-    return createSafeSlug(channelName, "channel") + "-" + safeTab + "-transcripts.zip";
+    if (safeTotalParts <= 1) {
+      return safeFileName;
+    }
+
+    return safeFileName.replace(/\.zip$/i, "") +
+      "-part-" +
+      Math.min(safePartIndex, safeTotalParts) +
+      "-of-" +
+      safeTotalParts +
+      ".zip";
   }
 
-  function createPlaylistZipFileName(playlistTitle) {
-    return createSafeSlug(playlistTitle, "playlist") + "-playlist-transcripts.zip";
+  function createChannelZipFileName(channelName, channelTab, partIndex, totalParts) {
+    var safeTab = channelTab === "shorts" ? "shorts" : "videos";
+
+    return addZipPartSuffix(
+      createSafeSlug(channelName, "channel") + "-" + safeTab + "-transcripts.zip",
+      partIndex,
+      totalParts
+    );
+  }
+
+  function createPlaylistZipFileName(playlistTitle, partIndex, totalParts) {
+    return addZipPartSuffix(
+      createSafeSlug(playlistTitle, "playlist") + "-playlist-transcripts.zip",
+      partIndex,
+      totalParts
+    );
   }
 
   function sanitizeDownloadFileName(fileName) {
@@ -422,7 +461,14 @@
     var safeOptions = options || {};
     var chromeApi = safeOptions.chromeApi || root.chrome;
     var urlApi = safeOptions.urlApi || root.URL;
+    var fallbackRevokeDelayMs = Number.isFinite(Number(safeOptions.revokeDelayMs))
+      ? Math.max(0, Number(safeOptions.revokeDelayMs))
+      : 60000;
     var safeFileName = sanitizeDownloadFileName(fileName);
+    var cleanupTimer = null;
+    var downloadChangeListener = null;
+    var isSettled = false;
+    var isRevoked = false;
     var objectUrl;
 
     if (!blob) {
@@ -443,9 +489,118 @@
 
     return new Promise(function downloadZip(resolve, reject) {
       function revokeObjectUrl() {
-        if (objectUrl && urlApi && typeof urlApi.revokeObjectURL === "function") {
+        if (!isRevoked && objectUrl && urlApi && typeof urlApi.revokeObjectURL === "function") {
+          isRevoked = true;
           urlApi.revokeObjectURL(objectUrl);
         }
+      }
+
+      function removeDownloadListener() {
+        var onChanged = chromeApi &&
+          chromeApi.downloads &&
+          chromeApi.downloads.onChanged;
+
+        if (
+          downloadChangeListener &&
+          onChanged &&
+          typeof onChanged.removeListener === "function"
+        ) {
+          onChanged.removeListener(downloadChangeListener);
+        }
+
+        downloadChangeListener = null;
+      }
+
+      function clearCleanupTimer() {
+        if (cleanupTimer && root.clearTimeout) {
+          root.clearTimeout(cleanupTimer);
+        }
+
+        cleanupTimer = null;
+      }
+
+      function cleanupObjectUrl() {
+        clearCleanupTimer();
+        removeDownloadListener();
+        revokeObjectUrl();
+      }
+
+      function scheduleCleanup(onFallback) {
+        if (!root.setTimeout) {
+          if (typeof onFallback === "function") {
+            onFallback();
+          }
+          return;
+        }
+
+        cleanupTimer = root.setTimeout(function cleanUpAfterFallbackDelay() {
+          cleanupTimer = null;
+          if (typeof onFallback === "function") {
+            onFallback();
+          } else {
+            cleanupObjectUrl();
+          }
+        }, fallbackRevokeDelayMs);
+
+        if (cleanupTimer && typeof cleanupTimer.unref === "function") {
+          cleanupTimer.unref();
+        }
+      }
+
+      function settleWithResolve(downloadId) {
+        if (isSettled) {
+          return;
+        }
+
+        isSettled = true;
+        cleanupObjectUrl();
+        resolve(downloadId);
+      }
+
+      function settleWithReject(error) {
+        if (isSettled) {
+          return;
+        }
+
+        isSettled = true;
+        cleanupObjectUrl();
+        reject(error);
+      }
+
+      function watchDownloadUntilFinished(downloadId) {
+        var onChanged = chromeApi &&
+          chromeApi.downloads &&
+          chromeApi.downloads.onChanged;
+
+        if (
+          !onChanged ||
+          typeof onChanged.addListener !== "function" ||
+          typeof onChanged.removeListener !== "function"
+        ) {
+          scheduleCleanup();
+          resolve(downloadId);
+          return;
+        }
+
+        downloadChangeListener = function handleDownloadChanged(delta) {
+          var state = delta && delta.state ? delta.state.current : "";
+          var errorMessage = delta && delta.error ? delta.error.current : "";
+
+          if (!delta || delta.id !== downloadId || !state) {
+            return;
+          }
+
+          if (state === "complete") {
+            settleWithResolve(downloadId);
+          } else if (state === "interrupted") {
+            settleWithReject(new Error(errorMessage || "Chrome download was interrupted."));
+          }
+        };
+
+        onChanged.addListener(downloadChangeListener);
+        scheduleCleanup(function finishAfterFallbackDelay() {
+          settleWithResolve(downloadId);
+        });
       }
 
       try {
@@ -460,24 +615,21 @@
           function handleDownloadStarted(downloadId) {
             var lastErrorMessage = getChromeDownloadLastError(chromeApi);
 
-            revokeObjectUrl();
-
             if (lastErrorMessage) {
-              reject(new Error(lastErrorMessage));
+              settleWithReject(new Error(lastErrorMessage));
               return;
             }
 
             if (typeof downloadId !== "number") {
-              reject(new Error("Chrome did not start the ZIP download."));
+              settleWithReject(new Error("Chrome did not start the ZIP download."));
               return;
             }
 
-            resolve(downloadId);
+            watchDownloadUntilFinished(downloadId);
           }
         );
       } catch (error) {
-        revokeObjectUrl();
-        reject(error);
+        settleWithReject(error);
       }
     });
   }
@@ -545,6 +697,7 @@
     createChannelTranscriptFileName: createChannelTranscriptFileName,
     createChannelZipFileName: createChannelZipFileName,
     createBulkTranscriptFileName: createBulkTranscriptFileName,
+    createBulkZipParts: createBulkZipParts,
     createPlaylistTranscriptFileName: createPlaylistTranscriptFileName,
     createPlaylistZipFileName: createPlaylistZipFileName,
     createSafeFileName: createSafeFileName,
